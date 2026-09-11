@@ -1,16 +1,16 @@
 # Pashu Arogya Academy (LMS)
 
-A self-paced, instructor-free learning management system for **veterinarians and para-vets** working with dairy cattle and buffaloes. Built the same way as [Shreeja Learning Academy](../shreeja-lms) — a dependency-free static site (plain HTML/CSS/JS, no build step, no login, no backend) so it can be hosted anywhere or opened straight from a static file server.
+A self-paced, instructor-free learning management system for the **entire ground force** — field staff working around dairy cattle and buffaloes who may have **no prior animal or veterinary background at all**. Built the same way as [Shreeja Learning Academy](../shreeja-lms) — a dependency-free static site (plain HTML/CSS/JS, no build step, no login, no backend) so it can be hosted anywhere or opened straight from a static file server.
 
 Content is adapted from NDDB's *Handbook of Good Dairy Husbandry Practices* and *Ethnoveterinary Formulations for Important Ailments in Bovines*.
 
 ## Module 1: General Observation of an Animal
 
-Written for learners who already work with animals day to day (vets and para-vets), so the reading level is a notch more technical than a farmer-facing course — but still plain, direct language with every term explained.
+Written from zero — no assumption that the learner has ever worked with an animal before. Every term (rumen, ruminate, muzzle, backbone line, dry cow...) is explained in plain words the moment it's introduced, with everyday comparisons wherever they help. The course is deliberately framed around **notice and report, not diagnose and treat** — a ground-force learner's job is to spot that something looks different and tell the owner or a vet, never to decide on treatment themselves.
 
-1. **The Seven Questions for a Healthy Animal** — the quick behaviour/attitude/condition/appetite/excretion/milk-yield checklist every visit should start with.
-2. **Reading Vital Signs** — normal breathing rate, rumination rate, rumen movement, coat/appearance, and the classic signs of fever (cold ears/horns/legs, hot body).
-3. **Body Condition Scoring (BCS)** — the 5-point scale, what each score means for health/breeding risk, and a short case study applying it.
+1. **The Seven Questions for a Healthy Animal** — the quick behaviour/attitude/condition/appetite/excretion/milk-yield checklist every visit should start with, taught from first principles (what "observation" even means, what "ruminating" is).
+2. **Reading Vital Signs** — step-by-step instructions for counting breathing and feeling the stomach move, normal ranges explained in plain numbers, coat/appearance, and the classic surprising signs of fever (cold ears/horns/legs, hot body).
+3. **Body Condition Scoring (BCS)** — the 5-point scale explained without jargon (what a "backbone line" or "hip bone" actually is), what each score means for health/breeding risk, and a short case study applying it.
 
 Modules 2–17 are listed on the dashboard as "Coming soon" placeholders, titled directly from the source handbook's table of contents, ready to be filled in the same way (see "Adding the next module" below).
 
