@@ -376,9 +376,13 @@ button {
 
 .landing-hero-photo {
   position: relative;
-  background: linear-gradient(135deg, rgba(15, 45, 99, 0.93), rgba(37, 99, 235, 0.82)), url("assets/photo-cow-field.jpg");
+  background: linear-gradient(180deg, rgba(10, 30, 71, 0.72) 0%, rgba(10, 30, 71, 0.4) 45%, rgba(10, 30, 71, 0.62) 100%), url("assets/photo-cow-field.jpg");
   background-size: cover;
-  background-position: center 65%;
+  background-position: center 60%;
+}
+.landing-hero-photo h1,
+.landing-hero-photo p {
+  text-shadow: 0 2px 10px rgba(0, 0, 0, 0.45);
 }
 
 .landing-scene {
