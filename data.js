@@ -9654,8 +9654,8 @@ export const MODULES = [
   {
     id: "m17",
     number: 17,
-    title: L("Animal Identification & the INAPH Information Network"),
-    subtitle: L("Why every animal gets its own ID, and how good records help everyone."),
+    title: L("Animal Identification"),
+    subtitle: L("Why every animal gets its own ID, and how a simple ear tag makes lifelong records possible."),
     icon: "id",
     available: true,
     lessons: [
@@ -9775,16 +9775,9 @@ export const MODULES = [
           },
           {
             type: "text",
-            heading: L("From Tag Number to Animal 'Passport'"),
+            heading: L("From Tag Number to Animal Record"),
             html: L(
-              "<b>INAPH</b> records the ear tag number of each registered animal, along with details such as its breed, age, whether it is pregnant, its milk yield, its owner's details, and its village name. Together, this creates a permanent record for the animal — almost like a passport — that can be traced or transferred to any location in the country."
-            ),
-          },
-          {
-            type: "glossary",
-            term: L("INAPH"),
-            meaning: L(
-              "Short for 'Information Network for Animal Productivity and Health' — the national system that stores each animal's records using its unique ear tag number."
+              "Once an animal has its ear tag, its number can be used to keep a permanent record for that animal — details such as its breed, age, whether it is pregnant, its milk yield, its owner, and its village name — almost like a passport, that stays with the animal for life."
             ),
           },
           {
@@ -9846,7 +9839,7 @@ export const MODULES = [
         {
           topicId: "t-m17-ear-tag-system",
           type: "mcq",
-          q: L("What does INAPH create by recording an animal's ear tag together with its breed, age, and owner details?"),
+          q: L("What is created by recording an animal's ear tag together with its breed, age, and owner details?"),
           options: [
             L("Nothing useful — it is just stored and never used"),
             L("A permanent record, almost like a passport, that can be traced anywhere in the country"),
@@ -9870,272 +9863,6 @@ export const MODULES = [
           options: [L("Ear tagging"), L("Body condition scoring"), L("Milk testing"), L("Vaccination")],
           answer: 0,
           explain: L("Ear tagging — along with tattooing, branding, RFID, injectables and bolus — is a method of animal identification. The other options are not identification methods."),
-        },
-      ],
-    },
-  },
-
-  // ==================================================================
-  // LESSON 2 — INAPH: One Record System, Many Uses
-  // ==================================================================
-  {
-    id: "m17-l2",
-    title: L("INAPH: One Record System, Many Uses"),
-    estMinutes: 9,
-    hook: [
-      {
-        type: "hero",
-        heading: L("One Record System, Many Uses"),
-        text: L(
-          "Once an animal has its own ear tag, INAPH turns that number into real, everyday benefits for the farmer — reminders about health, tracking for breeding, and even help working out what to feed the animal. This lesson shows how the ID from Lesson 1 becomes useful in daily farm life."
-        ),
-      },
-    ],
-    topics: [
-      {
-        id: "t-m17-inaph-health",
-        title: L("INAPH and Animal Health"),
-        teach: [
-          {
-            type: "glossary",
-            term: L("INAPH"),
-            meaning: L(
-              "Short for 'Information Network for Animal Productivity and Health' — a national database that uses each animal's unique ear tag number to store its records, including health, breeding, and feeding information."
-            ),
-          },
-          {
-            type: "text",
-            heading: L("What Gets Recorded About an Animal's Health"),
-            html: L(
-              "INAPH's health information system records interventions such as <b>deworming</b>, <b>vaccination</b>, <b>treatment</b>, <b>disease testing</b>, <b>outbreak management</b>, and <b>infertility camps</b>."
-            ),
-          },
-          {
-            type: "example",
-            heading: L("Individual Record or Village Count?"),
-            text: L(
-              "Recordings can be made at the individual animal level, which requires that animal's ear tag number. Or they can be made at a mass level — such as a mass vaccination, deworming, or infertility camp — where only village-wise numbers of animals are recorded, and individual ear tag numbers are not required."
-            ),
-          },
-          {
-            type: "stat-grid",
-            items: [
-              {
-                label: L("All Information, One Number"),
-                text: L("All information about the animal is available just by entering its ear tag number into the system."),
-              },
-              {
-                label: L("Timely SMS Reminders"),
-                text: L(
-                  "The farmer gets SMS alerts on his registered mobile about services due on his animal — deworming, vaccination for each disease, disease testing, and more."
-                ),
-              },
-              {
-                label: L("A Health Card on Demand"),
-                text: L("A health card detailing every intervention carried out on the animal can be generated for reference just by entering its ear tag number."),
-              },
-              {
-                label: L("Warning of Nearby Outbreaks"),
-                text: L("If a disease outbreak occurs in a neighbouring village, the farmer is alerted by SMS so that timely preventive measures can be taken."),
-              },
-            ],
-          },
-          {
-            type: "callout",
-            style: "tip",
-            heading: L("Why Accurate Reporting Matters"),
-            text: L(
-              "These SMS alerts and health cards only work correctly if the right information is recorded against the right ear tag number. Reporting an animal's tag number correctly, and passing on health events accurately, helps keep the whole record trustworthy."
-            ),
-          },
-        ],
-        check: [
-          {
-            type: "mcq",
-            q: L("Which of these does INAPH's health information system record?"),
-            options: [
-              L("Deworming, vaccination, treatment and disease testing"),
-              L("Only the animal's weight"),
-              L("Only how much milk the animal gives"),
-              L("Only the animal's breed"),
-            ],
-            answer: 0,
-            explain: L("INAPH's health system records interventions like deworming, vaccination, treatment, disease testing, outbreak management and infertility camps."),
-          },
-          {
-            type: "truefalse",
-            q: L("A farmer can get a health card listing all interventions done on an animal just by entering its ear tag number."),
-            answer: true,
-            explain: L("Correct — a health card detailing all interventions can be generated for reference just by entering the animal's ear tag number."),
-          },
-        ],
-      },
-      {
-        id: "t-m17-inaph-breeding-nutrition",
-        title: L("INAPH for Breeding and Nutrition"),
-        teach: [
-          {
-            type: "text",
-            heading: L("Recording Breeding Events"),
-            html: L(
-              "INAPH also records events in breeding programmes — such as <b>AI (Artificial Insemination) done</b>, <b>pregnancy diagnosis</b>, <b>calving</b>, <b>milk recording</b>, and <b>typing</b>. Each of these is logged against the individual animal's unique ear tag number."
-            ),
-          },
-          {
-            type: "glossary",
-            term: L("Milk Recording"),
-            meaning: L(
-              "Regularly measuring and recording how much milk an animal gives, so the farmer builds a complete record of the animal's milk yield across its whole milking period."
-            ),
-          },
-          {
-            type: "stat-grid",
-            items: [
-              {
-                label: L("Milk Yield History"),
-                text: L("All information on the animal's milk yield across its different lactations (milking periods) is available in the system."),
-              },
-              {
-                label: L("Access to Programmes and Insurance"),
-                text: L(
-                  "Because each animal is uniquely identified by its ear tag, the farmer can receive the benefits of government and non-government programmes such as livestock insurance, vaccination and treatment."
-                ),
-              },
-              {
-                label: L("Timely SMS Alerts"),
-                text: L(
-                  "The farmer gets SMS alerts about breeding services due on his animal — the next heat due, the pregnancy diagnosis date, and the expected calving date — sent in Hindi, Marathi, Gujarati or English."
-                ),
-              },
-              {
-                label: L("Better Decisions, Nationwide"),
-                text: L(
-                  "INAPH data helps research institutions identify the best milking animals and bulls in the country, and is used by central and state governments in making policies."
-                ),
-              },
-            ],
-          },
-          {
-            type: "text",
-            heading: L("Ration Balancing: INAPH and Animal Nutrition"),
-            html: L(
-              "<b>Ration Balancing</b> is the part of INAPH that deals with animal nutrition. Its software holds the nutritional requirements of different categories of dairy animals, along with a feed library of the feed and fodder available in different parts of the country. Using this, a balanced diet can be worked out for a single animal, or for a whole herd of animals with similar needs, using the least-cost combination of feed that is actually available."
-            ),
-          },
-          {
-            type: "glossary",
-            term: L("Ration Balancing"),
-            meaning: L(
-              "Working out the right mix and amount of feed for an animal so it gets what it needs — such as protein, energy, and minerals — at the lowest possible cost, using feed that is already available locally."
-            ),
-          },
-          {
-            type: "stat-grid",
-            items: [
-              {
-                label: L("Cost Per Litre of Milk"),
-                text: L("The farmer gets a clear picture of the present cost of producing each litre of milk."),
-              },
-              {
-                label: L("Spotting Feed Gaps"),
-                text: L(
-                  "The farmer understands where his current feeding is falling short or going to excess — especially in protein, total digestible nutrients, calcium and phosphorous."
-                ),
-              },
-              {
-                label: L("A Practical Feed Formula"),
-                text: L(
-                  "The farmer is given a balanced ration formula that re-adjusts the feed already being used, and may include other feed resources available with him or in the village."
-                ),
-              },
-              {
-                label: L("Better Health and Profit"),
-                text: L(
-                  "Feed costs are optimised for the animal's present production, and productivity, reproductive efficiency and general health all improve — raising the farmer's profitability."
-                ),
-              },
-            ],
-          },
-        ],
-        check: [
-          {
-            type: "mcq",
-            q: L("What is Ration Balancing?"),
-            options: [
-              L("A way of vaccinating animals against several diseases at once"),
-              L("Working out the right feed mix for an animal at the lowest cost, using locally available feed"),
-              L("A method of ear tagging animals"),
-              L("A way of scoring an animal's body condition"),
-            ],
-            answer: 1,
-            explain: L("Ration Balancing works out a balanced diet for an animal or herd at the least cost, using the feed and fodder actually available."),
-          },
-          {
-            type: "truefalse",
-            q: L("Breeding events like AI, pregnancy diagnosis and calving are recorded in INAPH against the individual animal's ear tag number."),
-            answer: true,
-            explain: L("Correct — breeding programme events are recorded individual-animal-wise, which requires the animal's unique ear tag number."),
-          },
-        ],
-      },
-    ],
-    finalQuiz: {
-      passScore: 70,
-      questions: [
-        {
-          topicId: "t-m17-inaph-health",
-          type: "mcq",
-          q: L("Which of these is a benefit INAPH gives farmers for animal health?"),
-          options: [
-            L("Getting SMS alerts about deworming and vaccination that are due"),
-            L("Automatically curing the animal's disease"),
-            L("Replacing the need for a veterinarian entirely"),
-            L("Giving the animal extra milk"),
-          ],
-          answer: 0,
-          explain: L("INAPH sends the farmer timely SMS alerts about services due on the animal, such as deworming and vaccination for each disease."),
-        },
-        {
-          topicId: "t-m17-inaph-health",
-          type: "truefalse",
-          q: L("Mass vaccination or deworming camps always require every animal's individual ear tag number to be recorded."),
-          answer: false,
-          explain: L("No — at a mass level, such as a camp, only village-wise numbers of animals are recorded, and individual ear tag numbers are not required."),
-        },
-        {
-          topicId: "t-m17-inaph-breeding-nutrition",
-          type: "mcq",
-          q: L("What does Ration Balancing help a farmer do?"),
-          options: [
-            L("Work out a balanced, least-cost feed formula for the animal"),
-            L("Apply an ear tag to the animal"),
-            L("Diagnose a disease outbreak"),
-            L("Record the animal's pregnancy diagnosis"),
-          ],
-          answer: 0,
-          explain: L("Ration Balancing uses nutrient requirements and a feed library to formulate a balanced, least-cost ration for an animal or herd."),
-        },
-        {
-          topicId: "t-m17-inaph-breeding-nutrition",
-          type: "truefalse",
-          q: L("SMS alerts about breeding events, like the expected calving date, are only ever sent in English."),
-          answer: false,
-          explain: L("No — these SMS alerts are presently sent in Hindi, Marathi, Gujarati and English."),
-        },
-        {
-          topicId: "t-m17-inaph-health",
-          type: "mcq",
-          q: L("What must be entered into INAPH to pull up all of an animal's information?"),
-          options: [L("Its ear tag number"), L("The owner's Aadhaar number"), L("The name of the village vet"), L("The animal's body condition score")],
-          answer: 0,
-          explain: L("All information about the animal is available just by entering its ear tag number into the system."),
-        },
-        {
-          topicId: "t-m17-inaph-breeding-nutrition",
-          type: "truefalse",
-          q: L("INAPH data is used only by individual farmers, with no use for governments or research institutions."),
-          answer: false,
-          explain: L("No — INAPH data also helps research institutions identify the best milking animals and bulls, and is used by central and state governments in making policies."),
         },
       ],
     },

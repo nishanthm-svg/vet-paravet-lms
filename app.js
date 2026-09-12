@@ -18,6 +18,11 @@ const TOPIC_EMOJIS = ["🩺", "🐄", "🔬", "📈", "🤝", "🏆", "💉", "�
 const CALLOUT_EMOJIS = { info: "💡", tip: "✅", warning: "⚠️" };
 const STAT_EMOJIS = ["🎯", "🌟", "🔑", "📌", "✨", "🌱"];
 
+// Real photos shown on a module's own page, where one is a genuine thematic fit.
+const MODULE_PHOTOS = {
+  m17: { src: "assets/photo-cow-eartag.jpg", alt: "A close-up of a cow with a yellow numbered ear tag" },
+};
+
 let lang = getLang(); // null until the learner picks one
 
 function t(field) {
@@ -70,8 +75,14 @@ function renderLandingPage() {
         <p>${escapeHtml(u("landingHeroSubtitle"))}</p>
         <button type="button" class="btn btn-primary landing-cta" id="landing-get-started">${escapeHtml(u("landingGetStartedButton"))}</button>
       </div>
+      <div class="landing-village-photo">
+        <img src="assets/hero-village.jpg" alt="A village in rural India with a temple, homes and cattle grazing near a paddy field" />
+      </div>
       <div class="page landing-body">
         <div class="landing-features">${features}</div>
+        <div class="landing-photo-strip">
+          <img src="assets/photo-cow-field.jpg" alt="A farmer leading her cow along a paddy field bund" />
+        </div>
         <div class="landing-supported">
           <div class="landing-supported-label">${escapeHtml(u("landingSupportedBy"))}</div>
           <div class="landing-logos">
@@ -88,8 +99,39 @@ function wireLandingPage() {
   const btn = document.getElementById("landing-get-started");
   if (btn) {
     btn.addEventListener("click", () => {
-      navigate("#/dashboard");
+      navigate("#/message");
     });
+  }
+}
+
+// ============================================================================
+// Message from the Head — PES (shown once, right after the landing page)
+// ============================================================================
+function renderHodMessagePage() {
+  const paragraphs = u("hodMessageBody")
+    .split("\n\n")
+    .map((p) => `<p>${escapeHtml(p)}</p>`)
+    .join("");
+  return `
+    <div class="page page-narrow hod-message-page">
+      <div class="hod-message-card">
+        <img class="hod-photo" src="assets/hod-rajendra-babu.jpg" alt="${escapeHtml(u("hodName"))}" />
+        <div class="hod-quote-mark">&ldquo;</div>
+        <div class="hod-message-body">${paragraphs}</div>
+        <div class="hod-signoff">
+          <div class="hod-name">${escapeHtml(u("hodName"))}</div>
+          <div class="hod-title">${escapeHtml(u("hodTitle"))}</div>
+        </div>
+        <button type="button" class="btn btn-primary landing-cta" id="hod-continue-btn">${escapeHtml(u("landingGetStartedButton"))}</button>
+      </div>
+    </div>
+  `;
+}
+
+function wireHodMessagePage() {
+  const btn = document.getElementById("hod-continue-btn");
+  if (btn) {
+    btn.addEventListener("click", () => navigate("#/dashboard"));
   }
 }
 
@@ -262,10 +304,13 @@ function renderModulePage(moduleId) {
     })
     .join("");
 
+  const modulePhoto = MODULE_PHOTOS[mod.id];
+
   return `
     ${renderTopbar({ showBack: true, backHash: "#/dashboard", title: t(mod.title) })}
     <div class="page">
       <div class="module-hero">
+        ${modulePhoto ? `<img class="module-hero-photo" src="${modulePhoto.src}" alt="${escapeHtml(modulePhoto.alt)}" />` : ""}
         <h1>${escapeHtml(t(mod.title))}</h1>
         <p>${escapeHtml(t(mod.subtitle) || "")}</p>
         <div class="progress-row">
@@ -718,6 +763,7 @@ function renderCompletionPage(moduleId) {
     ${renderTopbar({ showBack: true, backHash: `#/module/${moduleId}`, title: t(mod.title) })}
     <div class="page page-narrow">
       <div class="completion-box">
+        <img class="completion-photo" src="assets/photo-milk-cans.jpg" alt="A row of women carrying milk cans" />
         <div class="confetti-row">🎉 🎊 ✨ 🏆 ✨ 🎊 🎉</div>
         <div class="icon">🏆</div>
         <h2>${u("moduleCompleteTitle", { n: mod.number })}</h2>
@@ -740,6 +786,7 @@ function parseHash() {
   const parts = hash.replace(/^#\/?/, "").split("/").filter(Boolean);
   if (parts.length === 0) return { route: "welcome" };
   if (parts[0] === "welcome") return { route: "welcome" };
+  if (parts[0] === "message") return { route: "message" };
   if (parts[0] === "dashboard") return { route: "dashboard" };
   if (parts[0] === "language") return { route: "language" };
   if (parts[0] === "module" && parts[1]) {
@@ -764,6 +811,12 @@ function render() {
   if (parsed.route === "welcome") {
     root.innerHTML = renderLandingPage();
     wireLandingPage();
+    return;
+  }
+
+  if (parsed.route === "message") {
+    root.innerHTML = `${renderTopbar({ showBack: true, backHash: "#/welcome" })}${renderHodMessagePage()}`;
+    wireHodMessagePage();
     return;
   }
 

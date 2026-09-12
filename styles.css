@@ -374,6 +374,91 @@ button {
   filter: grayscale(15%);
 }
 
+.landing-village-photo {
+  margin: -32px auto 0;
+  max-width: 900px;
+  padding: 0 20px;
+}
+.landing-village-photo img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-md);
+}
+.landing-photo-strip {
+  margin: 0 auto 36px;
+  max-width: 900px;
+}
+.landing-photo-strip img {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: 340px;
+  object-fit: cover;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-md);
+}
+
+/* ---------- Message from the Head — PES ---------- */
+.hod-message-page {
+  display: flex;
+  justify-content: center;
+  padding-top: 28px;
+}
+.hod-message-card {
+  background: white;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-md);
+  padding: 36px 32px 32px;
+  text-align: center;
+  max-width: 560px;
+}
+.hod-photo {
+  width: 108px;
+  height: 108px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: top center;
+  margin: 0 auto 16px;
+  display: block;
+  border: 3px solid var(--blue-100);
+}
+.hod-quote-mark {
+  font-size: 44px;
+  line-height: 1;
+  color: var(--blue-200);
+  font-family: Georgia, serif;
+  margin-bottom: -6px;
+}
+.hod-message-body {
+  text-align: left;
+  color: var(--gray-700);
+  font-size: 15px;
+  line-height: 1.65;
+}
+.hod-message-body p {
+  margin: 0 0 14px;
+}
+.hod-message-body p:last-child {
+  margin-bottom: 0;
+}
+.hod-signoff {
+  margin: 20px 0 26px;
+  padding-top: 16px;
+  border-top: 1px solid var(--gray-100);
+}
+.hod-name {
+  font-weight: 700;
+  color: var(--blue-900);
+  font-size: 15.5px;
+}
+.hod-title {
+  color: var(--gray-500);
+  font-size: 13.5px;
+  margin-top: 2px;
+}
+
 /* ---------- Layout ---------- */
 .page {
   max-width: 920px;
@@ -540,6 +625,14 @@ button {
   border-radius: var(--radius);
   padding: 26px 24px;
   margin-bottom: 22px;
+}
+.module-hero-photo {
+  display: block;
+  width: calc(100% + 48px);
+  margin: -26px -24px 18px;
+  max-height: 220px;
+  object-fit: cover;
+  border-radius: var(--radius) var(--radius) 0 0;
 }
 .module-hero h1 {
   margin: 0 0 8px;
@@ -1160,6 +1253,14 @@ button {
   color: white;
   border-radius: var(--radius);
   padding: 44px 24px;
+}
+.completion-photo {
+  display: block;
+  width: calc(100% + 48px);
+  margin: -44px -24px 20px;
+  max-height: 200px;
+  object-fit: cover;
+  border-radius: var(--radius) var(--radius) 0 0;
 }
 .completion-box .icon {
   font-size: 56px;
