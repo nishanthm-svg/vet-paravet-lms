@@ -379,10 +379,22 @@ button {
   background: linear-gradient(180deg, rgba(10, 30, 71, 0.72) 0%, rgba(10, 30, 71, 0.4) 45%, rgba(10, 30, 71, 0.62) 100%), url("assets/photo-cow-field.jpg");
   background-size: cover;
   background-position: center 60%;
+  text-align: right;
+}
+.landing-hero-photo .landing-logo {
+  margin-left: auto;
+  margin-right: 0;
 }
 .landing-hero-photo h1,
 .landing-hero-photo p {
+  margin-left: auto;
+  margin-right: 0;
   text-shadow: 0 2px 10px rgba(0, 0, 0, 0.45);
+}
+@media (max-width: 600px) {
+  .landing-hero-photo {
+    background-position: 75% 60%;
+  }
 }
 
 .landing-scene {
