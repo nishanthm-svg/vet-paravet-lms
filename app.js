@@ -69,19 +69,17 @@ function renderLandingPage() {
 
   return `
     <div class="landing-page">
-      <div class="landing-hero">
+      <div class="landing-hero landing-hero-photo">
         <div class="landing-logo" style="font-size:34px; line-height:44px;">🐄🩺</div>
         <h1>${escapeHtml(u("landingHeroTitle"))}</h1>
         <p>${escapeHtml(u("landingHeroSubtitle"))}</p>
         <button type="button" class="btn btn-primary landing-cta" id="landing-get-started">${escapeHtml(u("landingGetStartedButton"))}</button>
       </div>
-      <div class="landing-village-photo">
-        <img src="assets/hero-village.jpg" alt="A village in rural India with a temple, homes and cattle grazing near a paddy field" />
-      </div>
       <div class="page landing-body">
         <div class="landing-features">${features}</div>
-        <div class="landing-photo-strip">
-          <img src="assets/photo-cow-field.jpg" alt="A farmer leading her cow along a paddy field bund" />
+        <div class="landing-scene">
+          <img src="assets/hero-village.jpg" alt="A village in rural India with a temple, homes and cattle grazing near a paddy field" />
+          <div class="landing-scene-caption">${escapeHtml(u("landingSceneCaption"))}</div>
         </div>
         <div class="landing-supported">
           <div class="landing-supported-label">${escapeHtml(u("landingSupportedBy"))}</div>

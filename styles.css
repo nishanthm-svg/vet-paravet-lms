@@ -374,30 +374,37 @@ button {
   filter: grayscale(15%);
 }
 
-.landing-village-photo {
-  margin: -32px auto 0;
-  max-width: 900px;
-  padding: 0 20px;
+.landing-hero-photo {
+  position: relative;
+  background: linear-gradient(135deg, rgba(15, 45, 99, 0.93), rgba(37, 99, 235, 0.82)), url("assets/photo-cow-field.jpg");
+  background-size: cover;
+  background-position: center 65%;
 }
-.landing-village-photo img {
+
+.landing-scene {
+  position: relative;
+  margin: 0 auto 40px;
+  max-width: 900px;
+  border-radius: var(--radius);
+  overflow: hidden;
+  box-shadow: var(--shadow-md);
+}
+.landing-scene img {
   display: block;
   width: 100%;
   height: auto;
-  border-radius: var(--radius);
-  box-shadow: var(--shadow-md);
 }
-.landing-photo-strip {
-  margin: 0 auto 36px;
-  max-width: 900px;
-}
-.landing-photo-strip img {
-  display: block;
-  width: 100%;
-  height: auto;
-  max-height: 340px;
-  object-fit: cover;
-  border-radius: var(--radius);
-  box-shadow: var(--shadow-md);
+.landing-scene-caption {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 36px 24px 18px;
+  background: linear-gradient(to top, rgba(15, 45, 99, 0.85), rgba(15, 45, 99, 0));
+  color: white;
+  font-size: 14.5px;
+  font-weight: 600;
+  text-align: center;
 }
 
 /* ---------- Message from the Head — PES ---------- */

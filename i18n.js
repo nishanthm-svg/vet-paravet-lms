@@ -271,6 +271,9 @@ const UI = {
     "ಮೊದಲು ಉದಾಹರಣೆಗಳು ಮತ್ತು ಆಸಕ್ತಿದಾಯಕ ಪಾಠಗಳು, ಕೊನೆಯಲ್ಲಿ ತ್ವರಿತ ರಸಪ್ರಶ್ನೆ, ಮುಗಿಸಿದಾಗ ಪ್ರಮಾಣಪತ್ರ."
   ),
   landingSupportedBy: L("Supported by", "మద్దతు ఇస్తున్నవారు", "ஆதரவு அளிப்பவர்கள்", "ಬೆಂಬಲಿಸುವವರು"),
+  landingSceneCaption: L(
+    "Every village, every herd, every farmer you already know — this course was built around them."
+  ),
 
   // TODO: placeholder text — replace with Sh. Kurnoothala Rajendra Babu's actual message before publishing.
   hodMessageBody: L(
