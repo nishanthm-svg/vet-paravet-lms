@@ -64,6 +64,13 @@ const UI = {
   badgeStart: L("Start", "ప్రారంభించండి", "தொடங்கு", "ಪ್ರಾರಂಭಿಸಿ"),
   badgeLocked: L("🔒 Locked", "🔒 లాక్ చేయబడింది", "🔒 பூட்டப்பட்டுள்ளது", "🔒 ಲಾಕ್ ಆಗಿದೆ"),
   comingSoon: L("Coming soon", "త్వరలో వస్తుంది", "விரைவில் வரும்", "ಶೀಘ್ರದಲ್ಲೇ ಬರುತ್ತದೆ"),
+  photoCreditsLink: L("Photo credits", "ఫోటో క్రెడిట్‌లు", "புகைப்பட உரிமைகள்", "ಫೋಟೋ ಕ್ರೆಡಿಟ್‌ಗಳು"),
+  photoCreditsTitle: L("Photo credits"),
+  photoCreditsIntro: L(
+    "Real photographs used in this course, with thanks to their photographers. All are used under their stated Creative Commons license."
+  ),
+  usedIn: L("Used in: {where}"),
+  viewSource: L("View source →"),
   progressNote: L(
     "Your progress is saved automatically in this browser.",
     "మీ పురోగతి ఈ బ్రౌజర్‌లో స్వయంచాలకంగా సేవ్ అవుతుంది.",

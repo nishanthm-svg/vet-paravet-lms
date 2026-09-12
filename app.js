@@ -23,6 +23,10 @@ const MODULE_PHOTOS = {
   m17: { src: "assets/photo-cow-eartag.jpg", alt: "A close-up of a cow with a yellow numbered ear tag" },
 };
 
+// Attribution for every sourced photo used in lesson content (CC-BY-SA/CC-BY
+// requires this). Populated as photos are added — see the Credits page.
+const PHOTO_CREDITS = [];
+
 let lang = getLang(); // null until the learner picks one
 
 function t(field) {
@@ -252,6 +256,32 @@ function renderDashboard() {
       </div>
       <div class="module-grid">${cards}</div>
       <div class="progress-note">${u("progressNote")}</div>
+      <div class="credits-link"><a href="#/credits" data-nav="#/credits">${u("photoCreditsLink")}</a></div>
+    </div>
+  `;
+}
+
+// ============================================================================
+// Photo credits — required attribution for CC-BY-SA / CC-BY sourced photos
+// ============================================================================
+function renderCreditsPage() {
+  const rows = PHOTO_CREDITS.map(
+    (c) => `
+      <div class="credit-row">
+        <img src="${escapeHtml(c.src)}" alt="" />
+        <div class="credit-info">
+          <div class="credit-used">${escapeHtml(u("usedIn", { where: t(c.usedIn) }))}</div>
+          <div class="credit-meta">${escapeHtml(c.author)} · ${escapeHtml(c.license)}</div>
+          <a href="${escapeHtml(c.sourceUrl)}" target="_blank" rel="noopener">${escapeHtml(u("viewSource"))}</a>
+        </div>
+      </div>`
+  ).join("");
+  return `
+    ${renderTopbar({ showBack: true, backHash: "#/dashboard" })}
+    <div class="page page-narrow">
+      <h1 style="font-size:22px; margin:0 0 6px;">${escapeHtml(u("photoCreditsTitle"))}</h1>
+      <p style="color:var(--gray-500); font-size:14px; margin:0 0 22px;">${escapeHtml(u("photoCreditsIntro"))}</p>
+      <div class="credits-list">${rows}</div>
     </div>
   `;
 }
@@ -349,6 +379,13 @@ function renderBlockHtml(block) {
             <span class="gloss-hint">${u("tapToReveal")}</span>
             <div class="gloss-meaning">${escapeHtml(t(block.meaning))}</div>
           </div>
+        </div>`;
+
+    case "photo":
+      return `
+        <div class="block photo-box">
+          <img src="${escapeHtml(block.src)}" alt="${escapeHtml(t(block.alt))}" loading="lazy" />
+          ${block.caption ? `<div class="photo-caption">${escapeHtml(t(block.caption))}</div>` : ""}
         </div>`;
 
     case "ledger": {
@@ -785,6 +822,7 @@ function parseHash() {
   if (parts.length === 0) return { route: "welcome" };
   if (parts[0] === "welcome") return { route: "welcome" };
   if (parts[0] === "message") return { route: "message" };
+  if (parts[0] === "credits") return { route: "credits" };
   if (parts[0] === "dashboard") return { route: "dashboard" };
   if (parts[0] === "language") return { route: "language" };
   if (parts[0] === "module" && parts[1]) {
@@ -838,6 +876,9 @@ function render() {
       break;
     case "dashboard":
       html = renderDashboard();
+      break;
+    case "credits":
+      html = renderCreditsPage();
       break;
     case "module":
       html = renderModulePage(parsed.moduleId);
