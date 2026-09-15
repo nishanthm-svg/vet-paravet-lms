@@ -285,13 +285,6 @@ const UI = {
   landingSceneCaption: L(
     "Every village, every herd, every farmer you already know — this course was built around them."
   ),
-
-  // TODO: placeholder text — replace with Sh. Kurnoothala Rajendra Babu's actual message before publishing.
-  hodMessageBody: L(
-    "Welcome to Pashu Arogya Academy.\n\nOur entire ground force works every single day with the animals that are the heart of our farmers' livelihoods. This course was built for you — to help you notice a problem early, know exactly who to call, and give the farmers you serve the confidence that comes from real knowledge.\n\nTake your time with each module. Every lesson here is meant to make you better at the work you already do."
-  ),
-  hodName: L("Sh. Kurnoothala Rajendra Babu"),
-  hodTitle: L("Head - PES"),
 };
 
 export function ui(key, lang, vars) {

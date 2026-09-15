@@ -135,39 +135,8 @@ function wireLandingPage() {
   const btn = document.getElementById("landing-get-started");
   if (btn) {
     btn.addEventListener("click", () => {
-      navigate("#/message");
+      navigate("#/dashboard");
     });
-  }
-}
-
-// ============================================================================
-// Message from the Head — PES (shown once, right after the landing page)
-// ============================================================================
-function renderHodMessagePage() {
-  const paragraphs = u("hodMessageBody")
-    .split("\n\n")
-    .map((p) => `<p>${escapeHtml(p)}</p>`)
-    .join("");
-  return `
-    <div class="page page-narrow hod-message-page">
-      <div class="hod-message-card">
-        <img class="hod-photo" src="assets/hod-rajendra-babu.jpg" alt="${escapeHtml(u("hodName"))}" />
-        <div class="hod-quote-mark">&ldquo;</div>
-        <div class="hod-message-body">${paragraphs}</div>
-        <div class="hod-signoff">
-          <div class="hod-name">${escapeHtml(u("hodName"))}</div>
-          <div class="hod-title">${escapeHtml(u("hodTitle"))}</div>
-        </div>
-        <button type="button" class="btn btn-primary landing-cta" id="hod-continue-btn">${escapeHtml(u("landingGetStartedButton"))}</button>
-      </div>
-    </div>
-  `;
-}
-
-function wireHodMessagePage() {
-  const btn = document.getElementById("hod-continue-btn");
-  if (btn) {
-    btn.addEventListener("click", () => navigate("#/dashboard"));
   }
 }
 
@@ -859,7 +828,6 @@ function parseHash() {
   const parts = hash.replace(/^#\/?/, "").split("/").filter(Boolean);
   if (parts.length === 0) return { route: "welcome" };
   if (parts[0] === "welcome") return { route: "welcome" };
-  if (parts[0] === "message") return { route: "message" };
   if (parts[0] === "credits") return { route: "credits" };
   if (parts[0] === "dashboard") return { route: "dashboard" };
   if (parts[0] === "language") return { route: "language" };
@@ -885,12 +853,6 @@ function render() {
   if (parsed.route === "welcome") {
     root.innerHTML = renderLandingPage();
     wireLandingPage();
-    return;
-  }
-
-  if (parsed.route === "message") {
-    root.innerHTML = `${renderTopbar({ showBack: true, backHash: "#/welcome" })}${renderHodMessagePage()}`;
-    wireHodMessagePage();
     return;
   }
 
