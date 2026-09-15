@@ -513,6 +513,12 @@ export const MODULES = [
             title: L("The 5-Point Scale"),
             teach: [
               {
+                type: "photo",
+                src: "assets/illustration-m1-bcs-scale.png",
+                alt: L("Illustrated diagram showing five Body Condition Score silhouettes side by side, numbered 1 to 5, from very thin to very fat."),
+                caption: L("Illustration: the Body Condition Score scale from 1 (very thin) to 5 (very fat) — score 3 is the healthy target for most dairy animals."),
+              },
+              {
                 type: "text",
                 heading: L("What Are We Actually Looking At?"),
                 html: L(
@@ -1782,6 +1788,12 @@ export const MODULES = [
         id: "t-m4-why-vaccinate",
         title: L("What a Vaccine Does, and What Your Role Is"),
         teach: [
+            {
+              type: "photo",
+              src: "assets/illustration-m4-vaccine-immunity.png",
+              alt: L("Illustrated three-step diagram: a vaccine being given, the body's immune cells learning to fight the germ, and the animal protected from disease."),
+              caption: L("Illustration: how a vaccine protects an animal — it teaches the body to recognise and fight a germ before the real disease ever arrives."),
+            },
             {
               type: "photo",
               src: "assets/photo-m4-vet-vaccinating.jpg",
@@ -3261,6 +3273,12 @@ export const MODULES = [
         teach: [
             {
               type: "photo",
+              src: "assets/illustration-m6-tick-disease-cycle.png",
+              alt: L("Illustrated four-step cycle diagram showing how a tick picks up germs from a sick animal, bites a healthy cow, and spreads the disease."),
+              caption: L("Illustration: how ticks spread disease from a sick animal to a healthy one."),
+            },
+            {
+              type: "photo",
               src: "assets/photo-m6-tick-specimen.jpg",
               alt: L("Close-up photograph of two cattle ticks, female (left, engorged reddish-brown) and male (right, smaller and darker), on a plain background"),
               caption: L("A cattle tick (Rhipicephalus microplus) — a bite from a tick like this is how the germs behind Anaplasmosis and Babesiosis get into an animal's blood."),
@@ -3936,6 +3954,12 @@ export const MODULES = [
         id: "t-m7-milkfever-magnesium",
         title: L("Milk Fever and Hypomagnesaemia"),
         teach: [
+            {
+              type: "photo",
+              src: "assets/illustration-m7-milk-fever.png",
+              alt: L("Illustrated diagram showing calcium moving into milk at calving, and a weak cow lying down unable to stand from low blood calcium."),
+              caption: L("Illustration: why milk fever happens — calcium suddenly moves from the blood into milk production right at calving, leaving too little for the muscles to work properly."),
+            },
           {
             type: "text",
             heading: L("Two Sudden Emergencies With a Common Cause"),
@@ -4447,6 +4471,12 @@ export const MODULES = [
         id: "t-m8-bloat",
         title: L("Bloat"),
         teach: [
+            {
+              type: "photo",
+              src: "assets/illustration-m8-bloat.png",
+              alt: L("Illustrated cutaway diagram of a cow showing gas trapped inside the rumen, causing the left side of the body to swell outward."),
+              caption: L("Illustration: what's happening inside a bloated cow — gas trapped in the rumen has nowhere to escape, and pushes the left side outward."),
+            },
           {
             type: "text",
             heading: L("What Is Bloat?"),
@@ -4694,6 +4724,12 @@ export const MODULES = [
         id: "t-m8-laminitis-what",
         title: L("What Is Laminitis and What Causes It?"),
         teach: [
+            {
+              type: "photo",
+              src: "assets/illustration-m8-laminitis.png",
+              alt: L("Illustrated cross-section diagram comparing a healthy hoof to one with laminitis, showing the tilted bone and inflamed tissue."),
+              caption: L("Illustration: a healthy hoof compared to one with laminitis, where inflamed tissue lets the bone tilt inside the hoof — this is what causes the pain."),
+            },
           {
             type: "text",
             heading: L("A Hoof Problem Most Common at Peak Milking"),
@@ -4908,6 +4944,12 @@ export const MODULES = [
         id: "t-m9-what-is-mastitis",
         title: L("What Is Mastitis, and Why It Matters"),
         teach: [
+            {
+              type: "photo",
+              src: "assets/illustration-m9-mastitis.png",
+              alt: L("Illustrated cross-section diagram comparing a healthy udder quarter to one infected with mastitis, showing swelling and clotted milk."),
+              caption: L("Illustration: a healthy udder quarter compared to one with mastitis — infection causes swelling, and the milk itself changes, with visible clots or flakes."),
+            },
             {
               type: "photo",
               src: "assets/photo-m9-healthy-udder.jpg",
@@ -5687,6 +5729,12 @@ export const MODULES = [
         id: "t-m10-cyanide",
         title: L("Cyanide Poisoning: A Fast-Moving Emergency from Certain Plants"),
         teach: [
+            {
+              type: "photo",
+              src: "assets/illustration-m10-cyanide.png",
+              alt: L("Illustrated three-step diagram: an animal eating young sorghum or cassava leaves, cyanide blocking oxygen use in the body's cells, and the animal collapsing."),
+              caption: L("Illustration: how cyanide poisoning happens — it blocks the body's cells from using oxygen, causing sudden breathing distress and collapse."),
+            },
             {
               type: "photo",
               src: "assets/photo-m10-sorghum.jpg",

@@ -69,6 +69,10 @@ const UI = {
   photoCreditsIntro: L(
     "Real photographs used in this course, with thanks to their photographers. All are used under their stated Creative Commons license."
   ),
+  illustrationsNoteHeading: L("A Note on Diagrams"),
+  illustrationsNote: L(
+    "Some lessons also include simple drawn diagrams — always captioned starting with the word \"Illustration\" — to explain how something works (for example, how a vaccine protects an animal, or what happens inside a bloated cow). These are AI-generated illustrations for teaching purposes, not photographs of real animals or real cases. For what a real animal or condition actually looks like, rely on the photographs in this course and on your own veterinarian's guidance."
+  ),
   usedIn: L("Used in: {where}"),
   viewSource: L("View source →"),
   progressNote: L(

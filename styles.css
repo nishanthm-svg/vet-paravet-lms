@@ -1396,6 +1396,25 @@ button {
   color: var(--blue-600);
 }
 
+.illustrations-note {
+  margin-top: 28px;
+  padding: 16px 18px;
+  background: var(--gray-50);
+  border: 1px solid var(--gray-200);
+  border-radius: var(--radius);
+}
+.illustrations-note h2 {
+  margin: 0 0 6px;
+  font-size: 14.5px;
+  color: var(--gray-700);
+}
+.illustrations-note p {
+  margin: 0;
+  font-size: 13px;
+  line-height: 1.5;
+  color: var(--gray-500);
+}
+
 .photo-box {
   background: white;
   border-radius: var(--radius);

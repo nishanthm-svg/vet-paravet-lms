@@ -316,6 +316,10 @@ function renderCreditsPage() {
       <h1 style="font-size:22px; margin:0 0 6px;">${escapeHtml(u("photoCreditsTitle"))}</h1>
       <p style="color:var(--gray-500); font-size:14px; margin:0 0 22px;">${escapeHtml(u("photoCreditsIntro"))}</p>
       <div class="credits-list">${rows}</div>
+      <div class="illustrations-note">
+        <h2>${escapeHtml(u("illustrationsNoteHeading"))}</h2>
+        <p>${escapeHtml(u("illustrationsNote"))}</p>
+      </div>
     </div>
   `;
 }
