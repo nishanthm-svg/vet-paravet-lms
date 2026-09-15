@@ -25,7 +25,41 @@ const MODULE_PHOTOS = {
 
 // Attribution for every sourced photo used in lesson content (CC-BY-SA/CC-BY
 // requires this). Populated as photos are added — see the Credits page.
-const PHOTO_CREDITS = [];
+const PHOTO_CREDITS = [
+  { src: "assets/photo-m1-herd-behaviour.jpg", author: "Martin Abegglen", license: "CC BY-SA 2.0", sourceUrl: "https://commons.wikimedia.org/wiki/File:Dairy_cows_on_pasture_in_Ireland.jpg", usedIn: "Module 1 — General Observation" },
+  { src: "assets/photo-m1-chewing-cud.jpg", author: "Jim Champion", license: "CC BY-SA 2.0", sourceUrl: "https://commons.wikimedia.org/wiki/File:Cud-chewing_cow,_south_of_Ferny_Knap_Inclosure,_New_Forest_-_geograph.org.uk_-_563528.jpg", usedIn: "Module 1 — General Observation" },
+  { src: "assets/photo-m1-coat-eyes-muzzle.jpg", author: "Sergei S. Scurfield (Seerig)", license: "CC BY-SA 3.0", sourceUrl: "https://commons.wikimedia.org/wiki/File:Ayrshire_cow_head.JPG", usedIn: "Module 1 — General Observation" },
+  { src: "assets/photo-m2-healthy-signs.jpg", author: "Harvinder Chandigarh", license: "CC BY-SA 4.0", sourceUrl: "https://commons.wikimedia.org/wiki/File:Sahiwal-_breed_cow_at_the_dairy_unit_attached_to_Bhai_Ram_Singh_Memorial_(Gurudwara)_,_Bhaini_Sahib_,Ludhyana,_Punjab_,India.JPG", usedIn: "Module 2 — Buying a New Animal" },
+  { src: "assets/photo-m2-udder-veins.jpg", author: "Kenneth Freeman (Kencf0618)", license: "CC BY-SA 3.0", sourceUrl: "https://commons.wikimedia.org/wiki/File:GnarlyUdderVeins4589.JPG", usedIn: "Module 2 — Buying a New Animal" },
+  { src: "assets/photo-m2-age-teeth.jpg", author: "Lucyin", license: "CC BY-SA 4.0", sourceUrl: "https://commons.wikimedia.org/wiki/File:Dints_viye_vatche.jpg", usedIn: "Module 2 — Buying a New Animal" },
+  { src: "assets/photo-cow-newborn-calf.jpg", author: "Dineshpr2029", license: "CC BY-SA 4.0", sourceUrl: "https://commons.wikimedia.org/wiki/File:Cow_and_calf_indian_breed.jpg", usedIn: "Module 3 — Care of the Newborn Calf" },
+  { src: "assets/photo-m3-colostrum.jpg", author: "Oluwafemi stephens", license: "CC BY-SA 4.0", sourceUrl: "https://commons.wikimedia.org/wiki/File:Feeding_the_Calf.jpg", usedIn: "Module 3 — Care of the Newborn Calf" },
+  { src: "assets/photo-m4-vet-vaccinating.jpg", author: "MC2 Joshua Karsten / U.S. Navy", license: "Public Domain", sourceUrl: "https://commons.wikimedia.org/wiki/Category:Veterinary_medicine", usedIn: "Module 4 — Vaccination" },
+  { src: "assets/photo-m5-lumpy-skin-disease.jpg", author: "Pavanaja", license: "CC BY-SA 4.0", sourceUrl: "https://commons.wikimedia.org/wiki/File:Lumpy_Skin_Disease_03.jpg", usedIn: "Module 5 — Other Important Diseases" },
+  { src: "assets/photo-m6-tick-specimen.jpg", author: "Alan R Walker", license: "CC BY-SA 3.0", sourceUrl: "https://commons.wikimedia.org/wiki/File:Rhipicephalus-microplus-female-male.jpg", usedIn: "Module 6 — Tick, Fly & Worm-Borne Diseases" },
+  { src: "assets/photo-m6-horn-flies.jpg", author: "Alan R Walker", license: "CC BY-SA 3.0", sourceUrl: "https://commons.wikimedia.org/wiki/File:Haematobia-horn-fly-cattle-infestation-2.jpg", usedIn: "Module 6 — Tick, Fly & Worm-Borne Diseases" },
+  { src: "assets/photo-m6-pour-on-acaricide.jpg", author: "Alan R Walker", license: "CC BY-SA 3.0", sourceUrl: "https://commons.wikimedia.org/wiki/File:Pour-on-acaricide-cattle.jpg", usedIn: "Module 6 — Tick, Fly & Worm-Borne Diseases" },
+  { src: "assets/photo-m8-hoof-trim.jpg", author: "Flominator", license: "CC BY-SA 3.0 / GFDL", sourceUrl: "https://commons.wikimedia.org/wiki/File:Klauenpflege_Kuh_9785.jpg", usedIn: "Module 8 — Diseases Due to Faulty Feeding" },
+  { src: "assets/photo-m9-healthy-udder.jpg", author: "David Monniaux", license: "CC BY-SA 2.0", sourceUrl: "https://commons.wikimedia.org/wiki/File:Cow_behind_udder_DSC04046.jpg", usedIn: "Module 9 — Mastitis" },
+  { src: "assets/photo-m10-cottonseed.jpg", author: "Cgoodwin", license: "CC BY 3.0", sourceUrl: "https://commons.wikimedia.org/wiki/File:Feeding_cattle_cotton_seeds.jpg", usedIn: "Module 10 — Common Poisoning Conditions" },
+  { src: "assets/photo-m10-sorghum.jpg", author: "ABHIJEET", license: "CC BY-SA 3.0", sourceUrl: "https://commons.wikimedia.org/wiki/File:Sorghum_plant_Chinawal.jpg", usedIn: "Module 10 — Common Poisoning Conditions" },
+  { src: "assets/photo-m10-cassava.jpg", author: "CyberTroopers", license: "CC BY-SA 4.0", sourceUrl: "https://commons.wikimedia.org/wiki/File:Cassava_Plant.jpg", usedIn: "Module 10 — Common Poisoning Conditions" },
+  { src: "assets/photo-m10-pesticide-spraying.jpg", author: "Maasaak", license: "CC BY-SA 4.0", sourceUrl: "https://commons.wikimedia.org/wiki/File:Pesticide_spraying_in_spring.jpg", usedIn: "Module 10 — Common Poisoning Conditions" },
+  { src: "assets/photo-m11-handwashing.jpg", author: "MarkBuckawicki", license: "CC0 1.0", sourceUrl: "https://commons.wikimedia.org/wiki/File:Hand_washing_man.jpg", usedIn: "Module 11 — Common Zoonotic Diseases" },
+  { src: "assets/photo-m11-tick-specimen.jpg", author: "Alan R Walker", license: "CC BY-SA 3.0", sourceUrl: "https://commons.wikimedia.org/wiki/File:Rhipicephalus-microplus-female-male.jpg", usedIn: "Module 11 — Common Zoonotic Diseases" },
+  { src: "assets/photo-m13-mimosa-pudica.jpg", author: "NonNerd", license: "CC0 1.0", sourceUrl: "https://commons.wikimedia.org/wiki/File:Mimosa_pudica_leaves_close_up.jpg", usedIn: "Module 13 — Traditional Remedies" },
+  { src: "assets/photo-m13-amla.jpg", author: "Thamizhpparithi Maari", license: "CC BY-SA 3.0", sourceUrl: "https://commons.wikimedia.org/wiki/File:Fruits_of_Phyllanthus_emblica.jpg", usedIn: "Module 13 — Traditional Remedies" },
+  { src: "assets/photo-m13-asparagus-racemosus.jpg", author: "Neha.Vindhya", license: "CC BY-SA 3.0", sourceUrl: "https://commons.wikimedia.org/wiki/File:Asparagus_racemosus.JPG", usedIn: "Module 13 — Traditional Remedies" },
+  { src: "assets/photo-m13-neem.jpg", author: "Kevinsooryan", license: "CC BY-SA 3.0", sourceUrl: "https://commons.wikimedia.org/wiki/File:Azadirachta_indica,_leaves_%26_fruits.JPG", usedIn: "Module 13 — Traditional Remedies" },
+  { src: "assets/photo-fodder-cutting.jpg", author: "Sanyam Bahga", license: "CC BY-SA 3.0", sourceUrl: "https://commons.wikimedia.org/wiki/File:Punjabi_farmer_preparing_cattle_feed.jpg", usedIn: "Module 14 — Feeding of Animals" },
+  { src: "assets/photo-m14-tmr.jpg", author: "Tractorboy60", license: "Public Domain", sourceUrl: "https://commons.wikimedia.org/wiki/File:Cows_eating_TMR.JPG", usedIn: "Module 14 — Feeding of Animals" },
+  { src: "assets/photo-m15-green-fodder.jpg", author: "Sarbjit Bahga", license: "CC BY-SA 4.0", sourceUrl: "https://commons.wikimedia.org/wiki/File:Manual_cutting_of_green_fodder_in_Punjab.jpg", usedIn: "Module 15 — Fodder Production" },
+  { src: "assets/photo-m15-hay.jpg", author: "Sarbjit Bahga", license: "CC BY-SA 4.0", sourceUrl: "https://commons.wikimedia.org/wiki/File:A_traditional_method_of_storing_wheat_hay_in_Punjab.jpg", usedIn: "Module 15 — Fodder Production" },
+  { src: "assets/photo-m15-silage.jpg", author: "Graham Cole", license: "CC BY-SA 2.0", sourceUrl: "https://commons.wikimedia.org/wiki/File:Silage_pit_for_a_big_farm_-_geograph.org.uk_-_644006.jpg", usedIn: "Module 15 — Fodder Production" },
+  { src: "assets/photo-m15-straw.jpg", author: "CIAT", license: "CC BY-SA 2.0", sourceUrl: "https://commons.wikimedia.org/wiki/File:Agriculture_in_India_tractor_farming_Punjab_preparing_field_for_a_wheat_crop_without_burning_previous_crop_stalk.jpg", usedIn: "Module 15 — Fodder Production" },
+  { src: "assets/photo-m16-shed.jpg", author: "Arne Hückelheim", license: "CC BY-SA 3.0", sourceUrl: "https://commons.wikimedia.org/wiki/File:CowShed.JPG", usedIn: "Module 16 — Housing of Animals" },
+  { src: "assets/photo-m16-manger.jpg", author: "Komal Sambhudas", license: "CC BY-SA 4.0", sourceUrl: "https://commons.wikimedia.org/wiki/File:Concerate_Feeding_Tray_for_Cows.jpg", usedIn: "Module 16 — Housing of Animals" },
+];
 
 let lang = getLang(); // null until the learner picks one
 

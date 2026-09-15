@@ -60,6 +60,12 @@ export const MODULES = [
             id: "t-seven-q-behaviour",
             title: L("Just by Looking: Behaviour, Attitude and Condition"),
             teach: [
+            {
+              type: "photo",
+              src: "assets/photo-m1-herd-behaviour.jpg",
+              alt: L("A herd of black-and-white dairy cows grazing calmly together in a green pasture under a dark sky."),
+              caption: L("A calm herd, grazing together normally — exactly the baseline picture Question 1 (Behaviour) asks you to compare an animal against."),
+            },
               {
                 type: "text",
                 heading: L("Start With Just Looking"),
@@ -305,6 +311,12 @@ export const MODULES = [
             id: "t-vitals-normal",
             title: L("Breathing and Chewing the Cud"),
             teach: [
+            {
+              type: "photo",
+              src: "assets/photo-m1-chewing-cud.jpg",
+              alt: L("A cow lying down in grass, resting, with its mouth open mid-chew while chewing the cud."),
+              caption: L("A resting cow chewing the cud — the calm, repetitive jaw movement this lesson teaches you to check for."),
+            },
               {
                 type: "text",
                 heading: L("Why 'Normal' Comes First"),
@@ -379,6 +391,12 @@ export const MODULES = [
             id: "t-vitals-appearance-fever",
             title: L("How It Looks: Coat, Eyes and Fever"),
             teach: [
+            {
+              type: "photo",
+              src: "assets/photo-m1-coat-eyes-muzzle.jpg",
+              alt: L("Extreme close-up of a dairy cow's face in profile, showing a clear eye, a moist muzzle/nostril, and a smooth, shiny coat."),
+              caption: L("A close look at exactly what this lesson asks you to check: a clear eye, a moist nose, and a smooth, even coat."),
+            },
               {
                 type: "text",
                 heading: L("What a Healthy Animal Looks Like"),
@@ -714,6 +732,12 @@ export const MODULES = [
             id: "t-m2-source-signs",
             title: L("Where to Buy From, and the Signs of a Healthy Animal"),
             teach: [
+            {
+              type: "photo",
+              src: "assets/photo-m2-healthy-signs.jpg",
+              alt: L("A tethered Sahiwal cow standing indoors on a dairy unit floor, ears up and alert, with a glossy reddish-brown coat."),
+              caption: L("A healthy animal stands alert with ears up and a glossy coat — exactly the signs to look for before buying."),
+            },
               {
                 type: "text",
                 heading: L("Why the Purchase Decision Matters"),
@@ -819,6 +843,12 @@ export const MODULES = [
             id: "t-m2-udder-records-transport",
             title: L("Udder, Body Score, Past Records, and the Journey Home"),
             teach: [
+            {
+              type: "photo",
+              src: "assets/photo-m2-udder-veins.jpg",
+              alt: L("Close-up of the underside of a dairy cow's udder and flank, showing prominent, clearly visible milk veins running toward the belly."),
+              caption: L("Prominent milk veins running along the underside of the udder toward the belly — one of the signs worth checking."),
+            },
               {
                 type: "text",
                 heading: L("Checking the Udder"),
@@ -1036,6 +1066,12 @@ export const MODULES = [
             id: "t-m2-age-dentition",
             title: L("Telling an Animal's Age From Its Teeth"),
             teach: [
+            {
+              type: "photo",
+              src: "assets/photo-m2-age-teeth.jpg",
+              alt: L("Extreme close-up of an old cow's lower incisor teeth, viewed from the front, showing yellowed, worn, flattened tooth surfaces with visible gaps between them."),
+              caption: L("By around the 10th year, an animal's incisors show heavy wear and visible gaps like these — one clue to its real age."),
+            },
               {
                 type: "text",
                 heading: L("Why Bother Checking Age?"),
@@ -1212,6 +1248,12 @@ export const MODULES = [
         id: "t-m3-first-day",
         title: L("Right After Birth: Breathing, the Navel Cord and the Golden Hour"),
         teach: [
+            {
+              type: "photo",
+              src: "assets/photo-cow-newborn-calf.jpg",
+              alt: L("A cow standing with her newborn calf just after birth"),
+              caption: L("A cow with her newborn calf right after birth."),
+            },
           {
             type: "text",
             heading: L("Why the First 24 Hours Matter So Much"),
@@ -1311,6 +1353,12 @@ export const MODULES = [
         id: "t-m3-colostrum",
         title: L("Colostrum: The Calf's Passport to Life"),
         teach: [
+            {
+              type: "photo",
+              src: "assets/photo-m3-colostrum.jpg",
+              alt: L("A man crouches and holds up a bottle so a young calf can drink milk from it"),
+              caption: L("Hand-feeding a calf with a bottle — the reliable way to make sure it actually gets the colostrum it needs, rather than hoping it nurses enough on its own."),
+            },
           {
             type: "text",
             heading: L("What Is Colostrum, and Why Can't It Wait?"),
@@ -1734,6 +1782,12 @@ export const MODULES = [
         id: "t-m4-why-vaccinate",
         title: L("What a Vaccine Does, and What Your Role Is"),
         teach: [
+            {
+              type: "photo",
+              src: "assets/photo-m4-vet-vaccinating.jpg",
+              alt: L("A uniformed veterinary professional wearing gloves, holding a syringe, injecting a restrained cow while farm workers look on"),
+              caption: L("Vaccinating an animal is always done by a trained, authorised professional — never something you decide or do yourself."),
+            },
           {
             type: "text",
             heading: L("Training the Body Before the Disease Ever Arrives"),
@@ -3028,6 +3082,12 @@ export const MODULES = [
         id: "t-m5-lumpy-skin-disease",
         title: L("Lumpy Skin Disease"),
         teach: [
+            {
+              type: "photo",
+              src: "assets/photo-m5-lumpy-skin-disease.jpg",
+              alt: L("A calf standing calmly with visible raised, hairless skin nodules from Lumpy Skin Disease across its neck and shoulder"),
+              caption: L("The raised skin nodules of Lumpy Skin Disease — the visible sign this lesson teaches you to notice and report."),
+            },
           {
             type: "text",
             heading: L("A Viral Disease Spread by Insects and Ticks"),
@@ -3199,6 +3259,12 @@ export const MODULES = [
         id: "t-m6-anaplasmosis",
         title: L("Anaplasmosis: Signs and Spread"),
         teach: [
+            {
+              type: "photo",
+              src: "assets/photo-m6-tick-specimen.jpg",
+              alt: L("Close-up photograph of two cattle ticks, female (left, engorged reddish-brown) and male (right, smaller and darker), on a plain background"),
+              caption: L("A cattle tick (Rhipicephalus microplus) — a bite from a tick like this is how the germs behind Anaplasmosis and Babesiosis get into an animal's blood."),
+            },
           {
             type: "text",
             heading: L("What Anaplasmosis Is"),
@@ -3433,6 +3499,12 @@ export const MODULES = [
         id: "t-m6-surra",
         title: L("Surra: A Disease Spread by Biting Flies"),
         teach: [
+            {
+              type: "photo",
+              src: "assets/photo-m6-horn-flies.jpg",
+              alt: L("Close-up of a cow's back and shoulder coat covered with many small horn flies"),
+              caption: L("Horn flies on a cow's coat — one of the biting flies named in this lesson as a carrier of Surra."),
+            },
           {
             type: "text",
             heading: L("What Surra Is"),
@@ -3504,6 +3576,12 @@ export const MODULES = [
         id: "t-m6-tick-fly-control",
         title: L("Controlling Ticks and Flies"),
         teach: [
+            {
+              type: "photo",
+              src: "assets/photo-m6-pour-on-acaricide.jpg",
+              alt: L("A person's hand pouring a liquid acaricide from a bottle along the backline of a cow"),
+              caption: L("Applying an acaricide along an animal's backline — one practical way ticks are kept under control."),
+            },
           {
             type: "text",
             heading: L("Why Bother Controlling Them"),
@@ -4681,6 +4759,12 @@ export const MODULES = [
         id: "t-m8-laminitis-prevention",
         title: L("Preventing Laminitis"),
         teach: [
+            {
+              type: "photo",
+              src: "assets/photo-m8-hoof-trim.jpg",
+              alt: L("A farm worker using a hoof grinder to trim a cow's hoof while the animal stands restrained in a hoof-trimming crush"),
+              caption: L("Routine hoof trimming, done safely in a trimming crush, is one of the habits that helps prevent laminitis."),
+            },
           {
             type: "text",
             heading: L("Prevention Is Mostly About Feeding, Floors and Feet"),
@@ -4824,6 +4908,12 @@ export const MODULES = [
         id: "t-m9-what-is-mastitis",
         title: L("What Is Mastitis, and Why It Matters"),
         teach: [
+            {
+              type: "photo",
+              src: "assets/photo-m9-healthy-udder.jpg",
+              alt: L("Rear view of a healthy dairy cow's full, evenly balanced udder, standing calmly on straw bedding"),
+              caption: L("A healthy udder: four separate quarters, evenly shaped, with no swelling or asymmetry on any one side."),
+            },
           {
             type: "text",
             heading: L("The Udder: Four Separate Rooms, Not One"),
@@ -5512,6 +5602,12 @@ export const MODULES = [
         id: "t-m10-gossypol",
         title: L("Gossypol Poisoning: When Cottonseed Feed Turns Harmful"),
         teach: [
+            {
+              type: "photo",
+              src: "assets/photo-m10-cottonseed.jpg",
+              alt: L("Cattle and calves eating whole cottonseed spread on pasture, with a farmer standing nearby holding a feed bucket"),
+              caption: L("Whole cottonseed feed — the exact feed source that contains gossypol, the poisoning risk this lesson covers."),
+            },
           {
             type: "text",
             heading: L("What Is Gossypol Poisoning?"),
@@ -5591,6 +5687,18 @@ export const MODULES = [
         id: "t-m10-cyanide",
         title: L("Cyanide Poisoning: A Fast-Moving Emergency from Certain Plants"),
         teach: [
+            {
+              type: "photo",
+              src: "assets/photo-m10-sorghum.jpg",
+              alt: L("A sorghum plant growing in a field, with its tall grain seed head visible against a clear sky"),
+              caption: L("Sorghum — one of the plants this lesson names as a cyanide poisoning risk, especially at young growth stages."),
+            },
+            {
+              type: "photo",
+              src: "assets/photo-m10-cassava.jpg",
+              alt: L("Close-up of cassava (tapioca) plant leaves, showing their distinctive palm-shaped leaflets"),
+              caption: L("Tapioca (cassava) leaves — another plant this lesson names as a cyanide poisoning risk."),
+            },
           {
             type: "text",
             heading: L("Where Cyanide Poisoning Comes From"),
@@ -5758,6 +5866,12 @@ export const MODULES = [
         id: "t-m10-op-symptoms",
         title: L("Recognising Organophosphorous (Pesticide) Poisoning"),
         teach: [
+            {
+              type: "photo",
+              src: "assets/photo-m10-pesticide-spraying.jpg",
+              alt: L("A tractor towing a boom sprayer, applying pesticide to a ploughed field, with visible spray mist"),
+              caption: L("Pesticide being sprayed on a field. Most pesticides — including tick-control products used on cattle — are organophosphorous (OP) compounds, the hazard this lesson covers."),
+            },
           {
             type: "text",
             heading: L("What Are Organophosphorous (OP) Compounds?"),
@@ -6218,6 +6332,12 @@ export const MODULES = [
         id: "t-m11-gi-zoonotic",
         title: L("Gastro-Intestinal Zoonotic Diseases"),
         teach: [
+            {
+              type: "photo",
+              src: "assets/photo-m11-handwashing.jpg",
+              alt: L("A person washing their hands thoroughly with soap and lather at a sink"),
+              caption: L("Washing your hands thoroughly with soap after handling dung or cattle — and always before eating — is one of the simplest ways to protect yourself."),
+            },
           {
             type: "text",
             heading: L("What Are Gastro-Intestinal Zoonotic Diseases?"),
@@ -6291,6 +6411,12 @@ export const MODULES = [
         id: "t-m11-tick-borne",
         title: L("Tick-Borne Zoonotic Diseases and Protecting Yourself"),
         teach: [
+            {
+              type: "photo",
+              src: "assets/photo-m11-tick-specimen.jpg",
+              alt: L("Close-up photograph of two cattle ticks (Rhipicephalus microplus), female (left) and male (right), on a plain background"),
+              caption: L("Ticks like these attach to cattle skin to feed on blood and can carry the germs behind tick-borne zoonotic diseases."),
+            },
           {
             type: "text",
             heading: L("What Are Tick-Borne Zoonotic Diseases?"),
@@ -7212,6 +7338,24 @@ export const MODULES = [
         id: "t-m13-handbook-basics",
         title: L("Handbook Remedies for Milk, Blood and Anaemia Problems"),
         teach: [
+            {
+              type: "photo",
+              src: "assets/photo-m13-mimosa-pudica.jpg",
+              alt: L("Close-up of Mimosa pudica compound leaves, some open and one partially folded"),
+              caption: L("Mimosa pudica, the 'touch-me-not' plant — used as a paste in the handbook's remedy for blood in milk."),
+            },
+            {
+              type: "photo",
+              src: "assets/photo-m13-amla.jpg",
+              alt: L("A pile of round, pale-green Phyllanthus emblica (Amla / Indian gooseberry) fruits"),
+              caption: L("Amla (Indian gooseberry) — ground fruit or bark is the handbook's remedy for anaemia."),
+            },
+            {
+              type: "photo",
+              src: "assets/photo-m13-asparagus-racemosus.jpg",
+              alt: L("Asparagus racemosus (Shatavari) plant with fine needle-like leaves, small white flowers and red berries"),
+              caption: L("Asparagus racemosus (Satavari) — ground root is the handbook's remedy for failure to produce milk."),
+            },
           {
             type: "text",
             heading: L("Starting With the Handbook's Own List"),
@@ -7455,6 +7599,12 @@ export const MODULES = [
         id: "t-m13-skin-wound",
         title: L("Skin, Wound and Parasite Problems"),
         teach: [
+            {
+              type: "photo",
+              src: "assets/photo-m13-neem.jpg",
+              alt: L("Close-up of neem (Azadirachta indica) serrated compound leaves with clusters of small oval green fruits"),
+              caption: L("Neem — its bark, flower, seed oil or leaf pulp is used across several remedies in this module, from fungal infection to external parasites."),
+            },
           {
             type: "text",
             heading: L("Remedies You Apply on the Skin or Wound"),
@@ -8457,6 +8607,18 @@ export const MODULES = [
         id: "t-m14-good-practice",
         title: L("Mixing Feed and Avoiding Common Mistakes"),
         teach: [
+            {
+              type: "photo",
+              src: "assets/photo-fodder-cutting.jpg",
+              alt: L("A farmer chopping green fodder with a fodder-cutting machine, with buffaloes visible in a pen behind him"),
+              caption: L("Chaffing (cutting) green fodder into small pieces before feeding reduces wastage and helps the animal digest it better."),
+            },
+            {
+              type: "photo",
+              src: "assets/photo-m14-tmr.jpg",
+              alt: L("Holstein dairy cows eating a Total Mixed Ration — a uniform mix of chopped fodder and concentrate — from a feed manger"),
+              caption: L("A Total Mixed Ration (TMR / 'Sani') mixes fodder, concentrate and minerals together, instead of giving separate piles of each."),
+            },
           {
             type: "callout",
             style: "warning",
@@ -8618,6 +8780,12 @@ export const MODULES = [
         id: "t-m15-green-fodder-value",
         title: L("What Is Green Fodder, and Why Does It Matter?"),
         teach: [
+            {
+              type: "photo",
+              src: "assets/photo-m15-green-fodder.jpg",
+              alt: L("A farmer manually cutting fresh green fodder from a tall, lush green fodder crop in a field in Punjab, India"),
+              caption: L("Green fodder is fed to the animal soon after cutting, while it still has its natural moisture."),
+            },
           {
             type: "text",
             heading: L("What Do We Mean by 'Green Fodder'?"),
@@ -8837,6 +9005,12 @@ export const MODULES = [
         id: "t-m15-hay",
         title: L("Turning Surplus Fodder into Hay"),
         teach: [
+            {
+              type: "photo",
+              src: "assets/photo-m15-hay.jpg",
+              alt: L("Two large cone-shaped haystacks made of dried wheat hay standing in a field in Punjab, India"),
+              caption: L("Once sun-dried to low moisture, hay is gathered and stored so its quality is kept until it's needed."),
+            },
           {
             type: "text",
             heading: L("Why Conserve Fodder at All?"),
@@ -8909,6 +9083,12 @@ export const MODULES = [
         id: "t-m15-silage",
         title: L("Turning Surplus Fodder into Silage"),
         teach: [
+            {
+              type: "photo",
+              src: "assets/photo-m15-silage.jpg",
+              alt: L("A large silage pit on a farm, completely covered and sealed with black plastic sheeting weighted down at the edges"),
+              caption: L("A silage pit sealed airtight with plastic sheeting — the same basic idea described in this lesson."),
+            },
           {
             type: "glossary",
             term: L("Silage"),
@@ -9037,6 +9217,12 @@ export const MODULES = [
         id: "t-m15-straw-problem",
         title: L("Why Plain Straw Isn't Enough on Its Own"),
         teach: [
+            {
+              type: "photo",
+              src: "assets/photo-m15-straw.jpg",
+              alt: L("A field of golden crop stubble left after harvest, near Sangrur, Punjab, India"),
+              caption: L("Crop residue (straw stubble) left after harvest — the kind of straw that urea treatment can turn into better feed."),
+            },
           {
             type: "text",
             heading: L("Plenty of Straw, but Poor Nutrition"),
@@ -9258,6 +9444,12 @@ export const MODULES = [
         id: "t-m16-space",
         title: L("How Much Space Each Animal Needs"),
         teach: [
+            {
+              type: "photo",
+              src: "assets/photo-m16-shed.jpg",
+              alt: L("A small thatched-roof cattle shed open on the sides, standing on dry raised ground, with cattle resting comfortably underneath"),
+              caption: L("A simple open-sided shed — dry underfoot, only a couple of animals resting comfortably, not crowded."),
+            },
           {
             type: "text",
             heading: L("Why Space Matters"),
@@ -9323,6 +9515,12 @@ export const MODULES = [
         id: "t-m16-orientation",
         title: L("Facing the Shed the Right Way: Walls, Manger and Open Area"),
         teach: [
+            {
+              type: "photo",
+              src: "assets/photo-m16-manger.jpg",
+              alt: L("A long, sturdy concrete manger built along the base of a wall in a farm shed"),
+              caption: L("A concrete manger built along a wall, raised above the ground — the same basic design this lesson describes."),
+            },
           {
             type: "text",
             heading: L("Open on Three Sides, Walled on One"),
