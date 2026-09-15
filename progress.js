@@ -35,14 +35,10 @@ export function recordQuizAttempt(moduleId, lessonId, scorePercent, passed) {
   return progress[moduleId][lessonId];
 }
 
-// First lesson in a module is always unlocked; each subsequent lesson
-// unlocks once the previous lesson has been completed (quiz passed).
+// All lessons are unlocked regardless of progress — learners can browse
+// any module or lesson in any order.
 export function isLessonUnlocked(mod, lessonId) {
-  if (!mod || !mod.lessons) return false;
-  const idx = mod.lessons.findIndex((l) => l.id === lessonId);
-  if (idx <= 0) return true;
-  const prevLesson = mod.lessons[idx - 1];
-  return getLessonState(mod.id, prevLesson.id).completed;
+  return true;
 }
 
 export function getModuleProgress(mod) {
