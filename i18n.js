@@ -76,10 +76,10 @@ const UI = {
   usedIn: L("Used in: {where}"),
   viewSource: L("View source →"),
   progressNote: L(
-    "Your progress is saved automatically in this browser.",
-    "మీ పురోగతి ఈ బ్రౌజర్‌లో స్వయంచాలకంగా సేవ్ అవుతుంది.",
-    "உங்கள் முன்னேற்றம் இந்த உலாவியில் தானாக சேமிக்கப்படும்.",
-    "ನಿಮ್ಮ ಪ್ರಗತಿಯನ್ನು ಈ ಬ್ರೌಸರ್‌ನಲ್ಲಿ ಸ್ವಯಂಚಾಲಿತವಾಗಿ ಉಳಿಸಲಾಗುತ್ತದೆ."
+    "Your progress is saved to your account automatically — sign in on any device to continue.",
+    "మీ పురోగతి మీ ఖాతాకు స్వయంచాలకంగా సేవ్ అవుతుంది — కొనసాగించడానికి ఏ పరికరంలోనైనా సైన్ ఇన్ చేయండి.",
+    "உங்கள் முன்னேற்றம் உங்கள் கணக்கில் தானாக சேமிக்கப்படும் — தொடர எந்த சாதனத்திலும் உள்நுழையவும்.",
+    "ನಿಮ್ಮ ಪ್ರಗತಿಯನ್ನು ನಿಮ್ಮ ಖಾತೆಗೆ ಸ್ವಯಂಚಾಲಿತವಾಗಿ ಉಳಿಸಲಾಗುತ್ತದೆ — ಮುಂದುವರಿಸಲು ಯಾವುದೇ ಸಾಧನದಲ್ಲಿ ಸೈನ್ ಇನ್ ಮಾಡಿ."
   ),
   lessonsCompleteMeta: L(
     "{completed}/{total} lessons complete",
@@ -429,6 +429,146 @@ const UI = {
     "ಉತ್ತೀರ್ಣರಾಗಲು {pct}% ಅಗತ್ಯವಿದೆ. ಕೆಳಗಿನ ಉತ್ತರಗಳನ್ನು ಪರಿಶೀಲಿಸಿ, ನೀವು ಸಿದ್ಧರಾದಾಗ ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ."
   ),
   examRetryButton: L("Try Again", "మళ్లీ ప్రయత్నించండి", "மீண்டும் முயற்சிக்கவும்", "ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ"),
+
+  // ---- Landing page: learner vs admin login ----
+  learnerLoginButton: L("Learner Login", "అభ్యాసకుల లాగిన్", "கற்பவர் நுழைவு", "ಕಲಿಯುವವರ ಲಾಗಿನ್"),
+  adminLoginButtonLabel: L("Admin Login", "అడ్మిన్ లాగిన్", "நிர்வாகி நுழைவு", "ನಿರ್ವಾಹಕ ಲಾಗಿನ್"),
+
+  // ---- Login / sign-in pages ----
+  loginTitle: L("Sign In", "సైన్ ఇన్ చేయండి", "உள்நுழையவும்", "ಸೈನ್ ಇನ್ ಮಾಡಿ"),
+  learnerLoginTitle: L("Learner Sign In", "అభ్యాసకుల సైన్ ఇన్", "கற்பவர் உள்நுழைவு", "ಕಲಿಯುವವರ ಸೈನ್ ಇನ್"),
+  adminLoginTitle: L("Admin Sign In", "అడ్మిన్ సైన్ ఇన్", "நிர்வாகி உள்நுழைவு", "ನಿರ್ವಾಹಕ ಸೈನ್ ಇನ್"),
+  loginSubtitle: L(
+    "Enter your login details to continue.",
+    "కొనసాగించడానికి మీ లాగిన్ వివరాలను నమోదు చేయండి.",
+    "தொடர உங்கள் உள்நுழைவு விவரங்களை உள்ளிடவும்.",
+    "ಮುಂದುವರಿಯಲು ನಿಮ್ಮ ಲಾಗಿನ್ ವಿವರಗಳನ್ನು ನಮೂದಿಸಿ."
+  ),
+  loginIdLabel: L("Email", "ఇమెయిల్", "மின்னஞ்சல்", "ಇಮೇಲ್"),
+  passwordLabel: L("Password", "పాస్‌వర్డ్", "கடவுச்சொல்", "ಪಾಸ್‌ವರ್ಡ್"),
+  loginButton: L("Sign In", "సైన్ ఇన్ చేయండి", "உள்நுழையவும்", "ಸೈನ್ ಇನ್ ಮಾಡಿ"),
+  loginSigningIn: L("Signing in…", "సైన్ ఇన్ అవుతోంది…", "உள்நுழைகிறது…", "ಸೈನ್ ಇನ್ ಆಗುತ್ತಿದೆ…"),
+  loginErrorGeneric: L(
+    "Something went wrong. Please try again.",
+    "ఏదో పొరపాటు జరిగింది. దయచేసి మళ్లీ ప్రయత్నించండి.",
+    "ஏதோ தவறு நடந்தது. மீண்டும் முயற்சிக்கவும்.",
+    "ಏನೋ ತಪ್ಪಾಗಿದೆ. ದಯವಿಟ್ಟು ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ."
+  ),
+  loginWrongPortalAdmin: L(
+    "This is an admin account. Please use the Admin Login instead.",
+    "ఇది అడ్మిన్ ఖాతా. దయచేసి బదులుగా అడ్మిన్ లాగిన్‌ను ఉపయోగించండి.",
+    "இது ஒரு நிர்வாகி கணக்கு. தயவுசெய்து நிர்வாகி நுழைவைப் பயன்படுத்தவும்.",
+    "ಇದು ನಿರ್ವಾಹಕ ಖಾತೆ. ದಯವಿಟ್ಟು ಬದಲಿಗೆ ನಿರ್ವಾಹಕ ಲಾಗಿನ್ ಬಳಸಿ."
+  ),
+  loginWrongPortalLearner: L(
+    "This is a learner account. Please use the Learner Login instead.",
+    "ఇది అభ్యాసకుల ఖాతా. దయచేసి బదులుగా అభ్యాసకుల లాగిన్‌ను ఉపయోగించండి.",
+    "இது ஒரு கற்பவர் கணக்கு. தயவுசெய்து கற்பவர் நுழைவைப் பயன்படுத்தவும்.",
+    "ಇದು ಕಲಿಯುವವರ ಖಾತೆ. ದಯವಿಟ್ಟು ಬದಲಿಗೆ ಕಲಿಯುವವರ ಲಾಗಿನ್ ಬಳಸಿ."
+  ),
+
+  // ---- Change password ----
+  changePasswordTitle: L("Set a New Password", "కొత్త పాస్‌వర్డ్ సెట్ చేయండి", "புதிய கடவுச்சொல்லை அமைக்கவும்", "ಹೊಸ ಪಾಸ್‌ವರ್ಡ್ ಹೊಂದಿಸಿ"),
+  changePasswordSubtitle: L(
+    "Choose a password only you know.",
+    "మీకు మాత్రమే తెలిసిన పాస్‌వర్డ్‌ను ఎంచుకోండి.",
+    "உங்களுக்கு மட்டும் தெரிந்த கடவுச்சொல்லைத் தேர்ந்தெடுக்கவும்.",
+    "ನಿಮಗೆ ಮಾತ್ರ ತಿಳಿದಿರುವ ಪಾಸ್‌ವರ್ಡ್ ಆಯ್ಕೆಮಾಡಿ."
+  ),
+  currentPasswordLabel: L("Current Password", "ప్రస్తుత పాస్‌వర్డ్", "தற்போதைய கடவுச்சொல்", "ಪ್ರಸ್ತುತ ಪಾಸ್‌ವರ್ಡ್"),
+  newPasswordLabel: L("New Password", "కొత్త పాస్‌వర్డ్", "புதிய கடவுச்சொல்", "ಹೊಸ ಪಾಸ್‌ವರ್ಡ್"),
+  newPasswordHint: L("At least 6 characters.", "కనీసం 6 అక్షరాలు ఉండాలి.", "குறைந்தது 6 எழுத்துகள்.", "ಕನಿಷ್ಠ 6 ಅಕ್ಷರಗಳು."),
+  changePasswordButton: L("Save Password", "పాస్‌వర్డ్ సేవ్ చేయండి", "கடவுச்சொல்லைச் சேமிக்கவும்", "ಪಾಸ್‌ವರ್ಡ್ ಉಳಿಸಿ"),
+  changePasswordSaving: L("Saving…", "సేవ్ అవుతోంది…", "சேமிக்கிறது…", "ಉಳಿಸಲಾಗುತ್ತಿದೆ…"),
+
+  // ---- Topbar: admin link + logout ----
+  adminNavLink: L("Admin", "అడ్మిన్", "நிர்வாகி", "ನಿರ್ವಾಹಕ"),
+  logoutButton: L("Logout", "లాగ్ అవుట్", "வெளியேறு", "ಲಾಗ್ ಔಟ್"),
+
+  // ---- Admin dashboard (roster) ----
+  adminDashboardTitle: L("Admin Dashboard", "అడ్మిన్ డాష్‌బోర్డ్", "நிர்வாகி டாஷ்போர்டு", "ನಿರ್ವಾಹಕ ಡ್ಯಾಶ್‌ಬೋರ್ಡ್"),
+  adminDashboardTagline: L(
+    "See every learner's progress, and add new login credentials.",
+    "ప్రతి అభ్యాసకుడి పురోగతిని చూడండి, కొత్త లాగిన్ వివరాలను జోడించండి.",
+    "ஒவ்வொரு கற்பவரின் முன்னேற்றத்தையும் காணுங்கள், புதிய நுழைவு விவரங்களைச் சேர்க்கவும்.",
+    "ಪ್ರತಿ ಕಲಿಯುವವರ ಪ್ರಗತಿಯನ್ನು ನೋಡಿ, ಹೊಸ ಲಾಗಿನ್ ವಿವರಗಳನ್ನು ಸೇರಿಸಿ."
+  ),
+  adminSearchPlaceholder: L("Search by name or email…", "పేరు లేదా ఇమెయిల్ ద్వారా వెతకండి…", "பெயர் அல்லது மின்னஞ்சல் மூலம் தேடவும்…", "ಹೆಸರು ಅಥವಾ ಇಮೇಲ್ ಮೂಲಕ ಹುಡುಕಿ…"),
+  adminAddLearnerButton: L("+ Add Learner", "+ అభ్యాసకుడిని జోడించండి", "+ கற்பவரைச் சேர்க்கவும்", "+ ಕಲಿಯುವವರನ್ನು ಸೇರಿಸಿ"),
+  adminNoLearners: L(
+    "No learners yet. Add the first one to get started.",
+    "ఇంకా అభ్యాసకులు లేరు. ప్రారంభించడానికి మొదటి వ్యక్తిని జోడించండి.",
+    "இன்னும் கற்பவர்கள் இல்லை. தொடங்க முதலாமவரைச் சேர்க்கவும்.",
+    "ಇನ್ನೂ ಕಲಿಯುವವರಿಲ್ಲ. ಪ್ರಾರಂಭಿಸಲು ಮೊದಲನೆಯವರನ್ನು ಸೇರಿಸಿ."
+  ),
+  adminTableName: L("Name", "పేరు", "பெயர்", "ಹೆಸರು"),
+  adminTableLoginId: L("Login Email", "లాగిన్ ఇమెయిల్", "நுழைவு மின்னஞ்சல்", "ಲಾಗಿನ್ ಇಮೇಲ್"),
+  adminTableProgress: L("Progress", "పురోగతి", "முன்னேற்றம்", "ಪ್ರಗತಿ"),
+  adminTableModules: L("Modules", "మాడ్యూళ్లు", "தொகுதிகள்", "ಮಾಡ್ಯೂಲ್‌ಗಳು"),
+  adminExamColumnLabel: L("Final Exam", "ఫైనల్ పరీక్ష", "இறுதித் தேர்வு", "ಅಂತಿಮ ಪರೀಕ್ಷೆ"),
+  adminExamPassedBadge: L("Passed ({score}%)", "ఉత్తీర్ణత ({score}%)", "தேர்ச்சி ({score}%)", "ಉತ್ತೀರ್ಣ ({score}%)"),
+  adminExamNotPassedBadge: L("Not Yet", "ఇంకా లేదు", "இன்னும் இல்லை", "ಇನ್ನೂ ಇಲ್ಲ"),
+  adminTableLastActive: L("Last Active", "చివరిసారి యాక్టివ్", "கடைசியாக செயலில்", "ಕೊನೆಯ ಸಕ್ರಿಯ"),
+  adminTableStatus: L("Status", "స్థితి", "நிலை", "ಸ್ಥಿತಿ"),
+  adminStatusActive: L("Active", "యాక్టివ్", "செயலில்", "ಸಕ್ರಿಯ"),
+  adminStatusInactive: L("Inactive", "నిష్క్రియ", "செயலற்றது", "ನಿಷ್ಕ್ರಿಯ"),
+  adminNeverActive: L("Never", "ఎప్పుడూ లేదు", "ஒருபோதும் இல்லை", "ಎಂದಿಗೂ ಇಲ್ಲ"),
+
+  // ---- Admin: learner detail ----
+  adminLessonsCompleteLabel: L("{completed}/{total} lessons", "{completed}/{total} పాఠాలు", "{completed}/{total} பாடங்கள்", "{completed}/{total} ಪಾಠಗಳು"),
+  adminLessonStatusComplete: L("Complete", "పూర్తయింది", "முடிந்தது", "ಪೂರ್ಣಗೊಂಡಿದೆ"),
+  adminLessonScoreLabel: L("Score: {score}%", "స్కోర్: {score}%", "மதிப்பெண்: {score}%", "ಅಂಕ: {score}%"),
+  adminLessonCompletedOnLabel: L("completed {date}", "{date}న పూర్తయింది", "{date} அன்று முடிந்தது", "{date} ರಂದು ಪೂರ್ಣಗೊಂಡಿದೆ"),
+  adminLessonStatusNotStarted: L("Not Started", "ఇంకా ప్రారంభించలేదు", "தொடங்கவில்லை", "ಇನ್ನೂ ಪ್ರಾರಂಭಿಸಿಲ್ಲ"),
+  adminExpandModuleHint: L(
+    "Tap a module to see its lesson-by-lesson checklist.",
+    "ప్రతి పాఠం స్థితిని చూడటానికి ఒక మాడ్యూల్‌ను నొక్కండి.",
+    "ஒவ்வொரு பாடத்தின் நிலையையும் காண ஒரு தொகுதியைத் தட்டவும்.",
+    "ಪ್ರತಿ ಪಾಠದ ಸ್ಥಿತಿಯನ್ನು ನೋಡಲು ಮಾಡ್ಯೂಲ್ ಒಂದನ್ನು ಟ್ಯಾಪ್ ಮಾಡಿ."
+  ),
+  adminOverallLabel: L("Overall", "మొత్తం", "மொத்தம்", "ಒಟ್ಟು"),
+  adminResetPasswordButton: L("Reset Password", "పాస్‌వర్డ్ రీసెట్ చేయండి", "கடவுச்சொல்லை மீட்டமைக்கவும்", "ಪಾಸ್‌ವರ್ಡ್ ಮರುಹೊಂದಿಸಿ"),
+  adminDeactivateButton: L("Deactivate Account", "ఖాతాను నిష్క్రియం చేయండి", "கணக்கை முடக்கவும்", "ಖಾತೆಯನ್ನು ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಿ"),
+  adminReactivateButton: L("Reactivate Account", "ఖాతాను తిరిగి యాక్టివ్ చేయండి", "கணக்கை மீண்டும் இயக்கவும்", "ಖಾತೆಯನ್ನು ಮರುಸಕ್ರಿಯಗೊಳಿಸಿ"),
+  adminResetPasswordPromptTitle: L(
+    "Send Password Reset Email?",
+    "పాస్‌వర్డ్ రీసెట్ ఇమెయిల్ పంపాలా?",
+    "கடவுச்சொல் மீட்டமைப்பு மின்னஞ்சலை அனுப்பவா?",
+    "ಪಾಸ್‌ವರ್ಡ್ ಮರುಹೊಂದಿಸುವ ಇಮೇಲ್ ಕಳುಹಿಸಬೇಕೇ?"
+  ),
+  adminResetPasswordPromptSub: L(
+    "This sends a password reset link to the learner's email address.",
+    "ఇది అభ్యాసకుడి ఇమెయిల్ చిరునామాకు పాస్‌వర్డ్ రీసెట్ లింక్‌ను పంపుతుంది.",
+    "இது கற்பவரின் மின்னஞ்சல் முகவரிக்கு கடவுச்சொல் மீட்டமைப்பு இணைப்பை அனுப்பும்.",
+    "ಇದು ಕಲಿಯುವವರ ಇಮೇಲ್ ವಿಳಾಸಕ್ಕೆ ಪಾಸ್‌ವರ್ಡ್ ಮರುಹೊಂದಿಸುವ ಲಿಂಕ್ ಕಳುಹಿಸುತ್ತದೆ."
+  ),
+  adminSendResetEmailButton: L("Send Reset Email", "రీసెట్ ఇమెయిల్ పంపండి", "மீட்டமைப்பு மின்னஞ்சலை அனுப்பவும்", "ಮರುಹೊಂದಿಸುವ ಇಮೇಲ್ ಕಳುಹಿಸಿ"),
+  adminCancelButton: L("Cancel", "రద్దు చేయండి", "ரத்துசெய்", "ರದ್ದುಮಾಡಿ"),
+  adminResetEmailSentNote: L(
+    "A password reset email was sent to {email}.",
+    "పాస్‌వర్డ్ రీసెట్ ఇమెయిల్ {email}కు పంపబడింది.",
+    "கடவுச்சொல் மீட்டமைப்பு மின்னஞ்சல் {email} க்கு அனுப்பப்பட்டது.",
+    "ಪಾಸ್‌ವರ್ಡ್ ಮರುಹೊಂದಿಸುವ ಇಮೇಲ್ {email} ಗೆ ಕಳುಹಿಸಲಾಗಿದೆ."
+  ),
+
+  // ---- Admin: add learner ----
+  adminNewLearnerTitle: L("Add a New Learner", "కొత్త అభ్యాసకుడిని జోడించండి", "புதிய கற்பவரைச் சேர்க்கவும்", "ಹೊಸ ಕಲಿಯುವವರನ್ನು ಸೇರಿಸಿ"),
+  adminDisplayNameLabel: L("Full Name", "పూర్తి పేరు", "முழுப் பெயர்", "ಪೂರ್ಣ ಹೆಸರು"),
+  adminLoginIdHint: L(
+    "The learner will sign in with this email address.",
+    "అభ్యాసకుడు ఈ ఇమెయిల్ చిరునామాతో సైన్ ఇన్ అవుతారు.",
+    "கற்பவர் இந்த மின்னஞ்சல் முகவரியுடன் உள்நுழைவார்.",
+    "ಕಲಿಯುವವರು ಈ ಇಮೇಲ್ ವಿಳಾಸದೊಂದಿಗೆ ಸೈನ್ ಇನ್ ಆಗುತ್ತಾರೆ."
+  ),
+  adminTempPasswordLabel: L("Temporary Password", "తాత్కాలిక పాస్‌వర్డ్", "தற்காலிக கடவுச்சொல்", "ತಾತ್ಕಾಲಿಕ ಪಾಸ್‌ವರ್ಡ್"),
+  adminTempPasswordHint: L(
+    "Share this with the learner. At least 6 characters.",
+    "దీన్ని అభ్యాసకుడితో పంచుకోండి. కనీసం 6 అక్షరాలు ఉండాలి.",
+    "இதை கற்பவருடன் பகிரவும். குறைந்தது 6 எழுத்துகள்.",
+    "ಇದನ್ನು ಕಲಿಯುವವರೊಂದಿಗೆ ಹಂಚಿಕೊಳ್ಳಿ. ಕನಿಷ್ಠ 6 ಅಕ್ಷರಗಳು."
+  ),
+  adminCreateButton: L("Create Account", "ఖాతాను సృష్టించండి", "கணக்கை உருவாக்கவும்", "ಖಾತೆ ರಚಿಸಿ"),
+  adminCreating: L("Creating…", "సృష్టిస్తోంది…", "உருவாக்குகிறது…", "ರಚಿಸಲಾಗುತ್ತಿದೆ…"),
 };
 
 export function ui(key, lang, vars) {

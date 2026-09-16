@@ -1,45 +1,53 @@
 // ============================================================================
-// Pashu Arogya Academy — Progress tracking (browser localStorage, no login required)
+// Server-backed replacement for progress.js's localStorage-based tracking.
+// Same exported function names/shapes so app.js's render call sites don't
+// change; the full progress blob is fetched once (see setProgressCache,
+// called from app.js after login/session restore) into this in-memory
+// cache; reads stay synchronous against that cache. Only recordQuizAttempt
+// and recordFinalExamAttempt talk to the network — they update the cache
+// optimistically so the UI doesn't wait on a round trip, then reconcile
+// with the server's response.
 // ============================================================================
+import { api } from "./api.js";
 
-const STORAGE_KEY = "vet_paravet_lms_progress_v1";
+let cache = {}; // { moduleId: { lessonId: {completed,bestScore,attempts,completedAt} }, finalExam }
 
-function loadProgress() {
-  try {
-    const raw = localStorage.getItem(STORAGE_KEY);
-    return raw ? JSON.parse(raw) : {};
-  } catch (e) {
-    return {};
-  }
-}
-
-function saveProgress(progress) {
-  localStorage.setItem(STORAGE_KEY, JSON.stringify(progress));
+export function setProgressCache(progress) {
+  cache = progress || {};
 }
 
 export function getLessonState(moduleId, lessonId) {
-  const progress = loadProgress();
-  return progress?.[moduleId]?.[lessonId] || { completed: false, bestScore: 0, attempts: 0 };
+  return (cache[moduleId] && cache[moduleId][lessonId]) || { completed: false, bestScore: 0, attempts: 0, completedAt: null };
 }
 
 export function recordQuizAttempt(moduleId, lessonId, scorePercent, passed) {
-  const progress = loadProgress();
-  if (!progress[moduleId]) progress[moduleId] = {};
-  const existing = progress[moduleId][lessonId] || { completed: false, bestScore: 0, attempts: 0, completedAt: null };
+  const existing = getLessonState(moduleId, lessonId);
   const justCompleted = !existing.completed && !!passed;
-  progress[moduleId][lessonId] = {
+  const optimistic = {
     completed: existing.completed || passed,
     bestScore: Math.max(existing.bestScore, scorePercent),
     attempts: existing.attempts + 1,
-    lastAttemptAt: new Date().toISOString(),
     completedAt: existing.completedAt || (justCompleted ? new Date().toISOString() : null),
   };
-  saveProgress(progress);
-  return progress[moduleId][lessonId];
+  if (!cache[moduleId]) cache[moduleId] = {};
+  cache[moduleId][lessonId] = optimistic;
+
+  api
+    .quizAttempt(moduleId, lessonId, scorePercent, passed)
+    .then((res) => {
+      if (res && res.lessonState && cache[moduleId]) {
+        cache[moduleId][lessonId] = res.lessonState;
+      }
+    })
+    .catch((e) => {
+      console.error("Failed to save quiz attempt to the server:", e);
+    });
+
+  return optimistic;
 }
 
 // All lessons are unlocked regardless of progress — learners can browse
-// any module or lesson in any order.
+// any module or lesson in any order (this course's original design).
 export function isLessonUnlocked(mod, lessonId) {
   return true;
 }
@@ -56,16 +64,6 @@ export function getModuleProgress(mod) {
     percent: Math.round((completed / total) * 100),
     isComplete: completed === total,
   };
-}
-
-export function resetModuleProgress(moduleId) {
-  const progress = loadProgress();
-  delete progress[moduleId];
-  saveProgress(progress);
-}
-
-export function resetAllProgress() {
-  localStorage.removeItem(STORAGE_KEY);
 }
 
 // Overall progress across every available module — used for the dashboard's
@@ -91,19 +89,18 @@ export function isCourseComplete(modules) {
   return getOverallProgress(modules).isComplete;
 }
 
-// The final exam's attempt record lives at progress.finalExam — a sibling to
+// The final exam's attempt record lives at cache.finalExam — a sibling to
 // the moduleId keys (always "m1".."m17", so it can never collide) in the
-// same localStorage blob, following the same shape as a per-lesson state.
+// same progress blob, following the exact optimistic-update-then-reconcile
+// pattern as recordQuizAttempt above.
 export function getFinalExamState() {
-  const progress = loadProgress();
-  return progress.finalExam || { attempted: false, bestScore: 0, attempts: 0, passed: false, lastAttemptAt: null, passedAt: null };
+  return cache.finalExam || { attempted: false, bestScore: 0, attempts: 0, passed: false, lastAttemptAt: null, passedAt: null };
 }
 
 export function recordFinalExamAttempt(scorePercent, passed) {
-  const progress = loadProgress();
-  const existing = progress.finalExam || { attempted: false, bestScore: 0, attempts: 0, passed: false, passedAt: null };
+  const existing = getFinalExamState();
   const justPassed = !existing.passed && !!passed;
-  progress.finalExam = {
+  const optimistic = {
     attempted: true,
     passed: existing.passed || !!passed,
     bestScore: Math.max(existing.bestScore || 0, scorePercent),
@@ -111,6 +108,16 @@ export function recordFinalExamAttempt(scorePercent, passed) {
     lastAttemptAt: new Date().toISOString(),
     passedAt: existing.passedAt || (justPassed ? new Date().toISOString() : null),
   };
-  saveProgress(progress);
-  return progress.finalExam;
+  cache.finalExam = optimistic;
+
+  api
+    .finalExamAttempt(scorePercent, passed)
+    .then((res) => {
+      if (res && res.examState) cache.finalExam = res.examState;
+    })
+    .catch((e) => {
+      console.error("Failed to save final exam attempt to the server:", e);
+    });
+
+  return optimistic;
 }

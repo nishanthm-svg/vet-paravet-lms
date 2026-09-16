@@ -5,13 +5,15 @@ import {
   isLessonUnlocked,
   getModuleProgress,
   getOverallProgress,
+  setProgressCache,
   isCourseComplete,
   getFinalExamState,
   recordFinalExamAttempt,
-} from "./progress.js";
+} from "./progress-client.js";
 import { LANGUAGES, getLang, setLang, tr, ui } from "./i18n.js";
+import { api } from "./api.js";
+import * as admin from "./admin.js";
 import { FINAL_EXAM_QUESTIONS, FINAL_EXAM_PASS_PERCENT } from "./exam-data.js";
-import { getLearnerName, setLearnerName } from "./profile.js";
 
 const root = document.getElementById("app");
 
@@ -68,6 +70,7 @@ const PHOTO_CREDITS = [
 ];
 
 let lang = getLang(); // null until the learner picks one
+let currentUser = null; // null until session-checked or logged in
 
 function t(field) {
   return tr(field, lang || "en");
@@ -117,7 +120,10 @@ function renderLandingPage() {
         <div class="landing-logo" style="font-size:34px; line-height:44px;">🐄🩺</div>
         <h1>${escapeHtml(u("landingHeroTitle"))}</h1>
         <p>${escapeHtml(u("landingHeroSubtitle"))}</p>
-        <button type="button" class="btn btn-primary landing-cta" id="landing-get-started">${escapeHtml(u("landingGetStartedButton"))}</button>
+        <div class="landing-cta-row">
+          <button type="button" class="btn btn-primary landing-cta" id="landing-learner-login-btn">${escapeHtml(u("learnerLoginButton"))}</button>
+          <button type="button" class="btn btn-outline landing-cta" id="landing-admin-login-btn">${escapeHtml(u("adminLoginButtonLabel"))}</button>
+        </div>
       </div>
       <div class="page landing-body">
         <div class="landing-features">${features}</div>
@@ -138,12 +144,133 @@ function renderLandingPage() {
 }
 
 function wireLandingPage() {
-  const btn = document.getElementById("landing-get-started");
-  if (btn) {
-    btn.addEventListener("click", () => {
-      navigate("#/dashboard");
-    });
-  }
+  const learnerBtn = document.getElementById("landing-learner-login-btn");
+  const adminBtn = document.getElementById("landing-admin-login-btn");
+  if (learnerBtn) learnerBtn.addEventListener("click", () => navigate("#/login/learner"));
+  if (adminBtn) adminBtn.addEventListener("click", () => navigate("#/login/admin"));
+}
+
+// ============================================================================
+// Login / auth pages
+// ============================================================================
+function renderLoginPage(loginAs) {
+  const title = loginAs === "admin" ? u("adminLoginTitle") : loginAs === "learner" ? u("learnerLoginTitle") : u("loginTitle");
+  return `
+    <div class="auth-page">
+      <div class="auth-box">
+        <div class="auth-logo" style="font-size:34px;">🐄🩺</div>
+        <h1>${escapeHtml(title)}</h1>
+        <p class="sub">${escapeHtml(u("loginSubtitle"))}</p>
+        <div id="login-error"></div>
+        <form id="login-form">
+          <div class="field">
+            <label for="login-id">${escapeHtml(u("loginIdLabel"))}</label>
+            <input type="email" id="login-id" autocomplete="username" required />
+          </div>
+          <div class="field">
+            <label for="login-password">${escapeHtml(u("passwordLabel"))}</label>
+            <input type="password" id="login-password" autocomplete="current-password" required />
+          </div>
+          <button type="submit" class="btn btn-primary" id="login-submit">${escapeHtml(u("loginButton"))}</button>
+        </form>
+      </div>
+    </div>
+  `;
+}
+
+function wireLoginPage(loginAs) {
+  const form = document.getElementById("login-form");
+  const errorEl = document.getElementById("login-error");
+  const submitBtn = document.getElementById("login-submit");
+  form.addEventListener("submit", async (e) => {
+    e.preventDefault();
+    errorEl.innerHTML = "";
+    const loginId = document.getElementById("login-id").value.trim();
+    const password = document.getElementById("login-password").value;
+    submitBtn.disabled = true;
+    submitBtn.textContent = u("loginSigningIn");
+    try {
+      const res = await api.login(loginId, password);
+      const user = res.user;
+      if (loginAs && user.role !== loginAs) {
+        await api.logout();
+        errorEl.innerHTML = `<div class="auth-error">${escapeHtml(
+          user.role === "admin" ? u("loginWrongPortalAdmin") : u("loginWrongPortalLearner")
+        )}</div>`;
+        submitBtn.disabled = false;
+        submitBtn.textContent = u("loginButton");
+        return;
+      }
+      currentUser = user;
+      if (currentUser.role !== "admin") {
+        try {
+          const p = await api.myProgress();
+          setProgressCache(p.progress);
+        } catch (e2) {
+          setProgressCache({});
+        }
+      }
+      navigate(currentUser.role === "admin" ? "#/admin" : "#/dashboard");
+    } catch (err) {
+      errorEl.innerHTML = `<div class="auth-error">${escapeHtml(err.message || u("loginErrorGeneric"))}</div>`;
+      submitBtn.disabled = false;
+      submitBtn.textContent = u("loginButton");
+    }
+  });
+}
+
+function renderChangePasswordPage() {
+  const showCurrent = !currentUser.mustChangePassword;
+  return `
+    <div class="auth-page">
+      <div class="auth-box">
+        <div class="auth-logo" style="font-size:34px;">🐄🩺</div>
+        <h1>${escapeHtml(u("changePasswordTitle"))}</h1>
+        <p class="sub">${escapeHtml(u("changePasswordSubtitle"))}</p>
+        <div id="cp-error"></div>
+        <form id="cp-form">
+          ${
+            showCurrent
+              ? `<div class="field">
+                  <label for="cp-current">${escapeHtml(u("currentPasswordLabel"))}</label>
+                  <input type="password" id="cp-current" autocomplete="current-password" />
+                </div>`
+              : ""
+          }
+          <div class="field">
+            <label for="cp-new">${escapeHtml(u("newPasswordLabel"))}</label>
+            <input type="password" id="cp-new" autocomplete="new-password" required minlength="6" />
+            <div class="hint">${escapeHtml(u("newPasswordHint"))}</div>
+          </div>
+          <button type="submit" class="btn btn-primary" id="cp-submit">${escapeHtml(u("changePasswordButton"))}</button>
+        </form>
+      </div>
+    </div>
+  `;
+}
+
+function wireChangePasswordPage() {
+  const form = document.getElementById("cp-form");
+  const errorEl = document.getElementById("cp-error");
+  const submitBtn = document.getElementById("cp-submit");
+  form.addEventListener("submit", async (e) => {
+    e.preventDefault();
+    errorEl.innerHTML = "";
+    const currentEl = document.getElementById("cp-current");
+    const oldPassword = currentEl ? currentEl.value : undefined;
+    const newPassword = document.getElementById("cp-new").value;
+    submitBtn.disabled = true;
+    submitBtn.textContent = u("changePasswordSaving");
+    try {
+      await api.changePassword(oldPassword, newPassword);
+      currentUser.mustChangePassword = false;
+      navigate(currentUser.role === "admin" ? "#/admin" : "#/dashboard");
+    } catch (err) {
+      errorEl.innerHTML = `<div class="auth-error">${escapeHtml(err.message || u("loginErrorGeneric"))}</div>`;
+      submitBtn.disabled = false;
+      submitBtn.textContent = u("changePasswordButton");
+    }
+  });
 }
 
 // ============================================================================
@@ -194,18 +321,42 @@ function wireLanguagePicker(isSwitcher, returnHash) {
 // ============================================================================
 function renderTopbar(context) {
   const { title, showBack, backHash } = context;
+  const homeHash = currentUser && currentUser.role === "admin" ? "#/admin" : "#/dashboard";
+  const adminLink =
+    currentUser && currentUser.role === "admin"
+      ? `<button class="admin-nav-btn" data-nav="#/admin">🧑‍💼 ${escapeHtml(u("adminNavLink"))}</button>`
+      : "";
+  const logoutBtn = currentUser ? `<button class="logout-btn" id="logout-btn">↪ ${escapeHtml(u("logoutButton"))}</button>` : "";
   return `
     <div class="topbar">
       ${
         showBack
           ? `<button class="back-btn" data-nav="${backHash}">${u("backButton")}</button>`
-          : `<div class="brand" data-nav="#/dashboard"><span class="brand-icon" style="font-size:18px;">🐄🩺</span> ${escapeHtml(u("brandName"))}</div>`
+          : `<div class="brand" data-nav="${homeHash}"><span class="brand-icon" style="font-size:18px;">🐄🩺</span> ${escapeHtml(u("brandName"))}</div>`
       }
-      ${showBack ? `<div class="brand" data-nav="#/dashboard" style="margin-left:4px;"><span class="brand-icon" style="font-size:18px;">🐄🩺</span> ${escapeHtml(title || u("brandName"))}</div>` : ""}
+      ${showBack ? `<div class="brand" data-nav="${homeHash}" style="margin-left:4px;"><span class="brand-icon" style="font-size:18px;">🐄🩺</span> ${escapeHtml(title || u("brandName"))}</div>` : ""}
       <div class="spacer"></div>
+      ${adminLink}
       <button class="lang-switch-btn" data-nav="#/language">🌐 ${escapeHtml((LANGUAGES.find((l) => l.code === lang) || LANGUAGES[0]).native)}</button>
+      ${logoutBtn}
     </div>
   `;
+}
+
+function wireTopbarLogout() {
+  const btn = document.getElementById("logout-btn");
+  if (btn) {
+    btn.addEventListener("click", async () => {
+      try {
+        await api.logout();
+      } catch (e) {
+        // ignore — clearing local state regardless
+      }
+      currentUser = null;
+      setProgressCache({});
+      navigate("#/login");
+    });
+  }
 }
 
 // ============================================================================
@@ -833,7 +984,7 @@ function renderCompletionPage(moduleId) {
 // Certificates — one per completed module, a course-completion certificate
 // once every available module is done, and a final-exam certificate once the
 // final exam is passed. Computed entirely from data.js content + the
-// progress.js localStorage cache — nothing to fetch.
+// progress-client.js in-memory cache — nothing to fetch.
 // ============================================================================
 const CERT_DATE_LOCALES = { en: "en-IN", te: "te-IN", ta: "ta-IN", kn: "kn-IN" };
 
@@ -861,35 +1012,6 @@ function certId(prefix, parts) {
   return `PA-${prefix}-${certHash(parts.join("|"))}`;
 }
 
-// A certificate needs a name to print. Since this course has no accounts,
-// the learner types it once (stored locally) before any certificate opens.
-function renderLearnerNamePrompt(returnHash) {
-  return `
-    <div class="page page-narrow no-print">
-      <div class="admin-empty" style="background:white; border-radius:var(--radius); box-shadow:var(--shadow); padding:32px 24px;">
-        <h2 style="margin:0 0 8px; color:var(--blue-900);">${escapeHtml(u("certNamePromptTitle"))}</h2>
-        <p style="margin:0 0 18px; color:var(--gray-500); font-size:14px;">${escapeHtml(u("certNamePromptText"))}</p>
-        <form id="cert-name-form" style="display:flex; gap:10px; flex-wrap:wrap;">
-          <input type="text" id="cert-name-input" required placeholder="${escapeHtml(u("certNamePlaceholder"))}" style="flex:1; min-width:200px; padding:10px 12px; border:1.5px solid var(--gray-300); border-radius:9px; font-size:15px;" />
-          <button type="submit" class="btn btn-primary">${escapeHtml(u("certNameSaveButton"))}</button>
-        </form>
-      </div>
-    </div>
-  `;
-}
-
-function wireLearnerNamePrompt() {
-  const form = document.getElementById("cert-name-form");
-  if (!form) return;
-  form.addEventListener("submit", (e) => {
-    e.preventDefault();
-    const val = document.getElementById("cert-name-input").value.trim();
-    if (!val) return;
-    setLearnerName(val);
-    render();
-  });
-}
-
 function certificateShell(bodyHtml) {
   return `
     <div class="cert-toolbar no-print">
@@ -900,7 +1022,7 @@ function certificateShell(bodyHtml) {
 }
 
 function renderCertCard({ title, bodyLines, score, date, id }) {
-  const name = getLearnerName();
+  const name = currentUser.displayName;
   return `
     <div class="cert-page">
       <div class="cert-card">
@@ -950,7 +1072,6 @@ function renderCertificateModule(moduleId) {
     return "";
   }
   const topbar = renderTopbar({ showBack: true, backHash: `#/module/${moduleId}`, title: t(mod.title) });
-  if (!getLearnerName()) return `${topbar}${renderLearnerNamePrompt()}`;
 
   const progress = getModuleProgress(mod);
   if (!progress.isComplete) {
@@ -969,7 +1090,7 @@ function renderCertificateModule(moduleId) {
     bodyLines: [u("certModuleBody"), u("certModuleOfBody", { n: mod.number, title: t(mod.title) })],
     score: null,
     date: formatCertDate(latest),
-    id: certId("MOD", [getLearnerName(), moduleId]),
+    id: certId("MOD", [currentUser.displayName, moduleId]),
   });
 
   return `${topbar}${certificateShell(card)}`;
@@ -977,7 +1098,6 @@ function renderCertificateModule(moduleId) {
 
 function renderCertificateCourse() {
   const topbar = renderTopbar({ showBack: true, backHash: "#/dashboard", title: u("certCourseCardTitle") });
-  if (!getLearnerName()) return `${topbar}${renderLearnerNamePrompt()}`;
 
   const overall = getOverallProgress(MODULES);
   if (!overall.isComplete) {
@@ -998,7 +1118,7 @@ function renderCertificateCourse() {
     bodyLines: [u("certCourseBody")],
     score: null,
     date: formatCertDate(latest),
-    id: certId("CRS", [getLearnerName(), "course"]),
+    id: certId("CRS", [currentUser.displayName, "course"]),
   });
 
   return `${topbar}${certificateShell(card)}`;
@@ -1006,7 +1126,6 @@ function renderCertificateCourse() {
 
 function renderCertificateExam() {
   const topbar = renderTopbar({ showBack: true, backHash: "#/dashboard", title: u("examCertCardTitle") });
-  if (!getLearnerName()) return `${topbar}${renderLearnerNamePrompt()}`;
 
   const examState = getFinalExamState();
   if (!examState.passed) {
@@ -1018,7 +1137,7 @@ function renderCertificateExam() {
     bodyLines: [u("certExamBody")],
     score: examState.bestScore,
     date: formatCertDate(examState.passedAt),
-    id: certId("EXM", [getLearnerName(), "exam"]),
+    id: certId("EXM", [currentUser.displayName, "exam"]),
   });
 
   return `${topbar}${certificateShell(card)}`;
@@ -1183,6 +1302,12 @@ function parseHash() {
   const parts = hash.replace(/^#\/?/, "").split("/").filter(Boolean);
   if (parts.length === 0) return { route: "welcome" };
   if (parts[0] === "welcome") return { route: "welcome" };
+  if (parts[0] === "login") {
+    if (parts[1] === "learner") return { route: "login", loginAs: "learner" };
+    if (parts[1] === "admin") return { route: "login", loginAs: "admin" };
+    return { route: "login", loginAs: null };
+  }
+  if (parts[0] === "change-password") return { route: "change-password" };
   if (parts[0] === "credits") return { route: "credits" };
   if (parts[0] === "dashboard") return { route: "dashboard" };
   if (parts[0] === "language") return { route: "language" };
@@ -1193,6 +1318,11 @@ function parseHash() {
     return { route: "certificate-module", moduleId: parts[2] };
   }
   if (parts[0] === "final-exam") return { route: "final-exam" };
+  if (parts[0] === "admin") {
+    if (parts[1] === "learner" && parts[2]) return { route: "admin-learner", learnerId: parts[2] };
+    if (parts[1] === "new-learner") return { route: "admin-new-learner" };
+    return { route: "admin" };
+  }
   if (parts[0] === "module" && parts[1]) {
     if (parts[2] === "lesson" && parts[3]) {
       return { route: "lesson", moduleId: parts[1], lessonId: parts[3] };
@@ -1210,15 +1340,69 @@ let lastNonLanguageHash = "#/dashboard";
 function render() {
   const parsed = parseHash();
 
-  // The landing/home page: bare "#/" and "#/welcome" always render it,
-  // every visit — not just the first.
+  // The public landing page: always renders, signed in or not.
   if (parsed.route === "welcome") {
     root.innerHTML = renderLandingPage();
     wireLandingPage();
     return;
   }
 
-  // Force the language picker before anything else, until a language is chosen.
+  // Login page: if already signed in, bounce to the right home instead.
+  if (parsed.route === "login") {
+    if (currentUser) {
+      navigate(currentUser.role === "admin" ? "#/admin" : "#/dashboard");
+      return;
+    }
+    root.innerHTML = renderLoginPage(parsed.loginAs);
+    wireLoginPage(parsed.loginAs);
+    return;
+  }
+
+  // Every other route requires a session.
+  if (!currentUser) {
+    navigate("#/login");
+    return;
+  }
+
+  // First login after provisioning/reset: force a real password before anything else.
+  if (currentUser.mustChangePassword || parsed.route === "change-password") {
+    root.innerHTML = renderChangePasswordPage();
+    wireChangePasswordPage();
+    return;
+  }
+
+  // Admin-only routes.
+  if ((parsed.route === "admin" || parsed.route === "admin-learner" || parsed.route === "admin-new-learner") && currentUser.role !== "admin") {
+    navigate("#/dashboard");
+    return;
+  }
+
+  // Course/certificate/exam routes are learner-only (admins have no lesson
+  // progress of their own).
+  if (
+    (parsed.route === "dashboard" ||
+      parsed.route === "module" ||
+      parsed.route === "lesson" ||
+      parsed.route === "complete" ||
+      parsed.route === "credits" ||
+      parsed.route === "certificates" ||
+      parsed.route === "certificate-course" ||
+      parsed.route === "certificate-exam" ||
+      parsed.route === "certificate-module" ||
+      parsed.route === "final-exam") &&
+    currentUser.role === "admin"
+  ) {
+    navigate("#/admin");
+    return;
+  }
+
+  // The final exam only unlocks once every module is complete.
+  if (parsed.route === "final-exam" && !isCourseComplete(MODULES)) {
+    navigate("#/dashboard");
+    return;
+  }
+
+  // Force the language picker until a language is chosen.
   if (!lang && parsed.route !== "language") {
     root.innerHTML = renderLanguagePicker(false);
     wireLanguagePicker(false, null);
@@ -1259,22 +1443,36 @@ function render() {
       break;
     case "certificate-course":
       html = renderCertificateCourse();
-      afterRender = wireLearnerNamePrompt;
       break;
     case "certificate-exam":
       html = renderCertificateExam();
-      afterRender = wireLearnerNamePrompt;
       break;
     case "certificate-module":
       html = renderCertificateModule(parsed.moduleId);
-      afterRender = wireLearnerNamePrompt;
       break;
     case "final-exam":
       html = renderFinalExamPage();
       afterRender = runFinalExamFlow;
       break;
+    case "admin":
+      html = admin.renderAdminDashboard({ t, u, lang, escapeHtml, renderTopbar });
+      afterRender = () => admin.wireAdminDashboard({ t, u, lang, escapeHtml, renderTopbar, navigate });
+      break;
+    case "admin-learner":
+      html = admin.renderLearnerDetail(parsed.learnerId, { t, u, lang, escapeHtml, renderTopbar });
+      afterRender = () => admin.wireLearnerDetail(parsed.learnerId, { t, u, lang, escapeHtml, renderTopbar, navigate });
+      break;
+    case "admin-new-learner":
+      html = admin.renderNewLearnerForm({ t, u, lang, escapeHtml, renderTopbar });
+      afterRender = () => admin.wireNewLearnerForm({ t, u, lang, escapeHtml, renderTopbar, navigate });
+      break;
     default:
-      html = renderDashboard();
+      if (currentUser.role === "admin") {
+        html = admin.renderAdminDashboard({ t, u, lang, escapeHtml, renderTopbar });
+        afterRender = () => admin.wireAdminDashboard({ t, u, lang, escapeHtml, renderTopbar, navigate });
+      } else {
+        html = renderDashboard();
+      }
   }
 
   if (html) {
@@ -1285,6 +1483,7 @@ function render() {
     if (parsed.route.startsWith("certificate-")) {
       wireCertificatePrint();
     }
+    wireTopbarLogout();
     if (afterRender) afterRender();
   }
 }
@@ -1298,6 +1497,29 @@ document.addEventListener("click", (e) => {
   }
 });
 
+// ============================================================================
+// Boot: check for an existing session before the first render, since (unlike
+// the language choice) we can't know synchronously whether the visitor is
+// signed in.
+// ============================================================================
+async function bootstrap() {
+  try {
+    const res = await api.session();
+    currentUser = res.user;
+    if (currentUser.role !== "admin") {
+      try {
+        const p = await api.myProgress();
+        setProgressCache(p.progress);
+      } catch (e) {
+        setProgressCache({});
+      }
+    }
+  } catch (e) {
+    currentUser = null;
+  }
+  render();
+}
+
 window.addEventListener("hashchange", render);
-window.addEventListener("DOMContentLoaded", render);
-if (document.readyState !== "loading") render();
+window.addEventListener("DOMContentLoaded", bootstrap);
+if (document.readyState !== "loading") bootstrap();
