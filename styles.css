@@ -458,6 +458,11 @@ button {
   display: flex;
   align-items: center;
   gap: 18px;
+  flex-wrap: wrap;
+}
+.overall-progress .spacer {
+  flex: 1;
+  min-width: 0;
 }
 
 .ring {
@@ -1580,5 +1585,215 @@ button {
   }
   .page {
     padding: 18px 12px 50px;
+  }
+}
+
+/* ---------- Status pill / empty-state box (certificates & admin) ---------- */
+.status-pill {
+  display: inline-block;
+  padding: 3px 10px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 700;
+}
+.status-pill.active {
+  background: var(--green-100);
+  color: var(--green-600);
+}
+.status-pill.inactive {
+  background: var(--gray-100);
+  color: var(--gray-500);
+}
+.admin-empty {
+  text-align: center;
+  color: var(--gray-500);
+  padding: 30px 0;
+}
+
+/* ---------- Certificates hub list ---------- */
+.cert-list-course {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  background: white;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 18px 20px;
+  margin-bottom: 14px;
+}
+.cert-list-course.earned {
+  border-left: 4px solid var(--green-600);
+}
+.cert-list-course.locked {
+  border-left: 4px solid var(--gray-200);
+}
+.cert-list-course-icon {
+  font-size: 28px;
+  flex-shrink: 0;
+}
+.cert-list-course-info {
+  flex: 1;
+}
+.cert-list-course-info h3 {
+  margin: 0 0 4px;
+  font-size: 15.5px;
+  color: var(--blue-900);
+}
+.cert-list-course-info p {
+  margin: 0;
+  font-size: 13px;
+  color: var(--gray-500);
+}
+.cert-list-modules {
+  background: white;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 8px 20px;
+  margin-top: 18px;
+}
+.cert-list-lesson-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 13px 0;
+  border-bottom: 1px solid var(--gray-100);
+}
+.cert-list-lesson-row:last-child {
+  border-bottom: none;
+}
+.cert-list-lesson-title {
+  font-size: 14.5px;
+  color: var(--gray-900);
+  font-weight: 600;
+}
+.btn-small {
+  padding: 6px 12px;
+  font-size: 13px;
+}
+
+/* ---------- Certificate card ---------- */
+.cert-toolbar {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.cert-page {
+  display: flex;
+  justify-content: center;
+  padding: 0 0 40px;
+}
+.cert-card {
+  position: relative;
+  width: 100%;
+  max-width: 720px;
+  background: linear-gradient(180deg, #fffdf7, #fff);
+  border: 3px double var(--blue-700);
+  border-radius: 10px;
+  padding: 48px 40px;
+  text-align: center;
+  box-shadow: var(--shadow-md);
+}
+.cert-corner {
+  position: absolute;
+  width: 26px;
+  height: 26px;
+  border: 2px solid var(--blue-600);
+}
+.cert-corner-tl {
+  top: 10px;
+  left: 10px;
+  border-right: none;
+  border-bottom: none;
+}
+.cert-corner-tr {
+  top: 10px;
+  right: 10px;
+  border-left: none;
+  border-bottom: none;
+}
+.cert-corner-bl {
+  bottom: 10px;
+  left: 10px;
+  border-right: none;
+  border-top: none;
+}
+.cert-corner-br {
+  bottom: 10px;
+  right: 10px;
+  border-left: none;
+  border-top: none;
+}
+.cert-logo {
+  font-size: 34px;
+  line-height: 1;
+}
+.cert-kicker {
+  margin-top: 8px;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--blue-800);
+}
+.cert-seal {
+  font-size: 30px;
+  margin: 10px 0;
+}
+.cert-title {
+  margin: 6px 0 18px;
+  font-size: 26px;
+  color: var(--blue-900);
+  font-family: Georgia, serif;
+}
+.cert-presented {
+  font-size: 13.5px;
+  color: var(--gray-500);
+}
+.cert-name {
+  margin: 8px 0 18px;
+  font-size: 30px;
+  font-weight: 700;
+  color: var(--blue-900);
+  font-family: Georgia, serif;
+  border-bottom: 2px solid var(--blue-100);
+  display: inline-block;
+  padding-bottom: 8px;
+}
+.cert-body {
+  font-size: 15.5px;
+  color: var(--gray-700);
+  line-height: 1.6;
+  max-width: 480px;
+  margin: 0 auto 22px;
+}
+.cert-meta-row {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  flex-wrap: wrap;
+  margin-bottom: 14px;
+}
+.cert-meta-item {
+  font-size: 13px;
+  color: var(--gray-500);
+  font-weight: 600;
+}
+.cert-id {
+  font-size: 11px;
+  color: var(--gray-400);
+  letter-spacing: 0.03em;
+}
+
+@media print {
+  .no-print {
+    display: none !important;
+  }
+  .topbar {
+    display: none !important;
+  }
+  .cert-card {
+    box-shadow: none;
+    border-width: 2px;
   }
 }

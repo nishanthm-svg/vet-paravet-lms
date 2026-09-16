@@ -4,8 +4,14 @@ import {
   recordQuizAttempt,
   isLessonUnlocked,
   getModuleProgress,
+  getOverallProgress,
+  isCourseComplete,
+  getFinalExamState,
+  recordFinalExamAttempt,
 } from "./progress.js";
 import { LANGUAGES, getLang, setLang, tr, ui } from "./i18n.js";
+import { FINAL_EXAM_QUESTIONS, FINAL_EXAM_PASS_PERCENT } from "./exam-data.js";
+import { getLearnerName, setLearnerName } from "./profile.js";
 
 const root = document.getElementById("app");
 
@@ -256,6 +262,8 @@ function renderDashboard() {
           <div style="font-weight:700; font-size:15px;">${u("lessonsCompletedCount", { done: totalDone, total: totalLessons })}</div>
           <div style="font-size:13px; color:var(--gray-500);">${u("progressHint")}</div>
         </div>
+        <div class="spacer"></div>
+        <button type="button" class="btn btn-outline" data-nav="#/certificates">🎓 ${u("certificatesNavLabel")}</button>
       </div>
       <div class="module-grid">${cards}</div>
       <div class="progress-note">${u("progressNote")}</div>
@@ -811,6 +819,7 @@ function renderCompletionPage(moduleId) {
         <h2>${u("moduleCompleteTitle", { n: mod.number })}</h2>
         <p>${u("moduleCompleteText", { title: t(mod.title) })}</p>
         <div class="btn-row" style="justify-content:center;">
+          <button class="btn btn-primary" data-nav="#/certificate/module/${moduleId}">🎓 ${u("certViewButton")}</button>
           <button class="btn btn-outline" style="background:white;" data-nav="#/dashboard">${u("backToDashboard")}</button>
           <button class="btn btn-success" data-nav="#/module/${moduleId}">${u("reviewModule")}</button>
         </div>
@@ -818,6 +827,352 @@ function renderCompletionPage(moduleId) {
       ${nextMod ? `<p style="text-align:center; color:var(--gray-500); margin-top:18px; font-size:14px;">${u("nextModuleComingSoon", { n: nextMod.number, title: t(nextMod.title) })}</p>` : ""}
     </div>
   `;
+}
+
+// ============================================================================
+// Certificates — one per completed module, a course-completion certificate
+// once every available module is done, and a final-exam certificate once the
+// final exam is passed. Computed entirely from data.js content + the
+// progress.js localStorage cache — nothing to fetch.
+// ============================================================================
+const CERT_DATE_LOCALES = { en: "en-IN", te: "te-IN", ta: "ta-IN", kn: "kn-IN" };
+
+function formatCertDate(iso) {
+  if (!iso) return null;
+  try {
+    return new Date(iso).toLocaleDateString(CERT_DATE_LOCALES[lang] || "en-IN", { year: "numeric", month: "long", day: "numeric" });
+  } catch (e) {
+    return iso;
+  }
+}
+
+// Small deterministic hash (FNV-1a) so the same learner name + the same
+// completed module/course/exam always produces the same certificate ID.
+function certHash(str) {
+  let h = 0x811c9dc5;
+  for (let i = 0; i < str.length; i++) {
+    h ^= str.charCodeAt(i);
+    h = Math.imul(h, 0x01000193);
+  }
+  return (h >>> 0).toString(36).toUpperCase();
+}
+
+function certId(prefix, parts) {
+  return `PA-${prefix}-${certHash(parts.join("|"))}`;
+}
+
+// A certificate needs a name to print. Since this course has no accounts,
+// the learner types it once (stored locally) before any certificate opens.
+function renderLearnerNamePrompt(returnHash) {
+  return `
+    <div class="page page-narrow no-print">
+      <div class="admin-empty" style="background:white; border-radius:var(--radius); box-shadow:var(--shadow); padding:32px 24px;">
+        <h2 style="margin:0 0 8px; color:var(--blue-900);">${escapeHtml(u("certNamePromptTitle"))}</h2>
+        <p style="margin:0 0 18px; color:var(--gray-500); font-size:14px;">${escapeHtml(u("certNamePromptText"))}</p>
+        <form id="cert-name-form" style="display:flex; gap:10px; flex-wrap:wrap;">
+          <input type="text" id="cert-name-input" required placeholder="${escapeHtml(u("certNamePlaceholder"))}" style="flex:1; min-width:200px; padding:10px 12px; border:1.5px solid var(--gray-300); border-radius:9px; font-size:15px;" />
+          <button type="submit" class="btn btn-primary">${escapeHtml(u("certNameSaveButton"))}</button>
+        </form>
+      </div>
+    </div>
+  `;
+}
+
+function wireLearnerNamePrompt() {
+  const form = document.getElementById("cert-name-form");
+  if (!form) return;
+  form.addEventListener("submit", (e) => {
+    e.preventDefault();
+    const val = document.getElementById("cert-name-input").value.trim();
+    if (!val) return;
+    setLearnerName(val);
+    render();
+  });
+}
+
+function certificateShell(bodyHtml) {
+  return `
+    <div class="cert-toolbar no-print">
+      <button type="button" class="btn btn-primary" id="cert-print-btn">🖨️ ${escapeHtml(u("certPrintButton"))}</button>
+    </div>
+    ${bodyHtml}
+  `;
+}
+
+function renderCertCard({ title, bodyLines, score, date, id }) {
+  const name = getLearnerName();
+  return `
+    <div class="cert-page">
+      <div class="cert-card">
+        <div class="cert-corner cert-corner-tl"></div>
+        <div class="cert-corner cert-corner-tr"></div>
+        <div class="cert-corner cert-corner-bl"></div>
+        <div class="cert-corner cert-corner-br"></div>
+        <div class="cert-logo">🐄🩺</div>
+        <div class="cert-kicker">${escapeHtml(u("certIssuerName"))}</div>
+        <div class="cert-seal">🏅</div>
+        <h1 class="cert-title">${escapeHtml(title)}</h1>
+        <div class="cert-presented">${escapeHtml(u("certPresentedTo"))}</div>
+        <div class="cert-name">${escapeHtml(name)}</div>
+        <div class="cert-body">${bodyLines.map((l) => escapeHtml(l)).join("<br/>")}</div>
+        <div class="cert-meta-row">
+          ${score != null ? `<div class="cert-meta-item">${escapeHtml(u("certScoreLabel", { score }))}</div>` : ""}
+          <div class="cert-meta-item">${escapeHtml(u("certDateLabel", { date: date || "—" }))}</div>
+        </div>
+        <div class="cert-id">${escapeHtml(u("certIdLabel", { id }))}</div>
+      </div>
+    </div>
+  `;
+}
+
+function renderNotEarned(reasonText, backHash, backLabel) {
+  return `
+    <div class="page page-narrow no-print">
+      <div class="admin-empty" style="background:white; border-radius:var(--radius); box-shadow:var(--shadow); padding:40px 24px;">
+        <div style="font-size:40px; margin-bottom:10px;">🔒</div>
+        <h2 style="margin:0 0 8px; color:var(--blue-900);">${escapeHtml(u("certNotEarnedTitle"))}</h2>
+        <p style="margin:0 0 20px;">${escapeHtml(reasonText)}</p>
+        <button type="button" class="btn btn-primary" data-nav="${backHash}">${escapeHtml(backLabel)}</button>
+      </div>
+    </div>
+  `;
+}
+
+function wireCertificatePrint() {
+  const btn = document.getElementById("cert-print-btn");
+  if (btn) btn.addEventListener("click", () => window.print());
+}
+
+function renderCertificateModule(moduleId) {
+  const mod = getModule(moduleId);
+  if (!mod) {
+    navigate("#/dashboard");
+    return "";
+  }
+  const topbar = renderTopbar({ showBack: true, backHash: `#/module/${moduleId}`, title: t(mod.title) });
+  if (!getLearnerName()) return `${topbar}${renderLearnerNamePrompt()}`;
+
+  const progress = getModuleProgress(mod);
+  if (!progress.isComplete) {
+    return `${topbar}${renderNotEarned(u("certNotEarnedModuleText"), `#/module/${moduleId}`, u("backToModule"))}`;
+  }
+
+  let latest = null;
+  mod.lessons.forEach((lesson) => {
+    const st = getLessonState(mod.id, lesson.id);
+    const at = st.completedAt || st.lastAttemptAt;
+    if (at && (!latest || at > latest)) latest = at;
+  });
+
+  const card = renderCertCard({
+    title: u("certTitleModule"),
+    bodyLines: [u("certModuleBody"), u("certModuleOfBody", { n: mod.number, title: t(mod.title) })],
+    score: null,
+    date: formatCertDate(latest),
+    id: certId("MOD", [getLearnerName(), moduleId]),
+  });
+
+  return `${topbar}${certificateShell(card)}`;
+}
+
+function renderCertificateCourse() {
+  const topbar = renderTopbar({ showBack: true, backHash: "#/dashboard", title: u("certCourseCardTitle") });
+  if (!getLearnerName()) return `${topbar}${renderLearnerNamePrompt()}`;
+
+  const overall = getOverallProgress(MODULES);
+  if (!overall.isComplete) {
+    return `${topbar}${renderNotEarned(u("certNotEarnedCourseText"), "#/dashboard", u("backToDashboard"))}`;
+  }
+
+  let latest = null;
+  MODULES.filter((m) => m.available).forEach((mod) => {
+    mod.lessons.forEach((lesson) => {
+      const st = getLessonState(mod.id, lesson.id);
+      const at = st.completedAt || st.lastAttemptAt;
+      if (at && (!latest || at > latest)) latest = at;
+    });
+  });
+
+  const card = renderCertCard({
+    title: u("certTitleCourse"),
+    bodyLines: [u("certCourseBody")],
+    score: null,
+    date: formatCertDate(latest),
+    id: certId("CRS", [getLearnerName(), "course"]),
+  });
+
+  return `${topbar}${certificateShell(card)}`;
+}
+
+function renderCertificateExam() {
+  const topbar = renderTopbar({ showBack: true, backHash: "#/dashboard", title: u("examCertCardTitle") });
+  if (!getLearnerName()) return `${topbar}${renderLearnerNamePrompt()}`;
+
+  const examState = getFinalExamState();
+  if (!examState.passed) {
+    return `${topbar}${renderNotEarned(u("certNotEarnedExamText"), "#/dashboard", u("backToDashboard"))}`;
+  }
+
+  const card = renderCertCard({
+    title: u("certTitleExam"),
+    bodyLines: [u("certExamBody")],
+    score: examState.bestScore,
+    date: formatCertDate(examState.passedAt),
+    id: certId("EXM", [getLearnerName(), "exam"]),
+  });
+
+  return `${topbar}${certificateShell(card)}`;
+}
+
+function renderCertificatesList() {
+  const overall = getOverallProgress(MODULES);
+  const examState = getFinalExamState();
+
+  const courseCardClass = overall.isComplete ? "cert-list-course earned" : "cert-list-course locked";
+  const courseCard = `
+    <div class="${courseCardClass}">
+      <div class="cert-list-course-icon">${overall.isComplete ? "🏆" : "🔒"}</div>
+      <div class="cert-list-course-info">
+        <h3>${escapeHtml(u("certCourseCardTitle"))}</h3>
+        <p>${escapeHtml(overall.isComplete ? u("certCourseCardEarnedText") : u("certCourseCardLockedText", { done: overall.done, total: overall.total }))}</p>
+      </div>
+      ${
+        overall.isComplete
+          ? `<button type="button" class="btn btn-success" data-nav="#/certificate/course">${escapeHtml(u("certViewButton"))}</button>`
+          : `<span class="status-pill inactive">${escapeHtml(u("certLockedBadge"))}</span>`
+      }
+    </div>
+  `;
+
+  const examCardClass = examState.passed ? "cert-list-course earned" : "cert-list-course locked";
+  const examCard = `
+    <div class="${examCardClass}">
+      <div class="cert-list-course-icon">${examState.passed ? "🏅" : "🔒"}</div>
+      <div class="cert-list-course-info">
+        <h3>${escapeHtml(u("examCertCardTitle"))}</h3>
+        <p>${escapeHtml(
+          examState.passed
+            ? u("examCertCardEarnedText", { score: examState.bestScore })
+            : overall.isComplete
+            ? u("examCertCardReadyText")
+            : u("examCertCardLockedText")
+        )}</p>
+      </div>
+      ${
+        examState.passed
+          ? `<button type="button" class="btn btn-success" data-nav="#/certificate/exam">${escapeHtml(u("certViewButton"))}</button>`
+          : overall.isComplete
+          ? `<button type="button" class="btn btn-primary" data-nav="#/final-exam">${escapeHtml(u("examTakeButton"))}</button>`
+          : `<span class="status-pill inactive">${escapeHtml(u("certLockedBadge"))}</span>`
+      }
+    </div>
+  `;
+
+  const moduleRows = MODULES.filter((m) => m.available)
+    .map((mod) => {
+      const progress = getModuleProgress(mod);
+      return `
+      <div class="cert-list-lesson-row">
+        <div class="cert-list-lesson-title">${escapeHtml(u("moduleLabelShort", { n: mod.number }))}: ${escapeHtml(t(mod.title))}</div>
+        ${
+          progress.isComplete
+            ? `<button type="button" class="btn btn-outline btn-small" data-nav="#/certificate/module/${mod.id}">🎓 ${escapeHtml(u("certViewButton"))}</button>`
+            : `<span class="status-pill inactive">${escapeHtml(u("lessonsCompleteMeta", { completed: progress.completed, total: progress.total }))}</span>`
+        }
+      </div>`;
+    })
+    .join("");
+
+  return `
+    ${renderTopbar({ showBack: false })}
+    <div class="page">
+      <div class="dash-header">
+        <h1>${u("certificatesPageTitle")}</h1>
+        <p>${u("certificatesPageTagline")}</p>
+      </div>
+      ${courseCard}
+      ${examCard}
+      <div class="cert-list-modules">${moduleRows}</div>
+    </div>
+  `;
+}
+
+// ============================================================================
+// Final exam — one comprehensive exam, unlocked once every available module
+// is complete. Reuses renderQuestionSet/renderQuestionReview from the lesson
+// quiz flow above.
+// ============================================================================
+function renderFinalExamPage() {
+  const topbar = renderTopbar({ showBack: true, backHash: "#/dashboard", title: u("examPageTitle") });
+  if (!isCourseComplete(MODULES)) {
+    return `${topbar}${renderNotEarned(u("examLockedText"), "#/dashboard", u("backToDashboard"))}`;
+  }
+  return `
+    ${topbar}
+    <div class="page page-narrow">
+      <div id="exam-flow"></div>
+    </div>
+  `;
+}
+
+function runFinalExamFlow() {
+  const flowEl = document.getElementById("exam-flow");
+  if (!flowEl) return;
+
+  function showIntro() {
+    const examState = getFinalExamState();
+    flowEl.innerHTML = `
+      <div class="quiz-section">
+        <h2>${u("examPageTitle")}</h2>
+        <p class="sub">${u("examIntroText", { n: FINAL_EXAM_QUESTIONS.length, pct: FINAL_EXAM_PASS_PERCENT })}</p>
+        ${examState.attempted ? `<p class="sub">${u("examPreviousBestText", { score: examState.bestScore })}</p>` : ""}
+        <div class="btn-row"><button class="btn btn-primary" id="exam-start-btn">${u("examStartButton")}</button></div>
+      </div>
+    `;
+    document.getElementById("exam-start-btn").addEventListener("click", showQuiz);
+  }
+
+  function showQuiz() {
+    flowEl.innerHTML = `
+      <div class="quiz-section" id="exam-quiz-section">
+        <h2>${u("examPageTitle")}</h2>
+        <div id="exam-quiz-body"></div>
+      </div>
+    `;
+    const body = document.getElementById("exam-quiz-body");
+    renderQuestionSet(body, FINAL_EXAM_QUESTIONS, {
+      submitLabel: u("submitQuizButton"),
+      onSubmit: (results) => {
+        const correctCount = results.filter((r) => r.isCorrect).length;
+        const scorePercent = Math.round((correctCount / results.length) * 100);
+        const passed = scorePercent >= FINAL_EXAM_PASS_PERCENT;
+        recordFinalExamAttempt(scorePercent, passed);
+        showResult(scorePercent, passed, results);
+      },
+    });
+  }
+
+  function showResult(scorePercent, passed, results) {
+    const actionsHtml = passed
+      ? `<button class="btn btn-success" data-nav="#/certificate/exam">🎓 ${u("certViewButton")}</button>`
+      : `<button class="btn btn-primary" id="exam-retry-btn">${u("examRetryButton")}</button>`;
+    flowEl.innerHTML = `
+      <div class="quiz-section">
+        <div class="quiz-result ${passed ? "pass" : "fail"}">
+          ${passed ? `<div class="confetti-row">🎉 🎊 ✨ 🎉 🎊</div>` : ""}
+          <div class="score-circle"><div class="pct">${scorePercent}%</div></div>
+          <h3>${passed ? u("examPassTitle") : u("examFailTitle")}</h3>
+          <p>${passed ? u("examPassText") : u("examFailText", { pct: FINAL_EXAM_PASS_PERCENT })}</p>
+          <div class="btn-row" style="justify-content:center;">${actionsHtml}</div>
+          <div class="quiz-review">${renderQuestionReview(results)}</div>
+        </div>
+      </div>
+    `;
+    const retryBtn = document.getElementById("exam-retry-btn");
+    if (retryBtn) retryBtn.addEventListener("click", showQuiz);
+  }
+
+  showIntro();
 }
 
 // ============================================================================
@@ -831,6 +1186,13 @@ function parseHash() {
   if (parts[0] === "credits") return { route: "credits" };
   if (parts[0] === "dashboard") return { route: "dashboard" };
   if (parts[0] === "language") return { route: "language" };
+  if (parts[0] === "certificates") return { route: "certificates" };
+  if (parts[0] === "certificate" && parts[1] === "course") return { route: "certificate-course" };
+  if (parts[0] === "certificate" && parts[1] === "exam") return { route: "certificate-exam" };
+  if (parts[0] === "certificate" && parts[1] === "module" && parts[2]) {
+    return { route: "certificate-module", moduleId: parts[2] };
+  }
+  if (parts[0] === "final-exam") return { route: "final-exam" };
   if (parts[0] === "module" && parts[1]) {
     if (parts[2] === "lesson" && parts[3]) {
       return { route: "lesson", moduleId: parts[1], lessonId: parts[3] };
@@ -892,6 +1254,25 @@ function render() {
     case "complete":
       html = renderCompletionPage(parsed.moduleId);
       break;
+    case "certificates":
+      html = renderCertificatesList();
+      break;
+    case "certificate-course":
+      html = renderCertificateCourse();
+      afterRender = wireLearnerNamePrompt;
+      break;
+    case "certificate-exam":
+      html = renderCertificateExam();
+      afterRender = wireLearnerNamePrompt;
+      break;
+    case "certificate-module":
+      html = renderCertificateModule(parsed.moduleId);
+      afterRender = wireLearnerNamePrompt;
+      break;
+    case "final-exam":
+      html = renderFinalExamPage();
+      afterRender = runFinalExamFlow;
+      break;
     default:
       html = renderDashboard();
   }
@@ -900,6 +1281,9 @@ function render() {
     root.innerHTML = html;
     if (parsed.route === "language") {
       wireLanguagePicker(!!lang, lastNonLanguageHash);
+    }
+    if (parsed.route.startsWith("certificate-")) {
+      wireCertificatePrint();
     }
     if (afterRender) afterRender();
   }
