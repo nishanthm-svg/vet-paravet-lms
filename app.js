@@ -416,6 +416,7 @@ function renderDashboard() {
         <div class="spacer"></div>
         <button type="button" class="btn btn-outline" data-nav="#/certificates">🎓 ${u("certificatesNavLabel")}</button>
       </div>
+      ${lang && lang !== "en" ? `<div class="translation-notice">${escapeHtml(u("translationReviewNotice"))}</div>` : ""}
       <div class="module-grid">${cards}</div>
       <div class="progress-note">${u("progressNote")}</div>
       <div class="credits-link"><a href="#/credits" data-nav="#/credits">${u("photoCreditsLink")}</a></div>
@@ -986,7 +987,7 @@ function renderCompletionPage(moduleId) {
 // final exam is passed. Computed entirely from data.js content + the
 // progress-client.js in-memory cache — nothing to fetch.
 // ============================================================================
-const CERT_DATE_LOCALES = { en: "en-IN", te: "te-IN", ta: "ta-IN", kn: "kn-IN" };
+const CERT_DATE_LOCALES = { en: "en-IN", hi: "hi-IN", te: "te-IN", ta: "ta-IN", kn: "kn-IN" };
 
 function formatCertDate(iso) {
   if (!iso) return null;
