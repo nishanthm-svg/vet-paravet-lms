@@ -27,7 +27,7 @@ Same design as Shreeja Learning Academy:
 
 ## ⚠️ On translations
 
-The UI chrome (buttons, labels, navigation) is translated into English, Telugu, Tamil and Kannada, same as Shreeja's app. **The actual Module 1 veterinary content is shipped in English only** — the Telugu/Tamil/Kannada fields currently just repeat the English text (the `L()` helper's documented fallback behavior). This is deliberate: this content includes vaccination schedules, dosages and treatment steps, and a sloppy or ambiguous translation of that kind of material could lead to a real animal being mistreated. Get technical translations reviewed by a qualified vet/para-vet fluent in the target language before publishing them — don't machine-translate this file wholesale.
+The UI chrome (buttons, labels, navigation) and all lesson/exam content are translated into English, Hindi, Telugu, Tamil and Kannada. **All non-English lesson content — including vaccination schedules, dosages and treatment steps — is machine-translated and has not yet been reviewed by a qualified vet/para-vet.** The app shows a visible "pending vet review" notice on the dashboard whenever a learner is on a non-English language, matching this caveat. Get every non-English technical passage reviewed by a qualified vet/para-vet fluent in the target language before treating it as authoritative — a sloppy or ambiguous translation of a dosage or treatment step could lead to a real animal being mistreated.
 
 ## Running locally
 

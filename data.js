@@ -13,17 +13,19 @@
 // medicine.
 //
 // Every learner-facing string is written with the L() helper:
-//   L("English", "Telugu", "Tamil", "Kannada")
+//   L("English", "Telugu", "Tamil", "Kannada", "Hindi")
 // so the whole app can render in the language the learner picked. English
 // is always the fallback if a translation is thin.
 //
-// IMPORTANT — Module 1's veterinary content (vital-sign ranges, BCS
-// interpretation, etc.) is shipped in English only: the te/ta/kn slots
-// below intentionally repeat the English text. This is medical/treatment
-// content — a sloppy translation of a number could lead to a real animal
-// being mistreated, so get it reviewed by a qualified vet/para-vet fluent
-// in the target language before publishing a real translation. See
-// README.md.
+// IMPORTANT — all non-English text in this file (including Module 1's
+// veterinary content: vital-sign ranges, BCS interpretation, dosages,
+// vaccination schedules, treatment steps) is machine-translated. This is
+// medical/treatment content — a sloppy translation of a number or dosage
+// could lead to a real animal being mistreated. The app shows learners a
+// "pending vet review" notice on non-English languages for exactly this
+// reason. Get every non-English technical passage reviewed by a qualified
+// vet/para-vet fluent in the target language before treating it as
+// authoritative. See README.md.
 // ============================================================================
 
 import { L } from "./i18n.js";
