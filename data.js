@@ -8986,27 +8986,81 @@ export const MODULES = [
         check: [
           {
             type: "mcq",
-            q: L("Before applying the EVM brochure's aloe vera-turmeric-lime paste for mastitis, what should be done first?"),
+            q: L(
+              "Before applying the EVM brochure's aloe vera-turmeric-lime paste for mastitis, what should be done first?",
+              "మాస్టైటిస్‌కు EVM బ్రోషర్ కలబంద-పసుపు-సున్నం పేస్టు వేసే ముందు, మొదట ఏమి చేయాలి?",
+              "மடிவீக்கத்திற்கு EVM துண்டுப்பிரசுரத்தின் கற்றாழை-மஞ்சள்-சுண்ணாம்பு பேஸ்டை பயன்படுத்தும் முன், முதலில் என்ன செய்ய வேண்டும்?",
+              "ಮಾಸ್ಟೈಟಿಸ್‌ಗೆ EVM ಕರಪತ್ರದ ಅಲೋವೆರಾ-ಅರಿಶಿನ-ಸುಣ್ಣ ಪೇಸ್ಟ್ ಹಚ್ಚುವ ಮೊದಲು, ಮೊದಲು ಏನು ಮಾಡಬೇಕು?",
+              "मैस्टाइटिस के लिए EVM ब्रोशर का एलोवेरा-हल्दी-चूना पेस्ट लगाने से पहले, सबसे पहले क्या करना चाहिए?"
+            ),
             options: [
-              L("Wash, clean and completely milk out all quarters, including unaffected ones"),
-              L("Apply the paste directly with no cleaning"),
-              L("Only clean the affected quarter"),
-              L("Skip milking entirely that day"),
+              L(
+                "Wash, clean and completely milk out all quarters, including unaffected ones",
+                "కడగండి, శుభ్రం చేయండి మరియు అన్ని క్వార్టర్లను పూర్తిగా పితకండి, సోకనివి కూడా",
+                "கழுவி, சுத்தம் செய்து, பாதிக்கப்படாதவை உட்பட அனைத்து காலிகளையும் முழுமையாக கறக்கவும்",
+                "ತೊಳೆಯಿರಿ, ಸ್ವಚ್ಛಗೊಳಿಸಿ ಮತ್ತು ಬಾಧಿತವಲ್ಲದವು ಸೇರಿ ಎಲ್ಲಾ ಕ್ವಾರ್ಟರ್‌ಗಳನ್ನು ಪೂರ್ಣವಾಗಿ ಹಾಲು ಕರೆಯಿರಿ",
+                "धोएं, साफ करें और सभी क्वार्टर को पूरी तरह दुहें, अप्रभावित सहित"
+              ),
+              L(
+                "Apply the paste directly with no cleaning",
+                "శుభ్రం చేయకుండా నేరుగా పేస్టు వేయండి",
+                "சுத்தம் செய்யாமல் நேரடியாக பேஸ்டை பயன்படுத்தவும்",
+                "ಸ್ವಚ್ಛಗೊಳಿಸದೆ ನೇರವಾಗಿ ಪೇಸ್ಟ್ ಹಚ್ಚಿ",
+                "बिना साफ किए सीधे पेस्ट लगाएं"
+              ),
+              L(
+                "Only clean the affected quarter",
+                "బాధిత క్వార్టర్‌ను మాత్రమే శుభ్రం చేయండి",
+                "பாதிக்கப்பட்ட காலியை மட்டும் சுத்தம் செய்யவும்",
+                "ಬಾಧಿತ ಕ್ವಾರ್ಟರ್ ಅನ್ನು ಮಾತ್ರ ಸ್ವಚ್ಛಗೊಳಿಸಿ",
+                "केवल प्रभावित क्वार्टर को साफ करें"
+              ),
+              L(
+                "Skip milking entirely that day",
+                "ఆ రోజు పితుకడం పూర్తిగా వదిలేయండి",
+                "அன்று கறத்தலை முழுவதுமாக தவிர்க்கவும்",
+                "ಆ ದಿನ ಹಾಲು ಕರೆಯುವುದನ್ನೇ ಬಿಟ್ಟುಬಿಡಿ",
+                "उस दिन दुहना पूरी तरह छोड़ दें"
+              ),
             ],
             answer: 0,
-            explain: L("The brochure specifies washing, cleaning and fully milking out ALL quarters — including quarters that don't look affected — before each application."),
+            explain: L(
+              "The brochure specifies washing, cleaning and fully milking out ALL quarters — including quarters that don't look affected — before each application.",
+              "ప్రతి వాడకానికి ముందు అన్ని క్వార్టర్లను — సోకినట్లు కనిపించనివి కూడా — కడగడం, శుభ్రం చేయడం మరియు పూర్తిగా పితకడం బ్రోషర్ నిర్దేశిస్తుంది.",
+              "ஒவ்வொரு பயன்பாட்டிற்கும் முன் அனைத்து காலிகளையும் — பாதிக்கப்பட்டதாக தோன்றாதவை உட்பட — கழுவுதல், சுத்தம் செய்தல் மற்றும் முழுமையாக கறத்தலை துண்டுப்பிரசுரம் குறிப்பிடுகிறது.",
+              "ಪ್ರತಿ ಬಳಕೆಗೂ ಮೊದಲು ಎಲ್ಲಾ ಕ್ವಾರ್ಟರ್‌ಗಳನ್ನು — ಬಾಧಿತವಾಗಿ ಕಾಣದವು ಸೇರಿ — ತೊಳೆಯುವುದು, ಸ್ವಚ್ಛಗೊಳಿಸುವುದು ಮತ್ತು ಪೂರ್ಣವಾಗಿ ಹಾಲು ಕರೆಯುವುದನ್ನು ಕರಪತ್ರ ನಿರ್ದಿಷ್ಟಪಡಿಸುತ್ತದೆ.",
+              "ब्रोशर हर उपयोग से पहले सभी क्वार्टर को — जो प्रभावित नहीं दिखते उन्हें भी — धोने, साफ करने और पूरी तरह दुहने को निर्दिष्ट करता है।"
+            ),
           },
           {
             type: "truefalse",
-            q: L("The EVM brochure says a retained placenta should be pulled out by hand as soon as possible."),
+            q: L(
+              "The EVM brochure says a retained placenta should be pulled out by hand as soon as possible.",
+              "నిలిచిపోయిన మాయను వీలైనంత త్వరగా చేతితో లాగాలని EVM బ్రోషర్ చెబుతుంది.",
+              "தங்கியிருக்கும் நஞ்சுக்கொடியை முடிந்தவரை விரைவில் கையால் இழுக்க வேண்டும் என்று EVM துண்டுப்பிரசுரம் கூறுகிறது.",
+              "ಉಳಿದ ಜರಾಯುವನ್ನು ಸಾಧ್ಯವಾದಷ್ಟು ಬೇಗ ಕೈಯಿಂದ ಎಳೆಯಬೇಕೆಂದು EVM ಕರಪತ್ರ ಹೇಳುತ್ತದೆ.",
+              "EVM ब्रोशर कहता है कि रुके हुए प्लेसेंटा को जितनी जल्दी हो सके हाथ से खींच लेना चाहिए।"
+            ),
             answer: false,
-            explain: L("No — the brochure explicitly says NOT to remove a retained placenta by hand. It describes feeding radish/lady's finger, or tying a knot and cutting below it, instead."),
+            explain: L(
+              "No — the brochure explicitly says NOT to remove a retained placenta by hand. It describes feeding radish/lady's finger, or tying a knot and cutting below it, instead.",
+              "కాదు — నిలిచిపోయిన మాయను చేతితో తీయవద్దని బ్రోషర్ స్పష్టంగా చెబుతుంది. బదులుగా ముల్లంగి/బెండకాయ తినిపించడం, లేదా ముడి వేసి దాని కింద కోయడం వివరిస్తుంది.",
+              "இல்லை — தங்கியிருக்கும் நஞ்சுக்கொடியை கையால் அகற்ற வேண்டாம் என்று துண்டுப்பிரசுரம் தெளிவாக கூறுகிறது. அதற்கு பதிலாக முள்ளங்கி/வெண்டைக்காய் கொடுப்பது, அல்லது முடிச்சு கட்டி அதற்கு கீழே வெட்டுவதை விவரிக்கிறது.",
+              "ಇಲ್ಲ — ಉಳಿದ ಜರಾಯುವನ್ನು ಕೈಯಿಂದ ತೆಗೆಯಬೇಡಿ ಎಂದು ಕರಪತ್ರ ಸ್ಪಷ್ಟವಾಗಿ ಹೇಳುತ್ತದೆ. ಬದಲಿಗೆ ಮೂಲಂಗಿ/ಬೆಂಡೆಕಾಯಿ ತಿನ್ನಿಸುವುದು, ಅಥವಾ ಗಂಟು ಕಟ್ಟಿ ಅದರ ಕೆಳಗೆ ಕತ್ತರಿಸುವುದನ್ನು ವಿವರಿಸುತ್ತದೆ.",
+              "नहीं — ब्रोशर स्पष्ट रूप से कहता है कि रुके हुए प्लेसेंटा को हाथ से न निकालें। इसके बदले मूली/भिंडी खिलाने, या गांठ बांधकर उसके नीचे काटने का तरीका बताता है।"
+            ),
           },
         ],
       },
       {
         id: "t-m13-evm-general",
-        title: L("EVM Remedies for Fever, Digestive and Other General Problems"),
+        title: L(
+          "EVM Remedies for Fever, Digestive and Other General Problems",
+          "జ్వరం, జీర్ణ మరియు ఇతర సాధారణ సమస్యలకు EVM చిట్కాలు",
+          "காய்ச்சல், செரிமானம் மற்றும் பிற பொதுவான பிரச்சினைகளுக்கான EVM வைத்தியங்கள்",
+          "ಜ್ವರ, ಜೀರ್ಣ ಮತ್ತು ಇತರ ಸಾಮಾನ್ಯ ಸಮಸ್ಯೆಗಳಿಗೆ EVM ಪರಿಹಾರಗಳು",
+          "बुखार, पाचन और अन्य सामान्य समस्याओं के लिए EVM उपचार"
+        ),
         teach: [
           {
             type: "text",
