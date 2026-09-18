@@ -7792,50 +7792,187 @@ export const MODULES = [
         {
           topicId: "t-m13-golden-rule",
           type: "mcq",
-          q: L("If a minor problem doesn't improve after using a remedy for the number of days the source recommends, what should you do?"),
+          q: L(
+            "If a minor problem doesn't improve after using a remedy for the number of days the source recommends, what should you do?",
+            "మూలం సూచించిన రోజుల సంఖ్యకు చిట్కా వాడిన తర్వాత కూడా చిన్న సమస్య మెరుగుపడకపోతే, మీరు ఏమి చేయాలి?",
+            "மூல ஆதாரம் பரிந்துரைக்கும் நாட்களுக்கு ஒரு வைத்தியத்தை பயன்படுத்திய பிறகும் ஒரு சிறிய பிரச்சினை மேம்படவில்லை என்றால், நீங்கள் என்ன செய்ய வேண்டும்?",
+            "ಮೂಲ ಸೂಚಿಸಿದ ದಿನಗಳ ಸಂಖ್ಯೆಗೆ ಪರಿಹಾರ ಬಳಸಿದ ನಂತರವೂ ಸಣ್ಣ ಸಮಸ್ಯೆ ಸುಧಾರಿಸದಿದ್ದರೆ, ನೀವು ಏನು ಮಾಡಬೇಕು?",
+            "अगर स्रोत द्वारा सुझाए गए दिनों तक उपचार इस्तेमाल करने के बाद भी कोई छोटी समस्या ठीक न हो, तो आपको क्या करना चाहिए?"
+          ),
           options: [
-            L("Keep repeating the same remedy indefinitely"),
-            L("Try random other remedies until something works"),
-            L("Report it and get veterinary advice"),
-            L("Ignore it, since remedies always work eventually"),
+            L(
+              "Keep repeating the same remedy indefinitely",
+              "అదే చిట్కాను అనంతంగా పునరావృతం చేయడం కొనసాగించాలి",
+              "அதே வைத்தியத்தை தொடர்ந்து முடிவின்றி மீண்டும் செய்ய வேண்டும்",
+              "ಅದೇ ಪರಿಹಾರವನ್ನು ಅನಂತವಾಗಿ ಪುನರಾವರ್ತಿಸಬೇಕು",
+              "उसी उपचार को बार-बार अनिश्चित काल तक दोहराते रहना चाहिए"
+            ),
+            L(
+              "Try random other remedies until something works",
+              "ఏదో ఒకటి పనిచేసేవరకు యాదృచ్ఛికంగా ఇతర చిట్కాలు ప్రయత్నించాలి",
+              "ஏதாவது வேலை செய்யும் வரை சீரற்ற முறையில் மற்ற வைத்தியங்களை முயற்சிக்க வேண்டும்",
+              "ಏನಾದರೂ ಕೆಲಸ ಮಾಡುವವರೆಗೆ ಯಾದೃಚ್ಛಿಕವಾಗಿ ಇತರ ಪರಿಹಾರಗಳನ್ನು ಪ್ರಯತ್ನಿಸಬೇಕು",
+              "जब तक कुछ काम न करे तब तक बेतरतीब ढंग से दूसरे उपचार आज़माते रहना चाहिए"
+            ),
+            L(
+              "Report it and get veterinary advice",
+              "నివేదించి పశువైద్య సలహా తీసుకోవాలి",
+              "அதை தெரிவித்து கால்நடை மருத்துவ ஆலோசனை பெற வேண்டும்",
+              "ವರದಿ ಮಾಡಿ ಪಶುವೈದ್ಯ ಸಲಹೆ ಪಡೆಯಬೇಕು",
+              "इसकी सूचना देकर पशु चिकित्सा सलाह लेनी चाहिए"
+            ),
+            L(
+              "Ignore it, since remedies always work eventually",
+              "పట్టించుకోకూడదు, ఎందుకంటే చిట్కాలు చివరికి ఎప్పుడూ పనిచేస్తాయి",
+              "அதை புறக்கணிக்க வேண்டும், ஏனெனில் வைத்தியங்கள் எப்போதும் இறுதியில் வேலை செய்யும்",
+              "ಅದನ್ನು ಕಡೆಗಣಿಸಬೇಕು, ಏಕೆಂದರೆ ಪರಿಹಾರಗಳು ಯಾವಾಗಲೂ ಅಂತಿಮವಾಗಿ ಕೆಲಸ ಮಾಡುತ್ತವೆ",
+              "इसे नज़रअंदाज़ करना चाहिए, क्योंकि उपचार आखिरकार हमेशा काम कर जाते हैं"
+            ),
           ],
           answer: 2,
-          explain: L("Remedies are only suggestive and may not cure the real problem. If there's no improvement, involve the vet — that's the golden rule in action."),
+          explain: L(
+            "Remedies are only suggestive and may not cure the real problem. If there's no improvement, involve the vet — that's the golden rule in action.",
+            "చిట్కాలు కేవలం సూచనాత్మకమైనవి మరియు అసలు సమస్యను నయం చేయకపోవచ్చు. మెరుగుదల లేకపోతే, పశువైద్యుడిని సంప్రదించండి — అదే స్వర్ణ నియమం చేతల్లో.",
+            "வைத்தியங்கள் வெறும் பரிந்துரையே, உண்மையான பிரச்சினையை குணப்படுத்தாமல் இருக்கலாம். முன்னேற்றம் இல்லையென்றால், கால்நடை மருத்துவரை ஈடுபடுத்துங்கள் — அதுவே தங்க விதியின் நடைமுறை.",
+            "ಪರಿಹಾರಗಳು ಕೇವಲ ಸಲಹಾತ್ಮಕವಾಗಿವೆ ಮತ್ತು ನಿಜವಾದ ಸಮಸ್ಯೆಯನ್ನು ಗುಣಪಡಿಸದೇ ಇರಬಹುದು. ಸುಧಾರಣೆ ಇಲ್ಲದಿದ್ದರೆ, ಪಶುವೈದ್ಯರನ್ನು ಒಳಗೊಳ್ಳಿಸಿ — ಅದೇ ಸುವರ್ಣ ನಿಯಮದ ಕಾರ್ಯರೂಪ.",
+            "उपचार केवल सुझाव मात्र हैं और असली समस्या को ठीक नहीं कर सकते। अगर सुधार न हो, तो पशु चिकित्सक को शामिल करें — यही स्वर्ण नियम का असली रूप है।"
+          ),
         },
         {
           topicId: "t-m13-golden-rule",
           type: "truefalse",
-          q: L("The handbook that lists these traditional remedies states, in its own words, that they are only suggestive and may not ensure a cure."),
+          q: L(
+            "The handbook that lists these traditional remedies states, in its own words, that they are only suggestive and may not ensure a cure.",
+            "ఈ సాంప్రదాయ చిట్కాలను జాబితా చేసిన హ్యాండ్‌బుక్ తన సొంత మాటల్లో ఇవి కేవలం సూచనాత్మకమైనవి మరియు నయం అవుతుందని హామీ ఇవ్వలేవని చెబుతుంది.",
+            "இந்த பாரம்பரிய வைத்தியங்களை பட்டியலிடும் கையேடு, தன் சொந்த வார்த்தைகளில், அவை வெறும் பரிந்துரையே என்றும் குணப்படுத்துவதை உறுதி செய்யாது என்றும் கூறுகிறது.",
+            "ಈ ಸಾಂಪ್ರದಾಯಿಕ ಪರಿಹಾರಗಳನ್ನು ಪಟ್ಟಿ ಮಾಡುವ ಕೈಪಿಡಿ, ತನ್ನ ಸ್ವಂತ ಮಾತುಗಳಲ್ಲಿ, ಅವು ಕೇವಲ ಸಲಹಾತ್ಮಕವಾಗಿವೆ ಮತ್ತು ಗುಣಪಡಿಸುತ್ತದೆ ಎಂದು ಖಾತರಿ ನೀಡುವುದಿಲ್ಲ ಎಂದು ಹೇಳುತ್ತದೆ.",
+            "इन पारंपरिक उपचारों को सूचीबद्ध करने वाली हैंडबुक अपने ही शब्दों में कहती है कि ये केवल सुझाव मात्र हैं और ठीक होने की गारंटी नहीं देते।"
+          ),
           answer: true,
-          explain: L("Correct — the handbook is explicit that these remedies are suggestive, and that the real disease still needs to be investigated by proper veterinary means."),
+          explain: L(
+            "Correct — the handbook is explicit that these remedies are suggestive, and that the real disease still needs to be investigated by proper veterinary means.",
+            "సరైనది — ఈ చిట్కాలు సూచనాత్మకమైనవని, మరియు అసలు వ్యాధిని సరైన పశువైద్య పద్ధతుల ద్వారా ఇంకా పరిశోధించాలని హ్యాండ్‌బుక్ స్పష్టంగా చెబుతుంది.",
+            "சரி — இந்த வைத்தியங்கள் பரிந்துரையே என்றும், உண்மையான நோயை இன்னும் சரியான கால்நடை மருத்துவ முறைகள் மூலம் ஆராய வேண்டும் என்றும் கையேடு தெளிவாக கூறுகிறது.",
+            "ಸರಿ — ಈ ಪರಿಹಾರಗಳು ಸಲಹಾತ್ಮಕವಾಗಿವೆ ಎಂದೂ, ನಿಜವಾದ ಕಾಯಿಲೆಯನ್ನು ಇನ್ನೂ ಸರಿಯಾದ ಪಶುವೈದ್ಯ ವಿಧಾನಗಳ ಮೂಲಕ ತನಿಖೆ ಮಾಡಬೇಕೆಂದೂ ಕೈಪಿಡಿ ಸ್ಪಷ್ಟವಾಗಿ ಹೇಳುತ್ತದೆ.",
+            "सही — हैंडबुक स्पष्ट रूप से कहती है कि ये उपचार सुझाव मात्र हैं, और असली बीमारी की जांच अब भी सही पशु चिकित्सा तरीकों से होनी चाहिए।"
+          ),
         },
         {
           topicId: "t-m13-handbook-basics",
           type: "mcq",
-          q: L("How much ground Amla (fruit or bark) does the handbook suggest for anaemia, given daily?"),
-          options: [L("About 50 grams"), L("About 5 kilograms"), L("A single drop"), L("Amla is not part of this remedy")],
+          q: L(
+            "How much ground Amla (fruit or bark) does the handbook suggest for anaemia, given daily?",
+            "రక్తహీనతకు రోజూ ఇవ్వాల్సిన దంచిన ఉసిరి (పండు లేదా బెరడు) ఎంత మోతాదులో హ్యాండ్‌బుక్ సూచిస్తుంది?",
+            "இரத்த சோகைக்கு தினமும் கொடுக்க வேண்டிய அரைத்த நெல்லிக்காய் (பழம் அல்லது பட்டை) அளவை கையேடு எவ்வளவு பரிந்துரைக்கிறது?",
+            "ರಕ್ತಹೀನತೆಗೆ ಪ್ರತಿದಿನ ಕೊಡಬೇಕಾದ ಪುಡಿಮಾಡಿದ ನೆಲ್ಲಿಕಾಯಿ (ಹಣ್ಣು ಅಥವಾ ತೊಗಟೆ) ಎಷ್ಟು ಪ್ರಮಾಣವನ್ನು ಕೈಪಿಡಿ ಸೂಚಿಸುತ್ತದೆ?",
+            "खून की कमी के लिए रोज़ दी जाने वाली पिसी हुई आंवला (फल या छाल) की मात्रा हैंडबुक कितनी सुझाती है?"
+          ),
+          options: [
+            L(
+              "About 50 grams",
+              "సుమారు 50 గ్రాములు",
+              "சுமார் 50 கிராம்",
+              "ಸುಮಾರು 50 ಗ್ರಾಂ",
+              "लगभग 50 ग्राम"
+            ),
+            L(
+              "About 5 kilograms",
+              "సుమారు 5 కిలోలు",
+              "சுமார் 5 கிலோ",
+              "ಸುಮಾರು 5 ಕೆಜಿ",
+              "लगभग 5 किलोग्राम"
+            ),
+            L(
+              "A single drop",
+              "ఒకే ఒక చుక్క",
+              "ஒரு துளி மட்டும்",
+              "ಒಂದೇ ಒಂದು ಹನಿ",
+              "एक बूंद मात्र"
+            ),
+            L(
+              "Amla is not part of this remedy",
+              "ఈ చిట్కాలో ఉసిరి భాగం కాదు",
+              "நெல்லிக்காய் இந்த வைத்தியத்தின் பகுதி இல்லை",
+              "ನೆಲ್ಲಿಕಾಯಿ ಈ ಪರಿಹಾರದ ಭಾಗವಲ್ಲ",
+              "आंवला इस उपचार का हिस्सा नहीं है"
+            ),
+          ],
           answer: 0,
-          explain: L("The handbook's anaemia remedy is around 50 g of ground Amla fruit or bark, given daily."),
+          explain: L(
+            "The handbook's anaemia remedy is around 50 g of ground Amla fruit or bark, given daily.",
+            "హ్యాండ్‌బుక్ రక్తహీనత చిట్కా సుమారు 50 గ్రా దంచిన ఉసిరి పండు లేదా బెరడును రోజూ ఇవ్వడం.",
+            "கையேட்டு இரத்த சோகை வைத்தியம் சுமார் 50 கிராம் அரைத்த நெல்லிக்காய் பழம் அல்லது பட்டையை தினமும் கொடுப்பது.",
+            "ಕೈಪಿಡಿಯ ರಕ್ತಹೀನತೆ ಪರಿಹಾರ ಸುಮಾರು 50 ಗ್ರಾಂ ಪುಡಿಮಾಡಿದ ನೆಲ್ಲಿಕಾಯಿ ಹಣ್ಣು ಅಥವಾ ತೊಗಟೆಯನ್ನು ಪ್ರತಿದಿನ ಕೊಡುವುದು.",
+            "हैंडबुक का खून की कमी का उपचार है लगभग 50 ग्राम पिसी हुई आंवला फल या छाल रोज़ देना।"
+          ),
         },
         {
           topicId: "t-m13-handbook-basics",
           type: "truefalse",
-          q: L("Leptadenia reticulata leaf and stem is given along with feed for failure to produce milk, at 50 g twice a day for 30 days."),
+          q: L(
+            "Leptadenia reticulata leaf and stem is given along with feed for failure to produce milk, at 50 g twice a day for 30 days.",
+            "పాలు ఇవ్వకపోవడానికి లెప్టడేనియా రెటిక్యులేటా ఆకు మరియు కాండాన్ని దాణాతో పాటు, 50 గ్రా చొప్పున రోజుకు రెండుసార్లు 30 రోజులు ఇస్తారు.",
+            "பால் சுரக்காமல் இருப்பதற்கு லெப்டடீனியா ரெட்டிகுலேட்டா இலை மற்றும் தண்டை தீவனத்துடன், 50 கிராம் வீதம் நாளொன்றுக்கு இரண்டு முறை 30 நாட்களுக்கு கொடுக்கப்படுகிறது.",
+            "ಹಾಲು ಬಾರದಿರುವಿಕೆಗೆ ಲೆಪ್ಟಡೀನಿಯಾ ರೆಟಿಕ್ಯುಲೇಟಾ ಎಲೆ ಮತ್ತು ಕಾಂಡವನ್ನು ಆಹಾರದೊಂದಿಗೆ, 50 ಗ್ರಾಂ ನಂತೆ ದಿನಕ್ಕೆ ಎರಡು ಬಾರಿ 30 ದಿನ ಕೊಡಲಾಗುತ್ತದೆ.",
+            "दूध न बनने के लिए लेप्टाडेनिया रेटिकुलाटा की पत्ती और तना चारे के साथ, 50 ग्राम की मात्रा में दिन में दो बार 30 दिनों तक दिया जाता है।"
+          ),
           answer: true,
-          explain: L("Correct — this is the second of the two handbook options for failure to produce milk."),
+          explain: L(
+            "Correct — this is the second of the two handbook options for failure to produce milk.",
+            "సరైనది — ఇది పాలు ఇవ్వకపోవడానికి రెండు హ్యాండ్‌బుక్ ఎంపికల్లో రెండోది.",
+            "சரி — இது பால் சுரக்காமல் இருப்பதற்கான இரண்டு கையேட்டு விருப்பங்களில் இரண்டாவது.",
+            "ಸರಿ — ಇದು ಹಾಲು ಬಾರದಿರುವಿಕೆಗೆ ಎರಡು ಕೈಪಿಡಿ ಆಯ್ಕೆಗಳಲ್ಲಿ ಎರಡನೆಯದು.",
+            "सही — यह दूध न बनने की समस्या के लिए हैंडबुक के दो विकल्पों में से दूसरा है।"
+          ),
         },
         {
           topicId: "t-m13-golden-rule",
           type: "mcq",
-          q: L("Who has documented many of the traditional remedies used in this module, according to the source material?"),
+          q: L(
+            "Who has documented many of the traditional remedies used in this module, according to the source material?",
+            "ఈ మాడ్యూల్‌లో వాడిన సాంప్రదాయ చిట్కాలలో చాలా వాటిని మూల సామగ్రి ప్రకారం ఎవరు నమోదు చేశారు?",
+            "இந்த தொகுதியில் பயன்படுத்தப்படும் பாரம்பரிய வைத்தியங்களில் பலவற்றை மூல ஆதாரத்தின்படி யார் பதிவு செய்துள்ளனர்?",
+            "ಈ ಮಾಡ್ಯೂಲ್‌ನಲ್ಲಿ ಬಳಸಿದ ಸಾಂಪ್ರದಾಯಿಕ ಪರಿಹಾರಗಳಲ್ಲಿ ಅನೇಕವನ್ನು ಮೂಲ ವಸ್ತುವಿನ ಪ್ರಕಾರ ಯಾರು ದಾಖಲಿಸಿದ್ದಾರೆ?",
+            "स्रोत सामग्री के अनुसार, इस मॉड्यूल में इस्तेमाल किए गए कई पारंपरिक उपचारों को किसने दर्ज किया है?"
+          ),
           options: [
-            L("Only large pharmaceutical companies"),
-            L("Nobody — it is unwritten and passed on only by word of mouth"),
-            L("Agencies such as BAIF, IIRR, Vivekananda Kendra and NDDB"),
-            L("Only international vaccine manufacturers"),
+            L(
+              "Only large pharmaceutical companies",
+              "కేవలం పెద్ద ఫార్మాస్యూటికల్ కంపెనీలు మాత్రమే",
+              "பெரிய மருந்து நிறுவனங்கள் மட்டுமே",
+              "ಕೇವಲ ದೊಡ್ಡ ಔಷಧ ಕಂಪನಿಗಳು ಮಾತ್ರ",
+              "केवल बड़ी दवा कंपनियां"
+            ),
+            L(
+              "Nobody — it is unwritten and passed on only by word of mouth",
+              "ఎవరూ కాదు — ఇది వ్రాయబడలేదు మరియు నోటిమాటగా మాత్రమే అందించబడుతుంది",
+              "யாருமில்லை — இது எழுதப்படாமல் வாய்வழியாக மட்டுமே அளிக்கப்படுகிறது",
+              "ಯಾರೂ ಇಲ್ಲ — ಇದು ಬರೆಯಲ್ಪಡದೆ ಬಾಯಿಮಾತಿನಿಂದ ಮಾತ್ರ ರವಾನೆಯಾಗುತ್ತದೆ",
+              "कोई नहीं — यह अलिखित है और केवल मौखिक रूप से आगे बढ़ता है"
+            ),
+            L(
+              "Agencies such as BAIF, IIRR, Vivekananda Kendra and NDDB",
+              "BAIF, IIRR, వివేకానంద కేంద్రం మరియు NDDB వంటి సంస్థలు",
+              "BAIF, IIRR, விவேகானந்த கேந்திரா மற்றும் NDDB போன்ற நிறுவனங்கள்",
+              "BAIF, IIRR, ವಿವೇಕಾನಂದ ಕೇಂದ್ರ ಮತ್ತು NDDB ನಂತಹ ಸಂಸ್ಥೆಗಳು",
+              "BAIF, IIRR, विवेकानंद केंद्र और NDDB जैसी संस्थाएं"
+            ),
+            L(
+              "Only international vaccine manufacturers",
+              "కేవలం అంతర్జాతీయ వ్యాక్సిన్ తయారీదారులు మాత్రమే",
+              "சர்வதேச தடுப்பூசி உற்பத்தியாளர்கள் மட்டுமே",
+              "ಕೇವಲ ಅಂತರರಾಷ್ಟ್ರೀಯ ಲಸಿಕೆ ತಯಾರಕರು ಮಾತ್ರ",
+              "केवल अंतरराष्ट्रीय टीका निर्माता"
+            ),
           ],
           answer: 2,
-          explain: L("The handbook credits agencies like BAIF, IIRR and Vivekananda Kendra, and this module also draws on an NDDB brochure — real organisations that documented real farmer practice."),
+          explain: L(
+            "The handbook credits agencies like BAIF, IIRR and Vivekananda Kendra, and this module also draws on an NDDB brochure — real organisations that documented real farmer practice.",
+            "హ్యాండ్‌బుక్ BAIF, IIRR మరియు వివేకానంద కేంద్రం వంటి సంస్థలకు ఘనత ఇస్తుంది, మరియు ఈ మాడ్యూల్ NDDB బ్రోషర్ ఆధారంగా కూడా రూపొందించబడింది — ఇవి నిజమైన రైతు అనుభవాన్ని నమోదు చేసిన నిజమైన సంస్థలు.",
+            "கையேடு BAIF, IIRR மற்றும் விவேகானந்த கேந்திரா போன்ற நிறுவனங்களுக்கு பெருமை அளிக்கிறது, மேலும் இந்த தொகுதி ஒரு NDDB துண்டுப்பிரசுரத்தையும் அடிப்படையாகக் கொண்டது — உண்மையான விவசாயி நடைமுறையை பதிவு செய்த உண்மையான நிறுவனங்கள்.",
+            "ಕೈಪಿಡಿ BAIF, IIRR ಮತ್ತು ವಿವೇಕಾನಂದ ಕೇಂದ್ರದಂತಹ ಸಂಸ್ಥೆಗಳಿಗೆ ಶ್ರೇಯ ನೀಡುತ್ತದೆ, ಮತ್ತು ಈ ಮಾಡ್ಯೂಲ್ ಒಂದು NDDB ಕರಪತ್ರವನ್ನೂ ಆಧರಿಸಿದೆ — ನಿಜವಾದ ರೈತ ಅಭ್ಯಾಸವನ್ನು ದಾಖಲಿಸಿದ ನಿಜವಾದ ಸಂಸ್ಥೆಗಳು.",
+            "हैंडबुक BAIF, IIRR और विवेकानंद केंद्र जैसी संस्थाओं का श्रेय देती है, और यह मॉड्यूल एक NDDB ब्रोशर पर भी आधारित है — असली संस्थाएं जिन्होंने असली किसान व्यवहार को दर्ज किया।"
+          ),
         },
       ],
     },
@@ -7846,27 +7983,59 @@ export const MODULES = [
   // ==================================================================
   {
     id: "m13-l2",
-    title: L("More Handbook Remedies, Ailment by Ailment"),
+    title: L(
+      "More Handbook Remedies, Ailment by Ailment",
+      "మరిన్ని హ్యాండ్‌బుక్ చిట్కాలు, జబ్బు వారీగా",
+      "மேலும் கையேட்டு வைத்தியங்கள், நோய் வாரியாக",
+      "ಇನ್ನಷ್ಟು ಕೈಪಿಡಿ ಪರಿಹಾರಗಳು, ಕಾಯಿಲೆವಾರು",
+      "और हैंडबुक उपचार, बीमारी के अनुसार"
+    ),
     estMinutes: 9,
     hook: [
       {
         type: "hero",
-        heading: L("More Remedies — Same Golden Rule"),
+        heading: L(
+          "More Remedies — Same Golden Rule",
+          "మరిన్ని చిట్కాలు — అదే స్వర్ణ నియమం",
+          "மேலும் வைத்தியங்கள் — அதே தங்க விதி",
+          "ಇನ್ನಷ್ಟು ಪರಿಹಾರಗಳು — ಅದೇ ಸುವರ್ಣ ನಿಯಮ",
+          "और उपचार — वही स्वर्ण नियम"
+        ),
         text: L(
-          "This lesson continues through the handbook's remedies, grouped by the kind of problem they treat — digestive and fluid problems first, then skin, wound and parasite problems. As always: these remedies are to be used ALONGSIDE, never INSTEAD OF, proper veterinary advice, and a vet is still needed to diagnose the real cause and to handle anything serious."
+          "This lesson continues through the handbook's remedies, grouped by the kind of problem they treat — digestive and fluid problems first, then skin, wound and parasite problems. As always: these remedies are to be used ALONGSIDE, never INSTEAD OF, proper veterinary advice, and a vet is still needed to diagnose the real cause and to handle anything serious.",
+          "ఈ పాఠం హ్యాండ్‌బుక్ చిట్కాలను, అవి చికిత్స చేసే సమస్య రకం ఆధారంగా వర్గీకరించి కొనసాగిస్తుంది — మొదట జీర్ణ మరియు ద్రవ సమస్యలు, తర్వాత చర్మం, గాయం మరియు పరాన్నజీవుల సమస్యలు. ఎప్పటిలాగే: ఈ చిట్కాలను సరైన పశువైద్య సలహాకు బదులుగా కాకుండా, దానితో పాటుగా మాత్రమే వాడాలి, మరియు అసలు కారణాన్ని నిర్ధారించడానికి మరియు తీవ్రమైన దేనినైనా చూసుకోవడానికి పశువైద్యుడు ఇప్పటికీ అవసరం.",
+          "இந்த பாடம் கையேட்டு வைத்தியங்களை, அவை சிகிச்சையளிக்கும் பிரச்சினை வகையின்படி தொகுத்து தொடர்கிறது — முதலில் செரிமான மற்றும் திரவ பிரச்சினைகள், பின்னர் தோல், காயம் மற்றும் ஒட்டுண்ணி பிரச்சினைகள். எப்போதும் போல: இந்த வைத்தியங்களை சரியான கால்நடை மருத்துவ ஆலோசனைக்கு பதிலாக அல்ல, அதனுடன் சேர்த்து மட்டுமே பயன்படுத்த வேண்டும், மேலும் உண்மையான காரணத்தை கண்டறியவும் தீவிரமான எதையும் கையாளவும் இன்னும் கால்நடை மருத்துவர் தேவை.",
+          "ಈ ಪಾಠ ಕೈಪಿಡಿಯ ಪರಿಹಾರಗಳನ್ನು, ಅವು ಚಿಕಿತ್ಸೆ ನೀಡುವ ಸಮಸ್ಯೆಯ ಪ್ರಕಾರದಿಂದ ಗುಂಪುಗೂಡಿಸಿ ಮುಂದುವರಿಸುತ್ತದೆ — ಮೊದಲು ಜೀರ್ಣ ಮತ್ತು ದ್ರವ ಸಮಸ್ಯೆಗಳು, ನಂತರ ಚರ್ಮ, ಗಾಯ ಮತ್ತು ಪರಾವಲಂಬಿ ಸಮಸ್ಯೆಗಳು. ಎಂದಿನಂತೆ: ಈ ಪರಿಹಾರಗಳನ್ನು ಸರಿಯಾದ ಪಶುವೈದ್ಯ ಸಲಹೆಗೆ ಬದಲಾಗಿ ಅಲ್ಲ, ಅದರ ಜೊತೆಗೆ ಮಾತ್ರ ಬಳಸಬೇಕು, ಮತ್ತು ನಿಜವಾದ ಕಾರಣವನ್ನು ಪತ್ತೆಹಚ್ಚಲು ಮತ್ತು ಗಂಭೀರವಾದುದನ್ನು ನಿಭಾಯಿಸಲು ಪಶುವೈದ್ಯರು ಇನ್ನೂ ಅಗತ್ಯ.",
+          "यह पाठ हैंडबुक के उपचारों को, वे जिस तरह की समस्या का इलाज करते हैं उसके अनुसार समूहित करके आगे बढ़ता है — पहले पाचन और तरल पदार्थ की समस्याएं, फिर त्वचा, घाव और परजीवी समस्याएं। हमेशा की तरह: इन उपचारों को सही पशु चिकित्सा सलाह के बदले नहीं, बल्कि उसके साथ-साथ ही इस्तेमाल करना है, और असली कारण का निदान करने और किसी भी गंभीर स्थिति को संभालने के लिए अब भी पशु चिकित्सक की ज़रूरत है।"
         ),
       },
     ],
     topics: [
       {
         id: "t-m13-digestive",
-        title: L("Digestive and Fluid Problems"),
+        title: L(
+          "Digestive and Fluid Problems",
+          "జీర్ణ మరియు ద్రవ సమస్యలు",
+          "செரிமான மற்றும் திரவ பிரச்சினைகள்",
+          "ಜೀರ್ಣ ಮತ್ತು ದ್ರವ ಸಮಸ್ಯೆಗಳು",
+          "पाचन और तरल पदार्थ की समस्याएं"
+        ),
         teach: [
           {
             type: "text",
-            heading: L("Problems With Eating, Digesting or Fluid Loss"),
+            heading: L(
+              "Problems With Eating, Digesting or Fluid Loss",
+              "తినడం, జీర్ణం చేయడం లేదా ద్రవ నష్టం సమస్యలు",
+              "உண்ணுதல், செரிமானம் அல்லது திரவ இழப்பு தொடர்பான பிரச்சினைகள்",
+              "ತಿನ್ನುವುದು, ಜೀರ್ಣಿಸುವುದು ಅಥವಾ ದ್ರವ ನಷ್ಟದ ಸಮಸ್ಯೆಗಳು",
+              "खाने, पाचन या तरल पदार्थ की कमी से जुड़ी समस्याएं"
+            ),
             html: L(
-              "This topic covers the handbook's remedies for bloat, dehydration, diarrhoea and general stomach disorder — all problems connected to what's happening inside the animal's stomach and gut."
+              "This topic covers the handbook's remedies for bloat, dehydration, diarrhoea and general stomach disorder — all problems connected to what's happening inside the animal's stomach and gut.",
+              "ఈ టాపిక్ ఉబ్బరం, డీహైడ్రేషన్, విరేచనాలు మరియు సాధారణ కడుపు రుగ్మతలకు హ్యాండ్‌బుక్ చిట్కాలను కవర్ చేస్తుంది — ఇవన్నీ జంతువు కడుపు మరియు పేగుల లోపల జరిగే విషయాలకు సంబంధించిన సమస్యలు.",
+              "இந்த தலைப்பு வீக்கம், நீரிழப்பு, வயிற்றுப்போக்கு மற்றும் பொதுவான வயிற்று கோளாறுக்கான கையேட்டு வைத்தியங்களை உள்ளடக்குகிறது — இவை அனைத்தும் விலங்கின் வயிறு மற்றும் குடலுக்குள் நடக்கும் விஷயங்களுடன் தொடர்புடைய பிரச்சினைகள்.",
+              "ಈ ವಿಷಯ ಉಬ್ಬರ, ನಿರ್ಜಲೀಕರಣ, ಅತಿಸಾರ ಮತ್ತು ಸಾಮಾನ್ಯ ಹೊಟ್ಟೆ ಅಸ್ವಸ್ಥತೆಗೆ ಕೈಪಿಡಿಯ ಪರಿಹಾರಗಳನ್ನು ಒಳಗೊಂಡಿದೆ — ಇವೆಲ್ಲಾ ಪ್ರಾಣಿಯ ಹೊಟ್ಟೆ ಮತ್ತು ಕರುಳಿನ ಒಳಗೆ ನಡೆಯುವುದಕ್ಕೆ ಸಂಬಂಧಿಸಿದ ಸಮಸ್ಯೆಗಳು.",
+              "यह विषय अफारा, निर्जलीकरण, दस्त और सामान्य पेट की गड़बड़ी के लिए हैंडबुक के उपचारों को शामिल करता है — ये सभी समस्याएं जानवर के पेट और आंत के अंदर हो रही चीज़ों से जुड़ी हैं।"
             ),
           },
           {
