@@ -1803,50 +1803,50 @@ export const MODULES = [
         {
           topicId: "t-m3-diarrhoea-signs",
           type: "mcq",
-          q: L("Why can calf diarrhoea kill quickly, even before a cause is found?"),
+          q: L("Why can calf diarrhoea kill quickly, even before a cause is found?", "కారణం తెలియకముందే దూడ విరేచనాలు వేగంగా ఎందుకు ప్రాణాంతకం కావచ్చు?", "காரணம் கண்டறியப்படுவதற்கு முன்பே கன்று வயிற்றுப்போக்கு ஏன் விரைவாக கொல்லக்கூடும்?", "ಕಾರಣ ಪತ್ತೆಯಾಗುವ ಮೊದಲೇ ಕರುವಿನ ಭೇದಿ ಏಕೆ ವೇಗವಾಗಿ ಪ್ರಾಣ ತೆಗೆಯಬಹುದು?", "वजह पता चलने से पहले ही बछड़े के दस्त जल्दी जानलेवा क्यों हो सकते हैं?"),
           options: [
-            L("It causes rapid loss of water and electrolytes"),
-            L("It always comes with a high fever"),
-            L("It stops the calf from breathing"),
-            L("It only affects appetite, nothing else"),
+            L("It causes rapid loss of water and electrolytes", "ఇది వేగంగా నీరు మరియు లవణాలను కోల్పోయేలా చేస్తుంది", "இது நீர் மற்றும் உப்புகளை விரைவாக இழக்கச் செய்கிறது", "ಇದು ವೇಗವಾಗಿ ನೀರು ಮತ್ತು ಲವಣಗಳ ನಷ್ಟಕ್ಕೆ ಕಾರಣವಾಗುತ್ತದೆ", "इससे पानी और नमक तेज़ी से निकल जाते हैं"),
+            L("It always comes with a high fever", "దీనితో ఎప్పుడూ తీవ్రమైన జ్వరం వస్తుంది", "இதனுடன் எப்போதும் அதிக காய்ச்சல் இருக்கும்", "ಇದರೊಂದಿಗೆ ಯಾವಾಗಲೂ ತೀವ್ರ ಜ್ವರ ಬರುತ್ತದೆ", "इसके साथ हमेशा तेज़ बुख़ार आता है"),
+            L("It stops the calf from breathing", "ఇది దూడ శ్వాస తీసుకోకుండా ఆపేస్తుంది", "இது கன்றை மூச்சு விடாமல் தடுக்கும்", "ಇದು ಕರುವಿನ ಉಸಿರಾಟವನ್ನು ನಿಲ್ಲಿಸುತ್ತದೆ", "इससे बछड़े की सांस रुक जाती है"),
+            L("It only affects appetite, nothing else", "ఇది కేవలం ఆకలిని మాత్రమే ప్రభావితం చేస్తుంది, మరేమీ కాదు", "இது பசியை மட்டுமே பாதிக்கும், வேறு எதுவும் இல்லை", "ಇದು ಹಸಿವಿನ ಮೇಲೆ ಮಾತ್ರ ಪರಿಣಾಮ ಬೀರುತ್ತದೆ, ಬೇರೇನೂ ಇಲ್ಲ", "इससे सिर्फ़ भूख पर असर पड़ता है, और कुछ नहीं"),
           ],
           answer: 0,
-          explain: L("The real danger is the fast loss of water and electrolytes, which alone can kill a calf quickly regardless of the underlying cause."),
+          explain: L("The real danger is the fast loss of water and electrolytes, which alone can kill a calf quickly regardless of the underlying cause.", "నిజమైన ప్రమాదం నీరు, లవణాలు వేగంగా కోల్పోవడమే, కారణం ఏదైనా ఇది ఒక్కటే దూడను వేగంగా చంపగలదు.", "உண்மையான ஆபத்து நீர் மற்றும் உப்புகளை விரைவாக இழப்பதே, காரணம் எதுவாக இருந்தாலும் இது மட்டுமே கன்றை விரைவாக கொல்லக்கூடும்.", "ನಿಜವಾದ ಅಪಾಯ ನೀರು ಮತ್ತು ಲವಣಗಳ ವೇಗದ ನಷ್ಟ, ಕಾರಣ ಏನೇ ಇರಲಿ ಇದು ಒಂದೇ ಕರುವನ್ನು ವೇಗವಾಗಿ ಸಾಯಿಸಬಹುದು.", "असली ख़तरा पानी और नमक का तेज़ी से निकल जाना है, चाहे वजह कुछ भी हो, यह अकेले ही बछड़े की जान जल्दी ले सकता है।"),
         },
         {
           topicId: "t-m3-diarrhoea-signs",
           type: "truefalse",
-          q: L("At up to 5% dehydration, a calf usually shows no symptoms at all."),
+          q: L("At up to 5% dehydration, a calf usually shows no symptoms at all.", "5% వరకు నీటి కొరత ఉంటే దూడలో సాధారణంగా ఎలాంటి లక్షణాలు కనిపించవు.", "5% வரை நீர்ச்சத்து குறைவில், கன்றில் பொதுவாக எந்த அறிகுறியும் தெரியாது.", "5% ವರೆಗಿನ ನಿರ್ಜಲೀಕರಣದಲ್ಲಿ, ಕರುವಿನಲ್ಲಿ ಸಾಮಾನ್ಯವಾಗಿ ಯಾವುದೇ ಲಕ್ಷಣಗಳು ಕಾಣಿಸುವುದಿಲ್ಲ.", "5% तक पानी की कमी होने पर बछड़े में आम तौर पर कोई लक्षण नहीं दिखते।"),
           answer: true,
-          explain: L("Correct — up to 5% dehydration, the calf typically looks normal with no visible symptoms."),
+          explain: L("Correct — up to 5% dehydration, the calf typically looks normal with no visible symptoms.", "సరైనది — 5% వరకు నీటి కొరత ఉంటే దూడ సాధారణంగా మామూలుగానే కనిపిస్తుంది, కనిపించే లక్షణాలు ఉండవు.", "சரி — 5% வரை நீர்ச்சத்து குறைவில், கன்று பொதுவாக சாதாரணமாகவே தெரியும், தெரியும் அறிகுறிகள் இருக்காது.", "ಸರಿ — 5% ವರೆಗಿನ ನಿರ್ಜಲೀಕರಣದಲ್ಲಿ, ಕರು ಸಾಮಾನ್ಯವಾಗಿ ಸಹಜವಾಗಿಯೇ ಕಾಣುತ್ತದೆ, ಗೋಚರ ಲಕ್ಷಣಗಳಿಲ್ಲ.", "सही — 5% तक पानी की कमी होने पर बछड़ा आमतौर पर सामान्य दिखता है, कोई दिखने वाला लक्षण नहीं होता।"),
         },
         {
           topicId: "t-m3-diarrhoea-action",
           type: "mcq",
-          q: L("What are the two things ground staff should do as soon as they notice a calf with diarrhoea?"),
+          q: L("What are the two things ground staff should do as soon as they notice a calf with diarrhoea?", "దూడకు విరేచనాలు కనిపించిన వెంటనే క్షేత్రస్థాయి సిబ్బంది చేయాల్సిన రెండు పనులు ఏమిటి?", "வயிற்றுப்போக்கு உள்ள கன்றை கவனித்தவுடன் கள ஊழியர்கள் செய்ய வேண்டிய இரண்டு விஷயங்கள் என்ன?", "ಭೇದಿ ಇರುವ ಕರುವನ್ನು ಗಮನಿಸಿದ ತಕ್ಷಣ ಕ್ಷೇತ್ರ ಸಿಬ್ಬಂದಿ ಮಾಡಬೇಕಾದ ಎರಡು ಕೆಲಸಗಳು ಯಾವುವು?", "दस्त वाले बछड़े को देखते ही फ़ील्ड स्टाफ़ को क्या दो काम करने चाहिए?"),
           options: [
-            L("Wait a few days to see if it clears up on its own"),
-            L("Start replacing fluids and contact the veterinarian at the earliest"),
-            L("Decide on medicine themselves"),
-            L("Stop all feeding until the vet arrives"),
+            L("Wait a few days to see if it clears up on its own", "అదే తగ్గుతుందేమో చూడటానికి కొన్ని రోజులు వేచి ఉండటం", "அது தானாக சரியாகுமா என்று சில நாட்கள் காத்திருப்பது", "ಅದು ತಾನಾಗಿಯೇ ಸರಿಯಾಗುತ್ತದೋ ಎಂದು ಕೆಲವು ದಿನ ಕಾಯುವುದು", "कुछ दिन इंतज़ार करना कि क्या यह अपने आप ठीक हो जाए"),
+            L("Start replacing fluids and contact the veterinarian at the earliest", "ద్రవాలు ఇవ్వడం మొదలుపెట్టి, వీలైనంత త్వరగా వెటర్నరీ డాక్టర్‌ను సంప్రదించడం", "திரவங்கள் கொடுக்க தொடங்கி, முடிந்தவரை விரைவாக வெட்டரினரி டாக்டரை தொடர்பு கொள்வது", "ದ್ರವ ಪೂರೈಕೆ ಆರಂಭಿಸಿ, ಆದಷ್ಟು ಬೇಗ ಪಶುವೈದ್ಯರನ್ನು ಸಂಪರ್ಕಿಸುವುದು", "तरल पदार्थ देना शुरू करना और जल्द से जल्द डॉक्टर से संपर्क करना"),
+            L("Decide on medicine themselves", "మందులు వారే నిర్ణయించుకోవడం", "மருந்துகளை தாங்களே முடிவு செய்வது", "ಔಷಧಿಯನ್ನು ತಾವೇ ನಿರ್ಧರಿಸುವುದು", "दवा खुद तय करना"),
+            L("Stop all feeding until the vet arrives", "డాక్టర్ వచ్చేవరకు ఆహారం పూర్తిగా ఆపేయడం", "டாக்டர் வரும் வரை அனைத்து உணவையும் நிறுத்துவது", "ಪಶುವೈದ್ಯರು ಬರುವವರೆಗೆ ಎಲ್ಲಾ ಆಹಾರವನ್ನು ನಿಲ್ಲಿಸುವುದು", "डॉक्टर के आने तक सारा खाना बंद कर देना"),
           ],
           answer: 1,
-          explain: L("Replace lost fluids with the electrolyte solution and contact the veterinarian at the earliest to determine the cause and treatment."),
+          explain: L("Replace lost fluids with the electrolyte solution and contact the veterinarian at the earliest to determine the cause and treatment.", "కోల్పోయిన ద్రవాలను ఎలక్ట్రోలైట్ ద్రావణంతో తిరిగి ఇవ్వండి, కారణం, చికిత్స నిర్ధారించేందుకు వీలైనంత త్వరగా వెటర్నరీ డాక్టర్‌ను సంప్రదించండి.", "இழந்த திரவத்தை எலக்ட்ரோலைட் கரைசலால் ஈடுசெய்து, காரணத்தையும் சிகிச்சையையும் தீர்மானிக்க முடிந்தவரை விரைவாக டாக்டரை தொடர்பு கொள்ளுங்கள்.", "ಕಳೆದುಕೊಂಡ ದ್ರವವನ್ನು ಎಲೆಕ್ಟ್ರೋಲೈಟ್ ದ್ರಾವಣದಿಂದ ಮರುಪೂರೈಸಿ, ಕಾರಣ ಮತ್ತು ಚಿಕಿತ್ಸೆ ನಿರ್ಧರಿಸಲು ಆದಷ್ಟು ಬೇಗ ಪಶುವೈದ್ಯರನ್ನು ಸಂಪರ್ಕಿಸಿ.", "इलेक्ट्रोलाइट घोल से खोए तरल की भरपाई करें और वजह व इलाज तय करने के लिए जल्द से जल्द डॉक्टर से संपर्क करें।"),
         },
         {
           topicId: "t-m3-diarrhoea-action",
           type: "truefalse",
-          q: L("Preventing diarrhoea starts with making sure the calf gets adequate colostrum within 6 hours of birth."),
+          q: L("Preventing diarrhoea starts with making sure the calf gets adequate colostrum within 6 hours of birth.", "విరేచనాలను నివారించడం, దూడకు పుట్టిన 6 గంటల్లోపు తగినంత జున్ను అందేలా చూసుకోవడంతో మొదలవుతుంది.", "வயிற்றுப்போக்கை தடுப்பது, கன்றுக்கு பிறந்த 6 மணி நேரத்திற்குள் போதுமான கொழுந்து பால் கிடைப்பதை உறுதி செய்வதில் தொடங்குகிறது.", "ಭೇದಿ ತಡೆಗಟ್ಟುವಿಕೆ, ಕರುವಿಗೆ ಹುಟ್ಟಿದ 6 ಗಂಟೆಗಳ ಒಳಗೆ ಸಾಕಷ್ಟು ಗಿಣ್ಣುಹಾಲು ಸಿಗುವಂತೆ ನೋಡಿಕೊಳ್ಳುವುದರಿಂದ ಪ್ರಾರಂಭವಾಗುತ್ತದೆ.", "दस्त रोकने की शुरुआत यह पक्का करने से होती है कि बछड़े को जन्म के 6 घंटे के भीतर पर्याप्त खीस मिले।"),
           answer: true,
-          explain: L("Correct — adequate colostrum within 6 hours of birth helps ensure proper transfer of immunity, which helps prevent diarrhoea."),
+          explain: L("Correct — adequate colostrum within 6 hours of birth helps ensure proper transfer of immunity, which helps prevent diarrhoea.", "సరైనది — పుట్టిన 6 గంటల్లోపు తగినంత జున్ను అందడం రోగనిరోధక శక్తి సరిగ్గా బదిలీ అయ్యేలా చూస్తుంది, ఇది విరేచనాలను నివారించడంలో సహాయపడుతుంది.", "சரி — பிறந்த 6 மணி நேரத்திற்குள் போதுமான கொழுந்து பால் கிடைப்பது நோய் எதிர்ப்பு சக்தி சரியாக மாற்றப்பட உதவுகிறது, இது வயிற்றுப்போக்கை தடுக்க உதவுகிறது.", "ಸರಿ — ಹುಟ್ಟಿದ 6 ಗಂಟೆಗಳ ಒಳಗೆ ಸಾಕಷ್ಟು ಗಿಣ್ಣುಹಾಲು ಸಿಗುವುದು ರೋಗ ನಿರೋಧಕ ಶಕ್ತಿ ಸರಿಯಾಗಿ ವರ್ಗಾವಣೆಯಾಗಲು ಸಹಾಯ ಮಾಡುತ್ತದೆ, ಇದು ಭೇದಿ ತಡೆಗಟ್ಟಲು ನೆರವಾಗುತ್ತದೆ.", "सही — जन्म के 6 घंटे के भीतर पर्याप्त खीस मिलने से रोग-प्रतिरोधक क्षमता सही तरीके से मिलती है, जिससे दस्त रोकने में मदद मिलती है।"),
         },
         {
           topicId: "t-m3-diarrhoea-signs",
           type: "mcq",
-          q: L("A calf cannot stand, has cool extremities, and its skin remains tented. Roughly what dehydration level does this describe?"),
-          options: [L("Up to 5%"), L("5–6%"), L("10–14%"), L("This pattern doesn't relate to dehydration")],
+          q: L("A calf cannot stand, has cool extremities, and its skin remains tented. Roughly what dehydration level does this describe?", "ఒక దూడ నిలబడలేకపోతోంది, దాని అవయవాలు చల్లగా ఉన్నాయి, చర్మం లేచి అలాగే ఉంది. ఇది సుమారుగా ఏ నీటి కొరత స్థాయిని సూచిస్తుంది?", "ஒரு கன்று நிற்க முடியாமல் இருக்கிறது, அதன் உறுப்புகள் குளிராக இருக்கின்றன, தோல் மடிந்தே இருக்கிறது. இது சுமார் எந்த நீர்ச்சத்து குறைவு நிலையை குறிக்கிறது?", "ಒಂದು ಕರು ನಿಲ್ಲಲಾಗುತ್ತಿಲ್ಲ, ಅದರ ಅಂಗಗಳು ತಣ್ಣಗಿವೆ, ಚರ್ಮ ಮಡಚಿಯೇ ಇದೆ. ಇದು ಸುಮಾರಾಗಿ ಯಾವ ನಿರ್ಜಲೀಕರಣ ಮಟ್ಟವನ್ನು ಸೂಚಿಸುತ್ತದೆ?", "एक बछड़ा खड़ा नहीं हो पा रहा, उसके हाथ-पांव ठंडे हैं, और त्वचा उठी ही रह जाती है। यह लगभग पानी की कमी के किस स्तर को दर्शाता है?"),
+          options: [L("Up to 5%", "5% వరకు", "5% வரை", "5% ವರೆಗೆ", "5% तक"), L("5–6%", "5–6%", "5–6%", "5–6%", "5–6%"), L("10–14%", "10–14%", "10–14%", "10–14%", "10–14%"), L("This pattern doesn't relate to dehydration", "ఈ లక్షణాలకు నీటి కొరతతో సంబంధం లేదు", "இந்த அறிகுறிகளுக்கு நீர்ச்சத்து குறைவுடன் தொடர்பு இல்லை", "ಈ ಲಕ್ಷಣಗಳಿಗೆ ನಿರ್ಜಲೀಕರಣದೊಂದಿಗೆ ಸಂಬಂಧವಿಲ್ಲ", "इस स्थिति का पानी की कमी से कोई संबंध नहीं है")],
           answer: 2,
-          explain: L("These are the signs described for the 10–14% dehydration level — a very serious, critical state."),
+          explain: L("These are the signs described for the 10–14% dehydration level — a very serious, critical state.", "ఇవి 10–14% నీటి కొరత స్థాయికి చెప్పిన లక్షణాలు — చాలా తీవ్రమైన, ప్రమాదకర స్థితి.", "இவை 10–14% நீர்ச்சத்து குறைவு நிலைக்கான அறிகுறிகள் — மிகவும் தீவிரமான, ஆபத்தான நிலை.", "ಇವು 10–14% ನಿರ್ಜಲೀಕರಣ ಮಟ್ಟಕ್ಕೆ ವಿವರಿಸಲಾದ ಲಕ್ಷಣಗಳು — ಬಹಳ ಗಂಭೀರ, ಅಪಾಯಕಾರಿ ಸ್ಥಿತಿ.", "ये 10–14% पानी की कमी के स्तर के लक्षण हैं — बहुत गंभीर, नाज़ुक हालत।"),
         },
       ],
     },
@@ -1856,8 +1856,8 @@ export const MODULES = [
   {
     id: "m4",
     number: 4,
-    title: L("Diseases Preventable by Vaccination"),
-    subtitle: L("The common diseases that a simple injection can prevent, and when each vaccine is due."),
+    title: L("Diseases Preventable by Vaccination", "టీకాతో నివారించగల వ్యాధులు", "தடுப்பூசியால் தடுக்கக்கூடிய நோய்கள்", "ಲಸಿಕೆಯಿಂದ ತಡೆಗಟ್ಟಬಹುದಾದ ರೋಗಗಳು", "टीकाकरण से रोकी जा सकने वाली बीमारियां"),
+    subtitle: L("The common diseases that a simple injection can prevent, and when each vaccine is due.", "సాధారణ ఇంజెక్షన్‌తో నివారించగల సాధారణ వ్యాధులు, ఏ టీకా ఎప్పుడు వేయాలో.", "எளிய ஊசி மூலம் தடுக்கக்கூடிய பொதுவான நோய்கள், மற்றும் ஒவ்வொரு தடுப்பூசியும் எப்போது வேண்டும் என்பது.", "ಸರಳ ಚುಚ್ಚುಮದ್ದಿನಿಂದ ತಡೆಗಟ್ಟಬಹುದಾದ ಸಾಮಾನ್ಯ ರೋಗಗಳು, ಮತ್ತು ಪ್ರತಿ ಲಸಿಕೆ ಯಾವಾಗ ಬೇಕು ಎಂಬುದು.", "एक साधारण इंजेक्शन से रोकी जा सकने वाली आम बीमारियां, और हर टीका कब लगना चाहिए।"),
     icon: "syringe",
     available: true,
     lessons: [
@@ -1866,27 +1866,31 @@ export const MODULES = [
   // ==================================================================
   {
     id: "m4-l1",
-    title: L("Why Vaccination Matters"),
+    title: L("Why Vaccination Matters", "టీకా ఎందుకు ముఖ్యం", "தடுப்பூசி ஏன் முக்கியம்", "ಲಸಿಕೆ ಏಕೆ ಮುಖ್ಯ", "टीकाकरण क्यों ज़रूरी है"),
     estMinutes: 9,
     hook: [
       {
         type: "hero",
-        heading: L("A Simple Injection Can Prevent a Disease Entirely"),
+        heading: L("A Simple Injection Can Prevent a Disease Entirely", "ఒక సాధారణ ఇంజెక్షన్ వ్యాధిని పూర్తిగా నివారించగలదు", "ஒரு எளிய ஊசி ஒரு நோயை முற்றிலும் தடுக்க முடியும்", "ಒಂದು ಸರಳ ಚುಚ್ಚುಮದ್ದು ಒಂದು ರೋಗವನ್ನು ಸಂಪೂರ್ಣವಾಗಿ ತಡೆಯಬಹುದು", "एक साधारण इंजेक्शन किसी बीमारी को पूरी तरह रोक सकता है"),
         text: L(
-          "Some diseases are so serious that by the time you see the signs, it may already be too late to save the animal. The good news is that many of the worst ones can be prevented completely, ahead of time, with a vaccine given on schedule. This lesson explains what a vaccine actually does, and introduces the first two diseases every ground-force worker should be able to recognise."
+          "Some diseases are so serious that by the time you see the signs, it may already be too late to save the animal. The good news is that many of the worst ones can be prevented completely, ahead of time, with a vaccine given on schedule. This lesson explains what a vaccine actually does, and introduces the first two diseases every ground-force worker should be able to recognise.",
+          "కొన్ని వ్యాధులు చాలా తీవ్రమైనవి, లక్షణాలు కనిపించేసరికే జంతువును కాపాడలేని పరిస్థితి రావచ్చు. మంచి విషయం ఏమిటంటే, అత్యంత ప్రమాదకరమైన వాటిలో చాలా వరకు షెడ్యూల్ ప్రకారం టీకా వేయడం ద్వారా ముందుగానే పూర్తిగా నివారించవచ్చు. టీకా నిజంగా ఏం చేస్తుందో ఈ పాఠం వివరిస్తుంది, ప్రతి క్షేత్రస్థాయి కార్యకర్త గుర్తించగలిగే మొదటి రెండు వ్యాధులను పరిచయం చేస్తుంది.",
+          "சில நோய்கள் மிகவும் கடுமையானவை, அறிகுறிகள் தெரியும் நேரத்திற்குள் விலங்கை காப்பாற்ற முடியாத நிலை வந்துவிடலாம். நல்ல செய்தி என்னவென்றால், மிக மோசமான நோய்களில் பலவற்றை அட்டவணைப்படி தடுப்பூசி போடுவதன் மூலம் முன்கூட்டியே முழுமையாக தடுக்க முடியும். தடுப்பூசி உண்மையில் என்ன செய்கிறது என்பதை இந்த பாடம் விளக்குகிறது, மேலும் ஒவ்வொரு கள ஊழியரும் அடையாளம் காண வேண்டிய முதல் இரண்டு நோய்களை அறிமுகப்படுத்துகிறது.",
+          "ಕೆಲವು ರೋಗಗಳು ಎಷ್ಟು ಗಂಭೀರವೆಂದರೆ, ಲಕ್ಷಣಗಳು ಕಾಣುವ ಹೊತ್ತಿಗೆ ಪ್ರಾಣಿಯನ್ನು ಉಳಿಸಲು ಈಗಾಗಲೇ ತಡವಾಗಿರಬಹುದು. ಒಳ್ಳೆಯ ಸುದ್ದಿ ಏನೆಂದರೆ, ಅತ್ಯಂತ ಕೆಟ್ಟ ರೋಗಗಳಲ್ಲಿ ಹಲವನ್ನು ವೇಳಾಪಟ್ಟಿಯ ಪ್ರಕಾರ ಲಸಿಕೆ ಕೊಡುವ ಮೂಲಕ ಮೊದಲೇ ಸಂಪೂರ್ಣವಾಗಿ ತಡೆಯಬಹುದು. ಲಸಿಕೆ ನಿಜವಾಗಿ ಏನು ಮಾಡುತ್ತದೆ ಎಂಬುದನ್ನು ಈ ಪಾಠ ವಿವರಿಸುತ್ತದೆ, ಮತ್ತು ಪ್ರತಿ ಕ್ಷೇತ್ರ ಸಿಬ್ಬಂದಿ ಗುರುತಿಸಬಲ್ಲ ಮೊದಲ ಎರಡು ರೋಗಗಳನ್ನು ಪರಿಚಯಿಸುತ್ತದೆ.",
+          "कुछ बीमारियां इतनी गंभीर होती हैं कि जब तक लक्षण दिखें, तब तक जानवर को बचाना मुश्किल हो सकता है। अच्छी बात यह है कि सबसे ख़तरनाक बीमारियों में से कई को समय पर टीका लगाकर पहले से ही पूरी तरह रोका जा सकता है। यह पाठ बताता है कि टीका असल में क्या करता है, और हर फ़ील्ड कार्यकर्ता को पहचाननी चाहिए ऐसी पहली दो बीमारियों का परिचय देता है।"
         ),
       },
     ],
     topics: [
       {
         id: "t-m4-why-vaccinate",
-        title: L("What a Vaccine Does, and What Your Role Is"),
+        title: L("What a Vaccine Does, and What Your Role Is", "టీకా ఏం చేస్తుంది, మీ పాత్ర ఏమిటి", "தடுப்பூசி என்ன செய்கிறது, உங்கள் பங்கு என்ன", "ಲಸಿಕೆ ಏನು ಮಾಡುತ್ತದೆ, ನಿಮ್ಮ ಪಾತ್ರ ಏನು", "टीका क्या करता है, और आपकी भूमिका क्या है"),
         teach: [
             {
               type: "photo",
               src: "assets/illustration-m4-vaccine-immunity.png",
-              alt: L("Illustrated three-step diagram: a vaccine being given, the body's immune cells learning to fight the germ, and the animal protected from disease."),
-              caption: L("Illustration: how a vaccine protects an animal — it teaches the body to recognise and fight a germ before the real disease ever arrives."),
+              alt: L("Illustrated three-step diagram: a vaccine being given, the body's immune cells learning to fight the germ, and the animal protected from disease.", "మూడు దశల చిత్రం: టీకా వేయడం, శరీరంలోని రోగనిరోధక కణాలు క్రిములతో పోరాడటం నేర్చుకోవడం, జంతువు వ్యాధి నుండి రక్షణ పొందడం.", "மூன்று-படி விளக்கப்படம்: தடுப்பூசி கொடுக்கப்படுவது, உடலின் நோய் எதிர்ப்பு செல்கள் கிருமியை எதிர்த்துப் போராட கற்றுக்கொள்வது, விலங்கு நோயிலிருந்து பாதுகாக்கப்படுவது.", "ಮೂರು-ಹಂತದ ಚಿತ್ರ: ಲಸಿಕೆ ಕೊಡುವುದು, ದೇಹದ ರೋಗ ನಿರೋಧಕ ಕೋಶಗಳು ಸೂಕ್ಷ್ಮಜೀವಿಯ ವಿರುದ್ಧ ಹೋರಾಡಲು ಕಲಿಯುವುದು, ಪ್ರಾಣಿ ರೋಗದಿಂದ ರಕ್ಷಿಸಲ್ಪಡುವುದು.", "तीन चरणों का चित्र: टीका लगाया जा रहा है, शरीर की रोग-प्रतिरोधक कोशिकाएं कीटाणु से लड़ना सीख रही हैं, और जानवर बीमारी से सुरक्षित हो रहा है।"),
+              caption: L("Illustration: how a vaccine protects an animal — it teaches the body to recognise and fight a germ before the real disease ever arrives.", "చిత్రం: టీకా జంతువును ఎలా రక్షిస్తుంది — నిజమైన వ్యాధి రాకముందే క్రిమిని గుర్తించి పోరాడటం శరీరానికి నేర్పుతుంది.", "விளக்கப்படம்: தடுப்பூசி விலங்கை எப்படி பாதுகாக்கிறது — உண்மையான நோய் வருவதற்கு முன்பே கிருமியை அடையாளம் கண்டு எதிர்த்துப் போராட உடலுக்கு கற்றுக்கொடுக்கிறது.", "ಚಿತ್ರ: ಲಸಿಕೆ ಪ್ರಾಣಿಯನ್ನು ಹೇಗೆ ರಕ್ಷಿಸುತ್ತದೆ — ನಿಜವಾದ ರೋಗ ಬರುವ ಮೊದಲೇ ಸೂಕ್ಷ್ಮಜೀವಿಯನ್ನು ಗುರುತಿಸಿ ಹೋರಾಡಲು ದೇಹಕ್ಕೆ ಕಲಿಸುತ್ತದೆ.", "चित्र: टीका जानवर की सुरक्षा कैसे करता है — यह असली बीमारी आने से पहले ही शरीर को कीटाणु को पहचानकर उससे लड़ना सिखाता है।"),
             },
             {
               type: "photo",
