@@ -34,9 +34,19 @@ export const MODULES = [
   {
     id: "m1",
     number: 1,
-    title: L("General Observation of an Animal"),
+    title: L(
+      "General Observation of an Animal",
+      "జంతువును సాధారణంగా పరిశీలించడం",
+      "விலங்கை பொதுவாகக் கவனித்தல்",
+      "ಪ್ರಾಣಿಯ ಸಾಮಾನ್ಯ ಪರಿಶೀಲನೆ",
+      "पशु का सामान्य अवलोकन"
+    ),
     subtitle: L(
-      "No animal or veterinary background needed. If you can watch, count on your fingers, and feel gently with your hand, you can learn to notice when something is wrong — and know exactly who to tell."
+      "No animal or veterinary background needed. If you can watch, count on your fingers, and feel gently with your hand, you can learn to notice when something is wrong — and know exactly who to tell.",
+      "జంతు లేదా పశువైద్య నేపథ్యం అవసరం లేదు. మీరు గమనించగలిగితే, వేళ్లతో లెక్కించగలిగితే, చేతితో మెల్లగా తాకి చూడగలిగితే — ఏదైనా తప్పు జరిగినప్పుడు గుర్తించడం, సరిగ్గా ఎవరికి చెప్పాలో తెలుసుకోవడం మీరు నేర్చుకోగలరు.",
+      "விலங்கு அல்லது கால்நடை மருத்துவப் பின்னணி தேவையில்லை. நீங்கள் கவனிக்கவும், விரல்களால் எண்ணவும், கையால் மெதுவாகத் தொட்டுப் பார்க்கவும் தெரிந்தால், ஏதேனும் தவறு நடக்கும்போது அதைக் கண்டறியவும், யாரிடம் சொல்ல வேண்டும் என்பதை சரியாகத் தெரிந்துகொள்ளவும் நீங்கள் கற்றுக்கொள்ளலாம்.",
+      "ಪ್ರಾಣಿ ಅಥವಾ ಪಶುವೈದ್ಯಕೀಯ ಹಿನ್ನೆಲೆ ಅಗತ್ಯವಿಲ್ಲ. ನೀವು ಗಮನಿಸಬಲ್ಲಿರಿ, ಬೆರಳುಗಳಿಂದ ಎಣಿಸಬಲ್ಲಿರಿ, ಕೈಯಿಂದ ಮೆಲ್ಲಗೆ ಮುಟ್ಟಿ ನೋಡಬಲ್ಲಿರಿ ಎಂದಾದರೆ, ಏನಾದರೂ ತಪ್ಪಾದಾಗ ಗಮನಿಸುವುದನ್ನು ಮತ್ತು ಸರಿಯಾಗಿ ಯಾರಿಗೆ ಹೇಳಬೇಕು ಎಂಬುದನ್ನು ನೀವು ಕಲಿಯಬಹುದು.",
+      "पशु या पशु चिकित्सा की किसी पूर्व जानकारी की जरूरत नहीं है। अगर आप ध्यान से देख सकते हैं, उंगलियों पर गिन सकते हैं, और हाथ से धीरे से छूकर महसूस कर सकते हैं, तो आप यह सीख सकते हैं कि कब कुछ गड़बड़ है — और ठीक-ठीक किसे बताना है।"
     ),
     icon: "stethoscope",
     available: true,
@@ -46,73 +56,179 @@ export const MODULES = [
       // ==================================================================
       {
         id: "m1-l1",
-        title: L("The Seven Questions for a Healthy Animal"),
+        title: L(
+          "The Seven Questions for a Healthy Animal",
+          "ఆరోగ్యకరమైన జంతువు కోసం ఏడు ప్రశ్నలు",
+          "ஆரோக்கியமான விலங்குக்கான ஏழு கேள்விகள்",
+          "ಆರೋಗ್ಯಕರ ಪ್ರಾಣಿಗಾಗಿ ಏಳು ಪ್ರಶ್ನೆಗಳು",
+          "स्वस्थ पशु के लिए सात सवाल"
+        ),
         estMinutes: 8,
         hook: [
           {
             type: "hero",
-            heading: L("You Don't Need to Be an Expert to Notice Trouble"),
+            heading: L(
+              "You Don't Need to Be an Expert to Notice Trouble",
+              "సమస్యను గుర్తించడానికి మీరు నిపుణులు కానవసరం లేదు",
+              "பிரச்சினையைக் கவனிக்க நீங்கள் நிபுணராக இருக்க வேண்டியதில்லை",
+              "ತೊಂದರೆಯನ್ನು ಗಮನಿಸಲು ನೀವು ತಜ್ಞರಾಗಿರಬೇಕಿಲ್ಲ",
+              "गड़बड़ी पहचानने के लिए आपका विशेषज्ञ होना जरूरी नहीं"
+            ),
             text: L(
-              "Long before any veterinarian arrives, the person who sees the animal every day can already tell something is wrong — just by watching. No equipment, no training in animal medicine, no diagnosis needed. This lesson starts from zero and teaches you exactly what to watch for."
+              "Long before any veterinarian arrives, the person who sees the animal every day can already tell something is wrong — just by watching. No equipment, no training in animal medicine, no diagnosis needed. This lesson starts from zero and teaches you exactly what to watch for.",
+              "పశువైద్యుడు రాకముందే, జంతువును ప్రతిరోజూ చూసే వ్యక్తి కేవలం చూడటం ద్వారానే ఏదో తప్పు జరిగిందని చెప్పగలరు. ఎలాంటి పరికరాలు, పశువైద్య శిక్షణ, రోగనిర్ధారణ అవసరం లేదు. ఈ పాఠం మొదటి నుండి మొదలై, సరిగ్గా ఏమి గమనించాలో నేర్పిస్తుంది.",
+              "கால்நடை மருத்துவர் வருவதற்கு முன்பே, விலங்கை தினமும் பார்க்கும் நபர் வெறும் பார்வையாலேயே ஏதோ தவறு நடந்திருப்பதைச் சொல்ல முடியும். எந்த கருவியும், கால்நடை மருத்துவப் பயிற்சியும், நோய் கண்டறிதலும் தேவையில்லை. இந்தப் பாடம் பூஜ்ஜியத்திலிருந்து தொடங்கி, சரியாக என்ன கவனிக்க வேண்டும் என்பதைக் கற்பிக்கிறது.",
+              "ಪಶುವೈದ್ಯರು ಬರುವ ಮೊದಲೇ, ಪ್ರಾಣಿಯನ್ನು ಪ್ರತಿದಿನ ನೋಡುವ ವ್ಯಕ್ತಿ ಕೇವಲ ನೋಡುವುದರಿಂದಲೇ ಏನೋ ತಪ್ಪಾಗಿದೆ ಎಂದು ಹೇಳಬಲ್ಲರು. ಯಾವುದೇ ಸಾಧನ, ಪಶುವೈದ್ಯಕೀಯ ತರಬೇತಿ, ರೋಗನಿರ್ಣಯ ಅಗತ್ಯವಿಲ್ಲ. ಈ ಪಾಠ ಮೊದಲಿನಿಂದ ಆರಂಭವಾಗಿ, ನಿಖರವಾಗಿ ಏನನ್ನು ಗಮನಿಸಬೇಕು ಎಂಬುದನ್ನು ಕಲಿಸುತ್ತದೆ.",
+              "पशु चिकित्सक के आने से बहुत पहले, जो व्यक्ति पशु को रोज़ देखता है वह केवल देखकर ही बता सकता है कि कुछ गड़बड़ है। किसी उपकरण, पशु चिकित्सा प्रशिक्षण या निदान की जरूरत नहीं। यह पाठ बिल्कुल शुरुआत से सिखाता है कि बिल्कुल क्या देखना है।"
             ),
           },
         ],
         topics: [
           {
             id: "t-seven-q-behaviour",
-            title: L("Just by Looking: Behaviour, Attitude and Condition"),
+            title: L(
+              "Just by Looking: Behaviour, Attitude and Condition",
+              "కేవలం చూడటం ద్వారా: ప్రవర్తన, వైఖరి మరియు స్థితి",
+              "பார்ப்பதன் மூலமே: நடத்தை, மனநிலை மற்றும் நிலை",
+              "ಕೇವಲ ನೋಡುವುದರಿಂದ: ವರ್ತನೆ, ಧೋರಣೆ ಮತ್ತು ಸ್ಥಿತಿ",
+              "सिर्फ देखकर: व्यवहार, रवैया और स्थिति"
+            ),
             teach: [
             {
               type: "photo",
               src: "assets/photo-m1-herd-behaviour.jpg",
-              alt: L("A herd of black-and-white dairy cows grazing calmly together in a green pasture under a dark sky."),
-              caption: L("A calm herd, grazing together normally — exactly the baseline picture Question 1 (Behaviour) asks you to compare an animal against."),
+              alt: L(
+                "A herd of black-and-white dairy cows grazing calmly together in a green pasture under a dark sky.",
+                "నల్ల-తెలుపు రంగు పాడి ఆవుల మంద ముదురు ఆకాశం కింద పచ్చిక బయళ్లలో ప్రశాంతంగా మేస్తున్న దృశ్యం.",
+                "கருப்பு-வெள்ளை பால் மாடுகளின் மந்தை இருண்ட வானத்தின் கீழ் பச்சை புல்வெளியில் அமைதியாக மேய்ந்து கொண்டிருக்கும் காட்சி.",
+                "ಕಪ್ಪು-ಬಿಳಿ ಬಣ್ಣದ ಹೈನು ಹಸುಗಳ ಗುಂಪು ಕಪ್ಪಾದ ಆಕಾಶದ ಕೆಳಗೆ ಹಸಿರು ಹುಲ್ಲುಗಾವಲಿನಲ್ಲಿ ಶಾಂತವಾಗಿ ಮೇಯುತ್ತಿರುವ ದೃಶ್ಯ.",
+                "काले-सफेद रंग की डेयरी गायों का झुंड अंधेरे आसमान के नीचे हरे चरागाह में शांति से चरता हुआ।"
+              ),
+              caption: L(
+                "A calm herd, grazing together normally — exactly the baseline picture Question 1 (Behaviour) asks you to compare an animal against.",
+                "ప్రశాంతంగా కలిసి మేస్తున్న మంద — ప్రశ్న 1 (ప్రవర్తన) మీరు ఒక జంతువును పోల్చి చూడాల్సిన సాధారణ చిత్రం ఇదే.",
+                "அமைதியாக ஒன்றாக மேயும் மந்தை — கேள்வி 1 (நடத்தை) ஒரு விலங்கை ஒப்பிட்டுப் பார்க்கச் சொல்லும் அடிப்படைக் காட்சி இதுவே.",
+                "ಶಾಂತವಾಗಿ ಒಟ್ಟಿಗೆ ಮೇಯುತ್ತಿರುವ ಗುಂಪು — ಪ್ರಶ್ನೆ 1 (ವರ್ತನೆ) ಒಂದು ಪ್ರಾಣಿಯನ್ನು ಹೋಲಿಸಿ ನೋಡಲು ಹೇಳುವ ಸಾಮಾನ್ಯ ಚಿತ್ರ ಇದೇ.",
+                "शांति से एक साथ चरता हुआ झुंड — प्रश्न 1 (व्यवहार) आपसे किसी पशु की तुलना जिस सामान्य तस्वीर से करने को कहता है, ठीक वही यह है।"
+              ),
             },
               {
                 type: "text",
-                heading: L("Start With Just Looking"),
+                heading: L(
+                  "Start With Just Looking",
+                  "కేవలం చూడటంతోనే మొదలుపెట్టండి",
+                  "பார்ப்பதிலிருந்தே தொடங்குங்கள்",
+                  "ಕೇವಲ ನೋಡುವುದರಿಂದಲೇ ಆರಂಭಿಸಿ",
+                  "सिर्फ देखने से शुरुआत करें"
+                ),
                 html: L(
-                  "Before anyone touches the animal or uses any tool, a lot can already be learned simply by watching it for a minute or two — how it stands, how it holds its body, whether it seems interested in what's going on around it. This is called <b>observation</b>, and it costs nothing and needs no equipment at all — just your eyes and a little patience."
+                  "Before anyone touches the animal or uses any tool, a lot can already be learned simply by watching it for a minute or two — how it stands, how it holds its body, whether it seems interested in what's going on around it. This is called <b>observation</b>, and it costs nothing and needs no equipment at all — just your eyes and a little patience.",
+                  "ఎవరైనా జంతువును తాకడానికి ముందు లేదా ఏదైనా పరికరం ఉపయోగించడానికి ముందు, దాన్ని ఒకటి రెండు నిమిషాలు గమనించడం ద్వారానే చాలా విషయాలు తెలుసుకోవచ్చు — అది ఎలా నిలబడుతుంది, శరీరాన్ని ఎలా ఉంచుతుంది, చుట్టూ జరుగుతున్న దాని పట్ల ఆసక్తి చూపుతుందా అని. దీన్ని <b>పరిశీలన</b> అంటారు, దీనికి ఖర్చు లేదు, ఎలాంటి పరికరం అవసరం లేదు — కేవలం మీ కళ్ళు, కొంచెం ఓపిక చాలు.",
+                  "யாரும் விலங்கைத் தொடுவதற்கு முன்பே அல்லது எந்தக் கருவியையும் பயன்படுத்துவதற்கு முன்பே, ஒன்று அல்லது இரண்டு நிமிடங்கள் அதைப் பார்ப்பதன் மூலமே நிறைய தெரிந்துகொள்ள முடியும் — அது எப்படி நிற்கிறது, உடலை எப்படி வைத்திருக்கிறது, சுற்றி நடப்பதில் அதற்கு ஆர்வம் இருக்கிறதா என்று. இதற்குப் பெயர் <b>கவனிப்பு</b>, இதற்கு எந்தச் செலவும் இல்லை, எந்தக் கருவியும் தேவையில்லை — உங்கள் கண்களும் கொஞ்சம் பொறுமையும் மட்டுமே போதும்.",
+                  "ಯಾರೂ ಪ್ರಾಣಿಯನ್ನು ಮುಟ್ಟುವ ಮೊದಲೇ ಅಥವಾ ಯಾವುದೇ ಸಾಧನ ಬಳಸುವ ಮೊದಲೇ, ಒಂದೆರಡು ನಿಮಿಷ ಅದನ್ನು ಗಮನಿಸುವುದರಿಂದಲೇ ಬಹಳಷ್ಟು ತಿಳಿದುಕೊಳ್ಳಬಹುದು — ಅದು ಹೇಗೆ ನಿಲ್ಲುತ್ತದೆ, ದೇಹವನ್ನು ಹೇಗೆ ಇಟ್ಟುಕೊಂಡಿದೆ, ಸುತ್ತಮುತ್ತ ನಡೆಯುತ್ತಿರುವುದರ ಬಗ್ಗೆ ಆಸಕ್ತಿ ತೋರಿಸುತ್ತದೆಯೇ ಎಂದು. ಇದನ್ನು <b>ಪರಿಶೀಲನೆ</b> ಎಂದು ಕರೆಯುತ್ತಾರೆ, ಇದಕ್ಕೆ ಯಾವುದೇ ಖರ್ಚಿಲ್ಲ, ಯಾವುದೇ ಸಾಧನ ಬೇಕಿಲ್ಲ — ಬರೀ ನಿಮ್ಮ ಕಣ್ಣುಗಳು ಮತ್ತು ಸ್ವಲ್ಪ ತಾಳ್ಮೆ ಸಾಕು.",
+                  "पशु को कोई छूने या कोई औजार इस्तेमाल करने से पहले ही, उसे एक-दो मिनट देखकर बहुत कुछ जाना जा सकता है — वह कैसे खड़ा है, अपने शरीर को कैसे रखता है, क्या उसे आसपास हो रही चीज़ों में दिलचस्पी है। इसे <b>अवलोकन</b> कहते हैं, और इसमें कोई खर्च नहीं, किसी उपकरण की जरूरत नहीं — बस आपकी आंखें और थोड़ा धैर्य चाहिए।"
                 ),
               },
               {
                 type: "glossary",
-                term: L("Observation"),
+                term: L(
+                  "Observation",
+                  "పరిశీలన",
+                  "கவனிப்பு",
+                  "ಪರಿಶೀಲನೆ",
+                  "अवलोकन"
+                ),
                 meaning: L(
-                  "Simply watching an animal carefully, without touching it, to notice anything that looks different from how it usually looks or behaves."
+                  "Simply watching an animal carefully, without touching it, to notice anything that looks different from how it usually looks or behaves.",
+                  "జంతువును తాకకుండా, జాగ్రత్తగా చూసి, అది సాధారణంగా కనిపించే లేదా ప్రవర్తించే విధానం కంటే భిన్నంగా ఏమైనా ఉందా అని గమనించడం.",
+                  "விலங்கைத் தொடாமல், கவனமாகப் பார்த்து, அது வழக்கமாக இருக்கும் தோற்றத்திலிருந்தோ நடத்தையிலிருந்தோ ஏதேனும் மாறுபட்டிருக்கிறதா என்று கவனிப்பது.",
+                  "ಪ್ರಾಣಿಯನ್ನು ಮುಟ್ಟದೆ, ಎಚ್ಚರಿಕೆಯಿಂದ ನೋಡಿ, ಅದು ಸಾಮಾನ್ಯವಾಗಿ ಕಾಣುವ ಅಥವಾ ವರ್ತಿಸುವ ರೀತಿಗಿಂತ ಭಿನ್ನವಾಗಿ ಏನಾದರೂ ಇದೆಯೇ ಎಂದು ಗಮನಿಸುವುದು.",
+                  "पशु को छुए बिना, ध्यान से देखकर यह देखना कि उसका सामान्य दिखने या व्यवहार करने के तरीके से कुछ अलग तो नहीं लग रहा।"
                 ),
               },
               {
                 type: "example",
-                heading: L("A Comparison You Already Understand"),
+                heading: L(
+                  "A Comparison You Already Understand",
+                  "మీకు ఇప్పటికే తెలిసిన పోలిక",
+                  "நீங்கள் ஏற்கனவே புரிந்துகொண்ட ஒரு ஒப்பீடு",
+                  "ನಿಮಗೆ ಈಗಾಗಲೇ ಗೊತ್ತಿರುವ ಒಂದು ಹೋಲಿಕೆ",
+                  "एक तुलना जिसे आप पहले से समझते हैं"
+                ),
                 text: L(
-                  "Think about how you can often tell a family member is unwell before they even say a word — they sit differently, eat a little less, seem quieter than usual. Animals show the very same kind of early signs. Learning to notice them is the same skill you already have — you're just applying it to a cow or buffalo instead of a person."
+                  "Think about how you can often tell a family member is unwell before they even say a word — they sit differently, eat a little less, seem quieter than usual. Animals show the very same kind of early signs. Learning to notice them is the same skill you already have — you're just applying it to a cow or buffalo instead of a person.",
+                  "మీ కుటుంబ సభ్యుడు ఒక్క మాట కూడా చెప్పకముందే వారు అనారోగ్యంగా ఉన్నారని మీరు తరచుగా ఎలా చెప్పగలరో ఆలోచించండి — వారు వేరేగా కూర్చుంటారు, కొంచెం తక్కువ తింటారు, మామూలు కంటే నిశ్శబ్దంగా కనిపిస్తారు. జంతువులు కూడా ఇలాంటి తొలి సంకేతాలనే చూపిస్తాయి. వాటిని గమనించడం నేర్చుకోవడం మీకు ఇప్పటికే ఉన్న నైపుణ్యమే — దాన్ని మనిషికి బదులు ఆవు లేదా గేదెకు వర్తింపజేస్తున్నారంతే.",
+                  "உங்கள் குடும்ப உறுப்பினர் ஒரு வார்த்தை கூடச் சொல்லாமலேயே அவர் உடல்நிலை சரியில்லை என்று நீங்கள் எப்படி அடிக்கடி சொல்ல முடிகிறது என்று யோசியுங்கள் — அவர் வித்தியாசமாக உட்காருகிறார், கொஞ்சம் குறைவாக சாப்பிடுகிறார், வழக்கத்தை விட அமைதியாக இருக்கிறார். விலங்குகளும் இதே போன்ற ஆரம்ப அறிகுறிகளைக் காட்டுகின்றன. அவற்றைக் கவனிக்கக் கற்றுக்கொள்வது உங்களிடம் ஏற்கனவே இருக்கும் திறமையே — அதை மனிதருக்குப் பதிலாக மாடு அல்லது எருமைக்குப் பயன்படுத்துகிறீர்கள் அவ்வளவுதான்.",
+                  "ನಿಮ್ಮ ಕುಟುಂಬದ ಸದಸ್ಯರು ಒಂದು ಮಾತೂ ಹೇಳುವ ಮೊದಲೇ ಅವರಿಗೆ ಆರೋಗ್ಯ ಸರಿಯಿಲ್ಲ ಎಂದು ನೀವು ಹೇಗೆ ಆಗಾಗ ಹೇಳಬಲ್ಲಿರಿ ಎಂದು ಯೋಚಿಸಿ — ಅವರು ಬೇರೆಯಾಗಿ ಕುಳಿತುಕೊಳ್ಳುತ್ತಾರೆ, ಸ್ವಲ್ಪ ಕಡಿಮೆ ತಿನ್ನುತ್ತಾರೆ, ಎಂದಿಗಿಂತ ಮೌನವಾಗಿ ಕಾಣುತ್ತಾರೆ. ಪ್ರಾಣಿಗಳೂ ಇದೇ ರೀತಿಯ ಆರಂಭಿಕ ಸೂಚನೆಗಳನ್ನು ತೋರಿಸುತ್ತವೆ. ಅವುಗಳನ್ನು ಗಮನಿಸುವುದನ್ನು ಕಲಿಯುವುದು ನಿಮ್ಮಲ್ಲಿ ಈಗಾಗಲೇ ಇರುವ ಕೌಶಲ್ಯವೇ — ಅದನ್ನು ವ್ಯಕ್ತಿಗೆ ಬದಲಾಗಿ ಹಸು ಅಥವಾ ಎಮ್ಮೆಗೆ ಅನ್ವಯಿಸುತ್ತಿದ್ದೀರಿ ಅಷ್ಟೆ.",
+                  "जरा सोचिए, आप कैसे अक्सर बता देते हैं कि परिवार का कोई सदस्य बिना एक शब्द कहे भी अस्वस्थ है — वह अलग तरह से बैठता है, थोड़ा कम खाता है, सामान्य से ज्यादा शांत लगता है। पशु भी बिल्कुल इसी तरह के शुरुआती संकेत दिखाते हैं। उन्हें पहचानना सीखना वही हुनर है जो आपके पास पहले से है — बस आप इसे किसी इंसान की बजाय गाय या भैंस पर लगा रहे हैं।"
                 ),
               },
               {
                 type: "glossary",
-                term: L("Herd"),
-                meaning: L("A group of cows or buffaloes that live, graze, and are milked together, usually on the same farm."),
+                term: L(
+                  "Herd",
+                  "మంద",
+                  "மந்தை",
+                  "ಹಿಂಡು",
+                  "झुंड"
+                ),
+                meaning: L(
+                  "A group of cows or buffaloes that live, graze, and are milked together, usually on the same farm.",
+                  "సాధారణంగా ఒకే వ్యవసాయ క్షేత్రంలో కలిసి జీవించే, మేసే, పాలు పితికే ఆవులు లేదా గేదెల సమూహం.",
+                  "பொதுவாக ஒரே பண்ணையில் ஒன்றாக வாழும், மேயும், பால் கறக்கப்படும் மாடுகள் அல்லது எருமைகளின் குழு.",
+                  "ಸಾಮಾನ್ಯವಾಗಿ ಒಂದೇ ಜಮೀನಿನಲ್ಲಿ ಒಟ್ಟಿಗೆ ಬದುಕುವ, ಮೇಯುವ, ಹಾಲು ಕರೆಯಲ್ಪಡುವ ಹಸುಗಳ ಅಥವಾ ಎಮ್ಮೆಗಳ ಗುಂಪು.",
+                  "गायों या भैंसों का समूह जो आमतौर पर एक ही खेत/फार्म में साथ रहते, चरते और दुहे जाते हैं।"
+                ),
               },
               {
                 type: "stat-grid",
                 items: [
                   {
-                    label: L("Question 1 — Behaviour"),
+                    label: L(
+                      "Question 1 — Behaviour",
+                      "ప్రశ్న 1 — ప్రవర్తన",
+                      "கேள்வி 1 — நடத்தை",
+                      "ಪ್ರಶ್ನೆ 1 — ವರ್ತನೆ",
+                      "प्रश्न 1 — व्यवहार"
+                    ),
                     text: L(
-                      "Is the animal acting the way it normally does with the rest of the group (the herd)? Or is it standing apart on its own, unusually quiet, or unusually restless?"
+                      "Is the animal acting the way it normally does with the rest of the group (the herd)? Or is it standing apart on its own, unusually quiet, or unusually restless?",
+                      "జంతువు మిగతా మంద (గుంపు)తో సాధారణంగా ప్రవర్తించే విధంగానే ప్రవర్తిస్తుందా? లేదా అది ఒంటరిగా దూరంగా నిలబడి, అసాధారణంగా నిశ్శబ్దంగా లేదా అసాధారణంగా చంచలంగా ఉందా?",
+                      "விலங்கு மற்ற மந்தையுடன் வழக்கம் போலவே நடந்துகொள்கிறதா? அல்லது தனியாக விலகி நின்றுகொண்டு, வழக்கத்திற்கு மாறாக அமைதியாகவோ, அமைதியின்றியோ இருக்கிறதா?",
+                      "ಪ್ರಾಣಿ ಉಳಿದ ಗುಂಪಿನೊಂದಿಗೆ ಸಾಮಾನ್ಯವಾಗಿ ವರ್ತಿಸುವಂತೆ ವರ್ತಿಸುತ್ತಿದೆಯೇ? ಅಥವಾ ಅದು ಒಂಟಿಯಾಗಿ ದೂರ ನಿಂತು, ಅಸಾಮಾನ್ಯವಾಗಿ ಮೌನವಾಗಿ ಅಥವಾ ಅಸಾಮಾನ್ಯವಾಗಿ ಚಡಪಡಿಸುತ್ತಿದೆಯೇ?",
+                      "क्या पशु बाकी झुंड के साथ हमेशा की तरह व्यवहार कर रहा है? या वह अकेला अलग खड़ा है, असामान्य रूप से शांत है, या असामान्य रूप से बेचैन है?"
                     ),
                   },
                   {
-                    label: L("Question 2 — Attitude"),
+                    label: L(
+                      "Question 2 — Attitude",
+                      "ప్రశ్న 2 — వైఖరి",
+                      "கேள்வி 2 — மனநிலை",
+                      "ಪ್ರಶ್ನೆ 2 — ಧೋರಣೆ",
+                      "प्रश्न 2 — रवैया"
+                    ),
                     text: L(
-                      "Is it holding its head, ears and tail the way it usually does? Is it walking normally, or does the way it moves look a little different today?"
+                      "Is it holding its head, ears and tail the way it usually does? Is it walking normally, or does the way it moves look a little different today?",
+                      "అది తన తల, చెవులు, తోకను మామూలుగా ఉంచే విధంగానే ఉంచుతుందా? అది మామూలుగా నడుస్తుందా, లేదా ఈరోజు కదిలే విధానం కొంచెం భిన్నంగా కనిపిస్తుందా?",
+                      "அது தலை, காதுகள், வாலை வழக்கம் போலவே வைத்திருக்கிறதா? அது வழக்கம் போல நடக்கிறதா, அல்லது இன்று அசையும் விதம் கொஞ்சம் வித்தியாசமாக இருக்கிறதா?",
+                      "ಅದು ತನ್ನ ತಲೆ, ಕಿವಿ, ಬಾಲವನ್ನು ಎಂದಿನಂತೆ ಇಟ್ಟುಕೊಂಡಿದೆಯೇ? ಅದು ಸಾಮಾನ್ಯವಾಗಿ ನಡೆಯುತ್ತಿದೆಯೇ, ಅಥವಾ ಇಂದು ಚಲಿಸುವ ರೀತಿ ಸ್ವಲ್ಪ ಭಿನ್ನವಾಗಿ ಕಾಣುತ್ತಿದೆಯೇ?",
+                      "क्या वह अपने सिर, कान और पूंछ को हमेशा की तरह रखे हुए है? क्या वह सामान्य रूप से चल रहा है, या आज उसके चलने का तरीका थोड़ा अलग लग रहा है?"
                     ),
                   },
                   {
-                    label: L("Question 3 — Condition"),
+                    label: L(
+                      "Question 3 — Condition",
+                      "ప్రశ్న 3 — శరీర స్థితి",
+                      "கேள்வி 3 — உடல் நிலை",
+                      "ಪ್ರಶ್ನೆ 3 — ದೇಹಸ್ಥಿತಿ",
+                      "प्रश्न 3 — शारीरिक स्थिति"
+                    ),
                     text: L(
-                      "Just from looking at its body — does it look neither too thin (bones sticking out sharply) nor too fat (very round and heavy all over)? You'll learn to put an exact number on this later in this module."
+                      "Just from looking at its body — does it look neither too thin (bones sticking out sharply) nor too fat (very round and heavy all over)? You'll learn to put an exact number on this later in this module.",
+                      "కేవలం దాని శరీరాన్ని చూస్తే — అది చాలా సన్నగా (ఎముకలు స్పష్టంగా బయటకు కనిపిస్తూ) లేదా చాలా బొద్దుగా (అంతటా గుండ్రంగా, బరువుగా) లేకుండా కనిపిస్తుందా? దీనికి ఖచ్చితమైన సంఖ్యను ఇవ్వడం ఈ మాడ్యూల్‌లో తరువాత నేర్చుకుంటారు.",
+                      "வெறும் உடலைப் பார்த்தே — அது மிகவும் மெலிந்ததாக (எலும்புகள் கூர்மையாகத் தெரிய) இல்லாமல் அல்லது மிகவும் கொழுத்ததாக (முழுவதும் வட்டமாக, கனமாக) இல்லாமல் இருக்கிறதா? இதற்கு ஒரு துல்லியமான எண்ணைக் கொடுக்க இந்த பிரிவில் பின்னர் கற்றுக்கொள்வீர்கள்.",
+                      "ಬರೀ ದೇಹವನ್ನು ನೋಡುವುದರಿಂದ — ಅದು ತೀರಾ ತೆಳ್ಳಗೆ (ಮೂಳೆಗಳು ಚುಚ್ಚಿಕೊಂಡಂತೆ ಕಾಣುವುದು) ಅಥವಾ ತೀರಾ ದಪ್ಪಗೆ (ಎಲ್ಲೆಡೆ ದುಂಡಗೆ, ಭಾರವಾಗಿ) ಇಲ್ಲದೆ ಕಾಣುತ್ತಿದೆಯೇ? ಇದಕ್ಕೆ ನಿಖರವಾದ ಸಂಖ್ಯೆ ನೀಡುವುದನ್ನು ಈ ಮಾಡ್ಯೂಲಿನಲ್ಲಿ ಮುಂದೆ ಕಲಿಯುವಿರಿ.",
+                      "सिर्फ शरीर देखकर — क्या वह न तो बहुत दुबला (हड्डियां साफ उभरी हुई) और न ही बहुत मोटा (हर तरफ से गोल और भारी) दिखता है? इसे सही संख्या में मापना आप इस मॉड्यूल में आगे सीखेंगे।"
                     ),
                   },
                 ],
@@ -120,121 +236,335 @@ export const MODULES = [
               {
                 type: "callout",
                 style: "tip",
-                heading: L("Your Job: Notice First, Then Tell Someone"),
+                heading: L(
+                  "Your Job: Notice First, Then Tell Someone",
+                  "మీ పని: మొదట గమనించండి, తర్వాత ఎవరికైనా చెప్పండి",
+                  "உங்கள் பணி: முதலில் கவனியுங்கள், பிறகு யாருக்காவது சொல்லுங்கள்",
+                  "ನಿಮ್ಮ ಕೆಲಸ: ಮೊದಲು ಗಮನಿಸಿ, ನಂತರ ಯಾರಿಗಾದರೂ ಹೇಳಿ",
+                  "आपका काम: पहले पहचानें, फिर किसी को बताएं"
+                ),
                 text: L(
-                  "You do not need to work out what disease it might be — that part is always the veterinarian's job. Your job is to notice that something looks different, and to tell the animal's owner or the vet right away. Even a small, early observation is genuinely useful — it can save the animal's life."
+                  "You do not need to work out what disease it might be — that part is always the veterinarian's job. Your job is to notice that something looks different, and to tell the animal's owner or the vet right away. Even a small, early observation is genuinely useful — it can save the animal's life.",
+                  "అది ఏ వ్యాధి కావచ్చో మీరు కనిపెట్టాల్సిన అవసరం లేదు — అది ఎప్పుడూ పశువైద్యుని పని. ఏదో భిన్నంగా కనిపిస్తుందని గమనించి, వెంటనే జంతువు యజమానికి లేదా వైద్యుడికి చెప్పడమే మీ పని. ఒక చిన్న, తొలి పరిశీలన కూడా నిజంగా ఉపయోగకరమైనది — అది జంతువు ప్రాణాన్ని కాపాడగలదు.",
+                  "அது என்ன நோய் என்று கண்டுபிடிக்க வேண்டியதில்லை — அது எப்போதும் கால்நடை மருத்துவரின் வேலை. ஏதோ வித்தியாசமாக இருக்கிறது என்பதைக் கவனித்து, உடனே விலங்கின் உரிமையாளரிடம் அல்லது மருத்துவரிடம் சொல்வதே உங்கள் வேலை. ஒரு சிறிய, ஆரம்பகட்டக் கவனிப்பு கூட மிகவும் பயனுள்ளது — அது விலங்கின் உயிரைக் காப்பாற்றக்கூடும்.",
+                  "ಅದು ಯಾವ ಕಾಯಿಲೆ ಎಂದು ಕಂಡುಹಿಡಿಯುವ ಅಗತ್ಯ ನಿಮಗಿಲ್ಲ — ಅದು ಯಾವಾಗಲೂ ಪಶುವೈದ್ಯರ ಕೆಲಸ. ಏನೋ ಭಿನ್ನವಾಗಿ ಕಾಣುತ್ತಿದೆ ಎಂದು ಗಮನಿಸಿ, ತಕ್ಷಣ ಪ್ರಾಣಿಯ ಮಾಲೀಕರಿಗೆ ಅಥವಾ ವೈದ್ಯರಿಗೆ ಹೇಳುವುದೇ ನಿಮ್ಮ ಕೆಲಸ. ಒಂದು ಚಿಕ್ಕ, ಆರಂಭಿಕ ಗಮನ ಕೂಡ ನಿಜವಾಗಿಯೂ ಉಪಯುಕ್ತ — ಅದು ಪ್ರಾಣಿಯ ಜೀವ ಉಳಿಸಬಹುದು.",
+                  "आपको यह पता लगाने की जरूरत नहीं कि यह कौन सी बीमारी हो सकती है — यह हमेशा पशु चिकित्सक का काम है। आपका काम है यह देखना कि कुछ अलग लग रहा है, और तुरंत पशु के मालिक या डॉक्टर को बताना। एक छोटी, शुरुआती पहचान भी सच में उपयोगी होती है — यह पशु की जान बचा सकती है।"
                 ),
               },
             ],
             check: [
               {
                 type: "mcq",
-                q: L("What does 'observation' mean in this lesson?"),
+                q: L(
+                  "What does 'observation' mean in this lesson?",
+                  "ఈ పాఠంలో 'పరిశీలన' అంటే ఏమిటి?",
+                  "இந்தப் பாடத்தில் 'கவனிப்பு' என்றால் என்ன?",
+                  "ಈ ಪಾಠದಲ್ಲಿ 'ಪರಿಶೀಲನೆ' ಎಂದರೆ ಏನು?",
+                  "इस पाठ में 'अवलोकन' का क्या मतलब है?"
+                ),
                 options: [
-                  L("Giving the animal medicine"),
-                  L("Watching the animal carefully, without touching it"),
-                  L("Milking the animal"),
-                  L("Feeding the animal extra food"),
+                  L(
+                    "Giving the animal medicine",
+                    "జంతువుకు మందు ఇవ్వడం",
+                    "விலங்குக்கு மருந்து கொடுப்பது",
+                    "ಪ್ರಾಣಿಗೆ ಔಷಧಿ ನೀಡುವುದು",
+                    "पशु को दवा देना"
+                  ),
+                  L(
+                    "Watching the animal carefully, without touching it",
+                    "జంతువును తాకకుండా, జాగ్రత్తగా చూడటం",
+                    "விலங்கைத் தொடாமல் கவனமாகப் பார்ப்பது",
+                    "ಪ್ರಾಣಿಯನ್ನು ಮುಟ್ಟದೆ, ಎಚ್ಚರಿಕೆಯಿಂದ ಗಮನಿಸುವುದು",
+                    "पशु को बिना छुए ध्यान से देखना"
+                  ),
+                  L(
+                    "Milking the animal",
+                    "జంతువును పితకడం",
+                    "விலங்கிடம் பால் கறத்தல்",
+                    "ಪ್ರಾಣಿಯ ಹಾಲು ಕರೆಯುವುದು",
+                    "पशु का दूध निकालना"
+                  ),
+                  L(
+                    "Feeding the animal extra food",
+                    "జంతువుకు అదనపు ఆహారం పెట్టడం",
+                    "விலங்குக்கு கூடுதல் உணவு கொடுப்பது",
+                    "ಪ್ರಾಣಿಗೆ ಹೆಚ್ಚುವರಿ ಆಹಾರ ನೀಡುವುದು",
+                    "पशु को अतिरिक्त चारा देना"
+                  ),
                 ],
                 answer: 1,
-                explain: L("Observation simply means watching carefully, with no touching and no equipment — just your eyes and a little time."),
+                explain: L(
+                  "Observation simply means watching carefully, with no touching and no equipment — just your eyes and a little time.",
+                  "పరిశీలన అంటే తాకకుండా, ఎలాంటి పరికరం లేకుండా జాగ్రత్తగా చూడటం — కేవలం మీ కళ్ళు, కొంచెం సమయం చాలు.",
+                  "கவனிப்பு என்றால் தொடாமல், எந்தக் கருவியும் இல்லாமல் கவனமாகப் பார்ப்பது — உங்கள் கண்களும் கொஞ்சம் நேரமும் மட்டுமே போதும்.",
+                  "ಪರಿಶೀಲನೆ ಎಂದರೆ ಮುಟ್ಟದೆ, ಯಾವುದೇ ಸಾಧನವಿಲ್ಲದೆ ಎಚ್ಚರಿಕೆಯಿಂದ ಗಮನಿಸುವುದು — ಬರೀ ನಿಮ್ಮ ಕಣ್ಣುಗಳು ಮತ್ತು ಸ್ವಲ್ಪ ಸಮಯ ಸಾಕು.",
+                  "अवलोकन का मतलब है बिना छुए, बिना किसी उपकरण के ध्यान से देखना — बस आपकी आंखें और थोड़ा समय चाहिए।"
+                ),
               },
               {
                 type: "truefalse",
-                q: L("If you notice something looks different about an animal, it is your job to first work out exactly what disease it has."),
+                q: L(
+                  "If you notice something looks different about an animal, it is your job to first work out exactly what disease it has.",
+                  "జంతువులో ఏదైనా భిన్నంగా కనిపిస్తే, అది ఏ వ్యాధో ముందుగా కనిపెట్టడం మీ పని.",
+                  "ஒரு விலங்கில் ஏதேனும் மாறுபட்டதைக் கவனித்தால், அது எந்த நோய் என்று முதலில் கண்டுபிடிப்பது உங்கள் வேலை.",
+                  "ಪ್ರಾಣಿಯಲ್ಲಿ ಏನಾದರೂ ಭಿನ್ನವಾಗಿ ಕಂಡರೆ, ಅದಕ್ಕೆ ಯಾವ ಕಾಯಿಲೆ ಎಂದು ಮೊದಲು ಕಂಡುಹಿಡಿಯುವುದು ನಿಮ್ಮ ಕೆಲಸ.",
+                  "अगर आपको पशु में कुछ अलग दिखे, तो सबसे पहले यह पता लगाना आपका काम है कि उसे बिल्कुल कौन सी बीमारी है।"
+                ),
                 answer: false,
                 explain: L(
-                  "No — your job is only to notice and report. Working out what disease it is, and what to do about it, is always the veterinarian's job."
+                  "No — your job is only to notice and report. Working out what disease it is, and what to do about it, is always the veterinarian's job.",
+                  "కాదు — మీ పని కేవలం గమనించి, తెలియజేయడమే. అది ఏ వ్యాధో, దానికి ఏమి చేయాలో నిర్ణయించడం ఎప్పుడూ పశువైద్యుని పని.",
+                  "இல்லை — உங்கள் வேலை வெறும் கவனித்து தெரிவிப்பது மட்டுமே. அது என்ன நோய், அதற்கு என்ன செய்ய வேண்டும் என்று முடிவெடுப்பது எப்போதும் கால்நடை மருத்துவரின் வேலை.",
+                  "ಇಲ್ಲ — ನಿಮ್ಮ ಕೆಲಸ ಕೇವಲ ಗಮನಿಸಿ ತಿಳಿಸುವುದು ಮಾತ್ರ. ಅದು ಯಾವ ಕಾಯಿಲೆ, ಅದಕ್ಕೆ ಏನು ಮಾಡಬೇಕು ಎಂದು ನಿರ್ಧರಿಸುವುದು ಯಾವಾಗಲೂ ಪಶುವೈದ್ಯರ ಕೆಲಸ.",
+                  "नहीं — आपका काम केवल पहचानना और बताना है। यह कौन सी बीमारी है और इसका क्या इलाज करना है, यह तय करना हमेशा पशु चिकित्सक का काम है।"
                 ),
               },
             ],
           },
           {
             id: "t-seven-q-function",
-            title: L("What Goes In and What Comes Out"),
+            title: L(
+              "What Goes In and What Comes Out",
+              "లోపలికి ఏమి వెళ్తుంది, బయటకు ఏమి వస్తుంది",
+              "உள்ளே செல்வது என்ன, வெளியே வருவது என்ன",
+              "ಒಳಗೆ ಏನು ಹೋಗುತ್ತದೆ, ಹೊರಗೆ ಏನು ಬರುತ್ತದೆ",
+              "अंदर क्या जाता है, बाहर क्या आता है"
+            ),
             teach: [
               {
                 type: "text",
-                heading: L("Why This Part Matters"),
+                heading: L(
+                  "Why This Part Matters",
+                  "ఈ భాగం ఎందుకు ముఖ్యమైనది",
+                  "இந்தப் பகுதி ஏன் முக்கியம்",
+                  "ಈ ಭಾಗ ಏಕೆ ಮುಖ್ಯ",
+                  "यह हिस्सा क्यों जरूरी है"
+                ),
                 html: L(
-                  "The first three questions were about how the animal looks. These next four are about how its body is actually working on the inside — is it eating properly, passing waste normally, and (if it's being milked) still giving roughly the same amount of milk as before."
+                  "The first three questions were about how the animal looks. These next four are about how its body is actually working on the inside — is it eating properly, passing waste normally, and (if it's being milked) still giving roughly the same amount of milk as before.",
+                  "మొదటి మూడు ప్రశ్నలు జంతువు ఎలా కనిపిస్తుందనే దాని గురించి. ఈ తరువాతి నాలుగు దాని శరీరం లోపల నిజంగా ఎలా పనిచేస్తుందనే దాని గురించి — అది సరిగ్గా తింటుందా, సాధారణంగా విసర్జిస్తుందా, (పాలు పితికేదైతే) ఇంతకుముందు ఇచ్చినంత పాలే ఇస్తుందా అని.",
+                  "முதல் மூன்று கேள்விகள் விலங்கு எப்படித் தெரிகிறது என்பது பற்றியவை. இந்த அடுத்த நான்கு கேள்விகள் அதன் உடல் உள்ளே உண்மையில் எப்படி வேலை செய்கிறது என்பது பற்றியவை — அது சரியாக சாப்பிடுகிறதா, சாதாரணமாக கழிவு கழிக்கிறதா, (பால் கறக்கப்படும் விலங்கு எனில்) முன்பு போலவே தோராயமாக அதே அளவு பால் தருகிறதா என்று.",
+                  "ಮೊದಲ ಮೂರು ಪ್ರಶ್ನೆಗಳು ಪ್ರಾಣಿ ಹೇಗೆ ಕಾಣುತ್ತದೆ ಎಂಬುದರ ಬಗ್ಗೆ. ಈ ಮುಂದಿನ ನಾಲ್ಕು ಪ್ರಶ್ನೆಗಳು ಅದರ ದೇಹ ಒಳಗೆ ನಿಜವಾಗಿಯೂ ಹೇಗೆ ಕೆಲಸ ಮಾಡುತ್ತಿದೆ ಎಂಬುದರ ಬಗ್ಗೆ — ಅದು ಸರಿಯಾಗಿ ತಿನ್ನುತ್ತಿದೆಯೇ, ಸಾಮಾನ್ಯವಾಗಿ ಮಲ-ಮೂತ್ರ ವಿಸರ್ಜನೆ ಮಾಡುತ್ತಿದೆಯೇ, (ಹಾಲು ಕರೆಯುವ ಪ್ರಾಣಿಯಾಗಿದ್ದರೆ) ಮೊದಲಿನಂತೆಯೇ ಸುಮಾರು ಅಷ್ಟೇ ಹಾಲು ಕೊಡುತ್ತಿದೆಯೇ ಎಂದು.",
+                  "पहले तीन सवाल इस बारे में थे कि पशु कैसा दिखता है। अगले चार सवाल इस बारे में हैं कि उसका शरीर अंदर से असल में कैसे काम कर रहा है — क्या वह सही से खा रहा है, सामान्य रूप से मल-मूत्र त्याग रहा है, और (अगर दूध देने वाला पशु है) क्या वह अब भी पहले जितना ही दूध दे रहा है।"
                 ),
               },
               {
                 type: "glossary",
-                term: L("Ruminate / Chewing the Cud"),
+                term: L(
+                  "Ruminate / Chewing the Cud",
+                  "నెమరు వేయడం",
+                  "அசைபோடுதல்",
+                  "ಮೆಲುಕು ಹಾಕುವುದು",
+                  "जुगाली करना"
+                ),
                 meaning: L(
-                  "Cows and buffaloes have a special kind of stomach. After they swallow grass or feed, they often bring a little of it back up into their mouth to chew it again slowly, while sitting calmly and resting. This is completely normal — it's called ruminating, or 'chewing the cud'. You have probably already seen an animal doing this without knowing what it was called."
+                  "Cows and buffaloes have a special kind of stomach. After they swallow grass or feed, they often bring a little of it back up into their mouth to chew it again slowly, while sitting calmly and resting. This is completely normal — it's called ruminating, or 'chewing the cud'. You have probably already seen an animal doing this without knowing what it was called.",
+                  "ఆవులు, గేదెలకు ప్రత్యేకమైన రకమైన కడుపు ఉంటుంది. అవి గడ్డి లేదా మేత మింగిన తర్వాత, తరచుగా కొంచెం తిరిగి నోటిలోకి తెచ్చుకుని, ప్రశాంతంగా కూర్చుని విశ్రాంతి తీసుకుంటూ నెమ్మదిగా మళ్ళీ నమలుతాయి. ఇది పూర్తిగా సాధారణమే — దీన్నే నెమరు వేయడం అంటారు. దీని పేరు తెలియకపోయినా, జంతువు ఇలా చేయడం మీరు ఇప్పటికే చూసి ఉంటారు.",
+                  "மாடுகள் மற்றும் எருமைகளுக்கு ஒரு சிறப்பு வகை வயிறு உள்ளது. அவை புல் அல்லது தீவனத்தை விழுங்கிய பிறகு, அமைதியாக அமர்ந்து ஓய்வெடுத்தபடி, மீண்டும் மெதுவாக மென்று சாப்பிட அதை வாய்க்குக் கொஞ்சம் திருப்பி கொண்டு வருகின்றன. இது முற்றிலும் இயல்பானது — இதற்குப் பெயர் அசைபோடுதல். இதன் பெயர் தெரியாமலேயே ஒரு விலங்கு இப்படிச் செய்வதை நீங்கள் ஏற்கனவே பார்த்திருக்கலாம்.",
+                  "ಹಸು ಮತ್ತು ಎಮ್ಮೆಗಳಿಗೆ ವಿಶೇಷ ರೀತಿಯ ಹೊಟ್ಟೆ ಇರುತ್ತದೆ. ಅವು ಹುಲ್ಲು ಅಥವಾ ಮೇವನ್ನು ನುಂಗಿದ ನಂತರ, ಸಾಮಾನ್ಯವಾಗಿ ಸ್ವಲ್ಪವನ್ನು ಮತ್ತೆ ಬಾಯಿಗೆ ತಂದು, ಶಾಂತವಾಗಿ ಕುಳಿತು ವಿಶ್ರಾಂತಿ ಪಡೆಯುತ್ತಾ ನಿಧಾನವಾಗಿ ಮತ್ತೆ ಅಗಿಯುತ್ತವೆ. ಇದು ಸಂಪೂರ್ಣವಾಗಿ ಸಾಮಾನ್ಯ — ಇದನ್ನು ಮೆಲುಕು ಹಾಕುವುದು ಎಂದು ಕರೆಯುತ್ತಾರೆ. ಇದರ ಹೆಸರು ತಿಳಿಯದೆಯೇ ಪ್ರಾಣಿ ಹೀಗೆ ಮಾಡುವುದನ್ನು ನೀವು ಈಗಾಗಲೇ ನೋಡಿರಬಹುದು.",
+                  "गाय और भैंस का पेट खास तरह का होता है। घास या चारा निगलने के बाद, वे अक्सर उसमें से थोड़ा वापस मुंह में लाकर, शांति से बैठकर आराम करते हुए धीरे-धीरे दोबारा चबाती हैं। यह पूरी तरह सामान्य है — इसे जुगाली करना कहते हैं। आपने शायद पहले भी किसी पशु को ऐसा करते देखा होगा, बिना यह जाने कि इसे क्या कहते हैं।"
                 ),
               },
               {
                 type: "stat-grid",
                 items: [
                   {
-                    label: L("Question 4 — Eating"),
-                    text: L("Is it eating and drinking normally, and does it look like it's chewing the cud (see above) the way it usually does?"),
-                  },
-                  {
-                    label: L("Question 5 — Waste"),
+                    label: L(
+                      "Question 4 — Eating",
+                      "ప్రశ్న 4 — తినడం",
+                      "கேள்வி 4 — சாப்பிடுதல்",
+                      "ಪ್ರಶ್ನೆ 4 — ತಿನ್ನುವುದು",
+                      "प्रश्न 4 — खाना"
+                    ),
                     text: L(
-                      "Is it urinating and passing dung normally — not clearly more or less than usual, and not looking unusual in any way?"
+                      "Is it eating and drinking normally, and does it look like it's chewing the cud (see above) the way it usually does?",
+                      "అది సాధారణంగా తింటుందా, తాగుతుందా, మామూలుగా నెమరు వేస్తున్నట్టు కనిపిస్తుందా (పైన చూడండి)?",
+                      "அது சாதாரணமாக சாப்பிட்டு, குடித்து, வழக்கம் போல அசைபோடுவது போல் தெரிகிறதா (மேலே பார்க்கவும்)?",
+                      "ಅದು ಸಾಮಾನ್ಯವಾಗಿ ತಿನ್ನುತ್ತಿದೆಯೇ, ಕುಡಿಯುತ್ತಿದೆಯೇ, ಎಂದಿನಂತೆ ಮೆಲುಕು ಹಾಕುತ್ತಿರುವಂತೆ ಕಾಣುತ್ತಿದೆಯೇ (ಮೇಲೆ ನೋಡಿ)?",
+                      "क्या वह सामान्य रूप से खा-पी रहा है, और क्या वह हमेशा की तरह जुगाली करता हुआ दिख रहा है (ऊपर देखें)?"
                     ),
                   },
                   {
-                    label: L("Question 6 — Milk"),
-                    text: L("If it's a milking animal, is it still giving roughly the same amount of milk as it has over the last few days?"),
+                    label: L(
+                      "Question 5 — Waste",
+                      "ప్రశ్న 5 — విసర్జన",
+                      "கேள்வி 5 — கழிவு",
+                      "ಪ್ರಶ್ನೆ 5 — ವಿಸರ್ಜನೆ",
+                      "प्रश्न 5 — मल-मूत्र"
+                    ),
+                    text: L(
+                      "Is it urinating and passing dung normally — not clearly more or less than usual, and not looking unusual in any way?",
+                      "అది సాధారణంగా మూత్రవిసర్జన, మలవిసర్జన చేస్తుందా — మామూలు కంటే స్పష్టంగా ఎక్కువ లేదా తక్కువ కాకుండా, ఏ విధంగానూ అసాధారణంగా కనిపించకుండా?",
+                      "அது சாதாரணமாக சிறுநீர் கழித்து, மலம் கழிக்கிறதா — வழக்கத்தை விட தெளிவாக அதிகமாகவோ குறைவாகவோ இல்லாமல், எந்த வகையிலும் அசாதாரணமாகத் தெரியாமல்?",
+                      "ಅದು ಸಾಮಾನ್ಯವಾಗಿ ಮೂತ್ರ ಮತ್ತು ಮಲ ವಿಸರ್ಜನೆ ಮಾಡುತ್ತಿದೆಯೇ — ಎಂದಿಗಿಂತ ಸ್ಪಷ್ಟವಾಗಿ ಹೆಚ್ಚು ಅಥವಾ ಕಡಿಮೆ ಇಲ್ಲದೆ, ಯಾವುದೇ ರೀತಿಯಲ್ಲಿ ಅಸಾಮಾನ್ಯವಾಗಿ ಕಾಣದೆ?",
+                      "क्या वह सामान्य रूप से पेशाब और गोबर कर रहा है — सामान्य से साफ तौर पर ज्यादा या कम नहीं, और किसी भी तरह से असामान्य नहीं दिख रहा?"
+                    ),
                   },
                   {
-                    label: L("Question 7 — Anything Else"),
+                    label: L(
+                      "Question 6 — Milk",
+                      "ప్రశ్న 6 — పాలు",
+                      "கேள்வி 6 — பால்",
+                      "ಪ್ರಶ್ನೆ 6 — ಹಾಲು",
+                      "प्रश्न 6 — दूध"
+                    ),
                     text: L(
-                      "Is there anything else at all that looks unusual — swelling anywhere, discharge from the eyes or nose, limping, coughing?"
+                      "If it's a milking animal, is it still giving roughly the same amount of milk as it has over the last few days?",
+                      "అది పాలు పితికే జంతువైతే, గత కొన్ని రోజులుగా ఇచ్చినంత పాలే ఇప్పటికీ ఇస్తుందా?",
+                      "அது பால் கறக்கப்படும் விலங்கு எனில், கடந்த சில நாட்களாக தந்த அளவே இப்போதும் தோராயமாக பால் தருகிறதா?",
+                      "ಅದು ಹಾಲು ಕರೆಯುವ ಪ್ರಾಣಿಯಾಗಿದ್ದರೆ, ಕಳೆದ ಕೆಲವು ದಿನಗಳಂತೆ ಈಗಲೂ ಸುಮಾರು ಅಷ್ಟೇ ಹಾಲು ಕೊಡುತ್ತಿದೆಯೇ?",
+                      "अगर वह दूध देने वाला पशु है, तो क्या वह अब भी पिछले कुछ दिनों जितना ही दूध दे रहा है?"
+                    ),
+                  },
+                  {
+                    label: L(
+                      "Question 7 — Anything Else",
+                      "ప్రశ్న 7 — మరేదైనా",
+                      "கேள்வி 7 — வேறு ஏதேனும்",
+                      "ಪ್ರಶ್ನೆ 7 — ಬೇರೇನಾದರೂ",
+                      "प्रश्न 7 — कुछ और"
+                    ),
+                    text: L(
+                      "Is there anything else at all that looks unusual — swelling anywhere, discharge from the eyes or nose, limping, coughing?",
+                      "ఇంకా ఏదైనా అసాధారణంగా కనిపిస్తుందా — ఎక్కడైనా వాపు, కళ్ళు లేదా ముక్కు నుండి స్రావం, కుంటడం, దగ్గు?",
+                      "வேறு ஏதேனும் அசாதாரணமாகத் தெரிகிறதா — எங்காவது வீக்கம், கண் அல்லது மூக்கிலிருந்து சுரப்பு, நொண்டுதல், இருமல்?",
+                      "ಇನ್ಯಾವುದಾದರೂ ಅಸಾಮಾನ್ಯವಾಗಿ ಕಾಣುತ್ತಿದೆಯೇ — ಎಲ್ಲಾದರೂ ಊತ, ಕಣ್ಣು ಅಥವಾ ಮೂಗಿನಿಂದ ಸ್ರಾವ, ಕುಂಟುವುದು, ಕೆಮ್ಮು?",
+                      "क्या कुछ और भी असामान्य दिख रहा है — कहीं सूजन, आंख या नाक से स्राव, लंगड़ाना, खांसी?"
                     ),
                   },
                 ],
               },
               {
                 type: "example",
-                heading: L("Putting Two Signs Together"),
+                heading: L(
+                  "Putting Two Signs Together",
+                  "రెండు సంకేతాలను కలిపి చూడటం",
+                  "இரண்டு அறிகுறிகளை இணைத்துப் பார்த்தல்",
+                  "ಎರಡು ಸೂಚನೆಗಳನ್ನು ಒಟ್ಟುಗೂಡಿಸಿ ನೋಡುವುದು",
+                  "दो संकेतों को साथ में देखना"
+                ),
                 text: L(
-                  "Imagine a cow that was eating normally yesterday, but today leaves her feed untouched and is standing apart from the other cows. That's two separate warning signs happening together — how she's acting (Question 1) AND whether she's eating (Question 4). When two signs show up at the same time, treat it as more serious, and tell someone straight away rather than waiting to see what happens."
+                  "Imagine a cow that was eating normally yesterday, but today leaves her feed untouched and is standing apart from the other cows. That's two separate warning signs happening together — how she's acting (Question 1) AND whether she's eating (Question 4). When two signs show up at the same time, treat it as more serious, and tell someone straight away rather than waiting to see what happens.",
+                  "నిన్న సాధారణంగా తిన్న ఒక ఆవు, ఈరోజు తన మేతను తాకకుండా వదిలి, మిగతా ఆవుల నుండి దూరంగా నిలబడి ఉందని ఊహించండి. ఇది ఒకేసారి జరిగే రెండు వేర్వేరు హెచ్చరిక సంకేతాలు — అది ఎలా ప్రవర్తిస్తుంది (ప్రశ్న 1) మరియు అది తింటుందా లేదా (ప్రశ్న 4). రెండు సంకేతాలు ఒకేసారి కనిపిస్తే, దాన్ని మరింత తీవ్రమైనదిగా భావించి, ఏమి జరుగుతుందో చూడటానికి వేచి ఉండకుండా వెంటనే ఎవరికైనా చెప్పండి.",
+                  "நேற்று சாதாரணமாக சாப்பிட்ட ஒரு பசு, இன்று தன் தீவனத்தைத் தொடாமல் விட்டுவிட்டு, மற்ற பசுக்களிலிருந்து விலகி நிற்பதாக கற்பனை செய்யுங்கள். இது ஒரே நேரத்தில் நடக்கும் இரண்டு தனித்தனி எச்சரிக்கை அறிகுறிகள் — அது எப்படி நடந்துகொள்கிறது (கேள்வி 1) மற்றும் அது சாப்பிடுகிறதா இல்லையா (கேள்வி 4). இரண்டு அறிகுறிகளும் ஒரே நேரத்தில் தோன்றினால், அதை அதிக தீவிரமானதாகக் கருதி, என்ன நடக்கிறது என்று பார்க்க காத்திராமல் உடனே யாருக்காவது சொல்லுங்கள்.",
+                  "ನಿನ್ನೆ ಸಾಮಾನ್ಯವಾಗಿ ತಿಂದ ಹಸು, ಇಂದು ತನ್ನ ಮೇವನ್ನು ಮುಟ್ಟದೆ ಬಿಟ್ಟು, ಉಳಿದ ಹಸುಗಳಿಂದ ದೂರ ನಿಂತಿದೆ ಎಂದು ಊಹಿಸಿ. ಇದು ಒಟ್ಟಿಗೆ ನಡೆಯುತ್ತಿರುವ ಎರಡು ಪ್ರತ್ಯೇಕ ಎಚ್ಚರಿಕೆ ಸೂಚನೆಗಳು — ಅದು ಹೇಗೆ ವರ್ತಿಸುತ್ತಿದೆ (ಪ್ರಶ್ನೆ 1) ಮತ್ತು ಅದು ತಿನ್ನುತ್ತಿದೆಯೇ (ಪ್ರಶ್ನೆ 4). ಎರಡು ಸೂಚನೆಗಳು ಒಂದೇ ಸಮಯದಲ್ಲಿ ಕಂಡುಬಂದಾಗ, ಅದನ್ನು ಹೆಚ್ಚು ಗಂಭೀರವಾಗಿ ಪರಿಗಣಿಸಿ, ಏನಾಗುತ್ತದೆ ಎಂದು ಕಾಯದೆ ತಕ್ಷಣ ಯಾರಿಗಾದರೂ ಹೇಳಿ.",
+                  "कल्पना कीजिए एक गाय जो कल सामान्य रूप से खा रही थी, लेकिन आज अपना चारा बिना छुए छोड़ देती है और बाकी गायों से अलग खड़ी है। यह एक साथ हो रहे दो अलग-अलग चेतावनी संकेत हैं — वह कैसा व्यवहार कर रही है (प्रश्न 1) और क्या वह खा रही है (प्रश्न 4)। जब दो संकेत एक साथ दिखें, तो इसे ज्यादा गंभीर मानें, और क्या होता है यह देखने का इंतजार करने की बजाय तुरंत किसी को बताएं।"
                 ),
               },
               {
                 type: "callout",
                 style: "warning",
-                heading: L("A Sudden Drop in Milk Is a Big Deal"),
+                heading: L(
+                  "A Sudden Drop in Milk Is a Big Deal",
+                  "పాలలో అకస్మాత్తుగా తగ్గుదల పెద్ద విషయం",
+                  "பாலில் திடீர் குறைவு ஒரு பெரிய விஷயம்",
+                  "ಹಾಲಿನಲ್ಲಿ ಹಠಾತ್ ಇಳಿಕೆ ಒಂದು ದೊಡ್ಡ ವಿಷಯ",
+                  "दूध में अचानक कमी एक बड़ी बात है"
+                ),
                 text: L(
-                  "A sudden drop in milk is very often the FIRST sign that a milking animal is unwell — sometimes it shows up before the animal looks sick in any other way at all. Don't wait for more signs to appear. If you notice it, report it the same day."
+                  "A sudden drop in milk is very often the FIRST sign that a milking animal is unwell — sometimes it shows up before the animal looks sick in any other way at all. Don't wait for more signs to appear. If you notice it, report it the same day.",
+                  "పాలలో అకస్మాత్తు తగ్గుదల పాలు పితికే జంతువు అనారోగ్యంగా ఉందని చాలా తరచుగా మొదటి సంకేతం — కొన్నిసార్లు ఇది జంతువు మరే విధంగానూ అనారోగ్యంగా కనిపించకముందే వస్తుంది. మరిన్ని సంకేతాల కోసం వేచి ఉండకండి. మీరు గమనిస్తే, అదే రోజు తెలియజేయండి.",
+                  "பாலில் திடீர் குறைவு பால் கறக்கப்படும் விலங்கு உடல்நிலை சரியில்லாமல் இருப்பதற்கான முதல் அறிகுறியாக அடிக்கடி இருக்கும் — சில நேரங்களில் இது விலங்கு வேறு எந்த வகையிலும் நோய்வாய்ப்பட்டதாகத் தெரிவதற்கு முன்பே தோன்றும். மேலும் அறிகுறிகள் தோன்றும் வரை காத்திருக்க வேண்டாம். நீங்கள் கவனித்தால், அதே நாளில் தெரிவியுங்கள்.",
+                  "ಹಾಲಿನಲ್ಲಿ ಹಠಾತ್ ಇಳಿಕೆ ಹಾಲು ಕರೆಯುವ ಪ್ರಾಣಿಗೆ ಆರೋಗ್ಯ ಸರಿಯಿಲ್ಲ ಎಂಬುದರ ಬಹಳ ಮಟ್ಟಿಗೆ ಮೊದಲ ಸೂಚನೆ — ಕೆಲವೊಮ್ಮೆ ಇದು ಪ್ರಾಣಿ ಬೇರೆ ಯಾವುದೇ ರೀತಿಯಲ್ಲಿ ಅನಾರೋಗ್ಯದಂತೆ ಕಾಣುವ ಮೊದಲೇ ಕಾಣಿಸಿಕೊಳ್ಳುತ್ತದೆ. ಇನ್ನಷ್ಟು ಸೂಚನೆಗಳಿಗಾಗಿ ಕಾಯಬೇಡಿ. ನೀವು ಗಮನಿಸಿದರೆ, ಅದೇ ದಿನ ತಿಳಿಸಿ.",
+                  "दूध में अचानक कमी अक्सर पहला संकेत होता है कि दूध देने वाला पशु अस्वस्थ है — कभी-कभी यह पशु के किसी और तरह से बीमार दिखने से पहले ही दिख जाता है। और संकेतों के आने का इंतजार न करें। अगर आपको यह दिखे, तो उसी दिन बता दें।"
                 ),
               },
             ],
             check: [
               {
                 type: "mcq",
-                q: L("What does 'ruminating' or 'chewing the cud' mean?"),
+                q: L(
+                  "What does 'ruminating' or 'chewing the cud' mean?",
+                  "'నెమరు వేయడం' అంటే ఏమిటి?",
+                  "'அசைபோடுதல்' என்றால் என்ன?",
+                  "'ಮೆಲುಕು ಹಾಕುವುದು' ಎಂದರೆ ಏನು?",
+                  "'जुगाली करना' का क्या मतलब है?"
+                ),
                 options: [
-                  L("The animal is in pain"),
-                  L("The animal brings swallowed feed back up to chew it again, calmly, while resting"),
-                  L("The animal is refusing to eat"),
-                  L("The animal is giving milk"),
+                  L(
+                    "The animal is in pain",
+                    "జంతువు నొప్పితో ఉంది",
+                    "விலங்கு வலியில் இருக்கிறது",
+                    "ಪ್ರಾಣಿ ನೋವಿನಲ್ಲಿದೆ",
+                    "पशु दर्द में है"
+                  ),
+                  L(
+                    "The animal brings swallowed feed back up to chew it again, calmly, while resting",
+                    "మింగిన మేతను తిరిగి తెచ్చుకుని, విశ్రాంతి తీసుకుంటూ ప్రశాంతంగా మళ్ళీ నమలడం",
+                    "விழுங்கிய தீவனத்தை மீண்டும் மென்று சாப்பிட, ஓய்வெடுத்தபடி அமைதியாக மேலே கொண்டு வருகிறது",
+                    "ನುಂಗಿದ ಮೇವನ್ನು ಮತ್ತೆ ಅಗಿಯಲು, ವಿಶ್ರಾಂತಿ ಪಡೆಯುತ್ತಾ ಶಾಂತವಾಗಿ ಮೇಲಕ್ಕೆ ತರುತ್ತದೆ",
+                    "निगला हुआ चारा वापस लाकर, आराम करते हुए शांति से दोबारा चबाना"
+                  ),
+                  L(
+                    "The animal is refusing to eat",
+                    "జంతువు తినడానికి నిరాకరిస్తుంది",
+                    "விலங்கு சாப்பிட மறுக்கிறது",
+                    "ಪ್ರಾಣಿ ತಿನ್ನಲು ನಿರಾಕರಿಸುತ್ತಿದೆ",
+                    "पशु खाने से इनकार कर रहा है"
+                  ),
+                  L(
+                    "The animal is giving milk",
+                    "జంతువు పాలు ఇస్తుంది",
+                    "விலங்கு பால் தருகிறது",
+                    "ಪ್ರಾಣಿ ಹಾಲು ಕೊಡುತ್ತಿದೆ",
+                    "पशु दूध दे रहा है"
+                  ),
                 ],
                 answer: 1,
                 explain: L(
-                  "Ruminating is a completely normal, healthy behaviour — bringing food back up from the stomach to chew it a second time while resting."
+                  "Ruminating is a completely normal, healthy behaviour — bringing food back up from the stomach to chew it a second time while resting.",
+                  "నెమరు వేయడం పూర్తిగా సాధారణమైన, ఆరోగ్యకరమైన ప్రవర్తన — విశ్రాంతి తీసుకుంటూ కడుపు నుండి ఆహారాన్ని రెండోసారి నమలడానికి తిరిగి తీసుకురావడం.",
+                  "அசைபோடுதல் என்பது முற்றிலும் இயல்பான, ஆரோக்கியமான நடத்தை — ஓய்வெடுத்தபடி வயிற்றிலிருந்து உணவை இரண்டாவது முறை மென்று சாப்பிட மேலே கொண்டு வருதல்.",
+                  "ಮೆಲುಕು ಹಾಕುವುದು ಸಂಪೂರ್ಣವಾಗಿ ಸಾಮಾನ್ಯ, ಆರೋಗ್ಯಕರ ವರ್ತನೆ — ವಿಶ್ರಾಂತಿ ಪಡೆಯುತ್ತಾ ಹೊಟ್ಟೆಯಿಂದ ಆಹಾರವನ್ನು ಎರಡನೇ ಬಾರಿ ಅಗಿಯಲು ಮೇಲಕ್ಕೆ ತರುವುದು.",
+                  "जुगाली करना पूरी तरह सामान्य, स्वस्थ व्यवहार है — आराम करते हुए पेट से भोजन को दोबारा चबाने के लिए वापस लाना।"
                 ),
               },
               {
                 type: "mcq",
-                q: L("A milking animal's yield drops suddenly, with no other obvious sign yet. What should you do?"),
+                q: L(
+                  "A milking animal's yield drops suddenly, with no other obvious sign yet. What should you do?",
+                  "పాలు పితికే జంతువు దిగుబడి అకస్మాత్తుగా తగ్గింది, ఇంకా వేరే స్పష్టమైన సంకేతం లేదు. మీరు ఏమి చేయాలి?",
+                  "பால் கறக்கப்படும் விலங்கின் மகசூல் திடீரென குறைகிறது, இன்னும் வேறு தெளிவான அறிகுறி இல்லை. நீங்கள் என்ன செய்ய வேண்டும்?",
+                  "ಹಾಲು ಕರೆಯುವ ಪ್ರಾಣಿಯ ಇಳುವರಿ ಹಠಾತ್ತನೆ ಕಡಿಮೆಯಾಗುತ್ತದೆ, ಇನ್ನೂ ಬೇರೆ ಸ್ಪಷ್ಟ ಸೂಚನೆ ಇಲ್ಲ. ನೀವು ಏನು ಮಾಡಬೇಕು?",
+                  "किसी दूध देने वाले पशु की पैदावार अचानक घट जाती है, अभी तक कोई और स्पष्ट संकेत नहीं है। आपको क्या करना चाहिए?"
+                ),
                 options: [
-                  L("Ignore it — milk amount naturally goes up and down"),
-                  L("Report it the same day, as an early warning sign"),
-                  L("Wait a full week to see if it goes back to normal on its own"),
-                  L("Only report it if the animal also stops eating"),
+                  L(
+                    "Ignore it — milk amount naturally goes up and down",
+                    "దానిని పట్టించుకోకండి — పాల మొత్తం సహజంగా పెరుగుతూ తగ్గుతూ ఉంటుంది",
+                    "அதைப் புறக்கணிக்கவும் — பால் அளவு இயற்கையாகவே ஏறி இறங்கும்",
+                    "ಅದನ್ನು ನಿರ್ಲಕ್ಷಿಸಿ — ಹಾಲಿನ ಪ್ರಮಾಣ ಸ್ವಾಭಾವಿಕವಾಗಿ ಏರಿಳಿತವಾಗುತ್ತದೆ",
+                    "इसे नजरअंदाज करें — दूध की मात्रा स्वाभाविक रूप से घटती-बढ़ती रहती है"
+                  ),
+                  L(
+                    "Report it the same day, as an early warning sign",
+                    "దానిని అదే రోజు, తొలి హెచ్చరిక సంకేతంగా తెలియజేయండి",
+                    "அதை அதே நாளில், ஆரம்ப எச்சரிக்கை அறிகுறியாகத் தெரிவிக்கவும்",
+                    "ಅದನ್ನು ಅದೇ ದಿನ, ಆರಂಭಿಕ ಎಚ್ಚರಿಕೆ ಸೂಚನೆಯಾಗಿ ತಿಳಿಸಿ",
+                    "इसे उसी दिन, एक शुरुआती चेतावनी संकेत के रूप में बताएं"
+                  ),
+                  L(
+                    "Wait a full week to see if it goes back to normal on its own",
+                    "అది తనంతట తానే మామూలు స్థితికి వస్తుందో లేదో చూడటానికి పూర్తి వారం వేచి ఉండండి",
+                    "அது தானாகவே சரியாகுமா என்று பார்க்க ஒரு முழு வாரம் காத்திருக்கவும்",
+                    "ಅದು ತಾನಾಗಿಯೇ ಸಾಮಾನ್ಯ ಸ್ಥಿತಿಗೆ ಬರುತ್ತದೆಯೇ ಎಂದು ನೋಡಲು ಪೂರ್ತಿ ವಾರ ಕಾಯಿರಿ",
+                    "यह देखने के लिए पूरे एक हफ्ते इंतजार करें कि क्या यह अपने आप सामान्य हो जाता है"
+                  ),
+                  L(
+                    "Only report it if the animal also stops eating",
+                    "జంతువు తినడం కూడా ఆపితేనే దానిని తెలియజేయండి",
+                    "விலங்கு சாப்பிடுவதையும் நிறுத்தினால் மட்டுமே அதைத் தெரிவிக்கவும்",
+                    "ಪ್ರಾಣಿ ತಿನ್ನುವುದನ್ನೂ ನಿಲ್ಲಿಸಿದರೆ ಮಾತ್ರ ಅದನ್ನು ತಿಳಿಸಿ",
+                    "इसे तभी बताएं जब पशु खाना भी बंद कर दे"
+                  ),
                 ],
                 answer: 1,
                 explain: L(
-                  "A sudden drop in milk is often the very first sign that something is wrong — it deserves to be reported straight away, not watched and waited on."
+                  "A sudden drop in milk is often the very first sign that something is wrong — it deserves to be reported straight away, not watched and waited on.",
+                  "పాలలో అకస్మాత్తు తగ్గుదల తరచుగా ఏదో తప్పు జరిగిందని మొదటి సంకేతం — దీన్ని వెంటనే తెలియజేయాలి, గమనిస్తూ వేచి చూడకూడదు.",
+                  "பாலில் திடீர் குறைவு பெரும்பாலும் ஏதோ தவறு நடக்கிறது என்பதற்கான முதல் அறிகுறி — இது உடனடியாக தெரிவிக்கப்பட வேண்டும், கண்காணித்துக் காத்திருக்கக் கூடாது.",
+                  "ಹಾಲಿನಲ್ಲಿ ಹಠಾತ್ ಇಳಿಕೆ ಆಗಾಗ ಏನೋ ತಪ್ಪಾಗಿದೆ ಎಂಬುದರ ಮೊದಲ ಸೂಚನೆ — ಇದನ್ನು ತಕ್ಷಣ ತಿಳಿಸಬೇಕು, ಗಮನಿಸುತ್ತಾ ಕಾಯಬಾರದು.",
+                  "दूध में अचानक कमी अक्सर सबसे पहला संकेत होता है कि कुछ गड़बड़ है — इसे तुरंत बताना चाहिए, देखते हुए इंतजार नहीं करना चाहिए।"
                 ),
               },
             ],
@@ -246,47 +576,187 @@ export const MODULES = [
             {
               topicId: "t-seven-q-behaviour",
               type: "mcq",
-              q: L("Which question is checked simply by watching how the animal walks, and how it holds its head, ears and tail?"),
-              options: [L("Question 1 — Behaviour"), L("Question 2 — Attitude"), L("Question 3 — Condition"), L("Question 5 — Waste")],
+              q: L(
+                "Which question is checked simply by watching how the animal walks, and how it holds its head, ears and tail?",
+                "జంతువు ఎలా నడుస్తుంది, తల, చెవులు, తోకను ఎలా ఉంచుతుంది అని కేవలం చూడటం ద్వారా ఏ ప్రశ్నను తనిఖీ చేస్తారు?",
+                "விலங்கு எப்படி நடக்கிறது, தலை, காதுகள், வாலை எப்படி வைத்திருக்கிறது என்பதை வெறும் பார்வையால் மட்டும் எந்தக் கேள்வி சரிபார்க்கப்படுகிறது?",
+                "ಪ್ರಾಣಿ ಹೇಗೆ ನಡೆಯುತ್ತದೆ, ತಲೆ, ಕಿವಿ, ಬಾಲವನ್ನು ಹೇಗೆ ಇಟ್ಟುಕೊಂಡಿದೆ ಎಂದು ಬರೀ ನೋಡುವುದರಿಂದ ಯಾವ ಪ್ರಶ್ನೆಯನ್ನು ಪರಿಶೀಲಿಸಲಾಗುತ್ತದೆ?",
+                "पशु कैसे चलता है, अपना सिर, कान और पूंछ कैसे रखता है, यह सिर्फ देखकर कौन सा सवाल जांचा जाता है?"
+              ),
+              options: [
+                L(
+                  "Question 1 — Behaviour",
+                  "ప్రశ్న 1 — ప్రవర్తన",
+                  "கேள்வி 1 — நடத்தை",
+                  "ಪ್ರಶ್ನೆ 1 — ವರ್ತನೆ",
+                  "प्रश्न 1 — व्यवहार"
+                ),
+                L(
+                  "Question 2 — Attitude",
+                  "ప్రశ్న 2 — వైఖరి",
+                  "கேள்வி 2 — மனநிலை",
+                  "ಪ್ರಶ್ನೆ 2 — ಧೋರಣೆ",
+                  "प्रश्न 2 — रवैया"
+                ),
+                L(
+                  "Question 3 — Condition",
+                  "ప్రశ్న 3 — శరీర స్థితి",
+                  "கேள்வி 3 — உடல் நிலை",
+                  "ಪ್ರಶ್ನೆ 3 — ದೇಹಸ್ಥಿತಿ",
+                  "प्रश्न 3 — शारीरिक स्थिति"
+                ),
+                L(
+                  "Question 5 — Waste",
+                  "ప్రశ్న 5 — విసర్జన",
+                  "கேள்வி 5 — கழிவு",
+                  "ಪ್ರಶ್ನೆ 5 — ವಿಸರ್ಜನೆ",
+                  "प्रश्न 5 — मल-मूत्र"
+                ),
+              ],
               answer: 1,
-              explain: L("Question 2 (Attitude) is about posture and walking — the position of the head, ears, body and tail, and how normally it moves."),
+              explain: L(
+                "Question 2 (Attitude) is about posture and walking — the position of the head, ears, body and tail, and how normally it moves.",
+                "ప్రశ్న 2 (వైఖరి) భంగిమ మరియు నడక గురించి — తల, చెవులు, శరీరం, తోక స్థానం, అది ఎంత సాధారణంగా కదులుతుందనే దాని గురించి.",
+                "கேள்வி 2 (மனநிலை) நிலைப்பாடு மற்றும் நடை பற்றியது — தலை, காதுகள், உடல், வாலின் நிலை, அது எவ்வளவு சாதாரணமாக அசைகிறது என்பது பற்றியது.",
+                "ಪ್ರಶ್ನೆ 2 (ಧೋರಣೆ) ಭಂಗಿ ಮತ್ತು ನಡಿಗೆಯ ಬಗ್ಗೆ — ತಲೆ, ಕಿವಿ, ದೇಹ, ಬಾಲದ ಸ್ಥಾನ, ಅದು ಎಷ್ಟು ಸಾಮಾನ್ಯವಾಗಿ ಚಲಿಸುತ್ತದೆ ಎಂಬುದರ ಬಗ್ಗೆ.",
+                "प्रश्न 2 (रवैया) मुद्रा और चाल के बारे में है — सिर, कान, शरीर, पूंछ की स्थिति, और वह कितनी सामान्य रूप से चलता है।"
+              ),
             },
             {
               topicId: "t-seven-q-behaviour",
               type: "truefalse",
-              q: L("Observation — just watching an animal — needs no special equipment."),
+              q: L(
+                "Observation — just watching an animal — needs no special equipment.",
+                "పరిశీలన — కేవలం జంతువును చూడటం — ఎలాంటి ప్రత్యేక పరికరం అవసరం లేదు.",
+                "கவனிப்பு — ஒரு விலங்கை வெறுமனே பார்ப்பது — எந்தச் சிறப்புக் கருவியும் தேவையில்லை.",
+                "ಪರಿಶೀಲನೆ — ಬರೀ ಪ್ರಾಣಿಯನ್ನು ನೋಡುವುದು — ಯಾವುದೇ ವಿಶೇಷ ಸಾಧನ ಅಗತ್ಯವಿಲ್ಲ.",
+                "अवलोकन — सिर्फ पशु को देखना — किसी खास उपकरण की जरूरत नहीं है।"
+              ),
               answer: true,
-              explain: L("Correct. Observation needs nothing more than your eyes and a little time — no tools, no training in animal medicine."),
+              explain: L(
+                "Correct. Observation needs nothing more than your eyes and a little time — no tools, no training in animal medicine.",
+                "సరైనది. పరిశీలనకు మీ కళ్ళు, కొంచెం సమయం తప్ప మరేమీ అవసరం లేదు — పరికరాలు, పశువైద్య శిక్షణ అవసరం లేదు.",
+                "சரி. கவனிப்புக்கு உங்கள் கண்களும் கொஞ்சம் நேரமும் தவிர வேறு எதுவும் தேவையில்லை — கருவிகள் இல்லை, கால்நடை மருத்துவப் பயிற்சி தேவையில்லை.",
+                "ಸರಿ. ಪರಿಶೀಲನೆಗೆ ನಿಮ್ಮ ಕಣ್ಣುಗಳು ಮತ್ತು ಸ್ವಲ್ಪ ಸಮಯ ಬಿಟ್ಟು ಬೇರೇನೂ ಬೇಕಿಲ್ಲ — ಸಾಧನಗಳಿಲ್ಲ, ಪಶುವೈದ್ಯಕೀಯ ತರಬೇತಿ ಬೇಕಿಲ್ಲ.",
+                "सही है। अवलोकन के लिए आपकी आंखों और थोड़े समय के अलावा कुछ नहीं चाहिए — कोई उपकरण नहीं, पशु चिकित्सा प्रशिक्षण नहीं।"
+              ),
             },
             {
               topicId: "t-seven-q-function",
               type: "mcq",
-              q: L("Which question is about whether the animal is eating, drinking and chewing the cud normally?"),
-              options: [L("Question 3 — Condition"), L("Question 4 — Eating"), L("Question 5 — Waste"), L("Question 7 — Anything else")],
+              q: L(
+                "Which question is about whether the animal is eating, drinking and chewing the cud normally?",
+                "జంతువు సాధారణంగా తింటుందా, తాగుతుందా, నెమరు వేస్తుందా అని ఏ ప్రశ్న అడుగుతుంది?",
+                "விலங்கு சாதாரணமாக சாப்பிட்டு, குடித்து, அசைபோடுகிறதா என்பது எந்தக் கேள்வி பற்றியது?",
+                "ಪ್ರಾಣಿ ಸಾಮಾನ್ಯವಾಗಿ ತಿನ್ನುತ್ತಿದೆಯೇ, ಕುಡಿಯುತ್ತಿದೆಯೇ, ಮೆಲುಕು ಹಾಕುತ್ತಿದೆಯೇ ಎಂಬುದು ಯಾವ ಪ್ರಶ್ನೆಯ ಬಗ್ಗೆ?",
+                "पशु सामान्य रूप से खा-पी रहा है और जुगाली कर रहा है या नहीं, यह कौन सा सवाल है?"
+              ),
+              options: [
+                L(
+                  "Question 3 — Condition",
+                  "ప్రశ్న 3 — శరీర స్థితి",
+                  "கேள்வி 3 — உடல் நிலை",
+                  "ಪ್ರಶ್ನೆ 3 — ದೇಹಸ್ಥಿತಿ",
+                  "प्रश्न 3 — शारीरिक स्थिति"
+                ),
+                L(
+                  "Question 4 — Eating",
+                  "ప్రశ్న 4 — తినడం",
+                  "கேள்வி 4 — சாப்பிடுதல்",
+                  "ಪ್ರಶ್ನೆ 4 — ತಿನ್ನುವುದು",
+                  "प्रश्न 4 — खाना"
+                ),
+                L(
+                  "Question 5 — Waste",
+                  "ప్రశ్న 5 — విసర్జన",
+                  "கேள்வி 5 — கழிவு",
+                  "ಪ್ರಶ್ನೆ 5 — ವಿಸರ್ಜನೆ",
+                  "प्रश्न 5 — मल-मूत्र"
+                ),
+                L(
+                  "Question 7 — Anything else",
+                  "ప్రశ్న 7 — మరేదైనా",
+                  "கேள்வி 7 — வேறு ஏதேனும்",
+                  "ಪ್ರಶ್ನೆ 7 — ಬೇರೇನಾದರೂ",
+                  "प्रश्न 7 — कुछ और"
+                ),
+              ],
               answer: 1,
-              explain: L("Question 4 is specifically about eating, drinking and ruminating (chewing the cud) normally."),
+              explain: L(
+                "Question 4 is specifically about eating, drinking and ruminating (chewing the cud) normally.",
+                "ప్రశ్న 4 ప్రత్యేకంగా సాధారణంగా తినడం, తాగడం, నెమరు వేయడం గురించి.",
+                "கேள்வி 4 குறிப்பாக சாதாரணமாக சாப்பிடுதல், குடித்தல், அசைபோடுதல் பற்றியது.",
+                "ಪ್ರಶ್ನೆ 4 ನಿರ್ದಿಷ್ಟವಾಗಿ ಸಾಮಾನ್ಯವಾಗಿ ತಿನ್ನುವುದು, ಕುಡಿಯುವುದು, ಮೆಲುಕು ಹಾಕುವುದರ ಬಗ್ಗೆ.",
+                "प्रश्न 4 खासतौर पर सामान्य रूप से खाने, पीने और जुगाली करने के बारे में है।"
+              ),
             },
             {
               topicId: "t-seven-q-function",
               type: "truefalse",
-              q: L("A sudden drop in milk should only be reported once the animal also has a fever."),
+              q: L(
+                "A sudden drop in milk should only be reported once the animal also has a fever.",
+                "పాలలో అకస్మాత్తు తగ్గుదల జంతువుకు జ్వరం కూడా వస్తేనే తెలియజేయాలి.",
+                "பாலில் திடீர் குறைவை விலங்குக்கு காய்ச்சலும் வந்தால் மட்டுமே தெரிவிக்க வேண்டும்.",
+                "ಹಾಲಿನಲ್ಲಿ ಹಠಾತ್ ಇಳಿಕೆಯನ್ನು ಪ್ರಾಣಿಗೆ ಜ್ವರವೂ ಬಂದಾಗ ಮಾತ್ರ ತಿಳಿಸಬೇಕು.",
+                "दूध में अचानक कमी की सूचना तभी देनी चाहिए जब पशु को बुखार भी हो।"
+              ),
               answer: false,
               explain: L(
-                "No — a sudden drop in milk is often the very FIRST warning sign, sometimes appearing before fever or anything else. Report it on its own, right away."
+                "No — a sudden drop in milk is often the very FIRST warning sign, sometimes appearing before fever or anything else. Report it on its own, right away.",
+                "కాదు — పాలలో అకస్మాత్తు తగ్గుదల తరచుగా మొట్టమొదటి హెచ్చరిక సంకేతం, కొన్నిసార్లు జ్వరం లేదా మరేదైనా రావడానికి ముందే వస్తుంది. దాన్ని ఒంటరిగానే వెంటనే తెలియజేయండి.",
+                "இல்லை — பாலில் திடீர் குறைவு பெரும்பாலும் மிக முதல் எச்சரிக்கை அறிகுறி, சில நேரங்களில் காய்ச்சல் அல்லது வேறு எதற்கும் முன்பே தோன்றும். அதை மட்டும் தனியாகவே உடனே தெரிவியுங்கள்.",
+                "ಇಲ್ಲ — ಹಾಲಿನಲ್ಲಿ ಹಠಾತ್ ಇಳಿಕೆ ಆಗಾಗ ಅತ್ಯಂತ ಮೊದಲ ಎಚ್ಚರಿಕೆ ಸೂಚನೆ, ಕೆಲವೊಮ್ಮೆ ಜ್ವರ ಅಥವಾ ಬೇರೆ ಏನಾದರೂ ಬರುವ ಮೊದಲೇ ಕಾಣಿಸಿಕೊಳ್ಳುತ್ತದೆ. ಅದನ್ನು ಒಂಟಿಯಾಗಿಯೇ ತಕ್ಷಣ ತಿಳಿಸಿ.",
+                "नहीं — दूध में अचानक कमी अक्सर सबसे पहला चेतावनी संकेत होता है, जो कभी-कभी बुखार या किसी और चीज़ से पहले ही दिख जाता है। इसे अकेले भी, तुरंत बताएं।"
               ),
             },
             {
               topicId: "t-seven-q-behaviour",
               type: "mcq",
-              q: L("If you notice a change in any of the seven questions, what should you do?"),
+              q: L(
+                "If you notice a change in any of the seven questions, what should you do?",
+                "ఏడు ప్రశ్నలలో దేనిలోనైనా మార్పు గమనిస్తే, మీరు ఏమి చేయాలి?",
+                "ஏழு கேள்விகளில் எதிலாவது மாற்றத்தைக் கவனித்தால், நீங்கள் என்ன செய்ய வேண்டும்?",
+                "ಏಳು ಪ್ರಶ್ನೆಗಳಲ್ಲಿ ಯಾವುದಾದರೂ ಒಂದರಲ್ಲಿ ಬದಲಾವಣೆ ಗಮನಿಸಿದರೆ, ನೀವು ಏನು ಮಾಡಬೇಕು?",
+                "अगर आपको सातों सवालों में से किसी में भी बदलाव दिखे, तो आपको क्या करना चाहिए?"
+              ),
               options: [
-                L("Wait until two or more questions look 'wrong' before telling anyone"),
-                L("Tell the animal's owner or the veterinarian right away"),
-                L("Decide for yourself what medicine to give"),
-                L("Write it down and mention it at the end of the month"),
+                L(
+                  "Wait until two or more questions look 'wrong' before telling anyone",
+                  "ఎవరికైనా చెప్పే ముందు రెండు లేదా అంతకంటే ఎక్కువ ప్రశ్నలు 'తప్పు'గా కనిపించే వరకు వేచి ఉండండి",
+                  "யாருக்காவது சொல்வதற்கு முன் இரண்டு அல்லது அதற்கு மேற்பட்ட கேள்விகள் 'தவறாக' தெரியும் வரை காத்திருங்கள்",
+                  "ಯಾರಿಗಾದರೂ ಹೇಳುವ ಮೊದಲು ಎರಡು ಅಥವಾ ಹೆಚ್ಚು ಪ್ರಶ್ನೆಗಳು 'ತಪ್ಪು' ಎಂದು ಕಾಣುವವರೆಗೆ ಕಾಯಿರಿ",
+                  "किसी को बताने से पहले दो या उससे ज्यादा सवालों के 'गलत' दिखने का इंतजार करें"
+                ),
+                L(
+                  "Tell the animal's owner or the veterinarian right away",
+                  "వెంటనే జంతువు యజమానికి లేదా పశువైద్యుడికి చెప్పండి",
+                  "உடனே விலங்கின் உரிமையாளரிடம் அல்லது கால்நடை மருத்துவரிடம் சொல்லுங்கள்",
+                  "ತಕ್ಷಣ ಪ್ರಾಣಿಯ ಮಾಲೀಕರಿಗೆ ಅಥವಾ ಪಶುವೈದ್ಯರಿಗೆ ಹೇಳಿ",
+                  "तुरंत पशु के मालिक या पशु चिकित्सक को बताएं"
+                ),
+                L(
+                  "Decide for yourself what medicine to give",
+                  "ఏ మందు ఇవ్వాలో మీరే నిర్ణయించుకోండి",
+                  "என்ன மருந்து கொடுக்க வேண்டும் என்பதை நீங்களே முடிவு செய்யுங்கள்",
+                  "ಯಾವ ಔಷಧಿ ಕೊಡಬೇಕು ಎಂದು ನೀವೇ ನಿರ್ಧರಿಸಿ",
+                  "खुद तय करें कि कौन सी दवा देनी है"
+                ),
+                L(
+                  "Write it down and mention it at the end of the month",
+                  "దాన్ని రాసుకుని, నెల చివరిలో ప్రస్తావించండి",
+                  "அதை எழுதி வைத்து, மாத இறுதியில் குறிப்பிடுங்கள்",
+                  "ಅದನ್ನು ಬರೆದಿಟ್ಟುಕೊಂಡು, ತಿಂಗಳ ಕೊನೆಯಲ್ಲಿ ತಿಳಿಸಿ",
+                  "इसे लिख लें और महीने के अंत में बताएं"
+                ),
               ],
               answer: 1,
-              explain: L("The rule from this lesson: notice, then tell someone right away. You never need to wait for a dramatic sign, and you never decide treatment yourself."),
+              explain: L(
+                "The rule from this lesson: notice, then tell someone right away. You never need to wait for a dramatic sign, and you never decide treatment yourself.",
+                "ఈ పాఠం నుండి నియమం: గమనించండి, తర్వాత వెంటనే ఎవరికైనా చెప్పండి. మీరు ఎప్పుడూ నాటకీయమైన సంకేతం కోసం వేచి ఉండాల్సిన అవసరం లేదు, చికిత్సను మీరే నిర్ణయించాల్సిన అవసరం లేదు.",
+                "இந்தப் பாடத்தின் விதி: கவனியுங்கள், பிறகு உடனே யாருக்காவது சொல்லுங்கள். ஒரு நாடகீயமான அறிகுறிக்காக காத்திருக்க வேண்டியதில்லை, சிகிச்சையை நீங்களே முடிவு செய்ய வேண்டியதில்லை.",
+                "ಈ ಪಾಠದ ನಿಯಮ: ಗಮನಿಸಿ, ನಂತರ ತಕ್ಷಣ ಯಾರಿಗಾದರೂ ಹೇಳಿ. ನಾಟಕೀಯ ಸೂಚನೆಗಾಗಿ ಕಾಯುವ ಅಗತ್ಯವಿಲ್ಲ, ಚಿಕಿತ್ಸೆಯನ್ನು ನೀವೇ ನಿರ್ಧರಿಸುವ ಅಗತ್ಯವಿಲ್ಲ.",
+                "इस पाठ का नियम: पहचानें, फिर तुरंत किसी को बताएं। आपको कभी किसी नाटकीय संकेत का इंतजार करने की जरूरत नहीं, और इलाज खुद तय करने की भी जरूरत नहीं।"
+              ),
             },
           ],
         },
@@ -297,138 +767,411 @@ export const MODULES = [
       // ==================================================================
       {
         id: "m1-l2",
-        title: L("Reading Vital Signs"),
+        title: L(
+          "Reading Vital Signs",
+          "ప్రాణాధార సూచికలను చదవడం",
+          "உயிர்க்குறிகளை வாசித்தல்",
+          "ಜೀವನ ಚಿಹ್ನೆಗಳನ್ನು ಓದುವುದು",
+          "जीवन-संकेतों को पढ़ना"
+        ),
         estMinutes: 8,
         hook: [
           {
             type: "hero",
-            heading: L("Simple Checks Anyone Can Learn"),
+            heading: L(
+              "Simple Checks Anyone Can Learn",
+              "ఎవరైనా నేర్చుకోగల సాధారణ తనిఖీలు",
+              "யாரும் கற்றுக்கொள்ளக்கூடிய எளிய சோதனைகள்",
+              "ಯಾರಾದರೂ ಕಲಿಯಬಹುದಾದ ಸರಳ ಪರೀಕ್ಷೆಗಳು",
+              "साधारण जांचें जो कोई भी सीख सकता है"
+            ),
             text: L(
-              "You don't need to be a vet to count breathing or gently feel a stomach move — you only need to know what a normal number looks like, and exactly how to check it. This lesson teaches three simple checks, step by step, using nothing but your own hands and a watch."
+              "You don't need to be a vet to count breathing or gently feel a stomach move — you only need to know what a normal number looks like, and exactly how to check it. This lesson teaches three simple checks, step by step, using nothing but your own hands and a watch.",
+              "శ్వాసను లెక్కించడానికి లేదా కడుపు కదలికను మెల్లగా అనుభూతి చెందడానికి మీరు పశువైద్యులు కానవసరం లేదు — సాధారణ సంఖ్య ఎలా ఉంటుందో, దాన్ని ఎలా తనిఖీ చేయాలో మీకు తెలిస్తే చాలు. ఈ పాఠం మీ చేతులు, గడియారం మాత్రమే ఉపయోగించి మూడు సాధారణ తనిఖీలను దశలవారీగా నేర్పిస్తుంది.",
+              "சுவாசத்தை எண்ண அல்லது வயிற்றின் அசைவை மெதுவாக உணர நீங்கள் கால்நடை மருத்துவராக இருக்க வேண்டியதில்லை — சாதாரண எண் எப்படி இருக்கும், அதை எப்படி சரிபார்ப்பது என்பது மட்டும் தெரிந்தால் போதும். இந்தப் பாடம் உங்கள் கைகளையும் ஒரு கடிகாரத்தையும் மட்டும் பயன்படுத்தி மூன்று எளிய சோதனைகளை படிப்படியாகக் கற்பிக்கிறது.",
+              "ಉಸಿರಾಟವನ್ನು ಎಣಿಸಲು ಅಥವಾ ಹೊಟ್ಟೆಯ ಚಲನೆಯನ್ನು ಮೆಲ್ಲಗೆ ಅನುಭವಿಸಲು ನೀವು ಪಶುವೈದ್ಯರಾಗಿರಬೇಕಿಲ್ಲ — ಸಾಮಾನ್ಯ ಸಂಖ್ಯೆ ಹೇಗಿರುತ್ತದೆ, ಅದನ್ನು ಹೇಗೆ ಪರೀಕ್ಷಿಸಬೇಕು ಎಂದು ನಿಮಗೆ ತಿಳಿದಿದ್ದರೆ ಸಾಕು. ಈ ಪಾಠ ನಿಮ್ಮ ಕೈಗಳು ಮತ್ತು ಒಂದು ಗಡಿಯಾರವನ್ನು ಮಾತ್ರ ಬಳಸಿ ಮೂರು ಸರಳ ಪರೀಕ್ಷೆಗಳನ್ನು ಹಂತ ಹಂತವಾಗಿ ಕಲಿಸುತ್ತದೆ.",
+              "सांस गिनने या पेट की हलचल को धीरे से महसूस करने के लिए आपका पशु चिकित्सक होना जरूरी नहीं — बस आपको यह पता होना चाहिए कि सामान्य संख्या कैसी दिखती है, और उसे कैसे जांचना है। यह पाठ सिर्फ आपके हाथों और एक घड़ी का इस्तेमाल करके तीन सरल जांचें चरण-दर-चरण सिखाता है।"
             ),
           },
         ],
         topics: [
           {
             id: "t-vitals-normal",
-            title: L("Breathing and Chewing the Cud"),
+            title: L(
+              "Breathing and Chewing the Cud",
+              "శ్వాస మరియు నెమరు వేయడం",
+              "சுவாசம் மற்றும் அசைபோடுதல்",
+              "ಉಸಿರಾಟ ಮತ್ತು ಮೆಲುಕು ಹಾಕುವಿಕೆ",
+              "सांस लेना और जुगाली करना"
+            ),
             teach: [
             {
               type: "photo",
               src: "assets/photo-m1-chewing-cud.jpg",
-              alt: L("A cow lying down in grass, resting, with its mouth open mid-chew while chewing the cud."),
-              caption: L("A resting cow chewing the cud — the calm, repetitive jaw movement this lesson teaches you to check for."),
+              alt: L(
+                "A cow lying down in grass, resting, with its mouth open mid-chew while chewing the cud.",
+                "గడ్డిలో పడుకుని విశ్రాంతి తీసుకుంటున్న ఆవు, నెమరు వేస్తూ నోరు తెరిచి ఉన్న దృశ్యం.",
+                "புல்லில் படுத்து ஓய்வெடுத்துக் கொண்டிருக்கும் ஒரு பசு, அசைபோட்டுக் கொண்டிருக்கும்போது வாய் திறந்திருக்கும் காட்சி.",
+                "ಹುಲ್ಲಿನಲ್ಲಿ ಮಲಗಿ ವಿಶ್ರಾಂತಿ ಪಡೆಯುತ್ತಿರುವ ಹಸು, ಮೆಲುಕು ಹಾಕುತ್ತಾ ಬಾಯಿ ತೆರೆದಿರುವ ದೃಶ್ಯ.",
+                "घास में लेटी हुई, आराम करती हुई गाय, जुगाली करते हुए मुंह खुला हुआ।"
+              ),
+              caption: L(
+                "A resting cow chewing the cud — the calm, repetitive jaw movement this lesson teaches you to check for.",
+                "నెమరు వేస్తున్న విశ్రాంతి తీసుకుంటున్న ఆవు — ఈ పాఠం మీకు గమనించడం నేర్పే ప్రశాంతమైన, పునరావృత దవడ కదలిక.",
+                "அசைபோட்டுக் கொண்டிருக்கும் ஓய்வெடுக்கும் பசு — இந்தப் பாடம் நீங்கள் கவனிக்கக் கற்பிக்கும் அமைதியான, மீண்டும் மீண்டும் நடக்கும் தாடை அசைவு.",
+                "ಮೆಲುಕು ಹಾಕುತ್ತಿರುವ ವಿಶ್ರಾಂತಿ ಪಡೆಯುತ್ತಿರುವ ಹಸು — ಈ ಪಾಠ ನಿಮಗೆ ಗಮನಿಸಲು ಕಲಿಸುವ ಶಾಂತ, ಪುನರಾವರ್ತಿತ ದವಡೆಯ ಚಲನೆ.",
+                "जुगाली करती हुई आराम कर रही गाय — यह पाठ आपको जो शांत, बार-बार होने वाली जबड़े की हलचल जांचना सिखाता है।"
+              ),
             },
               {
                 type: "text",
-                heading: L("Why 'Normal' Comes First"),
+                heading: L(
+                  "Why 'Normal' Comes First",
+                  "'సాధారణం' ముందు ఎందుకు రావాలి",
+                  "'சாதாரணம்' முதலில் ஏன் வர வேண்டும்",
+                  "'ಸಾಮಾನ್ಯ' ಮೊದಲು ಏಕೆ ಬರಬೇಕು",
+                  "'सामान्य' पहले क्यों जानना जरूरी है"
+                ),
                 html: L(
-                  "You cannot tell that something is unusual unless you first know what usual looks like. The two checks in this topic take about two minutes altogether, and all you need is a watch (or a phone) and your own hand."
+                  "You cannot tell that something is unusual unless you first know what usual looks like. The two checks in this topic take about two minutes altogether, and all you need is a watch (or a phone) and your own hand.",
+                  "సాధారణం ఎలా ఉంటుందో మీకు ముందు తెలియకపోతే, ఏదైనా అసాధారణమని మీరు చెప్పలేరు. ఈ విషయంలోని రెండు తనిఖీలకు మొత్తం రెండు నిమిషాలు పడుతుంది, మీకు కావలసినదల్లా ఒక గడియారం (లేదా ఫోన్), మీ చేయి మాత్రమే.",
+                  "சாதாரணமாக எப்படி இருக்கும் என்று உங்களுக்கு முதலில் தெரியாவிட்டால், ஏதோ அசாதாரணமாக இருப்பதை நீங்கள் சொல்ல முடியாது. இந்தத் தலைப்பில் உள்ள இரண்டு சோதனைகளும் மொத்தமாக இரண்டு நிமிடங்கள் எடுக்கும், உங்களுக்குத் தேவையானது ஒரு கடிகாரம் (அல்லது தொலைபேசி), உங்கள் கை மட்டுமே.",
+                  "ಸಾಮಾನ್ಯ ಹೇಗಿರುತ್ತದೆ ಎಂದು ಮೊದಲು ತಿಳಿಯದೆ, ಏನೋ ಅಸಾಮಾನ್ಯ ಎಂದು ನೀವು ಹೇಳಲಾಗುವುದಿಲ್ಲ. ಈ ವಿಷಯದಲ್ಲಿನ ಎರಡು ಪರೀಕ್ಷೆಗಳಿಗೆ ಒಟ್ಟು ಸುಮಾರು ಎರಡು ನಿಮಿಷ ಬೇಕಾಗುತ್ತದೆ, ನಿಮಗೆ ಬೇಕಾಗಿರುವುದು ಒಂದು ಗಡಿಯಾರ (ಅಥವಾ ಫೋನ್) ಮತ್ತು ನಿಮ್ಮ ಕೈ ಮಾತ್ರ.",
+                  "जब तक आपको पहले यह पता न हो कि सामान्य कैसा दिखता है, तब तक आप यह नहीं बता सकते कि कुछ असामान्य है। इस विषय की दोनों जांचों में मिलाकर करीब दो मिनट लगते हैं, और आपको बस एक घड़ी (या फोन) और अपना हाथ चाहिए।"
                 ),
               },
               {
                 type: "example",
-                heading: L("How to Count Breathing — Step by Step"),
+                heading: L(
+                  "How to Count Breathing — Step by Step",
+                  "శ్వాసను ఎలా లెక్కించాలి — దశలవారీగా",
+                  "சுவாசத்தை எப்படி எண்ணுவது — படிப்படியாக",
+                  "ಉಸಿರಾಟವನ್ನು ಹೇಗೆ ಎಣಿಸುವುದು — ಹಂತ ಹಂತವಾಗಿ",
+                  "सांस कैसे गिनें — चरण दर चरण"
+                ),
                 text: L(
-                  "Stand a little behind and to the side of the animal, where you can clearly see its belly and chest. Every time the belly moves out AND back in, that counts as ONE breath. Using a watch, count breaths for 15 seconds, then multiply that number by 4 — that gives you breaths per minute."
+                  "Stand a little behind and to the side of the animal, where you can clearly see its belly and chest. Every time the belly moves out AND back in, that counts as ONE breath. Using a watch, count breaths for 15 seconds, then multiply that number by 4 — that gives you breaths per minute.",
+                  "జంతువు కడుపు, ఛాతీ స్పష్టంగా కనిపించేలా దాని వెనుక, పక్కగా కొంచెం నిలబడండి. కడుపు బయటకు వచ్చి, తిరిగి లోపలికి వెళ్ళిన ప్రతిసారీ అది ఒక శ్వాసగా లెక్కించండి. గడియారం ఉపయోగించి, 15 సెకన్ల పాటు శ్వాసలను లెక్కించి, ఆ సంఖ్యను 4తో గుణించండి — అది మీకు నిమిషానికి శ్వాసల సంఖ్యను ఇస్తుంది.",
+                  "விலங்கின் வயிறு, மார்பு தெளிவாகத் தெரியும்படி அதன் பின்னால், பக்கவாட்டில் கொஞ்சம் நில்லுங்கள். வயிறு வெளியே வந்து மீண்டும் உள்ளே செல்லும் ஒவ்வொரு முறையும் ஒரு சுவாசமாக எண்ணுங்கள். கடிகாரத்தைப் பயன்படுத்தி, 15 வினாடிகளுக்கு சுவாசங்களை எண்ணி, அந்த எண்ணை 4ஆல் பெருக்குங்கள் — அது உங்களுக்கு நிமிடத்திற்கு சுவாசங்களைத் தரும்.",
+                  "ಪ್ರಾಣಿಯ ಹೊಟ್ಟೆ, ಎದೆ ಸ್ಪಷ್ಟವಾಗಿ ಕಾಣುವಂತೆ ಅದರ ಹಿಂದೆ, ಪಕ್ಕದಲ್ಲಿ ಸ್ವಲ್ಪ ನಿಲ್ಲಿ. ಹೊಟ್ಟೆ ಹೊರಗೆ ಬಂದು ಮತ್ತೆ ಒಳಗೆ ಹೋಗುವ ಪ್ರತಿ ಬಾರಿಯೂ ಅದನ್ನು ಒಂದು ಉಸಿರಾಟ ಎಂದು ಎಣಿಸಿ. ಗಡಿಯಾರ ಬಳಸಿ, 15 ಸೆಕೆಂಡುಗಳ ಕಾಲ ಉಸಿರಾಟಗಳನ್ನು ಎಣಿಸಿ, ಆ ಸಂಖ್ಯೆಯನ್ನು 4 ರಿಂದ ಗುಣಿಸಿ — ಅದು ನಿಮಗೆ ನಿಮಿಷಕ್ಕೆ ಉಸಿರಾಟಗಳ ಸಂಖ್ಯೆಯನ್ನು ನೀಡುತ್ತದೆ.",
+                  "पशु के थोड़ा पीछे और बगल में खड़े हों, जहां से आप उसका पेट और छाती साफ देख सकें। जब भी पेट बाहर की ओर और फिर वापस अंदर की ओर आए, उसे एक सांस गिनें। घड़ी का उपयोग करके, 15 सेकंड तक सांसें गिनें, फिर उस संख्या को 4 से गुणा करें — इससे आपको प्रति मिनट सांसों की संख्या मिल जाएगी।"
                 ),
               },
               {
                 type: "stat-grid",
                 items: [
                   {
-                    label: L("Breathing — adult animals"),
-                    text: L("10–30 breaths every minute is normal for a resting adult cow or buffalo."),
-                  },
-                  {
-                    label: L("Breathing — calves"),
-                    text: L("30–50 breaths every minute is normal for a calf — noticeably faster than an adult, and that's expected."),
-                  },
-                  {
-                    label: L("Chewing the cud"),
+                    label: L(
+                      "Breathing — adult animals",
+                      "శ్వాస — వయోజన జంతువులు",
+                      "சுவாசம் — வளர்ந்த விலங்குகள்",
+                      "ಉಸಿರಾಟ — ವಯಸ್ಕ ಪ್ರಾಣಿಗಳು",
+                      "सांस — वयस्क पशु"
+                    ),
                     text: L(
-                      "A resting, healthy animal chews the cud at least 40 times a minute, for a total of 7–10 hours across the whole day — you'll often see this happening while it's sitting down and calm."
+                      "10–30 breaths every minute is normal for a resting adult cow or buffalo.",
+                      "విశ్రాంతి తీసుకుంటున్న వయోజన ఆవు లేదా గేదెకు నిమిషానికి 10–30 శ్వాసలు సాధారణం.",
+                      "ஓய்வெடுக்கும் வளர்ந்த மாடு அல்லது எருமைக்கு நிமிடத்திற்கு 10–30 சுவாசங்கள் சாதாரணம்.",
+                      "ವಿಶ್ರಾಂತಿ ಪಡೆಯುತ್ತಿರುವ ವಯಸ್ಕ ಹಸು ಅಥವಾ ಎಮ್ಮೆಗೆ ನಿಮಿಷಕ್ಕೆ 10–30 ಉಸಿರಾಟಗಳು ಸಾಮಾನ್ಯ.",
+                      "आराम कर रही वयस्क गाय या भैंस के लिए प्रति मिनट 10–30 सांसें सामान्य हैं।"
+                    ),
+                  },
+                  {
+                    label: L(
+                      "Breathing — calves",
+                      "శ్వాస — దూడలు",
+                      "சுவாசம் — கன்றுகள்",
+                      "ಉಸಿರಾಟ — ಕರುಗಳು",
+                      "सांस — बछड़े"
+                    ),
+                    text: L(
+                      "30–50 breaths every minute is normal for a calf — noticeably faster than an adult, and that's expected.",
+                      "దూడకు నిమిషానికి 30–50 శ్వాసలు సాధారణం — వయోజన జంతువు కంటే గమనించదగినంతగా వేగంగా ఉంటుంది, ఇది ఆశించదగినదే.",
+                      "ஒரு கன்றுக்கு நிமிடத்திற்கு 30–50 சுவாசங்கள் சாதாரணம் — வளர்ந்த விலங்கை விட குறிப்பிடத்தக்க அளவு வேகமாக இருக்கும், அது எதிர்பார்க்கப்படுவதே.",
+                      "ಕರುವಿಗೆ ನಿಮಿಷಕ್ಕೆ 30–50 ಉಸಿರಾಟಗಳು ಸಾಮಾನ್ಯ — ವಯಸ್ಕಕ್ಕಿಂತ ಗಮನಾರ್ಹವಾಗಿ ವೇಗವಾಗಿರುತ್ತದೆ, ಅದು ನಿರೀಕ್ಷಿತ.",
+                      "बछड़े के लिए प्रति मिनट 30–50 सांसें सामान्य हैं — वयस्क से काफी तेज, और यह अपेक्षित ही है।"
+                    ),
+                  },
+                  {
+                    label: L(
+                      "Chewing the cud",
+                      "నెమరు వేయడం",
+                      "அசைபோடுதல்",
+                      "ಮೆಲುಕು ಹಾಕುವಿಕೆ",
+                      "जुगाली करना"
+                    ),
+                    text: L(
+                      "A resting, healthy animal chews the cud at least 40 times a minute, for a total of 7–10 hours across the whole day — you'll often see this happening while it's sitting down and calm.",
+                      "విశ్రాంతి తీసుకుంటున్న ఆరోగ్యకరమైన జంతువు నిమిషానికి కనీసం 40 సార్లు నెమరు వేస్తుంది, రోజంతా మొత్తం 7–10 గంటలు — ఇది కూర్చుని ప్రశాంతంగా ఉన్నప్పుడు తరచుగా కనిపిస్తుంది.",
+                      "ஓய்வெடுக்கும் ஆரோக்கியமான விலங்கு நிமிடத்திற்கு குறைந்தது 40 முறை அசைபோடும், நாள் முழுவதும் மொத்தம் 7–10 மணி நேரம் — இது அமர்ந்து அமைதியாக இருக்கும்போது அடிக்கடி நடக்கும்.",
+                      "ವಿಶ್ರಾಂತಿ ಪಡೆಯುತ್ತಿರುವ ಆರೋಗ್ಯಕರ ಪ್ರಾಣಿ ನಿಮಿಷಕ್ಕೆ ಕನಿಷ್ಠ 40 ಬಾರಿ ಮೆಲುಕು ಹಾಕುತ್ತದೆ, ದಿನವಿಡೀ ಒಟ್ಟು 7–10 ಗಂಟೆ — ಇದನ್ನು ಕುಳಿತು ಶಾಂತವಾಗಿರುವಾಗ ಆಗಾಗ ನೋಡಬಹುದು.",
+                      "आराम कर रहा स्वस्थ पशु प्रति मिनट कम से कम 40 बार जुगाली करता है, पूरे दिन में कुल 7–10 घंटे — यह अक्सर तब दिखता है जब वह बैठा हुआ और शांत होता है।"
                     ),
                   },
                 ],
               },
               {
                 type: "glossary",
-                term: L("Rumen"),
+                term: L(
+                  "Rumen",
+                  "నెమరుకడుపు (రూమెన్)",
+                  "அசைவறை (ரூமன்)",
+                  "ಮೆಲುಕು ಹೊಟ್ಟೆ (ರೂಮೆನ್)",
+                  "पहला पेट (रूमेन)"
+                ),
                 meaning: L(
-                  "The largest of the four stomach parts inside a cow or buffalo, sitting mainly on the LEFT side of its belly. Good microbes inside it break down grass and feed. If you rest your hand gently on the animal's left side, you can actually feel it move as it works — you'll learn exactly how in the next box."
+                  "The largest of the four stomach parts inside a cow or buffalo, sitting mainly on the LEFT side of its belly. Good microbes inside it break down grass and feed. If you rest your hand gently on the animal's left side, you can actually feel it move as it works — you'll learn exactly how in the next box.",
+                  "ఆవు లేదా గేదె లోపల నాలుగు కడుపు భాగాలలో అతిపెద్దది, ఇది ఎక్కువగా దాని కడుపు ఎడమ వైపు ఉంటుంది. దీని లోపల ఉన్న మంచి సూక్ష్మజీవులు గడ్డి, మేతను జీర్ణం చేస్తాయి. మీరు జంతువు ఎడమ వైపు మీ చేయిని మెల్లగా ఉంచితే, అది పనిచేస్తున్నప్పుడు కదలడాన్ని మీరు నిజంగా అనుభూతి చెందవచ్చు — దీన్ని ఎలా చేయాలో తర్వాతి బాక్స్‌లో నేర్చుకుంటారు.",
+                  "மாடு அல்லது எருமையின் உள்ளே உள்ள நான்கு வயிற்றுப் பகுதிகளில் மிகப் பெரியது, இது முக்கியமாக அதன் வயிற்றின் இடது பக்கத்தில் அமைந்துள்ளது. இதற்குள் இருக்கும் நல்ல நுண்ணுயிரிகள் புல்லையும் தீவனத்தையும் செரிக்கின்றன. விலங்கின் இடது பக்கத்தில் உங்கள் கையை மெதுவாக வைத்தால், அது வேலை செய்யும்போது அசைவதை நீங்கள் உண்மையில் உணரலாம் — இதை எப்படிச் செய்வது என்பதை அடுத்த பெட்டியில் கற்றுக்கொள்வீர்கள்.",
+                  "ಹಸು ಅಥವಾ ಎಮ್ಮೆಯ ಒಳಗಿನ ನಾಲ್ಕು ಹೊಟ್ಟೆಯ ಭಾಗಗಳಲ್ಲಿ ಅತಿ ದೊಡ್ಡದು, ಇದು ಮುಖ್ಯವಾಗಿ ಅದರ ಹೊಟ್ಟೆಯ ಎಡಭಾಗದಲ್ಲಿ ಇರುತ್ತದೆ. ಇದರೊಳಗಿನ ಒಳ್ಳೆಯ ಸೂಕ್ಷ್ಮಜೀವಿಗಳು ಹುಲ್ಲು ಮತ್ತು ಮೇವನ್ನು ಜೀರ್ಣಿಸುತ್ತವೆ. ಪ್ರಾಣಿಯ ಎಡಭಾಗದಲ್ಲಿ ನಿಮ್ಮ ಕೈಯನ್ನು ಮೆಲ್ಲಗೆ ಇಟ್ಟರೆ, ಅದು ಕೆಲಸ ಮಾಡುವಾಗ ಚಲಿಸುವುದನ್ನು ನೀವು ನಿಜವಾಗಿಯೂ ಅನುಭವಿಸಬಹುದು — ಇದನ್ನು ಹೇಗೆ ಮಾಡಬೇಕೆಂದು ಮುಂದಿನ ಪೆಟ್ಟಿಗೆಯಲ್ಲಿ ಕಲಿಯುವಿರಿ.",
+                  "गाय या भैंस के अंदर के चार पेट के हिस्सों में सबसे बड़ा, जो मुख्यतः उसके पेट के बाईं ओर होता है। इसके अंदर के अच्छे सूक्ष्मजीव घास और चारे को पचाते हैं। अगर आप पशु के बाईं ओर अपना हाथ धीरे से रखें, तो यह काम करते हुए हिलता हुआ आप असल में महसूस कर सकते हैं — इसे बिल्कुल कैसे करना है यह अगले बॉक्स में सीखेंगे।"
                 ),
               },
               {
                 type: "example",
-                heading: L("How to Feel the Stomach Move — Step by Step"),
+                heading: L(
+                  "How to Feel the Stomach Move — Step by Step",
+                  "కడుపు కదలికను ఎలా అనుభూతి చెందాలి — దశలవారీగా",
+                  "வயிற்றின் அசைவை எப்படி உணர்வது — படிப்படியாக",
+                  "ಹೊಟ್ಟೆಯ ಚಲನೆಯನ್ನು ಹೇಗೆ ಅನುಭವಿಸುವುದು — ಹಂತ ಹಂತವಾಗಿ",
+                  "पेट की हलचल कैसे महसूस करें — चरण दर चरण"
+                ),
                 text: L(
-                  "Stand at the animal's LEFT side. Make a loose fist and press gently on the soft, hollow part of the belly, just in front of the hip bone. Count how many times you feel a gentle push against your hand over one full minute. Feeling 2 to 3 pushes in that minute is normal; feeling none at all is worth reporting."
+                  "Stand at the animal's LEFT side. Make a loose fist and press gently on the soft, hollow part of the belly, just in front of the hip bone. Count how many times you feel a gentle push against your hand over one full minute. Feeling 2 to 3 pushes in that minute is normal; feeling none at all is worth reporting.",
+                  "జంతువు ఎడమ వైపున నిలబడండి. వదులుగా పిడికిలి చేసి, తుంటి ఎముకకు ముందు ఉన్న కడుపు మెత్తని, డొల్లగా ఉన్న భాగంపై మెల్లగా నొక్కండి. పూర్తి ఒక నిమిషంలో మీ చేతికి ఎన్నిసార్లు మెల్లని తోపు అనిపిస్తుందో లెక్కించండి. ఆ నిమిషంలో 2 నుండి 3 తోపులు అనిపించడం సాధారణం; ఏమీ అనిపించకపోతే తెలియజేయడం మంచిది.",
+                  "விலங்கின் இடது பக்கத்தில் நில்லுங்கள். தளர்வான முஷ்டியை உருவாக்கி, இடுப்பு எலும்புக்கு முன் இருக்கும் வயிற்றின் மென்மையான, குழிவான பகுதியில் மெதுவாக அழுத்துங்கள். ஒரு முழு நிமிடத்தில் உங்கள் கைக்கு எத்தனை முறை மென்மையான தள்ளுதல் உணரப்படுகிறது என்று எண்ணுங்கள். அந்த நிமிடத்தில் 2 முதல் 3 தள்ளுதல்கள் உணர்வது சாதாரணம்; ஒன்றுமே உணரவில்லை என்றால் தெரிவிப்பது நல்லது.",
+                  "ಪ್ರಾಣಿಯ ಎಡಭಾಗದಲ್ಲಿ ನಿಲ್ಲಿ. ಸಡಿಲವಾದ ಮುಷ್ಟಿ ಮಾಡಿ, ಸೊಂಟದ ಮೂಳೆಗೆ ಮುಂಚೆ ಇರುವ ಹೊಟ್ಟೆಯ ಮೃದುವಾದ, ಟೊಳ್ಳಾದ ಭಾಗದ ಮೇಲೆ ಮೆಲ್ಲಗೆ ಒತ್ತಿ. ಪೂರ್ತಿ ಒಂದು ನಿಮಿಷದಲ್ಲಿ ನಿಮ್ಮ ಕೈಗೆ ಎಷ್ಟು ಬಾರಿ ಮೆಲುವಾದ ತಳ್ಳುವಿಕೆ ಅನುಭವಾಗುತ್ತದೆ ಎಂದು ಎಣಿಸಿ. ಆ ನಿಮಿಷದಲ್ಲಿ 2 ರಿಂದ 3 ತಳ್ಳುವಿಕೆ ಅನುಭವಿಸುವುದು ಸಾಮಾನ್ಯ; ಏನೂ ಅನುಭವಿಸದಿದ್ದರೆ ತಿಳಿಸುವುದು ಒಳ್ಳೆಯದು.",
+                  "पशु के बाईं ओर खड़े हों। ढीली मुट्ठी बनाकर, कूल्हे की हड्डी के ठीक सामने पेट के मुलायम, खोखले हिस्से पर धीरे से दबाएं। पूरे एक मिनट में आपके हाथ को कितनी बार हल्का धक्का महसूस होता है, यह गिनें। उस मिनट में 2 से 3 धक्के महसूस होना सामान्य है; बिल्कुल भी महसूस न होना बताने लायक बात है।"
                 ),
               },
             ],
             check: [
               {
                 type: "mcq",
-                q: L("How do you count one breath?"),
+                q: L(
+                  "How do you count one breath?",
+                  "ఒక శ్వాసను ఎలా లెక్కిస్తారు?",
+                  "ஒரு சுவாசத்தை எப்படி எண்ணுவது?",
+                  "ಒಂದು ಉಸಿರಾಟವನ್ನು ಹೇಗೆ ಎಣಿಸುತ್ತೀರಿ?",
+                  "एक सांस कैसे गिनते हैं?"
+                ),
                 options: [
-                  L("Every time the tail moves"),
-                  L("Every time the belly/chest moves out AND back in, once"),
-                  L("Every time the animal chews"),
-                  L("You cannot count breathing without special equipment"),
+                  L(
+                    "Every time the tail moves",
+                    "తోక కదిలిన ప్రతిసారీ",
+                    "வால் அசையும் ஒவ்வொரு முறையும்",
+                    "ಬಾಲ ಚಲಿಸಿದ ಪ್ರತಿ ಬಾರಿ",
+                    "जब भी पूंछ हिले"
+                  ),
+                  L(
+                    "Every time the belly/chest moves out AND back in, once",
+                    "కడుపు/ఛాతీ బయటకు వచ్చి, తిరిగి లోపలికి వెళ్ళిన ప్రతిసారీ, ఒకసారి",
+                    "வயிறு/மார்பு வெளியே வந்து மீண்டும் உள்ளே செல்லும் ஒவ்வொரு முறையும், ஒரு முறையாக",
+                    "ಹೊಟ್ಟೆ/ಎದೆ ಹೊರಗೆ ಬಂದು ಮತ್ತೆ ಒಳಗೆ ಹೋಗುವ ಪ್ರತಿ ಬಾರಿ, ಒಂದು ಬಾರಿ",
+                    "पेट/छाती के बाहर आने और फिर वापस अंदर जाने पर, एक बार"
+                  ),
+                  L(
+                    "Every time the animal chews",
+                    "జంతువు నమిలిన ప్రతిసారీ",
+                    "விலங்கு மெல்லும் ஒவ்வொரு முறையும்",
+                    "ಪ್ರಾಣಿ ಅಗಿದ ಪ್ರತಿ ಬಾರಿ",
+                    "जब भी पशु चबाए"
+                  ),
+                  L(
+                    "You cannot count breathing without special equipment",
+                    "ప్రత్యేక పరికరం లేకుండా శ్వాసను లెక్కించలేరు",
+                    "சிறப்புக் கருவி இல்லாமல் சுவாசத்தை எண்ண முடியாது",
+                    "ವಿಶೇಷ ಸಾಧನವಿಲ್ಲದೆ ಉಸಿರಾಟವನ್ನು ಎಣಿಸಲಾಗುವುದಿಲ್ಲ",
+                    "बिना खास उपकरण के सांस नहीं गिनी जा सकती"
+                  ),
                 ],
                 answer: 1,
-                explain: L("One full out-and-in movement of the belly or chest counts as one breath."),
+                explain: L(
+                  "One full out-and-in movement of the belly or chest counts as one breath.",
+                  "కడుపు లేదా ఛాతీ యొక్క ఒక పూర్తి బయటకు-లోపలికి కదలిక ఒక శ్వాసగా లెక్కించబడుతుంది.",
+                  "வயிறு அல்லது மார்பின் ஒரு முழு வெளியே-உள்ளே அசைவு ஒரு சுவாசமாக எண்ணப்படும்.",
+                  "ಹೊಟ್ಟೆ ಅಥವಾ ಎದೆಯ ಒಂದು ಪೂರ್ತಿ ಹೊರಗೆ-ಒಳಗೆ ಚಲನೆ ಒಂದು ಉಸಿರಾಟ ಎಂದು ಎಣಿಸಲಾಗುತ್ತದೆ.",
+                  "पेट या छाती की एक पूरी बाहर-अंदर की हलचल एक सांस मानी जाती है।"
+                ),
               },
               {
                 type: "mcq",
-                q: L("Which side of the animal do you check for the gentle stomach-moving feeling?"),
-                options: [L("The right side"), L("The left side"), L("Underneath the jaw"), L("Behind the front leg")],
+                q: L(
+                  "Which side of the animal do you check for the gentle stomach-moving feeling?",
+                  "మెల్లని కడుపు కదలిక అనుభూతి కోసం జంతువు ఏ వైపు తనిఖీ చేస్తారు?",
+                  "மென்மையான வயிற்று அசைவை உணர விலங்கின் எந்தப் பக்கத்தைச் சரிபார்க்கிறீர்கள்?",
+                  "ಮೆಲುವಾದ ಹೊಟ್ಟೆಯ ಚಲನೆಯ ಅನುಭವಕ್ಕಾಗಿ ಪ್ರಾಣಿಯ ಯಾವ ಬದಿಯನ್ನು ಪರೀಕ್ಷಿಸುತ್ತೀರಿ?",
+                  "पेट की हल्की हलचल महसूस करने के लिए पशु का कौन सा हिस्सा जांचते हैं?"
+                ),
+                options: [
+                  L(
+                    "The right side",
+                    "కుడి వైపు",
+                    "வலது பக்கம்",
+                    "ಬಲಭಾಗ",
+                    "दायां हिस्सा"
+                  ),
+                  L(
+                    "The left side",
+                    "ఎడమ వైపు",
+                    "இடது பக்கம்",
+                    "ಎಡಭಾಗ",
+                    "बायां हिस्सा"
+                  ),
+                  L(
+                    "Underneath the jaw",
+                    "దవడ కింద",
+                    "தாடைக்கு அடியில்",
+                    "ದವಡೆಯ ಕೆಳಗೆ",
+                    "जबड़े के नीचे"
+                  ),
+                  L(
+                    "Behind the front leg",
+                    "ముందు కాలు వెనుక",
+                    "முன் காலுக்குப் பின்னால்",
+                    "ಮುಂಗಾಲಿನ ಹಿಂದೆ",
+                    "अगले पैर के पीछे"
+                  ),
+                ],
                 answer: 1,
-                explain: L("Feel on the LEFT side, in the soft hollow just in front of the hip bone — that's where the main stomach (rumen) sits."),
+                explain: L(
+                  "Feel on the LEFT side, in the soft hollow just in front of the hip bone — that's where the main stomach (rumen) sits.",
+                  "ఎడమ వైపు, తుంటి ఎముకకు ముందు ఉన్న మెత్తని డొల్లలో అనుభూతి చెందండి — అక్కడే ప్రధాన కడుపు (రూమెన్) ఉంటుంది.",
+                  "இடது பக்கத்தில், இடுப்பு எலும்புக்கு முன் இருக்கும் மென்மையான குழிவில் உணருங்கள் — அங்குதான் முதன்மை வயிறு (ரூமன்) அமைந்துள்ளது.",
+                  "ಎಡಭಾಗದಲ್ಲಿ, ಸೊಂಟದ ಮೂಳೆಗೆ ಮುಂಚೆ ಇರುವ ಮೃದುವಾದ ಟೊಳ್ಳಿನಲ್ಲಿ ಅನುಭವಿಸಿ — ಅಲ್ಲಿಯೇ ಮುಖ್ಯ ಹೊಟ್ಟೆ (ರೂಮೆನ್) ಇರುತ್ತದೆ.",
+                  "बाईं ओर, कूल्हे की हड्डी के ठीक सामने के मुलायम खोखले हिस्से में महसूस करें — वहीं मुख्य पेट (रूमेन) होता है।"
+                ),
               },
             ],
           },
           {
             id: "t-vitals-appearance-fever",
-            title: L("How It Looks: Coat, Eyes and Fever"),
+            title: L(
+              "How It Looks: Coat, Eyes and Fever",
+              "బయటికి ఎలా కనిపిస్తుంది: శరీర వెంట్రుకలు, కళ్ళు మరియు జ్వరం",
+              "எப்படித் தெரிகிறது: ரோமம், கண்கள் மற்றும் காய்ச்சல்",
+              "ಹೇಗೆ ಕಾಣುತ್ತದೆ: ಕೂದಲು, ಕಣ್ಣುಗಳು ಮತ್ತು ಜ್ವರ",
+              "कैसा दिखता है: रोयें, आंखें और बुखार"
+            ),
             teach: [
             {
               type: "photo",
               src: "assets/photo-m1-coat-eyes-muzzle.jpg",
-              alt: L("Extreme close-up of a dairy cow's face in profile, showing a clear eye, a moist muzzle/nostril, and a smooth, shiny coat."),
-              caption: L("A close look at exactly what this lesson asks you to check: a clear eye, a moist nose, and a smooth, even coat."),
+              alt: L(
+                "Extreme close-up of a dairy cow's face in profile, showing a clear eye, a moist muzzle/nostril, and a smooth, shiny coat.",
+                "పాడి ఆవు ముఖం పక్క నుండి అత్యంత దగ్గరి చిత్రం, స్పష్టమైన కన్ను, తేమగా ఉన్న ముట్టె/ముక్కు రంధ్రం, నునుపైన మెరిసే వెంట్రుకలను చూపిస్తుంది.",
+                "பால் மாட்டின் முகத்தின் பக்கவாட்டு மிக நெருக்கமான காட்சி, தெளிவான கண், ஈரமான மூக்கு/நாசி, மற்றும் மென்மையான, பளபளப்பான ரோமத்தைக் காட்டுகிறது.",
+                "ಹೈನು ಹಸುವಿನ ಮುಖದ ಪಾರ್ಶ್ವದ ಅತ್ಯಂತ ಹತ್ತಿರದ ಚಿತ್ರ, ಸ್ಪಷ್ಟವಾದ ಕಣ್ಣು, ಒದ್ದೆಯಾದ ಮೂತಿ/ಮೂಗಿನ ಹೊಳ್ಳೆ, ನಯವಾದ, ಹೊಳೆಯುವ ಕೂದಲನ್ನು ತೋರಿಸುತ್ತದೆ.",
+                "डेयरी गाय के चेहरे की बगल से बेहद नजदीकी तस्वीर, जिसमें साफ आंख, नम थूथन/नथुना, और चिकने, चमकदार रोयें दिखाई दे रहे हैं।"
+              ),
+              caption: L(
+                "A close look at exactly what this lesson asks you to check: a clear eye, a moist nose, and a smooth, even coat.",
+                "ఈ పాఠం మిమ్మల్ని తనిఖీ చేయమని అడిగే వాటిని దగ్గరగా చూడండి: స్పష్టమైన కన్ను, తేమగా ఉన్న ముక్కు, నునుపైన, సమానమైన వెంట్రుకలు.",
+                "இந்தப் பாடம் நீங்கள் சரிபார்க்கச் சொல்வதை நெருக்கமாகப் பார்த்தல்: தெளிவான கண், ஈரமான மூக்கு, மென்மையான, சமமான ரோமம்.",
+                "ಈ ಪಾಠ ನಿಮ್ಮನ್ನು ಪರೀಕ್ಷಿಸಲು ಕೇಳುವುದನ್ನು ಹತ್ತಿರದಿಂದ ನೋಡುವುದು: ಸ್ಪಷ್ಟವಾದ ಕಣ್ಣು, ಒದ್ದೆಯಾದ ಮೂಗು, ನಯವಾದ, ಸಮನಾದ ಕೂದಲು.",
+                "यह पाठ आपसे जो जांचने को कहता है उसे नजदीक से देखना: साफ आंख, नम नाक, और चिकने, एकसमान रोयें।"
+              ),
             },
               {
                 type: "text",
-                heading: L("What a Healthy Animal Looks Like"),
+                heading: L(
+                  "What a Healthy Animal Looks Like",
+                  "ఆరోగ్యకరమైన జంతువు ఎలా కనిపిస్తుంది",
+                  "ஆரோக்கியமான விலங்கு எப்படித் தெரியும்",
+                  "ಆರೋಗ್ಯಕರ ಪ್ರಾಣಿ ಹೇಗೆ ಕಾಣುತ್ತದೆ",
+                  "स्वस्थ पशु कैसा दिखता है"
+                ),
                 html: L(
-                  "A healthy animal's coat (its hair) looks shiny, smooth and even all over — not dull or patchy in places. Its horns and hooves (the hard part of its feet) look shiny too. Its eyes look clear, with no watering or discharge, and its muzzle feels a little moist to the touch, not dry or crusty."
+                  "A healthy animal's coat (its hair) looks shiny, smooth and even all over — not dull or patchy in places. Its horns and hooves (the hard part of its feet) look shiny too. Its eyes look clear, with no watering or discharge, and its muzzle feels a little moist to the touch, not dry or crusty.",
+                  "ఆరోగ్యకరమైన జంతువు వెంట్రుకలు (దాని రోమం) అంతటా మెరుస్తూ, నునుపుగా, సమానంగా కనిపిస్తాయి — నిస్తేజంగా లేదా అక్కడక్కడ మచ్చలుగా ఉండవు. దాని కొమ్ములు, గిట్టలు (దాని పాదాల గట్టి భాగం) కూడా మెరుస్తాయి. దాని కళ్ళు స్పష్టంగా కనిపిస్తాయి, నీరు కారడం లేదా స్రావం ఉండదు, దాని ముట్టె తాకితే కొంచెం తేమగా అనిపిస్తుంది, పొడిగా లేదా పొక్కులతో ఉండదు.",
+                  "ஆரோக்கியமான விலங்கின் ரோமம் அனைத்திலும் பளபளப்பாக, மென்மையாக, சமமாகத் தெரியும் — மங்கலாகவோ இடங்களில் கறை படிந்ததாகவோ இருக்காது. அதன் கொம்புகள், குளம்புகள் (அதன் கால்களின் கடினமான பகுதி) கூட பளபளப்பாகத் தெரியும். அதன் கண்கள் தெளிவாகத் தெரியும், நீர் வழிதல் அல்லது சுரப்பு இருக்காது, அதன் மூக்கு தொட்டால் சற்று ஈரமாக இருக்கும், உலர்ந்ததாகவோ சொரசொரப்பாகவோ இருக்காது.",
+                  "ಆರೋಗ್ಯಕರ ಪ್ರಾಣಿಯ ಕೂದಲು ಎಲ್ಲೆಡೆ ಹೊಳೆಯುತ್ತಾ, ನಯವಾಗಿ, ಸಮನಾಗಿ ಕಾಣುತ್ತದೆ — ಮಂದವಾಗಿ ಅಥವಾ ಅಲ್ಲಲ್ಲಿ ಚುಕ್ಕೆಗಳಿಂದ ಇರುವುದಿಲ್ಲ. ಅದರ ಕೊಂಬುಗಳು, ಗೊರಸುಗಳು (ಅದರ ಕಾಲುಗಳ ಗಟ್ಟಿಯಾದ ಭಾಗ) ಸಹ ಹೊಳೆಯುತ್ತವೆ. ಅದರ ಕಣ್ಣುಗಳು ಸ್ಪಷ್ಟವಾಗಿ ಕಾಣುತ್ತವೆ, ನೀರು ಸೋರುವಿಕೆ ಅಥವಾ ಸ್ರಾವ ಇರುವುದಿಲ್ಲ, ಅದರ ಮೂತಿ ಮುಟ್ಟಿದಾಗ ಸ್ವಲ್ಪ ಒದ್ದೆಯಾಗಿ ಅನಿಸುತ್ತದೆ, ಒಣಗಿ ಅಥವಾ ಒರಟಾಗಿ ಇರುವುದಿಲ್ಲ.",
+                  "स्वस्थ पशु के रोयें पूरी तरह चमकदार, चिकने और एकसमान दिखते हैं — कहीं भी बेजान या धब्बेदार नहीं। उसके सींग और खुर (पैरों का कठोर हिस्सा) भी चमकदार दिखते हैं। उसकी आंखें साफ दिखती हैं, बिना पानी बहे या स्राव के, और उसकी नाक छूने पर थोड़ी नम महसूस होती है, सूखी या पपड़ीदार नहीं।"
                 ),
               },
               {
                 type: "glossary",
-                term: L("Muzzle"),
-                meaning: L("The nose-and-mouth area of an animal's face — the part it uses to sniff, eat and drink."),
+                term: L(
+                  "Muzzle",
+                  "ముట్టె",
+                  "மூக்கு-வாய் பகுதி",
+                  "ಮೂತಿ",
+                  "थूथन/नाक"
+                ),
+                meaning: L(
+                  "The nose-and-mouth area of an animal's face — the part it uses to sniff, eat and drink.",
+                  "జంతువు ముఖంలో ముక్కు-నోరు భాగం — వాసన చూడటానికి, తినడానికి, తాగడానికి ఉపయోగించే భాగం.",
+                  "விலங்கின் முகத்தில் மூக்கு-வாய் பகுதி — நுகரவும், சாப்பிடவும், குடிக்கவும் பயன்படுத்தும் பகுதி.",
+                  "ಪ್ರಾಣಿಯ ಮುಖದಲ್ಲಿ ಮೂಗು-ಬಾಯಿ ಭಾಗ — ವಾಸನೆ ಹಿಡಿಯಲು, ತಿನ್ನಲು, ಕುಡಿಯಲು ಬಳಸುವ ಭಾಗ.",
+                  "पशु के चेहरे का नाक और मुंह वाला हिस्सा — जिसका इस्तेमाल वह सूंघने, खाने और पीने के लिए करता है।"
+                ),
               },
               {
                 type: "callout",
                 style: "warning",
-                heading: L("Fever — The Surprising Part"),
+                heading: L(
+                  "Fever — The Surprising Part",
+                  "జ్వరం — ఆశ్చర్యకరమైన భాగం",
+                  "காய்ச்சல் — ஆச்சரியமான பகுதி",
+                  "ಜ್ವರ — ಆಶ್ಚರ್ಯಕರ ಭಾಗ",
+                  "बुखार — चौंकाने वाली बात"
+                ),
                 text: L(
-                  "Fever means the animal's body has become too warm on the inside. It usually comes together with fast breathing, shivering, and sometimes loose dung. Here is the part that surprises almost everyone the first time: the ears, horns and legs are usually COLD to the touch during a fever, even though the body itself is too warm. If you only feel the ears and they feel cool, you might wrongly assume there's no fever — so always check more than one sign."
+                  "Fever means the animal's body has become too warm on the inside. It usually comes together with fast breathing, shivering, and sometimes loose dung. Here is the part that surprises almost everyone the first time: the ears, horns and legs are usually COLD to the touch during a fever, even though the body itself is too warm. If you only feel the ears and they feel cool, you might wrongly assume there's no fever — so always check more than one sign.",
+                  "జ్వరం అంటే జంతువు శరీరం లోపల మరీ వేడిగా మారింది. ఇది సాధారణంగా వేగవంతమైన శ్వాస, వణుకు, కొన్నిసార్లు వదులైన మలవిసర్జనతో పాటు వస్తుంది. ఇక్కడ దాదాపు అందరినీ మొదటిసారి ఆశ్చర్యపరిచే భాగం ఏమిటంటే: జ్వరం సమయంలో చెవులు, కొమ్ములు, కాళ్ళు సాధారణంగా చల్లగా అనిపిస్తాయి, శరీరం మాత్రం మరీ వేడిగా ఉన్నప్పటికీ. మీరు కేవలం చెవులను మాత్రమే తాకి, అవి చల్లగా అనిపిస్తే, జ్వరం లేదని తప్పుగా అనుకోవచ్చు — కాబట్టి ఎప్పుడూ ఒకటి కంటే ఎక్కువ సంకేతాలను తనిఖీ చేయండి.",
+                  "காய்ச்சல் என்றால் விலங்கின் உடல் உள்ளே மிக அதிகமாக சூடாகிவிட்டது என்று அர்த்தம். இது பொதுவாக வேகமான சுவாசம், நடுக்கம், சில நேரங்களில் தளர்ந்த மலத்துடன் சேர்ந்து வரும். இங்கே கிட்டத்தட்ட அனைவரையும் முதல் முறையாக ஆச்சரியப்படுத்தும் பகுதி இதோ: காய்ச்சலின் போது காதுகள், கொம்புகள், கால்கள் பொதுவாக தொட்டால் குளிர்ச்சியாக இருக்கும், உடல் மட்டும் மிகவும் சூடாக இருந்தாலும் கூட. நீங்கள் காதுகளை மட்டும் தொட்டு, அவை குளிர்ச்சியாக இருந்தால், காய்ச்சல் இல்லை என்று தவறாக நினைக்கலாம் — எனவே எப்போதும் ஒன்றுக்கு மேற்பட்ட அறிகுறிகளைச் சரிபார்க்கவும்.",
+                  "ಜ್ವರ ಎಂದರೆ ಪ್ರಾಣಿಯ ದೇಹ ಒಳಗೆ ಅತಿಯಾಗಿ ಬಿಸಿಯಾಗಿದೆ ಎಂದರ್ಥ. ಇದು ಸಾಮಾನ್ಯವಾಗಿ ವೇಗದ ಉಸಿರಾಟ, ನಡುಕ, ಕೆಲವೊಮ್ಮೆ ಸಡಿಲ ಮಲದೊಂದಿಗೆ ಬರುತ್ತದೆ. ಇಲ್ಲಿ ಬಹುತೇಕ ಎಲ್ಲರನ್ನೂ ಮೊದಲ ಬಾರಿ ಆಶ್ಚರ್ಯಗೊಳಿಸುವ ಭಾಗ ಇದು: ಜ್ವರದ ಸಮಯದಲ್ಲಿ ಕಿವಿ, ಕೊಂಬು, ಕಾಲುಗಳು ಸಾಮಾನ್ಯವಾಗಿ ಮುಟ್ಟಿದಾಗ ತಣ್ಣಗಿರುತ್ತವೆ, ದೇಹ ಮಾತ್ರ ಅತಿಯಾಗಿ ಬಿಸಿಯಾಗಿದ್ದರೂ ಸಹ. ನೀವು ಕೇವಲ ಕಿವಿಗಳನ್ನು ಮಾತ್ರ ಮುಟ್ಟಿ, ಅವು ತಣ್ಣಗಿದ್ದರೆ, ಜ್ವರ ಇಲ್ಲ ಎಂದು ತಪ್ಪಾಗಿ ಭಾವಿಸಬಹುದು — ಆದ್ದರಿಂದ ಯಾವಾಗಲೂ ಒಂದಕ್ಕಿಂತ ಹೆಚ್ಚು ಸೂಚನೆಗಳನ್ನು ಪರಿಶೀಲಿಸಿ.",
+                  "बुखार का मतलब है पशु का शरीर अंदर से बहुत गर्म हो गया है। यह आमतौर पर तेज सांस, कंपकंपी, और कभी-कभी पतले गोबर के साथ आता है। यहां वह बात है जो लगभग हर किसी को पहली बार चौंका देती है: बुखार के दौरान कान, सींग और पैर आमतौर पर छूने पर ठंडे लगते हैं, भले ही शरीर खुद बहुत गर्म हो। अगर आप सिर्फ कान छूकर देखें और वे ठंडे लगें, तो आप गलती से मान सकते हैं कि बुखार नहीं है — इसलिए हमेशा एक से ज्यादा संकेत जांचें।"
                 ),
               },
               {
                 type: "poll",
-                heading: L("Guess Before You Look"),
+                heading: L(
+                  "Guess Before You Look",
+                  "చూసే ముందు ఊహించండి",
+                  "பார்ப்பதற்கு முன் யூகியுங்கள்",
+                  "ನೋಡುವ ಮೊದಲು ಊಹಿಸಿ",
+                  "देखने से पहले अंदाजा लगाएं"
+                ),
                 questions: [
                   {
-                    q: L("An animal has a fever. What will its ears and legs feel like if you touch them?"),
-                    options: [L("Hot, just like the rest of the body"), L("Cold, even though the body itself is too warm"), L("Exactly the same as a healthy animal")],
+                    q: L(
+                      "An animal has a fever. What will its ears and legs feel like if you touch them?",
+                      "ఒక జంతువుకు జ్వరం ఉంది. మీరు దాని చెవులు, కాళ్ళు తాకితే అవి ఎలా అనిపిస్తాయి?",
+                      "ஒரு விலங்குக்கு காய்ச்சல் உள்ளது. நீங்கள் அதன் காதுகள், கால்களைத் தொட்டால் அவை எப்படி இருக்கும்?",
+                      "ಒಂದು ಪ್ರಾಣಿಗೆ ಜ್ವರವಿದೆ. ನೀವು ಅದರ ಕಿವಿ, ಕಾಲುಗಳನ್ನು ಮುಟ್ಟಿದರೆ ಅವು ಹೇಗೆ ಅನಿಸುತ್ತವೆ?",
+                      "एक पशु को बुखार है। अगर आप उसके कान और पैर छुएं, तो वे कैसे महसूस होंगे?"
+                    ),
+                    options: [
+                      L(
+                        "Hot, just like the rest of the body",
+                        "వేడిగా, శరీరంలోని మిగతా భాగాల్లాగే",
+                        "மற்ற உடலைப் போலவே சூடாக",
+                        "ಇತರ ದೇಹದಂತೆಯೇ ಬಿಸಿಯಾಗಿ",
+                        "गर्म, बाकी शरीर की तरह ही"
+                      ),
+                      L(
+                        "Cold, even though the body itself is too warm",
+                        "చల్లగా, శరీరం మాత్రం మరీ వేడిగా ఉన్నప్పటికీ",
+                        "உடல் மிகவும் சூடாக இருந்தாலும் குளிர்ச்சியாக",
+                        "ದೇಹ ಅತಿಯಾಗಿ ಬಿಸಿಯಾಗಿದ್ದರೂ ತಣ್ಣಗೆ",
+                        "ठंडे, भले ही शरीर खुद बहुत गर्म हो"
+                      ),
+                      L(
+                        "Exactly the same as a healthy animal",
+                        "ఆరోగ్యకరమైన జంతువులాగే సరిగ్గా అలాగే",
+                        "ஆரோக்கியமான விலங்கு போலவே சரியாக",
+                        "ಆರೋಗ್ಯಕರ ಪ್ರಾಣಿಯಂತೆಯೇ ನಿಖರವಾಗಿ",
+                        "बिल्कुल स्वस्थ पशु जैसे ही"
+                      ),
+                    ],
                     answer: 1,
                     reveal: L(
-                      "Cold ears, horns and legs together with a hot body is a classic, surprising sign of fever. Relying only on 'does the ear feel warm' will make you miss real fevers — always look at breathing, appetite and behaviour together too."
+                      "Cold ears, horns and legs together with a hot body is a classic, surprising sign of fever. Relying only on 'does the ear feel warm' will make you miss real fevers — always look at breathing, appetite and behaviour together too.",
+                      "చల్లని చెవులు, కొమ్ములు, కాళ్ళు వేడిగా ఉన్న శరీరంతో కలిసి ఉండటం జ్వరం యొక్క సాంప్రదాయ, ఆశ్చర్యకరమైన సంకేతం. 'చెవి వెచ్చగా ఉందా' అనే దానిపై మాత్రమే ఆధారపడటం వల్ల నిజమైన జ్వరాలను మీరు గమనించలేకపోవచ్చు — ఎప్పుడూ శ్వాస, ఆకలి, ప్రవర్తనను కూడా కలిపి చూడండి.",
+                      "குளிர்ந்த காதுகள், கொம்புகள், கால்கள் சூடான உடலுடன் சேர்ந்திருப்பது காய்ச்சலின் பாரம்பரியமான, ஆச்சரியமான அறிகுறி. 'காது சூடாக உணர்கிறதா' என்பதை மட்டும் நம்பினால் உண்மையான காய்ச்சல்களை நீங்கள் தவறவிடலாம் — எப்போதும் சுவாசம், பசி, நடத்தையையும் சேர்த்துப் பாருங்கள்.",
+                      "ತಣ್ಣನೆಯ ಕಿವಿ, ಕೊಂಬು, ಕಾಲುಗಳು ಬಿಸಿಯಾದ ದೇಹದೊಂದಿಗೆ ಇರುವುದು ಜ್ವರದ ಸಾಂಪ್ರದಾಯಿಕ, ಆಶ್ಚರ್ಯಕರ ಸೂಚನೆ. 'ಕಿವಿ ಬಿಸಿಯಾಗಿದೆಯೇ' ಎಂಬುದನ್ನು ಮಾತ್ರ ಅವಲಂಬಿಸುವುದರಿಂದ ನಿಜವಾದ ಜ್ವರಗಳನ್ನು ನೀವು ತಪ್ಪಿಸಿಕೊಳ್ಳಬಹುದು — ಯಾವಾಗಲೂ ಉಸಿರಾಟ, ಹಸಿವು, ವರ್ತನೆಯನ್ನೂ ಒಟ್ಟಿಗೆ ನೋಡಿ.",
+                      "ठंडे कान, सींग और पैर, गर्म शरीर के साथ मिलकर होना बुखार का एक पारंपरिक, चौंकाने वाला संकेत है। केवल 'कान गर्म लग रहा है या नहीं' पर भरोसा करने से आप असली बुखार को पहचानने से चूक सकते हैं — हमेशा सांस, भूख और व्यवहार को भी साथ में देखें।"
                     ),
                   },
                 ],
@@ -437,16 +1180,69 @@ export const MODULES = [
             check: [
               {
                 type: "truefalse",
-                q: L("During a fever, an animal's ears, horns and legs usually feel cold, even though its body is too warm."),
+                q: L(
+                  "During a fever, an animal's ears, horns and legs usually feel cold, even though its body is too warm.",
+                  "జ్వరం సమయంలో, జంతువు చెవులు, కొమ్ములు, కాళ్ళు సాధారణంగా చల్లగా అనిపిస్తాయి, శరీరం మాత్రం మరీ వేడిగా ఉన్నప్పటికీ.",
+                  "காய்ச்சலின் போது, விலங்கின் காதுகள், கொம்புகள், கால்கள் பொதுவாக குளிர்ச்சியாக உணரப்படும், அதன் உடல் மிகவும் சூடாக இருந்தாலும் கூட.",
+                  "ಜ್ವರದ ಸಮಯದಲ್ಲಿ, ಪ್ರಾಣಿಯ ಕಿವಿ, ಕೊಂಬು, ಕಾಲುಗಳು ಸಾಮಾನ್ಯವಾಗಿ ತಣ್ಣಗೆ ಅನಿಸುತ್ತವೆ, ಅದರ ದೇಹ ಅತಿಯಾಗಿ ಬಿಸಿಯಾಗಿದ್ದರೂ ಸಹ.",
+                  "बुखार के दौरान, पशु के कान, सींग और पैर आमतौर पर ठंडे महसूस होते हैं, भले ही उसका शरीर बहुत गर्म हो।"
+                ),
                 answer: true,
-                explain: L("Correct — this surprising pattern is exactly why you should never judge fever from the ears alone."),
+                explain: L(
+                  "Correct — this surprising pattern is exactly why you should never judge fever from the ears alone.",
+                  "సరైనది — ఈ ఆశ్చర్యకరమైన నమూనా వల్లనే మీరు కేవలం చెవులను బట్టి జ్వరాన్ని అంచనా వేయకూడదు.",
+                  "சரி — இந்த ஆச்சரியமான முறைதான் நீங்கள் காதுகளை மட்டும் வைத்து காய்ச்சலை ஒருபோதும் மதிப்பிடக்கூடாது என்பதற்கான காரணம்.",
+                  "ಸರಿ — ಈ ಆಶ್ಚರ್ಯಕರ ಮಾದರಿಯಿಂದಾಗಿಯೇ ನೀವು ಕೇವಲ ಕಿವಿಗಳಿಂದ ಜ್ವರವನ್ನು ಎಂದಿಗೂ ನಿರ್ಣಯಿಸಬಾರದು.",
+                  "सही है — इसी चौंकाने वाले पैटर्न की वजह से आपको कभी भी सिर्फ कानों से बुखार का अंदाजा नहीं लगाना चाहिए।"
+                ),
               },
               {
                 type: "mcq",
-                q: L("Which of these is a sign of a HEALTHY coat and appearance?"),
-                options: [L("Dull, patchy hair"), L("A shiny, smooth, even coat and a moist muzzle"), L("Watery, runny eyes"), L("A dry, crusty muzzle")],
+                q: L(
+                  "Which of these is a sign of a HEALTHY coat and appearance?",
+                  "వీటిలో ఏది ఆరోగ్యకరమైన వెంట్రుకలు మరియు రూపానికి సంకేతం?",
+                  "இவற்றில் எது ஆரோக்கியமான ரோமம் மற்றும் தோற்றத்தின் அறிகுறி?",
+                  "ಇವುಗಳಲ್ಲಿ ಯಾವುದು ಆರೋಗ್ಯಕರ ಕೂದಲು ಮತ್ತು ರೂಪದ ಸೂಚನೆ?",
+                  "इनमें से कौन सा स्वस्थ रोयें और रूप का संकेत है?"
+                ),
+                options: [
+                  L(
+                    "Dull, patchy hair",
+                    "నిస్తేజమైన, మచ్చలుగా ఉన్న వెంట్రుకలు",
+                    "மங்கலான, கறை படிந்த ரோமம்",
+                    "ಮಂದವಾದ, ಚುಕ್ಕೆಗಳ ಕೂದಲು",
+                    "बेजान, धब्बेदार रोयें"
+                  ),
+                  L(
+                    "A shiny, smooth, even coat and a moist muzzle",
+                    "మెరిసే, నునుపైన, సమానమైన వెంట్రుకలు, తేమగా ఉన్న ముట్టె",
+                    "பளபளப்பான, மென்மையான, சமமான ரோமம் மற்றும் ஈரமான மூக்கு",
+                    "ಹೊಳೆಯುವ, ನಯವಾದ, ಸಮನಾದ ಕೂದಲು ಮತ್ತು ಒದ್ದೆಯಾದ ಮೂತಿ",
+                    "चमकदार, चिकने, एकसमान रोयें और नम नाक"
+                  ),
+                  L(
+                    "Watery, runny eyes",
+                    "నీరు కారుతున్న కళ్ళు",
+                    "நீர் வழியும் கண்கள்",
+                    "ನೀರು ಸೋರುವ ಕಣ್ಣುಗಳು",
+                    "पानी बहती, गीली आंखें"
+                  ),
+                  L(
+                    "A dry, crusty muzzle",
+                    "పొడిగా, పొక్కులతో ఉన్న ముట్టె",
+                    "உலர்ந்த, சொரசொரப்பான மூக்கு",
+                    "ಒಣಗಿದ, ಒರಟಾದ ಮೂತಿ",
+                    "सूखी, पपड़ीदार नाक"
+                  ),
+                ],
                 answer: 1,
-                explain: L("A healthy animal has a shiny, smooth, even coat, clear eyes, and a muzzle that feels a little moist."),
+                explain: L(
+                  "A healthy animal has a shiny, smooth, even coat, clear eyes, and a muzzle that feels a little moist.",
+                  "ఆరోగ్యకరమైన జంతువుకు మెరిసే, నునుపైన, సమానమైన వెంట్రుకలు, స్పష్టమైన కళ్ళు, కొంచెం తేమగా అనిపించే ముట్టె ఉంటాయి.",
+                  "ஆரோக்கியமான விலங்குக்கு பளபளப்பான, மென்மையான, சமமான ரோமம், தெளிவான கண்கள், சற்று ஈரமாக உணரப்படும் மூக்கு இருக்கும்.",
+                  "ಆರೋಗ್ಯಕರ ಪ್ರಾಣಿಗೆ ಹೊಳೆಯುವ, ನಯವಾದ, ಸಮನಾದ ಕೂದಲು, ಸ್ಪಷ್ಟವಾದ ಕಣ್ಣುಗಳು, ಸ್ವಲ್ಪ ಒದ್ದೆಯಾಗಿ ಅನಿಸುವ ಮೂತಿ ಇರುತ್ತದೆ.",
+                  "स्वस्थ पशु के चमकदार, चिकने, एकसमान रोयें, साफ आंखें, और थोड़ी नम महसूस होने वाली नाक होती है।"
+                ),
               },
             ],
           },
@@ -457,37 +1253,138 @@ export const MODULES = [
             {
               topicId: "t-vitals-normal",
               type: "mcq",
-              q: L("A calf's normal breathing rate is:"),
-              options: [L("Slower than an adult's"), L("The same as an adult's"), L("Faster than an adult's — 30–50 breaths a minute"), L("Impossible to count")],
+              q: L(
+                "A calf's normal breathing rate is:",
+                "దూడ యొక్క సాధారణ శ్వాస రేటు:",
+                "ஒரு கன்றின் சாதாரண சுவாச விகிதம்:",
+                "ಕರುವಿನ ಸಾಮಾನ್ಯ ಉಸಿರಾಟದ ಪ್ರಮಾಣ:",
+                "बछड़े की सामान्य सांस दर है:"
+              ),
+              options: [
+                L(
+                  "Slower than an adult's",
+                  "వయోజన జంతువు కంటే నెమ్మది",
+                  "வளர்ந்த விலங்கை விட மெதுவானது",
+                  "ವಯಸ್ಕಕ್ಕಿಂತ ನಿಧಾನ",
+                  "वयस्क से धीमी"
+                ),
+                L(
+                  "The same as an adult's",
+                  "వయోజన జంతువుతో సమానం",
+                  "வளர்ந்த விலங்கு போலவே",
+                  "ವಯಸ್ಕದಂತೆಯೇ",
+                  "वयस्क जितनी ही"
+                ),
+                L(
+                  "Faster than an adult's — 30–50 breaths a minute",
+                  "వయోజన జంతువు కంటే వేగంగా — నిమిషానికి 30–50 శ్వాసలు",
+                  "வளர்ந்த விலங்கை விட வேகமானது — நிமிடத்திற்கு 30–50 சுவாசங்கள்",
+                  "ವಯಸ್ಕಕ್ಕಿಂತ ವೇಗ — ನಿಮಿಷಕ್ಕೆ 30–50 ಉಸಿರಾಟಗಳು",
+                  "वयस्क से तेज — प्रति मिनट 30–50 सांसें"
+                ),
+                L(
+                  "Impossible to count",
+                  "లెక్కించడం అసాధ్యం",
+                  "எண்ண முடியாதது",
+                  "ಎಣಿಸಲು ಅಸಾಧ್ಯ",
+                  "गिनना असंभव"
+                ),
+              ],
               answer: 2,
-              explain: L("Calves breathe faster than adults — 30–50 breaths a minute is normal for a calf, compared with 10–30 for an adult."),
+              explain: L(
+                "Calves breathe faster than adults — 30–50 breaths a minute is normal for a calf, compared with 10–30 for an adult.",
+                "దూడలు వయోజనుల కంటే వేగంగా శ్వాస తీసుకుంటాయి — దూడకు నిమిషానికి 30–50 శ్వాసలు సాధారణం, వయోజనానికి 10–30తో పోలిస్తే.",
+                "கன்றுகள் வளர்ந்த விலங்குகளை விட வேகமாக சுவாசிக்கும் — ஒரு கன்றுக்கு நிமிடத்திற்கு 30–50 சுவாசங்கள் சாதாரணம், வளர்ந்த விலங்குக்கு 10–30 உடன் ஒப்பிடும்போது.",
+                "ಕರುಗಳು ವಯಸ್ಕರಿಗಿಂತ ವೇಗವಾಗಿ ಉಸಿರಾಡುತ್ತವೆ — ಕರುವಿಗೆ ನಿಮಿಷಕ್ಕೆ 30–50 ಉಸಿರಾಟಗಳು ಸಾಮಾನ್ಯ, ವಯಸ್ಕಕ್ಕೆ 10–30 ಗೆ ಹೋಲಿಸಿದರೆ.",
+                "बछड़े वयस्कों से तेज सांस लेते हैं — बछड़े के लिए प्रति मिनट 30–50 सांसें सामान्य हैं, जबकि वयस्क के लिए 10–30।"
+              ),
             },
             {
               topicId: "t-vitals-normal",
               type: "truefalse",
-              q: L("A healthy, resting animal chews the cud for 7–10 hours across the whole day."),
+              q: L(
+                "A healthy, resting animal chews the cud for 7–10 hours across the whole day.",
+                "ఆరోగ్యకరమైన, విశ్రాంతి తీసుకుంటున్న జంతువు రోజంతా 7–10 గంటలు నెమరు వేస్తుంది.",
+                "ஆரோக்கியமான, ஓய்வெடுக்கும் விலங்கு நாள் முழுவதும் 7–10 மணி நேரம் அசைபோடும்.",
+                "ಆರೋಗ್ಯಕರ, ವಿಶ್ರಾಂತಿ ಪಡೆಯುತ್ತಿರುವ ಪ್ರಾಣಿ ದಿನವಿಡೀ 7–10 ಗಂಟೆ ಮೆಲುಕು ಹಾಕುತ್ತದೆ.",
+                "स्वस्थ, आराम कर रहा पशु पूरे दिन में 7–10 घंटे जुगाली करता है।"
+              ),
               answer: true,
-              explain: L("Yes — chewing the cud (ruminating) for 7–10 hours a day, at least 40 chews a minute, is completely normal."),
+              explain: L(
+                "Yes — chewing the cud (ruminating) for 7–10 hours a day, at least 40 chews a minute, is completely normal.",
+                "అవును — రోజుకు 7–10 గంటలు నెమరు వేయడం, నిమిషానికి కనీసం 40 సార్లు నమలడం పూర్తిగా సాధారణం.",
+                "ஆம் — ஒரு நாளைக்கு 7–10 மணி நேரம் அசைபோடுவது, நிமிடத்திற்கு குறைந்தது 40 முறை மெல்வது முற்றிலும் சாதாரணம்.",
+                "ಹೌದು — ದಿನಕ್ಕೆ 7–10 ಗಂಟೆ ಮೆಲುಕು ಹಾಕುವುದು, ನಿಮಿಷಕ್ಕೆ ಕನಿಷ್ಠ 40 ಬಾರಿ ಅಗಿಯುವುದು ಸಂಪೂರ್ಣ ಸಾಮಾನ್ಯ.",
+                "हां — दिन में 7–10 घंटे जुगाली करना, प्रति मिनट कम से कम 40 बार चबाना, पूरी तरह सामान्य है।"
+              ),
             },
             {
               topicId: "t-vitals-appearance-fever",
               type: "mcq",
-              q: L("What is the surprising, classic sign pattern of fever?"),
+              q: L(
+                "What is the surprising, classic sign pattern of fever?",
+                "జ్వరం యొక్క ఆశ్చర్యకరమైన, సాంప్రదాయ సంకేత నమూనా ఏమిటి?",
+                "காய்ச்சலின் ஆச்சரியமான, பாரம்பரிய அறிகுறி முறை என்ன?",
+                "ಜ್ವರದ ಆಶ್ಚರ್ಯಕರ, ಸಾಂಪ್ರದಾಯಿಕ ಸೂಚನೆ ಮಾದರಿ ಏನು?",
+                "बुखार का चौंकाने वाला, पारंपरिक संकेत क्या है?"
+              ),
               options: [
-                L("Hot ears together with a hot body"),
-                L("Cold ears, horns and legs together with a hot body"),
-                L("A cold body with cold ears"),
-                L("No change anywhere on the body"),
+                L(
+                  "Hot ears together with a hot body",
+                  "వేడి శరీరంతో పాటు వేడి చెవులు",
+                  "சூடான உடலுடன் சூடான காதுகள்",
+                  "ಬಿಸಿಯಾದ ದೇಹದೊಂದಿಗೆ ಬಿಸಿಯಾದ ಕಿವಿ",
+                  "गर्म शरीर के साथ गर्म कान"
+                ),
+                L(
+                  "Cold ears, horns and legs together with a hot body",
+                  "వేడి శరీరంతో పాటు చల్లని చెవులు, కొమ్ములు, కాళ్ళు",
+                  "சூடான உடலுடன் குளிர்ந்த காதுகள், கொம்புகள், கால்கள்",
+                  "ಬಿಸಿಯಾದ ದೇಹದೊಂದಿಗೆ ತಣ್ಣನೆಯ ಕಿವಿ, ಕೊಂಬು, ಕಾಲುಗಳು",
+                  "गर्म शरीर के साथ ठंडे कान, सींग और पैर"
+                ),
+                L(
+                  "A cold body with cold ears",
+                  "చల్లని శరీరంతో చల్లని చెవులు",
+                  "குளிர்ந்த உடலுடன் குளிர்ந்த காதுகள்",
+                  "ತಣ್ಣನೆಯ ದೇಹದೊಂದಿಗೆ ತಣ್ಣನೆಯ ಕಿವಿ",
+                  "ठंडे शरीर के साथ ठंडे कान"
+                ),
+                L(
+                  "No change anywhere on the body",
+                  "శరీరంలో ఎక్కడా మార్పు లేదు",
+                  "உடலில் எங்கும் மாற்றம் இல்லை",
+                  "ದೇಹದಲ್ಲಿ ಎಲ್ಲಿಯೂ ಬದಲಾವಣೆ ಇಲ್ಲ",
+                  "शरीर में कहीं भी कोई बदलाव नहीं"
+                ),
               ],
               answer: 1,
-              explain: L("Fever classically shows up as a hot body with cold ears, horns and legs — the opposite of what most people expect the first time."),
+              explain: L(
+                "Fever classically shows up as a hot body with cold ears, horns and legs — the opposite of what most people expect the first time.",
+                "జ్వరం సాంప్రదాయకంగా వేడి శరీరం, చల్లని చెవులు, కొమ్ములు, కాళ్ళుగా కనిపిస్తుంది — ఎక్కువమంది మొదటిసారి ఆశించేదానికి వ్యతిరేకంగా.",
+                "காய்ச்சல் பாரம்பரியமாக சூடான உடல், குளிர்ந்த காதுகள், கொம்புகள், கால்களாக தோன்றும் — பெரும்பாலான மக்கள் முதல் முறையில் எதிர்பார்ப்பதற்கு நேர்மாறாக.",
+                "ಜ್ವರ ಸಾಂಪ್ರದಾಯಿಕವಾಗಿ ಬಿಸಿಯಾದ ದೇಹ, ತಣ್ಣನೆಯ ಕಿವಿ, ಕೊಂಬು, ಕಾಲುಗಳಾಗಿ ಕಾಣಿಸಿಕೊಳ್ಳುತ್ತದೆ — ಹೆಚ್ಚಿನ ಜನರು ಮೊದಲ ಬಾರಿ ನಿರೀಕ್ಷಿಸುವುದಕ್ಕೆ ವಿರುದ್ಧವಾಗಿ.",
+                "बुखार पारंपरिक रूप से गर्म शरीर के साथ ठंडे कान, सींग और पैर के रूप में दिखता है — ज्यादातर लोग पहली बार जो उम्मीद करते हैं उसके उलट।"
+              ),
             },
             {
               topicId: "t-vitals-appearance-fever",
               type: "truefalse",
-              q: L("A moist muzzle and a shiny, even coat are both signs of good health."),
+              q: L(
+                "A moist muzzle and a shiny, even coat are both signs of good health.",
+                "తేమగా ఉన్న ముట్టె, మెరిసే, సమానమైన వెంట్రుకలు రెండూ మంచి ఆరోగ్యానికి సంకేతాలు.",
+                "ஈரமான மூக்கும், பளபளப்பான, சமமான ரோமமும் இரண்டும் நல்ல ஆரோக்கியத்தின் அறிகுறிகள்.",
+                "ಒದ್ದೆಯಾದ ಮೂತಿ ಮತ್ತು ಹೊಳೆಯುವ, ಸಮನಾದ ಕೂದಲು ಎರಡೂ ಒಳ್ಳೆಯ ಆರೋಗ್ಯದ ಸೂಚನೆಗಳು.",
+                "नम नाक और चमकदार, एकसमान रोयें दोनों अच्छे स्वास्थ्य के संकेत हैं।"
+              ),
               answer: true,
-              explain: L("Yes — both are signs the animal is healthy: a shiny, even coat, and a muzzle that feels a little moist rather than dry or crusty."),
+              explain: L(
+                "Yes — both are signs the animal is healthy: a shiny, even coat, and a muzzle that feels a little moist rather than dry or crusty.",
+                "అవును — రెండూ జంతువు ఆరోగ్యంగా ఉందని సంకేతాలు: మెరిసే, సమానమైన వెంట్రుకలు, పొడిగా లేదా పొక్కులుగా కాకుండా కొంచెం తేమగా అనిపించే ముట్టె.",
+                "ஆம் — இரண்டும் விலங்கு ஆரோக்கியமாக இருப்பதற்கான அறிகுறிகள்: பளபளப்பான, சமமான ரோமம், உலர்ந்ததாகவோ சொரசொரப்பாகவோ இல்லாமல் சற்று ஈரமாக உணரப்படும் மூக்கு.",
+                "ಹೌದು — ಎರಡೂ ಪ್ರಾಣಿ ಆರೋಗ್ಯವಾಗಿದೆ ಎಂಬುದರ ಸೂಚನೆಗಳು: ಹೊಳೆಯುವ, ಸಮನಾದ ಕೂದಲು, ಒಣಗಿ ಅಥವಾ ಒರಟಾಗಿರದೆ ಸ್ವಲ್ಪ ಒದ್ದೆಯಾಗಿ ಅನಿಸುವ ಮೂತಿ.",
+                "हां — दोनों ही पशु के स्वस्थ होने के संकेत हैं: चमकदार, एकसमान रोयें, और सूखी या पपड़ीदार होने की बजाय थोड़ी नम महसूस होने वाली नाक।"
+              ),
             },
           ],
         },
