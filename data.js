@@ -10081,64 +10081,162 @@ export const MODULES = [
       },
       {
         id: "t-m15-straw-safety",
-        title: L("How Treatment Works — and Why Safety Comes First"),
+        title: L(
+          "How Treatment Works — and Why Safety Comes First",
+          "శుద్ధి ఎలా పనిచేస్తుంది — మరియు భద్రత ఎందుకు మొదట రావాలి",
+          "சிகிச்சை எப்படி செயல்படுகிறது — மற்றும் பாதுகாப்பு ஏன் முதலில் வர வேண்டும்",
+          "ಸಂಸ್ಕರಣೆ ಹೇಗೆ ಕೆಲಸ ಮಾಡುತ್ತದೆ — ಮತ್ತು ಸುರಕ್ಷತೆ ಏಕೆ ಮೊದಲು ಬರಬೇಕು",
+          "उपचार कैसे काम करता है — और सुरक्षा पहले क्यों आनी चाहिए"
+        ),
         teach: [
           {
             type: "callout",
             style: "warning",
-            heading: L("The Most Important Rule: Never Feed Urea Directly"),
+            heading: L(
+              "The Most Important Rule: Never Feed Urea Directly",
+              "అత్యంత ముఖ్యమైన నియమం: యూరియాను నేరుగా ఎప్పుడూ తినిపించవద్దు",
+              "மிக முக்கியமான விதி: யூரியாவை நேரடியாக ஒருபோதும் ஊட்டாதீர்கள்",
+              "ಅತ್ಯಂತ ಮುಖ್ಯವಾದ ನಿಯಮ: ಯೂರಿಯಾವನ್ನು ಎಂದಿಗೂ ನೇರವಾಗಿ ತಿನ್ನಿಸಬೇಡಿ",
+              "सबसे महत्वपूर्ण नियम: यूरिया कभी भी सीधे न खिलाएं"
+            ),
             text: L(
-              "Urea itself, or urea solution, must NEVER be fed directly to an animal — on its own, it is fatal. The whole point of the treatment described here is that the urea reacts with and is absorbed into the straw over several weeks of sealed storage, before the straw is ever fed. While preparing the urea solution, always keep it safely out of the reach of animals."
+              "Urea itself, or urea solution, must NEVER be fed directly to an animal — on its own, it is fatal. The whole point of the treatment described here is that the urea reacts with and is absorbed into the straw over several weeks of sealed storage, before the straw is ever fed. While preparing the urea solution, always keep it safely out of the reach of animals.",
+              "యూరియాను స్వయంగా, లేదా యూరియా ద్రావణాన్ని ఎప్పుడూ జంతువుకు నేరుగా తినిపించకూడదు — ఇది స్వయంగా ప్రాణాంతకం. ఇక్కడ వివరించిన శుద్ధి యొక్క మొత్తం ఉద్దేశ్యం ఏమిటంటే, గడ్డిని తినిపించడానికి ముందు, యూరియా అనేక వారాల మూసివేసిన నిల్వలో గడ్డితో చర్య జరిపి, దానిలో శోషించబడుతుంది. యూరియా ద్రావణాన్ని తయారు చేస్తున్నప్పుడు, దాన్ని ఎల్లప్పుడూ జంతువులకు అందుబాటులో లేకుండా సురక్షితంగా ఉంచండి.",
+              "யூரியாவையோ, யூரியா கரைசலையோ ஒருபோதும் விலங்குக்கு நேரடியாக ஊட்டக்கூடாது — தானாகவே இது கொல்லக்கூடியது. இங்கு விவரிக்கப்பட்ட சிகிச்சையின் முழுக் கருத்தும், வைக்கோலை ஊட்டுவதற்கு முன், பல வாரங்கள் மூடிய சேமிப்பில் யூரியா வைக்கோலுடன் வினைபுரிந்து அதில் உறிஞ்சப்படுவதுதான். யூரியா கரைசலைத் தயாரிக்கும்போது, அதை எப்போதும் விலங்குகளுக்கு எட்டாத தூரத்தில் பாதுகாப்பாக வைக்கவும்.",
+              "ಯೂರಿಯಾವನ್ನೇ, ಅಥವಾ ಯೂರಿಯಾ ದ್ರಾವಣವನ್ನು ಎಂದಿಗೂ ಪ್ರಾಣಿಗೆ ನೇರವಾಗಿ ತಿನ್ನಿಸಬಾರದು — ಇದು ತಾನಾಗಿಯೇ ಮಾರಕ. ಇಲ್ಲಿ ವಿವರಿಸಿದ ಸಂಸ್ಕರಣೆಯ ಸಂಪೂರ್ಣ ಉದ್ದೇಶವೆಂದರೆ, ಒಣಹುಲ್ಲನ್ನು ತಿನ್ನಿಸುವ ಮೊದಲು, ಯೂರಿಯಾ ಹಲವು ವಾರಗಳ ಮುಚ್ಚಿದ ಸಂಗ್ರಹಣೆಯಲ್ಲಿ ಒಣಹುಲ್ಲಿನೊಂದಿಗೆ ಪ್ರತಿಕ್ರಿಯಿಸಿ ಅದರಲ್ಲಿ ಹೀರಿಕೊಳ್ಳುತ್ತದೆ. ಯೂರಿಯಾ ದ್ರಾವಣವನ್ನು ತಯಾರಿಸುವಾಗ, ಅದನ್ನು ಯಾವಾಗಲೂ ಪ್ರಾಣಿಗಳ ಕೈಗೆಟುಕದಂತೆ ಸುರಕ್ಷಿತವಾಗಿ ಇರಿಸಿ.",
+              "यूरिया या यूरिया घोल को कभी भी सीधे पशु को नहीं खिलाना चाहिए — अपने आप में यह घातक है। यहां बताए गए उपचार का पूरा मकसद यही है कि भूसे को खिलाने से पहले, यूरिया कई हफ्तों की सीलबंद भंडारण अवधि में भूसे के साथ प्रतिक्रिया करके उसमें समा जाए। यूरिया घोल तैयार करते समय, इसे हमेशा पशुओं की पहुंच से सुरक्षित दूर रखें।"
             ),
           },
           {
             type: "text",
-            heading: L("The Basic Idea of the Process"),
+            heading: L(
+              "The Basic Idea of the Process",
+              "ప్రక్రియ యొక్క ప్రాథమిక ఆలోచన",
+              "செயல்முறையின் அடிப்படைக் கருத்து",
+              "ಪ್ರಕ್ರಿಯೆಯ ಮೂಲ ಕಲ್ಪನೆ",
+              "प्रक्रिया का मूल विचार"
+            ),
             html: L(
-              "In simple terms, straw is dampened with a urea-and-water solution, spread out and packed down in layers, and then completely covered and sealed away from air — often with a plastic sheet weighed down with soil, or with a layer of soil and wet clay or dung if no plastic sheet is available. Sealing it airtight is essential: it lets the urea convert into ammonia gas inside the heap, which is what improves the straw, and sealing also stops that gas from simply escaping and being wasted."
+              "In simple terms, straw is dampened with a urea-and-water solution, spread out and packed down in layers, and then completely covered and sealed away from air — often with a plastic sheet weighed down with soil, or with a layer of soil and wet clay or dung if no plastic sheet is available. Sealing it airtight is essential: it lets the urea convert into ammonia gas inside the heap, which is what improves the straw, and sealing also stops that gas from simply escaping and being wasted.",
+              "సరళంగా చెప్పాలంటే, గడ్డిని యూరియా-నీటి ద్రావణంతో తడిపి, పొరలుగా పరచి అదిమి, తర్వాత పూర్తిగా కప్పి గాలి తగలకుండా మూసేస్తారు — తరచుగా మట్టితో బరువు పెట్టిన ప్లాస్టిక్ షీటుతో, లేదా ప్లాస్టిక్ షీట్ అందుబాటులో లేకపోతే మట్టి మరియు తడి బంకమన్ను లేదా పేడ పొరతో. దీన్ని గాలి చొరబడకుండా మూసివేయడం అవసరం: ఇది కుప్ప లోపల యూరియాను అమ్మోనియా వాయువుగా మార్చనిస్తుంది, ఇదే గడ్డిని మెరుగుపరుస్తుంది, మరియు మూసివేయడం ఆ వాయువు వృథాగా బయటకు పోకుండా కూడా ఆపుతుంది.",
+              "எளிமையாகச் சொன்னால், வைக்கோல் யூரியா-நீர் கரைசலால் ஈரமாக்கப்பட்டு, அடுக்குகளாக பரப்பி அடைக்கப்பட்டு, பின்னர் முழுவதுமாக மூடி காற்று படாமல் அடைக்கப்படுகிறது — பெரும்பாலும் மண்ணால் எடையிடப்பட்ட பிளாஸ்டிக் தாளால், அல்லது பிளாஸ்டிக் தாள் இல்லையென்றால் மண் மற்றும் ஈரமான களிமண் அல்லது சாணத்தின் அடுக்கால். காற்று புகாமல் மூடுவது அவசியம்: இது குவியலுக்குள் யூரியாவை அமோனியா வாயுவாக மாற்ற அனுமதிக்கிறது, இதுவே வைக்கோலை மேம்படுத்துகிறது, மேலும் மூடுவது அந்த வாயு வெறுமனே வெளியேறி வீணாவதையும் தடுக்கிறது.",
+              "ಸರಳವಾಗಿ ಹೇಳುವುದಾದರೆ, ಒಣಹುಲ್ಲನ್ನು ಯೂರಿಯಾ-ನೀರಿನ ದ್ರಾವಣದಿಂದ ತೇವಗೊಳಿಸಿ, ಪದರಗಳಾಗಿ ಹರಡಿ ಒತ್ತಿ, ನಂತರ ಸಂಪೂರ್ಣವಾಗಿ ಮುಚ್ಚಿ ಗಾಳಿ ಸೇರದಂತೆ ಮುಚ್ಚಲಾಗುತ್ತದೆ — ಸಾಮಾನ್ಯವಾಗಿ ಮಣ್ಣಿನಿಂದ ತೂಕ ಹಾಕಿದ ಪ್ಲಾಸ್ಟಿಕ್ ಹಾಳೆಯಿಂದ, ಅಥವಾ ಪ್ಲಾಸ್ಟಿಕ್ ಹಾಳೆ ಲಭ್ಯವಿಲ್ಲದಿದ್ದರೆ ಮಣ್ಣು ಮತ್ತು ಒದ್ದೆ ಜೇಡಿಮಣ್ಣು ಅಥವಾ ಸಗಣಿಯ ಪದರದಿಂದ. ಗಾಳಿ ಸೇರದಂತೆ ಮುಚ್ಚುವುದು ಅಗತ್ಯ: ಇದು ರಾಶಿಯೊಳಗೆ ಯೂರಿಯಾ ಅಮೋನಿಯಾ ಅನಿಲವಾಗಿ ಪರಿವರ್ತನೆಗೊಳ್ಳಲು ಅವಕಾಶ ನೀಡುತ್ತದೆ, ಇದೇ ಒಣಹುಲ್ಲನ್ನು ಸುಧಾರಿಸುತ್ತದೆ, ಮತ್ತು ಮುಚ್ಚುವಿಕೆ ಆ ಅನಿಲ ಸುಮ್ಮನೆ ಹೊರಹೋಗಿ ವ್ಯರ್ಥವಾಗುವುದನ್ನೂ ತಡೆಯುತ್ತದೆ.",
+              "सरल शब्दों में, भूसे को यूरिया-पानी के घोल से गीला किया जाता है, परतों में फैलाकर दबाया जाता है, फिर पूरी तरह ढककर हवा से बचाकर सील किया जाता है — अक्सर मिट्टी से दबाई गई प्लास्टिक शीट से, या अगर प्लास्टिक शीट उपलब्ध न हो तो मिट्टी और गीली चिकनी मिट्टी या गोबर की परत से। इसे हवा-रोधी सील करना जरूरी है: इससे ढेर के अंदर यूरिया अमोनिया गैस में बदल जाता है, यही भूसे को बेहतर बनाता है, और सील करना उस गैस को यूं ही निकलकर बर्बाद होने से भी रोकता है।"
             ),
           },
           {
             type: "glossary",
-            term: L("Airtight Sealing"),
+            term: L("Airtight Sealing", "గాలి చొరబడని మూసివేత", "காற்று புகாத அடைப்பு", "ಗಾಳಿ ಸೇರದ ಮುಚ್ಚುವಿಕೆ", "हवा-रोधी सील"),
             meaning: L(
-              "Covering the treated straw heap completely so no air gets in and no gas escapes — usually with a plastic sheet and a layer of packed soil at the edges, or an alternative covering if plastic isn't available."
+              "Covering the treated straw heap completely so no air gets in and no gas escapes — usually with a plastic sheet and a layer of packed soil at the edges, or an alternative covering if plastic isn't available.",
+              "శుద్ధి చేసిన గడ్డి కుప్పను పూర్తిగా కప్పడం, తద్వారా గాలి లోపలికి రాదు మరియు వాయువు బయటకు పోదు — సాధారణంగా ప్లాస్టిక్ షీట్ మరియు అంచుల వద్ద అదిమిన మట్టి పొరతో, లేదా ప్లాస్టిక్ అందుబాటులో లేకపోతే మరో ప్రత్యామ్నాయ కప్పుతో.",
+              "சிகிச்சை செய்யப்பட்ட வைக்கோல் குவியலை முழுவதுமாக மூடுவது, இதனால் காற்று உள்ளே செல்லாது வாயுவும் வெளியேறாது — பொதுவாக பிளாஸ்டிக் தாள் மற்றும் விளிம்புகளில் அழுத்திய மண் அடுக்கால், அல்லது பிளாஸ்டிக் இல்லையென்றால் மாற்று மூடி.",
+              "ಸಂಸ್ಕರಿಸಿದ ಒಣಹುಲ್ಲಿನ ರಾಶಿಯನ್ನು ಸಂಪೂರ್ಣವಾಗಿ ಮುಚ್ಚುವುದು, ಇದರಿಂದ ಗಾಳಿ ಒಳಗೆ ಸೇರುವುದಿಲ್ಲ ಮತ್ತು ಅನಿಲ ಹೊರಹೋಗುವುದಿಲ್ಲ — ಸಾಮಾನ್ಯವಾಗಿ ಪ್ಲಾಸ್ಟಿಕ್ ಹಾಳೆ ಮತ್ತು ಅಂಚುಗಳಲ್ಲಿ ಒತ್ತಿದ ಮಣ್ಣಿನ ಪದರದಿಂದ, ಅಥವಾ ಪ್ಲಾಸ್ಟಿಕ್ ಲಭ್ಯವಿಲ್ಲದಿದ್ದರೆ ಪರ್ಯಾಯ ಹೊದಿಕೆಯಿಂದ.",
+              "उपचारित भूसे के ढेर को पूरी तरह ढकना ताकि हवा अंदर न जाए और गैस बाहर न निकले — आमतौर पर प्लास्टिक शीट और किनारों पर दबाई गई मिट्टी की परत से, या प्लास्टिक उपलब्ध न होने पर किसी वैकल्पिक ढक्कन से।"
             ),
           },
           {
             type: "text",
-            heading: L("Waiting, Airing Out, and Feeding Gradually"),
+            heading: L(
+              "Waiting, Airing Out, and Feeding Gradually",
+              "వేచి ఉండటం, గాలికి ఆరబెట్టడం, క్రమంగా తినిపించడం",
+              "காத்திருத்தல், காற்றோட்டமாக்குதல், மற்றும் படிப்படியாக ஊட்டுதல்",
+              "ಕಾಯುವುದು, ಗಾಳಿಗೆ ಆರಿಸುವುದು, ಮತ್ತು ಕ್ರಮೇಣ ತಿನ್ನಿಸುವುದು",
+              "इंतजार करना, हवा में सुखाना, और धीरे-धीरे खिलाना"
+            ),
             html: L(
-              "The sealed heap needs to sit for some weeks before it's ready — roughly three weeks in summer, or about four weeks in winter, since the reaction happens more slowly in cooler weather. Once opened, the straw should be spread out in the open air for a while first, so that any leftover ammonia gas can escape, before it is ever given to the animals."
+              "The sealed heap needs to sit for some weeks before it's ready — roughly three weeks in summer, or about four weeks in winter, since the reaction happens more slowly in cooler weather. Once opened, the straw should be spread out in the open air for a while first, so that any leftover ammonia gas can escape, before it is ever given to the animals.",
+              "మూసివేసిన కుప్ప సిద్ధమయ్యేముందు కొన్ని వారాలు అలానే ఉండాలి — వేసవిలో సుమారు మూడు వారాలు, లేదా చలికాలంలో సుమారు నాలుగు వారాలు, ఎందుకంటే చల్లని వాతావరణంలో చర్య నెమ్మదిగా జరుగుతుంది. తెరిచిన తర్వాత, జంతువులకు ఇవ్వడానికి ముందు, ఏదైనా మిగిలిన అమ్మోనియా వాయువు బయటకు పోవడానికి గడ్డిని కొంత సమయం బహిరంగ గాలిలో పరచాలి.",
+              "மூடிய குவியல் தயாராவதற்கு முன் சில வாரங்கள் இருக்க வேண்டும் — கோடையில் சுமார் மூன்று வாரங்கள், அல்லது குளிர்காலத்தில் சுமார் நான்கு வாரங்கள், ஏனெனில் குளிர்ந்த வானிலையில் வினை மெதுவாக நடக்கும். திறந்த பிறகு, விலங்குகளுக்குக் கொடுப்பதற்கு முன், மீதமான அமோனியா வாயு வெளியேற வைக்கோலை சிறிது நேரம் திறந்த காற்றில் பரப்ப வேண்டும்.",
+              "ಮುಚ್ಚಿದ ರಾಶಿ ಸಿದ್ಧವಾಗುವ ಮೊದಲು ಕೆಲವು ವಾರಗಳ ಕಾಲ ಹಾಗೇ ಇರಬೇಕು — ಬೇಸಿಗೆಯಲ್ಲಿ ಸುಮಾರು ಮೂರು ವಾರಗಳು, ಅಥವಾ ಚಳಿಗಾಲದಲ್ಲಿ ಸುಮಾರು ನಾಲ್ಕು ವಾರಗಳು, ಏಕೆಂದರೆ ತಂಪಾದ ಹವಾಮಾನದಲ್ಲಿ ಪ್ರತಿಕ್ರಿಯೆ ನಿಧಾನವಾಗಿ ನಡೆಯುತ್ತದೆ. ತೆರೆದ ನಂತರ, ಪ್ರಾಣಿಗಳಿಗೆ ಕೊಡುವ ಮೊದಲು, ಯಾವುದೇ ಉಳಿದ ಅಮೋನಿಯಾ ಅನಿಲ ಹೊರಹೋಗಲು ಒಣಹುಲ್ಲನ್ನು ಸ್ವಲ್ಪ ಸಮಯ ಬಯಲು ಗಾಳಿಯಲ್ಲಿ ಹರಡಬೇಕು.",
+              "सीलबंद ढेर को तैयार होने से पहले कुछ हफ्तों तक ऐसे ही रहना चाहिए — गर्मी में करीब तीन हफ्ते, या सर्दी में करीब चार हफ्ते, क्योंकि ठंडे मौसम में प्रतिक्रिया धीमी होती है। खोलने के बाद, पशुओं को देने से पहले, बची हुई अमोनिया गैस निकलने के लिए भूसे को कुछ समय के लिए खुली हवा में फैलाना चाहिए।"
             ),
           },
           {
             type: "callout",
             style: "tip",
-            heading: L("Introduce It Gradually"),
+            heading: L(
+              "Introduce It Gradually",
+              "క్రమంగా అలవాటు చేయండి",
+              "படிப்படியாக அறிமுகப்படுத்துங்கள்",
+              "ಕ್ರಮೇಣ ಪರಿಚಯಿಸಿ",
+              "धीरे-धीरे शुरू करें"
+            ),
             text: L(
-              "Just like silage, treated straw should be introduced in small quantities at first. The animal gets used to the taste over time and starts eating it well."
+              "Just like silage, treated straw should be introduced in small quantities at first. The animal gets used to the taste over time and starts eating it well.",
+              "సైలేజ్ లాగే, శుద్ధి చేసిన గడ్డిని మొదట తక్కువ మోతాదులలో ఇవ్వాలి. జంతువు కాలక్రమేణా రుచికి అలవాటుపడి బాగా తింటుంది.",
+              "சைலேஜ் போலவே, சிகிச்சை செய்யப்பட்ட வைக்கோலும் முதலில் சிறிய அளவுகளில் அறிமுகப்படுத்தப்பட வேண்டும். விலங்கு காலப்போக்கில் சுவைக்கு பழகி நன்றாக உண்ணத் தொடங்கும்.",
+              "ಸೈಲೇಜ್‌ನಂತೆಯೇ, ಸಂಸ್ಕರಿಸಿದ ಒಣಹುಲ್ಲನ್ನು ಮೊದಲಿಗೆ ಕಡಿಮೆ ಪ್ರಮಾಣದಲ್ಲಿ ಪರಿಚಯಿಸಬೇಕು. ಪ್ರಾಣಿ ಕಾಲಕ್ರಮೇಣ ರುಚಿಗೆ ಹೊಂದಿಕೊಂಡು ಚೆನ್ನಾಗಿ ತಿನ್ನಲು ಪ್ರಾರಂಭಿಸುತ್ತದೆ.",
+              "साइलेज की तरह ही, उपचारित भूसे को भी पहले कम मात्रा में देना चाहिए। पशु समय के साथ स्वाद का आदी हो जाता है और अच्छी तरह खाना शुरू कर देता है।"
             ),
           },
         ],
         check: [
           {
             type: "truefalse",
-            q: L("It is safe to mix a small amount of urea directly into an animal's feed as long as the amount is small."),
+            q: L(
+              "It is safe to mix a small amount of urea directly into an animal's feed as long as the amount is small.",
+              "మోతాదు తక్కువగా ఉంటే యూరియాను నేరుగా జంతువు దాణాలో కలపడం సురక్షితమే.",
+              "அளவு குறைவாக இருந்தால் யூரியாவை நேரடியாக விலங்கின் உணவில் கலப்பது பாதுகாப்பானது.",
+              "ಪ್ರಮಾಣ ಕಡಿಮೆ ಇದ್ದರೆ ಯೂರಿಯಾವನ್ನು ನೇರವಾಗಿ ಪ್ರಾಣಿಯ ಆಹಾರದಲ್ಲಿ ಬೆರೆಸುವುದು ಸುರಕ್ಷಿತ.",
+              "अगर मात्रा कम हो तो यूरिया को सीधे पशु के आहार में मिलाना सुरक्षित है।"
+            ),
             answer: false,
-            explain: L("No — urea itself is fatal to animals and must never be fed directly, in any amount. It must first be allowed to react into the straw over weeks of sealed treatment."),
+            explain: L(
+              "No — urea itself is fatal to animals and must never be fed directly, in any amount. It must first be allowed to react into the straw over weeks of sealed treatment.",
+              "కాదు — యూరియా స్వయంగా జంతువులకు ప్రాణాంతకం మరియు ఎంత మోతాదులోనైనా ఎప్పుడూ నేరుగా తినిపించకూడదు. దాన్ని ముందుగా వారాల మూసివేసిన శుద్ధిలో గడ్డితో చర్య జరగనివ్వాలి.",
+              "இல்லை — யூரியா தானாகவே விலங்குகளுக்கு கொல்லக்கூடியது, எந்த அளவிலும் ஒருபோதும் நேரடியாக ஊட்டக்கூடாது. முதலில் வாரக்கணக்கான மூடிய சிகிச்சையில் அது வைக்கோலுடன் வினைபுரிய அனுமதிக்க வேண்டும்.",
+              "ಇಲ್ಲ — ಯೂರಿಯಾ ತಾನಾಗಿಯೇ ಪ್ರಾಣಿಗಳಿಗೆ ಮಾರಕ ಮತ್ತು ಎಷ್ಟೇ ಪ್ರಮಾಣದಲ್ಲೂ ಎಂದಿಗೂ ನೇರವಾಗಿ ತಿನ್ನಿಸಬಾರದು. ಮೊದಲು ಅದನ್ನು ವಾರಗಳ ಮುಚ್ಚಿದ ಸಂಸ್ಕರಣೆಯಲ್ಲಿ ಒಣಹುಲ್ಲಿನೊಂದಿಗೆ ಪ್ರತಿಕ್ರಿಯಿಸಲು ಬಿಡಬೇಕು.",
+              "नहीं — यूरिया अपने आप में पशुओं के लिए घातक है और किसी भी मात्रा में कभी सीधे नहीं खिलाना चाहिए। इसे पहले कई हफ्तों के सीलबंद उपचार में भूसे के साथ प्रतिक्रिया करने देना चाहिए।"
+            ),
           },
           {
             type: "mcq",
-            q: L("Why must the treated straw heap be sealed completely airtight?"),
+            q: L(
+              "Why must the treated straw heap be sealed completely airtight?",
+              "శుద్ధి చేసిన గడ్డి కుప్పను పూర్తిగా గాలి చొరబడకుండా ఎందుకు మూసివేయాలి?",
+              "சிகிச்சை செய்யப்பட்ட வைக்கோல் குவியலை ஏன் முழுவதுமாக காற்று புகாமல் மூட வேண்டும்?",
+              "ಸಂಸ್ಕರಿಸಿದ ಒಣಹುಲ್ಲಿನ ರಾಶಿಯನ್ನು ಏಕೆ ಸಂಪೂರ್ಣವಾಗಿ ಗಾಳಿ ಸೇರದಂತೆ ಮುಚ್ಚಬೇಕು?",
+              "उपचारित भूसे के ढेर को पूरी तरह हवा-रोधी सील क्यों करना चाहिए?"
+            ),
             options: [
-              L("To keep it dry from rain only"),
-              L("To let the urea convert into ammonia gas inside the heap and stop that gas from escaping"),
-              L("To keep animals from smelling it"),
-              L("Airtight sealing isn't actually necessary"),
+              L(
+                "To keep it dry from rain only",
+                "దాన్ని వర్షం నుండి మాత్రమే పొడిగా ఉంచడానికి",
+                "அதை மழையிலிருந்து மட்டும் உலர்ந்திருக்க வைக்க",
+                "ಅದನ್ನು ಮಳೆಯಿಂದ ಮಾತ್ರ ಒಣಗಿಸಿಡಲು",
+                "इसे केवल बारिश से सूखा रखने के लिए"
+              ),
+              L(
+                "To let the urea convert into ammonia gas inside the heap and stop that gas from escaping",
+                "యూరియాను కుప్ప లోపల అమ్మోనియా వాయువుగా మారనివ్వడానికి మరియు ఆ వాయువు బయటకు పోకుండా ఆపడానికి",
+                "யூரியாவை குவியலுக்குள் அமோனியா வாயுவாக மாற அனுமதிக்கவும், அந்த வாயு வெளியேறாமல் தடுக்கவும்",
+                "ಯೂರಿಯಾ ರಾಶಿಯೊಳಗೆ ಅಮೋನಿಯಾ ಅನಿಲವಾಗಿ ಪರಿವರ್ತನೆಗೊಳ್ಳಲು ಬಿಡಲು ಮತ್ತು ಆ ಅನಿಲ ಹೊರಹೋಗುವುದನ್ನು ತಡೆಯಲು",
+                "यूरिया को ढेर के अंदर अमोनिया गैस में बदलने देने और उस गैस को निकलने से रोकने के लिए"
+              ),
+              L(
+                "To keep animals from smelling it",
+                "జంతువులకు దాని వాసన రాకుండా ఉంచడానికి",
+                "விலங்குகள் அதை வாசனை பிடிக்காமல் இருக்க",
+                "ಪ್ರಾಣಿಗಳಿಗೆ ಅದರ ವಾಸನೆ ಬಾರದಂತೆ ಇಡಲು",
+                "पशुओं को इसकी गंध न आने देने के लिए"
+              ),
+              L(
+                "Airtight sealing isn't actually necessary",
+                "గాలి చొరబడని మూసివేత నిజానికి అవసరం లేదు",
+                "காற்று புகாத அடைப்பு உண்மையில் தேவையில்லை",
+                "ಗಾಳಿ ಸೇರದ ಮುಚ್ಚುವಿಕೆ ನಿಜವಾಗಿಯೂ ಅಗತ್ಯವಿಲ್ಲ",
+                "हवा-रोधी सील करना वास्तव में जरूरी नहीं है"
+              ),
             ],
             answer: 1,
-            explain: L("Sealing the heap airtight lets the urea react into ammonia gas inside the heap, which improves the straw, and prevents that gas from being wasted."),
+            explain: L(
+              "Sealing the heap airtight lets the urea react into ammonia gas inside the heap, which improves the straw, and prevents that gas from being wasted.",
+              "కుప్పను గాలి చొరబడకుండా మూసివేయడం వల్ల యూరియా కుప్ప లోపల అమ్మోనియా వాయువుగా చర్య జరుపుతుంది, ఇది గడ్డిని మెరుగుపరుస్తుంది, మరియు ఆ వాయువు వృథా కాకుండా నిరోధిస్తుంది.",
+              "குவியலை காற்று புகாமல் மூடுவது யூரியா குவியலுக்குள் அமோனியா வாயுவாக வினைபுரிய அனுமதிக்கிறது, இது வைக்கோலை மேம்படுத்துகிறது, மற்றும் அந்த வாயு வீணாவதைத் தடுக்கிறது.",
+              "ರಾಶಿಯನ್ನು ಗಾಳಿ ಸೇರದಂತೆ ಮುಚ್ಚುವುದರಿಂದ ಯೂರಿಯಾ ರಾಶಿಯೊಳಗೆ ಅಮೋನಿಯಾ ಅನಿಲವಾಗಿ ಪ್ರತಿಕ್ರಿಯಿಸುತ್ತದೆ, ಇದು ಒಣಹುಲ್ಲನ್ನು ಸುಧಾರಿಸುತ್ತದೆ, ಮತ್ತು ಆ ಅನಿಲ ವ್ಯರ್ಥವಾಗುವುದನ್ನು ತಡೆಯುತ್ತದೆ.",
+              "ढेर को हवा-रोधी सील करने से यूरिया ढेर के अंदर अमोनिया गैस में बदल जाता है, जो भूसे को बेहतर बनाता है, और उस गैस को बर्बाद होने से रोकता है।"
+            ),
           },
         ],
       },
@@ -10149,55 +10247,175 @@ export const MODULES = [
         {
           topicId: "t-m15-straw-problem",
           type: "mcq",
-          q: L("What happens to straw's protein content after urea treatment?"),
+          q: L(
+            "What happens to straw's protein content after urea treatment?",
+            "యూరియా శుద్ధి తర్వాత గడ్డి ప్రోటీన్ శాతానికి ఏమి జరుగుతుంది?",
+            "யூரியா சிகிச்சைக்குப் பிறகு வைக்கோலின் புரத அளவுக்கு என்ன நடக்கும்?",
+            "ಯೂರಿಯಾ ಸಂಸ್ಕರಣೆಯ ನಂತರ ಒಣಹುಲ್ಲಿನ ಪ್ರೋಟೀನ್ ಅಂಶಕ್ಕೆ ಏನಾಗುತ್ತದೆ?",
+            "यूरिया उपचार के बाद भूसे की प्रोटीन मात्रा का क्या होता है?"
+          ),
           options: [
-            L("It stays exactly the same"),
-            L("It roughly doubles, from under 4 per cent to about 8 per cent"),
-            L("It becomes ten times higher"),
-            L("It decreases"),
+            L(
+              "It stays exactly the same",
+              "అది సరిగ్గా అలాగే ఉంటుంది",
+              "அது சரியாக அப்படியே இருக்கும்",
+              "ಅದು ಸರಿಯಾಗಿ ಹಾಗೆಯೇ ಇರುತ್ತದೆ",
+              "यह बिल्कुल वैसा ही रहता है"
+            ),
+            L(
+              "It roughly doubles, from under 4 per cent to about 8 per cent",
+              "అది సుమారు రెట్టింపు అవుతుంది, 4 శాతం కంటే తక్కువ నుండి సుమారు 8 శాతానికి",
+              "அது கிட்டத்தட்ட இரட்டிப்பாகிறது, 4 சதவீதத்திற்குக் கீழிருந்து சுமார் 8 சதவீதமாக",
+              "ಅದು ಬಹುತೇಕ ದುಪ್ಪಟ್ಟಾಗುತ್ತದೆ, 4 ಪ್ರತಿಶತಕ್ಕಿಂತ ಕಡಿಮೆಯಿಂದ ಸುಮಾರು 8 ಪ್ರತಿಶತಕ್ಕೆ",
+              "यह लगभग दोगुनी हो जाती है, 4 प्रतिशत से कम से बढ़कर करीब 8 प्रतिशत तक"
+            ),
+            L(
+              "It becomes ten times higher",
+              "అది పది రెట్లు ఎక్కువ అవుతుంది",
+              "அது பத்து மடங்கு அதிகமாகிறது",
+              "ಅದು ಹತ್ತು ಪಟ್ಟು ಹೆಚ್ಚಾಗುತ್ತದೆ",
+              "यह दस गुना अधिक हो जाती है"
+            ),
+            L(
+              "It decreases",
+              "అది తగ్గుతుంది",
+              "அது குறைகிறது",
+              "ಅದು ಕಡಿಮೆಯಾಗುತ್ತದೆ",
+              "यह कम हो जाती है"
+            ),
           ],
           answer: 1,
-          explain: L("Urea treatment raises straw's protein content from under about 4 per cent to about 8 per cent."),
+          explain: L(
+            "Urea treatment raises straw's protein content from under about 4 per cent to about 8 per cent.",
+            "యూరియా శుద్ధి గడ్డి ప్రోటీన్ శాతాన్ని సుమారు 4 శాతం కంటే తక్కువ నుండి సుమారు 8 శాతానికి పెంచుతుంది.",
+            "யூரியா சிகிச்சை வைக்கோலின் புரத அளவை சுமார் 4 சதவீதத்திற்குக் கீழிருந்து சுமார் 8 சதவீதமாக உயர்த்துகிறது.",
+            "ಯೂರಿಯಾ ಸಂಸ್ಕರಣೆ ಒಣಹುಲ್ಲಿನ ಪ್ರೋಟೀನ್ ಅಂಶವನ್ನು ಸುಮಾರು 4 ಪ್ರತಿಶತಕ್ಕಿಂತ ಕಡಿಮೆಯಿಂದ ಸುಮಾರು 8 ಪ್ರತಿಶತಕ್ಕೆ ಏರಿಸುತ್ತದೆ.",
+            "यूरिया उपचार भूसे की प्रोटीन मात्रा को करीब 4 प्रतिशत से कम से बढ़ाकर करीब 8 प्रतिशत तक ले जाता है।"
+          ),
         },
         {
           topicId: "t-m15-straw-safety",
           type: "truefalse",
-          q: L("Urea or urea solution can be fatal to animals if fed to them directly."),
+          q: L(
+            "Urea or urea solution can be fatal to animals if fed to them directly.",
+            "యూరియా లేదా యూరియా ద్రావణం నేరుగా తినిపిస్తే జంతువులకు ప్రాణాంతకం కావచ్చు.",
+            "யூரியா அல்லது யூரியா கரைசல் நேரடியாக ஊட்டப்பட்டால் விலங்குகளுக்கு கொல்லக்கூடியதாக இருக்கலாம்.",
+            "ಯೂರಿಯಾ ಅಥವಾ ಯೂರಿಯಾ ದ್ರಾವಣವನ್ನು ನೇರವಾಗಿ ತಿನ್ನಿಸಿದರೆ ಪ್ರಾಣಿಗಳಿಗೆ ಮಾರಕವಾಗಬಹುದು.",
+            "यूरिया या यूरिया घोल अगर सीधे खिलाया जाए तो पशुओं के लिए घातक हो सकता है।"
+          ),
           answer: true,
-          explain: L("Correct — this is the single most important safety rule in this lesson. Urea must never be fed directly; it must first be treated into straw."),
+          explain: L(
+            "Correct — this is the single most important safety rule in this lesson. Urea must never be fed directly; it must first be treated into straw.",
+            "సరైనది — ఇది ఈ పాఠంలో అత్యంత ముఖ్యమైన భద్రతా నియమం. యూరియాను ఎప్పుడూ నేరుగా తినిపించకూడదు; దాన్ని ముందుగా గడ్డిలో శుద్ధి చేయాలి.",
+            "சரியானது — இது இந்தப் பாடத்தில் மிக முக்கியமான பாதுகாப்பு விதி. யூரியாவை ஒருபோதும் நேரடியாக ஊட்டக்கூடாது; அதை முதலில் வைக்கோலில் சிகிச்சை செய்ய வேண்டும்.",
+            "ಸರಿಯಾಗಿದೆ — ಇದು ಈ ಪಾಠದಲ್ಲಿ ಅತ್ಯಂತ ಮುಖ್ಯವಾದ ಸುರಕ್ಷತಾ ನಿಯಮ. ಯೂರಿಯಾವನ್ನು ಎಂದಿಗೂ ನೇರವಾಗಿ ತಿನ್ನಿಸಬಾರದು; ಅದನ್ನು ಮೊದಲು ಒಣಹುಲ್ಲಿನಲ್ಲಿ ಸಂಸ್ಕರಿಸಬೇಕು.",
+            "सही — यह इस पाठ का सबसे महत्वपूर्ण सुरक्षा नियम है। यूरिया कभी भी सीधे नहीं खिलाना चाहिए; इसे पहले भूसे में उपचारित करना चाहिए।"
+          ),
         },
         {
           topicId: "t-m15-straw-safety",
           type: "mcq",
-          q: L("Roughly how long should the sealed, treated straw heap be left before opening?"),
+          q: L(
+            "Roughly how long should the sealed, treated straw heap be left before opening?",
+            "మూసివేసిన, శుద్ధి చేసిన గడ్డి కుప్పను తెరవడానికి ముందు సుమారు ఎంతకాలం వదిలేయాలి?",
+            "மூடிய, சிகிச்சை செய்யப்பட்ட வைக்கோல் குவியலை திறப்பதற்கு முன் தோராயமாக எவ்வளவு காலம் விட வேண்டும்?",
+            "ಮುಚ್ಚಿದ, ಸಂಸ್ಕರಿಸಿದ ಒಣಹುಲ್ಲಿನ ರಾಶಿಯನ್ನು ತೆರೆಯುವ ಮೊದಲು ಸುಮಾರು ಎಷ್ಟು ಸಮಯ ಬಿಡಬೇಕು?",
+            "सीलबंद, उपचारित भूसे के ढेर को खोलने से पहले करीब कितने समय तक छोड़ना चाहिए?"
+          ),
           options: [
-            L("A few hours"),
-            L("About 3 weeks in summer, or about 4 weeks in winter"),
-            L("Exactly one year"),
-            L("It can be fed immediately after sealing"),
+            L("A few hours", "కొన్ని గంటలు", "சில மணிநேரங்கள்", "ಕೆಲವು ಗಂಟೆಗಳು", "कुछ घंटे"),
+            L(
+              "About 3 weeks in summer, or about 4 weeks in winter",
+              "వేసవిలో సుమారు 3 వారాలు, లేదా చలికాలంలో సుమారు 4 వారాలు",
+              "கோடையில் சுமார் 3 வாரங்கள், அல்லது குளிர்காலத்தில் சுமார் 4 வாரங்கள்",
+              "ಬೇಸಿಗೆಯಲ್ಲಿ ಸುಮಾರು 3 ವಾರಗಳು, ಅಥವಾ ಚಳಿಗಾಲದಲ್ಲಿ ಸುಮಾರು 4 ವಾರಗಳು",
+              "गर्मी में करीब 3 हफ्ते, या सर्दी में करीब 4 हफ्ते"
+            ),
+            L("Exactly one year", "సరిగ్గా ఒక సంవత్సరం", "சரியாக ஒரு வருடம்", "ಸರಿಯಾಗಿ ಒಂದು ವರ್ಷ", "ठीक एक साल"),
+            L(
+              "It can be fed immediately after sealing",
+              "మూసివేసిన వెంటనే తినిపించవచ్చు",
+              "மூடிய உடனேயே ஊட்டலாம்",
+              "ಮುಚ್ಚಿದ ತಕ್ಷಣ ತಿನ್ನಿಸಬಹುದು",
+              "सील करने के तुरंत बाद खिलाया जा सकता है"
+            ),
           ],
           answer: 1,
-          explain: L("The treated heap needs roughly 3 weeks in summer or 4 weeks in winter before it is ready to open and feed."),
+          explain: L(
+            "The treated heap needs roughly 3 weeks in summer or 4 weeks in winter before it is ready to open and feed.",
+            "శుద్ధి చేసిన కుప్ప తెరిచి తినిపించడానికి సిద్ధం కావడానికి వేసవిలో సుమారు 3 వారాలు లేదా చలికాలంలో 4 వారాలు అవసరం.",
+            "சிகிச்சை செய்யப்பட்ட குவியல் திறந்து ஊட்டத் தயாராக கோடையில் சுமார் 3 வாரங்கள் அல்லது குளிர்காலத்தில் 4 வாரங்கள் தேவை.",
+            "ಸಂಸ್ಕರಿಸಿದ ರಾಶಿ ತೆರೆದು ತಿನ್ನಿಸಲು ಸಿದ್ಧವಾಗಲು ಬೇಸಿಗೆಯಲ್ಲಿ ಸುಮಾರು 3 ವಾರಗಳು ಅಥವಾ ಚಳಿಗಾಲದಲ್ಲಿ 4 ವಾರಗಳು ಬೇಕಾಗುತ್ತದೆ.",
+            "उपचारित ढेर को खोलने और खिलाने लायक तैयार होने में गर्मी में करीब 3 हफ्ते या सर्दी में 4 हफ्ते लगते हैं।"
+          ),
         },
         {
           topicId: "t-m15-straw-problem",
           type: "truefalse",
-          q: L("Feeding urea-treated straw can reduce how much extra cattle feed concentrate is needed."),
+          q: L(
+            "Feeding urea-treated straw can reduce how much extra cattle feed concentrate is needed.",
+            "యూరియా శుద్ధి చేసిన గడ్డిని తినిపించడం వల్ల అదనపు దాణా అవసరం తగ్గించవచ్చు.",
+            "யூரியா சிகிச்சை செய்யப்பட்ட வைக்கோலை ஊட்டுவது கூடுதல் கால்நடை தீவனத் தேவையைக் குறைக்கும்.",
+            "ಯೂರಿಯಾ ಸಂಸ್ಕರಿಸಿದ ಒಣಹುಲ್ಲನ್ನು ತಿನ್ನಿಸುವುದರಿಂದ ಹೆಚ್ಚುವರಿ ದನದ ಆಹಾರ ಅಗತ್ಯವನ್ನು ಕಡಿಮೆ ಮಾಡಬಹುದು.",
+            "यूरिया-उपचारित भूसा खिलाने से अतिरिक्त पशु आहार की जरूरत कम हो सकती है।"
+          ),
           answer: true,
-          explain: L("Yes — urea-treated straw can reduce the extra cattle feed concentrate needed, by up to about 30 per cent in some cases."),
+          explain: L(
+            "Yes — urea-treated straw can reduce the extra cattle feed concentrate needed, by up to about 30 per cent in some cases.",
+            "అవును — యూరియా శుద్ధి చేసిన గడ్డి కొన్ని సందర్భాల్లో అదనపు దాణా అవసరాన్ని సుమారు 30 శాతం వరకు తగ్గించవచ్చు.",
+            "ஆம் — யூரியா சிகிச்சை செய்யப்பட்ட வைக்கோல் சில சந்தர்ப்பங்களில் கூடுதல் கால்நடை தீவனத் தேவையை சுமார் 30 சதவீதம் வரை குறைக்கக்கூடும்.",
+            "ಹೌದು — ಯೂರಿಯಾ ಸಂಸ್ಕರಿಸಿದ ಒಣಹುಲ್ಲು ಕೆಲವು ಸಂದರ್ಭಗಳಲ್ಲಿ ಹೆಚ್ಚುವರಿ ದನದ ಆಹಾರದ ಅಗತ್ಯವನ್ನು ಸುಮಾರು 30 ಪ್ರತಿಶತದವರೆಗೆ ಕಡಿಮೆ ಮಾಡಬಹುದು.",
+            "हाँ — यूरिया-उपचारित भूसा कुछ मामलों में अतिरिक्त पशु आहार की जरूरत को करीब 30 प्रतिशत तक कम कर सकता है।"
+          ),
         },
         {
           topicId: "t-m15-straw-safety",
           type: "mcq",
-          q: L("Before feeding opened, treated straw to animals, what should be done first?"),
+          q: L(
+            "Before feeding opened, treated straw to animals, what should be done first?",
+            "తెరిచిన, శుద్ధి చేసిన గడ్డిని జంతువులకు తినిపించే ముందు, మొదట ఏమి చేయాలి?",
+            "திறந்த, சிகிச்சை செய்யப்பட்ட வைக்கோலை விலங்குகளுக்கு ஊட்டுவதற்கு முன், முதலில் என்ன செய்ய வேண்டும்?",
+            "ತೆರೆದ, ಸಂಸ್ಕರಿಸಿದ ಒಣಹುಲ್ಲನ್ನು ಪ್ರಾಣಿಗಳಿಗೆ ತಿನ್ನಿಸುವ ಮೊದಲು, ಮೊದಲಿಗೆ ಏನು ಮಾಡಬೇಕು?",
+            "खोले गए, उपचारित भूसे को पशुओं को खिलाने से पहले, सबसे पहले क्या करना चाहिए?"
+          ),
           options: [
-            L("Feed it immediately, straight from the sealed heap"),
-            L("Spread it out in the open air first, so leftover ammonia gas can escape"),
-            L("Mix in fresh urea solution to strengthen it further"),
-            L("Nothing — no extra step is needed"),
+            L(
+              "Feed it immediately, straight from the sealed heap",
+              "మూసివేసిన కుప్ప నుండి తీసిన వెంటనే తినిపించాలి",
+              "மூடிய குவியலிலிருந்து உடனடியாக ஊட்ட வேண்டும்",
+              "ಮುಚ್ಚಿದ ರಾಶಿಯಿಂದ ತಕ್ಷಣ ತಿನ್ನಿಸಬೇಕು",
+              "इसे तुरंत, सीधे सीलबंद ढेर से खिलाना चाहिए"
+            ),
+            L(
+              "Spread it out in the open air first, so leftover ammonia gas can escape",
+              "మిగిలిన అమ్మోనియా వాయువు బయటకు పోవడానికి మొదట బహిరంగ గాలిలో పరచాలి",
+              "மீதமான அமோனியா வாயு வெளியேற முதலில் திறந்த காற்றில் பரப்ப வேண்டும்",
+              "ಉಳಿದ ಅಮೋನಿಯಾ ಅನಿಲ ಹೊರಹೋಗಲು ಮೊದಲು ಬಯಲು ಗಾಳಿಯಲ್ಲಿ ಹರಡಬೇಕು",
+              "बची हुई अमोनिया गैस निकलने के लिए पहले इसे खुली हवा में फैलाना चाहिए"
+            ),
+            L(
+              "Mix in fresh urea solution to strengthen it further",
+              "మరింత బలపరచడానికి తాజా యూరియా ద్రావణాన్ని కలపాలి",
+              "மேலும் வலுப்படுத்த புதிய யூரியா கரைசலை கலக்க வேண்டும்",
+              "ಇನ್ನಷ್ಟು ಬಲಗೊಳಿಸಲು ತಾಜಾ ಯೂರಿಯಾ ದ್ರಾವಣವನ್ನು ಬೆರೆಸಬೇಕು",
+              "इसे और मजबूत बनाने के लिए ताजा यूरिया घोल मिलाना चाहिए"
+            ),
+            L(
+              "Nothing — no extra step is needed",
+              "ఏమీ చేయనవసరం లేదు — అదనపు దశ అవసరం లేదు",
+              "எதுவும் இல்லை — கூடுதல் படி தேவையில்லை",
+              "ಏನೂ ಇಲ್ಲ — ಹೆಚ್ಚುವರಿ ಹಂತ ಅಗತ್ಯವಿಲ್ಲ",
+              "कुछ नहीं — किसी अतिरिक्त कदम की जरूरत नहीं है"
+            ),
           ],
           answer: 1,
-          explain: L("After opening, treated straw should be aired out first so any remaining ammonia gas escapes, before it is fed to the animals."),
+          explain: L(
+            "After opening, treated straw should be aired out first so any remaining ammonia gas escapes, before it is fed to the animals.",
+            "తెరిచిన తర్వాత, మిగిలిన అమ్మోనియా వాయువు బయటకు పోవడానికి, జంతువులకు తినిపించే ముందు శుద్ధి చేసిన గడ్డిని మొదట గాలికి ఆరబెట్టాలి.",
+            "திறந்த பிறகு, மீதமான அமோனியா வாயு வெளியேற, விலங்குகளுக்கு ஊட்டுவதற்கு முன் சிகிச்சை செய்யப்பட்ட வைக்கோலை முதலில் காற்றோட்டமாக்க வேண்டும்.",
+            "ತೆರೆದ ನಂತರ, ಉಳಿದ ಅಮೋನಿಯಾ ಅನಿಲ ಹೊರಹೋಗಲು, ಪ್ರಾಣಿಗಳಿಗೆ ತಿನ್ನಿಸುವ ಮೊದಲು ಸಂಸ್ಕರಿಸಿದ ಒಣಹುಲ್ಲನ್ನು ಮೊದಲು ಗಾಳಿಗೆ ಆರಿಸಬೇಕು.",
+            "खोलने के बाद, बची हुई अमोनिया गैस निकलने के लिए, पशुओं को खिलाने से पहले उपचारित भूसे को पहले हवा में सुखाना चाहिए।"
+          ),
         },
       ],
     },
