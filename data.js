@@ -1516,55 +1516,55 @@ export const MODULES = [
         {
           topicId: "t-m3-first-day",
           type: "mcq",
-          q: L("What is the 'golden hour' referred to in newborn calf care?"),
+          q: L("What is the 'golden hour' referred to in newborn calf care?", "నవజాత దూడ సంరక్షణలో ప్రస్తావించే 'గోల్డెన్ అవర్' అంటే ఏమిటి?", "புதிதாகப் பிறந்த கன்று பராமரிப்பில் குறிப்பிடப்படும் 'தங்க நேரம்' என்றால் என்ன?", "ನವಜಾತ ಕರುವಿನ ಆರೈಕೆಯಲ್ಲಿ ಉಲ್ಲೇಖಿಸಲಾದ 'ಚಿನ್ನದ ಗಂಟೆ' ಎಂದರೇನು?", "नवजात बछड़े की देखभाल में जिस 'गोल्डन ऑवर' का ज़िक्र है, वह क्या है?"),
           options: [
-            L("Any hour during the first week"),
-            L("The first hour after calving — the most critical period in a calf's life"),
-            L("The hour before calving"),
-            L("The hour when the calf is vaccinated"),
+            L("Any hour during the first week", "మొదటి వారంలో ఏదైనా గంట", "முதல் வாரத்தில் எந்த மணி நேரமும்", "ಮೊದಲ ವಾರದ ಯಾವುದೇ ಒಂದು ಗಂಟೆ", "पहले हफ़्ते का कोई भी घंटा"),
+            L("The first hour after calving — the most critical period in a calf's life", "ఈనిన తర్వాత మొదటి గంట — దూడ జీవితంలో అత్యంత కీలకమైన సమయం", "ஈன்ற பிறகு முதல் மணி நேரம் — கன்றின் வாழ்க்கையில் மிக முக்கியமான காலம்", "ಈದ ನಂತರದ ಮೊದಲ ಗಂಟೆ — ಕರುವಿನ ಜೀವನದ ಅತಿಮುಖ್ಯ ಅವಧಿ", "ब्याने के बाद का पहला घंटा — बछड़े की ज़िंदगी का सबसे नाज़ुक समय"),
+            L("The hour before calving", "ఈనడానికి ముందు గంట", "ஈனுவதற்கு முன் மணி நேரம்", "ಈಯುವ ಮೊದಲಿನ ಗಂಟೆ", "ब्याने से पहले का घंटा"),
+            L("The hour when the calf is vaccinated", "దూడకు టీకా వేసే గంట", "கன்றுக்கு தடுப்பூசி போடும் நேரம்", "ಕರುವಿಗೆ ಲಸಿಕೆ ಹಾಕುವ ಗಂಟೆ", "बछड़े को टीका लगाने का घंटा"),
           ],
           answer: 1,
-          explain: L("The first hour after calving is described as the single most critical period in the calf's entire life."),
+          explain: L("The first hour after calving is described as the single most critical period in the calf's entire life.", "ఈనిన తర్వాత మొదటి గంటను దూడ జీవితమంతటిలో అత్యంత కీలకమైన సమయంగా చెబుతారు.", "ஈன்ற பிறகு முதல் மணி நேரம் கன்றின் முழு வாழ்க்கையிலும் மிக முக்கியமான காலமாகக் கூறப்படுகிறது.", "ಈದ ನಂತರದ ಮೊದಲ ಗಂಟೆಯನ್ನು ಕರುವಿನ ಇಡೀ ಜೀವನದ ಅತಿಮುಖ್ಯ ಅವಧಿ ಎಂದು ವಿವರಿಸಲಾಗಿದೆ.", "ब्याने के बाद के पहले घंटे को बछड़े की पूरी ज़िंदगी का सबसे नाज़ुक समय बताया गया है।"),
         },
         {
           topicId: "t-m3-first-day",
           type: "truefalse",
-          q: L("Letting the mother lick the newborn calf clean helps blood circulation and helps the calf get ready to stand."),
+          q: L("Letting the mother lick the newborn calf clean helps blood circulation and helps the calf get ready to stand.", "తల్లితో నవజాత దూడను నాకించి శుభ్రం చేయించడం రక్త ప్రసరణకు సహాయపడుతుంది, దూడ నిలబడటానికి సిద్ధమవడానికి తోడ్పడుతుంది.", "தாயை புதிதாகப் பிறந்த கன்றை நக்கி சுத்தப்படுத்த விடுவது இரத்த ஓட்டத்திற்கு உதவி, கன்று நிற்க தயாராக உதவுகிறது.", "ತಾಯಿಯಿಂದ ನವಜಾತ ಕರುವನ್ನು ನೆಕ್ಕಿಸಿ ಸ್ವಚ್ಛಗೊಳಿಸುವುದು ರಕ್ತ ಸಂಚಾರಕ್ಕೆ ಸಹಾಯ ಮಾಡುತ್ತದೆ ಮತ್ತು ಕರು ಎದ್ದು ನಿಲ್ಲಲು ಸಿದ್ಧವಾಗಲು ನೆರವಾಗುತ್ತದೆ.", "माँ को नवजात बछड़े को चाटकर साफ़ करने देना खून के दौरे में मदद करता है और बछड़े को खड़े होने के लिए तैयार करता है।"),
           answer: true,
-          explain: L("Correct — licking promotes circulation in the calf's body and helps prepare it to stand up and walk."),
+          explain: L("Correct — licking promotes circulation in the calf's body and helps prepare it to stand up and walk.", "సరైనది — నాకడం దూడ శరీరంలో రక్త ప్రసరణను మెరుగుపరుస్తుంది, నిలబడి నడవడానికి సిద్ధం చేస్తుంది.", "சரி — நக்குவது கன்றின் உடலில் இரத்த ஓட்டத்தை மேம்படுத்தி, எழுந்து நடக்க தயார்படுத்துகிறது.", "ಸರಿ — ನೆಕ್ಕುವುದು ಕರುವಿನ ದೇಹದಲ್ಲಿ ರಕ್ತ ಸಂಚಾರವನ್ನು ಹೆಚ್ಚಿಸಿ, ಎದ್ದು ನಡೆಯಲು ಸಿದ್ಧಗೊಳಿಸುತ್ತದೆ.", "सही — चाटने से बछड़े के शरीर में खून का दौरा बेहतर होता है और वह खड़े होकर चलने के लिए तैयार होता है।"),
         },
         {
           topicId: "t-m3-colostrum",
           type: "mcq",
-          q: L("What is colostrum?"),
+          q: L("What is colostrum?", "జున్ను (కొలొస్ట్రమ్) అంటే ఏమిటి?", "கொழுந்து பால் என்றால் என்ன?", "ಗಿಣ್ಣುಹಾಲು ಎಂದರೇನು?", "खीस क्या है?"),
           options: [
-            L("Ordinary milk given a week after calving"),
-            L("The first, protection-rich milk a mother produces right after giving birth"),
-            L("A medicine given to calves"),
-            L("Water mixed with salt"),
+            L("Ordinary milk given a week after calving", "ఈనిన వారం తర్వాత ఇచ్చే సాధారణ పాలు", "ஈன்ற ஒரு வாரத்திற்குப் பிறகு கொடுக்கப்படும் வழக்கமான பால்", "ಈದ ಒಂದು ವಾರದ ನಂತರ ಕೊಡುವ ಸಾಮಾನ್ಯ ಹಾಲು", "ब्याने के एक हफ़्ते बाद दिया जाने वाला सामान्य दूध"),
+            L("The first, protection-rich milk a mother produces right after giving birth", "ఈనిన వెంటనే తల్లి ఉత్పత్తి చేసే మొదటి, రక్షణతో నిండిన పాలు", "ஈன்ற உடனேயே தாய் உற்பத்தி செய்யும் முதல், பாதுகாப்பு நிறைந்த பால்", "ಈದ ತಕ್ಷಣ ತಾಯಿ ಉತ್ಪಾದಿಸುವ ಮೊದಲ, ರಕ್ಷಣೆಯಿಂದ ತುಂಬಿದ ಹಾಲು", "ब्याने के तुरंत बाद माँ का बनाया पहला, सुरक्षा से भरपूर दूध"),
+            L("A medicine given to calves", "దూడలకు ఇచ్చే ఒక మందు", "கன்றுகளுக்கு கொடுக்கப்படும் ஒரு மருந்து", "ಕರುಗಳಿಗೆ ಕೊಡುವ ಒಂದು ಔಷಧಿ", "बछड़ों को दी जाने वाली एक दवा"),
+            L("Water mixed with salt", "ఉప్పు కలిపిన నీరు", "உப்பு கலந்த தண்ணீர்", "ಉಪ್ಪು ಬೆರೆಸಿದ ನೀರು", "नमक मिला पानी"),
           ],
           answer: 1,
-          explain: L("Colostrum is the mother's first, thick milk, produced right after birth, full of protection the calf cannot yet make on its own."),
+          explain: L("Colostrum is the mother's first, thick milk, produced right after birth, full of protection the calf cannot yet make on its own.", "జున్ను అంటే తల్లి ఈనిన వెంటనే ఉత్పత్తి చేసే మొదటి, చిక్కటి పాలు, దూడ ఇంకా స్వయంగా తయారు చేయలేని రక్షణతో నిండి ఉంటుంది.", "கொழுந்து பால் என்பது தாய் பிறந்த உடனேயே உற்பத்தி செய்யும் முதல், கெட்டியான பால், கன்று இன்னும் தானாக தயாரிக்க முடியாத பாதுகாப்பால் நிறைந்துள்ளது.", "ಗಿಣ್ಣುಹಾಲು ಎಂದರೆ ತಾಯಿ ಹುಟ್ಟಿದ ತಕ್ಷಣ ಉತ್ಪಾದಿಸುವ ಮೊದಲ, ದಪ್ಪವಾದ ಹಾಲು, ಕರು ಇನ್ನೂ ತಾನಾಗಿಯೇ ತಯಾರಿಸಲಾಗದ ರಕ್ಷಣೆಯಿಂದ ತುಂಬಿರುತ್ತದೆ.", "खीस माँ का बनाया वह पहला, गाढ़ा दूध है जो जन्म के तुरंत बाद बनता है, और उसमें ऐसी सुरक्षा भरी होती है जो बछड़ा अभी खुद नहीं बना सकता।"),
         },
         {
           topicId: "t-m3-colostrum",
           type: "truefalse",
-          q: L("Because it's hard to be sure a calf nursed enough colostrum on its own, hand-feeding is recommended."),
+          q: L("Because it's hard to be sure a calf nursed enough colostrum on its own, hand-feeding is recommended.", "దూడ తనంతట తానే తగినంత జున్ను తాగిందో లేదో ఖచ్చితంగా చెప్పడం కష్టం కాబట్టి, చేతితో తాగించడం మంచిది.", "கன்று தானாகவே போதுமான கொழுந்து பால் குடித்ததா என்று உறுதியாகச் சொல்வது கடினம் என்பதால், கையால் கொடுப்பது பரிந்துரைக்கப்படுகிறது.", "ಕರು ತಾನಾಗಿಯೇ ಸಾಕಷ್ಟು ಗಿಣ್ಣುಹಾಲು ಕುಡಿದಿದೆಯೇ ಎಂದು ಖಚಿತಪಡಿಸಿಕೊಳ್ಳುವುದು ಕಷ್ಟವಾದ್ದರಿಂದ, ಕೈಯಾರೆ ಕುಡಿಸುವುದನ್ನು ಶಿಫಾರಸು ಮಾಡಲಾಗುತ್ತದೆ.", "क्योंकि यह पक्का कहना मुश्किल है कि बछड़े ने खुद पर्याप्त खीस पी लिया, इसलिए हाथ से पिलाने की सलाह दी जाती है।"),
           answer: true,
-          explain: L("Correct — hand-feeding is recommended so the amount an individual calf receives is known for certain."),
+          explain: L("Correct — hand-feeding is recommended so the amount an individual calf receives is known for certain.", "సరైనది — ఒక్కో దూడ ఎంత తాగిందో ఖచ్చితంగా తెలుసుకోవడానికి చేతితో తాగించడం మంచిది.", "சரி — ஒவ்வொரு கன்றும் எவ்வளவு பெறுகிறது என்பது நிச்சயமாகத் தெரிய கையால் கொடுப்பது பரிந்துரைக்கப்படுகிறது.", "ಸರಿ — ಪ್ರತಿ ಕರುವೂ ಎಷ್ಟು ಪಡೆಯುತ್ತದೆ ಎಂದು ಖಚಿತವಾಗಿ ತಿಳಿಯಲು ಕೈಯಾರೆ ಕುಡಿಸುವುದನ್ನು ಶಿಫಾರಸು ಮಾಡಲಾಗುತ್ತದೆ.", "सही — हाथ से पिलाने की सलाह इसलिए दी जाती है ताकि हर बछड़े को मिली मात्रा पक्के तौर पर पता चले।"),
         },
         {
           topicId: "t-m3-first-day",
           type: "mcq",
-          q: L("How is a poorly cared-for navel described in this lesson?"),
+          q: L("How is a poorly cared-for navel described in this lesson?", "ఈ పాఠంలో సరిగ్గా చూసుకోని బొడ్డును ఎలా వర్ణించారు?", "இந்த பாடத்தில் சரியாக பராமரிக்கப்படாத தொப்புள் எப்படி விவரிக்கப்பட்டுள்ளது?", "ಈ ಪಾಠದಲ್ಲಿ ಸರಿಯಾಗಿ ಆರೈಕೆ ಮಾಡದ ಹೊಕ್ಕುಳವನ್ನು ಹೇಗೆ ವಿವರಿಸಲಾಗಿದೆ?", "इस पाठ में ठीक से देखभाल न की गई नाभि को कैसे बताया गया है?"),
           options: [
-            L("Not important at all"),
-            L("A gateway to serious infection"),
-            L("Only a cosmetic issue"),
-            L("Something that heals itself without any care"),
+            L("Not important at all", "అస్సలు ముఖ్యం కాదు", "எந்த முக்கியத்துவமும் இல்லை", "ಅಷ್ಟೇನೂ ಮುಖ್ಯವಲ್ಲ", "बिल्कुल ज़रूरी नहीं"),
+            L("A gateway to serious infection", "తీవ్రమైన ఇన్ఫెక్షన్‌కు ఒక మార్గం", "கடுமையான தொற்றுக்கு ஒரு வழி", "ಗಂಭೀರ ಸೋಂಕಿಗೆ ಒಂದು ದಾರಿ", "गंभीर संक्रमण का एक रास्ता"),
+            L("Only a cosmetic issue", "కేవలం అందం సమస్య మాత్రమే", "வெறும் தோற்றப் பிரச்சனை மட்டுமே", "ಕೇವಲ ತೋರಿಕೆಯ ಸಮಸ್ಯೆ ಮಾತ್ರ", "सिर्फ़ दिखावे की समस्या"),
+            L("Something that heals itself without any care", "ఎలాంటి సంరక్షణ లేకుండానే తనంతట తానే నయమయ్యేది", "எந்த பராமரிப்பும் இல்லாமல் தானாகவே குணமாகும் ஒன்று", "ಯಾವುದೇ ಆರೈಕೆ ಇಲ್ಲದೆ ತಾನಾಗಿಯೇ ವಾಸಿಯಾಗುವಂಥದ್ದು", "बिना किसी देखभाल के अपने आप ठीक हो जाने वाली चीज़"),
           ],
           answer: 1,
-          explain: L("A poorly maintained navel is a gateway to serious infections, which is why it's cleaned, dipped in iodine, and checked again at 12 hours."),
+          explain: L("A poorly maintained navel is a gateway to serious infections, which is why it's cleaned, dipped in iodine, and checked again at 12 hours.", "సరిగ్గా చూసుకోని బొడ్డు తీవ్రమైన ఇన్ఫెక్షన్లకు మార్గం, అందుకే దాన్ని శుభ్రం చేసి, అయోడిన్‌లో ముంచి, 12 గంటలకు మళ్ళీ పరిశీలిస్తారు.", "சரியாக பராமரிக்கப்படாத தொப்புள் கடுமையான தொற்றுகளுக்கு ஒரு வழி, அதனால்தான் அதை சுத்தம் செய்து, அயோடினில் நனைத்து, 12 மணி நேரத்தில் மீண்டும் சரிபார்க்கிறோம்.", "ಸರಿಯಾಗಿ ಆರೈಕೆ ಮಾಡದ ಹೊಕ್ಕುಳ ಗಂಭೀರ ಸೋಂಕುಗಳಿಗೆ ದಾರಿಯಾಗುತ್ತದೆ, ಅದಕ್ಕಾಗಿಯೇ ಅದನ್ನು ಸ್ವಚ್ಛಗೊಳಿಸಿ, ಅಯೋಡಿನ್‌ನಲ್ಲಿ ಅದ್ದಿ, 12 ಗಂಟೆಗಳಲ್ಲಿ ಮತ್ತೆ ಪರಿಶೀಲಿಸಲಾಗುತ್ತದೆ.", "ठीक से देखभाल न की गई नाभि गंभीर संक्रमण का रास्ता बन जाती है, इसीलिए उसे साफ़ करके, आयोडीन में डुबोकर, 12 घंटे बाद फिर से जांचा जाता है।"),
         },
       ],
     },
@@ -1575,57 +1575,73 @@ export const MODULES = [
   // ==================================================================
   {
     id: "m3-l2",
-    title: L("Calf Diarrhoea: Recognizing It and Responding Fast"),
+    title: L("Calf Diarrhoea: Recognizing It and Responding Fast", "దూడ విరేచనాలు: గుర్తించడం మరియు వేగంగా స్పందించడం", "கன்று வயிற்றுப்போக்கு: அதை அடையாளம் காண்பது மற்றும் விரைவாக செயல்படுவது", "ಕರುವಿನ ಭೇದಿ: ಗುರುತಿಸುವುದು ಮತ್ತು ವೇಗವಾಗಿ ಸ್ಪಂದಿಸುವುದು", "बछड़े के दस्त: पहचानना और तुरंत कार्रवाई करना"),
     estMinutes: 8,
     hook: [
       {
         type: "hero",
-        heading: L("Diarrhoea Can Kill a Calf Fast — But You Can Catch It Early"),
+        heading: L("Diarrhoea Can Kill a Calf Fast — But You Can Catch It Early", "విరేచనాలు దూడను వేగంగా చంపగలవు — కానీ మీరు దాన్ని ముందుగానే గుర్తించగలరు", "வயிற்றுப்போக்கு கன்றை விரைவாக கொல்லக்கூடும் — ஆனால் நீங்கள் அதை முன்கூட்டியே கண்டறியலாம்", "ಭೇದಿ ಕರುವನ್ನು ವೇಗವಾಗಿ ಸಾಯಿಸಬಹುದು — ಆದರೆ ನೀವು ಇದನ್ನು ಮೊದಲೇ ಗುರುತಿಸಬಹುದು", "दस्त बछड़े की जान जल्दी ले सकते हैं — लेकिन आप इसे जल्दी पहचान सकते हैं"),
         text: L(
-          "Calf diarrhoea can have many different causes, and working out which one is always the vet's job. But the real danger — fast loss of water and body salts — is something you can learn to spot early, using nothing but your eyes and your hands. This lesson teaches you what to look for, and exactly what to do while you get the vet involved."
+          "Calf diarrhoea can have many different causes, and working out which one is always the vet's job. But the real danger — fast loss of water and body salts — is something you can learn to spot early, using nothing but your eyes and your hands. This lesson teaches you what to look for, and exactly what to do while you get the vet involved.",
+          "దూడ విరేచనాలకు అనేక కారణాలు ఉండవచ్చు, వేటివల్ల వచ్చిందో కనుక్కోవడం ఎప్పుడూ వెటర్నరీ డాక్టర్ పనే. కానీ నిజమైన ప్రమాదం — శరీరంలో నీరు, లవణాలు వేగంగా తగ్గిపోవడం — దాన్ని మీ కళ్ళు, చేతులతో మాత్రమే ముందుగానే గుర్తించడం మీరు నేర్చుకోవచ్చు. ఏం గమనించాలో, డాక్టర్‌ను సంప్రదించే లోపు సరిగ్గా ఏం చేయాలో ఈ పాఠం మీకు నేర్పుతుంది.",
+          "கன்று வயிற்றுப்போக்குக்கு பல்வேறு காரணங்கள் இருக்கலாம், எது காரணம் என்பதைக் கண்டறிவது எப்போதும் வெட்டரினரி டாக்டரின் வேலை. ஆனால் உண்மையான ஆபத்து — உடலில் நீர் மற்றும் உப்புகள் விரைவாக இழக்கப்படுவது — அதை உங்கள் கண்கள் மற்றும் கைகளால் மட்டுமே முன்கூட்டியே கண்டறிய நீங்கள் கற்றுக்கொள்ளலாம். என்ன கவனிக்க வேண்டும், டாக்டரை தொடர்பு கொள்ளும் வரை சரியாக என்ன செய்ய வேண்டும் என்பதை இந்த பாடம் கற்றுக்கொடுக்கிறது.",
+          "ಕರುವಿನ ಭೇದಿಗೆ ಹಲವಾರು ಕಾರಣಗಳಿರಬಹುದು, ಯಾವ ಕಾರಣ ಎಂದು ಕಂಡುಹಿಡಿಯುವುದು ಯಾವಾಗಲೂ ಪಶುವೈದ್ಯರ ಕೆಲಸ. ಆದರೆ ನಿಜವಾದ ಅಪಾಯ — ದೇಹದಲ್ಲಿ ನೀರು ಮತ್ತು ಲವಣಗಳು ವೇಗವಾಗಿ ಕಡಿಮೆಯಾಗುವುದು — ಅದನ್ನು ನಿಮ್ಮ ಕಣ್ಣುಗಳು ಮತ್ತು ಕೈಗಳಿಂದ ಮಾತ್ರ ಮೊದಲೇ ಗುರುತಿಸಲು ನೀವು ಕಲಿಯಬಹುದು. ಏನನ್ನು ಗಮನಿಸಬೇಕು, ವೈದ್ಯರನ್ನು ಸಂಪರ್ಕಿಸುವವರೆಗೆ ಸರಿಯಾಗಿ ಏನು ಮಾಡಬೇಕು ಎಂಬುದನ್ನು ಈ ಪಾಠ ಕಲಿಸುತ್ತದೆ.",
+          "बछड़े के दस्त कई अलग-अलग वजहों से हो सकते हैं, और असली वजह पता लगाना हमेशा डॉक्टर का काम होता है। लेकिन असली ख़तरा — शरीर से पानी और नमक का तेज़ी से निकल जाना — इसे आप सिर्फ़ अपनी आंखों और हाथों से पहचानना सीख सकते हैं। इस पाठ में बताया गया है कि क्या देखना है, और डॉक्टर को बुलाने तक ठीक-ठीक क्या करना है।"
         ),
       },
     ],
     topics: [
       {
         id: "t-m3-diarrhoea-signs",
-        title: L("Why Diarrhoea Is So Dangerous, and How to Check Dehydration"),
+        title: L("Why Diarrhoea Is So Dangerous, and How to Check Dehydration", "విరేచనాలు ఎందుకు అంత ప్రమాదకరం, డీహైడ్రేషన్‌ను ఎలా పరీక్షించాలి", "வயிற்றுப்போக்கு ஏன் மிகவும் ஆபத்தானது, நீர்ச்சத்து குறைவை எப்படி சரிபார்ப்பது", "ಭೇದಿ ಏಕೆ ಇಷ್ಟು ಅಪಾಯಕಾರಿ, ನಿರ್ಜಲೀಕರಣವನ್ನು ಹೇಗೆ ಪರೀಕ್ಷಿಸುವುದು", "दस्त इतने ख़तरनाक क्यों हैं, और डिहाइड्रेशन (पानी की कमी) कैसे जांचें"),
         teach: [
           {
             type: "text",
-            heading: L("Diarrhoea Is Dangerous Because of What It Takes Away"),
+            heading: L("Diarrhoea Is Dangerous Because of What It Takes Away", "విరేచనాలు ఏం తీసేస్తాయి అనే దాని వల్లే అవి ప్రమాదకరం", "வயிற்றுப்போக்கு எதை எடுத்துச் செல்கிறது என்பதால் தான் அது ஆபத்தானது", "ಭೇದಿ ಏನನ್ನು ತೆಗೆದುಕೊಂಡು ಹೋಗುತ್ತದೆ ಎಂಬ ಕಾರಣಕ್ಕೆ ಅದು ಅಪಾಯಕಾರಿ", "दस्त इसलिए ख़तरनाक हैं क्योंकि वे शरीर से क्या निकाल ले जाते हैं"),
             html: L(
-              "Calf diarrhoea can happen for many different reasons. Whatever the cause, the real danger is the same: the calf loses large amounts of water and body salts (<b>electrolytes</b>) very quickly through watery dung. That fluid loss alone can kill a calf fast — sometimes even before anyone works out the underlying cause."
+              "Calf diarrhoea can happen for many different reasons. Whatever the cause, the real danger is the same: the calf loses large amounts of water and body salts (<b>electrolytes</b>) very quickly through watery dung. That fluid loss alone can kill a calf fast — sometimes even before anyone works out the underlying cause.",
+              "దూడ విరేచనాలు అనేక కారణాల వల్ల రావచ్చు. కారణం ఏదైనా, నిజమైన ప్రమాదం ఒక్కటే: నీరులాంటి మలం ద్వారా దూడ చాలా వేగంగా అధిక మొత్తంలో నీరు, శరీర లవణాలు (<b>ఎలక్ట్రోలైట్స్</b>) కోల్పోతుంది. ఈ ద్రవ నష్టం ఒక్కటే దూడను వేగంగా చంపగలదు — కొన్నిసార్లు అసలు కారణం తెలుసుకునేలోపే.",
+              "கன்று வயிற்றுப்போக்கு பல்வேறு காரணங்களால் ஏற்படலாம். காரணம் எதுவாக இருந்தாலும், உண்மையான ஆபத்து ஒன்றே: நீர்த்த மலம் மூலம் கன்று மிக விரைவாக அதிக அளவு நீர் மற்றும் உடல் உப்புகளை (<b>எலக்ட்ரோலைட்டுகள்</b>) இழக்கிறது. இந்த திரவ இழப்பு மட்டுமே கன்றை விரைவாக கொல்லக்கூடும் — சில நேரங்களில் காரணத்தை யாரும் கண்டறியும் முன்பே.",
+              "ಕರುವಿನ ಭೇದಿ ಹಲವಾರು ಕಾರಣಗಳಿಂದ ಸಂಭವಿಸಬಹುದು. ಕಾರಣ ಏನೇ ಇರಲಿ, ನಿಜವಾದ ಅಪಾಯ ಒಂದೇ: ನೀರಿನಂತಹ ಸಗಣಿಯ ಮೂಲಕ ಕರು ಬಹಳ ವೇಗವಾಗಿ ಹೆಚ್ಚಿನ ಪ್ರಮಾಣದ ನೀರು ಮತ್ತು ದೇಹದ ಲವಣಗಳನ್ನು (<b>ಎಲೆಕ್ಟ್ರೋಲೈಟ್‌ಗಳು</b>) ಕಳೆದುಕೊಳ್ಳುತ್ತದೆ. ಈ ದ್ರವ ನಷ್ಟ ಒಂದೇ ಕರುವನ್ನು ವೇಗವಾಗಿ ಸಾಯಿಸಬಹುದು — ಕೆಲವೊಮ್ಮೆ ಕಾರಣ ತಿಳಿಯುವ ಮೊದಲೇ.",
+              "बछड़े के दस्त कई अलग-अलग वजहों से हो सकते हैं। वजह चाहे जो भी हो, असली ख़तरा एक ही है: पतले मल के ज़रिए बछड़ा बहुत तेज़ी से भारी मात्रा में पानी और शरीर के नमक (<b>इलेक्ट्रोलाइट्स</b>) खो देता है। सिर्फ़ यही पानी की कमी बछड़े की जान जल्दी ले सकती है — कभी-कभी असली वजह पता चलने से पहले ही।"
             ),
           },
           {
             type: "glossary",
-            term: L("Electrolytes"),
+            term: L("Electrolytes", "ఎలక్ట్రోలైట్స్", "எலக்ட்ரோலைட்டுகள்", "ಎಲೆಕ್ಟ್ರೋಲೈಟ್‌ಗಳು", "इलेक्ट्रोलाइट्स"),
             meaning: L(
-              "Salts the body needs to keep working properly. A calf with diarrhoea loses large amounts of these salts along with water, and it's this double loss — water and electrolytes together — that makes diarrhoea so dangerous."
+              "Salts the body needs to keep working properly. A calf with diarrhoea loses large amounts of these salts along with water, and it's this double loss — water and electrolytes together — that makes diarrhoea so dangerous.",
+              "శరీరం సరిగ్గా పనిచేయడానికి అవసరమైన లవణాలు. విరేచనాలు ఉన్న దూడ నీటితో పాటు ఈ లవణాలను కూడా అధిక మొత్తంలో కోల్పోతుంది, నీరు మరియు ఎలక్ట్రోలైట్స్ రెండూ కలిసి కోల్పోవడమే విరేచనాలను ఇంత ప్రమాదకరంగా చేస్తుంది.",
+              "உடல் சரியாக செயல்பட தேவைப்படும் உப்புகள். வயிற்றுப்போக்கு உள்ள கன்று நீருடன் இந்த உப்புகளையும் அதிக அளவில் இழக்கிறது, நீர் மற்றும் எலக்ட்ரோலைட்டுகள் இரண்டையும் ஒன்றாக இழப்பதே வயிற்றுப்போக்கை இவ்வளவு ஆபத்தானதாக ஆக்குகிறது.",
+              "ದೇಹ ಸರಿಯಾಗಿ ಕೆಲಸ ಮಾಡಲು ಬೇಕಾದ ಲವಣಗಳು. ಭೇದಿಯಿರುವ ಕರು ನೀರಿನ ಜೊತೆಗೆ ಈ ಲವಣಗಳನ್ನೂ ಹೆಚ್ಚಿನ ಪ್ರಮಾಣದಲ್ಲಿ ಕಳೆದುಕೊಳ್ಳುತ್ತದೆ, ನೀರು ಮತ್ತು ಎಲೆಕ್ಟ್ರೋಲೈಟ್‌ಗಳು ಎರಡನ್ನೂ ಒಟ್ಟಿಗೆ ಕಳೆದುಕೊಳ್ಳುವುದೇ ಭೇದಿಯನ್ನು ಇಷ್ಟು ಅಪಾಯಕಾರಿಯನ್ನಾಗಿ ಮಾಡುತ್ತದೆ.",
+              "शरीर के ठीक से काम करने के लिए ज़रूरी नमक। दस्त वाला बछड़ा पानी के साथ-साथ ये नमक भी भारी मात्रा में खो देता है, और पानी व इलेक्ट्रोलाइट्स दोनों का एक साथ निकल जाना ही दस्त को इतना ख़तरनाक बनाता है।"
             ),
           },
           {
             type: "example",
-            heading: L("How to Check 'Skin Tenting'"),
+            heading: L("How to Check 'Skin Tenting'", "'స్కిన్ టెంటింగ్' ఎలా పరీక్షించాలి", "'தோல் மடிப்பு' சோதனையை எப்படி செய்வது", "'ಚರ್ಮ ಮಡಚುವಿಕೆ' ಪರೀಕ್ಷೆ ಹೇಗೆ ಮಾಡುವುದು", "'स्किन टेंटिंग' कैसे जांचें"),
             text: L(
-              "Gently pinch and lift a small fold of skin — around the eye, neck or chest area — then let go. In a well-hydrated calf, the skin snaps back flat right away. If it stays raised for a few seconds before flattening out, that's called 'tenting', and the longer it takes to flatten, the more dehydrated the calf is."
+              "Gently pinch and lift a small fold of skin — around the eye, neck or chest area — then let go. In a well-hydrated calf, the skin snaps back flat right away. If it stays raised for a few seconds before flattening out, that's called 'tenting', and the longer it takes to flatten, the more dehydrated the calf is.",
+              "కళ్ళ దగ్గర, మెడ లేదా ఛాతీ ప్రాంతంలో చర్మాన్ని మెల్లగా చిన్న మడతగా పట్టుకుని పైకి లేపి, తర్వాత వదిలేయండి. తగినంత నీరు ఉన్న దూడలో చర్మం వెంటనే మామూలుగా అయిపోతుంది. కొన్ని సెకన్ల పాటు లేచి ఉండి తర్వాత సాధారణంగా అయితే దాన్ని 'టెంటింగ్' అంటారు, ఇది మామూలు స్థితికి రావడానికి ఎంత ఎక్కువ సమయం పడితే దూడలో నీటి కొరత అంత ఎక్కువగా ఉన్నట్టు.",
+              "கண், கழுத்து அல்லது மார்பு பகுதியில் தோலை மெதுவாக சிறிது மடித்து தூக்கி, பின்னர் விடுங்கள். போதுமான நீர்ச்சத்து உள்ள கன்றில் தோல் உடனடியாக பழைய நிலைக்குத் திரும்பும். சில வினாடிகள் உயர்ந்தே இருந்து பின்னர் தட்டையாகிவிட்டால், அதை 'மடிப்பு' (tenting) என்கிறோம், இது தட்டையாக ஆக எவ்வளவு நேரம் எடுக்குமோ, கன்றின் நீர்ச்சத்து குறைவு அவ்வளவு அதிகம்.",
+              "ಕಣ್ಣು, ಕುತ್ತಿಗೆ ಅಥವಾ ಎದೆಯ ಭಾಗದಲ್ಲಿ ಚರ್ಮವನ್ನು ನಿಧಾನವಾಗಿ ಸಣ್ಣ ಮಡಿಕೆಯಾಗಿ ಹಿಡಿದು ಮೇಲಕ್ಕೆತ್ತಿ, ನಂತರ ಬಿಡಿ. ಸಾಕಷ್ಟು ನೀರಿರುವ ಕರುವಿನಲ್ಲಿ ಚರ್ಮ ತಕ್ಷಣ ಮೊದಲಿನಂತೆ ಆಗುತ್ತದೆ. ಕೆಲವು ಸೆಕೆಂಡುಗಳ ಕಾಲ ಎತ್ತರವಾಗಿಯೇ ಇದ್ದು ನಂತರ ಸಮತಟ್ಟಾದರೆ, ಅದನ್ನು 'ಟೆಂಟಿಂಗ್' ಎನ್ನುತ್ತಾರೆ, ಇದು ಸಮತಟ್ಟಾಗಲು ಎಷ್ಟು ಹೆಚ್ಚು ಸಮಯ ತೆಗೆದುಕೊಳ್ಳುತ್ತದೋ, ಕರುವಿನ ನಿರ್ಜಲೀಕರಣ ಅಷ್ಟು ಹೆಚ್ಚು.",
+              "आंख, गर्दन या छाती के आस-पास की त्वचा को हल्के से चुटकी में पकड़कर थोड़ा ऊपर उठाएं, फिर छोड़ दें। पर्याप्त पानी वाले बछड़े में त्वचा तुरंत वापस अपनी जगह आ जाती है। अगर वह कुछ सेकंड तक उठी रहकर फिर सपाट हो, तो इसे 'टेंटिंग' कहते हैं, और सपाट होने में जितना ज़्यादा समय लगे, बछड़े में पानी की कमी उतनी ही ज़्यादा समझी जाती है।"
             ),
           },
           {
             type: "stat-grid",
             items: [
               {
-                label: L("Up to 5% dehydrated"),
-                text: L("No symptoms — the calf looks normal."),
+                label: L("Up to 5% dehydrated", "5% వరకు నీటి కొరత", "5% வரை நீர்ச்சத்து குறைவு", "5% ವರೆಗೆ ನಿರ್ಜಲೀಕರಣ", "5% तक पानी की कमी"),
+                text: L("No symptoms — the calf looks normal.", "ఎలాంటి లక్షణాలు లేవు — దూడ మామూలుగా కనిపిస్తుంది.", "எந்த அறிகுறியும் இல்லை — கன்று சாதாரணமாகத் தெரிகிறது.", "ಯಾವುದೇ ಲಕ್ಷಣಗಳಿಲ್ಲ — ಕರು ಸಾಮಾನ್ಯವಾಗಿ ಕಾಣುತ್ತದೆ.", "कोई लक्षण नहीं — बछड़ा सामान्य दिखता है।"),
               },
               {
-                label: L("5–6% dehydrated"),
-                text: L("Diarrhoea is present, but no other clinical signs; the calf still suckles strongly."),
+                label: L("5–6% dehydrated", "5–6% నీటి కొరత", "5–6% நீர்ச்சத்து குறைவு", "5–6% ನಿರ್ಜಲೀಕರಣ", "5–6% पानी की कमी"),
+                text: L("Diarrhoea is present, but no other clinical signs; the calf still suckles strongly.", "విరేచనాలు ఉన్నాయి, కానీ ఇతర లక్షణాలు లేవు; దూడ ఇంకా బలంగా పాలు తాగుతోంది.", "வயிற்றுப்போக்கு உள்ளது, ஆனால் வேறு அறிகுறிகள் இல்லை; கன்று இன்னும் வலிமையாக பால் குடிக்கிறது.", "ಭೇದಿ ಇದೆ, ಆದರೆ ಬೇರೆ ಯಾವುದೇ ಲಕ್ಷಣಗಳಿಲ್ಲ; ಕರು ಇನ್ನೂ ಬಲವಾಗಿ ಹಾಲು ಕುಡಿಯುತ್ತಿದೆ.", "दस्त हैं, लेकिन कोई और लक्षण नहीं; बछड़ा अभी भी अच्छी तरह दूध पी रहा है।"),
               },
               {
-                label: L("6–8% dehydrated"),
-                text: L("Mild dullness, skin stays tented 2–6 seconds, eyes look a little sunken, calf is weak but still suckling."),
+                label: L("6–8% dehydrated", "6–8% నీటి కొరత", "6–8% நீர்ச்சத்து குறைவு", "6–8% ನಿರ್ಜಲೀಕರಣ", "6–8% पानी की कमी"),
+                text: L("Mild dullness, skin stays tented 2–6 seconds, eyes look a little sunken, calf is weak but still suckling.", "కొద్దిగా నీరసంగా ఉంటుంది, చర్మం 2–6 సెకన్లు లేచి ఉంటుంది, కళ్ళు కొద్దిగా లోతుకుపోయినట్టు కనిపిస్తాయి, దూడ బలహీనంగా ఉన్నా ఇంకా పాలు తాగుతోంది.", "லேசான சோர்வு, தோல் 2–6 வினாடிகள் மடிந்தே இருக்கும், கண்கள் சற்று உள்ளே பள்ளமாகத் தெரியும், கன்று பலவீனமாக இருந்தாலும் பால் குடிக்கிறது.", "ಸ್ವಲ್ಪ ಜಡತ್ವ, ಚರ್ಮ 2–6 ಸೆಕೆಂಡುಗಳ ಕಾಲ ಮಡಚಿಯೇ ಇರುತ್ತದೆ, ಕಣ್ಣುಗಳು ಸ್ವಲ್ಪ ಒಳಸೇರಿದಂತೆ ಕಾಣುತ್ತವೆ, ಕರು ದುರ್ಬಲವಾಗಿದ್ದರೂ ಇನ್ನೂ ಹಾಲು ಕುಡಿಯುತ್ತಿದೆ.", "हल्की सुस्ती, त्वचा 2–6 सेकंड तक उठी रहती है, आंखें थोड़ी धंसी दिखती हैं, बछड़ा कमज़ोर है पर अभी भी दूध पी रहा है।"),
               },
             ],
           },
@@ -1633,130 +1649,150 @@ export const MODULES = [
             type: "stat-grid",
             items: [
               {
-                label: L("8–10% dehydrated"),
-                text: L("Clearly dull and lying down, eyes very sunken, gums dry, skin stays tented for more than 6 seconds."),
+                label: L("8–10% dehydrated", "8–10% నీటి కొరత", "8–10% நீர்ச்சத்து குறைவு", "8–10% ನಿರ್ಜಲೀಕರಣ", "8–10% पानी की कमी"),
+                text: L("Clearly dull and lying down, eyes very sunken, gums dry, skin stays tented for more than 6 seconds.", "స్పష్టంగా నీరసంగా పడుకుని ఉంటుంది, కళ్ళు బాగా లోతుకుపోతాయి, చిగుళ్ళు పొడిగా ఉంటాయి, చర్మం 6 సెకన్ల కంటే ఎక్కువసేపు లేచి ఉంటుంది.", "தெளிவாக சோர்வுடன் படுத்திருக்கும், கண்கள் மிகவும் பள்ளமாக இருக்கும், ஈறுகள் வறண்டிருக்கும், தோல் 6 வினாடிகளுக்கு மேல் மடிந்தே இருக்கும்.", "ಸ್ಪಷ್ಟವಾಗಿ ಜಡವಾಗಿ ಮಲಗಿರುತ್ತದೆ, ಕಣ್ಣುಗಳು ತುಂಬಾ ಒಳಸೇರಿರುತ್ತವೆ, ಒಸಡುಗಳು ಒಣಗಿರುತ್ತವೆ, ಚರ್ಮ 6 ಸೆಕೆಂಡುಗಳಿಗಿಂತ ಹೆಚ್ಚು ಕಾಲ ಮಡಚಿಯೇ ಇರುತ್ತದೆ.", "साफ़ तौर पर सुस्त होकर लेटा रहता है, आंखें बहुत धंसी होती हैं, मसूड़े सूखे होते हैं, त्वचा 6 सेकंड से ज़्यादा देर तक उठी रहती है।"),
               },
               {
-                label: L("10–14% dehydrated"),
-                text: L("Cannot stand, extremities feel cool, skin remains tented, calf is unconscious (comatose)."),
+                label: L("10–14% dehydrated", "10–14% నీటి కొరత", "10–14% நீர்ச்சத்து குறைவு", "10–14% ನಿರ್ಜಲೀಕರಣ", "10–14% पानी की कमी"),
+                text: L("Cannot stand, extremities feel cool, skin remains tented, calf is unconscious (comatose).", "నిలబడలేదు, కాళ్ళు-తోక వంటి భాగాలు చల్లగా అనిపిస్తాయి, చర్మం లేచి అలాగే ఉండిపోతుంది, దూడ స్పృహ కోల్పోతుంది.", "நிற்க முடியாது, கை கால் பகுதிகள் குளிராக இருக்கும், தோல் மடிந்தே இருக்கும், கன்று மயக்க நிலையில் இருக்கும்.", "ನಿಲ್ಲಲಾಗುವುದಿಲ್ಲ, ಕಾಲುಗಳಂತಹ ಭಾಗಗಳು ತಣ್ಣಗಿರುತ್ತವೆ, ಚರ್ಮ ಮಡಚಿಯೇ ಉಳಿಯುತ್ತದೆ, ಕರು ಪ್ರಜ್ಞೆ ತಪ್ಪುತ್ತದೆ.", "खड़ा नहीं हो पाता, हाथ-पांव ठंडे लगते हैं, त्वचा उठी ही रह जाती है, बछड़ा बेहोश हो जाता है।"),
               },
               {
-                label: L("Over 14% dehydrated"),
-                text: L("This level of dehydration leads to death."),
+                label: L("Over 14% dehydrated", "14% కంటే ఎక్కువ నీటి కొరత", "14%க்கும் அதிகமான நீர்ச்சத்து குறைவு", "14% ಗಿಂತ ಹೆಚ್ಚಿನ ನಿರ್ಜಲೀಕರಣ", "14% से ज़्यादा पानी की कमी"),
+                text: L("This level of dehydration leads to death.", "ఈ స్థాయి నీటి కొరత మరణానికి దారితీస్తుంది.", "இந்த அளவு நீர்ச்சத்து குறைவு மரணத்திற்கு வழிவகுக்கும்.", "ಈ ಮಟ್ಟದ ನಿರ್ಜಲೀಕರಣ ಸಾವಿಗೆ ಕಾರಣವಾಗುತ್ತದೆ.", "पानी की कमी के इस स्तर पर मौत हो सकती है।"),
               },
             ],
           },
           {
             type: "callout",
             style: "warning",
-            heading: L("Above 8% Needs a Vet Right Now"),
+            heading: L("Above 8% Needs a Vet Right Now", "8% కంటే ఎక్కువ ఉంటే వెంటనే వెటర్నరీ డాక్టర్ కావాలి", "8%க்கு மேல் இருந்தால் இப்போதே டாக்டர் தேவை", "8% ಗಿಂತ ಹೆಚ್ಚಿದ್ದರೆ ಈಗಲೇ ಪಶುವೈದ್ಯರು ಬೇಕು", "8% से ज़्यादा हो तो अभी डॉक्टर चाहिए"),
             text: L(
-              "Once a calf shows more than 8% dehydration, it needs immediate intravenous (into-the-vein) fluid therapy from a veterinarian. This is not something to wait on — contact the veterinarian immediately."
+              "Once a calf shows more than 8% dehydration, it needs immediate intravenous (into-the-vein) fluid therapy from a veterinarian. This is not something to wait on — contact the veterinarian immediately.",
+              "దూడలో 8% కంటే ఎక్కువ నీటి కొరత కనిపిస్తే, వెంటనే వెటర్నరీ డాక్టర్ ద్వారా సిర ద్వారా (ఇంట్రావీనస్) ద్రవాలు ఎక్కించాలి. దీన్ని ఆలస్యం చేయకూడదు — వెంటనే వెటర్నరీ డాక్టర్‌ను సంప్రదించండి.",
+              "கன்றில் 8%க்கு மேல் நீர்ச்சத்து குறைவு தெரிந்தால், உடனடியாக நரம்பு வழியாக (இன்ட்ராவீனஸ்) திரவம் ஏற்ற வெட்டரினரி டாக்டர் தேவை. இதை தாமதப்படுத்தக் கூடாது — உடனே டாக்டரை தொடர்பு கொள்ளுங்கள்.",
+              "ಕರುವಿನಲ್ಲಿ 8% ಗಿಂತ ಹೆಚ್ಚು ನಿರ್ಜಲೀಕರಣ ಕಂಡುಬಂದರೆ, ತಕ್ಷಣ ಪಶುವೈದ್ಯರಿಂದ ರಕ್ತನಾಳದ ಮೂಲಕ (ಇಂಟ್ರಾವೀನಸ್) ದ್ರವ ಚಿಕಿತ್ಸೆ ಬೇಕಾಗುತ್ತದೆ. ಇದನ್ನು ತಡಮಾಡಬಾರದು — ತಕ್ಷಣ ಪಶುವೈದ್ಯರನ್ನು ಸಂಪರ್ಕಿಸಿ.",
+              "बछड़े में 8% से ज़्यादा पानी की कमी दिखे तो उसे तुरंत डॉक्टर द्वारा नस के ज़रिए (इंट्रावीनस) तरल चढ़ाने की ज़रूरत होती है। इसमें देरी नहीं करनी चाहिए — तुरंत डॉक्टर से संपर्क करें।"
             ),
           },
         ],
         check: [
           {
             type: "mcq",
-            q: L("What does it mean if a pinched fold of skin stays 'tented' for more than 6 seconds before flattening?"),
+            q: L("What does it mean if a pinched fold of skin stays 'tented' for more than 6 seconds before flattening?", "చర్మాన్ని పట్టుకుని వదిలిన తర్వాత 6 సెకన్ల కంటే ఎక్కువసేపు 'లేచి' ఉంటే దాని అర్థం ఏమిటి?", "தோலை மடித்து விட்ட பிறகு அது தட்டையாக ஆக 6 வினாடிகளுக்கு மேல் 'மடிந்தே' இருந்தால் அதன் அர்த்தம் என்ன?", "ಚರ್ಮವನ್ನು ಹಿಡಿದು ಬಿಟ್ಟ ನಂತರ ಅದು 6 ಸೆಕೆಂಡುಗಳಿಗಿಂತ ಹೆಚ್ಚು ಕಾಲ 'ಮಡಚಿಯೇ' ಇದ್ದರೆ ಅದರ ಅರ್ಥವೇನು?", "अगर त्वचा को चुटकी में पकड़कर छोड़ने पर वह 6 सेकंड से ज़्यादा देर तक 'उठी' रहे, तो इसका क्या मतलब है?"),
             options: [
-              L("The calf is perfectly hydrated"),
-              L("The calf is seriously dehydrated"),
-              L("The calf has been vaccinated"),
-              L("It means nothing on its own"),
+              L("The calf is perfectly hydrated", "దూడలో నీటి కొరత అస్సలు లేదు", "கன்றுக்கு போதுமான நீர்ச்சத்து உள்ளது", "ಕರುವಿಗೆ ಸಾಕಷ್ಟು ನೀರಿದೆ", "बछड़े में पानी की कोई कमी नहीं है"),
+              L("The calf is seriously dehydrated", "దూడలో తీవ్రమైన నీటి కొరత ఉంది", "கன்றுக்கு கடுமையான நீர்ச்சத்து குறைவு உள்ளது", "ಕರುವಿನಲ್ಲಿ ತೀವ್ರ ನಿರ್ಜಲೀಕರಣ ಇದೆ", "बछड़े में गंभीर पानी की कमी है"),
+              L("The calf has been vaccinated", "దూడకు టీకా వేయబడింది", "கன்றுக்கு தடுப்பூசி போடப்பட்டுள்ளது", "ಕರುವಿಗೆ ಲಸಿಕೆ ಹಾಕಲಾಗಿದೆ", "बछड़े को टीका लगाया गया है"),
+              L("It means nothing on its own", "దీనికి ఒంటరిగా ఎలాంటి అర్థం లేదు", "இது தனியாக எதையும் குறிக்காது", "ಇದು ಒಂದೇ ಆಗಿ ಏನನ್ನೂ ಸೂಚಿಸುವುದಿಲ್ಲ", "यह अपने आप में कुछ नहीं दर्शाता"),
             ],
             answer: 1,
-            explain: L("Skin that stays tented for a long time is a sign of significant dehydration — the longer it stays raised, the more severe the dehydration."),
+            explain: L("Skin that stays tented for a long time is a sign of significant dehydration — the longer it stays raised, the more severe the dehydration.", "చాలాసేపు లేచి ఉండే చర్మం గణనీయమైన నీటి కొరతకు సంకేతం — ఎంత ఎక్కువసేపు లేచి ఉంటే నీటి కొరత అంత తీవ్రంగా ఉందని అర్థం.", "நீண்ட நேரம் மடிந்தே இருக்கும் தோல் குறிப்பிடத்தக்க நீர்ச்சத்து குறைவின் அறிகுறி — எவ்வளவு நேரம் அது உயர்ந்தே இருக்குமோ, நீர்ச்சத்து குறைவு அவ்வளவு கடுமையானது.", "ಬಹಳ ಹೊತ್ತು ಮಡಚಿಯೇ ಇರುವ ಚರ್ಮ ಗಮನಾರ್ಹ ನಿರ್ಜಲೀಕರಣದ ಸೂಚನೆ — ಅದು ಎಷ್ಟು ಹೆಚ್ಚು ಹೊತ್ತು ಎತ್ತರವಾಗಿಯೇ ಇರುತ್ತದೋ, ನಿರ್ಜಲೀಕರಣ ಅಷ್ಟು ತೀವ್ರವಾಗಿದೆ ಎಂದರ್ಥ.", "जो त्वचा लंबे समय तक उठी रहती है, वह पानी की गंभीर कमी का संकेत है — जितनी देर तक वह उठी रहे, पानी की कमी उतनी ही गंभीर समझी जाती है।"),
           },
           {
             type: "truefalse",
-            q: L("A calf with more than 8% dehydration needs immediate veterinary attention for intravenous fluids."),
+            q: L("A calf with more than 8% dehydration needs immediate veterinary attention for intravenous fluids.", "8% కంటే ఎక్కువ నీటి కొరత ఉన్న దూడకు వెంటనే సిర ద్వారా ద్రవాలు ఎక్కించే వైద్య సహాయం అవసరం.", "8%க்கு மேல் நீர்ச்சத்து குறைவு உள்ள கன்றுக்கு உடனடியாக நரம்பு வழி திரவம் தேவை.", "8% ಗಿಂತ ಹೆಚ್ಚು ನಿರ್ಜಲೀಕರಣ ಇರುವ ಕರುವಿಗೆ ತಕ್ಷಣ ರಕ್ತನಾಳದ ಮೂಲಕ ದ್ರವ ಚಿಕಿತ್ಸೆ ಬೇಕಾಗುತ್ತದೆ.", "8% से ज़्यादा पानी की कमी वाले बछड़े को तुरंत नस के ज़रिए तरल चढ़ाने की ज़रूरत होती है।"),
             answer: true,
-            explain: L("Correct — beyond 8% dehydration, the calf needs urgent intravenous fluid therapy from a veterinarian, without delay."),
+            explain: L("Correct — beyond 8% dehydration, the calf needs urgent intravenous fluid therapy from a veterinarian, without delay.", "సరైనది — 8% కంటే ఎక్కువ నీటి కొరత ఉంటే, దూడకు వెంటనే వెటర్నరీ డాక్టర్ ద్వారా సిర ద్వారా ద్రవాలు ఎక్కించాలి, ఆలస్యం చేయకూడదు.", "சரி — 8%க்கு மேல் நீர்ச்சத்து குறைவு இருந்தால், கன்றுக்கு உடனடியாக டாக்டரிடமிருந்து நரம்பு வழி திரவ சிகிச்சை தேவை, தாமதம் இல்லாமல்.", "ಸರಿ — 8% ಗಿಂತ ಹೆಚ್ಚಿನ ನಿರ್ಜಲೀಕರಣವಿದ್ದರೆ, ಕರುವಿಗೆ ತಡಮಾಡದೆ ಪಶುವೈದ್ಯರಿಂದ ತುರ್ತು ರಕ್ತನಾಳದ ದ್ರವ ಚಿಕಿತ್ಸೆ ಬೇಕು.", "सही — 8% से ज़्यादा पानी की कमी होने पर बछड़े को बिना देरी किए डॉक्टर से नस के ज़रिए तरल चढ़ाने की तुरंत ज़रूरत होती है।"),
           },
         ],
       },
       {
         id: "t-m3-diarrhoea-action",
-        title: L("What to Do: Fluids, Reporting and Preventing It Next Time"),
+        title: L("What to Do: Fluids, Reporting and Preventing It Next Time", "ఏం చేయాలి: ద్రవాలు, తెలియజేయడం మరియు తర్వాతిసారి రాకుండా చూసుకోవడం", "என்ன செய்ய வேண்டும்: திரவங்கள், தெரிவிப்பது மற்றும் அடுத்த முறை தடுப்பது", "ಏನು ಮಾಡಬೇಕು: ದ್ರವಗಳು, ವರದಿ ಮಾಡುವುದು ಮತ್ತು ಮುಂದಿನ ಬಾರಿ ತಡೆಗಟ್ಟುವುದು", "क्या करें: तरल पदार्थ, सूचना देना और अगली बार रोकथाम"),
         teach: [
           {
             type: "text",
-            heading: L("Two Things to Do Right Away"),
+            heading: L("Two Things to Do Right Away", "వెంటనే చేయాల్సిన రెండు పనులు", "உடனடியாக செய்ய வேண்டிய இரண்டு விஷயங்கள்", "ತಕ್ಷಣ ಮಾಡಬೇಕಾದ ಎರಡು ಕೆಲಸಗಳು", "तुरंत करने वाले दो काम"),
             html: L(
-              "As soon as diarrhoea is noticed, two things should happen together: start replacing the fluids the calf is losing, and contact a veterinarian at the earliest to find the cause and get the right treatment. Your job is to act fast on the fluids and the reporting — never to diagnose the cause or choose medicines yourself."
+              "As soon as diarrhoea is noticed, two things should happen together: start replacing the fluids the calf is losing, and contact a veterinarian at the earliest to find the cause and get the right treatment. Your job is to act fast on the fluids and the reporting — never to diagnose the cause or choose medicines yourself.",
+              "విరేచనాలు గమనించిన వెంటనే, రెండు పనులు కలిపి చేయాలి: దూడ కోల్పోతున్న ద్రవాలను తిరిగి ఇవ్వడం మొదలుపెట్టడం, మరియు కారణం కనుక్కుని సరైన చికిత్స పొందేందుకు వీలైనంత త్వరగా వెటర్నరీ డాక్టర్‌ను సంప్రదించడం. ద్రవాలు ఇవ్వడం, డాక్టర్‌కు తెలియజేయడం వేగంగా చేయడమే మీ పని — కారణం నిర్ధారించడం లేదా మందులు ఎంచుకోవడం ఎప్పుడూ మీ పని కాదు.",
+              "வயிற்றுப்போக்கு கவனிக்கப்பட்டவுடன், இரண்டு விஷயங்கள் ஒன்றாக நடக்க வேண்டும்: கன்று இழக்கும் திரவத்தை மீண்டும் கொடுக்க தொடங்குவது, மற்றும் காரணத்தைக் கண்டறிந்து சரியான சிகிச்சை பெற முடிந்தவரை விரைவாக வெட்டரினரி டாக்டரை தொடர்பு கொள்வது. திரவங்கள் கொடுப்பதிலும் தெரிவிப்பதிலும் விரைவாக செயல்படுவதே உங்கள் வேலை — காரணத்தை கண்டறிவது அல்லது மருந்துகளை தேர்வு செய்வது ஒருபோதும் உங்கள் வேலை அல்ல.",
+              "ಭೇದಿ ಗಮನಕ್ಕೆ ಬಂದ ತಕ್ಷಣ, ಎರಡು ಕೆಲಸಗಳು ಒಟ್ಟಿಗೆ ನಡೆಯಬೇಕು: ಕರು ಕಳೆದುಕೊಳ್ಳುತ್ತಿರುವ ದ್ರವವನ್ನು ಮರುಪೂರೈಸಲು ಆರಂಭಿಸುವುದು, ಮತ್ತು ಕಾರಣ ಕಂಡುಹಿಡಿದು ಸರಿಯಾದ ಚಿಕಿತ್ಸೆ ಪಡೆಯಲು ಆದಷ್ಟು ಬೇಗ ಪಶುವೈದ್ಯರನ್ನು ಸಂಪರ್ಕಿಸುವುದು. ದ್ರವ ಕೊಡುವುದು ಮತ್ತು ವರದಿ ಮಾಡುವುದರಲ್ಲಿ ವೇಗವಾಗಿ ವರ್ತಿಸುವುದೇ ನಿಮ್ಮ ಕೆಲಸ — ಕಾರಣ ಪತ್ತೆ ಮಾಡುವುದು ಅಥವಾ ಔಷಧಿ ಆಯ್ಕೆ ಮಾಡುವುದು ಎಂದಿಗೂ ನಿಮ್ಮ ಕೆಲಸವಲ್ಲ.",
+              "दस्त दिखते ही, दो काम एक साथ करने चाहिए: बछड़ा जो तरल पदार्थ खो रहा है उसे फिर से देना शुरू करें, और वजह पता लगाकर सही इलाज पाने के लिए जल्द से जल्द डॉक्टर से संपर्क करें। तरल पदार्थ देने और सूचना देने में तेज़ी दिखाना आपका काम है — वजह तय करना या दवा चुनना कभी आपका काम नहीं है।"
             ),
           },
           {
             type: "callout",
             style: "info",
-            heading: L("Why Not Ordinary Sugar?"),
+            heading: L("Why Not Ordinary Sugar?", "సాధారణ చక్కెర ఎందుకు వాడకూడదు?", "வழக்கமான சர்க்கரை ஏன் கூடாது?", "ಸಾಮಾನ್ಯ ಸಕ್ಕರೆ ಏಕೆ ಬೇಡ?", "आम चीनी क्यों नहीं?"),
             text: L(
-              "Calves don't digest ordinary table sugar (sucrose) well. Adding it to a fluid solution can actually make diarrhoea worse, causing even more fluid and electrolyte loss. That's why glucose is used instead of sugar in the electrolyte solution."
+              "Calves don't digest ordinary table sugar (sucrose) well. Adding it to a fluid solution can actually make diarrhoea worse, causing even more fluid and electrolyte loss. That's why glucose is used instead of sugar in the electrolyte solution.",
+              "దూడలు సాధారణ చక్కెర (సుక్రోజ్)ను సరిగ్గా జీర్ణించుకోలేవు. దాన్ని ద్రావణంలో కలిపితే విరేచనాలు మరింత తీవ్రమయ్యే అవకాశం ఉంది, దీనివల్ల మరింత ద్రవం, లవణాలు కోల్పోతాయి. అందుకే ఎలక్ట్రోలైట్ ద్రావణంలో చక్కెరకు బదులు గ్లూకోజ్ వాడతారు.",
+              "கன்றுகள் வழக்கமான சர்க்கரையை (சுக்ரோஸ்) நன்றாக செரிக்காது. அதை திரவக் கரைசலில் சேர்த்தால் வயிற்றுப்போக்கு மேலும் மோசமாகி, இன்னும் அதிக திரவம் மற்றும் உப்பு இழப்பை ஏற்படுத்தலாம். அதனால்தான் எலக்ட்ரோலைட் கரைசலில் சர்க்கரைக்கு பதிலாக குளுக்கோஸ் பயன்படுத்தப்படுகிறது.",
+              "ಕರುಗಳು ಸಾಮಾನ್ಯ ಸಕ್ಕರೆಯನ್ನು (ಸುಕ್ರೋಸ್) ಸರಿಯಾಗಿ ಜೀರ್ಣಿಸಿಕೊಳ್ಳುವುದಿಲ್ಲ. ಅದನ್ನು ದ್ರವ ದ್ರಾವಣಕ್ಕೆ ಸೇರಿಸಿದರೆ ಭೇದಿ ಇನ್ನಷ್ಟು ಹದಗೆಟ್ಟು, ಇನ್ನಷ್ಟು ದ್ರವ ಮತ್ತು ಲವಣ ನಷ್ಟಕ್ಕೆ ಕಾರಣವಾಗಬಹುದು. ಅದಕ್ಕಾಗಿಯೇ ಎಲೆಕ್ಟ್ರೋಲೈಟ್ ದ್ರಾವಣದಲ್ಲಿ ಸಕ್ಕರೆಯ ಬದಲು ಗ್ಲೂಕೋಸ್ ಬಳಸಲಾಗುತ್ತದೆ.",
+              "बछड़े साधारण चीनी (सुक्रोज़) को ठीक से नहीं पचा पाते। इसे घोल में मिलाने से दस्त और बिगड़ सकते हैं, जिससे और ज़्यादा पानी और नमक निकल सकता है। इसीलिए इलेक्ट्रोलाइट घोल में चीनी की जगह ग्लूकोज़ इस्तेमाल किया जाता है।"
             ),
           },
           {
             type: "ledger",
-            heading: L("Home Electrolyte Solution (for 1 litre of warm water)"),
+            heading: L("Home Electrolyte Solution (for 1 litre of warm water)", "ఇంట్లో తయారుచేసే ఎలక్ట్రోలైట్ ద్రావణం (1 లీటరు గోరువెచ్చని నీటికి)", "வீட்டு எலக்ட்ரோலைட் கரைசல் (1 லிட்டர் வெதுவெதுப்பான தண்ணீருக்கு)", "ಮನೆಯಲ್ಲಿ ತಯಾರಿಸುವ ಎಲೆಕ್ಟ್ರೋಲೈಟ್ ದ್ರಾವಣ (1 ಲೀಟರ್ ಬೆಚ್ಚಗಿನ ನೀರಿಗೆ)", "घरेलू इलेक्ट्रोलाइट घोल (1 लीटर गुनगुने पानी के लिए)"),
             rows: [
-              { label: L("Glucose"), amount: "5 teaspoons" },
-              { label: L("Soda bi-carbonate"), amount: "1 teaspoon" },
-              { label: L("Table salt"), amount: "1 teaspoon" },
+              { label: L("Glucose", "గ్లూకోజ్", "குளுக்கோஸ்", "ಗ್ಲೂಕೋಸ್", "ग्लूकोज़"), amount: "5 teaspoons" },
+              { label: L("Soda bi-carbonate", "సోడా బై-కార్బొనేట్", "சோடா பை-கார்பனேட்", "ಸೋಡಾ ಬೈ-ಕಾರ್ಬೊನೇಟ್", "सोडा बाई-कार्बोनेट"), amount: "1 teaspoon" },
+              { label: L("Table salt", "సాధారణ ఉప్పు", "சாதாரண உப்பு", "ಸಾಮಾನ್ಯ ಉಪ್ಪು", "आम नमक"), amount: "1 teaspoon" },
             ],
-            total: { label: L("Feed"), amount: "2–4 litres of this solution every day" },
+            total: { label: L("Feed", "త్రాగించండి", "கொடுங்கள்", "ಕುಡಿಸಿ", "पिलाएं"), amount: "2–4 litres of this solution every day" },
           },
           {
             type: "callout",
             style: "tip",
-            heading: L("This Solution Is Extra, Not a Replacement"),
+            heading: L("This Solution Is Extra, Not a Replacement", "ఈ ద్రావణం అదనంగా ఇవ్వాలి, బదులుగా కాదు", "இந்த கரைசல் கூடுதலானது, மாற்று அல்ல", "ಈ ದ್ರಾವಣ ಹೆಚ್ಚುವರಿಯಾಗಿ ಕೊಡಬೇಕು, ಬದಲಿಯಾಗಿ ಅಲ್ಲ", "यह घोल अतिरिक्त है, बदले में नहीं"),
             text: L(
-              "The electrolyte solution should be fed in addition to the calf's normal feeding, not instead of it. Keep feeding as usual, and add the electrolyte solution on top."
+              "The electrolyte solution should be fed in addition to the calf's normal feeding, not instead of it. Keep feeding as usual, and add the electrolyte solution on top.",
+              "ఎలక్ట్రోలైట్ ద్రావణాన్ని దూడ మామూలు ఆహారానికి అదనంగా ఇవ్వాలి, దానికి బదులుగా కాదు. మామూలుగా ఆహారం ఇస్తూనే, పైగా ఈ ద్రావణాన్ని కూడా ఇవ్వండి.",
+              "எலக்ட்ரோலைட் கரைசலை கன்றின் வழக்கமான உணவுக்கு கூடுதலாக கொடுக்க வேண்டும், அதற்கு பதிலாக அல்ல. வழக்கம் போல் உணவளித்து, மேலும் இந்த கரைசலையும் சேர்த்து கொடுங்கள்.",
+              "ಎಲೆಕ್ಟ್ರೋಲೈಟ್ ದ್ರಾವಣವನ್ನು ಕರುವಿನ ಸಾಮಾನ್ಯ ಆಹಾರಕ್ಕೆ ಹೆಚ್ಚುವರಿಯಾಗಿ ಕೊಡಬೇಕು, ಅದರ ಬದಲಿಗೆ ಅಲ್ಲ. ಎಂದಿನಂತೆ ಆಹಾರ ಕೊಡುತ್ತಾ, ಈ ದ್ರಾವಣವನ್ನೂ ಹೆಚ್ಚುವರಿಯಾಗಿ ಸೇರಿಸಿ.",
+              "इलेक्ट्रोलाइट घोल बछड़े के सामान्य आहार के साथ अतिरिक्त रूप से देना चाहिए, उसकी जगह नहीं। हमेशा की तरह खिलाते रहें, और ऊपर से यह घोल भी दें।"
             ),
           },
           {
             type: "stat-grid",
             items: [
               {
-                label: L("Colostrum Within 6 Hours"),
-                text: L("Make sure the calf gets adequate colostrum within 6 hours of birth — this is what gives it the immunity to fight off infections like diarrhoea."),
+                label: L("Colostrum Within 6 Hours", "6 గంటల్లోపు జున్ను", "6 மணி நேரத்திற்குள் கொழுந்து பால்", "6 ಗಂಟೆಗಳ ಒಳಗೆ ಗಿಣ್ಣುಹಾಲು", "6 घंटे के भीतर खीस"),
+                text: L("Make sure the calf gets adequate colostrum within 6 hours of birth — this is what gives it the immunity to fight off infections like diarrhoea.", "పుట్టిన 6 గంటల్లోపు దూడకు తగినంత జున్ను అందేలా చూసుకోండి — విరేచనాల వంటి ఇన్ఫెక్షన్లతో పోరాడేందుకు ఇదే దూడకు రోగనిరోధక శక్తినిస్తుంది.", "பிறந்த 6 மணி நேரத்திற்குள் கன்றுக்கு போதுமான கொழுந்து பால் கிடைப்பதை உறுதி செய்யுங்கள் — வயிற்றுப்போக்கு போன்ற தொற்றுகளை எதிர்த்துப் போராட இதுவே நோய் எதிர்ப்பு சக்தியை கொடுக்கிறது.", "ಹುಟ್ಟಿದ 6 ಗಂಟೆಗಳ ಒಳಗೆ ಕರುವಿಗೆ ಸಾಕಷ್ಟು ಗಿಣ್ಣುಹಾಲು ಸಿಗುವಂತೆ ನೋಡಿಕೊಳ್ಳಿ — ಭೇದಿಯಂತಹ ಸೋಂಕುಗಳ ವಿರುದ್ಧ ಹೋರಾಡಲು ಇದೇ ರೋಗ ನಿರೋಧಕ ಶಕ್ತಿಯನ್ನು ನೀಡುತ್ತದೆ.", "जन्म के 6 घंटे के भीतर बछड़े को पर्याप्त खीस मिले, यह सुनिश्चित करें — दस्त जैसे संक्रमणों से लड़ने की ताकत यही देता है।"),
               },
               {
-                label: L("Clean, Dry Surroundings"),
-                text: L("Keep the calf in a hygienic, dry environment."),
+                label: L("Clean, Dry Surroundings", "శుభ్రమైన, పొడి వాతావరణం", "சுத்தமான, உலர்ந்த சூழல்", "ಸ್ವಚ್ಛ, ಒಣ ಪರಿಸರ", "साफ़, सूखा माहौल"),
+                text: L("Keep the calf in a hygienic, dry environment.", "దూడను శుభ్రమైన, పొడి వాతావరణంలో ఉంచండి.", "கன்றை சுத்தமான, உலர்ந்த சூழலில் வைத்திருங்கள்.", "ಕರುವನ್ನು ಸ್ವಚ್ಛ, ಒಣ ಪರಿಸರದಲ್ಲಿ ಇರಿಸಿ.", "बछड़े को साफ़-सुथरे, सूखे माहौल में रखें।"),
               },
               {
-                label: L("Clean Udder Before Suckling"),
-                text: L("Make sure the mother's udder is clean before letting the calf suckle."),
+                label: L("Clean Udder Before Suckling", "పాలు తాగించే ముందు పొదుగు శుభ్రం చేయండి", "பால் கொடுப்பதற்கு முன் மடியை சுத்தம் செய்யவும்", "ಹಾಲುಣಿಸುವ ಮೊದಲು ಕೆಚ್ಚಲನ್ನು ಸ್ವಚ್ಛಗೊಳಿಸಿ", "दूध पिलाने से पहले थन साफ़ करें"),
+                text: L("Make sure the mother's udder is clean before letting the calf suckle.", "దూడకు పాలు తాగించే ముందు తల్లి పొదుగు శుభ్రంగా ఉందని నిర్ధారించుకోండి.", "கன்று பால் குடிக்க அனுமதிக்கும் முன் தாயின் மடி சுத்தமாக இருப்பதை உறுதி செய்யவும்.", "ಕರುವಿಗೆ ಹಾಲುಣಿಸುವ ಮೊದಲು ತಾಯಿಯ ಕೆಚ್ಚಲು ಸ್ವಚ್ಛವಾಗಿದೆ ಎಂದು ಖಚಿತಪಡಿಸಿಕೊಳ್ಳಿ.", "बछड़े को दूध पिलाने से पहले माँ का थन साफ़ है, यह सुनिश्चित करें।"),
               },
             ],
           },
           {
             type: "callout",
             style: "warning",
-            heading: L("Never Decide the Cause or the Treatment Yourself"),
+            heading: L("Never Decide the Cause or the Treatment Yourself", "కారణం లేదా చికిత్సను మీరే నిర్ణయించుకోకండి", "காரணத்தையோ சிகிச்சையையோ நீங்களே தீர்மானிக்காதீர்கள்", "ಕಾರಣ ಅಥವಾ ಚಿಕಿತ್ಸೆಯನ್ನು ನೀವೇ ನಿರ್ಧರಿಸಬೇಡಿ", "वजह या इलाज खुद तय न करें"),
             text: L(
-              "Working out exactly why a calf has diarrhoea, and choosing the right treatment, is always the veterinarian's job. Your job is to notice it early, start fluid replacement, keep things clean, and call the veterinarian at the earliest — especially if you see any sign of dehydration above 8%."
+              "Working out exactly why a calf has diarrhoea, and choosing the right treatment, is always the veterinarian's job. Your job is to notice it early, start fluid replacement, keep things clean, and call the veterinarian at the earliest — especially if you see any sign of dehydration above 8%.",
+              "దూడకు విరేచనాలు ఎందుకు వచ్చాయో ఖచ్చితంగా కనుక్కోవడం, సరైన చికిత్స ఎంచుకోవడం ఎప్పుడూ వెటర్నరీ డాక్టర్ పనే. మీ పని దాన్ని ముందుగా గమనించడం, ద్రవాలు ఇవ్వడం మొదలుపెట్టడం, పరిశుభ్రత పాటించడం, వీలైనంత త్వరగా డాక్టర్‌కు కాల్ చేయడం — ముఖ్యంగా 8% కంటే ఎక్కువ నీటి కొరత సంకేతం కనిపిస్తే.",
+              "கன்றுக்கு ஏன் வயிற்றுப்போக்கு வந்தது என்பதை சரியாக கண்டறிவது, சரியான சிகிச்சையை தேர்வு செய்வது எப்போதும் வெட்டரினரி டாக்டரின் வேலை. உங்கள் வேலை அதை முன்கூட்டியே கவனிப்பது, திரவம் கொடுக்க தொடங்குவது, சுத்தம் பராமரிப்பது, முடிந்தவரை விரைவாக டாக்டரை அழைப்பது — குறிப்பாக 8%க்கு மேல் நீர்ச்சத்து குறைவின் அறிகுறி தெரிந்தால்.",
+              "ಕರುವಿಗೆ ಏಕೆ ಭೇದಿ ಬಂತು ಎಂದು ನಿಖರವಾಗಿ ಕಂಡುಹಿಡಿಯುವುದು, ಸರಿಯಾದ ಚಿಕಿತ್ಸೆ ಆಯ್ಕೆ ಮಾಡುವುದು ಯಾವಾಗಲೂ ಪಶುವೈದ್ಯರ ಕೆಲಸ. ನಿಮ್ಮ ಕೆಲಸ ಅದನ್ನು ಮೊದಲೇ ಗಮನಿಸುವುದು, ದ್ರವ ಪೂರೈಕೆ ಆರಂಭಿಸುವುದು, ಸ್ವಚ್ಛತೆ ಕಾಪಾಡುವುದು, ಆದಷ್ಟು ಬೇಗ ಪಶುವೈದ್ಯರಿಗೆ ಕರೆ ಮಾಡುವುದು — ವಿಶೇಷವಾಗಿ 8% ಗಿಂತ ಹೆಚ್ಚು ನಿರ್ಜಲೀಕರಣದ ಯಾವುದೇ ಲಕ್ಷಣ ಕಂಡರೆ.",
+              "बछड़े को दस्त क्यों हुए, यह ठीक-ठीक पता लगाना और सही इलाज चुनना हमेशा डॉक्टर का काम है। आपका काम है जल्दी पहचानना, तरल पदार्थ देना शुरू करना, साफ़-सफ़ाई बनाए रखना, और जल्द से जल्द डॉक्टर को बुलाना — ख़ासकर अगर 8% से ज़्यादा पानी की कमी का कोई संकेत दिखे।"
             ),
           },
         ],
         check: [
           {
             type: "mcq",
-            q: L("Why does the home electrolyte recipe use glucose instead of ordinary table sugar?"),
+            q: L("Why does the home electrolyte recipe use glucose instead of ordinary table sugar?", "ఇంటి ఎలక్ట్రోలైట్ ద్రావణంలో సాధారణ చక్కెరకు బదులు గ్లూకోజ్ ఎందుకు వాడతారు?", "வீட்டு எலக்ட்ரோலைட் கலவையில் வழக்கமான சர்க்கரைக்கு பதிலாக ஏன் குளுக்கோஸ் பயன்படுத்தப்படுகிறது?", "ಮನೆಯ ಎಲೆಕ್ಟ್ರೋಲೈಟ್ ಪಾಕವಿಧಾನದಲ್ಲಿ ಸಾಮಾನ್ಯ ಸಕ್ಕರೆಯ ಬದಲು ಗ್ಲೂಕೋಸ್ ಏಕೆ ಬಳಸಲಾಗುತ್ತದೆ?", "घरेलू इलेक्ट्रोलाइट नुस्खे में आम चीनी की जगह ग्लूकोज़ क्यों इस्तेमाल होता है?"),
             options: [
-              L("Glucose tastes better to calves"),
-              L("Table sugar (sucrose) is not digested well by calves and can worsen diarrhoea"),
-              L("Table sugar is more expensive"),
-              L("There is no real difference"),
+              L("Glucose tastes better to calves", "గ్లూకోజ్ దూడలకు రుచిగా ఉంటుంది", "குளுக்கோஸ் கன்றுகளுக்கு சுவையாக இருக்கும்", "ಗ್ಲೂಕೋಸ್ ಕರುಗಳಿಗೆ ರುಚಿಯಾಗಿರುತ್ತದೆ", "ग्लूकोज़ बछड़ों को स्वाद में बेहतर लगता है"),
+              L("Table sugar (sucrose) is not digested well by calves and can worsen diarrhoea", "సాధారణ చక్కెర (సుక్రోజ్)ను దూడలు సరిగ్గా జీర్ణించుకోలేవు, ఇది విరేచనాలను మరింత తీవ్రం చేయవచ్చు", "சாதாரண சர்க்கரையை (சுக்ரோஸ்) கன்றுகள் நன்றாக செரிக்காது, இது வயிற்றுப்போக்கை மோசமாக்கலாம்", "ಸಾಮಾನ್ಯ ಸಕ್ಕರೆಯನ್ನು (ಸುಕ್ರೋಸ್) ಕರುಗಳು ಸರಿಯಾಗಿ ಜೀರ್ಣಿಸಿಕೊಳ್ಳುವುದಿಲ್ಲ, ಇದು ಭೇದಿಯನ್ನು ಇನ್ನಷ್ಟು ಹದಗೆಡಿಸಬಹುದು", "बछड़े आम चीनी (सुक्रोज़) को ठीक से नहीं पचा पाते, इससे दस्त और बिगड़ सकते हैं"),
+              L("Table sugar is more expensive", "సాధారణ చక్కెర ఖరీదైనది", "சாதாரண சர்க்கரை விலை அதிகம்", "ಸಾಮಾನ್ಯ ಸಕ್ಕರೆ ಹೆಚ್ಚು ದುಬಾರಿ", "आम चीनी ज़्यादा महंगी होती है"),
+              L("There is no real difference", "నిజంగా తేడా ఏమీ లేదు", "உண்மையில் எந்த வித்தியாசமும் இல்லை", "ನಿಜವಾದ ವ್ಯತ್ಯಾಸವಿಲ್ಲ", "असल में कोई फ़र्क़ नहीं है"),
             ],
             answer: 1,
-            explain: L("Calves don't digest table sugar (sucrose) effectively, and adding it can worsen diarrhoea by increasing fluid and electrolyte loss — so glucose is used instead."),
+            explain: L("Calves don't digest table sugar (sucrose) effectively, and adding it can worsen diarrhoea by increasing fluid and electrolyte loss — so glucose is used instead.", "దూడలు సాధారణ చక్కెర (సుక్రోజ్)ను సమర్థంగా జీర్ణించుకోలేవు, దాన్ని కలిపితే ద్రవం, లవణాల నష్టం పెరిగి విరేచనాలు మరింత తీవ్రమవుతాయి — అందుకే బదులుగా గ్లూకోజ్ వాడతారు.", "கன்றுகள் சாதாரண சர்க்கரையை (சுக்ரோஸ்) திறம்பட செரிக்காது, அதை சேர்த்தால் திரவம் மற்றும் உப்பு இழப்பு அதிகரித்து வயிற்றுப்போக்கு மோசமாகலாம் — அதனால் பதிலாக குளுக்கோஸ் பயன்படுத்தப்படுகிறது.", "ಕರುಗಳು ಸಾಮಾನ್ಯ ಸಕ್ಕರೆಯನ್ನು (ಸುಕ್ರೋಸ್) ಪರಿಣಾಮಕಾರಿಯಾಗಿ ಜೀರ್ಣಿಸಿಕೊಳ್ಳುವುದಿಲ್ಲ, ಅದನ್ನು ಸೇರಿಸಿದರೆ ದ್ರವ ಮತ್ತು ಲವಣ ನಷ್ಟ ಹೆಚ್ಚಾಗಿ ಭೇದಿ ಇನ್ನಷ್ಟು ಹದಗೆಡಬಹುದು — ಆದ್ದರಿಂದ ಬದಲಿಗೆ ಗ್ಲೂಕೋಸ್ ಬಳಸಲಾಗುತ್ತದೆ.", "बछड़े चीनी (सुक्रोज़) को असरदार तरीके से नहीं पचा पाते, इसे मिलाने से पानी और नमक की कमी बढ़कर दस्त और बिगड़ सकते हैं — इसलिए बदले में ग्लूकोज़ इस्तेमाल किया जाता है।"),
           },
           {
             type: "truefalse",
-            q: L("The electrolyte solution should replace the calf's normal feed while it has diarrhoea."),
+            q: L("The electrolyte solution should replace the calf's normal feed while it has diarrhoea.", "విరేచనాలు ఉన్నప్పుడు ఎలక్ట్రోలైట్ ద్రావణం దూడ మామూలు ఆహారానికి బదులుగా ఇవ్వాలి.", "வயிற்றுப்போக்கு இருக்கும்போது எலக்ட்ரோலைட் கரைசல் கன்றின் வழக்கமான உணவுக்கு பதிலாக இருக்க வேண்டும்.", "ಭೇದಿ ಇರುವಾಗ ಎಲೆಕ್ಟ್ರೋಲೈಟ್ ದ್ರಾವಣ ಕರುವಿನ ಸಾಮಾನ್ಯ ಆಹಾರದ ಬದಲಿಯಾಗಿರಬೇಕು.", "दस्त के दौरान इलेक्ट्रोलाइट घोल बछड़े के सामान्य आहार की जगह लेना चाहिए।"),
             answer: false,
-            explain: L("No — the electrolyte solution is fed over and above normal feeding, not instead of it."),
+            explain: L("No — the electrolyte solution is fed over and above normal feeding, not instead of it.", "కాదు — ఎలక్ట్రోలైట్ ద్రావణం మామూలు ఆహారానికి అదనంగా ఇవ్వాలి, దానికి బదులుగా కాదు.", "இல்லை — எலக்ட்ரோலைட் கரைசல் வழக்கமான உணவுக்கு கூடுதலாக கொடுக்கப்பட வேண்டும், அதற்கு பதிலாக அல்ல.", "ಇಲ್ಲ — ಎಲೆಕ್ಟ್ರೋಲೈಟ್ ದ್ರಾವಣವನ್ನು ಸಾಮಾನ್ಯ ಆಹಾರದ ಜೊತೆಗೆ ಹೆಚ್ಚುವರಿಯಾಗಿ ಕೊಡಬೇಕು, ಬದಲಿಯಾಗಿ ಅಲ್ಲ.", "नहीं — इलेक्ट्रोलाइट घोल सामान्य आहार के ऊपर अतिरिक्त रूप से दिया जाता है, उसकी जगह नहीं।"),
           },
         ],
       },
