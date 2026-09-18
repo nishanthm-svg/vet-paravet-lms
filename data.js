@@ -9862,70 +9862,150 @@ export const MODULES = [
   // ==================================================================
   {
     id: "m15-l3",
-    title: L("Making the Most of Crop Residues: Urea Treatment"),
+    title: L(
+      "Making the Most of Crop Residues: Urea Treatment",
+      "పంట అవశేషాలను పూర్తిగా వినియోగించుకోవడం: యూరియా శుద్ధి",
+      "பயிர் எச்சங்களை முழுமையாகப் பயன்படுத்துதல்: யூரியா சிகிச்சை",
+      "ಬೆಳೆ ಅವಶೇಷಗಳನ್ನು ಪೂರ್ಣವಾಗಿ ಬಳಸಿಕೊಳ್ಳುವುದು: ಯೂರಿಯಾ ಸಂಸ್ಕರಣೆ",
+      "फसल अवशेषों का पूरा उपयोग करना: यूरिया उपचार"
+    ),
     estMinutes: 9,
     hook: [
       {
         type: "hero",
-        heading: L("Turning Poor-Quality Straw Into Better Feed"),
+        heading: L(
+          "Turning Poor-Quality Straw Into Better Feed",
+          "నాసిరకం గడ్డిని మెరుగైన దాణాగా మార్చడం",
+          "தரம் குறைந்த வைக்கோலை சிறந்த தீவனமாக மாற்றுதல்",
+          "ಕಳಪೆ ಗುಣಮಟ್ಟದ ಒಣಹುಲ್ಲನ್ನು ಉತ್ತಮ ಆಹಾರವಾಗಿ ಪರಿವರ್ತಿಸುವುದು",
+          "घटिया गुणवत्ता के भूसे को बेहतर चारे में बदलना"
+        ),
         text: L(
-          "Straw left over from crops like paddy, wheat, bajra and sorghum is usually plentiful on a farm — but on its own, it's poor-quality feed. A simple treatment using urea can make that straw noticeably more nutritious. Handled correctly, it's a genuinely useful farm practice. Handled carelessly, it can be dangerous — so this lesson is as much about safety as it is about the method itself."
+          "Straw left over from crops like paddy, wheat, bajra and sorghum is usually plentiful on a farm — but on its own, it's poor-quality feed. A simple treatment using urea can make that straw noticeably more nutritious. Handled correctly, it's a genuinely useful farm practice. Handled carelessly, it can be dangerous — so this lesson is as much about safety as it is about the method itself.",
+          "వరి, గోధుమ, సజ్జ మరియు జొన్న వంటి పంటల నుండి మిగిలిన గడ్డి సాధారణంగా ఫారంలో సమృద్ధిగా ఉంటుంది — కానీ అది స్వయంగా నాసిరకం దాణా. యూరియాను ఉపయోగించే ఒక సాధారణ శుద్ధి పద్ధతి ఆ గడ్డిని గణనీయంగా మరింత పోషకమైనదిగా మార్చగలదు. సరిగ్గా చేస్తే, ఇది నిజంగా ఉపయోగకరమైన ఫారం పద్ధతి. అజాగ్రత్తగా చేస్తే, ఇది ప్రమాదకరం కావచ్చు — కాబట్టి ఈ పాఠం పద్ధతి గురించి ఎంత ఉందో, భద్రత గురించి కూడా అంతే ఉంటుంది.",
+          "நெல், கோதுமை, கம்பு மற்றும் சோளக்கம்பு போன்ற பயிர்களிலிருந்து மீதமான வைக்கோல் பொதுவாக பண்ணையில் ஏராளமாக இருக்கும் — ஆனால் அது தானாகவே தரம் குறைந்த தீவனம். யூரியாவைப் பயன்படுத்தும் எளிய சிகிச்சை அந்த வைக்கோலை குறிப்பிடத்தக்க அளவு ஊட்டச்சத்து மிக்கதாக மாற்ற முடியும். சரியாகச் செய்தால், இது உண்மையிலேயே பயனுள்ள பண்ணை நடைமுறை. கவனக்குறைவாகச் செய்தால், இது ஆபத்தானதாக இருக்கலாம் — எனவே இந்தப் பாடம் முறையைப் பற்றி எவ்வளவு பேசுகிறதோ, பாதுகாப்பைப் பற்றியும் அவ்வளவே பேசுகிறது.",
+          "ಭತ್ತ, ಗೋಧಿ, ಸಜ್ಜೆ ಮತ್ತು ಜೋಳದಂತಹ ಬೆಳೆಗಳಿಂದ ಉಳಿದ ಒಣಹುಲ್ಲು ಸಾಮಾನ್ಯವಾಗಿ ಫಾರ್ಮ್‌ನಲ್ಲಿ ಹೇರಳವಾಗಿರುತ್ತದೆ — ಆದರೆ ಅದು ತಾನಾಗಿಯೇ ಕಳಪೆ ಗುಣಮಟ್ಟದ ಆಹಾರ. ಯೂರಿಯಾ ಬಳಸುವ ಸರಳ ಸಂಸ್ಕರಣೆ ಆ ಒಣಹುಲ್ಲನ್ನು ಗಮನಾರ್ಹವಾಗಿ ಹೆಚ್ಚು ಪೌಷ್ಟಿಕವಾಗಿಸಬಹುದು. ಸರಿಯಾಗಿ ನಿರ್ವಹಿಸಿದರೆ, ಇದು ನಿಜವಾಗಿಯೂ ಉಪಯುಕ್ತವಾದ ಫಾರ್ಮ್ ಅಭ್ಯಾಸ. ಅಜಾಗರೂಕತೆಯಿಂದ ನಿರ್ವಹಿಸಿದರೆ, ಇದು ಅಪಾಯಕಾರಿಯಾಗಬಹುದು — ಆದ್ದರಿಂದ ಈ ಪಾಠ ವಿಧಾನದ ಬಗ್ಗೆ ಎಷ್ಟು ಹೇಳುತ್ತದೋ, ಸುರಕ್ಷತೆಯ ಬಗ್ಗೆಯೂ ಅಷ್ಟೇ ಹೇಳುತ್ತದೆ.",
+          "धान, गेहूं, बाजरा और ज्वार जैसी फसलों से बचा हुआ भूसा आमतौर पर फार्म पर भरपूर मात्रा में होता है — लेकिन अपने आप में यह घटिया गुणवत्ता का चारा है। यूरिया का उपयोग करके किया गया एक सरल उपचार उस भूसे को काफी हद तक अधिक पोषक बना सकता है। सही तरीके से किया जाए तो यह वाकई उपयोगी फार्म पद्धति है। लापरवाही से किया जाए तो यह खतरनाक हो सकता है — इसलिए यह पाठ जितना तरीके के बारे में है, उतना ही सुरक्षा के बारे में भी है।"
         ),
       },
     ],
     topics: [
       {
         id: "t-m15-straw-problem",
-        title: L("Why Plain Straw Isn't Enough on Its Own"),
+        title: L(
+          "Why Plain Straw Isn't Enough on Its Own",
+          "సాధారణ గడ్డి ఒంటరిగా ఎందుకు సరిపోదు",
+          "வெறும் வைக்கோல் தானாகவே ஏன் போதுமானதாக இல்லை",
+          "ಸಾಮಾನ್ಯ ಒಣಹುಲ್ಲು ಒಂದೇ ಸಾಕಾಗದಿರುವುದು ಏಕೆ",
+          "सादा भूसा अपने आप में पर्याप्त क्यों नहीं है"
+        ),
         teach: [
             {
               type: "photo",
               src: "assets/photo-m15-straw.jpg",
-              alt: L("A field of golden crop stubble left after harvest, near Sangrur, Punjab, India"),
-              caption: L("Crop residue (straw stubble) left after harvest — the kind of straw that urea treatment can turn into better feed."),
+              alt: L(
+                "A field of golden crop stubble left after harvest, near Sangrur, Punjab, India",
+                "పంజాబ్‌లోని సంగ్రూర్ సమీపంలో పంట కోత తర్వాత మిగిలిన బంగారు రంగు మొదళ్ల పొలం",
+                "பஞ்சாபின் சங்ரூர் அருகே அறுவடைக்குப் பிறகு மீதமான தங்க நிற பயிர் அடிமரங்களின் வயல்",
+                "ಪಂಜಾಬ್‌ನ ಸಂಗ್ರೂರ್ ಬಳಿ ಕೊಯ್ಲಿನ ನಂತರ ಉಳಿದಿರುವ ಚಿನ್ನದ ಬಣ್ಣದ ಬೆಳೆ ಕೂಳೆಯ ಹೊಲ",
+                "पंजाब के संगरूर के पास फसल कटाई के बाद बचे सुनहरे ठूंठ का एक खेत"
+              ),
+              caption: L(
+                "Crop residue (straw stubble) left after harvest — the kind of straw that urea treatment can turn into better feed.",
+                "పంట కోత తర్వాత మిగిలిన పంట అవశేషం (గడ్డి మొదళ్లు) — యూరియా శుద్ధి మెరుగైన దాణాగా మార్చగలిగే గడ్డి రకం.",
+                "அறுவடைக்குப் பிறகு மீதமான பயிர் எச்சம் (வைக்கோல் அடிமரம்) — யூரியா சிகிச்சை சிறந்த தீவனமாக மாற்றக்கூடிய வைக்கோல் வகை.",
+                "ಕೊಯ್ಲಿನ ನಂತರ ಉಳಿದ ಬೆಳೆ ಅವಶೇಷ (ಒಣಹುಲ್ಲಿನ ಕೂಳೆ) — ಯೂರಿಯಾ ಸಂಸ್ಕರಣೆ ಉತ್ತಮ ಆಹಾರವಾಗಿ ಪರಿವರ್ತಿಸಬಹುದಾದ ಒಣಹುಲ್ಲಿನ ವಿಧ.",
+                "फसल कटाई के बाद बचा फसल अवशेष (भूसे का ठूंठ) — इस तरह का भूसा जिसे यूरिया उपचार बेहतर चारे में बदल सकता है।"
+              ),
             },
           {
             type: "text",
-            heading: L("Plenty of Straw, but Poor Nutrition"),
+            heading: L(
+              "Plenty of Straw, but Poor Nutrition",
+              "గడ్డి సమృద్ధిగా ఉంది, కానీ పోషణ తక్కువ",
+              "வைக்கோல் ஏராளம், ஆனால் ஊட்டச்சத்து குறைவு",
+              "ಒಣಹುಲ್ಲು ಹೇರಳ, ಆದರೆ ಪೋಷಣೆ ಕಡಿಮೆ",
+              "भूसा भरपूर, लेकिन पोषण कम"
+            ),
             html: L(
-              "Straws from crops like paddy, wheat, bajra and sorghum are usually available in large quantities on dairy farms. The problem is that these straws are naturally low in nutrients and hard for the animal to digest well — they generally contain less than 4 per cent protein, which is quite low."
+              "Straws from crops like paddy, wheat, bajra and sorghum are usually available in large quantities on dairy farms. The problem is that these straws are naturally low in nutrients and hard for the animal to digest well — they generally contain less than 4 per cent protein, which is quite low.",
+              "వరి, గోధుమ, సజ్జ మరియు జొన్న వంటి పంటల గడ్డి సాధారణంగా పాడి ఫారంలలో పెద్ద మొత్తంలో లభిస్తుంది. సమస్య ఏమిటంటే ఈ గడ్డులు సహజంగా పోషకాలు తక్కువగా ఉండి, జంతువుకు బాగా జీర్ణం కావడం కష్టం — వాటిలో సాధారణంగా 4 శాతం కంటే తక్కువ ప్రోటీన్ ఉంటుంది, ఇది చాలా తక్కువ.",
+              "நெல், கோதுமை, கம்பு மற்றும் சோளக்கம்பு போன்ற பயிர்களின் வைக்கோல் பொதுவாக பால் பண்ணைகளில் அதிக அளவில் கிடைக்கும். பிரச்சனை என்னவென்றால் இந்த வைக்கோல்கள் இயற்கையாகவே ஊட்டச்சத்து குறைவாக இருந்து, விலங்குக்கு நன்றாக செரிமானமாகுவது கடினமாக இருக்கும் — அவற்றில் பொதுவாக 4 சதவீதத்திற்கும் குறைவான புரதம் இருக்கும், இது மிகவும் குறைவு.",
+              "ಭತ್ತ, ಗೋಧಿ, ಸಜ್ಜೆ ಮತ್ತು ಜೋಳದಂತಹ ಬೆಳೆಗಳ ಒಣಹುಲ್ಲು ಸಾಮಾನ್ಯವಾಗಿ ಡೈರಿ ಫಾರ್ಮ್‌ಗಳಲ್ಲಿ ದೊಡ್ಡ ಪ್ರಮಾಣದಲ್ಲಿ ಲಭ್ಯವಿರುತ್ತದೆ. ಸಮಸ್ಯೆ ಏನೆಂದರೆ ಈ ಒಣಹುಲ್ಲುಗಳು ಸ್ವಾಭಾವಿಕವಾಗಿ ಪೋಷಕಾಂಶ ಕಡಿಮೆ ಇದ್ದು, ಪ್ರಾಣಿಗೆ ಚೆನ್ನಾಗಿ ಜೀರ್ಣಿಸಿಕೊಳ್ಳಲು ಕಷ್ಟ — ಅವುಗಳಲ್ಲಿ ಸಾಮಾನ್ಯವಾಗಿ 4 ಪ್ರತಿಶತಕ್ಕಿಂತ ಕಡಿಮೆ ಪ್ರೋಟೀನ್ ಇರುತ್ತದೆ, ಇದು ಬಹಳ ಕಡಿಮೆ.",
+              "धान, गेहूं, बाजरा और ज्वार जैसी फसलों का भूसा आमतौर पर डेयरी फार्मों पर बड़ी मात्रा में उपलब्ध होता है। समस्या यह है कि ये भूसे स्वाभाविक रूप से पोषक तत्वों में कम होते हैं और पशु के लिए अच्छी तरह पचाना मुश्किल होता है — इनमें आमतौर पर 4 प्रतिशत से कम प्रोटीन होता है, जो काफी कम है।"
             ),
           },
           {
             type: "glossary",
-            term: L("Crop Residue / Straw"),
+            term: L("Crop Residue / Straw", "పంట అవశేషం / గడ్డి", "பயிர் எச்சம் / வைக்கோல்", "ಬೆಳೆ ಅವಶೇಷ / ಒಣಹುಲ್ಲು", "फसल अवशेष / भूसा"),
             meaning: L(
-              "The dry stalks and leftover plant material from a grain crop (such as paddy or wheat) after the grain itself has been harvested. It is bulky and widely available, but on its own it is low in nutrients."
+              "The dry stalks and leftover plant material from a grain crop (such as paddy or wheat) after the grain itself has been harvested. It is bulky and widely available, but on its own it is low in nutrients.",
+              "ధాన్యం పంట (వరి లేదా గోధుమ వంటివి) కోసిన తర్వాత మిగిలిన ఎండిన కాండాలు మరియు మొక్క పదార్థం. ఇది స్థూలంగా, విస్తృతంగా అందుబాటులో ఉంటుంది, కానీ స్వయంగా పోషకాలు తక్కువగా ఉంటుంది.",
+              "தானியப் பயிர் (நெல் அல்லது கோதுமை போன்றவை) அறுவடை செய்யப்பட்ட பிறகு மீதமான உலர்ந்த தண்டுகள் மற்றும் தாவரப் பொருள். இது பருமனாகவும், பரவலாகவும் கிடைக்கும், ஆனால் தானாகவே ஊட்டச்சத்து குறைவாக இருக்கும்.",
+              "ಧಾನ್ಯ ಬೆಳೆಯನ್ನು (ಭತ್ತ ಅಥವಾ ಗೋಧಿಯಂತಹವು) ಕೊಯ್ಲು ಮಾಡಿದ ನಂತರ ಉಳಿದ ಒಣ ಕಾಂಡಗಳು ಮತ್ತು ಸಸ್ಯ ಪದಾರ್ಥ. ಇದು ಬೃಹತ್ ಆಗಿದ್ದು, ವ್ಯಾಪಕವಾಗಿ ಲಭ್ಯವಿದೆ, ಆದರೆ ತಾನಾಗಿಯೇ ಪೋಷಕಾಂಶ ಕಡಿಮೆ ಇರುತ್ತದೆ.",
+              "अनाज फसल (जैसे धान या गेहूं) की कटाई के बाद बचे सूखे डंठल और पौधे की बची हुई सामग्री। यह भारी और व्यापक रूप से उपलब्ध होता है, लेकिन अपने आप में इसमें पोषक तत्व कम होते हैं।"
             ),
           },
           {
             type: "text",
-            heading: L("What Urea Treatment Does"),
+            heading: L(
+              "What Urea Treatment Does",
+              "యూరియా శుద్ధి ఏమి చేస్తుంది",
+              "யூரியா சிகிச்சை என்ன செய்கிறது",
+              "ಯೂರಿಯಾ ಸಂಸ್ಕರಣೆ ಏನು ಮಾಡುತ್ತದೆ",
+              "यूरिया उपचार क्या करता है"
+            ),
             html: L(
-              "<b>Urea treatment</b> is a way of improving the nutritional value of straw before feeding it. Treating straw with a urea solution raises its protein content from under 4 per cent to about 8 per cent — roughly double. Feeding urea-treated straw can also cut down how much extra cattle feed concentrate is needed, by as much as 30 per cent in some cases. In simple terms, the treatment turns a bulky, low-value straw into a noticeably better feed."
+              "<b>Urea treatment</b> is a way of improving the nutritional value of straw before feeding it. Treating straw with a urea solution raises its protein content from under 4 per cent to about 8 per cent — roughly double. Feeding urea-treated straw can also cut down how much extra cattle feed concentrate is needed, by as much as 30 per cent in some cases. In simple terms, the treatment turns a bulky, low-value straw into a noticeably better feed.",
+              "<b>యూరియా శుద్ధి</b> అనేది గడ్డిని తినిపించే ముందు దాని పోషక విలువను మెరుగుపరచే ఒక పద్ధతి. యూరియా ద్రావణంతో గడ్డిని శుద్ధి చేయడం వల్ల దాని ప్రోటీన్ శాతం 4 శాతం కంటే తక్కువ నుండి సుమారు 8 శాతానికి — దాదాపు రెట్టింపుకు పెరుగుతుంది. యూరియా శుద్ధి చేసిన గడ్డిని తినిపించడం వల్ల కొన్ని సందర్భాల్లో అదనపు దాణా అవసరం 30 శాతం వరకు తగ్గించవచ్చు. సరళంగా చెప్పాలంటే, ఈ శుద్ధి ఒక స్థూలమైన, తక్కువ విలువ గల గడ్డిని గణనీయంగా మెరుగైన దాణాగా మారుస్తుంది.",
+              "<b>யூரியா சிகிச்சை</b> என்பது வைக்கோலை ஊட்டுவதற்கு முன் அதன் ஊட்டச்சத்து மதிப்பை மேம்படுத்தும் ஒரு வழி. யூரியா கரைசலால் வைக்கோலுக்கு சிகிச்சை செய்வது அதன் புரத அளவை 4 சதவீதத்திற்குக் கீழிருந்து சுமார் 8 சதவீதமாக — கிட்டத்தட்ட இரட்டிப்பாக உயர்த்துகிறது. யூரியா சிகிச்சை செய்யப்பட்ட வைக்கோலை ஊட்டுவது சில சந்தர்ப்பங்களில் கூடுதல் கால்நடை தீவனத் தேவையை 30 சதவீதம் வரை குறைக்கவும் முடியும். எளிமையாகச் சொன்னால், இந்த சிகிச்சை பருமனான, குறைந்த மதிப்புள்ள வைக்கோலை குறிப்பிடத்தக்க அளவு சிறந்த தீவனமாக மாற்றுகிறது.",
+              "<b>ಯೂರಿಯಾ ಸಂಸ್ಕರಣೆ</b> ಎಂದರೆ ಒಣಹುಲ್ಲನ್ನು ತಿನ್ನಿಸುವ ಮೊದಲು ಅದರ ಪೋಷಕಾಂಶ ಮೌಲ್ಯವನ್ನು ಸುಧಾರಿಸುವ ಒಂದು ವಿಧಾನ. ಯೂರಿಯಾ ದ್ರಾವಣದಿಂದ ಒಣಹುಲ್ಲನ್ನು ಸಂಸ್ಕರಿಸುವುದರಿಂದ ಅದರ ಪ್ರೋಟೀನ್ ಅಂಶ 4 ಪ್ರತಿಶತಕ್ಕಿಂತ ಕಡಿಮೆಯಿಂದ ಸುಮಾರು 8 ಪ್ರತಿಶತಕ್ಕೆ — ಬಹುತೇಕ ದುಪ್ಪಟ್ಟಾಗುತ್ತದೆ. ಯೂರಿಯಾ ಸಂಸ್ಕರಿಸಿದ ಒಣಹುಲ್ಲನ್ನು ತಿನ್ನಿಸುವುದರಿಂದ ಕೆಲವು ಸಂದರ್ಭಗಳಲ್ಲಿ ಹೆಚ್ಚುವರಿ ದನದ ಆಹಾರದ ಅಗತ್ಯವನ್ನು 30 ಪ್ರತಿಶತದವರೆಗೆ ಕಡಿಮೆ ಮಾಡಬಹುದು. ಸರಳವಾಗಿ ಹೇಳುವುದಾದರೆ, ಈ ಸಂಸ್ಕರಣೆ ಬೃಹತ್, ಕಡಿಮೆ ಮೌಲ್ಯದ ಒಣಹುಲ್ಲನ್ನು ಗಮನಾರ್ಹವಾಗಿ ಉತ್ತಮ ಆಹಾರವಾಗಿ ಪರಿವರ್ತಿಸುತ್ತದೆ.",
+              "<b>यूरिया उपचार</b> भूसे को खिलाने से पहले उसके पोषण मूल्य को बेहतर बनाने का एक तरीका है। यूरिया घोल से भूसे का उपचार करने से इसकी प्रोटीन मात्रा 4 प्रतिशत से कम से बढ़कर लगभग 8 प्रतिशत — यानी करीब दोगुनी हो जाती है। यूरिया-उपचारित भूसा खिलाने से कुछ मामलों में अतिरिक्त पशु आहार की जरूरत 30 प्रतिशत तक कम हो सकती है। सरल शब्दों में, यह उपचार एक भारी, कम मूल्य वाले भूसे को काफी बेहतर चारे में बदल देता है।"
             ),
           },
           {
             type: "glossary",
-            term: L("Urea Treatment"),
+            term: L("Urea Treatment", "యూరియా శుద్ధి", "யூரியா சிகிச்சை", "ಯೂರಿಯಾ ಸಂಸ್ಕರಣೆ", "यूरिया उपचार"),
             meaning: L(
-              "A farm process where straw is dampened with a urea-and-water solution, packed down, and then sealed away from air for some weeks. This raises the straw's protein content and makes it more digestible and nutritious for the animal."
+              "A farm process where straw is dampened with a urea-and-water solution, packed down, and then sealed away from air for some weeks. This raises the straw's protein content and makes it more digestible and nutritious for the animal.",
+              "గడ్డిని యూరియా-నీటి ద్రావణంతో తడిపి, అదిమి, తర్వాత కొన్ని వారాల పాటు గాలి తగలకుండా మూసివేసే ఫారం ప్రక్రియ. ఇది గడ్డి ప్రోటీన్ శాతాన్ని పెంచి, జంతువుకు మరింత జీర్ణమయ్యేలా మరియు పోషకమైనదిగా చేస్తుంది.",
+              "வைக்கோலை யூரியா-நீர் கரைசலால் ஈரமாக்கி, அடைத்து, பின்னர் சில வாரங்களுக்கு காற்று படாமல் மூடி வைக்கும் பண்ணை செயல்முறை. இது வைக்கோலின் புரத அளவை உயர்த்தி, விலங்குக்கு அதிக செரிமானமும் ஊட்டச்சத்தும் தருகிறது.",
+              "ಒಣಹುಲ್ಲನ್ನು ಯೂರಿಯಾ-ನೀರಿನ ದ್ರಾವಣದಿಂದ ತೇವಗೊಳಿಸಿ, ಒತ್ತಿ, ನಂತರ ಕೆಲವು ವಾರಗಳ ಕಾಲ ಗಾಳಿ ಸೇರದಂತೆ ಮುಚ್ಚುವ ಫಾರ್ಮ್ ಪ್ರಕ್ರಿಯೆ. ಇದು ಒಣಹುಲ್ಲಿನ ಪ್ರೋಟೀನ್ ಅಂಶವನ್ನು ಹೆಚ್ಚಿಸಿ, ಪ್ರಾಣಿಗೆ ಹೆಚ್ಚು ಜೀರ್ಣವಾಗುವಂತೆ ಮತ್ತು ಪೌಷ್ಟಿಕವಾಗಿಸುತ್ತದೆ.",
+              "एक फार्म प्रक्रिया जिसमें भूसे को यूरिया-पानी के घोल से गीला करके, दबाकर, फिर कुछ हफ्तों तक हवा से बचाकर सील किया जाता है। इससे भूसे की प्रोटीन मात्रा बढ़ती है और यह पशु के लिए अधिक सुपाच्य और पोषक बनता है।"
             ),
           },
           {
             type: "stat-grid",
             items: [
               {
-                label: L("Untreated straw protein"),
-                text: L("Less than about 4 per cent — quite poor on its own."),
+                label: L("Untreated straw protein", "అశుద్ధ గడ్డి ప్రోటీన్", "சிகிச்சை செய்யப்படாத வைக்கோல் புரதம்", "ಸಂಸ್ಕರಿಸದ ಒಣಹುಲ್ಲಿನ ಪ್ರೋಟೀನ್", "अनुपचारित भूसे का प्रोटीन"),
+                text: L(
+                  "Less than about 4 per cent — quite poor on its own.",
+                  "సుమారు 4 శాతం కంటే తక్కువ — స్వయంగా చాలా తక్కువ.",
+                  "சுமார் 4 சதவீதத்திற்கும் குறைவு — தானாகவே மிகவும் குறைவு.",
+                  "ಸುಮಾರು 4 ಪ್ರತಿಶತಕ್ಕಿಂತ ಕಡಿಮೆ — ತಾನಾಗಿಯೇ ಬಹಳ ಕಡಿಮೆ.",
+                  "करीब 4 प्रतिशत से कम — अपने आप में काफी कम।"
+                ),
               },
               {
-                label: L("Urea-treated straw protein"),
-                text: L("Raised to about 8 per cent — roughly double."),
+                label: L("Urea-treated straw protein", "యూరియా శుద్ధి చేసిన గడ్డి ప్రోటీన్", "யூரியா சிகிச்சை செய்யப்பட்ட வைக்கோல் புரதம்", "ಯೂರಿಯಾ ಸಂಸ್ಕರಿಸಿದ ಒಣಹುಲ್ಲಿನ ಪ್ರೋಟೀನ್", "यूरिया-उपचारित भूसे का प्रोटीन"),
+                text: L(
+                  "Raised to about 8 per cent — roughly double.",
+                  "సుమారు 8 శాతానికి పెరుగుతుంది — దాదాపు రెట్టింపు.",
+                  "சுமார் 8 சதவீதமாக உயர்த்தப்படுகிறது — கிட்டத்தட்ட இரட்டிப்பு.",
+                  "ಸುಮಾರು 8 ಪ್ರತಿಶತಕ್ಕೆ ಏರುತ್ತದೆ — ಬಹುತೇಕ ದುಪ್ಪಟ್ಟು.",
+                  "करीब 8 प्रतिशत तक बढ़ जाता है — यानी लगभग दोगुना।"
+                ),
               },
               {
-                label: L("Possible feed savings"),
-                text: L("Can reduce how much extra cattle feed concentrate is needed, by up to about 30 per cent."),
+                label: L("Possible feed savings", "సాధ్యమయ్యే దాణా ఆదా", "சாத்தியமான தீவன சேமிப்பு", "ಸಂಭಾವ್ಯ ಆಹಾರ ಉಳಿತಾಯ", "संभावित चारा बचत"),
+                text: L(
+                  "Can reduce how much extra cattle feed concentrate is needed, by up to about 30 per cent.",
+                  "అదనపు దాణా అవసరాన్ని సుమారు 30 శాతం వరకు తగ్గించవచ్చు.",
+                  "கூடுதல் கால்நடை தீவன செறிவூட்ட தேவையை சுமார் 30 சதவீதம் வரை குறைக்க முடியும்.",
+                  "ಹೆಚ್ಚುವರಿ ದನದ ಆಹಾರ ಕಾನ್ಸಂಟ್ರೇಟ್ ಅಗತ್ಯವನ್ನು ಸುಮಾರು 30 ಪ್ರತಿಶತದವರೆಗೆ ಕಡಿಮೆ ಮಾಡಬಹುದು.",
+                  "अतिरिक्त पशु आहार सांद्र की जरूरत को करीब 30 प्रतिशत तक कम कर सकता है।"
+                ),
               },
             ],
           },
@@ -9933,21 +10013,69 @@ export const MODULES = [
         check: [
           {
             type: "mcq",
-            q: L("Why is plain, untreated straw considered poor-quality feed on its own?"),
+            q: L(
+              "Why is plain, untreated straw considered poor-quality feed on its own?",
+              "సాధారణ, అశుద్ధ గడ్డి స్వయంగా నాసిరకం దాణాగా ఎందుకు పరిగణించబడుతుంది?",
+              "வெறும், சிகிச்சை செய்யப்படாத வைக்கோல் தானாகவே தரம் குறைந்த தீவனமாக ஏன் கருதப்படுகிறது?",
+              "ಸಾಮಾನ್ಯ, ಸಂಸ್ಕರಿಸದ ಒಣಹುಲ್ಲನ್ನು ಅದೇ ರೀತಿ ಕಳಪೆ ಗುಣಮಟ್ಟದ ಆಹಾರವೆಂದು ಏಕೆ ಪರಿಗಣಿಸಲಾಗುತ್ತದೆ?",
+              "सादा, अनुपचारित भूसा अपने आप में घटिया गुणवत्ता का चारा क्यों माना जाता है?"
+            ),
             options: [
-              L("It is too expensive"),
-              L("It is naturally low in protein and not very digestible"),
-              L("Animals refuse to eat it at all"),
-              L("It is not available in large enough quantities"),
+              L(
+                "It is too expensive",
+                "ఇది చాలా ఖరీదైనది",
+                "இது மிகவும் விலை உயர்ந்தது",
+                "ಇದು ತುಂಬಾ ದುಬಾರಿಯಾಗಿದೆ",
+                "यह बहुत महंगा है"
+              ),
+              L(
+                "It is naturally low in protein and not very digestible",
+                "ఇది సహజంగా ప్రోటీన్ తక్కువగా ఉండి, బాగా జీర్ణం కాదు",
+                "இது இயற்கையாகவே புரதம் குறைவாக இருந்து, அவ்வளவு செரிமானமாகாது",
+                "ಇದು ಸ್ವಾಭಾವಿಕವಾಗಿ ಪ್ರೋಟೀನ್ ಕಡಿಮೆ ಇದ್ದು ಹೆಚ್ಚು ಜೀರ್ಣವಾಗುವುದಿಲ್ಲ",
+                "यह स्वाभाविक रूप से प्रोटीन में कम है और ज्यादा नहीं पचता"
+              ),
+              L(
+                "Animals refuse to eat it at all",
+                "జంతువులు దీన్ని అస్సలు తినడానికి నిరాకరిస్తాయి",
+                "விலங்குகள் இதை உண்ணவே மறுக்கும்",
+                "ಪ್ರಾಣಿಗಳು ಇದನ್ನು ಸಂಪೂರ್ಣ ತಿನ್ನಲು ನಿರಾಕರಿಸುತ್ತವೆ",
+                "पशु इसे खाने से बिल्कुल इनकार कर देते हैं"
+              ),
+              L(
+                "It is not available in large enough quantities",
+                "ఇది తగినంత పెద్ద పరిమాణంలో అందుబాటులో లేదు",
+                "இது போதுமான அளவு கிடைப்பதில்லை",
+                "ಇದು ಸಾಕಷ್ಟು ದೊಡ್ಡ ಪ್ರಮಾಣದಲ್ಲಿ ಲಭ್ಯವಿಲ್ಲ",
+                "यह पर्याप्त मात्रा में उपलब्ध नहीं है"
+              ),
             ],
             answer: 1,
-            explain: L("Straws like paddy, wheat, bajra and sorghum straw naturally contain less than about 4 per cent protein and are not very digestible on their own."),
+            explain: L(
+              "Straws like paddy, wheat, bajra and sorghum straw naturally contain less than about 4 per cent protein and are not very digestible on their own.",
+              "వరి, గోధుమ, సజ్జ మరియు జొన్న గడ్డి వంటివి సహజంగా సుమారు 4 శాతం కంటే తక్కువ ప్రోటీన్ కలిగి ఉండి, స్వయంగా బాగా జీర్ణం కావు.",
+              "நெல், கோதுமை, கம்பு மற்றும் சோளக்கம்பு வைக்கோல் போன்றவை இயற்கையாகவே 4 சதவீதத்திற்கும் குறைவான புரதத்தைக் கொண்டு, தானாகவே அவ்வளவு செரிமானமாகாது.",
+              "ಭತ್ತ, ಗೋಧಿ, ಸಜ್ಜೆ ಮತ್ತು ಜೋಳದ ಒಣಹುಲ್ಲಿನಂತಹವು ಸ್ವಾಭಾವಿಕವಾಗಿ ಸುಮಾರು 4 ಪ್ರತಿಶತಕ್ಕಿಂತ ಕಡಿಮೆ ಪ್ರೋಟೀನ್ ಹೊಂದಿದ್ದು, ತಾನಾಗಿಯೇ ಹೆಚ್ಚು ಜೀರ್ಣವಾಗುವುದಿಲ್ಲ.",
+              "धान, गेहूं, बाजरा और ज्वार के भूसे जैसे भूसों में स्वाभाविक रूप से करीब 4 प्रतिशत से कम प्रोटीन होता है और ये अपने आप में ज्यादा नहीं पचते।"
+            ),
           },
           {
             type: "truefalse",
-            q: L("Urea treatment can roughly double the protein content of straw, from under 4 per cent to about 8 per cent."),
+            q: L(
+              "Urea treatment can roughly double the protein content of straw, from under 4 per cent to about 8 per cent.",
+              "యూరియా శుద్ధి గడ్డి ప్రోటీన్ శాతాన్ని 4 శాతం కంటే తక్కువ నుండి సుమారు 8 శాతానికి, అంటే దాదాపు రెట్టింపు చేయగలదు.",
+              "யூரியா சிகிச்சை வைக்கோலின் புரத அளவை 4 சதவீதத்திற்குக் கீழிருந்து சுமார் 8 சதவீதமாக, அதாவது கிட்டத்தட்ட இரட்டிப்பாக்க முடியும்.",
+              "ಯೂರಿಯಾ ಸಂಸ್ಕರಣೆ ಒಣಹುಲ್ಲಿನ ಪ್ರೋಟೀನ್ ಅಂಶವನ್ನು 4 ಪ್ರತಿಶತಕ್ಕಿಂತ ಕಡಿಮೆಯಿಂದ ಸುಮಾರು 8 ಪ್ರತಿಶತಕ್ಕೆ, ಅಂದರೆ ಬಹುತೇಕ ದುಪ್ಪಟ್ಟುಗೊಳಿಸಬಹುದು.",
+              "यूरिया उपचार भूसे की प्रोटीन मात्रा को 4 प्रतिशत से कम से बढ़ाकर लगभग 8 प्रतिशत, यानी लगभग दोगुना कर सकता है।"
+            ),
             answer: true,
-            explain: L("Correct — that is the approximate improvement urea treatment gives to straw's protein content."),
+            explain: L(
+              "Correct — that is the approximate improvement urea treatment gives to straw's protein content.",
+              "సరైనది — ఇది యూరియా శుద్ధి గడ్డి ప్రోటీన్ శాతానికి ఇచ్చే సుమారు మెరుగుదల.",
+              "சரியானது — இதுவே யூரியா சிகிச்சை வைக்கோலின் புரத அளவுக்குத் தரும் தோராயமான முன்னேற்றம்.",
+              "ಸರಿಯಾಗಿದೆ — ಇದೇ ಯೂರಿಯಾ ಸಂಸ್ಕರಣೆ ಒಣಹುಲ್ಲಿನ ಪ್ರೋಟೀನ್ ಅಂಶಕ್ಕೆ ನೀಡುವ ಅಂದಾಜು ಸುಧಾರಣೆ.",
+              "सही — यूरिया उपचार भूसे की प्रोटीन मात्रा में लगभग यही सुधार लाता है।"
+            ),
           },
         ],
       },
