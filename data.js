@@ -4287,170 +4287,218 @@ export const MODULES = [
   // ==================================================================
   {
     id: "m7-l2",
-    title: L("Problems With the Uterus, Placenta, Udder and Blood"),
+    title: L("Problems With the Uterus, Placenta, Udder and Blood", "గర్భాశయం, మావి, పొదుగు మరియు రక్తానికి సంబంధించిన సమస్యలు", "கருப்பை, மாயை, மேமை மற்றும் இரத்தம் தொடர்பான பிரச்சினைகள்", "ಗರ್ಭಕೋಶ, ಮಾಸು, ಕೆಚ್ಚಲು ಮತ್ತು ರಕ್ತಕ್ಕೆ ಸಂಬಂಧಿಸಿದ ಸಮಸ್ಯೆಗಳು", "गर्भाशय, जेर, थन और रक्त से जुड़ी समस्याएँ"),
     estMinutes: 9,
     hook: [
       {
         type: "hero",
-        heading: L("Some Problems You Can See With Your Own Eyes"),
+        heading: L("Some Problems You Can See With Your Own Eyes", "కొన్ని సమస్యలను మీరు మీ కళ్లతోనే చూడగలరు", "சில பிரச்சினைகளை உங்கள் கண்களால் நேரடியாகப் பார்க்கலாம்", "ಕೆಲವು ಸಮಸ್ಯೆಗಳನ್ನು ನೀವು ನಿಮ್ಮ ಕಣ್ಣುಗಳಿಂದಲೇ ನೋಡಬಹುದು", "कुछ समस्याएँ आप अपनी आँखों से देख सकते हैं"),
         text: L(
-          "Not every post-calving problem is about minerals or energy. Some show up as something you can actually see — part of the body coming out where it shouldn't, the afterbirth not coming away, a swollen udder, or strange-coloured urine. This lesson teaches you exactly what to look for, and just as importantly, what NOT to do until the vet arrives."
+          "Not every post-calving problem is about minerals or energy. Some show up as something you can actually see — part of the body coming out where it shouldn't, the afterbirth not coming away, a swollen udder, or strange-coloured urine. This lesson teaches you exactly what to look for, and just as importantly, what NOT to do until the vet arrives.",
+          "ఈనిన తర్వాత వచ్చే ప్రతి సమస్యా ఖనిజాలు లేదా శక్తికి సంబంధించినది కాదు. కొన్ని మీరు నిజంగా చూడగలిగే విధంగా కనిపిస్తాయి — శరీరంలోని ఒక భాగం రాకూడని చోటికి రావడం, మావి బయటకు రాకపోవడం, పొదుగు వాచిపోవడం, లేదా మూత్రం విచిత్రమైన రంగులో రావడం. ఈ పాఠం మీరు సరిగ్గా ఏమి గమనించాలో, మరియు అంతే ముఖ్యమైనది — వైద్యుడు వచ్చేవరకు ఏమి చేయకూడదో నేర్పిస్తుంది.",
+          "ஈன்ற பிறகு வரும் ஒவ்வொரு பிரச்சினையும் தாதுக்கள் அல்லது ஆற்றல் தொடர்பானது அல்ல. சில உங்களால் நேரடியாகப் பார்க்கக்கூடிய வகையில் தோன்றும் — உடலின் ஒரு பகுதி வரக்கூடாத இடத்தில் வெளியே வருதல், மாயை வெளியேறாதிருத்தல், மேமை வீக்கம், அல்லது விசித்திரமான நிற சிறுநீர். இந்த பாடம் நீங்கள் சரியாக என்ன கவனிக்க வேண்டும் என்பதையும், அதே அளவு முக்கியமான, கால்நடை மருத்துவர் வரும் வரை என்ன செய்யக்கூடாது என்பதையும் கற்பிக்கிறது.",
+          "ಕರು ಹಾಕಿದ ನಂತರದ ಪ್ರತಿ ಸಮಸ್ಯೆಯೂ ಖನಿಜ ಅಥವಾ ಶಕ್ತಿಗೆ ಸಂಬಂಧಿಸಿದ್ದಲ್ಲ. ಕೆಲವು ನೀವು ನಿಜವಾಗಿ ನೋಡಬಹುದಾದ ರೀತಿಯಲ್ಲಿ ಕಾಣಿಸಿಕೊಳ್ಳುತ್ತವೆ — ದೇಹದ ಭಾಗ ಬರಬಾರದ ಜಾಗದಲ್ಲಿ ಹೊರಬರುವುದು, ಮಾಸು ಹೊರಬಾರದಿರುವುದು, ಕೆಚ್ಚಲು ಊತ, ಅಥವಾ ವಿಚಿತ್ರ ಬಣ್ಣದ ಮೂತ್ರ. ಈ ಪಾಠ ನೀವು ನಿಖರವಾಗಿ ಏನನ್ನು ಗಮನಿಸಬೇಕು ಎಂಬುದನ್ನೂ, ಅಷ್ಟೇ ಮುಖ್ಯವಾಗಿ, ಪಶುವೈದ್ಯರು ಬರುವವರೆಗೆ ಏನು ಮಾಡಬಾರದು ಎಂಬುದನ್ನೂ ಕಲಿಸುತ್ತದೆ.",
+          "ब्याने के बाद की हर समस्या खनिज या ऊर्जा से जुड़ी नहीं होती। कुछ ऐसी होती हैं जिन्हें आप सीधे देख सकते हैं — शरीर का कोई हिस्सा वहाँ आ जाना जहाँ नहीं आना चाहिए, जेर का न निकलना, थन में सूजन, या पेशाब का अजीब रंग। यह पाठ आपको सिखाता है कि बिल्कुल क्या देखना है, और उतना ही ज़रूरी — डॉक्टर के आने तक क्या नहीं करना है।"
         ),
       },
     ],
     topics: [
       {
         id: "t-m7-prolapse-rop",
-        title: L("Prolapse of the Uterus and Retention of Placenta"),
+        title: L("Prolapse of the Uterus and Retention of Placenta", "గర్భాశయం బయటకు రావడం మరియు మావి నిలిచిపోవడం", "கருப்பை வெளியேறுதல் மற்றும் மாயை தங்குதல்", "ಗರ್ಭಕೋಶ ಹೊರಬರುವಿಕೆ ಮತ್ತು ಮಾಸು ಉಳಿಯುವಿಕೆ", "गर्भाशय का बाहर निकलना और जेर का रुक जाना"),
         teach: [
           {
             type: "text",
-            heading: L("Two Problems Involving the Womb and the Afterbirth"),
+            heading: L("Two Problems Involving the Womb and the Afterbirth", "గర్భాశయం మరియు మావికి సంబంధించిన రెండు సమస్యలు", "கருப்பை மற்றும் மாயை தொடர்பான இரண்டு பிரச்சினைகள்", "ಗರ್ಭಕೋಶ ಮತ್ತು ಮಾಸಿಗೆ ಸಂಬಂಧಿಸಿದ ಎರಡು ಸಮಸ್ಯೆಗಳು", "गर्भाशय और जेर से जुड़ी दो समस्याएँ"),
             html: L(
-              "After a calf is born, two things are supposed to happen inside the mother: her <b>uterus (womb)</b> — the organ where the calf grew — should return to its normal position, and the <b>placenta (afterbirth)</b> — the tissue that fed the calf during pregnancy — should come away naturally on its own. Sometimes neither of these happens the way it should."
+              "After a calf is born, two things are supposed to happen inside the mother: her <b>uterus (womb)</b> — the organ where the calf grew — should return to its normal position, and the <b>placenta (afterbirth)</b> — the tissue that fed the calf during pregnancy — should come away naturally on its own. Sometimes neither of these happens the way it should.",
+              "దూడ పుట్టిన తర్వాత, తల్లి శరీరంలో రెండు విషయాలు జరగాలి: దూడ పెరిగిన అవయవమైన <b>గర్భాశయం</b> తన సాధారణ స్థానానికి తిరిగి రావాలి, మరియు గర్భధారణ సమయంలో దూడకు పోషణ ఇచ్చిన కణజాలమైన <b>మావి (ఆఫ్టర్‌బర్త్)</b> దానంతట అదే సహజంగా బయటకు రావాలి. కొన్నిసార్లు ఈ రెండూ సరిగ్గా జరగవు.",
+              "கன்று பிறந்த பிறகு, தாயின் உடலில் இரண்டு விஷயங்கள் நடக்க வேண்டும்: கன்று வளர்ந்த உறுப்பான <b>கருப்பை</b> அதன் சாதாரண நிலைக்குத் திரும்ப வேண்டும், மற்றும் கர்ப்ப காலத்தில் கன்றுக்கு உணவளித்த திசுவான <b>மாயை (பிந்தைய பிறப்பு)</b> தானாகவே இயற்கையாக வெளியேற வேண்டும். சில நேரங்களில் இவை இரண்டும் சரியாக நடப்பதில்லை.",
+              "ಕರು ಹುಟ್ಟಿದ ನಂತರ, ತಾಯಿಯ ದೇಹದಲ್ಲಿ ಎರಡು ವಿಷಯಗಳು ನಡೆಯಬೇಕು: ಕರು ಬೆಳೆದ ಅಂಗವಾದ <b>ಗರ್ಭಕೋಶ</b> ತನ್ನ ಸಾಮಾನ್ಯ ಸ್ಥಾನಕ್ಕೆ ಹಿಂತಿರುಗಬೇಕು, ಮತ್ತು ಗರ್ಭಾವಸ್ಥೆಯಲ್ಲಿ ಕರುವಿಗೆ ಪೋಷಣೆ ನೀಡಿದ ಅಂಗಾಂಶವಾದ <b>ಮಾಸು (ನಂತರದ ಜನನ)</b> ತಾನಾಗಿಯೇ ಸ್ವಾಭಾವಿಕವಾಗಿ ಹೊರಬರಬೇಕು. ಕೆಲವೊಮ್ಮೆ ಇವೆರಡೂ ಸರಿಯಾಗಿ ನಡೆಯುವುದಿಲ್ಲ.",
+              "बछड़ा पैदा होने के बाद, माँ के शरीर में दो चीज़ें होनी चाहिए: बछड़ा जिस अंग में बड़ा हुआ वह <b>गर्भाशय</b> अपनी सामान्य स्थिति में वापस आना चाहिए, और गर्भावस्था के दौरान बछड़े को पोषण देने वाला ऊतक <b>जेर (आफ्टरबर्थ)</b> अपने आप स्वाभाविक रूप से बाहर निकल जाना चाहिए। कभी-कभी इनमें से कोई भी सही ढंग से नहीं होता।"
             ),
           },
           {
             type: "glossary",
-            term: L("Prolapse of the Uterus"),
+            term: L("Prolapse of the Uterus", "గర్భాశయం బయటకు రావడం (ప్రొలాప్స్)", "கருப்பை வெளியேறுதல் (ப்ரோலாப்ஸ்)", "ಗರ್ಭಕೋಶ ಹೊರಬರುವಿಕೆ (ಪ್ರೊಲ್ಯಾಪ್ಸ್)", "गर्भाशय का बाहर निकलना (प्रोलैप्स)"),
             meaning: L(
-              "This is when the womb turns inside out and comes out of the animal's body, usually visible hanging from behind her. It is more common in buffaloes than in cattle, and can happen either just before or just after calving."
+              "This is when the womb turns inside out and comes out of the animal's body, usually visible hanging from behind her. It is more common in buffaloes than in cattle, and can happen either just before or just after calving.",
+              "గర్భాశయం లోపలి నుండి బయటికి తిరిగి పశువు శరీరం నుండి బయటకు వచ్చేది దీన్నే అంటారు, సాధారణంగా వెనుక భాగం నుండి వేలాడుతూ కనిపిస్తుంది. ఇది పశువుల కంటే గేదెలలో ఎక్కువగా వస్తుంది, మరియు ఈనేముందు లేదా ఈనిన వెంటనే రావచ్చు.",
+              "கருப்பை உள்பக்கம் வெளிப்பக்கமாக மாறி விலங்கின் உடலிலிருந்து வெளியே வருவதை இது குறிக்கிறது, பொதுவாக பின்பக்கத்தில் தொங்குவது தெரியும். இது மாடுகளை விட எருமைகளில் அதிகமாக காணப்படும், மேலும் ஈன்பதற்கு சற்று முன் அல்லது பின் ஏற்படலாம்.",
+              "ಗರ್ಭಕೋಶ ಒಳಭಾಗದಿಂದ ಹೊರಭಾಗವಾಗಿ ತಿರುಗಿ ಪ್ರಾಣಿಯ ದೇಹದಿಂದ ಹೊರಬರುವುದನ್ನು ಇದು ಸೂಚಿಸುತ್ತದೆ, ಸಾಮಾನ್ಯವಾಗಿ ಹಿಂಭಾಗದಿಂದ ನೇತಾಡುತ್ತಿರುವುದು ಕಾಣಿಸುತ್ತದೆ. ಇದು ಹಸುಗಳಿಗಿಂತ ಎಮ್ಮೆಗಳಲ್ಲಿ ಹೆಚ್ಚು ಸಾಮಾನ್ಯ, ಮತ್ತು ಕರು ಹಾಕುವ ಸ್ವಲ್ಪ ಮೊದಲು ಅಥವಾ ನಂತರ ಸಂಭವಿಸಬಹುದು.",
+              "यह तब होता है जब गर्भाशय अंदर से बाहर पलट जाता है और पशु के शरीर से बाहर आ जाता है, आमतौर पर पीछे से लटकता हुआ दिखता है। यह गायों की तुलना में भैंसों में ज़्यादा होता है, और ब्याने से ठीक पहले या ठीक बाद हो सकता है।"
             ),
           },
           {
             type: "callout",
             style: "warning",
-            heading: L("If You See a Prolapse: What NOT to Do"),
+            heading: L("If You See a Prolapse: What NOT to Do", "మీరు ప్రొలాప్స్ చూస్తే: ఏమి చేయకూడదు", "ப்ரோலாப்ஸைப் பார்த்தால்: என்ன செய்யக்கூடாது", "ಪ್ರೊಲ್ಯಾಪ್ಸ್ ಕಂಡರೆ: ಏನು ಮಾಡಬಾರದು", "अगर आपको प्रोलैप्स दिखे: क्या नहीं करना है"),
             text: L(
-              "Never try to push the uterus back in yourself, and never pull or remove anything — this can cause severe bleeding. Instead, gently place the exposed part over a clean surface and protect it from dirt, flies, and birds. If it is very soiled, it can be gently washed with a saline (salt-water) solution. Call the vet immediately — this is a genuine emergency. Keeping the animal's hindquarters slightly raised can help while you wait."
+              "Never try to push the uterus back in yourself, and never pull or remove anything — this can cause severe bleeding. Instead, gently place the exposed part over a clean surface and protect it from dirt, flies, and birds. If it is very soiled, it can be gently washed with a saline (salt-water) solution. Call the vet immediately — this is a genuine emergency. Keeping the animal's hindquarters slightly raised can help while you wait.",
+              "గర్భాశయాన్ని మీరే లోపలికి తోయడానికి ప్రయత్నించవద్దు, మరియు దేనినీ లాగవద్దు లేదా తీసివేయవద్దు — దీనివల్ల తీవ్ర రక్తస్రావం కావచ్చు. బదులుగా, బయటకు వచ్చిన భాగాన్ని శుభ్రమైన ఉపరితలంపై మెల్లగా ఉంచి, దుమ్ము, ఈగలు మరియు పక్షుల నుండి రక్షించండి. అది చాలా మురికిగా ఉంటే, సెలైన్ (ఉప్పు నీటి) ద్రావణంతో మెల్లగా కడగవచ్చు. వెంటనే వైద్యుడిని పిలవండి — ఇది నిజమైన అత్యవసర పరిస్థితి. వేచి ఉన్నప్పుడు పశువు వెనుక భాగాన్ని కొద్దిగా పైకి లేపి ఉంచడం సహాయపడుతుంది.",
+              "கருப்பையை நீங்களே உள்ளே தள்ள முயற்சிக்க வேண்டாம், மற்றும் எதையும் இழுக்கவோ அகற்றவோ வேண்டாம் — இது கடுமையான இரத்தப்போக்கை ஏற்படுத்தலாம். அதற்கு பதிலாக, வெளியே வந்த பகுதியை சுத்தமான மேற்பரப்பில் மெதுவாக வைத்து, அழுக்கு, ஈக்கள் மற்றும் பறவைகளிடமிருந்து பாதுகாக்கவும். அது மிகவும் அழுக்காக இருந்தால், சலைன் (உப்பு நீர்) கரைசலால் மெதுவாக கழுவலாம். உடனடியாக கால்நடை மருத்துவரை அழைக்கவும் — இது உண்மையான அவசர நிலை. காத்திருக்கும் போது விலங்கின் பின்பக்கத்தை சிறிது உயர்த்தி வைப்பது உதவும்.",
+              "ಗರ್ಭಕೋಶವನ್ನು ನೀವೇ ಒಳಗೆ ತಳ್ಳಲು ಪ್ರಯತ್ನಿಸಬೇಡಿ, ಮತ್ತು ಏನನ್ನೂ ಎಳೆಯಬೇಡಿ ಅಥವಾ ತೆಗೆಯಬೇಡಿ — ಇದು ತೀವ್ರ ರಕ್ತಸ್ರಾವಕ್ಕೆ ಕಾರಣವಾಗಬಹುದು. ಬದಲಿಗೆ, ಹೊರಬಂದ ಭಾಗವನ್ನು ಸ್ವಚ್ಛವಾದ ಮೇಲ್ಮೈಯಲ್ಲಿ ನಿಧಾನವಾಗಿ ಇಟ್ಟು, ಕೊಳೆ, ನೊಣಗಳು ಮತ್ತು ಪಕ್ಷಿಗಳಿಂದ ರಕ್ಷಿಸಿ. ಅದು ಬಹಳ ಕೊಳೆಯಾಗಿದ್ದರೆ, ಸಲೈನ್ (ಉಪ್ಪುನೀರು) ದ್ರಾವಣದಿಂದ ನಿಧಾನವಾಗಿ ತೊಳೆಯಬಹುದು. ತಕ್ಷಣ ಪಶುವೈದ್ಯರನ್ನು ಕರೆಯಿರಿ — ಇದು ನಿಜವಾದ ತುರ್ತು ಪರಿಸ್ಥಿತಿ. ಕಾಯುತ್ತಿರುವಾಗ ಪ್ರಾಣಿಯ ಹಿಂಭಾಗವನ್ನು ಸ್ವಲ್ಪ ಎತ್ತಿ ಇಡುವುದು ಸಹಾಯಕವಾಗುತ್ತದೆ.",
+              "गर्भाशय को खुद अंदर धकेलने की कोशिश कभी न करें, और कुछ भी खींचे या हटाएं नहीं — इससे भारी रक्तस्राव हो सकता है। इसके बजाय, बाहर आए हिस्से को साफ सतह पर धीरे से रखें और उसे धूल, मक्खियों और पक्षियों से बचाएं। अगर यह बहुत गंदा हो गया हो, तो इसे सलाइन (नमक-पानी) के घोल से धीरे से धोया जा सकता है। तुरंत डॉक्टर को बुलाएं — यह एक असली आपातकाल है। इंतज़ार करते समय पशु के पिछले हिस्से को थोड़ा ऊपर उठाकर रखना मददगार हो सकता है।"
             ),
           },
           {
             type: "glossary",
-            term: L("Retention of Placenta (ROP)"),
+            term: L("Retention of Placenta (ROP)", "మావి నిలిచిపోవడం (ROP)", "மாயை தங்குதல் (ROP)", "ಮಾಸು ಉಳಿಯುವಿಕೆ (ROP)", "जेर का रुक जाना (ROP)"),
             meaning: L(
-              "Normally, the placenta (afterbirth) comes away on its own within 3 to 8 hours of the calf being born. If it is still inside after 12 hours, it is called Retention of Placenta."
+              "Normally, the placenta (afterbirth) comes away on its own within 3 to 8 hours of the calf being born. If it is still inside after 12 hours, it is called Retention of Placenta.",
+              "సాధారణంగా, దూడ పుట్టిన 3 నుండి 8 గంటల్లోపు మావి దానంతట అదే బయటకు వస్తుంది. 12 గంటల తర్వాత కూడా అది లోపలే ఉంటే, దీన్ని మావి నిలిచిపోవడం (రిటెన్షన్ ఆఫ్ ప్లాసెంటా) అంటారు.",
+              "பொதுவாக, கன்று பிறந்த 3 முதல் 8 மணி நேரத்திற்குள் மாயை தானாகவே வெளியேறும். 12 மணி நேரம் கழித்தும் அது உள்ளேயே இருந்தால், அதை மாயை தங்குதல் என்று அழைக்கிறோம்.",
+              "ಸಾಮಾನ್ಯವಾಗಿ, ಕರು ಹುಟ್ಟಿದ 3 ರಿಂದ 8 ಗಂಟೆಗಳ ಒಳಗೆ ಮಾಸು ತಾನಾಗಿಯೇ ಹೊರಬರುತ್ತದೆ. 12 ಗಂಟೆಗಳ ನಂತರವೂ ಅದು ಒಳಗೇ ಇದ್ದರೆ, ಅದನ್ನು ಮಾಸು ಉಳಿಯುವಿಕೆ ಎಂದು ಕರೆಯುತ್ತಾರೆ.",
+              "आमतौर पर, बछड़ा पैदा होने के 3 से 8 घंटों के भीतर जेर अपने आप बाहर आ जाती है। अगर यह 12 घंटों के बाद भी अंदर रह जाए, तो इसे जेर का रुक जाना कहते हैं।"
             ),
           },
           {
             type: "stat-grid",
             items: [
               {
-                label: L("Normal timing"),
-                text: L("The afterbirth usually comes away naturally within 3–8 hours of birth."),
+                label: L("Normal timing", "సాధారణ సమయం", "இயல்பான நேரம்", "ಸಾಮಾನ್ಯ ಸಮಯ", "सामान्य समय"),
+                text: L("The afterbirth usually comes away naturally within 3–8 hours of birth.", "మావి సాధారణంగా పుట్టిన 3–8 గంటల్లోపు సహజంగా బయటకు వస్తుంది.", "மாயை பொதுவாக பிறந்த 3–8 மணி நேரத்திற்குள் இயற்கையாக வெளியேறும்.", "ಮಾಸು ಸಾಮಾನ್ಯವಾಗಿ ಹುಟ್ಟಿದ 3–8 ಗಂಟೆಗಳ ಒಳಗೆ ಸ್ವಾಭಾವಿಕವಾಗಿ ಹೊರಬರುತ್ತದೆ.", "जेर आमतौर पर जन्म के 3–8 घंटों के भीतर अपने आप निकल जाती है।"),
               },
               {
-                label: L("When to treat it as retained"),
-                text: L("If it is still inside 12 hours after the calf is born, report it as a possible Retention of Placenta."),
+                label: L("When to treat it as retained", "నిలిచిపోయినట్లుగా ఎప్పుడు పరిగణించాలి", "தங்கியிருப்பதாக எப்போது கருத வேண்டும்", "ಉಳಿದಿದೆ ಎಂದು ಯಾವಾಗ ಪರಿಗಣಿಸಬೇಕು", "इसे रुका हुआ कब मानें"),
+                text: L("If it is still inside 12 hours after the calf is born, report it as a possible Retention of Placenta.", "దూడ పుట్టిన 12 గంటల తర్వాత కూడా అది లోపలే ఉంటే, దీన్ని మావి నిలిచిపోయిందని అనుమానించి తెలియజేయండి.", "கன்று பிறந்த 12 மணி நேரம் கழித்தும் அது உள்ளேயே இருந்தால், மாயை தங்கியிருக்கலாம் என தெரிவிக்கவும்.", "ಕರು ಹುಟ್ಟಿದ 12 ಗಂಟೆಗಳ ನಂತರವೂ ಅದು ಒಳಗೇ ಇದ್ದರೆ, ಮಾಸು ಉಳಿದಿರಬಹುದು ಎಂದು ವರದಿ ಮಾಡಿ.", "अगर बछड़ा पैदा होने के 12 घंटे बाद भी यह अंदर रह जाए, तो इसे जेर रुकने की संभावना मानकर बताएं।"),
               },
               {
-                label: L("What raises the risk"),
-                text: L("A difficult birth, twins, abortion, an induced calving, infection, poor nutrition, or the animal having had Milk Fever."),
+                label: L("What raises the risk", "ఏది ప్రమాదాన్ని పెంచుతుంది", "ஆபத்தை அதிகரிப்பது எது", "ಅಪಾಯವನ್ನು ಹೆಚ್ಚಿಸುವುದೇನು", "खतरा किससे बढ़ता है"),
+                text: L("A difficult birth, twins, abortion, an induced calving, infection, poor nutrition, or the animal having had Milk Fever.", "కష్టమైన ప్రసవం, కవలలు, గర్భస్రావం, ప్రేరేపిత ఈత, ఇన్ఫెక్షన్, సరైన పోషణ లేకపోవడం, లేదా పశువుకు మిల్క్ ఫీవర్ వచ్చి ఉండటం.", "கடினமான பிரசவம், இரட்டைக் குட்டிகள், கருச்சிதைவு, தூண்டப்பட்ட ஈன்றல், தொற்று, மோசமான ஊட்டச்சத்து, அல்லது விலங்குக்கு பால் காய்ச்சல் வந்திருந்தது.", "ಕಷ್ಟಕರ ಹೆರಿಗೆ, ಅವಳಿ ಕರುಗಳು, ಗರ್ಭಪಾತ, ಪ್ರೇರಿತ ಕರು ಹಾಕುವಿಕೆ, ಸೋಂಕು, ಕಳಪೆ ಪೋಷಣೆ, ಅಥವಾ ಪ್ರಾಣಿಗೆ ಮಿಲ್ಕ್ ಫೀವರ್ ಬಂದಿದ್ದದ್ದು.", "मुश्किल प्रसव, जुड़वां बच्चे, गर्भपात, कृत्रिम रूप से कराया गया ब्याना, संक्रमण, खराब पोषण, या पशु को पहले मिल्क फीवर हुआ होना।"),
               },
             ],
           },
           {
             type: "callout",
             style: "warning",
-            heading: L("Never Pull It Out Yourself"),
+            heading: L("Never Pull It Out Yourself", "దాన్ని మీరే ఎప్పుడూ లాగవద్దు", "அதை நீங்களே ஒருபோதும் இழுக்க வேண்டாம்", "ಅದನ್ನು ನೀವೇ ಎಂದಿಗೂ ಎಳೆಯಬೇಡಿ", "इसे कभी खुद मत खींचें"),
             text: L(
-              "Pulling on a retained placenta yourself can cause serious complications — including infection of the womb (metritis) and blood poisoning (septicaemia) — which can even lead to the animal's death. Always consult a veterinarian instead. If a placenta is removed, dispose of it by deep burial, and avoid handling it with bare hands."
+              "Pulling on a retained placenta yourself can cause serious complications — including infection of the womb (metritis) and blood poisoning (septicaemia) — which can even lead to the animal's death. Always consult a veterinarian instead. If a placenta is removed, dispose of it by deep burial, and avoid handling it with bare hands.",
+              "నిలిచిపోయిన మావిని మీరే లాగడం వల్ల గర్భాశయ ఇన్ఫెక్షన్ (మెట్రైటిస్) మరియు రక్త విషప్రయోగం (సెప్టిసీమియా) వంటి తీవ్రమైన సమస్యలు రావచ్చు — ఇవి పశువు మరణానికి కూడా దారితీయవచ్చు. ఎల్లప్పుడూ వైద్యుడిని సంప్రదించండి. మావిని తీసివేసినప్పుడు, దాన్ని లోతుగా పాతిపెట్టి పారవేయండి, మరియు దాన్ని చేతులతో నేరుగా తాకవద్దు.",
+              "தங்கியிருக்கும் மாயையை நீங்களே இழுப்பது கருப்பை தொற்று (மெட்ரைடிஸ்) மற்றும் இரத்த நச்சுத்தன்மை (செப்டிசீமியா) போன்ற கடுமையான சிக்கல்களை ஏற்படுத்தலாம் — இவை விலங்கின் மரணத்திற்கும் வழிவகுக்கலாம். எப்போதும் கால்நடை மருத்துவரை அணுகவும். மாயை அகற்றப்பட்டால், அதை ஆழமாகப் புதைத்து அகற்றவும், வெறும் கைகளால் தொடுவதைத் தவிர்க்கவும்.",
+              "ಉಳಿದಿರುವ ಮಾಸನ್ನು ನೀವೇ ಎಳೆಯುವುದರಿಂದ ಗರ್ಭಕೋಶ ಸೋಂಕು (ಮೆಟ್ರೈಟಿಸ್) ಮತ್ತು ರಕ್ತ ವಿಷಮಯತೆ (ಸೆಪ್ಟಿಸೀಮಿಯಾ) ಮುಂತಾದ ಗಂಭೀರ ತೊಡಕುಗಳು ಬರಬಹುದು — ಇವು ಪ್ರಾಣಿಯ ಸಾವಿಗೂ ಕಾರಣವಾಗಬಹುದು. ಯಾವಾಗಲೂ ಪಶುವೈದ್ಯರನ್ನು ಸಂಪರ್ಕಿಸಿ. ಮಾಸನ್ನು ತೆಗೆದರೆ, ಅದನ್ನು ಆಳವಾಗಿ ಹೂತು ವಿಲೇವಾರಿ ಮಾಡಿ, ಬರಿಗೈಯಿಂದ ಮುಟ್ಟುವುದನ್ನು ತಪ್ಪಿಸಿ.",
+              "रुकी हुई जेर को खुद खींचने से गर्भाशय में संक्रमण (मेट्राइटिस) और खून में ज़हर फैलना (सेप्टिसीमिया) जैसी गंभीर जटिलताएँ हो सकती हैं — जो पशु की मौत तक का कारण बन सकती हैं। हमेशा डॉक्टर से सलाह लें। अगर जेर निकाली जाए, तो उसे गहरा गड्ढा खोदकर दबा दें, और इसे नंगे हाथों से न छुएं।"
             ),
           },
         ],
         check: [
           {
             type: "mcq",
-            q: L("You see part of the womb hanging out of an animal after calving. What should you do first?"),
+            q: L("You see part of the womb hanging out of an animal after calving. What should you do first?", "ఈనిన తర్వాత పశువు నుండి గర్భాశయం కొంత భాగం వేలాడుతూ మీరు చూశారు. మీరు ముందుగా ఏమి చేయాలి?", "ஈன்ற பிறகு விலங்கிலிருந்து கருப்பையின் ஒரு பகுதி தொங்குவதை நீங்கள் பார்க்கிறீர்கள். முதலில் நீங்கள் என்ன செய்ய வேண்டும்?", "ಕರು ಹಾಕಿದ ನಂತರ ಪ್ರಾಣಿಯಿಂದ ಗರ್ಭಕೋಶದ ಭಾಗ ನೇತಾಡುತ್ತಿರುವುದನ್ನು ನೀವು ನೋಡುತ್ತೀರಿ. ಮೊದಲು ನೀವು ಏನು ಮಾಡಬೇಕು?", "ब्याने के बाद आप देखते हैं कि पशु से गर्भाशय का हिस्सा लटक रहा है। आपको सबसे पहले क्या करना चाहिए?"),
             options: [
-              L("Push it back in yourself"),
-              L("Gently protect it from dirt and flies, and call the vet immediately"),
-              L("Pull on it to see how far it comes out"),
-              L("Ignore it — it will go back in on its own"),
+              L("Push it back in yourself", "మీరే దాన్ని లోపలికి తోయండి", "நீங்களே அதை உள்ளே தள்ளுங்கள்", "ನೀವೇ ಅದನ್ನು ಒಳಗೆ ತಳ್ಳಿ", "इसे खुद अंदर धकेल दें"),
+              L("Gently protect it from dirt and flies, and call the vet immediately", "దానిని మెల్లగా దుమ్ము మరియు ఈగల నుండి రక్షించి, వెంటనే వైద్యుడిని పిలవండి", "அதை மெதுவாக அழுக்கு மற்றும் ஈக்களிடமிருந்து பாதுகாத்து, உடனே கால்நடை மருத்துவரை அழைக்கவும்", "ಅದನ್ನು ನಿಧಾನವಾಗಿ ಕೊಳೆ ಮತ್ತು ನೊಣಗಳಿಂದ ರಕ್ಷಿಸಿ, ತಕ್ಷಣ ಪಶುವೈದ್ಯರನ್ನು ಕರೆಯಿರಿ", "इसे धूल और मक्खियों से धीरे से बचाएं, और तुरंत डॉक्टर को बुलाएं"),
+              L("Pull on it to see how far it comes out", "అది ఎంత దూరం వస్తుందో చూడటానికి దానిని లాగండి", "எவ்வளவு தூரம் வெளியே வருகிறது என்று பார்க்க அதை இழுக்கவும்", "ಅದು ಎಷ್ಟು ಹೊರಬರುತ್ತದೆ ಎಂದು ನೋಡಲು ಅದನ್ನು ಎಳೆಯಿರಿ", "यह कितना बाहर आता है यह देखने के लिए इसे खींचें"),
+              L("Ignore it — it will go back in on its own", "దీన్ని పట్టించుకోవద్దు — అది దానంతటదే లోపలికి వెళుతుంది", "இதை புறக்கணிக்கவும் — அது தானாகவே உள்ளே செல்லும்", "ಇದನ್ನು ನಿರ್ಲಕ್ಷಿಸಿ — ಅದು ತಾನಾಗಿಯೇ ಒಳಗೆ ಹೋಗುತ್ತದೆ", "इसे नज़रअंदाज़ करें — यह अपने आप अंदर चला जाएगा"),
             ],
             answer: 1,
-            explain: L("Never push, pull, or remove anything yourself — that can cause severe bleeding. Protect the exposed part and get the vet immediately."),
+            explain: L("Never push, pull, or remove anything yourself — that can cause severe bleeding. Protect the exposed part and get the vet immediately.", "మీరే ఎప్పుడూ తోయవద్దు, లాగవద్దు, లేదా తీసివేయవద్దు — దీనివల్ల తీవ్ర రక్తస్రావం కావచ్చు. బయటపడిన భాగాన్ని రక్షించి వెంటనే వైద్యుడిని పిలవండి.", "நீங்களே ஒருபோதும் தள்ளவோ, இழுக்கவோ, அகற்றவோ வேண்டாம் — இது கடுமையான இரத்தப்போக்கை ஏற்படுத்தலாம். வெளியே வந்த பகுதியை பாதுகாத்து உடனே கால்நடை மருத்துவரை அழைக்கவும்.", "ನೀವೇ ಎಂದಿಗೂ ತಳ್ಳಬೇಡಿ, ಎಳೆಯಬೇಡಿ, ಅಥವಾ ತೆಗೆಯಬೇಡಿ — ಇದು ತೀವ್ರ ರಕ್ತಸ್ರಾವಕ್ಕೆ ಕಾರಣವಾಗಬಹುದು. ಹೊರಬಂದ ಭಾಗವನ್ನು ರಕ್ಷಿಸಿ ತಕ್ಷಣ ಪಶುವೈದ್ಯರನ್ನು ಕರೆಯಿರಿ.", "खुद कभी न धकेलें, न खींचें, न हटाएं — इससे भारी रक्तस्राव हो सकता है। बाहर आए हिस्से को बचाएं और तुरंत डॉक्टर को बुलाएं।"),
           },
           {
             type: "truefalse",
-            q: L("If the placenta hasn't come away 12 hours after calving, it should be treated as retained and reported."),
+            q: L("If the placenta hasn't come away 12 hours after calving, it should be treated as retained and reported.", "ఈనిన 12 గంటల తర్వాత కూడా మావి బయటకు రాకపోతే, దానిని నిలిచిపోయినదిగా పరిగణించి తెలియజేయాలి.", "ஈன்ற 12 மணி நேரம் கழித்தும் மாயை வெளியேறவில்லை என்றால், அதை தங்கியிருப்பதாகக் கருதி தெரிவிக்க வேண்டும்.", "ಕರು ಹಾಕಿದ 12 ಗಂಟೆಗಳ ನಂತರವೂ ಮಾಸು ಹೊರಬಾರದಿದ್ದರೆ, ಅದನ್ನು ಉಳಿದಿದೆ ಎಂದು ಪರಿಗಣಿಸಿ ವರದಿ ಮಾಡಬೇಕು.", "अगर ब्याने के 12 घंटे बाद भी जेर न निकले, तो इसे रुकी हुई मानकर बताना चाहिए।"),
             answer: true,
-            explain: L("Correct — normal expulsion is within 3–8 hours. Still being inside after 12 hours is called Retention of Placenta and needs a vet."),
+            explain: L("Correct — normal expulsion is within 3–8 hours. Still being inside after 12 hours is called Retention of Placenta and needs a vet.", "సరైనది — సాధారణ బహిష్కరణ 3–8 గంటల్లోపు జరుగుతుంది. 12 గంటల తర్వాత కూడా లోపలే ఉంటే దీన్ని మావి నిలిచిపోవడం అంటారు, దీనికి వైద్యుడు అవసరం.", "சரி — இயல்பான வெளியேற்றம் 3–8 மணி நேரத்திற்குள் நடக்கும். 12 மணி நேரம் கழித்தும் உள்ளேயே இருப்பது மாயை தங்குதல் எனப்படும், இதற்கு கால்நடை மருத்துவர் தேவை.", "ಸರಿ — ಸಾಮಾನ್ಯ ಹೊರಹಾಕುವಿಕೆ 3–8 ಗಂಟೆಗಳ ಒಳಗೆ ನಡೆಯುತ್ತದೆ. 12 ಗಂಟೆಗಳ ನಂತರವೂ ಒಳಗೇ ಇರುವುದನ್ನು ಮಾಸು ಉಳಿಯುವಿಕೆ ಎನ್ನುತ್ತಾರೆ, ಇದಕ್ಕೆ ಪಶುವೈದ್ಯರ ಅಗತ್ಯವಿದೆ.", "सही — सामान्य रूप से यह 3–8 घंटों में निकल जाती है। 12 घंटे बाद भी अंदर रहना जेर का रुक जाना कहलाता है और इसके लिए डॉक्टर की ज़रूरत होती है।"),
           },
         ],
       },
       {
         id: "t-m7-udder-hgb",
-        title: L("Udder Swelling and Discoloured Urine"),
+        title: L("Udder Swelling and Discoloured Urine", "పొదుగు వాపు మరియు రంగు మారిన మూత్రం", "மேமை வீக்கம் மற்றும் நிறம் மாறிய சிறுநீர்", "ಕೆಚ್ಚಲು ಊತ ಮತ್ತು ಬಣ್ಣ ಬದಲಾದ ಮೂತ್ರ", "थन में सूजन और रंग बदला हुआ पेशाब"),
         teach: [
           {
             type: "text",
-            heading: L("Other Things to Watch For After Calving"),
+            heading: L("Other Things to Watch For After Calving", "ఈనిన తర్వాత గమనించాల్సిన ఇతర విషయాలు", "ஈன்ற பிறகு கவனிக்க வேண்டிய மற்ற விஷயங்கள்", "ಕರು ಹಾಕಿದ ನಂತರ ಗಮನಿಸಬೇಕಾದ ಇತರ ವಿಷಯಗಳು", "ब्याने के बाद ध्यान रखने वाली अन्य बातें"),
             html: L(
-              "Two more problems can appear around calving time: swelling of the udder, and urine that looks an unusual colour. Neither of these is something you need to diagnose — but both are worth noticing and reporting."
+              "Two more problems can appear around calving time: swelling of the udder, and urine that looks an unusual colour. Neither of these is something you need to diagnose — but both are worth noticing and reporting.",
+              "ఈనే సమయంలో ఇంకా రెండు సమస్యలు రావచ్చు: పొదుగు వాపు, మరియు అసాధారణ రంగులో కనిపించే మూత్రం. వీటిలో దేనినీ మీరు నిర్ధారించాల్సిన అవసరం లేదు — కానీ రెండూ గమనించి తెలియజేయదగినవి.",
+              "ஈன்றெடுக்கும் நேரத்தில் இன்னும் இரண்டு பிரச்சினைகள் ஏற்படலாம்: மேமை வீக்கம், மற்றும் அசாதாரண நிறத்தில் தோன்றும் சிறுநீர். இவற்றில் எதையும் நீங்கள் கண்டறிய வேண்டியதில்லை — ஆனால் இரண்டும் கவனித்து தெரிவிக்கத் தகுந்தவை.",
+              "ಕರು ಹಾಕುವ ಸಮಯದಲ್ಲಿ ಇನ್ನೂ ಎರಡು ಸಮಸ್ಯೆಗಳು ಬರಬಹುದು: ಕೆಚ್ಚಲು ಊತ, ಮತ್ತು ಅಸಾಮಾನ್ಯ ಬಣ್ಣದಲ್ಲಿ ಕಾಣುವ ಮೂತ್ರ. ಇವುಗಳಲ್ಲಿ ಯಾವುದನ್ನೂ ನೀವು ಪತ್ತೆಹಚ್ಚಬೇಕಾಗಿಲ್ಲ — ಆದರೆ ಎರಡನ್ನೂ ಗಮನಿಸಿ ವರದಿ ಮಾಡುವುದು ಮುಖ್ಯ.",
+              "ब्याने के समय दो और समस्याएँ हो सकती हैं: थन में सूजन, और असामान्य रंग का दिखने वाला पेशाब। इनमें से किसी की भी पहचान आपको खुद करने की ज़रूरत नहीं है — लेकिन दोनों को देखकर बताना ज़रूरी है।"
             ),
           },
           {
             type: "glossary",
-            term: L("Oedema (Swelling)"),
-            meaning: L("A build-up of extra fluid under the skin, which makes the area look puffy or swollen."),
+            term: L("Oedema (Swelling)", "ఎడెమా (వాపు)", "வீக்கம் (ஓடீமா)", "ಎಡಿಮಾ (ಊತ)", "एडिमा (सूजन)"),
+            meaning: L("A build-up of extra fluid under the skin, which makes the area look puffy or swollen.", "చర్మం కింద అదనపు ద్రవం పేరుకుపోవడం, దీనివల్ల ఆ ప్రాంతం ఉబ్బినట్లు లేదా వాచినట్లు కనిపిస్తుంది.", "தோலுக்கு அடியில் அதிகப்படியான திரவம் சேர்வது, இது அந்த பகுதியை வீங்கியதாகவோ புடைத்ததாகவோ காட்டும்.", "ಚರ್ಮದ ಕೆಳಗೆ ಹೆಚ್ಚುವರಿ ದ್ರವ ಸಂಗ್ರಹವಾಗುವುದು, ಇದರಿಂದ ಆ ಭಾಗ ಉಬ್ಬಿದಂತೆ ಅಥವಾ ಊದಿಕೊಂಡಂತೆ ಕಾಣುತ್ತದೆ.", "त्वचा के नीचे अतिरिक्त तरल पदार्थ जमा होना, जिससे वह जगह फूली हुई या सूजी हुई दिखती है।"),
           },
           {
             type: "text",
-            heading: L("Udder Oedema"),
+            heading: L("Udder Oedema", "పొదుగు ఎడెమా", "மேமை வீக்கம்", "ಕೆಚ್ಚಲು ಎಡಿಮಾ", "थन का एडिमा"),
             html: L(
-              "This is a build-up of extra fluid in the udder — and sometimes the belly — around calving time, caused by changes in blood flow to and from the udder. It is more common in high-producing animals, especially in heifers (animals calving for the first time). It can persist through the whole lactation, and may need a vet's attention if the swelling makes milking difficult."
+              "This is a build-up of extra fluid in the udder — and sometimes the belly — around calving time, caused by changes in blood flow to and from the udder. It is more common in high-producing animals, especially in heifers (animals calving for the first time). It can persist through the whole lactation, and may need a vet's attention if the swelling makes milking difficult.",
+              "ఈనే సమయంలో పొదుగులో — మరియు కొన్నిసార్లు పొట్టలో — అదనపు ద్రవం పేరుకుపోవడమే ఇది, పొదుగుకు రక్త ప్రసరణలో మార్పుల వల్ల ఇది వస్తుంది. ఎక్కువ పాలిచ్చే పశువులలో, ముఖ్యంగా మొదటిసారి ఈనే పశువులలో (హీఫర్లు) ఇది ఎక్కువగా కనిపిస్తుంది. ఇది మొత్తం పాల కాలం పొడవునా ఉండవచ్చు, మరియు వాపు వల్ల పితకడం కష్టమైతే వైద్యుడి సహాయం అవసరం కావచ్చు.",
+              "ஈன்றெடுக்கும் நேரத்தில் மேமையில் — சில நேரங்களில் வயிற்றிலும் — அதிகப்படியான திரவம் சேர்வதே இது, மேமைக்கு இரத்த ஓட்டத்தில் ஏற்படும் மாற்றங்களால் இது ஏற்படுகிறது. அதிக பால் தரும் விலங்குகளில், குறிப்பாக முதல் முறையாக ஈனும் இளம் பசுக்களில் இது அதிகமாக காணப்படுகிறது. இது முழு பால் காலம் முழுவதும் தொடரலாம், வீக்கம் பால் கறத்தலை கடினமாக்கினால் கால்நடை மருத்துவர் கவனம் தேவைப்படலாம்.",
+              "ಈನ್ ಸಮಯದಲ್ಲಿ ಕೆಚ್ಚಲಿನಲ್ಲಿ — ಕೆಲವೊಮ್ಮೆ ಹೊಟ್ಟೆಯಲ್ಲೂ — ಹೆಚ್ಚುವರಿ ದ್ರವ ಸಂಗ್ರಹವಾಗುವುದೇ ಇದು, ಕೆಚ್ಚಲಿಗೆ ರಕ್ತ ಪರಿಚಲನೆಯಲ್ಲಿ ಬದಲಾವಣೆಗಳಿಂದ ಇದು ಉಂಟಾಗುತ್ತದೆ. ಹೆಚ್ಚು ಹಾಲು ಕೊಡುವ ಪ್ರಾಣಿಗಳಲ್ಲಿ, ವಿಶೇಷವಾಗಿ ಮೊದಲ ಬಾರಿ ಕರು ಹಾಕುವ ಪ್ರಾಣಿಗಳಲ್ಲಿ (ಹೀಫರ್) ಇದು ಹೆಚ್ಚು ಸಾಮಾನ್ಯ. ಇದು ಇಡೀ ಹಾಲುಕರೆಯುವ ಅವಧಿಯುದ್ದಕ್ಕೂ ಮುಂದುವರಿಯಬಹುದು, ಮತ್ತು ಊತ ಹಾಲು ಕರೆಯುವುದನ್ನು ಕಷ್ಟಕರಗೊಳಿಸಿದರೆ ಪಶುವೈದ್ಯರ ಗಮನ ಬೇಕಾಗಬಹುದು.",
+              "ब्याने के समय थन में — और कभी-कभी पेट में — अतिरिक्त तरल पदार्थ जमा होना, थन में खून के आने-जाने में बदलाव के कारण होता है। यह ज़्यादा दूध देने वाले पशुओं में, खासकर पहली बार ब्याने वाली बछियों में ज़्यादा होता है। यह पूरे दुग्धकाल तक बना रह सकता है, और अगर सूजन से दूध निकालना मुश्किल हो जाए तो डॉक्टर की ज़रूरत पड़ सकती है।"
             ),
           },
           {
             type: "callout",
             style: "tip",
-            heading: L("An Important Difference: Not Painful, Not Hot"),
+            heading: L("An Important Difference: Not Painful, Not Hot", "ఒక ముఖ్యమైన తేడా: నొప్పి ఉండదు, వేడిమి ఉండదు", "ஒரு முக்கிய வேறுபாடு: வலி இல்லை, சூடு இல்லை", "ಒಂದು ಪ್ರಮುಖ ವ್ಯತ್ಯಾಸ: ನೋವಿಲ್ಲ, ಬಿಸಿಯಿಲ್ಲ", "एक ज़रूरी फर्क: दर्द नहीं, गर्मी नहीं"),
             text: L(
-              "With udder oedema, the udder is NOT painful and NOT hot to the touch. This matters because a hot, painful udder points to a different problem entirely (an infection of the udder). Either way, report what you actually feel — whether the udder is painful and hot, or just swollen and comfortable — since that detail helps the vet know what they're dealing with before they even arrive."
+              "With udder oedema, the udder is NOT painful and NOT hot to the touch. This matters because a hot, painful udder points to a different problem entirely (an infection of the udder). Either way, report what you actually feel — whether the udder is painful and hot, or just swollen and comfortable — since that detail helps the vet know what they're dealing with before they even arrive.",
+              "పొదుగు ఎడెమాలో, పొదుగు తాకినప్పుడు నొప్పి ఉండదు మరియు వేడిగా ఉండదు. ఇది ముఖ్యం ఎందుకంటే వేడిగా, నొప్పిగా ఉన్న పొదుగు పూర్తిగా వేరే సమస్యను (పొదుగు ఇన్ఫెక్షన్) సూచిస్తుంది. ఏదైనా సరే, మీరు నిజంగా అనుభవించేది తెలియజేయండి — పొదుగు నొప్పిగా వేడిగా ఉందా, లేక కేవలం వాచి సౌకర్యంగా ఉందా — ఎందుకంటే ఈ వివరం వైద్యుడు రాకముందే తను దేనితో వ్యవహరిస్తున్నాడో తెలుసుకోవడానికి సహాయపడుతుంది.",
+              "மேமை வீக்கத்தில், மேமை தொட்டால் வலியோ சூடோ இருக்காது. இது முக்கியம் ஏனெனில் சூடான, வலியுள்ள மேமை முற்றிலும் வேறு பிரச்சினையை (மேமை தொற்று) குறிக்கிறது. எப்படியிருந்தாலும், நீங்கள் உண்மையில் உணர்வதை தெரிவிக்கவும் — மேமை வலியுடனும் சூடாகவும் இருக்கிறதா, அல்லது வெறுமனே வீங்கி வசதியாக இருக்கிறதா — ஏனெனில் இந்த விவரம் கால்நடை மருத்துவர் வருவதற்கு முன்பே அவர் என்ன எதிர்கொள்கிறார் என்பதை தெரிந்துகொள்ள உதவும்.",
+              "ಕೆಚ್ಚಲು ಎಡಿಮಾದಲ್ಲಿ, ಕೆಚ್ಚಲು ಮುಟ್ಟಿದಾಗ ನೋವು ಅಥವಾ ಬಿಸಿ ಇರುವುದಿಲ್ಲ. ಇದು ಮುಖ್ಯ ಏಕೆಂದರೆ ಬಿಸಿಯಾದ, ನೋವಿನ ಕೆಚ್ಚಲು ಸಂಪೂರ್ಣವಾಗಿ ಬೇರೆ ಸಮಸ್ಯೆಯನ್ನು (ಕೆಚ್ಚಲು ಸೋಂಕು) ಸೂಚಿಸುತ್ತದೆ. ಏನೇ ಆಗಲಿ, ನೀವು ನಿಜವಾಗಿ ಅನುಭವಿಸುವುದನ್ನು ವರದಿ ಮಾಡಿ — ಕೆಚ್ಚಲು ನೋವಿನಿಂದ ಬಿಸಿಯಾಗಿದೆಯೇ, ಅಥವಾ ಬರೀ ಊದಿಕೊಂಡು ಆರಾಮವಾಗಿದೆಯೇ — ಏಕೆಂದರೆ ಈ ವಿವರ ಪಶುವೈದ್ಯರು ಬರುವ ಮೊದಲೇ ಅವರು ಏನನ್ನು ಎದುರಿಸುತ್ತಿದ್ದಾರೆ ಎಂದು ತಿಳಿಯಲು ಸಹಾಯ ಮಾಡುತ್ತದೆ.",
+              "थन के एडिमा में, थन को छूने पर न दर्द होता है न गर्माहट। यह मायने रखता है क्योंकि गर्म, दर्द भरा थन बिल्कुल अलग समस्या (थन का संक्रमण) की ओर इशारा करता है। जो भी हो, आप जो असल में महसूस करें वही बताएं — थन दर्द भरा और गर्म है, या बस सूजा हुआ और आरामदायक है — क्योंकि यह जानकारी डॉक्टर को पहुँचने से पहले ही समझने में मदद करती है कि वे किस समस्या से जूझ रहे हैं।"
             ),
           },
           {
             type: "glossary",
-            term: L("Haemoglobinuria"),
+            term: L("Haemoglobinuria", "హీమోగ్లోబినూరియా", "ஹீமோகுளோபினூரியா", "ಹಿಮೋಗ್ಲೋಬಿನ್ಯೂರಿಯಾ", "हीमोग्लोबिन्यूरिया"),
             meaning: L(
-              "A reddish blood pigment appearing in the urine, which makes the urine look dark red or brownish, rather than its normal colour."
+              "A reddish blood pigment appearing in the urine, which makes the urine look dark red or brownish, rather than its normal colour.",
+              "మూత్రంలో ఎర్రటి రక్త వర్ణద్రవ్యం కనిపించడం, దీనివల్ల మూత్రం సాధారణ రంగుకు బదులుగా ముదురు ఎరుపు లేదా గోధుమ రంగులో కనిపిస్తుంది.",
+              "சிறுநீரில் சிவப்பு இரத்த நிறமி தோன்றுவது, இதனால் சிறுநீர் இயல்பான நிறத்திற்கு பதிலாக அடர் சிவப்பு அல்லது பழுப்பு நிறமாக தோன்றும்.",
+              "ಮೂತ್ರದಲ್ಲಿ ಕೆಂಪು ರಕ್ತ ವರ್ಣದ್ರವ್ಯ ಕಾಣಿಸಿಕೊಳ್ಳುವುದು, ಇದರಿಂದ ಮೂತ್ರ ಸಾಮಾನ್ಯ ಬಣ್ಣಕ್ಕೆ ಬದಲಾಗಿ ಗಾಢ ಕೆಂಪು ಅಥವಾ ಕಂದು ಬಣ್ಣದಲ್ಲಿ ಕಾಣುತ್ತದೆ.",
+              "पेशाब में लाल रंग का खून का रंगद्रव्य दिखना, जिससे पेशाब सामान्य रंग की बजाय गहरे लाल या भूरे रंग का दिखता है।"
             ),
           },
           {
             type: "text",
-            heading: L("Post-Parturient Haemoglobinuria"),
+            heading: L("Post-Parturient Haemoglobinuria", "పోస్ట్-పార్చురియంట్ హీమోగ్లోబినూరియా", "பிரசவத்திற்கு பிந்தைய ஹீமோகுளோபினூரியா", "ಹೆರಿಗೆಯ ನಂತರದ ಹಿಮೋಗ್ಲೋಬಿನ್ಯೂರಿಯಾ", "प्रसव के बाद का हीमोग्लोबिन्यूरिया"),
             html: L(
-              "This problem can appear around calving, especially in heavy-milking animals. Along with dark, reddish urine, watch for a marked drop in milk production, fever, loose dung, and general weakness with a pale appearance — signs of severe anaemia (a shortage of healthy blood). Because some other diseases can look similar, the vet will need to examine the animal to be sure what's causing it."
+              "This problem can appear around calving, especially in heavy-milking animals. Along with dark, reddish urine, watch for a marked drop in milk production, fever, loose dung, and general weakness with a pale appearance — signs of severe anaemia (a shortage of healthy blood). Because some other diseases can look similar, the vet will need to examine the animal to be sure what's causing it.",
+              "ఈ సమస్య ఈనే సమయంలో, ముఖ్యంగా ఎక్కువ పాలిచ్చే పశువులలో రావచ్చు. ముదురు, ఎరుపు రంగు మూత్రంతో పాటు, పాల ఉత్పత్తిలో గణనీయమైన తగ్గుదల, జ్వరం, వదులుగా ఉన్న పేడ, మరియు లేత రంగుతో సాధారణ బలహీనత — ఇవి తీవ్రమైన రక్తహీనత (ఆరోగ్యకరమైన రక్తం లేకపోవడం) లక్షణాలు — గమనించండి. ఇతర కొన్ని వ్యాధులు కూడా ఇలాగే కనిపించవచ్చు కాబట్టి, కారణం ఖచ్చితంగా తెలుసుకోవడానికి వైద్యుడు పశువును పరీక్షించాల్సి ఉంటుంది.",
+              "இந்த பிரச்சினை ஈன்றெடுக்கும் நேரத்தில், குறிப்பாக அதிக பால் தரும் விலங்குகளில் ஏற்படலாம். அடர், சிவப்பு நிற சிறுநீருடன், பால் உற்பத்தியில் குறிப்பிடத்தக்க குறைவு, காய்ச்சல், தளர்வான சாணம், மற்றும் வெளிர் தோற்றத்துடன் பொதுவான பலவீனம் — கடுமையான இரத்த சோகையின் (ஆரோக்கியமான இரத்தத்தின் பற்றாக்குறை) அறிகுறிகளை கவனிக்கவும். வேறு சில நோய்களும் இதுபோலவே தோன்றக்கூடும் என்பதால், காரணத்தை உறுதிசெய்ய கால்நடை மருத்துவர் விலங்கை பரிசோதிக்க வேண்டும்.",
+              "ಈ ಸಮಸ್ಯೆ ಕರು ಹಾಕುವ ಸಮಯದಲ್ಲಿ, ವಿಶೇಷವಾಗಿ ಹೆಚ್ಚು ಹಾಲು ಕೊಡುವ ಪ್ರಾಣಿಗಳಲ್ಲಿ ಕಾಣಿಸಿಕೊಳ್ಳಬಹುದು. ಗಾಢ, ಕೆಂಪು ಬಣ್ಣದ ಮೂತ್ರದ ಜೊತೆಗೆ, ಹಾಲಿನ ಉತ್ಪಾದನೆಯಲ್ಲಿ ಗಮನಾರ್ಹ ಇಳಿಕೆ, ಜ್ವರ, ಸಡಿಲ ಸಗಣಿ, ಮತ್ತು ಬಿಳಿಚಿಕೊಂಡ ಸಾಮಾನ್ಯ ದೌರ್ಬಲ್ಯ — ತೀವ್ರ ರಕ್ತಹೀನತೆಯ (ಆರೋಗ್ಯಕರ ರಕ್ತದ ಕೊರತೆ) ಲಕ್ಷಣಗಳನ್ನು ಗಮನಿಸಿ. ಕೆಲವು ಇತರ ರೋಗಗಳೂ ಇದೇ ರೀತಿ ಕಾಣಿಸಬಹುದಾದ್ದರಿಂದ, ಕಾರಣ ಖಚಿತಪಡಿಸಲು ಪಶುವೈದ್ಯರು ಪ್ರಾಣಿಯನ್ನು ಪರೀಕ್ಷಿಸಬೇಕಾಗುತ್ತದೆ.",
+              "यह समस्या ब्याने के समय, खासकर ज़्यादा दूध देने वाले पशुओं में हो सकती है। गहरे, लाल रंग के पेशाब के साथ, दूध उत्पादन में साफ गिरावट, बुखार, ढीला गोबर, और पीलापन लिए सामान्य कमज़ोरी — गंभीर रक्ताल्पता (स्वस्थ खून की कमी) के लक्षण — पर ध्यान दें। चूंकि कुछ अन्य बीमारियाँ भी ऐसी ही दिख सकती हैं, इसलिए असली कारण जानने के लिए डॉक्टर को पशु की जांच करनी होगी।"
             ),
           },
           {
             type: "callout",
             style: "warning",
-            heading: L("Dark or Reddish Urine Needs a Same-Day Report"),
+            heading: L("Dark or Reddish Urine Needs a Same-Day Report", "ముదురు లేదా ఎరుపు రంగు మూత్రం అదే రోజు తెలియజేయాలి", "அடர் அல்லது சிவப்பு நிற சிறுநீர் அதே நாளே தெரிவிக்கப்பட வேண்டும்", "ಗಾಢ ಅಥವಾ ಕೆಂಪು ಬಣ್ಣದ ಮೂತ್ರ ಅದೇ ದಿನ ವರದಿ ಮಾಡಬೇಕು", "गहरे या लाल रंग के पेशाब की सूचना उसी दिन दें"),
             text: L(
-              "Dark red or brownish urine after calving is never something to wait and watch. It is linked to severe anaemia and weakness, and needs prompt veterinary attention — report it the same day you notice it."
+              "Dark red or brownish urine after calving is never something to wait and watch. It is linked to severe anaemia and weakness, and needs prompt veterinary attention — report it the same day you notice it.",
+              "ఈనిన తర్వాత ముదురు ఎరుపు లేదా గోధుమ రంగు మూత్రం అనేది వేచి చూడాల్సిన విషయం కాదు. ఇది తీవ్రమైన రక్తహీనత మరియు బలహీనతతో ముడిపడి ఉంటుంది, మరియు తక్షణ వైద్య సహాయం అవసరం — మీరు గమనించిన అదే రోజు తెలియజేయండి.",
+              "ஈன்ற பிறகு அடர் சிவப்பு அல்லது பழுப்பு நிற சிறுநீர் ஒருபோதும் காத்திருந்து பார்க்க வேண்டிய விஷயம் அல்ல. இது கடுமையான இரத்த சோகை மற்றும் பலவீனத்துடன் தொடர்புடையது, உடனடி கால்நடை மருத்துவ கவனம் தேவை — நீங்கள் கவனித்த அதே நாளே தெரிவிக்கவும்.",
+              "ಕರು ಹಾಕಿದ ನಂತರ ಗಾಢ ಕೆಂಪು ಅಥವಾ ಕಂದು ಬಣ್ಣದ ಮೂತ್ರ ಎಂದಿಗೂ ಕಾಯುತ್ತಾ ನೋಡಬೇಕಾದ ವಿಷಯವಲ್ಲ. ಇದು ತೀವ್ರ ರಕ್ತಹೀನತೆ ಮತ್ತು ದೌರ್ಬಲ್ಯದೊಂದಿಗೆ ಸಂಬಂಧಿಸಿದೆ, ತಕ್ಷಣದ ಪಶುವೈದ್ಯಕೀಯ ಗಮನ ಬೇಕು — ನೀವು ಗಮನಿಸಿದ ಅದೇ ದಿನ ವರದಿ ಮಾಡಿ.",
+              "ब्याने के बाद गहरा लाल या भूरा पेशाब कभी भी इंतज़ार करके देखने वाली बात नहीं है। यह गंभीर रक्ताल्पता और कमज़ोरी से जुड़ा है, और इसके लिए तुरंत पशु चिकित्सा ध्यान चाहिए — जिस दिन देखें उसी दिन बताएं।"
             ),
           },
         ],
         check: [
           {
             type: "mcq",
-            q: L("What is a key difference between simple udder oedema and an infected, painful udder?"),
+            q: L("What is a key difference between simple udder oedema and an infected, painful udder?", "సాధారణ పొదుగు ఎడెమాకు మరియు ఇన్ఫెక్షన్ ఉన్న, నొప్పిగా ఉన్న పొదుగుకు మధ్య ముఖ్యమైన తేడా ఏమిటి?", "எளிய மேமை வீக்கத்திற்கும் தொற்று மற்றும் வலியுடன் கூடிய மேமைக்கும் இடையிலான முக்கிய வேறுபாடு என்ன?", "ಸರಳ ಕೆಚ್ಚಲು ಊತ ಮತ್ತು ಸೋಂಕಿತ, ನೋವಿನ ಕೆಚ್ಚಲಿನ ನಡುವಿನ ಪ್ರಮುಖ ವ್ಯತ್ಯಾಸವೇನು?", "साधारण थन की सूजन और संक्रमित, दर्द भरे थन के बीच मुख्य अंतर क्या है?"),
             options: [
-              L("Oedema is usually not painful or hot to the touch"),
-              L("Oedema only ever happens in old animals"),
-              L("Oedema always requires surgery"),
-              L("There is no way to tell them apart"),
+              L("Oedema is usually not painful or hot to the touch", "ఎడెమా సాధారణంగా తాకినప్పుడు నొప్పిగా లేదా వేడిగా ఉండదు", "வீக்கம் பொதுவாக தொட்டால் வலியோ சூடோ இருக்காது", "ಎಡಿಮಾ ಸಾಮಾನ್ಯವಾಗಿ ಮುಟ್ಟಿದಾಗ ನೋವು ಅಥವಾ ಬಿಸಿ ಇರುವುದಿಲ್ಲ", "एडिमा में आमतौर पर छूने पर दर्द या गर्माहट नहीं होती"),
+              L("Oedema only ever happens in old animals", "ఎడెమా వృద్ధ పశువులలో మాత్రమే వస్తుంది", "வீக்கம் வயதான விலங்குகளில் மட்டுமே ஏற்படும்", "ಎಡಿಮಾ ವಯಸ್ಸಾದ ಪ್ರಾಣಿಗಳಲ್ಲಿ ಮಾತ್ರ ಬರುತ್ತದೆ", "एडिमा केवल बूढ़े पशुओं में ही होता है"),
+              L("Oedema always requires surgery", "ఎడెమాకు ఎల్లప్పుడూ శస్త్రచికిత్స అవసరం", "வீக்கத்திற்கு எப்போதும் அறுவை சிகிச்சை தேவை", "ಎಡಿಮಾಗೆ ಯಾವಾಗಲೂ ಶಸ್ತ್ರಚಿಕಿತ್ಸೆ ಬೇಕು", "एडिमा के लिए हमेशा सर्जरी चाहिए"),
+              L("There is no way to tell them apart", "వాటిని వేరు చేయడానికి మార్గం లేదు", "அவற்றை வேறுபடுத்த வழி இல்லை", "ಅವುಗಳನ್ನು ಬೇರ್ಪಡಿಸಲು ಯಾವುದೇ ಮಾರ್ಗವಿಲ್ಲ", "इनमें फर्क करने का कोई तरीका नहीं है"),
             ],
             answer: 0,
-            explain: L("With udder oedema, the udder is not painful or hot — that's an important detail to report, since it helps tell it apart from an infected udder."),
+            explain: L("With udder oedema, the udder is not painful or hot — that's an important detail to report, since it helps tell it apart from an infected udder.", "పొదుగు ఎడెమాలో, పొదుగు నొప్పిగా లేదా వేడిగా ఉండదు — ఇది తెలియజేయాల్సిన ముఖ్యమైన వివరం, ఎందుకంటే ఇది ఇన్ఫెక్షన్ ఉన్న పొదుగు నుండి దీన్ని వేరు చేయడంలో సహాయపడుతుంది.", "மேமை வீக்கத்தில், மேமை வலியோ சூடோ இல்லாமல் இருக்கும் — இது தெரிவிக்க வேண்டிய முக்கிய விவரம், ஏனெனில் இது தொற்று உள்ள மேமையிலிருந்து இதை வேறுபடுத்த உதவுகிறது.", "ಕೆಚ್ಚಲು ಎಡಿಮಾದಲ್ಲಿ, ಕೆಚ್ಚಲು ನೋವು ಅಥವಾ ಬಿಸಿ ಇರುವುದಿಲ್ಲ — ಇದು ವರದಿ ಮಾಡಬೇಕಾದ ಪ್ರಮುಖ ವಿವರ, ಏಕೆಂದರೆ ಇದು ಸೋಂಕಿತ ಕೆಚ್ಚಲಿನಿಂದ ಇದನ್ನು ಪ್ರತ್ಯೇಕಿಸಲು ಸಹಾಯ ಮಾಡುತ್ತದೆ.", "थन के एडिमा में, थन में दर्द या गर्माहट नहीं होती — यह बताने लायक ज़रूरी बात है, क्योंकि इससे संक्रमित थन से इसे अलग पहचानने में मदद मिलती है।"),
           },
           {
             type: "truefalse",
-            q: L("Dark red or brown urine after calving is a sign that can be safely ignored for now."),
+            q: L("Dark red or brown urine after calving is a sign that can be safely ignored for now.", "ఈనిన తర్వాత ముదురు ఎరుపు లేదా గోధుమ రంగు మూత్రం అనేది ప్రస్తుతానికి పట్టించుకోకుండా వదిలేయదగినది.", "ஈன்ற பிறகு அடர் சிவப்பு அல்லது பழுப்பு நிற சிறுநீர் தற்போதைக்கு பாதுகாப்பாக புறக்கணிக்கக்கூடிய அறிகுறி.", "ಕರು ಹಾಕಿದ ನಂತರ ಗಾಢ ಕೆಂಪು ಅಥವಾ ಕಂದು ಬಣ್ಣದ ಮೂತ್ರ ಸದ್ಯಕ್ಕೆ ಸುರಕ್ಷಿತವಾಗಿ ನಿರ್ಲಕ್ಷಿಸಬಹುದಾದ ಲಕ್ಷಣ.", "ब्याने के बाद गहरा लाल या भूरा पेशाब अभी के लिए नज़रअंदाज़ किया जा सकने वाला लक्षण है।"),
             answer: false,
-            explain: L("No — it is linked to a serious blood condition (haemoglobinuria) with severe anaemia, and should be reported the same day."),
+            explain: L("No — it is linked to a serious blood condition (haemoglobinuria) with severe anaemia, and should be reported the same day.", "కాదు — ఇది తీవ్రమైన రక్తహీనతతో కూడిన తీవ్రమైన రక్త పరిస్థితికి (హీమోగ్లోబినూరియా) సంబంధించినది, మరియు అదే రోజు తెలియజేయాలి.", "இல்லை — இது கடுமையான இரத்த சோகையுடன் கூடிய தீவிர இரத்த நிலையுடன் (ஹீமோகுளோபினூரியா) தொடர்புடையது, அதே நாளே தெரிவிக்கப்பட வேண்டும்.", "ಇಲ್ಲ — ಇದು ತೀವ್ರ ರಕ್ತಹೀನತೆಯೊಂದಿಗೆ ಗಂಭೀರ ರಕ್ತ ಸ್ಥಿತಿಗೆ (ಹಿಮೋಗ್ಲೋಬಿನ್ಯೂರಿಯಾ) ಸಂಬಂಧಿಸಿದೆ, ಅದೇ ದಿನ ವರದಿ ಮಾಡಬೇಕು.", "नहीं — यह गंभीर रक्ताल्पता वाली एक गंभीर रक्त संबंधी स्थिति (हीमोग्लोबिन्यूरिया) से जुड़ा है, और इसकी सूचना उसी दिन देनी चाहिए।"),
           },
         ],
       },
@@ -4461,55 +4509,55 @@ export const MODULES = [
         {
           topicId: "t-m7-prolapse-rop",
           type: "mcq",
-          q: L("Why should you never try to push a prolapsed uterus back in yourself?"),
+          q: L("Why should you never try to push a prolapsed uterus back in yourself?", "బయటకు వచ్చిన గర్భాశయాన్ని మీరే ఎందుకు లోపలికి తోయకూడదు?", "வெளியேறிய கருப்பையை நீங்களே ஏன் உள்ளே தள்ள முயற்சிக்கக்கூடாது?", "ಹೊರಬಂದ ಗರ್ಭಕೋಶವನ್ನು ನೀವೇ ಏಕೆ ಒಳಗೆ ತಳ್ಳಲು ಪ್ರಯತ್ನಿಸಬಾರದು?", "बाहर निकले गर्भाशय को खुद अंदर धकेलने की कोशिश क्यों नहीं करनी चाहिए?"),
           options: [
-            L("It is not actually a serious problem"),
-            L("It can cause severe bleeding"),
-            L("The animal will do it herself within minutes"),
-            L("It is against the rules but not dangerous"),
+            L("It is not actually a serious problem", "ఇది నిజానికి తీవ్రమైన సమస్య కాదు", "இது உண்மையில் தீவிரமான பிரச்சினை அல்ல", "ಇದು ನಿಜವಾಗಿ ಗಂಭೀರ ಸಮಸ್ಯೆಯಲ್ಲ", "यह असल में कोई गंभीर समस्या नहीं है"),
+            L("It can cause severe bleeding", "దీనివల్ల తీవ్ర రక్తస్రావం కావచ్చు", "இது கடுமையான இரத்தப்போக்கை ஏற்படுத்தலாம்", "ಇದು ತೀವ್ರ ರಕ್ತಸ್ರಾವಕ್ಕೆ ಕಾರಣವಾಗಬಹುದು", "इससे भारी रक्तस्राव हो सकता है"),
+            L("The animal will do it herself within minutes", "పశువు కొన్ని నిమిషాల్లో దానంతట అదే చేసుకుంటుంది", "விலங்கு சில நிமிடங்களில் தானே செய்துகொள்ளும்", "ಪ್ರಾಣಿ ಕೆಲವು ನಿಮಿಷಗಳಲ್ಲಿ ತಾನೇ ಮಾಡಿಕೊಳ್ಳುತ್ತದೆ", "पशु कुछ मिनटों में खुद यह कर लेगा"),
+            L("It is against the rules but not dangerous", "ఇది నియమాలకు వ్యతిరేకం కానీ ప్రమాదకరం కాదు", "இது விதிகளுக்கு எதிரானது ஆனால் ஆபத்தானது அல்ல", "ಇದು ನಿಯಮಗಳಿಗೆ ವಿರುದ್ಧ ಆದರೆ ಅಪಾಯಕಾರಿ ಅಲ್ಲ", "यह नियमों के खिलाफ है पर खतरनाक नहीं है"),
           ],
           answer: 1,
-          explain: L("Attempting to push it back in or remove anything yourself can cause severe bleeding — always protect it and call the vet instead."),
+          explain: L("Attempting to push it back in or remove anything yourself can cause severe bleeding — always protect it and call the vet instead.", "దాన్ని మీరే తోయడానికి లేదా ఏదైనా తీసివేయడానికి ప్రయత్నించడం వల్ల తీవ్ర రక్తస్రావం కావచ్చు — బదులుగా ఎల్లప్పుడూ దానిని రక్షించి వైద్యుడిని పిలవండి.", "அதை நீங்களே தள்ளவோ எதையும் அகற்றவோ முயற்சிப்பது கடுமையான இரத்தப்போக்கை ஏற்படுத்தலாம் — அதற்கு பதிலாக எப்போதும் அதை பாதுகாத்து கால்நடை மருத்துவரை அழைக்கவும்.", "ಅದನ್ನು ನೀವೇ ತಳ್ಳಲು ಅಥವಾ ಏನನ್ನಾದರೂ ತೆಗೆಯಲು ಪ್ರಯತ್ನಿಸುವುದರಿಂದ ತೀವ್ರ ರಕ್ತಸ್ರಾವವಾಗಬಹುದು — ಬದಲಿಗೆ ಯಾವಾಗಲೂ ಅದನ್ನು ರಕ್ಷಿಸಿ ಪಶುವೈದ್ಯರನ್ನು ಕರೆಯಿರಿ.", "इसे खुद अंदर धकेलने या कुछ भी हटाने की कोशिश से भारी रक्तस्राव हो सकता है — इसके बजाय हमेशा इसे बचाएं और डॉक्टर को बुलाएं।"),
         },
         {
           topicId: "t-m7-prolapse-rop",
           type: "truefalse",
-          q: L("Retention of Placenta is more likely after a difficult birth, twin birth, or a case of Milk Fever."),
+          q: L("Retention of Placenta is more likely after a difficult birth, twin birth, or a case of Milk Fever.", "కష్టమైన ప్రసవం, కవలల జననం, లేదా మిల్క్ ఫీవర్ వచ్చిన తర్వాత మావి నిలిచిపోయే అవకాశం ఎక్కువ.", "கடினமான பிரசவம், இரட்டைக் குட்டி பிறப்பு, அல்லது பால் காய்ச்சலுக்குப் பிறகு மாயை தங்கும் வாய்ப்பு அதிகம்.", "ಕಷ್ಟಕರ ಹೆರಿಗೆ, ಅವಳಿ ಜನನ, ಅಥವಾ ಮಿಲ್ಕ್ ಫೀವರ್ ಬಂದ ನಂತರ ಮಾಸು ಉಳಿಯುವ ಸಾಧ್ಯತೆ ಹೆಚ್ಚು.", "मुश्किल प्रसव, जुड़वां जन्म, या मिल्क फीवर के मामले के बाद जेर के रुकने की संभावना ज़्यादा होती है।"),
           answer: true,
-          explain: L("Correct — difficult births, twins, abortion, induced calving, infection, poor nutrition, and Milk Fever all raise the chances of Retention of Placenta."),
+          explain: L("Correct — difficult births, twins, abortion, induced calving, infection, poor nutrition, and Milk Fever all raise the chances of Retention of Placenta.", "సరైనది — కష్టమైన ప్రసవాలు, కవలలు, గర్భస్రావం, ప్రేరేపిత ఈత, ఇన్ఫెక్షన్, సరైన పోషణ లేకపోవడం, మరియు మిల్క్ ఫీవర్ అన్నీ మావి నిలిచిపోయే అవకాశాన్ని పెంచుతాయి.", "சரி — கடினமான பிரசவங்கள், இரட்டைக் குட்டிகள், கருச்சிதைவு, தூண்டப்பட்ட ஈன்றல், தொற்று, மோசமான ஊட்டச்சத்து, மற்றும் பால் காய்ச்சல் அனைத்தும் மாயை தங்கும் வாய்ப்பை அதிகரிக்கின்றன.", "ಸರಿ — ಕಷ್ಟಕರ ಹೆರಿಗೆಗಳು, ಅವಳಿಗಳು, ಗರ್ಭಪಾತ, ಪ್ರೇರಿತ ಕರು ಹಾಕುವಿಕೆ, ಸೋಂಕು, ಕಳಪೆ ಪೋಷಣೆ, ಮತ್ತು ಮಿಲ್ಕ್ ಫೀವರ್ ಎಲ್ಲವೂ ಮಾಸು ಉಳಿಯುವ ಸಾಧ್ಯತೆಯನ್ನು ಹೆಚ್ಚಿಸುತ್ತವೆ.", "सही — मुश्किल प्रसव, जुड़वां बच्चे, गर्भपात, कृत्रिम ब्याना, संक्रमण, खराब पोषण, और मिल्क फीवर — ये सभी जेर के रुकने की संभावना बढ़ाते हैं।"),
         },
         {
           topicId: "t-m7-prolapse-rop",
           type: "mcq",
-          q: L("Why should you never pull out a retained placenta yourself?"),
+          q: L("Why should you never pull out a retained placenta yourself?", "నిలిచిపోయిన మావిని మీరే ఎందుకు ఎప్పుడూ లాగకూడదు?", "தங்கியிருக்கும் மாயையை நீங்களே ஏன் ஒருபோதும் இழுக்கக்கூடாது?", "ಉಳಿದಿರುವ ಮಾಸನ್ನು ನೀವೇ ಏಕೆ ಎಂದಿಗೂ ಎಳೆಯಬಾರದು?", "रुकी हुई जेर को खुद कभी क्यों नहीं खींचना चाहिए?"),
           options: [
-            L("It has no risks, but it's simply not your job"),
-            L("It can lead to serious complications like infection or blood poisoning, even death"),
-            L("It will always come out easily on its own within seconds"),
-            L("It only matters for buffaloes, not cattle"),
+            L("It has no risks, but it's simply not your job", "దీనికి ఎలాంటి ప్రమాదం లేదు, కానీ ఇది మీ పని కాదు", "இதற்கு ஆபத்து இல்லை, ஆனால் இது உங்கள் வேலை அல்ல", "ಇದಕ್ಕೆ ಯಾವುದೇ ಅಪಾಯವಿಲ್ಲ, ಆದರೆ ಇದು ನಿಮ್ಮ ಕೆಲಸವಲ್ಲ", "इसमें कोई खतरा नहीं है, पर यह आपका काम नहीं है"),
+            L("It can lead to serious complications like infection or blood poisoning, even death", "దీనివల్ల ఇన్ఫెక్షన్ లేదా రక్త విషప్రయోగం వంటి తీవ్ర సమస్యలు, మరణం కూడా రావచ్చు", "இது தொற்று அல்லது இரத்த நச்சுத்தன்மை போன்ற கடுமையான சிக்கல்களுக்கும், மரணத்திற்கும் கூட வழிவகுக்கலாம்", "ಇದು ಸೋಂಕು ಅಥವಾ ರಕ್ತ ವಿಷಮಯತೆಯಂತಹ ಗಂಭೀರ ತೊಡಕುಗಳಿಗೆ, ಸಾವಿಗೂ ಕಾರಣವಾಗಬಹುದು", "इससे संक्रमण या खून में ज़हर फैलने जैसी गंभीर जटिलताएँ, यहाँ तक कि मौत भी हो सकती है"),
+            L("It will always come out easily on its own within seconds", "అది ఎల్లప్పుడూ కొన్ని సెకన్లలో దానంతట అదే సులభంగా బయటకు వస్తుంది", "அது எப்போதும் சில வினாடிகளில் தானாகவே எளிதாக வெளியேறும்", "ಅದು ಯಾವಾಗಲೂ ಕೆಲವು ಸೆಕೆಂಡುಗಳಲ್ಲಿ ತಾನಾಗಿಯೇ ಸುಲಭವಾಗಿ ಹೊರಬರುತ್ತದೆ", "यह हमेशा कुछ ही सेकंड में अपने आप आसानी से निकल जाती है"),
+            L("It only matters for buffaloes, not cattle", "ఇది గేదెలకు మాత్రమే వర్తిస్తుంది, ఆవులకు కాదు", "இது எருமைகளுக்கு மட்டுமே பொருந்தும், மாடுகளுக்கு அல்ல", "ಇದು ಎಮ್ಮೆಗಳಿಗೆ ಮಾತ್ರ ಅನ್ವಯಿಸುತ್ತದೆ, ಹಸುಗಳಿಗಲ್ಲ", "यह केवल भैंसों पर लागू होता है, गायों पर नहीं"),
           ],
           answer: 1,
-          explain: L("Pulling it yourself risks serious complications such as metritis (womb infection) and septicaemia (blood poisoning), which can be fatal — always consult a vet."),
+          explain: L("Pulling it yourself risks serious complications such as metritis (womb infection) and septicaemia (blood poisoning), which can be fatal — always consult a vet.", "దానిని మీరే లాగడం వల్ల మెట్రైటిస్ (గర్భాశయ ఇన్ఫెక్షన్) మరియు సెప్టిసీమియా (రక్త విషప్రయోగం) వంటి తీవ్ర సమస్యల ప్రమాదం ఉంటుంది, ఇవి ప్రాణాంతకం కావచ్చు — ఎల్లప్పుడూ వైద్యుడిని సంప్రదించండి.", "அதை நீங்களே இழுப்பது மெட்ரைடிஸ் (கருப்பை தொற்று) மற்றும் செப்டிசீமியா (இரத்த நச்சுத்தன்மை) போன்ற கடுமையான சிக்கல்களுக்கு ஆபத்து ஏற்படுத்தும், இவை உயிருக்கு ஆபத்தானவையாக இருக்கலாம் — எப்போதும் கால்நடை மருத்துவரை அணுகவும்.", "ಅದನ್ನು ನೀವೇ ಎಳೆಯುವುದರಿಂದ ಮೆಟ್ರೈಟಿಸ್ (ಗರ್ಭಕೋಶ ಸೋಂಕು) ಮತ್ತು ಸೆಪ್ಟಿಸೀಮಿಯಾ (ರಕ್ತ ವಿಷಮಯತೆ) ಮುಂತಾದ ಗಂಭೀರ ತೊಡಕುಗಳ ಅಪಾಯವಿದೆ, ಇವು ಮಾರಣಾಂತಿಕವಾಗಬಹುದು — ಯಾವಾಗಲೂ ಪಶುವೈದ್ಯರನ್ನು ಸಂಪರ್ಕಿಸಿ.", "इसे खुद खींचने से मेट्राइटिस (गर्भाशय संक्रमण) और सेप्टिसीमिया (खून में ज़हर) जैसी गंभीर जटिलताओं का खतरा रहता है, जो जानलेवा हो सकती हैं — हमेशा डॉक्टर से सलाह लें।"),
         },
         {
           topicId: "t-m7-udder-hgb",
           type: "mcq",
-          q: L("Udder oedema is most accurately described as:"),
+          q: L("Udder oedema is most accurately described as:", "పొదుగు ఎడెమాను అత్యంత సరిగ్గా ఇలా వర్ణించవచ్చు:", "மேமை வீக்கத்தை மிகச் சரியாக இவ்வாறு விவரிக்கலாம்:", "ಕೆಚ್ಚಲು ಎಡಿಮಾವನ್ನು ಅತ್ಯಂತ ನಿಖರವಾಗಿ ಹೀಗೆ ವಿವರಿಸಬಹುದು:", "थन के एडिमा का सबसे सही वर्णन है:"),
           options: [
-            L("A hot, painful swelling caused by infection"),
-            L("A build-up of extra fluid in the udder, which is usually not painful or hot"),
-            L("Something that only affects the belly, never the udder"),
-            L("A condition that always needs surgery immediately"),
+            L("A hot, painful swelling caused by infection", "ఇన్ఫెక్షన్ వల్ల వచ్చే వేడిగా, నొప్పిగా ఉండే వాపు", "தொற்று காரணமாக ஏற்படும் சூடான, வலியுள்ள வீக்கம்", "ಸೋಂಕಿನಿಂದ ಉಂಟಾಗುವ ಬಿಸಿಯಾದ, ನೋವಿನ ಊತ", "संक्रमण से होने वाली गर्म, दर्द भरी सूजन"),
+            L("A build-up of extra fluid in the udder, which is usually not painful or hot", "పొదుగులో అదనపు ద్రవం పేరుకుపోవడం, ఇది సాధారణంగా నొప్పిగా లేదా వేడిగా ఉండదు", "மேமையில் அதிகப்படியான திரவம் சேர்வது, இது பொதுவாக வலியோ சூடோ இருக்காது", "ಕೆಚ್ಚಲಿನಲ್ಲಿ ಹೆಚ್ಚುವರಿ ದ್ರವ ಸಂಗ್ರಹ, ಇದು ಸಾಮಾನ್ಯವಾಗಿ ನೋವು ಅಥವಾ ಬಿಸಿ ಇರುವುದಿಲ್ಲ", "थन में अतिरिक्त तरल का जमा होना, जो आमतौर पर दर्द या गर्माहट भरा नहीं होता"),
+            L("Something that only affects the belly, never the udder", "ఇది పొట్టను మాత్రమే ప్రభావితం చేస్తుంది, పొదుగును ఎప్పుడూ కాదు", "இது வயிற்றை மட்டுமே பாதிக்கும், மேமையை ஒருபோதும் அல்ல", "ಇದು ಹೊಟ್ಟೆಯನ್ನು ಮಾತ್ರ ಬಾಧಿಸುತ್ತದೆ, ಕೆಚ್ಚಲನ್ನು ಎಂದಿಗೂ ಅಲ್ಲ", "यह केवल पेट को प्रभावित करता है, थन को कभी नहीं"),
+            L("A condition that always needs surgery immediately", "దీనికి ఎల్లప్పుడూ వెంటనే శస్త్రచికిత్స అవసరం", "இது எப்போதும் உடனடியாக அறுவை சிகிச்சை தேவைப்படும் நிலை", "ಇದಕ್ಕೆ ಯಾವಾಗಲೂ ತಕ್ಷಣ ಶಸ್ತ್ರಚಿಕಿತ್ಸೆ ಬೇಕು", "इसके लिए हमेशा तुरंत सर्जरी की ज़रूरत होती है"),
           ],
           answer: 1,
-          explain: L("Udder oedema is fluid build-up in the udder (and sometimes the belly) that is usually not painful or hot — unlike an infected udder."),
+          explain: L("Udder oedema is fluid build-up in the udder (and sometimes the belly) that is usually not painful or hot — unlike an infected udder.", "పొదుగు ఎడెమా అనేది పొదుగులో (మరియు కొన్నిసార్లు పొట్టలో) ద్రవం పేరుకుపోవడం, ఇది సాధారణంగా నొప్పిగా లేదా వేడిగా ఉండదు — ఇన్ఫెక్షన్ ఉన్న పొదుగుకు భిన్నంగా.", "மேமை வீக்கம் என்பது மேமையில் (மற்றும் சில நேரங்களில் வயிற்றில்) திரவம் சேர்வதாகும், இது பொதுவாக வலியோ சூடோ இல்லாமல் இருக்கும் — தொற்று உள்ள மேமையிலிருந்து மாறாக.", "ಕೆಚ್ಚಲು ಎಡಿಮಾ ಎಂದರೆ ಕೆಚ್ಚಲಿನಲ್ಲಿ (ಮತ್ತು ಕೆಲವೊಮ್ಮೆ ಹೊಟ್ಟೆಯಲ್ಲಿ) ದ್ರವ ಸಂಗ್ರಹ, ಇದು ಸಾಮಾನ್ಯವಾಗಿ ನೋವು ಅಥವಾ ಬಿಸಿ ಇರುವುದಿಲ್ಲ — ಸೋಂಕಿತ ಕೆಚ್ಚಲಿಗಿಂತ ಭಿನ್ನವಾಗಿ.", "थन का एडिमा थन (और कभी-कभी पेट) में तरल का जमा होना है, जो आमतौर पर दर्द या गर्माहट भरा नहीं होता — संक्रमित थन के विपरीत।"),
         },
         {
           topicId: "t-m7-udder-hgb",
           type: "truefalse",
-          q: L("Post-Parturient Haemoglobinuria can come with a marked drop in milk production and signs of severe anaemia."),
+          q: L("Post-Parturient Haemoglobinuria can come with a marked drop in milk production and signs of severe anaemia.", "పోస్ట్-పార్చురియంట్ హీమోగ్లోబినూరియాతో పాల ఉత్పత్తిలో గణనీయమైన తగ్గుదల మరియు తీవ్రమైన రక్తహీనత లక్షణాలు రావచ్చు.", "பிரசவத்திற்கு பிந்தைய ஹீமோகுளோபினூரியா பால் உற்பத்தியில் குறிப்பிடத்தக்க குறைவுடனும் கடுமையான இரத்த சோகை அறிகுறிகளுடனும் வரலாம்.", "ಹೆರಿಗೆಯ ನಂತರದ ಹಿಮೋಗ್ಲೋಬಿನ್ಯೂರಿಯಾ ಹಾಲಿನ ಉತ್ಪಾದನೆಯಲ್ಲಿ ಗಮನಾರ್ಹ ಇಳಿಕೆ ಮತ್ತು ತೀವ್ರ ರಕ್ತಹೀನತೆಯ ಲಕ್ಷಣಗಳೊಂದಿಗೆ ಬರಬಹುದು.", "प्रसव के बाद का हीमोग्लोबिन्यूरिया दूध उत्पादन में साफ गिरावट और गंभीर रक्ताल्पता के लक्षणों के साथ आ सकता है।"),
           answer: true,
-          explain: L("Yes — along with dark, reddish urine, watch for a drop in milk, fever, loose dung, and weakness with a pale appearance from severe anaemia."),
+          explain: L("Yes — along with dark, reddish urine, watch for a drop in milk, fever, loose dung, and weakness with a pale appearance from severe anaemia.", "అవును — ముదురు, ఎరుపు రంగు మూత్రంతో పాటు, పాలలో తగ్గుదల, జ్వరం, వదులుగా ఉన్న పేడ, మరియు తీవ్రమైన రక్తహీనత వల్ల లేత రంగుతో బలహీనతను గమనించండి.", "ஆம் — அடர், சிவப்பு நிற சிறுநீருடன், பாலில் குறைவு, காய்ச்சல், தளர்வான சாணம், மற்றும் கடுமையான இரத்த சோகையால் வெளிர் தோற்றத்துடன் பலவீனத்தை கவனியுங்கள்.", "ಹೌದು — ಗಾಢ, ಕೆಂಪು ಬಣ್ಣದ ಮೂತ್ರದ ಜೊತೆಗೆ, ಹಾಲಿನಲ್ಲಿ ಇಳಿಕೆ, ಜ್ವರ, ಸಡಿಲ ಸಗಣಿ, ಮತ್ತು ತೀವ್ರ ರಕ್ತಹೀನತೆಯಿಂದ ಬಿಳಿಚಿಕೊಂಡ ದೌರ್ಬಲ್ಯವನ್ನು ಗಮನಿಸಿ.", "हाँ — गहरे, लाल रंग के पेशाब के साथ, दूध में कमी, बुखार, ढीला गोबर, और गंभीर रक्ताल्पता से पीलापन लिए कमज़ोरी पर ध्यान दें।"),
         },
       ],
     },
