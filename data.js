@@ -2009,89 +2009,109 @@ export const MODULES = [
       },
       {
         id: "t-m4-fmd-hs",
-        title: L("Two Diseases You'll Hear About Often: FMD and HS"),
+        title: L("Two Diseases You'll Hear About Often: FMD and HS", "మీరు తరచుగా వినే రెండు వ్యాధులు: FMD మరియు HS", "நீங்கள் அடிக்கடி கேட்கும் இரண்டு நோய்கள்: FMD மற்றும் HS", "ನೀವು ಆಗಾಗ್ಗೆ ಕೇಳುವ ಎರಡು ರೋಗಗಳು: FMD ಮತ್ತು HS", "जिन दो बीमारियों का ज़िक्र आप अक्सर सुनेंगे: FMD और HS"),
         teach: [
           {
             type: "text",
-            heading: L("Foot and Mouth Disease (FMD)"),
+            heading: L("Foot and Mouth Disease (FMD)", "గొంతు, కాళ్ళ వ్యాధి (FMD)", "கால் மற்றும் வாய் நோய் (FMD)", "ಕಾಲು ಬಾಯಿ ರೋಗ (FMD)", "मुंह और खुर की बीमारी (FMD)"),
             html: L(
-              "FMD is a highly contagious viral disease — it spreads easily through direct contact, and even through contaminated water, feed and air. It rarely kills adult animals outright, but it can permanently reduce their milk production, fertility and working strength for the rest of their life after recovery. In calves, it is usually fatal."
+              "FMD is a highly contagious viral disease — it spreads easily through direct contact, and even through contaminated water, feed and air. It rarely kills adult animals outright, but it can permanently reduce their milk production, fertility and working strength for the rest of their life after recovery. In calves, it is usually fatal.",
+              "FMD అనేది అత్యంత అంటువ్యాధి — ఇది ప్రత్యక్ష సంపర్కం ద్వారానే కాక, కలుషితమైన నీరు, దాణా, గాలి ద్వారా కూడా సులభంగా వ్యాపిస్తుంది. పెద్ద జంతువులను ఇది చాలా అరుదుగా చంపుతుంది, కానీ కోలుకున్న తర్వాత కూడా వాటి పాల ఉత్పత్తి, పునరుత్పత్తి సామర్థ్యం, పనిచేసే శక్తిని శాశ్వతంగా తగ్గించవచ్చు. దూడల్లో ఇది సాధారణంగా ప్రాణాంతకం.",
+              "FMD என்பது மிகவும் தொற்றக்கூடிய வைரஸ் நோய் — இது நேரடி தொடர்பு மூலமாகவும், மாசுபட்ட நீர், தீவனம், காற்று மூலமாகவும் எளிதாக பரவுகிறது. இது வளர்ந்த விலங்குகளை அரிதாகவே கொல்லும், ஆனால் குணமான பின்னரும் அவற்றின் பால் உற்பத்தி, இனப்பெருக்க திறன், வேலை செய்யும் சக்தியை நிரந்தரமாக குறைக்கலாம். கன்றுகளில் இது பொதுவாக உயிராபத்தானது.",
+              "FMD ಎಂಬುದು ಬಹಳ ಸಾಂಕ್ರಾಮಿಕ ವೈರಸ್ ರೋಗ — ಇದು ನೇರ ಸಂಪರ್ಕದ ಮೂಲಕ ಮಾತ್ರವಲ್ಲದೆ, ಕಲುಷಿತ ನೀರು, ಆಹಾರ ಮತ್ತು ಗಾಳಿಯ ಮೂಲಕವೂ ಸುಲಭವಾಗಿ ಹರಡುತ್ತದೆ. ಇದು ವಯಸ್ಕ ಪ್ರಾಣಿಗಳನ್ನು ವಿರಳವಾಗಿ ಕೊಲ್ಲುತ್ತದೆ, ಆದರೆ ಗುಣಮುಖವಾದ ನಂತರವೂ ಅವುಗಳ ಹಾಲಿನ ಉತ್ಪಾದನೆ, ಸಂತಾನೋತ್ಪತ್ತಿ ಸಾಮರ್ಥ್ಯ, ಕೆಲಸದ ಶಕ್ತಿಯನ್ನು ಶಾಶ್ವತವಾಗಿ ಕಡಿಮೆ ಮಾಡಬಹುದು. ಕರುಗಳಲ್ಲಿ ಇದು ಸಾಮಾನ್ಯವಾಗಿ ಮಾರಣಾಂತಿಕ.",
+              "FMD एक बेहद संक्रामक वायरल बीमारी है — यह सीधे संपर्क के अलावा दूषित पानी, चारे और हवा के ज़रिए भी आसानी से फैलती है। यह बड़े जानवरों की जान कम ही लेती है, लेकिन ठीक होने के बाद भी उनकी दूध देने की क्षमता, प्रजनन क्षमता और काम करने की ताकत को हमेशा के लिए कम कर सकती है। बछड़ों में यह आमतौर पर जानलेवा होती है।"
             ),
           },
           {
             type: "stat-grid",
             items: [
               {
-                label: L("Watch for"),
-                text: L("A sudden, drastic drop in milk production, fever, heavy drooling, and watery discharge from the nose."),
+                label: L("Watch for", "గమనించాల్సినవి", "கவனிக்க வேண்டியவை", "ಗಮನಿಸಬೇಕಾದದ್ದು", "किस पर नज़र रखें"),
+                text: L("A sudden, drastic drop in milk production, fever, heavy drooling, and watery discharge from the nose.", "అకస్మాత్తుగా, తీవ్రంగా పాల ఉత్పత్తి తగ్గడం, జ్వరం, ఎక్కువగా చొంగ కారడం, ముక్కు నుండి నీరు కారడం.", "திடீரென, கடுமையாக பால் உற்பத்தி குறைவது, காய்ச்சல், அதிக உமிழ்நீர் வடிதல், மூக்கிலிருந்து நீர் வடிதல்.", "ಹಠಾತ್, ತೀವ್ರ ಹಾಲಿನ ಉತ್ಪಾದನೆ ಕುಸಿತ, ಜ್ವರ, ಅತಿಯಾದ ಜೊಲ್ಲು ಸುರಿಯುವಿಕೆ, ಮತ್ತು ಮೂಗಿನಿಂದ ನೀರು ಸೋರುವಿಕೆ.", "दूध उत्पादन में अचानक, भारी गिरावट, बुख़ार, ज़्यादा लार टपकना, और नाक से पानी जैसा स्राव।"),
               },
               {
-                label: L("Mouth and feet"),
+                label: L("Mouth and feet", "నోరు మరియు కాళ్ళు", "வாய் மற்றும் கால்கள்", "ಬಾಯಿ ಮತ್ತು ಕಾಲುಗಳು", "मुंह और पैर"),
                 text: L(
-                  "Small fluid-filled blisters on the tongue, gums, lips and dental pad, and between the toes — blisters between the toes often cause noticeable limping."
+                  "Small fluid-filled blisters on the tongue, gums, lips and dental pad, and between the toes — blisters between the toes often cause noticeable limping.",
+                  "నాలుక, చిగుళ్ళు, పెదవులు మరియు దంతాల పలక మీద, వేళ్ళ మధ్య చిన్న నీటి బొబ్బలు కనిపిస్తాయి — వేళ్ళ మధ్య బొబ్బలు తరచుగా కుంటడానికి కారణమవుతాయి.",
+                  "நாக்கு, ஈறுகள், உதடுகள் மற்றும் பல் தட்டு, மற்றும் விரல்களுக்கு இடையே சிறிய நீர் நிறைந்த கொப்புளங்கள் — விரல்களுக்கு இடையேயான கொப்புளங்கள் பெரும்பாலும் தெளிவான நொண்டித்தனத்தை ஏற்படுத்தும்.",
+                  "ನಾಲಿಗೆ, ಒಸಡುಗಳು, ತುಟಿಗಳು ಮತ್ತು ಹಲ್ಲಿನ ಫಲಕ, ಮತ್ತು ಕಾಲ್ಬೆರಳುಗಳ ನಡುವೆ ಸಣ್ಣ ನೀರು ತುಂಬಿದ ಗುಳ್ಳೆಗಳು — ಕಾಲ್ಬೆರಳುಗಳ ನಡುವಿನ ಗುಳ್ಳೆಗಳು ಸಾಮಾನ್ಯವಾಗಿ ಗಮನಾರ್ಹ ಕುಂಟುವಿಕೆಗೆ ಕಾರಣವಾಗುತ್ತವೆ.",
+                  "जीभ, मसूड़ों, होंठों और दांतों की पट्टी पर, और खुरों के बीच छोटे पानी भरे छाले — खुरों के बीच के छाले अक्सर साफ़ तौर पर लंगड़ाने की वजह बनते हैं।"
                 ),
               },
               {
-                label: L("Udder"),
-                text: L("Blister-like lesions on the teats can also lead to a painful, infected udder."),
+                label: L("Udder", "పొదుగు", "மடி", "ಕೆಚ್ಚಲು", "थन"),
+                text: L("Blister-like lesions on the teats can also lead to a painful, infected udder.", "చనుమొనలపై బొబ్బల వంటి గాయాలు కూడా బాధాకరమైన, ఇన్ఫెక్షన్ ఉన్న పొదుగుకు దారితీయవచ్చు.", "காம்புகளில் கொப்புள போன்ற காயங்கள் வலிமிகுந்த, தொற்று ஏற்பட்ட மடிக்கு வழிவகுக்கலாம்.", "ಮೊಲೆತೊಟ್ಟುಗಳ ಮೇಲಿನ ಗುಳ್ಳೆಯಂತಹ ಗಾಯಗಳು ನೋವಿನ, ಸೋಂಕಿತ ಕೆಚ್ಚಲಿಗೂ ಕಾರಣವಾಗಬಹುದು.", "थनों पर छालों जैसे घाव दर्दनाक, संक्रमित थन का कारण भी बन सकते हैं।"),
               },
             ],
           },
           {
             type: "callout",
             style: "warning",
-            heading: L("Report FMD Signs the Same Day"),
+            heading: L("Report FMD Signs the Same Day", "FMD లక్షణాలు అదే రోజు తెలియజేయండి", "FMD அறிகுறிகளை அன்றே தெரிவிக்கவும்", "FMD ಲಕ್ಷಣಗಳನ್ನು ಅದೇ ದಿನ ವರದಿ ಮಾಡಿ", "FMD के लक्षण उसी दिन बताएं"),
             text: L(
-              "Because FMD spreads so easily through contact and shared water or feed, an infected animal should be kept away from the rest of the herd as soon as it's noticed, and reported right away — even though it is rarely fatal to adults, the losses to milk and long-term health are severe."
+              "Because FMD spreads so easily through contact and shared water or feed, an infected animal should be kept away from the rest of the herd as soon as it's noticed, and reported right away — even though it is rarely fatal to adults, the losses to milk and long-term health are severe.",
+              "FMD సంపర్కం, పంచుకునే నీరు లేదా దాణా ద్వారా చాలా సులభంగా వ్యాపిస్తుంది కాబట్టి, ఇన్ఫెక్షన్ ఉన్న జంతువును గమనించిన వెంటనే మిగతా మంద నుండి దూరంగా ఉంచి, వెంటనే తెలియజేయాలి — పెద్ద జంతువులకు ఇది అరుదుగా ప్రాణాంతకమైనా, పాల నష్టం, దీర్ఘకాలిక ఆరోగ్య నష్టం తీవ్రంగా ఉంటాయి.",
+              "FMD தொடர்பு மற்றும் பகிரப்பட்ட நீர் அல்லது தீவனம் மூலம் மிக எளிதாக பரவுவதால், தொற்று ஏற்பட்ட விலங்கை கவனித்தவுடன் மற்ற மந்தையிலிருந்து விலக்கி வைத்து, உடனடியாக தெரிவிக்க வேண்டும் — இது வளர்ந்த விலங்குகளுக்கு அரிதாகவே உயிராபத்தானது என்றாலும், பால் மற்றும் நீண்டகால ஆரோக்கிய இழப்பு கடுமையானது.",
+              "FMD ಸಂಪರ್ಕ ಮತ್ತು ಹಂಚಿಕೊಂಡ ನೀರು ಅಥವಾ ಆಹಾರದ ಮೂಲಕ ಬಹಳ ಸುಲಭವಾಗಿ ಹರಡುವುದರಿಂದ, ಸೋಂಕಿತ ಪ್ರಾಣಿಯನ್ನು ಗಮನಿಸಿದ ತಕ್ಷಣ ಉಳಿದ ಹಿಂಡಿನಿಂದ ದೂರವಿಟ್ಟು, ತಕ್ಷಣ ವರದಿ ಮಾಡಬೇಕು — ಇದು ವಯಸ್ಕ ಪ್ರಾಣಿಗಳಿಗೆ ವಿರಳವಾಗಿ ಮಾರಣಾಂತಿಕವಾದರೂ, ಹಾಲು ಮತ್ತು ದೀರ್ಘಕಾಲೀನ ಆರೋಗ್ಯ ನಷ್ಟ ತೀವ್ರವಾಗಿರುತ್ತದೆ.",
+              "क्योंकि FMD संपर्क और साझा पानी या चारे के ज़रिए बहुत आसानी से फैलता है, संक्रमित जानवर को देखते ही बाक़ी झुंड से अलग रखना चाहिए और तुरंत सूचना देनी चाहिए — भले ही यह बड़े जानवरों की जान कम ही लेता हो, दूध और लंबे समय के स्वास्थ्य का नुक़सान गंभीर होता है।"
             ),
           },
           {
             type: "text",
-            heading: L("Haemorrhagic Septicaemia (HS)"),
+            heading: L("Haemorrhagic Septicaemia (HS)", "హెమరేజిక్ సెప్టిసీమియా (HS)", "ரத்தக்கசிவு நோய்த்தொற்று (HS)", "ಹೆಮರೇಜಿಕ್ ಸೆಪ್ಟಿಸೀಮಿಯಾ (HS)", "हैमरेजिक सेप्टिसीमिया (HS)"),
             html: L(
-              "HS is a fast-moving bacterial disease that usually strikes during the monsoon, especially in humid, waterlogged conditions. It can kill up to 80% of the animals it infects, and buffaloes are generally more at risk from it than cattle."
+              "HS is a fast-moving bacterial disease that usually strikes during the monsoon, especially in humid, waterlogged conditions. It can kill up to 80% of the animals it infects, and buffaloes are generally more at risk from it than cattle.",
+              "HS అనేది వేగంగా వ్యాపించే బ్యాక్టీరియా వ్యాధి, సాధారణంగా వర్షాకాలంలో, ముఖ్యంగా తేమతో, నీరు నిలిచిన పరిస్థితుల్లో దాడి చేస్తుంది. ఇది సోకిన జంతువుల్లో 80% వరకు చంపగలదు, ఆవుల కంటే గేదెలకు దీని ప్రమాదం ఎక్కువ.",
+              "HS என்பது வேகமாக பரவும் பாக்டீரியா நோய், பொதுவாக பருவமழையில், குறிப்பாக ஈரப்பதமான, தண்ணீர் தேங்கிய சூழலில் தாக்குகிறது. இது தொற்று ஏற்பட்ட விலங்குகளில் 80% வரை கொல்லக்கூடும், பசுக்களை விட எருமைகளுக்கு இதன் ஆபத்து அதிகம்.",
+              "HS ಎಂಬುದು ವೇಗವಾಗಿ ಹರಡುವ ಬ್ಯಾಕ್ಟೀರಿಯಾ ರೋಗ, ಸಾಮಾನ್ಯವಾಗಿ ಮಳೆಗಾಲದಲ್ಲಿ, ವಿಶೇಷವಾಗಿ ತೇವ, ನೀರು ನಿಂತ ಪರಿಸ್ಥಿತಿಗಳಲ್ಲಿ ದಾಳಿ ಮಾಡುತ್ತದೆ. ಇದು ಸೋಂಕಿತ ಪ್ರಾಣಿಗಳಲ್ಲಿ 80% ವರೆಗೆ ಸಾಯಿಸಬಹುದು, ಹಸುಗಳಿಗಿಂತ ಎಮ್ಮೆಗಳಿಗೆ ಇದರ ಅಪಾಯ ಹೆಚ್ಚು.",
+              "HS एक तेज़ी से फैलने वाली बैक्टीरिया बीमारी है जो आमतौर पर बरसात के मौसम में, ख़ासकर नमी और जलभराव वाली स्थितियों में हमला करती है। यह संक्रमित जानवरों में से 80% तक की जान ले सकती है, और गायों की तुलना में भैंसों को इससे ज़्यादा ख़तरा होता है।"
             ),
           },
           {
             type: "stat-grid",
             items: [
               {
-                label: L("Watch for"),
-                text: L("High fever together with a sudden drop in milk yield, drooling, and watery nasal discharge."),
+                label: L("Watch for", "గమనించాల్సినవి", "கவனிக்க வேண்டியவை", "ಗಮನಿಸಬೇಕಾದದ್ದು", "किस पर नज़र रखें"),
+                text: L("High fever together with a sudden drop in milk yield, drooling, and watery nasal discharge.", "తీవ్రమైన జ్వరం, దానితో పాటు అకస్మాత్తుగా పాల దిగుబడి తగ్గడం, చొంగ కారడం, ముక్కు నుండి నీరు కారడం.", "அதிக காய்ச்சலுடன் திடீரென பால் விளைச்சல் குறைவு, உமிழ்நீர் வடிதல், மூக்கிலிருந்து நீர் வடிதல்.", "ಹೆಚ್ಚಿನ ಜ್ವರದ ಜೊತೆಗೆ ಹಠಾತ್ ಹಾಲಿನ ಇಳುವರಿ ಕುಸಿತ, ಜೊಲ್ಲು ಸುರಿಯುವಿಕೆ, ಮತ್ತು ಮೂಗಿನಿಂದ ನೀರು ಸೋರುವಿಕೆ.", "तेज़ बुख़ार के साथ दूध की पैदावार में अचानक गिरावट, लार टपकना, और नाक से पानी जैसा स्राव।"),
               },
               {
-                label: L("The throat swelling"),
-                text: L("Severe swelling of the throat area, causing difficulty breathing — the animal may make a grunting sound."),
+                label: L("The throat swelling", "గొంతు వాపు", "தொண்டை வீக்கம்", "ಗಂಟಲಿನ ಊತ", "गले की सूजन"),
+                text: L("Severe swelling of the throat area, causing difficulty breathing — the animal may make a grunting sound.", "గొంతు ప్రాంతంలో తీవ్రమైన వాపు, దీనివల్ల శ్వాస తీసుకోవడం కష్టమవుతుంది — జంతువు గురక వంటి శబ్దం చేయవచ్చు.", "தொண்டை பகுதியில் கடுமையான வீக்கம், மூச்சு விடுவதில் சிரமம் — விலங்கு குறட்டை போன்ற சத்தம் எழுப்பலாம்.", "ಗಂಟಲಿನ ಭಾಗದಲ್ಲಿ ತೀವ್ರ ಊತ, ಉಸಿರಾಟದ ತೊಂದರೆ — ಪ್ರಾಣಿ ಗುರುಗುಟ್ಟುವ ಶಬ್ದ ಮಾಡಬಹುದು.", "गले के हिस्से में तेज़ सूजन, जिससे सांस लेने में तकलीफ़ होती है — जानवर घुरघुराने जैसी आवाज़ कर सकता है।"),
               },
             ],
           },
           {
             type: "callout",
             style: "warning",
-            heading: L("HS Can Kill Within a Day or Two — Do Not Wait"),
+            heading: L("HS Can Kill Within a Day or Two — Do Not Wait", "HS ఒకటి రెండు రోజుల్లోనే చంపగలదు — వేచి ఉండకండి", "HS ஒன்று அல்லது இரண்டு நாட்களில் கொல்லக்கூடும் — காத்திருக்க வேண்டாம்", "HS ಒಂದೆರಡು ದಿನಗಳಲ್ಲಿ ಸಾಯಿಸಬಹುದು — ಕಾಯಬೇಡಿ", "HS एक-दो दिन में जान ले सकता है — इंतज़ार न करें"),
             text: L(
-              "An animal showing HS signs can die within 1–2 days of the symptoms first appearing, and animals that already show clear signs — buffaloes especially — rarely recover. If you see high fever, throat swelling or breathing trouble together with a milk drop during the monsoon, report it immediately, the same hour if possible."
+              "An animal showing HS signs can die within 1–2 days of the symptoms first appearing, and animals that already show clear signs — buffaloes especially — rarely recover. If you see high fever, throat swelling or breathing trouble together with a milk drop during the monsoon, report it immediately, the same hour if possible.",
+              "HS లక్షణాలు కనిపిస్తున్న జంతువు లక్షణాలు మొదలైన 1–2 రోజుల్లోనే చనిపోవచ్చు, స్పష్టమైన లక్షణాలు ఇప్పటికే కనిపిస్తున్న జంతువులు — ముఖ్యంగా గేదెలు — అరుదుగానే కోలుకుంటాయి. వర్షాకాలంలో తీవ్రమైన జ్వరం, గొంతు వాపు లేదా శ్వాస తీసుకోవడంలో ఇబ్బంది, దానితో పాటు పాల తగ్గుదల కనిపిస్తే, వీలైతే అదే గంటలో వెంటనే తెలియజేయండి.",
+              "HS அறிகுறிகளை காட்டும் ஒரு விலங்கு அறிகுறிகள் முதலில் தோன்றிய 1–2 நாட்களுக்குள் இறக்கக்கூடும், ஏற்கனவே தெளிவான அறிகுறிகளை காட்டும் விலங்குகள் — குறிப்பாக எருமைகள் — அரிதாகவே குணமடைகின்றன. பருவமழையில் அதிக காய்ச்சல், தொண்டை வீக்கம் அல்லது மூச்சு விடுவதில் சிரமத்துடன் பால் குறைவு தெரிந்தால், முடிந்தால் அதே மணி நேரத்தில் உடனடியாக தெரிவிக்கவும்.",
+              "HS ಲಕ್ಷಣಗಳನ್ನು ತೋರಿಸುವ ಪ್ರಾಣಿ ಲಕ್ಷಣಗಳು ಮೊದಲು ಕಾಣಿಸಿದ 1–2 ದಿನಗಳಲ್ಲಿ ಸಾಯಬಹುದು, ಈಗಾಗಲೇ ಸ್ಪಷ್ಟ ಲಕ್ಷಣಗಳನ್ನು ತೋರಿಸುವ ಪ್ರಾಣಿಗಳು — ವಿಶೇಷವಾಗಿ ಎಮ್ಮೆಗಳು — ವಿರಳವಾಗಿ ಗುಣಮುಖವಾಗುತ್ತವೆ. ಮಳೆಗಾಲದಲ್ಲಿ ಹೆಚ್ಚಿನ ಜ್ವರ, ಗಂಟಲಿನ ಊತ ಅಥವಾ ಉಸಿರಾಟದ ತೊಂದರೆಯ ಜೊತೆಗೆ ಹಾಲು ಕಡಿಮೆಯಾಗುವುದು ಕಂಡರೆ, ಸಾಧ್ಯವಾದರೆ ಅದೇ ಗಂಟೆಯಲ್ಲಿ ತಕ್ಷಣ ವರದಿ ಮಾಡಿ.",
+              "HS के लक्षण दिखने वाला जानवर लक्षण दिखने के 1–2 दिन के भीतर मर सकता है, और जिन जानवरों में पहले से साफ़ लक्षण दिख रहे हों — ख़ासकर भैंसें — वे मुश्किल से ही ठीक होते हैं। अगर बरसात के मौसम में तेज़ बुख़ार, गले की सूजन या सांस लेने में तकलीफ़ के साथ दूध घटता दिखे, तो हो सके तो उसी घंटे तुरंत सूचना दें।"
             ),
           },
         ],
         check: [
           {
             type: "mcq",
-            q: L("Which of these is a sign of FMD (Foot and Mouth Disease)?"),
+            q: L("Which of these is a sign of FMD (Foot and Mouth Disease)?", "వీటిలో ఏది FMD (గొంతు, కాళ్ళ వ్యాధి) లక్షణం?", "இவற்றில் எது FMD (கால் மற்றும் வாய் நோய்) அறிகுறி?", "ಇವುಗಳಲ್ಲಿ ಯಾವುದು FMD (ಕಾಲು ಬಾಯಿ ರೋಗ)ದ ಲಕ್ಷಣ?", "इनमें से कौन सा FMD (मुंह और खुर की बीमारी) का लक्षण है?"),
             options: [
-              L("Blisters on the tongue, gums or between the toes, with a sudden drop in milk"),
-              L("Only a change in coat colour"),
-              L("Increased milk production"),
-              L("No visible signs at all, ever"),
+              L("Blisters on the tongue, gums or between the toes, with a sudden drop in milk", "నాలుక, చిగుళ్ళపై లేదా వేళ్ళ మధ్య బొబ్బలు, పాలు అకస్మాత్తుగా తగ్గడం", "நாக்கு, ஈறுகள் அல்லது விரல்களுக்கு இடையே கொப்புளங்கள், பால் திடீரென குறைவு", "ನಾಲಿಗೆ, ಒಸಡುಗಳ ಮೇಲೆ ಅಥವಾ ಕಾಲ್ಬೆರಳುಗಳ ನಡುವೆ ಗುಳ್ಳೆಗಳು, ಹಾಲು ಹಠಾತ್ ಕುಸಿತ", "जीभ, मसूड़ों या खुरों के बीच छाले, दूध में अचानक गिरावट"),
+              L("Only a change in coat colour", "కేవలం ఒంటి రంగులో మార్పు మాత్రమే", "உடலின் நிறத்தில் மட்டும் மாற்றம்", "ಕೇವಲ ಮೈ ಬಣ್ಣದಲ್ಲಿ ಬದಲಾವಣೆ", "सिर्फ़ रंग में बदलाव"),
+              L("Increased milk production", "పాల ఉత్పత్తి పెరగడం", "பால் உற்பத்தி அதிகரிப்பு", "ಹಾಲಿನ ಉತ್ಪಾದನೆ ಹೆಚ್ಚಳ", "दूध उत्पादन बढ़ना"),
+              L("No visible signs at all, ever", "ఎప్పుడూ ఎలాంటి కనిపించే లక్షణాలు ఉండవు", "எப்போதும் எந்த தெரியும் அறிகுறியும் இல்லை", "ಎಂದಿಗೂ ಯಾವುದೇ ಕಾಣುವ ಲಕ್ಷಣಗಳಿಲ್ಲ", "कभी कोई दिखने वाला लक्षण नहीं"),
             ],
             answer: 0,
-            explain: L("FMD shows up as blisters in the mouth and feet, drooling, nasal discharge, and a sudden drop in milk production."),
+            explain: L("FMD shows up as blisters in the mouth and feet, drooling, nasal discharge, and a sudden drop in milk production.", "FMD నోరు, కాళ్ళలో బొబ్బలుగా, చొంగ కారడం, ముక్కు నుండి నీరు కారడం, పాల ఉత్పత్తి అకస్మాత్తుగా తగ్గడంగా కనిపిస్తుంది.", "FMD வாய் மற்றும் கால்களில் கொப்புளங்களாக, உமிழ்நீர் வடிதல், மூக்கு நீர் வடிதல், பால் உற்பத்தி திடீர் குறைவாக தெரியும்.", "FMD ಬಾಯಿ ಮತ್ತು ಕಾಲುಗಳಲ್ಲಿ ಗುಳ್ಳೆಗಳಾಗಿ, ಜೊಲ್ಲು ಸುರಿಯುವಿಕೆ, ಮೂಗಿನ ಸೋರುವಿಕೆ, ಹಾಲಿನ ಉತ್ಪಾದನೆಯ ಹಠಾತ್ ಕುಸಿತವಾಗಿ ಕಾಣಿಸಿಕೊಳ್ಳುತ್ತದೆ.", "FMD मुंह और पैरों में छालों, लार टपकने, नाक से पानी बहने, और दूध उत्पादन में अचानक गिरावट के रूप में दिखता है।"),
           },
           {
             type: "truefalse",
-            q: L("Haemorrhagic Septicaemia (HS) can kill an animal within 1–2 days of the first symptoms appearing."),
+            q: L("Haemorrhagic Septicaemia (HS) can kill an animal within 1–2 days of the first symptoms appearing.", "మొదటి లక్షణాలు కనిపించిన 1–2 రోజుల్లోనే హెమరేజిక్ సెప్టిసీమియా (HS) జంతువును చంపగలదు.", "முதல் அறிகுறிகள் தோன்றிய 1–2 நாட்களுக்குள் ரத்தக்கசிவு நோய்த்தொற்று (HS) ஒரு விலங்கை கொல்லக்கூடும்.", "ಮೊದಲ ಲಕ್ಷಣಗಳು ಕಾಣಿಸಿದ 1–2 ದಿನಗಳಲ್ಲಿ ಹೆಮರೇಜಿಕ್ ಸೆಪ್ಟಿಸೀಮಿಯಾ (HS) ಪ್ರಾಣಿಯನ್ನು ಸಾಯಿಸಬಹುದು.", "पहले लक्षण दिखने के 1–2 दिन के भीतर हैमरेजिक सेप्टिसीमिया (HS) किसी जानवर की जान ले सकता है।"),
             answer: true,
-            explain: L("Yes — HS moves very fast, sometimes causing death within just 1–2 days of symptoms appearing, which is why it needs to be reported immediately."),
+            explain: L("Yes — HS moves very fast, sometimes causing death within just 1–2 days of symptoms appearing, which is why it needs to be reported immediately.", "అవును — HS చాలా వేగంగా వ్యాపిస్తుంది, కొన్నిసార్లు లక్షణాలు కనిపించిన 1–2 రోజుల్లోనే మరణానికి కారణమవుతుంది, అందుకే వెంటనే తెలియజేయాలి.", "ஆம் — HS மிக வேகமாக பரவுகிறது, சில நேரங்களில் அறிகுறிகள் தோன்றி 1–2 நாட்களுக்குள் மரணத்தை ஏற்படுத்தும், அதனால்தான் உடனடியாக தெரிவிக்க வேண்டும்.", "ಹೌದು — HS ಬಹಳ ವೇಗವಾಗಿ ಹರಡುತ್ತದೆ, ಕೆಲವೊಮ್ಮೆ ಲಕ್ಷಣಗಳು ಕಾಣಿಸಿದ ಕೇವಲ 1–2 ದಿನಗಳಲ್ಲಿ ಸಾವಿಗೆ ಕಾರಣವಾಗುತ್ತದೆ, ಅದಕ್ಕಾಗಿಯೇ ತಕ್ಷಣ ವರದಿ ಮಾಡಬೇಕು.", "हां — HS बहुत तेज़ी से फैलता है, कभी-कभी लक्षण दिखने के सिर्फ़ 1–2 दिन के भीतर मौत का कारण बन जाता है, इसीलिए इसकी सूचना तुरंत देनी चाहिए।"),
           },
         ],
       },
