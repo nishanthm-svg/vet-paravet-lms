@@ -1230,8 +1230,8 @@ export const MODULES = [
   {
     id: "m3",
     number: 3,
-    title: L("Care of the Newborn Calf"),
-    subtitle: L("The critical first day of a calf's life, feeding it right, and handling calf diarrhoea."),
+    title: L("Care of the Newborn Calf", "కొత్తగా పుట్టిన దూడ సంరక్షణ", "புதிதாகப் பிறந்த கன்றின் பராமரிப்பு", "ಹೊಸದಾಗಿ ಹುಟ್ಟಿದ ಕರುವಿನ ಆರೈಕೆ", "नवजात बछड़े की देखभाल"),
+    subtitle: L("The critical first day of a calf's life, feeding it right, and handling calf diarrhoea.", "దూడ జీవితంలో మొదటి రోజు ఎంత ముఖ్యమో, సరైన ఆహారం ఇవ్వడం, దూడల విరేచనాలను ఎలా చూసుకోవాలో.", "கன்றின் வாழ்க்கையின் மிக முக்கியமான முதல் நாள், சரியாக பால் கொடுப்பது, கன்று வயிற்றுப்போக்கை எப்படி கையாள்வது.", "ಕರುವಿನ ಜೀವನದ ಅತಿಮುಖ್ಯ ಮೊದಲ ದಿನ, ಸರಿಯಾಗಿ ಆಹಾರ ನೀಡುವುದು, ಮತ್ತು ಕರುವಿನ ಭೇದಿಯನ್ನು ಹೇಗೆ ನಿಭಾಯಿಸುವುದು.", "बछड़े की ज़िंदगी का सबसे अहम पहला दिन, उसे सही तरीके से दूध पिलाना, और बछड़े के दस्त को कैसे संभालें।"),
     icon: "calf",
     available: true,
     lessons: [
@@ -1240,197 +1240,249 @@ export const MODULES = [
   // ==================================================================
   {
     id: "m3-l1",
-    title: L("The First Day of a Calf's Life"),
+    title: L("The First Day of a Calf's Life", "దూడ జీవితంలో మొదటి రోజు", "கன்றின் வாழ்க்கையின் முதல் நாள்", "ಕರುವಿನ ಜೀವನದ ಮೊದಲ ದಿನ", "बछड़े की ज़िंदगी का पहला दिन"),
     estMinutes: 8,
     hook: [
       {
         type: "hero",
-        heading: L("The First 24 Hours Set the Course for a Lifetime"),
+        heading: L("The First 24 Hours Set the Course for a Lifetime", "మొదటి 24 గంటలే జీవితమంతటినీ నిర్ణయిస్తాయి", "முதல் 24 மணி நேரம் வாழ்நாள் முழுவதையும் தீர்மானிக்கிறது", "ಮೊದಲ 24 ಗಂಟೆಗಳೇ ಇಡೀ ಜೀವನದ ದಿಕ್ಕನ್ನು ನಿರ್ಧರಿಸುತ್ತವೆ", "पहले 24 घंटे ही पूरी ज़िंदगी की दिशा तय करते हैं"),
         text: L(
-          "A calf's life is really divided into two parts: the first 24 hours, and everything after. Get the first day right — a clean navel and the right amount of first milk at the right time — and you give the calf a real chance, even before any vet is involved. This lesson walks through exactly what needs to happen, and when."
+          "A calf's life is really divided into two parts: the first 24 hours, and everything after. Get the first day right — a clean navel and the right amount of first milk at the right time — and you give the calf a real chance, even before any vet is involved. This lesson walks through exactly what needs to happen, and when.",
+          "దూడ జీవితాన్ని రెండు భాగాలుగా చూడొచ్చు: మొదటి 24 గంటలు, ఆ తర్వాత మిగతా జీవితం. మొదటి రోజు సరిగ్గా చేస్తే — శుభ్రమైన బొడ్డు తాడు, సరైన సమయంలో సరైన మోతాదులో జున్ను పాలు — వెటర్నరీ డాక్టర్ రాకముందే దూడకు మంచి భవిష్యత్తుకు బాటలు వేసినట్టే. ఏమి చేయాలో, ఎప్పుడు చేయాలో ఈ పాఠంలో వివరంగా చూద్దాం.",
+          "கன்றின் வாழ்க்கையை உண்மையில் இரண்டு பகுதிகளாகப் பிரிக்கலாம்: முதல் 24 மணி நேரம், மற்றும் அதற்குப் பிறகு எல்லாம். முதல் நாளை சரியாகச் செய்தால் — சுத்தமான தொப்புள் கொடி, சரியான நேரத்தில் சரியான அளவு கொழுந்து பால் — வெட்டரினரி டாக்டர் வருவதற்கு முன்பே கன்றுக்கு ஒரு நல்ல வாய்ப்பைக் கொடுத்துவிடுவீர்கள். இந்தப் பாடம் என்ன செய்ய வேண்டும், எப்போது செய்ய வேண்டும் என்பதை விரிவாகக் காட்டுகிறது.",
+          "ಕರುವಿನ ಜೀವನವನ್ನು ನಿಜವಾಗಿ ಎರಡು ಭಾಗಗಳಾಗಿ ನೋಡಬಹುದು: ಮೊದಲ 24 ಗಂಟೆಗಳು, ಮತ್ತು ಆ ನಂತರ ಬರುವ ಎಲ್ಲವೂ. ಮೊದಲ ದಿನವನ್ನು ಸರಿಯಾಗಿ ನಿಭಾಯಿಸಿದರೆ — ಸ್ವಚ್ಛವಾದ ಹೊಕ್ಕುಳ ಬಳ್ಳಿ ಮತ್ತು ಸರಿಯಾದ ಸಮಯಕ್ಕೆ ಸರಿಯಾದ ಪ್ರಮಾಣದ ಗಿಣ್ಣುಹಾಲು — ಪಶುವೈದ್ಯರು ಬರುವ ಮೊದಲೇ ಕರುವಿಗೆ ಒಳ್ಳೆಯ ಭವಿಷ್ಯದ ಅವಕಾಶ ಸಿಗುತ್ತದೆ. ಏನು ಮಾಡಬೇಕು, ಯಾವಾಗ ಮಾಡಬೇಕು ಎಂಬುದನ್ನು ಈ ಪಾಠ ವಿವರವಾಗಿ ತೋರಿಸುತ್ತದೆ.",
+          "बछड़े की ज़िंदगी को असल में दो हिस्सों में बांटा जा सकता है: पहले 24 घंटे, और उसके बाद की पूरी ज़िंदगी। पहला दिन सही तरीके से निभाएं — साफ़ नाभि की नाल और सही समय पर सही मात्रा में खीस (पहला दूध) — तो डॉक्टर के आने से पहले ही आप बछड़े को एक अच्छी शुरुआत दे देते हैं। इस पाठ में बताया गया है कि क्या करना है, और कब करना है।"
         ),
       },
     ],
     topics: [
       {
         id: "t-m3-first-day",
-        title: L("Right After Birth: Breathing, the Navel Cord and the Golden Hour"),
+        title: L("Right After Birth: Breathing, the Navel Cord and the Golden Hour", "పుట్టిన వెంటనే: శ్వాస, బొడ్డు తాడు మరియు గోల్డెన్ అవర్", "பிறந்த உடனேயே: மூச்சு, தொப்புள் கொடி மற்றும் தங்க நேரம்", "ಹುಟ್ಟಿದ ತಕ್ಷಣ: ಉಸಿರಾಟ, ಹೊಕ್ಕುಳ ಬಳ್ಳಿ ಮತ್ತು ಚಿನ್ನದ ಗಂಟೆ", "जन्म के तुरंत बाद: सांस, नाभि की नाल और गोल्डन ऑवर"),
         teach: [
             {
               type: "photo",
               src: "assets/photo-cow-newborn-calf.jpg",
-              alt: L("A cow standing with her newborn calf just after birth"),
-              caption: L("A cow with her newborn calf right after birth."),
+              alt: L("A cow standing with her newborn calf just after birth", "పుట్టిన వెంటనే తన దూడతో నిలబడి ఉన్న ఆవు", "பிறந்த உடனேயே தன் கன்றுடன் நிற்கும் பசு", "ಹುಟ್ಟಿದ ತಕ್ಷಣ ತನ್ನ ಕರುವಿನೊಂದಿಗೆ ನಿಂತಿರುವ ಹಸು", "जन्म के तुरंत बाद अपने बछड़े के साथ खड़ी गाय"),
+              caption: L("A cow with her newborn calf right after birth.", "పుట్టిన వెంటనే తన దూడతో ఉన్న ఆవు.", "பிறந்த உடனேயே தன் கன்றுடன் இருக்கும் பசு.", "ಹುಟ್ಟಿದ ತಕ್ಷಣ ತನ್ನ ಕರುವಿನೊಂದಿಗೆ ಇರುವ ಹಸು.", "जन्म के तुरंत बाद अपने बछड़े के साथ गाय।"),
             },
           {
             type: "text",
-            heading: L("Why the First 24 Hours Matter So Much"),
+            heading: L("Why the First 24 Hours Matter So Much", "మొదటి 24 గంటలు ఎందుకు అంత ముఖ్యం", "முதல் 24 மணி நேரம் ஏன் இவ்வளவு முக்கியம்", "ಮೊದಲ 24 ಗಂಟೆಗಳು ಏಕೆ ಇಷ್ಟು ಮುಖ್ಯ", "पहले 24 घंटे इतने ज़रूरी क्यों हैं"),
             html: L(
-              "A calf that doesn't get proper care in its first 24 hours can end up sickly or a weak, underperforming animal for the rest of its life — even if it has good genes and a good environment later on. Almost none of this first-day care needs medical training. It needs someone who knows exactly what to do, and does it on time."
+              "A calf that doesn't get proper care in its first 24 hours can end up sickly or a weak, underperforming animal for the rest of its life — even if it has good genes and a good environment later on. Almost none of this first-day care needs medical training. It needs someone who knows exactly what to do, and does it on time.",
+              "మొదటి 24 గంటల్లో సరైన సంరక్షణ దొరకని దూడ, తర్వాత మంచి జన్యువులు, మంచి పరిసరాలు ఉన్నా కూడా జీవితాంతం బలహీనంగా, తక్కువ దిగుబడినిచ్చే జంతువుగా మిగిలిపోవచ్చు. ఈ మొదటి రోజు సంరక్షణలో దాదాపు దేనికీ వైద్య శిక్షణ అవసరం లేదు. ఏం చేయాలో ఖచ్చితంగా తెలిసి, సమయానికి చేసే వ్యక్తి కావాలి, అంతే.",
+              "முதல் 24 மணி நேரத்தில் சரியான பராமரிப்பு கிடைக்காத கன்று, பின்னர் நல்ல மரபணுக்கள், நல்ல சூழல் இருந்தாலும் கூட வாழ்நாள் முழுவதும் பலவீனமான, குறைவான உற்பத்தி தரும் விலங்காக மாறிவிடலாம். இந்த முதல்நாள் பராமரிப்பில் கிட்டத்தட்ட எதற்கும் மருத்துவப் பயிற்சி தேவையில்லை. என்ன செய்ய வேண்டும் என்பதை சரியாக அறிந்து, சரியான நேரத்தில் செய்பவர் தேவை, அவ்வளவுதான்.",
+              "ಮೊದಲ 24 ಗಂಟೆಗಳಲ್ಲಿ ಸರಿಯಾದ ಆರೈಕೆ ಸಿಗದ ಕರು, ಮುಂದೆ ಒಳ್ಳೆಯ ತಳಿ, ಒಳ್ಳೆಯ ಪರಿಸರ ಇದ್ದರೂ ಜೀವನಪೂರ್ತಿ ದುರ್ಬಲ, ಕಡಿಮೆ ಇಳುವರಿ ಕೊಡುವ ಪ್ರಾಣಿಯಾಗಿ ಉಳಿದುಬಿಡಬಹುದು. ಈ ಮೊದಲ ದಿನದ ಆರೈಕೆಗೆ ಬಹುತೇಕ ಯಾವುದೇ ವೈದ್ಯಕೀಯ ತರಬೇತಿ ಬೇಕಿಲ್ಲ. ಏನು ಮಾಡಬೇಕೆಂದು ಸರಿಯಾಗಿ ತಿಳಿದು, ಸಮಯಕ್ಕೆ ಸರಿಯಾಗಿ ಮಾಡುವ ವ್ಯಕ್ತಿ ಬೇಕು, ಅಷ್ಟೆ.",
+              "जिस बछड़े को पहले 24 घंटों में सही देखभाल नहीं मिलती, वह आगे चलकर अच्छी नस्ल और अच्छे माहौल के बावजूद भी जीवन भर कमज़ोर या कम दूध देने वाला जानवर बन सकता है। इस पहले दिन की देखभाल में लगभग कोई मेडिकल ट्रेनिंग नहीं चाहिए। बस यह पता होना चाहिए कि क्या करना है, और उसे समय पर करना है।"
             ),
           },
           {
             type: "callout",
             style: "tip",
-            heading: L("The Golden Hour"),
+            heading: L("The Golden Hour", "గోల్డెన్ అవర్", "தங்க நேரம்", "ಚಿನ್ನದ ಗಂಟೆ", "गोल्डन ऑवर"),
             text: L(
-              "The first hour after calving is the single most critical period in a calf's entire life. Whatever can be done for the calf in this window — clearing its airway, letting it be licked clean, getting the cord cared for — should not be delayed."
+              "The first hour after calving is the single most critical period in a calf's entire life. Whatever can be done for the calf in this window — clearing its airway, letting it be licked clean, getting the cord cared for — should not be delayed.",
+              "ఈనిన తర్వాత మొదటి గంట దూడ జీవితంలో అత్యంత కీలకమైన సమయం. ఈ సమయంలో దూడ కోసం చేయగలిగినవన్నీ — శ్వాసమార్గం శుభ్రం చేయడం, తల్లితో నాకించి శుభ్రం చేయించడం, బొడ్డు తాడును జాగ్రత్తగా చూసుకోవడం — ఆలస్యం చేయకూడదు.",
+              "ஈன்ற பிறகு முதல் மணி நேரம் கன்றின் வாழ்க்கையில் மிக முக்கியமான காலகட்டம். இந்த நேரத்தில் கன்றுக்காக செய்யக்கூடிய அனைத்தும் — மூச்சுக் குழாயை சுத்தம் செய்வது, தாய் நக்கி சுத்தப்படுத்த விடுவது, கொடியை கவனமாகக் கையாள்வது — தாமதப்படுத்தக் கூடாது.",
+              "ಈದ ನಂತರದ ಮೊದಲ ಗಂಟೆ ಕರುವಿನ ಜೀವನದ ಅತಿಮುಖ್ಯ ಅವಧಿ. ಈ ಸಮಯದಲ್ಲಿ ಕರುವಿಗಾಗಿ ಮಾಡಬಹುದಾದ ಎಲ್ಲವನ್ನೂ — ಉಸಿರಾಟದ ಮಾರ್ಗವನ್ನು ಸ್ವಚ್ಛಗೊಳಿಸುವುದು, ತಾಯಿಯಿಂದ ನೆಕ್ಕಿಸಿ ಸ್ವಚ್ಛಗೊಳಿಸುವುದು, ಹೊಕ್ಕುಳ ಬಳ್ಳಿಯನ್ನು ಆರೈಕೆ ಮಾಡುವುದು — ತಡಮಾಡಬಾರದು.",
+              "ब्याने के बाद पहला घंटा बछड़े की पूरी ज़िंदगी का सबसे महत्वपूर्ण समय होता है। इस दौरान बछड़े के लिए जो भी किया जा सकता है — उसका सांस लेने का रास्ता साफ़ करना, माँ से चटवाकर साफ़ करवाना, नाल की देखभाल करना — उसमें देरी नहीं करनी चाहिए।"
             ),
           },
           {
             type: "timeline",
-            heading: L("A Newborn Calf's First Day, Step by Step"),
+            heading: L("A Newborn Calf's First Day, Step by Step", "నవజాత దూడ మొదటి రోజు, దశలవారీగా", "புதிதாகப் பிறந்த கன்றின் முதல் நாள், படிப்படியாக", "ನವಜಾತ ಕರುವಿನ ಮೊದಲ ದಿನ, ಹಂತ ಹಂತವಾಗಿ", "नवजात बछड़े का पहला दिन, चरण दर चरण"),
             items: [
               {
-                year: L("Right after birth"),
+                year: L("Right after birth", "పుట్టిన వెంటనే", "பிறந்த உடனேயே", "ಹುಟ್ಟಿದ ತಕ್ಷಣ", "जन्म के तुरंत बाद"),
                 text: L(
-                  "Clean the calf's nostrils and mouth so it can breathe freely — this also helps prevent breathing problems later on. Let the mother lick the calf clean; this helps blood circulation and gets the calf ready to stand up and walk."
+                  "Clean the calf's nostrils and mouth so it can breathe freely — this also helps prevent breathing problems later on. Let the mother lick the calf clean; this helps blood circulation and gets the calf ready to stand up and walk.",
+                  "దూడ స్వేచ్ఛగా శ్వాస తీసుకునేలా దాని ముక్కు రంధ్రాలు మరియు నోటిని శుభ్రం చేయండి — దీనివల్ల తర్వాత శ్వాస సమస్యలు రాకుండా కూడా ఉంటుంది. తల్లితో దూడను నాకించి శుభ్రం చేయించండి; దీనివల్ల రక్త ప్రసరణ మెరుగవుతుంది, దూడ నిలబడి నడవడానికి సిద్ధమవుతుంది.",
+                  "கன்று சுதந்திரமாக மூச்சு விட முடியும்படி அதன் மூக்கு மற்றும் வாயை சுத்தம் செய்யுங்கள் — இது பின்னர் மூச்சுத் திணறல் பிரச்சனைகளையும் தடுக்க உதவும். தாயை கன்றை நக்கி சுத்தப்படுத்த விடுங்கள்; இது இரத்த ஓட்டத்திற்கு உதவி, கன்று எழுந்து நடக்க தயாராக்குகிறது.",
+                  "ಕರು ಸ್ವತಂತ್ರವಾಗಿ ಉಸಿರಾಡಲು ಅದರ ಮೂಗು ಮತ್ತು ಬಾಯಿಯನ್ನು ಸ್ವಚ್ಛಗೊಳಿಸಿ — ಇದು ಮುಂದೆ ಉಸಿರಾಟದ ತೊಂದರೆಗಳನ್ನೂ ತಡೆಯಲು ಸಹಾಯ ಮಾಡುತ್ತದೆ. ತಾಯಿಯಿಂದ ಕರುವನ್ನು ನೆಕ್ಕಿಸಿ ಸ್ವಚ್ಛಗೊಳಿಸಲು ಬಿಡಿ; ಇದು ರಕ್ತ ಸಂಚಾರಕ್ಕೆ ಸಹಾಯ ಮಾಡುತ್ತದೆ ಮತ್ತು ಕರು ಎದ್ದು ನಡೆಯಲು ಸಿದ್ಧವಾಗುತ್ತದೆ.",
+                  "बछड़े की नाक और मुंह को साफ़ करें ताकि वह खुलकर सांस ले सके — इससे आगे चलकर सांस की तकलीफ़ भी नहीं होती। माँ को बछड़े को चाटकर साफ़ करने दें; इससे खून का दौरा बेहतर होता है और बछड़ा खड़े होकर चलने के लिए तैयार होता है।"
                 ),
               },
               {
-                year: L("Soon after birth"),
+                year: L("Soon after birth", "పుట్టిన కొద్దిసేపటికే", "பிறந்த சிறிது நேரத்திலேயே", "ಹುಟ್ಟಿದ ಸ್ವಲ್ಪ ಸಮಯದಲ್ಲೇ", "जन्म के थोड़ी देर बाद"),
                 text: L(
-                  "The navel cord is cut about 2 inches from the base using a clean instrument, then dipped — not just smeared — in a 3.5% or higher iodine solution for at least 30 seconds, and the end is tied off with a clean thread."
+                  "The navel cord is cut about 2 inches from the base using a clean instrument, then dipped — not just smeared — in a 3.5% or higher iodine solution for at least 30 seconds, and the end is tied off with a clean thread.",
+                  "బొడ్డు తాడును శుభ్రమైన పరికరంతో మొదలు నుండి సుమారు 2 అంగుళాల దూరంలో కత్తిరించి, తర్వాత 3.5% లేదా అంతకంటే ఎక్కువ గాఢత గల అయోడిన్ ద్రావణంలో కనీసం 30 సెకన్లు — కేవలం రాయడం కాదు, పూర్తిగా — ముంచాలి. చివర్లో శుభ్రమైన దారంతో కట్టాలి.",
+                  "தொப்புள் கொடியை சுத்தமான கருவியால் அடிப்பாகத்திலிருந்து சுமார் 2 அங்குலம் தூரத்தில் வெட்டி, பின்னர் 3.5% அல்லது அதற்கு மேற்பட்ட அயோடின் கரைசலில் குறைந்தது 30 வினாடிகள் — வெறுமனே தடவுவது அல்ல, முழுமையாக — நனைக்க வேண்டும். முடிவில் சுத்தமான நூலால் கட்ட வேண்டும்.",
+                  "ಹೊಕ್ಕುಳ ಬಳ್ಳಿಯನ್ನು ಸ್ವಚ್ಛವಾದ ಉಪಕರಣದಿಂದ ಬುಡದಿಂದ ಸುಮಾರು 2 ಇಂಚು ದೂರದಲ್ಲಿ ಕತ್ತರಿಸಿ, ನಂತರ 3.5% ಅಥವಾ ಅದಕ್ಕಿಂತ ಹೆಚ್ಚಿನ ಸಾಂದ್ರತೆಯ ಅಯೋಡಿನ್ ದ್ರಾವಣದಲ್ಲಿ ಕನಿಷ್ಠ 30 ಸೆಕೆಂಡುಗಳ ಕಾಲ — ಕೇವಲ ಸವರುವುದಲ್ಲ, ಪೂರ್ತಿಯಾಗಿ — ಅದ್ದಬೇಕು. ಕೊನೆಯಲ್ಲಿ ಸ್ವಚ್ಛವಾದ ದಾರದಿಂದ ಕಟ್ಟಬೇಕು.",
+                  "नाभि की नाल को साफ़ औज़ार से जड़ से लगभग 2 इंच दूरी पर काटा जाता है, फिर उसे 3.5% या उससे ज़्यादा ताकत के आयोडीन घोल में कम से कम 30 सेकंड तक — सिर्फ़ लगाना नहीं, पूरी तरह — डुबोया जाता है, और आख़िर में साफ़ धागे से बांध दिया जाता है।"
                 ),
               },
               {
-                year: L("Within 12 hours"),
+                year: L("Within 12 hours", "12 గంటల్లోపు", "12 மணி நேரத்திற்குள்", "12 ಗಂಟೆಗಳ ಒಳಗೆ", "12 घंटे के भीतर"),
                 text: L(
-                  "The navel is dipped in iodine a second time. A navel that isn't cared for properly is a common gateway for serious infection."
+                  "The navel is dipped in iodine a second time. A navel that isn't cared for properly is a common gateway for serious infection.",
+                  "బొడ్డును రెండోసారి అయోడిన్‌లో ముంచాలి. సరిగ్గా చూసుకోని బొడ్డు తీవ్రమైన ఇన్ఫెక్షన్ రావడానికి సాధారణ మార్గం.",
+                  "தொப்புளை இரண்டாம் முறையாக அயோடினில் நனைக்க வேண்டும். சரியாக பராமரிக்கப்படாத தொப்புள் கடுமையான தொற்றுக்கு ஒரு பொதுவான வழி.",
+                  "ಹೊಕ್ಕುಳನ್ನು ಎರಡನೇ ಬಾರಿ ಅಯೋಡಿನ್‌ನಲ್ಲಿ ಅದ್ದಬೇಕು. ಸರಿಯಾಗಿ ಆರೈಕೆ ಮಾಡದ ಹೊಕ್ಕುಳ ಗಂಭೀರ ಸೋಂಕಿಗೆ ಸಾಮಾನ್ಯ ದಾರಿಯಾಗುತ್ತದೆ.",
+                  "नाभि को दूसरी बार आयोडीन में डुबोया जाता है। जिस नाभि की सही देखभाल नहीं होती, वह गंभीर संक्रमण का एक आम रास्ता बन जाती है।"
                 ),
               },
             ],
           },
           {
             type: "glossary",
-            term: L("Navel Cord"),
+            term: L("Navel Cord", "బొడ్డు తాడు", "தொப்புள் கொடி", "ಹೊಕ್ಕುಳ ಬಳ್ಳಿ", "नाभि की नाल"),
             meaning: L(
-              "The cord that connected the calf to its mother inside the womb. After birth it's cut short and cared for carefully, because the open end is an easy way for germs to get into the calf's body if it isn't cleaned and protected."
+              "The cord that connected the calf to its mother inside the womb. After birth it's cut short and cared for carefully, because the open end is an easy way for germs to get into the calf's body if it isn't cleaned and protected.",
+              "గర్భంలో ఉన్నప్పుడు దూడను తల్లితో కలిపి ఉంచిన తాడు. పుట్టిన తర్వాత దీన్ని కుదించి కత్తిరించి జాగ్రత్తగా చూసుకోవాలి, ఎందుకంటే శుభ్రం చేసి రక్షించకపోతే తెరిచిన చివర ద్వారా క్రిములు దూడ శరీరంలోకి సులభంగా ప్రవేశించగలవు.",
+                  "கருவறையில் இருக்கும்போது கன்றை தாயுடன் இணைத்திருந்த கொடி. பிறந்த பிறகு இதை குறுக்கி வெட்டி கவனமாக பராமரிக்க வேண்டும், ஏனெனில் சுத்தம் செய்து பாதுகாக்காவிட்டால் திறந்த முனை வழியாக கிருமிகள் கன்றின் உடலுக்குள் எளிதாக நுழையக்கூடும்.",
+              "ಗರ್ಭದಲ್ಲಿದ್ದಾಗ ಕರುವನ್ನು ತಾಯಿಯೊಂದಿಗೆ ಜೋಡಿಸಿದ್ದ ಬಳ್ಳಿ. ಹುಟ್ಟಿದ ನಂತರ ಇದನ್ನು ಚಿಕ್ಕದಾಗಿ ಕತ್ತರಿಸಿ ಎಚ್ಚರಿಕೆಯಿಂದ ಆರೈಕೆ ಮಾಡಬೇಕು, ಏಕೆಂದರೆ ಸ್ವಚ್ಛಗೊಳಿಸದೆ ಮತ್ತು ರಕ್ಷಿಸದೆ ಇದ್ದರೆ ತೆರೆದ ತುದಿಯ ಮೂಲಕ ಸೂಕ್ಷ್ಮಜೀವಿಗಳು ಕರುವಿನ ದೇಹಕ್ಕೆ ಸುಲಭವಾಗಿ ಸೇರಿಕೊಳ್ಳಬಹುದು.",
+              "गर्भ में रहते हुए बछड़े को माँ से जोड़ने वाली नाल। जन्म के बाद इसे छोटा काटकर सावधानी से देखभाल की जाती है, क्योंकि अगर इसे साफ़ रखकर सुरक्षित न किया जाए तो खुला सिरा कीटाणुओं के बछड़े के शरीर में घुसने का आसान रास्ता बन जाता है।"
             ),
           },
           {
             type: "stat-grid",
             items: [
               {
-                label: L("Cut Distance"),
-                text: L("About 2 inches from the base, using a clean instrument."),
+                label: L("Cut Distance", "కత్తిరించే దూరం", "வெட்டும் தூரம்", "ಕತ್ತರಿಸುವ ದೂರ", "काटने की दूरी"),
+                text: L("About 2 inches from the base, using a clean instrument.", "మొదలు నుండి సుమారు 2 అంగుళాలు, శుభ్రమైన పరికరంతో.", "அடிப்பாகத்திலிருந்து சுமார் 2 அங்குலம், சுத்தமான கருவியால்.", "ಬುಡದಿಂದ ಸುಮಾರು 2 ಇಂಚು, ಸ್ವಚ್ಛವಾದ ಉಪಕರಣದಿಂದ.", "जड़ से लगभग 2 इंच, साफ़ औज़ार से।"),
               },
               {
-                label: L("Iodine Strength & Contact Time"),
-                text: L("3.5% or higher tincture of iodine, held in contact for at least 30 seconds — a quick smear is not enough."),
+                label: L("Iodine Strength & Contact Time", "అయోడిన్ గాఢత & సంపర్క సమయం", "அயோடின் அளவு & தொடர்பு நேரம்", "ಅಯೋಡಿನ್ ಸಾಂದ್ರತೆ ಮತ್ತು ಸಂಪರ್ಕ ಸಮಯ", "आयोडीन की ताकत और संपर्क समय"),
+                text: L("3.5% or higher tincture of iodine, held in contact for at least 30 seconds — a quick smear is not enough.", "3.5% లేదా అంతకంటే ఎక్కువ గాఢత గల టింక్చర్ అయోడిన్, కనీసం 30 సెకన్లు తగలాలి — కేవలం రాయడం సరిపోదు.", "3.5% அல்லது அதற்கு மேற்பட்ட அயோடின் திரவம், குறைந்தது 30 வினாடிகள் தொடர்பில் இருக்க வேண்டும் — வேகமாக தடவுவது போதாது.", "3.5% ಅಥವಾ ಅದಕ್ಕಿಂತ ಹೆಚ್ಚಿನ ಸಾಂದ್ರತೆಯ ಟಿಂಚರ್ ಅಯೋಡಿನ್, ಕನಿಷ್ಠ 30 ಸೆಕೆಂಡುಗಳ ಕಾಲ ಸಂಪರ್ಕದಲ್ಲಿರಬೇಕು — ಬರೀ ಸವರುವುದು ಸಾಕಾಗುವುದಿಲ್ಲ.", "3.5% या उससे ज़्यादा ताकत का टिंचर आयोडीन, कम से कम 30 सेकंड तक लगा रहना चाहिए — सिर्फ़ हल्का लगाना काफ़ी नहीं है।"),
               },
               {
-                label: L("Second Dip"),
-                text: L("Repeat the iodine dip after 12 hours."),
+                label: L("Second Dip", "రెండోసారి ముంచడం", "இரண்டாவது நனைத்தல்", "ಎರಡನೇ ಬಾರಿ ಅದ್ದುವುದು", "दूसरी बार डुबाना"),
+                text: L("Repeat the iodine dip after 12 hours.", "12 గంటల తర్వాత అయోడిన్‌లో మళ్ళీ ముంచాలి.", "12 மணி நேரம் கழித்து அயோடினில் மீண்டும் நனைக்கவும்.", "12 ಗಂಟೆಗಳ ನಂತರ ಅಯೋಡಿನ್‌ನಲ್ಲಿ ಮತ್ತೆ ಅದ್ದಿ.", "12 घंटे बाद आयोडीन में फिर से डुबोएं।"),
               },
             ],
           },
           {
             type: "callout",
             style: "warning",
-            heading: L("A Poorly Cared-For Navel Invites Infection"),
+            heading: L("A Poorly Cared-For Navel Invites Infection", "సరిగ్గా చూసుకోని బొడ్డు ఇన్ఫెక్షన్‌ను ఆహ్వానిస్తుంది", "சரியாக பராமரிக்கப்படாத தொப்புள் தொற்றை அழைக்கிறது", "ಸರಿಯಾಗಿ ಆರೈಕೆ ಮಾಡದ ಹೊಕ್ಕುಳ ಸೋಂಕನ್ನು ಆಹ್ವಾನಿಸುತ್ತದೆ", "ठीक से देखभाल न की गई नाभि संक्रमण को न्योता देती है"),
             text: L(
-              "You don't need to treat an infected navel yourself — that's the vet's job. But you do need to notice one. If a calf's navel looks wet, swollen, unusually large, or smells bad in the days after birth, report it to the owner or vet right away."
+              "You don't need to treat an infected navel yourself — that's the vet's job. But you do need to notice one. If a calf's navel looks wet, swollen, unusually large, or smells bad in the days after birth, report it to the owner or vet right away.",
+              "ఇన్ఫెక్షన్ వచ్చిన బొడ్డును మీరే స్వయంగా చికిత్స చేయాల్సిన అవసరం లేదు — అది వెటర్నరీ డాక్టర్ పని. కానీ దాన్ని గుర్తించడం మీ పని. పుట్టిన తర్వాత రోజుల్లో దూడ బొడ్డు తడిగా, వాచినట్టు, అసాధారణంగా పెద్దగా కనిపిస్తే లేదా దుర్వాసన వస్తే వెంటనే యజమానికి లేదా వెటర్నరీ డాక్టర్‌కి తెలియజేయండి.",
+              "தொற்று ஏற்பட்ட தொப்புளுக்கு நீங்களே சிகிச்சை அளிக்க வேண்டியதில்லை — அது வெட்டரினரி டாக்டரின் வேலை. ஆனால் அதை கவனிப்பது உங்கள் வேலை. பிறந்த நாட்களில் கன்றின் தொப்புள் ஈரமாக, வீங்கி, அசாதாரணமாக பெரிதாக தெரிந்தால் அல்லது துர்நாற்றம் வீசினால், உடனே உரிமையாளரிடம் அல்லது வெட்டரினரி டாக்டரிடம் தெரிவிக்கவும்.",
+              "ಸೋಂಕಿತ ಹೊಕ್ಕುಳಿಗೆ ನೀವೇ ಚಿಕಿತ್ಸೆ ನೀಡಬೇಕಿಲ್ಲ — ಅದು ಪಶುವೈದ್ಯರ ಕೆಲಸ. ಆದರೆ ಅದನ್ನು ಗಮನಿಸುವುದು ನಿಮ್ಮ ಕೆಲಸ. ಹುಟ್ಟಿದ ನಂತರದ ದಿನಗಳಲ್ಲಿ ಕರುವಿನ ಹೊಕ್ಕುಳ ಒದ್ದೆಯಾಗಿ, ಊದಿಕೊಂಡು, ಅಸಾಧಾರಣವಾಗಿ ದೊಡ್ಡದಾಗಿ ಕಂಡರೆ ಅಥವಾ ದುರ್ವಾಸನೆ ಬಂದರೆ, ತಕ್ಷಣ ಮಾಲೀಕರಿಗೆ ಅಥವಾ ಪಶುವೈದ್ಯರಿಗೆ ತಿಳಿಸಿ.",
+              "संक्रमित नाभि का इलाज आपको खुद नहीं करना है — यह डॉक्टर का काम है। लेकिन उसे पहचानना आपका काम है। अगर जन्म के बाद के दिनों में बछड़े की नाभि गीली, सूजी हुई, असामान्य रूप से बड़ी दिखे, या उससे बदबू आए, तो तुरंत मालिक या डॉक्टर को बताएं।"
             ),
           },
         ],
         check: [
           {
             type: "mcq",
-            q: L("About how far from the base should the navel cord be cut?"),
+            q: L("About how far from the base should the navel cord be cut?", "బొడ్డు తాడును మొదలు నుండి ఎంత దూరంలో కత్తిరించాలి?", "தொப்புள் கொடியை அடிப்பாகத்திலிருந்து எவ்வளவு தூரத்தில் வெட்ட வேண்டும்?", "ಹೊಕ್ಕುಳ ಬಳ್ಳಿಯನ್ನು ಬುಡದಿಂದ ಎಷ್ಟು ದೂರದಲ್ಲಿ ಕತ್ತರಿಸಬೇಕು?", "नाभि की नाल को जड़ से कितनी दूरी पर काटना चाहिए?"),
             options: [
-              L("Right at the base, leaving nothing"),
-              L("About 2 inches from the base"),
-              L("About 10 inches from the base"),
-              L("It should never be cut"),
+              L("Right at the base, leaving nothing", "మొదటి దగ్గరే, ఏమీ మిగలకుండా", "அடிப்பாகத்திலேயே, எதுவும் மிச்சம் வைக்காமல்", "ಬುಡದಲ್ಲೇ, ಏನನ್ನೂ ಬಿಡದೆ", "बिल्कुल जड़ से, कुछ भी छोड़े बिना"),
+              L("About 2 inches from the base", "మొదలు నుండి సుమారు 2 అంగుళాలు", "அடிப்பாகத்திலிருந்து சுமார் 2 அங்குலம்", "ಬುಡದಿಂದ ಸುಮಾರು 2 ಇಂಚು", "जड़ से लगभग 2 इंच"),
+              L("About 10 inches from the base", "మొదలు నుండి సుమారు 10 అంగుళాలు", "அடிப்பாகத்திலிருந்து சுமார் 10 அங்குலம்", "ಬುಡದಿಂದ ಸುಮಾರು 10 ಇಂಚು", "जड़ से लगभग 10 इंच"),
+              L("It should never be cut", "దీన్ని ఎప్పుడూ కత్తిరించకూడదు", "இதை ஒருபோதும் வெட்டக்கூடாது", "ಇದನ್ನು ಎಂದಿಗೂ ಕತ್ತರಿಸಬಾರದು", "इसे कभी नहीं काटना चाहिए"),
             ],
             answer: 1,
-            explain: L("The cord is cut with a clean instrument about 2 inches from the base, then dipped in iodine and tied off."),
+            explain: L("The cord is cut with a clean instrument about 2 inches from the base, then dipped in iodine and tied off.", "తాడును శుభ్రమైన పరికరంతో మొదలు నుండి సుమారు 2 అంగుళాల దూరంలో కత్తిరించి, తర్వాత అయోడిన్‌లో ముంచి కట్టివేస్తారు.", "கொடியை சுத்தமான கருவியால் அடிப்பாகத்திலிருந்து சுமார் 2 அங்குலம் தூரத்தில் வெட்டி, பின்னர் அயோடினில் நனைத்து கட்டப்படுகிறது.", "ಬಳ್ಳಿಯನ್ನು ಸ್ವಚ್ಛವಾದ ಉಪಕರಣದಿಂದ ಬುಡದಿಂದ ಸುಮಾರು 2 ಇಂಚು ದೂರದಲ್ಲಿ ಕತ್ತರಿಸಿ, ನಂತರ ಅಯೋಡಿನ್‌ನಲ್ಲಿ ಅದ್ದಿ ಕಟ್ಟಲಾಗುತ್ತದೆ.", "नाल को साफ़ औज़ार से जड़ से लगभग 2 इंच दूरी पर काटा जाता है, फिर आयोडीन में डुबोकर बांध दिया जाता है।"),
           },
           {
             type: "truefalse",
-            q: L("The navel only needs to be dipped in iodine once, right after the cord is cut."),
+            q: L("The navel only needs to be dipped in iodine once, right after the cord is cut.", "నాల కత్తిరించిన వెంటనే బొడ్డును ఒకసారి మాత్రమే అయోడిన్‌లో ముంచితే సరిపోతుంది.", "கொடியை வெட்டிய உடனேயே தொப்புளை ஒரே ஒரு முறை மட்டும் அயோடினில் நனைத்தால் போதும்.", "ಬಳ್ಳಿಯನ್ನು ಕತ್ತರಿಸಿದ ತಕ್ಷಣ ಹೊಕ್ಕುಳನ್ನು ಒಮ್ಮೆ ಮಾತ್ರ ಅಯೋಡಿನ್‌ನಲ್ಲಿ ಅದ್ದಿದರೆ ಸಾಕು.", "नाल काटने के तुरंत बाद नाभि को सिर्फ़ एक बार आयोडीन में डुबोना ही काफ़ी है।"),
             answer: false,
             explain: L(
-              "No — the navel is dipped again after 12 hours. A poorly maintained navel is a common gateway to serious infection, so it gets checked and cared for more than once."
+              "No — the navel is dipped again after 12 hours. A poorly maintained navel is a common gateway to serious infection, so it gets checked and cared for more than once.",
+              "కాదు — 12 గంటల తర్వాత బొడ్డును మళ్ళీ ముంచాలి. సరిగ్గా చూసుకోని బొడ్డు తీవ్రమైన ఇన్ఫెక్షన్‌కు సాధారణ మార్గం కాబట్టి, దాన్ని ఒక్కసారి కంటే ఎక్కువసార్లు పరిశీలించి చూసుకోవాలి.",
+              "இல்லை — 12 மணி நேரம் கழித்து தொப்புளை மீண்டும் நனைக்க வேண்டும். சரியாக பராமரிக்கப்படாத தொப்புள் கடுமையான தொற்றுக்கு பொதுவான வழி என்பதால், அதை ஒரு முறைக்கு மேல் சரிபார்த்து பராமரிக்க வேண்டும்.",
+              "ಇಲ್ಲ — 12 ಗಂಟೆಗಳ ನಂತರ ಹೊಕ್ಕುಳನ್ನು ಮತ್ತೆ ಅದ್ದಬೇಕು. ಸರಿಯಾಗಿ ಆರೈಕೆ ಮಾಡದ ಹೊಕ್ಕುಳ ಗಂಭೀರ ಸೋಂಕಿಗೆ ಸಾಮಾನ್ಯ ದಾರಿಯಾಗಿರುವುದರಿಂದ, ಅದನ್ನು ಒಮ್ಮೆಗಿಂತ ಹೆಚ್ಚು ಬಾರಿ ಪರಿಶೀಲಿಸಿ ಆರೈಕೆ ಮಾಡಬೇಕು.",
+              "नहीं — 12 घंटे बाद नाभि को फिर से डुबोया जाता है। जिस नाभि की सही देखभाल नहीं होती, वह गंभीर संक्रमण का आम रास्ता बन जाती है, इसलिए इसे एक बार से ज़्यादा जांचकर देखभाल की जाती है।"
             ),
           },
         ],
       },
       {
         id: "t-m3-colostrum",
-        title: L("Colostrum: The Calf's Passport to Life"),
+        title: L("Colostrum: The Calf's Passport to Life", "జున్ను: దూడ జీవితానికి పాస్‌పోర్ట్", "கொழுந்து பால்: கன்றின் வாழ்க்கைக்கான பாஸ்போர்ட்", "ಗಿಣ್ಣುಹಾಲು: ಕರುವಿನ ಜೀವನಕ್ಕೆ ಪಾಸ್‌ಪೋರ್ಟ್", "खीस: बछड़े की ज़िंदगी का पासपोर्ट"),
         teach: [
             {
               type: "photo",
               src: "assets/photo-m3-colostrum.jpg",
-              alt: L("A man crouches and holds up a bottle so a young calf can drink milk from it"),
-              caption: L("Hand-feeding a calf with a bottle — the reliable way to make sure it actually gets the colostrum it needs, rather than hoping it nurses enough on its own."),
+              alt: L("A man crouches and holds up a bottle so a young calf can drink milk from it", "ఒక వ్యక్తి కూర్చుని చిన్న దూడకు పాలు తాగించడానికి బాటిల్ పట్టుకుని ఉన్నాడు", "ஒரு நபர் குனிந்து ஒரு இளம் கன்று பாட்டிலில் இருந்து பால் குடிக்க வைத்திருக்கிறார்", "ಒಬ್ಬ ವ್ಯಕ್ತಿ ಬಗ್ಗಿ ಎಳೆಯ ಕರುವಿಗೆ ಬಾಟಲಿಯಿಂದ ಹಾಲು ಕುಡಿಸಲು ಹಿಡಿದಿದ್ದಾನೆ", "एक आदमी झुककर बोतल पकड़े हुए है ताकि छोटा बछड़ा उससे दूध पी सके"),
+              caption: L("Hand-feeding a calf with a bottle — the reliable way to make sure it actually gets the colostrum it needs, rather than hoping it nurses enough on its own.", "బాటిల్‌తో దూడకు స్వయంగా పాలు తాగించడం — దూడకు కావాల్సినంత జున్ను అందుతుందని నమ్మకంగా చెప్పగలిగే మార్గం, తనంత తానే తగినంత తాగుతుందని ఆశించడం కాదు.", "பாட்டிலால் கன்றுக்கு கையால் பால் கொடுப்பது — கன்று தானாகவே போதுமான அளவு குடிக்கும் என நம்புவதை விட, அது தேவையான கொழுந்து பாலை நிச்சயமாகப் பெறுவதற்கான நம்பகமான வழி.", "ಬಾಟಲಿಯಿಂದ ಕರುವಿಗೆ ಕೈಯಾರೆ ಹಾಲುಣಿಸುವುದು — ಕರು ತಾನಾಗಿಯೇ ಸಾಕಷ್ಟು ಕುಡಿಯುತ್ತದೆ ಎಂದು ನಂಬುವ ಬದಲು, ಅದಕ್ಕೆ ಬೇಕಾದ ಗಿಣ್ಣುಹಾಲು ಖಚಿತವಾಗಿ ಸಿಗುವಂತೆ ಮಾಡುವ ವಿಶ್ವಾಸಾರ್ಹ ವಿಧಾನ.", "बोतल से बछड़े को हाथ से दूध पिलाना — यह पक्का करने का भरोसेमंद तरीका है कि उसे ज़रूरत भर खीस मिले, बजाय इसके कि वह खुद अपने आप पर्याप्त पी लेगा, ऐसा मान लिया जाए।"),
             },
           {
             type: "text",
-            heading: L("What Is Colostrum, and Why Can't It Wait?"),
+            heading: L("What Is Colostrum, and Why Can't It Wait?", "జున్ను అంటే ఏమిటి, ఎందుకు ఆలస్యం చేయకూడదు?", "கொழுந்து பால் என்றால் என்ன, ஏன் காத்திருக்க முடியாது?", "ಗಿಣ್ಣುಹಾಲು ಎಂದರೇನು, ಏಕೆ ಕಾಯಬಾರದು?", "खीस क्या है, और इसमें देरी क्यों नहीं करनी चाहिए?"),
             html: L(
-              "Right after giving birth, a mother produces a thick, special first milk that is very different from her regular milk. This is <b>colostrum</b>, and it carries protection against disease that the calf's own body cannot yet make for itself. That protection only transfers properly if colostrum is given early — the window closes fast."
+              "Right after giving birth, a mother produces a thick, special first milk that is very different from her regular milk. This is <b>colostrum</b>, and it carries protection against disease that the calf's own body cannot yet make for itself. That protection only transfers properly if colostrum is given early — the window closes fast.",
+              "ఈనిన వెంటనే, తల్లి తన సాధారణ పాల కంటే చాలా భిన్నమైన చిక్కటి, ప్రత్యేకమైన మొదటి పాలను ఉత్పత్తి చేస్తుంది. దీన్నే <b>జున్ను (కొలొస్ట్రమ్)</b> అంటారు, ఇది దూడ శరీరం ఇంకా తయారు చేయలేని వ్యాధి నిరోధక శక్తిని కలిగి ఉంటుంది. జున్నును త్వరగా ఇస్తేనే ఈ రక్షణ సరిగ్గా బదిలీ అవుతుంది — ఈ అవకాశం త్వరగా మూసుకుపోతుంది.",
+              "ஈன்ற உடனேயே, தாய் தன் வழக்கமான பாலிலிருந்து மிகவும் வேறுபட்ட கெட்டியான, சிறப்பு முதல் பாலை உற்பத்தி செய்கிறது. இதுவே <b>கொழுந்து பால்</b>, இது கன்றின் சொந்த உடல் இன்னும் தயாரிக்க முடியாத நோய் எதிர்ப்பு சக்தியை கொண்டுள்ளது. கொழுந்து பாலை சீக்கிரம் கொடுத்தால் மட்டுமே இந்த பாதுகாப்பு சரியாக மாற்றப்படும் — இந்த வாய்ப்பு விரைவாக மூடிவிடும்.",
+              "ಈದ ತಕ್ಷಣ, ತಾಯಿ ತನ್ನ ಸಾಮಾನ್ಯ ಹಾಲಿಗಿಂತ ತುಂಬಾ ಭಿನ್ನವಾದ ದಪ್ಪವಾದ, ವಿಶೇಷ ಮೊದಲ ಹಾಲನ್ನು ಉತ್ಪಾದಿಸುತ್ತದೆ. ಇದೇ <b>ಗಿಣ್ಣುಹಾಲು</b>, ಇದು ಕರುವಿನ ದೇಹ ಇನ್ನೂ ತಯಾರಿಸಲಾಗದ ರೋಗ ನಿರೋಧಕ ಶಕ್ತಿಯನ್ನು ಹೊಂದಿದೆ. ಗಿಣ್ಣುಹಾಲನ್ನು ಬೇಗನೆ ಕೊಟ್ಟರೆ ಮಾತ್ರ ಈ ರಕ್ಷಣೆ ಸರಿಯಾಗಿ ವರ್ಗಾವಣೆಯಾಗುತ್ತದೆ — ಈ ಅವಕಾಶ ಬೇಗನೆ ಮುಚ್ಚಿಹೋಗುತ್ತದೆ.",
+              "ब्याने के तुरंत बाद, माँ अपने सामान्य दूध से बिल्कुल अलग एक गाढ़ा, खास पहला दूध बनाती है। इसे ही <b>खीस</b> कहते हैं, और इसमें बीमारियों से बचाव की ऐसी ताकत होती है जो बछड़े का अपना शरीर अभी तक नहीं बना सकता। यह सुरक्षा तभी सही तरीके से मिलती है जब खीस जल्दी दिया जाए — यह मौका तेज़ी से बंद हो जाता है।"
             ),
           },
           {
             type: "glossary",
-            term: L("Colostrum"),
+            term: L("Colostrum", "జున్ను (కొలొస్ట్రమ్)", "கொழுந்து பால்", "ಗಿಣ್ಣುಹಾಲು", "खीस"),
             meaning: L(
-              "The first, thick milk a mother cow or buffalo produces right after giving birth. Unlike regular milk, it is full of protection (antibodies) that helps the calf fight off disease — protection the calf's own body cannot yet make on its own."
+              "The first, thick milk a mother cow or buffalo produces right after giving birth. Unlike regular milk, it is full of protection (antibodies) that helps the calf fight off disease — protection the calf's own body cannot yet make on its own.",
+              "ఈనిన వెంటనే ఆవు లేదా గేదె ఉత్పత్తి చేసే మొదటి, చిక్కటి పాలు. సాధారణ పాల కంటే భిన్నంగా, ఇందులో దూడకు వ్యాధులతో పోరాడేందుకు సహాయపడే రక్షణ (యాంటీబాడీలు) పుష్కలంగా ఉంటుంది — ఈ రక్షణను దూడ శరీరం ఇంకా స్వయంగా తయారు చేయలేదు.",
+              "ஈன்ற உடனேயே பசு அல்லது எருமை உற்பத்தி செய்யும் முதல், கெட்டியான பால். வழக்கமான பாலைப் போலல்லாமல், இது கன்று நோய்களை எதிர்த்துப் போராட உதவும் பாதுகாப்பால் (ஆன்டிபாடிகள்) நிறைந்துள்ளது — இந்த பாதுகாப்பை கன்றின் சொந்த உடல் இன்னும் தானாக தயாரிக்க முடியாது.",
+              "ಈದ ತಕ್ಷಣ ಹಸು ಅಥವಾ ಎಮ್ಮೆ ಉತ್ಪಾದಿಸುವ ಮೊದಲ, ದಪ್ಪವಾದ ಹಾಲು. ಸಾಮಾನ್ಯ ಹಾಲಿಗಿಂತ ಭಿನ್ನವಾಗಿ, ಇದು ಕರುವಿಗೆ ರೋಗಗಳ ವಿರುದ್ಧ ಹೋರಾಡಲು ಸಹಾಯ ಮಾಡುವ ರಕ್ಷಣೆಯಿಂದ (ಆಂಟಿಬಾಡಿಗಳಿಂದ) ತುಂಬಿರುತ್ತದೆ — ಈ ರಕ್ಷಣೆಯನ್ನು ಕರುವಿನ ದೇಹ ಇನ್ನೂ ತಾನಾಗಿಯೇ ತಯಾರಿಸಲಾರದು.",
+              "ब्याने के तुरंत बाद गाय या भैंस का बनाया पहला, गाढ़ा दूध। सामान्य दूध के उलट, इसमें बीमारियों से लड़ने में मदद करने वाली सुरक्षा (एंटीबॉडी) भरपूर होती है — यह सुरक्षा बछड़े का अपना शरीर अभी खुद नहीं बना सकता।"
             ),
           },
           {
             type: "stat-grid",
             items: [
               {
-                label: L("Within 2 hours of birth"),
-                text: L("Give the calf 2 litres of colostrum."),
+                label: L("Within 2 hours of birth", "పుట్టిన 2 గంటల్లోపు", "பிறந்த 2 மணி நேரத்திற்குள்", "ಹುಟ್ಟಿದ 2 ಗಂಟೆಗಳ ಒಳಗೆ", "जन्म के 2 घंटे के भीतर"),
+                text: L("Give the calf 2 litres of colostrum.", "దూడకు 2 లీటర్ల జున్ను ఇవ్వండి.", "கன்றுக்கு 2 லிட்டர் கொழுந்து பால் கொடுங்கள்.", "ಕರುವಿಗೆ 2 ಲೀಟರ್ ಗಿಣ್ಣುಹಾಲು ಕೊಡಿ.", "बछड़े को 2 लीटर खीस पिलाएं।"),
               },
               {
-                label: L("Within 12 hours of birth"),
-                text: L("Give another 1–2 litres, depending on the calf's size."),
+                label: L("Within 12 hours of birth", "పుట్టిన 12 గంటల్లోపు", "பிறந்த 12 மணி நேரத்திற்குள்", "ಹುಟ್ಟಿದ 12 ಗಂಟೆಗಳ ಒಳಗೆ", "जन्म के 12 घंटे के भीतर"),
+                text: L("Give another 1–2 litres, depending on the calf's size.", "దూడ పరిమాణాన్ని బట్టి మరో 1–2 లీటర్లు ఇవ్వండి.", "கன்றின் அளவைப் பொறுத்து மேலும் 1–2 லிட்டர் கொடுங்கள்.", "ಕರುವಿನ ಗಾತ್ರಕ್ಕೆ ಅನುಗುಣವಾಗಿ ಇನ್ನೂ 1–2 ಲೀಟರ್ ಕೊಡಿ.", "बछड़े के आकार के हिसाब से 1–2 लीटर और पिलाएं।"),
               },
               {
-                label: L("After 24 hours"),
-                text: L("Feeding colostrum this late may no longer help protect the calf."),
+                label: L("After 24 hours", "24 గంటల తర్వాత", "24 மணி நேரத்திற்குப் பிறகு", "24 ಗಂಟೆಗಳ ನಂತರ", "24 घंटे बाद"),
+                text: L("Feeding colostrum this late may no longer help protect the calf.", "ఇంత ఆలస్యంగా జున్ను ఇస్తే దూడకు రక్షణ ఇవ్వకపోవచ్చు.", "இவ்வளவு தாமதமாக கொழுந்து பால் கொடுத்தால் கன்றுக்கு பாதுகாப்பு கிடைக்காமல் போகலாம்.", "ಇಷ್ಟು ತಡವಾಗಿ ಗಿಣ್ಣುಹಾಲು ಕೊಟ್ಟರೆ ಕರುವಿಗೆ ರಕ್ಷಣೆ ಸಿಗದೇ ಹೋಗಬಹುದು.", "इतनी देर से खीस पिलाने पर बछड़े को सुरक्षा नहीं मिल पाती।"),
               },
               {
-                label: L("Ongoing protection"),
-                text: L("Enough colostrum in these early hours protects the calf from disease through its first three months of life."),
+                label: L("Ongoing protection", "కొనసాగే రక్షణ", "தொடர் பாதுகாப்பு", "ಮುಂದುವರಿಯುವ ರಕ್ಷಣೆ", "आगे तक चलने वाली सुरक्षा"),
+                text: L("Enough colostrum in these early hours protects the calf from disease through its first three months of life.", "ఈ తొలి గంటల్లో తగినంత జున్ను తీసుకుంటే, దూడ మొదటి మూడు నెలల జీవితంలో వ్యాధుల నుండి రక్షణ పొందుతుంది.", "இந்த ஆரம்ப மணி நேரங்களில் போதுமான கொழுந்து பால் கிடைத்தால், கன்று அதன் முதல் மூன்று மாத வாழ்க்கையில் நோய்களிலிருந்து பாதுகாக்கப்படும்.", "ಈ ಆರಂಭಿಕ ಗಂಟೆಗಳಲ್ಲಿ ಸಾಕಷ್ಟು ಗಿಣ್ಣುಹಾಲು ಸಿಕ್ಕರೆ, ಕರುವಿನ ಮೊದಲ ಮೂರು ತಿಂಗಳ ಜೀವನದಲ್ಲಿ ರೋಗಗಳಿಂದ ರಕ್ಷಣೆ ಸಿಗುತ್ತದೆ.", "इन शुरुआती घंटों में पर्याप्त खीस मिलने से बछड़ा अपनी ज़िंदगी के पहले तीन महीनों तक बीमारियों से सुरक्षित रहता है।"),
               },
             ],
           },
           {
             type: "callout",
             style: "warning",
-            heading: L("Don't Rely on the Calf Nursing by Itself"),
+            heading: L("Don't Rely on the Calf Nursing by Itself", "దూడ తనంతట తానే తాగుతుందని నమ్మకపడకండి", "கன்று தானாகவே பால் குடிக்கும் என்று நம்பாதீர்கள்", "ಕರು ತಾನಾಗಿಯೇ ಹಾಲು ಕುಡಿಯುತ್ತದೆ ಎಂದು ನಂಬಬೇಡಿ", "बछड़े के खुद पी लेने पर भरोसा न करें"),
             text: L(
-              "Many calves don't nurse enough colostrum from their mother on their own in the first few hours, so they may end up without enough protection. That's why hand-feeding colostrum is recommended — it's the only way to be sure exactly how much an individual calf has actually received."
+              "Many calves don't nurse enough colostrum from their mother on their own in the first few hours, so they may end up without enough protection. That's why hand-feeding colostrum is recommended — it's the only way to be sure exactly how much an individual calf has actually received.",
+              "చాలా దూడలు మొదటి కొన్ని గంటల్లో తల్లి నుండి తనంతట తానే తగినంత జున్ను తాగలేవు, దీనివల్ల తగినంత రక్షణ లేకుండా మిగిలిపోవచ్చు. అందుకే జున్నును చేతితో పట్టుకుని బాటిల్ లేదా పాత్రతో తాగించడం మంచిది — ఒక్కో దూడ ఎంత తాగిందో ఖచ్చితంగా తెలుసుకోగల ఏకైక మార్గం ఇదే.",
+              "பல கன்றுகள் முதல் சில மணி நேரங்களில் தாயிடமிருந்து தானாகவே போதுமான கொழுந்து பாலை குடிக்காமல் போகின்றன, இதனால் போதுமான பாதுகாப்பு இல்லாமல் இருக்கலாம். அதனால்தான் கையால் கொழுந்து பால் கொடுப்பது பரிந்துரைக்கப்படுகிறது — ஒவ்வொரு கன்றும் சரியாக எவ்வளவு பெற்றது என்பதை உறுதிப்படுத்தும் ஒரே வழி இதுதான்.",
+              "ಅನೇಕ ಕರುಗಳು ಮೊದಲ ಕೆಲವು ಗಂಟೆಗಳಲ್ಲಿ ತಾಯಿಯಿಂದ ತಾವಾಗಿಯೇ ಸಾಕಷ್ಟು ಗಿಣ್ಣುಹಾಲು ಕುಡಿಯುವುದಿಲ್ಲ, ಇದರಿಂದ ಸಾಕಷ್ಟು ರಕ್ಷಣೆ ಸಿಗದೇ ಹೋಗಬಹುದು. ಅದಕ್ಕಾಗಿಯೇ ಕೈಯಾರೆ ಗಿಣ್ಣುಹಾಲು ಕುಡಿಸುವುದನ್ನು ಶಿಫಾರಸು ಮಾಡಲಾಗುತ್ತದೆ — ಪ್ರತಿ ಕರುವೂ ನಿಖರವಾಗಿ ಎಷ್ಟು ಪಡೆದಿದೆ ಎಂದು ಖಚಿತಪಡಿಸಿಕೊಳ್ಳುವ ಏಕೈಕ ದಾರಿ ಇದೇ.",
+              "बहुत से बछड़े शुरुआती कुछ घंटों में माँ से खुद उतना खीस नहीं पी पाते जितना चाहिए, जिससे उन्हें पूरी सुरक्षा नहीं मिल पाती। इसीलिए हाथ से खीस पिलाने की सलाह दी जाती है — यही एकमात्र तरीका है जिससे यह पक्का पता चलता है कि हर बछड़े को असल में कितना मिला।"
             ),
           },
           {
             type: "example",
-            heading: L("Why It's Called a 'Passport to Life'"),
+            heading: L("Why It's Called a 'Passport to Life'", "దీన్ని 'జీవితానికి పాస్‌పోర్ట్' అని ఎందుకు అంటారు", "இது ஏன் 'வாழ்க்கைக்கான பாஸ்போர்ட்' என்று அழைக்கப்படுகிறது", "ಇದನ್ನು 'ಜೀವನಕ್ಕೆ ಪಾಸ್‌ಪೋರ್ಟ್' ಎಂದು ಏಕೆ ಕರೆಯುತ್ತಾರೆ", "इसे 'ज़िंदगी का पासपोर्ट' क्यों कहा जाता है"),
             text: L(
-              "If a calf is simply left to nurse on its own, no one really knows how much colostrum it got, or when. Hand-feeding a measured amount, at the right time, removes that guesswork — which is exactly why colostrum is sometimes called the calf's passport to life: get it right, and the calf carries that protection with it for months."
+              "If a calf is simply left to nurse on its own, no one really knows how much colostrum it got, or when. Hand-feeding a measured amount, at the right time, removes that guesswork — which is exactly why colostrum is sometimes called the calf's passport to life: get it right, and the calf carries that protection with it for months.",
+              "దూడను తనంతట తానే తాగనిస్తే, అది ఎంత జున్ను తాగిందో, ఎప్పుడు తాగిందో ఎవరికీ ఖచ్చితంగా తెలియదు. సరైన సమయంలో కొలిచిన మోతాదును చేతితో తాగించడం ఈ అనిశ్చితిని తొలగిస్తుంది — అందుకే జున్నును కొన్నిసార్లు దూడ జీవితానికి పాస్‌పోర్ట్ అని పిలుస్తారు: సరిగ్గా చేస్తే, ఆ రక్షణను దూడ నెలల తరబడి తనతో మోసుకుపోతుంది.",
+              "கன்றை தானாகவே குடிக்க விட்டால், அது எவ்வளவு கொழுந்து பால் பெற்றது, எப்போது பெற்றது என்று யாருக்கும் சரியாகத் தெரியாது. சரியான நேரத்தில் அளந்த அளவை கையால் கொடுப்பது இந்த யூகத்தை நீக்குகிறது — அதனால்தான் கொழுந்து பால் சில நேரங்களில் கன்றின் வாழ்க்கைக்கான பாஸ்போர்ட் என்று அழைக்கப்படுகிறது: சரியாகச் செய்தால், அந்த பாதுகாப்பை கன்று மாதங்களுக்கு தன்னுடன் சுமந்து செல்லும்.",
+              "ಕರುವನ್ನು ತಾನಾಗಿಯೇ ಕುಡಿಯಲು ಬಿಟ್ಟರೆ, ಅದು ಎಷ್ಟು ಗಿಣ್ಣುಹಾಲು ಪಡೆದಿದೆ, ಯಾವಾಗ ಪಡೆದಿದೆ ಎಂದು ಯಾರಿಗೂ ಖಚಿತವಾಗಿ ತಿಳಿಯುವುದಿಲ್ಲ. ಸರಿಯಾದ ಸಮಯದಲ್ಲಿ ಅಳೆದ ಪ್ರಮಾಣವನ್ನು ಕೈಯಾರೆ ಕುಡಿಸುವುದು ಈ ಅನಿಶ್ಚಿತತೆಯನ್ನು ತೆಗೆದುಹಾಕುತ್ತದೆ — ಅದಕ್ಕಾಗಿಯೇ ಗಿಣ್ಣುಹಾಲನ್ನು ಕೆಲವೊಮ್ಮೆ ಕರುವಿನ ಜೀವನಕ್ಕೆ ಪಾಸ್‌ಪೋರ್ಟ್ ಎಂದು ಕರೆಯುತ್ತಾರೆ: ಸರಿಯಾಗಿ ಮಾಡಿದರೆ, ಆ ರಕ್ಷಣೆಯನ್ನು ಕರು ತಿಂಗಳುಗಟ್ಟಲೆ ತನ್ನೊಂದಿಗೆ ಹೊತ್ತೊಯ್ಯುತ್ತದೆ.",
+              "अगर बछड़े को बस अपने आप पीने के लिए छोड़ दिया जाए, तो किसी को असल में पता नहीं चलता कि उसे कितना खीस मिला, या कब मिला। सही समय पर नापी हुई मात्रा हाथ से पिलाने से यह अंदाज़ा लगाने की ज़रूरत ही खत्म हो जाती है — इसीलिए खीस को कभी-कभी बछड़े की ज़िंदगी का पासपोर्ट कहा जाता है: इसे सही तरीके से दें, तो बछड़ा वह सुरक्षा महीनों तक अपने साथ लेकर चलता है।"
             ),
           },
           {
             type: "stat-grid",
             items: [
               {
-                label: L("Deworming"),
-                text: L("Within 10–14 days of age, then monthly up to 6 months."),
+                label: L("Deworming", "నట్టల నివారణ", "புழு நீக்கம்", "ಹುಳ ನಿವಾರಣೆ", "कृमि नाशक (पेट के कीड़े)"),
+                text: L("Within 10–14 days of age, then monthly up to 6 months.", "10–14 రోజుల వయసులో మొదటిసారి, తర్వాత 6 నెలల వరకు ప్రతి నెలా ఇవ్వాలి.", "10–14 நாள் வயதிற்குள் முதல் முறை, பின்னர் 6 மாதங்கள் வரை மாதந்தோறும்.", "10–14 ದಿನಗಳ ವಯಸ್ಸಿನೊಳಗೆ, ನಂತರ 6 ತಿಂಗಳವರೆಗೆ ಪ್ರತಿ ತಿಂಗಳು.", "10–14 दिन की उम्र में, फिर 6 महीने तक हर महीने।"),
               },
               {
-                label: L("Calf Starter Feed"),
-                text: L("Introduce from 2 to 8 weeks of age to support growth."),
+                label: L("Calf Starter Feed", "దూడ స్టార్టర్ దాణా", "கன்று தொடக்க தீவனம்", "ಕರುವಿನ ಆರಂಭಿಕ ಆಹಾರ", "बछड़ा स्टार्टर आहार"),
+                text: L("Introduce from 2 to 8 weeks of age to support growth.", "ఎదుగుదలకు తోడ్పడేందుకు 2 నుండి 8 వారాల వయసు నుండి దీన్ని అలవాటు చేయాలి.", "வளர்ச்சிக்கு உதவும் வகையில் 2 முதல் 8 வார வயதிலிருந்து அறிமுகப்படுத்தவும்.", "ಬೆಳವಣಿಗೆಗೆ ಸಹಾಯವಾಗುವಂತೆ 2 ರಿಂದ 8 ವಾರಗಳ ವಯಸ್ಸಿನಿಂದ ಪರಿಚಯಿಸಿ.", "बढ़वार में मदद के लिए 2 से 8 हफ़्ते की उम्र से शुरू करें।"),
               },
               {
-                label: L("Vaccination"),
-                text: L("Once the calf is 3 months old, contact the veterinarian about vaccination."),
+                label: L("Vaccination", "టీకా", "தடுப்பூசி", "ಲಸಿಕೆ", "टीकाकरण"),
+                text: L("Once the calf is 3 months old, contact the veterinarian about vaccination.", "దూడకు 3 నెలల వయసు వచ్చాక టీకా గురించి వెటర్నరీ డాక్టర్‌ను సంప్రదించండి.", "கன்றுக்கு 3 மாதம் ஆனதும் தடுப்பூசி பற்றி வெட்டரினரி டாக்டரை தொடர்பு கொள்ளுங்கள்.", "ಕರುವಿಗೆ 3 ತಿಂಗಳು ತುಂಬಿದ ನಂತರ ಲಸಿಕೆ ಬಗ್ಗೆ ಪಶುವೈದ್ಯರನ್ನು ಸಂಪರ್ಕಿಸಿ.", "बछड़े के 3 महीने का होने पर टीकाकरण के बारे में डॉक्टर से संपर्क करें।"),
               },
             ],
           },
@@ -1438,17 +1490,21 @@ export const MODULES = [
         check: [
           {
             type: "mcq",
-            q: L("How much colostrum should a newborn calf get within the first 2 hours of birth?"),
-            options: [L("About 200 ml"), L("About 2 litres"), L("About 10 litres"), L("None — wait until the next day")],
+            q: L("How much colostrum should a newborn calf get within the first 2 hours of birth?", "పుట్టిన మొదటి 2 గంటల్లో నవజాత దూడకు ఎంత జున్ను ఇవ్వాలి?", "பிறந்த முதல் 2 மணி நேரத்தில் புதிதாகப் பிறந்த கன்றுக்கு எவ்வளவு கொழுந்து பால் கொடுக்க வேண்டும்?", "ಹುಟ್ಟಿದ ಮೊದಲ 2 ಗಂಟೆಗಳಲ್ಲಿ ನವಜಾತ ಕರುವಿಗೆ ಎಷ್ಟು ಗಿಣ್ಣುಹಾಲು ಕೊಡಬೇಕು?", "जन्म के पहले 2 घंटों में नवजात बछड़े को कितना खीस पिलाना चाहिए?"),
+            options: [L("About 200 ml", "సుమారు 200 మి.లీ", "சுமார் 200 மி.லி", "ಸುಮಾರು 200 ಮಿ.ಲೀ", "लगभग 200 मिली"), L("About 2 litres", "సుమారు 2 లీటర్లు", "சுமார் 2 லிட்டர்", "ಸುಮಾರು 2 ಲೀಟರ್", "लगभग 2 लीटर"), L("About 10 litres", "సుమారు 10 లీటర్లు", "சுமார் 10 லிட்டர்", "ಸುಮಾರು 10 ಲೀಟರ್", "लगभग 10 लीटर"), L("None — wait until the next day", "ఏమీ ఇవ్వకూడదు — మరుసటి రోజు వరకు వేచి ఉండాలి", "எதுவும் இல்லை — மறுநாள் வரை காத்திருக்க வேண்டும்", "ಏನೂ ಬೇಡ — ಮರುದಿನದವರೆಗೆ ಕಾಯಬೇಕು", "कुछ नहीं — अगले दिन तक इंतज़ार करें")],
             answer: 1,
-            explain: L("2 litres within the first 2 hours, with another 1–2 litres (depending on size) within 12 hours."),
+            explain: L("2 litres within the first 2 hours, with another 1–2 litres (depending on size) within 12 hours.", "మొదటి 2 గంటల్లో 2 లీటర్లు, తర్వాత 12 గంటల్లోపు పరిమాణాన్ని బట్టి మరో 1–2 లీటర్లు ఇవ్వాలి.", "முதல் 2 மணி நேரத்தில் 2 லிட்டர், மேலும் 12 மணி நேரத்திற்குள் அளவைப் பொறுத்து 1–2 லிட்டர் கொடுக்க வேண்டும்.", "ಮೊದಲ 2 ಗಂಟೆಗಳಲ್ಲಿ 2 ಲೀಟರ್, ನಂತರ 12 ಗಂಟೆಗಳ ಒಳಗೆ ಗಾತ್ರಕ್ಕೆ ಅನುಗುಣವಾಗಿ ಇನ್ನೂ 1–2 ಲೀಟರ್ ಕೊಡಬೇಕು.", "पहले 2 घंटों में 2 लीटर, फिर 12 घंटे के भीतर आकार के हिसाब से 1–2 लीटर और।"),
           },
           {
             type: "truefalse",
-            q: L("Feeding colostrum at any point in the first week works just as well as feeding it in the first few hours."),
+            q: L("Feeding colostrum at any point in the first week works just as well as feeding it in the first few hours.", "మొదటి వారంలో ఎప్పుడైనా జున్ను ఇచ్చినా, మొదటి కొన్ని గంటల్లో ఇచ్చినంత ప్రభావం ఉంటుంది.", "முதல் வாரத்தில் எப்போது வேண்டுமானாலும் கொழுந்து பால் கொடுத்தாலும், முதல் சில மணி நேரங்களில் கொடுப்பது போலவே பலனளிக்கும்.", "ಮೊದಲ ವಾರದಲ್ಲಿ ಯಾವಾಗ ಬೇಕಾದರೂ ಗಿಣ್ಣುಹಾಲು ಕೊಟ್ಟರೂ, ಮೊದಲ ಕೆಲವು ಗಂಟೆಗಳಲ್ಲಿ ಕೊಟ್ಟಷ್ಟೇ ಪರಿಣಾಮ ಬೀರುತ್ತದೆ.", "पहले हफ़्ते में कभी भी खीस पिलाना, पहले कुछ घंटों में पिलाने जितना ही असरदार होता है।"),
             answer: false,
             explain: L(
-              "No — colostrum needs to be given early. Feeding it after 24 hours of birth may no longer help the calf, so the first 2 and 12 hours matter a great deal."
+              "No — colostrum needs to be given early. Feeding it after 24 hours of birth may no longer help the calf, so the first 2 and 12 hours matter a great deal.",
+              "కాదు — జున్నును త్వరగా ఇవ్వాలి. పుట్టిన 24 గంటల తర్వాత ఇస్తే దూడకు ఉపయోగపడకపోవచ్చు, కాబట్టి మొదటి 2 మరియు 12 గంటలు చాలా ముఖ్యం.",
+              "இல்லை — கொழுந்து பாலை சீக்கிரம் கொடுக்க வேண்டும். பிறந்த 24 மணி நேரத்திற்குப் பிறகு கொடுத்தால் கன்றுக்கு பயனளிக்காமல் போகலாம், அதனால் முதல் 2 மற்றும் 12 மணி நேரம் மிக முக்கியம்.",
+              "ಇಲ್ಲ — ಗಿಣ್ಣುಹಾಲನ್ನು ಬೇಗನೆ ಕೊಡಬೇಕು. ಹುಟ್ಟಿದ 24 ಗಂಟೆಗಳ ನಂತರ ಕೊಟ್ಟರೆ ಕರುವಿಗೆ ಪ್ರಯೋಜನವಾಗದೇ ಇರಬಹುದು, ಆದ್ದರಿಂದ ಮೊದಲ 2 ಮತ್ತು 12 ಗಂಟೆಗಳು ಬಹಳ ಮುಖ್ಯ.",
+              "नहीं — खीस जल्दी देना ज़रूरी है। जन्म के 24 घंटे बाद देने से बछड़े को फ़ायदा न भी हो, इसलिए पहले 2 और 12 घंटे बहुत मायने रखते हैं।"
             ),
           },
         ],
