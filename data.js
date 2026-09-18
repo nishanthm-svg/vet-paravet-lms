@@ -1895,43 +1895,63 @@ export const MODULES = [
             {
               type: "photo",
               src: "assets/photo-m4-vet-vaccinating.jpg",
-              alt: L("A uniformed veterinary professional wearing gloves, holding a syringe, injecting a restrained cow while farm workers look on"),
-              caption: L("Vaccinating an animal is always done by a trained, authorised professional — never something you decide or do yourself."),
+              alt: L("A uniformed veterinary professional wearing gloves, holding a syringe, injecting a restrained cow while farm workers look on", "యూనిఫారంలో ఉన్న వెటర్నరీ నిపుణుడు గ్లోవ్స్ ధరించి, సిరంజి పట్టుకుని, పట్టుకుని ఉంచిన ఆవుకు ఇంజెక్షన్ ఇస్తుండగా రైతు కార్మికులు చూస్తున్నారు", "சீருடை அணிந்த வெட்டரினரி நிபுணர் கையுறை அணிந்து, ஊசியை பிடித்து, பிடித்து வைக்கப்பட்ட பசுவுக்கு ஊசி போடுகிறார், பண்ணை தொழிலாளர்கள் பார்த்துக்கொண்டிருக்கிறார்கள்", "ಸಮವಸ್ತ್ರಧಾರಿ ಪಶುವೈದ್ಯ ವೃತ್ತಿಪರರು ಗ್ಲೌಸ್ ಧರಿಸಿ, ಸಿರಿಂಜ್ ಹಿಡಿದು, ಹಿಡಿದಿಟ್ಟ ಹಸುವಿಗೆ ಚುಚ್ಚುಮದ್ದು ನೀಡುತ್ತಿದ್ದಾರೆ, ಕೃಷಿ ಕಾರ್ಮಿಕರು ನೋಡುತ್ತಿದ್ದಾರೆ", "वर्दी पहने एक पशु चिकित्सा पेशेवर दस्ताने पहने, सिरिंज पकड़े, पकड़ी हुई गाय को इंजेक्शन दे रहा है, खेत के मज़दूर देख रहे हैं"),
+              caption: L("Vaccinating an animal is always done by a trained, authorised professional — never something you decide or do yourself.", "జంతువుకు టీకా వేయడం ఎప్పుడూ శిక్షణ పొందిన, అధీకృత నిపుణుడు మాత్రమే చేస్తారు — మీరు స్వయంగా నిర్ణయించుకుని చేయాల్సింది కాదు.", "ஒரு விலங்குக்கு தடுப்பூசி போடுவது எப்போதும் பயிற்சி பெற்ற, அங்கீகரிக்கப்பட்ட நிபுணரால் மட்டுமே செய்யப்படுகிறது — நீங்களே முடிவெடுத்து செய்யக்கூடிய விஷயமல்ல.", "ಪ್ರಾಣಿಗೆ ಲಸಿಕೆ ಹಾಕುವುದನ್ನು ಯಾವಾಗಲೂ ತರಬೇತಿ ಪಡೆದ, ಅಧಿಕೃತ ವೃತ್ತಿಪರರೇ ಮಾಡುತ್ತಾರೆ — ಇದನ್ನು ನೀವೇ ನಿರ್ಧರಿಸಿ ಮಾಡುವಂಥದ್ದಲ್ಲ.", "किसी जानवर को टीका लगाना हमेशा प्रशिक्षित, अधिकृत पेशेवर द्वारा ही किया जाता है — यह कुछ ऐसा नहीं जो आप खुद तय करके करें।"),
             },
           {
             type: "text",
-            heading: L("Training the Body Before the Disease Ever Arrives"),
+            heading: L("Training the Body Before the Disease Ever Arrives", "వ్యాధి రాకముందే శరీరానికి శిక్షణ ఇవ్వడం", "நோய் வருவதற்கு முன்பே உடலுக்கு பயிற்சி அளிப்பது", "ರೋಗ ಬರುವ ಮೊದಲೇ ದೇಹಕ್ಕೆ ತರಬೇತಿ ನೀಡುವುದು", "बीमारी आने से पहले ही शरीर को प्रशिक्षित करना"),
             html: L(
-              "A <b>vaccine</b> is a shot given to a healthy animal that trains its body to recognise and fight off one specific disease — before the animal ever actually catches it. Think of it like a fire drill: nobody wants a real fire, but practising the response ahead of time means the body already knows exactly what to do if the real disease ever shows up."
+              "A <b>vaccine</b> is a shot given to a healthy animal that trains its body to recognise and fight off one specific disease — before the animal ever actually catches it. Think of it like a fire drill: nobody wants a real fire, but practising the response ahead of time means the body already knows exactly what to do if the real disease ever shows up.",
+              "<b>టీకా</b> అంటే ఆరోగ్యవంతమైన జంతువుకు ఇచ్చే ఇంజెక్షన్, ఇది ఆ జంతువుకు నిజంగా ఒక నిర్దిష్ట వ్యాధి సోకకముందే దాన్ని గుర్తించి పోరాడేలా శరీరానికి శిక్షణ ఇస్తుంది. దీన్ని ఫైర్ డ్రిల్ లాగా అనుకోండి: నిజమైన అగ్నిప్రమాదం ఎవరూ కోరుకోరు, కానీ ముందుగానే ఆ స్పందనను సాధన చేస్తే, నిజమైన వ్యాధి వచ్చినప్పుడు శరీరానికి ఏం చేయాలో ఇప్పటికే తెలిసి ఉంటుంది.",
+              "<b>தடுப்பூசி</b> என்பது ஆரோக்கியமான விலங்குக்கு கொடுக்கப்படும் ஊசி, இது அந்த விலங்துக்கு உண்மையில் ஒரு குறிப்பிட்ட நோய் தாக்குவதற்கு முன்பே அதை அடையாளம் கண்டு எதிர்த்துப் போராட உடலுக்கு பயிற்சி அளிக்கிறது. இதை ஒரு தீ பயிற்சி போல நினைத்துக்கொள்ளுங்கள்: உண்மையான தீ யாருக்கும் வேண்டாம், ஆனால் முன்கூட்டியே பதிலை பயிற்சி செய்வது, உண்மையான நோய் வரும்போது என்ன செய்ய வேண்டும் என்பது உடலுக்கு ஏற்கனவே தெரியும் என்பதை உறுதி செய்கிறது.",
+              "<b>ಲಸಿಕೆ</b> ಎಂದರೆ ಆರೋಗ್ಯವಂತ ಪ್ರಾಣಿಗೆ ನೀಡುವ ಚುಚ್ಚುಮದ್ದು, ಇದು ಆ ಪ್ರಾಣಿಗೆ ನಿಜವಾಗಿ ಒಂದು ನಿರ್ದಿಷ್ಟ ರೋಗ ತಗಲುವ ಮೊದಲೇ ಅದನ್ನು ಗುರುತಿಸಿ ಹೋರಾಡಲು ದೇಹಕ್ಕೆ ತರಬೇತಿ ನೀಡುತ್ತದೆ. ಇದನ್ನು ಬೆಂಕಿ ಅಣಕು ಅಭ್ಯಾಸದಂತೆ ಯೋಚಿಸಿ: ನಿಜವಾದ ಬೆಂಕಿ ಯಾರಿಗೂ ಬೇಡ, ಆದರೆ ಮೊದಲೇ ಪ್ರತಿಕ್ರಿಯೆಯನ್ನು ಅಭ್ಯಾಸ ಮಾಡುವುದರಿಂದ, ನಿಜವಾದ ರೋಗ ಬಂದಾಗ ಏನು ಮಾಡಬೇಕೆಂದು ದೇಹಕ್ಕೆ ಈಗಾಗಲೇ ತಿಳಿದಿರುತ್ತದೆ.",
+              "<b>टीका</b> स्वस्थ जानवर को दिया जाने वाला एक इंजेक्शन है, जो उसके शरीर को किसी एक ख़ास बीमारी को पहचानकर उससे लड़ना सिखाता है — इससे पहले कि जानवर को असल में वह बीमारी हो। इसे फायर ड्रिल की तरह समझें: असली आग कोई नहीं चाहता, लेकिन पहले से अभ्यास कर लेने से शरीर को पहले ही पता होता है कि असली बीमारी आने पर क्या करना है।"
             ),
           },
           {
             type: "glossary",
-            term: L("Vaccine"),
+            term: L("Vaccine", "టీకా", "தடுப்பூசி", "ಲಸಿಕೆ", "टीका"),
             meaning: L(
-              "An injection given to a healthy animal that trains its body to defend itself against one particular disease, before that disease ever actually infects it."
+              "An injection given to a healthy animal that trains its body to defend itself against one particular disease, before that disease ever actually infects it.",
+              "ఆరోగ్యవంతమైన జంతువుకు ఇచ్చే ఇంజెక్షన్, ఇది ఆ వ్యాధి నిజంగా సోకకముందే దాన్నుండి తనను తాను రక్షించుకునేలా శరీరానికి శిక్షణ ఇస్తుంది.",
+              "ஆரோக்கியமான விலங்குக்கு கொடுக்கப்படும் ஊசி, இது அந்த குறிப்பிட்ட நோய் உண்மையில் தாக்குவதற்கு முன்பே தன்னைத் தற்காத்துக்கொள்ள உடலுக்கு பயிற்சி அளிக்கிறது.",
+              "ಆರೋಗ್ಯವಂತ ಪ್ರಾಣಿಗೆ ನೀಡುವ ಚುಚ್ಚುಮದ್ದು, ಇದು ಆ ರೋಗ ನಿಜವಾಗಿ ತಗಲುವ ಮೊದಲೇ ತನ್ನನ್ನು ತಾನು ರಕ್ಷಿಸಿಕೊಳ್ಳಲು ದೇಹಕ್ಕೆ ತರಬೇತಿ ನೀಡುತ್ತದೆ.",
+              "स्वस्थ जानवर को दिया जाने वाला इंजेक्शन, जो उस ख़ास बीमारी के असल में होने से पहले ही शरीर को उससे बचाव करना सिखाता है।"
             ),
           },
           {
             type: "glossary",
-            term: L("Vaccination Coverage"),
+            term: L("Vaccination Coverage", "టీకా కవరేజ్", "தடுப்பூசி பரவலாக்கம்", "ಲಸಿಕೆ ವ್ಯಾಪ್ತಿ", "टीकाकरण कवरेज"),
             meaning: L(
-              "How many animals out of the whole group have actually been vaccinated. Disease control needs most of the group covered — vaccinating just one or two animals in a large herd leaves the rest exposed and the disease can still spread."
+              "How many animals out of the whole group have actually been vaccinated. Disease control needs most of the group covered — vaccinating just one or two animals in a large herd leaves the rest exposed and the disease can still spread.",
+              "మొత్తం గుంపులో ఎంతమంది జంతువులకు నిజంగా టీకా వేయబడిందో సూచిస్తుంది. వ్యాధిని నియంత్రించాలంటే గుంపులో ఎక్కువ భాగానికి టీకా వేయాలి — పెద్ద మందలో ఒకటి రెండు జంతువులకు మాత్రమే టీకా వేస్తే మిగతావి రక్షణ లేకుండా ఉండి వ్యాధి ఇంకా వ్యాపించవచ్చు.",
+              "மொத்த குழுவில் எத்தனை விலங்குகளுக்கு உண்மையில் தடுப்பூசி போடப்பட்டுள்ளது என்பதைக் குறிக்கிறது. நோயை கட்டுப்படுத்த குழுவின் பெரும்பகுதிக்கு தடுப்பூசி தேவை — பெரிய மந்தையில் ஒன்று அல்லது இரண்டு விலங்குகளுக்கு மட்டும் தடுப்பூசி போட்டால், மற்றவை பாதுகாப்பின்றி இருக்கும், நோய் இன்னும் பரவலாம்.",
+              "ಇಡೀ ಗುಂಪಿನಲ್ಲಿ ಎಷ್ಟು ಪ್ರಾಣಿಗಳಿಗೆ ನಿಜವಾಗಿ ಲಸಿಕೆ ಹಾಕಲಾಗಿದೆ ಎಂಬುದನ್ನು ಸೂಚಿಸುತ್ತದೆ. ರೋಗ ನಿಯಂತ್ರಣಕ್ಕೆ ಗುಂಪಿನ ಬಹುಪಾಲಿಗೆ ಲಸಿಕೆ ಬೇಕು — ದೊಡ್ಡ ಹಿಂಡಿನಲ್ಲಿ ಒಂದೆರಡು ಪ್ರಾಣಿಗಳಿಗೆ ಮಾತ್ರ ಲಸಿಕೆ ಹಾಕಿದರೆ, ಉಳಿದವು ರಕ್ಷಣೆಯಿಲ್ಲದೆ ಉಳಿದು ರೋಗ ಇನ್ನೂ ಹರಡಬಹುದು.",
+              "पूरे समूह में से असल में कितने जानवरों को टीका लगा है, यह बताता है। बीमारी पर काबू पाने के लिए समूह के ज़्यादातर जानवरों को टीका लगना चाहिए — बड़े झुंड में सिर्फ़ एक-दो जानवरों को टीका लगाने से बाक़ी असुरक्षित रह जाते हैं और बीमारी फिर भी फैल सकती है।"
             ),
           },
           {
             type: "stat-grid",
             items: [
               {
-                label: L("Why timing matters"),
+                label: L("Why timing matters", "సమయం ఎందుకు ముఖ్యం", "நேரம் ஏன் முக்கியம்", "ಸಮಯ ಏಕೆ ಮುಖ್ಯ", "समय क्यों मायने रखता है"),
                 text: L(
-                  "Vaccines exist for most of the serious diseases covered in this module. They work best when given on a mass scale, on time, before the disease season or the risky age arrives — not after signs have already appeared."
+                  "Vaccines exist for most of the serious diseases covered in this module. They work best when given on a mass scale, on time, before the disease season or the risky age arrives — not after signs have already appeared.",
+                  "ఈ మాడ్యూల్‌లో చెప్పిన చాలా తీవ్రమైన వ్యాధులకు టీకాలు ఉన్నాయి. వ్యాధి కాలం లేదా ప్రమాదకర వయసు రాకముందే, సకాలంలో, పెద్ద ఎత్తున వేసినప్పుడే అవి బాగా పనిచేస్తాయి — లక్షణాలు కనిపించిన తర్వాత కాదు.",
+                  "இந்த பாடத்தில் உள்ள பெரும்பாலான கடுமையான நோய்களுக்கு தடுப்பூசிகள் உள்ளன. நோய் பருவம் அல்லது ஆபத்தான வயது வருவதற்கு முன், சரியான நேரத்தில், பெரிய அளவில் கொடுக்கும்போதே அவை சிறப்பாக வேலை செய்யும் — அறிகுறிகள் தெரிந்த பிறகு அல்ல.",
+                  "ಈ ಮಾಡ್ಯೂಲ್‌ನಲ್ಲಿರುವ ಹೆಚ್ಚಿನ ಗಂಭೀರ ರೋಗಗಳಿಗೆ ಲಸಿಕೆಗಳಿವೆ. ರೋಗದ ಋತು ಅಥವಾ ಅಪಾಯಕಾರಿ ವಯಸ್ಸು ಬರುವ ಮೊದಲು, ಸಮಯಕ್ಕೆ ಸರಿಯಾಗಿ, ದೊಡ್ಡ ಪ್ರಮಾಣದಲ್ಲಿ ಕೊಟ್ಟಾಗಲೇ ಅವು ಚೆನ್ನಾಗಿ ಕೆಲಸ ಮಾಡುತ್ತವೆ — ಲಕ್ಷಣಗಳು ಕಾಣಿಸಿಕೊಂಡ ನಂತರ ಅಲ್ಲ.",
+                  "इस मॉड्यूल में बताई गई ज़्यादातर गंभीर बीमारियों के टीके मौजूद हैं। बीमारी का मौसम या ख़तरे वाली उम्र आने से पहले, सही समय पर, बड़े पैमाने पर दिए जाने पर ही ये सबसे अच्छा असर करते हैं — लक्षण दिखने के बाद नहीं।"
                 ),
               },
               {
-                label: L("The coverage number"),
+                label: L("The coverage number", "కవరేజ్ సంఖ్య", "பரவலாக்க எண்", "ವ್ಯಾಪ್ತಿ ಸಂಖ್ಯೆ", "कवरेज का आंकड़ा"),
                 text: L(
-                  "At least 80% of the animals in a group need to be vaccinated for the disease to actually be brought under control across that herd or area."
+                  "At least 80% of the animals in a group need to be vaccinated for the disease to actually be brought under control across that herd or area.",
+                  "ఆ మంద లేదా ప్రాంతంలో వ్యాధిని నిజంగా అదుపులోకి తేవాలంటే గుంపులోని కనీసం 80% జంతువులకు టీకా వేయాలి.",
+                  "அந்த மந்தை அல்லது பகுதியில் நோயை உண்மையில் கட்டுக்குள் கொண்டுவர, குழுவில் குறைந்தது 80% விலங்குகளுக்கு தடுப்பூசி தேவை.",
+                  "ಆ ಹಿಂಡು ಅಥವಾ ಪ್ರದೇಶದಲ್ಲಿ ರೋಗವನ್ನು ನಿಜವಾಗಿ ನಿಯಂತ್ರಣಕ್ಕೆ ತರಲು ಗುಂಪಿನ ಕನಿಷ್ಠ 80% ಪ್ರಾಣಿಗಳಿಗೆ ಲಸಿಕೆ ಹಾಕಬೇಕು.",
+                  "उस झुंड या इलाक़े में बीमारी को असल में काबू में लाने के लिए समूह के कम से कम 80% जानवरों को टीका लगना ज़रूरी है।"
                 ),
               },
             ],
@@ -1939,38 +1959,50 @@ export const MODULES = [
           {
             type: "callout",
             style: "tip",
-            heading: L("Your Job: Know the Schedule, Remind and Report — Never Inject"),
+            heading: L("Your Job: Know the Schedule, Remind and Report — Never Inject", "మీ పని: షెడ్యూల్ తెలుసుకోవడం, గుర్తుచేయడం, తెలియజేయడం — ఎప్పుడూ ఇంజెక్షన్ ఇవ్వడం కాదు", "உங்கள் வேலை: அட்டவணையை அறிவது, நினைவூட்டுவது, தெரிவிப்பது — ஊசி போடுவது ஒருபோதும் அல்ல", "ನಿಮ್ಮ ಕೆಲಸ: ವೇಳಾಪಟ್ಟಿ ತಿಳಿಯುವುದು, ನೆನಪಿಸುವುದು, ವರದಿ ಮಾಡುವುದು — ಎಂದಿಗೂ ಚುಚ್ಚುಮದ್ದು ಕೊಡುವುದಲ್ಲ", "आपका काम: शेड्यूल जानना, याद दिलाना और सूचना देना — इंजेक्शन लगाना कभी नहीं"),
             text: L(
-              "Deciding which vaccine, choosing the dose, and giving the injection is always done by a trained person — usually a veterinarian or an authorised vaccinator. Your job is different and just as important: know roughly what's due and when, remind the farmer, and flag it to the vet if you're not sure something has been done on time."
+              "Deciding which vaccine, choosing the dose, and giving the injection is always done by a trained person — usually a veterinarian or an authorised vaccinator. Your job is different and just as important: know roughly what's due and when, remind the farmer, and flag it to the vet if you're not sure something has been done on time.",
+              "ఏ టీకా వాడాలో నిర్ణయించడం, మోతాదు ఎంచుకోవడం, ఇంజెక్షన్ ఇవ్వడం ఎప్పుడూ శిక్షణ పొందిన వ్యక్తి — సాధారణంగా వెటర్నరీ డాక్టర్ లేదా అధీకృత వ్యాక్సినేటర్ మాత్రమే చేస్తారు. మీ పని వేరు, అంతే ముఖ్యమైనది: ఏది ఎప్పుడు రావాలో సుమారుగా తెలుసుకోవడం, రైతుకు గుర్తుచేయడం, సకాలంలో జరిగిందో లేదో ఖచ్చితంగా తెలియకపోతే డాక్టర్‌కు తెలియజేయడం.",
+              "எந்த தடுப்பூசி, அளவை தேர்வு செய்வது, ஊசி போடுவது எப்போதும் பயிற்சி பெற்ற நபரால் — பொதுவாக வெட்டரினரி டாக்டர் அல்லது அங்கீகரிக்கப்பட்ட தடுப்பூசி போடுபவரால் மட்டுமே செய்யப்படுகிறது. உங்கள் வேலை வேறு, அதே அளவு முக்கியமானது: என்ன எப்போது வேண்டும் என்பதை தோராயமாக தெரிந்துகொள்வது, விவசாயிக்கு நினைவூட்டுவது, சரியான நேரத்தில் நடந்ததா என்று உறுதியில்லை என்றால் டாக்டரிடம் தெரிவிப்பது.",
+              "ಯಾವ ಲಸಿಕೆ, ಡೋಸ್ ಆಯ್ಕೆ, ಚುಚ್ಚುಮದ್ದು ಕೊಡುವುದು ಯಾವಾಗಲೂ ತರಬೇತಿ ಪಡೆದ ವ್ಯಕ್ತಿ — ಸಾಮಾನ್ಯವಾಗಿ ಪಶುವೈದ್ಯರು ಅಥವಾ ಅಧಿಕೃತ ಲಸಿಕೆದಾರರಿಂದ ಮಾತ್ರ ಮಾಡಲ್ಪಡುತ್ತದೆ. ನಿಮ್ಮ ಕೆಲಸ ಬೇರೆ, ಅಷ್ಟೇ ಮುಖ್ಯವಾದದ್ದು: ಏನು ಯಾವಾಗ ಬೇಕು ಎಂದು ಸ್ಥೂಲವಾಗಿ ತಿಳಿಯುವುದು, ರೈತನಿಗೆ ನೆನಪಿಸುವುದು, ಸಮಯಕ್ಕೆ ಸರಿಯಾಗಿ ಆಗಿದೆಯೇ ಎಂದು ಖಚಿತವಿಲ್ಲದಿದ್ದರೆ ಪಶುವೈದ್ಯರಿಗೆ ತಿಳಿಸುವುದು.",
+              "कौन सा टीका, कितनी मात्रा, और इंजेक्शन लगाना हमेशा प्रशिक्षित व्यक्ति — आमतौर पर डॉक्टर या अधिकृत टीकाकर्ता ही करता है। आपका काम अलग है, और उतना ही ज़रूरी है: मोटे तौर पर जानना कि क्या कब देय है, किसान को याद दिलाना, और अगर यक़ीन न हो कि समय पर हुआ है तो डॉक्टर को बताना।"
             ),
           },
           {
             type: "example",
-            heading: L("A Comparison You Already Know"),
+            heading: L("A Comparison You Already Know", "మీకు ఇప్పటికే తెలిసిన ఒక పోలిక", "நீங்கள் ஏற்கனவே அறிந்த ஒரு ஒப்பீடு", "ನಿಮಗೆ ಈಗಾಗಲೇ ತಿಳಿದಿರುವ ಒಂದು ಹೋಲಿಕೆ", "एक ऐसी तुलना जो आप पहले से जानते हैं"),
             text: L(
-              "This works the same way as childhood vaccination drives for children — a course of shots given at specific ages, before the child is ever likely to be exposed to that illness. Animals need the same kind of advance protection, just on their own schedule."
+              "This works the same way as childhood vaccination drives for children — a course of shots given at specific ages, before the child is ever likely to be exposed to that illness. Animals need the same kind of advance protection, just on their own schedule.",
+              "ఇది పిల్లల కోసం జరిగే బాల్య టీకా కార్యక్రమాల మాదిరిగానే పనిచేస్తుంది — నిర్దిష్ట వయసుల్లో వరుస ఇంజెక్షన్లు ఇస్తారు, పిల్లవాడికి ఆ వ్యాధి సోకే అవకాశం రాకముందే. జంతువులకు కూడా అలాంటి ముందస్తు రక్షణే అవసరం, వాటికి మాత్రం వాటి సొంత షెడ్యూల్ ఉంటుంది.",
+              "இது குழந்தைகளுக்கான குழந்தைப் பருவ தடுப்பூசி இயக்கங்களைப் போலவே செயல்படுகிறது — குறிப்பிட்ட வயதுகளில் தொடர் ஊசிகள் கொடுக்கப்படும், குழந்தைக்கு அந்த நோய் தாக்கும் வாய்ப்பு வருவதற்கு முன்பே. விலங்குகளுக்கும் அதே வகையான முன்கூட்டிய பாதுகாப்பு தேவை, அவற்றுக்கென்று ஒரு தனி அட்டவணையில்.",
+              "ಇದು ಮಕ್ಕಳಿಗಾಗಿ ನಡೆಯುವ ಬಾಲ್ಯದ ಲಸಿಕಾ ಅಭಿಯಾನಗಳಂತೆಯೇ ಕೆಲಸ ಮಾಡುತ್ತದೆ — ನಿರ್ದಿಷ್ಟ ವಯಸ್ಸುಗಳಲ್ಲಿ ಸರಣಿ ಚುಚ್ಚುಮದ್ದುಗಳನ್ನು ಕೊಡಲಾಗುತ್ತದೆ, ಮಗುವಿಗೆ ಆ ರೋಗ ತಗಲುವ ಸಾಧ್ಯತೆ ಬರುವ ಮೊದಲೇ. ಪ್ರಾಣಿಗಳಿಗೂ ಅದೇ ರೀತಿಯ ಮುಂಚಿತ ರಕ್ಷಣೆ ಬೇಕು, ಅವುಗಳದೇ ಆದ ವೇಳಾಪಟ್ಟಿಯಲ್ಲಿ.",
+              "यह बच्चों के लिए होने वाले बचपन के टीकाकरण अभियानों जैसा ही है — ख़ास उम्र में टीकों की एक शृंखला दी जाती है, इससे पहले कि बच्चे को वह बीमारी होने की आशंका बने। जानवरों को भी उसी तरह की पहले से सुरक्षा चाहिए, बस अपने ख़ुद के शेड्यूल पर।"
             ),
           },
         ],
         check: [
           {
             type: "mcq",
-            q: L("What does a vaccine actually do?"),
+            q: L("What does a vaccine actually do?", "టీకా నిజంగా ఏం చేస్తుంది?", "தடுப்பூசி உண்மையில் என்ன செய்கிறது?", "ಲಸಿಕೆ ನಿಜವಾಗಿ ಏನು ಮಾಡುತ್ತದೆ?", "टीका असल में क्या करता है?"),
             options: [
-              L("Cures a disease after the animal already has it"),
-              L("Trains a healthy animal's body to defend against a disease before it is ever infected"),
-              L("Makes the animal produce more milk immediately"),
-              L("Replaces the need for the animal to be observed"),
+              L("Cures a disease after the animal already has it", "జంతువుకు వ్యాధి వచ్చిన తర్వాత దాన్ని నయం చేస్తుంది", "விலங்குக்கு நோய் வந்த பிறகு அதை குணப்படுத்துகிறது", "ಪ್ರಾಣಿಗೆ ರೋಗ ಬಂದ ನಂತರ ಅದನ್ನು ಗುಣಪಡಿಸುತ್ತದೆ", "जानवर को बीमारी होने के बाद उसे ठीक करता है"),
+              L("Trains a healthy animal's body to defend against a disease before it is ever infected", "సోకకముందే ఆ వ్యాధి నుండి రక్షించుకునేలా ఆరోగ్యవంతమైన జంతువు శరీరానికి శిక్షణ ఇస్తుంది", "தொற்று ஏற்படுவதற்கு முன்பே ஒரு நோயிலிருந்து தற்காத்துக்கொள்ள ஆரோக்கியமான விலங்கின் உடலுக்கு பயிற்சி அளிக்கிறது", "ಸೋಂಕು ತಗಲುವ ಮೊದಲೇ ಒಂದು ರೋಗದ ವಿರುದ್ಧ ರಕ್ಷಿಸಿಕೊಳ್ಳಲು ಆರೋಗ್ಯವಂತ ಪ್ರಾಣಿಯ ದೇಹಕ್ಕೆ ತರಬೇತಿ ನೀಡುತ್ತದೆ", "बीमारी होने से पहले ही स्वस्थ जानवर के शरीर को उससे बचाव करना सिखाता है"),
+              L("Makes the animal produce more milk immediately", "జంతువు వెంటనే ఎక్కువ పాలు ఇచ్చేలా చేస్తుంది", "விலங்கு உடனடியாக அதிக பால் தர வைக்கிறது", "ಪ್ರಾಣಿ ತಕ್ಷಣ ಹೆಚ್ಚು ಹಾಲು ಕೊಡುವಂತೆ ಮಾಡುತ್ತದೆ", "जानवर को तुरंत ज़्यादा दूध देने लायक बनाता है"),
+              L("Replaces the need for the animal to be observed", "జంతువును గమనించాల్సిన అవసరాన్ని తొలగిస్తుంది", "விலங்கை கவனிக்க வேண்டிய தேவையை நீக்குகிறது", "ಪ್ರಾಣಿಯನ್ನು ಗಮನಿಸಬೇಕಾದ ಅಗತ್ಯವನ್ನು ತಪ್ಪಿಸುತ್ತದೆ", "जानवर पर नज़र रखने की ज़रूरत को खत्म करता है"),
             ],
             answer: 1,
-            explain: L("A vaccine is given to a healthy animal ahead of time so its body already knows how to fight off that specific disease if it ever shows up."),
+            explain: L("A vaccine is given to a healthy animal ahead of time so its body already knows how to fight off that specific disease if it ever shows up.", "టీకాను ఆరోగ్యవంతమైన జంతువుకు ముందుగానే ఇస్తారు, తద్వారా ఆ నిర్దిష్ట వ్యాధి వస్తే దానితో ఎలా పోరాడాలో శరీరానికి ఇప్పటికే తెలిసి ఉంటుంది.", "தடுப்பூசி ஆரோக்கியமான விலங்குக்கு முன்கூட்டியே கொடுக்கப்படுகிறது, இதனால் அந்த குறிப்பிட்ட நோய் வந்தால் அதை எப்படி எதிர்த்துப் போராடுவது என்பது உடலுக்கு ஏற்கனவே தெரியும்.", "ಲಸಿಕೆಯನ್ನು ಆರೋಗ್ಯವಂತ ಪ್ರಾಣಿಗೆ ಮೊದಲೇ ಕೊಡಲಾಗುತ್ತದೆ, ಇದರಿಂದ ಆ ನಿರ್ದಿಷ್ಟ ರೋಗ ಬಂದರೆ ಅದನ್ನು ಹೇಗೆ ಎದುರಿಸಬೇಕೆಂದು ದೇಹಕ್ಕೆ ಈಗಾಗಲೇ ತಿಳಿದಿರುತ್ತದೆ.", "टीका स्वस्थ जानवर को पहले से दिया जाता है ताकि वह ख़ास बीमारी आने पर शरीर को पहले से पता हो कि उससे कैसे लड़ना है।"),
           },
           {
             type: "truefalse",
-            q: L("As a ground-force worker, it is your job to decide which vaccine an animal needs and give the injection yourself."),
+            q: L("As a ground-force worker, it is your job to decide which vaccine an animal needs and give the injection yourself.", "ఒక క్షేత్రస్థాయి కార్యకర్తగా, జంతువుకు ఏ టీకా కావాలో నిర్ణయించి, మీరే ఇంజెక్షన్ ఇవ్వడం మీ పని.", "ஒரு கள ஊழியராக, ஒரு விலங்குக்கு எந்த தடுப்பூசி தேவை என்று முடிவு செய்து, ஊசியை நீங்களே போடுவது உங்கள் வேலை.", "ಒಬ್ಬ ಕ್ಷೇತ್ರ ಸಿಬ್ಬಂದಿಯಾಗಿ, ಪ್ರಾಣಿಗೆ ಯಾವ ಲಸಿಕೆ ಬೇಕೆಂದು ನಿರ್ಧರಿಸಿ, ಚುಚ್ಚುಮದ್ದನ್ನು ನೀವೇ ಕೊಡುವುದು ನಿಮ್ಮ ಕೆಲಸ.", "फ़ील्ड कार्यकर्ता के तौर पर, यह तय करना कि जानवर को कौन सा टीका चाहिए और इंजेक्शन खुद लगाना, आपका काम है।"),
             answer: false,
             explain: L(
-              "No — choosing and giving a vaccine is done by a trained veterinarian or authorised vaccinator. Your role is to know the schedule, remind the farmer, and report."
+              "No — choosing and giving a vaccine is done by a trained veterinarian or authorised vaccinator. Your role is to know the schedule, remind the farmer, and report.",
+              "కాదు — టీకా ఎంచుకోవడం, ఇవ్వడం ఎప్పుడూ శిక్షణ పొందిన వెటర్నరీ డాక్టర్ లేదా అధీకృత వ్యాక్సినేటర్ మాత్రమే చేస్తారు. మీ పాత్ర షెడ్యూల్ తెలుసుకోవడం, రైతుకు గుర్తుచేయడం, తెలియజేయడం.",
+              "இல்லை — தடுப்பூசியை தேர்வு செய்து கொடுப்பது பயிற்சி பெற்ற வெட்டரினரி டாக்டர் அல்லது அங்கீகரிக்கப்பட்ட தடுப்பூசி போடுபவரால் மட்டுமே செய்யப்படுகிறது. உங்கள் பங்கு அட்டவணையை அறிவது, விவசாயிக்கு நினைவூட்டுவது, தெரிவிப்பது.",
+              "ಇಲ್ಲ — ಲಸಿಕೆ ಆಯ್ಕೆ ಮಾಡುವುದು ಮತ್ತು ಕೊಡುವುದನ್ನು ತರಬೇತಿ ಪಡೆದ ಪಶುವೈದ್ಯರು ಅಥವಾ ಅಧಿಕೃತ ಲಸಿಕೆದಾರರು ಮಾತ್ರ ಮಾಡುತ್ತಾರೆ. ನಿಮ್ಮ ಪಾತ್ರ ವೇಳಾಪಟ್ಟಿ ತಿಳಿಯುವುದು, ರೈತನಿಗೆ ನೆನಪಿಸುವುದು, ವರದಿ ಮಾಡುವುದು.",
+              "नहीं — टीका चुनना और लगाना हमेशा प्रशिक्षित डॉक्टर या अधिकृत टीकाकर्ता ही करता है। आपकी भूमिका शेड्यूल जानना, किसान को याद दिलाना और सूचना देना है।"
             ),
           },
         ],
