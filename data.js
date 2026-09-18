@@ -6273,132 +6273,160 @@ export const MODULES = [
           },
           {
             type: "text",
-            heading: L("Why This Matters So Much"),
+            heading: L("Why This Matters So Much", "ఇది ఎందుకు ఇంత ముఖ్యమైనది", "இது ஏன் இவ்வளவு முக்கியம்", "ಇದು ಏಕೆ ಇಷ್ಟು ಮುಖ್ಯ", "यह इतना महत्वपूर्ण क्यों है"),
             html: L(
-              "Zoonotic diseases are not rare or unusual — they make up about <b>61%</b> of all known infectious diseases. Even more strikingly, out of 175 diseases that are newly emerging around the world, about <b>75%</b> of them are zoonotic. There are roughly <b>45 zoonotic diseases</b> that are known to be able to spread from cattle. Because dairy farmers and farm workers are in close daily contact with their animals, they are always at some risk of picking up an infection from them."
+              "Zoonotic diseases are not rare or unusual — they make up about <b>61%</b> of all known infectious diseases. Even more strikingly, out of 175 diseases that are newly emerging around the world, about <b>75%</b> of them are zoonotic. There are roughly <b>45 zoonotic diseases</b> that are known to be able to spread from cattle. Because dairy farmers and farm workers are in close daily contact with their animals, they are always at some risk of picking up an infection from them.",
+              "జూనోటిక్ వ్యాధులు అరుదైనవి లేదా అసాధారణమైనవి కావు — అవి తెలిసిన అన్ని అంటు వ్యాధులలో సుమారు <b>61%</b> ఉంటాయి. ఇంకా ఆశ్చర్యకరంగా, ప్రపంచవ్యాప్తంగా కొత్తగా వెలువడుతున్న 175 వ్యాధులలో, సుమారు <b>75%</b> జూనోటిక్ వ్యాధులే. పశువుల నుండి వ్యాపించగలవని తెలిసిన సుమారు <b>45 జూనోటిక్ వ్యాధులు</b> ఉన్నాయి. పాడి రైతులు మరియు వ్యవసాయ కార్మికులు తమ జంతువులతో ప్రతిరోజూ దగ్గరి సంబంధంలో ఉంటారు కాబట్టి, వారికి వాటి నుండి సంక్రమణ సోకే ప్రమాదం ఎల్లప్పుడూ ఉంటుంది.",
+              "விலங்கு-மனித நோய்கள் அரிதானவை அல்லது அசாதாரணமானவை அல்ல — அவை தெரிந்த அனைத்து தொற்று நோய்களில் சுமார் <b>61%</b> ஆகும். இன்னும் குறிப்பிடத்தக்கது, உலகம் முழுவதும் புதிதாக வெளிப்படும் 175 நோய்களில், சுமார் <b>75%</b> விலங்கு-மனித நோய்களே. பசுக்களிலிருந்து பரவக்கூடும் என்று அறியப்பட்ட சுமார் <b>45 விலங்கு-மனித நோய்கள்</b> உள்ளன. பால் விவசாயிகளும் பண்ணைத் தொழிலாளர்களும் தங்கள் விலங்குகளுடன் தினமும் நெருக்கமாக இருப்பதால், அவர்களுக்கு அவற்றிலிருந்து தொற்று பரவும் அபாயம் எப்போதும் உள்ளது.",
+              "ಝೂನೋಟಿಕ್ ರೋಗಗಳು ಅಪರೂಪವಲ್ಲ ಅಥವಾ ಅಸಾಮಾನ್ಯವಲ್ಲ — ಅವು ತಿಳಿದಿರುವ ಎಲ್ಲಾ ಸಾಂಕ್ರಾಮಿಕ ರೋಗಗಳಲ್ಲಿ ಸುಮಾರು <b>61%</b> ಆಗಿವೆ. ಇನ್ನೂ ಗಮನಾರ್ಹವಾಗಿ, ಜಗತ್ತಿನಾದ್ಯಂತ ಹೊಸದಾಗಿ ಹೊರಹೊಮ್ಮುತ್ತಿರುವ 175 ರೋಗಗಳಲ್ಲಿ, ಸುಮಾರು <b>75%</b> ಝೂನೋಟಿಕ್ ಆಗಿವೆ. ಜಾನುವಾರುಗಳಿಂದ ಹರಡಬಹುದೆಂದು ತಿಳಿದಿರುವ ಸುಮಾರು <b>45 ಝೂನೋಟಿಕ್ ರೋಗಗಳಿವೆ</b>. ಹೈನುಗಾರರು ಮತ್ತು ಕೃಷಿ ಕಾರ್ಮಿಕರು ತಮ್ಮ ಪ್ರಾಣಿಗಳೊಂದಿಗೆ ಪ್ರತಿದಿನ ಹತ್ತಿರದ ಸಂಪರ್ಕದಲ್ಲಿರುವುದರಿಂದ, ಅವರಿಗೆ ಅವುಗಳಿಂದ ಸೋಂಕು ತಗುಲುವ ಅಪಾಯ ಯಾವಾಗಲೂ ಇರುತ್ತದೆ.",
+              "ज़ूनोटिक रोग दुर्लभ या असामान्य नहीं हैं — वे सभी ज्ञात संक्रामक रोगों का लगभग <b>61%</b> हैं। और भी चौंकाने वाली बात यह है कि दुनिया भर में नई उभर रही 175 बीमारियों में से, लगभग <b>75%</b> ज़ूनोटिक हैं। लगभग <b>45 ज़ूनोटिक रोग</b> हैं जो पशुओं से फैल सकते हैं। चूंकि डेयरी किसान और खेत के कर्मचारी अपने जानवरों के रोज़ाना नज़दीकी संपर्क में रहते हैं, उन्हें हमेशा उनसे संक्रमण होने का कुछ खतरा रहता है।"
             ),
           },
           {
             type: "stat-grid",
             items: [
               {
-                label: L("Poor hygiene"),
-                text: L("Not washing hands, or not keeping sheds and equipment clean, makes it easier for germs to pass from animal to person."),
+                label: L("Poor hygiene", "సరైన పరిశుభ్రత లేకపోవడం", "மோசமான சுகாதாரம்", "ಕಳಪೆ ನೈರ್ಮಲ್ಯ", "खराब स्वच्छता"),
+                text: L("Not washing hands, or not keeping sheds and equipment clean, makes it easier for germs to pass from animal to person.", "చేతులు కడుక్కోకపోవడం, లేదా షెడ్లు మరియు పరికరాలను శుభ్రంగా ఉంచకపోవడం జంతువు నుండి మనిషికి క్రిములు వ్యాపించడాన్ని సులభతరం చేస్తుంది.", "கைகளை கழுவாமல் இருப்பது, அல்லது கொட்டகைகள் மற்றும் கருவிகளை சுத்தமாக வைக்காமல் இருப்பது விலங்கிலிருந்து மனிதருக்கு கிருமிகள் பரவுவதை எளிதாக்குகிறது.", "ಕೈಗಳನ್ನು ತೊಳೆಯದಿರುವುದು, ಅಥವಾ ಶೆಡ್‌ಗಳು ಮತ್ತು ಉಪಕರಣಗಳನ್ನು ಸ್ವಚ್ಛವಾಗಿಡದಿರುವುದು ಪ್ರಾಣಿಯಿಂದ ವ್ಯಕ್ತಿಗೆ ಸೂಕ್ಷ್ಮಜೀವಿಗಳು ಹರಡುವುದನ್ನು ಸುಲಭಗೊಳಿಸುತ್ತದೆ.", "हाथ न धोना, या शेड और उपकरणों को साफ न रखना, जानवर से इंसान में कीटाणु फैलना आसान बना देता है।"),
               },
               {
-                label: L("Malnutrition"),
-                text: L("A person who is poorly nourished has a weaker ability to fight off infection if exposed to one."),
+                label: L("Malnutrition", "పోషకాహార లోపం", "ஊட்டச்சத்து குறைபாடு", "ಅಪೌಷ್ಟಿಕತೆ", "कुपोषण"),
+                text: L("A person who is poorly nourished has a weaker ability to fight off infection if exposed to one.", "సరిగ్గా పోషణ పొందని వ్యక్తికి సంక్రమణకు గురైతే దానిని ఎదుర్కొనే సామర్థ్యం బలహీనంగా ఉంటుంది.", "சரியாக ஊட்டச்சத்து பெறாத ஒருவருக்கு தொற்று ஏற்பட்டால் அதை எதிர்த்துப் போராடும் திறன் பலவீனமாக இருக்கும்.", "ಸರಿಯಾಗಿ ಪೋಷಣೆ ಪಡೆಯದ ವ್ಯಕ್ತಿಗೆ ಸೋಂಕು ತಗುಲಿದರೆ ಅದನ್ನು ಎದುರಿಸುವ ಸಾಮರ್ಥ್ಯ ದುರ್ಬಲವಾಗಿರುತ್ತದೆ.", "जो व्यक्ति कुपोषित होता है, उसमें संक्रमण से लड़ने की क्षमता कमज़ोर होती है।"),
               },
               {
-                label: L("Lack of awareness"),
-                text: L("Not knowing which diseases can spread from animals, or how, makes it harder to take simple precautions."),
+                label: L("Lack of awareness", "అవగాహన లేకపోవడం", "விழிப்புணர்வு இன்மை", "ಅರಿವಿನ ಕೊರತೆ", "जागरूकता की कमी"),
+                text: L("Not knowing which diseases can spread from animals, or how, makes it harder to take simple precautions.", "ఏ వ్యాధులు జంతువుల నుండి వ్యాపిస్తాయో, లేదా ఎలా వ్యాపిస్తాయో తెలియకపోవడం సాధారణ జాగ్రత్తలు తీసుకోవడాన్ని కష్టతరం చేస్తుంది.", "எந்த நோய்கள் விலங்குகளிலிருந்து பரவும், அல்லது எப்படி பரவும் என்று தெரியாமல் இருப்பது எளிய முன்னெச்சரிக்கைகளை எடுப்பதை கடினமாக்குகிறது.", "ಯಾವ ರೋಗಗಳು ಪ್ರಾಣಿಗಳಿಂದ ಹರಡಬಹುದು, ಅಥವಾ ಹೇಗೆ ಹರಡಬಹುದು ಎಂದು ತಿಳಿಯದಿರುವುದು ಸರಳ ಮುನ್ನೆಚ್ಚರಿಕೆಗಳನ್ನು ತೆಗೆದುಕೊಳ್ಳುವುದನ್ನು ಕಷ್ಟಕರವಾಗಿಸುತ್ತದೆ.", "यह न जानना कि कौन सी बीमारियाँ जानवरों से फैल सकती हैं, या कैसे, सरल सावधानियाँ बरतना मुश्किल बना देता है।"),
               },
               {
-                label: L("Close contact with animals"),
-                text: L("Handling animals, their milk, their waste, or assisting with births every day naturally increases the chances of exposure."),
+                label: L("Close contact with animals", "జంతువులతో దగ్గరి సంబంధం", "விலங்குகளுடன் நெருங்கிய தொடர்பு", "ಪ್ರಾಣಿಗಳೊಂದಿಗೆ ನಿಕಟ ಸಂಪರ್ಕ", "जानवरों के साथ करीबी संपर्क"),
+                text: L("Handling animals, their milk, their waste, or assisting with births every day naturally increases the chances of exposure.", "ప్రతిరోజూ జంతువులను, వాటి పాలను, వాటి వ్యర్థాలను నిర్వహించడం, లేదా ప్రసవాలలో సహాయం చేయడం సహజంగానే బహిర్గతమయ్యే అవకాశాలను పెంచుతుంది.", "ஒவ்வொரு நாளும் விலங்குகளை, அவற்றின் பாலை, அவற்றின் கழிவுகளை கையாளுவது, அல்லது பிரசவங்களில் உதவுவது இயற்கையாகவே தொடர்பு ஏற்படும் வாய்ப்புகளை அதிகரிக்கிறது.", "ಪ್ರತಿದಿನ ಪ್ರಾಣಿಗಳನ್ನು, ಅವುಗಳ ಹಾಲನ್ನು, ಅವುಗಳ ತ್ಯಾಜ್ಯವನ್ನು ನಿರ್ವಹಿಸುವುದು, ಅಥವಾ ಹೆರಿಗೆಗಳಲ್ಲಿ ಸಹಾಯ ಮಾಡುವುದು ಸ್ವಾಭಾವಿಕವಾಗಿ ಒಡ್ಡಿಕೊಳ್ಳುವ ಸಾಧ್ಯತೆಗಳನ್ನು ಹೆಚ್ಚಿಸುತ್ತದೆ.", "हर दिन जानवरों, उनके दूध, उनके अपशिष्ट को संभालना, या प्रसव में मदद करना स्वाभाविक रूप से जोखिम की संभावना बढ़ाता है।"),
               },
             ],
           },
           {
             type: "callout",
             style: "tip",
-            heading: L("The Good News"),
+            heading: L("The Good News", "శుభవార్త", "நல்ல செய்தி", "ಒಳ್ಳೆಯ ಸುದ್ದಿ", "अच्छी खबर"),
             text: L(
-              "Zoonotic diseases can be cured if they are diagnosed and treated promptly. The key is not to ignore symptoms in yourself — fever, joint pain, stomach upset, or anything unusual — especially if you handle animals regularly. Mention your daily contact with cattle or buffaloes to a doctor so they can consider it when checking you."
+              "Zoonotic diseases can be cured if they are diagnosed and treated promptly. The key is not to ignore symptoms in yourself — fever, joint pain, stomach upset, or anything unusual — especially if you handle animals regularly. Mention your daily contact with cattle or buffaloes to a doctor so they can consider it when checking you.",
+              "జూనోటిక్ వ్యాధులను వెంటనే నిర్ధారించి చికిత్స చేస్తే నయం చేయవచ్చు. కీలకమైనది మీలో లక్షణాలను — జ్వరం, కీళ్ల నొప్పులు, కడుపు అస్వస్థత, లేదా అసాధారణమైనది ఏదైనా — ముఖ్యంగా మీరు జంతువులను క్రమం తప్పకుండా నిర్వహిస్తుంటే వాటిని విస్మరించకపోవడం. మిమ్మల్ని పరీక్షించేటప్పుడు వైద్యుడు దానిని పరిగణించేలా పశువులు లేదా గేదెలతో మీ రోజువారీ సంబంధాన్ని వైద్యుడికి తెలియజేయండి.",
+              "விலங்கு-மனித நோய்களை உடனடியாக கண்டறிந்து சிகிச்சை அளித்தால் குணப்படுத்த முடியும். முக்கியமானது உங்களில் அறிகுறிகளை — காய்ச்சல், மூட்டு வலி, வயிற்று கோளாறு, அல்லது அசாதாரணமான எதுவும் — குறிப்பாக நீங்கள் தொடர்ந்து விலங்குகளை கையாளுகிறீர்கள் என்றால் அவற்றை புறக்கணிக்காமல் இருப்பதுதான். உங்களை பரிசோதிக்கும்போது கருத்தில் கொள்ள மாடு அல்லது எருமைகளுடன் உங்கள் அன்றாட தொடர்பை ஒரு மருத்துவரிடம் தெரிவிக்கவும்.",
+              "ಝೂನೋಟಿಕ್ ರೋಗಗಳನ್ನು ತಕ್ಷಣ ಪತ್ತೆ ಮಾಡಿ ಚಿಕಿತ್ಸೆ ನೀಡಿದರೆ ಗುಣಪಡಿಸಬಹುದು. ಮುಖ್ಯವಾದುದೆಂದರೆ ನಿಮ್ಮಲ್ಲಿ ಲಕ್ಷಣಗಳನ್ನು — ಜ್ವರ, ಕೀಲು ನೋವು, ಹೊಟ್ಟೆ ತೊಂದರೆ, ಅಥವಾ ಅಸಾಮಾನ್ಯವಾದ ಯಾವುದೇ — ವಿಶೇಷವಾಗಿ ನೀವು ನಿಯಮಿತವಾಗಿ ಪ್ರಾಣಿಗಳನ್ನು ನಿರ್ವಹಿಸಿದರೆ ನಿರ್ಲಕ್ಷಿಸದಿರುವುದು. ನಿಮ್ಮನ್ನು ಪರೀಕ್ಷಿಸುವಾಗ ಪರಿಗಣಿಸಲು ಜಾನುವಾರು ಅಥವಾ ಎಮ್ಮೆಗಳೊಂದಿಗಿನ ನಿಮ್ಮ ದೈನಂದಿನ ಸಂಪರ್ಕವನ್ನು ವೈದ್ಯರಿಗೆ ತಿಳಿಸಿ.",
+              "ज़ूनोटिक रोगों का समय पर निदान और इलाज किया जाए तो उन्हें ठीक किया जा सकता है। मुख्य बात यह है कि अपने अंदर लक्षणों को — बुखार, जोड़ों का दर्द, पेट की गड़बड़ी, या कुछ भी असामान्य — नज़रअंदाज़ न करें, खासकर अगर आप नियमित रूप से जानवरों को संभालते हैं। डॉक्टर को गायों या भैंसों के साथ अपने रोज़ाना संपर्क के बारे में बताएं ताकि वे आपकी जाँच करते समय इसे ध्यान में रख सकें।"
             ),
           },
         ],
         check: [
           {
             type: "mcq",
-            q: L("What does the word 'zoonotic' mean?"),
+            q: L("What does the word 'zoonotic' mean?", "'జూనోటిక్' అనే పదానికి అర్థం ఏమిటి?", "'விலங்கு-மனித நோய்' என்ற சொல்லின் அர்த்தம் என்ன?", "'ಝೂನೋಟಿಕ್' ಪದದ ಅರ್ಥವೇನು?", "'ज़ूनोटिक' शब्द का क्या मतलब है?"),
             options: [
-              L("A disease that only affects very old animals"),
-              L("A disease or infection that can spread naturally between animals and people"),
-              L("A vaccine given to calves"),
-              L("A disease that only spreads between two humans"),
+              L("A disease that only affects very old animals", "చాలా వృద్ధ జంతువులను మాత్రమే ప్రభావితం చేసే వ్యాధి", "மிகவும் முதிர்ந்த விலங்குகளை மட்டுமே பாதிக்கும் ஒரு நோய்", "ಬಹಳ ವಯಸ್ಸಾದ ಪ್ರಾಣಿಗಳ ಮೇಲೆ ಮಾತ್ರ ಪರಿಣಾಮ ಬೀರುವ ರೋಗ", "एक ऐसी बीमारी जो केवल बहुत बूढ़े जानवरों को प्रभावित करती है"),
+              L("A disease or infection that can spread naturally between animals and people", "జంతువులు మరియు మనుషుల మధ్య సహజంగా వ్యాపించే వ్యాధి లేదా సంక్రమణ", "விலங்குகள் மற்றும் மனிதர்களுக்கு இடையே இயற்கையாக பரவக்கூடிய ஒரு நோய் அல்லது தொற்று", "ಪ್ರಾಣಿಗಳು ಮತ್ತು ಜನರ ನಡುವೆ ಸ್ವಾಭಾವಿಕವಾಗಿ ಹರಡಬಹುದಾದ ರೋಗ ಅಥವಾ ಸೋಂಕು", "एक ऐसी बीमारी या संक्रमण जो जानवरों और लोगों के बीच स्वाभाविक रूप से फैल सकता है"),
+              L("A vaccine given to calves", "దూడలకు ఇచ్చే వ్యాక్సిన్", "கன்றுகளுக்கு கொடுக்கப்படும் தடுப்பூசி", "ಕರುಗಳಿಗೆ ನೀಡುವ ಲಸಿಕೆ", "बछड़ों को दिया जाने वाला टीका"),
+              L("A disease that only spreads between two humans", "ఇద్దరు మనుషుల మధ్య మాత్రమే వ్యాపించే వ్యాధి", "இரண்டு மனிதர்களுக்கு இடையே மட்டுமே பரவும் ஒரு நோய்", "ಇಬ್ಬರು ಮನುಷ್ಯರ ನಡುವೆ ಮಾತ್ರ ಹರಡುವ ರೋಗ", "एक ऐसी बीमारी जो केवल दो इंसानों के बीच फैलती है"),
             ],
             answer: 1,
-            explain: L("Zoonotic (zoonosis) means a disease or infection that can pass naturally between animals and humans."),
+            explain: L("Zoonotic (zoonosis) means a disease or infection that can pass naturally between animals and humans.", "జూనోటిక్ (జూనోసిస్) అంటే జంతువులు మరియు మనుషుల మధ్య సహజంగా వ్యాపించే వ్యాధి లేదా సంక్రమణ.", "விலங்கு-மனித நோய் (ஜூனோசிஸ்) என்பது விலங்குகள் மற்றும் மனிதர்களுக்கு இடையே இயற்கையாக பரவக்கூடிய ஒரு நோய் அல்லது தொற்று.", "ಝೂನೋಟಿಕ್ (ಝೂನೋಸಿಸ್) ಎಂದರೆ ಪ್ರಾಣಿಗಳು ಮತ್ತು ಮಾನವರ ನಡುವೆ ಸ್ವಾಭಾವಿಕವಾಗಿ ಹರಡಬಹುದಾದ ರೋಗ ಅಥವಾ ಸೋಂಕು.", "ज़ूनोटिक (ज़ूनोसिस) का मतलब है एक ऐसी बीमारी या संक्रमण जो जानवरों और इंसानों के बीच स्वाभाविक रूप से फैल सकता है।"),
           },
           {
             type: "truefalse",
-            q: L("Zoonotic diseases can be cured if they are diagnosed and treated promptly."),
+            q: L("Zoonotic diseases can be cured if they are diagnosed and treated promptly.", "జూనోటిక్ వ్యాధులను వెంటనే నిర్ధారించి చికిత్స చేస్తే నయం చేయవచ్చు.", "விலங்கு-மனித நோய்களை உடனடியாக கண்டறிந்து சிகிச்சை அளித்தால் குணப்படுத்த முடியும்.", "ಝೂನೋಟಿಕ್ ರೋಗಗಳನ್ನು ತಕ್ಷಣ ಪತ್ತೆ ಮಾಡಿ ಚಿಕಿತ್ಸೆ ನೀಡಿದರೆ ಗುಣಪಡಿಸಬಹುದು.", "ज़ूनोटिक रोगों का समय पर निदान और इलाज किया जाए तो उन्हें ठीक किया जा सकता है।"),
             answer: true,
-            explain: L("Yes — the key is not ignoring symptoms in yourself, and telling a doctor about your regular contact with animals."),
+            explain: L("Yes — the key is not ignoring symptoms in yourself, and telling a doctor about your regular contact with animals.", "అవును — కీలకమైనది మీలో లక్షణాలను విస్మరించకపోవడం, మరియు జంతువులతో మీ క్రమం తప్పకుండా సంబంధం గురించి వైద్యుడికి చెప్పడం.", "ஆம் — முக்கியமானது உங்களில் அறிகுறிகளை புறக்கணிக்காமல் இருப்பது, மற்றும் விலங்குகளுடன் உங்கள் வழக்கமான தொடர்பைப் பற்றி ஒரு மருத்துவரிடம் தெரிவிப்பது.", "ಹೌದು — ಮುಖ್ಯವಾದುದೆಂದರೆ ನಿಮ್ಮಲ್ಲಿ ಲಕ್ಷಣಗಳನ್ನು ನಿರ್ಲಕ್ಷಿಸದಿರುವುದು, ಮತ್ತು ಪ್ರಾಣಿಗಳೊಂದಿಗಿನ ನಿಮ್ಮ ನಿಯಮಿತ ಸಂಪರ್ಕದ ಬಗ್ಗೆ ವೈದ್ಯರಿಗೆ ತಿಳಿಸುವುದು.", "हाँ — मुख्य बात है अपने अंदर लक्षणों को नज़रअंदाज़ न करना, और जानवरों के साथ अपने नियमित संपर्क के बारे में डॉक्टर को बताना।"),
           },
         ],
       },
       {
         id: "t-m11-three-diseases",
-        title: L("Three Diseases You Can Get From Cattle"),
+        title: L("Three Diseases You Can Get From Cattle", "పశువుల నుండి మీకు రాగల మూడు వ్యాధులు", "மாடுகளிலிருந்து உங்களுக்கு ஏற்படக்கூடிய மூன்று நோய்கள்", "ಜಾನುವಾರುಗಳಿಂದ ನಿಮಗೆ ಬರಬಹುದಾದ ಮೂರು ರೋಗಗಳು", "पशुओं से आपको हो सकने वाली तीन बीमारियाँ"),
         teach: [
           {
             type: "text",
-            heading: L("A. Human Brucellosis"),
+            heading: L("A. Human Brucellosis", "A. మానవ బ్రూసెల్లోసిస్", "A. மனித புருசெல்லோசிஸ்", "A. ಮಾನವ ಬ್ರೂಸೆಲ್ಲೋಸಿಸ್", "A. मानव ब्रुसेलोसिस"),
             html: L(
-              "<b>Brucellosis</b> is considered a significant public health problem in India, though fewer than 10% of human cases may actually be recognised and treated. People usually get infected by drinking <b>raw (unboiled) milk</b> from an infected animal, or through contact with an infected animal's secretions on the skin or on moist areas like the eyes. Accidental injection with the S19 vaccine (used to protect cattle) can also cause infection in a person. Common symptoms include fever that comes and goes, joint pain and swelling, sweating, dizziness, headaches, and chest or stomach pain."
+              "<b>Brucellosis</b> is considered a significant public health problem in India, though fewer than 10% of human cases may actually be recognised and treated. People usually get infected by drinking <b>raw (unboiled) milk</b> from an infected animal, or through contact with an infected animal's secretions on the skin or on moist areas like the eyes. Accidental injection with the S19 vaccine (used to protect cattle) can also cause infection in a person. Common symptoms include fever that comes and goes, joint pain and swelling, sweating, dizziness, headaches, and chest or stomach pain.",
+              "<b>బ్రూసెల్లోసిస్</b> భారతదేశంలో ఒక ముఖ్యమైన ప్రజారోగ్య సమస్యగా పరిగణించబడుతుంది, అయితే మానవ కేసులలో 10% కంటే తక్కువ మాత్రమే వాస్తవానికి గుర్తించి చికిత్స చేయబడతాయి. సాధారణంగా ప్రజలు సోకిన జంతువు నుండి <b>ముడి (ఉడకని) పాలు</b> తాగడం ద్వారా, లేదా సోకిన జంతువు స్రావాలు చర్మంపై లేదా కళ్ళ వంటి తడి ప్రదేశాలపై తాకడం ద్వారా సంక్రమిస్తారు. S19 వ్యాక్సిన్ (పశువులను రక్షించడానికి వాడేది) ప్రమాదవశాత్తు ఇంజెక్షన్ కూడా ఒక వ్యక్తికి సంక్రమణ కలిగించవచ్చు. సాధారణ లక్షణాలలో వచ్చిపోయే జ్వరం, కీళ్ల నొప్పి మరియు వాపు, చెమట పట్టడం, తలతిరగడం, తలనొప్పులు, మరియు ఛాతీ లేదా కడుపు నొప్పి ఉంటాయి.",
+              "<b>புருசெல்லோசிஸ்</b> இந்தியாவில் ஒரு குறிப்பிடத்தக்க பொது சுகாதார பிரச்சனையாக கருதப்படுகிறது, இருப்பினும் மனித வழக்குகளில் 10% க்கும் குறைவானவை மட்டுமே உண்மையில் கண்டறியப்பட்டு சிகிச்சை அளிக்கப்படலாம். மக்கள் பொதுவாக தொற்று ஏற்பட்ட விலங்கிலிருந்து <b>பச்சை (கொதிக்கவைக்காத) பால்</b> குடிப்பதன் மூலம், அல்லது தொற்று ஏற்பட்ட விலங்கின் சுரப்புகள் தோலில் அல்லது கண்கள் போன்ற ஈரமான பகுதிகளில் படுவதன் மூலம் தொற்று அடைகின்றனர். S19 தடுப்பூசி (மாடுகளைப் பாதுகாக்க பயன்படுத்தப்படுவது) தற்செயலாக செலுத்தப்படுவதும் ஒரு நபருக்கு தொற்றை ஏற்படுத்தலாம். பொதுவான அறிகுறிகளில் வந்து போகும் காய்ச்சல், மூட்டு வலி மற்றும் வீக்கம், வியர்வை, தலைச்சுற்றல், தலைவலி, மற்றும் மார்பு அல்லது வயிற்று வலி ஆகியவை அடங்கும்.",
+              "<b>ಬ್ರೂಸೆಲ್ಲೋಸಿಸ್</b> ಭಾರತದಲ್ಲಿ ಗಮನಾರ್ಹ ಸಾರ್ವಜನಿಕ ಆರೋಗ್ಯ ಸಮಸ್ಯೆಯಾಗಿ ಪರಿಗಣಿಸಲಾಗಿದೆ, ಆದರೆ ಮಾನವ ಪ್ರಕರಣಗಳಲ್ಲಿ 10% ಕ್ಕಿಂತ ಕಡಿಮೆ ಮಾತ್ರ ವಾಸ್ತವವಾಗಿ ಗುರುತಿಸಿ ಚಿಕಿತ್ಸೆ ನೀಡಬಹುದು. ಜನರು ಸಾಮಾನ್ಯವಾಗಿ ಸೋಂಕಿತ ಪ್ರಾಣಿಯಿಂದ <b>ಕಚ್ಚಾ (ಕುದಿಸದ) ಹಾಲು</b> ಕುಡಿಯುವ ಮೂಲಕ, ಅಥವಾ ಸೋಂಕಿತ ಪ್ರಾಣಿಯ ಸ್ರಾವಗಳು ಚರ್ಮದ ಮೇಲೆ ಅಥವಾ ಕಣ್ಣುಗಳಂತಹ ತೇವ ಪ್ರದೇಶಗಳ ಮೇಲೆ ತಗುಲುವ ಮೂಲಕ ಸೋಂಕಿಗೆ ಒಳಗಾಗುತ್ತಾರೆ. S19 ಲಸಿಕೆ (ಜಾನುವಾರುಗಳನ್ನು ರಕ್ಷಿಸಲು ಬಳಸುವುದು) ಆಕಸ್ಮಿಕ ಚುಚ್ಚುಮದ್ದು ಸಹ ಒಬ್ಬ ವ್ಯಕ್ತಿಗೆ ಸೋಂಕನ್ನು ಉಂಟುಮಾಡಬಹುದು. ಸಾಮಾನ್ಯ ಲಕ್ಷಣಗಳಲ್ಲಿ ಬಂದು ಹೋಗುವ ಜ್ವರ, ಕೀಲು ನೋವು ಮತ್ತು ಊತ, ಬೆವರುವಿಕೆ, ತಲೆಸುತ್ತು, ತಲೆನೋವು, ಮತ್ತು ಎದೆ ಅಥವಾ ಹೊಟ್ಟೆ ನೋವು ಸೇರಿವೆ.",
+              "<b>ब्रुसेलोसिस</b> को भारत में एक महत्वपूर्ण सार्वजनिक स्वास्थ्य समस्या माना जाता है, हालांकि मानव मामलों में से 10% से भी कम की वास्तव में पहचान और इलाज हो पाता है। लोग आमतौर पर संक्रमित जानवर का <b>कच्चा (बिना उबाला) दूध</b> पीने से, या संक्रमित जानवर के स्राव के त्वचा या आँखों जैसे नम क्षेत्रों के संपर्क में आने से संक्रमित होते हैं। S19 टीके (पशुओं की सुरक्षा के लिए उपयोग होने वाले) का गलती से इंजेक्शन लगना भी किसी व्यक्ति में संक्रमण पैदा कर सकता है। सामान्य लक्षणों में आता-जाता बुखार, जोड़ों में दर्द और सूजन, पसीना आना, चक्कर आना, सिरदर्द, और छाती या पेट में दर्द शामिल हैं।"
             ),
           },
           {
             type: "glossary",
-            term: L("Conjunctiva"),
+            term: L("Conjunctiva", "కంజంక్టివా", "கண்படலம்", "ಕಂಜಂಕ್ಟಿವಾ", "कंजंक्टिवा"),
             meaning: L(
-              "The thin, moist lining that covers the white part of the eye and the inside of the eyelid. It's delicate, so infected fluid touching it can pass germs into the body — this is why splashes near the eyes matter."
+              "The thin, moist lining that covers the white part of the eye and the inside of the eyelid. It's delicate, so infected fluid touching it can pass germs into the body — this is why splashes near the eyes matter.",
+              "కంటి తెల్లని భాగాన్ని మరియు కనురెప్ప లోపలి భాగాన్ని కప్పే సన్నని, తడి పొర. ఇది సున్నితమైనది, కాబట్టి సోకిన ద్రవం దానిని తాకితే శరీరంలోకి క్రిములను పంపవచ్చు — అందుకే కళ్ళ దగ్గర చిందటం ముఖ్యమైనది.",
+              "கண்ணின் வெள்ளை பகுதியையும் கண்ணிமையின் உட்புறத்தையும் மூடும் மெல்லிய, ஈரமான படலம். இது மென்மையானது, எனவே தொற்று ஏற்பட்ட திரவம் அதைத் தொட்டால் உடலுக்குள் கிருமிகளை அனுப்பலாம் — அதனால்தான் கண்களுக்கு அருகில் தெறிப்பது முக்கியம்.",
+              "ಕಣ್ಣಿನ ಬಿಳಿ ಭಾಗ ಮತ್ತು ಕಣ್ಣುರೆಪ್ಪೆಯ ಒಳಭಾಗವನ್ನು ಆವರಿಸುವ ತೆಳುವಾದ, ತೇವ ಪದರ. ಇದು ಸೂಕ್ಷ್ಮವಾಗಿದೆ, ಆದ್ದರಿಂದ ಸೋಂಕಿತ ದ್ರವ ಅದನ್ನು ಮುಟ್ಟಿದರೆ ದೇಹಕ್ಕೆ ಸೂಕ್ಷ್ಮಜೀವಿಗಳನ್ನು ರವಾನಿಸಬಹುದು — ಆದ್ದರಿಂದ ಕಣ್ಣುಗಳ ಬಳಿ ಸಿಡಿಯುವುದು ಮುಖ್ಯ.",
+              "आँख के सफेद भाग और पलक के अंदर की परत को ढकने वाली पतली, नम झिल्ली। यह नाज़ुक होती है, इसलिए संक्रमित तरल पदार्थ के इसे छूने से शरीर में कीटाणु जा सकते हैं — इसलिए आँखों के पास छींटे पड़ना मायने रखता है।"
             ),
           },
           {
             type: "text",
-            heading: L("B. Human Tuberculosis (TB)"),
+            heading: L("B. Human Tuberculosis (TB)", "B. మానవ క్షయ (టీబీ)", "B. மனித காசநோய் (டிபி)", "B. ಮಾನವ ಕ್ಷಯರೋಗ (ಟಿಬಿ)", "B. मानव तपेदिक (टीबी)"),
             html: L(
-              "TB caused by the bovine (cattle) TB germ looks the same in people as human TB — telling them apart needs special lab tests. There may be no symptoms at all until the disease is quite advanced; when symptoms do appear, they include cough, weight loss, and poor appetite. People usually get infected by drinking contaminated milk from an infected animal, or through close contact with an infected animal."
+              "TB caused by the bovine (cattle) TB germ looks the same in people as human TB — telling them apart needs special lab tests. There may be no symptoms at all until the disease is quite advanced; when symptoms do appear, they include cough, weight loss, and poor appetite. People usually get infected by drinking contaminated milk from an infected animal, or through close contact with an infected animal.",
+              "పశువుల (బోవైన్) టీబీ క్రిమి వల్ల వచ్చే టీబీ మనుషులలో మానవ టీబీ లాగానే కనిపిస్తుంది — వాటిని వేరు చేయడానికి ప్రత్యేక ల్యాబ్ పరీక్షలు అవసరం. వ్యాధి బాగా ముదిరే వరకు ఎలాంటి లక్షణాలు కనిపించకపోవచ్చు; లక్షణాలు కనిపించినప్పుడు, వాటిలో దగ్గు, బరువు తగ్గడం, మరియు ఆకలి తగ్గడం ఉంటాయి. సాధారణంగా ప్రజలు సోకిన జంతువు నుండి కలుషితమైన పాలు తాగడం ద్వారా, లేదా సోకిన జంతువుతో దగ్గరి సంబంధం ద్వారా సంక్రమిస్తారు.",
+              "மாட்டு (பசு) டிபி கிருமியால் ஏற்படும் டிபி மனிதர்களில் மனித டிபி போலவே தோன்றும் — அவற்றை வேறுபடுத்த சிறப்பு ஆய்வக பரிசோதனைகள் தேவை. நோய் நன்கு முற்றும் வரை எந்த அறிகுறியும் இல்லாமல் இருக்கலாம்; அறிகுறிகள் தோன்றும்போது, அவற்றில் இருமல், எடை இழப்பு, மற்றும் பசியின்மை அடங்கும். மக்கள் பொதுவாக தொற்று ஏற்பட்ட விலங்கிலிருந்து கறைபடிந்த பால் குடிப்பதன் மூலம், அல்லது தொற்று ஏற்பட்ட விலங்குடன் நெருங்கிய தொடர்பின் மூலம் தொற்று அடைகின்றனர்.",
+              "ದನದ (ಬೋವಿನ್) ಟಿಬಿ ಸೂಕ್ಷ್ಮಾಣುವಿನಿಂದ ಉಂಟಾಗುವ ಟಿಬಿ ಜನರಲ್ಲಿ ಮಾನವ ಟಿಬಿಯಂತೆಯೇ ಕಾಣುತ್ತದೆ — ಅವುಗಳನ್ನು ಪ್ರತ್ಯೇಕಿಸಲು ವಿಶೇಷ ಲ್ಯಾಬ್ ಪರೀಕ್ಷೆಗಳು ಬೇಕಾಗುತ್ತವೆ. ರೋಗ ಸಾಕಷ್ಟು ಮುಂದುವರಿಯುವ ತನಕ ಯಾವುದೇ ಲಕ್ಷಣಗಳಿಲ್ಲದಿರಬಹುದು; ಲಕ್ಷಣಗಳು ಕಾಣಿಸಿಕೊಂಡಾಗ, ಅವುಗಳಲ್ಲಿ ಕೆಮ್ಮು, ತೂಕ ಇಳಿಕೆ, ಮತ್ತು ಕಳಪೆ ಹಸಿವು ಸೇರಿವೆ. ಜನರು ಸಾಮಾನ್ಯವಾಗಿ ಸೋಂಕಿತ ಪ್ರಾಣಿಯಿಂದ ಕಲುಷಿತ ಹಾಲು ಕುಡಿಯುವ ಮೂಲಕ, ಅಥವಾ ಸೋಂಕಿತ ಪ್ರಾಣಿಯೊಂದಿಗೆ ನಿಕಟ ಸಂಪರ್ಕದ ಮೂಲಕ ಸೋಂಕಿಗೆ ಒಳಗಾಗುತ್ತಾರೆ.",
+              "गोजातीय (पशु) टीबी कीटाणु से होने वाली टीबी लोगों में मानव टीबी जैसी ही दिखती है — उन्हें अलग बताने के लिए विशेष लैब परीक्षणों की ज़रूरत होती है। बीमारी काफी बढ़ जाने तक कोई लक्षण नहीं हो सकते; जब लक्षण दिखते हैं, तो उनमें खांसी, वज़न कम होना, और भूख न लगना शामिल हैं। लोग आमतौर पर संक्रमित जानवर का दूषित दूध पीने से, या संक्रमित जानवर के नज़दीकी संपर्क से संक्रमित होते हैं।"
             ),
           },
           {
             type: "text",
-            heading: L("C. Leptospirosis"),
+            heading: L("C. Leptospirosis", "C. లెప్టోస్పైరోసిస్", "C. லெப்டோஸ்பைரோசிஸ்", "C. ಲೆಪ್ಟೋಸ್ಪೈರೋಸಿಸ್", "C. लेप्टोस्पायरोसिस"),
             html: L(
-              "Cattle are one of the main animal hosts of <b>Leptospirosis</b>. People most often get infected through contact with contaminated urine or uterine fluid (from calving), and through milking infected cattle. Infections are more common during the monsoon months. Common symptoms include fever, headache, nausea, vomiting, diarrhoea, jaundice (yellowing of the skin or eyes), and skin rashes."
+              "Cattle are one of the main animal hosts of <b>Leptospirosis</b>. People most often get infected through contact with contaminated urine or uterine fluid (from calving), and through milking infected cattle. Infections are more common during the monsoon months. Common symptoms include fever, headache, nausea, vomiting, diarrhoea, jaundice (yellowing of the skin or eyes), and skin rashes.",
+              "పశువులు <b>లెప్టోస్పైరోసిస్</b>కు ప్రధాన జంతు ఆశ్రయాలలో ఒకటి. సాధారణంగా ప్రజలు కలుషితమైన మూత్రం లేదా గర్భాశయ ద్రవం (ప్రసవం నుండి) తో సంబంధం ద్వారా, మరియు సోకిన పశువులను పాలు పితకడం ద్వారా సంక్రమిస్తారు. వర్షాకాలంలో సంక్రమణలు ఎక్కువగా ఉంటాయి. సాధారణ లక్షణాలలో జ్వరం, తలనొప్పి, వికారం, వాంతులు, విరేచనాలు, కామెర్లు (చర్మం లేదా కళ్ళు పసుపు రంగులోకి మారడం), మరియు చర్మంపై దద్దుర్లు ఉంటాయి.",
+              "<b>லெப்டோஸ்பைரோசிஸ்</b> நோய்க்கு மாடுகள் முக்கிய விலங்கு புரவலர்களில் ஒன்றாகும். மக்கள் பெரும்பாலும் கறைபடிந்த சிறுநீர் அல்லது கருப்பை திரவம் (ஈனுதலில் இருந்து) தொடர்பு மூலமாகவும், தொற்று ஏற்பட்ட மாடுகளின் பால் கறத்தல் மூலமாகவும் தொற்று அடைகின்றனர். பருவமழை மாதங்களில் தொற்றுகள் அதிகமாக காணப்படுகின்றன. பொதுவான அறிகுறிகளில் காய்ச்சல், தலைவலி, குமட்டல், வாந்தி, வயிற்றுப்போக்கு, மஞ்சள் காமாலை (தோல் அல்லது கண்கள் மஞ்சள் நிறமாதல்), மற்றும் தோல் தடிப்புகள் அடங்கும்.",
+              "<b>ಲೆಪ್ಟೋಸ್ಪೈರೋಸಿಸ್</b>ಗೆ ಜಾನುವಾರುಗಳು ಪ್ರಮುಖ ಪ್ರಾಣಿ ಆಶ್ರಯಗಳಲ್ಲಿ ಒಂದಾಗಿವೆ. ಜನರು ಹೆಚ್ಚಾಗಿ ಕಲುಷಿತ ಮೂತ್ರ ಅಥವಾ ಗರ್ಭಾಶಯದ ದ್ರವ (ಕರು ಹಾಕುವಿಕೆಯಿಂದ) ಸಂಪರ್ಕದ ಮೂಲಕ, ಮತ್ತು ಸೋಂಕಿತ ಜಾನುವಾರುಗಳ ಹಾಲು ಕರೆಯುವ ಮೂಲಕ ಸೋಂಕಿಗೆ ಒಳಗಾಗುತ್ತಾರೆ. ಮಳೆಗಾಲದ ತಿಂಗಳುಗಳಲ್ಲಿ ಸೋಂಕುಗಳು ಹೆಚ್ಚು ಸಾಮಾನ್ಯವಾಗಿವೆ. ಸಾಮಾನ್ಯ ಲಕ್ಷಣಗಳಲ್ಲಿ ಜ್ವರ, ತಲೆನೋವು, ವಾಕರಿಕೆ, ವಾಂತಿ, ಅತಿಸಾರ, ಕಾಮಾಲೆ (ಚರ್ಮ ಅಥವಾ ಕಣ್ಣುಗಳು ಹಳದಿಯಾಗುವುದು), ಮತ್ತು ಚರ್ಮದ ದದ್ದುಗಳು ಸೇರಿವೆ.",
+              "पशु <b>लेप्टोस्पायरोसिस</b> के मुख्य पशु आश्रयों में से एक हैं। लोग अक्सर दूषित पेशाब या गर्भाशय द्रव (ब्याने से) के संपर्क से, और संक्रमित पशुओं का दूध दुहने से संक्रमित होते हैं। मानसून के महीनों में संक्रमण ज़्यादा आम हैं। सामान्य लक्षणों में बुखार, सिरदर्द, जी मिचलाना, उल्टी, दस्त, पीलिया (त्वचा या आँखों का पीला पड़ना), और त्वचा पर चकत्ते शामिल हैं।"
             ),
           },
           {
             type: "stat-grid",
             items: [
               {
-                label: L("Brucellosis"),
-                text: L("Mainly spreads through raw milk, or through infected fluid touching the skin or eyes."),
+                label: L("Brucellosis", "బ్రూసెల్లోసిస్", "புருசெல்லோசிஸ்", "ಬ್ರೂಸೆಲ್ಲೋಸಿಸ್", "ब्रुसेलोसिस"),
+                text: L("Mainly spreads through raw milk, or through infected fluid touching the skin or eyes.", "ప్రధానంగా ముడి పాలు ద్వారా, లేదా సోకిన ద్రవం చర్మం లేదా కళ్ళను తాకడం ద్వారా వ్యాపిస్తుంది.", "முக்கியமாக பச்சைப் பால் மூலமாகவும், அல்லது தொற்று ஏற்பட்ட திரவம் தோல் அல்லது கண்களைத் தொடுவதன் மூலமாகவும் பரவுகிறது.", "ಮುಖ್ಯವಾಗಿ ಕಚ್ಚಾ ಹಾಲಿನ ಮೂಲಕ, ಅಥವಾ ಸೋಂಕಿತ ದ್ರವ ಚರ್ಮ ಅಥವಾ ಕಣ್ಣುಗಳನ್ನು ಮುಟ್ಟುವ ಮೂಲಕ ಹರಡುತ್ತದೆ.", "मुख्यतः कच्चे दूध से, या संक्रमित तरल पदार्थ के त्वचा या आँखों को छूने से फैलता है।"),
               },
               {
-                label: L("Human TB"),
-                text: L("Mainly spreads through contaminated milk, or close everyday contact with an infected animal."),
+                label: L("Human TB", "మానవ టీబీ", "மனித டிபி", "ಮಾನವ ಟಿಬಿ", "मानव टीबी"),
+                text: L("Mainly spreads through contaminated milk, or close everyday contact with an infected animal.", "ప్రధానంగా కలుషితమైన పాలు ద్వారా, లేదా సోకిన జంతువుతో దగ్గరి రోజువారీ సంబంధం ద్వారా వ్యాపిస్తుంది.", "முக்கியமாக கறைபடிந்த பால் மூலமாகவும், அல்லது தொற்று ஏற்பட்ட விலங்குடன் நெருங்கிய அன்றாட தொடர்பு மூலமாகவும் பரவுகிறது.", "ಮುಖ್ಯವಾಗಿ ಕಲುಷಿತ ಹಾಲಿನ ಮೂಲಕ, ಅಥವಾ ಸೋಂಕಿತ ಪ್ರಾಣಿಯೊಂದಿಗೆ ನಿಕಟ ದೈನಂದಿನ ಸಂಪರ್ಕದ ಮೂಲಕ ಹರಡುತ್ತದೆ.", "मुख्यतः दूषित दूध से, या संक्रमित जानवर के साथ नज़दीकी रोज़ाना संपर्क से फैलता है।"),
               },
               {
-                label: L("Leptospirosis"),
-                text: L("Mainly spreads through contact with infected urine or uterine fluid, or while milking — watch out especially in the monsoon."),
+                label: L("Leptospirosis", "లెప్టోస్పైరోసిస్", "லெப்டோஸ்பைரோசிஸ்", "ಲೆಪ್ಟೋಸ್ಪೈರೋಸಿಸ್", "लेप्टोस्पायरोसिस"),
+                text: L("Mainly spreads through contact with infected urine or uterine fluid, or while milking — watch out especially in the monsoon.", "ప్రధానంగా సోకిన మూత్రం లేదా గర్భాశయ ద్రవంతో సంబంధం ద్వారా, లేదా పాలు పితికేటప్పుడు వ్యాపిస్తుంది — ముఖ్యంగా వర్షాకాలంలో జాగ్రత్తగా ఉండండి.", "முக்கியமாக தொற்று ஏற்பட்ட சிறுநீர் அல்லது கருப்பை திரவத்துடன் தொடர்பு மூலமாகவும், அல்லது பால் கறக்கும்போதும் பரவுகிறது — குறிப்பாக பருவமழையில் கவனமாக இருங்கள்.", "ಮುಖ್ಯವಾಗಿ ಸೋಂಕಿತ ಮೂತ್ರ ಅಥವಾ ಗರ್ಭಾಶಯದ ದ್ರವದ ಸಂಪರ್ಕದ ಮೂಲಕ, ಅಥವಾ ಹಾಲು ಕರೆಯುವಾಗ ಹರಡುತ್ತದೆ — ವಿಶೇಷವಾಗಿ ಮಳೆಗಾಲದಲ್ಲಿ ಎಚ್ಚರವಿರಲಿ.", "मुख्यतः संक्रमित पेशाब या गर्भाशय द्रव के संपर्क से, या दूध दुहते समय फैलता है — खासकर मानसून में सावधान रहें।"),
               },
             ],
           },
           {
             type: "callout",
             style: "warning",
-            heading: L("How to Protect Yourself"),
+            heading: L("How to Protect Yourself", "మిమ్మల్ని మీరు ఎలా రక్షించుకోవాలి", "உங்களை எவ்வாறு பாதுகாத்துக் கொள்வது", "ನಿಮ್ಮನ್ನು ನೀವು ಹೇಗೆ ರಕ್ಷಿಸಿಕೊಳ್ಳುವುದು", "खुद को कैसे सुरक्षित रखें"),
             text: L(
-              "Never drink raw or unboiled milk, even from your own animals. Avoid letting an animal's urine, uterine fluid, or other body fluids touch your bare skin or eyes — wash your hands and any exposed skin thoroughly with soap right after handling these, or after milking, and especially after helping with a calving. Be extra careful during the monsoon months."
+              "Never drink raw or unboiled milk, even from your own animals. Avoid letting an animal's urine, uterine fluid, or other body fluids touch your bare skin or eyes — wash your hands and any exposed skin thoroughly with soap right after handling these, or after milking, and especially after helping with a calving. Be extra careful during the monsoon months.",
+              "మీ స్వంత జంతువుల నుండి అయినా సరే ముడి లేదా ఉడకని పాలు ఎప్పుడూ తాగవద్దు. జంతువు మూత్రం, గర్భాశయ ద్రవం, లేదా ఇతర శరీర ద్రవాలు మీ నిష్కల్మష చర్మం లేదా కళ్ళను తాకకుండా చూసుకోండి — వీటిని నిర్వహించిన వెంటనే, లేదా పాలు పితికిన తర్వాత, మరియు ముఖ్యంగా ప్రసవంలో సహాయం చేసిన తర్వాత మీ చేతులను మరియు బహిర్గతమైన చర్మాన్ని సబ్బుతో బాగా కడుక్కోండి. వర్షాకాలంలో అదనపు జాగ్రత్త వహించండి.",
+              "உங்கள் சொந்த விலங்குகளிலிருந்தே ஆனாலும் பச்சை அல்லது கொதிக்கவைக்காத பாலை ஒருபோதும் குடிக்காதீர்கள். விலங்கின் சிறுநீர், கருப்பை திரவம், அல்லது பிற உடல் திரவங்கள் உங்கள் வெற்று தோல் அல்லது கண்களைத் தொடாமல் தவிர்க்கவும் — இவற்றை கையாண்ட உடனேயே, அல்லது பால் கறந்த பிறகு, மற்றும் குறிப்பாக ஈனுதலில் உதவிய பிறகு உங்கள் கைகளையும் வெளிப்பட்ட தோலையும் சோப்புடன் நன்கு கழுவுங்கள். பருவமழை மாதங்களில் கூடுதல் கவனமாக இருங்கள்.",
+              "ನಿಮ್ಮ ಸ್ವಂತ ಪ್ರಾಣಿಗಳಿಂದಾದರೂ ಸರಿ ಕಚ್ಚಾ ಅಥವಾ ಕುದಿಸದ ಹಾಲನ್ನು ಎಂದಿಗೂ ಕುಡಿಯಬೇಡಿ. ಪ್ರಾಣಿಯ ಮೂತ್ರ, ಗರ್ಭಾಶಯದ ದ್ರವ, ಅಥವಾ ಇತರ ದೇಹದ ದ್ರವಗಳು ನಿಮ್ಮ ಬರಿ ಚರ್ಮ ಅಥವಾ ಕಣ್ಣುಗಳನ್ನು ಮುಟ್ಟದಂತೆ ತಪ್ಪಿಸಿ — ಇವುಗಳನ್ನು ನಿರ್ವಹಿಸಿದ ತಕ್ಷಣ, ಅಥವಾ ಹಾಲು ಕರೆದ ನಂತರ, ಮತ್ತು ವಿಶೇಷವಾಗಿ ಕರು ಹಾಕುವಿಕೆಗೆ ಸಹಾಯ ಮಾಡಿದ ನಂತರ ನಿಮ್ಮ ಕೈಗಳನ್ನು ಮತ್ತು ಒಡ್ಡಿಕೊಂಡ ಚರ್ಮವನ್ನು ಸಾಬೂನಿನಿಂದ ಚೆನ್ನಾಗಿ ತೊಳೆಯಿರಿ. ಮಳೆಗಾಲದ ತಿಂಗಳುಗಳಲ್ಲಿ ಹೆಚ್ಚು ಜಾಗರೂಕರಾಗಿರಿ.",
+              "अपने ही जानवरों का भी कच्चा या बिना उबाला दूध कभी न पिएं। जानवर के पेशाब, गर्भाशय द्रव, या अन्य शारीरिक तरल पदार्थों को अपनी नंगी त्वचा या आँखों को छूने न दें — इन्हें संभालने के तुरंत बाद, या दूध दुहने के बाद, और खासकर ब्याने में मदद करने के बाद अपने हाथों और किसी भी खुली त्वचा को साबुन से अच्छी तरह धोएं। मानसून के महीनों में अतिरिक्त सावधानी बरतें।"
             ),
           },
         ],
         check: [
           {
             type: "mcq",
-            q: L("How do people most commonly get Brucellosis from cattle?"),
+            q: L("How do people most commonly get Brucellosis from cattle?", "పశువుల నుండి ప్రజలకు బ్రూసెల్లోసిస్ సాధారణంగా ఎలా సోకుతుంది?", "மாடுகளிலிருந்து மக்களுக்கு புருசெல்லோசிஸ் பொதுவாக எப்படி ஏற்படுகிறது?", "ಜಾನುವಾರುಗಳಿಂದ ಜನರಿಗೆ ಬ್ರೂಸೆಲ್ಲೋಸಿಸ್ ಸಾಮಾನ್ಯವಾಗಿ ಹೇಗೆ ತಗುಲುತ್ತದೆ?", "लोगों को पशुओं से ब्रुसेलोसिस सबसे आम तौर पर कैसे होता है?"),
             options: [
-              L("By standing near a healthy animal"),
-              L("By drinking raw milk, or through infected fluid touching the skin or eyes"),
-              L("By hearing an animal cough"),
-              L("It cannot spread to humans at all"),
+              L("By standing near a healthy animal", "ఆరోగ్యకరమైన జంతువు దగ్గర నిలబడటం ద్వారా", "ஆரோக்கியமான ஒரு விலங்கு அருகில் நிற்பதன் மூலம்", "ಆರೋಗ್ಯಕರ ಪ್ರಾಣಿಯ ಬಳಿ ನಿಲ್ಲುವ ಮೂಲಕ", "एक स्वस्थ जानवर के पास खड़े होकर"),
+              L("By drinking raw milk, or through infected fluid touching the skin or eyes", "ముడి పాలు తాగడం ద్వారా, లేదా సోకిన ద్రవం చర్మం లేదా కళ్ళను తాకడం ద్వారా", "பச்சைப் பால் குடிப்பதன் மூலம், அல்லது தொற்று ஏற்பட்ட திரவம் தோல் அல்லது கண்களைத் தொடுவதன் மூலம்", "ಕಚ್ಚಾ ಹಾಲು ಕುಡಿಯುವ ಮೂಲಕ, ಅಥವಾ ಸೋಂಕಿತ ದ್ರವ ಚರ್ಮ ಅಥವಾ ಕಣ್ಣುಗಳನ್ನು ಮುಟ್ಟುವ ಮೂಲಕ", "कच्चा दूध पीने से, या संक्रमित तरल पदार्थ के त्वचा या आँखों को छूने से"),
+              L("By hearing an animal cough", "జంతువు దగ్గడం వినడం ద్వారా", "ஒரு விலங்கு இருமுவதைக் கேட்பதன் மூலம்", "ಪ್ರಾಣಿ ಕೆಮ್ಮುವುದನ್ನು ಕೇಳುವ ಮೂಲಕ", "जानवर की खांसी सुनने से"),
+              L("It cannot spread to humans at all", "ఇది మనుషులకు అస్సలు వ్యాపించదు", "இது மனிதர்களுக்கு அறவே பரவாது", "ಇದು ಮನುಷ್ಯರಿಗೆ ಎಂದಿಗೂ ಹರಡುವುದಿಲ್ಲ", "यह मनुष्यों में बिल्कुल नहीं फैलता"),
             ],
             answer: 1,
-            explain: L("Brucellosis mainly spreads through raw (unboiled) milk from an infected animal, or through contact with infected secretions on the skin or eyes."),
+            explain: L("Brucellosis mainly spreads through raw (unboiled) milk from an infected animal, or through contact with infected secretions on the skin or eyes.", "బ్రూసెల్లోసిస్ ప్రధానంగా సోకిన జంతువు నుండి ముడి (ఉడకని) పాలు ద్వారా, లేదా చర్మం లేదా కళ్ళపై సోకిన స్రావాలతో సంబంధం ద్వారా వ్యాపిస్తుంది.", "புருசெல்லோசிஸ் முக்கியமாக தொற்று ஏற்பட்ட விலங்கிலிருந்து பச்சை (கொதிக்கவைக்காத) பால் மூலமாகவும், அல்லது தோல் அல்லது கண்களில் தொற்று ஏற்பட்ட சுரப்புகளுடன் தொடர்பு மூலமாகவும் பரவுகிறது.", "ಬ್ರೂಸೆಲ್ಲೋಸಿಸ್ ಮುಖ್ಯವಾಗಿ ಸೋಂಕಿತ ಪ್ರಾಣಿಯಿಂದ ಕಚ್ಚಾ (ಕುದಿಸದ) ಹಾಲಿನ ಮೂಲಕ, ಅಥವಾ ಚರ್ಮ ಅಥವಾ ಕಣ್ಣುಗಳ ಮೇಲಿನ ಸೋಂಕಿತ ಸ್ರಾವಗಳ ಸಂಪರ್ಕದ ಮೂಲಕ ಹರಡುತ್ತದೆ.", "ब्रुसेलोसिस मुख्यतः संक्रमित जानवर के कच्चे (बिना उबाले) दूध से, या त्वचा या आँखों पर संक्रमित स्राव के संपर्क से फैलता है।"),
           },
           {
             type: "truefalse",
