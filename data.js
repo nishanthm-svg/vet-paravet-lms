@@ -6025,107 +6025,135 @@ export const MODULES = [
           },
           {
             type: "example",
-            heading: L("Where OP Exposure Often Comes From"),
+            heading: L("Where OP Exposure Often Comes From", "OP బహిర్గతం తరచుగా ఎక్కడ నుండి వస్తుంది", "OP வெளிப்பாடு பெரும்பாலும் எங்கிருந்து வருகிறது", "OP ಒಡ್ಡುವಿಕೆ ಸಾಮಾನ್ಯವಾಗಿ ಎಲ್ಲಿಂದ ಬರುತ್ತದೆ", "OP का जोखिम अक्सर कहाँ से आता है"),
             text: L(
-              "OP poisoning can happen when pesticide is sprayed on an animal's body to kill ticks, when pesticide-sprayed fodder is fed without washing it first, or when an animal comes into contact with pesticide containers or contaminated feed."
+              "OP poisoning can happen when pesticide is sprayed on an animal's body to kill ticks, when pesticide-sprayed fodder is fed without washing it first, or when an animal comes into contact with pesticide containers or contaminated feed.",
+              "పేనులను చంపడానికి జంతువు శరీరంపై పురుగుమందు పిచికారీ చేసినప్పుడు, పురుగుమందు పిచికారీ చేసిన మేతను ముందుగా కడగకుండా తినిపించినప్పుడు, లేదా జంతువు పురుగుమందు కంటైనర్లు లేదా కలుషితమైన దాణాతో సంబంధంలోకి వచ్చినప్పుడు OP విషప్రయోగం జరగవచ్చు.",
+              "ஈறுகளைக் கொல்ல விலங்கின் உடலில் பூச்சிக்கொல்லி தெளிக்கப்படும்போது, பூச்சிக்கொல்லி தெளிக்கப்பட்ட தீவனத்தை முதலில் கழுவாமல் உணவளிக்கும்போது, அல்லது ஒரு விலங்கு பூச்சிக்கொல்லி கொள்கலன்கள் அல்லது கறைபடிந்த தீவனத்துடன் தொடர்பு கொள்ளும்போது OP நச்சுத்தன்மை ஏற்படலாம்.",
+              "ಉಣ್ಣಿಗಳನ್ನು ಕೊಲ್ಲಲು ಪ್ರಾಣಿಯ ದೇಹದ ಮೇಲೆ ಕೀಟನಾಶಕ ಸಿಂಪಡಿಸಿದಾಗ, ಕೀಟನಾಶಕ ಸಿಂಪಡಿಸಿದ ಮೇವನ್ನು ಮೊದಲು ತೊಳೆಯದೆ ನೀಡಿದಾಗ, ಅಥವಾ ಪ್ರಾಣಿ ಕೀಟನಾಶಕ ಪಾತ್ರೆಗಳು ಅಥವಾ ಕಲುಷಿತ ಮೇವಿನ ಸಂಪರ್ಕಕ್ಕೆ ಬಂದಾಗ OP ವಿಷಬಾಧೆ ಸಂಭವಿಸಬಹುದು.",
+              "OP विषाक्तता तब हो सकती है जब किलनी मारने के लिए जानवर के शरीर पर कीटनाशक छिड़का जाए, जब कीटनाशक-छिड़का हुआ चारा बिना धोए खिलाया जाए, या जब जानवर कीटनाशक के डिब्बों या दूषित चारे के संपर्क में आए।"
             ),
           },
           {
             type: "callout",
             style: "warning",
-            heading: L("Every Hour Matters"),
+            heading: L("Every Hour Matters", "ప్రతి గంట ముఖ్యమైనదే", "ஒவ்வொரு மணி நேரமும் முக்கியம்", "ಪ್ರತಿ ಗಂಟೆಯೂ ಮುಖ್ಯ", "हर घंटा महत्वपूर्ण है"),
             text: L(
-              "Contact a veterinarian immediately the moment you notice these symptoms. Treating OP poisoning early greatly increases the animal's chances of survival."
+              "Contact a veterinarian immediately the moment you notice these symptoms. Treating OP poisoning early greatly increases the animal's chances of survival.",
+              "మీరు ఈ లక్షణాలను గమనించిన వెంటనే వెంటనే పశువైద్యుడిని సంప్రదించండి. OP విషప్రయోగానికి ముందుగా చికిత్స చేయడం జంతువు బతికే అవకాశాలను గణనీయంగా పెంచుతుంది.",
+              "இந்த அறிகுறிகளை நீங்கள் கவனித்த உடனேயே ஒரு கால்நடை மருத்துவரைத் தொடர்பு கொள்ளுங்கள். OP நச்சுத்தன்மையை முன்கூட்டியே சிகிச்சை செய்வது விலங்கு உயிர் பிழைக்கும் வாய்ப்புகளை பெரிதும் அதிகரிக்கும்.",
+              "ಈ ಲಕ್ಷಣಗಳನ್ನು ನೀವು ಗಮನಿಸಿದ ಕೂಡಲೇ ತಕ್ಷಣ ಪಶುವೈದ್ಯರನ್ನು ಸಂಪರ್ಕಿಸಿ. OP ವಿಷಬಾಧೆಗೆ ಮುಂಚಿತವಾಗಿ ಚಿಕಿತ್ಸೆ ನೀಡುವುದು ಪ್ರಾಣಿಯ ಬದುಕುಳಿಯುವ ಸಾಧ್ಯತೆಗಳನ್ನು ಗಣನೀಯವಾಗಿ ಹೆಚ್ಚಿಸುತ್ತದೆ.",
+              "इन लक्षणों को देखते ही तुरंत पशु चिकित्सक से संपर्क करें। OP विषाक्तता का जल्दी इलाज करने से जानवर के बचने की संभावना काफी बढ़ जाती है।"
             ),
           },
         ],
         check: [
           {
             type: "mcq",
-            q: L("Which of these is a symptom of OP poisoning described in this lesson?"),
-            options: [L("Heavy drooling and muscle twitching under the skin"), L("A shiny, smooth coat"), L("Increased appetite"), L("Higher milk yield")],
+            q: L("Which of these is a symptom of OP poisoning described in this lesson?", "ఈ పాఠంలో వివరించిన OP విషప్రయోగం లక్షణాలలో ఇది ఏది?", "இந்த பாடத்தில் விவரிக்கப்பட்ட OP நச்சுத்தன்மையின் அறிகுறிகளில் இது எது?", "ಈ ಪಾಠದಲ್ಲಿ ವಿವರಿಸಲಾದ OP ವಿಷಬಾಧೆಯ ಲಕ್ಷಣಗಳಲ್ಲಿ ಇದು ಯಾವುದು?", "इस पाठ में बताए गए OP विषाक्तता के लक्षणों में से यह कौन सा है?"),
+            options: [L("Heavy drooling and muscle twitching under the skin", "అధిక లాలాజలం మరియు చర్మం కింద కండరాలు కదలడం", "அதிக உமிழ்நீர் மற்றும் தோலின் கீழ் தசைகள் துடிப்பது", "ಅತಿಯಾದ ಜೊಲ್ಲು ಸುರಿಸುವಿಕೆ ಮತ್ತು ಚರ್ಮದ ಕೆಳಗೆ ಸ್ನಾಯುಗಳು ಅದುರುವುದು", "अत्यधिक लार टपकना और त्वचा के नीचे मांसपेशियों का फड़कना"), L("A shiny, smooth coat", "మెరిసే, మృదువైన చర్మ వెంట్రుకలు", "பளபளப்பான, மென்மையான உரோமம்", "ಹೊಳೆಯುವ, ನಯವಾದ ಕೂದಲು", "चमकदार, चिकनी त्वचा-रोम"), L("Increased appetite", "ఆకలి పెరగడం", "பசி அதிகரிப்பு", "ಹಸಿವು ಹೆಚ್ಚಳ", "भूख का बढ़ना"), L("Higher milk yield", "ఎక్కువ పాల దిగుబడి", "அதிக பால் விளைச்சல்", "ಹೆಚ್ಚಿನ ಹಾಲಿನ ಇಳುವರಿ", "ज़्यादा दूध उत्पादन")],
             answer: 0,
-            explain: L("Heavy drooling (hypersalivation) and visible muscle twitching are both listed symptoms of OP poisoning."),
+            explain: L("Heavy drooling (hypersalivation) and visible muscle twitching are both listed symptoms of OP poisoning.", "అధిక లాలాజలం (హైపర్‌సలివేషన్) మరియు కనిపించే కండరాల కదలిక రెండూ OP విషప్రయోగం లక్షణాలుగా జాబితా చేయబడ్డాయి.", "அதிக உமிழ்நீர் (ஹைப்பர்சலைவேஷன்) மற்றும் தெரியும் தசை துடிப்பு இரண்டும் OP நச்சுத்தன்மையின் அறிகுறிகளாக பட்டியலிடப்பட்டுள்ளன.", "ಅತಿಯಾದ ಜೊಲ್ಲು ಸುರಿಸುವಿಕೆ (ಹೈಪರ್‌ಸಲೈವೇಶನ್) ಮತ್ತು ಗೋಚರ ಸ್ನಾಯುಗಳ ಅದುರುವಿಕೆ ಎರಡೂ OP ವಿಷಬಾಧೆಯ ಲಕ್ಷಣಗಳಾಗಿ ಪಟ್ಟಿ ಮಾಡಲಾಗಿದೆ.", "अत्यधिक लार टपकना (हाइपरसैलिवेशन) और दिखाई देने वाला मांसपेशियों का फड़कना दोनों ही OP विषाक्तता के लक्षणों में सूचीबद्ध हैं।"),
           },
           {
             type: "truefalse",
-            q: L("Treating OP poisoning early increases the animal's chances of survival."),
+            q: L("Treating OP poisoning early increases the animal's chances of survival.", "OP విషప్రయోగానికి ముందుగా చికిత్స చేయడం జంతువు బతికే అవకాశాలను పెంచుతుంది.", "OP நச்சுத்தன்மையை முன்கூட்டியே சிகிச்சை செய்வது விலங்கு உயிர் பிழைக்கும் வாய்ப்புகளை அதிகரிக்கும்.", "OP ವಿಷಬಾಧೆಗೆ ಮುಂಚಿತವಾಗಿ ಚಿಕಿತ್ಸೆ ನೀಡುವುದು ಪ್ರಾಣಿಯ ಬದುಕುಳಿಯುವ ಸಾಧ್ಯತೆಗಳನ್ನು ಹೆಚ್ಚಿಸುತ್ತದೆ.", "OP विषाक्तता का जल्दी इलाज करने से जानवर के बचने की संभावना बढ़ जाती है।"),
             answer: true,
-            explain: L("Yes — contacting a vet the moment symptoms are noticed gives the animal a much better chance."),
+            explain: L("Yes — contacting a vet the moment symptoms are noticed gives the animal a much better chance.", "అవును — లక్షణాలు గమనించిన వెంటనే వైద్యుడిని సంప్రదించడం జంతువుకు మంచి అవకాశాన్ని ఇస్తుంది.", "ஆம் — அறிகுறிகள் கவனிக்கப்பட்ட உடனேயே கால்நடை மருத்துவரைத் தொடர்பு கொள்வது விலங்குக்கு மிகச் சிறந்த வாய்ப்பை அளிக்கிறது.", "ಹೌದು — ಲಕ್ಷಣಗಳು ಗಮನಕ್ಕೆ ಬಂದ ಕೂಡಲೇ ಪಶುವೈದ್ಯರನ್ನು ಸಂಪರ್ಕಿಸುವುದು ಪ್ರಾಣಿಗೆ ಹೆಚ್ಚು ಉತ್ತಮ ಅವಕಾಶ ನೀಡುತ್ತದೆ.", "हाँ — लक्षण दिखते ही पशु चिकित्सक से संपर्क करना जानवर को बेहतर मौका देता है।"),
           },
         ],
       },
       {
         id: "t-m10-op-prevention",
-        title: L("Preventing Pesticide Poisoning and Acting Immediately"),
+        title: L("Preventing Pesticide Poisoning and Acting Immediately", "పురుగుమందు విషప్రయోగాన్ని నివారించడం మరియు వెంటనే చర్య తీసుకోవడం", "பூச்சிக்கொல்லி நச்சுத்தன்மையைத் தடுப்பது மற்றும் உடனடியாக செயல்படுவது", "ಕೀಟನಾಶಕ ವಿಷಬಾಧೆಯನ್ನು ತಡೆಗಟ್ಟುವುದು ಮತ್ತು ತಕ್ಷಣ ಕ್ರಮ ತೆಗೆದುಕೊಳ್ಳುವುದು", "कीटनाशक विषाक्तता को रोकना और तुरंत कार्रवाई करना"),
         teach: [
           {
             type: "text",
-            heading: L("Simple Precautions That Prevent Most Cases"),
+            heading: L("Simple Precautions That Prevent Most Cases", "చాలా కేసులను నివారించే సాధారణ జాగ్రత్తలు", "பெரும்பாலான வழக்குகளைத் தடுக்கும் எளிய முன்னெச்சரிக்கைகள்", "ಹೆಚ್ಚಿನ ಪ್ರಕರಣಗಳನ್ನು ತಡೆಗಟ್ಟುವ ಸರಳ ಮುನ್ನೆಚ್ಚರಿಕೆಗಳು", "अधिकतर मामलों को रोकने वाली सरल सावधानियाँ"),
             html: L(
-              "Most OP poisoning can be avoided with a few basic precautions when pesticides are used around animals. None of these require any medical training — just care and attention whenever pesticides are being applied or stored."
+              "Most OP poisoning can be avoided with a few basic precautions when pesticides are used around animals. None of these require any medical training — just care and attention whenever pesticides are being applied or stored.",
+              "జంతువుల చుట్టూ పురుగుమందులు వాడేటప్పుడు కొన్ని ప్రాథమిక జాగ్రత్తలతో చాలా OP విషప్రయోగాన్ని నివారించవచ్చు. వీటిలో దేనికీ వైద్య శిక్షణ అవసరం లేదు — పురుగుమందులు వేసేటప్పుడు లేదా నిల్వ చేసేటప్పుడు జాగ్రత్త మరియు శ్రద్ధ మాత్రమే అవసరం.",
+              "விலங்குகளைச் சுற்றி பூச்சிக்கொல்லிகள் பயன்படுத்தப்படும்போது சில அடிப்படை முன்னெச்சரிக்கைகளுடன் பெரும்பாலான OP நச்சுத்தன்மையைத் தவிர்க்கலாம். இவற்றில் எதற்கும் மருத்துவப் பயிற்சி தேவையில்லை — பூச்சிக்கொல்லிகள் பயன்படுத்தப்படும்போது அல்லது சேமிக்கப்படும்போது கவனமும் அக்கறையும் மட்டுமே தேவை.",
+              "ಪ್ರಾಣಿಗಳ ಸುತ್ತಮುತ್ತ ಕೀಟನಾಶಕಗಳನ್ನು ಬಳಸುವಾಗ ಕೆಲವು ಮೂಲಭೂತ ಮುನ್ನೆಚ್ಚರಿಕೆಗಳೊಂದಿಗೆ ಹೆಚ್ಚಿನ OP ವಿಷಬಾಧೆಯನ್ನು ತಪ್ಪಿಸಬಹುದು. ಇವುಗಳಲ್ಲಿ ಯಾವುದಕ್ಕೂ ವೈದ್ಯಕೀಯ ತರಬೇತಿ ಅಗತ್ಯವಿಲ್ಲ — ಕೀಟನಾಶಕಗಳನ್ನು ಅನ್ವಯಿಸುವಾಗ ಅಥವಾ ಸಂಗ್ರಹಿಸುವಾಗ ಕಾಳಜಿ ಮತ್ತು ಗಮನ ಮಾತ್ರ ಅಗತ್ಯ.",
+              "जब जानवरों के आसपास कीटनाशकों का उपयोग किया जाता है तो कुछ बुनियादी सावधानियों से ज़्यादातर OP विषाक्तता से बचा जा सकता है। इनमें से किसी के लिए भी चिकित्सा प्रशिक्षण की ज़रूरत नहीं है — बस कीटनाशक लगाते या भंडारित करते समय सावधानी और ध्यान चाहिए।"
             ),
           },
           {
             type: "stat-grid",
             items: [
               {
-                label: L("Before spraying for ticks"),
-                text: L("Give the animal enough water to drink before applying any liquid or spray pesticide on its body to kill ticks."),
+                label: L("Before spraying for ticks", "పేను నివారణకు పిచికారీ చేసే ముందు", "ஈறுகளுக்கு தெளிக்கும் முன்", "ಉಣ್ಣಿಗಳಿಗಾಗಿ ಸಿಂಪಡಿಸುವ ಮೊದಲು", "किलनी के लिए छिड़काव करने से पहले"),
+                text: L("Give the animal enough water to drink before applying any liquid or spray pesticide on its body to kill ticks.", "పేనులను చంపడానికి ఏదైనా ద్రవ లేదా స్ప్రే పురుగుమందును జంతువు శరీరంపై వేసే ముందు దానికి తగినంత నీరు తాగించండి.", "ஈறுகளைக் கொல்ல எந்த திரவம் அல்லது தெளிப்பு பூச்சிக்கொல்லியையும் அதன் உடலில் தடவும் முன் விலங்குக்கு போதுமான தண்ணீர் கொடுங்கள்.", "ಉಣ್ಣಿಗಳನ್ನು ಕೊಲ್ಲಲು ಯಾವುದೇ ದ್ರವ ಅಥವಾ ಸಿಂಪಡಣೆ ಕೀಟನಾಶಕವನ್ನು ಅದರ ದೇಹದ ಮೇಲೆ ಹಚ್ಚುವ ಮೊದಲು ಪ್ರಾಣಿಗೆ ಸಾಕಷ್ಟು ನೀರು ಕುಡಿಸಿ.", "किलनी मारने के लिए जानवर के शरीर पर कोई भी तरल या स्प्रे कीटनाशक लगाने से पहले उसे पर्याप्त पानी पिलाएं।"),
               },
               {
-                label: L("Washing sprayed fodder"),
-                text: L("Fodder that has been sprayed with insecticide should be washed properly with water before it is fed to the animal."),
+                label: L("Washing sprayed fodder", "పిచికారీ చేసిన మేతను కడగడం", "தெளிக்கப்பட்ட தீவனத்தை கழுவுதல்", "ಸಿಂಪಡಿಸಿದ ಮೇವನ್ನು ತೊಳೆಯುವುದು", "छिड़काव किए गए चारे को धोना"),
+                text: L("Fodder that has been sprayed with insecticide should be washed properly with water before it is fed to the animal.", "కీటనాశక పిచికారీ చేసిన మేతను జంతువుకు తినిపించే ముందు నీటితో బాగా కడగాలి.", "பூச்சிக்கொல்லி தெளிக்கப்பட்ட தீவனத்தை விலங்குக்கு உணவளிக்கும் முன் தண்ணீரால் நன்றாக கழுவ வேண்டும்.", "ಕೀಟನಾಶಕ ಸಿಂಪಡಿಸಿದ ಮೇವನ್ನು ಪ್ರಾಣಿಗೆ ನೀಡುವ ಮೊದಲು ನೀರಿನಿಂದ ಸರಿಯಾಗಿ ತೊಳೆಯಬೇಕು.", "कीटनाशक छिड़का हुआ चारा जानवर को खिलाने से पहले पानी से अच्छी तरह धोना चाहिए।"),
               },
               {
-                label: L("Following the label"),
-                text: L("Apply pesticide exactly as directed on the product label — the recommended dose and timing matter."),
+                label: L("Following the label", "లేబుల్‌ను అనుసరించడం", "லேபிளைப் பின்பற்றுதல்", "ಲೇಬಲ್ ಅನ್ನು ಅನುಸರಿಸುವುದು", "लेबल का पालन करना"),
+                text: L("Apply pesticide exactly as directed on the product label — the recommended dose and timing matter.", "ఉత్పత్తి లేబుల్‌పై సూచించిన విధంగానే పురుగుమందును వాడండి — సిఫార్సు చేసిన మోతాదు మరియు సమయం ముఖ్యమైనవి.", "தயாரிப்பு லேபிளில் குறிப்பிட்டுள்ளபடி சரியாக பூச்சிக்கொல்லியைப் பயன்படுத்துங்கள் — பரிந்துரைக்கப்பட்ட அளவும் நேரமும் முக்கியம்.", "ಉತ್ಪನ್ನದ ಲೇಬಲ್‌ನಲ್ಲಿ ಸೂಚಿಸಿದಂತೆಯೇ ಕೀಟನಾಶಕವನ್ನು ಅನ್ವಯಿಸಿ — ಶಿಫಾರಸು ಮಾಡಿದ ಪ್ರಮಾಣ ಮತ್ತು ಸಮಯ ಮುಖ್ಯ.", "उत्पाद के लेबल पर बताए अनुसार ही कीटनाशक लगाएं — सुझाई गई मात्रा और समय महत्वपूर्ण हैं।"),
               },
               {
-                label: L("Animals that should not be treated"),
+                label: L("Animals that should not be treated", "చికిత్స చేయకూడని జంతువులు", "சிகிச்சை அளிக்கக்கூடாத விலங்குகள்", "ಚಿಕಿತ್ಸೆ ನೀಡಬಾರದ ಪ್ರಾಣಿಗಳು", "जिन जानवरों का इलाज नहीं करना चाहिए"),
                 text: L(
-                  "Do not apply pesticides to sick, very thin, recovering, or severely stressed animals. Animals younger than 3 months should generally not be treated with pesticides for external parasites (like ticks) at all."
+                  "Do not apply pesticides to sick, very thin, recovering, or severely stressed animals. Animals younger than 3 months should generally not be treated with pesticides for external parasites (like ticks) at all.",
+                  "అనారోగ్యంతో ఉన్న, చాలా బక్కగా ఉన్న, కోలుకుంటున్న, లేదా తీవ్రమైన ఒత్తిడిలో ఉన్న జంతువులకు పురుగుమందులు వేయవద్దు. 3 నెలల కంటే తక్కువ వయసున్న జంతువులకు బాహ్య పరాన్నజీవుల (పేనుల వంటివి) కోసం సాధారణంగా పురుగుమందులతో చికిత్స చేయకూడదు.",
+                  "நோய்வாய்ப்பட்ட, மிகவும் மெலிந்த, குணமடைந்து வரும், அல்லது கடுமையான மன அழுத்தத்தில் உள்ள விலங்குகளுக்கு பூச்சிக்கொல்லிகளைப் பயன்படுத்த வேண்டாம். 3 மாதங்களுக்கும் குறைவான வயதுடைய விலங்குகளுக்கு வெளிப்புற ஒட்டுண்ணிகளுக்கு (ஈறுகள் போன்றவை) பொதுவாக பூச்சிக்கொல்லிகள் மூலம் சிகிச்சை அளிக்கக்கூடாது.",
+                  "ಅನಾರೋಗ್ಯದಿಂದ ಇರುವ, ಬಹಳ ತೆಳ್ಳಗಿರುವ, ಚೇತರಿಸಿಕೊಳ್ಳುತ್ತಿರುವ, ಅಥವಾ ತೀವ್ರ ಒತ್ತಡದಲ್ಲಿರುವ ಪ್ರಾಣಿಗಳಿಗೆ ಕೀಟನಾಶಕಗಳನ್ನು ಹಚ್ಚಬೇಡಿ. 3 ತಿಂಗಳಿಗಿಂತ ಚಿಕ್ಕ ವಯಸ್ಸಿನ ಪ್ರಾಣಿಗಳಿಗೆ ಬಾಹ್ಯ ಪರಾವಲಂಬಿಗಳಿಗೆ (ಉಣ್ಣಿಗಳಂತಹ) ಸಾಮಾನ್ಯವಾಗಿ ಕೀಟನಾಶಕಗಳಿಂದ ಚಿಕಿತ್ಸೆ ನೀಡಬಾರದು.",
+                  "बीमार, बहुत दुबले, स्वस्थ हो रहे, या गंभीर तनाव में जानवरों पर कीटनाशक न लगाएं। 3 महीने से कम उम्र के जानवरों का बाहरी परजीवियों (जैसे किलनी) के लिए आमतौर पर कीटनाशकों से इलाज नहीं करना चाहिए।"
                 ),
               },
             ],
           },
           {
             type: "glossary",
-            term: L("External Parasites"),
+            term: L("External Parasites", "బాహ్య పరాన్నజీవులు", "வெளிப்புற ஒட்டுண்ணிகள்", "ಬಾಹ್ಯ ಪರಾವಲಂಬಿಗಳು", "बाहरी परजीवी"),
             meaning: L(
-              "Pests, such as ticks, that live on the outside of an animal's body rather than inside it. Pesticides are often applied to the skin or coat to control them."
+              "Pests, such as ticks, that live on the outside of an animal's body rather than inside it. Pesticides are often applied to the skin or coat to control them.",
+              "పేనుల వంటి పురుగులు, ఇవి జంతువు శరీరం లోపల కాకుండా బయట నివసిస్తాయి. వాటిని నియంత్రించడానికి తరచుగా చర్మం లేదా వెంట్రుకలపై పురుగుమందులు వేస్తారు.",
+              "ஈறுகள் போன்ற பூச்சிகள், அவை விலங்கின் உடலுக்குள் அல்லாமல் வெளியே வாழ்கின்றன. அவற்றைக் கட்டுப்படுத்த பெரும்பாலும் தோல் அல்லது உரோமத்தில் பூச்சிக்கொல்லிகள் பயன்படுத்தப்படுகின்றன.",
+              "ಉಣ್ಣಿಗಳಂತಹ ಕೀಟಗಳು, ಅವು ಪ್ರಾಣಿಯ ದೇಹದ ಒಳಗೆ ಬದಲಾಗಿ ಹೊರಗೆ ವಾಸಿಸುತ್ತವೆ. ಅವುಗಳನ್ನು ನಿಯಂತ್ರಿಸಲು ಸಾಮಾನ್ಯವಾಗಿ ಚರ್ಮ ಅಥವಾ ಕೂದಲಿನ ಮೇಲೆ ಕೀಟನಾಶಕಗಳನ್ನು ಹಚ್ಚಲಾಗುತ್ತದೆ.",
+              "किलनी जैसे कीट, जो जानवर के शरीर के अंदर नहीं बल्कि बाहर रहते हैं। इन्हें नियंत्रित करने के लिए अक्सर त्वचा या रोयें पर कीटनाशक लगाए जाते हैं।"
             ),
           },
           {
             type: "callout",
             style: "tip",
-            heading: L("Keep Pesticides and Contaminated Feed Away From Animals"),
+            heading: L("Keep Pesticides and Contaminated Feed Away From Animals", "పురుగుమందులు మరియు కలుషితమైన దాణాను జంతువులకు దూరంగా ఉంచండి", "பூச்சிக்கொல்லிகள் மற்றும் கறைபடிந்த தீவனத்தை விலங்குகளிலிருந்து விலக்கி வையுங்கள்", "ಕೀಟನಾಶಕಗಳು ಮತ್ತು ಕಲುಷಿತ ಮೇವನ್ನು ಪ್ರಾಣಿಗಳಿಂದ ದೂರವಿಡಿ", "कीटनाशकों और दूषित चारे को जानवरों से दूर रखें"),
             text: L(
-              "Keep animals away from pesticide containers — whether new or used — and away from any feed contaminated with pesticide. Also check the product label for warnings about combining it with other pesticides or animal health products."
+              "Keep animals away from pesticide containers — whether new or used — and away from any feed contaminated with pesticide. Also check the product label for warnings about combining it with other pesticides or animal health products.",
+              "కొత్తవి అయినా వాడినవి అయినా పురుగుమందు కంటైనర్ల నుండి, మరియు పురుగుమందుతో కలుషితమైన ఏదైనా దాణా నుండి జంతువులను దూరంగా ఉంచండి. ఇతర పురుగుమందులు లేదా జంతు ఆరోగ్య ఉత్పత్తులతో కలపడం గురించి హెచ్చరికల కోసం ఉత్పత్తి లేబుల్‌ను కూడా తనిఖీ చేయండి.",
+              "புதியதாக இருந்தாலும் பயன்படுத்தப்பட்டதாக இருந்தாலும் பூச்சிக்கொல்லி கொள்கலன்களிலிருந்து, மற்றும் பூச்சிக்கொல்லியால் கறைபடிந்த எந்த தீவனத்திலிருந்தும் விலங்குகளை விலக்கி வையுங்கள். மற்ற பூச்சிக்கொல்லிகள் அல்லது விலங்கு நல பொருட்களுடன் கலப்பது குறித்த எச்சரிக்கைகளுக்கு தயாரிப்பு லேபிளையும் சரிபார்க்கவும்.",
+              "ಹೊಸದಾಗಿರಲಿ ಅಥವಾ ಬಳಸಿದ್ದಾಗಿರಲಿ ಕೀಟನಾಶಕ ಪಾತ್ರೆಗಳಿಂದ, ಮತ್ತು ಕೀಟನಾಶಕದಿಂದ ಕಲುಷಿತಗೊಂಡ ಯಾವುದೇ ಮೇವಿನಿಂದ ಪ್ರಾಣಿಗಳನ್ನು ದೂರವಿಡಿ. ಇತರ ಕೀಟನಾಶಕಗಳು ಅಥವಾ ಪ್ರಾಣಿ ಆರೋಗ್ಯ ಉತ್ಪನ್ನಗಳೊಂದಿಗೆ ಬೆರೆಸುವ ಬಗ್ಗೆ ಎಚ್ಚರಿಕೆಗಳಿಗಾಗಿ ಉತ್ಪನ್ನದ ಲೇಬಲ್ ಅನ್ನೂ ಪರಿಶೀಲಿಸಿ.",
+              "जानवरों को कीटनाशक के डिब्बों से — चाहे नए हों या इस्तेमाल किए हुए — और कीटनाशक से दूषित किसी भी चारे से दूर रखें। अन्य कीटनाशकों या पशु स्वास्थ्य उत्पादों के साथ मिलाने संबंधी चेतावनियों के लिए उत्पाद के लेबल की भी जाँच करें।"
             ),
           },
           {
             type: "callout",
             style: "warning",
-            heading: L("The One Rule That Applies to Every Poisoning in This Module"),
+            heading: L("The One Rule That Applies to Every Poisoning in This Module", "ఈ మాడ్యూల్‌లోని ప్రతి విషప్రయోగానికి వర్తించే ఒకే ఒక నియమం", "இந்த தொகுதியில் உள்ள ஒவ்வொரு நச்சுத்தன்மைக்கும் பொருந்தும் ஒரே விதி", "ಈ ಮಾಡ್ಯೂಲ್‌ನಲ್ಲಿನ ಪ್ರತಿ ವಿಷಬಾಧೆಗೂ ಅನ್ವಯಿಸುವ ಒಂದೇ ನಿಯಮ", "इस मॉड्यूल में हर विषाक्तता पर लागू होने वाला एक नियम"),
             text: L(
-              "Whether it's cottonseed feed, a toxic plant, or a pesticide — the moment you notice signs of poisoning, your job is the same: report it and get veterinary help immediately. Never try to treat poisoning yourself. Acting quickly — not treating it yourself — is what saves the animal's life."
+              "Whether it's cottonseed feed, a toxic plant, or a pesticide — the moment you notice signs of poisoning, your job is the same: report it and get veterinary help immediately. Never try to treat poisoning yourself. Acting quickly — not treating it yourself — is what saves the animal's life.",
+              "అది పత్తి గింజల దాణా అయినా, విషపూరిత మొక్క అయినా, లేదా పురుగుమందు అయినా — విషప్రయోగం లక్షణాలను గమనించిన వెంటనే, మీ పని ఒకటే: దానిని నివేదించి వెంటనే పశువైద్య సహాయం పొందడం. విషప్రయోగానికి మీరే స్వయంగా చికిత్స చేయడానికి ఎప్పుడూ ప్రయత్నించవద్దు. వేగంగా చర్య తీసుకోవడమే — మీరే స్వయంగా చికిత్స చేయకపోవడమే — జంతువు ప్రాణాన్ని కాపాడేది.",
+              "அது பருத்தி விதை தீவனமாக இருந்தாலும், நச்சுத் தாவரமாக இருந்தாலும், அல்லது பூச்சிக்கொல்லியாக இருந்தாலும் — நச்சுத்தன்மையின் அறிகுறிகளை நீங்கள் கவனித்த உடனேயே, உங்கள் வேலை ஒன்றுதான்: அதை தெரிவித்து உடனடியாக கால்நடை மருத்துவ உதவியைப் பெறுங்கள். நச்சுத்தன்மையை நீங்களே சிகிச்சை செய்ய ஒருபோதும் முயற்சிக்காதீர்கள். வேகமாக செயல்படுவதே — நீங்களே சிகிச்சை செய்யாமல் இருப்பதே — விலங்கின் உயிரைக் காப்பாற்றுகிறது.",
+              "ಅದು ಹತ್ತಿ ಬೀಜದ ಮೇವಾಗಿರಲಿ, ವಿಷಕಾರಿ ಸಸ್ಯವಾಗಿರಲಿ, ಅಥವಾ ಕೀಟನಾಶಕವಾಗಿರಲಿ — ವಿಷಬಾಧೆಯ ಲಕ್ಷಣಗಳನ್ನು ನೀವು ಗಮನಿಸಿದ ಕೂಡಲೇ, ನಿಮ್ಮ ಕೆಲಸ ಒಂದೇ: ಅದನ್ನು ವರದಿ ಮಾಡಿ ತಕ್ಷಣ ಪಶುವೈದ್ಯಕೀಯ ಸಹಾಯ ಪಡೆಯುವುದು. ವಿಷಬಾಧೆಗೆ ನೀವೇ ಸ್ವತಃ ಚಿಕಿತ್ಸೆ ನೀಡಲು ಎಂದಿಗೂ ಪ್ರಯತ್ನಿಸಬೇಡಿ. ವೇಗವಾಗಿ ಕ್ರಮ ತೆಗೆದುಕೊಳ್ಳುವುದೇ — ನೀವೇ ಚಿಕಿತ್ಸೆ ನೀಡದಿರುವುದೇ — ಪ್ರಾಣಿಯ ಜೀವವನ್ನು ಉಳಿಸುತ್ತದೆ.",
+              "चाहे वह कपास के बीज का चारा हो, कोई ज़हरीला पौधा हो, या कोई कीटनाशक हो — विषाक्तता के लक्षण दिखते ही, आपका काम एक ही है: इसकी सूचना दें और तुरंत पशु चिकित्सा सहायता प्राप्त करें। कभी भी खुद विषाक्तता का इलाज करने की कोशिश न करें। तेज़ी से कार्रवाई करना — खुद इलाज न करना — ही जानवर की जान बचाता है।"
             ),
           },
         ],
         check: [
           {
             type: "mcq",
-            q: L("According to this lesson, animals younger than how many months should generally not be treated with pesticides for external parasites?"),
-            options: [L("3 months"), L("12 months"), L("1 month"), L("There is no age limit")],
+            q: L("According to this lesson, animals younger than how many months should generally not be treated with pesticides for external parasites?", "ఈ పాఠం ప్రకారం, ఎన్ని నెలల కంటే తక్కువ వయసున్న జంతువులకు బాహ్య పరాన్నజీవుల కోసం సాధారణంగా పురుగుమందులతో చికిత్స చేయకూడదు?", "இந்த பாடத்தின்படி, எத்தனை மாதங்களுக்கும் குறைவான வயதுடைய விலங்குகளுக்கு வெளிப்புற ஒட்டுண்ணிகளுக்கு பொதுவாக பூச்சிக்கொல்லிகள் மூலம் சிகிச்சை அளிக்கக்கூடாது?", "ಈ ಪಾಠದ ಪ್ರಕಾರ, ಎಷ್ಟು ತಿಂಗಳಿಗಿಂತ ಚಿಕ್ಕ ವಯಸ್ಸಿನ ಪ್ರಾಣಿಗಳಿಗೆ ಬಾಹ್ಯ ಪರಾವಲಂಬಿಗಳಿಗೆ ಸಾಮಾನ್ಯವಾಗಿ ಕೀಟನಾಶಕಗಳಿಂದ ಚಿಕಿತ್ಸೆ ನೀಡಬಾರದು?", "इस पाठ के अनुसार, कितने महीने से कम उम्र के जानवरों का बाहरी परजीवियों के लिए आमतौर पर कीटनाशकों से इलाज नहीं करना चाहिए?"),
+            options: [L("3 months", "3 నెలలు", "3 மாதங்கள்", "3 ತಿಂಗಳುಗಳು", "3 महीने"), L("12 months", "12 నెలలు", "12 மாதங்கள்", "12 ತಿಂಗಳುಗಳು", "12 महीने"), L("1 month", "1 నెల", "1 மாதம்", "1 ತಿಂಗಳು", "1 महीना"), L("There is no age limit", "వయసు పరిమితి లేదు", "வயது வரம்பு இல்லை", "ವಯಸ್ಸಿನ ಮಿತಿ ಇಲ್ಲ", "कोई आयु सीमा नहीं है")],
             answer: 0,
-            explain: L("Animals less than 3 months of age should generally not be treated for external parasites with pesticides."),
+            explain: L("Animals less than 3 months of age should generally not be treated for external parasites with pesticides.", "3 నెలల కంటే తక్కువ వయసున్న జంతువులకు బాహ్య పరాన్నజీవుల కోసం సాధారణంగా పురుగుమందులతో చికిత్స చేయకూడదు.", "3 மாதங்களுக்கும் குறைவான வயதுடைய விலங்குகளுக்கு வெளிப்புற ஒட்டுண்ணிகளுக்கு பொதுவாக பூச்சிக்கொல்லிகள் மூலம் சிகிச்சை அளிக்கக்கூடாது.", "3 ತಿಂಗಳಿಗಿಂತ ಕಡಿಮೆ ವಯಸ್ಸಿನ ಪ್ರಾಣಿಗಳಿಗೆ ಬಾಹ್ಯ ಪರಾವಲಂಬಿಗಳಿಗೆ ಸಾಮಾನ್ಯವಾಗಿ ಕೀಟನಾಶಕಗಳಿಂದ ಚಿಕಿತ್ಸೆ ನೀಡಬಾರದು.", "3 महीने से कम उम्र के जानवरों का बाहरी परजीवियों के लिए आमतौर पर कीटनाशकों से इलाज नहीं करना चाहिए।"),
           },
           {
             type: "truefalse",
-            q: L("If you suspect an animal has been poisoned, the right response is to try a home remedy first and call the vet only if that doesn't work."),
+            q: L("If you suspect an animal has been poisoned, the right response is to try a home remedy first and call the vet only if that doesn't work.", "మీరు జంతువుకు విషప్రయోగం జరిగిందని అనుమానిస్తే, సరైన స్పందన ముందుగా ఇంటి చిట్కా ప్రయత్నించడం మరియు అది పనిచేయకపోతేనే వైద్యుడికి కాల్ చేయడం.", "ஒரு விலங்குக்கு நச்சுத்தன்மை ஏற்பட்டிருக்கலாம் என்று நீங்கள் சந்தேகித்தால், சரியான பதில் முதலில் ஒரு வீட்டு வைத்தியத்தை முயற்சிப்பதும், அது வேலை செய்யாவிட்டால் மட்டும் கால்நடை மருத்துவரை அழைப்பதும் ஆகும்.", "ಪ್ರಾಣಿಗೆ ವಿಷಬಾಧೆಯಾಗಿದೆ ಎಂದು ನೀವು ಅನುಮಾನಿಸಿದರೆ, ಸರಿಯಾದ ಪ್ರತಿಕ್ರಿಯೆ ಎಂದರೆ ಮೊದಲು ಮನೆಮದ್ದನ್ನು ಪ್ರಯತ್ನಿಸುವುದು ಮತ್ತು ಅದು ಕೆಲಸ ಮಾಡದಿದ್ದರೆ ಮಾತ್ರ ಪಶುವೈದ್ಯರಿಗೆ ಕರೆ ಮಾಡುವುದು.", "अगर आपको लगता है कि किसी जानवर को ज़हर दिया गया है, तो सही प्रतिक्रिया यह है कि पहले घरेलू उपाय आज़माएं और अगर वह काम न करे तभी पशु चिकित्सक को बुलाएं।"),
             answer: false,
-            explain: L("No — the right response is always to get veterinary help immediately, without attempting any treatment yourself first."),
+            explain: L("No — the right response is always to get veterinary help immediately, without attempting any treatment yourself first.", "కాదు — సరైన స్పందన ఎల్లప్పుడూ మీరు స్వయంగా ఎలాంటి చికిత్స ప్రయత్నించకుండా వెంటనే పశువైద్య సహాయం పొందడమే.", "இல்லை — சரியான பதில் எப்போதும் நீங்களே எந்த சிகிச்சையையும் முயற்சிக்காமல் உடனடியாக கால்நடை மருத்துவ உதவியைப் பெறுவதே.", "ಇಲ್ಲ — ಸರಿಯಾದ ಪ್ರತಿಕ್ರಿಯೆ ಎಂದರೆ ಯಾವಾಗಲೂ ನೀವೇ ಯಾವುದೇ ಚಿಕಿತ್ಸೆಯನ್ನು ಪ್ರಯತ್ನಿಸದೆ ತಕ್ಷಣ ಪಶುವೈದ್ಯಕೀಯ ಸಹಾಯ ಪಡೆಯುವುದು.", "नहीं — सही प्रतिक्रिया हमेशा यह है कि खुद कोई इलाज करने की कोशिश किए बिना तुरंत पशु चिकित्सा सहायता प्राप्त करें।"),
           },
         ],
       },
