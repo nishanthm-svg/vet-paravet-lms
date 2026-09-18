@@ -6430,9 +6430,9 @@ export const MODULES = [
           },
           {
             type: "truefalse",
-            q: L("Leptospirosis infections in people are more common during the monsoon months."),
+            q: L("Leptospirosis infections in people are more common during the monsoon months.", "లెప్టోస్పైరోసిస్ సంక్రమణలు ప్రజలలో వర్షాకాలంలో ఎక్కువగా ఉంటాయి.", "லெப்டோஸ்பைரோசிஸ் தொற்றுகள் மக்களிடையே பருவமழை மாதங்களில் அதிகமாக காணப்படுகின்றன.", "ಲೆಪ್ಟೋಸ್ಪೈರೋಸಿಸ್ ಸೋಂಕುಗಳು ಜನರಲ್ಲಿ ಮಳೆಗಾಲದ ತಿಂಗಳುಗಳಲ್ಲಿ ಹೆಚ್ಚು ಸಾಮಾನ್ಯವಾಗಿವೆ.", "लोगों में लेप्टोस्पायरोसिस संक्रमण मानसून के महीनों में ज़्यादा आम हैं।"),
             answer: true,
-            explain: L("Yes — the infection rate for Leptospirosis is higher in the monsoon months, alongside contact with infected urine, uterine fluid, or milking."),
+            explain: L("Yes — the infection rate for Leptospirosis is higher in the monsoon months, alongside contact with infected urine, uterine fluid, or milking.", "అవును — లెప్టోస్పైరోసిస్ సంక్రమణ రేటు వర్షాకాలంలో ఎక్కువగా ఉంటుంది, సోకిన మూత్రం, గర్భాశయ ద్రవం, లేదా పాలు పితకడంతో సంబంధంతో పాటు.", "ஆம் — லெப்டோஸ்பைரோசிஸின் தொற்று விகிதம் பருவமழை மாதங்களில் அதிகமாக உள்ளது, தொற்று ஏற்பட்ட சிறுநீர், கருப்பை திரவம், அல்லது பால் கறத்தலுடனான தொடர்புடன் சேர்ந்து.", "ಹೌದು — ಲೆಪ್ಟೋಸ್ಪೈರೋಸಿಸ್‌ನ ಸೋಂಕಿನ ಪ್ರಮಾಣ ಮಳೆಗಾಲದ ತಿಂಗಳುಗಳಲ್ಲಿ ಹೆಚ್ಚಾಗಿದೆ, ಸೋಂಕಿತ ಮೂತ್ರ, ಗರ್ಭಾಶಯದ ದ್ರವ, ಅಥವಾ ಹಾಲು ಕರೆಯುವ ಸಂಪರ್ಕದೊಂದಿಗೆ.", "हाँ — संक्रमित पेशाब, गर्भाशय द्रव, या दूध दुहने के संपर्क के साथ-साथ, मानसून के महीनों में लेप्टोस्पायरोसिस की संक्रमण दर ज़्यादा है।"),
           },
         ],
       },
@@ -6443,51 +6443,51 @@ export const MODULES = [
         {
           topicId: "t-m11-what-is-zoonotic",
           type: "mcq",
-          q: L("About what share of all known infectious diseases are zoonotic?"),
-          options: [L("About 5%"), L("About 25%"), L("About 61%"), L("About 100%")],
+          q: L("About what share of all known infectious diseases are zoonotic?", "తెలిసిన అన్ని అంటు వ్యాధులలో జూనోటిక్ వ్యాధుల వాటా సుమారు ఎంత?", "தெரிந்த அனைத்து தொற்று நோய்களில் விலங்கு-மனித நோய்களின் பங்கு எவ்வளவு?", "ತಿಳಿದಿರುವ ಎಲ್ಲಾ ಸಾಂಕ್ರಾಮಿಕ ರೋಗಗಳಲ್ಲಿ ಝೂನೋಟಿಕ್ ರೋಗಗಳ ಪಾಲು ಎಷ್ಟು?", "सभी ज्ञात संक्रामक रोगों में ज़ूनोटिक रोगों का हिस्सा लगभग कितना है?"),
+          options: [L("About 5%", "సుమారు 5%", "சுமார் 5%", "ಸುಮಾರು 5%", "लगभग 5%"), L("About 25%", "సుమారు 25%", "சுமார் 25%", "ಸುಮಾರು 25%", "लगभग 25%"), L("About 61%", "సుమారు 61%", "சுமார் 61%", "ಸುಮಾರು 61%", "लगभग 61%"), L("About 100%", "సుమారు 100%", "சுமார் 100%", "ಸುಮಾರು 100%", "लगभग 100%")],
           answer: 2,
-          explain: L("Zoonoses make up about 61% of all known infectious diseases — a much larger share than most people expect."),
+          explain: L("Zoonoses make up about 61% of all known infectious diseases — a much larger share than most people expect.", "జూనోసెస్ తెలిసిన అన్ని అంటు వ్యాధులలో సుమారు 61% ఉంటాయి — చాలా మంది ఆశించే దానికంటే చాలా పెద్ద వాటా.", "ஜூனோசிஸ் நோய்கள் தெரிந்த அனைத்து தொற்று நோய்களில் சுமார் 61% ஆகும் — பெரும்பாலான மக்கள் எதிர்பார்ப்பதை விட மிகப் பெரிய பங்கு.", "ಝೂನೋಸಿಸ್‌ಗಳು ತಿಳಿದಿರುವ ಎಲ್ಲಾ ಸಾಂಕ್ರಾಮಿಕ ರೋಗಗಳಲ್ಲಿ ಸುಮಾರು 61% ಆಗಿವೆ — ಹೆಚ್ಚಿನ ಜನರು ನಿರೀಕ್ಷಿಸುವುದಕ್ಕಿಂತ ಹೆಚ್ಚು ದೊಡ್ಡ ಪಾಲು.", "ज़ूनोसिस सभी ज्ञात संक्रामक रोगों का लगभग 61% हैं — जितना ज़्यादातर लोग सोचते हैं उससे कहीं बड़ा हिस्सा।"),
         },
         {
           topicId: "t-m11-what-is-zoonotic",
           type: "truefalse",
-          q: L("Because dairy farm workers are in close daily contact with animals, they are always at some risk of picking up a zoonotic infection."),
+          q: L("Because dairy farm workers are in close daily contact with animals, they are always at some risk of picking up a zoonotic infection.", "పాడి రైతు కార్మికులు జంతువులతో దగ్గరగా రోజువారీ సంబంధంలో ఉంటారు కాబట్టి, వారికి జూనోటిక్ సంక్రమణ సోకే ప్రమాదం ఎల్లప్పుడూ ఉంటుంది.", "பால் பண்ணை தொழிலாளர்கள் விலங்குகளுடன் தினமும் நெருக்கமாக இருப்பதால், அவர்களுக்கு விலங்கு-மனித தொற்று ஏற்படும் அபாயம் எப்போதும் உள்ளது.", "ಹೈನುಗಾರಿಕೆ ಕಾರ್ಮಿಕರು ಪ್ರಾಣಿಗಳೊಂದಿಗೆ ಪ್ರತಿದಿನ ಹತ್ತಿರದ ಸಂಪರ್ಕದಲ್ಲಿರುವುದರಿಂದ, ಅವರಿಗೆ ಝೂನೋಟಿಕ್ ಸೋಂಕು ತಗುಲುವ ಅಪಾಯ ಯಾವಾಗಲೂ ಇರುತ್ತದೆ.", "चूंकि डेयरी फार्म के कर्मचारी जानवरों के रोज़ाना नज़दीकी संपर्क में रहते हैं, उन्हें हमेशा ज़ूनोटिक संक्रमण होने का कुछ खतरा रहता है।"),
           answer: true,
-          explain: L("Correct — close, everyday contact with animals is itself one of the main risk factors for zoonotic disease."),
+          explain: L("Correct — close, everyday contact with animals is itself one of the main risk factors for zoonotic disease.", "సరైనది — జంతువులతో దగ్గరి, రోజువారీ సంబంధం అనేదే జూనోటిక్ వ్యాధికి ప్రధాన ప్రమాద కారకాలలో ఒకటి.", "சரியானது — விலங்குகளுடன் நெருங்கிய, அன்றாட தொடர்பே விலங்கு-மனித நோய்க்கான முக்கிய ஆபத்து காரணிகளில் ஒன்றாகும்.", "ಸರಿ — ಪ್ರಾಣಿಗಳೊಂದಿಗಿನ ನಿಕಟ, ದೈನಂದಿನ ಸಂಪರ್ಕವೇ ಝೂನೋಟಿಕ್ ರೋಗಕ್ಕೆ ಪ್ರಮುಖ ಅಪಾಯದ ಅಂಶಗಳಲ್ಲಿ ಒಂದಾಗಿದೆ.", "सही — जानवरों के साथ नज़दीकी, रोज़ाना संपर्क अपने आप में ज़ूनोटिक रोग के मुख्य जोखिम कारकों में से एक है।"),
         },
         {
           topicId: "t-m11-three-diseases",
           type: "mcq",
-          q: L("Which of these is a common symptom of Human TB caught from cattle?"),
-          options: [L("Cough, weight loss and poor appetite"), L("Bright pink skin"), L("Loss of hearing"), L("Faster hoof growth")],
+          q: L("Which of these is a common symptom of Human TB caught from cattle?", "పశువుల నుండి సోకిన మానవ టీబీ యొక్క సాధారణ లక్షణం ఇది ఏది?", "மாடுகளிலிருந்து பிடிக்கப்பட்ட மனித டிபியின் பொதுவான அறிகுறி இது எது?", "ಜಾನುವಾರುಗಳಿಂದ ತಗುಲಿದ ಮಾನವ ಟಿಬಿಯ ಸಾಮಾನ್ಯ ಲಕ್ಷಣ ಇದು ಯಾವುದು?", "पशुओं से लगने वाले मानव टीबी का सामान्य लक्षण यह कौन सा है?"),
+          options: [L("Cough, weight loss and poor appetite", "దగ్గు, బరువు తగ్గడం మరియు ఆకలి తగ్గడం", "இருமல், எடை இழப்பு மற்றும் பசியின்மை", "ಕೆಮ್ಮು, ತೂಕ ಇಳಿಕೆ ಮತ್ತು ಕಳಪೆ ಹಸಿವು", "खांसी, वज़न कम होना और भूख न लगना"), L("Bright pink skin", "ప్రకాశవంతమైన గులాబీ చర్మం", "பிரகாசமான இளஞ்சிவப்பு தோல்", "ಪ್ರಕಾಶಮಾನ ಗುಲಾಬಿ ಚರ್ಮ", "चमकीली गुलाबी त्वचा"), L("Loss of hearing", "వినికిడి కోల్పోవడం", "கேட்கும் திறன் இழப்பு", "ಶ್ರವಣ ನಷ್ಟ", "सुनने की क्षमता खोना"), L("Faster hoof growth", "వేగంగా గిట్ట పెరుగుదల", "வேகமான குளம்பு வளர்ச்சி", "ವೇಗದ ಗೊರಸು ಬೆಳವಣಿಗೆ", "तेज़ खुर वृद्धि")],
           answer: 0,
-          explain: L("Human TB from cattle often shows no symptoms until advanced, and then commonly causes cough, weight loss, and poor appetite."),
+          explain: L("Human TB from cattle often shows no symptoms until advanced, and then commonly causes cough, weight loss, and poor appetite.", "పశువుల నుండి వచ్చే మానవ టీబీ చాలా వరకు ముదిరే వరకు లక్షణాలు చూపదు, ఆ తర్వాత సాధారణంగా దగ్గు, బరువు తగ్గడం, మరియు ఆకలి తగ్గడం కలిగిస్తుంది.", "மாடுகளிலிருந்து வரும் மனித டிபி பெரும்பாலும் முற்றும் வரை அறிகுறிகள் இல்லாமல் இருக்கும், பின்னர் பொதுவாக இருமல், எடை இழப்பு, மற்றும் பசியின்மையை ஏற்படுத்தும்.", "ಜಾನುವಾರುಗಳಿಂದ ಬರುವ ಮಾನವ ಟಿಬಿ ಸಾಮಾನ್ಯವಾಗಿ ಮುಂದುವರಿಯುವ ತನಕ ಯಾವುದೇ ಲಕ್ಷಣಗಳನ್ನು ತೋರಿಸುವುದಿಲ್ಲ, ನಂತರ ಸಾಮಾನ್ಯವಾಗಿ ಕೆಮ್ಮು, ತೂಕ ಇಳಿಕೆ, ಮತ್ತು ಕಳಪೆ ಹಸಿವನ್ನು ಉಂಟುಮಾಡುತ್ತದೆ.", "पशुओं से लगने वाला मानव टीबी अक्सर बढ़ने तक कोई लक्षण नहीं दिखाता, और फिर आमतौर पर खांसी, वज़न कम होना, और भूख न लगना जैसे लक्षण पैदा करता है।"),
         },
         {
           topicId: "t-m11-three-diseases",
           type: "mcq",
-          q: L("What is one way people can get infected with Leptospirosis?"),
+          q: L("What is one way people can get infected with Leptospirosis?", "ప్రజలకు లెప్టోస్పైరోసిస్ సోకే మార్గాలలో ఒకటి ఏమిటి?", "மக்கள் லெப்டோஸ்பைரோசிஸ் தொற்றை பெறக்கூடிய ஒரு வழி என்ன?", "ಜನರಿಗೆ ಲೆಪ್ಟೋಸ್ಪೈರೋಸಿಸ್ ಸೋಂಕು ತಗುಲುವ ಒಂದು ವಿಧಾನ ಯಾವುದು?", "लोगों को लेप्टोस्पायरोसिस संक्रमण होने का एक तरीका क्या है?"),
           options: [
-            L("Contact with infected urine or uterine fluid, or while milking infected cattle"),
-            L("Standing far away from cattle"),
-            L("Drinking clean, boiled water"),
-            L("Wearing gloves while feeding calves"),
+            L("Contact with infected urine or uterine fluid, or while milking infected cattle", "సోకిన మూత్రం లేదా గర్భాశయ ద్రవంతో సంబంధం, లేదా సోకిన పశువులను పాలు పితికేటప్పుడు", "தொற்று ஏற்பட்ட சிறுநீர் அல்லது கருப்பை திரவத்துடன் தொடர்பு, அல்லது தொற்று ஏற்பட்ட மாடுகளின் பால் கறக்கும்போது", "ಸೋಂಕಿತ ಮೂತ್ರ ಅಥವಾ ಗರ್ಭಾಶಯದ ದ್ರವದ ಸಂಪರ್ಕ, ಅಥವಾ ಸೋಂಕಿತ ಜಾನುವಾರುಗಳ ಹಾಲು ಕರೆಯುವಾಗ", "संक्रमित पेशाब या गर्भाशय द्रव के संपर्क से, या संक्रमित पशुओं का दूध दुहते समय"),
+            L("Standing far away from cattle", "పశువుల నుండి దూరంగా నిలబడటం", "மாடுகளிலிருந்து தூரமாக நிற்பது", "ಜಾನುವಾರುಗಳಿಂದ ದೂರ ನಿಲ್ಲುವುದು", "पशुओं से दूर खड़े होना"),
+            L("Drinking clean, boiled water", "శుభ్రమైన, ఉడికించిన నీరు తాగడం", "சுத்தமான, கொதிக்கவைத்த தண்ணீர் குடிப்பது", "ಸ್ವಚ್ಛ, ಕುದಿಸಿದ ನೀರು ಕುಡಿಯುವುದು", "साफ़, उबला हुआ पानी पीना"),
+            L("Wearing gloves while feeding calves", "దూడలకు తినిపించేటప్పుడు చేతి తొడుగులు వేసుకోవడం", "கன்றுகளுக்கு உணவளிக்கும்போது கையுறைகள் அணிவது", "ಕರುಗಳಿಗೆ ಆಹಾರ ನೀಡುವಾಗ ಕೈಗವಸುಗಳನ್ನು ಧರಿಸುವುದು", "बछड़ों को खिलाते समय दस्ताने पहनना"),
           ],
           answer: 0,
-          explain: L("Leptospirosis spreads mainly through contact with contaminated urine or uterine fluid, and through milking infected cattle."),
+          explain: L("Leptospirosis spreads mainly through contact with contaminated urine or uterine fluid, and through milking infected cattle.", "లెప్టోస్పైరోసిస్ ప్రధానంగా కలుషితమైన మూత్రం లేదా గర్భాశయ ద్రవంతో సంబంధం ద్వారా, మరియు సోకిన పశువులను పాలు పితకడం ద్వారా వ్యాపిస్తుంది.", "லெப்டோஸ்பைரோசிஸ் முக்கியமாக கறைபடிந்த சிறுநீர் அல்லது கருப்பை திரவத்துடன் தொடர்பு மூலமாகவும், தொற்று ஏற்பட்ட மாடுகளின் பால் கறத்தல் மூலமாகவும் பரவுகிறது.", "ಲೆಪ್ಟೋಸ್ಪೈರೋಸಿಸ್ ಮುಖ್ಯವಾಗಿ ಕಲುಷಿತ ಮೂತ್ರ ಅಥವಾ ಗರ್ಭಾಶಯದ ದ್ರವದ ಸಂಪರ್ಕದ ಮೂಲಕ, ಮತ್ತು ಸೋಂಕಿತ ಜಾನುವಾರುಗಳ ಹಾಲು ಕರೆಯುವ ಮೂಲಕ ಹರಡುತ್ತದೆ.", "लेप्टोस्पायरोसिस मुख्यतः दूषित पेशाब या गर्भाशय द्रव के संपर्क से, और संक्रमित पशुओं का दूध दुहने से फैलता है।"),
         },
         {
           topicId: "t-m11-what-is-zoonotic",
           type: "mcq",
-          q: L("If you notice unusual symptoms in yourself, such as fever or joint pain, and you handle cattle daily, what should you do?"),
+          q: L("If you notice unusual symptoms in yourself, such as fever or joint pain, and you handle cattle daily, what should you do?", "మీలో జ్వరం లేదా కీళ్ల నొప్పి వంటి అసాధారణ లక్షణాలు మీరు గమనించి, మీరు ప్రతిరోజూ పశువులను నిర్వహిస్తుంటే, మీరు ఏమి చేయాలి?", "காய்ச்சல் அல்லது மூட்டு வலி போன்ற அசாதாரண அறிகுறிகளை நீங்கள் உங்களில் கவனித்து, நீங்கள் தினமும் மாடுகளை கையாள்கிறீர்கள் என்றால், நீங்கள் என்ன செய்ய வேண்டும்?", "ಜ್ವರ ಅಥವಾ ಕೀಲು ನೋವಿನಂತಹ ಅಸಾಮಾನ್ಯ ಲಕ್ಷಣಗಳನ್ನು ನಿಮ್ಮಲ್ಲಿ ನೀವು ಗಮನಿಸಿ, ನೀವು ಪ್ರತಿದಿನ ಜಾನುವಾರುಗಳನ್ನು ನಿರ್ವಹಿಸಿದರೆ, ನೀವು ಏನು ಮಾಡಬೇಕು?", "अगर आपको बुखार या जोड़ों के दर्द जैसे असामान्य लक्षण दिखें, और आप रोज़ाना पशुओं को संभालते हैं, तो आपको क्या करना चाहिए?"),
           options: [
-            L("Say nothing — it can't be related to the animals"),
-            L("Wait a month to see if it goes away"),
-            L("Mention your daily animal contact to a doctor so they can consider it"),
-            L("Try to diagnose it yourself using this course"),
+            L("Say nothing — it can't be related to the animals", "ఏమీ చెప్పవద్దు — ఇది జంతువులకు సంబంధించినది కాదు", "எதுவும் சொல்ல வேண்டாம் — இது விலங்குகளுடன் தொடர்புடையதாக இருக்க முடியாது", "ಏನೂ ಹೇಳಬೇಡಿ — ಇದು ಪ್ರಾಣಿಗಳಿಗೆ ಸಂಬಂಧಿಸಿರಲು ಸಾಧ್ಯವಿಲ್ಲ", "कुछ न कहें — इसका जानवरों से कोई संबंध नहीं हो सकता"),
+            L("Wait a month to see if it goes away", "అది తగ్గుతుందేమో చూడటానికి ఒక నెల వేచి ఉండండి", "இது போய்விடுமா என்று ஒரு மாதம் காத்திருங்கள்", "ಅದು ಹೋಗುತ್ತದೆಯೇ ಎಂದು ನೋಡಲು ಒಂದು ತಿಂಗಳು ಕಾಯಿರಿ", "यह ठीक होता है या नहीं यह देखने के लिए एक महीना इंतज़ार करें"),
+            L("Mention your daily animal contact to a doctor so they can consider it", "వైద్యుడు దానిని పరిగణించేలా మీ రోజువారీ జంతు సంబంధాన్ని వైద్యుడికి తెలియజేయండి", "மருத்துவர் அதைக் கருத்தில் கொள்ளும்படி உங்கள் அன்றாட விலங்கு தொடர்பை அவரிடம் தெரிவிக்கவும்", "ವೈದ್ಯರು ಅದನ್ನು ಪರಿಗಣಿಸಲು ನಿಮ್ಮ ದೈನಂದಿನ ಪ್ರಾಣಿ ಸಂಪರ್ಕವನ್ನು ಅವರಿಗೆ ತಿಳಿಸಿ", "डॉक्टर को अपने रोज़ाना जानवरों के संपर्क के बारे में बताएं ताकि वे इस पर विचार कर सकें"),
+            L("Try to diagnose it yourself using this course", "ఈ కోర్సును ఉపయోగించి మీరే స్వయంగా నిర్ధారించడానికి ప్రయత్నించండి", "இந்த பாடத்திட்டத்தைப் பயன்படுத்தி நீங்களே கண்டறிய முயற்சிக்கவும்", "ಈ ಕೋರ್ಸ್ ಬಳಸಿ ನೀವೇ ಸ್ವತಃ ಪತ್ತೆ ಮಾಡಲು ಪ್ರಯತ್ನಿಸಿ", "इस पाठ्यक्रम का उपयोग करके खुद निदान करने की कोशिश करें"),
           ],
           answer: 2,
-          explain: L("Zoonotic diseases can be cured if diagnosed and treated promptly — telling a doctor about your regular animal contact helps them consider the right cause."),
+          explain: L("Zoonotic diseases can be cured if diagnosed and treated promptly — telling a doctor about your regular animal contact helps them consider the right cause.", "జూనోటిక్ వ్యాధులను వెంటనే నిర్ధారించి చికిత్స చేస్తే నయం చేయవచ్చు — మీ క్రమం తప్పకుండా జంతు సంబంధం గురించి వైద్యుడికి చెప్పడం వారికి సరైన కారణాన్ని పరిగణించడంలో సహాయపడుతుంది.", "விலங்கு-மனித நோய்களை உடனடியாக கண்டறிந்து சிகிச்சை அளித்தால் குணப்படுத்த முடியும் — உங்கள் வழக்கமான விலங்கு தொடர்பைப் பற்றி ஒரு மருத்துவரிடம் தெரிவிப்பது சரியான காரணத்தைக் கருத்தில் கொள்ள அவர்களுக்கு உதவுகிறது.", "ಝೂನೋಟಿಕ್ ರೋಗಗಳನ್ನು ತಕ್ಷಣ ಪತ್ತೆ ಮಾಡಿ ಚಿಕಿತ್ಸೆ ನೀಡಿದರೆ ಗುಣಪಡಿಸಬಹುದು — ನಿಮ್ಮ ನಿಯಮಿತ ಪ್ರಾಣಿ ಸಂಪರ್ಕದ ಬಗ್ಗೆ ವೈದ್ಯರಿಗೆ ತಿಳಿಸುವುದು ಸರಿಯಾದ ಕಾರಣವನ್ನು ಪರಿಗಣಿಸಲು ಅವರಿಗೆ ಸಹಾಯ ಮಾಡುತ್ತದೆ.", "ज़ूनोटिक रोगों का समय पर निदान और इलाज किया जाए तो उन्हें ठीक किया जा सकता है — डॉक्टर को अपने नियमित जानवरों के संपर्क के बारे में बताना उन्हें सही कारण पर विचार करने में मदद करता है।"),
         },
       ],
     },
@@ -6498,33 +6498,41 @@ export const MODULES = [
   // ==================================================================
   {
     id: "m11-l2",
-    title: L("Gut and Tick-Borne Zoonotic Diseases, and Protecting Yourself"),
+    title: L("Gut and Tick-Borne Zoonotic Diseases, and Protecting Yourself", "గట్ మరియు పేనుల ద్వారా వ్యాపించే జూనోటిక్ వ్యాధులు, మరియు మిమ్మల్ని మీరు రక్షించుకోవడం", "குடல் மற்றும் ஈறு மூலம் பரவும் விலங்கு-மனித நோய்கள், மற்றும் உங்களைப் பாதுகாத்துக் கொள்ளுதல்", "ಕರುಳು ಮತ್ತು ಉಣ್ಣಿಯಿಂದ ಹರಡುವ ಝೂನೋಟಿಕ್ ರೋಗಗಳು, ಮತ್ತು ನಿಮ್ಮನ್ನು ರಕ್ಷಿಸಿಕೊಳ್ಳುವುದು", "आंत और किलनी से फैलने वाले ज़ूनोटिक रोग, और खुद को सुरक्षित रखना"),
     estMinutes: 8,
     hook: [
       {
         type: "hero",
-        heading: L("Two More Groups of Diseases to Watch For"),
+        heading: L("Two More Groups of Diseases to Watch For", "గమనించవలసిన మరో రెండు వ్యాధుల సమూహాలు", "கவனிக்க வேண்டிய இன்னும் இரண்டு நோய் குழுக்கள்", "ಗಮನಿಸಬೇಕಾದ ಇನ್ನೆರಡು ರೋಗಗಳ ಗುಂಪುಗಳು", "ध्यान देने योग्य बीमारियों के दो और समूह"),
         text: L(
-          "Beyond Brucellosis, TB and Leptospirosis, there are two more groups of zoonotic diseases connected to cattle: infections that upset the stomach and gut, and infections carried by ticks. This lesson covers both, along with simple, practical habits that protect you every single day."
+          "Beyond Brucellosis, TB and Leptospirosis, there are two more groups of zoonotic diseases connected to cattle: infections that upset the stomach and gut, and infections carried by ticks. This lesson covers both, along with simple, practical habits that protect you every single day.",
+          "బ్రూసెల్లోసిస్, టీబీ మరియు లెప్టోస్పైరోసిస్‌తో పాటు, పశువులకు సంబంధించిన మరో రెండు జూనోటిక్ వ్యాధుల సమూహాలు ఉన్నాయి: కడుపు మరియు గట్‌ను చెడగొట్టే సంక్రమణలు, మరియు పేనుల ద్వారా వ్యాపించే సంక్రమణలు. ఈ పాఠం రెండింటినీ, ప్రతిరోజూ మిమ్మల్ని రక్షించే సరళమైన, ఆచరణాత్మక అలవాట్లతో పాటు వివరిస్తుంది.",
+          "புருசெல்லோசிஸ், டிபி மற்றும் லெப்டோஸ்பைரோசிஸைத் தாண்டி, மாடுகளுடன் தொடர்புடைய இன்னும் இரண்டு விலங்கு-மனித நோய் குழுக்கள் உள்ளன: வயிற்றையும் குடலையும் பாதிக்கும் தொற்றுகள், மற்றும் ஈறுகளால் பரவும் தொற்றுகள். இந்த பாடம் இரண்டையும், ஒவ்வொரு நாளும் உங்களைப் பாதுகாக்கும் எளிய, நடைமுறை பழக்கங்களுடன் உள்ளடக்குகிறது.",
+          "ಬ್ರೂಸೆಲ್ಲೋಸಿಸ್, ಟಿಬಿ ಮತ್ತು ಲೆಪ್ಟೋಸ್ಪೈರೋಸಿಸ್ ಹೊರತಾಗಿ, ಜಾನುವಾರುಗಳಿಗೆ ಸಂಬಂಧಿಸಿದ ಇನ್ನೆರಡು ಝೂನೋಟಿಕ್ ರೋಗಗಳ ಗುಂಪುಗಳಿವೆ: ಹೊಟ್ಟೆ ಮತ್ತು ಕರುಳನ್ನು ಕೆಡಿಸುವ ಸೋಂಕುಗಳು, ಮತ್ತು ಉಣ್ಣಿಗಳಿಂದ ಹರಡುವ ಸೋಂಕುಗಳು. ಈ ಪಾಠ ಎರಡನ್ನೂ, ಪ್ರತಿದಿನ ನಿಮ್ಮನ್ನು ರಕ್ಷಿಸುವ ಸರಳ, ಪ್ರಾಯೋಗಿಕ ಅಭ್ಯಾಸಗಳೊಂದಿಗೆ ಒಳಗೊಂಡಿದೆ.",
+          "ब्रुसेलोसिस, टीबी और लेप्टोस्पायरोसिस के अलावा, पशुओं से जुड़े ज़ूनोटिक रोगों के दो और समूह हैं: वे संक्रमण जो पेट और आंत को खराब करते हैं, और किलनी द्वारा फैलाए जाने वाले संक्रमण। यह पाठ दोनों को, हर दिन आपकी रक्षा करने वाली सरल, व्यावहारिक आदतों के साथ कवर करता है।"
         ),
       },
     ],
     topics: [
       {
         id: "t-m11-gi-zoonotic",
-        title: L("Gastro-Intestinal Zoonotic Diseases"),
+        title: L("Gastro-Intestinal Zoonotic Diseases", "జఠర-ప్రేగు సంబంధిత జూనోటిక్ వ్యాధులు", "இரைப்பை-குடல் விலங்கு-மனித நோய்கள்", "ಜಠರ-ಕರುಳಿನ ಝೂನೋಟಿಕ್ ರೋಗಗಳು", "आंत्र-संबंधी ज़ूनोटिक रोग"),
         teach: [
             {
               type: "photo",
               src: "assets/photo-m11-handwashing.jpg",
-              alt: L("A person washing their hands thoroughly with soap and lather at a sink"),
-              caption: L("Washing your hands thoroughly with soap after handling dung or cattle — and always before eating — is one of the simplest ways to protect yourself."),
+              alt: L("A person washing their hands thoroughly with soap and lather at a sink", "ఒక వ్యక్తి సింక్ వద్ద సబ్బు మరియు నురుగుతో చేతులను బాగా కడుక్కుంటున్నారు", "ஒரு நபர் ஒரு வாஷ்பேசினில் சோப்பு மற்றும் நுரையுடன் தனது கைகளை நன்கு கழுவுகிறார்", "ಒಬ್ಬ ವ್ಯಕ್ತಿ ಸಿಂಕ್‌ನಲ್ಲಿ ಸಾಬೂನು ಮತ್ತು ನೊರೆಯಿಂದ ತಮ್ಮ ಕೈಗಳನ್ನು ಸಂಪೂರ್ಣವಾಗಿ ತೊಳೆಯುತ್ತಿದ್ದಾರೆ", "एक व्यक्ति सिंक पर साबुन और झाग से अपने हाथों को अच्छी तरह धो रहा है"),
+              caption: L("Washing your hands thoroughly with soap after handling dung or cattle — and always before eating — is one of the simplest ways to protect yourself.", "పేడ లేదా పశువులను నిర్వహించిన తర్వాత — మరియు తినడానికి ముందు ఎల్లప్పుడూ — సబ్బుతో చేతులను బాగా కడుక్కోవడం మిమ్మల్ని మీరు రక్షించుకోవడానికి అత్యంత సరళమైన మార్గాలలో ఒకటి.", "சாணம் அல்லது மாடுகளை கையாண்ட பிறகு — மற்றும் சாப்பிடுவதற்கு முன் எப்போதும் — சோப்புடன் உங்கள் கைகளை நன்கு கழுவுவது உங்களைப் பாதுகாத்துக் கொள்ளும் எளிய வழிகளில் ஒன்றாகும்.", "ಸಗಣಿ ಅಥವಾ ಜಾನುವಾರುಗಳನ್ನು ನಿರ್ವಹಿಸಿದ ನಂತರ — ಮತ್ತು ತಿನ್ನುವ ಮೊದಲು ಯಾವಾಗಲೂ — ಸಾಬೂನಿನಿಂದ ನಿಮ್ಮ ಕೈಗಳನ್ನು ಸಂಪೂರ್ಣವಾಗಿ ತೊಳೆಯುವುದು ನಿಮ್ಮನ್ನು ರಕ್ಷಿಸಿಕೊಳ್ಳುವ ಸರಳ ವಿಧಾನಗಳಲ್ಲಿ ಒಂದಾಗಿದೆ.", "गोबर या पशुओं को संभालने के बाद — और खाने से पहले हमेशा — साबुन से अपने हाथों को अच्छी तरह धोना खुद को सुरक्षित रखने के सबसे आसान तरीकों में से एक है।"),
             },
           {
             type: "text",
-            heading: L("What Are Gastro-Intestinal Zoonotic Diseases?"),
+            heading: L("What Are Gastro-Intestinal Zoonotic Diseases?", "జఠర-ప్రేగు సంబంధిత జూనోటిక్ వ్యాధులు అంటే ఏమిటి?", "இரைப்பை-குடல் விலங்கு-மனித நோய்கள் என்றால் என்ன?", "ಜಠರ-ಕರುಳಿನ ಝೂನೋಟಿಕ್ ರೋಗಗಳು ಎಂದರೇನು?", "आंत्र-संबंधी ज़ूनोटिक रोग क्या हैं?"),
             html: L(
-              "These are zoonotic diseases that affect the <b>intestinal tract</b> (the gut). Some examples that can pass between cattle and people are infections with <b>Salmonella, E. coli, Campylobacter, Rota virus, Cryptosporidia,</b> and <b>Giardia</b>. These are all different kinds of germs, but they share the same way of spreading and cause similar problems."
+              "These are zoonotic diseases that affect the <b>intestinal tract</b> (the gut). Some examples that can pass between cattle and people are infections with <b>Salmonella, E. coli, Campylobacter, Rota virus, Cryptosporidia,</b> and <b>Giardia</b>. These are all different kinds of germs, but they share the same way of spreading and cause similar problems.",
+              "ఇవి <b>ప్రేగు మార్గాన్ని</b> (గట్) ప్రభావితం చేసే జూనోటిక్ వ్యాధులు. పశువులు మరియు మనుషుల మధ్య వ్యాపించగల కొన్ని ఉదాహరణలు <b>సాల్మొనెల్లా, ఇ.కొలై, క్యాంపిలోబాక్టర్, రోటా వైరస్, క్రిప్టోస్పోరిడియా,</b> మరియు <b>జియార్డియా</b> సంక్రమణలు. ఇవన్నీ వేర్వేరు రకాల క్రిములు, కానీ అవి ఒకే విధంగా వ్యాపిస్తాయి మరియు ఇలాంటి సమస్యలను కలిగిస్తాయి.",
+              "இவை <b>குடல் பாதையை</b> (குடல்) பாதிக்கும் விலங்கு-மனித நோய்கள். மாடு மற்றும் மனிதர்களுக்கு இடையே பரவக்கூடிய சில உதாரணங்கள் <b>சால்மோனெல்லா, இ.கோலை, காம்பிலோபாக்டர், ரோட்டா வைரஸ், கிரிப்டோஸ்போரிடியா,</b> மற்றும் <b>கியார்டியா</b> தொற்றுகள். இவை அனைத்தும் வெவ்வேறு வகையான கிருமிகள், ஆனால் அவை ஒரே வகையான பரவல் முறையைக் கொண்டு ஒரே மாதிரியான பிரச்சனைகளை ஏற்படுத்துகின்றன.",
+              "ಇವು <b>ಕರುಳಿನ ಮಾರ್ಗವನ್ನು</b> (ಕರುಳು) ಬಾಧಿಸುವ ಝೂನೋಟಿಕ್ ರೋಗಗಳು. ಜಾನುವಾರುಗಳು ಮತ್ತು ಜನರ ನಡುವೆ ಹರಡಬಹುದಾದ ಕೆಲವು ಉದಾಹರಣೆಗಳೆಂದರೆ <b>ಸಾಲ್ಮೊನೆಲ್ಲಾ, ಇ.ಕೊಲಾಯ್, ಕ್ಯಾಂಪಿಲೋಬ್ಯಾಕ್ಟರ್, ರೋಟಾ ವೈರಸ್, ಕ್ರಿಪ್ಟೋಸ್ಪೊರಿಡಿಯಾ,</b> ಮತ್ತು <b>ಗಿಯಾರ್ಡಿಯಾ</b> ಸೋಂಕುಗಳು. ಇವೆಲ್ಲಾ ವಿಭಿನ್ನ ರೀತಿಯ ಸೂಕ್ಷ್ಮಾಣುಗಳಾಗಿವೆ, ಆದರೆ ಅವು ಒಂದೇ ರೀತಿಯ ಹರಡುವಿಕೆಯ ವಿಧಾನವನ್ನು ಹಂಚಿಕೊಳ್ಳುತ್ತವೆ ಮತ್ತು ಇದೇ ರೀತಿಯ ಸಮಸ್ಯೆಗಳನ್ನು ಉಂಟುಮಾಡುತ್ತವೆ.",
+              "ये वे ज़ूनोटिक रोग हैं जो <b>आंत्र मार्ग</b> (आंत) को प्रभावित करते हैं। पशुओं और लोगों के बीच फैल सकने वाले कुछ उदाहरण हैं <b>साल्मोनेला, ई. कोलाई, कैम्पिलोबैक्टर, रोटा वायरस, क्रिप्टोस्पोरिडिया,</b> और <b>जिआर्डिया</b> संक्रमण। ये सभी अलग-अलग प्रकार के कीटाणु हैं, लेकिन इनके फैलने का तरीका एक जैसा है और ये समान समस्याएँ पैदा करते हैं।"
             ),
           },
           {
