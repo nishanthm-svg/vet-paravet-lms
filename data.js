@@ -6164,52 +6164,52 @@ export const MODULES = [
         {
           topicId: "t-m10-op-symptoms",
           type: "mcq",
-          q: L("Most pesticides used on crops and to kill ticks on cattle are made from which type of compound?"),
-          options: [L("Organophosphorous (OP) compounds"), L("Vitamin compounds"), L("Salt compounds"), L("Sugar compounds")],
+          q: L("Most pesticides used on crops and to kill ticks on cattle are made from which type of compound?", "పంటలపై మరియు పశువులపై పేనులను చంపడానికి వాడే చాలా పురుగుమందులు ఏ రకమైన సమ్మేళనం నుండి తయారవుతాయి?", "பயிர்களில் மற்றும் மாடுகளில் ஈறுகளைக் கொல்ல பயன்படுத்தப்படும் பெரும்பாலான பூச்சிக்கொல்லிகள் எந்த வகை கூட்டுப்பொருளிலிருந்து செய்யப்படுகின்றன?", "ಬೆಳೆಗಳ ಮೇಲೆ ಮತ್ತು ಜಾನುವಾರುಗಳ ಮೇಲಿನ ಉಣ್ಣಿಗಳನ್ನು ಕೊಲ್ಲಲು ಬಳಸುವ ಹೆಚ್ಚಿನ ಕೀಟನಾಶಕಗಳು ಯಾವ ರೀತಿಯ ಸಂಯುಕ್ತದಿಂದ ತಯಾರಿಸಲ್ಪಡುತ್ತವೆ?", "फसलों पर और पशुओं पर किलनी मारने के लिए इस्तेमाल होने वाले ज़्यादातर कीटनाशक किस प्रकार के यौगिक से बने होते हैं?"),
+          options: [L("Organophosphorous (OP) compounds", "ఆర్గానోఫాస్ఫరస్ (OP) సమ్మేళనాలు", "ஆர்கானோபாஸ்பரஸ் (OP) கூட்டுப்பொருட்கள்", "ಆರ್ಗನೋಫಾಸ್ಫರಸ್ (OP) ಸಂಯುಕ್ತಗಳು", "ऑर्गनोफॉस्फोरस (OP) यौगिक"), L("Vitamin compounds", "విటమిన్ సమ్మేళనాలు", "வைட்டமின் கூட்டுப்பொருட்கள்", "ವಿಟಮಿನ್ ಸಂಯುಕ್ತಗಳು", "विटामिन यौगिक"), L("Salt compounds", "ఉప్పు సమ్మేళనాలు", "உப்பு கூட்டுப்பொருட்கள்", "ಉಪ್ಪಿನ ಸಂಯುಕ್ತಗಳು", "नमक यौगिक"), L("Sugar compounds", "చక్కెర సమ్మేళనాలు", "சர்க்கரை கூட்டுப்பொருட்கள்", "ಸಕ್ಕರೆ ಸಂಯುಕ್ತಗಳು", "चीनी यौगिक")],
           answer: 0,
-          explain: L("A majority of pesticides are organophosphorous (OP) compounds, which are active poisons."),
+          explain: L("A majority of pesticides are organophosphorous (OP) compounds, which are active poisons.", "చాలా పురుగుమందులు ఆర్గానోఫాస్ఫరస్ (OP) సమ్మేళనాలు, ఇవి క్రియాశీల విషాలు.", "பெரும்பாலான பூச்சிக்கொல்லிகள் ஆர்கானோபாஸ்பரஸ் (OP) கூட்டுப்பொருட்கள் ஆகும், அவை செயல்படும் நச்சுகள்.", "ಹೆಚ್ಚಿನ ಕೀಟನಾಶಕಗಳು ಆರ್ಗನೋಫಾಸ್ಫರಸ್ (OP) ಸಂಯುಕ್ತಗಳಾಗಿವೆ, ಅವು ಸಕ್ರಿಯ ವಿಷಗಳಾಗಿವೆ.", "ज़्यादातर कीटनाशक ऑर्गनोफॉस्फोरस (OP) यौगिक हैं, जो सक्रिय ज़हर हैं।"),
         },
         {
           topicId: "t-m10-op-symptoms",
           type: "truefalse",
-          q: L("Very small (constricted) pupils can be a sign of OP poisoning."),
+          q: L("Very small (constricted) pupils can be a sign of OP poisoning.", "చాలా చిన్న (సంకోచించిన) కళ్ళ పాపలు OP విషప్రయోగానికి సంకేతం కావచ్చు.", "மிகவும் சிறிய (சுருங்கிய) கருவிழிகள் OP நச்சுத்தன்மையின் அறிகுறியாக இருக்கலாம்.", "ಬಹಳ ಚಿಕ್ಕ (ಸಂಕುಚಿತ) ಕಣ್ಣುಗುಡ್ಡೆಗಳು OP ವಿಷಬಾಧೆಯ ಲಕ್ಷಣವಾಗಿರಬಹುದು.", "बहुत छोटी (सिकुड़ी हुई) पुतलियाँ OP विषाक्तता का लक्षण हो सकती हैं।"),
           answer: true,
-          explain: L("Yes — pupillary constriction is listed as a symptom of OP poisoning in cattle and buffalo."),
+          explain: L("Yes — pupillary constriction is listed as a symptom of OP poisoning in cattle and buffalo.", "అవును — పాప సంకోచం పశువులు మరియు గేదెలలో OP విషప్రయోగం లక్షణంగా జాబితా చేయబడింది.", "ஆம் — கருவிழி சுருக்கம் மாடு மற்றும் எருமையில் OP நச்சுத்தன்மையின் அறிகுறியாக பட்டியலிடப்பட்டுள்ளது.", "ಹೌದು — ಕಣ್ಣುಗುಡ್ಡೆ ಸಂಕೋಚನವನ್ನು ಜಾನುವಾರು ಮತ್ತು ಎಮ್ಮೆಗಳಲ್ಲಿ OP ವಿಷಬಾಧೆಯ ಲಕ್ಷಣವಾಗಿ ಪಟ್ಟಿ ಮಾಡಲಾಗಿದೆ.", "हाँ — पुतली का सिकुड़ना पशुओं और भैंसों में OP विषाक्तता के लक्षण के रूप में सूचीबद्ध है।"),
         },
         {
           topicId: "t-m10-op-symptoms",
           type: "mcq",
-          q: L("What should you do the moment you notice symptoms of OP poisoning?"),
+          q: L("What should you do the moment you notice symptoms of OP poisoning?", "OP విషప్రయోగం లక్షణాలను గమనించిన వెంటనే మీరు ఏమి చేయాలి?", "OP நச்சுத்தன்மையின் அறிகுறிகளை நீங்கள் கவனித்த உடனேயே என்ன செய்ய வேண்டும்?", "OP ವಿಷಬಾಧೆಯ ಲಕ್ಷಣಗಳನ್ನು ನೀವು ಗಮನಿಸಿದ ಕೂಡಲೇ ಏನು ಮಾಡಬೇಕು?", "OP विषाक्तता के लक्षण दिखते ही आपको क्या करना चाहिए?"),
           options: [
-            L("Contact a veterinarian immediately"),
-            L("Wait a few days to see if it passes"),
-            L("Give the animal more feed"),
-            L("Apply more pesticide to counteract it"),
+            L("Contact a veterinarian immediately", "వెంటనే పశువైద్యుడిని సంప్రదించండి", "உடனடியாக ஒரு கால்நடை மருத்துவரைத் தொடர்பு கொள்ளுங்கள்", "ತಕ್ಷಣ ಪಶುವೈದ್ಯರನ್ನು ಸಂಪರ್ಕಿಸಿ", "तुरंत पशु चिकित्सक से संपर्क करें"),
+            L("Wait a few days to see if it passes", "అది తగ్గుతుందేమో చూడటానికి కొన్ని రోజులు వేచి ఉండండి", "இது தானாக சரியாகுமா என்று சில நாட்கள் காத்திருங்கள்", "ಅದು ಸ್ವತಃ ಸರಿಹೋಗುತ್ತದೆಯೇ ಎಂದು ನೋಡಲು ಕೆಲವು ದಿನ ಕಾಯಿರಿ", "यह अपने आप ठीक होता है या नहीं यह देखने के लिए कुछ दिन इंतज़ार करें"),
+            L("Give the animal more feed", "జంతువుకు ఎక్కువ దాణా ఇవ్వండి", "விலங்குக்கு அதிக தீவனம் கொடுங்கள்", "ಪ್ರಾಣಿಗೆ ಹೆಚ್ಚು ಮೇವು ನೀಡಿ", "जानवर को ज़्यादा चारा दें"),
+            L("Apply more pesticide to counteract it", "దానిని ఎదుర్కోవడానికి మరింత పురుగుమందు వేయండి", "அதை எதிர்க்க அதிக பூச்சிக்கொல்லியைப் பயன்படுத்துங்கள்", "ಅದನ್ನು ಎದುರಿಸಲು ಇನ್ನಷ್ಟು ಕೀಟನಾಶಕ ಹಚ್ಚಿ", "इसका मुकाबला करने के लिए और कीटनाशक लगाएं"),
           ],
           answer: 0,
-          explain: L("Contacting a vet immediately on observing symptoms gives the best chance of timely, life-saving treatment."),
+          explain: L("Contacting a vet immediately on observing symptoms gives the best chance of timely, life-saving treatment.", "లక్షణాలు గమనించిన వెంటనే వైద్యుడిని సంప్రదించడం సకాలంలో, ప్రాణాలను రక్షించే చికిత్సకు మంచి అవకాశాన్ని ఇస్తుంది.", "அறிகுறிகளைக் கவனித்த உடனேயே கால்நடை மருத்துவரைத் தொடர்பு கொள்வது சரியான நேரத்தில், உயிர் காக்கும் சிகிச்சைக்கு சிறந்த வாய்ப்பை அளிக்கிறது.", "ಲಕ್ಷಣಗಳನ್ನು ಗಮನಿಸಿದ ಕೂಡಲೇ ಪಶುವೈದ್ಯರನ್ನು ಸಂಪರ್ಕಿಸುವುದು ಸಕಾಲಿಕ, ಜೀವ ಉಳಿಸುವ ಚಿಕಿತ್ಸೆಗೆ ಉತ್ತಮ ಅವಕಾಶ ನೀಡುತ್ತದೆ.", "लक्षण दिखते ही तुरंत पशु चिकित्सक से संपर्क करना समय पर, जीवन बचाने वाले इलाज का सबसे अच्छा मौका देता है।"),
         },
         {
           topicId: "t-m10-op-prevention",
           type: "mcq",
-          q: L("What should be done to fodder that has been sprayed with insecticide, before feeding it to an animal?"),
-          options: [L("It should be washed properly with water"), L("It should be fed as it is"), L("It should be burned"), L("It should be soaked in salt water")],
+          q: L("What should be done to fodder that has been sprayed with insecticide, before feeding it to an animal?", "కీటనాశక పిచికారీ చేసిన మేతను జంతువుకు తినిపించే ముందు దానికి ఏమి చేయాలి?", "பூச்சிக்கொல்லி தெளிக்கப்பட்ட தீவனத்தை விலங்குக்கு உணவளிக்கும் முன் அதற்கு என்ன செய்ய வேண்டும்?", "ಕೀಟನಾಶಕ ಸಿಂಪಡಿಸಿದ ಮೇವನ್ನು ಪ್ರಾಣಿಗೆ ನೀಡುವ ಮೊದಲು ಅದಕ್ಕೆ ಏನು ಮಾಡಬೇಕು?", "कीटनाशक छिड़के गए चारे को जानवर को खिलाने से पहले उसके साथ क्या किया जाना चाहिए?"),
+          options: [L("It should be washed properly with water", "దానిని నీటితో బాగా కడగాలి", "அதை தண்ணீரால் நன்றாக கழுவ வேண்டும்", "ಅದನ್ನು ನೀರಿನಿಂದ ಸರಿಯಾಗಿ ತೊಳೆಯಬೇಕು", "उसे पानी से अच्छी तरह धोना चाहिए"), L("It should be fed as it is", "దానిని అలాగే తినిపించాలి", "அதை அப்படியே உணவளிக்க வேண்டும்", "ಅದನ್ನು ಹಾಗೆಯೇ ನೀಡಬೇಕು", "उसे जैसा है वैसे ही खिलाना चाहिए"), L("It should be burned", "దానిని కాల్చాలి", "அதை எரிக்க வேண்டும்", "ಅದನ್ನು ಸುಡಬೇಕು", "उसे जला देना चाहिए"), L("It should be soaked in salt water", "దానిని ఉప్పు నీటిలో నానబెట్టాలి", "அதை உப்பு தண்ணீரில் ஊற வைக்க வேண்டும்", "ಅದನ್ನು ಉಪ್ಪುನೀರಿನಲ್ಲಿ ನೆನೆಸಬೇಕು", "उसे नमक के पानी में भिगोना चाहिए")],
           answer: 0,
-          explain: L("Fodder sprayed with insecticide should be properly washed with water before it is fed to the animal."),
+          explain: L("Fodder sprayed with insecticide should be properly washed with water before it is fed to the animal.", "కీటనాశక పిచికారీ చేసిన మేతను జంతువుకు తినిపించే ముందు నీటితో బాగా కడగాలి.", "பூச்சிக்கொல்லி தெளிக்கப்பட்ட தீவனத்தை விலங்குக்கு உணவளிக்கும் முன் தண்ணீரால் நன்றாக கழுவ வேண்டும்.", "ಕೀಟನಾಶಕ ಸಿಂಪಡಿಸಿದ ಮೇವನ್ನು ಪ್ರಾಣಿಗೆ ನೀಡುವ ಮೊದಲು ನೀರಿನಿಂದ ಸರಿಯಾಗಿ ತೊಳೆಯಬೇಕು.", "कीटनाशक छिड़का हुआ चारा जानवर को खिलाने से पहले पानी से अच्छी तरह धोना चाहिए।"),
         },
         {
           topicId: "t-m10-op-prevention",
           type: "truefalse",
-          q: L("Animals should be kept away from both new and used pesticide containers."),
+          q: L("Animals should be kept away from both new and used pesticide containers.", "కొత్త మరియు వాడిన పురుగుమందు కంటైనర్ల రెండింటి నుండి జంతువులను దూరంగా ఉంచాలి.", "புதிய மற்றும் பயன்படுத்தப்பட்ட பூச்சிக்கொல்லி கொள்கலன்கள் இரண்டிலிருந்தும் விலங்குகளை விலக்கி வைக்க வேண்டும்.", "ಹೊಸ ಮತ್ತು ಬಳಸಿದ ಕೀಟನಾಶಕ ಪಾತ್ರೆಗಳೆರಡರಿಂದಲೂ ಪ್ರಾಣಿಗಳನ್ನು ದೂರವಿಡಬೇಕು.", "जानवरों को नए और इस्तेमाल किए गए दोनों तरह के कीटनाशक के डिब्बों से दूर रखना चाहिए।"),
           answer: true,
-          explain: L("Yes — animals should be kept away from pesticide containers, whether new or used, and from pesticide-contaminated feed."),
+          explain: L("Yes — animals should be kept away from pesticide containers, whether new or used, and from pesticide-contaminated feed.", "అవును — కొత్తవి అయినా వాడినవి అయినా పురుగుమందు కంటైనర్ల నుండి మరియు కలుషితమైన దాణా నుండి జంతువులను దూరంగా ఉంచాలి.", "ஆம் — புதியதாக இருந்தாலும் பயன்படுத்தப்பட்டதாக இருந்தாலும் பூச்சிக்கொல்லி கொள்கலன்களிலிருந்தும், கறைபடிந்த தீவனத்திலிருந்தும் விலங்குகளை விலக்கி வைக்க வேண்டும்.", "ಹೌದು — ಹೊಸದಾಗಿರಲಿ ಅಥವಾ ಬಳಸಿದ್ದಾಗಿರಲಿ ಕೀಟನಾಶಕ ಪಾತ್ರೆಗಳಿಂದ ಮತ್ತು ಕಲುಷಿತ ಮೇವಿನಿಂದ ಪ್ರಾಣಿಗಳನ್ನು ದೂರವಿಡಬೇಕು.", "हाँ — जानवरों को कीटनाशक के डिब्बों से, चाहे नए हों या इस्तेमाल किए हुए, और कीटनाशक-दूषित चारे से दूर रखना चाहिए।"),
         },
         {
           topicId: "t-m10-op-prevention",
           type: "truefalse",
-          q: L("Sick, very thin, or severely stressed animals should still be treated with pesticides on the normal schedule."),
+          q: L("Sick, very thin, or severely stressed animals should still be treated with pesticides on the normal schedule.", "అనారోగ్యంతో ఉన్న, చాలా బక్కగా ఉన్న, లేదా తీవ్రమైన ఒత్తిడిలో ఉన్న జంతువులకు ఇప్పటికీ సాధారణ షెడ్యూల్‌లో పురుగుమందులతో చికిత్స చేయాలి.", "நோய்வாய்ப்பட்ட, மிகவும் மெலிந்த, அல்லது கடுமையான மன அழுத்தத்தில் உள்ள விலங்குகளுக்கு இன்னும் வழக்கமான அட்டவணையில் பூச்சிக்கொல்லிகள் மூலம் சிகிச்சை அளிக்க வேண்டும்.", "ಅನಾರೋಗ್ಯದಿಂದ ಇರುವ, ಬಹಳ ತೆಳ್ಳಗಿರುವ, ಅಥವಾ ತೀವ್ರ ಒತ್ತಡದಲ್ಲಿರುವ ಪ್ರಾಣಿಗಳಿಗೆ ಇನ್ನೂ ಸಾಮಾನ್ಯ ವೇಳಾಪಟ್ಟಿಯಲ್ಲಿ ಕೀಟನಾಶಕಗಳಿಂದ ಚಿಕಿತ್ಸೆ ನೀಡಬೇಕು.", "बीमार, बहुत दुबले, या गंभीर तनाव में जानवरों का अभी भी सामान्य समय-सारणी पर कीटनाशकों से इलाज किया जाना चाहिए।"),
           answer: false,
-          explain: L("No — sick, emaciated, convalescent, or severely stressed animals should not be treated with pesticides for external parasites."),
+          explain: L("No — sick, emaciated, convalescent, or severely stressed animals should not be treated with pesticides for external parasites.", "కాదు — అనారోగ్యంతో ఉన్న, చిక్కిపోయిన, కోలుకుంటున్న, లేదా తీవ్రమైన ఒత్తిడిలో ఉన్న జంతువులకు బాహ్య పరాన్నజీవుల కోసం పురుగుమందులతో చికిత్స చేయకూడదు.", "இல்லை — நோய்வாய்ப்பட்ட, மெலிந்த, குணமடைந்து வரும், அல்லது கடுமையான மன அழுத்தத்தில் உள்ள விலங்குகளுக்கு வெளிப்புற ஒட்டுண்ணிகளுக்கு பூச்சிக்கொல்லிகள் மூலம் சிகிச்சை அளிக்கக்கூடாது.", "ಇಲ್ಲ — ಅನಾರೋಗ್ಯದಿಂದ ಇರುವ, ಸೊರಗಿದ, ಚೇತರಿಸಿಕೊಳ್ಳುತ್ತಿರುವ, ಅಥವಾ ತೀವ್ರ ಒತ್ತಡದಲ್ಲಿರುವ ಪ್ರಾಣಿಗಳಿಗೆ ಬಾಹ್ಯ ಪರಾವಲಂಬಿಗಳಿಗೆ ಕೀಟನಾಶಕಗಳಿಂದ ಚಿಕಿತ್ಸೆ ನೀಡಬಾರದು.", "नहीं — बीमार, बहुत दुबले, स्वस्थ हो रहे, या गंभीर तनाव में जानवरों का बाहरी परजीवियों के लिए कीटनाशकों से इलाज नहीं करना चाहिए।"),
         },
       ],
     },
@@ -6219,8 +6219,8 @@ export const MODULES = [
   {
     id: "m11",
     number: 11,
-    title: L("Common Zoonotic Diseases"),
-    subtitle: L("Diseases that can pass between animals and people, and how to stay safe while handling animals."),
+    title: L("Common Zoonotic Diseases", "సాధారణ జూనోటిక్ వ్యాధులు", "பொதுவான விலங்கு-மனித நோய்கள்", "ಸಾಮಾನ್ಯ ಝೂನೋಟಿಕ್ ರೋಗಗಳು", "सामान्य ज़ूनोटिक रोग"),
+    subtitle: L("Diseases that can pass between animals and people, and how to stay safe while handling animals.", "జంతువులు మరియు మనుషుల మధ్య వ్యాపించే వ్యాధులు, మరియు జంతువులను నిర్వహిస్తున్నప్పుడు సురక్షితంగా ఎలా ఉండాలి.", "விலங்குகள் மற்றும் மனிதர்களுக்கு இடையே பரவக்கூடிய நோய்கள், மற்றும் விலங்குகளைக் கையாளும்போது எவ்வாறு பாதுகாப்பாக இருப்பது.", "ಪ್ರಾಣಿಗಳು ಮತ್ತು ಜನರ ನಡುವೆ ಹರಡಬಹುದಾದ ರೋಗಗಳು, ಮತ್ತು ಪ್ರಾಣಿಗಳನ್ನು ನಿರ್ವಹಿಸುವಾಗ ಸುರಕ್ಷಿತವಾಗಿರುವುದು ಹೇಗೆ.", "वे रोग जो जानवरों और लोगों के बीच फैल सकते हैं, और जानवरों को संभालते समय सुरक्षित कैसे रहें।"),
     icon: "shield",
     available: true,
     lessons: [
@@ -6229,34 +6229,46 @@ export const MODULES = [
   // ==================================================================
   {
     id: "m11-l1",
-    title: L("Understanding Zoonotic Diseases: Brucellosis, TB and Leptospirosis"),
+    title: L("Understanding Zoonotic Diseases: Brucellosis, TB and Leptospirosis", "జూనోటిక్ వ్యాధులను అర్థం చేసుకోవడం: బ్రూసెల్లోసిస్, టీబీ మరియు లెప్టోస్పైరోసిస్", "விலங்கு-மனித நோய்களைப் புரிந்துகொள்ளுதல்: புருசெல்லோசிஸ், டிபி மற்றும் லெப்டோஸ்பைரோசிஸ்", "ಝೂನೋಟಿಕ್ ರೋಗಗಳನ್ನು ಅರ್ಥಮಾಡಿಕೊಳ್ಳುವುದು: ಬ್ರೂಸೆಲ್ಲೋಸಿಸ್, ಟಿಬಿ ಮತ್ತು ಲೆಪ್ಟೋಸ್ಪೈರೋಸಿಸ್", "ज़ूनोटिक रोगों को समझना: ब्रुसेलोसिस, टीबी और लेप्टोस्पायरोसिस"),
     estMinutes: 8,
     hook: [
       {
         type: "hero",
-        heading: L("Some Diseases Can Jump From Animals to You"),
+        heading: L("Some Diseases Can Jump From Animals to You", "కొన్ని వ్యాధులు జంతువుల నుండి మీకు వ్యాపించవచ్చు", "சில நோய்கள் விலங்குகளிலிருந்து உங்களுக்கு பரவலாம்", "ಕೆಲವು ರೋಗಗಳು ಪ್ರಾಣಿಗಳಿಂದ ನಿಮಗೆ ಹರಡಬಹುದು", "कुछ रोग जानवरों से आप तक फैल सकते हैं"),
         text: L(
-          "Most of this course is about noticing when an animal is unwell. This module is different — it's about YOUR own health. Some diseases can pass from cattle and buffaloes to the people who care for them. Knowing which ones, and how they spread, is the first step to staying safe while you do your daily work."
+          "Most of this course is about noticing when an animal is unwell. This module is different — it's about YOUR own health. Some diseases can pass from cattle and buffaloes to the people who care for them. Knowing which ones, and how they spread, is the first step to staying safe while you do your daily work.",
+          "ఈ కోర్సులో చాలా భాగం జంతువు అనారోగ్యంతో ఉన్నప్పుడు గమనించడం గురించి. ఈ మాడ్యూల్ భిన్నమైనది — ఇది మీ స్వంత ఆరోగ్యం గురించి. కొన్ని వ్యాధులు పశువులు మరియు గేదెల నుండి వాటిని చూసుకునే వ్యక్తులకు వ్యాపించవచ్చు. ఏవి, మరియు అవి ఎలా వ్యాపిస్తాయో తెలుసుకోవడం మీ రోజువారీ పని చేసేటప్పుడు సురక్షితంగా ఉండటానికి మొదటి అడుగు.",
+          "இந்த பாடத்திட்டத்தின் பெரும்பகுதி ஒரு விலங்கு உடல்நிலை சரியில்லாமல் இருக்கும்போது கவனிப்பது பற்றியது. இந்த தொகுதி வேறுபட்டது — இது உங்கள் சொந்த ஆரோக்கியத்தைப் பற்றியது. சில நோய்கள் மாடு மற்றும் எருமைகளிலிருந்து அவற்றை பராமரிக்கும் மக்களுக்கு பரவலாம். எவை, மற்றும் அவை எவ்வாறு பரவுகின்றன என்பதை அறிவது உங்கள் அன்றாட வேலையைச் செய்யும்போது பாதுகாப்பாக இருப்பதற்கான முதல் படியாகும்.",
+          "ಈ ಕೋರ್ಸ್‌ನ ಹೆಚ್ಚಿನ ಭಾಗ ಪ್ರಾಣಿ ಅಸ್ವಸ್ಥವಾಗಿರುವಾಗ ಗಮನಿಸುವುದರ ಬಗ್ಗೆ. ಈ ಮಾಡ್ಯೂಲ್ ವಿಭಿನ್ನವಾಗಿದೆ — ಇದು ನಿಮ್ಮ ಸ್ವಂತ ಆರೋಗ್ಯದ ಬಗ್ಗೆ. ಕೆಲವು ರೋಗಗಳು ಜಾನುವಾರು ಮತ್ತು ಎಮ್ಮೆಗಳಿಂದ ಅವುಗಳನ್ನು ನೋಡಿಕೊಳ್ಳುವ ಜನರಿಗೆ ಹರಡಬಹುದು. ಯಾವುವು, ಮತ್ತು ಅವು ಹೇಗೆ ಹರಡುತ್ತವೆ ಎಂದು ತಿಳಿಯುವುದು ನಿಮ್ಮ ದೈನಂದಿನ ಕೆಲಸ ಮಾಡುವಾಗ ಸುರಕ್ಷಿತವಾಗಿರಲು ಮೊದಲ ಹೆಜ್ಜೆ.",
+          "इस पाठ्यक्रम का अधिकांश भाग यह देखने के बारे में है कि जानवर कब बीमार है। यह मॉड्यूल अलग है — यह आपके अपने स्वास्थ्य के बारे में है। कुछ बीमारियाँ गायों और भैंसों से उनकी देखभाल करने वाले लोगों में फैल सकती हैं। कौन सी बीमारियाँ, और वे कैसे फैलती हैं, यह जानना आपके रोज़मर्रा के काम के दौरान सुरक्षित रहने का पहला कदम है।"
         ),
       },
     ],
     topics: [
       {
         id: "t-m11-what-is-zoonotic",
-        title: L("What Does 'Zoonotic' Mean, and Why It Matters"),
+        title: L("What Does 'Zoonotic' Mean, and Why It Matters", "'జూనోటిక్' అంటే ఏమిటి, మరియు ఇది ఎందుకు ముఖ్యం", "'விலங்கு-மனித நோய்' என்றால் என்ன, மற்றும் அது ஏன் முக்கியம்", "'ಝೂನೋಟಿಕ್' ಎಂದರೇನು, ಮತ್ತು ಇದು ಏಕೆ ಮುಖ್ಯ", "'ज़ूनोटिक' का क्या मतलब है, और यह क्यों महत्वपूर्ण है"),
         teach: [
           {
             type: "text",
-            heading: L("A New Word: Zoonotic"),
+            heading: L("A New Word: Zoonotic", "ఒక కొత్త పదం: జూనోటిక్", "ஒரு புதிய சொல்: விலங்கு-மனித நோய்", "ಒಂದು ಹೊಸ ಪದ: ಝೂನೋಟಿಕ್", "एक नया शब्द: ज़ूनोटिक"),
             html: L(
-              "A <b>zoonotic disease</b> (also called a <b>zoonosis</b>) is a disease or infection that can pass naturally between animals and people. It can travel in either direction — from an animal to a person, or occasionally from a person to an animal. If you work closely with cattle and buffaloes every day, this is something worth understanding, not to worry about, but so you know exactly how to protect yourself."
+              "A <b>zoonotic disease</b> (also called a <b>zoonosis</b>) is a disease or infection that can pass naturally between animals and people. It can travel in either direction — from an animal to a person, or occasionally from a person to an animal. If you work closely with cattle and buffaloes every day, this is something worth understanding, not to worry about, but so you know exactly how to protect yourself.",
+              "<b>జూనోటిక్ వ్యాధి</b> (దీనిని <b>జూనోసిస్</b> అని కూడా అంటారు) అనేది జంతువులు మరియు మనుషుల మధ్య సహజంగా వ్యాపించే వ్యాధి లేదా సంక్రమణ. ఇది రెండు దిశలలోనూ ప్రయాణించవచ్చు — జంతువు నుండి మనిషికి, లేదా అప్పుడప్పుడు మనిషి నుండి జంతువుకు. మీరు ప్రతిరోజూ పశువులు మరియు గేదెలతో దగ్గరగా పనిచేస్తుంటే, ఇది అర్థం చేసుకోవలసినది, చింతించాల్సినది కాదు, కానీ మిమ్మల్ని మీరు ఎలా రక్షించుకోవాలో ఖచ్చితంగా తెలుసుకోవడానికి.",
+              "<b>விலங்கு-மனித நோய்</b> (இதை <b>ஜூனோசிஸ்</b> என்றும் அழைப்பர்) என்பது விலங்குகள் மற்றும் மனிதர்களுக்கு இடையே இயற்கையாக பரவக்கூடிய ஒரு நோய் அல்லது தொற்று. இது இரு திசைகளிலும் பயணிக்கலாம் — ஒரு விலங்கிலிருந்து ஒரு மனிதருக்கு, அல்லது எப்போதாவது ஒரு மனிதரிடமிருந்து ஒரு விலங்குக்கு. நீங்கள் ஒவ்வொரு நாளும் மாடு மற்றும் எருமைகளுடன் நெருக்கமாக வேலை செய்தால், இது புரிந்துகொள்ளத் தகுந்தது, கவலைப்பட வேண்டியது அல்ல, ஆனால் நீங்கள் உங்களை எவ்வாறு பாதுகாத்துக் கொள்வது என்பதை சரியாக அறிந்திருக்க வேண்டும்.",
+              "<b>ಝೂನೋಟಿಕ್ ರೋಗ</b> (ಇದನ್ನು <b>ಝೂನೋಸಿಸ್</b> ಎಂದೂ ಕರೆಯುತ್ತಾರೆ) ಎಂದರೆ ಪ್ರಾಣಿಗಳು ಮತ್ತು ಜನರ ನಡುವೆ ಸ್ವಾಭಾವಿಕವಾಗಿ ಹರಡಬಹುದಾದ ರೋಗ ಅಥವಾ ಸೋಂಕು. ಇದು ಎರಡೂ ದಿಕ್ಕುಗಳಲ್ಲಿ ಪ್ರಯಾಣಿಸಬಹುದು — ಪ್ರಾಣಿಯಿಂದ ವ್ಯಕ್ತಿಗೆ, ಅಥವಾ ಕೆಲವೊಮ್ಮೆ ವ್ಯಕ್ತಿಯಿಂದ ಪ್ರಾಣಿಗೆ. ನೀವು ಪ್ರತಿದಿನ ಜಾನುವಾರು ಮತ್ತು ಎಮ್ಮೆಗಳೊಂದಿಗೆ ಹತ್ತಿರದಿಂದ ಕೆಲಸ ಮಾಡಿದರೆ, ಇದನ್ನು ಅರ್ಥಮಾಡಿಕೊಳ್ಳುವುದು ಯೋಗ್ಯವಾಗಿದೆ, ಚಿಂತಿಸುವುದಕ್ಕಲ್ಲ, ಆದರೆ ನಿಮ್ಮನ್ನು ನೀವು ಹೇಗೆ ರಕ್ಷಿಸಿಕೊಳ್ಳಬೇಕು ಎಂದು ನಿಖರವಾಗಿ ತಿಳಿಯಲು.",
+              "<b>ज़ूनोटिक रोग</b> (जिसे <b>ज़ूनोसिस</b> भी कहा जाता है) एक ऐसी बीमारी या संक्रमण है जो जानवरों और लोगों के बीच स्वाभाविक रूप से फैल सकता है। यह किसी भी दिशा में जा सकता है — जानवर से इंसान में, या कभी-कभी इंसान से जानवर में। अगर आप हर दिन गायों और भैंसों के साथ नज़दीक से काम करते हैं, तो यह समझने लायक बात है, चिंता करने की नहीं, बल्कि इसलिए ताकि आप ठीक से जान सकें कि खुद को कैसे बचाना है।"
             ),
           },
           {
             type: "glossary",
-            term: L("Zoonotic Disease (Zoonosis)"),
+            term: L("Zoonotic Disease (Zoonosis)", "జూనోటిక్ వ్యాధి (జూనోసిస్)", "விலங்கு-மனித நோய் (ஜூனோசிஸ்)", "ಝೂನೋಟಿಕ್ ರೋಗ (ಝೂನೋಸಿಸ್)", "ज़ूनोटिक रोग (ज़ूनोसिस)"),
             meaning: L(
-              "A disease or infection that can spread naturally between animals and humans — for example, a person catching an illness from a cow, or occasionally an animal catching one from a person."
+              "A disease or infection that can spread naturally between animals and humans — for example, a person catching an illness from a cow, or occasionally an animal catching one from a person.",
+              "జంతువులు మరియు మనుషుల మధ్య సహజంగా వ్యాపించే వ్యాధి లేదా సంక్రమణ — ఉదాహరణకు, ఒక వ్యక్తికి ఆవు నుండి అనారోగ్యం రావడం, లేదా అప్పుడప్పుడు ఒక జంతువుకు వ్యక్తి నుండి రావడం.",
+              "விலங்குகள் மற்றும் மனிதர்களுக்கு இடையே இயற்கையாக பரவக்கூடிய ஒரு நோய் அல்லது தொற்று — உதாரணமாக, ஒரு பசுவிலிருந்து ஒரு மனிதருக்கு நோய் ஏற்படுவது, அல்லது எப்போதாவது ஒரு மனிதரிடமிருந்து ஒரு விலங்குக்கு ஏற்படுவது.",
+              "ಪ್ರಾಣಿಗಳು ಮತ್ತು ಮಾನವರ ನಡುವೆ ಸ್ವಾಭಾವಿಕವಾಗಿ ಹರಡಬಹುದಾದ ರೋಗ ಅಥವಾ ಸೋಂಕು — ಉದಾಹರಣೆಗೆ, ಒಬ್ಬ ವ್ಯಕ್ತಿಗೆ ಹಸುವಿನಿಂದ ಕಾಯಿಲೆ ಬರುವುದು, ಅಥವಾ ಕೆಲವೊಮ್ಮೆ ಒಂದು ಪ್ರಾಣಿಗೆ ವ್ಯಕ್ತಿಯಿಂದ ಬರುವುದು.",
+              "एक ऐसी बीमारी या संक्रमण जो जानवरों और इंसानों के बीच स्वाभाविक रूप से फैल सकता है — उदाहरण के लिए, किसी व्यक्ति को गाय से बीमारी लगना, या कभी-कभी किसी जानवर को इंसान से लगना।"
             ),
           },
           {
