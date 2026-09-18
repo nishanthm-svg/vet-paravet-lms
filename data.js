@@ -10425,8 +10425,20 @@ export const MODULES = [
   {
     id: "m16",
     number: 16,
-    title: L("Housing of Animals"),
-    subtitle: L("What a comfortable, healthy shed for animals actually needs."),
+    title: L(
+      "Housing of Animals",
+      "జంతువుల ఆవాసం",
+      "விலங்குகளின் தங்குமிடம்",
+      "ಪ್ರಾಣಿಗಳ ವಾಸಸ್ಥಳ",
+      "पशुओं का आवास"
+    ),
+    subtitle: L(
+      "What a comfortable, healthy shed for animals actually needs.",
+      "జంతువులకు సౌకర్యవంతమైన, ఆరోగ్యకరమైన షెడ్‌కు నిజంగా ఏమి కావాలి.",
+      "விலங்குகளுக்கான வசதியான, ஆரோக்கியமான தொழுவத்திற்கு உண்மையில் என்ன தேவை.",
+      "ಪ್ರಾಣಿಗಳಿಗೆ ಆರಾಮದಾಯಕ, ಆರೋಗ್ಯಕರ ಶೆಡ್‌ಗೆ ನಿಜವಾಗಿ ಏನು ಬೇಕು.",
+      "पशुओं के लिए आरामदायक, स्वस्थ शेड के लिए वास्तव में क्या जरूरी है।"
+    ),
     icon: "home",
     available: true,
     lessons: [
@@ -10435,86 +10447,187 @@ export const MODULES = [
   // ==================================================================
   {
     id: "m16-l1",
-    title: L("Space and Layout of the Shed"),
+    title: L(
+      "Space and Layout of the Shed",
+      "షెడ్ యొక్క స్థలం మరియు నమూనా",
+      "தொழுவத்தின் இடம் மற்றும் அமைப்பு",
+      "ಶೆಡ್‌ನ ಸ್ಥಳ ಮತ್ತು ವಿನ್ಯಾಸ",
+      "शेड की जगह और लेआउट"
+    ),
     estMinutes: 8,
     hook: [
       {
         type: "hero",
-        heading: L("A Good Shed Starts With the Right Space and the Right Layout"),
+        heading: L(
+          "A Good Shed Starts With the Right Space and the Right Layout",
+          "మంచి షెడ్ సరైన స్థలం మరియు సరైన నమూనాతో మొదలవుతుంది",
+          "நல்ல தொழுவம் சரியான இடம் மற்றும் சரியான அமைப்புடன் தொடங்குகிறது",
+          "ಉತ್ತಮ ಶೆಡ್ ಸರಿಯಾದ ಸ್ಥಳ ಮತ್ತು ಸರಿಯಾದ ವಿನ್ಯಾಸದಿಂದ ಪ್ರಾರಂಭವಾಗುತ್ತದೆ",
+          "अच्छा शेड सही जगह और सही लेआउट से शुरू होता है"
+        ),
         text: L(
-          "An animal doesn't need anything fancy — but it does need enough room to lie down and move comfortably, and a shed that is arranged the right way. This lesson teaches exactly how much floor space and ceiling height a shed needs, and how the manger, water and open area around it should be arranged. No construction experience needed — just the exact numbers to check for."
+          "An animal doesn't need anything fancy — but it does need enough room to lie down and move comfortably, and a shed that is arranged the right way. This lesson teaches exactly how much floor space and ceiling height a shed needs, and how the manger, water and open area around it should be arranged. No construction experience needed — just the exact numbers to check for.",
+          "జంతువుకు ఏమీ ఆడంబరమైనది అవసరం లేదు — కానీ దానికి సౌకర్యంగా పడుకోవడానికి, తిరగడానికి తగినంత స్థలం మరియు సరైన రీతిలో అమర్చిన షెడ్ అవసరం. ఈ పాఠం షెడ్‌కు ఎంత నేల స్థలం మరియు పైకప్పు ఎత్తు అవసరమో, మరియు గాదె, నీరు మరియు దాని చుట్టూ ఉన్న బహిరంగ ప్రదేశాన్ని ఎలా అమర్చాలో ఖచ్చితంగా బోధిస్తుంది. నిర్మాణ అనుభవం అవసరం లేదు — తనిఖీ చేయవలసిన ఖచ్చితమైన సంఖ్యలు మాత్రమే.",
+          "விலங்குக்கு ஆடம்பரமானது எதுவும் தேவையில்லை — ஆனால் வசதியாக படுத்துக்கொள்ள, நகர போதுமான இடமும், சரியான முறையில் அமைக்கப்பட்ட தொழுவமும் தேவை. இந்தப் பாடம் தொழுவத்திற்கு எவ்வளவு தரை இடமும் கூரை உயரமும் தேவையோ, மற்றும் தீவனத்தொட்டி, தண்ணீர் மற்றும் அதைச் சுற்றியுள்ள திறந்த வெளியை எப்படி அமைக்க வேண்டுமோ என்பதை துல்லியமாகக் கற்பிக்கிறது. கட்டுமான அனுபவம் தேவையில்லை — சரிபார்க்க வேண்டிய துல்லியமான எண்கள் மட்டுமே.",
+          "ಪ್ರಾಣಿಗೆ ಯಾವುದೇ ಅಬ್ಬರದ ವಸ್ತು ಬೇಕಿಲ್ಲ — ಆದರೆ ಅದಕ್ಕೆ ಆರಾಮವಾಗಿ ಮಲಗಲು, ಚಲಿಸಲು ಸಾಕಷ್ಟು ಸ್ಥಳ ಮತ್ತು ಸರಿಯಾದ ರೀತಿಯಲ್ಲಿ ಜೋಡಿಸಿದ ಶೆಡ್ ಬೇಕು. ಈ ಪಾಠ ಶೆಡ್‌ಗೆ ಎಷ್ಟು ನೆಲದ ಸ್ಥಳ ಮತ್ತು ಚಾವಣಿ ಎತ್ತರ ಬೇಕೋ, ಮತ್ತು ಮೇವಿನ ತೊಟ್ಟಿ, ನೀರು ಮತ್ತು ಅದರ ಸುತ್ತಲಿನ ಬಯಲು ಪ್ರದೇಶವನ್ನು ಹೇಗೆ ಜೋಡಿಸಬೇಕೋ ಎಂಬುದನ್ನು ನಿಖರವಾಗಿ ಕಲಿಸುತ್ತದೆ. ನಿರ್ಮಾಣ ಅನುಭವ ಅಗತ್ಯವಿಲ್ಲ — ಪರಿಶೀಲಿಸಬೇಕಾದ ನಿಖರ ಸಂಖ್ಯೆಗಳು ಮಾತ್ರ.",
+          "पशु को कोई तामझाम नहीं चाहिए — लेकिन उसे आराम से लेटने और घूमने के लिए पर्याप्त जगह और सही तरीके से बनाया गया शेड जरूर चाहिए। यह पाठ बताता है कि शेड को कितनी फर्श की जगह और छत की ऊंचाई चाहिए, और चारा-नांद, पानी और आसपास की खुली जगह को कैसे व्यवस्थित किया जाना चाहिए। निर्माण के अनुभव की जरूरत नहीं है — बस जांचने के लिए सटीक आंकड़े चाहिए।"
         ),
       },
     ],
     topics: [
       {
         id: "t-m16-space",
-        title: L("How Much Space Each Animal Needs"),
+        title: L(
+          "How Much Space Each Animal Needs",
+          "ప్రతి జంతువుకు ఎంత స్థలం అవసరం",
+          "ஒவ்வொரு விலங்கிற்கும் எவ்வளவு இடம் தேவை",
+          "ಪ್ರತಿ ಪ್ರಾಣಿಗೆ ಎಷ್ಟು ಸ್ಥಳ ಬೇಕು",
+          "हर पशु को कितनी जगह चाहिए"
+        ),
         teach: [
             {
               type: "photo",
               src: "assets/photo-m16-shed.jpg",
-              alt: L("A small thatched-roof cattle shed open on the sides, standing on dry raised ground, with cattle resting comfortably underneath"),
-              caption: L("A simple open-sided shed — dry underfoot, only a couple of animals resting comfortably, not crowded."),
+              alt: L(
+                "A small thatched-roof cattle shed open on the sides, standing on dry raised ground, with cattle resting comfortably underneath",
+                "ఎండిన ఎత్తైన నేలపై నిలబడి, పక్కలు తెరిచి ఉన్న చిన్న గడ్డి పైకప్పు పశువుల షెడ్, దాని కింద పశువులు హాయిగా విశ్రాంతి తీసుకుంటున్నాయి",
+                "உலர்ந்த உயரமான நிலத்தில் நிற்கும், பக்கவாட்டில் திறந்த சிறிய ஓலைக் கூரை கால்நடை தொழுவம், அதன் கீழ் கால்நடைகள் வசதியாக ஓய்வெடுக்கின்றன",
+                "ಒಣ ಎತ್ತರದ ನೆಲದ ಮೇಲೆ ನಿಂತಿರುವ, ಬದಿಗಳಲ್ಲಿ ತೆರೆದಿರುವ ಸಣ್ಣ ಹುಲ್ಲಿನ ಛಾವಣಿಯ ದನದ ಶೆಡ್, ಅದರ ಕೆಳಗೆ ದನಗಳು ಆರಾಮವಾಗಿ ವಿಶ್ರಾಂತಿ ಪಡೆಯುತ್ತಿವೆ",
+                "सूखी ऊंची जमीन पर खड़ा, किनारों से खुला एक छोटा फूस की छत वाला पशु शेड, जिसके नीचे मवेशी आराम से बैठे हैं"
+              ),
+              caption: L(
+                "A simple open-sided shed — dry underfoot, only a couple of animals resting comfortably, not crowded.",
+                "సరళమైన పక్కలు తెరిచిన షెడ్ — కింద పొడిగా ఉంటుంది, కేవలం రెండు జంతువులు హాయిగా విశ్రాంతి తీసుకుంటున్నాయి, రద్దీగా లేదు.",
+                "எளிய பக்கவாட்டு திறந்த தொழுவம் — கீழே உலர்ந்திருக்கும், சில விலங்குகள் மட்டுமே வசதியாக ஓய்வெடுக்கின்றன, நெரிசல் இல்லை.",
+                "ಸರಳ ಬದಿ-ತೆರೆದ ಶೆಡ್ — ಕೆಳಗೆ ಒಣಗಿದೆ, ಕೇವಲ ಒಂದೆರಡು ಪ್ರಾಣಿಗಳು ಆರಾಮವಾಗಿ ವಿಶ್ರಾಂತಿ ಪಡೆಯುತ್ತಿವೆ, ಗಿಜಿಗುಟ್ಟುತ್ತಿಲ್ಲ.",
+                "एक साधारण खुले किनारों वाला शेड — नीचे सूखा, केवल कुछ पशु आराम से बैठे हैं, भीड़ नहीं।"
+              ),
             },
           {
             type: "text",
-            heading: L("Why Space Matters"),
+            heading: L(
+              "Why Space Matters",
+              "స్థలం ఎందుకు ముఖ్యం",
+              "இடம் ஏன் முக்கியம்",
+              "ಸ್ಥಳ ಏಕೆ ಮುಖ್ಯ",
+              "जगह क्यों मायने रखती है"
+            ),
             html: L(
-              "Providing clean and comfortable housing is important for an animal's proper growth and for it to give as much milk as it possibly can. When animals are kept in cramped, stressful conditions, that stress alone can noticeably reduce how much they produce — so giving each animal enough room is not a luxury, it's part of good management."
+              "Providing clean and comfortable housing is important for an animal's proper growth and for it to give as much milk as it possibly can. When animals are kept in cramped, stressful conditions, that stress alone can noticeably reduce how much they produce — so giving each animal enough room is not a luxury, it's part of good management.",
+              "శుభ్రమైన, సౌకర్యవంతమైన ఆవాసాన్ని అందించడం జంతువు సరైన పెరుగుదలకు మరియు అది సాధ్యమైనంత ఎక్కువ పాలు ఇవ్వడానికి ముఖ్యం. జంతువులను ఇరుకైన, ఒత్తిడితో కూడిన పరిస్థితుల్లో ఉంచినప్పుడు, ఆ ఒత్తిడి ఒక్కటే వాటి ఉత్పత్తిని గణనీయంగా తగ్గించగలదు — కాబట్టి ప్రతి జంతువుకు తగినంత స్థలం ఇవ్వడం ఆడంబరం కాదు, ఇది మంచి నిర్వహణలో భాగం.",
+              "சுத்தமான, வசதியான தங்குமிடம் வழங்குவது விலங்கின் சரியான வளர்ச்சிக்கும், அது முடிந்தவரை அதிக பால் தருவதற்கும் முக்கியம். விலங்குகள் நெரிசலான, மன அழுத்தமான சூழலில் வைக்கப்படும் போது, அந்த மன அழுத்தம் மட்டுமே அவற்றின் உற்பத்தியை குறிப்பிடத்தக்க அளவு குறைக்கலாம் — எனவே ஒவ்வொரு விலங்கிற்கும் போதுமான இடம் தருவது ஆடம்பரம் அல்ல, இது நல்ல மேலாண்மையின் ஒரு பகுதி.",
+              "ಸ್ವಚ್ಛ, ಆರಾಮದಾಯಕ ವಾಸಸ್ಥಳ ಒದಗಿಸುವುದು ಪ್ರಾಣಿಯ ಸರಿಯಾದ ಬೆಳವಣಿಗೆಗೆ ಮತ್ತು ಅದು ಸಾಧ್ಯವಾದಷ್ಟು ಹಾಲು ನೀಡಲು ಮುಖ್ಯ. ಪ್ರಾಣಿಗಳನ್ನು ಇಕ್ಕಟ್ಟಾದ, ಒತ್ತಡದ ಪರಿಸ್ಥಿತಿಗಳಲ್ಲಿ ಇಟ್ಟಾಗ, ಆ ಒತ್ತಡವೊಂದೇ ಅವುಗಳ ಉತ್ಪಾದನೆಯನ್ನು ಗಮನಾರ್ಹವಾಗಿ ಕಡಿಮೆ ಮಾಡಬಹುದು — ಆದ್ದರಿಂದ ಪ್ರತಿ ಪ್ರಾಣಿಗೆ ಸಾಕಷ್ಟು ಸ್ಥಳ ನೀಡುವುದು ಐಷಾರಾಮಿ ಅಲ್ಲ, ಇದು ಉತ್ತಮ ನಿರ್ವಹಣೆಯ ಭಾಗ.",
+              "साफ-सुथरा और आरामदायक आवास देना पशु की सही वृद्धि के लिए और वह जितना संभव हो उतना दूध दे सके, इसके लिए जरूरी है। जब पशुओं को तंग, तनावपूर्ण हालात में रखा जाता है, तो वह तनाव अकेले ही उनके उत्पादन को काफी हद तक कम कर सकता है — इसलिए हर पशु को पर्याप्त जगह देना कोई सुविधा-भोग नहीं, बल्कि अच्छे प्रबंधन का हिस्सा है।"
             ),
           },
           {
             type: "glossary",
-            term: L("Animal Shed"),
+            term: L("Animal Shed", "పశువుల షెడ్", "கால்நடை தொழுவம்", "ದನದ ಶೆಡ್", "पशु शेड"),
             meaning: L(
-              "A covered structure built to shelter cows or buffaloes from sun, rain and wind. It doesn't need to be elaborate, but it does need to follow a few basic rules of space, height and layout to actually protect the animal and keep it comfortable."
+              "A covered structure built to shelter cows or buffaloes from sun, rain and wind. It doesn't need to be elaborate, but it does need to follow a few basic rules of space, height and layout to actually protect the animal and keep it comfortable.",
+              "ఎండ, వర్షం మరియు గాలి నుండి ఆవులు లేదా గేదెలకు ఆశ్రయం ఇవ్వడానికి నిర్మించిన కప్పబడిన నిర్మాణం. ఇది విస్తృతమైనది కానవసరం లేదు, కానీ జంతువును నిజంగా రక్షించి, సౌకర్యంగా ఉంచడానికి స్థలం, ఎత్తు మరియు నమూనా యొక్క కొన్ని ప్రాథమిక నియమాలను పాటించాలి.",
+              "வெயில், மழை மற்றும் காற்றிலிருந்து பசுக்கள் அல்லது எருமைகளுக்கு தஞ்சம் அளிக்க கட்டப்பட்ட மூடிய கட்டமைப்பு. இது விரிவானதாக இருக்க வேண்டியதில்லை, ஆனால் விலங்கை உண்மையிலேயே பாதுகாத்து வசதியாக வைத்திருக்க இடம், உயரம் மற்றும் அமைப்பின் சில அடிப்படை விதிகளைப் பின்பற்ற வேண்டும்.",
+              "ಬಿಸಿಲು, ಮಳೆ ಮತ್ತು ಗಾಳಿಯಿಂದ ಹಸು ಅಥವಾ ಎಮ್ಮೆಗಳಿಗೆ ಆಶ್ರಯ ನೀಡಲು ನಿರ್ಮಿಸಿದ ಮುಚ್ಚಿದ ರಚನೆ. ಇದು ವಿಸ್ತಾರವಾಗಿರಬೇಕಿಲ್ಲ, ಆದರೆ ಪ್ರಾಣಿಯನ್ನು ನಿಜವಾಗಿ ರಕ್ಷಿಸಿ ಆರಾಮದಾಯಕವಾಗಿಡಲು ಸ್ಥಳ, ಎತ್ತರ ಮತ್ತು ವಿನ್ಯಾಸದ ಕೆಲವು ಮೂಲ ನಿಯಮಗಳನ್ನು ಪಾಲಿಸಬೇಕು.",
+              "धूप, बारिश और हवा से गायों या भैंसों को बचाने के लिए बनाई गई ढकी हुई संरचना। यह भव्य होने की जरूरत नहीं, लेकिन पशु को वास्तव में सुरक्षित और आरामदायक रखने के लिए जगह, ऊंचाई और लेआउट के कुछ बुनियादी नियमों का पालन जरूर करना चाहिए।"
             ),
           },
           {
             type: "stat-grid",
             items: [
               {
-                label: L("Floor Space — Per Animal"),
-                text: L("Every cow or buffalo must have a minimum of 5.5 feet x 10 feet of floor space in the shed."),
+                label: L("Floor Space — Per Animal", "నేల స్థలం — ప్రతి జంతువుకు", "தரை இடம் — ஒரு விலங்கிற்கு", "ನೆಲದ ಸ್ಥಳ — ಪ್ರತಿ ಪ್ರಾಣಿಗೆ", "फर्श की जगह — प्रति पशु"),
+                text: L(
+                  "Every cow or buffalo must have a minimum of 5.5 feet x 10 feet of floor space in the shed.",
+                  "ప్రతి ఆవు లేదా గేదెకు షెడ్‌లో కనీసం 5.5 అడుగుల x 10 అడుగుల నేల స్థలం ఉండాలి.",
+                  "ஒவ்வொரு பசு அல்லது எருமைக்கும் தொழுவத்தில் குறைந்தபட்சம் 5.5 அடி x 10 அடி தரை இடம் இருக்க வேண்டும்.",
+                  "ಪ್ರತಿ ಹಸು ಅಥವಾ ಎಮ್ಮೆಗೆ ಶೆಡ್‌ನಲ್ಲಿ ಕನಿಷ್ಠ 5.5 ಅಡಿ x 10 ಅಡಿ ನೆಲದ ಸ್ಥಳ ಇರಬೇಕು.",
+                  "हर गाय या भैंस के पास शेड में कम से कम 5.5 फीट x 10 फीट फर्श की जगह होनी चाहिए।"
+                ),
               },
               {
-                label: L("Ceiling Height"),
+                label: L("Ceiling Height", "పైకప్పు ఎత్తు", "கூரை உயரம்", "ಚಾವಣಿ ಎತ್ತರ", "छत की ऊंचाई"),
                 text: L(
-                  "The height of the ceiling should not be less than 10 feet — whether the roof is made of thatch, AC sheets, brick, or RCC."
+                  "The height of the ceiling should not be less than 10 feet — whether the roof is made of thatch, AC sheets, brick, or RCC.",
+                  "పైకప్పు గడ్డితో, AC షీట్లతో, ఇటుకతో లేదా RCC తో తయారైనా, పైకప్పు ఎత్తు 10 అడుగుల కంటే తక్కువ ఉండకూడదు.",
+                  "கூரை ஓலையாலோ, AC தகடுகளாலோ, செங்கல்லாலோ அல்லது RCC ஆலோ செய்யப்பட்டிருந்தாலும், கூரையின் உயரம் 10 அடிக்குக் குறையக்கூடாது.",
+                  "ಛಾವಣಿ ಹುಲ್ಲಿನಿಂದ, AC ಶೀಟ್‌ಗಳಿಂದ, ಇಟ್ಟಿಗೆಯಿಂದ ಅಥವಾ RCC ಯಿಂದ ಮಾಡಿದ್ದರೂ, ಛಾವಣಿಯ ಎತ್ತರ 10 ಅಡಿಗಿಂತ ಕಡಿಮೆ ಇರಬಾರದು.",
+                  "छत चाहे फूस, AC शीट, ईंट, या RCC से बनी हो, छत की ऊंचाई 10 फीट से कम नहीं होनी चाहिए।"
                 ),
               },
             ],
           },
           {
             type: "glossary",
-            term: L("RCC"),
+            term: L("RCC", "RCC", "RCC", "RCC", "RCC"),
             meaning: L(
-              "Short for Reinforced Cement Concrete — a strong, solid roof or ceiling built from cement and iron rods together. It's more permanent than a thatched (straw or leaf) roof, but a thatched roof is also acceptable as long as the shed still meets the height rule."
+              "Short for Reinforced Cement Concrete — a strong, solid roof or ceiling built from cement and iron rods together. It's more permanent than a thatched (straw or leaf) roof, but a thatched roof is also acceptable as long as the shed still meets the height rule.",
+              "రీన్‌ఫోర్స్డ్ సిమెంట్ కాంక్రీట్ (RCC) సంక్షిప్త రూపం — సిమెంట్ మరియు ఇనుప కడ్డీలతో కలిపి నిర్మించిన బలమైన, గట్టి పైకప్పు లేదా సీలింగ్. ఇది గడ్డి (లేదా ఆకుల) పైకప్పు కంటే ఎక్కువ శాశ్వతమైనది, కానీ షెడ్ ఎత్తు నియమాన్ని పాటిస్తే గడ్డి పైకప్పు కూడా ఆమోదయోగ్యమే.",
+              "பலப்படுத்தப்பட்ட சிமெண்ட் கான்கிரீட்டின் (RCC) சுருக்கம் — சிமெண்ட் மற்றும் இரும்பு கம்பிகளால் இணைந்து கட்டப்பட்ட வலிமையான, திடமான கூரை அல்லது மேற்கூரை. இது ஓலைக் (வைக்கோல் அல்லது இலை) கூரையை விட நிரந்தரமானது, ஆனால் தொழுவம் உயர விதியை பூர்த்தி செய்தால் ஓலைக் கூரையும் ஏற்றுக்கொள்ளத்தக்கது.",
+              "ಬಲವರ್ಧಿತ ಸಿಮೆಂಟ್ ಕಾಂಕ್ರೀಟ್‌ನ (RCC) ಚಿಕ್ಕ ರೂಪ — ಸಿಮೆಂಟ್ ಮತ್ತು ಕಬ್ಬಿಣದ ಸರಳುಗಳಿಂದ ಒಟ್ಟಿಗೆ ನಿರ್ಮಿಸಿದ ಬಲಿಷ್ಠ, ಗಟ್ಟಿ ಛಾವಣಿ. ಇದು ಹುಲ್ಲಿನ (ಒಣಹುಲ್ಲು ಅಥವಾ ಎಲೆಯ) ಛಾವಣಿಗಿಂತ ಹೆಚ್ಚು ಶಾಶ್ವತ, ಆದರೆ ಶೆಡ್ ಎತ್ತರದ ನಿಯಮವನ್ನು ಪಾಲಿಸಿದರೆ ಹುಲ್ಲಿನ ಛಾವಣಿಯೂ ಸ್ವೀಕಾರಾರ್ಹ.",
+              "रीइन्फोर्स्ड सीमेंट कंक्रीट (RCC) का संक्षिप्त रूप — सीमेंट और लोहे की छड़ों से मिलकर बनी मजबूत, ठोस छत। यह फूस (भूसे या पत्तों) की छत से अधिक स्थायी है, लेकिन अगर शेड ऊंचाई के नियम को पूरा करता है तो फूस की छत भी स्वीकार्य है।"
             ),
           },
           {
             type: "callout",
             style: "tip",
-            heading: L("Give Each Animal Its Own Space"),
+            heading: L(
+              "Give Each Animal Its Own Space",
+              "ప్రతి జంతువుకు దాని స్వంత స్థలం ఇవ్వండి",
+              "ஒவ்வொரு விலங்கிற்கும் அதற்கான சொந்த இடத்தைத் தாருங்கள்",
+              "ಪ್ರತಿ ಪ್ರಾಣಿಗೆ ಅದರದೇ ಸ್ಥಳ ನೀಡಿ",
+              "हर पशु को उसकी अपनी जगह दें"
+            ),
             text: L(
-              "Treat 5.5 feet x 10 feet and 10 feet of height as the minimum, not a target to stay under. A shed that is too low or too crowded keeps the animal under constant, avoidable stress, and stressed animals give less milk."
+              "Treat 5.5 feet x 10 feet and 10 feet of height as the minimum, not a target to stay under. A shed that is too low or too crowded keeps the animal under constant, avoidable stress, and stressed animals give less milk.",
+              "5.5 అడుగుల x 10 అడుగులు మరియు 10 అడుగుల ఎత్తును కనీస స్థాయిగా భావించండి, దీని కంటే తక్కువగా ఉండాలనే లక్ష్యంగా కాదు. చాలా తక్కువ లేదా రద్దీగా ఉన్న షెడ్ జంతువును నిరంతరం, నివారించదగిన ఒత్తిడిలో ఉంచుతుంది, మరియు ఒత్తిడికి గురైన జంతువులు తక్కువ పాలు ఇస్తాయి.",
+              "5.5 அடி x 10 அடி மற்றும் 10 அடி உயரத்தை குறைந்தபட்சமாக கருதுங்கள், அதற்குக் கீழே இருக்க வேண்டிய இலக்காக அல்ல. மிகவும் தாழ்வான அல்லது நெரிசலான தொழுவம் விலங்கை தொடர்ந்து, தவிர்க்கக்கூடிய மன அழுத்தத்தில் வைத்திருக்கும், மேலும் மன அழுத்தமுள்ள விலங்குகள் குறைவான பால் தரும்.",
+              "5.5 ಅಡಿ x 10 ಅಡಿ ಮತ್ತು 10 ಅಡಿ ಎತ್ತರವನ್ನು ಕನಿಷ್ಠವೆಂದು ಪರಿಗಣಿಸಿ, ಅದಕ್ಕಿಂತ ಕಡಿಮೆ ಇರಬೇಕಾದ ಗುರಿಯಲ್ಲ. ಬಹಳ ಕಡಿಮೆ ಅಥವಾ ಗಿಜಿಗುಟ್ಟುವ ಶೆಡ್ ಪ್ರಾಣಿಯನ್ನು ನಿರಂತರ, ತಪ್ಪಿಸಬಹುದಾದ ಒತ್ತಡದಲ್ಲಿ ಇಡುತ್ತದೆ, ಮತ್ತು ಒತ್ತಡಕ್ಕೊಳಗಾದ ಪ್ರಾಣಿಗಳು ಕಡಿಮೆ ಹಾಲು ನೀಡುತ್ತವೆ.",
+              "5.5 फीट x 10 फीट और 10 फीट की ऊंचाई को न्यूनतम मानें, न कि उससे कम रखने का लक्ष्य। बहुत नीचा या बहुत भीड़भाड़ वाला शेड पशु को लगातार, टाले जा सकने वाले तनाव में रखता है, और तनावग्रस्त पशु कम दूध देते हैं।"
             ),
           },
         ],
         check: [
           {
             type: "mcq",
-            q: L("What is the minimum floor space required for one cow or buffalo in a shed?"),
-            options: [L("5 feet x 8 feet"), L("5.5 feet x 10 feet"), L("8 feet x 10 feet"), L("10 feet x 10 feet")],
+            q: L(
+              "What is the minimum floor space required for one cow or buffalo in a shed?",
+              "షెడ్‌లో ఒక ఆవు లేదా గేదెకు కనీస నేల స్థలం ఎంత అవసరం?",
+              "தொழுவத்தில் ஒரு பசு அல்லது எருமைக்கு தேவையான குறைந்தபட்ச தரை இடம் என்ன?",
+              "ಶೆಡ್‌ನಲ್ಲಿ ಒಂದು ಹಸು ಅಥವಾ ಎಮ್ಮೆಗೆ ಅಗತ್ಯವಿರುವ ಕನಿಷ್ಠ ನೆಲದ ಸ್ಥಳ ಎಷ್ಟು?",
+              "शेड में एक गाय या भैंस के लिए न्यूनतम कितनी फर्श की जगह जरूरी है?"
+            ),
+            options: [
+              L("5 feet x 8 feet", "5 అడుగుల x 8 అడుగులు", "5 அடி x 8 அடி", "5 ಅಡಿ x 8 ಅಡಿ", "5 फीट x 8 फीट"),
+              L("5.5 feet x 10 feet", "5.5 అడుగుల x 10 అడుగులు", "5.5 அடி x 10 அடி", "5.5 ಅಡಿ x 10 ಅಡಿ", "5.5 फीट x 10 फीट"),
+              L("8 feet x 10 feet", "8 అడుగుల x 10 అడుగులు", "8 அடி x 10 அடி", "8 ಅಡಿ x 10 ಅಡಿ", "8 फीट x 10 फीट"),
+              L("10 feet x 10 feet", "10 అడుగుల x 10 అడుగులు", "10 அடி x 10 அடி", "10 ಅಡಿ x 10 ಅಡಿ", "10 फीट x 10 फीट"),
+            ],
             answer: 1,
-            explain: L("The minimum floor space required for one cow or buffalo is 5.5 feet x 10 feet."),
+            explain: L(
+              "The minimum floor space required for one cow or buffalo is 5.5 feet x 10 feet.",
+              "ఒక ఆవు లేదా గేదెకు అవసరమైన కనీస నేల స్థలం 5.5 అడుగుల x 10 అడుగులు.",
+              "ஒரு பசு அல்லது எருமைக்குத் தேவையான குறைந்தபட்ச தரை இடம் 5.5 அடி x 10 அடி.",
+              "ಒಂದು ಹಸು ಅಥವಾ ಎಮ್ಮೆಗೆ ಅಗತ್ಯವಿರುವ ಕನಿಷ್ಠ ನೆಲದ ಸ್ಥಳ 5.5 ಅಡಿ x 10 ಅಡಿ.",
+              "एक गाय या भैंस के लिए न्यूनतम फर्श की जगह 5.5 फीट x 10 फीट है।"
+            ),
           },
           {
             type: "truefalse",
-            q: L("The ceiling height of an animal shed should not be less than 10 feet, no matter what material the roof is made of."),
+            q: L(
+              "The ceiling height of an animal shed should not be less than 10 feet, no matter what material the roof is made of.",
+              "పైకప్పు ఏ పదార్థంతో తయారైనా, పశువుల షెడ్ యొక్క పైకప్పు ఎత్తు 10 అడుగుల కంటే తక్కువ ఉండకూడదు.",
+              "கூரை எந்தப் பொருளால் செய்யப்பட்டிருந்தாலும், கால்நடை தொழுவத்தின் கூரை உயரம் 10 அடிக்குக் குறையக்கூடாது.",
+              "ಛಾವಣಿ ಯಾವುದೇ ವಸ್ತುವಿನಿಂದ ಮಾಡಿದ್ದರೂ, ಪ್ರಾಣಿಯ ಶೆಡ್‌ನ ಛಾವಣಿ ಎತ್ತರ 10 ಅಡಿಗಿಂತ ಕಡಿಮೆ ಇರಬಾರದು.",
+              "छत चाहे किसी भी सामग्री से बनी हो, पशु शेड की छत की ऊंचाई 10 फीट से कम नहीं होनी चाहिए।"
+            ),
             answer: true,
-            explain: L("Correct — 10 feet is the minimum ceiling height, whether the roof is thatched, AC sheets, brick, or RCC."),
+            explain: L(
+              "Correct — 10 feet is the minimum ceiling height, whether the roof is thatched, AC sheets, brick, or RCC.",
+              "సరైనది — పైకప్పు గడ్డితో, AC షీట్లతో, ఇటుకతో లేదా RCC తో ఉన్నా, కనీస పైకప్పు ఎత్తు 10 అడుగులు.",
+              "சரியானது — கூரை ஓலையாலோ, AC தகடுகளாலோ, செங்கல்லாலோ அல்லது RCC ஆலோ செய்யப்பட்டிருந்தாலும், குறைந்தபட்ச கூரை உயரம் 10 அடி.",
+              "ಸರಿಯಾಗಿದೆ — ಛಾವಣಿ ಹುಲ್ಲಿನಿಂದ, AC ಶೀಟ್‌ಗಳಿಂದ, ಇಟ್ಟಿಗೆಯಿಂದ ಅಥವಾ RCC ಯಿಂದ ಆಗಿದ್ದರೂ, ಕನಿಷ್ಠ ಛಾವಣಿ ಎತ್ತರ 10 ಅಡಿ.",
+              "सही — चाहे छत फूस, AC शीट, ईंट, या RCC से बनी हो, न्यूनतम छत की ऊंचाई 10 फीट होनी चाहिए।"
+            ),
           },
         ],
       },
