@@ -2502,8 +2502,20 @@ export const MODULES = [
   {
     id: "m5",
     number: 5,
-    title: L("Other Important Diseases"),
-    subtitle: L("Other serious diseases to recognise early, even though there's no vaccine to prevent them."),
+    title: L(
+      "Other Important Diseases",
+      "ఇతర ముఖ్యమైన వ్యాధులు",
+      "மற்ற முக்கியமான நோய்கள்",
+      "ಇತರ ಪ್ರಮುಖ ರೋಗಗಳು",
+      "अन्य महत्वपूर्ण बीमारियाँ"
+    ),
+    subtitle: L(
+      "Other serious diseases to recognise early, even though there's no vaccine to prevent them.",
+      "టీకా అందుబాటులో లేకపోయినా ముందుగానే గుర్తించాల్సిన ఇతర తీవ్రమైన వ్యాధులు.",
+      "தடுப்பூசி இல்லாவிட்டாலும் முன்கூட்டியே கண்டறிய வேண்டிய மற்ற கடுமையான நோய்கள்.",
+      "ಲಸಿಕೆ ಇಲ್ಲದಿದ್ದರೂ ಮುಂಚಿತವಾಗಿ ಗುರುತಿಸಬೇಕಾದ ಇತರ ಗಂಭೀರ ರೋಗಗಳು.",
+      "जिनके लिए टीका उपलब्ध नहीं है, फिर भी जिन्हें जल्दी पहचानना ज़रूरी है, ऐसी अन्य गंभीर बीमारियाँ।"
+    ),
     icon: "microscope",
     available: true,
     lessons: [
@@ -2512,61 +2524,143 @@ export const MODULES = [
   // ==================================================================
   {
     id: "m5-l1",
-    title: L("Diseases With No Cure: Test, Isolate, Report"),
+    title: L(
+      "Diseases With No Cure: Test, Isolate, Report",
+      "నయం లేని వ్యాధులు: పరీక్ష, వేరుచేయడం, నివేదించడం",
+      "குணப்படுத்த முடியாத நோய்கள்: பரிசோதனை, தனிமைப்படுத்துதல், தெரிவித்தல்",
+      "ಗುಣಪಡಿಸಲಾಗದ ರೋಗಗಳು: ಪರೀಕ್ಷೆ, ಪ್ರತ್ಯೇಕಿಸುವಿಕೆ, ವರದಿ",
+      "जिन बीमारियों का इलाज नहीं है: जाँच, अलगाव, रिपोर्टिंग"
+    ),
     estMinutes: 9,
     hook: [
       {
         type: "hero",
-        heading: L("Some Diseases Have No Vaccine — And No Cure Either"),
+        heading: L(
+          "Some Diseases Have No Vaccine — And No Cure Either",
+          "కొన్ని వ్యాధులకు టీకా లేదు — చికిత్స కూడా లేదు",
+          "சில நோய்களுக்கு தடுப்பூசியும் இல்லை — குணப்படுத்தும் சிகிச்சையும் இல்லை",
+          "ಕೆಲವು ರೋಗಗಳಿಗೆ ಲಸಿಕೆ ಇಲ್ಲ — ಚಿಕಿತ್ಸೆಯೂ ಇಲ್ಲ",
+          "कुछ बीमारियों का न तो टीका है — न ही इलाज"
+        ),
         text: L(
-          "For a few serious diseases, there is no vaccine to prevent them, and once an animal clearly shows signs, it will not get better on its own. Your job never changes: notice the early signs, and tell the owner or veterinarian right away, so the animal can be tested and kept away from the rest of the healthy herd."
+          "For a few serious diseases, there is no vaccine to prevent them, and once an animal clearly shows signs, it will not get better on its own. Your job never changes: notice the early signs, and tell the owner or veterinarian right away, so the animal can be tested and kept away from the rest of the healthy herd.",
+          "కొన్ని తీవ్రమైన వ్యాధులను నివారించడానికి టీకా లేదు, మరియు జంతువు స్పష్టమైన లక్షణాలు చూపిన తర్వాత అది తనంతట తానుగా నయం కాదు. మీ పని ఎప్పుడూ మారదు: ముందస్తు లక్షణాలను గమనించి, వెంటనే యజమానికి లేదా పశువైద్యుడికి తెలియజేయండి, తద్వారా జంతువును పరీక్షించి మిగిలిన ఆరోగ్యకరమైన మంద నుండి వేరుగా ఉంచవచ్చు.",
+          "சில கடுமையான நோய்களுக்கு தடுப்பதற்கான தடுப்பூசி இல்லை, மேலும் ஒரு விலங்கு தெளிவான அறிகுறிகளை காட்டியபின் அது தானாகவே குணமடையாது. உங்கள் வேலை எப்போதும் மாறாது: ஆரம்ப அறிகுறிகளை கவனித்து, உடனடியாக உரிமையாளருக்கு அல்லது கால்நடை மருத்துவருக்கு தெரிவிக்கவும், இதனால் விலங்கை பரிசோதித்து மற்ற ஆரோக்கியமான மந்தையிலிருந்து தனியாக வைக்க முடியும்.",
+          "ಕೆಲವು ಗಂಭೀರ ರೋಗಗಳಿಗೆ ತಡೆಗಟ್ಟಲು ಲಸಿಕೆ ಇಲ್ಲ, ಮತ್ತು ಪ್ರಾಣಿ ಸ್ಪಷ್ಟ ಲಕ್ಷಣಗಳನ್ನು ತೋರಿಸಿದ ನಂತರ ಅದು ತಾನಾಗಿಯೇ ಗುಣಮುಖವಾಗುವುದಿಲ್ಲ. ನಿಮ್ಮ ಕೆಲಸ ಎಂದಿಗೂ ಬದಲಾಗುವುದಿಲ್ಲ: ಆರಂಭಿಕ ಲಕ್ಷಣಗಳನ್ನು ಗಮನಿಸಿ, ತಕ್ಷಣ ಮಾಲೀಕರಿಗೆ ಅಥವಾ ಪಶುವೈದ್ಯರಿಗೆ ತಿಳಿಸಿ, ಇದರಿಂದ ಪ್ರಾಣಿಯನ್ನು ಪರೀಕ್ಷಿಸಿ ಉಳಿದ ಆರೋಗ್ಯವಂತ ಹಿಂಡಿನಿಂದ ಪ್ರತ್ಯೇಕವಾಗಿ ಇಡಬಹುದು.",
+          "कुछ गंभीर बीमारियों के लिए कोई टीका उपलब्ध नहीं है, और जब जानवर में स्पष्ट लक्षण दिखाई देते हैं, तो वह अपने आप ठीक नहीं होता। आपका काम कभी नहीं बदलता: शुरुआती लक्षणों को पहचानें और तुरंत मालिक या पशु चिकित्सक को बताएँ, ताकि जानवर की जाँच की जा सके और उसे बाकी स्वस्थ झुंड से अलग रखा जा सके।"
         ),
       },
     ],
     topics: [
       {
         id: "t-m5-jd-tb",
-        title: L("Johne's Disease and Bovine Tuberculosis"),
+        title: L(
+          "Johne's Disease and Bovine Tuberculosis",
+          "జాన్స్ వ్యాధి మరియు గోవుల క్షయవ్యాధి",
+          "ஜோன்ஸ் நோய் மற்றும் மாட்டு காசநோய்",
+          "ಜಾನ್ಸ್ ರೋಗ ಮತ್ತು ಗೋವಿನ ಕ್ಷಯರೋಗ",
+          "जॉन्स रोग और गोवंशीय टीबी (क्षयरोग)"
+        ),
         teach: [
           {
             type: "text",
-            heading: L("Two Serious Bacterial Diseases"),
+            heading: L(
+              "Two Serious Bacterial Diseases",
+              "రెండు తీవ్రమైన బ్యాక్టీరియా వ్యాధులు",
+              "இரண்டு கடுமையான பாக்டீரியா நோய்கள்",
+              "ಎರಡು ಗಂಭೀರ ಬ್ಯಾಕ್ಟೀರಿಯಾ ರೋಗಗಳು",
+              "दो गंभीर जीवाणु जनित बीमारियाँ"
+            ),
             html: L(
-              "Johne's Disease (JD) and Bovine Tuberculosis (bTB) are both <b>bacterial diseases</b> — caused by bacteria, a kind of very small germ — that affect cattle and buffalo. Both develop slowly, over a long time, and both share one very important fact: once an animal is clearly sick, it does not recover. This is exactly why noticing early signs and reporting them matters so much."
+              "Johne's Disease (JD) and Bovine Tuberculosis (bTB) are both <b>bacterial diseases</b> — caused by bacteria, a kind of very small germ — that affect cattle and buffalo. Both develop slowly, over a long time, and both share one very important fact: once an animal is clearly sick, it does not recover. This is exactly why noticing early signs and reporting them matters so much.",
+              "జాన్స్ వ్యాధి (JD) మరియు గోవుల క్షయవ్యాధి (bTB) రెండూ <b>బ్యాక్టీరియా వ్యాధులు</b> — బ్యాక్టీరియా అనే చాలా చిన్న సూక్ష్మజీవుల వల్ల కలుగుతాయి — ఇవి ఆవులు మరియు గేదెలను ప్రభావితం చేస్తాయి. రెండూ చాలా కాలం పాటు నెమ్మదిగా అభివృద్ధి చెందుతాయి, మరియు రెండింటికీ ఒక ముఖ్యమైన విషయం ఉమ్మడిగా ఉంది: జంతువు స్పష్టంగా అనారోగ్యానికి గురైన తర్వాత అది కోలుకోదు. అందుకే ముందస్తు లక్షణాలను గమనించడం మరియు వాటిని నివేదించడం చాలా ముఖ్యం.",
+              "ஜோன்ஸ் நோய் (JD) மற்றும் மாட்டு காசநோய் (bTB) இரண்டும் <b>பாக்டீரியா நோய்கள்</b> — பாக்டீரியா எனப்படும் மிகச் சிறிய கிருமியால் ஏற்படுகின்றன — இவை மாடுகள் மற்றும் எருமைகளை பாதிக்கின்றன. இரண்டும் நீண்ட காலத்திற்கு மெதுவாக வளர்கின்றன, மேலும் இரண்டுமே ஒரு முக்கியமான உண்மையை பகிர்ந்து கொள்கின்றன: ஒரு விலங்கு தெளிவாக நோய்வாய்ப்பட்ட பிறகு அது குணமடையாது. இதனால்தான் ஆரம்ப அறிகுறிகளை கவனிப்பதும் அவற்றை தெரிவிப்பதும் மிகவும் முக்கியம்.",
+              "ಜಾನ್ಸ್ ರೋಗ (JD) ಮತ್ತು ಗೋವಿನ ಕ್ಷಯರೋಗ (bTB) ಎರಡೂ <b>ಬ್ಯಾಕ್ಟೀರಿಯಾ ರೋಗಗಳು</b> — ಬ್ಯಾಕ್ಟೀರಿಯಾ ಎಂಬ ಅತಿ ಸಣ್ಣ ಸೂಕ್ಷ್ಮಾಣುಗಳಿಂದ ಉಂಟಾಗುತ್ತವೆ — ಇವು ಹಸು ಮತ್ತು ಎಮ್ಮೆಗಳನ್ನು ಬಾಧಿಸುತ್ತವೆ. ಎರಡೂ ದೀರ್ಘಕಾಲದವರೆಗೆ ನಿಧಾನವಾಗಿ ಬೆಳೆಯುತ್ತವೆ, ಮತ್ತು ಎರಡರಲ್ಲೂ ಒಂದು ಪ್ರಮುಖ ಸಂಗತಿ ಸಾಮಾನ್ಯವಾಗಿದೆ: ಪ್ರಾಣಿ ಸ್ಪಷ್ಟವಾಗಿ ಅಸ್ವಸ್ಥಗೊಂಡ ನಂತರ ಅದು ಗುಣಮುಖವಾಗುವುದಿಲ್ಲ. ಇದೇ ಕಾರಣಕ್ಕೆ ಆರಂಭಿಕ ಲಕ್ಷಣಗಳನ್ನು ಗಮನಿಸಿ ವರದಿ ಮಾಡುವುದು ಬಹಳ ಮುಖ್ಯ.",
+              "जॉन्स रोग (JD) और गोवंशीय टीबी (bTB) दोनों <b>जीवाणु जनित बीमारियाँ</b> हैं — बैक्टीरिया, यानी एक बहुत छोटे कीटाणु के कारण होने वाली — जो गाय और भैंस दोनों को प्रभावित करती हैं। दोनों लंबे समय में धीरे-धीरे बढ़ती हैं, और दोनों में एक बहुत महत्वपूर्ण बात समान है: जानवर स्पष्ट रूप से बीमार हो जाने के बाद वह ठीक नहीं होता। इसीलिए शुरुआती लक्षणों को पहचानना और उनकी रिपोर्ट करना इतना महत्वपूर्ण है।"
             ),
           },
           {
             type: "glossary",
-            term: L("Bacterial Disease"),
+            term: L(
+              "Bacterial Disease",
+              "బ్యాక్టీరియా వ్యాధి",
+              "பாக்டீரியா நோய்",
+              "ಬ್ಯಾಕ್ಟೀರಿಯಾ ರೋಗ",
+              "जीवाणु जनित बीमारी"
+            ),
             meaning: L(
-              "A disease caused by bacteria — a kind of very small germ, different from a virus — that can spread from one animal to another."
+              "A disease caused by bacteria — a kind of very small germ, different from a virus — that can spread from one animal to another.",
+              "బ్యాక్టీరియా వల్ల కలిగే వ్యాధి — వైరస్ కంటే భిన్నమైన చాలా చిన్న సూక్ష్మజీవి — ఇది ఒక జంతువు నుండి మరొక జంతువుకు వ్యాపించగలదు.",
+              "பாக்டீரியாவால் ஏற்படும் நோய் — வைரஸிலிருந்து வேறுபட்ட மிகச் சிறிய கிருமி — இது ஒரு விலங்கிலிருந்து மற்றொரு விலங்குக்கு பரவக்கூடியது.",
+              "ಬ್ಯಾಕ್ಟೀರಿಯಾದಿಂದ ಉಂಟಾಗುವ ರೋಗ — ವೈರಸ್‌ಗಿಂತ ಭಿನ್ನವಾದ ಅತಿ ಸಣ್ಣ ಸೂಕ್ಷ್ಮಾಣು — ಇದು ಒಂದು ಪ್ರಾಣಿಯಿಂದ ಇನ್ನೊಂದು ಪ್ರಾಣಿಗೆ ಹರಡಬಹುದು.",
+              "बैक्टीरिया से होने वाली बीमारी — यह वायरस से अलग एक बहुत छोटा कीटाणु है — जो एक जानवर से दूसरे जानवर में फैल सकता है।"
             ),
           },
           {
             type: "stat-grid",
             items: [
               {
-                label: L("Johne's Disease — Weight and Dung"),
+                label: L(
+                  "Johne's Disease — Weight and Dung",
+                  "జాన్స్ వ్యాధి — బరువు మరియు పేడ",
+                  "ஜோன்ஸ் நோய் — எடை மற்றும் சாணம்",
+                  "ಜಾನ್ಸ್ ರೋಗ — ತೂಕ ಮತ್ತು ಸಗಣಿ",
+                  "जॉन्स रोग — वज़न और गोबर"
+                ),
                 text: L(
-                  "Long-lasting diarrhoea (loose dung) with heavy economic losses, and loss of weight even though the animal is still eating well — a confusing early sign."
+                  "Long-lasting diarrhoea (loose dung) with heavy economic losses, and loss of weight even though the animal is still eating well — a confusing early sign.",
+                  "ఎక్కువ కాలం పాటు విరేచనాలు (వదులుగా ఉండే పేడ) తీవ్రమైన ఆర్థిక నష్టాలతో పాటు కనిపిస్తాయి, మరియు జంతువు బాగా తింటున్నప్పటికీ బరువు తగ్గడం — ఇది గందరగోళం కలిగించే ప్రారంభ లక్షణం.",
+                  "நீண்ட காலமாக வயிற்றுப்போக்கு (தளர்ந்த சாணம்) கடுமையான பொருளாதார இழப்புகளுடன் ஏற்படும், மேலும் விலங்கு நன்றாக உண்டாலும் எடை குறைவு — இது குழப்பமூட்டும் ஆரம்ப அறிகுறி.",
+                  "ದೀರ್ಘಕಾಲದ ಅತಿಸಾರ (ಸಡಿಲ ಸಗಣಿ) ಭಾರೀ ಆರ್ಥಿಕ ನಷ್ಟದೊಂದಿಗೆ ಕಾಣಿಸಿಕೊಳ್ಳುತ್ತದೆ, ಮತ್ತು ಪ್ರಾಣಿ ಚೆನ್ನಾಗಿ ತಿನ್ನುತ್ತಿದ್ದರೂ ತೂಕ ಕಳೆದುಕೊಳ್ಳುತ್ತದೆ — ಇದು ಗೊಂದಲ ಉಂಟುಮಾಡುವ ಆರಂಭಿಕ ಲಕ್ಷಣ.",
+                  "लंबे समय तक दस्त (पतला गोबर) होना, जिससे भारी आर्थिक नुकसान होता है, और जानवर अच्छी तरह खा रहा हो फिर भी वज़न कम होना — यह एक भ्रामक शुरुआती लक्षण है।"
                 ),
               },
               {
-                label: L("Johne's Disease — Bottle Jaw"),
+                label: L(
+                  "Johne's Disease — Bottle Jaw",
+                  "జాన్స్ వ్యాధి — దవడ వాపు",
+                  "ஜோன்ஸ் நோய் — தாடை வீக்கம்",
+                  "ಜಾನ್ಸ್ ರೋಗ — ದವಡೆ ಬಾವು",
+                  "जॉन्स रोग — बॉटल जॉ (जबड़े में सूजन)"
+                ),
                 text: L(
-                  "A swelling called 'bottle jaw' may appear under the jaw. Once clear signs appear, the animal will not recover and will keep getting weaker."
+                  "A swelling called 'bottle jaw' may appear under the jaw. Once clear signs appear, the animal will not recover and will keep getting weaker.",
+                  "'బాటిల్ జా' అని పిలువబడే వాపు దవడ కింద కనిపించవచ్చు. స్పష్టమైన లక్షణాలు కనిపించిన తర్వాత, జంతువు కోలుకోదు మరియు మరింత బలహీనంగా మారుతూనే ఉంటుంది.",
+                  "'பாட்டில் ஜா' எனப்படும் வீக்கம் தாடைக்கு கீழே தோன்றலாம். தெளிவான அறிகுறிகள் தோன்றியபின் விலங்கு குணமடையாது, மேலும் மேலும் பலவீனமடையும்.",
+                  "'ಬಾಟಲ್ ಜಾ' ಎಂಬ ಬಾವು ದವಡೆಯ ಕೆಳಗೆ ಕಾಣಿಸಿಕೊಳ್ಳಬಹುದು. ಸ್ಪಷ್ಟ ಲಕ್ಷಣಗಳು ಕಾಣಿಸಿಕೊಂಡ ನಂತರ, ಪ್ರಾಣಿ ಗುಣಮುಖವಾಗುವುದಿಲ್ಲ ಮತ್ತು ಮತ್ತಷ್ಟು ದುರ್ಬಲಗೊಳ್ಳುತ್ತಲೇ ಇರುತ್ತದೆ.",
+                  "'बॉटल जॉ' नामक सूजन जबड़े के नीचे दिखाई दे सकती है। स्पष्ट लक्षण दिखने के बाद जानवर ठीक नहीं होता और लगातार कमज़ोर होता जाता है।"
                 ),
               },
               {
-                label: L("Bovine TB — General Signs"),
+                label: L(
+                  "Bovine TB — General Signs",
+                  "గోవుల క్షయవ్యాధి — సాధారణ లక్షణాలు",
+                  "மாட்டு காசநோய் — பொது அறிகுறிகள்",
+                  "ಗೋವಿನ ಕ್ಷಯರೋಗ — ಸಾಮಾನ್ಯ ಲಕ್ಷಣಗಳು",
+                  "गोवंशीय टीबी — सामान्य लक्षण"
+                ),
                 text: L(
-                  "Weakness, coughing and weight loss developing over a number of years, along with loss of appetite, extreme thinness, and difficulty breathing."
+                  "Weakness, coughing and weight loss developing over a number of years, along with loss of appetite, extreme thinness, and difficulty breathing.",
+                  "బలహీనత, దగ్గు మరియు బరువు తగ్గడం చాలా సంవత్సరాల్లో అభివృద్ధి చెందుతాయి, వీటితో పాటు ఆకలి తగ్గడం, తీవ్రమైన నీరసం, మరియు శ్వాస తీసుకోవడంలో ఇబ్బంది కూడా ఉంటాయి.",
+                  "பலவீனம், இருமல் மற்றும் எடை இழப்பு பல ஆண்டுகளாக வளர்கிறது, அதனுடன் பசியின்மை, கடுமையான மெலிவு, மற்றும் மூச்சுத்திணறல் ஆகியவையும் ஏற்படும்.",
+                  "ಹಲವು ವರ್ಷಗಳಲ್ಲಿ ಬೆಳೆಯುವ ದೌರ್ಬಲ್ಯ, ಕೆಮ್ಮು ಮತ್ತು ತೂಕ ನಷ್ಟ, ಜೊತೆಗೆ ಹಸಿವಿನ ಕೊರತೆ, ತೀವ್ರ ಕೃಶತೆ ಮತ್ತು ಉಸಿರಾಟದ ತೊಂದರೆ.",
+                  "कई वर्षों में धीरे-धीरे कमज़ोरी, खाँसी और वज़न कम होना, साथ ही भूख न लगना, अत्यधिक दुबलापन, और साँस लेने में कठिनाई।"
                 ),
               },
               {
-                label: L("Bovine TB — Lymph Nodes"),
+                label: L(
+                  "Bovine TB — Lymph Nodes",
+                  "గోవుల క్షయవ్యాధి — శోషరస గ్రంథులు",
+                  "மாட்டு காசநோய் — நிணநீர் முடிச்சுகள்",
+                  "ಗೋವಿನ ಕ್ಷಯರೋಗ — ದುಗ್ಧರಸ ಗ್ರಂಥಿಗಳು",
+                  "गोवंशीय टीबी — लसीका ग्रंथियाँ"
+                ),
                 text: L(
-                  "Enlarged lymph nodes (small, firm lumps under the skin that are part of the body's defence system) and diarrhoea."
+                  "Enlarged lymph nodes (small, firm lumps under the skin that are part of the body's defence system) and diarrhoea.",
+                  "వాచిన శోషరస గ్రంథులు (శరీర రక్షణ వ్యవస్థలో భాగమైన చర్మం కింద ఉండే చిన్న, గట్టి బద్దలు) మరియు విరేచనాలు.",
+                  "வீங்கிய நிணநீர் முடிச்சுகள் (உடலின் பாதுகாப்பு அமைப்பின் ஒரு பகுதியான தோலுக்கு அடியில் உள்ள சிறிய, திடமான முடிச்சுகள்) மற்றும் வயிற்றுப்போக்கு.",
+                  "ಊದಿಕೊಂಡ ದುಗ್ಧರಸ ಗ್ರಂಥಿಗಳು (ದೇಹದ ರಕ್ಷಣಾ ವ್ಯವಸ್ಥೆಯ ಭಾಗವಾದ ಚರ್ಮದ ಕೆಳಗಿನ ಸಣ್ಣ, ಗಟ್ಟಿಯಾದ ಗಂಟುಗಳು) ಮತ್ತು ಅತಿಸಾರ.",
+                  "बढ़ी हुई लसीका ग्रंथियाँ (त्वचा के नीचे की छोटी, सख्त गांठें जो शरीर की रक्षा प्रणाली का हिस्सा हैं) और दस्त।"
                 ),
               },
             ],
@@ -2574,96 +2668,238 @@ export const MODULES = [
           {
             type: "callout",
             style: "warning",
-            heading: L("Bovine TB Can Spread to People Too"),
+            heading: L(
+              "Bovine TB Can Spread to People Too",
+              "గోవుల క్షయవ్యాధి మనుషులకు కూడా వ్యాపించవచ్చు",
+              "மாட்டு காசநோய் மனிதர்களுக்கும் பரவக்கூடும்",
+              "ಗೋವಿನ ಕ್ಷಯರೋಗ ಜನರಿಗೂ ಹರಡಬಹುದು",
+              "गोवंशीय टीबी लोगों में भी फैल सकती है"
+            ),
             text: L(
-              "Bovine Tuberculosis can also spread from cattle to humans. This makes it especially important to report suspected cases quickly, and to follow whatever hygiene steps the owner or veterinarian asks for."
+              "Bovine Tuberculosis can also spread from cattle to humans. This makes it especially important to report suspected cases quickly, and to follow whatever hygiene steps the owner or veterinarian asks for.",
+              "గోవుల క్షయవ్యాధి పశువుల నుండి మనుషులకు కూడా వ్యాపించవచ్చు. అందుకే అనుమానిత కేసులను త్వరగా నివేదించడం మరియు యజమాని లేదా పశువైద్యుడు చెప్పిన పరిశుభ్రత చర్యలను పాటించడం చాలా ముఖ్యం.",
+              "மாட்டு காசநோய் கால்நடைகளிலிருந்து மனிதர்களுக்கும் பரவக்கூடும். எனவே சந்தேகிக்கப்படும் வழக்குகளை விரைவாக தெரிவிப்பதும், உரிமையாளர் அல்லது கால்நடை மருத்துவர் கூறும் சுகாதார நடவடிக்கைகளை பின்பற்றுவதும் மிகவும் முக்கியம்.",
+              "ಗೋವಿನ ಕ್ಷಯರೋಗ ಜಾನುವಾರುಗಳಿಂದ ಮನುಷ್ಯರಿಗೂ ಹರಡಬಹುದು. ಇದರಿಂದಾಗಿ ಶಂಕಿತ ಪ್ರಕರಣಗಳನ್ನು ಬೇಗ ವರದಿ ಮಾಡುವುದು ಮತ್ತು ಮಾಲೀಕರು ಅಥವಾ ಪಶುವೈದ್ಯರು ಸೂಚಿಸುವ ನೈರ್ಮಲ್ಯ ಕ್ರಮಗಳನ್ನು ಪಾಲಿಸುವುದು ವಿಶೇಷವಾಗಿ ಮುಖ್ಯವಾಗುತ್ತದೆ.",
+              "गोवंशीय टीबी पशुओं से इंसानों में भी फैल सकती है। इसीलिए संदिग्ध मामलों की तुरंत रिपोर्ट करना और मालिक या पशु चिकित्सक द्वारा बताए गए स्वच्छता उपायों का पालन करना विशेष रूप से महत्वपूर्ण है।"
             ),
           },
           {
             type: "callout",
             style: "info",
-            heading: L("Why Testing Matters So Much"),
+            heading: L(
+              "Why Testing Matters So Much",
+              "పరీక్ష ఎందుకు అంత ముఖ్యం",
+              "பரிசோதனை ஏன் இவ்வளவு முக்கியம்",
+              "ಪರೀಕ್ಷೆ ಏಕೆ ಇಷ್ಟು ಮುಖ್ಯ",
+              "जाँच इतनी महत्वपूर्ण क्यों है"
+            ),
             text: L(
-              "For both diseases, animals can spread the infection to others before they show any symptoms at all. This is why regular testing — not just watching for signs — is the only reliable way to catch these diseases early."
+              "For both diseases, animals can spread the infection to others before they show any symptoms at all. This is why regular testing — not just watching for signs — is the only reliable way to catch these diseases early.",
+              "ఈ రెండు వ్యాధులలోనూ, జంతువులు ఎలాంటి లక్షణాలు చూపించకముందే ఇతరులకు వ్యాధిని వ్యాపింపజేయగలవు. అందుకే లక్షణాల కోసం చూడటం మాత్రమే కాకుండా, క్రమం తప్పకుండా పరీక్ష చేయించడం ఈ వ్యాధులను ముందుగానే గుర్తించడానికి ఏకైక నమ్మదగిన మార్గం.",
+              "இந்த இரு நோய்களிலும், விலங்குகள் எந்த அறிகுறியும் காட்டுவதற்கு முன்பே பிறருக்கு தொற்றை பரப்பக்கூடும். எனவே அறிகுறிகளை கவனிப்பது மட்டுமல்லாமல், தொடர்ச்சியான பரிசோதனையே இந்த நோய்களை முன்கூட்டியே கண்டறிய நம்பகமான ஒரே வழி.",
+              "ಈ ಎರಡೂ ರೋಗಗಳಲ್ಲಿ, ಪ್ರಾಣಿಗಳು ಯಾವುದೇ ಲಕ್ಷಣಗಳನ್ನು ತೋರಿಸುವ ಮೊದಲೇ ಇತರರಿಗೆ ಸೋಂಕನ್ನು ಹರಡಬಹುದು. ಇದೇ ಕಾರಣಕ್ಕೆ ಕೇವಲ ಲಕ್ಷಣಗಳನ್ನು ಗಮನಿಸುವುದು ಮಾತ್ರವಲ್ಲದೆ, ನಿಯಮಿತ ಪರೀಕ್ಷೆಯೇ ಈ ರೋಗಗಳನ್ನು ಬೇಗ ಪತ್ತೆಹಚ್ಚುವ ಏಕೈಕ ವಿಶ್ವಾಸಾರ್ಹ ಮಾರ್ಗ.",
+              "इन दोनों बीमारियों में, जानवर कोई भी लक्षण दिखाने से पहले ही संक्रमण दूसरों में फैला सकते हैं। इसीलिए केवल लक्षणों पर नज़र रखना नहीं, बल्कि नियमित जाँच ही इन बीमारियों को जल्दी पकड़ने का एकमात्र भरोसेमंद तरीका है।"
             ),
           },
           {
             type: "callout",
             style: "tip",
-            heading: L("Your Job: Notice, Report, Support Testing"),
+            heading: L(
+              "Your Job: Notice, Report, Support Testing",
+              "మీ పని: గమనించడం, నివేదించడం, పరీక్షకు సహకరించడం",
+              "உங்கள் வேலை: கவனித்தல், தெரிவித்தல், பரிசோதனைக்கு ஆதரவளித்தல்",
+              "ನಿಮ್ಮ ಕೆಲಸ: ಗಮನಿಸಿ, ವರದಿ ಮಾಡಿ, ಪರೀಕ್ಷೆಗೆ ಬೆಂಬಲ ನೀಡಿ",
+              "आपका काम: लक्षण पहचानना, रिपोर्ट करना, जाँच में सहयोग करना"
+            ),
             text: L(
-              "Neither disease can be cured. The only way to protect the rest of the herd is to test animals regularly, keep any animal that tests positive away from the healthy ones, and buy new animals only after they have tested negative. You never decide any of this yourself — you notice signs, report them, and support whatever testing and isolation plan the owner or veterinarian sets up."
+              "Neither disease can be cured. The only way to protect the rest of the herd is to test animals regularly, keep any animal that tests positive away from the healthy ones, and buy new animals only after they have tested negative. You never decide any of this yourself — you notice signs, report them, and support whatever testing and isolation plan the owner or veterinarian sets up.",
+              "ఈ రెండు వ్యాధులలో ఏదీ నయం చేయలేము. మిగిలిన మందను రక్షించడానికి ఉన్న ఏకైక మార్గం జంతువులను క్రమం తప్పకుండా పరీక్షించడం, పాజిటివ్‌గా వచ్చిన ఏ జంతువునైనా ఆరోగ్యకరమైన వాటి నుండి దూరంగా ఉంచడం, మరియు నెగటివ్‌గా పరీక్షించబడిన తర్వాతే కొత్త జంతువులను కొనుగోలు చేయడం. దీన్ని మీరు స్వయంగా నిర్ణయించకూడదు — మీరు లక్షణాలను గమనించి, వాటిని నివేదించి, యజమాని లేదా పశువైద్యుడు రూపొందించే పరీక్ష మరియు వేరుచేసే ప్రణాళికకు సహకరించాలి.",
+              "இந்த இரு நோய்களுக்கும் சிகிச்சை இல்லை. மீதமுள்ள மந்தையை பாதுகாக்க ஒரே வழி, விலங்குகளை தொடர்ந்து பரிசோதிப்பது, பாசிட்டிவ் என பரிசோதிக்கப்பட்ட எந்த விலங்கையும் ஆரோக்கியமானவற்றிலிருந்து தனியாக வைப்பது, மற்றும் நெகட்டிவ் என பரிசோதிக்கப்பட்ட பிறகே புதிய விலங்குகளை வாங்குவது. இதை நீங்கள் ஒருபோதும் நீங்களாகவே முடிவு செய்யக்கூடாது — நீங்கள் அறிகுறிகளை கவனித்து, தெரிவித்து, உரிமையாளர் அல்லது கால்நடை மருத்துவர் வகுக்கும் பரிசோதனை மற்றும் தனிமைப்படுத்தும் திட்டத்திற்கு ஆதரவளிக்க வேண்டும்.",
+              "ಈ ಎರಡೂ ರೋಗಗಳಿಗೆ ಚಿಕಿತ್ಸೆ ಇಲ್ಲ. ಉಳಿದ ಹಿಂಡನ್ನು ರಕ್ಷಿಸಲು ಇರುವ ಏಕೈಕ ಮಾರ್ಗವೆಂದರೆ ಪ್ರಾಣಿಗಳನ್ನು ನಿಯಮಿತವಾಗಿ ಪರೀಕ್ಷಿಸುವುದು, ಪಾಸಿಟಿವ್ ಬಂದ ಯಾವುದೇ ಪ್ರಾಣಿಯನ್ನು ಆರೋಗ್ಯವಂತ ಪ್ರಾಣಿಗಳಿಂದ ದೂರ ಇಡುವುದು, ಮತ್ತು ನೆಗೆಟಿವ್ ಬಂದ ನಂತರವೇ ಹೊಸ ಪ್ರಾಣಿಗಳನ್ನು ಖರೀದಿಸುವುದು. ಇದನ್ನು ನೀವು ಸ್ವಂತವಾಗಿ ನಿರ್ಧರಿಸಬಾರದು — ನೀವು ಲಕ್ಷಣಗಳನ್ನು ಗಮನಿಸಿ, ವರದಿ ಮಾಡಿ, ಮಾಲೀಕರು ಅಥವಾ ಪಶುವೈದ್ಯರು ರೂಪಿಸುವ ಪರೀಕ್ಷೆ ಮತ್ತು ಪ್ರತ್ಯೇಕೀಕರಣ ಯೋಜನೆಗೆ ಬೆಂಬಲ ನೀಡಬೇಕು.",
+              "इनमें से किसी भी बीमारी का इलाज नहीं है। बाकी झुंड को बचाने का एकमात्र तरीका है — जानवरों की नियमित जाँच करना, जो जानवर पॉज़िटिव निकले उसे स्वस्थ जानवरों से दूर रखना, और नए जानवर तभी खरीदना जब उनकी जाँच निगेटिव आए। यह फैसला आप खुद कभी नहीं लेते — आप लक्षण पहचानते हैं, उनकी रिपोर्ट करते हैं, और मालिक या पशु चिकित्सक द्वारा बनाई गई जाँच व अलगाव योजना में सहयोग करते हैं।"
             ),
           },
         ],
         check: [
           {
             type: "mcq",
-            q: L("What happens once clear signs of Johne's Disease appear in an animal?"),
+            q: L(
+              "What happens once clear signs of Johne's Disease appear in an animal?",
+              "జంతువులో జాన్స్ వ్యాధి స్పష్టమైన లక్షణాలు కనిపించిన తర్వాత ఏమి జరుగుతుంది?",
+              "ஒரு விலங்கில் ஜோன்ஸ் நோயின் தெளிவான அறிகுறிகள் தோன்றியபின் என்ன நடக்கும்?",
+              "ಪ್ರಾಣಿಯಲ್ಲಿ ಜಾನ್ಸ್ ರೋಗದ ಸ್ಪಷ್ಟ ಲಕ್ಷಣಗಳು ಕಾಣಿಸಿಕೊಂಡ ನಂತರ ಏನಾಗುತ್ತದೆ?",
+              "जानवर में जॉन्स रोग के स्पष्ट लक्षण दिखने के बाद क्या होता है?"
+            ),
             options: [
-              L("It recovers fully with rest"),
-              L("It does not recover, and continues to get weaker"),
-              L("It gets better after one dose of medicine"),
-              L("The signs disappear within a day"),
+              L(
+                "It recovers fully with rest",
+                "విశ్రాంతితో పూర్తిగా కోలుకుంటుంది",
+                "ஓய்வால் முழுமையாக குணமடையும்",
+                "ವಿಶ್ರಾಂತಿಯಿಂದ ಸಂಪೂರ್ಣ ಗುಣಮುಖವಾಗುತ್ತದೆ",
+                "आराम से पूरी तरह ठीक हो जाता है"
+              ),
+              L(
+                "It does not recover, and continues to get weaker",
+                "అది కోలుకోదు మరియు మరింత బలహీనంగా మారుతూనే ఉంటుంది",
+                "அது குணமடையாது, மேலும் மேலும் பலவீனமடையும்",
+                "ಅದು ಗುಣಮುಖವಾಗುವುದಿಲ್ಲ, ಮತ್ತಷ್ಟು ದುರ್ಬಲಗೊಳ್ಳುತ್ತಲೇ ಇರುತ್ತದೆ",
+                "यह ठीक नहीं होता और लगातार कमज़ोर होता जाता है"
+              ),
+              L(
+                "It gets better after one dose of medicine",
+                "ఒక్క మోతాదు మందుతో నయమవుతుంది",
+                "ஒரு மருந்தளவுக்குப் பிறகு நலமடையும்",
+                "ಒಂದು ಡೋಸ್ ಔಷಧಿಯ ನಂತರ ಗುಣಮುಖವಾಗುತ್ತದೆ",
+                "एक खुराक दवा से ठीक हो जाता है"
+              ),
+              L(
+                "The signs disappear within a day",
+                "ఒక్క రోజులోనే లక్షణాలు మాయమవుతాయి",
+                "ஒரு நாளுக்குள் அறிகுறிகள் மறைந்துவிடும்",
+                "ಒಂದು ದಿನದೊಳಗೆ ಲಕ್ಷಣಗಳು ಮಾಯವಾಗುತ್ತವೆ",
+                "एक दिन में लक्षण गायब हो जाते हैं"
+              ),
             ],
             answer: 1,
             explain: L(
-              "Once clinical signs of Johne's Disease appear, the animal will not recover and will continue to deteriorate — this is why early reporting and regular testing matter so much."
+              "Once clinical signs of Johne's Disease appear, the animal will not recover and will continue to deteriorate — this is why early reporting and regular testing matter so much.",
+              "జాన్స్ వ్యాధి యొక్క వైద్యపరమైన లక్షణాలు కనిపించిన తర్వాత, జంతువు కోలుకోదు మరియు మరింత క్షీణిస్తూనే ఉంటుంది — అందుకే ముందస్తు నివేదిక మరియు క్రమం తప్పకుండా పరీక్ష చాలా ముఖ్యం.",
+              "ஜோன்ஸ் நோயின் மருத்துவ அறிகுறிகள் தோன்றியபின், விலங்கு குணமடையாது, மேலும் தொடர்ந்து மோசமடையும் — எனவேதான் முன்கூட்டியே தெரிவிப்பதும் தொடர்ச்சியான பரிசோதனையும் இவ்வளவு முக்கியம்.",
+              "ಜಾನ್ಸ್ ರೋಗದ ಕ್ಲಿನಿಕಲ್ ಲಕ್ಷಣಗಳು ಕಾಣಿಸಿಕೊಂಡ ನಂತರ, ಪ್ರಾಣಿ ಗುಣಮುಖವಾಗುವುದಿಲ್ಲ ಮತ್ತು ಮತ್ತಷ್ಟು ಹದಗೆಡುತ್ತಲೇ ಇರುತ್ತದೆ — ಇದೇ ಕಾರಣಕ್ಕೆ ಆರಂಭಿಕ ವರದಿ ಮತ್ತು ನಿಯಮಿತ ಪರೀಕ್ಷೆ ಬಹಳ ಮುಖ್ಯ.",
+              "जॉन्स रोग के लक्षण स्पष्ट रूप से दिखने के बाद, जानवर ठीक नहीं होता और लगातार बिगड़ता जाता है — इसीलिए जल्दी रिपोर्ट करना और नियमित जाँच इतनी महत्वपूर्ण है।"
             ),
           },
           {
             type: "truefalse",
-            q: L("Bovine Tuberculosis can spread from cattle to humans."),
+            q: L(
+              "Bovine Tuberculosis can spread from cattle to humans.",
+              "గోవుల క్షయవ్యాధి పశువుల నుండి మనుషులకు వ్యాపించవచ్చు.",
+              "மாட்டு காசநோய் கால்நடைகளிலிருந்து மனிதர்களுக்கு பரவக்கூடும்.",
+              "ಗೋವಿನ ಕ್ಷಯರೋಗ ಜಾನುವಾರುಗಳಿಂದ ಮನುಷ್ಯರಿಗೆ ಹರಡಬಹುದು.",
+              "गोवंशीय टीबी पशुओं से इंसानों में फैल सकती है।"
+            ),
             answer: true,
             explain: L(
-              "Correct — Bovine TB is transmissible to humans, which is one reason suspected cases should always be reported and tested promptly."
+              "Correct — Bovine TB is transmissible to humans, which is one reason suspected cases should always be reported and tested promptly.",
+              "సరైనది — గోవుల క్షయవ్యాధి మనుషులకు వ్యాపించగలదు, అందుకే అనుమానిత కేసులను ఎల్లప్పుడూ నివేదించి, వెంటనే పరీక్షించాలి.",
+              "சரி — மாட்டு காசநோய் மனிதர்களுக்கு பரவக்கூடியது, எனவே சந்தேகிக்கப்படும் வழக்குகள் எப்போதும் தெரிவிக்கப்பட்டு உடனடியாக பரிசோதிக்கப்பட வேண்டும்.",
+              "ಸರಿ — ಗೋವಿನ ಕ್ಷಯರೋಗ ಮನುಷ್ಯರಿಗೆ ಹರಡಬಲ್ಲದು, ಇದೇ ಕಾರಣಕ್ಕೆ ಶಂಕಿತ ಪ್ರಕರಣಗಳನ್ನು ಯಾವಾಗಲೂ ವರದಿ ಮಾಡಿ ತಕ್ಷಣ ಪರೀಕ್ಷಿಸಬೇಕು.",
+              "सही — गोवंशीय टीबी इंसानों में फैल सकती है, इसीलिए संदिग्ध मामलों की हमेशा रिपोर्ट करनी चाहिए और तुरंत जाँच करानी चाहिए।"
             ),
           },
         ],
       },
       {
         id: "t-m5-mycotoxicosis",
-        title: L("Mycotoxicosis: Toxins From Moldy Feed"),
+        title: L(
+          "Mycotoxicosis: Toxins From Moldy Feed",
+          "మైకోటాక్సికోసిస్: బూజు పట్టిన దాణా నుండి విషపదార్థాలు",
+          "மைக்கோடாக்சிகோசிஸ்: பூஞ்சணம் பிடித்த தீவனத்தில் இருந்து நச்சுகள்",
+          "ಮೈಕೋಟಾಕ್ಸಿಕೋಸಿಸ್: ಬೂಷ್ಟು ಹಿಡಿದ ಮೇವಿನಿಂದ ವಿಷಪದಾರ್ಥಗಳು",
+          "माइकोटॉक्सिकोसिस: फफूंद लगे चारे से बनने वाले विष"
+        ),
         teach: [
           {
             type: "text",
-            heading: L("Where Does This Disease Come From?"),
+            heading: L(
+              "Where Does This Disease Come From?",
+              "ఈ వ్యాధి ఎక్కడ నుండి వస్తుంది?",
+              "இந்த நோய் எங்கிருந்து வருகிறது?",
+              "ಈ ರೋಗ ಎಲ್ಲಿಂದ ಬರುತ್ತದೆ?",
+              "यह बीमारी कहाँ से आती है?"
+            ),
             html: L(
-              "Mycotoxicosis is not spread from one animal to another like a germ. It happens when an animal eats feed (such as groundnut cake or maize) or stored fodder (such as paddy straw) that has become damp and grown mold — a kind of fungus. The mold produces <b>toxins</b> (poisons) that can seriously harm the animal's health and productivity."
+              "Mycotoxicosis is not spread from one animal to another like a germ. It happens when an animal eats feed (such as groundnut cake or maize) or stored fodder (such as paddy straw) that has become damp and grown mold — a kind of fungus. The mold produces <b>toxins</b> (poisons) that can seriously harm the animal's health and productivity.",
+              "మైకోటాక్సికోసిస్ సూక్ష్మజీవి లాగా ఒక జంతువు నుండి మరొక జంతువుకు వ్యాపించదు. ఒక జంతువు తడిగా మారి బూజు (ఒక రకమైన శిలీంధ్రం) పట్టిన దాణా (వేరుశనగ చెక్క లేదా మొక్కజొన్న వంటివి) లేదా నిల్వ ఉంచిన పశుగ్రాసం (వరి గడ్డి వంటివి) తిన్నప్పుడు ఇది సంభవిస్తుంది. బూజు <b>విషపదార్థాలను</b> (విషాలను) ఉత్పత్తి చేస్తుంది, ఇవి జంతువు ఆరోగ్యం మరియు ఉత్పాదకతకు తీవ్రమైన హాని కలిగించగలవు.",
+              "மைக்கோடாக்சிகோசிஸ் ஒரு கிருமி போல ஒரு விலங்கிலிருந்து மற்றொரு விலங்குக்கு பரவாது. ஒரு விலங்கு ஈரமாகி பூஞ்சணம் (ஒரு வகை காளான்) பிடித்த தீவனத்தை (கடலை பிண்ணாக்கு அல்லது சோளம் போன்றவை) அல்லது சேமித்து வைத்த வைக்கோலை (நெல் வைக்கோல் போன்றவை) உண்ணும்போது இது ஏற்படுகிறது. பூஞ்சணம் <b>நச்சுகளை</b> (விஷங்களை) உற்பத்தி செய்கிறது, இவை விலங்கின் ஆரோக்கியத்தையும் உற்பத்தித்திறனையும் கடுமையாக பாதிக்கக்கூடியவை.",
+              "ಮೈಕೋಟಾಕ್ಸಿಕೋಸಿಸ್ ಸೂಕ್ಷ್ಮಾಣುವಿನಂತೆ ಒಂದು ಪ್ರಾಣಿಯಿಂದ ಇನ್ನೊಂದು ಪ್ರಾಣಿಗೆ ಹರಡುವುದಿಲ್ಲ. ಪ್ರಾಣಿಯು ತೇವವಾಗಿ ಬೂಷ್ಟು (ಒಂದು ರೀತಿಯ ಶಿಲೀಂಧ್ರ) ಬೆಳೆದ ಮೇವನ್ನು (ಶೇಂಗಾ ಹಿಂಡಿ ಅಥವಾ ಜೋಳ) ಅಥವಾ ಸಂಗ್ರಹಿಸಿಟ್ಟ ಮೇವನ್ನು (ಭತ್ತದ ಹುಲ್ಲಿನಂತಹ) ತಿಂದಾಗ ಇದು ಸಂಭವಿಸುತ್ತದೆ. ಬೂಷ್ಟು <b>ವಿಷಪದಾರ್ಥಗಳನ್ನು</b> (ವಿಷಗಳನ್ನು) ಉತ್ಪಾದಿಸುತ್ತದೆ, ಇವು ಪ್ರಾಣಿಯ ಆರೋಗ್ಯ ಮತ್ತು ಉತ್ಪಾದಕತೆಗೆ ತೀವ್ರ ಹಾನಿ ಉಂಟುಮಾಡಬಹುದು.",
+              "माइकोटॉक्सिकोसिस किसी कीटाणु की तरह एक जानवर से दूसरे जानवर में नहीं फैलता। यह तब होता है जब जानवर ऐसा चारा (जैसे मूंगफली की खली या मक्का) या भंडारित पशुचारा (जैसे धान की पुआल) खाता है जो नम होकर फफूंद — एक प्रकार की कवक — से ढक गया हो। यह फफूंद <b>विष (टॉक्सिन)</b> पैदा करती है जो जानवर के स्वास्थ्य और उत्पादकता को गंभीर नुकसान पहुँचा सकती है।"
             ),
           },
           {
             type: "glossary",
-            term: L("Mold / Fungus and Toxin"),
+            term: L(
+              "Mold / Fungus and Toxin",
+              "బూజు / శిలీంధ్రం మరియు విషపదార్థం",
+              "பூஞ்சணம் / காளான் மற்றும் நச்சு",
+              "ಬೂಷ್ಟು / ಶಿಲೀಂಧ್ರ ಮತ್ತು ವಿಷಪದಾರ್ಥ",
+              "फफूंद / कवक और विष (टॉक्सिन)"
+            ),
             meaning: L(
-              "Mold (a fungus) is a growth that appears on damp feed or fodder, often looking fuzzy or discoloured. It produces toxins — poisons — that, once eaten, can badly affect an animal's health even in small amounts."
+              "Mold (a fungus) is a growth that appears on damp feed or fodder, often looking fuzzy or discoloured. It produces toxins — poisons — that, once eaten, can badly affect an animal's health even in small amounts.",
+              "బూజు (ఒక శిలీంధ్రం) అనేది తడిగా ఉన్న దాణా లేదా పశుగ్రాసంపై కనిపించే ఒక పెరుగుదల, ఇది తరచుగా వెంట్రుకల లాగా లేదా రంగు మారినట్లు కనిపిస్తుంది. ఇది విషపదార్థాలను — విషాలను — ఉత్పత్తి చేస్తుంది, ఇవి తిన్న తర్వాత, తక్కువ మొత్తంలో ఉన్నా జంతువు ఆరోగ్యాన్ని తీవ్రంగా ప్రభావితం చేయగలవు.",
+              "பூஞ்சணம் (ஒரு காளான்) என்பது ஈரமான தீவனம் அல்லது வைக்கோலில் தோன்றும் ஒரு வளர்ச்சி, இது பெரும்பாலும் மயிர் போன்றதாக அல்லது நிறம் மாறியதாக தோன்றும். இது நச்சுகளை — விஷங்களை — உற்பத்தி செய்கிறது, இவை உண்ணப்பட்டவுடன், சிறிய அளவிலும் விலங்கின் ஆரோக்கியத்தை மோசமாக பாதிக்கக்கூடியவை.",
+              "ಬೂಷ್ಟು (ಒಂದು ಶಿಲೀಂಧ್ರ) ಎಂದರೆ ತೇವವಾದ ಮೇವಿನ ಮೇಲೆ ಕಾಣಿಸಿಕೊಳ್ಳುವ ಬೆಳವಣಿಗೆ, ಇದು ಸಾಮಾನ್ಯವಾಗಿ ರೋಮದಂತೆ ಅಥವಾ ಬಣ್ಣ ಬದಲಾದಂತೆ ಕಾಣುತ್ತದೆ. ಇದು ವಿಷಪದಾರ್ಥಗಳನ್ನು — ವಿಷಗಳನ್ನು — ಉತ್ಪಾದಿಸುತ್ತದೆ, ಇವು ಸೇವಿಸಿದ ನಂತರ, ಕಡಿಮೆ ಪ್ರಮಾಣದಲ್ಲೂ ಪ್ರಾಣಿಯ ಆರೋಗ್ಯವನ್ನು ತೀವ್ರವಾಗಿ ಬಾಧಿಸಬಹುದು.",
+              "फफूंद (एक कवक) नम चारे या पशुचारे पर उगने वाली वृद्धि है, जो अक्सर रोएंदार या रंग बदली हुई दिखती है। यह विष पैदा करती है — जो खाए जाने पर, थोड़ी मात्रा में भी जानवर के स्वास्थ्य को बुरी तरह प्रभावित कर सकते हैं।"
             ),
           },
           {
             type: "callout",
             style: "info",
-            heading: L("The Hidden Cost"),
+            heading: L(
+              "The Hidden Cost",
+              "కనిపించని నష్టం",
+              "மறைந்திருக்கும் இழப்பு",
+              "ಕಾಣದ ನಷ್ಟ",
+              "छिपा हुआ नुकसान"
+            ),
             text: L(
-              "The economic loss from reduced productivity caused by mycotoxicosis is many times bigger than the loss from any animals that die from it. Milk production may drop by more than 15%, and high-producing animals often show symptoms first."
+              "The economic loss from reduced productivity caused by mycotoxicosis is many times bigger than the loss from any animals that die from it. Milk production may drop by more than 15%, and high-producing animals often show symptoms first.",
+              "మైకోటాక్సికోసిస్ వల్ల ఉత్పాదకత తగ్గడం వల్ల కలిగే ఆర్థిక నష్టం, దీని వల్ల చనిపోయే జంతువుల నష్టం కంటే చాలా రెట్లు ఎక్కువ. పాల ఉత్పత్తి 15% కంటే ఎక్కువ తగ్గవచ్చు, మరియు ఎక్కువ పాలు ఇచ్చే జంతువులు తరచుగా మొదట లక్షణాలు చూపిస్తాయి.",
+              "மைக்கோடாக்சிகோசிஸால் ஏற்படும் உற்பத்தித்திறன் குறைவினால் ஏற்படும் பொருளாதார இழப்பு, அதனால் இறக்கும் விலங்குகளின் இழப்பை விட பல மடங்கு அதிகம். பால் உற்பத்தி 15%க்கும் மேல் குறையக்கூடும், மேலும் அதிக பால் தரும் விலங்குகள் பெரும்பாலும் முதலில் அறிகுறிகளை காட்டும்.",
+              "ಮೈಕೋಟಾಕ್ಸಿಕೋಸಿಸ್‌ನಿಂದ ಉಂಟಾಗುವ ಉತ್ಪಾದಕತೆ ಕುಸಿತದ ಆರ್ಥಿಕ ನಷ್ಟ, ಇದರಿಂದ ಸಾಯುವ ಪ್ರಾಣಿಗಳ ನಷ್ಟಕ್ಕಿಂತ ಹಲವು ಪಟ್ಟು ಹೆಚ್ಚು. ಹಾಲಿನ ಉತ್ಪಾದನೆ 15% ಕ್ಕಿಂತ ಹೆಚ್ಚು ಕುಸಿಯಬಹುದು, ಮತ್ತು ಹೆಚ್ಚು ಹಾಲು ಕೊಡುವ ಪ್ರಾಣಿಗಳು ಸಾಮಾನ್ಯವಾಗಿ ಮೊದಲು ಲಕ್ಷಣಗಳನ್ನು ತೋರಿಸುತ್ತವೆ.",
+              "माइकोटॉक्सिकोसिस से उत्पादकता घटने के कारण होने वाला आर्थिक नुकसान, इससे मरने वाले जानवरों के नुकसान से कई गुना ज़्यादा होता है। दूध उत्पादन 15% से अधिक घट सकता है, और अधिक दूध देने वाले जानवरों में अक्सर लक्षण सबसे पहले दिखते हैं।"
             ),
           },
           {
             type: "stat-grid",
             items: [
               {
-                label: L("Appetite and Body Condition"),
-                text: L("Gradual loss of appetite and body condition, with diarrhoea that comes and goes."),
-              },
-              {
-                label: L("Skin, Tail and Feet"),
+                label: L(
+                  "Appetite and Body Condition",
+                  "ఆకలి మరియు శరీర స్థితి",
+                  "பசி மற்றும் உடல் நிலை",
+                  "ಹಸಿವು ಮತ್ತು ದೇಹ ಸ್ಥಿತಿ",
+                  "भूख और शरीर की स्थिति"
+                ),
                 text: L(
-                  "Hair loss, the tail or ear tip dying and sloughing off, and gangrenous (dead, blackened) sores on the foot."
+                  "Gradual loss of appetite and body condition, with diarrhoea that comes and goes.",
+                  "క్రమంగా ఆకలి మరియు శరీర స్థితి తగ్గడం, అప్పుడప్పుడు వచ్చిపోయే విరేచనాలతో పాటు.",
+                  "படிப்படியாக பசி மற்றும் உடல் நிலை குறைதல், வந்து போகும் வயிற்றுப்போக்குடன்.",
+                  "ಕ್ರಮೇಣ ಹಸಿವು ಮತ್ತು ದೇಹ ಸ್ಥಿತಿ ಕುಸಿತ, ಬಂದು ಹೋಗುವ ಅತಿಸಾರದೊಂದಿಗೆ.",
+                  "भूख और शरीर की स्थिति में धीरे-धीरे गिरावट, साथ में आते-जाते रहने वाले दस्त।"
                 ),
               },
               {
-                label: L("Reproduction and Other Diseases"),
+                label: L(
+                  "Skin, Tail and Feet",
+                  "చర్మం, తోక మరియు కాళ్లు",
+                  "தோல், வால் மற்றும் கால்கள்",
+                  "ಚರ್ಮ, ಬಾಲ ಮತ್ತು ಕಾಲುಗಳು",
+                  "त्वचा, पूँछ और पैर"
+                ),
                 text: L(
-                  "Reduced fertility, abortion, weight loss, and a higher chance of other problems — ketosis, retained placenta, mastitis and metritis — because the animal's natural defences are weakened."
+                  "Hair loss, the tail or ear tip dying and sloughing off, and gangrenous (dead, blackened) sores on the foot.",
+                  "వెంట్రుకలు రాలిపోవడం, తోక లేదా చెవి కొన చనిపోయి రాలిపోవడం, మరియు కాలిపై గ్యాంగ్రీన్ (చనిపోయి, నల్లగా మారిన) పుండ్లు.",
+                  "முடி உதிர்தல், வால் அல்லது காதின் நுனி இறந்து உதிர்தல், மற்றும் காலில் கங்கிரீன் (இறந்து, கருமையான) புண்கள்.",
+                  "ಕೂದಲು ಉದುರುವಿಕೆ, ಬಾಲ ಅಥವಾ ಕಿವಿಯ ತುದಿ ಸತ್ತು ಉದುರುವುದು, ಮತ್ತು ಕಾಲಿನ ಮೇಲೆ ಗ್ಯಾಂಗ್ರೀನ್ (ಸತ್ತ, ಕಪ್ಪಾದ) ಹುಣ್ಣುಗಳು.",
+                  "बाल झड़ना, पूँछ या कान का सिरा मरकर गिरना, और पैर पर गैंग्रीन (मृत, काले पड़े) घाव।"
+                ),
+              },
+              {
+                label: L(
+                  "Reproduction and Other Diseases",
+                  "సంతానోత్పత్తి మరియు ఇతర వ్యాధులు",
+                  "இனப்பெருக்கம் மற்றும் பிற நோய்கள்",
+                  "ಸಂತಾನೋತ್ಪತ್ತಿ ಮತ್ತು ಇತರ ರೋಗಗಳು",
+                  "प्रजनन और अन्य बीमारियाँ"
+                ),
+                text: L(
+                  "Reduced fertility, abortion, weight loss, and a higher chance of other problems — ketosis, retained placenta, mastitis and metritis — because the animal's natural defences are weakened.",
+                  "సంతానోత్పత్తి సామర్థ్యం తగ్గడం, గర్భస్రావం, బరువు తగ్గడం, మరియు జంతువు సహజ రోగనిరోధక శక్తి బలహీనపడటం వల్ల కీటోసిస్, మాయ మిగిలిపోవడం, పొదుగు వాపు మరియు గర్భాశయ వాపు వంటి ఇతర సమస్యలు వచ్చే అవకాశం పెరగడం.",
+                  "இனப்பெருக்க திறன் குறைதல், கருச்சிதைவு, எடை இழப்பு, மற்றும் விலங்கின் இயற்கையான தற்காப்பு சக்தி பலவீனமடைவதால் கீட்டோசிஸ், நஞ்சுக்கொடி தங்குதல், மடி அழற்சி மற்றும் கருப்பை அழற்சி போன்ற பிற பிரச்சனைகள் ஏற்படும் வாய்ப்பு அதிகரிப்பு.",
+                  "ಸಂತಾನೋತ್ಪತ್ತಿ ಸಾಮರ್ಥ್ಯ ಕುಸಿತ, ಗರ್ಭಪಾತ, ತೂಕ ನಷ್ಟ, ಮತ್ತು ಪ್ರಾಣಿಯ ಸ್ವಾಭಾವಿಕ ರಕ್ಷಣಾ ಶಕ್ತಿ ದುರ್ಬಲಗೊಳ್ಳುವುದರಿಂದ ಕೀಟೋಸಿಸ್, ಮಾಸು ಉಳಿಯುವಿಕೆ, ಕೆಚ್ಚಲು ಬಾವು ಮತ್ತು ಗರ್ಭಕೋಶ ಉರಿಯೂತದಂತಹ ಇತರ ಸಮಸ್ಯೆಗಳ ಹೆಚ್ಚಿನ ಸಾಧ್ಯತೆ.",
+                  "प्रजनन क्षमता में कमी, गर्भपात, वज़न घटना, और जानवर की प्राकृतिक रोग-प्रतिरोधक क्षमता कमज़ोर होने से कीटोसिस, नाल का रुक जाना, थनैला रोग और गर्भाशय की सूजन जैसी अन्य समस्याओं की अधिक आशंका।"
                 ),
               },
             ],
@@ -2671,33 +2907,87 @@ export const MODULES = [
           {
             type: "callout",
             style: "tip",
-            heading: L("Prevention Starts With the Feed Store"),
+            heading: L(
+              "Prevention Starts With the Feed Store",
+              "నివారణ దాణా నిల్వ దగ్గర నుండే మొదలవుతుంది",
+              "தடுப்பு தீவனக் கிடங்கிலிருந்தே தொடங்குகிறது",
+              "ತಡೆಗಟ್ಟುವಿಕೆ ಮೇವಿನ ಸಂಗ್ರಹಣೆಯಿಂದಲೇ ಆರಂಭವಾಗುತ್ತದೆ",
+              "रोकथाम चारे के भंडारण से ही शुरू होती है"
+            ),
             text: L(
-              "Never feed dry fodder that is, or has been, damp and clearly moldy, and avoid any feed ingredient with fungus growing on it. Giving enough mineral mixture and green fodder also helps. Consult a veterinarian immediately if you notice any of the signs above."
+              "Never feed dry fodder that is, or has been, damp and clearly moldy, and avoid any feed ingredient with fungus growing on it. Giving enough mineral mixture and green fodder also helps. Consult a veterinarian immediately if you notice any of the signs above.",
+              "తడిగా ఉన్న లేదా స్పష్టంగా బూజు పట్టిన ఎండు పశుగ్రాసాన్ని ఎప్పుడూ తినిపించవద్దు, మరియు శిలీంధ్రం పెరిగిన ఏ దాణా పదార్థాన్నైనా వాడకుండా ఉండండి. తగినంత ఖనిజ మిశ్రమం మరియు పచ్చి పశుగ్రాసం ఇవ్వడం కూడా సహాయపడుతుంది. పైన పేర్కొన్న లక్షణాలు ఏవైనా గమనిస్తే వెంటనే పశువైద్యుడిని సంప్రదించండి.",
+              "ஈரமாகவும் தெளிவாக பூஞ்சணம் பிடித்ததாகவும் இருக்கும் உலர் வைக்கோலை ஒருபோதும் ஊட்ட வேண்டாம், மேலும் காளான் வளர்ந்திருக்கும் எந்த தீவனப் பொருளையும் தவிர்க்கவும். போதுமான தாது கலவை மற்றும் பச்சை தீவனம் அளிப்பதும் உதவும். மேலே கூறப்பட்ட அறிகுறிகளில் ஏதேனும் தென்பட்டால் உடனடியாக கால்நடை மருத்துவரை அணுகவும்.",
+              "ತೇವವಾಗಿ, ಸ್ಪಷ್ಟವಾಗಿ ಬೂಷ್ಟು ಹಿಡಿದಿರುವ ಒಣ ಮೇವನ್ನು ಎಂದಿಗೂ ತಿನ್ನಿಸಬೇಡಿ, ಮತ್ತು ಶಿಲೀಂಧ್ರ ಬೆಳೆದಿರುವ ಯಾವುದೇ ಮೇವಿನ ಪದಾರ್ಥವನ್ನು ತಪ್ಪಿಸಿ. ಸಾಕಷ್ಟು ಖನಿಜ ಮಿಶ್ರಣ ಮತ್ತು ಹಸಿರು ಮೇವು ನೀಡುವುದೂ ಸಹಾಯ ಮಾಡುತ್ತದೆ. ಮೇಲಿನ ಯಾವುದೇ ಲಕ್ಷಣಗಳು ಕಂಡುಬಂದರೆ ತಕ್ಷಣ ಪಶುವೈದ್ಯರನ್ನು ಸಂಪರ್ಕಿಸಿ.",
+              "कभी भी नम और स्पष्ट रूप से फफूंद लगा सूखा चारा न खिलाएँ, और जिस भी चारे में कवक उगा हो उससे बचें। पर्याप्त खनिज मिश्रण और हरा चारा देना भी मदद करता है। ऊपर बताए गए किसी भी लक्षण को देखते ही तुरंत पशु चिकित्सक से सलाह लें।"
             ),
           },
         ],
         check: [
           {
             type: "mcq",
-            q: L("What causes mycotoxicosis?"),
+            q: L(
+              "What causes mycotoxicosis?",
+              "మైకోటాక్సికోసిస్‌కు కారణం ఏమిటి?",
+              "மைக்கோடாக்சிகோசிஸுக்கு காரணம் என்ன?",
+              "ಮೈಕೋಟಾಕ್ಸಿಕೋಸಿಸ್‌ಗೆ ಕಾರಣವೇನು?",
+              "माइकोटॉक्सिकोसिस किस कारण होता है?"
+            ),
             options: [
-              L("A virus spread between animals"),
-              L("Toxins produced by mold growing on damp feed or fodder"),
-              L("A reaction to vaccination"),
-              L("Biting insects"),
+              L(
+                "A virus spread between animals",
+                "జంతువుల మధ్య వ్యాపించే వైరస్",
+                "விலங்குகளுக்கிடையே பரவும் வைரஸ்",
+                "ಪ್ರಾಣಿಗಳ ನಡುವೆ ಹರಡುವ ವೈರಸ್",
+                "जानवरों के बीच फैलने वाला वायरस"
+              ),
+              L(
+                "Toxins produced by mold growing on damp feed or fodder",
+                "తడి దాణా లేదా పశుగ్రాసంపై పెరిగే బూజు ఉత్పత్తి చేసే విషపదార్థాలు",
+                "ஈரமான தீவனம் அல்லது வைக்கோலில் வளரும் பூஞ்சணம் உற்பத்தி செய்யும் நச்சுகள்",
+                "ತೇವ ಮೇವಿನ ಮೇಲೆ ಬೆಳೆಯುವ ಬೂಷ್ಟು ಉತ್ಪಾದಿಸುವ ವಿಷಪದಾರ್ಥಗಳು",
+                "नम चारे पर उगने वाली फफूंद द्वारा बनाए गए विष"
+              ),
+              L(
+                "A reaction to vaccination",
+                "టీకా వల్ల కలిగే ప్రతిచర్య",
+                "தடுப்பூசிக்கு ஒரு எதிர்வினை",
+                "ಲಸಿಕೆಗೆ ಪ್ರತಿಕ್ರಿಯೆ",
+                "टीकाकरण की प्रतिक्रिया"
+              ),
+              L(
+                "Biting insects",
+                "కుట్టే కీటకాలు",
+                "கடிக்கும் பூச்சிகள்",
+                "ಕಚ್ಚುವ ಕೀಟಗಳು",
+                "काटने वाले कीड़े"
+              ),
             ],
             answer: 1,
             explain: L(
-              "Mycotoxicosis is caused by toxins (poisons) that mold produces when it grows on damp feed or stored fodder."
+              "Mycotoxicosis is caused by toxins (poisons) that mold produces when it grows on damp feed or stored fodder.",
+              "బూజు తడి దాణా లేదా నిల్వ ఉంచిన పశుగ్రాసంపై పెరిగినప్పుడు ఉత్పత్తి చేసే విషపదార్థాల (విషాల) వల్ల మైకోటాక్సికోసిస్ కలుగుతుంది.",
+              "ஈரமான தீவனம் அல்லது சேமித்த வைக்கோலில் பூஞ்சணம் வளரும்போது உற்பத்தி செய்யும் நச்சுகளால் (விஷங்களால்) மைக்கோடாக்சிகோசிஸ் ஏற்படுகிறது.",
+              "ತೇವ ಮೇವು ಅಥವಾ ಸಂಗ್ರಹಿಸಿಟ್ಟ ಮೇವಿನ ಮೇಲೆ ಬೂಷ್ಟು ಬೆಳೆದಾಗ ಅದು ಉತ್ಪಾದಿಸುವ ವಿಷಪದಾರ್ಥಗಳಿಂದ (ವಿಷಗಳಿಂದ) ಮೈಕೋಟಾಕ್ಸಿಕೋಸಿಸ್ ಉಂಟಾಗುತ್ತದೆ.",
+              "माइकोटॉक्सिकोसिस नम चारे या भंडारित पशुचारे पर उगने वाली फफूंद द्वारा बनाए गए विष के कारण होता है।"
             ),
           },
           {
             type: "truefalse",
-            q: L("Mycotoxicosis only causes real losses when an animal dies from it."),
+            q: L(
+              "Mycotoxicosis only causes real losses when an animal dies from it.",
+              "మైకోటాక్సికోసిస్ వల్ల జంతువు చనిపోయినప్పుడే నిజమైన నష్టం కలుగుతుంది.",
+              "மைக்கோடாக்சிகோசிஸ் ஒரு விலங்கு இறக்கும்போது மட்டுமே உண்மையான இழப்பை ஏற்படுத்துகிறது.",
+              "ಮೈಕೋಟಾಕ್ಸಿಕೋಸಿಸ್ ಪ್ರಾಣಿ ಸತ್ತಾಗ ಮಾತ್ರ ನಿಜವಾದ ನಷ್ಟ ಉಂಟುಮಾಡುತ್ತದೆ.",
+              "माइकोटॉक्सिकोसिस से असली नुकसान तभी होता है जब जानवर की मृत्यु हो जाए।"
+            ),
             answer: false,
             explain: L(
-              "No — the economic loss from reduced productivity (including milk drops of more than 15%) is many times bigger than the loss from deaths."
+              "No — the economic loss from reduced productivity (including milk drops of more than 15%) is many times bigger than the loss from deaths.",
+              "కాదు — ఉత్పాదకత తగ్గడం వల్ల కలిగే ఆర్థిక నష్టం (15% కంటే ఎక్కువ పాల తగ్గుదలతో సహా) మరణాల వల్ల కలిగే నష్టం కంటే చాలా రెట్లు ఎక్కువ.",
+              "இல்லை — உற்பத்தித்திறன் குறைவால் ஏற்படும் பொருளாதார இழப்பு (15%க்கும் மேற்பட்ட பால் குறைவு உட்பட) இறப்புகளால் ஏற்படும் இழப்பை விட பல மடங்கு அதிகம்.",
+              "ಇಲ್ಲ — ಉತ್ಪಾದಕತೆ ಕುಸಿತದಿಂದಾಗುವ ಆರ್ಥಿಕ ನಷ್ಟ (15% ಕ್ಕಿಂತ ಹೆಚ್ಚು ಹಾಲಿನ ಕುಸಿತ ಸೇರಿ) ಸಾವುಗಳಿಂದಾಗುವ ನಷ್ಟಕ್ಕಿಂತ ಹಲವು ಪಟ್ಟು ಹೆಚ್ಚು.",
+              "नहीं — उत्पादकता में कमी (15% से अधिक दूध की गिरावट सहित) से होने वाला आर्थिक नुकसान, मृत्यु से होने वाले नुकसान से कई गुना ज़्यादा है।"
             ),
           },
         ],
@@ -2709,57 +2999,187 @@ export const MODULES = [
         {
           topicId: "t-m5-jd-tb",
           type: "mcq",
-          q: L("Which of these is true about Johne's Disease and Bovine TB?"),
+          q: L(
+            "Which of these is true about Johne's Disease and Bovine TB?",
+            "జాన్స్ వ్యాధి మరియు గోవుల క్షయవ్యాధి గురించి వీటిలో ఏది నిజం?",
+            "ஜோன்ஸ் நோய் மற்றும் மாட்டு காசநோய் பற்றி இவற்றில் எது உண்மை?",
+            "ಜಾನ್ಸ್ ರೋಗ ಮತ್ತು ಗೋವಿನ ಕ್ಷಯರೋಗದ ಬಗ್ಗೆ ಇವುಗಳಲ್ಲಿ ಯಾವುದು ಸರಿ?",
+            "जॉन्स रोग और गोवंशीय टीबी के बारे में इनमें से कौन सा सही है?"
+          ),
           options: [
-            L("Both can be cured with rest"),
-            L("Both have no cure, so testing and isolating infected animals is the only protection"),
-            L("Only Johne's Disease is a bacterial disease"),
-            L("Vaccines are available to prevent both"),
+            L(
+              "Both can be cured with rest",
+              "రెండూ విశ్రాంతితో నయమవుతాయి",
+              "இரண்டும் ஓய்வால் குணமடையும்",
+              "ಎರಡೂ ವಿಶ್ರಾಂತಿಯಿಂದ ಗುಣಮುಖವಾಗುತ್ತವೆ",
+              "दोनों आराम से ठीक हो जाते हैं"
+            ),
+            L(
+              "Both have no cure, so testing and isolating infected animals is the only protection",
+              "రెండింటికీ నయం లేదు, కాబట్టి పరీక్ష మరియు సోకిన జంతువులను వేరు చేయడమే ఏకైక రక్షణ",
+              "இரண்டுக்கும் சிகிச்சை இல்லை, எனவே பரிசோதனை மற்றும் பாதிக்கப்பட்ட விலங்குகளை தனிமைப்படுத்துவதே ஒரே பாதுகாப்பு",
+              "ಎರಡಕ್ಕೂ ಚಿಕಿತ್ಸೆ ಇಲ್ಲ, ಆದ್ದರಿಂದ ಪರೀಕ್ಷೆ ಮತ್ತು ಸೋಂಕಿತ ಪ್ರಾಣಿಗಳನ್ನು ಪ್ರತ್ಯೇಕಿಸುವುದೇ ಏಕೈಕ ರಕ್ಷಣೆ",
+              "दोनों का कोई इलाज नहीं है, इसलिए जाँच करना और संक्रमित जानवरों को अलग रखना ही एकमात्र सुरक्षा है"
+            ),
+            L(
+              "Only Johne's Disease is a bacterial disease",
+              "జాన్స్ వ్యాధి మాత్రమే బ్యాక్టీరియా వ్యాధి",
+              "ஜோன்ஸ் நோய் மட்டுமே பாக்டீரியா நோய்",
+              "ಜಾನ್ಸ್ ರೋಗ ಮಾತ್ರ ಬ್ಯಾಕ್ಟೀರಿಯಾ ರೋಗ",
+              "केवल जॉन्स रोग ही एक जीवाणु जनित बीमारी है"
+            ),
+            L(
+              "Vaccines are available to prevent both",
+              "రెండింటినీ నివారించడానికి టీకాలు అందుబాటులో ఉన్నాయి",
+              "இரண்டையும் தடுக்க தடுப்பூசிகள் கிடைக்கின்றன",
+              "ಎರಡನ್ನೂ ತಡೆಗಟ್ಟಲು ಲಸಿಕೆಗಳು ಲಭ್ಯವಿವೆ",
+              "दोनों को रोकने के लिए टीके उपलब्ध हैं"
+            ),
           ],
           answer: 1,
           explain: L(
-            "Neither disease can be cured. Regular testing, isolating or culling positive animals, and buying only tested-negative animals are the only real protections."
+            "Neither disease can be cured. Regular testing, isolating or culling positive animals, and buying only tested-negative animals are the only real protections.",
+            "ఈ రెండు వ్యాధులలో ఏదీ నయం చేయలేము. క్రమం తప్పకుండా పరీక్షించడం, పాజిటివ్‌గా వచ్చిన జంతువులను వేరుచేయడం లేదా తొలగించడం, మరియు నెగటివ్‌గా పరీక్షించబడిన జంతువులను మాత్రమే కొనుగోలు చేయడం ఇవే నిజమైన రక్షణలు.",
+            "இந்த இரு நோய்களுக்கும் சிகிச்சை இல்லை. தொடர்ந்து பரிசோதிப்பது, பாசிட்டிவ் வந்த விலங்குகளை தனிமைப்படுத்துவது அல்லது அகற்றுவது, மற்றும் நெகட்டிவ் என பரிசோதிக்கப்பட்ட விலங்குகளை மட்டும் வாங்குவது ஆகியவையே உண்மையான பாதுகாப்புகள்.",
+            "ಈ ಎರಡೂ ರೋಗಗಳಿಗೆ ಚಿಕಿತ್ಸೆ ಇಲ್ಲ. ನಿಯಮಿತ ಪರೀಕ್ಷೆ, ಪಾಸಿಟಿವ್ ಬಂದ ಪ್ರಾಣಿಗಳನ್ನು ಪ್ರತ್ಯೇಕಿಸುವುದು ಅಥವಾ ತೆಗೆದುಹಾಕುವುದು, ಮತ್ತು ನೆಗೆಟಿವ್ ಬಂದ ಪ್ರಾಣಿಗಳನ್ನು ಮಾತ್ರ ಖರೀದಿಸುವುದು ಇವೇ ನಿಜವಾದ ರಕ್ಷಣೆಗಳು.",
+            "इनमें से किसी भी बीमारी का इलाज नहीं है। नियमित जाँच करना, पॉज़िटिव निकले जानवरों को अलग रखना या हटाना, और केवल निगेटिव जाँचे गए जानवर ही खरीदना — यही असली सुरक्षा उपाय हैं।"
           ),
         },
         {
           topicId: "t-m5-jd-tb",
           type: "truefalse",
-          q: L("An animal with Johne's Disease can lose weight even while it is still eating well."),
+          q: L(
+            "An animal with Johne's Disease can lose weight even while it is still eating well.",
+            "జాన్స్ వ్యాధి ఉన్న జంతువు బాగా తింటున్నప్పటికీ బరువు కోల్పోవచ్చు.",
+            "ஜோன்ஸ் நோய் உள்ள விலங்கு நன்றாக உண்டாலும் எடை இழக்கலாம்.",
+            "ಜಾನ್ಸ್ ರೋಗವಿರುವ ಪ್ರಾಣಿ ಚೆನ್ನಾಗಿ ತಿನ್ನುತ್ತಿದ್ದರೂ ತೂಕ ಕಳೆದುಕೊಳ್ಳಬಹುದು.",
+            "जॉन्स रोग से ग्रस्त जानवर अच्छी तरह खाने के बावजूद वज़न कम कर सकता है।"
+          ),
           answer: true,
-          explain: L("Yes — loss of weight despite good appetite is one of the confusing early signs of Johne's Disease."),
+          explain: L(
+            "Yes — loss of weight despite good appetite is one of the confusing early signs of Johne's Disease.",
+            "అవును — మంచి ఆకలి ఉన్నప్పటికీ బరువు తగ్గడం జాన్స్ వ్యాధి యొక్క గందరగోళం కలిగించే ప్రారంభ లక్షణాలలో ఒకటి.",
+            "ஆம் — நல்ல பசி இருந்தும் எடை குறைவது ஜோன்ஸ் நோயின் குழப்பமூட்டும் ஆரம்ப அறிகுறிகளில் ஒன்று.",
+            "ಹೌದು — ಒಳ್ಳೆಯ ಹಸಿವಿದ್ದರೂ ತೂಕ ಕಳೆದುಕೊಳ್ಳುವುದು ಜಾನ್ಸ್ ರೋಗದ ಗೊಂದಲಮಯ ಆರಂಭಿಕ ಲಕ್ಷಣಗಳಲ್ಲಿ ಒಂದು.",
+            "हाँ — अच्छी भूख के बावजूद वज़न कम होना जॉन्स रोग के भ्रामक शुरुआती लक्षणों में से एक है।"
+          ),
         },
         {
           topicId: "t-m5-mycotoxicosis",
           type: "mcq",
-          q: L("Mycotoxicosis is best prevented by:"),
+          q: L(
+            "Mycotoxicosis is best prevented by:",
+            "మైకోటాక్సికోసిస్‌ను ఉత్తమంగా ఎలా నివారించవచ్చు:",
+            "மைக்கோடாக்சிகோசிஸை சிறப்பாக தடுக்கும் வழி:",
+            "ಮೈಕೋಟಾಕ್ಸಿಕೋಸಿಸ್ ಅನ್ನು ಉತ್ತಮವಾಗಿ ತಡೆಗಟ್ಟುವುದು ಹೇಗೆ:",
+            "माइकोटॉक्सिकोसिस को सबसे अच्छे तरीके से कैसे रोका जा सकता है:"
+          ),
           options: [
-            L("Vaccinating calves early"),
-            L("Avoiding damp, moldy feed and fodder"),
-            L("Isolating sick animals from the herd"),
-            L("Testing animals every month"),
+            L(
+              "Vaccinating calves early",
+              "దూడలకు ముందుగానే టీకా వేయడం",
+              "கன்றுகளுக்கு முன்கூட்டியே தடுப்பூசி போடுவது",
+              "ಕರುಗಳಿಗೆ ಮೊದಲೇ ಲಸಿಕೆ ನೀಡುವುದು",
+              "बछड़ों को जल्दी टीका लगवाना"
+            ),
+            L(
+              "Avoiding damp, moldy feed and fodder",
+              "తడిగా, బూజు పట్టిన దాణా మరియు మేతను నివారించడం",
+              "ஈரமான, பூஞ்சணம் பிடித்த தீவனத்தை தவிர்ப்பது",
+              "ತೇವ, ಬೂಷ್ಟು ಹಿಡಿದ ಮೇವನ್ನು ತಪ್ಪಿಸುವುದು",
+              "नम, फफूंद लगे चारे और दाने से बचना"
+            ),
+            L(
+              "Isolating sick animals from the herd",
+              "అనారోగ్యంతో ఉన్న జంతువులను మంద నుండి వేరు చేయడం",
+              "நோய்வாய்ப்பட்ட விலங்குகளை மந்தையிலிருந்து தனிமைப்படுத்துவது",
+              "ಅಸ್ವಸ್ಥ ಪ್ರಾಣಿಗಳನ್ನು ಹಿಂಡಿನಿಂದ ಪ್ರತ್ಯೇಕಿಸುವುದು",
+              "बीमार जानवरों को झुंड से अलग रखना"
+            ),
+            L(
+              "Testing animals every month",
+              "ప్రతి నెల జంతువులను పరీక్షించడం",
+              "ஒவ்வொரு மாதமும் விலங்குகளை பரிசோதிப்பது",
+              "ಪ್ರತಿ ತಿಂಗಳು ಪ್ರಾಣಿಗಳನ್ನು ಪರೀಕ್ಷಿಸುವುದು",
+              "हर महीने जानवरों की जाँच करना"
+            ),
           ],
           answer: 1,
-          explain: L("Since mycotoxicosis comes from toxins in moldy feed, avoiding damp and moldy feed or fodder is the main prevention step."),
+          explain: L(
+            "Since mycotoxicosis comes from toxins in moldy feed, avoiding damp and moldy feed or fodder is the main prevention step.",
+            "మైకోటాక్సికోసిస్ బూజు పట్టిన దాణాలోని విషపదార్థాల వల్ల వస్తుంది కాబట్టి, తడిగా మరియు బూజు పట్టిన దాణా లేదా మేతను నివారించడమే ప్రధాన నివారణ చర్య.",
+            "மைக்கோடாக்சிகோசிஸ் பூஞ்சணம் பிடித்த தீவனத்தில் உள்ள நச்சுகளால் ஏற்படுவதால், ஈரமான மற்றும் பூஞ்சணம் பிடித்த தீவனத்தை தவிர்ப்பதே முக்கிய தடுப்பு நடவடிக்கை.",
+            "ಮೈಕೋಟಾಕ್ಸಿಕೋಸಿಸ್ ಬೂಷ್ಟು ಹಿಡಿದ ಮೇವಿನಲ್ಲಿನ ವಿಷಪದಾರ್ಥಗಳಿಂದ ಬರುವುದರಿಂದ, ತೇವ ಮತ್ತು ಬೂಷ್ಟು ಹಿಡಿದ ಮೇವನ್ನು ತಪ್ಪಿಸುವುದೇ ಮುಖ್ಯ ತಡೆಗಟ್ಟುವ ಕ್ರಮ.",
+            "माइकोटॉक्सिकोसिस फफूंद लगे चारे में मौजूद विष से होता है, इसलिए नम और फफूंद लगे चारे या दाने से बचना ही मुख्य बचाव उपाय है।"
+          ),
         },
         {
           topicId: "t-m5-mycotoxicosis",
           type: "truefalse",
-          q: L("High-milk-producing animals may show signs of mycotoxicosis first."),
+          q: L(
+            "High-milk-producing animals may show signs of mycotoxicosis first.",
+            "ఎక్కువ పాలు ఇచ్చే జంతువులు మైకోటాక్సికోసిస్ లక్షణాలను మొదట చూపించవచ్చు.",
+            "அதிக பால் தரும் விலங்குகள் மைக்கோடாக்சிகோசிஸ் அறிகுறிகளை முதலில் காட்டலாம்.",
+            "ಹೆಚ್ಚು ಹಾಲು ನೀಡುವ ಪ್ರಾಣಿಗಳು ಮೈಕೋಟಾಕ್ಸಿಕೋಸಿಸ್ ಲಕ್ಷಣಗಳನ್ನು ಮೊದಲು ತೋರಿಸಬಹುದು.",
+            "अधिक दूध देने वाले जानवर माइकोटॉक्सिकोसिस के लक्षण सबसे पहले दिखा सकते हैं।"
+          ),
           answer: true,
-          explain: L("Correct — high producers may show symptoms of mycotoxicosis before other animals in the herd."),
+          explain: L(
+            "Correct — high producers may show symptoms of mycotoxicosis before other animals in the herd.",
+            "సరైనది — ఎక్కువ పాలు ఇచ్చే జంతువులు మందలోని ఇతర జంతువుల కంటే ముందుగా మైకోటాక్సికోసిస్ లక్షణాలను చూపించవచ్చు.",
+            "சரி — அதிக பால் தரும் விலங்குகள் மந்தையிலுள்ள மற்ற விலங்குகளுக்கு முன்பே மைக்கோடாக்சிகோசிஸ் அறிகுறிகளை காட்டலாம்.",
+            "ಸರಿ — ಹೆಚ್ಚು ಹಾಲು ನೀಡುವ ಪ್ರಾಣಿಗಳು ಹಿಂಡಿನ ಇತರ ಪ್ರಾಣಿಗಳಿಗಿಂತ ಮೊದಲು ಮೈಕೋಟಾಕ್ಸಿಕೋಸಿಸ್ ಲಕ್ಷಣಗಳನ್ನು ತೋರಿಸಬಹುದು.",
+            "सही — अधिक दूध देने वाले जानवर झुंड के अन्य जानवरों से पहले माइकोटॉक्सिकोसिस के लक्षण दिखा सकते हैं।"
+          ),
         },
         {
           topicId: "t-m5-jd-tb",
           type: "mcq",
-          q: L("Bovine Tuberculosis is especially serious partly because:"),
+          q: L(
+            "Bovine Tuberculosis is especially serious partly because:",
+            "గోవుల క్షయవ్యాధి ప్రత్యేకంగా తీవ్రమైనది, ఎందుకంటే:",
+            "மாட்டு காசநோய் குறிப்பாக கடுமையானது, ஏனெனில்:",
+            "ಗೋವಿನ ಕ್ಷಯರೋಗ ವಿಶೇಷವಾಗಿ ಗಂಭೀರವಾಗಿದೆ, ಏಕೆಂದರೆ:",
+            "गोवंशीय टीबी विशेष रूप से गंभीर है, क्योंकि:"
+          ),
           options: [
-            L("It heals within a day"),
-            L("It cannot spread between animals"),
-            L("It can also spread to humans"),
-            L("It only ever affects calves"),
+            L(
+              "It heals within a day",
+              "ఇది ఒక్క రోజులో నయమవుతుంది",
+              "இது ஒரு நாளில் குணமடையும்",
+              "ಇದು ಒಂದು ದಿನದಲ್ಲಿ ಗುಣಮುಖವಾಗುತ್ತದೆ",
+              "यह एक दिन में ठीक हो जाता है"
+            ),
+            L(
+              "It cannot spread between animals",
+              "ఇది జంతువుల మధ్య వ్యాపించదు",
+              "இது விலங்குகளுக்கு இடையே பரவாது",
+              "ಇದು ಪ್ರಾಣಿಗಳ ನಡುವೆ ಹರಡುವುದಿಲ್ಲ",
+              "यह जानवरों के बीच नहीं फैलता"
+            ),
+            L(
+              "It can also spread to humans",
+              "ఇది మనుషులకు కూడా వ్యాపించవచ్చు",
+              "இது மனிதர்களுக்கும் பரவக்கூடும்",
+              "ಇದು ಮನುಷ್ಯರಿಗೂ ಹರಡಬಹುದು",
+              "यह इंसानों में भी फैल सकता है"
+            ),
+            L(
+              "It only ever affects calves",
+              "ఇది దూడలను మాత్రమే ప్రభావితం చేస్తుంది",
+              "இது கன்றுகளை மட்டுமே பாதிக்கும்",
+              "ಇದು ಕರುಗಳನ್ನು ಮಾತ್ರ ಬಾಧಿಸುತ್ತದೆ",
+              "यह केवल बछड़ों को प्रभावित करता है"
+            ),
           ],
           answer: 2,
-          explain: L("Bovine TB is transmissible to humans, which makes prompt reporting and testing especially important."),
+          explain: L(
+            "Bovine TB is transmissible to humans, which makes prompt reporting and testing especially important.",
+            "గోవుల క్షయవ్యాధి మనుషులకు వ్యాపించగలదు, అందుకే వెంటనే నివేదించడం మరియు పరీక్షించడం ప్రత్యేకంగా ముఖ్యం.",
+            "மாட்டு காசநோய் மனிதர்களுக்கு பரவக்கூடியது, எனவே உடனடியாக தெரிவிப்பதும் பரிசோதிப்பதும் மிகவும் முக்கியம்.",
+            "ಗೋವಿನ ಕ್ಷಯರೋಗ ಮನುಷ್ಯರಿಗೆ ಹರಡಬಲ್ಲದು, ಇದರಿಂದ ತಕ್ಷಣ ವರದಿ ಮಾಡುವುದು ಮತ್ತು ಪರೀಕ್ಷಿಸುವುದು ವಿಶೇಷವಾಗಿ ಮುಖ್ಯವಾಗುತ್ತದೆ.",
+            "गोवंशीय टीबी इंसानों में फैल सकती है, इसलिए तुरंत रिपोर्ट करना और जाँच करना विशेष रूप से महत्वपूर्ण है।"
+          ),
         },
       ],
     },
@@ -2770,92 +3190,234 @@ export const MODULES = [
   // ==================================================================
   {
     id: "m5-l2",
-    title: L("Fever and Lameness You Can Recognise Early"),
+    title: L(
+      "Fever and Lameness You Can Recognise Early",
+      "మీరు ముందుగానే గుర్తించగల జ్వరం మరియు కుంటితనం",
+      "நீங்கள் முன்கூட்டியே அடையாளம் காணக்கூடிய காய்ச்சல் மற்றும் நொண்டித்தன்மை",
+      "ನೀವು ಮುಂಚಿತವಾಗಿ ಗುರುತಿಸಬಹುದಾದ ಜ್ವರ ಮತ್ತು ಕುಂಟುತನ",
+      "जल्दी पहचाने जा सकने वाले बुखार और लंगड़ापन"
+    ),
     estMinutes: 9,
     hook: [
       {
         type: "hero",
-        heading: L("Not Every Fever or Limp Needs Panic — But Every One Needs Reporting"),
+        heading: L(
+          "Not Every Fever or Limp Needs Panic — But Every One Needs Reporting",
+          "ప్రతి జ్వరం లేదా కుంటితనం భయపడాల్సిన అవసరం లేదు — కానీ ప్రతిదాన్ని నివేదించాలి",
+          "ஒவ்வொரு காய்ச்சலும் அல்லது நொண்டித்தனமும் பயப்பட வேண்டியதில்லை — ஆனால் ஒவ்வொன்றும் தெரிவிக்கப்பட வேண்டும்",
+          "ಪ್ರತಿ ಜ್ವರ ಅಥವಾ ಕುಂಟುತನಕ್ಕೆ ಆತಂಕಪಡುವ ಅಗತ್ಯವಿಲ್ಲ — ಆದರೆ ಪ್ರತಿಯೊಂದನ್ನೂ ವರದಿ ಮಾಡಲೇಬೇಕು",
+          "हर बुखार या लंगड़ापन घबराने की बात नहीं है — लेकिन हर एक की रिपोर्ट ज़रूर करनी चाहिए"
+        ),
         text: L(
-          "Some conditions clear up on their own with rest, others need quick attention to stop them getting worse. This lesson covers two very different conditions — one that usually passes by itself, and one where fast reporting protects the animal's feet and the whole herd's movement."
+          "Some conditions clear up on their own with rest, others need quick attention to stop them getting worse. This lesson covers two very different conditions — one that usually passes by itself, and one where fast reporting protects the animal's feet and the whole herd's movement.",
+          "కొన్ని పరిస్థితులు విశ్రాంతితో వాటంతట అవే తగ్గిపోతాయి, మరికొన్నింటికి అవి మరింత తీవ్రం కాకుండా ఉండటానికి వేగవంతమైన శ్రద్ధ అవసరం. ఈ పాఠం రెండు చాలా భిన్నమైన పరిస్థితులను వివరిస్తుంది — ఒకటి సాధారణంగా దానంతట అదే తగ్గుతుంది, మరొకటి వేగంగా నివేదించడం జంతువు కాళ్లను మరియు మొత్తం మంద కదలికను రక్షిస్తుంది.",
+          "சில நிலைமைகள் ஓய்வால் தானாகவே குணமடையும், மற்றவை மோசமடையாமல் தடுக்க விரைவான கவனிப்பு தேவைப்படும். இந்த பாடம் மிகவும் வேறுபட்ட இரண்டு நிலைமைகளை உள்ளடக்குகிறது — ஒன்று பொதுவாக தானாகவே கடந்துவிடும், மற்றொன்றில் விரைவான தெரிவிப்பு விலங்கின் கால்களையும் மொத்த மந்தையின் நடமாட்டத்தையும் பாதுகாக்கும்.",
+          "ಕೆಲವು ಸ್ಥಿತಿಗಳು ವಿಶ್ರಾಂತಿಯಿಂದ ತಾವಾಗಿಯೇ ಸರಿಹೋಗುತ್ತವೆ, ಇತರವುಗಳಿಗೆ ಹದಗೆಡದಂತೆ ತಡೆಯಲು ತ್ವರಿತ ಗಮನ ಬೇಕಾಗುತ್ತದೆ. ಈ ಪಾಠ ಎರಡು ವಿಭಿನ್ನ ಸ್ಥಿತಿಗಳನ್ನು ಒಳಗೊಂಡಿದೆ — ಒಂದು ಸಾಮಾನ್ಯವಾಗಿ ತಾನಾಗಿಯೇ ಹಾದುಹೋಗುತ್ತದೆ, ಇನ್ನೊಂದರಲ್ಲಿ ತ್ವರಿತ ವರದಿ ಪ್ರಾಣಿಯ ಕಾಲುಗಳನ್ನು ಮತ್ತು ಇಡೀ ಹಿಂಡಿನ ಚಲನೆಯನ್ನು ರಕ್ಷಿಸುತ್ತದೆ.",
+          "कुछ स्थितियाँ आराम से अपने आप ठीक हो जाती हैं, वहीं कुछ को बिगड़ने से रोकने के लिए तुरंत ध्यान देने की ज़रूरत होती है। इस पाठ में दो बहुत अलग स्थितियाँ शामिल हैं — एक जो आमतौर पर अपने आप ठीक हो जाती है, और दूसरी जिसमें तुरंत रिपोर्ट करना जानवर के पैरों और पूरे झुंड की आवाजाही दोनों की रक्षा करता है।"
         ),
       },
     ],
     topics: [
       {
         id: "t-m5-ephemeral-fever",
-        title: L("Ephemeral Fever (Three-Day Sickness)"),
+        title: L(
+          "Ephemeral Fever (Three-Day Sickness)",
+          "ఎఫెమెరల్ ఫీవర్ (మూడు రోజుల జబ్బు)",
+          "எஃபெமரல் காய்ச்சல் (மூன்று நாள் நோய்)",
+          "ಎಫೆಮೆರಲ್ ಜ್ವರ (ಮೂರು ದಿನಗಳ ಕಾಯಿಲೆ)",
+          "एफेमरल फीवर (तीन दिन की बीमारी)"
+        ),
         teach: [
           {
             type: "text",
-            heading: L("A Short, Insect-Spread Fever"),
+            heading: L(
+              "A Short, Insect-Spread Fever",
+              "తక్కువ కాలం ఉండే, కీటకాల ద్వారా వ్యాపించే జ్వరం",
+              "குறுகிய காலம் நீடிக்கும், பூச்சிகள் மூலம் பரவும் காய்ச்சல்",
+              "ಕಡಿಮೆ ಅವಧಿಯ, ಕೀಟಗಳಿಂದ ಹರಡುವ ಜ್ವರ",
+              "थोड़े समय का, कीड़ों से फैलने वाला बुखार"
+            ),
             html: L(
-              "Ephemeral fever is a <b>viral disease</b> (caused by a virus, a different kind of tiny germ from bacteria) of cattle and buffalo. It is an insect-transmitted disease — it spreads through biting insects, not through direct contact between animals. As its nickname 'three-day sickness' suggests, it usually lasts about three days."
+              "Ephemeral fever is a <b>viral disease</b> (caused by a virus, a different kind of tiny germ from bacteria) of cattle and buffalo. It is an insect-transmitted disease — it spreads through biting insects, not through direct contact between animals. As its nickname 'three-day sickness' suggests, it usually lasts about three days.",
+              "ఎఫెమెరల్ ఫీవర్ అనేది పశువులు మరియు గేదెలకు వచ్చే <b>వైరస్ వ్యాధి</b> (వైరస్ వల్ల కలుగుతుంది, ఇది బ్యాక్టీరియా కంటే భిన్నమైన మరో రకమైన చిన్న సూక్ష్మజీవి). ఇది కీటకాల ద్వారా వ్యాపించే వ్యాధి — జంతువుల మధ్య నేరుగా సంపర్కం ద్వారా కాకుండా కుట్టే కీటకాల ద్వారా వ్యాపిస్తుంది. దీని మారుపేరు 'మూడు రోజుల జబ్బు' సూచించినట్లుగా, ఇది సాధారణంగా మూడు రోజుల పాటు ఉంటుంది.",
+              "எஃபெமரல் காய்ச்சல் என்பது மாடுகள் மற்றும் எருமைகளுக்கு ஏற்படும் <b>வைரஸ் நோய்</b> (வைரஸால் ஏற்படுகிறது, இது பாக்டீரியாவை விட வேறுபட்ட மற்றொரு வகை சிறிய கிருமி). இது பூச்சிகள் மூலம் பரவும் நோய் — விலங்குகளுக்கு இடையேயான நேரடி தொடர்பு மூலம் அல்ல, கடிக்கும் பூச்சிகள் மூலம் பரவுகிறது. அதன் புனைப்பெயர் 'மூன்று நாள் நோய்' குறிப்பிடுவது போல, இது பொதுவாக மூன்று நாட்கள் நீடிக்கும்.",
+              "ಎಫೆಮೆರಲ್ ಜ್ವರವು ಹಸು ಮತ್ತು ಎಮ್ಮೆಗಳಿಗೆ ಬರುವ <b>ವೈರಸ್ ರೋಗ</b> (ವೈರಸ್‌ನಿಂದ ಉಂಟಾಗುತ್ತದೆ, ಇದು ಬ್ಯಾಕ್ಟೀರಿಯಾಕ್ಕಿಂತ ಭಿನ್ನವಾದ ಇನ್ನೊಂದು ಬಗೆಯ ಸಣ್ಣ ಸೂಕ್ಷ್ಮಾಣು). ಇದು ಕೀಟಗಳಿಂದ ಹರಡುವ ರೋಗ — ಪ್ರಾಣಿಗಳ ನಡುವಿನ ನೇರ ಸಂಪರ್ಕದಿಂದಲ್ಲ, ಕಚ್ಚುವ ಕೀಟಗಳ ಮೂಲಕ ಹರಡುತ್ತದೆ. ಇದರ ಅಡ್ಡಹೆಸರು 'ಮೂರು ದಿನಗಳ ಕಾಯಿಲೆ' ಸೂಚಿಸುವಂತೆ, ಇದು ಸಾಮಾನ್ಯವಾಗಿ ಸುಮಾರು ಮೂರು ದಿನಗಳವರೆಗೆ ಇರುತ್ತದೆ.",
+              "एफेमरल फीवर गाय और भैंस दोनों में होने वाली एक <b>वायरस जनित बीमारी</b> है (वायरस, बैक्टीरिया से अलग तरह का एक बहुत छोटा कीटाणु, इसका कारण है)। यह कीड़ों से फैलने वाली बीमारी है — यह जानवरों के बीच सीधे संपर्क से नहीं, बल्कि काटने वाले कीड़ों के ज़रिए फैलती है। इसके उपनाम 'तीन दिन की बीमारी' से पता चलता है कि यह आमतौर पर लगभग तीन दिन तक रहती है।"
             ),
           },
           {
             type: "glossary",
-            term: L("Morbidity vs Mortality"),
+            term: L(
+              "Morbidity vs Mortality",
+              "అనారోగ్యం రేటు vs మరణాల రేటు",
+              "நோய்வாய்ப்படும் விகிதம் vs இறப்பு விகிதம்",
+              "ಅಸ್ವಸ್ಥತೆ ಪ್ರಮಾಣ vs ಮರಣ ಪ್ರಮಾಣ",
+              "रुग्णता दर बनाम मृत्यु दर"
+            ),
             meaning: L(
-              "Morbidity means how many animals in a group actually fall sick. Mortality means how many animals die from it. With ephemeral fever, morbidity can be very high (many animals fall sick), but mortality is very low — only about 1–2 out of every 100."
+              "Morbidity means how many animals in a group actually fall sick. Mortality means how many animals die from it. With ephemeral fever, morbidity can be very high (many animals fall sick), but mortality is very low — only about 1–2 out of every 100.",
+              "అనారోగ్యం రేటు అంటే ఒక గుంపులో ఎన్ని జంతువులు నిజంగా అనారోగ్యానికి గురవుతాయో అని అర్థం. మరణాల రేటు అంటే వాటివల్ల ఎన్ని జంతువులు మరణిస్తాయో అని అర్థం. ఎఫెమెరల్ ఫీవర్‌లో, అనారోగ్యం రేటు చాలా ఎక్కువగా ఉండవచ్చు (చాలా జంతువులు అనారోగ్యానికి గురవుతాయి), కానీ మరణాల రేటు చాలా తక్కువ — ప్రతి 100కి కేవలం 1–2 మాత్రమే.",
+              "நோய்வாய்ப்படும் விகிதம் என்பது ஒரு குழுவில் எத்தனை விலங்குகள் உண்மையில் நோய்வாய்ப்படுகின்றன என்பதைக் குறிக்கிறது. இறப்பு விகிதம் என்பது அதனால் எத்தனை விலங்குகள் இறக்கின்றன என்பதைக் குறிக்கிறது. எஃபெமரல் காய்ச்சலில், நோய்வாய்ப்படும் விகிதம் மிக அதிகமாக இருக்கலாம் (பல விலங்குகள் நோய்வாய்ப்படும்), ஆனால் இறப்பு விகிதம் மிகக் குறைவு — ஒவ்வொரு 100க்கும் சுமார் 1–2 மட்டுமே.",
+              "ಅಸ್ವಸ್ಥತೆ ಪ್ರಮಾಣ ಎಂದರೆ ಒಂದು ಗುಂಪಿನಲ್ಲಿ ನಿಜವಾಗಿ ಎಷ್ಟು ಪ್ರಾಣಿಗಳು ಅಸ್ವಸ್ಥಗೊಳ್ಳುತ್ತವೆ ಎಂಬುದು. ಮರಣ ಪ್ರಮಾಣ ಎಂದರೆ ಅದರಿಂದ ಎಷ್ಟು ಪ್ರಾಣಿಗಳು ಸಾಯುತ್ತವೆ ಎಂಬುದು. ಎಫೆಮೆರಲ್ ಜ್ವರದಲ್ಲಿ, ಅಸ್ವಸ್ಥತೆ ಪ್ರಮಾಣ ಬಹಳ ಹೆಚ್ಚಾಗಿರಬಹುದು (ಅನೇಕ ಪ್ರಾಣಿಗಳು ಅಸ್ವಸ್ಥಗೊಳ್ಳುತ್ತವೆ), ಆದರೆ ಮರಣ ಪ್ರಮಾಣ ಬಹಳ ಕಡಿಮೆ — ಪ್ರತಿ 100ರಲ್ಲಿ ಕೇವಲ 1–2 ಮಾತ್ರ.",
+              "रुग्णता दर का मतलब है कि किसी समूह में वास्तव में कितने जानवर बीमार पड़ते हैं। मृत्यु दर का मतलब है कि उनमें से कितने जानवर मरते हैं। एफेमरल फीवर में, रुग्णता दर बहुत अधिक हो सकती है (बहुत से जानवर बीमार पड़ते हैं), लेकिन मृत्यु दर बहुत कम है — प्रति 100 में केवल लगभग 1–2।"
             ),
           },
           {
             type: "stat-grid",
             items: [
               {
-                label: L("Fever Pattern"),
+                label: L(
+                  "Fever Pattern",
+                  "జ్వర తీరు",
+                  "காய்ச்சல் அமைப்பு",
+                  "ಜ್ವರದ ಮಾದರಿ",
+                  "बुखार का पैटर्न"
+                ),
                 text: L(
-                  "Fever that can rise and fall more than once, along with shivering, tears from the eyes, and decreased appetite."
+                  "Fever that can rise and fall more than once, along with shivering, tears from the eyes, and decreased appetite.",
+                  "ఒకటి కంటే ఎక్కువసార్లు పెరిగి తగ్గే జ్వరం, దానితో పాటు వణుకు, కళ్ల నుండి నీరు కారడం, మరియు ఆకలి తగ్గడం.",
+                  "ஒன்றுக்கும் மேற்பட்ட முறை ஏறி இறங்கும் காய்ச்சல், அதனுடன் நடுக்கம், கண்களில் இருந்து நீர் வடிதல், மற்றும் பசி குறைவு.",
+                  "ಒಂದಕ್ಕಿಂತ ಹೆಚ್ಚು ಬಾರಿ ಏರಿಳಿತವಾಗುವ ಜ್ವರ, ಜೊತೆಗೆ ನಡುಕ, ಕಣ್ಣುಗಳಿಂದ ನೀರು ಸುರಿಯುವುದು ಮತ್ತು ಹಸಿವು ಕಡಿಮೆಯಾಗುವುದು.",
+                  "एक से अधिक बार चढ़ने-उतरने वाला बुखार, साथ ही कँपकँपी, आँखों से पानी आना, और भूख में कमी।"
                 ),
               },
               {
-                label: L("Other Signs"),
+                label: L(
+                  "Other Signs",
+                  "ఇతర లక్షణాలు",
+                  "மற்ற அறிகுறிகள்",
+                  "ಇತರ ಲಕ್ಷಣಗಳು",
+                  "अन्य लक्षण"
+                ),
                 text: L(
-                  "Nasal discharge, drooling, laboured (difficult) breathing, a dull/depressed look, stiffness, lameness, and a sudden decrease in milk yield."
+                  "Nasal discharge, drooling, laboured (difficult) breathing, a dull/depressed look, stiffness, lameness, and a sudden decrease in milk yield.",
+                  "ముక్కు నుండి స్రావం, లాలాజలం కారడం, శ్వాస తీసుకోవడంలో కష్టం, నీరసమైన/నిరుత్సాహపడిన కళ్ళు, బిగుసుకుపోవడం, కుంటితనం, మరియు పాల దిగుబడిలో అకస్మాత్తుగా తగ్గుదల.",
+                  "மூக்கில் இருந்து சளி வடிதல், உமிழ்நீர் வடிதல், சிரமமான மூச்சுத்திணறல், சோர்வான/மந்தமான தோற்றம், விறைப்பு, நொண்டித்தன்மை, மற்றும் பால் உற்பத்தியில் திடீர் குறைவு.",
+                  "ಮೂಗಿನಿಂದ ಸೋರುವಿಕೆ, ಜೊಲ್ಲು ಸುರಿಯುವಿಕೆ, ಕಷ್ಟಕರ ಉಸಿರಾಟ, ಮಂದ/ಖಿನ್ನ ನೋಟ, ಬಿಗಿತ, ಕುಂಟುತನ, ಮತ್ತು ಹಾಲಿನ ಇಳುವರಿಯಲ್ಲಿ ಹಠಾತ್ ಇಳಿಕೆ.",
+                  "नाक से पानी बहना, लार टपकना, साँस लेने में तकलीफ, सुस्त/उदास दिखना, अकड़न, लंगड़ापन, और दूध उत्पादन में अचानक कमी।"
                 ),
               },
               {
-                label: L("Severe Cases"),
-                text: L("Some animals may become unable to rise on their own."),
+                label: L(
+                  "Severe Cases",
+                  "తీవ్రమైన కేసులు",
+                  "கடுமையான வழக்குகள்",
+                  "ತೀವ್ರ ಪ್ರಕರಣಗಳು",
+                  "गंभीर मामले"
+                ),
+                text: L(
+                  "Some animals may become unable to rise on their own.",
+                  "కొన్ని జంతువులు తమంతట తాము లేవలేకపోవచ్చు.",
+                  "சில விலங்குகள் தானாக எழ முடியாமல் போகலாம்.",
+                  "ಕೆಲವು ಪ್ರಾಣಿಗಳು ತಾವಾಗಿಯೇ ಎದ್ದೇಳಲು ಸಾಧ್ಯವಾಗದಿರಬಹುದು.",
+                  "कुछ जानवर अपने आप उठने में असमर्थ हो सकते हैं।"
+                ),
               },
             ],
           },
           {
             type: "callout",
             style: "tip",
-            heading: L("Usually Gets Better on Its Own"),
+            heading: L(
+              "Usually Gets Better on Its Own",
+              "సాధారణంగా దానంతట అదే నయమవుతుంది",
+              "பொதுவாக தானாகவே குணமடையும்",
+              "ಸಾಮಾನ್ಯವಾಗಿ ತಾನಾಗಿಯೇ ಗುಣಮುಖವಾಗುತ್ತದೆ",
+              "आमतौर पर अपने आप ठीक हो जाता है"
+            ),
             text: L(
-              "Spontaneous recovery — getting better by itself, without treatment — usually happens within a few days. Complete rest is the most effective help you can give. A recovered animal should not be stressed or worked for some days afterward, since it may relapse (fall sick again)."
+              "Spontaneous recovery — getting better by itself, without treatment — usually happens within a few days. Complete rest is the most effective help you can give. A recovered animal should not be stressed or worked for some days afterward, since it may relapse (fall sick again).",
+              "స్వతహాగా కోలుకోవడం — చికిత్స లేకుండా దానంతట అదే నయమవడం — సాధారణంగా కొన్ని రోజుల్లోనే జరుగుతుంది. మీరు ఇవ్వగలిగే అత్యంత ప్రభావవంతమైన సహాయం పూర్తి విశ్రాంతి. కోలుకున్న జంతువును తర్వాత కొన్ని రోజుల పాటు ఒత్తిడికి గురిచేయకూడదు లేదా పని చేయించకూడదు, ఎందుకంటే అది మళ్లీ అనారోగ్యానికి గురికావచ్చు (రిలాప్స్).",
+              "தானாகவே குணமடைதல் — சிகிச்சை இல்லாமல் தானாகவே நலமடைதல் — பொதுவாக சில நாட்களில் நடக்கும். நீங்கள் கொடுக்கக்கூடிய மிகச் சிறந்த உதவி முழுமையான ஓய்வு. குணமடைந்த விலங்கை பிறகு சில நாட்களுக்கு அழுத்தத்திற்கு உட்படுத்தவோ வேலை வாங்கவோ கூடாது, ஏனெனில் அது மீண்டும் நோய்வாய்ப்படலாம் (ரிலாப்ஸ்).",
+              "ಸ್ವಯಂ ಚೇತರಿಕೆ — ಚಿಕಿತ್ಸೆ ಇಲ್ಲದೆ ತಾನಾಗಿಯೇ ಗುಣಮುಖವಾಗುವುದು — ಸಾಮಾನ್ಯವಾಗಿ ಕೆಲವು ದಿನಗಳಲ್ಲಿ ಆಗುತ್ತದೆ. ನೀವು ನೀಡಬಹುದಾದ ಅತ್ಯಂತ ಪರಿಣಾಮಕಾರಿ ಸಹಾಯವೆಂದರೆ ಸಂಪೂರ್ಣ ವಿಶ್ರಾಂತಿ. ಗುಣಮುಖವಾದ ಪ್ರಾಣಿಯನ್ನು ನಂತರ ಕೆಲವು ದಿನಗಳವರೆಗೆ ಒತ್ತಡಕ್ಕೆ ಒಳಪಡಿಸಬಾರದು ಅಥವಾ ಕೆಲಸ ಮಾಡಿಸಬಾರದು, ಏಕೆಂದರೆ ಅದು ಮತ್ತೆ ಅಸ್ವಸ್ಥಗೊಳ್ಳಬಹುದು (ರಿಲ್ಯಾಪ್ಸ್).",
+              "अपने आप ठीक होना — बिना इलाज के अपने आप ठीक हो जाना — आमतौर पर कुछ ही दिनों में हो जाता है। आप जो सबसे कारगर मदद दे सकते हैं वह है पूरा आराम। ठीक हुए जानवर को बाद में कुछ दिनों तक तनाव में नहीं डालना चाहिए या उससे काम नहीं लेना चाहिए, क्योंकि उसे फिर से बीमारी हो सकती है (रिलैप्स)।"
             ),
           },
           {
             type: "callout",
             style: "info",
-            heading: L("Fewer Flies, Fewer Cases"),
+            heading: L(
+              "Fewer Flies, Fewer Cases",
+              "తక్కువ ఈగలు, తక్కువ కేసులు",
+              "குறைவான ஈக்கள், குறைவான வழக்குகள்",
+              "ಕಡಿಮೆ ನೊಣಗಳು, ಕಡಿಮೆ ಪ್ರಕರಣಗಳು",
+              "कम मक्खियाँ, कम मामले"
+            ),
             text: L(
-              "Because the disease spreads through biting insects, proper fly control helps reduce how often it occurs. Even so, always consult a veterinarian for symptomatic treatment (treatment that eases the signs) when you notice these signs."
+              "Because the disease spreads through biting insects, proper fly control helps reduce how often it occurs. Even so, always consult a veterinarian for symptomatic treatment (treatment that eases the signs) when you notice these signs.",
+              "ఈ వ్యాధి కుట్టే కీటకాల ద్వారా వ్యాపిస్తుంది కాబట్టి, సరైన ఈగల నియంత్రణ ఇది ఎంత తరచుగా వస్తుందో తగ్గించడంలో సహాయపడుతుంది. అయినప్పటికీ, ఈ లక్షణాలను గమనించినప్పుడు లక్షణాల ఉపశమన చికిత్స (లక్షణాలను తగ్గించే చికిత్స) కోసం ఎల్లప్పుడూ పశువైద్యుడిని సంప్రదించండి.",
+              "இந்த நோய் கடிக்கும் பூச்சிகள் மூலம் பரவுவதால், சரியான ஈ கட்டுப்பாடு அது எவ்வளவு அடிக்கடி ஏற்படுகிறது என்பதைக் குறைக்க உதவும். இருந்தாலும், இந்த அறிகுறிகளை கவனித்தவுடன் அறிகுறி நிவாரண சிகிச்சைக்காக (அறிகுறிகளை குறைக்கும் சிகிச்சை) எப்போதும் கால்நடை மருத்துவரை அணுகவும்.",
+              "ಈ ರೋಗ ಕಚ್ಚುವ ಕೀಟಗಳಿಂದ ಹರಡುವುದರಿಂದ, ಸರಿಯಾದ ನೊಣ ನಿಯಂತ್ರಣ ಇದು ಎಷ್ಟು ಬಾರಿ ಕಾಣಿಸಿಕೊಳ್ಳುತ್ತದೆ ಎಂಬುದನ್ನು ಕಡಿಮೆ ಮಾಡಲು ಸಹಾಯ ಮಾಡುತ್ತದೆ. ಆದರೂ, ಈ ಲಕ್ಷಣಗಳನ್ನು ಗಮನಿಸಿದಾಗ ರೋಗಲಕ್ಷಣ ಶಮನ ಚಿಕಿತ್ಸೆಗಾಗಿ (ಲಕ್ಷಣಗಳನ್ನು ಕಡಿಮೆ ಮಾಡುವ ಚಿಕಿತ್ಸೆ) ಯಾವಾಗಲೂ ಪಶುವೈದ್ಯರನ್ನು ಸಂಪರ್ಕಿಸಿ.",
+              "यह बीमारी काटने वाले कीड़ों से फैलती है, इसलिए मक्खियों पर सही नियंत्रण इसके होने की आवृत्ति कम करने में मदद करता है। फिर भी, ये लक्षण दिखने पर लक्षणों को कम करने वाले इलाज के लिए हमेशा पशु चिकित्सक से सलाह लें।"
             ),
           },
         ],
         check: [
           {
             type: "mcq",
-            q: L("How does ephemeral fever mainly spread?"),
+            q: L(
+              "How does ephemeral fever mainly spread?",
+              "ఎఫెమెరల్ ఫీవర్ ప్రధానంగా ఎలా వ్యాపిస్తుంది?",
+              "எஃபெமரல் காய்ச்சல் முதன்மையாக எவ்வாறு பரவுகிறது?",
+              "ಎಫೆಮೆರಲ್ ಜ್ವರ ಮುಖ್ಯವಾಗಿ ಹೇಗೆ ಹರಡುತ್ತದೆ?",
+              "एफेमरल फीवर मुख्य रूप से कैसे फैलता है?"
+            ),
             options: [
-              L("Direct contact between animals"),
-              L("Through biting insects"),
-              L("Through contaminated water"),
-              L("It does not spread at all"),
+              L(
+                "Direct contact between animals",
+                "జంతువుల మధ్య నేరుగా సంపర్కం",
+                "விலங்குகளுக்கு இடையேயான நேரடி தொடர்பு",
+                "ಪ್ರಾಣಿಗಳ ನಡುವಿನ ನೇರ ಸಂಪರ್ಕ",
+                "जानवरों के बीच सीधा संपर्क"
+              ),
+              L(
+                "Through biting insects",
+                "కుట్టే కీటకాల ద్వారా",
+                "கடிக்கும் பூச்சிகள் மூலம்",
+                "ಕಚ್ಚುವ ಕೀಟಗಳ ಮೂಲಕ",
+                "काटने वाले कीड़ों के ज़रिए"
+              ),
+              L(
+                "Through contaminated water",
+                "కలుషితమైన నీటి ద్వారా",
+                "மாசுபட்ட நீர் மூலம்",
+                "ಕಲುಷಿತ ನೀರಿನ ಮೂಲಕ",
+                "दूषित पानी के ज़रिए"
+              ),
+              L(
+                "It does not spread at all",
+                "ఇది అస్సలు వ్యాపించదు",
+                "இது எப்படியும் பரவாது",
+                "ಇದು ಎಂದೂ ಹರಡುವುದಿಲ್ಲ",
+                "यह बिल्कुल नहीं फैलता"
+              ),
             ],
             answer: 1,
-            explain: L("Ephemeral fever is an insect-transmitted disease — it spreads through biting insects, not direct contact."),
+            explain: L(
+              "Ephemeral fever is an insect-transmitted disease — it spreads through biting insects, not direct contact.",
+              "ఎఫెమెరల్ ఫీవర్ కీటకాల ద్వారా వ్యాపించే వ్యాధి — ఇది నేరుగా సంపర్కం ద్వారా కాకుండా కుట్టే కీటకాల ద్వారా వ్యాపిస్తుంది.",
+              "எஃபெமரல் காய்ச்சல் பூச்சிகள் மூலம் பரவும் நோய் — இது நேரடி தொடர்பு மூலம் அல்ல, கடிக்கும் பூச்சிகள் மூலம் பரவுகிறது.",
+              "ಎಫೆಮೆರಲ್ ಜ್ವರ ಕೀಟಗಳಿಂದ ಹರಡುವ ರೋಗ — ಇದು ನೇರ ಸಂಪರ್ಕದಿಂದಲ್ಲ, ಕಚ್ಚುವ ಕೀಟಗಳ ಮೂಲಕ ಹರಡುತ್ತದೆ.",
+              "एफेमरल फीवर कीड़ों से फैलने वाली बीमारी है — यह सीधे संपर्क से नहीं, बल्कि काटने वाले कीड़ों के ज़रिए फैलती है।"
+            ),
           },
           {
             type: "truefalse",
-            q: L("Ephemeral fever usually clears up on its own within a few days."),
+            q: L(
+              "Ephemeral fever usually clears up on its own within a few days.",
+              "ఎఫెమెరల్ ఫీవర్ సాధారణంగా కొన్ని రోజుల్లో దానంతట అదే తగ్గిపోతుంది.",
+              "எஃபெமரல் காய்ச்சல் பொதுவாக சில நாட்களில் தானாகவே குணமடையும்.",
+              "ಎಫೆಮೆರಲ್ ಜ್ವರ ಸಾಮಾನ್ಯವಾಗಿ ಕೆಲವು ದಿನಗಳಲ್ಲಿ ತಾನಾಗಿಯೇ ಗುಣಮುಖವಾಗುತ್ತದೆ.",
+              "एफेमरल फीवर आमतौर पर कुछ ही दिनों में अपने आप ठीक हो जाता है।"
+            ),
             answer: true,
-            explain: L("Yes — spontaneous recovery usually occurs within a few days, with complete rest being the most effective help."),
+            explain: L(
+              "Yes — spontaneous recovery usually occurs within a few days, with complete rest being the most effective help.",
+              "అవును — స్వతహాగా కోలుకోవడం సాధారణంగా కొన్ని రోజుల్లో జరుగుతుంది, పూర్తి విశ్రాంతి అత్యంత ప్రభావవంతమైన సహాయం.",
+              "ஆம் — தானாகவே குணமடைதல் பொதுவாக சில நாட்களில் நடக்கும், முழுமையான ஓய்வே மிகச் சிறந்த உதவி.",
+              "ಹೌದು — ಸ್ವಯಂ ಚೇತರಿಕೆ ಸಾಮಾನ್ಯವಾಗಿ ಕೆಲವು ದಿನಗಳಲ್ಲಿ ಆಗುತ್ತದೆ, ಸಂಪೂರ್ಣ ವಿಶ್ರಾಂತಿಯೇ ಅತ್ಯಂತ ಪರಿಣಾಮಕಾರಿ ಸಹಾಯ.",
+              "हाँ — अपने आप ठीक होना आमतौर पर कुछ ही दिनों में हो जाता है, और पूरा आराम ही सबसे कारगर मदद है।"
+            ),
           },
         ],
       },
