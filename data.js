@@ -5620,8 +5620,8 @@ export const MODULES = [
   {
     id: "m10",
     number: 10,
-    title: L("Common Poisoning Conditions"),
-    subtitle: L("Recognising the most common poisoning cases seen in the field, and what to do immediately."),
+    title: L("Common Poisoning Conditions", "సాధారణ విషప్రయోగ పరిస్థితులు", "பொதுவான நச்சுத்தன்மை நிலைகள்", "ಸಾಮಾನ್ಯ ವಿಷಬಾಧೆ ಸ್ಥಿತಿಗಳು", "सामान्य विषाक्तता की स्थितियाँ"),
+    subtitle: L("Recognising the most common poisoning cases seen in the field, and what to do immediately.", "క్షేత్రంలో కనిపించే అత్యంత సాధారణ విషప్రయోగ కేసులను గుర్తించడం మరియు వెంటనే ఏమి చేయాలో తెలుసుకోవడం.", "வயலில் காணப்படும் பொதுவான நச்சுத்தன்மை நிகழ்வுகளை அடையாளம் காணுதல் மற்றும் உடனடியாக என்ன செய்ய வேண்டும் என்பதை அறிதல்.", "ಕ್ಷೇತ್ರದಲ್ಲಿ ಕಂಡುಬರುವ ಅತ್ಯಂತ ಸಾಮಾನ್ಯ ವಿಷಬಾಧೆ ಪ್ರಕರಣಗಳನ್ನು ಗುರುತಿಸುವುದು ಮತ್ತು ತಕ್ಷಣ ಏನು ಮಾಡಬೇಕೆಂದು ತಿಳಿಯುವುದು.", "खेत में दिखने वाले सबसे सामान्य विषाक्तता के मामलों को पहचानना, और तुरंत क्या करना है यह जानना।"),
     icon: "warning",
     available: true,
     lessons: [
@@ -5630,57 +5630,73 @@ export const MODULES = [
   // ==================================================================
   {
     id: "m10-l1",
-    title: L("Recognising Poisoning: Cottonseed and Plant Poisons"),
+    title: L("Recognising Poisoning: Cottonseed and Plant Poisons", "విషప్రయోగాన్ని గుర్తించడం: పత్తి గింజలు మరియు మొక్కల విషాలు", "நச்சுத்தன்மையை அடையாளம் காணுதல்: பருத்தி விதை மற்றும் தாவர நச்சுகள்", "ವಿಷಬಾಧೆಯನ್ನು ಗುರುತಿಸುವುದು: ಹತ್ತಿ ಬೀಜ ಮತ್ತು ಸಸ್ಯ ವಿಷಗಳು", "विषाक्तता को पहचानना: कपास के बीज और पौधों के ज़हर"),
     estMinutes: 8,
     hook: [
       {
         type: "hero",
-        heading: L("Some of the Most Dangerous Emergencies You Will See"),
+        heading: L("Some of the Most Dangerous Emergencies You Will See", "మీరు చూసే అత్యంత ప్రమాదకరమైన అత్యవసర పరిస్థితులలో కొన్ని", "நீங்கள் காணும் மிகவும் ஆபத்தான அவசரநிலைகளில் சில", "ನೀವು ನೋಡುವ ಅತ್ಯಂತ ಅಪಾಯಕಾರಿ ತುರ್ತು ಪರಿಸ್ಥಿತಿಗಳಲ್ಲಿ ಕೆಲವು", "आप जो सबसे खतरनाक आपात स्थितियाँ देखेंगे, उनमें से कुछ"),
         text: L(
-          "Poisoning happens when an animal eats or comes into contact with something harmful — certain plants, or certain feeds. It can turn fatal within hours, sometimes even before a vet can be called. Your most powerful tool is recognising the warning signs early and getting help immediately — you are never expected to treat poisoning yourself."
+          "Poisoning happens when an animal eats or comes into contact with something harmful — certain plants, or certain feeds. It can turn fatal within hours, sometimes even before a vet can be called. Your most powerful tool is recognising the warning signs early and getting help immediately — you are never expected to treat poisoning yourself.",
+          "జంతువు హానికరమైన దానిని తింటే లేదా దానితో సంపర్కంలోకి వస్తే విషప్రయోగం జరుగుతుంది — కొన్ని మొక్కలు లేదా కొన్ని దాణాలు. ఇది కొన్ని గంటల్లోనే ప్రాణాంతకంగా మారవచ్చు, కొన్నిసార్లు పశువైద్యుడిని పిలిచే లోపే. మీ అత్యంత శక్తివంతమైన సాధనం హెచ్చరిక సంకేతాలను ముందుగానే గుర్తించి వెంటనే సహాయం పొందడం — మీరు స్వయంగా విషప్రయోగానికి చికిత్స చేయాల్సిన అవసరం ఎప్పుడూ ఉండదు.",
+          "விலங்கு தீங்கு விளைவிக்கும் ஒன்றை உண்ணும்போது அல்லது அதனுடன் தொடர்பு கொள்ளும்போது நச்சுத்தன்மை ஏற்படுகிறது — சில தாவரங்கள் அல்லது சில தீவனங்கள். இது சில மணி நேரங்களில் உயிராபத்தாக மாறக்கூடும், சில நேரங்களில் கால்நடை மருத்துவரை அழைக்கும் முன்பே. உங்கள் மிக சக்திவாய்ந்த கருவி எச்சரிக்கை அறிகுறிகளை முன்கூட்டியே அடையாளம் கண்டு உடனடியாக உதவி பெறுவதே — நீங்களே நச்சுத்தன்மைக்கு சிகிச்சை அளிக்க வேண்டும் என்று ஒருபோதும் எதிர்பார்க்கப்படவில்லை.",
+          "ಪ್ರಾಣಿಯು ಹಾನಿಕಾರಕ ವಸ್ತುವನ್ನು ತಿಂದಾಗ ಅಥವಾ ಅದರೊಂದಿಗೆ ಸಂಪರ್ಕಕ್ಕೆ ಬಂದಾಗ ವಿಷಬಾಧೆ ಸಂಭವಿಸುತ್ತದೆ — ಕೆಲವು ಸಸ್ಯಗಳು ಅಥವಾ ಕೆಲವು ಮೇವುಗಳು. ಇದು ಕೆಲವೇ ಗಂಟೆಗಳಲ್ಲಿ ಮಾರಣಾಂತಿಕವಾಗಬಹುದು, ಕೆಲವೊಮ್ಮೆ ಪಶುವೈದ್ಯರನ್ನು ಕರೆಯುವ ಮೊದಲೇ. ನಿಮ್ಮ ಅತ್ಯಂತ ಶಕ್ತಿಶಾಲಿ ಸಾಧನವೆಂದರೆ ಎಚ್ಚರಿಕೆ ಚಿಹ್ನೆಗಳನ್ನು ಮೊದಲೇ ಗುರುತಿಸಿ ತಕ್ಷಣ ಸಹಾಯ ಪಡೆಯುವುದು — ನೀವೇ ವಿಷಬಾಧೆಗೆ ಚಿಕಿತ್ಸೆ ನೀಡಬೇಕೆಂದು ಎಂದಿಗೂ ನಿರೀಕ್ಷಿಸಲಾಗುವುದಿಲ್ಲ.",
+          "विषाक्तता तब होती है जब कोई जानवर कोई हानिकारक चीज़ खा लेता है या उसके संपर्क में आ जाता है — कुछ पौधे, या कुछ चारा। यह कुछ ही घंटों में जानलेवा हो सकता है, कभी-कभी पशु चिकित्सक को बुलाने से पहले ही। आपका सबसे शक्तिशाली उपकरण है चेतावनी के लक्षणों को जल्दी पहचानना और तुरंत मदद लेना — आपसे कभी भी खुद विषाक्तता का इलाज करने की उम्मीद नहीं की जाती।"
         ),
       },
     ],
     topics: [
       {
         id: "t-m10-gossypol",
-        title: L("Gossypol Poisoning: When Cottonseed Feed Turns Harmful"),
+        title: L("Gossypol Poisoning: When Cottonseed Feed Turns Harmful", "గాసిపాల్ విషప్రయోగం: పత్తి గింజల దాణా హానికరంగా మారినప్పుడు", "காசிபோல் நச்சுத்தன்மை: பருத்தி விதை தீவனம் தீங்கு விளைவிக்கும்போது", "ಗಾಸಿಪೋಲ್ ವಿಷಬಾಧೆ: ಹತ್ತಿ ಬೀಜದ ಮೇವು ಹಾನಿಕಾರಕವಾದಾಗ", "गॉसिपॉल विषाक्तता: जब कपास के बीज का चारा हानिकारक बन जाता है"),
         teach: [
             {
               type: "photo",
               src: "assets/photo-m10-cottonseed.jpg",
-              alt: L("Cattle and calves eating whole cottonseed spread on pasture, with a farmer standing nearby holding a feed bucket"),
-              caption: L("Whole cottonseed feed — the exact feed source that contains gossypol, the poisoning risk this lesson covers."),
+              alt: L("Cattle and calves eating whole cottonseed spread on pasture, with a farmer standing nearby holding a feed bucket", "పచ్చిక మైదానంలో వెదజల్లిన మొత్తం పత్తి గింజలను తింటున్న పశువులు మరియు దూడలు, పక్కనే దాణా బకెట్ పట్టుకుని నిలబడి ఉన్న రైతు", "மேய்ச்சல் நிலத்தில் பரவப்பட்ட முழு பருத்தி விதைகளை உண்ணும் கால்நடைகள் மற்றும் கன்றுகள், அருகில் தீவனப் பக்கெட்டுடன் நிற்கும் விவசாயி", "ಹುಲ್ಲುಗಾವಲಿನಲ್ಲಿ ಹರಡಿದ ಸಂಪೂರ್ಣ ಹತ್ತಿ ಬೀಜವನ್ನು ತಿನ್ನುತ್ತಿರುವ ಜಾನುವಾರುಗಳು ಮತ್ತು ಕರುಗಳು, ಪಕ್ಕದಲ್ಲಿ ಮೇವಿನ ಬಕೆಟ್ ಹಿಡಿದು ನಿಂತಿರುವ ರೈತ", "चरागाह में फैले साबुत कपास के बीज खाते हुए मवेशी और बछड़े, पास में चारे की बाल्टी पकड़े खड़ा एक किसान"),
+              caption: L("Whole cottonseed feed — the exact feed source that contains gossypol, the poisoning risk this lesson covers.", "సంపూర్ణ పత్తి గింజల దాణా — ఈ పాఠం చర్చించే విషప్రయోగ ప్రమాదమైన గాసిపాల్ ఉండే ఖచ్చితమైన దాణా వనరు.", "முழு பருத்தி விதை தீவனம் — இந்த பாடம் விவரிக்கும் நச்சுத்தன்மை ஆபத்தான காசிபோலைக் கொண்டிருக்கும் சரியான தீவன மூலம்.", "ಸಂಪೂರ್ಣ ಹತ್ತಿ ಬೀಜದ ಮೇವು — ಈ ಪಾಠವು ಚರ್ಚಿಸುವ ವಿಷಬಾಧೆ ಅಪಾಯವಾದ ಗಾಸಿಪೋಲ್ ಅನ್ನು ಹೊಂದಿರುವ ನಿಖರವಾದ ಮೇವಿನ ಮೂಲ.", "साबुत कपास के बीज का चारा — यह पाठ जिस विषाक्तता के खतरे की बात करता है, उस गॉसिपॉल का ठीक वही स्रोत।"),
             },
           {
             type: "text",
-            heading: L("What Is Gossypol Poisoning?"),
+            heading: L("What Is Gossypol Poisoning?", "గాసిపాల్ విషప్రయోగం అంటే ఏమిటి?", "காசிபோல் நச்சுத்தன்மை என்றால் என்ன?", "ಗಾಸಿಪೋಲ್ ವಿಷಬಾಧೆ ಎಂದರೇನು?", "गॉसिपॉल विषाक्तता क्या है?"),
             html: L(
-              "Cottonseed and cottonseed-based feeds are commonly given to high-yielding dairy cows because they are rich in protein. But cottonseed naturally contains a substance called <b>gossypol</b>. If cows — especially heavy milk producers eating a lot of feed — are given cottonseed products in excess, or over a long period, gossypol can build up in the body and become poisonous. Other adult ruminants fed too much gossypol for a long time can also be affected."
+              "Cottonseed and cottonseed-based feeds are commonly given to high-yielding dairy cows because they are rich in protein. But cottonseed naturally contains a substance called <b>gossypol</b>. If cows — especially heavy milk producers eating a lot of feed — are given cottonseed products in excess, or over a long period, gossypol can build up in the body and become poisonous. Other adult ruminants fed too much gossypol for a long time can also be affected.",
+              "పత్తి గింజలు మరియు పత్తి గింజల ఆధారిత దాణాలు ప్రోటీన్ అధికంగా ఉండటం వల్ల అధిక పాల దిగుబడినిచ్చే ఆవులకు సాధారణంగా ఇవ్వబడతాయి. కానీ పత్తి గింజలలో సహజంగా <b>గాసిపాల్</b> అనే పదార్థం ఉంటుంది. ఎక్కువ దాణా తినే ఆవులకు — ముఖ్యంగా అధిక పాల ఉత్పత్తిదారులకు — పత్తి గింజల ఉత్పత్తులను అధికంగా లేదా చాలా కాలం పాటు ఇస్తే, గాసిపాల్ శరీరంలో పేరుకుపోయి విషప్రయోగంగా మారవచ్చు. చాలా కాలం పాటు అధిక గాసిపాల్ తినే ఇతర వయోజన నెమరువేసే జంతువులు కూడా ప్రభావితం కావచ్చు.",
+              "பருத்தி விதை மற்றும் பருத்தி விதை அடிப்படையிலான தீவனங்கள் புரதம் நிறைந்தவை என்பதால் அதிக பால் தரும் பசுக்களுக்கு பொதுவாக வழங்கப்படுகின்றன. ஆனால் பருத்தி விதையில் இயற்கையாகவே <b>காசிபோல்</b> எனப்படும் பொருள் உள்ளது. அதிக தீவனம் உண்ணும் பசுக்களுக்கு — குறிப்பாக அதிக பால் உற்பத்தியாளர்களுக்கு — பருத்தி விதை பொருட்களை அதிகமாக அல்லது நீண்ட காலம் வழங்கினால், காசிபோல் உடலில் குவிந்து நச்சுத்தன்மையாக மாறலாம். நீண்ட காலம் அதிக காசிபோல் உண்ணும் மற்ற வயது வந்த அசைபோடும் விலங்குகளும் பாதிக்கப்படலாம்.",
+              "ಪ್ರೋಟೀನ್ ಸಮೃದ್ಧವಾಗಿರುವ ಕಾರಣ ಹೆಚ್ಚು ಹಾಲು ಕೊಡುವ ಹಸುಗಳಿಗೆ ಹತ್ತಿ ಬೀಜ ಮತ್ತು ಹತ್ತಿ ಬೀಜ ಆಧಾರಿತ ಮೇವುಗಳನ್ನು ಸಾಮಾನ್ಯವಾಗಿ ನೀಡಲಾಗುತ್ತದೆ. ಆದರೆ ಹತ್ತಿ ಬೀಜದಲ್ಲಿ ಸ್ವಾಭಾವಿಕವಾಗಿ <b>ಗಾಸಿಪೋಲ್</b> ಎಂಬ ವಸ್ತು ಇರುತ್ತದೆ. ಹೆಚ್ಚು ಮೇವು ತಿನ್ನುವ ಹಸುಗಳಿಗೆ — ವಿಶೇಷವಾಗಿ ಹೆಚ್ಚು ಹಾಲು ಉತ್ಪಾದಿಸುವವುಗಳಿಗೆ — ಹತ್ತಿ ಬೀಜದ ಉತ್ಪನ್ನಗಳನ್ನು ಅತಿಯಾಗಿ ಅಥವಾ ದೀರ್ಘಕಾಲ ನೀಡಿದರೆ, ಗಾಸಿಪೋಲ್ ದೇಹದಲ್ಲಿ ಸಂಗ್ರಹವಾಗಿ ವಿಷಕಾರಿಯಾಗಬಹುದು. ದೀರ್ಘಕಾಲ ಹೆಚ್ಚು ಗಾಸಿಪೋಲ್ ತಿನ್ನುವ ಇತರ ವಯಸ್ಕ ಮೆಲುಕು ಹಾಕುವ ಪ್ರಾಣಿಗಳೂ ಸಹ ಬಾಧಿತವಾಗಬಹುದು.",
+              "कपास के बीज और कपास के बीज पर आधारित चारा आमतौर पर अधिक दूध देने वाली गायों को दिया जाता है क्योंकि इनमें प्रोटीन भरपूर होता है। लेकिन कपास के बीज में प्राकृतिक रूप से <b>गॉसिपॉल</b> नामक पदार्थ होता है। अगर गायों को — खासकर अधिक चारा खाने वाली अधिक दूध देने वाली गायों को — कपास के बीज के उत्पाद अधिक मात्रा में या लंबे समय तक दिए जाएं, तो गॉसिपॉल शरीर में जमा होकर विषैला बन सकता है। लंबे समय तक बहुत अधिक गॉसिपॉल खाने वाले अन्य वयस्क जुगाली करने वाले जानवर भी प्रभावित हो सकते हैं।"
             ),
           },
           {
             type: "glossary",
-            term: L("Gossypol"),
+            term: L("Gossypol", "గాసిపాల్", "காசிபோல்", "ಗಾಸಿಪೋಲ್", "गॉसिपॉल"),
             meaning: L(
-              "A natural substance found in cottonseed. In small amounts it is not a problem, but if an animal — especially a high-producing dairy cow — eats too much cottonseed feed, or eats it for too long, gossypol can build up in the body and cause poisoning."
+              "A natural substance found in cottonseed. In small amounts it is not a problem, but if an animal — especially a high-producing dairy cow — eats too much cottonseed feed, or eats it for too long, gossypol can build up in the body and cause poisoning.",
+              "పత్తి గింజలలో లభించే సహజ పదార్థం. తక్కువ మొత్తంలో ఇది సమస్య కాదు, కానీ ఒక జంతువు — ముఖ్యంగా అధిక పాల ఉత్పత్తినిచ్చే ఆవు — చాలా ఎక్కువ పత్తి గింజల దాణాను తింటే, లేదా చాలా కాలం పాటు తింటే, గాసిపాల్ శరీరంలో పేరుకుపోయి విషప్రయోగానికి కారణమవుతుంది.",
+              "பருத்தி விதையில் காணப்படும் இயற்கை பொருள். சிறிய அளவில் இது பிரச்சனை இல்லை, ஆனால் ஒரு விலங்கு — குறிப்பாக அதிக பால் உற்பத்தி செய்யும் பசு — அதிக பருத்தி விதை தீவனத்தை உண்டால், அல்லது நீண்ட காலம் உண்டால், காசிபோல் உடலில் குவிந்து நச்சுத்தன்மையை ஏற்படுத்தும்.",
+              "ಹತ್ತಿ ಬೀಜದಲ್ಲಿ ಕಂಡುಬರುವ ಸ್ವಾಭಾವಿಕ ವಸ್ತು. ಕಡಿಮೆ ಪ್ರಮಾಣದಲ್ಲಿ ಇದು ಸಮಸ್ಯೆಯಲ್ಲ, ಆದರೆ ಒಂದು ಪ್ರಾಣಿ — ವಿಶೇಷವಾಗಿ ಹೆಚ್ಚು ಹಾಲು ಉತ್ಪಾದಿಸುವ ಹಸು — ಹೆಚ್ಚು ಹತ್ತಿ ಬೀಜದ ಮೇವನ್ನು ತಿಂದರೆ, ಅಥವಾ ಬಹಳ ಕಾಲ ತಿಂದರೆ, ಗಾಸಿಪೋಲ್ ದೇಹದಲ್ಲಿ ಸಂಗ್ರಹವಾಗಿ ವಿಷಬಾಧೆಗೆ ಕಾರಣವಾಗಬಹುದು.",
+              "कपास के बीज में पाया जाने वाला प्राकृतिक पदार्थ। कम मात्रा में यह कोई समस्या नहीं है, लेकिन अगर कोई जानवर — खासकर अधिक दूध देने वाली गाय — बहुत अधिक कपास के बीज का चारा खाए, या बहुत लंबे समय तक खाए, तो गॉसिपॉल शरीर में जमा होकर विषाक्तता का कारण बन सकता है।"
             ),
           },
           {
             type: "stat-grid",
             items: [
               {
-                label: L("Early signs"),
-                text: L("Irregular breeding cycles in cows and buffaloes, and reduced interest in mating in male animals."),
+                label: L("Early signs", "ప్రారంభ లక్షణాలు", "ஆரம்ப அறிகுறிகள்", "ಆರಂಭಿಕ ಲಕ್ಷಣಗಳು", "प्रारंभिक लक्षण"),
+                text: L("Irregular breeding cycles in cows and buffaloes, and reduced interest in mating in male animals.", "ఆవులు మరియు గేదెలలో సక్రమంగా లేని సంతానోత్పత్తి చక్రాలు, మరియు మగ జంతువులలో సంభోగం పట్ల ఆసక్తి తగ్గడం.", "பசுக்கள் மற்றும் எருமைகளில் ஒழுங்கற்ற இனப்பெருக்க சுழற்சிகள், மற்றும் ஆண் விலங்குகளில் இணைவதில் ஆர்வம் குறைதல்.", "ಹಸುಗಳು ಮತ್ತು ಎಮ್ಮೆಗಳಲ್ಲಿ ಅನಿಯಮಿತ ಸಂತಾನೋತ್ಪತ್ತಿ ಚಕ್ರಗಳು, ಮತ್ತು ಗಂಡು ಪ್ರಾಣಿಗಳಲ್ಲಿ ಸಂಭೋಗದ ಆಸಕ್ತಿ ಕಡಿಮೆಯಾಗುವುದು.", "गायों और भैंसों में अनियमित प्रजनन चक्र, और नर पशुओं में संभोग में रुचि कम होना।"),
               },
               {
-                label: L("General body signs"),
-                text: L("Weight loss, weakness, going off feed (not eating), and becoming more easily stressed than usual."),
+                label: L("General body signs", "సాధారణ శరీర లక్షణాలు", "பொதுவான உடல் அறிகுறிகள்", "ಸಾಮಾನ್ಯ ದೇಹದ ಲಕ್ಷಣಗಳು", "सामान्य शारीरिक लक्षण"),
+                text: L("Weight loss, weakness, going off feed (not eating), and becoming more easily stressed than usual.", "బరువు తగ్గడం, బలహీనత, దాణా మానేయడం (తినకపోవడం), మరియు మామూలు కంటే సులభంగా ఒత్తిడికి గురికావడం.", "எடை இழப்பு, பலவீனம், தீவனம் உண்ணாமல் இருத்தல், மற்றும் வழக்கத்தை விட எளிதில் மன அழுத்தத்திற்கு உள்ளாதல்.", "ತೂಕ ನಷ್ಟ, ದೌರ್ಬಲ್ಯ, ಮೇವು ತಿನ್ನದಿರುವುದು, ಮತ್ತು ಸಾಮಾನ್ಯಕ್ಕಿಂತ ಸುಲಭವಾಗಿ ಒತ್ತಡಕ್ಕೆ ಒಳಗಾಗುವುದು.", "वजन घटना, कमजोरी, चारा खाना छोड़ देना, और सामान्य से अधिक आसानी से तनावग्रस्त हो जाना।"),
               },
               {
-                label: L("More serious signs"),
+                label: L("More serious signs", "మరింత తీవ్రమైన లక్షణాలు", "மேலும் தீவிரமான அறிகுறிகள்", "ಹೆಚ್ಚು ಗಂಭೀರ ಲಕ್ಷಣಗಳು", "अधिक गंभीर लक्षण"),
                 text: L(
-                  "In adult dairy cattle: weakness, dullness (depression), not eating, swelling under the skin near the chest (called the brisket), and difficult breathing. Blood may also appear in the urine, along with reproductive problems."
+                  "In adult dairy cattle: weakness, dullness (depression), not eating, swelling under the skin near the chest (called the brisket), and difficult breathing. Blood may also appear in the urine, along with reproductive problems.",
+                  "వయోజన పాడి పశువులలో: బలహీనత, నీరసం (డిప్రెషన్), తినకపోవడం, ఛాతీ దగ్గర చర్మం కింద వాపు (బ్రిస్కెట్ అని పిలుస్తారు), మరియు శ్వాస తీసుకోవడంలో ఇబ్బంది. మూత్రంలో రక్తం కూడా కనిపించవచ్చు, సంతానోత్పత్తి సమస్యలతో పాటు.",
+                  "வயது வந்த பால் கால்நடைகளில்: பலவீனம், மந்தநிலை, உண்ணாமை, மார்பு அருகே தோலுக்கு அடியில் வீக்கம் (பிரிஸ்கெட் எனப்படும்), மற்றும் சுவாசிப்பதில் சிரமம். சிறுநீரில் இரத்தமும் தோன்றலாம், இனப்பெருக்க பிரச்சனைகளுடன்.",
+                  "ವಯಸ್ಕ ಹೈನು ಜಾನುವಾರುಗಳಲ್ಲಿ: ದೌರ್ಬಲ್ಯ, ಜಡತೆ (ಖಿನ್ನತೆ), ತಿನ್ನದಿರುವುದು, ಎದೆಯ ಬಳಿ ಚರ್ಮದ ಕೆಳಗೆ ಊತ (ಬ್ರಿಸ್ಕೆಟ್ ಎಂದು ಕರೆಯುತ್ತಾರೆ), ಮತ್ತು ಉಸಿರಾಟದ ತೊಂದರೆ. ಮೂತ್ರದಲ್ಲಿ ರಕ್ತವೂ ಕಾಣಿಸಿಕೊಳ್ಳಬಹುದು, ಸಂತಾನೋತ್ಪತ್ತಿ ಸಮಸ್ಯೆಗಳ ಜೊತೆಗೆ.",
+                  "वयस्क डेयरी पशुओं में: कमजोरी, सुस्ती (डिप्रेशन), न खाना, छाती के पास त्वचा के नीचे सूजन (जिसे ब्रिस्केट कहते हैं), और सांस लेने में कठिनाई। पेशाब में खून भी दिख सकता है, प्रजनन संबंधी समस्याओं के साथ।"
                 ),
               },
             ],
@@ -5688,130 +5704,162 @@ export const MODULES = [
           {
             type: "callout",
             style: "warning",
-            heading: L("Don't Wait — Even After Feed Is Stopped"),
+            heading: L("Don't Wait — Even After Feed Is Stopped", "వేచి ఉండకండి — దాణా ఆపిన తర్వాత కూడా", "காத்திருக்க வேண்டாம் — தீவனம் நிறுத்தப்பட்ட பின்னரும் கூட", "ಕಾಯಬೇಡಿ — ಮೇವು ನಿಲ್ಲಿಸಿದ ನಂತರವೂ", "इंतज़ार न करें — चारा बंद करने के बाद भी"),
             text: L(
-              "Gossypol poisoning is serious. Even after cottonseed feed is removed, severely affected animals can still die up to two weeks later, and poor weight gain can continue for several weeks. This is exactly why noticing the early signs and reporting them immediately matters so much — the sooner a vet is involved, the better the animal's chances."
+              "Gossypol poisoning is serious. Even after cottonseed feed is removed, severely affected animals can still die up to two weeks later, and poor weight gain can continue for several weeks. This is exactly why noticing the early signs and reporting them immediately matters so much — the sooner a vet is involved, the better the animal's chances.",
+              "గాసిపాల్ విషప్రయోగం తీవ్రమైనది. పత్తి గింజల దాణాను తొలగించిన తర్వాత కూడా, తీవ్రంగా ప్రభావితమైన జంతువులు రెండు వారాల తర్వాత కూడా చనిపోవచ్చు, మరియు సరిగా బరువు పెరగకపోవడం చాలా వారాల పాటు కొనసాగవచ్చు. అందుకే ప్రారంభ లక్షణాలను గమనించి వెంటనే నివేదించడం చాలా ముఖ్యం — పశువైద్యుడు వీలైనంత త్వరగా ప్రమేయం చేసుకుంటే, జంతువు బతికే అవకాశాలు మెరుగవుతాయి.",
+              "காசிபோல் நச்சுத்தன்மை கடுமையானது. பருத்தி விதை தீவனத்தை நீக்கிய பின்னரும் கூட, கடுமையாக பாதிக்கப்பட்ட விலங்குகள் இரண்டு வாரங்களுக்குப் பிறகும் இறக்கலாம், மேலும் சரியான எடை அதிகரிப்பு பல வாரங்களுக்கு தடைபடலாம். ஆரம்ப அறிகுறிகளைக் கவனித்து உடனடியாக தெரிவிப்பது மிகவும் முக்கியமானது என்பதற்கு இதுவே காரணம் — கால்நடை மருத்துவர் விரைவில் ஈடுபடுந்தோறும், விலங்கின் வாய்ப்புகள் சிறப்பாக இருக்கும்.",
+              "ಗಾಸಿಪೋಲ್ ವಿಷಬಾಧೆ ಗಂಭೀರವಾದದ್ದು. ಹತ್ತಿ ಬೀಜದ ಮೇವನ್ನು ತೆಗೆದುಹಾಕಿದ ನಂತರವೂ, ತೀವ್ರವಾಗಿ ಬಾಧಿತವಾದ ಪ್ರಾಣಿಗಳು ಎರಡು ವಾರಗಳ ನಂತರವೂ ಸಾಯಬಹುದು, ಮತ್ತು ಸರಿಯಾದ ತೂಕ ಹೆಚ್ಚಳವಿಲ್ಲದಿರುವುದು ಹಲವಾರು ವಾರಗಳ ಕಾಲ ಮುಂದುವರಿಯಬಹುದು. ಆರಂಭಿಕ ಲಕ್ಷಣಗಳನ್ನು ಗಮನಿಸಿ ತಕ್ಷಣ ವರದಿ ಮಾಡುವುದು ಇಷ್ಟು ಮುಖ್ಯವಾಗಿರುವುದಕ್ಕೆ ಇದೇ ಕಾರಣ — ಪಶುವೈದ್ಯರು ಎಷ್ಟು ಬೇಗ ತೊಡಗಿಸಿಕೊಳ್ಳುತ್ತಾರೋ, ಪ್ರಾಣಿಯ ಬದುಕುಳಿಯುವ ಅವಕಾಶ ಅಷ್ಟು ಉತ್ತಮವಾಗಿರುತ್ತದೆ.",
+              "गॉसिपॉल विषाक्तता गंभीर है। कपास के बीज का चारा हटाने के बाद भी, गंभीर रूप से प्रभावित पशु दो सप्ताह बाद तक भी मर सकते हैं, और वजन ठीक से न बढ़ना कई सप्ताह तक जारी रह सकता है। इसीलिए प्रारंभिक लक्षणों को पहचानना और तुरंत सूचित करना इतना महत्वपूर्ण है — पशु चिकित्सक जितनी जल्दी शामिल हो, पशु के बचने की संभावना उतनी ही बेहतर होती है।"
             ),
           },
           {
             type: "callout",
             style: "tip",
-            heading: L("If You Suspect Gossypol Poisoning"),
+            heading: L("If You Suspect Gossypol Poisoning", "గాసిపాల్ విషప్రయోగాన్ని మీరు అనుమానించినట్లయితే", "காசிபோல் நச்சுத்தன்மையை நீங்கள் சந்தேகித்தால்", "ಗಾಸಿಪೋಲ್ ವಿಷಬಾಧೆಯನ್ನು ನೀವು ಸಂಶಯಿಸಿದರೆ", "अगर आपको गॉसिपॉल विषाक्तता का संदेह हो"),
             text: L(
-              "Stop feeding cottonseed or cottonseed products to the animal straight away, and inform the owner or vet immediately. Do not try to treat the animal yourself beyond this — a vet needs to guide any further care, including any changes to diet."
+              "Stop feeding cottonseed or cottonseed products to the animal straight away, and inform the owner or vet immediately. Do not try to treat the animal yourself beyond this — a vet needs to guide any further care, including any changes to diet.",
+              "వెంటనే జంతువుకు పత్తి గింజలు లేదా పత్తి గింజల ఉత్పత్తులు ఇవ్వడం ఆపేయండి, మరియు వెంటనే యజమానికి లేదా పశువైద్యుడికి తెలియజేయండి. దీనికి మించి మీరు స్వయంగా జంతువుకు చికిత్స చేయడానికి ప్రయత్నించవద్దు — ఆహారంలో ఏవైనా మార్పులతో సహా తదుపరి సంరక్షణను పశువైద్యుడు మార్గనిర్దేశం చేయాలి.",
+              "உடனடியாக விலங்குக்கு பருத்தி விதை அல்லது பருத்தி விதை பொருட்களை வழங்குவதை நிறுத்தி, உடனடியாக உரிமையாளர் அல்லது கால்நடை மருத்துவருக்கு தெரிவிக்கவும். இதற்கு மேல் நீங்களே விலங்குக்கு சிகிச்சை அளிக்க முயற்சிக்க வேண்டாம் — உணவில் ஏதேனும் மாற்றங்கள் உட்பட மேலதிக பராமரிப்பை கால்நடை மருத்துவர் வழிகாட்ட வேண்டும்.",
+              "ತಕ್ಷಣ ಪ್ರಾಣಿಗೆ ಹತ್ತಿ ಬೀಜ ಅಥವಾ ಹತ್ತಿ ಬೀಜದ ಉತ್ಪನ್ನಗಳನ್ನು ನೀಡುವುದನ್ನು ನಿಲ್ಲಿಸಿ, ಮತ್ತು ತಕ್ಷಣ ಮಾಲೀಕರಿಗೆ ಅಥವಾ ಪಶುವೈದ್ಯರಿಗೆ ತಿಳಿಸಿ. ಇದಕ್ಕಿಂತ ಹೆಚ್ಚಾಗಿ ನೀವೇ ಪ್ರಾಣಿಗೆ ಚಿಕಿತ್ಸೆ ನೀಡಲು ಪ್ರಯತ್ನಿಸಬೇಡಿ — ಆಹಾರದಲ್ಲಿನ ಯಾವುದೇ ಬದಲಾವಣೆಗಳು ಸೇರಿದಂತೆ ಮುಂದಿನ ಆರೈಕೆಯನ್ನು ಪಶುವೈದ್ಯರು ಮಾರ್ಗದರ್ಶನ ಮಾಡಬೇಕು.",
+              "तुरंत पशु को कपास के बीज या कपास के बीज के उत्पाद खिलाना बंद करें, और तुरंत मालिक या पशु चिकित्सक को सूचित करें। इससे आगे खुद पशु का इलाज करने की कोशिश न करें — आहार में किसी भी बदलाव सहित आगे की देखभाल के लिए पशु चिकित्सक का मार्गदर्शन आवश्यक है।"
             ),
           },
         ],
         check: [
           {
             type: "mcq",
-            q: L("Gossypol poisoning is caused by:"),
+            q: L("Gossypol poisoning is caused by:", "గాసిపాల్ విషప్రయోగానికి కారణం:", "காசிபோல் நச்சுத்தன்மைக்கு காரணம்:", "ಗಾಸಿಪೋಲ್ ವಿಷಬಾಧೆಗೆ ಕಾರಣ:", "गॉसिपॉल विषाक्तता का कारण है:"),
             options: [
-              L("Cottonseed or cottonseed feed given in excess or over long periods"),
-              L("A snake bite"),
-              L("Dirty drinking water"),
-              L("The animal working too hard"),
+              L("Cottonseed or cottonseed feed given in excess or over long periods", "పత్తి గింజలు లేదా పత్తి గింజల దాణాను అధికంగా లేదా చాలా కాలం పాటు ఇవ్వడం", "பருத்தி விதை அல்லது பருத்தி விதை தீவனத்தை அதிகமாக அல்லது நீண்ட காலம் வழங்குதல்", "ಹತ್ತಿ ಬೀಜ ಅಥವಾ ಹತ್ತಿ ಬೀಜದ ಮೇವನ್ನು ಅತಿಯಾಗಿ ಅಥವಾ ದೀರ್ಘಕಾಲ ನೀಡುವುದು", "कपास के बीज या कपास के बीज का चारा अधिक मात्रा में या लंबे समय तक देना"),
+              L("A snake bite", "పాము కాటు", "பாம்பு கடி", "ಹಾವು ಕಡಿತ", "साँप का काटना"),
+              L("Dirty drinking water", "మురికి తాగునీరు", "அழுக்கு குடிநீர்", "ಕೊಳಕು ಕುಡಿಯುವ ನೀರು", "गंदा पीने का पानी"),
+              L("The animal working too hard", "జంతువు ఎక్కువగా పనిచేయడం", "விலங்கு அதிகமாக வேலை செய்தல்", "ಪ್ರಾಣಿ ಹೆಚ್ಚು ಕೆಲಸ ಮಾಡುವುದು", "जानवर का बहुत अधिक काम करना"),
             ],
             answer: 0,
             explain: L(
-              "Gossypol is a substance naturally found in cottonseed. Too much of it, or feeding it for too long, can build up in the body and poison the animal."
+              "Gossypol is a substance naturally found in cottonseed. Too much of it, or feeding it for too long, can build up in the body and poison the animal.",
+              "గాసిపాల్ అనేది పత్తి గింజలలో సహజంగా లభించే పదార్థం. దీన్ని ఎక్కువగా లేదా చాలా కాలం పాటు తినిపిస్తే, శరీరంలో పేరుకుపోయి జంతువుకు విషప్రయోగం కలిగించవచ్చు.",
+              "காசிபோல் என்பது பருத்தி விதையில் இயற்கையாகவே காணப்படும் பொருள். இதை அதிகமாக அல்லது நீண்ட காலம் ஊட்டினால், உடலில் குவிந்து விலங்குக்கு நச்சுத்தன்மையை ஏற்படுத்தும்.",
+              "ಗಾಸಿಪೋಲ್ ಹತ್ತಿ ಬೀಜದಲ್ಲಿ ಸ್ವಾಭಾವಿಕವಾಗಿ ಕಂಡುಬರುವ ವಸ್ತುವಾಗಿದೆ. ಇದನ್ನು ಹೆಚ್ಚು ಅಥವಾ ಬಹಳ ಕಾಲ ತಿನ್ನಿಸಿದರೆ, ದೇಹದಲ್ಲಿ ಸಂಗ್ರಹವಾಗಿ ಪ್ರಾಣಿಗೆ ವಿಷಬಾಧೆ ಉಂಟುಮಾಡಬಹುದು.",
+              "गॉसिपॉल कपास के बीज में प्राकृतिक रूप से पाया जाने वाला पदार्थ है। इसे अधिक मात्रा में या लंबे समय तक खिलाने से यह शरीर में जमा होकर जानवर को विषाक्त कर सकता है।"
             ),
           },
           {
             type: "truefalse",
-            q: L("Once cottonseed feed is removed from an affected animal's diet, the animal is immediately safe and can no longer die from gossypol poisoning."),
+            q: L("Once cottonseed feed is removed from an affected animal's diet, the animal is immediately safe and can no longer die from gossypol poisoning.", "ప్రభావితమైన జంతువు ఆహారం నుండి పత్తి గింజల దాణాను తొలగించిన వెంటనే, ఆ జంతువు వెంటనే సురక్షితంగా మారి గాసిపాల్ విషప్రయోగంతో చనిపోదు.", "பாதிக்கப்பட்ட விலங்கின் உணவில் இருந்து பருத்தி விதை தீவனம் நீக்கப்பட்டவுடன், அந்த விலங்கு உடனடியாக பாதுகாப்பாகி காசிபோல் நச்சுத்தன்மையால் இனி இறக்காது.", "ಬಾಧಿತ ಪ್ರಾಣಿಯ ಆಹಾರದಿಂದ ಹತ್ತಿ ಬೀಜದ ಮೇವನ್ನು ತೆಗೆದುಹಾಕಿದ ತಕ್ಷಣ, ಆ ಪ್ರಾಣಿ ತಕ್ಷಣ ಸುರಕ್ಷಿತವಾಗುತ್ತದೆ ಮತ್ತು ಗಾಸಿಪೋಲ್ ವಿಷಬಾಧೆಯಿಂದ ಇನ್ನು ಸಾಯುವುದಿಲ್ಲ.", "प्रभावित पशु के आहार से कपास के बीज का चारा हटाते ही, वह पशु तुरंत सुरक्षित हो जाता है और गॉसिपॉल विषाक्तता से अब नहीं मर सकता।"),
             answer: false,
             explain: L(
-              "No — severely affected animals can still die up to two weeks after cottonseed products are stopped. Removing the feed is essential, but it is not an instant cure."
+              "No — severely affected animals can still die up to two weeks after cottonseed products are stopped. Removing the feed is essential, but it is not an instant cure.",
+              "కాదు — పత్తి గింజల ఉత్పత్తులను ఆపిన తర్వాత కూడా తీవ్రంగా ప్రభావితమైన జంతువులు రెండు వారాల వరకు చనిపోవచ్చు. దాణాను తొలగించడం అవసరమే, కానీ అది తక్షణ నివారణ కాదు.",
+              "இல்லை — பருத்தி விதை பொருட்களை நிறுத்திய பிறகும் கடுமையாக பாதிக்கப்பட்ட விலங்குகள் இரண்டு வாரங்கள் வரை இறக்கலாம். தீவனத்தை நீக்குவது அவசியம், ஆனால் அது உடனடி குணப்படுத்தல் அல்ல.",
+              "ಇಲ್ಲ — ಹತ್ತಿ ಬೀಜದ ಉತ್ಪನ್ನಗಳನ್ನು ನಿಲ್ಲಿಸಿದ ನಂತರವೂ ತೀವ್ರವಾಗಿ ಬಾಧಿತವಾದ ಪ್ರಾಣಿಗಳು ಎರಡು ವಾರಗಳವರೆಗೆ ಸಾಯಬಹುದು. ಮೇವನ್ನು ತೆಗೆದುಹಾಕುವುದು ಅಗತ್ಯ, ಆದರೆ ಅದು ತಕ್ಷಣದ ಪರಿಹಾರವಲ್ಲ.",
+              "नहीं — कपास के बीज के उत्पाद बंद करने के बाद भी गंभीर रूप से प्रभावित पशु दो सप्ताह तक मर सकते हैं। चारा हटाना ज़रूरी है, लेकिन यह तुरंत इलाज नहीं है।"
             ),
           },
         ],
       },
       {
         id: "t-m10-cyanide",
-        title: L("Cyanide Poisoning: A Fast-Moving Emergency from Certain Plants"),
+        title: L("Cyanide Poisoning: A Fast-Moving Emergency from Certain Plants", "సైనైడ్ విషప్రయోగం: కొన్ని మొక్కల నుండి వేగంగా జరిగే అత్యవసర పరిస్థితి", "சயனைடு நச்சுத்தன்மை: சில தாவரங்களால் ஏற்படும் விரைவான அவசரநிலை", "ಸೈನೈಡ್ ವಿಷಬಾಧೆ: ಕೆಲವು ಸಸ್ಯಗಳಿಂದ ವೇಗವಾಗಿ ಸಂಭವಿಸುವ ತುರ್ತು ಪರಿಸ್ಥಿತಿ", "साइनाइड विषाक्तता: कुछ पौधों से होने वाली तेज़ी से बढ़ने वाली आपात स्थिति"),
         teach: [
             {
               type: "photo",
               src: "assets/illustration-m10-cyanide.png",
-              alt: L("Illustrated three-step diagram: an animal eating young sorghum or cassava leaves, cyanide blocking oxygen use in the body's cells, and the animal collapsing."),
-              caption: L("Illustration: how cyanide poisoning happens — it blocks the body's cells from using oxygen, causing sudden breathing distress and collapse."),
+              alt: L("Illustrated three-step diagram: an animal eating young sorghum or cassava leaves, cyanide blocking oxygen use in the body's cells, and the animal collapsing.", "మూడు దశల చిత్రపటం: లేత జొన్న లేదా కర్రపెండలం ఆకులు తింటున్న జంతువు, శరీర కణాలలో ఆక్సిజన్ వినియోగాన్ని అడ్డుకునే సైనైడ్, మరియు కుప్పకూలిపోతున్న జంతువు.", "மூன்று-படி விளக்கப்படம்: இளம் சோளம் அல்லது மரவள்ளிக்கிழங்கு இலைகளை உண்ணும் விலங்கு, உடலின் செல்களில் ஆக்ஸிஜன் பயன்பாட்டை தடுக்கும் சயனைடு, மற்றும் விலங்கு சரிந்து விழுதல்.", "ಮೂರು-ಹಂತದ ಚಿತ್ರ: ಎಳೆಯ ಜೋಳ ಅಥವಾ ಮರಗೆಣಸಿನ ಎಲೆಗಳನ್ನು ತಿನ್ನುವ ಪ್ರಾಣಿ, ದೇಹದ ಜೀವಕೋಶಗಳಲ್ಲಿ ಆಮ್ಲಜನಕ ಬಳಕೆಯನ್ನು ತಡೆಯುವ ಸೈನೈಡ್, ಮತ್ತು ಪ್ರಾಣಿ ಕುಸಿದುಬೀಳುವುದು.", "तीन-चरण का चित्र: कोमल ज्वार या कसावा (टैपिओका) की पत्तियाँ खाता जानवर, शरीर की कोशिकाओं में ऑक्सीजन के उपयोग को रोकता साइनाइड, और गिरता हुआ जानवर।"),
+              caption: L("Illustration: how cyanide poisoning happens — it blocks the body's cells from using oxygen, causing sudden breathing distress and collapse.", "చిత్రం: సైనైడ్ విషప్రయోగం ఎలా జరుగుతుంది — ఇది శరీర కణాలు ఆక్సిజన్‌ను వినియోగించకుండా అడ్డుకుంటుంది, దీనివల్ల ఆకస్మిక శ్వాస ఇబ్బంది మరియు కుప్పకూలడం జరుగుతుంది.", "விளக்கப்படம்: சயனைடு நச்சுத்தன்மை எப்படி ஏற்படுகிறது — இது உடலின் செல்கள் ஆக்ஸிஜனைப் பயன்படுத்துவதைத் தடுக்கிறது, இது திடீர் சுவாச சிரமம் மற்றும் சரிந்து விழுதலை ஏற்படுத்துகிறது.", "ಚಿತ್ರ: ಸೈನೈಡ್ ವಿಷಬಾಧೆ ಹೇಗೆ ಸಂಭವಿಸುತ್ತದೆ — ಇದು ದೇಹದ ಜೀವಕೋಶಗಳು ಆಮ್ಲಜನಕವನ್ನು ಬಳಸದಂತೆ ತಡೆಯುತ್ತದೆ, ಇದರಿಂದ ಹಠಾತ್ ಉಸಿರಾಟದ ತೊಂದರೆ ಮತ್ತು ಕುಸಿತ ಉಂಟಾಗುತ್ತದೆ.", "चित्रण: साइनाइड विषाक्तता कैसे होती है — यह शरीर की कोशिकाओं को ऑक्सीजन का उपयोग करने से रोकता है, जिससे अचानक सांस लेने में तकलीफ और गिरना होता है।"),
             },
             {
               type: "photo",
               src: "assets/photo-m10-sorghum.jpg",
-              alt: L("A sorghum plant growing in a field, with its tall grain seed head visible against a clear sky"),
-              caption: L("Sorghum — one of the plants this lesson names as a cyanide poisoning risk, especially at young growth stages."),
+              alt: L("A sorghum plant growing in a field, with its tall grain seed head visible against a clear sky", "పొలంలో పెరుగుతున్న జొన్న మొక్క, స్పష్టమైన ఆకాశానికి వ్యతిరేకంగా దాని పొడవైన ధాన్యం కంకి కనిపిస్తుంది", "ஒரு வயலில் வளரும் சோள செடி, தெளிவான வானத்திற்கு எதிராக அதன் உயரமான தானிய கதிர் தெரிகிறது", "ಹೊಲದಲ್ಲಿ ಬೆಳೆಯುತ್ತಿರುವ ಜೋಳದ ಗಿಡ, ಸ್ಪಷ್ಟ ಆಕಾಶದ ಹಿನ್ನೆಲೆಯಲ್ಲಿ ಅದರ ಎತ್ತರದ ಧಾನ್ಯದ ತೆನೆ ಕಾಣಿಸುತ್ತದೆ", "खेत में उगता हुआ ज्वार का पौधा, साफ आसमान के सामने उसकी लंबी बाल दिखाई देती है"),
+              caption: L("Sorghum — one of the plants this lesson names as a cyanide poisoning risk, especially at young growth stages.", "జొన్న — ఈ పాఠం సైనైడ్ విషప్రయోగ ప్రమాదంగా పేర్కొన్న మొక్కలలో ఒకటి, ముఖ్యంగా లేత పెరుగుదల దశలలో.", "சோளம் — இந்த பாடம் சயனைடு நச்சுத்தன்மை ஆபத்தாக குறிப்பிடும் தாவரங்களில் ஒன்று, குறிப்பாக இளம் வளர்ச்சி நிலைகளில்.", "ಜೋಳ — ಈ ಪಾಠವು ಸೈನೈಡ್ ವಿಷಬಾಧೆ ಅಪಾಯವೆಂದು ಹೆಸರಿಸುವ ಸಸ್ಯಗಳಲ್ಲಿ ಒಂದು, ವಿಶೇಷವಾಗಿ ಎಳೆಯ ಬೆಳವಣಿಗೆಯ ಹಂತಗಳಲ್ಲಿ.", "ज्वार — यह पाठ जिन पौधों को साइनाइड विषाक्तता का खतरा बताता है, उनमें से एक, खासकर कोमल अवस्था में।"),
             },
             {
               type: "photo",
               src: "assets/photo-m10-cassava.jpg",
-              alt: L("Close-up of cassava (tapioca) plant leaves, showing their distinctive palm-shaped leaflets"),
-              caption: L("Tapioca (cassava) leaves — another plant this lesson names as a cyanide poisoning risk."),
+              alt: L("Close-up of cassava (tapioca) plant leaves, showing their distinctive palm-shaped leaflets", "కర్రపెండలం (టాపియోకా) మొక్క ఆకుల క్లోజప్, వాటి ప్రత్యేకమైన అరచేతి ఆకారపు చిన్న ఆకులను చూపిస్తుంది", "மரவள்ளிக்கிழங்கு (டேபியோகா) செடி இலைகளின் நெருக்கமான காட்சி, அவற்றின் தனித்துவமான உள்ளங்கை வடிவ இலைகளைக் காட்டுகிறது", "ಮರಗೆಣಸು (ಟಪಿಯೋಕಾ) ಗಿಡದ ಎಲೆಗಳ ಸಮೀಪ ನೋಟ, ಅವುಗಳ ವಿಶಿಷ್ಟ ಅಂಗೈ ಆಕಾರದ ಎಲೆಗಳನ್ನು ತೋರಿಸುತ್ತದೆ", "कसावा (टैपिओका) पौधे की पत्तियों का क्लोज़-अप, उनकी विशिष्ट हथेली-आकार की पत्तियाँ दिखाते हुए"),
+              caption: L("Tapioca (cassava) leaves — another plant this lesson names as a cyanide poisoning risk.", "టాపియోకా (కర్రపెండలం) ఆకులు — ఈ పాఠం సైనైడ్ విషప్రయోగ ప్రమాదంగా పేర్కొన్న మరో మొక్క.", "டேபியோகா (மரவள்ளிக்கிழங்கு) இலைகள் — இந்த பாடம் சயனைடு நச்சுத்தன்மை ஆபத்தாக குறிப்பிடும் மற்றொரு தாவரம்.", "ಟಪಿಯೋಕಾ (ಮರಗೆಣಸು) ಎಲೆಗಳು — ಈ ಪಾಠವು ಸೈನೈಡ್ ವಿಷಬಾಧೆ ಅಪಾಯವೆಂದು ಹೆಸರಿಸುವ ಇನ್ನೊಂದು ಸಸ್ಯ.", "टैपिओका (कसावा) की पत्तियाँ — यह पाठ जिस एक और पौधे को साइनाइड विषाक्तता का खतरा बताता है।"),
             },
           {
             type: "text",
-            heading: L("Where Cyanide Poisoning Comes From"),
+            heading: L("Where Cyanide Poisoning Comes From", "సైనైడ్ విషప్రయోగం ఎక్కడ నుండి వస్తుంది", "சயனைடு நச்சுத்தன்மை எங்கிருந்து வருகிறது", "ಸೈನೈಡ್ ವಿಷಬಾಧೆ ಎಲ್ಲಿಂದ ಬರುತ್ತದೆ", "साइनाइड विषाक्तता कहाँ से आती है"),
             html: L(
-              "The most common cause of cyanide poisoning is an animal eating certain plants — including arrow grass, velvet grass, young Sorghum plants, and tapioca leaves. These plants can contain enough cyanide to poison an animal that eats them, especially at certain growth stages."
+              "The most common cause of cyanide poisoning is an animal eating certain plants — including arrow grass, velvet grass, young Sorghum plants, and tapioca leaves. These plants can contain enough cyanide to poison an animal that eats them, especially at certain growth stages.",
+              "సైనైడ్ విషప్రయోగానికి అత్యంత సాధారణ కారణం జంతువు కొన్ని మొక్కలను తినడం — ఆరో గ్రాస్, వెల్వెట్ గ్రాస్, లేత జొన్న మొక్కలు, మరియు కర్రపెండలం ఆకులతో సహా. ఈ మొక్కలు వాటిని తినే జంతువుకు విషప్రయోగం కలిగించేంత సైనైడ్‌ను కలిగి ఉండవచ్చు, ముఖ్యంగా కొన్ని పెరుగుదల దశలలో.",
+              "சயனைடு நச்சுத்தன்மைக்கு மிகவும் பொதுவான காரணம் ஒரு விலங்கு சில தாவரங்களை உண்பதுதான் — அம்பு புல், வெல்வெட் புல், இளம் சோள செடிகள், மற்றும் மரவள்ளிக்கிழங்கு இலைகள் உட்பட. இந்த தாவரங்கள் அவற்றை உண்ணும் விலங்குக்கு நச்சுத்தன்மையை ஏற்படுத்தும் அளவு சயனைடைக் கொண்டிருக்கலாம், குறிப்பாக சில வளர்ச்சி நிலைகளில்.",
+              "ಸೈನೈಡ್ ವಿಷಬಾಧೆಗೆ ಅತ್ಯಂತ ಸಾಮಾನ್ಯ ಕಾರಣವೆಂದರೆ ಪ್ರಾಣಿ ಕೆಲವು ಸಸ್ಯಗಳನ್ನು ತಿನ್ನುವುದು — ಬಾಣ ಹುಲ್ಲು, ವೆಲ್ವೆಟ್ ಹುಲ್ಲು, ಎಳೆಯ ಜೋಳದ ಗಿಡಗಳು ಮತ್ತು ಮರಗೆಣಸಿನ ಎಲೆಗಳು ಸೇರಿದಂತೆ. ಈ ಸಸ್ಯಗಳು ಅವುಗಳನ್ನು ತಿನ್ನುವ ಪ್ರಾಣಿಗೆ ವಿಷಬಾಧೆ ಉಂಟುಮಾಡುವಷ್ಟು ಸೈನೈಡ್ ಅನ್ನು ಹೊಂದಿರಬಹುದು, ವಿಶೇಷವಾಗಿ ಕೆಲವು ಬೆಳವಣಿಗೆಯ ಹಂತಗಳಲ್ಲಿ.",
+              "साइनाइड विषाक्तता का सबसे सामान्य कारण है जानवर का कुछ पौधे खाना — जिनमें एरो ग्रास, वेल्वेट ग्रास, कोमल ज्वार के पौधे, और टैपिओका की पत्तियाँ शामिल हैं। इन पौधों में इतना साइनाइड हो सकता है कि इन्हें खाने वाला जानवर विषाक्त हो जाए, खासकर कुछ खास बढ़वार अवस्थाओं में।"
             ),
           },
           {
             type: "stat-grid",
             items: [
               {
-                label: L("How fast it happens"),
-                text: L("Signs can appear within just 15–20 minutes, or up to a few hours, after the animal eats the toxic plant."),
+                label: L("How fast it happens", "ఇది ఎంత వేగంగా జరుగుతుంది", "இது எவ்வளவு வேகமாக நடக்கிறது", "ಇದು ಎಷ್ಟು ವೇಗವಾಗಿ ಸಂಭವಿಸುತ್ತದೆ", "यह कितनी तेज़ी से होता है"),
+                text: L("Signs can appear within just 15–20 minutes, or up to a few hours, after the animal eats the toxic plant.", "జంతువు విషపూరిత మొక్కను తిన్న 15–20 నిమిషాలలోనే, లేదా కొన్ని గంటల వరకు లక్షణాలు కనిపించవచ్చు.", "விலங்கு நச்சுத் தாவரத்தை உண்ட 15–20 நிமிடங்களுக்குள், அல்லது சில மணி நேரங்களுக்குள் அறிகுறிகள் தோன்றலாம்.", "ಪ್ರಾಣಿ ವಿಷಕಾರಿ ಸಸ್ಯವನ್ನು ತಿಂದ 15–20 ನಿಮಿಷಗಳಲ್ಲಿ, ಅಥವಾ ಕೆಲವು ಗಂಟೆಗಳ ಒಳಗೆ ಲಕ್ಷಣಗಳು ಕಾಣಿಸಿಕೊಳ್ಳಬಹುದು.", "जानवर द्वारा ज़हरीला पौधा खाने के मात्र 15–20 मिनट के भीतर, या कुछ घंटों तक में लक्षण दिख सकते हैं।"),
               },
               {
-                label: L("Early signs"),
-                text: L("The animal may first appear excited or agitated."),
+                label: L("Early signs", "ప్రారంభ లక్షణాలు", "ஆரம்ப அறிகுறிகள்", "ಆರಂಭಿಕ ಲಕ್ಷಣಗಳು", "शुरुआती लक्षण"),
+                text: L("The animal may first appear excited or agitated.", "జంతువు మొదట ఉత్సాహంగా లేదా చికాకుగా కనిపించవచ్చు.", "விலங்கு முதலில் உற்சாகமாக அல்லது கிளர்ச்சியடைந்ததாகத் தோன்றலாம்.", "ಪ್ರಾಣಿ ಮೊದಲು ಉತ್ಸಾಹಗೊಂಡಂತೆ ಅಥವಾ ಆತಂಕಗೊಂಡಂತೆ ಕಾಣಿಸಬಹುದು.", "जानवर पहले उत्तेजित या बेचैन दिख सकता है।"),
               },
               {
-                label: L("Breathing and drooling"),
-                text: L("This is followed by fast, difficult breathing and heavy drooling (excess saliva)."),
+                label: L("Breathing and drooling", "శ్వాస మరియు లాలాజలం", "சுவாசம் மற்றும் உமிழ்நீர்", "ಉಸಿರಾಟ ಮತ್ತು ಜೊಲ್ಲು ಸುರಿಸುವಿಕೆ", "साँस लेना और लार टपकना"),
+                text: L("This is followed by fast, difficult breathing and heavy drooling (excess saliva).", "దీని తర్వాత వేగవంతమైన, కష్టమైన శ్వాస మరియు అధిక లాలాజలం (ఎక్కువ ఉమ్ముడు) కనిపిస్తాయి.", "இதைத் தொடர்ந்து வேகமான, கடினமான சுவாசம் மற்றும் அதிக உமிழ்நீர் (அதிக எச்சில்) ஏற்படும்.", "ಇದರ ನಂತರ ವೇಗದ, ಕಷ್ಟಕರ ಉಸಿರಾಟ ಮತ್ತು ಅತಿಯಾದ ಜೊಲ್ಲು ಸುರಿಸುವಿಕೆ (ಹೆಚ್ಚು ಜೊಲ್ಲು) ಕಂಡುಬರುತ್ತದೆ.", "इसके बाद तेज़, कठिन साँस लेना और अत्यधिक लार टपकना (ज़्यादा लार) होता है।"),
               },
               {
-                label: L("Gums and mouth colour"),
+                label: L("Gums and mouth colour", "చిగుళ్ళు మరియు నోటి రంగు", "ஈறுகள் மற்றும் வாய் நிறம்", "ಒಸಡುಗಳು ಮತ್ತು ಬಾಯಿಯ ಬಣ್ಣ", "मसूड़े और मुँह का रंग"),
                 text: L(
-                  "The gums and moist lining inside the mouth (mucous membranes) start out bright red, but may turn bluish later on."
+                  "The gums and moist lining inside the mouth (mucous membranes) start out bright red, but may turn bluish later on.",
+                  "చిగుళ్ళు మరియు నోటి లోపలి తడి పొర (శ్లేష్మ పొరలు) మొదట ప్రకాశవంతమైన ఎరుపుగా ఉంటాయి, కానీ తర్వాత నీలం రంగుకు మారవచ్చు.",
+                  "ஈறுகள் மற்றும் வாய்க்குள் இருக்கும் ஈரமான உள்படலம் (சளி சவ்வுகள்) முதலில் பிரகாசமான சிவப்பு நிறத்தில் இருக்கும், ஆனால் பின்னர் நீலம் கலந்த நிறமாக மாறலாம்.",
+                  "ಒಸಡುಗಳು ಮತ್ತು ಬಾಯಿಯ ಒಳಗಿನ ತೇವ ಪದರ (ಶ್ಲೇಷ್ಮ ಪೊರೆಗಳು) ಮೊದಲು ಪ್ರಕಾಶಮಾನ ಕೆಂಪು ಬಣ್ಣದಲ್ಲಿ ಇರುತ್ತವೆ, ಆದರೆ ನಂತರ ನೀಲಿ ಬಣ್ಣಕ್ಕೆ ತಿರುಗಬಹುದು.",
+                  "मसूड़े और मुँह के अंदर की नम परत (श्लेष्मा झिल्ली) शुरू में चमकीले लाल रंग की होती है, लेकिन बाद में नीली पड़ सकती है।"
                 ),
               },
             ],
           },
           {
             type: "glossary",
-            term: L("Mucous Membranes"),
+            term: L("Mucous Membranes", "శ్లేష్మ పొరలు", "சளி சவ்வுகள்", "ಶ್ಲೇಷ್ಮ ಪೊರೆಗಳು", "श्लेष्मा झिल्ली"),
             meaning: L(
-              "The soft, moist, pink lining inside an animal's mouth and gums. Checking their colour is one way people notice changes in an animal's condition."
+              "The soft, moist, pink lining inside an animal's mouth and gums. Checking their colour is one way people notice changes in an animal's condition.",
+              "జంతువు నోరు మరియు చిగుళ్ళ లోపల ఉండే మృదువైన, తడి, గులాబీ రంగు పొర. దీని రంగును పరిశీలించడం జంతువు పరిస్థితిలో మార్పులను గుర్తించే ఒక మార్గం.",
+              "ஒரு விலங்கின் வாய் மற்றும் ஈறுகளுக்குள் இருக்கும் மென்மையான, ஈரமான, இளஞ்சிவப்பு உள்படலம். அதன் நிறத்தை சரிபார்ப்பது விலங்கின் நிலையில் மாற்றங்களை மக்கள் கவனிக்கும் ஒரு வழி.",
+              "ಪ್ರಾಣಿಯ ಬಾಯಿ ಮತ್ತು ಒಸಡುಗಳ ಒಳಗಿನ ಮೃದುವಾದ, ತೇವವಾದ, ಗುಲಾಬಿ ಬಣ್ಣದ ಪದರ. ಅದರ ಬಣ್ಣವನ್ನು ಪರಿಶೀಲಿಸುವುದು ಪ್ರಾಣಿಯ ಸ್ಥಿತಿಯಲ್ಲಿನ ಬದಲಾವಣೆಗಳನ್ನು ಜನರು ಗಮನಿಸುವ ಒಂದು ವಿಧಾನ.",
+              "जानवर के मुँह और मसूड़ों के अंदर की नरम, नम, गुलाबी परत। इसके रंग की जाँच करना जानवर की स्थिति में बदलाव को पहचानने का एक तरीका है।"
             ),
           },
           {
             type: "callout",
             style: "warning",
-            heading: L("This Can Kill Within an Hour"),
+            heading: L("This Can Kill Within an Hour", "ఇది ఒక గంటలోపే ప్రాణాంతకం కావచ్చు", "இது ஒரு மணி நேரத்திற்குள் கொல்லக்கூடும்", "ಇದು ಒಂದು ಗಂಟೆಯೊಳಗೆ ಸಾವಿಗೆ ಕಾರಣವಾಗಬಹುದು", "यह एक घंटे के भीतर जान ले सकता है"),
             text: L(
-              "Affected animals may stumble, struggle, and collapse within about an hour of eating the toxic plant. Cyanide poisoning is a genuine emergency — immediate veterinary help must be sought the moment it is suspected. Treatment works very well, but only if it is given in time."
+              "Affected animals may stumble, struggle, and collapse within about an hour of eating the toxic plant. Cyanide poisoning is a genuine emergency — immediate veterinary help must be sought the moment it is suspected. Treatment works very well, but only if it is given in time.",
+              "బాధిత జంతువులు విషపూరిత మొక్కను తిన్న సుమారు ఒక గంటలోపే తడబడవచ్చు, కష్టపడవచ్చు మరియు కూలిపోవచ్చు. సైనైడ్ విషప్రయోగం నిజమైన అత్యవసర పరిస్థితి — అనుమానం వచ్చిన వెంటనే వెంటనే పశువైద్య సహాయం తీసుకోవాలి. చికిత్స చాలా బాగా పనిచేస్తుంది, కానీ సమయానికి ఇస్తేనే.",
+              "நச்சுத் தாவரத்தை உண்ட சுமார் ஒரு மணி நேரத்திற்குள் பாதிக்கப்பட்ட விலங்குகள் தடுமாறலாம், சிரமப்படலாம், மற்றும் விழலாம். சயனைடு நச்சுத்தன்மை ஒரு உண்மையான அவசரநிலை — சந்தேகம் ஏற்பட்ட உடனேயே உடனடி கால்நடை மருத்துவ உதவி பெறப்பட வேண்டும். சிகிச்சை மிகச் சிறப்பாக வேலை செய்யும், ஆனால் அது சரியான நேரத்தில் கொடுக்கப்பட்டால் மட்டுமே.",
+              "ಪೀಡಿತ ಪ್ರಾಣಿಗಳು ವಿಷಕಾರಿ ಸಸ್ಯವನ್ನು ತಿಂದ ಸುಮಾರು ಒಂದು ಗಂಟೆಯೊಳಗೆ ತೊట್ರಡಿಸಬಹುದು, ಒದ್ದಾಡಬಹುದು ಮತ್ತು ಕುಸಿಯಬಹುದು. ಸೈನೈಡ್ ವಿಷಬಾಧೆ ಒಂದು ನಿಜವಾದ ತುರ್ತುಸ್ಥಿತಿ — ಸಂಶಯ ಬಂದ ಕೂಡಲೇ ತಕ್ಷಣ ಪಶುವೈದ್ಯಕೀಯ ಸಹಾಯ ಪಡೆಯಬೇಕು. ಚಿಕಿತ್ಸೆ ಬಹಳ ಚೆನ್ನಾಗಿ ಕೆಲಸ ಮಾಡುತ್ತದೆ, ಆದರೆ ಅದನ್ನು ಸಮಯಕ್ಕೆ ಸರಿಯಾಗಿ ನೀಡಿದರೆ ಮಾತ್ರ.",
+              "प्रभावित जानवर ज़हरीला पौधा खाने के करीब एक घंटे के भीतर लड़खड़ा सकते हैं, तड़प सकते हैं, और गिर सकते हैं। साइनाइड विषाक्तता एक वास्तविक आपातकाल है — शक होते ही तुरंत पशु चिकित्सा सहायता ली जानी चाहिए। इलाज बहुत अच्छी तरह काम करता है, लेकिन तभी जब यह समय पर दिया जाए।"
             ),
           },
           {
             type: "stat-grid",
             items: [
               {
-                label: L("Avoid young, risky grasses"),
-                text: L("Don't let animals graze on grasses known to cause this poisoning until the grass is at least 15–18 inches tall."),
+                label: L("Avoid young, risky grasses", "లేత, ప్రమాదకరమైన గడ్డిని నివారించండి", "இளம், ஆபத்தான புற்களைத் தவிர்க்கவும்", "ಎಳೆಯ, ಅಪಾಯಕಾರಿ ಹುಲ್ಲನ್ನು ತಪ್ಪಿಸಿ", "युवा, जोखिम भरी घास से बचें"),
+                text: L("Don't let animals graze on grasses known to cause this poisoning until the grass is at least 15–18 inches tall.", "ఈ విషప్రయోగానికి కారణమని తెలిసిన గడ్డి కనీసం 15–18 అంగుళాల ఎత్తు వచ్చే వరకు జంతువులను దానిపై మేపనివ్వకండి.", "இந்த நச்சுத்தன்மையை ஏற்படுத்தும் என அறியப்பட்ட புற்கள் குறைந்தது 15–18 அங்குலம் உயரமாகும் வரை விலங்குகளை அவற்றின் மேல் மேய விடாதீர்கள்.", "ಈ ವಿಷಬಾಧೆಗೆ ಕಾರಣವಾಗುತ್ತದೆ ಎಂದು ತಿಳಿದಿರುವ ಹುಲ್ಲು ಕನಿಷ್ಠ 15–18 ಇಂಚು ಎತ್ತರವಾಗುವವರೆಗೆ ಪ್ರಾಣಿಗಳನ್ನು ಅದರ ಮೇಲೆ ಮೇಯಲು ಬಿಡಬೇಡಿ.", "जिस घास से यह विषाक्तता होने की जानकारी है, उस पर जानवरों को तब तक न चरने दें जब तक घास कम से कम 15–18 इंच ऊँची न हो जाए।"),
               },
               {
-                label: L("Wait for sorghum to grow"),
-                text: L("Forage sorghum should be several feet tall before it is used as fodder."),
+                label: L("Wait for sorghum to grow", "జొన్న పెరిగే వరకు వేచి ఉండండి", "சோளம் வளரும் வரை காத்திருங்கள்", "ಜೋಳ ಬೆಳೆಯುವವರೆಗೆ ಕಾಯಿರಿ", "ज्वार के बढ़ने का इंतज़ार करें"),
+                text: L("Forage sorghum should be several feet tall before it is used as fodder.", "మేత జొన్నను దాణాగా వాడే ముందు అది చాలా అడుగుల ఎత్తు పెరిగి ఉండాలి.", "தீவன சோளத்தை தீவனமாகப் பயன்படுத்தும் முன் அது பல அடி உயரமாக இருக்க வேண்டும்.", "ಮೇವಿನ ಜೋಳವನ್ನು ಮೇವಾಗಿ ಬಳಸುವ ಮೊದಲು ಅದು ಹಲವಾರು ಅಡಿ ಎತ್ತರವಾಗಿರಬೇಕು.", "चारे वाले ज्वार को चारे के रूप में उपयोग करने से पहले उसे कई फीट ऊँचा हो जाना चाहिए।"),
               },
               {
-                label: L("Timing of grazing"),
-                text: L("Animals should be turned out to new pasture later in the day, not early morning."),
+                label: L("Timing of grazing", "మేపే సమయం", "மேய்ச்சல் நேரம்", "ಮೇಯಿಸುವ ಸಮಯ", "चराई का समय"),
+                text: L("Animals should be turned out to new pasture later in the day, not early morning.", "జంతువులను కొత్త మేత భూమిలోకి తెల్లవారుజామున కాకుండా రోజులో కొంచెం ఆలస్యంగా వదలాలి.", "விலங்குகள் அதிகாலையில் அல்ல, நாளின் பிற்பகுதியில் புதிய மேய்ச்சல் நிலத்திற்கு விடப்பட வேண்டும்.", "ಪ್ರಾಣಿಗಳನ್ನು ಮುಂಜಾನೆ ಅಲ್ಲ, ದಿನದ ನಂತರದ ಸಮಯದಲ್ಲಿ ಹೊಸ ಹುಲ್ಲುಗಾವಲಿಗೆ ಬಿಡಬೇಕು.", "जानवरों को सुबह जल्दी नहीं, बल्कि दिन में बाद में नई चराई भूमि पर छोड़ना चाहिए।"),
               },
               {
-                label: L("Extra caution in stressful periods"),
-                text: L("Grazing should be monitored closely during periods of environmental stress."),
+                label: L("Extra caution in stressful periods", "ఒత్తిడి సమయాల్లో అదనపు జాగ్రత్త", "மன அழுத்த காலங்களில் கூடுதல் எச்சரிக்கை", "ಒತ್ತಡದ ಅವಧಿಗಳಲ್ಲಿ ಹೆಚ್ಚುವರಿ ಎಚ್ಚರಿಕೆ", "तनावपूर्ण अवधियों में अतिरिक्त सावधानी"),
+                text: L("Grazing should be monitored closely during periods of environmental stress.", "పర్యావరణ ఒత్తిడి సమయాల్లో మేపడాన్ని దగ్గరగా పర్యవేక్షించాలి.", "சுற்றுச்சூழல் அழுத்த காலங்களில் மேய்ச்சலை நெருக்கமாகக் கண்காணிக்க வேண்டும்.", "ಪರಿಸರ ಒತ್ತಡದ ಅವಧಿಗಳಲ್ಲಿ ಮೇಯಿಸುವಿಕೆಯನ್ನು ಹತ್ತಿರದಿಂದ ಮೇಲ್ವಿಚಾರಣೆ ಮಾಡಬೇಕು.", "पर्यावरणीय तनाव की अवधि के दौरान चराई पर बारीकी से नज़र रखनी चाहिए।"),
               },
             ],
           },
@@ -5819,16 +5867,16 @@ export const MODULES = [
         check: [
           {
             type: "mcq",
-            q: L("Which of these plants can cause cyanide poisoning if eaten?"),
-            options: [L("Young Sorghum plants"), L("Fully grown wheat"), L("Dried hay"), L("Rice straw")],
+            q: L("Which of these plants can cause cyanide poisoning if eaten?", "ఈ మొక్కలలో ఏది తింటే సైనైడ్ విషప్రయోగం కలిగించవచ్చు?", "இந்த தாவரங்களில் எது சாப்பிட்டால் சயனைடு நச்சுத்தன்மையை ஏற்படுத்தும்?", "ಈ ಸಸ್ಯಗಳಲ್ಲಿ ಯಾವುದನ್ನು ತಿಂದರೆ ಸೈನೈಡ್ ವಿಷಬಾಧೆ ಉಂಟಾಗಬಹುದು?", "इनमें से कौन सा पौधा खाने पर साइनाइड विषाक्तता का कारण बन सकता है?"),
+            options: [L("Young Sorghum plants", "లేత జొన్న మొక్కలు", "இளம் சோள செடிகள்", "ಎಳೆಯ ಜೋಳದ ಗಿಡಗಳು", "युवा ज्वार के पौधे"), L("Fully grown wheat", "పూర్తిగా పెరిగిన గోధుమ", "முழுமையாக வளர்ந்த கோதுமை", "ಸಂಪೂರ್ಣ ಬೆಳೆದ ಗೋಧಿ", "पूरी तरह से उगा हुआ गेहूँ"), L("Dried hay", "ఎండిన గడ్డి", "காய்ந்த வைக்கோல்", "ಒಣಗಿದ ಹುಲ್ಲು", "सूखी घास"), L("Rice straw", "వరి గడ్డి", "நெல் வைக்கோல்", "ಭತ್ತದ ಹುಲ್ಲು", "धान का पुआल")],
             answer: 0,
-            explain: L("Young Sorghum plants, along with arrow grass, velvet grass, and tapioca leaves, are named sources of cyanide poisoning."),
+            explain: L("Young Sorghum plants, along with arrow grass, velvet grass, and tapioca leaves, are named sources of cyanide poisoning.", "లేత జొన్న మొక్కలతో పాటు, ఆరో గ్రాస్, వెల్వెట్ గ్రాస్, మరియు కర్రపెండలం ఆకులు సైనైడ్ విషప్రయోగానికి కారణాలుగా పేర్కొనబడ్డాయి.", "இளம் சோள செடிகளுடன், அம்பு புல், வெல்வெட் புல், மற்றும் மரவள்ளிக்கிழங்கு இலைகள் சயனைடு நச்சுத்தன்மைக்கான ஆதாரங்களாகக் குறிப்பிடப்படுகின்றன.", "ಎಳೆಯ ಜೋಳದ ಗಿಡಗಳು, ಬಾಣ ಹುಲ್ಲು, ವೆಲ್ವೆಟ್ ಹುಲ್ಲು ಮತ್ತು ಮರಗೆಣಸಿನ ಎಲೆಗಳೊಂದಿಗೆ, ಸೈನೈಡ್ ವಿಷಬಾಧೆಯ ಮೂಲಗಳೆಂದು ಹೆಸರಿಸಲಾಗಿದೆ.", "युवा ज्वार के पौधे, एरो ग्रास, वेल्वेट ग्रास, और टैपिओका की पत्तियों के साथ, साइनाइड विषाक्तता के स्रोतों के रूप में बताए गए हैं।"),
           },
           {
             type: "truefalse",
-            q: L("Cyanide poisoning can cause an animal to collapse within about an hour of eating the toxic plant."),
+            q: L("Cyanide poisoning can cause an animal to collapse within about an hour of eating the toxic plant.", "సైనైడ్ విషప్రయోగం జంతువు విషపూరిత మొక్కను తిన్న సుమారు ఒక గంటలోపే కుప్పకూలేలా చేయవచ్చు.", "சயனைடு நச்சுத்தன்மை ஒரு விலங்கு நச்சுத் தாவரத்தை உண்ட சுமார் ஒரு மணி நேரத்திற்குள் விழச் செய்யலாம்.", "ಸೈನೈಡ್ ವಿಷಬಾಧೆಯು ಪ್ರಾಣಿ ವಿಷಕಾರಿ ಸಸ್ಯವನ್ನು ತಿಂದ ಸುಮಾರು ಒಂದು ಗಂಟೆಯೊಳಗೆ ಕುಸಿಯುವಂತೆ ಮಾಡಬಹುದು.", "साइनाइड विषाक्तता जानवर को ज़हरीला पौधा खाने के करीब एक घंटे के भीतर गिरा सकती है।"),
             answer: true,
-            explain: L("Yes — signs can begin within 15–20 minutes, and affected animals may stumble and collapse within about an hour."),
+            explain: L("Yes — signs can begin within 15–20 minutes, and affected animals may stumble and collapse within about an hour.", "అవును — లక్షణాలు 15–20 నిమిషాలలో ప్రారంభం కావచ్చు, మరియు బాధిత జంతువులు ఒక గంటలోపే తడబడి కుప్పకూలవచ్చు.", "ஆம் — அறிகுறிகள் 15–20 நிமிடங்களுக்குள் தொடங்கலாம், மற்றும் பாதிக்கப்பட்ட விலங்குகள் சுமார் ஒரு மணி நேரத்திற்குள் தடுமாறி விழலாம்.", "ಹೌದು — ಲಕ್ಷಣಗಳು 15–20 ನಿಮಿಷಗಳಲ್ಲಿ ಪ್ರಾರಂಭವಾಗಬಹುದು, ಮತ್ತು ಪೀಡಿತ ಪ್ರಾಣಿಗಳು ಸುಮಾರು ಒಂದು ಗಂಟೆಯೊಳಗೆ ತೊಟ್ರಡಿಸಿ ಕುಸಿಯಬಹುದು.", "हाँ — लक्षण 15–20 मिनट के भीतर शुरू हो सकते हैं, और प्रभावित जानवर करीब एक घंटे के भीतर लड़खड़ाकर गिर सकते हैं।"),
           },
         ],
       },
@@ -5839,57 +5887,57 @@ export const MODULES = [
         {
           topicId: "t-m10-gossypol",
           type: "mcq",
-          q: L("Which animals are most at risk of gossypol poisoning?"),
+          q: L("Which animals are most at risk of gossypol poisoning?", "గాసిపాల్ విషప్రయోగానికి ఏ జంతువులు ఎక్కువ ప్రమాదంలో ఉన్నాయి?", "எந்த விலங்குகள் காசிபோல் நச்சுத்தன்மைக்கு அதிக ஆபத்தில் உள்ளன?", "ಗಾಸಿಪೋಲ್ ವಿಷಬಾಧೆಗೆ ಯಾವ ಪ್ರಾಣಿಗಳು ಹೆಚ್ಚು ಅಪಾಯದಲ್ಲಿವೆ?", "गॉसीपॉल विषाक्तता का सबसे ज़्यादा खतरा किन जानवरों को है?"),
           options: [
-            L("High-producing dairy cows eating a lot of cottonseed feed"),
-            L("Newborn calves that have never eaten solid food"),
-            L("Animals kept indoors overnight"),
-            L("Animals that only drink water"),
+            L("High-producing dairy cows eating a lot of cottonseed feed", "ఎక్కువ పత్తి గింజల దాణా తినే అధిక దిగుబడి ఇచ్చే పాడి ఆవులు", "அதிக பருத்தி விதை தீவனத்தை உண்ணும் அதிக பால் தரும் பசுக்கள்", "ಹೆಚ್ಚು ಹತ್ತಿ ಬೀಜದ ಮೇವು ತಿನ್ನುವ ಹೆಚ್ಚು ಹಾಲು ಕೊಡುವ ಹಸುಗಳು", "ज़्यादा कपास के बीज का चारा खाने वाली अधिक दूध देने वाली गायें"),
+            L("Newborn calves that have never eaten solid food", "ఘన ఆహారం ఎప్పుడూ తినని కొత్తగా పుట్టిన దూడలు", "திடமான உணவை ஒருபோதும் சாப்பிடாத புதிதாகப் பிறந்த கன்றுகள்", "ಘನ ಆಹಾರವನ್ನು ಎಂದಿಗೂ ತಿನ್ನದ ನವಜಾತ ಕರುಗಳು", "नवजात बछड़े जिन्होंने कभी ठोस भोजन नहीं खाया"),
+            L("Animals kept indoors overnight", "రాత్రిపూట ఇంటి లోపల ఉంచిన జంతువులు", "இரவு நேரத்தில் வீட்டிற்குள் வைக்கப்பட்ட விலங்குகள்", "ರಾತ್ರಿ ಮನೆಯೊಳಗೆ ಇಡಲಾದ ಪ್ರಾಣಿಗಳು", "रात भर घर के अंदर रखे गए जानवर"),
+            L("Animals that only drink water", "కేవలం నీరు మాత్రమే తాగే జంతువులు", "தண்ணீர் மட்டும் குடிக்கும் விலங்குகள்", "ಕೇವಲ ನೀರು ಮಾತ್ರ ಕುಡಿಯುವ ಪ್ರಾಣಿಗಳು", "केवल पानी पीने वाले जानवर"),
           ],
           answer: 0,
-          explain: L("High-producing dairy cows with high feed intake, given excess cottonseed products, are the animals most at risk."),
+          explain: L("High-producing dairy cows with high feed intake, given excess cottonseed products, are the animals most at risk.", "ఎక్కువ దాణా తీసుకునే, అధిక పత్తి గింజల ఉత్పత్తులు ఇచ్చే అధిక దిగుబడి ఇచ్చే పాడి ఆవులు ఎక్కువ ప్రమాదంలో ఉన్న జంతువులు.", "அதிக தீவனம் உட்கொள்ளும், அதிக பருத்தி விதை பொருட்கள் கொடுக்கப்படும் அதிக பால் தரும் பசுக்களே அதிக ஆபத்தில் உள்ள விலங்குகள்.", "ಹೆಚ್ಚು ಮೇವು ಸೇವಿಸುವ, ಅಧಿಕ ಹತ್ತಿ ಬೀಜ ಉತ್ಪನ್ನಗಳನ್ನು ನೀಡಲಾದ ಹೆಚ್ಚು ಹಾಲು ಕೊಡುವ ಹಸುಗಳೇ ಹೆಚ್ಚು ಅಪಾಯದಲ್ಲಿರುವ ಪ್ರಾಣಿಗಳು.", "ज़्यादा चारा खाने वाली, अत्यधिक कपास के बीज उत्पाद दिए जाने वाली अधिक दूध देने वाली गायें ही सबसे ज़्यादा खतरे में हैं।"),
         },
         {
           topicId: "t-m10-gossypol",
           type: "truefalse",
-          q: L("Swelling under the skin near the chest (brisket) and difficult breathing can be signs of gossypol poisoning in adult dairy cattle."),
+          q: L("Swelling under the skin near the chest (brisket) and difficult breathing can be signs of gossypol poisoning in adult dairy cattle.", "ఛాతీ దగ్గర చర్మం కింద వాపు (బ్రిస్కెట్) మరియు కష్టమైన శ్వాస పెద్ద పాడి పశువులలో గాసిపాల్ విషప్రయోగానికి సంకేతాలు కావచ్చు.", "மார்பு அருகே தோலின் கீழ் வீக்கம் (பிரிஸ்கெட்) மற்றும் சிரமமான சுவாசம் வளர்ந்த பால் மாடுகளில் காசிபோல் நச்சுத்தன்மையின் அறிகுறிகளாக இருக்கலாம்.", "ಎದೆಯ ಬಳಿ ಚರ್ಮದ ಕೆಳಗೆ ಊತ (ಬ್ರಿಸ್ಕೆಟ್) ಮತ್ತು ಕಷ್ಟದ ಉಸಿರಾಟ ವಯಸ್ಕ ಹಾಲಿನ ಜಾನುವಾರುಗಳಲ್ಲಿ ಗಾಸಿಪೋಲ್ ವಿಷಬಾಧೆಯ ಲಕ್ಷಣಗಳಾಗಿರಬಹುದು.", "छाती के पास त्वचा के नीचे सूजन (ब्रिस्केट) और कठिन साँस लेना वयस्क डेयरी पशुओं में गॉसीपॉल विषाक्तता के लक्षण हो सकते हैं।"),
           answer: true,
-          explain: L("Yes — these are among the more serious signs listed for adult dairy cattle with gossypol poisoning."),
+          explain: L("Yes — these are among the more serious signs listed for adult dairy cattle with gossypol poisoning.", "అవును — ఇవి గాసిపాల్ విషప్రయోగం ఉన్న పెద్ద పాడి పశువులకు జాబితా చేయబడిన మరింత తీవ్రమైన సంకేతాలలో ఉన్నాయి.", "ஆம் — இவை காசிபோல் நச்சுத்தன்மை உள்ள வளர்ந்த பால் மாடுகளுக்கு பட்டியலிடப்பட்ட மிகவும் தீவிரமான அறிகுறிகளில் அடங்கும்.", "ಹೌದು — ಇವು ಗಾಸಿಪೋಲ್ ವಿಷಬಾಧೆ ಇರುವ ವಯಸ್ಕ ಹಾಲಿನ ಜಾನುವಾರುಗಳಿಗೆ ಪಟ್ಟಿ ಮಾಡಲಾದ ಹೆಚ್ಚು ಗಂಭೀರ ಲಕ್ಷಣಗಳಲ್ಲಿ ಸೇರಿವೆ.", "हाँ — ये गॉसीपॉल विषाक्तता वाले वयस्क डेयरी पशुओं के लिए बताए गए ज़्यादा गंभीर लक्षणों में से हैं।"),
         },
         {
           topicId: "t-m10-gossypol",
           type: "mcq",
-          q: L("What should you do first if you suspect gossypol poisoning?"),
+          q: L("What should you do first if you suspect gossypol poisoning?", "గాసిపాల్ విషప్రయోగం అనుమానం వస్తే మీరు మొదట ఏమి చేయాలి?", "காசிபோல் நச்சுத்தன்மை சந்தேகப்பட்டால் நீங்கள் முதலில் என்ன செய்ய வேண்டும்?", "ಗಾಸಿಪೋಲ್ ವಿಷಬಾಧೆ ಅನುಮಾನ ಬಂದರೆ ನೀವು ಮೊದಲು ಏನು ಮಾಡಬೇಕು?", "अगर आपको गॉसीपॉल विषाक्तता का शक हो तो आपको सबसे पहले क्या करना चाहिए?"),
           options: [
-            L("Stop feeding cottonseed products and tell the owner or vet immediately"),
-            L("Give the animal extra cottonseed to settle its stomach"),
-            L("Wait a month to see if it improves on its own"),
-            L("Only mention it if the animal stops eating completely"),
+            L("Stop feeding cottonseed products and tell the owner or vet immediately", "పత్తి గింజల ఉత్పత్తులు తినిపించడం ఆపి వెంటనే యజమానికి లేదా వైద్యుడికి చెప్పండి", "பருத்தி விதை பொருட்களை உணவளிப்பதை நிறுத்தி உடனடியாக உரிமையாளர் அல்லது கால்நடை மருத்துவரிடம் தெரிவிக்கவும்", "ಹತ್ತಿ ಬೀಜ ಉತ್ಪನ್ನಗಳನ್ನು ನೀಡುವುದನ್ನು ನಿಲ್ಲಿಸಿ ತಕ್ಷಣ ಮಾಲೀಕರಿಗೆ ಅಥವಾ ಪಶುವೈದ್ಯರಿಗೆ ತಿಳಿಸಿ", "कपास के बीज उत्पाद खिलाना बंद करें और तुरंत मालिक या पशु चिकित्सक को बताएं"),
+            L("Give the animal extra cottonseed to settle its stomach", "కడుపును శాంతపరచడానికి జంతువుకు అదనపు పత్తి గింజలు ఇవ్వండి", "வயிற்றை அமைதிப்படுத்த விலங்குக்கு கூடுதல் பருத்தி விதையை கொடுங்கள்", "ಹೊಟ್ಟೆ ಶಮನಗೊಳಿಸಲು ಪ್ರಾಣಿಗೆ ಹೆಚ್ಚುವರಿ ಹತ್ತಿ ಬೀಜ ನೀಡಿ", "पेट को शांत करने के लिए जानवर को अतिरिक्त कपास के बीज दें"),
+            L("Wait a month to see if it improves on its own", "అది స్వయంగా మెరుగుపడుతుందో లేదో చూడటానికి ఒక నెల వేచి ఉండండి", "தானாகவே மேம்படுகிறதா என்று பார்க்க ஒரு மாதம் காத்திருங்கள்", "ಅದು ತಾನಾಗಿಯೇ ಸುಧಾರಿಸುತ್ತದೆಯೇ ಎಂದು ನೋಡಲು ಒಂದು ತಿಂಗಳು ಕಾಯಿರಿ", "यह अपने आप ठीक होता है या नहीं यह देखने के लिए एक महीना इंतज़ार करें"),
+            L("Only mention it if the animal stops eating completely", "జంతువు పూర్తిగా తినడం మానేస్తేనే దాని గురించి చెప్పండి", "விலங்கு முற்றிலும் சாப்பிடுவதை நிறுத்தினால் மட்டுமே அதைக் குறிப்பிடவும்", "ಪ್ರಾಣಿ ಸಂಪೂರ್ಣವಾಗಿ ತಿನ್ನುವುದನ್ನು ನಿಲ್ಲಿಸಿದರೆ ಮಾತ್ರ ಅದನ್ನು ತಿಳಿಸಿ", "केवल तभी बताएं जब जानवर पूरी तरह खाना बंद कर दे"),
           ],
           answer: 0,
-          explain: L("Removing cottonseed feed immediately and reporting to the owner or vet right away is the correct first step."),
+          explain: L("Removing cottonseed feed immediately and reporting to the owner or vet right away is the correct first step.", "వెంటనే పత్తి గింజల దాణాను తీసివేసి, వెంటనే యజమానికి లేదా వైద్యుడికి తెలియజేయడం సరైన మొదటి అడుగు.", "பருத்தி விதை தீவனத்தை உடனடியாக அகற்றி, உடனடியாக உரிமையாளர் அல்லது கால்நடை மருத்துவரிடம் தெரிவிப்பதே சரியான முதல் படி.", "ಹತ್ತಿ ಬೀಜದ ಮೇವನ್ನು ತಕ್ಷಣ ತೆಗೆದುಹಾಕಿ, ತಕ್ಷಣ ಮಾಲೀಕರಿಗೆ ಅಥವಾ ಪಶುವೈದ್ಯರಿಗೆ ವರದಿ ಮಾಡುವುದೇ ಸರಿಯಾದ ಮೊದಲ ಹೆಜ್ಜೆ.", "कपास के बीज का चारा तुरंत हटाना और तुरंत मालिक या पशु चिकित्सक को बताना ही सही पहला कदम है।"),
         },
         {
           topicId: "t-m10-cyanide",
           type: "mcq",
-          q: L("About how soon can signs of cyanide poisoning appear after an animal eats a toxic plant?"),
-          options: [L("15–20 minutes to a few hours"), L("One full week"), L("Only after several months"), L("Signs never appear")],
+          q: L("About how soon can signs of cyanide poisoning appear after an animal eats a toxic plant?", "జంతువు విషపూరిత మొక్కను తిన్న తర్వాత సైనైడ్ విషప్రయోగం లక్షణాలు ఎంత త్వరగా కనిపించవచ్చు?", "ஒரு விலங்கு நச்சுத் தாவரத்தை உண்ட பிறகு சயனைடு நச்சுத்தன்மையின் அறிகுறிகள் எவ்வளவு விரைவில் தோன்றலாம்?", "ಪ್ರಾಣಿ ವಿಷಕಾರಿ ಸಸ್ಯವನ್ನು ತಿಂದ ನಂತರ ಸೈನೈಡ್ ವಿಷಬಾಧೆಯ ಲಕ್ಷಣಗಳು ಎಷ್ಟು ಬೇಗ ಕಾಣಿಸಿಕೊಳ್ಳಬಹುದು?", "जानवर द्वारा ज़हरीला पौधा खाने के बाद साइनाइड विषाक्तता के लक्षण कितनी जल्दी दिख सकते हैं?"),
+          options: [L("15–20 minutes to a few hours", "15–20 నిమిషాల నుండి కొన్ని గంటల వరకు", "15–20 நிமிடங்கள் முதல் சில மணிநேரங்கள் வரை", "15–20 ನಿಮಿಷಗಳಿಂದ ಕೆಲವು ಗಂಟೆಗಳವರೆಗೆ", "15–20 मिनट से लेकर कुछ घंटों तक"), L("One full week", "ఒక పూర్తి వారం", "ஒரு முழு வாரம்", "ಒಂದು ಪೂರ್ಣ ವಾರ", "एक पूरा सप्ताह"), L("Only after several months", "కొన్ని నెలల తర్వాత మాత్రమే", "பல மாதங்களுக்குப் பிறகு மட்டுமே", "ಹಲವಾರು ತಿಂಗಳುಗಳ ನಂತರ ಮಾತ್ರ", "केवल कई महीनों के बाद"), L("Signs never appear", "లక్షణాలు ఎప్పుడూ కనిపించవు", "அறிகுறிகள் ஒருபோதும் தோன்றாது", "ಲಕ್ಷಣಗಳು ಎಂದಿಗೂ ಕಾಣಿಸುವುದಿಲ್ಲ", "लक्षण कभी नहीं दिखते")],
           answer: 0,
-          explain: L("Signs occur within 15–20 minutes to a few hours after the animal eats toxic forage — this is a fast-moving emergency."),
+          explain: L("Signs occur within 15–20 minutes to a few hours after the animal eats toxic forage — this is a fast-moving emergency.", "జంతువు విషపూరిత మేతను తిన్న 15–20 నిమిషాల నుండి కొన్ని గంటల లోపు లక్షణాలు కనిపిస్తాయి — ఇది వేగంగా జరిగే అత్యవసర పరిస్థితి.", "விலங்கு நச்சு தீவனத்தை உண்ட 15–20 நிமிடங்கள் முதல் சில மணி நேரங்களுக்குள் அறிகுறிகள் ஏற்படும் — இது வேகமாக நகரும் அவசரநிலை.", "ಪ್ರಾಣಿ ವಿಷಕಾರಿ ಮೇವನ್ನು ತಿಂದ 15–20 ನಿಮಿಷಗಳಿಂದ ಕೆಲವು ಗಂಟೆಗಳ ಒಳಗೆ ಲಕ್ಷಣಗಳು ಕಾಣಿಸುತ್ತವೆ — ಇದು ವೇಗವಾಗಿ ಚಲಿಸುವ ತುರ್ತುಸ್ಥಿತಿ.", "जानवर द्वारा ज़हरीला चारा खाने के 15–20 मिनट से कुछ घंटों के भीतर लक्षण दिखते हैं — यह तेज़ी से बढ़ने वाली आपात स्थिति है।"),
         },
         {
           topicId: "t-m10-cyanide",
           type: "truefalse",
-          q: L("Cyanide poisoning treatment works well, but only if it is given in time."),
+          q: L("Cyanide poisoning treatment works well, but only if it is given in time.", "సైనైడ్ విషప్రయోగం చికిత్స బాగా పనిచేస్తుంది, కానీ సమయానికి ఇస్తేనే.", "சயனைடு நச்சுத்தன்மை சிகிச்சை நன்றாக வேலை செய்யும், ஆனால் அது சரியான நேரத்தில் கொடுக்கப்பட்டால் மட்டுமே.", "ಸೈನೈಡ್ ವಿಷಬಾಧೆ ಚಿಕಿತ್ಸೆ ಚೆನ್ನಾಗಿ ಕೆಲಸ ಮಾಡುತ್ತದೆ, ಆದರೆ ಅದನ್ನು ಸಮಯಕ್ಕೆ ನೀಡಿದರೆ ಮಾತ್ರ.", "साइनाइड विषाक्तता का इलाज अच्छी तरह काम करता है, लेकिन तभी जब यह समय पर दिया जाए।"),
           answer: true,
-          explain: L("Correct — this is exactly why immediate veterinary help must be sought the moment cyanide poisoning is suspected."),
+          explain: L("Correct — this is exactly why immediate veterinary help must be sought the moment cyanide poisoning is suspected.", "సరైనది — సైనైడ్ విషప్రయోగం అనుమానం వచ్చిన వెంటనే వెంటనే పశువైద్య సహాయం తీసుకోవడం ఎందుకు అవసరమో ఇదే కారణం.", "சரியானது — சயனைடு நச்சுத்தன்மை சந்தேகப்பட்ட உடனேயே உடனடி கால்நடை மருத்துவ உதவி பெறப்பட வேண்டியதன் காரணம் இதுவே.", "ಸರಿ — ಸೈನೈಡ್ ವಿಷಬಾಧೆ ಅನುಮಾನ ಬಂದ ಕೂಡಲೇ ತಕ್ಷಣ ಪಶುವೈದ್ಯಕೀಯ ಸಹಾಯ ಪಡೆಯಬೇಕಾದ ಕಾರಣ ಇದೇ.", "सही — यही कारण है कि साइनाइड विषाक्तता का शक होते ही तुरंत पशु चिकित्सा सहायता ली जानी चाहिए।"),
         },
         {
           topicId: "t-m10-cyanide",
           type: "truefalse",
-          q: L("Grazing animals should be monitored closely during periods of environmental stress, as part of preventing cyanide poisoning."),
+          q: L("Grazing animals should be monitored closely during periods of environmental stress, as part of preventing cyanide poisoning.", "సైనైడ్ విషప్రయోగాన్ని నివారించడంలో భాగంగా, పర్యావరణ ఒత్తిడి సమయాల్లో మేపే జంతువులను దగ్గరగా పర్యవేక్షించాలి.", "சயனைடு நச்சுத்தன்மையைத் தடுப்பதன் ஒரு பகுதியாக, சுற்றுச்சூழல் அழுத்த காலங்களில் மேயும் விலங்குகளை நெருக்கமாகக் கண்காணிக்க வேண்டும்.", "ಸೈನೈಡ್ ವಿಷಬಾಧೆಯನ್ನು ತಡೆಗಟ್ಟುವ ಭಾಗವಾಗಿ, ಪರಿಸರ ಒತ್ತಡದ ಅವಧಿಗಳಲ್ಲಿ ಮೇಯುವ ಪ್ರಾಣಿಗಳನ್ನು ಹತ್ತಿರದಿಂದ ಮೇಲ್ವಿಚಾರಣೆ ಮಾಡಬೇಕು.", "साइनाइड विषाक्तता को रोकने के लिए, पर्यावरणीय तनाव की अवधि के दौरान चरने वाले जानवरों पर बारीकी से नज़र रखनी चाहिए।"),
           answer: true,
-          explain: L("Yes — close monitoring during environmental stress is one of the prevention steps described for cyanide-related poisoning."),
+          explain: L("Yes — close monitoring during environmental stress is one of the prevention steps described for cyanide-related poisoning.", "అవును — పర్యావరణ ఒత్తిడి సమయంలో దగ్గరగా పర్యవేక్షించడం సైనైడ్ సంబంధిత విషప్రయోగానికి వివరించిన నివారణ చర్యలలో ఒకటి.", "ஆம் — சுற்றுச்சூழல் அழுத்த காலத்தில் நெருக்கமாக கண்காணிப்பது சயனைடு தொடர்பான நச்சுத்தன்மைக்கு விவரிக்கப்பட்ட தடுப்பு நடவடிக்கைகளில் ஒன்று.", "ಹೌದು — ಪರಿಸರ ಒತ್ತಡದ ಸಮಯದಲ್ಲಿ ಹತ್ತಿರದಿಂದ ಮೇಲ್ವಿಚಾರಣೆ ಮಾಡುವುದು ಸೈನೈಡ್-ಸಂಬಂಧಿತ ವಿಷಬಾಧೆಗೆ ವಿವರಿಸಲಾದ ತಡೆಗಟ್ಟುವ ಕ್ರಮಗಳಲ್ಲಿ ಒಂದಾಗಿದೆ.", "हाँ — पर्यावरणीय तनाव के दौरान बारीकी से निगरानी करना साइनाइड-संबंधी विषाक्तता को रोकने के बताए गए उपायों में से एक है।"),
         },
       ],
     },
@@ -5900,61 +5948,77 @@ export const MODULES = [
   // ==================================================================
   {
     id: "m10-l2",
-    title: L("Organophosphorous (Pesticide) Poisoning and Acting Fast"),
+    title: L("Organophosphorous (Pesticide) Poisoning and Acting Fast", "ఆర్గానోఫాస్ఫరస్ (పురుగుమందు) విషప్రయోగం మరియు వేగంగా చర్య తీసుకోవడం", "ஆர்கானோபாஸ்பரஸ் (பூச்சிக்கொல்லி) நச்சுத்தன்மை மற்றும் வேகமாக செயல்படுதல்", "ಆರ್ಗನೋಫಾಸ್ಫರಸ್ (ಕೀಟನಾಶಕ) ವಿಷಬಾಧೆ ಮತ್ತು ವೇಗವಾಗಿ ಕಾರ್ಯನಿರ್ವಹಿಸುವುದು", "ऑर्गनोफॉस्फोरस (कीटनाशक) विषाक्तता और तेज़ी से कार्रवाई करना"),
     estMinutes: 8,
     hook: [
       {
         type: "hero",
-        heading: L("Farm Chemicals Can Poison Too — Know the Signs, Act Fast"),
+        heading: L("Farm Chemicals Can Poison Too — Know the Signs, Act Fast", "వ్యవసాయ రసాయనాలు కూడా విషప్రయోగం చేయవచ్చు — లక్షణాలను తెలుసుకోండి, వేగంగా చర్య తీసుకోండి", "பண்ணை இரசாயனங்களும் நச்சுத்தன்மையை ஏற்படுத்தலாம் — அறிகுறிகளை அறியுங்கள், வேகமாக செயல்படுங்கள்", "ಕೃಷಿ ರಾಸಾಯನಿಕಗಳೂ ವಿಷಬಾಧೆ ಉಂಟುಮಾಡಬಹುದು — ಲಕ್ಷಣಗಳನ್ನು ತಿಳಿಯಿರಿ, ವೇಗವಾಗಿ ಕ್ರಮ ತೆಗೆದುಕೊಳ್ಳಿ", "खेत के रसायन भी ज़हर बन सकते हैं — लक्षण जानें, तेज़ी से कार्रवाई करें"),
         text: L(
-          "Pesticides are used on crops, and directly on cattle and buffaloes to kill ticks. Most of these pesticides are organophosphorous (OP) compounds — active poisons. Used or handled the wrong way, they can poison the very animals they were meant to protect. This lesson covers how to recognise OP poisoning, how to prevent it, and why speed matters so much when it happens."
+          "Pesticides are used on crops, and directly on cattle and buffaloes to kill ticks. Most of these pesticides are organophosphorous (OP) compounds — active poisons. Used or handled the wrong way, they can poison the very animals they were meant to protect. This lesson covers how to recognise OP poisoning, how to prevent it, and why speed matters so much when it happens.",
+          "పంటలపై పురుగుమందులు వాడతారు, మరియు గోవులు మరియు గేదెలపై నేరుగా పేలను చంపడానికి కూడా వాడతారు. ఈ పురుగుమందులలో చాలా వరకు ఆర్గానోఫాస్ఫరస్ (OP) సమ్మేళనాలు — క్రియాశీల విషాలు. తప్పు విధంగా వాడితే లేదా నిర్వహిస్తే, అవి రక్షించాల్సిన జంతువులనే విషపూరితం చేయవచ్చు. ఈ పాఠం OP విషప్రయోగాన్ని ఎలా గుర్తించాలో, దానిని ఎలా నివారించాలో, మరియు ఇది జరిగినప్పుడు వేగం ఎందుకు అంత ముఖ్యమో వివరిస్తుంది.",
+          "பயிர்களில் மற்றும் மாடு மற்றும் எருமைகளில் ஈறு (டிக்) கொல்ல நேரடியாக பூச்சிக்கொல்லிகள் பயன்படுத்தப்படுகின்றன. இந்த பூச்சிக்கொல்லிகளில் பெரும்பாலானவை ஆர்கானோபாஸ்பரஸ் (OP) கூட்டுப்பொருட்கள் — செயல்படும் நச்சுகள். தவறாகப் பயன்படுத்தப்பட்டால் அல்லது கையாளப்பட்டால், அவை பாதுகாக்கப்பட வேண்டிய விலங்குகளையே நச்சுத்தன்மைக்கு உள்ளாக்கலாம். இந்த பாடம் OP நச்சுத்தன்மையை எவ்வாறு அடையாளம் காண்பது, அதை எவ்வாறு தடுப்பது, மற்றும் இது நிகழும்போது வேகம் ஏன் மிகவும் முக்கியம் என்பதை உள்ளடக்கியது.",
+          "ಬೆಳೆಗಳ ಮೇಲೆ ಮತ್ತು ಉಣ್ಣಿಗಳನ್ನು ಕೊಲ್ಲಲು ದನ ಮತ್ತು ಎಮ್ಮೆಗಳ ಮೇಲೆ ನೇರವಾಗಿ ಕೀಟನಾಶಕಗಳನ್ನು ಬಳಸಲಾಗುತ್ತದೆ. ಈ ಕೀಟನಾಶಕಗಳಲ್ಲಿ ಹೆಚ್ಚಿನವು ಆರ್ಗನೋಫಾಸ್ಫರಸ್ (OP) ಸಂಯುಕ್ತಗಳು — ಸಕ್ರಿಯ ವಿಷಗಳು. ತಪ್ಪಾಗಿ ಬಳಸಿದರೆ ಅಥವಾ ನಿರ್ವಹಿಸಿದರೆ, ಅವು ರಕ್ಷಿಸಬೇಕಾದ ಪ್ರಾಣಿಗಳನ್ನೇ ವಿಷಪೂರಿತಗೊಳಿಸಬಹುದು. ಈ ಪಾಠವು OP ವಿಷಬಾಧೆಯನ್ನು ಹೇಗೆ ಗುರುತಿಸುವುದು, ಅದನ್ನು ಹೇಗೆ ತಡೆಗಟ್ಟುವುದು ಮತ್ತು ಅದು ಸಂಭವಿಸಿದಾಗ ವೇಗ ಏಕೆ ಮುಖ್ಯ ಎಂಬುದನ್ನು ಒಳಗೊಂಡಿದೆ.",
+          "कीटनाशकों का उपयोग फसलों पर, और सीधे गायों व भैंसों पर किलनी मारने के लिए किया जाता है। इनमें से ज़्यादातर कीटनाशक ऑर्गनोफॉस्फोरस (OP) यौगिक होते हैं — सक्रिय ज़हर। गलत तरीके से उपयोग या संभालने पर, ये उन्हीं जानवरों को ज़हरीला बना सकते हैं जिन्हें वे बचाने के लिए बने थे। यह पाठ बताता है कि OP विषाक्तता को कैसे पहचानें, इसे कैसे रोकें, और जब यह होता है तो गति इतनी महत्वपूर्ण क्यों है।"
         ),
       },
     ],
     topics: [
       {
         id: "t-m10-op-symptoms",
-        title: L("Recognising Organophosphorous (Pesticide) Poisoning"),
+        title: L("Recognising Organophosphorous (Pesticide) Poisoning", "ఆర్గానోఫాస్ఫరస్ (పురుగుమందు) విషప్రయోగాన్ని గుర్తించడం", "ஆர்கானோபாஸ்பரஸ் (பூச்சிக்கொல்லி) நச்சுத்தன்மையை அடையாளம் காணுதல்", "ಆರ್ಗನೋಫಾಸ್ಫರಸ್ (ಕೀಟನಾಶಕ) ವಿಷಬಾಧೆಯನ್ನು ಗುರುತಿಸುವುದು", "ऑर्गनोफॉस्फोरस (कीटनाशक) विषाक्तता को पहचानना"),
         teach: [
             {
               type: "photo",
               src: "assets/photo-m10-pesticide-spraying.jpg",
-              alt: L("A tractor towing a boom sprayer, applying pesticide to a ploughed field, with visible spray mist"),
-              caption: L("Pesticide being sprayed on a field. Most pesticides — including tick-control products used on cattle — are organophosphorous (OP) compounds, the hazard this lesson covers."),
+              alt: L("A tractor towing a boom sprayer, applying pesticide to a ploughed field, with visible spray mist", "ఒక ట్రాక్టర్ బూమ్ స్ప్రేయర్‌ను లాగుతూ, దున్నిన పొలంలో పురుగుమందును పిచికారీ చేస్తుంది, స్ప్రే మిస్ట్ కనిపిస్తుంది", "ஒரு டிராக்டர் பூம் தெளிப்பானை இழுத்துச் சென்று, உழப்பட்ட வயலில் பூச்சிக்கொல்லியை தெளிக்கிறது, தெளிப்பு மூடுபனி காணப்படுகிறது", "ಒಂದು ಟ್ರ್ಯಾಕ್ಟರ್ ಬೂಮ್ ಸಿಂಪಡಣೆಯನ್ನು ಎಳೆಯುತ್ತಾ, ಉಳುಮೆ ಮಾಡಿದ ಹೊಲದಲ್ಲಿ ಕೀಟನಾಶಕವನ್ನು ಸಿಂಪಡಿಸುತ್ತಿದೆ, ಸಿಂಪಡಣೆ ಮಂಜು ಕಾಣಿಸುತ್ತಿದೆ", "एक ट्रैक्टर बूम स्प्रेयर खींचते हुए, जुते हुए खेत में कीटनाशक का छिड़काव कर रहा है, छिड़काव की धुंध दिखाई दे रही है"),
+              caption: L("Pesticide being sprayed on a field. Most pesticides — including tick-control products used on cattle — are organophosphorous (OP) compounds, the hazard this lesson covers.", "పొలంలో పురుగుమందు పిచికారీ చేస్తున్నారు. పశువులపై వాడే పేను నియంత్రణ ఉత్పత్తులతో సహా చాలా పురుగుమందులు ఆర్గానోఫాస్ఫరస్ (OP) సమ్మేళనాలు, ఇది ఈ పాఠం వివరించే ప్రమాదం.", "ஒரு வயலில் பூச்சிக்கொல்லி தெளிக்கப்படுகிறது. மாடுகளில் பயன்படுத்தப்படும் ஈறு-கட்டுப்பாட்டு பொருட்கள் உட்பட பெரும்பாலான பூச்சிக்கொல்லிகள் ஆர்கானோபாஸ்பரஸ் (OP) கூட்டுப்பொருட்கள், இது இந்த பாடம் உள்ளடக்கும் ஆபத்து.", "ಒಂದು ಹೊಲದಲ್ಲಿ ಕೀಟನಾಶಕ ಸಿಂಪಡಿಸಲಾಗುತ್ತಿದೆ. ಜಾನುವಾರುಗಳ ಮೇಲೆ ಬಳಸುವ ಉಣ್ಣಿ-ನಿಯಂತ್ರಣ ಉತ್ಪನ್ನಗಳು ಸೇರಿದಂತೆ ಹೆಚ್ಚಿನ ಕೀಟನಾಶಕಗಳು ಆರ್ಗನೋಫಾಸ್ಫರಸ್ (OP) ಸಂಯುಕ್ತಗಳಾಗಿವೆ, ಇದು ಈ ಪಾಠ ಒಳಗೊಳ್ಳುವ ಅಪಾಯ.", "एक खेत में कीटनाशक का छिड़काव किया जा रहा है। पशुओं पर इस्तेमाल होने वाले किलनी-नियंत्रण उत्पादों सहित ज़्यादातर कीटनाशक ऑर्गनोफॉस्फोरस (OP) यौगिक हैं, जो इस पाठ का विषय है।"),
             },
           {
             type: "text",
-            heading: L("What Are Organophosphorous (OP) Compounds?"),
+            heading: L("What Are Organophosphorous (OP) Compounds?", "ఆర్గానోఫాస్ఫరస్ (OP) సమ్మేళనాలు అంటే ఏమిటి?", "ஆர்கானோபாஸ்பரஸ் (OP) கூட்டுப்பொருட்கள் என்றால் என்ன?", "ಆರ್ಗನೋಫಾಸ್ಫರಸ್ (OP) ಸಂಯುಕ್ತಗಳು ಎಂದರೇನು?", "ऑर्गनोफॉस्फोरस (OP) यौगिक क्या हैं?"),
             html: L(
-              "Pesticides are chemicals used to control pests on crops, and to kill ticks on cattle and buffaloes. Most pesticides are made from <b>organophosphorous (OP)</b> compounds. These are active poisons — meant to kill small pests and parasites, but capable of poisoning a cow or buffalo too, if used the wrong way or in excess."
+              "Pesticides are chemicals used to control pests on crops, and to kill ticks on cattle and buffaloes. Most pesticides are made from <b>organophosphorous (OP)</b> compounds. These are active poisons — meant to kill small pests and parasites, but capable of poisoning a cow or buffalo too, if used the wrong way or in excess.",
+              "పురుగుమందులు పంటలపై పురుగులను నియంత్రించడానికి, మరియు గోవులు మరియు గేదెలపై పేనులను చంపడానికి వాడే రసాయనాలు. చాలా పురుగుమందులు <b>ఆర్గానోఫాస్ఫరస్ (OP)</b> సమ్మేళనాల నుండి తయారవుతాయి. ఇవి క్రియాశీల విషాలు — చిన్న పురుగులు మరియు పరాన్నజీవులను చంపడానికి ఉద్దేశించినవి, కానీ తప్పు విధంగా లేదా అధికంగా వాడితే గోవు లేదా గేదెను కూడా విషపూరితం చేయగలవు.",
+              "பூச்சிக்கொல்லிகள் என்பது பயிர்களில் பூச்சிகளைக் கட்டுப்படுத்தவும், மாடு மற்றும் எருமைகளில் ஈறுகளைக் கொல்லவும் பயன்படுத்தப்படும் இரசாயனங்கள். பெரும்பாலான பூச்சிக்கொல்லிகள் <b>ஆர்கானோபாஸ்பரஸ் (OP)</b> கூட்டுப்பொருட்களிலிருந்து செய்யப்படுகின்றன. இவை செயல்படும் நச்சுகள் — சிறிய பூச்சிகள் மற்றும் ஒட்டுண்ணிகளைக் கொல்ல வேண்டியவை, ஆனால் தவறாகப் பயன்படுத்தப்பட்டால் அல்லது அதிகமாகப் பயன்படுத்தப்பட்டால் ஒரு பசு அல்லது எருமையையும் நச்சுத்தன்மைக்கு உள்ளாக்கக்கூடியவை.",
+              "ಕೀಟನಾಶಕಗಳು ಬೆಳೆಗಳ ಮೇಲಿನ ಕೀಟಗಳನ್ನು ನಿಯಂತ್ರಿಸಲು, ಮತ್ತು ದನ ಹಾಗೂ ಎಮ್ಮೆಗಳ ಮೇಲಿನ ಉಣ್ಣಿಗಳನ್ನು ಕೊಲ್ಲಲು ಬಳಸುವ ರಾಸಾಯನಿಕಗಳು. ಹೆಚ್ಚಿನ ಕೀಟನಾಶಕಗಳು <b>ಆರ್ಗನೋಫಾಸ್ಫರಸ್ (OP)</b> ಸಂಯುಕ್ತಗಳಿಂದ ತಯಾರಿಸಲ್ಪಡುತ್ತವೆ. ಇವು ಸಕ್ರಿಯ ವಿಷಗಳು — ಸಣ್ಣ ಕೀಟಗಳು ಮತ್ತು ಪರಾವಲಂಬಿಗಳನ್ನು ಕೊಲ್ಲಲು ಉದ್ದೇಶಿಸಲಾಗಿದೆ, ಆದರೆ ತಪ್ಪಾಗಿ ಅಥವಾ ಅತಿಯಾಗಿ ಬಳಸಿದರೆ ಹಸು ಅಥವಾ ಎಮ್ಮೆಯನ್ನೂ ವಿಷಪೂರಿತಗೊಳಿಸಬಲ್ಲವು.",
+              "कीटनाशक वे रसायन हैं जो फसलों पर कीटों को नियंत्रित करने के लिए, और गायों व भैंसों पर किलनी को मारने के लिए उपयोग किए जाते हैं। ज़्यादातर कीटनाशक <b>ऑर्गनोफॉस्फोरस (OP)</b> यौगिकों से बने होते हैं। ये सक्रिय ज़हर हैं — छोटे कीटों और परजीवियों को मारने के लिए बने हैं, लेकिन गलत तरीके से या अधिक मात्रा में उपयोग करने पर गाय या भैंस को भी ज़हरीला बना सकते हैं।"
             ),
           },
           {
             type: "glossary",
-            term: L("Organophosphorous (OP) Compound"),
+            term: L("Organophosphorous (OP) Compound", "ఆర్గానోఫాస్ఫరస్ (OP) సమ్మేళనం", "ஆர்கானோபாஸ்பரஸ் (OP) கூட்டுப்பொருள்", "ಆರ್ಗನೋಫಾಸ್ಫರಸ್ (OP) ಸಂಯುಕ್ತ", "ऑर्गनोफॉस्फोरस (OP) यौगिक"),
             meaning: L(
-              "A type of chemical used in many common pesticides, including tick-killing products applied to cattle and buffaloes. It works by poisoning pests and parasites, but it can also poison the animal itself if not used correctly."
+              "A type of chemical used in many common pesticides, including tick-killing products applied to cattle and buffaloes. It works by poisoning pests and parasites, but it can also poison the animal itself if not used correctly.",
+              "పశువులు మరియు గేదెలపై వాడే పేను-చంపే ఉత్పత్తులతో సహా అనేక సాధారణ పురుగుమందులలో వాడే ఒక రకమైన రసాయనం. ఇది పురుగులు మరియు పరాన్నజీవులను విషపూరితం చేయడం ద్వారా పనిచేస్తుంది, కానీ సరిగ్గా వాడకపోతే జంతువును కూడా విషపూరితం చేయవచ్చు.",
+              "மாடு மற்றும் எருமைகளுக்குப் பயன்படுத்தப்படும் ஈறு-கொல்லும் பொருட்கள் உட்பட பல பொதுவான பூச்சிக்கொல்லிகளில் பயன்படுத்தப்படும் ஒரு வகை இரசாயனம். இது பூச்சிகள் மற்றும் ஒட்டுண்ணிகளை நச்சுத்தன்மைக்கு உள்ளாக்குவதன் மூலம் செயல்படுகிறது, ஆனால் சரியாகப் பயன்படுத்தப்படாவிட்டால் விலங்கையும் நச்சுத்தன்மைக்கு உள்ளாக்கலாம்.",
+              "ದನ ಮತ್ತು ಎಮ್ಮೆಗಳಿಗೆ ಅನ್ವಯಿಸುವ ಉಣ್ಣಿ-ಕೊಲ್ಲುವ ಉತ್ಪನ್ನಗಳು ಸೇರಿದಂತೆ ಅನೇಕ ಸಾಮಾನ್ಯ ಕೀಟನಾಶಕಗಳಲ್ಲಿ ಬಳಸುವ ಒಂದು ರೀತಿಯ ರಾಸಾಯನಿಕ. ಇದು ಕೀಟಗಳು ಮತ್ತು ಪರಾವಲಂಬಿಗಳನ್ನು ವಿಷಪೂರಿತಗೊಳಿಸುವ ಮೂಲಕ ಕೆಲಸ ಮಾಡುತ್ತದೆ, ಆದರೆ ಸರಿಯಾಗಿ ಬಳಸದಿದ್ದರೆ ಪ್ರಾಣಿಯನ್ನೂ ವಿಷಪೂರಿತಗೊಳಿಸಬಹುದು.",
+              "गायों और भैंसों पर लगाए जाने वाले किलनी-नाशक उत्पादों सहित कई सामान्य कीटनाशकों में इस्तेमाल होने वाला एक प्रकार का रसायन। यह कीटों और परजीवियों को ज़हरीला बनाकर काम करता है, लेकिन सही तरीके से उपयोग न करने पर यह जानवर को भी ज़हरीला बना सकता है।"
             ),
           },
           {
             type: "stat-grid",
             items: [
               {
-                label: L("General condition"),
-                text: L("Severe depression — the animal appears very dull and low."),
+                label: L("General condition", "సాధారణ పరిస్థితి", "பொது நிலை", "ಸಾಮಾನ್ಯ ಸ್ಥಿತಿ", "सामान्य स्थिति"),
+                text: L("Severe depression — the animal appears very dull and low.", "తీవ్రమైన నిస్తేజం — జంతువు చాలా మందకొడిగా మరియు నీరసంగా కనిపిస్తుంది.", "கடுமையான மந்தம் — விலங்கு மிகவும் மந்தமாகவும் தளர்ச்சியாகவும் தோன்றுகிறது.", "ತೀವ್ರ ಜಡತ್ವ — ಪ್ರಾಣಿ ತುಂಬಾ ನಿಸ್ತೇಜ ಮತ್ತು ಕುಗ್ಗಿದಂತೆ ಕಾಣಿಸುತ್ತದೆ.", "गंभीर सुस्ती — जानवर बहुत सुस्त और कमज़ोर दिखाई देता है।"),
               },
               {
-                label: L("Drooling and urination"),
-                text: L("Heavy drooling (hypersalivation), and passing urine more often than normal."),
+                label: L("Drooling and urination", "లాలాజలం మరియు మూత్ర విసర్జన", "உமிழ்நீர் மற்றும் சிறுநீர் கழித்தல்", "ಜೊಲ್ಲು ಸುರಿಸುವಿಕೆ ಮತ್ತು ಮೂತ್ರ ವಿಸರ್ಜನೆ", "लार टपकना और पेशाब आना"),
+                text: L("Heavy drooling (hypersalivation), and passing urine more often than normal.", "అధిక లాలాజలం (హైపర్‌సలివేషన్), మరియు సాధారణం కంటే ఎక్కువసార్లు మూత్ర విసర్జన.", "அதிக உமிழ்நீர் (ஹைப்பர்சலைவேஷன்), மற்றும் வழக்கத்தை விட அடிக்கடி சிறுநீர் கழித்தல்.", "ಅತಿಯಾದ ಜೊಲ್ಲು ಸುರಿಸುವಿಕೆ (ಹೈಪರ್‌ಸಲೈವೇಶನ್), ಮತ್ತು ಸಾಮಾನ್ಯಕ್ಕಿಂತ ಹೆಚ್ಚಾಗಿ ಮೂತ್ರ ವಿಸರ್ಜನೆ.", "अत्यधिक लार टपकना (हाइपरसैलिवेशन), और सामान्य से ज़्यादा बार पेशाब आना।"),
               },
               {
-                label: L("Digestion and breathing"),
-                text: L("Diarrhoea, abdominal pain (colic), and difficult breathing."),
+                label: L("Digestion and breathing", "జీర్ణక్రియ మరియు శ్వాస", "செரிமானம் மற்றும் சுவாசம்", "ಜೀರ್ಣಕ್ರಿಯೆ ಮತ್ತು ಉಸಿರಾಟ", "पाचन और साँस लेना"),
+                text: L("Diarrhoea, abdominal pain (colic), and difficult breathing.", "విరేచనాలు, కడుపు నొప్పి (కోలిక్), మరియు కష్టమైన శ్వాస.", "வயிற்றுப்போக்கு, வயிற்று வலி (கோலிக்), மற்றும் சிரமமான சுவாசம்.", "ಅತಿಸಾರ, ಹೊಟ್ಟೆ ನೋವು (ಕೊಲಿಕ್), ಮತ್ತು ಕಷ್ಟದ ಉಸಿರಾಟ.", "दस्त, पेट दर्द (कॉलिक), और कठिन साँस लेना।"),
               },
               {
-                label: L("Muscles and nervous system"),
+                label: L("Muscles and nervous system", "కండరాలు మరియు నాడీ వ్యవస్థ", "தசைகள் மற்றும் நரம்பு மண்டலம்", "ಸ್ನಾಯುಗಳು ಮತ್ತು ನರಮಂಡಲ", "मांसपेशियाँ और तंत्रिका तंत्र"),
                 text: L(
-                  "Muscles twitching visibly under the skin, nervousness, unsteady walking, apprehension, and even seizures (fits). The pupils of the eyes may also become very small (constricted)."
+                  "Muscles twitching visibly under the skin, nervousness, unsteady walking, apprehension, and even seizures (fits). The pupils of the eyes may also become very small (constricted).",
+                  "చర్మం కింద కనిపించేలా కండరాలు కదులుతాయి, భయాందోళన, అస్థిర నడక, ఆందోళన, మరియు మూర్ఛలు (ఫిట్స్) కూడా. కళ్ళ పాపలు కూడా చాలా చిన్నవిగా (సంకోచించి) కావచ్చు.",
+                  "தோலின் கீழ் தெரியும் அளவுக்கு தசைகள் துடிப்பது, பதட்டம், நிலையற்ற நடை, கவலை, மற்றும் வலிப்பு (ஃபிட்ஸ்) கூட. கண்களின் கருவிழிகளும் மிகவும் சிறியதாக (சுருங்கியதாக) மாறலாம்.",
+                  "ಚರ್ಮದ ಕೆಳಗೆ ಗೋಚರವಾಗಿ ಸ್ನಾಯುಗಳು ಅದುರುವುದು, ಆತಂಕ, ಅಸ್ಥಿರ ನಡಿಗೆ, ಭಯ, ಮತ್ತು ಸೆಳವು (ಫಿಟ್ಸ್) ಕೂಡ. ಕಣ್ಣುಗಳ ಪಾಪೆಗಳೂ ಬಹಳ ಚಿಕ್ಕದಾಗಿ (ಸಂಕುಚಿತ) ಆಗಬಹುದು.",
+                  "त्वचा के नीचे साफ़ दिखने वाली मांसपेशियों का फड़कना, घबराहट, अस्थिर चाल, बेचैनी, और यहाँ तक कि दौरे (फिट्स)। आँखों की पुतलियाँ भी बहुत छोटी (सिकुड़ी हुई) हो सकती हैं।"
                 ),
               },
             ],
