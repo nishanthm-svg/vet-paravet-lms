@@ -8577,45 +8577,187 @@ export const MODULES = [
         {
           topicId: "t-m13-digestive",
           type: "mcq",
-          q: L("How much of the home ORS mixture should an adult animal with dehydration be given, and how often?"),
-          options: [L("2 to 3 litres, 2 to 3 times a day"), L("A single teaspoon, once"), L("20 litres, once"), L("It should never be given to adults")],
-          answer: 0,
-          explain: L("The handbook's dose for adult animals is 2 to 3 litres, 2 to 3 times a day, until recovery."),
-        },
-        {
-          topicId: "t-m13-digestive",
-          type: "truefalse",
-          q: L("The handbook offers more than one option for diarrhoea, including tea leaves with ginger, boiled guava leaves, and potassium permanganate in water."),
-          answer: true,
-          explain: L("Correct — all three are listed as separate diarrhoea remedy options in the handbook."),
-        },
-        {
-          topicId: "t-m13-skin-wound",
-          type: "mcq",
-          q: L("Which handbook remedy is specifically used for maggot wounds?"),
+          q: L(
+            "How much of the home ORS mixture should an adult animal with dehydration be given, and how often?",
+            "డీహైడ్రేషన్‌తో ఉన్న పెద్ద జంతువుకు ఇంటి ORS మిశ్రమం ఎంత మోతాదులో, ఎంత తరచుగా ఇవ్వాలి?",
+            "நீரிழப்புடன் இருக்கும் பெரிய விலங்குக்கு வீட்டு ORS கலவை எவ்வளவு, எவ்வளவு அடிக்கடி கொடுக்க வேண்டும்?",
+            "ನಿರ್ಜಲೀಕರಣ ಹೊಂದಿರುವ ವಯಸ್ಕ ಪ್ರಾಣಿಗೆ ಮನೆಯ ORS ಮಿಶ್ರಣವನ್ನು ಎಷ್ಟು, ಎಷ್ಟು ಬಾರಿ ಕೊಡಬೇಕು?",
+            "निर्जलीकरण से पीड़ित वयस्क जानवर को घरेलू ORS मिश्रण कितनी मात्रा में, कितनी बार देना चाहिए?"
+          ),
           options: [
-            L("Marigold and tulsi leaves crushed with garlic and lime into a paste"),
-            L("Only potassium permanganate in water"),
-            L("Ground amla fruit, eaten daily"),
-            L("Coconut inflorescence juice"),
+            L(
+              "2 to 3 litres, 2 to 3 times a day",
+              "2 నుండి 3 లీటర్లు, రోజుకు 2 నుండి 3 సార్లు",
+              "2 முதல் 3 லிட்டர், நாளொன்றுக்கு 2 முதல் 3 முறை",
+              "2 ರಿಂದ 3 ಲೀಟರ್, ದಿನಕ್ಕೆ 2 ರಿಂದ 3 ಬಾರಿ",
+              "2 से 3 लीटर, दिन में 2 से 3 बार"
+            ),
+            L(
+              "A single teaspoon, once",
+              "ఒకే ఒక టీస్పూన్, ఒకసారి",
+              "ஒரு தேக்கரண்டி மட்டும், ஒரு முறை",
+              "ಒಂದೇ ಟೀಚಮಚ, ಒಮ್ಮೆ",
+              "एक चम्मच मात्र, एक बार"
+            ),
+            L(
+              "20 litres, once",
+              "20 లీటర్లు, ఒకసారి",
+              "20 லிட்டர், ஒரு முறை",
+              "20 ಲೀಟರ್, ಒಮ್ಮೆ",
+              "20 लीटर, एक बार"
+            ),
+            L(
+              "It should never be given to adults",
+              "దీనిని పెద్ద జంతువులకు ఎప్పుడూ ఇవ్వకూడదు",
+              "இதை பெரியவைகளுக்கு ஒருபோதும் கொடுக்கக்கூடாது",
+              "ಇದನ್ನು ವಯಸ್ಕರಿಗೆ ಎಂದಿಗೂ ಕೊಡಬಾರದು",
+              "इसे वयस्कों को कभी नहीं देना चाहिए"
+            ),
           ],
           answer: 0,
-          explain: L("Marigold and tulsi leaves crushed with garlic and lime is the handbook's first maggot-wound remedy, applied twice daily."),
+          explain: L(
+            "The handbook's dose for adult animals is 2 to 3 litres, 2 to 3 times a day, until recovery.",
+            "పెద్ద జంతువులకు హ్యాండ్‌బుక్ మోతాదు 2 నుండి 3 లీటర్లు, రోజుకు 2 నుండి 3 సార్లు, కోలుకునే వరకు.",
+            "பெரிய விலங்குகளுக்கு கையேட்டு அளவு 2 முதல் 3 லிட்டர், நாளொன்றுக்கு 2 முதல் 3 முறை, குணமாகும் வரை.",
+            "ವಯಸ್ಕ ಪ್ರಾಣಿಗಳಿಗೆ ಕೈಪಿಡಿಯ ಡೋಸ್ 2 ರಿಂದ 3 ಲೀಟರ್, ದಿನಕ್ಕೆ 2 ರಿಂದ 3 ಬಾರಿ, ಚೇತರಿಸಿಕೊಳ್ಳುವವರೆಗೆ.",
+            "वयस्क जानवरों के लिए हैंडबुक की खुराक 2 से 3 लीटर, दिन में 2 से 3 बार, ठीक होने तक है।"
+          ),
+        },
+        {
+          topicId: "t-m13-digestive",
+          type: "truefalse",
+          q: L(
+            "The handbook offers more than one option for diarrhoea, including tea leaves with ginger, boiled guava leaves, and potassium permanganate in water.",
+            "హ్యాండ్‌బుక్ విరేచనాలకు ఒకటి కంటే ఎక్కువ ఎంపికలను అందిస్తుంది, వీటిలో అల్లంతో తేయాకు, ఉడికించిన జామ ఆకులు, మరియు నీటిలో పొటాషియం పర్మాంగనేట్ ఉన్నాయి.",
+            "கையேடு வயிற்றுப்போக்குக்கு ஒன்றுக்கும் மேற்பட்ட விருப்பங்களை வழங்குகிறது, இதில் இஞ்சியுடன் தேயிலை, வேகவைத்த கொய்யா இலைகள், மற்றும் தண்ணீரில் பொட்டாசியம் பர்மாங்கனேட் ஆகியவை அடங்கும்.",
+            "ಕೈಪಿಡಿ ಅತಿಸಾರಕ್ಕೆ ಒಂದಕ್ಕಿಂತ ಹೆಚ್ಚು ಆಯ್ಕೆಗಳನ್ನು ನೀಡುತ್ತದೆ, ಇದರಲ್ಲಿ ಶುಂಠಿಯೊಂದಿಗೆ ಚಹಾ ಎಲೆ, ಬೇಯಿಸಿದ ಸೀಬೆ ಎಲೆಗಳು, ಮತ್ತು ನೀರಿನಲ್ಲಿ ಪೊಟ್ಯಾಸಿಯಂ ಪರ್ಮ್ಯಾಂಗನೇಟ್ ಸೇರಿವೆ.",
+            "हैंडबुक दस्त के लिए एक से अधिक विकल्प देती है, जिसमें अदरक के साथ चायपत्ती, उबली हुई अमरूद की पत्तियां, और पानी में पोटैशियम परमैंगनेट शामिल हैं।"
+          ),
+          answer: true,
+          explain: L(
+            "Correct — all three are listed as separate diarrhoea remedy options in the handbook.",
+            "సరైనది — మూడు కూడా హ్యాండ్‌బుక్‌లో వేర్వేరు విరేచనాల చిట్కా ఎంపికలుగా జాబితా చేయబడ్డాయి.",
+            "சரி — மூன்றும் கையேட்டில் தனித்தனி வயிற்றுப்போக்கு வைத்திய விருப்பங்களாக பட்டியலிடப்பட்டுள்ளன.",
+            "ಸರಿ — ಮೂರೂ ಕೈಪಿಡಿಯಲ್ಲಿ ಪ್ರತ್ಯೇಕ ಅತಿಸಾರ ಪರಿಹಾರ ಆಯ್ಕೆಗಳಾಗಿ ಪಟ್ಟಿ ಮಾಡಲಾಗಿದೆ.",
+            "सही — तीनों को हैंडबुक में अलग-अलग दस्त उपचार विकल्पों के रूप में सूचीबद्ध किया गया है।"
+          ),
+        },
+        {
+          topicId: "t-m13-skin-wound",
+          type: "mcq",
+          q: L(
+            "Which handbook remedy is specifically used for maggot wounds?",
+            "పురుగుల గాయాలకు ప్రత్యేకంగా ఏ హ్యాండ్‌బుక్ చిట్కా వాడతారు?",
+            "புழு காயங்களுக்கு குறிப்பாக எந்த கையேட்டு வைத்தியம் பயன்படுத்தப்படுகிறது?",
+            "ಹುಳ ಗಾಯಗಳಿಗೆ ನಿರ್ದಿಷ್ಟವಾಗಿ ಯಾವ ಕೈಪಿಡಿ ಪರಿಹಾರ ಬಳಸಲಾಗುತ್ತದೆ?",
+            "कीड़े वाले घावों के लिए विशेष रूप से कौन सा हैंडबुक उपचार इस्तेमाल किया जाता है?"
+          ),
+          options: [
+            L(
+              "Marigold and tulsi leaves crushed with garlic and lime into a paste",
+              "బంతిపువ్వు మరియు తులసి ఆకులను వెల్లుల్లి మరియు నిమ్మతో నలిపి పేస్టుగా చేయడం",
+              "சாமந்தி மற்றும் துளசி இலைகளை பூண்டு மற்றும் எலுமிச்சையுடன் நசுக்கி பேஸ்டாக செய்தல்",
+              "ಚೆಂಡುಹೂವು ಮತ್ತು ತುಳಸಿ ಎಲೆಗಳನ್ನು ಬೆಳ್ಳುಳ್ಳಿ ಮತ್ತು ನಿಂಬೆಯೊಂದಿಗೆ ಪುಡಿಮಾಡಿ ಪೇಸ್ಟ್ ಮಾಡುವುದು",
+              "गेंदा और तुलसी की पत्तियों को लहसुन और नींबू के साथ कुचलकर पेस्ट बनाना"
+            ),
+            L(
+              "Only potassium permanganate in water",
+              "నీటిలో పొటాషియం పర్మాంగనేట్ మాత్రమే",
+              "தண்ணீரில் பொட்டாசியம் பர்மாங்கனேட் மட்டும்",
+              "ನೀರಿನಲ್ಲಿ ಪೊಟ್ಯಾಸಿಯಂ ಪರ್ಮ್ಯಾಂಗನೇಟ್ ಮಾತ್ರ",
+              "केवल पानी में पोटैशियम परमैंगनेट"
+            ),
+            L(
+              "Ground amla fruit, eaten daily",
+              "దంచిన ఉసిరి పండు, రోజూ తినడం",
+              "அரைத்த நெல்லிக்காய் பழம், தினமும் உண்ணுதல்",
+              "ಪುಡಿಮಾಡಿದ ನೆಲ್ಲಿಕಾಯಿ ಹಣ್ಣು, ಪ್ರತಿದಿನ ತಿನ್ನುವುದು",
+              "पिसा हुआ आंवला फल, रोज़ खाना"
+            ),
+            L(
+              "Coconut inflorescence juice",
+              "కొబ్బరి పుష్పగుచ్ఛం రసం",
+              "தேங்காய் பூங்கொத்து சாறு",
+              "ತೆಂಗಿನ ಹೂಗೊಂಚಲಿನ ರಸ",
+              "नारियल के पुष्पगुच्छ का रस"
+            ),
+          ],
+          answer: 0,
+          explain: L(
+            "Marigold and tulsi leaves crushed with garlic and lime is the handbook's first maggot-wound remedy, applied twice daily.",
+            "బంతిపువ్వు మరియు తులసి ఆకులను వెల్లుల్లి మరియు నిమ్మతో నలపడం హ్యాండ్‌బుక్ యొక్క మొదటి పురుగుల గాయం చిట్కా, రోజుకు రెండుసార్లు వేయాలి.",
+            "சாமந்தி மற்றும் துளசி இலைகளை பூண்டு மற்றும் எலுமிச்சையுடன் நசுக்குவது கையேட்டின் முதல் புழு காயம் வைத்தியம், நாளொன்றுக்கு இரண்டு முறை பயன்படுத்த வேண்டும்.",
+            "ಚೆಂಡುಹೂವು ಮತ್ತು ತುಳಸಿ ಎಲೆಗಳನ್ನು ಬೆಳ್ಳುಳ್ಳಿ ಮತ್ತು ನಿಂಬೆಯೊಂದಿಗೆ ಪುಡಿಮಾಡುವುದು ಕೈಪಿಡಿಯ ಮೊದಲ ಹುಳ-ಗಾಯದ ಪರಿಹಾರ, ದಿನಕ್ಕೆ ಎರಡು ಬಾರಿ ಹಚ್ಚಬೇಕು.",
+            "गेंदा और तुलसी की पत्तियों को लहसुन और नींबू के साथ कुचलना हैंडबुक का पहला कीड़े वाले घाव का उपचार है, दिन में दो बार लगाना चाहिए।"
+          ),
         },
         {
           topicId: "t-m13-skin-wound",
           type: "truefalse",
-          q: L("According to the handbook, both Euphorbia latex and papaya latex are applied on warts until the wart falls off."),
+          q: L(
+            "According to the handbook, both Euphorbia latex and papaya latex are applied on warts until the wart falls off.",
+            "హ్యాండ్‌బుక్ ప్రకారం, యూఫోర్బియా జిగురు మరియు బొప్పాయి జిగురు రెండింటినీ మొటిమ రాలిపోయే వరకు వేస్తారు.",
+            "கையேட்டின்படி, யூஃபோர்பியா பால் மற்றும் பப்பாளி பால் இரண்டும் கொப்புளம் விழும் வரை பயன்படுத்தப்படுகின்றன.",
+            "ಕೈಪಿಡಿಯ ಪ್ರಕಾರ, ಯೂಫೋರ್ಬಿಯಾ ಅಂಟು ಮತ್ತು ಪಪ್ಪಾಯಿ ಅಂಟು ಎರಡನ್ನೂ ನರಹುಲಿ ಉದುರುವವರೆಗೆ ಹಚ್ಚಲಾಗುತ್ತದೆ.",
+            "हैंडबुक के अनुसार, यूफोर्बिया का दूध और पपीते का दूध दोनों को मस्सा गिरने तक लगाया जाता है।"
+          ),
           answer: true,
-          explain: L("Correct — both are listed as separate options for treating warts, applied twice a day."),
+          explain: L(
+            "Correct — both are listed as separate options for treating warts, applied twice a day.",
+            "సరైనది — రెండూ మొటిమలకు వేర్వేరు చికిత్స ఎంపికలుగా జాబితా చేయబడ్డాయి, రోజుకు రెండుసార్లు వేయాలి.",
+            "சரி — இரண்டும் கொப்புளங்களுக்கு சிகிச்சையளிக்க தனித்தனி விருப்பங்களாக பட்டியலிடப்பட்டுள்ளன, நாளொன்றுக்கு இரண்டு முறை பயன்படுத்த வேண்டும்.",
+            "ಸರಿ — ಎರಡೂ ನರಹುಲಿಗಳಿಗೆ ಚಿಕಿತ್ಸೆ ನೀಡಲು ಪ್ರತ್ಯೇಕ ಆಯ್ಕೆಗಳಾಗಿ ಪಟ್ಟಿ ಮಾಡಲಾಗಿದೆ, ದಿನಕ್ಕೆ ಎರಡು ಬಾರಿ ಹಚ್ಚಬೇಕು.",
+            "सही — दोनों को मस्सों के इलाज के लिए अलग-अलग विकल्पों के रूप में सूचीबद्ध किया गया है, दिन में दो बार लगाना चाहिए।"
+          ),
         },
         {
           topicId: "t-m13-digestive",
           type: "mcq",
-          q: L("What combination does the handbook suggest for a general stomach disorder?"),
-          options: [L("Ginger juice, drumstick leaf juice and honey"), L("Only cold water"), L("Papaya latex"), L("Cassia alata paste")],
+          q: L(
+            "What combination does the handbook suggest for a general stomach disorder?",
+            "సాధారణ కడుపు రుగ్మతకు హ్యాండ్‌బుక్ ఏ కలయికను సూచిస్తుంది?",
+            "பொதுவான வயிற்று கோளாறுக்கு கையேடு எந்த கலவையை பரிந்துரைக்கிறது?",
+            "ಸಾಮಾನ್ಯ ಹೊಟ್ಟೆ ಅಸ್ವಸ್ಥತೆಗೆ ಕೈಪಿಡಿ ಯಾವ ಸಂಯೋಜನೆಯನ್ನು ಸೂಚಿಸುತ್ತದೆ?",
+            "सामान्य पेट की गड़बड़ी के लिए हैंडबुक किस मिश्रण का सुझाव देती है?"
+          ),
+          options: [
+            L(
+              "Ginger juice, drumstick leaf juice and honey",
+              "అల్లం రసం, మునగ ఆకు రసం మరియు తేనె",
+              "இஞ்சி சாறு, முருங்கை இலை சாறு மற்றும் தேன்",
+              "ಶುಂಠಿ ರಸ, ನುಗ್ಗೆ ಎಲೆ ರಸ ಮತ್ತು ಜೇನುತುಪ್ಪ",
+              "अदरक का रस, सहजन पत्ती का रस और शहद"
+            ),
+            L(
+              "Only cold water",
+              "చల్లని నీరు మాత్రమే",
+              "குளிர்ந்த நீர் மட்டும்",
+              "ತಣ್ಣನೆಯ ನೀರು ಮಾತ್ರ",
+              "केवल ठंडा पानी"
+            ),
+            L(
+              "Papaya latex",
+              "బొప్పాయి జిగురు",
+              "பப்பாளி பால்",
+              "ಪಪ್ಪಾಯಿ ಅಂಟು",
+              "पपीते का दूध"
+            ),
+            L(
+              "Cassia alata paste",
+              "కేసియా అలాటా పేస్టు",
+              "கேசியா அலாட்டா பேஸ்ட்",
+              "ಕ್ಯಾಸಿಯಾ ಅಲಾಟಾ ಪೇಸ್ಟ್",
+              "कैसिया अलाटा पेस्ट"
+            ),
+          ],
           answer: 0,
-          explain: L("500 ml each of ginger and drumstick leaf juice mixed with 200 ml honey is the handbook's stomach disorder remedy."),
+          explain: L(
+            "500 ml each of ginger and drumstick leaf juice mixed with 200 ml honey is the handbook's stomach disorder remedy.",
+            "500 మి.లీ చొప్పున అల్లం మరియు మునగ ఆకు రసాన్ని 200 మి.లీ తేనెతో కలపడం హ్యాండ్‌బుక్ కడుపు రుగ్మత చిట్కా.",
+            "500 மி.லி வீதம் இஞ்சி மற்றும் முருங்கை இலை சாற்றை 200 மி.லி தேனுடன் கலப்பது கையேட்டு வயிற்று கோளாறு வைத்தியம்.",
+            "ತಲಾ 500 ಮಿ.ಲೀ ಶುಂಠಿ ಮತ್ತು ನುಗ್ಗೆ ಎಲೆ ರಸವನ್ನು 200 ಮಿ.ಲೀ ಜೇನುತುಪ್ಪದೊಂದಿಗೆ ಬೆರೆಸುವುದು ಕೈಪಿಡಿಯ ಹೊಟ್ಟೆ ಅಸ್ವಸ್ಥತೆ ಪರಿಹಾರ.",
+            "500 मिली अदरक और सहजन पत्ती का रस, दोनों को 200 मिली शहद के साथ मिलाना हैंडबुक का पेट की गड़बड़ी का उपचार है।"
+          ),
         },
       ],
     },
