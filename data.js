@@ -8768,53 +8768,127 @@ export const MODULES = [
   // ==================================================================
   {
     id: "m13-l3",
-    title: L("NDDB's Ethnoveterinary Formulations (EVM Brochure)"),
+    title: L(
+      "NDDB's Ethnoveterinary Formulations (EVM Brochure)",
+      "NDDB యొక్క ఎత్నోవెటర్నరీ ఫార్ములేషన్స్ (EVM బ్రోషర్)",
+      "NDDB இன் நாட்டுவைத்திய சூத்திரங்கள் (EVM துண்டுப்பிரசுரம்)",
+      "NDDB ಯ ಜನಪದ ಪಶುವೈದ್ಯ ಸೂತ್ರೀಕರಣಗಳು (EVM ಕರಪತ್ರ)",
+      "NDDB के जनजातीय पशु चिकित्सा फॉर्मूलेशन (EVM ब्रोशर)"
+    ),
     estMinutes: 10,
     hook: [
       {
         type: "hero",
-        heading: L("A Second Source, Same Golden Rule"),
+        heading: L(
+          "A Second Source, Same Golden Rule",
+          "రెండో మూలం, అదే స్వర్ణ నియమం",
+          "இரண்டாவது மூலம், அதே தங்க விதி",
+          "ಎರಡನೇ ಮೂಲ, ಅದೇ ಸುವರ್ಣ ನಿಯಮ",
+          "दूसरा स्रोत, वही स्वर्ण नियम"
+        ),
         text: L(
-          "This lesson comes from a different, more recent NDDB brochure — 'Ethnoveterinary Formulations for Important Ailments in Bovines' (EVM), prepared with technical input from a veterinary professor specifically for ground-level use. The remedies here are more detailed, with exact quantities and step-by-step application. The rule does not change: use them ALONGSIDE, never INSTEAD OF, proper veterinary advice. The brochure itself closes by saying a nearby veterinarian should be consulted for proper disease diagnosis and management."
+          "This lesson comes from a different, more recent NDDB brochure — 'Ethnoveterinary Formulations for Important Ailments in Bovines' (EVM), prepared with technical input from a veterinary professor specifically for ground-level use. The remedies here are more detailed, with exact quantities and step-by-step application. The rule does not change: use them ALONGSIDE, never INSTEAD OF, proper veterinary advice. The brochure itself closes by saying a nearby veterinarian should be consulted for proper disease diagnosis and management.",
+          "ఈ పాఠం మరొక, ఇటీవలి NDDB బ్రోషర్ నుండి వచ్చింది — 'ఎత్నోవెటర్నరీ ఫార్ములేషన్స్ ఫర్ ఇంపార్టెంట్ ఐల్‌మెంట్స్ ఇన్ బొవైన్స్' (EVM), గ్రౌండ్-లెవల్ వినియోగం కోసం ప్రత్యేకంగా పశువైద్య ప్రొఫెసర్ సాంకేతిక సహకారంతో తయారు చేయబడింది. ఇక్కడి చిట్కాలు మరింత వివరంగా, ఖచ్చితమైన మోతాదులు మరియు దశలవారీ వినియోగంతో ఉన్నాయి. నియమం మారదు: వాటిని సరైన పశువైద్య సలహాకు బదులుగా కాకుండా, దానితో పాటుగా మాత్రమే వాడాలి. బ్రోషర్ స్వయంగా సరైన వ్యాధి నిర్ధారణ మరియు నిర్వహణ కోసం సమీపంలోని పశువైద్యుడిని సంప్రదించాలని ముగింపులో చెబుతుంది.",
+          "இந்த பாடம் மற்றொரு, சமீபத்திய NDDB துண்டுப்பிரசுரத்திலிருந்து வருகிறது — 'Ethnoveterinary Formulations for Important Ailments in Bovines' (EVM), கள மட்ட பயன்பாட்டிற்காக குறிப்பாக கால்நடை மருத்துவ பேராசிரியரின் தொழில்நுட்ப உதவியுடன் தயாரிக்கப்பட்டது. இங்குள்ள வைத்தியங்கள் மேலும் விரிவானவை, சரியான அளவுகள் மற்றும் படிப்படியான பயன்பாட்டுடன். விதி மாறாது: அவற்றை சரியான கால்நடை மருத்துவ ஆலோசனைக்கு பதிலாக அல்ல, அதனுடன் சேர்த்து மட்டுமே பயன்படுத்த வேண்டும். துண்டுப்பிரசுரமே சரியான நோய் கண்டறிதல் மற்றும் மேலாண்மைக்காக அருகிலுள்ள கால்நடை மருத்துவரை அணுக வேண்டும் என்று முடிவில் கூறுகிறது.",
+          "ಈ ಪಾಠ ಮತ್ತೊಂದು, ಇತ್ತೀಚಿನ NDDB ಕರಪತ್ರದಿಂದ ಬಂದಿದೆ — 'Ethnoveterinary Formulations for Important Ailments in Bovines' (EVM), ನೆಲಮಟ್ಟದ ಬಳಕೆಗಾಗಿಯೇ ಪಶುವೈದ್ಯ ಪ್ರಾಧ್ಯಾಪಕರ ತಾಂತ್ರಿಕ ಸಹಾಯದೊಂದಿಗೆ ಸಿದ್ಧಪಡಿಸಲಾಗಿದೆ. ಇಲ್ಲಿನ ಪರಿಹಾರಗಳು ಹೆಚ್ಚು ವಿವರವಾಗಿವೆ, ನಿಖರ ಪ್ರಮಾಣಗಳು ಮತ್ತು ಹಂತ-ಹಂತದ ಅನ್ವಯದೊಂದಿಗೆ. ನಿಯಮ ಬದಲಾಗುವುದಿಲ್ಲ: ಅವುಗಳನ್ನು ಸರಿಯಾದ ಪಶುವೈದ್ಯ ಸಲಹೆಗೆ ಬದಲಾಗಿ ಅಲ್ಲ, ಅದರ ಜೊತೆಗೆ ಮಾತ್ರ ಬಳಸಬೇಕು. ಕರಪತ್ರವೇ ಸರಿಯಾದ ರೋಗನಿರ್ಣಯ ಮತ್ತು ನಿರ್ವಹಣೆಗಾಗಿ ಹತ್ತಿರದ ಪಶುವೈದ್ಯರನ್ನು ಸಂಪರ್ಕಿಸಬೇಕೆಂದು ಮುಕ್ತಾಯದಲ್ಲಿ ಹೇಳುತ್ತದೆ.",
+          "यह पाठ एक अलग, हाल के NDDB ब्रोशर से लिया गया है — 'Ethnoveterinary Formulations for Important Ailments in Bovines' (EVM), जो ज़मीनी इस्तेमाल के लिए खासतौर पर एक पशु चिकित्सा प्रोफेसर के तकनीकी सहयोग से तैयार किया गया है। यहां के उपचार अधिक विस्तृत हैं, सटीक मात्रा और चरण-दर-चरण उपयोग के साथ। नियम नहीं बदलता: इन्हें सही पशु चिकित्सा सलाह के बदले नहीं, बल्कि उसके साथ-साथ ही इस्तेमाल करें। ब्रोशर खुद अंत में कहता है कि सही रोग निदान और प्रबंधन के लिए नज़दीकी पशु चिकित्सक से सलाह लेनी चाहिए।"
         ),
       },
     ],
     topics: [
       {
         id: "t-m13-evm-udder",
-        title: L("EVM Remedies for Udder and Reproductive Problems"),
+        title: L(
+          "EVM Remedies for Udder and Reproductive Problems",
+          "పొదుగు మరియు ప్రత్యుత్పత్తి సమస్యలకు EVM చిట్కాలు",
+          "மடி மற்றும் இனப்பெருக்க பிரச்சினைகளுக்கான EVM வைத்தியங்கள்",
+          "ಕೆಚ್ಚಲು ಮತ್ತು ಸಂತಾನೋತ್ಪತ್ತಿ ಸಮಸ್ಯೆಗಳಿಗೆ EVM ಪರಿಹಾರಗಳು",
+          "थन और प्रजनन समस्याओं के लिए EVM उपचार"
+        ),
         teach: [
           {
             type: "text",
-            heading: L("A Few Terms Before We Start"),
+            heading: L(
+              "A Few Terms Before We Start",
+              "మొదలుపెట్టే ముందు కొన్ని పదాలు",
+              "தொடங்குவதற்கு முன் சில சொற்கள்",
+              "ಪ್ರಾರಂಭಿಸುವ ಮೊದಲು ಕೆಲವು ಪದಗಳು",
+              "शुरू करने से पहले कुछ शब्द"
+            ),
             html: L(
-              "An udder has four separate sections called <b>quarters</b>, each with its own teat. <b>Mastitis</b> means the udder (or a quarter of it) is infected or inflamed, often becoming swollen, painful, or making the milk look abnormal. The <b>placenta</b> is the tissue that nourished the calf inside the womb, which normally comes away naturally soon after calving (giving birth)."
+              "An udder has four separate sections called <b>quarters</b>, each with its own teat. <b>Mastitis</b> means the udder (or a quarter of it) is infected or inflamed, often becoming swollen, painful, or making the milk look abnormal. The <b>placenta</b> is the tissue that nourished the calf inside the womb, which normally comes away naturally soon after calving (giving birth).",
+              "పొదుగుకు <b>క్వార్టర్లు</b> అని పిలిచే నాలుగు వేర్వేరు భాగాలు ఉంటాయి, ప్రతి దానికీ దాని సొంత చనుమొన ఉంటుంది. <b>మాస్టైటిస్</b> అంటే పొదుగు (లేదా దాని ఒక క్వార్టర్) సోకడం లేదా వాపు రావడం, ఇది తరచుగా వాచడం, నొప్పి రావడం, లేదా పాలు అసాధారణంగా కనిపించేలా చేయడం వంటివి కలిగిస్తుంది. <b>మాయ (ప్లాసెంటా)</b> అనేది గర్భంలో దూడకు పోషణ అందించిన కణజాలం, ఇది సాధారణంగా ప్రసవం (దూడ పుట్టడం) తర్వాత వెంటనే సహజంగా వేరవుతుంది.",
+              "ஒரு மடியில் <b>காலிகள்</b> (quarters) எனப்படும் நான்கு தனித்தனி பகுதிகள் உள்ளன, ஒவ்வொன்றுக்கும் அதன் சொந்த முலைக்காம்பு உண்டு. <b>மடிவீக்கம் (Mastitis)</b> என்பது மடி (அல்லது அதன் ஒரு காலி) தொற்று அல்லது வீக்கமடைவது, இது பெரும்பாலும் வீக்கம், வலி, அல்லது பால் அசாதாரணமாக தோன்றுவதற்கு காரணமாகிறது. <b>நஞ்சுக்கொடி (Placenta)</b> என்பது கருவறையில் கன்றுக்கு ஊட்டமளித்த திசு, இது பொதுவாக ஈன்ற (பிறப்பு) பிறகு விரைவில் இயற்கையாகவே வெளியேறும்.",
+              "ಕೆಚ್ಚಲಿನಲ್ಲಿ <b>ಕ್ವಾರ್ಟರ್‌ಗಳು</b> ಎಂದು ಕರೆಯಲ್ಪಡುವ ನಾಲ್ಕು ಪ್ರತ್ಯೇಕ ಭಾಗಗಳಿವೆ, ಪ್ರತಿಯೊಂದಕ್ಕೂ ತನ್ನದೇ ಆದ ಮೊಲೆತೊಟ್ಟು ಇರುತ್ತದೆ. <b>ಮಾಸ್ಟೈಟಿಸ್</b> ಎಂದರೆ ಕೆಚ್ಚಲು (ಅಥವಾ ಅದರ ಒಂದು ಕ್ವಾರ್ಟರ್) ಸೋಂಕಿಗೆ ಒಳಗಾಗುವುದು ಅಥವಾ ಉರಿಯೂತಗೊಳ್ಳುವುದು, ಇದು ಸಾಮಾನ್ಯವಾಗಿ ಊತ, ನೋವು, ಅಥವಾ ಹಾಲು ಅಸಹಜವಾಗಿ ಕಾಣುವಂತೆ ಮಾಡುತ್ತದೆ. <b>ಜರಾಯು (ಪ್ಲಾಸೆಂಟಾ)</b> ಎಂದರೆ ಗರ್ಭದೊಳಗೆ ಕರುವಿಗೆ ಪೋಷಣೆ ನೀಡಿದ ಅಂಗಾಂಶ, ಇದು ಸಾಮಾನ್ಯವಾಗಿ ಈಯುವಿಕೆಯ (ಹೆರಿಗೆ) ನಂತರ ಸ್ವಲ್ಪದರಲ್ಲೇ ಸ್ವಾಭಾವಿಕವಾಗಿ ಹೊರಬರುತ್ತದೆ.",
+              "थन में <b>क्वार्टर</b> कहे जाने वाले चार अलग-अलग हिस्से होते हैं, हर एक का अपना थन-मुख (टीट) होता है। <b>मैस्टाइटिस</b> का मतलब है थन (या उसका एक क्वार्टर) संक्रमित या सूजा हुआ होना, जिससे अक्सर सूजन, दर्द, या दूध असामान्य दिखने लगता है। <b>प्लेसेंटा (अपरा)</b> वह ऊतक है जिसने गर्भ में बछड़े को पोषण दिया, जो सामान्यतः ब्याने (जन्म देने) के तुरंत बाद अपने आप अलग हो जाता है।"
             ),
           },
           {
             type: "glossary",
-            term: L("Oedema"),
-            meaning: L("Swelling caused by fluid building up under the skin — in this topic, specifically swelling of the udder."),
+            term: L(
+              "Oedema",
+              "వాపు (ఎడీమా)",
+              "வீக்கம் (Oedema)",
+              "ಊತ (ಎಡೀಮಾ)",
+              "सूजन (एडिमा)"
+            ),
+            meaning: L(
+              "Swelling caused by fluid building up under the skin — in this topic, specifically swelling of the udder.",
+              "చర్మం కింద ద్రవం పేరుకుపోవడం వల్ల వచ్చే వాపు — ఈ టాపిక్‌లో, ప్రత్యేకంగా పొదుగు వాపు.",
+              "தோலுக்கு அடியில் திரவம் தேங்குவதால் ஏற்படும் வீக்கம் — இந்த தலைப்பில், குறிப்பாக மடி வீக்கம்.",
+              "ಚರ್ಮದ ಕೆಳಗೆ ದ್ರವ ಸಂಗ್ರಹವಾಗುವುದರಿಂದ ಉಂಟಾಗುವ ಊತ — ಈ ವಿಷಯದಲ್ಲಿ, ನಿರ್ದಿಷ್ಟವಾಗಿ ಕೆಚ್ಚಲಿನ ಊತ.",
+              "त्वचा के नीचे तरल पदार्थ जमा होने से होने वाली सूजन — इस विषय में, विशेष रूप से थन की सूजन।"
+            ),
           },
           {
             type: "stat-grid",
             items: [
               {
-                label: L("Mastitis (All Types)"),
+                label: L(
+                  "Mastitis (All Types)",
+                  "మాస్టైటిస్ (అన్ని రకాలు)",
+                  "மடிவீக்கம் (அனைத்து வகைகளும்)",
+                  "ಮಾಸ್ಟೈಟಿಸ್ (ಎಲ್ಲಾ ವಿಧಗಳು)",
+                  "मैस्टाइटिस (सभी प्रकार)"
+                ),
                 text: L(
-                  "Blend 250 g aloe vera (thorns removed), 50 g turmeric powder and 15 g lime into a reddish paste. Water version: dilute a handful in 200 ml water, apply 10 times a day for 5 days, after fully milking out ALL quarters (including unaffected ones); last application of the day should be the oil version instead. Oil version: dilute in 200 ml mustard or gingelly oil, apply 3 times a day for 5 days. Both versions: also feed 2 lemons (cut in half) orally, 3 times a day for 3 days."
+                  "Blend 250 g aloe vera (thorns removed), 50 g turmeric powder and 15 g lime into a reddish paste. Water version: dilute a handful in 200 ml water, apply 10 times a day for 5 days, after fully milking out ALL quarters (including unaffected ones); last application of the day should be the oil version instead. Oil version: dilute in 200 ml mustard or gingelly oil, apply 3 times a day for 5 days. Both versions: also feed 2 lemons (cut in half) orally, 3 times a day for 3 days.",
+                  "250 గ్రా కలబంద (ముళ్ళు తీసివేసినది), 50 గ్రా పసుపు పొడి మరియు 15 గ్రా సున్నం కలిపి ఎర్రటి పేస్టు తయారు చేయండి. నీటి వెర్షన్: ఒక పిడికెడును 200 మి.లీ నీటిలో కలిపి, అన్ని క్వార్టర్లను (సోకనివి కూడా) పూర్తిగా పితికిన తర్వాత, 5 రోజులు రోజుకు 10 సార్లు వేయండి; ఆ రోజు చివరి వాడకం బదులుగా నూనె వెర్షన్‌గా ఉండాలి. నూనె వెర్షన్: 200 మి.లీ ఆవాలు లేదా నువ్వుల నూనెలో కలిపి, 5 రోజులు రోజుకు 3 సార్లు వేయండి. రెండు వెర్షన్లలోనూ: 2 నిమ్మకాయలను (సగానికి కోసి) కూడా నోటి ద్వారా, 3 రోజులు రోజుకు 3 సార్లు తినిపించండి.",
+                  "250 கிராம் கற்றாழை (முள் நீக்கியது), 50 கிராம் மஞ்சள் தூள் மற்றும் 15 கிராம் சுண்ணாம்பு கலந்து சிவப்பு நிற பேஸ்ட் தயாரிக்கவும். நீர் பதிப்பு: ஒரு பிடியை 200 மி.லி நீரில் நீர்த்து, அனைத்து காலிகளையும் (பாதிக்கப்படாதவை உட்பட) முழுமையாக கறந்த பிறகு, 5 நாட்களுக்கு நாளொன்றுக்கு 10 முறை பயன்படுத்தவும்; அன்றைய கடைசி பயன்பாடு எண்ணெய் பதிப்பாக இருக்க வேண்டும். எண்ணெய் பதிப்பு: 200 மி.லி கடுகு அல்லது எள் எண்ணெயில் நீர்த்து, 5 நாட்களுக்கு நாளொன்றுக்கு 3 முறை பயன்படுத்தவும். இரண்டு பதிப்புகளிலும்: 2 எலுமிச்சைகளை (பாதியாக வெட்டி) வாய் வழியாகவும், 3 நாட்களுக்கு நாளொன்றுக்கு 3 முறை கொடுக்கவும்.",
+                  "250 ಗ್ರಾಂ ಅಲೋವೆರಾ (ಮುಳ್ಳುಗಳನ್ನು ತೆಗೆದದ್ದು), 50 ಗ್ರಾಂ ಅರಿಶಿನ ಪುಡಿ ಮತ್ತು 15 ಗ್ರಾಂ ಸುಣ್ಣವನ್ನು ಬೆರೆಸಿ ಕೆಂಪು ಬಣ್ಣದ ಪೇಸ್ಟ್ ಮಾಡಿ. ನೀರಿನ ಆವೃತ್ತಿ: ಒಂದು ಹಿಡಿಯನ್ನು 200 ಮಿ.ಲೀ ನೀರಿನಲ್ಲಿ ದುರ್ಬಲಗೊಳಿಸಿ, ಎಲ್ಲಾ ಕ್ವಾರ್ಟರ್‌ಗಳನ್ನು (ಬಾಧಿತವಲ್ಲದವು ಸೇರಿ) ಸಂಪೂರ್ಣವಾಗಿ ಹಾಲು ಕರೆದ ನಂತರ, 5 ದಿನ ದಿನಕ್ಕೆ 10 ಬಾರಿ ಹಚ್ಚಿ; ಆ ದಿನದ ಕೊನೆಯ ಬಳಕೆ ಬದಲಿಗೆ ಎಣ್ಣೆ ಆವೃತ್ತಿಯಾಗಿರಬೇಕು. ಎಣ್ಣೆ ಆವೃತ್ತಿ: 200 ಮಿ.ಲೀ ಸಾಸಿವೆ ಅಥವಾ ಎಳ್ಳೆಣ್ಣೆಯಲ್ಲಿ ದುರ್ಬಲಗೊಳಿಸಿ, 5 ದಿನ ದಿನಕ್ಕೆ 3 ಬಾರಿ ಹಚ್ಚಿ. ಎರಡೂ ಆವೃತ್ತಿಗಳಲ್ಲಿ: 2 ನಿಂಬೆಹಣ್ಣುಗಳನ್ನು (ಅರ್ಧ ಕತ್ತರಿಸಿ) ಬಾಯಿಯ ಮೂಲಕವೂ, 3 ದಿನ ದಿನಕ್ಕೆ 3 ಬಾರಿ ತಿನ್ನಿಸಿ.",
+                  "250 ग्राम एलोवेरा (कांटे हटाकर), 50 ग्राम हल्दी पाउडर और 15 ग्राम चूना मिलाकर लाल रंग का पेस्ट बनाएं। पानी वाला संस्करण: एक मुट्ठी को 200 मिली पानी में घोलकर, सभी क्वार्टर (अप्रभावित सहित) पूरी तरह दुहने के बाद, 5 दिनों तक दिन में 10 बार लगाएं; उस दिन का आखिरी उपयोग तेल वाले संस्करण से करें। तेल वाला संस्करण: 200 मिली सरसों या तिल के तेल में घोलकर, 5 दिनों तक दिन में 3 बार लगाएं। दोनों संस्करणों में: 2 नींबू (आधा काटकर) भी मुँह से, 3 दिनों तक दिन में 3 बार खिलाएं।"
                 ),
               },
               {
-                label: L("Teat Obstruction"),
+                label: L(
+                  "Teat Obstruction",
+                  "చనుమొన అడ్డంకి",
+                  "முலைக்காம்பு அடைப்பு",
+                  "ಮೊಲೆತೊಟ್ಟು ಅಡಚಣೆ",
+                  "थन-मुख में रुकावट"
+                ),
                 text: L(
-                  "Coat a freshly cut neem leafstalk with turmeric powder and butter or ghee. Insert it into the affected teat opening, cut end up, base down, turning anti-clockwise. Replace with a fresh coated leafstalk after every milking."
+                  "Coat a freshly cut neem leafstalk with turmeric powder and butter or ghee. Insert it into the affected teat opening, cut end up, base down, turning anti-clockwise. Replace with a fresh coated leafstalk after every milking.",
+                  "తాజాగా కోసిన వేప ఆకు తొడిమను పసుపు పొడి మరియు వెన్న లేదా నెయ్యితో పూయండి. దీనిని బాధిత చనుమొన రంధ్రంలోకి, కోసిన కొన పైకి, మొదలు కిందికి ఉండేలా, అపసవ్య దిశలో తిప్పుతూ చొప్పించండి. ప్రతి పితుకుడు తర్వాత తాజాగా పూసిన తొడిమతో మార్చండి.",
+                  "புதிதாக வெட்டப்பட்ட வேம்பு இலைத் தண்டை மஞ்சள் தூள் மற்றும் வெண்ணெய் அல்லது நெய்யால் பூசவும். இதை பாதிக்கப்பட்ட முலைக்காம்பு துவாரத்தில், வெட்டப்பட்ட முனை மேலே, அடிப்பகுதி கீழே இருக்குமாறு, எதிரெதிர் திசையில் திருப்பி செருகவும். ஒவ்வொரு கறத்தலுக்குப் பிறகும் புதிதாக பூசப்பட்ட தண்டுடன் மாற்றவும்.",
+                  "ಹೊಸದಾಗಿ ಕತ್ತರಿಸಿದ ಬೇವಿನ ಎಲೆಯ ತೊಟ್ಟನ್ನು ಅರಿಶಿನ ಪುಡಿ ಮತ್ತು ಬೆಣ್ಣೆ ಅಥವಾ ತುಪ್ಪದಿಂದ ಲೇಪಿಸಿ. ಇದನ್ನು ಬಾಧಿತ ಮೊಲೆತೊಟ್ಟಿನ ತೆರೆಯುವಿಕೆಗೆ, ಕತ್ತರಿಸಿದ ತುದಿ ಮೇಲೆ, ತಳ ಕೆಳಗೆ ಇರುವಂತೆ, ಅಪ್ರದಕ್ಷಿಣ ದಿಕ್ಕಿನಲ್ಲಿ ತಿರುಗಿಸುತ್ತಾ ಸೇರಿಸಿ. ಪ್ರತಿ ಹಾಲು ಕರೆದ ನಂತರ ತಾಜಾ ಲೇಪಿತ ತೊಟ್ಟಿನಿಂದ ಬದಲಾಯಿಸಿ.",
+                  "ताज़ा काटी गई नीम की पत्ती की डंठल को हल्दी पाउडर और मक्खन या घी से लेप करें। इसे प्रभावित थन-मुख में, कटा हुआ सिरा ऊपर, आधार नीचे रखते हुए, वामावर्त घुमाते हुए डालें। हर दुहाई के बाद ताज़ा लेपित डंठल से बदलें।"
                 ),
               },
               {
-                label: L("Udder Oedema"),
+                label: L(
+                  "Udder Oedema",
+                  "పొదుగు వాపు",
+                  "மடி வீக்கம்",
+                  "ಕೆಚ್ಚಲಿನ ಊತ",
+                  "थन की सूजन"
+                ),
                 text: L(
-                  "Heat 200 ml sesame or mustard oil, add a handful of turmeric powder and 2 sliced garlic pearls; remove from flame once the flavour develops (no need to boil), then cool. Apply with force in a circular motion over the whole swollen area and udder, 4 times a day for 3 days."
+                  "Heat 200 ml sesame or mustard oil, add a handful of turmeric powder and 2 sliced garlic pearls; remove from flame once the flavour develops (no need to boil), then cool. Apply with force in a circular motion over the whole swollen area and udder, 4 times a day for 3 days.",
+                  "200 మి.లీ నువ్వుల లేదా ఆవాల నూనెను వేడి చేసి, ఒక పిడికెడు పసుపు పొడి మరియు 2 ముక్కలు చేసిన వెల్లుల్లి రేకులు కలపండి; రుచి వచ్చాక మంట నుండి తీసివేయండి (మరిగించాల్సిన అవసరం లేదు), తర్వాత చల్లార్చండి. వాచిన ప్రాంతం మరియు పొదుగు మొత్తంపై గుండ్రంగా బలంగా రుద్దుతూ, 3 రోజులు రోజుకు 4 సార్లు వేయండి.",
+                  "200 மி.லி எள் அல்லது கடுகு எண்ணெயை சூடாக்கி, ஒரு பிடி மஞ்சள் தூள் மற்றும் 2 துண்டு பூண்டு பல்லுகளை சேர்க்கவும்; சுவை வந்ததும் தீயிலிருந்து இறக்கவும் (கொதிக்க வைக்க தேவையில்லை), பின்னர் ஆற வைக்கவும். வீங்கிய பகுதி மற்றும் மடி முழுவதும் வட்ட வடிவில் பலமாக தேய்த்து, 3 நாட்களுக்கு நாளொன்றுக்கு 4 முறை பயன்படுத்தவும்.",
+                  "200 ಮಿ.ಲೀ ಎಳ್ಳೆಣ್ಣೆ ಅಥವಾ ಸಾಸಿವೆ ಎಣ್ಣೆಯನ್ನು ಬಿಸಿಮಾಡಿ, ಒಂದು ಹಿಡಿ ಅರಿಶಿನ ಪುಡಿ ಮತ್ತು 2 ಹೋಳು ಮಾಡಿದ ಬೆಳ್ಳುಳ್ಳಿ ಎಸಳುಗಳನ್ನು ಸೇರಿಸಿ; ರುಚಿ ಬಂದ ನಂತರ ಜ್ವಾಲೆಯಿಂದ ತೆಗೆಯಿರಿ (ಕುದಿಸುವ ಅಗತ್ಯವಿಲ್ಲ), ನಂತರ ತಣಿಸಿ. ಊದಿಕೊಂಡ ಪ್ರದೇಶ ಮತ್ತು ಕೆಚ್ಚಲಿನ ಇಡೀ ಭಾಗದ ಮೇಲೆ ವೃತ್ತಾಕಾರವಾಗಿ ಬಲವಾಗಿ ಉಜ್ಜಿ, 3 ದಿನ ದಿನಕ್ಕೆ 4 ಬಾರಿ ಹಚ್ಚಿ.",
+                  "200 मिली तिल या सरसों के तेल को गर्म करें, एक मुट्ठी हल्दी पाउडर और 2 कटी हुई लहसुन की कलियां डालें; स्वाद आने पर आंच से उतार लें (उबालने की ज़रूरत नहीं), फिर ठंडा करें। सूजे हुए हिस्से और थन पर पूरी तरह गोलाकार में ज़ोर से मलें, 3 दिनों तक दिन में 4 बार।"
                 ),
               },
             ],
@@ -8822,30 +8896,70 @@ export const MODULES = [
           {
             type: "callout",
             style: "warning",
-            heading: L("Rule Out Mastitis First — And Remember the Golden Rule"),
+            heading: L(
+              "Rule Out Mastitis First — And Remember the Golden Rule",
+              "మొదట మాస్టైటిస్‌ను తోసిపుచ్చండి — మరియు స్వర్ణ నియమాన్ని గుర్తుంచుకోండి",
+              "முதலில் மடிவீக்கத்தை நீக்குங்கள் — மற்றும் தங்க விதியை நினைவில் கொள்ளுங்கள்",
+              "ಮೊದಲು ಮಾಸ್ಟೈಟಿಸ್ ಅನ್ನು ತಳ್ಳಿಹಾಕಿ — ಮತ್ತು ಸುವರ್ಣ ನಿಯಮವನ್ನು ನೆನಪಿಡಿ",
+              "पहले मैस्टाइटिस को खारिज करें — और स्वर्ण नियम याद रखें"
+            ),
             text: L(
-              "The brochure itself notes: before using the udder oedema remedy, mastitis must be ruled out — meaning a proper check is needed to be sure it isn't actually an infection. This is exactly why these remedies are used ALONGSIDE, never INSTEAD OF, veterinary diagnosis: udder and birth-related problems can look similar on the surface but need very different handling underneath."
+              "The brochure itself notes: before using the udder oedema remedy, mastitis must be ruled out — meaning a proper check is needed to be sure it isn't actually an infection. This is exactly why these remedies are used ALONGSIDE, never INSTEAD OF, veterinary diagnosis: udder and birth-related problems can look similar on the surface but need very different handling underneath.",
+              "బ్రోషర్ స్వయంగా ఇలా పేర్కొంటుంది: పొదుగు వాపు చిట్కాను వాడే ముందు, మాస్టైటిస్‌ను తోసిపుచ్చాలి — అంటే ఇది నిజంగా ఇన్‌ఫెక్షన్ కాదని నిర్ధారించుకోవడానికి సరైన పరీక్ష అవసరం. ఈ చిట్కాలను పశువైద్య నిర్ధారణకు బదులుగా కాకుండా, దానితో పాటుగా వాడటానికి ఇదే కారణం: పొదుగు మరియు ప్రసవ సంబంధిత సమస్యలు పైకి ఒకేలా కనిపించవచ్చు కానీ లోపల చాలా భిన్నమైన చికిత్స అవసరం.",
+              "துண்டுப்பிரசுரமே குறிப்பிடுகிறது: மடி வீக்க வைத்தியத்தை பயன்படுத்தும் முன், மடிவீக்கத்தை நீக்க வேண்டும் — அதாவது இது உண்மையில் தொற்று இல்லை என்பதை உறுதிசெய்ய சரியான பரிசோதனை தேவை. இந்த வைத்தியங்களை கால்நடை மருத்துவ நோய் கண்டறிதலுக்கு பதிலாக அல்ல, அதனுடன் சேர்த்து பயன்படுத்த வேண்டியதற்கு இதுவே காரணம்: மடி மற்றும் பிரசவம் தொடர்பான பிரச்சினைகள் மேலோட்டமாக ஒரே மாதிரி தோன்றலாம் ஆனால் உள்ளே மிகவும் வேறுபட்ட கையாளுதல் தேவை.",
+              "ಕರಪತ್ರವೇ ಸೂಚಿಸುತ್ತದೆ: ಕೆಚ್ಚಲಿನ ಊತದ ಪರಿಹಾರವನ್ನು ಬಳಸುವ ಮೊದಲು, ಮಾಸ್ಟೈಟಿಸ್ ಅನ್ನು ತಳ್ಳಿಹಾಕಬೇಕು — ಅಂದರೆ ಇದು ನಿಜವಾಗಿಯೂ ಸೋಂಕಲ್ಲ ಎಂದು ಖಚಿತಪಡಿಸಿಕೊಳ್ಳಲು ಸರಿಯಾದ ಪರೀಕ್ಷೆ ಅಗತ್ಯ. ಈ ಪರಿಹಾರಗಳನ್ನು ಪಶುವೈದ್ಯ ರೋಗನಿರ್ಣಯಕ್ಕೆ ಬದಲಾಗಿ ಅಲ್ಲ, ಅದರ ಜೊತೆಗೆ ಬಳಸುವುದಕ್ಕೆ ಇದೇ ಕಾರಣ: ಕೆಚ್ಚಲು ಮತ್ತು ಹೆರಿಗೆ ಸಂಬಂಧಿತ ಸಮಸ್ಯೆಗಳು ಮೇಲ್ನೋಟಕ್ಕೆ ಒಂದೇ ರೀತಿ ಕಾಣಿಸಬಹುದು ಆದರೆ ಒಳಗೆ ಬಹಳ ವಿಭಿನ್ನ ನಿರ್ವಹಣೆ ಅಗತ್ಯ.",
+              "ब्रोशर खुद बताता है: थन की सूजन के उपचार का उपयोग करने से पहले, मैस्टाइटिस को खारिज करना ज़रूरी है — यानी यह सुनिश्चित करने के लिए सही जांच ज़रूरी है कि यह वास्तव में संक्रमण नहीं है। इसीलिए इन उपचारों को पशु चिकित्सा निदान के बदले नहीं, बल्कि उसके साथ-साथ इस्तेमाल किया जाता है: थन और प्रसव से जुड़ी समस्याएं ऊपर से एक जैसी दिख सकती हैं लेकिन अंदर से बहुत अलग इलाज की ज़रूरत होती है।"
             ),
           },
           {
             type: "stat-grid",
             items: [
               {
-                label: L("Retention of Placenta"),
+                label: L(
+                  "Retention of Placenta",
+                  "మాయ నిలిచిపోవడం",
+                  "நஞ்சுக்கொடி தங்கியிருத்தல்",
+                  "ಜರಾಯು ಉಳಿಯುವಿಕೆ",
+                  "प्लेसेंटा (अपरा) का रुकना"
+                ),
                 text: L(
-                  "Feed one whole white radish tuber within 2 hours of calving. If the placenta still hasn't come away after 8 hours, feed 1.5 kg fresh lady's finger with jaggery and salt. If it persists past 12 hours, tie a knot close to the base, cut 2 inches below it and leave the knot in — the source is explicit: do NOT try to remove the retained placenta by hand. Feed one more whole radish once a week for four weeks afterward."
+                  "Feed one whole white radish tuber within 2 hours of calving. If the placenta still hasn't come away after 8 hours, feed 1.5 kg fresh lady's finger with jaggery and salt. If it persists past 12 hours, tie a knot close to the base, cut 2 inches below it and leave the knot in — the source is explicit: do NOT try to remove the retained placenta by hand. Feed one more whole radish once a week for four weeks afterward.",
+                  "ప్రసవం అయిన 2 గంటలలోపు ఒక పూర్తి తెల్ల ముల్లంగి దుంపను తినిపించండి. 8 గంటల తర్వాత కూడా మాయ వేరుకాకపోతే, 1.5 కిలో తాజా బెండకాయను బెల్లం మరియు ఉప్పుతో తినిపించండి. 12 గంటలు దాటినా కొనసాగితే, మొదలుకు దగ్గరగా ఒక ముడి వేసి, దాని కింద 2 అంగుళాలు కోసి, ముడిని అలాగే వదిలేయండి — మూలం స్పష్టంగా చెబుతుంది: నిలిచిపోయిన మాయను చేతితో తీయడానికి ప్రయత్నించకూడదు. తర్వాత నాలుగు వారాలు వారానికి ఒకసారి మరో పూర్తి ముల్లంగిని తినిపించండి.",
+                  "ஈன்ற 2 மணி நேரத்திற்குள் ஒரு முழு வெள்ளை முள்ளங்கி கிழங்கை கொடுக்கவும். 8 மணி நேரத்திற்குப் பிறகும் நஞ்சுக்கொடி வெளியேறவில்லை என்றால், 1.5 கிலோ புதிய வெண்டைக்காயை வெல்லம் மற்றும் உப்புடன் கொடுக்கவும். 12 மணி நேரத்தையும் தாண்டி நீடித்தால், அடிப்பகுதிக்கு அருகில் ஒரு முடிச்சு கட்டி, அதற்கு கீழே 2 அங்குலம் வெட்டி, முடிச்சை அப்படியே விடவும் — மூலம் தெளிவாக கூறுகிறது: தங்கியிருக்கும் நஞ்சுக்கொடியை கையால் அகற்ற முயற்சிக்க வேண்டாம். பிறகு நான்கு வாரங்களுக்கு வாரத்திற்கு ஒரு முறை மேலும் ஒரு முழு முள்ளங்கியை கொடுக்கவும்.",
+                  "ಈಯುವಿಕೆಯ 2 ಗಂಟೆಗಳಲ್ಲಿ ಒಂದು ಪೂರ್ಣ ಬಿಳಿ ಮೂಲಂಗಿ ಗೆಡ್ಡೆಯನ್ನು ತಿನ್ನಿಸಿ. 8 ಗಂಟೆಗಳ ನಂತರವೂ ಜರಾಯು ಇನ್ನೂ ಬಂದಿಲ್ಲದಿದ್ದರೆ, 1.5 ಕೆಜಿ ತಾಜಾ ಬೆಂಡೆಕಾಯಿಯನ್ನು ಬೆಲ್ಲ ಮತ್ತು ಉಪ್ಪಿನೊಂದಿಗೆ ತಿನ್ನಿಸಿ. 12 ಗಂಟೆ ದಾಟಿದರೂ ಮುಂದುವರಿದರೆ, ತಳದ ಹತ್ತಿರ ಒಂದು ಗಂಟು ಕಟ್ಟಿ, ಅದರ ಕೆಳಗೆ 2 ಇಂಚು ಕತ್ತರಿಸಿ, ಗಂಟನ್ನು ಹಾಗೇ ಬಿಡಿ — ಮೂಲ ಸ್ಪಷ್ಟವಾಗಿ ಹೇಳುತ್ತದೆ: ಉಳಿದ ಜರಾಯುವನ್ನು ಕೈಯಿಂದ ತೆಗೆಯಲು ಪ್ರಯತ್ನಿಸಬೇಡಿ. ನಂತರ ನಾಲ್ಕು ವಾರ ವಾರಕ್ಕೊಮ್ಮೆ ಇನ್ನೊಂದು ಪೂರ್ಣ ಮೂಲಂಗಿಯನ್ನು ತಿನ್ನಿಸಿ.",
+                  "ब्याने के 2 घंटे के भीतर एक पूरी सफेद मूली खिलाएं। अगर 8 घंटे बाद भी प्लेसेंटा नहीं निकला है, तो 1.5 किलो ताज़ी भिंडी गुड़ और नमक के साथ खिलाएं। अगर यह 12 घंटे से आगे बना रहे, तो आधार के पास एक गांठ बांधें, उससे 2 इंच नीचे काटें और गांठ को वैसे ही छोड़ दें — स्रोत स्पष्ट रूप से कहता है: रुके हुए प्लेसेंटा को हाथ से निकालने की कोशिश न करें। इसके बाद चार हफ्तों तक हफ्ते में एक बार एक और पूरी मूली खिलाएं।"
                 ),
               },
               {
-                label: L("Repeat Breeding"),
+                label: L(
+                  "Repeat Breeding",
+                  "పదే పదే గర్భం రాకపోవడం",
+                  "மீண்டும் மீண்டும் கருவுறாமை",
+                  "ಪುನರಾವರ್ತಿತ ಸಂತಾನೋತ್ಪತ್ತಿ ವೈಫಲ್ಯ",
+                  "बार-बार गर्भ न ठहरना"
+                ),
                 text: L(
-                  "Starting on day 1 or 2 of heat (oestrus, the period when a cow can conceive), feed once a day in this order: white radish for 5 days, aloe vera leaf for 4 days, moringa leaves for 4 days, cissus stem for 4 days, then curry leaves with turmeric powder for 4 days — with jaggery and salt each time. Repeat the whole sequence if the animal has not conceived."
+                  "Starting on day 1 or 2 of heat (oestrus, the period when a cow can conceive), feed once a day in this order: white radish for 5 days, aloe vera leaf for 4 days, moringa leaves for 4 days, cissus stem for 4 days, then curry leaves with turmeric powder for 4 days — with jaggery and salt each time. Repeat the whole sequence if the animal has not conceived.",
+                  "బహిష్టు (ఈస్ట్రస్, ఆవు గర్భం దాల్చగల కాలం) మొదటి లేదా రెండో రోజు నుండి మొదలుపెట్టి, ఈ క్రమంలో రోజుకు ఒకసారి తినిపించండి: 5 రోజులు తెల్ల ముల్లంగి, 4 రోజులు కలబంద ఆకు, 4 రోజులు మునగ ఆకులు, 4 రోజులు సిస్సస్ కాండం, తర్వాత 4 రోజులు కరివేపాకు పసుపు పొడితో కలిపి — ప్రతిసారి బెల్లం మరియు ఉప్పుతో. జంతువు గర్భం దాల్చకపోతే మొత్తం క్రమాన్ని పునరావృతం చేయండి.",
+                  "வெப்பு (ஈஸ்ட்ரஸ், பசு கருவுறக்கூடிய காலம்) 1 அல்லது 2வது நாளில் தொடங்கி, இந்த வரிசையில் நாளொன்றுக்கு ஒரு முறை கொடுக்கவும்: 5 நாட்களுக்கு வெள்ளை முள்ளங்கி, 4 நாட்களுக்கு கற்றாழை இலை, 4 நாட்களுக்கு முருங்கை இலைகள், 4 நாட்களுக்கு சிஸ்ஸஸ் தண்டு, பின்னர் 4 நாட்களுக்கு கறிவேப்பிலை மஞ்சள் தூளுடன் — ஒவ்வொரு முறையும் வெல்லம் மற்றும் உப்புடன். விலங்கு கருவுறவில்லை எனில் முழு வரிசையையும் மீண்டும் செய்யவும்.",
+                  "ಬೆದೆ (ಈಸ್ಟ್ರಸ್, ಹಸು ಗರ್ಭ ಧರಿಸಬಹುದಾದ ಅವಧಿ) ಮೊದಲ ಅಥವಾ ಎರಡನೇ ದಿನದಿಂದ ಪ್ರಾರಂಭಿಸಿ, ಈ ಕ್ರಮದಲ್ಲಿ ದಿನಕ್ಕೊಮ್ಮೆ ತಿನ್ನಿಸಿ: 5 ದಿನ ಬಿಳಿ ಮೂಲಂಗಿ, 4 ದಿನ ಅಲೋವೆರಾ ಎಲೆ, 4 ದಿನ ನುಗ್ಗೆ ಎಲೆಗಳು, 4 ದಿನ ಸಿಸ್ಸಸ್ ಕಾಂಡ, ನಂತರ 4 ದಿನ ಕರಿಬೇವಿನ ಎಲೆ ಅರಿಶಿನ ಪುಡಿಯೊಂದಿಗೆ — ಪ್ರತಿ ಬಾರಿಯೂ ಬೆಲ್ಲ ಮತ್ತು ಉಪ್ಪಿನೊಂದಿಗೆ. ಪ್ರಾಣಿ ಗರ್ಭ ಧರಿಸದಿದ್ದರೆ ಇಡೀ ಅನುಕ್ರಮವನ್ನು ಪುನರಾವರ್ತಿಸಿ.",
+                  "गर्मी (ऐस्ट्रस, वह समय जब गाय गर्भवती हो सकती है) के 1 या 2 दिन से शुरू करके, इस क्रम में दिन में एक बार खिलाएं: 5 दिन सफेद मूली, 4 दिन एलोवेरा पत्ती, 4 दिन सहजन पत्तियां, 4 दिन सिस्सस तना, फिर 4 दिन करी पत्ता हल्दी पाउडर के साथ — हर बार गुड़ और नमक के साथ। अगर जानवर गर्भवती न हो तो पूरा क्रम दोहराएं।"
                 ),
               },
               {
-                label: L("Prolapse"),
+                label: L(
+                  "Prolapse",
+                  "ప్రోలాప్స్ (అవయవం బయటికి రావడం)",
+                  "புரோலாப்ஸ் (உறுப்பு வெளியே தள்ளப்படுதல்)",
+                  "ಪ್ರೋಲ್ಯಾಪ್ಸ್ (ಅಂಗ ಹೊರಬರುವಿಕೆ)",
+                  "प्रोलैप्स (अंग बाहर निकलना)"
+                ),
                 text: L(
-                  "Clean the prolapsed mass (tissue pushed out of the body, usually after calving). Sprinkle it with cooled aloe vera gel that has a pinch of turmeric boiled into it. Once the gel dries, apply a Mimosa pudica leaf paste. Repeat as often as possible until the condition improves."
+                  "Clean the prolapsed mass (tissue pushed out of the body, usually after calving). Sprinkle it with cooled aloe vera gel that has a pinch of turmeric boiled into it. Once the gel dries, apply a Mimosa pudica leaf paste. Repeat as often as possible until the condition improves.",
+                  "ప్రోలాప్స్ అయిన భాగాన్ని (సాధారణంగా ప్రసవం తర్వాత శరీరం నుండి బయటకు వచ్చిన కణజాలం) శుభ్రం చేయండి. కొద్దిగా పసుపు కలిపి మరిగించిన చల్లారిన కలబంద జెల్‌ను దానిపై చల్లండి. జెల్ ఆరిపోయిన తర్వాత, మిమోసా పుడికా ఆకు పేస్టును వేయండి. పరిస్థితి మెరుగుపడే వరకు వీలైనంత తరచుగా పునరావృతం చేయండి.",
+                  "புரோலாப்ஸான பகுதியை (பொதுவாக ஈன்ற பிறகு உடலிலிருந்து வெளியே தள்ளப்பட்ட திசு) சுத்தம் செய்யவும். சிறிது மஞ்சள் கலந்து கொதிக்க வைத்த குளிர்ந்த கற்றாழை ஜெல்லை அதன் மேல் தெளிக்கவும். ஜெல் உலர்ந்தவுடன், மிமோசா புடிகா இலை பேஸ்டை பயன்படுத்தவும். நிலைமை மேம்படும் வரை முடிந்தவரை அடிக்கடி மீண்டும் செய்யவும்.",
+                  "ಪ್ರೋಲ್ಯಾಪ್ಸ್ ಆದ ಭಾಗವನ್ನು (ಸಾಮಾನ್ಯವಾಗಿ ಈಯುವಿಕೆಯ ನಂತರ ದೇಹದಿಂದ ಹೊರತಳ್ಳಲ್ಪಟ್ಟ ಅಂಗಾಂಶ) ಸ್ವಚ್ಛಗೊಳಿಸಿ. ಸ್ವಲ್ಪ ಅರಿಶಿನ ಬೆರೆಸಿ ಕುದಿಸಿದ ತಣ್ಣಗಾದ ಅಲೋವೆರಾ ಜೆಲ್ ಅನ್ನು ಅದರ ಮೇಲೆ ಚಿಮುಕಿಸಿ. ಜೆಲ್ ಒಣಗಿದ ನಂತರ, ಮಿಮೋಸಾ ಪುಡಿಕಾ ಎಲೆಯ ಪೇಸ್ಟ್ ಹಚ್ಚಿ. ಸ್ಥಿತಿ ಸುಧಾರಿಸುವವರೆಗೆ ಸಾಧ್ಯವಾದಷ್ಟು ಬಾರಿ ಪುನರಾವರ್ತಿಸಿ.",
+                  "प्रोलैप्स हुए हिस्से को (आमतौर पर ब्याने के बाद शरीर से बाहर धकेला गया ऊतक) साफ करें। थोड़ी हल्दी मिलाकर उबाले गए ठंडे एलोवेरा जेल को उस पर छिड़कें। जेल सूखने के बाद, मिमोसा पुडिका पत्ती का पेस्ट लगाएं। स्थिति सुधरने तक जितनी बार हो सके दोहराएं।"
                 ),
               },
             ],
@@ -8853,9 +8967,19 @@ export const MODULES = [
           {
             type: "callout",
             style: "tip",
-            heading: L("Never Pull a Retained Placenta Out by Hand"),
+            heading: L(
+              "Never Pull a Retained Placenta Out by Hand",
+              "నిలిచిపోయిన మాయను ఎప్పుడూ చేతితో లాగకూడదు",
+              "தங்கியிருக்கும் நஞ்சுக்கொடியை ஒருபோதும் கையால் இழுக்க வேண்டாம்",
+              "ಉಳಿದ ಜರಾಯುವನ್ನು ಎಂದಿಗೂ ಕೈಯಿಂದ ಎಳೆಯಬೇಡಿ",
+              "रुके हुए प्लेसेंटा को कभी भी हाथ से न खींचें"
+            ),
             text: L(
-              "This is stated plainly in the source: do not attempt to remove a retained placenta by hand. Doing so can cause injury or infection. Reproductive problems like this are precisely the kind of case where the vet needs to be told promptly, even while a documented remedy is being tried."
+              "This is stated plainly in the source: do not attempt to remove a retained placenta by hand. Doing so can cause injury or infection. Reproductive problems like this are precisely the kind of case where the vet needs to be told promptly, even while a documented remedy is being tried.",
+              "మూలంలో ఇది స్పష్టంగా చెప్పబడింది: నిలిచిపోయిన మాయను చేతితో తీయడానికి ప్రయత్నించకూడదు. అలా చేయడం గాయం లేదా ఇన్‌ఫెక్షన్‌కు దారితీయవచ్చు. నమోదైన చిట్కాను ప్రయత్నిస్తున్నప్పటికీ, ఇలాంటి ప్రత్యుత్పత్తి సమస్యలను వెంటనే పశువైద్యుడికి చెప్పాల్సిన సరిగ్గా అలాంటి కేసు.",
+              "மூலத்தில் இது தெளிவாக கூறப்பட்டுள்ளது: தங்கியிருக்கும் நஞ்சுக்கொடியை கையால் அகற்ற முயற்சிக்க வேண்டாம். அவ்வாறு செய்வது காயம் அல்லது தொற்றுக்கு காரணமாகலாம். பதிவு செய்யப்பட்ட வைத்தியம் முயற்சிக்கப்படும்போதே, இது போன்ற இனப்பெருக்க பிரச்சினைகள் கால்நடை மருத்துவரிடம் உடனடியாக தெரிவிக்கப்பட வேண்டிய வகையான வழக்கு.",
+              "ಮೂಲದಲ್ಲಿ ಇದನ್ನು ಸ್ಪಷ್ಟವಾಗಿ ಹೇಳಲಾಗಿದೆ: ಉಳಿದ ಜರಾಯುವನ್ನು ಕೈಯಿಂದ ತೆಗೆಯಲು ಪ್ರಯತ್ನಿಸಬೇಡಿ. ಹಾಗೆ ಮಾಡುವುದರಿಂದ ಗಾಯ ಅಥವಾ ಸೋಂಕು ಉಂಟಾಗಬಹುದು. ದಾಖಲಿತ ಪರಿಹಾರವನ್ನು ಪ್ರಯತ್ನಿಸುತ್ತಿರುವಾಗಲೂ, ಇಂತಹ ಸಂತಾನೋತ್ಪತ್ತಿ ಸಮಸ್ಯೆಗಳನ್ನು ತಕ್ಷಣ ಪಶುವೈದ್ಯರಿಗೆ ತಿಳಿಸಬೇಕಾದ ನಿಖರವಾದ ರೀತಿಯ ಪ್ರಕರಣ.",
+              "स्रोत में यह स्पष्ट रूप से कहा गया है: रुके हुए प्लेसेंटा को हाथ से निकालने की कोशिश न करें। ऐसा करने से चोट या संक्रमण हो सकता है। दर्ज उपचार आज़माते समय भी, इस तरह की प्रजनन समस्याओं की सूचना तुरंत पशु चिकित्सक को देनी चाहिए, यह ठीक वैसा ही मामला है।"
             ),
           },
         ],
