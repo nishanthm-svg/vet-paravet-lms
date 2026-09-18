@@ -8254,51 +8254,131 @@ export const MODULES = [
       },
       {
         id: "t-m13-skin-wound",
-        title: L("Skin, Wound and Parasite Problems"),
+        title: L(
+          "Skin, Wound and Parasite Problems",
+          "చర్మం, గాయం మరియు పరాన్నజీవుల సమస్యలు",
+          "தோல், காயம் மற்றும் ஒட்டுண்ணி பிரச்சினைகள்",
+          "ಚರ್ಮ, ಗಾಯ ಮತ್ತು ಪರಾವಲಂಬಿ ಸಮಸ್ಯೆಗಳು",
+          "त्वचा, घाव और परजीवी समस्याएं"
+        ),
         teach: [
             {
               type: "photo",
               src: "assets/photo-m13-neem.jpg",
-              alt: L("Close-up of neem (Azadirachta indica) serrated compound leaves with clusters of small oval green fruits"),
-              caption: L("Neem — its bark, flower, seed oil or leaf pulp is used across several remedies in this module, from fungal infection to external parasites."),
+              alt: L(
+                "Close-up of neem (Azadirachta indica) serrated compound leaves with clusters of small oval green fruits",
+                "వేప (అజాడిరక్టా ఇండికా) రంపపు అంచు సంయుక్త ఆకుల క్లోజప్, చిన్న ఓవల్ ఆకుపచ్చ పండ్ల గుత్తులతో",
+                "வேம்பு (அசாடிராக்டா இண்டிகா) பல்வரிசை கூட்டு இலைகளின் நெருக்கமான காட்சி, சிறிய நீள்வட்ட பச்சை பழங்களின் கொத்துகளுடன்",
+                "ಬೇವು (ಅಜಾಡಿರಾಕ್ಟಾ ಇಂಡಿಕಾ) ಗರಗಸದಂತಹ ಅಂಚಿನ ಸಂಯುಕ್ತ ಎಲೆಗಳ ಸಮೀಪ ನೋಟ, ಸಣ್ಣ ಅಂಡಾಕಾರದ ಹಸಿರು ಹಣ್ಣುಗಳ ಗೊಂಚಲುಗಳೊಂದಿಗೆ",
+                "नीम (अज़ादिरख्ता इंडिका) की दाँतेदार किनारों वाली संयुक्त पत्तियों का नज़दीकी दृश्य, छोटे अंडाकार हरे फलों के गुच्छों के साथ"
+              ),
+              caption: L(
+                "Neem — its bark, flower, seed oil or leaf pulp is used across several remedies in this module, from fungal infection to external parasites.",
+                "వేప — దీని బెరడు, పువ్వు, గింజల నూనె లేదా ఆకు గుజ్జు ఈ మాడ్యూల్‌లో ఫంగల్ ఇన్‌ఫెక్షన్ నుండి బాహ్య పరాన్నజీవుల వరకు అనేక చిట్కాలలో వాడతారు.",
+                "வேம்பு — அதன் பட்டை, பூ, விதை எண்ணெய் அல்லது இலை கூழ் இந்த தொகுதியில் பூஞ்சை தொற்று முதல் வெளிப்புற ஒட்டுண்ணிகள் வரை பல வைத்தியங்களில் பயன்படுத்தப்படுகிறது.",
+                "ಬೇವು — ಅದರ ತೊಗಟೆ, ಹೂವು, ಬೀಜದ ಎಣ್ಣೆ ಅಥವಾ ಎಲೆಯ ತಿರುಳನ್ನು ಈ ಮಾಡ್ಯೂಲ್‌ನಲ್ಲಿ ಶಿಲೀಂಧ್ರ ಸೋಂಕಿನಿಂದ ಬಾಹ್ಯ ಪರಾವಲಂಬಿಗಳವರೆಗೆ ಹಲವಾರು ಪರಿಹಾರಗಳಲ್ಲಿ ಬಳಸಲಾಗುತ್ತದೆ.",
+                "नीम — इसकी छाल, फूल, बीज का तेल या पत्ती का गूदा इस मॉड्यूल में फंगल संक्रमण से लेकर बाहरी परजीवियों तक कई उपचारों में इस्तेमाल होता है।"
+              ),
             },
           {
             type: "text",
-            heading: L("Remedies You Apply on the Skin or Wound"),
+            heading: L(
+              "Remedies You Apply on the Skin or Wound",
+              "చర్మం లేదా గాయంపై వేసే చిట్కాలు",
+              "தோலில் அல்லது காயத்தில் பயன்படுத்தும் வைத்தியங்கள்",
+              "ಚರ್ಮ ಅಥವಾ ಗಾಯದ ಮೇಲೆ ಹಚ್ಚುವ ಪರಿಹಾರಗಳು",
+              "त्वचा या घाव पर लगाए जाने वाले उपचार"
+            ),
             html: L(
-              "Many handbook remedies for skin, wound and parasite problems are not swallowed — they are made into a paste and applied directly onto the affected area, or applied over the whole body."
+              "Many handbook remedies for skin, wound and parasite problems are not swallowed — they are made into a paste and applied directly onto the affected area, or applied over the whole body.",
+              "చర్మం, గాయం మరియు పరాన్నజీవుల సమస్యలకు అనేక హ్యాండ్‌బుక్ చిట్కాలు మింగేవి కావు — వాటిని పేస్టుగా చేసి బాధిత ప్రాంతంపై నేరుగా వేస్తారు, లేదా శరీరమంతా వేస్తారు.",
+              "தோல், காயம் மற்றும் ஒட்டுண்ணி பிரச்சினைகளுக்கான பல கையேட்டு வைத்தியங்கள் விழுங்கப்படுவதில்லை — அவை பேஸ்டாக செய்யப்பட்டு பாதிக்கப்பட்ட பகுதியில் நேரடியாக பயன்படுத்தப்படுகின்றன, அல்லது உடல் முழுவதும் பயன்படுத்தப்படுகின்றன.",
+              "ಚರ್ಮ, ಗಾಯ ಮತ್ತು ಪರಾವಲಂಬಿ ಸಮಸ್ಯೆಗಳಿಗೆ ಅನೇಕ ಕೈಪಿಡಿ ಪರಿಹಾರಗಳನ್ನು ನುಂಗುವುದಿಲ್ಲ — ಅವುಗಳನ್ನು ಪೇಸ್ಟ್ ಮಾಡಿ ಬಾಧಿತ ಪ್ರದೇಶದ ಮೇಲೆ ನೇರವಾಗಿ ಹಚ್ಚಲಾಗುತ್ತದೆ, ಅಥವಾ ಇಡೀ ದೇಹದ ಮೇಲೆ ಹಚ್ಚಲಾಗುತ್ತದೆ.",
+              "त्वचा, घाव और परजीवी समस्याओं के लिए कई हैंडबुक उपचार निगले नहीं जाते — इन्हें पेस्ट बनाकर प्रभावित हिस्से पर सीधे लगाया जाता है, या पूरे शरीर पर लगाया जाता है।"
             ),
           },
           {
             type: "glossary",
-            term: L("Paste"),
+            term: L(
+              "Paste",
+              "పేస్టు",
+              "பேஸ்ட்",
+              "ಪೇಸ್ಟ್",
+              "पेस्ट"
+            ),
             meaning: L(
-              "Plant material that has been crushed, ground or blended with a little water or oil until it becomes a thick, spreadable mixture, then applied directly onto the skin or a wound."
+              "Plant material that has been crushed, ground or blended with a little water or oil until it becomes a thick, spreadable mixture, then applied directly onto the skin or a wound.",
+              "కొద్దిగా నీరు లేదా నూనెతో నలిపి, దంచి లేదా బ్లెండ్ చేసి చిక్కటి, పూయదగిన మిశ్రమంగా మార్చిన మొక్క పదార్థం, తర్వాత దీనిని నేరుగా చర్మంపై లేదా గాయంపై వేస్తారు.",
+              "சிறிது தண்ணீர் அல்லது எண்ணெயுடன் நசுக்கி, அரைத்து அல்லது கலந்து தடிமனான, பூச முடிந்த கலவையாக மாற்றப்பட்ட தாவரப் பொருள், பின்னர் இது நேரடியாக தோலில் அல்லது காயத்தில் பயன்படுத்தப்படுகிறது.",
+              "ಸ್ವಲ್ಪ ನೀರು ಅಥವಾ ಎಣ್ಣೆಯೊಂದಿಗೆ ಪುಡಿಮಾಡಿ, ಅರೆದು ಅಥವಾ ಬೆರೆಸಿ ದಪ್ಪ, ಹಚ್ಚಬಹುದಾದ ಮಿಶ್ರಣವಾಗಿ ಮಾಡಿದ ಸಸ್ಯ ಪದಾರ್ಥ, ನಂತರ ಇದನ್ನು ನೇರವಾಗಿ ಚರ್ಮದ ಮೇಲೆ ಅಥವಾ ಗಾಯದ ಮೇಲೆ ಹಚ್ಚಲಾಗುತ್ತದೆ.",
+              "थोड़े पानी या तेल के साथ कुचला, पीसा या मिलाया गया पौधे का पदार्थ जब तक वह गाढ़ा, लगाने लायक मिश्रण न बन जाए, फिर इसे सीधे त्वचा या घाव पर लगाया जाता है।"
             ),
           },
           {
             type: "stat-grid",
             items: [
               {
-                label: L("Fungal Infection"),
-                text: L("Make a paste of garlic, OR a paste from neem bark, flower, seed oil or tender twig. Apply on the affected part until it recovers."),
-              },
-              {
-                label: L("External Parasites"),
+                label: L(
+                  "Fungal Infection",
+                  "ఫంగల్ ఇన్‌ఫెక్షన్",
+                  "பூஞ்சை தொற்று",
+                  "ಶಿಲೀಂಧ್ರ ಸೋಂಕು",
+                  "फंगल संक्रमण"
+                ),
                 text: L(
-                  "Custard apple (Sitaphal) seed and leaf extract diluted 50% in cheap vegetable oil, applied over the body twice a day for 5 days. Or plain neem leaf pulp. Or a paste of custard apple seed, neem seed and a little tobacco leaf, soaked in water and applied over the body."
+                  "Make a paste of garlic, OR a paste from neem bark, flower, seed oil or tender twig. Apply on the affected part until it recovers.",
+                  "వెల్లుల్లితో పేస్టు తయారు చేయండి, లేదా వేప బెరడు, పువ్వు, గింజల నూనె లేదా లేత కొమ్మతో పేస్టు తయారు చేయండి. కోలుకునే వరకు బాధిత భాగంపై వేయండి.",
+                  "பூண்டு கொண்டு பேஸ்ட் தயாரிக்கவும், அல்லது வேம்பு பட்டை, பூ, விதை எண்ணெய் அல்லது இளம் கிளையிலிருந்து பேஸ்ட் தயாரிக்கவும். குணமாகும் வரை பாதிக்கப்பட்ட பகுதியில் பயன்படுத்தவும்.",
+                  "ಬೆಳ್ಳುಳ್ಳಿಯ ಪೇಸ್ಟ್ ಮಾಡಿ, ಅಥವಾ ಬೇವಿನ ತೊಗಟೆ, ಹೂವು, ಬೀಜದ ಎಣ್ಣೆ ಅಥವಾ ಎಳೆಯ ಕೊಂಬೆಯಿಂದ ಪೇಸ್ಟ್ ಮಾಡಿ. ಗುಣವಾಗುವವರೆಗೆ ಬಾಧಿತ ಭಾಗದ ಮೇಲೆ ಹಚ್ಚಿ.",
+                  "लहसुन का पेस्ट बनाएं, या नीम की छाल, फूल, बीज के तेल या कोमल टहनी का पेस्ट बनाएं। ठीक होने तक प्रभावित हिस्से पर लगाएं।"
                 ),
               },
               {
-                label: L("Maggot Wound"),
+                label: L(
+                  "External Parasites",
+                  "బాహ్య పరాన్నజీవులు",
+                  "வெளிப்புற ஒட்டுண்ணிகள்",
+                  "ಬಾಹ್ಯ ಪರಾವಲಂಬಿಗಳು",
+                  "बाहरी परजीवी"
+                ),
                 text: L(
-                  "A handful of marigold and tulsi leaves crushed with garlic and lime into a paste, applied twice daily on the wound. Or a paste of custard apple and/or neem leaves, applied once a day for 5 to 6 days."
+                  "Custard apple (Sitaphal) seed and leaf extract diluted 50% in cheap vegetable oil, applied over the body twice a day for 5 days. Or plain neem leaf pulp. Or a paste of custard apple seed, neem seed and a little tobacco leaf, soaked in water and applied over the body.",
+                  "సీతాఫలం (సీతాఫల్) గింజ మరియు ఆకు సారాన్ని చౌక వెజిటబుల్ ఆయిల్‌లో 50% పలచన చేసి, 5 రోజులు రోజుకు రెండుసార్లు శరీరమంతా వేయండి. లేదా సాదా వేప ఆకు గుజ్జు. లేదా సీతాఫలం గింజ, వేప గింజ మరియు కొద్దిగా పొగాకు ఆకుతో పేస్టు తయారు చేసి, నీటిలో నానబెట్టి శరీరమంతా వేయండి.",
+                  "சீதாபழம் (சீதாபல்) விதை மற்றும் இலை சாற்றை மலிவான காய்கறி எண்ணெயில் 50% நீர்த்து, 5 நாட்களுக்கு நாளொன்றுக்கு இரண்டு முறை உடல் முழுவதும் பயன்படுத்தவும். அல்லது வெறும் வேம்பு இலை கூழ். அல்லது சீதாபழம் விதை, வேம்பு விதை மற்றும் சிறிது புகையிலை இலையை கொண்ட பேஸ்டை, தண்ணீரில் ஊற வைத்து உடல் முழுவதும் பயன்படுத்தவும்.",
+                  "సీతాఫలం (సీతాఫల్) ಬೀಜ ಮತ್ತು ಎಲೆ ಸಾರವನ್ನು ಅಗ್ಗದ ಸಸ್ಯಜನ್ಯ ಎಣ್ಣೆಯಲ್ಲಿ 50% ದುರ್ಬಲಗೊಳಿಸಿ, 5 ದಿನ ದಿನಕ್ಕೆ ಎರಡು ಬಾರಿ ದೇಹದ ಮೇಲೆ ಹಚ್ಚಿ. ಅಥವಾ ಸಾದಾ ಬೇವಿನ ಎಲೆಯ ತಿರುಳು. ಅಥವಾ ಸೀತಾಫಲ ಬೀಜ, ಬೇವಿನ ಬೀಜ ಮತ್ತು ಸ್ವಲ್ಪ ತಂಬಾಕು ಎಲೆಯ ಪೇಸ್ಟ್ ಅನ್ನು ನೀರಿನಲ್ಲಿ ನೆನೆಸಿ ದೇಹದ ಮೇಲೆ ಹಚ್ಚಿ.",
+                  "सीताफल (शरीफा) के बीज और पत्ती के अर्क को सस्ते वनस्पति तेल में 50% पतला करके, 5 दिनों तक दिन में दो बार पूरे शरीर पर लगाएं। या सादा नीम पत्ती का गूदा। या सीताफल बीज, नीम बीज और थोड़ी तंबाकू पत्ती का पेस्ट, पानी में भिगोकर पूरे शरीर पर लगाएं।"
                 ),
               },
               {
-                label: L("Mange Infestation"),
+                label: L(
+                  "Maggot Wound",
+                  "పురుగుల గాయం",
+                  "புழு காயம்",
+                  "ಹುಳ ಗಾಯ",
+                  "कीड़े वाला घाव"
+                ),
                 text: L(
-                  "Grind a handful of fresh or air-dried Cassia alata (Dadmurdan) leaves into a paste with water or lemon juice. Apply daily on the infected skin using a brush or coconut husk until the infection clears."
+                  "A handful of marigold and tulsi leaves crushed with garlic and lime into a paste, applied twice daily on the wound. Or a paste of custard apple and/or neem leaves, applied once a day for 5 to 6 days.",
+                  "ఒక పిడికెడు బంతిపువ్వు మరియు తులసి ఆకులను వెల్లుల్లి మరియు నిమ్మతో నలిపి పేస్టుగా చేసి, రోజుకు రెండుసార్లు గాయంపై వేయండి. లేదా సీతాఫలం మరియు/లేదా వేప ఆకుల పేస్టు, 5 నుండి 6 రోజులు రోజుకు ఒకసారి వేయండి.",
+                  "ஒரு பிடி சாமந்தி மற்றும் துளசி இலைகளை பூண்டு மற்றும் எலுமிச்சையுடன் நசுக்கி பேஸ்டாக செய்து, நாளொன்றுக்கு இரண்டு முறை காயத்தில் பயன்படுத்தவும். அல்லது சீதாபழம் மற்றும்/அல்லது வேம்பு இலைகளின் பேஸ்ட், 5 முதல் 6 நாட்களுக்கு நாளொன்றுக்கு ஒரு முறை பயன்படுத்தவும்.",
+                  "ಒಂದು ಹಿಡಿ ಚೆಂಡುಹೂವು ಮತ್ತು ತುಳಸಿ ಎಲೆಗಳನ್ನು ಬೆಳ್ಳುಳ್ಳಿ ಮತ್ತು ನಿಂಬೆಯೊಂದಿಗೆ ಪುಡಿಮಾಡಿ ಪೇಸ್ಟ್ ಮಾಡಿ, ದಿನಕ್ಕೆ ಎರಡು ಬಾರಿ ಗಾಯದ ಮೇಲೆ ಹಚ್ಚಿ. ಅಥವಾ ಸೀತಾಫಲ ಮತ್ತು/ಅಥವಾ ಬೇವಿನ ಎಲೆಗಳ ಪೇಸ್ಟ್, 5 ರಿಂದ 6 ದಿನ ದಿನಕ್ಕೆ ಒಮ್ಮೆ ಹಚ್ಚಿ.",
+                  "एक मुट्ठी गेंदा और तुलसी की पत्तियों को लहसुन और नींबू के साथ कुचलकर पेस्ट बनाएं, दिन में दो बार घाव पर लगाएं। या सीताफल और/या नीम की पत्तियों का पेस्ट, 5 से 6 दिनों तक दिन में एक बार लगाएं।"
+                ),
+              },
+              {
+                label: L(
+                  "Mange Infestation",
+                  "గజ్జి వ్యాధి",
+                  "செக்கை தொற்று",
+                  "ಗಜ್ಜಿ ಸೋಂಕು",
+                  "खुजली रोग (मैंज)"
+                ),
+                text: L(
+                  "Grind a handful of fresh or air-dried Cassia alata (Dadmurdan) leaves into a paste with water or lemon juice. Apply daily on the infected skin using a brush or coconut husk until the infection clears.",
+                  "ఒక పిడికెడు తాజా లేదా ఎండబెట్టిన కేసియా అలాటా (దాద్‌మర్దన్) ఆకులను నీరు లేదా నిమ్మరసంతో దంచి పేస్టు తయారు చేయండి. ఇన్‌ఫెక్షన్ తగ్గే వరకు బ్రష్ లేదా కొబ్బరి పీచుతో బాధిత చర్మంపై ప్రతిరోజూ వేయండి.",
+                  "ஒரு பிடி புதிய அல்லது காயவைத்த கேசியா அலாட்டா (டாட்முர்தான்) இலைகளை தண்ணீர் அல்லது எலுமிச்சை சாற்றுடன் அரைத்து பேஸ்ட் தயாரிக்கவும். தொற்று நீங்கும் வரை பிரஷ் அல்லது தேங்காய் நார் கொண்டு பாதிக்கப்பட்ட தோலில் தினமும் பயன்படுத்தவும்.",
+                  "ಒಂದು ಹಿಡಿ ತಾಜಾ ಅಥವಾ ಗಾಳಿಯಲ್ಲಿ ಒಣಗಿಸಿದ ಕ್ಯಾಸಿಯಾ ಅಲಾಟಾ (ದಾದ್ಮುರ್ದನ್) ಎಲೆಗಳನ್ನು ನೀರು ಅಥವಾ ನಿಂಬೆ ರಸದೊಂದಿಗೆ ಪುಡಿಮಾಡಿ ಪೇಸ್ಟ್ ಮಾಡಿ. ಸೋಂಕು ಗುಣವಾಗುವವರೆಗೆ ಬ್ರಷ್ ಅಥವಾ ತೆಂಗಿನ ನಾರಿನಿಂದ ಸೋಂಕಿತ ಚರ್ಮದ ಮೇಲೆ ಪ್ರತಿದಿನ ಹಚ್ಚಿ.",
+                  "एक मुट्ठी ताज़ी या हवा में सुखाई गई कैसिया अलाटा (दादमर्दन) की पत्तियों को पानी या नींबू के रस के साथ पीसकर पेस्ट बनाएं। संक्रमण ठीक होने तक ब्रश या नारियल के रेशे से संक्रमित त्वचा पर रोज़ लगाएं।"
                 ),
               },
             ],
@@ -8307,21 +8387,67 @@ export const MODULES = [
             type: "stat-grid",
             items: [
               {
-                label: L("Warts"),
-                text: L("Apply drops of Euphorbia neriifolia latex, OR drops of papaya trunk/fruit/leaf latex, on the wart twice a day until it falls off."),
-              },
-              {
-                label: L("Tongue Ulcer"),
-                text: L("Mix 100 g tamarind with 200 ml gingely (sesame) oil into a paste. Apply on the mouth and tongue 3 to 4 times a day."),
-              },
-              {
-                label: L("Fly Repellent"),
-                text: L("Grind and extract juice from aloe vera leaves. Apply on the cow's body and also sprinkle in the surroundings."),
-              },
-              {
-                label: L("Poisoning"),
+                label: L(
+                  "Warts",
+                  "మొటిమలు (వార్ట్స్)",
+                  "வார்ட்ஸ் (தோல் கொப்புளங்கள்)",
+                  "ನರಹುಲಿಗಳು",
+                  "मस्से"
+                ),
                 text: L(
-                  "Drench with one litre of paraffin oil, raw linseed oil or any vegetable oil, once. Or drench with one litre of milk or coconut water, or 200 g charcoal mixed in 800 ml water, once."
+                  "Apply drops of Euphorbia neriifolia latex, OR drops of papaya trunk/fruit/leaf latex, on the wart twice a day until it falls off.",
+                  "యూఫోర్బియా నెరిఫోలియా జిగురు చుక్కలు, లేదా బొప్పాయి కాండం/పండు/ఆకు జిగురు చుక్కలను, మొటిమ రాలిపోయే వరకు రోజుకు రెండుసార్లు వేయండి.",
+                  "யூஃபோர்பியா நெரிஃபோலியா பால் துளிகள், அல்லது பப்பாளி தண்டு/பழம்/இலை பால் துளிகளை, கொப்புளம் விழும் வரை நாளொன்றுக்கு இரண்டு முறை பயன்படுத்தவும்.",
+                  "ಯೂಫೋರ್ಬಿಯಾ ನೆರಿಫೋಲಿಯಾ ಅಂಟಿನ ಹನಿಗಳು, ಅಥವಾ ಪಪ್ಪಾಯಿ ಕಾಂಡ/ಹಣ್ಣು/ಎಲೆ ಅಂಟಿನ ಹನಿಗಳನ್ನು, ನರಹುಲಿ ಉದುರುವವರೆಗೆ ದಿನಕ್ಕೆ ಎರಡು ಬಾರಿ ಹಚ್ಚಿ.",
+                  "यूफोर्बिया नेरिफोलिया के दूध (लेटेक्स) की बूंदें, या पपीते के तने/फल/पत्ती के दूध की बूंदें, मस्सा गिरने तक दिन में दो बार लगाएं।"
+                ),
+              },
+              {
+                label: L(
+                  "Tongue Ulcer",
+                  "నాలుక పుండు",
+                  "நாக்கு புண்",
+                  "ನಾಲಿಗೆ ಹುಣ್ಣು",
+                  "जीभ का घाव"
+                ),
+                text: L(
+                  "Mix 100 g tamarind with 200 ml gingely (sesame) oil into a paste. Apply on the mouth and tongue 3 to 4 times a day.",
+                  "100 గ్రా చింతపండును 200 మి.లీ నువ్వుల నూనెతో కలిపి పేస్టు తయారు చేయండి. రోజుకు 3 నుండి 4 సార్లు నోరు మరియు నాలుకపై వేయండి.",
+                  "100 கிராம் புளியை 200 மி.லி எள் எண்ணெயுடன் கலந்து பேஸ்ட் தயாரிக்கவும். நாளொன்றுக்கு 3 முதல் 4 முறை வாய் மற்றும் நாக்கில் பயன்படுத்தவும்.",
+                  "100 ಗ್ರಾಂ ಹುಣಸೆಹಣ್ಣನ್ನು 200 ಮಿ.ಲೀ ಎಳ್ಳೆಣ್ಣೆಯೊಂದಿಗೆ ಬೆರೆಸಿ ಪೇಸ್ಟ್ ಮಾಡಿ. ದಿನಕ್ಕೆ 3 ರಿಂದ 4 ಬಾರಿ ಬಾಯಿ ಮತ್ತು ನಾಲಿಗೆಗೆ ಹಚ್ಚಿ.",
+                  "100 ग्राम इमली को 200 मिली तिल के तेल के साथ मिलाकर पेस्ट बनाएं। दिन में 3 से 4 बार मुँह और जीभ पर लगाएं।"
+                ),
+              },
+              {
+                label: L(
+                  "Fly Repellent",
+                  "ఈగలు దూరంగా ఉంచేది",
+                  "ஈ விரட்டி",
+                  "ನೊಣ ನಿವಾರಕ",
+                  "मक्खी भगाने वाला"
+                ),
+                text: L(
+                  "Grind and extract juice from aloe vera leaves. Apply on the cow's body and also sprinkle in the surroundings.",
+                  "కలబంద ఆకుల నుండి రసం తీయండి. ఆవు శరీరంపై వేయండి మరియు చుట్టుపక్కల కూడా చల్లండి.",
+                  "கற்றாழை இலைகளிலிருந்து சாறு எடுக்கவும். பசுவின் உடலில் பயன்படுத்தவும் மற்றும் சுற்றுப்புறத்திலும் தெளிக்கவும்.",
+                  "ಅಲೋವೆರಾ ಎಲೆಗಳಿಂದ ರಸ ತೆಗೆಯಿರಿ. ಹಸುವಿನ ದೇಹದ ಮೇಲೆ ಹಚ್ಚಿ ಮತ್ತು ಸುತ್ತಮುತ್ತಲೂ ಸಿಂಪಡಿಸಿ.",
+                  "एलोवेरा की पत्तियों से रस निकालें। गाय के शरीर पर लगाएं और आसपास भी छिड़कें।"
+                ),
+              },
+              {
+                label: L(
+                  "Poisoning",
+                  "విషప్రయోగం",
+                  "நச்சு தாக்கம்",
+                  "ವಿಷಪ್ರಾಶನ",
+                  "ज़हर लगना"
+                ),
+                text: L(
+                  "Drench with one litre of paraffin oil, raw linseed oil or any vegetable oil, once. Or drench with one litre of milk or coconut water, or 200 g charcoal mixed in 800 ml water, once.",
+                  "ఒక లీటరు పారాఫిన్ ఆయిల్, పచ్చి అవిసె నూనె లేదా ఏదైనా వెజిటబుల్ ఆయిల్‌తో ఒకసారి తాగించండి. లేదా ఒక లీటరు పాలు లేదా కొబ్బరి నీళ్లు, లేదా 200 గ్రా బొగ్గును 800 మి.లీ నీటిలో కలిపి ఒకసారి తాగించండి.",
+                  "ஒரு லிட்டர் பாராஃபின் எண்ணெய், மூல ஆளிவிதை எண்ணெய் அல்லது ஏதேனும் காய்கறி எண்ணெயுடன் ஒரு முறை புகட்டவும். அல்லது ஒரு லிட்டர் பால் அல்லது தேங்காய் நீர், அல்லது 200 கிராம் கரி 800 மி.லி நீரில் கலந்து ஒரு முறை புகட்டவும்.",
+                  "ಒಂದು ಲೀಟರ್ ಪ್ಯಾರಾಫಿನ್ ಎಣ್ಣೆ, ಕಚ್ಚಾ ಅಗಸೆ ಎಣ್ಣೆ ಅಥವಾ ಯಾವುದೇ ಸಸ್ಯಜನ್ಯ ಎಣ್ಣೆಯೊಂದಿಗೆ ಒಮ್ಮೆ ಕುಡಿಸಿ. ಅಥವಾ ಒಂದು ಲೀಟರ್ ಹಾಲು ಅಥವಾ ಎಳನೀರು, ಅಥವಾ 200 ಗ್ರಾಂ ಇದ್ದಿಲನ್ನು 800 ಮಿ.ಲೀ ನೀರಿನಲ್ಲಿ ಬೆರೆಸಿ ಒಮ್ಮೆ ಕುಡಿಸಿ.",
+                  "एक लीटर पैराफिन तेल, कच्चा अलसी का तेल या कोई भी वनस्पति तेल, एक बार पिलाएं। या एक लीटर दूध या नारियल पानी, या 200 ग्राम कोयला 800 मिली पानी में मिलाकर एक बार पिलाएं।"
                 ),
               },
             ],
@@ -8329,31 +8455,118 @@ export const MODULES = [
           {
             type: "callout",
             style: "warning",
-            heading: L("Maggot Wounds and Poisoning Can Turn Serious Fast"),
+            heading: L(
+              "Maggot Wounds and Poisoning Can Turn Serious Fast",
+              "పురుగుల గాయాలు మరియు విషప్రయోగం త్వరగా తీవ్రమవుతాయి",
+              "புழு காயங்கள் மற்றும் நச்சு தாக்கம் விரைவில் தீவிரமடையலாம்",
+              "ಹುಳ ಗಾಯಗಳು ಮತ್ತು ವಿಷಪ್ರಾಶನ ಬೇಗನೆ ಗಂಭೀರವಾಗಬಹುದು",
+              "कीड़े वाले घाव और ज़हर तेज़ी से गंभीर हो सकते हैं"
+            ),
             text: L(
-              "A first-aid remedy is a reasonable first step, but maggot wounds and suspected poisoning can worsen quickly. Use the remedy alongside, never instead of, getting the vet involved right away — don't wait to see if the home remedy works before calling for help."
+              "A first-aid remedy is a reasonable first step, but maggot wounds and suspected poisoning can worsen quickly. Use the remedy alongside, never instead of, getting the vet involved right away — don't wait to see if the home remedy works before calling for help.",
+              "ప్రథమ చికిత్స చిట్కా సహేతుకమైన మొదటి అడుగు, కానీ పురుగుల గాయాలు మరియు అనుమానిత విషప్రయోగం త్వరగా తీవ్రమవుతాయి. చిట్కాను వెంటనే పశువైద్యుడిని సంప్రదించడంతో పాటుగా వాడండి, బదులుగా కాదు — సహాయం కోసం పిలిచే ముందు ఇంటి చిట్కా పనిచేస్తుందో లేదో చూసేందుకు వేచి ఉండకండి.",
+              "முதலுதவி வைத்தியம் ஒரு நியாயமான முதல் படியாக இருக்கலாம், ஆனால் புழு காயங்கள் மற்றும் சந்தேகிக்கப்படும் நச்சு தாக்கம் விரைவில் மோசமடையலாம். வைத்தியத்தை உடனடியாக கால்நடை மருத்துவரை ஈடுபடுத்துவதுடன் சேர்த்து பயன்படுத்துங்கள், பதிலாக அல்ல — உதவிக்கு அழைக்கும் முன் வீட்டு வைத்தியம் வேலை செய்கிறதா என்று காத்திருக்க வேண்டாம்.",
+              "ಪ್ರಥಮ ಚಿಕಿತ್ಸೆಯ ಪರಿಹಾರ ಸಮಂಜಸವಾದ ಮೊದಲ ಹೆಜ್ಜೆ, ಆದರೆ ಹುಳ ಗಾಯಗಳು ಮತ್ತು ಶಂಕಿತ ವಿಷಪ್ರಾಶನ ಬೇಗನೆ ಹದಗೆಡಬಹುದು. ಪರಿಹಾರವನ್ನು ತಕ್ಷಣ ಪಶುವೈದ್ಯರನ್ನು ಒಳಗೊಳಿಸುವುದರ ಜೊತೆಗೆ ಬಳಸಿ, ಬದಲಾಗಿ ಅಲ್ಲ — ಸಹಾಯಕ್ಕಾಗಿ ಕರೆ ಮಾಡುವ ಮೊದಲು ಮನೆಮದ್ದು ಕೆಲಸ ಮಾಡುತ್ತದೆಯೇ ಎಂದು ಕಾಯಬೇಡಿ.",
+              "प्राथमिक उपचार एक उचित पहला कदम है, लेकिन कीड़े वाले घाव और संदिग्ध ज़हर तेज़ी से बिगड़ सकते हैं। उपचार को तुरंत पशु चिकित्सक को शामिल करने के साथ-साथ इस्तेमाल करें, उसके बदले नहीं — मदद के लिए बुलाने से पहले यह देखने का इंतज़ार न करें कि घरेलू उपचार काम करता है या नहीं।"
             ),
           },
         ],
         check: [
           {
             type: "mcq",
-            q: L("Which two ingredients does the handbook mention for treating fungal infection, applied as a paste?"),
-            options: [L("Garlic and neem"), L("Tamarind and papaya"), L("Euphorbia and marigold"), L("Tulsi and lime")],
+            q: L(
+              "Which two ingredients does the handbook mention for treating fungal infection, applied as a paste?",
+              "ఫంగల్ ఇన్‌ఫెక్షన్ చికిత్సకు హ్యాండ్‌బుక్ పేస్టుగా వేయడానికి ఏ రెండు పదార్థాలను పేర్కొంటుంది?",
+              "பூஞ்சை தொற்றை பேஸ்டாக பயன்படுத்தி சிகிச்சையளிக்க கையேடு எந்த இரண்டு பொருட்களைக் குறிப்பிடுகிறது?",
+              "ಶಿಲೀಂಧ್ರ ಸೋಂಕಿಗೆ ಪೇಸ್ಟ್ ಆಗಿ ಹಚ್ಚಲು ಕೈಪಿಡಿ ಯಾವ ಎರಡು ಪದಾರ್ಥಗಳನ್ನು ಉಲ್ಲೇಖಿಸುತ್ತದೆ?",
+              "फंगल संक्रमण के इलाज के लिए पेस्ट के रूप में लगाने हेतु हैंडबुक किन दो सामग्रियों का उल्लेख करती है?"
+            ),
+            options: [
+              L(
+                "Garlic and neem",
+                "వెల్లుల్లి మరియు వేప",
+                "பூண்டு மற்றும் வேம்பு",
+                "ಬೆಳ್ಳುಳ್ಳಿ ಮತ್ತು ಬೇವು",
+                "लहसुन और नीम"
+              ),
+              L(
+                "Tamarind and papaya",
+                "చింతపండు మరియు బొప్పాయి",
+                "புளி மற்றும் பப்பாளி",
+                "ಹುಣಸೆಹಣ್ಣು ಮತ್ತು ಪಪ್ಪಾಯಿ",
+                "इमली और पपीता"
+              ),
+              L(
+                "Euphorbia and marigold",
+                "యూఫోర్బియా మరియు బంతిపువ్వు",
+                "யூஃபோர்பியா மற்றும் சாமந்தி",
+                "ಯೂಫೋರ್ಬಿಯಾ ಮತ್ತು ಚೆಂಡುಹೂವು",
+                "यूफोर्बिया और गेंदा"
+              ),
+              L(
+                "Tulsi and lime",
+                "తులసి మరియు నిమ్మ",
+                "துளசி மற்றும் எலுமிச்சை",
+                "ತುಳಸಿ ಮತ್ತು ನಿಂಬೆ",
+                "तुलसी और नींबू"
+              ),
+            ],
             answer: 0,
-            explain: L("The handbook gives two paste options for fungal infection: garlic, or neem bark/flower/seed oil/twig."),
+            explain: L(
+              "The handbook gives two paste options for fungal infection: garlic, or neem bark/flower/seed oil/twig.",
+              "ఫంగల్ ఇన్‌ఫెక్షన్‌కు హ్యాండ్‌బుక్ రెండు పేస్టు ఎంపికలను ఇస్తుంది: వెల్లుల్లి, లేదా వేప బెరడు/పువ్వు/గింజల నూనె/కొమ్మ.",
+              "பூஞ்சை தொற்றுக்கு கையேடு இரண்டு பேஸ்ட் விருப்பங்களை அளிக்கிறது: பூண்டு, அல்லது வேம்பு பட்டை/பூ/விதை எண்ணெய்/கிளை.",
+              "ಶಿಲೀಂಧ್ರ ಸೋಂಕಿಗೆ ಕೈಪಿಡಿ ಎರಡು ಪೇಸ್ಟ್ ಆಯ್ಕೆಗಳನ್ನು ನೀಡುತ್ತದೆ: ಬೆಳ್ಳುಳ್ಳಿ, ಅಥವಾ ಬೇವಿನ ತೊಗಟೆ/ಹೂವು/ಬೀಜದ ಎಣ್ಣೆ/ಕೊಂಬೆ.",
+              "हैंडबुक फंगल संक्रमण के लिए दो पेस्ट विकल्प देती है: लहसुन, या नीम की छाल/फूल/बीज का तेल/टहनी।"
+            ),
           },
           {
             type: "mcq",
-            q: L("What does the handbook suggest for suspected poisoning, using items found around the farm?"),
+            q: L(
+              "What does the handbook suggest for suspected poisoning, using items found around the farm?",
+              "పొలం చుట్టూ దొరికే వస్తువులను ఉపయోగించి అనుమానిత విషప్రయోగానికి హ్యాండ్‌బుక్ ఏమి సూచిస్తుంది?",
+              "பண்ணையைச் சுற்றி கிடைக்கும் பொருட்களைப் பயன்படுத்தி சந்தேகிக்கப்படும் நச்சு தாக்கத்திற்கு கையேடு என்ன பரிந்துரைக்கிறது?",
+              "ಫಾರ್ಮ್‌ನ ಸುತ್ತ ಸಿಗುವ ವಸ್ತುಗಳನ್ನು ಬಳಸಿ ಶಂಕಿತ ವಿಷಪ್ರಾಶನಕ್ಕೆ ಕೈಪಿಡಿ ಏನನ್ನು ಸೂಚಿಸುತ್ತದೆ?",
+              "खेत के आसपास मिलने वाली चीज़ों का इस्तेमाल करके संदिग्ध ज़हर के लिए हैंडबुक क्या सुझाती है?"
+            ),
             options: [
-              L("Drench with paraffin/linseed/vegetable oil, or a milk/coconut water/charcoal mixture"),
-              L("Give nothing and wait for it to pass"),
-              L("Only apply a paste on the skin"),
-              L("Only give jaggery"),
+              L(
+                "Drench with paraffin/linseed/vegetable oil, or a milk/coconut water/charcoal mixture",
+                "పారాఫిన్/అవిసె/వెజిటబుల్ నూనెతో తాగించండి, లేదా పాలు/కొబ్బరి నీళ్లు/బొగ్గు మిశ్రమంతో తాగించండి",
+                "பாராஃபின்/ஆளிவிதை/காய்கறி எண்ணெயுடன் புகட்டவும், அல்லது பால்/தேங்காய் நீர்/கரி கலவையுடன் புகட்டவும்",
+                "ಪ್ಯಾರಾಫಿನ್/ಅಗಸೆ/ಸಸ್ಯಜನ್ಯ ಎಣ್ಣೆಯೊಂದಿಗೆ ಕುಡಿಸಿ, ಅಥವಾ ಹಾಲು/ಎಳನೀರು/ಇದ್ದಿಲಿನ ಮಿಶ್ರಣದೊಂದಿಗೆ ಕುಡಿಸಿ",
+                "पैराफिन/अलसी/वनस्पति तेल पिलाएं, या दूध/नारियल पानी/कोयले का मिश्रण पिलाएं"
+              ),
+              L(
+                "Give nothing and wait for it to pass",
+                "ఏమీ ఇవ్వకుండా అది తగ్గే వరకు వేచి ఉండండి",
+                "எதுவும் கொடுக்காமல் அது கடந்து போக காத்திருங்கள்",
+                "ಏನನ್ನೂ ಕೊಡದೆ ಅದು ಹಾದುಹೋಗುವವರೆಗೆ ಕಾಯಿರಿ",
+                "कुछ न दें और इसके अपने आप ठीक होने का इंतज़ार करें"
+              ),
+              L(
+                "Only apply a paste on the skin",
+                "చర్మంపై మాత్రమే పేస్టు వేయండి",
+                "தோலில் மட்டும் பேஸ்ட் பயன்படுத்தவும்",
+                "ಚರ್ಮದ ಮೇಲೆ ಮಾತ್ರ ಪೇಸ್ಟ್ ಹಚ್ಚಿ",
+                "केवल त्वचा पर पेस्ट लगाएं"
+              ),
+              L(
+                "Only give jaggery",
+                "బెల్లం మాత్రమే ఇవ్వండి",
+                "வெல்லம் மட்டும் கொடுக்கவும்",
+                "ಬೆಲ್ಲ ಮಾತ್ರ ಕೊಡಿ",
+                "केवल गुड़ दें"
+              ),
             ],
             answer: 0,
-            explain: L("The handbook lists oil-based and milk/coconut-water/charcoal-based drenches for poisoning — but this is exactly the kind of case where the vet must also be contacted urgently."),
+            explain: L(
+              "The handbook lists oil-based and milk/coconut-water/charcoal-based drenches for poisoning — but this is exactly the kind of case where the vet must also be contacted urgently.",
+              "హ్యాండ్‌బుక్ విషప్రయోగానికి నూనె ఆధారిత మరియు పాలు/కొబ్బరినీళ్లు/బొగ్గు ఆధారిత తాగింపులను జాబితా చేస్తుంది — కానీ ఇది సరిగ్గా అలాంటి కేసు, దీనిలో పశువైద్యుడిని కూడా అత్యవసరంగా సంప్రదించాలి.",
+              "கையேடு நச்சு தாக்கத்திற்கு எண்ணெய் அடிப்படையிலான மற்றும் பால்/தேங்காய் நீர்/கரி அடிப்படையிலான புகட்டல்களை பட்டியலிடுகிறது — ஆனால் இது கால்நடை மருத்துவரையும் அவசரமாக தொடர்பு கொள்ள வேண்டிய வகையான வழக்கு.",
+              "ಕೈಪಿಡಿ ವಿಷಪ್ರಾಶನಕ್ಕೆ ಎಣ್ಣೆ ಆಧಾರಿತ ಮತ್ತು ಹಾಲು/ಎಳನೀರು/ಇದ್ದಿಲು ಆಧಾರಿತ ಕುಡಿಸುವಿಕೆಗಳನ್ನು ಪಟ್ಟಿ ಮಾಡುತ್ತದೆ — ಆದರೆ ಇದು ಪಶುವೈದ್ಯರನ್ನೂ ತುರ್ತಾಗಿ ಸಂಪರ್ಕಿಸಬೇಕಾದ ನಿಖರವಾದ ರೀತಿಯ ಪ್ರಕರಣ.",
+              "हैंडबुक ज़हर के लिए तेल-आधारित और दूध/नारियल पानी/कोयला-आधारित घोल सूचीबद्ध करती है — लेकिन यह बिल्कुल वैसा मामला है जिसमें पशु चिकित्सक से भी तुरंत संपर्क करना ज़रूरी है।"
+            ),
           },
         ],
       },
