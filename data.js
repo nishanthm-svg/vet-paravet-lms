@@ -3930,8 +3930,8 @@ export const MODULES = [
   {
     id: "m7",
     number: 7,
-    title: L("Diseases That Occur After Calving"),
-    subtitle: L("Problems that can appear in the days right after an animal gives birth."),
+    title: L("Diseases That Occur After Calving", "ఈనిన తర్వాత వచ్చే వ్యాధులు", "ஈன்ற பிறகு ஏற்படும் நோய்கள்", "ಕರು ಹಾಕಿದ ನಂತರ ಬರುವ ರೋಗಗಳು", "ब्याने के बाद होने वाली बीमारियाँ"),
+    subtitle: L("Problems that can appear in the days right after an animal gives birth.", "పశువు ఈనిన వెంటనే వచ్చే రోజుల్లో కనిపించే సమస్యలు.", "விலங்கு ஈன்ற உடனடி நாட்களில் ஏற்படக்கூடிய பிரச்சினைகள்.", "ಪ್ರಾಣಿ ಕರು ಹಾಕಿದ ತಕ್ಷಣದ ದಿನಗಳಲ್ಲಿ ಕಾಣಿಸಿಕೊಳ್ಳಬಹುದಾದ ಸಮಸ್ಯೆಗಳು.", "पशु के ब्याने के तुरंत बाद के दिनों में दिखने वाली समस्याएँ।"),
     icon: "heart",
     available: true,
     lessons: [
@@ -3940,91 +3940,127 @@ export const MODULES = [
   // ==================================================================
   {
     id: "m7-l1",
-    title: L("Sudden Mineral Problems and Energy Diseases"),
+    title: L("Sudden Mineral Problems and Energy Diseases", "అకస్మాత్తుగా వచ్చే ఖనిజ లోపాలు మరియు శక్తి వ్యాధులు", "திடீர் தாது பிரச்சினைகள் மற்றும் ஆற்றல் நோய்கள்", "ಹಠಾತ್ ಖನಿಜ ಸಮಸ್ಯೆಗಳು ಮತ್ತು ಶಕ್ತಿ ರೋಗಗಳು", "अचानक होने वाली खनिज कमी और ऊर्जा संबंधी बीमारियाँ"),
     estMinutes: 9,
     hook: [
       {
         type: "hero",
-        heading: L("The First Weeks After Calving Are High-Risk"),
+        heading: L("The First Weeks After Calving Are High-Risk", "ఈనిన తర్వాత మొదటి వారాలు అత్యంత ప్రమాదకరం", "ஈன்ற பிறகு முதல் வாரங்கள் அதிக ஆபத்தானவை", "ಕರು ಹಾಕಿದ ನಂತರದ ಮೊದಲ ವಾರಗಳು ಹೆಚ್ಚು ಅಪಾಯಕಾರಿ", "ब्याने के बाद के पहले हफ्ते सबसे ज़्यादा जोखिम भरे होते हैं"),
         text: L(
-          "Right after an animal gives birth, her body suddenly needs a lot more minerals and energy to make milk. If those needs aren't met, she can develop serious problems very fast — some within hours. You don't need to know the biology behind it. You only need to recognise the early warning signs and get help immediately, because these problems can be fatal if left untreated."
+          "Right after an animal gives birth, her body suddenly needs a lot more minerals and energy to make milk. If those needs aren't met, she can develop serious problems very fast — some within hours. You don't need to know the biology behind it. You only need to recognise the early warning signs and get help immediately, because these problems can be fatal if left untreated.",
+          "పశువు ఈనిన వెంటనే, పాలు ఉత్పత్తి చేయడానికి దాని శరీరానికి అకస్మాత్తుగా చాలా ఎక్కువ ఖనిజాలు మరియు శక్తి అవసరమవుతాయి. ఈ అవసరాలు తీరకపోతే, తీవ్రమైన సమస్యలు చాలా వేగంగా వస్తాయి — కొన్నిసార్లు కొన్ని గంటల్లోనే. దీని వెనుక ఉన్న శాస్త్రం తెలుసుకోవాల్సిన అవసరం లేదు. మీరు కేవలం మొదటి హెచ్చరిక సంకేతాలను గుర్తించి వెంటనే సహాయం తీసుకోవాలి, ఎందుకంటే చికిత్స చేయకపోతే ఈ సమస్యలు ప్రాణాంతకం కావచ్చు.",
+          "விலங்கு ஈன்ற உடனேயே, பால் உற்பத்திக்காக அதன் உடலுக்கு திடீரென அதிக அளவு தாதுக்களும் ஆற்றலும் தேவைப்படும். இந்தத் தேவைகள் நிறைவேறாவிட்டால், மிக விரைவாக — சில நேரங்களில் சில மணி நேரங்களுக்குள் — கடுமையான பிரச்சினைகள் ஏற்படலாம். இதன் பின்னணியில் உள்ள அறிவியலை நீங்கள் தெரிந்துகொள்ள வேண்டியதில்லை. நீங்கள் செய்ய வேண்டியது, ஆரம்ப எச்சரிக்கை அறிகுறிகளை அடையாளம் கண்டு உடனடியாக உதவி பெறுவது தான், ஏனெனில் சிகிச்சை அளிக்கப்படாவிட்டால் இந்தப் பிரச்சினைகள் உயிருக்கு ஆபத்தானவையாக மாறலாம்.",
+          "ಪ್ರಾಣಿ ಕರು ಹಾಕಿದ ತಕ್ಷಣ, ಹಾಲು ಉತ್ಪಾದಿಸಲು ಅದರ ದೇಹಕ್ಕೆ ಹಠಾತ್ತನೆ ಹೆಚ್ಚು ಖನಿಜಗಳು ಮತ್ತು ಶಕ್ತಿ ಬೇಕಾಗುತ್ತದೆ. ಈ ಅಗತ್ಯಗಳು ಪೂರೈಸದಿದ್ದರೆ, ಗಂಭೀರ ಸಮಸ್ಯೆಗಳು ಬಹಳ ಬೇಗನೆ ಬರಬಹುದು — ಕೆಲವೊಮ್ಮೆ ಕೆಲವೇ ಗಂಟೆಗಳಲ್ಲಿ. ಇದರ ಹಿಂದಿನ ವಿಜ್ಞಾನ ತಿಳಿಯುವ ಅಗತ್ಯವಿಲ್ಲ. ನೀವು ಕೇವಲ ಆರಂಭಿಕ ಎಚ್ಚರಿಕೆ ಚಿಹ್ನೆಗಳನ್ನು ಗುರುತಿಸಿ ತಕ್ಷಣ ಸಹಾಯ ಪಡೆಯಬೇಕು, ಏಕೆಂದರೆ ಚಿಕಿತ್ಸೆ ನೀಡದಿದ್ದರೆ ಈ ಸಮಸ್ಯೆಗಳು ಮಾರಣಾಂತಿಕವಾಗಬಹುದು.",
+          "पशु के ब्याने के तुरंत बाद, दूध बनाने के लिए उसके शरीर को अचानक बहुत ज़्यादा खनिज और ऊर्जा की ज़रूरत पड़ती है। अगर यह ज़रूरत पूरी नहीं होती, तो गंभीर समस्याएँ बहुत तेज़ी से आ सकती हैं — कभी-कभी कुछ ही घंटों में। इसके पीछे का विज्ञान जानना ज़रूरी नहीं है। आपको बस शुरुआती चेतावनी के लक्षण पहचानकर तुरंत मदद लेनी है, क्योंकि इलाज न होने पर ये समस्याएँ जानलेवा हो सकती हैं।"
         ),
       },
     ],
     topics: [
       {
         id: "t-m7-milkfever-magnesium",
-        title: L("Milk Fever and Hypomagnesaemia"),
+        title: L("Milk Fever and Hypomagnesaemia", "మిల్క్ ఫీవర్ మరియు హైపోమాగ్నీసీమియా", "பால் காய்ச்சல் மற்றும் ஹைபோமேக்னீசீமியா", "ಮಿಲ್ಕ್ ಫೀವರ್ ಮತ್ತು ಹೈಪೋಮ್ಯಾಗ್ನೀಸೀಮಿಯಾ", "मिल्क फीवर और हाइपोमैग्नीसीमिया"),
         teach: [
             {
               type: "photo",
               src: "assets/illustration-m7-milk-fever.png",
-              alt: L("Illustrated diagram showing calcium moving into milk at calving, and a weak cow lying down unable to stand from low blood calcium."),
-              caption: L("Illustration: why milk fever happens — calcium suddenly moves from the blood into milk production right at calving, leaving too little for the muscles to work properly."),
+              alt: L("Illustrated diagram showing calcium moving into milk at calving, and a weak cow lying down unable to stand from low blood calcium.", "ఈనిన సమయంలో కాల్షియం రక్తం నుండి పాలలోకి వెళ్లడం, మరియు రక్తంలో కాల్షియం తక్కువగా ఉండటం వల్ల నిలబడలేని బలహీన ఆవును చూపే చిత్రం.", "ஈன்றெடுக்கும் நேரத்தில் கால்சியம் இரத்தத்திலிருந்து பாலுக்குள் செல்வதையும், இரத்தத்தில் கால்சியம் குறைவால் நிற்க முடியாமல் படுத்திருக்கும் பலவீனமான பசுவையும் காட்டும் படம்.", "ಕರು ಹಾಕುವ ಸಮಯದಲ್ಲಿ ಕ್ಯಾಲ್ಸಿಯಂ ರಕ್ತದಿಂದ ಹಾಲಿಗೆ ಹೋಗುವುದನ್ನು ಮತ್ತು ರಕ್ತದಲ್ಲಿ ಕ್ಯಾಲ್ಸಿಯಂ ಕಡಿಮೆಯಾಗಿ ನಿಲ್ಲಲಾಗದ ದುರ್ಬಲ ಹಸುವನ್ನು ತೋರಿಸುವ ಚಿತ್ರ.", "ब्याने के समय कैल्शियम के खून से दूध में जाने और खून में कैल्शियम कम होने से खड़ी न हो पाने वाली कमज़ोर गाय को दिखाने वाला चित्र।"),
+              caption: L("Illustration: why milk fever happens — calcium suddenly moves from the blood into milk production right at calving, leaving too little for the muscles to work properly.", "చిత్రం: మిల్క్ ఫీవర్ ఎందుకు వస్తుంది — ఈనిన వెంటనే కాల్షియం రక్తం నుండి పాల ఉత్పత్తికి అకస్మాత్తుగా వెళ్లిపోతుంది, దాంతో కండరాలు సరిగ్గా పనిచేయడానికి సరిపడా మిగలదు.", "படம்: பால் காய்ச்சல் ஏன் ஏற்படுகிறது — ஈன்ற உடனேயே கால்சியம் திடீரென இரத்தத்திலிருந்து பால் உற்பத்திக்கு சென்றுவிடும், தசைகள் சரியாக வேலை செய்ய போதுமான அளவு மிச்சமிருக்காது.", "ಚಿತ್ರ: ಮಿಲ್ಕ್ ಫೀವರ್ ಏಕೆ ಬರುತ್ತದೆ — ಕರು ಹಾಕಿದ ತಕ್ಷಣ ಕ್ಯಾಲ್ಸಿಯಂ ಹಠಾತ್ತನೆ ರಕ್ತದಿಂದ ಹಾಲಿನ ಉತ್ಪಾದನೆಗೆ ಹೋಗುತ್ತದೆ, ಸ್ನಾಯುಗಳು ಸರಿಯಾಗಿ ಕೆಲಸ ಮಾಡಲು ಸಾಕಷ್ಟು ಉಳಿಯುವುದಿಲ್ಲ.", "चित्र: मिल्क फीवर क्यों होता है — ब्याने के तुरंत बाद कैल्शियम अचानक खून से दूध बनाने में चला जाता है, जिससे मांसपेशियों के सही ढंग से काम करने के लिए पर्याप्त नहीं बचता।"),
             },
           {
             type: "text",
-            heading: L("Two Sudden Emergencies With a Common Cause"),
+            heading: L("Two Sudden Emergencies With a Common Cause", "ఒకే కారణంతో వచ్చే రెండు అత్యవసర పరిస్థితులు", "ஒரே காரணத்தால் ஏற்படும் இரண்டு அவசர நிலைமைகள்", "ಒಂದೇ ಕಾರಣದಿಂದ ಬರುವ ಎರಡು ತುರ್ತು ಪರಿಸ್ಥಿತಿಗಳು", "एक ही कारण से होने वाली दो आपातकालीन स्थितियाँ"),
             html: L(
-              "Making milk uses up a huge amount of <b>calcium</b> and <b>magnesium</b> — two minerals the animal's body needs for normal nerve and muscle function. Right after calving, the sudden demand for these minerals can outstrip what the body has ready to use. When that happens, the animal can develop one of two sudden, dangerous conditions: <b>Milk Fever</b> (low calcium) or <b>Hypomagnesaemia</b> (low magnesium). Both need urgent attention."
+              "Making milk uses up a huge amount of <b>calcium</b> and <b>magnesium</b> — two minerals the animal's body needs for normal nerve and muscle function. Right after calving, the sudden demand for these minerals can outstrip what the body has ready to use. When that happens, the animal can develop one of two sudden, dangerous conditions: <b>Milk Fever</b> (low calcium) or <b>Hypomagnesaemia</b> (low magnesium). Both need urgent attention.",
+              "పాలు తయారు చేయడానికి <b>కాల్షియం</b> మరియు <b>మెగ్నీషియం</b> చాలా ఎక్కువగా ఖర్చు అవుతాయి — ఇవి పశువు నరాలు మరియు కండరాలు సాధారణంగా పనిచేయడానికి అవసరమైన రెండు ఖనిజాలు. ఈనిన వెంటనే, ఈ ఖనిజాల డిమాండ్ శరీరంలో సిద్ధంగా ఉన్న దానికంటే ఎక్కువ అవుతుంది. అలా జరిగినప్పుడు, పశువుకు రెండు అకస్మాత్తు, ప్రమాదకరమైన పరిస్థితుల్లో ఒకటి రావచ్చు: <b>మిల్క్ ఫీవర్</b> (తక్కువ కాల్షియం) లేదా <b>హైపోమాగ్నీసీమియా</b> (తక్కువ మెగ్నీషియం). రెండింటికీ వెంటనే చికిత్స అవసరం.",
+              "பால் தயாரிப்பதற்கு <b>கால்சியமும்</b> <b>மெக்னீசியமும்</b> மிக அதிக அளவில் தேவைப்படும் — இவை விலங்கின் நரம்பு மற்றும் தசைகள் சரியாக வேலை செய்ய தேவையான இரண்டு தாதுக்கள். ஈன்ற உடனேயே, இந்த தாதுக்களுக்கான திடீர் தேவை உடலில் தயாராக இருப்பதை விட அதிகமாகிவிடும். அப்போது, விலங்குக்கு இரண்டு திடீர், ஆபத்தான நிலைமைகளில் ஒன்று ஏற்படலாம்: <b>பால் காய்ச்சல்</b> (குறைந்த கால்சியம்) அல்லது <b>ஹைபோமேக்னீசீமியா</b> (குறைந்த மெக்னீசியம்). இரண்டுக்கும் உடனடி கவனிப்பு தேவை.",
+              "ಹಾಲು ತಯಾರಿಸಲು <b>ಕ್ಯಾಲ್ಸಿಯಂ</b> ಮತ್ತು <b>ಮ್ಯಾಗ್ನೀಸಿಯಂ</b> ಬಹಳ ಹೆಚ್ಚು ಖರ್ಚಾಗುತ್ತದೆ — ಇವು ಪ್ರಾಣಿಯ ನರ ಮತ್ತು ಸ್ನಾಯುಗಳು ಸಾಮಾನ್ಯವಾಗಿ ಕೆಲಸ ಮಾಡಲು ಬೇಕಾದ ಎರಡು ಖನಿಜಗಳು. ಕರು ಹಾಕಿದ ತಕ್ಷಣ, ಈ ಖನಿಜಗಳ ಬೇಡಿಕೆ ದೇಹದಲ್ಲಿ ಸಿದ್ಧವಾಗಿರುವುದಕ್ಕಿಂತ ಹೆಚ್ಚಾಗಬಹುದು. ಆಗ, ಪ್ರಾಣಿಗೆ ಎರಡು ಹಠಾತ್, ಅಪಾಯಕಾರಿ ಸ್ಥಿತಿಗಳಲ್ಲಿ ಒಂದು ಬರಬಹುದು: <b>ಮಿಲ್ಕ್ ಫೀವರ್</b> (ಕಡಿಮೆ ಕ್ಯಾಲ್ಸಿಯಂ) ಅಥವಾ <b>ಹೈಪೋಮ್ಯಾಗ್ನೀಸೀಮಿಯಾ</b> (ಕಡಿಮೆ ಮ್ಯಾಗ್ನೀಸಿಯಂ). ಎರಡಕ್ಕೂ ತಕ್ಷಣದ ಚಿಕಿತ್ಸೆ ಬೇಕು.",
+              "दूध बनाने में <b>कैल्शियम</b> और <b>मैग्नीशियम</b> की बहुत ज़्यादा खपत होती है — ये दो खनिज पशु की नसों और मांसपेशियों के सामान्य ढंग से काम करने के लिए ज़रूरी हैं। ब्याने के तुरंत बाद, इन खनिजों की अचानक मांग शरीर में तैयार मात्रा से ज़्यादा हो सकती है। ऐसा होने पर, पशु को दो अचानक, खतरनाक स्थितियों में से एक हो सकती है: <b>मिल्क फीवर</b> (कम कैल्शियम) या <b>हाइपोमैग्नीसीमिया</b> (कम मैग्नीशियम)। दोनों को तुरंत इलाज की ज़रूरत होती है।"
             ),
           },
           {
             type: "glossary",
-            term: L("Milk Fever (Hypocalcaemia)"),
+            term: L("Milk Fever (Hypocalcaemia)", "మిల్క్ ఫీవర్ (హైపోకాల్సీమియా)", "பால் காய்ச்சல் (ஹைபோகால்சீமியா)", "ಮಿಲ್ಕ್ ಫೀವರ್ (ಹೈಪೋಕ್ಯಾಲ್ಸೀಮಿಯಾ)", "मिल्क फीवर (हाइपोकैल्सीमिया)"),
             meaning: L(
-              "A condition caused by a drop in blood calcium after calving. Despite the name, there is no actual fever — in the later stages the animal's body temperature is actually below normal, not above it."
+              "A condition caused by a drop in blood calcium after calving. Despite the name, there is no actual fever — in the later stages the animal's body temperature is actually below normal, not above it.",
+              "ఈనిన తర్వాత రక్తంలో కాల్షియం తగ్గడం వల్ల వచ్చే పరిస్థితి. పేరులో 'ఫీవర్' ఉన్నా, నిజంగా జ్వరం ఉండదు — తర్వాతి దశల్లో పశువు శరీర ఉష్ణోగ్రత సాధారణం కంటే ఎక్కువ కాదు, తక్కువగా ఉంటుంది.",
+              "ஈன்ற பிறகு இரத்தத்தில் கால்சியம் குறைவதால் ஏற்படும் நிலை. பெயரில் 'காய்ச்சல்' இருந்தாலும், உண்மையில் காய்ச்சல் இருக்காது — பிற்பகுதி நிலைகளில் விலங்கின் உடல் வெப்பநிலை சாதாரணத்தை விட குறைவாகவே இருக்கும், அதிகமாக அல்ல.",
+              "ಕರು ಹಾಕಿದ ನಂತರ ರಕ್ತದಲ್ಲಿ ಕ್ಯಾಲ್ಸಿಯಂ ಕಡಿಮೆಯಾಗುವುದರಿಂದ ಬರುವ ಸ್ಥಿತಿ. ಹೆಸರಿನಲ್ಲಿ 'ಫೀವರ್' ಇದ್ದರೂ, ನಿಜವಾಗಿ ಜ್ವರ ಇರುವುದಿಲ್ಲ — ನಂತರದ ಹಂತಗಳಲ್ಲಿ ಪ್ರಾಣಿಯ ದೇಹದ ಉಷ್ಣತೆ ಸಾಮಾನ್ಯಕ್ಕಿಂತ ಹೆಚ್ಚಲ್ಲ, ಕಡಿಮೆ ಇರುತ್ತದೆ.",
+              "यह ब्याने के बाद खून में कैल्शियम गिरने से होने वाली स्थिति है। नाम में 'फीवर' होने के बावजूद, असल में बुखार नहीं होता — बाद की अवस्थाओं में पशु के शरीर का तापमान सामान्य से ज़्यादा नहीं बल्कि कम हो जाता है।"
             ),
           },
           {
             type: "stat-grid",
             items: [
               {
-                label: L("Milk Fever — early signs"),
+                label: L("Milk Fever — early signs", "మిల్క్ ఫీవర్ — తొలి లక్షణాలు", "பால் காய்ச்சல் — ஆரம்ப அறிகுறிகள்", "ಮಿಲ್ಕ್ ಫೀವರ್ — ಆರಂಭಿಕ ಲಕ್ಷಣಗಳು", "मिल्क फीवर — शुरुआती लक्षण"),
                 text: L(
-                  "Usually within 72 hours of calving. The animal becomes excitable, with fine trembling over the flanks and loins, twitching ears, and bobbing its head."
+                  "Usually within 72 hours of calving. The animal becomes excitable, with fine trembling over the flanks and loins, twitching ears, and bobbing its head.",
+                  "సాధారణంగా ఈనిన 72 గంటల్లోపు వస్తుంది. పశువు కంగారుగా, పార్శ్వాలు మరియు నడుము దగ్గర సన్నని వణుకుతో, చెవులు అదిరిస్తూ, తలను ఊపుతూ ఉంటుంది.",
+                  "பொதுவாக ஈன்ற 72 மணி நேரத்திற்குள் வரும். விலங்கு பதற்றமடைந்து, விலா மற்றும் இடுப்பு பகுதியில் மெல்லிய நடுக்கம், காதுகள் துடிப்பு, தலையை ஆட்டுதல் ஆகியவை காணப்படும்.",
+                  "ಸಾಮಾನ್ಯವಾಗಿ ಕರು ಹಾಕಿದ 72 ಗಂಟೆಗಳ ಒಳಗೆ ಬರುತ್ತದೆ. ಪ್ರಾಣಿ ಆತಂಕಗೊಂಡು, ಪಕ್ಕೆ ಮತ್ತು ಸೊಂಟದ ಬಳಿ ಸಣ್ಣ ನಡುಕ, ಕಿವಿ ಅದುರುವಿಕೆ, ತಲೆ ಆಡಿಸುವಿಕೆಯನ್ನು ತೋರಿಸುತ್ತದೆ.",
+                  "आमतौर पर ब्याने के 72 घंटों के भीतर होता है। पशु बेचैन हो जाता है, उसकी कमर और बाजू में हल्की कंपकंपी होती है, कान फड़फड़ाते हैं, और सिर हिलाता रहता है।"
                 ),
               },
               {
-                label: L("Milk Fever — later signs"),
+                label: L("Milk Fever — later signs", "మిల్క్ ఫీవర్ — తర్వాతి లక్షణాలు", "பால் காய்ச்சல் — பிந்தைய அறிகுறிகள்", "ಮಿಲ್ಕ್ ಫೀವರ್ — ನಂತರದ ಲಕ್ಷಣಗಳು", "मिल्क फीवर — बाद के लक्षण"),
                 text: L(
-                  "The animal cannot stand, then lies down (recumbent) — first with its neck turned to one side, later lying flat on its side. It stops blinking when its eye is touched."
+                  "The animal cannot stand, then lies down (recumbent) — first with its neck turned to one side, later lying flat on its side. It stops blinking when its eye is touched.",
+                  "పశువు నిలబడలేకపోతుంది, తర్వాత పడుకుంటుంది — మొదట మెడను ఒక వైపుకు తిప్పి, తర్వాత పూర్తిగా పక్కకు వాలి పడుకుంటుంది. కంటిని తాకినా రెప్పలు వేయదు.",
+                  "விலங்கு நிற்க முடியாமல் படுத்துவிடும் — முதலில் கழுத்தை ஒரு பக்கம் திருப்பி, பின்னர் முழுவதுமாக பக்கவாட்டில் படுத்துவிடும். கண்ணைத் தொட்டாலும் இமை மூடாது.",
+                  "ಪ್ರಾಣಿ ನಿಲ್ಲಲಾಗದೆ ಮಲಗುತ್ತದೆ — ಮೊದಲು ಕುತ್ತಿಗೆಯನ್ನು ಒಂದು ಬದಿಗೆ ತಿರುಗಿಸಿ, ನಂತರ ಸಂಪೂರ್ಣವಾಗಿ ಪಕ್ಕಕ್ಕೆ ಮಲಗುತ್ತದೆ. ಕಣ್ಣನ್ನು ಮುಟ್ಟಿದರೂ ರೆಪ್ಪೆ ಮಿಟುಕಿಸುವುದಿಲ್ಲ.",
+                  "पशु खड़ा नहीं हो पाता, फिर लेट जाता है — पहले गर्दन एक तरफ मोड़कर, फिर पूरी तरह करवट लेकर लेट जाता है। आँख को छूने पर भी पलक नहीं झपकाता।"
                 ),
               },
               {
-                label: L("Milk Fever — final stage"),
-                text: L("The animal becomes unconscious, and its body temperature drops below normal. Without treatment, the animal will not survive."),
+                label: L("Milk Fever — final stage", "మిల్క్ ఫీవర్ — చివరి దశ", "பால் காய்ச்சல் — இறுதி நிலை", "ಮಿಲ್ಕ್ ಫೀವರ್ — ಅಂತಿಮ ಹಂತ", "मिल्क फीवर — अंतिम अवस्था"),
+                text: L("The animal becomes unconscious, and its body temperature drops below normal. Without treatment, the animal will not survive.", "పశువు స్పృహ కోల్పోతుంది, శరీర ఉష్ణోగ్రత సాధారణం కంటే తగ్గిపోతుంది. చికిత్స చేయకపోతే పశువు బతకదు.", "விலங்கு மயங்கிவிடும், உடல் வெப்பநிலை சாதாரணத்தை விட குறைந்துவிடும். சிகிச்சை இல்லாமல் விலங்கு உயிர் பிழைக்காது.", "ಪ್ರಾಣಿ ಪ್ರಜ್ಞೆ ಕಳೆದುಕೊಳ್ಳುತ್ತದೆ, ದೇಹದ ಉಷ್ಣತೆ ಸಾಮಾನ್ಯಕ್ಕಿಂತ ಕಡಿಮೆಯಾಗುತ್ತದೆ. ಚಿಕಿತ್ಸೆ ಇಲ್ಲದೆ ಪ್ರಾಣಿ ಬದುಕುಳಿಯುವುದಿಲ್ಲ.", "पशु बेहोश हो जाता है, और शरीर का तापमान सामान्य से नीचे गिर जाता है। इलाज के बिना पशु जीवित नहीं बचता।"),
               },
             ],
           },
           {
             type: "callout",
             style: "warning",
-            heading: L("Milking Too Soon and Too Completely Can Be a Trigger"),
+            heading: L("Milking Too Soon and Too Completely Can Be a Trigger", "త్వరగా మరియు పూర్తిగా పాలు పితకడం కారణం కావచ్చు", "விரைவாகவும் முழுமையாகவும் பால் கறத்தல் காரணமாக இருக்கலாம்", "ಬೇಗನೆ ಮತ್ತು ಸಂಪೂರ್ಣವಾಗಿ ಹಾಲು ಕರೆಯುವುದು ಕಾರಣವಾಗಬಹುದು", "बहुत जल्दी और पूरा दूध निकालना कारण बन सकता है"),
             text: L(
-              "Milking an animal fully in the first 48 hours after calving can, in some cases, help bring on milk fever, because it pulls even more calcium out through the milk right when the body can least spare it. This is a decision for the owner or vet to manage — your job is simply to recognise the early signs above and report them the same day."
+              "Milking an animal fully in the first 48 hours after calving can, in some cases, help bring on milk fever, because it pulls even more calcium out through the milk right when the body can least spare it. This is a decision for the owner or vet to manage — your job is simply to recognise the early signs above and report them the same day.",
+              "ఈనిన మొదటి 48 గంటల్లో పశువును పూర్తిగా పితకడం, కొన్నిసార్లు మిల్క్ ఫీవర్ రావడానికి కారణమవుతుంది, ఎందుకంటే శరీరానికి కాల్షియం అత్యంత అవసరమైన సమయంలోనే పాల ద్వారా ఇంకా ఎక్కువ కాల్షియం బయటకు వెళ్లిపోతుంది. దీన్ని ఎలా నిర్వహించాలో యజమాని లేదా వైద్యుడు నిర్ణయిస్తారు — మీ పని కేవలం పైన చెప్పిన తొలి లక్షణాలను గుర్తించి అదే రోజు తెలియజేయడమే.",
+              "ஈன்ற முதல் 48 மணி நேரத்தில் விலங்கை முழுவதுமாக பால் கறப்பது, சில நேரங்களில் பால் காய்ச்சலை ஏற்படுத்த உதவலாம், ஏனெனில் உடலுக்கு கால்சியம் மிகவும் தேவைப்படும் நேரத்திலேயே பாலின் மூலம் இன்னும் அதிக கால்சியம் வெளியேறிவிடும். இதை எப்படி நிர்வகிப்பது என்பது உரிமையாளர் அல்லது கால்நடை மருத்துவரின் முடிவு — உங்கள் வேலை மேலே கூறப்பட்ட ஆரம்ப அறிகுறிகளை அடையாளம் கண்டு அன்றே தெரிவிப்பது மட்டுமே.",
+              "ಕರು ಹಾಕಿದ ಮೊದಲ 48 ಗಂಟೆಗಳಲ್ಲಿ ಪ್ರಾಣಿಯನ್ನು ಸಂಪೂರ್ಣವಾಗಿ ಹಾಲು ಕರೆಯುವುದು, ಕೆಲವೊಮ್ಮೆ ಮಿಲ್ಕ್ ಫೀವರ್ ಬರಲು ಕಾರಣವಾಗಬಹುದು, ಏಕೆಂದರೆ ದೇಹಕ್ಕೆ ಕ್ಯಾಲ್ಸಿಯಂ ಅತಿ ಅಗತ್ಯವಿರುವ ಸಮಯದಲ್ಲೇ ಹಾಲಿನ ಮೂಲಕ ಇನ್ನೂ ಹೆಚ್ಚು ಕ್ಯಾಲ್ಸಿಯಂ ಹೊರಹೋಗುತ್ತದೆ. ಇದನ್ನು ಹೇಗೆ ನಿರ್ವಹಿಸಬೇಕು ಎಂಬುದು ಮಾಲೀಕ ಅಥವಾ ಪಶುವೈದ್ಯರ ನಿರ್ಧಾರ — ನಿಮ್ಮ ಕೆಲಸ ಕೇವಲ ಮೇಲಿನ ಆರಂಭಿಕ ಲಕ್ಷಣಗಳನ್ನು ಗುರುತಿಸಿ ಅದೇ ದಿನ ವರದಿ ಮಾಡುವುದು.",
+              "ब्याने के पहले 48 घंटों में पशु का पूरा दूध निकालना, कभी-कभी मिल्क फीवर लाने में मदद कर सकता है, क्योंकि जब शरीर को कैल्शियम की सबसे ज़्यादा ज़रूरत होती है, तभी दूध के ज़रिए और भी ज़्यादा कैल्शियम बाहर निकल जाता है। इसे कैसे संभालना है यह मालिक या डॉक्टर का फैसला है — आपका काम बस ऊपर बताए गए शुरुआती लक्षणों को पहचानकर उसी दिन बताना है।"
             ),
           },
           {
             type: "glossary",
-            term: L("Hypomagnesaemia"),
+            term: L("Hypomagnesaemia", "హైపోమాగ్నీసీమియా", "ஹைபோமேக்னீசீமியா", "ಹೈಪೋಮ್ಯಾಗ್ನೀಸೀಮಿಯಾ", "हाइपोमैग्नीसीमिया"),
             meaning: L(
-              "A condition caused by a drop in blood magnesium. It mostly affects adult milking animals, though calves can get it too. It often occurs together with milk fever, and both are emergencies."
+              "A condition caused by a drop in blood magnesium. It mostly affects adult milking animals, though calves can get it too. It often occurs together with milk fever, and both are emergencies.",
+              "రక్తంలో మెగ్నీషియం తగ్గడం వల్ల వచ్చే పరిస్థితి. ఇది ఎక్కువగా పాలిచ్చే వయోజన పశువులలో వస్తుంది, అయితే దూడలకు కూడా రావచ్చు. ఇది తరచుగా మిల్క్ ఫీవర్‌తో పాటు వస్తుంది, రెండూ అత్యవసర పరిస్థితులే.",
+              "இரத்தத்தில் மெக்னீசியம் குறைவதால் ஏற்படும் நிலை. இது பெரும்பாலும் பால் கொடுக்கும் வளர்ந்த விலங்குகளில் ஏற்படும், ஆனாலும் கன்றுகளுக்கும் வரலாம். இது பெரும்பாலும் பால் காய்ச்சலுடன் சேர்ந்தே வரும், இரண்டுமே அவசர நிலைமைகள்.",
+              "ರಕ್ತದಲ್ಲಿ ಮ್ಯಾಗ್ನೀಸಿಯಂ ಕಡಿಮೆಯಾಗುವುದರಿಂದ ಬರುವ ಸ್ಥಿತಿ. ಇದು ಹೆಚ್ಚಾಗಿ ಹಾಲು ಕೊಡುವ ವಯಸ್ಕ ಪ್ರಾಣಿಗಳಲ್ಲಿ ಕಂಡುಬರುತ್ತದೆ, ಆದರೆ ಕರುಗಳಿಗೂ ಬರಬಹುದು. ಇದು ಸಾಮಾನ್ಯವಾಗಿ ಮಿಲ್ಕ್ ಫೀವರ್ ಜೊತೆ ಬರುತ್ತದೆ, ಎರಡೂ ತುರ್ತು ಪರಿಸ್ಥಿತಿಗಳು.",
+              "यह खून में मैग्नीशियम गिरने से होने वाली स्थिति है। यह ज़्यादातर दूध देने वाले वयस्क पशुओं को होती है, हालांकि बछड़ों को भी हो सकती है। यह अक्सर मिल्क फीवर के साथ ही होती है, और दोनों ही आपातकालीन स्थितियाँ हैं।"
             ),
           },
           {
             type: "stat-grid",
             items: [
               {
-                label: L("Hypomagnesaemia — sudden form"),
+                label: L("Hypomagnesaemia — sudden form", "హైపోమాగ్నీసీమియా — తీవ్రమైన రూపం", "ஹைபோமேக்னீசீமியா — திடீர் வடிவம்", "ಹೈಪೋಮ್ಯಾಗ್ನೀಸೀಮಿಯಾ — ಹಠಾತ್ ರೂಪ", "हाइपोमैग्नीसीमिया — अचानक होने वाला रूप"),
                 text: L(
-                  "A previously normal animal suddenly throws its head up, bellows, gallops, and falls — with severe paddling convulsions that repeat every short while."
+                  "A previously normal animal suddenly throws its head up, bellows, gallops, and falls — with severe paddling convulsions that repeat every short while.",
+                  "ఇంతకుముందు మామూలుగా ఉన్న పశువు అకస్మాత్తుగా తలను పైకి విసిరి, అరుస్తూ, పరుగెత్తి, పడిపోతుంది — తీవ్రమైన కాళ్లు కొట్టుకునే మూర్ఛలు కొద్ది సమయానికి ఒకసారి పునరావృతం అవుతాయి.",
+                  "முன்பு சாதாரணமாக இருந்த விலங்கு திடீரென தலையை மேலே தூக்கி, கத்தி, ஓடி, விழுந்துவிடும் — கடுமையான கால் உதைக்கும் வலிப்பு அடிக்கடி மீண்டும் மீண்டும் வரும்.",
+                  "ಮೊದಲು ಸಾಮಾನ್ಯವಾಗಿದ್ದ ಪ್ರಾಣಿ ಹಠಾತ್ತನೆ ತಲೆಯನ್ನು ಮೇಲಕ್ಕೆತ್ತಿ, ಕೂಗುತ್ತಾ, ಓಡಿ, ಬಿದ್ದುಬಿಡುತ್ತದೆ — ತೀವ್ರವಾದ ಕಾಲು ಒದೆಯುವ ಸೆಳೆತಗಳು ಸ್ವಲ್ಪ ಸಮಯಕ್ಕೊಮ್ಮೆ ಮರುಕಳಿಸುತ್ತವೆ.",
+                  "पहले सामान्य दिख रहा पशु अचानक सिर उठाकर, चिल्लाकर, दौड़कर गिर जाता है — और तेज़ी से पैर पटकने वाले दौरे थोड़ी-थोड़ी देर में बार-बार आते हैं।"
                 ),
               },
               {
-                label: L("Hypomagnesaemia — milder form"),
+                label: L("Hypomagnesaemia — milder form", "హైపోమాగ్నీసీమియా — తేలికపాటి రూపం", "ஹைபோமேக்னீசீமியா — லேசான வடிவம்", "ಹೈಪೋಮ್ಯಾಗ್ನೀಸೀಮಿಯಾ — ಸೌಮ್ಯ ರೂಪ", "हाइपोमैग्नीसीमिया — हल्का रूप"),
                 text: L(
-                  "The animal walks stiffly, becomes unusually sensitive to touch and sound, and urinates often. This milder form can still turn into the convulsion stage within 2–3 days."
+                  "The animal walks stiffly, becomes unusually sensitive to touch and sound, and urinates often. This milder form can still turn into the convulsion stage within 2–3 days.",
+                  "పశువు బిగుసుకుపోయినట్లు నడుస్తుంది, స్పర్శ మరియు శబ్దానికి అసాధారణంగా సున్నితంగా మారుతుంది, తరచుగా మూత్రం పోస్తుంది. ఈ తేలికపాటి రూపం కూడా 2–3 రోజుల్లో మూర్ఛల దశకు మారవచ్చు.",
+                  "விலங்கு விறைப்பாக நடக்கும், தொடுதலுக்கும் ஒலிக்கும் அசாதாரணமாக உணர்திறன் அடையும், அடிக்கடி சிறுநீர் கழிக்கும். இந்த லேசான வடிவமும் 2–3 நாட்களில் வலிப்பு நிலைக்கு மாறலாம்.",
+                  "ಪ್ರಾಣಿ ಬಿಗಿಯಾಗಿ ನಡೆಯುತ್ತದೆ, ಸ್ಪರ್ಶ ಮತ್ತು ಶಬ್ದಕ್ಕೆ ಅಸಾಮಾನ್ಯವಾಗಿ ಸೂಕ್ಷ್ಮವಾಗುತ್ತದೆ, ಆಗಾಗ ಮೂತ್ರ ವಿಸರ್ಜಿಸುತ್ತದೆ. ಈ ಸೌಮ್ಯ ರೂಪವೂ 2–3 ದಿನಗಳಲ್ಲಿ ಸೆಳೆತದ ಹಂತಕ್ಕೆ ತಿರುಗಬಹುದು.",
+                  "पशु अकड़कर चलता है, छूने और आवाज़ के प्रति असामान्य रूप से संवेदनशील हो जाता है, और बार-बार पेशाब करता है। यह हल्का रूप भी 2–3 दिनों में दौरे की अवस्था में बदल सकता है।"
                 ),
               },
             ],
@@ -4032,65 +4068,89 @@ export const MODULES = [
           {
             type: "callout",
             style: "tip",
-            heading: L("Your Job: Report the Very First Sign, Not the Collapse"),
+            heading: L("Your Job: Report the Very First Sign, Not the Collapse", "మీ పని: పశువు పడిపోకముందే మొదటి లక్షణాన్ని తెలియజేయడం", "உங்கள் வேலை: விலங்கு விழும் முன் முதல் அறிகுறியை தெரிவிப்பது", "ನಿಮ್ಮ ಕೆಲಸ: ಪ್ರಾಣಿ ಬೀಳುವ ಮೊದಲೇ ಮೊದಲ ಲಕ್ಷಣ ವರದಿ ಮಾಡುವುದು", "आपका काम: गिरने से पहले ही पहला लक्षण बताना"),
             text: L(
-              "Both conditions respond very well to treatment — but only if the vet is called as soon as the early signs appear, such as trembling, ear twitching, head bobbing, or unusually stiff walking. Waiting until the animal goes down and starts convulsing wastes precious time. Even after successful treatment, some animals relapse within a day or two, so keep watching the animal closely and report again if the same signs return."
+              "Both conditions respond very well to treatment — but only if the vet is called as soon as the early signs appear, such as trembling, ear twitching, head bobbing, or unusually stiff walking. Waiting until the animal goes down and starts convulsing wastes precious time. Even after successful treatment, some animals relapse within a day or two, so keep watching the animal closely and report again if the same signs return.",
+              "వణుకు, చెవులు అదరడం, తల ఊపడం లేదా అసాధారణంగా బిగుసుకుపోయిన నడక వంటి తొలి లక్షణాలు కనిపించిన వెంటనే వైద్యుడిని పిలిస్తేనే రెండు పరిస్థితులు చికిత్సకు బాగా స్పందిస్తాయి. పశువు పడిపోయి మూర్ఛపోయే వరకు వేచి ఉండటం విలువైన సమయాన్ని వృథా చేస్తుంది. విజయవంతమైన చికిత్స తర్వాత కూడా కొన్ని పశువులు ఒకటి రెండు రోజుల్లో మళ్లీ బాధపడవచ్చు, కాబట్టి పశువును జాగ్రత్తగా గమనిస్తూ అదే లక్షణాలు మళ్లీ కనిపిస్తే మళ్లీ తెలియజేయండి.",
+              "நடுக்கம், காது துடிப்பு, தலை ஆட்டுதல் அல்லது அசாதாரண விறைப்பான நடை போன்ற ஆரம்ப அறிகுறிகள் தோன்றியவுடன் கால்நடை மருத்துவரை அழைத்தால் மட்டுமே இரண்டு நிலைமைகளும் சிகிச்சைக்கு நன்றாக பதிலளிக்கும். விலங்கு விழுந்து வலிப்பு தொடங்கும் வரை காத்திருப்பது மதிப்புமிக்க நேரத்தை வீணடிக்கும். வெற்றிகரமான சிகிச்சைக்குப் பிறகும், சில விலங்குகள் ஒன்று அல்லது இரண்டு நாட்களில் மீண்டும் பாதிக்கப்படலாம், எனவே விலங்கை உன்னிப்பாக கவனித்து அதே அறிகுறிகள் மீண்டும் தோன்றினால் மீண்டும் தெரிவிக்கவும்.",
+              "ನಡುಕ, ಕಿವಿ ಅದುರುವಿಕೆ, ತಲೆ ಆಡಿಸುವಿಕೆ ಅಥವಾ ಅಸಾಮಾನ್ಯ ಬಿಗಿಯಾದ ನಡಿಗೆಯಂತಹ ಆರಂಭಿಕ ಲಕ್ಷಣಗಳು ಕಾಣಿಸಿಕೊಂಡ ತಕ್ಷಣ ಪಶುವೈದ್ಯರನ್ನು ಕರೆದರೆ ಮಾತ್ರ ಎರಡೂ ಸ್ಥಿತಿಗಳು ಚಿಕಿತ್ಸೆಗೆ ಚೆನ್ನಾಗಿ ಸ್ಪಂದಿಸುತ್ತವೆ. ಪ್ರಾಣಿ ಬಿದ್ದು ಸೆಳೆತ ಪ್ರಾರಂಭಿಸುವವರೆಗೆ ಕಾಯುವುದು ಅಮೂಲ್ಯ ಸಮಯವನ್ನು ವ್ಯರ್ಥ ಮಾಡುತ್ತದೆ. ಯಶಸ್ವಿ ಚಿಕಿತ್ಸೆಯ ನಂತರವೂ, ಕೆಲವು ಪ್ರಾಣಿಗಳು ಒಂದೆರಡು ದಿನಗಳಲ್ಲಿ ಮತ್ತೆ ಕಾಯಿಲೆಗೆ ಒಳಗಾಗಬಹುದು, ಆದ್ದರಿಂದ ಪ್ರಾಣಿಯನ್ನು ಸೂಕ್ಷ್ಮವಾಗಿ ಗಮನಿಸುತ್ತಾ ಅದೇ ಲಕ್ಷಣಗಳು ಮತ್ತೆ ಕಂಡುಬಂದರೆ ಮತ್ತೆ ವರದಿ ಮಾಡಿ.",
+              "कंपकंपी, कान फड़फड़ाना, सिर हिलाना या असामान्य रूप से अकड़कर चलने जैसे शुरुआती लक्षण दिखते ही डॉक्टर को बुलाया जाए तो ही दोनों स्थितियाँ इलाज पर अच्छी तरह प्रतिक्रिया देती हैं। पशु के गिरकर दौरे शुरू होने का इंतज़ार करना कीमती समय बर्बाद करता है। सफल इलाज के बाद भी, कुछ पशुओं में एक-दो दिन में दोबारा लक्षण आ सकते हैं, इसलिए पशु पर बारीकी से नज़र रखें और वही लक्षण फिर दिखें तो दोबारा बताएं।"
             ),
           },
         ],
         check: [
           {
             type: "mcq",
-            q: L("Milk Fever is caused by low levels of which mineral in the blood?"),
-            options: [L("Calcium"), L("Iron"), L("Potassium"), L("Sodium")],
+            q: L("Milk Fever is caused by low levels of which mineral in the blood?", "మిల్క్ ఫీవర్ రక్తంలో ఏ ఖనిజం తక్కువగా ఉండటం వల్ల వస్తుంది?", "பால் காய்ச்சல் இரத்தத்தில் எந்த தாது குறைவால் ஏற்படுகிறது?", "ಮಿಲ್ಕ್ ಫೀವರ್ ರಕ್ತದಲ್ಲಿ ಯಾವ ಖನಿಜದ ಕೊರತೆಯಿಂದ ಬರುತ್ತದೆ?", "मिल्क फीवर खून में किस खनिज की कमी से होता है?"),
+            options: [L("Calcium", "కాల్షియం", "கால்சியம்", "ಕ್ಯಾಲ್ಸಿಯಂ", "कैल्शियम"), L("Iron", "ఐరన్", "இரும்பு", "ಕಬ್ಬಿಣ", "आयरन"), L("Potassium", "పొటాషియం", "பொட்டாசியம்", "ಪೊಟ್ಯಾಸಿಯಂ", "पोटैशियम"), L("Sodium", "సోడియం", "சோடியம்", "ಸೋಡಿಯಂ", "सोडियम")],
             answer: 0,
-            explain: L("Milk Fever (hypocalcaemia) is caused by a drop in blood calcium — the huge demand for calcium to make milk can outstrip what the body has ready."),
+            explain: L("Milk Fever (hypocalcaemia) is caused by a drop in blood calcium — the huge demand for calcium to make milk can outstrip what the body has ready.", "మిల్క్ ఫీవర్ (హైపోకాల్సీమియా) రక్తంలో కాల్షియం తగ్గడం వల్ల వస్తుంది — పాలు తయారీకి కావాల్సిన కాల్షియం డిమాండ్ శరీరంలో సిద్ధంగా ఉన్న దానికంటే ఎక్కువ కావచ్చు.", "பால் காய்ச்சல் (ஹைபோகால்சீமியா) இரத்தத்தில் கால்சியம் குறைவதால் ஏற்படுகிறது — பால் தயாரிக்க தேவையான கால்சியம் தேவை உடலில் தயாராக இருப்பதை விட அதிகமாகலாம்.", "ಮಿಲ್ಕ್ ಫೀವರ್ (ಹೈಪೋಕ್ಯಾಲ್ಸೀಮಿಯಾ) ರಕ್ತದಲ್ಲಿ ಕ್ಯಾಲ್ಸಿಯಂ ಕಡಿಮೆಯಾಗುವುದರಿಂದ ಬರುತ್ತದೆ — ಹಾಲು ತಯಾರಿಸಲು ಬೇಕಾದ ಕ್ಯಾಲ್ಸಿಯಂ ಬೇಡಿಕೆ ದೇಹದಲ್ಲಿ ಸಿದ್ಧವಿರುವುದಕ್ಕಿಂತ ಹೆಚ್ಚಾಗಬಹುದು.", "मिल्क फीवर (हाइपोकैल्सीमिया) खून में कैल्शियम गिरने से होता है — दूध बनाने के लिए ज़रूरी कैल्शियम की मांग शरीर में तैयार मात्रा से ज़्यादा हो सकती है।"),
           },
           {
             type: "truefalse",
-            q: L("Despite its name, an animal with Milk Fever actually has a high body temperature."),
+            q: L("Despite its name, an animal with Milk Fever actually has a high body temperature.", "పేరులో 'ఫీవర్' ఉన్నప్పటికీ, మిల్క్ ఫీవర్ ఉన్న పశువుకు నిజంగా అధిక శరీర ఉష్ణోగ్రత ఉంటుంది.", "பெயரில் இருந்தாலும், பால் காய்ச்சல் உள்ள விலங்குக்கு உண்மையில் அதிக உடல் வெப்பநிலை இருக்கும்.", "ಹೆಸರಿನಲ್ಲಿ ಇದ್ದರೂ, ಮಿಲ್ಕ್ ಫೀವರ್ ಇರುವ ಪ್ರಾಣಿಗೆ ನಿಜವಾಗಿ ಹೆಚ್ಚಿನ ದೇಹದ ಉಷ್ಣತೆ ಇರುತ್ತದೆ.", "नाम के बावजूद, मिल्क फीवर से ग्रस्त पशु का शरीर का तापमान असल में ज़्यादा होता है।"),
             answer: false,
-            explain: L("No — there is no real fever. In the later stages, the animal's body temperature is actually below normal, not above it."),
+            explain: L("No — there is no real fever. In the later stages, the animal's body temperature is actually below normal, not above it.", "కాదు — నిజమైన జ్వరం ఉండదు. తర్వాతి దశల్లో పశువు శరీర ఉష్ణోగ్రత సాధారణం కంటే తక్కువగా ఉంటుంది, ఎక్కువగా కాదు.", "இல்லை — உண்மையான காய்ச்சல் இருக்காது. பிற்பகுதி நிலைகளில், விலங்கின் உடல் வெப்பநிலை சாதாரணத்தை விட குறைவாகவே இருக்கும், அதிகமாக அல்ல.", "ಇಲ್ಲ — ನಿಜವಾದ ಜ್ವರ ಇರುವುದಿಲ್ಲ. ನಂತರದ ಹಂತಗಳಲ್ಲಿ, ಪ್ರಾಣಿಯ ದೇಹದ ಉಷ್ಣತೆ ಸಾಮಾನ್ಯಕ್ಕಿಂತ ಕಡಿಮೆ ಇರುತ್ತದೆ, ಹೆಚ್ಚಲ್ಲ.", "नहीं — असली बुखार नहीं होता। बाद की अवस्थाओं में, पशु के शरीर का तापमान सामान्य से ज़्यादा नहीं बल्कि कम हो जाता है।"),
           },
         ],
       },
       {
         id: "t-m7-ketosis-fattyliver",
-        title: L("Ketosis and Fatty Liver"),
+        title: L("Ketosis and Fatty Liver", "కీటోసిస్ మరియు ఫ్యాటీ లివర్", "கீட்டோசிஸ் மற்றும் கொழுப்பு கல்லீரல்", "ಕೀಟೋಸಿಸ್ ಮತ್ತು ಫ್ಯಾಟಿ ಲಿವರ್", "कीटोसिस और फैटी लिवर"),
         teach: [
           {
             type: "text",
-            heading: L("When the Body Runs Low on Energy"),
+            heading: L("When the Body Runs Low on Energy", "శరీరంలో శక్తి తక్కువైనప్పుడు", "உடலில் ஆற்றல் குறையும் போது", "ದೇಹದಲ್ಲಿ ಶಕ್ತಿ ಕಡಿಮೆಯಾದಾಗ", "जब शरीर में ऊर्जा कम हो जाए"),
             html: L(
-              "Making milk also takes a huge amount of energy. If an animal isn't eating enough to match that demand — or if she was too fat at calving — her body starts breaking down its own fat for energy. When this goes too far, it can lead to two related problems: <b>Ketosis</b> and <b>Fatty Liver Syndrome</b>."
+              "Making milk also takes a huge amount of energy. If an animal isn't eating enough to match that demand — or if she was too fat at calving — her body starts breaking down its own fat for energy. When this goes too far, it can lead to two related problems: <b>Ketosis</b> and <b>Fatty Liver Syndrome</b>.",
+              "పాలు తయారీకి కూడా చాలా ఎక్కువ శక్తి అవసరం. ఈ డిమాండ్‌కు సరిపడా పశువు తినకపోతే — లేదా ఈనే సమయంలో అది చాలా లావుగా ఉంటే — శరీరం శక్తి కోసం దాని సొంత కొవ్వును కరిగించడం మొదలుపెడుతుంది. ఇది మితిమీరిపోతే, రెండు సంబంధిత సమస్యలు రావచ్చు: <b>కీటోసిస్</b> మరియు <b>ఫ్యాటీ లివర్ సిండ్రోమ్</b>.",
+              "பால் தயாரிப்பதற்கும் அதிக ஆற்றல் தேவைப்படும். இந்த தேவைக்கு ஏற்ப விலங்கு போதுமான அளவு உண்ணவில்லை என்றால் — அல்லது ஈன்ற நேரத்தில் அது மிக கொழுப்பாக இருந்தால் — உடல் ஆற்றலுக்காக அதன் சொந்த கொழுப்பை உடைக்கத் தொடங்கும். இது அளவுக்கு அதிகமானால், இரண்டு தொடர்புடைய பிரச்சினைகள் ஏற்படலாம்: <b>கீட்டோசிஸ்</b> மற்றும் <b>கொழுப்பு கல்லீரல் நோய்க்குறி</b>.",
+              "ಹಾಲು ತಯಾರಿಸಲು ಸಹ ಬಹಳ ಹೆಚ್ಚು ಶಕ್ತಿ ಬೇಕಾಗುತ್ತದೆ. ಈ ಬೇಡಿಕೆಗೆ ತಕ್ಕಷ್ಟು ಪ್ರಾಣಿ ತಿನ್ನದಿದ್ದರೆ — ಅಥವಾ ಕರು ಹಾಕುವ ಸಮಯದಲ್ಲಿ ಅದು ಬಹಳ ದಪ್ಪವಾಗಿದ್ದರೆ — ದೇಹವು ಶಕ್ತಿಗಾಗಿ ಸ್ವಂತ ಕೊಬ್ಬನ್ನು ಒಡೆಯಲು ಪ್ರಾರಂಭಿಸುತ್ತದೆ. ಇದು ಮಿತಿಮೀರಿದರೆ, ಎರಡು ಸಂಬಂಧಿತ ಸಮಸ್ಯೆಗಳು ಬರಬಹುದು: <b>ಕೀಟೋಸಿಸ್</b> ಮತ್ತು <b>ಫ್ಯಾಟಿ ಲಿವರ್ ಸಿಂಡ್ರೋಮ್</b>.",
+              "दूध बनाने में भी बहुत ज़्यादा ऊर्जा लगती है। अगर पशु इस मांग के अनुसार पर्याप्त नहीं खा रहा — या ब्याने के समय वह बहुत मोटा था — तो उसका शरीर ऊर्जा के लिए अपनी ही चर्बी को तोड़ना शुरू कर देता है। यह ज़्यादा हो जाए तो दो जुड़ी हुई समस्याएँ हो सकती हैं: <b>कीटोसिस</b> और <b>फैटी लिवर सिंड्रोम</b>।"
             ),
           },
           {
             type: "glossary",
-            term: L("Negative Energy Balance"),
+            term: L("Negative Energy Balance", "నెగటివ్ ఎనర్జీ బ్యాలెన్స్", "எதிர்மறை ஆற்றல் சமநிலை", "ನೆಗೆಟಿವ್ ಎನರ್ಜಿ ಬ್ಯಾಲೆನ್ಸ್", "नेगेटिव एनर्जी बैलेंस"),
             meaning: L(
-              "This is what happens when an animal's body is using more energy than it is getting from its feed. To make up the difference, the body starts breaking down its own fat reserves."
+              "This is what happens when an animal's body is using more energy than it is getting from its feed. To make up the difference, the body starts breaking down its own fat reserves.",
+              "పశువు శరీరం తినే మేత నుండి వచ్చే దానికంటే ఎక్కువ శక్తిని ఖర్చు చేసినప్పుడు ఇది జరుగుతుంది. ఈ తేడాను భర్తీ చేయడానికి శరీరం తన సొంత కొవ్వు నిల్వలను కరిగించడం మొదలుపెడుతుంది.",
+              "விலங்கின் உடல் அது உண்ணும் தீவனத்தில் இருந்து கிடைப்பதை விட அதிக ஆற்றலைப் பயன்படுத்தும் போது இது நடக்கும். இந்த வித்தியாசத்தை ஈடுசெய்ய, உடல் அதன் சொந்த கொழுப்பு இருப்புகளை உடைக்கத் தொடங்கும்.",
+              "ಪ್ರಾಣಿಯ ದೇಹವು ಅದು ತಿನ್ನುವ ಆಹಾರದಿಂದ ಸಿಗುವುದಕ್ಕಿಂತ ಹೆಚ್ಚು ಶಕ್ತಿಯನ್ನು ಬಳಸಿದಾಗ ಇದು ಸಂಭವಿಸುತ್ತದೆ. ಈ ವ್ಯತ್ಯಾಸವನ್ನು ಸರಿದೂಗಿಸಲು, ದೇಹವು ತನ್ನ ಸ್ವಂತ ಕೊಬ್ಬಿನ ಸಂಗ್ರಹವನ್ನು ಒಡೆಯಲು ಪ್ರಾರಂಭಿಸುತ್ತದೆ.",
+              "यह तब होता है जब पशु का शरीर अपने चारे से मिलने वाली ऊर्जा से ज़्यादा ऊर्जा खर्च कर रहा हो। इस कमी को पूरा करने के लिए, शरीर अपनी ही चर्बी के भंडार को तोड़ना शुरू कर देता है।"
             ),
           },
           {
             type: "stat-grid",
             items: [
               {
-                label: L("Ketosis — early signs"),
+                label: L("Ketosis — early signs", "కీటోసిస్ — తొలి లక్షణాలు", "கீட்டோசிஸ் — ஆரம்ப அறிகுறிகள்", "ಕೀಟೋಸಿಸ್ — ಆರಂಭಿಕ ಲಕ್ಷಣಗಳು", "कीटोसिस — शुरुआती लक्षण"),
                 text: L(
-                  "Usually in the first 2 months after calving: a slight drop in how much the animal eats, a drop in milk production, tiredness (lethargy), and firm dung covered in mucus."
+                  "Usually in the first 2 months after calving: a slight drop in how much the animal eats, a drop in milk production, tiredness (lethargy), and firm dung covered in mucus.",
+                  "సాధారణంగా ఈనిన మొదటి 2 నెలల్లో వస్తుంది: పశువు తినే మేత కొద్దిగా తగ్గడం, పాల ఉత్పత్తి తగ్గడం, నీరసం, మరియు జిగురుతో కప్పబడిన గట్టి పేడ.",
+                  "பொதுவாக ஈன்ற முதல் 2 மாதங்களில் வரும்: விலங்கு உண்ணும் அளவு சற்று குறைதல், பால் உற்பத்தி குறைதல், சோர்வு, மற்றும் சளி படிந்த திடமான சாணம்.",
+                  "ಸಾಮಾನ್ಯವಾಗಿ ಕರು ಹಾಕಿದ ಮೊದಲ 2 ತಿಂಗಳಲ್ಲಿ ಬರುತ್ತದೆ: ಪ್ರಾಣಿ ತಿನ್ನುವ ಪ್ರಮಾಣ ಸ್ವಲ್ಪ ಕಡಿಮೆಯಾಗುವುದು, ಹಾಲಿನ ಉತ್ಪಾದನೆ ಕಡಿಮೆಯಾಗುವುದು, ಆಯಾಸ, ಮತ್ತು ಲೋಳೆಯಿಂದ ಮುಚ್ಚಿದ ಗಟ್ಟಿಯಾದ ಸಗಣಿ.",
+                  "आमतौर पर ब्याने के पहले 2 महीनों में होता है: पशु के खाने में हल्की कमी, दूध उत्पादन में गिरावट, थकान, और बलगम से ढका सख्त गोबर।"
                 ),
               },
               {
-                label: L("Ketosis — signs as it worsens"),
+                label: L("Ketosis — signs as it worsens", "కీటోసిస్ — తీవ్రమయ్యే లక్షణాలు", "கீட்டோசிஸ் — மோசமடையும் அறிகுறிகள்", "ಕೀಟೋಸಿಸ್ — ಹದಗೆಡುವ ಲಕ್ಷಣಗಳು", "कीटोसिस — बिगड़ने पर लक्षण"),
                 text: L(
-                  "Noticeable weight loss, a hunched-back posture, and sometimes eating or chewing on strange things like soil or wood (called pica). Some animals become restless, aggressive, or show compulsive licking or head-pressing."
+                  "Noticeable weight loss, a hunched-back posture, and sometimes eating or chewing on strange things like soil or wood (called pica). Some animals become restless, aggressive, or show compulsive licking or head-pressing.",
+                  "గమనించదగిన బరువు తగ్గడం, వెన్ను వంచుకుని నిలబడటం, మరియు కొన్నిసార్లు మట్టి లేదా చెక్క వంటి వింత వస్తువులను తినడం లేదా నమలడం (దీన్ని పికా అంటారు). కొన్ని పశువులు చంచలంగా, దూకుడుగా మారతాయి, లేదా పదేపదే నాకడం లేదా తలను గోడకు ఆనించడం చేస్తాయి.",
+                  "கவனிக்கத்தக்க எடை இழப்பு, முதுகு வளைந்த நிலை, மற்றும் சில நேரங்களில் மண் அல்லது மரம் போன்ற விசித்திரமான பொருட்களை உண்ணுதல் அல்லது மெல்லுதல் (பிகா என்று அழைக்கப்படும்). சில விலங்குகள் அமைதியின்மை, ஆக்ரோஷம், அல்லது தொடர்ந்து நக்குதல் அல்லது தலையை அழுத்துதல் காட்டலாம்.",
+                  "ಗಮನಾರ್ಹ ತೂಕ ನಷ್ಟ, ಬೆನ್ನು ಬಾಗಿದ ಭಂಗಿ, ಮತ್ತು ಕೆಲವೊಮ್ಮೆ ಮಣ್ಣು ಅಥವಾ ಮರದಂತಹ ವಿಚಿತ್ರ ವಸ್ತುಗಳನ್ನು ತಿನ್ನುವುದು ಅಥವಾ ಅಗಿಯುವುದು (ಇದನ್ನು ಪಿಕಾ ಎನ್ನುತ್ತಾರೆ). ಕೆಲವು ಪ್ರಾಣಿಗಳು ಚಡಪಡಿಕೆ, ಆಕ್ರಮಣಶೀಲತೆ ತೋರಿಸಬಹುದು, ಅಥವಾ ಪದೇಪದೇ ನೆಕ್ಕುವುದು ಅಥವಾ ತಲೆ ಒತ್ತುವುದನ್ನು ತೋರಿಸಬಹುದು.",
+                  "ध्यान देने लायक वज़न घटना, पीठ झुकाकर खड़ा होना, और कभी-कभी मिट्टी या लकड़ी जैसी अजीब चीज़ें खाना या चबाना (जिसे पिका कहते हैं)। कुछ पशु बेचैन, आक्रामक हो जाते हैं, या बार-बार चाटना या सिर दीवार से टिकाना दिखाते हैं।"
                 ),
               },
               {
-                label: L("Ketosis — advanced signs"),
+                label: L("Ketosis — advanced signs", "కీటోసిస్ — ముదిరిన లక్షణాలు", "கீட்டோசிஸ் — முற்றிய அறிகுறிகள்", "ಕೀಟೋಸಿಸ್ — ಮುಂದುವರಿದ ಲಕ್ಷಣಗಳು", "कीटोसिस — गंभीर लक्षण"),
                 text: L(
-                  "Abnormal walking — staggering, circling, or falling. Left untreated, milk production can drop to almost nothing, and the problem is likely to come back in future lactations too."
+                  "Abnormal walking — staggering, circling, or falling. Left untreated, milk production can drop to almost nothing, and the problem is likely to come back in future lactations too.",
+                  "అసాధారణ నడక — తూలడం, వృత్తాకారంగా తిరగడం, లేదా పడిపోవడం. చికిత్స చేయకపోతే, పాల ఉత్పత్తి దాదాపు శూన్యానికి పడిపోవచ్చు, మరియు ఈ సమస్య తర్వాతి ఈతల్లో కూడా మళ్లీ రావచ్చు.",
+                  "அசாதாரண நடை — தள்ளாடுதல், வட்டமிடுதல், அல்லது விழுதல். சிகிச்சை அளிக்கப்படாவிட்டால், பால் உற்பத்தி கிட்டத்தட்ட பூஜ்ஜியமாகக் குறையலாம், மேலும் இந்த பிரச்சினை எதிர்கால ஈற்றுகளிலும் மீண்டும் வரக்கூடும்.",
+                  "ಅಸಾಮಾನ್ಯ ನಡಿಗೆ — ತೂರಾಡುವುದು, ಸುತ್ತು ಹಾಕುವುದು, ಅಥವಾ ಬೀಳುವುದು. ಚಿಕಿತ್ಸೆ ನೀಡದಿದ್ದರೆ, ಹಾಲಿನ ಉತ್ಪಾದನೆ ಬಹುತೇಕ ಶೂನ್ಯಕ್ಕೆ ಇಳಿಯಬಹುದು, ಮತ್ತು ಈ ಸಮಸ್ಯೆ ಮುಂದಿನ ಕರು ಹಾಕುವಿಕೆಗಳಲ್ಲಿಯೂ ಮರುಕಳಿಸಬಹುದು.",
+                  "असामान्य चाल — लड़खड़ाना, गोल-गोल घूमना, या गिरना। इलाज न होने पर, दूध उत्पादन लगभग शून्य तक गिर सकता है, और यह समस्या आगे के ब्यांतों में भी दोबारा आने की संभावना रहती है।"
                 ),
               },
             ],
@@ -4098,59 +4158,71 @@ export const MODULES = [
           {
             type: "callout",
             style: "tip",
-            heading: L("A Familiar Number: Body Condition Score 3.5"),
+            heading: L("A Familiar Number: Body Condition Score 3.5", "పరిచయమైన సంఖ్య: బాడీ కండిషన్ స్కోర్ 3.5", "பழக்கமான எண்: உடல் நிலை மதிப்பெண் 3.5", "ಪರಿಚಿತ ಸಂಖ್ಯೆ: ಬಾಡಿ ಕಂಡೀಷನ್ ಸ್ಕೋರ್ 3.5", "एक जानी-पहचानी संख्या: बॉडी कंडीशन स्कोर 3.5"),
             text: L(
-              "You already learned Body Condition Score (BCS) in Module 1 — the 1-to-5 scale for how thin or fat an animal is. An animal at about 3.5 BCS at calving has a lower risk of ketosis. Sudden changes in feed, or overfeeding, also raise the risk — which is why steady, proper feeding matters so much in late pregnancy."
+              "You already learned Body Condition Score (BCS) in Module 1 — the 1-to-5 scale for how thin or fat an animal is. An animal at about 3.5 BCS at calving has a lower risk of ketosis. Sudden changes in feed, or overfeeding, also raise the risk — which is why steady, proper feeding matters so much in late pregnancy.",
+              "మీరు మాడ్యూల్ 1లో బాడీ కండిషన్ స్కోర్ (BCS) గురించి ఇప్పటికే నేర్చుకున్నారు — పశువు ఎంత సన్నగా లేదా లావుగా ఉందో చూపే 1 నుండి 5 స్కేల్. ఈనేటప్పుడు దాదాపు 3.5 BCS ఉన్న పశువుకు కీటోసిస్ ప్రమాదం తక్కువగా ఉంటుంది. మేతలో అకస్మాత్తు మార్పులు లేదా అతిగా తినిపించడం కూడా ప్రమాదాన్ని పెంచుతాయి — అందుకే గర్భం చివరి దశలో స్థిరమైన, సరైన మేత చాలా ముఖ్యం.",
+              "மாடியூல் 1-இல் நீங்கள் ஏற்கனவே உடல் நிலை மதிப்பெண் (BCS) பற்றி கற்றுக்கொண்டீர்கள் — விலங்கு எவ்வளவு மெலிந்தது அல்லது கொழுத்தது என்பதைக் காட்டும் 1 முதல் 5 வரையிலான அளவுகோல். ஈன்ற நேரத்தில் சுமார் 3.5 BCS உள்ள விலங்குக்கு கீட்டோசிஸ் ஆபத்து குறைவாக இருக்கும். தீவனத்தில் திடீர் மாற்றங்கள் அல்லது அதிகமாக உணவளிப்பதும் ஆபத்தை அதிகரிக்கும் — அதனால்தான் கர்ப்பத்தின் கடைசி கட்டத்தில் நிலையான, சரியான உணவளிப்பு மிக முக்கியம்.",
+              "ಮಾಡ್ಯೂಲ್ 1ರಲ್ಲಿ ನೀವು ಈಗಾಗಲೇ ಬಾಡಿ ಕಂಡೀಷನ್ ಸ್ಕೋರ್ (BCS) ಬಗ್ಗೆ ಕಲಿತಿದ್ದೀರಿ — ಪ್ರಾಣಿ ಎಷ್ಟು ತೆಳ್ಳಗಿದೆ ಅಥವಾ ದಪ್ಪವಾಗಿದೆ ಎಂಬುದನ್ನು ತೋರಿಸುವ 1ರಿಂದ 5ರವರೆಗಿನ ಪ್ರಮಾಣ. ಕರು ಹಾಕುವ ಸಮಯದಲ್ಲಿ ಸುಮಾರು 3.5 BCS ಇರುವ ಪ್ರಾಣಿಗೆ ಕೀಟೋಸಿಸ್ ಅಪಾಯ ಕಡಿಮೆ ಇರುತ್ತದೆ. ಆಹಾರದಲ್ಲಿ ಹಠಾತ್ ಬದಲಾವಣೆಗಳು, ಅಥವಾ ಅತಿಯಾಗಿ ಆಹಾರ ನೀಡುವುದು ಸಹ ಅಪಾಯವನ್ನು ಹೆಚ್ಚಿಸುತ್ತದೆ — ಆದ್ದರಿಂದ ಗರ್ಭಾವಸ್ಥೆಯ ಕೊನೆಯ ಹಂತದಲ್ಲಿ ಸ್ಥಿರವಾದ, ಸರಿಯಾದ ಆಹಾರ ಬಹಳ ಮುಖ್ಯ.",
+              "आपने मॉड्यूल 1 में बॉडी कंडीशन स्कोर (BCS) के बारे में पहले ही सीखा है — पशु कितना दुबला या मोटा है यह दिखाने वाला 1 से 5 तक का पैमाना। ब्याने के समय लगभग 3.5 BCS वाले पशु में कीटोसिस का खतरा कम होता है। चारे में अचानक बदलाव, या ज़्यादा खिलाना भी खतरा बढ़ाता है — इसलिए गर्भावस्था के अंतिम चरण में स्थिर, सही तरीके से खिलाना बहुत मायने रखता है।"
             ),
           },
           {
             type: "text",
-            heading: L("Fatty Liver Syndrome (Lipidosis)"),
+            heading: L("Fatty Liver Syndrome (Lipidosis)", "ఫ్యాటీ లివర్ సిండ్రోమ్ (లిపిడోసిస్)", "கொழுப்பு கல்லீரல் நோய்க்குறி (லிபிடோசிஸ்)", "ಫ್ಯಾಟಿ ಲಿವರ್ ಸಿಂಡ್ರೋಮ್ (ಲಿಪಿಡೋಸಿಸ್)", "फैटी लिवर सिंड्रोम (लिपिडोसिस)"),
             html: L(
-              "This can start within just 24 hours of an animal going off her feed. As the body breaks down fat for energy, some of that fat gets deposited back into the liver. Confusingly, this can happen even while the cow is visibly losing body condition — the fat is building up inside the liver, not on her body. Cows that were too fat at calving (BCS above 3.5) are much more likely to develop this."
+              "This can start within just 24 hours of an animal going off her feed. As the body breaks down fat for energy, some of that fat gets deposited back into the liver. Confusingly, this can happen even while the cow is visibly losing body condition — the fat is building up inside the liver, not on her body. Cows that were too fat at calving (BCS above 3.5) are much more likely to develop this.",
+              "పశువు మేత తినడం మానేసిన కేవలం 24 గంటల్లోనే ఇది మొదలవ్వచ్చు. శరీరం శక్తి కోసం కొవ్వును కరిగించే క్రమంలో, ఆ కొవ్వులో కొంత భాగం తిరిగి కాలేయంలో పేరుకుపోతుంది. గందరగోళంగా అనిపించినా, ఆవు కనిపించేలా బరువు తగ్గుతున్నప్పుడు కూడా ఇది జరగవచ్చు — కొవ్వు దాని శరీరంపై కాకుండా కాలేయం లోపల పేరుకుపోతూ ఉంటుంది. ఈనేటప్పుడు మరీ లావుగా ఉన్న (BCS 3.5 కంటే ఎక్కువ) ఆవులకు ఇది వచ్చే అవకాశం చాలా ఎక్కువ.",
+              "விலங்கு தீவனம் நிறுத்திய வெறும் 24 மணி நேரத்திற்குள் இது தொடங்கலாம். உடல் ஆற்றலுக்காக கொழுப்பை உடைக்கும் போது, அந்த கொழுப்பில் சிலவை மீண்டும் கல்லீரலில் படிந்துவிடும். குழப்பமாக இருந்தாலும், பசு கண்ணுக்குத் தெரியும் வகையில் உடல் எடை இழந்துகொண்டிருக்கும் போதே இது நடக்கலாம் — கொழுப்பு அதன் உடலில் அல்ல, கல்லீரலுக்குள் சேர்ந்துகொண்டிருக்கும். ஈன்ற நேரத்தில் மிக கொழுப்பாக இருந்த (BCS 3.5-க்கு மேல்) பசுக்களுக்கு இது வருவதற்கான வாய்ப்பு அதிகம்.",
+              "ಪ್ರಾಣಿ ಆಹಾರ ತಿನ್ನುವುದನ್ನು ನಿಲ್ಲಿಸಿದ ಕೇವಲ 24 ಗಂಟೆಗಳಲ್ಲಿ ಇದು ಪ್ರಾರಂಭವಾಗಬಹುದು. ದೇಹವು ಶಕ್ತಿಗಾಗಿ ಕೊಬ್ಬನ್ನು ಒಡೆಯುತ್ತಿರುವಾಗ, ಆ ಕೊಬ್ಬಿನ ಕೆಲವು ಭಾಗ ಮತ್ತೆ ಯಕೃತ್ತಿನಲ್ಲಿ ಸಂಗ್ರಹವಾಗುತ್ತದೆ. ಗೊಂದಲಮಯವಾಗಿ, ಹಸು ಕಣ್ಣಿಗೆ ಕಾಣುವಂತೆ ದೇಹತೂಕ ಕಳೆದುಕೊಳ್ಳುತ್ತಿರುವಾಗಲೂ ಇದು ಸಂಭವಿಸಬಹುದು — ಕೊಬ್ಬು ಅದರ ದೇಹದ ಮೇಲೆ ಅಲ್ಲ, ಯಕೃತ್ತಿನ ಒಳಗೆ ಸಂಗ್ರಹವಾಗುತ್ತಿದೆ. ಕರು ಹಾಕುವ ಸಮಯದಲ್ಲಿ ಬಹಳ ದಪ್ಪವಾಗಿದ್ದ (BCS 3.5ಕ್ಕಿಂತ ಹೆಚ್ಚು) ಹಸುಗಳಿಗೆ ಇದು ಬರುವ ಸಾಧ್ಯತೆ ಹೆಚ್ಚು.",
+              "यह पशु के चारा खाना छोड़ने के मात्र 24 घंटों के भीतर शुरू हो सकता है। जैसे-जैसे शरीर ऊर्जा के लिए चर्बी तोड़ता है, उस चर्बी का कुछ हिस्सा वापस लिवर में जमा हो जाता है। भ्रमित करने वाली बात यह है कि गाय का शरीर स्पष्ट रूप से दुबला होते हुए भी यह हो सकता है — चर्बी उसके शरीर पर नहीं बल्कि लिवर के अंदर जमा हो रही होती है। ब्याने के समय ज़्यादा मोटी (BCS 3.5 से ऊपर) रहीं गायों में यह होने की संभावना कहीं ज़्यादा होती है।"
             ),
           },
           {
             type: "stat-grid",
             items: [
-              { label: L("Fatty Liver — what you may notice"), text: L("Lower milk yield and reduced appetite.") },
+              { label: L("Fatty Liver — what you may notice", "ఫ్యాటీ లివర్ — మీరు గమనించేవి", "கொழுப்பு கல்லீரல் — நீங்கள் கவனிக்கக்கூடியவை", "ಫ್ಯಾಟಿ ಲಿವರ್ — ನೀವು ಗಮನಿಸಬಹುದಾದದ್ದು", "फैटी लिवर — आप क्या देख सकते हैं"), text: L("Lower milk yield and reduced appetite.", "పాల దిగుబడి తగ్గడం మరియు ఆకలి తగ్గడం.", "குறைந்த பால் விளைச்சல் மற்றும் குறைந்த பசி.", "ಕಡಿಮೆ ಹಾಲಿನ ಇಳುವರಿ ಮತ್ತು ಕಡಿಮೆ ಹಸಿವು.", "कम दूध उत्पादन और कम भूख।") },
               {
-                label: L("Fatty Liver — linked risks"),
-                text: L("Animals with fatty liver are more likely to also develop Milk Fever, Ketosis, mastitis, and retained placenta, plus reduced fertility."),
+                label: L("Fatty Liver — linked risks", "ఫ్యాటీ లివర్ — సంబంధిత ప్రమాదాలు", "கொழுப்பு கல்லீரல் — தொடர்புடைய ஆபத்துகள்", "ಫ್ಯಾಟಿ ಲಿವರ್ — ಸಂಬಂಧಿತ ಅಪಾಯಗಳು", "फैटी लिवर — जुड़े हुए खतरे"),
+                text: L("Animals with fatty liver are more likely to also develop Milk Fever, Ketosis, mastitis, and retained placenta, plus reduced fertility.", "ఫ్యాటీ లివర్ ఉన్న పశువులకు మిల్క్ ఫీవర్, కీటోసిస్, మాస్టిటిస్, మావి నిలిచిపోవడం, మరియు గర్భధారణ సామర్థ్యం తగ్గడం వంటివి కూడా వచ్చే అవకాశం ఎక్కువ.", "கொழுப்பு கல்லீரல் உள்ள விலங்குகளுக்கு பால் காய்ச்சல், கீட்டோசிஸ், மேமை அழற்சி, மற்றும் மாயை தங்குதல் ஆகியவை வருவதற்கான வாய்ப்பும், கருவுறும் திறன் குறைவதற்கான வாய்ப்பும் அதிகம்.", "ಫ್ಯಾಟಿ ಲಿವರ್ ಇರುವ ಪ್ರಾಣಿಗಳಿಗೆ ಮಿಲ್ಕ್ ಫೀವರ್, ಕೀಟೋಸಿಸ್, ಕೆಚ್ಚಲುಬಾವು, ಮತ್ತು ಮಾಸು ಉಳಿಯುವಿಕೆ ಸಹ ಬರುವ ಸಾಧ್ಯತೆ ಹೆಚ್ಚು, ಜೊತೆಗೆ ಫಲವತ್ತತೆ ಕಡಿಮೆಯಾಗುತ್ತದೆ.", "फैटी लिवर वाले पशुओं में मिल्क फीवर, कीटोसिस, थनैला, और जेर का रुक जाना होने की संभावना भी ज़्यादा होती है, साथ ही प्रजनन क्षमता भी घट जाती है।"),
               },
               {
-                label: L("Fatty Liver — confirming it"),
-                text: L("It can only be confirmed with a blood test — this is entirely the vet's job, not something you can tell just by looking."),
+                label: L("Fatty Liver — confirming it", "ఫ్యాటీ లివర్ — నిర్ధారించడం", "கொழுப்பு கல்லீரல் — உறுதிப்படுத்துதல்", "ಫ್ಯಾಟಿ ಲಿವರ್ — ಖಚಿತಪಡಿಸುವುದು", "फैटी लिवर — पुष्टि करना"),
+                text: L("It can only be confirmed with a blood test — this is entirely the vet's job, not something you can tell just by looking.", "దీన్ని రక్త పరీక్ష ద్వారానే నిర్ధారించగలం — ఇది పూర్తిగా వైద్యుడి పని, కేవలం చూసి మీరు చెప్పగలిగేది కాదు.", "இதை இரத்த பரிசோதனை மூலம் மட்டுமே உறுதிப்படுத்த முடியும் — இது முழுவதுமாக கால்நடை மருத்துவரின் வேலை, வெறுமனே பார்த்து நீங்கள் சொல்லக்கூடியது அல்ல.", "ಇದನ್ನು ರಕ್ತ ಪರೀಕ್ಷೆಯಿಂದ ಮಾತ್ರ ಖಚಿತಪಡಿಸಬಹುದು — ಇದು ಸಂಪೂರ್ಣವಾಗಿ ಪಶುವೈದ್ಯರ ಕೆಲಸ, ಬರೀ ನೋಡಿ ನೀವು ಹೇಳಬಹುದಾದದ್ದಲ್ಲ.", "इसकी पुष्टि केवल खून की जांच से ही हो सकती है — यह पूरी तरह डॉक्टर का काम है, सिर्फ देखकर आप नहीं बता सकते।"),
               },
             ],
           },
           {
             type: "callout",
             style: "warning",
-            heading: L("There Is No Proven Treatment — Prevention and Early Reporting Matter Most"),
+            heading: L("There Is No Proven Treatment — Prevention and Early Reporting Matter Most", "నిరూపితమైన చికిత్స లేదు — నివారణ మరియు ముందస్తు నివేదిక చాలా ముఖ్యం", "நிரூபிக்கப்பட்ட சிகிச்சை இல்லை — தடுப்பும் முன்கூட்டிய தகவலும் மிக முக்கியம்", "ಸಾಬೀತಾದ ಚಿಕಿತ್ಸೆ ಇಲ್ಲ — ತಡೆಗಟ್ಟುವಿಕೆ ಮತ್ತು ಮುಂಚಿನ ವರದಿ ಬಹಳ ಮುಖ್ಯ", "कोई साबित इलाज नहीं है — रोकथाम और जल्दी सूचना देना सबसे ज़्यादा मायने रखता है"),
             text: L(
-              "Once fat builds up in the liver, it can take more than 10 weeks after calving to clear, and death rates can be high in severe cases. There is no proven treatment for fatty liver, which is exactly why reporting a drop in appetite or milk early — before things worsen — is so important. It also means keeping animals at a healthy body condition (not too fat) well before calving matters far more than trying to fix things afterwards."
+              "Once fat builds up in the liver, it can take more than 10 weeks after calving to clear, and death rates can be high in severe cases. There is no proven treatment for fatty liver, which is exactly why reporting a drop in appetite or milk early — before things worsen — is so important. It also means keeping animals at a healthy body condition (not too fat) well before calving matters far more than trying to fix things afterwards.",
+              "కాలేయంలో కొవ్వు పేరుకుపోయాక, అది తగ్గడానికి ఈనిన తర్వాత 10 వారాలకు మించి పట్టవచ్చు, మరియు తీవ్రమైన కేసుల్లో మరణాల రేటు ఎక్కువగా ఉండవచ్చు. ఫ్యాటీ లివర్‌కు నిరూపితమైన చికిత్స లేదు, అందుకే విషయాలు మరింత దిగజారకముందే ఆకలి లేదా పాలు తగ్గడాన్ని ముందుగానే తెలియజేయడం చాలా ముఖ్యం. అలాగే ఈనేముందే పశువులను ఆరోగ్యకరమైన బరువులో (అతిగా లావు కాకుండా) ఉంచడం, తర్వాత సరిదిద్దడానికి ప్రయత్నించడం కంటే చాలా ముఖ్యమైనది.",
+              "கல்லீரலில் கொழுப்பு படிந்த பிறகு, அது நீங்க ஈன்ற பிறகு 10 வாரங்களுக்கு மேல் ஆகலாம், மேலும் கடுமையான நிலைகளில் இறப்பு விகிதம் அதிகமாக இருக்கலாம். கொழுப்பு கல்லீரலுக்கு நிரூபிக்கப்பட்ட சிகிச்சை இல்லை, அதனால்தான் விஷயங்கள் மோசமடையும் முன்பே பசி அல்லது பாலில் குறைவை முன்கூட்டியே தெரிவிப்பது மிக முக்கியம். ஈன்பதற்கு முன்பே விலங்குகளை ஆரோக்கியமான உடல் நிலையில் (அதிக கொழுப்பு இல்லாமல்) வைத்திருப்பதும், பின்னர் சரிசெய்ய முயற்சிப்பதை விட மிக முக்கியம்.",
+              "ಒಮ್ಮೆ ಯಕೃತ್ತಿನಲ್ಲಿ ಕೊಬ್ಬು ಸಂಗ್ರಹವಾದ ನಂತರ, ಅದು ಕರಗಲು ಕರು ಹಾಕಿದ ನಂತರ 10 ವಾರಗಳಿಗಿಂತ ಹೆಚ್ಚು ಸಮಯ ತೆಗೆದುಕೊಳ್ಳಬಹುದು, ಮತ್ತು ತೀವ್ರ ಪ್ರಕರಣಗಳಲ್ಲಿ ಸಾವಿನ ಪ್ರಮಾಣ ಹೆಚ್ಚಿರಬಹುದು. ಫ್ಯಾಟಿ ಲಿವರ್‌ಗೆ ಸಾಬೀತಾದ ಚಿಕಿತ್ಸೆ ಇಲ್ಲ, ಅದಕ್ಕಾಗಿಯೇ ವಿಷಯಗಳು ಹದಗೆಡುವ ಮೊದಲೇ ಹಸಿವು ಅಥವಾ ಹಾಲು ಕಡಿಮೆಯಾಗುವುದನ್ನು ಬೇಗ ವರದಿ ಮಾಡುವುದು ಬಹಳ ಮುಖ್ಯ. ಕರು ಹಾಕುವ ಮೊದಲೇ ಪ್ರಾಣಿಗಳನ್ನು ಆರೋಗ್ಯಕರ ದೇಹಸ್ಥಿತಿಯಲ್ಲಿ (ಅತಿ ದಪ್ಪ ಇಲ್ಲದೆ) ಇಡುವುದೂ, ನಂತರ ಸರಿಪಡಿಸಲು ಪ್ರಯತ್ನಿಸುವುದಕ್ಕಿಂತ ಹೆಚ್ಚು ಮುಖ್ಯ.",
+              "एक बार लिवर में चर्बी जमा हो जाए, तो उसे साफ होने में ब्याने के बाद 10 हफ्तों से ज़्यादा समय लग सकता है, और गंभीर मामलों में मृत्यु दर ज़्यादा हो सकती है। फैटी लिवर का कोई साबित इलाज नहीं है, इसीलिए भूख या दूध में कमी को हालात बिगड़ने से पहले ही बताना बहुत ज़रूरी है। इसका मतलब यह भी है कि ब्याने से काफी पहले ही पशुओं को सही शरीर स्थिति (बहुत मोटा नहीं) में रखना, बाद में सुधारने की कोशिश करने से कहीं ज़्यादा मायने रखता है।"
             ),
           },
         ],
         check: [
           {
             type: "mcq",
-            q: L("In Ketosis, what usually happens FIRST?"),
+            q: L("In Ketosis, what usually happens FIRST?", "కీటోసిస్‌లో సాధారణంగా మొదట ఏమి జరుగుతుంది?", "கீட்டோசிஸில் பொதுவாக முதலில் என்ன நடக்கும்?", "ಕೀಟೋಸಿಸ್‌ನಲ್ಲಿ ಸಾಮಾನ್ಯವಾಗಿ ಮೊದಲು ಏನಾಗುತ್ತದೆ?", "कीटोसिस में आमतौर पर सबसे पहले क्या होता है?"),
             options: [
-              L("Sudden collapse and convulsions"),
-              L("A slight drop in feed intake and milk production, with tiredness"),
-              L("A very high fever"),
-              L("Sudden swelling of the udder"),
+              L("Sudden collapse and convulsions", "అకస్మాత్తుగా పడిపోవడం మరియు మూర్ఛలు", "திடீர் விழுதல் மற்றும் வலிப்பு", "ಹಠಾತ್ ಕುಸಿತ ಮತ್ತು ಸೆಳೆತ", "अचानक गिरना और दौरे पड़ना"),
+              L("A slight drop in feed intake and milk production, with tiredness", "మేత తీసుకోవడం మరియు పాల ఉత్పత్తిలో కొద్దిగా తగ్గుదల, నీరసంతో పాటు", "தீவன உட்கொள்ளல் மற்றும் பால் உற்பத்தியில் சிறிது குறைவு, சோர்வுடன்", "ಆಹಾರ ಸೇವನೆ ಮತ್ತು ಹಾಲಿನ ಉತ್ಪಾದನೆಯಲ್ಲಿ ಸ್ವಲ್ಪ ಇಳಿಕೆ, ಆಯಾಸದ ಜೊತೆಗೆ", "चारा खाने और दूध उत्पादन में हल्की कमी, साथ में थकान"),
+              L("A very high fever", "చాలా అధిక జ్వరం", "மிக அதிக காய்ச்சல்", "ಬಹಳ ಹೆಚ್ಚಿನ ಜ್ವರ", "बहुत तेज़ बुखार"),
+              L("Sudden swelling of the udder", "పొదుగు అకస్మాత్తుగా వాపు రావడం", "மேமையின் திடீர் வீக்கம்", "ಕೆಚ್ಚಲಿನ ಹಠಾತ್ ಊತ", "थन में अचानक सूजन"),
             ],
             answer: 1,
-            explain: L("Ketosis usually starts quietly — a slight drop in eating and milk, along with tiredness — before it worsens into more dramatic signs."),
+            explain: L("Ketosis usually starts quietly — a slight drop in eating and milk, along with tiredness — before it worsens into more dramatic signs.", "కీటోసిస్ సాధారణంగా నిశ్శబ్దంగా మొదలవుతుంది — తినడం మరియు పాలలో కొద్దిగా తగ్గుదల, నీరసంతో పాటు — తర్వాత మరింత తీవ్రమైన లక్షణాలుగా మారుతుంది.", "கீட்டோசிஸ் பொதுவாக அமைதியாகவே தொடங்கும் — உண்ணுதலிலும் பாலிலும் சிறிது குறைவு, சோர்வுடன் — பின்னர் இது மேலும் தீவிரமான அறிகுறிகளாக மோசமடையும்.", "ಕೀಟೋಸಿಸ್ ಸಾಮಾನ್ಯವಾಗಿ ಮೌನವಾಗಿ ಪ್ರಾರಂಭವಾಗುತ್ತದೆ — ತಿನ್ನುವುದು ಮತ್ತು ಹಾಲಿನಲ್ಲಿ ಸ್ವಲ್ಪ ಇಳಿಕೆ, ಆಯಾಸದ ಜೊತೆಗೆ — ನಂತರ ಇದು ಹೆಚ್ಚು ತೀವ್ರ ಲಕ್ಷಣಗಳಾಗಿ ಹದಗೆಡುತ್ತದೆ.", "कीटोसिस आमतौर पर चुपचाप शुरू होता है — खाने और दूध में हल्की कमी, साथ में थकान — इसके बाद ही यह ज़्यादा गंभीर लक्षणों में बदलता है।"),
           },
           {
             type: "truefalse",
-            q: L("A cow that is too fat at calving time is at higher risk of Fatty Liver Syndrome."),
+            q: L("A cow that is too fat at calving time is at higher risk of Fatty Liver Syndrome.", "ఈనేటప్పుడు మరీ లావుగా ఉన్న ఆవుకు ఫ్యాటీ లివర్ సిండ్రోమ్ ప్రమాదం ఎక్కువ.", "ஈன்ற நேரத்தில் மிக கொழுப்பாக இருக்கும் பசுவுக்கு கொழுப்பு கல்லீரல் நோய்க்குறி ஆபத்து அதிகம்.", "ಕರು ಹಾಕುವ ಸಮಯದಲ್ಲಿ ಬಹಳ ದಪ್ಪವಾಗಿರುವ ಹಸುವಿಗೆ ಫ್ಯಾಟಿ ಲಿವರ್ ಸಿಂಡ್ರೋಮ್ ಅಪಾಯ ಹೆಚ್ಚು.", "ब्याने के समय बहुत मोटी गाय को फैटी लिवर सिंड्रोम का खतरा ज़्यादा होता है।"),
             answer: true,
-            explain: L("Yes — cows with a Body Condition Score above 3.5 at calving are much more prone to fatty liver."),
+            explain: L("Yes — cows with a Body Condition Score above 3.5 at calving are much more prone to fatty liver.", "అవును — ఈనేటప్పుడు బాడీ కండిషన్ స్కోర్ 3.5 కంటే ఎక్కువ ఉన్న ఆవులకు ఫ్యాటీ లివర్ వచ్చే అవకాశం చాలా ఎక్కువ.", "ஆம் — ஈன்ற நேரத்தில் உடல் நிலை மதிப்பெண் 3.5-க்கு மேல் இருக்கும் பசுக்களுக்கு கொழுப்பு கல்லீரல் வருவதற்கான வாய்ப்பு அதிகம்.", "ಹೌದು — ಕರು ಹಾಕುವ ಸಮಯದಲ್ಲಿ ಬಾಡಿ ಕಂಡೀಷನ್ ಸ್ಕೋರ್ 3.5ಕ್ಕಿಂತ ಹೆಚ್ಚಿರುವ ಹಸುಗಳಿಗೆ ಫ್ಯಾಟಿ ಲಿವರ್ ಬರುವ ಸಾಧ್ಯತೆ ಹೆಚ್ಚು.", "हाँ — ब्याने के समय बॉडी कंडीशन स्कोर 3.5 से ज़्यादा वाली गायों में फैटी लिवर होने की संभावना कहीं ज़्यादा होती है।"),
           },
         ],
       },
@@ -4161,50 +4233,50 @@ export const MODULES = [
         {
           topicId: "t-m7-milkfever-magnesium",
           type: "mcq",
-          q: L("Which of these is an EARLY sign of Milk Fever, before the animal goes down?"),
+          q: L("Which of these is an EARLY sign of Milk Fever, before the animal goes down?", "పశువు పడిపోకముందు మిల్క్ ఫీవర్‌కు తొలి లక్షణం ఏది?", "விலங்கு விழுவதற்கு முன், பால் காய்ச்சலின் ஆரம்ப அறிகுறி எது?", "ಪ್ರಾಣಿ ಬೀಳುವ ಮೊದಲು, ಮಿಲ್ಕ್ ಫೀವರ್‌ನ ಆರಂಭಿಕ ಲಕ್ಷಣ ಯಾವುದು?", "पशु के गिरने से पहले, मिल्क फीवर का शुरुआती लक्षण कौन सा है?"),
           options: [
-            L("Fine trembling, ear twitching, and head bobbing"),
-            L("Complete unconsciousness"),
-            L("Lying flat on its side with no eye reflex"),
-            L("A very high body temperature"),
+            L("Fine trembling, ear twitching, and head bobbing", "సన్నని వణుకు, చెవులు అదరడం, తల ఊపడం", "மெல்லிய நடுக்கம், காது துடிப்பு, தலை ஆட்டுதல்", "ಸಣ್ಣ ನಡುಕ, ಕಿವಿ ಅದುರುವಿಕೆ, ತಲೆ ಆಡಿಸುವಿಕೆ", "हल्की कंपकंपी, कान फड़फड़ाना, सिर हिलाना"),
+            L("Complete unconsciousness", "పూర్తిగా స్పృహ కోల్పోవడం", "முழுமையான மயக்கம்", "ಸಂಪೂರ್ಣ ಪ್ರಜ್ಞೆ ತಪ್ಪುವಿಕೆ", "पूरी तरह बेहोश हो जाना"),
+            L("Lying flat on its side with no eye reflex", "కంటికి స్పందన లేకుండా పూర్తిగా పక్కకు వాలిపోవడం", "கண் எதிர்வினை இல்லாமல் முழுவதுமாக பக்கவாட்டில் படுத்தல்", "ಕಣ್ಣಿನ ಪ್ರತಿಕ್ರಿಯೆ ಇಲ್ಲದೆ ಸಂಪೂರ್ಣವಾಗಿ ಪಕ್ಕಕ್ಕೆ ಮಲಗುವುದು", "आँख की प्रतिक्रिया के बिना पूरी तरह करवट लेकर लेट जाना"),
+            L("A very high body temperature", "చాలా ఎక్కువ శరీర ఉష్ణోగ్రత", "மிக அதிக உடல் வெப்பநிலை", "ಬಹಳ ಹೆಚ್ಚಿನ ದೇಹದ ಉಷ್ಣತೆ", "शरीर का बहुत ज़्यादा तापमान"),
           ],
           answer: 0,
-          explain: L("The earliest signs are excitability with fine trembling over the flanks and loins, ear twitching, and head bobbing — well before the animal is unable to stand."),
+          explain: L("The earliest signs are excitability with fine trembling over the flanks and loins, ear twitching, and head bobbing — well before the animal is unable to stand.", "తొలి లక్షణాలు కంగారు, పార్శ్వాలు మరియు నడుము దగ్గర సన్నని వణుకు, చెవులు అదరడం, తల ఊపడం — పశువు నిలబడలేకపోయే స్థితికి చాలా ముందే కనిపిస్తాయి.", "ஆரம்ப அறிகுறிகள் பதற்றம், விலா மற்றும் இடுப்பு பகுதியில் மெல்லிய நடுக்கம், காது துடிப்பு, தலை ஆட்டுதல் — விலங்கு நிற்க முடியாத நிலைக்கு வெகு காலம் முன்பே தோன்றும்.", "ಆರಂಭಿಕ ಲಕ್ಷಣಗಳೆಂದರೆ ಆತಂಕ, ಪಕ್ಕೆ ಮತ್ತು ಸೊಂಟದ ಬಳಿ ಸಣ್ಣ ನಡುಕ, ಕಿವಿ ಅದುರುವಿಕೆ, ತಲೆ ಆಡಿಸುವಿಕೆ — ಪ್ರಾಣಿ ನಿಲ್ಲಲಾಗದ ಸ್ಥಿತಿಗಿಂತ ಬಹಳ ಮೊದಲೇ ಕಾಣಿಸಿಕೊಳ್ಳುತ್ತವೆ.", "सबसे शुरुआती लक्षण हैं बेचैनी, कमर और बाजू में हल्की कंपकंपी, कान फड़फड़ाना, सिर हिलाना — यह सब पशु के खड़ा न हो पाने की स्थिति से बहुत पहले दिखते हैं।"),
         },
         {
           topicId: "t-m7-milkfever-magnesium",
           type: "truefalse",
-          q: L("Hypomagnesaemia can cause an animal to fall with severe convulsions that repeat at short intervals."),
+          q: L("Hypomagnesaemia can cause an animal to fall with severe convulsions that repeat at short intervals.", "హైపోమాగ్నీసీమియా వల్ల పశువు తరచుగా పునరావృతమయ్యే తీవ్రమైన మూర్ఛలతో పడిపోవచ్చు.", "ஹைபோமேக்னீசீமியா, விலங்கு அடிக்கடி மீண்டும் வரும் கடுமையான வலிப்புடன் விழக் காரணமாகலாம்.", "ಹೈಪೋಮ್ಯಾಗ್ನೀಸೀಮಿಯಾ ಪ್ರಾಣಿಯನ್ನು ಆಗಾಗ ಮರುಕಳಿಸುವ ತೀವ್ರ ಸೆಳೆತಗಳೊಂದಿಗೆ ಬೀಳಿಸಬಹುದು.", "हाइपोमैग्नीसीमिया पशु को बार-बार आने वाले तेज़ दौरों के साथ गिरा सकता है।"),
           answer: true,
-          explain: L("Yes — in its sudden form, the animal throws up its head, bellows, gallops, and falls with paddling convulsions that repeat every short while."),
+          explain: L("Yes — in its sudden form, the animal throws up its head, bellows, gallops, and falls with paddling convulsions that repeat every short while.", "అవును — దీని తీవ్రమైన రూపంలో, పశువు తలను పైకి విసిరి, అరుస్తూ, పరుగెత్తి, కాళ్లు కొట్టుకునే మూర్ఛలతో పడిపోతుంది, ఇది కొద్ది సమయానికి ఒకసారి పునరావృతం అవుతుంది.", "ஆம் — இதன் திடீர் வடிவத்தில், விலங்கு தலையை மேலே தூக்கி, கத்தி, ஓடி, கால் உதைக்கும் வலிப்புடன் விழுகிறது, இது அடிக்கடி மீண்டும் வரும்.", "ಹೌದು — ಇದರ ಹಠಾತ್ ರೂಪದಲ್ಲಿ, ಪ್ರಾಣಿ ತಲೆಯನ್ನು ಮೇಲಕ್ಕೆತ್ತಿ, ಕೂಗುತ್ತಾ, ಓಡಿ, ಕಾಲು ಒದೆಯುವ ಸೆಳೆತಗಳೊಂದಿಗೆ ಬೀಳುತ್ತದೆ, ಇದು ಸ್ವಲ್ಪ ಸಮಯಕ್ಕೊಮ್ಮೆ ಮರುಕಳಿಸುತ್ತದೆ.", "हाँ — इसके अचानक होने वाले रूप में, पशु सिर उठाकर, चिल्लाकर, दौड़कर, पैर पटकने वाले दौरों के साथ गिर जाता है, जो थोड़ी-थोड़ी देर में बार-बार आते हैं।"),
         },
         {
           topicId: "t-m7-ketosis-fattyliver",
           type: "mcq",
-          q: L("What Body Condition Score at calving is linked to a LOWER risk of Ketosis and Fatty Liver?"),
-          options: [L("About 1.0 (very thin)"), L("About 3.5"), L("About 5.0 (very fat)"), L("Body Condition Score makes no difference"),],
+          q: L("What Body Condition Score at calving is linked to a LOWER risk of Ketosis and Fatty Liver?", "ఈనేటప్పుడు ఏ బాడీ కండిషన్ స్కోర్ ఉంటే కీటోసిస్ మరియు ఫ్యాటీ లివర్ ప్రమాదం తక్కువగా ఉంటుంది?", "ஈன்ற நேரத்தில் எந்த உடல் நிலை மதிப்பெண் கீட்டோசிஸ் மற்றும் கொழுப்பு கல்லீரல் ஆபத்தை குறைவாக்குகிறது?", "ಕರು ಹಾಕುವ ಸಮಯದಲ್ಲಿ ಯಾವ ಬಾಡಿ ಕಂಡೀಷನ್ ಸ್ಕೋರ್ ಕೀಟೋಸಿಸ್ ಮತ್ತು ಫ್ಯಾಟಿ ಲಿವರ್ ಅಪಾಯವನ್ನು ಕಡಿಮೆ ಮಾಡುತ್ತದೆ?", "ब्याने के समय कौन सा बॉडी कंडीशन स्कोर कीटोसिस और फैटी लिवर के कम खतरे से जुड़ा है?"),
+          options: [L("About 1.0 (very thin)", "సుమారు 1.0 (చాలా సన్నగా)", "சுமார் 1.0 (மிக மெலிந்தது)", "ಸುಮಾರು 1.0 (ಬಹಳ ತೆಳ್ಳಗೆ)", "लगभग 1.0 (बहुत दुबला)"), L("About 3.5", "సుమారు 3.5", "சுமார் 3.5", "ಸುಮಾರು 3.5", "लगभग 3.5"), L("About 5.0 (very fat)", "సుమారు 5.0 (చాలా లావు)", "சுமார் 5.0 (மிக கொழுப்பு)", "ಸುಮಾರು 5.0 (ಬಹಳ ದಪ್ಪ)", "लगभग 5.0 (बहुत मोटा)"), L("Body Condition Score makes no difference", "బాడీ కండిషన్ స్కోర్ వల్ల తేడా ఉండదు", "உடல் நிலை மதிப்பெண் எந்த வித்தியாசத்தையும் ஏற்படுத்தாது", "ಬಾಡಿ ಕಂಡೀಷನ್ ಸ್ಕೋರ್‌ನಿಂದ ಯಾವುದೇ ವ್ಯತ್ಯಾಸವಿಲ್ಲ", "बॉडी कंडीशन स्कोर से कोई फर्क नहीं पड़ता"),],
           answer: 1,
-          explain: L("A Body Condition Score of about 3.5 at calving is linked to lower risk — both being too thin and being too fat raise the risk of these problems."),
+          explain: L("A Body Condition Score of about 3.5 at calving is linked to lower risk — both being too thin and being too fat raise the risk of these problems.", "ఈనేటప్పుడు సుమారు 3.5 బాడీ కండిషన్ స్కోర్ తక్కువ ప్రమాదంతో ముడిపడి ఉంటుంది — మరీ సన్నగా లేదా మరీ లావుగా ఉండటం రెండూ ఈ సమస్యల ప్రమాదాన్ని పెంచుతాయి.", "ஈன்ற நேரத்தில் சுமார் 3.5 உடல் நிலை மதிப்பெண் குறைந்த ஆபத்துடன் தொடர்புடையது — மிக மெலிந்திருப்பதும் மிக கொழுப்பாக இருப்பதும் இந்த பிரச்சினைகளின் ஆபத்தை அதிகரிக்கும்.", "ಕರು ಹಾಕುವ ಸಮಯದಲ್ಲಿ ಸುಮಾರು 3.5 ಬಾಡಿ ಕಂಡೀಷನ್ ಸ್ಕೋರ್ ಕಡಿಮೆ ಅಪಾಯದೊಂದಿಗೆ ಸಂಬಂಧಿಸಿದೆ — ಬಹಳ ತೆಳ್ಳಗಿರುವುದು ಮತ್ತು ಬಹಳ ದಪ್ಪವಾಗಿರುವುದು ಎರಡೂ ಈ ಸಮಸ್ಯೆಗಳ ಅಪಾಯವನ್ನು ಹೆಚ್ಚಿಸುತ್ತವೆ.", "ब्याने के समय लगभग 3.5 का बॉडी कंडीशन स्कोर कम खतरे से जुड़ा है — बहुत दुबला होना और बहुत मोटा होना, दोनों ही इन समस्याओं का खतरा बढ़ाते हैं।"),
         },
         {
           topicId: "t-m7-ketosis-fattyliver",
           type: "truefalse",
-          q: L("Fatty Liver Syndrome can be confirmed just by watching the animal, without any test."),
+          q: L("Fatty Liver Syndrome can be confirmed just by watching the animal, without any test.", "ఫ్యాటీ లివర్ సిండ్రోమ్‌ను ఎలాంటి పరీక్ష లేకుండా కేవలం చూసి నిర్ధారించవచ్చు.", "கொழுப்பு கல்லீரல் நோய்க்குறியை எந்த பரிசோதனையும் இல்லாமல் வெறுமனே பார்த்து உறுதிப்படுத்த முடியும்.", "ಫ್ಯಾಟಿ ಲಿವರ್ ಸಿಂಡ್ರೋಮ್ ಅನ್ನು ಯಾವುದೇ ಪರೀಕ್ಷೆ ಇಲ್ಲದೆ ಕೇವಲ ನೋಡಿ ಖಚಿತಪಡಿಸಬಹುದು.", "फैटी लिवर सिंड्रोम की पुष्टि बिना किसी जांच के, सिर्फ पशु को देखकर की जा सकती है।"),
           answer: false,
-          explain: L("No — it can only be confirmed with a blood test. Your role is to notice signs like lower milk yield or poor appetite and report them, not to confirm the disease yourself."),
+          explain: L("No — it can only be confirmed with a blood test. Your role is to notice signs like lower milk yield or poor appetite and report them, not to confirm the disease yourself.", "కాదు — దీన్ని రక్త పరీక్ష ద్వారానే నిర్ధారించగలం. మీ పని పాల దిగుబడి తగ్గడం లేదా ఆకలి తగ్గడం వంటి లక్షణాలను గమనించి తెలియజేయడమే, స్వయంగా వ్యాధిని నిర్ధారించడం కాదు.", "இல்லை — இதை இரத்த பரிசோதனை மூலம் மட்டுமே உறுதிப்படுத்த முடியும். உங்கள் வேலை பால் விளைச்சல் குறைவு அல்லது பசியின்மை போன்ற அறிகுறிகளை கவனித்து தெரிவிப்பது, நோயை நீங்களே உறுதிப்படுத்துவது அல்ல.", "ಇಲ್ಲ — ಇದನ್ನು ರಕ್ತ ಪರೀಕ್ಷೆಯಿಂದ ಮಾತ್ರ ಖಚಿತಪಡಿಸಬಹುದು. ನಿಮ್ಮ ಕೆಲಸ ಕಡಿಮೆ ಹಾಲಿನ ಇಳುವರಿ ಅಥವಾ ಕಡಿಮೆ ಹಸಿವಿನಂತಹ ಲಕ್ಷಣಗಳನ್ನು ಗಮನಿಸಿ ವರದಿ ಮಾಡುವುದು, ರೋಗವನ್ನು ನೀವೇ ಖಚಿತಪಡಿಸುವುದಲ್ಲ.", "नहीं — इसकी पुष्टि केवल खून की जांच से ही हो सकती है। आपका काम दूध उत्पादन में कमी या भूख कम लगने जैसे लक्षण देखकर बताना है, बीमारी की खुद पुष्टि करना नहीं।"),
         },
         {
           topicId: "t-m7-milkfever-magnesium",
           type: "mcq",
-          q: L("You notice an animal a day after calving trembling slightly and twitching its ears. What should you do?"),
+          q: L("You notice an animal a day after calving trembling slightly and twitching its ears. What should you do?", "ఈనిన ఒక రోజు తర్వాత పశువు కొద్దిగా వణుకుతూ, చెవులు అదిరిస్తూ ఉండటం మీరు గమనించారు. మీరు ఏమి చేయాలి?", "ஈன்ற ஒரு நாள் கழித்து விலங்கு சிறிதாக நடுங்குவதையும் காதுகளை துடிப்பதையும் நீங்கள் கவனிக்கிறீர்கள். நீங்கள் என்ன செய்ய வேண்டும்?", "ಕರು ಹಾಕಿದ ಒಂದು ದಿನದ ನಂತರ ಪ್ರಾಣಿ ಸ್ವಲ್ಪ ನಡುಗುತ್ತಿರುವುದನ್ನು ಮತ್ತು ಕಿವಿ ಅದುರುತ್ತಿರುವುದನ್ನು ನೀವು ಗಮನಿಸುತ್ತೀರಿ. ನೀವು ಏನು ಮಾಡಬೇಕು?", "ब्याने के एक दिन बाद आप देखते हैं कि पशु हल्का कांप रहा है और कान फड़फड़ा रहा है। आपको क्या करना चाहिए?"),
           options: [
-            L("Wait to see if she collapses before telling anyone"),
-            L("Report it the same day, since this can be an early sign of Milk Fever"),
-            L("Milk her completely right away"),
-            L("Do nothing — trembling is always normal after calving"),
+            L("Wait to see if she collapses before telling anyone", "ఆమె పడిపోతుందో లేదో చూడటానికి ఎవరికీ చెప్పకుండా వేచి ఉండండి", "யாருக்கும் சொல்லாமல் அவள் விழுகிறாளா என்று பார்க்க காத்திருங்கள்", "ಅವಳು ಬೀಳುತ್ತಾಳೋ ಎಂದು ನೋಡಲು ಯಾರಿಗೂ ಹೇಳದೆ ಕಾಯಿರಿ", "किसी को बताने से पहले यह देखने के लिए इंतज़ार करें कि वह गिरती है या नहीं"),
+            L("Report it the same day, since this can be an early sign of Milk Fever", "అదే రోజు తెలియజేయండి, ఎందుకంటే ఇది మిల్క్ ఫీవర్‌కు తొలి లక్షణం కావచ్చు", "இதே நாளில் தெரிவிக்கவும், ஏனெனில் இது பால் காய்ச்சலின் ஆரம்ப அறிகுறியாக இருக்கலாம்", "ಇದೇ ದಿನ ವರದಿ ಮಾಡಿ, ಏಕೆಂದರೆ ಇದು ಮಿಲ್ಕ್ ಫೀವರ್‌ನ ಆರಂಭಿಕ ಲಕ್ಷಣವಾಗಿರಬಹುದು", "उसी दिन बताएं, क्योंकि यह मिल्क फीवर का शुरुआती लक्षण हो सकता है"),
+            L("Milk her completely right away", "వెంటనే ఆమెను పూర్తిగా పితకండి", "உடனடியாக அவளை முழுவதுமாக பால் கறக்கவும்", "ತಕ್ಷಣ ಅವಳನ್ನು ಸಂಪೂರ್ಣವಾಗಿ ಹಾಲು ಕರೆಯಿರಿ", "उसका तुरंत पूरा दूध निकाल लें"),
+            L("Do nothing — trembling is always normal after calving", "ఏమీ చేయవద్దు — ఈనిన తర్వాత వణుకు ఎప్పుడూ సాధారణమే", "ஒன்றும் செய்ய வேண்டாம் — ஈன்ற பிறகு நடுக்கம் எப்போதும் இயல்பானது", "ಏನೂ ಮಾಡಬೇಡಿ — ಕರು ಹಾಕಿದ ನಂತರ ನಡುಕ ಯಾವಾಗಲೂ ಸಾಮಾನ್ಯ", "कुछ न करें — ब्याने के बाद कांपना हमेशा सामान्य होता है"),
           ],
           answer: 1,
-          explain: L("These are classic early signs of Milk Fever. Reporting immediately gives the vet the best chance to treat it before the animal goes down."),
+          explain: L("These are classic early signs of Milk Fever. Reporting immediately gives the vet the best chance to treat it before the animal goes down.", "ఇవి మిల్క్ ఫీవర్‌కు విలక్షణమైన తొలి లక్షణాలు. వెంటనే తెలియజేస్తే పశువు పడిపోకముందే వైద్యుడు చికిత్స చేయడానికి మంచి అవకాశం ఉంటుంది.", "இவை பால் காய்ச்சலின் பொதுவான ஆரம்ப அறிகுறிகள். உடனடியாக தெரிவிப்பது, விலங்கு விழுவதற்கு முன் கால்நடை மருத்துவர் சிகிச்சை அளிக்க சிறந்த வாய்ப்பை அளிக்கும்.", "ಇವು ಮಿಲ್ಕ್ ಫೀವರ್‌ನ ವಿಶಿಷ್ಟ ಆರಂಭಿಕ ಲಕ್ಷಣಗಳು. ತಕ್ಷಣ ವರದಿ ಮಾಡುವುದರಿಂದ ಪ್ರಾಣಿ ಬೀಳುವ ಮೊದಲೇ ಪಶುವೈದ್ಯರಿಗೆ ಚಿಕಿತ್ಸೆ ನೀಡಲು ಉತ್ತಮ ಅವಕಾಶ ಸಿಗುತ್ತದೆ.", "ये मिल्क फीवर के सामान्य शुरुआती लक्षण हैं। तुरंत बताने से डॉक्टर को पशु के गिरने से पहले इलाज करने का सबसे अच्छा मौका मिलता है।"),
         },
       ],
     },
