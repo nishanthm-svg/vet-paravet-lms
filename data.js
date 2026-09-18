@@ -9537,69 +9537,173 @@ export const MODULES = [
       },
       {
         id: "t-m15-silage",
-        title: L("Turning Surplus Fodder into Silage"),
+        title: L(
+          "Turning Surplus Fodder into Silage",
+          "మిగులు మేతను సైలేజ్‌గా మార్చడం",
+          "உபரி தீவனத்தை சைலேஜாக மாற்றுதல்",
+          "ಹೆಚ್ಚುವರಿ ಮೇವನ್ನು ಸೈಲೇಜ್ ಆಗಿ ಪರಿವರ್ತಿಸುವುದು",
+          "अतिरिक्त चारे को साइलेज में बदलना"
+        ),
         teach: [
             {
               type: "photo",
               src: "assets/photo-m15-silage.jpg",
-              alt: L("A large silage pit on a farm, completely covered and sealed with black plastic sheeting weighted down at the edges"),
-              caption: L("A silage pit sealed airtight with plastic sheeting — the same basic idea described in this lesson."),
+              alt: L(
+                "A large silage pit on a farm, completely covered and sealed with black plastic sheeting weighted down at the edges",
+                "ఒక ఫారంలో పెద్ద సైలేజ్ గొయ్యి, పూర్తిగా నల్ల ప్లాస్టిక్ షీటుతో కప్పి, అంచుల వద్ద బరువుతో సీలు చేసినది",
+                "ஒரு பண்ணையில் உள்ள பெரிய சைலேஜ் குழி, முழுவதுமாக கருப்பு பிளாஸ்டிக் தாளால் மூடி, விளிம்புகளில் எடையிட்டு அடைக்கப்பட்டுள்ளது",
+                "ಒಂದು ಫಾರ್ಮ್‌ನಲ್ಲಿರುವ ದೊಡ್ಡ ಸೈಲೇಜ್ ಗುಂಡಿ, ಸಂಪೂರ್ಣವಾಗಿ ಕಪ್ಪು ಪ್ಲಾಸ್ಟಿಕ್ ಹಾಳೆಯಿಂದ ಮುಚ್ಚಿ, ಅಂಚುಗಳಲ್ಲಿ ತೂಕ ಹಾಕಿ ಮುಚ್ಚಲಾಗಿದೆ",
+                "एक फार्म पर बड़ा साइलेज गड्ढा, पूरी तरह से काली प्लास्टिक शीट से ढका और किनारों पर वजन डालकर सील किया गया"
+              ),
+              caption: L(
+                "A silage pit sealed airtight with plastic sheeting — the same basic idea described in this lesson.",
+                "ప్లాస్టిక్ షీటుతో గాలి చొరబడకుండా సీలు చేసిన సైలేజ్ గొయ్యి — ఈ పాఠంలో వివరించిన అదే ప్రాథమిక ఆలోచన.",
+                "பிளாஸ்டிக் தாளால் காற்று புகாமல் அடைக்கப்பட்ட சைலேஜ் குழி — இந்தப் பாடத்தில் விளக்கப்பட்ட அதே அடிப்படைக் கருத்து.",
+                "ಪ್ಲಾಸ್ಟಿಕ್ ಹಾಳೆಯಿಂದ ಗಾಳಿ ಸೇರದಂತೆ ಮುಚ್ಚಿದ ಸೈಲೇಜ್ ಗುಂಡಿ — ಈ ಪಾಠದಲ್ಲಿ ವಿವರಿಸಿದ ಅದೇ ಮೂಲ ಕಲ್ಪನೆ.",
+                "प्लास्टिक शीट से हवा-रोधी सील किया गया साइलेज गड्ढा — इस पाठ में बताया गया वही मूल विचार।"
+              ),
             },
           {
             type: "glossary",
-            term: L("Silage"),
+            term: L("Silage", "సైలేజ్", "சைலேஜ்", "ಸೈಲೇಜ್", "साइलेज"),
             meaning: L(
-              "Green fodder that has been packed tightly and sealed away from air, so it 'pickles' rather than rots. It is sometimes described simply as the pickle of green fodder — it stays soft, moist and highly digestible, and can be stored for a long time this way."
+              "Green fodder that has been packed tightly and sealed away from air, so it 'pickles' rather than rots. It is sometimes described simply as the pickle of green fodder — it stays soft, moist and highly digestible, and can be stored for a long time this way.",
+              "గట్టిగా అదిమి, గాలి తగలకుండా మూసి ఉంచిన పచ్చి మేత, తద్వారా ఇది కుళ్లిపోకుండా 'ఊరగాయలా' మారుతుంది. దీన్ని కొన్నిసార్లు పచ్చి మేత యొక్క ఊరగాయగా వర్ణిస్తారు — ఇది మెత్తగా, తేమగా మరియు సులభంగా జీర్ణమయ్యేలా ఉంటుంది, మరియు ఈ విధంగా చాలా కాలం నిల్వ ఉంచవచ్చు.",
+              "இறுக்கமாக அடைத்து, காற்று படாமல் மூடி வைக்கப்பட்ட பசுந்தீவனம், இதனால் இது அழுகாமல் 'ஊறுகாய்' போல மாறுகிறது. இதை சில நேரங்களில் பசுந்தீவனத்தின் ஊறுகாய் என்று எளிமையாக விவரிக்கப்படுகிறது — இது மென்மையாகவும், ஈரமாகவும், எளிதில் செரிமானமாகக்கூடியதாகவும் இருக்கும், மேலும் இந்த வழியில் நீண்ட காலம் சேமிக்க முடியும்.",
+              "ಬಿಗಿಯಾಗಿ ಒತ್ತಿ, ಗಾಳಿ ಸೇರದಂತೆ ಮುಚ್ಚಿದ ಹಸಿರು ಮೇವು, ಇದರಿಂದ ಇದು ಕೊಳೆಯುವ ಬದಲು 'ಉಪ್ಪಿನಕಾಯಿ'ಯಂತೆ ಆಗುತ್ತದೆ. ಇದನ್ನು ಕೆಲವೊಮ್ಮೆ ಹಸಿರು ಮೇವಿನ ಉಪ್ಪಿನಕಾಯಿ ಎಂದು ಸರಳವಾಗಿ ವಿವರಿಸಲಾಗುತ್ತದೆ — ಇದು ಮೃದುವಾಗಿ, ತೇವವಾಗಿ, ಸುಲಭವಾಗಿ ಜೀರ್ಣವಾಗುವಂತೆ ಇರುತ್ತದೆ, ಮತ್ತು ಈ ರೀತಿ ದೀರ್ಘಕಾಲ ಸಂಗ್ರಹಿಸಬಹುದು.",
+              "कसकर दबाकर और हवा से बचाकर सील किया गया हरा चारा, जिससे यह सड़ने के बजाय 'अचार' जैसा बन जाता है। इसे कभी-कभी हरे चारे का अचार भी कहा जाता है — यह मुलायम, नम और आसानी से पचने योग्य बना रहता है, और इस तरह लंबे समय तक सुरक्षित रखा जा सकता है।"
             ),
           },
           {
             type: "text",
-            heading: L("How Silage Is Different From Hay"),
+            heading: L(
+              "How Silage Is Different From Hay",
+              "సైలేజ్ ఎండుమేత నుండి ఎలా భిన్నంగా ఉంటుంది",
+              "சைலேஜ் உலர் தீவனத்திலிருந்து எப்படி வேறுபடுகிறது",
+              "ಸೈಲೇಜ್ ಒಣ ಮೇವಿನಿಂದ ಹೇಗೆ ಭಿನ್ನವಾಗಿದೆ",
+              "साइलेज सूखे चारे से कैसे अलग है"
+            ),
             html: L(
-              "Unlike hay, silage is not dried out — it is made from green fodder that is still fairly moist when cut, then packed down tightly with the air pressed out. Cereal-type fodder crops (crops richer in carbohydrates and sugars) generally make the best silage. After cutting, the fodder is chopped into small pieces, which helps it pack down tightly with very little air trapped inside."
+              "Unlike hay, silage is not dried out — it is made from green fodder that is still fairly moist when cut, then packed down tightly with the air pressed out. Cereal-type fodder crops (crops richer in carbohydrates and sugars) generally make the best silage. After cutting, the fodder is chopped into small pieces, which helps it pack down tightly with very little air trapped inside.",
+              "ఎండుమేత లాగా కాకుండా, సైలేజ్‌ను ఎండబెట్టరు — దీన్ని కోసినప్పుడు ఇంకా బాగా తేమగా ఉండే పచ్చి మేత నుండి తయారు చేస్తారు, తర్వాత గాలిని బయటకు నెట్టి గట్టిగా అదిమిపెడతారు. తృణధాన్య రకం మేత పంటలు (కార్బోహైడ్రేట్లు మరియు చక్కెరలు ఎక్కువగా ఉండే పంటలు) సాధారణంగా ఉత్తమమైన సైలేజ్‌ను ఇస్తాయి. కోసిన తర్వాత, మేతను చిన్న ముక్కలుగా కోస్తారు, ఇది లోపల చాలా తక్కువ గాలి చిక్కుకుని గట్టిగా అదిమిపెట్టడానికి సహాయపడుతుంది.",
+              "உலர் தீவனத்தைப் போலல்லாமல், சைலேஜ் காயவைக்கப்படுவதில்லை — இது அறுவடை செய்யும் போது இன்னும் நல்ல ஈரமாக இருக்கும் பசுந்தீவனத்திலிருந்து தயாரிக்கப்பட்டு, பின்னர் காற்றை வெளியேற்றி இறுக்கமாக அடைக்கப்படுகிறது. தானிய வகை தீவனப் பயிர்கள் (கார்போஹைட்ரேட் மற்றும் சர்க்கரை அதிகமுள்ள பயிர்கள்) பொதுவாக சிறந்த சைலேஜைத் தரும். அறுவடைக்குப் பிறகு, தீவனம் சிறு துண்டுகளாக நறுக்கப்படுகிறது, இது உள்ளே மிகக் குறைவான காற்று சிக்கியவாறு இறுக்கமாக அடைக்க உதவுகிறது.",
+              "ಒಣ ಮೇವಿಗಿಂತ ಭಿನ್ನವಾಗಿ, ಸೈಲೇಜ್ ಒಣಗಿಸುವುದಿಲ್ಲ — ಇದನ್ನು ಕೊಯ್ಲು ಮಾಡುವಾಗ ಇನ್ನೂ ಸಾಕಷ್ಟು ತೇವವಾಗಿರುವ ಹಸಿರು ಮೇವಿನಿಂದ ತಯಾರಿಸಲಾಗುತ್ತದೆ, ನಂತರ ಗಾಳಿಯನ್ನು ಹೊರಹಾಕಿ ಬಿಗಿಯಾಗಿ ಒತ್ತಲಾಗುತ್ತದೆ. ಧಾನ್ಯ ಮಾದರಿಯ ಮೇವಿನ ಬೆಳೆಗಳು (ಕಾರ್ಬೋಹೈಡ್ರೇಟ್ ಮತ್ತು ಸಕ್ಕರೆ ಹೆಚ್ಚಿರುವ ಬೆಳೆಗಳು) ಸಾಮಾನ್ಯವಾಗಿ ಅತ್ಯುತ್ತಮ ಸೈಲೇಜ್ ನೀಡುತ್ತವೆ. ಕೊಯ್ಲಿನ ನಂತರ, ಮೇವನ್ನು ಸಣ್ಣ ತುಂಡುಗಳಾಗಿ ಕತ್ತರಿಸಲಾಗುತ್ತದೆ, ಇದು ಒಳಗೆ ಬಹಳ ಕಡಿಮೆ ಗಾಳಿ ಸಿಕ್ಕಿಕೊಂಡು ಬಿಗಿಯಾಗಿ ಒತ್ತಲು ಸಹಾಯ ಮಾಡುತ್ತದೆ.",
+              "सूखे चारे के विपरीत, साइलेज को सुखाया नहीं जाता — यह ऐसे हरे चारे से बनाया जाता है जो काटते समय अभी भी काफी नम होता है, फिर हवा को बाहर निकालकर कसकर दबाया जाता है। अनाज-प्रकार की चारा फसलें (कार्बोहाइड्रेट और शर्करा में अधिक फसलें) आमतौर पर सबसे अच्छा साइलेज बनाती हैं। काटने के बाद, चारे को छोटे टुकड़ों में काटा जाता है, जिससे अंदर बहुत कम हवा फंसते हुए कसकर दबाना आसान होता है।"
             ),
           },
           {
             type: "glossary",
-            term: L("Silo Pit"),
+            term: L("Silo Pit", "సైలో గొయ్యి", "சைலோ குழி", "ಸೈಲೋ ಗುಂಡಿ", "साइलो गड्ढा"),
             meaning: L(
-              "A pit or heap built specifically for making silage. Chopped green fodder is filled into it in pressed-down layers, then sealed completely airtight from the top, usually with a plastic sheet and a layer of packed soil."
+              "A pit or heap built specifically for making silage. Chopped green fodder is filled into it in pressed-down layers, then sealed completely airtight from the top, usually with a plastic sheet and a layer of packed soil.",
+              "సైలేజ్ తయారు చేయడానికి ప్రత్యేకంగా నిర్మించిన గొయ్యి లేదా కుప్ప. చిన్న ముక్కలుగా కోసిన పచ్చి మేతను అదిమిపెట్టిన పొరలుగా దీనిలో నింపుతారు, తర్వాత సాధారణంగా ప్లాస్టిక్ షీట్ మరియు అదిమిన మట్టి పొరతో పైనుండి పూర్తిగా గాలి చొరబడకుండా మూసేస్తారు.",
+              "சைலேஜ் தயாரிக்க குறிப்பாக கட்டப்பட்ட குழி அல்லது குவியல். சிறு துண்டுகளாக நறுக்கிய பசுந்தீவனம் அழுத்தப்பட்ட அடுக்குகளாக இதில் நிரப்பப்படுகிறது, பின்னர் பொதுவாக பிளாஸ்டிக் தாள் மற்றும் அழுத்திய மண் அடுக்கால் மேலிருந்து முழுவதுமாக காற்று புகாமல் மூடப்படுகிறது.",
+              "ಸೈಲೇಜ್ ತಯಾರಿಸಲು ವಿಶೇಷವಾಗಿ ನಿರ್ಮಿಸಿದ ಗುಂಡಿ ಅಥವಾ ರಾಶಿ. ಸಣ್ಣ ತುಂಡುಗಳಾಗಿ ಕತ್ತರಿಸಿದ ಹಸಿರು ಮೇವನ್ನು ಒತ್ತಿದ ಪದರಗಳಾಗಿ ಇದರಲ್ಲಿ ತುಂಬಿಸಲಾಗುತ್ತದೆ, ನಂತರ ಸಾಮಾನ್ಯವಾಗಿ ಪ್ಲಾಸ್ಟಿಕ್ ಹಾಳೆ ಮತ್ತು ಒತ್ತಿದ ಮಣ್ಣಿನ ಪದರದಿಂದ ಮೇಲಿನಿಂದ ಸಂಪೂರ್ಣವಾಗಿ ಗಾಳಿ ಸೇರದಂತೆ ಮುಚ್ಚಲಾಗುತ್ತದೆ.",
+              "साइलेज बनाने के लिए विशेष रूप से बनाया गया गड्ढा या ढेर। छोटे टुकड़ों में कटा हरा चारा इसमें दबाई गई परतों में भरा जाता है, फिर आमतौर पर प्लास्टिक शीट और दबी हुई मिट्टी की परत से ऊपर से पूरी तरह हवा-रोधी सील किया जाता है।"
             ),
           },
           {
             type: "text",
-            heading: L("Why Sealing It Airtight Matters"),
+            heading: L(
+              "Why Sealing It Airtight Matters",
+              "గాలి చొరబడకుండా మూసివేయడం ఎందుకు ముఖ్యం",
+              "காற்று புகாமல் மூடுவது ஏன் முக்கியம்",
+              "ಗಾಳಿ ಸೇರದಂತೆ ಮುಚ್ಚುವುದು ಏಕೆ ಮುಖ್ಯ",
+              "हवा-रोधी सील करना क्यों जरूरी है"
+            ),
             html: L(
-              "The whole idea behind silage is keeping air out. Once the silo pit is completely filled and pressed down, it is sealed airtight at the top. If any cracks appear in the sealed covering later on, they need to be patched up straight away with more soil — a crack that lets air in can spoil the silage underneath it."
+              "The whole idea behind silage is keeping air out. Once the silo pit is completely filled and pressed down, it is sealed airtight at the top. If any cracks appear in the sealed covering later on, they need to be patched up straight away with more soil — a crack that lets air in can spoil the silage underneath it.",
+              "సైలేజ్ వెనుక ఉన్న మొత్తం ఆలోచన గాలిని బయటే ఉంచడం. సైలో గొయ్యి పూర్తిగా నింపి, అదిమిన తర్వాత, పైనుండి గాలి చొరబడకుండా మూసేస్తారు. తర్వాత మూసేసిన కప్పులో ఏవైనా పగుళ్లు కనిపిస్తే, వెంటనే మరింత మట్టితో పూడ్చాలి — గాలిని లోపలికి రానిచ్చే పగులు దాని కింద ఉన్న సైలేజ్‌ను చెడగొట్టవచ్చు.",
+              "சைலேஜின் பின்னணியில் உள்ள முழுக் கருத்தும் காற்றை வெளியே வைத்திருப்பதுதான். சைலோ குழி முழுவதுமாக நிரப்பப்பட்டு அழுத்தப்பட்ட பிறகு, மேலிருந்து காற்று புகாமல் மூடப்படுகிறது. பின்னர் மூடிய அடுக்கில் ஏதேனும் விரிசல்கள் தோன்றினால், உடனடியாக மேலும் மண்ணால் அடைக்க வேண்டும் — காற்று உள்ளே செல்ல அனுமதிக்கும் விரிசல் அதன் கீழுள்ள சைலேஜைக் கெடுக்கக்கூடும்.",
+              "ಸೈಲೇಜ್ ಹಿಂದಿನ ಸಂಪೂರ್ಣ ಕಲ್ಪನೆ ಗಾಳಿಯನ್ನು ಹೊರಗಿಡುವುದು. ಸೈಲೋ ಗುಂಡಿ ಸಂಪೂರ್ಣವಾಗಿ ತುಂಬಿ, ಒತ್ತಿದ ನಂತರ, ಮೇಲಿನಿಂದ ಗಾಳಿ ಸೇರದಂತೆ ಮುಚ್ಚಲಾಗುತ್ತದೆ. ನಂತರ ಮುಚ್ಚಿದ ಹೊದಿಕೆಯಲ್ಲಿ ಯಾವುದೇ ಬಿರುಕುಗಳು ಕಂಡುಬಂದರೆ, ತಕ್ಷಣ ಇನ್ನಷ್ಟು ಮಣ್ಣಿನಿಂದ ಮುಚ್ಚಬೇಕು — ಗಾಳಿ ಒಳಗೆ ಸೇರಲು ಬಿಡುವ ಬಿರುಕು ಅದರ ಕೆಳಗಿನ ಸೈಲೇಜ್ ಅನ್ನು ಹಾಳುಮಾಡಬಹುದು.",
+              "साइलेज के पीछे पूरा विचार हवा को बाहर रखना है। साइलो गड्ढा पूरी तरह भर जाने और दबाए जाने के बाद, ऊपर से हवा-रोधी सील किया जाता है। बाद में अगर सील की गई परत में कोई दरार दिखे, तो उसे तुरंत और मिट्टी से बंद करना चाहिए — हवा अंदर जाने देने वाली दरार उसके नीचे के साइलेज को खराब कर सकती है।"
             ),
           },
           {
             type: "callout",
             style: "tip",
-            heading: L("Feeding Silage: Give It Time, and Introduce It Slowly"),
+            heading: L(
+              "Feeding Silage: Give It Time, and Introduce It Slowly",
+              "సైలేజ్ తినిపించడం: సమయం ఇవ్వండి, నెమ్మదిగా అలవాటు చేయండి",
+              "சைலேஜ் ஊட்டுதல்: நேரம் கொடுங்கள், மெதுவாக அறிமுகப்படுத்துங்கள்",
+              "ಸೈಲೇಜ್ ತಿನ್ನಿಸುವುದು: ಸಮಯ ಕೊಡಿ, ನಿಧಾನವಾಗಿ ಪರಿಚಯಿಸಿ",
+              "साइलेज खिलाना: समय दें, और धीरे-धीरे शुरू करें"
+            ),
             text: L(
-              "Silage needs some weeks sealed away before it's ready to feed. Once opened, take out only as much as the animals need for that day, and reseal the rest so it keeps well until the next feeding. When first introducing silage to an animal's diet, start with smaller quantities and increase gradually, rather than switching over all at once."
+              "Silage needs some weeks sealed away before it's ready to feed. Once opened, take out only as much as the animals need for that day, and reseal the rest so it keeps well until the next feeding. When first introducing silage to an animal's diet, start with smaller quantities and increase gradually, rather than switching over all at once.",
+              "సైలేజ్ తినిపించడానికి సిద్ధమయ్యేముందు కొన్ని వారాలు మూసివేసి ఉంచాలి. తెరిచిన తర్వాత, ఆ రోజుకు జంతువులకు అవసరమైనంత మాత్రమే తీయండి, మిగిలింది తర్వాతి తినిపించే వరకు బాగా నిల్వ ఉండేలా మళ్లీ మూసివేయండి. జంతువు ఆహారంలో సైలేజ్‌ను మొదటిసారి ప్రవేశపెట్టేటప్పుడు, ఒకేసారి పూర్తిగా మార్చడానికి బదులు తక్కువ మోతాదులతో ప్రారంభించి క్రమంగా పెంచండి.",
+              "சைலேஜ் ஊட்ட தயாராவதற்கு முன் சில வாரங்கள் மூடி வைக்க வேண்டும். திறந்த பிறகு, அன்றைய தேவைக்கு விலங்குகளுக்கு வேண்டியதை மட்டும் எடுத்து, மீதமுள்ளதை அடுத்த ஊட்டும் நேரம் வரை நன்றாக இருக்க மீண்டும் மூடவும். விலங்கின் உணவில் சைலேஜை முதன் முதலில் அறிமுகப்படுத்தும் போது, ஒரே நேரத்தில் முழுவதுமாக மாற்றுவதற்குப் பதிலாக குறைவான அளவில் தொடங்கி படிப்படியாக அதிகரிக்கவும்.",
+              "ಸೈಲೇಜ್ ತಿನ್ನಿಸಲು ಸಿದ್ಧವಾಗುವ ಮೊದಲು ಕೆಲವು ವಾರಗಳ ಕಾಲ ಮುಚ್ಚಿಡಬೇಕು. ತೆರೆದ ನಂತರ, ಆ ದಿನಕ್ಕೆ ಪ್ರಾಣಿಗಳಿಗೆ ಬೇಕಾದಷ್ಟು ಮಾತ್ರ ತೆಗೆದುಕೊಂಡು, ಉಳಿದದ್ದನ್ನು ಮುಂದಿನ ಆಹಾರದ ಸಮಯದವರೆಗೆ ಚೆನ್ನಾಗಿ ಇರುವಂತೆ ಮತ್ತೆ ಮುಚ್ಚಿ. ಪ್ರಾಣಿಯ ಆಹಾರದಲ್ಲಿ ಸೈಲೇಜ್ ಅನ್ನು ಮೊದಲ ಬಾರಿ ಪರಿಚಯಿಸುವಾಗ, ಒಮ್ಮೆಗೇ ಸಂಪೂರ್ಣ ಬದಲಾಯಿಸುವ ಬದಲು ಕಡಿಮೆ ಪ್ರಮಾಣದಿಂದ ಪ್ರಾರಂಭಿಸಿ ಕ್ರಮೇಣ ಹೆಚ್ಚಿಸಿ.",
+              "साइलेज को खिलाने लायक होने से पहले कुछ हफ्तों तक बंद रखने की जरूरत होती है। खोलने के बाद, उस दिन पशुओं को जितनी जरूरत हो उतना ही निकालें, और बाकी को अगली बार खिलाने तक अच्छा बना रहे इसके लिए फिर से सील कर दें। पशु के आहार में साइलेज पहली बार शुरू करते समय, एक बार में पूरी तरह बदलने के बजाय कम मात्रा से शुरू करें और धीरे-धीरे बढ़ाएं।"
             ),
           },
         ],
         check: [
           {
             type: "mcq",
-            q: L("What is the key idea behind how silage is made?"),
+            q: L(
+              "What is the key idea behind how silage is made?",
+              "సైలేజ్ తయారీ వెనుక ఉన్న ముఖ్య ఆలోచన ఏమిటి?",
+              "சைலேஜ் தயாரிக்கப்படும் விதத்தின் பின்னணியில் உள்ள முக்கியக் கருத்து என்ன?",
+              "ಸೈಲೇಜ್ ತಯಾರಿಕೆಯ ಹಿಂದಿನ ಮುಖ್ಯ ಕಲ್ಪನೆ ಏನು?",
+              "साइलेज बनाने के पीछे मुख्य विचार क्या है?"
+            ),
             options: [
-              L("Drying the fodder completely in the sun"),
-              L("Packing moist, chopped green fodder tightly and sealing it away from air"),
-              L("Mixing fodder with urea before feeding"),
-              L("Leaving fodder loosely piled in the open"),
+              L(
+                "Drying the fodder completely in the sun",
+                "మేతను పూర్తిగా ఎండలో ఎండించడం",
+                "தீவனத்தை வெயிலில் முழுவதுமாக காயவைப்பது",
+                "ಮೇವನ್ನು ಬಿಸಿಲಿನಲ್ಲಿ ಸಂಪೂರ್ಣವಾಗಿ ಒಣಗಿಸುವುದು",
+                "चारे को धूप में पूरी तरह सुखाना"
+              ),
+              L(
+                "Packing moist, chopped green fodder tightly and sealing it away from air",
+                "తేమగా ఉన్న, చిన్న ముక్కలుగా కోసిన పచ్చి మేతను గట్టిగా అదిమి గాలి తగలకుండా మూసివేయడం",
+                "ஈரமான, நறுக்கிய பசுந்தீவனத்தை இறுக்கமாக அடைத்து காற்று படாமல் மூடுவது",
+                "ತೇವವಾದ, ಕತ್ತರಿಸಿದ ಹಸಿರು ಮೇವನ್ನು ಬಿಗಿಯಾಗಿ ಒತ್ತಿ ಗಾಳಿ ಸೇರದಂತೆ ಮುಚ್ಚುವುದು",
+                "नम, कटे हुए हरे चारे को कसकर दबाकर हवा से बचाकर सील करना"
+              ),
+              L(
+                "Mixing fodder with urea before feeding",
+                "తినిపించే ముందు మేతను యూరియాతో కలపడం",
+                "ஊட்டுவதற்கு முன் தீவனத்தை யூரியாவுடன் கலப்பது",
+                "ತಿನ್ನಿಸುವ ಮೊದಲು ಮೇವನ್ನು ಯೂರಿಯಾದೊಂದಿಗೆ ಬೆರೆಸುವುದು",
+                "खिलाने से पहले चारे को यूरिया के साथ मिलाना"
+              ),
+              L(
+                "Leaving fodder loosely piled in the open",
+                "మేతను బహిరంగంగా వదులుగా కుప్పగా వదిలేయడం",
+                "தீவனத்தை திறந்த வெளியில் தளர்வாக குவித்து விடுவது",
+                "ಮೇವನ್ನು ಬಯಲಿನಲ್ಲಿ ಸಡಿಲವಾಗಿ ರಾಶಿ ಹಾಕಿ ಬಿಡುವುದು",
+                "चारे को खुले में ढीला ढेर करके छोड़ देना"
+              ),
             ],
             answer: 1,
-            explain: L("Silage is made by packing moist, chopped fodder tightly into a silo pit and sealing it airtight, which is very different from hay's sun-drying approach."),
+            explain: L(
+              "Silage is made by packing moist, chopped fodder tightly into a silo pit and sealing it airtight, which is very different from hay's sun-drying approach.",
+              "సైలేజ్‌ను తేమగా ఉన్న, చిన్న ముక్కలుగా కోసిన మేతను సైలో గొయ్యిలో గట్టిగా అదిమి, గాలి చొరబడకుండా మూసివేయడం ద్వారా తయారు చేస్తారు, ఇది ఎండుమేత తయారీ (ఎండలో ఎండించడం) పద్ధతికి పూర్తిగా భిన్నమైనది.",
+              "சைலேஜ் ஈரமான, நறுக்கிய தீவனத்தை சைலோ குழியில் இறுக்கமாக அடைத்து, காற்று புகாமல் மூடுவதன் மூலம் தயாரிக்கப்படுகிறது, இது உலர் தீவனத்தின் வெயிலில் காயவைக்கும் முறையிலிருந்து முற்றிலும் வேறுபட்டது.",
+              "ಸೈಲೇಜ್ ಅನ್ನು ತೇವವಾದ, ಕತ್ತರಿಸಿದ ಮೇವನ್ನು ಸೈಲೋ ಗುಂಡಿಯಲ್ಲಿ ಬಿಗಿಯಾಗಿ ಒತ್ತಿ, ಗಾಳಿ ಸೇರದಂತೆ ಮುಚ್ಚುವ ಮೂಲಕ ತಯಾರಿಸಲಾಗುತ್ತದೆ, ಇದು ಒಣ ಮೇವಿನ ಬಿಸಿಲಿನಲ್ಲಿ ಒಣಗಿಸುವ ವಿಧಾನಕ್ಕಿಂತ ಸಂಪೂರ್ಣ ಭಿನ್ನವಾಗಿದೆ.",
+              "साइलेज नम, कटे हुए चारे को साइलो गड्ढे में कसकर दबाकर और हवा-रोधी सील करके बनाया जाता है, जो सूखे चारे की धूप में सुखाने की विधि से बिल्कुल अलग है।"
+            ),
           },
           {
             type: "truefalse",
-            q: L("If a crack appears in the sealed covering of a silo pit, it should be patched right away with more soil."),
+            q: L(
+              "If a crack appears in the sealed covering of a silo pit, it should be patched right away with more soil.",
+              "సైలో గొయ్యి యొక్క మూసివేసిన కప్పులో పగులు కనిపిస్తే, వెంటనే మరింత మట్టితో పూడ్చాలి.",
+              "சைலோ குழியின் மூடிய அடுக்கில் விரிசல் தோன்றினால், உடனடியாக மேலும் மண்ணால் அடைக்க வேண்டும்.",
+              "ಸೈಲೋ ಗುಂಡಿಯ ಮುಚ್ಚಿದ ಹೊದಿಕೆಯಲ್ಲಿ ಬಿರುಕು ಕಂಡುಬಂದರೆ, ತಕ್ಷಣ ಇನ್ನಷ್ಟು ಮಣ್ಣಿನಿಂದ ಮುಚ್ಚಬೇಕು.",
+              "अगर साइलो गड्ढे की सील की गई परत में दरार दिखे, तो उसे तुरंत और मिट्टी से बंद कर देना चाहिए।"
+            ),
             answer: true,
-            explain: L("Correct — a crack lets air in, which can spoil the silage, so it should be sealed again promptly."),
+            explain: L(
+              "Correct — a crack lets air in, which can spoil the silage, so it should be sealed again promptly.",
+              "సరైనది — పగులు గాలిని లోపలికి రానిస్తుంది, ఇది సైలేజ్‌ను చెడగొట్టవచ్చు, కాబట్టి వెంటనే మళ్లీ మూసివేయాలి.",
+              "சரியானது — விரிசல் காற்றை உள்ளே செல்ல அனுமதிக்கும், இது சைலேஜைக் கெடுக்கக்கூடும், எனவே உடனடியாக மீண்டும் மூட வேண்டும்.",
+              "ಸರಿಯಾಗಿದೆ — ಬಿರುಕು ಗಾಳಿಯನ್ನು ಒಳಗೆ ಬಿಡುತ್ತದೆ, ಇದು ಸೈಲೇಜ್ ಅನ್ನು ಹಾಳುಮಾಡಬಹುದು, ಆದ್ದರಿಂದ ತಕ್ಷಣ ಮತ್ತೆ ಮುಚ್ಚಬೇಕು.",
+              "सही — दरार से हवा अंदर जाती है, जो साइलेज को खराब कर सकती है, इसलिए इसे तुरंत फिर से सील करना चाहिए।"
+            ),
           },
         ],
       },
@@ -9610,43 +9714,144 @@ export const MODULES = [
         {
           topicId: "t-m15-hay",
           type: "mcq",
-          q: L("Why is fodder conserved as hay or silage in the first place?"),
+          q: L(
+            "Why is fodder conserved as hay or silage in the first place?",
+            "మేతను ఎండుమేత లేదా సైలేజ్‌గా ఎందుకు నిల్వ చేస్తారు?",
+            "தீவனத்தை உலர் தீவனமாகவோ சைலேஜாகவோ ஏன் பாதுகாக்கிறோம்?",
+            "ಮೇವನ್ನು ಒಣ ಮೇವು ಅಥವಾ ಸೈಲೇಜ್ ಆಗಿ ಏಕೆ ಸಂರಕ್ಷಿಸಲಾಗುತ್ತದೆ?",
+            "चारे को सूखे चारे या साइलेज के रूप में सबसे पहले क्यों सुरक्षित रखा जाता है?"
+          ),
           options: [
-            L("To make it taste different"),
-            L("To use up surplus fodder during plentiful months so it can feed animals in deficit months, instead of being wasted"),
-            L("Because fresh green fodder is harmful to animals"),
-            L("It is required by law"),
+            L(
+              "To make it taste different",
+              "దాని రుచిని మార్చడానికి",
+              "அதன் சுவையை மாற்றுவதற்கு",
+              "ಅದರ ರುಚಿಯನ್ನು ಬದಲಾಯಿಸಲು",
+              "इसका स्वाद बदलने के लिए"
+            ),
+            L(
+              "To use up surplus fodder during plentiful months so it can feed animals in deficit months, instead of being wasted",
+              "సమృద్ధి నెలల్లో మిగులు మేతను వాడుకుని, వృథా చేయకుండా లోటు నెలల్లో జంతువులకు తినిపించడానికి",
+              "ஏராளமான மாதங்களில் உள்ள உபரி தீவனத்தை வீணாக்காமல் பற்றாக்குறை மாதங்களில் விலங்குகளுக்கு ஊட்ட பயன்படுத்த",
+              "ಹೇರಳ ತಿಂಗಳುಗಳಲ್ಲಿ ಹೆಚ್ಚುವರಿ ಮೇವನ್ನು ಬಳಸಿ, ವ್ಯರ್ಥ ಮಾಡದೆ ಕೊರತೆಯ ತಿಂಗಳುಗಳಲ್ಲಿ ಪ್ರಾಣಿಗಳಿಗೆ ತಿನ್ನಿಸಲು",
+              "भरपूर महीनों में अतिरिक्त चारे का उपयोग करके, बर्बाद होने के बजाय कमी वाले महीनों में पशुओं को खिलाने के लिए"
+            ),
+            L(
+              "Because fresh green fodder is harmful to animals",
+              "తాజా పచ్చి మేత జంతువులకు హానికరం కాబట్టి",
+              "புதிய பசுந்தீவனம் விலங்குகளுக்கு தீங்கு விளைவிப்பதால்",
+              "ತಾಜಾ ಹಸಿರು ಮೇವು ಪ್ರಾಣಿಗಳಿಗೆ ಹಾನಿಕರವಾಗಿರುವುದರಿಂದ",
+              "क्योंकि ताजा हरा चारा पशुओं के लिए हानिकारक होता है"
+            ),
+            L(
+              "It is required by law",
+              "ఇది చట్టం ప్రకారం అవసరం",
+              "இது சட்டப்படி கட்டாயமானது",
+              "ಇದು ಕಾನೂನಿನ ಪ್ರಕಾರ ಅಗತ್ಯ",
+              "यह कानून द्वारा जरूरी है"
+            ),
           ],
           answer: 1,
-          explain: L("Conserving surplus fodder as hay or silage lets it be used during the lean months, reducing waste and keeping a steadier feed supply."),
+          explain: L(
+            "Conserving surplus fodder as hay or silage lets it be used during the lean months, reducing waste and keeping a steadier feed supply.",
+            "మిగులు మేతను ఎండుమేత లేదా సైలేజ్‌గా నిల్వ చేయడం వల్ల లోటు నెలల్లో వాడుకోవచ్చు, వృథాను తగ్గించి మరింత స్థిరమైన మేత సరఫరాను నిర్వహించవచ్చు.",
+            "உபரி தீவனத்தை உலர் தீவனமாகவோ சைலேஜாகவோ பாதுகாப்பது பற்றாக்குறை மாதங்களில் பயன்படுத்த அனுமதிக்கிறது, வீணை குறைத்து நிலையான தீவன வழங்கலைப் பேணுகிறது.",
+            "ಹೆಚ್ಚುವರಿ ಮೇವನ್ನು ಒಣ ಮೇವು ಅಥವಾ ಸೈಲೇಜ್ ಆಗಿ ಸಂರಕ್ಷಿಸುವುದರಿಂದ ಕೊರತೆಯ ತಿಂಗಳುಗಳಲ್ಲಿ ಬಳಸಬಹುದು, ವ್ಯರ್ಥ ಕಡಿಮೆ ಮಾಡಿ ಸ್ಥಿರವಾದ ಮೇವು ಪೂರೈಕೆ ಕಾಪಾಡಬಹುದು.",
+            "अतिरिक्त चारे को सूखे चारे या साइलेज के रूप में सुरक्षित रखने से इसे कमी वाले महीनों में इस्तेमाल किया जा सकता है, जिससे बर्बादी कम होती है और चारा आपूर्ति अधिक स्थिर बनी रहती है।"
+          ),
         },
         {
           topicId: "t-m15-hay",
           type: "mcq",
-          q: L("Roughly what moisture level should hay be dried down to before storage?"),
-          options: [L("Below about 15 per cent"), L("About 65 to 70 per cent"), L("It should stay fully wet"), L("Moisture level doesn't matter for hay")],
+          q: L(
+            "Roughly what moisture level should hay be dried down to before storage?",
+            "నిల్వ చేయడానికి ముందు ఎండుమేతను ఏ తేమ స్థాయికి ఎండించాలి?",
+            "சேமிக்கும் முன் உலர் தீவனத்தை எந்த ஈரப்பத அளவிற்கு காயவைக்க வேண்டும்?",
+            "ಸಂಗ್ರಹಣೆಗೂ ಮೊದಲು ಒಣ ಮೇವನ್ನು ಸುಮಾರು ಎಷ್ಟು ತೇವಾಂಶಕ್ಕೆ ಒಣಗಿಸಬೇಕು?",
+            "भंडारण से पहले सूखे चारे को लगभग कितनी नमी तक सुखाया जाना चाहिए?"
+          ),
+          options: [
+            L("Below about 15 per cent", "సుమారు 15 శాతం కంటే తక్కువకు", "சுமார் 15 சதவீதத்திற்குக் கீழே", "ಸುಮಾರು 15 ಪ್ರತಿಶತಕ್ಕಿಂತ ಕಡಿಮೆ", "करीब 15 प्रतिशत से कम"),
+            L("About 65 to 70 per cent", "సుమారు 65 నుండి 70 శాతం", "சுமார் 65 முதல் 70 சதவீதம் வரை", "ಸುಮಾರು 65 ರಿಂದ 70 ಪ್ರತಿಶತ", "करीब 65 से 70 प्रतिशत"),
+            L("It should stay fully wet", "అది పూర్తిగా తడిగానే ఉండాలి", "அது முழுவதும் ஈரமாகவே இருக்க வேண்டும்", "ಅದು ಸಂಪೂರ್ಣ ಒದ್ದೆಯಾಗಿಯೇ ಇರಬೇಕು", "यह पूरी तरह गीला ही रहना चाहिए"),
+            L("Moisture level doesn't matter for hay", "ఎండుమేతకు తేమ స్థాయితో సంబంధం లేదు", "உலர் தீவனத்திற்கு ஈரப்பத அளவு முக்கியமில்லை", "ಒಣ ಮೇವಿಗೆ ತೇವಾಂಶ ಮಟ್ಟ ಮುಖ್ಯವಲ್ಲ", "सूखे चारे के लिए नमी का स्तर मायने नहीं रखता"),
+          ],
           answer: 0,
-          explain: L("Hay is dried until its moisture is below about 15 per cent — that's what makes it store well."),
+          explain: L(
+            "Hay is dried until its moisture is below about 15 per cent — that's what makes it store well.",
+            "ఎండుమేతను తేమ సుమారు 15 శాతం కంటే తక్కువయ్యే వరకు ఎండిస్తారు — ఇదే దీన్ని బాగా నిల్వ ఉండేలా చేస్తుంది.",
+            "உலர் தீவனம் ஈரப்பதம் சுமார் 15 சதவீதத்திற்குக் கீழே வரும் வரை காயவைக்கப்படுகிறது — இதுவே இது நன்றாக சேமிக்க வைக்கிறது.",
+            "ಒಣ ಮೇವನ್ನು ತೇವಾಂಶ ಸುಮಾರು 15 ಪ್ರತಿಶತಕ್ಕಿಂತ ಕಡಿಮೆಯಾಗುವವರೆಗೆ ಒಣಗಿಸಲಾಗುತ್ತದೆ — ಇದೇ ಇದನ್ನು ಚೆನ್ನಾಗಿ ಸಂಗ್ರಹವಾಗುವಂತೆ ಮಾಡುತ್ತದೆ.",
+            "सूखे चारे को तब तक सुखाया जाता है जब तक उसकी नमी करीब 15 प्रतिशत से कम न हो जाए — यही इसे अच्छी तरह सुरक्षित रखने लायक बनाता है।"
+          ),
         },
         {
           topicId: "t-m15-silage",
           type: "mcq",
-          q: L("What is a silo pit used for?"),
+          q: L(
+            "What is a silo pit used for?",
+            "సైలో గొయ్యిని దేనికి ఉపయోగిస్తారు?",
+            "சைலோ குழி எதற்காக பயன்படுத்தப்படுகிறது?",
+            "ಸೈಲೋ ಗುಂಡಿಯನ್ನು ಯಾವುದಕ್ಕೆ ಬಳಸಲಾಗುತ್ತದೆ?",
+            "साइलो गड्ढे का उपयोग किसके लिए किया जाता है?"
+          ),
           options: [
-            L("Sun-drying green fodder into hay"),
-            L("Packing and sealing chopped green fodder airtight to make silage"),
-            L("Storing bags of cattle feed concentrate"),
-            L("Treating straw with urea"),
+            L(
+              "Sun-drying green fodder into hay",
+              "పచ్చి మేతను ఎండలో ఎండించి ఎండుమేతగా మార్చడానికి",
+              "பசுந்தீவனத்தை வெயிலில் காயவைத்து உலர் தீவனமாக்குவதற்கு",
+              "ಹಸಿರು ಮೇವನ್ನು ಬಿಸಿಲಿನಲ್ಲಿ ಒಣಗಿಸಿ ಒಣ ಮೇವಾಗಿಸಲು",
+              "हरे चारे को धूप में सुखाकर सूखा चारा बनाने के लिए"
+            ),
+            L(
+              "Packing and sealing chopped green fodder airtight to make silage",
+              "సైలేజ్ తయారు చేయడానికి చిన్న ముక్కలుగా కోసిన పచ్చి మేతను అదిమి గాలి చొరబడకుండా మూసివేయడానికి",
+              "சைலேஜ் தயாரிக்க நறுக்கிய பசுந்தீவனத்தை அடைத்து காற்று புகாமல் மூடுவதற்கு",
+              "ಸೈಲೇಜ್ ತಯಾರಿಸಲು ಕತ್ತರಿಸಿದ ಹಸಿರು ಮೇವನ್ನು ಒತ್ತಿ ಗಾಳಿ ಸೇರದಂತೆ ಮುಚ್ಚಲು",
+              "साइलेज बनाने के लिए कटे हुए हरे चारे को दबाकर हवा-रोधी सील करने के लिए"
+            ),
+            L(
+              "Storing bags of cattle feed concentrate",
+              "దాణా బస్తాలను నిల్వ చేయడానికి",
+              "கால்நடை உணவு செறிவூட்டப் பைகளை சேமிப்பதற்கு",
+              "ದನದ ಆಹಾರ ಕಾನ್ಸಂಟ್ರೇಟ್ ಚೀಲಗಳನ್ನು ಸಂಗ್ರಹಿಸಲು",
+              "पशु आहार सांद्र की बोरियों को भंडारित करने के लिए"
+            ),
+            L(
+              "Treating straw with urea",
+              "గడ్డిని యూరియాతో శుద్ధి చేయడానికి",
+              "வைக்கோலை யூரியாவால் சிகிச்சை செய்வதற்கு",
+              "ಒಣಹುಲ್ಲನ್ನು ಯೂರಿಯಾದಿಂದ ಸಂಸ್ಕರಿಸಲು",
+              "भूसे को यूरिया से उपचारित करने के लिए"
+            ),
           ],
           answer: 1,
-          explain: L("A silo pit is where chopped green fodder is packed down in layers and then sealed airtight to turn it into silage."),
+          explain: L(
+            "A silo pit is where chopped green fodder is packed down in layers and then sealed airtight to turn it into silage.",
+            "సైలో గొయ్యి అంటే చిన్న ముక్కలుగా కోసిన పచ్చి మేతను పొరలుగా అదిమి, తర్వాత గాలి చొరబడకుండా మూసివేసి సైలేజ్‌గా మార్చే స్థలం.",
+            "சைலோ குழி என்பது நறுக்கிய பசுந்தீவனத்தை அடுக்குகளாக அடைத்து, பின்னர் காற்று புகாமல் மூடி சைலேஜாக மாற்றும் இடம்.",
+            "ಸೈಲೋ ಗುಂಡಿ ಎಂದರೆ ಕತ್ತರಿಸಿದ ಹಸಿರು ಮೇವನ್ನು ಪದರಗಳಾಗಿ ಒತ್ತಿ, ನಂತರ ಗಾಳಿ ಸೇರದಂತೆ ಮುಚ್ಚಿ ಸೈಲೇಜ್ ಆಗಿ ಪರಿವರ್ತಿಸುವ ಸ್ಥಳ.",
+            "साइलो गड्ढा वह जगह है जहां कटे हुए हरे चारे को परतों में दबाया जाता है और फिर हवा-रोधी सील करके साइलेज में बदला जाता है।"
+          ),
         },
         {
           topicId: "t-m15-silage",
           type: "truefalse",
-          q: L("When silage is first introduced to an animal's diet, it should be fed in small amounts at first and increased gradually."),
+          q: L(
+            "When silage is first introduced to an animal's diet, it should be fed in small amounts at first and increased gradually.",
+            "జంతువు ఆహారంలో సైలేజ్‌ను మొదటిసారి ప్రవేశపెట్టేటప్పుడు, మొదట తక్కువ మోతాదులో తినిపించి క్రమంగా పెంచాలి.",
+            "விலங்கின் உணவில் சைலேஜ் முதன் முதலில் அறிமுகப்படுத்தப்படும் போது, முதலில் சிறிய அளவில் ஊட்டி படிப்படியாக அதிகரிக்க வேண்டும்.",
+            "ಪ್ರಾಣಿಯ ಆಹಾರದಲ್ಲಿ ಸೈಲೇಜ್ ಅನ್ನು ಮೊದಲ ಬಾರಿ ಪರಿಚಯಿಸುವಾಗ, ಮೊದಲಿಗೆ ಕಡಿಮೆ ಪ್ರಮಾಣದಲ್ಲಿ ತಿನ್ನಿಸಿ ಕ್ರಮೇಣ ಹೆಚ್ಚಿಸಬೇಕು.",
+            "जब पशु के आहार में साइलेज पहली बार शामिल किया जाता है, तो पहले कम मात्रा में खिलाना चाहिए और धीरे-धीरे बढ़ाना चाहिए।"
+          ),
           answer: true,
-          explain: L("Correct — starting with smaller quantities lets the animal adjust to silage before feeding it as a larger part of the diet."),
+          explain: L(
+            "Correct — starting with smaller quantities lets the animal adjust to silage before feeding it as a larger part of the diet.",
+            "సరైనది — తక్కువ మోతాదులతో ప్రారంభించడం వల్ల జంతువు సైలేజ్‌కు అలవాటుపడుతుంది, తర్వాత దాన్ని ఆహారంలో ఎక్కువ భాగంగా తినిపించవచ్చు.",
+            "சரியானது — சிறிய அளவுகளில் தொடங்குவது விலங்கு சைலேஜுக்கு பழகிக்கொள்ள உதவும், பின்னர் அதை உணவின் பெரிய பகுதியாக ஊட்டலாம்.",
+            "ಸರಿಯಾಗಿದೆ — ಕಡಿಮೆ ಪ್ರಮಾಣದಿಂದ ಪ್ರಾರಂಭಿಸುವುದರಿಂದ ಪ್ರಾಣಿ ಸೈಲೇಜ್‌ಗೆ ಹೊಂದಿಕೊಳ್ಳುತ್ತದೆ, ನಂತರ ಅದನ್ನು ಆಹಾರದ ದೊಡ್ಡ ಭಾಗವಾಗಿ ತಿನ್ನಿಸಬಹುದು.",
+            "सही — कम मात्रा से शुरू करने से पशु साइलेज के अनुकूल हो जाता है, इसके बाद इसे आहार के बड़े हिस्से के रूप में खिलाया जा सकता है।"
+          ),
         },
       ],
     },
