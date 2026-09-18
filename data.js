@@ -8040,7 +8040,13 @@ export const MODULES = [
           },
           {
             type: "ledger",
-            heading: L("Dehydration — the Handbook's Home ORS Recipe"),
+            heading: L(
+              "Dehydration — the Handbook's Home ORS Recipe",
+              "డీహైడ్రేషన్ — హ్యాండ్‌బుక్ ఇంటి ORS రెసిపీ",
+              "நீரிழப்பு — கையேட்டு வீட்டு ORS செய்முறை",
+              "ನಿರ್ಜಲೀಕರಣ — ಕೈಪಿಡಿಯ ಮನೆಯ ORS ಪಾಕವಿಧಾನ",
+              "निर्जलीकरण — हैंडबुक की घरेलू ORS रेसिपी"
+            ),
             rows: [
               { label: "Salt", amount: "2 teaspoons" },
               { label: "Baking soda", amount: "half a teaspoon" },
@@ -8054,29 +8060,71 @@ export const MODULES = [
           {
             type: "callout",
             style: "tip",
-            heading: L("How Much to Give"),
-            text: L("Adults: 2 to 3 litres, 2 to 3 times a day. Calves: 0.5 to 1 litre, until recovery."),
+            heading: L(
+              "How Much to Give",
+              "ఎంత మోతాదులో ఇవ్వాలి",
+              "எவ்வளவு கொடுக்க வேண்டும்",
+              "ಎಷ್ಟು ಪ್ರಮಾಣ ಕೊಡಬೇಕು",
+              "कितनी मात्रा देनी है"
+            ),
+            text: L(
+              "Adults: 2 to 3 litres, 2 to 3 times a day. Calves: 0.5 to 1 litre, until recovery.",
+              "పెద్దలకు: 2 నుండి 3 లీటర్లు, రోజుకు 2 నుండి 3 సార్లు. దూడలకు: 0.5 నుండి 1 లీటరు, కోలుకునే వరకు.",
+              "பெரியவை: 2 முதல் 3 லிட்டர், நாளொன்றுக்கு 2 முதல் 3 முறை. கன்றுகள்: 0.5 முதல் 1 லிட்டர், குணமாகும் வரை.",
+              "ವಯಸ್ಕರಿಗೆ: 2 ರಿಂದ 3 ಲೀಟರ್, ದಿನಕ್ಕೆ 2 ರಿಂದ 3 ಬಾರಿ. ಕರುಗಳಿಗೆ: 0.5 ರಿಂದ 1 ಲೀಟರ್, ಚೇತರಿಸಿಕೊಳ್ಳುವವರೆಗೆ.",
+              "वयस्क: 2 से 3 लीटर, दिन में 2 से 3 बार। बछड़े: 0.5 से 1 लीटर, ठीक होने तक।"
+            ),
           },
           {
             type: "glossary",
-            term: L("ORS (Oral Rehydration Solution)"),
+            term: L(
+              "ORS (Oral Rehydration Solution)",
+              "ORS (నోటి ద్వారా ఇచ్చే డీహైడ్రేషన్ నివారణ ద్రావణం)",
+              "ORS (வாய் வழி நீரேற்ற கரைசல்)",
+              "ORS (ಬಾಯಿಯ ಮೂಲಕ ಕೊಡುವ ಜಲಸಂಚಯನ ದ್ರಾವಣ)",
+              "ORS (मुँह से दिया जाने वाला पुनर्जलीकरण घोल)"
+            ),
             meaning: L(
-              "A mix of salt, sugar and water given by mouth to replace the water and salts an animal loses during diarrhoea or dehydration. It's the same basic idea used for people."
+              "A mix of salt, sugar and water given by mouth to replace the water and salts an animal loses during diarrhoea or dehydration. It's the same basic idea used for people.",
+              "విరేచనాలు లేదా డీహైడ్రేషన్ సమయంలో జంతువు కోల్పోయిన నీరు మరియు లవణాలను తిరిగి పొందేందుకు నోటి ద్వారా ఇచ్చే ఉప్పు, చక్కెర మరియు నీటి మిశ్రమం. ఇది మనుషులకు వాడే అదే ప్రాథమిక భావన.",
+              "வயிற்றுப்போக்கு அல்லது நீரிழப்பின் போது விலங்கு இழக்கும் நீர் மற்றும் உப்புகளை மாற்றியமைக்க வாய் வழியாக கொடுக்கப்படும் உப்பு, சர்க்கரை மற்றும் நீர் கலவை. இது மனிதர்களுக்கு பயன்படுத்தப்படும் அதே அடிப்படை கருத்து.",
+              "ಅತಿಸಾರ ಅಥವಾ ನಿರ್ಜಲೀಕರಣದ ಸಮಯದಲ್ಲಿ ಪ್ರಾಣಿ ಕಳೆದುಕೊಳ್ಳುವ ನೀರು ಮತ್ತು ಲವಣಗಳನ್ನು ಬದಲಿಸಲು ಬಾಯಿಯ ಮೂಲಕ ಕೊಡುವ ಉಪ್ಪು, ಸಕ್ಕರೆ ಮತ್ತು ನೀರಿನ ಮಿಶ್ರಣ. ಇದು ಮನುಷ್ಯರಿಗೆ ಬಳಸುವ ಅದೇ ಮೂಲ ಕಲ್ಪನೆ.",
+              "दस्त या निर्जलीकरण के दौरान जानवर द्वारा खोए गए पानी और लवणों की भरपाई के लिए मुँह से दिया जाने वाला नमक, चीनी और पानी का मिश्रण। यह इंसानों के लिए इस्तेमाल होने वाली वही मूल अवधारणा है।"
             ),
           },
           {
             type: "stat-grid",
             items: [
               {
-                label: L("Bloat (mild)"),
+                label: L(
+                  "Bloat (mild)",
+                  "ఉబ్బరం (తేలికపాటిది)",
+                  "வீக்கம் (லேசானது)",
+                  "ಉಬ್ಬರ (ಸೌಮ್ಯ)",
+                  "अफारा (हल्का)"
+                ),
                 text: L(
-                  "Boil 50 g ginger, 1 whole garlic, 3 cardamoms and 5–6 cloves in half a litre of water with a little jaggery to make a decoction. Give once a day for 2 days, freshly prepared each day. Give calves half the adult quantity."
+                  "Boil 50 g ginger, 1 whole garlic, 3 cardamoms and 5–6 cloves in half a litre of water with a little jaggery to make a decoction. Give once a day for 2 days, freshly prepared each day. Give calves half the adult quantity.",
+                  "50 గ్రా అల్లం, 1 పూర్తి వెల్లుల్లి, 3 ఏలకులు మరియు 5–6 లవంగాలను కొద్దిగా బెల్లంతో అరలీటరు నీటిలో మరిగించి కషాయం తయారు చేయండి. 2 రోజులు రోజుకు ఒకసారి ఇవ్వండి, ప్రతిరోజూ తాజాగా తయారు చేయండి. దూడలకు పెద్దల మోతాదులో సగం ఇవ్వండి.",
+                  "50 கிராம் இஞ்சி, 1 முழு பூண்டு, 3 ஏலக்காய் மற்றும் 5–6 கிராம்பு ஆகியவற்றை சிறிது வெல்லத்துடன் அரை லிட்டர் நீரில் கொதிக்க வைத்து காடி தயாரிக்கவும். 2 நாட்களுக்கு நாளொன்றுக்கு ஒரு முறை கொடுக்கவும், ஒவ்வொரு நாளும் புதிதாக தயாரிக்கவும். கன்றுகளுக்கு பெரியவர்களின் அளவில் பாதி கொடுக்கவும்.",
+                  "50 ಗ್ರಾಂ ಶುಂಠಿ, 1 ಪೂರ್ಣ ಬೆಳ್ಳುಳ್ಳಿ, 3 ಏಲಕ್ಕಿ ಮತ್ತು 5–6 ಲವಂಗಗಳನ್ನು ಸ್ವಲ್ಪ ಬೆಲ್ಲದೊಂದಿಗೆ ಅರ್ಧ ಲೀಟರ್ ನೀರಿನಲ್ಲಿ ಕುದಿಸಿ ಕಷಾಯ ತಯಾರಿಸಿ. 2 ದಿನ ದಿನಕ್ಕೆ ಒಮ್ಮೆ ಕೊಡಿ, ಪ್ರತಿದಿನ ತಾಜಾಗಿ ತಯಾರಿಸಿ. ಕರುಗಳಿಗೆ ವಯಸ್ಕರ ಪ್ರಮಾಣದ ಅರ್ಧ ಕೊಡಿ.",
+                  "50 ग्राम अदरक, 1 पूरा लहसुन, 3 इलायची और 5–6 लौंग को थोड़े गुड़ के साथ आधा लीटर पानी में उबालकर काढ़ा बनाएं। 2 दिनों तक दिन में एक बार दें, हर दिन ताज़ा तैयार करें। बछड़ों को वयस्क मात्रा की आधी दें।"
                 ),
               },
               {
-                label: L("Stomach Disorder"),
+                label: L(
+                  "Stomach Disorder",
+                  "కడుపు రుగ్మత",
+                  "வயிற்று கோளாறு",
+                  "ಹೊಟ್ಟೆ ಅಸ್ವಸ್ಥತೆ",
+                  "पेट की गड़बड़ी"
+                ),
                 text: L(
-                  "Mix 500 ml each of ginger juice and drumstick (Soanjana) leaf juice with 200 ml of honey into one dose. Give twice a day for 2 days."
+                  "Mix 500 ml each of ginger juice and drumstick (Soanjana) leaf juice with 200 ml of honey into one dose. Give twice a day for 2 days.",
+                  "500 మి.లీ చొప్పున అల్లం రసం మరియు మునగ (సొంజన) ఆకు రసాన్ని 200 మి.లీ తేనెతో కలిపి ఒక మోతాదు తయారు చేయండి. 2 రోజులు రోజుకు రెండుసార్లు ఇవ్వండి.",
+                  "500 மி.லி வீதம் இஞ்சி சாறு மற்றும் முருங்கை இலை சாறை 200 மி.லி தேனுடன் கலந்து ஒரு டோஸாக செய்யவும். 2 நாட்களுக்கு நாளொன்றுக்கு இரண்டு முறை கொடுக்கவும்.",
+                  "ತಲಾ 500 ಮಿ.ಲೀ ಶುಂಠಿ ರಸ ಮತ್ತು ನುಗ್ಗೆ ಎಲೆ ರಸವನ್ನು 200 ಮಿ.ಲೀ ಜೇನುತುಪ್ಪದೊಂದಿಗೆ ಬೆರೆಸಿ ಒಂದು ಡೋಸ್ ಮಾಡಿ. 2 ದಿನ ದಿನಕ್ಕೆ ಎರಡು ಬಾರಿ ಕೊಡಿ.",
+                  "500 मिली अदरक का रस और सहजन (मुनगा) पत्ती का रस, दोनों को 200 मिली शहद के साथ मिलाकर एक खुराक बनाएं। 2 दिनों तक दिन में दो बार दें।"
                 ),
               },
             ],
@@ -8085,16 +8133,52 @@ export const MODULES = [
             type: "stat-grid",
             items: [
               {
-                label: L("Diarrhoea — Option 1"),
-                text: L("Boil a handful of tea leaves in one litre of water, strain, add half a handful of ground ginger. Drench twice a day for 3 to 4 days, prepared fresh daily."),
+                label: L(
+                  "Diarrhoea — Option 1",
+                  "విరేచనాలు — ఎంపిక 1",
+                  "வயிற்றுப்போக்கு — விருப்பம் 1",
+                  "ಅತಿಸಾರ — ಆಯ್ಕೆ 1",
+                  "दस्त — विकल्प 1"
+                ),
+                text: L(
+                  "Boil a handful of tea leaves in one litre of water, strain, add half a handful of ground ginger. Drench twice a day for 3 to 4 days, prepared fresh daily.",
+                  "ఒక పిడికెడు తేయాకును ఒక లీటరు నీటిలో మరిగించి, వడకట్టి, సగం పిడికెడు దంచిన అల్లం కలపండి. 3 నుండి 4 రోజులు రోజుకు రెండుసార్లు తాగించండి, ప్రతిరోజూ తాజాగా తయారు చేయండి.",
+                  "ஒரு பிடி தேயிலையை ஒரு லிட்டர் நீரில் கொதிக்க வைத்து, வடிகட்டி, அரை பிடி அரைத்த இஞ்சி சேர்க்கவும். 3 முதல் 4 நாட்களுக்கு நாளொன்றுக்கு இரண்டு முறை புகட்டவும், தினமும் புதிதாக தயாரிக்கவும்.",
+                  "ಒಂದು ಹಿಡಿ ಚಹಾ ಎಲೆಯನ್ನು ಒಂದು ಲೀಟರ್ ನೀರಿನಲ್ಲಿ ಕುದಿಸಿ, ಸೋಸಿ, ಅರ್ಧ ಹಿಡಿ ಪುಡಿಮಾಡಿದ ಶುಂಠಿ ಸೇರಿಸಿ. 3 ರಿಂದ 4 ದಿನ ದಿನಕ್ಕೆ ಎರಡು ಬಾರಿ ಕುಡಿಸಿ, ಪ್ರತಿದಿನ ತಾಜಾಗಿ ತಯಾರಿಸಿ.",
+                  "एक मुट्ठी चायपत्ती को एक लीटर पानी में उबालकर छान लें, आधी मुट्ठी पिसी अदरक मिलाएं। 3 से 4 दिनों तक दिन में दो बार पिलाएं, रोज़ ताज़ा तैयार करें।"
+                ),
               },
               {
-                label: L("Diarrhoea — Option 2"),
-                text: L("Boil half a kg of fresh guava (Amrut) leaves in three glasses of water. Drench twice a day."),
+                label: L(
+                  "Diarrhoea — Option 2",
+                  "విరేచనాలు — ఎంపిక 2",
+                  "வயிற்றுப்போக்கு — விருப்பம் 2",
+                  "ಅತಿಸಾರ — ಆಯ್ಕೆ 2",
+                  "दस्त — विकल्प 2"
+                ),
+                text: L(
+                  "Boil half a kg of fresh guava (Amrut) leaves in three glasses of water. Drench twice a day.",
+                  "అర కిలో తాజా జామ (అమృత్) ఆకులను మూడు గ్లాసుల నీటిలో మరిగించండి. రోజుకు రెండుసార్లు తాగించండి.",
+                  "அரை கிலோ புதிய கொய்யா (அமிர்த்) இலைகளை மூன்று கிளாஸ் நீரில் கொதிக்க வைக்கவும். நாளொன்றுக்கு இரண்டு முறை புகட்டவும்.",
+                  "ಅರ್ಧ ಕೆಜಿ ತಾಜಾ ಸೀಬೆ (ಅಮೃತ್) ಎಲೆಗಳನ್ನು ಮೂರು ಲೋಟ ನೀರಿನಲ್ಲಿ ಕುದಿಸಿ. ದಿನಕ್ಕೆ ಎರಡು ಬಾರಿ ಕುಡಿಸಿ.",
+                  "आधा किलो ताज़ा अमरूद (अमृत) की पत्तियों को तीन गिलास पानी में उबालें। दिन में दो बार पिलाएं।"
+                ),
               },
               {
-                label: L("Diarrhoea — Option 3"),
-                text: L("Mix 5 to 10 crystals of potassium permanganate in 1 litre of water. Drench twice a day."),
+                label: L(
+                  "Diarrhoea — Option 3",
+                  "విరేచనాలు — ఎంపిక 3",
+                  "வயிற்றுப்போக்கு — விருப்பம் 3",
+                  "ಅತಿಸಾರ — ಆಯ್ಕೆ 3",
+                  "दस्त — विकल्प 3"
+                ),
+                text: L(
+                  "Mix 5 to 10 crystals of potassium permanganate in 1 litre of water. Drench twice a day.",
+                  "5 నుండి 10 స్ఫటికాల పొటాషియం పర్మాంగనేట్‌ను 1 లీటరు నీటిలో కలపండి. రోజుకు రెండుసార్లు తాగించండి.",
+                  "5 முதல் 10 படிகங்கள் பொட்டாசியம் பர்மாங்கனேட்டை 1 லிட்டர் நீரில் கலக்கவும். நாளொன்றுக்கு இரண்டு முறை புகட்டவும்.",
+                  "5 ರಿಂದ 10 ಸ್ಫಟಿಕಗಳ ಪೊಟ್ಯಾಸಿಯಂ ಪರ್ಮ್ಯಾಂಗನೇಟ್ ಅನ್ನು 1 ಲೀಟರ್ ನೀರಿನಲ್ಲಿ ಬೆರೆಸಿ. ದಿನಕ್ಕೆ ಎರಡು ಬಾರಿ ಕುಡಿಸಿ.",
+                  "5 से 10 क्रिस्टल पोटैशियम परमैंगनेट को 1 लीटर पानी में मिलाएं। दिन में दो बार पिलाएं।"
+                ),
               },
             ],
           },
@@ -8102,21 +8186,69 @@ export const MODULES = [
         check: [
           {
             type: "mcq",
-            q: L("What three kitchen ingredients make up the handbook's home ORS recipe for dehydration?"),
+            q: L(
+              "What three kitchen ingredients make up the handbook's home ORS recipe for dehydration?",
+              "డీహైడ్రేషన్‌కు హ్యాండ్‌బుక్ ఇంటి ORS రెసిపీలో ఏ మూడు వంటగది పదార్థాలు ఉంటాయి?",
+              "நீரிழப்புக்கான கையேட்டு வீட்டு ORS செய்முறையில் என்ன மூன்று சமையலறை பொருட்கள் உள்ளன?",
+              "ನಿರ್ಜಲೀಕರಣಕ್ಕೆ ಕೈಪಿಡಿಯ ಮನೆಯ ORS ಪಾಕವಿಧಾನದಲ್ಲಿ ಯಾವ ಮೂರು ಅಡುಗೆಮನೆ ಪದಾರ್ಥಗಳಿವೆ?",
+              "निर्जलीकरण के लिए हैंडबुक की घरेलू ORS रेसिपी में कौन सी तीन रसोई सामग्री शामिल हैं?"
+            ),
             options: [
-              L("Salt, baking soda and sugar, dissolved in water"),
-              L("Turmeric, ginger and honey"),
-              L("Only salt and water"),
-              L("Garlic and lime"),
+              L(
+                "Salt, baking soda and sugar, dissolved in water",
+                "ఉప్పు, బేకింగ్ సోడా మరియు చక్కెర, నీటిలో కరిగించినవి",
+                "உப்பு, பேக்கிங் சோடா மற்றும் சர்க்கரை, தண்ணீரில் கரைக்கப்பட்டவை",
+                "ಉಪ್ಪು, ಬೇಕಿಂಗ್ ಸೋಡಾ ಮತ್ತು ಸಕ್ಕರೆ, ನೀರಿನಲ್ಲಿ ಕರಗಿಸಿದ್ದು",
+                "नमक, बेकिंग सोडा और चीनी, पानी में घोली हुई"
+              ),
+              L(
+                "Turmeric, ginger and honey",
+                "పసుపు, అల్లం మరియు తేనె",
+                "மஞ்சள், இஞ்சி மற்றும் தேன்",
+                "ಅರಿಶಿನ, ಶುಂಠಿ ಮತ್ತು ಜೇನುತುಪ್ಪ",
+                "हल्दी, अदरक और शहद"
+              ),
+              L(
+                "Only salt and water",
+                "ఉప్పు మరియు నీరు మాత్రమే",
+                "உப்பு மற்றும் தண்ணீர் மட்டும்",
+                "ಕೇವಲ ಉಪ್ಪು ಮತ್ತು ನೀರು",
+                "केवल नमक और पानी"
+              ),
+              L(
+                "Garlic and lime",
+                "వెల్లుల్లి మరియు నిమ్మ",
+                "பூண்டு மற்றும் எலுமிச்சை",
+                "ಬೆಳ್ಳುಳ್ಳಿ ಮತ್ತು ನಿಂಬೆ",
+                "लहसुन और नींबू"
+              ),
             ],
             answer: 0,
-            explain: L("2 teaspoons salt, half a teaspoon baking soda and 4 teaspoons sugar dissolved in 1 litre of water is the handbook's dehydration recipe."),
+            explain: L(
+              "2 teaspoons salt, half a teaspoon baking soda and 4 teaspoons sugar dissolved in 1 litre of water is the handbook's dehydration recipe.",
+              "2 టీస్పూన్ల ఉప్పు, అర టీస్పూన్ బేకింగ్ సోడా మరియు 4 టీస్పూన్ల చక్కెరను 1 లీటరు నీటిలో కరిగించడం హ్యాండ్‌బుక్ డీహైడ్రేషన్ రెసిపీ.",
+              "2 தேக்கரண்டி உப்பு, அரை தேக்கரண்டி பேக்கிங் சோடா மற்றும் 4 தேக்கரண்டி சர்க்கரையை 1 லிட்டர் நீரில் கரைப்பது கையேட்டு நீரிழப்பு செய்முறை.",
+              "2 ಟೀಚಮಚ ಉಪ್ಪು, ಅರ್ಧ ಟೀಚಮಚ ಬೇಕಿಂಗ್ ಸೋಡಾ ಮತ್ತು 4 ಟೀಚಮಚ ಸಕ್ಕರೆಯನ್ನು 1 ಲೀಟರ್ ನೀರಿನಲ್ಲಿ ಕರಗಿಸುವುದು ಕೈಪಿಡಿಯ ನಿರ್ಜಲೀಕರಣ ಪಾಕವಿಧಾನ.",
+              "2 चम्मच नमक, आधा चम्मच बेकिंग सोडा और 4 चम्मच चीनी को 1 लीटर पानी में घोलना हैंडबुक की निर्जलीकरण रेसिपी है।"
+            ),
           },
           {
             type: "truefalse",
-            q: L("For mild bloat, the handbook's ginger-garlic-cardamom-clove-jaggery decoction is given at half the adult quantity to calves."),
+            q: L(
+              "For mild bloat, the handbook's ginger-garlic-cardamom-clove-jaggery decoction is given at half the adult quantity to calves.",
+              "తేలికపాటి ఉబ్బరానికి, హ్యాండ్‌బుక్ అల్లం-వెల్లుల్లి-ఏలకులు-లవంగాలు-బెల్లం కషాయాన్ని దూడలకు పెద్దల మోతాదులో సగం ఇస్తారు.",
+              "லேசான வீக்கத்திற்கு, கையேட்டு இஞ்சி-பூண்டு-ஏலக்காய்-கிராம்பு-வெல்லம் காடியை கன்றுகளுக்கு பெரியவர்களின் அளவில் பாதி கொடுக்கப்படுகிறது.",
+              "ಸೌಮ್ಯ ಉಬ್ಬರಕ್ಕೆ, ಕೈಪಿಡಿಯ ಶುಂಠಿ-ಬೆಳ್ಳುಳ್ಳಿ-ಏಲಕ್ಕಿ-ಲವಂಗ-ಬೆಲ್ಲ ಕಷಾಯವನ್ನು ಕರುಗಳಿಗೆ ವಯಸ್ಕರ ಪ್ರಮಾಣದ ಅರ್ಧ ಕೊಡಲಾಗುತ್ತದೆ.",
+              "हल्के अफारे के लिए, हैंडबुक का अदरक-लहसुन-इलायची-लौंग-गुड़ का काढ़ा बछड़ों को वयस्क मात्रा की आधी मात्रा में दिया जाता है।"
+            ),
             answer: true,
-            explain: L("Correct — the handbook specifically says to give calves half the quantity given to adult animals."),
+            explain: L(
+              "Correct — the handbook specifically says to give calves half the quantity given to adult animals.",
+              "సరైనది — దూడలకు పెద్ద జంతువులకు ఇచ్చే మోతాదులో సగం ఇవ్వాలని హ్యాండ్‌బుక్ ప్రత్యేకంగా చెబుతుంది.",
+              "சரி — கன்றுகளுக்கு பெரிய விலங்குகளுக்கு கொடுக்கப்படும் அளவில் பாதி கொடுக்க வேண்டும் என்று கையேடு குறிப்பாக கூறுகிறது.",
+              "ಸರಿ — ಕರುಗಳಿಗೆ ವಯಸ್ಕ ಪ್ರಾಣಿಗಳಿಗೆ ಕೊಡುವ ಪ್ರಮಾಣದ ಅರ್ಧ ಕೊಡಬೇಕೆಂದು ಕೈಪಿಡಿ ನಿರ್ದಿಷ್ಟವಾಗಿ ಹೇಳುತ್ತದೆ.",
+              "सही — हैंडबुक विशेष रूप से कहती है कि बछड़ों को वयस्क जानवरों को दी जाने वाली मात्रा की आधी मात्रा दी जाए।"
+            ),
           },
         ],
       },
