@@ -8804,8 +8804,14 @@ export const MODULES = [
   {
     id: "m15",
     number: 15,
-    title: L("Fodder Production"),
-    subtitle: L("Growing enough good-quality green and dry feed all year round."),
+    title: L("Fodder Production", "పశుగ్రాస ఉత్పత్తి", "தீவன உற்பத்தி", "ಮೇವು ಉತ್ಪಾದನೆ", "चारा उत्पादन"),
+    subtitle: L(
+      "Growing enough good-quality green and dry feed all year round.",
+      "ఏడాది పొడవునా తగినంత మంచి నాణ్యమైన పచ్చి మరియు ఎండు మేత పెంచడం.",
+      "ஆண்டு முழுவதும் போதுமான நல்ல தரமான பச்சை மற்றும் உலர் தீவனம் வளர்த்தல்.",
+      "ವರ್ಷವಿಡೀ ಸಾಕಷ್ಟು ಉತ್ತಮ ಗುಣಮಟ್ಟದ ಹಸಿರು ಮತ್ತು ಒಣ ಮೇವನ್ನು ಬೆಳೆಸುವುದು.",
+      "पूरे साल पर्याप्त अच्छी गुणवत्ता का हरा और सूखा चारा उगाना।"
+    ),
     icon: "sprout",
     available: true,
     lessons: [
@@ -8814,162 +8820,296 @@ export const MODULES = [
   // ==================================================================
   {
     id: "m15-l1",
-    title: L("Why Green Fodder Matters"),
+    title: L("Why Green Fodder Matters", "పచ్చి మేత ఎందుకు ముఖ్యం", "பச்சை தீவனம் ஏன் முக்கியம்", "ಹಸಿರು ಮೇವು ಏಕೆ ಮುಖ್ಯ", "हरा चारा क्यों महत्वपूर्ण है"),
     estMinutes: 8,
     hook: [
       {
         type: "hero",
-        heading: L("The Cheapest, Most Powerful Feed on Your Farm"),
+        heading: L(
+          "The Cheapest, Most Powerful Feed on Your Farm",
+          "మీ పొలంలో అత్యంత చౌకైన, అత్యంత శక్తివంతమైన మేత",
+          "உங்கள் பண்ணையில் மிகவும் மலிவான, மிகவும் சக்திவாய்ந்த தீவனம்",
+          "ನಿಮ್ಮ ಫಾರ್ಮ್‌ನಲ್ಲಿ ಅತ್ಯಂತ ಅಗ್ಗದ, ಅತ್ಯಂತ ಶಕ್ತಿಶಾಲಿ ಮೇವು",
+          "आपके खेत का सबसे सस्ता, सबसे ताकतवर चारा"
+        ),
         text: L(
-          "Green fodder — fresh-cut grass and green crops fed straight to the animal — is one of the simplest ways to keep dairy animals healthy and productive at low cost. But it isn't available in the same amount all year round. This lesson explains why green fodder matters so much, and why farms need a plan to deal with the seasons when there isn't enough of it."
+          "Green fodder — fresh-cut grass and green crops fed straight to the animal — is one of the simplest ways to keep dairy animals healthy and productive at low cost. But it isn't available in the same amount all year round. This lesson explains why green fodder matters so much, and why farms need a plan to deal with the seasons when there isn't enough of it.",
+          "పచ్చి మేత — తాజాగా కోసిన గడ్డి మరియు పచ్చి పంటలను నేరుగా జంతువుకు తినిపించడం — పాడి జంతువులను తక్కువ ఖర్చుతో ఆరోగ్యంగా మరియు ఉత్పాదకంగా ఉంచడానికి అత్యంత సులభమైన మార్గాలలో ఒకటి. కానీ ఇది ఏడాది పొడవునా ఒకే మోతాదులో లభించదు. పచ్చి మేత ఎందుకు ఇంత ముఖ్యమో, మరియు తగినంత లభించని కాలాల్లో ఎదుర్కోవడానికి పొలాలకు ఒక ప్రణాళిక ఎందుకు అవసరమో ఈ పాఠం వివరిస్తుంది.",
+          "பச்சை தீவனம் — புதிதாக வெட்டப்பட்ட புல் மற்றும் பச்சை பயிர்களை நேரடியாக விலங்குக்கு கொடுப்பது — பால் கால்நடைகளை குறைந்த செலவில் ஆரோக்கியமாகவும் உற்பத்தித்திறன் மிக்கதாகவும் வைத்திருக்க எளிய வழிகளில் ஒன்றாகும். ஆனால் இது ஆண்டு முழுவதும் ஒரே அளவில் கிடைப்பதில்லை. பச்சை தீவனம் ஏன் இவ்வளவு முக்கியம், மற்றும் போதுமான அளவு கிடைக்காத பருவங்களை சமாளிக்க பண்ணைகளுக்கு ஏன் ஒரு திட்டம் தேவை என்பதை இந்த பாடம் விளக்குகிறது.",
+          "ಹಸಿರು ಮೇವು — ತಾಜಾ ಕತ್ತರಿಸಿದ ಹುಲ್ಲು ಮತ್ತು ಹಸಿರು ಬೆಳೆಗಳನ್ನು ನೇರವಾಗಿ ಪ್ರಾಣಿಗೆ ನೀಡುವುದು — ಕಡಿಮೆ ವೆಚ್ಚದಲ್ಲಿ ಹೈನು ಪ್ರಾಣಿಗಳನ್ನು ಆರೋಗ್ಯಕರವಾಗಿ ಮತ್ತು ಉತ್ಪಾದಕವಾಗಿ ಇಡುವ ಅತ್ಯಂತ ಸರಳ ವಿಧಾನಗಳಲ್ಲಿ ಒಂದಾಗಿದೆ. ಆದರೆ ಇದು ವರ್ಷವಿಡೀ ಒಂದೇ ಪ್ರಮಾಣದಲ್ಲಿ ಲಭ್ಯವಿರುವುದಿಲ್ಲ. ಹಸಿರು ಮೇವು ಏಕೆ ಇಷ್ಟು ಮುಖ್ಯ, ಮತ್ತು ಸಾಕಷ್ಟು ಲಭ್ಯವಿಲ್ಲದ ಋತುಗಳನ್ನು ಎದುರಿಸಲು ಫಾರ್ಮ್‌ಗಳಿಗೆ ಏಕೆ ಯೋಜನೆ ಬೇಕು ಎಂಬುದನ್ನು ಈ ಪಾಠ ವಿವರಿಸುತ್ತದೆ.",
+          "हरा चारा — ताज़ा काटी गई घास और हरी फसलें जो सीधे जानवर को खिलाई जाती हैं — डेयरी पशुओं को कम लागत में स्वस्थ और उत्पादक बनाए रखने के सबसे आसान तरीकों में से एक है। लेकिन यह पूरे साल एक जैसी मात्रा में उपलब्ध नहीं होता। यह पाठ बताता है कि हरा चारा इतना महत्वपूर्ण क्यों है, और जिन मौसमों में यह पर्याप्त नहीं होता उनसे निपटने के लिए खेतों को योजना की आवश्यकता क्यों है।"
         ),
       },
     ],
     topics: [
       {
         id: "t-m15-green-fodder-value",
-        title: L("What Is Green Fodder, and Why Does It Matter?"),
+        title: L(
+          "What Is Green Fodder, and Why Does It Matter?",
+          "పచ్చి మేత అంటే ఏమిటి, అది ఎందుకు ముఖ్యం?",
+          "பச்சை தீவனம் என்றால் என்ன, அது ஏன் முக்கியம்?",
+          "ಹಸಿರು ಮೇವು ಎಂದರೇನು, ಅದು ಏಕೆ ಮುಖ್ಯ?",
+          "हरा चारा क्या है, और यह क्यों महत्वपूर्ण है?"
+        ),
         teach: [
             {
               type: "photo",
               src: "assets/photo-m15-green-fodder.jpg",
-              alt: L("A farmer manually cutting fresh green fodder from a tall, lush green fodder crop in a field in Punjab, India"),
-              caption: L("Green fodder is fed to the animal soon after cutting, while it still has its natural moisture."),
+              alt: L(
+                "A farmer manually cutting fresh green fodder from a tall, lush green fodder crop in a field in Punjab, India",
+                "పంజాబ్‌లోని ఒక పొలంలో పొడవైన, పచ్చని పశుగ్రాస పంట నుండి ఒక రైతు చేతితో తాజా పచ్చి మేతను కోస్తున్నాడు",
+                "பஞ்சாபில் உள்ள ஒரு வயலில் உயரமான, செழிப்பான தீவனப் பயிரிலிருந்து ஒரு விவசாயி கையால் புதிய பச்சை தீவனத்தை வெட்டுகிறார்",
+                "ಪಂಜಾಬ್‌ನ ಒಂದು ಹೊಲದಲ್ಲಿ ಎತ್ತರದ, ಹಸಿರಿನಿಂದ ಕೂಡಿದ ಮೇವಿನ ಬೆಳೆಯಿಂದ ಒಬ್ಬ ರೈತ ಕೈಯಿಂದ ತಾಜಾ ಹಸಿರು ಮೇವನ್ನು ಕತ್ತರಿಸುತ್ತಿದ್ದಾರೆ",
+                "पंजाब के एक खेत में एक किसान लंबी, हरी-भरी चारा फसल से ताज़ा हरा चारा हाथ से काट रहा है"
+              ),
+              caption: L(
+                "Green fodder is fed to the animal soon after cutting, while it still has its natural moisture.",
+                "పచ్చి మేతను కోసిన వెంటనే, అది సహజ తేమను కలిగి ఉన్నప్పుడే జంతువుకు తినిపిస్తారు.",
+                "பச்சை தீவனம் வெட்டப்பட்ட உடனேயே, அது இயற்கை ஈரப்பதத்துடன் இருக்கும்போதே விலங்குக்கு கொடுக்கப்படுகிறது.",
+                "ಹಸಿರು ಮೇವನ್ನು ಕತ್ತರಿಸಿದ ಕೂಡಲೇ, ಅದು ಇನ್ನೂ ನೈಸರ್ಗಿಕ ತೇವಾಂಶವನ್ನು ಹೊಂದಿರುವಾಗಲೇ ಪ್ರಾಣಿಗೆ ನೀಡಲಾಗುತ್ತದೆ.",
+                "हरा चारा काटने के तुरंत बाद, जब तक उसमें प्राकृतिक नमी बनी रहती है, जानवर को खिलाया जाता है।"
+              ),
             },
           {
             type: "text",
-            heading: L("What Do We Mean by 'Green Fodder'?"),
+            heading: L("What Do We Mean by 'Green Fodder'?", "'పచ్చి మేత' అంటే మనం దేనిని ఉద్దేశిస్తున్నాము?", "'பச்சை தீவனம்' என்பதால் நாம் என்ன பொருள்படுத்துகிறோம்?", "'ಹಸಿರು ಮೇವು' ಎಂದರೆ ನಾವು ಏನನ್ನು ಅರ್ಥೈಸುತ್ತೇವೆ?", "'हरा चारा' से हमारा क्या मतलब है?"),
             html: L(
-              "<b>Green fodder</b> simply means fresh, green plant material — grasses and green crops — cut and fed to the animal while it is still fresh, rather than dried or stored. This is different from dry fodder like straw, and different from cattle feed (the bought, processed concentrate mix). Green fodder is a separate, important part of a balanced diet."
+              "<b>Green fodder</b> simply means fresh, green plant material — grasses and green crops — cut and fed to the animal while it is still fresh, rather than dried or stored. This is different from dry fodder like straw, and different from cattle feed (the bought, processed concentrate mix). Green fodder is a separate, important part of a balanced diet.",
+              "<b>పచ్చి మేత</b> అంటే తాజా, పచ్చని మొక్కల పదార్థం — గడ్డి మరియు పచ్చి పంటలు — వీటిని ఎండబెట్టకుండా లేదా నిల్వ చేయకుండా, ఇంకా తాజాగా ఉన్నప్పుడే కోసి జంతువుకు తినిపిస్తారు. ఇది గడ్డి వంటి ఎండు మేత నుండి భిన్నమైనది, మరియు కొనుగోలు చేసిన, ప్రాసెస్ చేసిన సాంద్రీకృత మిశ్రమమైన పశుగ్రాస దాణా నుండి కూడా భిన్నమైనది. పచ్చి మేత సమతుల్య ఆహారంలో ఒక వేరైన, ముఖ్యమైన భాగం.",
+              "<b>பச்சை தீவனம்</b> என்பது புதிய, பச்சை தாவரப் பொருள் — புற்கள் மற்றும் பச்சை பயிர்கள் — உலர்த்தாமல் அல்லது சேமிக்காமல், இன்னும் புதியதாக இருக்கும்போதே வெட்டி விலங்குக்கு கொடுக்கப்படுவதைக் குறிக்கிறது. இது வைக்கோல் போன்ற உலர் தீவனத்திலிருந்தும், வாங்கப்பட்ட, பதப்படுத்தப்பட்ட செறிவூட்டப்பட்ட கலவையான கால்நடை தீவனத்திலிருந்தும் வேறுபட்டது. பச்சை தீவனம் சமச்சீர் உணவின் தனி, முக்கியமான பகுதியாகும்.",
+              "<b>ಹಸಿರು ಮೇವು</b> ಎಂದರೆ ತಾಜಾ, ಹಸಿರು ಸಸ್ಯ ವಸ್ತು — ಹುಲ್ಲುಗಳು ಮತ್ತು ಹಸಿರು ಬೆಳೆಗಳು — ಒಣಗಿಸದೆ ಅಥವಾ ಸಂಗ್ರಹಿಸದೆ, ಇನ್ನೂ ತಾಜಾವಾಗಿರುವಾಗಲೇ ಕತ್ತರಿಸಿ ಪ್ರಾಣಿಗೆ ನೀಡಲಾಗುತ್ತದೆ. ಇದು ಒಣಹುಲ್ಲಿನಂತಹ ಒಣ ಮೇವಿಗಿಂತ ಭಿನ್ನವಾಗಿದೆ, ಮತ್ತು ಖರೀದಿಸಿದ, ಸಂಸ್ಕರಿಸಿದ ಸಾಂದ್ರೀಕೃತ ಮಿಶ್ರಣವಾದ ಕ್ಯಾಟಲ್ ಫೀಡ್‌ಗಿಂತಲೂ ಭಿನ್ನವಾಗಿದೆ. ಹಸಿರು ಮೇವು ಸಮತೋಲಿತ ಆಹಾರದ ಪ್ರತ್ಯೇಕ, ಪ್ರಮುಖ ಭಾಗವಾಗಿದೆ.",
+              "<b>हरा चारा</b> का सीधा मतलब है ताज़ा, हरा पौधा पदार्थ — घास और हरी फसलें — जिसे सुखाए या भंडारित किए बिना, ताज़ा रहते हुए ही काटकर जानवर को खिलाया जाता है। यह पुआल जैसे सूखे चारे से अलग है, और खरीदे गए, प्रोसेस किए गए सांद्र मिश्रण वाले पशु आहार से भी अलग है। हरा चारा संतुलित आहार का एक अलग, महत्वपूर्ण हिस्सा है."
             ),
           },
           {
             type: "glossary",
-            term: L("Green Fodder"),
+            term: L("Green Fodder", "పచ్చి మేత", "பச்சை தீவனம்", "ಹಸಿರು ಮೇವು", "हरा चारा"),
             meaning: L(
-              "Fresh green grass or green crop material fed to the animal soon after cutting, while it still has its natural moisture — as opposed to dry fodder (like straw) or bought cattle feed."
+              "Fresh green grass or green crop material fed to the animal soon after cutting, while it still has its natural moisture — as opposed to dry fodder (like straw) or bought cattle feed.",
+              "కోసిన వెంటనే, సహజ తేమను కలిగి ఉన్నప్పుడే జంతువుకు తినిపించే తాజా పచ్చి గడ్డి లేదా పచ్చి పంట పదార్థం — గడ్డి వంటి ఎండు మేత లేదా కొనుగోలు చేసిన పశుగ్రాస దాణాకు విరుద్ధంగా.",
+              "வெட்டிய உடனேயே, இயற்கை ஈரப்பதத்துடன் இருக்கும்போதே விலங்குக்கு கொடுக்கப்படும் புதிய பச்சை புல் அல்லது பச்சை பயிர் பொருள் — வைக்கோல் போன்ற உலர் தீவனம் அல்லது வாங்கப்பட்ட கால்நடை தீவனத்திற்கு மாறாக.",
+              "ಕತ್ತರಿಸಿದ ಕೂಡಲೇ, ನೈಸರ್ಗಿಕ ತೇವಾಂಶವನ್ನು ಹೊಂದಿರುವಾಗಲೇ ಪ್ರಾಣಿಗೆ ನೀಡುವ ತಾಜಾ ಹಸಿರು ಹುಲ್ಲು ಅಥವಾ ಹಸಿರು ಬೆಳೆ ವಸ್ತು — ಒಣ ಮೇವು (ಒಣಹುಲ್ಲಿನಂತಹ) ಅಥವಾ ಖರೀದಿಸಿದ ಕ್ಯಾಟಲ್ ಫೀಡ್‌ಗೆ ವ್ಯತಿರಿಕ್ತವಾಗಿ.",
+              "काटने के तुरंत बाद, जब तक उसमें प्राकृतिक नमी बनी रहती है, जानवर को खिलाई जाने वाली ताज़ा हरी घास या हरी फसल का पदार्थ — पुआल जैसे सूखे चारे या खरीदे गए पशु आहार के विपरीत।"
             ),
           },
           {
             type: "text",
-            heading: L("Why Green Fodder Is So Valuable"),
+            heading: L("Why Green Fodder Is So Valuable", "పచ్చి మేత ఎందుకు అంత విలువైనది", "பச்சை தீவனம் ஏன் இவ்வளவு மதிப்புமிக்கது", "ಹಸಿರು ಮೇವು ಏಕೆ ಇಷ್ಟು ಮೌಲ್ಯಯುತ", "हरा चारा इतना मूल्यवान क्यों है"),
             html: L(
-              "Green fodder is an economical source of nutrients — it costs far less than buying extra cattle feed. Animals also find it highly <b>palatable</b> (tasty and easy to eat) and easy to digest. When green fodder is fed together with dry fodder like straw, the natural microbes in the green fodder actually help the animal digest that straw better too. On top of that, feeding enough green fodder helps keep animals healthier overall and supports better breeding performance."
+              "Green fodder is an economical source of nutrients — it costs far less than buying extra cattle feed. Animals also find it highly <b>palatable</b> (tasty and easy to eat) and easy to digest. When green fodder is fed together with dry fodder like straw, the natural microbes in the green fodder actually help the animal digest that straw better too. On top of that, feeding enough green fodder helps keep animals healthier overall and supports better breeding performance.",
+              "పచ్చి మేత పోషకాలకు ఒక పొదుపు మూలం — ఇది అదనపు పశుగ్రాస దాణా కొనుగోలు చేయడం కంటే చాలా తక్కువ ఖర్చుతో కూడుకున్నది. జంతువులు దీనిని <b>రుచికరమైనది</b> (రుచిగా, తినడానికి సులభంగా) మరియు జీర్ణం చేసుకోవడానికి సులభంగా భావిస్తాయి. పచ్చి మేతను గడ్డి వంటి ఎండు మేతతో కలిపి తినిపించినప్పుడు, పచ్చి మేతలోని సహజ సూక్ష్మజీవులు ఆ గడ్డిని కూడా జంతువు బాగా జీర్ణించుకోవడానికి సహాయపడతాయి. దీనితో పాటు, తగినంత పచ్చి మేత తినిపించడం జంతువులను మొత్తంగా మరింత ఆరోగ్యంగా ఉంచడానికి మరియు మెరుగైన సంతానోత్పత్తి పనితీరుకు తోడ్పడుతుంది.",
+              "பச்சை தீவனம் ஊட்டச்சத்துக்களின் சிக்கனமான ஆதாரம் — இது கூடுதல் கால்நடை தீவனம் வாங்குவதை விட மிகவும் குறைவான செலவில் கிடைக்கும். விலங்குகளும் இதை மிகவும் <b>ருசிகரமானதாகவும்</b> (சுவையானதாகவும், எளிதாக உண்ணக்கூடியதாகவும்) மற்றும் எளிதில் ஜீரணிக்கக்கூடியதாகவும் காண்கின்றன. பச்சை தீவனத்தை வைக்கோல் போன்ற உலர் தீவனத்துடன் சேர்த்து கொடுக்கும்போது, பச்சை தீவனத்தில் உள்ள இயற்கை நுண்ணுயிரிகள் அந்த வைக்கோலை விலங்கு சிறப்பாக ஜீரணிக்க உதவுகின்றன. இதனுடன், போதுமான பச்சை தீவனம் கொடுப்பது விலங்குகளை ஒட்டுமொத்தமாக ஆரோக்கியமாக வைத்திருக்க உதவுகிறது மற்றும் சிறந்த இனப்பெருக்க செயல்திறனை ஆதரிக்கிறது.",
+              "ಹಸಿರು ಮೇವು ಪೋಷಕಾಂಶಗಳ ಮಿತವ್ಯಯದ ಮೂಲವಾಗಿದೆ — ಇದು ಹೆಚ್ಚುವರಿ ಕ್ಯಾಟಲ್ ಫೀಡ್ ಖರೀದಿಸುವುದಕ್ಕಿಂತ ಬಹಳ ಕಡಿಮೆ ವೆಚ್ಚದಲ್ಲಿ ಸಿಗುತ್ತದೆ. ಪ್ರಾಣಿಗಳಿಗೂ ಇದು ಹೆಚ್ಚು <b>ರುಚಿಕರ</b> (ರುಚಿಯಾದ ಮತ್ತು ತಿನ್ನಲು ಸುಲಭ) ಮತ್ತು ಜೀರ್ಣಿಸಿಕೊಳ್ಳಲು ಸುಲಭವಾಗಿ ಕಂಡುಬರುತ್ತದೆ. ಹಸಿರು ಮೇವನ್ನು ಒಣಹುಲ್ಲಿನಂತಹ ಒಣ ಮೇವಿನೊಂದಿಗೆ ನೀಡಿದಾಗ, ಹಸಿರು ಮೇವಿನಲ್ಲಿರುವ ನೈಸರ್ಗಿಕ ಸೂಕ್ಷ್ಮಜೀವಿಗಳು ಆ ಒಣಹುಲ್ಲನ್ನು ಸಹ ಪ್ರಾಣಿ ಉತ್ತಮವಾಗಿ ಜೀರ್ಣಿಸಿಕೊಳ್ಳಲು ಸಹಾಯ ಮಾಡುತ್ತವೆ. ಇದರ ಜೊತೆಗೆ, ಸಾಕಷ್ಟು ಹಸಿರು ಮೇವು ನೀಡುವುದು ಪ್ರಾಣಿಗಳನ್ನು ಒಟ್ಟಾರೆಯಾಗಿ ಆರೋಗ್ಯಕರವಾಗಿ ಇಡಲು ಮತ್ತು ಉತ್ತಮ ಸಂತಾನೋತ್ಪತ್ತಿ ಕಾರ್ಯಕ್ಷಮತೆಗೆ ಸಹಾಯ ಮಾಡುತ್ತದೆ.",
+              "हरा चारा पोषक तत्वों का एक किफायती स्रोत है — इसकी लागत अतिरिक्त पशु आहार खरीदने से कहीं कम होती है। जानवरों को यह अत्यधिक <b>स्वादिष्ट</b> (खाने में सुस्वाद और आसान) और पचाने में आसान लगता है। जब हरे चारे को पुआल जैसे सूखे चारे के साथ खिलाया जाता है, तो हरे चारे में मौजूद प्राकृतिक सूक्ष्मजीव जानवर को उस पुआल को भी बेहतर तरीके से पचाने में मदद करते हैं। इसके अलावा, पर्याप्त हरा चारा खिलाने से जानवर समग्र रूप से अधिक स्वस्थ रहते हैं और बेहतर प्रजनन क्षमता में मदद मिलती है।"
             ),
           },
           {
             type: "glossary",
-            term: L("Digestibility"),
+            term: L("Digestibility", "జీర్ణశక్తి", "செரிமானத்திறன்", "ಜೀರ್ಣಕ್ರಿಯೆ ಸಾಮರ್ಥ್ಯ", "पाचनशक्ति"),
             meaning: L(
-              "How easily an animal's body can break down a feed and absorb the nutrients from it. A highly digestible feed like green fodder gives the animal more real nutrition per mouthful than a poorly digestible one."
+              "How easily an animal's body can break down a feed and absorb the nutrients from it. A highly digestible feed like green fodder gives the animal more real nutrition per mouthful than a poorly digestible one.",
+              "జంతువు శరీరం ఒక దాణాను ఎంత సులభంగా విచ్ఛిన్నం చేసి దాని నుండి పోషకాలను గ్రహించగలదో అనేది. పచ్చి మేత వంటి అధిక జీర్ణశక్తి కలిగిన దాణా, తక్కువ జీర్ణశక్తి కలిగిన దాణా కంటే ప్రతి ముద్దకు జంతువుకు ఎక్కువ నిజమైన పోషణను అందిస్తుంది.",
+              "ஒரு விலங்கின் உடல் ஒரு தீவனத்தை எவ்வளவு எளிதாக உடைத்து அதிலிருந்து ஊட்டச்சத்துக்களை உறிஞ்சிக்கொள்ள முடியும் என்பது. பச்சை தீவனம் போன்ற அதிக செரிமானத்திறன் கொண்ட தீவனம், குறைந்த செரிமானத்திறன் கொண்டதை விட ஒவ்வொரு கவளத்திற்கும் விலங்குக்கு அதிக உண்மையான ஊட்டச்சத்தை அளிக்கிறது.",
+              "ಪ್ರಾಣಿಯ ದೇಹವು ಒಂದು ಮೇವನ್ನು ಎಷ್ಟು ಸುಲಭವಾಗಿ ಒಡೆದು ಅದರಿಂದ ಪೋಷಕಾಂಶಗಳನ್ನು ಹೀರಿಕೊಳ್ಳಬಲ್ಲದು ಎಂಬುದು. ಹಸಿರು ಮೇವಿನಂತಹ ಹೆಚ್ಚು ಜೀರ್ಣವಾಗುವ ಮೇವು, ಕಡಿಮೆ ಜೀರ್ಣವಾಗುವ ಮೇವಿಗಿಂತ ಪ್ರತಿ ತುತ್ತಿಗೆ ಪ್ರಾಣಿಗೆ ಹೆಚ್ಚು ನೈಜ ಪೋಷಣೆಯನ್ನು ನೀಡುತ್ತದೆ.",
+              "किसी जानवर का शरीर किसी चारे को कितनी आसानी से तोड़कर उससे पोषक तत्वों को सोख सकता है, यह इसी बात पर निर्भर करता है। हरे चारे जैसा अत्यधिक पाचनशील चारा, कम पाचनशील चारे की तुलना में हर निवाले में जानवर को अधिक वास्तविक पोषण देता है।"
             ),
           },
           {
             type: "stat-grid",
             items: [
               {
-                label: L("Cost"),
-                text: L("More green fodder in the diet can lower the overall cost of producing milk, since it is cheaper than extra bought feed."),
+                label: L("Cost", "ఖర్చు", "செலவு", "ವೆಚ್ಚ", "लागत"),
+                text: L(
+                  "More green fodder in the diet can lower the overall cost of producing milk, since it is cheaper than extra bought feed.",
+                  "ఆహారంలో ఎక్కువ పచ్చి మేత ఉండటం వల్ల పాల ఉత్పత్తి మొత్తం ఖర్చు తగ్గుతుంది, ఎందుకంటే ఇది అదనంగా కొనుగోలు చేసే దాణా కంటే చౌకైనది.",
+                  "உணவில் அதிக பச்சை தீவனம் இருப்பது பால் உற்பத்தியின் மொத்த செலவைக் குறைக்கும், ஏனெனில் இது கூடுதல் வாங்கிய தீவனத்தை விட மலிவானது.",
+                  "ಆಹಾರದಲ್ಲಿ ಹೆಚ್ಚು ಹಸಿರು ಮೇವು ಇರುವುದರಿಂದ ಹಾಲು ಉತ್ಪಾದನೆಯ ಒಟ್ಟು ವೆಚ್ಚ ಕಡಿಮೆಯಾಗುತ್ತದೆ, ಏಕೆಂದರೆ ಇದು ಹೆಚ್ಚುವರಿ ಖರೀದಿಸಿದ ಆಹಾರಕ್ಕಿಂತ ಅಗ್ಗವಾಗಿದೆ.",
+                  "आहार में अधिक हरा चारा होने से दूध उत्पादन की कुल लागत कम हो सकती है, क्योंकि यह अतिरिक्त खरीदे गए आहार से सस्ता होता है।"
+                ),
               },
               {
-                label: L("Digestion"),
-                text: L("Green fodder is easy to digest, and it also helps the animal get more nutrition out of dry fodder like straw when fed together."),
+                label: L("Digestion", "జీర్ణక్రియ", "செரிமானம்", "ಜೀರ್ಣಕ್ರಿಯೆ", "पाचन"),
+                text: L(
+                  "Green fodder is easy to digest, and it also helps the animal get more nutrition out of dry fodder like straw when fed together.",
+                  "పచ్చి మేత సులభంగా జీర్ణమవుతుంది, మరియు కలిపి తినిపించినప్పుడు గడ్డి వంటి ఎండు మేత నుండి జంతువు ఎక్కువ పోషణ పొందడానికి కూడా సహాయపడుతుంది.",
+                  "பச்சை தீவனம் எளிதில் ஜீரணமாகும், மேலும் இது சேர்த்து கொடுக்கும்போது வைக்கோல் போன்ற உலர் தீவனத்திலிருந்து விலங்கு அதிக ஊட்டச்சத்து பெற உதவுகிறது.",
+                  "ಹಸಿರು ಮೇವು ಜೀರ್ಣಿಸಿಕೊಳ್ಳಲು ಸುಲಭ, ಮತ್ತು ಒಟ್ಟಿಗೆ ನೀಡಿದಾಗ ಒಣಹುಲ್ಲಿನಂತಹ ಒಣ ಮೇವಿನಿಂದ ಪ್ರಾಣಿ ಹೆಚ್ಚು ಪೋಷಣೆ ಪಡೆಯಲು ಸಹ ಸಹಾಯ ಮಾಡುತ್ತದೆ.",
+                  "हरा चारा पचाने में आसान होता है, और साथ में खिलाए जाने पर यह जानवर को पुआल जैसे सूखे चारे से अधिक पोषण प्राप्त करने में भी मदद करता है।"
+                ),
               },
               {
-                label: L("Health and Breeding"),
-                text: L("Animals getting enough green fodder tend to stay healthier and breed better than animals that don't."),
+                label: L("Health and Breeding", "ఆరోగ్యం మరియు సంతానోత్పత్తి", "ஆரோக்கியம் மற்றும் இனப்பெருக்கம்", "ಆರೋಗ್ಯ ಮತ್ತು ಸಂತಾನೋತ್ಪತ್ತಿ", "स्वास्थ्य और प्रजनन"),
+                text: L(
+                  "Animals getting enough green fodder tend to stay healthier and breed better than animals that don't.",
+                  "తగినంత పచ్చి మేత పొందే జంతువులు, పొందని జంతువుల కంటే ఆరోగ్యంగా ఉంటాయి మరియు మెరుగ్గా సంతానోత్పత్తి చేస్తాయి.",
+                  "போதுமான பச்சை தீவனம் பெறும் விலங்குகள், பெறாத விலங்குகளை விட ஆரோக்கியமாக இருக்கும் மற்றும் சிறப்பாக இனப்பெருக்கம் செய்யும்.",
+                  "ಸಾಕಷ್ಟು ಹಸಿರು ಮೇವು ಪಡೆಯುವ ಪ್ರಾಣಿಗಳು, ಪಡೆಯದ ಪ್ರಾಣಿಗಳಿಗಿಂತ ಹೆಚ್ಚು ಆರೋಗ್ಯಕರವಾಗಿರುತ್ತವೆ ಮತ್ತು ಉತ್ತಮವಾಗಿ ಸಂತಾನೋತ್ಪತ್ತಿ ಮಾಡುತ್ತವೆ.",
+                  "पर्याप्त हरा चारा पाने वाले जानवर, न पाने वाले जानवरों की तुलना में अधिक स्वस्थ रहते हैं और बेहतर प्रजनन करते हैं।"
+                ),
               },
             ],
           },
           {
             type: "callout",
             style: "tip",
-            heading: L("The Takeaway"),
+            heading: L("The Takeaway", "సారాంశం", "சுருக்கம்", "ಸಾರಾಂಶ", "सार"),
             text: L(
-              "Green fodder isn't a luxury — it's one of the most cost-effective tools a farm has for keeping animals healthy and milk yields good. That's exactly why making sure it's available all year round, not just in the good months, matters so much."
+              "Green fodder isn't a luxury — it's one of the most cost-effective tools a farm has for keeping animals healthy and milk yields good. That's exactly why making sure it's available all year round, not just in the good months, matters so much.",
+              "పచ్చి మేత ఒక విలాసం కాదు — జంతువులను ఆరోగ్యంగా ఉంచడానికి మరియు పాల దిగుబడిని మంచిగా ఉంచడానికి పొలం వద్ద ఉన్న అత్యంత ఖర్చు-సమర్థవంతమైన సాధనాల్లో ఇది ఒకటి. అందుకే మంచి నెలల్లో మాత్రమే కాకుండా, ఏడాది పొడవునా అది లభ్యమయ్యేలా చూసుకోవడం ఇంత ముఖ్యం.",
+              "பச்சை தீவனம் ஆடம்பரம் அல்ல — விலங்குகளை ஆரோக்கியமாக வைத்திருக்கவும் பால் விளைச்சலை நன்றாக வைத்திருக்கவும் ஒரு பண்ணையிடம் உள்ள மிகவும் செலவு-திறன்மிக்க கருவிகளில் இதுவும் ஒன்று. நல்ல மாதங்களில் மட்டுமல்லாமல், ஆண்டு முழுவதும் அது கிடைப்பதை உறுதி செய்வது இவ்வளவு முக்கியமாக இருப்பதற்கு அதுவே காரணம்.",
+              "ಹಸಿರು ಮೇವು ಐಷಾರಾಮಿಯಲ್ಲ — ಪ್ರಾಣಿಗಳನ್ನು ಆರೋಗ್ಯಕರವಾಗಿ ಮತ್ತು ಹಾಲಿನ ಇಳುವರಿಯನ್ನು ಉತ್ತಮವಾಗಿ ಇಡಲು ಫಾರ್ಮ್‌ ಬಳಿ ಇರುವ ಅತ್ಯಂತ ವೆಚ್ಚ-ಪರಿಣಾಮಕಾರಿ ಸಾಧನಗಳಲ್ಲಿ ಇದೂ ಒಂದು. ಒಳ್ಳೆಯ ತಿಂಗಳುಗಳಲ್ಲಿ ಮಾತ್ರವಲ್ಲದೆ, ವರ್ಷವಿಡೀ ಅದು ಲಭ್ಯವಿರುವಂತೆ ನೋಡಿಕೊಳ್ಳುವುದು ಇಷ್ಟು ಮುಖ್ಯವಾಗಲು ಇದೇ ಕಾರಣ.",
+              "हरा चारा कोई विलासिता नहीं है — यह जानवरों को स्वस्थ रखने और दूध की पैदावार अच्छी रखने के लिए खेत के पास मौजूद सबसे किफायती साधनों में से एक है। यही वजह है कि केवल अच्छे महीनों में ही नहीं, बल्कि पूरे साल इसका उपलब्ध रहना सुनिश्चित करना इतना महत्वपूर्ण है।"
             ),
           },
         ],
         check: [
           {
             type: "mcq",
-            q: L("What is 'green fodder'?"),
+            q: L("What is 'green fodder'?", "'పచ్చి మేత' అంటే ఏమిటి?", "'பச்சை தீவனம்' என்றால் என்ன?", "'ಹಸಿರು ಮೇವು' ಎಂದರೇನು?", "'हरा चारा' क्या है?"),
             options: [
-              L("Dried straw stored for later"),
-              L("Fresh green grass or green crop material fed soon after cutting"),
-              L("A bought, processed cattle feed mix"),
-              L("Medicine given to sick animals"),
+              L("Dried straw stored for later", "తర్వాత కోసం నిల్వ చేసిన ఎండు గడ్డి", "பின்னர் பயன்படுத்த சேமிக்கப்பட்ட உலர்ந்த வைக்கோல்", "ನಂತರಕ್ಕಾಗಿ ಸಂಗ್ರಹಿಸಿದ ಒಣಗಿದ ಹುಲ್ಲು", "बाद के लिए भंडारित सूखा पुआल"),
+              L(
+                "Fresh green grass or green crop material fed soon after cutting",
+                "కోసిన వెంటనే తినిపించే తాజా పచ్చి గడ్డి లేదా పచ్చి పంట పదార్థం",
+                "வெட்டிய உடனேயே கொடுக்கப்படும் புதிய பச்சை புல் அல்லது பச்சை பயிர் பொருள்",
+                "ಕತ್ತರಿಸಿದ ಕೂಡಲೇ ನೀಡುವ ತಾಜಾ ಹಸಿರು ಹುಲ್ಲು ಅಥವಾ ಹಸಿರು ಬೆಳೆ ವಸ್ತು",
+                "काटने के तुरंत बाद खिलाई जाने वाली ताज़ा हरी घास या हरी फसल का पदार्थ"
+              ),
+              L("A bought, processed cattle feed mix", "కొనుగోలు చేసిన, ప్రాసెస్ చేసిన పశుగ్రాస దాణా మిశ్రమం", "வாங்கப்பட்ட, பதப்படுத்தப்பட்ட கால்நடை தீவன கலவை", "ಖರೀದಿಸಿದ, ಸಂಸ್ಕರಿಸಿದ ಕ್ಯಾಟಲ್ ಫೀಡ್ ಮಿಶ್ರಣ", "खरीदा गया, प्रोसेस किया हुआ पशु आहार मिश्रण"),
+              L("Medicine given to sick animals", "అనారోగ్యంతో ఉన్న జంతువులకు ఇచ్చే మందు", "நோய்வாய்ப்பட்ட விலங்குகளுக்கு கொடுக்கப்படும் மருந்து", "ಅನಾರೋಗ್ಯದ ಪ್ರಾಣಿಗಳಿಗೆ ನೀಡುವ ಔಷಧಿ", "बीमार जानवरों को दी जाने वाली दवा"),
             ],
             answer: 1,
-            explain: L("Green fodder is fresh green plant material, fed to the animal while it still has its natural moisture — different from dry straw or bought feed."),
+            explain: L(
+              "Green fodder is fresh green plant material, fed to the animal while it still has its natural moisture — different from dry straw or bought feed.",
+              "పచ్చి మేత తాజా పచ్చని మొక్కల పదార్థం, ఇది సహజ తేమను కలిగి ఉన్నప్పుడే జంతువుకు తినిపిస్తారు — ఇది ఎండు గడ్డి లేదా కొనుగోలు చేసిన దాణా నుండి భిన్నమైనది.",
+              "பச்சை தீவனம் புதிய பச்சை தாவரப் பொருள், இது இயற்கை ஈரப்பதத்துடன் இருக்கும்போதே விலங்குக்கு கொடுக்கப்படுகிறது — இது உலர் வைக்கோல் அல்லது வாங்கிய தீவனத்திலிருந்து வேறுபட்டது.",
+              "ಹಸಿರು ಮೇವು ತಾಜಾ ಹಸಿರು ಸಸ್ಯ ವಸ್ತುವಾಗಿದೆ, ಇದನ್ನು ನೈಸರ್ಗಿಕ ತೇವಾಂಶ ಇರುವಾಗಲೇ ಪ್ರಾಣಿಗೆ ನೀಡಲಾಗುತ್ತದೆ — ಇದು ಒಣ ಹುಲ್ಲು ಅಥವಾ ಖರೀದಿಸಿದ ಆಹಾರಕ್ಕಿಂತ ಭಿನ್ನವಾಗಿದೆ.",
+              "हरा चारा ताज़ा हरा पौधा पदार्थ है, जिसे प्राकृतिक नमी बने रहने पर ही जानवर को खिलाया जाता है — यह सूखे पुआल या खरीदे गए आहार से अलग है।"
+            ),
           },
           {
             type: "truefalse",
-            q: L("Feeding green fodder alongside dry fodder like straw can help the animal digest the straw better too."),
+            q: L(
+              "Feeding green fodder alongside dry fodder like straw can help the animal digest the straw better too.",
+              "గడ్డి వంటి ఎండు మేతతో పాటు పచ్చి మేత తినిపించడం వల్ల జంతువు ఆ గడ్డిని కూడా బాగా జీర్ణించుకోవడానికి సహాయపడుతుంది.",
+              "வைக்கோல் போன்ற உலர் தீவனத்துடன் பச்சை தீவனத்தையும் கொடுப்பது விலங்கு அந்த வைக்கோலை சிறப்பாக ஜீரணிக்க உதவும்.",
+              "ಒಣಹುಲ್ಲಿನಂತಹ ಒಣ ಮೇವಿನ ಜೊತೆಗೆ ಹಸಿರು ಮೇವು ನೀಡುವುದರಿಂದ ಪ್ರಾಣಿಗೆ ಆ ಒಣಹುಲ್ಲನ್ನು ಸಹ ಚೆನ್ನಾಗಿ ಜೀರ್ಣಿಸಿಕೊಳ್ಳಲು ಸಹಾಯವಾಗುತ್ತದೆ.",
+              "पुआल जैसे सूखे चारे के साथ हरा चारा खिलाने से जानवर को उस पुआल को भी बेहतर तरीके से पचाने में मदद मिल सकती है।"
+            ),
             answer: true,
-            explain: L("Yes — the microbes present in green fodder help improve digestion of crop residues like straw when the two are fed together."),
+            explain: L(
+              "Yes — the microbes present in green fodder help improve digestion of crop residues like straw when the two are fed together.",
+              "అవును — పచ్చి మేతలో ఉండే సూక్ష్మజీవులు, రెండింటినీ కలిపి తినిపించినప్పుడు గడ్డి వంటి పంట అవశేషాల జీర్ణక్రియను మెరుగుపరచడంలో సహాయపడతాయి.",
+              "ஆம் — பச்சை தீவனத்தில் உள்ள நுண்ணுயிரிகள், இரண்டையும் சேர்த்து கொடுக்கும்போது வைக்கோல் போன்ற பயிர் எச்சங்களின் செரிமானத்தை மேம்படுத்த உதவுகின்றன.",
+              "ಹೌದು — ಹಸಿರು ಮೇವಿನಲ್ಲಿರುವ ಸೂಕ್ಷ್ಮಜೀವಿಗಳು, ಎರಡನ್ನೂ ಒಟ್ಟಿಗೆ ನೀಡಿದಾಗ ಒಣಹುಲ್ಲಿನಂತಹ ಬೆಳೆ ಅವಶೇಷಗಳ ಜೀರ್ಣಕ್ರಿಯೆಯನ್ನು ಸುಧಾರಿಸಲು ಸಹಾಯ ಮಾಡುತ್ತವೆ.",
+              "हाँ — हरे चारे में मौजूद सूक्ष्मजीव, दोनों को साथ खिलाए जाने पर पुआल जैसे फसल अवशेषों के पाचन को बेहतर बनाने में मदद करते हैं।"
+            ),
           },
         ],
       },
       {
         id: "t-m15-feed-scarcity",
-        title: L("The Problem: Fodder Isn't Always Available"),
+        title: L(
+          "The Problem: Fodder Isn't Always Available",
+          "సమస్య: మేత ఎల్లప్పుడూ అందుబాటులో ఉండదు",
+          "பிரச்சனை: தீவனம் எப்போதும் கிடைப்பதில்லை",
+          "ಸಮಸ್ಯೆ: ಮೇವು ಯಾವಾಗಲೂ ಲಭ್ಯವಿರುವುದಿಲ್ಲ",
+          "समस्या: चारा हमेशा उपलब्ध नहीं होता"
+        ),
         teach: [
           {
             type: "text",
-            heading: L("Feast in Some Months, Famine in Others"),
+            heading: L("Feast in Some Months, Famine in Others", "కొన్ని నెలల్లో సమృద్ధి, మరికొన్నింటిలో కొరత", "சில மாதங்களில் ஏராளம், மற்றவற்றில் பஞ்சம்", "ಕೆಲವು ತಿಂಗಳುಗಳಲ್ಲಿ ಸಮೃದ್ಧಿ, ಇನ್ನು ಕೆಲವರಲ್ಲಿ ಕೊರತೆ", "कुछ महीनों में प्रचुरता, कुछ में कमी"),
             html: L(
-              "Green fodder usually grows in plenty during certain months — right after the monsoon rains, and again during part of the cooler winter-to-spring season, when there's enough water for irrigated crops. But during the hot summer months, green fodder becomes scarce almost everywhere. This uneven supply is the core problem this whole module deals with: how to make sure animals get enough good fodder even in the lean months."
+              "Green fodder usually grows in plenty during certain months — right after the monsoon rains, and again during part of the cooler winter-to-spring season, when there's enough water for irrigated crops. But during the hot summer months, green fodder becomes scarce almost everywhere. This uneven supply is the core problem this whole module deals with: how to make sure animals get enough good fodder even in the lean months.",
+              "పచ్చి మేత సాధారణంగా కొన్ని నెలల్లో సమృద్ధిగా పెరుగుతుంది — వర్షాకాలం తర్వాత వెంటనే, మరియు నీటిపారుదల పంటలకు తగినంత నీరు ఉన్నప్పుడు చల్లని శీతాకాలం నుండి వసంతకాలం వరకు కొంత భాగంలో కూడా. కానీ వేడి వేసవి నెలల్లో, దాదాపు అన్ని చోట్ల పచ్చి మేత కొరత ఏర్పడుతుంది. ఈ అసమాన సరఫరాయే ఈ మొత్తం మాడ్యూల్ డీల్ చేసే ప్రధాన సమస్య: కొరత ఉన్న నెలల్లో కూడా జంతువులకు తగినంత మంచి మేత లభించేలా ఎలా చూసుకోవాలి.",
+              "பச்சை தீவனம் வழக்கமாக சில மாதங்களில் ஏராளமாக வளரும் — பருவமழைக்குப் பிறகு உடனடியாகவும், பாசன பயிர்களுக்கு போதுமான நீர் இருக்கும்போது குளிர்ந்த குளிர்காலம் முதல் வசந்த காலம் வரையிலான காலப்பகுதியிலும். ஆனால் வெப்பமான கோடை மாதங்களில், கிட்டத்தட்ட எல்லா இடங்களிலும் பச்சை தீவனம் பற்றாக்குறையாகிவிடும். இந்த சீரற்ற வழங்கலே இந்த முழு தொகுதியும் கையாளும் முக்கிய பிரச்சனை: பற்றாக்குறை மாதங்களிலும் கூட விலங்குகளுக்கு போதுமான நல்ல தீவனம் கிடைப்பதை எப்படி உறுதி செய்வது.",
+              "ಹಸಿರು ಮೇವು ಸಾಮಾನ್ಯವಾಗಿ ಕೆಲವು ತಿಂಗಳುಗಳಲ್ಲಿ ಹೇರಳವಾಗಿ ಬೆಳೆಯುತ್ತದೆ — ಮುಂಗಾರು ಮಳೆಯ ನಂತರ ತಕ್ಷಣ, ಮತ್ತು ನೀರಾವರಿ ಬೆಳೆಗಳಿಗೆ ಸಾಕಷ್ಟು ನೀರು ಇರುವಾಗ ತಂಪಾದ ಚಳಿಗಾಲದಿಂದ ವಸಂತದವರೆಗಿನ ಭಾಗದಲ್ಲೂ ಸಹ. ಆದರೆ ಬಿಸಿಯಾದ ಬೇಸಿಗೆ ತಿಂಗಳುಗಳಲ್ಲಿ, ಬಹುತೇಕ ಎಲ್ಲೆಡೆ ಹಸಿರು ಮೇವು ಕೊರತೆಯಾಗುತ್ತದೆ. ಈ ಅಸಮ ಪೂರೈಕೆಯೇ ಈ ಇಡೀ ಮಾಡ್ಯೂಲ್ ವ್ಯವಹರಿಸುವ ಪ್ರಮುಖ ಸಮಸ್ಯೆ: ಕೊರತೆಯ ತಿಂಗಳುಗಳಲ್ಲೂ ಪ್ರಾಣಿಗಳಿಗೆ ಸಾಕಷ್ಟು ಒಳ್ಳೆಯ ಮೇವು ಸಿಗುವಂತೆ ಹೇಗೆ ಖಚಿತಪಡಿಸುವುದು.",
+              "हरा चारा आमतौर पर कुछ खास महीनों में प्रचुर मात्रा में उगता है — मानसून की बारिश के तुरंत बाद, और फिर सिंचित फसलों के लिए पर्याप्त पानी होने पर ठंडे सर्दी-से-बसंत मौसम के कुछ हिस्से में भी। लेकिन गर्मी के महीनों में, हरा चारा लगभग हर जगह दुर्लभ हो जाता है। यह असमान आपूर्ति ही इस पूरे मॉड्यूल की मूल समस्या है: कमी वाले महीनों में भी जानवरों को पर्याप्त अच्छा चारा कैसे मिले, यह सुनिश्चित करना।"
             ),
           },
           {
             type: "glossary",
-            term: L("Fodder Deficit Period"),
+            term: L("Fodder Deficit Period", "మేత కొరత కాలం", "தீவனப் பற்றாக்குறை காலம்", "ಮೇವು ಕೊರತೆಯ ಅವಧಿ", "चारा कमी की अवधि"),
             meaning: L(
-              "A stretch of time, usually the hot summer months, when there isn't enough fresh green fodder growing to feed the animals properly."
+              "A stretch of time, usually the hot summer months, when there isn't enough fresh green fodder growing to feed the animals properly.",
+              "సాధారణంగా వేడి వేసవి నెలల్లో, జంతువులకు సరిగ్గా తినిపించడానికి తగినంత తాజా పచ్చి మేత పెరగని కాల వ్యవధి.",
+              "பொதுவாக வெப்பமான கோடை மாதங்களில், விலங்குகளுக்கு சரியாக உணவளிக்க போதுமான புதிய பச்சை தீவனம் வளராத காலப்பகுதி.",
+              "ಸಾಮಾನ್ಯವಾಗಿ ಬಿಸಿಯಾದ ಬೇಸಿಗೆ ತಿಂಗಳುಗಳಲ್ಲಿ, ಪ್ರಾಣಿಗಳಿಗೆ ಸರಿಯಾಗಿ ಆಹಾರ ನೀಡಲು ಸಾಕಷ್ಟು ತಾಜಾ ಹಸಿರು ಮೇವು ಬೆಳೆಯದ ಅವಧಿ.",
+              "आमतौर पर गर्मी के महीनों का वह समय, जब जानवरों को ठीक से खिलाने के लिए पर्याप्त ताज़ा हरा चारा नहीं उगता।"
             ),
           },
           {
             type: "text",
-            heading: L("General Practices That Help Close the Gap"),
+            heading: L("General Practices That Help Close the Gap", "అంతరాన్ని పూడ్చడానికి సహాయపడే సాధారణ పద్ధతులు", "இடைவெளியை நிரப்ப உதவும் பொதுவான நடைமுறைகள்", "ಅಂತರವನ್ನು ಮುಚ್ಚಲು ಸಹಾಯ ಮಾಡುವ ಸಾಮಾನ್ಯ ಅಭ್ಯಾಸಗಳು", "अंतर को पाटने में मदद करने वाली सामान्य प्रथाएँ"),
             html: L(
-              "A few broad habits help farms grow more, and more reliable, fodder throughout the year: always use good-quality, certified seed of high-yielding fodder varieties rather than unknown or leftover seed; follow the recommended growing steps for whichever fodder crop is planted (proper land preparation, sowing on time, and so on); and grow a mix of fast-growing fodder crops in the gaps between two main crop seasons, so land is not left unused."
+              "A few broad habits help farms grow more, and more reliable, fodder throughout the year: always use good-quality, certified seed of high-yielding fodder varieties rather than unknown or leftover seed; follow the recommended growing steps for whichever fodder crop is planted (proper land preparation, sowing on time, and so on); and grow a mix of fast-growing fodder crops in the gaps between two main crop seasons, so land is not left unused.",
+              "కొన్ని విస్తృత అలవాట్లు పొలాలు ఏడాది పొడవునా ఎక్కువ, మరింత నమ్మదగిన మేతను పెంచడానికి సహాయపడతాయి: తెలియని లేదా మిగిలిపోయిన విత్తనాల కంటే ఎల్లప్పుడూ అధిక దిగుబడినిచ్చే మేత రకాల మంచి నాణ్యత, ధృవీకరించబడిన విత్తనాలను ఉపయోగించడం; ఏ మేత పంట వేసినా దానికి సిఫార్సు చేయబడిన పెంపకం దశలను (సరైన భూమి తయారీ, సకాలంలో విత్తడం మొదలైనవి) పాటించడం; మరియు రెండు ప్రధాన పంట సీజన్ల మధ్య అంతరంలో వేగంగా పెరిగే మేత పంటల మిశ్రమాన్ని పెంచడం, తద్వారా భూమి ఖాళీగా ఉండదు.",
+              "பண்ணைகள் ஆண்டு முழுவதும் அதிகமான, மேலும் நம்பகமான தீவனத்தை வளர்க்க உதவும் சில பரந்த பழக்கங்கள்: தெரியாத அல்லது மீதமான விதைகளுக்குப் பதிலாக அதிக விளைச்சல் தரும் தீவன வகைகளின் நல்ல தரமான, சான்றளிக்கப்பட்ட விதையை எப்போதும் பயன்படுத்துவது; எந்த தீவனப் பயிர் நடப்பட்டாலும் அதற்கான பரிந்துரைக்கப்பட்ட வளர்ப்பு படிகளை (சரியான நில தயாரிப்பு, சரியான நேரத்தில் விதைத்தல் போன்றவை) பின்பற்றுவது; மற்றும் இரண்டு முக்கிய பயிர் பருவங்களுக்கு இடையேயான இடைவெளியில் வேகமாக வளரும் தீவனப் பயிர்களின் கலவையை வளர்ப்பது, இதனால் நிலம் பயன்படுத்தப்படாமல் இருக்காது.",
+              "ಫಾರ್ಮ್‌ಗಳು ವರ್ಷವಿಡೀ ಹೆಚ್ಚು, ಹೆಚ್ಚು ವಿಶ್ವಾಸಾರ್ಹ ಮೇವನ್ನು ಬೆಳೆಯಲು ಸಹಾಯ ಮಾಡುವ ಕೆಲವು ವಿಶಾಲ ಅಭ್ಯಾಸಗಳು: ಅಪರಿಚಿತ ಅಥವಾ ಉಳಿದ ಬೀಜಕ್ಕಿಂತ ಯಾವಾಗಲೂ ಹೆಚ್ಚಿನ ಇಳುವರಿ ನೀಡುವ ಮೇವಿನ ತಳಿಗಳ ಉತ್ತಮ ಗುಣಮಟ್ಟದ, ಪ್ರಮಾಣೀಕೃತ ಬೀಜವನ್ನು ಬಳಸುವುದು; ಯಾವುದೇ ಮೇವಿನ ಬೆಳೆ ನೆಟ್ಟರೂ ಅದಕ್ಕೆ ಶಿಫಾರಸು ಮಾಡಲಾದ ಬೆಳೆಯುವ ಹಂತಗಳನ್ನು (ಸರಿಯಾದ ಭೂಮಿ ತಯಾರಿ, ಸಮಯಕ್ಕೆ ಬಿತ್ತನೆ ಇತ್ಯಾದಿ) ಅನುಸರಿಸುವುದು; ಮತ್ತು ಎರಡು ಮುಖ್ಯ ಬೆಳೆ ಋತುಗಳ ನಡುವಿನ ಅಂತರದಲ್ಲಿ ವೇಗವಾಗಿ ಬೆಳೆಯುವ ಮೇವಿನ ಬೆಳೆಗಳ ಮಿಶ್ರಣವನ್ನು ಬೆಳೆಸುವುದು, ಇದರಿಂದ ಭೂಮಿ ಖಾಲಿ ಉಳಿಯುವುದಿಲ್ಲ.",
+              "कुछ व्यापक आदतें खेतों को पूरे साल अधिक और अधिक भरोसेमंद चारा उगाने में मदद करती हैं: अनजान या बचे हुए बीज की बजाय हमेशा अधिक उपज देने वाली चारा किस्मों के अच्छी गुणवत्ता वाले, प्रमाणित बीज का उपयोग करना; जो भी चारा फसल लगाई जाए उसके लिए अनुशंसित उगाने के चरणों (उचित भूमि तैयारी, समय पर बुवाई, आदि) का पालन करना; और दो मुख्य फसल मौसमों के बीच के अंतराल में तेज़ी से बढ़ने वाली चारा फसलों का मिश्रण उगाना, ताकि भूमि खाली न रहे।"
             ),
           },
           {
             type: "glossary",
-            term: L("Legume Fodder Crop"),
+            term: L("Legume Fodder Crop", "పప్పుధాన్యాల మేత పంట", "பயறு வகை தீவனப் பயிர்", "ದ್ವಿದಳ ಧಾನ್ಯ ಮೇವಿನ ಬೆಳೆ", "दलहनी चारा फसल"),
             meaning: L(
-              "A fodder crop (such as cowpea) from the pea-and-bean family. Legume fodder crops are especially valuable because they tend to be higher in protein, and growing them alongside cereal fodder crops (like maize or sorghum) gives a more balanced overall fodder supply."
+              "A fodder crop (such as cowpea) from the pea-and-bean family. Legume fodder crops are especially valuable because they tend to be higher in protein, and growing them alongside cereal fodder crops (like maize or sorghum) gives a more balanced overall fodder supply.",
+              "బఠాణీ-బీన్స్ కుటుంబానికి చెందిన మేత పంట (అలసంద వంటిది). పప్పుధాన్యాల మేత పంటలు ప్రత్యేకంగా విలువైనవి ఎందుకంటే వాటిలో ప్రోటీన్ ఎక్కువగా ఉంటుంది, మరియు వాటిని తృణధాన్యాల మేత పంటలతో (మొక్కజొన్న లేదా జొన్న వంటివి) పాటు పెంచడం వల్ల మరింత సమతుల్యమైన మొత్తం మేత సరఫరా లభిస్తుంది.",
+              "பட்டாணி-பீன்ஸ் குடும்பத்தைச் சேர்ந்த ஒரு தீவனப் பயிர் (காராமணி போன்றது). பயறு வகை தீவனப் பயிர்கள் குறிப்பாக மதிப்புமிக்கவை, ஏனெனில் அவற்றில் புரதம் அதிகமாக இருக்கும், மேலும் அவற்றை தானிய தீவனப் பயிர்களுடன் (சோளம் அல்லது சோளக்கம்பு போன்றவை) சேர்த்து வளர்ப்பது மிகவும் சமச்சீரான மொத்த தீவன வழங்கலைத் தரும்.",
+              "ಬಟಾಣಿ-ಬೀನ್ಸ್ ಕುಟುಂಬಕ್ಕೆ ಸೇರಿದ ಮೇವಿನ ಬೆಳೆ (ಅಲಸಂದೆಯಂತಹದ್ದು). ದ್ವಿದಳ ಧಾನ್ಯ ಮೇವಿನ ಬೆಳೆಗಳು ವಿಶೇಷವಾಗಿ ಮೌಲ್ಯಯುತವಾಗಿವೆ ಏಕೆಂದರೆ ಅವುಗಳಲ್ಲಿ ಪ್ರೋಟೀನ್ ಹೆಚ್ಚಾಗಿರುತ್ತದೆ, ಮತ್ತು ಅವುಗಳನ್ನು ಧಾನ್ಯ ಮೇವಿನ ಬೆಳೆಗಳೊಂದಿಗೆ (ಜೋಳ ಅಥವಾ ಸಜ್ಜೆಯಂತಹವು) ಬೆಳೆಸುವುದರಿಂದ ಹೆಚ್ಚು ಸಮತೋಲಿತ ಒಟ್ಟಾರೆ ಮೇವು ಪೂರೈಕೆ ದೊರೆಯುತ್ತದೆ.",
+              "मटर-सेम परिवार की एक चारा फसल (जैसे लोबिया)। दलहनी चारा फसलें विशेष रूप से मूल्यवान होती हैं क्योंकि उनमें प्रोटीन अधिक होता है, और उन्हें अनाज चारा फसलों (जैसे मक्का या ज्वार) के साथ उगाने से अधिक संतुलित समग्र चारा आपूर्ति मिलती है।"
             ),
           },
           {
             type: "callout",
             style: "tip",
-            heading: L("Mix It Up, and Think Long-Term Too"),
+            heading: L("Mix It Up, and Think Long-Term Too", "మిశ్రమం చేయండి, దీర్ఘకాలికంగా కూడా ఆలోచించండి", "கலந்து செய்யுங்கள், நீண்ட காலத்திற்கும் யோசியுங்கள்", "ಮಿಶ್ರಣ ಮಾಡಿ, ದೀರ್ಘಕಾಲೀನವಾಗಿಯೂ ಯೋಚಿಸಿ", "मिश्रण करें, और दीर्घकालिक भी सोचें"),
             text: L(
-              "Growing cereal fodder crops together with legume fodder crops gives a more nutritious overall mix than growing just one type. It also helps to plant some fast-growing, multiple-harvest perennial fodder grasses that keep producing cut after cut for a long time, rather than relying only on crops that are harvested once and then need resowing."
+              "Growing cereal fodder crops together with legume fodder crops gives a more nutritious overall mix than growing just one type. It also helps to plant some fast-growing, multiple-harvest perennial fodder grasses that keep producing cut after cut for a long time, rather than relying only on crops that are harvested once and then need resowing.",
+              "తృణధాన్యాల మేత పంటలను పప్పుధాన్యాల మేత పంటలతో కలిపి పెంచడం, ఒకే రకం పెంచడం కంటే మరింత పోషకమైన మొత్తం మిశ్రమాన్ని ఇస్తుంది. దీర్ఘకాలం పాటు కోత తర్వాత కోత ఉత్పత్తి చేస్తూనే ఉండే వేగంగా పెరిగే, బహుళ-కోత శాశ్వత మేత గడ్డిని కొన్నింటిని నాటడం కూడా సహాయపడుతుంది, ఒకసారి కోసిన తర్వాత మళ్లీ విత్తాల్సిన పంటలపై మాత్రమే ఆధారపడకుండా.",
+              "தானிய தீவனப் பயிர்களை பயறு வகை தீவனப் பயிர்களுடன் சேர்த்து வளர்ப்பது, ஒரே வகையை மட்டும் வளர்ப்பதை விட ஊட்டச்சத்து மிக்க மொத்த கலவையைத் தரும். ஒருமுறை அறுவடை செய்யப்பட்டு பின்னர் மீண்டும் விதைக்க வேண்டிய பயிர்களை மட்டும் சார்ந்திருப்பதற்குப் பதிலாக, நீண்ட காலத்திற்கு தொடர்ந்து வெட்டி வெட்டி உற்பத்தி செய்யும் வேகமாக வளரும், பல முறை அறுவடை செய்யக்கூடிய வற்றா தீவன புற்களையும் சிலவற்றை நடுவது உதவுகிறது.",
+              "ಧಾನ್ಯ ಮೇವಿನ ಬೆಳೆಗಳನ್ನು ದ್ವಿದಳ ಧಾನ್ಯ ಮೇವಿನ ಬೆಳೆಗಳ ಜೊತೆ ಬೆಳೆಸುವುದು, ಕೇವಲ ಒಂದೇ ವಿಧವನ್ನು ಬೆಳೆಸುವುದಕ್ಕಿಂತ ಹೆಚ್ಚು ಪೌಷ್ಟಿಕ ಒಟ್ಟಾರೆ ಮಿಶ್ರಣವನ್ನು ನೀಡುತ್ತದೆ. ಒಮ್ಮೆ ಕೊಯ್ಲು ಮಾಡಿ ನಂತರ ಮತ್ತೆ ಬಿತ್ತಬೇಕಾದ ಬೆಳೆಗಳನ್ನು ಮಾತ್ರ ಅವಲಂಬಿಸುವ ಬದಲು, ದೀರ್ಘಕಾಲದವರೆಗೆ ಕಟಾವಿನ ನಂತರ ಕಟಾವು ಉತ್ಪಾದಿಸುತ್ತಲೇ ಇರುವ ವೇಗವಾಗಿ ಬೆಳೆಯುವ, ಬಹು-ಕಟಾವಿನ ಬಹುವಾರ್ಷಿಕ ಮೇವಿನ ಹುಲ್ಲುಗಳನ್ನು ಕೂಡ ನೆಡುವುದು ಸಹಾಯಕವಾಗಿದೆ.",
+              "अनाज चारा फसलों को दलहनी चारा फसलों के साथ उगाने से केवल एक प्रकार उगाने की तुलना में अधिक पौष्टिक समग्र मिश्रण मिलता है। यह कुछ तेज़ी से बढ़ने वाली, बहु-कटाई बारहमासी चारा घासें लगाने में भी मदद करता है जो लंबे समय तक कटाई के बाद कटाई देती रहती हैं, बजाय केवल उन फसलों पर निर्भर रहने के जिन्हें एक बार काटकर फिर से बोना पड़ता है।"
             ),
           },
         ],
         check: [
           {
             type: "mcq",
-            q: L("When does green fodder typically become scarce?"),
+            q: L("When does green fodder typically become scarce?", "పచ్చి మేత సాధారణంగా ఎప్పుడు కొరతగా మారుతుంది?", "பச்சை தீவனம் பொதுவாக எப்போது பற்றாக்குறையாகும்?", "ಹಸಿರು ಮೇವು ಸಾಮಾನ್ಯವಾಗಿ ಯಾವಾಗ ಕೊರತೆಯಾಗುತ್ತದೆ?", "हरा चारा आमतौर पर कब कम हो जाता है?"),
             options: [
-              L("Right after the monsoon rains"),
-              L("During the hot summer months"),
-              L("It is always equally available all year"),
-              L("Only during winter"),
+              L("Right after the monsoon rains", "వర్షాకాలం తర్వాత వెంటనే", "பருவமழைக்குப் பிறகு உடனடியாக", "ಮುಂಗಾರು ಮಳೆಯ ನಂತರ ತಕ್ಷಣ", "मानसून की बारिश के तुरंत बाद"),
+              L("During the hot summer months", "వేడి వేసవి నెలల్లో", "வெப்பமான கோடை மாதங்களில்", "ಬಿಸಿಯಾದ ಬೇಸಿಗೆ ತಿಂಗಳುಗಳಲ್ಲಿ", "गर्मी के महीनों में"),
+              L("It is always equally available all year", "ఇది ఎల్లప్పుడూ ఏడాది పొడవునా సమానంగా లభిస్తుంది", "இது எப்போதும் ஆண்டு முழுவதும் சமமாக கிடைக்கும்", "ಇದು ಯಾವಾಗಲೂ ವರ್ಷವಿಡೀ ಸಮಾನವಾಗಿ ಲಭ್ಯವಿರುತ್ತದೆ", "यह हमेशा पूरे साल समान रूप से उपलब्ध रहता है"),
+              L("Only during winter", "శీతాకాలంలో మాత్రమే", "குளிர்காலத்தில் மட்டும்", "ಚಳಿಗಾಲದಲ್ಲಿ ಮಾತ್ರ", "केवल सर्दियों में"),
             ],
             answer: 1,
-            explain: L("Green fodder is usually plentiful after the monsoon and during part of the cooler season, but becomes scarce in the hot summer months."),
+            explain: L(
+              "Green fodder is usually plentiful after the monsoon and during part of the cooler season, but becomes scarce in the hot summer months.",
+              "పచ్చి మేత సాధారణంగా వర్షాకాలం తర్వాత మరియు చల్లని కాలంలో కొంత భాగం సమృద్ధిగా ఉంటుంది, కానీ వేడి వేసవి నెలల్లో కొరతగా మారుతుంది.",
+              "பச்சை தீவனம் பொதுவாக பருவமழைக்குப் பிறகும் குளிர்ந்த காலத்தின் ஒரு பகுதியிலும் ஏராளமாக இருக்கும், ஆனால் வெப்பமான கோடை மாதங்களில் பற்றாக்குறையாகிவிடும்.",
+              "ಹಸಿರು ಮೇವು ಸಾಮಾನ್ಯವಾಗಿ ಮುಂಗಾರಿನ ನಂತರ ಮತ್ತು ತಂಪಾದ ಋತುವಿನ ಭಾಗದಲ್ಲಿ ಹೇರಳವಾಗಿರುತ್ತದೆ, ಆದರೆ ಬಿಸಿಯಾದ ಬೇಸಿಗೆ ತಿಂಗಳುಗಳಲ್ಲಿ ಕೊರತೆಯಾಗುತ್ತದೆ.",
+              "हरा चारा आमतौर पर मानसून के बाद और ठंडे मौसम के कुछ हिस्से में प्रचुर मात्रा में होता है, लेकिन गर्मी के महीनों में कम हो जाता है।"
+            ),
           },
           {
             type: "truefalse",
-            q: L("Growing cereal fodder crops together with legume fodder crops gives a more balanced fodder supply than growing only one type."),
+            q: L(
+              "Growing cereal fodder crops together with legume fodder crops gives a more balanced fodder supply than growing only one type.",
+              "తృణధాన్యాల మేత పంటలను పప్పుధాన్యాల మేత పంటలతో కలిపి పెంచడం, ఒకే రకం పెంచడం కంటే మరింత సమతుల్యమైన మేత సరఫరాను ఇస్తుంది.",
+              "தானிய தீவனப் பயிர்களை பயறு வகை தீவனப் பயிர்களுடன் சேர்த்து வளர்ப்பது, ஒரே வகையை மட்டும் வளர்ப்பதை விட சமச்சீரான தீவன வழங்கலைத் தரும்.",
+              "ಧಾನ್ಯ ಮೇವಿನ ಬೆಳೆಗಳನ್ನು ದ್ವಿದಳ ಧಾನ್ಯ ಮೇವಿನ ಬೆಳೆಗಳ ಜೊತೆ ಬೆಳೆಸುವುದು, ಕೇವಲ ಒಂದೇ ವಿಧವನ್ನು ಬೆಳೆಸುವುದಕ್ಕಿಂತ ಸಮತೋಲಿತ ಮೇವು ಪೂರೈಕೆ ನೀಡುತ್ತದೆ.",
+              "अनाज चारा फसलों को दलहनी चारा फसलों के साथ उगाने से केवल एक प्रकार उगाने की तुलना में अधिक संतुलित चारा आपूर्ति मिलती है।"
+            ),
             answer: true,
-            explain: L("Correct — mixing cereal fodder (like maize or sorghum) with legume fodder (like cowpea) gives a better balance, including more protein."),
+            explain: L(
+              "Correct — mixing cereal fodder (like maize or sorghum) with legume fodder (like cowpea) gives a better balance, including more protein.",
+              "సరైనది — తృణధాన్యాల మేత (మొక్కజొన్న లేదా జొన్న వంటివి) పప్పుధాన్యాల మేత (అలసంద వంటివి)తో కలపడం వల్ల ఎక్కువ ప్రోటీన్‌తో సహా మెరుగైన సమతుల్యత లభిస్తుంది.",
+              "சரியானது — தானிய தீவனத்தை (சோளம் அல்லது சோளக்கம்பு போன்றவை) பயறு வகை தீவனத்துடன் (காராமணி போன்றவை) கலப்பது அதிக புரதம் உட்பட சிறந்த சமநிலையைத் தரும்.",
+              "ಸರಿಯಾಗಿದೆ — ಧಾನ್ಯ ಮೇವನ್ನು (ಜೋಳ ಅಥವಾ ಸಜ್ಜೆಯಂತಹವು) ದ್ವಿದಳ ಧಾನ್ಯ ಮೇವಿನೊಂದಿಗೆ (ಅಲಸಂದೆಯಂತಹವು) ಬೆರೆಸುವುದರಿಂದ ಹೆಚ್ಚು ಪ್ರೋಟೀನ್ ಸೇರಿದಂತೆ ಉತ್ತಮ ಸಮತೋಲನ ಸಿಗುತ್ತದೆ.",
+              "सही — अनाज चारे (जैसे मक्का या ज्वार) को दलहनी चारे (जैसे लोबिया) के साथ मिलाने से अधिक प्रोटीन सहित बेहतर संतुलन मिलता है।"
+            ),
           },
         ],
       },
@@ -8980,55 +9120,187 @@ export const MODULES = [
         {
           topicId: "t-m15-green-fodder-value",
           type: "mcq",
-          q: L("Why does feeding green fodder help lower the cost of milk production?"),
+          q: L(
+            "Why does feeding green fodder help lower the cost of milk production?",
+            "పచ్చి మేత తినిపించడం పాల ఉత్పత్తి ఖర్చును ఎందుకు తగ్గిస్తుంది?",
+            "பசுந்தீவனம் ஊட்டுவது பால் உற்பத்தி செலவைக் குறைக்க எப்படி உதவுகிறது?",
+            "ಹಸಿರು ಮೇವು ತಿನ್ನಿಸುವುದು ಹಾಲು ಉತ್ಪಾದನಾ ವೆಚ್ಚವನ್ನು ಏಕೆ ಕಡಿಮೆ ಮಾಡುತ್ತದೆ?",
+            "हरा चारा खिलाने से दूध उत्पादन की लागत कम होने में कैसे मदद मिलती है?"
+          ),
           options: [
-            L("Because it is more expensive than cattle feed, so animals eat less of it"),
-            L("Because it is a cheaper source of nutrients than buying extra cattle feed"),
-            L("Because it replaces the need for water"),
-            L("It has no effect on cost at all"),
+            L(
+              "Because it is more expensive than cattle feed, so animals eat less of it",
+              "ఇది పశుగ్రాసం (దాణా) కంటే ఖరీదైనది కాబట్టి జంతువులు దీన్ని తక్కువగా తింటాయి",
+              "இது கால்நடை தீவனத்தை விட விலை அதிகம் என்பதால் விலங்குகள் இதைக் குறைவாக உண்ணும்",
+              "ಇದು ದನದ ಆಹಾರಕ್ಕಿಂತ ದುಬಾರಿಯಾಗಿರುವುದರಿಂದ ಪ್ರಾಣಿಗಳು ಇದನ್ನು ಕಡಿಮೆ ತಿನ್ನುತ್ತವೆ",
+              "क्योंकि यह पशु आहार से अधिक महंगा होता है, इसलिए पशु इसे कम खाते हैं"
+            ),
+            L(
+              "Because it is a cheaper source of nutrients than buying extra cattle feed",
+              "అదనపు దాణా కొనడం కంటే ఇది చౌకైన పోషకాల మూలం కాబట్టి",
+              "கூடுதல் கால்நடை தீவனம் வாங்குவதை விட இது மலிவான ஊட்டச்சத்து மூலமாக இருப்பதால்",
+              "ಹೆಚ್ಚುವರಿ ದನದ ಆಹಾರ ಖರೀದಿಸುವುದಕ್ಕಿಂತ ಇದು ಅಗ್ಗದ ಪೋಷಕಾಂಶದ ಮೂಲವಾಗಿರುವುದರಿಂದ",
+              "क्योंकि यह अतिरिक्त पशु आहार खरीदने की तुलना में पोषक तत्वों का सस्ता स्रोत है"
+            ),
+            L(
+              "Because it replaces the need for water",
+              "ఇది నీటి అవసరాన్ని భర్తీ చేస్తుంది కాబట్టి",
+              "இது தண்ணீர் தேவையை மாற்றுவதால்",
+              "ಇದು ನೀರಿನ ಅಗತ್ಯವನ್ನು ಬದಲಾಯಿಸುವುದರಿಂದ",
+              "क्योंकि यह पानी की जरूरत की जगह ले लेता है"
+            ),
+            L(
+              "It has no effect on cost at all",
+              "దీనివల్ల ఖర్చుపై ఎలాంటి ప్రభావం ఉండదు",
+              "இது செலவின் மீது எந்த தாக்கமும் ஏற்படுத்தாது",
+              "ಇದರಿಂದ ವೆಚ್ಚದ ಮೇಲೆ ಯಾವುದೇ ಪರಿಣಾಮ ಇರುವುದಿಲ್ಲ",
+              "इसका लागत पर कोई असर नहीं पड़ता"
+            ),
           ],
           answer: 1,
-          explain: L("Green fodder is an economical source of nutrients, so using more of it can reduce how much costly cattle feed is needed."),
+          explain: L(
+            "Green fodder is an economical source of nutrients, so using more of it can reduce how much costly cattle feed is needed.",
+            "పచ్చి మేత చౌకైన పోషకాల మూలం, కాబట్టి దీన్ని ఎక్కువగా వాడితే ఖరీదైన దాణా అవసరం తగ్గుతుంది.",
+            "பசுந்தீவனம் மலிவான ஊட்டச்சத்து மூலம், எனவே இதை அதிகமாகப் பயன்படுத்தினால் விலையுயர்ந்த தீவனத்தின் தேவை குறையும்.",
+            "ಹಸಿರು ಮೇವು ಅಗ್ಗದ ಪೋಷಕಾಂಶದ ಮೂಲ, ಆದ್ದರಿಂದ ಇದನ್ನು ಹೆಚ್ಚು ಬಳಸಿದರೆ ದುಬಾರಿ ದನದ ಆಹಾರದ ಅಗತ್ಯ ಕಡಿಮೆಯಾಗುತ್ತದೆ.",
+            "हरा चारा पोषक तत्वों का किफायती स्रोत है, इसलिए इसका अधिक उपयोग करने से महंगे पशु आहार की जरूरत कम हो सकती है।"
+          ),
         },
         {
           topicId: "t-m15-green-fodder-value",
           type: "truefalse",
-          q: L("Green fodder is generally considered highly palatable and easy for animals to digest."),
+          q: L(
+            "Green fodder is generally considered highly palatable and easy for animals to digest.",
+            "పచ్చి మేత సాధారణంగా జంతువులకు రుచికరంగా మరియు జీర్ణం చేసుకోవడానికి సులభంగా ఉంటుందని భావిస్తారు.",
+            "பசுந்தீவனம் பொதுவாக விலங்குகளுக்கு சுவையானதாகவும் எளிதில் செரிமானமாகக்கூடியதாகவும் கருதப்படுகிறது.",
+            "ಹಸಿರು ಮೇವು ಸಾಮಾನ್ಯವಾಗಿ ಪ್ರಾಣಿಗಳಿಗೆ ರುಚಿಕರವಾಗಿದ್ದು ಜೀರ್ಣಿಸಿಕೊಳ್ಳಲು ಸುಲಭ ಎಂದು ಪರಿಗಣಿಸಲಾಗುತ್ತದೆ.",
+            "हरे चारे को आमतौर पर पशुओं के लिए बहुत स्वादिष्ट और पचाने में आसान माना जाता है।"
+          ),
           answer: true,
-          explain: L("Yes — green fodder is both tasty to the animal (palatable) and easy to digest."),
+          explain: L(
+            "Yes — green fodder is both tasty to the animal (palatable) and easy to digest.",
+            "అవును — పచ్చి మేత జంతువుకు రుచికరంగా (పలటబుల్) మరియు జీర్ణం చేసుకోవడానికి సులభంగా ఉంటుంది.",
+            "ஆம் — பசுந்தீவனம் விலங்குக்கு சுவையானதாகவும் (பலேட்டபிள்) எளிதில் செரிமானமாகக்கூடியதாகவும் இருக்கும்.",
+            "ಹೌದು — ಹಸಿರು ಮೇವು ಪ್ರಾಣಿಗೆ ರುಚಿಕರವಾಗಿದ್ದು (ಪಲಟಬಲ್) ಜೀರ್ಣಿಸಿಕೊಳ್ಳಲು ಸುಲಭವಾಗಿರುತ್ತದೆ.",
+            "हाँ — हरा चारा पशु के लिए स्वादिष्ट (पलैटेबल) भी है और पचाने में आसान भी।"
+          ),
         },
         {
           topicId: "t-m15-feed-scarcity",
           type: "mcq",
-          q: L("What is a 'fodder deficit period'?"),
+          q: L(
+            "What is a 'fodder deficit period'?",
+            "'మేత లోటు కాలం' అంటే ఏమిటి?",
+            "'தீவனப் பற்றாக்குறைக் காலம்' என்றால் என்ன?",
+            "'ಮೇವು ಕೊರತೆ ಅವಧಿ' ಎಂದರೇನು?",
+            "'चारा कमी अवधि' का क्या मतलब है?"
+          ),
           options: [
-            L("A time when too much fodder is available"),
-            L("A stretch of time, usually summer, when there isn't enough green fodder growing"),
-            L("The period right after sowing seed"),
-            L("A disease affecting fodder crops"),
+            L(
+              "A time when too much fodder is available",
+              "మేత చాలా ఎక్కువగా అందుబాటులో ఉండే కాలం",
+              "தீவனம் மிக அதிகமாகக் கிடைக்கும் காலம்",
+              "ಮೇವು ಬಹಳಷ್ಟು ಲಭ್ಯವಿರುವ ಅವಧಿ",
+              "जब चारा बहुत ज्यादा उपलब्ध होता है, वह समय"
+            ),
+            L(
+              "A stretch of time, usually summer, when there isn't enough green fodder growing",
+              "సాధారణంగా వేసవిలో, తగినంత పచ్చి మేత పెరగని కాలం",
+              "பொதுவாக கோடைக்காலத்தில், போதுமான பசுந்தீவனம் வளராத காலம்",
+              "ಸಾಮಾನ್ಯವಾಗಿ ಬೇಸಿಗೆಯಲ್ಲಿ, ಸಾಕಷ್ಟು ಹಸಿರು ಮೇವು ಬೆಳೆಯದ ಅವಧಿ",
+              "आमतौर पर गर्मी के मौसम में, जब पर्याप्त हरा चारा नहीं उगता"
+            ),
+            L(
+              "The period right after sowing seed",
+              "విత్తనం వేసిన వెంటనే ఉండే కాలం",
+              "விதை விதைத்த உடனேயே உள்ள காலம்",
+              "ಬೀಜ ಬಿತ್ತಿದ ತಕ್ಷಣದ ಅವಧಿ",
+              "बीज बोने के तुरंत बाद की अवधि"
+            ),
+            L(
+              "A disease affecting fodder crops",
+              "మేత పంటలను ప్రభావితం చేసే ఒక వ్యాధి",
+              "தீவனப் பயிர்களைப் பாதிக்கும் ஒரு நோய்",
+              "ಮೇವು ಬೆಳೆಗಳಿಗೆ ಬರುವ ಒಂದು ರೋಗ",
+              "चारा फसलों को प्रभावित करने वाली एक बीमारी"
+            ),
           ],
           answer: 1,
-          explain: L("A fodder deficit period is a time — typically the hot summer months — when green fodder supply falls short."),
+          explain: L(
+            "A fodder deficit period is a time — typically the hot summer months — when green fodder supply falls short.",
+            "మేత లోటు కాలం అంటే — సాధారణంగా ఎండాకాలంలో — పచ్చి మేత సరఫరా తగ్గే కాలం.",
+            "தீவனப் பற்றாக்குறைக் காலம் என்பது — பொதுவாக வெப்பமான கோடைக் காலத்தில் — பசுந்தீவன வழங்கல் குறையும் காலம்.",
+            "ಮೇವು ಕೊರತೆ ಅವಧಿ ಎಂದರೆ — ಸಾಮಾನ್ಯವಾಗಿ ಬಿಸಿಲಿನ ಬೇಸಿಗೆ ತಿಂಗಳುಗಳಲ್ಲಿ — ಹಸಿರು ಮೇವಿನ ಪೂರೈಕೆ ಕಡಿಮೆಯಾಗುವ ಅವಧಿ.",
+            "चारा कमी अवधि वह समय है — आमतौर पर गर्मी के महीनों में — जब हरे चारे की आपूर्ति कम पड़ जाती है।"
+          ),
         },
         {
           topicId: "t-m15-feed-scarcity",
           type: "mcq",
-          q: L("Which of these is a recommended general practice for better fodder supply?"),
+          q: L(
+            "Which of these is a recommended general practice for better fodder supply?",
+            "మెరుగైన మేత సరఫరా కోసం సిఫారసు చేయబడిన సాధారణ పద్ధతి ఏది?",
+            "சிறந்த தீவன வழங்கலுக்கு பரிந்துரைக்கப்படும் பொது நடைமுறை எது?",
+            "ಉತ್ತಮ ಮೇವು ಪೂರೈಕೆಗಾಗಿ ಶಿಫಾರಸು ಮಾಡಲಾದ ಸಾಮಾನ್ಯ ಅಭ್ಯಾಸ ಯಾವುದು?",
+            "बेहतर चारा आपूर्ति के लिए सुझाया गया सामान्य तरीका कौन सा है?"
+          ),
           options: [
-            L("Always use unknown, leftover seed to save money"),
-            L("Use certified seed of high-yielding varieties and grow a mix of crops, including legume fodder"),
-            L("Grow only one single fodder crop, forever, on all land"),
-            L("Leave land unused between main crop seasons"),
+            L(
+              "Always use unknown, leftover seed to save money",
+              "డబ్బు ఆదా చేయడానికి ఎప్పుడూ తెలియని, మిగిలిపోయిన విత్తనాలనే వాడాలి",
+              "பணத்தை மிச்சப்படுத்த எப்போதும் தெரியாத, மீதமான விதைகளையே பயன்படுத்த வேண்டும்",
+              "ಹಣ ಉಳಿಸಲು ಯಾವಾಗಲೂ ಗೊತ್ತಿಲ್ಲದ, ಉಳಿದ ಬೀಜಗಳನ್ನೇ ಬಳಸಬೇಕು",
+              "पैसे बचाने के लिए हमेशा अनजान, बचे हुए बीज का इस्तेमाल करना"
+            ),
+            L(
+              "Use certified seed of high-yielding varieties and grow a mix of crops, including legume fodder",
+              "అధిక దిగుబడినిచ్చే రకాల ధృవీకరించబడిన విత్తనాలను వాడాలి మరియు పప్పుధాన్యాల మేతతో సహా వివిధ పంటలను కలిపి పెంచాలి",
+              "அதிக மகசூல் தரும் வகைகளின் சான்றளிக்கப்பட்ட விதைகளைப் பயன்படுத்தி, பயறு வகை தீவனம் உட்பட பல்வேறு பயிர்களைக் கலந்து வளர்க்க வேண்டும்",
+              "ಹೆಚ್ಚು ಇಳುವರಿ ನೀಡುವ ತಳಿಗಳ ಪ್ರಮಾಣೀಕೃತ ಬೀಜಗಳನ್ನು ಬಳಸಿ, ದ್ವಿದಳ ಧಾನ್ಯ ಮೇವು ಸೇರಿದಂತೆ ಮಿಶ್ರ ಬೆಳೆಗಳನ್ನು ಬೆಳೆಸಬೇಕು",
+              "अधिक उपज देने वाली किस्मों के प्रमाणित बीज का उपयोग करें और दलहनी चारे सहित मिश्रित फसलें उगाएं"
+            ),
+            L(
+              "Grow only one single fodder crop, forever, on all land",
+              "అన్ని భూమిలో ఎప్పటికీ ఒకే ఒక్క మేత పంటను మాత్రమే పెంచాలి",
+              "எல்லா நிலத்திலும் எப்போதும் ஒரே ஒரு தீவனப் பயிரை மட்டுமே வளர்க்க வேண்டும்",
+              "ಎಲ್ಲಾ ಭೂಮಿಯಲ್ಲಿ ಶಾಶ್ವತವಾಗಿ ಒಂದೇ ಒಂದು ಮೇವಿನ ಬೆಳೆಯನ್ನು ಮಾತ್ರ ಬೆಳೆಸಬೇಕು",
+              "पूरी जमीन पर हमेशा के लिए सिर्फ एक ही चारा फसल उगाना"
+            ),
+            L(
+              "Leave land unused between main crop seasons",
+              "ప్రధాన పంట సీజన్ల మధ్య భూమిని ఖాళీగా వదిలేయాలి",
+              "முதன்மைப் பயிர் காலங்களுக்கு இடையில் நிலத்தை காலியாக விட வேண்டும்",
+              "ಮುಖ್ಯ ಬೆಳೆ ಋತುಗಳ ನಡುವೆ ಭೂಮಿಯನ್ನು ಖಾಲಿ ಬಿಡಬೇಕು",
+              "मुख्य फसल के मौसमों के बीच जमीन को खाली छोड़ देना"
+            ),
           ],
           answer: 1,
-          explain: L("Certified good-quality seed, following recommended growing steps, and mixing legume and cereal fodder crops all help build a steadier fodder supply."),
+          explain: L(
+            "Certified good-quality seed, following recommended growing steps, and mixing legume and cereal fodder crops all help build a steadier fodder supply.",
+            "ధృవీకరించబడిన మంచి నాణ్యమైన విత్తనాలు, సిఫారసు చేసిన పెంపకం విధానాలను పాటించడం, తృణధాన్యాలు మరియు పప్పుధాన్యాల మేత పంటలను కలపడం — ఇవన్నీ మరింత స్థిరమైన మేత సరఫరాను ఏర్పరచడంలో సహాయపడతాయి.",
+            "சான்றளிக்கப்பட்ட நல்ல தரமான விதைகள், பரிந்துரைக்கப்பட்ட வளர்ப்பு முறைகளைப் பின்பற்றுவது, மற்றும் பயறு மற்றும் தானிய தீவனப் பயிர்களைக் கலப்பது ஆகியவை நிலையான தீவன வழங்கலை உருவாக்க உதவும்.",
+            "ಪ್ರಮಾಣೀಕೃತ ಉತ್ತಮ ಗುಣಮಟ್ಟದ ಬೀಜಗಳು, ಶಿಫಾರಸು ಮಾಡಿದ ಬೆಳೆ ಕ್ರಮಗಳನ್ನು ಅನುಸರಿಸುವುದು, ಮತ್ತು ದ್ವಿದಳ ಧಾನ್ಯ ಹಾಗೂ ಧಾನ್ಯ ಮೇವಿನ ಬೆಳೆಗಳನ್ನು ಬೆರೆಸುವುದು — ಇವೆಲ್ಲ ಸ್ಥಿರವಾದ ಮೇವು ಪೂರೈಕೆಯನ್ನು ಕಟ್ಟಲು ಸಹಾಯ ಮಾಡುತ್ತವೆ.",
+            "प्रमाणित अच्छी गुणवत्ता के बीज, सुझाए गए उगाने के तरीकों का पालन करना, और दलहनी व अनाज चारा फसलों को मिलाना — ये सभी अधिक स्थिर चारा आपूर्ति बनाने में मदद करते हैं।"
+          ),
         },
         {
           topicId: "t-m15-feed-scarcity",
           type: "truefalse",
-          q: L("Planting some fast-growing, multiple-harvest perennial fodder grasses can help keep fodder coming in over a longer period."),
+          q: L(
+            "Planting some fast-growing, multiple-harvest perennial fodder grasses can help keep fodder coming in over a longer period.",
+            "త్వరగా పెరిగే, పలుమార్లు కోతకు వచ్చే శాశ్వత మేత గడ్డిని కొంత నాటడం వల్ల ఎక్కువ కాలం పాటు మేత అందుబాటులో ఉంటుంది.",
+            "விரைவாக வளரும், பல முறை அறுவடை செய்யக்கூடிய வற்றாத தீவனப் புற்களை நடுவது நீண்ட காலத்திற்கு தீவனம் தொடர்ந்து கிடைக்க உதவும்.",
+            "ವೇಗವಾಗಿ ಬೆಳೆಯುವ, ಹಲವು ಬಾರಿ ಕೊಯ್ಲು ಮಾಡಬಹುದಾದ ಬಹುವಾರ್ಷಿಕ ಮೇವಿನ ಹುಲ್ಲುಗಳನ್ನು ಕೆಲವು ನೆಡುವುದರಿಂದ ದೀರ್ಘಕಾಲ ಮೇವು ಸಿಗುತ್ತಲೇ ಇರುತ್ತದೆ.",
+            "तेजी से बढ़ने वाली, बार-बार कटाई देने वाली बहुवर्षीय चारा घासें कुछ लगाने से लंबे समय तक चारा मिलते रहने में मदद मिल सकती है।"
+          ),
           answer: true,
-          explain: L("Correct — perennial fodder grasses that can be cut again and again give a more continuous supply than crops harvested only once."),
+          explain: L(
+            "Correct — perennial fodder grasses that can be cut again and again give a more continuous supply than crops harvested only once.",
+            "సరైనది — పదేపదే కోయగలిగే శాశ్వత మేత గడ్డి, ఒకసారి మాత్రమే కోసే పంటల కంటే మరింత నిరంతర సరఫరాను ఇస్తుంది.",
+            "சரியானது — மீண்டும் மீண்டும் அறுவடை செய்யக்கூடிய வற்றாத தீவனப் புற்கள், ஒரே முறை மட்டும் அறுவடை செய்யப்படும் பயிர்களை விட தொடர்ச்சியான வழங்கலைத் தரும்.",
+            "ಸರಿಯಾಗಿದೆ — ಮತ್ತೆ ಮತ್ತೆ ಕೊಯ್ಲು ಮಾಡಬಹುದಾದ ಬಹುವಾರ್ಷಿಕ ಮೇವಿನ ಹುಲ್ಲುಗಳು, ಒಮ್ಮೆ ಮಾತ್ರ ಕೊಯ್ಲು ಮಾಡುವ ಬೆಳೆಗಳಿಗಿಂತ ಹೆಚ್ಚು ನಿರಂತರ ಪೂರೈಕೆ ನೀಡುತ್ತವೆ.",
+            "सही — बार-बार काटी जा सकने वाली बहुवर्षीय चारा घासें, केवल एक बार काटी जाने वाली फसलों की तुलना में अधिक निरंतर आपूर्ति देती हैं।"
+          ),
         },
       ],
     },
@@ -9039,71 +9311,157 @@ export const MODULES = [
   // ==================================================================
   {
     id: "m15-l2",
-    title: L("Conserving Surplus Fodder: Hay and Silage"),
+    title: L(
+      "Conserving Surplus Fodder: Hay and Silage",
+      "మిగులు మేతను నిల్వ చేయడం: ఎండుమేత మరియు సైలేజ్",
+      "உபரி தீவனத்தைப் பாதுகாத்தல்: உலர் தீவனம் மற்றும் சைலேஜ்",
+      "ಹೆಚ್ಚುವರಿ ಮೇವನ್ನು ಸಂರಕ್ಷಿಸುವುದು: ಒಣ ಮೇವು ಮತ್ತು ಸೈಲೇಜ್",
+      "अतिरिक्त चारे को सुरक्षित रखना: सूखा चारा और साइलेज"
+    ),
     estMinutes: 9,
     hook: [
       {
         type: "hero",
-        heading: L("Don't Let Extra Fodder Go to Waste"),
+        heading: L(
+          "Don't Let Extra Fodder Go to Waste",
+          "అదనపు మేతను వృథా చేయవద్దు",
+          "கூடுதல் தீவனத்தை வீணாக்காதீர்கள்",
+          "ಹೆಚ್ಚುವರಿ ಮೇವನ್ನು ವ್ಯರ್ಥ ಮಾಡಬೇಡಿ",
+          "अतिरिक्त चारे को बर्बाद न होने दें"
+        ),
         text: L(
-          "In the months when green fodder grows in plenty, farms often end up with more than the animals can eat right away. Rather than letting that surplus go to waste, it can be stored for later use in one of two simple ways — turned into hay, or turned into silage. This lesson explains both, so surplus fodder can carry a farm through the lean months instead of being wasted."
+          "In the months when green fodder grows in plenty, farms often end up with more than the animals can eat right away. Rather than letting that surplus go to waste, it can be stored for later use in one of two simple ways — turned into hay, or turned into silage. This lesson explains both, so surplus fodder can carry a farm through the lean months instead of being wasted.",
+          "పచ్చి మేత సమృద్ధిగా పెరిగే నెలల్లో, జంతువులు వెంటనే తినగలిగే దానికంటే ఎక్కువ మేత ఫారంలో మిగిలిపోతుంది. ఆ మిగులును వృథా చేయడానికి బదులు, రెండు సాధారణ పద్ధతుల్లో ఒకదానిలో నిల్వ చేసుకోవచ్చు — ఎండుమేతగా మార్చడం లేదా సైలేజ్‌గా మార్చడం. ఈ పాఠం రెండింటినీ వివరిస్తుంది, తద్వారా మిగులు మేత వృథా కాకుండా లోటు నెలల్లో ఫారంకు ఉపయోగపడుతుంది.",
+          "பசுந்தீவனம் ஏராளமாக வளரும் மாதங்களில், விலங்குகள் உடனடியாக உண்ணக்கூடியதை விட அதிகமான தீவனம் பண்ணையில் மீதமிருக்கும். அந்த உபரியை வீணாக்குவதற்குப் பதிலாக, இரண்டு எளிய வழிகளில் ஒன்றில் சேமித்து வைக்கலாம் — உலர் தீவனமாக மாற்றுவது, அல்லது சைலேஜாக மாற்றுவது. இந்தப் பாடம் இரண்டையும் விளக்குகிறது, இதனால் உபரி தீவனம் வீணாகாமல் பற்றாக்குறை மாதங்களில் பண்ணைக்கு உதவும்.",
+          "ಹಸಿರು ಮೇವು ಹೇರಳವಾಗಿ ಬೆಳೆಯುವ ತಿಂಗಳುಗಳಲ್ಲಿ, ಪ್ರಾಣಿಗಳು ತಕ್ಷಣ ತಿನ್ನಬಹುದಾದುದಕ್ಕಿಂತ ಹೆಚ್ಚು ಮೇವು ಫಾರ್ಮ್‌ನಲ್ಲಿ ಉಳಿಯುತ್ತದೆ. ಆ ಹೆಚ್ಚುವರಿಯನ್ನು ವ್ಯರ್ಥ ಮಾಡುವ ಬದಲು, ಎರಡು ಸರಳ ವಿಧಾನಗಳಲ್ಲಿ ಒಂದರಲ್ಲಿ ಸಂಗ್ರಹಿಸಬಹುದು — ಒಣ ಮೇವಾಗಿ ಪರಿವರ್ತಿಸುವುದು, ಅಥವಾ ಸೈಲೇಜ್ ಆಗಿ ಪರಿವರ್ತಿಸುವುದು. ಈ ಪಾಠ ಎರಡನ್ನೂ ವಿವರಿಸುತ್ತದೆ, ಇದರಿಂದ ಹೆಚ್ಚುವರಿ ಮೇವು ವ್ಯರ್ಥವಾಗದೆ ಕೊರತೆಯ ತಿಂಗಳುಗಳಲ್ಲಿ ಫಾರ್ಮ್‌ಗೆ ಉಪಯೋಗವಾಗುತ್ತದೆ.",
+          "जिन महीनों में हरा चारा भरपूर उगता है, उनमें अक्सर फार्म पर पशु तुरंत खा सकें उससे ज्यादा चारा बच जाता है। उस अतिरिक्त चारे को बर्बाद होने देने के बजाय, इसे दो आसान तरीकों में से किसी एक से बाद के लिए सुरक्षित रखा जा सकता है — सूखा चारा बनाकर, या साइलेज बनाकर। यह पाठ दोनों तरीके समझाता है, ताकि अतिरिक्त चारा बर्बाद होने के बजाय कमी वाले महीनों में फार्म के काम आ सके।"
         ),
       },
     ],
     topics: [
       {
         id: "t-m15-hay",
-        title: L("Turning Surplus Fodder into Hay"),
+        title: L(
+          "Turning Surplus Fodder into Hay",
+          "మిగులు మేతను ఎండుమేతగా మార్చడం",
+          "உபரி தீவனத்தை உலர் தீவனமாக மாற்றுதல்",
+          "ಹೆಚ್ಚುವರಿ ಮೇವನ್ನು ಒಣ ಮೇವಾಗಿ ಪರಿವರ್ತಿಸುವುದು",
+          "अतिरिक्त चारे को सूखे चारे में बदलना"
+        ),
         teach: [
             {
               type: "photo",
               src: "assets/photo-m15-hay.jpg",
-              alt: L("Two large cone-shaped haystacks made of dried wheat hay standing in a field in Punjab, India"),
-              caption: L("Once sun-dried to low moisture, hay is gathered and stored so its quality is kept until it's needed."),
+              alt: L(
+                "Two large cone-shaped haystacks made of dried wheat hay standing in a field in Punjab, India",
+                "పంజాబ్‌లోని ఒక పొలంలో నిలబెట్టిన ఎండిన గోధుమ ఎండుమేతతో చేసిన రెండు పెద్ద కోన్ ఆకారపు కుప్పలు",
+                "பஞ்சாபில் உள்ள ஒரு வயலில் நிற்கும் உலர்ந்த கோதுமை உலர் தீவனத்தால் ஆன இரண்டு பெரிய கூம்பு வடிவ போரடுக்குகள்",
+                "ಪಂಜಾಬ್‌ನ ಒಂದು ಹೊಲದಲ್ಲಿ ನಿಂತಿರುವ ಒಣಗಿದ ಗೋಧಿ ಒಣ ಮೇವಿನಿಂದ ಮಾಡಿದ ಎರಡು ದೊಡ್ಡ ಶಂಕುವಿನಾಕಾರದ ರಾಶಿಗಳು",
+                "पंजाब के एक खेत में खड़े सूखे गेहूं के सूखे चारे से बने दो बड़े शंकु आकार के ढेर"
+              ),
+              caption: L(
+                "Once sun-dried to low moisture, hay is gathered and stored so its quality is kept until it's needed.",
+                "ఎండలో తగినంత ఎండిన తర్వాత, ఎండుమేత అవసరమయ్యేవరకు నాణ్యత చెడకుండా సేకరించి నిల్వ చేస్తారు.",
+                "வெயிலில் போதுமான அளவு உலர்ந்த பிறகு, தேவைப்படும் வரை தரம் கெடாமல் இருக்க உலர் தீவனம் சேகரிக்கப்பட்டு சேமிக்கப்படுகிறது.",
+                "ಬಿಸಿಲಿನಲ್ಲಿ ಸಾಕಷ್ಟು ಒಣಗಿದ ನಂತರ, ಬೇಕಾದಾಗ ಗುಣಮಟ್ಟ ಕೆಡದಂತೆ ಒಣ ಮೇವನ್ನು ಸಂಗ್ರಹಿಸಿ ಸಂಗ್ರಹಿಸಿಡಲಾಗುತ್ತದೆ.",
+                "धूप में कम नमी तक सूखने के बाद, जरूरत पड़ने तक गुणवत्ता बनाए रखने के लिए सूखे चारे को इकट्ठा करके रखा जाता है।"
+              ),
             },
           {
             type: "text",
-            heading: L("Why Conserve Fodder at All?"),
+            heading: L(
+              "Why Conserve Fodder at All?",
+              "మేతను ఎందుకు నిల్వ చేయాలి?",
+              "தீவனத்தை ஏன் பாதுகாக்க வேண்டும்?",
+              "ಮೇವನ್ನು ಏಕೆ ಸಂರಕ್ಷಿಸಬೇಕು?",
+              "चारे को सुरक्षित क्यों रखा जाए?"
+            ),
             html: L(
-              "Feeding good-quality roughage (bulky fodder) to dairy animals all year round is essential to get the best out of them — but green fodder isn't available evenly through the year. The surplus grown in the plentiful months can be conserved as <b>hay</b> or <b>silage</b>, so there's still good fodder to feed during the deficit months, and less of the surplus is wasted."
+              "Feeding good-quality roughage (bulky fodder) to dairy animals all year round is essential to get the best out of them — but green fodder isn't available evenly through the year. The surplus grown in the plentiful months can be conserved as <b>hay</b> or <b>silage</b>, so there's still good fodder to feed during the deficit months, and less of the surplus is wasted.",
+              "పాడి జంతువులకు ఏడాది పొడవునా మంచి నాణ్యమైన స్థూల మేతను (బల్కీ ఫోడర్) తినిపించడం వాటి నుండి పూర్తి ప్రయోజనం పొందడానికి అవసరం — కానీ పచ్చి మేత ఏడాది పొడవునా సమానంగా అందుబాటులో ఉండదు. సమృద్ధి నెలల్లో పెరిగే మిగులును <b>ఎండుమేత</b> లేదా <b>సైలేజ్</b>గా నిల్వ చేయవచ్చు, తద్వారా లోటు నెలల్లో కూడా మంచి మేత తినిపించడానికి ఉంటుంది మరియు మిగులు తక్కువ వృథా అవుతుంది.",
+              "பாலுற்பத்தி விலங்குகளுக்கு ஆண்டு முழுவதும் நல்ல தரமான தூலிய தீவனம் (பருமனான தீவனம்) ஊட்டுவது அவற்றிடமிருந்து சிறந்த பலனைப் பெற அவசியம் — ஆனால் பசுந்தீவனம் ஆண்டு முழுவதும் சமமாக கிடைப்பதில்லை. ஏராளமான மாதங்களில் வளரும் உபரியை <b>உலர் தீவனமாகவோ</b> அல்லது <b>சைலேஜாகவோ</b> பாதுகாக்கலாம், இதனால் பற்றாக்குறை மாதங்களிலும் நல்ல தீவனம் ஊட்ட முடியும், உபரியும் குறைவாகவே வீணாகும்.",
+              "ಪಶು ಆಹಾರ ಪ್ರಾಣಿಗಳಿಗೆ ವರ್ಷವಿಡೀ ಉತ್ತಮ ಗುಣಮಟ್ಟದ ಒರಟು ಮೇವನ್ನು (ಬೃಹತ್ ಮೇವು) ತಿನ್ನಿಸುವುದು ಅವುಗಳಿಂದ ಉತ್ತಮ ಫಲಿತಾಂಶ ಪಡೆಯಲು ಅಗತ್ಯ — ಆದರೆ ಹಸಿರು ಮೇವು ವರ್ಷವಿಡೀ ಸಮಾನವಾಗಿ ಸಿಗುವುದಿಲ್ಲ. ಹೇರಳ ತಿಂಗಳುಗಳಲ್ಲಿ ಬೆಳೆಯುವ ಹೆಚ್ಚುವರಿಯನ್ನು <b>ಒಣ ಮೇವು</b> ಅಥವಾ <b>ಸೈಲೇಜ್</b> ಆಗಿ ಸಂರಕ್ಷಿಸಬಹುದು, ಇದರಿಂದ ಕೊರತೆಯ ತಿಂಗಳುಗಳಲ್ಲೂ ಉತ್ತಮ ಮೇವು ತಿನ್ನಿಸಲು ಸಿಗುತ್ತದೆ ಮತ್ತು ಹೆಚ್ಚುವರಿ ಕಡಿಮೆ ವ್ಯರ್ಥವಾಗುತ್ತದೆ.",
+              "डेयरी पशुओं को पूरे साल अच्छी गुणवत्ता का रफेज (भारी चारा) खिलाना उनसे पूरा फायदा लेने के लिए जरूरी है — लेकिन हरा चारा पूरे साल एक जैसा उपलब्ध नहीं होता। भरपूर महीनों में उगने वाले अतिरिक्त चारे को <b>सूखे चारे</b> या <b>साइलेज</b> के रूप में सुरक्षित रखा जा सकता है, ताकि कमी वाले महीनों में भी अच्छा चारा खिलाने को मिले और अतिरिक्त चारा कम बर्बाद हो।"
             ),
           },
           {
             type: "glossary",
-            term: L("Hay"),
+            term: L("Hay", "ఎండుమేత", "உலர் தீவனம்", "ಒಣ ಮೇವು", "सूखा चारा"),
             meaning: L(
-              "Green fodder that has been dried in the sun until most of its moisture is gone (below about 15 per cent). It stores well and still gives the animal good nutrition and protein during months when fresh green fodder is scarce."
+              "Green fodder that has been dried in the sun until most of its moisture is gone (below about 15 per cent). It stores well and still gives the animal good nutrition and protein during months when fresh green fodder is scarce.",
+              "ఎండలో ఎండబెట్టి, తేమ దాదాపు పోయేలా (సుమారు 15 శాతం కంటే తక్కువకు) చేసిన పచ్చి మేత. ఇది బాగా నిల్వ ఉంటుంది మరియు పచ్చి మేత తక్కువగా ఉండే నెలల్లో కూడా జంతువుకు మంచి పోషణ మరియు ప్రోటీన్‌ను అందిస్తుంది.",
+              "வெயிலில் காயவைத்து, ஈரப்பதம் கிட்டத்தட்ட போகும்படி (சுமார் 15 சதவீதத்திற்குக் கீழே) செய்யப்பட்ட பசுந்தீவனம். இது நன்றாக சேமிக்கப்படும், மற்றும் பசுந்தீவனம் குறைவாக இருக்கும் மாதங்களிலும் விலங்குக்கு நல்ல ஊட்டச்சத்து மற்றும் புரதத்தைத் தரும்.",
+              "ಬಿಸಿಲಿನಲ್ಲಿ ಒಣಗಿಸಿ, ತೇವಾಂಶ ಬಹುತೇಕ ಹೋಗುವಂತೆ (ಸುಮಾರು 15 ಪ್ರತಿಶತಕ್ಕಿಂತ ಕಡಿಮೆ) ಮಾಡಲಾದ ಹಸಿರು ಮೇವು. ಇದು ಚೆನ್ನಾಗಿ ಸಂಗ್ರಹವಾಗುತ್ತದೆ ಮತ್ತು ತಾಜಾ ಹಸಿರು ಮೇವು ಕಡಿಮೆ ಇರುವ ತಿಂಗಳುಗಳಲ್ಲೂ ಪ್ರಾಣಿಗೆ ಉತ್ತಮ ಪೋಷಣೆ ಮತ್ತು ಪ್ರೋಟೀನ್ ನೀಡುತ್ತದೆ.",
+              "धूप में सुखाया गया हरा चारा जिसकी नमी लगभग खत्म हो जाती है (करीब 15 प्रतिशत से कम)। यह अच्छी तरह से सुरक्षित रहता है और जिन महीनों में ताजा हरा चारा कम होता है, तब भी पशु को अच्छा पोषण और प्रोटीन देता है।"
             ),
           },
           {
             type: "text",
-            heading: L("How Hay Is Made"),
+            heading: L(
+              "How Hay Is Made",
+              "ఎండుమేత ఎలా తయారు చేస్తారు",
+              "உலர் தீவனம் எப்படி தயாரிக்கப்படுகிறது",
+              "ಒಣ ಮೇವು ಹೇಗೆ ತಯಾರಿಸಲಾಗುತ್ತದೆ",
+              "सूखा चारा कैसे बनाया जाता है"
+            ),
             html: L(
-              "Hay is generally made from fodder crops with thin stems, cut around the time they are about half-flowered, most often during the hot, dry summer months when sun-drying works fastest. After cutting, the green fodder is spread out in a thin, even layer on a dry surface so the sun can dry it. It is turned over regularly so it dries evenly on all sides, and after a few days — once it has dried down to low moisture — it is gathered into bundles for storage."
+              "Hay is generally made from fodder crops with thin stems, cut around the time they are about half-flowered, most often during the hot, dry summer months when sun-drying works fastest. After cutting, the green fodder is spread out in a thin, even layer on a dry surface so the sun can dry it. It is turned over regularly so it dries evenly on all sides, and after a few days — once it has dried down to low moisture — it is gathered into bundles for storage.",
+              "ఎండుమేతను సాధారణంగా సన్నని కాండం ఉన్న మేత పంటల నుండి తయారు చేస్తారు, వాటిని దాదాపు సగం పూత దశలో కోస్తారు, ఎక్కువగా ఎండలో ఎండటం వేగంగా జరిగే వేడి, పొడి వేసవి నెలల్లో. కోసిన తర్వాత, పచ్చి మేతను పొడి ఉపరితలంపై సన్నని, సమానమైన పొరగా పరచి ఎండలో ఎండనిస్తారు. అన్ని వైపులా సమానంగా ఎండటానికి దీన్ని క్రమం తప్పకుండా తిప్పుతారు, మరియు కొన్ని రోజుల తర్వాత — తేమ తక్కువకు ఎండిన తర్వాత — నిల్వ కోసం కట్టలుగా సేకరిస్తారు.",
+              "உலர் தீவனம் பொதுவாக மெல்லிய தண்டுகள் கொண்ட தீவனப் பயிர்களிலிருந்து தயாரிக்கப்படுகிறது, அவை பாதி பூத்த நிலையில் அறுவடை செய்யப்படும், பெரும்பாலும் வெயில் காயவைத்தல் வேகமாக நடக்கும் வெப்பமான, வறண்ட கோடைக் காலத்தில். அறுவடைக்குப் பிறகு, பசுந்தீவனம் உலர்ந்த மேற்பரப்பில் மெல்லிய, சமமான அடுக்காக பரப்பப்பட்டு வெயிலில் காயவைக்கப்படுகிறது. எல்லா பக்கங்களிலும் சமமாக காயும்படி இது தொடர்ந்து புரட்டப்படுகிறது, மேலும் சில நாட்களுக்குப் பிறகு — ஈரப்பதம் குறைந்த பிறகு — சேமிப்பிற்காக கட்டுகளாக சேகரிக்கப்படுகிறது.",
+              "ಒಣ ಮೇವನ್ನು ಸಾಮಾನ್ಯವಾಗಿ ತೆಳ್ಳಗಿನ ಕಾಂಡಗಳಿರುವ ಮೇವಿನ ಬೆಳೆಗಳಿಂದ ತಯಾರಿಸಲಾಗುತ್ತದೆ, ಅವು ಸುಮಾರು ಅರ್ಧ-ಹೂ ಬಿಟ್ಟ ಹಂತದಲ್ಲಿ ಕೊಯ್ಲು ಮಾಡಲಾಗುತ್ತದೆ, ಹೆಚ್ಚಾಗಿ ಬಿಸಿಲಿನಲ್ಲಿ ಒಣಗಿಸುವಿಕೆ ವೇಗವಾಗಿ ನಡೆಯುವ ಬಿಸಿ, ಒಣ ಬೇಸಿಗೆ ತಿಂಗಳುಗಳಲ್ಲಿ. ಕೊಯ್ಲಿನ ನಂತರ, ಹಸಿರು ಮೇವನ್ನು ಒಣ ಮೇಲ್ಮೈಯಲ್ಲಿ ತೆಳ್ಳಗೆ, ಸಮಾನವಾಗಿ ಹರಡಿ ಬಿಸಿಲಿನಲ್ಲಿ ಒಣಗಿಸಲಾಗುತ್ತದೆ. ಎಲ್ಲಾ ಬದಿಗಳಲ್ಲೂ ಸಮಾನವಾಗಿ ಒಣಗಲು ಇದನ್ನು ನಿಯಮಿತವಾಗಿ ತಿರುಗಿಸಲಾಗುತ್ತದೆ, ಮತ್ತು ಕೆಲವು ದಿನಗಳ ನಂತರ — ತೇವಾಂಶ ಕಡಿಮೆಯಾದ ನಂತರ — ಸಂಗ್ರಹಣೆಗಾಗಿ ಕಟ್ಟುಗಳಾಗಿ ಸಂಗ್ರಹಿಸಲಾಗುತ್ತದೆ.",
+              "सूखा चारा आमतौर पर पतले तने वाली चारा फसलों से बनाया जाता है, जिन्हें लगभग आधा फूल आने की अवस्था में काटा जाता है, ज्यादातर गर्म, सूखे गर्मी के महीनों में जब धूप में सुखाना सबसे तेज होता है। काटने के बाद, हरे चारे को सूखी सतह पर पतली, समान परत में फैलाया जाता है ताकि धूप उसे सुखा सके। सभी तरफ से समान रूप से सूखने के लिए इसे नियमित रूप से पलटा जाता है, और कुछ दिनों बाद — जब नमी कम हो जाती है — इसे भंडारण के लिए गट्ठरों में इकट्ठा किया जाता है।"
             ),
           },
           {
             type: "callout",
             style: "tip",
-            heading: L("How to Tell Good Hay From Poor Hay"),
+            heading: L(
+              "How to Tell Good Hay From Poor Hay",
+              "మంచి ఎండుమేతను చెడు ఎండుమేత నుండి ఎలా గుర్తించాలి",
+              "நல்ல உலர் தீவனத்தை மோசமான உலர் தீவனத்திலிருந்து எப்படி வேறுபடுத்துவது",
+              "ಉತ್ತಮ ಒಣ ಮೇವನ್ನು ಕಳಪೆ ಒಣ ಮೇವಿನಿಂದ ಹೇಗೆ ಗುರುತಿಸುವುದು",
+              "अच्छे सूखे चारे को खराब सूखे चारे से कैसे पहचानें"
+            ),
             text: L(
-              "Good hay keeps its leaves attached and keeps a greenish colour, rather than turning pale, crumbly and leafless. If the hay has lost its leaves and its colour, it has lost much of its feeding value too. Store finished hay bundles somewhere dry and free of dust, so the quality doesn't drop while it waits to be used."
+              "Good hay keeps its leaves attached and keeps a greenish colour, rather than turning pale, crumbly and leafless. If the hay has lost its leaves and its colour, it has lost much of its feeding value too. Store finished hay bundles somewhere dry and free of dust, so the quality doesn't drop while it waits to be used.",
+              "మంచి ఎండుమేత ఆకులు ఊడిపోకుండా, లేత రంగుకు మారి, పెళుసుగా, ఆకులు లేకుండా కాకుండా ఆకుపచ్చ రంగును కలిగి ఉంటుంది. ఎండుమేత ఆకులను మరియు రంగును కోల్పోతే, దాని దాణా విలువను కూడా చాలా వరకు కోల్పోతుంది. తయారైన ఎండుమేత కట్టలను వాడేవరకు నాణ్యత తగ్గకుండా పొడి, దుమ్ము లేని చోట నిల్వ చేయాలి.",
+              "நல்ல உலர் தீவனம் இலைகள் உதிராமல், வெளிறாமல், நொறுங்காமல் பச்சை நிறத்துடன் இருக்கும். உலர் தீவனம் இலைகளையும் நிறத்தையும் இழந்திருந்தால், அதன் ஊட்டச்சத்து மதிப்பையும் பெரும்பாலும் இழந்திருக்கும். தயாரான உலர் தீவன கட்டுகளை பயன்படுத்தும் வரை தரம் குறையாமல் இருக்க உலர்ந்த, தூசி இல்லாத இடத்தில் சேமிக்கவும்.",
+              "ಉತ್ತಮ ಒಣ ಮೇವು ಎಲೆಗಳು ಉದುರದೆ, ಬಿಳಿಚಿಕೊಳ್ಳದೆ, ಪುಡಿಪುಡಿಯಾಗದೆ ಹಸಿರು ಬಣ್ಣವನ್ನೇ ಉಳಿಸಿಕೊಳ್ಳುತ್ತದೆ. ಒಣ ಮೇವು ಎಲೆಗಳನ್ನು ಮತ್ತು ಬಣ್ಣವನ್ನು ಕಳೆದುಕೊಂಡಿದ್ದರೆ, ಅದು ತನ್ನ ಆಹಾರ ಮೌಲ್ಯವನ್ನೂ ಬಹಳಷ್ಟು ಕಳೆದುಕೊಂಡಿದೆ ಎಂದರ್ಥ. ಸಿದ್ಧವಾದ ಒಣ ಮೇವಿನ ಕಟ್ಟುಗಳನ್ನು ಬಳಕೆಗೆ ಬರುವವರೆಗೆ ಗುಣಮಟ್ಟ ಕಡಿಮೆಯಾಗದಂತೆ ಒಣ, ಧೂಳು ಇಲ್ಲದ ಸ್ಥಳದಲ್ಲಿ ಸಂಗ್ರಹಿಸಿ.",
+              "अच्छा सूखा चारा अपने पत्ते जोड़े रखता है और हरे रंग जैसा दिखता है, न कि फीका, भुरभुरा और बिना पत्तों वाला। अगर सूखे चारे ने अपने पत्ते और रंग खो दिए हैं, तो उसने अपनी खिलाने की कीमत भी काफी हद तक खो दी है। तैयार सूखे चारे के गट्ठरों को कहीं सूखी और धूल-रहित जगह पर रखें, ताकि उपयोग होने तक गुणवत्ता कम न हो।"
             ),
           },
           {
             type: "stat-grid",
             items: [
               {
-                label: L("Best made from"),
-                text: L("Thin-stemmed fodder crops and some perennial pasture grasses — cut around the half-flowering stage."),
+                label: L("Best made from", "దీని నుండి ఉత్తమంగా తయారవుతుంది", "இதிலிருந்து சிறப்பாக தயாரிக்கப்படுகிறது", "ಇದರಿಂದ ಉತ್ತಮವಾಗಿ ತಯಾರಿಸಲಾಗುತ್ತದೆ", "इससे सबसे अच्छा बनता है"),
+                text: L(
+                  "Thin-stemmed fodder crops and some perennial pasture grasses — cut around the half-flowering stage.",
+                  "సన్నని కాండం ఉన్న మేత పంటలు మరియు కొన్ని శాశ్వత గడ్డి రకాలు — దాదాపు సగం పూత దశలో కోస్తారు.",
+                  "மெல்லிய தண்டு கொண்ட தீவனப் பயிர்கள் மற்றும் சில வற்றாத மேய்ச்சல் புற்கள் — பாதி பூத்த நிலையில் அறுவடை செய்யப்படும்.",
+                  "ತೆಳ್ಳಗಿನ ಕಾಂಡದ ಮೇವಿನ ಬೆಳೆಗಳು ಮತ್ತು ಕೆಲವು ಬಹುವಾರ್ಷಿಕ ಹುಲ್ಲುಗಾವಲು ಹುಲ್ಲುಗಳು — ಅರ್ಧ-ಹೂ ಬಿಟ್ಟ ಹಂತದಲ್ಲಿ ಕೊಯ್ಲು ಮಾಡಲಾಗುತ್ತದೆ.",
+                  "पतले तने वाली चारा फसलें और कुछ बहुवर्षीय चारागाह घासें — आधा फूल आने की अवस्था में काटी जाती हैं।"
+                ),
               },
               {
-                label: L("Moisture target"),
-                text: L("Dried down to below about 15 per cent moisture before it is stored."),
+                label: L("Moisture target", "తేమ లక్ష్యం", "ஈரப்பத இலக்கு", "ತೇವಾಂಶ ಗುರಿ", "नमी लक्ष्य"),
+                text: L(
+                  "Dried down to below about 15 per cent moisture before it is stored.",
+                  "నిల్వ చేయడానికి ముందు తేమను సుమారు 15 శాతం కంటే తక్కువకు ఎండిస్తారు.",
+                  "சேமிக்கும் முன் ஈரப்பதத்தை சுமார் 15 சதவீதத்திற்குக் கீழே காயவைக்கப்படுகிறது.",
+                  "ಸಂಗ್ರಹಿಸುವ ಮೊದಲು ತೇವಾಂಶವನ್ನು ಸುಮಾರು 15 ಪ್ರತಿಶತಕ್ಕಿಂತ ಕಡಿಮೆಗೆ ಒಣಗಿಸಲಾಗುತ್ತದೆ.",
+                  "भंडारण से पहले नमी को करीब 15 प्रतिशत से कम तक सुखाया जाता है।"
+                ),
               },
               {
-                label: L("Storage"),
-                text: L("Kept in a dry, dust-free place to protect its quality until it's needed."),
+                label: L("Storage", "నిల్వ", "சேமிப்பு", "ಸಂಗ್ರಹಣೆ", "भंडारण"),
+                text: L(
+                  "Kept in a dry, dust-free place to protect its quality until it's needed.",
+                  "అవసరమయ్యేవరకు నాణ్యతను కాపాడటానికి పొడి, దుమ్ము లేని చోట ఉంచుతారు.",
+                  "தேவைப்படும் வரை தரத்தைப் பாதுகாக்க உலர்ந்த, தூசி இல்லாத இடத்தில் வைக்கப்படுகிறது.",
+                  "ಅಗತ್ಯವಿರುವವರೆಗೆ ಗುಣಮಟ್ಟವನ್ನು ಕಾಪಾಡಲು ಒಣ, ಧೂಳು ಇಲ್ಲದ ಸ್ಥಳದಲ್ಲಿ ಇಡಲಾಗುತ್ತದೆ.",
+                  "जरूरत पड़ने तक गुणवत्ता बनाए रखने के लिए सूखी, धूल-रहित जगह पर रखा जाता है।"
+                ),
               },
             ],
           },
@@ -9111,21 +9469,69 @@ export const MODULES = [
         check: [
           {
             type: "mcq",
-            q: L("What is 'hay'?"),
+            q: L(
+              "What is 'hay'?",
+              "'ఎండుమేత' అంటే ఏమిటి?",
+              "'உலர் தீவனம்' என்றால் என்ன?",
+              "'ಒಣ ಮೇವು' ಎಂದರೇನು?",
+              "'सूखा चारा' का क्या मतलब है?"
+            ),
             options: [
-              L("Green fodder fermented in a sealed pit"),
-              L("Green fodder that has been dried in the sun to low moisture"),
-              L("A type of cattle feed concentrate"),
-              L("Straw treated with urea"),
+              L(
+                "Green fodder fermented in a sealed pit",
+                "మూసివేసిన గొయ్యిలో పులియబెట్టిన పచ్చి మేత",
+                "மூடிய குழியில் புளிக்க வைக்கப்பட்ட பசுந்தீவனம்",
+                "ಮುಚ್ಚಿದ ಗುಂಡಿಯಲ್ಲಿ ಹುದುಗಿಸಿದ ಹಸಿರು ಮೇವು",
+                "बंद गड्ढे में किण्वित हरा चारा"
+              ),
+              L(
+                "Green fodder that has been dried in the sun to low moisture",
+                "ఎండలో తక్కువ తేమకు ఎండబెట్టిన పచ్చి మేత",
+                "வெயிலில் குறைந்த ஈரப்பதத்திற்கு காயவைக்கப்பட்ட பசுந்தீவனம்",
+                "ಬಿಸಿಲಿನಲ್ಲಿ ಕಡಿಮೆ ತೇವಾಂಶಕ್ಕೆ ಒಣಗಿಸಿದ ಹಸಿರು ಮೇವು",
+                "धूप में कम नमी तक सुखाया गया हरा चारा"
+              ),
+              L(
+                "A type of cattle feed concentrate",
+                "ఒక రకమైన దాణా (కాన్సంట్రేట్)",
+                "ஒரு வகை கால்நடை உணவு செறிவூட்டம்",
+                "ಒಂದು ರೀತಿಯ ದನದ ಆಹಾರ ಕಾನ್ಸಂಟ್ರೇಟ್",
+                "एक प्रकार का पशु आहार सांद्र (कॉन्संट्रेट)"
+              ),
+              L(
+                "Straw treated with urea",
+                "యూరియాతో శుద్ధి చేసిన గడ్డి",
+                "யூரியாவால் சிகிச்சை செய்யப்பட்ட வைக்கோல்",
+                "ಯೂರಿಯಾದಿಂದ ಸಂಸ್ಕರಿಸಿದ ಒಣಹುಲ್ಲು",
+                "यूरिया से उपचारित भूसा"
+              ),
             ],
             answer: 1,
-            explain: L("Hay is green fodder that has been sun-dried down to low moisture (below about 15 per cent), so it stores well for later feeding."),
+            explain: L(
+              "Hay is green fodder that has been sun-dried down to low moisture (below about 15 per cent), so it stores well for later feeding.",
+              "ఎండుమేత అంటే ఎండలో ఎండబెట్టి తక్కువ తేమకు (సుమారు 15 శాతం కంటే తక్కువకు) తీసుకువచ్చిన పచ్చి మేత, కాబట్టి ఇది తర్వాత తినిపించడానికి బాగా నిల్వ ఉంటుంది.",
+              "உலர் தீவனம் என்பது வெயிலில் காயவைக்கப்பட்டு குறைந்த ஈரப்பதத்திற்கு (சுமார் 15 சதவீதத்திற்குக் கீழே) கொண்டுவரப்பட்ட பசுந்தீவனம், எனவே இது பிற்பாடு ஊட்ட நன்றாக சேமிக்கப்படும்.",
+              "ಒಣ ಮೇವು ಎಂದರೆ ಬಿಸಿಲಿನಲ್ಲಿ ಒಣಗಿಸಿ ಕಡಿಮೆ ತೇವಾಂಶಕ್ಕೆ (ಸುಮಾರು 15 ಪ್ರತಿಶತಕ್ಕಿಂತ ಕಡಿಮೆಗೆ) ತಂದ ಹಸಿರು ಮೇವು, ಆದ್ದರಿಂದ ಇದು ನಂತರ ತಿನ್ನಿಸಲು ಚೆನ್ನಾಗಿ ಸಂಗ್ರಹವಾಗುತ್ತದೆ.",
+              "सूखा चारा वह हरा चारा है जिसे धूप में सुखाकर कम नमी तक (करीब 15 प्रतिशत से कम) लाया गया है, इसलिए यह बाद में खिलाने के लिए अच्छी तरह सुरक्षित रहता है।"
+            ),
           },
           {
             type: "truefalse",
-            q: L("Good-quality hay keeps its leaves and a greenish colour, rather than turning pale and leafless."),
+            q: L(
+              "Good-quality hay keeps its leaves and a greenish colour, rather than turning pale and leafless.",
+              "మంచి నాణ్యమైన ఎండుమేత లేత రంగుకు మారి ఆకులు లేకుండా కాకుండా ఆకులు మరియు ఆకుపచ్చ రంగును కలిగి ఉంటుంది.",
+              "நல்ல தரமான உலர் தீவனம் வெளிறி இலைகள் இல்லாமல் போகாமல் இலைகள் மற்றும் பச்சை நிறத்தைத் தக்க வைத்திருக்கும்.",
+              "ಉತ್ತಮ ಗುಣಮಟ್ಟದ ಒಣ ಮೇವು ಬಿಳಿಚಿಕೊಂಡು ಎಲೆರಹಿತವಾಗುವ ಬದಲು ಎಲೆಗಳು ಮತ್ತು ಹಸಿರು ಬಣ್ಣವನ್ನು ಉಳಿಸಿಕೊಳ್ಳುತ್ತದೆ.",
+              "अच्छी गुणवत्ता का सूखा चारा फीका और बिना पत्तों वाला होने के बजाय अपने पत्ते और हरा रंग बनाए रखता है।"
+            ),
             answer: true,
-            explain: L("Correct — leaves and green colour are signs of good-quality hay; losing them means losing feeding value."),
+            explain: L(
+              "Correct — leaves and green colour are signs of good-quality hay; losing them means losing feeding value.",
+              "సరైనది — ఆకులు మరియు ఆకుపచ్చ రంగు మంచి నాణ్యమైన ఎండుమేత లక్షణాలు; వాటిని కోల్పోవడం అంటే దాణా విలువను కోల్పోవడమే.",
+              "சரியானது — இலைகள் மற்றும் பச்சை நிறம் நல்ல தரமான உலர் தீவனத்தின் அறிகுறிகள்; அவற்றை இழப்பது ஊட்டச்சத்து மதிப்பை இழப்பதாகும்.",
+              "ಸರಿಯಾಗಿದೆ — ಎಲೆಗಳು ಮತ್ತು ಹಸಿರು ಬಣ್ಣ ಉತ್ತಮ ಗುಣಮಟ್ಟದ ಒಣ ಮೇವಿನ ಲಕ್ಷಣಗಳು; ಅವುಗಳನ್ನು ಕಳೆದುಕೊಳ್ಳುವುದೆಂದರೆ ಆಹಾರ ಮೌಲ್ಯವನ್ನು ಕಳೆದುಕೊಳ್ಳುವುದು.",
+              "सही — पत्ते और हरा रंग अच्छी गुणवत्ता के सूखे चारे के संकेत हैं; इन्हें खोने का मतलब है खिलाने की कीमत खोना।"
+            ),
           },
         ],
       },
