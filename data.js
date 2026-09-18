@@ -7300,8 +7300,20 @@ export const MODULES = [
   {
     id: "m13",
     number: 13,
-    title: L("Traditional & Ethnoveterinary Remedies"),
-    subtitle: L("NDDB-documented home remedies for common problems — to be used alongside, never instead of, proper veterinary advice."),
+    title: L(
+      "Traditional & Ethnoveterinary Remedies",
+      "సాంప్రదాయ & ఎత్నోవెటర్నరీ చిట్కాలు",
+      "பாரம்பரிய & நாட்டுவைத்திய தீர்வுகள்",
+      "ಸಾಂಪ್ರದಾಯಿಕ ಮತ್ತು ಜನಪದ ಪಶುವೈದ್ಯ ಪರಿಹಾರಗಳು",
+      "पारंपरिक और जनजातीय पशु चिकित्सा उपचार"
+    ),
+    subtitle: L(
+      "NDDB-documented home remedies for common problems — to be used alongside, never instead of, proper veterinary advice.",
+      "సాధారణ సమస్యలకు NDDB నమోదు చేసిన ఇంటి చిట్కాలు — సరైన పశువైద్య సలహాకు బదులుగా కాకుండా, దానితో పాటుగా మాత్రమే వాడాలి.",
+      "பொதுவான பிரச்சினைகளுக்கு NDDB பதிவு செய்த வீட்டு வைத்தியங்கள் — சரியான கால்நடை மருத்துவ ஆலோசனைக்கு பதிலாக அல்ல, அதனுடன் சேர்த்து மட்டுமே பயன்படுத்த வேண்டும்.",
+      "ಸಾಮಾನ್ಯ ಸಮಸ್ಯೆಗಳಿಗೆ NDDB ದಾಖಲಿಸಿದ ಮನೆಮದ್ದುಗಳು — ಸರಿಯಾದ ಪಶುವೈದ್ಯ ಸಲಹೆಗೆ ಬದಲಾಗಿ ಅಲ್ಲ, ಅದರ ಜೊತೆಗೆ ಮಾತ್ರ ಬಳಸಬೇಕು.",
+      "सामान्य समस्याओं के लिए NDDB द्वारा दर्ज घरेलू उपचार — सही पशु चिकित्सा सलाह के बदले नहीं, बल्कि उसके साथ-साथ उपयोग करें।"
+    ),
     icon: "leaf",
     available: true,
     lessons: [
@@ -7310,172 +7322,466 @@ export const MODULES = [
   // ==================================================================
   {
     id: "m13-l1",
-    title: L("Traditional Remedies and the Golden Rule"),
+    title: L(
+      "Traditional Remedies and the Golden Rule",
+      "సాంప్రదాయ చిట్కాలు మరియు స్వర్ణ నియమం",
+      "பாரம்பரிய வைத்தியங்கள் மற்றும் தங்க விதி",
+      "ಸಾಂಪ್ರದಾಯಿಕ ಪರಿಹಾರಗಳು ಮತ್ತು ಸುವರ್ಣ ನಿಯಮ",
+      "पारंपरिक उपचार और स्वर्ण नियम"
+    ),
     estMinutes: 9,
     hook: [
       {
         type: "hero",
-        heading: L("Real Remedies, With One Firm Rule"),
+        heading: L(
+          "Real Remedies, With One Firm Rule",
+          "నిజమైన చిట్కాలు, ఒకే స్థిరమైన నియమంతో",
+          "உண்மையான வைத்தியங்கள், ஒரே உறுதியான விதியுடன்",
+          "ನಿಜವಾದ ಪರಿಹಾರಗಳು, ಒಂದೇ ದೃಢ ನಿಯಮದೊಂದಿಗೆ",
+          "असली उपचार, एक पक्के नियम के साथ"
+        ),
         text: L(
-          "This module teaches real home remedies that NDDB and other farming agencies have written down for common problems in cows and buffaloes — plants, spices and kitchen items, prepared and used in specific ways. They are genuine and worth knowing well. But one rule applies to every single remedy in this module: use them ALONGSIDE, never INSTEAD OF, proper veterinary advice. A vet must still be the one to diagnose what's actually wrong and to handle anything serious."
+          "This module teaches real home remedies that NDDB and other farming agencies have written down for common problems in cows and buffaloes — plants, spices and kitchen items, prepared and used in specific ways. They are genuine and worth knowing well. But one rule applies to every single remedy in this module: use them ALONGSIDE, never INSTEAD OF, proper veterinary advice. A vet must still be the one to diagnose what's actually wrong and to handle anything serious.",
+          "ఈ మాడ్యూల్ ఆవులు మరియు గేదెలలో సాధారణ సమస్యలకు NDDB మరియు ఇతర వ్యవసాయ సంస్థలు లిఖితపూర్వకంగా నమోదు చేసిన నిజమైన ఇంటి చిట్కాలను బోధిస్తుంది — మొక్కలు, మసాలాలు మరియు వంటగది వస్తువులు, నిర్దిష్ట పద్ధతుల్లో తయారు చేసి వాడతారు. ఇవి నిజమైనవి మరియు బాగా తెలుసుకోదగినవి. కానీ ఈ మాడ్యూల్‌లోని ప్రతి చిట్కాకు ఒక నియమం వర్తిస్తుంది: వాటిని సరైన పశువైద్య సలహాకు బదులుగా కాకుండా, దానితో పాటుగా మాత్రమే వాడాలి. నిజంగా ఏమి తప్పు జరిగిందో నిర్ధారించడానికి మరియు తీవ్రమైన దేనినైనా చూసుకోవడానికి పశువైద్యుడు మాత్రమే బాధ్యత వహించాలి.",
+          "இந்த தொகுதி NDDB மற்றும் பிற விவசாய நிறுவனங்கள் பசு மற்றும் எருமைகளில் பொதுவான பிரச்சினைகளுக்காக பதிவு செய்த உண்மையான வீட்டு வைத்தியங்களை கற்பிக்கிறது — தாவரங்கள், மசாலாப் பொருட்கள் மற்றும் சமையலறை பொருட்கள், குறிப்பிட்ட முறைகளில் தயாரித்து பயன்படுத்தப்படுகின்றன. இவை உண்மையானவை மற்றும் நன்கு அறிந்து கொள்ள தகுதியானவை. ஆனால் இந்த தொகுதியில் உள்ள ஒவ்வொரு வைத்தியத்திற்கும் ஒரு விதி பொருந்தும்: அவற்றை சரியான கால்நடை மருத்துவ ஆலோசனைக்கு பதிலாக அல்ல, அதனுடன் சேர்த்து மட்டுமே பயன்படுத்தவும். உண்மையில் என்ன தவறு என்பதை கண்டறிந்து, தீவிரமான எதையும் கையாள்வதற்கு இன்னும் கால்நடை மருத்துவரே பொறுப்பாக இருக்க வேண்டும்.",
+          "ಈ ಮಾಡ್ಯೂಲ್ ಹಸು ಮತ್ತು ಎಮ್ಮೆಗಳಲ್ಲಿನ ಸಾಮಾನ್ಯ ಸಮಸ್ಯೆಗಳಿಗೆ NDDB ಮತ್ತು ಇತರ ಕೃಷಿ ಸಂಸ್ಥೆಗಳು ದಾಖಲಿಸಿದ ನಿಜವಾದ ಮನೆಮದ್ದುಗಳನ್ನು ಕಲಿಸುತ್ತದೆ — ಸಸ್ಯಗಳು, ಮಸಾಲೆಗಳು ಮತ್ತು ಅಡುಗೆಮನೆ ವಸ್ತುಗಳು, ನಿರ್ದಿಷ್ಟ ವಿಧಾನಗಳಲ್ಲಿ ತಯಾರಿಸಿ ಬಳಸಲಾಗುತ್ತದೆ. ಇವು ನಿಜವಾದವು ಮತ್ತು ಚೆನ್ನಾಗಿ ತಿಳಿದುಕೊಳ್ಳಲು ಯೋಗ್ಯವಾದವು. ಆದರೆ ಈ ಮಾಡ್ಯೂಲ್‌ನ ಪ್ರತಿಯೊಂದು ಪರಿಹಾರಕ್ಕೂ ಒಂದು ನಿಯಮ ಅನ್ವಯಿಸುತ್ತದೆ: ಅವುಗಳನ್ನು ಸರಿಯಾದ ಪಶುವೈದ್ಯ ಸಲಹೆಗೆ ಬದಲಾಗಿ ಅಲ್ಲ, ಅದರ ಜೊತೆಗೆ ಮಾತ್ರ ಬಳಸಿ. ನಿಜವಾಗಿ ಏನು ತಪ್ಪಾಗಿದೆ ಎಂದು ಪತ್ತೆಹಚ್ಚಲು ಮತ್ತು ಗಂಭೀರವಾದ ಯಾವುದನ್ನಾದರೂ ನಿಭಾಯಿಸಲು ಪಶುವೈದ್ಯರೇ ಇನ್ನೂ ಜವಾಬ್ದಾರರಾಗಿರಬೇಕು.",
+          "यह मॉड्यूल गायों और भैंसों में होने वाली सामान्य समस्याओं के लिए NDDB और अन्य कृषि संस्थाओं द्वारा दर्ज किए गए असली घरेलू उपचार सिखाता है — पौधे, मसाले और रसोई की चीज़ें, जिन्हें खास तरीकों से तैयार करके उपयोग किया जाता है। ये असली हैं और अच्छी तरह जानने लायक हैं। लेकिन इस मॉड्यूल के हर उपचार पर एक नियम लागू होता है: इन्हें सही पशु चिकित्सा सलाह के बदले नहीं, बल्कि उसके साथ-साथ ही इस्तेमाल करें। असल में क्या गड़बड़ है यह पता लगाने और किसी भी गंभीर स्थिति को संभालने का काम अब भी पशु चिकित्सक का ही होना चाहिए।"
         ),
       },
     ],
     topics: [
       {
         id: "t-m13-golden-rule",
-        title: L("What Is a Traditional Remedy, and When Can You Use One?"),
+        title: L(
+          "What Is a Traditional Remedy, and When Can You Use One?",
+          "సాంప్రదాయ చిట్కా అంటే ఏమిటి, దాన్ని ఎప్పుడు వాడవచ్చు?",
+          "பாரம்பரிய வைத்தியம் என்றால் என்ன, அதை எப்போது பயன்படுத்தலாம்?",
+          "ಸಾಂಪ್ರದಾಯಿಕ ಪರಿಹಾರ ಎಂದರೇನು, ಅದನ್ನು ಯಾವಾಗ ಬಳಸಬಹುದು?",
+          "पारंपरिक उपचार क्या है, और इसे कब इस्तेमाल कर सकते हैं?"
+        ),
         teach: [
           {
             type: "text",
-            heading: L("Farmers Have Been Doing This for Generations"),
+            heading: L(
+              "Farmers Have Been Doing This for Generations",
+              "రైతులు తరతరాలుగా ఇలా చేస్తున్నారు",
+              "விவசாயிகள் தலைமுறை தலைமுறையாக இதைச் செய்து வருகின்றனர்",
+              "ರೈತರು ತಲೆಮಾರುಗಳಿಂದ ಇದನ್ನು ಮಾಡುತ್ತಿದ್ದಾರೆ",
+              "किसान पीढ़ियों से यह करते आ रहे हैं"
+            ),
             html: L(
-              "Long before a veterinarian can reach every farm, farmers have managed small, everyday problems in their animals using plants, spices and things found in the kitchen or the field. This kind of knowledge — passed down between farmers, and now written down by organisations that work with them — is what this module teaches. It is not guesswork. It is documented, real-world practice."
+              "Long before a veterinarian can reach every farm, farmers have managed small, everyday problems in their animals using plants, spices and things found in the kitchen or the field. This kind of knowledge — passed down between farmers, and now written down by organisations that work with them — is what this module teaches. It is not guesswork. It is documented, real-world practice.",
+              "పశువైద్యుడు ప్రతి పొలానికి చేరుకోవడానికి చాలా ముందు నుండే, రైతులు తమ జంతువుల్లో చిన్న, రోజువారీ సమస్యలను మొక్కలు, మసాలాలు మరియు వంటగదిలో లేదా పొలంలో దొరికే వస్తువులతో నిర్వహిస్తున్నారు. రైతుల మధ్య తరతరాలుగా అందించబడిన ఈ జ్ఞానాన్ని, ఇప్పుడు వారితో పనిచేసే సంస్థలు లిఖితపూర్వకంగా నమోదు చేస్తున్నాయి — ఇదే ఈ మాడ్యూల్ బోధించేది. ఇది ఊహాగానం కాదు. ఇది నమోదు చేయబడిన, వాస్తవిక అనుభవం.",
+              "கால்நடை மருத்துவர் ஒவ்வொரு பண்ணைக்கும் சென்றடைவதற்கு நீண்ட காலத்திற்கு முன்பே, விவசாயிகள் தங்கள் விலங்குகளின் சிறிய, அன்றாட பிரச்சினைகளை தாவரங்கள், மசாலாப் பொருட்கள் மற்றும் சமையலறை அல்லது வயலில் கிடைக்கும் பொருட்களைக் கொண்டு கையாண்டு வந்துள்ளனர். விவசாயிகளிடையே தலைமுறை தலைமுறையாக அளிக்கப்பட்ட இந்த அறிவு — இப்போது அவர்களுடன் பணிபுரியும் நிறுவனங்களால் பதிவு செய்யப்படுகிறது — இதுவே இந்த தொகுதி கற்பிப்பது. இது ஊகம் அல்ல. இது பதிவு செய்யப்பட்ட, நடைமுறை அனுபவம்.",
+              "ಪಶುವೈದ್ಯರು ಪ್ರತಿ ಫಾರ್ಮ್‌ಗೆ ತಲುಪುವುದಕ್ಕೆ ಬಹಳ ಮೊದಲೇ, ರೈತರು ತಮ್ಮ ಪ್ರಾಣಿಗಳಲ್ಲಿನ ಸಣ್ಣ, ದೈನಂದಿನ ಸಮಸ್ಯೆಗಳನ್ನು ಸಸ್ಯಗಳು, ಮಸಾಲೆಗಳು ಮತ್ತು ಅಡುಗೆಮನೆ ಅಥವಾ ಹೊಲದಲ್ಲಿ ಸಿಗುವ ವಸ್ತುಗಳಿಂದ ನಿಭಾಯಿಸುತ್ತಿದ್ದಾರೆ. ರೈತರ ನಡುವೆ ತಲೆಮಾರುಗಳಿಂದ ರವಾನೆಯಾದ ಈ ಜ್ಞಾನವನ್ನು, ಈಗ ಅವರೊಂದಿಗೆ ಕೆಲಸ ಮಾಡುವ ಸಂಸ್ಥೆಗಳು ದಾಖಲಿಸುತ್ತಿವೆ — ಇದನ್ನೇ ಈ ಮಾಡ್ಯೂಲ್ ಕಲಿಸುತ್ತದೆ. ಇದು ಊಹೆಯಲ್ಲ. ಇದು ದಾಖಲಿತ, ವಾಸ್ತವಿಕ ಅನುಭವ.",
+              "पशु चिकित्सक हर खेत तक पहुँच पाए उससे बहुत पहले से, किसान अपने जानवरों की छोटी, रोज़मर्रा की समस्याओं को पौधों, मसालों और रसोई या खेत में मिलने वाली चीज़ों से संभालते आए हैं। किसानों के बीच पीढ़ी-दर-पीढ़ी दी गई यह जानकारी — अब उनके साथ काम करने वाली संस्थाओं द्वारा दर्ज की जा रही है — यही इस मॉड्यूल में सिखाया जाता है। यह अटकल नहीं है। यह दर्ज किया गया, असली व्यावहारिक अनुभव है।"
             ),
           },
           {
             type: "glossary",
-            term: L("Ethnoveterinary Remedy"),
+            term: L(
+              "Ethnoveterinary Remedy",
+              "ఎత్నోవెటర్నరీ చిట్కా",
+              "நாட்டுவைத்திய தீர்வு",
+              "ಜನಪದ ಪಶುವೈದ್ಯ ಪರಿಹಾರ",
+              "जनजातीय पशु चिकित्सा उपचार"
+            ),
             meaning: L(
-              "A remedy for an animal's health problem, made from plants and everyday materials, that has been used and passed down by farmers and herders themselves rather than invented in a laboratory. 'Ethno' simply means 'of the people'."
+              "A remedy for an animal's health problem, made from plants and everyday materials, that has been used and passed down by farmers and herders themselves rather than invented in a laboratory. 'Ethno' simply means 'of the people'.",
+              "జంతువు ఆరోగ్య సమస్యకు మొక్కలు మరియు రోజువారీ వస్తువులతో తయారు చేసిన చిట్కా, ఇది ప్రయోగశాలలో కనిపెట్టినది కాకుండా రైతులు మరియు పశువులు మేపేవారు స్వయంగా వాడి తరతరాలుగా అందించినది. 'ఎత్నో' అంటే 'ప్రజలకు సంబంధించినది' అని అర్థం.",
+              "ஒரு விலங்கின் உடல்நல பிரச்சினைக்கான தீர்வு, தாவரங்கள் மற்றும் அன்றாட பொருட்களால் தயாரிக்கப்பட்டது, இது ஆய்வகத்தில் கண்டுபிடிக்கப்படாமல் விவசாயிகள் மற்றும் கால்நடை வளர்ப்பவர்களே பயன்படுத்தி தலைமுறை தலைமுறையாக அளித்தது. 'நாட்டு' என்பது வெறுமனே 'மக்களின்' என்று பொருள்படும்.",
+              "ಪ್ರಾಣಿಯ ಆರೋಗ್ಯ ಸಮಸ್ಯೆಗೆ ಸಸ್ಯಗಳು ಮತ್ತು ದೈನಂದಿನ ವಸ್ತುಗಳಿಂದ ತಯಾರಿಸಿದ ಪರಿಹಾರ, ಇದನ್ನು ಪ್ರಯೋಗಾಲಯದಲ್ಲಿ ಕಂಡುಹಿಡಿಯದೆ ರೈತರು ಮತ್ತು ಜಾನುವಾರು ಸಾಕುವವರೇ ಬಳಸಿ ತಲೆಮಾರುಗಳಿಂದ ರವಾನಿಸಿದ್ದಾರೆ. 'ಜನಪದ' ಎಂದರೆ ಸರಳವಾಗಿ 'ಜನರಿಗೆ ಸಂಬಂಧಿಸಿದ್ದು' ಎಂದರ್ಥ.",
+              "किसी जानवर की स्वास्थ्य समस्या के लिए पौधों और रोज़मर्रा की चीज़ों से बना उपचार, जिसे प्रयोगशाला में नहीं बनाया गया बल्कि किसानों और पशुपालकों ने खुद इस्तेमाल करके पीढ़ी-दर-पीढ़ी आगे बढ़ाया है। 'जनजातीय' का सीधा अर्थ है 'लोगों से जुड़ा हुआ'।"
             ),
           },
           {
             type: "text",
-            heading: L("Where This Module's Remedies Come From"),
+            heading: L(
+              "Where This Module's Remedies Come From",
+              "ఈ మాడ్యూల్ చిట్కాలు ఎక్కడ నుండి వచ్చాయి",
+              "இந்த தொகுதியின் வைத்தியங்கள் எங்கிருந்து வந்தன",
+              "ಈ ಮಾಡ್ಯೂಲ್‌ನ ಪರಿಹಾರಗಳು ಎಲ್ಲಿಂದ ಬಂದವು",
+              "इस मॉड्यूल के उपचार कहाँ से आए हैं"
+            ),
             html: L(
-              "This module draws on two documented sources: a farmer's handbook section on traditional remedies (collected from agencies such as BAIF, IIRR and Vivekananda Kendra), and a separate NDDB (National Dairy Development Board) brochure called <b>Ethnoveterinary Formulations for Important Ailments in Bovines</b>, prepared for exactly the kind of ground-level use you do every day."
+              "This module draws on two documented sources: a farmer's handbook section on traditional remedies (collected from agencies such as BAIF, IIRR and Vivekananda Kendra), and a separate NDDB (National Dairy Development Board) brochure called <b>Ethnoveterinary Formulations for Important Ailments in Bovines</b>, prepared for exactly the kind of ground-level use you do every day.",
+              "ఈ మాడ్యూల్ రెండు నమోదైన మూలాల ఆధారంగా రూపొందించబడింది: సాంప్రదాయ చిట్కాలపై రైతు హ్యాండ్‌బుక్ విభాగం (BAIF, IIRR మరియు వివేకానంద కేంద్రం వంటి సంస్థల నుండి సేకరించినది), మరియు <b>ఎత్నోవెటర్నరీ ఫార్ములేషన్స్ ఫర్ ఇంపార్టెంట్ ఐల్‌మెంట్స్ ఇన్ బొవైన్స్</b> అనే ప్రత్యేక NDDB (నేషనల్ డెయిరీ డెవలప్‌మెంట్ బోర్డ్) బ్రోషర్, మీరు ప్రతిరోజూ చేసే గ్రౌండ్-లెవల్ వినియోగం కోసం తయారు చేయబడింది.",
+              "இந்த தொகுதி இரண்டு பதிவு செய்யப்பட்ட மூலங்களை அடிப்படையாகக் கொண்டது: பாரம்பரிய வைத்தியங்கள் பற்றிய விவசாயி கையேடு பிரிவு (BAIF, IIRR மற்றும் விவேகானந்த கேந்திரா போன்ற நிறுவனங்களிடமிருந்து சேகரிக்கப்பட்டது), மற்றும் <b>Ethnoveterinary Formulations for Important Ailments in Bovines</b> எனும் தனி NDDB (National Dairy Development Board) துண்டுப்பிரசுரம், நீங்கள் அன்றாடம் செய்யும் கள மட்ட பயன்பாட்டிற்காகவே தயாரிக்கப்பட்டது.",
+              "ಈ ಮಾಡ್ಯೂಲ್ ಎರಡು ದಾಖಲಿತ ಮೂಲಗಳನ್ನು ಆಧರಿಸಿದೆ: ಸಾಂಪ್ರದಾಯಿಕ ಪರಿಹಾರಗಳ ಕುರಿತ ರೈತರ ಕೈಪಿಡಿ ವಿಭಾಗ (BAIF, IIRR ಮತ್ತು ವಿವೇಕಾನಂದ ಕೇಂದ್ರದಂತಹ ಸಂಸ್ಥೆಗಳಿಂದ ಸಂಗ್ರಹಿಸಿದ್ದು), ಮತ್ತು <b>Ethnoveterinary Formulations for Important Ailments in Bovines</b> ಎಂಬ ಪ್ರತ್ಯೇಕ NDDB (National Dairy Development Board) ಕರಪತ್ರ, ನೀವು ಪ್ರತಿದಿನ ಮಾಡುವ ನೆಲಮಟ್ಟದ ಬಳಕೆಗಾಗಿಯೇ ಸಿದ್ಧಪಡಿಸಲಾಗಿದೆ.",
+              "यह मॉड्यूल दो दर्ज स्रोतों पर आधारित है: पारंपरिक उपचारों पर किसान हैंडबुक का एक भाग (BAIF, IIRR और विवेकानंद केंद्र जैसी संस्थाओं से एकत्र किया गया), और <b>Ethnoveterinary Formulations for Important Ailments in Bovines</b> नामक एक अलग NDDB (National Dairy Development Board) ब्रोशर, जो ठीक उसी तरह के ज़मीनी इस्तेमाल के लिए तैयार किया गया है जो आप हर दिन करते हैं।"
             ),
           },
           {
             type: "callout",
             style: "warning",
-            heading: L("The Golden Rule: Alongside, Never Instead Of"),
+            heading: L(
+              "The Golden Rule: Alongside, Never Instead Of",
+              "స్వర్ణ నియమం: పాటుగా, ఎప్పుడూ బదులుగా కాదు",
+              "தங்க விதி: உடன் சேர்த்து, ஒருபோதும் பதிலாக அல்ல",
+              "ಸುವರ್ಣ ನಿಯಮ: ಜೊತೆಗೆ, ಎಂದಿಗೂ ಬದಲಾಗಿ ಅಲ್ಲ",
+              "स्वर्ण नियम: साथ में, कभी भी बदले में नहीं"
+            ),
             text: L(
-              "The handbook itself says these remedies are only suggestive and may not ensure a cure — the real underlying problem could be a disease that still needs proper diagnosis. That means: use a remedy ALONGSIDE veterinary advice, never as a replacement for it. If a problem is serious, sudden, or not improving, get the vet involved without waiting to see if the remedy works first."
+              "The handbook itself says these remedies are only suggestive and may not ensure a cure — the real underlying problem could be a disease that still needs proper diagnosis. That means: use a remedy ALONGSIDE veterinary advice, never as a replacement for it. If a problem is serious, sudden, or not improving, get the vet involved without waiting to see if the remedy works first.",
+              "చిట్కాలు కేవలం సూచనాత్మకమైనవి మరియు నయం అవుతుందని హామీ ఇవ్వలేవని హ్యాండ్‌బుక్ స్వయంగా చెబుతోంది — అసలు దాగి ఉన్న సమస్య ఇంకా సరైన నిర్ధారణ అవసరమైన వ్యాధి కావచ్చు. అంటే: చిట్కాను పశువైద్య సలహాకు బదులుగా కాకుండా, దానితో పాటుగా వాడాలి. సమస్య తీవ్రంగా, అకస్మాత్తుగా ఉంటే, లేదా మెరుగుపడకపోతే, చిట్కా పనిచేస్తుందో లేదో చూడటానికి వేచి ఉండకుండా వెంటనే పశువైద్యుడిని సంప్రదించండి.",
+              "இந்த வைத்தியங்கள் வெறும் பரிந்துரையே, குணப்படுத்தும் என உறுதியளிக்காது என்று கையேடு தானே கூறுகிறது — உண்மையான அடிப்படை பிரச்சினை இன்னும் சரியான நோய் கண்டறிதல் தேவைப்படும் ஒரு நோயாக இருக்கலாம். அதாவது: ஒரு வைத்தியத்தை கால்நடை மருத்துவ ஆலோசனைக்கு பதிலாக அல்ல, அதனுடன் சேர்த்து பயன்படுத்தவும். பிரச்சினை தீவிரமானது, திடீரென ஏற்பட்டது, அல்லது மேம்படவில்லை என்றால், வைத்தியம் வேலை செய்கிறதா என்று காத்திருக்காமல் உடனடியாக கால்நடை மருத்துவரை தொடர்பு கொள்ளவும்.",
+              "ಈ ಪರಿಹಾರಗಳು ಕೇವಲ ಸಲಹಾತ್ಮಕವಾಗಿವೆ ಮತ್ತು ಗುಣಪಡಿಸುತ್ತದೆ ಎಂದು ಖಾತರಿ ನೀಡುವುದಿಲ್ಲ ಎಂದು ಕೈಪಿಡಿಯೇ ಹೇಳುತ್ತದೆ — ನಿಜವಾದ ಆಧಾರವಾಗಿರುವ ಸಮಸ್ಯೆ ಇನ್ನೂ ಸರಿಯಾದ ರೋಗನಿರ್ಣಯ ಅಗತ್ಯವಿರುವ ಕಾಯಿಲೆಯಾಗಿರಬಹುದು. ಅಂದರೆ: ಪರಿಹಾರವನ್ನು ಪಶುವೈದ್ಯ ಸಲಹೆಗೆ ಬದಲಾಗಿ ಅಲ್ಲ, ಅದರ ಜೊತೆಗೆ ಬಳಸಿ. ಸಮಸ್ಯೆ ಗಂಭೀರವಾಗಿದ್ದರೆ, ಇದ್ದಕ್ಕಿದ್ದಂತೆ ಬಂದಿದ್ದರೆ, ಅಥವಾ ಸುಧಾರಿಸದಿದ್ದರೆ, ಪರಿಹಾರ ಕೆಲಸ ಮಾಡುತ್ತದೆಯೇ ಎಂದು ಕಾಯದೆ ತಕ್ಷಣ ಪಶುವೈದ್ಯರನ್ನು ಸಂಪರ್ಕಿಸಿ.",
+              "हैंडबुक खुद कहती है कि ये उपचार केवल सुझाव मात्र हैं और ठीक होने की गारंटी नहीं देते — असली अंतर्निहित समस्या कोई ऐसी बीमारी हो सकती है जिसे अब भी सही निदान की ज़रूरत है। इसका मतलब है: उपचार को पशु चिकित्सा सलाह के बदले नहीं, बल्कि उसके साथ-साथ इस्तेमाल करें। अगर समस्या गंभीर है, अचानक आई है, या सुधर नहीं रही है, तो उपचार काम करता है या नहीं यह देखने का इंतज़ार किए बिना तुरंत पशु चिकित्सक को शामिल करें।"
             ),
           },
           {
             type: "example",
-            heading: L("Two Very Different Situations"),
+            heading: L(
+              "Two Very Different Situations",
+              "రెండు చాలా భిన్నమైన పరిస్థితులు",
+              "இரண்டு மிக வேறுபட்ட சூழ்நிலைகள்",
+              "ಎರಡು ಬಹಳ ವಿಭಿನ್ನ ಸನ್ನಿವೇಶಗಳು",
+              "दो बिल्कुल अलग स्थितियाँ"
+            ),
             text: L(
-              "A cow has mild, occasional bloating after grazing on wet grass, and the vet is a day away — trying a documented home remedy while you arrange a visit is reasonable. But an animal that has suddenly collapsed, is bleeding heavily, or is struggling to breathe needs the vet contacted immediately — that is not the moment to first try a home remedy and wait to see what happens."
+              "A cow has mild, occasional bloating after grazing on wet grass, and the vet is a day away — trying a documented home remedy while you arrange a visit is reasonable. But an animal that has suddenly collapsed, is bleeding heavily, or is struggling to breathe needs the vet contacted immediately — that is not the moment to first try a home remedy and wait to see what happens.",
+              "ఒక ఆవుకు తడి గడ్డి మేసిన తర్వాత తేలికపాటి, అప్పుడప్పుడు ఉబ్బరం వస్తుంది, మరియు పశువైద్యుడు ఒక రోజు దూరంలో ఉన్నాడు — మీరు సందర్శన ఏర్పాటు చేసుకుంటున్న సమయంలో నమోదైన ఇంటి చిట్కాను ప్రయత్నించడం సహేతుకమే. కానీ అకస్మాత్తుగా కుప్పకూలిన, తీవ్రంగా రక్తస్రావం అవుతున్న, లేదా శ్వాస తీసుకోవడంలో ఇబ్బంది పడుతున్న జంతువుకు వెంటనే పశువైద్యుడిని సంప్రదించాలి — అది మొదట ఇంటి చిట్కా ప్రయత్నించి ఏమి జరుగుతుందో చూసే సమయం కాదు.",
+              "ஈரமான புல் மேய்ந்த பிறகு ஒரு பசுவுக்கு லேசான, அவ்வப்போது வீக்கம் ஏற்படுகிறது, கால்நடை மருத்துவர் ஒரு நாள் தூரத்தில் இருக்கிறார் — நீங்கள் வருகையை ஏற்பாடு செய்யும்போது பதிவு செய்யப்பட்ட வீட்டு வைத்தியத்தை முயற்சிப்பது நியாயமானது. ஆனால் திடீரென சரிந்துவிட்ட, அதிகமாக இரத்தப்போக்கு ஏற்படும், அல்லது சுவாசிக்க சிரமப்படும் விலங்குக்கு உடனடியாக கால்நடை மருத்துவரை தொடர்பு கொள்ள வேண்டும் — அது முதலில் வீட்டு வைத்தியத்தை முயற்சித்து என்ன நடக்கிறது என்று காத்திருக்கும் தருணம் அல்ல.",
+              "ಒದ್ದೆ ಹುಲ್ಲು ಮೇಯಿಸಿದ ನಂತರ ಒಂದು ಹಸುವಿಗೆ ಸೌಮ್ಯ, ಆಗಾಗ್ಗೆ ಉಬ್ಬರ ಬರುತ್ತದೆ, ಮತ್ತು ಪಶುವೈದ್ಯರು ಒಂದು ದಿನ ದೂರದಲ್ಲಿದ್ದಾರೆ — ನೀವು ಭೇಟಿಯನ್ನು ಏರ್ಪಡಿಸುತ್ತಿರುವಾಗ ದಾಖಲಿತ ಮನೆಮದ್ದನ್ನು ಪ್ರಯತ್ನಿಸುವುದು ಸಮಂಜಸ. ಆದರೆ ಇದ್ದಕ್ಕಿದ್ದಂತೆ ಕುಸಿದುಬಿದ್ದ, ತೀವ್ರವಾಗಿ ರಕ್ತಸ್ರಾವವಾಗುತ್ತಿರುವ, ಅಥವಾ ಉಸಿರಾಡಲು ಕಷ್ಟಪಡುತ್ತಿರುವ ಪ್ರಾಣಿಗೆ ತಕ್ಷಣ ಪಶುವೈದ್ಯರನ್ನು ಸಂಪರ್ಕಿಸಬೇಕು — ಅದು ಮೊದಲು ಮನೆಮದ್ದನ್ನು ಪ್ರಯತ್ನಿಸಿ ಏನಾಗುತ್ತದೆ ಎಂದು ಕಾಯುವ ಸಮಯವಲ್ಲ.",
+              "गीली घास चरने के बाद एक गाय को हल्का, कभी-कभार अफारा हो जाता है, और पशु चिकित्सक एक दिन की दूरी पर है — आप मुलाकात की व्यवस्था करते समय एक दर्ज घरेलू उपचार आज़माना उचित है। लेकिन जो जानवर अचानक गिर गया हो, बहुत ज़्यादा खून बह रहा हो, या साँस लेने में तकलीफ हो रही हो, उसके लिए तुरंत पशु चिकित्सक से संपर्क करना ज़रूरी है — यह पहले घरेलू उपचार आज़माकर क्या होता है यह देखने का समय नहीं है।"
             ),
           },
         ],
         check: [
           {
             type: "mcq",
-            q: L("What does 'ethnoveterinary' mean in this module?"),
+            q: L(
+              "What does 'ethnoveterinary' mean in this module?",
+              "ఈ మాడ్యూల్‌లో 'ఎత్నోవెటర్నరీ' అంటే ఏమిటి?",
+              "இந்த தொகுதியில் 'நாட்டுவைத்திய' என்றால் என்ன?",
+              "ಈ ಮಾಡ್ಯೂಲ್‌ನಲ್ಲಿ 'ಜನಪದ ಪಶುವೈದ್ಯ' ಎಂದರೆ ಏನು?",
+              "इस मॉड्यूल में 'जनजातीय पशु चिकित्सा' का क्या मतलब है?"
+            ),
             options: [
-              L("A brand of medicine sold in shops"),
-              L("A remedy made from plants and everyday materials, passed down among farmers, used for animal problems"),
-              L("A qualification a veterinarian earns at college"),
-              L("The name of a specific cattle disease"),
+              L(
+                "A brand of medicine sold in shops",
+                "దుకాణాల్లో అమ్మే ఒక మందు బ్రాండ్",
+                "கடைகளில் விற்கப்படும் ஒரு மருந்து பிராண்டு",
+                "ಅಂಗಡಿಗಳಲ್ಲಿ ಮಾರಾಟವಾಗುವ ಔಷಧದ ಬ್ರ್ಯಾಂಡ್",
+                "दुकानों में बिकने वाली दवा का एक ब्रांड"
+              ),
+              L(
+                "A remedy made from plants and everyday materials, passed down among farmers, used for animal problems",
+                "మొక్కలు మరియు రోజువారీ వస్తువులతో తయారు చేసిన చిట్కా, రైతుల మధ్య తరతరాలుగా అందించబడి, జంతువుల సమస్యలకు వాడేది",
+                "தாவரங்கள் மற்றும் அன்றாட பொருட்களால் தயாரிக்கப்பட்ட, விவசாயிகளிடையே தலைமுறை தலைமுறையாக அளிக்கப்பட்ட, விலங்கு பிரச்சினைகளுக்கு பயன்படுத்தப்படும் தீர்வு",
+                "ಸಸ್ಯಗಳು ಮತ್ತು ದೈನಂದಿನ ವಸ್ತುಗಳಿಂದ ತಯಾರಿಸಿದ, ರೈತರ ನಡುವೆ ತಲೆಮಾರುಗಳಿಂದ ರವಾನೆಯಾದ, ಪ್ರಾಣಿಗಳ ಸಮಸ್ಯೆಗಳಿಗೆ ಬಳಸುವ ಪರಿಹಾರ",
+                "पौधों और रोज़मर्रा की चीज़ों से बना उपचार, जो किसानों के बीच पीढ़ी-दर-पीढ़ी चला आ रहा है और जानवरों की समस्याओं के लिए इस्तेमाल होता है"
+              ),
+              L(
+                "A qualification a veterinarian earns at college",
+                "పశువైద్యుడు కళాశాలలో సంపాదించే ఒక అర్హత",
+                "கால்நடை மருத்துவர் கல்லூரியில் பெறும் ஒரு தகுதி",
+                "ಪಶುವೈದ್ಯರು ಕಾಲೇಜಿನಲ್ಲಿ ಗಳಿಸುವ ಒಂದು ಅರ್ಹತೆ",
+                "पशु चिकित्सक द्वारा कॉलेज में हासिल की जाने वाली एक योग्यता"
+              ),
+              L(
+                "The name of a specific cattle disease",
+                "ఒక నిర్దిష్ట పశు వ్యాధి పేరు",
+                "ஒரு குறிப்பிட்ட கால்நடை நோயின் பெயர்",
+                "ಒಂದು ನಿರ್ದಿಷ್ಟ ಜಾನುವಾರು ಕಾಯಿಲೆಯ ಹೆಸರು",
+                "किसी विशेष पशु रोग का नाम"
+              ),
             ],
             answer: 1,
-            explain: L("Ethnoveterinary remedies are the plant- and kitchen-based remedies that farmers themselves have developed and passed down over generations."),
+            explain: L(
+              "Ethnoveterinary remedies are the plant- and kitchen-based remedies that farmers themselves have developed and passed down over generations.",
+              "ఎత్నోవెటర్నరీ చిట్కాలు అంటే రైతులు స్వయంగా అభివృద్ధి చేసి తరతరాలుగా అందించిన మొక్కల మరియు వంటగది ఆధారిత చిట్కాలు.",
+              "நாட்டுவைத்திய தீர்வுகள் என்பது விவசாயிகளே உருவாக்கி தலைமுறை தலைமுறையாக அளித்த தாவர மற்றும் சமையலறை அடிப்படையிலான தீர்வுகள்.",
+              "ಜನಪದ ಪಶುವೈದ್ಯ ಪರಿಹಾರಗಳೆಂದರೆ ರೈತರೇ ಸ್ವತಃ ಅಭಿವೃದ್ಧಿಪಡಿಸಿ ತಲೆಮಾರುಗಳಿಂದ ರವಾನಿಸಿದ ಸಸ್ಯ ಮತ್ತು ಅಡುಗೆಮನೆ ಆಧಾರಿತ ಪರಿಹಾರಗಳು.",
+              "जनजातीय पशु चिकित्सा उपचार वे पौधे और रसोई-आधारित उपचार हैं जिन्हें किसानों ने खुद विकसित करके पीढ़ी-दर-पीढ़ी आगे बढ़ाया है।"
+            ),
           },
           {
             type: "truefalse",
-            q: L("A traditional remedy should be used instead of veterinary advice whenever one is available."),
+            q: L(
+              "A traditional remedy should be used instead of veterinary advice whenever one is available.",
+              "అందుబాటులో ఉన్నప్పుడల్లా సాంప్రదాయ చిట్కాను పశువైద్య సలహాకు బదులుగా వాడాలి.",
+              "பாரம்பரிய வைத்தியம் கிடைக்கும் போதெல்லாம் அதை கால்நடை மருத்துவ ஆலோசனைக்கு பதிலாக பயன்படுத்த வேண்டும்.",
+              "ಸಾಂಪ್ರದಾಯಿಕ ಪರಿಹಾರ ಲಭ್ಯವಿದ್ದಾಗಲೆಲ್ಲಾ ಅದನ್ನು ಪಶುವೈದ್ಯ ಸಲಹೆಗೆ ಬದಲಾಗಿ ಬಳಸಬೇಕು.",
+              "जब भी उपलब्ध हो, पारंपरिक उपचार को पशु चिकित्सा सलाह के बदले इस्तेमाल करना चाहिए।"
+            ),
             answer: false,
-            explain: L("No — the golden rule of this module is alongside, never instead of. A vet should still diagnose the real problem, especially anything serious."),
+            explain: L(
+              "No — the golden rule of this module is alongside, never instead of. A vet should still diagnose the real problem, especially anything serious.",
+              "కాదు — ఈ మాడ్యూల్ యొక్క స్వర్ణ నియమం పాటుగా, ఎప్పుడూ బదులుగా కాదు. అసలు సమస్యను, ముఖ్యంగా తీవ్రమైనదాన్ని పశువైద్యుడే నిర్ధారించాలి.",
+              "இல்லை — இந்த தொகுதியின் தங்க விதி உடன் சேர்த்து, ஒருபோதும் பதிலாக அல்ல. உண்மையான பிரச்சினையை, குறிப்பாக தீவிரமானதை, கால்நடை மருத்துவரே கண்டறிய வேண்டும்.",
+              "ಇಲ್ಲ — ಈ ಮಾಡ್ಯೂಲ್‌ನ ಸುವರ್ಣ ನಿಯಮ ಜೊತೆಗೆ, ಎಂದಿಗೂ ಬದಲಾಗಿ ಅಲ್ಲ. ನಿಜವಾದ ಸಮಸ್ಯೆಯನ್ನು, ವಿಶೇಷವಾಗಿ ಗಂಭೀರವಾದುದನ್ನು, ಪಶುವೈದ್ಯರೇ ಪತ್ತೆಹಚ್ಚಬೇಕು.",
+              "नहीं — इस मॉड्यूल का स्वर्ण नियम है साथ में, कभी बदले में नहीं। असली समस्या का, खासकर किसी गंभीर स्थिति का, निदान अब भी पशु चिकित्सक को ही करना चाहिए।"
+            ),
           },
         ],
       },
       {
         id: "t-m13-handbook-basics",
-        title: L("Handbook Remedies for Milk, Blood and Anaemia Problems"),
+        title: L(
+          "Handbook Remedies for Milk, Blood and Anaemia Problems",
+          "పాలు, రక్తం మరియు రక్తహీనత సమస్యలకు హ్యాండ్‌బుక్ చిట్కాలు",
+          "பால், இரத்தம் மற்றும் இரத்த சோகை பிரச்சினைகளுக்கான கையேடு வைத்தியங்கள்",
+          "ಹಾಲು, ರಕ್ತ ಮತ್ತು ರಕ್ತಹೀನತೆ ಸಮಸ್ಯೆಗಳಿಗೆ ಕೈಪಿಡಿ ಪರಿಹಾರಗಳು",
+          "दूध, खून और खून की कमी की समस्याओं के लिए हैंडबुक उपचार"
+        ),
         teach: [
             {
               type: "photo",
               src: "assets/photo-m13-mimosa-pudica.jpg",
-              alt: L("Close-up of Mimosa pudica compound leaves, some open and one partially folded"),
-              caption: L("Mimosa pudica, the 'touch-me-not' plant — used as a paste in the handbook's remedy for blood in milk."),
+              alt: L(
+                "Close-up of Mimosa pudica compound leaves, some open and one partially folded",
+                "మిమోసా పుడికా సంయుక్త ఆకుల క్లోజప్, కొన్ని తెరిచి, ఒకటి పాక్షికంగా మడత పడి ఉన్నాయి",
+                "மிமோசா புடிகா கூட்டு இலைகளின் நெருக்கமான காட்சி, சில திறந்திருக்க, ஒன்று பகுதியாக மடிந்திருக்கிறது",
+                "ಮಿಮೋಸಾ ಪುಡಿಕಾ ಸಂಯುಕ್ತ ಎಲೆಗಳ ಸಮೀಪ ನೋಟ, ಕೆಲವು ತೆರೆದಿದ್ದು, ಒಂದು ಭಾಗಶಃ ಮಡಚಿಕೊಂಡಿದೆ",
+                "मिमोसा पुडिका की संयुक्त पत्तियों का नज़दीकी दृश्य, कुछ खुली हुई और एक आधी मुड़ी हुई"
+              ),
+              caption: L(
+                "Mimosa pudica, the 'touch-me-not' plant — used as a paste in the handbook's remedy for blood in milk.",
+                "మిమోసా పుడికా, 'తాకితే ముడుచుకునే' మొక్క — పాలలో రక్తం సమస్యకు హ్యాండ్‌బుక్ చిట్కాలో పేస్టుగా వాడతారు.",
+                "மிமோசா புடிகா, 'தொட்டால் சுருங்கும்' தாவரம் — பாலில் இரத்தம் பிரச்சினைக்கான கையேட்டு வைத்தியத்தில் பேஸ்டாக பயன்படுத்தப்படுகிறது.",
+                "ಮಿಮೋಸಾ ಪುಡಿಕಾ, 'ಮುಟ್ಟಿದರೆ ಮುದುಡುವ' ಸಸ್ಯ — ಹಾಲಿನಲ್ಲಿ ರಕ್ತ ಸಮಸ್ಯೆಗೆ ಕೈಪಿಡಿಯ ಪರಿಹಾರದಲ್ಲಿ ಪೇಸ್ಟ್ ಆಗಿ ಬಳಸಲಾಗುತ್ತದೆ.",
+                "मिमोसा पुडिका, 'छूने से सिकुड़ने वाला' पौधा — दूध में खून आने की समस्या के हैंडबुक उपचार में पेस्ट के रूप में इस्तेमाल होता है।"
+              ),
             },
             {
               type: "photo",
               src: "assets/photo-m13-amla.jpg",
-              alt: L("A pile of round, pale-green Phyllanthus emblica (Amla / Indian gooseberry) fruits"),
-              caption: L("Amla (Indian gooseberry) — ground fruit or bark is the handbook's remedy for anaemia."),
+              alt: L(
+                "A pile of round, pale-green Phyllanthus emblica (Amla / Indian gooseberry) fruits",
+                "గుండ్రని, లేత ఆకుపచ్చ రంగు ఫిలాంతస్ ఎంబ్లికా (ఉసిరి) పండ్ల కుప్ప",
+                "வட்டமான, வெளிர் பச்சை நிற பில்லாந்தஸ் எம்ப்லிகா (நெல்லிக்காய்) பழங்களின் குவியல்",
+                "ದುಂಡಗಿನ, ತಿಳಿ ಹಸಿರು ಬಣ್ಣದ ಫಿಲಾಂಥಸ್ ಎಂಬ್ಲಿಕಾ (ನೆಲ್ಲಿಕಾಯಿ) ಹಣ್ಣುಗಳ ರಾಶಿ",
+                "गोल, हल्के हरे रंग के फिलैंथस एम्ब्लिका (आंवला) फलों का ढेर"
+              ),
+              caption: L(
+                "Amla (Indian gooseberry) — ground fruit or bark is the handbook's remedy for anaemia.",
+                "ఉసిరి (ఇండియన్ గూస్‌బెర్రీ) — దంచిన పండు లేదా బెరడు రక్తహీనతకు హ్యాండ్‌బుక్ చిట్కా.",
+                "நெல்லிக்காய் — அரைத்த பழம் அல்லது பட்டை இரத்த சோகைக்கான கையேட்டு வைத்தியம்.",
+                "ನೆಲ್ಲಿಕಾಯಿ — ಪುಡಿಮಾಡಿದ ಹಣ್ಣು ಅಥವಾ ತೊಗಟೆ ರಕ್ತಹೀನತೆಗೆ ಕೈಪಿಡಿಯ ಪರಿಹಾರ.",
+                "आंवला — पिसा हुआ फल या छाल खून की कमी के लिए हैंडबुक का उपचार है।"
+              ),
             },
             {
               type: "photo",
               src: "assets/photo-m13-asparagus-racemosus.jpg",
-              alt: L("Asparagus racemosus (Shatavari) plant with fine needle-like leaves, small white flowers and red berries"),
-              caption: L("Asparagus racemosus (Satavari) — ground root is the handbook's remedy for failure to produce milk."),
+              alt: L(
+                "Asparagus racemosus (Shatavari) plant with fine needle-like leaves, small white flowers and red berries",
+                "సన్నని సూది వంటి ఆకులు, చిన్న తెల్ల పువ్వులు మరియు ఎరుపు బెర్రీలతో కూడిన అస్పరాగస్ రేసిమోసస్ (శతావరి) మొక్క",
+                "மெல்லிய ஊசி போன்ற இலைகள், சிறிய வெள்ளை பூக்கள் மற்றும் சிவப்பு பெர்ரிகளுடன் கூடிய அஸ்பாரகஸ் ரேசிமோசஸ் (சதாவரி) தாவரம்",
+                "ಸೂಕ್ಷ್ಮ ಸೂಜಿಯಂತಹ ಎಲೆಗಳು, ಸಣ್ಣ ಬಿಳಿ ಹೂವುಗಳು ಮತ್ತು ಕೆಂಪು ಬೆರ್ರಿಗಳನ್ನು ಹೊಂದಿರುವ ಅಸ್ಪ್ಯಾರಗಸ್ ರೇಸಿಮೋಸಸ್ (ಶತಾವರಿ) ಸಸ್ಯ",
+                "पतली सुई जैसी पत्तियों, छोटे सफेद फूलों और लाल जामुनों वाला एस्पैरागस रेसीमोसस (शतावरी) पौधा"
+              ),
+              caption: L(
+                "Asparagus racemosus (Satavari) — ground root is the handbook's remedy for failure to produce milk.",
+                "అస్పరాగస్ రేసిమోసస్ (శతావరి) — దంచిన వేరు పాలు ఇవ్వకపోవడానికి హ్యాండ్‌బుక్ చిట్కా.",
+                "அஸ்பாரகஸ் ரேசிமோசஸ் (சதாவரி) — அரைத்த வேர் பால் சுரக்காமல் இருப்பதற்கான கையேட்டு வைத்தியம்.",
+                "ಅಸ್ಪ್ಯಾರಗಸ್ ರೇಸಿಮೋಸಸ್ (ಶತಾವರಿ) — ಪುಡಿಮಾಡಿದ ಬೇರು ಹಾಲು ಬಾರದಿರುವಿಕೆಗೆ ಕೈಪಿಡಿಯ ಪರಿಹಾರ.",
+                "एस्पैरागस रेसीमोसस (शतावरी) — पिसी हुई जड़ दूध न बनने की समस्या के लिए हैंडबुक का उपचार है।"
+              ),
             },
           {
             type: "text",
-            heading: L("Starting With the Handbook's Own List"),
+            heading: L(
+              "Starting With the Handbook's Own List",
+              "హ్యాండ్‌బుక్ యొక్క సొంత జాబితాతో మొదలుపెడదాం",
+              "கையேட்டின் சொந்த பட்டியலுடன் தொடங்குதல்",
+              "ಕೈಪಿಡಿಯ ಸ್ವಂತ ಪಟ್ಟಿಯೊಂದಿಗೆ ಪ್ರಾರಂಭಿಸುವುದು",
+              "हैंडबुक की अपनी सूची से शुरुआत"
+            ),
             html: L(
-              "The farmer's handbook lists remedies for over twenty different minor ailments. This topic covers the first few, exactly as the handbook describes them — what plant or ingredient is used, how it's prepared, and how much is given."
+              "The farmer's handbook lists remedies for over twenty different minor ailments. This topic covers the first few, exactly as the handbook describes them — what plant or ingredient is used, how it's prepared, and how much is given.",
+              "రైతు హ్యాండ్‌బుక్ ఇరవైకి పైగా చిన్న సమస్యలకు చిట్కాలను జాబితా చేస్తుంది. ఈ టాపిక్ మొదటి కొన్నింటిని, హ్యాండ్‌బుక్ వివరించినట్లుగానే — ఏ మొక్క లేదా పదార్థం వాడతారు, ఎలా తయారు చేస్తారు, ఎంత మోతాదులో ఇస్తారు అనేవి కవర్ చేస్తుంది.",
+              "விவசாயி கையேடு இருபதுக்கும் மேற்பட்ட சிறிய நோய்களுக்கான வைத்தியங்களை பட்டியலிடுகிறது. இந்த தலைப்பு முதல் சிலவற்றை, கையேடு விவரிப்பது போலவே — எந்த தாவரம் அல்லது பொருள் பயன்படுத்தப்படுகிறது, எப்படி தயாரிக்கப்படுகிறது, எவ்வளவு அளவு கொடுக்கப்படுகிறது என்பதை உள்ளடக்குகிறது.",
+              "ರೈತರ ಕೈಪಿಡಿ ಇಪ್ಪತ್ತಕ್ಕೂ ಹೆಚ್ಚು ಸಣ್ಣ ಸಮಸ್ಯೆಗಳಿಗೆ ಪರಿಹಾರಗಳನ್ನು ಪಟ್ಟಿ ಮಾಡುತ್ತದೆ. ಈ ವಿಷಯ ಮೊದಲ ಕೆಲವನ್ನು, ಕೈಪಿಡಿ ವಿವರಿಸಿದಂತೆಯೇ — ಯಾವ ಸಸ್ಯ ಅಥವಾ ವಸ್ತು ಬಳಸಲಾಗುತ್ತದೆ, ಹೇಗೆ ತಯಾರಿಸಲಾಗುತ್ತದೆ, ಎಷ್ಟು ಪ್ರಮಾಣದಲ್ಲಿ ಕೊಡಲಾಗುತ್ತದೆ ಎಂಬುದನ್ನು ಒಳಗೊಂಡಿದೆ.",
+              "किसान हैंडबुक बीस से अधिक अलग-अलग छोटी बीमारियों के लिए उपचार सूचीबद्ध करती है। यह विषय पहले कुछ को, हैंडबुक जैसे बताती है वैसे ही — कौन सा पौधा या सामग्री इस्तेमाल होती है, कैसे तैयार की जाती है, और कितनी मात्रा दी जाती है — शामिल करता है।"
             ),
           },
           {
             type: "stat-grid",
             items: [
               {
-                label: L("Failure to Produce Milk"),
+                label: L(
+                  "Failure to Produce Milk",
+                  "పాలు ఇవ్వకపోవడం",
+                  "பால் சுரக்காமல் இருப்பது",
+                  "ಹಾಲು ಬಾರದಿರುವಿಕೆ",
+                  "दूध न बनना"
+                ),
                 text: L(
-                  "Either: grind 250 g of Asparagus racemosus (Satavari) root and give orally for 3 to 5 days. Or: give 50 g of Leptadenia reticulata (Jivanti) leaf and stem, mixed with feed, twice a day for 30 days."
+                  "Either: grind 250 g of Asparagus racemosus (Satavari) root and give orally for 3 to 5 days. Or: give 50 g of Leptadenia reticulata (Jivanti) leaf and stem, mixed with feed, twice a day for 30 days.",
+                  "ఏదైనా ఒకటి: 250 గ్రా అస్పరాగస్ రేసిమోసస్ (శతావరి) వేరును దంచి 3 నుండి 5 రోజులు నోటి ద్వారా ఇవ్వండి. లేదా: 50 గ్రా లెప్టడేనియా రెటిక్యులేటా (జీవంతి) ఆకు మరియు కాండాన్ని దాణాతో కలిపి 30 రోజులు రోజుకు రెండుసార్లు ఇవ్వండి.",
+                  "ஒன்று: 250 கிராம் அஸ்பாரகஸ் ரேசிமோசஸ் (சதாவரி) வேரை அரைத்து 3 முதல் 5 நாட்களுக்கு வாய் வழியாக கொடுக்கவும். அல்லது: 50 கிராம் லெப்டடீனியா ரெட்டிகுலேட்டா (ஜீவந்தி) இலை மற்றும் தண்டை தீவனத்துடன் கலந்து 30 நாட்களுக்கு நாளொன்றுக்கு இரண்டு முறை கொடுக்கவும்.",
+                  "ಎರಡರಲ್ಲಿ ಒಂದು: 250 ಗ್ರಾಂ ಅಸ್ಪ್ಯಾರಗಸ್ ರೇಸಿಮೋಸಸ್ (ಶತಾವರಿ) ಬೇರನ್ನು ಪುಡಿಮಾಡಿ 3 ರಿಂದ 5 ದಿನ ಬಾಯಿಯ ಮೂಲಕ ಕೊಡಿ. ಅಥವಾ: 50 ಗ್ರಾಂ ಲೆಪ್ಟಡೀನಿಯಾ ರೆಟಿಕ್ಯುಲೇಟಾ (ಜೀವಂತಿ) ಎಲೆ ಮತ್ತು ಕಾಂಡವನ್ನು ಆಹಾರದೊಂದಿಗೆ ಬೆರೆಸಿ 30 ದಿನ ದಿನಕ್ಕೆ ಎರಡು ಬಾರಿ ಕೊಡಿ.",
+                  "या तो: 250 ग्राम एस्पैरागस रेसीमोसस (शतावरी) की जड़ पीसकर 3 से 5 दिन तक मुँह से दें। या: 50 ग्राम लेप्टाडेनिया रेटिकुलाटा (जीवंती) की पत्ती और तना चारे में मिलाकर 30 दिनों तक दिन में दो बार दें।"
                 ),
               },
               {
-                label: L("Anaemia"),
+                label: L(
+                  "Anaemia",
+                  "రక్తహీనత",
+                  "இரத்த சோகை",
+                  "ರಕ್ತಹೀನತೆ",
+                  "खून की कमी"
+                ),
                 text: L(
-                  "Grind around 50 g of Phyllanthus embelica (Amla) fruit or bark, and give daily. Anaemia means the animal's blood has become weak or thin, often making it look pale and low on energy."
+                  "Grind around 50 g of Phyllanthus embelica (Amla) fruit or bark, and give daily. Anaemia means the animal's blood has become weak or thin, often making it look pale and low on energy.",
+                  "సుమారు 50 గ్రా ఫిలాంతస్ ఎంబెలికా (ఉసిరి) పండు లేదా బెరడును దంచి ప్రతిరోజూ ఇవ్వండి. రక్తహీనత అంటే జంతువు రక్తం బలహీనంగా లేదా పలుచగా అవడం, ఇది తరచుగా జంతువు నిస్తేజంగా మరియు శక్తి తక్కువగా కనిపించేలా చేస్తుంది.",
+                  "சுமார் 50 கிராம் பில்லாந்தஸ் எம்பெலிகா (நெல்லிக்காய்) பழம் அல்லது பட்டையை அரைத்து தினமும் கொடுக்கவும். இரத்த சோகை என்பது விலங்கின் இரத்தம் பலவீனமாக அல்லது மெலிதாக மாறுவது, இது பெரும்பாலும் அதை வெளிறியதாகவும் ஆற்றல் குறைந்ததாகவும் தோன்றச் செய்யும்.",
+                  "ಸುಮಾರು 50 ಗ್ರಾಂ ಫಿಲಾಂಥಸ್ ಎಂಬೆಲಿಕಾ (ನೆಲ್ಲಿಕಾಯಿ) ಹಣ್ಣು ಅಥವಾ ತೊಗಟೆಯನ್ನು ಪುಡಿಮಾಡಿ ಪ್ರತಿದಿನ ಕೊಡಿ. ರಕ್ತಹೀನತೆ ಎಂದರೆ ಪ್ರಾಣಿಯ ರಕ್ತ ದುರ್ಬಲ ಅಥವಾ ತೆಳ್ಳಗಾಗುವುದು, ಇದು ಸಾಮಾನ್ಯವಾಗಿ ಪ್ರಾಣಿಯನ್ನು ಬಿಳಿಚಿಕೊಂಡ ಮತ್ತು ಶಕ್ತಿ ಕಡಿಮೆಯಾಗಿ ಕಾಣುವಂತೆ ಮಾಡುತ್ತದೆ.",
+                  "लगभग 50 ग्राम फिलैंथस एम्ब्लिका (आंवला) फल या छाल पीसकर रोज़ दें। खून की कमी का मतलब है जानवर का खून कमज़ोर या पतला हो जाना, जिससे अक्सर वह पीला और कमज़ोर दिखने लगता है।"
                 ),
               },
               {
-                label: L("Blood in Milk"),
+                label: L(
+                  "Blood in Milk",
+                  "పాలలో రక్తం",
+                  "பாலில் இரத்தம்",
+                  "ಹಾಲಿನಲ್ಲಿ ರಕ್ತ",
+                  "दूध में खून"
+                ),
                 text: L(
-                  "Make a paste from half to one kg of Mimosa pudica (the 'touch-me-not' plant, which folds its leaves when touched). Feed as-is for 3 to 5 days, twice daily."
+                  "Make a paste from half to one kg of Mimosa pudica (the 'touch-me-not' plant, which folds its leaves when touched). Feed as-is for 3 to 5 days, twice daily.",
+                  "అరకిలో నుండి ఒక కిలో మిమోసా పుడికా (తాకితే ఆకులు మడతపడే మొక్క) తో పేస్టు తయారు చేయండి. 3 నుండి 5 రోజులు, రోజుకు రెండుసార్లు అలాగే తినిపించండి.",
+                  "அரை முதல் ஒரு கிலோ மிமோசா புடிகா (தொட்டால் இலைகள் மடியும் தாவரம்) கொண்டு பேஸ்ட் தயாரிக்கவும். 3 முதல் 5 நாட்களுக்கு, நாளொன்றுக்கு இரண்டு முறை அப்படியே கொடுக்கவும்.",
+                  "ಅರ್ಧದಿಂದ ಒಂದು ಕೆಜಿ ಮಿಮೋಸಾ ಪುಡಿಕಾ (ಮುಟ್ಟಿದರೆ ಎಲೆಗಳು ಮಡಚಿಕೊಳ್ಳುವ ಸಸ್ಯ) ಇಂದ ಪೇಸ್ಟ್ ಮಾಡಿ. 3 ರಿಂದ 5 ದಿನ, ದಿನಕ್ಕೆ ಎರಡು ಬಾರಿ ಹಾಗೆಯೇ ತಿನ್ನಿಸಿ.",
+                  "आधा से एक किलो मिमोसा पुडिका (छूने से पत्तियाँ सिकुड़ने वाला पौधा) से पेस्ट बनाएं। 3 से 5 दिन तक, दिन में दो बार वैसे ही खिलाएं।"
                 ),
               },
             ],
           },
           {
             type: "glossary",
-            term: L("Decoction"),
+            term: L(
+              "Decoction",
+              "కషాయం",
+              "காடி (decoction)",
+              "ಕಷಾಯ",
+              "काढ़ा"
+            ),
             meaning: L(
-              "A liquid made by boiling plant material (roots, leaves, bark) in water so that its properties pass into the water, which is then given to the animal, often after straining out the solid pieces."
+              "A liquid made by boiling plant material (roots, leaves, bark) in water so that its properties pass into the water, which is then given to the animal, often after straining out the solid pieces.",
+              "మొక్క పదార్థాన్ని (వేర్లు, ఆకులు, బెరడు) నీటిలో మరిగించి, దాని గుణాలు నీటిలోకి చేరేలా చేసి తయారు చేసిన ద్రవం, దీనిని సాధారణంగా ఘన ముక్కలను వడకట్టిన తర్వాత జంతువుకు ఇస్తారు.",
+              "தாவரப் பொருளை (வேர்கள், இலைகள், பட்டை) தண்ணீரில் கொதிக்க வைத்து அதன் குணங்கள் தண்ணீரில் கலக்குமாறு செய்து தயாரிக்கப்படும் திரவம், இதை பொதுவாக திடப் பொருட்களை வடிகட்டிய பிறகு விலங்குக்கு கொடுக்கப்படுகிறது.",
+              "ಸಸ್ಯ ಪದಾರ್ಥವನ್ನು (ಬೇರುಗಳು, ಎಲೆಗಳು, ತೊಗಟೆ) ನೀರಿನಲ್ಲಿ ಕುದಿಸಿ ಅದರ ಗುಣಗಳು ನೀರಿಗೆ ಸೇರುವಂತೆ ಮಾಡಿ ತಯಾರಿಸಿದ ದ್ರವ, ಇದನ್ನು ಸಾಮಾನ್ಯವಾಗಿ ಘನ ತುಂಡುಗಳನ್ನು ಸೋಸಿದ ನಂತರ ಪ್ರಾಣಿಗೆ ಕೊಡಲಾಗುತ್ತದೆ.",
+              "पौधे के हिस्सों (जड़ें, पत्तियां, छाल) को पानी में उबालकर बनाया गया तरल, जिससे उनके गुण पानी में मिल जाते हैं, और इसे अक्सर ठोस टुकड़े छानकर जानवर को दिया जाता है।"
             ),
           },
           {
             type: "callout",
             style: "tip",
-            heading: L("The Same Plant Turns Up Again and Again"),
+            heading: L(
+              "The Same Plant Turns Up Again and Again",
+              "అదే మొక్క మళ్ళీ మళ్ళీ కనిపిస్తుంది",
+              "அதே தாவரம் மீண்டும் மீண்டும் தோன்றுகிறது",
+              "ಅದೇ ಸಸ್ಯ ಮತ್ತೆ ಮತ್ತೆ ಕಾಣಿಸಿಕೊಳ್ಳುತ್ತದೆ",
+              "वही पौधा बार-बार सामने आता है"
+            ),
             text: L(
-              "Notice Mimosa pudica above — you will see this same plant used for several completely different problems later in this module. That's normal in traditional remedies: a small number of plants are considered useful for many things. It doesn't change the golden rule — if the days given pass with no improvement, report it and involve the vet."
+              "Notice Mimosa pudica above — you will see this same plant used for several completely different problems later in this module. That's normal in traditional remedies: a small number of plants are considered useful for many things. It doesn't change the golden rule — if the days given pass with no improvement, report it and involve the vet.",
+              "పైన మిమోసా పుడికాను గమనించండి — ఈ మాడ్యూల్‌లో తర్వాత చాలా భిన్నమైన సమస్యలకు ఇదే మొక్క వాడటం మీరు చూస్తారు. సాంప్రదాయ చిట్కాలలో ఇది సాధారణం: కొన్ని మొక్కలు అనేక విషయాలకు ఉపయోగకరమని భావిస్తారు. దీనివల్ల స్వర్ణ నియమం మారదు — నిర్దేశించిన రోజులు గడిచినా మెరుగుదల లేకపోతే, నివేదించి పశువైద్యుడిని సంప్రదించండి.",
+              "மேலே மிமோசா புடிகாவை கவனியுங்கள் — இந்த தொகுதியில் பின்னர் முற்றிலும் வேறுபட்ட பல பிரச்சினைகளுக்கு இதே தாவரம் பயன்படுத்தப்படுவதை நீங்கள் காண்பீர்கள். பாரம்பரிய வைத்தியங்களில் இது சாதாரணமானது: சில தாவரங்கள் பல விஷயங்களுக்கு பயனுள்ளதாக கருதப்படுகின்றன. இது தங்க விதியை மாற்றாது — கொடுக்கப்பட்ட நாட்கள் கடந்தும் முன்னேற்றம் இல்லையென்றால், அதை தெரிவித்து கால்நடை மருத்துவரை ஈடுபடுத்தவும்.",
+              "ಮೇಲೆ ಮಿಮೋಸಾ ಪುಡಿಕಾವನ್ನು ಗಮನಿಸಿ — ಈ ಮಾಡ್ಯೂಲ್‌ನಲ್ಲಿ ನಂತರ ಹಲವಾರು ಸಂಪೂರ್ಣ ವಿಭಿನ್ನ ಸಮಸ್ಯೆಗಳಿಗೆ ಇದೇ ಸಸ್ಯ ಬಳಸಿರುವುದನ್ನು ನೀವು ನೋಡುತ್ತೀರಿ. ಸಾಂಪ್ರದಾಯಿಕ ಪರಿಹಾರಗಳಲ್ಲಿ ಇದು ಸಾಮಾನ್ಯ: ಸ್ವಲ್ಪ ಸಂಖ್ಯೆಯ ಸಸ್ಯಗಳು ಅನೇಕ ವಿಷಯಗಳಿಗೆ ಉಪಯುಕ್ತವೆಂದು ಪರಿಗಣಿಸಲಾಗುತ್ತದೆ. ಇದು ಸುವರ್ಣ ನಿಯಮವನ್ನು ಬದಲಾಯಿಸುವುದಿಲ್ಲ — ನಿಗದಿತ ದಿನಗಳು ಕಳೆದರೂ ಸುಧಾರಣೆ ಇಲ್ಲದಿದ್ದರೆ, ವರದಿ ಮಾಡಿ ಪಶುವೈದ್ಯರನ್ನು ಒಳಗೊಳ್ಳಿಸಿ.",
+              "ऊपर मिमोसा पुडिका को देखें — इस मॉड्यूल में आगे आपको यही पौधा कई बिल्कुल अलग समस्याओं के लिए इस्तेमाल होते हुए दिखेगा। पारंपरिक उपचारों में यह सामान्य है: कुछ पौधों को कई चीज़ों के लिए उपयोगी माना जाता है। इससे स्वर्ण नियम नहीं बदलता — अगर बताए गए दिन बीत जाएं और सुधार न हो, तो इसकी सूचना दें और पशु चिकित्सक को शामिल करें।"
             ),
           },
         ],
         check: [
           {
             type: "mcq",
-            q: L("According to the handbook, what is the remedy for 'failure to produce milk' using Asparagus racemosus?"),
+            q: L(
+              "According to the handbook, what is the remedy for 'failure to produce milk' using Asparagus racemosus?",
+              "హ్యాండ్‌బుక్ ప్రకారం, అస్పరాగస్ రేసిమోసస్ ఉపయోగించి 'పాలు ఇవ్వకపోవడం'కు చిట్కా ఏమిటి?",
+              "கையேட்டின்படி, அஸ்பாரகஸ் ரேசிமோசஸ் பயன்படுத்தி 'பால் சுரக்காமல் இருப்பதற்கான' வைத்தியம் என்ன?",
+              "ಕೈಪಿಡಿಯ ಪ್ರಕಾರ, ಅಸ್ಪ್ಯಾರಗಸ್ ರೇಸಿಮೋಸಸ್ ಬಳಸಿ 'ಹಾಲು ಬಾರದಿರುವಿಕೆ'ಗೆ ಪರಿಹಾರ ಏನು?",
+              "हैंडबुक के अनुसार, एस्पैरागस रेसीमोसस का उपयोग करके 'दूध न बनने' का उपचार क्या है?"
+            ),
             options: [
-              L("Grind 250 g of the root and give orally for 3 to 5 days"),
-              L("Inject it directly into the udder"),
-              L("Boil the leaves and only use them as a spray"),
-              L("It is not part of this remedy list"),
+              L(
+                "Grind 250 g of the root and give orally for 3 to 5 days",
+                "250 గ్రా వేరును దంచి 3 నుండి 5 రోజులు నోటి ద్వారా ఇవ్వాలి",
+                "250 கிராம் வேரை அரைத்து 3 முதல் 5 நாட்களுக்கு வாய் வழியாக கொடுக்க வேண்டும்",
+                "250 ಗ್ರಾಂ ಬೇರನ್ನು ಪುಡಿಮಾಡಿ 3 ರಿಂದ 5 ದಿನ ಬಾಯಿಯ ಮೂಲಕ ಕೊಡಬೇಕು",
+                "250 ग्राम जड़ पीसकर 3 से 5 दिन तक मुँह से देनी चाहिए"
+              ),
+              L(
+                "Inject it directly into the udder",
+                "దానిని నేరుగా పొదుగులోకి ఇంజెక్ట్ చేయాలి",
+                "அதை நேரடியாக மடியில் ஊசி மூலம் செலுத்த வேண்டும்",
+                "ಅದನ್ನು ನೇರವಾಗಿ ಕೆಚ್ಚಲಿಗೆ ಚುಚ್ಚುಮದ್ದು ಮಾಡಬೇಕು",
+                "इसे सीधे थन में इंजेक्ट करना चाहिए"
+              ),
+              L(
+                "Boil the leaves and only use them as a spray",
+                "ఆకులను మరిగించి కేవలం స్ప్రేగా మాత్రమే వాడాలి",
+                "இலைகளை கொதிக்க வைத்து ஸ்பிரேயாக மட்டுமே பயன்படுத்த வேண்டும்",
+                "ಎಲೆಗಳನ್ನು ಕುದಿಸಿ ಕೇವಲ ಸಿಂಪಡಣೆಯಾಗಿ ಮಾತ್ರ ಬಳಸಬೇಕು",
+                "पत्तियों को उबालकर केवल स्प्रे के रूप में इस्तेमाल करना चाहिए"
+              ),
+              L(
+                "It is not part of this remedy list",
+                "ఇది ఈ చిట్కాల జాబితాలో భాగం కాదు",
+                "இது இந்த வைத்திய பட்டியலின் பகுதி இல்லை",
+                "ಇದು ಈ ಪರಿಹಾರ ಪಟ್ಟಿಯ ಭಾಗವಲ್ಲ",
+                "यह इस उपचार सूची का हिस्सा नहीं है"
+              ),
             ],
             answer: 0,
-            explain: L("The handbook's remedy is 250 g of ground Asparagus racemosus root, given orally for 3 to 5 days."),
+            explain: L(
+              "The handbook's remedy is 250 g of ground Asparagus racemosus root, given orally for 3 to 5 days.",
+              "హ్యాండ్‌బుక్ చిట్కా 250 గ్రా దంచిన అస్పరాగస్ రేసిమోసస్ వేరును 3 నుండి 5 రోజులు నోటి ద్వారా ఇవ్వడం.",
+              "கையேட்டு வைத்தியம் 250 கிராம் அரைத்த அஸ்பாரகஸ் ரேசிமோசஸ் வேரை 3 முதல் 5 நாட்களுக்கு வாய் வழியாக கொடுப்பது.",
+              "ಕೈಪಿಡಿಯ ಪರಿಹಾರ 250 ಗ್ರಾಂ ಪುಡಿಮಾಡಿದ ಅಸ್ಪ್ಯಾರಗಸ್ ರೇಸಿಮೋಸಸ್ ಬೇರನ್ನು 3 ರಿಂದ 5 ದಿನ ಬಾಯಿಯ ಮೂಲಕ ಕೊಡುವುದು.",
+              "हैंडबुक का उपचार है 250 ग्राम पिसी हुई एस्पैरागस रेसीमोसस जड़ को 3 से 5 दिन तक मुँह से देना।"
+            ),
           },
           {
             type: "mcq",
-            q: L("Which plant does the handbook use for 'blood in milk'?"),
+            q: L(
+              "Which plant does the handbook use for 'blood in milk'?",
+              "పాలలో రక్తం కోసం హ్యాండ్‌బుక్ ఏ మొక్కను వాడుతుంది?",
+              "பாலில் இரத்தத்திற்கு கையேடு எந்த தாவரத்தை பயன்படுத்துகிறது?",
+              "ಹಾಲಿನಲ್ಲಿ ರಕ್ತಕ್ಕೆ ಕೈಪಿಡಿ ಯಾವ ಸಸ್ಯವನ್ನು ಬಳಸುತ್ತದೆ?",
+              "दूध में खून के लिए हैंडबुक किस पौधे का उपयोग करती है?"
+            ),
             options: [
-              L("Mimosa pudica (touch-me-not), made into a paste"),
-              L("Papaya latex"),
-              L("Tamarind and gingely oil"),
-              L("Euphorbia latex"),
+              L(
+                "Mimosa pudica (touch-me-not), made into a paste",
+                "మిమోసా పుడికా (తాకితే ముడుచుకునేది), పేస్టుగా చేసి",
+                "மிமோசா புடிகா (தொட்டால் சுருங்கும் தாவரம்), பேஸ்டாக செய்யப்பட்டது",
+                "ಮಿಮೋಸಾ ಪುಡಿಕಾ (ಮುಟ್ಟಿದರೆ ಮುದುಡುವ ಸಸ್ಯ), ಪೇಸ್ಟ್ ಮಾಡಿ",
+                "मिमोसा पुडिका (छूने से सिकुड़ने वाला), पेस्ट बनाकर"
+              ),
+              L(
+                "Papaya latex",
+                "బొప్పాయి జిగురు",
+                "பப்பாளி பால்",
+                "ಪಪ್ಪಾಯಿ ಅಂಟು",
+                "पपीते का दूध (लेटेक्स)"
+              ),
+              L(
+                "Tamarind and gingely oil",
+                "చింతపండు మరియు నువ్వుల నూనె",
+                "புளி மற்றும் எள் எண்ணெய்",
+                "ಹುಣಸೆಹಣ್ಣು ಮತ್ತು ಎಳ್ಳೆಣ್ಣೆ",
+                "इमली और तिल का तेल"
+              ),
+              L(
+                "Euphorbia latex",
+                "యూఫోర్బియా జిగురు",
+                "யூஃபோர்பியா பால்",
+                "ಯೂಫೋರ್ಬಿಯಾ ಅಂಟು",
+                "यूफोर्बिया का दूध (लेटेक्स)"
+              ),
             ],
             answer: 0,
-            explain: L("Mimosa pudica paste, half to one kg, fed for 3 to 5 days twice daily, is the handbook's remedy for blood in milk."),
+            explain: L(
+              "Mimosa pudica paste, half to one kg, fed for 3 to 5 days twice daily, is the handbook's remedy for blood in milk.",
+              "మిమోసా పుడికా పేస్టు, అరకిలో నుండి ఒక కిలో వరకు, 3 నుండి 5 రోజులు రోజుకు రెండుసార్లు తినిపించడం పాలలో రక్తానికి హ్యాండ్‌బుక్ చిట్కా.",
+              "மிமோசா புடிகா பேஸ்ட், அரை முதல் ஒரு கிலோ வரை, 3 முதல் 5 நாட்களுக்கு நாளொன்றுக்கு இரண்டு முறை கொடுப்பது பாலில் இரத்தத்திற்கான கையேட்டு வைத்தியம்.",
+              "ಮಿಮೋಸಾ ಪುಡಿಕಾ ಪೇಸ್ಟ್, ಅರ್ಧದಿಂದ ಒಂದು ಕೆಜಿ, 3 ರಿಂದ 5 ದಿನ ದಿನಕ್ಕೆ ಎರಡು ಬಾರಿ ತಿನ್ನಿಸುವುದು ಹಾಲಿನಲ್ಲಿ ರಕ್ತಕ್ಕೆ ಕೈಪಿಡಿಯ ಪರಿಹಾರ.",
+              "मिमोसा पुडिका का पेस्ट, आधा से एक किलो, 3 से 5 दिन तक दिन में दो बार खिलाना दूध में खून की समस्या के लिए हैंडबुक का उपचार है।"
+            ),
           },
         ],
       },
