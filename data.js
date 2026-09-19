@@ -6537,125 +6537,153 @@ export const MODULES = [
           },
           {
             type: "glossary",
-            term: L("Faecal-Oral Route"),
+            term: L("Faecal-Oral Route", "మల-నోటి మార్గం", "மல-வாய் பாதை", "ಮಲ-ಬಾಯಿ ಮಾರ್ಗ", "मल-मुख मार्ग"),
             meaning: L(
-              "A way germs spread: tiny, invisible traces of an animal's dung end up on hands, water, or food, and then reach a person's mouth. This is always a possible route of infection wherever people live and work in close contact with cattle, which is common in rural areas."
+              "A way germs spread: tiny, invisible traces of an animal's dung end up on hands, water, or food, and then reach a person's mouth. This is always a possible route of infection wherever people live and work in close contact with cattle, which is common in rural areas.",
+              "క్రిములు వ్యాపించే ఒక మార్గం: జంతువు పేడ యొక్క చిన్న, కనిపించని జాడలు చేతులపై, నీటిలో, లేదా ఆహారంలో ఉండి, తర్వాత వ్యక్తి నోటికి చేరతాయి. గ్రామీణ ప్రాంతాలలో సాధారణమైన, ప్రజలు పశువులతో దగ్గరి సంబంధంలో నివసించి పనిచేసే ప్రతిచోటా ఇది ఎల్లప్పుడూ సంక్రమణకు సాధ్యమైన మార్గం.",
+              "கிருமிகள் பரவும் ஒரு வழி: விலங்கின் சாணத்தின் சிறிய, கண்ணுக்குத் தெரியாத தடயங்கள் கைகளில், தண்ணீரில், அல்லது உணவில் இருந்து பின்னர் ஒரு நபரின் வாயை அடைகின்றன. கிராமப்புறங்களில் பொதுவாக இருப்பது போல, மக்கள் மாடுகளுடன் நெருக்கமாக வாழ்ந்து வேலை செய்யும் எல்லா இடங்களிலும் இது எப்போதும் ஒரு சாத்தியமான தொற்று வழியாகும்.",
+              "ಸೂಕ್ಷ್ಮಾಣುಗಳು ಹರಡುವ ಒಂದು ವಿಧಾನ: ಪ್ರಾಣಿಯ ಸಗಣಿಯ ಚಿಕ್ಕ, ಕಾಣದ ಕುರುಹುಗಳು ಕೈಗಳಲ್ಲಿ, ನೀರಿನಲ್ಲಿ, ಅಥವಾ ಆಹಾರದಲ್ಲಿ ಸೇರಿ, ನಂತರ ವ್ಯಕ್ತಿಯ ಬಾಯಿಯನ್ನು ತಲುಪುತ್ತವೆ. ಗ್ರಾಮೀಣ ಪ್ರದೇಶಗಳಲ್ಲಿ ಸಾಮಾನ್ಯವಾಗಿರುವಂತೆ, ಜನರು ಜಾನುವಾರುಗಳೊಂದಿಗೆ ನಿಕಟ ಸಂಪರ್ಕದಲ್ಲಿ ವಾಸಿಸಿ ಕೆಲಸ ಮಾಡುವ ಎಲ್ಲೆಡೆ ಇದು ಯಾವಾಗಲೂ ಸಂಭಾವ್ಯ ಸೋಂಕಿನ ಮಾರ್ಗವಾಗಿದೆ.",
+              "कीटाणु फैलने का एक तरीका: जानवर के गोबर के छोटे, अदृश्य अंश हाथों, पानी, या भोजन पर लग जाते हैं, और फिर किसी व्यक्ति के मुँह तक पहुँच जाते हैं। यह हमेशा संक्रमण का एक संभावित मार्ग है जहाँ भी लोग पशुओं के नज़दीकी संपर्क में रहते और काम करते हैं, जो ग्रामीण क्षेत्रों में आम है।"
             ),
           },
           {
             type: "callout",
             style: "info",
-            heading: L("Who Is Most at Risk"),
+            heading: L("Who Is Most at Risk", "ఎవరికి ఎక్కువ ప్రమాదం ఉంది", "யாருக்கு அதிக ஆபத்து உள்ளது", "ಯಾರಿಗೆ ಹೆಚ್ಚು ಅಪಾಯವಿದೆ", "किसे सबसे ज़्यादा खतरा है"),
             text: L(
-              "Young children, malnourished people, pregnant women, and anyone whose immune system is already weakened (their body's natural defence against infection) are usually more susceptible to these gut infections than a healthy adult."
+              "Young children, malnourished people, pregnant women, and anyone whose immune system is already weakened (their body's natural defence against infection) are usually more susceptible to these gut infections than a healthy adult.",
+              "చిన్న పిల్లలు, పోషకాహార లోపం ఉన్నవారు, గర్భిణీ స్త్రీలు, మరియు రోగనిరోధక వ్యవస్థ ఇప్పటికే బలహీనంగా ఉన్న ఎవరైనా (సంక్రమణకు వ్యతిరేకంగా వారి శరీరం యొక్క సహజ రక్షణ) సాధారణంగా ఆరోగ్యకరమైన పెద్దవారి కంటే ఈ గట్ సంక్రమణలకు ఎక్కువ గురయ్యే అవకాశం ఉంటుంది.",
+              "சிறு குழந்தைகள், ஊட்டச்சத்து குறைபாடு உள்ளவர்கள், கர்ப்பிணிப் பெண்கள், மற்றும் நோய் எதிர்ப்பு சக்தி ஏற்கனவே பலவீனமாக உள்ள எவரும் (தொற்றுக்கு எதிரான அவர்களின் உடலின் இயற்கையான பாதுகாப்பு) பொதுவாக ஆரோக்கியமான ஒரு பெரியவரை விட இந்த குடல் தொற்றுகளுக்கு அதிகம் ஆளாகக்கூடியவர்கள்.",
+              "ಚಿಕ್ಕ ಮಕ್ಕಳು, ಅಪೌಷ್ಟಿಕತೆ ಇರುವ ಜನರು, ಗರ್ಭಿಣಿಯರು, ಮತ್ತು ರೋಗನಿರೋಧಕ ವ್ಯವಸ್ಥೆ ಈಗಾಗಲೇ ದುರ್ಬಲಗೊಂಡ ಯಾರಾದರೂ (ಸೋಂಕಿನ ವಿರುದ್ಧ ಅವರ ದೇಹದ ಸ್ವಾಭಾವಿಕ ರಕ್ಷಣೆ) ಸಾಮಾನ್ಯವಾಗಿ ಆರೋಗ್ಯವಂತ ವಯಸ್ಕರಿಗಿಂತ ಈ ಕರುಳಿನ ಸೋಂಕುಗಳಿಗೆ ಹೆಚ್ಚು ಒಳಗಾಗುತ್ತಾರೆ.",
+              "छोटे बच्चे, कुपोषित लोग, गर्भवती महिलाएँ, और कोई भी जिसकी रोग प्रतिरोधक क्षमता पहले से कमज़ोर है (संक्रमण के खिलाफ शरीर की प्राकृतिक सुरक्षा) आमतौर पर एक स्वस्थ वयस्क की तुलना में इन आंत संक्रमणों के प्रति ज़्यादा संवेदनशील होते हैं।"
             ),
           },
           {
             type: "stat-grid",
             items: [
               {
-                label: L("Fever and diarrhoea"),
-                text: L("Common early symptoms of gastro-intestinal zoonotic infections."),
+                label: L("Fever and diarrhoea", "జ్వరం మరియు విరేచనాలు", "காய்ச்சல் மற்றும் வயிற்றுப்போக்கு", "ಜ್ವರ ಮತ್ತು ಅತಿಸಾರ", "बुखार और दस्त"),
+                text: L("Common early symptoms of gastro-intestinal zoonotic infections.", "జఠర-ప్రేగు జూనోటిక్ సంక్రమణల సాధారణ ప్రారంభ లక్షణాలు.", "இரைப்பை-குடல் விலங்கு-மனித தொற்றுகளின் பொதுவான ஆரம்ப அறிகுறிகள்.", "ಜಠರ-ಕರುಳಿನ ಝೂನೋಟಿಕ್ ಸೋಂಕುಗಳ ಸಾಮಾನ್ಯ ಆರಂಭಿಕ ಲಕ್ಷಣಗಳು.", "आंत्र-संबंधी ज़ूनोटिक संक्रमणों के सामान्य शुरुआती लक्षण।"),
               },
               {
-                label: L("Loss of appetite and weight loss"),
-                text: L("The person eats less and starts losing weight as the infection continues."),
+                label: L("Loss of appetite and weight loss", "ఆకలి తగ్గడం మరియు బరువు తగ్గడం", "பசியின்மை மற்றும் எடை இழப்பு", "ಹಸಿವು ಕಡಿಮೆಯಾಗುವುದು ಮತ್ತು ತೂಕ ಇಳಿಕೆ", "भूख कम लगना और वज़न कम होना"),
+                text: L("The person eats less and starts losing weight as the infection continues.", "సంక్రమణ కొనసాగుతున్న కొద్దీ వ్యక్తి తక్కువ తింటాడు మరియు బరువు తగ్గడం ప్రారంభిస్తాడు.", "தொற்று தொடரும்போது நபர் குறைவாக சாப்பிட்டு எடை இழக்கத் தொடங்குகிறார்.", "ಸೋಂಕು ಮುಂದುವರಿದಂತೆ ವ್ಯಕ್ತಿ ಕಡಿಮೆ ತಿನ್ನುತ್ತಾನೆ ಮತ್ತು ತೂಕ ಕಳೆದುಕೊಳ್ಳಲು ಪ್ರಾರಂಭಿಸುತ್ತಾನೆ.", "संक्रमण जारी रहने के साथ व्यक्ति कम खाता है और वज़न कम होने लगता है।"),
               },
               {
-                label: L("Dehydration"),
-                text: L("The body loses too much fluid, especially from ongoing diarrhoea — this can become serious if not treated."),
+                label: L("Dehydration", "నిర్జలీకరణం", "நீர்ச்சத்து குறைபாடு", "ನಿರ್ಜಲೀಕರಣ", "निर्जलीकरण"),
+                text: L("The body loses too much fluid, especially from ongoing diarrhoea — this can become serious if not treated.", "శరీరం చాలా ద్రవాన్ని కోల్పోతుంది, ముఖ్యంగా కొనసాగుతున్న విరేచనాల నుండి — చికిత్స చేయకపోతే ఇది తీవ్రమవుతుంది.", "உடல் அதிக அளவு திரவத்தை இழக்கிறது, குறிப்பாக தொடர்ச்சியான வயிற்றுப்போக்கிலிருந்து — சிகிச்சை அளிக்கப்படாவிட்டால் இது தீவிரமாகலாம்.", "ದೇಹ ಹೆಚ್ಚು ದ್ರವವನ್ನು ಕಳೆದುಕೊಳ್ಳುತ್ತದೆ, ವಿಶೇಷವಾಗಿ ಮುಂದುವರಿಯುತ್ತಿರುವ ಅತಿಸಾರದಿಂದ — ಚಿಕಿತ್ಸೆ ನೀಡದಿದ್ದರೆ ಇದು ಗಂಭೀರವಾಗಬಹುದು.", "शरीर बहुत ज़्यादा तरल पदार्थ खो देता है, खासकर लगातार दस्त से — इलाज न होने पर यह गंभीर हो सकता है।"),
               },
             ],
           },
           {
             type: "callout",
             style: "tip",
-            heading: L("How to Protect Yourself"),
+            heading: L("How to Protect Yourself", "మిమ్మల్ని మీరు ఎలా రక్షించుకోవాలి", "உங்களை எவ்வாறு பாதுகாத்துக் கொள்வது", "ನಿಮ್ಮನ್ನು ನೀವು ಹೇಗೆ ರಕ್ಷಿಸಿಕೊಳ್ಳುವುದು", "खुद को कैसे सुरक्षित रखें"),
             text: L(
-              "Wash your hands thoroughly with soap after handling dung, cleaning sheds, or touching cattle — and always before eating or drinking. Keep drinking water covered and protected from contamination by dung or waste. If you, a child, or a pregnant woman in your household develops diarrhoea and fever after contact with cattle or their waste, don't wait it out — see a doctor promptly, especially because dehydration can become serious quickly."
+              "Wash your hands thoroughly with soap after handling dung, cleaning sheds, or touching cattle — and always before eating or drinking. Keep drinking water covered and protected from contamination by dung or waste. If you, a child, or a pregnant woman in your household develops diarrhoea and fever after contact with cattle or their waste, don't wait it out — see a doctor promptly, especially because dehydration can become serious quickly.",
+              "పేడను నిర్వహించిన తర్వాత, షెడ్లను శుభ్రం చేసిన తర్వాత, లేదా పశువులను తాకిన తర్వాత సబ్బుతో మీ చేతులను బాగా కడుక్కోండి — మరియు తినడానికి లేదా తాగడానికి ముందు ఎల్లప్పుడూ. తాగునీటిని కప్పి ఉంచి పేడ లేదా వ్యర్థాల కాలుష్యం నుండి రక్షించండి. మీరు, మీ ఇంట్లో ఒక పిల్లవాడు, లేదా గర్భిణీ స్త్రీకి పశువులు లేదా వాటి వ్యర్థాలతో సంబంధం తర్వాత విరేచనాలు మరియు జ్వరం వస్తే, వేచి ఉండకండి — వెంటనే వైద్యుడిని చూడండి, ముఖ్యంగా నిర్జలీకరణం త్వరగా తీవ్రమవుతుంది కాబట్టి.",
+              "சாணத்தை கையாண்ட பிறகு, கொட்டகைகளை சுத்தம் செய்த பிறகு, அல்லது மாடுகளைத் தொட்ட பிறகு சோப்புடன் உங்கள் கைகளை நன்கு கழுவுங்கள் — மற்றும் சாப்பிடுவதற்கு அல்லது குடிப்பதற்கு முன் எப்போதும். குடிநீரை மூடி வைத்து சாணம் அல்லது கழிவால் கறைபடுவதிலிருந்து பாதுகாக்கவும். உங்கள் வீட்டில் நீங்கள், ஒரு குழந்தை, அல்லது ஒரு கர்ப்பிணிப் பெண் மாடுகள் அல்லது அவற்றின் கழிவுகளுடன் தொடர்புக்குப் பிறகு வயிற்றுப்போக்கு மற்றும் காய்ச்சலை உருவாக்கினால், காத்திருக்காதீர்கள் — உடனடியாக ஒரு மருத்துவரைப் பாருங்கள், குறிப்பாக நீர்ச்சத்து குறைபாடு விரைவில் தீவிரமாகக்கூடும் என்பதால்.",
+              "ಸಗಣಿ ನಿರ್ವಹಿಸಿದ ನಂತರ, ಶೆಡ್‌ಗಳನ್ನು ಸ್ವಚ್ಛಗೊಳಿಸಿದ ನಂತರ, ಅಥವಾ ಜಾನುವಾರುಗಳನ್ನು ಮುಟ್ಟಿದ ನಂತರ ಸಾಬೂನಿನಿಂದ ನಿಮ್ಮ ಕೈಗಳನ್ನು ಸಂಪೂರ್ಣವಾಗಿ ತೊಳೆಯಿರಿ — ಮತ್ತು ತಿನ್ನುವ ಅಥವಾ ಕುಡಿಯುವ ಮೊದಲು ಯಾವಾಗಲೂ. ಕುಡಿಯುವ ನೀರನ್ನು ಮುಚ್ಚಿ ಸಗಣಿ ಅಥವಾ ತ್ಯಾಜ್ಯದಿಂದ ಕಲುಷಿತಗೊಳ್ಳದಂತೆ ರಕ್ಷಿಸಿ. ನಿಮ್ಮ ಮನೆಯಲ್ಲಿ ನೀವು, ಒಂದು ಮಗು, ಅಥವಾ ಗರ್ಭಿಣಿಯೊಬ್ಬರಿಗೆ ಜಾನುವಾರು ಅಥವಾ ಅವುಗಳ ತ್ಯಾಜ್ಯದ ಸಂಪರ್ಕದ ನಂತರ ಅತಿಸಾರ ಮತ್ತು ಜ್ವರ ಬಂದರೆ, ಕಾಯಬೇಡಿ — ತಕ್ಷಣ ವೈದ್ಯರನ್ನು ಭೇಟಿ ಮಾಡಿ, ವಿಶೇಷವಾಗಿ ನಿರ್ಜಲೀಕರಣ ಬೇಗನೆ ಗಂಭೀರವಾಗಬಹುದು ಎಂಬ ಕಾರಣಕ್ಕೆ.",
+              "गोबर संभालने, शेड साफ करने, या पशुओं को छूने के बाद अपने हाथों को साबुन से अच्छी तरह धोएं — और खाने या पीने से पहले हमेशा। पीने के पानी को ढककर रखें और गोबर या अपशिष्ट से दूषित होने से बचाएं। अगर आपके घर में आपको, किसी बच्चे को, या किसी गर्भवती महिला को पशुओं या उनके अपशिष्ट के संपर्क के बाद दस्त और बुखार होता है, तो इंतज़ार न करें — तुरंत डॉक्टर को दिखाएं, खासकर क्योंकि निर्जलीकरण जल्दी गंभीर हो सकता है।"
             ),
           },
         ],
         check: [
           {
             type: "mcq",
-            q: L("What is the 'faecal-oral route' of infection?"),
+            q: L("What is the 'faecal-oral route' of infection?", "సంక్రమణ యొక్క 'మల-నోటి మార్గం' అంటే ఏమిటి?", "தொற்றுநோயின் 'மல-வாய் பாதை' என்றால் என்ன?", "ಸೋಂಕಿನ 'ಮಲ-ಬಾಯಿ ಮಾರ್ಗ' ಎಂದರೇನು?", "संक्रमण का 'मल-मुख मार्ग' क्या है?"),
             options: [
-              L("Germs from an animal's dung reaching a person's mouth, for example through unwashed hands or contaminated water"),
-              L("A germ that only spreads through the air"),
-              L("A type of vaccine given to calves"),
-              L("A way of checking an animal's temperature"),
+              L("Germs from an animal's dung reaching a person's mouth, for example through unwashed hands or contaminated water", "జంతువు పేడ నుండి క్రిములు వ్యక్తి నోటికి చేరడం, ఉదాహరణకు కడగని చేతులు లేదా కలుషితమైన నీటి ద్వారా", "விலங்கின் சாணத்திலிருந்து கிருமிகள் ஒரு நபரின் வாயை அடைவது, உதாரணமாக கழுவப்படாத கைகள் அல்லது கறைபடிந்த தண்ணீர் மூலம்", "ಪ್ರಾಣಿಯ ಸಗಣಿಯಿಂದ ಸೂಕ್ಷ್ಮಾಣುಗಳು ವ್ಯಕ್ತಿಯ ಬಾಯಿಗೆ ತಲುಪುವುದು, ಉದಾಹರಣೆಗೆ ತೊಳೆಯದ ಕೈಗಳು ಅಥವಾ ಕಲುಷಿತ ನೀರಿನ ಮೂಲಕ", "किसी जानवर के गोबर से कीटाणुओं का किसी व्यक्ति के मुँह तक पहुँचना, उदाहरण के लिए बिना धुले हाथों या दूषित पानी के ज़रिए"),
+              L("A germ that only spreads through the air", "గాలి ద్వారా మాత్రమే వ్యాపించే క్రిమి", "காற்றின் மூலம் மட்டும் பரவும் ஒரு கிருமி", "ಗಾಳಿಯ ಮೂಲಕ ಮಾತ್ರ ಹರಡುವ ಸೂಕ್ಷ್ಮಾಣು", "एक ऐसा कीटाणु जो केवल हवा से फैलता है"),
+              L("A type of vaccine given to calves", "దూడలకు ఇచ్చే ఒక రకమైన వ్యాక్సిన్", "கன்றுகளுக்கு கொடுக்கப்படும் ஒரு வகை தடுப்பூசி", "ಕರುಗಳಿಗೆ ನೀಡುವ ಒಂದು ರೀತಿಯ ಲಸಿಕೆ", "बछड़ों को दिया जाने वाला एक प्रकार का टीका"),
+              L("A way of checking an animal's temperature", "జంతువు ఉష్ణోగ్రతను తనిఖీ చేసే ఒక మార్గం", "ஒரு விலங்கின் வெப்பநிலையை சரிபார்க்கும் ஒரு வழி", "ಪ್ರಾಣಿಯ ಉಷ್ಣತೆಯನ್ನು ಪರಿಶೀಲಿಸುವ ಒಂದು ವಿಧಾನ", "किसी जानवर का तापमान जाँचने का एक तरीका"),
             ],
             answer: 0,
-            explain: L("The faecal-oral route means traces of dung reach a person's mouth, usually through unwashed hands, contaminated water, or food."),
+            explain: L("The faecal-oral route means traces of dung reach a person's mouth, usually through unwashed hands, contaminated water, or food.", "మల-నోటి మార్గం అంటే పేడ జాడలు వ్యక్తి నోటికి చేరడం, సాధారణంగా కడగని చేతులు, కలుషితమైన నీరు, లేదా ఆహారం ద్వారా.", "மல-வாய் பாதை என்றால் சாணத்தின் தடயங்கள் ஒரு நபரின் வாயை அடைவது, பொதுவாக கழுவப்படாத கைகள், கறைபடிந்த தண்ணீர், அல்லது உணவு மூலம்.", "ಮಲ-ಬಾಯಿ ಮಾರ್ಗ ಎಂದರೆ ಸಗಣಿಯ ಕುರುಹುಗಳು ವ್ಯಕ್ತಿಯ ಬಾಯಿಯನ್ನು ತಲುಪುವುದು, ಸಾಮಾನ್ಯವಾಗಿ ತೊಳೆಯದ ಕೈಗಳು, ಕಲುಷಿತ ನೀರು, ಅಥವಾ ಆಹಾರದ ಮೂಲಕ.", "मल-मुख मार्ग का मतलब है गोबर के अंश किसी व्यक्ति के मुँह तक पहुँचना, आमतौर पर बिना धुले हाथों, दूषित पानी, या भोजन के ज़रिए।"),
           },
           {
             type: "truefalse",
-            q: L("Young children, malnourished people, and pregnant women are usually more susceptible to gastro-intestinal zoonotic diseases."),
+            q: L("Young children, malnourished people, and pregnant women are usually more susceptible to gastro-intestinal zoonotic diseases.", "చిన్న పిల్లలు, పోషకాహార లోపం ఉన్నవారు, మరియు గర్భిణీ స్త్రీలు సాధారణంగా జఠర-ప్రేగు జూనోటిక్ వ్యాధులకు ఎక్కువ గురయ్యే అవకాశం ఉంటుంది.", "சிறு குழந்தைகள், ஊட்டச்சத்து குறைபாடு உள்ளவர்கள், மற்றும் கர்ப்பிணிப் பெண்கள் பொதுவாக இரைப்பை-குடல் விலங்கு-மனித நோய்களுக்கு அதிகம் ஆளாகக்கூடியவர்கள்.", "ಚಿಕ್ಕ ಮಕ್ಕಳು, ಅಪೌಷ್ಟಿಕತೆ ಇರುವ ಜನರು, ಮತ್ತು ಗರ್ಭಿಣಿಯರು ಸಾಮಾನ್ಯವಾಗಿ ಜಠರ-ಕರುಳಿನ ಝೂನೋಟಿಕ್ ರೋಗಗಳಿಗೆ ಹೆಚ್ಚು ಒಳಗಾಗುತ್ತಾರೆ.", "छोटे बच्चे, कुपोषित लोग, और गर्भवती महिलाएँ आमतौर पर आंत्र-संबंधी ज़ूनोटिक रोगों के प्रति ज़्यादा संवेदनशील होती हैं।"),
             answer: true,
-            explain: L("Correct — these groups are more vulnerable, so extra care with hygiene matters even more when they are around cattle or cattle waste."),
+            explain: L("Correct — these groups are more vulnerable, so extra care with hygiene matters even more when they are around cattle or cattle waste.", "సరైనది — ఈ సమూహాలు ఎక్కువ దుర్బలత్వం కలిగి ఉంటాయి, కాబట్టి అవి పశువులు లేదా పశు వ్యర్థాల చుట్టూ ఉన్నప్పుడు పరిశుభ్రతతో అదనపు జాగ్రత్త మరింత ముఖ్యం.", "சரியானது — இந்த குழுக்கள் அதிக பாதிப்புக்குள்ளாகக்கூடியவை, எனவே அவர்கள் மாடுகள் அல்லது மாட்டு கழிவுகளைச் சுற்றி இருக்கும்போது சுகாதாரத்துடன் கூடுதல் கவனம் இன்னும் முக்கியமாகிறது.", "ಸರಿ — ಈ ಗುಂಪುಗಳು ಹೆಚ್ಚು ದುರ್ಬಲವಾಗಿವೆ, ಆದ್ದರಿಂದ ಅವರು ಜಾನುವಾರುಗಳ ಅಥವಾ ಜಾನುವಾರು ತ್ಯಾಜ್ಯದ ಸುತ್ತಮುತ್ತ ಇರುವಾಗ ನೈರ್ಮಲ್ಯದ ಬಗ್ಗೆ ಹೆಚ್ಚುವರಿ ಕಾಳಜಿ ಇನ್ನಷ್ಟು ಮುಖ್ಯವಾಗುತ್ತದೆ.", "सही — ये समूह ज़्यादा संवेदनशील होते हैं, इसलिए जब वे पशुओं या पशु अपशिष्ट के आसपास हों तो स्वच्छता का अतिरिक्त ध्यान रखना और भी महत्वपूर्ण हो जाता है।"),
           },
         ],
       },
       {
         id: "t-m11-tick-borne",
-        title: L("Tick-Borne Zoonotic Diseases and Protecting Yourself"),
+        title: L("Tick-Borne Zoonotic Diseases and Protecting Yourself", "పేనుల ద్వారా వ్యాపించే జూనోటిక్ వ్యాధులు మరియు మిమ్మల్ని మీరు రక్షించుకోవడం", "ஈறு மூலம் பரவும் விலங்கு-மனித நோய்கள் மற்றும் உங்களைப் பாதுகாத்துக் கொள்ளுதல்", "ಉಣ್ಣಿಯಿಂದ ಹರಡುವ ಝೂನೋಟಿಕ್ ರೋಗಗಳು ಮತ್ತು ನಿಮ್ಮನ್ನು ರಕ್ಷಿಸಿಕೊಳ್ಳುವುದು", "किलनी से फैलने वाले ज़ूनोटिक रोग और खुद को सुरक्षित रखना"),
         teach: [
             {
               type: "photo",
               src: "assets/photo-m11-tick-specimen.jpg",
-              alt: L("Close-up photograph of two cattle ticks (Rhipicephalus microplus), female (left) and male (right), on a plain background"),
-              caption: L("Ticks like these attach to cattle skin to feed on blood and can carry the germs behind tick-borne zoonotic diseases."),
+              alt: L("Close-up photograph of two cattle ticks (Rhipicephalus microplus), female (left) and male (right), on a plain background", "రెండు పశువుల పేనుల (రిపిసెఫలస్ మైక్రోప్లస్), ఆడ (ఎడమ) మరియు మగ (కుడి) యొక్క క్లోజప్ ఫోటో, సాదా నేపథ్యంలో", "இரண்டு மாட்டு ஈறுகளின் (ரிபிசெபாலஸ் மைக்ரோபிளஸ்), பெண் (இடது) மற்றும் ஆண் (வலது) நெருக்கமான புகைப்படம், வெற்று பின்னணியில்", "ಎರಡು ಜಾನುವಾರು ಉಣ್ಣಿಗಳ (ರಿಪಿಸೆಫಲಸ್ ಮೈಕ್ರೋಪ್ಲಸ್), ಹೆಣ್ಣು (ಎಡ) ಮತ್ತು ಗಂಡು (ಬಲ) ಸಮೀಪ ಛಾಯಾಚಿತ್ರ, ಸರಳ ಹಿನ್ನೆಲೆಯಲ್ಲಿ", "दो पशु किलनियों (रिपिसेफलस माइक्रोप्लस), मादा (बाएं) और नर (दाएं) की सादे पृष्ठभूमि पर क्लोज़-अप तस्वीर"),
+              caption: L("Ticks like these attach to cattle skin to feed on blood and can carry the germs behind tick-borne zoonotic diseases.", "ఇలాంటి పేనులు రక్తాన్ని తినడానికి పశువుల చర్మానికి అతుక్కుంటాయి మరియు పేనుల ద్వారా వ్యాపించే జూనోటిక్ వ్యాధులకు కారణమయ్యే క్రిములను మోసుకెళ్లగలవు.", "இது போன்ற ஈறுகள் இரத்தத்தை உண்ண மாட்டு தோலில் ஒட்டிக்கொள்கின்றன மற்றும் ஈறு மூலம் பரவும் விலங்கு-மனித நோய்களுக்குப் பின்னால் உள்ள கிருமிகளை சுமக்கக்கூடும்.", "ಇಂತಹ ಉಣ್ಣಿಗಳು ರಕ್ತ ಹೀರಲು ಜಾನುವಾರು ಚರ್ಮಕ್ಕೆ ಅಂಟಿಕೊಳ್ಳುತ್ತವೆ ಮತ್ತು ಉಣ್ಣಿಯಿಂದ ಹರಡುವ ಝೂನೋಟಿಕ್ ರೋಗಗಳ ಹಿಂದಿನ ಸೂಕ್ಷ್ಮಾಣುಗಳನ್ನು ಹೊತ್ತೊಯ್ಯಬಹುದು.", "इस तरह की किलनियाँ खून चूसने के लिए पशु की त्वचा से चिपक जाती हैं और किलनी-जनित ज़ूनोटिक रोगों के पीछे के कीटाणुओं को ढो सकती हैं।"),
             },
           {
             type: "text",
-            heading: L("What Are Tick-Borne Zoonotic Diseases?"),
+            heading: L("What Are Tick-Borne Zoonotic Diseases?", "పేనుల ద్వారా వ్యాపించే జూనోటిక్ వ్యాధులు అంటే ఏమిటి?", "ஈறு மூலம் பரவும் விலங்கு-மனித நோய்கள் என்றால் என்ன?", "ಉಣ್ಣಿಯಿಂದ ಹರಡುವ ಝೂನೋಟಿಕ್ ರೋಗಗಳು ಎಂದರೇನು?", "किलनी से फैलने वाले ज़ूनोटिक रोग क्या हैं?"),
             html: L(
-              "A <b>tick</b> is a tiny parasite that attaches to an animal's skin and feeds on its blood. Ticks can carry germs from one animal (or person) to another. Tick-borne zoonotic infections have been reported from various regions of the country. Examples include <b>Babesiosis</b>, <b>Rickettsial infections</b>, and <b>Crimean Congo Haemorrhagic Fever (CCHF)</b>."
+              "A <b>tick</b> is a tiny parasite that attaches to an animal's skin and feeds on its blood. Ticks can carry germs from one animal (or person) to another. Tick-borne zoonotic infections have been reported from various regions of the country. Examples include <b>Babesiosis</b>, <b>Rickettsial infections</b>, and <b>Crimean Congo Haemorrhagic Fever (CCHF)</b>.",
+              "<b>పేను</b> అనేది జంతువు చర్మానికి అతుక్కుని దాని రక్తాన్ని తినే ఒక చిన్న పరాన్నజీవి. పేనులు ఒక జంతువు (లేదా వ్యక్తి) నుండి మరొకదానికి క్రిములను మోసుకెళ్లగలవు. దేశంలోని వివిధ ప్రాంతాల నుండి పేనుల ద్వారా వ్యాపించే జూనోటిక్ సంక్రమణలు నివేదించబడ్డాయి. ఉదాహరణలలో <b>బాబెసియోసిస్</b>, <b>రికెట్సియల్ సంక్రమణలు</b>, మరియు <b>క్రిమియన్ కాంగో హెమరేజిక్ ఫీవర్ (CCHF)</b> ఉన్నాయి.",
+              "<b>ஈறு</b> என்பது ஒரு விலங்கின் தோலில் ஒட்டிக்கொண்டு அதன் இரத்தத்தை உண்ணும் ஒரு சிறிய ஒட்டுண்ணி. ஈறுகள் ஒரு விலங்கிலிருந்து (அல்லது நபரிடமிருந்து) மற்றொன்றுக்கு கிருமிகளை சுமக்கக்கூடும். நாட்டின் பல்வேறு பகுதிகளில் ஈறு மூலம் பரவும் விலங்கு-மனித தொற்றுகள் பதிவாகியுள்ளன. உதாரணங்களில் <b>பேபீசியோசிஸ்</b>, <b>ரிக்கெட்சியல் தொற்றுகள்</b>, மற்றும் <b>கிரிமியன் காங்கோ ரத்தக்கசிவு காய்ச்சல் (CCHF)</b> அடங்கும்.",
+              "<b>ಉಣ್ಣಿ</b> ಎಂದರೆ ಪ್ರಾಣಿಯ ಚರ್ಮಕ್ಕೆ ಅಂಟಿಕೊಂಡು ಅದರ ರಕ್ತವನ್ನು ಹೀರುವ ಒಂದು ಚಿಕ್ಕ ಪರಾವಲಂಬಿ. ಉಣ್ಣಿಗಳು ಒಂದು ಪ್ರಾಣಿಯಿಂದ (ಅಥವಾ ವ್ಯಕ್ತಿಯಿಂದ) ಇನ್ನೊಂದಕ್ಕೆ ಸೂಕ್ಷ್ಮಾಣುಗಳನ್ನು ಹೊತ್ತೊಯ್ಯಬಹುದು. ದೇಶದ ವಿವಿಧ ಪ್ರದೇಶಗಳಿಂದ ಉಣ್ಣಿಯಿಂದ ಹರಡುವ ಝೂನೋಟಿಕ್ ಸೋಂಕುಗಳು ವರದಿಯಾಗಿವೆ. ಉದಾಹರಣೆಗಳಲ್ಲಿ <b>ಬ್ಯಾಬಿಸಿಯೋಸಿಸ್</b>, <b>ರಿಕೆಟ್ಸಿಯಲ್ ಸೋಂಕುಗಳು</b>, ಮತ್ತು <b>ಕ್ರಿಮಿಯನ್ ಕಾಂಗೋ ಹೆಮರೇಜಿಕ್ ಜ್ವರ (CCHF)</b> ಸೇರಿವೆ.",
+              "<b>किलनी</b> एक छोटा परजीवी है जो किसी जानवर की त्वचा से चिपक जाता है और उसका खून पीता है। किलनियाँ एक जानवर (या व्यक्ति) से दूसरे में कीटाणु ले जा सकती हैं। देश के विभिन्न क्षेत्रों से किलनी-जनित ज़ूनोटिक संक्रमण दर्ज किए गए हैं। उदाहरणों में <b>बेबीसियोसिस</b>, <b>रिकेट्सियल संक्रमण</b>, और <b>क्रीमियन कांगो रक्तस्रावी बुखार (CCHF)</b> शामिल हैं।"
             ),
           },
           {
             type: "glossary",
-            term: L("Tick"),
-            meaning: L("A small, blood-feeding parasite that attaches itself to an animal's skin. Besides feeding, a tick can carry disease-causing germs from one host to another."),
+            term: L("Tick", "పేను", "ஈறு", "ಉಣ್ಣಿ", "किलनी"),
+            meaning: L("A small, blood-feeding parasite that attaches itself to an animal's skin. Besides feeding, a tick can carry disease-causing germs from one host to another.", "జంతువు చర్మానికి అతుక్కునే చిన్న, రక్తాన్ని తినే పరాన్నజీవి. తినడమే కాకుండా, పేను ఒక ఆశ్రయం నుండి మరొకదానికి వ్యాధి కలిగించే క్రిములను మోసుకెళ్లగలదు.", "ஒரு விலங்கின் தோலில் ஒட்டிக்கொள்ளும் சிறிய, இரத்தம் உண்ணும் ஒட்டுண்ணி. உணவை உண்பதைத் தவிர, ஒரு ஈறு ஒரு புரவலரிலிருந்து மற்றொருவருக்கு நோய்-ஏற்படுத்தும் கிருமிகளை சுமக்கக்கூடும்.", "ಪ್ರಾಣಿಯ ಚರ್ಮಕ್ಕೆ ಅಂಟಿಕೊಳ್ಳುವ ಚಿಕ್ಕ, ರಕ್ತ-ಹೀರುವ ಪರಾವಲಂಬಿ. ತಿನ್ನುವುದರ ಹೊರತಾಗಿ, ಉಣ್ಣಿ ಒಂದು ಆಶ್ರಯದಾತನಿಂದ ಇನ್ನೊಂದಕ್ಕೆ ರೋಗ-ಉಂಟುಮಾಡುವ ಸೂಕ್ಷ್ಮಾಣುಗಳನ್ನು ಹೊತ್ತೊಯ್ಯಬಹುದು.", "एक छोटा, खून चूसने वाला परजीवी जो किसी जानवर की त्वचा से खुद को चिपका लेता है। खून चूसने के अलावा, किलनी एक मेज़बान से दूसरे में रोग पैदा करने वाले कीटाणु ले जा सकती है।"),
           },
           {
             type: "callout",
             style: "warning",
-            heading: L("Hard to Spot"),
+            heading: L("Hard to Spot", "గుర్తించడం కష్టం", "கண்டறிவது கடினம்", "ಗುರುತಿಸಲು ಕಷ್ಟ", "पहचानना मुश्किल"),
             text: L(
-              "Tick-borne infections can be difficult to diagnose because their signs and symptoms are non-specific — meaning they can look similar to many other common illnesses. The risk is real wherever people live and work in close proximity to cattle carrying moderate to high numbers of ticks."
+              "Tick-borne infections can be difficult to diagnose because their signs and symptoms are non-specific — meaning they can look similar to many other common illnesses. The risk is real wherever people live and work in close proximity to cattle carrying moderate to high numbers of ticks.",
+              "పేనుల ద్వారా వ్యాపించే సంక్రమణలను నిర్ధారించడం కష్టంగా ఉంటుంది ఎందుకంటే వాటి సంకేతాలు మరియు లక్షణాలు నిర్దిష్టం కాదు — అంటే అవి అనేక ఇతర సాధారణ అనారోగ్యాల మాదిరిగానే కనిపించవచ్చు. మధ్యస్థం నుండి అధిక సంఖ్యలో పేనులు ఉన్న పశువులతో దగ్గరగా ప్రజలు నివసించి పనిచేసే ప్రతిచోటా ఈ ప్రమాదం నిజమైనది.",
+              "ஈறு மூலம் பரவும் தொற்றுகள் கண்டறிவது கடினமாக இருக்கலாம் ஏனெனில் அவற்றின் அறிகுறிகள் குறிப்பிட்டவை அல்ல — அதாவது அவை பல பிற பொதுவான நோய்களைப் போலவே தோன்றலாம். மிதமான முதல் அதிக எண்ணிக்கையிலான ஈறுகளைச் சுமக்கும் மாடுகளுக்கு நெருக்கமாக மக்கள் வாழ்ந்து வேலை செய்யும் எல்லா இடங்களிலும் இந்த ஆபத்து உண்மையானது.",
+              "ಉಣ್ಣಿಯಿಂದ ಹರಡುವ ಸೋಂಕುಗಳನ್ನು ಪತ್ತೆ ಮಾಡುವುದು ಕಷ್ಟವಾಗಬಹುದು ಏಕೆಂದರೆ ಅವುಗಳ ಚಿಹ್ನೆಗಳು ಮತ್ತು ಲಕ್ಷಣಗಳು ನಿರ್ದಿಷ್ಟವಲ್ಲ — ಅಂದರೆ ಅವು ಅನೇಕ ಇತರ ಸಾಮಾನ್ಯ ಕಾಯಿಲೆಗಳಂತೆ ಕಾಣಿಸಬಹುದು. ಮಧ್ಯಮದಿಂದ ಹೆಚ್ಚಿನ ಸಂಖ್ಯೆಯ ಉಣ್ಣಿಗಳನ್ನು ಹೊತ್ತಿರುವ ಜಾನುವಾರುಗಳ ಸಮೀಪದಲ್ಲಿ ಜನರು ವಾಸಿಸಿ ಕೆಲಸ ಮಾಡುವ ಎಲ್ಲೆಡೆ ಅಪಾಯ ನಿಜವಾಗಿದೆ.",
+              "किलनी-जनित संक्रमणों का निदान करना मुश्किल हो सकता है क्योंकि उनके लक्षण अस्पष्ट होते हैं — मतलब वे कई अन्य सामान्य बीमारियों जैसे दिख सकते हैं। जहाँ कहीं भी लोग मध्यम से उच्च संख्या में किलनी वाले पशुओं के नज़दीक रहते और काम करते हैं, वहाँ यह खतरा वास्तविक है।"
             ),
           },
           {
             type: "stat-grid",
             items: [
-              { label: L("Babesiosis"), text: L("One of the tick-borne infections reported in areas where people live close to cattle.") },
-              { label: L("Rickettsial infections"), text: L("Another group of tick-borne infections reported in the country.") },
-              { label: L("Crimean Congo Haemorrhagic Fever (CCHF)"), text: L("A more serious tick-borne infection also seen in some regions.") },
+              { label: L("Babesiosis", "బాబెసియోసిస్", "பேபீசியோசிஸ்", "ಬ್ಯಾಬಿಸಿಯೋಸಿಸ್", "बेबीसियोसिस"), text: L("One of the tick-borne infections reported in areas where people live close to cattle.", "ప్రజలు పశువులకు దగ్గరగా నివసించే ప్రాంతాలలో నివేదించబడిన పేనుల ద్వారా వ్యాపించే సంక్రమణలలో ఒకటి.", "மக்கள் மாடுகளுக்கு அருகில் வாழும் பகுதிகளில் பதிவாகியுள்ள ஈறு மூலம் பரவும் தொற்றுகளில் ஒன்று.", "ಜನರು ಜಾನುವಾರುಗಳ ಸಮೀಪ ವಾಸಿಸುವ ಪ್ರದೇಶಗಳಲ್ಲಿ ವರದಿಯಾದ ಉಣ್ಣಿಯಿಂದ ಹರಡುವ ಸೋಂಕುಗಳಲ್ಲಿ ಒಂದು.", "उन क्षेत्रों में दर्ज की गई किलनी-जनित संक्रमणों में से एक जहाँ लोग पशुओं के नज़दीक रहते हैं।") },
+              { label: L("Rickettsial infections", "రికెట్సియల్ సంక్రమణలు", "ரிக்கெட்சியல் தொற்றுகள்", "ರಿಕೆಟ್ಸಿಯಲ್ ಸೋಂಕುಗಳು", "रिकेट्सियल संक्रमण"), text: L("Another group of tick-borne infections reported in the country.", "దేశంలో నివేదించబడిన పేనుల ద్వారా వ్యాపించే సంక్రమణల మరొక సమూహం.", "நாட்டில் பதிவாகியுள்ள ஈறு மூலம் பரவும் தொற்றுகளின் மற்றொரு குழு.", "ದೇಶದಲ್ಲಿ ವರದಿಯಾದ ಉಣ್ಣಿಯಿಂದ ಹರಡುವ ಸೋಂಕುಗಳ ಇನ್ನೊಂದು ಗುಂಪು.", "देश में दर्ज की गई किलनी-जनित संक्रमणों का एक और समूह।") },
+              { label: L("Crimean Congo Haemorrhagic Fever (CCHF)", "క్రిమియన్ కాంగో హెమరేజిక్ ఫీవర్ (CCHF)", "கிரிமியன் காங்கோ ரத்தக்கசிவு காய்ச்சல் (CCHF)", "ಕ್ರಿಮಿಯನ್ ಕಾಂಗೋ ಹೆಮರೇಜಿಕ್ ಜ್ವರ (CCHF)", "क्रीमियन कांगो रक्तस्रावी बुखार (CCHF)"), text: L("A more serious tick-borne infection also seen in some regions.", "కొన్ని ప్రాంతాలలో కూడా కనిపించే మరింత తీవ్రమైన పేనుల ద్వారా వ్యాపించే సంక్రమణ.", "சில பகுதிகளிலும் காணப்படும் இன்னும் தீவிரமான ஈறு மூலம் பரவும் தொற்று.", "ಕೆಲವು ಪ್ರದೇಶಗಳಲ್ಲಿಯೂ ಕಂಡುಬರುವ ಹೆಚ್ಚು ಗಂಭೀರವಾದ ಉಣ್ಣಿಯಿಂದ ಹರಡುವ ಸೋಂಕು.", "कुछ क्षेत्रों में भी देखा जाने वाला एक अधिक गंभीर किलनी-जनित संक्रमण।") },
             ],
           },
           {
             type: "callout",
             style: "tip",
-            heading: L("How to Protect Yourself From Ticks"),
+            heading: L("How to Protect Yourself From Ticks", "పేనుల నుండి మిమ్మల్ని మీరు ఎలా రక్షించుకోవాలి", "ஈறுகளிலிருந்து உங்களை எவ்வாறு பாதுகாத்துக் கொள்வது", "ಉಣ್ಣಿಗಳಿಂದ ನಿಮ್ಮನ್ನು ಹೇಗೆ ರಕ್ಷಿಸಿಕೊಳ್ಳುವುದು", "किलनियों से खुद को कैसे सुरक्षित रखें"),
             text: L(
-              "Try to keep the number of ticks on your cattle and in their sheds as low as possible. After handling animals with moderate to high tick loads, check your own skin and clothing for ticks, and remove any you find carefully. Wash your hands and any exposed skin afterward. If you develop an unexplained fever after close contact with a heavily tick-infested animal, tell your doctor about that contact."
+              "Try to keep the number of ticks on your cattle and in their sheds as low as possible. After handling animals with moderate to high tick loads, check your own skin and clothing for ticks, and remove any you find carefully. Wash your hands and any exposed skin afterward. If you develop an unexplained fever after close contact with a heavily tick-infested animal, tell your doctor about that contact.",
+              "మీ పశువులపై మరియు వాటి షెడ్లలో పేనుల సంఖ్యను వీలైనంత తక్కువగా ఉంచడానికి ప్రయత్నించండి. మధ్యస్థం నుండి అధిక పేనుల భారం ఉన్న జంతువులను నిర్వహించిన తర్వాత, మీ స్వంత చర్మం మరియు దుస్తులను పేనుల కోసం తనిఖీ చేయండి, మరియు మీకు కనిపించిన వాటిని జాగ్రత్తగా తొలగించండి. తర్వాత మీ చేతులు మరియు బహిర్గతమైన చర్మాన్ని కడుక్కోండి. అధికంగా పేనుల బారిన పడిన జంతువుతో దగ్గరి సంబంధం తర్వాత మీకు వివరించలేని జ్వరం వస్తే, ఆ సంబంధం గురించి మీ వైద్యుడికి చెప్పండి.",
+              "உங்கள் மாடுகளிலும் அவற்றின் கொட்டகைகளிலும் உள்ள ஈறுகளின் எண்ணிக்கையை முடிந்தவரை குறைவாக வைத்திருக்க முயற்சிக்கவும். மிதமான முதல் அதிக ஈறு சுமை உள்ள விலங்குகளை கையாண்ட பிறகு, உங்கள் சொந்த தோல் மற்றும் ஆடைகளில் ஈறுகள் உள்ளதா என சரிபார்த்து, நீங்கள் கண்டவற்றை கவனமாக அகற்றவும். பின்னர் உங்கள் கைகளையும் வெளிப்பட்ட தோலையும் கழுவுங்கள். அதிக ஈறு தொற்று உள்ள ஒரு விலங்குடன் நெருங்கிய தொடர்புக்குப் பிறகு விளக்கமுடியாத காய்ச்சல் ஏற்பட்டால், அந்த தொடர்பைப் பற்றி உங்கள் மருத்துவரிடம் தெரிவிக்கவும்.",
+              "ನಿಮ್ಮ ಜಾನುವಾರುಗಳ ಮೇಲೆ ಮತ್ತು ಅವುಗಳ ಶೆಡ್‌ಗಳಲ್ಲಿ ಉಣ್ಣಿಗಳ ಸಂಖ್ಯೆಯನ್ನು ಸಾಧ್ಯವಾದಷ್ಟು ಕಡಿಮೆ ಇಡಲು ಪ್ರಯತ್ನಿಸಿ. ಮಧ್ಯಮದಿಂದ ಹೆಚ್ಚಿನ ಉಣ್ಣಿ ಹೊರೆ ಇರುವ ಪ್ರಾಣಿಗಳನ್ನು ನಿರ್ವಹಿಸಿದ ನಂತರ, ನಿಮ್ಮ ಸ್ವಂತ ಚರ್ಮ ಮತ್ತು ಬಟ್ಟೆಗಳಲ್ಲಿ ಉಣ್ಣಿಗಳಿಗಾಗಿ ಪರಿಶೀಲಿಸಿ, ಮತ್ತು ನೀವು ಕಂಡುಕೊಂಡವುಗಳನ್ನು ಎಚ್ಚರಿಕೆಯಿಂದ ತೆಗೆದುಹಾಕಿ. ನಂತರ ನಿಮ್ಮ ಕೈಗಳನ್ನು ಮತ್ತು ಒಡ್ಡಿಕೊಂಡ ಚರ್ಮವನ್ನು ತೊಳೆಯಿರಿ. ಭಾರೀ ಉಣ್ಣಿ-ಬಾಧಿತ ಪ್ರಾಣಿಯೊಂದಿಗೆ ನಿಕಟ ಸಂಪರ್ಕದ ನಂತರ ನಿಮಗೆ ವಿವರಿಸಲಾಗದ ಜ್ವರ ಬಂದರೆ, ಆ ಸಂಪರ್ಕದ ಬಗ್ಗೆ ನಿಮ್ಮ ವೈದ್ಯರಿಗೆ ತಿಳಿಸಿ.",
+              "अपने पशुओं और उनके शेड में किलनियों की संख्या को जितना हो सके कम रखने की कोशिश करें। मध्यम से उच्च किलनी भार वाले जानवरों को संभालने के बाद, अपनी त्वचा और कपड़ों की किलनियों के लिए जाँच करें, और जो भी मिले उन्हें सावधानी से हटाएं। इसके बाद अपने हाथों और किसी भी खुली त्वचा को धो लें। अगर किलनी से भारी संक्रमित जानवर के नज़दीकी संपर्क के बाद आपको बिना किसी कारण बुखार हो जाए, तो अपने डॉक्टर को उस संपर्क के बारे में बताएं।"
             ),
           },
           {
             type: "callout",
             style: "info",
-            heading: L("The Same Rule as Always"),
+            heading: L("The Same Rule as Always", "ఎప్పటిలానే అదే నియమం", "எப்போதும் போலவே அதே விதி", "ಯಾವಾಗಲೂ ಇರುವ ಅದೇ ನಿಯಮ", "हमेशा की तरह वही नियम"),
             text: L(
-              "Just as you notice something wrong in an animal and report it rather than guessing what disease it is, do the same for yourself: notice anything unusual in your own health, mention your daily animal contact to a doctor, and get it checked promptly. Zoonotic diseases can be cured if diagnosed and treated in time."
+              "Just as you notice something wrong in an animal and report it rather than guessing what disease it is, do the same for yourself: notice anything unusual in your own health, mention your daily animal contact to a doctor, and get it checked promptly. Zoonotic diseases can be cured if diagnosed and treated in time.",
+              "జంతువులో ఏదో తప్పు జరిగిందని మీరు గమనించి, ఏ వ్యాధి అని ఊహించకుండా దానిని నివేదించినట్లుగానే, మీ కోసం కూడా అదే చేయండి: మీ స్వంత ఆరోగ్యంలో అసాధారణమైనది ఏదైనా గమనించండి, మీ రోజువారీ జంతు సంబంధాన్ని వైద్యుడికి తెలియజేయండి, మరియు వెంటనే తనిఖీ చేయించుకోండి. జూనోటిక్ వ్యాధులను సకాలంలో నిర్ధారించి చికిత్స చేస్తే నయం చేయవచ్చు.",
+              "ஒரு விலங்கில் ஏதோ தவறு இருப்பதை நீங்கள் கவனித்து, என்ன நோய் என்று யூகிக்காமல் அதைத் தெரிவிப்பது போலவே, உங்களுக்காகவும் அதையே செய்யுங்கள்: உங்கள் சொந்த ஆரோக்கியத்தில் அசாதாரணமான எதையும் கவனித்து, உங்கள் அன்றாட விலங்கு தொடர்பை ஒரு மருத்துவரிடம் தெரிவித்து, உடனடியாக பரிசோதிக்கவும். விலங்கு-மனித நோய்களை சரியான நேரத்தில் கண்டறிந்து சிகிச்சை அளித்தால் குணப்படுத்த முடியும்.",
+              "ಒಂದು ಪ್ರಾಣಿಯಲ್ಲಿ ಏನೋ ತಪ್ಪಾಗಿದೆ ಎಂದು ನೀವು ಗಮನಿಸಿ, ಅದು ಯಾವ ರೋಗ ಎಂದು ಊಹಿಸದೆ ವರದಿ ಮಾಡುವಂತೆಯೇ, ನಿಮಗಾಗಿಯೂ ಅದನ್ನೇ ಮಾಡಿ: ನಿಮ್ಮ ಸ್ವಂತ ಆರೋಗ್ಯದಲ್ಲಿ ಅಸಾಮಾನ್ಯವಾದುದನ್ನು ಗಮನಿಸಿ, ನಿಮ್ಮ ದೈನಂದಿನ ಪ್ರಾಣಿ ಸಂಪರ್ಕವನ್ನು ವೈದ್ಯರಿಗೆ ತಿಳಿಸಿ, ಮತ್ತು ತಕ್ಷಣ ಪರೀಕ್ಷಿಸಿಕೊಳ್ಳಿ. ಝೂನೋಟಿಕ್ ರೋಗಗಳನ್ನು ಸಮಯಕ್ಕೆ ಪತ್ತೆ ಮಾಡಿ ಚಿಕಿತ್ಸೆ ನೀಡಿದರೆ ಗುಣಪಡಿಸಬಹುದು.",
+              "जैसे आप किसी जानवर में कुछ गलत देखते हैं और यह अनुमान लगाए बिना कि यह कौन सी बीमारी है, उसकी सूचना देते हैं, वैसे ही खुद के लिए भी करें: अपने स्वास्थ्य में कुछ भी असामान्य नज़र आए तो उसे नोटिस करें, डॉक्टर को अपने रोज़ाना जानवरों के संपर्क के बारे में बताएं, और तुरंत जाँच कराएं। ज़ूनोटिक रोगों का समय पर निदान और इलाज किया जाए तो उन्हें ठीक किया जा सकता है।"
             ),
           },
         ],
         check: [
           {
             type: "mcq",
-            q: L("Why can tick-borne zoonotic infections be hard to diagnose?"),
+            q: L("Why can tick-borne zoonotic infections be hard to diagnose?", "పేనుల ద్వారా వ్యాపించే జూనోటిక్ సంక్రమణలను నిర్ధారించడం ఎందుకు కష్టంగా ఉంటుంది?", "ஈறு மூலம் பரவும் விலங்கு-மனித தொற்றுகள் கண்டறிவது ஏன் கடினமாக இருக்கலாம்?", "ಉಣ್ಣಿಯಿಂದ ಹರಡುವ ಝೂನೋಟಿಕ್ ಸೋಂಕುಗಳನ್ನು ಪತ್ತೆ ಮಾಡುವುದು ಏಕೆ ಕಷ್ಟ?", "किलनी-जनित ज़ूनोटिक संक्रमणों का निदान करना मुश्किल क्यों हो सकता है?"),
             options: [
               L("Because ticks are too small to see at all"),
               L("Because their signs and symptoms are non-specific, similar to many other common illnesses"),
