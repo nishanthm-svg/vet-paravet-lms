@@ -15983,63 +15983,143 @@ export const MODULES = [
       },
       {
         id: "t-m17-ear-tag-system",
-        title: L("The Ear Tag Number and Who Manages It"),
+        title: L(
+          "The Ear Tag Number and Who Manages It",
+          "చెవి టాగ్ నంబర్ మరియు దాన్ని ఎవరు నిర్వహిస్తారు",
+          "காது டேக் எண்ணும் அதை யார் நிர்வகிக்கிறார்கள் என்பதும்",
+          "ಕಿವಿ ಟ್ಯಾಗ್ ಸಂಖ್ಯೆ ಮತ್ತು ಅದನ್ನು ಯಾರು ನಿರ್ವಹಿಸುತ್ತಾರೆ",
+          "कान के टैग का नंबर और उसे कौन संभालता है"
+        ),
         teach: [
           {
             type: "text",
-            heading: L("One Number, Never Repeated"),
+            heading: L(
+              "One Number, Never Repeated",
+              "ఒకే సంఖ్య, ఎప్పుడూ పునరావృతం కాదు",
+              "ஒரே எண், ஒருபோதும் திரும்பாது",
+              "ಒಂದೇ ಸಂಖ್ಯೆ, ಎಂದಿಗೂ ಪುನರಾವರ್ತನೆ ಆಗುವುದಿಲ್ಲ",
+              "एक नंबर, कभी दोहराया नहीं जाता"
+            ),
             html: L(
-              "Each ear tag carries a <b>12-digit number</b>. This number is unique across the entire country — no two animals anywhere in India share the same ear tag number."
+              "Each ear tag carries a <b>12-digit number</b>. This number is unique across the entire country — no two animals anywhere in India share the same ear tag number.",
+              "ప్రతి చెవి టాగ్ మీద <b>12 అంకెల సంఖ్య</b> ఉంటుంది. ఈ సంఖ్య దేశం మొత్తంలో ప్రత్యేకమైనది — భారతదేశంలో ఎక్కడా రెండు జంతువులకు ఒకే చెవి టాగ్ సంఖ్య ఉండదు.",
+              "ஒவ்வொரு காது டேக்கிலும் <b>12 இலக்க எண்</b> இருக்கும். இந்த எண் நாடு முழுவதும் தனித்துவமானது — இந்தியாவில் எங்கும் இரண்டு விலங்குகளுக்கு ஒரே காது டேக் எண் இருக்காது.",
+              "ಪ್ರತಿ ಕಿವಿ ಟ್ಯಾಗ್‌ನಲ್ಲಿ <b>12 ಅಂಕಿಯ ಸಂಖ್ಯೆ</b> ಇರುತ್ತದೆ. ಈ ಸಂಖ್ಯೆ ಇಡೀ ದೇಶದಲ್ಲಿ ವಿಶಿಷ್ಟವಾದದ್ದು — ಭಾರತದಲ್ಲಿ ಎಲ್ಲೂ ಎರಡು ಪ್ರಾಣಿಗಳಿಗೆ ಒಂದೇ ಕಿವಿ ಟ್ಯಾಗ್ ಸಂಖ್ಯೆ ಇರುವುದಿಲ್ಲ.",
+              "हर कान के टैग पर एक <b>12 अंकों का नंबर</b> होता है। यह नंबर पूरे देश में अनोखा है — भारत में कहीं भी दो पशुओं का कान के टैग का नंबर एक जैसा नहीं होता।"
             ),
           },
           {
             type: "glossary",
-            term: L("NDDB (National Dairy Development Board)"),
+            term: L(
+              "NDDB (National Dairy Development Board)",
+              "NDDB (నేషనల్ డెయిరీ డెవలప్‌మెంట్ బోర్డ్)",
+              "NDDB (தேசிய பால்வள மேம்பாட்டு வாரியம்)",
+              "NDDB (ರಾಷ್ಟ್ರೀಯ ಡೈರಿ ಅಭಿವೃದ್ಧಿ ಮಂಡಳಿ)",
+              "NDDB (राष्ट्रीय डेयरी विकास बोर्ड)"
+            ),
             meaning: L(
-              "The organisation authorised by the Government of India (through DADF) to centrally manage the unique animal identification system for the whole country."
+              "The organisation authorised by the Government of India (through DADF) to centrally manage the unique animal identification system for the whole country.",
+              "దేశం మొత్తానికి ప్రత్యేక జంతు గుర్తింపు వ్యవస్థను కేంద్రీయంగా నిర్వహించడానికి భారత ప్రభుత్వం (DADF ద్వారా) అధికారం ఇచ్చిన సంస్థ.",
+              "நாடு முழுவதும் தனித்துவமான விலங்கு அடையாள அமைப்பை மையமாக நிர்வகிக்க இந்திய அரசு (DADF மூலம்) அங்கீகரித்த அமைப்பு.",
+              "ಇಡೀ ದೇಶದ ವಿಶಿಷ್ಟ ಪ್ರಾಣಿ ಗುರುತಿಸುವಿಕೆ ವ್ಯವಸ್ಥೆಯನ್ನು ಕೇಂದ್ರೀಯವಾಗಿ ನಿರ್ವಹಿಸಲು ಭಾರತ ಸರ್ಕಾರ (DADF ಮೂಲಕ) ಅಧಿಕಾರ ನೀಡಿದ ಸಂಸ್ಥೆ.",
+              "वह संस्था जिसे भारत सरकार ने (DADF के ज़रिए) पूरे देश की अनोखी पशु पहचान प्रणाली को केंद्रीय स्तर पर संभालने का अधिकार दिया है।"
             ),
           },
           {
             type: "text",
-            heading: L("From Tag Number to Animal Record"),
+            heading: L(
+              "From Tag Number to Animal Record",
+              "టాగ్ సంఖ్య నుంచి జంతువు రికార్డు వరకు",
+              "டேக் எண்ணிலிருந்து விலங்குப் பதிவு வரை",
+              "ಟ್ಯಾಗ್ ಸಂಖ್ಯೆಯಿಂದ ಪ್ರಾಣಿ ದಾಖಲೆಯವರೆಗೆ",
+              "टैग नंबर से पशु के रिकॉर्ड तक"
+            ),
             html: L(
-              "Once an animal has its ear tag, its number can be used to keep a permanent record for that animal — details such as its breed, age, whether it is pregnant, its milk yield, its owner, and its village name — almost like a passport, that stays with the animal for life."
+              "Once an animal has its ear tag, its number can be used to keep a permanent record for that animal — details such as its breed, age, whether it is pregnant, its milk yield, its owner, and its village name — almost like a passport, that stays with the animal for life.",
+              "జంతువుకు చెవి టాగ్ వేసిన తర్వాత, దాని సంఖ్యను ఆ జంతువుకు శాశ్వత రికార్డు ఉంచడానికి వాడవచ్చు — దాని జాతి, వయసు, గర్భంతో ఉందా లేదా, పాల దిగుబడి, యజమాని, గ్రామం పేరు వంటి వివరాలు — దాదాపు పాస్‌పోర్ట్ లాగా, జంతువుతో జీవితాంతం ఉంటుంది.",
+              "விலங்குக்குக் காது டேக் போட்ட பிறகு, அதன் எண்ணைக் கொண்டு அந்த விலங்குக்கு நிரந்தரப் பதிவை வைத்திருக்கலாம் — அதன் இனம், வயது, சினையாக உள்ளதா, பால் அளவு, உரிமையாளர், கிராமத்தின் பெயர் போன்ற விவரங்கள் — கிட்டத்தட்ட பாஸ்போர்ட் போல, விலங்குடன் வாழ்நாள் முழுவதும் இருக்கும்.",
+              "ಪ್ರಾಣಿಗೆ ಕಿವಿ ಟ್ಯಾಗ್ ಹಾಕಿದ ನಂತರ, ಅದರ ಸಂಖ್ಯೆಯನ್ನು ಆ ಪ್ರಾಣಿಯ ಶಾಶ್ವತ ದಾಖಲೆ ಇಡಲು ಬಳಸಬಹುದು — ಅದರ ತಳಿ, ವಯಸ್ಸು, ಗರ್ಭಿಣಿಯೇ ಅಲ್ಲವೇ, ಹಾಲಿನ ಇಳುವರಿ, ಮಾಲೀಕ, ಹಳ್ಳಿಯ ಹೆಸರು ಮುಂತಾದ ವಿವರಗಳು — ಬಹುತೇಕ ಪಾಸ್‌ಪೋರ್ಟ್‌ನಂತೆ, ಪ್ರಾಣಿಯ ಜೊತೆ ಜೀವನಪೂರ್ತಿ ಇರುತ್ತದೆ.",
+              "पशु के कान में टैग लग जाने के बाद उसके नंबर से उस पशु का स्थायी रिकॉर्ड रखा जा सकता है — जैसे उसकी नस्ल, उम्र, गाभिन है या नहीं, दूध की मात्रा, मालिक और गाँव का नाम — लगभग पासपोर्ट की तरह, जो पशु के साथ जीवन भर रहता है।"
             ),
           },
           {
             type: "example",
-            heading: L("How an Institution Gets Tag Numbers"),
+            heading: L(
+              "How an Institution Gets Tag Numbers",
+              "ఒక సంస్థ టాగ్ నంబర్లను ఎలా పొందుతుంది",
+              "ஒரு நிறுவனம் டேக் எண்களை எப்படிப் பெறுகிறது",
+              "ಒಂದು ಸಂಸ್ಥೆ ಟ್ಯಾಗ್ ಸಂಖ್ಯೆಗಳನ್ನು ಹೇಗೆ ಪಡೆಯುತ್ತದೆ",
+              "कोई संस्था टैग नंबर कैसे पाती है"
+            ),
             text: L(
-              "NDDB generates and delivers unique ear tag numbers to ear tag consumers, manufacturers, and other concerned institutions across the country. To receive ear tag numbers, an institution must apply to NDDB, along with a copy of its ear tag purchase order."
+              "NDDB generates and delivers unique ear tag numbers to ear tag consumers, manufacturers, and other concerned institutions across the country. To receive ear tag numbers, an institution must apply to NDDB, along with a copy of its ear tag purchase order.",
+              "NDDB ప్రత్యేకమైన చెవి టాగ్ సంఖ్యలను సృష్టించి, దేశవ్యాప్తంగా చెవి టాగ్ వినియోగదారులు, తయారీదారులు, ఇతర సంబంధిత సంస్థలకు అందజేస్తుంది. చెవి టాగ్ సంఖ్యలు పొందడానికి, ఒక సంస్థ తన చెవి టాగ్ కొనుగోలు ఆర్డర్ కాపీతో పాటు NDDBకి దరఖాస్తు చేయాలి.",
+              "NDDB தனித்துவமான காது டேக் எண்களை உருவாக்கி, நாடு முழுவதும் உள்ள காது டேக் பயன்படுத்துவோர், உற்பத்தியாளர்கள் மற்றும் பிற தொடர்புடைய நிறுவனங்களுக்கு வழங்குகிறது. காது டேக் எண்களைப் பெற, ஒரு நிறுவனம் தனது காது டேக் வாங்கும் ஆர்டரின் நகலுடன் NDDB-க்கு விண்ணப்பிக்க வேண்டும்.",
+              "NDDB ವಿಶಿಷ್ಟ ಕಿವಿ ಟ್ಯಾಗ್ ಸಂಖ್ಯೆಗಳನ್ನು ರಚಿಸಿ, ದೇಶಾದ್ಯಂತ ಕಿವಿ ಟ್ಯಾಗ್ ಬಳಕೆದಾರರು, ತಯಾರಕರು ಮತ್ತು ಇತರ ಸಂಬಂಧಿತ ಸಂಸ್ಥೆಗಳಿಗೆ ತಲುಪಿಸುತ್ತದೆ. ಕಿವಿ ಟ್ಯಾಗ್ ಸಂಖ್ಯೆಗಳನ್ನು ಪಡೆಯಲು, ಒಂದು ಸಂಸ್ಥೆ ತನ್ನ ಕಿವಿ ಟ್ಯಾಗ್ ಖರೀದಿ ಆರ್ಡರ್‌ನ ನಕಲಿನೊಂದಿಗೆ NDDB ಗೆ ಅರ್ಜಿ ಸಲ್ಲಿಸಬೇಕು.",
+              "NDDB अनोखे कान के टैग नंबर बनाकर पूरे देश में टैग इस्तेमाल करने वालों, निर्माताओं और दूसरी संबंधित संस्थाओं को भेजता है। टैग नंबर पाने के लिए किसी संस्था को अपने कान के टैग के खरीद ऑर्डर की कॉपी के साथ NDDB को आवेदन देना होता है।"
             ),
           },
           {
             type: "callout",
             style: "tip",
-            heading: L("Your Role in Keeping the ID System Working"),
+            heading: L(
+              "Your Role in Keeping the ID System Working",
+              "ID వ్యవస్థ పనిచేయడంలో మీ పాత్ర",
+              "ID அமைப்பு செயல்படுவதில் உங்கள் பங்கு",
+              "ID ವ್ಯವಸ್ಥೆ ಕೆಲಸ ಮಾಡುವಲ್ಲಿ ನಿಮ್ಮ ಪಾತ್ರ",
+              "ID प्रणाली को चलाए रखने में आपकी भूमिका"
+            ),
             text: L(
-              "The whole record-keeping system depends on the animal's tag being in place and easy to read. As ground staff, you can help by checking that an animal's tag is still attached and legible, and by reporting right away if a tag is damaged, lost, or hard to read."
+              "The whole record-keeping system depends on the animal's tag being in place and easy to read. As ground staff, you can help by checking that an animal's tag is still attached and legible, and by reporting right away if a tag is damaged, lost, or hard to read.",
+              "మొత్తం రికార్డుల వ్యవస్థ జంతువు టాగ్ అక్కడ ఉండటం, సులభంగా చదవగలిగేలా ఉండటంపై ఆధారపడి ఉంది. క్షేత్ర సిబ్బందిగా, జంతువు టాగ్ ఇంకా అమర్చి ఉందా, స్పష్టంగా ఉందా అని తనిఖీ చేయడం, టాగ్ దెబ్బతిన్నా, పోయినా, చదవడం కష్టంగా ఉన్నా వెంటనే తెలియజేయడం ద్వారా మీరు సహాయపడవచ్చు.",
+              "முழு பதிவு பராமரிப்பு அமைப்பும் விலங்கின் டேக் இடத்தில் இருப்பதையும் எளிதாகப் படிக்கக்கூடியதாக இருப்பதையும் சார்ந்துள்ளது. களப் பணியாளராக, விலங்கின் டேக் இன்னும் பொருத்தப்பட்டுள்ளதா, தெளிவாக உள்ளதா என்று சோதிப்பதன் மூலமும், டேக் சேதமடைந்தாலோ, தொலைந்தாலோ, படிக்கக் கடினமாக இருந்தாலோ உடனே தெரிவிப்பதன் மூலமும் நீங்கள் உதவலாம்.",
+              "ಇಡೀ ದಾಖಲೆ ವ್ಯವಸ್ಥೆ ಪ್ರಾಣಿಯ ಟ್ಯಾಗ್ ಜಾಗದಲ್ಲಿ ಇರುವುದು ಮತ್ತು ಸುಲಭವಾಗಿ ಓದಲು ಆಗುವುದರ ಮೇಲೆ ಅವಲಂಬಿತವಾಗಿದೆ. ಕ್ಷೇತ್ರ ಸಿಬ್ಬಂದಿಯಾಗಿ, ಪ್ರಾಣಿಯ ಟ್ಯಾಗ್ ಇನ್ನೂ ಅಳವಡಿಸಿದೆಯೇ, ಸ್ಪಷ್ಟವಾಗಿದೆಯೇ ಎಂದು ಪರೀಕ್ಷಿಸುವ ಮೂಲಕ, ಮತ್ತು ಟ್ಯಾಗ್ ಹಾಳಾದರೆ, ಕಳೆದುಹೋದರೆ, ಓದಲು ಕಷ್ಟವಾದರೆ ತಕ್ಷಣ ತಿಳಿಸುವ ಮೂಲಕ ನೀವು ಸಹಾಯ ಮಾಡಬಹುದು.",
+              "पूरी रिकॉर्ड प्रणाली इस बात पर टिकी है कि पशु का टैग अपनी जगह पर लगा हो और आसानी से पढ़ा जा सके। ज़मीनी स्टाफ के रूप में आप यह जाँचकर मदद कर सकते हैं कि पशु का टैग अभी भी लगा है और पढ़ने लायक है, और टैग टूटा, खो गया या पढ़ने में मुश्किल हो तो तुरंत बताकर।"
             ),
           },
         ],
         check: [
           {
             type: "mcq",
-            q: L("Why must every ear tag number be unique across the whole country?"),
+            q: L(
+              "Why must every ear tag number be unique across the whole country?",
+              "ప్రతి చెవి టాగ్ సంఖ్య దేశం మొత్తంలో ఎందుకు ప్రత్యేకంగా ఉండాలి?",
+              "ஒவ்வொரு காது டேக் எண்ணும் நாடு முழுவதும் ஏன் தனித்துவமாக இருக்க வேண்டும்?",
+              "ಪ್ರತಿ ಕಿವಿ ಟ್ಯಾಗ್ ಸಂಖ್ಯೆ ಇಡೀ ದೇಶದಲ್ಲಿ ಏಕೆ ವಿಶಿಷ್ಟವಾಗಿರಬೇಕು?",
+              "हर कान के टैग का नंबर पूरे देश में अनोखा क्यों होना चाहिए?"
+            ),
             options: [
-              L("So the tag looks more colourful"),
-              L("So no two animals anywhere share the same number, and each animal's record can always be told apart"),
-              L("So the tag costs less to manufacture"),
-              L("It doesn't need to be unique, only unique within one village"),
+              L("So the tag looks more colourful", "టాగ్ మరింత రంగురంగులుగా కనిపించడానికి", "டேக் இன்னும் வண்ணமயமாகத் தெரிய", "ಟ್ಯಾಗ್ ಹೆಚ್ಚು ಬಣ್ಣಬಣ್ಣವಾಗಿ ಕಾಣಲು", "ताकि टैग ज़्यादा रंग-बिरंगा दिखे"),
+              L("So no two animals anywhere share the same number, and each animal's record can always be told apart", "ఎక్కడా రెండు జంతువులకు ఒకే సంఖ్య ఉండకూడదు, ప్రతి జంతువు రికార్డును ఎప్పుడూ వేరుగా గుర్తించగలగాలి", "எங்கும் இரண்டு விலங்குகளுக்கு ஒரே எண் இருக்கக் கூடாது, ஒவ்வொரு விலங்கின் பதிவையும் எப்போதும் வேறுபடுத்திக் காண முடிய வேண்டும்", "ಎಲ್ಲಿಯೂ ಎರಡು ಪ್ರಾಣಿಗಳಿಗೆ ಒಂದೇ ಸಂಖ್ಯೆ ಇರಬಾರದು, ಪ್ರತಿ ಪ್ರಾಣಿಯ ದಾಖಲೆಯನ್ನು ಯಾವಾಗಲೂ ಬೇರ್ಪಡಿಸಿ ಗುರುತಿಸಲು ಸಾಧ್ಯವಾಗಬೇಕು", "ताकि कहीं भी दो पशुओं का नंबर एक जैसा न हो और हर पशु का रिकॉर्ड हमेशा अलग पहचाना जा सके"),
+              L("So the tag costs less to manufacture", "టాగ్ తయారీ ఖర్చు తక్కువగా ఉండటానికి", "டேக் தயாரிப்புச் செலவு குறைவாக இருக்க", "ಟ್ಯಾಗ್ ತಯಾರಿಕೆ ವೆಚ್ಚ ಕಡಿಮೆ ಆಗಲು", "ताकि टैग बनाने का खर्च कम हो"),
+              L("It doesn't need to be unique, only unique within one village", "ప్రత్యేకంగా ఉండనవసరం లేదు, ఒక గ్రామంలో మాత్రమే ప్రత్యేకంగా ఉంటే చాలు", "தனித்துவமாக இருக்க வேண்டியதில்லை, ஒரு கிராமத்துக்குள் மட்டும் தனித்துவமாக இருந்தால் போதும்", "ವಿಶಿಷ್ಟವಾಗಿರಬೇಕಿಲ್ಲ, ಒಂದು ಹಳ್ಳಿಯೊಳಗೆ ಮಾತ್ರ ವಿಶಿಷ್ಟವಾಗಿದ್ದರೆ ಸಾಕು", "अनोखा होना ज़रूरी नहीं, बस एक गाँव के अंदर अनोखा होना काफ़ी है"),
             ],
             answer: 1,
-            explain: L("The 12-digit ear tag number must be unique across the entire country so that every animal's identity and record stay separate from every other animal's."),
+            explain: L(
+              "The 12-digit ear tag number must be unique across the entire country so that every animal's identity and record stay separate from every other animal's.",
+              "ప్రతి జంతువు గుర్తింపు, రికార్డు ఇతర జంతువులన్నింటి నుంచి వేరుగా ఉండేందుకు 12 అంకెల చెవి టాగ్ సంఖ్య దేశం మొత్తంలో ప్రత్యేకంగా ఉండాలి.",
+              "ஒவ்வொரு விலங்கின் அடையாளமும் பதிவும் மற்ற எல்லா விலங்குகளிலிருந்தும் தனியாக இருக்க, 12 இலக்க காது டேக் எண் நாடு முழுவதும் தனித்துவமாக இருக்க வேண்டும்.",
+              "ಪ್ರತಿ ಪ್ರಾಣಿಯ ಗುರುತು ಮತ್ತು ದಾಖಲೆ ಬೇರೆ ಎಲ್ಲಾ ಪ್ರಾಣಿಗಳಿಂದ ಬೇರೆಯಾಗಿ ಉಳಿಯುವಂತೆ 12 ಅಂಕಿಯ ಕಿವಿ ಟ್ಯಾಗ್ ಸಂಖ್ಯೆ ಇಡೀ ದೇಶದಲ್ಲಿ ವಿಶಿಷ್ಟವಾಗಿರಬೇಕು.",
+              "हर पशु की पहचान और रिकॉर्ड बाकी सभी पशुओं से अलग रहे, इसके लिए 12 अंकों का कान के टैग का नंबर पूरे देश में अनोखा होना चाहिए।"
+            ),
           },
           {
             type: "truefalse",
-            q: L("NDDB is the organisation authorised to centrally manage the unique animal identification system in the country."),
+            q: L(
+              "NDDB is the organisation authorised to centrally manage the unique animal identification system in the country.",
+              "దేశంలో ప్రత్యేక జంతు గుర్తింపు వ్యవస్థను కేంద్రీయంగా నిర్వహించడానికి NDDBకి అధికారం ఉంది.",
+              "நாட்டில் தனித்துவமான விலங்கு அடையாள அமைப்பை மையமாக நிர்வகிக்க NDDB-க்கு அதிகாரம் உள்ளது.",
+              "ದೇಶದ ವಿಶಿಷ್ಟ ಪ್ರಾಣಿ ಗುರುತಿಸುವಿಕೆ ವ್ಯವಸ್ಥೆಯನ್ನು ಕೇಂದ್ರೀಯವಾಗಿ ನಿರ್ವಹಿಸಲು NDDB ಗೆ ಅಧಿಕಾರವಿದೆ.",
+              "देश में अनोखी पशु पहचान प्रणाली को केंद्रीय स्तर पर संभालने का अधिकार NDDB के पास है।"
+            ),
             answer: true,
-            explain: L("Correct — DADF, Government of India, has authorised NDDB to centrally manage unique animal identification across the country."),
+            explain: L(
+              "Correct — DADF, Government of India, has authorised NDDB to centrally manage unique animal identification across the country.",
+              "సరైనది — దేశవ్యాప్తంగా ప్రత్యేక జంతు గుర్తింపును కేంద్రీయంగా నిర్వహించడానికి DADF, భారత ప్రభుత్వం NDDBకి అధికారం ఇచ్చింది.",
+              "சரி — நாடு முழுவதும் தனித்துவமான விலங்கு அடையாளத்தை மையமாக நிர்வகிக்க DADF, இந்திய அரசு NDDB-க்கு அதிகாரம் அளித்துள்ளது.",
+              "ಸರಿ — ದೇಶಾದ್ಯಂತ ವಿಶಿಷ್ಟ ಪ್ರಾಣಿ ಗುರುತಿಸುವಿಕೆಯನ್ನು ಕೇಂದ್ರೀಯವಾಗಿ ನಿರ್ವಹಿಸಲು DADF, ಭಾರತ ಸರ್ಕಾರ NDDB ಗೆ ಅಧಿಕಾರ ನೀಡಿದೆ.",
+              "सही — DADF, भारत सरकार ने पूरे देश में अनोखी पशु पहचान को केंद्रीय स्तर पर संभालने का अधिकार NDDB को दिया है।"
+            ),
           },
         ],
       },
@@ -16050,45 +16130,105 @@ export const MODULES = [
         {
           topicId: "t-m17-what-is-id",
           type: "mcq",
-          q: L("Which law made animal identification compulsory in India?"),
-          options: [L("The Milk Quality Act"), L("The PCICDA Act, 2009"), L("The Dairy Cooperative Act"), L("The Feed Safety Act")],
+          q: L(
+            "Which law made animal identification compulsory in India?",
+            "భారతదేశంలో జంతు గుర్తింపును ఏ చట్టం తప్పనిసరి చేసింది?",
+            "இந்தியாவில் விலங்கு அடையாளத்தை எந்தச் சட்டம் கட்டாயமாக்கியது?",
+            "ಭಾರತದಲ್ಲಿ ಪ್ರಾಣಿ ಗುರುತಿಸುವಿಕೆಯನ್ನು ಯಾವ ಕಾನೂನು ಕಡ್ಡಾಯ ಮಾಡಿತು?",
+            "भारत में किस कानून ने पशु पहचान को अनिवार्य बनाया?"
+          ),
+          options: [L("The Milk Quality Act", "పాల నాణ్యత చట్టం", "பால் தரச் சட்டம்", "ಹಾಲಿನ ಗುಣಮಟ್ಟ ಕಾಯ್ದೆ", "दूध गुणवत्ता अधिनियम"), L("The PCICDA Act, 2009", "PCICDA చట్టం, 2009", "PCICDA சட்டம், 2009", "PCICDA ಕಾಯ್ದೆ, 2009", "PCICDA अधिनियम, 2009"), L("The Dairy Cooperative Act", "డెయిరీ సహకార చట్టం", "பால் கூட்டுறவுச் சட்டம்", "ಡೈರಿ ಸಹಕಾರ ಕಾಯ್ದೆ", "डेयरी सहकारी अधिनियम"), L("The Feed Safety Act", "మేత భద్రత చట్టం", "தீவனப் பாதுகாப்புச் சட்டம்", "ಮೇವು ಸುರಕ್ಷತಾ ಕಾಯ್ದೆ", "चारा सुरक्षा अधिनियम")],
           answer: 1,
-          explain: L("The PCICDA Act, 2009 (Prevention and Control of Infectious and Contagious Diseases in Animals) made animal identification compulsory."),
+          explain: L(
+            "The PCICDA Act, 2009 (Prevention and Control of Infectious and Contagious Diseases in Animals) made animal identification compulsory.",
+            "PCICDA చట్టం, 2009 (జంతువులలో అంటువ్యాధులు మరియు సంక్రమణ వ్యాధుల నివారణ, నియంత్రణ) జంతు గుర్తింపును తప్పనిసరి చేసింది.",
+            "PCICDA சட்டம், 2009 (விலங்குகளில் தொற்று மற்றும் பரவும் நோய்களைத் தடுப்பதும் கட்டுப்படுத்துவதும்) விலங்கு அடையாளத்தைக் கட்டாயமாக்கியது.",
+            "PCICDA ಕಾಯ್ದೆ, 2009 (ಪ್ರಾಣಿಗಳಲ್ಲಿ ಸೋಂಕು ಮತ್ತು ಸಾಂಕ್ರಾಮಿಕ ರೋಗಗಳ ತಡೆ ಮತ್ತು ನಿಯಂತ್ರಣ) ಪ್ರಾಣಿ ಗುರುತಿಸುವಿಕೆಯನ್ನು ಕಡ್ಡಾಯ ಮಾಡಿತು.",
+            "PCICDA अधिनियम, 2009 (पशुओं में संक्रामक और छूत की बीमारियों की रोकथाम और नियंत्रण) ने पशु पहचान को अनिवार्य बनाया।"
+          ),
         },
         {
           topicId: "t-m17-what-is-id",
           type: "truefalse",
-          q: L("Ear tagging is the most common method of animal identification, and uses a 12-digit number."),
+          q: L(
+            "Ear tagging is the most common method of animal identification, and uses a 12-digit number.",
+            "పశు గుర్తింపునకు చెవి టాగ్ వేయడం అత్యంత సాధారణ పద్ధతి, ఇందులో 12 అంకెల సంఖ్య ఉంటుంది.",
+            "விலங்கு அடையாளத்துக்கு காது டேக் இடுவதே மிகவும் பொதுவான முறை, இதில் 12 இலக்க எண் இருக்கும்.",
+            "ಪ್ರಾಣಿ ಗುರುತಿಸುವಿಕೆಗೆ ಕಿವಿ ಟ್ಯಾಗ್ ಹಾಕುವುದು ಅತ್ಯಂತ ಸಾಮಾನ್ಯ ವಿಧಾನ, ಇದರಲ್ಲಿ 12 ಅಂಕಿಯ ಸಂಖ್ಯೆ ಇರುತ್ತದೆ.",
+            "कान में टैग लगाना पशु पहचान का सबसे आम तरीका है, और इसमें 12 अंकों का नंबर होता है।"
+          ),
           answer: true,
-          explain: L("Correct — ear tagging is the most common method, and each tag carries a unique 12-digit number."),
+          explain: L(
+            "Correct — ear tagging is the most common method, and each tag carries a unique 12-digit number.",
+            "సరైనది — చెవి టాగ్ వేయడం అత్యంత సాధారణ పద్ధతి, ప్రతి టాగ్‌పై ప్రత్యేకమైన 12 అంకెల సంఖ్య ఉంటుంది.",
+            "சரி — காது டேக் இடுவதே மிகவும் பொதுவான முறை, ஒவ்வொரு டேக்கிலும் தனித்துவமான 12 இலக்க எண் இருக்கும்.",
+            "ಸರಿ — ಕಿವಿ ಟ್ಯಾಗ್ ಹಾಕುವುದು ಅತ್ಯಂತ ಸಾಮಾನ್ಯ ವಿಧಾನ, ಪ್ರತಿ ಟ್ಯಾಗ್‌ನಲ್ಲಿ ವಿಶಿಷ್ಟ 12 ಅಂಕಿಯ ಸಂಖ್ಯೆ ಇರುತ್ತದೆ.",
+            "सही — कान में टैग लगाना सबसे आम तरीका है, और हर टैग पर एक अनोखा 12 अंकों का नंबर होता है।"
+          ),
         },
         {
           topicId: "t-m17-ear-tag-system",
           type: "mcq",
-          q: L("What is created by recording an animal's ear tag together with its breed, age, and owner details?"),
+          q: L(
+            "What is created by recording an animal's ear tag together with its breed, age, and owner details?",
+            "జంతువు చెవి టాగ్‌ను దాని జాతి, వయసు, యజమాని వివరాలతో కలిపి నమోదు చేస్తే ఏమి ఏర్పడుతుంది?",
+            "விலங்கின் காது டேக்கை அதன் இனம், வயது, உரிமையாளர் விவரங்களுடன் சேர்த்துப் பதிவு செய்தால் என்ன உருவாகிறது?",
+            "ಪ್ರಾಣಿಯ ಕಿವಿ ಟ್ಯಾಗ್ ಅನ್ನು ಅದರ ತಳಿ, ವಯಸ್ಸು, ಮಾಲೀಕರ ವಿವರಗಳ ಜೊತೆ ದಾಖಲಿಸಿದರೆ ಏನು ರೂಪುಗೊಳ್ಳುತ್ತದೆ?",
+            "पशु के कान के टैग को उसकी नस्ल, उम्र और मालिक के ब्योरे के साथ दर्ज करने से क्या बनता है?"
+          ),
           options: [
-            L("Nothing useful — it is just stored and never used"),
-            L("A permanent record, almost like a passport, that can be traced anywhere in the country"),
-            L("A new ear tag number every year"),
-            L("A veterinary diagnosis for the animal"),
+            L("Nothing useful — it is just stored and never used", "ఉపయోగకరమైనది ఏమీ లేదు — అది కేవలం నిల్వ చేయబడుతుంది, ఎప్పుడూ ఉపయోగించరు", "பயனுள்ளது எதுவும் இல்லை — அது சேமிக்கப்படுவதோடு சரி, ஒருபோதும் பயன்படுத்தப்படாது", "ಉಪಯುಕ್ತವಾದದ್ದು ಏನೂ ಇಲ್ಲ — ಅದನ್ನು ಸುಮ್ಮನೆ ಸಂಗ್ರಹಿಸಲಾಗುತ್ತದೆ, ಎಂದಿಗೂ ಬಳಸುವುದಿಲ್ಲ", "कुछ काम का नहीं — बस रखा रहता है, कभी इस्तेमाल नहीं होता"),
+            L("A permanent record, almost like a passport, that can be traced anywhere in the country", "దేశంలో ఎక్కడైనా గుర్తించగలిగే, దాదాపు పాస్‌పోర్ట్ లాంటి శాశ్వత రికార్డు", "நாட்டில் எங்கும் கண்டறியக்கூடிய, கிட்டத்தட்ட பாஸ்போர்ட் போன்ற நிரந்தரப் பதிவு", "ದೇಶದಲ್ಲಿ ಎಲ್ಲೇ ಆದರೂ ಪತ್ತೆ ಹಚ್ಚಬಹುದಾದ, ಬಹುತೇಕ ಪಾಸ್‌ಪೋರ್ಟ್‌ನಂತಹ ಶಾಶ್ವತ ದಾಖಲೆ", "एक स्थायी रिकॉर्ड, लगभग पासपोर्ट की तरह, जिसे देश में कहीं भी खोजा जा सकता है"),
+            L("A new ear tag number every year", "ప్రతి సంవత్సరం కొత్త చెవి టాగ్ సంఖ్య", "ஒவ்வொரு ஆண்டும் புதிய காது டேக் எண்", "ಪ್ರತಿ ವರ್ಷ ಹೊಸ ಕಿವಿ ಟ್ಯಾಗ್ ಸಂಖ್ಯೆ", "हर साल नया कान के टैग का नंबर"),
+            L("A veterinary diagnosis for the animal", "జంతువుకు పశువైద్య నిర్ధారణ", "விலங்குக்குக் கால்நடை மருத்துவ நோயறிதல்", "ಪ್ರಾಣಿಗೆ ಪಶುವೈದ್ಯಕೀಯ ರೋಗನಿರ್ಣಯ", "पशु का पशु-चिकित्सकीय निदान"),
           ],
           answer: 1,
-          explain: L("Recording the ear tag with the animal's details creates a permanent, passport-like record that can be traced or transferred to any location in the country."),
+          explain: L(
+            "Recording the ear tag with the animal's details creates a permanent, passport-like record that can be traced or transferred to any location in the country.",
+            "జంతువు వివరాలతో చెవి టాగ్‌ను నమోదు చేస్తే, దేశంలో ఏ ప్రదేశంలోనైనా గుర్తించగలిగే లేదా బదిలీ చేయగలిగే శాశ్వత, పాస్‌పోర్ట్ లాంటి రికార్డు ఏర్పడుతుంది.",
+            "விலங்கின் விவரங்களுடன் காது டேக்கைப் பதிவு செய்தால், நாட்டில் எந்த இடத்திலும் கண்டறியக்கூடிய அல்லது மாற்றக்கூடிய நிரந்தர, பாஸ்போர்ட் போன்ற பதிவு உருவாகிறது.",
+            "ಪ್ರಾಣಿಯ ವಿವರಗಳೊಂದಿಗೆ ಕಿವಿ ಟ್ಯಾಗ್ ಅನ್ನು ದಾಖಲಿಸಿದರೆ, ದೇಶದ ಯಾವುದೇ ಸ್ಥಳದಲ್ಲಿ ಪತ್ತೆ ಹಚ್ಚಬಹುದಾದ ಅಥವಾ ವರ್ಗಾಯಿಸಬಹುದಾದ ಶಾಶ್ವತ, ಪಾಸ್‌ಪೋರ್ಟ್‌ನಂತಹ ದಾಖಲೆ ರೂಪುಗೊಳ್ಳುತ್ತದೆ.",
+            "पशु के ब्योरे के साथ कान का टैग दर्ज करने से एक स्थायी, पासपोर्ट जैसा रिकॉर्ड बन जाता है जिसे देश में किसी भी जगह खोजा या ट्रांसफर किया जा सकता है।"
+          ),
         },
         {
           topicId: "t-m17-ear-tag-system",
           type: "truefalse",
-          q: L("NDDB generates and delivers unique ear tag numbers to ear tag consumers and manufacturers."),
+          q: L(
+            "NDDB generates and delivers unique ear tag numbers to ear tag consumers and manufacturers.",
+            "NDDB ప్రత్యేకమైన చెవి టాగ్ సంఖ్యలను సృష్టించి, చెవి టాగ్ వినియోగదారులు, తయారీదారులకు అందజేస్తుంది.",
+            "NDDB தனித்துவமான காது டேக் எண்களை உருவாக்கி, காது டேக் பயன்படுத்துவோர் மற்றும் உற்பத்தியாளர்களுக்கு வழங்குகிறது.",
+            "NDDB ವಿಶಿಷ್ಟ ಕಿವಿ ಟ್ಯಾಗ್ ಸಂಖ್ಯೆಗಳನ್ನು ರಚಿಸಿ, ಕಿವಿ ಟ್ಯಾಗ್ ಬಳಕೆದಾರರು ಮತ್ತು ತಯಾರಕರಿಗೆ ತಲುಪಿಸುತ್ತದೆ.",
+            "NDDB अनोखे कान के टैग नंबर बनाकर टैग इस्तेमाल करने वालों और निर्माताओं को भेजता है।"
+          ),
           answer: true,
-          explain: L("Correct — NDDB generates and delivers unique ear tag numbers to all ear tag consumers, manufacturers and other concerned institutions."),
+          explain: L(
+            "Correct — NDDB generates and delivers unique ear tag numbers to all ear tag consumers, manufacturers and other concerned institutions.",
+            "సరైనది — NDDB ప్రత్యేకమైన చెవి టాగ్ సంఖ్యలను సృష్టించి, చెవి టాగ్ వినియోగదారులు, తయారీదారులు, ఇతర సంబంధిత సంస్థలందరికీ అందజేస్తుంది.",
+            "சரி — NDDB தனித்துவமான காது டேக் எண்களை உருவாக்கி, காது டேக் பயன்படுத்துவோர், உற்பத்தியாளர்கள் மற்றும் பிற தொடர்புடைய நிறுவனங்கள் அனைவருக்கும் வழங்குகிறது.",
+            "ಸರಿ — NDDB ವಿಶಿಷ್ಟ ಕಿವಿ ಟ್ಯಾಗ್ ಸಂಖ್ಯೆಗಳನ್ನು ರಚಿಸಿ, ಎಲ್ಲಾ ಕಿವಿ ಟ್ಯಾಗ್ ಬಳಕೆದಾರರು, ತಯಾರಕರು ಮತ್ತು ಇತರ ಸಂಬಂಧಿತ ಸಂಸ್ಥೆಗಳಿಗೆ ತಲುಪಿಸುತ್ತದೆ.",
+            "सही — NDDB अनोखे कान के टैग नंबर बनाकर सभी टैग इस्तेमाल करने वालों, निर्माताओं और दूसरी संबंधित संस्थाओं को भेजता है।"
+          ),
         },
         {
           topicId: "t-m17-what-is-id",
           type: "mcq",
-          q: L("Which of these is a method of animal identification mentioned in this lesson?"),
-          options: [L("Ear tagging"), L("Body condition scoring"), L("Milk testing"), L("Vaccination")],
+          q: L(
+            "Which of these is a method of animal identification mentioned in this lesson?",
+            "ఈ పాఠంలో ప్రస్తావించిన పశు గుర్తింపు పద్ధతుల్లో ఇది ఏది?",
+            "இந்தப் பாடத்தில் குறிப்பிடப்பட்ட விலங்கு அடையாள முறைகளில் இவற்றில் எது?",
+            "ಈ ಪಾಠದಲ್ಲಿ ಉಲ್ಲೇಖಿಸಿದ ಪ್ರಾಣಿ ಗುರುತಿಸುವಿಕೆಯ ವಿಧಾನಗಳಲ್ಲಿ ಇವುಗಳಲ್ಲಿ ಯಾವುದು?",
+            "इनमें से कौन-सा पशु पहचान का तरीका इस पाठ में बताया गया है?"
+          ),
+          options: [L("Ear tagging", "చెవి టాగ్ వేయడం", "காது டேக் இடுதல்", "ಕಿವಿ ಟ್ಯಾಗ್ ಹಾಕುವುದು", "कान में टैग लगाना"), L("Body condition scoring", "శరీర స్థితి స్కోరింగ్", "உடல் நிலை மதிப்பெண் இடுதல்", "ದೇಹ ಸ್ಥಿತಿ ಸ್ಕೋರಿಂಗ್", "बॉडी कंडीशन स्कोरिंग"), L("Milk testing", "పాల పరీక్ష", "பால் பரிசோதனை", "ಹಾಲಿನ ಪರೀಕ್ಷೆ", "दूध की जाँच"), L("Vaccination", "టీకాలు వేయడం", "தடுப்பூசி போடுதல்", "ಲಸಿಕೆ ಹಾಕುವುದು", "टीकाकरण")],
           answer: 0,
-          explain: L("Ear tagging — along with tattooing, branding, RFID, injectables and bolus — is a method of animal identification. The other options are not identification methods."),
+          explain: L(
+            "Ear tagging — along with tattooing, branding, RFID, injectables and bolus — is a method of animal identification. The other options are not identification methods.",
+            "చెవి టాగ్ వేయడం — పచ్చబొట్టు, వాతలు, RFID, ఇంజెక్టబుల్స్, బోలస్‌తో పాటు — జంతు గుర్తింపు పద్ధతి. మిగతా ఎంపికలు గుర్తింపు పద్ధతులు కావు.",
+            "காது டேக் இடுதல் — பச்சை குத்துதல், சூடு போடுதல், RFID, இன்ஜெக்டபிள்ஸ், போலஸ் ஆகியவற்றுடன் — ஒரு விலங்கு அடையாள முறை. மற்ற தேர்வுகள் அடையாள முறைகள் அல்ல.",
+            "ಕಿವಿ ಟ್ಯಾಗ್ ಹಾಕುವುದು — ಹಚ್ಚೆ, ಬರೆ ಹಾಕುವುದು, RFID, ಇಂಜೆಕ್ಟಬಲ್ಸ್, ಬೋಲಸ್‌ನ ಜೊತೆಗೆ — ಒಂದು ಪ್ರಾಣಿ ಗುರುತಿಸುವ ವಿಧಾನ. ಉಳಿದ ಆಯ್ಕೆಗಳು ಗುರುತಿಸುವ ವಿಧಾನಗಳಲ್ಲ.",
+            "कान में टैग लगाना — गोदने, दागने, RFID, इंजेक्टेबल और बोलस के साथ — पशु पहचान का एक तरीका है। बाकी विकल्प पहचान के तरीके नहीं हैं।"
+          ),
         },
       ],
     },
