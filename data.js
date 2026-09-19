@@ -7400,110 +7400,134 @@ export const MODULES = [
                 ),
               },
               {
-                label: L("Local breeds"),
-                text: L("Local breeds get mastitis less often — mainly because they give less milk and have somewhat better natural immunity."),
+                label: L("Local breeds", "దేశీ జాతులు", "நாட்டு இனங்கள்", "ದೇಸಿ ತಳಿಗಳು", "देसी नस्लें"),
+                text: L("Local breeds get mastitis less often — mainly because they give less milk and have somewhat better natural immunity.", "దేశీ జాతులకు మాస్టిటిస్ తక్కువగా వస్తుంది — ముఖ్యంగా అవి తక్కువ పాలు ఇస్తాయి, సహజ రోగనిరోధక శక్తి కొంచెం మెరుగ్గా ఉంటుంది.", "நாட்டு இனங்களுக்கு மாஸ்டைடிஸ் குறைவாகவே வரும் — முக்கியமாக அவை குறைவாக பால் தருகின்றன, இயற்கை எதிர்ப்பு சக்தியும் சற்று நன்றாக உள்ளது.", "ದೇಸಿ ತಳಿಗಳಿಗೆ ಮಾಸ್ಟೈಟಿಸ್ ಕಡಿಮೆ ಬರುತ್ತದೆ — ಮುಖ್ಯವಾಗಿ ಅವು ಕಡಿಮೆ ಹಾಲು ಕೊಡುತ್ತವೆ ಮತ್ತು ಸಹಜ ರೋಗನಿರೋಧಕ ಶಕ್ತಿ ಸ್ವಲ್ಪ ಉತ್ತಮ.", "देसी नस्लों में मैस्टाइटिस कम होता है — मुख्य रूप से इसलिए कि वे कम दूध देती हैं और उनकी अपनी रोग-प्रतिरोधक क्षमता कुछ बेहतर होती है।"),
               },
               {
-                label: L("Buffaloes"),
-                text: L("Buffaloes are the LEAST likely of all to get mastitis."),
+                label: L("Buffaloes", "గేదెలు", "எருமைகள்", "ಎಮ್ಮೆಗಳು", "भैंसें"),
+                text: L("Buffaloes are the LEAST likely of all to get mastitis.", "అన్నిటికంటే గేదెలకు మాస్టిటిస్ వచ్చే అవకాశం అతి తక్కువ.", "எல்லாவற்றையும் விட எருமைகளுக்கு மாஸ்டைடிஸ் வர வாய்ப்பு மிகக் குறைவு.", "ಎಲ್ಲಕ್ಕಿಂತ ಎಮ್ಮೆಗಳಿಗೆ ಮಾಸ್ಟೈಟಿಸ್ ಬರುವ ಸಾಧ್ಯತೆ ಅತಿ ಕಡಿಮೆ.", "मैस्टाइटिस होने की संभावना सबसे कम भैंसों में होती है।"),
               },
             ],
           },
           {
             type: "callout",
             style: "tip",
-            heading: L("Your Job: Notice and Report — Never Diagnose or Treat"),
+            heading: L("Your Job: Notice and Report — Never Diagnose or Treat", "మీ పని: గమనించండి, తెలియజేయండి — ఎప్పుడూ నిర్ధారణ లేదా చికిత్స చేయకండి", "உங்கள் வேலை: கவனியுங்கள், தெரிவியுங்கள் — ஒருபோதும் நோய் கண்டறியவோ சிகிச்சை செய்யவோ வேண்டாம்", "ನಿಮ್ಮ ಕೆಲಸ: ಗಮನಿಸಿ, ವರದಿ ಮಾಡಿ — ಎಂದಿಗೂ ರೋಗ ನಿರ್ಣಯ ಅಥವಾ ಚಿಕಿತ್ಸೆ ಮಾಡಬೇಡಿ", "आपका काम: देखें और बताएँ — कभी खुद जाँच या इलाज न करें"),
             text: L(
-              "Mastitis can cause a drop in milk, permanent damage to a quarter, or even death of the animal if it is missed. Your role is never to decide what kind of mastitis it is or what medicine to use — that is always the veterinarian's job. Your job is to notice that something about the udder or the milk looks wrong, and to report it the same day."
+              "Mastitis can cause a drop in milk, permanent damage to a quarter, or even death of the animal if it is missed. Your role is never to decide what kind of mastitis it is or what medicine to use — that is always the veterinarian's job. Your job is to notice that something about the udder or the milk looks wrong, and to report it the same day.",
+              "మాస్టిటిస్‌ను గమనించకపోతే పాలు తగ్గిపోవచ్చు, పొదుగులో ఒక భాగం శాశ్వతంగా పాడవ్వచ్చు, పశువు చనిపోవచ్చు కూడా. ఇది ఏ రకమైన మాస్టిటిస్ అని, ఏ మందు వాడాలని నిర్ణయించడం మీ పని కాదు — అది ఎప్పుడూ పశువైద్యుని పనే. పొదుగు లేదా పాలు ఏదో తేడాగా కనిపిస్తే గమనించి, అదే రోజు తెలియజేయడం మీ పని.",
+              "மாஸ்டைடிஸைக் கவனிக்காவிட்டால் பால் குறையலாம், மடியின் ஒரு பகுதி நிரந்தரமாக சேதமடையலாம், மாடு இறக்கவும் கூடும். இது எந்த வகை மாஸ்டைடிஸ், எந்த மருந்து கொடுக்க வேண்டும் என்று முடிவு செய்வது உங்கள் வேலை அல்ல — அது எப்போதும் கால்நடை மருத்துவரின் வேலை. மடியிலோ பாலிலோ ஏதாவது வித்தியாசமாகத் தெரிந்தால் அதைக் கவனித்து, அதே நாளில் தெரிவிப்பதுதான் உங்கள் வேலை.",
+              "ಮಾಸ್ಟೈಟಿಸ್ ಗಮನಕ್ಕೆ ಬಾರದಿದ್ದರೆ ಹಾಲು ಕಡಿಮೆಯಾಗಬಹುದು, ಕೆಚ್ಚಲಿನ ಒಂದು ಭಾಗ ಶಾಶ್ವತವಾಗಿ ಹಾಳಾಗಬಹುದು, ಪ್ರಾಣಿ ಸಾಯಲೂಬಹುದು. ಇದು ಯಾವ ರೀತಿಯ ಮಾಸ್ಟೈಟಿಸ್, ಯಾವ ಔಷಧಿ ಕೊಡಬೇಕು ಎಂದು ನಿರ್ಧರಿಸುವುದು ನಿಮ್ಮ ಕೆಲಸವಲ್ಲ — ಅದು ಯಾವಾಗಲೂ ಪಶುವೈದ್ಯರ ಕೆಲಸ. ಕೆಚ್ಚಲು ಅಥವಾ ಹಾಲಿನಲ್ಲಿ ಏನಾದರೂ ವ್ಯತ್ಯಾಸ ಕಂಡರೆ ಅದನ್ನು ಗಮನಿಸಿ, ಅದೇ ದಿನ ವರದಿ ಮಾಡುವುದು ನಿಮ್ಮ ಕೆಲಸ.",
+              "मैस्टाइटिस पर ध्यान न दिया जाए तो दूध घट सकता है, थन का एक हिस्सा हमेशा के लिए खराब हो सकता है, या पशु की मौत भी हो सकती है। यह कौन-सा मैस्टाइटिस है और कौन-सी दवा देनी है, यह तय करना आपका काम नहीं है — यह हमेशा पशु चिकित्सक का काम है। आपका काम है यह देखना कि थन या दूध में कुछ अलग लग रहा है, और उसी दिन इसकी सूचना देना।"
             ),
           },
         ],
         check: [
           {
             type: "mcq",
-            q: L("What is a 'quarter' of the udder?"),
+            q: L("What is a 'quarter' of the udder?", "పొదుగులో 'క్వార్టర్' అంటే ఏమిటి?", "மடியில் 'குவார்ட்டர்' என்றால் என்ன?", "ಕೆಚ್ಚಲಿನ 'ಕ್ವಾರ್ಟರ್' ಎಂದರೇನು?", "थन का 'क्वार्टर' क्या होता है?"),
             options: [
-              L("The four legs of the animal"),
-              L("One of the four separate sections of the udder, each with its own teat"),
-              L("A measurement of how much milk an animal gives"),
-              L("The stomach of the animal"),
+              L("The four legs of the animal", "పశువు యొక్క నాలుగు కాళ్లు", "மாட்டின் நான்கு கால்கள்", "ಪ್ರಾಣಿಯ ನಾಲ್ಕು ಕಾಲುಗಳು", "पशु की चार टाँगें"),
+              L("One of the four separate sections of the udder, each with its own teat", "పొదుగులోని నాలుగు వేర్వేరు భాగాలలో ఒకటి, ప్రతిదానికి దాని సొంత చనుమొన ఉంటుంది", "மடியின் நான்கு தனிப் பகுதிகளில் ஒன்று, ஒவ்வொன்றுக்கும் தனிக் காம்பு உண்டு", "ಕೆಚ್ಚಲಿನ ನಾಲ್ಕು ಪ್ರತ್ಯೇಕ ಭಾಗಗಳಲ್ಲಿ ಒಂದು, ಪ್ರತಿಯೊಂದಕ್ಕೂ ಅದರದೇ ಮೊಲೆತೊಟ್ಟು ಇರುತ್ತದೆ", "थन के चार अलग हिस्सों में से एक, हर हिस्से की अपनी चूची होती है"),
+              L("A measurement of how much milk an animal gives", "పశువు ఎంత పాలు ఇస్తుందో కొలిచే కొలత", "மாடு எவ்வளவு பால் தருகிறது என்பதன் அளவீடு", "ಪ್ರಾಣಿ ಎಷ್ಟು ಹಾಲು ಕೊಡುತ್ತದೆ ಎಂಬುದರ ಅಳತೆ", "पशु कितना दूध देता है इसका माप"),
+              L("The stomach of the animal", "పశువు కడుపు", "மாட்டின் வயிறு", "ಪ್ರಾಣಿಯ ಹೊಟ್ಟೆ", "पशु का पेट"),
             ],
             answer: 1,
-            explain: L("The udder is divided into four separate quarters, each with its own teat — a problem in one quarter does not automatically affect the others."),
+            explain: L("The udder is divided into four separate quarters, each with its own teat — a problem in one quarter does not automatically affect the others.", "పొదుగు నాలుగు వేర్వేరు భాగాలుగా విభజించబడి ఉంటుంది, ప్రతిదానికి దాని సొంత చనుమొన ఉంటుంది — ఒక భాగంలో సమస్య వస్తే అది ఇతరులకు ఆటోమేటిగ్గా వ్యాపించదు.", "மடி நான்கு தனிப் பகுதிகளாகப் பிரிக்கப்பட்டுள்ளது, ஒவ்வொன்றுக்கும் தனிக் காம்பு உண்டு — ஒரு பகுதியில் பிரச்சினை என்றால் அது மற்றவற்றுக்குத் தானாகப் பரவாது.", "ಕೆಚ್ಚಲು ನಾಲ್ಕು ಪ್ರತ್ಯೇಕ ಭಾಗಗಳಾಗಿ ವಿಂಗಡಣೆಯಾಗಿದೆ, ಪ್ರತಿಯೊಂದಕ್ಕೂ ಅದರದೇ ಮೊಲೆತೊಟ್ಟು ಇದೆ — ಒಂದು ಭಾಗದ ಸಮಸ್ಯೆ ತಾನಾಗಿ ಇತರೆಡೆ ಹರಡುವುದಿಲ್ಲ.", "थन चार अलग हिस्सों में बँटा है, हर हिस्से की अपनी चूची है — एक हिस्से की समस्या अपने आप बाकी में नहीं फैलती।"),
           },
           {
             type: "truefalse",
-            q: L("Buffaloes are more likely to get mastitis than crossbred cows."),
+            q: L("Buffaloes are more likely to get mastitis than crossbred cows.", "సంకర జాతి ఆవులకంటే గేదెలకు మాస్టిటిస్ వచ్చే అవకాశం ఎక్కువ.", "கலப்பின பசுக்களை விட எருமைகளுக்கு மாஸ்டைடிஸ் வர வாய்ப்பு அதிகம்.", "ಮಿಶ್ರತಳಿ ಹಸುಗಳಿಗಿಂತ ಎಮ್ಮೆಗಳಿಗೆ ಮಾಸ್ಟೈಟಿಸ್ ಬರುವ ಸಾಧ್ಯತೆ ಹೆಚ್ಚು.", "संकर नस्ल की गायों के मुकाबले भैंसों को मैस्टाइटिस होने की संभावना ज़्यादा होती है।"),
             answer: false,
-            explain: L("The opposite is true — buffaloes are the LEAST likely of all to get mastitis, while exotic and crossbred cows are the most likely."),
+            explain: L("The opposite is true — buffaloes are the LEAST likely of all to get mastitis, while exotic and crossbred cows are the most likely.", "దీనికి వ్యతిరేకం నిజం — అన్నిటికంటే గేదెలకే మాస్టిటిస్ వచ్చే అవకాశం తక్కువ, విదేశీ మరియు సంకర జాతి ఆవులకు ఎక్కువ.", "இதற்கு நேர்மாறானதுதான் உண்மை — எல்லாவற்றையும் விட எருமைகளுக்குத்தான் மாஸ்டைடிஸ் வர வாய்ப்பு குறைவு, வெளிநாட்டு மற்றும் கலப்பின பசுக்களுக்கு அதிகம்.", "ಇದಕ್ಕೆ ವಿರುದ್ಧವೇ ನಿಜ — ಎಲ್ಲಕ್ಕಿಂತ ಎಮ್ಮೆಗಳಿಗೆ ಮಾಸ್ಟೈಟಿಸ್ ಬರುವ ಸಾಧ್ಯತೆ ಕಡಿಮೆ, ವಿದೇಶಿ ಮತ್ತು ಮಿಶ್ರತಳಿ ಹಸುಗಳಿಗೆ ಹೆಚ್ಚು.", "इसका उल्टा सही है — भैंसों में मैस्टाइटिस होने की संभावना सबसे कम होती है, जबकि विदेशी और संकर नस्ल की गायों में सबसे ज़्यादा।"),
           },
         ],
       },
       {
         id: "t-m9-acute-signs",
-        title: L("Acute Mastitis: Signs You Can Actually See"),
+        title: L("Acute Mastitis: Signs You Can Actually See", "తీవ్ర మాస్టిటిస్: మీరు కళ్లతో చూడగలిగే సంకేతాలు", "தீவிர மாஸ்டைடிஸ்: நீங்கள் கண்ணால் பார்க்கக்கூடிய அறிகுறிகள்", "ತೀವ್ರ ಮಾಸ್ಟೈಟಿಸ್: ನೀವು ಕಣ್ಣಾರೆ ಕಾಣಬಹುದಾದ ಲಕ್ಷಣಗಳು", "तीव्र मैस्टाइटिस: वे लक्षण जो आप खुद देख सकते हैं"),
         teach: [
           {
             type: "text",
-            heading: L("What Is Acute Mastitis?"),
+            heading: L("What Is Acute Mastitis?", "తీవ్ర మాస్టిటిస్ అంటే ఏమిటి?", "தீவிர மாஸ்டைடிஸ் என்றால் என்ன?", "ತೀವ್ರ ಮಾಸ್ಟೈಟಿಸ್ ಎಂದರೇನು?", "तीव्र मैस्टाइटिस क्या है?"),
             html: L(
-              "Acute mastitis (sometimes just called clinical mastitis) is the severe form of mastitis, where the changes are <b>clearly visible</b> — both in the udder itself and in the milk that comes out of it. High-yielding animals are more prone to it. It is mainly caused by bacteria (there are more than 100 types that can cause it), though fungi and viruses can also cause it, and rarely even algae."
+              "Acute mastitis (sometimes just called clinical mastitis) is the severe form of mastitis, where the changes are <b>clearly visible</b> — both in the udder itself and in the milk that comes out of it. High-yielding animals are more prone to it. It is mainly caused by bacteria (there are more than 100 types that can cause it), though fungi and viruses can also cause it, and rarely even algae.",
+              "తీవ్ర మాస్టిటిస్ (దీన్ని కొన్నిసార్లు క్లినికల్ మాస్టిటిస్ అని కూడా అంటారు) మాస్టిటిస్‌లో తీవ్రమైన రూపం, ఇందులో మార్పులు పొదుగులో, దాని నుండి వచ్చే పాలలో <b>స్పష్టంగా కనిపిస్తాయి</b>. ఎక్కువ పాలు ఇచ్చే పశువులకు ఇది ఎక్కువగా వస్తుంది. ఇది ప్రధానంగా బ్యాక్టీరియా వల్ల వస్తుంది (దీనికి కారణమయ్యే రకాలు 100కి పైగా ఉన్నాయి), అయితే ఫంగస్, వైరస్‌లు కూడా కారణం కావచ్చు, అరుదుగా ఆల్గే కూడా.",
+              "தீவிர மாஸ்டைடிஸ் (சில சமயம் கிளினிக்கல் மாஸ்டைடிஸ் என்றும் சொல்வார்கள்) என்பது மாஸ்டைடிஸின் கடுமையான வடிவம்; இதில் மடியிலும் அதிலிருந்து வரும் பாலிலும் மாற்றங்கள் <b>தெளிவாகத் தெரியும்</b>. அதிக பால் தரும் மாடுகளுக்கு இது அதிகம் வரும். இது முக்கியமாக பாக்டீரியாவால் வருகிறது (இதை உண்டாக்கும் வகைகள் 100-க்கும் மேல் உள்ளன), ஆனால் பூஞ்சை, வைரஸ்களாலும் வரலாம், அரிதாக பாசிகளாலும் வரும்.",
+              "ತೀವ್ರ ಮಾಸ್ಟೈಟಿಸ್ (ಕೆಲವೊಮ್ಮೆ ಕ್ಲಿನಿಕಲ್ ಮಾಸ್ಟೈಟಿಸ್ ಎಂದೂ ಕರೆಯುತ್ತಾರೆ) ಮಾಸ್ಟೈಟಿಸ್‌ನ ಗಂಭೀರ ರೂಪ, ಇದರಲ್ಲಿ ಕೆಚ್ಚಲಿನಲ್ಲೂ ಅದರಿಂದ ಬರುವ ಹಾಲಿನಲ್ಲೂ ಬದಲಾವಣೆಗಳು <b>ಸ್ಪಷ್ಟವಾಗಿ ಕಾಣುತ್ತವೆ</b>. ಹೆಚ್ಚು ಹಾಲು ಕೊಡುವ ಪ್ರಾಣಿಗಳಿಗೆ ಇದು ಹೆಚ್ಚು ಬರುತ್ತದೆ. ಇದು ಮುಖ್ಯವಾಗಿ ಬ್ಯಾಕ್ಟೀರಿಯಾದಿಂದ ಬರುತ್ತದೆ (ಇದನ್ನು ಉಂಟುಮಾಡುವ 100ಕ್ಕೂ ಹೆಚ್ಚು ವಿಧಗಳಿವೆ), ಆದರೆ ಶಿಲೀಂಧ್ರ, ವೈರಸ್‌ಗಳಿಂದಲೂ ಬರಬಹುದು, ಅಪರೂಪವಾಗಿ ಪಾಚಿಯಿಂದಲೂ ಬರುತ್ತದೆ.",
+              "तीव्र मैस्टाइटिस (इसे कभी-कभी क्लीनिकल मैस्टाइटिस भी कहते हैं) मैस्टाइटिस का गंभीर रूप है, जिसमें बदलाव थन में भी और उससे निकलने वाले दूध में भी <b>साफ़ दिखाई देते हैं</b>। ज़्यादा दूध देने वाले पशुओं को यह ज़्यादा होता है। यह मुख्य रूप से बैक्टीरिया से होता है (इसे करने वाले 100 से ज़्यादा प्रकार हैं), लेकिन फफूँद और वायरस से भी हो सकता है, और कभी-कभार शैवाल (एल्गी) से भी।"
             ),
           },
           {
             type: "glossary",
-            term: L("Inflammation"),
+            term: L("Inflammation", "వాపు (ఇన్‌ఫ్లమేషన్)", "வீக்கம் (இன்ஃப்ளமேஷன்)", "ಉರಿಯೂತ (ಇನ್‌ಫ್ಲಮೇಶನ್)", "सूजन (इन्फ्लेमेशन)"),
             meaning: L(
-              "The body's reaction to injury or infection in one part of the body — usually involving swelling, and the part looking or feeling different from the healthy parts around it."
+              "The body's reaction to injury or infection in one part of the body — usually involving swelling, and the part looking or feeling different from the healthy parts around it.",
+              "శరీరంలోని ఒక భాగంలో గాయం లేదా ఇన్ఫెక్షన్‌కు శరీరం చూపే స్పందన — సాధారణంగా వాపు ఉంటుంది, ఆ భాగం చుట్టూ ఉన్న ఆరోగ్యకరమైన భాగాల కంటే భిన్నంగా కనిపిస్తుంది లేదా అనిపిస్తుంది.",
+              "உடலின் ஒரு பகுதியில் காயம் அல்லது தொற்று ஏற்படும்போது உடல் காட்டும் எதிர்வினை — பொதுவாக வீக்கம் இருக்கும், அந்தப் பகுதி சுற்றியுள்ள ஆரோக்கியமான பகுதிகளை விட வேறுபட்டு தெரியும் அல்லது உணரப்படும்.",
+              "ದೇಹದ ಒಂದು ಭಾಗದಲ್ಲಿ ಗಾಯ ಅಥವಾ ಸೋಂಕಿಗೆ ದೇಹ ತೋರಿಸುವ ಪ್ರತಿಕ್ರಿಯೆ — ಸಾಮಾನ್ಯವಾಗಿ ಊತ ಇರುತ್ತದೆ, ಆ ಭಾಗ ಸುತ್ತಲಿನ ಆರೋಗ್ಯಕರ ಭಾಗಗಳಿಗಿಂತ ಬೇರೆಯಾಗಿ ಕಾಣುತ್ತದೆ ಅಥವಾ ಅನಿಸುತ್ತದೆ.",
+              "शरीर के किसी हिस्से में चोट या संक्रमण होने पर शरीर की प्रतिक्रिया — इसमें आमतौर पर सूजन होती है, और वह हिस्सा आसपास के स्वस्थ हिस्सों से अलग दिखता या महसूस होता है।"
             ),
           },
           {
             type: "text",
-            heading: L("What You Will Actually Notice"),
+            heading: L("What You Will Actually Notice", "మీరు నిజంగా ఏం గమనిస్తారు", "நீங்கள் உண்மையில் என்ன கவனிப்பீர்கள்", "ನೀವು ನಿಜವಾಗಿ ಏನು ಗಮನಿಸುತ್ತೀರಿ", "आपको असल में क्या दिखेगा"),
             html: L(
-              "Because acute mastitis is inflammation of the udder, the affected quarter looks and feels swollen and different from the other three, healthy quarters. The milk itself also looks different from what that animal's milk normally looks like — it will clearly not look normal to anyone watching. This is what makes acute mastitis different from the hidden form you'll learn about in the next lesson: with acute mastitis, the changes are there for anyone to see."
+              "Because acute mastitis is inflammation of the udder, the affected quarter looks and feels swollen and different from the other three, healthy quarters. The milk itself also looks different from what that animal's milk normally looks like — it will clearly not look normal to anyone watching. This is what makes acute mastitis different from the hidden form you'll learn about in the next lesson: with acute mastitis, the changes are there for anyone to see.",
+              "తీవ్ర మాస్టిటిస్ అంటే పొదుగులో వాపు కాబట్టి, ప్రభావితమైన భాగం ఉబ్బినట్లుగా కనిపిస్తుంది, తాకితే అలాగే అనిపిస్తుంది, మిగతా మూడు ఆరోగ్యకరమైన భాగాలకంటే భిన్నంగా ఉంటుంది. ఆ పశువు పాలు మామూలుగా ఎలా ఉంటాయో దానికంటే కూడా పాలు వేరేగా కనిపిస్తాయి — చూసేవారికి అవి మామూలుగా లేవని స్పష్టంగా తెలుస్తుంది. తర్వాతి పాఠంలో మీరు నేర్చుకోబోయే దాగి ఉన్న రూపానికి, తీవ్ర మాస్టిటిస్‌కు ఇదే తేడా: తీవ్ర మాస్టిటిస్‌లో మార్పులు ఎవరికైనా కనిపిస్తాయి.",
+              "தீவிர மாஸ்டைடிஸ் என்பது மடியின் வீக்கம் என்பதால், பாதிக்கப்பட்ட பகுதி வீங்கி, தொட்டால் வீங்கியதாக உணரப்பட்டு, மற்ற மூன்று ஆரோக்கியமான பகுதிகளிலிருந்து வேறுபட்டிருக்கும். அந்த மாட்டின் பால் சாதாரணமாக எப்படி இருக்குமோ அதிலிருந்தும் பால் வேறுபட்டுத் தெரியும் — பார்ப்பவர் யாருக்கும் அது சாதாரணமாக இல்லை என்று தெளிவாகத் தெரியும். அடுத்த பாடத்தில் நீங்கள் கற்கப்போகும் மறைந்திருக்கும் வடிவத்திலிருந்து தீவிர மாஸ்டைடிஸை வேறுபடுத்துவது இதுதான்: தீவிர மாஸ்டைடிஸில் மாற்றங்கள் யாருக்கும் தெரியும்.",
+              "ತೀವ್ರ ಮಾಸ್ಟೈಟಿಸ್ ಎಂದರೆ ಕೆಚ್ಚಲಿನ ಉರಿಯೂತ ಆದ್ದರಿಂದ, ಬಾಧಿತ ಭಾಗ ಊದಿಕೊಂಡಂತೆ ಕಾಣುತ್ತದೆ, ಮುಟ್ಟಿದರೂ ಹಾಗೆಯೇ ಅನಿಸುತ್ತದೆ, ಉಳಿದ ಮೂರು ಆರೋಗ್ಯಕರ ಭಾಗಗಳಿಗಿಂತ ಭಿನ್ನವಾಗಿರುತ್ತದೆ. ಆ ಪ್ರಾಣಿಯ ಹಾಲು ಸಾಮಾನ್ಯವಾಗಿ ಹೇಗಿರುತ್ತದೆಯೋ ಅದಕ್ಕಿಂತಲೂ ಹಾಲು ಬೇರೆಯಾಗಿ ಕಾಣುತ್ತದೆ — ನೋಡುವ ಯಾರಿಗಾದರೂ ಅದು ಸಾಮಾನ್ಯವಾಗಿಲ್ಲ ಎಂದು ಸ್ಪಷ್ಟವಾಗಿ ತಿಳಿಯುತ್ತದೆ. ಮುಂದಿನ ಪಾಠದಲ್ಲಿ ನೀವು ಕಲಿಯಲಿರುವ ಅಡಗಿರುವ ರೂಪಕ್ಕೂ ತೀವ್ರ ಮಾಸ್ಟೈಟಿಸ್‌ಗೂ ಇರುವ ವ್ಯತ್ಯಾಸ ಇದೇ: ತೀವ್ರ ಮಾಸ್ಟೈಟಿಸ್‌ನಲ್ಲಿ ಬದಲಾವಣೆಗಳು ಎಲ್ಲರಿಗೂ ಕಾಣುತ್ತವೆ.",
+              "तीव्र मैस्टाइटिस थन की सूजन है, इसलिए प्रभावित हिस्सा बाकी तीन स्वस्थ हिस्सों से अलग सूजा हुआ दिखता और छूने पर महसूस होता है। दूध भी उस पशु के आम दूध से अलग दिखता है — देखने वाले को साफ़ लगता है कि यह सामान्य नहीं है। अगले पाठ में आप जो छिपा हुआ रूप सीखेंगे, उससे तीव्र मैस्टाइटिस यहीं अलग है: तीव्र मैस्टाइटिस में बदलाव हर किसी को दिख जाते हैं।"
             ),
           },
           {
             type: "stat-grid",
             items: [
               {
-                label: L("Unclean animal or shed"),
-                text: L("Dirt and germs around the animal or in the shed make it much easier for infection to enter the udder."),
+                label: L("Unclean animal or shed", "పశువు లేదా పాక అపరిశుభ్రంగా ఉండటం", "மாடு அல்லது கொட்டகை சுத்தமில்லாமல் இருப்பது", "ಪ್ರಾಣಿ ಅಥವಾ ಕೊಟ್ಟಿಗೆ ಸ್ವಚ್ಛವಿಲ್ಲದಿರುವುದು", "पशु या शेड का गंदा होना"),
+                text: L("Dirt and germs around the animal or in the shed make it much easier for infection to enter the udder.", "పశువు చుట్టూ లేదా పాకలో ఉండే మురికి, క్రిముల వల్ల పొదుగులోకి ఇన్ఫెక్షన్ చాలా సులభంగా చేరుతుంది.", "மாட்டைச் சுற்றியோ கொட்டகையிலோ உள்ள அழுக்கும் கிருமிகளும் மடிக்குள் தொற்று நுழைவதை மிக எளிதாக்குகின்றன.", "ಪ್ರಾಣಿಯ ಸುತ್ತಲೂ ಅಥವಾ ಕೊಟ್ಟಿಗೆಯಲ್ಲಿರುವ ಕೊಳೆ ಮತ್ತು ಕ್ರಿಮಿಗಳಿಂದ ಕೆಚ್ಚಲಿಗೆ ಸೋಂಕು ಸುಲಭವಾಗಿ ಸೇರುತ್ತದೆ.", "पशु के आसपास या शेड में गंदगी और कीटाणु होने से संक्रमण का थन में घुसना बहुत आसान हो जाता है।"),
               },
               {
-                label: L("Faulty milking practices"),
-                text: L("Careless or unhygienic milking is one of the main ways infection gets into the udder."),
+                label: L("Faulty milking practices", "పాలు పితికే తప్పుడు పద్ధతులు", "பால் கறக்கும் தவறான முறைகள்", "ಹಾಲು ಕರೆಯುವ ತಪ್ಪು ವಿಧಾನಗಳು", "दूध दुहने के गलत तरीके"),
+                text: L("Careless or unhygienic milking is one of the main ways infection gets into the udder.", "అజాగ్రత్తగా లేదా అపరిశుభ్రంగా పాలు పితకడం పొదుగులోకి ఇన్ఫెక్షన్ చేరే ముఖ్య మార్గాలలో ఒకటి.", "கவனக்குறைவாக அல்லது சுத்தமில்லாமல் பால் கறப்பது மடிக்குள் தொற்று நுழையும் முக்கிய வழிகளில் ஒன்று.", "ನಿರ್ಲಕ್ಷ್ಯದಿಂದ ಅಥವಾ ಅಶುಚಿಯಾಗಿ ಹಾಲು ಕರೆಯುವುದು ಕೆಚ್ಚಲಿಗೆ ಸೋಂಕು ಸೇರುವ ಮುಖ್ಯ ದಾರಿಗಳಲ್ಲಿ ಒಂದು.", "लापरवाही से या गंदे तरीके से दूध दुहना थन में संक्रमण जाने के मुख्य रास्तों में से एक है।"),
               },
               {
-                label: L("Injury to the teat or udder"),
-                text: L("Any injury to the teat or udder gives germs an easy way in."),
+                label: L("Injury to the teat or udder", "చనుమొన లేదా పొదుగుకు గాయం", "காம்பு அல்லது மடியில் காயம்", "ಮೊಲೆತೊಟ್ಟು ಅಥವಾ ಕೆಚ್ಚಲಿಗೆ ಗಾಯ", "चूची या थन में चोट"),
+                text: L("Any injury to the teat or udder gives germs an easy way in.", "చనుమొన లేదా పొదుగుకు ఏ గాయమైనా క్రిములు సులభంగా లోపలికి వెళ్లే దారి ఇస్తుంది.", "காம்பிலோ மடியிலோ ஏற்படும் எந்தக் காயமும் கிருமிகள் எளிதாக உள்ளே நுழைய வழி தருகிறது.", "ಮೊಲೆತೊಟ್ಟು ಅಥವಾ ಕೆಚ್ಚಲಿಗೆ ಆಗುವ ಯಾವುದೇ ಗಾಯವೂ ಕ್ರಿಮಿಗಳಿಗೆ ಸುಲಭ ದಾರಿ ಮಾಡಿಕೊಡುತ್ತದೆ.", "चूची या थन में कोई भी चोट कीटाणुओं को अंदर जाने का आसान रास्ता दे देती है।"),
               },
             ],
           },
           {
             type: "callout",
             style: "warning",
-            heading: L("Speed Saves the Udder — and Sometimes the Animal"),
+            heading: L("Speed Saves the Udder — and Sometimes the Animal", "వేగమే పొదుగును కాపాడుతుంది — కొన్నిసార్లు పశువును కూడా", "வேகமே மடியைக் காப்பாற்றும் — சில சமயம் மாட்டையும்", "ವೇಗವೇ ಕೆಚ್ಚಲನ್ನು ಉಳಿಸುತ್ತದೆ — ಕೆಲವೊಮ್ಮೆ ಪ್ರಾಣಿಯನ್ನೂ", "जल्दी करना थन को बचाता है — और कभी-कभी पशु को भी"),
             text: L(
-              "If you notice signs of acute mastitis, contact the veterinarian immediately. Early treatment — within 2 to 3 hours — greatly improves the chances of a full cure. Delayed treatment can cause permanent loss of the udder, or even death of the animal. This is not a 'wait and watch' situation."
+              "If you notice signs of acute mastitis, contact the veterinarian immediately. Early treatment — within 2 to 3 hours — greatly improves the chances of a full cure. Delayed treatment can cause permanent loss of the udder, or even death of the animal. This is not a 'wait and watch' situation.",
+              "తీవ్ర మాస్టిటిస్ సంకేతాలు కనిపిస్తే వెంటనే పశువైద్యుడిని సంప్రదించండి. 2 నుండి 3 గంటల్లోపు చికిత్స చేస్తే పూర్తిగా నయం అయ్యే అవకాశాలు బాగా పెరుగుతాయి. చికిత్స ఆలస్యమైతే పొదుగు శాశ్వతంగా పోవచ్చు, పశువు చనిపోవచ్చు కూడా. ఇది 'చూద్దాం, చూద్దాం' అనుకునే పరిస్థితి కాదు.",
+              "தீவிர மாஸ்டைடிஸின் அறிகுறிகள் தெரிந்தால் உடனே கால்நடை மருத்துவரைத் தொடர்பு கொள்ளுங்கள். 2 முதல் 3 மணி நேரத்துக்குள் சிகிச்சை செய்தால் முழுமையாக குணமாகும் வாய்ப்பு மிகவும் அதிகரிக்கும். சிகிச்சை தாமதமானால் மடி நிரந்தரமாக போகலாம், மாடு இறக்கவும் கூடும். இது 'பார்க்கலாம், பொறுத்திருக்கலாம்' என்று விடக்கூடிய நிலை அல்ல.",
+              "ತೀವ್ರ ಮಾಸ್ಟೈಟಿಸ್‌ನ ಲಕ್ಷಣಗಳು ಕಂಡರೆ ತಕ್ಷಣ ಪಶುವೈದ್ಯರನ್ನು ಸಂಪರ್ಕಿಸಿ. 2 ರಿಂದ 3 ಗಂಟೆಗಳ ಒಳಗೆ ಚಿಕಿತ್ಸೆ ಮಾಡಿದರೆ ಸಂಪೂರ್ಣ ಗುಣವಾಗುವ ಸಾಧ್ಯತೆ ಬಹಳ ಹೆಚ್ಚುತ್ತದೆ. ಚಿಕಿತ್ಸೆ ತಡವಾದರೆ ಕೆಚ್ಚಲು ಶಾಶ್ವತವಾಗಿ ಹೋಗಬಹುದು, ಪ್ರಾಣಿ ಸಾಯಲೂಬಹುದು. ಇದು 'ನೋಡೋಣ, ಕಾಯೋಣ' ಎನ್ನುವ ಪರಿಸ್ಥಿತಿಯಲ್ಲ.",
+              "तीव्र मैस्टाइटिस के लक्षण दिखें तो तुरंत पशु चिकित्सक से संपर्क करें। 2 से 3 घंटे के अंदर इलाज हो जाए तो पूरी तरह ठीक होने की संभावना बहुत बढ़ जाती है। इलाज में देरी से थन हमेशा के लिए खराब हो सकता है, या पशु की मौत भी हो सकती है। यह 'रुको और देखो' वाली हालत नहीं है।"
             ),
           },
           {
             type: "callout",
             style: "info",
-            heading: L("After Treatment: The Milk Is Set Aside"),
+            heading: L("After Treatment: The Milk Is Set Aside", "చికిత్స తర్వాత: పాలను పక్కన పెట్టాలి", "சிகிச்சைக்குப் பிறகு: பாலை ஒதுக்கி வைக்க வேண்டும்", "ಚಿಕಿತ್ಸೆಯ ನಂತರ: ಹಾಲನ್ನು ಪಕ್ಕಕ್ಕಿಡಬೇಕು", "इलाज के बाद: दूध को अलग रखा जाता है"),
             text: L(
-              "Once a veterinarian has treated an animal for mastitis, the milk from that animal is normally kept out of the milk supply for at least 4 days after treatment ends, or for as long as the veterinarian directs. This is a farm rule you may be asked to follow — not something you need to decide yourself."
+              "Once a veterinarian has treated an animal for mastitis, the milk from that animal is normally kept out of the milk supply for at least 4 days after treatment ends, or for as long as the veterinarian directs. This is a farm rule you may be asked to follow — not something you need to decide yourself.",
+              "పశువైద్యుడు మాస్టిటిస్‌కు చికిత్స చేసిన తర్వాత, ఆ పశువు పాలను చికిత్స ముగిసిన తర్వాత కనీసం 4 రోజుల వరకు, లేదా పశువైద్యుడు చెప్పినంత కాలం, పాల సరఫరా నుండి పక్కన పెడతారు. ఇది మీకు పాటించమని చెప్పే ఫారం నియమం — మీరే నిర్ణయించాల్సిన విషయం కాదు.",
+              "கால்நடை மருத்துவர் மாஸ்டைடிஸுக்கு சிகிச்சை அளித்த பிறகு, அந்த மாட்டின் பால் சிகிச்சை முடிந்து குறைந்தது 4 நாட்களுக்கு, அல்லது மருத்துவர் சொல்லும் வரை, பால் விநியோகத்திலிருந்து ஒதுக்கி வைக்கப்படும். இது உங்களைப் பின்பற்றச் சொல்லக்கூடிய பண்ணை விதி — நீங்களே முடிவு செய்ய வேண்டிய விஷயம் அல்ல.",
+              "ಪಶುವೈದ್ಯರು ಮಾಸ್ಟೈಟಿಸ್‌ಗೆ ಚಿಕಿತ್ಸೆ ನೀಡಿದ ನಂತರ, ಆ ಪ್ರಾಣಿಯ ಹಾಲನ್ನು ಚಿಕಿತ್ಸೆ ಮುಗಿದ ನಂತರ ಕನಿಷ್ಠ 4 ದಿನಗಳವರೆಗೆ, ಅಥವಾ ಪಶುವೈದ್ಯರು ಹೇಳುವವರೆಗೆ, ಹಾಲು ಪೂರೈಕೆಯಿಂದ ಹೊರಗಿಡಲಾಗುತ್ತದೆ. ಇದು ನೀವು ಪಾಲಿಸಬೇಕಾದ ಫಾರ್ಮ್ ನಿಯಮ — ನೀವೇ ನಿರ್ಧರಿಸಬೇಕಾದ ವಿಷಯವಲ್ಲ.",
+              "पशु चिकित्सक के मैस्टाइटिस का इलाज करने के बाद, उस पशु का दूध इलाज खत्म होने के बाद कम से कम 4 दिन तक, या जब तक चिकित्सक कहें, दूध की सप्लाई से बाहर रखा जाता है। यह फार्म का नियम है जिसे मानने को आपसे कहा जा सकता है — इसे खुद तय करने की ज़रूरत नहीं है।"
             ),
           },
         ],
         check: [
           {
             type: "mcq",
-            q: L("Why is speed so important once acute mastitis is suspected?"),
+            q: L("Why is speed so important once acute mastitis is suspected?", "తీవ్ర మాస్టిటిస్ అనుమానం వచ్చినప్పుడు వేగం ఎందుకు అంత ముఖ్యం?", "தீவிர மாஸ்டைடிஸ் என்று சந்தேகம் வந்ததும் வேகம் ஏன் இவ்வளவு முக்கியம்?", "ತೀವ್ರ ಮಾಸ್ಟೈಟಿಸ್ ಎಂದು ಅನುಮಾನ ಬಂದಾಗ ವೇಗ ಏಕೆ ಇಷ್ಟು ಮುಖ್ಯ?", "तीव्र मैस्टाइटिस का शक होते ही जल्दी करना इतना ज़रूरी क्यों है?"),
             options: [
-              L("It isn't — mastitis always heals on its own eventually"),
+              L("It isn't — mastitis always heals on its own eventually", "అవసరం లేదు — మాస్టిటిస్ ఎప్పటికైనా దానంతటదే నయమవుతుంది", "தேவையில்லை — மாஸ்டைடிஸ் எப்படியும் தானாகவே குணமாகிவிடும்", "ಅಗತ್ಯವಿಲ್ಲ — ಮಾಸ್ಟೈಟಿಸ್ ಯಾವಾಗಲೂ ತಾನಾಗಿಯೇ ವಾಸಿಯಾಗುತ್ತದೆ", "ज़रूरी नहीं — मैस्टाइटिस आखिर में हमेशा अपने आप ठीक हो जाता है"),
               L("Early treatment, within 2–3 hours, greatly improves the chance of a cure; delay can cost the animal its udder or its life"),
               L("Only to save money on milk that would otherwise be discarded"),
               L("Because the milk needs to be sold that same day"),
@@ -7547,7 +7571,7 @@ export const MODULES = [
           topicId: "t-m9-acute-signs",
           type: "mcq",
           q: L("Which of these is a major cause that makes acute mastitis more likely?"),
-          options: [L("Faulty milking practices"), L("The animal chewing the cud"), L("Cool weather"), L("A high Body Condition Score")],
+          options: [L("Faulty milking practices", "పాలు పితికే తప్పుడు పద్ధతులు", "பால் கறக்கும் தவறான முறைகள்", "ಹಾಲು ಕರೆಯುವ ತಪ್ಪು ವಿಧಾನಗಳು", "दूध दुहने के गलत तरीके"), L("The animal chewing the cud"), L("Cool weather"), L("A high Body Condition Score")],
           answer: 0,
           explain: L("Faulty (careless or unhygienic) milking practices are one of the main predisposing factors for mastitis, along with an unclean shed and injury to the udder or teat."),
         },
