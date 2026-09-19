@@ -9849,8 +9849,20 @@ export const MODULES = [
   {
     id: "m13",
     number: 13,
-    title: L("Traditional & Ethnoveterinary Remedies"),
-    subtitle: L("NDDB-documented home remedies for common problems — to be used alongside, never instead of, proper veterinary advice."),
+    title: L(
+      "Traditional & Ethnoveterinary Remedies",
+      "సాంప్రదాయ & ఎత్నోవెటర్నరీ చిట్కాలు",
+      "பாரம்பரிய & நாட்டுவைத்திய தீர்வுகள்",
+      "ಸಾಂಪ್ರದಾಯಿಕ ಮತ್ತು ಜನಪದ ಪಶುವೈದ್ಯ ಪರಿಹಾರಗಳು",
+      "पारंपरिक और जनजातीय पशु चिकित्सा उपचार"
+    ),
+    subtitle: L(
+      "NDDB-documented home remedies for common problems — to be used alongside, never instead of, proper veterinary advice.",
+      "సాధారణ సమస్యలకు NDDB నమోదు చేసిన ఇంటి చిట్కాలు — సరైన పశువైద్య సలహాకు బదులుగా కాకుండా, దానితో పాటుగా మాత్రమే వాడాలి.",
+      "பொதுவான பிரச்சினைகளுக்கு NDDB பதிவு செய்த வீட்டு வைத்தியங்கள் — சரியான கால்நடை மருத்துவ ஆலோசனைக்கு பதிலாக அல்ல, அதனுடன் சேர்த்து மட்டுமே பயன்படுத்த வேண்டும்.",
+      "ಸಾಮಾನ್ಯ ಸಮಸ್ಯೆಗಳಿಗೆ NDDB ದಾಖಲಿಸಿದ ಮನೆಮದ್ದುಗಳು — ಸರಿಯಾದ ಪಶುವೈದ್ಯ ಸಲಹೆಗೆ ಬದಲಾಗಿ ಅಲ್ಲ, ಅದರ ಜೊತೆಗೆ ಮಾತ್ರ ಬಳಸಬೇಕು.",
+      "सामान्य समस्याओं के लिए NDDB द्वारा दर्ज घरेलू उपचार — सही पशु चिकित्सा सलाह के बदले नहीं, बल्कि उसके साथ-साथ उपयोग करें।"
+    ),
     icon: "leaf",
     available: true,
     lessons: [
@@ -9859,172 +9871,466 @@ export const MODULES = [
   // ==================================================================
   {
     id: "m13-l1",
-    title: L("Traditional Remedies and the Golden Rule"),
+    title: L(
+      "Traditional Remedies and the Golden Rule",
+      "సాంప్రదాయ చిట్కాలు మరియు స్వర్ణ నియమం",
+      "பாரம்பரிய வைத்தியங்கள் மற்றும் தங்க விதி",
+      "ಸಾಂಪ್ರದಾಯಿಕ ಪರಿಹಾರಗಳು ಮತ್ತು ಸುವರ್ಣ ನಿಯಮ",
+      "पारंपरिक उपचार और स्वर्ण नियम"
+    ),
     estMinutes: 9,
     hook: [
       {
         type: "hero",
-        heading: L("Real Remedies, With One Firm Rule"),
+        heading: L(
+          "Real Remedies, With One Firm Rule",
+          "నిజమైన చిట్కాలు, ఒకే స్థిరమైన నియమంతో",
+          "உண்மையான வைத்தியங்கள், ஒரே உறுதியான விதியுடன்",
+          "ನಿಜವಾದ ಪರಿಹಾರಗಳು, ಒಂದೇ ದೃಢ ನಿಯಮದೊಂದಿಗೆ",
+          "असली उपचार, एक पक्के नियम के साथ"
+        ),
         text: L(
-          "This module teaches real home remedies that NDDB and other farming agencies have written down for common problems in cows and buffaloes — plants, spices and kitchen items, prepared and used in specific ways. They are genuine and worth knowing well. But one rule applies to every single remedy in this module: use them ALONGSIDE, never INSTEAD OF, proper veterinary advice. A vet must still be the one to diagnose what's actually wrong and to handle anything serious."
+          "This module teaches real home remedies that NDDB and other farming agencies have written down for common problems in cows and buffaloes — plants, spices and kitchen items, prepared and used in specific ways. They are genuine and worth knowing well. But one rule applies to every single remedy in this module: use them ALONGSIDE, never INSTEAD OF, proper veterinary advice. A vet must still be the one to diagnose what's actually wrong and to handle anything serious.",
+          "ఈ మాడ్యూల్ ఆవులు మరియు గేదెలలో సాధారణ సమస్యలకు NDDB మరియు ఇతర వ్యవసాయ సంస్థలు లిఖితపూర్వకంగా నమోదు చేసిన నిజమైన ఇంటి చిట్కాలను బోధిస్తుంది — మొక్కలు, మసాలాలు మరియు వంటగది వస్తువులు, నిర్దిష్ట పద్ధతుల్లో తయారు చేసి వాడతారు. ఇవి నిజమైనవి మరియు బాగా తెలుసుకోదగినవి. కానీ ఈ మాడ్యూల్‌లోని ప్రతి చిట్కాకు ఒక నియమం వర్తిస్తుంది: వాటిని సరైన పశువైద్య సలహాకు బదులుగా కాకుండా, దానితో పాటుగా మాత్రమే వాడాలి. నిజంగా ఏమి తప్పు జరిగిందో నిర్ధారించడానికి మరియు తీవ్రమైన దేనినైనా చూసుకోవడానికి పశువైద్యుడు మాత్రమే బాధ్యత వహించాలి.",
+          "இந்த தொகுதி NDDB மற்றும் பிற விவசாய நிறுவனங்கள் பசு மற்றும் எருமைகளில் பொதுவான பிரச்சினைகளுக்காக பதிவு செய்த உண்மையான வீட்டு வைத்தியங்களை கற்பிக்கிறது — தாவரங்கள், மசாலாப் பொருட்கள் மற்றும் சமையலறை பொருட்கள், குறிப்பிட்ட முறைகளில் தயாரித்து பயன்படுத்தப்படுகின்றன. இவை உண்மையானவை மற்றும் நன்கு அறிந்து கொள்ள தகுதியானவை. ஆனால் இந்த தொகுதியில் உள்ள ஒவ்வொரு வைத்தியத்திற்கும் ஒரு விதி பொருந்தும்: அவற்றை சரியான கால்நடை மருத்துவ ஆலோசனைக்கு பதிலாக அல்ல, அதனுடன் சேர்த்து மட்டுமே பயன்படுத்தவும். உண்மையில் என்ன தவறு என்பதை கண்டறிந்து, தீவிரமான எதையும் கையாள்வதற்கு இன்னும் கால்நடை மருத்துவரே பொறுப்பாக இருக்க வேண்டும்.",
+          "ಈ ಮಾಡ್ಯೂಲ್ ಹಸು ಮತ್ತು ಎಮ್ಮೆಗಳಲ್ಲಿನ ಸಾಮಾನ್ಯ ಸಮಸ್ಯೆಗಳಿಗೆ NDDB ಮತ್ತು ಇತರ ಕೃಷಿ ಸಂಸ್ಥೆಗಳು ದಾಖಲಿಸಿದ ನಿಜವಾದ ಮನೆಮದ್ದುಗಳನ್ನು ಕಲಿಸುತ್ತದೆ — ಸಸ್ಯಗಳು, ಮಸಾಲೆಗಳು ಮತ್ತು ಅಡುಗೆಮನೆ ವಸ್ತುಗಳು, ನಿರ್ದಿಷ್ಟ ವಿಧಾನಗಳಲ್ಲಿ ತಯಾರಿಸಿ ಬಳಸಲಾಗುತ್ತದೆ. ಇವು ನಿಜವಾದವು ಮತ್ತು ಚೆನ್ನಾಗಿ ತಿಳಿದುಕೊಳ್ಳಲು ಯೋಗ್ಯವಾದವು. ಆದರೆ ಈ ಮಾಡ್ಯೂಲ್‌ನ ಪ್ರತಿಯೊಂದು ಪರಿಹಾರಕ್ಕೂ ಒಂದು ನಿಯಮ ಅನ್ವಯಿಸುತ್ತದೆ: ಅವುಗಳನ್ನು ಸರಿಯಾದ ಪಶುವೈದ್ಯ ಸಲಹೆಗೆ ಬದಲಾಗಿ ಅಲ್ಲ, ಅದರ ಜೊತೆಗೆ ಮಾತ್ರ ಬಳಸಿ. ನಿಜವಾಗಿ ಏನು ತಪ್ಪಾಗಿದೆ ಎಂದು ಪತ್ತೆಹಚ್ಚಲು ಮತ್ತು ಗಂಭೀರವಾದ ಯಾವುದನ್ನಾದರೂ ನಿಭಾಯಿಸಲು ಪಶುವೈದ್ಯರೇ ಇನ್ನೂ ಜವಾಬ್ದಾರರಾಗಿರಬೇಕು.",
+          "यह मॉड्यूल गायों और भैंसों में होने वाली सामान्य समस्याओं के लिए NDDB और अन्य कृषि संस्थाओं द्वारा दर्ज किए गए असली घरेलू उपचार सिखाता है — पौधे, मसाले और रसोई की चीज़ें, जिन्हें खास तरीकों से तैयार करके उपयोग किया जाता है। ये असली हैं और अच्छी तरह जानने लायक हैं। लेकिन इस मॉड्यूल के हर उपचार पर एक नियम लागू होता है: इन्हें सही पशु चिकित्सा सलाह के बदले नहीं, बल्कि उसके साथ-साथ ही इस्तेमाल करें। असल में क्या गड़बड़ है यह पता लगाने और किसी भी गंभीर स्थिति को संभालने का काम अब भी पशु चिकित्सक का ही होना चाहिए।"
         ),
       },
     ],
     topics: [
       {
         id: "t-m13-golden-rule",
-        title: L("What Is a Traditional Remedy, and When Can You Use One?"),
+        title: L(
+          "What Is a Traditional Remedy, and When Can You Use One?",
+          "సాంప్రదాయ చిట్కా అంటే ఏమిటి, దాన్ని ఎప్పుడు వాడవచ్చు?",
+          "பாரம்பரிய வைத்தியம் என்றால் என்ன, அதை எப்போது பயன்படுத்தலாம்?",
+          "ಸಾಂಪ್ರದಾಯಿಕ ಪರಿಹಾರ ಎಂದರೇನು, ಅದನ್ನು ಯಾವಾಗ ಬಳಸಬಹುದು?",
+          "पारंपरिक उपचार क्या है, और इसे कब इस्तेमाल कर सकते हैं?"
+        ),
         teach: [
           {
             type: "text",
-            heading: L("Farmers Have Been Doing This for Generations"),
+            heading: L(
+              "Farmers Have Been Doing This for Generations",
+              "రైతులు తరతరాలుగా ఇలా చేస్తున్నారు",
+              "விவசாயிகள் தலைமுறை தலைமுறையாக இதைச் செய்து வருகின்றனர்",
+              "ರೈತರು ತಲೆಮಾರುಗಳಿಂದ ಇದನ್ನು ಮಾಡುತ್ತಿದ್ದಾರೆ",
+              "किसान पीढ़ियों से यह करते आ रहे हैं"
+            ),
             html: L(
-              "Long before a veterinarian can reach every farm, farmers have managed small, everyday problems in their animals using plants, spices and things found in the kitchen or the field. This kind of knowledge — passed down between farmers, and now written down by organisations that work with them — is what this module teaches. It is not guesswork. It is documented, real-world practice."
+              "Long before a veterinarian can reach every farm, farmers have managed small, everyday problems in their animals using plants, spices and things found in the kitchen or the field. This kind of knowledge — passed down between farmers, and now written down by organisations that work with them — is what this module teaches. It is not guesswork. It is documented, real-world practice.",
+              "పశువైద్యుడు ప్రతి పొలానికి చేరుకోవడానికి చాలా ముందు నుండే, రైతులు తమ జంతువుల్లో చిన్న, రోజువారీ సమస్యలను మొక్కలు, మసాలాలు మరియు వంటగదిలో లేదా పొలంలో దొరికే వస్తువులతో నిర్వహిస్తున్నారు. రైతుల మధ్య తరతరాలుగా అందించబడిన ఈ జ్ఞానాన్ని, ఇప్పుడు వారితో పనిచేసే సంస్థలు లిఖితపూర్వకంగా నమోదు చేస్తున్నాయి — ఇదే ఈ మాడ్యూల్ బోధించేది. ఇది ఊహాగానం కాదు. ఇది నమోదు చేయబడిన, వాస్తవిక అనుభవం.",
+              "கால்நடை மருத்துவர் ஒவ்வொரு பண்ணைக்கும் சென்றடைவதற்கு நீண்ட காலத்திற்கு முன்பே, விவசாயிகள் தங்கள் விலங்குகளின் சிறிய, அன்றாட பிரச்சினைகளை தாவரங்கள், மசாலாப் பொருட்கள் மற்றும் சமையலறை அல்லது வயலில் கிடைக்கும் பொருட்களைக் கொண்டு கையாண்டு வந்துள்ளனர். விவசாயிகளிடையே தலைமுறை தலைமுறையாக அளிக்கப்பட்ட இந்த அறிவு — இப்போது அவர்களுடன் பணிபுரியும் நிறுவனங்களால் பதிவு செய்யப்படுகிறது — இதுவே இந்த தொகுதி கற்பிப்பது. இது ஊகம் அல்ல. இது பதிவு செய்யப்பட்ட, நடைமுறை அனுபவம்.",
+              "ಪಶುವೈದ್ಯರು ಪ್ರತಿ ಫಾರ್ಮ್‌ಗೆ ತಲುಪುವುದಕ್ಕೆ ಬಹಳ ಮೊದಲೇ, ರೈತರು ತಮ್ಮ ಪ್ರಾಣಿಗಳಲ್ಲಿನ ಸಣ್ಣ, ದೈನಂದಿನ ಸಮಸ್ಯೆಗಳನ್ನು ಸಸ್ಯಗಳು, ಮಸಾಲೆಗಳು ಮತ್ತು ಅಡುಗೆಮನೆ ಅಥವಾ ಹೊಲದಲ್ಲಿ ಸಿಗುವ ವಸ್ತುಗಳಿಂದ ನಿಭಾಯಿಸುತ್ತಿದ್ದಾರೆ. ರೈತರ ನಡುವೆ ತಲೆಮಾರುಗಳಿಂದ ರವಾನೆಯಾದ ಈ ಜ್ಞಾನವನ್ನು, ಈಗ ಅವರೊಂದಿಗೆ ಕೆಲಸ ಮಾಡುವ ಸಂಸ್ಥೆಗಳು ದಾಖಲಿಸುತ್ತಿವೆ — ಇದನ್ನೇ ಈ ಮಾಡ್ಯೂಲ್ ಕಲಿಸುತ್ತದೆ. ಇದು ಊಹೆಯಲ್ಲ. ಇದು ದಾಖಲಿತ, ವಾಸ್ತವಿಕ ಅನುಭವ.",
+              "पशु चिकित्सक हर खेत तक पहुँच पाए उससे बहुत पहले से, किसान अपने जानवरों की छोटी, रोज़मर्रा की समस्याओं को पौधों, मसालों और रसोई या खेत में मिलने वाली चीज़ों से संभालते आए हैं। किसानों के बीच पीढ़ी-दर-पीढ़ी दी गई यह जानकारी — अब उनके साथ काम करने वाली संस्थाओं द्वारा दर्ज की जा रही है — यही इस मॉड्यूल में सिखाया जाता है। यह अटकल नहीं है। यह दर्ज किया गया, असली व्यावहारिक अनुभव है।"
             ),
           },
           {
             type: "glossary",
-            term: L("Ethnoveterinary Remedy"),
+            term: L(
+              "Ethnoveterinary Remedy",
+              "ఎత్నోవెటర్నరీ చిట్కా",
+              "நாட்டுவைத்திய தீர்வு",
+              "ಜನಪದ ಪಶುವೈದ್ಯ ಪರಿಹಾರ",
+              "जनजातीय पशु चिकित्सा उपचार"
+            ),
             meaning: L(
-              "A remedy for an animal's health problem, made from plants and everyday materials, that has been used and passed down by farmers and herders themselves rather than invented in a laboratory. 'Ethno' simply means 'of the people'."
+              "A remedy for an animal's health problem, made from plants and everyday materials, that has been used and passed down by farmers and herders themselves rather than invented in a laboratory. 'Ethno' simply means 'of the people'.",
+              "జంతువు ఆరోగ్య సమస్యకు మొక్కలు మరియు రోజువారీ వస్తువులతో తయారు చేసిన చిట్కా, ఇది ప్రయోగశాలలో కనిపెట్టినది కాకుండా రైతులు మరియు పశువులు మేపేవారు స్వయంగా వాడి తరతరాలుగా అందించినది. 'ఎత్నో' అంటే 'ప్రజలకు సంబంధించినది' అని అర్థం.",
+              "ஒரு விலங்கின் உடல்நல பிரச்சினைக்கான தீர்வு, தாவரங்கள் மற்றும் அன்றாட பொருட்களால் தயாரிக்கப்பட்டது, இது ஆய்வகத்தில் கண்டுபிடிக்கப்படாமல் விவசாயிகள் மற்றும் கால்நடை வளர்ப்பவர்களே பயன்படுத்தி தலைமுறை தலைமுறையாக அளித்தது. 'நாட்டு' என்பது வெறுமனே 'மக்களின்' என்று பொருள்படும்.",
+              "ಪ್ರಾಣಿಯ ಆರೋಗ್ಯ ಸಮಸ್ಯೆಗೆ ಸಸ್ಯಗಳು ಮತ್ತು ದೈನಂದಿನ ವಸ್ತುಗಳಿಂದ ತಯಾರಿಸಿದ ಪರಿಹಾರ, ಇದನ್ನು ಪ್ರಯೋಗಾಲಯದಲ್ಲಿ ಕಂಡುಹಿಡಿಯದೆ ರೈತರು ಮತ್ತು ಜಾನುವಾರು ಸಾಕುವವರೇ ಬಳಸಿ ತಲೆಮಾರುಗಳಿಂದ ರವಾನಿಸಿದ್ದಾರೆ. 'ಜನಪದ' ಎಂದರೆ ಸರಳವಾಗಿ 'ಜನರಿಗೆ ಸಂಬಂಧಿಸಿದ್ದು' ಎಂದರ್ಥ.",
+              "किसी जानवर की स्वास्थ्य समस्या के लिए पौधों और रोज़मर्रा की चीज़ों से बना उपचार, जिसे प्रयोगशाला में नहीं बनाया गया बल्कि किसानों और पशुपालकों ने खुद इस्तेमाल करके पीढ़ी-दर-पीढ़ी आगे बढ़ाया है। 'जनजातीय' का सीधा अर्थ है 'लोगों से जुड़ा हुआ'।"
             ),
           },
           {
             type: "text",
-            heading: L("Where This Module's Remedies Come From"),
+            heading: L(
+              "Where This Module's Remedies Come From",
+              "ఈ మాడ్యూల్ చిట్కాలు ఎక్కడ నుండి వచ్చాయి",
+              "இந்த தொகுதியின் வைத்தியங்கள் எங்கிருந்து வந்தன",
+              "ಈ ಮಾಡ್ಯೂಲ್‌ನ ಪರಿಹಾರಗಳು ಎಲ್ಲಿಂದ ಬಂದವು",
+              "इस मॉड्यूल के उपचार कहाँ से आए हैं"
+            ),
             html: L(
-              "This module draws on two documented sources: a farmer's handbook section on traditional remedies (collected from agencies such as BAIF, IIRR and Vivekananda Kendra), and a separate NDDB (National Dairy Development Board) brochure called <b>Ethnoveterinary Formulations for Important Ailments in Bovines</b>, prepared for exactly the kind of ground-level use you do every day."
+              "This module draws on two documented sources: a farmer's handbook section on traditional remedies (collected from agencies such as BAIF, IIRR and Vivekananda Kendra), and a separate NDDB (National Dairy Development Board) brochure called <b>Ethnoveterinary Formulations for Important Ailments in Bovines</b>, prepared for exactly the kind of ground-level use you do every day.",
+              "ఈ మాడ్యూల్ రెండు నమోదైన మూలాల ఆధారంగా రూపొందించబడింది: సాంప్రదాయ చిట్కాలపై రైతు హ్యాండ్‌బుక్ విభాగం (BAIF, IIRR మరియు వివేకానంద కేంద్రం వంటి సంస్థల నుండి సేకరించినది), మరియు <b>ఎత్నోవెటర్నరీ ఫార్ములేషన్స్ ఫర్ ఇంపార్టెంట్ ఐల్‌మెంట్స్ ఇన్ బొవైన్స్</b> అనే ప్రత్యేక NDDB (నేషనల్ డెయిరీ డెవలప్‌మెంట్ బోర్డ్) బ్రోషర్, మీరు ప్రతిరోజూ చేసే గ్రౌండ్-లెవల్ వినియోగం కోసం తయారు చేయబడింది.",
+              "இந்த தொகுதி இரண்டு பதிவு செய்யப்பட்ட மூலங்களை அடிப்படையாகக் கொண்டது: பாரம்பரிய வைத்தியங்கள் பற்றிய விவசாயி கையேடு பிரிவு (BAIF, IIRR மற்றும் விவேகானந்த கேந்திரா போன்ற நிறுவனங்களிடமிருந்து சேகரிக்கப்பட்டது), மற்றும் <b>Ethnoveterinary Formulations for Important Ailments in Bovines</b> எனும் தனி NDDB (National Dairy Development Board) துண்டுப்பிரசுரம், நீங்கள் அன்றாடம் செய்யும் கள மட்ட பயன்பாட்டிற்காகவே தயாரிக்கப்பட்டது.",
+              "ಈ ಮಾಡ್ಯೂಲ್ ಎರಡು ದಾಖಲಿತ ಮೂಲಗಳನ್ನು ಆಧರಿಸಿದೆ: ಸಾಂಪ್ರದಾಯಿಕ ಪರಿಹಾರಗಳ ಕುರಿತ ರೈತರ ಕೈಪಿಡಿ ವಿಭಾಗ (BAIF, IIRR ಮತ್ತು ವಿವೇಕಾನಂದ ಕೇಂದ್ರದಂತಹ ಸಂಸ್ಥೆಗಳಿಂದ ಸಂಗ್ರಹಿಸಿದ್ದು), ಮತ್ತು <b>Ethnoveterinary Formulations for Important Ailments in Bovines</b> ಎಂಬ ಪ್ರತ್ಯೇಕ NDDB (National Dairy Development Board) ಕರಪತ್ರ, ನೀವು ಪ್ರತಿದಿನ ಮಾಡುವ ನೆಲಮಟ್ಟದ ಬಳಕೆಗಾಗಿಯೇ ಸಿದ್ಧಪಡಿಸಲಾಗಿದೆ.",
+              "यह मॉड्यूल दो दर्ज स्रोतों पर आधारित है: पारंपरिक उपचारों पर किसान हैंडबुक का एक भाग (BAIF, IIRR और विवेकानंद केंद्र जैसी संस्थाओं से एकत्र किया गया), और <b>Ethnoveterinary Formulations for Important Ailments in Bovines</b> नामक एक अलग NDDB (National Dairy Development Board) ब्रोशर, जो ठीक उसी तरह के ज़मीनी इस्तेमाल के लिए तैयार किया गया है जो आप हर दिन करते हैं।"
             ),
           },
           {
             type: "callout",
             style: "warning",
-            heading: L("The Golden Rule: Alongside, Never Instead Of"),
+            heading: L(
+              "The Golden Rule: Alongside, Never Instead Of",
+              "స్వర్ణ నియమం: పాటుగా, ఎప్పుడూ బదులుగా కాదు",
+              "தங்க விதி: உடன் சேர்த்து, ஒருபோதும் பதிலாக அல்ல",
+              "ಸುವರ್ಣ ನಿಯಮ: ಜೊತೆಗೆ, ಎಂದಿಗೂ ಬದಲಾಗಿ ಅಲ್ಲ",
+              "स्वर्ण नियम: साथ में, कभी भी बदले में नहीं"
+            ),
             text: L(
-              "The handbook itself says these remedies are only suggestive and may not ensure a cure — the real underlying problem could be a disease that still needs proper diagnosis. That means: use a remedy ALONGSIDE veterinary advice, never as a replacement for it. If a problem is serious, sudden, or not improving, get the vet involved without waiting to see if the remedy works first."
+              "The handbook itself says these remedies are only suggestive and may not ensure a cure — the real underlying problem could be a disease that still needs proper diagnosis. That means: use a remedy ALONGSIDE veterinary advice, never as a replacement for it. If a problem is serious, sudden, or not improving, get the vet involved without waiting to see if the remedy works first.",
+              "చిట్కాలు కేవలం సూచనాత్మకమైనవి మరియు నయం అవుతుందని హామీ ఇవ్వలేవని హ్యాండ్‌బుక్ స్వయంగా చెబుతోంది — అసలు దాగి ఉన్న సమస్య ఇంకా సరైన నిర్ధారణ అవసరమైన వ్యాధి కావచ్చు. అంటే: చిట్కాను పశువైద్య సలహాకు బదులుగా కాకుండా, దానితో పాటుగా వాడాలి. సమస్య తీవ్రంగా, అకస్మాత్తుగా ఉంటే, లేదా మెరుగుపడకపోతే, చిట్కా పనిచేస్తుందో లేదో చూడటానికి వేచి ఉండకుండా వెంటనే పశువైద్యుడిని సంప్రదించండి.",
+              "இந்த வைத்தியங்கள் வெறும் பரிந்துரையே, குணப்படுத்தும் என உறுதியளிக்காது என்று கையேடு தானே கூறுகிறது — உண்மையான அடிப்படை பிரச்சினை இன்னும் சரியான நோய் கண்டறிதல் தேவைப்படும் ஒரு நோயாக இருக்கலாம். அதாவது: ஒரு வைத்தியத்தை கால்நடை மருத்துவ ஆலோசனைக்கு பதிலாக அல்ல, அதனுடன் சேர்த்து பயன்படுத்தவும். பிரச்சினை தீவிரமானது, திடீரென ஏற்பட்டது, அல்லது மேம்படவில்லை என்றால், வைத்தியம் வேலை செய்கிறதா என்று காத்திருக்காமல் உடனடியாக கால்நடை மருத்துவரை தொடர்பு கொள்ளவும்.",
+              "ಈ ಪರಿಹಾರಗಳು ಕೇವಲ ಸಲಹಾತ್ಮಕವಾಗಿವೆ ಮತ್ತು ಗುಣಪಡಿಸುತ್ತದೆ ಎಂದು ಖಾತರಿ ನೀಡುವುದಿಲ್ಲ ಎಂದು ಕೈಪಿಡಿಯೇ ಹೇಳುತ್ತದೆ — ನಿಜವಾದ ಆಧಾರವಾಗಿರುವ ಸಮಸ್ಯೆ ಇನ್ನೂ ಸರಿಯಾದ ರೋಗನಿರ್ಣಯ ಅಗತ್ಯವಿರುವ ಕಾಯಿಲೆಯಾಗಿರಬಹುದು. ಅಂದರೆ: ಪರಿಹಾರವನ್ನು ಪಶುವೈದ್ಯ ಸಲಹೆಗೆ ಬದಲಾಗಿ ಅಲ್ಲ, ಅದರ ಜೊತೆಗೆ ಬಳಸಿ. ಸಮಸ್ಯೆ ಗಂಭೀರವಾಗಿದ್ದರೆ, ಇದ್ದಕ್ಕಿದ್ದಂತೆ ಬಂದಿದ್ದರೆ, ಅಥವಾ ಸುಧಾರಿಸದಿದ್ದರೆ, ಪರಿಹಾರ ಕೆಲಸ ಮಾಡುತ್ತದೆಯೇ ಎಂದು ಕಾಯದೆ ತಕ್ಷಣ ಪಶುವೈದ್ಯರನ್ನು ಸಂಪರ್ಕಿಸಿ.",
+              "हैंडबुक खुद कहती है कि ये उपचार केवल सुझाव मात्र हैं और ठीक होने की गारंटी नहीं देते — असली अंतर्निहित समस्या कोई ऐसी बीमारी हो सकती है जिसे अब भी सही निदान की ज़रूरत है। इसका मतलब है: उपचार को पशु चिकित्सा सलाह के बदले नहीं, बल्कि उसके साथ-साथ इस्तेमाल करें। अगर समस्या गंभीर है, अचानक आई है, या सुधर नहीं रही है, तो उपचार काम करता है या नहीं यह देखने का इंतज़ार किए बिना तुरंत पशु चिकित्सक को शामिल करें।"
             ),
           },
           {
             type: "example",
-            heading: L("Two Very Different Situations"),
+            heading: L(
+              "Two Very Different Situations",
+              "రెండు చాలా భిన్నమైన పరిస్థితులు",
+              "இரண்டு மிக வேறுபட்ட சூழ்நிலைகள்",
+              "ಎರಡು ಬಹಳ ವಿಭಿನ್ನ ಸನ್ನಿವೇಶಗಳು",
+              "दो बिल्कुल अलग स्थितियाँ"
+            ),
             text: L(
-              "A cow has mild, occasional bloating after grazing on wet grass, and the vet is a day away — trying a documented home remedy while you arrange a visit is reasonable. But an animal that has suddenly collapsed, is bleeding heavily, or is struggling to breathe needs the vet contacted immediately — that is not the moment to first try a home remedy and wait to see what happens."
+              "A cow has mild, occasional bloating after grazing on wet grass, and the vet is a day away — trying a documented home remedy while you arrange a visit is reasonable. But an animal that has suddenly collapsed, is bleeding heavily, or is struggling to breathe needs the vet contacted immediately — that is not the moment to first try a home remedy and wait to see what happens.",
+              "ఒక ఆవుకు తడి గడ్డి మేసిన తర్వాత తేలికపాటి, అప్పుడప్పుడు ఉబ్బరం వస్తుంది, మరియు పశువైద్యుడు ఒక రోజు దూరంలో ఉన్నాడు — మీరు సందర్శన ఏర్పాటు చేసుకుంటున్న సమయంలో నమోదైన ఇంటి చిట్కాను ప్రయత్నించడం సహేతుకమే. కానీ అకస్మాత్తుగా కుప్పకూలిన, తీవ్రంగా రక్తస్రావం అవుతున్న, లేదా శ్వాస తీసుకోవడంలో ఇబ్బంది పడుతున్న జంతువుకు వెంటనే పశువైద్యుడిని సంప్రదించాలి — అది మొదట ఇంటి చిట్కా ప్రయత్నించి ఏమి జరుగుతుందో చూసే సమయం కాదు.",
+              "ஈரமான புல் மேய்ந்த பிறகு ஒரு பசுவுக்கு லேசான, அவ்வப்போது வீக்கம் ஏற்படுகிறது, கால்நடை மருத்துவர் ஒரு நாள் தூரத்தில் இருக்கிறார் — நீங்கள் வருகையை ஏற்பாடு செய்யும்போது பதிவு செய்யப்பட்ட வீட்டு வைத்தியத்தை முயற்சிப்பது நியாயமானது. ஆனால் திடீரென சரிந்துவிட்ட, அதிகமாக இரத்தப்போக்கு ஏற்படும், அல்லது சுவாசிக்க சிரமப்படும் விலங்குக்கு உடனடியாக கால்நடை மருத்துவரை தொடர்பு கொள்ள வேண்டும் — அது முதலில் வீட்டு வைத்தியத்தை முயற்சித்து என்ன நடக்கிறது என்று காத்திருக்கும் தருணம் அல்ல.",
+              "ಒದ್ದೆ ಹುಲ್ಲು ಮೇಯಿಸಿದ ನಂತರ ಒಂದು ಹಸುವಿಗೆ ಸೌಮ್ಯ, ಆಗಾಗ್ಗೆ ಉಬ್ಬರ ಬರುತ್ತದೆ, ಮತ್ತು ಪಶುವೈದ್ಯರು ಒಂದು ದಿನ ದೂರದಲ್ಲಿದ್ದಾರೆ — ನೀವು ಭೇಟಿಯನ್ನು ಏರ್ಪಡಿಸುತ್ತಿರುವಾಗ ದಾಖಲಿತ ಮನೆಮದ್ದನ್ನು ಪ್ರಯತ್ನಿಸುವುದು ಸಮಂಜಸ. ಆದರೆ ಇದ್ದಕ್ಕಿದ್ದಂತೆ ಕುಸಿದುಬಿದ್ದ, ತೀವ್ರವಾಗಿ ರಕ್ತಸ್ರಾವವಾಗುತ್ತಿರುವ, ಅಥವಾ ಉಸಿರಾಡಲು ಕಷ್ಟಪಡುತ್ತಿರುವ ಪ್ರಾಣಿಗೆ ತಕ್ಷಣ ಪಶುವೈದ್ಯರನ್ನು ಸಂಪರ್ಕಿಸಬೇಕು — ಅದು ಮೊದಲು ಮನೆಮದ್ದನ್ನು ಪ್ರಯತ್ನಿಸಿ ಏನಾಗುತ್ತದೆ ಎಂದು ಕಾಯುವ ಸಮಯವಲ್ಲ.",
+              "गीली घास चरने के बाद एक गाय को हल्का, कभी-कभार अफारा हो जाता है, और पशु चिकित्सक एक दिन की दूरी पर है — आप मुलाकात की व्यवस्था करते समय एक दर्ज घरेलू उपचार आज़माना उचित है। लेकिन जो जानवर अचानक गिर गया हो, बहुत ज़्यादा खून बह रहा हो, या साँस लेने में तकलीफ हो रही हो, उसके लिए तुरंत पशु चिकित्सक से संपर्क करना ज़रूरी है — यह पहले घरेलू उपचार आज़माकर क्या होता है यह देखने का समय नहीं है।"
             ),
           },
         ],
         check: [
           {
             type: "mcq",
-            q: L("What does 'ethnoveterinary' mean in this module?"),
+            q: L(
+              "What does 'ethnoveterinary' mean in this module?",
+              "ఈ మాడ్యూల్‌లో 'ఎత్నోవెటర్నరీ' అంటే ఏమిటి?",
+              "இந்த தொகுதியில் 'நாட்டுவைத்திய' என்றால் என்ன?",
+              "ಈ ಮಾಡ್ಯೂಲ್‌ನಲ್ಲಿ 'ಜನಪದ ಪಶುವೈದ್ಯ' ಎಂದರೆ ಏನು?",
+              "इस मॉड्यूल में 'जनजातीय पशु चिकित्सा' का क्या मतलब है?"
+            ),
             options: [
-              L("A brand of medicine sold in shops"),
-              L("A remedy made from plants and everyday materials, passed down among farmers, used for animal problems"),
-              L("A qualification a veterinarian earns at college"),
-              L("The name of a specific cattle disease"),
+              L(
+                "A brand of medicine sold in shops",
+                "దుకాణాల్లో అమ్మే ఒక మందు బ్రాండ్",
+                "கடைகளில் விற்கப்படும் ஒரு மருந்து பிராண்டு",
+                "ಅಂಗಡಿಗಳಲ್ಲಿ ಮಾರಾಟವಾಗುವ ಔಷಧದ ಬ್ರ್ಯಾಂಡ್",
+                "दुकानों में बिकने वाली दवा का एक ब्रांड"
+              ),
+              L(
+                "A remedy made from plants and everyday materials, passed down among farmers, used for animal problems",
+                "మొక్కలు మరియు రోజువారీ వస్తువులతో తయారు చేసిన చిట్కా, రైతుల మధ్య తరతరాలుగా అందించబడి, జంతువుల సమస్యలకు వాడేది",
+                "தாவரங்கள் மற்றும் அன்றாட பொருட்களால் தயாரிக்கப்பட்ட, விவசாயிகளிடையே தலைமுறை தலைமுறையாக அளிக்கப்பட்ட, விலங்கு பிரச்சினைகளுக்கு பயன்படுத்தப்படும் தீர்வு",
+                "ಸಸ್ಯಗಳು ಮತ್ತು ದೈನಂದಿನ ವಸ್ತುಗಳಿಂದ ತಯಾರಿಸಿದ, ರೈತರ ನಡುವೆ ತಲೆಮಾರುಗಳಿಂದ ರವಾನೆಯಾದ, ಪ್ರಾಣಿಗಳ ಸಮಸ್ಯೆಗಳಿಗೆ ಬಳಸುವ ಪರಿಹಾರ",
+                "पौधों और रोज़मर्रा की चीज़ों से बना उपचार, जो किसानों के बीच पीढ़ी-दर-पीढ़ी चला आ रहा है और जानवरों की समस्याओं के लिए इस्तेमाल होता है"
+              ),
+              L(
+                "A qualification a veterinarian earns at college",
+                "పశువైద్యుడు కళాశాలలో సంపాదించే ఒక అర్హత",
+                "கால்நடை மருத்துவர் கல்லூரியில் பெறும் ஒரு தகுதி",
+                "ಪಶುವೈದ್ಯರು ಕಾಲೇಜಿನಲ್ಲಿ ಗಳಿಸುವ ಒಂದು ಅರ್ಹತೆ",
+                "पशु चिकित्सक द्वारा कॉलेज में हासिल की जाने वाली एक योग्यता"
+              ),
+              L(
+                "The name of a specific cattle disease",
+                "ఒక నిర్దిష్ట పశు వ్యాధి పేరు",
+                "ஒரு குறிப்பிட்ட கால்நடை நோயின் பெயர்",
+                "ಒಂದು ನಿರ್ದಿಷ್ಟ ಜಾನುವಾರು ಕಾಯಿಲೆಯ ಹೆಸರು",
+                "किसी विशेष पशु रोग का नाम"
+              ),
             ],
             answer: 1,
-            explain: L("Ethnoveterinary remedies are the plant- and kitchen-based remedies that farmers themselves have developed and passed down over generations."),
+            explain: L(
+              "Ethnoveterinary remedies are the plant- and kitchen-based remedies that farmers themselves have developed and passed down over generations.",
+              "ఎత్నోవెటర్నరీ చిట్కాలు అంటే రైతులు స్వయంగా అభివృద్ధి చేసి తరతరాలుగా అందించిన మొక్కల మరియు వంటగది ఆధారిత చిట్కాలు.",
+              "நாட்டுவைத்திய தீர்வுகள் என்பது விவசாயிகளே உருவாக்கி தலைமுறை தலைமுறையாக அளித்த தாவர மற்றும் சமையலறை அடிப்படையிலான தீர்வுகள்.",
+              "ಜನಪದ ಪಶುವೈದ್ಯ ಪರಿಹಾರಗಳೆಂದರೆ ರೈತರೇ ಸ್ವತಃ ಅಭಿವೃದ್ಧಿಪಡಿಸಿ ತಲೆಮಾರುಗಳಿಂದ ರವಾನಿಸಿದ ಸಸ್ಯ ಮತ್ತು ಅಡುಗೆಮನೆ ಆಧಾರಿತ ಪರಿಹಾರಗಳು.",
+              "जनजातीय पशु चिकित्सा उपचार वे पौधे और रसोई-आधारित उपचार हैं जिन्हें किसानों ने खुद विकसित करके पीढ़ी-दर-पीढ़ी आगे बढ़ाया है।"
+            ),
           },
           {
             type: "truefalse",
-            q: L("A traditional remedy should be used instead of veterinary advice whenever one is available."),
+            q: L(
+              "A traditional remedy should be used instead of veterinary advice whenever one is available.",
+              "అందుబాటులో ఉన్నప్పుడల్లా సాంప్రదాయ చిట్కాను పశువైద్య సలహాకు బదులుగా వాడాలి.",
+              "பாரம்பரிய வைத்தியம் கிடைக்கும் போதெல்லாம் அதை கால்நடை மருத்துவ ஆலோசனைக்கு பதிலாக பயன்படுத்த வேண்டும்.",
+              "ಸಾಂಪ್ರದಾಯಿಕ ಪರಿಹಾರ ಲಭ್ಯವಿದ್ದಾಗಲೆಲ್ಲಾ ಅದನ್ನು ಪಶುವೈದ್ಯ ಸಲಹೆಗೆ ಬದಲಾಗಿ ಬಳಸಬೇಕು.",
+              "जब भी उपलब्ध हो, पारंपरिक उपचार को पशु चिकित्सा सलाह के बदले इस्तेमाल करना चाहिए।"
+            ),
             answer: false,
-            explain: L("No — the golden rule of this module is alongside, never instead of. A vet should still diagnose the real problem, especially anything serious."),
+            explain: L(
+              "No — the golden rule of this module is alongside, never instead of. A vet should still diagnose the real problem, especially anything serious.",
+              "కాదు — ఈ మాడ్యూల్ యొక్క స్వర్ణ నియమం పాటుగా, ఎప్పుడూ బదులుగా కాదు. అసలు సమస్యను, ముఖ్యంగా తీవ్రమైనదాన్ని పశువైద్యుడే నిర్ధారించాలి.",
+              "இல்லை — இந்த தொகுதியின் தங்க விதி உடன் சேர்த்து, ஒருபோதும் பதிலாக அல்ல. உண்மையான பிரச்சினையை, குறிப்பாக தீவிரமானதை, கால்நடை மருத்துவரே கண்டறிய வேண்டும்.",
+              "ಇಲ್ಲ — ಈ ಮಾಡ್ಯೂಲ್‌ನ ಸುವರ್ಣ ನಿಯಮ ಜೊತೆಗೆ, ಎಂದಿಗೂ ಬದಲಾಗಿ ಅಲ್ಲ. ನಿಜವಾದ ಸಮಸ್ಯೆಯನ್ನು, ವಿಶೇಷವಾಗಿ ಗಂಭೀರವಾದುದನ್ನು, ಪಶುವೈದ್ಯರೇ ಪತ್ತೆಹಚ್ಚಬೇಕು.",
+              "नहीं — इस मॉड्यूल का स्वर्ण नियम है साथ में, कभी बदले में नहीं। असली समस्या का, खासकर किसी गंभीर स्थिति का, निदान अब भी पशु चिकित्सक को ही करना चाहिए।"
+            ),
           },
         ],
       },
       {
         id: "t-m13-handbook-basics",
-        title: L("Handbook Remedies for Milk, Blood and Anaemia Problems"),
+        title: L(
+          "Handbook Remedies for Milk, Blood and Anaemia Problems",
+          "పాలు, రక్తం మరియు రక్తహీనత సమస్యలకు హ్యాండ్‌బుక్ చిట్కాలు",
+          "பால், இரத்தம் மற்றும் இரத்த சோகை பிரச்சினைகளுக்கான கையேடு வைத்தியங்கள்",
+          "ಹಾಲು, ರಕ್ತ ಮತ್ತು ರಕ್ತಹೀನತೆ ಸಮಸ್ಯೆಗಳಿಗೆ ಕೈಪಿಡಿ ಪರಿಹಾರಗಳು",
+          "दूध, खून और खून की कमी की समस्याओं के लिए हैंडबुक उपचार"
+        ),
         teach: [
             {
               type: "photo",
               src: "assets/photo-m13-mimosa-pudica.jpg",
-              alt: L("Close-up of Mimosa pudica compound leaves, some open and one partially folded"),
-              caption: L("Mimosa pudica, the 'touch-me-not' plant — used as a paste in the handbook's remedy for blood in milk."),
+              alt: L(
+                "Close-up of Mimosa pudica compound leaves, some open and one partially folded",
+                "మిమోసా పుడికా సంయుక్త ఆకుల క్లోజప్, కొన్ని తెరిచి, ఒకటి పాక్షికంగా మడత పడి ఉన్నాయి",
+                "மிமோசா புடிகா கூட்டு இலைகளின் நெருக்கமான காட்சி, சில திறந்திருக்க, ஒன்று பகுதியாக மடிந்திருக்கிறது",
+                "ಮಿಮೋಸಾ ಪುಡಿಕಾ ಸಂಯುಕ್ತ ಎಲೆಗಳ ಸಮೀಪ ನೋಟ, ಕೆಲವು ತೆರೆದಿದ್ದು, ಒಂದು ಭಾಗಶಃ ಮಡಚಿಕೊಂಡಿದೆ",
+                "मिमोसा पुडिका की संयुक्त पत्तियों का नज़दीकी दृश्य, कुछ खुली हुई और एक आधी मुड़ी हुई"
+              ),
+              caption: L(
+                "Mimosa pudica, the 'touch-me-not' plant — used as a paste in the handbook's remedy for blood in milk.",
+                "మిమోసా పుడికా, 'తాకితే ముడుచుకునే' మొక్క — పాలలో రక్తం సమస్యకు హ్యాండ్‌బుక్ చిట్కాలో పేస్టుగా వాడతారు.",
+                "மிமோசா புடிகா, 'தொட்டால் சுருங்கும்' தாவரம் — பாலில் இரத்தம் பிரச்சினைக்கான கையேட்டு வைத்தியத்தில் பேஸ்டாக பயன்படுத்தப்படுகிறது.",
+                "ಮಿಮೋಸಾ ಪುಡಿಕಾ, 'ಮುಟ್ಟಿದರೆ ಮುದುಡುವ' ಸಸ್ಯ — ಹಾಲಿನಲ್ಲಿ ರಕ್ತ ಸಮಸ್ಯೆಗೆ ಕೈಪಿಡಿಯ ಪರಿಹಾರದಲ್ಲಿ ಪೇಸ್ಟ್ ಆಗಿ ಬಳಸಲಾಗುತ್ತದೆ.",
+                "मिमोसा पुडिका, 'छूने से सिकुड़ने वाला' पौधा — दूध में खून आने की समस्या के हैंडबुक उपचार में पेस्ट के रूप में इस्तेमाल होता है।"
+              ),
             },
             {
               type: "photo",
               src: "assets/photo-m13-amla.jpg",
-              alt: L("A pile of round, pale-green Phyllanthus emblica (Amla / Indian gooseberry) fruits"),
-              caption: L("Amla (Indian gooseberry) — ground fruit or bark is the handbook's remedy for anaemia."),
+              alt: L(
+                "A pile of round, pale-green Phyllanthus emblica (Amla / Indian gooseberry) fruits",
+                "గుండ్రని, లేత ఆకుపచ్చ రంగు ఫిలాంతస్ ఎంబ్లికా (ఉసిరి) పండ్ల కుప్ప",
+                "வட்டமான, வெளிர் பச்சை நிற பில்லாந்தஸ் எம்ப்லிகா (நெல்லிக்காய்) பழங்களின் குவியல்",
+                "ದುಂಡಗಿನ, ತಿಳಿ ಹಸಿರು ಬಣ್ಣದ ಫಿಲಾಂಥಸ್ ಎಂಬ್ಲಿಕಾ (ನೆಲ್ಲಿಕಾಯಿ) ಹಣ್ಣುಗಳ ರಾಶಿ",
+                "गोल, हल्के हरे रंग के फिलैंथस एम्ब्लिका (आंवला) फलों का ढेर"
+              ),
+              caption: L(
+                "Amla (Indian gooseberry) — ground fruit or bark is the handbook's remedy for anaemia.",
+                "ఉసిరి (ఇండియన్ గూస్‌బెర్రీ) — దంచిన పండు లేదా బెరడు రక్తహీనతకు హ్యాండ్‌బుక్ చిట్కా.",
+                "நெல்லிக்காய் — அரைத்த பழம் அல்லது பட்டை இரத்த சோகைக்கான கையேட்டு வைத்தியம்.",
+                "ನೆಲ್ಲಿಕಾಯಿ — ಪುಡಿಮಾಡಿದ ಹಣ್ಣು ಅಥವಾ ತೊಗಟೆ ರಕ್ತಹೀನತೆಗೆ ಕೈಪಿಡಿಯ ಪರಿಹಾರ.",
+                "आंवला — पिसा हुआ फल या छाल खून की कमी के लिए हैंडबुक का उपचार है।"
+              ),
             },
             {
               type: "photo",
               src: "assets/photo-m13-asparagus-racemosus.jpg",
-              alt: L("Asparagus racemosus (Shatavari) plant with fine needle-like leaves, small white flowers and red berries"),
-              caption: L("Asparagus racemosus (Satavari) — ground root is the handbook's remedy for failure to produce milk."),
+              alt: L(
+                "Asparagus racemosus (Shatavari) plant with fine needle-like leaves, small white flowers and red berries",
+                "సన్నని సూది వంటి ఆకులు, చిన్న తెల్ల పువ్వులు మరియు ఎరుపు బెర్రీలతో కూడిన అస్పరాగస్ రేసిమోసస్ (శతావరి) మొక్క",
+                "மெல்லிய ஊசி போன்ற இலைகள், சிறிய வெள்ளை பூக்கள் மற்றும் சிவப்பு பெர்ரிகளுடன் கூடிய அஸ்பாரகஸ் ரேசிமோசஸ் (சதாவரி) தாவரம்",
+                "ಸೂಕ್ಷ್ಮ ಸೂಜಿಯಂತಹ ಎಲೆಗಳು, ಸಣ್ಣ ಬಿಳಿ ಹೂವುಗಳು ಮತ್ತು ಕೆಂಪು ಬೆರ್ರಿಗಳನ್ನು ಹೊಂದಿರುವ ಅಸ್ಪ್ಯಾರಗಸ್ ರೇಸಿಮೋಸಸ್ (ಶತಾವರಿ) ಸಸ್ಯ",
+                "पतली सुई जैसी पत्तियों, छोटे सफेद फूलों और लाल जामुनों वाला एस्पैरागस रेसीमोसस (शतावरी) पौधा"
+              ),
+              caption: L(
+                "Asparagus racemosus (Satavari) — ground root is the handbook's remedy for failure to produce milk.",
+                "అస్పరాగస్ రేసిమోసస్ (శతావరి) — దంచిన వేరు పాలు ఇవ్వకపోవడానికి హ్యాండ్‌బుక్ చిట్కా.",
+                "அஸ்பாரகஸ் ரேசிமோசஸ் (சதாவரி) — அரைத்த வேர் பால் சுரக்காமல் இருப்பதற்கான கையேட்டு வைத்தியம்.",
+                "ಅಸ್ಪ್ಯಾರಗಸ್ ರೇಸಿಮೋಸಸ್ (ಶತಾವರಿ) — ಪುಡಿಮಾಡಿದ ಬೇರು ಹಾಲು ಬಾರದಿರುವಿಕೆಗೆ ಕೈಪಿಡಿಯ ಪರಿಹಾರ.",
+                "एस्पैरागस रेसीमोसस (शतावरी) — पिसी हुई जड़ दूध न बनने की समस्या के लिए हैंडबुक का उपचार है।"
+              ),
             },
           {
             type: "text",
-            heading: L("Starting With the Handbook's Own List"),
+            heading: L(
+              "Starting With the Handbook's Own List",
+              "హ్యాండ్‌బుక్ యొక్క సొంత జాబితాతో మొదలుపెడదాం",
+              "கையேட்டின் சொந்த பட்டியலுடன் தொடங்குதல்",
+              "ಕೈಪಿಡಿಯ ಸ್ವಂತ ಪಟ್ಟಿಯೊಂದಿಗೆ ಪ್ರಾರಂಭಿಸುವುದು",
+              "हैंडबुक की अपनी सूची से शुरुआत"
+            ),
             html: L(
-              "The farmer's handbook lists remedies for over twenty different minor ailments. This topic covers the first few, exactly as the handbook describes them — what plant or ingredient is used, how it's prepared, and how much is given."
+              "The farmer's handbook lists remedies for over twenty different minor ailments. This topic covers the first few, exactly as the handbook describes them — what plant or ingredient is used, how it's prepared, and how much is given.",
+              "రైతు హ్యాండ్‌బుక్ ఇరవైకి పైగా చిన్న సమస్యలకు చిట్కాలను జాబితా చేస్తుంది. ఈ టాపిక్ మొదటి కొన్నింటిని, హ్యాండ్‌బుక్ వివరించినట్లుగానే — ఏ మొక్క లేదా పదార్థం వాడతారు, ఎలా తయారు చేస్తారు, ఎంత మోతాదులో ఇస్తారు అనేవి కవర్ చేస్తుంది.",
+              "விவசாயி கையேடு இருபதுக்கும் மேற்பட்ட சிறிய நோய்களுக்கான வைத்தியங்களை பட்டியலிடுகிறது. இந்த தலைப்பு முதல் சிலவற்றை, கையேடு விவரிப்பது போலவே — எந்த தாவரம் அல்லது பொருள் பயன்படுத்தப்படுகிறது, எப்படி தயாரிக்கப்படுகிறது, எவ்வளவு அளவு கொடுக்கப்படுகிறது என்பதை உள்ளடக்குகிறது.",
+              "ರೈತರ ಕೈಪಿಡಿ ಇಪ್ಪತ್ತಕ್ಕೂ ಹೆಚ್ಚು ಸಣ್ಣ ಸಮಸ್ಯೆಗಳಿಗೆ ಪರಿಹಾರಗಳನ್ನು ಪಟ್ಟಿ ಮಾಡುತ್ತದೆ. ಈ ವಿಷಯ ಮೊದಲ ಕೆಲವನ್ನು, ಕೈಪಿಡಿ ವಿವರಿಸಿದಂತೆಯೇ — ಯಾವ ಸಸ್ಯ ಅಥವಾ ವಸ್ತು ಬಳಸಲಾಗುತ್ತದೆ, ಹೇಗೆ ತಯಾರಿಸಲಾಗುತ್ತದೆ, ಎಷ್ಟು ಪ್ರಮಾಣದಲ್ಲಿ ಕೊಡಲಾಗುತ್ತದೆ ಎಂಬುದನ್ನು ಒಳಗೊಂಡಿದೆ.",
+              "किसान हैंडबुक बीस से अधिक अलग-अलग छोटी बीमारियों के लिए उपचार सूचीबद्ध करती है। यह विषय पहले कुछ को, हैंडबुक जैसे बताती है वैसे ही — कौन सा पौधा या सामग्री इस्तेमाल होती है, कैसे तैयार की जाती है, और कितनी मात्रा दी जाती है — शामिल करता है।"
             ),
           },
           {
             type: "stat-grid",
             items: [
               {
-                label: L("Failure to Produce Milk"),
+                label: L(
+                  "Failure to Produce Milk",
+                  "పాలు ఇవ్వకపోవడం",
+                  "பால் சுரக்காமல் இருப்பது",
+                  "ಹಾಲು ಬಾರದಿರುವಿಕೆ",
+                  "दूध न बनना"
+                ),
                 text: L(
-                  "Either: grind 250 g of Asparagus racemosus (Satavari) root and give orally for 3 to 5 days. Or: give 50 g of Leptadenia reticulata (Jivanti) leaf and stem, mixed with feed, twice a day for 30 days."
+                  "Either: grind 250 g of Asparagus racemosus (Satavari) root and give orally for 3 to 5 days. Or: give 50 g of Leptadenia reticulata (Jivanti) leaf and stem, mixed with feed, twice a day for 30 days.",
+                  "ఏదైనా ఒకటి: 250 గ్రా అస్పరాగస్ రేసిమోసస్ (శతావరి) వేరును దంచి 3 నుండి 5 రోజులు నోటి ద్వారా ఇవ్వండి. లేదా: 50 గ్రా లెప్టడేనియా రెటిక్యులేటా (జీవంతి) ఆకు మరియు కాండాన్ని దాణాతో కలిపి 30 రోజులు రోజుకు రెండుసార్లు ఇవ్వండి.",
+                  "ஒன்று: 250 கிராம் அஸ்பாரகஸ் ரேசிமோசஸ் (சதாவரி) வேரை அரைத்து 3 முதல் 5 நாட்களுக்கு வாய் வழியாக கொடுக்கவும். அல்லது: 50 கிராம் லெப்டடீனியா ரெட்டிகுலேட்டா (ஜீவந்தி) இலை மற்றும் தண்டை தீவனத்துடன் கலந்து 30 நாட்களுக்கு நாளொன்றுக்கு இரண்டு முறை கொடுக்கவும்.",
+                  "ಎರಡರಲ್ಲಿ ಒಂದು: 250 ಗ್ರಾಂ ಅಸ್ಪ್ಯಾರಗಸ್ ರೇಸಿಮೋಸಸ್ (ಶತಾವರಿ) ಬೇರನ್ನು ಪುಡಿಮಾಡಿ 3 ರಿಂದ 5 ದಿನ ಬಾಯಿಯ ಮೂಲಕ ಕೊಡಿ. ಅಥವಾ: 50 ಗ್ರಾಂ ಲೆಪ್ಟಡೀನಿಯಾ ರೆಟಿಕ್ಯುಲೇಟಾ (ಜೀವಂತಿ) ಎಲೆ ಮತ್ತು ಕಾಂಡವನ್ನು ಆಹಾರದೊಂದಿಗೆ ಬೆರೆಸಿ 30 ದಿನ ದಿನಕ್ಕೆ ಎರಡು ಬಾರಿ ಕೊಡಿ.",
+                  "या तो: 250 ग्राम एस्पैरागस रेसीमोसस (शतावरी) की जड़ पीसकर 3 से 5 दिन तक मुँह से दें। या: 50 ग्राम लेप्टाडेनिया रेटिकुलाटा (जीवंती) की पत्ती और तना चारे में मिलाकर 30 दिनों तक दिन में दो बार दें।"
                 ),
               },
               {
-                label: L("Anaemia"),
+                label: L(
+                  "Anaemia",
+                  "రక్తహీనత",
+                  "இரத்த சோகை",
+                  "ರಕ್ತಹೀನತೆ",
+                  "खून की कमी"
+                ),
                 text: L(
-                  "Grind around 50 g of Phyllanthus embelica (Amla) fruit or bark, and give daily. Anaemia means the animal's blood has become weak or thin, often making it look pale and low on energy."
+                  "Grind around 50 g of Phyllanthus embelica (Amla) fruit or bark, and give daily. Anaemia means the animal's blood has become weak or thin, often making it look pale and low on energy.",
+                  "సుమారు 50 గ్రా ఫిలాంతస్ ఎంబెలికా (ఉసిరి) పండు లేదా బెరడును దంచి ప్రతిరోజూ ఇవ్వండి. రక్తహీనత అంటే జంతువు రక్తం బలహీనంగా లేదా పలుచగా అవడం, ఇది తరచుగా జంతువు నిస్తేజంగా మరియు శక్తి తక్కువగా కనిపించేలా చేస్తుంది.",
+                  "சுமார் 50 கிராம் பில்லாந்தஸ் எம்பெலிகா (நெல்லிக்காய்) பழம் அல்லது பட்டையை அரைத்து தினமும் கொடுக்கவும். இரத்த சோகை என்பது விலங்கின் இரத்தம் பலவீனமாக அல்லது மெலிதாக மாறுவது, இது பெரும்பாலும் அதை வெளிறியதாகவும் ஆற்றல் குறைந்ததாகவும் தோன்றச் செய்யும்.",
+                  "ಸುಮಾರು 50 ಗ್ರಾಂ ಫಿಲಾಂಥಸ್ ಎಂಬೆಲಿಕಾ (ನೆಲ್ಲಿಕಾಯಿ) ಹಣ್ಣು ಅಥವಾ ತೊಗಟೆಯನ್ನು ಪುಡಿಮಾಡಿ ಪ್ರತಿದಿನ ಕೊಡಿ. ರಕ್ತಹೀನತೆ ಎಂದರೆ ಪ್ರಾಣಿಯ ರಕ್ತ ದುರ್ಬಲ ಅಥವಾ ತೆಳ್ಳಗಾಗುವುದು, ಇದು ಸಾಮಾನ್ಯವಾಗಿ ಪ್ರಾಣಿಯನ್ನು ಬಿಳಿಚಿಕೊಂಡ ಮತ್ತು ಶಕ್ತಿ ಕಡಿಮೆಯಾಗಿ ಕಾಣುವಂತೆ ಮಾಡುತ್ತದೆ.",
+                  "लगभग 50 ग्राम फिलैंथस एम्ब्लिका (आंवला) फल या छाल पीसकर रोज़ दें। खून की कमी का मतलब है जानवर का खून कमज़ोर या पतला हो जाना, जिससे अक्सर वह पीला और कमज़ोर दिखने लगता है।"
                 ),
               },
               {
-                label: L("Blood in Milk"),
+                label: L(
+                  "Blood in Milk",
+                  "పాలలో రక్తం",
+                  "பாலில் இரத்தம்",
+                  "ಹಾಲಿನಲ್ಲಿ ರಕ್ತ",
+                  "दूध में खून"
+                ),
                 text: L(
-                  "Make a paste from half to one kg of Mimosa pudica (the 'touch-me-not' plant, which folds its leaves when touched). Feed as-is for 3 to 5 days, twice daily."
+                  "Make a paste from half to one kg of Mimosa pudica (the 'touch-me-not' plant, which folds its leaves when touched). Feed as-is for 3 to 5 days, twice daily.",
+                  "అరకిలో నుండి ఒక కిలో మిమోసా పుడికా (తాకితే ఆకులు మడతపడే మొక్క) తో పేస్టు తయారు చేయండి. 3 నుండి 5 రోజులు, రోజుకు రెండుసార్లు అలాగే తినిపించండి.",
+                  "அரை முதல் ஒரு கிலோ மிமோசா புடிகா (தொட்டால் இலைகள் மடியும் தாவரம்) கொண்டு பேஸ்ட் தயாரிக்கவும். 3 முதல் 5 நாட்களுக்கு, நாளொன்றுக்கு இரண்டு முறை அப்படியே கொடுக்கவும்.",
+                  "ಅರ್ಧದಿಂದ ಒಂದು ಕೆಜಿ ಮಿಮೋಸಾ ಪುಡಿಕಾ (ಮುಟ್ಟಿದರೆ ಎಲೆಗಳು ಮಡಚಿಕೊಳ್ಳುವ ಸಸ್ಯ) ಇಂದ ಪೇಸ್ಟ್ ಮಾಡಿ. 3 ರಿಂದ 5 ದಿನ, ದಿನಕ್ಕೆ ಎರಡು ಬಾರಿ ಹಾಗೆಯೇ ತಿನ್ನಿಸಿ.",
+                  "आधा से एक किलो मिमोसा पुडिका (छूने से पत्तियाँ सिकुड़ने वाला पौधा) से पेस्ट बनाएं। 3 से 5 दिन तक, दिन में दो बार वैसे ही खिलाएं।"
                 ),
               },
             ],
           },
           {
             type: "glossary",
-            term: L("Decoction"),
+            term: L(
+              "Decoction",
+              "కషాయం",
+              "காடி (decoction)",
+              "ಕಷಾಯ",
+              "काढ़ा"
+            ),
             meaning: L(
-              "A liquid made by boiling plant material (roots, leaves, bark) in water so that its properties pass into the water, which is then given to the animal, often after straining out the solid pieces."
+              "A liquid made by boiling plant material (roots, leaves, bark) in water so that its properties pass into the water, which is then given to the animal, often after straining out the solid pieces.",
+              "మొక్క పదార్థాన్ని (వేర్లు, ఆకులు, బెరడు) నీటిలో మరిగించి, దాని గుణాలు నీటిలోకి చేరేలా చేసి తయారు చేసిన ద్రవం, దీనిని సాధారణంగా ఘన ముక్కలను వడకట్టిన తర్వాత జంతువుకు ఇస్తారు.",
+              "தாவரப் பொருளை (வேர்கள், இலைகள், பட்டை) தண்ணீரில் கொதிக்க வைத்து அதன் குணங்கள் தண்ணீரில் கலக்குமாறு செய்து தயாரிக்கப்படும் திரவம், இதை பொதுவாக திடப் பொருட்களை வடிகட்டிய பிறகு விலங்குக்கு கொடுக்கப்படுகிறது.",
+              "ಸಸ್ಯ ಪದಾರ್ಥವನ್ನು (ಬೇರುಗಳು, ಎಲೆಗಳು, ತೊಗಟೆ) ನೀರಿನಲ್ಲಿ ಕುದಿಸಿ ಅದರ ಗುಣಗಳು ನೀರಿಗೆ ಸೇರುವಂತೆ ಮಾಡಿ ತಯಾರಿಸಿದ ದ್ರವ, ಇದನ್ನು ಸಾಮಾನ್ಯವಾಗಿ ಘನ ತುಂಡುಗಳನ್ನು ಸೋಸಿದ ನಂತರ ಪ್ರಾಣಿಗೆ ಕೊಡಲಾಗುತ್ತದೆ.",
+              "पौधे के हिस्सों (जड़ें, पत्तियां, छाल) को पानी में उबालकर बनाया गया तरल, जिससे उनके गुण पानी में मिल जाते हैं, और इसे अक्सर ठोस टुकड़े छानकर जानवर को दिया जाता है।"
             ),
           },
           {
             type: "callout",
             style: "tip",
-            heading: L("The Same Plant Turns Up Again and Again"),
+            heading: L(
+              "The Same Plant Turns Up Again and Again",
+              "అదే మొక్క మళ్ళీ మళ్ళీ కనిపిస్తుంది",
+              "அதே தாவரம் மீண்டும் மீண்டும் தோன்றுகிறது",
+              "ಅದೇ ಸಸ್ಯ ಮತ್ತೆ ಮತ್ತೆ ಕಾಣಿಸಿಕೊಳ್ಳುತ್ತದೆ",
+              "वही पौधा बार-बार सामने आता है"
+            ),
             text: L(
-              "Notice Mimosa pudica above — you will see this same plant used for several completely different problems later in this module. That's normal in traditional remedies: a small number of plants are considered useful for many things. It doesn't change the golden rule — if the days given pass with no improvement, report it and involve the vet."
+              "Notice Mimosa pudica above — you will see this same plant used for several completely different problems later in this module. That's normal in traditional remedies: a small number of plants are considered useful for many things. It doesn't change the golden rule — if the days given pass with no improvement, report it and involve the vet.",
+              "పైన మిమోసా పుడికాను గమనించండి — ఈ మాడ్యూల్‌లో తర్వాత చాలా భిన్నమైన సమస్యలకు ఇదే మొక్క వాడటం మీరు చూస్తారు. సాంప్రదాయ చిట్కాలలో ఇది సాధారణం: కొన్ని మొక్కలు అనేక విషయాలకు ఉపయోగకరమని భావిస్తారు. దీనివల్ల స్వర్ణ నియమం మారదు — నిర్దేశించిన రోజులు గడిచినా మెరుగుదల లేకపోతే, నివేదించి పశువైద్యుడిని సంప్రదించండి.",
+              "மேலே மிமோசா புடிகாவை கவனியுங்கள் — இந்த தொகுதியில் பின்னர் முற்றிலும் வேறுபட்ட பல பிரச்சினைகளுக்கு இதே தாவரம் பயன்படுத்தப்படுவதை நீங்கள் காண்பீர்கள். பாரம்பரிய வைத்தியங்களில் இது சாதாரணமானது: சில தாவரங்கள் பல விஷயங்களுக்கு பயனுள்ளதாக கருதப்படுகின்றன. இது தங்க விதியை மாற்றாது — கொடுக்கப்பட்ட நாட்கள் கடந்தும் முன்னேற்றம் இல்லையென்றால், அதை தெரிவித்து கால்நடை மருத்துவரை ஈடுபடுத்தவும்.",
+              "ಮೇಲೆ ಮಿಮೋಸಾ ಪುಡಿಕಾವನ್ನು ಗಮನಿಸಿ — ಈ ಮಾಡ್ಯೂಲ್‌ನಲ್ಲಿ ನಂತರ ಹಲವಾರು ಸಂಪೂರ್ಣ ವಿಭಿನ್ನ ಸಮಸ್ಯೆಗಳಿಗೆ ಇದೇ ಸಸ್ಯ ಬಳಸಿರುವುದನ್ನು ನೀವು ನೋಡುತ್ತೀರಿ. ಸಾಂಪ್ರದಾಯಿಕ ಪರಿಹಾರಗಳಲ್ಲಿ ಇದು ಸಾಮಾನ್ಯ: ಸ್ವಲ್ಪ ಸಂಖ್ಯೆಯ ಸಸ್ಯಗಳು ಅನೇಕ ವಿಷಯಗಳಿಗೆ ಉಪಯುಕ್ತವೆಂದು ಪರಿಗಣಿಸಲಾಗುತ್ತದೆ. ಇದು ಸುವರ್ಣ ನಿಯಮವನ್ನು ಬದಲಾಯಿಸುವುದಿಲ್ಲ — ನಿಗದಿತ ದಿನಗಳು ಕಳೆದರೂ ಸುಧಾರಣೆ ಇಲ್ಲದಿದ್ದರೆ, ವರದಿ ಮಾಡಿ ಪಶುವೈದ್ಯರನ್ನು ಒಳಗೊಳ್ಳಿಸಿ.",
+              "ऊपर मिमोसा पुडिका को देखें — इस मॉड्यूल में आगे आपको यही पौधा कई बिल्कुल अलग समस्याओं के लिए इस्तेमाल होते हुए दिखेगा। पारंपरिक उपचारों में यह सामान्य है: कुछ पौधों को कई चीज़ों के लिए उपयोगी माना जाता है। इससे स्वर्ण नियम नहीं बदलता — अगर बताए गए दिन बीत जाएं और सुधार न हो, तो इसकी सूचना दें और पशु चिकित्सक को शामिल करें।"
             ),
           },
         ],
         check: [
           {
             type: "mcq",
-            q: L("According to the handbook, what is the remedy for 'failure to produce milk' using Asparagus racemosus?"),
+            q: L(
+              "According to the handbook, what is the remedy for 'failure to produce milk' using Asparagus racemosus?",
+              "హ్యాండ్‌బుక్ ప్రకారం, అస్పరాగస్ రేసిమోసస్ ఉపయోగించి 'పాలు ఇవ్వకపోవడం'కు చిట్కా ఏమిటి?",
+              "கையேட்டின்படி, அஸ்பாரகஸ் ரேசிமோசஸ் பயன்படுத்தி 'பால் சுரக்காமல் இருப்பதற்கான' வைத்தியம் என்ன?",
+              "ಕೈಪಿಡಿಯ ಪ್ರಕಾರ, ಅಸ್ಪ್ಯಾರಗಸ್ ರೇಸಿಮೋಸಸ್ ಬಳಸಿ 'ಹಾಲು ಬಾರದಿರುವಿಕೆ'ಗೆ ಪರಿಹಾರ ಏನು?",
+              "हैंडबुक के अनुसार, एस्पैरागस रेसीमोसस का उपयोग करके 'दूध न बनने' का उपचार क्या है?"
+            ),
             options: [
-              L("Grind 250 g of the root and give orally for 3 to 5 days"),
-              L("Inject it directly into the udder"),
-              L("Boil the leaves and only use them as a spray"),
-              L("It is not part of this remedy list"),
+              L(
+                "Grind 250 g of the root and give orally for 3 to 5 days",
+                "250 గ్రా వేరును దంచి 3 నుండి 5 రోజులు నోటి ద్వారా ఇవ్వాలి",
+                "250 கிராம் வேரை அரைத்து 3 முதல் 5 நாட்களுக்கு வாய் வழியாக கொடுக்க வேண்டும்",
+                "250 ಗ್ರಾಂ ಬೇರನ್ನು ಪುಡಿಮಾಡಿ 3 ರಿಂದ 5 ದಿನ ಬಾಯಿಯ ಮೂಲಕ ಕೊಡಬೇಕು",
+                "250 ग्राम जड़ पीसकर 3 से 5 दिन तक मुँह से देनी चाहिए"
+              ),
+              L(
+                "Inject it directly into the udder",
+                "దానిని నేరుగా పొదుగులోకి ఇంజెక్ట్ చేయాలి",
+                "அதை நேரடியாக மடியில் ஊசி மூலம் செலுத்த வேண்டும்",
+                "ಅದನ್ನು ನೇರವಾಗಿ ಕೆಚ್ಚಲಿಗೆ ಚುಚ್ಚುಮದ್ದು ಮಾಡಬೇಕು",
+                "इसे सीधे थन में इंजेक्ट करना चाहिए"
+              ),
+              L(
+                "Boil the leaves and only use them as a spray",
+                "ఆకులను మరిగించి కేవలం స్ప్రేగా మాత్రమే వాడాలి",
+                "இலைகளை கொதிக்க வைத்து ஸ்பிரேயாக மட்டுமே பயன்படுத்த வேண்டும்",
+                "ಎಲೆಗಳನ್ನು ಕುದಿಸಿ ಕೇವಲ ಸಿಂಪಡಣೆಯಾಗಿ ಮಾತ್ರ ಬಳಸಬೇಕು",
+                "पत्तियों को उबालकर केवल स्प्रे के रूप में इस्तेमाल करना चाहिए"
+              ),
+              L(
+                "It is not part of this remedy list",
+                "ఇది ఈ చిట్కాల జాబితాలో భాగం కాదు",
+                "இது இந்த வைத்திய பட்டியலின் பகுதி இல்லை",
+                "ಇದು ಈ ಪರಿಹಾರ ಪಟ್ಟಿಯ ಭಾಗವಲ್ಲ",
+                "यह इस उपचार सूची का हिस्सा नहीं है"
+              ),
             ],
             answer: 0,
-            explain: L("The handbook's remedy is 250 g of ground Asparagus racemosus root, given orally for 3 to 5 days."),
+            explain: L(
+              "The handbook's remedy is 250 g of ground Asparagus racemosus root, given orally for 3 to 5 days.",
+              "హ్యాండ్‌బుక్ చిట్కా 250 గ్రా దంచిన అస్పరాగస్ రేసిమోసస్ వేరును 3 నుండి 5 రోజులు నోటి ద్వారా ఇవ్వడం.",
+              "கையேட்டு வைத்தியம் 250 கிராம் அரைத்த அஸ்பாரகஸ் ரேசிமோசஸ் வேரை 3 முதல் 5 நாட்களுக்கு வாய் வழியாக கொடுப்பது.",
+              "ಕೈಪಿಡಿಯ ಪರಿಹಾರ 250 ಗ್ರಾಂ ಪುಡಿಮಾಡಿದ ಅಸ್ಪ್ಯಾರಗಸ್ ರೇಸಿಮೋಸಸ್ ಬೇರನ್ನು 3 ರಿಂದ 5 ದಿನ ಬಾಯಿಯ ಮೂಲಕ ಕೊಡುವುದು.",
+              "हैंडबुक का उपचार है 250 ग्राम पिसी हुई एस्पैरागस रेसीमोसस जड़ को 3 से 5 दिन तक मुँह से देना।"
+            ),
           },
           {
             type: "mcq",
-            q: L("Which plant does the handbook use for 'blood in milk'?"),
+            q: L(
+              "Which plant does the handbook use for 'blood in milk'?",
+              "పాలలో రక్తం కోసం హ్యాండ్‌బుక్ ఏ మొక్కను వాడుతుంది?",
+              "பாலில் இரத்தத்திற்கு கையேடு எந்த தாவரத்தை பயன்படுத்துகிறது?",
+              "ಹಾಲಿನಲ್ಲಿ ರಕ್ತಕ್ಕೆ ಕೈಪಿಡಿ ಯಾವ ಸಸ್ಯವನ್ನು ಬಳಸುತ್ತದೆ?",
+              "दूध में खून के लिए हैंडबुक किस पौधे का उपयोग करती है?"
+            ),
             options: [
-              L("Mimosa pudica (touch-me-not), made into a paste"),
-              L("Papaya latex"),
-              L("Tamarind and gingely oil"),
-              L("Euphorbia latex"),
+              L(
+                "Mimosa pudica (touch-me-not), made into a paste",
+                "మిమోసా పుడికా (తాకితే ముడుచుకునేది), పేస్టుగా చేసి",
+                "மிமோசா புடிகா (தொட்டால் சுருங்கும் தாவரம்), பேஸ்டாக செய்யப்பட்டது",
+                "ಮಿಮೋಸಾ ಪುಡಿಕಾ (ಮುಟ್ಟಿದರೆ ಮುದುಡುವ ಸಸ್ಯ), ಪೇಸ್ಟ್ ಮಾಡಿ",
+                "मिमोसा पुडिका (छूने से सिकुड़ने वाला), पेस्ट बनाकर"
+              ),
+              L(
+                "Papaya latex",
+                "బొప్పాయి జిగురు",
+                "பப்பாளி பால்",
+                "ಪಪ್ಪಾಯಿ ಅಂಟು",
+                "पपीते का दूध (लेटेक्स)"
+              ),
+              L(
+                "Tamarind and gingely oil",
+                "చింతపండు మరియు నువ్వుల నూనె",
+                "புளி மற்றும் எள் எண்ணெய்",
+                "ಹುಣಸೆಹಣ್ಣು ಮತ್ತು ಎಳ್ಳೆಣ್ಣೆ",
+                "इमली और तिल का तेल"
+              ),
+              L(
+                "Euphorbia latex",
+                "యూఫోర్బియా జిగురు",
+                "யூஃபோர்பியா பால்",
+                "ಯೂಫೋರ್ಬಿಯಾ ಅಂಟು",
+                "यूफोर्बिया का दूध (लेटेक्स)"
+              ),
             ],
             answer: 0,
-            explain: L("Mimosa pudica paste, half to one kg, fed for 3 to 5 days twice daily, is the handbook's remedy for blood in milk."),
+            explain: L(
+              "Mimosa pudica paste, half to one kg, fed for 3 to 5 days twice daily, is the handbook's remedy for blood in milk.",
+              "మిమోసా పుడికా పేస్టు, అరకిలో నుండి ఒక కిలో వరకు, 3 నుండి 5 రోజులు రోజుకు రెండుసార్లు తినిపించడం పాలలో రక్తానికి హ్యాండ్‌బుక్ చిట్కా.",
+              "மிமோசா புடிகா பேஸ்ட், அரை முதல் ஒரு கிலோ வரை, 3 முதல் 5 நாட்களுக்கு நாளொன்றுக்கு இரண்டு முறை கொடுப்பது பாலில் இரத்தத்திற்கான கையேட்டு வைத்தியம்.",
+              "ಮಿಮೋಸಾ ಪುಡಿಕಾ ಪೇಸ್ಟ್, ಅರ್ಧದಿಂದ ಒಂದು ಕೆಜಿ, 3 ರಿಂದ 5 ದಿನ ದಿನಕ್ಕೆ ಎರಡು ಬಾರಿ ತಿನ್ನಿಸುವುದು ಹಾಲಿನಲ್ಲಿ ರಕ್ತಕ್ಕೆ ಕೈಪಿಡಿಯ ಪರಿಹಾರ.",
+              "मिमोसा पुडिका का पेस्ट, आधा से एक किलो, 3 से 5 दिन तक दिन में दो बार खिलाना दूध में खून की समस्या के लिए हैंडबुक का उपचार है।"
+            ),
           },
         ],
       },
@@ -10035,50 +10341,187 @@ export const MODULES = [
         {
           topicId: "t-m13-golden-rule",
           type: "mcq",
-          q: L("If a minor problem doesn't improve after using a remedy for the number of days the source recommends, what should you do?"),
+          q: L(
+            "If a minor problem doesn't improve after using a remedy for the number of days the source recommends, what should you do?",
+            "మూలం సూచించిన రోజుల సంఖ్యకు చిట్కా వాడిన తర్వాత కూడా చిన్న సమస్య మెరుగుపడకపోతే, మీరు ఏమి చేయాలి?",
+            "மூல ஆதாரம் பரிந்துரைக்கும் நாட்களுக்கு ஒரு வைத்தியத்தை பயன்படுத்திய பிறகும் ஒரு சிறிய பிரச்சினை மேம்படவில்லை என்றால், நீங்கள் என்ன செய்ய வேண்டும்?",
+            "ಮೂಲ ಸೂಚಿಸಿದ ದಿನಗಳ ಸಂಖ್ಯೆಗೆ ಪರಿಹಾರ ಬಳಸಿದ ನಂತರವೂ ಸಣ್ಣ ಸಮಸ್ಯೆ ಸುಧಾರಿಸದಿದ್ದರೆ, ನೀವು ಏನು ಮಾಡಬೇಕು?",
+            "अगर स्रोत द्वारा सुझाए गए दिनों तक उपचार इस्तेमाल करने के बाद भी कोई छोटी समस्या ठीक न हो, तो आपको क्या करना चाहिए?"
+          ),
           options: [
-            L("Keep repeating the same remedy indefinitely"),
-            L("Try random other remedies until something works"),
-            L("Report it and get veterinary advice"),
-            L("Ignore it, since remedies always work eventually"),
+            L(
+              "Keep repeating the same remedy indefinitely",
+              "అదే చిట్కాను అనంతంగా పునరావృతం చేయడం కొనసాగించాలి",
+              "அதே வைத்தியத்தை தொடர்ந்து முடிவின்றி மீண்டும் செய்ய வேண்டும்",
+              "ಅದೇ ಪರಿಹಾರವನ್ನು ಅನಂತವಾಗಿ ಪುನರಾವರ್ತಿಸಬೇಕು",
+              "उसी उपचार को बार-बार अनिश्चित काल तक दोहराते रहना चाहिए"
+            ),
+            L(
+              "Try random other remedies until something works",
+              "ఏదో ఒకటి పనిచేసేవరకు యాదృచ్ఛికంగా ఇతర చిట్కాలు ప్రయత్నించాలి",
+              "ஏதாவது வேலை செய்யும் வரை சீரற்ற முறையில் மற்ற வைத்தியங்களை முயற்சிக்க வேண்டும்",
+              "ಏನಾದರೂ ಕೆಲಸ ಮಾಡುವವರೆಗೆ ಯಾದೃಚ್ಛಿಕವಾಗಿ ಇತರ ಪರಿಹಾರಗಳನ್ನು ಪ್ರಯತ್ನಿಸಬೇಕು",
+              "जब तक कुछ काम न करे तब तक बेतरतीब ढंग से दूसरे उपचार आज़माते रहना चाहिए"
+            ),
+            L(
+              "Report it and get veterinary advice",
+              "నివేదించి పశువైద్య సలహా తీసుకోవాలి",
+              "அதை தெரிவித்து கால்நடை மருத்துவ ஆலோசனை பெற வேண்டும்",
+              "ವರದಿ ಮಾಡಿ ಪಶುವೈದ್ಯ ಸಲಹೆ ಪಡೆಯಬೇಕು",
+              "इसकी सूचना देकर पशु चिकित्सा सलाह लेनी चाहिए"
+            ),
+            L(
+              "Ignore it, since remedies always work eventually",
+              "పట్టించుకోకూడదు, ఎందుకంటే చిట్కాలు చివరికి ఎప్పుడూ పనిచేస్తాయి",
+              "அதை புறக்கணிக்க வேண்டும், ஏனெனில் வைத்தியங்கள் எப்போதும் இறுதியில் வேலை செய்யும்",
+              "ಅದನ್ನು ಕಡೆಗಣಿಸಬೇಕು, ಏಕೆಂದರೆ ಪರಿಹಾರಗಳು ಯಾವಾಗಲೂ ಅಂತಿಮವಾಗಿ ಕೆಲಸ ಮಾಡುತ್ತವೆ",
+              "इसे नज़रअंदाज़ करना चाहिए, क्योंकि उपचार आखिरकार हमेशा काम कर जाते हैं"
+            ),
           ],
           answer: 2,
-          explain: L("Remedies are only suggestive and may not cure the real problem. If there's no improvement, involve the vet — that's the golden rule in action."),
+          explain: L(
+            "Remedies are only suggestive and may not cure the real problem. If there's no improvement, involve the vet — that's the golden rule in action.",
+            "చిట్కాలు కేవలం సూచనాత్మకమైనవి మరియు అసలు సమస్యను నయం చేయకపోవచ్చు. మెరుగుదల లేకపోతే, పశువైద్యుడిని సంప్రదించండి — అదే స్వర్ణ నియమం చేతల్లో.",
+            "வைத்தியங்கள் வெறும் பரிந்துரையே, உண்மையான பிரச்சினையை குணப்படுத்தாமல் இருக்கலாம். முன்னேற்றம் இல்லையென்றால், கால்நடை மருத்துவரை ஈடுபடுத்துங்கள் — அதுவே தங்க விதியின் நடைமுறை.",
+            "ಪರಿಹಾರಗಳು ಕೇವಲ ಸಲಹಾತ್ಮಕವಾಗಿವೆ ಮತ್ತು ನಿಜವಾದ ಸಮಸ್ಯೆಯನ್ನು ಗುಣಪಡಿಸದೇ ಇರಬಹುದು. ಸುಧಾರಣೆ ಇಲ್ಲದಿದ್ದರೆ, ಪಶುವೈದ್ಯರನ್ನು ಒಳಗೊಳ್ಳಿಸಿ — ಅದೇ ಸುವರ್ಣ ನಿಯಮದ ಕಾರ್ಯರೂಪ.",
+            "उपचार केवल सुझाव मात्र हैं और असली समस्या को ठीक नहीं कर सकते। अगर सुधार न हो, तो पशु चिकित्सक को शामिल करें — यही स्वर्ण नियम का असली रूप है।"
+          ),
         },
         {
           topicId: "t-m13-golden-rule",
           type: "truefalse",
-          q: L("The handbook that lists these traditional remedies states, in its own words, that they are only suggestive and may not ensure a cure."),
+          q: L(
+            "The handbook that lists these traditional remedies states, in its own words, that they are only suggestive and may not ensure a cure.",
+            "ఈ సాంప్రదాయ చిట్కాలను జాబితా చేసిన హ్యాండ్‌బుక్ తన సొంత మాటల్లో ఇవి కేవలం సూచనాత్మకమైనవి మరియు నయం అవుతుందని హామీ ఇవ్వలేవని చెబుతుంది.",
+            "இந்த பாரம்பரிய வைத்தியங்களை பட்டியலிடும் கையேடு, தன் சொந்த வார்த்தைகளில், அவை வெறும் பரிந்துரையே என்றும் குணப்படுத்துவதை உறுதி செய்யாது என்றும் கூறுகிறது.",
+            "ಈ ಸಾಂಪ್ರದಾಯಿಕ ಪರಿಹಾರಗಳನ್ನು ಪಟ್ಟಿ ಮಾಡುವ ಕೈಪಿಡಿ, ತನ್ನ ಸ್ವಂತ ಮಾತುಗಳಲ್ಲಿ, ಅವು ಕೇವಲ ಸಲಹಾತ್ಮಕವಾಗಿವೆ ಮತ್ತು ಗುಣಪಡಿಸುತ್ತದೆ ಎಂದು ಖಾತರಿ ನೀಡುವುದಿಲ್ಲ ಎಂದು ಹೇಳುತ್ತದೆ.",
+            "इन पारंपरिक उपचारों को सूचीबद्ध करने वाली हैंडबुक अपने ही शब्दों में कहती है कि ये केवल सुझाव मात्र हैं और ठीक होने की गारंटी नहीं देते।"
+          ),
           answer: true,
-          explain: L("Correct — the handbook is explicit that these remedies are suggestive, and that the real disease still needs to be investigated by proper veterinary means."),
+          explain: L(
+            "Correct — the handbook is explicit that these remedies are suggestive, and that the real disease still needs to be investigated by proper veterinary means.",
+            "సరైనది — ఈ చిట్కాలు సూచనాత్మకమైనవని, మరియు అసలు వ్యాధిని సరైన పశువైద్య పద్ధతుల ద్వారా ఇంకా పరిశోధించాలని హ్యాండ్‌బుక్ స్పష్టంగా చెబుతుంది.",
+            "சரி — இந்த வைத்தியங்கள் பரிந்துரையே என்றும், உண்மையான நோயை இன்னும் சரியான கால்நடை மருத்துவ முறைகள் மூலம் ஆராய வேண்டும் என்றும் கையேடு தெளிவாக கூறுகிறது.",
+            "ಸರಿ — ಈ ಪರಿಹಾರಗಳು ಸಲಹಾತ್ಮಕವಾಗಿವೆ ಎಂದೂ, ನಿಜವಾದ ಕಾಯಿಲೆಯನ್ನು ಇನ್ನೂ ಸರಿಯಾದ ಪಶುವೈದ್ಯ ವಿಧಾನಗಳ ಮೂಲಕ ತನಿಖೆ ಮಾಡಬೇಕೆಂದೂ ಕೈಪಿಡಿ ಸ್ಪಷ್ಟವಾಗಿ ಹೇಳುತ್ತದೆ.",
+            "सही — हैंडबुक स्पष्ट रूप से कहती है कि ये उपचार सुझाव मात्र हैं, और असली बीमारी की जांच अब भी सही पशु चिकित्सा तरीकों से होनी चाहिए।"
+          ),
         },
         {
           topicId: "t-m13-handbook-basics",
           type: "mcq",
-          q: L("How much ground Amla (fruit or bark) does the handbook suggest for anaemia, given daily?"),
-          options: [L("About 50 grams"), L("About 5 kilograms"), L("A single drop"), L("Amla is not part of this remedy")],
+          q: L(
+            "How much ground Amla (fruit or bark) does the handbook suggest for anaemia, given daily?",
+            "రక్తహీనతకు రోజూ ఇవ్వాల్సిన దంచిన ఉసిరి (పండు లేదా బెరడు) ఎంత మోతాదులో హ్యాండ్‌బుక్ సూచిస్తుంది?",
+            "இரத்த சோகைக்கு தினமும் கொடுக்க வேண்டிய அரைத்த நெல்லிக்காய் (பழம் அல்லது பட்டை) அளவை கையேடு எவ்வளவு பரிந்துரைக்கிறது?",
+            "ರಕ್ತಹೀನತೆಗೆ ಪ್ರತಿದಿನ ಕೊಡಬೇಕಾದ ಪುಡಿಮಾಡಿದ ನೆಲ್ಲಿಕಾಯಿ (ಹಣ್ಣು ಅಥವಾ ತೊಗಟೆ) ಎಷ್ಟು ಪ್ರಮಾಣವನ್ನು ಕೈಪಿಡಿ ಸೂಚಿಸುತ್ತದೆ?",
+            "खून की कमी के लिए रोज़ दी जाने वाली पिसी हुई आंवला (फल या छाल) की मात्रा हैंडबुक कितनी सुझाती है?"
+          ),
+          options: [
+            L(
+              "About 50 grams",
+              "సుమారు 50 గ్రాములు",
+              "சுமார் 50 கிராம்",
+              "ಸುಮಾರು 50 ಗ್ರಾಂ",
+              "लगभग 50 ग्राम"
+            ),
+            L(
+              "About 5 kilograms",
+              "సుమారు 5 కిలోలు",
+              "சுமார் 5 கிலோ",
+              "ಸುಮಾರು 5 ಕೆಜಿ",
+              "लगभग 5 किलोग्राम"
+            ),
+            L(
+              "A single drop",
+              "ఒకే ఒక చుక్క",
+              "ஒரு துளி மட்டும்",
+              "ಒಂದೇ ಒಂದು ಹನಿ",
+              "एक बूंद मात्र"
+            ),
+            L(
+              "Amla is not part of this remedy",
+              "ఈ చిట్కాలో ఉసిరి భాగం కాదు",
+              "நெல்லிக்காய் இந்த வைத்தியத்தின் பகுதி இல்லை",
+              "ನೆಲ್ಲಿಕಾಯಿ ಈ ಪರಿಹಾರದ ಭಾಗವಲ್ಲ",
+              "आंवला इस उपचार का हिस्सा नहीं है"
+            ),
+          ],
           answer: 0,
-          explain: L("The handbook's anaemia remedy is around 50 g of ground Amla fruit or bark, given daily."),
+          explain: L(
+            "The handbook's anaemia remedy is around 50 g of ground Amla fruit or bark, given daily.",
+            "హ్యాండ్‌బుక్ రక్తహీనత చిట్కా సుమారు 50 గ్రా దంచిన ఉసిరి పండు లేదా బెరడును రోజూ ఇవ్వడం.",
+            "கையேட்டு இரத்த சோகை வைத்தியம் சுமார் 50 கிராம் அரைத்த நெல்லிக்காய் பழம் அல்லது பட்டையை தினமும் கொடுப்பது.",
+            "ಕೈಪಿಡಿಯ ರಕ್ತಹೀನತೆ ಪರಿಹಾರ ಸುಮಾರು 50 ಗ್ರಾಂ ಪುಡಿಮಾಡಿದ ನೆಲ್ಲಿಕಾಯಿ ಹಣ್ಣು ಅಥವಾ ತೊಗಟೆಯನ್ನು ಪ್ರತಿದಿನ ಕೊಡುವುದು.",
+            "हैंडबुक का खून की कमी का उपचार है लगभग 50 ग्राम पिसी हुई आंवला फल या छाल रोज़ देना।"
+          ),
         },
         {
           topicId: "t-m13-handbook-basics",
           type: "truefalse",
-          q: L("Leptadenia reticulata leaf and stem is given along with feed for failure to produce milk, at 50 g twice a day for 30 days."),
+          q: L(
+            "Leptadenia reticulata leaf and stem is given along with feed for failure to produce milk, at 50 g twice a day for 30 days.",
+            "పాలు ఇవ్వకపోవడానికి లెప్టడేనియా రెటిక్యులేటా ఆకు మరియు కాండాన్ని దాణాతో పాటు, 50 గ్రా చొప్పున రోజుకు రెండుసార్లు 30 రోజులు ఇస్తారు.",
+            "பால் சுரக்காமல் இருப்பதற்கு லெப்டடீனியா ரெட்டிகுலேட்டா இலை மற்றும் தண்டை தீவனத்துடன், 50 கிராம் வீதம் நாளொன்றுக்கு இரண்டு முறை 30 நாட்களுக்கு கொடுக்கப்படுகிறது.",
+            "ಹಾಲು ಬಾರದಿರುವಿಕೆಗೆ ಲೆಪ್ಟಡೀನಿಯಾ ರೆಟಿಕ್ಯುಲೇಟಾ ಎಲೆ ಮತ್ತು ಕಾಂಡವನ್ನು ಆಹಾರದೊಂದಿಗೆ, 50 ಗ್ರಾಂ ನಂತೆ ದಿನಕ್ಕೆ ಎರಡು ಬಾರಿ 30 ದಿನ ಕೊಡಲಾಗುತ್ತದೆ.",
+            "दूध न बनने के लिए लेप्टाडेनिया रेटिकुलाटा की पत्ती और तना चारे के साथ, 50 ग्राम की मात्रा में दिन में दो बार 30 दिनों तक दिया जाता है।"
+          ),
           answer: true,
-          explain: L("Correct — this is the second of the two handbook options for failure to produce milk."),
+          explain: L(
+            "Correct — this is the second of the two handbook options for failure to produce milk.",
+            "సరైనది — ఇది పాలు ఇవ్వకపోవడానికి రెండు హ్యాండ్‌బుక్ ఎంపికల్లో రెండోది.",
+            "சரி — இது பால் சுரக்காமல் இருப்பதற்கான இரண்டு கையேட்டு விருப்பங்களில் இரண்டாவது.",
+            "ಸರಿ — ಇದು ಹಾಲು ಬಾರದಿರುವಿಕೆಗೆ ಎರಡು ಕೈಪಿಡಿ ಆಯ್ಕೆಗಳಲ್ಲಿ ಎರಡನೆಯದು.",
+            "सही — यह दूध न बनने की समस्या के लिए हैंडबुक के दो विकल्पों में से दूसरा है।"
+          ),
         },
         {
           topicId: "t-m13-golden-rule",
           type: "mcq",
-          q: L("Who has documented many of the traditional remedies used in this module, according to the source material?"),
+          q: L(
+            "Who has documented many of the traditional remedies used in this module, according to the source material?",
+            "ఈ మాడ్యూల్‌లో వాడిన సాంప్రదాయ చిట్కాలలో చాలా వాటిని మూల సామగ్రి ప్రకారం ఎవరు నమోదు చేశారు?",
+            "இந்த தொகுதியில் பயன்படுத்தப்படும் பாரம்பரிய வைத்தியங்களில் பலவற்றை மூல ஆதாரத்தின்படி யார் பதிவு செய்துள்ளனர்?",
+            "ಈ ಮಾಡ್ಯೂಲ್‌ನಲ್ಲಿ ಬಳಸಿದ ಸಾಂಪ್ರದಾಯಿಕ ಪರಿಹಾರಗಳಲ್ಲಿ ಅನೇಕವನ್ನು ಮೂಲ ವಸ್ತುವಿನ ಪ್ರಕಾರ ಯಾರು ದಾಖಲಿಸಿದ್ದಾರೆ?",
+            "स्रोत सामग्री के अनुसार, इस मॉड्यूल में इस्तेमाल किए गए कई पारंपरिक उपचारों को किसने दर्ज किया है?"
+          ),
           options: [
-            L("Only large pharmaceutical companies"),
-            L("Nobody — it is unwritten and passed on only by word of mouth"),
-            L("Agencies such as BAIF, IIRR, Vivekananda Kendra and NDDB"),
-            L("Only international vaccine manufacturers"),
+            L(
+              "Only large pharmaceutical companies",
+              "కేవలం పెద్ద ఫార్మాస్యూటికల్ కంపెనీలు మాత్రమే",
+              "பெரிய மருந்து நிறுவனங்கள் மட்டுமே",
+              "ಕೇವಲ ದೊಡ್ಡ ಔಷಧ ಕಂಪನಿಗಳು ಮಾತ್ರ",
+              "केवल बड़ी दवा कंपनियां"
+            ),
+            L(
+              "Nobody — it is unwritten and passed on only by word of mouth",
+              "ఎవరూ కాదు — ఇది వ్రాయబడలేదు మరియు నోటిమాటగా మాత్రమే అందించబడుతుంది",
+              "யாருமில்லை — இது எழுதப்படாமல் வாய்வழியாக மட்டுமே அளிக்கப்படுகிறது",
+              "ಯಾರೂ ಇಲ್ಲ — ಇದು ಬರೆಯಲ್ಪಡದೆ ಬಾಯಿಮಾತಿನಿಂದ ಮಾತ್ರ ರವಾನೆಯಾಗುತ್ತದೆ",
+              "कोई नहीं — यह अलिखित है और केवल मौखिक रूप से आगे बढ़ता है"
+            ),
+            L(
+              "Agencies such as BAIF, IIRR, Vivekananda Kendra and NDDB",
+              "BAIF, IIRR, వివేకానంద కేంద్రం మరియు NDDB వంటి సంస్థలు",
+              "BAIF, IIRR, விவேகானந்த கேந்திரா மற்றும் NDDB போன்ற நிறுவனங்கள்",
+              "BAIF, IIRR, ವಿವೇಕಾನಂದ ಕೇಂದ್ರ ಮತ್ತು NDDB ನಂತಹ ಸಂಸ್ಥೆಗಳು",
+              "BAIF, IIRR, विवेकानंद केंद्र और NDDB जैसी संस्थाएं"
+            ),
+            L(
+              "Only international vaccine manufacturers",
+              "కేవలం అంతర్జాతీయ వ్యాక్సిన్ తయారీదారులు మాత్రమే",
+              "சர்வதேச தடுப்பூசி உற்பத்தியாளர்கள் மட்டுமே",
+              "ಕೇವಲ ಅಂತರರಾಷ್ಟ್ರೀಯ ಲಸಿಕೆ ತಯಾರಕರು ಮಾತ್ರ",
+              "केवल अंतरराष्ट्रीय टीका निर्माता"
+            ),
           ],
           answer: 2,
-          explain: L("The handbook credits agencies like BAIF, IIRR and Vivekananda Kendra, and this module also draws on an NDDB brochure — real organisations that documented real farmer practice."),
+          explain: L(
+            "The handbook credits agencies like BAIF, IIRR and Vivekananda Kendra, and this module also draws on an NDDB brochure — real organisations that documented real farmer practice.",
+            "హ్యాండ్‌బుక్ BAIF, IIRR మరియు వివేకానంద కేంద్రం వంటి సంస్థలకు ఘనత ఇస్తుంది, మరియు ఈ మాడ్యూల్ NDDB బ్రోషర్ ఆధారంగా కూడా రూపొందించబడింది — ఇవి నిజమైన రైతు అనుభవాన్ని నమోదు చేసిన నిజమైన సంస్థలు.",
+            "கையேடு BAIF, IIRR மற்றும் விவேகானந்த கேந்திரா போன்ற நிறுவனங்களுக்கு பெருமை அளிக்கிறது, மேலும் இந்த தொகுதி ஒரு NDDB துண்டுப்பிரசுரத்தையும் அடிப்படையாகக் கொண்டது — உண்மையான விவசாயி நடைமுறையை பதிவு செய்த உண்மையான நிறுவனங்கள்.",
+            "ಕೈಪಿಡಿ BAIF, IIRR ಮತ್ತು ವಿವೇಕಾನಂದ ಕೇಂದ್ರದಂತಹ ಸಂಸ್ಥೆಗಳಿಗೆ ಶ್ರೇಯ ನೀಡುತ್ತದೆ, ಮತ್ತು ಈ ಮಾಡ್ಯೂಲ್ ಒಂದು NDDB ಕರಪತ್ರವನ್ನೂ ಆಧರಿಸಿದೆ — ನಿಜವಾದ ರೈತ ಅಭ್ಯಾಸವನ್ನು ದಾಖಲಿಸಿದ ನಿಜವಾದ ಸಂಸ್ಥೆಗಳು.",
+            "हैंडबुक BAIF, IIRR और विवेकानंद केंद्र जैसी संस्थाओं का श्रेय देती है, और यह मॉड्यूल एक NDDB ब्रोशर पर भी आधारित है — असली संस्थाएं जिन्होंने असली किसान व्यवहार को दर्ज किया।"
+          ),
         },
       ],
     },
@@ -10089,32 +10532,70 @@ export const MODULES = [
   // ==================================================================
   {
     id: "m13-l2",
-    title: L("More Handbook Remedies, Ailment by Ailment"),
+    title: L(
+      "More Handbook Remedies, Ailment by Ailment",
+      "మరిన్ని హ్యాండ్‌బుక్ చిట్కాలు, జబ్బు వారీగా",
+      "மேலும் கையேட்டு வைத்தியங்கள், நோய் வாரியாக",
+      "ಇನ್ನಷ್ಟು ಕೈಪಿಡಿ ಪರಿಹಾರಗಳು, ಕಾಯಿಲೆವಾರು",
+      "और हैंडबुक उपचार, बीमारी के अनुसार"
+    ),
     estMinutes: 9,
     hook: [
       {
         type: "hero",
-        heading: L("More Remedies — Same Golden Rule"),
+        heading: L(
+          "More Remedies — Same Golden Rule",
+          "మరిన్ని చిట్కాలు — అదే స్వర్ణ నియమం",
+          "மேலும் வைத்தியங்கள் — அதே தங்க விதி",
+          "ಇನ್ನಷ್ಟು ಪರಿಹಾರಗಳು — ಅದೇ ಸುವರ್ಣ ನಿಯಮ",
+          "और उपचार — वही स्वर्ण नियम"
+        ),
         text: L(
-          "This lesson continues through the handbook's remedies, grouped by the kind of problem they treat — digestive and fluid problems first, then skin, wound and parasite problems. As always: these remedies are to be used ALONGSIDE, never INSTEAD OF, proper veterinary advice, and a vet is still needed to diagnose the real cause and to handle anything serious."
+          "This lesson continues through the handbook's remedies, grouped by the kind of problem they treat — digestive and fluid problems first, then skin, wound and parasite problems. As always: these remedies are to be used ALONGSIDE, never INSTEAD OF, proper veterinary advice, and a vet is still needed to diagnose the real cause and to handle anything serious.",
+          "ఈ పాఠం హ్యాండ్‌బుక్ చిట్కాలను, అవి చికిత్స చేసే సమస్య రకం ఆధారంగా వర్గీకరించి కొనసాగిస్తుంది — మొదట జీర్ణ మరియు ద్రవ సమస్యలు, తర్వాత చర్మం, గాయం మరియు పరాన్నజీవుల సమస్యలు. ఎప్పటిలాగే: ఈ చిట్కాలను సరైన పశువైద్య సలహాకు బదులుగా కాకుండా, దానితో పాటుగా మాత్రమే వాడాలి, మరియు అసలు కారణాన్ని నిర్ధారించడానికి మరియు తీవ్రమైన దేనినైనా చూసుకోవడానికి పశువైద్యుడు ఇప్పటికీ అవసరం.",
+          "இந்த பாடம் கையேட்டு வைத்தியங்களை, அவை சிகிச்சையளிக்கும் பிரச்சினை வகையின்படி தொகுத்து தொடர்கிறது — முதலில் செரிமான மற்றும் திரவ பிரச்சினைகள், பின்னர் தோல், காயம் மற்றும் ஒட்டுண்ணி பிரச்சினைகள். எப்போதும் போல: இந்த வைத்தியங்களை சரியான கால்நடை மருத்துவ ஆலோசனைக்கு பதிலாக அல்ல, அதனுடன் சேர்த்து மட்டுமே பயன்படுத்த வேண்டும், மேலும் உண்மையான காரணத்தை கண்டறியவும் தீவிரமான எதையும் கையாளவும் இன்னும் கால்நடை மருத்துவர் தேவை.",
+          "ಈ ಪಾಠ ಕೈಪಿಡಿಯ ಪರಿಹಾರಗಳನ್ನು, ಅವು ಚಿಕಿತ್ಸೆ ನೀಡುವ ಸಮಸ್ಯೆಯ ಪ್ರಕಾರದಿಂದ ಗುಂಪುಗೂಡಿಸಿ ಮುಂದುವರಿಸುತ್ತದೆ — ಮೊದಲು ಜೀರ್ಣ ಮತ್ತು ದ್ರವ ಸಮಸ್ಯೆಗಳು, ನಂತರ ಚರ್ಮ, ಗಾಯ ಮತ್ತು ಪರಾವಲಂಬಿ ಸಮಸ್ಯೆಗಳು. ಎಂದಿನಂತೆ: ಈ ಪರಿಹಾರಗಳನ್ನು ಸರಿಯಾದ ಪಶುವೈದ್ಯ ಸಲಹೆಗೆ ಬದಲಾಗಿ ಅಲ್ಲ, ಅದರ ಜೊತೆಗೆ ಮಾತ್ರ ಬಳಸಬೇಕು, ಮತ್ತು ನಿಜವಾದ ಕಾರಣವನ್ನು ಪತ್ತೆಹಚ್ಚಲು ಮತ್ತು ಗಂಭೀರವಾದುದನ್ನು ನಿಭಾಯಿಸಲು ಪಶುವೈದ್ಯರು ಇನ್ನೂ ಅಗತ್ಯ.",
+          "यह पाठ हैंडबुक के उपचारों को, वे जिस तरह की समस्या का इलाज करते हैं उसके अनुसार समूहित करके आगे बढ़ता है — पहले पाचन और तरल पदार्थ की समस्याएं, फिर त्वचा, घाव और परजीवी समस्याएं। हमेशा की तरह: इन उपचारों को सही पशु चिकित्सा सलाह के बदले नहीं, बल्कि उसके साथ-साथ ही इस्तेमाल करना है, और असली कारण का निदान करने और किसी भी गंभीर स्थिति को संभालने के लिए अब भी पशु चिकित्सक की ज़रूरत है।"
         ),
       },
     ],
     topics: [
       {
         id: "t-m13-digestive",
-        title: L("Digestive and Fluid Problems"),
+        title: L(
+          "Digestive and Fluid Problems",
+          "జీర్ణ మరియు ద్రవ సమస్యలు",
+          "செரிமான மற்றும் திரவ பிரச்சினைகள்",
+          "ಜೀರ್ಣ ಮತ್ತು ದ್ರವ ಸಮಸ್ಯೆಗಳು",
+          "पाचन और तरल पदार्थ की समस्याएं"
+        ),
         teach: [
           {
             type: "text",
-            heading: L("Problems With Eating, Digesting or Fluid Loss"),
+            heading: L(
+              "Problems With Eating, Digesting or Fluid Loss",
+              "తినడం, జీర్ణం చేయడం లేదా ద్రవ నష్టం సమస్యలు",
+              "உண்ணுதல், செரிமானம் அல்லது திரவ இழப்பு தொடர்பான பிரச்சினைகள்",
+              "ತಿನ್ನುವುದು, ಜೀರ್ಣಿಸುವುದು ಅಥವಾ ದ್ರವ ನಷ್ಟದ ಸಮಸ್ಯೆಗಳು",
+              "खाने, पाचन या तरल पदार्थ की कमी से जुड़ी समस्याएं"
+            ),
             html: L(
-              "This topic covers the handbook's remedies for bloat, dehydration, diarrhoea and general stomach disorder — all problems connected to what's happening inside the animal's stomach and gut."
+              "This topic covers the handbook's remedies for bloat, dehydration, diarrhoea and general stomach disorder — all problems connected to what's happening inside the animal's stomach and gut.",
+              "ఈ టాపిక్ ఉబ్బరం, డీహైడ్రేషన్, విరేచనాలు మరియు సాధారణ కడుపు రుగ్మతలకు హ్యాండ్‌బుక్ చిట్కాలను కవర్ చేస్తుంది — ఇవన్నీ జంతువు కడుపు మరియు పేగుల లోపల జరిగే విషయాలకు సంబంధించిన సమస్యలు.",
+              "இந்த தலைப்பு வீக்கம், நீரிழப்பு, வயிற்றுப்போக்கு மற்றும் பொதுவான வயிற்று கோளாறுக்கான கையேட்டு வைத்தியங்களை உள்ளடக்குகிறது — இவை அனைத்தும் விலங்கின் வயிறு மற்றும் குடலுக்குள் நடக்கும் விஷயங்களுடன் தொடர்புடைய பிரச்சினைகள்.",
+              "ಈ ವಿಷಯ ಉಬ್ಬರ, ನಿರ್ಜಲೀಕರಣ, ಅತಿಸಾರ ಮತ್ತು ಸಾಮಾನ್ಯ ಹೊಟ್ಟೆ ಅಸ್ವಸ್ಥತೆಗೆ ಕೈಪಿಡಿಯ ಪರಿಹಾರಗಳನ್ನು ಒಳಗೊಂಡಿದೆ — ಇವೆಲ್ಲಾ ಪ್ರಾಣಿಯ ಹೊಟ್ಟೆ ಮತ್ತು ಕರುಳಿನ ಒಳಗೆ ನಡೆಯುವುದಕ್ಕೆ ಸಂಬಂಧಿಸಿದ ಸಮಸ್ಯೆಗಳು.",
+              "यह विषय अफारा, निर्जलीकरण, दस्त और सामान्य पेट की गड़बड़ी के लिए हैंडबुक के उपचारों को शामिल करता है — ये सभी समस्याएं जानवर के पेट और आंत के अंदर हो रही चीज़ों से जुड़ी हैं।"
             ),
           },
           {
             type: "ledger",
-            heading: L("Dehydration — the Handbook's Home ORS Recipe"),
+            heading: L(
+              "Dehydration — the Handbook's Home ORS Recipe",
+              "డీహైడ్రేషన్ — హ్యాండ్‌బుక్ ఇంటి ORS రెసిపీ",
+              "நீரிழப்பு — கையேட்டு வீட்டு ORS செய்முறை",
+              "ನಿರ್ಜಲೀಕರಣ — ಕೈಪಿಡಿಯ ಮನೆಯ ORS ಪಾಕವಿಧಾನ",
+              "निर्जलीकरण — हैंडबुक की घरेलू ORS रेसिपी"
+            ),
             rows: [
               { label: "Salt", amount: "2 teaspoons" },
               { label: "Baking soda", amount: "half a teaspoon" },
@@ -10128,29 +10609,71 @@ export const MODULES = [
           {
             type: "callout",
             style: "tip",
-            heading: L("How Much to Give"),
-            text: L("Adults: 2 to 3 litres, 2 to 3 times a day. Calves: 0.5 to 1 litre, until recovery."),
+            heading: L(
+              "How Much to Give",
+              "ఎంత మోతాదులో ఇవ్వాలి",
+              "எவ்வளவு கொடுக்க வேண்டும்",
+              "ಎಷ್ಟು ಪ್ರಮಾಣ ಕೊಡಬೇಕು",
+              "कितनी मात्रा देनी है"
+            ),
+            text: L(
+              "Adults: 2 to 3 litres, 2 to 3 times a day. Calves: 0.5 to 1 litre, until recovery.",
+              "పెద్దలకు: 2 నుండి 3 లీటర్లు, రోజుకు 2 నుండి 3 సార్లు. దూడలకు: 0.5 నుండి 1 లీటరు, కోలుకునే వరకు.",
+              "பெரியவை: 2 முதல் 3 லிட்டர், நாளொன்றுக்கு 2 முதல் 3 முறை. கன்றுகள்: 0.5 முதல் 1 லிட்டர், குணமாகும் வரை.",
+              "ವಯಸ್ಕರಿಗೆ: 2 ರಿಂದ 3 ಲೀಟರ್, ದಿನಕ್ಕೆ 2 ರಿಂದ 3 ಬಾರಿ. ಕರುಗಳಿಗೆ: 0.5 ರಿಂದ 1 ಲೀಟರ್, ಚೇತರಿಸಿಕೊಳ್ಳುವವರೆಗೆ.",
+              "वयस्क: 2 से 3 लीटर, दिन में 2 से 3 बार। बछड़े: 0.5 से 1 लीटर, ठीक होने तक।"
+            ),
           },
           {
             type: "glossary",
-            term: L("ORS (Oral Rehydration Solution)"),
+            term: L(
+              "ORS (Oral Rehydration Solution)",
+              "ORS (నోటి ద్వారా ఇచ్చే డీహైడ్రేషన్ నివారణ ద్రావణం)",
+              "ORS (வாய் வழி நீரேற்ற கரைசல்)",
+              "ORS (ಬಾಯಿಯ ಮೂಲಕ ಕೊಡುವ ಜಲಸಂಚಯನ ದ್ರಾವಣ)",
+              "ORS (मुँह से दिया जाने वाला पुनर्जलीकरण घोल)"
+            ),
             meaning: L(
-              "A mix of salt, sugar and water given by mouth to replace the water and salts an animal loses during diarrhoea or dehydration. It's the same basic idea used for people."
+              "A mix of salt, sugar and water given by mouth to replace the water and salts an animal loses during diarrhoea or dehydration. It's the same basic idea used for people.",
+              "విరేచనాలు లేదా డీహైడ్రేషన్ సమయంలో జంతువు కోల్పోయిన నీరు మరియు లవణాలను తిరిగి పొందేందుకు నోటి ద్వారా ఇచ్చే ఉప్పు, చక్కెర మరియు నీటి మిశ్రమం. ఇది మనుషులకు వాడే అదే ప్రాథమిక భావన.",
+              "வயிற்றுப்போக்கு அல்லது நீரிழப்பின் போது விலங்கு இழக்கும் நீர் மற்றும் உப்புகளை மாற்றியமைக்க வாய் வழியாக கொடுக்கப்படும் உப்பு, சர்க்கரை மற்றும் நீர் கலவை. இது மனிதர்களுக்கு பயன்படுத்தப்படும் அதே அடிப்படை கருத்து.",
+              "ಅತಿಸಾರ ಅಥವಾ ನಿರ್ಜಲೀಕರಣದ ಸಮಯದಲ್ಲಿ ಪ್ರಾಣಿ ಕಳೆದುಕೊಳ್ಳುವ ನೀರು ಮತ್ತು ಲವಣಗಳನ್ನು ಬದಲಿಸಲು ಬಾಯಿಯ ಮೂಲಕ ಕೊಡುವ ಉಪ್ಪು, ಸಕ್ಕರೆ ಮತ್ತು ನೀರಿನ ಮಿಶ್ರಣ. ಇದು ಮನುಷ್ಯರಿಗೆ ಬಳಸುವ ಅದೇ ಮೂಲ ಕಲ್ಪನೆ.",
+              "दस्त या निर्जलीकरण के दौरान जानवर द्वारा खोए गए पानी और लवणों की भरपाई के लिए मुँह से दिया जाने वाला नमक, चीनी और पानी का मिश्रण। यह इंसानों के लिए इस्तेमाल होने वाली वही मूल अवधारणा है।"
             ),
           },
           {
             type: "stat-grid",
             items: [
               {
-                label: L("Bloat (mild)"),
+                label: L(
+                  "Bloat (mild)",
+                  "ఉబ్బరం (తేలికపాటిది)",
+                  "வீக்கம் (லேசானது)",
+                  "ಉಬ್ಬರ (ಸೌಮ್ಯ)",
+                  "अफारा (हल्का)"
+                ),
                 text: L(
-                  "Boil 50 g ginger, 1 whole garlic, 3 cardamoms and 5–6 cloves in half a litre of water with a little jaggery to make a decoction. Give once a day for 2 days, freshly prepared each day. Give calves half the adult quantity."
+                  "Boil 50 g ginger, 1 whole garlic, 3 cardamoms and 5–6 cloves in half a litre of water with a little jaggery to make a decoction. Give once a day for 2 days, freshly prepared each day. Give calves half the adult quantity.",
+                  "50 గ్రా అల్లం, 1 పూర్తి వెల్లుల్లి, 3 ఏలకులు మరియు 5–6 లవంగాలను కొద్దిగా బెల్లంతో అరలీటరు నీటిలో మరిగించి కషాయం తయారు చేయండి. 2 రోజులు రోజుకు ఒకసారి ఇవ్వండి, ప్రతిరోజూ తాజాగా తయారు చేయండి. దూడలకు పెద్దల మోతాదులో సగం ఇవ్వండి.",
+                  "50 கிராம் இஞ்சி, 1 முழு பூண்டு, 3 ஏலக்காய் மற்றும் 5–6 கிராம்பு ஆகியவற்றை சிறிது வெல்லத்துடன் அரை லிட்டர் நீரில் கொதிக்க வைத்து காடி தயாரிக்கவும். 2 நாட்களுக்கு நாளொன்றுக்கு ஒரு முறை கொடுக்கவும், ஒவ்வொரு நாளும் புதிதாக தயாரிக்கவும். கன்றுகளுக்கு பெரியவர்களின் அளவில் பாதி கொடுக்கவும்.",
+                  "50 ಗ್ರಾಂ ಶುಂಠಿ, 1 ಪೂರ್ಣ ಬೆಳ್ಳುಳ್ಳಿ, 3 ಏಲಕ್ಕಿ ಮತ್ತು 5–6 ಲವಂಗಗಳನ್ನು ಸ್ವಲ್ಪ ಬೆಲ್ಲದೊಂದಿಗೆ ಅರ್ಧ ಲೀಟರ್ ನೀರಿನಲ್ಲಿ ಕುದಿಸಿ ಕಷಾಯ ತಯಾರಿಸಿ. 2 ದಿನ ದಿನಕ್ಕೆ ಒಮ್ಮೆ ಕೊಡಿ, ಪ್ರತಿದಿನ ತಾಜಾಗಿ ತಯಾರಿಸಿ. ಕರುಗಳಿಗೆ ವಯಸ್ಕರ ಪ್ರಮಾಣದ ಅರ್ಧ ಕೊಡಿ.",
+                  "50 ग्राम अदरक, 1 पूरा लहसुन, 3 इलायची और 5–6 लौंग को थोड़े गुड़ के साथ आधा लीटर पानी में उबालकर काढ़ा बनाएं। 2 दिनों तक दिन में एक बार दें, हर दिन ताज़ा तैयार करें। बछड़ों को वयस्क मात्रा की आधी दें।"
                 ),
               },
               {
-                label: L("Stomach Disorder"),
+                label: L(
+                  "Stomach Disorder",
+                  "కడుపు రుగ్మత",
+                  "வயிற்று கோளாறு",
+                  "ಹೊಟ್ಟೆ ಅಸ್ವಸ್ಥತೆ",
+                  "पेट की गड़बड़ी"
+                ),
                 text: L(
-                  "Mix 500 ml each of ginger juice and drumstick (Soanjana) leaf juice with 200 ml of honey into one dose. Give twice a day for 2 days."
+                  "Mix 500 ml each of ginger juice and drumstick (Soanjana) leaf juice with 200 ml of honey into one dose. Give twice a day for 2 days.",
+                  "500 మి.లీ చొప్పున అల్లం రసం మరియు మునగ (సొంజన) ఆకు రసాన్ని 200 మి.లీ తేనెతో కలిపి ఒక మోతాదు తయారు చేయండి. 2 రోజులు రోజుకు రెండుసార్లు ఇవ్వండి.",
+                  "500 மி.லி வீதம் இஞ்சி சாறு மற்றும் முருங்கை இலை சாறை 200 மி.லி தேனுடன் கலந்து ஒரு டோஸாக செய்யவும். 2 நாட்களுக்கு நாளொன்றுக்கு இரண்டு முறை கொடுக்கவும்.",
+                  "ತಲಾ 500 ಮಿ.ಲೀ ಶುಂಠಿ ರಸ ಮತ್ತು ನುಗ್ಗೆ ಎಲೆ ರಸವನ್ನು 200 ಮಿ.ಲೀ ಜೇನುತುಪ್ಪದೊಂದಿಗೆ ಬೆರೆಸಿ ಒಂದು ಡೋಸ್ ಮಾಡಿ. 2 ದಿನ ದಿನಕ್ಕೆ ಎರಡು ಬಾರಿ ಕೊಡಿ.",
+                  "500 मिली अदरक का रस और सहजन (मुनगा) पत्ती का रस, दोनों को 200 मिली शहद के साथ मिलाकर एक खुराक बनाएं। 2 दिनों तक दिन में दो बार दें।"
                 ),
               },
             ],
@@ -10159,16 +10682,52 @@ export const MODULES = [
             type: "stat-grid",
             items: [
               {
-                label: L("Diarrhoea — Option 1"),
-                text: L("Boil a handful of tea leaves in one litre of water, strain, add half a handful of ground ginger. Drench twice a day for 3 to 4 days, prepared fresh daily."),
+                label: L(
+                  "Diarrhoea — Option 1",
+                  "విరేచనాలు — ఎంపిక 1",
+                  "வயிற்றுப்போக்கு — விருப்பம் 1",
+                  "ಅತಿಸಾರ — ಆಯ್ಕೆ 1",
+                  "दस्त — विकल्प 1"
+                ),
+                text: L(
+                  "Boil a handful of tea leaves in one litre of water, strain, add half a handful of ground ginger. Drench twice a day for 3 to 4 days, prepared fresh daily.",
+                  "ఒక పిడికెడు తేయాకును ఒక లీటరు నీటిలో మరిగించి, వడకట్టి, సగం పిడికెడు దంచిన అల్లం కలపండి. 3 నుండి 4 రోజులు రోజుకు రెండుసార్లు తాగించండి, ప్రతిరోజూ తాజాగా తయారు చేయండి.",
+                  "ஒரு பிடி தேயிலையை ஒரு லிட்டர் நீரில் கொதிக்க வைத்து, வடிகட்டி, அரை பிடி அரைத்த இஞ்சி சேர்க்கவும். 3 முதல் 4 நாட்களுக்கு நாளொன்றுக்கு இரண்டு முறை புகட்டவும், தினமும் புதிதாக தயாரிக்கவும்.",
+                  "ಒಂದು ಹಿಡಿ ಚಹಾ ಎಲೆಯನ್ನು ಒಂದು ಲೀಟರ್ ನೀರಿನಲ್ಲಿ ಕುದಿಸಿ, ಸೋಸಿ, ಅರ್ಧ ಹಿಡಿ ಪುಡಿಮಾಡಿದ ಶುಂಠಿ ಸೇರಿಸಿ. 3 ರಿಂದ 4 ದಿನ ದಿನಕ್ಕೆ ಎರಡು ಬಾರಿ ಕುಡಿಸಿ, ಪ್ರತಿದಿನ ತಾಜಾಗಿ ತಯಾರಿಸಿ.",
+                  "एक मुट्ठी चायपत्ती को एक लीटर पानी में उबालकर छान लें, आधी मुट्ठी पिसी अदरक मिलाएं। 3 से 4 दिनों तक दिन में दो बार पिलाएं, रोज़ ताज़ा तैयार करें।"
+                ),
               },
               {
-                label: L("Diarrhoea — Option 2"),
-                text: L("Boil half a kg of fresh guava (Amrut) leaves in three glasses of water. Drench twice a day."),
+                label: L(
+                  "Diarrhoea — Option 2",
+                  "విరేచనాలు — ఎంపిక 2",
+                  "வயிற்றுப்போக்கு — விருப்பம் 2",
+                  "ಅತಿಸಾರ — ಆಯ್ಕೆ 2",
+                  "दस्त — विकल्प 2"
+                ),
+                text: L(
+                  "Boil half a kg of fresh guava (Amrut) leaves in three glasses of water. Drench twice a day.",
+                  "అర కిలో తాజా జామ (అమృత్) ఆకులను మూడు గ్లాసుల నీటిలో మరిగించండి. రోజుకు రెండుసార్లు తాగించండి.",
+                  "அரை கிலோ புதிய கொய்யா (அமிர்த்) இலைகளை மூன்று கிளாஸ் நீரில் கொதிக்க வைக்கவும். நாளொன்றுக்கு இரண்டு முறை புகட்டவும்.",
+                  "ಅರ್ಧ ಕೆಜಿ ತಾಜಾ ಸೀಬೆ (ಅಮೃತ್) ಎಲೆಗಳನ್ನು ಮೂರು ಲೋಟ ನೀರಿನಲ್ಲಿ ಕುದಿಸಿ. ದಿನಕ್ಕೆ ಎರಡು ಬಾರಿ ಕುಡಿಸಿ.",
+                  "आधा किलो ताज़ा अमरूद (अमृत) की पत्तियों को तीन गिलास पानी में उबालें। दिन में दो बार पिलाएं।"
+                ),
               },
               {
-                label: L("Diarrhoea — Option 3"),
-                text: L("Mix 5 to 10 crystals of potassium permanganate in 1 litre of water. Drench twice a day."),
+                label: L(
+                  "Diarrhoea — Option 3",
+                  "విరేచనాలు — ఎంపిక 3",
+                  "வயிற்றுப்போக்கு — விருப்பம் 3",
+                  "ಅತಿಸಾರ — ಆಯ್ಕೆ 3",
+                  "दस्त — विकल्प 3"
+                ),
+                text: L(
+                  "Mix 5 to 10 crystals of potassium permanganate in 1 litre of water. Drench twice a day.",
+                  "5 నుండి 10 స్ఫటికాల పొటాషియం పర్మాంగనేట్‌ను 1 లీటరు నీటిలో కలపండి. రోజుకు రెండుసార్లు తాగించండి.",
+                  "5 முதல் 10 படிகங்கள் பொட்டாசியம் பர்மாங்கனேட்டை 1 லிட்டர் நீரில் கலக்கவும். நாளொன்றுக்கு இரண்டு முறை புகட்டவும்.",
+                  "5 ರಿಂದ 10 ಸ್ಫಟಿಕಗಳ ಪೊಟ್ಯಾಸಿಯಂ ಪರ್ಮ್ಯಾಂಗನೇಟ್ ಅನ್ನು 1 ಲೀಟರ್ ನೀರಿನಲ್ಲಿ ಬೆರೆಸಿ. ದಿನಕ್ಕೆ ಎರಡು ಬಾರಿ ಕುಡಿಸಿ.",
+                  "5 से 10 क्रिस्टल पोटैशियम परमैंगनेट को 1 लीटर पानी में मिलाएं। दिन में दो बार पिलाएं।"
+                ),
               },
             ],
           },
@@ -10176,71 +10735,199 @@ export const MODULES = [
         check: [
           {
             type: "mcq",
-            q: L("What three kitchen ingredients make up the handbook's home ORS recipe for dehydration?"),
+            q: L(
+              "What three kitchen ingredients make up the handbook's home ORS recipe for dehydration?",
+              "డీహైడ్రేషన్‌కు హ్యాండ్‌బుక్ ఇంటి ORS రెసిపీలో ఏ మూడు వంటగది పదార్థాలు ఉంటాయి?",
+              "நீரிழப்புக்கான கையேட்டு வீட்டு ORS செய்முறையில் என்ன மூன்று சமையலறை பொருட்கள் உள்ளன?",
+              "ನಿರ್ಜಲೀಕರಣಕ್ಕೆ ಕೈಪಿಡಿಯ ಮನೆಯ ORS ಪಾಕವಿಧಾನದಲ್ಲಿ ಯಾವ ಮೂರು ಅಡುಗೆಮನೆ ಪದಾರ್ಥಗಳಿವೆ?",
+              "निर्जलीकरण के लिए हैंडबुक की घरेलू ORS रेसिपी में कौन सी तीन रसोई सामग्री शामिल हैं?"
+            ),
             options: [
-              L("Salt, baking soda and sugar, dissolved in water"),
-              L("Turmeric, ginger and honey"),
-              L("Only salt and water"),
-              L("Garlic and lime"),
+              L(
+                "Salt, baking soda and sugar, dissolved in water",
+                "ఉప్పు, బేకింగ్ సోడా మరియు చక్కెర, నీటిలో కరిగించినవి",
+                "உப்பு, பேக்கிங் சோடா மற்றும் சர்க்கரை, தண்ணீரில் கரைக்கப்பட்டவை",
+                "ಉಪ್ಪು, ಬೇಕಿಂಗ್ ಸೋಡಾ ಮತ್ತು ಸಕ್ಕರೆ, ನೀರಿನಲ್ಲಿ ಕರಗಿಸಿದ್ದು",
+                "नमक, बेकिंग सोडा और चीनी, पानी में घोली हुई"
+              ),
+              L(
+                "Turmeric, ginger and honey",
+                "పసుపు, అల్లం మరియు తేనె",
+                "மஞ்சள், இஞ்சி மற்றும் தேன்",
+                "ಅರಿಶಿನ, ಶುಂಠಿ ಮತ್ತು ಜೇನುತುಪ್ಪ",
+                "हल्दी, अदरक और शहद"
+              ),
+              L(
+                "Only salt and water",
+                "ఉప్పు మరియు నీరు మాత్రమే",
+                "உப்பு மற்றும் தண்ணீர் மட்டும்",
+                "ಕೇವಲ ಉಪ್ಪು ಮತ್ತು ನೀರು",
+                "केवल नमक और पानी"
+              ),
+              L(
+                "Garlic and lime",
+                "వెల్లుల్లి మరియు నిమ్మ",
+                "பூண்டு மற்றும் எலுமிச்சை",
+                "ಬೆಳ್ಳುಳ್ಳಿ ಮತ್ತು ನಿಂಬೆ",
+                "लहसुन और नींबू"
+              ),
             ],
             answer: 0,
-            explain: L("2 teaspoons salt, half a teaspoon baking soda and 4 teaspoons sugar dissolved in 1 litre of water is the handbook's dehydration recipe."),
+            explain: L(
+              "2 teaspoons salt, half a teaspoon baking soda and 4 teaspoons sugar dissolved in 1 litre of water is the handbook's dehydration recipe.",
+              "2 టీస్పూన్ల ఉప్పు, అర టీస్పూన్ బేకింగ్ సోడా మరియు 4 టీస్పూన్ల చక్కెరను 1 లీటరు నీటిలో కరిగించడం హ్యాండ్‌బుక్ డీహైడ్రేషన్ రెసిపీ.",
+              "2 தேக்கரண்டி உப்பு, அரை தேக்கரண்டி பேக்கிங் சோடா மற்றும் 4 தேக்கரண்டி சர்க்கரையை 1 லிட்டர் நீரில் கரைப்பது கையேட்டு நீரிழப்பு செய்முறை.",
+              "2 ಟೀಚಮಚ ಉಪ್ಪು, ಅರ್ಧ ಟೀಚಮಚ ಬೇಕಿಂಗ್ ಸೋಡಾ ಮತ್ತು 4 ಟೀಚಮಚ ಸಕ್ಕರೆಯನ್ನು 1 ಲೀಟರ್ ನೀರಿನಲ್ಲಿ ಕರಗಿಸುವುದು ಕೈಪಿಡಿಯ ನಿರ್ಜಲೀಕರಣ ಪಾಕವಿಧಾನ.",
+              "2 चम्मच नमक, आधा चम्मच बेकिंग सोडा और 4 चम्मच चीनी को 1 लीटर पानी में घोलना हैंडबुक की निर्जलीकरण रेसिपी है।"
+            ),
           },
           {
             type: "truefalse",
-            q: L("For mild bloat, the handbook's ginger-garlic-cardamom-clove-jaggery decoction is given at half the adult quantity to calves."),
+            q: L(
+              "For mild bloat, the handbook's ginger-garlic-cardamom-clove-jaggery decoction is given at half the adult quantity to calves.",
+              "తేలికపాటి ఉబ్బరానికి, హ్యాండ్‌బుక్ అల్లం-వెల్లుల్లి-ఏలకులు-లవంగాలు-బెల్లం కషాయాన్ని దూడలకు పెద్దల మోతాదులో సగం ఇస్తారు.",
+              "லேசான வீக்கத்திற்கு, கையேட்டு இஞ்சி-பூண்டு-ஏலக்காய்-கிராம்பு-வெல்லம் காடியை கன்றுகளுக்கு பெரியவர்களின் அளவில் பாதி கொடுக்கப்படுகிறது.",
+              "ಸೌಮ್ಯ ಉಬ್ಬರಕ್ಕೆ, ಕೈಪಿಡಿಯ ಶುಂಠಿ-ಬೆಳ್ಳುಳ್ಳಿ-ಏಲಕ್ಕಿ-ಲವಂಗ-ಬೆಲ್ಲ ಕಷಾಯವನ್ನು ಕರುಗಳಿಗೆ ವಯಸ್ಕರ ಪ್ರಮಾಣದ ಅರ್ಧ ಕೊಡಲಾಗುತ್ತದೆ.",
+              "हल्के अफारे के लिए, हैंडबुक का अदरक-लहसुन-इलायची-लौंग-गुड़ का काढ़ा बछड़ों को वयस्क मात्रा की आधी मात्रा में दिया जाता है।"
+            ),
             answer: true,
-            explain: L("Correct — the handbook specifically says to give calves half the quantity given to adult animals."),
+            explain: L(
+              "Correct — the handbook specifically says to give calves half the quantity given to adult animals.",
+              "సరైనది — దూడలకు పెద్ద జంతువులకు ఇచ్చే మోతాదులో సగం ఇవ్వాలని హ్యాండ్‌బుక్ ప్రత్యేకంగా చెబుతుంది.",
+              "சரி — கன்றுகளுக்கு பெரிய விலங்குகளுக்கு கொடுக்கப்படும் அளவில் பாதி கொடுக்க வேண்டும் என்று கையேடு குறிப்பாக கூறுகிறது.",
+              "ಸರಿ — ಕರುಗಳಿಗೆ ವಯಸ್ಕ ಪ್ರಾಣಿಗಳಿಗೆ ಕೊಡುವ ಪ್ರಮಾಣದ ಅರ್ಧ ಕೊಡಬೇಕೆಂದು ಕೈಪಿಡಿ ನಿರ್ದಿಷ್ಟವಾಗಿ ಹೇಳುತ್ತದೆ.",
+              "सही — हैंडबुक विशेष रूप से कहती है कि बछड़ों को वयस्क जानवरों को दी जाने वाली मात्रा की आधी मात्रा दी जाए।"
+            ),
           },
         ],
       },
       {
         id: "t-m13-skin-wound",
-        title: L("Skin, Wound and Parasite Problems"),
+        title: L(
+          "Skin, Wound and Parasite Problems",
+          "చర్మం, గాయం మరియు పరాన్నజీవుల సమస్యలు",
+          "தோல், காயம் மற்றும் ஒட்டுண்ணி பிரச்சினைகள்",
+          "ಚರ್ಮ, ಗಾಯ ಮತ್ತು ಪರಾವಲಂಬಿ ಸಮಸ್ಯೆಗಳು",
+          "त्वचा, घाव और परजीवी समस्याएं"
+        ),
         teach: [
             {
               type: "photo",
               src: "assets/photo-m13-neem.jpg",
-              alt: L("Close-up of neem (Azadirachta indica) serrated compound leaves with clusters of small oval green fruits"),
-              caption: L("Neem — its bark, flower, seed oil or leaf pulp is used across several remedies in this module, from fungal infection to external parasites."),
+              alt: L(
+                "Close-up of neem (Azadirachta indica) serrated compound leaves with clusters of small oval green fruits",
+                "వేప (అజాడిరక్టా ఇండికా) రంపపు అంచు సంయుక్త ఆకుల క్లోజప్, చిన్న ఓవల్ ఆకుపచ్చ పండ్ల గుత్తులతో",
+                "வேம்பு (அசாடிராக்டா இண்டிகா) பல்வரிசை கூட்டு இலைகளின் நெருக்கமான காட்சி, சிறிய நீள்வட்ட பச்சை பழங்களின் கொத்துகளுடன்",
+                "ಬೇವು (ಅಜಾಡಿರಾಕ್ಟಾ ಇಂಡಿಕಾ) ಗರಗಸದಂತಹ ಅಂಚಿನ ಸಂಯುಕ್ತ ಎಲೆಗಳ ಸಮೀಪ ನೋಟ, ಸಣ್ಣ ಅಂಡಾಕಾರದ ಹಸಿರು ಹಣ್ಣುಗಳ ಗೊಂಚಲುಗಳೊಂದಿಗೆ",
+                "नीम (अज़ादिरख्ता इंडिका) की दाँतेदार किनारों वाली संयुक्त पत्तियों का नज़दीकी दृश्य, छोटे अंडाकार हरे फलों के गुच्छों के साथ"
+              ),
+              caption: L(
+                "Neem — its bark, flower, seed oil or leaf pulp is used across several remedies in this module, from fungal infection to external parasites.",
+                "వేప — దీని బెరడు, పువ్వు, గింజల నూనె లేదా ఆకు గుజ్జు ఈ మాడ్యూల్‌లో ఫంగల్ ఇన్‌ఫెక్షన్ నుండి బాహ్య పరాన్నజీవుల వరకు అనేక చిట్కాలలో వాడతారు.",
+                "வேம்பு — அதன் பட்டை, பூ, விதை எண்ணெய் அல்லது இலை கூழ் இந்த தொகுதியில் பூஞ்சை தொற்று முதல் வெளிப்புற ஒட்டுண்ணிகள் வரை பல வைத்தியங்களில் பயன்படுத்தப்படுகிறது.",
+                "ಬೇವು — ಅದರ ತೊಗಟೆ, ಹೂವು, ಬೀಜದ ಎಣ್ಣೆ ಅಥವಾ ಎಲೆಯ ತಿರುಳನ್ನು ಈ ಮಾಡ್ಯೂಲ್‌ನಲ್ಲಿ ಶಿಲೀಂಧ್ರ ಸೋಂಕಿನಿಂದ ಬಾಹ್ಯ ಪರಾವಲಂಬಿಗಳವರೆಗೆ ಹಲವಾರು ಪರಿಹಾರಗಳಲ್ಲಿ ಬಳಸಲಾಗುತ್ತದೆ.",
+                "नीम — इसकी छाल, फूल, बीज का तेल या पत्ती का गूदा इस मॉड्यूल में फंगल संक्रमण से लेकर बाहरी परजीवियों तक कई उपचारों में इस्तेमाल होता है।"
+              ),
             },
           {
             type: "text",
-            heading: L("Remedies You Apply on the Skin or Wound"),
+            heading: L(
+              "Remedies You Apply on the Skin or Wound",
+              "చర్మం లేదా గాయంపై వేసే చిట్కాలు",
+              "தோலில் அல்லது காயத்தில் பயன்படுத்தும் வைத்தியங்கள்",
+              "ಚರ್ಮ ಅಥವಾ ಗಾಯದ ಮೇಲೆ ಹಚ್ಚುವ ಪರಿಹಾರಗಳು",
+              "त्वचा या घाव पर लगाए जाने वाले उपचार"
+            ),
             html: L(
-              "Many handbook remedies for skin, wound and parasite problems are not swallowed — they are made into a paste and applied directly onto the affected area, or applied over the whole body."
+              "Many handbook remedies for skin, wound and parasite problems are not swallowed — they are made into a paste and applied directly onto the affected area, or applied over the whole body.",
+              "చర్మం, గాయం మరియు పరాన్నజీవుల సమస్యలకు అనేక హ్యాండ్‌బుక్ చిట్కాలు మింగేవి కావు — వాటిని పేస్టుగా చేసి బాధిత ప్రాంతంపై నేరుగా వేస్తారు, లేదా శరీరమంతా వేస్తారు.",
+              "தோல், காயம் மற்றும் ஒட்டுண்ணி பிரச்சினைகளுக்கான பல கையேட்டு வைத்தியங்கள் விழுங்கப்படுவதில்லை — அவை பேஸ்டாக செய்யப்பட்டு பாதிக்கப்பட்ட பகுதியில் நேரடியாக பயன்படுத்தப்படுகின்றன, அல்லது உடல் முழுவதும் பயன்படுத்தப்படுகின்றன.",
+              "ಚರ್ಮ, ಗಾಯ ಮತ್ತು ಪರಾವಲಂಬಿ ಸಮಸ್ಯೆಗಳಿಗೆ ಅನೇಕ ಕೈಪಿಡಿ ಪರಿಹಾರಗಳನ್ನು ನುಂಗುವುದಿಲ್ಲ — ಅವುಗಳನ್ನು ಪೇಸ್ಟ್ ಮಾಡಿ ಬಾಧಿತ ಪ್ರದೇಶದ ಮೇಲೆ ನೇರವಾಗಿ ಹಚ್ಚಲಾಗುತ್ತದೆ, ಅಥವಾ ಇಡೀ ದೇಹದ ಮೇಲೆ ಹಚ್ಚಲಾಗುತ್ತದೆ.",
+              "त्वचा, घाव और परजीवी समस्याओं के लिए कई हैंडबुक उपचार निगले नहीं जाते — इन्हें पेस्ट बनाकर प्रभावित हिस्से पर सीधे लगाया जाता है, या पूरे शरीर पर लगाया जाता है।"
             ),
           },
           {
             type: "glossary",
-            term: L("Paste"),
+            term: L(
+              "Paste",
+              "పేస్టు",
+              "பேஸ்ட்",
+              "ಪೇಸ್ಟ್",
+              "पेस्ट"
+            ),
             meaning: L(
-              "Plant material that has been crushed, ground or blended with a little water or oil until it becomes a thick, spreadable mixture, then applied directly onto the skin or a wound."
+              "Plant material that has been crushed, ground or blended with a little water or oil until it becomes a thick, spreadable mixture, then applied directly onto the skin or a wound.",
+              "కొద్దిగా నీరు లేదా నూనెతో నలిపి, దంచి లేదా బ్లెండ్ చేసి చిక్కటి, పూయదగిన మిశ్రమంగా మార్చిన మొక్క పదార్థం, తర్వాత దీనిని నేరుగా చర్మంపై లేదా గాయంపై వేస్తారు.",
+              "சிறிது தண்ணீர் அல்லது எண்ணெயுடன் நசுக்கி, அரைத்து அல்லது கலந்து தடிமனான, பூச முடிந்த கலவையாக மாற்றப்பட்ட தாவரப் பொருள், பின்னர் இது நேரடியாக தோலில் அல்லது காயத்தில் பயன்படுத்தப்படுகிறது.",
+              "ಸ್ವಲ್ಪ ನೀರು ಅಥವಾ ಎಣ್ಣೆಯೊಂದಿಗೆ ಪುಡಿಮಾಡಿ, ಅರೆದು ಅಥವಾ ಬೆರೆಸಿ ದಪ್ಪ, ಹಚ್ಚಬಹುದಾದ ಮಿಶ್ರಣವಾಗಿ ಮಾಡಿದ ಸಸ್ಯ ಪದಾರ್ಥ, ನಂತರ ಇದನ್ನು ನೇರವಾಗಿ ಚರ್ಮದ ಮೇಲೆ ಅಥವಾ ಗಾಯದ ಮೇಲೆ ಹಚ್ಚಲಾಗುತ್ತದೆ.",
+              "थोड़े पानी या तेल के साथ कुचला, पीसा या मिलाया गया पौधे का पदार्थ जब तक वह गाढ़ा, लगाने लायक मिश्रण न बन जाए, फिर इसे सीधे त्वचा या घाव पर लगाया जाता है।"
             ),
           },
           {
             type: "stat-grid",
             items: [
               {
-                label: L("Fungal Infection"),
-                text: L("Make a paste of garlic, OR a paste from neem bark, flower, seed oil or tender twig. Apply on the affected part until it recovers."),
-              },
-              {
-                label: L("External Parasites"),
+                label: L(
+                  "Fungal Infection",
+                  "ఫంగల్ ఇన్‌ఫెక్షన్",
+                  "பூஞ்சை தொற்று",
+                  "ಶಿಲೀಂಧ್ರ ಸೋಂಕು",
+                  "फंगल संक्रमण"
+                ),
                 text: L(
-                  "Custard apple (Sitaphal) seed and leaf extract diluted 50% in cheap vegetable oil, applied over the body twice a day for 5 days. Or plain neem leaf pulp. Or a paste of custard apple seed, neem seed and a little tobacco leaf, soaked in water and applied over the body."
+                  "Make a paste of garlic, OR a paste from neem bark, flower, seed oil or tender twig. Apply on the affected part until it recovers.",
+                  "వెల్లుల్లితో పేస్టు తయారు చేయండి, లేదా వేప బెరడు, పువ్వు, గింజల నూనె లేదా లేత కొమ్మతో పేస్టు తయారు చేయండి. కోలుకునే వరకు బాధిత భాగంపై వేయండి.",
+                  "பூண்டு கொண்டு பேஸ்ட் தயாரிக்கவும், அல்லது வேம்பு பட்டை, பூ, விதை எண்ணெய் அல்லது இளம் கிளையிலிருந்து பேஸ்ட் தயாரிக்கவும். குணமாகும் வரை பாதிக்கப்பட்ட பகுதியில் பயன்படுத்தவும்.",
+                  "ಬೆಳ್ಳುಳ್ಳಿಯ ಪೇಸ್ಟ್ ಮಾಡಿ, ಅಥವಾ ಬೇವಿನ ತೊಗಟೆ, ಹೂವು, ಬೀಜದ ಎಣ್ಣೆ ಅಥವಾ ಎಳೆಯ ಕೊಂಬೆಯಿಂದ ಪೇಸ್ಟ್ ಮಾಡಿ. ಗುಣವಾಗುವವರೆಗೆ ಬಾಧಿತ ಭಾಗದ ಮೇಲೆ ಹಚ್ಚಿ.",
+                  "लहसुन का पेस्ट बनाएं, या नीम की छाल, फूल, बीज के तेल या कोमल टहनी का पेस्ट बनाएं। ठीक होने तक प्रभावित हिस्से पर लगाएं।"
                 ),
               },
               {
-                label: L("Maggot Wound"),
+                label: L(
+                  "External Parasites",
+                  "బాహ్య పరాన్నజీవులు",
+                  "வெளிப்புற ஒட்டுண்ணிகள்",
+                  "ಬಾಹ್ಯ ಪರಾವಲಂಬಿಗಳು",
+                  "बाहरी परजीवी"
+                ),
                 text: L(
-                  "A handful of marigold and tulsi leaves crushed with garlic and lime into a paste, applied twice daily on the wound. Or a paste of custard apple and/or neem leaves, applied once a day for 5 to 6 days."
+                  "Custard apple (Sitaphal) seed and leaf extract diluted 50% in cheap vegetable oil, applied over the body twice a day for 5 days. Or plain neem leaf pulp. Or a paste of custard apple seed, neem seed and a little tobacco leaf, soaked in water and applied over the body.",
+                  "సీతాఫలం (సీతాఫల్) గింజ మరియు ఆకు సారాన్ని చౌక వెజిటబుల్ ఆయిల్‌లో 50% పలచన చేసి, 5 రోజులు రోజుకు రెండుసార్లు శరీరమంతా వేయండి. లేదా సాదా వేప ఆకు గుజ్జు. లేదా సీతాఫలం గింజ, వేప గింజ మరియు కొద్దిగా పొగాకు ఆకుతో పేస్టు తయారు చేసి, నీటిలో నానబెట్టి శరీరమంతా వేయండి.",
+                  "சீதாபழம் (சீதாபல்) விதை மற்றும் இலை சாற்றை மலிவான காய்கறி எண்ணெயில் 50% நீர்த்து, 5 நாட்களுக்கு நாளொன்றுக்கு இரண்டு முறை உடல் முழுவதும் பயன்படுத்தவும். அல்லது வெறும் வேம்பு இலை கூழ். அல்லது சீதாபழம் விதை, வேம்பு விதை மற்றும் சிறிது புகையிலை இலையை கொண்ட பேஸ்டை, தண்ணீரில் ஊற வைத்து உடல் முழுவதும் பயன்படுத்தவும்.",
+                  "సీతాఫలం (సీతాఫల్) ಬೀಜ ಮತ್ತು ಎಲೆ ಸಾರವನ್ನು ಅಗ್ಗದ ಸಸ್ಯಜನ್ಯ ಎಣ್ಣೆಯಲ್ಲಿ 50% ದುರ್ಬಲಗೊಳಿಸಿ, 5 ದಿನ ದಿನಕ್ಕೆ ಎರಡು ಬಾರಿ ದೇಹದ ಮೇಲೆ ಹಚ್ಚಿ. ಅಥವಾ ಸಾದಾ ಬೇವಿನ ಎಲೆಯ ತಿರುಳು. ಅಥವಾ ಸೀತಾಫಲ ಬೀಜ, ಬೇವಿನ ಬೀಜ ಮತ್ತು ಸ್ವಲ್ಪ ತಂಬಾಕು ಎಲೆಯ ಪೇಸ್ಟ್ ಅನ್ನು ನೀರಿನಲ್ಲಿ ನೆನೆಸಿ ದೇಹದ ಮೇಲೆ ಹಚ್ಚಿ.",
+                  "सीताफल (शरीफा) के बीज और पत्ती के अर्क को सस्ते वनस्पति तेल में 50% पतला करके, 5 दिनों तक दिन में दो बार पूरे शरीर पर लगाएं। या सादा नीम पत्ती का गूदा। या सीताफल बीज, नीम बीज और थोड़ी तंबाकू पत्ती का पेस्ट, पानी में भिगोकर पूरे शरीर पर लगाएं।"
                 ),
               },
               {
-                label: L("Mange Infestation"),
+                label: L(
+                  "Maggot Wound",
+                  "పురుగుల గాయం",
+                  "புழு காயம்",
+                  "ಹುಳ ಗಾಯ",
+                  "कीड़े वाला घाव"
+                ),
                 text: L(
-                  "Grind a handful of fresh or air-dried Cassia alata (Dadmurdan) leaves into a paste with water or lemon juice. Apply daily on the infected skin using a brush or coconut husk until the infection clears."
+                  "A handful of marigold and tulsi leaves crushed with garlic and lime into a paste, applied twice daily on the wound. Or a paste of custard apple and/or neem leaves, applied once a day for 5 to 6 days.",
+                  "ఒక పిడికెడు బంతిపువ్వు మరియు తులసి ఆకులను వెల్లుల్లి మరియు నిమ్మతో నలిపి పేస్టుగా చేసి, రోజుకు రెండుసార్లు గాయంపై వేయండి. లేదా సీతాఫలం మరియు/లేదా వేప ఆకుల పేస్టు, 5 నుండి 6 రోజులు రోజుకు ఒకసారి వేయండి.",
+                  "ஒரு பிடி சாமந்தி மற்றும் துளசி இலைகளை பூண்டு மற்றும் எலுமிச்சையுடன் நசுக்கி பேஸ்டாக செய்து, நாளொன்றுக்கு இரண்டு முறை காயத்தில் பயன்படுத்தவும். அல்லது சீதாபழம் மற்றும்/அல்லது வேம்பு இலைகளின் பேஸ்ட், 5 முதல் 6 நாட்களுக்கு நாளொன்றுக்கு ஒரு முறை பயன்படுத்தவும்.",
+                  "ಒಂದು ಹಿಡಿ ಚೆಂಡುಹೂವು ಮತ್ತು ತುಳಸಿ ಎಲೆಗಳನ್ನು ಬೆಳ್ಳುಳ್ಳಿ ಮತ್ತು ನಿಂಬೆಯೊಂದಿಗೆ ಪುಡಿಮಾಡಿ ಪೇಸ್ಟ್ ಮಾಡಿ, ದಿನಕ್ಕೆ ಎರಡು ಬಾರಿ ಗಾಯದ ಮೇಲೆ ಹಚ್ಚಿ. ಅಥವಾ ಸೀತಾಫಲ ಮತ್ತು/ಅಥವಾ ಬೇವಿನ ಎಲೆಗಳ ಪೇಸ್ಟ್, 5 ರಿಂದ 6 ದಿನ ದಿನಕ್ಕೆ ಒಮ್ಮೆ ಹಚ್ಚಿ.",
+                  "एक मुट्ठी गेंदा और तुलसी की पत्तियों को लहसुन और नींबू के साथ कुचलकर पेस्ट बनाएं, दिन में दो बार घाव पर लगाएं। या सीताफल और/या नीम की पत्तियों का पेस्ट, 5 से 6 दिनों तक दिन में एक बार लगाएं।"
+                ),
+              },
+              {
+                label: L(
+                  "Mange Infestation",
+                  "గజ్జి వ్యాధి",
+                  "செக்கை தொற்று",
+                  "ಗಜ್ಜಿ ಸೋಂಕು",
+                  "खुजली रोग (मैंज)"
+                ),
+                text: L(
+                  "Grind a handful of fresh or air-dried Cassia alata (Dadmurdan) leaves into a paste with water or lemon juice. Apply daily on the infected skin using a brush or coconut husk until the infection clears.",
+                  "ఒక పిడికెడు తాజా లేదా ఎండబెట్టిన కేసియా అలాటా (దాద్‌మర్దన్) ఆకులను నీరు లేదా నిమ్మరసంతో దంచి పేస్టు తయారు చేయండి. ఇన్‌ఫెక్షన్ తగ్గే వరకు బ్రష్ లేదా కొబ్బరి పీచుతో బాధిత చర్మంపై ప్రతిరోజూ వేయండి.",
+                  "ஒரு பிடி புதிய அல்லது காயவைத்த கேசியா அலாட்டா (டாட்முர்தான்) இலைகளை தண்ணீர் அல்லது எலுமிச்சை சாற்றுடன் அரைத்து பேஸ்ட் தயாரிக்கவும். தொற்று நீங்கும் வரை பிரஷ் அல்லது தேங்காய் நார் கொண்டு பாதிக்கப்பட்ட தோலில் தினமும் பயன்படுத்தவும்.",
+                  "ಒಂದು ಹಿಡಿ ತಾಜಾ ಅಥವಾ ಗಾಳಿಯಲ್ಲಿ ಒಣಗಿಸಿದ ಕ್ಯಾಸಿಯಾ ಅಲಾಟಾ (ದಾದ್ಮುರ್ದನ್) ಎಲೆಗಳನ್ನು ನೀರು ಅಥವಾ ನಿಂಬೆ ರಸದೊಂದಿಗೆ ಪುಡಿಮಾಡಿ ಪೇಸ್ಟ್ ಮಾಡಿ. ಸೋಂಕು ಗುಣವಾಗುವವರೆಗೆ ಬ್ರಷ್ ಅಥವಾ ತೆಂಗಿನ ನಾರಿನಿಂದ ಸೋಂಕಿತ ಚರ್ಮದ ಮೇಲೆ ಪ್ರತಿದಿನ ಹಚ್ಚಿ.",
+                  "एक मुट्ठी ताज़ी या हवा में सुखाई गई कैसिया अलाटा (दादमर्दन) की पत्तियों को पानी या नींबू के रस के साथ पीसकर पेस्ट बनाएं। संक्रमण ठीक होने तक ब्रश या नारियल के रेशे से संक्रमित त्वचा पर रोज़ लगाएं।"
                 ),
               },
             ],
@@ -10249,21 +10936,67 @@ export const MODULES = [
             type: "stat-grid",
             items: [
               {
-                label: L("Warts"),
-                text: L("Apply drops of Euphorbia neriifolia latex, OR drops of papaya trunk/fruit/leaf latex, on the wart twice a day until it falls off."),
-              },
-              {
-                label: L("Tongue Ulcer"),
-                text: L("Mix 100 g tamarind with 200 ml gingely (sesame) oil into a paste. Apply on the mouth and tongue 3 to 4 times a day."),
-              },
-              {
-                label: L("Fly Repellent"),
-                text: L("Grind and extract juice from aloe vera leaves. Apply on the cow's body and also sprinkle in the surroundings."),
-              },
-              {
-                label: L("Poisoning"),
+                label: L(
+                  "Warts",
+                  "మొటిమలు (వార్ట్స్)",
+                  "வார்ட்ஸ் (தோல் கொப்புளங்கள்)",
+                  "ನರಹುಲಿಗಳು",
+                  "मस्से"
+                ),
                 text: L(
-                  "Drench with one litre of paraffin oil, raw linseed oil or any vegetable oil, once. Or drench with one litre of milk or coconut water, or 200 g charcoal mixed in 800 ml water, once."
+                  "Apply drops of Euphorbia neriifolia latex, OR drops of papaya trunk/fruit/leaf latex, on the wart twice a day until it falls off.",
+                  "యూఫోర్బియా నెరిఫోలియా జిగురు చుక్కలు, లేదా బొప్పాయి కాండం/పండు/ఆకు జిగురు చుక్కలను, మొటిమ రాలిపోయే వరకు రోజుకు రెండుసార్లు వేయండి.",
+                  "யூஃபோர்பியா நெரிஃபோலியா பால் துளிகள், அல்லது பப்பாளி தண்டு/பழம்/இலை பால் துளிகளை, கொப்புளம் விழும் வரை நாளொன்றுக்கு இரண்டு முறை பயன்படுத்தவும்.",
+                  "ಯೂಫೋರ್ಬಿಯಾ ನೆರಿಫೋಲಿಯಾ ಅಂಟಿನ ಹನಿಗಳು, ಅಥವಾ ಪಪ್ಪಾಯಿ ಕಾಂಡ/ಹಣ್ಣು/ಎಲೆ ಅಂಟಿನ ಹನಿಗಳನ್ನು, ನರಹುಲಿ ಉದುರುವವರೆಗೆ ದಿನಕ್ಕೆ ಎರಡು ಬಾರಿ ಹಚ್ಚಿ.",
+                  "यूफोर्बिया नेरिफोलिया के दूध (लेटेक्स) की बूंदें, या पपीते के तने/फल/पत्ती के दूध की बूंदें, मस्सा गिरने तक दिन में दो बार लगाएं।"
+                ),
+              },
+              {
+                label: L(
+                  "Tongue Ulcer",
+                  "నాలుక పుండు",
+                  "நாக்கு புண்",
+                  "ನಾಲಿಗೆ ಹುಣ್ಣು",
+                  "जीभ का घाव"
+                ),
+                text: L(
+                  "Mix 100 g tamarind with 200 ml gingely (sesame) oil into a paste. Apply on the mouth and tongue 3 to 4 times a day.",
+                  "100 గ్రా చింతపండును 200 మి.లీ నువ్వుల నూనెతో కలిపి పేస్టు తయారు చేయండి. రోజుకు 3 నుండి 4 సార్లు నోరు మరియు నాలుకపై వేయండి.",
+                  "100 கிராம் புளியை 200 மி.லி எள் எண்ணெயுடன் கலந்து பேஸ்ட் தயாரிக்கவும். நாளொன்றுக்கு 3 முதல் 4 முறை வாய் மற்றும் நாக்கில் பயன்படுத்தவும்.",
+                  "100 ಗ್ರಾಂ ಹುಣಸೆಹಣ್ಣನ್ನು 200 ಮಿ.ಲೀ ಎಳ್ಳೆಣ್ಣೆಯೊಂದಿಗೆ ಬೆರೆಸಿ ಪೇಸ್ಟ್ ಮಾಡಿ. ದಿನಕ್ಕೆ 3 ರಿಂದ 4 ಬಾರಿ ಬಾಯಿ ಮತ್ತು ನಾಲಿಗೆಗೆ ಹಚ್ಚಿ.",
+                  "100 ग्राम इमली को 200 मिली तिल के तेल के साथ मिलाकर पेस्ट बनाएं। दिन में 3 से 4 बार मुँह और जीभ पर लगाएं।"
+                ),
+              },
+              {
+                label: L(
+                  "Fly Repellent",
+                  "ఈగలు దూరంగా ఉంచేది",
+                  "ஈ விரட்டி",
+                  "ನೊಣ ನಿವಾರಕ",
+                  "मक्खी भगाने वाला"
+                ),
+                text: L(
+                  "Grind and extract juice from aloe vera leaves. Apply on the cow's body and also sprinkle in the surroundings.",
+                  "కలబంద ఆకుల నుండి రసం తీయండి. ఆవు శరీరంపై వేయండి మరియు చుట్టుపక్కల కూడా చల్లండి.",
+                  "கற்றாழை இலைகளிலிருந்து சாறு எடுக்கவும். பசுவின் உடலில் பயன்படுத்தவும் மற்றும் சுற்றுப்புறத்திலும் தெளிக்கவும்.",
+                  "ಅಲೋವೆರಾ ಎಲೆಗಳಿಂದ ರಸ ತೆಗೆಯಿರಿ. ಹಸುವಿನ ದೇಹದ ಮೇಲೆ ಹಚ್ಚಿ ಮತ್ತು ಸುತ್ತಮುತ್ತಲೂ ಸಿಂಪಡಿಸಿ.",
+                  "एलोवेरा की पत्तियों से रस निकालें। गाय के शरीर पर लगाएं और आसपास भी छिड़कें।"
+                ),
+              },
+              {
+                label: L(
+                  "Poisoning",
+                  "విషప్రయోగం",
+                  "நச்சு தாக்கம்",
+                  "ವಿಷಪ್ರಾಶನ",
+                  "ज़हर लगना"
+                ),
+                text: L(
+                  "Drench with one litre of paraffin oil, raw linseed oil or any vegetable oil, once. Or drench with one litre of milk or coconut water, or 200 g charcoal mixed in 800 ml water, once.",
+                  "ఒక లీటరు పారాఫిన్ ఆయిల్, పచ్చి అవిసె నూనె లేదా ఏదైనా వెజిటబుల్ ఆయిల్‌తో ఒకసారి తాగించండి. లేదా ఒక లీటరు పాలు లేదా కొబ్బరి నీళ్లు, లేదా 200 గ్రా బొగ్గును 800 మి.లీ నీటిలో కలిపి ఒకసారి తాగించండి.",
+                  "ஒரு லிட்டர் பாராஃபின் எண்ணெய், மூல ஆளிவிதை எண்ணெய் அல்லது ஏதேனும் காய்கறி எண்ணெயுடன் ஒரு முறை புகட்டவும். அல்லது ஒரு லிட்டர் பால் அல்லது தேங்காய் நீர், அல்லது 200 கிராம் கரி 800 மி.லி நீரில் கலந்து ஒரு முறை புகட்டவும்.",
+                  "ಒಂದು ಲೀಟರ್ ಪ್ಯಾರಾಫಿನ್ ಎಣ್ಣೆ, ಕಚ್ಚಾ ಅಗಸೆ ಎಣ್ಣೆ ಅಥವಾ ಯಾವುದೇ ಸಸ್ಯಜನ್ಯ ಎಣ್ಣೆಯೊಂದಿಗೆ ಒಮ್ಮೆ ಕುಡಿಸಿ. ಅಥವಾ ಒಂದು ಲೀಟರ್ ಹಾಲು ಅಥವಾ ಎಳನೀರು, ಅಥವಾ 200 ಗ್ರಾಂ ಇದ್ದಿಲನ್ನು 800 ಮಿ.ಲೀ ನೀರಿನಲ್ಲಿ ಬೆರೆಸಿ ಒಮ್ಮೆ ಕುಡಿಸಿ.",
+                  "एक लीटर पैराफिन तेल, कच्चा अलसी का तेल या कोई भी वनस्पति तेल, एक बार पिलाएं। या एक लीटर दूध या नारियल पानी, या 200 ग्राम कोयला 800 मिली पानी में मिलाकर एक बार पिलाएं।"
                 ),
               },
             ],
@@ -10271,31 +11004,118 @@ export const MODULES = [
           {
             type: "callout",
             style: "warning",
-            heading: L("Maggot Wounds and Poisoning Can Turn Serious Fast"),
+            heading: L(
+              "Maggot Wounds and Poisoning Can Turn Serious Fast",
+              "పురుగుల గాయాలు మరియు విషప్రయోగం త్వరగా తీవ్రమవుతాయి",
+              "புழு காயங்கள் மற்றும் நச்சு தாக்கம் விரைவில் தீவிரமடையலாம்",
+              "ಹುಳ ಗಾಯಗಳು ಮತ್ತು ವಿಷಪ್ರಾಶನ ಬೇಗನೆ ಗಂಭೀರವಾಗಬಹುದು",
+              "कीड़े वाले घाव और ज़हर तेज़ी से गंभीर हो सकते हैं"
+            ),
             text: L(
-              "A first-aid remedy is a reasonable first step, but maggot wounds and suspected poisoning can worsen quickly. Use the remedy alongside, never instead of, getting the vet involved right away — don't wait to see if the home remedy works before calling for help."
+              "A first-aid remedy is a reasonable first step, but maggot wounds and suspected poisoning can worsen quickly. Use the remedy alongside, never instead of, getting the vet involved right away — don't wait to see if the home remedy works before calling for help.",
+              "ప్రథమ చికిత్స చిట్కా సహేతుకమైన మొదటి అడుగు, కానీ పురుగుల గాయాలు మరియు అనుమానిత విషప్రయోగం త్వరగా తీవ్రమవుతాయి. చిట్కాను వెంటనే పశువైద్యుడిని సంప్రదించడంతో పాటుగా వాడండి, బదులుగా కాదు — సహాయం కోసం పిలిచే ముందు ఇంటి చిట్కా పనిచేస్తుందో లేదో చూసేందుకు వేచి ఉండకండి.",
+              "முதலுதவி வைத்தியம் ஒரு நியாயமான முதல் படியாக இருக்கலாம், ஆனால் புழு காயங்கள் மற்றும் சந்தேகிக்கப்படும் நச்சு தாக்கம் விரைவில் மோசமடையலாம். வைத்தியத்தை உடனடியாக கால்நடை மருத்துவரை ஈடுபடுத்துவதுடன் சேர்த்து பயன்படுத்துங்கள், பதிலாக அல்ல — உதவிக்கு அழைக்கும் முன் வீட்டு வைத்தியம் வேலை செய்கிறதா என்று காத்திருக்க வேண்டாம்.",
+              "ಪ್ರಥಮ ಚಿಕಿತ್ಸೆಯ ಪರಿಹಾರ ಸಮಂಜಸವಾದ ಮೊದಲ ಹೆಜ್ಜೆ, ಆದರೆ ಹುಳ ಗಾಯಗಳು ಮತ್ತು ಶಂಕಿತ ವಿಷಪ್ರಾಶನ ಬೇಗನೆ ಹದಗೆಡಬಹುದು. ಪರಿಹಾರವನ್ನು ತಕ್ಷಣ ಪಶುವೈದ್ಯರನ್ನು ಒಳಗೊಳಿಸುವುದರ ಜೊತೆಗೆ ಬಳಸಿ, ಬದಲಾಗಿ ಅಲ್ಲ — ಸಹಾಯಕ್ಕಾಗಿ ಕರೆ ಮಾಡುವ ಮೊದಲು ಮನೆಮದ್ದು ಕೆಲಸ ಮಾಡುತ್ತದೆಯೇ ಎಂದು ಕಾಯಬೇಡಿ.",
+              "प्राथमिक उपचार एक उचित पहला कदम है, लेकिन कीड़े वाले घाव और संदिग्ध ज़हर तेज़ी से बिगड़ सकते हैं। उपचार को तुरंत पशु चिकित्सक को शामिल करने के साथ-साथ इस्तेमाल करें, उसके बदले नहीं — मदद के लिए बुलाने से पहले यह देखने का इंतज़ार न करें कि घरेलू उपचार काम करता है या नहीं।"
             ),
           },
         ],
         check: [
           {
             type: "mcq",
-            q: L("Which two ingredients does the handbook mention for treating fungal infection, applied as a paste?"),
-            options: [L("Garlic and neem"), L("Tamarind and papaya"), L("Euphorbia and marigold"), L("Tulsi and lime")],
+            q: L(
+              "Which two ingredients does the handbook mention for treating fungal infection, applied as a paste?",
+              "ఫంగల్ ఇన్‌ఫెక్షన్ చికిత్సకు హ్యాండ్‌బుక్ పేస్టుగా వేయడానికి ఏ రెండు పదార్థాలను పేర్కొంటుంది?",
+              "பூஞ்சை தொற்றை பேஸ்டாக பயன்படுத்தி சிகிச்சையளிக்க கையேடு எந்த இரண்டு பொருட்களைக் குறிப்பிடுகிறது?",
+              "ಶಿಲೀಂಧ್ರ ಸೋಂಕಿಗೆ ಪೇಸ್ಟ್ ಆಗಿ ಹಚ್ಚಲು ಕೈಪಿಡಿ ಯಾವ ಎರಡು ಪದಾರ್ಥಗಳನ್ನು ಉಲ್ಲೇಖಿಸುತ್ತದೆ?",
+              "फंगल संक्रमण के इलाज के लिए पेस्ट के रूप में लगाने हेतु हैंडबुक किन दो सामग्रियों का उल्लेख करती है?"
+            ),
+            options: [
+              L(
+                "Garlic and neem",
+                "వెల్లుల్లి మరియు వేప",
+                "பூண்டு மற்றும் வேம்பு",
+                "ಬೆಳ್ಳುಳ್ಳಿ ಮತ್ತು ಬೇವು",
+                "लहसुन और नीम"
+              ),
+              L(
+                "Tamarind and papaya",
+                "చింతపండు మరియు బొప్పాయి",
+                "புளி மற்றும் பப்பாளி",
+                "ಹುಣಸೆಹಣ್ಣು ಮತ್ತು ಪಪ್ಪಾಯಿ",
+                "इमली और पपीता"
+              ),
+              L(
+                "Euphorbia and marigold",
+                "యూఫోర్బియా మరియు బంతిపువ్వు",
+                "யூஃபோர்பியா மற்றும் சாமந்தி",
+                "ಯೂಫೋರ್ಬಿಯಾ ಮತ್ತು ಚೆಂಡುಹೂವು",
+                "यूफोर्बिया और गेंदा"
+              ),
+              L(
+                "Tulsi and lime",
+                "తులసి మరియు నిమ్మ",
+                "துளசி மற்றும் எலுமிச்சை",
+                "ತುಳಸಿ ಮತ್ತು ನಿಂಬೆ",
+                "तुलसी और नींबू"
+              ),
+            ],
             answer: 0,
-            explain: L("The handbook gives two paste options for fungal infection: garlic, or neem bark/flower/seed oil/twig."),
+            explain: L(
+              "The handbook gives two paste options for fungal infection: garlic, or neem bark/flower/seed oil/twig.",
+              "ఫంగల్ ఇన్‌ఫెక్షన్‌కు హ్యాండ్‌బుక్ రెండు పేస్టు ఎంపికలను ఇస్తుంది: వెల్లుల్లి, లేదా వేప బెరడు/పువ్వు/గింజల నూనె/కొమ్మ.",
+              "பூஞ்சை தொற்றுக்கு கையேடு இரண்டு பேஸ்ட் விருப்பங்களை அளிக்கிறது: பூண்டு, அல்லது வேம்பு பட்டை/பூ/விதை எண்ணெய்/கிளை.",
+              "ಶಿಲೀಂಧ್ರ ಸೋಂಕಿಗೆ ಕೈಪಿಡಿ ಎರಡು ಪೇಸ್ಟ್ ಆಯ್ಕೆಗಳನ್ನು ನೀಡುತ್ತದೆ: ಬೆಳ್ಳುಳ್ಳಿ, ಅಥವಾ ಬೇವಿನ ತೊಗಟೆ/ಹೂವು/ಬೀಜದ ಎಣ್ಣೆ/ಕೊಂಬೆ.",
+              "हैंडबुक फंगल संक्रमण के लिए दो पेस्ट विकल्प देती है: लहसुन, या नीम की छाल/फूल/बीज का तेल/टहनी।"
+            ),
           },
           {
             type: "mcq",
-            q: L("What does the handbook suggest for suspected poisoning, using items found around the farm?"),
+            q: L(
+              "What does the handbook suggest for suspected poisoning, using items found around the farm?",
+              "పొలం చుట్టూ దొరికే వస్తువులను ఉపయోగించి అనుమానిత విషప్రయోగానికి హ్యాండ్‌బుక్ ఏమి సూచిస్తుంది?",
+              "பண்ணையைச் சுற்றி கிடைக்கும் பொருட்களைப் பயன்படுத்தி சந்தேகிக்கப்படும் நச்சு தாக்கத்திற்கு கையேடு என்ன பரிந்துரைக்கிறது?",
+              "ಫಾರ್ಮ್‌ನ ಸುತ್ತ ಸಿಗುವ ವಸ್ತುಗಳನ್ನು ಬಳಸಿ ಶಂಕಿತ ವಿಷಪ್ರಾಶನಕ್ಕೆ ಕೈಪಿಡಿ ಏನನ್ನು ಸೂಚಿಸುತ್ತದೆ?",
+              "खेत के आसपास मिलने वाली चीज़ों का इस्तेमाल करके संदिग्ध ज़हर के लिए हैंडबुक क्या सुझाती है?"
+            ),
             options: [
-              L("Drench with paraffin/linseed/vegetable oil, or a milk/coconut water/charcoal mixture"),
-              L("Give nothing and wait for it to pass"),
-              L("Only apply a paste on the skin"),
-              L("Only give jaggery"),
+              L(
+                "Drench with paraffin/linseed/vegetable oil, or a milk/coconut water/charcoal mixture",
+                "పారాఫిన్/అవిసె/వెజిటబుల్ నూనెతో తాగించండి, లేదా పాలు/కొబ్బరి నీళ్లు/బొగ్గు మిశ్రమంతో తాగించండి",
+                "பாராஃபின்/ஆளிவிதை/காய்கறி எண்ணெயுடன் புகட்டவும், அல்லது பால்/தேங்காய் நீர்/கரி கலவையுடன் புகட்டவும்",
+                "ಪ್ಯಾರಾಫಿನ್/ಅಗಸೆ/ಸಸ್ಯಜನ್ಯ ಎಣ್ಣೆಯೊಂದಿಗೆ ಕುಡಿಸಿ, ಅಥವಾ ಹಾಲು/ಎಳನೀರು/ಇದ್ದಿಲಿನ ಮಿಶ್ರಣದೊಂದಿಗೆ ಕುಡಿಸಿ",
+                "पैराफिन/अलसी/वनस्पति तेल पिलाएं, या दूध/नारियल पानी/कोयले का मिश्रण पिलाएं"
+              ),
+              L(
+                "Give nothing and wait for it to pass",
+                "ఏమీ ఇవ్వకుండా అది తగ్గే వరకు వేచి ఉండండి",
+                "எதுவும் கொடுக்காமல் அது கடந்து போக காத்திருங்கள்",
+                "ಏನನ್ನೂ ಕೊಡದೆ ಅದು ಹಾದುಹೋಗುವವರೆಗೆ ಕಾಯಿರಿ",
+                "कुछ न दें और इसके अपने आप ठीक होने का इंतज़ार करें"
+              ),
+              L(
+                "Only apply a paste on the skin",
+                "చర్మంపై మాత్రమే పేస్టు వేయండి",
+                "தோலில் மட்டும் பேஸ்ட் பயன்படுத்தவும்",
+                "ಚರ್ಮದ ಮೇಲೆ ಮಾತ್ರ ಪೇಸ್ಟ್ ಹಚ್ಚಿ",
+                "केवल त्वचा पर पेस्ट लगाएं"
+              ),
+              L(
+                "Only give jaggery",
+                "బెల్లం మాత్రమే ఇవ్వండి",
+                "வெல்லம் மட்டும் கொடுக்கவும்",
+                "ಬೆಲ್ಲ ಮಾತ್ರ ಕೊಡಿ",
+                "केवल गुड़ दें"
+              ),
             ],
             answer: 0,
-            explain: L("The handbook lists oil-based and milk/coconut-water/charcoal-based drenches for poisoning — but this is exactly the kind of case where the vet must also be contacted urgently."),
+            explain: L(
+              "The handbook lists oil-based and milk/coconut-water/charcoal-based drenches for poisoning — but this is exactly the kind of case where the vet must also be contacted urgently.",
+              "హ్యాండ్‌బుక్ విషప్రయోగానికి నూనె ఆధారిత మరియు పాలు/కొబ్బరినీళ్లు/బొగ్గు ఆధారిత తాగింపులను జాబితా చేస్తుంది — కానీ ఇది సరిగ్గా అలాంటి కేసు, దీనిలో పశువైద్యుడిని కూడా అత్యవసరంగా సంప్రదించాలి.",
+              "கையேடு நச்சு தாக்கத்திற்கு எண்ணெய் அடிப்படையிலான மற்றும் பால்/தேங்காய் நீர்/கரி அடிப்படையிலான புகட்டல்களை பட்டியலிடுகிறது — ஆனால் இது கால்நடை மருத்துவரையும் அவசரமாக தொடர்பு கொள்ள வேண்டிய வகையான வழக்கு.",
+              "ಕೈಪಿಡಿ ವಿಷಪ್ರಾಶನಕ್ಕೆ ಎಣ್ಣೆ ಆಧಾರಿತ ಮತ್ತು ಹಾಲು/ಎಳನೀರು/ಇದ್ದಿಲು ಆಧಾರಿತ ಕುಡಿಸುವಿಕೆಗಳನ್ನು ಪಟ್ಟಿ ಮಾಡುತ್ತದೆ — ಆದರೆ ಇದು ಪಶುವೈದ್ಯರನ್ನೂ ತುರ್ತಾಗಿ ಸಂಪರ್ಕಿಸಬೇಕಾದ ನಿಖರವಾದ ರೀತಿಯ ಪ್ರಕರಣ.",
+              "हैंडबुक ज़हर के लिए तेल-आधारित और दूध/नारियल पानी/कोयला-आधारित घोल सूचीबद्ध करती है — लेकिन यह बिल्कुल वैसा मामला है जिसमें पशु चिकित्सक से भी तुरंत संपर्क करना ज़रूरी है।"
+            ),
           },
         ],
       },
@@ -10306,45 +11126,187 @@ export const MODULES = [
         {
           topicId: "t-m13-digestive",
           type: "mcq",
-          q: L("How much of the home ORS mixture should an adult animal with dehydration be given, and how often?"),
-          options: [L("2 to 3 litres, 2 to 3 times a day"), L("A single teaspoon, once"), L("20 litres, once"), L("It should never be given to adults")],
-          answer: 0,
-          explain: L("The handbook's dose for adult animals is 2 to 3 litres, 2 to 3 times a day, until recovery."),
-        },
-        {
-          topicId: "t-m13-digestive",
-          type: "truefalse",
-          q: L("The handbook offers more than one option for diarrhoea, including tea leaves with ginger, boiled guava leaves, and potassium permanganate in water."),
-          answer: true,
-          explain: L("Correct — all three are listed as separate diarrhoea remedy options in the handbook."),
-        },
-        {
-          topicId: "t-m13-skin-wound",
-          type: "mcq",
-          q: L("Which handbook remedy is specifically used for maggot wounds?"),
+          q: L(
+            "How much of the home ORS mixture should an adult animal with dehydration be given, and how often?",
+            "డీహైడ్రేషన్‌తో ఉన్న పెద్ద జంతువుకు ఇంటి ORS మిశ్రమం ఎంత మోతాదులో, ఎంత తరచుగా ఇవ్వాలి?",
+            "நீரிழப்புடன் இருக்கும் பெரிய விலங்குக்கு வீட்டு ORS கலவை எவ்வளவு, எவ்வளவு அடிக்கடி கொடுக்க வேண்டும்?",
+            "ನಿರ್ಜಲೀಕರಣ ಹೊಂದಿರುವ ವಯಸ್ಕ ಪ್ರಾಣಿಗೆ ಮನೆಯ ORS ಮಿಶ್ರಣವನ್ನು ಎಷ್ಟು, ಎಷ್ಟು ಬಾರಿ ಕೊಡಬೇಕು?",
+            "निर्जलीकरण से पीड़ित वयस्क जानवर को घरेलू ORS मिश्रण कितनी मात्रा में, कितनी बार देना चाहिए?"
+          ),
           options: [
-            L("Marigold and tulsi leaves crushed with garlic and lime into a paste"),
-            L("Only potassium permanganate in water"),
-            L("Ground amla fruit, eaten daily"),
-            L("Coconut inflorescence juice"),
+            L(
+              "2 to 3 litres, 2 to 3 times a day",
+              "2 నుండి 3 లీటర్లు, రోజుకు 2 నుండి 3 సార్లు",
+              "2 முதல் 3 லிட்டர், நாளொன்றுக்கு 2 முதல் 3 முறை",
+              "2 ರಿಂದ 3 ಲೀಟರ್, ದಿನಕ್ಕೆ 2 ರಿಂದ 3 ಬಾರಿ",
+              "2 से 3 लीटर, दिन में 2 से 3 बार"
+            ),
+            L(
+              "A single teaspoon, once",
+              "ఒకే ఒక టీస్పూన్, ఒకసారి",
+              "ஒரு தேக்கரண்டி மட்டும், ஒரு முறை",
+              "ಒಂದೇ ಟೀಚಮಚ, ಒಮ್ಮೆ",
+              "एक चम्मच मात्र, एक बार"
+            ),
+            L(
+              "20 litres, once",
+              "20 లీటర్లు, ఒకసారి",
+              "20 லிட்டர், ஒரு முறை",
+              "20 ಲೀಟರ್, ಒಮ್ಮೆ",
+              "20 लीटर, एक बार"
+            ),
+            L(
+              "It should never be given to adults",
+              "దీనిని పెద్ద జంతువులకు ఎప్పుడూ ఇవ్వకూడదు",
+              "இதை பெரியவைகளுக்கு ஒருபோதும் கொடுக்கக்கூடாது",
+              "ಇದನ್ನು ವಯಸ್ಕರಿಗೆ ಎಂದಿಗೂ ಕೊಡಬಾರದು",
+              "इसे वयस्कों को कभी नहीं देना चाहिए"
+            ),
           ],
           answer: 0,
-          explain: L("Marigold and tulsi leaves crushed with garlic and lime is the handbook's first maggot-wound remedy, applied twice daily."),
+          explain: L(
+            "The handbook's dose for adult animals is 2 to 3 litres, 2 to 3 times a day, until recovery.",
+            "పెద్ద జంతువులకు హ్యాండ్‌బుక్ మోతాదు 2 నుండి 3 లీటర్లు, రోజుకు 2 నుండి 3 సార్లు, కోలుకునే వరకు.",
+            "பெரிய விலங்குகளுக்கு கையேட்டு அளவு 2 முதல் 3 லிட்டர், நாளொன்றுக்கு 2 முதல் 3 முறை, குணமாகும் வரை.",
+            "ವಯಸ್ಕ ಪ್ರಾಣಿಗಳಿಗೆ ಕೈಪಿಡಿಯ ಡೋಸ್ 2 ರಿಂದ 3 ಲೀಟರ್, ದಿನಕ್ಕೆ 2 ರಿಂದ 3 ಬಾರಿ, ಚೇತರಿಸಿಕೊಳ್ಳುವವರೆಗೆ.",
+            "वयस्क जानवरों के लिए हैंडबुक की खुराक 2 से 3 लीटर, दिन में 2 से 3 बार, ठीक होने तक है।"
+          ),
+        },
+        {
+          topicId: "t-m13-digestive",
+          type: "truefalse",
+          q: L(
+            "The handbook offers more than one option for diarrhoea, including tea leaves with ginger, boiled guava leaves, and potassium permanganate in water.",
+            "హ్యాండ్‌బుక్ విరేచనాలకు ఒకటి కంటే ఎక్కువ ఎంపికలను అందిస్తుంది, వీటిలో అల్లంతో తేయాకు, ఉడికించిన జామ ఆకులు, మరియు నీటిలో పొటాషియం పర్మాంగనేట్ ఉన్నాయి.",
+            "கையேடு வயிற்றுப்போக்குக்கு ஒன்றுக்கும் மேற்பட்ட விருப்பங்களை வழங்குகிறது, இதில் இஞ்சியுடன் தேயிலை, வேகவைத்த கொய்யா இலைகள், மற்றும் தண்ணீரில் பொட்டாசியம் பர்மாங்கனேட் ஆகியவை அடங்கும்.",
+            "ಕೈಪಿಡಿ ಅತಿಸಾರಕ್ಕೆ ಒಂದಕ್ಕಿಂತ ಹೆಚ್ಚು ಆಯ್ಕೆಗಳನ್ನು ನೀಡುತ್ತದೆ, ಇದರಲ್ಲಿ ಶುಂಠಿಯೊಂದಿಗೆ ಚಹಾ ಎಲೆ, ಬೇಯಿಸಿದ ಸೀಬೆ ಎಲೆಗಳು, ಮತ್ತು ನೀರಿನಲ್ಲಿ ಪೊಟ್ಯಾಸಿಯಂ ಪರ್ಮ್ಯಾಂಗನೇಟ್ ಸೇರಿವೆ.",
+            "हैंडबुक दस्त के लिए एक से अधिक विकल्प देती है, जिसमें अदरक के साथ चायपत्ती, उबली हुई अमरूद की पत्तियां, और पानी में पोटैशियम परमैंगनेट शामिल हैं।"
+          ),
+          answer: true,
+          explain: L(
+            "Correct — all three are listed as separate diarrhoea remedy options in the handbook.",
+            "సరైనది — మూడు కూడా హ్యాండ్‌బుక్‌లో వేర్వేరు విరేచనాల చిట్కా ఎంపికలుగా జాబితా చేయబడ్డాయి.",
+            "சரி — மூன்றும் கையேட்டில் தனித்தனி வயிற்றுப்போக்கு வைத்திய விருப்பங்களாக பட்டியலிடப்பட்டுள்ளன.",
+            "ಸರಿ — ಮೂರೂ ಕೈಪಿಡಿಯಲ್ಲಿ ಪ್ರತ್ಯೇಕ ಅತಿಸಾರ ಪರಿಹಾರ ಆಯ್ಕೆಗಳಾಗಿ ಪಟ್ಟಿ ಮಾಡಲಾಗಿದೆ.",
+            "सही — तीनों को हैंडबुक में अलग-अलग दस्त उपचार विकल्पों के रूप में सूचीबद्ध किया गया है।"
+          ),
+        },
+        {
+          topicId: "t-m13-skin-wound",
+          type: "mcq",
+          q: L(
+            "Which handbook remedy is specifically used for maggot wounds?",
+            "పురుగుల గాయాలకు ప్రత్యేకంగా ఏ హ్యాండ్‌బుక్ చిట్కా వాడతారు?",
+            "புழு காயங்களுக்கு குறிப்பாக எந்த கையேட்டு வைத்தியம் பயன்படுத்தப்படுகிறது?",
+            "ಹುಳ ಗಾಯಗಳಿಗೆ ನಿರ್ದಿಷ್ಟವಾಗಿ ಯಾವ ಕೈಪಿಡಿ ಪರಿಹಾರ ಬಳಸಲಾಗುತ್ತದೆ?",
+            "कीड़े वाले घावों के लिए विशेष रूप से कौन सा हैंडबुक उपचार इस्तेमाल किया जाता है?"
+          ),
+          options: [
+            L(
+              "Marigold and tulsi leaves crushed with garlic and lime into a paste",
+              "బంతిపువ్వు మరియు తులసి ఆకులను వెల్లుల్లి మరియు నిమ్మతో నలిపి పేస్టుగా చేయడం",
+              "சாமந்தி மற்றும் துளசி இலைகளை பூண்டு மற்றும் எலுமிச்சையுடன் நசுக்கி பேஸ்டாக செய்தல்",
+              "ಚೆಂಡುಹೂವು ಮತ್ತು ತುಳಸಿ ಎಲೆಗಳನ್ನು ಬೆಳ್ಳುಳ್ಳಿ ಮತ್ತು ನಿಂಬೆಯೊಂದಿಗೆ ಪುಡಿಮಾಡಿ ಪೇಸ್ಟ್ ಮಾಡುವುದು",
+              "गेंदा और तुलसी की पत्तियों को लहसुन और नींबू के साथ कुचलकर पेस्ट बनाना"
+            ),
+            L(
+              "Only potassium permanganate in water",
+              "నీటిలో పొటాషియం పర్మాంగనేట్ మాత్రమే",
+              "தண்ணீரில் பொட்டாசியம் பர்மாங்கனேட் மட்டும்",
+              "ನೀರಿನಲ್ಲಿ ಪೊಟ್ಯಾಸಿಯಂ ಪರ್ಮ್ಯಾಂಗನೇಟ್ ಮಾತ್ರ",
+              "केवल पानी में पोटैशियम परमैंगनेट"
+            ),
+            L(
+              "Ground amla fruit, eaten daily",
+              "దంచిన ఉసిరి పండు, రోజూ తినడం",
+              "அரைத்த நெல்லிக்காய் பழம், தினமும் உண்ணுதல்",
+              "ಪುಡಿಮಾಡಿದ ನೆಲ್ಲಿಕಾಯಿ ಹಣ್ಣು, ಪ್ರತಿದಿನ ತಿನ್ನುವುದು",
+              "पिसा हुआ आंवला फल, रोज़ खाना"
+            ),
+            L(
+              "Coconut inflorescence juice",
+              "కొబ్బరి పుష్పగుచ్ఛం రసం",
+              "தேங்காய் பூங்கொத்து சாறு",
+              "ತೆಂಗಿನ ಹೂಗೊಂಚಲಿನ ರಸ",
+              "नारियल के पुष्पगुच्छ का रस"
+            ),
+          ],
+          answer: 0,
+          explain: L(
+            "Marigold and tulsi leaves crushed with garlic and lime is the handbook's first maggot-wound remedy, applied twice daily.",
+            "బంతిపువ్వు మరియు తులసి ఆకులను వెల్లుల్లి మరియు నిమ్మతో నలపడం హ్యాండ్‌బుక్ యొక్క మొదటి పురుగుల గాయం చిట్కా, రోజుకు రెండుసార్లు వేయాలి.",
+            "சாமந்தி மற்றும் துளசி இலைகளை பூண்டு மற்றும் எலுமிச்சையுடன் நசுக்குவது கையேட்டின் முதல் புழு காயம் வைத்தியம், நாளொன்றுக்கு இரண்டு முறை பயன்படுத்த வேண்டும்.",
+            "ಚೆಂಡುಹೂವು ಮತ್ತು ತುಳಸಿ ಎಲೆಗಳನ್ನು ಬೆಳ್ಳುಳ್ಳಿ ಮತ್ತು ನಿಂಬೆಯೊಂದಿಗೆ ಪುಡಿಮಾಡುವುದು ಕೈಪಿಡಿಯ ಮೊದಲ ಹುಳ-ಗಾಯದ ಪರಿಹಾರ, ದಿನಕ್ಕೆ ಎರಡು ಬಾರಿ ಹಚ್ಚಬೇಕು.",
+            "गेंदा और तुलसी की पत्तियों को लहसुन और नींबू के साथ कुचलना हैंडबुक का पहला कीड़े वाले घाव का उपचार है, दिन में दो बार लगाना चाहिए।"
+          ),
         },
         {
           topicId: "t-m13-skin-wound",
           type: "truefalse",
-          q: L("According to the handbook, both Euphorbia latex and papaya latex are applied on warts until the wart falls off."),
+          q: L(
+            "According to the handbook, both Euphorbia latex and papaya latex are applied on warts until the wart falls off.",
+            "హ్యాండ్‌బుక్ ప్రకారం, యూఫోర్బియా జిగురు మరియు బొప్పాయి జిగురు రెండింటినీ మొటిమ రాలిపోయే వరకు వేస్తారు.",
+            "கையேட்டின்படி, யூஃபோர்பியா பால் மற்றும் பப்பாளி பால் இரண்டும் கொப்புளம் விழும் வரை பயன்படுத்தப்படுகின்றன.",
+            "ಕೈಪಿಡಿಯ ಪ್ರಕಾರ, ಯೂಫೋರ್ಬಿಯಾ ಅಂಟು ಮತ್ತು ಪಪ್ಪಾಯಿ ಅಂಟು ಎರಡನ್ನೂ ನರಹುಲಿ ಉದುರುವವರೆಗೆ ಹಚ್ಚಲಾಗುತ್ತದೆ.",
+            "हैंडबुक के अनुसार, यूफोर्बिया का दूध और पपीते का दूध दोनों को मस्सा गिरने तक लगाया जाता है।"
+          ),
           answer: true,
-          explain: L("Correct — both are listed as separate options for treating warts, applied twice a day."),
+          explain: L(
+            "Correct — both are listed as separate options for treating warts, applied twice a day.",
+            "సరైనది — రెండూ మొటిమలకు వేర్వేరు చికిత్స ఎంపికలుగా జాబితా చేయబడ్డాయి, రోజుకు రెండుసార్లు వేయాలి.",
+            "சரி — இரண்டும் கொப்புளங்களுக்கு சிகிச்சையளிக்க தனித்தனி விருப்பங்களாக பட்டியலிடப்பட்டுள்ளன, நாளொன்றுக்கு இரண்டு முறை பயன்படுத்த வேண்டும்.",
+            "ಸರಿ — ಎರಡೂ ನರಹುಲಿಗಳಿಗೆ ಚಿಕಿತ್ಸೆ ನೀಡಲು ಪ್ರತ್ಯೇಕ ಆಯ್ಕೆಗಳಾಗಿ ಪಟ್ಟಿ ಮಾಡಲಾಗಿದೆ, ದಿನಕ್ಕೆ ಎರಡು ಬಾರಿ ಹಚ್ಚಬೇಕು.",
+            "सही — दोनों को मस्सों के इलाज के लिए अलग-अलग विकल्पों के रूप में सूचीबद्ध किया गया है, दिन में दो बार लगाना चाहिए।"
+          ),
         },
         {
           topicId: "t-m13-digestive",
           type: "mcq",
-          q: L("What combination does the handbook suggest for a general stomach disorder?"),
-          options: [L("Ginger juice, drumstick leaf juice and honey"), L("Only cold water"), L("Papaya latex"), L("Cassia alata paste")],
+          q: L(
+            "What combination does the handbook suggest for a general stomach disorder?",
+            "సాధారణ కడుపు రుగ్మతకు హ్యాండ్‌బుక్ ఏ కలయికను సూచిస్తుంది?",
+            "பொதுவான வயிற்று கோளாறுக்கு கையேடு எந்த கலவையை பரிந்துரைக்கிறது?",
+            "ಸಾಮಾನ್ಯ ಹೊಟ್ಟೆ ಅಸ್ವಸ್ಥತೆಗೆ ಕೈಪಿಡಿ ಯಾವ ಸಂಯೋಜನೆಯನ್ನು ಸೂಚಿಸುತ್ತದೆ?",
+            "सामान्य पेट की गड़बड़ी के लिए हैंडबुक किस मिश्रण का सुझाव देती है?"
+          ),
+          options: [
+            L(
+              "Ginger juice, drumstick leaf juice and honey",
+              "అల్లం రసం, మునగ ఆకు రసం మరియు తేనె",
+              "இஞ்சி சாறு, முருங்கை இலை சாறு மற்றும் தேன்",
+              "ಶುಂಠಿ ರಸ, ನುಗ್ಗೆ ಎಲೆ ರಸ ಮತ್ತು ಜೇನುತುಪ್ಪ",
+              "अदरक का रस, सहजन पत्ती का रस और शहद"
+            ),
+            L(
+              "Only cold water",
+              "చల్లని నీరు మాత్రమే",
+              "குளிர்ந்த நீர் மட்டும்",
+              "ತಣ್ಣನೆಯ ನೀರು ಮಾತ್ರ",
+              "केवल ठंडा पानी"
+            ),
+            L(
+              "Papaya latex",
+              "బొప్పాయి జిగురు",
+              "பப்பாளி பால்",
+              "ಪಪ್ಪಾಯಿ ಅಂಟು",
+              "पपीते का दूध"
+            ),
+            L(
+              "Cassia alata paste",
+              "కేసియా అలాటా పేస్టు",
+              "கேசியா அலாட்டா பேஸ்ட்",
+              "ಕ್ಯಾಸಿಯಾ ಅಲಾಟಾ ಪೇಸ್ಟ್",
+              "कैसिया अलाटा पेस्ट"
+            ),
+          ],
           answer: 0,
-          explain: L("500 ml each of ginger and drumstick leaf juice mixed with 200 ml honey is the handbook's stomach disorder remedy."),
+          explain: L(
+            "500 ml each of ginger and drumstick leaf juice mixed with 200 ml honey is the handbook's stomach disorder remedy.",
+            "500 మి.లీ చొప్పున అల్లం మరియు మునగ ఆకు రసాన్ని 200 మి.లీ తేనెతో కలపడం హ్యాండ్‌బుక్ కడుపు రుగ్మత చిట్కా.",
+            "500 மி.லி வீதம் இஞ்சி மற்றும் முருங்கை இலை சாற்றை 200 மி.லி தேனுடன் கலப்பது கையேட்டு வயிற்று கோளாறு வைத்தியம்.",
+            "ತಲಾ 500 ಮಿ.ಲೀ ಶುಂಠಿ ಮತ್ತು ನುಗ್ಗೆ ಎಲೆ ರಸವನ್ನು 200 ಮಿ.ಲೀ ಜೇನುತುಪ್ಪದೊಂದಿಗೆ ಬೆರೆಸುವುದು ಕೈಪಿಡಿಯ ಹೊಟ್ಟೆ ಅಸ್ವಸ್ಥತೆ ಪರಿಹಾರ.",
+            "500 मिली अदरक और सहजन पत्ती का रस, दोनों को 200 मिली शहद के साथ मिलाना हैंडबुक का पेट की गड़बड़ी का उपचार है।"
+          ),
         },
       ],
     },
@@ -10355,53 +11317,127 @@ export const MODULES = [
   // ==================================================================
   {
     id: "m13-l3",
-    title: L("NDDB's Ethnoveterinary Formulations (EVM Brochure)"),
+    title: L(
+      "NDDB's Ethnoveterinary Formulations (EVM Brochure)",
+      "NDDB యొక్క ఎత్నోవెటర్నరీ ఫార్ములేషన్స్ (EVM బ్రోషర్)",
+      "NDDB இன் நாட்டுவைத்திய சூத்திரங்கள் (EVM துண்டுப்பிரசுரம்)",
+      "NDDB ಯ ಜನಪದ ಪಶುವೈದ್ಯ ಸೂತ್ರೀಕರಣಗಳು (EVM ಕರಪತ್ರ)",
+      "NDDB के जनजातीय पशु चिकित्सा फॉर्मूलेशन (EVM ब्रोशर)"
+    ),
     estMinutes: 10,
     hook: [
       {
         type: "hero",
-        heading: L("A Second Source, Same Golden Rule"),
+        heading: L(
+          "A Second Source, Same Golden Rule",
+          "రెండో మూలం, అదే స్వర్ణ నియమం",
+          "இரண்டாவது மூலம், அதே தங்க விதி",
+          "ಎರಡನೇ ಮೂಲ, ಅದೇ ಸುವರ್ಣ ನಿಯಮ",
+          "दूसरा स्रोत, वही स्वर्ण नियम"
+        ),
         text: L(
-          "This lesson comes from a different, more recent NDDB brochure — 'Ethnoveterinary Formulations for Important Ailments in Bovines' (EVM), prepared with technical input from a veterinary professor specifically for ground-level use. The remedies here are more detailed, with exact quantities and step-by-step application. The rule does not change: use them ALONGSIDE, never INSTEAD OF, proper veterinary advice. The brochure itself closes by saying a nearby veterinarian should be consulted for proper disease diagnosis and management."
+          "This lesson comes from a different, more recent NDDB brochure — 'Ethnoveterinary Formulations for Important Ailments in Bovines' (EVM), prepared with technical input from a veterinary professor specifically for ground-level use. The remedies here are more detailed, with exact quantities and step-by-step application. The rule does not change: use them ALONGSIDE, never INSTEAD OF, proper veterinary advice. The brochure itself closes by saying a nearby veterinarian should be consulted for proper disease diagnosis and management.",
+          "ఈ పాఠం మరొక, ఇటీవలి NDDB బ్రోషర్ నుండి వచ్చింది — 'ఎత్నోవెటర్నరీ ఫార్ములేషన్స్ ఫర్ ఇంపార్టెంట్ ఐల్‌మెంట్స్ ఇన్ బొవైన్స్' (EVM), గ్రౌండ్-లెవల్ వినియోగం కోసం ప్రత్యేకంగా పశువైద్య ప్రొఫెసర్ సాంకేతిక సహకారంతో తయారు చేయబడింది. ఇక్కడి చిట్కాలు మరింత వివరంగా, ఖచ్చితమైన మోతాదులు మరియు దశలవారీ వినియోగంతో ఉన్నాయి. నియమం మారదు: వాటిని సరైన పశువైద్య సలహాకు బదులుగా కాకుండా, దానితో పాటుగా మాత్రమే వాడాలి. బ్రోషర్ స్వయంగా సరైన వ్యాధి నిర్ధారణ మరియు నిర్వహణ కోసం సమీపంలోని పశువైద్యుడిని సంప్రదించాలని ముగింపులో చెబుతుంది.",
+          "இந்த பாடம் மற்றொரு, சமீபத்திய NDDB துண்டுப்பிரசுரத்திலிருந்து வருகிறது — 'Ethnoveterinary Formulations for Important Ailments in Bovines' (EVM), கள மட்ட பயன்பாட்டிற்காக குறிப்பாக கால்நடை மருத்துவ பேராசிரியரின் தொழில்நுட்ப உதவியுடன் தயாரிக்கப்பட்டது. இங்குள்ள வைத்தியங்கள் மேலும் விரிவானவை, சரியான அளவுகள் மற்றும் படிப்படியான பயன்பாட்டுடன். விதி மாறாது: அவற்றை சரியான கால்நடை மருத்துவ ஆலோசனைக்கு பதிலாக அல்ல, அதனுடன் சேர்த்து மட்டுமே பயன்படுத்த வேண்டும். துண்டுப்பிரசுரமே சரியான நோய் கண்டறிதல் மற்றும் மேலாண்மைக்காக அருகிலுள்ள கால்நடை மருத்துவரை அணுக வேண்டும் என்று முடிவில் கூறுகிறது.",
+          "ಈ ಪಾಠ ಮತ್ತೊಂದು, ಇತ್ತೀಚಿನ NDDB ಕರಪತ್ರದಿಂದ ಬಂದಿದೆ — 'Ethnoveterinary Formulations for Important Ailments in Bovines' (EVM), ನೆಲಮಟ್ಟದ ಬಳಕೆಗಾಗಿಯೇ ಪಶುವೈದ್ಯ ಪ್ರಾಧ್ಯಾಪಕರ ತಾಂತ್ರಿಕ ಸಹಾಯದೊಂದಿಗೆ ಸಿದ್ಧಪಡಿಸಲಾಗಿದೆ. ಇಲ್ಲಿನ ಪರಿಹಾರಗಳು ಹೆಚ್ಚು ವಿವರವಾಗಿವೆ, ನಿಖರ ಪ್ರಮಾಣಗಳು ಮತ್ತು ಹಂತ-ಹಂತದ ಅನ್ವಯದೊಂದಿಗೆ. ನಿಯಮ ಬದಲಾಗುವುದಿಲ್ಲ: ಅವುಗಳನ್ನು ಸರಿಯಾದ ಪಶುವೈದ್ಯ ಸಲಹೆಗೆ ಬದಲಾಗಿ ಅಲ್ಲ, ಅದರ ಜೊತೆಗೆ ಮಾತ್ರ ಬಳಸಬೇಕು. ಕರಪತ್ರವೇ ಸರಿಯಾದ ರೋಗನಿರ್ಣಯ ಮತ್ತು ನಿರ್ವಹಣೆಗಾಗಿ ಹತ್ತಿರದ ಪಶುವೈದ್ಯರನ್ನು ಸಂಪರ್ಕಿಸಬೇಕೆಂದು ಮುಕ್ತಾಯದಲ್ಲಿ ಹೇಳುತ್ತದೆ.",
+          "यह पाठ एक अलग, हाल के NDDB ब्रोशर से लिया गया है — 'Ethnoveterinary Formulations for Important Ailments in Bovines' (EVM), जो ज़मीनी इस्तेमाल के लिए खासतौर पर एक पशु चिकित्सा प्रोफेसर के तकनीकी सहयोग से तैयार किया गया है। यहां के उपचार अधिक विस्तृत हैं, सटीक मात्रा और चरण-दर-चरण उपयोग के साथ। नियम नहीं बदलता: इन्हें सही पशु चिकित्सा सलाह के बदले नहीं, बल्कि उसके साथ-साथ ही इस्तेमाल करें। ब्रोशर खुद अंत में कहता है कि सही रोग निदान और प्रबंधन के लिए नज़दीकी पशु चिकित्सक से सलाह लेनी चाहिए।"
         ),
       },
     ],
     topics: [
       {
         id: "t-m13-evm-udder",
-        title: L("EVM Remedies for Udder and Reproductive Problems"),
+        title: L(
+          "EVM Remedies for Udder and Reproductive Problems",
+          "పొదుగు మరియు ప్రత్యుత్పత్తి సమస్యలకు EVM చిట్కాలు",
+          "மடி மற்றும் இனப்பெருக்க பிரச்சினைகளுக்கான EVM வைத்தியங்கள்",
+          "ಕೆಚ್ಚಲು ಮತ್ತು ಸಂತಾನೋತ್ಪತ್ತಿ ಸಮಸ್ಯೆಗಳಿಗೆ EVM ಪರಿಹಾರಗಳು",
+          "थन और प्रजनन समस्याओं के लिए EVM उपचार"
+        ),
         teach: [
           {
             type: "text",
-            heading: L("A Few Terms Before We Start"),
+            heading: L(
+              "A Few Terms Before We Start",
+              "మొదలుపెట్టే ముందు కొన్ని పదాలు",
+              "தொடங்குவதற்கு முன் சில சொற்கள்",
+              "ಪ್ರಾರಂಭಿಸುವ ಮೊದಲು ಕೆಲವು ಪದಗಳು",
+              "शुरू करने से पहले कुछ शब्द"
+            ),
             html: L(
-              "An udder has four separate sections called <b>quarters</b>, each with its own teat. <b>Mastitis</b> means the udder (or a quarter of it) is infected or inflamed, often becoming swollen, painful, or making the milk look abnormal. The <b>placenta</b> is the tissue that nourished the calf inside the womb, which normally comes away naturally soon after calving (giving birth)."
+              "An udder has four separate sections called <b>quarters</b>, each with its own teat. <b>Mastitis</b> means the udder (or a quarter of it) is infected or inflamed, often becoming swollen, painful, or making the milk look abnormal. The <b>placenta</b> is the tissue that nourished the calf inside the womb, which normally comes away naturally soon after calving (giving birth).",
+              "పొదుగుకు <b>క్వార్టర్లు</b> అని పిలిచే నాలుగు వేర్వేరు భాగాలు ఉంటాయి, ప్రతి దానికీ దాని సొంత చనుమొన ఉంటుంది. <b>మాస్టైటిస్</b> అంటే పొదుగు (లేదా దాని ఒక క్వార్టర్) సోకడం లేదా వాపు రావడం, ఇది తరచుగా వాచడం, నొప్పి రావడం, లేదా పాలు అసాధారణంగా కనిపించేలా చేయడం వంటివి కలిగిస్తుంది. <b>మాయ (ప్లాసెంటా)</b> అనేది గర్భంలో దూడకు పోషణ అందించిన కణజాలం, ఇది సాధారణంగా ప్రసవం (దూడ పుట్టడం) తర్వాత వెంటనే సహజంగా వేరవుతుంది.",
+              "ஒரு மடியில் <b>காலிகள்</b> (quarters) எனப்படும் நான்கு தனித்தனி பகுதிகள் உள்ளன, ஒவ்வொன்றுக்கும் அதன் சொந்த முலைக்காம்பு உண்டு. <b>மடிவீக்கம் (Mastitis)</b> என்பது மடி (அல்லது அதன் ஒரு காலி) தொற்று அல்லது வீக்கமடைவது, இது பெரும்பாலும் வீக்கம், வலி, அல்லது பால் அசாதாரணமாக தோன்றுவதற்கு காரணமாகிறது. <b>நஞ்சுக்கொடி (Placenta)</b> என்பது கருவறையில் கன்றுக்கு ஊட்டமளித்த திசு, இது பொதுவாக ஈன்ற (பிறப்பு) பிறகு விரைவில் இயற்கையாகவே வெளியேறும்.",
+              "ಕೆಚ್ಚಲಿನಲ್ಲಿ <b>ಕ್ವಾರ್ಟರ್‌ಗಳು</b> ಎಂದು ಕರೆಯಲ್ಪಡುವ ನಾಲ್ಕು ಪ್ರತ್ಯೇಕ ಭಾಗಗಳಿವೆ, ಪ್ರತಿಯೊಂದಕ್ಕೂ ತನ್ನದೇ ಆದ ಮೊಲೆತೊಟ್ಟು ಇರುತ್ತದೆ. <b>ಮಾಸ್ಟೈಟಿಸ್</b> ಎಂದರೆ ಕೆಚ್ಚಲು (ಅಥವಾ ಅದರ ಒಂದು ಕ್ವಾರ್ಟರ್) ಸೋಂಕಿಗೆ ಒಳಗಾಗುವುದು ಅಥವಾ ಉರಿಯೂತಗೊಳ್ಳುವುದು, ಇದು ಸಾಮಾನ್ಯವಾಗಿ ಊತ, ನೋವು, ಅಥವಾ ಹಾಲು ಅಸಹಜವಾಗಿ ಕಾಣುವಂತೆ ಮಾಡುತ್ತದೆ. <b>ಜರಾಯು (ಪ್ಲಾಸೆಂಟಾ)</b> ಎಂದರೆ ಗರ್ಭದೊಳಗೆ ಕರುವಿಗೆ ಪೋಷಣೆ ನೀಡಿದ ಅಂಗಾಂಶ, ಇದು ಸಾಮಾನ್ಯವಾಗಿ ಈಯುವಿಕೆಯ (ಹೆರಿಗೆ) ನಂತರ ಸ್ವಲ್ಪದರಲ್ಲೇ ಸ್ವಾಭಾವಿಕವಾಗಿ ಹೊರಬರುತ್ತದೆ.",
+              "थन में <b>क्वार्टर</b> कहे जाने वाले चार अलग-अलग हिस्से होते हैं, हर एक का अपना थन-मुख (टीट) होता है। <b>मैस्टाइटिस</b> का मतलब है थन (या उसका एक क्वार्टर) संक्रमित या सूजा हुआ होना, जिससे अक्सर सूजन, दर्द, या दूध असामान्य दिखने लगता है। <b>प्लेसेंटा (अपरा)</b> वह ऊतक है जिसने गर्भ में बछड़े को पोषण दिया, जो सामान्यतः ब्याने (जन्म देने) के तुरंत बाद अपने आप अलग हो जाता है।"
             ),
           },
           {
             type: "glossary",
-            term: L("Oedema"),
-            meaning: L("Swelling caused by fluid building up under the skin — in this topic, specifically swelling of the udder."),
+            term: L(
+              "Oedema",
+              "వాపు (ఎడీమా)",
+              "வீக்கம் (Oedema)",
+              "ಊತ (ಎಡೀಮಾ)",
+              "सूजन (एडिमा)"
+            ),
+            meaning: L(
+              "Swelling caused by fluid building up under the skin — in this topic, specifically swelling of the udder.",
+              "చర్మం కింద ద్రవం పేరుకుపోవడం వల్ల వచ్చే వాపు — ఈ టాపిక్‌లో, ప్రత్యేకంగా పొదుగు వాపు.",
+              "தோலுக்கு அடியில் திரவம் தேங்குவதால் ஏற்படும் வீக்கம் — இந்த தலைப்பில், குறிப்பாக மடி வீக்கம்.",
+              "ಚರ್ಮದ ಕೆಳಗೆ ದ್ರವ ಸಂಗ್ರಹವಾಗುವುದರಿಂದ ಉಂಟಾಗುವ ಊತ — ಈ ವಿಷಯದಲ್ಲಿ, ನಿರ್ದಿಷ್ಟವಾಗಿ ಕೆಚ್ಚಲಿನ ಊತ.",
+              "त्वचा के नीचे तरल पदार्थ जमा होने से होने वाली सूजन — इस विषय में, विशेष रूप से थन की सूजन।"
+            ),
           },
           {
             type: "stat-grid",
             items: [
               {
-                label: L("Mastitis (All Types)"),
+                label: L(
+                  "Mastitis (All Types)",
+                  "మాస్టైటిస్ (అన్ని రకాలు)",
+                  "மடிவீக்கம் (அனைத்து வகைகளும்)",
+                  "ಮಾಸ್ಟೈಟಿಸ್ (ಎಲ್ಲಾ ವಿಧಗಳು)",
+                  "मैस्टाइटिस (सभी प्रकार)"
+                ),
                 text: L(
-                  "Blend 250 g aloe vera (thorns removed), 50 g turmeric powder and 15 g lime into a reddish paste. Water version: dilute a handful in 200 ml water, apply 10 times a day for 5 days, after fully milking out ALL quarters (including unaffected ones); last application of the day should be the oil version instead. Oil version: dilute in 200 ml mustard or gingelly oil, apply 3 times a day for 5 days. Both versions: also feed 2 lemons (cut in half) orally, 3 times a day for 3 days."
+                  "Blend 250 g aloe vera (thorns removed), 50 g turmeric powder and 15 g lime into a reddish paste. Water version: dilute a handful in 200 ml water, apply 10 times a day for 5 days, after fully milking out ALL quarters (including unaffected ones); last application of the day should be the oil version instead. Oil version: dilute in 200 ml mustard or gingelly oil, apply 3 times a day for 5 days. Both versions: also feed 2 lemons (cut in half) orally, 3 times a day for 3 days.",
+                  "250 గ్రా కలబంద (ముళ్ళు తీసివేసినది), 50 గ్రా పసుపు పొడి మరియు 15 గ్రా సున్నం కలిపి ఎర్రటి పేస్టు తయారు చేయండి. నీటి వెర్షన్: ఒక పిడికెడును 200 మి.లీ నీటిలో కలిపి, అన్ని క్వార్టర్లను (సోకనివి కూడా) పూర్తిగా పితికిన తర్వాత, 5 రోజులు రోజుకు 10 సార్లు వేయండి; ఆ రోజు చివరి వాడకం బదులుగా నూనె వెర్షన్‌గా ఉండాలి. నూనె వెర్షన్: 200 మి.లీ ఆవాలు లేదా నువ్వుల నూనెలో కలిపి, 5 రోజులు రోజుకు 3 సార్లు వేయండి. రెండు వెర్షన్లలోనూ: 2 నిమ్మకాయలను (సగానికి కోసి) కూడా నోటి ద్వారా, 3 రోజులు రోజుకు 3 సార్లు తినిపించండి.",
+                  "250 கிராம் கற்றாழை (முள் நீக்கியது), 50 கிராம் மஞ்சள் தூள் மற்றும் 15 கிராம் சுண்ணாம்பு கலந்து சிவப்பு நிற பேஸ்ட் தயாரிக்கவும். நீர் பதிப்பு: ஒரு பிடியை 200 மி.லி நீரில் நீர்த்து, அனைத்து காலிகளையும் (பாதிக்கப்படாதவை உட்பட) முழுமையாக கறந்த பிறகு, 5 நாட்களுக்கு நாளொன்றுக்கு 10 முறை பயன்படுத்தவும்; அன்றைய கடைசி பயன்பாடு எண்ணெய் பதிப்பாக இருக்க வேண்டும். எண்ணெய் பதிப்பு: 200 மி.லி கடுகு அல்லது எள் எண்ணெயில் நீர்த்து, 5 நாட்களுக்கு நாளொன்றுக்கு 3 முறை பயன்படுத்தவும். இரண்டு பதிப்புகளிலும்: 2 எலுமிச்சைகளை (பாதியாக வெட்டி) வாய் வழியாகவும், 3 நாட்களுக்கு நாளொன்றுக்கு 3 முறை கொடுக்கவும்.",
+                  "250 ಗ್ರಾಂ ಅಲೋವೆರಾ (ಮುಳ್ಳುಗಳನ್ನು ತೆಗೆದದ್ದು), 50 ಗ್ರಾಂ ಅರಿಶಿನ ಪುಡಿ ಮತ್ತು 15 ಗ್ರಾಂ ಸುಣ್ಣವನ್ನು ಬೆರೆಸಿ ಕೆಂಪು ಬಣ್ಣದ ಪೇಸ್ಟ್ ಮಾಡಿ. ನೀರಿನ ಆವೃತ್ತಿ: ಒಂದು ಹಿಡಿಯನ್ನು 200 ಮಿ.ಲೀ ನೀರಿನಲ್ಲಿ ದುರ್ಬಲಗೊಳಿಸಿ, ಎಲ್ಲಾ ಕ್ವಾರ್ಟರ್‌ಗಳನ್ನು (ಬಾಧಿತವಲ್ಲದವು ಸೇರಿ) ಸಂಪೂರ್ಣವಾಗಿ ಹಾಲು ಕರೆದ ನಂತರ, 5 ದಿನ ದಿನಕ್ಕೆ 10 ಬಾರಿ ಹಚ್ಚಿ; ಆ ದಿನದ ಕೊನೆಯ ಬಳಕೆ ಬದಲಿಗೆ ಎಣ್ಣೆ ಆವೃತ್ತಿಯಾಗಿರಬೇಕು. ಎಣ್ಣೆ ಆವೃತ್ತಿ: 200 ಮಿ.ಲೀ ಸಾಸಿವೆ ಅಥವಾ ಎಳ್ಳೆಣ್ಣೆಯಲ್ಲಿ ದುರ್ಬಲಗೊಳಿಸಿ, 5 ದಿನ ದಿನಕ್ಕೆ 3 ಬಾರಿ ಹಚ್ಚಿ. ಎರಡೂ ಆವೃತ್ತಿಗಳಲ್ಲಿ: 2 ನಿಂಬೆಹಣ್ಣುಗಳನ್ನು (ಅರ್ಧ ಕತ್ತರಿಸಿ) ಬಾಯಿಯ ಮೂಲಕವೂ, 3 ದಿನ ದಿನಕ್ಕೆ 3 ಬಾರಿ ತಿನ್ನಿಸಿ.",
+                  "250 ग्राम एलोवेरा (कांटे हटाकर), 50 ग्राम हल्दी पाउडर और 15 ग्राम चूना मिलाकर लाल रंग का पेस्ट बनाएं। पानी वाला संस्करण: एक मुट्ठी को 200 मिली पानी में घोलकर, सभी क्वार्टर (अप्रभावित सहित) पूरी तरह दुहने के बाद, 5 दिनों तक दिन में 10 बार लगाएं; उस दिन का आखिरी उपयोग तेल वाले संस्करण से करें। तेल वाला संस्करण: 200 मिली सरसों या तिल के तेल में घोलकर, 5 दिनों तक दिन में 3 बार लगाएं। दोनों संस्करणों में: 2 नींबू (आधा काटकर) भी मुँह से, 3 दिनों तक दिन में 3 बार खिलाएं।"
                 ),
               },
               {
-                label: L("Teat Obstruction"),
+                label: L(
+                  "Teat Obstruction",
+                  "చనుమొన అడ్డంకి",
+                  "முலைக்காம்பு அடைப்பு",
+                  "ಮೊಲೆತೊಟ್ಟು ಅಡಚಣೆ",
+                  "थन-मुख में रुकावट"
+                ),
                 text: L(
-                  "Coat a freshly cut neem leafstalk with turmeric powder and butter or ghee. Insert it into the affected teat opening, cut end up, base down, turning anti-clockwise. Replace with a fresh coated leafstalk after every milking."
+                  "Coat a freshly cut neem leafstalk with turmeric powder and butter or ghee. Insert it into the affected teat opening, cut end up, base down, turning anti-clockwise. Replace with a fresh coated leafstalk after every milking.",
+                  "తాజాగా కోసిన వేప ఆకు తొడిమను పసుపు పొడి మరియు వెన్న లేదా నెయ్యితో పూయండి. దీనిని బాధిత చనుమొన రంధ్రంలోకి, కోసిన కొన పైకి, మొదలు కిందికి ఉండేలా, అపసవ్య దిశలో తిప్పుతూ చొప్పించండి. ప్రతి పితుకుడు తర్వాత తాజాగా పూసిన తొడిమతో మార్చండి.",
+                  "புதிதாக வெட்டப்பட்ட வேம்பு இலைத் தண்டை மஞ்சள் தூள் மற்றும் வெண்ணெய் அல்லது நெய்யால் பூசவும். இதை பாதிக்கப்பட்ட முலைக்காம்பு துவாரத்தில், வெட்டப்பட்ட முனை மேலே, அடிப்பகுதி கீழே இருக்குமாறு, எதிரெதிர் திசையில் திருப்பி செருகவும். ஒவ்வொரு கறத்தலுக்குப் பிறகும் புதிதாக பூசப்பட்ட தண்டுடன் மாற்றவும்.",
+                  "ಹೊಸದಾಗಿ ಕತ್ತರಿಸಿದ ಬೇವಿನ ಎಲೆಯ ತೊಟ್ಟನ್ನು ಅರಿಶಿನ ಪುಡಿ ಮತ್ತು ಬೆಣ್ಣೆ ಅಥವಾ ತುಪ್ಪದಿಂದ ಲೇಪಿಸಿ. ಇದನ್ನು ಬಾಧಿತ ಮೊಲೆತೊಟ್ಟಿನ ತೆರೆಯುವಿಕೆಗೆ, ಕತ್ತರಿಸಿದ ತುದಿ ಮೇಲೆ, ತಳ ಕೆಳಗೆ ಇರುವಂತೆ, ಅಪ್ರದಕ್ಷಿಣ ದಿಕ್ಕಿನಲ್ಲಿ ತಿರುಗಿಸುತ್ತಾ ಸೇರಿಸಿ. ಪ್ರತಿ ಹಾಲು ಕರೆದ ನಂತರ ತಾಜಾ ಲೇಪಿತ ತೊಟ್ಟಿನಿಂದ ಬದಲಾಯಿಸಿ.",
+                  "ताज़ा काटी गई नीम की पत्ती की डंठल को हल्दी पाउडर और मक्खन या घी से लेप करें। इसे प्रभावित थन-मुख में, कटा हुआ सिरा ऊपर, आधार नीचे रखते हुए, वामावर्त घुमाते हुए डालें। हर दुहाई के बाद ताज़ा लेपित डंठल से बदलें।"
                 ),
               },
               {
-                label: L("Udder Oedema"),
+                label: L(
+                  "Udder Oedema",
+                  "పొదుగు వాపు",
+                  "மடி வீக்கம்",
+                  "ಕೆಚ್ಚಲಿನ ಊತ",
+                  "थन की सूजन"
+                ),
                 text: L(
-                  "Heat 200 ml sesame or mustard oil, add a handful of turmeric powder and 2 sliced garlic pearls; remove from flame once the flavour develops (no need to boil), then cool. Apply with force in a circular motion over the whole swollen area and udder, 4 times a day for 3 days."
+                  "Heat 200 ml sesame or mustard oil, add a handful of turmeric powder and 2 sliced garlic pearls; remove from flame once the flavour develops (no need to boil), then cool. Apply with force in a circular motion over the whole swollen area and udder, 4 times a day for 3 days.",
+                  "200 మి.లీ నువ్వుల లేదా ఆవాల నూనెను వేడి చేసి, ఒక పిడికెడు పసుపు పొడి మరియు 2 ముక్కలు చేసిన వెల్లుల్లి రేకులు కలపండి; రుచి వచ్చాక మంట నుండి తీసివేయండి (మరిగించాల్సిన అవసరం లేదు), తర్వాత చల్లార్చండి. వాచిన ప్రాంతం మరియు పొదుగు మొత్తంపై గుండ్రంగా బలంగా రుద్దుతూ, 3 రోజులు రోజుకు 4 సార్లు వేయండి.",
+                  "200 மி.லி எள் அல்லது கடுகு எண்ணெயை சூடாக்கி, ஒரு பிடி மஞ்சள் தூள் மற்றும் 2 துண்டு பூண்டு பல்லுகளை சேர்க்கவும்; சுவை வந்ததும் தீயிலிருந்து இறக்கவும் (கொதிக்க வைக்க தேவையில்லை), பின்னர் ஆற வைக்கவும். வீங்கிய பகுதி மற்றும் மடி முழுவதும் வட்ட வடிவில் பலமாக தேய்த்து, 3 நாட்களுக்கு நாளொன்றுக்கு 4 முறை பயன்படுத்தவும்.",
+                  "200 ಮಿ.ಲೀ ಎಳ್ಳೆಣ್ಣೆ ಅಥವಾ ಸಾಸಿವೆ ಎಣ್ಣೆಯನ್ನು ಬಿಸಿಮಾಡಿ, ಒಂದು ಹಿಡಿ ಅರಿಶಿನ ಪುಡಿ ಮತ್ತು 2 ಹೋಳು ಮಾಡಿದ ಬೆಳ್ಳುಳ್ಳಿ ಎಸಳುಗಳನ್ನು ಸೇರಿಸಿ; ರುಚಿ ಬಂದ ನಂತರ ಜ್ವಾಲೆಯಿಂದ ತೆಗೆಯಿರಿ (ಕುದಿಸುವ ಅಗತ್ಯವಿಲ್ಲ), ನಂತರ ತಣಿಸಿ. ಊದಿಕೊಂಡ ಪ್ರದೇಶ ಮತ್ತು ಕೆಚ್ಚಲಿನ ಇಡೀ ಭಾಗದ ಮೇಲೆ ವೃತ್ತಾಕಾರವಾಗಿ ಬಲವಾಗಿ ಉಜ್ಜಿ, 3 ದಿನ ದಿನಕ್ಕೆ 4 ಬಾರಿ ಹಚ್ಚಿ.",
+                  "200 मिली तिल या सरसों के तेल को गर्म करें, एक मुट्ठी हल्दी पाउडर और 2 कटी हुई लहसुन की कलियां डालें; स्वाद आने पर आंच से उतार लें (उबालने की ज़रूरत नहीं), फिर ठंडा करें। सूजे हुए हिस्से और थन पर पूरी तरह गोलाकार में ज़ोर से मलें, 3 दिनों तक दिन में 4 बार।"
                 ),
               },
             ],
@@ -10409,30 +11445,70 @@ export const MODULES = [
           {
             type: "callout",
             style: "warning",
-            heading: L("Rule Out Mastitis First — And Remember the Golden Rule"),
+            heading: L(
+              "Rule Out Mastitis First — And Remember the Golden Rule",
+              "మొదట మాస్టైటిస్‌ను తోసిపుచ్చండి — మరియు స్వర్ణ నియమాన్ని గుర్తుంచుకోండి",
+              "முதலில் மடிவீக்கத்தை நீக்குங்கள் — மற்றும் தங்க விதியை நினைவில் கொள்ளுங்கள்",
+              "ಮೊದಲು ಮಾಸ್ಟೈಟಿಸ್ ಅನ್ನು ತಳ್ಳಿಹಾಕಿ — ಮತ್ತು ಸುವರ್ಣ ನಿಯಮವನ್ನು ನೆನಪಿಡಿ",
+              "पहले मैस्टाइटिस को खारिज करें — और स्वर्ण नियम याद रखें"
+            ),
             text: L(
-              "The brochure itself notes: before using the udder oedema remedy, mastitis must be ruled out — meaning a proper check is needed to be sure it isn't actually an infection. This is exactly why these remedies are used ALONGSIDE, never INSTEAD OF, veterinary diagnosis: udder and birth-related problems can look similar on the surface but need very different handling underneath."
+              "The brochure itself notes: before using the udder oedema remedy, mastitis must be ruled out — meaning a proper check is needed to be sure it isn't actually an infection. This is exactly why these remedies are used ALONGSIDE, never INSTEAD OF, veterinary diagnosis: udder and birth-related problems can look similar on the surface but need very different handling underneath.",
+              "బ్రోషర్ స్వయంగా ఇలా పేర్కొంటుంది: పొదుగు వాపు చిట్కాను వాడే ముందు, మాస్టైటిస్‌ను తోసిపుచ్చాలి — అంటే ఇది నిజంగా ఇన్‌ఫెక్షన్ కాదని నిర్ధారించుకోవడానికి సరైన పరీక్ష అవసరం. ఈ చిట్కాలను పశువైద్య నిర్ధారణకు బదులుగా కాకుండా, దానితో పాటుగా వాడటానికి ఇదే కారణం: పొదుగు మరియు ప్రసవ సంబంధిత సమస్యలు పైకి ఒకేలా కనిపించవచ్చు కానీ లోపల చాలా భిన్నమైన చికిత్స అవసరం.",
+              "துண்டுப்பிரசுரமே குறிப்பிடுகிறது: மடி வீக்க வைத்தியத்தை பயன்படுத்தும் முன், மடிவீக்கத்தை நீக்க வேண்டும் — அதாவது இது உண்மையில் தொற்று இல்லை என்பதை உறுதிசெய்ய சரியான பரிசோதனை தேவை. இந்த வைத்தியங்களை கால்நடை மருத்துவ நோய் கண்டறிதலுக்கு பதிலாக அல்ல, அதனுடன் சேர்த்து பயன்படுத்த வேண்டியதற்கு இதுவே காரணம்: மடி மற்றும் பிரசவம் தொடர்பான பிரச்சினைகள் மேலோட்டமாக ஒரே மாதிரி தோன்றலாம் ஆனால் உள்ளே மிகவும் வேறுபட்ட கையாளுதல் தேவை.",
+              "ಕರಪತ್ರವೇ ಸೂಚಿಸುತ್ತದೆ: ಕೆಚ್ಚಲಿನ ಊತದ ಪರಿಹಾರವನ್ನು ಬಳಸುವ ಮೊದಲು, ಮಾಸ್ಟೈಟಿಸ್ ಅನ್ನು ತಳ್ಳಿಹಾಕಬೇಕು — ಅಂದರೆ ಇದು ನಿಜವಾಗಿಯೂ ಸೋಂಕಲ್ಲ ಎಂದು ಖಚಿತಪಡಿಸಿಕೊಳ್ಳಲು ಸರಿಯಾದ ಪರೀಕ್ಷೆ ಅಗತ್ಯ. ಈ ಪರಿಹಾರಗಳನ್ನು ಪಶುವೈದ್ಯ ರೋಗನಿರ್ಣಯಕ್ಕೆ ಬದಲಾಗಿ ಅಲ್ಲ, ಅದರ ಜೊತೆಗೆ ಬಳಸುವುದಕ್ಕೆ ಇದೇ ಕಾರಣ: ಕೆಚ್ಚಲು ಮತ್ತು ಹೆರಿಗೆ ಸಂಬಂಧಿತ ಸಮಸ್ಯೆಗಳು ಮೇಲ್ನೋಟಕ್ಕೆ ಒಂದೇ ರೀತಿ ಕಾಣಿಸಬಹುದು ಆದರೆ ಒಳಗೆ ಬಹಳ ವಿಭಿನ್ನ ನಿರ್ವಹಣೆ ಅಗತ್ಯ.",
+              "ब्रोशर खुद बताता है: थन की सूजन के उपचार का उपयोग करने से पहले, मैस्टाइटिस को खारिज करना ज़रूरी है — यानी यह सुनिश्चित करने के लिए सही जांच ज़रूरी है कि यह वास्तव में संक्रमण नहीं है। इसीलिए इन उपचारों को पशु चिकित्सा निदान के बदले नहीं, बल्कि उसके साथ-साथ इस्तेमाल किया जाता है: थन और प्रसव से जुड़ी समस्याएं ऊपर से एक जैसी दिख सकती हैं लेकिन अंदर से बहुत अलग इलाज की ज़रूरत होती है।"
             ),
           },
           {
             type: "stat-grid",
             items: [
               {
-                label: L("Retention of Placenta"),
+                label: L(
+                  "Retention of Placenta",
+                  "మాయ నిలిచిపోవడం",
+                  "நஞ்சுக்கொடி தங்கியிருத்தல்",
+                  "ಜರಾಯು ಉಳಿಯುವಿಕೆ",
+                  "प्लेसेंटा (अपरा) का रुकना"
+                ),
                 text: L(
-                  "Feed one whole white radish tuber within 2 hours of calving. If the placenta still hasn't come away after 8 hours, feed 1.5 kg fresh lady's finger with jaggery and salt. If it persists past 12 hours, tie a knot close to the base, cut 2 inches below it and leave the knot in — the source is explicit: do NOT try to remove the retained placenta by hand. Feed one more whole radish once a week for four weeks afterward."
+                  "Feed one whole white radish tuber within 2 hours of calving. If the placenta still hasn't come away after 8 hours, feed 1.5 kg fresh lady's finger with jaggery and salt. If it persists past 12 hours, tie a knot close to the base, cut 2 inches below it and leave the knot in — the source is explicit: do NOT try to remove the retained placenta by hand. Feed one more whole radish once a week for four weeks afterward.",
+                  "ప్రసవం అయిన 2 గంటలలోపు ఒక పూర్తి తెల్ల ముల్లంగి దుంపను తినిపించండి. 8 గంటల తర్వాత కూడా మాయ వేరుకాకపోతే, 1.5 కిలో తాజా బెండకాయను బెల్లం మరియు ఉప్పుతో తినిపించండి. 12 గంటలు దాటినా కొనసాగితే, మొదలుకు దగ్గరగా ఒక ముడి వేసి, దాని కింద 2 అంగుళాలు కోసి, ముడిని అలాగే వదిలేయండి — మూలం స్పష్టంగా చెబుతుంది: నిలిచిపోయిన మాయను చేతితో తీయడానికి ప్రయత్నించకూడదు. తర్వాత నాలుగు వారాలు వారానికి ఒకసారి మరో పూర్తి ముల్లంగిని తినిపించండి.",
+                  "ஈன்ற 2 மணி நேரத்திற்குள் ஒரு முழு வெள்ளை முள்ளங்கி கிழங்கை கொடுக்கவும். 8 மணி நேரத்திற்குப் பிறகும் நஞ்சுக்கொடி வெளியேறவில்லை என்றால், 1.5 கிலோ புதிய வெண்டைக்காயை வெல்லம் மற்றும் உப்புடன் கொடுக்கவும். 12 மணி நேரத்தையும் தாண்டி நீடித்தால், அடிப்பகுதிக்கு அருகில் ஒரு முடிச்சு கட்டி, அதற்கு கீழே 2 அங்குலம் வெட்டி, முடிச்சை அப்படியே விடவும் — மூலம் தெளிவாக கூறுகிறது: தங்கியிருக்கும் நஞ்சுக்கொடியை கையால் அகற்ற முயற்சிக்க வேண்டாம். பிறகு நான்கு வாரங்களுக்கு வாரத்திற்கு ஒரு முறை மேலும் ஒரு முழு முள்ளங்கியை கொடுக்கவும்.",
+                  "ಈಯುವಿಕೆಯ 2 ಗಂಟೆಗಳಲ್ಲಿ ಒಂದು ಪೂರ್ಣ ಬಿಳಿ ಮೂಲಂಗಿ ಗೆಡ್ಡೆಯನ್ನು ತಿನ್ನಿಸಿ. 8 ಗಂಟೆಗಳ ನಂತರವೂ ಜರಾಯು ಇನ್ನೂ ಬಂದಿಲ್ಲದಿದ್ದರೆ, 1.5 ಕೆಜಿ ತಾಜಾ ಬೆಂಡೆಕಾಯಿಯನ್ನು ಬೆಲ್ಲ ಮತ್ತು ಉಪ್ಪಿನೊಂದಿಗೆ ತಿನ್ನಿಸಿ. 12 ಗಂಟೆ ದಾಟಿದರೂ ಮುಂದುವರಿದರೆ, ತಳದ ಹತ್ತಿರ ಒಂದು ಗಂಟು ಕಟ್ಟಿ, ಅದರ ಕೆಳಗೆ 2 ಇಂಚು ಕತ್ತರಿಸಿ, ಗಂಟನ್ನು ಹಾಗೇ ಬಿಡಿ — ಮೂಲ ಸ್ಪಷ್ಟವಾಗಿ ಹೇಳುತ್ತದೆ: ಉಳಿದ ಜರಾಯುವನ್ನು ಕೈಯಿಂದ ತೆಗೆಯಲು ಪ್ರಯತ್ನಿಸಬೇಡಿ. ನಂತರ ನಾಲ್ಕು ವಾರ ವಾರಕ್ಕೊಮ್ಮೆ ಇನ್ನೊಂದು ಪೂರ್ಣ ಮೂಲಂಗಿಯನ್ನು ತಿನ್ನಿಸಿ.",
+                  "ब्याने के 2 घंटे के भीतर एक पूरी सफेद मूली खिलाएं। अगर 8 घंटे बाद भी प्लेसेंटा नहीं निकला है, तो 1.5 किलो ताज़ी भिंडी गुड़ और नमक के साथ खिलाएं। अगर यह 12 घंटे से आगे बना रहे, तो आधार के पास एक गांठ बांधें, उससे 2 इंच नीचे काटें और गांठ को वैसे ही छोड़ दें — स्रोत स्पष्ट रूप से कहता है: रुके हुए प्लेसेंटा को हाथ से निकालने की कोशिश न करें। इसके बाद चार हफ्तों तक हफ्ते में एक बार एक और पूरी मूली खिलाएं।"
                 ),
               },
               {
-                label: L("Repeat Breeding"),
+                label: L(
+                  "Repeat Breeding",
+                  "పదే పదే గర్భం రాకపోవడం",
+                  "மீண்டும் மீண்டும் கருவுறாமை",
+                  "ಪುನರಾವರ್ತಿತ ಸಂತಾನೋತ್ಪತ್ತಿ ವೈಫಲ್ಯ",
+                  "बार-बार गर्भ न ठहरना"
+                ),
                 text: L(
-                  "Starting on day 1 or 2 of heat (oestrus, the period when a cow can conceive), feed once a day in this order: white radish for 5 days, aloe vera leaf for 4 days, moringa leaves for 4 days, cissus stem for 4 days, then curry leaves with turmeric powder for 4 days — with jaggery and salt each time. Repeat the whole sequence if the animal has not conceived."
+                  "Starting on day 1 or 2 of heat (oestrus, the period when a cow can conceive), feed once a day in this order: white radish for 5 days, aloe vera leaf for 4 days, moringa leaves for 4 days, cissus stem for 4 days, then curry leaves with turmeric powder for 4 days — with jaggery and salt each time. Repeat the whole sequence if the animal has not conceived.",
+                  "బహిష్టు (ఈస్ట్రస్, ఆవు గర్భం దాల్చగల కాలం) మొదటి లేదా రెండో రోజు నుండి మొదలుపెట్టి, ఈ క్రమంలో రోజుకు ఒకసారి తినిపించండి: 5 రోజులు తెల్ల ముల్లంగి, 4 రోజులు కలబంద ఆకు, 4 రోజులు మునగ ఆకులు, 4 రోజులు సిస్సస్ కాండం, తర్వాత 4 రోజులు కరివేపాకు పసుపు పొడితో కలిపి — ప్రతిసారి బెల్లం మరియు ఉప్పుతో. జంతువు గర్భం దాల్చకపోతే మొత్తం క్రమాన్ని పునరావృతం చేయండి.",
+                  "வெப்பு (ஈஸ்ட்ரஸ், பசு கருவுறக்கூடிய காலம்) 1 அல்லது 2வது நாளில் தொடங்கி, இந்த வரிசையில் நாளொன்றுக்கு ஒரு முறை கொடுக்கவும்: 5 நாட்களுக்கு வெள்ளை முள்ளங்கி, 4 நாட்களுக்கு கற்றாழை இலை, 4 நாட்களுக்கு முருங்கை இலைகள், 4 நாட்களுக்கு சிஸ்ஸஸ் தண்டு, பின்னர் 4 நாட்களுக்கு கறிவேப்பிலை மஞ்சள் தூளுடன் — ஒவ்வொரு முறையும் வெல்லம் மற்றும் உப்புடன். விலங்கு கருவுறவில்லை எனில் முழு வரிசையையும் மீண்டும் செய்யவும்.",
+                  "ಬೆದೆ (ಈಸ್ಟ್ರಸ್, ಹಸು ಗರ್ಭ ಧರಿಸಬಹುದಾದ ಅವಧಿ) ಮೊದಲ ಅಥವಾ ಎರಡನೇ ದಿನದಿಂದ ಪ್ರಾರಂಭಿಸಿ, ಈ ಕ್ರಮದಲ್ಲಿ ದಿನಕ್ಕೊಮ್ಮೆ ತಿನ್ನಿಸಿ: 5 ದಿನ ಬಿಳಿ ಮೂಲಂಗಿ, 4 ದಿನ ಅಲೋವೆರಾ ಎಲೆ, 4 ದಿನ ನುಗ್ಗೆ ಎಲೆಗಳು, 4 ದಿನ ಸಿಸ್ಸಸ್ ಕಾಂಡ, ನಂತರ 4 ದಿನ ಕರಿಬೇವಿನ ಎಲೆ ಅರಿಶಿನ ಪುಡಿಯೊಂದಿಗೆ — ಪ್ರತಿ ಬಾರಿಯೂ ಬೆಲ್ಲ ಮತ್ತು ಉಪ್ಪಿನೊಂದಿಗೆ. ಪ್ರಾಣಿ ಗರ್ಭ ಧರಿಸದಿದ್ದರೆ ಇಡೀ ಅನುಕ್ರಮವನ್ನು ಪುನರಾವರ್ತಿಸಿ.",
+                  "गर्मी (ऐस्ट्रस, वह समय जब गाय गर्भवती हो सकती है) के 1 या 2 दिन से शुरू करके, इस क्रम में दिन में एक बार खिलाएं: 5 दिन सफेद मूली, 4 दिन एलोवेरा पत्ती, 4 दिन सहजन पत्तियां, 4 दिन सिस्सस तना, फिर 4 दिन करी पत्ता हल्दी पाउडर के साथ — हर बार गुड़ और नमक के साथ। अगर जानवर गर्भवती न हो तो पूरा क्रम दोहराएं।"
                 ),
               },
               {
-                label: L("Prolapse"),
+                label: L(
+                  "Prolapse",
+                  "ప్రోలాప్స్ (అవయవం బయటికి రావడం)",
+                  "புரோலாப்ஸ் (உறுப்பு வெளியே தள்ளப்படுதல்)",
+                  "ಪ್ರೋಲ್ಯಾಪ್ಸ್ (ಅಂಗ ಹೊರಬರುವಿಕೆ)",
+                  "प्रोलैप्स (अंग बाहर निकलना)"
+                ),
                 text: L(
-                  "Clean the prolapsed mass (tissue pushed out of the body, usually after calving). Sprinkle it with cooled aloe vera gel that has a pinch of turmeric boiled into it. Once the gel dries, apply a Mimosa pudica leaf paste. Repeat as often as possible until the condition improves."
+                  "Clean the prolapsed mass (tissue pushed out of the body, usually after calving). Sprinkle it with cooled aloe vera gel that has a pinch of turmeric boiled into it. Once the gel dries, apply a Mimosa pudica leaf paste. Repeat as often as possible until the condition improves.",
+                  "ప్రోలాప్స్ అయిన భాగాన్ని (సాధారణంగా ప్రసవం తర్వాత శరీరం నుండి బయటకు వచ్చిన కణజాలం) శుభ్రం చేయండి. కొద్దిగా పసుపు కలిపి మరిగించిన చల్లారిన కలబంద జెల్‌ను దానిపై చల్లండి. జెల్ ఆరిపోయిన తర్వాత, మిమోసా పుడికా ఆకు పేస్టును వేయండి. పరిస్థితి మెరుగుపడే వరకు వీలైనంత తరచుగా పునరావృతం చేయండి.",
+                  "புரோலாப்ஸான பகுதியை (பொதுவாக ஈன்ற பிறகு உடலிலிருந்து வெளியே தள்ளப்பட்ட திசு) சுத்தம் செய்யவும். சிறிது மஞ்சள் கலந்து கொதிக்க வைத்த குளிர்ந்த கற்றாழை ஜெல்லை அதன் மேல் தெளிக்கவும். ஜெல் உலர்ந்தவுடன், மிமோசா புடிகா இலை பேஸ்டை பயன்படுத்தவும். நிலைமை மேம்படும் வரை முடிந்தவரை அடிக்கடி மீண்டும் செய்யவும்.",
+                  "ಪ್ರೋಲ್ಯಾಪ್ಸ್ ಆದ ಭಾಗವನ್ನು (ಸಾಮಾನ್ಯವಾಗಿ ಈಯುವಿಕೆಯ ನಂತರ ದೇಹದಿಂದ ಹೊರತಳ್ಳಲ್ಪಟ್ಟ ಅಂಗಾಂಶ) ಸ್ವಚ್ಛಗೊಳಿಸಿ. ಸ್ವಲ್ಪ ಅರಿಶಿನ ಬೆರೆಸಿ ಕುದಿಸಿದ ತಣ್ಣಗಾದ ಅಲೋವೆರಾ ಜೆಲ್ ಅನ್ನು ಅದರ ಮೇಲೆ ಚಿಮುಕಿಸಿ. ಜೆಲ್ ಒಣಗಿದ ನಂತರ, ಮಿಮೋಸಾ ಪುಡಿಕಾ ಎಲೆಯ ಪೇಸ್ಟ್ ಹಚ್ಚಿ. ಸ್ಥಿತಿ ಸುಧಾರಿಸುವವರೆಗೆ ಸಾಧ್ಯವಾದಷ್ಟು ಬಾರಿ ಪುನರಾವರ್ತಿಸಿ.",
+                  "प्रोलैप्स हुए हिस्से को (आमतौर पर ब्याने के बाद शरीर से बाहर धकेला गया ऊतक) साफ करें। थोड़ी हल्दी मिलाकर उबाले गए ठंडे एलोवेरा जेल को उस पर छिड़कें। जेल सूखने के बाद, मिमोसा पुडिका पत्ती का पेस्ट लगाएं। स्थिति सुधरने तक जितनी बार हो सके दोहराएं।"
                 ),
               },
             ],
@@ -10440,120 +11516,306 @@ export const MODULES = [
           {
             type: "callout",
             style: "tip",
-            heading: L("Never Pull a Retained Placenta Out by Hand"),
+            heading: L(
+              "Never Pull a Retained Placenta Out by Hand",
+              "నిలిచిపోయిన మాయను ఎప్పుడూ చేతితో లాగకూడదు",
+              "தங்கியிருக்கும் நஞ்சுக்கொடியை ஒருபோதும் கையால் இழுக்க வேண்டாம்",
+              "ಉಳಿದ ಜರಾಯುವನ್ನು ಎಂದಿಗೂ ಕೈಯಿಂದ ಎಳೆಯಬೇಡಿ",
+              "रुके हुए प्लेसेंटा को कभी भी हाथ से न खींचें"
+            ),
             text: L(
-              "This is stated plainly in the source: do not attempt to remove a retained placenta by hand. Doing so can cause injury or infection. Reproductive problems like this are precisely the kind of case where the vet needs to be told promptly, even while a documented remedy is being tried."
+              "This is stated plainly in the source: do not attempt to remove a retained placenta by hand. Doing so can cause injury or infection. Reproductive problems like this are precisely the kind of case where the vet needs to be told promptly, even while a documented remedy is being tried.",
+              "మూలంలో ఇది స్పష్టంగా చెప్పబడింది: నిలిచిపోయిన మాయను చేతితో తీయడానికి ప్రయత్నించకూడదు. అలా చేయడం గాయం లేదా ఇన్‌ఫెక్షన్‌కు దారితీయవచ్చు. నమోదైన చిట్కాను ప్రయత్నిస్తున్నప్పటికీ, ఇలాంటి ప్రత్యుత్పత్తి సమస్యలను వెంటనే పశువైద్యుడికి చెప్పాల్సిన సరిగ్గా అలాంటి కేసు.",
+              "மூலத்தில் இது தெளிவாக கூறப்பட்டுள்ளது: தங்கியிருக்கும் நஞ்சுக்கொடியை கையால் அகற்ற முயற்சிக்க வேண்டாம். அவ்வாறு செய்வது காயம் அல்லது தொற்றுக்கு காரணமாகலாம். பதிவு செய்யப்பட்ட வைத்தியம் முயற்சிக்கப்படும்போதே, இது போன்ற இனப்பெருக்க பிரச்சினைகள் கால்நடை மருத்துவரிடம் உடனடியாக தெரிவிக்கப்பட வேண்டிய வகையான வழக்கு.",
+              "ಮೂಲದಲ್ಲಿ ಇದನ್ನು ಸ್ಪಷ್ಟವಾಗಿ ಹೇಳಲಾಗಿದೆ: ಉಳಿದ ಜರಾಯುವನ್ನು ಕೈಯಿಂದ ತೆಗೆಯಲು ಪ್ರಯತ್ನಿಸಬೇಡಿ. ಹಾಗೆ ಮಾಡುವುದರಿಂದ ಗಾಯ ಅಥವಾ ಸೋಂಕು ಉಂಟಾಗಬಹುದು. ದಾಖಲಿತ ಪರಿಹಾರವನ್ನು ಪ್ರಯತ್ನಿಸುತ್ತಿರುವಾಗಲೂ, ಇಂತಹ ಸಂತಾನೋತ್ಪತ್ತಿ ಸಮಸ್ಯೆಗಳನ್ನು ತಕ್ಷಣ ಪಶುವೈದ್ಯರಿಗೆ ತಿಳಿಸಬೇಕಾದ ನಿಖರವಾದ ರೀತಿಯ ಪ್ರಕರಣ.",
+              "स्रोत में यह स्पष्ट रूप से कहा गया है: रुके हुए प्लेसेंटा को हाथ से निकालने की कोशिश न करें। ऐसा करने से चोट या संक्रमण हो सकता है। दर्ज उपचार आज़माते समय भी, इस तरह की प्रजनन समस्याओं की सूचना तुरंत पशु चिकित्सक को देनी चाहिए, यह ठीक वैसा ही मामला है।"
             ),
           },
         ],
         check: [
           {
             type: "mcq",
-            q: L("Before applying the EVM brochure's aloe vera-turmeric-lime paste for mastitis, what should be done first?"),
+            q: L(
+              "Before applying the EVM brochure's aloe vera-turmeric-lime paste for mastitis, what should be done first?",
+              "మాస్టైటిస్‌కు EVM బ్రోషర్ కలబంద-పసుపు-సున్నం పేస్టు వేసే ముందు, మొదట ఏమి చేయాలి?",
+              "மடிவீக்கத்திற்கு EVM துண்டுப்பிரசுரத்தின் கற்றாழை-மஞ்சள்-சுண்ணாம்பு பேஸ்டை பயன்படுத்தும் முன், முதலில் என்ன செய்ய வேண்டும்?",
+              "ಮಾಸ್ಟೈಟಿಸ್‌ಗೆ EVM ಕರಪತ್ರದ ಅಲೋವೆರಾ-ಅರಿಶಿನ-ಸುಣ್ಣ ಪೇಸ್ಟ್ ಹಚ್ಚುವ ಮೊದಲು, ಮೊದಲು ಏನು ಮಾಡಬೇಕು?",
+              "मैस्टाइटिस के लिए EVM ब्रोशर का एलोवेरा-हल्दी-चूना पेस्ट लगाने से पहले, सबसे पहले क्या करना चाहिए?"
+            ),
             options: [
-              L("Wash, clean and completely milk out all quarters, including unaffected ones"),
-              L("Apply the paste directly with no cleaning"),
-              L("Only clean the affected quarter"),
-              L("Skip milking entirely that day"),
+              L(
+                "Wash, clean and completely milk out all quarters, including unaffected ones",
+                "కడగండి, శుభ్రం చేయండి మరియు అన్ని క్వార్టర్లను పూర్తిగా పితకండి, సోకనివి కూడా",
+                "கழுவி, சுத்தம் செய்து, பாதிக்கப்படாதவை உட்பட அனைத்து காலிகளையும் முழுமையாக கறக்கவும்",
+                "ತೊಳೆಯಿರಿ, ಸ್ವಚ್ಛಗೊಳಿಸಿ ಮತ್ತು ಬಾಧಿತವಲ್ಲದವು ಸೇರಿ ಎಲ್ಲಾ ಕ್ವಾರ್ಟರ್‌ಗಳನ್ನು ಪೂರ್ಣವಾಗಿ ಹಾಲು ಕರೆಯಿರಿ",
+                "धोएं, साफ करें और सभी क्वार्टर को पूरी तरह दुहें, अप्रभावित सहित"
+              ),
+              L(
+                "Apply the paste directly with no cleaning",
+                "శుభ్రం చేయకుండా నేరుగా పేస్టు వేయండి",
+                "சுத்தம் செய்யாமல் நேரடியாக பேஸ்டை பயன்படுத்தவும்",
+                "ಸ್ವಚ್ಛಗೊಳಿಸದೆ ನೇರವಾಗಿ ಪೇಸ್ಟ್ ಹಚ್ಚಿ",
+                "बिना साफ किए सीधे पेस्ट लगाएं"
+              ),
+              L(
+                "Only clean the affected quarter",
+                "బాధిత క్వార్టర్‌ను మాత్రమే శుభ్రం చేయండి",
+                "பாதிக்கப்பட்ட காலியை மட்டும் சுத்தம் செய்யவும்",
+                "ಬಾಧಿತ ಕ್ವಾರ್ಟರ್ ಅನ್ನು ಮಾತ್ರ ಸ್ವಚ್ಛಗೊಳಿಸಿ",
+                "केवल प्रभावित क्वार्टर को साफ करें"
+              ),
+              L(
+                "Skip milking entirely that day",
+                "ఆ రోజు పితుకడం పూర్తిగా వదిలేయండి",
+                "அன்று கறத்தலை முழுவதுமாக தவிர்க்கவும்",
+                "ಆ ದಿನ ಹಾಲು ಕರೆಯುವುದನ್ನೇ ಬಿಟ್ಟುಬಿಡಿ",
+                "उस दिन दुहना पूरी तरह छोड़ दें"
+              ),
             ],
             answer: 0,
-            explain: L("The brochure specifies washing, cleaning and fully milking out ALL quarters — including quarters that don't look affected — before each application."),
+            explain: L(
+              "The brochure specifies washing, cleaning and fully milking out ALL quarters — including quarters that don't look affected — before each application.",
+              "ప్రతి వాడకానికి ముందు అన్ని క్వార్టర్లను — సోకినట్లు కనిపించనివి కూడా — కడగడం, శుభ్రం చేయడం మరియు పూర్తిగా పితకడం బ్రోషర్ నిర్దేశిస్తుంది.",
+              "ஒவ்வொரு பயன்பாட்டிற்கும் முன் அனைத்து காலிகளையும் — பாதிக்கப்பட்டதாக தோன்றாதவை உட்பட — கழுவுதல், சுத்தம் செய்தல் மற்றும் முழுமையாக கறத்தலை துண்டுப்பிரசுரம் குறிப்பிடுகிறது.",
+              "ಪ್ರತಿ ಬಳಕೆಗೂ ಮೊದಲು ಎಲ್ಲಾ ಕ್ವಾರ್ಟರ್‌ಗಳನ್ನು — ಬಾಧಿತವಾಗಿ ಕಾಣದವು ಸೇರಿ — ತೊಳೆಯುವುದು, ಸ್ವಚ್ಛಗೊಳಿಸುವುದು ಮತ್ತು ಪೂರ್ಣವಾಗಿ ಹಾಲು ಕರೆಯುವುದನ್ನು ಕರಪತ್ರ ನಿರ್ದಿಷ್ಟಪಡಿಸುತ್ತದೆ.",
+              "ब्रोशर हर उपयोग से पहले सभी क्वार्टर को — जो प्रभावित नहीं दिखते उन्हें भी — धोने, साफ करने और पूरी तरह दुहने को निर्दिष्ट करता है।"
+            ),
           },
           {
             type: "truefalse",
-            q: L("The EVM brochure says a retained placenta should be pulled out by hand as soon as possible."),
+            q: L(
+              "The EVM brochure says a retained placenta should be pulled out by hand as soon as possible.",
+              "నిలిచిపోయిన మాయను వీలైనంత త్వరగా చేతితో లాగాలని EVM బ్రోషర్ చెబుతుంది.",
+              "தங்கியிருக்கும் நஞ்சுக்கொடியை முடிந்தவரை விரைவில் கையால் இழுக்க வேண்டும் என்று EVM துண்டுப்பிரசுரம் கூறுகிறது.",
+              "ಉಳಿದ ಜರಾಯುವನ್ನು ಸಾಧ್ಯವಾದಷ್ಟು ಬೇಗ ಕೈಯಿಂದ ಎಳೆಯಬೇಕೆಂದು EVM ಕರಪತ್ರ ಹೇಳುತ್ತದೆ.",
+              "EVM ब्रोशर कहता है कि रुके हुए प्लेसेंटा को जितनी जल्दी हो सके हाथ से खींच लेना चाहिए।"
+            ),
             answer: false,
-            explain: L("No — the brochure explicitly says NOT to remove a retained placenta by hand. It describes feeding radish/lady's finger, or tying a knot and cutting below it, instead."),
+            explain: L(
+              "No — the brochure explicitly says NOT to remove a retained placenta by hand. It describes feeding radish/lady's finger, or tying a knot and cutting below it, instead.",
+              "కాదు — నిలిచిపోయిన మాయను చేతితో తీయవద్దని బ్రోషర్ స్పష్టంగా చెబుతుంది. బదులుగా ముల్లంగి/బెండకాయ తినిపించడం, లేదా ముడి వేసి దాని కింద కోయడం వివరిస్తుంది.",
+              "இல்லை — தங்கியிருக்கும் நஞ்சுக்கொடியை கையால் அகற்ற வேண்டாம் என்று துண்டுப்பிரசுரம் தெளிவாக கூறுகிறது. அதற்கு பதிலாக முள்ளங்கி/வெண்டைக்காய் கொடுப்பது, அல்லது முடிச்சு கட்டி அதற்கு கீழே வெட்டுவதை விவரிக்கிறது.",
+              "ಇಲ್ಲ — ಉಳಿದ ಜರಾಯುವನ್ನು ಕೈಯಿಂದ ತೆಗೆಯಬೇಡಿ ಎಂದು ಕರಪತ್ರ ಸ್ಪಷ್ಟವಾಗಿ ಹೇಳುತ್ತದೆ. ಬದಲಿಗೆ ಮೂಲಂಗಿ/ಬೆಂಡೆಕಾಯಿ ತಿನ್ನಿಸುವುದು, ಅಥವಾ ಗಂಟು ಕಟ್ಟಿ ಅದರ ಕೆಳಗೆ ಕತ್ತರಿಸುವುದನ್ನು ವಿವರಿಸುತ್ತದೆ.",
+              "नहीं — ब्रोशर स्पष्ट रूप से कहता है कि रुके हुए प्लेसेंटा को हाथ से न निकालें। इसके बदले मूली/भिंडी खिलाने, या गांठ बांधकर उसके नीचे काटने का तरीका बताता है।"
+            ),
           },
         ],
       },
       {
         id: "t-m13-evm-general",
-        title: L("EVM Remedies for Fever, Digestive and Other General Problems"),
+        title: L(
+          "EVM Remedies for Fever, Digestive and Other General Problems",
+          "జ్వరం, జీర్ణ మరియు ఇతర సాధారణ సమస్యలకు EVM చిట్కాలు",
+          "காய்ச்சல், செரிமானம் மற்றும் பிற பொதுவான பிரச்சினைகளுக்கான EVM வைத்தியங்கள்",
+          "ಜ್ವರ, ಜೀರ್ಣ ಮತ್ತು ಇತರ ಸಾಮಾನ್ಯ ಸಮಸ್ಯೆಗಳಿಗೆ EVM ಪರಿಹಾರಗಳು",
+          "बुखार, पाचन और अन्य सामान्य समस्याओं के लिए EVM उपचार"
+        ),
         teach: [
           {
             type: "text",
-            heading: L("The Same Brochure, More Everyday Ailments"),
+            heading: L(
+              "The Same Brochure, More Everyday Ailments",
+              "అదే బ్రోషర్, మరిన్ని రోజువారీ జబ్బులు",
+              "அதே துண்டுப்பிரசுரம், மேலும் அன்றாட நோய்கள்",
+              "ಅದೇ ಕರಪತ್ರ, ಇನ್ನಷ್ಟು ದೈನಂದಿನ ಕಾಯಿಲೆಗಳು",
+              "वही ब्रोशर, और रोज़मर्रा की बीमारियां"
+            ),
             html: L(
-              "Beyond udder and reproductive problems, the EVM brochure documents formulations for fever, common digestive upsets, worms, external parasites, wounds and more — most of them blended into a paste from spices and plants already found in most kitchens."
+              "Beyond udder and reproductive problems, the EVM brochure documents formulations for fever, common digestive upsets, worms, external parasites, wounds and more — most of them blended into a paste from spices and plants already found in most kitchens.",
+              "పొదుగు మరియు ప్రత్యుత్పత్తి సమస్యలు కాకుండా, EVM బ్రోషర్ జ్వరం, సాధారణ జీర్ణ సమస్యలు, పురుగులు, బాహ్య పరాన్నజీవులు, గాయాలు మరియు మరిన్నింటికి ఫార్ములేషన్లను నమోదు చేస్తుంది — వీటిలో చాలా వరకు చాలా వంటగదులలో దొరికే మసాలాలు మరియు మొక్కల నుండి పేస్టుగా కలుపుతారు.",
+              "மடி மற்றும் இனப்பெருக்க பிரச்சினைகளைத் தாண்டி, EVM துண்டுப்பிரசுரம் காய்ச்சல், பொதுவான செரிமான கோளாறுகள், புழுக்கள், வெளிப்புற ஒட்டுண்ணிகள், காயங்கள் மற்றும் பலவற்றிற்கான சூத்திரங்களை பதிவு செய்கிறது — இவற்றில் பெரும்பாலானவை பெரும்பாலான சமையலறைகளில் கிடைக்கும் மசாலாப் பொருட்கள் மற்றும் தாவரங்களிலிருந்து பேஸ்டாக கலக்கப்படுகின்றன.",
+              "ಕೆಚ್ಚಲು ಮತ್ತು ಸಂತಾನೋತ್ಪತ್ತಿ ಸಮಸ್ಯೆಗಳ ಆಚೆಗೆ, EVM ಕರಪತ್ರ ಜ್ವರ, ಸಾಮಾನ್ಯ ಜೀರ್ಣ ಸಮಸ್ಯೆಗಳು, ಹುಳುಗಳು, ಬಾಹ್ಯ ಪರಾವಲಂಬಿಗಳು, ಗಾಯಗಳು ಮತ್ತು ಇನ್ನಷ್ಟಕ್ಕೆ ಸೂತ್ರೀಕರಣಗಳನ್ನು ದಾಖಲಿಸುತ್ತದೆ — ಇವುಗಳಲ್ಲಿ ಹೆಚ್ಚಿನವು ಹೆಚ್ಚಿನ ಅಡುಗೆಮನೆಗಳಲ್ಲಿ ಈಗಾಗಲೇ ಸಿಗುವ ಮಸಾಲೆಗಳು ಮತ್ತು ಸಸ್ಯಗಳಿಂದ ಪೇಸ್ಟ್ ಆಗಿ ಬೆರೆಸಲಾಗುತ್ತದೆ.",
+              "थन और प्रजनन समस्याओं के अलावा, EVM ब्रोशर बुखार, सामान्य पाचन गड़बड़ी, कीड़े, बाहरी परजीवी, घाव और अधिक के लिए फॉर्मूलेशन दर्ज करता है — इनमें से ज़्यादातर को अधिकतर रसोई में मिलने वाले मसालों और पौधों से पेस्ट के रूप में मिलाया जाता है।"
             ),
           },
           {
             type: "stat-grid",
             items: [
               {
-                label: L("Fever"),
+                label: L(
+                  "Fever",
+                  "జ్వరం",
+                  "காய்ச்சல்",
+                  "ಜ್ವರ",
+                  "बुखार"
+                ),
                 text: L(
-                  "Blend garlic, coriander, cumin, tulsi, dry cinnamon leaves, black pepper, betel leaves, shallots/onion, turmeric powder, chirata leaf powder, sweet basil, neem leaves and jaggery into a paste. Give orally in small portions, morning and evening."
+                  "Blend garlic, coriander, cumin, tulsi, dry cinnamon leaves, black pepper, betel leaves, shallots/onion, turmeric powder, chirata leaf powder, sweet basil, neem leaves and jaggery into a paste. Give orally in small portions, morning and evening.",
+                  "వెల్లుల్లి, కొత్తిమీర, జీలకర్ర, తులసి, ఎండు దాల్చినచెక్క ఆకులు, నల్ల మిరియాలు, తమలపాకులు, చిన్న ఉల్లిపాయలు/ఉల్లి, పసుపు పొడి, కిరాతతిక్త (చిరాటా) ఆకు పొడి, తీపి తులసి, వేప ఆకులు మరియు బెల్లం కలిపి పేస్టు తయారు చేయండి. చిన్న మోతాదులలో ఉదయం మరియు సాయంత్రం నోటి ద్వారా ఇవ్వండి.",
+                  "பூண்டு, கொத்தமல்லி, சீரகம், துளசி, உலர் இலவங்கப்பட்டை இலைகள், கருப்பு மிளகு, வெற்றிலை, சிறு வெங்காயம்/வெங்காயம், மஞ்சள் தூள், சிறட்டா இலைத் தூள், தேன் துளசி, வேம்பு இலைகள் மற்றும் வெல்லத்தை கலந்து பேஸ்ட் தயாரிக்கவும். காலை மற்றும் மாலை சிறிய அளவில் வாய் வழியாக கொடுக்கவும்.",
+                  "ಬೆಳ್ಳುಳ್ಳಿ, ಕೊತ್ತಂಬರಿ, ಜೀರಿಗೆ, ತುಳಸಿ, ಒಣ ದಾಲ್ಚಿನ್ನಿ ಎಲೆಗಳು, ಕರಿಮೆಣಸು, ವೀಳ್ಯದೆಲೆ, ಸಣ್ಣ ಈರುಳ್ಳಿ/ಈರುಳ್ಳಿ, ಅರಿಶಿನ ಪುಡಿ, ನೆಲಬೇವು ಎಲೆ ಪುಡಿ, ಸಿಹಿ ತುಳಸಿ, ಬೇವಿನ ಎಲೆಗಳು ಮತ್ತು ಬೆಲ್ಲವನ್ನು ಬೆರೆಸಿ ಪೇಸ್ಟ್ ಮಾಡಿ. ಬೆಳಿಗ್ಗೆ ಮತ್ತು ಸಂಜೆ ಸಣ್ಣ ಪ್ರಮಾಣದಲ್ಲಿ ಬಾಯಿಯ ಮೂಲಕ ಕೊಡಿ.",
+                  "लहसुन, धनिया, जीरा, तुलसी, सूखी दालचीनी की पत्तियां, काली मिर्च, पान के पत्ते, छोटे प्याज/प्याज, हल्दी पाउडर, चिरायता पत्ती पाउडर, तुलसी (श्यामा), नीम की पत्तियां और गुड़ मिलाकर पेस्ट बनाएं। सुबह-शाम थोड़ी मात्रा में मुँह से दें।"
                 ),
               },
               {
-                label: L("Diarrhoea"),
+                label: L(
+                  "Diarrhoea",
+                  "విరేచనాలు",
+                  "வயிற்றுப்போக்கு",
+                  "ಅತಿಸಾರ",
+                  "दस्त"
+                ),
                 text: L(
-                  "Dry-fry cumin, asafoetida, poppy seeds and fenugreek seeds until they smoke; cool and powder them. Blend with onion, garlic, turmeric, curry leaves, pepper and jaggery into a paste, rolled into small balls. Give orally once daily for 1 to 3 days."
+                  "Dry-fry cumin, asafoetida, poppy seeds and fenugreek seeds until they smoke; cool and powder them. Blend with onion, garlic, turmeric, curry leaves, pepper and jaggery into a paste, rolled into small balls. Give orally once daily for 1 to 3 days.",
+                  "జీలకర్ర, ఇంగువ, గసగసాలు మరియు మెంతులను పొగ వచ్చే వరకు పొడిగా వేయించండి; చల్లార్చి పొడి చేయండి. ఉల్లి, వెల్లుల్లి, పసుపు, కరివేపాకు, మిరియాలు మరియు బెల్లంతో కలిపి పేస్టు తయారు చేసి, చిన్న ఉండలుగా చేయండి. 1 నుండి 3 రోజులు రోజుకు ఒకసారి నోటి ద్వారా ఇవ్వండి.",
+                  "சீரகம், பெருங்காயம், கசகசா மற்றும் வெந்தயத்தை புகை வரும் வரை வறுக்கவும்; ஆற வைத்து தூள் செய்யவும். வெங்காயம், பூண்டு, மஞ்சள், கறிவேப்பிலை, மிளகு மற்றும் வெல்லத்துடன் கலந்து பேஸ்ட் செய்து, சிறு உருண்டைகளாக உருட்டவும். 1 முதல் 3 நாட்களுக்கு நாளொன்றுக்கு ஒரு முறை வாய் வழியாக கொடுக்கவும்.",
+                  "ಜೀರಿಗೆ, ಇಂಗು, ಗಸಗಸೆ ಮತ್ತು ಮೆಂತ್ಯ ಬೀಜಗಳನ್ನು ಹೊಗೆ ಬರುವವರೆಗೆ ಒಣಗಿ ಹುರಿಯಿರಿ; ತಣಿಸಿ ಪುಡಿ ಮಾಡಿ. ಈರುಳ್ಳಿ, ಬೆಳ್ಳುಳ್ಳಿ, ಅರಿಶಿನ, ಕರಿಬೇವಿನ ಎಲೆ, ಮೆಣಸು ಮತ್ತು ಬೆಲ್ಲದೊಂದಿಗೆ ಬೆರೆಸಿ ಪೇಸ್ಟ್ ಮಾಡಿ, ಸಣ್ಣ ಉಂಡೆಗಳಾಗಿ ಮಾಡಿ. 1 ರಿಂದ 3 ದಿನ ದಿನಕ್ಕೊಮ್ಮೆ ಬಾಯಿಯ ಮೂಲಕ ಕೊಡಿ.",
+                  "जीरा, हींग, खसखस और मेथी दाना को धुआं निकलने तक सूखा भूनें; ठंडा करके पीस लें। प्याज, लहसुन, हल्दी, करी पत्ता, काली मिर्च और गुड़ के साथ मिलाकर पेस्ट बनाएं, छोटी गोलियां बनाएं। 1 से 3 दिनों तक दिन में एक बार मुँह से दें।"
                 ),
               },
               {
-                label: L("Bloat and Indigestion"),
+                label: L(
+                  "Bloat and Indigestion",
+                  "ఉబ్బరం మరియు అజీర్తి",
+                  "வீக்கம் மற்றும் செரிமானக் கோளாறு",
+                  "ಉಬ್ಬರ ಮತ್ತು ಅಜೀರ್ಣ",
+                  "अफारा और अपच"
+                ),
                 text: L(
-                  "Blend onion, garlic, dry chilly, cumin, turmeric powder, jaggery, pepper, betel leaves and ginger into a paste, rolled into small balls. Give with salt, 3 to 4 times a day for 3 days."
+                  "Blend onion, garlic, dry chilly, cumin, turmeric powder, jaggery, pepper, betel leaves and ginger into a paste, rolled into small balls. Give with salt, 3 to 4 times a day for 3 days.",
+                  "ఉల్లి, వెల్లుల్లి, ఎండు మిర్చి, జీలకర్ర, పసుపు పొడి, బెల్లం, మిరియాలు, తమలపాకులు మరియు అల్లం కలిపి పేస్టు తయారు చేసి, చిన్న ఉండలుగా చేయండి. ఉప్పుతో పాటు, 3 రోజులు రోజుకు 3 నుండి 4 సార్లు ఇవ్వండి.",
+                  "வெங்காயம், பூண்டு, உலர் மிளகாய், சீரகம், மஞ்சள் தூள், வெல்லம், மிளகு, வெற்றிலை மற்றும் இஞ்சியை கலந்து பேஸ்ட் செய்து, சிறு உருண்டைகளாக உருட்டவும். உப்புடன், 3 நாட்களுக்கு நாளொன்றுக்கு 3 முதல் 4 முறை கொடுக்கவும்.",
+                  "ಈರುಳ್ಳಿ, ಬೆಳ್ಳುಳ್ಳಿ, ಒಣ ಮೆಣಸಿನಕಾಯಿ, ಜೀರಿಗೆ, ಅರಿಶಿನ ಪುಡಿ, ಬೆಲ್ಲ, ಮೆಣಸು, ವೀಳ್ಯದೆಲೆ ಮತ್ತು ಶುಂಠಿಯನ್ನು ಬೆರೆಸಿ ಪೇಸ್ಟ್ ಮಾಡಿ, ಸಣ್ಣ ಉಂಡೆಗಳಾಗಿ ಮಾಡಿ. ಉಪ್ಪಿನೊಂದಿಗೆ, 3 ದಿನ ದಿನಕ್ಕೆ 3 ರಿಂದ 4 ಬಾರಿ ಕೊಡಿ.",
+                  "प्याज, लहसुन, सूखी मिर्च, जीरा, हल्दी पाउडर, गुड़, काली मिर्च, पान के पत्ते और अदरक मिलाकर पेस्ट बनाएं, छोटी गोलियां बनाएं। नमक के साथ, 3 दिनों तक दिन में 3 से 4 बार दें।"
                 ),
               },
               {
-                label: L("Worms"),
+                label: L(
+                  "Worms",
+                  "పురుగులు",
+                  "புழுக்கள்",
+                  "ಹುಳುಗಳು",
+                  "कीड़े (पेट के कृमि)"
+                ),
                 text: L(
-                  "Blend onion, garlic, mustard seeds, neem leaves, cumin, bitter gourd, turmeric powder, pepper, banana stem, common leucas and jaggery into a paste, rolled into small balls. Give with salt, once daily for 3 days."
+                  "Blend onion, garlic, mustard seeds, neem leaves, cumin, bitter gourd, turmeric powder, pepper, banana stem, common leucas and jaggery into a paste, rolled into small balls. Give with salt, once daily for 3 days.",
+                  "ఉల్లి, వెల్లుల్లి, ఆవాలు, వేప ఆకులు, జీలకర్ర, కాకరకాయ, పసుపు పొడి, మిరియాలు, అరటి కాండం, తుమ్మి ఆకులు మరియు బెల్లం కలిపి పేస్టు తయారు చేసి, చిన్న ఉండలుగా చేయండి. ఉప్పుతో పాటు, 3 రోజులు రోజుకు ఒకసారి ఇవ్వండి.",
+                  "வெங்காயம், பூண்டு, கடுகு, வேம்பு இலைகள், சீரகம், பாகற்காய், மஞ்சள் தூள், மிளகு, வாழைத் தண்டு, தும்பை இலைகள் மற்றும் வெல்லத்தை கலந்து பேஸ்ட் செய்து, சிறு உருண்டைகளாக உருட்டவும். உப்புடன், 3 நாட்களுக்கு நாளொன்றுக்கு ஒரு முறை கொடுக்கவும்.",
+                  "ಈರುಳ್ಳಿ, ಬೆಳ್ಳುಳ್ಳಿ, ಸಾಸಿವೆ, ಬೇವಿನ ಎಲೆಗಳು, ಜೀರಿಗೆ, ಹಾಗಲಕಾಯಿ, ಅರಿಶಿನ ಪುಡಿ, ಮೆಣಸು, ಬಾಳೆ ಕಾಂಡ, ತುಂಬೆ ಎಲೆಗಳು ಮತ್ತು ಬೆಲ್ಲವನ್ನು ಬೆರೆಸಿ ಪೇಸ್ಟ್ ಮಾಡಿ, ಸಣ್ಣ ಉಂಡೆಗಳಾಗಿ ಮಾಡಿ. ಉಪ್ಪಿನೊಂದಿಗೆ, 3 ದಿನ ದಿನಕ್ಕೊಮ್ಮೆ ಕೊಡಿ.",
+                  "प्याज, लहसुन, सरसों के बीज, नीम की पत्तियां, जीरा, करेला, हल्दी पाउडर, काली मिर्च, केले का तना, गुमा (तुम्बई) पत्तियां और गुड़ मिलाकर पेस्ट बनाएं, छोटी गोलियां बनाएं। नमक के साथ, 3 दिनों तक दिन में एक बार दें।"
                 ),
               },
             ],
           },
           {
             type: "glossary",
-            term: L("Three Kings"),
+            term: L(
+              "Three Kings",
+              "మూడు రాజులు (త్రీ కింగ్స్)",
+              "மூன்று அரசர்கள் (Three Kings)",
+              "ಮೂರು ರಾಜರು (ತ್ರೀ ಕಿಂಗ್ಸ್)",
+              "थ्री किंग्स (तीन राजा)"
+            ),
             meaning: L(
-              "A traditional Tamil (Siddha) combination of betel leaves, black pepper and salt, mixed with jaggery. The EVM brochure uses it as a first-response formulation for allergy, poisoning, venomous stings or bites, and pesticide/toxin poisoning."
+              "A traditional Tamil (Siddha) combination of betel leaves, black pepper and salt, mixed with jaggery. The EVM brochure uses it as a first-response formulation for allergy, poisoning, venomous stings or bites, and pesticide/toxin poisoning.",
+              "తమలపాకులు, నల్ల మిరియాలు మరియు ఉప్పును బెల్లంతో కలిపిన సాంప్రదాయ తమిళ్ (సిద్ధ) కలయిక. అలర్జీ, విషప్రయోగం, విషపూరిత కుట్టడం లేదా కరవడం, మరియు పురుగుమందు/విష విషప్రయోగానికి మొదటి-స్పందన ఫార్ములేషన్‌గా EVM బ్రోషర్ దీనిని వాడుతుంది.",
+              "வெற்றிலை, கருப்பு மிளகு மற்றும் உப்பை வெல்லத்துடன் கலந்த பாரம்பரிய தமிழ் (சித்த) கலவை. ஒவ்வாமை, நச்சு தாக்கம், நச்சு கொட்டு அல்லது கடி, மற்றும் பூச்சிக்கொல்லி/நச்சு தாக்கத்திற்கான முதல்-பதில் சூத்திரமாக EVM துண்டுப்பிரசுரம் இதை பயன்படுத்துகிறது.",
+              "ವೀಳ್ಯದೆಲೆ, ಕರಿಮೆಣಸು ಮತ್ತು ಉಪ್ಪನ್ನು ಬೆಲ್ಲದೊಂದಿಗೆ ಬೆರೆಸಿದ ಸಾಂಪ್ರದಾಯಿಕ ತಮಿಳು (ಸಿದ್ಧ) ಸಂಯೋಜನೆ. ಅಲರ್ಜಿ, ವಿಷಪ್ರಾಶನ, ವಿಷಕಾರಿ ಕುಟುಕು ಅಥವಾ ಕಡಿತ, ಮತ್ತು ಕೀಟನಾಶಕ/ವಿಷ ವಿಷಪ್ರಾಶನಕ್ಕೆ ಮೊದಲ-ಪ್ರತಿಕ್ರಿಯೆ ಸೂತ್ರೀಕರಣವಾಗಿ EVM ಕರಪತ್ರ ಇದನ್ನು ಬಳಸುತ್ತದೆ.",
+              "पान के पत्ते, काली मिर्च और नमक का एक पारंपरिक तमिल (सिद्ध) मिश्रण, गुड़ के साथ मिलाया गया। EVM ब्रोशर इसे एलर्जी, ज़हर, ज़हरीले डंक या काटने, और कीटनाशक/विष विषाक्तता के लिए पहली-प्रतिक्रिया फॉर्मूलेशन के रूप में इस्तेमाल करता है।"
             ),
           },
           {
             type: "stat-grid",
             items: [
               {
-                label: L("Allergy / Poisoning / Venomous Sting or Bite"),
+                label: L(
+                  "Allergy / Poisoning / Venomous Sting or Bite",
+                  "అలర్జీ / విషప్రయోగం / విషపూరిత కుట్టడం లేదా కాటు",
+                  "ஒவ்வாமை / நச்சு தாக்கம் / நச்சு கொட்டு அல்லது கடி",
+                  "ಅಲರ್ಜಿ / ವಿಷಪ್ರಾಶನ / ವಿಷಕಾರಿ ಕುಟುಕು ಅಥವಾ ಕಡಿತ",
+                  "एलर्जी / ज़हर / ज़हरीला डंक या काटना"
+                ),
                 text: L(
-                  "The 'Three Kings' paste (betel leaves, pepper, salt, mixed with jaggery), fed in small portions 3 times a day for 2 weeks. In critical cases, 2 to 3 drops can instead be put in the eye every hour, without jaggery."
+                  "The 'Three Kings' paste (betel leaves, pepper, salt, mixed with jaggery), fed in small portions 3 times a day for 2 weeks. In critical cases, 2 to 3 drops can instead be put in the eye every hour, without jaggery.",
+                  "'థ్రీ కింగ్స్' పేస్టు (తమలపాకులు, మిరియాలు, ఉప్పు, బెల్లంతో కలిపి), 2 వారాలు రోజుకు 3 సార్లు చిన్న మోతాదులలో ఇవ్వండి. క్లిష్ట పరిస్థితుల్లో, బెల్లం లేకుండా ప్రతి గంటకు 2 నుండి 3 చుక్కలు కంటిలో వేయవచ్చు.",
+                  "'மூன்று அரசர்கள்' பேஸ்ட் (வெற்றிலை, மிளகு, உப்பு, வெல்லத்துடன் கலந்தது), 2 வாரங்களுக்கு நாளொன்றுக்கு 3 முறை சிறிய அளவில் கொடுக்கவும். கடுமையான நிலைகளில், வெல்லம் இல்லாமல் ஒவ்வொரு மணி நேரமும் 2 முதல் 3 துளிகள் கண்ணில் விடலாம்.",
+                  "'ಮೂರು ರಾಜರು' ಪೇಸ್ಟ್ (ವೀಳ್ಯದೆಲೆ, ಮೆಣಸು, ಉಪ್ಪು, ಬೆಲ್ಲದೊಂದಿಗೆ ಬೆರೆಸಿದ್ದು), 2 ವಾರ ದಿನಕ್ಕೆ 3 ಬಾರಿ ಸಣ್ಣ ಪ್ರಮಾಣದಲ್ಲಿ ಕೊಡಿ. ಗಂಭೀರ ಸಂದರ್ಭಗಳಲ್ಲಿ, ಬೆಲ್ಲವಿಲ್ಲದೆ ಪ್ರತಿ ಗಂಟೆಗೆ 2 ರಿಂದ 3 ಹನಿಗಳನ್ನು ಕಣ್ಣಿಗೆ ಹಾಕಬಹುದು.",
+                  "'थ्री किंग्स' पेस्ट (पान के पत्ते, काली मिर्च, नमक, गुड़ के साथ मिलाया हुआ), 2 हफ्तों तक दिन में 3 बार थोड़ी मात्रा में खिलाएं। गंभीर मामलों में, गुड़ के बिना हर घंटे 2 से 3 बूंदें आंख में डाली जा सकती हैं।"
                 ),
               },
               {
-                label: L("Toxicity (Pesticide / HCN / Mycotoxin)"),
+                label: L(
+                  "Toxicity (Pesticide / HCN / Mycotoxin)",
+                  "విషప్రయోగం (పురుగుమందు / HCN / మైకోటాక్సిన్)",
+                  "நச்சுத்தன்மை (பூச்சிக்கொல்லி / HCN / மைக்கோடாக்சின்)",
+                  "ವಿಷತ್ವ (ಕೀಟನಾಶಕ / HCN / ಮೈಕೋಟಾಕ್ಸಿನ್)",
+                  "विषाक्तता (कीटनाशक / HCN / माइकोटॉक्सिन)"
+                ),
                 text: L(
-                  "Give a first dose of 'Three Kings'. Separately, soak and extract tamarind pulp, mix with water, moringa leaf extract and jaggery; feed 200 ml of this thick mixture every 2 hours, alternating with more 'Three Kings' doses in between."
+                  "Give a first dose of 'Three Kings'. Separately, soak and extract tamarind pulp, mix with water, moringa leaf extract and jaggery; feed 200 ml of this thick mixture every 2 hours, alternating with more 'Three Kings' doses in between.",
+                  "మొదట 'థ్రీ కింగ్స్' మోతాదు ఇవ్వండి. విడిగా, చింతపండు గుజ్జును నానబెట్టి రసం తీసి, నీరు, మునగ ఆకు సారం మరియు బెల్లంతో కలపండి; ఈ చిక్కటి మిశ్రమాన్ని ప్రతి 2 గంటలకు 200 మి.లీ ఇవ్వండి, మధ్యలో మరిన్ని 'థ్రీ కింగ్స్' మోతాదులతో మార్చుకుంటూ.",
+                  "முதலில் 'மூன்று அரசர்கள்' அளவு கொடுக்கவும். தனியாக, புளி கூழை ஊற வைத்து சாறு எடுத்து, தண்ணீர், முருங்கை இலை சாறு மற்றும் வெல்லத்துடன் கலக்கவும்; இந்த கெட்டியான கலவையை ஒவ்வொரு 2 மணி நேரத்திற்கும் 200 மி.லி கொடுக்கவும், இடையில் மேலும் 'மூன்று அரசர்கள்' அளவுகளுடன் மாற்றி மாற்றி கொடுக்கவும்.",
+                  "ಮೊದಲು 'ಮೂರು ರಾಜರು' ಡೋಸ್ ಕೊಡಿ. ಪ್ರತ್ಯೇಕವಾಗಿ, ಹುಣಸೆಹಣ್ಣಿನ ತಿರುಳನ್ನು ನೆನೆಸಿ ರಸ ತೆಗೆದು, ನೀರು, ನುಗ್ಗೆ ಎಲೆ ಸಾರ ಮತ್ತು ಬೆಲ್ಲದೊಂದಿಗೆ ಬೆರೆಸಿ; ಈ ದಪ್ಪ ಮಿಶ್ರಣವನ್ನು ಪ್ರತಿ 2 ಗಂಟೆಗೆ 200 ಮಿ.ಲೀ ಕೊಡಿ, ನಡುವೆ ಇನ್ನಷ್ಟು 'ಮೂರು ರಾಜರು' ಡೋಸ್‌ಗಳೊಂದಿಗೆ ಪರ್ಯಾಯವಾಗಿ.",
+                  "पहले 'थ्री किंग्स' की एक खुराक दें। अलग से, इमली के गूदे को भिगोकर रस निकालें, पानी, सहजन पत्ती के अर्क और गुड़ के साथ मिलाएं; इस गाढ़े मिश्रण को हर 2 घंटे में 200 मिली दें, बीच-बीच में और 'थ्री किंग्स' की खुराक के साथ बदल-बदल कर।"
                 ),
               },
               {
-                label: L("Tick / Ectoparasites"),
+                label: L(
+                  "Tick / Ectoparasites",
+                  "గోమార్లు / బాహ్య పరాన్నజీవులు",
+                  "கொட்டுண்ணி / வெளிப்புற ஒட்டுண்ணிகள்",
+                  "ಉಣ್ಣೆ / ಬಾಹ್ಯ ಪರಾವಲಂಬಿಗಳು",
+                  "किलनी / बाहरी परजीवी"
+                ),
                 text: L(
-                  "Blend garlic, neem leaves and fruit, acorus rhizome, turmeric, lantana leaves and tulsi with 1 litre of water; strain through a fine sieve or muslin cloth. Spray on the animal's whole body and in shed cracks and crevices, weekly, only during the sunny part of the day."
+                  "Blend garlic, neem leaves and fruit, acorus rhizome, turmeric, lantana leaves and tulsi with 1 litre of water; strain through a fine sieve or muslin cloth. Spray on the animal's whole body and in shed cracks and crevices, weekly, only during the sunny part of the day.",
+                  "వెల్లుల్లి, వేప ఆకులు మరియు పండ్లు, వస (అకోరస్) దుంప, పసుపు, లాంటానా ఆకులు మరియు తులసిని 1 లీటరు నీటితో కలిపి రుబ్బండి; సన్నని జల్లెడ లేదా మల్మల్ గుడ్డతో వడకట్టండి. జంతువు శరీరమంతా మరియు షెడ్ పగుళ్లు మరియు సందుల్లో వారానికి ఒకసారి, పగటి ఎండ సమయంలో మాత్రమే స్ప్రే చేయండి.",
+                  "பூண்டு, வேம்பு இலைகள் மற்றும் பழம், வசம்பு கிழங்கு, மஞ்சள், லான்டானா இலைகள் மற்றும் துளசியை 1 லிட்டர் நீருடன் அரைக்கவும்; மெல்லிய சல்லடை அல்லது மல்மல் துணி மூலம் வடிகட்டவும். விலங்கின் உடல் முழுவதும் மற்றும் தொழுவத்தின் விரிசல்கள் மற்றும் இடுக்குகளில் வாரமொருமுறை, பகல் நேரத்தில் மட்டும் தெளிக்கவும்.",
+                  "ಬೆಳ್ಳುಳ್ಳಿ, ಬೇವಿನ ಎಲೆಗಳು ಮತ್ತು ಹಣ್ಣು, ವಸೆ ಗೆಡ್ಡೆ, ಅರಿಶಿನ, ಲಂಟಾನಾ ಎಲೆಗಳು ಮತ್ತು ತುಳಸಿಯನ್ನು 1 ಲೀಟರ್ ನೀರಿನೊಂದಿಗೆ ಅರೆಯಿರಿ; ಸೂಕ್ಷ್ಮ ಜರಡಿ ಅಥವಾ ಮಲ್ಮಲ್ ಬಟ್ಟೆಯ ಮೂಲಕ ಸೋಸಿ. ಪ್ರಾಣಿಯ ಇಡೀ ದೇಹದ ಮೇಲೆ ಮತ್ತು ಶೆಡ್‌ನ ಬಿರುಕುಗಳು ಮತ್ತು ಸಂದುಗಳಲ್ಲಿ ವಾರಕ್ಕೊಮ್ಮೆ, ಬಿಸಿಲಿನ ಸಮಯದಲ್ಲಿ ಮಾತ್ರ ಸಿಂಪಡಿಸಿ.",
+                  "लहसुन, नीम की पत्तियां और फल, बच (एकोरस) की जड़, हल्दी, लैंटाना की पत्तियां और तुलसी को 1 लीटर पानी के साथ पीसें; बारीक छलनी या मलमल के कपड़े से छान लें। जानवर के पूरे शरीर पर और शेड की दरारों व झिर्रियों में हफ्ते में एक बार, केवल धूप वाले समय में छिड़कें।"
                 ),
               },
               {
-                label: L("Cough"),
-                text: L("Blend adhathoda (Adusa) leaf, tulsi, garlic, turmeric, pepper and jaggery into a paste. Feed orally 2 to 3 times daily until the cough resolves."),
+                label: L(
+                  "Cough",
+                  "దగ్గు",
+                  "இருமல்",
+                  "ಕೆಮ್ಮು",
+                  "खांसी"
+                ),
+                text: L(
+                  "Blend adhathoda (Adusa) leaf, tulsi, garlic, turmeric, pepper and jaggery into a paste. Feed orally 2 to 3 times daily until the cough resolves.",
+                  "అడతోడ (అడూసా) ఆకు, తులసి, వెల్లుల్లి, పసుపు, మిరియాలు మరియు బెల్లం కలిపి పేస్టు తయారు చేయండి. దగ్గు తగ్గే వరకు రోజుకు 2 నుండి 3 సార్లు నోటి ద్వారా ఇవ్వండి.",
+                  "அடதோடா (அடூசா) இலை, துளசி, பூண்டு, மஞ்சள், மிளகு மற்றும் வெல்லத்தை கலந்து பேஸ்ட் தயாரிக்கவும். இருமல் குணமாகும் வரை நாளொன்றுக்கு 2 முதல் 3 முறை வாய் வழியாக கொடுக்கவும்.",
+                  "ಅಡತೋಡ (ಅಡೂಸಾ) ಎಲೆ, ತುಳಸಿ, ಬೆಳ್ಳುಳ್ಳಿ, ಅರಿಶಿನ, ಮೆಣಸು ಮತ್ತು ಬೆಲ್ಲವನ್ನು ಬೆರೆಸಿ ಪೇಸ್ಟ್ ಮಾಡಿ. ಕೆಮ್ಮು ಗುಣವಾಗುವವರೆಗೆ ದಿನಕ್ಕೆ 2 ರಿಂದ 3 ಬಾರಿ ಬಾಯಿಯ ಮೂಲಕ ಕೊಡಿ.",
+                  "अडूसा (वासा) पत्ती, तुलसी, लहसुन, हल्दी, काली मिर्च और गुड़ मिलाकर पेस्ट बनाएं। खांसी ठीक होने तक दिन में 2 से 3 बार मुँह से दें।"
+                ),
               },
             ],
           },
           {
             type: "text",
-            heading: L("A Few More Worth Recognising"),
+            heading: L(
+              "A Few More Worth Recognising",
+              "గుర్తించదగిన మరికొన్ని",
+              "அறிந்து கொள்ள வேண்டிய இன்னும் சில",
+              "ಗುರುತಿಸಲೇಬೇಕಾದ ಇನ್ನಷ್ಟು",
+              "जानने योग्य कुछ और"
+            ),
             html: L(
-              "The brochure also covers: <b>FMD mouth lesions</b> (cumin, fenugreek, pepper, turmeric, garlic and coconut blended with jaggery, applied inside the mouth 3 times a day for 3–5 days); <b>FMD foot lesions/wounds</b> (acalypha, garlic, neem, coconut or sesame oil, turmeric, mehndi and tulsi boiled together and applied on the cleaned wound, with anona leaf paste added only on day one if maggots are present); <b>pox/wart/cracks</b> (garlic, turmeric, cumin, sweet basil, neem and butter, applied on dried skin); <b>hygroma</b> — joint swelling — (aloe vera, lime, cissus, turmeric and garlic boiled in gingelly oil, applied 4–5 times a day with hot water fomentation twice daily); a <b>downer animal</b> that cannot get up (2 whole desi eggs fed 3 times a day, alternated every 2 hours with moringa-and-cissus paste, and — importantly — no attempt to lift the animal until the 4th day); <b>blood in milk</b> (curry leaves and moringa blended with jaggery, plus lemons, alongside the brochure's own note to also carry out the mastitis treatment); and <b>anoestrus</b> — an animal not coming into heat — (the same radish-aloe-moringa-cissus-curry leaf sequence as repeat breeding, with deworming done 15 days beforehand)."
+              "The brochure also covers: <b>FMD mouth lesions</b> (cumin, fenugreek, pepper, turmeric, garlic and coconut blended with jaggery, applied inside the mouth 3 times a day for 3–5 days); <b>FMD foot lesions/wounds</b> (acalypha, garlic, neem, coconut or sesame oil, turmeric, mehndi and tulsi boiled together and applied on the cleaned wound, with anona leaf paste added only on day one if maggots are present); <b>pox/wart/cracks</b> (garlic, turmeric, cumin, sweet basil, neem and butter, applied on dried skin); <b>hygroma</b> — joint swelling — (aloe vera, lime, cissus, turmeric and garlic boiled in gingelly oil, applied 4–5 times a day with hot water fomentation twice daily); a <b>downer animal</b> that cannot get up (2 whole desi eggs fed 3 times a day, alternated every 2 hours with moringa-and-cissus paste, and — importantly — no attempt to lift the animal until the 4th day); <b>blood in milk</b> (curry leaves and moringa blended with jaggery, plus lemons, alongside the brochure's own note to also carry out the mastitis treatment); and <b>anoestrus</b> — an animal not coming into heat — (the same radish-aloe-moringa-cissus-curry leaf sequence as repeat breeding, with deworming done 15 days beforehand).",
+              "బ్రోషర్ ఇంకా వీటిని కూడా కవర్ చేస్తుంది: <b>FMD నోటి గాయాలు</b> (జీలకర్ర, మెంతులు, మిరియాలు, పసుపు, వెల్లుల్లి మరియు కొబ్బరిని బెల్లంతో కలిపి, 3–5 రోజులు రోజుకు 3 సార్లు నోటి లోపల వేయడం); <b>FMD పాద గాయాలు/గాయాలు</b> (అకాలిఫా, వెల్లుల్లి, వేప, కొబ్బరి లేదా నువ్వుల నూనె, పసుపు, గోరింట మరియు తులసిని కలిపి మరిగించి శుభ్రం చేసిన గాయంపై వేయడం, పురుగులు ఉంటే మొదటి రోజు మాత్రమే సీతాఫలం ఆకు పేస్టు జోడించడం); <b>మశూచి/మొటిమ/పగుళ్లు</b> (వెల్లుల్లి, పసుపు, జీలకర్ర, తీపి తులసి, వేప మరియు వెన్న, పొడి చర్మంపై వేయడం); <b>హైగ్రోమా</b> — కీళ్ల వాపు — (కలబంద, సున్నం, సిస్సస్, పసుపు మరియు వెల్లుల్లిని నువ్వుల నూనెలో మరిగించి, రోజుకు 4–5 సార్లు వేడి నీటి కాపడంతో పాటు రోజుకు రెండుసార్లు వేయడం); లేవలేని <b>పడిపోయిన జంతువు</b> (2 పూర్తి దేశీ గుడ్లను రోజుకు 3 సార్లు, ప్రతి 2 గంటలకు మునగ-సిస్సస్ పేస్టుతో మార్చుకుంటూ ఇవ్వడం, మరియు — ముఖ్యంగా — 4వ రోజు వరకు జంతువును లేపడానికి ప్రయత్నించకపోవడం); <b>పాలలో రక్తం</b> (కరివేపాకు మరియు మునగను బెల్లంతో కలిపి, నిమ్మకాయలతో పాటు, మాస్టైటిస్ చికిత్స కూడా చేయాలని బ్రోషర్ సొంత గమనికతో పాటు); మరియు <b>అనోఎస్ట్రస్</b> — బహిష్టు రాని జంతువు — (పదే పదే గర్భం కోసం వాడే అదే ముల్లంగి-కలబంద-మునగ-సిస్సస్-కరివేపాకు క్రమం, 15 రోజుల ముందు నట్టల నివారణ చేసి).",
+              "துண்டுப்பிரசுரம் மேலும் இவற்றையும் உள்ளடக்குகிறது: <b>FMD வாய் புண்கள்</b> (சீரகம், வெந்தயம், மிளகு, மஞ்சள், பூண்டு மற்றும் தேங்காயை வெல்லத்துடன் கலந்து, 3–5 நாட்களுக்கு நாளொன்றுக்கு 3 முறை வாய்க்குள் பயன்படுத்துதல்); <b>FMD கால் புண்கள்/காயங்கள்</b> (அகாலிஃபா, பூண்டு, வேம்பு, தேங்காய் அல்லது எள் எண்ணெய், மஞ்சள், மருதாணி மற்றும் துளசியை ஒன்றாக கொதிக்க வைத்து சுத்தம் செய்த காயத்தில் பயன்படுத்துதல், புழுக்கள் இருந்தால் முதல் நாள் மட்டும் சீதாபழம் இலை பேஸ்ட் சேர்த்தல்); <b>பொக்ஸ்/கொப்புளம்/வெடிப்புகள்</b> (பூண்டு, மஞ்சள், சீரகம், தேன் துளசி, வேம்பு மற்றும் வெண்ணெய், உலர்ந்த தோலில் பயன்படுத்துதல்); <b>ஹைக்ரோமா</b> — மூட்டு வீக்கம் — (கற்றாழை, சுண்ணாம்பு, சிஸ்ஸஸ், மஞ்சள் மற்றும் பூண்டை எள் எண்ணெயில் கொதிக்க வைத்து, நாளொன்றுக்கு 4–5 முறை சூடான நீர் ஒத்தடத்துடன் தினமும் இரண்டு முறை பயன்படுத்துதல்); எழ முடியாத <b>விழுந்த விலங்கு</b> (2 முழு நாட்டு முட்டைகளை நாளொன்றுக்கு 3 முறை, ஒவ்வொரு 2 மணி நேரமும் முருங்கை-சிஸ்ஸஸ் பேஸ்டுடன் மாற்றி மாற்றி கொடுத்தல், மற்றும் — முக்கியமாக — 4வது நாள் வரை விலங்கை தூக்க முயற்சிக்காதிருத்தல்); <b>பாலில் இரத்தம்</b> (கறிவேப்பிலை மற்றும் முருங்கையை வெல்லத்துடன் கலந்து, எலுமிச்சைகளுடன், மடிவீக்க சிகிச்சையையும் செய்ய வேண்டும் என்ற துண்டுப்பிரசுரத்தின் சொந்த குறிப்புடன்); மற்றும் <b>அனோயெஸ்ட்ரஸ்</b> — வெப்புக்கு வராத விலங்கு — (மீண்டும் மீண்டும் கருவுறாமைக்கு பயன்படுத்தும் அதே முள்ளங்கி-கற்றாழை-முருங்கை-சிஸ்ஸஸ்-கறிவேப்பிலை வரிசை, 15 நாட்களுக்கு முன் புழு நீக்கம் செய்யப்பட்டு).",
+              "ಕರಪತ್ರ ಇನ್ನಷ್ಟನ್ನೂ ಒಳಗೊಂಡಿದೆ: <b>FMD ಬಾಯಿ ಗಾಯಗಳು</b> (ಜೀರಿಗೆ, ಮೆಂತ್ಯ, ಮೆಣಸು, ಅರಿಶಿನ, ಬೆಳ್ಳುಳ್ಳಿ ಮತ್ತು ತೆಂಗಿನಕಾಯಿಯನ್ನು ಬೆಲ್ಲದೊಂದಿಗೆ ಬೆರೆಸಿ, 3–5 ದಿನ ದಿನಕ್ಕೆ 3 ಬಾರಿ ಬಾಯಿಯೊಳಗೆ ಹಚ್ಚುವುದು); <b>FMD ಪಾದದ ಗಾಯಗಳು</b> (ಅಕಾಲಿಫಾ, ಬೆಳ್ಳುಳ್ಳಿ, ಬೇವು, ತೆಂಗಿನ ಅಥವಾ ಎಳ್ಳೆಣ್ಣೆ, ಅರಿಶಿನ, ಗೋರಂಟಿ ಮತ್ತು ತುಳಸಿಯನ್ನು ಒಟ್ಟಿಗೆ ಕುದಿಸಿ ಸ್ವಚ್ಛಗೊಳಿಸಿದ ಗಾಯದ ಮೇಲೆ ಹಚ್ಚುವುದು, ಹುಳಗಳಿದ್ದರೆ ಮೊದಲ ದಿನ ಮಾತ್ರ ಸೀತಾಫಲ ಎಲೆ ಪೇಸ್ಟ್ ಸೇರಿಸುವುದು); <b>ಸಿಡುಬು/ನರಹುಲಿ/ಬಿರುಕುಗಳು</b> (ಬೆಳ್ಳುಳ್ಳಿ, ಅರಿಶಿನ, ಜೀರಿಗೆ, ಸಿಹಿ ತುಳಸಿ, ಬೇವು ಮತ್ತು ಬೆಣ್ಣೆ, ಒಣ ಚರ್ಮದ ಮೇಲೆ ಹಚ್ಚುವುದು); <b>ಹೈಗ್ರೋಮಾ</b> — ಕೀಲು ಊತ — (ಅಲೋವೆರಾ, ಸುಣ್ಣ, ಸಿಸ್ಸಸ್, ಅರಿಶಿನ ಮತ್ತು ಬೆಳ್ಳುಳ್ಳಿಯನ್ನು ಎಳ್ಳೆಣ್ಣೆಯಲ್ಲಿ ಕುದಿಸಿ, ದಿನಕ್ಕೆ 4–5 ಬಾರಿ ಬಿಸಿನೀರಿನ ಶಾಖದೊಂದಿಗೆ ದಿನಕ್ಕೆ ಎರಡು ಬಾರಿ ಹಚ್ಚುವುದು); ಏಳಲಾಗದ <b>ಬಿದ್ದ ಪ್ರಾಣಿ</b> (2 ಪೂರ್ಣ ನಾಟಿ ಮೊಟ್ಟೆಗಳನ್ನು ದಿನಕ್ಕೆ 3 ಬಾರಿ, ಪ್ರತಿ 2 ಗಂಟೆಗೆ ನುಗ್ಗೆ-ಸಿಸ್ಸಸ್ ಪೇಸ್ಟ್‌ನೊಂದಿಗೆ ಪರ್ಯಾಯವಾಗಿ ಕೊಡುವುದು, ಮತ್ತು — ಮುಖ್ಯವಾಗಿ — 4ನೇ ದಿನದವರೆಗೆ ಪ್ರಾಣಿಯನ್ನು ಎತ್ತಲು ಪ್ರಯತ್ನಿಸದಿರುವುದು); <b>ಹಾಲಿನಲ್ಲಿ ರಕ್ತ</b> (ಕರಿಬೇವಿನ ಎಲೆ ಮತ್ತು ನುಗ್ಗೆಯನ್ನು ಬೆಲ್ಲದೊಂದಿಗೆ ಬೆರೆಸಿ, ನಿಂಬೆಹಣ್ಣುಗಳೊಂದಿಗೆ, ಮಾಸ್ಟೈಟಿಸ್ ಚಿಕಿತ್ಸೆಯನ್ನೂ ಮಾಡಬೇಕೆಂಬ ಕರಪತ್ರದ ಸ್ವಂತ ಟಿಪ್ಪಣಿಯೊಂದಿಗೆ); ಮತ್ತು <b>ಅನೋಎಸ್ಟ್ರಸ್</b> — ಬೆದೆಗೆ ಬಾರದ ಪ್ರಾಣಿ — (ಪುನರಾವರ್ತಿತ ಸಂತಾನೋತ್ಪತ್ತಿಗೆ ಬಳಸುವ ಅದೇ ಮೂಲಂಗಿ-ಅಲೋವೆರಾ-ನುಗ್ಗೆ-ಸಿಸ್ಸಸ್-ಕರಿಬೇವು ಅನುಕ್ರಮ, 15 ದಿನ ಮೊದಲು ಹುಳ ನಿವಾರಣೆ ಮಾಡಿ).",
+              "ब्रोशर इनका भी वर्णन करता है: <b>FMD मुँह के घाव</b> (जीरा, मेथी, काली मिर्च, हल्दी, लहसुन और नारियल को गुड़ के साथ मिलाकर, 3–5 दिनों तक दिन में 3 बार मुँह के अंदर लगाना); <b>FMD पैर के घाव</b> (अकैलिफा, लहसुन, नीम, नारियल या तिल का तेल, हल्दी, मेंहदी और तुलसी को एक साथ उबालकर साफ किए गए घाव पर लगाना, कीड़े होने पर पहले दिन ही सीताफल पत्ती का पेस्ट डालना); <b>पॉक्स/मस्से/दरारें</b> (लहसुन, हल्दी, जीरा, तुलसी, नीम और मक्खन, सूखी त्वचा पर लगाना); <b>हाइग्रोमा</b> — जोड़ की सूजन — (एलोवेरा, चूना, सिस्सस, हल्दी और लहसुन को तिल के तेल में उबालकर, दिन में 4–5 बार गर्म पानी की सिकाई के साथ रोज़ाना दो बार लगाना); उठ न पाने वाला <b>गिरा हुआ जानवर</b> (2 पूरे देसी अंडे दिन में 3 बार, हर 2 घंटे में सहजन-सिस्सस पेस्ट के साथ बदल-बदल कर देना, और — महत्वपूर्ण रूप से — चौथे दिन तक जानवर को उठाने की कोशिश न करना); <b>दूध में खून</b> (करी पत्ता और सहजन को गुड़ के साथ मिलाकर, नींबू के साथ, मैस्टाइटिस उपचार भी करने के ब्रोशर के अपने नोट के साथ); और <b>अनोएस्ट्रस</b> — गर्मी में न आने वाला जानवर — (बार-बार गर्भ न ठहरने के लिए इस्तेमाल होने वाला वही मूली-एलोवेरा-सहजन-सिस्सस-करी पत्ता क्रम, 15 दिन पहले कृमि नाशक देकर)।"
             ),
           },
           {
             type: "callout",
             style: "warning",
-            heading: L("Still Home Remedies, Not a Diagnosis"),
+            heading: L(
+              "Still Home Remedies, Not a Diagnosis",
+              "ఇప్పటికీ ఇంటి చిట్కాలే, నిర్ధారణ కాదు",
+              "இன்னும் வீட்டு வைத்தியங்களே, நோய் கண்டறிதல் அல்ல",
+              "ಇನ್ನೂ ಮನೆಮದ್ದುಗಳೇ, ರೋಗನಿರ್ಣಯವಲ್ಲ",
+              "अभी भी घरेलू उपचार, निदान नहीं"
+            ),
             text: L(
-              "Every formulation on this page is used ALONGSIDE, never INSTEAD OF, proper veterinary care. The EVM brochure's own closing line makes this exact point: the plants and materials described are generally regarded as safe and are only suggestive — a nearby veterinarian should still be consulted for proper disease diagnosis and management."
+              "Every formulation on this page is used ALONGSIDE, never INSTEAD OF, proper veterinary care. The EVM brochure's own closing line makes this exact point: the plants and materials described are generally regarded as safe and are only suggestive — a nearby veterinarian should still be consulted for proper disease diagnosis and management.",
+              "ఈ పేజీలోని ప్రతి ఫార్ములేషన్‌ను సరైన పశువైద్య సంరక్షణకు బదులుగా కాకుండా, దానితో పాటుగా మాత్రమే వాడాలి. EVM బ్రోషర్ యొక్క సొంత ముగింపు వాక్యం ఇదే విషయాన్ని చెబుతుంది: వివరించిన మొక్కలు మరియు పదార్థాలు సాధారణంగా సురక్షితమైనవిగా పరిగణించబడతాయి మరియు కేవలం సూచనాత్మకమైనవి — సరైన వ్యాధి నిర్ధారణ మరియు నిర్వహణ కోసం సమీపంలోని పశువైద్యుడిని ఇప్పటికీ సంప్రదించాలి.",
+              "இந்த பக்கத்தில் உள்ள ஒவ்வொரு சூத்திரமும் சரியான கால்நடை மருத்துவ பராமரிப்புக்கு பதிலாக அல்ல, அதனுடன் சேர்த்து மட்டுமே பயன்படுத்தப்பட வேண்டும். EVM துண்டுப்பிரசுரத்தின் சொந்த முடிவு வரி இதையே குறிப்பிடுகிறது: விவரிக்கப்பட்ட தாவரங்கள் மற்றும் பொருட்கள் பொதுவாக பாதுகாப்பானவையாக கருதப்படுகின்றன மற்றும் வெறும் பரிந்துரையே — சரியான நோய் கண்டறிதல் மற்றும் மேலாண்மைக்காக அருகிலுள்ள கால்நடை மருத்துவரை இன்னும் அணுக வேண்டும்.",
+              "ಈ ಪುಟದಲ್ಲಿನ ಪ್ರತಿ ಸೂತ್ರೀಕರಣವನ್ನು ಸರಿಯಾದ ಪಶುವೈದ್ಯ ಆರೈಕೆಗೆ ಬದಲಾಗಿ ಅಲ್ಲ, ಅದರ ಜೊತೆಗೆ ಮಾತ್ರ ಬಳಸಬೇಕು. EVM ಕರಪತ್ರದ ಸ್ವಂತ ಮುಕ್ತಾಯದ ಸಾಲು ಇದೇ ಅಂಶವನ್ನು ಹೇಳುತ್ತದೆ: ವಿವರಿಸಿದ ಸಸ್ಯಗಳು ಮತ್ತು ವಸ್ತುಗಳು ಸಾಮಾನ್ಯವಾಗಿ ಸುರಕ್ಷಿತವೆಂದು ಪರಿಗಣಿಸಲ್ಪಟ್ಟಿವೆ ಮತ್ತು ಕೇವಲ ಸಲಹಾತ್ಮಕವಾಗಿವೆ — ಸರಿಯಾದ ರೋಗನಿರ್ಣಯ ಮತ್ತು ನಿರ್ವಹಣೆಗಾಗಿ ಹತ್ತಿರದ ಪಶುವೈದ್ಯರನ್ನು ಇನ್ನೂ ಸಂಪರ್ಕಿಸಬೇಕು.",
+              "इस पेज पर मौजूद हर फॉर्मूलेशन को सही पशु चिकित्सा देखभाल के बदले नहीं, बल्कि उसके साथ-साथ ही इस्तेमाल किया जाता है। EVM ब्रोशर की अपनी समापन पंक्ति यही बात कहती है: वर्णित पौधे और सामग्री आम तौर पर सुरक्षित मानी जाती हैं और केवल सुझाव मात्र हैं — सही रोग निदान और प्रबंधन के लिए अब भी नज़दीकी पशु चिकित्सक से सलाह लेनी चाहिए।"
             ),
           },
         ],
