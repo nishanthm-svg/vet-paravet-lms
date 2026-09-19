@@ -2977,52 +2977,118 @@ export const MODULES = [
                       "6ನೇ ವರ್ಷ",
                       "6वाँ साल"
                     ),
-                    text: L("The central incisors begin to show wear, with a leveled, flattened top."),
+                    text: L(
+                      "The central incisors begin to show wear, with a leveled, flattened top.",
+                      "మధ్య కోత పళ్లు అరగడం మొదలవుతుంది, పైభాగం చదునుగా, సమంగా కనిపిస్తుంది.",
+                      "நடுவில் உள்ள வெட்டுப் பற்கள் தேயத் தொடங்கும், மேற்பகுதி தட்டையாக, சமமாகத் தெரியும்.",
+                      "ಮಧ್ಯದ ಕತ್ತರಿಸುವ ಹಲ್ಲುಗಳು ಸವೆಯಲು ಆರಂಭಿಸುತ್ತವೆ, ಮೇಲ್ಭಾಗ ಚಪ್ಪಟೆಯಾಗಿ, ಸಮವಾಗಿ ಕಾಣುತ್ತದೆ.",
+                      "बीच के कृंतक दाँत घिसने लगते हैं, ऊपरी सतह समतल और चपटी दिखने लगती है।"
+                    ),
                   },
                   {
-                    year: L("10th year"),
-                    text: L("All the incisors now show significant wear, with visible gaps appearing between them."),
+                    year: L(
+                      "10th year",
+                      "10వ ఏడాది",
+                      "10-ஆம் ஆண்டு",
+                      "10ನೇ ವರ್ಷ",
+                      "10वाँ साल"
+                    ),
+                    text: L(
+                      "All the incisors now show significant wear, with visible gaps appearing between them.",
+                      "ఇప్పుడు అన్ని కోత పళ్లూ బాగా అరిగిపోయి, వాటి మధ్య కనిపించే ఖాళీలు ఏర్పడతాయి.",
+                      "இப்போது எல்லா வெட்டுப் பற்களும் நன்றாகத் தேய்ந்து, அவற்றுக்கிடையே தெரியும் இடைவெளிகள் உண்டாகும்.",
+                      "ಈಗ ಎಲ್ಲಾ ಕತ್ತರಿಸುವ ಹಲ್ಲುಗಳೂ ತುಂಬಾ ಸವೆದು, ಅವುಗಳ ನಡುವೆ ಕಾಣುವ ಅಂತರಗಳು ಉಂಟಾಗುತ್ತವೆ.",
+                      "अब सभी कृंतक दाँत काफ़ी घिस जाते हैं और उनके बीच दिखने वाली खाली जगहें बन जाती हैं।"
+                    ),
                   },
                 ],
                 result: L(
-                  "In short: more temporary (baby) teeth means a younger animal, while more worn, gapped permanent teeth means an older one."
+                  "In short: more temporary (baby) teeth means a younger animal, while more worn, gapped permanent teeth means an older one.",
+                  "క్లుప్తంగా: ఎక్కువ తాత్కాలిక (పాల) పళ్లు అంటే చిన్న వయసు జంతువు; ఎక్కువ అరిగిన, ఖాళీలున్న శాశ్వత పళ్లు అంటే పెద్ద వయసు జంతువు.",
+                  "சுருக்கமாக: அதிக தற்காலிக (பால்) பற்கள் என்றால் இளம் விலங்கு; அதிகம் தேய்ந்த, இடைவெளி உள்ள நிரந்தரப் பற்கள் என்றால் வயதான விலங்கு.",
+                  "ಸಂಕ್ಷಿಪ್ತವಾಗಿ: ಹೆಚ್ಚು ತಾತ್ಕಾಲಿಕ (ಹಾಲು) ಹಲ್ಲುಗಳು ಎಂದರೆ ಚಿಕ್ಕ ಪ್ರಾಣಿ; ಹೆಚ್ಚು ಸವೆದ, ಅಂತರ ಇರುವ ಶಾಶ್ವತ ಹಲ್ಲುಗಳು ಎಂದರೆ ಹಿರಿಯ ಪ್ರಾಣಿ.",
+                  "संक्षेप में: ज़्यादा अस्थायी (दूध के) दाँत यानी छोटी उम्र का पशु, जबकि ज़्यादा घिसे और खाली जगह वाले स्थायी दाँत यानी बड़ी उम्र का पशु।"
                 ),
               },
               {
                 type: "callout",
                 style: "info",
-                heading: L("Horn Rings: Only a Very Rough Guess"),
+                heading: L(
+                  "Horn Rings: Only a Very Rough Guess",
+                  "కొమ్ము వలయాలు: చాలా మోటు అంచనా మాత్రమే",
+                  "கொம்பு வளையங்கள்: மிகவும் தோராயமான ஊகம் மட்டுமே",
+                  "ಕೊಂಬಿನ ಉಂಗುರಗಳು: ತುಂಬಾ ಒರಟು ಊಹೆ ಮಾತ್ರ",
+                  "सींग के छल्ले: सिर्फ बहुत मोटा अंदाज़ा"
+                ),
                 text: L(
-                  "Some people also count the rings on an animal's horns to guess its age — the first ring appears at 10–12 months, with roughly one new ring added each year after that. But this is not a good method: by the 5th year, the first three rings may already be gone, and after 8 years, none may be visible at all. Checking the teeth is far more useful."
+                  "Some people also count the rings on an animal's horns to guess its age — the first ring appears at 10–12 months, with roughly one new ring added each year after that. But this is not a good method: by the 5th year, the first three rings may already be gone, and after 8 years, none may be visible at all. Checking the teeth is far more useful.",
+                  "కొందరు జంతువు వయసు ఊహించడానికి దాని కొమ్ములపై ఉన్న వలయాలను కూడా లెక్కిస్తారు — మొదటి వలయం 10–12 నెలలకు వస్తుంది, ఆ తర్వాత సుమారు ఏడాదికి ఒక కొత్త వలయం చేరుతుంది. కానీ ఇది మంచి పద్ధతి కాదు: 5వ ఏటికి మొదటి మూడు వలయాలు ఇప్పటికే పోయి ఉండవచ్చు, 8 సంవత్సరాల తర్వాత ఒక్కటీ కనిపించకపోవచ్చు. దంతాలను చూడటం చాలా ఎక్కువ ఉపయోగకరం.",
+                  "சிலர் விலங்கின் வயதை ஊகிக்க அதன் கொம்புகளில் உள்ள வளையங்களையும் எண்ணுவார்கள் — முதல் வளையம் 10–12 மாதங்களில் தோன்றும், அதன் பிறகு ஏறக்குறைய ஆண்டுக்கு ஒரு புதிய வளையம் சேரும். ஆனால் இது நல்ல முறை அல்ல: 5-ஆம் வயதில் முதல் மூன்று வளையங்கள் ஏற்கனவே மறைந்திருக்கலாம், 8 ஆண்டுகளுக்குப் பிறகு ஒன்றுகூடத் தெரியாமல் போகலாம். பற்களைப் பார்ப்பதுதான் மிகவும் பயனுள்ளது.",
+                  "ಕೆಲವರು ಪ್ರಾಣಿಯ ವಯಸ್ಸನ್ನು ಊಹಿಸಲು ಅದರ ಕೊಂಬಿನ ಮೇಲಿನ ಉಂಗುರಗಳನ್ನೂ ಎಣಿಸುತ್ತಾರೆ — ಮೊದಲ ಉಂಗುರ 10–12 ತಿಂಗಳಿಗೆ ಕಾಣಿಸುತ್ತದೆ, ಅದರ ನಂತರ ಸುಮಾರು ವರ್ಷಕ್ಕೆ ಒಂದು ಹೊಸ ಉಂಗುರ ಸೇರುತ್ತದೆ. ಆದರೆ ಇದು ಒಳ್ಳೆಯ ವಿಧಾನವಲ್ಲ: 5ನೇ ವರ್ಷಕ್ಕೆ ಮೊದಲ ಮೂರು ಉಂಗುರಗಳು ಈಗಾಗಲೇ ಮಾಯವಾಗಿರಬಹುದು, 8 ವರ್ಷಗಳ ನಂತರ ಒಂದೂ ಕಾಣದಿರಬಹುದು. ಹಲ್ಲುಗಳನ್ನು ನೋಡುವುದೇ ಹೆಚ್ಚು ಉಪಯುಕ್ತ.",
+                  "कुछ लोग पशु की उम्र का अंदाज़ा लगाने के लिए उसके सींगों के छल्ले भी गिनते हैं — पहला छल्ला 10–12 महीने में बनता है, और उसके बाद लगभग हर साल एक नया छल्ला जुड़ता है। लेकिन यह अच्छा तरीका नहीं है: 5वें साल तक पहले तीन छल्ले मिट चुके हो सकते हैं, और 8 साल के बाद शायद एक भी दिखाई न दे। दाँत देखना कहीं ज़्यादा काम का है।"
                 ),
               },
               {
                 type: "callout",
                 style: "tip",
-                heading: L("Report What You See, Let the Expert Confirm"),
+                heading: L(
+                  "Report What You See, Let the Expert Confirm",
+                  "మీరు చూసినదాన్ని చెప్పండి, నిపుణుడు నిర్ధారించనివ్వండి",
+                  "நீங்கள் பார்ப்பதைத் தெரிவியுங்கள், நிபுணர் உறுதி செய்யட்டும்",
+                  "ನೀವು ನೋಡಿದ್ದನ್ನು ತಿಳಿಸಿ, ತಜ್ಞರು ಖಚಿತಪಡಿಸಲಿ",
+                  "जो देखें वह बताएँ, पुष्टि विशेषज्ञ करे"
+                ),
                 text: L(
-                  "Your job is to notice the general pattern — how many permanent teeth are in, and how worn they look — and pass that along as part of the purchase information. Pinning down an exact age, and deciding what it means for the purchase, is for the owner or vet to confirm."
+                  "Your job is to notice the general pattern — how many permanent teeth are in, and how worn they look — and pass that along as part of the purchase information. Pinning down an exact age, and deciding what it means for the purchase, is for the owner or vet to confirm.",
+                  "సాధారణ తీరును గమనించడం మీ పని — ఎన్ని శాశ్వత పళ్లు వచ్చాయి, అవి ఎంత అరిగి కనిపిస్తున్నాయి — దానిని కొనుగోలు సమాచారంలో భాగంగా అందజేయండి. ఖచ్చితమైన వయసు తేల్చడం, అది కొనుగోలుకు ఏం అర్థమో నిర్ణయించడం యజమాని లేదా పశువైద్యుడు నిర్ధారించాల్సిన పని.",
+                  "பொதுவான வடிவத்தைக் கவனிப்பது உங்கள் வேலை — எத்தனை நிரந்தரப் பற்கள் வந்துள்ளன, அவை எவ்வளவு தேய்ந்து தெரிகின்றன — அதை வாங்கும் தகவலின் ஒரு பகுதியாகத் தெரிவியுங்கள். துல்லியமான வயதைக் கண்டறிவதும், அது வாங்குவதற்கு என்ன அர்த்தம் என்பதை முடிவு செய்வதும் உரிமையாளர் அல்லது கால்நடை மருத்துவர் உறுதி செய்ய வேண்டியது.",
+                  "ಸಾಮಾನ್ಯ ಮಾದರಿಯನ್ನು ಗಮನಿಸುವುದು ನಿಮ್ಮ ಕೆಲಸ — ಎಷ್ಟು ಶಾಶ್ವತ ಹಲ್ಲುಗಳು ಬಂದಿವೆ, ಅವು ಎಷ್ಟು ಸವೆದಿವೆ — ಅದನ್ನು ಖರೀದಿ ಮಾಹಿತಿಯ ಭಾಗವಾಗಿ ತಿಳಿಸಿ. ನಿಖರವಾದ ವಯಸ್ಸನ್ನು ನಿಗದಿ ಮಾಡುವುದು, ಮತ್ತು ಅದು ಖರೀದಿಗೆ ಏನು ಅರ್ಥ ಎಂದು ನಿರ್ಧರಿಸುವುದು ಮಾಲೀಕರು ಅಥವಾ ಪಶುವೈದ್ಯರು ದೃಢಪಡಿಸಬೇಕಾದ ಕೆಲಸ.",
+                  "आपका काम सामान्य तस्वीर को देखना है — कितने स्थायी दाँत आ चुके हैं और वे कितने घिसे दिखते हैं — और उसे खरीद की जानकारी के हिस्से के रूप में आगे बताना है। ठीक-ठीक उम्र तय करना और खरीद के लिहाज़ से उसका क्या मतलब है, यह मालिक या पशु चिकित्सक तय करेगा।"
                 ),
               },
             ],
             check: [
               {
                 type: "mcq",
-                q: L("Why might checking an animal's teeth be worth doing before buying it?"),
+                q: L(
+                  "Why might checking an animal's teeth be worth doing before buying it?",
+                  "కొనడానికి ముందు జంతువు దంతాలను తనిఖీ చేయడం ఎందుకు విలువైనది కావచ్చు?",
+                  "வாங்குவதற்கு முன் விலங்கின் பற்களைச் சோதிப்பது ஏன் பயனுள்ளதாக இருக்கலாம்?",
+                  "ಖರೀದಿಸುವ ಮೊದಲು ಪ್ರಾಣಿಯ ಹಲ್ಲುಗಳನ್ನು ಪರೀಕ್ಷಿಸುವುದು ಏಕೆ ಪ್ರಯೋಜನಕಾರಿ ಆಗಬಹುದು?",
+                  "खरीदने से पहले पशु के दाँत जाँचना क्यों फ़ायदेमंद हो सकता है?"
+                ),
                 options: [
-                  L("Because it tells you the animal's exact weight"),
-                  L("Because the age a seller states may not always be reliable"),
-                  L("Because it tells you how much milk the animal gives"),
-                  L("There is no real reason to check"),
+                  L("Because it tells you the animal's exact weight", "ఎందుకంటే అది జంతువు ఖచ్చితమైన బరువును చెబుతుంది", "ஏனெனில் அது விலங்கின் துல்லியமான எடையைச் சொல்லும்", "ಏಕೆಂದರೆ ಅದು ಪ್ರಾಣಿಯ ನಿಖರ ತೂಕವನ್ನು ಹೇಳುತ್ತದೆ", "क्योंकि इससे पशु का सही वज़न पता चल जाता है"),
+                  L("Because the age a seller states may not always be reliable", "ఎందుకంటే అమ్మేవారు చెప్పే వయసు ఎప్పుడూ నమ్మదగినది కాకపోవచ్చు", "ஏனெனில் விற்பவர் சொல்லும் வயது எப்போதும் நம்பகமானதாக இருக்காது", "ಏಕೆಂದರೆ ಮಾರಾಟಗಾರ ಹೇಳುವ ವಯಸ್ಸು ಯಾವಾಗಲೂ ನಂಬಲರ್ಹವಾಗಿರದಿರಬಹುದು", "क्योंकि बेचने वाले की बताई उम्र हमेशा भरोसेमंद नहीं हो सकती"),
+                  L("Because it tells you how much milk the animal gives", "ఎందుకంటే అది జంతువు ఎంత పాలు ఇస్తుందో చెబుతుంది", "ஏனெனில் அது விலங்கு எவ்வளவு பால் கொடுக்கும் என்பதைச் சொல்லும்", "ಏಕೆಂದರೆ ಅದು ಪ್ರಾಣಿ ಎಷ್ಟು ಹಾಲು ಕೊಡುತ್ತದೆ ಎಂದು ಹೇಳುತ್ತದೆ", "क्योंकि इससे पता चलता है कि पशु कितना दूध देता है"),
+                  L("There is no real reason to check", "తనిఖీ చేయడానికి నిజమైన కారణం ఏమీ లేదు", "சோதிக்க உண்மையான காரணம் எதுவும் இல்லை", "ಪರೀಕ್ಷಿಸಲು ನಿಜವಾದ ಕಾರಣ ಏನೂ ಇಲ್ಲ", "जाँचने की कोई असली वजह नहीं है"),
                 ],
                 answer: 1,
-                explain: L("The seller's stated age may not be reliable, so checking the teeth gives an independent, physical way to estimate age."),
+                explain: L(
+                  "The seller's stated age may not be reliable, so checking the teeth gives an independent, physical way to estimate age.",
+                  "అమ్మేవారు చెప్పే వయసు నమ్మదగినది కాకపోవచ్చు, కాబట్టి దంతాలను చూడటం వయసును అంచనా వేయడానికి ఒక స్వతంత్ర, భౌతిక మార్గం.",
+                  "விற்பவர் சொல்லும் வயது நம்பகமானதாக இல்லாமல் இருக்கலாம், அதனால் பற்களைப் பார்ப்பது வயதைக் கணிக்க ஒரு சுயமான, நேரடியான வழி.",
+                  "ಮಾರಾಟಗಾರ ಹೇಳುವ ವಯಸ್ಸು ನಂಬಲರ್ಹವಾಗಿರದಿರಬಹುದು, ಆದ್ದರಿಂದ ಹಲ್ಲುಗಳನ್ನು ನೋಡುವುದು ವಯಸ್ಸನ್ನು ಅಂದಾಜು ಮಾಡಲು ಒಂದು ಸ್ವತಂತ್ರ, ಪ್ರತ್ಯಕ್ಷ ಮಾರ್ಗ.",
+                  "बेचने वाले की बताई उम्र भरोसेमंद न भी हो, इसलिए दाँत देखना उम्र का अंदाज़ा लगाने का एक स्वतंत्र और सीधा तरीका है।"
+                ),
               },
               {
                 type: "truefalse",
-                q: L("Horn rings are a very reliable way to tell an animal's exact age at any stage of its life."),
+                q: L(
+                  "Horn rings are a very reliable way to tell an animal's exact age at any stage of its life.",
+                  "కొమ్ము వలయాలు జంతువు జీవితంలో ఏ దశలోనైనా దాని ఖచ్చితమైన వయసు చెప్పడానికి చాలా నమ్మదగిన మార్గం.",
+                  "கொம்பு வளையங்கள் விலங்கின் வாழ்க்கையின் எந்தக் கட்டத்திலும் அதன் துல்லியமான வயதைச் சொல்ல மிகவும் நம்பகமான வழி.",
+                  "ಕೊಂಬಿನ ಉಂಗುರಗಳು ಪ್ರಾಣಿಯ ಜೀವನದ ಯಾವುದೇ ಹಂತದಲ್ಲಿ ಅದರ ನಿಖರ ವಯಸ್ಸನ್ನು ಹೇಳಲು ತುಂಬಾ ನಂಬಲರ್ಹ ಮಾರ್ಗ.",
+                  "सींग के छल्ले पशु के जीवन के किसी भी दौर में उसकी सही उम्र बताने का बहुत भरोसेमंद तरीका हैं।"
+                ),
                 answer: false,
-                explain: L("No — horn rings only give a very rough idea, and become unreliable after a few years since older rings can disappear."),
+                explain: L(
+                  "No — horn rings only give a very rough idea, and become unreliable after a few years since older rings can disappear.",
+                  "కాదు — కొమ్ము వలయాలు చాలా మోటు అంచనా మాత్రమే ఇస్తాయి, కొన్ని సంవత్సరాల తర్వాత నమ్మదగనివిగా మారతాయి, ఎందుకంటే పాత వలయాలు మాయమవుతాయి.",
+                  "இல்லை — கொம்பு வளையங்கள் மிகவும் தோராயமான யோசனையை மட்டுமே தரும், சில ஆண்டுகளுக்குப் பிறகு நம்பகமற்றதாகிவிடும், ஏனெனில் பழைய வளையங்கள் மறைந்துவிடும்.",
+                  "ಇಲ್ಲ — ಕೊಂಬಿನ ಉಂಗುರಗಳು ತುಂಬಾ ಒರಟು ಅಂದಾಜನ್ನು ಮಾತ್ರ ಕೊಡುತ್ತವೆ, ಕೆಲವು ವರ್ಷಗಳ ನಂತರ ನಂಬಲರ್ಹವಲ್ಲದಂತಾಗುತ್ತವೆ, ಏಕೆಂದರೆ ಹಳೆಯ ಉಂಗುರಗಳು ಮಾಯವಾಗಬಹುದು.",
+                  "नहीं — सींग के छल्ले सिर्फ बहुत मोटा अंदाज़ा देते हैं, और कुछ सालों के बाद भरोसे लायक नहीं रहते क्योंकि पुराने छल्ले मिट सकते हैं।"
+                ),
               },
             ],
           },
@@ -3033,9 +3099,21 @@ export const MODULES = [
             {
               topicId: "t-m2-quarantine",
               type: "truefalse",
-              q: L("A newly purchased animal should be kept separate from the herd for at least 3 weeks."),
+              q: L(
+                "A newly purchased animal should be kept separate from the herd for at least 3 weeks.",
+                "కొత్తగా కొన్న జంతువును మంద నుంచి కనీసం 3 వారాల పాటు వేరుగా ఉంచాలి.",
+                "புதிதாக வாங்கிய விலங்கை மந்தையிலிருந்து குறைந்தது 3 வாரங்கள் தனியாக வைக்க வேண்டும்.",
+                "ಹೊಸದಾಗಿ ಖರೀದಿಸಿದ ಪ್ರಾಣಿಯನ್ನು ಹಿಂಡಿನಿಂದ ಕನಿಷ್ಠ 3 ವಾರಗಳ ಕಾಲ ಪ್ರತ್ಯೇಕವಾಗಿ ಇಡಬೇಕು.",
+                "नए खरीदे पशु को झुंड से कम से कम 3 हफ्ते अलग रखना चाहिए।"
+              ),
               answer: true,
-              explain: L("Correct — at least 3 weeks of quarantine is the rule before a new animal joins the rest of the herd."),
+              explain: L(
+                "Correct — at least 3 weeks of quarantine is the rule before a new animal joins the rest of the herd.",
+                "సరైనది — కొత్త జంతువు మిగతా మందలో చేరే ముందు కనీసం 3 వారాల క్వారంటైన్ నియమం.",
+                "சரி — புதிய விலங்கு மற்ற மந்தையில் சேருவதற்கு முன் குறைந்தது 3 வாரங்கள் தனிமைப்படுத்தல் என்பதே விதி.",
+                "ಸರಿ — ಹೊಸ ಪ್ರಾಣಿ ಉಳಿದ ಹಿಂಡಿಗೆ ಸೇರುವ ಮೊದಲು ಕನಿಷ್ಠ 3 ವಾರಗಳ ಕ್ವಾರಂಟೈನ್ ನಿಯಮ.",
+                "सही — नया पशु बाकी झुंड में मिलने से पहले कम से कम 3 हफ्ते का क्वारंटीन नियम है।"
+              ),
             },
             {
               topicId: "t-m2-quarantine",
@@ -3054,29 +3132,71 @@ export const MODULES = [
                 L("Feed the new animal again first", "ముందుగా కొత్త జంతువుకు మళ్లీ మేత పెట్టాలి", "முதலில் புதிய விலங்குக்கு மீண்டும் தீவனம் போட வேண்டும்", "ಮೊದಲು ಹೊಸ ಪ್ರಾಣಿಗೆ ಮತ್ತೆ ಮೇವು ಹಾಕಬೇಕು", "पहले नए पशु को फिर से चारा दें"),
               ],
               answer: 1,
-              explain: L("Wash and change your clothes first, to avoid carrying anything over from the newly purchased animal to the rest of the herd."),
+              explain: L(
+                "Wash and change your clothes first, to avoid carrying anything over from the newly purchased animal to the rest of the herd.",
+                "కొత్తగా కొన్న జంతువు నుంచి ఏదీ మిగతా మందకు మోసుకెళ్లకుండా ఉండటానికి ముందుగా కడుక్కొని బట్టలు మార్చుకోవాలి.",
+                "புதிதாக வாங்கிய விலங்கிடமிருந்து எதையும் மற்ற மந்தைக்குக் கொண்டு செல்லாமல் இருக்க முதலில் கழுவி உடைகளை மாற்றிக் கொள்ள வேண்டும்.",
+                "ಹೊಸದಾಗಿ ಖರೀದಿಸಿದ ಪ್ರಾಣಿಯಿಂದ ಏನನ್ನೂ ಉಳಿದ ಹಿಂಡಿಗೆ ಹೊತ್ತೊಯ್ಯದಂತೆ ಮೊದಲು ತೊಳೆದು ಬಟ್ಟೆ ಬದಲಾಯಿಸಿಕೊಳ್ಳಬೇಕು.",
+                "नए खरीदे पशु से कोई संक्रमण बाकी झुंड तक न पहुँचे, इसलिए पहले धोएँ और कपड़े बदलें।"
+              ),
             },
             {
               topicId: "t-m2-quarantine",
               type: "truefalse",
-              q: L("If a newly purchased animal tests negative for a disease once during quarantine, it is completely guaranteed to be free of that disease."),
+              q: L(
+                "If a newly purchased animal tests negative for a disease once during quarantine, it is completely guaranteed to be free of that disease.",
+                "క్వారంటైన్ సమయంలో కొత్తగా కొన్న జంతువుకు ఒక వ్యాధికి ఒకసారి నెగెటివ్ వస్తే, ఆ వ్యాధి లేదని పూర్తిగా హామీ.",
+                "தனிமைப்படுத்தல் காலத்தில் புதிதாக வாங்கிய விலங்குக்கு ஒரு நோய்க்கு ஒரு முறை நெகட்டிவ் வந்தால், அந்த நோய் அதற்கு இல்லை என்பது முழு உத்தரவாதம்.",
+                "ಕ್ವಾರಂಟೈನ್ ಸಮಯದಲ್ಲಿ ಹೊಸದಾಗಿ ಖರೀದಿಸಿದ ಪ್ರಾಣಿಗೆ ಒಂದು ರೋಗಕ್ಕೆ ಒಮ್ಮೆ ನೆಗೆಟಿವ್ ಬಂದರೆ, ಆ ರೋಗ ಅದಕ್ಕೆ ಇಲ್ಲ ಎಂಬುದು ಪೂರ್ಣ ಖಾತ್ರಿ.",
+                "क्वारंटीन के दौरान नए खरीदे पशु की किसी बीमारी की जाँच एक बार नेगेटिव आ जाए, तो उसे उस बीमारी का न होना पूरी तरह पक्का है।"
+              ),
               answer: false,
-              explain: L("No — a negative test is not a complete guarantee. That's why the full quarantine period and ongoing observation still matter."),
+              explain: L(
+                "No — a negative test is not a complete guarantee. That's why the full quarantine period and ongoing observation still matter.",
+                "కాదు — నెగెటివ్ పరీక్ష పూర్తి హామీ కాదు. అందుకే పూర్తి క్వారంటైన్ కాలం, నిరంతర పరిశీలన ఇంకా ముఖ్యం.",
+                "இல்லை — நெகட்டிவ் பரிசோதனை முழு உத்தரவாதம் அல்ல. அதனால்தான் முழு தனிமைப்படுத்தல் காலமும் தொடர்ந்த கவனிப்பும் இன்னும் முக்கியம்.",
+                "ಇಲ್ಲ — ನೆಗೆಟಿವ್ ಪರೀಕ್ಷೆ ಪೂರ್ಣ ಖಾತ್ರಿಯಲ್ಲ. ಅದಕ್ಕಾಗಿಯೇ ಪೂರ್ಣ ಕ್ವಾರಂಟೈನ್ ಅವಧಿ ಮತ್ತು ನಿರಂತರ ಗಮನಿಸುವಿಕೆ ಇನ್ನೂ ಮುಖ್ಯ.",
+                "नहीं — नेगेटिव जाँच पूरी गारंटी नहीं है। इसीलिए पूरी क्वारंटीन अवधि और लगातार निगरानी अब भी ज़रूरी है।"
+              ),
             },
             {
               topicId: "t-m2-age-dentition",
               type: "mcq",
-              q: L("By roughly what age does an animal typically have a full set of permanent incisors?"),
-              options: [L("6 months"), L("1 year"), L("4–5 years (5–6 years in buffaloes)"), L("20 years")],
+              q: L(
+                "By roughly what age does an animal typically have a full set of permanent incisors?",
+                "సాధారణంగా ఏ వయసుకు జంతువుకు పూర్తి సెట్ శాశ్వత కోత పళ్లు ఉంటాయి?",
+                "பொதுவாக எந்த வயதில் ஒரு விலங்குக்கு நிரந்தர வெட்டுப் பற்களின் முழு தொகுப்பு இருக்கும்?",
+                "ಸಾಮಾನ್ಯವಾಗಿ ಯಾವ ವಯಸ್ಸಿಗೆ ಪ್ರಾಣಿಗೆ ಶಾಶ್ವತ ಕತ್ತರಿಸುವ ಹಲ್ಲುಗಳ ಪೂರ್ಣ ಸೆಟ್ ಇರುತ್ತದೆ?",
+                "आमतौर पर किस उम्र तक पशु के पास स्थायी कृंतक दाँतों का पूरा सेट आ जाता है?"
+              ),
+              options: [L("6 months", "6 నెలలు", "6 மாதங்கள்", "6 ತಿಂಗಳು", "6 महीने"), L("1 year", "1 సంవత్సరం", "1 ஆண்டு", "1 ವರ್ಷ", "1 साल"), L("4–5 years (5–6 years in buffaloes)", "4–5 సంవత్సరాలు (గేదెలలో 5–6 సంవత్సరాలు)", "4–5 ஆண்டுகள் (எருமைகளில் 5–6 ஆண்டுகள்)", "4–5 ವರ್ಷಗಳು (ಎಮ್ಮೆಗಳಲ್ಲಿ 5–6 ವರ್ಷಗಳು)", "4–5 साल (भैंसों में 5–6 साल)"), L("20 years", "20 సంవత్సరాలు", "20 ஆண்டுகள்", "20 ವರ್ಷಗಳು", "20 साल")],
               answer: 2,
-              explain: L("A full set of permanent incisors is typical by 4–5 years of age, or 5–6 years in buffaloes."),
+              explain: L(
+                "A full set of permanent incisors is typical by 4–5 years of age, or 5–6 years in buffaloes.",
+                "పూర్తి సెట్ శాశ్వత కోత పళ్లు సాధారణంగా 4–5 సంవత్సరాల వయసుకు, గేదెలలో 5–6 సంవత్సరాలకు వస్తాయి.",
+                "நிரந்தர வெட்டுப் பற்களின் முழு தொகுப்பு பொதுவாக 4–5 வயதில், எருமைகளில் 5–6 வயதில் வந்துவிடும்.",
+                "ಶಾಶ್ವತ ಕತ್ತರಿಸುವ ಹಲ್ಲುಗಳ ಪೂರ್ಣ ಸೆಟ್ ಸಾಮಾನ್ಯವಾಗಿ 4–5 ವರ್ಷ ವಯಸ್ಸಿಗೆ, ಎಮ್ಮೆಗಳಲ್ಲಿ 5–6 ವರ್ಷಗಳಿಗೆ ಬರುತ್ತದೆ.",
+                "स्थायी कृंतक दाँतों का पूरा सेट आमतौर पर 4–5 साल की उम्र तक, और भैंसों में 5–6 साल तक आ जाता है।"
+              ),
             },
             {
               topicId: "t-m2-age-dentition",
               type: "truefalse",
-              q: L("Horn rings give a precise, reliable way to know an animal's exact age at any stage of its life."),
+              q: L(
+                "Horn rings give a precise, reliable way to know an animal's exact age at any stage of its life.",
+                "కొమ్ము వలయాలు జంతువు జీవితంలో ఏ దశలోనైనా దాని ఖచ్చితమైన వయసును చెప్పే కచ్చితమైన, నమ్మదగిన మార్గం.",
+                "கொம்பு வளையங்கள் விலங்கின் வாழ்க்கையின் எந்தக் கட்டத்திலும் அதன் துல்லியமான வயதை அறிய ஒரு துல்லியமான, நம்பகமான வழி.",
+                "ಕೊಂಬಿನ ಉಂಗುರಗಳು ಪ್ರಾಣಿಯ ಜೀವನದ ಯಾವುದೇ ಹಂತದಲ್ಲಿ ಅದರ ನಿಖರ ವಯಸ್ಸನ್ನು ತಿಳಿಯಲು ನಿಖರ, ನಂಬಲರ್ಹ ಮಾರ್ಗ.",
+                "सींग के छल्ले पशु के जीवन के किसी भी दौर में उसकी ठीक-ठीक उम्र जानने का सटीक और भरोसेमंद तरीका हैं।"
+              ),
               answer: false,
-              explain: L("No — horn rings are only a rough guide, and become unreliable after several years as older rings disappear."),
+              explain: L(
+                "No — horn rings are only a rough guide, and become unreliable after several years as older rings disappear.",
+                "కాదు — కొమ్ము వలయాలు ఒక మోటు మార్గదర్శి మాత్రమే, పాత వలయాలు మాయమవుతాయి కాబట్టి చాలా సంవత్సరాల తర్వాత నమ్మదగనివిగా మారతాయి.",
+                "இல்லை — கொம்பு வளையங்கள் ஒரு தோராயமான வழிகாட்டி மட்டுமே, பழைய வளையங்கள் மறைந்துவிடுவதால் பல ஆண்டுகளுக்குப் பிறகு நம்பகமற்றதாகிவிடும்.",
+                "ಇಲ್ಲ — ಕೊಂಬಿನ ಉಂಗುರಗಳು ಒಂದು ಒರಟು ಮಾರ್ಗದರ್ಶಿ ಮಾತ್ರ, ಹಳೆಯ ಉಂಗುರಗಳು ಮಾಯವಾಗುವುದರಿಂದ ಹಲವು ವರ್ಷಗಳ ನಂತರ ನಂಬಲರ್ಹವಲ್ಲದಂತಾಗುತ್ತವೆ.",
+                "नहीं — सींग के छल्ले बस एक मोटा मार्गदर्शन हैं, और पुराने छल्ले मिट जाने से कई सालों बाद भरोसे लायक नहीं रहते।"
+              ),
             },
           ],
         },
@@ -15616,8 +15736,20 @@ export const MODULES = [
   {
     id: "m17",
     number: 17,
-    title: L("Animal Identification"),
-    subtitle: L("Why every animal gets its own ID, and how a simple ear tag makes lifelong records possible."),
+    title: L(
+      "Animal Identification",
+      "పశువుల గుర్తింపు (యానిమల్ ఐడెంటిఫికేషన్)",
+      "விலங்கு அடையாளம் காணுதல்",
+      "ಪ್ರಾಣಿ ಗುರುತಿಸುವಿಕೆ",
+      "पशु पहचान"
+    ),
+    subtitle: L(
+      "Why every animal gets its own ID, and how a simple ear tag makes lifelong records possible.",
+      "ప్రతి జంతువుకు దాని సొంత ID ఎందుకు ఇస్తారు, ఒక సాధారణ చెవి టాగ్ జీవితకాల రికార్డులను ఎలా సాధ్యం చేస్తుంది.",
+      "ஒவ்வொரு விலங்குக்கும் ஏன் சொந்த அடையாள எண் (ID) கொடுக்கப்படுகிறது, ஒரு எளிய காது வில்லை (டேக்) வாழ்நாள் பதிவுகளை எப்படிச் சாத்தியமாக்குகிறது.",
+      "ಪ್ರತಿ ಪ್ರಾಣಿಗೆ ಅದರದೇ ID ಏಕೆ ಕೊಡಲಾಗುತ್ತದೆ, ಒಂದು ಸರಳ ಕಿವಿ ಟ್ಯಾಗ್ ಜೀವನಪೂರ್ತಿ ದಾಖಲೆಗಳನ್ನು ಹೇಗೆ ಸಾಧ್ಯವಾಗಿಸುತ್ತದೆ.",
+      "हर पशु को अपनी अलग ID क्यों मिलती है, और एक साधारण कान का टैग जीवन भर के रिकॉर्ड कैसे मुमकिन बनाता है।"
+    ),
     icon: "id",
     available: true,
     lessons: [
@@ -15626,94 +15758,226 @@ export const MODULES = [
   // ==================================================================
   {
     id: "m17-l1",
-    title: L("Why Every Animal Needs Its Own ID"),
+    title: L(
+      "Why Every Animal Needs Its Own ID",
+      "ప్రతి జంతువుకు దాని సొంత ID ఎందుకు కావాలి",
+      "ஒவ்வொரு விலங்குக்கும் ஏன் சொந்த அடையாள எண் தேவை",
+      "ಪ್ರತಿ ಪ್ರಾಣಿಗೆ ಅದರದೇ ID ಏಕೆ ಬೇಕು",
+      "हर पशु को अपनी अलग ID क्यों चाहिए"
+    ),
     estMinutes: 8,
     hook: [
       {
         type: "hero",
-        heading: L("Every Animal Gets Its Own ID"),
+        heading: L(
+          "Every Animal Gets Its Own ID",
+          "ప్రతి జంతువుకు దాని సొంత ID",
+          "ஒவ்வொரு விலங்குக்கும் அதன் சொந்த அடையாள எண்",
+          "ಪ್ರತಿ ಪ್ರಾಣಿಗೆ ಅದರದೇ ID",
+          "हर पशु की अपनी ID"
+        ),
         text: L(
-          "Just like a person carries an identity card, every cow and buffalo can carry a unique ID of its own — usually a small tag on the ear. This lesson explains what animal identification is, why the law requires it, and how one small tag makes a lifetime of records possible."
+          "Just like a person carries an identity card, every cow and buffalo can carry a unique ID of its own — usually a small tag on the ear. This lesson explains what animal identification is, why the law requires it, and how one small tag makes a lifetime of records possible.",
+          "మనిషి గుర్తింపు కార్డు తీసుకెళ్లినట్లే, ప్రతి ఆవు, గేదె తనదైన ప్రత్యేకమైన ID తీసుకెళ్లగలదు — సాధారణంగా చెవికి పెట్టే చిన్న టాగ్. జంతువుల గుర్తింపు అంటే ఏమిటో, చట్టం దీన్ని ఎందుకు కోరుతుందో, ఒక చిన్న టాగ్ జీవితకాల రికార్డులను ఎలా సాధ్యం చేస్తుందో ఈ పాఠం వివరిస్తుంది.",
+          "மனிதர் அடையாள அட்டை வைத்திருப்பது போல, ஒவ்வொரு பசுவும் எருமையும் தனக்கென தனித்துவமான அடையாள எண்ணைக் கொண்டிருக்க முடியும் — பொதுவாக காதில் போடும் ஒரு சிறிய வில்லை (டேக்). விலங்கு அடையாளம் காணுதல் என்றால் என்ன, சட்டம் ஏன் இதைக் கோருகிறது, ஒரு சிறிய டேக் வாழ்நாள் பதிவுகளை எப்படிச் சாத்தியமாக்குகிறது என்பதை இந்தப் பாடம் விளக்குகிறது.",
+          "ಮನುಷ್ಯ ಗುರುತಿನ ಚೀಟಿ ಹೊತ್ತಿರುವಂತೆ, ಪ್ರತಿ ಹಸು, ಎಮ್ಮೆ ತನ್ನದೇ ಆದ ವಿಶಿಷ್ಟ ID ಹೊಂದಬಹುದು — ಸಾಮಾನ್ಯವಾಗಿ ಕಿವಿಗೆ ಹಾಕುವ ಒಂದು ಸಣ್ಣ ಟ್ಯಾಗ್. ಪ್ರಾಣಿ ಗುರುತಿಸುವಿಕೆ ಎಂದರೇನು, ಕಾನೂನು ಇದನ್ನು ಏಕೆ ಕೇಳುತ್ತದೆ, ಒಂದು ಸಣ್ಣ ಟ್ಯಾಗ್ ಜೀವನಪೂರ್ತಿ ದಾಖಲೆಗಳನ್ನು ಹೇಗೆ ಸಾಧ್ಯವಾಗಿಸುತ್ತದೆ ಎಂಬುದನ್ನು ಈ ಪಾಠ ವಿವರಿಸುತ್ತದೆ.",
+          "जैसे इंसान अपना पहचान पत्र रखता है, वैसे ही हर गाय और भैंस की अपनी अनोखी ID हो सकती है — आमतौर पर कान में लगा एक छोटा टैग। यह पाठ समझाता है कि पशु पहचान क्या है, कानून इसे क्यों ज़रूरी मानता है, और एक छोटा-सा टैग जीवन भर का रिकॉर्ड कैसे मुमकिन बनाता है।"
         ),
       },
     ],
     topics: [
       {
         id: "t-m17-what-is-id",
-        title: L("What Animal Identification Means, and Why It's Required by Law"),
+        title: L(
+          "What Animal Identification Means, and Why It's Required by Law",
+          "పశువుల గుర్తింపు అంటే ఏమిటి, చట్టం ప్రకారం ఇది ఎందుకు తప్పనిసరి",
+          "விலங்கு அடையாளம் என்றால் என்ன, சட்டப்படி இது ஏன் கட்டாயம்",
+          "ಪ್ರಾಣಿ ಗುರುತಿಸುವಿಕೆ ಎಂದರೇನು, ಕಾನೂನಿನ ಪ್ರಕಾರ ಇದು ಏಕೆ ಕಡ್ಡಾಯ",
+          "पशु पहचान का मतलब क्या है, और कानून के अनुसार यह क्यों ज़रूरी है"
+        ),
         teach: [
           {
             type: "text",
-            heading: L("What Does 'Identification' Mean for an Animal?"),
+            heading: L(
+              "What Does 'Identification' Mean for an Animal?",
+              "ఒక జంతువుకు 'గుర్తింపు' అంటే ఏమిటి?",
+              "ஒரு விலங்குக்கு 'அடையாளம் காணுதல்' என்றால் என்ன?",
+              "ಒಂದು ಪ್ರಾಣಿಗೆ 'ಗುರುತಿಸುವಿಕೆ' ಎಂದರೇನು?",
+              "किसी पशु के लिए 'पहचान' का क्या मतलब है?"
+            ),
             html: L(
-              "<b>Animal identification</b> simply means giving each individual animal a unique mark or number, so that it can always be told apart from every other animal — even animals that look almost identical. This is very similar to how every person carries some form of identity document that is theirs alone."
+              "<b>Animal identification</b> simply means giving each individual animal a unique mark or number, so that it can always be told apart from every other animal — even animals that look almost identical. This is very similar to how every person carries some form of identity document that is theirs alone.",
+              "<b>జంతువుల గుర్తింపు</b> అంటే ప్రతి జంతువుకు ఒక ప్రత్యేకమైన గుర్తు లేదా సంఖ్య ఇవ్వడం; దాని వల్ల దాదాపు ఒకేలా కనిపించే జంతువులలో కూడా అది ఎప్పుడూ ఇతర జంతువుల నుంచి వేరుగా గుర్తించబడుతుంది. ప్రతి మనిషి దగ్గరా ఆయనకే చెందిన ఏదో ఒక గుర్తింపు పత్రం ఉన్నట్లే ఇది కూడా.",
+              "<b>விலங்கு அடையாளம் காணுதல்</b> என்பது ஒவ்வொரு விலங்குக்கும் ஒரு தனித்துவமான குறி அல்லது எண்ணைக் கொடுப்பது; அதனால் கிட்டத்தட்ட ஒரே மாதிரி தெரியும் விலங்குகளிலும் அதை மற்ற எல்லா விலங்குகளிலிருந்தும் எப்போதும் வேறுபடுத்திப் பார்க்க முடியும். ஒவ்வொரு மனிதரும் தனக்கே உரிய ஒரு அடையாள ஆவணத்தை வைத்திருப்பது போன்றது இது.",
+              "<b>ಪ್ರಾಣಿ ಗುರುತಿಸುವಿಕೆ</b> ಎಂದರೆ ಪ್ರತಿ ಪ್ರಾಣಿಗೆ ಒಂದು ವಿಶಿಷ್ಟ ಗುರುತು ಅಥವಾ ಸಂಖ್ಯೆ ಕೊಡುವುದು; ಇದರಿಂದ ಬಹುತೇಕ ಒಂದೇ ರೀತಿ ಕಾಣುವ ಪ್ರಾಣಿಗಳಲ್ಲೂ ಅದನ್ನು ಬೇರೆ ಎಲ್ಲಾ ಪ್ರಾಣಿಗಳಿಂದ ಯಾವಾಗಲೂ ಬೇರ್ಪಡಿಸಿ ಗುರುತಿಸಬಹುದು. ಪ್ರತಿ ವ್ಯಕ್ತಿಯೂ ತನಗೇ ಸೇರಿದ ಒಂದು ಗುರುತಿನ ದಾಖಲೆ ಹೊಂದಿರುವಂತೆಯೇ ಇದು.",
+              "<b>पशु पहचान</b> का मतलब है हर पशु को एक अनोखा निशान या नंबर देना, ताकि उसे हमेशा बाकी सभी पशुओं से अलग पहचाना जा सके — यहाँ तक कि लगभग एक जैसे दिखने वाले पशुओं में भी। यह वैसा ही है जैसे हर इंसान के पास उसका अपना कोई पहचान दस्तावेज़ होता है।"
             ),
           },
           {
             type: "glossary",
-            term: L("Animal Identification"),
-            meaning: L("The process of uniquely identifying an animal using a marking on its body, so it can always be told apart from every other animal."),
+            term: L(
+              "Animal Identification",
+              "పశువుల గుర్తింపు (యానిమల్ ఐడెంటిఫికేషన్)",
+              "விலங்கு அடையாளம் காணுதல்",
+              "ಪ್ರಾಣಿ ಗುರುತಿಸುವಿಕೆ",
+              "पशु पहचान"
+            ),
+            meaning: L(
+              "The process of uniquely identifying an animal using a marking on its body, so it can always be told apart from every other animal.",
+              "జంతువు శరీరంపై ఉన్న గుర్తు ద్వారా దానిని ప్రత్యేకంగా గుర్తించే ప్రక్రియ; దాని వల్ల అది ఎప్పుడూ ఇతర జంతువులన్నింటి నుంచి వేరుగా తెలుస్తుంది.",
+              "விலங்கின் உடலில் உள்ள ஒரு குறியைக் கொண்டு அதைத் தனித்துவமாக அடையாளம் காணும் செயல்முறை; அதனால் அதை மற்ற எல்லா விலங்குகளிலிருந்தும் எப்போதும் வேறுபடுத்திக் காண முடியும்.",
+              "ಪ್ರಾಣಿಯ ದೇಹದ ಮೇಲಿನ ಗುರುತಿನ ಮೂಲಕ ಅದನ್ನು ವಿಶಿಷ್ಟವಾಗಿ ಗುರುತಿಸುವ ಪ್ರಕ್ರಿಯೆ; ಇದರಿಂದ ಅದನ್ನು ಬೇರೆ ಎಲ್ಲಾ ಪ್ರಾಣಿಗಳಿಂದ ಯಾವಾಗಲೂ ಬೇರ್ಪಡಿಸಿ ಗುರುತಿಸಬಹುದು.",
+              "पशु के शरीर पर लगे निशान से उसे अनोखे रूप में पहचानने की प्रक्रिया, ताकि उसे हमेशा बाकी सभी पशुओं से अलग पहचाना जा सके।"
+            ),
           },
           {
             type: "text",
-            heading: L("Why the Government Made This Compulsory"),
+            heading: L(
+              "Why the Government Made This Compulsory",
+              "ప్రభుత్వం దీన్ని ఎందుకు తప్పనిసరి చేసింది",
+              "அரசு இதை ஏன் கட்டாயமாக்கியது",
+              "ಸರ್ಕಾರ ಇದನ್ನು ಏಕೆ ಕಡ್ಡಾಯ ಮಾಡಿತು",
+              "सरकार ने इसे अनिवार्य क्यों किया"
+            ),
             html: L(
-              "The Government of India has passed a law called the <b>PCICDA Act, 2009</b>, which makes identification of animals compulsory. This law was passed so that India's animal record-keeping is in line with international policies."
+              "The Government of India has passed a law called the <b>PCICDA Act, 2009</b>, which makes identification of animals compulsory. This law was passed so that India's animal record-keeping is in line with international policies.",
+              "భారత ప్రభుత్వం <b>PCICDA చట్టం, 2009</b> అనే చట్టాన్ని చేసింది, దీని ప్రకారం జంతువుల గుర్తింపు తప్పనిసరి. భారతదేశ జంతు రికార్డుల నిర్వహణ అంతర్జాతీయ విధానాలకు అనుగుణంగా ఉండేలా ఈ చట్టం చేశారు.",
+              "இந்திய அரசு <b>PCICDA சட்டம், 2009</b> என்ற சட்டத்தை இயற்றியுள்ளது, இது விலங்குகளை அடையாளம் காணுவதைக் கட்டாயமாக்குகிறது. இந்தியாவின் விலங்குப் பதிவு பராமரிப்பு சர்வதேசக் கொள்கைகளுக்கு ஏற்ப இருக்கும்படி இந்தச் சட்டம் இயற்றப்பட்டது.",
+              "ಭಾರತ ಸರ್ಕಾರ <b>PCICDA ಕಾಯ್ದೆ, 2009</b> ಎಂಬ ಕಾನೂನನ್ನು ಜಾರಿಗೆ ತಂದಿದೆ, ಇದು ಪ್ರಾಣಿಗಳ ಗುರುತಿಸುವಿಕೆಯನ್ನು ಕಡ್ಡಾಯ ಮಾಡುತ್ತದೆ. ಭಾರತದ ಪ್ರಾಣಿ ದಾಖಲೆ ನಿರ್ವಹಣೆ ಅಂತರರಾಷ್ಟ್ರೀಯ ನೀತಿಗಳಿಗೆ ಅನುಗುಣವಾಗಿ ಇರಲಿ ಎಂದು ಈ ಕಾನೂನು ಮಾಡಲಾಗಿದೆ.",
+              "भारत सरकार ने <b>PCICDA अधिनियम, 2009</b> नाम का कानून बनाया है, जो पशुओं की पहचान को अनिवार्य करता है। यह कानून इसलिए बनाया गया ताकि भारत में पशुओं का रिकॉर्ड रखना अंतरराष्ट्रीय नीतियों के अनुरूप हो।"
             ),
           },
           {
             type: "glossary",
-            term: L("PCICDA Act, 2009"),
+            term: L(
+              "PCICDA Act, 2009",
+              "PCICDA చట్టం, 2009",
+              "PCICDA சட்டம், 2009",
+              "PCICDA ಕಾಯ್ದೆ, 2009",
+              "PCICDA अधिनियम, 2009"
+            ),
             meaning: L(
-              "Short for the 'Prevention and Control of Infectious and Contagious Diseases in Animals' Act, 2009 — the law passed by the Government of India that makes identifying animals compulsory."
+              "Short for the 'Prevention and Control of Infectious and Contagious Diseases in Animals' Act, 2009 — the law passed by the Government of India that makes identifying animals compulsory.",
+              "'జంతువులలో అంటువ్యాధులు మరియు సంక్రమణ వ్యాధుల నివారణ, నియంత్రణ చట్టం, 2009' కు సంక్షిప్త రూపం — జంతువులను గుర్తించడాన్ని తప్పనిసరి చేసిన భారత ప్రభుత్వ చట్టం.",
+              "'விலங்குகளில் தொற்று மற்றும் பரவும் நோய்களைத் தடுப்பதும் கட்டுப்படுத்துவதும் சட்டம், 2009' என்பதன் சுருக்கம் — விலங்குகளை அடையாளம் காண்பதைக் கட்டாயமாக்கிய இந்திய அரசின் சட்டம்.",
+              "'ಪ್ರಾಣಿಗಳಲ್ಲಿ ಸೋಂಕು ಮತ್ತು ಸಾಂಕ್ರಾಮಿಕ ರೋಗಗಳ ತಡೆ ಮತ್ತು ನಿಯಂತ್ರಣ ಕಾಯ್ದೆ, 2009' ಇದರ ಸಂಕ್ಷಿಪ್ತ ರೂಪ — ಪ್ರಾಣಿಗಳನ್ನು ಗುರುತಿಸುವುದನ್ನು ಕಡ್ಡಾಯ ಮಾಡಿದ ಭಾರತ ಸರ್ಕಾರದ ಕಾನೂನು.",
+              "'पशुओं में संक्रामक और छूत की बीमारियों की रोकथाम और नियंत्रण अधिनियम, 2009' का संक्षिप्त रूप — भारत सरकार का वह कानून जो पशुओं की पहचान को अनिवार्य बनाता है।"
             ),
           },
           {
             type: "stat-grid",
             items: [
               {
-                label: L("Ear Tagging"),
+                label: L(
+                  "Ear Tagging",
+                  "చెవి టాగ్ వేయడం",
+                  "காது வில்லை (டேக்) இடுதல்",
+                  "ಕಿವಿ ಟ್ಯಾಗ್ ಹಾಕುವುದು",
+                  "कान में टैग लगाना"
+                ),
                 text: L(
-                  "The most common method. A small tag carrying a unique 12-digit number is fixed to the animal's ear. It causes no problem if applied properly, and stays on the ear for many years."
+                  "The most common method. A small tag carrying a unique 12-digit number is fixed to the animal's ear. It causes no problem if applied properly, and stays on the ear for many years.",
+                  "అత్యంత సాధారణ పద్ధతి. ఒక ప్రత్యేకమైన 12 అంకెల సంఖ్య ఉన్న చిన్న టాగ్‌ను జంతువు చెవికి అమరుస్తారు. సరిగ్గా వేస్తే ఇది ఏ సమస్యా కలిగించదు, చాలా సంవత్సరాలు చెవిపై ఉంటుంది.",
+                  "மிகவும் பொதுவான முறை. ஒரு தனித்துவமான 12 இலக்க எண் கொண்ட சிறிய டேக் விலங்கின் காதில் பொருத்தப்படும். சரியாகப் போட்டால் இது எந்தப் பிரச்சினையும் ஏற்படுத்தாது, பல ஆண்டுகள் காதில் இருக்கும்.",
+                  "ಅತ್ಯಂತ ಸಾಮಾನ್ಯ ವಿಧಾನ. ಒಂದು ವಿಶಿಷ್ಟ 12 ಅಂಕಿಯ ಸಂಖ್ಯೆ ಇರುವ ಸಣ್ಣ ಟ್ಯಾಗ್ ಅನ್ನು ಪ್ರಾಣಿಯ ಕಿವಿಗೆ ಅಳವಡಿಸಲಾಗುತ್ತದೆ. ಸರಿಯಾಗಿ ಹಾಕಿದರೆ ಇದು ಯಾವ ಸಮಸ್ಯೆಯನ್ನೂ ಉಂಟುಮಾಡುವುದಿಲ್ಲ, ಹಲವು ವರ್ಷಗಳ ಕಾಲ ಕಿವಿಯ ಮೇಲೆ ಇರುತ್ತದೆ.",
+                  "सबसे आम तरीका। एक अनोखे 12 अंकों के नंबर वाला छोटा टैग पशु के कान में लगाया जाता है। ठीक से लगाने पर इससे कोई परेशानी नहीं होती और यह कई सालों तक कान पर टिका रहता है।"
                 ),
               },
               {
-                label: L("Tattooing and Branding"),
-                text: L("Marks placed directly on the animal's body to identify it."),
+                label: L(
+                  "Tattooing and Branding",
+                  "పచ్చబొట్టు మరియు వాత (బ్రాండింగ్)",
+                  "பச்சை குத்துதல் மற்றும் சூடு போடுதல் (பிராண்டிங்)",
+                  "ಹಚ್ಚೆ ಮತ್ತು ಬರೆ ಹಾಕುವುದು (ಬ್ರ್ಯಾಂಡಿಂಗ್)",
+                  "गोदना और दागना (ब्रांडिंग)"
+                ),
+                text: L(
+                  "Marks placed directly on the animal's body to identify it.",
+                  "జంతువును గుర్తించడానికి దాని శరీరంపై నేరుగా వేసే గుర్తులు.",
+                  "விலங்கை அடையாளம் காண அதன் உடலில் நேரடியாக இடப்படும் குறிகள்.",
+                  "ಪ್ರಾಣಿಯನ್ನು ಗುರುತಿಸಲು ಅದರ ದೇಹದ ಮೇಲೆ ನೇರವಾಗಿ ಹಾಕುವ ಗುರುತುಗಳು.",
+                  "पशु की पहचान के लिए उसके शरीर पर सीधे बनाए गए निशान।"
+                ),
               },
               {
-                label: L("RFID, Injectables, Bolus"),
-                text: L("Other methods used for identification, alongside ear tagging, tattooing and branding."),
+                label: L(
+                  "RFID, Injectables, Bolus",
+                  "RFID, ఇంజెక్టబుల్స్, బోలస్",
+                  "RFID, ஊசி வழி சிப்புகள் (இன்ஜெக்டபிள்ஸ்), போலஸ்",
+                  "RFID, ಇಂಜೆಕ್ಟಬಲ್ಸ್, ಬೋಲಸ್",
+                  "RFID, इंजेक्टेबल, बोलस"
+                ),
+                text: L(
+                  "Other methods used for identification, alongside ear tagging, tattooing and branding.",
+                  "చెవి టాగ్, పచ్చబొట్టు, వాతలతో పాటు గుర్తింపు కోసం వాడే ఇతర పద్ధతులు.",
+                  "காது டேக், பச்சை குத்துதல், சூடு போடுதல் ஆகியவற்றுடன் அடையாளத்துக்குப் பயன்படுத்தப்படும் பிற முறைகள்.",
+                  "ಕಿವಿ ಟ್ಯಾಗ್, ಹಚ್ಚೆ, ಬರೆ ಹಾಕುವುದರ ಜೊತೆಗೆ ಗುರುತಿಸುವಿಕೆಗೆ ಬಳಸುವ ಇತರ ವಿಧಾನಗಳು.",
+                  "कान के टैग, गोदने और दागने के साथ पहचान के लिए इस्तेमाल होने वाले दूसरे तरीके।"
+                ),
               },
             ],
           },
           {
             type: "callout",
             style: "tip",
-            heading: L("An Ear Tag Is Safe When Applied Properly"),
+            heading: L(
+              "An Ear Tag Is Safe When Applied Properly",
+              "సరిగ్గా వేస్తే చెవి టాగ్ సురక్షితం",
+              "சரியாகப் போட்டால் காது டேக் பாதுகாப்பானது",
+              "ಸರಿಯಾಗಿ ಹಾಕಿದರೆ ಕಿವಿ ಟ್ಯಾಗ್ ಸುರಕ್ಷಿತ",
+              "सही ढंग से लगाया जाए तो कान का टैग सुरक्षित है"
+            ),
             text: L(
-              "An ear tag does not cause the animal any problem as long as it is applied correctly. Once fixed, it is designed to stay on the animal's ear for many years, giving that animal the same ID number for life."
+              "An ear tag does not cause the animal any problem as long as it is applied correctly. Once fixed, it is designed to stay on the animal's ear for many years, giving that animal the same ID number for life.",
+              "చెవి టాగ్‌ను సరిగ్గా వేసినంత వరకు అది జంతువుకు ఏ సమస్యా కలిగించదు. ఒకసారి అమర్చాక అది చాలా సంవత్సరాలు జంతువు చెవిపై ఉండేలా రూపొందించబడింది, జీవితాంతం ఆ జంతువుకు ఒకే ID సంఖ్యను ఇస్తుంది.",
+              "காது டேக்கைச் சரியாகப் போட்டிருக்கும் வரை அது விலங்குக்கு எந்தப் பிரச்சினையும் ஏற்படுத்தாது. ஒருமுறை பொருத்தப்பட்டால், அது பல ஆண்டுகள் விலங்கின் காதில் இருக்கும்படி வடிவமைக்கப்பட்டுள்ளது, வாழ்நாள் முழுவதும் அந்த விலங்குக்கு ஒரே ID எண்ணைத் தருகிறது.",
+              "ಕಿವಿ ಟ್ಯಾಗ್ ಅನ್ನು ಸರಿಯಾಗಿ ಹಾಕಿದರೆ ಅದು ಪ್ರಾಣಿಗೆ ಯಾವ ಸಮಸ್ಯೆಯನ್ನೂ ಉಂಟುಮಾಡುವುದಿಲ್ಲ. ಒಮ್ಮೆ ಅಳವಡಿಸಿದ ಮೇಲೆ ಅದು ಹಲವು ವರ್ಷಗಳ ಕಾಲ ಪ್ರಾಣಿಯ ಕಿವಿಯ ಮೇಲೆ ಇರುವಂತೆ ರೂಪಿಸಲಾಗಿದೆ, ಜೀವನಪೂರ್ತಿ ಆ ಪ್ರಾಣಿಗೆ ಒಂದೇ ID ಸಂಖ್ಯೆಯನ್ನು ಕೊಡುತ್ತದೆ.",
+              "कान का टैग सही ढंग से लगाया जाए तो पशु को कोई परेशानी नहीं होती। एक बार लग जाने पर यह कई सालों तक पशु के कान पर टिका रहने के लिए बनाया गया है, और उस पशु को जीवन भर वही ID नंबर देता है।"
             ),
           },
         ],
         check: [
           {
             type: "mcq",
-            q: L("What does 'animal identification' mean?"),
+            q: L(
+              "What does 'animal identification' mean?",
+              "'పశువుల గుర్తింపు' అంటే ఏమిటి?",
+              "'விலங்கு அடையாளம் காணுதல்' என்றால் என்ன?",
+              "'ಪ್ರಾಣಿ ಗುರುತಿಸುವಿಕೆ' ಎಂದರೇನು?",
+              "'पशु पहचान' का क्या मतलब है?"
+            ),
             options: [
-              L("Giving an animal medicine"),
-              L("Uniquely marking an animal so it can always be told apart from every other animal"),
-              L("Measuring how much milk an animal gives"),
-              L("Checking an animal's body condition score"),
+              L("Giving an animal medicine", "జంతువుకు మందు ఇవ్వడం", "விலங்குக்கு மருந்து கொடுத்தல்", "ಪ್ರಾಣಿಗೆ ಔಷಧಿ ಕೊಡುವುದು", "पशु को दवा देना"),
+              L("Uniquely marking an animal so it can always be told apart from every other animal", "జంతువును ఇతర జంతువులన్నింటి నుంచి ఎప్పుడూ వేరుగా గుర్తించడానికి దానిపై ప్రత్యేకమైన గుర్తు వేయడం", "விலங்கை மற்ற எல்லா விலங்குகளிலிருந்தும் எப்போதும் வேறுபடுத்திக் காண அதன் மீது தனித்துவமான குறியிடுதல்", "ಪ್ರಾಣಿಯನ್ನು ಬೇರೆ ಎಲ್ಲಾ ಪ್ರಾಣಿಗಳಿಂದ ಯಾವಾಗಲೂ ಬೇರ್ಪಡಿಸಿ ಗುರುತಿಸಲು ಅದಕ್ಕೆ ವಿಶಿಷ್ಟ ಗುರುತು ಹಾಕುವುದು", "पशु पर एक अनोखा निशान लगाना ताकि उसे बाकी सभी पशुओं से हमेशा अलग पहचाना जा सके"),
+              L("Measuring how much milk an animal gives", "జంతువు ఎంత పాలు ఇస్తుందో కొలవడం", "விலங்கு எவ்வளவு பால் கொடுக்கிறது என்பதை அளவிடுதல்", "ಪ್ರಾಣಿ ಎಷ್ಟು ಹಾಲು ಕೊಡುತ್ತದೆ ಎಂದು ಅಳೆಯುವುದು", "पशु कितना दूध देता है यह नापना"),
+              L("Checking an animal's body condition score", "జంతువు శరీర స్థితి స్కోరును తనిఖీ చేయడం", "விலங்கின் உடல் நிலை மதிப்பெண்ணைச் சோதித்தல்", "ಪ್ರಾಣಿಯ ದೇಹ ಸ್ಥಿತಿ ಸ್ಕೋರ್ ಪರೀಕ್ಷಿಸುವುದು", "पशु का बॉडी कंडीशन स्कोर जाँचना"),
             ],
             answer: 1,
-            explain: L("Animal identification means giving each animal a unique mark or number — such as an ear tag — so it can always be told apart from every other animal."),
+            explain: L(
+              "Animal identification means giving each animal a unique mark or number — such as an ear tag — so it can always be told apart from every other animal.",
+              "జంతువుల గుర్తింపు అంటే ప్రతి జంతువుకు చెవి టాగ్ వంటి ప్రత్యేకమైన గుర్తు లేదా సంఖ్య ఇవ్వడం — తద్వారా అది ఇతర జంతువులన్నింటి నుంచి ఎప్పుడూ వేరుగా తెలుస్తుంది.",
+              "விலங்கு அடையாளம் காணுதல் என்பது ஒவ்வொரு விலங்குக்கும் காது டேக் போன்ற ஒரு தனித்துவமான குறி அல்லது எண்ணைக் கொடுப்பது — அதனால் அதை மற்ற எல்லா விலங்குகளிலிருந்தும் எப்போதும் வேறுபடுத்திக் காண முடியும்.",
+              "ಪ್ರಾಣಿ ಗುರುತಿಸುವಿಕೆ ಎಂದರೆ ಪ್ರತಿ ಪ್ರಾಣಿಗೆ ಕಿವಿ ಟ್ಯಾಗ್‌ನಂತಹ ವಿಶಿಷ್ಟ ಗುರುತು ಅಥವಾ ಸಂಖ್ಯೆ ಕೊಡುವುದು — ಇದರಿಂದ ಅದನ್ನು ಬೇರೆ ಎಲ್ಲಾ ಪ್ರಾಣಿಗಳಿಂದ ಯಾವಾಗಲೂ ಬೇರ್ಪಡಿಸಿ ಗುರುತಿಸಬಹುದು.",
+              "पशु पहचान का मतलब है हर पशु को कान के टैग जैसा एक अनोखा निशान या नंबर देना — ताकि उसे बाकी सभी पशुओं से हमेशा अलग पहचाना जा सके।"
+            ),
           },
           {
             type: "truefalse",
-            q: L("The PCICDA Act, 2009 makes it optional for farmers to identify their animals."),
+            q: L(
+              "The PCICDA Act, 2009 makes it optional for farmers to identify their animals.",
+              "PCICDA చట్టం, 2009 ప్రకారం రైతులు తమ జంతువులను గుర్తించడం ఐచ్ఛికం.",
+              "PCICDA சட்டம், 2009-இன் படி விவசாயிகள் தங்கள் விலங்குகளை அடையாளம் காண்பது விருப்பத்துக்குரியது.",
+              "PCICDA ಕಾಯ್ದೆ, 2009 ರ ಪ್ರಕಾರ ರೈತರು ತಮ್ಮ ಪ್ರಾಣಿಗಳನ್ನು ಗುರುತಿಸುವುದು ಐಚ್ಛಿಕ.",
+              "PCICDA अधिनियम, 2009 के अनुसार किसानों के लिए अपने पशुओं की पहचान करवाना वैकल्पिक है।"
+            ),
             answer: false,
-            explain: L("No — the PCICDA Act, 2009 makes animal identification compulsory, not optional."),
+            explain: L(
+              "No — the PCICDA Act, 2009 makes animal identification compulsory, not optional.",
+              "కాదు — PCICDA చట్టం, 2009 జంతువుల గుర్తింపును ఐచ్ఛికం కాదు, తప్పనిసరి చేసింది.",
+              "இல்லை — PCICDA சட்டம், 2009 விலங்கு அடையாளத்தை விருப்பத்துக்குரியதாக அல்ல, கட்டாயமாக்கியுள்ளது.",
+              "ಇಲ್ಲ — PCICDA ಕಾಯ್ದೆ, 2009 ಪ್ರಾಣಿ ಗುರುತಿಸುವಿಕೆಯನ್ನು ಐಚ್ಛಿಕ ಅಲ್ಲ, ಕಡ್ಡಾಯ ಮಾಡಿದೆ.",
+              "नहीं — PCICDA अधिनियम, 2009 ने पशु पहचान को वैकल्पिक नहीं, अनिवार्य बनाया है।"
+            ),
           },
         ],
       },
