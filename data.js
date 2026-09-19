@@ -6048,76 +6048,88 @@ export const MODULES = [
   // ==================================================================
   {
     id: "m6-l3",
-    title: L("Worms: Signs and Control"),
+    title: L("Worms: Signs and Control", "నులిపురుగులు: లక్షణాలు మరియు నియంత్రణ", "புழுக்கள்: அறிகுறிகள் மற்றும் கட்டுப்பாடு", "ಹುಳುಗಳು: ಲಕ್ಷಣಗಳು ಮತ್ತು ನಿಯಂತ್ರಣ", "कृमि (कीड़े): लक्षण और रोकथाम"),
     estMinutes: 8,
     hook: [
       {
         type: "hero",
-        heading: L("The Enemy You Usually Can't See"),
+        heading: L("The Enemy You Usually Can't See", "మీకు సాధారణంగా కనిపించని శత్రువు", "பொதுவாக உங்களுக்குத் தெரியாத எதிரி", "ನಿಮಗೆ ಸಾಮಾನ್ಯವಾಗಿ ಕಾಣಿಸದ ಶತ್ರು", "वह दुश्मन जो आमतौर पर दिखता नहीं"),
         text: L(
-          "Unlike ticks and flies, worms live quietly inside the animal, and you often can't see them at all. But they drain the animal of nutrients and blood, and can slow growth, cut milk yield and weaken the whole herd. This lesson covers how to notice worm trouble, and the everyday habits that keep the worm load down."
+          "Unlike ticks and flies, worms live quietly inside the animal, and you often can't see them at all. But they drain the animal of nutrients and blood, and can slow growth, cut milk yield and weaken the whole herd. This lesson covers how to notice worm trouble, and the everyday habits that keep the worm load down.",
+          "పేలు, ఈగల్లా కాకుండా, నులిపురుగులు జంతువు లోపల నిశ్శబ్దంగా ఉంటాయి, తరచుగా అసలు కనిపించవు. కానీ అవి జంతువు నుండి పోషకాలను, రక్తాన్ని లాగేసుకుంటాయి; ఎదుగుదలను నెమ్మదింపజేసి, పాల దిగుబడిని తగ్గించి, మొత్తం మందను బలహీనపరుస్తాయి. ఈ పాఠం నులిపురుగుల సమస్యను ఎలా గుర్తించాలో, పురుగుల భారాన్ని తగ్గించే రోజువారీ అలవాట్లేమిటో వివరిస్తుంది.",
+          "உண்ணிகள், ஈக்களைப் போலன்றி, புழுக்கள் விலங்கின் உள்ளே அமைதியாக வாழ்கின்றன, பெரும்பாலும் அவை கண்ணுக்கே தெரியாது. ஆனால் அவை விலங்கிடமிருந்து சத்துகளையும் இரத்தத்தையும் உறிஞ்சுகின்றன; வளர்ச்சியை மெதுவாக்கி, பால் மகசூலைக் குறைத்து, முழு மந்தையையும் பலவீனப்படுத்தும். இந்தப் பாடம் புழுத் தொல்லையை எப்படிக் கண்டறிவது, புழுச்சுமையைக் குறைக்கும் தினசரிப் பழக்கங்கள் என்ன என்பதை விளக்குகிறது.",
+          "ಉಣ್ಣಿ, ನೊಣಗಳಂತಲ್ಲದೆ, ಹುಳುಗಳು ಪ್ರಾಣಿಯ ಒಳಗೆ ಮೌನವಾಗಿ ವಾಸಿಸುತ್ತವೆ, ಆಗಾಗ ಅವು ಕಣ್ಣಿಗೆ ಕಾಣುವುದೇ ಇಲ್ಲ. ಆದರೆ ಅವು ಪ್ರಾಣಿಯಿಂದ ಪೋಷಕಾಂಶ ಮತ್ತು ರಕ್ತವನ್ನು ಹೀರುತ್ತವೆ; ಬೆಳವಣಿಗೆ ನಿಧಾನಗೊಳಿಸಿ, ಹಾಲಿನ ಇಳುವರಿ ಕಡಿಮೆ ಮಾಡಿ, ಇಡೀ ಹಿಂಡನ್ನು ದುರ್ಬಲಗೊಳಿಸುತ್ತವೆ. ಈ ಪಾಠವು ಹುಳುಗಳ ತೊಂದರೆಯನ್ನು ಹೇಗೆ ಗುರುತಿಸಬೇಕು ಮತ್ತು ಹುಳುಗಳ ಭಾರವನ್ನು ಕಡಿಮೆ ಮಾಡುವ ದೈನಂದಿನ ಅಭ್ಯಾಸಗಳೇನು ಎಂದು ವಿವರಿಸುತ್ತದೆ.",
+          "किलनी और मक्खियों के उलट, कृमि (कीड़े) पशु के अंदर चुपचाप रहते हैं और अक्सर दिखते ही नहीं। लेकिन वे पशु से पोषण और खून खींच लेते हैं, बढ़ने की रफ़्तार धीमी कर देते हैं, दूध की पैदावार घटा देते हैं और पूरे झुंड को कमज़ोर कर देते हैं। इस पाठ में बताया गया है कि कृमि की परेशानी को कैसे पहचानें, और रोज़मर्रा की वे आदतें कौन-सी हैं जिनसे कृमियों का बोझ कम रहता है।"
         ),
       },
     ],
     topics: [
       {
         id: "t-m6-worm-signs",
-        title: L("Recognizing Worm Infestation"),
+        title: L("Recognizing Worm Infestation", "నులిపురుగుల బెడదను గుర్తించడం", "புழுத் தொல்லையை அடையாளம் காணுதல்", "ಹುಳುಗಳ ಬಾಧೆಯನ್ನು ಗುರುತಿಸುವುದು", "कृमि के संक्रमण को पहचानना"),
         teach: [
           {
             type: "text",
-            heading: L("What Worms Are and How They Spread"),
+            heading: L("What Worms Are and How They Spread", "నులిపురుగులు అంటే ఏమిటి, ఎలా వ్యాపిస్తాయి", "புழுக்கள் என்றால் என்ன, எப்படிப் பரவுகின்றன", "ಹುಳುಗಳು ಎಂದರೇನು, ಹೇಗೆ ಹರಡುತ್ತವೆ", "कृमि क्या हैं और कैसे फैलते हैं"),
             html: L(
-              "Worms are parasites (creatures that live off another living body) that usually live inside the digestive tract (the gut), feeding on the animal's tissue fluids or blood. Some kinds are also found in the lungs, the nasal passage, or even the eyes. Worm eggs pass out through the dung and can contaminate pasture, feed or water — spreading the infestation to other animals. Some worms can even cause disease in people."
+              "Worms are parasites (creatures that live off another living body) that usually live inside the digestive tract (the gut), feeding on the animal's tissue fluids or blood. Some kinds are also found in the lungs, the nasal passage, or even the eyes. Worm eggs pass out through the dung and can contaminate pasture, feed or water — spreading the infestation to other animals. Some worms can even cause disease in people.",
+              "నులిపురుగులు పరాన్నజీవులు (మరొక జీవి శరీరంపై ఆధారపడి బతికేవి). ఇవి సాధారణంగా జీర్ణాశయంలో (పేగుల్లో) ఉండి, జంతువు కణజాల ద్రవాలను లేదా రక్తాన్ని తింటాయి. కొన్ని రకాలు ఊపిరితిత్తుల్లో, ముక్కు మార్గంలో, కళ్లలో కూడా ఉంటాయి. పురుగు గుడ్లు పేడ ద్వారా బయటకు వచ్చి, మేత భూమిని, దాణాను, నీటిని కలుషితం చేసి ఇతర జంతువులకు వ్యాపిస్తాయి. కొన్ని పురుగులు మనుషులకు కూడా వ్యాధి కలిగించగలవు.",
+              "புழுக்கள் ஒட்டுண்ணிகள் (மற்றொரு உயிரினத்தின் உடலைச் சார்ந்து வாழும் உயிரினங்கள்). இவை பொதுவாக செரிமான மண்டலத்தில் (குடலில்) வாழ்ந்து, விலங்கின் திசு திரவங்களையோ இரத்தத்தையோ உண்ணும். சில வகைகள் நுரையீரல், மூக்குப் பாதை, கண்களிலும் காணப்படும். புழு முட்டைகள் சாணம் வழியாக வெளியேறி, மேய்ச்சல் நிலம், தீவனம், தண்ணீரை மாசுபடுத்தி மற்ற விலங்குகளுக்குப் பரவும். சில புழுக்கள் மனிதர்களுக்கும் நோயை உண்டாக்கலாம்.",
+              "ಹುಳುಗಳು ಪರಾವಲಂಬಿಗಳು (ಇನ್ನೊಂದು ಜೀವಿಯ ದೇಹದ ಮೇಲೆ ಅವಲಂಬಿತವಾಗಿ ಬದುಕುವ ಜೀವಿಗಳು). ಇವು ಸಾಮಾನ್ಯವಾಗಿ ಜೀರ್ಣಾಂಗದಲ್ಲಿ (ಕರುಳಿನಲ್ಲಿ) ಇದ್ದು, ಪ್ರಾಣಿಯ ಅಂಗಾಂಶ ದ್ರವ ಅಥವಾ ರಕ್ತವನ್ನು ತಿನ್ನುತ್ತವೆ. ಕೆಲವು ಬಗೆಗಳು ಶ್ವಾಸಕೋಶ, ಮೂಗಿನ ಮಾರ್ಗ, ಕಣ್ಣುಗಳಲ್ಲೂ ಇರುತ್ತವೆ. ಹುಳುವಿನ ಮೊಟ್ಟೆಗಳು ಸಗಣಿಯ ಮೂಲಕ ಹೊರಬಂದು, ಮೇಯುವ ಜಾಗ, ಮೇವು, ನೀರನ್ನು ಕಲುಷಿತಗೊಳಿಸಿ ಇತರ ಪ್ರಾಣಿಗಳಿಗೆ ಹರಡುತ್ತವೆ. ಕೆಲವು ಹುಳುಗಳು ಮನುಷ್ಯರಲ್ಲೂ ರೋಗ ಉಂಟುಮಾಡಬಲ್ಲವು.",
+              "कृमि परजीवी (दूसरे जीव के शरीर पर पलने वाले जीव) होते हैं, जो आमतौर पर पाचन तंत्र (आँतों) में रहते हैं और पशु के ऊतकों के तरल या खून पर पलते हैं। कुछ किस्में फेफड़ों, नाक के रास्ते या आँखों में भी मिलती हैं। कृमि के अंडे गोबर के साथ बाहर आकर चरागाह, चारे या पानी को गंदा कर देते हैं और दूसरे पशुओं में संक्रमण फैलाते हैं। कुछ कृमि इंसानों में भी बीमारी पैदा कर सकते हैं।"
             ),
           },
           {
             type: "glossary",
-            term: L("Parasite"),
-            meaning: L("A creature that lives on or inside another living body (its host) and survives by feeding off it, often causing harm in the process."),
+            term: L("Parasite", "పరాన్నజీవి", "ஒட்டுண்ணி", "ಪರಾವಲಂಬಿ", "परजीवी"),
+            meaning: L("A creature that lives on or inside another living body (its host) and survives by feeding off it, often causing harm in the process.", "మరొక జీవి (దాని ఆతిథేయి) శరీరంపై లేదా లోపల ఉంటూ, దాన్నుంచే ఆహారం పొంది బతికే జీవి; ఇది తరచుగా హాని కలిగిస్తుంది.", "மற்றொரு உயிரினத்தின் (அதன் புரவலன்) உடலின் மேலோ உள்ளேயோ வாழ்ந்து, அதிடமிருந்தே உணவு பெற்று வாழும் உயிரினம்; இது பெரும்பாலும் தீங்கு விளைவிக்கிறது.", "ಇನ್ನೊಂದು ಜೀವಿಯ (ಅದರ ಆತಿಥೇಯ) ದೇಹದ ಮೇಲೆ ಅಥವಾ ಒಳಗೆ ವಾಸಿಸಿ, ಅದರಿಂದಲೇ ಆಹಾರ ಪಡೆದು ಬದುಕುವ ಜೀವಿ; ಇದು ಆಗಾಗ ಹಾನಿ ಮಾಡುತ್ತದೆ.", "ऐसा जीव जो किसी दूसरे जीव (अपने मेज़बान) के शरीर पर या अंदर रहकर उसी से पोषण लेता है, और अक्सर उसे नुकसान पहुँचाता है।"),
           },
           {
             type: "stat-grid",
             items: [
               {
-                label: L("Roundworms and tapeworms"),
-                text: L("Found in the digestive tract (the gut)."),
+                label: L("Roundworms and tapeworms", "గుండ్రని పురుగులు, బద్దె పురుగులు", "உருளைப்புழுக்கள், நாடாப்புழுக்கள்", "ದುಂಡುಹುಳು ಮತ್ತು ಪಟ್ಟಿಹುಳುಗಳು", "गोल कृमि (राउंडवर्म) और फीताकृमि (टेपवर्म)"),
+                text: L("Found in the digestive tract (the gut).", "జీర్ణాశయంలో (పేగుల్లో) ఉంటాయి.", "செரிமான மண்டலத்தில் (குடலில்) காணப்படும்.", "ಜೀರ್ಣಾಂಗದಲ್ಲಿ (ಕರುಳಿನಲ್ಲಿ) ಇರುತ್ತವೆ.", "पाचन तंत्र (आँतों) में पाए जाते हैं।"),
               },
               {
-                label: L("Flukes"),
-                text: L("Found in the rumen (the main stomach part) and the liver."),
+                label: L("Flukes", "ఫ్లూక్స్ (బల్లపరుపు పురుగులు)", "அட்டைப்புழுக்கள் (ஃப்ளூக்)", "ಫ್ಲೂಕ್‌ಗಳು (ಚಪ್ಪಟೆ ಹುಳುಗಳು)", "फ्लूक (चपटे कृमि)"),
+                text: L("Found in the rumen (the main stomach part) and the liver.", "రుమెన్ (ప్రధాన కడుపు భాగం), కాలేయంలో ఉంటాయి.", "ரூமென் (முதன்மை வயிற்றுப் பகுதி) மற்றும் ஈரலில் காணப்படும்.", "ರುಮೆನ್ (ಮುಖ್ಯ ಹೊಟ್ಟೆಯ ಭಾಗ) ಮತ್ತು ಯಕೃತ್ತಿನಲ್ಲಿ ಇರುತ್ತವೆ.", "रुमेन (पेट का मुख्य हिस्सा) और जिगर (लिवर) में पाए जाते हैं।"),
               },
               {
-                label: L("Schistosomes"),
-                text: L("Found inside the animal's blood vessels."),
+                label: L("Schistosomes", "షిస్టోసోమ్స్ (రక్త పురుగులు)", "ஷிஸ்டோசோம்கள் (இரத்தப் புழுக்கள்)", "ಷಿಸ್ಟೋಸೋಮ್‌ಗಳು (ರಕ್ತದ ಹುಳುಗಳು)", "शिस्टोसोम (खून के कृमि)"),
+                text: L("Found inside the animal's blood vessels.", "జంతువు రక్తనాళాల లోపల ఉంటాయి.", "விலங்கின் இரத்த நாளங்களுக்குள் காணப்படும்.", "ಪ್ರಾಣಿಯ ರಕ್ತನಾಳಗಳ ಒಳಗೆ ಇರುತ್ತವೆ.", "पशु की रक्त नलिकाओं (नसों) के अंदर पाए जाते हैं।"),
               },
             ],
           },
           {
             type: "text",
-            heading: L("General Signs of Worm Trouble"),
+            heading: L("General Signs of Worm Trouble", "నులిపురుగుల సమస్య సాధారణ లక్షణాలు", "புழுத் தொல்லையின் பொதுவான அறிகுறிகள்", "ಹುಳುಗಳ ತೊಂದರೆಯ ಸಾಮಾನ್ಯ ಲಕ್ಷಣಗಳು", "कृमि की परेशानी के आम लक्षण"),
             html: L(
-              "In general, worm infestation can cause diarrhoea, delayed age at maturity (the animal takes longer to grow up), a drop in growth rate and milk production, lower breeding and work performance, lower resistance to other diseases, and anaemia."
+              "In general, worm infestation can cause diarrhoea, delayed age at maturity (the animal takes longer to grow up), a drop in growth rate and milk production, lower breeding and work performance, lower resistance to other diseases, and anaemia.",
+              "సాధారణంగా నులిపురుగుల బెడద వల్ల విరేచనాలు, పరిపక్వతకు రావడంలో ఆలస్యం (జంతువు పెరగడానికి ఎక్కువ సమయం పడుతుంది), ఎదుగుదల రేటు, పాల ఉత్పత్తి తగ్గడం, ఈనడంలో, పనిలో సామర్థ్యం తగ్గడం, ఇతర వ్యాధులను తట్టుకునే శక్తి తగ్గడం, రక్తహీనత వస్తాయి.",
+              "பொதுவாக புழுத் தொல்லையால் வயிற்றுப்போக்கு, முதிர்ச்சி தாமதமாதல் (விலங்கு வளர அதிக நேரம் எடுத்தல்), வளர்ச்சி வேகம், பால் உற்பத்தி குறைதல், இனப்பெருக்கம், வேலைத் திறன் குறைதல், மற்ற நோய்களை எதிர்க்கும் சக்தி குறைதல், இரத்தசோகை ஏற்படலாம்.",
+              "ಸಾಮಾನ್ಯವಾಗಿ ಹುಳುಗಳ ಬಾಧೆಯಿಂದ ಬೇಧಿ, ಪ್ರೌಢಾವಸ್ಥೆ ತಡವಾಗುವುದು (ಪ್ರಾಣಿ ಬೆಳೆಯಲು ಹೆಚ್ಚು ಸಮಯ ತೆಗೆದುಕೊಳ್ಳುವುದು), ಬೆಳವಣಿಗೆ ದರ ಮತ್ತು ಹಾಲಿನ ಉತ್ಪಾದನೆ ಇಳಿಕೆ, ಸಂತಾನೋತ್ಪತ್ತಿ ಮತ್ತು ಕೆಲಸದ ಸಾಮರ್ಥ್ಯ ಕಡಿಮೆಯಾಗುವುದು, ಇತರ ರೋಗಗಳಿಗೆ ನಿರೋಧಕ ಶಕ್ತಿ ಕುಗ್ಗುವುದು ಮತ್ತು ರಕ್ತಹೀನತೆ ಉಂಟಾಗಬಹುದು.",
+              "आमतौर पर कृमि के संक्रमण से दस्त, परिपक्वता में देरी (पशु को बड़ा होने में ज़्यादा समय लगना), बढ़ने की रफ़्तार और दूध उत्पादन में गिरावट, प्रजनन और काम करने की क्षमता कम होना, दूसरी बीमारियों से लड़ने की ताकत घटना, और खून की कमी हो सकती है।"
             ),
           },
           {
             type: "stat-grid",
             items: [
               {
-                label: L("Bottle-jaw"),
-                text: L("A soft swelling under the jaw, along with severe, foul-smelling diarrhoea — seen with rumen and liver fluke infestation. Jaundice (yellowing) can also appear with liver fluke."),
+                label: L("Bottle-jaw", "బాటిల్-జా (దవడ కింద వాపు)", "பாட்டில்-தாடை (தாடைக்குக் கீழ் வீக்கம்)", "ಬಾಟಲ್-ದವಡೆ (ದವಡೆಯ ಕೆಳಗೆ ಊತ)", "बॉटल-जॉ (जबड़े के नीचे सूजन)"),
+                text: L("A soft swelling under the jaw, along with severe, foul-smelling diarrhoea — seen with rumen and liver fluke infestation. Jaundice (yellowing) can also appear with liver fluke.", "దవడ కింద మెత్తని వాపు, దానితో పాటు తీవ్రమైన, దుర్వాసన గల విరేచనాలు — రుమెన్, లివర్ ఫ్లూక్ బెడదలో కనిపిస్తుంది. లివర్ ఫ్లూక్‌తో కామెర్లు (పసుపు రంగు) కూడా రావచ్చు.", "தாடைக்குக் கீழ் மென்மையான வீக்கம், அதோடு கடுமையான, துர்நாற்றம் வீசும் வயிற்றுப்போக்கு — ரூமென், ஈரல் அட்டைத் தொல்லையில் காணப்படும். ஈரல் அட்டையுடன் மஞ்சள் காமாலையும் (மஞ்சளாதல்) தோன்றலாம்.", "ದವಡೆಯ ಕೆಳಗೆ ಮೃದುವಾದ ಊತ, ಜೊತೆಗೆ ತೀವ್ರ, ದುರ್ವಾಸನೆಯ ಬೇಧಿ — ರುಮೆನ್ ಮತ್ತು ಲಿವರ್ ಫ್ಲೂಕ್ ಬಾಧೆಯಲ್ಲಿ ಕಾಣಿಸುತ್ತದೆ. ಲಿವರ್ ಫ್ಲೂಕ್‌ನೊಂದಿಗೆ ಕಾಮಾಲೆ (ಹಳದಿಯಾಗುವುದು) ಕೂಡ ಕಾಣಿಸಬಹುದು.", "जबड़े के नीचे नरम सूजन, साथ में तेज़, बदबूदार दस्त — यह रुमेन और लिवर फ्लूक के संक्रमण में दिखता है। लिवर फ्लूक में पीलिया (पीलापन) भी आ सकता है।"),
               },
               {
-                label: L("Pot-belly"),
-                text: L("A swollen, pot-bellied look, with small white segments moving in the dung — a sign of tapeworm. A heavy tapeworm burden can also block the gut because of its length."),
+                label: L("Pot-belly", "పొట్ట ఉబ్బడం (పాట్-బెల్లీ)", "பானை வயிறு (பாட்-பெல்லி)", "ಹೊಟ್ಟೆ ಉಬ್ಬುವುದು (ಪಾಟ್-ಬೆಲ್ಲಿ)", "पेट फूलना (पॉट-बेली)"),
+                text: L("A swollen, pot-bellied look, with small white segments moving in the dung — a sign of tapeworm. A heavy tapeworm burden can also block the gut because of its length.", "పొట్ట ఉబ్బి కుండలా కనిపించడం, పేడలో చిన్న తెల్లని ముక్కలు కదులుతూ ఉండటం — బద్దె పురుగు లక్షణం. బద్దె పురుగుల భారం ఎక్కువైతే, వాటి పొడవు వల్ల పేగు మూసుకుపోవచ్చు కూడా.", "வயிறு வீங்கி பானை போலத் தோன்றுதல், சாணத்தில் சிறு வெள்ளைத் துண்டுகள் நகர்ந்து செல்லுதல் — நாடாப்புழுவின் அறிகுறி. நாடாப்புழுக்களின் சுமை அதிகமானால், அவற்றின் நீளத்தால் குடலும் அடைபடலாம்.", "ಹೊಟ್ಟೆ ಊದಿಕೊಂಡು ಮಡಕೆಯಂತೆ ಕಾಣುವುದು, ಸಗಣಿಯಲ್ಲಿ ಸಣ್ಣ ಬಿಳಿ ತುಂಡುಗಳು ಚಲಿಸುತ್ತಿರುವುದು — ಪಟ್ಟಿಹುಳುವಿನ ಲಕ್ಷಣ. ಪಟ್ಟಿಹುಳುಗಳ ಭಾರ ಹೆಚ್ಚಾದರೆ, ಅವುಗಳ ಉದ್ದದಿಂದ ಕರುಳು ಕೂಡ ಮುಚ್ಚಿಹೋಗಬಹುದು.", "पेट फूलकर मटके जैसा दिखना, और गोबर में छोटे सफ़ेद टुकड़ों का हिलना — यह फीताकृमि (टेपवर्म) का संकेत है। फीताकृमियों की संख्या ज़्यादा हो तो उनकी लंबाई की वजह से आँत भी बंद हो सकती है।"),
               },
               {
-                label: L("Severe anaemia and bloody diarrhoea"),
-                text: L("Seen with hookworm (a blood-sucking type of roundworm) and schistosome infestation."),
+                label: L("Severe anaemia and bloody diarrhoea", "తీవ్రమైన రక్తహీనత, రక్త విరేచనాలు", "கடுமையான இரத்தசோகை, இரத்தம் கலந்த வயிற்றுப்போக்கு", "ತೀವ್ರ ರಕ್ತಹೀನತೆ ಮತ್ತು ರಕ್ತ ಮಿಶ್ರಿತ ಬೇಧಿ", "गंभीर खून की कमी और खूनी दस्त"),
+                text: L("Seen with hookworm (a blood-sucking type of roundworm) and schistosome infestation.", "హుక్‌వార్మ్ (రక్తం పీల్చే ఒక రకం గుండ్రని పురుగు), షిస్టోసోమ్ బెడదలో కనిపిస్తుంది.", "கொக்கிப்புழு (இரத்தம் உறிஞ்சும் ஒரு வகை உருளைப்புழு) மற்றும் ஷிஸ்டோசோம் தொல்லையில் காணப்படும்.", "ಹುಕ್‌ವರ್ಮ್ (ರಕ್ತ ಹೀರುವ ಒಂದು ಬಗೆಯ ದುಂಡುಹುಳು) ಮತ್ತು ಷಿಸ್ಟೋಸೋಮ್ ಬಾಧೆಯಲ್ಲಿ ಕಾಣಿಸುತ್ತದೆ.", "हुकवर्म (खून चूसने वाला एक तरह का गोल कृमि) और शिस्टोसोम के संक्रमण में दिखता है।"),
               },
               {
-                label: L("Nose and lung signs"),
-                text: L("Thick nasal discharge, snoring and shortness of breath can point to nasal schistosomes; a cough can point to lungworm."),
+                label: L("Nose and lung signs", "ముక్కు, ఊపిరితిత్తుల లక్షణాలు", "மூக்கு, நுரையீரல் அறிகுறிகள்", "ಮೂಗು ಮತ್ತು ಶ್ವಾಸಕೋಶದ ಲಕ್ಷಣಗಳು", "नाक और फेफड़ों के लक्षण"),
+                text: L("Thick nasal discharge, snoring and shortness of breath can point to nasal schistosomes; a cough can point to lungworm.", "చిక్కని ముక్కు స్రావం, గురక, ఆయాసం ముక్కులోని షిస్టోసోమ్స్‌ను సూచించవచ్చు; దగ్గు ఊపిరితిత్తుల పురుగును సూచించవచ్చు.", "கெட்டியான மூக்குச் சளி, குறட்டை, மூச்சுத் திணறல் ஆகியவை மூக்கில் உள்ள ஷிஸ்டோசோம்களைக் குறிக்கலாம்; இருமல் நுரையீரல் புழுவைக் குறிக்கலாம்.", "ದಪ್ಪ ಮೂಗಿನ ಸ್ರಾವ, ಗೊರಕೆ ಮತ್ತು ಉಸಿರಾಟದ ತೊಂದರೆ ಮೂಗಿನ ಷಿಸ್ಟೋಸೋಮ್‌ಗಳನ್ನು ಸೂಚಿಸಬಹುದು; ಕೆಮ್ಮು ಶ್ವಾಸಕೋಶದ ಹುಳುವನ್ನು ಸೂಚಿಸಬಹುದು.", "गाढ़ा नाक का स्राव, खर्राटे जैसी आवाज़ और साँस फूलना नाक के शिस्टोसोम की ओर इशारा कर सकते हैं; खाँसी फेफड़े के कृमि (लंगवर्म) की ओर।"),
               },
             ],
           },
@@ -6125,78 +6137,90 @@ export const MODULES = [
         check: [
           {
             type: "mcq",
-            q: L("What is 'bottle-jaw' a sign of?"),
-            options: [L("Tapeworm"), L("Rumen and liver fluke infestation"), L("A healthy, well-fed animal"), L("Lungworm")],
+            q: L("What is 'bottle-jaw' a sign of?", "'బాటిల్-జా' దేనికి లక్షణం?", "'பாட்டில்-தாடை' எதன் அறிகுறி?", "'ಬಾಟಲ್-ದವಡೆ' ಯಾವುದರ ಲಕ್ಷಣ?", "'बॉटल-जॉ' किसका लक्षण है?"),
+            options: [L("Tapeworm", "బద్దె పురుగు", "நாடாப்புழு", "ಪಟ್ಟಿಹುಳು", "फीताकृमि (टेपवर्म)"), L("Rumen and liver fluke infestation", "రుమెన్, లివర్ ఫ్లూక్ బెడద", "ரூமென் மற்றும் ஈரல் அட்டைத் தொல்லை", "ರುಮೆನ್ ಮತ್ತು ಲಿವರ್ ಫ್ಲೂಕ್ ಬಾಧೆ", "रुमेन और लिवर फ्लूक का संक्रमण"), L("A healthy, well-fed animal", "ఆరోగ్యంగా, బాగా మేత తిన్న జంతువు", "ஆரோக்கியமான, நன்கு உணவளிக்கப்பட்ட விலங்கு", "ಆರೋಗ್ಯವಂತ, ಚೆನ್ನಾಗಿ ಮೇವು ತಿಂದ ಪ್ರಾಣಿ", "एक स्वस्थ, अच्छी तरह खाया-पिया पशु"), L("Lungworm", "ఊపిరితిత్తుల పురుగు", "நுரையீரல் புழு", "ಶ್ವಾಸಕೋಶದ ಹುಳು", "फेफड़े का कृमि (लंगवर्म)")],
             answer: 1,
-            explain: L("Bottle-jaw (soft swelling under the jaw) along with severe, foul-smelling diarrhoea is seen with rumen and liver fluke infestation."),
+            explain: L("Bottle-jaw (soft swelling under the jaw) along with severe, foul-smelling diarrhoea is seen with rumen and liver fluke infestation.", "బాటిల్-జా (దవడ కింద మెత్తని వాపు), తీవ్రమైన, దుర్వాసన గల విరేచనాలతో పాటు రుమెన్, లివర్ ఫ్లూక్ బెడదలో కనిపిస్తుంది.", "பாட்டில்-தாடை (தாடைக்குக் கீழ் மென்மையான வீக்கம்), கடுமையான, துர்நாற்றம் வீசும் வயிற்றுப்போக்குடன் சேர்ந்து ரூமென், ஈரல் அட்டைத் தொல்லையில் காணப்படும்.", "ಬಾಟಲ್-ದವಡೆ (ದವಡೆಯ ಕೆಳಗೆ ಮೃದುವಾದ ಊತ), ತೀವ್ರ, ದುರ್ವಾಸನೆಯ ಬೇಧಿಯ ಜೊತೆ ರುಮೆನ್ ಮತ್ತು ಲಿವರ್ ಫ್ಲೂಕ್ ಬಾಧೆಯಲ್ಲಿ ಕಾಣಿಸುತ್ತದೆ.", "बॉटल-जॉ (जबड़े के नीचे नरम सूजन) तेज़, बदबूदार दस्त के साथ रुमेन और लिवर फ्लूक के संक्रमण में दिखता है।"),
           },
           {
             type: "truefalse",
-            q: L("Small white segments seen moving in an animal's dung, along with a pot-bellied look, can be a sign of tapeworm."),
+            q: L("Small white segments seen moving in an animal's dung, along with a pot-bellied look, can be a sign of tapeworm.", "పేడలో చిన్న తెల్లని ముక్కలు కదులుతూ కనిపించడం, పొట్ట కుండలా ఉబ్బడం బద్దె పురుగు లక్షణం కావచ్చు.", "சாணத்தில் சிறு வெள்ளைத் துண்டுகள் நகர்வது தெரிவதும், வயிறு பானை போல வீங்குவதும் நாடாப்புழுவின் அறிகுறியாக இருக்கலாம்.", "ಸಗಣಿಯಲ್ಲಿ ಸಣ್ಣ ಬಿಳಿ ತುಂಡುಗಳು ಚಲಿಸುತ್ತಿರುವುದು ಕಾಣಿಸುವುದು ಮತ್ತು ಹೊಟ್ಟೆ ಮಡಕೆಯಂತೆ ಉಬ್ಬುವುದು ಪಟ್ಟಿಹುಳುವಿನ ಲಕ್ಷಣವಾಗಿರಬಹುದು.", "गोबर में छोटे सफ़ेद टुकड़ों का हिलते दिखना और पेट का मटके जैसा फूलना फीताकृमि (टेपवर्म) का लक्षण हो सकता है।"),
             answer: true,
-            explain: L("Correct — a pot-belly appearance with visible moving white segments in the dung points to tapeworm infestation."),
+            explain: L("Correct — a pot-belly appearance with visible moving white segments in the dung points to tapeworm infestation.", "సరైనదే — పొట్ట కుండలా ఉబ్బి, పేడలో కదిలే తెల్లని ముక్కలు కనిపిస్తే అది బద్దె పురుగు బెడదను సూచిస్తుంది.", "சரி — வயிறு பானை போல வீங்கி, சாணத்தில் நகரும் வெள்ளைத் துண்டுகள் தெரிந்தால் அது நாடாப்புழுத் தொல்லையைக் குறிக்கும்.", "ಸರಿ — ಹೊಟ್ಟೆ ಮಡಕೆಯಂತೆ ಉಬ್ಬಿ, ಸಗಣಿಯಲ್ಲಿ ಚಲಿಸುವ ಬಿಳಿ ತುಂಡುಗಳು ಕಂಡರೆ ಅದು ಪಟ್ಟಿಹುಳುವಿನ ಬಾಧೆಯನ್ನು ಸೂಚಿಸುತ್ತದೆ.", "सही — पेट मटके जैसा फूला हो और गोबर में हिलते सफ़ेद टुकड़े दिखें, तो यह फीताकृमि (टेपवर्म) के संक्रमण का संकेत है।"),
           },
         ],
       },
       {
         id: "t-m6-worm-control",
-        title: L("Keeping Worms Under Control"),
+        title: L("Keeping Worms Under Control", "నులిపురుగులను అదుపులో ఉంచడం", "புழுக்களைக் கட்டுக்குள் வைத்தல்", "ಹುಳುಗಳನ್ನು ಹತೋಟಿಯಲ್ಲಿಡುವುದು", "कृमियों को काबू में रखना"),
         teach: [
           {
             type: "text",
-            heading: L("Why a Regular Schedule Matters"),
+            heading: L("Why a Regular Schedule Matters", "క్రమం తప్పని షెడ్యూల్ ఎందుకు ముఖ్యం", "முறையான அட்டவணை ஏன் முக்கியம்", "ನಿಯಮಿತ ವೇಳಾಪಟ್ಟಿ ಏಕೆ ಮುಖ್ಯ", "नियमित समय-सारणी क्यों ज़रूरी है"),
             html: L(
-              "Because worm eggs spread through dung onto pasture, feed and water, keeping the whole herd on a regular deworming (worm-treatment) schedule — and keeping the surroundings clean — helps break that cycle. Knowing the usual schedule helps you notice if an animal seems to have been missed."
+              "Because worm eggs spread through dung onto pasture, feed and water, keeping the whole herd on a regular deworming (worm-treatment) schedule — and keeping the surroundings clean — helps break that cycle. Knowing the usual schedule helps you notice if an animal seems to have been missed.",
+              "పురుగు గుడ్లు పేడ ద్వారా మేత భూమి, దాణా, నీటికి వ్యాపిస్తాయి కాబట్టి, మొత్తం మందకు క్రమం తప్పకుండా నులిపురుగుల మందు (డీవార్మింగ్) ఇవ్వడం, పరిసరాలను శుభ్రంగా ఉంచడం ఈ చక్రాన్ని తెంచడానికి సహాయపడతాయి. సాధారణ షెడ్యూల్ తెలిస్తే, ఏదైనా జంతువుకు మందు ఇవ్వడం మరచిపోయినట్టు అనిపిస్తే మీరు గమనించగలరు.",
+              "புழு முட்டைகள் சாணம் வழியாக மேய்ச்சல் நிலம், தீவனம், தண்ணீரில் பரவுவதால், முழு மந்தையையும் முறையான குடற்புழு நீக்க (டீவார்மிங்) அட்டவணையில் வைத்திருப்பதும், சுற்றுப்புறத்தை சுத்தமாக வைத்திருப்பதும் இந்தச் சுழற்சியை உடைக்க உதவும். வழக்கமான அட்டவணை தெரிந்திருந்தால், ஏதேனும் ஒரு விலங்கு விடுபட்டிருக்கிறதா என்பதை நீங்கள் கவனிக்க முடியும்.",
+              "ಹುಳುವಿನ ಮೊಟ್ಟೆಗಳು ಸಗಣಿಯ ಮೂಲಕ ಮೇಯುವ ಜಾಗ, ಮೇವು ಮತ್ತು ನೀರಿಗೆ ಹರಡುವುದರಿಂದ, ಇಡೀ ಹಿಂಡಿಗೆ ನಿಯಮಿತವಾಗಿ ಜಂತುನಾಶಕ (ಡಿವಾರ್ಮಿಂಗ್) ನೀಡುವುದು ಮತ್ತು ಸುತ್ತಮುತ್ತ ಸ್ವಚ್ಛವಾಗಿಡುವುದು ಈ ಚಕ್ರವನ್ನು ಮುರಿಯಲು ಸಹಾಯ ಮಾಡುತ್ತದೆ. ಸಾಮಾನ್ಯ ವೇಳಾಪಟ್ಟಿ ತಿಳಿದಿದ್ದರೆ, ಯಾವುದಾದರೂ ಪ್ರಾಣಿ ಬಿಟ್ಟುಹೋಗಿದೆಯೇ ಎಂದು ನೀವು ಗಮನಿಸಬಹುದು.",
+              "कृमि के अंडे गोबर के ज़रिए चरागाह, चारे और पानी में फैलते हैं, इसलिए पूरे झुंड को नियमित कृमिनाशक (डीवॉर्मिंग) की समय-सारणी पर रखना और आसपास की सफ़ाई रखना इस चक्र को तोड़ने में मदद करता है। सामान्य समय-सारणी पता हो तो आप देख सकते हैं कि किसी पशु को दवा देना छूट तो नहीं गया।"
             ),
           },
           {
             type: "stat-grid",
             items: [
               {
-                label: L("Calves"),
-                text: L("First dewormer dose is usually given between 7 and 10 days of age, then repeated monthly until the calf is 6 months old."),
+                label: L("Calves", "దూడలు", "கன்றுகள்", "ಕರುಗಳು", "बछड़े"),
+                text: L("First dewormer dose is usually given between 7 and 10 days of age, then repeated monthly until the calf is 6 months old.", "మొదటి డోస్ నులిపురుగుల మందు సాధారణంగా 7 నుండి 10 రోజుల వయసులో ఇస్తారు, ఆ తర్వాత దూడకు 6 నెలలు వచ్చే వరకు ప్రతి నెలా మళ్లీ ఇస్తారు.", "முதல் குடற்புழு நீக்க மருந்து பொதுவாக 7 முதல் 10 நாள் வயதில் கொடுக்கப்படும், பிறகு கன்றுக்கு 6 மாதம் ஆகும் வரை மாதந்தோறும் மீண்டும் கொடுக்கப்படும்.", "ಮೊದಲ ಜಂತುನಾಶಕ ಡೋಸ್ ಸಾಮಾನ್ಯವಾಗಿ 7 ರಿಂದ 10 ದಿನಗಳ ವಯಸ್ಸಿನಲ್ಲಿ ನೀಡಲಾಗುತ್ತದೆ, ನಂತರ ಕರುವಿಗೆ 6 ತಿಂಗಳಾಗುವವರೆಗೆ ಪ್ರತಿ ತಿಂಗಳು ಪುನರಾವರ್ತಿಸಲಾಗುತ್ತದೆ.", "कृमिनाशक की पहली खुराक आमतौर पर 7 से 10 दिन की उम्र में दी जाती है, फिर बछड़े के 6 महीने का होने तक हर महीने दोहराई जाती है।"),
               },
               {
-                label: L("Animals over 6 months"),
-                text: L("Usually dewormed twice a year — once at the start of the rainy season and once at the end."),
+                label: L("Animals over 6 months", "6 నెలల కంటే పెద్ద జంతువులు", "6 மாதத்திற்கு மேற்பட்ட விலங்குகள்", "6 ತಿಂಗಳಿಗಿಂತ ಹೆಚ್ಚಿನ ಪ್ರಾಣಿಗಳು", "6 महीने से बड़े पशु"),
+                text: L("Usually dewormed twice a year — once at the start of the rainy season and once at the end.", "సాధారణంగా ఏడాదికి రెండుసార్లు నులిపురుగుల మందు ఇస్తారు — ఒకసారి వర్షాకాలం మొదట్లో, మరోసారి వర్షాకాలం చివర్లో.", "பொதுவாக ஆண்டுக்கு இரண்டு முறை குடற்புழு நீக்கம் செய்யப்படும் — ஒருமுறை மழைக்காலத் தொடக்கத்தில், மறுமுறை மழைக்காலத்தின் முடிவில்.", "ಸಾಮಾನ್ಯವಾಗಿ ವರ್ಷಕ್ಕೆ ಎರಡು ಬಾರಿ ಜಂತುನಾಶಕ ನೀಡಲಾಗುತ್ತದೆ — ಒಮ್ಮೆ ಮಳೆಗಾಲದ ಆರಂಭದಲ್ಲಿ, ಇನ್ನೊಮ್ಮೆ ಮಳೆಗಾಲದ ಕೊನೆಯಲ್ಲಿ.", "आमतौर पर साल में दो बार कृमिनाशक दिया जाता है — एक बार बरसात की शुरुआत में और एक बार बरसात के अंत में।"),
               },
               {
-                label: L("Pregnant animals"),
-                text: L("Usually dewormed twice: once close to calving time, and again about 6 to 7 weeks after calving."),
+                label: L("Pregnant animals", "చూలు జంతువులు", "சினை விலங்குகள்", "ಗಬ್ಬದ ಪ್ರಾಣಿಗಳು", "गाभिन पशु"),
+                text: L("Usually dewormed twice: once close to calving time, and again about 6 to 7 weeks after calving.", "సాధారణంగా రెండుసార్లు మందు ఇస్తారు: ఒకసారి ఈనే సమయానికి దగ్గరగా, మరోసారి ఈనిన తర్వాత సుమారు 6 నుండి 7 వారాలకు.", "பொதுவாக இரண்டு முறை மருந்து கொடுக்கப்படும்: ஒருமுறை ஈனும் நேரத்திற்கு அருகில், மறுமுறை ஈன்ற பிறகு சுமார் 6 முதல் 7 வாரங்களில்.", "ಸಾಮಾನ್ಯವಾಗಿ ಎರಡು ಬಾರಿ ನೀಡಲಾಗುತ್ತದೆ: ಒಮ್ಮೆ ಈಯುವ ಸಮಯದ ಹತ್ತಿರ, ಇನ್ನೊಮ್ಮೆ ಈದ ನಂತರ ಸುಮಾರು 6 ರಿಂದ 7 ವಾರಗಳಲ್ಲಿ.", "आमतौर पर दो बार दिया जाता है: एक बार ब्याने के समय के आसपास, और दोबारा ब्याने के करीब 6 से 7 हफ़्ते बाद।"),
               },
             ],
           },
           {
             type: "callout",
             style: "info",
-            heading: L("Watch for Standing Water and Snails"),
+            heading: L("Watch for Standing Water and Snails", "నిలిచిన నీరు, నత్తల పట్ల జాగ్రత్త", "தேங்கிய நீர், நத்தைகள் மீது கவனம்", "ನಿಂತ ನೀರು ಮತ್ತು ಬಸವನಹುಳುಗಳ ಬಗ್ಗೆ ಗಮನವಿರಲಿ", "जमा पानी और घोंघों पर नज़र रखें"),
             text: L(
-              "In water-logged areas or wherever snails are present, flukes and schistosomes are more likely, since snails are needed to complete their life cycle. Noticing standing water or snails near the shed or pasture, and mentioning it, helps the vet judge the risk."
+              "In water-logged areas or wherever snails are present, flukes and schistosomes are more likely, since snails are needed to complete their life cycle. Noticing standing water or snails near the shed or pasture, and mentioning it, helps the vet judge the risk.",
+              "నీరు నిలిచే ప్రాంతాల్లో లేదా నత్తలు ఉన్న చోట్ల ఫ్లూక్స్, షిస్టోసోమ్స్ వచ్చే అవకాశం ఎక్కువ, ఎందుకంటే వాటి జీవిత చక్రం పూర్తవడానికి నత్తలు అవసరం. కొట్టం లేదా మేత భూమి దగ్గర నిలిచిన నీరు, నత్తలు కనిపిస్తే గమనించి చెప్పడం, ప్రమాదాన్ని అంచనా వేయడంలో పశువైద్యుడికి సహాయపడుతుంది.",
+              "நீர் தேங்கும் பகுதிகளிலோ நத்தைகள் உள்ள இடங்களிலோ அட்டைப்புழுக்கள் (ஃப்ளூக்), ஷிஸ்டோசோம்கள் வர வாய்ப்பு அதிகம், ஏனெனில் அவற்றின் வாழ்க்கைச் சுழற்சியை முடிக்க நத்தைகள் தேவை. தொழுவம் அல்லது மேய்ச்சல் நிலத்துக்கு அருகில் தேங்கிய நீர் அல்லது நத்தைகளைக் கவனித்துச் சொன்னால், ஆபத்தை மதிப்பிட கால்நடை மருத்துவருக்கு உதவும்.",
+              "ನೀರು ನಿಲ್ಲುವ ಪ್ರದೇಶಗಳಲ್ಲಿ ಅಥವಾ ಬಸವನಹುಳುಗಳಿರುವ ಕಡೆ ಫ್ಲೂಕ್ ಮತ್ತು ಷಿಸ್ಟೋಸೋಮ್‌ಗಳು ಬರುವ ಸಾಧ್ಯತೆ ಹೆಚ್ಚು, ಏಕೆಂದರೆ ಅವುಗಳ ಜೀವನ ಚಕ್ರ ಪೂರ್ಣಗೊಳ್ಳಲು ಬಸವನಹುಳುಗಳು ಬೇಕು. ಕೊಟ್ಟಿಗೆ ಅಥವಾ ಮೇಯುವ ಜಾಗದ ಬಳಿ ನಿಂತ ನೀರು ಅಥವಾ ಬಸವನಹುಳುಗಳನ್ನು ಗಮನಿಸಿ ತಿಳಿಸಿದರೆ, ಅಪಾಯ ಅಂದಾಜಿಸಲು ಪಶುವೈದ್ಯರಿಗೆ ಸಹಾಯವಾಗುತ್ತದೆ.",
+              "जहाँ पानी भरा रहता हो या घोंघे हों, वहाँ फ्लूक और शिस्टोसोम का ख़तरा ज़्यादा होता है, क्योंकि उनका जीवन-चक्र पूरा होने के लिए घोंघे ज़रूरी हैं। शेड या चरागाह के पास जमा पानी या घोंघे दिखें तो उन पर ध्यान देकर बताना पशु चिकित्सक को जोखिम का अंदाज़ा लगाने में मदद करता है।"
             ),
           },
           {
             type: "callout",
             style: "tip",
-            heading: L("Notice and Recommend — Not Diagnose and Dose"),
+            heading: L("Notice and Recommend — Not Diagnose and Dose", "గమనించండి, సూచించండి — రోగ నిర్ధారణ చేసి మందు మోతాదు నిర్ణయించకండి", "கவனியுங்கள், பரிந்துரையுங்கள் — நோய் கண்டறிந்து மருந்தளவு நிர்ணயிக்காதீர்கள்", "ಗಮನಿಸಿ, ಶಿಫಾರಸು ಮಾಡಿ — ರೋಗ ನಿರ್ಣಯಿಸಿ ಔಷಧದ ಪ್ರಮಾಣ ನಿರ್ಧರಿಸಬೇಡಿ", "देखें और सुझाएँ — निदान और खुराक तय न करें"),
             text: L(
-              "The exact drug, its dosage, and how often the drug type is rotated (to avoid the worms becoming resistant to it) are decisions for a qualified person, not something to work out yourself. Your part is to notice the signs, know roughly when animals are due for deworming, and flag it if an animal isn't improving — if that happens, recommend that its dung be examined by a veterinarian to identify exactly which worm is involved, so the right treatment can be chosen."
+              "The exact drug, its dosage, and how often the drug type is rotated (to avoid the worms becoming resistant to it) are decisions for a qualified person, not something to work out yourself. Your part is to notice the signs, know roughly when animals are due for deworming, and flag it if an animal isn't improving — if that happens, recommend that its dung be examined by a veterinarian to identify exactly which worm is involved, so the right treatment can be chosen.",
+              "ఏ మందు వాడాలి, దాని మోతాదు ఎంత, మందు రకాన్ని (పురుగులు దానికి నిరోధకత పెంచుకోకుండా) ఎంత తరచుగా మార్చాలి అనేవి అర్హత గల వ్యక్తి తీసుకోవాల్సిన నిర్ణయాలు, మీరు స్వయంగా తేల్చుకోవాల్సినవి కాదు. మీ పని లక్షణాలను గమనించడం, జంతువులకు నులిపురుగుల మందు ఎప్పుడు ఇవ్వాలో సుమారుగా తెలుసుకోవడం, జంతువు కోలుకోకపోతే తెలియజేయడం — అలా జరిగితే, ఏ పురుగు కారణమో గుర్తించి సరైన చికిత్స ఎంచుకోవడానికి దాని పేడను పశువైద్యుడితో పరీక్ష చేయించమని సూచించండి.",
+              "எந்த மருந்து, அதன் அளவு, மருந்து வகையை (புழுக்கள் அதற்கு எதிர்ப்புத் திறன் பெறாமல் இருக்க) எத்தனை முறை மாற்றுவது என்பவை தகுதி பெற்ற ஒருவர் எடுக்க வேண்டிய முடிவுகள், நீங்களே கணக்கிட வேண்டியவை அல்ல. உங்கள் பங்கு அறிகுறிகளைக் கவனிப்பது, விலங்குகளுக்கு குடற்புழு நீக்கம் எப்போது செய்ய வேண்டும் என்பதை தோராயமாகத் தெரிந்து கொள்வது, விலங்கு தேறவில்லை என்றால் தெரிவிப்பது — அப்படி நடந்தால், எந்தப் புழு காரணம் என்பதைக் கண்டறிந்து சரியான சிகிச்சையைத் தேர்ந்தெடுக்க அதன் சாணத்தை கால்நடை மருத்துவர் மூலம் பரிசோதிக்கப் பரிந்துரையுங்கள்.",
+              "ಯಾವ ಔಷಧ, ಅದರ ಪ್ರಮಾಣ ಎಷ್ಟು, ಮತ್ತು ಔಷಧದ ಬಗೆಯನ್ನು (ಹುಳುಗಳು ಅದಕ್ಕೆ ನಿರೋಧಕತೆ ಬೆಳೆಸಿಕೊಳ್ಳದಂತೆ) ಎಷ್ಟು ಬಾರಿ ಬದಲಿಸಬೇಕು ಎಂಬುದು ಅರ್ಹ ವ್ಯಕ್ತಿ ತೆಗೆದುಕೊಳ್ಳಬೇಕಾದ ನಿರ್ಧಾರಗಳು, ನೀವೇ ಲೆಕ್ಕ ಹಾಕುವಂಥವಲ್ಲ. ನಿಮ್ಮ ಪಾತ್ರ ಲಕ್ಷಣಗಳನ್ನು ಗಮನಿಸುವುದು, ಪ್ರಾಣಿಗಳಿಗೆ ಜಂತುನಾಶಕ ಯಾವಾಗ ನೀಡಬೇಕೆಂದು ಸ್ಥೂಲವಾಗಿ ತಿಳಿದಿರುವುದು, ಪ್ರಾಣಿ ಚೇತರಿಸದಿದ್ದರೆ ತಿಳಿಸುವುದು — ಹಾಗಾದರೆ, ಯಾವ ಹುಳು ಕಾರಣ ಎಂದು ಗುರುತಿಸಿ ಸರಿಯಾದ ಚಿಕಿತ್ಸೆ ಆಯ್ಕೆ ಮಾಡಲು ಅದರ ಸಗಣಿಯನ್ನು ಪಶುವೈದ್ಯರಿಂದ ಪರೀಕ್ಷಿಸಲು ಶಿಫಾರಸು ಮಾಡಿ.",
+              "कौन-सी दवा, उसकी खुराक, और दवा का प्रकार कितनी बार बदलना है (ताकि कृमि उसके प्रति प्रतिरोधी न बनें) — ये फ़ैसले किसी योग्य व्यक्ति के हैं, इन्हें खुद तय करने की चीज़ नहीं। आपका काम है लक्षण देखना, मोटे तौर पर जानना कि पशुओं को कृमिनाशक कब देना है, और अगर कोई पशु ठीक नहीं हो रहा तो बताना — ऐसा हो तो सुझाइए कि उसके गोबर की जाँच पशु चिकित्सक से कराई जाए ताकि पता चले कि कौन-सा कृमि है और सही इलाज चुना जा सके।"
             ),
           },
         ],
         check: [
           {
             type: "mcq",
-            q: L("When is a calf's first dewormer dose usually given?"),
-            options: [L("At birth"), L("Between 7 and 10 days of age"), L("Only after 6 months of age"), L("Only if it looks sick"),
+            q: L("When is a calf's first dewormer dose usually given?", "దూడకు మొదటి నులిపురుగుల మందు డోస్ సాధారణంగా ఎప్పుడు ఇస్తారు?", "கன்றுக்கு முதல் குடற்புழு நீக்க மருந்து பொதுவாக எப்போது கொடுக்கப்படும்?", "ಕರುವಿಗೆ ಮೊದಲ ಜಂತುನಾಶಕ ಡೋಸ್ ಸಾಮಾನ್ಯವಾಗಿ ಯಾವಾಗ ನೀಡಲಾಗುತ್ತದೆ?", "बछड़े को कृमिनाशक की पहली खुराक आमतौर पर कब दी जाती है?"),
+            options: [L("At birth", "పుట్టిన వెంటనే", "பிறந்தவுடன்", "ಹುಟ್ಟಿದ ತಕ್ಷಣ", "जन्म के समय"), L("Between 7 and 10 days of age", "7 నుండి 10 రోజుల వయసులో", "7 முதல் 10 நாள் வயதில்", "7 ರಿಂದ 10 ದಿನಗಳ ವಯಸ್ಸಿನಲ್ಲಿ", "7 से 10 दिन की उम्र में"), L("Only after 6 months of age", "6 నెలల వయసు దాటిన తర్వాతే", "6 மாத வயதுக்குப் பிறகு மட்டுமே", "6 ತಿಂಗಳ ವಯಸ್ಸಿನ ನಂತರವೇ", "6 महीने की उम्र के बाद ही"), L("Only if it looks sick", "అనారోగ్యంగా కనిపిస్తేనే", "நோயுற்றது போலத் தெரிந்தால் மட்டுமே", "ಅನಾರೋಗ್ಯದಂತೆ ಕಂಡರೆ ಮಾತ್ರ", "सिर्फ़ तब जब बीमार दिखे"),
             ],
             answer: 1,
-            explain: L("The first dose is usually given between 7 and 10 days of age, then repeated monthly until the calf is 6 months old."),
+            explain: L("The first dose is usually given between 7 and 10 days of age, then repeated monthly until the calf is 6 months old.", "మొదటి డోస్ సాధారణంగా 7 నుండి 10 రోజుల వయసులో ఇస్తారు, ఆ తర్వాత దూడకు 6 నెలలు వచ్చే వరకు ప్రతి నెలా మళ్లీ ఇస్తారు.", "முதல் டோஸ் பொதுவாக 7 முதல் 10 நாள் வயதில் கொடுக்கப்படும், பிறகு கன்றுக்கு 6 மாதம் ஆகும் வரை மாதந்தோறும் மீண்டும் கொடுக்கப்படும்.", "ಮೊದಲ ಡೋಸ್ ಸಾಮಾನ್ಯವಾಗಿ 7 ರಿಂದ 10 ದಿನಗಳ ವಯಸ್ಸಿನಲ್ಲಿ ನೀಡಲಾಗುತ್ತದೆ, ನಂತರ ಕರುವಿಗೆ 6 ತಿಂಗಳಾಗುವವರೆಗೆ ಪ್ರತಿ ತಿಂಗಳು ಪುನರಾವರ್ತಿಸಲಾಗುತ್ತದೆ.", "पहली खुराक आमतौर पर 7 से 10 दिन की उम्र में दी जाती है, फिर बछड़े के 6 महीने का होने तक हर महीने दोहराई जाती है।"),
           },
           {
             type: "truefalse",
-            q: L("Choosing the exact deworming drug and its dosage is something ground staff should decide on their own."),
+            q: L("Choosing the exact deworming drug and its dosage is something ground staff should decide on their own.", "ఏ నులిపురుగుల మందు వాడాలి, దాని మోతాదు ఎంత అనేది క్షేత్ర సిబ్బంది స్వయంగా నిర్ణయించాల్సిన విషయం.", "எந்த குடற்புழு நீக்க மருந்து, அதன் அளவு என்ன என்பதை களப் பணியாளர்கள் தாங்களே முடிவு செய்ய வேண்டும்.", "ಯಾವ ಜಂತುನಾಶಕ ಔಷಧ, ಅದರ ಪ್ರಮಾಣ ಎಷ್ಟು ಎಂದು ಕ್ಷೇತ್ರ ಸಿಬ್ಬಂದಿ ತಾವೇ ನಿರ್ಧರಿಸಬೇಕು.", "कौन-सी कृमिनाशक दवा और कितनी खुराक देनी है, यह फ़ील्ड स्टाफ़ को खुद तय करना चाहिए।"),
             answer: false,
-            explain: L("No — that decision, including rotating the drug type to avoid resistance, belongs to a qualified person such as a veterinarian."),
+            explain: L("No — that decision, including rotating the drug type to avoid resistance, belongs to a qualified person such as a veterinarian.", "కాదు — ఆ నిర్ణయం, నిరోధకత రాకుండా మందు రకాన్ని మార్చడంతో సహా, పశువైద్యుడి వంటి అర్హత గల వ్యక్తికే చెందుతుంది.", "இல்லை — அந்த முடிவு, எதிர்ப்புத் திறன் உருவாகாமல் இருக்க மருந்து வகையை மாற்றுவது உட்பட, கால்நடை மருத்துவர் போன்ற தகுதி பெற்ற ஒருவருடையது.", "ಇಲ್ಲ — ಆ ನಿರ್ಧಾರ, ನಿರೋಧಕತೆ ಬಾರದಂತೆ ಔಷಧದ ಬಗೆ ಬದಲಿಸುವುದು ಸೇರಿ, ಪಶುವೈದ್ಯರಂತಹ ಅರ್ಹ ವ್ಯಕ್ತಿಗೆ ಸೇರಿದ್ದು.", "नहीं — वह फ़ैसला, दवा का प्रकार बदलने (ताकि प्रतिरोध न बने) समेत, पशु चिकित्सक जैसे योग्य व्यक्ति का है।"),
           },
         ],
       },
@@ -6207,45 +6231,45 @@ export const MODULES = [
         {
           topicId: "t-m6-worm-signs",
           type: "mcq",
-          q: L("Where are schistosomes (a type of worm) usually found in the animal's body?"),
-          options: [L("Inside the blood vessels"), L("Only in the eyes"), L("Only on the skin"), L("Only in the udder")],
+          q: L("Where are schistosomes (a type of worm) usually found in the animal's body?", "షిస్టోసోమ్స్ (ఒక రకం పురుగులు) సాధారణంగా జంతువు శరీరంలో ఎక్కడ ఉంటాయి?", "ஷிஸ்டோசோம்கள் (ஒரு வகைப் புழு) பொதுவாக விலங்கின் உடலில் எங்கே காணப்படும்?", "ಷಿಸ್ಟೋಸೋಮ್‌ಗಳು (ಒಂದು ಬಗೆಯ ಹುಳು) ಸಾಮಾನ್ಯವಾಗಿ ಪ್ರಾಣಿಯ ದೇಹದಲ್ಲಿ ಎಲ್ಲಿರುತ್ತವೆ?", "शिस्टोसोम (एक तरह के कृमि) आमतौर पर पशु के शरीर में कहाँ पाए जाते हैं?"),
+          options: [L("Inside the blood vessels", "రక్తనాళాల లోపల", "இரத்த நாளங்களுக்குள்", "ರಕ್ತನಾಳಗಳ ಒಳಗೆ", "रक्त नलिकाओं (नसों) के अंदर"), L("Only in the eyes", "కళ్లలో మాత్రమే", "கண்களில் மட்டும்", "ಕಣ್ಣುಗಳಲ್ಲಿ ಮಾತ್ರ", "सिर्फ़ आँखों में"), L("Only on the skin", "చర్మంపై మాత్రమే", "தோலில் மட்டும்", "ಚರ್ಮದ ಮೇಲೆ ಮಾತ್ರ", "सिर्फ़ त्वचा पर"), L("Only in the udder", "పొదుగులో మాత్రమే", "மடியில் மட்டும்", "ಕೆಚ್ಚಲಿನಲ್ಲಿ ಮಾತ್ರ", "सिर्फ़ थन में")],
           answer: 0,
-          explain: L("Schistosomes live inside the animal's blood vessels, unlike roundworms and tapeworms which live in the gut."),
+          explain: L("Schistosomes live inside the animal's blood vessels, unlike roundworms and tapeworms which live in the gut.", "గుండ్రని పురుగులు, బద్దె పురుగులు పేగుల్లో ఉంటే, షిస్టోసోమ్స్ జంతువు రక్తనాళాల లోపల ఉంటాయి.", "உருளைப்புழுக்கள், நாடாப்புழுக்கள் குடலில் வாழ்வது போலன்றி, ஷிஸ்டோசோம்கள் விலங்கின் இரத்த நாளங்களுக்குள் வாழ்கின்றன.", "ದುಂಡುಹುಳು, ಪಟ್ಟಿಹುಳುಗಳು ಕರುಳಿನಲ್ಲಿ ವಾಸಿಸಿದರೆ, ಷಿಸ್ಟೋಸೋಮ್‌ಗಳು ಪ್ರಾಣಿಯ ರಕ್ತನಾಳಗಳ ಒಳಗೆ ವಾಸಿಸುತ್ತವೆ.", "गोल कृमि और फीताकृमि आँतों में रहते हैं, जबकि शिस्टोसोम पशु की रक्त नलिकाओं के अंदर रहते हैं।"),
         },
         {
           topicId: "t-m6-worm-signs",
           type: "truefalse",
-          q: L("Worm eggs can pass out in the dung and contaminate pasture, feed or water, spreading the infestation to other animals."),
+          q: L("Worm eggs can pass out in the dung and contaminate pasture, feed or water, spreading the infestation to other animals.", "పురుగు గుడ్లు పేడ ద్వారా బయటకు వచ్చి, మేత భూమిని, దాణాను, నీటిని కలుషితం చేసి ఇతర జంతువులకు వ్యాపింపజేస్తాయి.", "புழு முட்டைகள் சாணம் வழியாக வெளியேறி, மேய்ச்சல் நிலம், தீவனம், தண்ணீரை மாசுபடுத்தி மற்ற விலங்குகளுக்குத் தொற்றைப் பரப்பும்.", "ಹುಳುವಿನ ಮೊಟ್ಟೆಗಳು ಸಗಣಿಯ ಮೂಲಕ ಹೊರಬಂದು, ಮೇಯುವ ಜಾಗ, ಮೇವು ಅಥವಾ ನೀರನ್ನು ಕಲುಷಿತಗೊಳಿಸಿ ಇತರ ಪ್ರಾಣಿಗಳಿಗೆ ಹರಡಬಹುದು.", "कृमि के अंडे गोबर के साथ बाहर आकर चरागाह, चारे या पानी को गंदा कर सकते हैं और दूसरे पशुओं में संक्रमण फैला सकते हैं।"),
           answer: true,
-          explain: L("Correct — this is exactly how worm infestations spread from one animal to the rest of the herd, and even between farms."),
+          explain: L("Correct — this is exactly how worm infestations spread from one animal to the rest of the herd, and even between farms.", "సరైనదే — నులిపురుగుల బెడద ఒక జంతువు నుండి మిగతా మందకు, ఫారంల మధ్య కూడా ఇలాగే వ్యాపిస్తుంది.", "சரி — புழுத் தொல்லை ஒரு விலங்கிலிருந்து மற்ற மந்தைக்கும், பண்ணைகளுக்கு இடையிலும் இப்படித்தான் பரவுகிறது.", "ಸರಿ — ಹುಳುಗಳ ಬಾಧೆ ಒಂದು ಪ್ರಾಣಿಯಿಂದ ಉಳಿದ ಹಿಂಡಿಗೆ, ಫಾರ್ಮ್‌ಗಳ ನಡುವೆಯೂ ಹೀಗೆಯೇ ಹರಡುತ್ತದೆ.", "सही — कृमि का संक्रमण एक पशु से बाकी झुंड में, और यहाँ तक कि फ़ार्मों के बीच भी ऐसे ही फैलता है।"),
         },
         {
           topicId: "t-m6-worm-control",
           type: "mcq",
-          q: L("How often are animals over 6 months old usually dewormed?"),
+          q: L("How often are animals over 6 months old usually dewormed?", "6 నెలల కంటే పెద్ద జంతువులకు సాధారణంగా ఎంత తరచుగా నులిపురుగుల మందు ఇస్తారు?", "6 மாதத்திற்கு மேற்பட்ட விலங்குகளுக்கு பொதுவாக எத்தனை முறை குடற்புழு நீக்கம் செய்யப்படுகிறது?", "6 ತಿಂಗಳಿಗಿಂತ ಹೆಚ್ಚಿನ ಪ್ರಾಣಿಗಳಿಗೆ ಸಾಮಾನ್ಯವಾಗಿ ಎಷ್ಟು ಬಾರಿ ಜಂತುನಾಶಕ ನೀಡಲಾಗುತ್ತದೆ?", "6 महीने से बड़े पशुओं को आमतौर पर कितनी बार कृमिनाशक दिया जाता है?"),
           options: [
-            L("Once a month, all year round"),
-            L("Twice a year — at the start and end of the rainy season"),
-            L("Only once, in their entire lifetime"),
-            L("Only if they are pregnant"),
+            L("Once a month, all year round", "ఏడాది పొడవునా ప్రతి నెలా ఒకసారి", "ஆண்டு முழுவதும் மாதம் ஒருமுறை", "ವರ್ಷವಿಡೀ ತಿಂಗಳಿಗೊಮ್ಮೆ", "साल भर हर महीने एक बार"),
+            L("Twice a year — at the start and end of the rainy season", "ఏడాదికి రెండుసార్లు — వర్షాకాలం మొదట్లో, చివర్లో", "ஆண்டுக்கு இரண்டு முறை — மழைக்காலத் தொடக்கத்திலும் முடிவிலும்", "ವರ್ಷಕ್ಕೆ ಎರಡು ಬಾರಿ — ಮಳೆಗಾಲದ ಆರಂಭ ಮತ್ತು ಕೊನೆಯಲ್ಲಿ", "साल में दो बार — बरसात की शुरुआत और अंत में"),
+            L("Only once, in their entire lifetime", "జీవితకాలంలో ఒక్కసారి మాత్రమే", "வாழ்நாளில் ஒரே ஒருமுறை மட்டும்", "ಜೀವಿತಾವಧಿಯಲ್ಲಿ ಒಂದೇ ಬಾರಿ ಮಾತ್ರ", "पूरी ज़िंदगी में सिर्फ़ एक बार"),
+            L("Only if they are pregnant", "చూలుతో ఉంటేనే మాత్రమే", "சினையாக இருந்தால் மட்டுமே", "ಗಬ್ಬವಾಗಿದ್ದರೆ ಮಾತ್ರ", "सिर्फ़ तब जब वे गाभिन हों"),
           ],
           answer: 1,
-          explain: L("Animals above 6 months are usually dewormed twice a year, once at the beginning and once at the end of the rainy season."),
+          explain: L("Animals above 6 months are usually dewormed twice a year, once at the beginning and once at the end of the rainy season.", "6 నెలల పైబడిన జంతువులకు సాధారణంగా ఏడాదికి రెండుసార్లు నులిపురుగుల మందు ఇస్తారు — ఒకసారి వర్షాకాలం మొదట్లో, మరోసారి చివర్లో.", "6 மாதத்திற்கு மேற்பட்ட விலங்குகளுக்கு பொதுவாக ஆண்டுக்கு இரண்டு முறை குடற்புழு நீக்கம் செய்யப்படும் — ஒருமுறை மழைக்காலத் தொடக்கத்தில், மறுமுறை முடிவில்.", "6 ತಿಂಗಳಿಗಿಂತ ಹೆಚ್ಚಿನ ಪ್ರಾಣಿಗಳಿಗೆ ಸಾಮಾನ್ಯವಾಗಿ ವರ್ಷಕ್ಕೆ ಎರಡು ಬಾರಿ ಜಂತುನಾಶಕ ನೀಡಲಾಗುತ್ತದೆ — ಒಮ್ಮೆ ಮಳೆಗಾಲದ ಆರಂಭದಲ್ಲಿ, ಇನ್ನೊಮ್ಮೆ ಕೊನೆಯಲ್ಲಿ.", "6 महीने से ऊपर के पशुओं को आमतौर पर साल में दो बार कृमिनाशक दिया जाता है — एक बार बरसात की शुरुआत में और एक बार अंत में।"),
         },
         {
           topicId: "t-m6-worm-control",
           type: "truefalse",
-          q: L("Standing water and snails near the shed or pasture are worth noticing and mentioning, since they raise the risk of flukes and schistosomes."),
+          q: L("Standing water and snails near the shed or pasture are worth noticing and mentioning, since they raise the risk of flukes and schistosomes.", "కొట్టం లేదా మేత భూమి దగ్గర నిలిచిన నీరు, నత్తలను గమనించి చెప్పడం మంచిది, ఎందుకంటే అవి ఫ్లూక్స్, షిస్టోసోమ్స్ ప్రమాదాన్ని పెంచుతాయి.", "தொழுவம் அல்லது மேய்ச்சல் நிலத்துக்கு அருகில் தேங்கிய நீர், நத்தைகளைக் கவனித்துச் சொல்வது நல்லது, ஏனெனில் அவை அட்டைப்புழு (ஃப்ளூக்), ஷிஸ்டோசோம் ஆபத்தை அதிகரிக்கின்றன.", "ಕೊಟ್ಟಿಗೆ ಅಥವಾ ಮೇಯುವ ಜಾಗದ ಬಳಿ ನಿಂತ ನೀರು ಮತ್ತು ಬಸವನಹುಳುಗಳನ್ನು ಗಮನಿಸಿ ತಿಳಿಸುವುದು ಒಳ್ಳೆಯದು, ಏಕೆಂದರೆ ಅವು ಫ್ಲೂಕ್ ಮತ್ತು ಷಿಸ್ಟೋಸೋಮ್ ಅಪಾಯ ಹೆಚ್ಚಿಸುತ್ತವೆ.", "शेड या चरागाह के पास जमा पानी और घोंघों पर ध्यान देकर बताना अच्छा है, क्योंकि इनसे फ्लूक और शिस्टोसोम का ख़तरा बढ़ता है।"),
           answer: true,
-          explain: L("Yes — snails are needed for the life cycle of flukes and schistosomes, so water-logged areas with snails carry a higher risk."),
+          explain: L("Yes — snails are needed for the life cycle of flukes and schistosomes, so water-logged areas with snails carry a higher risk.", "అవును — ఫ్లూక్స్, షిస్టోసోమ్స్ జీవిత చక్రానికి నత్తలు అవసరం, కాబట్టి నత్తలు ఉన్న నీరు నిలిచే ప్రాంతాల్లో ప్రమాదం ఎక్కువ.", "ஆம் — அட்டைப்புழு (ஃப்ளூக்), ஷிஸ்டோசோம்களின் வாழ்க்கைச் சுழற்சிக்கு நத்தைகள் தேவை, எனவே நத்தைகள் உள்ள நீர் தேங்கும் பகுதிகளில் ஆபத்து அதிகம்.", "ಹೌದು — ಫ್ಲೂಕ್ ಮತ್ತು ಷಿಸ್ಟೋಸೋಮ್‌ಗಳ ಜೀವನ ಚಕ್ರಕ್ಕೆ ಬಸವನಹುಳುಗಳು ಬೇಕು, ಆದ್ದರಿಂದ ಬಸವನಹುಳುಗಳಿರುವ ನೀರು ನಿಲ್ಲುವ ಪ್ರದೇಶಗಳಲ್ಲಿ ಅಪಾಯ ಹೆಚ್ಚು.", "हाँ — फ्लूक और शिस्टोसोम के जीवन-चक्र के लिए घोंघे ज़रूरी हैं, इसलिए घोंघों वाले जल-जमाव के इलाकों में ख़तरा ज़्यादा रहता है।"),
         },
         {
           topicId: "t-m6-worm-signs",
           type: "mcq",
-          q: L("A cough, along with no other obvious sign, could point to which kind of worm?"),
-          options: [L("Tapeworm"), L("Lungworm"), L("Liver fluke"), L("Schistosome in the blood vessels")],
+          q: L("A cough, along with no other obvious sign, could point to which kind of worm?", "ఇతర స్పష్టమైన లక్షణాలేవీ లేకుండా కేవలం దగ్గు ఏ రకం పురుగును సూచించవచ్చు?", "வேறு தெளிவான அறிகுறி எதுவும் இல்லாமல் இருமல் மட்டும் இருந்தால், அது எந்த வகைப் புழுவைக் குறிக்கலாம்?", "ಬೇರೆ ಯಾವುದೇ ಸ್ಪಷ್ಟ ಲಕ್ಷಣವಿಲ್ಲದೆ ಕೇವಲ ಕೆಮ್ಮು ಇದ್ದರೆ, ಅದು ಯಾವ ಬಗೆಯ ಹುಳುವನ್ನು ಸೂಚಿಸಬಹುದು?", "और कोई साफ़ लक्षण न हो और सिर्फ़ खाँसी हो, तो यह किस तरह के कृमि की ओर इशारा कर सकती है?"),
+          options: [L("Tapeworm", "బద్దె పురుగు", "நாடாப்புழு", "ಪಟ್ಟಿಹುಳು", "फीताकृमि (टेपवर्म)"), L("Lungworm", "ఊపిరితిత్తుల పురుగు", "நுரையீரல் புழு", "ಶ್ವಾಸಕೋಶದ ಹುಳು", "फेफड़े का कृमि (लंगवर्म)"), L("Liver fluke", "లివర్ ఫ్లూక్ (కాలేయ పురుగు)", "ஈரல் அட்டைப்புழு (லிவர் ஃப்ளூக்)", "ಲಿವರ್ ಫ್ಲೂಕ್ (ಯಕೃತ್ತಿನ ಹುಳು)", "लिवर फ्लूक (जिगर का कृमि)"), L("Schistosome in the blood vessels", "రక్తనాళాల్లోని షిస్టోసోమ్", "இரத்த நாளங்களில் உள்ள ஷிஸ்டோசோம்", "ರಕ್ತನಾಳಗಳಲ್ಲಿನ ಷಿಸ್ಟೋಸೋಮ್", "रक्त नलिकाओं का शिस्टोसोम")],
           answer: 1,
-          explain: L("A cough is associated with lungworm, a type of roundworm that lives in the lungs."),
+          explain: L("A cough is associated with lungworm, a type of roundworm that lives in the lungs.", "దగ్గు ఊపిరితిత్తుల పురుగుతో ముడిపడి ఉంటుంది; ఇది ఊపిరితిత్తుల్లో ఉండే ఒక రకం గుండ్రని పురుగు.", "இருமல் நுரையீரல் புழுவுடன் தொடர்புடையது; இது நுரையீரலில் வாழும் ஒரு வகை உருளைப்புழு.", "ಕೆಮ್ಮು ಶ್ವಾಸಕೋಶದ ಹುಳುವಿನೊಂದಿಗೆ ಸಂಬಂಧಿಸಿದೆ; ಇದು ಶ್ವಾಸಕೋಶದಲ್ಲಿ ವಾಸಿಸುವ ಒಂದು ಬಗೆಯ ದುಂಡುಹುಳು.", "खाँसी का संबंध फेफड़े के कृमि (लंगवर्म) से है, जो फेफड़ों में रहने वाला एक तरह का गोल कृमि है।"),
         },
       ],
     },
