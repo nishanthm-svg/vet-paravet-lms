@@ -13828,22 +13828,52 @@ export const MODULES = [
         check: [
           {
             type: "mcq",
-            q: L("What is the 'Three Kings' formulation used for in the EVM brochure?"),
+            q: L(
+              "What is the 'Three Kings' formulation used for in the EVM brochure?",
+              "EVM బ్రోషర్‌లో 'త్రీ కింగ్స్' ఫార్ములేషన్‌ను దేనికి ఉపయోగిస్తారు?",
+              "EVM துண்டுப்பிரசுரத்தில் 'த்ரீ கிங்ஸ்' சூத்திரம் எதற்காகப் பயன்படுத்தப்படுகிறது?",
+              "EVM ಕರಪತ್ರದಲ್ಲಿ 'ತ್ರೀ ಕಿಂಗ್ಸ್' ಸೂತ್ರೀಕರಣವನ್ನು ಯಾವುದಕ್ಕೆ ಬಳಸಲಾಗುತ್ತದೆ?",
+              "EVM ब्रोशर में 'थ्री किंग्स' फॉर्मूलेशन किसके लिए इस्तेमाल होता है?"
+            ),
             options: [
-              L("Allergy, poisoning, venomous stings or bites, and pesticide/toxin poisoning"),
-              L("Only for coughs"),
-              L("Only for warts"),
-              L("Only for feeding newborn calves"),
+              L(
+                "Allergy, poisoning, venomous stings or bites, and pesticide/toxin poisoning",
+                "అలెర్జీ, విషప్రయోగం, విషపు కుట్టడాలు లేదా కాట్లు, మరియు పురుగుమందు/విష పదార్థాల విషప్రయోగం",
+                "ஒவ்வாமை, நச்சுத்தன்மை, விஷ ஜந்துக்களின் கொட்டு அல்லது கடி, மற்றும் பூச்சிக்கொல்லி/நச்சுப் பொருள் நச்சுத்தன்மை",
+                "ಅಲರ್ಜಿ, ವಿಷಬಾಧೆ, ವಿಷಕಾರಿ ಕುಟುಕು ಅಥವಾ ಕಡಿತ, ಮತ್ತು ಕೀಟನಾಶಕ/ವಿಷ ವಸ್ತುಗಳ ವಿಷಬಾಧೆ",
+                "एलर्जी, विषाक्तता, जहरीले डंक या काटने, और कीटनाशक/जहरीले पदार्थ से विषाक्तता"
+              ),
+              L("Only for coughs", "దగ్గుకు మాత్రమే", "இருமலுக்கு மட்டும்", "ಕೆಮ್ಮಿಗೆ ಮಾತ್ರ", "सिर्फ खांसी के लिए"),
+              L("Only for warts", "పులిపిర్లకు మాత్రమే", "மருக்களுக்கு மட்டும்", "ನರಹುಲಿಗಳಿಗೆ ಮಾತ್ರ", "सिर्फ मस्सों के लिए"),
+              L("Only for feeding newborn calves", "నవజాత దూడలకు మేత పెట్టడానికి మాత్రమే", "புதிதாகப் பிறந்த கன்றுகளுக்கு உணவளிக்க மட்டும்", "ಹೊಸದಾಗಿ ಹುಟ್ಟಿದ ಕರುಗಳಿಗೆ ಆಹಾರ ನೀಡಲು ಮಾತ್ರ", "सिर्फ नवजात बछड़ों को खिलाने के लिए"),
             ],
             answer: 0,
-            explain: L("Three Kings — betel leaves, pepper and salt with jaggery — is the brochure's formulation for allergy, poisoning, stings/bites, and pesticide or toxin poisoning."),
+            explain: L(
+              "Three Kings — betel leaves, pepper and salt with jaggery — is the brochure's formulation for allergy, poisoning, stings/bites, and pesticide or toxin poisoning.",
+              "త్రీ కింగ్స్ — తమలపాకులు, మిరియాలు మరియు ఉప్పు బెల్లంతో కలిపి — అలెర్జీ, విషప్రయోగం, కుట్టడాలు/కాట్లు, మరియు పురుగుమందు లేదా విష పదార్థాల విషప్రయోగానికి బ్రోషర్‌లోని ఫార్ములేషన్.",
+              "த்ரீ கிங்ஸ் — வெற்றிலை, மிளகு மற்றும் உப்பு வெல்லத்துடன் — ஒவ்வாமை, நச்சுத்தன்மை, கொட்டு/கடி, மற்றும் பூச்சிக்கொல்லி அல்லது நச்சுப் பொருள் நச்சுத்தன்மைக்கான துண்டுப்பிரசுரத்தின் சூத்திரம்.",
+              "ತ್ರೀ ಕಿಂಗ್ಸ್ — ವೀಳ್ಯದೆಲೆ, ಮೆಣಸು ಮತ್ತು ಉಪ್ಪು ಬೆಲ್ಲದೊಂದಿಗೆ — ಅಲರ್ಜಿ, ವಿಷಬಾಧೆ, ಕುಟುಕು/ಕಡಿತ, ಮತ್ತು ಕೀಟನಾಶಕ ಅಥವಾ ವಿಷ ವಸ್ತುಗಳ ವಿಷಬಾಧೆಗೆ ಕರಪತ್ರದಲ್ಲಿರುವ ಸೂತ್ರೀಕರಣ.",
+              "थ्री किंग्स — पान के पत्ते, काली मिर्च और नमक गुड़ के साथ — एलर्जी, विषाक्तता, डंक/काटने, और कीटनाशक या जहरीले पदार्थ से विषाक्तता के लिए ब्रोशर का फॉर्मूलेशन है।"
+            ),
           },
           {
             type: "mcq",
-            q: L("According to the EVM brochure, when should the tick/ectoparasite spray be applied?"),
-            options: [L("Only during the sunny part of the day"), L("Only at midnight"), L("Only while it is raining"), L("No particular timing is mentioned")],
+            q: L(
+              "According to the EVM brochure, when should the tick/ectoparasite spray be applied?",
+              "EVM బ్రోషర్ ప్రకారం, పేలు/బాహ్య పరాన్నజీవుల స్ప్రేను ఎప్పుడు వేయాలి?",
+              "EVM துண்டுப்பிரசுரத்தின்படி, உண்ணி/வெளிப்புற ஒட்டுண்ணி தெளிப்பானை எப்போது பயன்படுத்த வேண்டும்?",
+              "EVM ಕರಪತ್ರದ ಪ್ರಕಾರ, ಉಣ್ಣಿ/ಬಾಹ್ಯ ಪರಾವಲಂಬಿ ಸ್ಪ್ರೇಯನ್ನು ಯಾವಾಗ ಹಾಕಬೇಕು?",
+              "EVM ब्रोशर के अनुसार, किलनी/बाहरी परजीवी का स्प्रे कब लगाना चाहिए?"
+            ),
+            options: [L("Only during the sunny part of the day", "రోజులో ఎండ ఉన్న సమయంలో మాత్రమే", "பகலில் வெயில் இருக்கும் நேரத்தில் மட்டும்", "ದಿನದಲ್ಲಿ ಬಿಸಿಲು ಇರುವ ಸಮಯದಲ್ಲಿ ಮಾತ್ರ", "दिन में धूप वाले समय में ही"), L("Only at midnight", "అర్ధరాత్రి మాత్రమే", "நள்ளிரவில் மட்டும்", "ಮಧ್ಯರಾತ್ರಿ ಮಾತ್ರ", "सिर्फ आधी रात को"), L("Only while it is raining", "వర్షం పడుతున్నప్పుడు మాత్రమే", "மழை பெய்யும்போது மட்டும்", "ಮಳೆ ಬರುತ್ತಿರುವಾಗ ಮಾತ್ರ", "सिर्फ बारिश के समय"), L("No particular timing is mentioned", "ప్రత్యేకంగా ఏ సమయమూ చెప్పలేదు", "குறிப்பிட்ட நேரம் எதுவும் சொல்லப்படவில்லை", "ಯಾವುದೇ ನಿರ್ದಿಷ್ಟ ಸಮಯವನ್ನು ಹೇಳಿಲ್ಲ", "कोई खास समय नहीं बताया गया है")],
             answer: 0,
-            explain: L("The brochure specifically says to apply this spray only during the sunny part of the day."),
+            explain: L(
+              "The brochure specifically says to apply this spray only during the sunny part of the day.",
+              "ఈ స్ప్రేను రోజులో ఎండ ఉన్న సమయంలో మాత్రమే వేయాలని బ్రోషర్ ప్రత్యేకంగా చెబుతోంది.",
+              "இந்த தெளிப்பானை பகலில் வெயில் இருக்கும் நேரத்தில் மட்டுமே பயன்படுத்த வேண்டும் என்று துண்டுப்பிரசுரம் குறிப்பாகக் கூறுகிறது.",
+              "ಈ ಸ್ಪ್ರೇಯನ್ನು ದಿನದಲ್ಲಿ ಬಿಸಿಲು ಇರುವ ಸಮಯದಲ್ಲಿ ಮಾತ್ರ ಹಾಕಬೇಕು ಎಂದು ಕರಪತ್ರ ಸ್ಪಷ್ಟವಾಗಿ ಹೇಳುತ್ತದೆ.",
+              "ब्रोशर साफ कहता है कि यह स्प्रे सिर्फ दिन में धूप वाले समय में ही लगाना है।"
+            ),
           },
         ],
       },
@@ -13854,50 +13884,116 @@ export const MODULES = [
         {
           topicId: "t-m13-evm-udder",
           type: "mcq",
-          q: L("What important note comes with the EVM brochure's udder oedema remedy (heated oil, turmeric and garlic)?"),
+          q: L(
+            "What important note comes with the EVM brochure's udder oedema remedy (heated oil, turmeric and garlic)?",
+            "EVM బ్రోషర్‌లోని పొదుగు ఎడెమా (వాపు) చిట్కా (వేడి చేసిన నూనె, పసుపు మరియు వెల్లుల్లి) విషయంలో ఏ ముఖ్యమైన సూచన ఉంది?",
+            "EVM துண்டுப்பிரசுரத்தில் உள்ள மேமை வீக்க வைத்தியத்துடன் (சூடாக்கிய எண்ணெய், மஞ்சள் மற்றும் பூண்டு) வரும் முக்கியமான குறிப்பு என்ன?",
+            "EVM ಕರಪತ್ರದಲ್ಲಿರುವ ಕೆಚ್ಚಲು ಎಡಿಮಾ (ಊತ) ಮದ್ದಿನ (ಬಿಸಿ ಮಾಡಿದ ಎಣ್ಣೆ, ಅರಿಶಿನ ಮತ್ತು ಬೆಳ್ಳುಳ್ಳಿ) ಜೊತೆ ಬರುವ ಮುಖ್ಯ ಸೂಚನೆ ಯಾವುದು?",
+            "EVM ब्रोशर के थन के एडिमा (सूजन) के उपचार (गर्म किया तेल, हल्दी और लहसुन) के साथ कौन सा जरूरी नोट दिया गया है?"
+          ),
           options: [
-            L("Rule out mastitis before using the formulation"),
-            L("It can never be applied more than once"),
-            L("It should never touch the udder"),
-            L("It replaces the need for milking"),
+            L("Rule out mastitis before using the formulation", "ఈ ఫార్ములేషన్ వాడే ముందు మాస్టిటిస్ కాదని నిర్ధారించుకోండి", "இந்த சூத்திரத்தைப் பயன்படுத்தும் முன் மாஸ்டைடிஸ் இல்லை என்பதை உறுதிசெய்யுங்கள்", "ಈ ಸೂತ್ರೀಕರಣ ಬಳಸುವ ಮೊದಲು ಮಾಸ್ಟೈಟಿಸ್ ಅಲ್ಲ ಎಂದು ಖಚಿತಪಡಿಸಿಕೊಳ್ಳಿ", "इस फॉर्मूलेशन को लगाने से पहले जांच लें कि मैस्टाइटिस तो नहीं है"),
+            L("It can never be applied more than once", "దీన్ని ఒకసారి కంటే ఎక్కువ ఎప్పటికీ వేయకూడదు", "இதை ஒருமுறைக்கு மேல் ஒருபோதும் பயன்படுத்தக்கூடாது", "ಇದನ್ನು ಒಂದಕ್ಕಿಂತ ಹೆಚ್ಚು ಬಾರಿ ಎಂದಿಗೂ ಹಚ್ಚಬಾರದು", "इसे एक बार से ज्यादा कभी नहीं लगाना चाहिए"),
+            L("It should never touch the udder", "ఇది ఎప్పుడూ పొదుగుకు తాకకూడదు", "இது ஒருபோதும் மேமையில் படக்கூடாது", "ಇದು ಎಂದಿಗೂ ಕೆಚ್ಚಲಿಗೆ ತಾಗಬಾರದು", "यह कभी थन को नहीं छूना चाहिए"),
+            L("It replaces the need for milking", "ఇది పాలు పితకాల్సిన అవసరాన్ని తొలగిస్తుంది", "இது பால் கறப்பதற்கான தேவையை நீக்குகிறது", "ಇದು ಹಾಲು ಕರೆಯುವ ಅಗತ್ಯವನ್ನು ತಪ್ಪಿಸುತ್ತದೆ", "यह दूध दुहने की जरूरत को खत्म कर देता है"),
           ],
           answer: 0,
-          explain: L("The brochure explicitly notes: rule out mastitis before using this formulation, since the two conditions need different handling."),
+          explain: L(
+            "The brochure explicitly notes: rule out mastitis before using this formulation, since the two conditions need different handling.",
+            "ఈ ఫార్ములేషన్ వాడే ముందు మాస్టిటిస్ కాదని నిర్ధారించుకోవాలని బ్రోషర్ స్పష్టంగా చెబుతోంది, ఎందుకంటే ఈ రెండు పరిస్థితులకు వేర్వేరు విధానాలు అవసరం.",
+            "இந்த சூத்திரத்தைப் பயன்படுத்தும் முன் மாஸ்டைடிஸ் இல்லை என்பதை உறுதிசெய்ய வேண்டும் என்று துண்டுப்பிரசுரம் தெளிவாகக் குறிப்பிடுகிறது, ஏனெனில் இந்த இரண்டு நிலைகளுக்கும் வெவ்வேறு கையாளுதல் தேவை.",
+            "ಈ ಸೂತ್ರೀಕರಣ ಬಳಸುವ ಮೊದಲು ಮಾಸ್ಟೈಟಿಸ್ ಅಲ್ಲ ಎಂದು ಖಚಿತಪಡಿಸಿಕೊಳ್ಳಬೇಕು ಎಂದು ಕರಪತ್ರ ಸ್ಪಷ್ಟವಾಗಿ ಹೇಳುತ್ತದೆ, ಏಕೆಂದರೆ ಈ ಎರಡು ಸ್ಥಿತಿಗಳಿಗೆ ಬೇರೆ ಬೇರೆ ಆರೈಕೆ ಬೇಕು.",
+            "ब्रोशर साफ कहता है कि इस फॉर्मूलेशन को लगाने से पहले जांच लें कि मैस्टाइटिस तो नहीं है, क्योंकि इन दोनों स्थितियों को अलग-अलग तरीके से संभालना पड़ता है।"
+          ),
         },
         {
           topicId: "t-m13-evm-udder",
           type: "truefalse",
-          q: L("For prolapse, the EVM brochure applies cooled aloe vera-turmeric gel first, then Mimosa pudica paste once the gel has dried."),
+          q: L(
+            "For prolapse, the EVM brochure applies cooled aloe vera-turmeric gel first, then Mimosa pudica paste once the gel has dried.",
+            "ప్రొలాప్స్ కోసం, EVM బ్రోషర్ ముందుగా చల్లార్చిన కలబంద-పసుపు జెల్ రాసి, ఆ జెల్ ఆరిన తర్వాత అత్తిపత్తి (మిమోసా పూడికా) పేస్ట్ రాయమని చెబుతోంది.",
+            "ப்ரோலாப்ஸுக்கு, EVM துண்டுப்பிரசுரம் முதலில் ஆறவைத்த கற்றாழை-மஞ்சள் ஜெல்லைப் பூசி, அந்த ஜெல் காய்ந்த பிறகு தொட்டால்சிணுங்கி (மைமோசா பூடிகா) விழுதைப் பூசச் சொல்கிறது.",
+            "ಪ್ರೊಲ್ಯಾಪ್ಸ್‌ಗೆ, EVM ಕರಪತ್ರ ಮೊದಲು ತಣ್ಣಗಾದ ಅಲೋವೆರಾ-ಅರಿಶಿನ ಜೆಲ್ ಹಚ್ಚಿ, ಜೆಲ್ ಒಣಗಿದ ನಂತರ ಮುಟ್ಟಿದರೆ ಮುನಿ (ಮಿಮೋಸಾ ಪುಡಿಕಾ) ಪೇಸ್ಟ್ ಹಚ್ಚಲು ಹೇಳುತ್ತದೆ.",
+            "प्रोलैप्स के लिए, EVM ब्रोशर पहले ठंडा किया हुआ एलोवेरा-हल्दी जेल लगाने और जेल सूख जाने के बाद छुईमुई (मिमोसा पुडिका) का पेस्ट लगाने को कहता है।"
+          ),
           answer: true,
-          explain: L("Correct — that is the order described in the brochure's prolapse formulation."),
+          explain: L(
+            "Correct — that is the order described in the brochure's prolapse formulation.",
+            "సరైనది — ప్రొలాప్స్ ఫార్ములేషన్‌లో బ్రోషర్ వివరించిన క్రమం అదే.",
+            "சரி — ப்ரோலாப்ஸ் சூத்திரத்தில் துண்டுப்பிரசுரம் விவரித்துள்ள வரிசை அதுவே.",
+            "ಸರಿ — ಪ್ರೊಲ್ಯಾಪ್ಸ್ ಸೂತ್ರೀಕರಣದಲ್ಲಿ ಕರಪತ್ರ ವಿವರಿಸಿರುವ ಕ್ರಮ ಅದೇ.",
+            "सही — प्रोलैप्स के फॉर्मूलेशन में ब्रोशर ने यही क्रम बताया है।"
+          ),
         },
         {
           topicId: "t-m13-evm-general",
           type: "mcq",
-          q: L("What does the EVM brochure's own closing note tell farmers to still do?"),
+          q: L(
+            "What does the EVM brochure's own closing note tell farmers to still do?",
+            "EVM బ్రోషర్ సొంత ముగింపు సూచన రైతులను ఇంకా ఏమి చేయమని చెబుతోంది?",
+            "EVM துண்டுப்பிரசுரத்தின் சொந்த முடிவுக் குறிப்பு விவசாயிகளை இன்னும் என்ன செய்யச் சொல்கிறது?",
+            "EVM ಕರಪತ್ರದ ಸ್ವಂತ ಮುಕ್ತಾಯದ ಟಿಪ್ಪಣಿ ರೈತರಿಗೆ ಇನ್ನೂ ಏನು ಮಾಡಲು ಹೇಳುತ್ತದೆ?",
+            "EVM ब्रोशर का अपना समापन नोट किसानों को फिर भी क्या करने को कहता है?"
+          ),
           options: [
-            L("Consult a nearby veterinarian for proper disease diagnosis and management"),
-            L("Stop calling the vet, now that these remedies are known"),
-            L("Use these remedies only for medical emergencies"),
-            L("Replace vaccination programmes with these remedies"),
+            L(
+              "Consult a nearby veterinarian for proper disease diagnosis and management",
+              "సరైన వ్యాధి నిర్ధారణ మరియు నిర్వహణ కోసం సమీపంలోని పశువైద్యుడిని సంప్రదించండి",
+              "சரியான நோய் கண்டறிதல் மற்றும் மேலாண்மைக்கு அருகிலுள்ள கால்நடை மருத்துவரை அணுகுங்கள்",
+              "ಸರಿಯಾದ ರೋಗನಿರ್ಣಯ ಮತ್ತು ನಿರ್ವಹಣೆಗಾಗಿ ಹತ್ತಿರದ ಪಶುವೈದ್ಯರನ್ನು ಸಂಪರ್ಕಿಸಿ",
+              "सही रोग निदान और प्रबंधन के लिए नज़दीकी पशु चिकित्सक से सलाह लें"
+            ),
+            L("Stop calling the vet, now that these remedies are known", "ఈ చిట్కాలు తెలిసాయి కాబట్టి ఇక వైద్యుడిని పిలవడం ఆపేయండి", "இந்த வைத்தியங்கள் தெரிந்துவிட்டதால் இனி மருத்துவரை அழைப்பதை நிறுத்துங்கள்", "ಈ ಮದ್ದುಗಳು ಗೊತ್ತಾದ ಮೇಲೆ ಇನ್ನು ವೈದ್ಯರನ್ನು ಕರೆಯುವುದನ್ನು ನಿಲ್ಲಿಸಿ", "अब ये उपचार पता हैं, इसलिए डॉक्टर को बुलाना बंद कर दें"),
+            L("Use these remedies only for medical emergencies", "ఈ చిట్కాలను వైద్య అత్యవసర పరిస్థితుల్లో మాత్రమే వాడండి", "இந்த வைத்தியங்களை மருத்துவ அவசர நிலைகளில் மட்டும் பயன்படுத்துங்கள்", "ಈ ಮದ್ದುಗಳನ್ನು ವೈದ್ಯಕೀಯ ತುರ್ತು ಸಂದರ್ಭಗಳಲ್ಲಿ ಮಾತ್ರ ಬಳಸಿ", "इन उपचारों का इस्तेमाल सिर्फ मेडिकल इमरजेंसी में करें"),
+            L("Replace vaccination programmes with these remedies", "టీకా కార్యక్రమాల స్థానంలో ఈ చిట్కాలను వాడండి", "தடுப்பூசி திட்டங்களுக்குப் பதிலாக இந்த வைத்தியங்களைப் பயன்படுத்துங்கள்", "ಲಸಿಕೆ ಕಾರ್ಯಕ್ರಮಗಳ ಬದಲಿಗೆ ಈ ಮದ್ದುಗಳನ್ನು ಬಳಸಿ", "टीकाकरण कार्यक्रमों की जगह इन उपचारों का इस्तेमाल करें"),
           ],
           answer: 0,
-          explain: L("The brochure's closing line says the materials are only suggestive, and a nearby veterinarian should still be consulted for proper diagnosis and management."),
+          explain: L(
+            "The brochure's closing line says the materials are only suggestive, and a nearby veterinarian should still be consulted for proper diagnosis and management.",
+            "ఈ పదార్థాలు కేవలం సూచనాత్మకమైనవని, సరైన నిర్ధారణ మరియు నిర్వహణ కోసం సమీపంలోని పశువైద్యుడిని ఇంకా సంప్రదించాలని బ్రోషర్ ముగింపు వాక్యం చెబుతోంది.",
+            "இந்தப் பொருட்கள் வெறும் பரிந்துரை மட்டுமே என்றும், சரியான நோய் கண்டறிதல் மற்றும் மேலாண்மைக்கு அருகிலுள்ள கால்நடை மருத்துவரை இன்னும் அணுக வேண்டும் என்றும் துண்டுப்பிரசுரத்தின் முடிவு வரி கூறுகிறது.",
+            "ಈ ವಸ್ತುಗಳು ಕೇವಲ ಸಲಹಾತ್ಮಕ, ಮತ್ತು ಸರಿಯಾದ ರೋಗನಿರ್ಣಯ ಹಾಗೂ ನಿರ್ವಹಣೆಗಾಗಿ ಹತ್ತಿರದ ಪಶುವೈದ್ಯರನ್ನು ಇನ್ನೂ ಸಂಪರ್ಕಿಸಬೇಕು ಎಂದು ಕರಪತ್ರದ ಮುಕ್ತಾಯದ ಸಾಲು ಹೇಳುತ್ತದೆ.",
+            "ब्रोशर की समापन पंक्ति कहती है कि ये सामग्री केवल सुझाव मात्र हैं, और सही निदान व प्रबंधन के लिए अब भी नज़दीकी पशु चिकित्सक से सलाह लेनी चाहिए।"
+          ),
         },
         {
           topicId: "t-m13-evm-general",
           type: "truefalse",
-          q: L("For a 'downer' animal that cannot get up, the EVM brochure says not to attempt to lift the animal until the 4th day."),
+          q: L(
+            "For a 'downer' animal that cannot get up, the EVM brochure says not to attempt to lift the animal until the 4th day.",
+            "లేవలేని 'డౌనర్' పశువును 4వ రోజు వరకు పైకి లేపడానికి ప్రయత్నించకూడదని EVM బ్రోషర్ చెబుతోంది.",
+            "எழுந்திருக்க முடியாத 'டவுனர்' விலங்கை 4ஆம் நாள் வரை தூக்க முயற்சிக்கக்கூடாது என்று EVM துண்டுப்பிரசுரம் கூறுகிறது.",
+            "ಏಳಲಾಗದ 'ಡೌನರ್' ಪ್ರಾಣಿಯನ್ನು 4ನೇ ದಿನದವರೆಗೆ ಎತ್ತಲು ಪ್ರಯತ್ನಿಸಬಾರದು ಎಂದು EVM ಕರಪತ್ರ ಹೇಳುತ್ತದೆ.",
+            "उठ न पाने वाले 'डाउनर' पशु को चौथे दिन तक उठाने की कोशिश न करने की बात EVM ब्रोशर में कही गई है।"
+          ),
           answer: true,
-          explain: L("Correct — the brochure is explicit that the animal should not be lifted until the 4th day, while the egg and moringa-cissus feeding continues."),
+          explain: L(
+            "Correct — the brochure is explicit that the animal should not be lifted until the 4th day, while the egg and moringa-cissus feeding continues.",
+            "సరైనది — గుడ్డు మరియు మునగ-సిస్సస్ మేత కొనసాగుతున్నప్పుడు కూడా 4వ రోజు వరకు పశువును పైకి లేపకూడదని బ్రోషర్ స్పష్టంగా చెబుతోంది.",
+            "சரி — முட்டை மற்றும் முருங்கை-சிஸ்ஸஸ் உணவு தொடரும்போதும் 4ஆம் நாள் வரை விலங்கைத் தூக்கக்கூடாது என்று துண்டுப்பிரசுரம் தெளிவாகக் கூறுகிறது.",
+            "ಸರಿ — ಮೊಟ್ಟೆ ಮತ್ತು ನುಗ್ಗೆ-ಸಿಸ್ಸಸ್ ಆಹಾರ ಮುಂದುವರಿಯುತ್ತಿರುವಾಗಲೂ 4ನೇ ದಿನದವರೆಗೆ ಪ್ರಾಣಿಯನ್ನು ಎತ್ತಬಾರದು ಎಂದು ಕರಪತ್ರ ಸ್ಪಷ್ಟವಾಗಿ ಹೇಳುತ್ತದೆ.",
+            "सही — ब्रोशर साफ कहता है कि अंडे और सहजन-सिस्सस खिलाना जारी रहने के दौरान भी चौथे दिन तक पशु को नहीं उठाना चाहिए।"
+          ),
         },
         {
           topicId: "t-m13-evm-udder",
           type: "mcq",
-          q: L("After the retention-of-placenta treatment, how often does the EVM brochure recommend feeding a whole radish afterward?"),
-          options: [L("Once a week for four weeks"), L("Only once, and never again"), L("Every single day, indefinitely"), L("Only if the calf born is female")],
+          q: L(
+            "After the retention-of-placenta treatment, how often does the EVM brochure recommend feeding a whole radish afterward?",
+            "మావి నిలిచిపోయిన చికిత్స తర్వాత, ఆ తర్వాత ఎంత తరచుగా ఒక పూర్తి ముల్లంగిని తినిపించాలని EVM బ్రోషర్ సిఫార్సు చేస్తోంది?",
+            "மாயை தங்குதல் சிகிச்சைக்குப் பிறகு, அதன் பின் எவ்வளவு அடிக்கடி ஒரு முழு முள்ளங்கியை ஊட்ட வேண்டும் என்று EVM துண்டுப்பிரசுரம் பரிந்துரைக்கிறது?",
+            "ಮಾಸು ಉಳಿಯುವಿಕೆ ಚಿಕಿತ್ಸೆಯ ನಂತರ, ಆ ಮೇಲೆ ಎಷ್ಟು ಬಾರಿ ಒಂದು ಪೂರ್ತಿ ಮೂಲಂಗಿಯನ್ನು ತಿನ್ನಿಸಬೇಕೆಂದು EVM ಕರಪತ್ರ ಶಿಫಾರಸು ಮಾಡುತ್ತದೆ?",
+            "जेर रुकने के इलाज के बाद, EVM ब्रोशर उसके बाद कितनी बार एक पूरी मूली खिलाने की सलाह देता है?"
+          ),
+          options: [L("Once a week for four weeks", "నాలుగు వారాల పాటు వారానికి ఒకసారి", "நான்கு வாரங்களுக்கு வாரம் ஒருமுறை", "ನಾಲ್ಕು ವಾರಗಳವರೆಗೆ ವಾರಕ್ಕೊಮ್ಮೆ", "चार हफ्तों तक हफ्ते में एक बार"), L("Only once, and never again", "ఒక్కసారి మాత్రమే, మళ్ళీ ఎప్పటికీ కాదు", "ஒரே ஒருமுறை மட்டும், மீண்டும் ஒருபோதும் இல்லை", "ಒಂದೇ ಬಾರಿ ಮಾತ್ರ, ಮತ್ತೆ ಎಂದಿಗೂ ಇಲ್ಲ", "सिर्फ एक बार, दोबारा कभी नहीं"), L("Every single day, indefinitely", "ప్రతిరోజూ, ఎల్లప్పుడూ", "ஒவ்வொரு நாளும், காலவரையின்றி", "ಪ್ರತಿ ದಿನವೂ, ಅನಿರ್ದಿಷ್ಟವಾಗಿ", "हर दिन, अनिश्चित काल तक"), L("Only if the calf born is female", "పుట్టిన దూడ ఆడది అయితేనే", "பிறந்த கன்று பெண் கன்றாக இருந்தால் மட்டும்", "ಹುಟ್ಟಿದ ಕರು ಹೆಣ್ಣಾಗಿದ್ದರೆ ಮಾತ್ರ", "सिर्फ अगर पैदा हुआ बछड़ा मादा हो")],
           answer: 0,
-          explain: L("The brochure recommends feeding one whole radish once a week for four weeks, following the initial retention-of-placenta treatment."),
+          explain: L(
+            "The brochure recommends feeding one whole radish once a week for four weeks, following the initial retention-of-placenta treatment.",
+            "మొదటి మావి నిలిచిపోయిన చికిత్స తర్వాత నాలుగు వారాల పాటు వారానికి ఒకసారి ఒక పూర్తి ముల్లంగిని తినిపించాలని బ్రోషర్ సిఫార్సు చేస్తోంది.",
+            "ஆரம்ப மாயை தங்குதல் சிகிச்சைக்குப் பிறகு நான்கு வாரங்களுக்கு வாரம் ஒருமுறை ஒரு முழு முள்ளங்கியை ஊட்ட வேண்டும் என்று துண்டுப்பிரசுரம் பரிந்துரைக்கிறது.",
+            "ಆರಂಭಿಕ ಮಾಸು ಉಳಿಯುವಿಕೆ ಚಿಕಿತ್ಸೆಯ ನಂತರ ನಾಲ್ಕು ವಾರಗಳವರೆಗೆ ವಾರಕ್ಕೊಮ್ಮೆ ಒಂದು ಪೂರ್ತಿ ಮೂಲಂಗಿಯನ್ನು ತಿನ್ನಿಸಬೇಕೆಂದು ಕರಪತ್ರ ಶಿಫಾರಸು ಮಾಡುತ್ತದೆ.",
+            "ब्रोशर शुरुआती जेर रुकने के इलाज के बाद चार हफ्तों तक हफ्ते में एक बार एक पूरी मूली खिलाने की सलाह देता है।"
+          ),
         },
       ],
     },
@@ -16963,142 +17059,246 @@ export const MODULES = [
   // ==================================================================
   {
     id: "m16-l2",
-    title: L("Flooring, Drainage and Ventilation"),
+    title: L("Flooring, Drainage and Ventilation", "నేల, కాలువ మరియు గాలి ప్రసరణ", "தரை, வடிகால் மற்றும் காற்றோட்டம்", "ನೆಲ, ಚರಂಡಿ ಮತ್ತು ಗಾಳಿಯಾಡುವಿಕೆ", "फर्श, नाली और हवादार व्यवस्था"),
     estMinutes: 8,
     hook: [
       {
         type: "hero",
-        heading: L("Keeping the Floor Dry and the Air Moving"),
+        heading: L("Keeping the Floor Dry and the Air Moving", "నేలను పొడిగా, గాలిని ప్రసరించేలా ఉంచడం", "தரையை உலர்வாகவும் காற்றை ஓடும்படியும் வைத்திருத்தல்", "ನೆಲವನ್ನು ಒಣಗಿಸಿ, ಗಾಳಿ ಆಡುವಂತೆ ಇಡುವುದು", "फर्श को सूखा और हवा को चलता रखना"),
         text: L(
-          "A shed with the right space is only half the job — the floor also needs to stay dry and clean, and fresh air needs to keep moving through. This lesson covers exactly how the floor and drain should be built, how much ventilation each animal needs, and simple ways to protect animals from both winter cold and summer heat."
+          "A shed with the right space is only half the job — the floor also needs to stay dry and clean, and fresh air needs to keep moving through. This lesson covers exactly how the floor and drain should be built, how much ventilation each animal needs, and simple ways to protect animals from both winter cold and summer heat.",
+          "సరైన స్థలం ఉన్న షెడ్ సగం పని మాత్రమే — నేల కూడా పొడిగా, శుభ్రంగా ఉండాలి, స్వచ్ఛమైన గాలి కూడా ఆడుతూ ఉండాలి. ఈ పాఠం నేల మరియు కాలువను ఎలా నిర్మించాలి, ప్రతి పశువుకు ఎంత గాలి ప్రసరణ అవసరం, మరియు శీతాకాలపు చలి, వేసవి వేడి రెండింటి నుండి పశువులను కాపాడే సులభమైన మార్గాలను వివరిస్తుంది.",
+          "சரியான இடம் உள்ள தொழுவம் பாதி வேலை மட்டுமே — தரையும் உலர்வாகவும் சுத்தமாகவும் இருக்க வேண்டும், சுத்தமான காற்றும் தொடர்ந்து ஓட வேண்டும். இந்தப் பாடம் தரையையும் வடிகாலையும் எப்படி அமைக்க வேண்டும், ஒவ்வொரு விலங்கிற்கும் எவ்வளவு காற்றோட்டம் தேவை, குளிர்காலக் குளிர் மற்றும் கோடை வெப்பம் இரண்டிலிருந்தும் விலங்குகளைப் பாதுகாக்கும் எளிய வழிகள் ஆகியவற்றை விளக்குகிறது.",
+          "ಸರಿಯಾದ ಸ್ಥಳ ಇರುವ ಶೆಡ್ ಅರ್ಧ ಕೆಲಸ ಮಾತ್ರ — ನೆಲವೂ ಒಣಗಿ ಸ್ವಚ್ಛವಾಗಿರಬೇಕು, ತಾಜಾ ಗಾಳಿಯೂ ಆಡುತ್ತಿರಬೇಕು. ಈ ಪಾಠ ನೆಲ ಮತ್ತು ಚರಂಡಿಯನ್ನು ಹೇಗೆ ನಿರ್ಮಿಸಬೇಕು, ಪ್ರತಿ ಪ್ರಾಣಿಗೆ ಎಷ್ಟು ಗಾಳಿಯಾಡುವಿಕೆ ಬೇಕು, ಮತ್ತು ಚಳಿಗಾಲದ ಚಳಿ ಹಾಗೂ ಬೇಸಿಗೆಯ ಬಿಸಿ ಎರಡರಿಂದಲೂ ಪ್ರಾಣಿಗಳನ್ನು ರಕ್ಷಿಸುವ ಸರಳ ಮಾರ್ಗಗಳನ್ನು ವಿವರಿಸುತ್ತದೆ.",
+          "सही जगह वाला शेड सिर्फ आधा काम है — फर्श भी सूखा और साफ रहना चाहिए, और ताजी हवा भी आती-जाती रहनी चाहिए। यह पाठ बताता है कि फर्श और नाली कैसे बनानी चाहिए, हर पशु को कितनी हवादार व्यवस्था चाहिए, और सर्दी की ठंड व गर्मी की तपिश दोनों से पशुओं को बचाने के आसान तरीके क्या हैं।"
         ),
       },
     ],
     topics: [
       {
         id: "t-m16-floor-drain",
-        title: L("Flooring and Drainage"),
+        title: L("Flooring and Drainage", "నేల మరియు కాలువ", "தரை மற்றும் வடிகால்", "ನೆಲ ಮತ್ತು ಚರಂಡಿ", "फर्श और नाली"),
         teach: [
           {
             type: "text",
-            heading: L("Why the Floor and Drain Matter"),
+            heading: L("Why the Floor and Drain Matter", "నేల మరియు కాలువ ఎందుకు ముఖ్యం", "தரையும் வடிகாலும் ஏன் முக்கியம்", "ನೆಲ ಮತ್ತು ಚರಂಡಿ ಏಕೆ ಮುಖ್ಯ", "फर्श और नाली क्यों मायने रखती हैं"),
             html: L(
-              "Improper housing can lead to problems with an animal's hooves (the hard part of its feet). A big part of the reason is a wet, dirty floor — so building the floor and drain correctly, right from the start, protects the animal's feet as well as its overall health."
+              "Improper housing can lead to problems with an animal's hooves (the hard part of its feet). A big part of the reason is a wet, dirty floor — so building the floor and drain correctly, right from the start, protects the animal's feet as well as its overall health.",
+              "సరిగా లేని ఆవాసం జంతువు గిట్టల (కాళ్ళలోని గట్టి భాగం) సమస్యలకు దారితీస్తుంది. దానికి ప్రధాన కారణం తడిగా, మురికిగా ఉన్న నేల — కాబట్టి మొదటి నుంచే నేల మరియు కాలువను సరిగ్గా నిర్మించడం వల్ల జంతువు కాళ్ళకు, మొత్తం ఆరోగ్యానికి రక్షణ కలుగుతుంది.",
+              "சரியில்லாத தங்குமிடம் விலங்கின் குளம்புகளில் (கால்களின் கடினமான பகுதி) பிரச்சினைகளை ஏற்படுத்தும். அதற்கு முக்கியக் காரணம் ஈரமான, அழுக்கான தரை — எனவே ஆரம்பத்திலிருந்தே தரையையும் வடிகாலையும் சரியாக அமைப்பது விலங்கின் கால்களையும் அதன் ஒட்டுமொத்த ஆரோக்கியத்தையும் பாதுகாக்கும்.",
+              "ಸರಿಯಿಲ್ಲದ ವಾಸಸ್ಥಳ ಪ್ರಾಣಿಯ ಗೊರಸುಗಳಲ್ಲಿ (ಕಾಲಿನ ಗಟ್ಟಿ ಭಾಗ) ಸಮಸ್ಯೆಗಳಿಗೆ ಕಾರಣವಾಗಬಹುದು. ಅದಕ್ಕೆ ಪ್ರಮುಖ ಕಾರಣ ಒದ್ದೆಯಾದ, ಕೊಳಕು ನೆಲ — ಹಾಗಾಗಿ ಆರಂಭದಿಂದಲೇ ನೆಲ ಮತ್ತು ಚರಂಡಿಯನ್ನು ಸರಿಯಾಗಿ ನಿರ್ಮಿಸುವುದು ಪ್ರಾಣಿಯ ಕಾಲುಗಳನ್ನು ಹಾಗೂ ಒಟ್ಟಾರೆ ಆರೋಗ್ಯವನ್ನು ರಕ್ಷಿಸುತ್ತದೆ.",
+              "खराब आवास से पशु के खुरों (पैर का सख्त हिस्सा) में समस्याएं हो सकती हैं। इसकी बड़ी वजह गीला, गंदा फर्श है — इसलिए शुरू से ही फर्श और नाली सही ढंग से बनाने पर पशु के पैर और उसकी पूरी सेहत की रक्षा होती है।"
             ),
           },
           {
             type: "glossary",
-            term: L("Concrete Flooring (Rough Finish)"),
+            term: L("Concrete Flooring (Rough Finish)", "కాంక్రీట్ నేల (గరుకు ఫినిషింగ్)", "காங்கிரீட் தரை (சொரசொரப்பான பூச்சு)", "ಕಾಂಕ್ರೀಟ್ ನೆಲ (ಒರಟು ಫಿನಿಶ್)", "कंक्रीट का फर्श (खुरदरी फिनिश)"),
             meaning: L(
-              "A floor made of cement, deliberately left with a slightly rough surface rather than smoothed and polished. A rough finish gives an animal's hooves better grip, so it is less likely to slip."
+              "A floor made of cement, deliberately left with a slightly rough surface rather than smoothed and polished. A rough finish gives an animal's hooves better grip, so it is less likely to slip.",
+              "సిమెంట్‌తో చేసిన నేల, నునుపుగా, మెరిసేలా చేయకుండా ఉద్దేశపూర్వకంగా కొంచెం గరుకుగా వదిలేసినది. గరుకు ఫినిషింగ్ వల్ల జంతువు గిట్టలకు మెరుగైన పట్టు దొరుకుతుంది, కాబట్టి జారే అవకాశం తక్కువ.",
+              "சிமெண்டால் செய்த தரை, வழவழப்பாகவும் மெருகூட்டியதாகவும் இல்லாமல், வேண்டுமென்றே சற்று சொரசொரப்பாக விடப்பட்டது. சொரசொரப்பான பூச்சு விலங்கின் குளம்புகளுக்கு நல்ல பிடிப்பைத் தருவதால் வழுக்கி விழும் வாய்ப்பு குறைவு.",
+              "ನುಣುಪಾಗಿ, ಹೊಳೆಯುವಂತೆ ಮಾಡದೆ, ಉದ್ದೇಶಪೂರ್ವಕವಾಗಿ ಸ್ವಲ್ಪ ಒರಟಾಗಿ ಬಿಟ್ಟ ಸಿಮೆಂಟ್ ನೆಲ. ಒರಟು ಫಿನಿಶ್ ಪ್ರಾಣಿಯ ಗೊರಸುಗಳಿಗೆ ಉತ್ತಮ ಹಿಡಿತ ನೀಡುತ್ತದೆ, ಹಾಗಾಗಿ ಜಾರುವ ಸಾಧ್ಯತೆ ಕಡಿಮೆ.",
+              "सीमेंट से बना फर्श, जिसे चिकना और चमकदार बनाने के बजाय जानबूझकर थोड़ा खुरदरा छोड़ा गया हो। खुरदरी फिनिश से पशु के खुरों की पकड़ बेहतर रहती है, इसलिए फिसलने की संभावना कम होती है।"
             ),
           },
           {
             type: "glossary",
-            term: L("Slope"),
+            term: L("Slope", "వాలు", "சரிவு", "ಇಳಿಜಾರು", "ढलान"),
             meaning: L(
-              "A slight, gentle tilt built into a floor so that liquid — urine, spilled water, and waste — naturally flows toward a drain instead of collecting in puddles on the floor."
+              "A slight, gentle tilt built into a floor so that liquid — urine, spilled water, and waste — naturally flows toward a drain instead of collecting in puddles on the floor.",
+              "నేలలో ఉద్దేశపూర్వకంగా ఇచ్చే స్వల్పమైన వాలు, దీనివల్ల మూత్రం, ఒలికిన నీరు, వ్యర్థాలు వంటి ద్రవాలు నేలపై గుంటల్లా నిలవకుండా సహజంగా కాలువ వైపు ప్రవహిస్తాయి.",
+              "தரையில் அமைக்கப்படும் மெல்லிய சாய்வு, இதனால் சிறுநீர், சிந்திய தண்ணீர், கழிவுகள் போன்ற திரவங்கள் தரையில் குட்டையாகத் தேங்காமல் இயல்பாகவே வடிகாலை நோக்கி ஓடுகின்றன.",
+              "ನೆಲದಲ್ಲಿ ಮಾಡುವ ಸ್ವಲ್ಪ ಇಳಿಜಾರು, ಇದರಿಂದ ಮೂತ್ರ, ಚೆಲ್ಲಿದ ನೀರು, ತ್ಯಾಜ್ಯ ಮುಂತಾದ ದ್ರವಗಳು ನೆಲದ ಮೇಲೆ ಕೆರೆಯಂತೆ ನಿಲ್ಲದೆ ಸಹಜವಾಗಿ ಚರಂಡಿಯತ್ತ ಹರಿಯುತ್ತವೆ.",
+              "फर्श में बनाई गई हल्की सी ढलान, ताकि पेशाब, गिरा हुआ पानी और गंदगी जैसे तरल पदार्थ फर्श पर जमा होने के बजाय अपने-आप नाली की ओर बह जाएं।"
             ),
           },
           {
             type: "stat-grid",
             items: [
               {
-                label: L("Floor"),
-                text: L("The flooring should be of rough concrete finish, with a 1.5% slope towards the drain."),
+                label: L("Floor", "నేల", "தரை", "ನೆಲ", "फर्श"),
+                text: L(
+                  "The flooring should be of rough concrete finish, with a 1.5% slope towards the drain.",
+                  "నేల గరుకు కాంక్రీట్ ఫినిషింగ్‌తో ఉండాలి, కాలువ వైపు 1.5% వాలు ఉండాలి.",
+                  "தரை சொரசொரப்பான காங்கிரீட் பூச்சுடன் இருக்க வேண்டும், வடிகாலை நோக்கி 1.5% சரிவு இருக்க வேண்டும்.",
+                  "ನೆಲ ಒರಟು ಕಾಂಕ್ರೀಟ್ ಫಿನಿಶ್‌ನಿಂದ ಇರಬೇಕು, ಚರಂಡಿಯತ್ತ 1.5% ಇಳಿಜಾರು ಇರಬೇಕು.",
+                  "फर्श खुरदरी कंक्रीट फिनिश का होना चाहिए, और नाली की ओर 1.5% ढलान होनी चाहिए।"
+                ),
               },
               {
-                label: L("Drain"),
-                text: L("The drain should be open, 8 inches wide, 3 inches deep, with a 1.0% cross slope, so the shed remains clean."),
+                label: L("Drain", "కాలువ", "வடிகால்", "ಚರಂಡಿ", "नाली"),
+                text: L(
+                  "The drain should be open, 8 inches wide, 3 inches deep, with a 1.0% cross slope, so the shed remains clean.",
+                  "షెడ్ శుభ్రంగా ఉండేలా, కాలువ తెరిచి ఉండాలి, 8 అంగుళాల వెడల్పు, 3 అంగుళాల లోతు, 1.0% అడ్డు వాలుతో ఉండాలి.",
+                  "தொழுவம் சுத்தமாக இருக்க, வடிகால் திறந்ததாகவும், 8 அங்குல அகலம், 3 அங்குல ஆழம், 1.0% குறுக்கு சரிவுடனும் இருக்க வேண்டும்.",
+                  "ಶೆಡ್ ಸ್ವಚ್ಛವಾಗಿರುವಂತೆ, ಚರಂಡಿ ತೆರೆದಿರಬೇಕು, 8 ಇಂಚು ಅಗಲ, 3 ಇಂಚು ಆಳ, 1.0% ಅಡ್ಡ ಇಳಿಜಾರಿನೊಂದಿಗೆ ಇರಬೇಕು.",
+                  "शेड साफ रहे, इसके लिए नाली खुली होनी चाहिए, 8 इंच चौड़ी, 3 इंच गहरी, और 1.0% आड़ी ढलान वाली।"
+                ),
               },
             ],
           },
           {
             type: "callout",
             style: "warning",
-            heading: L("A Wet Floor Hurts More Than It Looks Like"),
+            heading: L("A Wet Floor Hurts More Than It Looks Like", "తడి నేల కనిపించే దానికంటే ఎక్కువ హాని చేస్తుంది", "ஈரமான தரை தோன்றுவதை விட அதிகமாக பாதிக்கும்", "ಒದ್ದೆ ನೆಲ ಕಾಣುವುದಕ್ಕಿಂತ ಹೆಚ್ಚು ಹಾನಿ ಮಾಡುತ್ತದೆ", "गीला फर्श दिखने से ज्यादा नुकसान करता है"),
             text: L(
-              "Improper housing predisposes an animal to hoof conditions — meaning a poorly built or poorly draining floor makes foot problems more likely over time. Checking that the floor slopes properly towards a working drain is a simple, everyday way to protect an animal's feet."
+              "Improper housing predisposes an animal to hoof conditions — meaning a poorly built or poorly draining floor makes foot problems more likely over time. Checking that the floor slopes properly towards a working drain is a simple, everyday way to protect an animal's feet.",
+              "సరిగా లేని ఆవాసం జంతువుకు గిట్టల సమస్యలు వచ్చే ప్రమాదాన్ని పెంచుతుంది — అంటే సరిగా నిర్మించని లేదా నీరు పోని నేల వల్ల కాలక్రమేణా కాళ్ళ సమస్యలు వచ్చే అవకాశం ఎక్కువ. నేల పనిచేసే కాలువ వైపు సరిగ్గా వాలుగా ఉందో లేదో చూడటం జంతువు కాళ్ళను కాపాడే సులభమైన, రోజువారీ మార్గం.",
+              "சரியில்லாத தங்குமிடம் விலங்கிற்கு குளம்பு பிரச்சினைகள் வர வாய்ப்பை அதிகரிக்கிறது — அதாவது சரியாக அமைக்கப்படாத அல்லது நீர் வடியாத தரையால் காலப்போக்கில் கால் பிரச்சினைகள் வர வாய்ப்பு அதிகம். தரை வேலை செய்யும் வடிகாலை நோக்கி சரியாக சரிந்திருக்கிறதா என்று பார்ப்பது விலங்கின் கால்களைப் பாதுகாக்கும் எளிய, அன்றாட வழி.",
+              "ಸರಿಯಿಲ್ಲದ ವಾಸಸ್ಥಳ ಪ್ರಾಣಿಗೆ ಗೊರಸಿನ ಸಮಸ್ಯೆಗಳು ಬರುವ ಸಾಧ್ಯತೆಯನ್ನು ಹೆಚ್ಚಿಸುತ್ತದೆ — ಅಂದರೆ ಸರಿಯಾಗಿ ನಿರ್ಮಿಸದ ಅಥವಾ ನೀರು ಹರಿದುಹೋಗದ ನೆಲದಿಂದ ಕಾಲಕ್ರಮೇಣ ಕಾಲಿನ ಸಮಸ್ಯೆಗಳು ಬರುವ ಸಾಧ್ಯತೆ ಹೆಚ್ಚು. ನೆಲ ಕೆಲಸ ಮಾಡುವ ಚರಂಡಿಯತ್ತ ಸರಿಯಾಗಿ ಇಳಿಜಾರಾಗಿದೆಯೇ ಎಂದು ನೋಡುವುದು ಪ್ರಾಣಿಯ ಕಾಲುಗಳನ್ನು ರಕ್ಷಿಸುವ ಸರಳ, ದೈನಂದಿನ ದಾರಿ.",
+              "खराब आवास से पशु को खुर की समस्याएं होने का खतरा बढ़ जाता है — यानी खराब बने या पानी न निकलने वाले फर्श से समय के साथ पैर की समस्याएं होने की संभावना ज्यादा रहती है। यह देखना कि फर्श काम करने वाली नाली की ओर सही ढलान में है या नहीं, पशु के पैरों को बचाने का एक आसान, रोज़ का तरीका है।"
             ),
           },
         ],
         check: [
           {
             type: "mcq",
-            q: L("What slope should the shed's concrete floor have towards the drain?"),
-            options: [L("1.0%"), L("1.5%"), L("3%"), L("No slope at all")],
+            q: L(
+              "What slope should the shed's concrete floor have towards the drain?",
+              "షెడ్ కాంక్రీట్ నేలకు కాలువ వైపు ఎంత వాలు ఉండాలి?",
+              "தொழுவத்தின் காங்கிரீட் தரைக்கு வடிகாலை நோக்கி எவ்வளவு சரிவு இருக்க வேண்டும்?",
+              "ಶೆಡ್‌ನ ಕಾಂಕ್ರೀಟ್ ನೆಲಕ್ಕೆ ಚರಂಡಿಯತ್ತ ಎಷ್ಟು ಇಳಿಜಾರು ಇರಬೇಕು?",
+              "शेड के कंक्रीट फर्श की नाली की ओर कितनी ढलान होनी चाहिए?"
+            ),
+            options: [L("1.0%", "1.0%", "1.0%", "1.0%", "1.0%"), L("1.5%", "1.5%", "1.5%", "1.5%", "1.5%"), L("3%", "3%", "3%", "3%", "3%"), L("No slope at all", "అసలు వాలు ఉండకూడదు", "சரிவே இருக்கக்கூடாது", "ಇಳಿಜಾರು ಇಲ್ಲವೇ ಇಲ್ಲ", "बिल्कुल ढलान नहीं")],
             answer: 1,
-            explain: L("The floor should be rough concrete finish with a 1.5% slope towards the drain."),
+            explain: L(
+              "The floor should be rough concrete finish with a 1.5% slope towards the drain.",
+              "నేల గరుకు కాంక్రీట్ ఫినిషింగ్‌తో, కాలువ వైపు 1.5% వాలుతో ఉండాలి.",
+              "தரை சொரசொரப்பான காங்கிரீட் பூச்சுடன், வடிகாலை நோக்கி 1.5% சரிவுடன் இருக்க வேண்டும்.",
+              "ನೆಲ ಒರಟು ಕಾಂಕ್ರೀಟ್ ಫಿನಿಶ್‌ನೊಂದಿಗೆ, ಚರಂಡಿಯತ್ತ 1.5% ಇಳಿಜಾರಿನೊಂದಿಗೆ ಇರಬೇಕು.",
+              "फर्श खुरदरी कंक्रीट फिनिश का होना चाहिए, जिसमें नाली की ओर 1.5% ढलान हो।"
+            ),
           },
           {
             type: "truefalse",
-            q: L("The drain running alongside the shed should be open, 8 inches wide and 3 inches deep."),
+            q: L(
+              "The drain running alongside the shed should be open, 8 inches wide and 3 inches deep.",
+              "షెడ్ పక్కన ఉండే కాలువ తెరిచి ఉండాలి, 8 అంగుళాల వెడల్పు, 3 అంగుళాల లోతు ఉండాలి.",
+              "தொழுவத்தின் ஓரமாக செல்லும் வடிகால் திறந்ததாகவும், 8 அங்குல அகலம், 3 அங்குல ஆழம் கொண்டதாகவும் இருக்க வேண்டும்.",
+              "ಶೆಡ್‌ನ ಪಕ್ಕದಲ್ಲಿ ಹರಿಯುವ ಚರಂಡಿ ತೆರೆದಿರಬೇಕು, 8 ಇಂಚು ಅಗಲ ಮತ್ತು 3 ಇಂಚು ಆಳ ಇರಬೇಕು.",
+              "शेड के किनारे चलने वाली नाली खुली होनी चाहिए, 8 इंच चौड़ी और 3 इंच गहरी।"
+            ),
             answer: true,
-            explain: L("Correct — the drain should be open, 8 inches wide, 3 inches deep, with a 1.0% cross slope."),
+            explain: L(
+              "Correct — the drain should be open, 8 inches wide, 3 inches deep, with a 1.0% cross slope.",
+              "సరైనది — కాలువ తెరిచి ఉండాలి, 8 అంగుళాల వెడల్పు, 3 అంగుళాల లోతు, 1.0% అడ్డు వాలుతో ఉండాలి.",
+              "சரி — வடிகால் திறந்ததாகவும், 8 அங்குல அகலம், 3 அங்குல ஆழம், 1.0% குறுக்கு சரிவுடனும் இருக்க வேண்டும்.",
+              "ಸರಿ — ಚರಂಡಿ ತೆರೆದಿರಬೇಕು, 8 ಇಂಚು ಅಗಲ, 3 ಇಂಚು ಆಳ, 1.0% ಅಡ್ಡ ಇಳಿಜಾರಿನೊಂದಿಗೆ ಇರಬೇಕು.",
+              "सही — नाली खुली होनी चाहिए, 8 इंच चौड़ी, 3 इंच गहरी, और 1.0% आड़ी ढलान वाली।"
+            ),
           },
         ],
       },
       {
         id: "t-m16-ventilation",
-        title: L("Ventilation and Weather Protection"),
+        title: L("Ventilation and Weather Protection", "గాలి ప్రసరణ మరియు వాతావరణ రక్షణ", "காற்றோட்டம் மற்றும் வானிலைப் பாதுகாப்பு", "ಗಾಳಿಯಾಡುವಿಕೆ ಮತ್ತು ಹವಾಮಾನ ರಕ್ಷಣೆ", "हवादार व्यवस्था और मौसम से सुरक्षा"),
         teach: [
           {
             type: "text",
-            heading: L("Letting Fresh Air Move Through"),
+            heading: L("Letting Fresh Air Move Through", "స్వచ్ఛమైన గాలి ఆడేలా చేయడం", "சுத்தமான காற்று ஓட விடுதல்", "ತಾಜಾ ಗಾಳಿ ಆಡುವಂತೆ ಮಾಡುವುದು", "ताजी हवा को आने-जाने देना"),
             html: L(
-              "Even with three open sides, a shed also needs a dedicated opening high up near the roof for air to keep moving through — this is called <b>ventilation</b>. Good ventilation stops the air inside the shed from becoming stale and helps carry heat and dampness away."
+              "Even with three open sides, a shed also needs a dedicated opening high up near the roof for air to keep moving through — this is called <b>ventilation</b>. Good ventilation stops the air inside the shed from becoming stale and helps carry heat and dampness away.",
+              "మూడు వైపులా తెరిచి ఉన్నా, గాలి ఆడుతూ ఉండడానికి షెడ్‌కు పైకప్పు దగ్గర ఎత్తులో ప్రత్యేక ఖాళీ కూడా అవసరం — దీన్నే <b>వెంటిలేషన్</b> అంటారు. మంచి వెంటిలేషన్ వల్ల షెడ్ లోపలి గాలి పాతబడిపోకుండా ఉంటుంది, వేడి మరియు తేమ బయటకు పోతాయి.",
+              "மூன்று பக்கமும் திறந்திருந்தாலும், காற்று தொடர்ந்து ஓடுவதற்கு தொழுவத்தில் கூரைக்கு அருகில் உயரமாக ஒரு தனி திறப்பும் தேவை — இதுவே <b>காற்றோட்டம்</b> எனப்படும். நல்ல காற்றோட்டம் தொழுவத்தின் உள்ளே உள்ள காற்று பழையதாகாமல் தடுத்து, வெப்பத்தையும் ஈரப்பதத்தையும் வெளியேற்ற உதவுகிறது.",
+              "ಮೂರು ಬದಿ ತೆರೆದಿದ್ದರೂ, ಗಾಳಿ ಆಡುತ್ತಿರಲು ಶೆಡ್‌ಗೆ ಛಾವಣಿಯ ಹತ್ತಿರ ಎತ್ತರದಲ್ಲಿ ಪ್ರತ್ಯೇಕ ತೆರೆಯುವಿಕೆಯೂ ಬೇಕು — ಇದನ್ನೇ <b>ಗಾಳಿಯಾಡುವಿಕೆ (ವೆಂಟಿಲೇಶನ್)</b> ಎನ್ನುತ್ತಾರೆ. ಒಳ್ಳೆಯ ಗಾಳಿಯಾಡುವಿಕೆಯಿಂದ ಶೆಡ್ ಒಳಗಿನ ಗಾಳಿ ಹಳಸದೆ, ಬಿಸಿ ಮತ್ತು ತೇವ ಹೊರಹೋಗಲು ಸಹಾಯವಾಗುತ್ತದೆ.",
+              "तीन तरफ से खुला होने पर भी, हवा के चलते रहने के लिए शेड में छत के पास ऊपर एक अलग खुली जगह भी चाहिए — इसे <b>वेंटिलेशन</b> कहते हैं। अच्छा वेंटिलेशन शेड के अंदर की हवा को बासी होने से रोकता है और गर्मी व नमी को बाहर निकालने में मदद करता है।"
             ),
           },
           {
             type: "glossary",
-            term: L("Ventilator"),
+            term: L("Ventilator", "వెంటిలేటర్", "வென்டிலேட்டர் (காற்றோட்டத் துளை)", "ವೆಂಟಿಲೇಟರ್ (ಗಾಳಿ ದ್ವಾರ)", "वेंटिलेटर"),
             meaning: L(
-              "An opening built at ceiling level to let fresh air in and stale air out. Every animal in the shed should have a ventilator of size 3 feet x 1 feet at the ceiling level."
+              "An opening built at ceiling level to let fresh air in and stale air out. Every animal in the shed should have a ventilator of size 3 feet x 1 feet at the ceiling level.",
+              "స్వచ్ఛమైన గాలి లోపలికి రావడానికి, పాత గాలి బయటకు పోవడానికి పైకప్పు స్థాయిలో నిర్మించిన ఖాళీ. షెడ్‌లోని ప్రతి పశువుకు పైకప్పు స్థాయిలో 3 అడుగుల x 1 అడుగు సైజు వెంటిలేటర్ ఉండాలి.",
+              "சுத்தமான காற்று உள்ளே வரவும், பழைய காற்று வெளியேறவும் கூரை மட்டத்தில் அமைக்கப்பட்ட திறப்பு. தொழுவத்தில் உள்ள ஒவ்வொரு விலங்கிற்கும் கூரை மட்டத்தில் 3 அடி x 1 அடி அளவுள்ள வென்டிலேட்டர் இருக்க வேண்டும்.",
+              "ತಾಜಾ ಗಾಳಿ ಒಳಗೆ ಬರಲು ಮತ್ತು ಹಳಸಿದ ಗಾಳಿ ಹೊರಹೋಗಲು ಚಾವಣಿ ಮಟ್ಟದಲ್ಲಿ ಮಾಡಿದ ತೆರೆಯುವಿಕೆ. ಶೆಡ್‌ನಲ್ಲಿರುವ ಪ್ರತಿ ಪ್ರಾಣಿಗೆ ಚಾವಣಿ ಮಟ್ಟದಲ್ಲಿ 3 ಅಡಿ x 1 ಅಡಿ ಗಾತ್ರದ ವೆಂಟಿಲೇಟರ್ ಇರಬೇಕು.",
+              "छत के स्तर पर बनाई गई खुली जगह, जिससे ताजी हवा अंदर आए और बासी हवा बाहर निकले। शेड में हर पशु के लिए छत के स्तर पर 3 फीट x 1 फीट आकार का वेंटिलेटर होना चाहिए।"
             ),
           },
           {
             type: "glossary",
-            term: L("Gunny Cloth"),
+            term: L("Gunny Cloth", "గోనె సంచి గుడ్డ", "சணல் சாக்குத் துணி", "ಗೋಣಿ ಚೀಲದ ಬಟ್ಟೆ", "बोरी का कपड़ा (टाट)"),
             meaning: L(
-              "A coarse, sack-like cloth woven from jute. It's inexpensive and easy to hang, which is why it's commonly used to temporarily cover open sides of a shed."
+              "A coarse, sack-like cloth woven from jute. It's inexpensive and easy to hang, which is why it's commonly used to temporarily cover open sides of a shed.",
+              "జనపనారతో నేసిన గరుకైన, సంచి లాంటి గుడ్డ. ఇది చవకైనది, సులభంగా వేలాడదీయవచ్చు, అందుకే షెడ్ తెరిచిన వైపులను తాత్కాలికంగా కప్పడానికి సాధారణంగా వాడతారు.",
+              "சணலால் நெய்யப்பட்ட கரடுமுரடான, சாக்கு போன்ற துணி. இது விலை குறைவானது, எளிதாகத் தொங்கவிடலாம், அதனால்தான் தொழுவத்தின் திறந்த பக்கங்களை தற்காலிகமாக மூட இது பொதுவாகப் பயன்படுகிறது.",
+              "ಸೆಣಬಿನಿಂದ ನೇಯ್ದ ಒರಟಾದ, ಚೀಲದಂತಹ ಬಟ್ಟೆ. ಇದು ಅಗ್ಗ, ಸುಲಭವಾಗಿ ನೇತುಹಾಕಬಹುದು, ಅದಕ್ಕಾಗಿಯೇ ಶೆಡ್‌ನ ತೆರೆದ ಬದಿಗಳನ್ನು ತಾತ್ಕಾಲಿಕವಾಗಿ ಮುಚ್ಚಲು ಇದನ್ನು ಸಾಮಾನ್ಯವಾಗಿ ಬಳಸುತ್ತಾರೆ.",
+              "जूट से बुना मोटा, बोरी जैसा कपड़ा। यह सस्ता है और आसानी से टांगा जा सकता है, इसीलिए शेड के खुले किनारों को अस्थायी रूप से ढकने के लिए आम तौर पर इस्तेमाल होता है।"
             ),
           },
           {
             type: "text",
-            heading: L("Adjusting the Same Shed for Winter and Summer"),
+            heading: L("Adjusting the Same Shed for Winter and Summer", "ఒకే షెడ్‌ను శీతాకాలం మరియు వేసవికి తగ్గట్టు మార్చడం", "ஒரே தொழுவத்தை குளிர்காலத்துக்கும் கோடைக்கும் ஏற்ப மாற்றியமைத்தல்", "ಅದೇ ಶೆಡ್ ಅನ್ನು ಚಳಿಗಾಲ ಮತ್ತು ಬೇಸಿಗೆಗೆ ಹೊಂದಿಸುವುದು", "एक ही शेड को सर्दी और गर्मी के हिसाब से ढालना"),
             html: L(
-              "During winter, the three open sides of the shed (other than the western wall) may be covered with gunny cloth to keep the animals warm. During summer, animals suffer from heat stress and become restless — sprinkling water on the animal at an interval of 15 to 20 minutes reduces this heat stress, because the water evaporating off the body cools it down."
+              "During winter, the three open sides of the shed (other than the western wall) may be covered with gunny cloth to keep the animals warm. During summer, animals suffer from heat stress and become restless — sprinkling water on the animal at an interval of 15 to 20 minutes reduces this heat stress, because the water evaporating off the body cools it down.",
+              "శీతాకాలంలో, షెడ్ మూడు తెరిచిన వైపులను (పశ్చిమ గోడ తప్ప) పశువులు వెచ్చగా ఉండేందుకు గోనె సంచి గుడ్డతో కప్పవచ్చు. వేసవిలో, జంతువులు వేడి ఒత్తిడికి గురై అశాంతిగా ఉంటాయి — 15 నుండి 20 నిమిషాలకు ఒకసారి జంతువుపై నీళ్లు చల్లితే ఈ వేడి ఒత్తిడి తగ్గుతుంది, ఎందుకంటే ఒంటిపై నీరు ఆవిరవుతూ దాన్ని చల్లబరుస్తుంది.",
+              "குளிர்காலத்தில், தொழுவத்தின் மூன்று திறந்த பக்கங்களை (மேற்குச் சுவரைத் தவிர) விலங்குகள் கதகதப்பாக இருக்க சணல் சாக்குத் துணியால் மூடலாம். கோடையில், விலங்குகள் வெப்ப அழுத்தத்தால் பாதிக்கப்பட்டு அமைதியற்றுப் போகும் — 15 முதல் 20 நிமிட இடைவெளியில் விலங்கின் மீது தண்ணீர் தெளித்தால் இந்த வெப்ப அழுத்தம் குறையும், ஏனெனில் உடலில் இருந்து நீர் ஆவியாகும்போது அது உடலைக் குளிர்விக்கிறது.",
+              "ಚಳಿಗಾಲದಲ್ಲಿ, ಶೆಡ್‌ನ ಮೂರು ತೆರೆದ ಬದಿಗಳನ್ನು (ಪಶ್ಚಿಮದ ಗೋಡೆ ಹೊರತುಪಡಿಸಿ) ಪ್ರಾಣಿಗಳು ಬೆಚ್ಚಗಿರಲು ಗೋಣಿ ಚೀಲದ ಬಟ್ಟೆಯಿಂದ ಮುಚ್ಚಬಹುದು. ಬೇಸಿಗೆಯಲ್ಲಿ, ಪ್ರಾಣಿಗಳು ಶಾಖದ ಒತ್ತಡದಿಂದ ಬಳಲಿ ಚಡಪಡಿಸುತ್ತವೆ — 15 ರಿಂದ 20 ನಿಮಿಷಗಳಿಗೊಮ್ಮೆ ಪ್ರಾಣಿಯ ಮೇಲೆ ನೀರು ಚಿಮುಕಿಸಿದರೆ ಈ ಶಾಖದ ಒತ್ತಡ ಕಡಿಮೆಯಾಗುತ್ತದೆ, ಏಕೆಂದರೆ ಮೈಯ ಮೇಲಿನ ನೀರು ಆವಿಯಾಗುವಾಗ ಅದು ದೇಹವನ್ನು ತಂಪಾಗಿಸುತ್ತದೆ.",
+              "सर्दियों में, शेड के तीन खुले किनारों (पश्चिमी दीवार को छोड़कर) को पशुओं को गर्म रखने के लिए बोरी के कपड़े से ढका जा सकता है। गर्मियों में, पशु गर्मी के तनाव से परेशान और बेचैन हो जाते हैं — 15 से 20 मिनट के अंतराल पर पशु पर पानी छिड़कने से यह तनाव कम होता है, क्योंकि शरीर से पानी भाप बनकर उड़ते समय उसे ठंडा करता है।"
             ),
           },
           {
             type: "example",
-            heading: L("What Heat Stress Looks Like"),
+            heading: L("What Heat Stress Looks Like", "వేడి ఒత్తిడి ఎలా కనిపిస్తుంది", "வெப்ப அழுத்தம் எப்படித் தெரியும்", "ಶಾಖದ ಒತ್ತಡ ಹೇಗೆ ಕಾಣುತ್ತದೆ", "गर्मी का तनाव कैसा दिखता है"),
             text: L(
-              "During summer, animals suffer from heat stress and become restless. Sweating and panting help them cool down to some extent, but reduced feed intake caused by the heat still results in decreased milk production — which is exactly why cooling steps like water sprinkling matter."
+              "During summer, animals suffer from heat stress and become restless. Sweating and panting help them cool down to some extent, but reduced feed intake caused by the heat still results in decreased milk production — which is exactly why cooling steps like water sprinkling matter.",
+              "వేసవిలో జంతువులు వేడి ఒత్తిడికి గురై అశాంతిగా ఉంటాయి. చెమట పట్టడం, ఆయాసపడటం కొంతవరకు వాటిని చల్లబరుస్తాయి, కానీ వేడి వల్ల మేత తీసుకోవడం తగ్గి పాల ఉత్పత్తి తగ్గుతుంది — అందుకే నీళ్లు చల్లడం వంటి చల్లబరిచే చర్యలు ముఖ్యం.",
+              "கோடையில் விலங்குகள் வெப்ப அழுத்தத்தால் பாதிக்கப்பட்டு அமைதியற்றுப் போகும். வியர்ப்பதும் மூச்சிரைப்பதும் ஓரளவு அவற்றைக் குளிர்விக்க உதவும், ஆனால் வெப்பத்தால் தீவனம் உண்ணுவது குறைந்து பால் உற்பத்தி குறையும் — அதனால்தான் தண்ணீர் தெளித்தல் போன்ற குளிர்விக்கும் நடவடிக்கைகள் முக்கியம்.",
+              "ಬೇಸಿಗೆಯಲ್ಲಿ ಪ್ರಾಣಿಗಳು ಶಾಖದ ಒತ್ತಡದಿಂದ ಬಳಲಿ ಚಡಪಡಿಸುತ್ತವೆ. ಬೆವರುವುದು ಮತ್ತು ಏದುಸಿರು ಬಿಡುವುದು ಸ್ವಲ್ಪಮಟ್ಟಿಗೆ ಅವುಗಳನ್ನು ತಂಪಾಗಿಸುತ್ತವೆ, ಆದರೆ ಶಾಖದಿಂದ ಮೇವು ತಿನ್ನುವುದು ಕಡಿಮೆಯಾಗಿ ಹಾಲಿನ ಉತ್ಪಾದನೆ ಕುಸಿಯುತ್ತದೆ — ಅದಕ್ಕಾಗಿಯೇ ನೀರು ಚಿಮುಕಿಸುವಂತಹ ತಂಪಾಗಿಸುವ ಕ್ರಮಗಳು ಮುಖ್ಯ.",
+              "गर्मियों में पशु गर्मी के तनाव से परेशान और बेचैन हो जाते हैं। पसीना आना और हांफना कुछ हद तक उन्हें ठंडा करता है, लेकिन गर्मी की वजह से चारा कम खाने से दूध उत्पादन फिर भी घट जाता है — इसीलिए पानी छिड़कने जैसे ठंडा करने के उपाय मायने रखते हैं।"
             ),
           },
           {
             type: "callout",
             style: "tip",
-            heading: L("A Good Shed Protects From Every Season"),
+            heading: L("A Good Shed Protects From Every Season", "మంచి షెడ్ ప్రతి కాలం నుండి కాపాడుతుంది", "நல்ல தொழுவம் எல்லாப் பருவங்களிலும் பாதுகாக்கும்", "ಒಳ್ಳೆಯ ಶೆಡ್ ಪ್ರತಿ ಋತುವಿನಿಂದಲೂ ರಕ್ಷಿಸುತ್ತದೆ", "अच्छा शेड हर मौसम में बचाता है"),
             text: L(
-              "The whole point of correct housing is to protect the animal from extreme weather — summer heat, winter cold, scorching direct sunrays, and strong winds — using the same basic shed, adjusted with simple, low-cost steps like gunny cloth covers and water sprinkling."
+              "The whole point of correct housing is to protect the animal from extreme weather — summer heat, winter cold, scorching direct sunrays, and strong winds — using the same basic shed, adjusted with simple, low-cost steps like gunny cloth covers and water sprinkling.",
+              "సరైన ఆవాసం యొక్క అసలు ఉద్దేశం ఒకే మౌలిక షెడ్‌ను గోనె సంచి గుడ్డ కవర్లు, నీళ్లు చల్లడం వంటి సులభమైన, తక్కువ ఖర్చుతో కూడిన చర్యలతో సర్దుబాటు చేస్తూ, జంతువును తీవ్రమైన వాతావరణం నుండి — వేసవి వేడి, శీతాకాలపు చలి, మండే ఎండ, బలమైన గాలుల నుండి — కాపాడడం.",
+              "சரியான தங்குமிடத்தின் முழு நோக்கம், ஒரே அடிப்படைத் தொழுவத்தை சணல் சாக்குத் துணி மூடல், தண்ணீர் தெளித்தல் போன்ற எளிய, குறைந்த செலவிலான வழிகளால் சரிசெய்து, விலங்கை தீவிரமான வானிலையிலிருந்து — கோடை வெப்பம், குளிர்காலக் குளிர், சுட்டெரிக்கும் நேரடி வெயில், பலத்த காற்று ஆகியவற்றிலிருந்து — பாதுகாப்பதே.",
+              "ಸರಿಯಾದ ವಾಸಸ್ಥಳದ ಮುಖ್ಯ ಉದ್ದೇಶ, ಅದೇ ಮೂಲ ಶೆಡ್ ಅನ್ನು ಗೋಣಿ ಚೀಲದ ಹೊದಿಕೆ, ನೀರು ಚಿಮುಕಿಸುವಂತಹ ಸರಳ, ಕಡಿಮೆ ವೆಚ್ಚದ ಕ್ರಮಗಳಿಂದ ಹೊಂದಿಸುತ್ತಾ, ಪ್ರಾಣಿಯನ್ನು ತೀವ್ರ ಹವಾಮಾನದಿಂದ — ಬೇಸಿಗೆಯ ಬಿಸಿ, ಚಳಿಗಾಲದ ಚಳಿ, ಸುಡುವ ನೇರ ಬಿಸಿಲು ಮತ್ತು ಬಲವಾದ ಗಾಳಿಯಿಂದ — ರಕ್ಷಿಸುವುದು.",
+              "सही आवास का पूरा मकसद यही है कि उसी बुनियादी शेड को बोरी के कपड़े के कवर और पानी छिड़कने जैसे सरल, कम खर्चे वाले उपायों से ढालकर पशु को अत्यधिक मौसम से — गर्मी की तपिश, सर्दी की ठंड, तेज सीधी धूप और तेज हवाओं से — बचाया जाए।"
             ),
           },
         ],
         check: [
           {
             type: "mcq",
-            q: L("What size should the ventilator be, for every animal, at the ceiling level of the shed?"),
-            options: [L("1 foot x 1 foot"), L("2 feet x 2 feet"), L("3 feet x 1 foot"), L("5 feet x 1 foot")],
+            q: L(
+              "What size should the ventilator be, for every animal, at the ceiling level of the shed?",
+              "షెడ్ పైకప్పు స్థాయిలో, ప్రతి పశువుకు వెంటిలేటర్ సైజు ఎంత ఉండాలి?",
+              "தொழுவத்தின் கூரை மட்டத்தில், ஒவ்வொரு விலங்கிற்கும் வென்டிலேட்டரின் அளவு எவ்வளவு இருக்க வேண்டும்?",
+              "ಶೆಡ್‌ನ ಚಾವಣಿ ಮಟ್ಟದಲ್ಲಿ, ಪ್ರತಿ ಪ್ರಾಣಿಗೆ ವೆಂಟಿಲೇಟರ್ ಗಾತ್ರ ಎಷ್ಟಿರಬೇಕು?",
+              "शेड की छत के स्तर पर, हर पशु के लिए वेंटिलेटर का आकार कितना होना चाहिए?"
+            ),
+            options: [L("1 foot x 1 foot", "1 అడుగు x 1 అడుగు", "1 அடி x 1 அடி", "1 ಅಡಿ x 1 ಅಡಿ", "1 फीट x 1 फीट"), L("2 feet x 2 feet", "2 అడుగులు x 2 అడుగులు", "2 அடி x 2 அடி", "2 ಅಡಿ x 2 ಅಡಿ", "2 फीट x 2 फीट"), L("3 feet x 1 foot", "3 అడుగులు x 1 అడుగు", "3 அடி x 1 அடி", "3 ಅಡಿ x 1 ಅಡಿ", "3 फीट x 1 फीट"), L("5 feet x 1 foot", "5 అడుగులు x 1 అడుగు", "5 அடி x 1 அடி", "5 ಅಡಿ x 1 ಅಡಿ", "5 फीट x 1 फीट")],
             answer: 2,
-            explain: L("Every animal should have a ventilator of size 3 feet x 1 feet at the ceiling level."),
+            explain: L(
+              "Every animal should have a ventilator of size 3 feet x 1 feet at the ceiling level.",
+              "ప్రతి పశువుకు పైకప్పు స్థాయిలో 3 అడుగుల x 1 అడుగు సైజు వెంటిలేటర్ ఉండాలి.",
+              "ஒவ்வொரு விலங்கிற்கும் கூரை மட்டத்தில் 3 அடி x 1 அடி அளவுள்ள வென்டிலேட்டர் இருக்க வேண்டும்.",
+              "ಪ್ರತಿ ಪ್ರಾಣಿಗೆ ಚಾವಣಿ ಮಟ್ಟದಲ್ಲಿ 3 ಅಡಿ x 1 ಅಡಿ ಗಾತ್ರದ ವೆಂಟಿಲೇಟರ್ ಇರಬೇಕು.",
+              "हर पशु के लिए छत के स्तर पर 3 फीट x 1 फीट आकार का वेंटिलेटर होना चाहिए।"
+            ),
           },
           {
             type: "truefalse",
-            q: L("Sprinkling water on an animal every 15 to 20 minutes during summer helps reduce heat stress because the water evaporating cools its body."),
+            q: L(
+              "Sprinkling water on an animal every 15 to 20 minutes during summer helps reduce heat stress because the water evaporating cools its body.",
+              "వేసవిలో ప్రతి 15 నుండి 20 నిమిషాలకు జంతువుపై నీళ్లు చల్లడం వేడి ఒత్తిడిని తగ్గిస్తుంది, ఎందుకంటే నీరు ఆవిరవుతూ దాని శరీరాన్ని చల్లబరుస్తుంది.",
+              "கோடையில் ஒவ்வொரு 15 முதல் 20 நிமிடத்துக்கும் விலங்கின் மீது தண்ணீர் தெளிப்பது வெப்ப அழுத்தத்தைக் குறைக்க உதவுகிறது, ஏனெனில் நீர் ஆவியாகும்போது அதன் உடலைக் குளிர்விக்கிறது.",
+              "ಬೇಸಿಗೆಯಲ್ಲಿ ಪ್ರತಿ 15 ರಿಂದ 20 ನಿಮಿಷಗಳಿಗೊಮ್ಮೆ ಪ್ರಾಣಿಯ ಮೇಲೆ ನೀರು ಚಿಮುಕಿಸುವುದು ಶಾಖದ ಒತ್ತಡವನ್ನು ಕಡಿಮೆ ಮಾಡಲು ಸಹಾಯ ಮಾಡುತ್ತದೆ, ಏಕೆಂದರೆ ನೀರು ಆವಿಯಾಗುವಾಗ ಅದರ ದೇಹವನ್ನು ತಂಪಾಗಿಸುತ್ತದೆ.",
+              "गर्मियों में हर 15 से 20 मिनट पर पशु पर पानी छिड़कने से गर्मी का तनाव कम होता है, क्योंकि पानी भाप बनकर उड़ते समय उसके शरीर को ठंडा करता है।"
+            ),
             answer: true,
-            explain: L("Correct — evaporation of the sprinkled water causes cooling of the body, reducing heat stress during summer."),
+            explain: L(
+              "Correct — evaporation of the sprinkled water causes cooling of the body, reducing heat stress during summer.",
+              "సరైనది — చల్లిన నీరు ఆవిరవడం వల్ల శరీరం చల్లబడి, వేసవిలో వేడి ఒత్తిడి తగ్గుతుంది.",
+              "சரி — தெளித்த நீர் ஆவியாவதால் உடல் குளிர்ந்து, கோடையில் வெப்ப அழுத்தம் குறைகிறது.",
+              "ಸರಿ — ಚಿಮುಕಿಸಿದ ನೀರು ಆವಿಯಾಗುವುದರಿಂದ ದೇಹ ತಂಪಾಗಿ, ಬೇಸಿಗೆಯಲ್ಲಿ ಶಾಖದ ಒತ್ತಡ ಕಡಿಮೆಯಾಗುತ್ತದೆ.",
+              "सही — छिड़के गए पानी के भाप बनने से शरीर ठंडा होता है, जिससे गर्मियों में गर्मी का तनाव कम होता है।"
+            ),
           },
         ],
       },
@@ -17109,50 +17309,122 @@ export const MODULES = [
         {
           topicId: "t-m16-floor-drain",
           type: "mcq",
-          q: L("Why is a rough concrete finish preferred for the shed floor, rather than a smooth, polished one?"),
+          q: L(
+            "Why is a rough concrete finish preferred for the shed floor, rather than a smooth, polished one?",
+            "షెడ్ నేలకు నునుపైన, మెరిసే ఫినిషింగ్ కంటే గరుకు కాంక్రీట్ ఫినిషింగ్‌ను ఎందుకు ఇష్టపడతారు?",
+            "தொழுவத் தரைக்கு வழவழப்பான, மெருகூட்டிய பூச்சை விட சொரசொரப்பான காங்கிரீட் பூச்சு ஏன் விரும்பப்படுகிறது?",
+            "ಶೆಡ್ ನೆಲಕ್ಕೆ ನುಣುಪಾದ, ಹೊಳೆಯುವ ಫಿನಿಶ್‌ಗಿಂತ ಒರಟು ಕಾಂಕ್ರೀಟ್ ಫಿನಿಶ್ ಅನ್ನು ಏಕೆ ಆದ್ಯತೆ ನೀಡಲಾಗುತ್ತದೆ?",
+            "शेड के फर्श के लिए चिकनी, चमकदार फिनिश की जगह खुरदरी कंक्रीट फिनिश को क्यों पसंद किया जाता है?"
+          ),
           options: [
-            L("It looks better"),
-            L("It gives the animal's hooves better grip, so it's less likely to slip"),
-            L("It is cheaper to build than any other finish"),
-            L("It removes the need for a drain"),
+            L("It looks better", "ఇది బాగా కనిపిస్తుంది", "இது பார்க்க நன்றாக இருக்கும்", "ಇದು ಚೆನ್ನಾಗಿ ಕಾಣುತ್ತದೆ", "यह देखने में अच्छा लगता है"),
+            L(
+              "It gives the animal's hooves better grip, so it's less likely to slip",
+              "ఇది జంతువు గిట్టలకు మెరుగైన పట్టు ఇస్తుంది, కాబట్టి జారే అవకాశం తక్కువ",
+              "இது விலங்கின் குளம்புகளுக்கு நல்ல பிடிப்பைத் தருவதால் வழுக்கும் வாய்ப்பு குறைவு",
+              "ಇದು ಪ್ರಾಣಿಯ ಗೊರಸುಗಳಿಗೆ ಉತ್ತಮ ಹಿಡಿತ ನೀಡುತ್ತದೆ, ಹಾಗಾಗಿ ಜಾರುವ ಸಾಧ್ಯತೆ ಕಡಿಮೆ",
+              "यह पशु के खुरों को बेहतर पकड़ देता है, इसलिए फिसलने की संभावना कम होती है"
+            ),
+            L("It is cheaper to build than any other finish", "ఇది ఇతర ఏ ఫినిషింగ్ కంటే నిర్మించడానికి చవక", "இது மற்ற எந்தப் பூச்சையும் விட கட்டுவதற்கு மலிவானது", "ಇದು ಬೇರೆ ಯಾವುದೇ ಫಿನಿಶ್‌ಗಿಂತ ಕಟ್ಟಲು ಅಗ್ಗ", "यह किसी भी दूसरी फिनिश से बनाने में सस्ता है"),
+            L("It removes the need for a drain", "ఇది కాలువ అవసరాన్ని తొలగిస్తుంది", "இது வடிகாலின் தேவையை நீக்குகிறது", "ಇದು ಚರಂಡಿಯ ಅಗತ್ಯವನ್ನು ತಪ್ಪಿಸುತ್ತದೆ", "यह नाली की जरूरत को खत्म कर देता है"),
           ],
           answer: 1,
-          explain: L("A rough concrete finish gives hooves better grip and reduces the chance of an animal slipping."),
+          explain: L(
+            "A rough concrete finish gives hooves better grip and reduces the chance of an animal slipping.",
+            "గరుకు కాంక్రీట్ ఫినిషింగ్ గిట్టలకు మెరుగైన పట్టు ఇచ్చి, జంతువు జారిపోయే అవకాశాన్ని తగ్గిస్తుంది.",
+            "சொரசொரப்பான காங்கிரீட் பூச்சு குளம்புகளுக்கு நல்ல பிடிப்பைத் தந்து, விலங்கு வழுக்கி விழும் வாய்ப்பைக் குறைக்கிறது.",
+            "ಒರಟು ಕಾಂಕ್ರೀಟ್ ಫಿನಿಶ್ ಗೊರಸುಗಳಿಗೆ ಉತ್ತಮ ಹಿಡಿತ ನೀಡಿ, ಪ್ರಾಣಿ ಜಾರಿ ಬೀಳುವ ಸಾಧ್ಯತೆಯನ್ನು ಕಡಿಮೆ ಮಾಡುತ್ತದೆ.",
+            "खुरदरी कंक्रीट फिनिश खुरों को बेहतर पकड़ देती है और पशु के फिसलने की संभावना घटाती है।"
+          ),
         },
         {
           topicId: "t-m16-floor-drain",
           type: "truefalse",
-          q: L("Improper flooring and poor drainage can make an animal more likely to develop hoof (foot) problems."),
+          q: L(
+            "Improper flooring and poor drainage can make an animal more likely to develop hoof (foot) problems.",
+            "సరిగా లేని నేల మరియు నీరు సరిగా పోని కాలువ వల్ల జంతువుకు గిట్టల (కాళ్ళ) సమస్యలు వచ్చే అవకాశం ఎక్కువ.",
+            "சரியில்லாத தரை மற்றும் மோசமான வடிகால் விலங்கிற்கு குளம்பு (கால்) பிரச்சினைகள் வர வாய்ப்பை அதிகரிக்கும்.",
+            "ಸರಿಯಿಲ್ಲದ ನೆಲ ಮತ್ತು ಕಳಪೆ ಚರಂಡಿ ವ್ಯವಸ್ಥೆ ಪ್ರಾಣಿಗೆ ಗೊರಸು (ಕಾಲಿನ) ಸಮಸ್ಯೆಗಳು ಬರುವ ಸಾಧ್ಯತೆಯನ್ನು ಹೆಚ್ಚಿಸಬಹುದು.",
+            "खराब फर्श और खराब जल निकासी से पशु को खुर (पैर) की समस्याएं होने की संभावना बढ़ सकती है।"
+          ),
           answer: true,
-          explain: L("Correct — improper housing, including poor flooring and drainage, predisposes an animal to hoof conditions."),
+          explain: L(
+            "Correct — improper housing, including poor flooring and drainage, predisposes an animal to hoof conditions.",
+            "సరైనది — సరిగా లేని నేల, కాలువతో సహా సరిగా లేని ఆవాసం జంతువుకు గిట్టల సమస్యలు వచ్చే ప్రమాదాన్ని పెంచుతుంది.",
+            "சரி — சரியில்லாத தரை மற்றும் வடிகால் உட்பட மோசமான தங்குமிடம் விலங்கிற்கு குளம்புப் பிரச்சினைகள் வரும் வாய்ப்பை அதிகரிக்கிறது.",
+            "ಸರಿ — ಸರಿಯಿಲ್ಲದ ನೆಲ ಮತ್ತು ಚರಂಡಿ ಸೇರಿದಂತೆ ಕಳಪೆ ವಾಸಸ್ಥಳ ಪ್ರಾಣಿಗೆ ಗೊರಸಿನ ಸಮಸ್ಯೆಗಳು ಬರುವ ಸಾಧ್ಯತೆಯನ್ನು ಹೆಚ್ಚಿಸುತ್ತದೆ.",
+            "सही — खराब फर्श और नाली समेत खराब आवास से पशु को खुर की समस्याएं होने का खतरा बढ़ जाता है।"
+          ),
         },
         {
           topicId: "t-m16-ventilation",
           type: "mcq",
-          q: L("What should be used to cover the three open sides of the shed during winter?"),
-          options: [L("Plastic sheeting"), L("Gunny cloth"), L("Extra concrete walls"), L("Nothing — winter needs no covering")],
+          q: L(
+            "What should be used to cover the three open sides of the shed during winter?",
+            "శీతాకాలంలో షెడ్ మూడు తెరిచిన వైపులను కప్పడానికి ఏమి వాడాలి?",
+            "குளிர்காலத்தில் தொழுவத்தின் மூன்று திறந்த பக்கங்களை மூட எதைப் பயன்படுத்த வேண்டும்?",
+            "ಚಳಿಗಾಲದಲ್ಲಿ ಶೆಡ್‌ನ ಮೂರು ತೆರೆದ ಬದಿಗಳನ್ನು ಮುಚ್ಚಲು ಏನನ್ನು ಬಳಸಬೇಕು?",
+            "सर्दियों में शेड के तीन खुले किनारों को ढकने के लिए क्या इस्तेमाल करना चाहिए?"
+          ),
+          options: [L("Plastic sheeting", "ప్లాస్టిక్ షీట్లు", "பிளாஸ்டிக் தாள்கள்", "ಪ್ಲಾಸ್ಟಿಕ್ ಶೀಟ್‌ಗಳು", "प्लास्टिक की चादरें"), L("Gunny cloth", "గోనె సంచి గుడ్డ", "சணல் சாக்குத் துணி", "ಗೋಣಿ ಚೀಲದ ಬಟ್ಟೆ", "बोरी का कपड़ा"), L("Extra concrete walls", "అదనపు కాంక్రీట్ గోడలు", "கூடுதல் காங்கிரீட் சுவர்கள்", "ಹೆಚ್ಚುವರಿ ಕಾಂಕ್ರೀಟ್ ಗೋಡೆಗಳು", "अतिरिक्त कंक्रीट की दीवारें"), L("Nothing — winter needs no covering", "ఏమీ వద్దు — శీతాకాలానికి ఏ కప్పు అవసరం లేదు", "எதுவும் வேண்டாம் — குளிர்காலத்துக்கு மூடல் தேவையில்லை", "ಏನೂ ಬೇಡ — ಚಳಿಗಾಲಕ್ಕೆ ಯಾವುದೇ ಹೊದಿಕೆ ಬೇಕಿಲ್ಲ", "कुछ नहीं — सर्दी में किसी ढकने की जरूरत नहीं")],
           answer: 1,
-          explain: L("During winter, the remaining three open sides may be covered by gunny cloth to keep the shed warm."),
+          explain: L(
+            "During winter, the remaining three open sides may be covered by gunny cloth to keep the shed warm.",
+            "శీతాకాలంలో, షెడ్‌ను వెచ్చగా ఉంచడానికి మిగిలిన మూడు తెరిచిన వైపులను గోనె సంచి గుడ్డతో కప్పవచ్చు.",
+            "குளிர்காலத்தில், தொழுவத்தை கதகதப்பாக வைத்திருக்க மீதமுள்ள மூன்று திறந்த பக்கங்களை சணல் சாக்குத் துணியால் மூடலாம்.",
+            "ಚಳಿಗಾಲದಲ್ಲಿ, ಶೆಡ್ ಬೆಚ್ಚಗಿರಲು ಉಳಿದ ಮೂರು ತೆರೆದ ಬದಿಗಳನ್ನು ಗೋಣಿ ಚೀಲದ ಬಟ್ಟೆಯಿಂದ ಮುಚ್ಚಬಹುದು.",
+            "सर्दियों में, शेड को गर्म रखने के लिए बाकी तीन खुले किनारों को बोरी के कपड़े से ढका जा सकता है।"
+          ),
         },
         {
           topicId: "t-m16-ventilation",
           type: "truefalse",
-          q: L("During summer, reduced feed intake caused by heat stress can lead to decreased milk production."),
+          q: L(
+            "During summer, reduced feed intake caused by heat stress can lead to decreased milk production.",
+            "వేసవిలో, వేడి ఒత్తిడి వల్ల మేత తీసుకోవడం తగ్గితే పాల ఉత్పత్తి తగ్గవచ్చు.",
+            "கோடையில், வெப்ப அழுத்தத்தால் தீவனம் உண்ணுவது குறைந்தால் பால் உற்பத்தி குறையலாம்.",
+            "ಬೇಸಿಗೆಯಲ್ಲಿ, ಶಾಖದ ಒತ್ತಡದಿಂದ ಮೇವು ತಿನ್ನುವುದು ಕಡಿಮೆಯಾದರೆ ಹಾಲಿನ ಉತ್ಪಾದನೆ ಕುಸಿಯಬಹುದು.",
+            "गर्मियों में, गर्मी के तनाव से चारा कम खाने पर दूध उत्पादन घट सकता है।"
+          ),
           answer: true,
-          explain: L("Correct — heat stress reduces feed intake, and that in turn results in decreased milk production."),
+          explain: L(
+            "Correct — heat stress reduces feed intake, and that in turn results in decreased milk production.",
+            "సరైనది — వేడి ఒత్తిడి మేత తీసుకోవడాన్ని తగ్గిస్తుంది, దాని ఫలితంగా పాల ఉత్పత్తి తగ్గుతుంది.",
+            "சரி — வெப்ப அழுத்தம் தீவனம் உண்ணுவதைக் குறைக்கிறது, அதனால் பால் உற்பத்தி குறைகிறது.",
+            "ಸರಿ — ಶಾಖದ ಒತ್ತಡ ಮೇವು ತಿನ್ನುವುದನ್ನು ಕಡಿಮೆ ಮಾಡುತ್ತದೆ, ಅದರಿಂದ ಹಾಲಿನ ಉತ್ಪಾದನೆ ಕಡಿಮೆಯಾಗುತ್ತದೆ.",
+            "सही — गर्मी का तनाव चारा खाना कम कर देता है, और इसके नतीजे में दूध उत्पादन घट जाता है।"
+          ),
         },
         {
           topicId: "t-m16-ventilation",
           type: "mcq",
-          q: L("What is the overall purpose of building a proper animal shed, according to this lesson?"),
+          q: L(
+            "What is the overall purpose of building a proper animal shed, according to this lesson?",
+            "ఈ పాఠం ప్రకారం, సరైన పశువుల షెడ్ నిర్మించడం యొక్క మొత్తం ఉద్దేశం ఏమిటి?",
+            "இந்தப் பாடத்தின்படி, சரியான கால்நடை தொழுவத்தை அமைப்பதன் ஒட்டுமொத்த நோக்கம் என்ன?",
+            "ಈ ಪಾಠದ ಪ್ರಕಾರ, ಸರಿಯಾದ ಪ್ರಾಣಿ ಶೆಡ್ ನಿರ್ಮಿಸುವುದರ ಒಟ್ಟಾರೆ ಉದ್ದೇಶ ಏನು?",
+            "इस पाठ के अनुसार, सही पशु शेड बनाने का कुल मकसद क्या है?"
+          ),
           options: [
-            L("To protect the animal from extreme weather — heat, cold, direct sun and wind"),
-            L("Only to store feed"),
-            L("Only to make milking more convenient"),
-            L("To keep animals from grazing"),
+            L(
+              "To protect the animal from extreme weather — heat, cold, direct sun and wind",
+              "జంతువును తీవ్రమైన వాతావరణం నుండి — వేడి, చలి, నేరుగా వచ్చే ఎండ, గాలి నుండి — కాపాడడం",
+              "விலங்கை தீவிரமான வானிலையிலிருந்து — வெப்பம், குளிர், நேரடி வெயில் மற்றும் காற்றிலிருந்து — பாதுகாப்பது",
+              "ಪ್ರಾಣಿಯನ್ನು ತೀವ್ರ ಹವಾಮಾನದಿಂದ — ಬಿಸಿ, ಚಳಿ, ನೇರ ಬಿಸಿಲು ಮತ್ತು ಗಾಳಿಯಿಂದ — ರಕ್ಷಿಸುವುದು",
+              "पशु को अत्यधिक मौसम से — गर्मी, ठंड, सीधी धूप और हवा से — बचाना"
+            ),
+            L("Only to store feed", "మేత నిల్వ చేయడానికి మాత్రమే", "தீவனத்தைச் சேமிக்க மட்டும்", "ಮೇವು ಸಂಗ್ರಹಿಸಲು ಮಾತ್ರ", "सिर्फ चारा रखने के लिए"),
+            L("Only to make milking more convenient", "పాలు పితకడం మరింత సౌకర్యంగా చేయడానికి మాత్రమే", "பால் கறப்பதை மேலும் வசதியாக்க மட்டும்", "ಹಾಲು ಕರೆಯುವುದನ್ನು ಹೆಚ್ಚು ಅನುಕೂಲಕರವಾಗಿಸಲು ಮಾತ್ರ", "सिर्फ दूध दुहना ज्यादा सुविधाजनक बनाने के लिए"),
+            L("To keep animals from grazing", "జంతువులు మేయకుండా ఆపడానికి", "விலங்குகள் மேய்வதைத் தடுக்க", "ಪ್ರಾಣಿಗಳು ಮೇಯದಂತೆ ತಡೆಯಲು", "पशुओं को चरने से रोकने के लिए"),
           ],
           answer: 0,
-          explain: L("The core purpose of proper housing is to protect the animal from extreme weather conditions of summer, winter, direct sunrays and winds."),
+          explain: L(
+            "The core purpose of proper housing is to protect the animal from extreme weather conditions of summer, winter, direct sunrays and winds.",
+            "సరైన ఆవాసం యొక్క ప్రధాన ఉద్దేశం వేసవి, శీతాకాలం, నేరుగా పడే సూర్యకిరణాలు, గాలుల వంటి తీవ్ర వాతావరణ పరిస్థితుల నుండి జంతువును కాపాడడం.",
+            "சரியான தங்குமிடத்தின் முக்கிய நோக்கம், கோடை, குளிர்காலம், நேரடி சூரியக் கதிர்கள் மற்றும் காற்றுகள் போன்ற தீவிர வானிலை நிலைகளிலிருந்து விலங்கைப் பாதுகாப்பதே.",
+            "ಸರಿಯಾದ ವಾಸಸ್ಥಳದ ಮುಖ್ಯ ಉದ್ದೇಶ, ಬೇಸಿಗೆ, ಚಳಿಗಾಲ, ನೇರ ಸೂರ್ಯಕಿರಣ ಮತ್ತು ಗಾಳಿಗಳಂತಹ ತೀವ್ರ ಹವಾಮಾನ ಪರಿಸ್ಥಿತಿಗಳಿಂದ ಪ್ರಾಣಿಯನ್ನು ರಕ್ಷಿಸುವುದು.",
+            "सही आवास का मूल मकसद पशु को गर्मी, सर्दी, सीधी सूरज की किरणों और हवाओं जैसे अत्यधिक मौसम की स्थितियों से बचाना है।"
+          ),
         },
       ],
     },
