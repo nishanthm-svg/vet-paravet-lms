@@ -7301,8 +7301,8 @@ export const MODULES = [
   {
     id: "m9",
     number: 9,
-    title: L("Mastitis & Diseases of the Teats"),
-    subtitle: L("Recognising problems with the udder and teats early."),
+    title: L("Mastitis & Diseases of the Teats", "మాస్టిటిస్ (పొదుగువాపు) & చనుమొనల వ్యాధులు", "மாஸ்டைடிஸ் (மடிவீக்கம்) & காம்புகளின் நோய்கள்", "ಮಾಸ್ಟೈಟಿಸ್ (ಕೆಚ್ಚಲು ಬಾವು) ಮತ್ತು ಮೊಲೆತೊಟ್ಟುಗಳ ರೋಗಗಳು", "थनैला रोग (मैस्टाइटिस) और थन की चूचियों के रोग"),
+    subtitle: L("Recognising problems with the udder and teats early.", "పొదుగు మరియు చనుమొనల సమస్యలను ముందే గుర్తించడం.", "மடி மற்றும் காம்புகளின் பிரச்சினைகளை முன்கூட்டியே கண்டறிதல்.", "ಕೆಚ್ಚಲು ಮತ್ತು ಮೊಲೆತೊಟ್ಟುಗಳ ಸಮಸ್ಯೆಗಳನ್ನು ಬೇಗನೆ ಗುರುತಿಸುವುದು.", "थन और चूचियों की समस्याओं को जल्दी पहचानना।"),
     icon: "droplet",
     available: true,
     lessons: [
@@ -7311,72 +7311,92 @@ export const MODULES = [
   // ==================================================================
   {
     id: "m9-l1",
-    title: L("Understanding Mastitis: The Acute Form"),
+    title: L("Understanding Mastitis: The Acute Form", "మాస్టిటిస్ అర్థం చేసుకోవడం: తీవ్రమైన రూపం", "மாஸ்டைடிஸைப் புரிந்துகொள்ளுதல்: தீவிர வடிவம்", "ಮಾಸ್ಟೈಟಿಸ್ ಅರ್ಥಮಾಡಿಕೊಳ್ಳುವುದು: ತೀವ್ರ ರೂಪ", "मैस्टाइटिस को समझना: तीव्र रूप"),
     estMinutes: 9,
     hook: [
       {
         type: "hero",
-        heading: L("The Udder Can Tell You Something Is Wrong — If You Know What to Look For"),
+        heading: L("The Udder Can Tell You Something Is Wrong — If You Know What to Look For", "పొదుగు ఏదో తప్పు ఉందని చెబుతుంది — ఏం చూడాలో మీకు తెలిస్తే", "மடி ஏதோ தவறு என்று சொல்லும் — எதைப் பார்க்க வேண்டும் என்று தெரிந்தால்", "ಕೆಚ್ಚಲು ಏನೋ ತಪ್ಪಿದೆ ಎಂದು ಹೇಳುತ್ತದೆ — ಏನನ್ನು ನೋಡಬೇಕೆಂದು ನಿಮಗೆ ತಿಳಿದಿದ್ದರೆ", "थन बता देता है कि कुछ गड़बड़ है — अगर आपको पता हो कि क्या देखना है"),
         text: L(
-          "Mastitis is one of the biggest causes of loss on a dairy farm — it can quietly cut milk yield, permanently damage the udder, or in bad cases even kill the animal. The good news: you don't need to be a vet to notice the first signs. This lesson starts from zero — what the udder actually is, what mastitis means, and how to recognise its most visible form."
+          "Mastitis is one of the biggest causes of loss on a dairy farm — it can quietly cut milk yield, permanently damage the udder, or in bad cases even kill the animal. The good news: you don't need to be a vet to notice the first signs. This lesson starts from zero — what the udder actually is, what mastitis means, and how to recognise its most visible form.",
+          "డెయిరీ ఫారంలో నష్టాలకు మాస్టిటిస్ అతిపెద్ద కారణాలలో ఒకటి — ఇది నెమ్మదిగా పాల దిగుబడిని తగ్గించవచ్చు, పొదుగును శాశ్వతంగా పాడుచేయవచ్చు, తీవ్రమైన సందర్భాల్లో పశువు ప్రాణాలే తీయవచ్చు. మంచి విషయం ఏమిటంటే: మొదటి సంకేతాలను గుర్తించడానికి మీరు వెట్ కానవసరం లేదు. ఈ పాఠం మొదటి నుండి మొదలవుతుంది — పొదుగు అసలు ఏమిటి, మాస్టిటిస్ అంటే ఏమిటి, దాని అత్యంత స్పష్టమైన రూపాన్ని ఎలా గుర్తించాలి.",
+          "பால் பண்ணையில் இழப்புக்கு மாஸ்டைடிஸ் மிகப்பெரிய காரணங்களில் ஒன்று — இது அமைதியாக பால் அளவைக் குறைக்கலாம், மடியை நிரந்தரமாக சேதப்படுத்தலாம், மோசமான நிலையில் மாட்டின் உயிரையே பறிக்கலாம். நல்ல செய்தி: முதல் அறிகுறிகளைக் கவனிக்க நீங்கள் கால்நடை மருத்துவராக இருக்க வேண்டியதில்லை. இந்தப் பாடம் ஆரம்பத்திலிருந்தே தொடங்குகிறது — மடி என்பது உண்மையில் என்ன, மாஸ்டைடிஸ் என்றால் என்ன, அதன் மிகத் தெளிவான வடிவத்தை எப்படி அடையாளம் காண்பது.",
+          "ಡೇರಿ ಫಾರ್ಮ್‌ನಲ್ಲಿ ನಷ್ಟಕ್ಕೆ ಮಾಸ್ಟೈಟಿಸ್ ದೊಡ್ಡ ಕಾರಣಗಳಲ್ಲಿ ಒಂದು — ಇದು ಸದ್ದಿಲ್ಲದೆ ಹಾಲಿನ ಇಳುವರಿ ಕಡಿಮೆ ಮಾಡಬಹುದು, ಕೆಚ್ಚಲನ್ನು ಶಾಶ್ವತವಾಗಿ ಹಾಳುಮಾಡಬಹುದು, ಕೆಟ್ಟ ಸಂದರ್ಭಗಳಲ್ಲಿ ಪ್ರಾಣಿಯ ಜೀವವನ್ನೇ ತೆಗೆಯಬಹುದು. ಒಳ್ಳೆಯ ಸುದ್ದಿ: ಮೊದಲ ಲಕ್ಷಣಗಳನ್ನು ಗಮನಿಸಲು ನೀವು ಪಶುವೈದ್ಯರಾಗಿರಬೇಕಾಗಿಲ್ಲ. ಈ ಪಾಠ ಮೊದಲಿನಿಂದ ಶುರುವಾಗುತ್ತದೆ — ಕೆಚ್ಚಲು ಎಂದರೆ ನಿಜವಾಗಿ ಏನು, ಮಾಸ್ಟೈಟಿಸ್ ಎಂದರೆ ಏನು, ಅದರ ಅತ್ಯಂತ ಸ್ಪಷ್ಟ ರೂಪವನ್ನು ಹೇಗೆ ಗುರುತಿಸುವುದು.",
+          "मैस्टाइटिस (थनैला) डेयरी फार्म पर नुकसान की सबसे बड़ी वजहों में से एक है — यह चुपचाप दूध कम कर सकता है, थन को हमेशा के लिए खराब कर सकता है, और बुरी हालत में पशु की जान भी ले सकता है। अच्छी बात यह है कि पहले लक्षण पहचानने के लिए आपको डॉक्टर होने की ज़रूरत नहीं है। यह पाठ बिल्कुल शुरू से बताता है — थन असल में क्या है, मैस्टाइटिस का मतलब क्या है, और इसका सबसे साफ़ दिखने वाला रूप कैसे पहचानें।"
         ),
       },
     ],
     topics: [
       {
         id: "t-m9-what-is-mastitis",
-        title: L("What Is Mastitis, and Why It Matters"),
+        title: L("What Is Mastitis, and Why It Matters", "మాస్టిటిస్ అంటే ఏమిటి, ఇది ఎందుకు ముఖ్యం", "மாஸ்டைடிஸ் என்றால் என்ன, அது ஏன் முக்கியம்", "ಮಾಸ್ಟೈಟಿಸ್ ಎಂದರೇನು, ಅದು ಏಕೆ ಮುಖ್ಯ", "मैस्टाइटिस क्या है और यह क्यों मायने रखता है"),
         teach: [
             {
               type: "photo",
               src: "assets/illustration-m9-mastitis.png",
-              alt: L("Illustrated cross-section diagram comparing a healthy udder quarter to one infected with mastitis, showing swelling and clotted milk."),
-              caption: L("Illustration: a healthy udder quarter compared to one with mastitis — infection causes swelling, and the milk itself changes, with visible clots or flakes."),
+              alt: L("Illustrated cross-section diagram comparing a healthy udder quarter to one infected with mastitis, showing swelling and clotted milk.", "ఆరోగ్యకరమైన పొదుగు భాగాన్ని, మాస్టిటిస్ సోకిన భాగంతో పోలుస్తూ చూపే చిత్ర పటం — వాపు మరియు గడ్డకట్టిన పాలు కనిపిస్తున్నాయి.", "ஆரோக்கியமான மடிப் பகுதியையும் மாஸ்டைடிஸ் தொற்று ஏற்பட்ட பகுதியையும் ஒப்பிடும் வரைபடம் — வீக்கமும் கட்டியான பாலும் காட்டப்பட்டுள்ளன.", "ಆರೋಗ್ಯಕರ ಕೆಚ್ಚಲಿನ ಭಾಗವನ್ನು ಮಾಸ್ಟೈಟಿಸ್ ಸೋಂಕಿತ ಭಾಗದೊಂದಿಗೆ ಹೋಲಿಸುವ ಚಿತ್ರ — ಊತ ಮತ್ತು ಗಡ್ಡೆಗಟ್ಟಿದ ಹಾಲು ತೋರಿಸಲಾಗಿದೆ.", "स्वस्थ थन के एक हिस्से की तुलना मैस्टाइटिस से संक्रमित हिस्से से करने वाला चित्र — सूजन और जमा हुआ दूध दिख रहा है।"),
+              caption: L("Illustration: a healthy udder quarter compared to one with mastitis — infection causes swelling, and the milk itself changes, with visible clots or flakes.", "చిత్రం: ఆరోగ్యకరమైన పొదుగు భాగం, మాస్టిటిస్ ఉన్న భాగంతో పోలిక — ఇన్ఫెక్షన్ వల్ల వాపు వస్తుంది, పాలే మారిపోతాయి, గడ్డలు లేదా తునకలు కనిపిస్తాయి.", "படம்: ஆரோக்கியமான மடிப் பகுதியும் மாஸ்டைடிஸ் உள்ள பகுதியும் — தொற்றால் வீக்கம் ஏற்படுகிறது, பாலே மாறிவிடுகிறது, கட்டிகள் அல்லது துணுக்குகள் தெரியும்.", "ಚಿತ್ರ: ಆರೋಗ್ಯಕರ ಕೆಚ್ಚಲಿನ ಭಾಗ ಮತ್ತು ಮಾಸ್ಟೈಟಿಸ್ ಇರುವ ಭಾಗದ ಹೋಲಿಕೆ — ಸೋಂಕಿನಿಂದ ಊತ ಬರುತ್ತದೆ, ಹಾಲೇ ಬದಲಾಗುತ್ತದೆ, ಗಡ್ಡೆ ಅಥವಾ ಚೂರುಗಳು ಕಾಣುತ್ತವೆ.", "चित्र: स्वस्थ थन के हिस्से की तुलना मैस्टाइटिस वाले हिस्से से — संक्रमण से सूजन आती है, दूध ही बदल जाता है, और उसमें थक्के या फुटकी दिखते हैं।"),
             },
             {
               type: "photo",
               src: "assets/photo-m9-healthy-udder.jpg",
-              alt: L("Rear view of a healthy dairy cow's full, evenly balanced udder, standing calmly on straw bedding"),
-              caption: L("A healthy udder: four separate quarters, evenly shaped, with no swelling or asymmetry on any one side."),
+              alt: L("Rear view of a healthy dairy cow's full, evenly balanced udder, standing calmly on straw bedding", "గడ్డి పరుపుపై ప్రశాంతంగా నిలబడిన ఆరోగ్యకరమైన పాడి ఆవు నిండైన, సమతుల్యమైన పొదుగు వెనుక వైపు నుండి కనిపిస్తున్న దృశ్యం", "வைக்கோல் படுக்கையில் அமைதியாக நிற்கும் ஆரோக்கியமான பால் பசுவின் நிறைவான, சமமான மடியின் பின்புறத் தோற்றம்", "ಹುಲ್ಲಿನ ಹಾಸಿಗೆಯ ಮೇಲೆ ಶಾಂತವಾಗಿ ನಿಂತಿರುವ ಆರೋಗ್ಯಕರ ಹಾಲಿನ ಹಸುವಿನ ತುಂಬಿದ, ಸಮತೋಲನದ ಕೆಚ್ಚಲಿನ ಹಿಂಭಾಗದ ನೋಟ", "पुआल के बिछौने पर शांत खड़ी स्वस्थ दुधारू गाय के भरे, बराबर आकार वाले थन का पीछे से दिखने वाला दृश्य"),
+              caption: L("A healthy udder: four separate quarters, evenly shaped, with no swelling or asymmetry on any one side.", "ఆరోగ్యకరమైన పొదుగు: నాలుగు వేర్వేరు భాగాలు, సమానమైన ఆకారం, ఏ వైపునా వాపు లేదా అసమానత లేదు.", "ஆரோக்கியமான மடி: நான்கு தனித்தனி பகுதிகள், சமமான வடிவம், எந்தப் பக்கத்திலும் வீக்கமோ சமமின்மையோ இல்லை.", "ಆರೋಗ್ಯಕರ ಕೆಚ್ಚಲು: ನಾಲ್ಕು ಪ್ರತ್ಯೇಕ ಭಾಗಗಳು, ಸಮನಾದ ಆಕಾರ, ಯಾವ ಬದಿಯಲ್ಲೂ ಊತ ಅಥವಾ ಅಸಮತೋಲನ ಇಲ್ಲ.", "स्वस्थ थन: चार अलग हिस्से, बराबर आकार, किसी भी तरफ़ सूजन या ऊँच-नीच नहीं।"),
             },
           {
             type: "text",
-            heading: L("The Udder: Four Separate Rooms, Not One"),
+            heading: L("The Udder: Four Separate Rooms, Not One", "పొదుగు: ఒకటి కాదు, నాలుగు వేర్వేరు గదులు", "மடி: ஒன்றல்ல, நான்கு தனித்தனி அறைகள்", "ಕೆಚ್ಚಲು: ಒಂದಲ್ಲ, ನಾಲ್ಕು ಪ್ರತ್ಯೇಕ ಕೋಣೆಗಳು", "थन: एक नहीं, चार अलग कमरे"),
             html: L(
-              "The <b>udder</b> is the milk-producing organ hanging below a cow or buffalo's belly, and each of the finger-like parts hanging from it that milk actually comes out of is called a <b>teat</b>. What most people don't realise is that the udder is not one single bag — it's divided into four separate sections, and each one works completely on its own. Think of the udder like a house with four separate rooms, each with its own door. A problem in one room doesn't automatically spread to the others — which is exactly why one part of an udder can be sick while the rest stays completely normal."
+              "The <b>udder</b> is the milk-producing organ hanging below a cow or buffalo's belly, and each of the finger-like parts hanging from it that milk actually comes out of is called a <b>teat</b>. What most people don't realise is that the udder is not one single bag — it's divided into four separate sections, and each one works completely on its own. Think of the udder like a house with four separate rooms, each with its own door. A problem in one room doesn't automatically spread to the others — which is exactly why one part of an udder can be sick while the rest stays completely normal.",
+              "<b>పొదుగు</b> అనేది ఆవు లేదా గేదె పొట్ట కింద వేలాడే పాలు తయారుచేసే అవయవం, దాని నుండి వేలాడే వేళ్ల లాంటి భాగాలలో నుండే పాలు వస్తాయి, వాటిని <b>చనుమొన</b> అంటారు. చాలా మందికి తెలియనిది ఏమిటంటే, పొదుగు ఒకే సంచి కాదు — అది నాలుగు వేర్వేరు భాగాలుగా విభజించబడి ఉంటుంది, ప్రతి భాగం పూర్తిగా స్వతంత్రంగా పనిచేస్తుంది. పొదుగును నాలుగు గదులున్న ఇల్లుగా ఊహించుకోండి, ప్రతి గదికి దాని సొంత తలుపు ఉంటుంది. ఒక గదిలో సమస్య వస్తే అది ఇతర గదులకు ఆటోమేటిగ్గా వ్యాపించదు — అందుకే పొదుగులో ఒక భాగం జబ్బు పడినా మిగతావి పూర్తిగా మామూలుగా ఉండగలవు.",
+              "<b>மடி</b> என்பது பசு அல்லது எருமையின் வயிற்றுக்குக் கீழே தொங்கும் பால் உற்பத்தி செய்யும் உறுப்பு; அதிலிருந்து தொங்கும் விரல் போன்ற பகுதிகளிலிருந்துதான் பால் வெளிவருகிறது, அவற்றை <b>காம்பு</b> என்பார்கள். பலருக்குத் தெரியாதது என்னவென்றால், மடி ஒரே பை அல்ல — அது நான்கு தனிப் பகுதிகளாகப் பிரிக்கப்பட்டுள்ளது, ஒவ்வொன்றும் முழுவதும் தனியாகச் செயல்படும். மடியை நான்கு அறைகள் கொண்ட வீடாக நினையுங்கள், ஒவ்வொரு அறைக்கும் தனிக் கதவு உண்டு. ஓர் அறையில் பிரச்சினை என்றால் அது மற்ற அறைகளுக்குத் தானாகப் பரவாது — அதனால்தான் மடியின் ஒரு பகுதி நோயுற்றிருக்கும்போது மற்றவை முற்றிலும் சாதாரணமாக இருக்க முடிகிறது.",
+              "<b>ಕೆಚ್ಚಲು</b> ಎಂದರೆ ಹಸು ಅಥವಾ ಎಮ್ಮೆಯ ಹೊಟ್ಟೆಯ ಕೆಳಗೆ ನೇತಾಡುವ ಹಾಲು ಉತ್ಪಾದಿಸುವ ಅಂಗ, ಅದರಿಂದ ನೇತಾಡುವ ಬೆರಳಿನಂತಹ ಭಾಗಗಳಿಂದಲೇ ಹಾಲು ಹೊರಬರುತ್ತದೆ, ಅವನ್ನು <b>ಮೊಲೆತೊಟ್ಟು</b> ಎನ್ನುತ್ತಾರೆ. ಹೆಚ್ಚಿನವರಿಗೆ ತಿಳಿಯದ ವಿಷಯವೆಂದರೆ, ಕೆಚ್ಚಲು ಒಂದೇ ಚೀಲವಲ್ಲ — ಅದು ನಾಲ್ಕು ಪ್ರತ್ಯೇಕ ಭಾಗಗಳಾಗಿ ವಿಂಗಡಣೆಯಾಗಿದೆ, ಪ್ರತಿಯೊಂದೂ ಸಂಪೂರ್ಣ ಸ್ವತಂತ್ರವಾಗಿ ಕೆಲಸ ಮಾಡುತ್ತದೆ. ಕೆಚ್ಚಲನ್ನು ನಾಲ್ಕು ಕೋಣೆಗಳಿರುವ ಮನೆ ಎಂದು ಕಲ್ಪಿಸಿಕೊಳ್ಳಿ, ಪ್ರತಿ ಕೋಣೆಗೂ ಅದರದೇ ಬಾಗಿಲು. ಒಂದು ಕೋಣೆಯ ಸಮಸ್ಯೆ ತಾನಾಗಿ ಇತರ ಕೋಣೆಗಳಿಗೆ ಹರಡುವುದಿಲ್ಲ — ಅದಕ್ಕಾಗಿಯೇ ಕೆಚ್ಚಲಿನ ಒಂದು ಭಾಗ ರೋಗಗ್ರಸ್ತವಾಗಿದ್ದರೂ ಉಳಿದವು ಸಂಪೂರ್ಣ ಸಾಮಾನ್ಯವಾಗಿರಲು ಸಾಧ್ಯ.",
+              "<b>थन</b> गाय या भैंस के पेट के नीचे लटकने वाला दूध बनाने वाला अंग है, और इससे लटकने वाले उँगली जैसे जिन हिस्सों से दूध निकलता है उन्हें <b>चूची</b> कहते हैं। ज़्यादातर लोगों को यह पता नहीं होता कि थन एक ही थैली नहीं है — यह चार अलग हिस्सों में बँटा होता है, और हर हिस्सा पूरी तरह अपने आप काम करता है। थन को चार कमरों वाले घर की तरह समझिए, जिसके हर कमरे का अपना दरवाज़ा है। एक कमरे की दिक्कत अपने आप दूसरे कमरों में नहीं फैलती — इसीलिए थन का एक हिस्सा बीमार हो सकता है और बाकी बिल्कुल ठीक रह सकते हैं।"
             ),
           },
           {
             type: "glossary",
-            term: L("Udder"),
-            meaning: L("The milk-producing organ that hangs below a cow or buffalo's belly, between the back legs."),
+            term: L("Udder", "పొదుగు", "மடி", "ಕೆಚ್ಚಲು", "थन"),
+            meaning: L("The milk-producing organ that hangs below a cow or buffalo's belly, between the back legs.", "ఆవు లేదా గేదె పొట్ట కింద, వెనుక కాళ్ల మధ్య వేలాడే పాలు తయారుచేసే అవయవం.", "பசு அல்லது எருமையின் வயிற்றுக்குக் கீழே, பின்னங்கால்களுக்கு நடுவே தொங்கும் பால் உற்பத்தி செய்யும் உறுப்பு.", "ಹಸು ಅಥವಾ ಎಮ್ಮೆಯ ಹೊಟ್ಟೆಯ ಕೆಳಗೆ, ಹಿಂಗಾಲುಗಳ ನಡುವೆ ನೇತಾಡುವ ಹಾಲು ಉತ್ಪಾದಿಸುವ ಅಂಗ.", "गाय या भैंस के पेट के नीचे, पिछली टाँगों के बीच लटकने वाला दूध बनाने वाला अंग।"),
           },
           {
             type: "glossary",
-            term: L("Teat"),
-            meaning: L("One of the four finger-like parts of the udder that milk actually flows out of — what you hold onto during milking."),
+            term: L("Teat", "చనుమొన", "காம்பு", "ಮೊಲೆತೊಟ್ಟು", "चूची"),
+            meaning: L("One of the four finger-like parts of the udder that milk actually flows out of — what you hold onto during milking.", "పొదుగులోని నాలుగు వేళ్ల లాంటి భాగాలలో ఒకటి, దాని నుండే పాలు నిజంగా వస్తాయి — పాలు పితికేటప్పుడు మీరు పట్టుకునేది ఇదే.", "மடியில் உள்ள நான்கு விரல் போன்ற பகுதிகளில் ஒன்று, இதிலிருந்துதான் பால் உண்மையில் வெளிவருகிறது — பால் கறக்கும்போது நீங்கள் பிடிப்பது இதைத்தான்.", "ಕೆಚ್ಚಲಿನ ನಾಲ್ಕು ಬೆರಳಿನಂತಹ ಭಾಗಗಳಲ್ಲಿ ಒಂದು, ಇದರಿಂದಲೇ ಹಾಲು ನಿಜವಾಗಿ ಹೊರಬರುತ್ತದೆ — ಹಾಲು ಕರೆಯುವಾಗ ನೀವು ಹಿಡಿಯುವುದು ಇದನ್ನೇ.", "थन के चार उँगली जैसे हिस्सों में से एक, जिससे दूध असल में निकलता है — दूध दुहते समय आप इसी को पकड़ते हैं।"),
           },
           {
             type: "glossary",
-            term: L("Quarter"),
+            term: L("Quarter", "భాగం (క్వార్టర్)", "பகுதி (குவார்ட்டர்)", "ಭಾಗ (ಕ್ವಾರ್ಟರ್)", "हिस्सा (क्वार्टर)"),
             meaning: L(
-              "One of the four separate sections that make up the udder, each with its own teat. Because the quarters are separate, an infection can affect just one quarter while the other three stay perfectly healthy."
+              "One of the four separate sections that make up the udder, each with its own teat. Because the quarters are separate, an infection can affect just one quarter while the other three stay perfectly healthy.",
+              "పొదుగును ఏర్పరిచే నాలుగు వేర్వేరు భాగాలలో ఒకటి, ప్రతి దానికి దాని సొంత చనుమొన ఉంటుంది. భాగాలు వేర్వేరుగా ఉండటం వల్ల, ఇన్ఫెక్షన్ ఒక్క భాగానికే రావచ్చు, మిగతా మూడు పూర్తిగా ఆరోగ్యంగా ఉంటాయి.",
+              "மடியை உருவாக்கும் நான்கு தனிப் பகுதிகளில் ஒன்று, ஒவ்வொன்றுக்கும் தனிக் காம்பு உண்டு. பகுதிகள் தனித்தனியாக இருப்பதால், தொற்று ஒரே பகுதியை மட்டும் பாதிக்கலாம், மற்ற மூன்றும் முழு ஆரோக்கியத்துடன் இருக்கும்.",
+              "ಕೆಚ್ಚಲನ್ನು ರೂಪಿಸುವ ನಾಲ್ಕು ಪ್ರತ್ಯೇಕ ಭಾಗಗಳಲ್ಲಿ ಒಂದು, ಪ್ರತಿಯೊಂದಕ್ಕೂ ಅದರದೇ ಮೊಲೆತೊಟ್ಟು ಇರುತ್ತದೆ. ಭಾಗಗಳು ಬೇರೆಬೇರೆಯಾಗಿರುವುದರಿಂದ, ಸೋಂಕು ಒಂದೇ ಭಾಗಕ್ಕೆ ಬರಬಹುದು, ಉಳಿದ ಮೂರು ಸಂಪೂರ್ಣ ಆರೋಗ್ಯವಾಗಿರುತ್ತವೆ.",
+              "थन को बनाने वाले चार अलग हिस्सों में से एक, हर हिस्से की अपनी चूची होती है। हिस्से अलग-अलग होने की वजह से संक्रमण सिर्फ़ एक हिस्से में हो सकता है जबकि बाकी तीन बिल्कुल स्वस्थ रहते हैं।"
             ),
           },
           {
             type: "glossary",
-            term: L("Mastitis"),
+            term: L("Mastitis", "మాస్టిటిస్ (పొదుగువాపు)", "மாஸ்டைடிஸ் (மடிவீக்கம்)", "ಮಾಸ್ಟೈಟಿಸ್ (ಕೆಚ್ಚಲು ಬಾವು)", "मैस्टाइटिस (थनैला)"),
             meaning: L(
-              "Inflammation (swelling and irritation) of the udder, almost always caused by germs getting in — most often through the opening of the teat. It is one of the most damaging problems a dairy animal can have."
+              "Inflammation (swelling and irritation) of the udder, almost always caused by germs getting in — most often through the opening of the teat. It is one of the most damaging problems a dairy animal can have.",
+              "పొదుగులో వాపు మరియు మంట, దాదాపు ఎల్లప్పుడూ క్రిములు లోపలికి వెళ్లడం వల్ల వస్తుంది — ఎక్కువగా చనుమొన రంధ్రం ద్వారా. డెయిరీ పశువుకు వచ్చే అత్యంత హానికరమైన సమస్యలలో ఇది ఒకటి.",
+              "மடியில் ஏற்படும் வீக்கமும் எரிச்சலும், கிட்டத்தட்ட எப்போதும் கிருமிகள் உள்ளே நுழைவதால் வரும் — பெரும்பாலும் காம்பின் துளை வழியாக. பால் மாடுகளுக்கு வரக்கூடிய மிகவும் பாதிப்பான பிரச்சினைகளில் இதுவும் ஒன்று.",
+              "ಕೆಚ್ಚಲಿನಲ್ಲಿ ಉಂಟಾಗುವ ಊತ ಮತ್ತು ಉರಿ, ಬಹುತೇಕ ಯಾವಾಗಲೂ ಕ್ರಿಮಿಗಳು ಒಳಗೆ ಸೇರುವುದರಿಂದ ಬರುತ್ತದೆ — ಹೆಚ್ಚಾಗಿ ಮೊಲೆತೊಟ್ಟಿನ ತೆರೆಯುವಿಕೆಯ ಮೂಲಕ. ಹಾಲಿನ ಪ್ರಾಣಿಗೆ ಬರಬಹುದಾದ ಅತ್ಯಂತ ಹಾನಿಕರ ಸಮಸ್ಯೆಗಳಲ್ಲಿ ಇದೂ ಒಂದು.",
+              "थन में सूजन और जलन, जो लगभग हमेशा कीटाणुओं के अंदर जाने से होती है — ज़्यादातर चूची के छेद से। दुधारू पशु को होने वाली सबसे नुकसानदेह समस्याओं में से यह एक है।"
             ),
           },
           {
             type: "stat-grid",
             items: [
               {
-                label: L("Exotic and crossbred cows"),
+                label: L("Exotic and crossbred cows", "విదేశీ మరియు సంకర జాతి ఆవులు", "வெளிநாட்டு மற்றும் கலப்பின பசுக்கள்", "ವಿದೇಶಿ ಮತ್ತು ಮಿಶ್ರತಳಿ ಹಸುಗಳು", "विदेशी और संकर नस्ल की गायें"),
                 text: L(
-                  "Pure exotic breeds (such as HF and Jersey) are the MOST likely to get mastitis, with crossbred cows next most likely."
+                  "Pure exotic breeds (such as HF and Jersey) are the MOST likely to get mastitis, with crossbred cows next most likely.",
+                  "హెచ్‌ఎఫ్, జెర్సీ వంటి శుద్ధ విదేశీ జాతులకు మాస్టిటిస్ వచ్చే అవకాశం అత్యధికం, ఆ తర్వాత సంకర జాతి ఆవులకు ఎక్కువ.",
+                  "எச்எஃப், ஜெர்சி போன்ற தூய வெளிநாட்டு இனங்களுக்கு மாஸ்டைடிஸ் வர வாய்ப்பு மிக அதிகம், அதற்கடுத்து கலப்பின பசுக்களுக்கு.",
+                  "ಎಚ್‌ಎಫ್, ಜರ್ಸಿ ಮುಂತಾದ ಶುದ್ಧ ವಿದೇಶಿ ತಳಿಗಳಿಗೆ ಮಾಸ್ಟೈಟಿಸ್ ಬರುವ ಸಾಧ್ಯತೆ ಅತ್ಯಧಿಕ, ನಂತರ ಮಿಶ್ರತಳಿ ಹಸುಗಳಿಗೆ ಹೆಚ್ಚು.",
+                  "एचएफ और जर्सी जैसी शुद्ध विदेशी नस्लों में मैस्टाइटिस होने की संभावना सबसे ज़्यादा होती है, उसके बाद संकर नस्ल की गायों में।"
                 ),
               },
               {
