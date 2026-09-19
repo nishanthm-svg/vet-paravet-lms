@@ -4567,8 +4567,8 @@ export const MODULES = [
   {
     id: "m8",
     number: 8,
-    title: L("Diseases Due to Faulty Feeding"),
-    subtitle: L("Health problems caused by wrong or unbalanced feeding, and how to avoid them."),
+    title: L("Diseases Due to Faulty Feeding", "తప్పుడు మేత వల్ల వచ్చే వ్యాధులు", "தவறான தீவனத்தால் ஏற்படும் நோய்கள்", "ತಪ್ಪಾದ ಆಹಾರದಿಂದ ಬರುವ ರೋಗಗಳು", "गलत खिलाने से होने वाली बीमारियाँ"),
+    subtitle: L("Health problems caused by wrong or unbalanced feeding, and how to avoid them.", "తప్పుడు లేదా అసమతుల్యమైన మేత వల్ల వచ్చే ఆరోగ్య సమస్యలు, మరియు వాటిని ఎలా నివారించాలో.", "தவறான அல்லது சமநிலையற்ற தீவனத்தால் ஏற்படும் உடல்நல பிரச்சினைகள், மற்றும் அவற்றை எப்படி தவிர்ப்பது.", "ತಪ್ಪಾದ ಅಥವಾ ಅಸಮತೋಲಿತ ಆಹಾರದಿಂದ ಬರುವ ಆರೋಗ್ಯ ಸಮಸ್ಯೆಗಳು, ಮತ್ತು ಅವುಗಳನ್ನು ಹೇಗೆ ತಪ್ಪಿಸುವುದು.", "गलत या असंतुलित तरीके से खिलाने से होने वाली स्वास्थ्य समस्याएँ, और इन्हें कैसे रोका जाए।"),
     icon: "wheat",
     available: true,
     lessons: [
@@ -4577,101 +4577,125 @@ export const MODULES = [
   // ==================================================================
   {
     id: "m8-l1",
-    title: L("Bloat and Acidosis: When the Rumen Goes Wrong"),
+    title: L("Bloat and Acidosis: When the Rumen Goes Wrong", "బ్లోట్ మరియు అసిడోసిస్: రుమెన్ తప్పు జరిగినప్పుడు", "வயிறு உப்புதல் மற்றும் அமிலத்தன்மை: ருமன் தவறாகும்போது", "ಬ್ಲೋಟ್ ಮತ್ತು ಆಸಿಡೋಸಿಸ್: ರುಮೆನ್ ಹಾಳಾದಾಗ", "ब्लोट और एसिडोसिस: जब रूमेन बिगड़ जाए"),
     estMinutes: 9,
     hook: [
       {
         type: "hero",
-        heading: L("The Stomach Has Its Own Balance — Feeding Mistakes Upset It"),
+        heading: L("The Stomach Has Its Own Balance — Feeding Mistakes Upset It", "కడుపుకు దాని స్వంత సమతుల్యత ఉంటుంది — మేత తప్పులు దాన్ని దెబ్బతీస్తాయి", "வயிற்றுக்கு அதன் சொந்த சமநிலை உண்டு — தீவன தவறுகள் அதை குலைக்கும்", "ಹೊಟ್ಟೆಗೆ ತನ್ನದೇ ಆದ ಸಮತೋಲನವಿದೆ — ಆಹಾರ ತಪ್ಪುಗಳು ಅದನ್ನು ಹಾಳುಮಾಡುತ್ತವೆ", "पेट का अपना एक संतुलन होता है — खिलाने की गलतियाँ इसे बिगाड़ देती हैं"),
         text: L(
-          "A cow or buffalo's stomach has four chambers, and the largest one — the rumen — is really a living fermentation tank full of helpful microbes that break down feed. Any sudden or wrong change in feeding can throw that balance off, letting harmful microbes take over. This lesson covers two feeding-related problems that follow from exactly that: bloat and acidosis."
+          "A cow or buffalo's stomach has four chambers, and the largest one — the rumen — is really a living fermentation tank full of helpful microbes that break down feed. Any sudden or wrong change in feeding can throw that balance off, letting harmful microbes take over. This lesson covers two feeding-related problems that follow from exactly that: bloat and acidosis.",
+          "ఆవు లేదా గేదె కడుపులో నాలుగు గదులు ఉంటాయి, వాటిలో అతిపెద్దదైన రుమెన్ నిజానికి మేతను విచ్ఛిన్నం చేసే ఉపయోగకరమైన సూక్ష్మజీవులతో నిండిన సజీవ కిణ్వన ట్యాంకు లాంటిది. మేతలో ఏదైనా అకస్మాత్తు లేదా తప్పు మార్పు ఈ సమతుల్యతను దెబ్బతీసి, హానికరమైన సూక్ష్మజీవులు అధిపత్యం చెలాయించడానికి దారితీయవచ్చు. ఈ పాఠం సరిగ్గా దీని వల్ల వచ్చే రెండు మేత సంబంధిత సమస్యలను కవర్ చేస్తుంది: బ్లోట్ మరియు అసిడోసిస్.",
+          "பசு அல்லது எருமையின் வயிற்றில் நான்கு அறைகள் உள்ளன, அவற்றில் மிகப் பெரியது — ருமன் — உண்மையில் தீவனத்தை உடைக்கும் பயனுள்ள நுண்ணுயிரிகள் நிறைந்த ஒரு உயிருள்ள புளிப்பாக்கும் தொட்டி. தீவனத்தில் ஏற்படும் எந்த திடீர் அல்லது தவறான மாற்றமும் இந்த சமநிலையை குலைத்து, தீங்கு விளைவிக்கும் நுண்ணுயிரிகள் ஆதிக்கம் செலுத்த வழிவகுக்கும். இந்த பாடம் சரியாக இதனால் ஏற்படும் இரண்டு தீவன தொடர்பான பிரச்சினைகளை உள்ளடக்கியது: வயிறு உப்புதல் மற்றும் அமிலத்தன்மை.",
+          "ಹಸು ಅಥವಾ ಎಮ್ಮೆಯ ಹೊಟ್ಟೆಯಲ್ಲಿ ನಾಲ್ಕು ಕೋಣೆಗಳಿವೆ, ಅವುಗಳಲ್ಲಿ ಅತಿ ದೊಡ್ಡದಾದ ರುಮೆನ್ ನಿಜವಾಗಿ ಆಹಾರವನ್ನು ಒಡೆಯುವ ಉಪಯುಕ್ತ ಸೂಕ್ಷ್ಮಜೀವಿಗಳಿಂದ ತುಂಬಿದ ಜೀವಂತ ಹುದುಗುವಿಕೆ ತೊಟ್ಟಿಯಂತೆ. ಆಹಾರದಲ್ಲಿ ಯಾವುದೇ ಹಠಾತ್ ಅಥವಾ ತಪ್ಪಾದ ಬದಲಾವಣೆ ಈ ಸಮತೋಲನವನ್ನು ಕೆಡಿಸಿ, ಹಾನಿಕಾರಕ ಸೂಕ್ಷ್ಮಜೀವಿಗಳು ಪ್ರಾಬಲ್ಯ ಸಾಧಿಸಲು ಕಾರಣವಾಗಬಹುದು. ಈ ಪಾಠ ನಿಖರವಾಗಿ ಇದರಿಂದ ಬರುವ ಎರಡು ಆಹಾರ ಸಂಬಂಧಿತ ಸಮಸ್ಯೆಗಳನ್ನು ಒಳಗೊಂಡಿದೆ: ಬ್ಲೋಟ್ ಮತ್ತು ಆಸಿಡೋಸಿಸ್.",
+          "गाय या भैंस के पेट में चार कक्ष होते हैं, और उनमें सबसे बड़ा — रूमेन — असल में चारे को तोड़ने वाले उपयोगी सूक्ष्मजीवों से भरा एक जीवित किण्वन टैंक है। खिलाने में कोई भी अचानक या गलत बदलाव इस संतुलन को बिगाड़ सकता है, जिससे हानिकारक सूक्ष्मजीव हावी हो सकते हैं। यह पाठ ठीक इसी वजह से होने वाली दो चारा-संबंधी समस्याओं को कवर करता है: ब्लोट और एसिडोसिस।"
         ),
       },
     ],
     topics: [
       {
         id: "t-m8-bloat",
-        title: L("Bloat"),
+        title: L("Bloat", "బ్లోట్", "வயிறு உப்புதல்", "ಬ್ಲೋಟ್", "ब्लोट"),
         teach: [
             {
               type: "photo",
               src: "assets/illustration-m8-bloat.png",
-              alt: L("Illustrated cutaway diagram of a cow showing gas trapped inside the rumen, causing the left side of the body to swell outward."),
-              caption: L("Illustration: what's happening inside a bloated cow — gas trapped in the rumen has nowhere to escape, and pushes the left side outward."),
+              alt: L("Illustrated cutaway diagram of a cow showing gas trapped inside the rumen, causing the left side of the body to swell outward.", "రుమెన్ లోపల గ్యాస్ చిక్కుకుపోవడం వల్ల శరీరం ఎడమ వైపు బయటకు ఉబ్బడాన్ని చూపే ఆవు లోపలి భాగం చిత్రం.", "ருமனுக்குள் வாயு சிக்கிக்கொண்டு, உடலின் இடது பக்கம் வெளியே வீங்குவதை காட்டும் பசுவின் உட்பக்க வரைபடம்.", "ರುಮೆನ್ ಒಳಗೆ ಅನಿಲ ಸಿಕ್ಕಿಹಾಕಿಕೊಂಡು, ದೇಹದ ಎಡಭಾಗ ಹೊರಗೆ ಊದಿಕೊಳ್ಳುವುದನ್ನು ತೋರಿಸುವ ಹಸುವಿನ ಒಳಭಾಗದ ಚಿತ್ರ.", "रूमेन के अंदर गैस फंसने से शरीर का बायां हिस्सा बाहर की ओर फूलने को दिखाने वाला गाय का भीतरी चित्र।"),
+              caption: L("Illustration: what's happening inside a bloated cow — gas trapped in the rumen has nowhere to escape, and pushes the left side outward.", "చిత్రం: బ్లోట్ ఉన్న ఆవు లోపల ఏమి జరుగుతోంది — రుమెన్‌లో చిక్కుకున్న గ్యాస్‌కు బయటకు వెళ్లడానికి దారి లేక, ఎడమ వైపును బయటకు నెట్టుతుంది.", "படம்: வயிறு உப்பிய பசுவின் உள்ளே என்ன நடக்கிறது — ருமனில் சிக்கிய வாயு வெளியேற வழியில்லாமல், இடது பக்கத்தை வெளியே தள்ளுகிறது.", "ಚಿತ್ರ: ಉಬ್ಬಿದ ಹಸುವಿನ ಒಳಗೆ ಏನಾಗುತ್ತಿದೆ — ರುಮೆನ್‌ನಲ್ಲಿ ಸಿಕ್ಕಿಬಿದ್ದ ಅನಿಲಕ್ಕೆ ಹೊರಹೋಗಲು ದಾರಿಯಿಲ್ಲದೆ, ಎಡಭಾಗವನ್ನು ಹೊರಗೆ ತಳ್ಳುತ್ತದೆ.", "चित्र: फूले हुए पेट वाली गाय के अंदर क्या हो रहा है — रूमेन में फंसी गैस को बाहर निकलने का रास्ता नहीं मिलता, और यह बाईं तरफ को बाहर धकेलती है।"),
             },
           {
             type: "text",
-            heading: L("What Is Bloat?"),
+            heading: L("What Is Bloat?", "బ్లోట్ అంటే ఏమిటి?", "வயிறு உப்புதல் என்றால் என்ன?", "ಬ್ಲೋಟ್ ಎಂದರೇನು?", "ब्लोट क्या है?"),
             html: L(
-              "<b>Bloat</b> is a kind of indigestion where gas builds up inside the rumen (the animal's largest stomach chamber) faster than it can escape. Normally, gas produced during digestion is released by burping. In bloat, that gas gets trapped and keeps building up, and the belly swells up like a balloon."
+              "<b>Bloat</b> is a kind of indigestion where gas builds up inside the rumen (the animal's largest stomach chamber) faster than it can escape. Normally, gas produced during digestion is released by burping. In bloat, that gas gets trapped and keeps building up, and the belly swells up like a balloon.",
+              "<b>బ్లోట్</b> అనేది ఒక రకమైన అజీర్ణం, దీనిలో రుమెన్ (పశువు కడుపులో అతిపెద్ద గది) లోపల గ్యాస్ బయటకు వెళ్లగలిగే దానికంటే వేగంగా పేరుకుపోతుంది. సాధారణంగా, జీర్ణక్రియ సమయంలో ఉత్పత్తి అయ్యే గ్యాస్ త్రేన్పు ద్వారా బయటకు వెళుతుంది. బ్లోట్‌లో, ఆ గ్యాస్ చిక్కుకుని పేరుకుపోతూనే ఉంటుంది, మరియు పొట్ట బెలూన్‌లా ఉబ్బుతుంది.",
+              "<b>வயிறு உப்புதல்</b> என்பது ஒரு வகை செரிமானக் கோளாறு, இதில் ருமனுக்குள் (விலங்கின் மிகப் பெரிய வயிற்று அறை) வாயு வெளியேற முடிவதை விட வேகமாக சேர்ந்துவிடும். பொதுவாக, செரிமான நேரத்தில் உற்பத்தியாகும் வாயு ஏப்பம் மூலம் வெளியேறும். வயிறு உப்புதலில், அந்த வாயு சிக்கிக்கொண்டு தொடர்ந்து சேர்கிறது, வயிறு பலூன் போல வீங்குகிறது.",
+              "<b>ಬ್ಲೋಟ್</b> ಎಂಬುದು ಒಂದು ರೀತಿಯ ಅಜೀರ್ಣ, ಇದರಲ್ಲಿ ರುಮೆನ್ (ಪ್ರಾಣಿಯ ಅತಿ ದೊಡ್ಡ ಹೊಟ್ಟೆಯ ಕೋಣೆ) ಒಳಗೆ ಅನಿಲ ಹೊರಹೋಗುವುದಕ್ಕಿಂತ ವೇಗವಾಗಿ ಸಂಗ್ರಹವಾಗುತ್ತದೆ. ಸಾಮಾನ್ಯವಾಗಿ, ಜೀರ್ಣಕ್ರಿಯೆಯ ಸಮಯದಲ್ಲಿ ಉತ್ಪತ್ತಿಯಾಗುವ ಅನಿಲ ತೇಗುವ ಮೂಲಕ ಹೊರಹೋಗುತ್ತದೆ. ಬ್ಲೋಟ್‌ನಲ್ಲಿ, ಆ ಅನಿಲ ಸಿಕ್ಕಿಬಿದ್ದು ಸಂಗ್ರಹವಾಗುತ್ತಲೇ ಇರುತ್ತದೆ, ಹೊಟ್ಟೆ ಬಲೂನಿನಂತೆ ಊದಿಕೊಳ್ಳುತ್ತದೆ.",
+              "<b>ब्लोट</b> एक तरह की अपच है जिसमें रूमेन (पशु के पेट का सबसे बड़ा कक्ष) के अंदर गैस बाहर निकलने से ज़्यादा तेज़ी से जमा हो जाती है। आमतौर पर, पाचन के दौरान बनने वाली गैस डकार के ज़रिए बाहर निकल जाती है। ब्लोट में, वह गैस फंस जाती है और लगातार जमा होती रहती है, और पेट गुब्बारे की तरह फूल जाता है।"
             ),
           },
           {
             type: "glossary",
-            term: L("Rumen"),
+            term: L("Rumen", "రుమెన్", "ருமன்", "ರುಮೆನ್", "रूमेन"),
             meaning: L(
-              "The largest of the four stomach chambers in a cow or buffalo, sitting mainly on the left side of the belly, where microbes break down grass and feed."
+              "The largest of the four stomach chambers in a cow or buffalo, sitting mainly on the left side of the belly, where microbes break down grass and feed.",
+              "ఆవు లేదా గేదె కడుపులోని నాలుగు గదులలో అతిపెద్దది, ఇది ప్రధానంగా పొట్ట ఎడమ వైపున ఉంటుంది, ఇక్కడ సూక్ష్మజీవులు గడ్డి మరియు మేతను విచ్ఛిన్నం చేస్తాయి.",
+              "பசு அல்லது எருமையின் வயிற்றின் நான்கு அறைகளில் மிகப் பெரியது, இது பெரும்பாலும் வயிற்றின் இடது பக்கத்தில் அமைந்துள்ளது, இங்கே நுண்ணுயிரிகள் புல் மற்றும் தீவனத்தை உடைக்கின்றன.",
+              "ಹಸು ಅಥವಾ ಎಮ್ಮೆಯ ಹೊಟ್ಟೆಯ ನಾಲ್ಕು ಕೋಣೆಗಳಲ್ಲಿ ಅತಿ ದೊಡ್ಡದು, ಇದು ಮುಖ್ಯವಾಗಿ ಹೊಟ್ಟೆಯ ಎಡಭಾಗದಲ್ಲಿ ಇರುತ್ತದೆ, ಇಲ್ಲಿ ಸೂಕ್ಷ್ಮಜೀವಿಗಳು ಹುಲ್ಲು ಮತ್ತು ಆಹಾರವನ್ನು ಒಡೆಯುತ್ತವೆ.",
+              "गाय या भैंस के पेट के चार कक्षों में सबसे बड़ा, जो मुख्यतः पेट के बाईं तरफ होता है, जहाँ सूक्ष्मजीव घास और चारे को तोड़ते हैं।"
             ),
           },
           {
             type: "stat-grid",
             items: [
               {
-                label: L("Lush, wet pasture"),
-                text: L("Grazing on young, lush pasture — especially if it's wet — is a common cause. Plants like clover, lucerne and alfalfa are especially risky, but any fast-growing plant can cause it."),
+                label: L("Lush, wet pasture", "పచ్చని, తడి గడ్డి భూమి", "பசுமையான, ஈரமான மேய்ச்சல் நிலம்", "ಹಸಿರಾದ, ಒದ್ದೆಯಾದ ಹುಲ್ಲುಗಾವಲು", "हरी-भरी, गीली चरागाह"),
+                text: L("Grazing on young, lush pasture — especially if it's wet — is a common cause. Plants like clover, lucerne and alfalfa are especially risky, but any fast-growing plant can cause it.", "లేత, పచ్చని గడ్డి మేత మీద మేయడం — ముఖ్యంగా అది తడిగా ఉంటే — ఒక సాధారణ కారణం. క్లోవర్, లూసర్న్, అల్ఫాల్ఫా వంటి మొక్కలు ముఖ్యంగా ప్రమాదకరం, కానీ వేగంగా పెరిగే ఏ మొక్క అయినా దీనికి కారణం కావచ్చు.", "இளம், பசுமையான மேய்ச்சல் நிலத்தில் — குறிப்பாக ஈரமாக இருந்தால் — மேய்வது ஒரு பொதுவான காரணம். க்ளோவர், லூசர்ன், அல்பால்பா போன்ற தாவரங்கள் குறிப்பாக ஆபத்தானவை, ஆனால் வேகமாக வளரும் எந்த தாவரமும் இதை ஏற்படுத்தலாம்.", "ಎಳೆಯ, ಹಸಿರಾದ ಹುಲ್ಲುಗಾವಲಿನಲ್ಲಿ — ವಿಶೇಷವಾಗಿ ಅದು ಒದ್ದೆಯಾಗಿದ್ದರೆ — ಮೇಯುವುದು ಸಾಮಾನ್ಯ ಕಾರಣ. ಕ್ಲೋವರ್, ಲುಸರ್ನ್, ಆಲ್ಫಾಲ್ಫಾದಂತಹ ಸಸ್ಯಗಳು ವಿಶೇಷವಾಗಿ ಅಪಾಯಕಾರಿ, ಆದರೆ ವೇಗವಾಗಿ ಬೆಳೆಯುವ ಯಾವುದೇ ಸಸ್ಯ ಇದಕ್ಕೆ ಕಾರಣವಾಗಬಹುದು.", "नई, हरी-भरी चरागाह में — खासकर अगर वह गीली हो — चरना एक आम कारण है। क्लोवर, लूसर्न और अल्फाल्फा जैसे पौधे खासकर जोखिम भरे होते हैं, पर तेज़ी से बढ़ने वाला कोई भी पौधा इसका कारण बन सकता है।"),
               },
               {
-                label: L("Something stuck in the throat"),
-                text: L("A foreign object stuck in the food pipe (choking) can block gas from escaping upward, so it builds up in the rumen instead."),
+                label: L("Something stuck in the throat", "గొంతులో ఏదైనా చిక్కుకోవడం", "தொண்டையில் ஏதாவது சிக்கிக்கொள்வது", "ಗಂಟಲಿನಲ್ಲಿ ಏನಾದರೂ ಸಿಕ್ಕಿಹಾಕಿಕೊಳ್ಳುವುದು", "गले में कुछ फंस जाना"),
+                text: L("A foreign object stuck in the food pipe (choking) can block gas from escaping upward, so it builds up in the rumen instead.", "ఆహార నాళంలో (గొంతులో) ఒక వస్తువు చిక్కుకోవడం వల్ల గ్యాస్ పైకి వెళ్లకుండా అడ్డుకోవచ్చు, దాంతో అది రుమెన్‌లో పేరుకుపోతుంది.", "உணவுக் குழாயில் (தொண்டையில்) ஒரு பொருள் சிக்கிக்கொள்வது வாயு மேலே செல்வதைத் தடுக்கலாம், அதனால் அது ருமனில் சேர்ந்துவிடும்.", "ಆಹಾರ ನಾಳದಲ್ಲಿ (ಗಂಟಲಿನಲ್ಲಿ) ಒಂದು ವಸ್ತು ಸಿಕ್ಕಿಹಾಕಿಕೊಳ್ಳುವುದರಿಂದ ಅನಿಲ ಮೇಲಕ್ಕೆ ಹೋಗುವುದನ್ನು ತಡೆಯಬಹುದು, ಆಗ ಅದು ರುಮೆನ್‌ನಲ್ಲಿ ಸಂಗ್ರಹವಾಗುತ್ತದೆ.", "खाने की नली (गले) में कोई चीज़ फंस जाने से गैस ऊपर नहीं निकल पाती, और इसके बजाय रूमेन में जमा हो जाती है।"),
               },
               {
-                label: L("Leftover food"),
-                text: L("Feeding leftover food, such as dry bread, can also cause bloat."),
+                label: L("Leftover food", "మిగిలిపోయిన ఆహారం", "மீதமுள்ள உணவு", "ಉಳಿದ ಆಹಾರ", "बचा हुआ खाना"),
+                text: L("Feeding leftover food, such as dry bread, can also cause bloat.", "పొడి రొట్టె వంటి మిగిలిపోయిన ఆహారం తినిపించడం కూడా బ్లోట్‌కు కారణం కావచ్చు.", "உலர் ரொட்டி போன்ற மீதமுள்ள உணவை கொடுப்பதும் வயிறு உப்புதலை ஏற்படுத்தலாம்.", "ಒಣ ಬ್ರೆಡ್‌ನಂತಹ ಉಳಿದ ಆಹಾರ ನೀಡುವುದೂ ಬ್ಲೋಟ್‌ಗೆ ಕಾರಣವಾಗಬಹುದು.", "सूखी रोटी जैसा बचा हुआ खाना खिलाना भी ब्लोट का कारण बन सकता है।"),
               },
             ],
           },
           {
             type: "text",
-            heading: L("Signs of Bloat"),
+            heading: L("Signs of Bloat", "బ్లోట్ లక్షణాలు", "வயிறு உப்புதலின் அறிகுறிகள்", "ಬ್ಲೋಟ್‌ನ ಲಕ್ಷಣಗಳು", "ब्लोट के लक्षण"),
             html: L(
-              "Watch for the <b>left side of the belly (the left flank) swelling outward</b> like a balloon. The animal may kick at its own belly, or stand with its back legs spread wide apart. It will have difficulty breathing. In severe, untreated cases, the animal can die from <b>asphyxiation</b> — meaning the swollen rumen presses so hard it can no longer get enough air."
+              "Watch for the <b>left side of the belly (the left flank) swelling outward</b> like a balloon. The animal may kick at its own belly, or stand with its back legs spread wide apart. It will have difficulty breathing. In severe, untreated cases, the animal can die from <b>asphyxiation</b> — meaning the swollen rumen presses so hard it can no longer get enough air.",
+              "<b>పొట్ట ఎడమ వైపు (ఎడమ పార్శ్వం) బెలూన్‌లా బయటకు ఉబ్బడాన్ని</b> గమనించండి. పశువు తన స్వంత పొట్టను తన్నవచ్చు, లేదా వెనుక కాళ్లను వెడల్పుగా విస్తరించి నిలబడవచ్చు. దానికి శ్వాస తీసుకోవడంలో ఇబ్బంది ఉంటుంది. తీవ్రమైన, చికిత్స చేయని కేసుల్లో, పశువు <b>ఊపిరాడకపోవడం</b> వల్ల చనిపోవచ్చు — అంటే ఉబ్బిన రుమెన్ చాలా గట్టిగా నొక్కి, ఇక సరిపడా గాలి అందదు.",
+              "<b>வயிற்றின் இடது பக்கம் (இடது விலா) பலூன் போல வெளியே வீங்குவதை</b> கவனியுங்கள். விலங்கு தன் சொந்த வயிற்றை உதைக்கலாம், அல்லது பின்கால்களை அகலமாக விரித்து நிற்கலாம். அதற்கு மூச்சு விடுவதில் சிரமம் இருக்கும். கடுமையான, சிகிச்சை அளிக்காத நிலைகளில், விலங்கு <b>மூச்சுத் திணறல்</b> காரணமாக இறக்கலாம் — அதாவது வீங்கிய ருமன் மிக அழுத்தமாக அழுத்தி, இனி போதுமான காற்று கிடைக்காது.",
+              "<b>ಹೊಟ್ಟೆಯ ಎಡಭಾಗ (ಎಡ ಪಕ್ಕೆ) ಬಲೂನಿನಂತೆ ಹೊರಗೆ ಉಬ್ಬುವುದನ್ನು</b> ಗಮನಿಸಿ. ಪ್ರಾಣಿ ತನ್ನ ಸ್ವಂತ ಹೊಟ್ಟೆಯನ್ನು ಒದೆಯಬಹುದು, ಅಥವಾ ಹಿಂಗಾಲುಗಳನ್ನು ಅಗಲವಾಗಿ ಹರಡಿ ನಿಲ್ಲಬಹುದು. ಅದಕ್ಕೆ ಉಸಿರಾಟದಲ್ಲಿ ತೊಂದರೆ ಇರುತ್ತದೆ. ತೀವ್ರ, ಚಿಕಿತ್ಸೆ ನೀಡದ ಪ್ರಕರಣಗಳಲ್ಲಿ, ಪ್ರಾಣಿ <b>ಉಸಿರುಗಟ್ಟುವಿಕೆ</b>ಯಿಂದ ಸಾಯಬಹುದು — ಅಂದರೆ ಊದಿಕೊಂಡ ರುಮೆನ್ ಎಷ್ಟು ಬಲವಾಗಿ ಒತ್ತುತ್ತದೆಂದರೆ ಇನ್ನು ಸಾಕಷ್ಟು ಗಾಳಿ ಸಿಗುವುದಿಲ್ಲ.",
+              "<b>पेट के बाईं तरफ (बाईं बाजू) के गुब्बारे की तरह बाहर फूलने</b> पर ध्यान दें। पशु अपने ही पेट को लात मार सकता है, या पिछले पैर चौड़े करके खड़ा हो सकता है। उसे सांस लेने में तकलीफ होगी। गंभीर, बिना इलाज वाले मामलों में, पशु <b>दम घुटने</b> से मर सकता है — यानी फूला हुआ रूमेन इतनी ज़ोर से दबाव डालता है कि उसे पर्याप्त हवा नहीं मिल पाती।"
             ),
           },
           {
             type: "callout",
             style: "warning",
-            heading: L("Bloat Can Turn Fatal Very Fast — Treat It as an Emergency"),
+            heading: L("Bloat Can Turn Fatal Very Fast — Treat It as an Emergency", "ब्लोट వేగంగా ప్రాణాంతకంగా మారవచ్చు — దీన్ని అత్యవసరంగా పరిగణించండి", "வயிறு உப்புதல் மிக விரைவாக உயிருக்கு ஆபத்தாக மாறலாம் — இதை அவசரமாக கருதுங்கள்", "ಬ್ಲೋಟ್ ಬಹಳ ಬೇಗ ಮಾರಣಾಂತಿಕವಾಗಬಹುದು — ಇದನ್ನು ತುರ್ತು ಎಂದು ಪರಿಗಣಿಸಿ", "ब्लोट बहुत तेज़ी से जानलेवा हो सकता है — इसे आपातकाल समझें"),
             text: L(
-              "Bloat can go from mild to fatal quickly. If you see the left flank ballooning out along with difficulty breathing, this is a true emergency. Do not wait and watch — get the owner and a veterinarian or experienced handler involved immediately. Severe bloat sometimes needs the gas released through the animal's side without delay, which is skilled emergency work for a vet or experienced handler, not something to attempt yourself."
+              "Bloat can go from mild to fatal quickly. If you see the left flank ballooning out along with difficulty breathing, this is a true emergency. Do not wait and watch — get the owner and a veterinarian or experienced handler involved immediately. Severe bloat sometimes needs the gas released through the animal's side without delay, which is skilled emergency work for a vet or experienced handler, not something to attempt yourself.",
+              "బ్లోట్ తేలికపాటి నుండి ప్రాణాంతకంగా త్వరగా మారవచ్చు. ఎడమ పార్శ్వం ఉబ్బడంతో పాటు శ్వాస తీసుకోవడంలో ఇబ్బంది కనిపిస్తే, ఇది నిజమైన అత్యవసర పరిస్థితి. వేచి చూడవద్దు — వెంటనే యజమానిని మరియు వైద్యుడిని లేదా అనుభవజ్ఞుడైన వ్యక్తిని రప్పించండి. తీవ్రమైన బ్లోట్‌కు కొన్నిసార్లు ఆలస్యం చేయకుండా పశువు పక్కటెముకల ద్వారా గ్యాస్‌ను విడుదల చేయాల్సి ఉంటుంది, ఇది వైద్యుడు లేదా అనుభవజ్ఞుడైన వ్యక్తి చేయాల్సిన నైపుణ్యం కలిగిన అత్యవసర పని, మీరు స్వయంగా ప్రయత్నించకూడని పని.",
+              "வயிறு உப்புதல் லேசானதிலிருந்து உயிருக்கு ஆபத்தானதாக விரைவாக மாறலாம். இடது விலா வீங்குவதுடன் மூச்சு விடுவதில் சிரமம் இருந்தால், இது உண்மையான அவசர நிலை. காத்திருந்து பார்க்க வேண்டாம் — உரிமையாளரையும் கால்நடை மருத்துவரையும் அல்லது அனுபவமிக்க கையாளுநரையும் உடனடியாக அழைக்கவும். கடுமையான வயிறு உப்புதலுக்கு சில நேரங்களில் தாமதமின்றி விலங்கின் விலா வழியாக வாயுவை வெளியிட வேண்டியிருக்கும், இது கால்நடை மருத்துவர் அல்லது அனுபவமிக்க கையாளுநருக்கான திறமையான அவசர பணி, நீங்களே முயற்சிக்க வேண்டிய ஒன்று அல்ல.",
+              "ಬ್ಲೋಟ್ ಸೌಮ್ಯದಿಂದ ಮಾರಣಾಂತಿಕಕ್ಕೆ ಬೇಗನೆ ಬದಲಾಗಬಹುದು. ಎಡ ಪಕ್ಕೆ ಉಬ್ಬುವುದರ ಜೊತೆಗೆ ಉಸಿರಾಟದ ತೊಂದರೆ ಕಂಡರೆ, ಇದು ನಿಜವಾದ ತುರ್ತು ಪರಿಸ್ಥಿತಿ. ಕಾಯುತ್ತಾ ನೋಡಬೇಡಿ — ತಕ್ಷಣ ಮಾಲೀಕ ಮತ್ತು ಪಶುವೈದ್ಯರು ಅಥವಾ ಅನುಭವಿ ನಿರ್ವಾಹಕರನ್ನು ತೊಡಗಿಸಿ. ತೀವ್ರ ಬ್ಲೋಟ್‌ಗೆ ಕೆಲವೊಮ್ಮೆ ವಿಳಂಬವಿಲ್ಲದೆ ಪ್ರಾಣಿಯ ಪಕ್ಕೆಯ ಮೂಲಕ ಅನಿಲ ಬಿಡುಗಡೆ ಮಾಡಬೇಕಾಗುತ್ತದೆ, ಇದು ಪಶುವೈದ್ಯರು ಅಥವಾ ಅನುಭವಿ ನಿರ್ವಾಹಕರ ಕೌಶಲ್ಯಪೂರ್ಣ ತುರ್ತು ಕೆಲಸ, ನೀವೇ ಪ್ರಯತ್ನಿಸಬಾರದು.",
+              "ब्लोट हल्के से जानलेवा तक तेज़ी से बढ़ सकता है। अगर आपको बाईं बाजू फूलती हुई और सांस लेने में तकलीफ दिखे, तो यह असली आपातकाल है। इंतज़ार करके न देखें — तुरंत मालिक और डॉक्टर या अनुभवी व्यक्ति को बुलाएं। गंभीर ब्लोट में कभी-कभी बिना देर किए पशु के पहलू से गैस निकालनी पड़ती है, जो डॉक्टर या अनुभवी व्यक्ति का कुशल आपातकालीन काम है, खुद करने की कोशिश करने वाली बात नहीं।"
             ),
           },
           {
             type: "callout",
             style: "tip",
-            heading: L("Everyday Habits That Help Prevent Bloat"),
+            heading: L("Everyday Habits That Help Prevent Bloat", "బ్లోట్‌ను నివారించడంలో సహాయపడే రోజువారీ అలవాట్లు", "வயிறு உப்புதலைத் தடுக்க உதவும் அன்றாட பழக்கங்கள்", "ಬ್ಲೋಟ್ ತಡೆಯಲು ಸಹಾಯ ಮಾಡುವ ದೈನಂದಿನ ಅಭ್ಯಾಸಗಳು", "ब्लोट रोकने में मदद करने वाली रोज़मर्रा की आदतें"),
             text: L(
-              "Avoid moving animals onto wet pasture first thing in the morning. Don't let a very hungry animal go straight onto lush pasture — offer it some dry, cut grass first so it isn't grazing on an empty stomach. Be careful about feeding leftover food such as dry bread."
+              "Avoid moving animals onto wet pasture first thing in the morning. Don't let a very hungry animal go straight onto lush pasture — offer it some dry, cut grass first so it isn't grazing on an empty stomach. Be careful about feeding leftover food such as dry bread.",
+              "ఉదయాన్నే మొదట పశువులను తడి గడ్డి భూమి మీదకి తీసుకెళ్లడం మానుకోండి. బాగా ఆకలిగా ఉన్న పశువును నేరుగా పచ్చని గడ్డి మీదకి వెళ్లనివ్వవద్దు — ఖాళీ కడుపుతో మేయకుండా ఉండటానికి ముందుగా కొంత ఎండిన, కోసిన గడ్డిని ఇవ్వండి. పొడి రొట్టె వంటి మిగిలిపోయిన ఆహారం తినిపించడంలో జాగ్రత్తగా ఉండండి.",
+              "காலையிலேயே முதலில் விலங்குகளை ஈரமான மேய்ச்சல் நிலத்திற்கு அழைத்துச் செல்வதைத் தவிர்க்கவும். மிகவும் பசியுடன் இருக்கும் விலங்கை நேரடியாக பசுமையான மேய்ச்சல் நிலத்திற்கு விடாதீர்கள் — காலி வயிற்றில் மேயாமல் இருக்க முதலில் சிறிது உலர்ந்த, வெட்டிய புல்லை கொடுங்கள். உலர் ரொட்டி போன்ற மீதமுள்ள உணவு கொடுப்பதில் கவனமாக இருங்கள்.",
+              "ಬೆಳಿಗ್ಗೆ ಮೊದಲ ಬಾರಿಗೆ ಪ್ರಾಣಿಗಳನ್ನು ಒದ್ದೆ ಹುಲ್ಲುಗಾವಲಿಗೆ ಕರೆದೊಯ್ಯುವುದನ್ನು ತಪ್ಪಿಸಿ. ಬಹಳ ಹಸಿವಾಗಿರುವ ಪ್ರಾಣಿಯನ್ನು ನೇರವಾಗಿ ಹಸಿರಾದ ಹುಲ್ಲುಗಾವಲಿಗೆ ಬಿಡಬೇಡಿ — ಖಾಲಿ ಹೊಟ್ಟೆಯಲ್ಲಿ ಮೇಯದಂತೆ ಮೊದಲು ಸ್ವಲ್ಪ ಒಣ, ಕತ್ತರಿಸಿದ ಹುಲ್ಲನ್ನು ನೀಡಿ. ಒಣ ಬ್ರೆಡ್‌ನಂತಹ ಉಳಿದ ಆಹಾರ ನೀಡುವ ಬಗ್ಗೆ ಜಾಗರೂಕರಾಗಿರಿ.",
+              "सुबह-सुबह सबसे पहले पशुओं को गीली चरागाह में ले जाने से बचें। बहुत भूखे पशु को सीधे हरी-भरी चरागाह में न जाने दें — पहले उसे कुछ सूखी, कटी हुई घास दें ताकि वह खाली पेट न चरे। सूखी रोटी जैसा बचा हुआ खाना खिलाने में सावधानी बरतें।"
             ),
           },
         ],
         check: [
           {
             type: "mcq",
-            q: L("What is bloat?"),
+            q: L("What is bloat?", "బ్లోట్ అంటే ఏమిటి?", "வயிறு உப்புதல் என்றால் என்ன?", "ಬ್ಲೋಟ್ ಎಂದರೇನು?", "ब्लोट क्या है?"),
             options: [
-              L("A wound on the animal's leg"),
-              L("Gas building up inside the rumen faster than it can escape"),
-              L("A shortage of milk"),
-              L("An infection of the udder"),
+              L("A wound on the animal's leg", "పశువు కాలిపై ఉన్న గాయం", "விலங்கின் காலில் உள்ள காயம்", "ಪ್ರಾಣಿಯ ಕಾಲಿನ ಮೇಲಿನ ಗಾಯ", "पशु के पैर पर घाव"),
+              L("Gas building up inside the rumen faster than it can escape", "గ్యాస్ బయటకు వెళ్లగలిగే దానికంటే వేగంగా రుమెన్‌లో పేరుకుపోవడం", "வாயு வெளியேற முடிவதை விட வேகமாக ருமனுக்குள் சேர்வது", "ಅನಿಲ ಹೊರಹೋಗುವುದಕ್ಕಿಂತ ವೇಗವಾಗಿ ರುಮೆನ್‌ನಲ್ಲಿ ಸಂಗ್ರಹವಾಗುವುದು", "गैस का बाहर निकलने से तेज़ी से रूमेन में जमा होना"),
+              L("A shortage of milk", "పాల కొరత", "பால் பற்றாக்குறை", "ಹಾಲಿನ ಕೊರತೆ", "दूध की कमी"),
+              L("An infection of the udder", "పొదుగు ఇన్ఫెక్షన్", "மேமை தொற்று", "ಕೆಚ್ಚಲಿನ ಸೋಂಕು", "थन का संक्रमण"),
             ],
             answer: 1,
-            explain: L("Bloat is indigestion caused by gas building up in the rumen faster than the animal can release it, so the belly swells."),
+            explain: L("Bloat is indigestion caused by gas building up in the rumen faster than the animal can release it, so the belly swells.", "బ్లోట్ అనేది పశువు విడుదల చేయగలిగే దానికంటే వేగంగా రుమెన్‌లో గ్యాస్ పేరుకుపోవడం వల్ల వచ్చే అజీర్ణం, దీనివల్ల పొట్ట ఉబ్బుతుంది.", "வயிறு உப்புதல் என்பது விலங்கு வெளியேற்ற முடிவதை விட வேகமாக ருமனில் வாயு சேர்வதால் ஏற்படும் செரிமானக் கோளாறு, இதனால் வயிறு வீங்குகிறது.", "ಬ್ಲೋಟ್ ಎಂದರೆ ಪ್ರಾಣಿ ಬಿಡುಗಡೆ ಮಾಡುವುದಕ್ಕಿಂತ ವೇಗವಾಗಿ ರುಮೆನ್‌ನಲ್ಲಿ ಅನಿಲ ಸಂಗ್ರಹವಾಗುವುದರಿಂದ ಉಂಟಾಗುವ ಅಜೀರ್ಣ, ಇದರಿಂದ ಹೊಟ್ಟೆ ಊದಿಕೊಳ್ಳುತ್ತದೆ.", "ब्लोट पशु के छोड़ पाने से तेज़ी से रूमेन में गैस जमा होने से होने वाली अपच है, जिससे पेट फूल जाता है।"),
           },
           {
             type: "truefalse",
-            q: L("If you notice an animal's left flank ballooning out along with difficulty breathing, it is safe to simply wait and watch before telling anyone."),
+            q: L("If you notice an animal's left flank ballooning out along with difficulty breathing, it is safe to simply wait and watch before telling anyone.", "పశువు ఎడమ పార్శ్వం ఉబ్బడంతో పాటు శ్వాస తీసుకోవడంలో ఇబ్బంది మీరు గమనిస్తే, ఎవరికైనా చెప్పేముందు కేవలం వేచి చూడటం సురక్షితం.", "விலங்கின் இடது விலா வீங்குவதையும் மூச்சு விடுவதில் சிரமத்தையும் நீங்கள் கவனித்தால், யாருக்கும் சொல்லும் முன் வெறுமனே காத்திருந்து பார்ப்பது பாதுகாப்பானது.", "ಪ್ರಾಣಿಯ ಎಡ ಪಕ್ಕೆ ಉಬ್ಬುವುದನ್ನು ಮತ್ತು ಉಸಿರಾಟದ ತೊಂದರೆಯನ್ನು ನೀವು ಗಮನಿಸಿದರೆ, ಯಾರಿಗಾದರೂ ಹೇಳುವ ಮೊದಲು ಕೇವಲ ಕಾಯುತ್ತಾ ನೋಡುವುದು ಸುರಕ್ಷಿತ.", "अगर आप पशु की बाईं बाजू फूलती हुई और सांस लेने में तकलीफ देखें, तो किसी को बताने से पहले बस इंतज़ार करके देखना सुरक्षित है।"),
             answer: false,
-            explain: L("No — bloat can turn fatal quickly. Ballooning of the left flank with breathing difficulty is an emergency; get the owner and a vet or experienced handler involved right away."),
+            explain: L("No — bloat can turn fatal quickly. Ballooning of the left flank with breathing difficulty is an emergency; get the owner and a vet or experienced handler involved right away.", "కాదు — బ్లోట్ త్వరగా ప్రాణాంతకంగా మారవచ్చు. శ్వాస ఇబ్బందితో పాటు ఎడమ పార్శ్వం ఉబ్బడం ఒక అత్యవసర పరిస్థితి; వెంటనే యజమానిని మరియు వైద్యుడిని లేదా అనుభవజ్ఞుడైన వ్యక్తిని రప్పించండి.", "இல்லை — வயிறு உப்புதல் விரைவாக உயிருக்கு ஆபத்தானதாக மாறலாம். மூச்சு சிரமத்துடன் இடது விலா வீங்குவது ஒரு அவசர நிலை; உடனடியாக உரிமையாளரையும் கால்நடை மருத்துவரையும் அல்லது அனுபவமிக்க கையாளுநரையும் அழைக்கவும்.", "ಇಲ್ಲ — ಬ್ಲೋಟ್ ಬೇಗನೆ ಮಾರಣಾಂತಿಕವಾಗಬಹುದು. ಉಸಿರಾಟದ ತೊಂದರೆಯೊಂದಿಗೆ ಎಡ ಪಕ್ಕೆ ಉಬ್ಬುವುದು ತುರ್ತು ಪರಿಸ್ಥಿತಿ; ತಕ್ಷಣ ಮಾಲೀಕ ಮತ್ತು ಪಶುವೈದ್ಯರು ಅಥವಾ ಅನುಭವಿ ನಿರ್ವಾಹಕರನ್ನು ತೊಡಗಿಸಿ.", "नहीं — ब्लोट तेज़ी से जानलेवा हो सकता है। सांस की तकलीफ के साथ बाईं बाजू का फूलना एक आपातकाल है; तुरंत मालिक और डॉक्टर या अनुभवी व्यक्ति को बुलाएं।"),
           },
         ],
       },
