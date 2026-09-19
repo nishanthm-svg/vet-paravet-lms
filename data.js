@@ -9724,162 +9724,376 @@ export const MODULES = [
   // ==================================================================
   {
     id: "m12-l2",
-    title: L("Artificial Insemination and What Comes After"),
+    title: L(
+      "Artificial Insemination and What Comes After",
+      "కృత్రిమ గర్భధారణ మరియు ఆ తర్వాత ఏమి జరుగుతుంది",
+      "செயற்கை முறை கருவூட்டலும் அதற்குப் பிறகு நடப்பதும்",
+      "ಕೃತಕ ಗರ್ಭಧಾರಣೆ ಮತ್ತು ಅದರ ನಂತರ ಏನಾಗುತ್ತದೆ",
+      "कृत्रिम गर्भाधान और उसके बाद क्या होता है"
+    ),
     estMinutes: 8,
     hook: [
       {
         type: "hero",
-        heading: L("A Trained Technician Does the Work — Your Job Is What Comes Before and After"),
+        heading: L(
+          "A Trained Technician Does the Work — Your Job Is What Comes Before and After",
+          "శిక్షణ పొందిన టెక్నీషియన్ పని చేస్తారు — మీ పని ముందు, తర్వాత చూసుకోవడం",
+          "பயிற்சி பெற்ற தொழில்நுட்பர் வேலையைச் செய்வார் — உங்கள் வேலை அதற்கு முன்னும் பின்னும் கவனிப்பது",
+          "ತರಬೇತಿ ಪಡೆದ ತಂತ್ರಜ್ಞರು ಕೆಲಸ ಮಾಡುತ್ತಾರೆ — ನಿಮ್ಮ ಕೆಲಸ ಅದಕ್ಕೆ ಮೊದಲು ಮತ್ತು ನಂತರ ಗಮನಿಸುವುದು",
+          "ट्रेंड टेक्नीशियन काम करता है — आपका काम उससे पहले और बाद की देखभाल है"
+        ),
         text: L(
-          "Most farms today get their animals pregnant using Artificial Insemination rather than a bull. A trained technician carries out the procedure itself — but understanding why AI is used, and knowing what to watch for in the weeks afterward, is squarely part of your job."
+          "Most farms today get their animals pregnant using Artificial Insemination rather than a bull. A trained technician carries out the procedure itself — but understanding why AI is used, and knowing what to watch for in the weeks afterward, is squarely part of your job.",
+          "ఈ రోజుల్లో చాలా ఫారాలు ఎద్దు ద్వారా కాకుండా కృత్రిమ గర్భధారణ ద్వారా పశువులకు చూలు కట్టిస్తున్నాయి. ప్రక్రియను శిక్షణ పొందిన టెక్నీషియన్ స్వయంగా చేస్తారు — కానీ AIని ఎందుకు వాడతారో అర్థం చేసుకోవడం, ఆ తర్వాత వారాల్లో ఏమి గమనించాలో తెలుసుకోవడం మీ పనిలో ముఖ్యమైన భాగం.",
+          "இன்று பெரும்பாலான பண்ணைகள் காளைக்குப் பதிலாக செயற்கை முறை கருவூட்டல் மூலம் கால்நடைகளைச் சினையாக்குகின்றன. இந்தச் செயல்முறையைப் பயிற்சி பெற்ற தொழில்நுட்பர் தானே செய்வார் — ஆனால் AI ஏன் பயன்படுத்தப்படுகிறது என்பதைப் புரிந்துகொள்வதும், அதற்குப் பிந்தைய வாரங்களில் எதைக் கவனிக்க வேண்டும் என்பதை அறிவதும் உங்கள் வேலையின் முக்கியப் பகுதி.",
+          "ಇಂದು ಹೆಚ್ಚಿನ ಫಾರಂಗಳು ಹೋರಿಯ ಬದಲು ಕೃತಕ ಗರ್ಭಧಾರಣೆಯ ಮೂಲಕ ಪ್ರಾಣಿಗಳನ್ನು ಗರ್ಭ ಧರಿಸುವಂತೆ ಮಾಡುತ್ತವೆ. ಪ್ರಕ್ರಿಯೆಯನ್ನು ತರಬೇತಿ ಪಡೆದ ತಂತ್ರಜ್ಞರೇ ಮಾಡುತ್ತಾರೆ — ಆದರೆ AI ಏಕೆ ಬಳಸುತ್ತಾರೆ ಎಂಬುದನ್ನು ಅರ್ಥಮಾಡಿಕೊಳ್ಳುವುದು ಮತ್ತು ನಂತರದ ವಾರಗಳಲ್ಲಿ ಏನನ್ನು ಗಮನಿಸಬೇಕು ಎಂದು ತಿಳಿದುಕೊಳ್ಳುವುದು ನಿಮ್ಮ ಕೆಲಸದ ಮುಖ್ಯ ಭಾಗ.",
+          "आजकल ज़्यादातर फार्म सांड की जगह कृत्रिम गर्भाधान से पशुओं को गाभिन कराते हैं। यह काम ट्रेंड टेक्नीशियन खुद करता है — लेकिन AI क्यों इस्तेमाल होता है यह समझना और उसके बाद के हफ्तों में क्या देखना है यह जानना आपके काम का अहम हिस्सा है।"
         ),
       },
     ],
     topics: [
       {
         id: "t-m12-ai-benefits",
-        title: L("Why Artificial Insemination Is Used"),
+        title: L(
+          "Why Artificial Insemination Is Used",
+          "కృత్రిమ గర్భధారణను ఎందుకు వాడతారు",
+          "செயற்கை முறை கருவூட்டல் ஏன் பயன்படுத்தப்படுகிறது",
+          "ಕೃತಕ ಗರ್ಭಧಾರಣೆಯನ್ನು ಏಕೆ ಬಳಸುತ್ತಾರೆ",
+          "कृत्रिम गर्भाधान क्यों किया जाता है"
+        ),
         teach: [
           {
             type: "text",
-            heading: L("From a Distant Bull, Without the Bull Ever Being There"),
+            heading: L(
+              "From a Distant Bull, Without the Bull Ever Being There",
+              "దూరంలో ఉన్న ఎద్దు నుండి, ఎద్దు అక్కడ లేకుండానే",
+              "தொலைவில் உள்ள காளையிடமிருந்து, காளை அங்கே இல்லாமலேயே",
+              "ದೂರದಲ್ಲಿರುವ ಹೋರಿಯಿಂದ, ಹೋರಿ ಅಲ್ಲಿ ಇಲ್ಲದೆಯೇ",
+              "दूर के सांड से, सांड के वहाँ मौजूद हुए बिना ही"
+            ),
             html: L(
-              "<b>Artificial Insemination (AI)</b> uses semen collected in advance from a carefully chosen, disease-free bull with excellent genetics, and stored frozen until needed. A trained technician places this semen into the female at the right time — no bull needs to be present on the farm at all."
+              "<b>Artificial Insemination (AI)</b> uses semen collected in advance from a carefully chosen, disease-free bull with excellent genetics, and stored frozen until needed. A trained technician places this semen into the female at the right time — no bull needs to be present on the farm at all.",
+              "<b>కృత్రిమ గర్భధారణ (AI)</b>లో, మంచి జన్యువులున్న, వ్యాధులు లేని, జాగ్రత్తగా ఎంచుకున్న ఎద్దు వీర్యాన్ని ముందుగానే సేకరించి, అవసరమయ్యే వరకు గడ్డకట్టించి నిల్వ చేస్తారు. శిక్షణ పొందిన టెక్నీషియన్ సరైన సమయంలో ఈ వీర్యాన్ని ఆడ పశువులోకి ప్రవేశపెడతారు — ఫారంలో ఎద్దు అసలు ఉండాల్సిన అవసరమే లేదు.",
+              "<b>செயற்கை முறை கருவூட்டல் (AI)</b> என்பது சிறந்த மரபணுக்கள் கொண்ட, நோயற்ற, கவனமாகத் தேர்ந்தெடுக்கப்பட்ட காளையிடமிருந்து முன்கூட்டியே விந்தைச் சேகரித்து, தேவைப்படும் வரை உறைய வைத்துச் சேமித்து வைப்பது. பயிற்சி பெற்ற தொழில்நுட்பர் சரியான நேரத்தில் இந்த விந்தைப் பெண் கால்நடைக்குள் செலுத்துவார் — பண்ணையில் காளையே இருக்க வேண்டிய அவசியம் இல்லை.",
+              "<b>ಕೃತಕ ಗರ್ಭಧಾರಣೆ (AI)</b>ಯಲ್ಲಿ, ಉತ್ತಮ ಅನುವಂಶಿಕತೆಯುಳ್ಳ, ರೋಗಮುಕ್ತ, ಎಚ್ಚರಿಕೆಯಿಂದ ಆಯ್ಕೆ ಮಾಡಿದ ಹೋರಿಯ ವೀರ್ಯವನ್ನು ಮೊದಲೇ ಸಂಗ್ರಹಿಸಿ, ಬೇಕಾಗುವವರೆಗೆ ಹೆಪ್ಪುಗಟ್ಟಿಸಿ ಇಡುತ್ತಾರೆ. ತರಬೇತಿ ಪಡೆದ ತಂತ್ರಜ್ಞರು ಸರಿಯಾದ ಸಮಯದಲ್ಲಿ ಈ ವೀರ್ಯವನ್ನು ಹೆಣ್ಣು ಪ್ರಾಣಿಯೊಳಗೆ ಸೇರಿಸುತ್ತಾರೆ — ಫಾರಂನಲ್ಲಿ ಹೋರಿ ಇರಬೇಕಾದ ಅಗತ್ಯವೇ ಇಲ್ಲ.",
+              "<b>कृत्रिम गर्भाधान (AI)</b> में अच्छी नस्ल वाले, बीमारी-मुक्त और सावधानी से चुने गए सांड का वीर्य पहले से इकट्ठा करके जमाकर रखा जाता है। ट्रेंड टेक्नीशियन सही समय पर यह वीर्य मादा पशु में डालता है — फार्म पर सांड का होना ज़रूरी ही नहीं है।"
             ),
           },
           {
             type: "glossary",
-            term: L("Artificial Insemination (AI)"),
+            term: L("Artificial Insemination (AI)", "కృత్రిమ గర్భధారణ (AI)", "செயற்கை முறை கருவூட்டல் (AI)", "ಕೃತಕ ಗರ್ಭಧಾರಣೆ (AI)", "कृत्रिम गर्भाधान (AI)"),
             meaning: L(
-              "A method of breeding where semen from a bull is collected, stored, and later placed into a female animal by a trained person, instead of the bull directly mating her."
+              "A method of breeding where semen from a bull is collected, stored, and later placed into a female animal by a trained person, instead of the bull directly mating her.",
+              "ఎద్దు నేరుగా ఆడ పశువుతో కలవడానికి బదులు, ఎద్దు వీర్యాన్ని సేకరించి, నిల్వ చేసి, తర్వాత శిక్షణ పొందిన వ్యక్తి ఆడ పశువులోకి ప్రవేశపెట్టే సంతానోత్పత్తి పద్ధతి.",
+              "காளை நேரடியாகப் பெண் கால்நடையுடன் இணைவதற்குப் பதிலாக, காளையின் விந்தைச் சேகரித்து, சேமித்து, பின்னர் பயிற்சி பெற்றவர் பெண் கால்நடைக்குள் செலுத்தும் இனப்பெருக்க முறை.",
+              "ಹೋರಿ ನೇರವಾಗಿ ಹೆಣ್ಣು ಪ್ರಾಣಿಯೊಂದಿಗೆ ಸಂಯೋಗ ಮಾಡುವ ಬದಲು, ಹೋರಿಯ ವೀರ್ಯವನ್ನು ಸಂಗ್ರಹಿಸಿ, ಇಟ್ಟು, ನಂತರ ತರಬೇತಿ ಪಡೆದ ವ್ಯಕ್ತಿ ಹೆಣ್ಣು ಪ್ರಾಣಿಯೊಳಗೆ ಸೇರಿಸುವ ಸಂತಾನೋತ್ಪತ್ತಿ ವಿಧಾನ.",
+              "प्रजनन का वह तरीका जिसमें सांड सीधे मादा से मिलने की बजाय, उसका वीर्य इकट्ठा करके रखा जाता है और बाद में ट्रेंड व्यक्ति उसे मादा पशु में डालता है।"
             ),
           },
           {
             type: "glossary",
-            term: L("Frozen Semen Dose (FSD)"),
+            term: L(
+              "Frozen Semen Dose (FSD)",
+              "ఫ్రోజెన్ సెమెన్ డోస్ (FSD – గడ్డకట్టిన వీర్యం మోతాదు)",
+              "உறைந்த விந்து மருந்தளவு (FSD)",
+              "ಹೆಪ್ಪುಗಟ್ಟಿದ ವೀರ್ಯ ಡೋಸ್ (FSD)",
+              "फ्रोज़न सीमेन डोज़ (FSD – जमा हुआ वीर्य)"
+            ),
             meaning: L(
-              "A small, carefully stored dose of semen from a chosen bull, frozen so it can be kept and transported, then used to inseminate a female animal later — even long after that bull has died."
+              "A small, carefully stored dose of semen from a chosen bull, frozen so it can be kept and transported, then used to inseminate a female animal later — even long after that bull has died.",
+              "ఎంచుకున్న ఎద్దు వీర్యాన్ని జాగ్రత్తగా నిల్వ చేసిన చిన్న మోతాదు; గడ్డకట్టించి ఉంచడం వల్ల దాన్ని దాచి, రవాణా చేసి, ఆ తర్వాత ఆడ పశువుకు గర్భధారణకు వాడవచ్చు — ఆ ఎద్దు చనిపోయిన చాలా కాలం తర్వాత కూడా.",
+              "தேர்ந்தெடுக்கப்பட்ட காளையின் விந்தைக் கவனமாகச் சேமித்த சிறிய அளவு; உறைய வைத்திருப்பதால் அதைப் பாதுகாத்து, எடுத்துச் சென்று, பின்னர் பெண் கால்நடைக்குக் கருவூட்டப் பயன்படுத்தலாம் — அந்தக் காளை இறந்து நீண்ட காலத்துக்குப் பிறகும் கூட.",
+              "ಆಯ್ಕೆ ಮಾಡಿದ ಹೋರಿಯ ವೀರ್ಯವನ್ನು ಎಚ್ಚರಿಕೆಯಿಂದ ಸಂಗ್ರಹಿಸಿಟ್ಟ ಸಣ್ಣ ಪ್ರಮಾಣ; ಹೆಪ್ಪುಗಟ್ಟಿಸಿರುವುದರಿಂದ ಅದನ್ನು ಇಟ್ಟುಕೊಂಡು, ಸಾಗಿಸಿ, ನಂತರ ಹೆಣ್ಣು ಪ್ರಾಣಿಗೆ ಗರ್ಭಧಾರಣೆಗೆ ಬಳಸಬಹುದು — ಆ ಹೋರಿ ಸತ್ತು ಬಹಳ ಕಾಲದ ನಂತರವೂ.",
+              "चुने हुए सांड के वीर्य की सावधानी से रखी गई छोटी खुराक; जमाकर रखने से इसे संभालकर ले जाया जा सकता है और बाद में मादा पशु को गर्भाधान के लिए इस्तेमाल किया जा सकता है — उस सांड के मर जाने के लंबे समय बाद भी।"
             ),
           },
           {
             type: "stat-grid",
             items: [
               {
-                label: L("Stops Disease Spread"),
-                text: L("Because there is no direct mating, AI prevents the spread of sexually transmitted diseases between animals."),
+                label: L(
+                  "Stops Disease Spread",
+                  "వ్యాధి వ్యాప్తిని ఆపుతుంది",
+                  "நோய் பரவுவதைத் தடுக்கிறது",
+                  "ರೋಗ ಹರಡುವುದನ್ನು ತಡೆಯುತ್ತದೆ",
+                  "बीमारी फैलने से रोकता है"
+                ),
+                text: L(
+                  "Because there is no direct mating, AI prevents the spread of sexually transmitted diseases between animals.",
+                  "నేరుగా సంయోగం ఉండదు కాబట్టి, AI వల్ల పశువుల మధ్య లైంగికంగా సంక్రమించే వ్యాధులు వ్యాపించవు.",
+                  "நேரடி இனச்சேர்க்கை இல்லாததால், AI கால்நடைகளுக்கு இடையே பாலியல் தொடர்பால் பரவும் நோய்கள் பரவுவதைத் தடுக்கிறது.",
+                  "ನೇರ ಸಂಯೋಗ ಇಲ್ಲದಿರುವುದರಿಂದ, AI ಪ್ರಾಣಿಗಳ ನಡುವೆ ಲೈಂಗಿಕವಾಗಿ ಹರಡುವ ರೋಗಗಳು ಹರಡುವುದನ್ನು ತಡೆಯುತ್ತದೆ.",
+                  "सीधा मेल न होने की वजह से AI पशुओं के बीच यौन संपर्क से फैलने वाली बीमारियों को फैलने से रोकता है।"
+                ),
               },
               {
-                label: L("One Bull, Many Cows"),
-                text: L("Semen from a single high-quality bull can be used to inseminate many cows, in many places, over time."),
+                label: L("One Bull, Many Cows", "ఒక ఎద్దు, ఎన్నో ఆవులు", "ஒரு காளை, பல பசுக்கள்", "ಒಂದು ಹೋರಿ, ಅನೇಕ ಹಸುಗಳು", "एक सांड, कई गायें"),
+                text: L(
+                  "Semen from a single high-quality bull can be used to inseminate many cows, in many places, over time.",
+                  "ఒక్క మంచి నాణ్యమైన ఎద్దు వీర్యంతో, ఎన్నో చోట్ల, కాలక్రమేణా ఎన్నో ఆవులకు గర్భధారణ చేయవచ్చు.",
+                  "ஒரே ஒரு உயர்தரக் காளையின் விந்தை பல இடங்களில், காலப்போக்கில் பல பசுக்களுக்குக் கருவூட்டப் பயன்படுத்தலாம்.",
+                  "ಒಂದೇ ಉತ್ತಮ ಗುಣಮಟ್ಟದ ಹೋರಿಯ ವೀರ್ಯವನ್ನು ಅನೇಕ ಸ್ಥಳಗಳಲ್ಲಿ, ಕಾಲಕ್ರಮೇಣ ಅನೇಕ ಹಸುಗಳಿಗೆ ಗರ್ಭಧಾರಣೆಗೆ ಬಳಸಬಹುದು.",
+                  "एक ही उच्च गुणवत्ता वाले सांड के वीर्य से कई जगहों पर, समय के साथ कई गायों का गर्भाधान किया जा सकता है।"
+                ),
               },
               {
-                label: L("Convenient for the Farmer"),
-                text: L("AI can be carried out right at the farmer's doorstep by a technician, saving time and travel."),
+                label: L("Convenient for the Farmer", "రైతుకు సౌకర్యం", "விவசாயிக்கு வசதி", "ರೈತರಿಗೆ ಅನುಕೂಲ", "किसान के लिए सुविधा"),
+                text: L(
+                  "AI can be carried out right at the farmer's doorstep by a technician, saving time and travel.",
+                  "టెక్నీషియన్ రైతు ఇంటి వద్దనే AI చేయగలరు, దీనివల్ల సమయం, ప్రయాణం ఆదా అవుతాయి.",
+                  "தொழில்நுட்பர் விவசாயியின் வீட்டு வாசலிலேயே AI செய்ய முடியும், இதனால் நேரமும் பயணமும் மிச்சமாகும்.",
+                  "ತಂತ್ರಜ್ಞರು ರೈತರ ಮನೆ ಬಾಗಿಲಿನಲ್ಲೇ AI ಮಾಡಬಹುದು, ಇದರಿಂದ ಸಮಯ ಮತ್ತು ಪ್ರಯಾಣ ಉಳಿಯುತ್ತದೆ.",
+                  "टेक्नीशियन किसान के दरवाज़े पर ही AI कर सकता है, जिससे समय और सफर की बचत होती है।"
+                ),
               },
               {
-                label: L("Simple and Affordable"),
-                text: L("AI is easy to arrange and inexpensive, while leading to faster improvement in the breed's milk-producing ability."),
+                label: L("Simple and Affordable", "సులభం, తక్కువ ఖర్చు", "எளிது, குறைந்த செலவு", "ಸರಳ ಮತ್ತು ಕಡಿಮೆ ಖರ್ಚು", "आसान और सस्ता"),
+                text: L(
+                  "AI is easy to arrange and inexpensive, while leading to faster improvement in the breed's milk-producing ability.",
+                  "AI ఏర్పాటు చేయడం సులభం, ఖర్చు తక్కువ; అదే సమయంలో జాతి పాల ఉత్పత్తి సామర్థ్యం వేగంగా మెరుగుపడుతుంది.",
+                  "AI-ஐ ஏற்பாடு செய்வது எளிது, செலவும் குறைவு; அதே நேரத்தில் இனத்தின் பால் உற்பத்தித் திறன் வேகமாக மேம்படுகிறது.",
+                  "AI ವ್ಯವಸ್ಥೆ ಮಾಡುವುದು ಸುಲಭ, ಖರ್ಚು ಕಡಿಮೆ; ಜೊತೆಗೆ ತಳಿಯ ಹಾಲು ಉತ್ಪಾದನಾ ಸಾಮರ್ಥ್ಯ ಬೇಗನೆ ಸುಧಾರಿಸುತ್ತದೆ.",
+                  "AI करवाना आसान और सस्ता है, और इससे नस्ल की दूध देने की क्षमता तेज़ी से सुधरती है।"
+                ),
               },
             ],
           },
           {
             type: "callout",
             style: "tip",
-            heading: L("Who Actually Does It"),
+            heading: L("Who Actually Does It", "వాస్తవంగా ఎవరు చేస్తారు", "உண்மையில் யார் செய்வார்", "ನಿಜವಾಗಿ ಯಾರು ಮಾಡುತ್ತಾರೆ", "असल में यह कौन करता है"),
             text: L(
-              "AI must always be carried out by a trained AI Technician — never by farm staff on their own. Your role is to notice heat in time, inform the technician, and make sure the animal is ready and the date is recorded."
+              "AI must always be carried out by a trained AI Technician — never by farm staff on their own. Your role is to notice heat in time, inform the technician, and make sure the animal is ready and the date is recorded.",
+              "AIని ఎల్లప్పుడూ శిక్షణ పొందిన AI టెక్నీషియనే చేయాలి — ఫారం సిబ్బంది తమంతట తాము ఎప్పుడూ చేయకూడదు. ఎదను సకాలంలో గమనించడం, టెక్నీషియన్‌కు తెలియజేయడం, పశువు సిద్ధంగా ఉందని, తేదీ రాసి ఉందని నిర్ధారించుకోవడం మీ పాత్ర.",
+              "AI-ஐ எப்போதும் பயிற்சி பெற்ற AI தொழில்நுட்பரே செய்ய வேண்டும் — பண்ணைப் பணியாளர்கள் தாங்களாக ஒருபோதும் செய்யக்கூடாது. சினைப்பருவத்தை சரியான நேரத்தில் கவனிப்பது, தொழில்நுட்பருக்குத் தெரிவிப்பது, மாடு தயாராக இருப்பதையும் தேதி பதிவு செய்யப்பட்டிருப்பதையும் உறுதி செய்வது உங்கள் பங்கு.",
+              "AI ಅನ್ನು ಯಾವಾಗಲೂ ತರಬೇತಿ ಪಡೆದ AI ತಂತ್ರಜ್ಞರೇ ಮಾಡಬೇಕು — ಫಾರಂ ಸಿಬ್ಬಂದಿ ತಾವಾಗಿ ಎಂದಿಗೂ ಮಾಡಬಾರದು. ಬೆದೆಯನ್ನು ಸಮಯಕ್ಕೆ ಗಮನಿಸುವುದು, ತಂತ್ರಜ್ಞರಿಗೆ ತಿಳಿಸುವುದು, ಪ್ರಾಣಿ ಸಿದ್ಧವಾಗಿದೆ ಮತ್ತು ದಿನಾಂಕ ದಾಖಲಾಗಿದೆ ಎಂದು ಖಚಿತಪಡಿಸಿಕೊಳ್ಳುವುದು ನಿಮ್ಮ ಪಾತ್ರ.",
+              "AI हमेशा ट्रेंड AI टेक्नीशियन ही करे — फार्म का स्टाफ कभी खुद से न करे। आपकी भूमिका है समय पर गर्मी को पहचानना, टेक्नीशियन को बताना, और यह पक्का करना कि पशु तैयार है और तारीख लिख ली गई है।"
             ),
           },
         ],
         check: [
           {
             type: "mcq",
-            q: L("What is a Frozen Semen Dose (FSD) used for?"),
+            q: L(
+              "What is a Frozen Semen Dose (FSD) used for?",
+              "ఫ్రోజెన్ సెమెన్ డోస్ (FSD)ని దేనికి వాడతారు?",
+              "உறைந்த விந்து மருந்தளவு (FSD) எதற்குப் பயன்படுகிறது?",
+              "ಹೆಪ್ಪುಗಟ್ಟಿದ ವೀರ್ಯ ಡೋಸ್ (FSD) ಅನ್ನು ಯಾವುದಕ್ಕೆ ಬಳಸುತ್ತಾರೆ?",
+              "फ्रोज़न सीमेन डोज़ (FSD) किसलिए इस्तेमाल होती है?"
+            ),
             options: [
-              L("Feeding the calf"),
-              L("Storing a chosen bull's semen so it can be used to inseminate females later, even after the bull has died"),
-              L("Treating a sick animal"),
-              L("Measuring milk yield"),
+              L("Feeding the calf", "దూడకు తినిపించడానికి", "கன்றுக்கு உணவளிக்க", "ಕರುವಿಗೆ ಆಹಾರ ನೀಡಲು", "बछड़े को खिलाने के लिए"),
+              L(
+                "Storing a chosen bull's semen so it can be used to inseminate females later, even after the bull has died",
+                "ఎంచుకున్న ఎద్దు వీర్యాన్ని నిల్వ చేయడానికి, తద్వారా ఆ ఎద్దు చనిపోయిన తర్వాత కూడా ఆడ పశువులకు గర్భధారణ చేయవచ్చు",
+                "தேர்ந்தெடுக்கப்பட்ட காளையின் விந்தைச் சேமித்து வைக்க, அதனால் அந்தக் காளை இறந்த பிறகும் பெண் கால்நடைகளுக்குக் கருவூட்டலாம்",
+                "ಆಯ್ಕೆ ಮಾಡಿದ ಹೋರಿಯ ವೀರ್ಯವನ್ನು ಸಂಗ್ರಹಿಸಿಡಲು, ಇದರಿಂದ ಆ ಹೋರಿ ಸತ್ತ ನಂತರವೂ ಹೆಣ್ಣು ಪ್ರಾಣಿಗಳಿಗೆ ಗರ್ಭಧಾರಣೆ ಮಾಡಬಹುದು",
+                "चुने हुए सांड के वीर्य को रखने के लिए, ताकि सांड के मर जाने के बाद भी मादाओं का गर्भाधान किया जा सके"
+              ),
+              L(
+                "Treating a sick animal",
+                "అనారోగ్యంగా ఉన్న పశువుకు చికిత్స చేయడానికి",
+                "நோயுற்ற மாட்டுக்குச் சிகிச்சை அளிக்க",
+                "ಅನಾರೋಗ್ಯದ ಪ್ರಾಣಿಗೆ ಚಿಕಿತ್ಸೆ ನೀಡಲು",
+                "बीमार पशु का इलाज करने के लिए"
+              ),
+              L("Measuring milk yield", "పాల దిగుబడిని కొలవడానికి", "பால் அளவை அளக்க", "ಹಾಲಿನ ಇಳುವರಿಯನ್ನು ಅಳೆಯಲು", "दूध की मात्रा नापने के लिए"),
             ],
             answer: 1,
-            explain: L("An FSD is stored, frozen semen from a chosen bull, which can be used for AI long after that bull is no longer alive."),
+            explain: L(
+              "An FSD is stored, frozen semen from a chosen bull, which can be used for AI long after that bull is no longer alive.",
+              "FSD అంటే ఎంచుకున్న ఎద్దు నుండి నిల్వ చేసిన, గడ్డకట్టిన వీర్యం; ఆ ఎద్దు బతికి లేకపోయినా చాలా కాలం తర్వాత కూడా దీన్ని AIకి వాడవచ్చు.",
+              "FSD என்பது தேர்ந்தெடுக்கப்பட்ட காளையிலிருந்து சேமிக்கப்பட்ட, உறைந்த விந்து; அந்தக் காளை உயிருடன் இல்லாவிட்டாலும் நீண்ட காலத்துக்குப் பிறகும் இதை AI-க்குப் பயன்படுத்தலாம்.",
+              "FSD ಎಂದರೆ ಆಯ್ಕೆ ಮಾಡಿದ ಹೋರಿಯಿಂದ ಸಂಗ್ರಹಿಸಿಟ್ಟ, ಹೆಪ್ಪುಗಟ್ಟಿದ ವೀರ್ಯ; ಆ ಹೋರಿ ಬದುಕಿಲ್ಲದಿದ್ದರೂ ಬಹಳ ಕಾಲದ ನಂತರವೂ ಇದನ್ನು AI ಗೆ ಬಳಸಬಹುದು.",
+              "FSD चुने हुए सांड का रखा हुआ, जमा हुआ वीर्य है, जिसे वह सांड न रहने के बहुत समय बाद भी AI के लिए इस्तेमाल किया जा सकता है।"
+            ),
           },
           {
             type: "truefalse",
-            q: L("Farm staff can carry out Artificial Insemination themselves once they know the animal is in heat."),
+            q: L(
+              "Farm staff can carry out Artificial Insemination themselves once they know the animal is in heat.",
+              "పశువు ఎదలో ఉందని తెలిసిన తర్వాత ఫారం సిబ్బంది తామే కృత్రిమ గర్భధారణ చేయవచ్చు.",
+              "மாடு சினைப்பருவத்தில் இருக்கிறது என்று தெரிந்த பிறகு பண்ணைப் பணியாளர்கள் தாங்களே செயற்கை முறை கருவூட்டல் செய்யலாம்.",
+              "ಪ್ರಾಣಿ ಬೆದೆಯಲ್ಲಿದೆ ಎಂದು ತಿಳಿದ ನಂತರ ಫಾರಂ ಸಿಬ್ಬಂದಿ ತಾವೇ ಕೃತಕ ಗರ್ಭಧಾರಣೆ ಮಾಡಬಹುದು.",
+              "पशु के गर्मी में होने का पता चलने के बाद फार्म का स्टाफ खुद कृत्रिम गर्भाधान कर सकता है।"
+            ),
             answer: false,
-            explain: L("False — AI must always be carried out by a trained AI Technician. A handler's role is to notice heat and inform the technician."),
+            explain: L(
+              "False — AI must always be carried out by a trained AI Technician. A handler's role is to notice heat and inform the technician.",
+              "తప్పు — AIని ఎల్లప్పుడూ శిక్షణ పొందిన AI టెక్నీషియనే చేయాలి. సంరక్షకుని పాత్ర ఎదను గమనించి టెక్నీషియన్‌కు తెలియజేయడం మాత్రమే.",
+              "தவறு — AI-ஐ எப்போதும் பயிற்சி பெற்ற AI தொழில்நுட்பரே செய்ய வேண்டும். பராமரிப்பாளரின் பங்கு சினைப்பருவத்தைக் கவனித்து தொழில்நுட்பருக்குத் தெரிவிப்பது மட்டுமே.",
+              "ತಪ್ಪು — AI ಅನ್ನು ಯಾವಾಗಲೂ ತರಬೇತಿ ಪಡೆದ AI ತಂತ್ರಜ್ಞರೇ ಮಾಡಬೇಕು. ನೋಡಿಕೊಳ್ಳುವವರ ಪಾತ್ರ ಬೆದೆಯನ್ನು ಗಮನಿಸಿ ತಂತ್ರಜ್ಞರಿಗೆ ತಿಳಿಸುವುದು ಮಾತ್ರ.",
+              "गलत — AI हमेशा ट्रेंड AI टेक्नीशियन ही करे। पशुपालक की भूमिका सिर्फ गर्मी देखना और टेक्नीशियन को बताना है।"
+            ),
           },
         ],
       },
       {
         id: "t-m12-ai-followup",
-        title: L("After AI: What to Watch and When to Call the Vet"),
+        title: L(
+          "After AI: What to Watch and When to Call the Vet",
+          "AI తర్వాత: ఏమి గమనించాలి, వెట్‌ను ఎప్పుడు పిలవాలి",
+          "AI-க்குப் பிறகு: எதைக் கவனிக்க வேண்டும், கால்நடை மருத்துவரை எப்போது அழைக்க வேண்டும்",
+          "AI ನಂತರ: ಏನನ್ನು ಗಮನಿಸಬೇಕು, ಪಶುವೈದ್ಯರನ್ನು ಯಾವಾಗ ಕರೆಯಬೇಕು",
+          "AI के बाद: क्या देखें और डॉक्टर को कब बुलाएँ"
+        ),
         teach: [
           {
             type: "text",
-            heading: L("Two Key Moments After AI"),
+            heading: L(
+              "Two Key Moments After AI",
+              "AI తర్వాత రెండు ముఖ్యమైన సందర్భాలు",
+              "AI-க்குப் பிறகு இரண்டு முக்கியமான தருணங்கள்",
+              "AI ನಂತರದ ಎರಡು ಮುಖ್ಯ ಘಟ್ಟಗಳು",
+              "AI के बाद के दो अहम मौके"
+            ),
             html: L(
-              "AI does not guarantee pregnancy on the first try. After AI is carried out, there are two important points in time when the animal needs to be checked — and both depend on someone noticing and speaking up."
+              "AI does not guarantee pregnancy on the first try. After AI is carried out, there are two important points in time when the animal needs to be checked — and both depend on someone noticing and speaking up.",
+              "AI చేసిన మొదటిసారే చూలు కడుతుందన్న హామీ లేదు. AI అయిన తర్వాత, పశువును పరీక్షించాల్సిన రెండు ముఖ్యమైన సమయాలున్నాయి — రెండూ ఎవరో ఒకరు గమనించి చెప్పడంపైనే ఆధారపడతాయి.",
+              "AI செய்த முதல் முறையிலேயே சினையாகும் என்பதற்கு உத்தரவாதம் இல்லை. AI செய்த பிறகு, மாட்டைப் பரிசோதிக்க வேண்டிய இரண்டு முக்கியமான நேரங்கள் உள்ளன — இரண்டுமே யாரோ ஒருவர் கவனித்துச் சொல்வதைப் பொறுத்தவை.",
+              "AI ಮಾಡಿದ ಮೊದಲ ಪ್ರಯತ್ನದಲ್ಲೇ ಗರ್ಭ ಧರಿಸುತ್ತದೆ ಎಂಬ ಖಾತರಿ ಇಲ್ಲ. AI ಮಾಡಿದ ನಂತರ, ಪ್ರಾಣಿಯನ್ನು ಪರೀಕ್ಷಿಸಬೇಕಾದ ಎರಡು ಮುಖ್ಯ ಸಮಯಗಳಿವೆ — ಎರಡೂ ಯಾರಾದರೂ ಗಮನಿಸಿ ತಿಳಿಸುವುದರ ಮೇಲೆ ಅವಲಂಬಿತ.",
+              "AI कराने से पहली बार में ही गाभिन हो जाने की कोई गारंटी नहीं होती। AI के बाद दो अहम मौके आते हैं जब पशु की जाँच करनी चाहिए — और दोनों इस पर निर्भर हैं कि कोई ध्यान से देखे और बताए।"
             ),
           },
           {
             type: "timeline",
-            heading: L("Timeline After Insemination"),
+            heading: L(
+              "Timeline After Insemination",
+              "గర్భధారణ తర్వాత కాలరేఖ",
+              "கருவூட்டலுக்குப் பிந்தைய கால வரிசை",
+              "ಗರ್ಭಧಾರಣೆಯ ನಂತರದ ಕಾಲರೇಖೆ",
+              "गर्भाधान के बाद की समय-रेखा"
+            ),
             items: [
-              { year: L("Day 0"), text: L("AI is carried out by the trained technician during the correct heat window.") },
+              { year: L("Day 0", "0వ రోజు", "நாள் 0", "ದಿನ 0", "दिन 0"), text: L(
+                "AI is carried out by the trained technician during the correct heat window.",
+                "సరైన ఎద సమయంలో శిక్షణ పొందిన టెక్నీషియన్ AI చేస్తారు.",
+                "சரியான சினைப்பருவ நேரத்தில் பயிற்சி பெற்ற தொழில்நுட்பர் AI செய்வார்.",
+                "ಸರಿಯಾದ ಬೆದೆಯ ಸಮಯದಲ್ಲಿ ತರಬೇತಿ ಪಡೆದ ತಂತ್ರಜ್ಞರು AI ಮಾಡುತ್ತಾರೆ.",
+                "सही गर्मी के समय पर ट्रेंड टेक्नीशियन AI करता है।"
+              ) },
               {
-                year: L("Around Day 21"),
-                text: L("Watch closely for signs of heat returning. If she comes back into heat, she most likely did not conceive."),
+                year: L("Around Day 21", "సుమారు 21వ రోజు", "சுமார் நாள் 21", "ಸುಮಾರು ದಿನ 21", "लगभग दिन 21"),
+                text: L(
+                  "Watch closely for signs of heat returning. If she comes back into heat, she most likely did not conceive.",
+                  "ఎద మళ్లీ వస్తున్న సంకేతాల కోసం జాగ్రత్తగా గమనించండి. మళ్లీ ఎదకు వస్తే, చూలు కట్టలేదని అర్థం.",
+                  "சினைப்பருவம் மீண்டும் வருவதற்கான அறிகுறிகளை உன்னிப்பாகக் கவனியுங்கள். மீண்டும் சினைப்பருவத்துக்கு வந்தால், பெரும்பாலும் சினையாகவில்லை என்று அர்த்தம்.",
+                  "ಬೆದೆ ಮತ್ತೆ ಬರುವ ಲಕ್ಷಣಗಳಿಗಾಗಿ ಎಚ್ಚರಿಕೆಯಿಂದ ಗಮನಿಸಿ. ಮತ್ತೆ ಬೆದೆಗೆ ಬಂದರೆ, ಹೆಚ್ಚಾಗಿ ಗರ್ಭ ಧರಿಸಿಲ್ಲ ಎಂದರ್ಥ.",
+                  "गर्मी के दोबारा लौटने के निशान ध्यान से देखें। अगर वह फिर गर्मी में आ जाए, तो बहुत संभव है कि वह गाभिन नहीं हुई।"
+                ),
               },
-              { year: L("Around Day 60"), text: L("The animal should be examined for pregnancy.") },
+              { year: L("Around Day 60", "సుమారు 60వ రోజు", "சுமார் நாள் 60", "ಸುಮಾರು ದಿನ 60", "लगभग दिन 60"), text: L(
+                "The animal should be examined for pregnancy.",
+                "పశువుకు చూలు పరీక్ష చేయించాలి.",
+                "மாட்டுக்குச் சினைப் பரிசோதனை செய்ய வேண்டும்.",
+                "ಪ್ರಾಣಿಯನ್ನು ಗರ್ಭ ಪರೀಕ್ಷೆಗೆ ಒಳಪಡಿಸಬೇಕು.",
+                "पशु की गाभिन होने की जाँच करानी चाहिए।"
+              ) },
             ],
             result: L(
-              "If the animal does not conceive even after three inseminations, this should be reported so a veterinarian can look into the reason — repeated inseminations without success can even damage the reproductive organs if not investigated."
+              "If the animal does not conceive even after three inseminations, this should be reported so a veterinarian can look into the reason — repeated inseminations without success can even damage the reproductive organs if not investigated.",
+              "మూడుసార్లు గర్భధారణ చేసినా పశువు చూలు కట్టకపోతే, దీన్ని తెలియజేయాలి, తద్వారా పశువైద్యుడు కారణాన్ని పరిశీలించగలరు — విజయం లేకుండా పదే పదే గర్భధారణ చేస్తూ ఉంటే, పరిశీలించకపోతే ప్రత్యుత్పత్తి అవయవాలకు హాని కూడా కలగవచ్చు.",
+              "மூன்று முறை கருவூட்டல் செய்த பிறகும் மாடு சினையாகவில்லை என்றால், இதைத் தெரிவிக்க வேண்டும், அப்போது கால்நடை மருத்துவர் காரணத்தை ஆராய முடியும் — வெற்றி இல்லாமல் மீண்டும் மீண்டும் கருவூட்டல் செய்தால், ஆராயாவிட்டால் இனப்பெருக்க உறுப்புகள் சேதமடையவும் கூடும்.",
+              "ಮೂರು ಬಾರಿ ಗರ್ಭಧಾರಣೆ ಮಾಡಿದರೂ ಪ್ರಾಣಿ ಗರ್ಭ ಧರಿಸದಿದ್ದರೆ, ಇದನ್ನು ತಿಳಿಸಬೇಕು, ಆಗ ಪಶುವೈದ್ಯರು ಕಾರಣವನ್ನು ಪರಿಶೀಲಿಸಬಹುದು — ಯಶಸ್ಸಿಲ್ಲದೆ ಪದೇ ಪದೇ ಗರ್ಭಧಾರಣೆ ಮಾಡುತ್ತಿದ್ದರೆ, ಪರೀಕ್ಷಿಸದಿದ್ದರೆ ಸಂತಾನೋತ್ಪತ್ತಿ ಅಂಗಗಳಿಗೆ ಹಾನಿಯೂ ಆಗಬಹುದು.",
+              "अगर पशु तीन बार गर्भाधान कराने के बाद भी गाभिन नहीं होता, तो यह बताना चाहिए ताकि पशु चिकित्सक कारण की जाँच कर सके — बिना जाँच के बार-बार असफल गर्भाधान कराने से प्रजनन अंगों को नुकसान भी पहुँच सकता है।"
             ),
           },
           {
             type: "callout",
             style: "warning",
-            heading: L("Three Failed Tries Is a Signal, Not Just Bad Luck"),
+            heading: L(
+              "Three Failed Tries Is a Signal, Not Just Bad Luck",
+              "మూడు సార్లు విఫలం కావడం సంకేతం, కేవలం దురదృష్టం కాదు",
+              "மூன்று முறை தோல்வி என்பது ஓர் அறிகுறி, வெறும் துரதிர்ஷ்டம் அல்ல",
+              "ಮೂರು ಬಾರಿ ವಿಫಲವಾಗುವುದು ಒಂದು ಸೂಚನೆ, ಕೇವಲ ದುರದೃಷ್ಟವಲ್ಲ",
+              "तीन बार असफल होना एक संकेत है, सिर्फ बुरी किस्मत नहीं"
+            ),
             text: L(
-              "Failing to conceive after three separate inseminations is not something to simply keep repeating. It needs to be reported so a veterinarian can find out why."
+              "Failing to conceive after three separate inseminations is not something to simply keep repeating. It needs to be reported so a veterinarian can find out why.",
+              "మూడు వేర్వేరు గర్భధారణల తర్వాత కూడా చూలు కట్టకపోతే, దాన్ని అలాగే పదే పదే చేయకూడదు. పశువైద్యుడు కారణం కనుగొనేలా దీన్ని తెలియజేయాలి.",
+              "மூன்று தனித்தனி கருவூட்டல்களுக்குப் பிறகும் சினையாகவில்லை என்றால், அதையே திரும்பத் திரும்பச் செய்யக்கூடாது. கால்நடை மருத்துவர் காரணத்தைக் கண்டறிய இதைத் தெரிவிக்க வேண்டும்.",
+              "ಮೂರು ಪ್ರತ್ಯೇಕ ಗರ್ಭಧಾರಣೆಗಳ ನಂತರವೂ ಗರ್ಭ ಧರಿಸದಿದ್ದರೆ, ಅದನ್ನೇ ಪದೇ ಪದೇ ಮಾಡುತ್ತಿರಬಾರದು. ಪಶುವೈದ್ಯರು ಕಾರಣ ಕಂಡುಹಿಡಿಯುವಂತೆ ಇದನ್ನು ತಿಳಿಸಬೇಕು.",
+              "तीन अलग-अलग गर्भाधान के बाद भी गाभिन न होने पर उसे बस दोहराते नहीं रहना चाहिए। इसकी सूचना दी जानी चाहिए ताकि पशु चिकित्सक कारण पता कर सके।"
             ),
           },
           {
             type: "glossary",
-            term: L("Conceive"),
-            meaning: L("To become pregnant."),
+            term: L("Conceive", "చూలు కట్టడం", "சினையாதல்", "ಗರ್ಭ ಧರಿಸುವುದು", "गाभिन होना"),
+            meaning: L("To become pregnant.", "గర్భవతి కావడం.", "கருவுறுதல்.", "ಗರ್ಭಿಣಿಯಾಗುವುದು.", "गर्भवती होना।"),
           },
           {
             type: "example",
-            heading: L("Watching Closely for 'Silent Heat'"),
+            heading: L(
+              "Watching Closely for 'Silent Heat'",
+              "'సైలెంట్ హీట్' కోసం జాగ్రత్తగా గమనించడం",
+              "'அமைதி சினைப்பருவம்' (சைலண்ட் ஹீட்) — உன்னிப்பாகக் கவனித்தல்",
+              "'ಮೌನ ಬೆದೆ' (ಸೈಲೆಂಟ್ ಹೀಟ್) ಗಾಗಿ ಎಚ್ಚರಿಕೆಯಿಂದ ಗಮನಿಸುವುದು",
+              "'साइलेंट हीट' (चुपचाप गर्मी) पर बारीकी से नज़र रखना"
+            ),
             text: L(
-              "Sometimes an animal is actually in heat but shows almost no visible signs at all — this is especially common in buffaloes. Because of this, close, regular observation of the whole herd matters, not just a quick glance now and then."
+              "Sometimes an animal is actually in heat but shows almost no visible signs at all — this is especially common in buffaloes. Because of this, close, regular observation of the whole herd matters, not just a quick glance now and then.",
+              "కొన్నిసార్లు పశువు నిజంగా ఎదలో ఉంటుంది కానీ కనిపించే సంకేతాలు దాదాపు ఏవీ చూపదు — ఇది ముఖ్యంగా గేదెలలో ఎక్కువ. అందుకే మందనంతా ఒకసారి ఏదో చూసి వదిలేయకుండా, దగ్గరగా, క్రమం తప్పకుండా గమనించడం ముఖ్యం.",
+              "சில நேரங்களில் மாடு உண்மையில் சினைப்பருவத்தில் இருக்கும், ஆனால் கண்ணுக்குத் தெரியும் அறிகுறிகளை கிட்டத்தட்ட எதுவும் காட்டாது — இது குறிப்பாக எருமைகளில் அதிகம். அதனால், அவ்வப்போது ஒரு பார்வை பார்த்துவிட்டுப் போவது மட்டும் போதாது, மந்தை முழுவதையும் நெருக்கமாக, தொடர்ந்து கவனிப்பது முக்கியம்.",
+              "ಕೆಲವೊಮ್ಮೆ ಪ್ರಾಣಿ ನಿಜವಾಗಿ ಬೆದೆಯಲ್ಲಿರುತ್ತದೆ ಆದರೆ ಕಾಣುವ ಲಕ್ಷಣಗಳನ್ನು ಬಹುತೇಕ ತೋರಿಸುವುದೇ ಇಲ್ಲ — ಇದು ವಿಶೇಷವಾಗಿ ಎಮ್ಮೆಗಳಲ್ಲಿ ಹೆಚ್ಚು. ಆದ್ದರಿಂದ ಆಗಾಗ ಒಂದು ನೋಟ ಹಾಯಿಸಿ ಬಿಡುವುದಲ್ಲ, ಇಡೀ ಹಿಂಡನ್ನು ಹತ್ತಿರದಿಂದ, ನಿಯಮಿತವಾಗಿ ಗಮನಿಸುವುದು ಮುಖ್ಯ.",
+              "कभी-कभी पशु असल में गर्मी में होता है पर लगभग कोई साफ़ निशान नहीं दिखाता — यह खासकर भैंसों में ज़्यादा होता है। इसलिए पूरे झुंड को नज़दीक से और नियमित रूप से देखना ज़रूरी है, सिर्फ कभी-कभार एक नज़र डाल लेना काफी नहीं।"
             ),
           },
           {
             type: "callout",
             style: "tip",
-            heading: L("Your Job: Keep Watching, Keep Reporting"),
+            heading: L(
+              "Your Job: Keep Watching, Keep Reporting",
+              "మీ పని: గమనిస్తూ ఉండండి, తెలియజేస్తూ ఉండండి",
+              "உங்கள் வேலை: தொடர்ந்து கவனியுங்கள், தொடர்ந்து தெரிவியுங்கள்",
+              "ನಿಮ್ಮ ಕೆಲಸ: ಗಮನಿಸುತ್ತಿರಿ, ತಿಳಿಸುತ್ತಿರಿ",
+              "आपका काम: देखते रहें, बताते रहें"
+            ),
             text: L(
-              "Whether or not an animal returns to heat around day 21, or fails to show a pregnancy at day 60, is exactly the kind of thing to note down and pass on. Decisions about repeat AI or further treatment are always for the vet or breeding staff to make."
+              "Whether or not an animal returns to heat around day 21, or fails to show a pregnancy at day 60, is exactly the kind of thing to note down and pass on. Decisions about repeat AI or further treatment are always for the vet or breeding staff to make.",
+              "21వ రోజు దాటిన తర్వాత పశువు మళ్లీ ఎదకు వచ్చినా, రాకపోయినా, లేదా 60వ రోజున చూలు కనిపించకపోయినా — ఇవన్నీ రాసిపెట్టి తెలియజేయాల్సిన విషయాలే. మళ్లీ AI చేయాలా, ఇంకా చికిత్స కావాలా అనే నిర్ణయాలు ఎప్పుడూ వెట్ లేదా సంతానోత్పత్తి సిబ్బందివే.",
+              "21-ஆம் நாளைச் சுற்றி மாடு மீண்டும் சினைப்பருவத்துக்கு வருகிறதா இல்லையா, அல்லது 60-ஆம் நாளில் சினை தெரியவில்லையா என்பது நிச்சயமாகக் குறித்து வைத்துத் தெரிவிக்க வேண்டிய விஷயம். மீண்டும் AI செய்வதா, மேலும் சிகிச்சை தேவையா என்ற முடிவுகள் எப்போதும் கால்நடை மருத்துவர் அல்லது இனப்பெருக்கப் பணியாளர்களுடையவை.",
+              "21ನೇ ದಿನದ ಸುಮಾರಿಗೆ ಪ್ರಾಣಿ ಮತ್ತೆ ಬೆದೆಗೆ ಬರುತ್ತದೆಯೇ ಇಲ್ಲವೇ, ಅಥವಾ 60ನೇ ದಿನದಲ್ಲಿ ಗರ್ಭ ಕಾಣಿಸುತ್ತಿಲ್ಲವೇ ಎಂಬುದು ಬರೆದಿಟ್ಟು ತಿಳಿಸಬೇಕಾದ ವಿಷಯವೇ. ಮತ್ತೆ AI ಮಾಡಬೇಕೇ, ಹೆಚ್ಚಿನ ಚಿಕಿತ್ಸೆ ಬೇಕೇ ಎಂಬ ನಿರ್ಧಾರಗಳು ಯಾವಾಗಲೂ ಪಶುವೈದ್ಯರು ಅಥವಾ ಸಂತಾನೋತ್ಪತ್ತಿ ಸಿಬ್ಬಂದಿಯವು.",
+              "21वें दिन के आसपास पशु फिर गर्मी में आता है या नहीं, या 60वें दिन गाभिन होने का पता नहीं चलता, यह ठीक वही बात है जिसे लिखकर आगे बताना चाहिए। दोबारा AI कराना है या और इलाज करना है, इसका फैसला हमेशा डॉक्टर या प्रजनन स्टाफ का होता है।"
             ),
           },
         ],
         check: [
           {
             type: "mcq",
-            q: L("Around how many days after AI should the animal be examined for pregnancy?"),
-            options: [L("60 days"), L("3 days", "3 రోజులు", "3 நாட்கள்", "3 ದಿನಗಳು", "3 दिन"), L("1 year"), L("Immediately after AI")],
+            q: L(
+              "Around how many days after AI should the animal be examined for pregnancy?",
+              "AI చేసిన సుమారు ఎన్ని రోజుల తర్వాత పశువుకు చూలు పరీక్ష చేయించాలి?",
+              "AI செய்த சுமார் எத்தனை நாட்களுக்குப் பிறகு மாட்டுக்குச் சினைப் பரிசோதனை செய்ய வேண்டும்?",
+              "AI ಮಾಡಿದ ಸುಮಾರು ಎಷ್ಟು ದಿನಗಳ ನಂತರ ಪ್ರಾಣಿಯನ್ನು ಗರ್ಭ ಪರೀಕ್ಷೆಗೆ ಒಳಪಡಿಸಬೇಕು?",
+              "AI के करीब कितने दिन बाद पशु की गाभिन होने की जाँच करानी चाहिए?"
+            ),
+            options: [L("60 days", "60 రోజులు", "60 நாட்கள்", "60 ದಿನಗಳು", "60 दिन"), L("3 days", "3 రోజులు", "3 நாட்கள்", "3 ದಿನಗಳು", "3 दिन"), L("1 year", "1 సంవత్సరం", "1 வருடம்", "1 ವರ್ಷ", "1 साल"), L("Immediately after AI", "AI అయిన వెంటనే", "AI செய்த உடனேயே", "AI ಆದ ತಕ್ಷಣ", "AI के तुरंत बाद")],
             answer: 0,
-            explain: L("The animal should be examined for pregnancy around 60 days after AI."),
+            explain: L(
+              "The animal should be examined for pregnancy around 60 days after AI.",
+              "AI చేసిన సుమారు 60 రోజుల తర్వాత పశువుకు చూలు పరీక్ష చేయించాలి.",
+              "AI செய்த சுமார் 60 நாட்களுக்குப் பிறகு மாட்டுக்குச் சினைப் பரிசோதனை செய்ய வேண்டும்.",
+              "AI ಮಾಡಿದ ಸುಮಾರು 60 ದಿನಗಳ ನಂತರ ಪ್ರಾಣಿಯನ್ನು ಗರ್ಭ ಪರೀಕ್ಷೆಗೆ ಒಳಪಡಿಸಬೇಕು.",
+              "AI के करीब 60 दिन बाद पशु की गाभिन होने की जाँच करानी चाहिए।"
+            ),
           },
           {
             type: "truefalse",
-            q: L("If an animal fails to conceive after three inseminations, it should simply be inseminated a fourth time without telling anyone."),
+            q: L(
+              "If an animal fails to conceive after three inseminations, it should simply be inseminated a fourth time without telling anyone.",
+              "మూడు గర్భధారణల తర్వాత కూడా పశువు చూలు కట్టకపోతే, ఎవరికీ చెప్పకుండా నాలుగోసారి గర్భధారణ చేసేయాలి.",
+              "மூன்று கருவூட்டல்களுக்குப் பிறகும் மாடு சினையாகவில்லை என்றால், யாரிடமும் சொல்லாமல் நான்காவது முறை கருவூட்டல் செய்துவிட வேண்டும்.",
+              "ಮೂರು ಗರ್ಭಧಾರಣೆಗಳ ನಂತರವೂ ಪ್ರಾಣಿ ಗರ್ಭ ಧರಿಸದಿದ್ದರೆ, ಯಾರಿಗೂ ಹೇಳದೆ ನಾಲ್ಕನೇ ಬಾರಿ ಗರ್ಭಧಾರಣೆ ಮಾಡಿಬಿಡಬೇಕು.",
+              "अगर पशु तीन गर्भाधान के बाद भी गाभिन नहीं होता, तो किसी को बताए बिना चौथी बार गर्भाधान करा देना चाहिए।"
+            ),
             answer: false,
-            explain: L("False — three failed inseminations should be reported to a veterinarian to find out the underlying reason, rather than just repeating AI."),
+            explain: L(
+              "False — three failed inseminations should be reported to a veterinarian to find out the underlying reason, rather than just repeating AI.",
+              "తప్పు — మూడు గర్భధారణలు విఫలమైతే, అసలు కారణం తెలుసుకోవడానికి పశువైద్యునికి తెలియజేయాలి, అంతేగానీ AIని పదే పదే చేస్తూ ఉండకూడదు.",
+              "தவறு — மூன்று கருவூட்டல்கள் தோல்வியடைந்தால், அடிப்படைக் காரணத்தைக் கண்டறிய கால்நடை மருத்துவரிடம் தெரிவிக்க வேண்டும், AI-ஐ மீண்டும் மீண்டும் செய்துகொண்டே இருக்கக்கூடாது.",
+              "ತಪ್ಪು — ಮೂರು ಗರ್ಭಧಾರಣೆಗಳು ವಿಫಲವಾದರೆ, ಮೂಲ ಕಾರಣ ತಿಳಿಯಲು ಪಶುವೈದ್ಯರಿಗೆ ತಿಳಿಸಬೇಕು, ಕೇವಲ AI ಪುನರಾವರ್ತಿಸುತ್ತಿರಬಾರದು.",
+              "गलत — तीन गर्भाधान असफल होने पर असली कारण पता करने के लिए पशु चिकित्सक को बताना चाहिए, सिर्फ AI दोहराते नहीं रहना चाहिए।"
+            ),
           },
         ],
       },
@@ -9890,56 +10104,187 @@ export const MODULES = [
         {
           topicId: "t-m12-ai-benefits",
           type: "mcq",
-          q: L("Which of these is a genuine advantage of Artificial Insemination (AI)?"),
+          q: L(
+            "Which of these is a genuine advantage of Artificial Insemination (AI)?",
+            "కృత్రిమ గర్భధారణ (AI) యొక్క నిజమైన ప్రయోజనం ఇందులో ఏది?",
+            "செயற்கை முறை கருவூட்டலின் (AI) உண்மையான நன்மை இவற்றில் எது?",
+            "ಕೃತಕ ಗರ್ಭಧಾರಣೆಯ (AI) ನಿಜವಾದ ಪ್ರಯೋಜನ ಇವುಗಳಲ್ಲಿ ಯಾವುದು?",
+            "इनमें से कृत्रिम गर्भाधान (AI) का असली फायदा कौन सा है?"
+          ),
           options: [
-            L("It spreads diseases faster between animals"),
-            L("It prevents the spread of sexually transmitted diseases between animals"),
-            L("It can only be used once per bull, ever"),
-            L("It requires the bull to be physically present every time"),
+            L(
+              "It spreads diseases faster between animals",
+              "ఇది పశువుల మధ్య వ్యాధులను వేగంగా వ్యాపింపజేస్తుంది",
+              "இது கால்நடைகளுக்கு இடையே நோய்களை வேகமாகப் பரப்புகிறது",
+              "ಇದು ಪ್ರಾಣಿಗಳ ನಡುವೆ ರೋಗಗಳನ್ನು ವೇಗವಾಗಿ ಹರಡುತ್ತದೆ",
+              "यह पशुओं के बीच बीमारियाँ तेज़ी से फैलाता है"
+            ),
+            L(
+              "It prevents the spread of sexually transmitted diseases between animals",
+              "ఇది పశువుల మధ్య లైంగికంగా సంక్రమించే వ్యాధులు వ్యాపించకుండా అడ్డుకుంటుంది",
+              "இது கால்நடைகளுக்கு இடையே பாலியல் தொடர்பால் பரவும் நோய்கள் பரவுவதைத் தடுக்கிறது",
+              "ಇದು ಪ್ರಾಣಿಗಳ ನಡುವೆ ಲೈಂಗಿಕವಾಗಿ ಹರಡುವ ರೋಗಗಳು ಹರಡುವುದನ್ನು ತಡೆಯುತ್ತದೆ",
+              "यह पशुओं के बीच यौन संपर्क से फैलने वाली बीमारियों को फैलने से रोकता है"
+            ),
+            L(
+              "It can only be used once per bull, ever",
+              "ఒక ఎద్దును జీవితంలో ఒక్కసారి మాత్రమే వాడవచ్చు",
+              "ஒரு காளையை வாழ்நாளில் ஒரு முறை மட்டுமே பயன்படுத்த முடியும்",
+              "ಒಂದು ಹೋರಿಯನ್ನು ಜೀವಮಾನದಲ್ಲಿ ಒಂದೇ ಬಾರಿ ಮಾತ್ರ ಬಳಸಬಹುದು",
+              "एक सांड का इस्तेमाल पूरी ज़िंदगी में सिर्फ एक बार हो सकता है"
+            ),
+            L(
+              "It requires the bull to be physically present every time",
+              "ప్రతిసారి ఎద్దు స్వయంగా అక్కడ ఉండాలి",
+              "ஒவ்வொரு முறையும் காளை நேரில் இருக்க வேண்டும்",
+              "ಪ್ರತಿ ಬಾರಿ ಹೋರಿ ಸ್ವತಃ ಅಲ್ಲಿ ಇರಬೇಕು",
+              "हर बार सांड का खुद वहाँ मौजूद होना ज़रूरी है"
+            ),
           ],
           answer: 1,
-          explain: L("Because there is no direct mating involved, AI helps prevent the spread of sexually transmitted diseases between animals."),
+          explain: L(
+            "Because there is no direct mating involved, AI helps prevent the spread of sexually transmitted diseases between animals.",
+            "నేరుగా సంయోగం ఉండదు కాబట్టి, AI పశువుల మధ్య లైంగికంగా సంక్రమించే వ్యాధులు వ్యాపించకుండా సహాయపడుతుంది.",
+            "நேரடி இனச்சேர்க்கை இல்லாததால், AI கால்நடைகளுக்கு இடையே பாலியல் தொடர்பால் பரவும் நோய்கள் பரவாமல் தடுக்க உதவுகிறது.",
+            "ನೇರ ಸಂಯೋಗ ಇಲ್ಲದಿರುವುದರಿಂದ, AI ಪ್ರಾಣಿಗಳ ನಡುವೆ ಲೈಂಗಿಕವಾಗಿ ಹರಡುವ ರೋಗಗಳು ಹರಡದಂತೆ ತಡೆಯಲು ಸಹಾಯ ಮಾಡುತ್ತದೆ.",
+            "सीधा मेल न होने की वजह से AI पशुओं के बीच यौन संपर्क से फैलने वाली बीमारियों को रोकने में मदद करता है।"
+          ),
         },
         {
           topicId: "t-m12-ai-benefits",
           type: "truefalse",
-          q: L("AI must be carried out only by a trained AI Technician, never by farm staff on their own."),
+          q: L(
+            "AI must be carried out only by a trained AI Technician, never by farm staff on their own.",
+            "AIని శిక్షణ పొందిన AI టెక్నీషియన్ మాత్రమే చేయాలి, ఫారం సిబ్బంది తమంతట తాము ఎప్పుడూ చేయకూడదు.",
+            "AI-ஐ பயிற்சி பெற்ற AI தொழில்நுட்பர் மட்டுமே செய்ய வேண்டும், பண்ணைப் பணியாளர்கள் தாங்களாக ஒருபோதும் செய்யக்கூடாது.",
+            "AI ಅನ್ನು ತರಬೇತಿ ಪಡೆದ AI ತಂತ್ರಜ್ಞರು ಮಾತ್ರ ಮಾಡಬೇಕು, ಫಾರಂ ಸಿಬ್ಬಂದಿ ತಾವಾಗಿ ಎಂದಿಗೂ ಮಾಡಬಾರದು.",
+            "AI सिर्फ ट्रेंड AI टेक्नीशियन ही करे, फार्म का स्टाफ कभी खुद से न करे।"
+          ),
           answer: true,
-          explain: L("Correct — AI is always performed by a trained technician. Farm staff notice heat and report it, but do not perform AI themselves."),
+          explain: L(
+            "Correct — AI is always performed by a trained technician. Farm staff notice heat and report it, but do not perform AI themselves.",
+            "సరైనది — AIని ఎల్లప్పుడూ శిక్షణ పొందిన టెక్నీషియనే చేస్తారు. ఫారం సిబ్బంది ఎదను గమనించి తెలియజేస్తారు, కానీ AI స్వయంగా చేయరు.",
+            "சரிதான் — AI-ஐ எப்போதும் பயிற்சி பெற்ற தொழில்நுட்பரே செய்கிறார். பண்ணைப் பணியாளர்கள் சினைப்பருவத்தைக் கவனித்துத் தெரிவிப்பார்கள், ஆனால் AI-ஐத் தாங்களே செய்ய மாட்டார்கள்.",
+            "ಸರಿ — AI ಅನ್ನು ಯಾವಾಗಲೂ ತರಬೇತಿ ಪಡೆದ ತಂತ್ರಜ್ಞರೇ ಮಾಡುತ್ತಾರೆ. ಫಾರಂ ಸಿಬ್ಬಂದಿ ಬೆದೆಯನ್ನು ಗಮನಿಸಿ ತಿಳಿಸುತ್ತಾರೆ, ಆದರೆ ತಾವೇ AI ಮಾಡುವುದಿಲ್ಲ.",
+            "सही — AI हमेशा ट्रेंड टेक्नीशियन ही करता है। फार्म का स्टाफ गर्मी देखकर बताता है, खुद AI नहीं करता।"
+          ),
         },
         {
           topicId: "t-m12-ai-followup",
           type: "mcq",
-          q: L("What should you watch for around 21 days after AI?"),
+          q: L(
+            "What should you watch for around 21 days after AI?",
+            "AI చేసిన సుమారు 21 రోజుల తర్వాత మీరు ఏమి గమనించాలి?",
+            "AI செய்த சுமார் 21 நாட்களுக்குப் பிறகு நீங்கள் எதைக் கவனிக்க வேண்டும்?",
+            "AI ಮಾಡಿದ ಸುಮಾರು 21 ದಿನಗಳ ನಂತರ ನೀವು ಏನನ್ನು ಗಮನಿಸಬೇಕು?",
+            "AI के करीब 21 दिन बाद आपको क्या देखना चाहिए?"
+          ),
           options: [
-            L("Whether the animal comes back into heat, which would suggest she did not conceive"),
-            L("Whether the calf has been born"),
-            L("Whether the animal's coat colour has changed"),
-            L("Nothing — no check is needed at 21 days"),
+            L(
+              "Whether the animal comes back into heat, which would suggest she did not conceive",
+              "పశువు మళ్లీ ఎదకు వస్తుందా, వస్తే అది చూలు కట్టలేదని సూచిస్తుంది",
+              "மாடு மீண்டும் சினைப்பருவத்துக்கு வருகிறதா என்பது, வந்தால் அது சினையாகவில்லை என்பதைக் காட்டும்",
+              "ಪ್ರಾಣಿ ಮತ್ತೆ ಬೆದೆಗೆ ಬರುತ್ತದೆಯೇ, ಬಂದರೆ ಅದು ಗರ್ಭ ಧರಿಸಿಲ್ಲ ಎಂಬುದನ್ನು ಸೂಚಿಸುತ್ತದೆ",
+              "पशु फिर से गर्मी में आता है या नहीं, अगर आए तो इसका मतलब वह गाभिन नहीं हुआ"
+            ),
+            L(
+              "Whether the calf has been born",
+              "దూడ పుట్టిందా లేదా అని",
+              "கன்று பிறந்துவிட்டதா என்பது",
+              "ಕರು ಹುಟ್ಟಿದೆಯೇ ಎಂದು",
+              "बछड़ा पैदा हुआ या नहीं"
+            ),
+            L(
+              "Whether the animal's coat colour has changed",
+              "పశువు చర్మ రంగు మారిందా అని",
+              "மாட்டின் தோல் நிறம் மாறியதா என்பது",
+              "ಪ್ರಾಣಿಯ ಚರ್ಮದ ಬಣ್ಣ ಬದಲಾಗಿದೆಯೇ ಎಂದು",
+              "पशु के बालों का रंग बदला या नहीं"
+            ),
+            L(
+              "Nothing — no check is needed at 21 days",
+              "ఏమీ లేదు — 21వ రోజున ఎలాంటి తనిఖీ అవసరం లేదు",
+              "எதுவும் இல்லை — 21-ஆம் நாளில் எந்தப் பரிசோதனையும் தேவையில்லை",
+              "ಏನೂ ಇಲ್ಲ — 21ನೇ ದಿನ ಯಾವುದೇ ಪರಿಶೀಲನೆ ಬೇಕಿಲ್ಲ",
+              "कुछ नहीं — 21वें दिन किसी जाँच की ज़रूरत नहीं है"
+            ),
           ],
           answer: 0,
-          explain: L("Around 21 days after AI, watch for the animal returning to heat — a sign she likely did not conceive."),
+          explain: L(
+            "Around 21 days after AI, watch for the animal returning to heat — a sign she likely did not conceive.",
+            "AI చేసిన సుమారు 21 రోజుల తర్వాత, పశువు మళ్లీ ఎదకు వస్తుందేమో గమనించండి — అది చూలు కట్టలేదని అర్థం.",
+            "AI செய்த சுமார் 21 நாட்களுக்குப் பிறகு, மாடு மீண்டும் சினைப்பருவத்துக்கு வருகிறதா எனக் கவனியுங்கள் — அது சினையாகவில்லை என்பதற்கான அறிகுறி.",
+            "AI ಮಾಡಿದ ಸುಮಾರು 21 ದಿನಗಳ ನಂತರ, ಪ್ರಾಣಿ ಮತ್ತೆ ಬೆದೆಗೆ ಬರುತ್ತದೆಯೇ ಎಂದು ಗಮನಿಸಿ — ಅದು ಗರ್ಭ ಧರಿಸಿಲ್ಲ ಎಂಬುದರ ಲಕ್ಷಣ.",
+            "AI के करीब 21 दिन बाद देखें कि पशु फिर गर्मी में आता है या नहीं — यह इस बात की निशानी है कि वह शायद गाभिन नहीं हुआ।"
+          ),
         },
         {
           topicId: "t-m12-ai-followup",
           type: "truefalse",
-          q: L("Signs of heat can sometimes be almost invisible ('silent heat'), especially in buffaloes, which is why close observation matters.",
+          q: L(
+            "Signs of heat can sometimes be almost invisible ('silent heat'), especially in buffaloes, which is why close observation matters.",
+            "ఎద సంకేతాలు కొన్నిసార్లు దాదాపు కనిపించకపోవచ్చు ('సైలెంట్ హీట్'), ముఖ్యంగా గేదెలలో — అందుకే దగ్గరగా గమనించడం ముఖ్యం.",
+            "சினைப்பருவ அறிகுறிகள் சில நேரங்களில் கிட்டத்தட்ட தெரியாமலே இருக்கலாம் ('அமைதி சினைப்பருவம்'), குறிப்பாக எருமைகளில் — அதனால்தான் நெருக்கமான கவனிப்பு முக்கியம்.",
+            "ಬೆದೆಯ ಲಕ್ಷಣಗಳು ಕೆಲವೊಮ್ಮೆ ಬಹುತೇಕ ಕಾಣದೇ ಇರಬಹುದು ('ಮೌನ ಬೆದೆ'), ವಿಶೇಷವಾಗಿ ಎಮ್ಮೆಗಳಲ್ಲಿ — ಅದಕ್ಕಾಗಿಯೇ ಹತ್ತಿರದಿಂದ ಗಮನಿಸುವುದು ಮುಖ್ಯ.",
+            "गर्मी के निशान कभी-कभी लगभग दिखते ही नहीं ('साइलेंट हीट'), खासकर भैंसों में — इसीलिए नज़दीक से देखना ज़रूरी है।"
           ),
           answer: true,
-          explain: L("True — 'silent heat' with few visible signs happens, especially in buffaloes, so regular close observation of the herd is important."),
+          explain: L(
+            "True — 'silent heat' with few visible signs happens, especially in buffaloes, so regular close observation of the herd is important.",
+            "నిజమే — కొద్దిగా మాత్రమే కనిపించే 'సైలెంట్ హీట్' జరుగుతుంది, ముఖ్యంగా గేదెలలో, కాబట్టి మందను క్రమం తప్పకుండా దగ్గరగా గమనించడం ముఖ్యం.",
+            "உண்மைதான் — சில அறிகுறிகளே தெரியும் 'அமைதி சினைப்பருவம்' நிகழ்கிறது, குறிப்பாக எருமைகளில், எனவே மந்தையைத் தொடர்ந்து நெருக்கமாகக் கவனிப்பது முக்கியம்.",
+            "ನಿಜ — ಕಡಿಮೆ ಲಕ್ಷಣಗಳಷ್ಟೇ ಕಾಣುವ 'ಮೌನ ಬೆದೆ' ಆಗುತ್ತದೆ, ವಿಶೇಷವಾಗಿ ಎಮ್ಮೆಗಳಲ್ಲಿ, ಆದ್ದರಿಂದ ಹಿಂಡನ್ನು ನಿಯಮಿತವಾಗಿ ಹತ್ತಿರದಿಂದ ಗಮನಿಸುವುದು ಮುಖ್ಯ.",
+            "सही — कम निशान दिखाने वाली 'साइलेंट हीट' होती है, खासकर भैंसों में, इसलिए झुंड को नियमित रूप से नज़दीक से देखना ज़रूरी है।"
+          ),
         },
         {
           topicId: "t-m12-ai-followup",
           type: "mcq",
-          q: L("An animal fails to conceive after three inseminations. What is the right response?"),
+          q: L(
+            "An animal fails to conceive after three inseminations. What is the right response?",
+            "ఒక పశువు మూడు గర్భధారణల తర్వాత కూడా చూలు కట్టలేదు. సరైన స్పందన ఏమిటి?",
+            "ஒரு மாடு மூன்று கருவூட்டல்களுக்குப் பிறகும் சினையாகவில்லை. சரியான நடவடிக்கை என்ன?",
+            "ಒಂದು ಪ್ರಾಣಿ ಮೂರು ಗರ್ಭಧಾರಣೆಗಳ ನಂತರವೂ ಗರ್ಭ ಧರಿಸಿಲ್ಲ. ಸರಿಯಾದ ಕ್ರಮ ಯಾವುದು?",
+            "एक पशु तीन गर्भाधान के बाद भी गाभिन नहीं हुआ। सही कदम क्या है?"
+          ),
           options: [
-            L("Keep repeating AI indefinitely without telling anyone"),
-            L("Report it so a veterinarian can investigate the reason"),
-            L("Assume nothing more can be done and stop trying to breed her permanently"),
-            L("Switch to natural service without informing anyone"),
+            L(
+              "Keep repeating AI indefinitely without telling anyone",
+              "ఎవరికీ చెప్పకుండా AIని అనంతంగా పదే పదే చేస్తూ ఉండటం",
+              "யாரிடமும் சொல்லாமல் AI-ஐ முடிவில்லாமல் மீண்டும் மீண்டும் செய்துகொண்டே இருப்பது",
+              "ಯಾರಿಗೂ ಹೇಳದೆ AI ಅನ್ನು ಅನಿರ್ದಿಷ್ಟವಾಗಿ ಪದೇ ಪದೇ ಮಾಡುತ್ತಿರುವುದು",
+              "किसी को बताए बिना AI को बार-बार दोहराते रहना"
+            ),
+            L(
+              "Report it so a veterinarian can investigate the reason",
+              "పశువైద్యుడు కారణాన్ని పరిశీలించేలా తెలియజేయడం",
+              "கால்நடை மருத்துவர் காரணத்தை ஆராயும்படி தெரிவிப்பது",
+              "ಪಶುವೈದ್ಯರು ಕಾರಣವನ್ನು ಪರಿಶೀಲಿಸುವಂತೆ ತಿಳಿಸುವುದು",
+              "पशु चिकित्सक कारण की जाँच करे, इसके लिए बताना"
+            ),
+            L(
+              "Assume nothing more can be done and stop trying to breed her permanently",
+              "ఇక ఏమీ చేయలేమని భావించి, దాన్ని శాశ్వతంగా సంతానోత్పత్తికి వదిలేయడం",
+              "இனி எதுவும் செய்ய முடியாது என்று கருதி, அதை நிரந்தரமாக இனப்பெருக்கத்துக்குப் பயன்படுத்தாமல் விட்டுவிடுவது",
+              "ಇನ್ನು ಏನೂ ಮಾಡಲಾಗದು ಎಂದು ಭಾವಿಸಿ, ಅದನ್ನು ಶಾಶ್ವತವಾಗಿ ಸಂತಾನೋತ್ಪತ್ತಿ ಮಾಡಿಸುವುದನ್ನೇ ಬಿಟ್ಟುಬಿಡುವುದು",
+              "यह मानकर कि अब कुछ नहीं हो सकता, उसका प्रजनन हमेशा के लिए बंद कर देना"
+            ),
+            L(
+              "Switch to natural service without informing anyone",
+              "ఎవరికీ తెలియజేయకుండా సహజ సంయోగానికి మారడం",
+              "யாருக்கும் தெரிவிக்காமல் இயற்கை இனச்சேர்க்கைக்கு மாறுவது",
+              "ಯಾರಿಗೂ ತಿಳಿಸದೆ ಸಹಜ ಸಂಯೋಗಕ್ಕೆ ಬದಲಾಯಿಸುವುದು",
+              "किसी को बताए बिना प्राकृतिक मेल पर चले जाना"
+            ),
           ],
           answer: 1,
-          explain: L("Three failed inseminations should be reported to a veterinarian — repeated AI without investigation can even harm the animal."),
+          explain: L(
+            "Three failed inseminations should be reported to a veterinarian — repeated AI without investigation can even harm the animal.",
+            "మూడు గర్భధారణలు విఫలమైతే పశువైద్యునికి తెలియజేయాలి — పరిశీలన లేకుండా AIని పదే పదే చేస్తే పశువుకు హాని కూడా కలగవచ్చు.",
+            "மூன்று கருவூட்டல்கள் தோல்வியடைந்தால் கால்நடை மருத்துவரிடம் தெரிவிக்க வேண்டும் — ஆராயாமல் AI-ஐ மீண்டும் மீண்டும் செய்தால் மாட்டுக்குப் பாதிப்பும் ஏற்படலாம்.",
+            "ಮೂರು ಗರ್ಭಧಾರಣೆಗಳು ವಿಫಲವಾದರೆ ಪಶುವೈದ್ಯರಿಗೆ ತಿಳಿಸಬೇಕು — ಪರಿಶೀಲನೆ ಇಲ್ಲದೆ AI ಪದೇ ಪದೇ ಮಾಡುವುದರಿಂದ ಪ್ರಾಣಿಗೆ ಹಾನಿಯೂ ಆಗಬಹುದು.",
+            "तीन गर्भाधान असफल होने पर पशु चिकित्सक को बताना चाहिए — बिना जाँच के बार-बार AI कराने से पशु को नुकसान भी हो सकता है।"
+          ),
         },
       ],
     },
@@ -9950,21 +10295,43 @@ export const MODULES = [
   // ==================================================================
   {
     id: "m12-l3",
-    title: L("The Dry Period and Calving"),
+    title: L(
+      "The Dry Period and Calving",
+      "పాలు మానిపించే కాలం (డ్రై పీరియడ్) మరియు ఈనడం",
+      "வற்றல் காலமும் கன்று ஈனுதலும்",
+      "ಒಣ ಅವಧಿ (ಡ್ರೈ ಪೀರಿಯಡ್) ಮತ್ತು ಕರು ಹಾಕುವುದು",
+      "सूखा काल (ड्राई पीरियड) और ब्याना"
+    ),
     estMinutes: 9,
     hook: [
       {
         type: "hero",
-        heading: L("Rest Before Birth, Then the Big Day Itself"),
+        heading: L(
+          "Rest Before Birth, Then the Big Day Itself",
+          "ఈనే ముందు విశ్రాంతి, ఆ తర్వాత అసలు రోజు",
+          "கன்று ஈனும் முன் ஓய்வு, பிறகு அந்த முக்கிய நாள்",
+          "ಕರು ಹಾಕುವ ಮೊದಲು ವಿಶ್ರಾಂತಿ, ನಂತರ ಆ ದೊಡ್ಡ ದಿನ",
+          "ब्याने से पहले आराम, फिर वह बड़ा दिन"
+        ),
         text: L(
-          "Before a cow gives birth, her body needs a proper rest from milking. And when the day of calving finally arrives, most of the time everything goes smoothly on its own — but knowing the difference between 'normal' and 'something is wrong' can save a calf's life. Both of these depend on someone watching closely and knowing when to speak up."
+          "Before a cow gives birth, her body needs a proper rest from milking. And when the day of calving finally arrives, most of the time everything goes smoothly on its own — but knowing the difference between 'normal' and 'something is wrong' can save a calf's life. Both of these depend on someone watching closely and knowing when to speak up.",
+          "ఆవు ఈనే ముందు, పాలు పితకడం నుండి ఆమె శరీరానికి సరైన విశ్రాంతి కావాలి. ఈనే రోజు వచ్చినప్పుడు చాలా సార్లు అంతా దానంతట అదే సజావుగా జరిగిపోతుంది — కానీ 'సాధారణం' మరియు 'ఏదో తప్పు జరుగుతోంది' మధ్య తేడా తెలిసి ఉంటే ఒక దూడ ప్రాణం కాపాడవచ్చు. ఈ రెండింటికీ ఎవరో దగ్గరగా గమనించి, ఎప్పుడు చెప్పాలో తెలిసి ఉండాలి.",
+          "பசு கன்று ஈனும் முன், பால் கறப்பதிலிருந்து அதன் உடலுக்குச் சரியான ஓய்வு தேவை. கன்று ஈனும் நாள் வரும்போது, பெரும்பாலும் எல்லாம் தானாகவே சுமுகமாக நடந்துவிடும் — ஆனால் 'இயல்பானது' எது, 'ஏதோ தவறு' எது என்ற வித்தியாசம் தெரிந்திருந்தால் ஒரு கன்றின் உயிரைக் காப்பாற்றலாம். இவை இரண்டுமே யாரோ ஒருவர் உன்னிப்பாகக் கவனித்து, எப்போது சொல்ல வேண்டும் என்று அறிந்திருப்பதைப் பொறுத்தவை.",
+          "ಹಸು ಕರು ಹಾಕುವ ಮೊದಲು, ಹಾಲು ಕರೆಯುವುದರಿಂದ ಅದರ ದೇಹಕ್ಕೆ ಸರಿಯಾದ ವಿಶ್ರಾಂತಿ ಬೇಕು. ಕರು ಹಾಕುವ ದಿನ ಬಂದಾಗ ಹೆಚ್ಚಾಗಿ ಎಲ್ಲವೂ ತಾನಾಗಿಯೇ ಸುಗಮವಾಗಿ ನಡೆಯುತ್ತದೆ — ಆದರೆ 'ಸಾಮಾನ್ಯ' ಮತ್ತು 'ಏನೋ ತಪ್ಪಾಗಿದೆ' ಎಂಬುದರ ವ್ಯತ್ಯಾಸ ತಿಳಿದಿದ್ದರೆ ಒಂದು ಕರುವಿನ ಪ್ರಾಣ ಉಳಿಸಬಹುದು. ಈ ಎರಡೂ ಯಾರಾದರೂ ಹತ್ತಿರದಿಂದ ಗಮನಿಸಿ, ಯಾವಾಗ ತಿಳಿಸಬೇಕು ಎಂದು ತಿಳಿದಿರುವುದರ ಮೇಲೆ ಅವಲಂಬಿತ.",
+          "गाय के ब्याने से पहले उसके शरीर को दूध निकालने से सही आराम चाहिए। और जब ब्याने का दिन आता है, तो ज़्यादातर बार सब कुछ अपने आप आराम से हो जाता है — लेकिन 'सामान्य' और 'कुछ गड़बड़ है' का फर्क जानना एक बछड़े की जान बचा सकता है। ये दोनों बातें इस पर निर्भर हैं कि कोई ध्यान से देखे और जाने कि कब बताना है।"
         ),
       },
     ],
     topics: [
       {
         id: "t-m12-drying-off",
-        title: L("Resting the Cow Before She Calves (The Dry Period)"),
+        title: L(
+          "Resting the Cow Before She Calves (The Dry Period)",
+          "ఈనే ముందు ఆవుకు విశ్రాంతి (డ్రై పీరియడ్)",
+          "கன்று ஈனும் முன் பசுவுக்கு ஓய்வு (வற்றல் காலம்)",
+          "ಕರು ಹಾಕುವ ಮೊದಲು ಹಸುವಿಗೆ ವಿಶ್ರಾಂತಿ (ಒಣ ಅವಧಿ)",
+          "ब्याने से पहले गाय को आराम (ड्राई पीरियड)"
+        ),
         teach: [
           {
             type: "text",
