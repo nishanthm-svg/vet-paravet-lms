@@ -4701,42 +4701,64 @@ export const MODULES = [
                 ),
               },
               {
-                label: L("Not enough of the herd covered"),
-                text: L("Vaccinating only a few animals out of a large group doesn't build enough herd protection, so the disease can still spread through the rest."),
+                label: L("Not enough of the herd covered", "మందలో తగినంత సంఖ్యకు వేయకపోవడం", "மந்தையில் போதுமான விலங்குகளுக்குப் போடாதது", "ಹಿಂಡಿನಲ್ಲಿ ಸಾಕಷ್ಟು ಪ್ರಾಣಿಗಳಿಗೆ ಹಾಕದಿರುವುದು", "झुंड के पर्याप्त पशुओं को टीका न लगना"),
+                text: L(
+                  "Vaccinating only a few animals out of a large group doesn't build enough herd protection, so the disease can still spread through the rest.",
+                  "పెద్ద గుంపులోని కొన్ని పశువులకు మాత్రమే టీకా వేస్తే మంద మొత్తానికి తగినంత రక్షణ ఏర్పడదు, అందువల్ల మిగతా వాటిలో వ్యాధి ఇంకా వ్యాపించవచ్చు.",
+                  "ஒரு பெரிய குழுவில் சில விலங்குகளுக்கு மட்டும் தடுப்பூசி போட்டால் மந்தை முழுவதற்கும் போதுமான பாதுகாப்பு உருவாகாது, அதனால் மற்றவற்றில் நோய் தொடர்ந்து பரவலாம்.",
+                  "ದೊಡ್ಡ ಗುಂಪಿನಲ್ಲಿ ಕೆಲವು ಪ್ರಾಣಿಗಳಿಗೆ ಮಾತ್ರ ಲಸಿಕೆ ಹಾಕಿದರೆ ಇಡೀ ಹಿಂಡಿಗೆ ಸಾಕಷ್ಟು ರಕ್ಷಣೆ ಸಿಗುವುದಿಲ್ಲ, ಆದ್ದರಿಂದ ಉಳಿದವುಗಳಲ್ಲಿ ರೋಗ ಇನ್ನೂ ಹರಡಬಹುದು.",
+                  "बड़े समूह में से सिर्फ़ कुछ पशुओं को टीका लगाने से पूरे झुंड की पर्याप्त सुरक्षा नहीं बनती, इसलिए बीमारी बाकी पशुओं में फिर भी फैल सकती है।"
+                ),
               },
               {
-                label: L("Weak, poorly fed animals"),
-                text: L("An animal that is undernourished or already weak often doesn't build a strong enough response to the vaccine."),
+                label: L("Weak, poorly fed animals", "బలహీనంగా, సరిగ్గా తిండి లేని పశువులు", "பலவீனமான, சரியாக தீவனம் கிடைக்காத விலங்குகள்", "ದುರ್ಬಲ, ಸರಿಯಾಗಿ ಆಹಾರ ಸಿಗದ ಪ್ರಾಣಿಗಳು", "कमज़ोर, ठीक से न खिलाए गए पशु"),
+                text: L(
+                  "An animal that is undernourished or already weak often doesn't build a strong enough response to the vaccine.",
+                  "పోషకాహార లోపం ఉన్న లేదా ఇప్పటికే బలహీనంగా ఉన్న పశువు తరచుగా టీకాకు తగినంత బలమైన స్పందనను ఏర్పరచుకోలేదు.",
+                  "ஊட்டச்சத்துக் குறைவான அல்லது ஏற்கனவே பலவீனமாக இருக்கும் விலங்கு பெரும்பாலும் தடுப்பூசிக்குப் போதுமான வலுவான எதிர்ப்பை உருவாக்குவதில்லை.",
+                  "ಪೋಷಣೆಯ ಕೊರತೆ ಇರುವ ಅಥವಾ ಈಗಾಗಲೇ ದುರ್ಬಲವಾಗಿರುವ ಪ್ರಾಣಿ ಹೆಚ್ಚಾಗಿ ಲಸಿಕೆಗೆ ಸಾಕಷ್ಟು ಬಲವಾದ ಪ್ರತಿಕ್ರಿಯೆಯನ್ನು ಬೆಳೆಸಿಕೊಳ್ಳುವುದಿಲ್ಲ.",
+                  "जिस पशु में पोषण की कमी हो या जो पहले से कमज़ोर हो, उसका शरीर अक्सर टीके पर पर्याप्त मज़बूत प्रतिक्रिया नहीं बना पाता।"
+                ),
               },
             ],
           },
           {
             type: "callout",
             style: "tip",
-            heading: L("What You Can Actually Do About This"),
+            heading: L("What You Can Actually Do About This", "దీని గురించి మీరు నిజంగా ఏం చేయగలరు", "இதைப் பற்றி நீங்கள் உண்மையில் என்ன செய்ய முடியும்", "ಇದರ ಬಗ್ಗೆ ನೀವು ನಿಜವಾಗಿ ಏನು ಮಾಡಬಹುದು", "इसके बारे में आप असल में क्या कर सकते हैं"),
             text: L(
-              "You're not expected to manage vaccine storage or dosing. But if you ever notice a vaccine being carried around without any ice or cooling, or handled roughly, it's worth mentioning. And when you're reminding a farmer about vaccination, remind them it needs to cover the whole herd or group — not just one or two animals — to actually work."
+              "You're not expected to manage vaccine storage or dosing. But if you ever notice a vaccine being carried around without any ice or cooling, or handled roughly, it's worth mentioning. And when you're reminding a farmer about vaccination, remind them it needs to cover the whole herd or group — not just one or two animals — to actually work.",
+              "టీకా నిల్వను లేదా మోతాదును మీరు నిర్వహించాలని ఆశించరు. కానీ టీకాను ఐస్ లేదా చల్లదనం లేకుండా తీసుకెళ్తున్నట్లు, లేదా కఠినంగా నిర్వహిస్తున్నట్లు మీరు గమనిస్తే, దాన్ని ప్రస్తావించడం మంచిది. టీకా గురించి రైతుకు గుర్తు చేసేటప్పుడు, అది నిజంగా పనిచేయాలంటే మొత్తం మంద లేదా గుంపునకు వేయాలని — ఒకటి రెండు పశువులకు కాదని — గుర్తు చేయండి.",
+              "தடுப்பூசி சேமிப்பையோ மருந்தளவையோ நீங்கள் நிர்வகிக்க வேண்டும் என்று எதிர்பார்க்கப்படவில்லை. ஆனால் தடுப்பூசியை ஐஸ் அல்லது குளிர்ச்சி இல்லாமல் கொண்டு செல்வதையோ, முரட்டுத்தனமாகக் கையாளுவதையோ நீங்கள் கவனித்தால், அதைச் சொல்வது நல்லது. மேலும் தடுப்பூசி பற்றி விவசாயிக்கு நினைவூட்டும்போது, அது உண்மையில் வேலை செய்ய மந்தை அல்லது குழு முழுவதற்கும் போட வேண்டும் — ஒன்று இரண்டு விலங்குகளுக்கு மட்டும் அல்ல — என்பதை நினைவூட்டுங்கள்.",
+              "ಲಸಿಕೆ ಸಂಗ್ರಹಣೆ ಅಥವಾ ಡೋಸ್ ಅನ್ನು ನೀವು ನಿರ್ವಹಿಸಬೇಕೆಂದು ನಿರೀಕ್ಷಿಸುವುದಿಲ್ಲ. ಆದರೆ ಲಸಿಕೆಯನ್ನು ಐಸ್ ಅಥವಾ ತಂಪು ಇಲ್ಲದೆ ಒಯ್ಯುತ್ತಿರುವುದನ್ನು, ಅಥವಾ ಒರಟಾಗಿ ನಿರ್ವಹಿಸುತ್ತಿರುವುದನ್ನು ನೀವು ಗಮನಿಸಿದರೆ, ಅದನ್ನು ಪ್ರಸ್ತಾಪಿಸುವುದು ಒಳ್ಳೆಯದು. ಮತ್ತು ಲಸಿಕೆಯ ಬಗ್ಗೆ ರೈತರಿಗೆ ನೆನಪಿಸುವಾಗ, ಅದು ನಿಜವಾಗಿ ಕೆಲಸ ಮಾಡಲು ಇಡೀ ಹಿಂಡು ಅಥವಾ ಗುಂಪಿಗೆ ಹಾಕಬೇಕು — ಒಂದೆರಡು ಪ್ರಾಣಿಗಳಿಗೆ ಮಾತ್ರವಲ್ಲ — ಎಂದು ನೆನಪಿಸಿ.",
+              "आपसे टीके का भंडारण या खुराक संभालने की उम्मीद नहीं की जाती। लेकिन अगर आप देखें कि टीका बिना बर्फ़ या ठंडक के ले जाया जा रहा है, या उसे रूखेपन से संभाला जा रहा है, तो यह बताना ठीक रहेगा। और किसान को टीकाकरण की याद दिलाते समय यह भी याद दिलाएं कि असर के लिए टीका पूरे झुंड या समूह को लगना चाहिए — सिर्फ़ एक-दो पशुओं को नहीं।"
             ),
           },
         ],
         check: [
           {
             type: "mcq",
-            q: L("What is described as one of the most common reasons a vaccine fails to protect an animal?"),
+            q: L("What is described as one of the most common reasons a vaccine fails to protect an animal?", "టీకా పశువును రక్షించడంలో విఫలం కావడానికి అత్యంత సాధారణ కారణాల్లో ఒకటిగా ఏది వర్ణించబడింది?", "தடுப்பூசி விலங்கைப் பாதுகாக்கத் தவறுவதற்கு மிகவும் பொதுவான காரணங்களில் ஒன்றாக எது விவரிக்கப்படுகிறது?", "ಲಸಿಕೆ ಪ್ರಾಣಿಯನ್ನು ರಕ್ಷಿಸಲು ವಿಫಲವಾಗುವ ಅತ್ಯಂತ ಸಾಮಾನ್ಯ ಕಾರಣಗಳಲ್ಲಿ ಒಂದೆಂದು ಯಾವುದನ್ನು ವಿವರಿಸಲಾಗಿದೆ?", "टीके के पशु को बचाने में नाकाम होने की सबसे आम वजहों में से एक क्या बताई गई है?"),
             options: [
-              L("The animal was too healthy at the time"),
-              L("The cold chain was broken, so the vaccine was not kept cool all the way through"),
-              L("The animal was dewormed beforehand"),
-              L("Too many animals in the herd were vaccinated"),
+              L("The animal was too healthy at the time", "టీకా వేసిన సమయంలో పశువు మరీ ఆరోగ్యంగా ఉండటం", "தடுப்பூசி போடும் நேரத்தில் விலங்கு மிகவும் ஆரோக்கியமாக இருந்தது", "ಲಸಿಕೆ ಹಾಕಿದ ಸಮಯದಲ್ಲಿ ಪ್ರಾಣಿ ತುಂಬಾ ಆರೋಗ್ಯವಾಗಿತ್ತು", "टीका लगाते समय पशु बहुत ज़्यादा स्वस्थ था"),
+              L("The cold chain was broken, so the vaccine was not kept cool all the way through", "కోల్డ్ చైన్ తెగిపోయింది, అందువల్ల టీకాను మొత్తం దారిలో చల్లగా ఉంచలేదు", "கோல்ட் செயின் உடைந்தது, அதனால் தடுப்பூசி முழு வழியிலும் குளிர்ச்சியாக வைக்கப்படவில்லை", "ಕೋಲ್ಡ್ ಚೈನ್ ಮುರಿಯಿತು, ಆದ್ದರಿಂದ ಲಸಿಕೆಯನ್ನು ಇಡೀ ದಾರಿಯುದ್ದಕ್ಕೂ ತಂಪಾಗಿ ಇಡಲಿಲ್ಲ", "कोल्ड चेन टूट गई, इसलिए टीके को पूरे रास्ते ठंडा नहीं रखा गया"),
+              L("The animal was dewormed beforehand", "ముందుగా పశువుకు నట్టల నివారణ మందు ఇవ్వడం జరిగింది", "முன்பே விலங்குக்குப் புழு நீக்க மருந்து கொடுக்கப்பட்டது", "ಮೊದಲೇ ಪ್ರಾಣಿಗೆ ಹುಳ ನಿವಾರಣೆ ಮದ್ದು ಕೊಡಲಾಗಿತ್ತು", "पहले से पशु को कृमिनाशक दवा दी गई थी"),
+              L("Too many animals in the herd were vaccinated", "మందలో చాలా ఎక్కువ పశువులకు టీకా వేయడం జరిగింది", "மந்தையில் மிக அதிகமான விலங்குகளுக்குத் தடுப்பூசி போடப்பட்டது", "ಹಿಂಡಿನಲ್ಲಿ ತುಂಬಾ ಹೆಚ್ಚು ಪ್ರಾಣಿಗಳಿಗೆ ಲಸಿಕೆ ಹಾಕಲಾಯಿತು", "झुंड में बहुत ज़्यादा पशुओं को टीका लगाया गया"),
             ],
             answer: 1,
-            explain: L("A broken cold chain — the vaccine not being kept properly cool from production until it's given — is a leading cause of vaccine failure."),
+            explain: L(
+              "A broken cold chain — the vaccine not being kept properly cool from production until it's given — is a leading cause of vaccine failure.",
+              "కోల్డ్ చైన్ తెగిపోవడం — తయారీ నుండి వేసే వరకు టీకాను సరిగ్గా చల్లగా ఉంచకపోవడం — టీకా విఫలం కావడానికి ప్రధాన కారణం.",
+              "கோல்ட் செயின் உடைவது — தயாரிப்பிலிருந்து போடும் வரை தடுப்பூசியைச் சரியாகக் குளிர்ச்சியாக வைக்காதது — தடுப்பூசி தோல்விக்கு முக்கியக் காரணம்.",
+              "ಕೋಲ್ಡ್ ಚೈನ್ ಮುರಿಯುವುದು — ತಯಾರಿಕೆಯಿಂದ ಕೊಡುವವರೆಗೂ ಲಸಿಕೆಯನ್ನು ಸರಿಯಾಗಿ ತಂಪಾಗಿ ಇಡದಿರುವುದು — ಲಸಿಕೆ ವಿಫಲವಾಗಲು ಪ್ರಮುಖ ಕಾರಣ.",
+              "कोल्ड चेन टूटना — बनने से लेकर लगाए जाने तक टीके को ठीक से ठंडा न रखना — टीका नाकाम होने की एक प्रमुख वजह है।"
+            ),
           },
           {
             type: "truefalse",
-            q: L("Deworming an animal a few weeks before vaccination can help it respond better to the vaccine."),
+            q: L("Deworming an animal a few weeks before vaccination can help it respond better to the vaccine.", "టీకాకు కొన్ని వారాల ముందు పశువుకు నట్టల నివారణ మందు ఇస్తే, అది టీకాకు మెరుగ్గా స్పందించడానికి సహాయపడుతుంది.", "தடுப்பூசிக்குச் சில வாரங்களுக்கு முன் விலங்குக்குப் புழு நீக்க மருந்து கொடுத்தால், அது தடுப்பூசிக்கு நன்றாகப் பதிலளிக்க உதவும்.", "ಲಸಿಕೆಗೆ ಕೆಲವು ವಾರ ಮೊದಲು ಪ್ರಾಣಿಗೆ ಹುಳ ನಿವಾರಣೆ ಮದ್ದು ಕೊಟ್ಟರೆ, ಅದು ಲಸಿಕೆಗೆ ಚೆನ್ನಾಗಿ ಸ್ಪಂದಿಸಲು ಸಹಾಯ ಮಾಡಬಹುದು.", "टीके से कुछ हफ़्ते पहले पशु को कृमिनाशक दवा देने से वह टीके पर बेहतर प्रतिक्रिया दे सकता है।"),
             answer: true,
-            explain: L("Yes — deworming 2–3 weeks before vaccination is considered beneficial for a better immune response."),
+            explain: L("Yes — deworming 2–3 weeks before vaccination is considered beneficial for a better immune response.", "అవును — మెరుగైన రోగనిరోధక స్పందన కోసం టీకాకు 2–3 వారాల ముందు నట్టల నివారణ చేయడం ప్రయోజనకరంగా భావిస్తారు.", "ஆம் — சிறந்த நோய் எதிர்ப்பு பதிலுக்காக தடுப்பூசிக்கு 2–3 வாரங்களுக்கு முன் புழு நீக்கம் செய்வது பயனுள்ளதாகக் கருதப்படுகிறது.", "ಹೌದು — ಉತ್ತಮ ರೋಗನಿರೋಧಕ ಪ್ರತಿಕ್ರಿಯೆಗಾಗಿ ಲಸಿಕೆಗೆ 2–3 ವಾರ ಮೊದಲು ಹುಳ ನಿವಾರಣೆ ಮಾಡುವುದು ಪ್ರಯೋಜನಕಾರಿ ಎಂದು ಪರಿಗಣಿಸಲಾಗುತ್ತದೆ.", "हां — बेहतर रोग-प्रतिरोधक प्रतिक्रिया के लिए टीके से 2–3 हफ़्ते पहले कृमिनाशक दवा देना फ़ायदेमंद माना जाता है।"),
           },
         ],
       },
@@ -4747,50 +4769,80 @@ export const MODULES = [
         {
           topicId: "t-m4-schedule",
           type: "mcq",
-          q: L("According to the schedule, how often does FMD vaccination need to be repeated after the booster dose?"),
-          options: [L("Once in a lifetime"), L("Every 6 months"), L("Every 5 years"), L("Only after a bite")],
+          q: L("According to the schedule, how often does FMD vaccination need to be repeated after the booster dose?", "షెడ్యూల్ ప్రకారం, బూస్టర్ మోతాదు తర్వాత FMD టీకాను ఎంత తరచుగా మళ్ళీ వేయాలి?", "அட்டவணையின்படி, பூஸ்டர் டோஸுக்குப் பிறகு FMD தடுப்பூசியை எத்தனை முறை திரும்பப் போட வேண்டும்?", "ವೇಳಾಪಟ್ಟಿಯ ಪ್ರಕಾರ, ಬೂಸ್ಟರ್ ಡೋಸ್ ನಂತರ FMD ಲಸಿಕೆಯನ್ನು ಎಷ್ಟು ಬಾರಿ ಪುನರಾವರ್ತಿಸಬೇಕು?", "समय-सारणी के अनुसार, बूस्टर खुराक के बाद FMD का टीका कितनी बार दोहराना पड़ता है?"),
+          options: [L("Once in a lifetime", "జీవితకాలంలో ఒక్కసారి", "வாழ்நாளில் ஒரு முறை", "ಜೀವಿತಾವಧಿಯಲ್ಲಿ ಒಮ್ಮೆ", "जीवन में एक बार"), L("Every 6 months", "ప్రతి 6 నెలలకు", "ஒவ்வொரு 6 மாதத்துக்கும்", "ಪ್ರತಿ 6 ತಿಂಗಳಿಗೊಮ್ಮೆ", "हर 6 महीने पर"), L("Every 5 years", "ప్రతి 5 సంవత్సరాలకు", "ஒவ்வொரு 5 ஆண்டுகளுக்கும்", "ಪ್ರತಿ 5 ವರ್ಷಗಳಿಗೊಮ್ಮೆ", "हर 5 साल पर"), L("Only after a bite", "కాటు తర్వాత మాత్రమే", "கடித்த பிறகு மட்டுமே", "ಕಡಿತದ ನಂತರ ಮಾತ್ರ", "सिर्फ़ काटने के बाद")],
           answer: 1,
-          explain: L("FMD vaccination starts at 4 months, gets a booster 1 month later, and then continues every 6 months."),
+          explain: L("FMD vaccination starts at 4 months, gets a booster 1 month later, and then continues every 6 months.", "FMD టీకా 4 నెలల వయసులో మొదలై, 1 నెల తర్వాత బూస్టర్ ఇస్తారు, ఆ తర్వాత ప్రతి 6 నెలలకు కొనసాగుతుంది.", "FMD தடுப்பூசி 4 மாத வயதில் தொடங்கி, 1 மாதம் கழித்து பூஸ்டர் போடப்பட்டு, பிறகு ஒவ்வொரு 6 மாதத்துக்கும் தொடர்கிறது.", "FMD ಲಸಿಕೆ 4 ತಿಂಗಳ ವಯಸ್ಸಿನಲ್ಲಿ ಶುರುವಾಗಿ, 1 ತಿಂಗಳ ನಂತರ ಬೂಸ್ಟರ್ ಕೊಡಲಾಗುತ್ತದೆ, ನಂತರ ಪ್ರತಿ 6 ತಿಂಗಳಿಗೊಮ್ಮೆ ಮುಂದುವರಿಯುತ್ತದೆ.", "FMD का टीका 4 महीने की उम्र में शुरू होता है, 1 महीने बाद बूस्टर लगता है, और फिर हर 6 महीने पर जारी रहता है।"),
         },
         {
           topicId: "t-m4-schedule",
           type: "truefalse",
-          q: L("Theileriosis vaccination, where used, applies to all cattle equally regardless of breed."),
+          q: L("Theileriosis vaccination, where used, applies to all cattle equally regardless of breed.", "థైలేరియోసిస్ టీకా, వాడినచోట, జాతితో సంబంధం లేకుండా అన్ని పశువులకు సమానంగా వర్తిస్తుంది.", "தைலேரியோசிஸ் தடுப்பூசி, பயன்படுத்தப்படும் இடங்களில், இனத்தைப் பொருட்படுத்தாமல் எல்லா மாடுகளுக்கும் சமமாகப் பொருந்தும்.", "ಥೈಲೇರಿಯೋಸಿಸ್ ಲಸಿಕೆ, ಬಳಸುವಲ್ಲಿ, ತಳಿಯನ್ನು ಲೆಕ್ಕಿಸದೆ ಎಲ್ಲ ದನಗಳಿಗೂ ಸಮಾನವಾಗಿ ಅನ್ವಯಿಸುತ್ತದೆ.", "थाइलेरियोसिस का टीका, जहां इस्तेमाल होता है, नस्ल की परवाह किए बिना सभी पशुओं पर बराबर लागू होता है।"),
           answer: false,
-          explain: L("No — the Theileriosis vaccine is specifically for crossbred and exotic cattle, given once in a lifetime from 3 months of age."),
+          explain: L(
+            "No — the Theileriosis vaccine is specifically for crossbred and exotic cattle, given once in a lifetime from 3 months of age.",
+            "కాదు — థైలేరియోసిస్ టీకా ప్రత్యేకంగా సంకర జాతి, విదేశీ పశువుల కోసం, 3 నెలల వయసు నుండి జీవితకాలంలో ఒక్కసారి వేస్తారు.",
+            "இல்லை — தைலேரியோசிஸ் தடுப்பூசி குறிப்பாக கலப்பின, வெளிநாட்டு மாடுகளுக்கானது, 3 மாத வயதிலிருந்து வாழ்நாளில் ஒரு முறை போடப்படுகிறது.",
+            "ಇಲ್ಲ — ಥೈಲೇರಿಯೋಸಿಸ್ ಲಸಿಕೆ ವಿಶೇಷವಾಗಿ ಮಿಶ್ರತಳಿ ಮತ್ತು ವಿದೇಶಿ ದನಗಳಿಗಾಗಿ, 3 ತಿಂಗಳ ವಯಸ್ಸಿನಿಂದ ಜೀವಿತಾವಧಿಯಲ್ಲಿ ಒಮ್ಮೆ ಕೊಡಲಾಗುತ್ತದೆ.",
+            "नहीं — थाइलेरियोसिस का टीका ख़ास तौर पर संकर और विदेशी नस्ल के पशुओं के लिए है, जो 3 महीने की उम्र से जीवन में एक बार लगता है।"
+          ),
         },
         {
           topicId: "t-m4-schedule",
           type: "mcq",
-          q: L("What does 'endemic area' mean?"),
+          q: L("What does 'endemic area' mean?", "'ఎండెమిక్ ప్రాంతం' అంటే ఏమిటి?", "'எண்டெமிக் பகுதி' என்றால் என்ன?", "'ಎಂಡೆಮಿಕ್ ಪ್ರದೇಶ' ಎಂದರೆ ಏನು?", "'एंडेमिक क्षेत्र' का क्या मतलब है?"),
           options: [
-            L("An area with no animals at all"),
-            L("A place where a particular disease is regularly seen, year after year"),
-            L("Any area with a veterinary hospital nearby"),
-            L("An area that has never had disease"),
+            L("An area with no animals at all", "అసలు పశువులే లేని ప్రాంతం", "எந்த விலங்குகளுமே இல்லாத பகுதி", "ಯಾವ ಪ್ರಾಣಿಗಳೂ ಇಲ್ಲದ ಪ್ರದೇಶ", "ऐसा इलाका जहां कोई पशु ही नहीं है"),
+            L("A place where a particular disease is regularly seen, year after year", "ఒక నిర్దిష్ట వ్యాధి సంవత్సరం తర్వాత సంవత్సరం క్రమం తప్పకుండా కనిపించే ప్రదేశం", "ஒரு குறிப்பிட்ட நோய் ஆண்டுதோறும் தொடர்ந்து காணப்படும் இடம்", "ಒಂದು ನಿರ್ದಿಷ್ಟ ರೋಗ ವರ್ಷದಿಂದ ವರ್ಷಕ್ಕೆ ನಿಯಮಿತವಾಗಿ ಕಂಡುಬರುವ ಸ್ಥಳ", "वह जगह जहां कोई ख़ास बीमारी साल-दर-साल नियमित रूप से देखी जाती है"),
+            L("Any area with a veterinary hospital nearby", "దగ్గరలో పశువైద్యశాల ఉన్న ఏ ప్రాంతమైనా", "அருகில் கால்நடை மருத்துவமனை உள்ள எந்தப் பகுதியும்", "ಹತ್ತಿರದಲ್ಲಿ ಪಶು ಆಸ್ಪತ್ರೆ ಇರುವ ಯಾವುದೇ ಪ್ರದೇಶ", "कोई भी इलाका जिसके पास पशु चिकित्सालय हो"),
+            L("An area that has never had disease", "ఎప్పుడూ వ్యాధి రాని ప్రాంతం", "ஒருபோதும் நோய் வராத பகுதி", "ಎಂದಿಗೂ ರೋಗ ಬಂದಿಲ್ಲದ ಪ್ರದೇಶ", "ऐसा इलाका जहां कभी बीमारी नहीं आई"),
           ],
           answer: 1,
-          explain: L("An endemic area is one where a disease is regularly present — this affects how often related vaccines need to be repeated."),
+          explain: L(
+            "An endemic area is one where a disease is regularly present — this affects how often related vaccines need to be repeated.",
+            "ఎండెమిక్ ప్రాంతం అంటే ఒక వ్యాధి క్రమం తప్పకుండా ఉండే చోటు — సంబంధిత టీకాలను ఎంత తరచుగా మళ్ళీ వేయాలో ఇది ప్రభావితం చేస్తుంది.",
+            "எண்டெமிக் பகுதி என்பது ஒரு நோய் தொடர்ந்து இருக்கும் இடம் — தொடர்புடைய தடுப்பூசிகளை எத்தனை முறை திரும்பப் போட வேண்டும் என்பதை இது பாதிக்கிறது.",
+            "ಎಂಡೆಮಿಕ್ ಪ್ರದೇಶ ಎಂದರೆ ರೋಗ ನಿಯಮಿತವಾಗಿ ಇರುವ ಸ್ಥಳ — ಸಂಬಂಧಿತ ಲಸಿಕೆಗಳನ್ನು ಎಷ್ಟು ಬಾರಿ ಪುನರಾವರ್ತಿಸಬೇಕು ಎಂಬುದನ್ನು ಇದು ಪ್ರಭಾವಿಸುತ್ತದೆ.",
+            "एंडेमिक क्षेत्र वह है जहां कोई बीमारी नियमित रूप से मौजूद रहती है — इससे तय होता है कि संबंधित टीके कितनी बार दोहराने पड़ेंगे।"
+          ),
         },
         {
           topicId: "t-m4-vaccination-tips",
           type: "mcq",
-          q: L("Why is it a problem if only 2 or 3 animals in a large herd are vaccinated against a disease?"),
+          q: L("Why is it a problem if only 2 or 3 animals in a large herd are vaccinated against a disease?", "పెద్ద మందలో 2 లేదా 3 పశువులకు మాత్రమే ఒక వ్యాధికి టీకా వేస్తే అది ఎందుకు సమస్య?", "ஒரு பெரிய மந்தையில் 2 அல்லது 3 விலங்குகளுக்கு மட்டும் ஒரு நோய்க்குத் தடுப்பூசி போட்டால் அது ஏன் பிரச்சினை?", "ದೊಡ್ಡ ಹಿಂಡಿನಲ್ಲಿ 2 ಅಥವಾ 3 ಪ್ರಾಣಿಗಳಿಗೆ ಮಾತ್ರ ಒಂದು ರೋಗಕ್ಕೆ ಲಸಿಕೆ ಹಾಕಿದರೆ ಅದು ಏಕೆ ಸಮಸ್ಯೆ?", "बड़े झुंड में सिर्फ़ 2 या 3 पशुओं को किसी बीमारी का टीका लगाना समस्या क्यों है?"),
           options: [
-            L("It isn't a problem — a couple of vaccinated animals is always enough"),
-            L("Not enough of the herd is protected, so the disease can still spread through the rest"),
-            L("The vaccine works better with fewer animals covered"),
-            L("It only matters for Brucellosis"),
+            L("It isn't a problem — a couple of vaccinated animals is always enough", "ఇది సమస్య కాదు — రెండు మూడు టీకా వేసిన పశువులు ఎప్పుడూ సరిపోతాయి", "இது பிரச்சினை இல்லை — இரண்டு மூன்று தடுப்பூசி போட்ட விலங்குகள் எப்போதும் போதும்", "ಇದು ಸಮಸ್ಯೆಯಲ್ಲ — ಲಸಿಕೆ ಹಾಕಿದ ಎರಡು ಮೂರು ಪ್ರಾಣಿಗಳು ಯಾವಾಗಲೂ ಸಾಕು", "यह कोई समस्या नहीं — टीका लगे दो-तीन पशु हमेशा काफ़ी होते हैं"),
+            L("Not enough of the herd is protected, so the disease can still spread through the rest", "మందలో తగినంత భాగానికి రక్షణ లేదు, అందువల్ల మిగతా వాటిలో వ్యాధి ఇంకా వ్యాపించవచ్చు", "மந்தையில் போதுமான பகுதிக்குப் பாதுகாப்பு இல்லை, அதனால் மற்றவற்றில் நோய் தொடர்ந்து பரவலாம்", "ಹಿಂಡಿನ ಸಾಕಷ್ಟು ಭಾಗಕ್ಕೆ ರಕ್ಷಣೆ ಇಲ್ಲ, ಆದ್ದರಿಂದ ಉಳಿದವುಗಳಲ್ಲಿ ರೋಗ ಇನ್ನೂ ಹರಡಬಹುದು", "झुंड के पर्याप्त हिस्से को सुरक्षा नहीं मिली, इसलिए बीमारी बाकी पशुओं में फिर भी फैल सकती है"),
+            L("The vaccine works better with fewer animals covered", "తక్కువ పశువులకు వేస్తే టీకా బాగా పనిచేస్తుంది", "குறைவான விலங்குகளுக்குப் போட்டால் தடுப்பூசி நன்றாக வேலை செய்யும்", "ಕಡಿಮೆ ಪ್ರಾಣಿಗಳಿಗೆ ಹಾಕಿದರೆ ಲಸಿಕೆ ಚೆನ್ನಾಗಿ ಕೆಲಸ ಮಾಡುತ್ತದೆ", "कम पशुओं को लगाने पर टीका बेहतर काम करता है"),
+            L("It only matters for Brucellosis", "ఇది బ్రూసెల్లోసిస్‌కు మాత్రమే ముఖ్యం", "இது புருசெல்லோசிஸுக்கு மட்டுமே முக்கியம்", "ಇದು ಬ್ರೂಸೆಲ್ಲೋಸಿಸ್‌ಗೆ ಮಾತ್ರ ಮುಖ್ಯ", "यह सिर्फ़ ब्रुसेलोसिस के लिए मायने रखता है"),
           ],
           answer: 1,
-          explain: L("Vaccinating only a small fraction of a herd doesn't build enough overall protection — at least 80% coverage is needed to actually control spread."),
+          explain: L(
+            "Vaccinating only a small fraction of a herd doesn't build enough overall protection — at least 80% coverage is needed to actually control spread.",
+            "మందలో కొద్ది భాగానికి మాత్రమే టీకా వేస్తే మొత్తంగా తగినంత రక్షణ ఏర్పడదు — వ్యాప్తిని నిజంగా అదుపు చేయాలంటే కనీసం 80% కవరేజ్ అవసరం.",
+            "மந்தையின் ஒரு சிறு பகுதிக்கு மட்டும் தடுப்பூசி போட்டால் ஒட்டுமொத்தமாகப் போதுமான பாதுகாப்பு உருவாகாது — பரவலை உண்மையில் கட்டுப்படுத்த குறைந்தது 80% கவரேஜ் தேவை.",
+            "ಹಿಂಡಿನ ಸಣ್ಣ ಭಾಗಕ್ಕೆ ಮಾತ್ರ ಲಸಿಕೆ ಹಾಕಿದರೆ ಒಟ್ಟಾರೆ ಸಾಕಷ್ಟು ರಕ್ಷಣೆ ಸಿಗುವುದಿಲ್ಲ — ಹರಡುವಿಕೆಯನ್ನು ನಿಜವಾಗಿ ನಿಯಂತ್ರಿಸಲು ಕನಿಷ್ಠ 80% ವ್ಯಾಪ್ತಿ ಬೇಕು.",
+            "झुंड के सिर्फ़ छोटे हिस्से को टीका लगाने से कुल मिलाकर पर्याप्त सुरक्षा नहीं बनती — फैलाव को सच में रोकने के लिए कम से कम 80% पशुओं को टीका लगना ज़रूरी है।"
+          ),
         },
         {
           topicId: "t-m4-vaccination-tips",
           type: "truefalse",
-          q: L("If you notice a vaccine being carried without any ice or cooling, it's worth mentioning even though you don't manage vaccine storage yourself."),
+          q: L(
+            "If you notice a vaccine being carried without any ice or cooling, it's worth mentioning even though you don't manage vaccine storage yourself.",
+            "టీకాను ఐస్ లేదా చల్లదనం లేకుండా తీసుకెళ్తున్నట్లు మీరు గమనిస్తే, టీకా నిల్వను మీరు నిర్వహించకపోయినా దాన్ని ప్రస్తావించడం మంచిది.",
+            "தடுப்பூசியை ஐஸ் அல்லது குளிர்ச்சி இல்லாமல் கொண்டு செல்வதை நீங்கள் கவனித்தால், தடுப்பூசி சேமிப்பை நீங்கள் நிர்வகிக்காவிட்டாலும் அதைச் சொல்வது நல்லது.",
+            "ಲಸಿಕೆಯನ್ನು ಐಸ್ ಅಥವಾ ತಂಪು ಇಲ್ಲದೆ ಒಯ್ಯುತ್ತಿರುವುದನ್ನು ನೀವು ಗಮನಿಸಿದರೆ, ಲಸಿಕೆ ಸಂಗ್ರಹಣೆಯನ್ನು ನೀವು ನಿರ್ವಹಿಸದಿದ್ದರೂ ಅದನ್ನು ಪ್ರಸ್ತಾಪಿಸುವುದು ಒಳ್ಳೆಯದು.",
+            "अगर आप देखें कि टीका बिना बर्फ़ या ठंडक के ले जाया जा रहा है, तो यह बताना ठीक रहेगा, भले ही टीके का भंडारण आप खुद नहीं संभालते।"
+          ),
           answer: true,
-          explain: L("Yes — noticing and mentioning a broken cold chain is well within your role, even though managing storage and dosing is not."),
+          explain: L(
+            "Yes — noticing and mentioning a broken cold chain is well within your role, even though managing storage and dosing is not.",
+            "అవును — విరిగిన కోల్డ్ చైన్‌ను గమనించి ప్రస్తావించడం మీ పాత్రలో పూర్తిగా భాగమే, నిల్వ, మోతాదు నిర్వహణ కాకపోయినా.",
+            "ஆம் — உடைந்த கோல்ட் செயினைக் கவனித்துச் சொல்வது உங்கள் பங்குக்குள் முழுமையாக அடங்கும், சேமிப்பையும் மருந்தளவையும் நிர்வகிப்பது அல்ல என்றாலும்.",
+            "ಹೌದು — ಮುರಿದ ಕೋಲ್ಡ್ ಚೈನ್ ಅನ್ನು ಗಮನಿಸಿ ಪ್ರಸ್ತಾಪಿಸುವುದು ನಿಮ್ಮ ಪಾತ್ರದೊಳಗೇ ಸೇರಿದೆ, ಸಂಗ್ರಹಣೆ ಮತ್ತು ಡೋಸ್ ನಿರ್ವಹಣೆ ಅಲ್ಲದಿದ್ದರೂ.",
+            "हां — टूटी हुई कोल्ड चेन को नोटिस करना और बताना आपकी भूमिका में पूरी तरह आता है, भले ही भंडारण और खुराक संभालना आपकी भूमिका में नहीं है।"
+          ),
         },
       ],
     },
