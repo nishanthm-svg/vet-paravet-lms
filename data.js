@@ -9064,87 +9064,209 @@ export const MODULES = [
         teach: [
           {
             type: "text",
-            heading: L("The Same Brochure, More Everyday Ailments"),
+            heading: L(
+              "The Same Brochure, More Everyday Ailments",
+              "అదే బ్రోషర్, మరిన్ని రోజువారీ జబ్బులు",
+              "அதே துண்டுப்பிரசுரம், மேலும் அன்றாட நோய்கள்",
+              "ಅದೇ ಕರಪತ್ರ, ಇನ್ನಷ್ಟು ದೈನಂದಿನ ಕಾಯಿಲೆಗಳು",
+              "वही ब्रोशर, और रोज़मर्रा की बीमारियां"
+            ),
             html: L(
-              "Beyond udder and reproductive problems, the EVM brochure documents formulations for fever, common digestive upsets, worms, external parasites, wounds and more — most of them blended into a paste from spices and plants already found in most kitchens."
+              "Beyond udder and reproductive problems, the EVM brochure documents formulations for fever, common digestive upsets, worms, external parasites, wounds and more — most of them blended into a paste from spices and plants already found in most kitchens.",
+              "పొదుగు మరియు ప్రత్యుత్పత్తి సమస్యలు కాకుండా, EVM బ్రోషర్ జ్వరం, సాధారణ జీర్ణ సమస్యలు, పురుగులు, బాహ్య పరాన్నజీవులు, గాయాలు మరియు మరిన్నింటికి ఫార్ములేషన్లను నమోదు చేస్తుంది — వీటిలో చాలా వరకు చాలా వంటగదులలో దొరికే మసాలాలు మరియు మొక్కల నుండి పేస్టుగా కలుపుతారు.",
+              "மடி மற்றும் இனப்பெருக்க பிரச்சினைகளைத் தாண்டி, EVM துண்டுப்பிரசுரம் காய்ச்சல், பொதுவான செரிமான கோளாறுகள், புழுக்கள், வெளிப்புற ஒட்டுண்ணிகள், காயங்கள் மற்றும் பலவற்றிற்கான சூத்திரங்களை பதிவு செய்கிறது — இவற்றில் பெரும்பாலானவை பெரும்பாலான சமையலறைகளில் கிடைக்கும் மசாலாப் பொருட்கள் மற்றும் தாவரங்களிலிருந்து பேஸ்டாக கலக்கப்படுகின்றன.",
+              "ಕೆಚ್ಚಲು ಮತ್ತು ಸಂತಾನೋತ್ಪತ್ತಿ ಸಮಸ್ಯೆಗಳ ಆಚೆಗೆ, EVM ಕರಪತ್ರ ಜ್ವರ, ಸಾಮಾನ್ಯ ಜೀರ್ಣ ಸಮಸ್ಯೆಗಳು, ಹುಳುಗಳು, ಬಾಹ್ಯ ಪರಾವಲಂಬಿಗಳು, ಗಾಯಗಳು ಮತ್ತು ಇನ್ನಷ್ಟಕ್ಕೆ ಸೂತ್ರೀಕರಣಗಳನ್ನು ದಾಖಲಿಸುತ್ತದೆ — ಇವುಗಳಲ್ಲಿ ಹೆಚ್ಚಿನವು ಹೆಚ್ಚಿನ ಅಡುಗೆಮನೆಗಳಲ್ಲಿ ಈಗಾಗಲೇ ಸಿಗುವ ಮಸಾಲೆಗಳು ಮತ್ತು ಸಸ್ಯಗಳಿಂದ ಪೇಸ್ಟ್ ಆಗಿ ಬೆರೆಸಲಾಗುತ್ತದೆ.",
+              "थन और प्रजनन समस्याओं के अलावा, EVM ब्रोशर बुखार, सामान्य पाचन गड़बड़ी, कीड़े, बाहरी परजीवी, घाव और अधिक के लिए फॉर्मूलेशन दर्ज करता है — इनमें से ज़्यादातर को अधिकतर रसोई में मिलने वाले मसालों और पौधों से पेस्ट के रूप में मिलाया जाता है।"
             ),
           },
           {
             type: "stat-grid",
             items: [
               {
-                label: L("Fever"),
+                label: L(
+                  "Fever",
+                  "జ్వరం",
+                  "காய்ச்சல்",
+                  "ಜ್ವರ",
+                  "बुखार"
+                ),
                 text: L(
-                  "Blend garlic, coriander, cumin, tulsi, dry cinnamon leaves, black pepper, betel leaves, shallots/onion, turmeric powder, chirata leaf powder, sweet basil, neem leaves and jaggery into a paste. Give orally in small portions, morning and evening."
+                  "Blend garlic, coriander, cumin, tulsi, dry cinnamon leaves, black pepper, betel leaves, shallots/onion, turmeric powder, chirata leaf powder, sweet basil, neem leaves and jaggery into a paste. Give orally in small portions, morning and evening.",
+                  "వెల్లుల్లి, కొత్తిమీర, జీలకర్ర, తులసి, ఎండు దాల్చినచెక్క ఆకులు, నల్ల మిరియాలు, తమలపాకులు, చిన్న ఉల్లిపాయలు/ఉల్లి, పసుపు పొడి, కిరాతతిక్త (చిరాటా) ఆకు పొడి, తీపి తులసి, వేప ఆకులు మరియు బెల్లం కలిపి పేస్టు తయారు చేయండి. చిన్న మోతాదులలో ఉదయం మరియు సాయంత్రం నోటి ద్వారా ఇవ్వండి.",
+                  "பூண்டு, கொத்தமல்லி, சீரகம், துளசி, உலர் இலவங்கப்பட்டை இலைகள், கருப்பு மிளகு, வெற்றிலை, சிறு வெங்காயம்/வெங்காயம், மஞ்சள் தூள், சிறட்டா இலைத் தூள், தேன் துளசி, வேம்பு இலைகள் மற்றும் வெல்லத்தை கலந்து பேஸ்ட் தயாரிக்கவும். காலை மற்றும் மாலை சிறிய அளவில் வாய் வழியாக கொடுக்கவும்.",
+                  "ಬೆಳ್ಳುಳ್ಳಿ, ಕೊತ್ತಂಬರಿ, ಜೀರಿಗೆ, ತುಳಸಿ, ಒಣ ದಾಲ್ಚಿನ್ನಿ ಎಲೆಗಳು, ಕರಿಮೆಣಸು, ವೀಳ್ಯದೆಲೆ, ಸಣ್ಣ ಈರುಳ್ಳಿ/ಈರುಳ್ಳಿ, ಅರಿಶಿನ ಪುಡಿ, ನೆಲಬೇವು ಎಲೆ ಪುಡಿ, ಸಿಹಿ ತುಳಸಿ, ಬೇವಿನ ಎಲೆಗಳು ಮತ್ತು ಬೆಲ್ಲವನ್ನು ಬೆರೆಸಿ ಪೇಸ್ಟ್ ಮಾಡಿ. ಬೆಳಿಗ್ಗೆ ಮತ್ತು ಸಂಜೆ ಸಣ್ಣ ಪ್ರಮಾಣದಲ್ಲಿ ಬಾಯಿಯ ಮೂಲಕ ಕೊಡಿ.",
+                  "लहसुन, धनिया, जीरा, तुलसी, सूखी दालचीनी की पत्तियां, काली मिर्च, पान के पत्ते, छोटे प्याज/प्याज, हल्दी पाउडर, चिरायता पत्ती पाउडर, तुलसी (श्यामा), नीम की पत्तियां और गुड़ मिलाकर पेस्ट बनाएं। सुबह-शाम थोड़ी मात्रा में मुँह से दें।"
                 ),
               },
               {
-                label: L("Diarrhoea"),
+                label: L(
+                  "Diarrhoea",
+                  "విరేచనాలు",
+                  "வயிற்றுப்போக்கு",
+                  "ಅತಿಸಾರ",
+                  "दस्त"
+                ),
                 text: L(
-                  "Dry-fry cumin, asafoetida, poppy seeds and fenugreek seeds until they smoke; cool and powder them. Blend with onion, garlic, turmeric, curry leaves, pepper and jaggery into a paste, rolled into small balls. Give orally once daily for 1 to 3 days."
+                  "Dry-fry cumin, asafoetida, poppy seeds and fenugreek seeds until they smoke; cool and powder them. Blend with onion, garlic, turmeric, curry leaves, pepper and jaggery into a paste, rolled into small balls. Give orally once daily for 1 to 3 days.",
+                  "జీలకర్ర, ఇంగువ, గసగసాలు మరియు మెంతులను పొగ వచ్చే వరకు పొడిగా వేయించండి; చల్లార్చి పొడి చేయండి. ఉల్లి, వెల్లుల్లి, పసుపు, కరివేపాకు, మిరియాలు మరియు బెల్లంతో కలిపి పేస్టు తయారు చేసి, చిన్న ఉండలుగా చేయండి. 1 నుండి 3 రోజులు రోజుకు ఒకసారి నోటి ద్వారా ఇవ్వండి.",
+                  "சீரகம், பெருங்காயம், கசகசா மற்றும் வெந்தயத்தை புகை வரும் வரை வறுக்கவும்; ஆற வைத்து தூள் செய்யவும். வெங்காயம், பூண்டு, மஞ்சள், கறிவேப்பிலை, மிளகு மற்றும் வெல்லத்துடன் கலந்து பேஸ்ட் செய்து, சிறு உருண்டைகளாக உருட்டவும். 1 முதல் 3 நாட்களுக்கு நாளொன்றுக்கு ஒரு முறை வாய் வழியாக கொடுக்கவும்.",
+                  "ಜೀರಿಗೆ, ಇಂಗು, ಗಸಗಸೆ ಮತ್ತು ಮೆಂತ್ಯ ಬೀಜಗಳನ್ನು ಹೊಗೆ ಬರುವವರೆಗೆ ಒಣಗಿ ಹುರಿಯಿರಿ; ತಣಿಸಿ ಪುಡಿ ಮಾಡಿ. ಈರುಳ್ಳಿ, ಬೆಳ್ಳುಳ್ಳಿ, ಅರಿಶಿನ, ಕರಿಬೇವಿನ ಎಲೆ, ಮೆಣಸು ಮತ್ತು ಬೆಲ್ಲದೊಂದಿಗೆ ಬೆರೆಸಿ ಪೇಸ್ಟ್ ಮಾಡಿ, ಸಣ್ಣ ಉಂಡೆಗಳಾಗಿ ಮಾಡಿ. 1 ರಿಂದ 3 ದಿನ ದಿನಕ್ಕೊಮ್ಮೆ ಬಾಯಿಯ ಮೂಲಕ ಕೊಡಿ.",
+                  "जीरा, हींग, खसखस और मेथी दाना को धुआं निकलने तक सूखा भूनें; ठंडा करके पीस लें। प्याज, लहसुन, हल्दी, करी पत्ता, काली मिर्च और गुड़ के साथ मिलाकर पेस्ट बनाएं, छोटी गोलियां बनाएं। 1 से 3 दिनों तक दिन में एक बार मुँह से दें।"
                 ),
               },
               {
-                label: L("Bloat and Indigestion"),
+                label: L(
+                  "Bloat and Indigestion",
+                  "ఉబ్బరం మరియు అజీర్తి",
+                  "வீக்கம் மற்றும் செரிமானக் கோளாறு",
+                  "ಉಬ್ಬರ ಮತ್ತು ಅಜೀರ್ಣ",
+                  "अफारा और अपच"
+                ),
                 text: L(
-                  "Blend onion, garlic, dry chilly, cumin, turmeric powder, jaggery, pepper, betel leaves and ginger into a paste, rolled into small balls. Give with salt, 3 to 4 times a day for 3 days."
+                  "Blend onion, garlic, dry chilly, cumin, turmeric powder, jaggery, pepper, betel leaves and ginger into a paste, rolled into small balls. Give with salt, 3 to 4 times a day for 3 days.",
+                  "ఉల్లి, వెల్లుల్లి, ఎండు మిర్చి, జీలకర్ర, పసుపు పొడి, బెల్లం, మిరియాలు, తమలపాకులు మరియు అల్లం కలిపి పేస్టు తయారు చేసి, చిన్న ఉండలుగా చేయండి. ఉప్పుతో పాటు, 3 రోజులు రోజుకు 3 నుండి 4 సార్లు ఇవ్వండి.",
+                  "வெங்காயம், பூண்டு, உலர் மிளகாய், சீரகம், மஞ்சள் தூள், வெல்லம், மிளகு, வெற்றிலை மற்றும் இஞ்சியை கலந்து பேஸ்ட் செய்து, சிறு உருண்டைகளாக உருட்டவும். உப்புடன், 3 நாட்களுக்கு நாளொன்றுக்கு 3 முதல் 4 முறை கொடுக்கவும்.",
+                  "ಈರುಳ್ಳಿ, ಬೆಳ್ಳುಳ್ಳಿ, ಒಣ ಮೆಣಸಿನಕಾಯಿ, ಜೀರಿಗೆ, ಅರಿಶಿನ ಪುಡಿ, ಬೆಲ್ಲ, ಮೆಣಸು, ವೀಳ್ಯದೆಲೆ ಮತ್ತು ಶುಂಠಿಯನ್ನು ಬೆರೆಸಿ ಪೇಸ್ಟ್ ಮಾಡಿ, ಸಣ್ಣ ಉಂಡೆಗಳಾಗಿ ಮಾಡಿ. ಉಪ್ಪಿನೊಂದಿಗೆ, 3 ದಿನ ದಿನಕ್ಕೆ 3 ರಿಂದ 4 ಬಾರಿ ಕೊಡಿ.",
+                  "प्याज, लहसुन, सूखी मिर्च, जीरा, हल्दी पाउडर, गुड़, काली मिर्च, पान के पत्ते और अदरक मिलाकर पेस्ट बनाएं, छोटी गोलियां बनाएं। नमक के साथ, 3 दिनों तक दिन में 3 से 4 बार दें।"
                 ),
               },
               {
-                label: L("Worms"),
+                label: L(
+                  "Worms",
+                  "పురుగులు",
+                  "புழுக்கள்",
+                  "ಹುಳುಗಳು",
+                  "कीड़े (पेट के कृमि)"
+                ),
                 text: L(
-                  "Blend onion, garlic, mustard seeds, neem leaves, cumin, bitter gourd, turmeric powder, pepper, banana stem, common leucas and jaggery into a paste, rolled into small balls. Give with salt, once daily for 3 days."
+                  "Blend onion, garlic, mustard seeds, neem leaves, cumin, bitter gourd, turmeric powder, pepper, banana stem, common leucas and jaggery into a paste, rolled into small balls. Give with salt, once daily for 3 days.",
+                  "ఉల్లి, వెల్లుల్లి, ఆవాలు, వేప ఆకులు, జీలకర్ర, కాకరకాయ, పసుపు పొడి, మిరియాలు, అరటి కాండం, తుమ్మి ఆకులు మరియు బెల్లం కలిపి పేస్టు తయారు చేసి, చిన్న ఉండలుగా చేయండి. ఉప్పుతో పాటు, 3 రోజులు రోజుకు ఒకసారి ఇవ్వండి.",
+                  "வெங்காயம், பூண்டு, கடுகு, வேம்பு இலைகள், சீரகம், பாகற்காய், மஞ்சள் தூள், மிளகு, வாழைத் தண்டு, தும்பை இலைகள் மற்றும் வெல்லத்தை கலந்து பேஸ்ட் செய்து, சிறு உருண்டைகளாக உருட்டவும். உப்புடன், 3 நாட்களுக்கு நாளொன்றுக்கு ஒரு முறை கொடுக்கவும்.",
+                  "ಈರುಳ್ಳಿ, ಬೆಳ್ಳುಳ್ಳಿ, ಸಾಸಿವೆ, ಬೇವಿನ ಎಲೆಗಳು, ಜೀರಿಗೆ, ಹಾಗಲಕಾಯಿ, ಅರಿಶಿನ ಪುಡಿ, ಮೆಣಸು, ಬಾಳೆ ಕಾಂಡ, ತುಂಬೆ ಎಲೆಗಳು ಮತ್ತು ಬೆಲ್ಲವನ್ನು ಬೆರೆಸಿ ಪೇಸ್ಟ್ ಮಾಡಿ, ಸಣ್ಣ ಉಂಡೆಗಳಾಗಿ ಮಾಡಿ. ಉಪ್ಪಿನೊಂದಿಗೆ, 3 ದಿನ ದಿನಕ್ಕೊಮ್ಮೆ ಕೊಡಿ.",
+                  "प्याज, लहसुन, सरसों के बीज, नीम की पत्तियां, जीरा, करेला, हल्दी पाउडर, काली मिर्च, केले का तना, गुमा (तुम्बई) पत्तियां और गुड़ मिलाकर पेस्ट बनाएं, छोटी गोलियां बनाएं। नमक के साथ, 3 दिनों तक दिन में एक बार दें।"
                 ),
               },
             ],
           },
           {
             type: "glossary",
-            term: L("Three Kings"),
+            term: L(
+              "Three Kings",
+              "మూడు రాజులు (త్రీ కింగ్స్)",
+              "மூன்று அரசர்கள் (Three Kings)",
+              "ಮೂರು ರಾಜರು (ತ್ರೀ ಕಿಂಗ್ಸ್)",
+              "थ्री किंग्स (तीन राजा)"
+            ),
             meaning: L(
-              "A traditional Tamil (Siddha) combination of betel leaves, black pepper and salt, mixed with jaggery. The EVM brochure uses it as a first-response formulation for allergy, poisoning, venomous stings or bites, and pesticide/toxin poisoning."
+              "A traditional Tamil (Siddha) combination of betel leaves, black pepper and salt, mixed with jaggery. The EVM brochure uses it as a first-response formulation for allergy, poisoning, venomous stings or bites, and pesticide/toxin poisoning.",
+              "తమలపాకులు, నల్ల మిరియాలు మరియు ఉప్పును బెల్లంతో కలిపిన సాంప్రదాయ తమిళ్ (సిద్ధ) కలయిక. అలర్జీ, విషప్రయోగం, విషపూరిత కుట్టడం లేదా కరవడం, మరియు పురుగుమందు/విష విషప్రయోగానికి మొదటి-స్పందన ఫార్ములేషన్‌గా EVM బ్రోషర్ దీనిని వాడుతుంది.",
+              "வெற்றிலை, கருப்பு மிளகு மற்றும் உப்பை வெல்லத்துடன் கலந்த பாரம்பரிய தமிழ் (சித்த) கலவை. ஒவ்வாமை, நச்சு தாக்கம், நச்சு கொட்டு அல்லது கடி, மற்றும் பூச்சிக்கொல்லி/நச்சு தாக்கத்திற்கான முதல்-பதில் சூத்திரமாக EVM துண்டுப்பிரசுரம் இதை பயன்படுத்துகிறது.",
+              "ವೀಳ್ಯದೆಲೆ, ಕರಿಮೆಣಸು ಮತ್ತು ಉಪ್ಪನ್ನು ಬೆಲ್ಲದೊಂದಿಗೆ ಬೆರೆಸಿದ ಸಾಂಪ್ರದಾಯಿಕ ತಮಿಳು (ಸಿದ್ಧ) ಸಂಯೋಜನೆ. ಅಲರ್ಜಿ, ವಿಷಪ್ರಾಶನ, ವಿಷಕಾರಿ ಕುಟುಕು ಅಥವಾ ಕಡಿತ, ಮತ್ತು ಕೀಟನಾಶಕ/ವಿಷ ವಿಷಪ್ರಾಶನಕ್ಕೆ ಮೊದಲ-ಪ್ರತಿಕ್ರಿಯೆ ಸೂತ್ರೀಕರಣವಾಗಿ EVM ಕರಪತ್ರ ಇದನ್ನು ಬಳಸುತ್ತದೆ.",
+              "पान के पत्ते, काली मिर्च और नमक का एक पारंपरिक तमिल (सिद्ध) मिश्रण, गुड़ के साथ मिलाया गया। EVM ब्रोशर इसे एलर्जी, ज़हर, ज़हरीले डंक या काटने, और कीटनाशक/विष विषाक्तता के लिए पहली-प्रतिक्रिया फॉर्मूलेशन के रूप में इस्तेमाल करता है।"
             ),
           },
           {
             type: "stat-grid",
             items: [
               {
-                label: L("Allergy / Poisoning / Venomous Sting or Bite"),
+                label: L(
+                  "Allergy / Poisoning / Venomous Sting or Bite",
+                  "అలర్జీ / విషప్రయోగం / విషపూరిత కుట్టడం లేదా కాటు",
+                  "ஒவ்வாமை / நச்சு தாக்கம் / நச்சு கொட்டு அல்லது கடி",
+                  "ಅಲರ್ಜಿ / ವಿಷಪ್ರಾಶನ / ವಿಷಕಾರಿ ಕುಟುಕು ಅಥವಾ ಕಡಿತ",
+                  "एलर्जी / ज़हर / ज़हरीला डंक या काटना"
+                ),
                 text: L(
-                  "The 'Three Kings' paste (betel leaves, pepper, salt, mixed with jaggery), fed in small portions 3 times a day for 2 weeks. In critical cases, 2 to 3 drops can instead be put in the eye every hour, without jaggery."
+                  "The 'Three Kings' paste (betel leaves, pepper, salt, mixed with jaggery), fed in small portions 3 times a day for 2 weeks. In critical cases, 2 to 3 drops can instead be put in the eye every hour, without jaggery.",
+                  "'థ్రీ కింగ్స్' పేస్టు (తమలపాకులు, మిరియాలు, ఉప్పు, బెల్లంతో కలిపి), 2 వారాలు రోజుకు 3 సార్లు చిన్న మోతాదులలో ఇవ్వండి. క్లిష్ట పరిస్థితుల్లో, బెల్లం లేకుండా ప్రతి గంటకు 2 నుండి 3 చుక్కలు కంటిలో వేయవచ్చు.",
+                  "'மூன்று அரசர்கள்' பேஸ்ட் (வெற்றிலை, மிளகு, உப்பு, வெல்லத்துடன் கலந்தது), 2 வாரங்களுக்கு நாளொன்றுக்கு 3 முறை சிறிய அளவில் கொடுக்கவும். கடுமையான நிலைகளில், வெல்லம் இல்லாமல் ஒவ்வொரு மணி நேரமும் 2 முதல் 3 துளிகள் கண்ணில் விடலாம்.",
+                  "'ಮೂರು ರಾಜರು' ಪೇಸ್ಟ್ (ವೀಳ್ಯದೆಲೆ, ಮೆಣಸು, ಉಪ್ಪು, ಬೆಲ್ಲದೊಂದಿಗೆ ಬೆರೆಸಿದ್ದು), 2 ವಾರ ದಿನಕ್ಕೆ 3 ಬಾರಿ ಸಣ್ಣ ಪ್ರಮಾಣದಲ್ಲಿ ಕೊಡಿ. ಗಂಭೀರ ಸಂದರ್ಭಗಳಲ್ಲಿ, ಬೆಲ್ಲವಿಲ್ಲದೆ ಪ್ರತಿ ಗಂಟೆಗೆ 2 ರಿಂದ 3 ಹನಿಗಳನ್ನು ಕಣ್ಣಿಗೆ ಹಾಕಬಹುದು.",
+                  "'थ्री किंग्स' पेस्ट (पान के पत्ते, काली मिर्च, नमक, गुड़ के साथ मिलाया हुआ), 2 हफ्तों तक दिन में 3 बार थोड़ी मात्रा में खिलाएं। गंभीर मामलों में, गुड़ के बिना हर घंटे 2 से 3 बूंदें आंख में डाली जा सकती हैं।"
                 ),
               },
               {
-                label: L("Toxicity (Pesticide / HCN / Mycotoxin)"),
+                label: L(
+                  "Toxicity (Pesticide / HCN / Mycotoxin)",
+                  "విషప్రయోగం (పురుగుమందు / HCN / మైకోటాక్సిన్)",
+                  "நச்சுத்தன்மை (பூச்சிக்கொல்லி / HCN / மைக்கோடாக்சின்)",
+                  "ವಿಷತ್ವ (ಕೀಟನಾಶಕ / HCN / ಮೈಕೋಟಾಕ್ಸಿನ್)",
+                  "विषाक्तता (कीटनाशक / HCN / माइकोटॉक्सिन)"
+                ),
                 text: L(
-                  "Give a first dose of 'Three Kings'. Separately, soak and extract tamarind pulp, mix with water, moringa leaf extract and jaggery; feed 200 ml of this thick mixture every 2 hours, alternating with more 'Three Kings' doses in between."
+                  "Give a first dose of 'Three Kings'. Separately, soak and extract tamarind pulp, mix with water, moringa leaf extract and jaggery; feed 200 ml of this thick mixture every 2 hours, alternating with more 'Three Kings' doses in between.",
+                  "మొదట 'థ్రీ కింగ్స్' మోతాదు ఇవ్వండి. విడిగా, చింతపండు గుజ్జును నానబెట్టి రసం తీసి, నీరు, మునగ ఆకు సారం మరియు బెల్లంతో కలపండి; ఈ చిక్కటి మిశ్రమాన్ని ప్రతి 2 గంటలకు 200 మి.లీ ఇవ్వండి, మధ్యలో మరిన్ని 'థ్రీ కింగ్స్' మోతాదులతో మార్చుకుంటూ.",
+                  "முதலில் 'மூன்று அரசர்கள்' அளவு கொடுக்கவும். தனியாக, புளி கூழை ஊற வைத்து சாறு எடுத்து, தண்ணீர், முருங்கை இலை சாறு மற்றும் வெல்லத்துடன் கலக்கவும்; இந்த கெட்டியான கலவையை ஒவ்வொரு 2 மணி நேரத்திற்கும் 200 மி.லி கொடுக்கவும், இடையில் மேலும் 'மூன்று அரசர்கள்' அளவுகளுடன் மாற்றி மாற்றி கொடுக்கவும்.",
+                  "ಮೊದಲು 'ಮೂರು ರಾಜರು' ಡೋಸ್ ಕೊಡಿ. ಪ್ರತ್ಯೇಕವಾಗಿ, ಹುಣಸೆಹಣ್ಣಿನ ತಿರುಳನ್ನು ನೆನೆಸಿ ರಸ ತೆಗೆದು, ನೀರು, ನುಗ್ಗೆ ಎಲೆ ಸಾರ ಮತ್ತು ಬೆಲ್ಲದೊಂದಿಗೆ ಬೆರೆಸಿ; ಈ ದಪ್ಪ ಮಿಶ್ರಣವನ್ನು ಪ್ರತಿ 2 ಗಂಟೆಗೆ 200 ಮಿ.ಲೀ ಕೊಡಿ, ನಡುವೆ ಇನ್ನಷ್ಟು 'ಮೂರು ರಾಜರು' ಡೋಸ್‌ಗಳೊಂದಿಗೆ ಪರ್ಯಾಯವಾಗಿ.",
+                  "पहले 'थ्री किंग्स' की एक खुराक दें। अलग से, इमली के गूदे को भिगोकर रस निकालें, पानी, सहजन पत्ती के अर्क और गुड़ के साथ मिलाएं; इस गाढ़े मिश्रण को हर 2 घंटे में 200 मिली दें, बीच-बीच में और 'थ्री किंग्स' की खुराक के साथ बदल-बदल कर।"
                 ),
               },
               {
-                label: L("Tick / Ectoparasites"),
+                label: L(
+                  "Tick / Ectoparasites",
+                  "గోమార్లు / బాహ్య పరాన్నజీవులు",
+                  "கொட்டுண்ணி / வெளிப்புற ஒட்டுண்ணிகள்",
+                  "ಉಣ್ಣೆ / ಬಾಹ್ಯ ಪರಾವಲಂಬಿಗಳು",
+                  "किलनी / बाहरी परजीवी"
+                ),
                 text: L(
-                  "Blend garlic, neem leaves and fruit, acorus rhizome, turmeric, lantana leaves and tulsi with 1 litre of water; strain through a fine sieve or muslin cloth. Spray on the animal's whole body and in shed cracks and crevices, weekly, only during the sunny part of the day."
+                  "Blend garlic, neem leaves and fruit, acorus rhizome, turmeric, lantana leaves and tulsi with 1 litre of water; strain through a fine sieve or muslin cloth. Spray on the animal's whole body and in shed cracks and crevices, weekly, only during the sunny part of the day.",
+                  "వెల్లుల్లి, వేప ఆకులు మరియు పండ్లు, వస (అకోరస్) దుంప, పసుపు, లాంటానా ఆకులు మరియు తులసిని 1 లీటరు నీటితో కలిపి రుబ్బండి; సన్నని జల్లెడ లేదా మల్మల్ గుడ్డతో వడకట్టండి. జంతువు శరీరమంతా మరియు షెడ్ పగుళ్లు మరియు సందుల్లో వారానికి ఒకసారి, పగటి ఎండ సమయంలో మాత్రమే స్ప్రే చేయండి.",
+                  "பூண்டு, வேம்பு இலைகள் மற்றும் பழம், வசம்பு கிழங்கு, மஞ்சள், லான்டானா இலைகள் மற்றும் துளசியை 1 லிட்டர் நீருடன் அரைக்கவும்; மெல்லிய சல்லடை அல்லது மல்மல் துணி மூலம் வடிகட்டவும். விலங்கின் உடல் முழுவதும் மற்றும் தொழுவத்தின் விரிசல்கள் மற்றும் இடுக்குகளில் வாரமொருமுறை, பகல் நேரத்தில் மட்டும் தெளிக்கவும்.",
+                  "ಬೆಳ್ಳುಳ್ಳಿ, ಬೇವಿನ ಎಲೆಗಳು ಮತ್ತು ಹಣ್ಣು, ವಸೆ ಗೆಡ್ಡೆ, ಅರಿಶಿನ, ಲಂಟಾನಾ ಎಲೆಗಳು ಮತ್ತು ತುಳಸಿಯನ್ನು 1 ಲೀಟರ್ ನೀರಿನೊಂದಿಗೆ ಅರೆಯಿರಿ; ಸೂಕ್ಷ್ಮ ಜರಡಿ ಅಥವಾ ಮಲ್ಮಲ್ ಬಟ್ಟೆಯ ಮೂಲಕ ಸೋಸಿ. ಪ್ರಾಣಿಯ ಇಡೀ ದೇಹದ ಮೇಲೆ ಮತ್ತು ಶೆಡ್‌ನ ಬಿರುಕುಗಳು ಮತ್ತು ಸಂದುಗಳಲ್ಲಿ ವಾರಕ್ಕೊಮ್ಮೆ, ಬಿಸಿಲಿನ ಸಮಯದಲ್ಲಿ ಮಾತ್ರ ಸಿಂಪಡಿಸಿ.",
+                  "लहसुन, नीम की पत्तियां और फल, बच (एकोरस) की जड़, हल्दी, लैंटाना की पत्तियां और तुलसी को 1 लीटर पानी के साथ पीसें; बारीक छलनी या मलमल के कपड़े से छान लें। जानवर के पूरे शरीर पर और शेड की दरारों व झिर्रियों में हफ्ते में एक बार, केवल धूप वाले समय में छिड़कें।"
                 ),
               },
               {
-                label: L("Cough"),
-                text: L("Blend adhathoda (Adusa) leaf, tulsi, garlic, turmeric, pepper and jaggery into a paste. Feed orally 2 to 3 times daily until the cough resolves."),
+                label: L(
+                  "Cough",
+                  "దగ్గు",
+                  "இருமல்",
+                  "ಕೆಮ್ಮು",
+                  "खांसी"
+                ),
+                text: L(
+                  "Blend adhathoda (Adusa) leaf, tulsi, garlic, turmeric, pepper and jaggery into a paste. Feed orally 2 to 3 times daily until the cough resolves.",
+                  "అడతోడ (అడూసా) ఆకు, తులసి, వెల్లుల్లి, పసుపు, మిరియాలు మరియు బెల్లం కలిపి పేస్టు తయారు చేయండి. దగ్గు తగ్గే వరకు రోజుకు 2 నుండి 3 సార్లు నోటి ద్వారా ఇవ్వండి.",
+                  "அடதோடா (அடூசா) இலை, துளசி, பூண்டு, மஞ்சள், மிளகு மற்றும் வெல்லத்தை கலந்து பேஸ்ட் தயாரிக்கவும். இருமல் குணமாகும் வரை நாளொன்றுக்கு 2 முதல் 3 முறை வாய் வழியாக கொடுக்கவும்.",
+                  "ಅಡತೋಡ (ಅಡೂಸಾ) ಎಲೆ, ತುಳಸಿ, ಬೆಳ್ಳುಳ್ಳಿ, ಅರಿಶಿನ, ಮೆಣಸು ಮತ್ತು ಬೆಲ್ಲವನ್ನು ಬೆರೆಸಿ ಪೇಸ್ಟ್ ಮಾಡಿ. ಕೆಮ್ಮು ಗುಣವಾಗುವವರೆಗೆ ದಿನಕ್ಕೆ 2 ರಿಂದ 3 ಬಾರಿ ಬಾಯಿಯ ಮೂಲಕ ಕೊಡಿ.",
+                  "अडूसा (वासा) पत्ती, तुलसी, लहसुन, हल्दी, काली मिर्च और गुड़ मिलाकर पेस्ट बनाएं। खांसी ठीक होने तक दिन में 2 से 3 बार मुँह से दें।"
+                ),
               },
             ],
           },
           {
             type: "text",
-            heading: L("A Few More Worth Recognising"),
+            heading: L(
+              "A Few More Worth Recognising",
+              "గుర్తించదగిన మరికొన్ని",
+              "அறிந்து கொள்ள வேண்டிய இன்னும் சில",
+              "ಗುರುತಿಸಲೇಬೇಕಾದ ಇನ್ನಷ್ಟು",
+              "जानने योग्य कुछ और"
+            ),
             html: L(
-              "The brochure also covers: <b>FMD mouth lesions</b> (cumin, fenugreek, pepper, turmeric, garlic and coconut blended with jaggery, applied inside the mouth 3 times a day for 3–5 days); <b>FMD foot lesions/wounds</b> (acalypha, garlic, neem, coconut or sesame oil, turmeric, mehndi and tulsi boiled together and applied on the cleaned wound, with anona leaf paste added only on day one if maggots are present); <b>pox/wart/cracks</b> (garlic, turmeric, cumin, sweet basil, neem and butter, applied on dried skin); <b>hygroma</b> — joint swelling — (aloe vera, lime, cissus, turmeric and garlic boiled in gingelly oil, applied 4–5 times a day with hot water fomentation twice daily); a <b>downer animal</b> that cannot get up (2 whole desi eggs fed 3 times a day, alternated every 2 hours with moringa-and-cissus paste, and — importantly — no attempt to lift the animal until the 4th day); <b>blood in milk</b> (curry leaves and moringa blended with jaggery, plus lemons, alongside the brochure's own note to also carry out the mastitis treatment); and <b>anoestrus</b> — an animal not coming into heat — (the same radish-aloe-moringa-cissus-curry leaf sequence as repeat breeding, with deworming done 15 days beforehand)."
+              "The brochure also covers: <b>FMD mouth lesions</b> (cumin, fenugreek, pepper, turmeric, garlic and coconut blended with jaggery, applied inside the mouth 3 times a day for 3–5 days); <b>FMD foot lesions/wounds</b> (acalypha, garlic, neem, coconut or sesame oil, turmeric, mehndi and tulsi boiled together and applied on the cleaned wound, with anona leaf paste added only on day one if maggots are present); <b>pox/wart/cracks</b> (garlic, turmeric, cumin, sweet basil, neem and butter, applied on dried skin); <b>hygroma</b> — joint swelling — (aloe vera, lime, cissus, turmeric and garlic boiled in gingelly oil, applied 4–5 times a day with hot water fomentation twice daily); a <b>downer animal</b> that cannot get up (2 whole desi eggs fed 3 times a day, alternated every 2 hours with moringa-and-cissus paste, and — importantly — no attempt to lift the animal until the 4th day); <b>blood in milk</b> (curry leaves and moringa blended with jaggery, plus lemons, alongside the brochure's own note to also carry out the mastitis treatment); and <b>anoestrus</b> — an animal not coming into heat — (the same radish-aloe-moringa-cissus-curry leaf sequence as repeat breeding, with deworming done 15 days beforehand).",
+              "బ్రోషర్ ఇంకా వీటిని కూడా కవర్ చేస్తుంది: <b>FMD నోటి గాయాలు</b> (జీలకర్ర, మెంతులు, మిరియాలు, పసుపు, వెల్లుల్లి మరియు కొబ్బరిని బెల్లంతో కలిపి, 3–5 రోజులు రోజుకు 3 సార్లు నోటి లోపల వేయడం); <b>FMD పాద గాయాలు/గాయాలు</b> (అకాలిఫా, వెల్లుల్లి, వేప, కొబ్బరి లేదా నువ్వుల నూనె, పసుపు, గోరింట మరియు తులసిని కలిపి మరిగించి శుభ్రం చేసిన గాయంపై వేయడం, పురుగులు ఉంటే మొదటి రోజు మాత్రమే సీతాఫలం ఆకు పేస్టు జోడించడం); <b>మశూచి/మొటిమ/పగుళ్లు</b> (వెల్లుల్లి, పసుపు, జీలకర్ర, తీపి తులసి, వేప మరియు వెన్న, పొడి చర్మంపై వేయడం); <b>హైగ్రోమా</b> — కీళ్ల వాపు — (కలబంద, సున్నం, సిస్సస్, పసుపు మరియు వెల్లుల్లిని నువ్వుల నూనెలో మరిగించి, రోజుకు 4–5 సార్లు వేడి నీటి కాపడంతో పాటు రోజుకు రెండుసార్లు వేయడం); లేవలేని <b>పడిపోయిన జంతువు</b> (2 పూర్తి దేశీ గుడ్లను రోజుకు 3 సార్లు, ప్రతి 2 గంటలకు మునగ-సిస్సస్ పేస్టుతో మార్చుకుంటూ ఇవ్వడం, మరియు — ముఖ్యంగా — 4వ రోజు వరకు జంతువును లేపడానికి ప్రయత్నించకపోవడం); <b>పాలలో రక్తం</b> (కరివేపాకు మరియు మునగను బెల్లంతో కలిపి, నిమ్మకాయలతో పాటు, మాస్టైటిస్ చికిత్స కూడా చేయాలని బ్రోషర్ సొంత గమనికతో పాటు); మరియు <b>అనోఎస్ట్రస్</b> — బహిష్టు రాని జంతువు — (పదే పదే గర్భం కోసం వాడే అదే ముల్లంగి-కలబంద-మునగ-సిస్సస్-కరివేపాకు క్రమం, 15 రోజుల ముందు నట్టల నివారణ చేసి).",
+              "துண்டுப்பிரசுரம் மேலும் இவற்றையும் உள்ளடக்குகிறது: <b>FMD வாய் புண்கள்</b> (சீரகம், வெந்தயம், மிளகு, மஞ்சள், பூண்டு மற்றும் தேங்காயை வெல்லத்துடன் கலந்து, 3–5 நாட்களுக்கு நாளொன்றுக்கு 3 முறை வாய்க்குள் பயன்படுத்துதல்); <b>FMD கால் புண்கள்/காயங்கள்</b> (அகாலிஃபா, பூண்டு, வேம்பு, தேங்காய் அல்லது எள் எண்ணெய், மஞ்சள், மருதாணி மற்றும் துளசியை ஒன்றாக கொதிக்க வைத்து சுத்தம் செய்த காயத்தில் பயன்படுத்துதல், புழுக்கள் இருந்தால் முதல் நாள் மட்டும் சீதாபழம் இலை பேஸ்ட் சேர்த்தல்); <b>பொக்ஸ்/கொப்புளம்/வெடிப்புகள்</b> (பூண்டு, மஞ்சள், சீரகம், தேன் துளசி, வேம்பு மற்றும் வெண்ணெய், உலர்ந்த தோலில் பயன்படுத்துதல்); <b>ஹைக்ரோமா</b> — மூட்டு வீக்கம் — (கற்றாழை, சுண்ணாம்பு, சிஸ்ஸஸ், மஞ்சள் மற்றும் பூண்டை எள் எண்ணெயில் கொதிக்க வைத்து, நாளொன்றுக்கு 4–5 முறை சூடான நீர் ஒத்தடத்துடன் தினமும் இரண்டு முறை பயன்படுத்துதல்); எழ முடியாத <b>விழுந்த விலங்கு</b> (2 முழு நாட்டு முட்டைகளை நாளொன்றுக்கு 3 முறை, ஒவ்வொரு 2 மணி நேரமும் முருங்கை-சிஸ்ஸஸ் பேஸ்டுடன் மாற்றி மாற்றி கொடுத்தல், மற்றும் — முக்கியமாக — 4வது நாள் வரை விலங்கை தூக்க முயற்சிக்காதிருத்தல்); <b>பாலில் இரத்தம்</b> (கறிவேப்பிலை மற்றும் முருங்கையை வெல்லத்துடன் கலந்து, எலுமிச்சைகளுடன், மடிவீக்க சிகிச்சையையும் செய்ய வேண்டும் என்ற துண்டுப்பிரசுரத்தின் சொந்த குறிப்புடன்); மற்றும் <b>அனோயெஸ்ட்ரஸ்</b> — வெப்புக்கு வராத விலங்கு — (மீண்டும் மீண்டும் கருவுறாமைக்கு பயன்படுத்தும் அதே முள்ளங்கி-கற்றாழை-முருங்கை-சிஸ்ஸஸ்-கறிவேப்பிலை வரிசை, 15 நாட்களுக்கு முன் புழு நீக்கம் செய்யப்பட்டு).",
+              "ಕರಪತ್ರ ಇನ್ನಷ್ಟನ್ನೂ ಒಳಗೊಂಡಿದೆ: <b>FMD ಬಾಯಿ ಗಾಯಗಳು</b> (ಜೀರಿಗೆ, ಮೆಂತ್ಯ, ಮೆಣಸು, ಅರಿಶಿನ, ಬೆಳ್ಳುಳ್ಳಿ ಮತ್ತು ತೆಂಗಿನಕಾಯಿಯನ್ನು ಬೆಲ್ಲದೊಂದಿಗೆ ಬೆರೆಸಿ, 3–5 ದಿನ ದಿನಕ್ಕೆ 3 ಬಾರಿ ಬಾಯಿಯೊಳಗೆ ಹಚ್ಚುವುದು); <b>FMD ಪಾದದ ಗಾಯಗಳು</b> (ಅಕಾಲಿಫಾ, ಬೆಳ್ಳುಳ್ಳಿ, ಬೇವು, ತೆಂಗಿನ ಅಥವಾ ಎಳ್ಳೆಣ್ಣೆ, ಅರಿಶಿನ, ಗೋರಂಟಿ ಮತ್ತು ತುಳಸಿಯನ್ನು ಒಟ್ಟಿಗೆ ಕುದಿಸಿ ಸ್ವಚ್ಛಗೊಳಿಸಿದ ಗಾಯದ ಮೇಲೆ ಹಚ್ಚುವುದು, ಹುಳಗಳಿದ್ದರೆ ಮೊದಲ ದಿನ ಮಾತ್ರ ಸೀತಾಫಲ ಎಲೆ ಪೇಸ್ಟ್ ಸೇರಿಸುವುದು); <b>ಸಿಡುಬು/ನರಹುಲಿ/ಬಿರುಕುಗಳು</b> (ಬೆಳ್ಳುಳ್ಳಿ, ಅರಿಶಿನ, ಜೀರಿಗೆ, ಸಿಹಿ ತುಳಸಿ, ಬೇವು ಮತ್ತು ಬೆಣ್ಣೆ, ಒಣ ಚರ್ಮದ ಮೇಲೆ ಹಚ್ಚುವುದು); <b>ಹೈಗ್ರೋಮಾ</b> — ಕೀಲು ಊತ — (ಅಲೋವೆರಾ, ಸುಣ್ಣ, ಸಿಸ್ಸಸ್, ಅರಿಶಿನ ಮತ್ತು ಬೆಳ್ಳುಳ್ಳಿಯನ್ನು ಎಳ್ಳೆಣ್ಣೆಯಲ್ಲಿ ಕುದಿಸಿ, ದಿನಕ್ಕೆ 4–5 ಬಾರಿ ಬಿಸಿನೀರಿನ ಶಾಖದೊಂದಿಗೆ ದಿನಕ್ಕೆ ಎರಡು ಬಾರಿ ಹಚ್ಚುವುದು); ಏಳಲಾಗದ <b>ಬಿದ್ದ ಪ್ರಾಣಿ</b> (2 ಪೂರ್ಣ ನಾಟಿ ಮೊಟ್ಟೆಗಳನ್ನು ದಿನಕ್ಕೆ 3 ಬಾರಿ, ಪ್ರತಿ 2 ಗಂಟೆಗೆ ನುಗ್ಗೆ-ಸಿಸ್ಸಸ್ ಪೇಸ್ಟ್‌ನೊಂದಿಗೆ ಪರ್ಯಾಯವಾಗಿ ಕೊಡುವುದು, ಮತ್ತು — ಮುಖ್ಯವಾಗಿ — 4ನೇ ದಿನದವರೆಗೆ ಪ್ರಾಣಿಯನ್ನು ಎತ್ತಲು ಪ್ರಯತ್ನಿಸದಿರುವುದು); <b>ಹಾಲಿನಲ್ಲಿ ರಕ್ತ</b> (ಕರಿಬೇವಿನ ಎಲೆ ಮತ್ತು ನುಗ್ಗೆಯನ್ನು ಬೆಲ್ಲದೊಂದಿಗೆ ಬೆರೆಸಿ, ನಿಂಬೆಹಣ್ಣುಗಳೊಂದಿಗೆ, ಮಾಸ್ಟೈಟಿಸ್ ಚಿಕಿತ್ಸೆಯನ್ನೂ ಮಾಡಬೇಕೆಂಬ ಕರಪತ್ರದ ಸ್ವಂತ ಟಿಪ್ಪಣಿಯೊಂದಿಗೆ); ಮತ್ತು <b>ಅನೋಎಸ್ಟ್ರಸ್</b> — ಬೆದೆಗೆ ಬಾರದ ಪ್ರಾಣಿ — (ಪುನರಾವರ್ತಿತ ಸಂತಾನೋತ್ಪತ್ತಿಗೆ ಬಳಸುವ ಅದೇ ಮೂಲಂಗಿ-ಅಲೋವೆರಾ-ನುಗ್ಗೆ-ಸಿಸ್ಸಸ್-ಕರಿಬೇವು ಅನುಕ್ರಮ, 15 ದಿನ ಮೊದಲು ಹುಳ ನಿವಾರಣೆ ಮಾಡಿ).",
+              "ब्रोशर इनका भी वर्णन करता है: <b>FMD मुँह के घाव</b> (जीरा, मेथी, काली मिर्च, हल्दी, लहसुन और नारियल को गुड़ के साथ मिलाकर, 3–5 दिनों तक दिन में 3 बार मुँह के अंदर लगाना); <b>FMD पैर के घाव</b> (अकैलिफा, लहसुन, नीम, नारियल या तिल का तेल, हल्दी, मेंहदी और तुलसी को एक साथ उबालकर साफ किए गए घाव पर लगाना, कीड़े होने पर पहले दिन ही सीताफल पत्ती का पेस्ट डालना); <b>पॉक्स/मस्से/दरारें</b> (लहसुन, हल्दी, जीरा, तुलसी, नीम और मक्खन, सूखी त्वचा पर लगाना); <b>हाइग्रोमा</b> — जोड़ की सूजन — (एलोवेरा, चूना, सिस्सस, हल्दी और लहसुन को तिल के तेल में उबालकर, दिन में 4–5 बार गर्म पानी की सिकाई के साथ रोज़ाना दो बार लगाना); उठ न पाने वाला <b>गिरा हुआ जानवर</b> (2 पूरे देसी अंडे दिन में 3 बार, हर 2 घंटे में सहजन-सिस्सस पेस्ट के साथ बदल-बदल कर देना, और — महत्वपूर्ण रूप से — चौथे दिन तक जानवर को उठाने की कोशिश न करना); <b>दूध में खून</b> (करी पत्ता और सहजन को गुड़ के साथ मिलाकर, नींबू के साथ, मैस्टाइटिस उपचार भी करने के ब्रोशर के अपने नोट के साथ); और <b>अनोएस्ट्रस</b> — गर्मी में न आने वाला जानवर — (बार-बार गर्भ न ठहरने के लिए इस्तेमाल होने वाला वही मूली-एलोवेरा-सहजन-सिस्सस-करी पत्ता क्रम, 15 दिन पहले कृमि नाशक देकर)।"
             ),
           },
           {
             type: "callout",
             style: "warning",
-            heading: L("Still Home Remedies, Not a Diagnosis"),
+            heading: L(
+              "Still Home Remedies, Not a Diagnosis",
+              "ఇప్పటికీ ఇంటి చిట్కాలే, నిర్ధారణ కాదు",
+              "இன்னும் வீட்டு வைத்தியங்களே, நோய் கண்டறிதல் அல்ல",
+              "ಇನ್ನೂ ಮನೆಮದ್ದುಗಳೇ, ರೋಗನಿರ್ಣಯವಲ್ಲ",
+              "अभी भी घरेलू उपचार, निदान नहीं"
+            ),
             text: L(
-              "Every formulation on this page is used ALONGSIDE, never INSTEAD OF, proper veterinary care. The EVM brochure's own closing line makes this exact point: the plants and materials described are generally regarded as safe and are only suggestive — a nearby veterinarian should still be consulted for proper disease diagnosis and management."
+              "Every formulation on this page is used ALONGSIDE, never INSTEAD OF, proper veterinary care. The EVM brochure's own closing line makes this exact point: the plants and materials described are generally regarded as safe and are only suggestive — a nearby veterinarian should still be consulted for proper disease diagnosis and management.",
+              "ఈ పేజీలోని ప్రతి ఫార్ములేషన్‌ను సరైన పశువైద్య సంరక్షణకు బదులుగా కాకుండా, దానితో పాటుగా మాత్రమే వాడాలి. EVM బ్రోషర్ యొక్క సొంత ముగింపు వాక్యం ఇదే విషయాన్ని చెబుతుంది: వివరించిన మొక్కలు మరియు పదార్థాలు సాధారణంగా సురక్షితమైనవిగా పరిగణించబడతాయి మరియు కేవలం సూచనాత్మకమైనవి — సరైన వ్యాధి నిర్ధారణ మరియు నిర్వహణ కోసం సమీపంలోని పశువైద్యుడిని ఇప్పటికీ సంప్రదించాలి.",
+              "இந்த பக்கத்தில் உள்ள ஒவ்வொரு சூத்திரமும் சரியான கால்நடை மருத்துவ பராமரிப்புக்கு பதிலாக அல்ல, அதனுடன் சேர்த்து மட்டுமே பயன்படுத்தப்பட வேண்டும். EVM துண்டுப்பிரசுரத்தின் சொந்த முடிவு வரி இதையே குறிப்பிடுகிறது: விவரிக்கப்பட்ட தாவரங்கள் மற்றும் பொருட்கள் பொதுவாக பாதுகாப்பானவையாக கருதப்படுகின்றன மற்றும் வெறும் பரிந்துரையே — சரியான நோய் கண்டறிதல் மற்றும் மேலாண்மைக்காக அருகிலுள்ள கால்நடை மருத்துவரை இன்னும் அணுக வேண்டும்.",
+              "ಈ ಪುಟದಲ್ಲಿನ ಪ್ರತಿ ಸೂತ್ರೀಕರಣವನ್ನು ಸರಿಯಾದ ಪಶುವೈದ್ಯ ಆರೈಕೆಗೆ ಬದಲಾಗಿ ಅಲ್ಲ, ಅದರ ಜೊತೆಗೆ ಮಾತ್ರ ಬಳಸಬೇಕು. EVM ಕರಪತ್ರದ ಸ್ವಂತ ಮುಕ್ತಾಯದ ಸಾಲು ಇದೇ ಅಂಶವನ್ನು ಹೇಳುತ್ತದೆ: ವಿವರಿಸಿದ ಸಸ್ಯಗಳು ಮತ್ತು ವಸ್ತುಗಳು ಸಾಮಾನ್ಯವಾಗಿ ಸುರಕ್ಷಿತವೆಂದು ಪರಿಗಣಿಸಲ್ಪಟ್ಟಿವೆ ಮತ್ತು ಕೇವಲ ಸಲಹಾತ್ಮಕವಾಗಿವೆ — ಸರಿಯಾದ ರೋಗನಿರ್ಣಯ ಮತ್ತು ನಿರ್ವಹಣೆಗಾಗಿ ಹತ್ತಿರದ ಪಶುವೈದ್ಯರನ್ನು ಇನ್ನೂ ಸಂಪರ್ಕಿಸಬೇಕು.",
+              "इस पेज पर मौजूद हर फॉर्मूलेशन को सही पशु चिकित्सा देखभाल के बदले नहीं, बल्कि उसके साथ-साथ ही इस्तेमाल किया जाता है। EVM ब्रोशर की अपनी समापन पंक्ति यही बात कहती है: वर्णित पौधे और सामग्री आम तौर पर सुरक्षित मानी जाती हैं और केवल सुझाव मात्र हैं — सही रोग निदान और प्रबंधन के लिए अब भी नज़दीकी पशु चिकित्सक से सलाह लेनी चाहिए।"
             ),
           },
         ],
