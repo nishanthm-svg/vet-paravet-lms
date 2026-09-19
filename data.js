@@ -5484,8 +5484,8 @@ export const MODULES = [
   {
     id: "m6",
     number: 6,
-    title: L("Tick, Fly & Worm-Borne Diseases and Their Control"),
-    subtitle: L("How ticks, flies and worms spread disease, and simple ways to keep them under control."),
+    title: L("Tick, Fly & Worm-Borne Diseases and Their Control", "పేలు, ఈగలు, నులిపురుగుల వల్ల వచ్చే వ్యాధులు మరియు వాటి నియంత్రణ", "உண்ணி, ஈ, புழுக்களால் பரவும் நோய்கள் மற்றும் அவற்றின் கட்டுப்பாடு", "ಉಣ್ಣಿ, ನೊಣ ಮತ್ತು ಹುಳುಗಳಿಂದ ಬರುವ ರೋಗಗಳು ಮತ್ತು ಅವುಗಳ ನಿಯಂತ್ರಣ", "किलनी, मक्खी और कृमि से फैलने वाली बीमारियाँ और उनकी रोकथाम"),
+    subtitle: L("How ticks, flies and worms spread disease, and simple ways to keep them under control.", "పేలు, ఈగలు, నులిపురుగులు వ్యాధిని ఎలా వ్యాపింపజేస్తాయో, వాటిని అదుపులో ఉంచే సులభ మార్గాలేమిటో తెలుసుకోండి.", "உண்ணி, ஈ, புழுக்கள் நோயை எப்படிப் பரப்புகின்றன, அவற்றை கட்டுக்குள் வைக்க எளிய வழிகள் என்ன என்பதை அறிந்து கொள்ளுங்கள்.", "ಉಣ್ಣಿ, ನೊಣ ಮತ್ತು ಹುಳುಗಳು ರೋಗವನ್ನು ಹೇಗೆ ಹರಡುತ್ತವೆ ಮತ್ತು ಅವುಗಳನ್ನು ಹತೋಟಿಯಲ್ಲಿಡಲು ಸರಳ ಮಾರ್ಗಗಳೇನು ಎಂದು ತಿಳಿಯಿರಿ.", "किलनी, मक्खी और कृमि बीमारी कैसे फैलाते हैं और उन्हें काबू में रखने के आसान तरीके क्या हैं।"),
     icon: "bug",
     available: true,
     lessons: [
@@ -5494,73 +5494,97 @@ export const MODULES = [
   // ==================================================================
   {
     id: "m6-l1",
-    title: L("Tick-Borne Diseases: Anaplasmosis and Babesiosis"),
+    title: L("Tick-Borne Diseases: Anaplasmosis and Babesiosis", "పేల ద్వారా వచ్చే వ్యాధులు: అనాప్లాస్మోసిస్ మరియు బేబీసియోసిస్", "உண்ணியால் பரவும் நோய்கள்: அனாபிளாஸ்மோசிஸ் மற்றும் பேபிசியோசிஸ்", "ಉಣ್ಣಿಯಿಂದ ಬರುವ ರೋಗಗಳು: ಅನಾಪ್ಲಾಸ್ಮೋಸಿಸ್ ಮತ್ತು ಬೇಬಿಸಿಯೋಸಿಸ್", "किलनी से फैलने वाली बीमारियाँ: एनाप्लाज़्मोसिस और बेबेसियोसिस"),
     estMinutes: 8,
     hook: [
       {
         type: "hero",
-        heading: L("A Tiny Bite Can Cause a Big Problem"),
+        heading: L("A Tiny Bite Can Cause a Big Problem", "చిన్న కాటు పెద్ద సమస్యను తెచ్చిపెట్టవచ్చు", "ஒரு சிறிய கடி பெரிய பிரச்சனையை உண்டாக்கும்", "ಸಣ್ಣ ಕಡಿತ ದೊಡ್ಡ ಸಮಸ್ಯೆ ತರಬಹುದು", "एक छोटा-सा काटना बड़ी परेशानी बन सकता है"),
         text: L(
-          "Ticks don't just annoy an animal and drink its blood — some of them also inject tiny germs into the blood while feeding. Two of the most important tick-spread blood diseases are Anaplasmosis and Babesiosis. Both are curable if caught early — which is exactly why noticing the signs quickly matters so much."
+          "Ticks don't just annoy an animal and drink its blood — some of them also inject tiny germs into the blood while feeding. Two of the most important tick-spread blood diseases are Anaplasmosis and Babesiosis. Both are curable if caught early — which is exactly why noticing the signs quickly matters so much.",
+          "పేలు జంతువును ఇబ్బంది పెట్టి రక్తం తాగడమే కాదు — కొన్ని పేలు రక్తం తాగేటప్పుడు సూక్ష్మ క్రిములను రక్తంలోకి ఎక్కిస్తాయి. పేల ద్వారా వ్యాపించే రక్త వ్యాధుల్లో రెండు ముఖ్యమైనవి అనాప్లాస్మోసిస్ మరియు బేబీసియోసిస్. రెండింటినీ ముందుగానే గుర్తిస్తే నయం చేయవచ్చు — అందుకే లక్షణాలను త్వరగా గమనించడం ఎంతో ముఖ్యం.",
+          "உண்ணிகள் விலங்கை தொந்தரவு செய்து இரத்தம் குடிப்பதோடு நிற்பதில்லை — சில உண்ணிகள் இரத்தம் குடிக்கும்போது நுண்ணிய கிருமிகளையும் இரத்தத்தில் செலுத்துகின்றன. உண்ணியால் பரவும் இரத்த நோய்களில் மிக முக்கியமான இரண்டு அனாபிளாஸ்மோசிஸ் மற்றும் பேபிசியோசிஸ். இரண்டையும் ஆரம்பத்திலேயே கண்டுபிடித்தால் குணப்படுத்தலாம் — அதனால்தான் அறிகுறிகளை விரைவாக கவனிப்பது மிகவும் முக்கியம்.",
+          "ಉಣ್ಣಿಗಳು ಪ್ರಾಣಿಗೆ ತೊಂದರೆ ಕೊಟ್ಟು ರಕ್ತ ಕುಡಿಯುವುದು ಮಾತ್ರವಲ್ಲ — ಕೆಲವು ಉಣ್ಣಿಗಳು ರಕ್ತ ಕುಡಿಯುವಾಗ ಸೂಕ್ಷ್ಮ ರೋಗಾಣುಗಳನ್ನು ರಕ್ತಕ್ಕೆ ಚುಚ್ಚುತ್ತವೆ. ಉಣ್ಣಿಯಿಂದ ಹರಡುವ ರಕ್ತದ ರೋಗಗಳಲ್ಲಿ ಎರಡು ಮುಖ್ಯವಾದವು ಅನಾಪ್ಲಾಸ್ಮೋಸಿಸ್ ಮತ್ತು ಬೇಬಿಸಿಯೋಸಿಸ್. ಎರಡನ್ನೂ ಬೇಗ ಪತ್ತೆ ಹಚ್ಚಿದರೆ ಗುಣಪಡಿಸಬಹುದು — ಅದಕ್ಕಾಗಿಯೇ ಲಕ್ಷಣಗಳನ್ನು ಬೇಗ ಗಮನಿಸುವುದು ತುಂಬಾ ಮುಖ್ಯ.",
+          "किलनी सिर्फ़ पशु को परेशान करके उसका खून ही नहीं पीती — कुछ किलनियाँ खून पीते समय बहुत छोटे कीटाणु भी खून में छोड़ देती हैं। किलनी से फैलने वाली खून की दो सबसे अहम बीमारियाँ हैं एनाप्लाज़्मोसिस और बेबेसियोसिस। दोनों का इलाज हो सकता है अगर जल्दी पकड़ में आ जाएँ — इसीलिए लक्षणों को जल्दी पहचानना बहुत ज़रूरी है।"
         ),
       },
     ],
     topics: [
       {
         id: "t-m6-anaplasmosis",
-        title: L("Anaplasmosis: Signs and Spread"),
+        title: L("Anaplasmosis: Signs and Spread", "అనాప్లాస్మోసిస్: లక్షణాలు మరియు వ్యాప్తి", "அனாபிளாஸ்மோசிஸ்: அறிகுறிகள் மற்றும் பரவல்", "ಅನಾಪ್ಲಾಸ್ಮೋಸಿಸ್: ಲಕ್ಷಣಗಳು ಮತ್ತು ಹರಡುವಿಕೆ", "एनाप्लाज़्मोसिस: लक्षण और फैलाव"),
         teach: [
             {
               type: "photo",
               src: "assets/illustration-m6-tick-disease-cycle.png",
-              alt: L("Illustrated four-step cycle diagram showing how a tick picks up germs from a sick animal, bites a healthy cow, and spreads the disease."),
-              caption: L("Illustration: how ticks spread disease from a sick animal to a healthy one."),
+              alt: L("Illustrated four-step cycle diagram showing how a tick picks up germs from a sick animal, bites a healthy cow, and spreads the disease.", "పేను ఒక జబ్బుపడిన జంతువు నుండి క్రిములను ఎలా తీసుకుని, ఆరోగ్యంగా ఉన్న ఆవును కరిచి వ్యాధిని ఎలా వ్యాపింపజేస్తుందో చూపించే నాలుగు దశల చిత్రం.", "உண்ணி நோயுற்ற விலங்கிடமிருந்து கிருமிகளை எடுத்து, ஆரோக்கியமான பசுவைக் கடித்து நோயைப் பரப்புவதை நான்கு படிகளில் காட்டும் படம்.", "ಉಣ್ಣಿ ರೋಗಪೀಡಿತ ಪ್ರಾಣಿಯಿಂದ ರೋಗಾಣುಗಳನ್ನು ಪಡೆದು, ಆರೋಗ್ಯವಂತ ಹಸುವನ್ನು ಕಚ್ಚಿ ರೋಗ ಹರಡುವುದನ್ನು ನಾಲ್ಕು ಹಂತಗಳಲ್ಲಿ ತೋರಿಸುವ ಚಿತ್ರ.", "किलनी बीमार पशु से कीटाणु लेकर स्वस्थ गाय को काटती है और बीमारी फैलाती है, इसे चार चरणों में दिखाने वाला चित्र।"),
+              caption: L("Illustration: how ticks spread disease from a sick animal to a healthy one.", "చిత్రం: పేలు జబ్బుపడిన జంతువు నుండి ఆరోగ్యంగా ఉన్న జంతువుకు వ్యాధిని ఎలా వ్యాపింపజేస్తాయి.", "படம்: உண்ணிகள் நோயுற்ற விலங்கிடமிருந்து ஆரோக்கியமான விலங்குக்கு நோயை எப்படிப் பரப்புகின்றன.", "ಚಿತ್ರ: ಉಣ್ಣಿಗಳು ರೋಗಪೀಡಿತ ಪ್ರಾಣಿಯಿಂದ ಆರೋಗ್ಯವಂತ ಪ್ರಾಣಿಗೆ ರೋಗ ಹರಡುವ ರೀತಿ.", "चित्र: किलनी बीमार पशु से स्वस्थ पशु तक बीमारी कैसे फैलाती है।"),
             },
             {
               type: "photo",
               src: "assets/photo-m6-tick-specimen.jpg",
-              alt: L("Close-up photograph of two cattle ticks, female (left, engorged reddish-brown) and male (right, smaller and darker), on a plain background"),
-              caption: L("A cattle tick (Rhipicephalus microplus) — a bite from a tick like this is how the germs behind Anaplasmosis and Babesiosis get into an animal's blood."),
+              alt: L("Close-up photograph of two cattle ticks, female (left, engorged reddish-brown) and male (right, smaller and darker), on a plain background", "సాదా నేపథ్యంలో రెండు పశువుల పేల క్లోజ్-అప్ ఫోటో: ఆడ పేను (ఎడమ, రక్తం తాగి ఎర్రటి గోధుమ రంగులో ఉబ్బినది) మరియు మగ పేను (కుడి, చిన్నది, ముదురు రంగులో).", "வெற்று பின்னணியில் இரண்டு மாட்டு உண்ணிகளின் நெருக்கமான புகைப்படம்: பெண் உண்ணி (இடது, இரத்தம் குடித்து சிவப்பு-பழுப்பு நிறத்தில் பருத்தது) மற்றும் ஆண் உண்ணி (வலது, சிறியது, அடர்ந்த நிறம்).", "ಸರಳ ಹಿನ್ನೆಲೆಯಲ್ಲಿ ಎರಡು ಜಾನುವಾರು ಉಣ್ಣಿಗಳ ಹತ್ತಿರದ ಫೋಟೋ: ಹೆಣ್ಣು ಉಣ್ಣಿ (ಎಡ, ರಕ್ತ ಕುಡಿದು ಕೆಂಪು-ಕಂದು ಬಣ್ಣದಲ್ಲಿ ಊದಿಕೊಂಡಿದೆ) ಮತ್ತು ಗಂಡು ಉಣ್ಣಿ (ಬಲ, ಚಿಕ್ಕದು, ಗಾಢ ಬಣ್ಣ).", "सादे बैकग्राउंड पर दो मवेशी किलनियों की नज़दीकी तस्वीर: मादा (बाएँ, खून पीकर फूली हुई लाल-भूरी) और नर (दाएँ, छोटा और गहरे रंग का)।"),
+              caption: L("A cattle tick (Rhipicephalus microplus) — a bite from a tick like this is how the germs behind Anaplasmosis and Babesiosis get into an animal's blood.", "ఒక పశువుల పేను (రైపిసెఫలస్ మైక్రోప్లస్) — ఇలాంటి పేను కాటు ద్వారానే అనాప్లాస్మోసిస్, బేబీసియోసిస్ క్రిములు జంతువు రక్తంలోకి చేరతాయి.", "ஒரு மாட்டு உண்ணி (ரைப்பிசெபாலஸ் மைக்ரோப்ளஸ்) — இது போன்ற உண்ணியின் கடி மூலமாகவே அனாபிளாஸ்மோசிஸ் மற்றும் பேபிசியோசிஸ் கிருமிகள் விலங்கின் இரத்தத்தில் நுழைகின்றன.", "ಒಂದು ಜಾನುವಾರು ಉಣ್ಣಿ (ರಿಪಿಸೆಫಲಸ್ ಮೈಕ್ರೋಪ್ಲಸ್) — ಇಂತಹ ಉಣ್ಣಿಯ ಕಡಿತದಿಂದಲೇ ಅನಾಪ್ಲಾಸ್ಮೋಸಿಸ್ ಮತ್ತು ಬೇಬಿಸಿಯೋಸಿಸ್ ರೋಗಾಣುಗಳು ಪ್ರಾಣಿಯ ರಕ್ತಕ್ಕೆ ಸೇರುತ್ತವೆ.", "एक मवेशी किलनी (राइपिसेफेलस माइक्रोप्लस) — ऐसी किलनी के काटने से ही एनाप्लाज़्मोसिस और बेबेसियोसिस के कीटाणु पशु के खून में पहुँचते हैं।"),
             },
           {
             type: "text",
-            heading: L("What Anaplasmosis Is"),
+            heading: L("What Anaplasmosis Is", "అనాప్లాస్మోసిస్ అంటే ఏమిటి", "அனாபிளாஸ்மோசிஸ் என்றால் என்ன", "ಅನಾಪ್ಲಾಸ್ಮೋಸಿಸ್ ಎಂದರೇನು", "एनाप्लाज़्मोसिस क्या है"),
             html: L(
-              "Anaplasmosis is caused by a very small germ called <b>rickettsia</b> — a type of germ even smaller than ordinary bacteria, which lives and multiplies inside the animal's own blood cells. It spreads mainly through tick bites, but it can also spread through blood-contaminated needles or gloves used during artificial insemination (AI) if they are reused on different animals without being properly cleaned."
+              "Anaplasmosis is caused by a very small germ called <b>rickettsia</b> — a type of germ even smaller than ordinary bacteria, which lives and multiplies inside the animal's own blood cells. It spreads mainly through tick bites, but it can also spread through blood-contaminated needles or gloves used during artificial insemination (AI) if they are reused on different animals without being properly cleaned.",
+              "అనాప్లాస్మోసిస్ <b>రికెట్సియా</b> అనే చాలా చిన్న క్రిమి వల్ల వస్తుంది — ఇది మామూలు బ్యాక్టీరియా కంటే కూడా చిన్నది, జంతువు రక్త కణాల లోపలే నివసిస్తూ, పెరుగుతుంది. ఇది ముఖ్యంగా పేల కాటు ద్వారా వ్యాపిస్తుంది, అయితే కృత్రిమ గర్భధారణ (AI) సమయంలో వాడే సూదులు లేదా గ్లోవ్స్‌కు రక్తం అంటి, వాటిని శుభ్రం చేయకుండా వేర్వేరు జంతువులకు మళ్లీ వాడితే వాటి ద్వారా కూడా వ్యాపించవచ్చు.",
+              "அனாபிளாஸ்மோசிஸ் <b>ரிக்கெட்சியா</b> என்ற மிகச் சிறிய கிருமியால் வருகிறது — இது சாதாரண பாக்டீரியாவை விடவும் சிறியது, விலங்கின் இரத்த செல்களுக்குள்ளேயே வாழ்ந்து பெருகுகிறது. இது பெரும்பாலும் உண்ணிக் கடியால் பரவுகிறது; மேலும் செயற்கை கருவூட்டலின் (AI) போது பயன்படுத்தும் ஊசிகள் அல்லது கையுறைகளில் இரத்தம் பட்டு, சரியாக சுத்தம் செய்யாமல் வெவ்வேறு விலங்குகளுக்கு மீண்டும் பயன்படுத்தினால் அவற்றின் மூலமும் பரவலாம்.",
+              "ಅನಾಪ್ಲಾಸ್ಮೋಸಿಸ್ <b>ರಿಕೆಟ್ಸಿಯಾ</b> ಎಂಬ ಬಹಳ ಸಣ್ಣ ರೋಗಾಣುವಿನಿಂದ ಬರುತ್ತದೆ — ಇದು ಸಾಮಾನ್ಯ ಬ್ಯಾಕ್ಟೀರಿಯಾಕ್ಕಿಂತಲೂ ಚಿಕ್ಕದು, ಪ್ರಾಣಿಯ ರಕ್ತಕಣಗಳ ಒಳಗೇ ವಾಸಿಸಿ ಹೆಚ್ಚುತ್ತದೆ. ಇದು ಮುಖ್ಯವಾಗಿ ಉಣ್ಣಿ ಕಡಿತದಿಂದ ಹರಡುತ್ತದೆ; ಜೊತೆಗೆ ಕೃತಕ ಗರ್ಭಧಾರಣೆ (AI) ವೇಳೆ ಬಳಸುವ ಸೂಜಿ ಅಥವಾ ಕೈಗವಸುಗಳಿಗೆ ರಕ್ತ ಅಂಟಿ, ಸರಿಯಾಗಿ ಶುಚಿ ಮಾಡದೆ ಬೇರೆ ಬೇರೆ ಪ್ರಾಣಿಗಳಿಗೆ ಮತ್ತೆ ಬಳಸಿದರೆ ಅವುಗಳಿಂದಲೂ ಹರಡಬಹುದು.",
+              "एनाप्लाज़्मोसिस <b>रिकेट्सिया</b> नाम के बहुत छोटे कीटाणु से होता है — यह आम बैक्टीरिया से भी छोटा होता है और पशु की खून की कोशिकाओं के अंदर ही रहकर बढ़ता है। यह मुख्य रूप से किलनी के काटने से फैलता है, लेकिन कृत्रिम गर्भाधान (AI) में इस्तेमाल होने वाली सुइयों या दस्तानों पर खून लगा हो और उन्हें बिना ठीक से साफ़ किए अलग-अलग पशुओं पर दोबारा इस्तेमाल किया जाए, तो उनसे भी फैल सकता है।"
             ),
           },
           {
             type: "glossary",
-            term: L("Rickettsia"),
+            term: L("Rickettsia", "రికెట్సియా", "ரிக்கெட்சியா", "ರಿಕೆಟ್ಸಿಯಾ", "रिकेट्सिया"),
             meaning: L(
-              "A very small type of germ, smaller than ordinary bacteria, that lives and multiplies inside an animal's blood cells. It is what causes Anaplasmosis."
+              "A very small type of germ, smaller than ordinary bacteria, that lives and multiplies inside an animal's blood cells. It is what causes Anaplasmosis.",
+              "మామూలు బ్యాక్టీరియా కంటే చిన్నదైన చాలా సూక్ష్మ క్రిమి, ఇది జంతువు రక్త కణాల లోపల నివసిస్తూ పెరుగుతుంది. అనాప్లాస్మోసిస్‌కు ఇదే కారణం.",
+              "சாதாரண பாக்டீரியாவை விடச் சிறிய மிக நுண்ணிய கிருமி; இது விலங்கின் இரத்த செல்களுக்குள் வாழ்ந்து பெருகுகிறது. அனாபிளாஸ்மோசிஸுக்கு இதுவே காரணம்.",
+              "ಸಾಮಾನ್ಯ ಬ್ಯಾಕ್ಟೀರಿಯಾಕ್ಕಿಂತ ಚಿಕ್ಕದಾದ ಬಹಳ ಸೂಕ್ಷ್ಮ ರೋಗಾಣು; ಇದು ಪ್ರಾಣಿಯ ರಕ್ತಕಣಗಳ ಒಳಗೆ ವಾಸಿಸಿ ಹೆಚ್ಚುತ್ತದೆ. ಅನಾಪ್ಲಾಸ್ಮೋಸಿಸ್‌ಗೆ ಇದೇ ಕಾರಣ.",
+              "आम बैक्टीरिया से भी छोटा बहुत सूक्ष्म कीटाणु, जो पशु के खून की कोशिकाओं के अंदर रहकर बढ़ता है। एनाप्लाज़्मोसिस इसी से होता है।"
             ),
           },
           {
             type: "glossary",
-            term: L("Carrier Animal"),
+            term: L("Carrier Animal", "వాహక జంతువు (క్యారియర్)", "நோய்க் கடத்தி விலங்கு (கேரியர்)", "ರೋಗ ವಾಹಕ ಪ್ರಾಣಿ (ಕ್ಯಾರಿಯರ್)", "वाहक पशु (कैरियर)"),
             meaning: L(
-              "An animal that has been infected in the past and still quietly carries the germ inside it, even without looking sick. In areas where a disease is common, carrier animals act as a hidden source that can pass the infection on to others through ticks. Even an animal that recovered can sometimes fall sick again later in life."
+              "An animal that has been infected in the past and still quietly carries the germ inside it, even without looking sick. In areas where a disease is common, carrier animals act as a hidden source that can pass the infection on to others through ticks. Even an animal that recovered can sometimes fall sick again later in life.",
+              "గతంలో ఇన్ఫెక్షన్ వచ్చి, పైకి అనారోగ్యంగా కనిపించకపోయినా క్రిమిని లోపల నిశ్శబ్దంగా మోసుకుంటూ ఉండే జంతువు. వ్యాధి ఎక్కువగా ఉండే ప్రాంతాల్లో, ఇలాంటి వాహక జంతువులు పేల ద్వారా ఇతర జంతువులకు ఇన్ఫెక్షన్ అంటించే దాగిన మూలంగా పనిచేస్తాయి. కోలుకున్న జంతువు కూడా కొన్నిసార్లు జీవితంలో తర్వాత మళ్లీ జబ్బుపడవచ్చు.",
+              "முன்பு தொற்று ஏற்பட்டு, வெளியே நோயாகத் தெரியாவிட்டாலும் கிருமியை உள்ளே அமைதியாக சுமந்து கொண்டிருக்கும் விலங்கு. நோய் அதிகமாக உள்ள பகுதிகளில், இத்தகைய கடத்தி விலங்குகள் உண்ணிகள் மூலம் மற்றவைக்குத் தொற்றைப் பரப்பும் மறைமுக மூலமாக இருக்கின்றன. குணமான விலங்கு கூட சில நேரம் பிற்காலத்தில் மீண்டும் நோய்வாய்ப்படலாம்.",
+              "ಈ ಹಿಂದೆ ಸೋಂಕು ತಗುಲಿ, ಹೊರಗೆ ಅನಾರೋಗ್ಯದಂತೆ ಕಾಣದಿದ್ದರೂ ರೋಗಾಣುವನ್ನು ಒಳಗೆ ಮೌನವಾಗಿ ಹೊತ್ತಿರುವ ಪ್ರಾಣಿ. ರೋಗ ಹೆಚ್ಚಾಗಿರುವ ಪ್ರದೇಶಗಳಲ್ಲಿ, ಇಂತಹ ವಾಹಕ ಪ್ರಾಣಿಗಳು ಉಣ್ಣಿಗಳ ಮೂಲಕ ಇತರರಿಗೆ ಸೋಂಕು ಹರಡುವ ಗುಪ್ತ ಮೂಲವಾಗಿರುತ್ತವೆ. ಗುಣವಾದ ಪ್ರಾಣಿಯೂ ಕೆಲವೊಮ್ಮೆ ಮುಂದೆ ಜೀವನದಲ್ಲಿ ಮತ್ತೆ ಅನಾರೋಗ್ಯಕ್ಕೆ ಒಳಗಾಗಬಹುದು.",
+              "जिस पशु को पहले संक्रमण हो चुका हो और जो बीमार न दिखने पर भी कीटाणु को चुपचाप अपने अंदर रखता हो। जिन इलाकों में बीमारी आम होती है, वहाँ ऐसे वाहक पशु छिपे हुए स्रोत की तरह काम करते हैं और किलनी के ज़रिए दूसरों तक संक्रमण पहुँचा सकते हैं। ठीक हो चुका पशु भी कभी-कभी आगे चलकर दोबारा बीमार पड़ सकता है।"
             ),
           },
           {
             type: "text",
-            heading: L("Who Is More at Risk"),
+            heading: L("Who Is More at Risk", "ఎవరికి ఎక్కువ ప్రమాదం", "யாருக்கு அதிக ஆபத்து", "ಯಾರಿಗೆ ಹೆಚ್ಚು ಅಪಾಯ", "किसे ज़्यादा ख़तरा है"),
             html: L(
-              "Calves are naturally more resistant to Anaplasmosis than older cattle — meaning grown animals are more likely to get seriously sick from it than young calves. An animal that was infected as a calf can become a quiet carrier and may relapse (fall sick again) once it is an adult."
+              "Calves are naturally more resistant to Anaplasmosis than older cattle — meaning grown animals are more likely to get seriously sick from it than young calves. An animal that was infected as a calf can become a quiet carrier and may relapse (fall sick again) once it is an adult.",
+              "అనాప్లాస్మోసిస్‌ను ఎదిరించే శక్తి దూడలకు సహజంగానే ఎక్కువ — అంటే పెద్ద పశువులు చిన్న దూడల కంటే తీవ్రంగా జబ్బుపడే అవకాశం ఎక్కువ. దూడగా ఉన్నప్పుడు ఇన్ఫెక్షన్ వచ్చిన జంతువు నిశ్శబ్ద వాహకంగా మారి, పెద్దయ్యాక మళ్లీ జబ్బుపడవచ్చు (రిలాప్స్).",
+              "அனாபிளாஸ்மோசிஸை எதிர்க்கும் சக்தி கன்றுகளுக்கு இயல்பாகவே அதிகம் — அதாவது வளர்ந்த மாடுகள் சிறு கன்றுகளை விட கடுமையாக நோய்வாய்ப்பட வாய்ப்பு அதிகம். கன்றாக இருக்கும்போது தொற்று ஏற்பட்ட விலங்கு அமைதியான கடத்தியாக மாறி, வளர்ந்த பிறகு மீண்டும் நோய்வாய்ப்படலாம் (மறுபடி வருதல்).",
+              "ಅನಾಪ್ಲಾಸ್ಮೋಸಿಸ್ ವಿರುದ್ಧ ಹೋರಾಡುವ ಶಕ್ತಿ ಕರುಗಳಿಗೆ ಸಹಜವಾಗಿಯೇ ಹೆಚ್ಚು — ಅಂದರೆ ದೊಡ್ಡ ದನಗಳು ಸಣ್ಣ ಕರುಗಳಿಗಿಂತ ತೀವ್ರವಾಗಿ ಅನಾರೋಗ್ಯಕ್ಕೆ ಒಳಗಾಗುವ ಸಾಧ್ಯತೆ ಹೆಚ್ಚು. ಕರುವಾಗಿದ್ದಾಗ ಸೋಂಕು ತಗುಲಿದ ಪ್ರಾಣಿ ಮೌನ ವಾಹಕವಾಗಿ, ದೊಡ್ಡದಾದ ಮೇಲೆ ಮತ್ತೆ ಅನಾರೋಗ್ಯಕ್ಕೆ ಒಳಗಾಗಬಹುದು (ಮರುಕಳಿಸುವುದು).",
+              "एनाप्लाज़्मोसिस से लड़ने की ताकत बछड़ों में स्वाभाविक रूप से ज़्यादा होती है — यानी बड़े मवेशी छोटे बछड़ों की तुलना में ज़्यादा गंभीर रूप से बीमार पड़ते हैं। बछड़ेपन में संक्रमित हुआ पशु चुपचाप वाहक बन सकता है और बड़ा होने पर दोबारा बीमार (रिलैप्स) हो सकता है।"
             ),
           },
           {
             type: "stat-grid",
             items: [
               {
-                label: L("Early signs"),
-                text: L("Fever, a fall in milk production, progressively worsening anaemia (thin, watery blood), yellowing of the body (jaundice), and abortion in pregnant animals."),
+                label: L("Early signs", "మొదటి లక్షణాలు", "ஆரம்ப அறிகுறிகள்", "ಆರಂಭಿಕ ಲಕ್ಷಣಗಳು", "शुरुआती लक्षण"),
+                text: L("Fever, a fall in milk production, progressively worsening anaemia (thin, watery blood), yellowing of the body (jaundice), and abortion in pregnant animals.", "జ్వరం, పాల ఉత్పత్తి తగ్గడం, క్రమంగా పెరిగే రక్తహీనత (రక్తం పలుచగా, నీళ్లలా మారడం), శరీరం పసుపు రంగులోకి మారడం (కామెర్లు), చూలు జంతువుల్లో గర్భస్రావం.", "காய்ச்சல், பால் உற்பத்தி குறைவு, படிப்படியாக அதிகரிக்கும் இரத்தசோகை (இரத்தம் நீர்த்துப் போதல்), உடல் மஞ்சளாதல் (மஞ்சள் காமாலை), சினை விலங்குகளில் கருச்சிதைவு.", "ಜ್ವರ, ಹಾಲಿನ ಉತ್ಪಾದನೆ ಕಡಿಮೆಯಾಗುವುದು, ಕ್ರಮೇಣ ಹೆಚ್ಚುವ ರಕ್ತಹೀನತೆ (ರಕ್ತ ತೆಳುವಾಗಿ ನೀರಿನಂತಾಗುವುದು), ದೇಹ ಹಳದಿಯಾಗುವುದು (ಕಾಮಾಲೆ), ಗಬ್ಬದ ಪ್ರಾಣಿಗಳಲ್ಲಿ ಗರ್ಭಪಾತ.", "बुखार, दूध उत्पादन में गिरावट, धीरे-धीरे बढ़ती खून की कमी (खून पतला और पानी जैसा हो जाना), शरीर का पीला पड़ना (पीलिया), और गाभिन पशुओं में गर्भपात।"),
               },
               {
-                label: L("Later signs (more serious)"),
+                label: L("Later signs (more serious)", "తర్వాతి లక్షణాలు (మరింత తీవ్రం)", "பிந்தைய அறிகுறிகள் (மிகத் தீவிரம்)", "ನಂತರದ ಲಕ್ಷಣಗಳು (ಹೆಚ್ಚು ಗಂಭೀರ)", "बाद के लक्षण (ज़्यादा गंभीर)"),
                 text: L(
-                  "Going off feed (inappetence), unsteady or uncoordinated movement, breathlessness after any exertion, and a fast, pounding pulse. In later stages, the animal may die."
+                  "Going off feed (inappetence), unsteady or uncoordinated movement, breathlessness after any exertion, and a fast, pounding pulse. In later stages, the animal may die.",
+                  "మేత తినడం మానేయడం (ఆకలి లేకపోవడం), తడబడుతూ లేదా సమన్వయం లేకుండా నడవడం, కొంచెం శ్రమకే ఆయాసం రావడం, వేగంగా, బలంగా కొట్టుకునే నాడి. చివరి దశల్లో జంతువు చనిపోవచ్చు.",
+                  "தீவனம் சாப்பிடாமல் இருத்தல் (பசியின்மை), தள்ளாடி அல்லது ஒருங்கிணைப்பின்றி நடத்தல், சிறிது உழைப்புக்கே மூச்சுத் திணறல், வேகமான, படபடக்கும் நாடித்துடிப்பு. பிந்தைய நிலைகளில் விலங்கு இறக்கவும் கூடும்.",
+                  "ಮೇವು ತಿನ್ನದಿರುವುದು (ಹಸಿವಿಲ್ಲದಿರುವುದು), ತೊಳಲಾಡುತ್ತಾ ಅಥವಾ ಸಮನ್ವಯವಿಲ್ಲದೆ ನಡೆಯುವುದು, ಸ್ವಲ್ಪ ಶ್ರಮಕ್ಕೇ ಉಸಿರಾಟದ ತೊಂದರೆ, ವೇಗವಾದ, ಬಡಿದುಕೊಳ್ಳುವ ನಾಡಿ. ನಂತರದ ಹಂತಗಳಲ್ಲಿ ಪ್ರಾಣಿ ಸಾಯಬಹುದು.",
+                  "चारा खाना छोड़ देना (भूख न लगना), लड़खड़ाकर या बेतरतीब चलना, ज़रा-सी मेहनत पर हाँफना, और तेज़, धड़कती नब्ज़। बाद की अवस्था में पशु की मौत भी हो सकती है।"
                 ),
               },
             ],
@@ -5568,109 +5592,137 @@ export const MODULES = [
           {
             type: "callout",
             style: "tip",
-            heading: L("Curable — If You Report It Early"),
+            heading: L("Curable — If You Report It Early", "త్వరగా చెబితే నయం చేయవచ్చు", "ஆரம்பத்திலேயே தெரிவித்தால் குணப்படுத்தலாம்", "ಬೇಗ ತಿಳಿಸಿದರೆ ಗುಣಪಡಿಸಬಹುದು", "जल्दी बताएँ तो इलाज संभव है"),
             text: L(
-              "Anaplasmosis is curable if treated promptly in its early stages. This is exactly why your job matters: the sooner fever, falling milk, weakness or yellowing skin is reported, the sooner treatment can start, and the better the animal's chances."
+              "Anaplasmosis is curable if treated promptly in its early stages. This is exactly why your job matters: the sooner fever, falling milk, weakness or yellowing skin is reported, the sooner treatment can start, and the better the animal's chances.",
+              "ప్రారంభ దశలోనే వెంటనే చికిత్స చేస్తే అనాప్లాస్మోసిస్ నయమవుతుంది. అందుకే మీ పని చాలా ముఖ్యం: జ్వరం, పాలు తగ్గడం, నీరసం లేదా చర్మం పసుపు రంగులోకి మారడం ఎంత త్వరగా చెబితే, చికిత్స అంత త్వరగా మొదలవుతుంది, జంతువు బతికే అవకాశం అంత పెరుగుతుంది.",
+              "ஆரம்ப நிலையிலேயே உடனடியாக சிகிச்சை அளித்தால் அனாபிளாஸ்மோசிஸ் குணமாகும். அதனால்தான் உங்கள் பணி முக்கியம்: காய்ச்சல், பால் குறைவு, பலவீனம் அல்லது தோல் மஞ்சளாதல் ஆகியவற்றை எவ்வளவு சீக்கிரம் தெரிவிக்கிறீர்களோ, அவ்வளவு சீக்கிரம் சிகிச்சை தொடங்கும், விலங்கு பிழைக்கும் வாய்ப்பும் அதிகரிக்கும்.",
+              "ಆರಂಭದ ಹಂತದಲ್ಲೇ ತಕ್ಷಣ ಚಿಕಿತ್ಸೆ ನೀಡಿದರೆ ಅನಾಪ್ಲಾಸ್ಮೋಸಿಸ್ ಗುಣವಾಗುತ್ತದೆ. ಅದಕ್ಕಾಗಿಯೇ ನಿಮ್ಮ ಕೆಲಸ ಮುಖ್ಯ: ಜ್ವರ, ಹಾಲು ಕಡಿಮೆಯಾಗುವುದು, ದೌರ್ಬಲ್ಯ ಅಥವಾ ಚರ್ಮ ಹಳದಿಯಾಗುವುದನ್ನು ಎಷ್ಟು ಬೇಗ ತಿಳಿಸುತ್ತೀರೋ, ಅಷ್ಟು ಬೇಗ ಚಿಕಿತ್ಸೆ ಆರಂಭವಾಗುತ್ತದೆ ಮತ್ತು ಪ್ರಾಣಿ ಬದುಕುಳಿಯುವ ಸಾಧ್ಯತೆ ಹೆಚ್ಚುತ್ತದೆ.",
+              "शुरुआती अवस्था में तुरंत इलाज मिल जाए तो एनाप्लाज़्मोसिस ठीक हो सकता है। इसीलिए आपका काम अहम है: बुखार, दूध घटना, कमज़ोरी या त्वचा पीली पड़ना जितनी जल्दी बताया जाएगा, इलाज उतनी जल्दी शुरू होगा और पशु के बचने की संभावना उतनी बढ़ेगी।"
             ),
           },
         ],
         check: [
           {
             type: "mcq",
-            q: L("What is rickettsia, the germ that causes Anaplasmosis?"),
+            q: L("What is rickettsia, the germ that causes Anaplasmosis?", "అనాప్లాస్మోసిస్‌కు కారణమైన రికెట్సియా అంటే ఏమిటి?", "அனாபிளாஸ்மோசிஸை உண்டாக்கும் ரிக்கெட்சியா என்றால் என்ன?", "ಅನಾಪ್ಲಾಸ್ಮೋಸಿಸ್‌ಗೆ ಕಾರಣವಾದ ರಿಕೆಟ್ಸಿಯಾ ಎಂದರೇನು?", "एनाप्लाज़्मोसिस का कारण रिकेट्सिया क्या है?"),
             options: [
-              L("A type of worm found in the gut"),
-              L("A very small germ, smaller than ordinary bacteria, that lives inside blood cells"),
-              L("A chemical used to spray sheds"),
-              L("A kind of tick"),
+              L("A type of worm found in the gut", "పేగుల్లో ఉండే ఒక రకం పురుగు", "குடலில் இருக்கும் ஒரு வகைப் புழு", "ಕರುಳಿನಲ್ಲಿರುವ ಒಂದು ಬಗೆಯ ಹುಳು", "आँतों में पाया जाने वाला एक तरह का कृमि"),
+              L("A very small germ, smaller than ordinary bacteria, that lives inside blood cells", "మామూలు బ్యాక్టీరియా కంటే చిన్నదైన, రక్త కణాల లోపల నివసించే చాలా సూక్ష్మ క్రిమి", "சாதாரண பாக்டீரியாவை விடச் சிறிய, இரத்த செல்களுக்குள் வாழும் மிக நுண்ணிய கிருமி", "ಸಾಮಾನ್ಯ ಬ್ಯಾಕ್ಟೀರಿಯಾಕ್ಕಿಂತ ಚಿಕ್ಕದಾದ, ರಕ್ತಕಣಗಳ ಒಳಗೆ ವಾಸಿಸುವ ಬಹಳ ಸೂಕ್ಷ್ಮ ರೋಗಾಣು", "आम बैक्टीरिया से भी छोटा बहुत सूक्ष्म कीटाणु, जो खून की कोशिकाओं के अंदर रहता है"),
+              L("A chemical used to spray sheds", "కొట్టాలపై పిచికారీ చేసే రసాయనం", "தொழுவங்களில் தெளிக்கப்படும் ஒரு ரசாயனம்", "ಕೊಟ್ಟಿಗೆಗಳಿಗೆ ಸಿಂಪಡಿಸುವ ರಾಸಾಯನಿಕ", "शेड पर छिड़कने वाला एक रसायन"),
+              L("A kind of tick", "ఒక రకం పేను", "ஒரு வகை உண்ணி", "ಒಂದು ಬಗೆಯ ಉಣ್ಣಿ", "एक तरह की किलनी"),
             ],
             answer: 1,
-            explain: L("Rickettsia is a very small type of germ that lives and multiplies inside the animal's own blood cells."),
+            explain: L("Rickettsia is a very small type of germ that lives and multiplies inside the animal's own blood cells.", "రికెట్సియా అనేది జంతువు రక్త కణాల లోపలే నివసిస్తూ, పెరిగే చాలా సూక్ష్మమైన క్రిమి.", "ரிக்கெட்சியா என்பது விலங்கின் இரத்த செல்களுக்குள்ளேயே வாழ்ந்து பெருகும் மிக நுண்ணிய கிருமி.", "ರಿಕೆಟ್ಸಿಯಾ ಪ್ರಾಣಿಯ ರಕ್ತಕಣಗಳ ಒಳಗೇ ವಾಸಿಸಿ ಹೆಚ್ಚುವ ಬಹಳ ಸೂಕ್ಷ್ಮ ರೋಗಾಣು.", "रिकेट्सिया एक बहुत सूक्ष्म कीटाणु है जो पशु की खून की कोशिकाओं के अंदर ही रहकर बढ़ता है।"),
           },
           {
             type: "truefalse",
-            q: L("Anaplasmosis can only spread through tick bites, never any other way."),
+            q: L("Anaplasmosis can only spread through tick bites, never any other way.", "అనాప్లాస్మోసిస్ పేల కాటు ద్వారా మాత్రమే వ్యాపిస్తుంది, మరే విధంగానూ వ్యాపించదు.", "அனாபிளாஸ்மோசிஸ் உண்ணிக் கடியால் மட்டுமே பரவும், வேறு எந்த வழியிலும் பரவாது.", "ಅನಾಪ್ಲಾಸ್ಮೋಸಿಸ್ ಉಣ್ಣಿ ಕಡಿತದಿಂದ ಮಾತ್ರ ಹರಡುತ್ತದೆ, ಬೇರೆ ಯಾವ ರೀತಿಯಲ್ಲೂ ಹರಡುವುದಿಲ್ಲ.", "एनाप्लाज़्मोसिस सिर्फ़ किलनी के काटने से फैलता है, किसी और तरीके से कभी नहीं।"),
             answer: false,
             explain: L(
-              "It mainly spreads through ticks, but it can also spread through blood-contaminated needles or AI gloves reused between animals without cleaning."
+              "It mainly spreads through ticks, but it can also spread through blood-contaminated needles or AI gloves reused between animals without cleaning.",
+              "ఇది ముఖ్యంగా పేల ద్వారా వ్యాపిస్తుంది, అయితే రక్తం అంటిన సూదులు లేదా AI గ్లోవ్స్‌ను శుభ్రం చేయకుండా జంతువుల మధ్య మళ్లీ వాడితే వాటి ద్వారా కూడా వ్యాపించవచ్చు.",
+              "இது முக்கியமாக உண்ணிகள் மூலம் பரவுகிறது; ஆனால் இரத்தம் பட்ட ஊசிகள் அல்லது AI கையுறைகளை சுத்தம் செய்யாமல் விலங்குகளுக்கிடையே மீண்டும் பயன்படுத்தினால் அவற்றின் மூலமும் பரவலாம்.",
+              "ಇದು ಮುಖ್ಯವಾಗಿ ಉಣ್ಣಿಗಳ ಮೂಲಕ ಹರಡುತ್ತದೆ; ಆದರೆ ರಕ್ತ ಅಂಟಿದ ಸೂಜಿ ಅಥವಾ AI ಕೈಗವಸುಗಳನ್ನು ಶುಚಿ ಮಾಡದೆ ಪ್ರಾಣಿಗಳ ನಡುವೆ ಮತ್ತೆ ಬಳಸಿದರೆ ಅವುಗಳ ಮೂಲಕವೂ ಹರಡಬಹುದು.",
+              "यह मुख्य रूप से किलनी से फैलता है, लेकिन खून लगी सुइयों या AI के दस्तानों को बिना साफ़ किए पशुओं के बीच दोबारा इस्तेमाल करने से भी फैल सकता है।"
             ),
           },
         ],
       },
       {
         id: "t-m6-babesiosis",
-        title: L("Babesiosis: Signs and Watching the Urine"),
+        title: L("Babesiosis: Signs and Watching the Urine", "బేబీసియోసిస్: లక్షణాలు మరియు మూత్రాన్ని గమనించడం", "பேபிசியோசிஸ்: அறிகுறிகள் மற்றும் சிறுநீரை கவனித்தல்", "ಬೇಬಿಸಿಯೋಸಿಸ್: ಲಕ್ಷಣಗಳು ಮತ್ತು ಮೂತ್ರವನ್ನು ಗಮನಿಸುವುದು", "बेबेसियोसिस: लक्षण और पेशाब पर नज़र रखना"),
         teach: [
           {
             type: "text",
-            heading: L("What Babesiosis Is"),
+            heading: L("What Babesiosis Is", "బేబీసియోసిస్ అంటే ఏమిటి", "பேபிசியோசிஸ் என்றால் என்ன", "ಬೇಬಿಸಿಯೋಸಿಸ್ ಎಂದರೇನು", "बेबेसियोसिस क्या है"),
             html: L(
-              "Babesiosis is caused by a different kind of tiny microbe called a <b>protozoa</b> — a single-celled living thing, different from the rickettsia germ behind Anaplasmosis. Like Anaplasmosis, it spreads through tick bites and attacks the blood."
+              "Babesiosis is caused by a different kind of tiny microbe called a <b>protozoa</b> — a single-celled living thing, different from the rickettsia germ behind Anaplasmosis. Like Anaplasmosis, it spreads through tick bites and attacks the blood.",
+              "బేబీసియోసిస్ <b>ప్రోటోజోవా</b> అనే వేరే రకం సూక్ష్మజీవి వల్ల వస్తుంది — ఇది ఒకే కణం ఉన్న జీవి, అనాప్లాస్మోసిస్‌కు కారణమైన రికెట్సియా క్రిమి కంటే భిన్నమైనది. అనాప్లాస్మోసిస్ లాగే ఇది కూడా పేల కాటు ద్వారా వ్యాపించి రక్తంపై దాడి చేస్తుంది.",
+              "பேபிசியோசிஸ் <b>புரோட்டோசோவா</b> என்ற வேறு வகை நுண்ணுயிரியால் வருகிறது — இது ஒரே செல் கொண்ட உயிரி, அனாபிளாஸ்மோசிஸுக்குக் காரணமான ரிக்கெட்சியா கிருமியிலிருந்து வேறுபட்டது. அனாபிளாஸ்மோசிஸ் போலவே இதுவும் உண்ணிக் கடியால் பரவி இரத்தத்தைத் தாக்குகிறது.",
+              "ಬೇಬಿಸಿಯೋಸಿಸ್ <b>ಪ್ರೋಟೋಜೋವಾ</b> ಎಂಬ ಬೇರೆ ಬಗೆಯ ಸೂಕ್ಷ್ಮಜೀವಿಯಿಂದ ಬರುತ್ತದೆ — ಇದು ಒಂದೇ ಕೋಶದ ಜೀವಿ, ಅನಾಪ್ಲಾಸ್ಮೋಸಿಸ್‌ಗೆ ಕಾರಣವಾದ ರಿಕೆಟ್ಸಿಯಾ ರೋಗಾಣುವಿಗಿಂತ ಬೇರೆ. ಅನಾಪ್ಲಾಸ್ಮೋಸಿಸ್‌ನಂತೆಯೇ ಇದೂ ಉಣ್ಣಿ ಕಡಿತದಿಂದ ಹರಡಿ ರಕ್ತದ ಮೇಲೆ ದಾಳಿ ಮಾಡುತ್ತದೆ.",
+              "बेबेसियोसिस <b>प्रोटोज़ोआ</b> नाम के एक अलग तरह के सूक्ष्म जीव से होता है — यह एक कोशिका वाला जीव है, जो एनाप्लाज़्मोसिस वाले रिकेट्सिया कीटाणु से अलग है। एनाप्लाज़्मोसिस की तरह यह भी किलनी के काटने से फैलता है और खून पर हमला करता है।"
             ),
           },
           {
             type: "glossary",
-            term: L("Protozoa"),
-            meaning: L("A type of very small, single-celled microbe — different from bacteria — that can live inside an animal's body and cause disease."),
+            term: L("Protozoa", "ప్రోటోజోవా", "புரோட்டோசோவா", "ಪ್ರೋಟೋಜೋವಾ", "प्रोटोज़ोआ"),
+            meaning: L("A type of very small, single-celled microbe — different from bacteria — that can live inside an animal's body and cause disease.", "బ్యాక్టీరియా కంటే భిన్నమైన, ఒకే కణం ఉన్న చాలా చిన్న సూక్ష్మజీవి; ఇది జంతువు శరీరంలో నివసించి వ్యాధిని కలిగించగలదు.", "பாக்டீரியாவிலிருந்து வேறுபட்ட, ஒரே செல் கொண்ட மிகச் சிறிய நுண்ணுயிரி; இது விலங்கின் உடலுக்குள் வாழ்ந்து நோயை உண்டாக்கும்.", "ಬ್ಯಾಕ್ಟೀರಿಯಾಕ್ಕಿಂತ ಬೇರೆಯಾದ, ಒಂದೇ ಕೋಶದ ಬಹಳ ಸಣ್ಣ ಸೂಕ್ಷ್ಮಜೀವಿ; ಇದು ಪ್ರಾಣಿಯ ದೇಹದೊಳಗೆ ವಾಸಿಸಿ ರೋಗ ಉಂಟುಮಾಡಬಲ್ಲದು.", "बैक्टीरिया से अलग, एक कोशिका वाला बहुत छोटा सूक्ष्म जीव, जो पशु के शरीर के अंदर रहकर बीमारी पैदा कर सकता है।"),
           },
           {
             type: "stat-grid",
             items: [
               {
-                label: L("Common signs"),
+                label: L("Common signs", "సాధారణ లక్షణాలు", "பொதுவான அறிகுறிகள்", "ಸಾಮಾನ್ಯ ಲಕ್ಷಣಗಳು", "आम लक्षण"),
                 text: L(
-                  "Fever, going off feed, faster breathing, a sharp drop in milk production, muscle tremors (shaking), anaemia, jaundice (yellowing), abortion, and either constipation or diarrhoea."
+                  "Fever, going off feed, faster breathing, a sharp drop in milk production, muscle tremors (shaking), anaemia, jaundice (yellowing), abortion, and either constipation or diarrhoea.",
+                  "జ్వరం, మేత మానేయడం, వేగంగా ఊపిరి తీసుకోవడం, పాల ఉత్పత్తి బాగా తగ్గడం, కండరాల వణుకు (వణకడం), రక్తహీనత, కామెర్లు (పసుపు రంగు), గర్భస్రావం, మలబద్ధకం లేదా విరేచనాలు.",
+                  "காய்ச்சல், தீவனம் சாப்பிடாமை, வேகமான மூச்சு, பால் உற்பத்தி கடுமையாக குறைதல், தசை நடுக்கம் (நடுங்குதல்), இரத்தசோகை, மஞ்சள் காமாலை (மஞ்சளாதல்), கருச்சிதைவு, மலச்சிக்கல் அல்லது வயிற்றுப்போக்கு.",
+                  "ಜ್ವರ, ಮೇವು ತಿನ್ನದಿರುವುದು, ವೇಗದ ಉಸಿರಾಟ, ಹಾಲಿನ ಉತ್ಪಾದನೆ ತೀವ್ರವಾಗಿ ಕುಸಿಯುವುದು, ಸ್ನಾಯು ನಡುಕ (ಕಂಪನ), ರಕ್ತಹೀನತೆ, ಕಾಮಾಲೆ (ಹಳದಿಯಾಗುವುದು), ಗರ್ಭಪಾತ, ಮತ್ತು ಮಲಬದ್ಧತೆ ಅಥವಾ ಬೇಧಿ.",
+                  "बुखार, चारा छोड़ देना, तेज़ साँस, दूध में अचानक भारी गिरावट, मांसपेशियों में कंपकंपी, खून की कमी, पीलिया (पीलापन), गर्भपात, और कब्ज़ या दस्त।"
                 ),
               },
               {
-                label: L("Later, more serious signs"),
-                text: L("Weight loss along with dark red or brown urine (blood showing up in the urine), and sometimes nervous symptoms."),
+                label: L("Later, more serious signs", "తర్వాతి, మరింత తీవ్రమైన లక్షణాలు", "பிந்தைய, மிகத் தீவிரமான அறிகுறிகள்", "ನಂತರದ, ಹೆಚ್ಚು ಗಂಭೀರ ಲಕ್ಷಣಗಳು", "बाद के, ज़्यादा गंभीर लक्षण"),
+                text: L("Weight loss along with dark red or brown urine (blood showing up in the urine), and sometimes nervous symptoms.", "బరువు తగ్గడంతో పాటు ముదురు ఎరుపు లేదా గోధుమ రంగు మూత్రం (మూత్రంలో రక్తం కనిపించడం), కొన్నిసార్లు నాడీ సంబంధిత లక్షణాలు.", "எடை குறைவுடன் அடர் சிவப்பு அல்லது பழுப்பு நிற சிறுநீர் (சிறுநீரில் இரத்தம் தெரிதல்), சில நேரம் நரம்பு தொடர்பான அறிகுறிகள்.", "ತೂಕ ಇಳಿಕೆಯ ಜೊತೆಗೆ ಗಾಢ ಕೆಂಪು ಅಥವಾ ಕಂದು ಬಣ್ಣದ ಮೂತ್ರ (ಮೂತ್ರದಲ್ಲಿ ರಕ್ತ ಕಾಣಿಸುವುದು), ಕೆಲವೊಮ್ಮೆ ನರ ಸಂಬಂಧಿ ಲಕ್ಷಣಗಳು.", "वज़न घटने के साथ गहरे लाल या भूरे रंग का पेशाब (पेशाब में खून दिखना), और कभी-कभी नस-तंत्र (दिमाग़ी) के लक्षण।"),
               },
             ],
           },
           {
             type: "callout",
             style: "warning",
-            heading: L("Watch the Colour of the Urine After Treatment"),
+            heading: L("Watch the Colour of the Urine After Treatment", "చికిత్స తర్వాత మూత్రం రంగును గమనించండి", "சிகிச்சைக்குப் பிறகு சிறுநீரின் நிறத்தை கவனியுங்கள்", "ಚಿಕಿತ್ಸೆಯ ನಂತರ ಮೂತ್ರದ ಬಣ್ಣವನ್ನು ಗಮನಿಸಿ", "इलाज के बाद पेशाब का रंग देखते रहें"),
             text: L(
-              "After treatment starts, the urine should gradually return to its normal colour within about 24 hours. If it does not, that is worth reporting — it usually means treatment needs to be repeated. This is something you can watch for and tell the vet or owner about, even though deciding on the treatment itself is always their job."
+              "After treatment starts, the urine should gradually return to its normal colour within about 24 hours. If it does not, that is worth reporting — it usually means treatment needs to be repeated. This is something you can watch for and tell the vet or owner about, even though deciding on the treatment itself is always their job.",
+              "చికిత్స మొదలైన తర్వాత, మూత్రం సుమారు 24 గంటల్లో క్రమంగా మామూలు రంగుకు రావాలి. రాకపోతే, అది తెలియజేయాల్సిన విషయం — సాధారణంగా చికిత్సను మళ్లీ చేయాల్సి ఉంటుందని అర్థం. ఇది మీరు గమనించి పశువైద్యుడికి లేదా యజమానికి చెప్పగలిగే విషయం; అయితే ఏ చికిత్స ఇవ్వాలనేది ఎప్పుడూ వారి బాధ్యతే.",
+              "சிகிச்சை தொடங்கிய பிறகு, சிறுநீர் சுமார் 24 மணி நேரத்திற்குள் படிப்படியாக சாதாரண நிறத்துக்குத் திரும்ப வேண்டும். திரும்பாவிட்டால், அதை தெரிவிக்க வேண்டும் — பொதுவாக சிகிச்சையை மீண்டும் செய்ய வேண்டும் என்று அர்த்தம். இதை நீங்கள் கவனித்து கால்நடை மருத்துவர் அல்லது உரிமையாளரிடம் சொல்லலாம்; ஆனால் என்ன சிகிச்சை அளிப்பது என்பதை முடிவு செய்வது எப்போதும் அவர்கள் பொறுப்பே.",
+              "ಚಿಕಿತ್ಸೆ ಆರಂಭವಾದ ನಂತರ, ಮೂತ್ರ ಸುಮಾರು 24 ಗಂಟೆಗಳಲ್ಲಿ ಕ್ರಮೇಣ ಸಾಮಾನ್ಯ ಬಣ್ಣಕ್ಕೆ ಮರಳಬೇಕು. ಮರಳದಿದ್ದರೆ, ಅದನ್ನು ತಿಳಿಸುವುದು ಅಗತ್ಯ — ಸಾಮಾನ್ಯವಾಗಿ ಚಿಕಿತ್ಸೆಯನ್ನು ಮತ್ತೆ ಮಾಡಬೇಕು ಎಂದರ್ಥ. ಇದನ್ನು ನೀವು ಗಮನಿಸಿ ಪಶುವೈದ್ಯರಿಗೆ ಅಥವಾ ಮಾಲೀಕರಿಗೆ ಹೇಳಬಹುದು; ಆದರೆ ಯಾವ ಚಿಕಿತ್ಸೆ ನೀಡಬೇಕೆಂದು ನಿರ್ಧರಿಸುವುದು ಯಾವಾಗಲೂ ಅವರ ಕೆಲಸ.",
+              "इलाज शुरू होने के बाद पेशाब लगभग 24 घंटे में धीरे-धीरे सामान्य रंग में लौट आना चाहिए। अगर ऐसा न हो, तो यह बताने लायक बात है — आमतौर पर इसका मतलब होता है कि इलाज दोहराना पड़ेगा। यह बात आप देखकर पशु चिकित्सक या मालिक को बता सकते हैं, लेकिन कौन-सा इलाज देना है यह तय करना हमेशा उन्हीं का काम है।"
             ),
           },
           {
             type: "callout",
             style: "tip",
-            heading: L("Curable If Treated Promptly"),
-            text: L("Like Anaplasmosis, Babesiosis is curable if treated promptly — early reporting gives the animal the best chance."),
+            heading: L("Curable If Treated Promptly", "వెంటనే చికిత్స చేస్తే నయమవుతుంది", "உடனே சிகிச்சை அளித்தால் குணமாகும்", "ತಕ್ಷಣ ಚಿಕಿತ್ಸೆ ನೀಡಿದರೆ ಗುಣವಾಗುತ್ತದೆ", "तुरंत इलाज मिले तो ठीक हो सकता है"),
+            text: L("Like Anaplasmosis, Babesiosis is curable if treated promptly — early reporting gives the animal the best chance.", "అనాప్లాస్మోసిస్ లాగే, బేబీసియోసిస్ కూడా వెంటనే చికిత్స చేస్తే నయమవుతుంది — త్వరగా చెబితే జంతువు బతికే అవకాశం ఎక్కువ.", "அனாபிளாஸ்மோசிஸ் போலவே, பேபிசியோசிஸும் உடனே சிகிச்சை அளித்தால் குணமாகும் — சீக்கிரம் தெரிவித்தால் விலங்குக்கு பிழைக்கும் வாய்ப்பு அதிகம்.", "ಅನಾಪ್ಲಾಸ್ಮೋಸಿಸ್‌ನಂತೆಯೇ, ಬೇಬಿಸಿಯೋಸಿಸ್ ಕೂಡ ತಕ್ಷಣ ಚಿಕಿತ್ಸೆ ನೀಡಿದರೆ ಗುಣವಾಗುತ್ತದೆ — ಬೇಗ ತಿಳಿಸಿದರೆ ಪ್ರಾಣಿ ಬದುಕುಳಿಯುವ ಸಾಧ್ಯತೆ ಹೆಚ್ಚು.", "एनाप्लाज़्मोसिस की तरह बेबेसियोसिस भी तुरंत इलाज मिलने पर ठीक हो सकता है — जल्दी बताने से पशु के बचने की संभावना सबसे ज़्यादा रहती है।"),
           },
           {
             type: "callout",
             style: "info",
-            heading: L("Not the Same as 'Red Water Disease'"),
+            heading: L("Not the Same as 'Red Water Disease'", "'రెడ్ వాటర్ వ్యాధి' తో ఒకటి కాదు", "'ரெட் வாட்டர் நோய்' போன்றது அல்ல", "'ರೆಡ್ ವಾಟರ್ ರೋಗ'ದಂತೆ ಅಲ್ಲ", "'रेड वॉटर बीमारी' जैसा नहीं है"),
             text: L(
-              "Babesiosis should not be confused with 'Red Water Disease' — a different, highly fatal disease caused by bacteria, seen especially in areas where liver fluke (a type of worm) is also present. Both can cause dark or red-looking urine, but they are not the same disease, and this is a distinction the vet will make, not something you need to diagnose yourself."
+              "Babesiosis should not be confused with 'Red Water Disease' — a different, highly fatal disease caused by bacteria, seen especially in areas where liver fluke (a type of worm) is also present. Both can cause dark or red-looking urine, but they are not the same disease, and this is a distinction the vet will make, not something you need to diagnose yourself.",
+              "బేబీసియోసిస్‌ను 'రెడ్ వాటర్ వ్యాధి'తో కలిపి చూడకూడదు — ఇది బ్యాక్టీరియా వల్ల వచ్చే వేరే, ఎక్కువ ప్రాణాంతకమైన వ్యాధి; ముఖ్యంగా లివర్ ఫ్లూక్ (ఒక రకం పురుగు) ఉన్న ప్రాంతాల్లో కనిపిస్తుంది. రెండింటిలోనూ మూత్రం ముదురు లేదా ఎర్రగా కనిపించవచ్చు, కానీ అవి ఒకే వ్యాధి కాదు; ఈ తేడాను పశువైద్యుడు నిర్ణయిస్తారు, మీరు నిర్ధారించాల్సిన అవసరం లేదు.",
+              "பேபிசியோசிஸை 'ரெட் வாட்டர் நோய்' என்று குழப்பிக் கொள்ளக் கூடாது — அது பாக்டீரியாவால் வரும் வேறு, மிக அதிக உயிரிழப்பு ஏற்படுத்தும் நோய்; குறிப்பாக ஈரல் அட்டை (ஒரு வகைப் புழு) உள்ள பகுதிகளில் காணப்படும். இரண்டிலும் சிறுநீர் அடர்ந்த அல்லது சிவப்பாகத் தெரியலாம், ஆனால் அவை ஒரே நோய் அல்ல; இந்த வேறுபாட்டை கால்நடை மருத்துவர் முடிவு செய்வார், நீங்களே கண்டறிய வேண்டியதில்லை.",
+              "ಬೇಬಿಸಿಯೋಸಿಸ್ ಅನ್ನು 'ರೆಡ್ ವಾಟರ್ ರೋಗ'ದೊಂದಿಗೆ ಗೊಂದಲ ಮಾಡಿಕೊಳ್ಳಬಾರದು — ಅದು ಬ್ಯಾಕ್ಟೀರಿಯಾದಿಂದ ಬರುವ ಬೇರೆ, ಹೆಚ್ಚು ಪ್ರಾಣಾಂತಕ ರೋಗ; ವಿಶೇಷವಾಗಿ ಲಿವರ್ ಫ್ಲೂಕ್ (ಒಂದು ಬಗೆಯ ಹುಳು) ಇರುವ ಪ್ರದೇಶಗಳಲ್ಲಿ ಕಾಣಿಸುತ್ತದೆ. ಎರಡರಲ್ಲೂ ಮೂತ್ರ ಗಾಢ ಅಥವಾ ಕೆಂಪಾಗಿ ಕಾಣಬಹುದು, ಆದರೆ ಅವು ಒಂದೇ ರೋಗ ಅಲ್ಲ; ಈ ವ್ಯತ್ಯಾಸವನ್ನು ಪಶುವೈದ್ಯರು ನಿರ್ಧರಿಸುತ್ತಾರೆ, ನೀವೇ ಪತ್ತೆ ಮಾಡಬೇಕಿಲ್ಲ.",
+              "बेबेसियोसिस को 'रेड वॉटर बीमारी' से नहीं मिलाना चाहिए — वह बैक्टीरिया से होने वाली एक अलग और बहुत जानलेवा बीमारी है, जो खासकर उन इलाकों में दिखती है जहाँ लिवर फ्लूक (एक तरह का कृमि) भी होता है। दोनों में पेशाब गहरा या लाल दिख सकता है, पर ये एक ही बीमारी नहीं हैं; यह फ़र्क पशु चिकित्सक तय करेंगे, आपको खुद पहचानने की ज़रूरत नहीं।"
             ),
           },
         ],
         check: [
           {
             type: "mcq",
-            q: L("What causes Babesiosis?"),
+            q: L("What causes Babesiosis?", "బేబీసియోసిస్‌కు కారణమేమిటి?", "பேபிசியோசிஸுக்கு என்ன காரணம்?", "ಬೇಬಿಸಿಯೋಸಿಸ್‌ಗೆ ಕಾರಣವೇನು?", "बेबेसियोसिस किस वजह से होता है?"),
             options: [
-              L("A type of worm"),
-              L("A protozoa — a tiny, single-celled microbe"),
-              L("A vitamin deficiency"),
-              L("Old age"),
+              L("A type of worm", "ఒక రకం పురుగు", "ஒரு வகைப் புழு", "ಒಂದು ಬಗೆಯ ಹುಳು", "एक तरह का कृमि"),
+              L("A protozoa — a tiny, single-celled microbe", "ప్రోటోజోవా — ఒకే కణం ఉన్న చిన్న సూక్ష్మజీవి", "புரோட்டோசோவா — ஒரே செல் கொண்ட சிறிய நுண்ணுயிரி", "ಪ್ರೋಟೋಜೋವಾ — ಒಂದೇ ಕೋಶದ ಸಣ್ಣ ಸೂಕ್ಷ್ಮಜೀವಿ", "प्रोटोज़ोआ — एक कोशिका वाला छोटा सूक्ष्म जीव"),
+              L("A vitamin deficiency", "విటమిన్ లోపం", "வைட்டமின் குறைபாடு", "ವಿಟಮಿನ್ ಕೊರತೆ", "विटामिन की कमी"),
+              L("Old age", "వృద్ధాప్యం", "முதுமை", "ಮುಪ್ಪು", "बुढ़ापा"),
             ],
             answer: 1,
-            explain: L("Babesiosis is caused by a protozoa, a type of single-celled microbe, different from the rickettsia germ that causes Anaplasmosis."),
+            explain: L("Babesiosis is caused by a protozoa, a type of single-celled microbe, different from the rickettsia germ that causes Anaplasmosis.", "బేబీసియోసిస్ ప్రోటోజోవా అనే ఒకే కణం ఉన్న సూక్ష్మజీవి వల్ల వస్తుంది; ఇది అనాప్లాస్మోసిస్‌కు కారణమైన రికెట్సియా క్రిమి కంటే భిన్నమైనది.", "பேபிசியோசிஸ் புரோட்டோசோவா என்ற ஒரே செல் நுண்ணுயிரியால் வருகிறது; இது அனாபிளாஸ்மோசிஸுக்குக் காரணமான ரிக்கெட்சியா கிருமியிலிருந்து வேறுபட்டது.", "ಬೇಬಿಸಿಯೋಸಿಸ್ ಪ್ರೋಟೋಜೋವಾ ಎಂಬ ಒಂದೇ ಕೋಶದ ಸೂಕ್ಷ್ಮಜೀವಿಯಿಂದ ಬರುತ್ತದೆ; ಇದು ಅನಾಪ್ಲಾಸ್ಮೋಸಿಸ್‌ಗೆ ಕಾರಣವಾದ ರಿಕೆಟ್ಸಿಯಾ ರೋಗಾಣುವಿಗಿಂತ ಬೇರೆ.", "बेबेसियोसिस प्रोटोज़ोआ नाम के एक कोशिका वाले सूक्ष्म जीव से होता है, जो एनाप्लाज़्मोसिस वाले रिकेट्सिया कीटाणु से अलग है।"),
           },
           {
             type: "truefalse",
             q: L(
-              "If an animal's urine has not returned to a normal colour about 24 hours after Babesiosis treatment starts, that is worth reporting."
+              "If an animal's urine has not returned to a normal colour about 24 hours after Babesiosis treatment starts, that is worth reporting.",
+              "బేబీసియోసిస్ చికిత్స మొదలైన సుమారు 24 గంటల తర్వాత కూడా జంతువు మూత్రం మామూలు రంగుకు రాకపోతే, అది తెలియజేయాల్సిన విషయం.",
+              "பேபிசியோசிஸ் சிகிச்சை தொடங்கி சுமார் 24 மணி நேரத்துக்குப் பிறகும் விலங்கின் சிறுநீர் சாதாரண நிறத்துக்குத் திரும்பவில்லை என்றால், அதை தெரிவிக்க வேண்டும்.",
+              "ಬೇಬಿಸಿಯೋಸಿಸ್ ಚಿಕಿತ್ಸೆ ಆರಂಭವಾಗಿ ಸುಮಾರು 24 ಗಂಟೆಗಳ ನಂತರವೂ ಪ್ರಾಣಿಯ ಮೂತ್ರ ಸಾಮಾನ್ಯ ಬಣ್ಣಕ್ಕೆ ಮರಳದಿದ್ದರೆ, ಅದನ್ನು ತಿಳಿಸುವುದು ಅಗತ್ಯ.",
+              "बेबेसियोसिस का इलाज शुरू होने के लगभग 24 घंटे बाद भी अगर पशु का पेशाब सामान्य रंग में नहीं लौटा है, तो यह बताने लायक बात है।"
             ),
             answer: true,
-            explain: L("Yes — the urine should return to normal colour by about 24 hours after treatment; if it hasn't, treatment usually needs to be repeated."),
+            explain: L("Yes — the urine should return to normal colour by about 24 hours after treatment; if it hasn't, treatment usually needs to be repeated.", "అవును — చికిత్స తర్వాత సుమారు 24 గంటల్లో మూత్రం మామూలు రంగుకు రావాలి; రాకపోతే సాధారణంగా చికిత్సను మళ్లీ చేయాల్సి ఉంటుంది.", "ஆம் — சிகிச்சைக்குப் பிறகு சுமார் 24 மணி நேரத்தில் சிறுநீர் சாதாரண நிறத்துக்குத் திரும்ப வேண்டும்; திரும்பாவிட்டால் பொதுவாக சிகிச்சையை மீண்டும் செய்ய வேண்டியிருக்கும்.", "ಹೌದು — ಚಿಕಿತ್ಸೆಯ ನಂತರ ಸುಮಾರು 24 ಗಂಟೆಗಳಲ್ಲಿ ಮೂತ್ರ ಸಾಮಾನ್ಯ ಬಣ್ಣಕ್ಕೆ ಮರಳಬೇಕು; ಮರಳದಿದ್ದರೆ ಸಾಮಾನ್ಯವಾಗಿ ಚಿಕಿತ್ಸೆಯನ್ನು ಮತ್ತೆ ಮಾಡಬೇಕಾಗುತ್ತದೆ.", "हाँ — इलाज के लगभग 24 घंटे बाद पेशाब सामान्य रंग में लौट आना चाहिए; अगर नहीं लौटा, तो आमतौर पर इलाज दोहराना पड़ता है।"),
           },
         ],
       },
@@ -5681,55 +5733,55 @@ export const MODULES = [
         {
           topicId: "t-m6-anaplasmosis",
           type: "mcq",
-          q: L("Besides tick bites, how else can Anaplasmosis spread?"),
+          q: L("Besides tick bites, how else can Anaplasmosis spread?", "పేల కాటు కాకుండా, అనాప్లాస్మోసిస్ మరే విధంగా వ్యాపించవచ్చు?", "உண்ணிக் கடியைத் தவிர, அனாபிளாஸ்மோசிஸ் வேறு எப்படிப் பரவலாம்?", "ಉಣ್ಣಿ ಕಡಿತವಲ್ಲದೆ, ಅನಾಪ್ಲಾಸ್ಮೋಸಿಸ್ ಬೇರೆ ಹೇಗೆ ಹರಡಬಹುದು?", "किलनी के काटने के अलावा, एनाप्लाज़्मोसिस और कैसे फैल सकता है?"),
           options: [
-            L("Through the air"),
-            L("Through blood-contaminated needles or AI gloves reused without cleaning"),
-            L("Through drinking water only"),
-            L("It cannot spread any other way"),
+            L("Through the air", "గాలి ద్వారా", "காற்று மூலம்", "ಗಾಳಿಯ ಮೂಲಕ", "हवा के ज़रिए"),
+            L("Through blood-contaminated needles or AI gloves reused without cleaning", "రక్తం అంటిన సూదులు లేదా AI గ్లోవ్స్‌ను శుభ్రం చేయకుండా మళ్లీ వాడడం ద్వారా", "இரத்தம் பட்ட ஊசிகள் அல்லது AI கையுறைகளை சுத்தம் செய்யாமல் மீண்டும் பயன்படுத்துவதன் மூலம்", "ರಕ್ತ ಅಂಟಿದ ಸೂಜಿ ಅಥವಾ AI ಕೈಗವಸುಗಳನ್ನು ಶುಚಿ ಮಾಡದೆ ಮತ್ತೆ ಬಳಸುವುದರಿಂದ", "खून लगी सुइयों या AI के दस्तानों को बिना साफ़ किए दोबारा इस्तेमाल करने से"),
+            L("Through drinking water only", "కేవలం తాగునీటి ద్వారా మాత్రమే", "குடிநீர் மூலம் மட்டுமே", "ಕುಡಿಯುವ ನೀರಿನ ಮೂಲಕ ಮಾತ್ರ", "सिर्फ़ पीने के पानी से"),
+            L("It cannot spread any other way", "మరే విధంగానూ వ్యాపించదు", "வேறு எந்த வழியிலும் பரவாது", "ಬೇರೆ ಯಾವ ರೀತಿಯಲ್ಲೂ ಹರಡುವುದಿಲ್ಲ", "यह किसी और तरीके से नहीं फैल सकता"),
           ],
           answer: 1,
-          explain: L("Anaplasmosis can also spread through blood-contaminated needles or AI gloves used on more than one animal without cleaning."),
+          explain: L("Anaplasmosis can also spread through blood-contaminated needles or AI gloves used on more than one animal without cleaning.", "రక్తం అంటిన సూదులు లేదా AI గ్లోవ్స్‌ను శుభ్రం చేయకుండా ఒకటి కంటే ఎక్కువ జంతువులపై వాడినా అనాప్లాస్మోసిస్ వ్యాపించవచ్చు.", "இரத்தம் பட்ட ஊசிகள் அல்லது AI கையுறைகளை சுத்தம் செய்யாமல் ஒன்றுக்கு மேற்பட்ட விலங்குகளுக்குப் பயன்படுத்தினாலும் அனாபிளாஸ்மோசிஸ் பரவலாம்.", "ರಕ್ತ ಅಂಟಿದ ಸೂಜಿ ಅಥವಾ AI ಕೈಗವಸುಗಳನ್ನು ಶುಚಿ ಮಾಡದೆ ಒಂದಕ್ಕಿಂತ ಹೆಚ್ಚು ಪ್ರಾಣಿಗಳಿಗೆ ಬಳಸಿದರೂ ಅನಾಪ್ಲಾಸ್ಮೋಸಿಸ್ ಹರಡಬಹುದು.", "खून लगी सुइयों या AI के दस्तानों को बिना साफ़ किए एक से ज़्यादा पशुओं पर इस्तेमाल करने से भी एनाप्लाज़्मोसिस फैल सकता है।"),
         },
         {
           topicId: "t-m6-anaplasmosis",
           type: "truefalse",
-          q: L("Calves are generally more resistant to Anaplasmosis than older cattle."),
+          q: L("Calves are generally more resistant to Anaplasmosis than older cattle.", "అనాప్లాస్మోసిస్‌ను ఎదిరించే శక్తి పెద్ద పశువుల కంటే దూడలకు సాధారణంగా ఎక్కువ.", "அனாபிளாஸ்மோசிஸை எதிர்க்கும் சக்தி வளர்ந்த மாடுகளை விட கன்றுகளுக்கு பொதுவாக அதிகம்.", "ಅನಾಪ್ಲಾಸ್ಮೋಸಿಸ್ ವಿರುದ್ಧ ಹೋರಾಡುವ ಶಕ್ತಿ ದೊಡ್ಡ ದನಗಳಿಗಿಂತ ಕರುಗಳಿಗೆ ಸಾಮಾನ್ಯವಾಗಿ ಹೆಚ್ಚು.", "एनाप्लाज़्मोसिस से लड़ने की ताकत बड़े मवेशियों की तुलना में बछड़ों में आमतौर पर ज़्यादा होती है।"),
           answer: true,
-          explain: L("Correct — calves are naturally more resistant, while older cattle are more likely to become seriously ill."),
+          explain: L("Correct — calves are naturally more resistant, while older cattle are more likely to become seriously ill.", "సరైనదే — దూడలకు సహజంగా ఎదిరించే శక్తి ఎక్కువ, పెద్ద పశువులు తీవ్రంగా జబ్బుపడే అవకాశం ఎక్కువ.", "சரி — கன்றுகளுக்கு இயல்பாகவே எதிர்ப்பு சக்தி அதிகம்; வளர்ந்த மாடுகள் கடுமையாக நோய்வாய்ப்பட வாய்ப்பு அதிகம்.", "ಸರಿ — ಕರುಗಳಿಗೆ ಸಹಜವಾಗಿ ರೋಗನಿರೋಧಕ ಶಕ್ತಿ ಹೆಚ್ಚು, ದೊಡ್ಡ ದನಗಳು ತೀವ್ರವಾಗಿ ಅನಾರೋಗ್ಯಕ್ಕೆ ಒಳಗಾಗುವ ಸಾಧ್ಯತೆ ಹೆಚ್ಚು.", "सही — बछड़ों में स्वाभाविक रूप से प्रतिरोध ज़्यादा होता है, जबकि बड़े मवेशी ज़्यादा गंभीर रूप से बीमार पड़ते हैं।"),
         },
         {
           topicId: "t-m6-babesiosis",
           type: "mcq",
-          q: L("Which of these is a sign of Babesiosis?"),
+          q: L("Which of these is a sign of Babesiosis?", "వీటిలో బేబీసియోసిస్ లక్షణం ఏది?", "இவற்றில் பேபிசியோசிஸின் அறிகுறி எது?", "ಇವುಗಳಲ್ಲಿ ಬೇಬಿಸಿಯೋಸಿಸ್‌ನ ಲಕ್ಷಣ ಯಾವುದು?", "इनमें से बेबेसियोसिस का लक्षण कौन-सा है?"),
           options: [
-            L("A sharp drop in milk production along with fever and muscle tremors"),
-            L("Faster hoof growth"),
-            L("Improved appetite"),
-            L("A shinier coat than usual"),
+            L("A sharp drop in milk production along with fever and muscle tremors", "జ్వరం, కండరాల వణుకుతో పాటు పాల ఉత్పత్తి బాగా తగ్గడం", "காய்ச்சல், தசை நடுக்கத்துடன் பால் உற்பத்தி கடுமையாகக் குறைதல்", "ಜ್ವರ ಮತ್ತು ಸ್ನಾಯು ನಡುಕದ ಜೊತೆಗೆ ಹಾಲಿನ ಉತ್ಪಾದನೆ ತೀವ್ರವಾಗಿ ಕುಸಿಯುವುದು", "बुखार और मांसपेशियों की कंपकंपी के साथ दूध में अचानक भारी गिरावट"),
+            L("Faster hoof growth", "గిట్టలు వేగంగా పెరగడం", "குளம்புகள் வேகமாக வளர்தல்", "ಗೊರಸುಗಳು ವೇಗವಾಗಿ ಬೆಳೆಯುವುದು", "खुर तेज़ी से बढ़ना"),
+            L("Improved appetite", "ఆకలి పెరగడం", "பசி அதிகரித்தல்", "ಹಸಿವು ಹೆಚ್ಚುವುದು", "भूख बढ़ना"),
+            L("A shinier coat than usual", "మామూలు కంటే మెరిసే చర్మం/రోమాలు", "வழக்கத்தை விட பளபளப்பான தோல்/முடி", "ಎಂದಿಗಿಂತ ಹೆಚ್ಚು ಹೊಳೆಯುವ ಕೂದಲು", "पहले से ज़्यादा चमकदार बाल/चमड़ी"),
           ],
           answer: 0,
-          explain: L("Babesiosis commonly causes fever, going off feed, a sharp drop in milk, muscle tremors, anaemia, jaundice and more."),
+          explain: L("Babesiosis commonly causes fever, going off feed, a sharp drop in milk, muscle tremors, anaemia, jaundice and more.", "బేబీసియోసిస్ సాధారణంగా జ్వరం, మేత మానేయడం, పాలు బాగా తగ్గడం, కండరాల వణుకు, రక్తహీనత, కామెర్లు తదితరాలకు కారణమవుతుంది.", "பேபிசியோசிஸ் பொதுவாக காய்ச்சல், தீவனம் சாப்பிடாமை, பால் கடுமையாக குறைதல், தசை நடுக்கம், இரத்தசோகை, மஞ்சள் காமாலை போன்றவற்றை உண்டாக்கும்.", "ಬೇಬಿಸಿಯೋಸಿಸ್ ಸಾಮಾನ್ಯವಾಗಿ ಜ್ವರ, ಮೇವು ತಿನ್ನದಿರುವುದು, ಹಾಲು ತೀವ್ರವಾಗಿ ಕಡಿಮೆಯಾಗುವುದು, ಸ್ನಾಯು ನಡುಕ, ರಕ್ತಹೀನತೆ, ಕಾಮಾಲೆ ಇತ್ಯಾದಿಗಳನ್ನು ಉಂಟುಮಾಡುತ್ತದೆ.", "बेबेसियोसिस में आमतौर पर बुखार, चारा छोड़ना, दूध में भारी गिरावट, मांसपेशियों में कंपकंपी, खून की कमी, पीलिया वगैरह होते हैं।"),
         },
         {
           topicId: "t-m6-babesiosis",
           type: "truefalse",
-          q: L("Babesiosis and 'Red Water Disease' are exactly the same disease."),
+          q: L("Babesiosis and 'Red Water Disease' are exactly the same disease.", "బేబీసియోసిస్ మరియు 'రెడ్ వాటర్ వ్యాధి' ఒకే వ్యాధి.", "பேபிசியோசிஸும் 'ரெட் வாட்டர் நோய்'ம் ஒரே நோய்தான்.", "ಬೇಬಿಸಿಯೋಸಿಸ್ ಮತ್ತು 'ರೆಡ್ ವಾಟರ್ ರೋಗ' ಒಂದೇ ರೋಗ.", "बेबेसियोसिस और 'रेड वॉटर बीमारी' बिल्कुल एक ही बीमारी हैं।"),
           answer: false,
-          explain: L("No — they are different diseases, even though both can cause reddish urine. Red Water Disease is a separate, highly fatal bacterial disease."),
+          explain: L("No — they are different diseases, even though both can cause reddish urine. Red Water Disease is a separate, highly fatal bacterial disease.", "కాదు — రెండింటిలోనూ ఎర్రటి మూత్రం రావచ్చు, అయినా అవి వేర్వేరు వ్యాధులు. రెడ్ వాటర్ వ్యాధి బ్యాక్టీరియా వల్ల వచ్చే వేరే, ఎక్కువ ప్రాణాంతకమైన వ్యాధి.", "இல்லை — இரண்டிலும் சிவப்பு நிற சிறுநீர் வரலாம், ஆனாலும் அவை வெவ்வேறு நோய்கள். ரெட் வாட்டர் நோய் பாக்டீரியாவால் வரும் தனி, மிக அதிக உயிரிழப்பு ஏற்படுத்தும் நோய்.", "ಇಲ್ಲ — ಎರಡರಲ್ಲೂ ಕೆಂಪು ಮೂತ್ರ ಬರಬಹುದು, ಆದರೂ ಅವು ಬೇರೆ ಬೇರೆ ರೋಗಗಳು. ರೆಡ್ ವಾಟರ್ ರೋಗ ಬ್ಯಾಕ್ಟೀರಿಯಾದಿಂದ ಬರುವ ಬೇರೆ, ಹೆಚ್ಚು ಪ್ರಾಣಾಂತಕ ರೋಗ.", "नहीं — दोनों में लाल पेशाब आ सकता है, फिर भी ये अलग-अलग बीमारियाँ हैं। रेड वॉटर बीमारी बैक्टीरिया से होने वाली एक अलग और बहुत जानलेवा बीमारी है।"),
         },
         {
           topicId: "t-m6-anaplasmosis",
           type: "mcq",
-          q: L("Why does it matter that Anaplasmosis is 'curable if treated promptly'?"),
+          q: L("Why does it matter that Anaplasmosis is 'curable if treated promptly'?", "అనాప్లాస్మోసిస్ 'వెంటనే చికిత్స చేస్తే నయమవుతుంది' అనేది ఎందుకు ముఖ్యం?", "அனாபிளாஸ்மோசிஸ் 'உடனே சிகிச்சை அளித்தால் குணமாகும்' என்பது ஏன் முக்கியம்?", "ಅನಾಪ್ಲಾಸ್ಮೋಸಿಸ್ 'ತಕ್ಷಣ ಚಿಕಿತ್ಸೆ ನೀಡಿದರೆ ಗುಣವಾಗುತ್ತದೆ' ಎಂಬುದು ಏಕೆ ಮುಖ್ಯ?", "एनाप्लाज़्मोसिस का 'तुरंत इलाज मिलने पर ठीक होना' क्यों मायने रखता है?"),
           options: [
-            L("It means you don't need to report it at all"),
-            L("It means early reporting of signs gives the animal the best chance of recovery"),
-            L("It means the animal will recover on its own without help"),
-            L("It only matters for calves"),
+            L("It means you don't need to report it at all", "దీన్ని అసలు తెలియజేయాల్సిన అవసరం లేదని అర్థం", "இதை தெரிவிக்கவே தேவையில்லை என்று அர்த்தம்", "ಇದನ್ನು ತಿಳಿಸುವ ಅಗತ್ಯವೇ ಇಲ್ಲ ಎಂದರ್ಥ", "इसका मतलब है कि इसे बताने की ज़रूरत ही नहीं"),
+            L("It means early reporting of signs gives the animal the best chance of recovery", "లక్షణాలను త్వరగా తెలియజేస్తే జంతువు కోలుకునే అవకాశం ఎక్కువ అని అర్థం", "அறிகுறிகளை சீக்கிரம் தெரிவித்தால் விலங்கு குணமடையும் வாய்ப்பு அதிகம் என்று அர்த்தம்", "ಲಕ್ಷಣಗಳನ್ನು ಬೇಗ ತಿಳಿಸಿದರೆ ಪ್ರಾಣಿ ಗುಣವಾಗುವ ಸಾಧ್ಯತೆ ಹೆಚ್ಚು ಎಂದರ್ಥ", "इसका मतलब है कि लक्षण जल्दी बताने से पशु के ठीक होने की संभावना सबसे ज़्यादा रहती है"),
+            L("It means the animal will recover on its own without help", "జంతువు సహాయం లేకుండానే తనంతట తానే కోలుకుంటుందని అర్థం", "விலங்கு உதவி இல்லாமலேயே தானாக குணமடையும் என்று அர்த்தம்", "ಪ್ರಾಣಿ ಸಹಾಯವಿಲ್ಲದೆ ತಾನಾಗಿಯೇ ಗುಣವಾಗುತ್ತದೆ ಎಂದರ್ಥ", "इसका मतलब है कि पशु बिना किसी मदद के अपने-आप ठीक हो जाएगा"),
+            L("It only matters for calves", "ఇది దూడలకు మాత్రమే ముఖ్యం", "இது கன்றுகளுக்கு மட்டுமே முக்கியம்", "ಇದು ಕರುಗಳಿಗೆ ಮಾತ್ರ ಮುಖ್ಯ", "यह सिर्फ़ बछड़ों के लिए मायने रखता है"),
           ],
           answer: 1,
-          explain: L("Because the disease responds well to early treatment, noticing and reporting signs quickly directly improves the animal's chances."),
+          explain: L("Because the disease responds well to early treatment, noticing and reporting signs quickly directly improves the animal's chances.", "ఈ వ్యాధి ముందస్తు చికిత్సకు బాగా స్పందిస్తుంది కాబట్టి, లక్షణాలను త్వరగా గమనించి తెలియజేయడం జంతువు బతికే అవకాశాలను నేరుగా పెంచుతుంది.", "இந்த நோய் ஆரம்பகால சிகிச்சைக்கு நன்றாக பதிலளிப்பதால், அறிகுறிகளை சீக்கிரம் கவனித்து தெரிவிப்பது விலங்கின் பிழைக்கும் வாய்ப்பை நேரடியாக அதிகரிக்கிறது.", "ಈ ರೋಗ ಆರಂಭಿಕ ಚಿಕಿತ್ಸೆಗೆ ಚೆನ್ನಾಗಿ ಸ್ಪಂದಿಸುವುದರಿಂದ, ಲಕ್ಷಣಗಳನ್ನು ಬೇಗ ಗಮನಿಸಿ ತಿಳಿಸುವುದು ಪ್ರಾಣಿ ಬದುಕುಳಿಯುವ ಸಾಧ್ಯತೆಯನ್ನು ನೇರವಾಗಿ ಹೆಚ್ಚಿಸುತ್ತದೆ.", "क्योंकि यह बीमारी शुरुआती इलाज से अच्छी तरह ठीक होती है, इसलिए लक्षणों को जल्दी पहचानकर बताने से पशु के बचने की संभावना सीधे बढ़ती है।"),
         },
       ],
     },
@@ -5780,7 +5832,7 @@ export const MODULES = [
             type: "stat-grid",
             items: [
               {
-                label: L("Common signs"),
+                label: L("Common signs", "సాధారణ లక్షణాలు", "பொதுவான அறிகுறிகள்", "ಸಾಮಾನ್ಯ ಲಕ್ಷಣಗಳು", "आम लक्षण"),
                 text: L("Progressive anaemia, weight loss and weakness. In buffaloes, abortion, infertility and stillbirth may also occur."),
               },
               {
@@ -5947,7 +5999,7 @@ export const MODULES = [
           topicId: "t-m6-surra",
           type: "mcq",
           q: L("Which of these is a nervous sign that can appear with Surra?"),
-          options: [L("Shiny coat"), L("Head tilting and walking in circles"), L("Increased milk yield"), L("Faster hoof growth")],
+          options: [L("Shiny coat"), L("Head tilting and walking in circles"), L("Increased milk yield"), L("Faster hoof growth", "గిట్టలు వేగంగా పెరగడం", "குளம்புகள் வேகமாக வளர்தல்", "ಗೊರಸುಗಳು ವೇಗವಾಗಿ ಬೆಳೆಯುವುದು", "खुर तेज़ी से बढ़ना")],
           answer: 1,
           explain: L("Surra can cause nervous signs including head tilt, circling, blindness, hyper-excitability and paddling leg movements."),
         },
