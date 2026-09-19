@@ -7908,98 +7908,122 @@ export const MODULES = [
           {
             type: "callout",
             style: "tip",
-            heading: L("Your Job Stays the Same: Notice, Then Report"),
+            heading: L("Your Job Stays the Same: Notice, Then Report", "మీ పని అదే: గమనించండి, తర్వాత తెలియజేయండి", "உங்கள் வேலை அதேதான்: கவனியுங்கள், பிறகு தெரிவியுங்கள்", "ನಿಮ್ಮ ಕೆಲಸ ಅದೇ: ಗಮನಿಸಿ, ನಂತರ ವರದಿ ಮಾಡಿ", "आपका काम वही रहता है: देखें, फिर बताएँ"),
             text: L(
-              "Regularly and gently looking at and feeling a heifer's developing udder and teat skin is how these signs are found. If you notice swelling, unusual fluid, or scabs and scrapes on the teat, report it so a veterinarian can advise — never decide on treatment yourself."
+              "Regularly and gently looking at and feeling a heifer's developing udder and teat skin is how these signs are found. If you notice swelling, unusual fluid, or scabs and scrapes on the teat, report it so a veterinarian can advise — never decide on treatment yourself.",
+              "పెయ్య ఎదుగుతున్న పొదుగును, చనుమొన చర్మాన్ని తరచుగా, మెల్లగా చూడటం, తాకి చూడటం ద్వారానే ఈ సంకేతాలు బయటపడతాయి. వాపు, అసాధారణ ద్రవం, లేదా చనుమొనపై పొక్కులు, గీతలు కనిపిస్తే, పశువైద్యుడు సలహా ఇవ్వగలిగేలా తెలియజేయండి — చికిత్స గురించి మీరే నిర్ణయించకండి.",
+              "கிடேரியின் வளரும் மடியையும் காம்புத் தோலையும் அடிக்கடி, மெதுவாகப் பார்த்துத் தொட்டுப் பார்ப்பதன் மூலம்தான் இந்த அறிகுறிகள் கண்டறியப்படுகின்றன. வீக்கம், அசாதாரணமான திரவம், அல்லது காம்பில் சிரங்கு, சிராய்ப்பு தெரிந்தால், கால்நடை மருத்துவர் ஆலோசனை சொல்லும்படி தெரிவியுங்கள் — சிகிச்சை பற்றி நீங்களே முடிவு செய்யாதீர்கள்.",
+              "ಕಡಸಿನ ಬೆಳೆಯುತ್ತಿರುವ ಕೆಚ್ಚಲು ಮತ್ತು ಮೊಲೆತೊಟ್ಟಿನ ಚರ್ಮವನ್ನು ಆಗಾಗ್ಗೆ, ನಿಧಾನವಾಗಿ ನೋಡಿ ಮುಟ್ಟಿ ನೋಡುವುದರಿಂದಲೇ ಈ ಲಕ್ಷಣಗಳು ಪತ್ತೆಯಾಗುತ್ತವೆ. ಊತ, ಅಸಾಮಾನ್ಯ ದ್ರವ, ಅಥವಾ ಮೊಲೆತೊಟ್ಟಿನ ಮೇಲೆ ಕಜ್ಜಿ, ತರಚಿದ ಗಾಯ ಕಂಡರೆ, ಪಶುವೈದ್ಯರು ಸಲಹೆ ನೀಡುವಂತೆ ವರದಿ ಮಾಡಿ — ಚಿಕಿತ್ಸೆಯ ಬಗ್ಗೆ ನೀವೇ ನಿರ್ಧರಿಸಬೇಡಿ.",
+              "बछिया के बढ़ते थन और चूची की खाल को नियमित रूप से, धीरे से देखने और छूकर जाँचने से ही ये लक्षण पकड़ में आते हैं। अगर सूजन, असामान्य तरल, या चूची पर पपड़ी और खरोंच दिखे, तो इसकी सूचना दीजिए ताकि पशु चिकित्सक सलाह दे सकें — इलाज के बारे में खुद फ़ैसला न करें।"
             ),
           },
           {
             type: "text",
-            heading: L("Protecting Calves Early Also Protects Future Udders"),
+            heading: L("Protecting Calves Early Also Protects Future Udders", "దూడలను ముందే కాపాడితే భవిష్యత్తు పొదుగులను కూడా కాపాడినట్లే", "கன்றுகளை முன்கூட்டியே பாதுகாத்தால் எதிர்கால மடிகளையும் பாதுகாக்கிறோம்", "ಕರುಗಳನ್ನು ಬೇಗನೆ ರಕ್ಷಿಸಿದರೆ ಮುಂದಿನ ಕೆಚ್ಚಲುಗಳನ್ನೂ ರಕ್ಷಿಸಿದಂತೆ", "बछड़ों को शुरू में बचाना आगे चलकर थन को भी बचाता है"),
             html: L(
-              "Some heifer mastitis begins with problems that happen much earlier, as young calves. Calves should get an early, adequate feed of <b>colostrum</b> and be removed from their mother as soon as possible. Watching how calves behave with each other also matters — a calf that sucks on other calves should be removed from the group, since this kind of cross-suckling can injure developing teats and lead to infection later."
+              "Some heifer mastitis begins with problems that happen much earlier, as young calves. Calves should get an early, adequate feed of <b>colostrum</b> and be removed from their mother as soon as possible. Watching how calves behave with each other also matters — a calf that sucks on other calves should be removed from the group, since this kind of cross-suckling can injure developing teats and lead to infection later.",
+              "కొన్ని పెయ్య మాస్టిటిస్ కేసులు చాలా ముందే, చిన్న దూడలుగా ఉన్నప్పుడు జరిగే సమస్యలతో మొదలవుతాయి. దూడలకు తొందరగా, తగినంత <b>జున్ను</b> తాగించాలి, తల్లి నుండి వీలైనంత త్వరగా వేరు చేయాలి. దూడలు ఒకదానితో ఒకటి ఎలా ప్రవర్తిస్తున్నాయో గమనించడం కూడా ముఖ్యం — ఇతర దూడలను చీకే దూడను గుంపు నుండి తీసేయాలి, ఎందుకంటే ఇలా ఒకదాన్ని ఒకటి చీకడం వల్ల ఎదుగుతున్న చనుమొనలు గాయపడి, తర్వాత ఇన్ఫెక్షన్‌కు దారితీయవచ్చు.",
+              "சில கிடேரி மாஸ்டைடிஸ் நிகழ்வுகள், மிகவும் முன்பே, இளம் கன்றுகளாக இருக்கும்போது ஏற்படும் பிரச்சினைகளிலிருந்து தொடங்குகின்றன. கன்றுகளுக்கு விரைவாக, போதுமான <b>கொழுந்து பால்</b> கொடுக்க வேண்டும், தாயிடமிருந்து முடிந்தவரை சீக்கிரம் பிரிக்க வேண்டும். கன்றுகள் ஒன்றோடொன்று எப்படி நடந்துகொள்கின்றன என்பதைக் கவனிப்பதும் முக்கியம் — மற்ற கன்றுகளைச் சப்பும் கன்றை மந்தையிலிருந்து நீக்க வேண்டும், ஏனென்றால் இப்படி ஒன்றையொன்று சப்புவது வளரும் காம்புகளைக் காயப்படுத்தி, பின்னர் தொற்றுக்கு வழிவகுக்கலாம்.",
+              "ಕೆಲವು ಕಡಸು ಮಾಸ್ಟೈಟಿಸ್ ಪ್ರಕರಣಗಳು ಬಹಳ ಮೊದಲೇ, ಚಿಕ್ಕ ಕರುಗಳಾಗಿದ್ದಾಗ ಆಗುವ ಸಮಸ್ಯೆಗಳಿಂದ ಶುರುವಾಗುತ್ತವೆ. ಕರುಗಳಿಗೆ ಬೇಗನೆ, ಸಾಕಷ್ಟು <b>ಗಿಣ್ಣುಹಾಲು</b> ಕುಡಿಸಬೇಕು, ತಾಯಿಯಿಂದ ಆದಷ್ಟು ಬೇಗ ಬೇರ್ಪಡಿಸಬೇಕು. ಕರುಗಳು ಒಂದರೊಂದಿಗೆ ಹೇಗೆ ನಡೆದುಕೊಳ್ಳುತ್ತವೆ ಎಂದು ಗಮನಿಸುವುದೂ ಮುಖ್ಯ — ಬೇರೆ ಕರುಗಳನ್ನು ಚೀಪುವ ಕರುವನ್ನು ಗುಂಪಿನಿಂದ ತೆಗೆಯಬೇಕು, ಏಕೆಂದರೆ ಹೀಗೆ ಒಂದನ್ನೊಂದು ಚೀಪುವುದರಿಂದ ಬೆಳೆಯುತ್ತಿರುವ ಮೊಲೆತೊಟ್ಟುಗಳಿಗೆ ಗಾಯವಾಗಿ, ನಂತರ ಸೋಂಕಿಗೆ ಕಾರಣವಾಗಬಹುದು.",
+              "कुछ बछियों का मैस्टाइटिस बहुत पहले, छोटे बछड़े-बछियों की उम्र में हुई दिक्कतों से शुरू होता है। बछड़ों को जल्दी और पर्याप्त <b>खीस</b> पिलानी चाहिए और उन्हें माँ से जितनी जल्दी हो सके अलग करना चाहिए। यह देखना भी ज़रूरी है कि बछड़े आपस में कैसा बर्ताव करते हैं — जो बछड़ा दूसरे बछड़ों को चूसता है उसे झुंड से हटा देना चाहिए, क्योंकि इस तरह एक-दूसरे को चूसने से बढ़ती चूचियों में चोट लग सकती है और आगे चलकर संक्रमण हो सकता है।"
             ),
           },
           {
             type: "glossary",
-            term: L("Colostrum"),
+            term: L("Colostrum", "జున్ను", "கொழுந்து பால்", "ಗಿಣ್ಣುಹಾಲು", "खीस"),
             meaning: L(
-              "The first, thick, yellowish milk a mother produces right after giving birth. It is rich in things that help a newborn calf fight off illness."
+              "The first, thick, yellowish milk a mother produces right after giving birth. It is rich in things that help a newborn calf fight off illness.",
+              "తల్లి ఈనిన వెంటనే ఉత్పత్తి చేసే మొదటి, చిక్కటి, పసుపు రంగు పాలు. ఇందులో నవజాత దూడ వ్యాధులతో పోరాడటానికి సహాయపడే పదార్థాలు పుష్కలంగా ఉంటాయి.",
+              "தாய் கன்று ஈன்ற உடனே உற்பத்தி செய்யும் முதல், கெட்டியான, மஞ்சள் நிறப் பால். பிறந்த கன்று நோய்களை எதிர்த்துப் போராட உதவும் பொருட்கள் இதில் நிறைய உள்ளன.",
+              "ತಾಯಿ ಈದ ತಕ್ಷಣ ಉತ್ಪಾದಿಸುವ ಮೊದಲ, ಗಟ್ಟಿಯಾದ, ಹಳದಿ ಬಣ್ಣದ ಹಾಲು. ಹುಟ್ಟಿದ ಕರು ರೋಗಗಳ ವಿರುದ್ಧ ಹೋರಾಡಲು ಸಹಾಯ ಮಾಡುವ ಅಂಶಗಳು ಇದರಲ್ಲಿ ಸಮೃದ್ಧವಾಗಿವೆ.",
+              "माँ के ब्याने के तुरंत बाद बनने वाला पहला, गाढ़ा, पीला-सा दूध। इसमें ऐसी चीज़ें भरपूर होती हैं जो नवजात बछड़े को बीमारियों से लड़ने में मदद करती हैं।"
             ),
           },
         ],
         check: [
           {
             type: "mcq",
-            q: L("Which of these is a sign that a heifer's developing udder may have a problem?"),
+            q: L("Which of these is a sign that a heifer's developing udder may have a problem?", "పెయ్య ఎదుగుతున్న పొదుగులో సమస్య ఉండవచ్చని చెప్పే సంకేతం ఏది?", "கிடேரியின் வளரும் மடியில் பிரச்சினை இருக்கலாம் என்பதற்கான அறிகுறி எது?", "ಕಡಸಿನ ಬೆಳೆಯುತ್ತಿರುವ ಕೆಚ್ಚಲಿನಲ್ಲಿ ಸಮಸ್ಯೆ ಇರಬಹುದು ಎನ್ನುವ ಲಕ್ಷಣ ಯಾವುದು?", "इनमें से कौन-सा लक्षण बताता है कि बछिया के बढ़ते थन में समस्या हो सकती है?"),
             options: [
-              L("A swollen quarter with abnormal secretions such as clots or flakes"),
-              L("A normal appetite"),
-              L("Chewing the cud while resting"),
-              L("A shiny, even coat"),
+              L("A swollen quarter with abnormal secretions such as clots or flakes", "గడ్డలు లేదా తునకలు వంటి అసాధారణ స్రావాలతో వాచిన భాగం", "கட்டிகள் அல்லது துணுக்குகள் போன்ற அசாதாரண திரவங்களுடன் வீங்கிய பகுதி", "ಗಡ್ಡೆ ಅಥವಾ ಚೂರುಗಳಂತಹ ಅಸಾಮಾನ್ಯ ಸ್ರಾವಗಳೊಂದಿಗೆ ಊದಿಕೊಂಡ ಭಾಗ", "सूजा हुआ हिस्सा जिसमें थक्के या फुटकी जैसा असामान्य स्राव हो"),
+              L("A normal appetite", "సాధారణ ఆకలి", "சாதாரணப் பசி", "ಸಾಮಾನ್ಯ ಹಸಿವು", "सामान्य भूख"),
+              L("Chewing the cud while resting", "విశ్రాంతి తీసుకుంటూ నెమరు వేయడం", "ஓய்வெடுக்கும்போது அசைபோடுவது", "ವಿಶ್ರಾಂತಿ ತೆಗೆದುಕೊಳ್ಳುತ್ತಾ ಮೆಲುಕು ಹಾಕುವುದು", "आराम करते समय जुगाली करना"),
+              L("A shiny, even coat", "నిగనిగలాడే, సమానమైన చర్మపు మెరుపు", "பளபளப்பான, சீரான மேல்தோல்", "ಹೊಳೆಯುವ, ಸಮನಾದ ಮೈಕಾಂತಿ", "चमकदार, एक-सा कोट"),
             ],
             answer: 0,
-            explain: L("Swollen quarters and abnormal secretions (clots or flakes) in a heifer's developing udder are signs worth reporting."),
+            explain: L("Swollen quarters and abnormal secretions (clots or flakes) in a heifer's developing udder are signs worth reporting.", "పెయ్య ఎదుగుతున్న పొదుగులో వాచిన భాగాలు, అసాధారణ స్రావాలు (గడ్డలు లేదా తునకలు) తెలియజేయాల్సిన సంకేతాలు.", "கிடேரியின் வளரும் மடியில் வீங்கிய பகுதிகளும் அசாதாரணமான திரவங்களும் (கட்டிகள் அல்லது துணுக்குகள்) தெரிவிக்க வேண்டிய அறிகுறிகள்.", "ಕಡಸಿನ ಬೆಳೆಯುತ್ತಿರುವ ಕೆಚ್ಚಲಿನಲ್ಲಿ ಊದಿಕೊಂಡ ಭಾಗಗಳು, ಅಸಾಮಾನ್ಯ ಸ್ರಾವಗಳು (ಗಡ್ಡೆ ಅಥವಾ ಚೂರುಗಳು) ವರದಿ ಮಾಡಬೇಕಾದ ಲಕ್ಷಣಗಳು.", "बछिया के बढ़ते थन में सूजे हुए हिस्से और असामान्य स्राव (थक्के या फुटकी) ऐसे लक्षण हैं जिनकी सूचना देनी चाहिए।"),
           },
           {
             type: "truefalse",
-            q: L("Heifers cannot get mastitis because they have never been milked before."),
+            q: L("Heifers cannot get mastitis because they have never been milked before.", "పెయ్యలను ఎప్పుడూ పితకలేదు కాబట్టి వాటికి మాస్టిటిస్ రాదు.", "கிடேரிகள் இதற்கு முன் கறக்கப்பட்டதே இல்லை என்பதால் அவற்றுக்கு மாஸ்டைடிஸ் வராது.", "ಕಡಸುಗಳ ಹಾಲನ್ನು ಎಂದೂ ಕರೆದಿಲ್ಲ, ಆದ್ದರಿಂದ ಅವುಗಳಿಗೆ ಮಾಸ್ಟೈಟಿಸ್ ಬರುವುದಿಲ್ಲ.", "बछियों को कभी दुहा नहीं गया, इसलिए उन्हें मैस्टाइटिस नहीं हो सकता।"),
             answer: false,
-            explain: L("False — this is a common but incorrect assumption. Heifers' developing udders can be affected by mastitis too."),
+            explain: L("False — this is a common but incorrect assumption. Heifers' developing udders can be affected by mastitis too.", "తప్పు — ఇది సాధారణమైన కానీ తప్పు అభిప్రాయం. పెయ్యల ఎదుగుతున్న పొదుగులకు కూడా మాస్టిటిస్ రావచ్చు.", "தவறு — இது பொதுவான ஆனால் தவறான எண்ணம். கிடேரிகளின் வளரும் மடிகளுக்கும் மாஸ்டைடிஸ் வரலாம்.", "ತಪ್ಪು — ಇದು ಸಾಮಾನ್ಯವಾದ ಆದರೆ ತಪ್ಪು ಊಹೆ. ಕಡಸುಗಳ ಬೆಳೆಯುತ್ತಿರುವ ಕೆಚ್ಚಲುಗಳಿಗೂ ಮಾಸ್ಟೈಟಿಸ್ ಬರಬಹುದು.", "गलत — यह एक आम लेकिन गलत धारणा है। बछियों के बढ़ते थन को भी मैस्टाइटिस हो सकता है।"),
           },
         ],
       },
       {
         id: "t-m9-prevention",
-        title: L("Everyday Hygiene: Preventing All Types of Mastitis"),
+        title: L("Everyday Hygiene: Preventing All Types of Mastitis", "రోజువారీ శుభ్రత: అన్ని రకాల మాస్టిటిస్‌ను నివారించడం", "அன்றாடச் சுத்தம்: எல்லா வகை மாஸ்டைடிஸையும் தடுப்பது", "ದಿನನಿತ್ಯದ ಶುಚಿತ್ವ: ಎಲ್ಲಾ ರೀತಿಯ ಮಾಸ್ಟೈಟಿಸ್ ತಡೆಗಟ್ಟುವುದು", "रोज़ की सफ़ाई: हर तरह के मैस्टाइटिस की रोकथाम"),
         teach: [
           {
             type: "text",
-            heading: L("Small Daily Habits, Big Difference"),
+            heading: L("Small Daily Habits, Big Difference", "చిన్న రోజువారీ అలవాట్లు, పెద్ద తేడా", "சிறிய அன்றாடப் பழக்கங்கள், பெரிய வித்தியாசம்", "ಸಣ್ಣ ದಿನನಿತ್ಯದ ಅಭ್ಯಾಸಗಳು, ದೊಡ್ಡ ವ್ಯತ್ಯಾಸ", "छोटी-छोटी रोज़ की आदतें, बड़ा फ़र्क"),
             html: L(
-              "Across acute, chronic, sub-clinical and heifer mastitis, the same few daily habits around cleanliness and careful milking come up again and again as the real defence. None of them require special training in animal medicine — they simply need to be done properly, every single time."
+              "Across acute, chronic, sub-clinical and heifer mastitis, the same few daily habits around cleanliness and careful milking come up again and again as the real defence. None of them require special training in animal medicine — they simply need to be done properly, every single time.",
+              "తీవ్ర, దీర్ఘకాలిక, సబ్-క్లినికల్, పెయ్య మాస్టిటిస్ అన్నిటిలోనూ, శుభ్రత, జాగ్రత్తగా పాలు పితకడం చుట్టూ ఉండే అవే కొన్ని రోజువారీ అలవాట్లు నిజమైన రక్షణగా మళ్లీ మళ్లీ కనిపిస్తాయి. వాటిలో దేనికీ పశువైద్యంలో ప్రత్యేక శిక్షణ అవసరం లేదు — ప్రతిసారీ వాటిని సరిగ్గా చేస్తే చాలు.",
+              "தீவிர, நாள்பட்ட, சப்-கிளினிக்கல், கிடேரி மாஸ்டைடிஸ் என எல்லாவற்றிலும், சுத்தம், கவனமாகப் பால் கறத்தல் பற்றிய அதே சில அன்றாடப் பழக்கங்கள்தான் உண்மையான பாதுகாப்பாக மீண்டும் மீண்டும் வருகின்றன. இவற்றில் எதற்கும் கால்நடை மருத்துவத்தில் சிறப்புப் பயிற்சி தேவையில்லை — ஒவ்வொரு முறையும் சரியாகச் செய்தால் போதும்.",
+              "ತೀವ್ರ, ದೀರ್ಘಕಾಲಿಕ, ಸಬ್-ಕ್ಲಿನಿಕಲ್, ಕಡಸು ಮಾಸ್ಟೈಟಿಸ್ ಎಲ್ಲದರಲ್ಲೂ, ಶುಚಿತ್ವ ಮತ್ತು ಎಚ್ಚರಿಕೆಯ ಹಾಲು ಕರೆಯುವಿಕೆಯ ಬಗ್ಗೆ ಅದೇ ಕೆಲವು ದಿನನಿತ್ಯದ ಅಭ್ಯಾಸಗಳೇ ನಿಜವಾದ ರಕ್ಷಣೆಯಾಗಿ ಮತ್ತೆ ಮತ್ತೆ ಬರುತ್ತವೆ. ಇವುಗಳಲ್ಲಿ ಯಾವುದಕ್ಕೂ ಪಶುವೈದ್ಯಕೀಯದಲ್ಲಿ ವಿಶೇಷ ತರಬೇತಿ ಬೇಕಾಗಿಲ್ಲ — ಪ್ರತಿ ಬಾರಿ ಸರಿಯಾಗಿ ಮಾಡಿದರೆ ಸಾಕು.",
+              "तीव्र, दीर्घकालिक, सब-क्लीनिकल और बछियों के मैस्टाइटिस — सबमें सफ़ाई और सावधानी से दूध दुहने से जुड़ी वही कुछ रोज़ की आदतें असली बचाव के रूप में बार-बार सामने आती हैं। इनमें से किसी के लिए पशु चिकित्सा की खास ट्रेनिंग नहीं चाहिए — बस हर बार इन्हें ठीक से करना होता है।"
             ),
           },
           {
             type: "stat-grid",
             items: [
               {
-                label: L("Before milking"),
-                text: L("Clean the udder well with clean water and wipe it dry with a clean towel — a separate towel for each animal, or a disposable paper towel."),
+                label: L("Before milking", "పాలు పితికే ముందు", "பால் கறப்பதற்கு முன்", "ಹಾಲು ಕರೆಯುವ ಮೊದಲು", "दुहने से पहले"),
+                text: L("Clean the udder well with clean water and wipe it dry with a clean towel — a separate towel for each animal, or a disposable paper towel.", "పొదుగును శుభ్రమైన నీటితో బాగా కడిగి, శుభ్రమైన తువ్వాలుతో పొడిగా తుడవండి — ప్రతి పశువుకు వేర్వేరు తువ్వాలు, లేదా ఒకసారి వాడి పారేసే పేపర్ టవల్.", "மடியை சுத்தமான தண்ணீரால் நன்றாகக் கழுவி, சுத்தமான துண்டால் உலர்த்தி துடையுங்கள் — ஒவ்வொரு மாட்டுக்கும் தனித் துண்டு, அல்லது ஒருமுறை பயன்படுத்தி எறியும் காகிதத் துண்டு.", "ಕೆಚ್ಚಲನ್ನು ಶುದ್ಧ ನೀರಿನಿಂದ ಚೆನ್ನಾಗಿ ತೊಳೆದು, ಸ್ವಚ್ಛವಾದ ಟವೆಲ್‌ನಿಂದ ಒಣಗಿಸಿ ಒರೆಸಿ — ಪ್ರತಿ ಪ್ರಾಣಿಗೆ ಬೇರೆ ಟವೆಲ್, ಅಥವಾ ಒಮ್ಮೆ ಬಳಸಿ ಎಸೆಯುವ ಪೇಪರ್ ಟವೆಲ್.", "थन को साफ़ पानी से अच्छी तरह धोकर साफ़ तौलिये से सुखा लें — हर पशु के लिए अलग तौलिया, या एक बार इस्तेमाल होने वाला पेपर टॉवल।"),
               },
               {
-                label: L("During milking"),
-                text: L("Milking should be quick, complete and hygienic. Animals with chronic mastitis or known SCM should always be milked last."),
+                label: L("During milking", "పాలు పితికేటప్పుడు", "பால் கறக்கும்போது", "ಹಾಲು ಕರೆಯುವಾಗ", "दुहते समय"),
+                text: L("Milking should be quick, complete and hygienic. Animals with chronic mastitis or known SCM should always be milked last.", "పాలు పితకడం త్వరగా, పూర్తిగా, శుభ్రంగా జరగాలి. దీర్ఘకాలిక మాస్టిటిస్ లేదా తెలిసిన SCM ఉన్న పశువులను ఎల్లప్పుడూ చివరగా పితకాలి.", "பால் கறத்தல் விரைவாகவும், முழுமையாகவும், சுத்தமாகவும் இருக்க வேண்டும். நாள்பட்ட மாஸ்டைடிஸ் அல்லது SCM இருப்பது தெரிந்த மாடுகளை எப்போதும் கடைசியாகக் கறக்க வேண்டும்.", "ಹಾಲು ಕರೆಯುವುದು ಬೇಗ, ಪೂರ್ಣವಾಗಿ ಮತ್ತು ಶುಚಿಯಾಗಿ ಆಗಬೇಕು. ದೀರ್ಘಕಾಲಿಕ ಮಾಸ್ಟೈಟಿಸ್ ಅಥವಾ ತಿಳಿದಿರುವ SCM ಇರುವ ಪ್ರಾಣಿಗಳನ್ನು ಯಾವಾಗಲೂ ಕೊನೆಯಲ್ಲಿ ಕರೆಯಬೇಕು.", "दुहना जल्दी, पूरा और साफ़-सुथरा होना चाहिए। दीर्घकालिक मैस्टाइटिस या पहले से पता SCM वाले पशुओं को हमेशा सबसे आखिर में दुहना चाहिए।"),
               },
               {
-                label: L("After milking"),
-                text: L("Teat dip or spray immediately, and prevent the animal from sitting down for at least 30–45 minutes afterwards."),
+                label: L("After milking", "పాలు పితికిన తర్వాత", "பால் கறந்த பிறகு", "ಹಾಲು ಕರೆದ ನಂತರ", "दुहने के बाद"),
+                text: L("Teat dip or spray immediately, and prevent the animal from sitting down for at least 30–45 minutes afterwards.", "వెంటనే టీట్ డిప్ లేదా స్ప్రే చేయండి, ఆ తర్వాత కనీసం 30–45 నిమిషాల వరకు పశువు కూర్చోకుండా చూడండి.", "உடனே டீட் டிப் அல்லது ஸ்ப்ரே செய்யுங்கள், அதன் பிறகு குறைந்தது 30–45 நிமிடங்களுக்கு மாடு உட்காராமல் பார்த்துக்கொள்ளுங்கள்.", "ತಕ್ಷಣ ಟೀಟ್ ಡಿಪ್ ಅಥವಾ ಸ್ಪ್ರೇ ಮಾಡಿ, ನಂತರ ಕನಿಷ್ಠ 30–45 ನಿಮಿಷಗಳವರೆಗೆ ಪ್ರಾಣಿ ಕುಳಿತುಕೊಳ್ಳದಂತೆ ನೋಡಿಕೊಳ್ಳಿ.", "तुरंत टीट डिप या स्प्रे करें, और उसके बाद कम से कम 30–45 मिनट तक पशु को बैठने न दें।"),
               },
               {
-                label: L("The shed itself"),
-                text: L("Keep the shed floor free of holes and as dry as possible, and carry out proper fly control."),
+                label: L("The shed itself", "పాక", "கொட்டகை", "ಕೊಟ್ಟಿಗೆ", "शेड"),
+                text: L("Keep the shed floor free of holes and as dry as possible, and carry out proper fly control.", "పాక నేలపై గుంతలు లేకుండా, వీలైనంత పొడిగా ఉంచండి, ఈగల నియంత్రణ సరిగ్గా చేయండి.", "கொட்டகைத் தரையில் குழிகள் இல்லாமலும், முடிந்தவரை உலர்வாகவும் வைத்திருங்கள், ஈக்களைச் சரியாகக் கட்டுப்படுத்துங்கள்.", "ಕೊಟ್ಟಿಗೆಯ ನೆಲದಲ್ಲಿ ಗುಂಡಿಗಳು ಇಲ್ಲದಂತೆ, ಆದಷ್ಟು ಒಣಗಿ ಇಡಿ, ನೊಣಗಳ ನಿಯಂತ್ರಣ ಸರಿಯಾಗಿ ಮಾಡಿ.", "शेड का फर्श गड्ढों से मुक्त और जितना हो सके सूखा रखें, और मक्खियों पर ठीक से नियंत्रण रखें।"),
               },
             ],
           },
           {
             type: "glossary",
-            term: L("Teat Dipping"),
+            term: L("Teat Dipping", "టీట్ డిప్పింగ్", "டீட் டிப்பிங்", "ಟೀಟ್ ಡಿಪ್ಪಿಂಗ್", "टीट डिपिंग"),
             meaning: L(
-              "Dipping or spraying each teat with a disinfectant liquid right after milking, while the teat opening is still slightly open, so germs have less chance of getting in before it closes."
+              "Dipping or spraying each teat with a disinfectant liquid right after milking, while the teat opening is still slightly open, so germs have less chance of getting in before it closes.",
+              "పాలు పితికిన వెంటనే, చనుమొన రంధ్రం ఇంకా కొద్దిగా తెరిచి ఉండగానే, ప్రతి చనుమొనను క్రిమిసంహారక ద్రవంలో ముంచడం లేదా స్ప్రే చేయడం, తద్వారా అది మూసుకునే లోపు క్రిములు లోపలికి వెళ్లే అవకాశం తగ్గుతుంది.",
+              "பால் கறந்த உடனே, காம்பின் துளை இன்னும் சிறிது திறந்திருக்கும்போதே, ஒவ்வொரு காம்பையும் கிருமிநாசினித் திரவத்தில் முக்குவது அல்லது ஸ்ப்ரே செய்வது, அது மூடுவதற்குள் கிருமிகள் உள்ளே செல்லும் வாய்ப்பு குறையும்.",
+              "ಹಾಲು ಕರೆದ ತಕ್ಷಣ, ಮೊಲೆತೊಟ್ಟಿನ ತೆರೆಯುವಿಕೆ ಇನ್ನೂ ಸ್ವಲ್ಪ ತೆರೆದಿರುವಾಗಲೇ, ಪ್ರತಿ ಮೊಲೆತೊಟ್ಟನ್ನು ಸೋಂಕುನಿವಾರಕ ದ್ರವದಲ್ಲಿ ಅದ್ದುವುದು ಅಥವಾ ಸ್ಪ್ರೇ ಮಾಡುವುದು, ಇದರಿಂದ ಅದು ಮುಚ್ಚುವ ಮೊದಲು ಕ್ರಿಮಿಗಳು ಒಳಗೆ ಸೇರುವ ಸಾಧ್ಯತೆ ಕಡಿಮೆಯಾಗುತ್ತದೆ.",
+              "दूध दुहने के तुरंत बाद, जब चूची का छेद अभी थोड़ा खुला होता है, हर चूची को कीटाणुनाशक घोल में डुबोना या उस पर स्प्रे करना, ताकि छेद बंद होने से पहले कीटाणुओं के अंदर जाने का मौका कम रहे।"
             ),
           },
           {
             type: "callout",
             style: "warning",
-            heading: L("A Small Detail That Matters: Reusing Towels"),
+            heading: L("A Small Detail That Matters: Reusing Towels", "ఒక చిన్న విషయం ముఖ్యం: తువ్వాళ్లను మళ్లీ వాడటం", "ஒரு சிறிய விஷயம் முக்கியம்: துண்டுகளை மீண்டும் பயன்படுத்துவது", "ಒಂದು ಸಣ್ಣ ವಿಷಯ ಮುಖ್ಯ: ಟವೆಲ್‌ಗಳ ಮರುಬಳಕೆ", "एक छोटी-सी बात जो मायने रखती है: तौलिये दोबारा इस्तेमाल करना"),
             text: L(
-              "Repeated use of the same unclean towel across different animals can itself cause mastitis to spread. A habit meant to keep animals clean can backfire if the towel itself is dirty — this is exactly the kind of small lapse worth reporting."
+              "Repeated use of the same unclean towel across different animals can itself cause mastitis to spread. A habit meant to keep animals clean can backfire if the towel itself is dirty — this is exactly the kind of small lapse worth reporting.",
+              "ఒకే మురికి తువ్వాలును వేర్వేరు పశువులకు మళ్లీ మళ్లీ వాడటం వల్లే మాస్టిటిస్ వ్యాపించవచ్చు. పశువులను శుభ్రంగా ఉంచడానికి చేసే అలవాటే, తువ్వాలే మురికిగా ఉంటే వికటించవచ్చు — ఇలాంటి చిన్న లోపమే తెలియజేయాల్సిన విషయం.",
+              "ஒரே அழுக்குத் துண்டை வெவ்வேறு மாடுகளுக்கு மீண்டும் மீண்டும் பயன்படுத்துவதாலேயே மாஸ்டைடிஸ் பரவலாம். மாடுகளைச் சுத்தமாக வைக்கச் செய்யும் பழக்கம், துண்டே அழுக்காக இருந்தால் எதிராகவே முடியலாம் — இப்படிப்பட்ட சிறிய தவறுதான் தெரிவிக்க வேண்டிய விஷயம்.",
+              "ಒಂದೇ ಕೊಳಕು ಟವೆಲ್ ಅನ್ನು ಬೇರೆಬೇರೆ ಪ್ರಾಣಿಗಳಿಗೆ ಮತ್ತೆ ಮತ್ತೆ ಬಳಸುವುದರಿಂದಲೇ ಮಾಸ್ಟೈಟಿಸ್ ಹರಡಬಹುದು. ಪ್ರಾಣಿಗಳನ್ನು ಸ್ವಚ್ಛವಾಗಿಡಲು ಮಾಡುವ ಅಭ್ಯಾಸ, ಟವೆಲ್ಲೇ ಕೊಳಕಾಗಿದ್ದರೆ ಉಲ್ಟಾ ಹೊಡೆಯಬಹುದು — ಇಂತಹ ಸಣ್ಣ ಲೋಪವೇ ವರದಿ ಮಾಡಬೇಕಾದ ವಿಷಯ.",
+              "एक ही गंदे तौलिये को अलग-अलग पशुओं पर बार-बार इस्तेमाल करने से खुद मैस्टाइटिस फैल सकता है। पशुओं को साफ़ रखने की आदत तब उल्टी पड़ सकती है जब तौलिया ही गंदा हो — ऐसी छोटी चूक ही बताने लायक बात है।"
             ),
           },
           {
             type: "callout",
             style: "info",
-            heading: L("The Most Critical Window: The Last Week Before Calving"),
+            heading: L("The Most Critical Window: The Last Week Before Calving", "అత్యంత కీలకమైన సమయం: ఈనడానికి ముందు చివరి వారం", "மிக முக்கியமான காலம்: கன்று ஈனும் முன் கடைசி வாரம்", "ಅತ್ಯಂತ ನಿರ್ಣಾಯಕ ಅವಧಿ: ಈಯುವ ಮೊದಲಿನ ಕೊನೆಯ ವಾರ", "सबसे अहम समय: ब्याने से पहले का आखिरी हफ़्ता"),
             text: L(
               "The last seven days before an animal calves is one of the most critical times for preventing new udder infections. Teat dipping is also continued for two weeks after an animal is dried off (stops being milked) and restarted two weeks before her next calving. Proper nutrition matters too — enough minerals help the udder's immune system, though animals should not be over-fed to the point of becoming overweight."
             ),
