@@ -7774,77 +7774,97 @@ export const MODULES = [
       },
       {
         id: "t-m8-acidosis",
-        title: L("Rumen Acidosis and SARA"),
+        title: L("Rumen Acidosis and SARA", "రుమెన్ అసిడోసిస్ మరియు SARA", "ருமன் அமிலத்தன்மை மற்றும் SARA", "ರುಮೆನ್ ಆಸಿಡೋಸಿಸ್ ಮತ್ತು SARA", "रूमेन एसिडोसिस और SARA"),
         teach: [
           {
             type: "text",
-            heading: L("Too Much Rich Feed, Too Fast"),
+            heading: L("Too Much Rich Feed, Too Fast", "చాలా ఎక్కువ దాణా, చాలా వేగంగా", "மிக அதிக அடர் தீவனம், மிக வேகமாக", "ತುಂಬಾ ಹೆಚ್ಚು ಹಿಂಡಿ-ಕಾಳು ಆಹಾರ, ತುಂಬಾ ವೇಗವಾಗಿ", "बहुत ज़्यादा दाना, बहुत तेज़ी से"),
             html: L(
-              "The rumen's microbes are used to working on fibrous feed like grass and hay, known as <b>forage</b> or <b>roughage</b>. <b>Concentrate</b> feed — grain-based feed that digests quickly and gives a lot of energy — is useful, but feeding large amounts of it too suddenly overwhelms the rumen and makes it too acidic. This is called <b>acidosis</b>."
+              "The rumen's microbes are used to working on fibrous feed like grass and hay, known as <b>forage</b> or <b>roughage</b>. <b>Concentrate</b> feed — grain-based feed that digests quickly and gives a lot of energy — is useful, but feeding large amounts of it too suddenly overwhelms the rumen and makes it too acidic. This is called <b>acidosis</b>.",
+              "రుమెన్‌లోని సూక్ష్మజీవులు గడ్డి, ఎండుగడ్డి వంటి పీచు ఉన్న మేతను జీర్ణం చేయడానికి అలవాటు పడి ఉంటాయి, దీనిని <b>ఫోరేజ్</b> లేదా <b>రఫేజ్</b> అంటారు. <b>దాణా</b> (కాన్సంట్రేట్) — ధాన్యం ఆధారిత మేత, ఇది త్వరగా జీర్ణమై ఎక్కువ శక్తినిస్తుంది — ఉపయోగకరమే, కానీ దాన్ని ఒకేసారి ఎక్కువ మొత్తంలో ఇస్తే రుమెన్ మీద భారం పడి అది చాలా ఆమ్లంగా మారుతుంది. దీన్నే <b>అసిడోసిస్</b> అంటారు.",
+              "ருமனில் உள்ள நுண்ணுயிரிகள் புல், வைக்கோல் போன்ற நார்ச்சத்து மிக்க தீவனத்தை செரிக்கப் பழகியவை; இது <b>ஃபோரேஜ்</b> அல்லது <b>ரஃபேஜ்</b> எனப்படும். <b>அடர் தீவனம்</b> — தானியம் சார்ந்த, விரைவாக செரிக்கும், அதிக சக்தி தரும் தீவனம் — பயனுள்ளதுதான், ஆனால் அதை ஒரே நேரத்தில் அதிக அளவில் கொடுத்தால் ருமன் தாங்க முடியாமல் மிகவும் அமிலமாகிவிடும். இதுவே <b>அமிலத்தன்மை (அசிடோசிஸ்)</b> எனப்படும்.",
+              "ರುಮೆನ್‌ನ ಸೂಕ್ಷ್ಮಜೀವಿಗಳು ಹುಲ್ಲು, ಒಣಹುಲ್ಲಿನಂತಹ ನಾರಿನ ಆಹಾರವನ್ನು ಜೀರ್ಣಿಸಲು ಒಗ್ಗಿಕೊಂಡಿರುತ್ತವೆ; ಇದನ್ನು <b>ಫೋರೇಜ್</b> ಅಥವಾ <b>ರಫೇಜ್</b> ಎನ್ನುತ್ತಾರೆ. <b>ಹಿಂಡಿ-ಕಾಳು ಆಹಾರ</b> — ಧಾನ್ಯ ಆಧಾರಿತ, ಬೇಗ ಜೀರ್ಣವಾಗಿ ಹೆಚ್ಚು ಶಕ್ತಿ ಕೊಡುವ ಆಹಾರ — ಉಪಯುಕ್ತವೇ, ಆದರೆ ಅದನ್ನು ಒಮ್ಮೆಲೆ ಹೆಚ್ಚು ಕೊಟ್ಟರೆ ರುಮೆನ್ ಮೇಲೆ ಭಾರ ಬಿದ್ದು ಅತಿ ಹುಳಿಯಾಗುತ್ತದೆ. ಇದನ್ನೇ <b>ಆಸಿಡೋಸಿಸ್</b> ಎನ್ನುತ್ತಾರೆ.",
+              "रूमेन के सूक्ष्मजीव घास और भूसे जैसे रेशेदार चारे को पचाने के आदी होते हैं, जिसे <b>फोरेज</b> या <b>रफेज</b> कहते हैं। <b>दाना (कॉन्सन्ट्रेट)</b> — अनाज आधारित चारा जो जल्दी पचता है और खूब ऊर्जा देता है — उपयोगी तो है, लेकिन इसे एकदम से ज़्यादा मात्रा में खिलाने पर रूमेन पर बोझ पड़ता है और वह बहुत अम्लीय हो जाता है। इसी को <b>एसिडोसिस</b> कहते हैं।"
             ),
           },
           {
             type: "glossary",
-            term: L("Concentrate vs. Forage"),
+            term: L("Concentrate vs. Forage", "దాణా vs. ఫోరేజ్ (పీచు మేత)", "அடர் தீவனம் vs. ஃபோரேஜ் (நார்த் தீவனம்)", "ಹಿಂಡಿ-ಕಾಳು ಆಹಾರ vs. ಫೋರೇಜ್ (ನಾರಿನ ಮೇವು)", "दाना बनाम फोरेज (रेशेदार चारा)"),
             meaning: L(
-              "Concentrate is energy-dense, grain-based feed that is digested quickly. Forage (or roughage) is fibrous feed like grass or hay, digested more slowly. A healthy diet needs enough forage — too much concentrate, too fast, upsets the rumen."
+              "Concentrate is energy-dense, grain-based feed that is digested quickly. Forage (or roughage) is fibrous feed like grass or hay, digested more slowly. A healthy diet needs enough forage — too much concentrate, too fast, upsets the rumen.",
+              "దాణా అంటే శక్తి ఎక్కువగా ఉండే, ధాన్యం ఆధారిత మేత, ఇది త్వరగా జీర్ణమవుతుంది. ఫోరేజ్ (లేదా రఫేజ్) అంటే గడ్డి, ఎండుగడ్డి వంటి పీచు ఉన్న మేత, ఇది నెమ్మదిగా జీర్ణమవుతుంది. ఆరోగ్యకరమైన ఆహారానికి తగినంత ఫోరేజ్ అవసరం — ఎక్కువ దాణాను చాలా వేగంగా ఇస్తే రుమెన్ దెబ్బతింటుంది.",
+              "அடர் தீவனம் என்பது அதிக சக்தி கொண்ட, தானியம் சார்ந்த, விரைவாக செரிக்கும் தீவனம். ஃபோரேஜ் (அல்லது ரஃபேஜ்) என்பது புல், வைக்கோல் போன்ற நார்ச்சத்து மிக்க தீவனம், மெதுவாக செரிக்கும். ஆரோக்கியமான உணவுக்கு போதுமான ஃபோரேஜ் தேவை — அதிக அடர் தீவனத்தை மிக வேகமாக கொடுத்தால் ருமன் பாதிக்கப்படும்.",
+              "ಹಿಂಡಿ-ಕಾಳು ಆಹಾರ ಎಂದರೆ ಹೆಚ್ಚು ಶಕ್ತಿ ಇರುವ, ಧಾನ್ಯ ಆಧಾರಿತ, ಬೇಗ ಜೀರ್ಣವಾಗುವ ಆಹಾರ. ಫೋರೇಜ್ (ಅಥವಾ ರಫೇಜ್) ಎಂದರೆ ಹುಲ್ಲು, ಒಣಹುಲ್ಲಿನಂತಹ ನಾರಿನ ಆಹಾರ, ನಿಧಾನವಾಗಿ ಜೀರ್ಣವಾಗುತ್ತದೆ. ಆರೋಗ್ಯಕರ ಆಹಾರಕ್ಕೆ ಸಾಕಷ್ಟು ಫೋರೇಜ್ ಬೇಕು — ತುಂಬಾ ಹೆಚ್ಚು ಹಿಂಡಿ-ಕಾಳು ಆಹಾರವನ್ನು ತುಂಬಾ ವೇಗವಾಗಿ ಕೊಟ್ಟರೆ ರುಮೆನ್ ಹಾಳಾಗುತ್ತದೆ.",
+              "दाना ऊर्जा से भरपूर, अनाज आधारित चारा है जो जल्दी पचता है। फोरेज (या रफेज) घास या भूसे जैसा रेशेदार चारा है, जो धीरे पचता है। स्वस्थ आहार के लिए पर्याप्त फोरेज ज़रूरी है — बहुत ज़्यादा दाना, बहुत तेज़ी से देने पर रूमेन बिगड़ जाता है।"
             ),
           },
           {
             type: "stat-grid",
             items: [
               {
-                label: L("Clinical acidosis — the severe form"),
-                text: L("Caused by large amounts of rapidly digestible carbohydrate fed in a short time. Within 24–48 hours the animal may go down and be unable to get up (this can look similar to milk fever), and it may stop urinating or passing dung."),
+                label: L("Clinical acidosis — the severe form", "క్లినికల్ అసిడోసిస్ — తీవ్రమైన రూపం", "கிளினிக்கல் அமிலத்தன்மை — தீவிர வடிவம்", "ಕ್ಲಿನಿಕಲ್ ಆಸಿಡೋಸಿಸ್ — ತೀವ್ರ ರೂಪ", "क्लिनिकल एसिडोसिस — गंभीर रूप"),
+                text: L("Caused by large amounts of rapidly digestible carbohydrate fed in a short time. Within 24–48 hours the animal may go down and be unable to get up (this can look similar to milk fever), and it may stop urinating or passing dung.", "తక్కువ సమయంలో ఎక్కువ మొత్తంలో త్వరగా జీర్ణమయ్యే పిండిపదార్థాలు (కార్బోహైడ్రేట్) ఇవ్వడం వల్ల వస్తుంది. 24–48 గంటల్లో పశువు కింద పడిపోయి లేవలేకపోవచ్చు (ఇది మిల్క్ ఫీవర్‌లా కనిపించవచ్చు), మరియు మూత్రం లేదా పేడ వేయడం ఆపేయవచ్చు.", "குறுகிய நேரத்தில் அதிக அளவு விரைவாக செரிக்கும் மாவுச்சத்து (கார்போஹைட்ரேட்) கொடுப்பதால் ஏற்படுகிறது. 24–48 மணி நேரத்தில் விலங்கு கீழே விழுந்து எழுந்திருக்க முடியாமல் போகலாம் (இது பால் காய்ச்சல் போலவும் தோன்றலாம்), மேலும் சிறுநீர் அல்லது சாணம் போவதை நிறுத்தலாம்.", "ಕಡಿಮೆ ಸಮಯದಲ್ಲಿ ಹೆಚ್ಚು ಪ್ರಮಾಣದಲ್ಲಿ ಬೇಗ ಜೀರ್ಣವಾಗುವ ಪಿಷ್ಟ (ಕಾರ್ಬೋಹೈಡ್ರೇಟ್) ಕೊಡುವುದರಿಂದ ಬರುತ್ತದೆ. 24–48 ಗಂಟೆಗಳಲ್ಲಿ ಪ್ರಾಣಿ ಕೆಳಗೆ ಬಿದ್ದು ಏಳಲಾಗದೆ ಹೋಗಬಹುದು (ಇದು ಮಿಲ್ಕ್ ಫೀವರ್‌ನಂತೆ ಕಾಣಬಹುದು), ಮತ್ತು ಮೂತ್ರ ಅಥವಾ ಸೆಗಣಿ ಹಾಕುವುದನ್ನು ನಿಲ್ಲಿಸಬಹುದು.", "कम समय में बड़ी मात्रा में जल्दी पचने वाला कार्बोहाइड्रेट खिलाने से होता है। 24–48 घंटों में पशु गिर सकता है और उठ नहीं पाता (यह मिल्क फीवर जैसा दिख सकता है), और वह पेशाब या गोबर करना बंद कर सकता है।"),
               },
               {
-                label: L("Sub-clinical acidosis — the milder, ongoing form"),
-                text: L("Caused by feeding more concentrate than forage over time. Signs include reduced feed intake, weight loss, unexplained diarrhoea and exhaustion. It can also lead on to laminitis and lameness."),
+                label: L("Sub-clinical acidosis — the milder, ongoing form", "సబ్-క్లినికల్ అసిడోసిస్ — తేలికపాటి, కొనసాగే రూపం", "சப்-கிளினிக்கல் அமிலத்தன்மை — லேசான, தொடர்ந்து இருக்கும் வடிவம்", "ಸಬ್-ಕ್ಲಿನಿಕಲ್ ಆಸಿಡೋಸಿಸ್ — ಸೌಮ್ಯ, ಮುಂದುವರಿಯುವ ರೂಪ", "सब-क्लिनिकल एसिडोसिस — हल्का, लगातार चलने वाला रूप"),
+                text: L("Caused by feeding more concentrate than forage over time. Signs include reduced feed intake, weight loss, unexplained diarrhoea and exhaustion. It can also lead on to laminitis and lameness.", "కాలక్రమంలో ఫోరేజ్ కంటే ఎక్కువ దాణా ఇవ్వడం వల్ల వస్తుంది. మేత తినడం తగ్గడం, బరువు తగ్గడం, కారణం తెలియని విరేచనాలు మరియు నీరసం దీని లక్షణాలు. ఇది తర్వాత లామినైటిస్ (గిట్టల వాపు) మరియు కుంటితనానికి కూడా దారితీయవచ్చు.", "நீண்ட காலம் ஃபோரேஜை விட அதிக அடர் தீவனம் கொடுப்பதால் ஏற்படுகிறது. தீவனம் உண்பது குறைதல், எடை குறைதல், காரணம் தெரியாத வயிற்றுப்போக்கு மற்றும் சோர்வு ஆகியவை அறிகுறிகள். இது பின்னர் லேமினைடிஸ் (குளம்பு வீக்கம்) மற்றும் நொண்டித்தனத்திற்கும் வழிவகுக்கலாம்.", "ದೀರ್ಘಕಾಲ ಫೋರೇಜ್‌ಗಿಂತ ಹೆಚ್ಚು ಹಿಂಡಿ-ಕಾಳು ಆಹಾರ ಕೊಡುವುದರಿಂದ ಬರುತ್ತದೆ. ಆಹಾರ ಸೇವನೆ ಕಡಿಮೆಯಾಗುವುದು, ತೂಕ ಇಳಿಯುವುದು, ಕಾರಣ ತಿಳಿಯದ ಭೇದಿ ಮತ್ತು ಆಯಾಸ ಇದರ ಲಕ್ಷಣಗಳು. ಇದು ಮುಂದೆ ಲ್ಯಾಮಿನೈಟಿಸ್ (ಗೊರಸು ಬಾವು) ಮತ್ತು ಕುಂಟುವಿಕೆಗೂ ಕಾರಣವಾಗಬಹುದು.", "लंबे समय तक फोरेज से ज़्यादा दाना खिलाने से होता है। चारा कम खाना, वज़न घटना, बिना वजह दस्त और थकावट इसके लक्षण हैं। इससे आगे चलकर लैमिनाइटिस (खुर की सूजन) और लंगड़ापन भी हो सकता है।"),
               },
             ],
           },
           {
             type: "callout",
             style: "warning",
-            heading: L("Clinical Acidosis Can Look Better, Then Get Worse"),
+            heading: L("Clinical Acidosis Can Look Better, Then Get Worse", "క్లినికల్ అసిడోసిస్ మొదట మెరుగ్గా కనిపించి, తర్వాత మరింత తీవ్రం కావచ్చు", "கிளினிக்கல் அமிலத்தன்மை முதலில் சரியானது போலத் தோன்றி, பின் மோசமாகலாம்", "ಕ್ಲಿನಿಕಲ್ ಆಸಿಡೋಸಿಸ್ ಮೊದಲು ಸುಧಾರಿಸಿದಂತೆ ಕಾಣಬಹುದು, ನಂತರ ಹದಗೆಡಬಹುದು", "क्लिनिकल एसिडोसिस पहले ठीक लग सकता है, फिर बिगड़ सकता है"),
             text: L(
-              "In severe clinical acidosis, the outlook is often poor. Some animals seem to improve at first but then become seriously ill again 3–4 days later. An animal down and unable to get up, from a feeding cause, needs a veterinarian immediately."
+              "In severe clinical acidosis, the outlook is often poor. Some animals seem to improve at first but then become seriously ill again 3–4 days later. An animal down and unable to get up, from a feeding cause, needs a veterinarian immediately.",
+              "తీవ్రమైన క్లినికల్ అసిడోసిస్‌లో కోలుకునే అవకాశాలు తరచుగా తక్కువగా ఉంటాయి. కొన్ని పశువులు మొదట మెరుగవుతున్నట్లు కనిపించినా, 3–4 రోజుల తర్వాత మళ్లీ తీవ్రంగా అనారోగ్యం పాలవుతాయి. మేత కారణంగా కింద పడిపోయి లేవలేని పశువుకు వెంటనే వెటర్నరీ డాక్టర్ అవసరం.",
+              "தீவிரமான கிளினிக்கல் அமிலத்தன்மையில் குணமாகும் வாய்ப்பு பெரும்பாலும் குறைவு. சில விலங்குகள் முதலில் தேறுவது போலத் தோன்றினாலும், 3–4 நாட்களுக்குப் பிறகு மீண்டும் கடுமையாக நோய்வாய்ப்படும். தீவனக் காரணத்தால் கீழே விழுந்து எழுந்திருக்க முடியாத விலங்குக்கு உடனே வெட்டரினரி டாக்டர் தேவை.",
+              "ತೀವ್ರ ಕ್ಲಿನಿಕಲ್ ಆಸಿಡೋಸಿಸ್‌ನಲ್ಲಿ ಚೇತರಿಕೆಯ ಸಾಧ್ಯತೆ ಸಾಮಾನ್ಯವಾಗಿ ಕಡಿಮೆ. ಕೆಲವು ಪ್ರಾಣಿಗಳು ಮೊದಲು ಸುಧಾರಿಸಿದಂತೆ ಕಾಣುತ್ತವೆ, ಆದರೆ 3–4 ದಿನಗಳ ನಂತರ ಮತ್ತೆ ಗಂಭೀರವಾಗಿ ಅನಾರೋಗ್ಯಕ್ಕೆ ಒಳಗಾಗುತ್ತವೆ. ಆಹಾರದ ಕಾರಣದಿಂದ ಕೆಳಗೆ ಬಿದ್ದು ಏಳಲಾಗದ ಪ್ರಾಣಿಗೆ ತಕ್ಷಣ ಪಶುವೈದ್ಯರು ಬೇಕು.",
+              "गंभीर क्लिनिकल एसिडोसिस में ठीक होने की उम्मीद अक्सर कम होती है। कुछ पशु पहले सुधरते दिखते हैं लेकिन 3–4 दिन बाद फिर से गंभीर रूप से बीमार हो जाते हैं। चारे की वजह से गिरा हुआ और उठ न पाने वाला पशु हो तो तुरंत डॉक्टर की ज़रूरत होती है।"
             ),
           },
           {
             type: "text",
-            heading: L("SARA: A Related Problem From Sudden Diet Switches"),
+            heading: L("SARA: A Related Problem From Sudden Diet Switches", "SARA: ఆహారం అకస్మాత్తుగా మార్చడం వల్ల వచ్చే సంబంధిత సమస్య", "SARA: உணவை திடீரென மாற்றுவதால் ஏற்படும் தொடர்புடைய பிரச்சினை", "SARA: ಆಹಾರವನ್ನು ಹಠಾತ್ ಬದಲಾಯಿಸುವುದರಿಂದ ಬರುವ ಸಂಬಂಧಿತ ಸಮಸ್ಯೆ", "SARA: अचानक आहार बदलने से होने वाली संबंधित समस्या"),
             html: L(
-              "<b>Sub-Acute Ruminal Acidosis (SARA)</b> happens when a diet is switched abruptly from high-fibre to high-concentrate, or when rations are poorly balanced or feed is chopped too fine. It's a major cause of animals producing less than they should. Watch for reduced feed intake, reduced cud-chewing, mild diarrhoea, foamy dung, undigested feed pieces larger than 6mm showing up in the dung, and lower milk fat. Over time it can also lead to laminitis, weight loss, and poor body condition even when the animal is getting enough energy in its feed."
+              "<b>Sub-Acute Ruminal Acidosis (SARA)</b> happens when a diet is switched abruptly from high-fibre to high-concentrate, or when rations are poorly balanced or feed is chopped too fine. It's a major cause of animals producing less than they should. Watch for reduced feed intake, reduced cud-chewing, mild diarrhoea, foamy dung, undigested feed pieces larger than 6mm showing up in the dung, and lower milk fat. Over time it can also lead to laminitis, weight loss, and poor body condition even when the animal is getting enough energy in its feed.",
+              "<b>సబ్-అక్యూట్ రుమినల్ అసిడోసిస్ (SARA)</b> అనేది ఆహారాన్ని ఎక్కువ పీచు ఉన్నదాని నుండి ఎక్కువ దాణా ఉన్నదానికి ఒక్కసారిగా మార్చినప్పుడు, లేదా రేషన్ సరిగ్గా సమతుల్యంగా లేనప్పుడు, లేదా మేతను మరీ సన్నగా ముక్కలు చేసినప్పుడు వస్తుంది. పశువులు ఉత్పత్తి చేయాల్సిన దానికంటే తక్కువ పాలు ఇవ్వడానికి ఇది ఒక ప్రధాన కారణం. మేత తినడం తగ్గడం, నెమరు వేయడం తగ్గడం, తేలికపాటి విరేచనాలు, నురుగుతో కూడిన పేడ, పేడలో 6 మి.మీ. కంటే పెద్ద జీర్ణం కాని మేత ముక్కలు కనిపించడం, మరియు పాలలో కొవ్వు తగ్గడం గమనించండి. కాలక్రమేణా, పశువు మేతలో తగినంత శక్తి పొందుతున్నా కూడా ఇది లామినైటిస్, బరువు తగ్గడం మరియు శరీర స్థితి బాగోకపోవడానికి దారితీయవచ్చు.",
+              "<b>சப்-அக்யூட் ருமினல் அசிடோசிஸ் (SARA)</b> என்பது உணவை அதிக நார்ச்சத்து கொண்டதிலிருந்து அதிக அடர் தீவனம் கொண்டதாக திடீரென மாற்றும்போது, அல்லது ரேஷன் சரியாக சமநிலையில் இல்லாதபோது, அல்லது தீவனத்தை மிகவும் நுணுக்கமாக நறுக்கும்போது ஏற்படுகிறது. விலங்குகள் தர வேண்டியதை விட குறைவாக பால் தருவதற்கு இது ஒரு முக்கிய காரணம். தீவனம் உண்பது குறைதல், அசைபோடுவது குறைதல், லேசான வயிற்றுப்போக்கு, நுரையுடன் கூடிய சாணம், சாணத்தில் 6 மி.மீ.க்கு மேல் செரிக்காத தீவனத் துண்டுகள் தெரிதல், மற்றும் பாலில் கொழுப்பு குறைதல் ஆகியவற்றை கவனியுங்கள். காலப்போக்கில், விலங்கு தீவனத்தில் போதுமான சக்தி பெற்றாலும் இது லேமினைடிஸ், எடை குறைவு மற்றும் மோசமான உடல் நிலைக்கு வழிவகுக்கலாம்.",
+              "<b>ಸಬ್-ಅಕ್ಯೂಟ್ ರುಮಿನಲ್ ಆಸಿಡೋಸಿಸ್ (SARA)</b> ಆಹಾರವನ್ನು ಹೆಚ್ಚು ನಾರಿನ ಆಹಾರದಿಂದ ಹೆಚ್ಚು ಹಿಂಡಿ-ಕಾಳು ಆಹಾರಕ್ಕೆ ಒಮ್ಮೆಲೆ ಬದಲಾಯಿಸಿದಾಗ, ಅಥವಾ ರೇಷನ್ ಸರಿಯಾಗಿ ಸಮತೋಲನದಲ್ಲಿ ಇಲ್ಲದಿದ್ದಾಗ, ಅಥವಾ ಮೇವನ್ನು ತೀರಾ ಸಣ್ಣಗೆ ಕತ್ತರಿಸಿದಾಗ ಬರುತ್ತದೆ. ಪ್ರಾಣಿಗಳು ಕೊಡಬೇಕಾದದ್ದಕ್ಕಿಂತ ಕಡಿಮೆ ಹಾಲು ಕೊಡಲು ಇದು ಪ್ರಮುಖ ಕಾರಣ. ಆಹಾರ ಸೇವನೆ ಕಡಿಮೆಯಾಗುವುದು, ಮೆಲುಕು ಹಾಕುವುದು ಕಡಿಮೆಯಾಗುವುದು, ಸೌಮ್ಯ ಭೇದಿ, ನೊರೆಯುಳ್ಳ ಸೆಗಣಿ, ಸೆಗಣಿಯಲ್ಲಿ 6 ಮಿ.ಮೀ.ಗಿಂತ ದೊಡ್ಡ ಜೀರ್ಣವಾಗದ ಆಹಾರದ ತುಂಡುಗಳು ಕಾಣುವುದು, ಮತ್ತು ಹಾಲಿನಲ್ಲಿ ಕೊಬ್ಬು ಕಡಿಮೆಯಾಗುವುದನ್ನು ಗಮನಿಸಿ. ಕಾಲಕ್ರಮೇಣ, ಪ್ರಾಣಿಗೆ ಆಹಾರದಿಂದ ಸಾಕಷ್ಟು ಶಕ್ತಿ ಸಿಗುತ್ತಿದ್ದರೂ ಇದು ಲ್ಯಾಮಿನೈಟಿಸ್, ತೂಕ ಇಳಿಕೆ ಮತ್ತು ಕಳಪೆ ದೇಹ ಸ್ಥಿತಿಗೆ ಕಾರಣವಾಗಬಹುದು.",
+              "<b>सब-एक्यूट रूमिनल एसिडोसिस (SARA)</b> तब होता है जब आहार को अचानक ज़्यादा रेशे वाले से ज़्यादा दाने वाले आहार में बदल दिया जाए, या राशन ठीक से संतुलित न हो, या चारा बहुत बारीक काटा गया हो। पशु जितना दूध देना चाहिए उससे कम देते हैं, इसका यह एक बड़ा कारण है। चारा कम खाना, जुगाली कम करना, हल्के दस्त, झागदार गोबर, गोबर में 6 मि.मी. से बड़े अनपचे चारे के टुकड़े दिखना, और दूध में फैट कम होना ध्यान से देखें। समय के साथ, पशु को चारे से पर्याप्त ऊर्जा मिलने पर भी यह लैमिनाइटिस, वज़न घटने और खराब शारीरिक हालत का कारण बन सकता है।"
             ),
           },
           {
             type: "callout",
             style: "tip",
-            heading: L("Everyday Habits That Help Prevent Acidosis and SARA"),
+            heading: L("Everyday Habits That Help Prevent Acidosis and SARA", "అసిడోసిస్ మరియు SARA నివారణకు రోజువారీ అలవాట్లు", "அமிலத்தன்மை மற்றும் SARA தடுக்க உதவும் அன்றாட பழக்கங்கள்", "ಆಸಿಡೋಸಿಸ್ ಮತ್ತು SARA ತಡೆಯಲು ಸಹಾಯ ಮಾಡುವ ದೈನಂದಿನ ಅಭ್ಯಾಸಗಳು", "एसिडोसिस और SARA से बचाने वाली रोज़ की आदतें"),
             text: L(
-              "Give the animal roughage in the morning before concentrate, so it produces enough saliva (which helps protect the rumen). Never give large amounts of rapidly digestible carbohydrate at once. Any change in feeding — especially a switch toward more concentrate — should be made gradually, not abruptly, and proper feeding practices should be worked out with a veterinarian."
+              "Give the animal roughage in the morning before concentrate, so it produces enough saliva (which helps protect the rumen). Never give large amounts of rapidly digestible carbohydrate at once. Any change in feeding — especially a switch toward more concentrate — should be made gradually, not abruptly, and proper feeding practices should be worked out with a veterinarian.",
+              "ఉదయం దాణా ఇవ్వడానికి ముందు పశువుకు రఫేజ్ (పీచు మేత) ఇవ్వండి, అప్పుడు తగినంత లాలాజలం ఉత్పత్తి అవుతుంది (ఇది రుమెన్‌ను కాపాడటానికి సహాయపడుతుంది). త్వరగా జీర్ణమయ్యే పిండిపదార్థాలను ఎప్పుడూ ఒకేసారి ఎక్కువ మొత్తంలో ఇవ్వకండి. ఆహారంలో ఏ మార్పైనా — ముఖ్యంగా ఎక్కువ దాణా వైపు మార్పు — నెమ్మదిగా చేయాలి, ఒక్కసారిగా కాదు, మరియు సరైన ఆహార పద్ధతులను వెటర్నరీ డాక్టర్‌తో కలిసి నిర్ణయించుకోవాలి.",
+              "காலையில் அடர் தீவனம் கொடுப்பதற்கு முன் விலங்குக்கு ரஃபேஜ் (நார்த் தீவனம்) கொடுங்கள், அப்போது போதுமான உமிழ்நீர் சுரக்கும் (இது ருமனைப் பாதுகாக்க உதவும்). விரைவாக செரிக்கும் மாவுச்சத்தை ஒருபோதும் ஒரே நேரத்தில் அதிக அளவில் கொடுக்காதீர்கள். உணவில் எந்த மாற்றமும் — குறிப்பாக அதிக அடர் தீவனத்தை நோக்கிய மாற்றம் — படிப்படியாக செய்யப்பட வேண்டும், திடீரென அல்ல, மேலும் சரியான உணவு முறைகளை வெட்டரினரி டாக்டருடன் சேர்ந்து முடிவு செய்ய வேண்டும்.",
+              "ಬೆಳಿಗ್ಗೆ ಹಿಂಡಿ-ಕಾಳು ಆಹಾರ ಕೊಡುವ ಮೊದಲು ಪ್ರಾಣಿಗೆ ರಫೇಜ್ (ನಾರಿನ ಮೇವು) ಕೊಡಿ, ಆಗ ಸಾಕಷ್ಟು ಜೊಲ್ಲು ಉತ್ಪತ್ತಿಯಾಗುತ್ತದೆ (ಇದು ರುಮೆನ್ ಅನ್ನು ರಕ್ಷಿಸಲು ಸಹಾಯ ಮಾಡುತ್ತದೆ). ಬೇಗ ಜೀರ್ಣವಾಗುವ ಪಿಷ್ಟವನ್ನು ಎಂದಿಗೂ ಒಮ್ಮೆಲೆ ಹೆಚ್ಚು ಪ್ರಮಾಣದಲ್ಲಿ ಕೊಡಬೇಡಿ. ಆಹಾರದಲ್ಲಿ ಯಾವುದೇ ಬದಲಾವಣೆಯನ್ನು — ವಿಶೇಷವಾಗಿ ಹೆಚ್ಚು ಹಿಂಡಿ-ಕಾಳು ಆಹಾರದ ಕಡೆಗಿನ ಬದಲಾವಣೆಯನ್ನು — ಕ್ರಮೇಣ ಮಾಡಬೇಕು, ಹಠಾತ್ ಅಲ್ಲ, ಮತ್ತು ಸರಿಯಾದ ಆಹಾರ ಪದ್ಧತಿಗಳನ್ನು ಪಶುವೈದ್ಯರೊಂದಿಗೆ ಸೇರಿ ನಿರ್ಧರಿಸಬೇಕು.",
+              "सुबह दाना देने से पहले पशु को रफेज (रेशेदार चारा) दें, ताकि पर्याप्त लार बने (जो रूमेन को बचाने में मदद करती है)। जल्दी पचने वाला कार्बोहाइड्रेट कभी भी एक साथ ज़्यादा मात्रा में न दें। खिलाने में कोई भी बदलाव — खासकर ज़्यादा दाने की ओर बदलाव — धीरे-धीरे करें, अचानक नहीं, और सही खिलाने के तरीके डॉक्टर के साथ मिलकर तय करें।"
             ),
           },
         ],
         check: [
           {
             type: "mcq",
-            q: L("What commonly causes rumen acidosis?"),
+            q: L("What commonly causes rumen acidosis?", "రుమెన్ అసిడోసిస్‌కు సాధారణంగా కారణమేమిటి?", "ருமன் அமிலத்தன்மைக்கு பொதுவாக என்ன காரணம்?", "ರುಮೆನ್ ಆಸಿಡೋಸಿಸ್‌ಗೆ ಸಾಮಾನ್ಯವಾಗಿ ಕಾರಣವೇನು?", "रूमेन एसिडोसिस आमतौर पर किस वजह से होता है?"),
             options: [
-              L("Feeding large amounts of rapidly digestible carbohydrate (concentrate) too quickly"),
-              L("Giving the animal too much plain water"),
-              L("Letting the animal rest too long"),
-              L("Milking the animal too often"),
+              L("Feeding large amounts of rapidly digestible carbohydrate (concentrate) too quickly", "త్వరగా జీర్ణమయ్యే పిండిపదార్థాలను (దాణా) ఎక్కువ మొత్తంలో చాలా వేగంగా ఇవ్వడం", "விரைவாக செரிக்கும் மாவுச்சத்தை (அடர் தீவனம்) அதிக அளவில் மிக வேகமாக கொடுப்பது", "ಬೇಗ ಜೀರ್ಣವಾಗುವ ಪಿಷ್ಟವನ್ನು (ಹಿಂಡಿ-ಕಾಳು ಆಹಾರ) ಹೆಚ್ಚು ಪ್ರಮಾಣದಲ್ಲಿ ತುಂಬಾ ವೇಗವಾಗಿ ಕೊಡುವುದು", "जल्दी पचने वाला कार्बोहाइड्रेट (दाना) बहुत ज़्यादा मात्रा में बहुत तेज़ी से खिलाना"),
+              L("Giving the animal too much plain water", "పశువుకు చాలా ఎక్కువ మంచి నీరు ఇవ్వడం", "விலங்குக்கு மிக அதிகமாக சாதாரண தண்ணீர் கொடுப்பது", "ಪ್ರಾಣಿಗೆ ತುಂಬಾ ಹೆಚ್ಚು ಸಾದಾ ನೀರು ಕೊಡುವುದು", "पशु को बहुत ज़्यादा सादा पानी देना"),
+              L("Letting the animal rest too long", "పశువును చాలా ఎక్కువసేపు విశ్రాంతి తీసుకోనివ్వడం", "விலங்கை மிக நீண்ட நேரம் ஓய்வெடுக்க விடுவது", "ಪ್ರಾಣಿಯನ್ನು ತುಂಬಾ ಹೊತ್ತು ವಿಶ್ರಾಂತಿ ಪಡೆಯಲು ಬಿಡುವುದು", "पशु को बहुत देर तक आराम करने देना"),
+              L("Milking the animal too often", "పశువు నుండి చాలా తరచుగా పాలు పితకడం", "விலங்கிடம் மிக அடிக்கடி பால் கறப்பது", "ಪ್ರಾಣಿಯಿಂದ ತುಂಬಾ ಪದೇ ಪದೇ ಹಾಲು ಕರೆಯುವುದು", "पशु का दूध बहुत बार दुहना"),
             ],
             answer: 0,
-            explain: L("Acidosis happens when large quantities of rapidly digestible carbohydrate are fed in a short time, or when concentrate greatly outweighs forage over time."),
+            explain: L("Acidosis happens when large quantities of rapidly digestible carbohydrate are fed in a short time, or when concentrate greatly outweighs forage over time.", "త్వరగా జీర్ణమయ్యే పిండిపదార్థాలను తక్కువ సమయంలో ఎక్కువ మొత్తంలో ఇచ్చినప్పుడు, లేదా కాలక్రమంలో ఫోరేజ్ కంటే దాణా చాలా ఎక్కువగా ఉన్నప్పుడు అసిడోసిస్ వస్తుంది.", "விரைவாக செரிக்கும் மாவுச்சத்தை குறுகிய நேரத்தில் அதிக அளவில் கொடுக்கும்போது, அல்லது நீண்ட காலம் ஃபோரேஜை விட அடர் தீவனம் மிக அதிகமாக இருக்கும்போது அமிலத்தன்மை ஏற்படுகிறது.", "ಬೇಗ ಜೀರ್ಣವಾಗುವ ಪಿಷ್ಟವನ್ನು ಕಡಿಮೆ ಸಮಯದಲ್ಲಿ ಹೆಚ್ಚು ಪ್ರಮಾಣದಲ್ಲಿ ಕೊಟ್ಟಾಗ, ಅಥವಾ ದೀರ್ಘಕಾಲ ಫೋರೇಜ್‌ಗಿಂತ ಹಿಂಡಿ-ಕಾಳು ಆಹಾರ ತುಂಬಾ ಹೆಚ್ಚಾಗಿದ್ದಾಗ ಆಸಿಡೋಸಿಸ್ ಬರುತ್ತದೆ.", "एसिडोसिस तब होता है जब जल्दी पचने वाला कार्बोहाइड्रेट कम समय में बड़ी मात्रा में खिलाया जाए, या लंबे समय तक फोरेज के मुकाबले दाना बहुत ज़्यादा हो।"),
           },
           {
             type: "truefalse",
-            q: L("An animal with severe clinical acidosis that seems to improve at first can still become seriously ill again a few days later."),
+            q: L("An animal with severe clinical acidosis that seems to improve at first can still become seriously ill again a few days later.", "తీవ్రమైన క్లినికల్ అసిడోసిస్ ఉన్న పశువు మొదట మెరుగవుతున్నట్లు కనిపించినా, కొన్ని రోజుల తర్వాత మళ్లీ తీవ్రంగా అనారోగ్యం పాలవ్వచ్చు.", "தீவிர கிளினிக்கல் அமிலத்தன்மை உள்ள விலங்கு முதலில் தேறுவது போலத் தோன்றினாலும், சில நாட்களுக்குப் பிறகு மீண்டும் கடுமையாக நோய்வாய்ப்படலாம்.", "ತೀವ್ರ ಕ್ಲಿನಿಕಲ್ ಆಸಿಡೋಸಿಸ್ ಇರುವ ಪ್ರಾಣಿ ಮೊದಲು ಸುಧಾರಿಸಿದಂತೆ ಕಂಡರೂ, ಕೆಲವು ದಿನಗಳ ನಂತರ ಮತ್ತೆ ಗಂಭೀರವಾಗಿ ಅನಾರೋಗ್ಯಕ್ಕೆ ಒಳಗಾಗಬಹುದು.", "गंभीर क्लिनिकल एसिडोसिस वाला पशु शुरू में सुधरता दिखे, तब भी कुछ दिन बाद फिर से गंभीर रूप से बीमार हो सकता है।"),
             answer: true,
-            explain: L("Yes — some animals appear to improve, then become seriously ill again 3–4 days later. The outlook in severe cases is often poor."),
+            explain: L("Yes — some animals appear to improve, then become seriously ill again 3–4 days later. The outlook in severe cases is often poor.", "అవును — కొన్ని పశువులు మెరుగవుతున్నట్లు కనిపించి, 3–4 రోజుల తర్వాత మళ్లీ తీవ్రంగా అనారోగ్యం పాలవుతాయి. తీవ్రమైన కేసుల్లో కోలుకునే అవకాశాలు తరచుగా తక్కువగా ఉంటాయి.", "ஆம் — சில விலங்குகள் தேறுவது போலத் தோன்றி, 3–4 நாட்களுக்குப் பிறகு மீண்டும் கடுமையாக நோய்வாய்ப்படும். தீவிர நிலைகளில் குணமாகும் வாய்ப்பு பெரும்பாலும் குறைவு.", "ಹೌದು — ಕೆಲವು ಪ್ರಾಣಿಗಳು ಸುಧಾರಿಸಿದಂತೆ ಕಂಡು, 3–4 ದಿನಗಳ ನಂತರ ಮತ್ತೆ ಗಂಭೀರವಾಗಿ ಅನಾರೋಗ್ಯಕ್ಕೆ ಒಳಗಾಗುತ್ತವೆ. ತೀವ್ರ ಪ್ರಕರಣಗಳಲ್ಲಿ ಚೇತರಿಕೆಯ ಸಾಧ್ಯತೆ ಸಾಮಾನ್ಯವಾಗಿ ಕಡಿಮೆ.", "हाँ — कुछ पशु सुधरते दिखते हैं, फिर 3–4 दिन बाद दोबारा गंभीर रूप से बीमार हो जाते हैं। गंभीर मामलों में ठीक होने की उम्मीद अक्सर कम होती है।"),
           },
         ],
       },
@@ -7855,49 +7875,49 @@ export const MODULES = [
         {
           topicId: "t-m8-bloat",
           type: "mcq",
-          q: L("Which of these is a known cause of bloat?"),
+          q: L("Which of these is a known cause of bloat?", "వీటిలో బ్లోట్‌కు తెలిసిన కారణం ఏది?", "இவற்றில் வயிறு உப்புதலுக்கு அறியப்பட்ட காரணம் எது?", "ಇವುಗಳಲ್ಲಿ ಬ್ಲೋಟ್‌ಗೆ ತಿಳಿದ ಕಾರಣ ಯಾವುದು?", "इनमें से कौन सा ब्लोट का ज्ञात कारण है?"),
           options: [
-            L("Grazing on lush, wet pasture, especially plants like clover or lucerne"),
-            L("Drinking too much clean water"),
-            L("Standing in the sun for too long"),
-            L("Being milked twice a day"),
+            L("Grazing on lush, wet pasture, especially plants like clover or lucerne", "పచ్చని, తడి గడ్డి మేతపై మేయడం, ముఖ్యంగా క్లోవర్ లేదా లూసర్న్ వంటి మొక్కలు", "பசுமையான, ஈரமான மேய்ச்சல் நிலத்தில் மேய்வது, குறிப்பாக க்ளோவர் அல்லது லூசர்ன் போன்ற செடிகள்", "ಹಸಿರು, ಒದ್ದೆಯಾದ ಹುಲ್ಲುಗಾವಲಿನಲ್ಲಿ ಮೇಯುವುದು, ವಿಶೇಷವಾಗಿ ಕ್ಲೋವರ್ ಅಥವಾ ಲೂಸರ್ನ್ ಗಿಡಗಳು", "हरी-भरी, गीली चरागाह में चरना, खासकर क्लोवर या लूसर्न जैसे पौधे"),
+            L("Drinking too much clean water", "చాలా ఎక్కువ శుభ్రమైన నీరు తాగడం", "மிக அதிகமாக சுத்தமான தண்ணீர் குடிப்பது", "ತುಂಬಾ ಹೆಚ್ಚು ಶುದ್ಧ ನೀರು ಕುಡಿಯುವುದು", "बहुत ज़्यादा साफ़ पानी पीना"),
+            L("Standing in the sun for too long", "చాలా ఎక్కువసేపు ఎండలో నిలబడటం", "மிக நீண்ட நேரம் வெயிலில் நிற்பது", "ತುಂಬಾ ಹೊತ್ತು ಬಿಸಿಲಿನಲ್ಲಿ ನಿಲ್ಲುವುದು", "बहुत देर तक धूप में खड़े रहना"),
+            L("Being milked twice a day", "రోజుకు రెండుసార్లు పాలు పితకడం", "ஒரு நாளைக்கு இரண்டு முறை பால் கறக்கப்படுவது", "ದಿನಕ್ಕೆ ಎರಡು ಬಾರಿ ಹಾಲು ಕರೆಯಿಸಿಕೊಳ್ಳುವುದು", "दिन में दो बार दूध दुहा जाना"),
           ],
           answer: 0,
-          explain: L("Lush, wet pasture and fast-growing plants such as clover, lucerne and alfalfa are common causes of bloat, along with choking and some leftover foods."),
+          explain: L("Lush, wet pasture and fast-growing plants such as clover, lucerne and alfalfa are common causes of bloat, along with choking and some leftover foods.", "పచ్చని, తడి గడ్డి మేత మరియు క్లోవర్, లూసర్న్, అల్ఫాల్ఫా వంటి వేగంగా పెరిగే మొక్కలు, అలాగే గొంతులో ఏదైనా ఇరుక్కోవడం మరియు కొన్ని మిగిలిపోయిన ఆహారాలు బ్లోట్‌కు సాధారణ కారణాలు.", "பசுமையான, ஈரமான மேய்ச்சல் நிலம் மற்றும் க்ளோவர், லூசர்ன், அல்ஃபால்ஃபா போன்ற வேகமாக வளரும் செடிகள், அதோடு தொண்டையில் ஏதாவது அடைத்துக்கொள்வது மற்றும் சில மீதமான உணவுகள் வயிறு உப்புதலுக்கான பொதுவான காரணங்கள்.", "ಹಸಿರು, ಒದ್ದೆಯಾದ ಹುಲ್ಲುಗಾವಲು ಮತ್ತು ಕ್ಲೋವರ್, ಲೂಸರ್ನ್, ಅಲ್ಫಾಲ್ಫಾದಂತಹ ವೇಗವಾಗಿ ಬೆಳೆಯುವ ಗಿಡಗಳು, ಜೊತೆಗೆ ಗಂಟಲಲ್ಲಿ ಏನಾದರೂ ಸಿಕ್ಕಿಕೊಳ್ಳುವುದು ಮತ್ತು ಕೆಲವು ಉಳಿದ ಆಹಾರಗಳು ಬ್ಲೋಟ್‌ಗೆ ಸಾಮಾನ್ಯ ಕಾರಣಗಳು.", "हरी-भरी, गीली चरागाह और क्लोवर, लूसर्न व अल्फाल्फा जैसे तेज़ी से बढ़ने वाले पौधे, साथ ही गले में कुछ अटक जाना और कुछ बचा-खुचा खाना ब्लोट के आम कारण हैं।"),
         },
         {
           topicId: "t-m8-bloat",
           type: "truefalse",
-          q: L("A ballooning left flank together with difficulty breathing should be treated as an emergency, not something to just watch."),
+          q: L("A ballooning left flank together with difficulty breathing should be treated as an emergency, not something to just watch.", "ఎడమ పార్శ్వం బెలూన్‌లా ఉబ్బడంతో పాటు శ్వాస తీసుకోవడంలో ఇబ్బంది ఉంటే దాన్ని అత్యవసర పరిస్థితిగా పరిగణించాలి, కేవలం చూస్తూ ఉండకూడదు.", "இடது விலாப்பகுதி பலூன் போல வீங்குவதுடன் சுவாசிக்க சிரமம் இருந்தால் அதை அவசர நிலையாக கருத வேண்டும், வெறுமனே பார்த்துக்கொண்டிருக்கக் கூடாது.", "ಎಡ ಪಕ್ಕೆ ಬಲೂನಿನಂತೆ ಉಬ್ಬುವುದರ ಜೊತೆಗೆ ಉಸಿರಾಡಲು ಕಷ್ಟವಾದರೆ ಅದನ್ನು ತುರ್ತು ಪರಿಸ್ಥಿತಿ ಎಂದು ಪರಿಗಣಿಸಬೇಕು, ಸುಮ್ಮನೆ ನೋಡುತ್ತಾ ಕೂರಬಾರದು.", "बाईं कोख का गुब्बारे की तरह फूलना और साथ में साँस लेने में तकलीफ़ को आपात स्थिति मानना चाहिए, सिर्फ़ देखते नहीं रहना चाहिए।"),
           answer: true,
-          explain: L("Correct — bloat can move from mild to fatal quickly, so this combination of signs needs immediate help."),
+          explain: L("Correct — bloat can move from mild to fatal quickly, so this combination of signs needs immediate help.", "సరైనది — బ్లోట్ తేలికపాటి స్థాయి నుండి త్వరగా ప్రాణాంతక స్థాయికి చేరవచ్చు, కాబట్టి ఈ లక్షణాల కలయికకు వెంటనే సహాయం అవసరం.", "சரி — வயிறு உப்புதல் லேசான நிலையிலிருந்து விரைவாக உயிருக்கு ஆபத்தான நிலைக்குச் செல்லலாம், எனவே இந்த அறிகுறிகள் சேர்ந்து இருந்தால் உடனடி உதவி தேவை.", "ಸರಿ — ಬ್ಲೋಟ್ ಸೌಮ್ಯ ಹಂತದಿಂದ ಬೇಗನೆ ಪ್ರಾಣಾಂತಿಕ ಹಂತಕ್ಕೆ ಹೋಗಬಹುದು, ಆದ್ದರಿಂದ ಈ ಲಕ್ಷಣಗಳ ಸಂಯೋಜನೆಗೆ ತಕ್ಷಣದ ಸಹಾಯ ಬೇಕು.", "सही — ब्लोट हल्की अवस्था से जल्दी जानलेवा बन सकता है, इसलिए इन लक्षणों के एक साथ दिखने पर तुरंत मदद चाहिए।"),
         },
         {
           topicId: "t-m8-acidosis",
           type: "mcq",
-          q: L("An animal goes down and cannot get up within a day or two of being fed a large amount of rich concentrate. What is this most likely a sign of?"),
+          q: L("An animal goes down and cannot get up within a day or two of being fed a large amount of rich concentrate. What is this most likely a sign of?", "ఎక్కువ మొత్తంలో శక్తివంతమైన దాణా తిన్న ఒకటి రెండు రోజుల్లో పశువు కింద పడిపోయి లేవలేకపోతోంది. ఇది ఎక్కువగా దేనికి సంకేతం?", "அதிக அளவு சக்தி மிக்க அடர் தீவனம் சாப்பிட்ட ஒன்று அல்லது இரண்டு நாட்களுக்குள் ஒரு விலங்கு கீழே விழுந்து எழுந்திருக்க முடியவில்லை. இது பெரும்பாலும் எதன் அறிகுறி?", "ಹೆಚ್ಚು ಪ್ರಮಾಣದ ಶಕ್ತಿಯುತ ಹಿಂಡಿ-ಕಾಳು ಆಹಾರ ತಿಂದ ಒಂದೆರಡು ದಿನಗಳಲ್ಲಿ ಪ್ರಾಣಿ ಕೆಳಗೆ ಬಿದ್ದು ಏಳಲಾಗುತ್ತಿಲ್ಲ. ಇದು ಹೆಚ್ಚಾಗಿ ಯಾವುದರ ಲಕ್ಷಣ?", "बहुत ज़्यादा ताक़तवर दाना खाने के एक-दो दिन के अंदर पशु गिर जाता है और उठ नहीं पाता। यह सबसे ज़्यादा किस बात का संकेत है?"),
           options: [
-            L("Normal rest after eating well"),
-            L("Clinical acidosis, a feeding emergency needing a veterinarian right away"),
-            L("The animal is simply full"),
-            L("Nothing unusual — no need to report it"),
+            L("Normal rest after eating well", "బాగా తిన్న తర్వాత సాధారణ విశ్రాంతి", "நன்றாக சாப்பிட்ட பிறகு சாதாரண ஓய்வு", "ಚೆನ್ನಾಗಿ ತಿಂದ ನಂತರದ ಸಾಮಾನ್ಯ ವಿಶ್ರಾಂತಿ", "अच्छी तरह खाने के बाद सामान्य आराम"),
+            L("Clinical acidosis, a feeding emergency needing a veterinarian right away", "క్లినికల్ అసిడోసిస్, వెంటనే వెటర్నరీ డాక్టర్ అవసరమయ్యే మేత సంబంధిత అత్యవసర పరిస్థితి", "கிளினிக்கல் அமிலத்தன்மை, உடனே வெட்டரினரி டாக்டர் தேவைப்படும் தீவனம் தொடர்பான அவசர நிலை", "ಕ್ಲಿನಿಕಲ್ ಆಸಿಡೋಸಿಸ್, ತಕ್ಷಣ ಪಶುವೈದ್ಯರು ಬೇಕಾದ ಆಹಾರ ಸಂಬಂಧಿತ ತುರ್ತು ಪರಿಸ್ಥಿತಿ", "क्लिनिकल एसिडोसिस, चारे से जुड़ी आपात स्थिति जिसमें तुरंत डॉक्टर चाहिए"),
+            L("The animal is simply full", "పశువు కడుపు నిండి ఉంది అంతే", "விலங்கு வெறுமனே வயிறு நிறைந்திருக்கிறது", "ಪ್ರಾಣಿಯ ಹೊಟ್ಟೆ ಸುಮ್ಮನೆ ತುಂಬಿದೆ ಅಷ್ಟೇ", "पशु का बस पेट भरा हुआ है"),
+            L("Nothing unusual — no need to report it", "అసాధారణం ఏమీ లేదు — తెలియజేయాల్సిన అవసరం లేదు", "வழக்கத்திற்கு மாறாக எதுவும் இல்லை — தெரிவிக்க தேவையில்லை", "ಅಸಾಮಾನ್ಯ ಏನೂ ಇಲ್ಲ — ತಿಳಿಸುವ ಅಗತ್ಯವಿಲ್ಲ", "कुछ भी असामान्य नहीं — बताने की ज़रूरत नहीं"),
           ],
           answer: 1,
-          explain: L("This pattern matches clinical acidosis, which can make an animal recumbent within 24–48 hours and needs urgent veterinary attention."),
+          explain: L("This pattern matches clinical acidosis, which can make an animal recumbent within 24–48 hours and needs urgent veterinary attention.", "ఈ లక్షణాల తీరు క్లినికల్ అసిడోసిస్‌కు సరిపోతుంది, ఇది 24–48 గంటల్లో పశువును కింద పడేలా చేయవచ్చు మరియు అత్యవసరంగా వెటర్నరీ వైద్య సహాయం అవసరం.", "இந்த அறிகுறி முறை கிளினிக்கல் அமிலத்தன்மைக்கு பொருந்துகிறது, இது 24–48 மணி நேரத்தில் விலங்கை கீழே விழச் செய்யலாம், உடனடி வெட்டரினரி சிகிச்சை தேவை.", "ಈ ಲಕ್ಷಣಗಳ ರೀತಿ ಕ್ಲಿನಿಕಲ್ ಆಸಿಡೋಸಿಸ್‌ಗೆ ಹೊಂದುತ್ತದೆ, ಇದು 24–48 ಗಂಟೆಗಳಲ್ಲಿ ಪ್ರಾಣಿಯನ್ನು ಕೆಳಗೆ ಬೀಳಿಸಬಹುದು ಮತ್ತು ತುರ್ತು ಪಶುವೈದ್ಯಕೀಯ ಗಮನ ಬೇಕು.", "यह पैटर्न क्लिनिकल एसिडोसिस से मेल खाता है, जो 24–48 घंटों में पशु को गिरा सकता है और इसमें तुरंत डॉक्टर की देखरेख चाहिए।"),
         },
         {
           topicId: "t-m8-acidosis",
           type: "truefalse",
-          q: L("Sub-Acute Ruminal Acidosis (SARA) is often caused by abruptly switching an animal from a high-fibre diet to a high-concentrate diet."),
+          q: L("Sub-Acute Ruminal Acidosis (SARA) is often caused by abruptly switching an animal from a high-fibre diet to a high-concentrate diet.", "సబ్-అక్యూట్ రుమినల్ అసిడోసిస్ (SARA) తరచుగా పశువును ఎక్కువ పీచు ఉన్న ఆహారం నుండి ఎక్కువ దాణా ఉన్న ఆహారానికి ఒక్కసారిగా మార్చడం వల్ల వస్తుంది.", "சப்-அக்யூட் ருமினல் அசிடோசிஸ் (SARA) பெரும்பாலும் விலங்கை அதிக நார்ச்சத்து உணவிலிருந்து அதிக அடர் தீவன உணவுக்கு திடீரென மாற்றுவதால் ஏற்படுகிறது.", "ಸಬ್-ಅಕ್ಯೂಟ್ ರುಮಿನಲ್ ಆಸಿಡೋಸಿಸ್ (SARA) ಸಾಮಾನ್ಯವಾಗಿ ಪ್ರಾಣಿಯನ್ನು ಹೆಚ್ಚು ನಾರಿನ ಆಹಾರದಿಂದ ಹೆಚ್ಚು ಹಿಂಡಿ-ಕಾಳು ಆಹಾರಕ್ಕೆ ಹಠಾತ್ ಬದಲಾಯಿಸುವುದರಿಂದ ಬರುತ್ತದೆ.", "सब-एक्यूट रूमिनल एसिडोसिस (SARA) अक्सर पशु को ज़्यादा रेशे वाले आहार से ज़्यादा दाने वाले आहार पर अचानक ले जाने से होता है।"),
           answer: true,
-          explain: L("Yes — SARA is mainly linked to abrupt diet switches toward more concentrate, and to poorly balanced or overly fine-chopped rations."),
+          explain: L("Yes — SARA is mainly linked to abrupt diet switches toward more concentrate, and to poorly balanced or overly fine-chopped rations.", "అవును — SARA ప్రధానంగా ఎక్కువ దాణా వైపు ఆహారాన్ని ఒక్కసారిగా మార్చడంతో, అలాగే సరిగ్గా సమతుల్యం కాని లేదా మరీ సన్నగా ముక్కలు చేసిన రేషన్లతో ముడిపడి ఉంది.", "ஆம் — SARA முக்கியமாக அதிக அடர் தீவனத்தை நோக்கிய திடீர் உணவு மாற்றங்களுடனும், சரியாக சமநிலையற்ற அல்லது மிக நுணுக்கமாக நறுக்கிய ரேஷன்களுடனும் தொடர்புடையது.", "ಹೌದು — SARA ಮುಖ್ಯವಾಗಿ ಹೆಚ್ಚು ಹಿಂಡಿ-ಕಾಳು ಆಹಾರದ ಕಡೆಗಿನ ಹಠಾತ್ ಆಹಾರ ಬದಲಾವಣೆಗಳೊಂದಿಗೆ, ಮತ್ತು ಸರಿಯಾಗಿ ಸಮತೋಲನವಿಲ್ಲದ ಅಥವಾ ತೀರಾ ಸಣ್ಣಗೆ ಕತ್ತರಿಸಿದ ರೇಷನ್‌ಗಳೊಂದಿಗೆ ಸಂಬಂಧಿಸಿದೆ.", "हाँ — SARA मुख्य रूप से ज़्यादा दाने की ओर अचानक आहार बदलने से, और खराब संतुलित या बहुत बारीक कटे राशन से जुड़ा है।"),
         },
         {
           topicId: "t-m8-acidosis",
           type: "mcq",
-          q: L("What everyday feeding habit helps protect the rumen against acidosis?"),
+          q: L("What everyday feeding habit helps protect the rumen against acidosis?", "అసిడోసిస్ నుండి రుమెన్‌ను కాపాడటానికి ఏ రోజువారీ మేత అలవాటు సహాయపడుతుంది?", "அமிலத்தன்மையிலிருந்து ருமனைப் பாதுகாக்க எந்த அன்றாட தீவன பழக்கம் உதவுகிறது?", "ಆಸಿಡೋಸಿಸ್‌ನಿಂದ ರುಮೆನ್ ಅನ್ನು ರಕ್ಷಿಸಲು ಯಾವ ದೈನಂದಿನ ಆಹಾರ ಅಭ್ಯಾಸ ಸಹಾಯ ಮಾಡುತ್ತದೆ?", "रोज़ की कौन सी खिलाने की आदत रूमेन को एसिडोसिस से बचाने में मदद करती है?"),
           options: [
-            L("Giving roughage before concentrate in the morning, so enough saliva is produced"),
+            L("Giving roughage before concentrate in the morning, so enough saliva is produced", "ఉదయం దాణా కంటే ముందు రఫేజ్ ఇవ్వడం, తద్వారా తగినంత లాలాజలం ఉత్పత్తి అవుతుంది", "காலையில் அடர் தீவனத்திற்கு முன் ரஃபேஜ் கொடுப்பது, அப்போது போதுமான உமிழ்நீர் சுரக்கும்", "ಬೆಳಿಗ್ಗೆ ಹಿಂಡಿ-ಕಾಳು ಆಹಾರಕ್ಕೆ ಮೊದಲು ರಫೇಜ್ ಕೊಡುವುದು, ಆಗ ಸಾಕಷ್ಟು ಜೊಲ್ಲು ಉತ್ಪತ್ತಿಯಾಗುತ್ತದೆ", "सुबह दाने से पहले रफेज देना, ताकि पर्याप्त लार बने"),
             L("Giving only concentrate feed, with no roughage at all"),
             L("Switching suddenly to a much richer diet whenever milk yield drops"),
             L("Feeding as much rapidly digestible carbohydrate as possible"),
