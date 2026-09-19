@@ -1966,8 +1966,20 @@ export const MODULES = [
   {
     id: "m2",
     number: 2,
-    title: L("Buying, Inducting & Aging a New Animal"),
-    subtitle: L("Choosing a healthy animal, keeping a new arrival separate for a while, and telling roughly how old an animal is."),
+    title: L(
+      "Buying, Inducting & Aging a New Animal",
+      "కొత్త జంతువును కొనడం, లోపలికి తీసుకురావడం మరియు వయసు తెలుసుకోవడం",
+      "புதிய விலங்கை வாங்குதல், பண்ணையில் சேர்த்தல் மற்றும் வயது அறிதல்",
+      "ಹೊಸ ಪ್ರಾಣಿಯನ್ನು ಖರೀದಿಸುವುದು, ಸೇರಿಸಿಕೊಳ್ಳುವುದು ಮತ್ತು ವಯಸ್ಸು ತಿಳಿಯುವುದು",
+      "नया पशु खरीदना, उसे झुंड में शामिल करना और उम्र पहचानना"
+    ),
+    subtitle: L(
+      "Choosing a healthy animal, keeping a new arrival separate for a while, and telling roughly how old an animal is.",
+      "ఆరోగ్యంగా ఉన్న జంతువును ఎంచుకోవడం, కొత్తగా వచ్చిన జంతువును కొంతకాలం వేరుగా ఉంచడం, మరియు జంతువు వయసు ఎంతో దాదాపుగా చెప్పడం.",
+      "ஆரோக்கியமான விலங்கைத் தேர்ந்தெடுப்பது, புதிதாக வந்த விலங்கை சிறிது காலம் தனியாக வைத்திருப்பது, மற்றும் விலங்கின் வயதை ஏறக்குறைய கணிப்பது.",
+      "ಆರೋಗ್ಯವಾದ ಪ್ರಾಣಿಯನ್ನು ಆಯ್ಕೆ ಮಾಡುವುದು, ಹೊಸದಾಗಿ ಬಂದ ಪ್ರಾಣಿಯನ್ನು ಸ್ವಲ್ಪ ಕಾಲ ಪ್ರತ್ಯೇಕವಾಗಿ ಇಡುವುದು, ಮತ್ತು ಪ್ರಾಣಿಯ ವಯಸ್ಸನ್ನು ಸುಮಾರಾಗಿ ಹೇಳುವುದು.",
+      "स्वस्थ पशु चुनना, नए आए पशु को कुछ समय अलग रखना, और पशु की उम्र का मोटा अंदाज़ा लगाना।"
+    ),
     icon: "clipboard",
     available: true,
     lessons: [
@@ -1976,66 +1988,164 @@ export const MODULES = [
       // ==================================================================
       {
         id: "m2-l1",
-        title: L("Choosing a Healthy Animal to Buy"),
+        title: L(
+          "Choosing a Healthy Animal to Buy",
+          "కొనడానికి ఆరోగ్యంగా ఉన్న జంతువును ఎంచుకోవడం",
+          "வாங்குவதற்கு ஆரோக்கியமான விலங்கைத் தேர்ந்தெடுப்பது",
+          "ಖರೀದಿಗೆ ಆರೋಗ್ಯವಾದ ಪ್ರಾಣಿಯನ್ನು ಆಯ್ಕೆ ಮಾಡುವುದು",
+          "खरीदने के लिए स्वस्थ पशु चुनना"
+        ),
         estMinutes: 9,
         hook: [
           {
             type: "hero",
-            heading: L("A New Animal Can Bring New Problems With It"),
+            heading: L(
+              "A New Animal Can Bring New Problems With It",
+              "కొత్త జంతువు కొత్త సమస్యలను తీసుకురావచ్చు",
+              "புதிய விலங்கு புதிய பிரச்சினைகளையும் கொண்டு வரலாம்",
+              "ಹೊಸ ಪ್ರಾಣಿ ಹೊಸ ಸಮಸ್ಯೆಗಳನ್ನೂ ತರಬಹುದು",
+              "नया पशु अपने साथ नई समस्याएँ भी ला सकता है"
+            ),
             text: L(
-              "A newly bought animal is one of the biggest ways a new disease can enter a herd (a group of animals kept together). Before anyone hands over money, a careful look — using the same watching-and-checking skills from Module 1 — can save the whole herd a lot of trouble later. This lesson shows you exactly what to look for."
+              "A newly bought animal is one of the biggest ways a new disease can enter a herd (a group of animals kept together). Before anyone hands over money, a careful look — using the same watching-and-checking skills from Module 1 — can save the whole herd a lot of trouble later. This lesson shows you exactly what to look for.",
+              "కొత్తగా కొన్న జంతువు ద్వారా మందలోకి (కలిసి ఉంచిన జంతువుల గుంపులోకి) కొత్త వ్యాధి ప్రవేశించే అవకాశం చాలా ఎక్కువ. డబ్బులు ఇచ్చే ముందే, మాడ్యూల్ 1 లో నేర్చుకున్న గమనించి చూసే నైపుణ్యాలతో జాగ్రత్తగా చూస్తే, తర్వాత మొత్తం మందకు చాలా ఇబ్బంది తప్పుతుంది. దేనిని చూడాలో ఈ పాఠం మీకు ఖచ్చితంగా చూపిస్తుంది.",
+              "புதிதாக வாங்கிய விலங்கு வழியாக மந்தைக்குள் (ஒன்றாக வைத்திருக்கும் விலங்குகளின் கூட்டம்) புதிய நோய் நுழைய வாய்ப்பு அதிகம். பணம் கொடுப்பதற்கு முன்பே, மாட்யூல் 1-இல் கற்ற கவனித்துப் பார்க்கும் திறன்களால் கவனமாகப் பார்த்தால், பின்னர் முழு மந்தைக்கும் வரும் பெரிய சிரமத்தைத் தவிர்க்கலாம். எதைப் பார்க்க வேண்டும் என்பதை இந்தப் பாடம் சரியாகக் காட்டும்.",
+              "ಹೊಸದಾಗಿ ಖರೀದಿಸಿದ ಪ್ರಾಣಿಯ ಮೂಲಕ ಹಿಂಡಿಗೆ (ಒಟ್ಟಿಗೆ ಇಟ್ಟ ಪ್ರಾಣಿಗಳ ಗುಂಪು) ಹೊಸ ರೋಗ ಬರುವ ಸಾಧ್ಯತೆ ಹೆಚ್ಚು. ಹಣ ಕೊಡುವ ಮೊದಲೇ, ಮಾಡ್ಯೂಲ್ 1 ರಲ್ಲಿ ಕಲಿತ ಗಮನಿಸುವ ಕೌಶಲ್ಯಗಳಿಂದ ಎಚ್ಚರಿಕೆಯಿಂದ ನೋಡಿದರೆ, ನಂತರ ಇಡೀ ಹಿಂಡಿಗೆ ಬರುವ ದೊಡ್ಡ ತೊಂದರೆಯನ್ನು ತಪ್ಪಿಸಬಹುದು. ಏನನ್ನು ನೋಡಬೇಕು ಎಂದು ಈ ಪಾಠ ನಿಮಗೆ ಸರಿಯಾಗಿ ತೋರಿಸುತ್ತದೆ.",
+              "नया खरीदा हुआ पशु झुंड (एक साथ रखे गए पशुओं का समूह) में नई बीमारी आने का सबसे बड़ा रास्ता है। पैसे देने से पहले, मॉड्यूल 1 में सीखी देखने-जाँचने की समझ से ध्यान से देख लेने पर पूरे झुंड को बाद में बहुत परेशानी से बचाया जा सकता है। यह पाठ आपको ठीक-ठीक बताएगा कि क्या देखना है।"
             ),
           },
         ],
         topics: [
           {
             id: "t-m2-source-signs",
-            title: L("Where to Buy From, and the Signs of a Healthy Animal"),
+            title: L(
+              "Where to Buy From, and the Signs of a Healthy Animal",
+              "ఎక్కడ కొనాలి, మరియు ఆరోగ్యంగా ఉన్న జంతువు సంకేతాలు",
+              "எங்கே வாங்க வேண்டும், ஆரோக்கியமான விலங்கின் அறிகுறிகள்",
+              "ಎಲ್ಲಿ ಖರೀದಿಸಬೇಕು, ಮತ್ತು ಆರೋಗ್ಯವಾದ ಪ್ರಾಣಿಯ ಲಕ್ಷಣಗಳು",
+              "कहाँ से खरीदें, और स्वस्थ पशु के लक्षण"
+            ),
             teach: [
             {
               type: "photo",
               src: "assets/photo-m2-healthy-signs.jpg",
-              alt: L("A tethered Sahiwal cow standing indoors on a dairy unit floor, ears up and alert, with a glossy reddish-brown coat."),
-              caption: L("A healthy animal stands alert with ears up and a glossy coat — exactly the signs to look for before buying."),
+              alt: L(
+                "A tethered Sahiwal cow standing indoors on a dairy unit floor, ears up and alert, with a glossy reddish-brown coat.",
+                "డెయిరీ యూనిట్ నేలపై ఇంటి లోపల కట్టి ఉంచిన సాహివాల్ ఆవు, చెవులు నిక్కబొడిచి అప్రమత్తంగా నిలబడి ఉంది, మెరిసే ఎరుపు-గోధుమ రంగు చర్మంతో.",
+                "பால் பண்ணைத் தரையில் உள்ளே கட்டப்பட்டு நிற்கும் சாஹிவால் பசு, காதுகளை உயர்த்தி விழிப்புடன், பளபளப்பான சிவப்பு-பழுப்பு நிற உடலுடன்.",
+                "ಡೈರಿ ಘಟಕದ ನೆಲದ ಮೇಲೆ ಒಳಗೆ ಕಟ್ಟಿರುವ ಸಾಹಿವಾಲ್ ಹಸು, ಕಿವಿ ಎತ್ತಿ ಎಚ್ಚರದಿಂದ ನಿಂತಿದೆ, ಹೊಳೆಯುವ ಕೆಂಪು-ಕಂದು ಬಣ್ಣದ ಚರ್ಮದೊಂದಿಗೆ.",
+                "डेयरी यूनिट के फर्श पर अंदर बँधी एक साहीवाल गाय, कान खड़े और सतर्क, चमकदार लाल-भूरे रंग की खाल के साथ।"
+              ),
+              caption: L(
+                "A healthy animal stands alert with ears up and a glossy coat — exactly the signs to look for before buying.",
+                "ఆరోగ్యంగా ఉన్న జంతువు చెవులు నిక్కబొడిచి, మెరిసే చర్మంతో అప్రమత్తంగా నిలబడుతుంది — కొనే ముందు చూడాల్సిన సంకేతాలు ఇవే.",
+                "ஆரோக்கியமான விலங்கு காதுகளை உயர்த்தி, பளபளப்பான உடலுடன் விழிப்புடன் நிற்கும் — வாங்கும் முன் பார்க்க வேண்டிய அறிகுறிகள் இவையே.",
+                "ಆರೋಗ್ಯವಾದ ಪ್ರಾಣಿ ಕಿವಿ ಎತ್ತಿ, ಹೊಳೆಯುವ ಚರ್ಮದೊಂದಿಗೆ ಎಚ್ಚರದಿಂದ ನಿಲ್ಲುತ್ತದೆ — ಖರೀದಿಸುವ ಮೊದಲು ನೋಡಬೇಕಾದ ಲಕ್ಷಣಗಳು ಇವೇ.",
+                "स्वस्थ पशु कान खड़े करके और चमकदार खाल के साथ सतर्क खड़ा रहता है — खरीदने से पहले यही लक्षण देखने हैं।"
+              ),
             },
               {
                 type: "text",
-                heading: L("Why the Purchase Decision Matters"),
+                heading: L(
+                  "Why the Purchase Decision Matters",
+                  "కొనుగోలు నిర్ణయం ఎందుకు ముఖ్యం",
+                  "வாங்கும் முடிவு ஏன் முக்கியம்",
+                  "ಖರೀದಿ ನಿರ್ಧಾರ ಏಕೆ ಮುಖ್ಯ",
+                  "खरीद का फैसला क्यों मायने रखता है"
+                ),
                 html: L(
-                  "Where an animal comes from, and how it looks and behaves on the day it's bought, both matter enormously. A hidden problem picked up before purchase can spread through an entire herd once the new animal arrives. None of this requires special equipment — it's the same kind of watching you already practised in Module 1, just applied before an animal even joins the herd."
+                  "Where an animal comes from, and how it looks and behaves on the day it's bought, both matter enormously. A hidden problem picked up before purchase can spread through an entire herd once the new animal arrives. None of this requires special equipment — it's the same kind of watching you already practised in Module 1, just applied before an animal even joins the herd.",
+                  "జంతువు ఎక్కడి నుంచి వచ్చింది, కొన్న రోజున అది ఎలా కనిపిస్తోంది, ఎలా ప్రవర్తిస్తోంది — ఇవి రెండూ చాలా ముఖ్యం. కొనే ముందే ఏదైనా దాగి ఉన్న సమస్య ఉంటే, కొత్త జంతువు వచ్చాక అది మొత్తం మందకు వ్యాపించవచ్చు. దీనికి ప్రత్యేక పరికరాలు ఏమీ అవసరం లేదు — మాడ్యూల్ 1 లో మీరు ఇప్పటికే సాధన చేసిన గమనించే పద్ధతే, జంతువు మందలో చేరకముందే వాడటం అంతే.",
+                  "விலங்கு எங்கிருந்து வருகிறது, வாங்கும் நாளில் அது எப்படித் தோன்றுகிறது, எப்படி நடந்துகொள்கிறது — இரண்டுமே மிக முக்கியம். வாங்குவதற்கு முன்பே மறைந்திருக்கும் பிரச்சினை இருந்தால், புதிய விலங்கு வந்ததும் அது முழு மந்தைக்கும் பரவலாம். இதற்கு எந்த சிறப்பு கருவியும் தேவையில்லை — மாட்யூல் 1-இல் நீங்கள் ஏற்கனவே பழகிய கவனிக்கும் முறையையே, விலங்கு மந்தையில் சேருவதற்கு முன்பே பயன்படுத்துவதுதான்.",
+                  "ಪ್ರಾಣಿ ಎಲ್ಲಿಂದ ಬಂದಿದೆ, ಖರೀದಿಸಿದ ದಿನ ಅದು ಹೇಗೆ ಕಾಣುತ್ತದೆ, ಹೇಗೆ ವರ್ತಿಸುತ್ತದೆ — ಇವೆರಡೂ ಬಹಳ ಮುಖ್ಯ. ಖರೀದಿಗೆ ಮೊದಲೇ ಅಡಗಿರುವ ಸಮಸ್ಯೆ ಇದ್ದರೆ, ಹೊಸ ಪ್ರಾಣಿ ಬಂದ ಮೇಲೆ ಅದು ಇಡೀ ಹಿಂಡಿಗೆ ಹರಡಬಹುದು. ಇದಕ್ಕೆ ಯಾವುದೇ ವಿಶೇಷ ಉಪಕರಣ ಬೇಕಿಲ್ಲ — ಮಾಡ್ಯೂಲ್ 1 ರಲ್ಲಿ ನೀವು ಈಗಾಗಲೇ ಅಭ್ಯಾಸ ಮಾಡಿದ ಗಮನಿಸುವ ವಿಧಾನವನ್ನೇ, ಪ್ರಾಣಿ ಹಿಂಡಿಗೆ ಸೇರುವ ಮೊದಲೇ ಬಳಸುವುದಷ್ಟೇ.",
+                  "पशु कहाँ से आया है, और खरीदने के दिन वह कैसा दिखता और बर्ताव करता है — दोनों बहुत मायने रखते हैं। खरीदने से पहले की कोई छिपी समस्या, नया पशु आते ही पूरे झुंड में फैल सकती है। इसके लिए किसी खास उपकरण की ज़रूरत नहीं — यह वही देखने का तरीका है जो आपने मॉड्यूल 1 में सीखा, बस पशु के झुंड में शामिल होने से पहले इस्तेमाल करना है।"
                 ),
               },
               {
                 type: "glossary",
-                term: L("Cattle Market / Shandy"),
+                term: L(
+                  "Cattle Market / Shandy",
+                  "పశువుల సంత / షాండీ",
+                  "மாட்டுச் சந்தை / ஷாண்டி",
+                  "ಜಾನುವಾರು ಸಂತೆ / ಶಾಂಡಿ",
+                  "पशु बाज़ार / शैंडी"
+                ),
                 meaning: L(
-                  "A place where animals from many different farms are brought together at once to be bought and sold. Because so many unrelated animals mix in one place, the chance that an animal has been exposed to disease there is higher than buying directly from a farm whose animals you can see for yourself."
+                  "A place where animals from many different farms are brought together at once to be bought and sold. Because so many unrelated animals mix in one place, the chance that an animal has been exposed to disease there is higher than buying directly from a farm whose animals you can see for yourself.",
+                  "చాలా వేర్వేరు పొలాల నుంచి జంతువులను ఒకేసారి తీసుకువచ్చి కొనడం, అమ్మడం జరిగే చోటు. ఒకే చోట ఒకదానికొకటి సంబంధం లేని చాలా జంతువులు కలవడం వల్ల, అక్కడ జంతువుకు వ్యాధి సోకే అవకాశం, జంతువులను మీరే చూడగలిగే పొలం నుంచి నేరుగా కొనడం కంటే ఎక్కువ.",
+                  "பல்வேறு பண்ணைகளிலிருந்து விலங்குகளை ஒரே இடத்தில் கொண்டு வந்து வாங்கி விற்கும் இடம். ஒரே இடத்தில் தொடர்பில்லாத பல விலங்குகள் கலப்பதால், அங்கு விலங்குக்கு நோய் தொற்றும் வாய்ப்பு, நீங்களே பார்க்கக்கூடிய பண்ணையிலிருந்து நேரடியாக வாங்குவதை விட அதிகம்.",
+                  "ಹಲವಾರು ಬೇರೆ ಬೇರೆ ಫಾರಂಗಳ ಪ್ರಾಣಿಗಳನ್ನು ಒಂದೇ ಬಾರಿ ತಂದು ಖರೀದಿ, ಮಾರಾಟ ಮಾಡುವ ಸ್ಥಳ. ಒಂದೇ ಜಾಗದಲ್ಲಿ ಪರಸ್ಪರ ಸಂಬಂಧವಿಲ್ಲದ ಅನೇಕ ಪ್ರಾಣಿಗಳು ಬೆರೆಯುವುದರಿಂದ, ಅಲ್ಲಿ ಪ್ರಾಣಿಗೆ ರೋಗ ತಗಲುವ ಸಾಧ್ಯತೆ, ನೀವೇ ನೋಡಬಹುದಾದ ಫಾರಂನಿಂದ ನೇರವಾಗಿ ಖರೀದಿಸುವುದಕ್ಕಿಂತ ಹೆಚ್ಚು.",
+                  "ऐसी जगह जहाँ कई अलग-अलग फार्मों के पशु एक साथ लाकर खरीदे-बेचे जाते हैं। एक ही जगह पर इतने अनजान पशु आपस में मिलते हैं, इसलिए वहाँ किसी पशु के बीमारी के संपर्क में आने की संभावना उस फार्म से सीधे खरीदने से ज़्यादा होती है जहाँ के पशु आप खुद देख सकते हैं।"
                 ),
               },
               {
                 type: "callout",
                 style: "info",
-                heading: L("Prefer a Known, Tested Farm"),
+                heading: L(
+                  "Prefer a Known, Tested Farm",
+                  "తెలిసిన, పరీక్షలు చేసే పొలం నుంచి కొనడం మంచిది",
+                  "அறிந்த, பரிசோதனை செய்யும் பண்ணையை விரும்புங்கள்",
+                  "ಗೊತ್ತಿರುವ, ಪರೀಕ್ಷೆ ಮಾಡುವ ಫಾರಂ ಆಯ್ಕೆ ಮಾಡಿ",
+                  "जाना-पहचाना, जाँच करने वाला फार्म चुनें"
+                ),
                 text: L(
-                  "It is better to buy from a known farm (government or private) that regularly tests its animals for serious diseases — such as TB, Johne's Disease (JD) and brucellosis — and removes any animal that tests positive. Buying directly from an owner's farm like this is safer than buying from a cattle market or shandy."
+                  "It is better to buy from a known farm (government or private) that regularly tests its animals for serious diseases — such as TB, Johne's Disease (JD) and brucellosis — and removes any animal that tests positive. Buying directly from an owner's farm like this is safer than buying from a cattle market or shandy.",
+                  "టీబీ, జాన్స్ వ్యాధి (JD), బ్రూసెల్లోసిస్ వంటి తీవ్రమైన వ్యాధుల కోసం తమ జంతువులను క్రమం తప్పకుండా పరీక్షించి, పాజిటివ్ వచ్చిన జంతువును తీసివేసే తెలిసిన పొలం (ప్రభుత్వ లేదా ప్రైవేట్) నుంచి కొనడం మంచిది. ఇలా యజమాని పొలం నుంచి నేరుగా కొనడం, పశువుల సంత లేదా షాండీలో కొనడం కంటే సురక్షితం.",
+                  "காசநோய் (TB), ஜோன்ஸ் நோய் (JD), புருசெல்லோசிஸ் போன்ற தீவிர நோய்களுக்காகத் தங்கள் விலங்குகளை தவறாமல் பரிசோதித்து, பாசிட்டிவ் வந்த விலங்கை நீக்கும் அறிந்த பண்ணையிலிருந்து (அரசு அல்லது தனியார்) வாங்குவது நல்லது. இப்படி உரிமையாளரின் பண்ணையிலிருந்து நேரடியாக வாங்குவது, மாட்டுச் சந்தை அல்லது ஷாண்டியில் வாங்குவதை விட பாதுகாப்பானது.",
+                  "ಟಿಬಿ, ಜೋನ್ಸ್ ರೋಗ (JD), ಬ್ರೂಸೆಲ್ಲೋಸಿಸ್ ಮುಂತಾದ ಗಂಭೀರ ರೋಗಗಳಿಗೆ ತಮ್ಮ ಪ್ರಾಣಿಗಳನ್ನು ನಿಯಮಿತವಾಗಿ ಪರೀಕ್ಷಿಸಿ, ಪಾಸಿಟಿವ್ ಬಂದ ಪ್ರಾಣಿಯನ್ನು ತೆಗೆದುಹಾಕುವ ಗೊತ್ತಿರುವ ಫಾರಂನಿಂದ (ಸರ್ಕಾರಿ ಅಥವಾ ಖಾಸಗಿ) ಖರೀದಿಸುವುದು ಒಳ್ಳೆಯದು. ಹೀಗೆ ಮಾಲೀಕರ ಫಾರಂನಿಂದ ನೇರವಾಗಿ ಖರೀದಿಸುವುದು, ಜಾನುವಾರು ಸಂತೆ ಅಥವಾ ಶಾಂಡಿಯಲ್ಲಿ ಖರೀದಿಸುವುದಕ್ಕಿಂತ ಸುರಕ್ಷಿತ.",
+                  "टीबी, जॉन्स रोग (JD) और ब्रुसेलोसिस जैसी गंभीर बीमारियों के लिए अपने पशुओं की नियमित जाँच करने वाले और पॉज़िटिव निकले पशु को हटा देने वाले जाने-पहचाने फार्म (सरकारी या निजी) से खरीदना बेहतर है। मालिक के फार्म से इस तरह सीधे खरीदना, पशु बाज़ार या शैंडी से खरीदने से ज़्यादा सुरक्षित है।"
                 ),
               },
               {
                 type: "stat-grid",
                 items: [
                   {
-                    label: L("Eyes"),
-                    text: L("Should be bright and clear — beware of eyes that look runny, crusty, or bloodshot."),
-                  },
-                  {
-                    label: L("Nose and breathing"),
+                    label: L(
+                      "Eyes",
+                      "కళ్ళు",
+                      "கண்கள்",
+                      "ಕಣ್ಣುಗಳು",
+                      "आँखें"
+                    ),
                     text: L(
-                      "The muzzle (nose-and-mouth area) should feel cool and a little moist, with the animal licking it now and then. Breathing should look regular and easy — beware of discharge, coughing, wheezing, or laboured breathing."
+                      "Should be bright and clear — beware of eyes that look runny, crusty, or bloodshot.",
+                      "ప్రకాశవంతంగా, స్పష్టంగా ఉండాలి — నీరు కారుతున్న, పొక్కులు కట్టిన, లేదా ఎర్రబడిన కళ్ళ పట్ల జాగ్రత్త.",
+                      "பிரகாசமாகவும் தெளிவாகவும் இருக்க வேண்டும் — நீர் வடியும், அழுக்கு படிந்த, அல்லது சிவந்த கண்களைக் கவனியுங்கள்.",
+                      "ಪ್ರಕಾಶಮಾನವಾಗಿ, ಸ್ಪಷ್ಟವಾಗಿ ಇರಬೇಕು — ನೀರು ಸುರಿಯುವ, ಪಿಸಿರು ಕಟ್ಟಿದ, ಅಥವಾ ಕೆಂಪಾದ ಕಣ್ಣುಗಳ ಬಗ್ಗೆ ಎಚ್ಚರ.",
+                      "चमकदार और साफ़ होनी चाहिए — पानी बहती, पपड़ी जमी या लाल आँखों से सावधान रहें।"
                     ),
                   },
                   {
-                    label: L("Coat"),
-                    text: L("Should look glossy, clean, and even — free of ticks, lice, or any other parasites or skin eruptions."),
+                    label: L(
+                      "Nose and breathing",
+                      "ముక్కు మరియు శ్వాస",
+                      "மூக்கும் மூச்சும்",
+                      "ಮೂಗು ಮತ್ತು ಉಸಿರಾಟ",
+                      "नाक और साँस"
+                    ),
+                    text: L(
+                      "The muzzle (nose-and-mouth area) should feel cool and a little moist, with the animal licking it now and then. Breathing should look regular and easy — beware of discharge, coughing, wheezing, or laboured breathing.",
+                      "మూతి (ముక్కు, నోటి భాగం) చల్లగా, కొద్దిగా తడిగా అనిపించాలి, జంతువు అప్పుడప్పుడు దానిని నాక్కుంటూ ఉండాలి. శ్వాస క్రమంగా, సులభంగా కనిపించాలి — ముక్కు నుంచి స్రావం, దగ్గు, గురక, లేదా శ్వాస తీసుకోవడంలో ఇబ్బంది ఉంటే జాగ్రత్త.",
+                      "மூக்குப் பகுதி (மூக்கும் வாயும்) குளிர்ச்சியாகவும் சற்று ஈரமாகவும் இருக்க வேண்டும், விலங்கு அவ்வப்போது அதை நக்கிக்கொள்ள வேண்டும். மூச்சு சீராகவும் எளிதாகவும் தெரிய வேண்டும் — மூக்கில் வடிதல், இருமல், மூச்சிரைப்பு, அல்லது மூச்சு விட சிரமம் இருந்தால் கவனமாக இருங்கள்.",
+                      "ಮೂತಿ (ಮೂಗು-ಬಾಯಿ ಭಾಗ) ತಣ್ಣಗೆ, ಸ್ವಲ್ಪ ತೇವವಾಗಿ ಇರಬೇಕು, ಪ್ರಾಣಿ ಆಗಾಗ ಅದನ್ನು ನೆಕ್ಕುತ್ತಿರಬೇಕು. ಉಸಿರಾಟ ಸರಾಗವಾಗಿ, ಸುಲಭವಾಗಿ ಕಾಣಬೇಕು — ಮೂಗಿನಿಂದ ಸೋರಿಕೆ, ಕೆಮ್ಮು, ಗುರುಗುಟ್ಟುವಿಕೆ, ಅಥವಾ ಉಸಿರಾಡಲು ಕಷ್ಟ ಇದ್ದರೆ ಎಚ್ಚರ.",
+                      "थूथन (नाक-मुँह का हिस्सा) ठंडा और थोड़ा नम लगना चाहिए, और पशु बीच-बीच में उसे चाटता रहे। साँस नियमित और आसान दिखनी चाहिए — नाक से पानी या स्राव, खाँसी, घरघराहट या साँस लेने में तकलीफ़ हो तो सावधान रहें।"
+                    ),
+                  },
+                  {
+                    label: L(
+                      "Coat",
+                      "చర్మం / రోమం",
+                      "தோல் / முடி",
+                      "ಚರ್ಮ / ಕೂದಲು",
+                      "खाल / बाल"
+                    ),
+                    text: L(
+                      "Should look glossy, clean, and even — free of ticks, lice, or any other parasites or skin eruptions.",
+                      "మెరిసేలా, శుభ్రంగా, ఒకే విధంగా ఉండాలి — పేలు, పేను, ఇతర పరాన్నజీవులు లేదా చర్మంపై పొక్కులు ఉండకూడదు.",
+                      "பளபளப்பாகவும், சுத்தமாகவும், சீராகவும் இருக்க வேண்டும் — உண்ணிகள், பேன்கள், மற்ற ஒட்டுண்ணிகள் அல்லது தோல் புண்கள் இருக்கக் கூடாது.",
+                      "ಹೊಳೆಯುವಂತೆ, ಸ್ವಚ್ಛವಾಗಿ, ಒಂದೇ ರೀತಿ ಇರಬೇಕು — ಉಣ್ಣಿ, ಹೇನು, ಇತರ ಪರಾವಲಂಬಿಗಳು ಅಥವಾ ಚರ್ಮದ ಗುಳ್ಳೆಗಳು ಇರಬಾರದು.",
+                      "चमकदार, साफ़ और एक-सा दिखना चाहिए — किलनी, जूँ या दूसरे परजीवी और खाल पर दाने-फुंसियाँ नहीं होनी चाहिए।"
+                    ),
                   },
                 ],
               },
@@ -2043,124 +2153,288 @@ export const MODULES = [
                 type: "stat-grid",
                 items: [
                   {
-                    label: L("Weight"),
-                    text: L("Should look like an average weight for its breed — beware of an animal that looks emaciated (very thin) or underweight."),
-                  },
-                  {
-                    label: L("Attitude"),
+                    label: L(
+                      "Weight",
+                      "బరువు",
+                      "எடை",
+                      "ತೂಕ",
+                      "वज़न"
+                    ),
                     text: L(
-                      "A healthy animal looks curious, alert and content. Beware of one that stands apart from the herd, seems disinterested in what's going on, or shows signs of a bad temper."
+                      "Should look like an average weight for its breed — beware of an animal that looks emaciated (very thin) or underweight.",
+                      "ఆ జాతికి సగటు బరువు ఉన్నట్లు కనిపించాలి — చాలా బక్కగా (ఎముకలు కనిపించేలా) లేదా తక్కువ బరువుతో ఉన్న జంతువు పట్ల జాగ్రత్త.",
+                      "அந்த இனத்துக்கு சராசரி எடை இருப்பது போல் தெரிய வேண்டும் — மிகவும் மெலிந்த (எலும்பு தெரியும்) அல்லது எடை குறைவான விலங்கைக் கவனமாகப் பாருங்கள்.",
+                      "ಆ ತಳಿಗೆ ಸರಾಸರಿ ತೂಕ ಇರುವಂತೆ ಕಾಣಬೇಕು — ತುಂಬಾ ಸೊರಗಿದ (ಎಲುಬು ಕಾಣುವ) ಅಥವಾ ಕಡಿಮೆ ತೂಕದ ಪ್ರಾಣಿ ಬಗ್ಗೆ ಎಚ್ಚರ.",
+                      "अपनी नस्ल के औसत वज़न जैसा दिखना चाहिए — बहुत दुबले (हड्डियाँ दिखती हों) या कम वज़न वाले पशु से सावधान रहें।"
                     ),
                   },
                   {
-                    label: L("Mobility"),
+                    label: L(
+                      "Attitude",
+                      "వైఖరి / ప్రవర్తన",
+                      "மனப்பான்மை / நடத்தை",
+                      "ವರ್ತನೆ",
+                      "व्यवहार"
+                    ),
                     text: L(
-                      "Walking should look easy and free of limps. Beware of a slow or uneven gait, a hunched position while sitting, or difficulty rising back up afterwards."
+                      "A healthy animal looks curious, alert and content. Beware of one that stands apart from the herd, seems disinterested in what's going on, or shows signs of a bad temper.",
+                      "ఆరోగ్యంగా ఉన్న జంతువు ఆసక్తిగా, అప్రమత్తంగా, సంతృప్తిగా కనిపిస్తుంది. మంద నుంచి దూరంగా ఒంటరిగా నిలబడేది, చుట్టూ జరిగేదాని మీద ఆసక్తి చూపనిది, లేదా కోపంగా ప్రవర్తించేది ఉంటే జాగ్రత్త.",
+                      "ஆரோக்கியமான விலங்கு ஆர்வமாகவும், விழிப்புடனும், திருப்தியாகவும் தெரியும். மந்தையிலிருந்து விலகித் தனியாக நிற்கும், சுற்றி நடப்பதில் ஆர்வம் காட்டாத, அல்லது முரட்டுத்தனம் காட்டும் விலங்கைக் கவனமாகப் பாருங்கள்.",
+                      "ಆರೋಗ್ಯವಾದ ಪ್ರಾಣಿ ಕುತೂಹಲದಿಂದ, ಎಚ್ಚರದಿಂದ, ತೃಪ್ತಿಯಿಂದ ಕಾಣುತ್ತದೆ. ಹಿಂಡಿನಿಂದ ದೂರ ಒಂಟಿಯಾಗಿ ನಿಲ್ಲುವ, ಸುತ್ತಲೂ ನಡೆಯುವುದರಲ್ಲಿ ಆಸಕ್ತಿ ತೋರದ, ಅಥವಾ ಕೋಪದ ಸ್ವಭಾವ ತೋರಿಸುವ ಪ್ರಾಣಿ ಬಗ್ಗೆ ಎಚ್ಚರ.",
+                      "स्वस्थ पशु जिज्ञासु, सतर्क और संतुष्ट दिखता है। जो झुंड से अलग खड़ा रहे, आसपास हो रही चीज़ों में दिलचस्पी न ले, या गुस्सैल स्वभाव दिखाए, उससे सावधान रहें।"
+                    ),
+                  },
+                  {
+                    label: L(
+                      "Mobility",
+                      "నడక",
+                      "நடமாட்டம்",
+                      "ನಡಿಗೆ",
+                      "चाल"
+                    ),
+                    text: L(
+                      "Walking should look easy and free of limps. Beware of a slow or uneven gait, a hunched position while sitting, or difficulty rising back up afterwards.",
+                      "నడక సులభంగా, కుంటకుండా కనిపించాలి. నెమ్మదిగా లేదా అసమానంగా నడవడం, కూర్చున్నప్పుడు వంగిపోయి ఉండటం, లేదా తర్వాత లేవడానికి ఇబ్బంది పడటం ఉంటే జాగ్రత్త.",
+                      "நடை எளிதாகவும், நொண்டாமலும் தெரிய வேண்டும். மெதுவான அல்லது சீரற்ற நடை, உட்காரும்போது கூன் போட்டிருப்பது, அல்லது பிறகு எழுந்திருக்க சிரமப்படுவது இருந்தால் கவனமாக இருங்கள்.",
+                      "ನಡಿಗೆ ಸುಲಭವಾಗಿ, ಕುಂಟದೆ ಕಾಣಬೇಕು. ನಿಧಾನ ಅಥವಾ ಅಸಮ ನಡಿಗೆ, ಕುಳಿತಾಗ ಬಾಗಿರುವುದು, ಅಥವಾ ನಂತರ ಎದ್ದೇಳಲು ಕಷ್ಟಪಡುವುದು ಇದ್ದರೆ ಎಚ್ಚರ.",
+                      "चलना आसान और बिना लंगड़ाए दिखना चाहिए। धीमी या ऊबड़-खाबड़ चाल, बैठते समय कमर झुकी होना, या बाद में उठने में तकलीफ़ हो तो सावधान रहें।"
                     ),
                   },
                 ],
               },
               {
                 type: "example",
-                heading: L("Two Animals, Side by Side"),
+                heading: L(
+                  "Two Animals, Side by Side",
+                  "రెండు జంతువులు, పక్కపక్కనే",
+                  "இரண்டு விலங்குகள், அருகருகே",
+                  "ಎರಡು ಪ್ರಾಣಿಗಳು, ಪಕ್ಕಪಕ್ಕದಲ್ಲಿ",
+                  "दो पशु, आमने-सामने"
+                ),
                 text: L(
-                  "Picture two animals for sale next to each other. The first stands with the group, ears up, watching what's going on, coat shining. The second stands off to one side on its own, coat looking dull and patchy, in no hurry to get up when nudged. Even without touching either animal, you already have real information — the second one deserves a much closer look, or a pass altogether."
+                  "Picture two animals for sale next to each other. The first stands with the group, ears up, watching what's going on, coat shining. The second stands off to one side on its own, coat looking dull and patchy, in no hurry to get up when nudged. Even without touching either animal, you already have real information — the second one deserves a much closer look, or a pass altogether.",
+                  "అమ్మకానికి ఉన్న రెండు జంతువులు పక్కపక్కనే ఉన్నాయని ఊహించండి. మొదటిది గుంపుతో కలిసి, చెవులు నిక్కబొడిచి, చుట్టూ జరిగేది చూస్తూ, మెరిసే చర్మంతో నిలబడి ఉంది. రెండోది ఒక పక్కన ఒంటరిగా, నిస్తేజంగా మచ్చలు మచ్చలుగా ఉన్న చర్మంతో, తట్టినా లేవడానికి తొందర పడకుండా ఉంది. రెండింటినీ ముట్టుకోకపోయినా, మీకు ఇప్పటికే నిజమైన సమాచారం దొరికింది — రెండోదాన్ని ఇంకా దగ్గరగా చూడాలి, లేదా వదిలేయాలి.",
+                  "விற்பனைக்கு உள்ள இரண்டு விலங்குகள் அருகருகே நிற்பதாக நினைத்துக் கொள்ளுங்கள். முதலாவது கூட்டத்துடன் சேர்ந்து, காதுகளை உயர்த்தி, சுற்றி நடப்பதைப் பார்த்தபடி, பளபளப்பான உடலுடன் நிற்கிறது. இரண்டாவது ஒரு ஓரமாகத் தனியாக, மங்கலான திட்டுத் திட்டான உடலுடன், தட்டினாலும் எழுந்திருக்க அவசரப்படாமல் நிற்கிறது. இரண்டையும் தொடாமலேயே உங்களுக்கு உண்மையான தகவல் கிடைத்துவிட்டது — இரண்டாவதை இன்னும் நெருக்கமாகப் பார்க்க வேண்டும், அல்லது விட்டுவிட வேண்டும்.",
+                  "ಮಾರಾಟಕ್ಕಿರುವ ಎರಡು ಪ್ರಾಣಿಗಳು ಪಕ್ಕಪಕ್ಕದಲ್ಲಿ ಇವೆ ಎಂದು ಊಹಿಸಿ. ಮೊದಲನೆಯದು ಗುಂಪಿನೊಂದಿಗೆ, ಕಿವಿ ಎತ್ತಿ, ಸುತ್ತಲೂ ನಡೆಯುವುದನ್ನು ನೋಡುತ್ತಾ, ಹೊಳೆಯುವ ಚರ್ಮದೊಂದಿಗೆ ನಿಂತಿದೆ. ಎರಡನೆಯದು ಒಂದು ಬದಿಯಲ್ಲಿ ಒಂಟಿಯಾಗಿ, ಮಂದವಾದ ತೇಪೆ ತೇಪೆ ಚರ್ಮದೊಂದಿಗೆ, ತಟ್ಟಿದರೂ ಏಳಲು ಆತುರ ಪಡದೆ ಇದೆ. ಎರಡನ್ನೂ ಮುಟ್ಟದೆಯೇ ನಿಮಗೆ ಈಗಾಗಲೇ ನಿಜವಾದ ಮಾಹಿತಿ ಸಿಕ್ಕಿದೆ — ಎರಡನೆಯದನ್ನು ಇನ್ನೂ ಹತ್ತಿರದಿಂದ ನೋಡಬೇಕು, ಅಥವಾ ಬಿಟ್ಟುಬಿಡಬೇಕು.",
+                  "सोचिए, बिकने के लिए दो पशु एक-दूसरे के बगल में खड़े हैं। पहला झुंड के साथ खड़ा है, कान खड़े हैं, आसपास की हलचल देख रहा है, खाल चमक रही है। दूसरा एक तरफ अकेला खड़ा है, खाल बेजान और धब्बेदार है, और हिलाने पर भी उठने की जल्दी नहीं करता। किसी को छुए बिना भी आपको असली जानकारी मिल चुकी है — दूसरे पशु को और नज़दीक से जाँचना चाहिए, या उसे छोड़ देना चाहिए।"
                 ),
               },
               {
                 type: "callout",
                 style: "tip",
-                heading: L("Your Job: Check and Report, Not Decide Alone"),
+                heading: L(
+                  "Your Job: Check and Report, Not Decide Alone",
+                  "మీ పని: చూసి చెప్పడం, ఒంటరిగా నిర్ణయించడం కాదు",
+                  "உங்கள் வேலை: சரிபார்த்துத் தெரிவிப்பது, தனியாக முடிவு செய்வது அல்ல",
+                  "ನಿಮ್ಮ ಕೆಲಸ: ಪರಿಶೀಲಿಸಿ ವರದಿ ಮಾಡುವುದು, ಒಂಟಿಯಾಗಿ ನಿರ್ಧರಿಸುವುದಲ್ಲ",
+                  "आपका काम: जाँचना और बताना, अकेले फैसला करना नहीं"
+                ),
                 text: L(
-                  "Whether you're helping choose an animal or just present when one is inspected, your job is to look carefully at each of these signs and pass on exactly what you saw. The final call on whether to buy is always the owner's (often together with a veterinarian) — never make that decision alone based on a hunch."
+                  "Whether you're helping choose an animal or just present when one is inspected, your job is to look carefully at each of these signs and pass on exactly what you saw. The final call on whether to buy is always the owner's (often together with a veterinarian) — never make that decision alone based on a hunch.",
+                  "జంతువును ఎంచుకోవడంలో సహాయం చేస్తున్నా, లేదా తనిఖీ చేసేటప్పుడు అక్కడ ఉన్నా, మీ పని ఈ సంకేతాలన్నింటినీ జాగ్రత్తగా చూసి, మీరు చూసినదాన్ని అలాగే చెప్పడం. కొనాలా వద్దా అనే చివరి నిర్ణయం ఎప్పుడూ యజమానిదే (తరచుగా పశువైద్యునితో కలిసి) — అంచనాతో మీరు ఒంటరిగా ఆ నిర్ణయం తీసుకోకండి.",
+                  "விலங்கைத் தேர்ந்தெடுக்க உதவினாலும், அல்லது பரிசோதிக்கும்போது அங்கே இருந்தாலும், உங்கள் வேலை இந்த அறிகுறிகள் ஒவ்வொன்றையும் கவனமாகப் பார்த்து, நீங்கள் பார்த்ததை அப்படியே தெரிவிப்பது. வாங்குவதா வேண்டாமா என்ற இறுதி முடிவு எப்போதும் உரிமையாளருடையது (பெரும்பாலும் கால்நடை மருத்துவருடன் சேர்ந்து) — ஊகத்தின் அடிப்படையில் நீங்கள் தனியாக அந்த முடிவை எடுக்காதீர்கள்.",
+                  "ಪ್ರಾಣಿಯನ್ನು ಆಯ್ಕೆ ಮಾಡಲು ಸಹಾಯ ಮಾಡುತ್ತಿದ್ದರೂ, ಅಥವಾ ಪರೀಕ್ಷೆ ನಡೆಯುವಾಗ ಅಲ್ಲಿ ಇದ್ದರೂ, ನಿಮ್ಮ ಕೆಲಸ ಈ ಎಲ್ಲಾ ಲಕ್ಷಣಗಳನ್ನು ಎಚ್ಚರಿಕೆಯಿಂದ ನೋಡಿ, ನೀವು ನೋಡಿದ್ದನ್ನು ಹಾಗೆಯೇ ತಿಳಿಸುವುದು. ಖರೀದಿಸಬೇಕೇ ಬೇಡವೇ ಎಂಬ ಅಂತಿಮ ನಿರ್ಧಾರ ಯಾವಾಗಲೂ ಮಾಲೀಕರದ್ದೇ (ಹೆಚ್ಚಾಗಿ ಪಶುವೈದ್ಯರ ಜೊತೆ) — ಊಹೆಯಿಂದ ನೀವು ಒಂಟಿಯಾಗಿ ಆ ನಿರ್ಧಾರ ತೆಗೆದುಕೊಳ್ಳಬೇಡಿ.",
+                  "आप पशु चुनने में मदद कर रहे हों या जाँच के समय बस मौजूद हों, आपका काम इन सभी लक्षणों को ध्यान से देखना और जो देखा वही ठीक-ठीक बताना है। खरीदना है या नहीं, इसका आखिरी फैसला हमेशा मालिक का होता है (अक्सर पशु चिकित्सक के साथ) — सिर्फ अंदाज़े पर अकेले यह फैसला कभी न लें।"
                 ),
               },
             ],
             check: [
               {
                 type: "mcq",
-                q: L("Why is it generally safer to buy an animal directly from a known farm rather than from a cattle market or shandy?"),
+                q: L(
+                  "Why is it generally safer to buy an animal directly from a known farm rather than from a cattle market or shandy?",
+                  "పశువుల సంత లేదా షాండీ కంటే తెలిసిన పొలం నుంచి నేరుగా జంతువును కొనడం సాధారణంగా ఎందుకు సురక్షితం?",
+                  "மாட்டுச் சந்தை அல்லது ஷாண்டியை விட, அறிந்த பண்ணையிலிருந்து நேரடியாக விலங்கை வாங்குவது பொதுவாக ஏன் பாதுகாப்பானது?",
+                  "ಜಾನುವಾರು ಸಂತೆ ಅಥವಾ ಶಾಂಡಿಗಿಂತ ಗೊತ್ತಿರುವ ಫಾರಂನಿಂದ ನೇರವಾಗಿ ಪ್ರಾಣಿ ಖರೀದಿಸುವುದು ಸಾಮಾನ್ಯವಾಗಿ ಏಕೆ ಸುರಕ್ಷಿತ?",
+                  "पशु बाज़ार या शैंडी की तुलना में जाने-पहचाने फार्म से सीधे पशु खरीदना आमतौर पर ज़्यादा सुरक्षित क्यों है?"
+                ),
                 options: [
-                  L("Animals are always cheaper at a cattle market"),
-                  L("More unrelated animals mix together at a market/shandy, raising the chance of disease exposure"),
-                  L("Cattle markets always test every animal for TB, JD and brucellosis"),
-                  L("There is no real difference between the two"),
+                  L("Animals are always cheaper at a cattle market", "పశువుల సంతలో జంతువులు ఎప్పుడూ చౌకగా ఉంటాయి", "மாட்டுச் சந்தையில் விலங்குகள் எப்போதும் மலிவாக இருக்கும்", "ಜಾನುವಾರು ಸಂತೆಯಲ್ಲಿ ಪ್ರಾಣಿಗಳು ಯಾವಾಗಲೂ ಅಗ್ಗವಾಗಿರುತ್ತವೆ", "पशु बाज़ार में पशु हमेशा सस्ते मिलते हैं"),
+                  L("More unrelated animals mix together at a market/shandy, raising the chance of disease exposure", "సంత/షాండీలో సంబంధం లేని ఎక్కువ జంతువులు కలవడం వల్ల వ్యాధి సోకే అవకాశం పెరుగుతుంది", "சந்தை/ஷாண்டியில் தொடர்பில்லாத அதிக விலங்குகள் கலப்பதால் நோய் தொற்றும் வாய்ப்பு அதிகரிக்கிறது", "ಸಂತೆ/ಶಾಂಡಿಯಲ್ಲಿ ಸಂಬಂಧವಿಲ್ಲದ ಹೆಚ್ಚು ಪ್ರಾಣಿಗಳು ಬೆರೆಯುವುದರಿಂದ ರೋಗ ತಗಲುವ ಸಾಧ್ಯತೆ ಹೆಚ್ಚುತ್ತದೆ", "बाज़ार/शैंडी में बहुत सारे अनजान पशु आपस में मिलते हैं, जिससे बीमारी के संपर्क में आने की संभावना बढ़ जाती है"),
+                  L("Cattle markets always test every animal for TB, JD and brucellosis", "పశువుల సంతలో ప్రతి జంతువునూ టీబీ, JD, బ్రూసెల్లోసిస్ కోసం ఎప్పుడూ పరీక్షిస్తారు", "மாட்டுச் சந்தையில் ஒவ்வொரு விலங்கையும் TB, JD, புருசெல்லோசிஸ் நோய்களுக்காக எப்போதும் பரிசோதிப்பார்கள்", "ಜಾನುವಾರು ಸಂತೆಯಲ್ಲಿ ಪ್ರತಿ ಪ್ರಾಣಿಯನ್ನೂ ಟಿಬಿ, JD, ಬ್ರೂಸೆಲ್ಲೋಸಿಸ್‌ಗಾಗಿ ಯಾವಾಗಲೂ ಪರೀಕ್ಷಿಸುತ್ತಾರೆ", "पशु बाज़ार में हर पशु की टीबी, JD और ब्रुसेलोसिस की जाँच हमेशा होती है"),
+                  L("There is no real difference between the two", "రెండింటికీ నిజంగా తేడా ఏమీ లేదు", "இரண்டுக்கும் உண்மையில் எந்த வித்தியாசமும் இல்லை", "ಎರಡರ ನಡುವೆ ನಿಜವಾಗಿ ಯಾವುದೇ ವ್ಯತ್ಯಾಸ ಇಲ್ಲ", "दोनों में असल में कोई फ़र्क नहीं है"),
                 ],
                 answer: 1,
                 explain: L(
-                  "Because so many different animals from different places mix together at a market or shandy, the chance an animal has been exposed to disease there is higher than buying from a known, tested farm."
+                  "Because so many different animals from different places mix together at a market or shandy, the chance an animal has been exposed to disease there is higher than buying from a known, tested farm.",
+                  "సంత లేదా షాండీలో వేర్వేరు చోట్ల నుంచి చాలా జంతువులు కలవడం వల్ల, అక్కడ జంతువుకు వ్యాధి సోకే అవకాశం, తెలిసిన పరీక్షలు చేసే పొలం నుంచి కొనడం కంటే ఎక్కువ.",
+                  "சந்தை அல்லது ஷாண்டியில் பல்வேறு இடங்களிலிருந்து வந்த பல விலங்குகள் கலப்பதால், அங்கு விலங்குக்கு நோய் தொற்றும் வாய்ப்பு, அறிந்த, பரிசோதனை செய்யும் பண்ணையிலிருந்து வாங்குவதை விட அதிகம்.",
+                  "ಸಂತೆ ಅಥವಾ ಶಾಂಡಿಯಲ್ಲಿ ಬೇರೆ ಬೇರೆ ಕಡೆಗಳಿಂದ ಬಂದ ಅನೇಕ ಪ್ರಾಣಿಗಳು ಬೆರೆಯುವುದರಿಂದ, ಅಲ್ಲಿ ಪ್ರಾಣಿಗೆ ರೋಗ ತಗಲುವ ಸಾಧ್ಯತೆ, ಗೊತ್ತಿರುವ ಪರೀಕ್ಷೆ ಮಾಡುವ ಫಾರಂನಿಂದ ಖರೀದಿಸುವುದಕ್ಕಿಂತ ಹೆಚ್ಚು.",
+                  "बाज़ार या शैंडी में अलग-अलग जगहों से आए बहुत सारे पशु मिल जाते हैं, इसलिए वहाँ पशु के बीमारी के संपर्क में आने की संभावना जाने-पहचाने, जाँच करने वाले फार्म से खरीदने से ज़्यादा होती है।"
                 ),
               },
               {
                 type: "truefalse",
-                q: L("A healthy animal's coat should look glossy, clean, and free of ticks or lice."),
+                q: L(
+                  "A healthy animal's coat should look glossy, clean, and free of ticks or lice.",
+                  "ఆరోగ్యంగా ఉన్న జంతువు చర్మం మెరిసేలా, శుభ్రంగా, పేలు లేదా పేను లేకుండా ఉండాలి.",
+                  "ஆரோக்கியமான விலங்கின் தோல் பளபளப்பாகவும், சுத்தமாகவும், உண்ணி அல்லது பேன் இல்லாமலும் இருக்க வேண்டும்.",
+                  "ಆರೋಗ್ಯವಾದ ಪ್ರಾಣಿಯ ಚರ್ಮ ಹೊಳೆಯುವಂತೆ, ಸ್ವಚ್ಛವಾಗಿ, ಉಣ್ಣಿ ಅಥವಾ ಹೇನು ಇಲ್ಲದೆ ಇರಬೇಕು.",
+                  "स्वस्थ पशु की खाल चमकदार, साफ़ और किलनी या जूँ से मुक्त होनी चाहिए।"
+                ),
                 answer: true,
-                explain: L("Correct — a glossy, clean, unmatted coat with no ticks, lice or other parasites is one of the signs of a healthy animal."),
+                explain: L(
+                  "Correct — a glossy, clean, unmatted coat with no ticks, lice or other parasites is one of the signs of a healthy animal.",
+                  "సరైనది — పేలు, పేను లేదా ఇతర పరాన్నజీవులు లేకుండా, మెరిసే, శుభ్రమైన, ముద్దలు కట్టని చర్మం ఆరోగ్యంగా ఉన్న జంతువు సంకేతాల్లో ఒకటి.",
+                  "சரி — உண்ணி, பேன் அல்லது வேறு ஒட்டுண்ணிகள் இல்லாத, பளபளப்பான, சுத்தமான, சிக்கல் இல்லாத தோல் ஆரோக்கியமான விலங்கின் அறிகுறிகளில் ஒன்று.",
+                  "ಸರಿ — ಉಣ್ಣಿ, ಹೇನು ಅಥವಾ ಇತರ ಪರಾವಲಂಬಿಗಳಿಲ್ಲದ, ಹೊಳೆಯುವ, ಸ್ವಚ್ಛ, ಗೊಂಚಲು ಕಟ್ಟದ ಚರ್ಮ ಆರೋಗ್ಯವಾದ ಪ್ರಾಣಿಯ ಲಕ್ಷಣಗಳಲ್ಲಿ ಒಂದು.",
+                  "सही — किलनी, जूँ या दूसरे परजीवियों से मुक्त, चमकदार, साफ़ और उलझी न हुई खाल स्वस्थ पशु का एक लक्षण है।"
+                ),
               },
             ],
           },
           {
             id: "t-m2-udder-records-transport",
-            title: L("Udder, Body Score, Past Records, and the Journey Home"),
+            title: L(
+              "Udder, Body Score, Past Records, and the Journey Home",
+              "పొదుగు, శరీర స్కోరు, గత రికార్డులు, మరియు ఇంటికి ప్రయాణం",
+              "மடி, உடல் மதிப்பெண், கடந்த கால பதிவுகள், வீட்டுக்கான பயணம்",
+              "ಕೆಚ್ಚಲು, ದೇಹ ಸ್ಕೋರ್, ಹಿಂದಿನ ದಾಖಲೆಗಳು, ಮತ್ತು ಮನೆಗೆ ಪ್ರಯಾಣ",
+              "थन, शरीर स्कोर, पुराना रिकॉर्ड और घर तक का सफ़र"
+            ),
             teach: [
             {
               type: "photo",
               src: "assets/photo-m2-udder-veins.jpg",
-              alt: L("Close-up of the underside of a dairy cow's udder and flank, showing prominent, clearly visible milk veins running toward the belly."),
-              caption: L("Prominent milk veins running along the underside of the udder toward the belly — one of the signs worth checking."),
+              alt: L(
+                "Close-up of the underside of a dairy cow's udder and flank, showing prominent, clearly visible milk veins running toward the belly.",
+                "పాడి ఆవు పొదుగు, పక్క భాగం అడుగు వైపు క్లోజప్; పొట్ట వైపు సాగుతున్న, స్పష్టంగా కనిపించే పాల నాళాలు కనిపిస్తున్నాయి.",
+                "பால் மாட்டின் மடி மற்றும் விலா அடிப்பகுதியின் நெருக்கமான காட்சி; வயிற்றை நோக்கிச் செல்லும், தெளிவாகத் தெரியும் பால் நரம்புகளைக் காட்டுகிறது.",
+                "ಹಾಲು ಹಸುವಿನ ಕೆಚ್ಚಲು ಮತ್ತು ಪಕ್ಕೆಯ ಕೆಳಭಾಗದ ಹತ್ತಿರದ ನೋಟ; ಹೊಟ್ಟೆಯ ಕಡೆಗೆ ಸಾಗುವ, ಸ್ಪಷ್ಟವಾಗಿ ಕಾಣುವ ಹಾಲಿನ ನರಗಳನ್ನು ತೋರಿಸುತ್ತದೆ.",
+                "दूध देने वाली गाय के थन और पेट के निचले हिस्से का क्लोज़-अप, जिसमें पेट की ओर जाती साफ़ दिखती दूध की नसें नज़र आ रही हैं।"
+              ),
+              caption: L(
+                "Prominent milk veins running along the underside of the udder toward the belly — one of the signs worth checking.",
+                "పొదుగు అడుగు నుంచి పొట్ట వైపు సాగే స్పష్టమైన పాల నాళాలు — చూడాల్సిన సంకేతాల్లో ఒకటి.",
+                "மடியின் அடிப்பகுதியிலிருந்து வயிற்றை நோக்கிச் செல்லும் தெளிவான பால் நரம்புகள் — பார்க்க வேண்டிய அறிகுறிகளில் ஒன்று.",
+                "ಕೆಚ್ಚಲಿನ ಕೆಳಭಾಗದಿಂದ ಹೊಟ್ಟೆಯ ಕಡೆಗೆ ಸಾಗುವ ಸ್ಪಷ್ಟವಾದ ಹಾಲಿನ ನರಗಳು — ಪರಿಶೀಲಿಸಬೇಕಾದ ಲಕ್ಷಣಗಳಲ್ಲಿ ಒಂದು.",
+                "थन के निचले हिस्से से पेट की ओर जाती साफ़ दिखती दूध की नसें — जाँच के लायक एक लक्षण।"
+              ),
             },
               {
                 type: "text",
-                heading: L("Checking the Udder"),
+                heading: L(
+                  "Checking the Udder",
+                  "పొదుగును పరీక్షించడం",
+                  "மடியைப் பரிசோதித்தல்",
+                  "ಕೆಚ್ಚಲನ್ನು ಪರೀಕ್ಷಿಸುವುದು",
+                  "थन की जाँच"
+                ),
                 html: L(
-                  "The <b>udder</b> is the milk-producing organ, and it's worth a careful look on any milking animal you're considering. A healthy udder sits forward on the body, doesn't sag, and isn't too meaty or fleshy. As the animal walks, watch the udder — it shouldn't swing too much from side to side. Size on its own is NOT a reliable sign of a good udder — a large udder isn't automatically a healthy one."
+                  "The <b>udder</b> is the milk-producing organ, and it's worth a careful look on any milking animal you're considering. A healthy udder sits forward on the body, doesn't sag, and isn't too meaty or fleshy. As the animal walks, watch the udder — it shouldn't swing too much from side to side. Size on its own is NOT a reliable sign of a good udder — a large udder isn't automatically a healthy one.",
+                  "<b>పొదుగు</b> పాలు ఉత్పత్తి చేసే భాగం; మీరు కొనాలనుకునే ఏ పాడి జంతువులోనైనా దానిని జాగ్రత్తగా చూడాలి. ఆరోగ్యకరమైన పొదుగు శరీరంలో ముందుకు ఉంటుంది, వేలాడదు, మరీ మాంసంగా లేదా బరువుగా ఉండదు. జంతువు నడుస్తున్నప్పుడు పొదుగును గమనించండి — అది పక్కకు ఎక్కువగా ఊగకూడదు. పొదుగు పరిమాణం మాత్రమే మంచి పొదుగుకు నమ్మదగిన సంకేతం కాదు — పెద్ద పొదుగు ఆరోగ్యంగా ఉన్నట్లు కాదు.",
+                  "<b>மடி</b> பால் உற்பத்தி செய்யும் உறுப்பு; நீங்கள் வாங்க நினைக்கும் எந்தப் பால் கறக்கும் விலங்கிலும் அதைக் கவனமாகப் பார்க்க வேண்டும். ஆரோக்கியமான மடி உடலில் முன்னோக்கி அமைந்திருக்கும், தொங்காது, மிகவும் சதையாகவோ கனமாகவோ இருக்காது. விலங்கு நடக்கும்போது மடியைக் கவனியுங்கள் — அது பக்கவாட்டில் அதிகமாக ஆடக் கூடாது. மடியின் அளவு மட்டுமே நல்ல மடிக்கான நம்பகமான அறிகுறி அல்ல — பெரிய மடி என்றால் ஆரோக்கியமானது என்று அர்த்தமில்லை.",
+                  "<b>ಕೆಚ್ಚಲು</b> ಹಾಲು ಉತ್ಪಾದಿಸುವ ಅಂಗ; ನೀವು ಖರೀದಿಸಲು ಯೋಚಿಸುವ ಯಾವುದೇ ಹಾಲು ಕೊಡುವ ಪ್ರಾಣಿಯಲ್ಲಿ ಅದನ್ನು ಎಚ್ಚರಿಕೆಯಿಂದ ನೋಡಬೇಕು. ಆರೋಗ್ಯವಾದ ಕೆಚ್ಚಲು ದೇಹದಲ್ಲಿ ಮುಂದಕ್ಕೆ ಇರುತ್ತದೆ, ಜೋತು ಬೀಳುವುದಿಲ್ಲ, ತುಂಬಾ ಮಾಂಸವಾಗಿ ಅಥವಾ ಭಾರವಾಗಿ ಇರುವುದಿಲ್ಲ. ಪ್ರಾಣಿ ನಡೆಯುವಾಗ ಕೆಚ್ಚಲನ್ನು ಗಮನಿಸಿ — ಅದು ಅಕ್ಕಪಕ್ಕಕ್ಕೆ ಹೆಚ್ಚು ತೂಗಾಡಬಾರದು. ಕೆಚ್ಚಲಿನ ಗಾತ್ರ ಮಾತ್ರ ಒಳ್ಳೆಯ ಕೆಚ್ಚಲಿನ ನಂಬಲರ್ಹ ಲಕ್ಷಣವಲ್ಲ — ದೊಡ್ಡ ಕೆಚ್ಚಲು ತಾನಾಗಿ ಆರೋಗ್ಯವಾದದ್ದು ಎಂದಲ್ಲ.",
+                  "<b>थन</b> दूध बनाने वाला अंग है, और दूध देने वाले किसी भी पशु को खरीदने से पहले उसे ध्यान से देखना चाहिए। स्वस्थ थन शरीर में आगे की ओर टिका होता है, लटकता नहीं, और बहुत माँसल या भारी नहीं होता। पशु के चलते समय थन को देखें — वह अगल-बगल ज़्यादा झूलना नहीं चाहिए। सिर्फ थन का बड़ा आकार अच्छे थन की भरोसेमंद निशानी नहीं है — बड़ा थन अपने-आप स्वस्थ थन नहीं होता।"
                 ),
               },
               {
                 type: "glossary",
-                term: L("Milk Veins"),
+                term: L(
+                  "Milk Veins",
+                  "పాల నాళాలు",
+                  "பால் நரம்புகள்",
+                  "ಹಾಲಿನ ನರಗಳು",
+                  "दूध की नसें"
+                ),
                 meaning: L(
-                  "The visible veins running along the underside of the udder toward the belly. On a healthy milking animal, these are usually easy to see — a good sign to look for alongside the udder's shape and firmness."
+                  "The visible veins running along the underside of the udder toward the belly. On a healthy milking animal, these are usually easy to see — a good sign to look for alongside the udder's shape and firmness.",
+                  "పొదుగు అడుగు నుంచి పొట్ట వైపు సాగుతూ కనిపించే నాళాలు. ఆరోగ్యంగా పాలిచ్చే జంతువులో ఇవి సాధారణంగా సులభంగా కనిపిస్తాయి — పొదుగు ఆకారం, గట్టిదనంతో పాటు చూడాల్సిన మంచి సంకేతం.",
+                  "மடியின் அடிப்பகுதியிலிருந்து வயிற்றை நோக்கிச் செல்லும் கண்ணுக்குத் தெரியும் நரம்புகள். ஆரோக்கியமான பால் கறக்கும் விலங்கில் இவை பொதுவாக எளிதாகத் தெரியும் — மடியின் வடிவம், உறுதியுடன் சேர்த்துப் பார்க்க வேண்டிய நல்ல அறிகுறி.",
+                  "ಕೆಚ್ಚಲಿನ ಕೆಳಭಾಗದಿಂದ ಹೊಟ್ಟೆಯ ಕಡೆಗೆ ಸಾಗುವ ಕಣ್ಣಿಗೆ ಕಾಣುವ ನರಗಳು. ಆರೋಗ್ಯವಾಗಿ ಹಾಲು ಕೊಡುವ ಪ್ರಾಣಿಯಲ್ಲಿ ಇವು ಸಾಮಾನ್ಯವಾಗಿ ಸುಲಭವಾಗಿ ಕಾಣುತ್ತವೆ — ಕೆಚ್ಚಲಿನ ಆಕಾರ, ಗಟ್ಟಿತನದ ಜೊತೆಗೆ ನೋಡಬೇಕಾದ ಒಳ್ಳೆಯ ಲಕ್ಷಣ.",
+                  "थन के निचले हिस्से से पेट की ओर जाती दिखाई देने वाली नसें। स्वस्थ दूध देने वाले पशु में ये आमतौर पर आसानी से दिख जाती हैं — थन के आकार और कसाव के साथ देखने लायक एक अच्छा संकेत।"
                 ),
               },
               {
                 type: "text",
-                heading: L("Body Score: A Number You Already Know How to Read"),
+                heading: L(
+                  "Body Score: A Number You Already Know How to Read",
+                  "శరీర స్కోరు: మీకు ఇప్పటికే చదవడం తెలిసిన సంఖ్య",
+                  "உடல் மதிப்பெண்: நீங்கள் ஏற்கனவே படிக்கத் தெரிந்த எண்",
+                  "ದೇಹ ಸ್ಕೋರ್: ನಿಮಗೆ ಈಗಾಗಲೇ ಓದಲು ಗೊತ್ತಿರುವ ಸಂಖ್ಯೆ",
+                  "शरीर स्कोर: एक ऐसा नंबर जिसे पढ़ना आप पहले से जानते हैं"
+                ),
                 html: L(
-                  "You already learned how to score an animal's body condition from 1 (very thin) to 5 (very fat) in Module 1 — this is exactly the same score. For an animal you're thinking of buying, aim for a <b>Body Condition Score between 3 and 4</b>. Anything much lower or higher is a good reason to look more closely, and to mention it, before any purchase decision is made."
+                  "You already learned how to score an animal's body condition from 1 (very thin) to 5 (very fat) in Module 1 — this is exactly the same score. For an animal you're thinking of buying, aim for a <b>Body Condition Score between 3 and 4</b>. Anything much lower or higher is a good reason to look more closely, and to mention it, before any purchase decision is made.",
+                  "జంతువు శరీర స్థితిని 1 (చాలా బక్కగా) నుంచి 5 (చాలా లావుగా) వరకు స్కోరు చేయడం మాడ్యూల్ 1 లో మీరు ఇప్పటికే నేర్చుకున్నారు — ఇది సరిగ్గా అదే స్కోరు. కొనాలనుకుంటున్న జంతువుకు <b>శరీర స్థితి స్కోరు 3 నుంచి 4 మధ్య</b> ఉండేలా చూడండి. అంతకంటే చాలా తక్కువ లేదా ఎక్కువ ఉంటే, కొనుగోలు నిర్ణయం తీసుకునే ముందు మరింత జాగ్రత్తగా చూడటానికి, దాని గురించి చెప్పడానికి అది మంచి కారణం.",
+                  "விலங்கின் உடல் நிலையை 1 (மிகவும் மெலிந்தது) முதல் 5 (மிகவும் கொழுத்தது) வரை மதிப்பிடுவதை மாட்யூல் 1-இல் நீங்கள் ஏற்கனவே கற்றுக்கொண்டீர்கள் — இது அதே மதிப்பெண்தான். வாங்க நினைக்கும் விலங்குக்கு <b>உடல் நிலை மதிப்பெண் 3 முதல் 4 வரை</b> இருக்கும்படி பாருங்கள். இதை விட மிகவும் குறைவாகவோ அதிகமாகவோ இருந்தால், வாங்கும் முடிவு எடுக்கும் முன் இன்னும் கவனமாகப் பார்க்கவும், அதைத் தெரிவிக்கவும் அது நல்ல காரணம்.",
+                  "ಪ್ರಾಣಿಯ ದೇಹದ ಸ್ಥಿತಿಯನ್ನು 1 (ತುಂಬಾ ಸೊರಗಿದ) ರಿಂದ 5 (ತುಂಬಾ ದಪ್ಪ) ರವರೆಗೆ ಸ್ಕೋರ್ ಮಾಡುವುದನ್ನು ಮಾಡ್ಯೂಲ್ 1 ರಲ್ಲಿ ನೀವು ಈಗಾಗಲೇ ಕಲಿತಿದ್ದೀರಿ — ಇದು ಅದೇ ಸ್ಕೋರ್. ಖರೀದಿಸಲು ಯೋಚಿಸುವ ಪ್ರಾಣಿಗೆ <b>ದೇಹ ಸ್ಥಿತಿ ಸ್ಕೋರ್ 3 ರಿಂದ 4 ರ ನಡುವೆ</b> ಇರುವಂತೆ ನೋಡಿ. ಇದಕ್ಕಿಂತ ತುಂಬಾ ಕಡಿಮೆ ಅಥವಾ ಹೆಚ್ಚು ಇದ್ದರೆ, ಖರೀದಿ ನಿರ್ಧಾರ ತೆಗೆದುಕೊಳ್ಳುವ ಮೊದಲು ಇನ್ನೂ ಎಚ್ಚರಿಕೆಯಿಂದ ನೋಡಲು ಮತ್ತು ಅದನ್ನು ತಿಳಿಸಲು ಅದು ಒಳ್ಳೆಯ ಕಾರಣ.",
+                  "पशु की शारीरिक हालत को 1 (बहुत दुबला) से 5 (बहुत मोटा) तक स्कोर करना आप मॉड्यूल 1 में सीख चुके हैं — यह ठीक वही स्कोर है। जो पशु आप खरीदने की सोच रहे हैं, उसके लिए <b>बॉडी कंडीशन स्कोर 3 से 4 के बीच</b> रखें। इससे काफ़ी कम या ज़्यादा हो तो खरीदने का फैसला करने से पहले और ध्यान से जाँचने और इसकी जानकारी देने की अच्छी वजह है।"
                 ),
               },
               {
                 type: "callout",
                 style: "info",
-                heading: L("Ask About Its Past, Too"),
+                heading: L(
+                  "Ask About Its Past, Too",
+                  "దాని గత చరిత్ర గురించి కూడా అడగండి",
+                  "அதன் கடந்த காலத்தைப் பற்றியும் கேளுங்கள்",
+                  "ಅದರ ಹಿಂದಿನ ಇತಿಹಾಸದ ಬಗ್ಗೆಯೂ ಕೇಳಿ",
+                  "उसके पिछले इतिहास के बारे में भी पूछें"
+                ),
                 text: L(
-                  "Try to get a record of the animal's history: how many times it has calved, its milk yield in its last lactation, and whether it has had any past health problems (for example, an udder infection called mastitis, or difficulties around calving). You don't need to understand every medical term on that record — your role is to collect it and pass it along so the owner or vet can make sense of it."
+                  "Try to get a record of the animal's history: how many times it has calved, its milk yield in its last lactation, and whether it has had any past health problems (for example, an udder infection called mastitis, or difficulties around calving). You don't need to understand every medical term on that record — your role is to collect it and pass it along so the owner or vet can make sense of it.",
+                  "జంతువు చరిత్ర రికార్డు తీసుకోవడానికి ప్రయత్నించండి: ఎన్నిసార్లు ఈనింది, చివరి పాలిచ్చే కాలంలో ఎంత పాలు ఇచ్చింది, గతంలో ఏవైనా ఆరోగ్య సమస్యలు ఉన్నాయా (ఉదాహరణకు పొదుగు వాపు అయిన మాస్టైటిస్, లేదా ఈనే సమయంలో ఇబ్బందులు). ఆ రికార్డులో ఉన్న ప్రతి వైద్య పదం మీకు అర్థం కానవసరం లేదు — దానిని సేకరించి యజమానికి లేదా పశువైద్యునికి అందజేయడమే మీ పని.",
+                  "விலங்கின் வரலாற்றுப் பதிவைப் பெற முயற்சி செய்யுங்கள்: எத்தனை முறை கன்று ஈன்றது, கடந்த பால் காலத்தில் எவ்வளவு பால் கொடுத்தது, கடந்த காலத்தில் ஏதேனும் உடல்நலப் பிரச்சினைகள் இருந்ததா (உதாரணமாக மடி நோய்த்தொற்றான மடிவீக்கம் (மாஸ்டைடிஸ்), அல்லது கன்று ஈனும்போது சிரமங்கள்). அந்தப் பதிவில் உள்ள ஒவ்வொரு மருத்துவச் சொல்லும் உங்களுக்குப் புரிய வேண்டியதில்லை — அதைச் சேகரித்து உரிமையாளர் அல்லது கால்நடை மருத்துவரிடம் கொடுப்பதே உங்கள் வேலை.",
+                  "ಪ್ರಾಣಿಯ ಇತಿಹಾಸದ ದಾಖಲೆ ಪಡೆಯಲು ಪ್ರಯತ್ನಿಸಿ: ಎಷ್ಟು ಬಾರಿ ಈದಿದೆ, ಕೊನೆಯ ಹಾಲು ಕೊಡುವ ಅವಧಿಯಲ್ಲಿ ಎಷ್ಟು ಹಾಲು ಕೊಟ್ಟಿದೆ, ಈ ಮೊದಲು ಯಾವುದೇ ಆರೋಗ್ಯ ಸಮಸ್ಯೆಗಳಿದ್ದವೇ (ಉದಾಹರಣೆಗೆ ಕೆಚ್ಚಲು ಸೋಂಕಾದ ಮ್ಯಾಸ್ಟೈಟಿಸ್, ಅಥವಾ ಈಯುವ ಸಮಯದ ತೊಂದರೆಗಳು). ಆ ದಾಖಲೆಯಲ್ಲಿರುವ ಪ್ರತಿ ವೈದ್ಯಕೀಯ ಪದವೂ ನಿಮಗೆ ಅರ್ಥವಾಗಬೇಕಿಲ್ಲ — ಅದನ್ನು ಸಂಗ್ರಹಿಸಿ ಮಾಲೀಕರು ಅಥವಾ ಪಶುವೈದ್ಯರಿಗೆ ತಲುಪಿಸುವುದೇ ನಿಮ್ಮ ಕೆಲಸ.",
+                  "पशु का इतिहास दर्ज कराने की कोशिश करें: वह कितनी बार ब्या चुका है, पिछले दुग्धकाल में कितना दूध दिया, और पहले कोई सेहत की समस्या रही या नहीं (जैसे थन का संक्रमण जिसे मैस्टाइटिस कहते हैं, या ब्याने के समय की दिक्कतें)। उस रिकॉर्ड का हर मेडिकल शब्द आपको समझना ज़रूरी नहीं — आपका काम उसे इकट्ठा करके मालिक या पशु चिकित्सक तक पहुँचाना है ताकि वे उसे समझ सकें।"
                 ),
               },
               {
                 type: "text",
-                heading: L("The Journey Home Matters Too"),
+                heading: L(
+                  "The Journey Home Matters Too",
+                  "ఇంటికి ప్రయాణం కూడా ముఖ్యమే",
+                  "வீட்டுக்கான பயணமும் முக்கியம்",
+                  "ಮನೆಗೆ ಪ್ರಯಾಣವೂ ಮುಖ್ಯ",
+                  "घर तक का सफ़र भी मायने रखता है"
+                ),
                 html: L(
-                  "Transport itself can be stressful for an animal, and a stressed animal is more likely to fall sick. If you're involved in transporting or receiving a newly bought animal, make sure it gets water, enough space, feed, and rest at regular intervals along the way, and that the vehicle floor has some bedding, such as paddy straw, rather than being bare."
+                  "Transport itself can be stressful for an animal, and a stressed animal is more likely to fall sick. If you're involved in transporting or receiving a newly bought animal, make sure it gets water, enough space, feed, and rest at regular intervals along the way, and that the vehicle floor has some bedding, such as paddy straw, rather than being bare.",
+                  "రవాణా వల్ల కూడా జంతువుకు ఒత్తిడి కలుగుతుంది, ఒత్తిడికి గురైన జంతువు అనారోగ్యానికి గురయ్యే అవకాశం ఎక్కువ. కొత్తగా కొన్న జంతువును తరలించడంలో లేదా స్వీకరించడంలో మీరు ఉంటే, దారిలో క్రమమైన విరామాల్లో నీరు, తగినంత స్థలం, మేత, విశ్రాంతి దొరికేలా చూడండి, మరియు వాహనం నేల ఖాళీగా కాకుండా వరి గడ్డి వంటి పరుపు ఉండేలా చూడండి.",
+                  "போக்குவரத்தும் விலங்குக்கு அழுத்தம் தரலாம், அழுத்தமடைந்த விலங்கு நோய்வாய்ப்பட வாய்ப்பு அதிகம். புதிதாக வாங்கிய விலங்கைக் கொண்டு செல்வதிலோ பெறுவதிலோ நீங்கள் ஈடுபட்டிருந்தால், வழியில் சீரான இடைவெளிகளில் தண்ணீர், போதிய இடம், தீவனம், ஓய்வு கிடைக்கச் செய்யுங்கள், வாகனத் தரை வெறுமையாக இல்லாமல் நெல் வைக்கோல் போன்ற படுக்கை இருக்கும்படி பாருங்கள்.",
+                  "ಸಾಗಾಟದಿಂದಲೂ ಪ್ರಾಣಿಗೆ ಒತ್ತಡ ಆಗಬಹುದು, ಒತ್ತಡಕ್ಕೊಳಗಾದ ಪ್ರಾಣಿ ಅನಾರೋಗ್ಯಕ್ಕೆ ಒಳಗಾಗುವ ಸಾಧ್ಯತೆ ಹೆಚ್ಚು. ಹೊಸದಾಗಿ ಖರೀದಿಸಿದ ಪ್ರಾಣಿಯನ್ನು ಸಾಗಿಸುವಲ್ಲಿ ಅಥವಾ ಸ್ವೀಕರಿಸುವಲ್ಲಿ ನೀವು ಇದ್ದರೆ, ದಾರಿಯಲ್ಲಿ ನಿಯಮಿತ ಅಂತರದಲ್ಲಿ ನೀರು, ಸಾಕಷ್ಟು ಜಾಗ, ಮೇವು, ವಿಶ್ರಾಂತಿ ಸಿಗುವಂತೆ ನೋಡಿ, ಮತ್ತು ವಾಹನದ ನೆಲ ಖಾಲಿ ಇರದೆ ಭತ್ತದ ಹುಲ್ಲಿನಂತಹ ಹಾಸಿಗೆ ಇರುವಂತೆ ನೋಡಿ.",
+                  "सफ़र खुद भी पशु के लिए तनाव भरा हो सकता है, और तनाव में आया पशु बीमार पड़ने की ज़्यादा संभावना रखता है। अगर आप नए खरीदे पशु को ले जाने या लेने में शामिल हैं, तो पक्का करें कि रास्ते में नियमित अंतराल पर उसे पानी, चारा, पर्याप्त जगह और आराम मिले, और गाड़ी के फर्श पर खाली फर्श की जगह धान की पराली जैसा बिछावन हो।"
                 ),
               },
               {
                 type: "callout",
                 style: "warning",
-                heading: L("Never Decide Alone"),
+                heading: L(
+                  "Never Decide Alone",
+                  "ఒంటరిగా నిర్ణయించకండి",
+                  "தனியாக முடிவு செய்யாதீர்கள்",
+                  "ಒಂಟಿಯಾಗಿ ನಿರ್ಧರಿಸಬೇಡಿ",
+                  "अकेले फैसला न लें"
+                ),
                 text: L(
-                  "By now you have a full checklist — source, general signs, udder, body score, records, age. Your job on every single one of these is to check carefully and report exactly what you find. The final decision to buy, reject, or ask for more tests is always made by the owner, usually together with a veterinarian — never by guesswork on your own."
+                  "By now you have a full checklist — source, general signs, udder, body score, records, age. Your job on every single one of these is to check carefully and report exactly what you find. The final decision to buy, reject, or ask for more tests is always made by the owner, usually together with a veterinarian — never by guesswork on your own.",
+                  "ఇప్పటికి మీ దగ్గర పూర్తి చెక్‌లిస్ట్ ఉంది — మూలం, సాధారణ సంకేతాలు, పొదుగు, శరీర స్కోరు, రికార్డులు, వయసు. వీటిలో ప్రతిదానిలోనూ మీ పని జాగ్రత్తగా పరిశీలించి, మీరు చూసినదాన్ని అలాగే చెప్పడం. కొనాలా, తిరస్కరించాలా, లేదా ఇంకా పరీక్షలు అడగాలా అనే తుది నిర్ణయం ఎప్పుడూ యజమానిదే, సాధారణంగా పశువైద్యునితో కలిసి — మీరు ఊహతో ఒంటరిగా నిర్ణయించకండి.",
+                  "இப்போது உங்களிடம் முழு சரிபார்ப்புப் பட்டியல் உள்ளது — மூலம், பொது அறிகுறிகள், மடி, உடல் மதிப்பெண், பதிவுகள், வயது. இவை ஒவ்வொன்றிலும் உங்கள் வேலை கவனமாகச் சரிபார்த்து, நீங்கள் கண்டதை அப்படியே தெரிவிப்பது. வாங்குவதா, நிராகரிப்பதா, அல்லது கூடுதல் பரிசோதனைகள் கேட்பதா என்ற இறுதி முடிவை எப்போதும் உரிமையாளரே எடுப்பார், பெரும்பாலும் கால்நடை மருத்துவருடன் சேர்ந்து — நீங்கள் ஊகத்தால் தனியாக முடிவு செய்யாதீர்கள்.",
+                  "ಈಗ ನಿಮ್ಮ ಬಳಿ ಪೂರ್ಣ ಚೆಕ್‌ಲಿಸ್ಟ್ ಇದೆ — ಮೂಲ, ಸಾಮಾನ್ಯ ಲಕ್ಷಣಗಳು, ಕೆಚ್ಚಲು, ದೇಹ ಸ್ಕೋರ್, ದಾಖಲೆಗಳು, ವಯಸ್ಸು. ಇವುಗಳಲ್ಲಿ ಪ್ರತಿಯೊಂದರಲ್ಲೂ ನಿಮ್ಮ ಕೆಲಸ ಎಚ್ಚರಿಕೆಯಿಂದ ಪರಿಶೀಲಿಸಿ, ನೀವು ಕಂಡದ್ದನ್ನು ಹಾಗೆಯೇ ತಿಳಿಸುವುದು. ಖರೀದಿಸುವುದೇ, ತಿರಸ್ಕರಿಸುವುದೇ, ಅಥವಾ ಹೆಚ್ಚಿನ ಪರೀಕ್ಷೆ ಕೇಳುವುದೇ ಎಂಬ ಅಂತಿಮ ನಿರ್ಧಾರವನ್ನು ಯಾವಾಗಲೂ ಮಾಲೀಕರೇ ತೆಗೆದುಕೊಳ್ಳುತ್ತಾರೆ, ಸಾಮಾನ್ಯವಾಗಿ ಪಶುವೈದ್ಯರ ಜೊತೆ — ನೀವು ಊಹೆಯಿಂದ ಒಂಟಿಯಾಗಿ ನಿರ್ಧರಿಸಬೇಡಿ.",
+                  "अब तक आपके पास पूरी चेकलिस्ट है — स्रोत, आम लक्षण, थन, शरीर स्कोर, रिकॉर्ड, उम्र। इनमें से हर एक पर आपका काम ध्यान से जाँचना और जो पाया वही ठीक-ठीक बताना है। खरीदना, मना करना या और जाँच करवाना — यह आखिरी फैसला हमेशा मालिक लेता है, आमतौर पर पशु चिकित्सक के साथ मिलकर — अपने अंदाज़े से अकेले कभी नहीं।"
                 ),
               },
             ],
             check: [
               {
                 type: "mcq",
-                q: L("What Body Condition Score should you generally look for in a healthy animal being considered for purchase?"),
-                options: [L("1 to 2"), L("3 to 4"), L("5 only"), L("Body score doesn't matter for purchase")],
+                q: L(
+                  "What Body Condition Score should you generally look for in a healthy animal being considered for purchase?",
+                  "కొనడానికి పరిగణిస్తున్న ఆరోగ్యకరమైన జంతువులో సాధారణంగా ఏ శరీర స్థితి స్కోరు చూడాలి?",
+                  "வாங்க பரிசீலிக்கப்படும் ஆரோக்கியமான விலங்கில் பொதுவாக எந்த உடல் நிலை மதிப்பெண்ணைப் பார்க்க வேண்டும்?",
+                  "ಖರೀದಿಗೆ ಪರಿಗಣಿಸುತ್ತಿರುವ ಆರೋಗ್ಯವಾದ ಪ್ರಾಣಿಯಲ್ಲಿ ಸಾಮಾನ್ಯವಾಗಿ ಯಾವ ದೇಹ ಸ್ಥಿತಿ ಸ್ಕೋರ್ ನೋಡಬೇಕು?",
+                  "खरीदने के लिए सोचे जा रहे स्वस्थ पशु में आमतौर पर कौन-सा बॉडी कंडीशन स्कोर देखना चाहिए?"
+                ),
+                options: [L("1 to 2", "1 నుంచి 2", "1 முதல் 2", "1 ರಿಂದ 2", "1 से 2"), L("3 to 4", "3 నుంచి 4", "3 முதல் 4", "3 ರಿಂದ 4", "3 से 4"), L("5 only", "5 మాత్రమే", "5 மட்டும்", "5 ಮಾತ್ರ", "सिर्फ 5"), L("Body score doesn't matter for purchase", "కొనుగోలుకు శరీర స్కోరు ముఖ్యం కాదు", "வாங்குவதற்கு உடல் மதிப்பெண் முக்கியமில்லை", "ಖರೀದಿಗೆ ದೇಹ ಸ್ಕೋರ್ ಮುಖ್ಯವಲ್ಲ", "खरीद के लिए बॉडी स्कोर मायने नहीं रखता")],
                 answer: 1,
-                explain: L("A Body Condition Score of about 3 to 4 is a good sign of health in an animal being considered for purchase."),
+                explain: L(
+                  "A Body Condition Score of about 3 to 4 is a good sign of health in an animal being considered for purchase.",
+                  "కొనడానికి పరిగణిస్తున్న జంతువులో శరీర స్థితి స్కోరు సుమారు 3 నుంచి 4 ఉంటే అది ఆరోగ్యానికి మంచి సంకేతం.",
+                  "வாங்க பரிசீலிக்கப்படும் விலங்கில் உடல் நிலை மதிப்பெண் சுமார் 3 முதல் 4 இருந்தால் அது ஆரோக்கியத்தின் நல்ல அறிகுறி.",
+                  "ಖರೀದಿಗೆ ಪರಿಗಣಿಸುತ್ತಿರುವ ಪ್ರಾಣಿಯಲ್ಲಿ ದೇಹ ಸ್ಥಿತಿ ಸ್ಕೋರ್ ಸುಮಾರು 3 ರಿಂದ 4 ಇದ್ದರೆ ಅದು ಆರೋಗ್ಯದ ಒಳ್ಳೆಯ ಲಕ್ಷಣ.",
+                  "खरीदने के लिए सोचे जा रहे पशु में बॉडी कंडीशन स्कोर लगभग 3 से 4 होना अच्छी सेहत की निशानी है।"
+                ),
               },
               {
                 type: "truefalse",
@@ -2177,12 +2451,18 @@ export const MODULES = [
             {
               topicId: "t-m2-source-signs",
               type: "mcq",
-              q: L("Why is it generally safer to buy an animal directly from a known farm rather than from a cattle market or shandy?"),
+              q: L(
+                "Why is it generally safer to buy an animal directly from a known farm rather than from a cattle market or shandy?",
+                "పశువుల సంత లేదా షాండీ కంటే తెలిసిన పొలం నుంచి నేరుగా జంతువును కొనడం సాధారణంగా ఎందుకు సురక్షితం?",
+                "மாட்டுச் சந்தை அல்லது ஷாண்டியை விட, அறிந்த பண்ணையிலிருந்து நேரடியாக விலங்கை வாங்குவது பொதுவாக ஏன் பாதுகாப்பானது?",
+                "ಜಾನುವಾರು ಸಂತೆ ಅಥವಾ ಶಾಂಡಿಗಿಂತ ಗೊತ್ತಿರುವ ಫಾರಂನಿಂದ ನೇರವಾಗಿ ಪ್ರಾಣಿ ಖರೀದಿಸುವುದು ಸಾಮಾನ್ಯವಾಗಿ ಏಕೆ ಸುರಕ್ಷಿತ?",
+                "पशु बाज़ार या शैंडी की तुलना में जाने-पहचाने फार्म से सीधे पशु खरीदना आमतौर पर ज़्यादा सुरक्षित क्यों है?"
+              ),
               options: [
-                L("Animals are always cheaper at a cattle market"),
-                L("More unrelated animals mix together at a market/shandy, raising the chance of disease exposure"),
-                L("Cattle markets always test every animal for TB, JD and brucellosis"),
-                L("There is no real difference between the two"),
+                L("Animals are always cheaper at a cattle market", "పశువుల సంతలో జంతువులు ఎప్పుడూ చౌకగా ఉంటాయి", "மாட்டுச் சந்தையில் விலங்குகள் எப்போதும் மலிவாக இருக்கும்", "ಜಾನುವಾರು ಸಂತೆಯಲ್ಲಿ ಪ್ರಾಣಿಗಳು ಯಾವಾಗಲೂ ಅಗ್ಗವಾಗಿರುತ್ತವೆ", "पशु बाज़ार में पशु हमेशा सस्ते मिलते हैं"),
+                L("More unrelated animals mix together at a market/shandy, raising the chance of disease exposure", "సంత/షాండీలో సంబంధం లేని ఎక్కువ జంతువులు కలవడం వల్ల వ్యాధి సోకే అవకాశం పెరుగుతుంది", "சந்தை/ஷாண்டியில் தொடர்பில்லாத அதிக விலங்குகள் கலப்பதால் நோய் தொற்றும் வாய்ப்பு அதிகரிக்கிறது", "ಸಂತೆ/ಶಾಂಡಿಯಲ್ಲಿ ಸಂಬಂಧವಿಲ್ಲದ ಹೆಚ್ಚು ಪ್ರಾಣಿಗಳು ಬೆರೆಯುವುದರಿಂದ ರೋಗ ತಗಲುವ ಸಾಧ್ಯತೆ ಹೆಚ್ಚುತ್ತದೆ", "बाज़ार/शैंडी में बहुत सारे अनजान पशु आपस में मिलते हैं, जिससे बीमारी के संपर्क में आने की संभावना बढ़ जाती है"),
+                L("Cattle markets always test every animal for TB, JD and brucellosis", "పశువుల సంతలో ప్రతి జంతువునూ టీబీ, JD, బ్రూసెల్లోసిస్ కోసం ఎప్పుడూ పరీక్షిస్తారు", "மாட்டுச் சந்தையில் ஒவ்வொரு விலங்கையும் TB, JD, புருசெல்லோசிஸ் நோய்களுக்காக எப்போதும் பரிசோதிப்பார்கள்", "ಜಾನುವಾರು ಸಂತೆಯಲ್ಲಿ ಪ್ರತಿ ಪ್ರಾಣಿಯನ್ನೂ ಟಿಬಿ, JD, ಬ್ರೂಸೆಲ್ಲೋಸಿಸ್‌ಗಾಗಿ ಯಾವಾಗಲೂ ಪರೀಕ್ಷಿಸುತ್ತಾರೆ", "पशु बाज़ार में हर पशु की टीबी, JD और ब्रुसेलोसिस की जाँच हमेशा होती है"),
+                L("There is no real difference between the two", "రెండింటికీ నిజంగా తేడా ఏమీ లేదు", "இரண்டுக்கும் உண்மையில் எந்த வித்தியாசமும் இல்லை", "ಎರಡರ ನಡುವೆ ನಿಜವಾಗಿ ಯಾವುದೇ ವ್ಯತ್ಯಾಸ ಇಲ್ಲ", "दोनों में असल में कोई फ़र्क नहीं है"),
               ],
               answer: 1,
               explain: L("More unrelated animals mixing together at a market or shandy raises the chance of disease exposure compared with a known, tested farm."),
@@ -2197,8 +2477,14 @@ export const MODULES = [
             {
               topicId: "t-m2-udder-records-transport",
               type: "mcq",
-              q: L("What Body Condition Score should you generally look for in a healthy animal being considered for purchase?"),
-              options: [L("1 to 2"), L("3 to 4"), L("5 only"), L("Body score doesn't matter for purchase")],
+              q: L(
+                "What Body Condition Score should you generally look for in a healthy animal being considered for purchase?",
+                "కొనడానికి పరిగణిస్తున్న ఆరోగ్యకరమైన జంతువులో సాధారణంగా ఏ శరీర స్థితి స్కోరు చూడాలి?",
+                "வாங்க பரிசீலிக்கப்படும் ஆரோக்கியமான விலங்கில் பொதுவாக எந்த உடல் நிலை மதிப்பெண்ணைப் பார்க்க வேண்டும்?",
+                "ಖರೀದಿಗೆ ಪರಿಗಣಿಸುತ್ತಿರುವ ಆರೋಗ್ಯವಾದ ಪ್ರಾಣಿಯಲ್ಲಿ ಸಾಮಾನ್ಯವಾಗಿ ಯಾವ ದೇಹ ಸ್ಥಿತಿ ಸ್ಕೋರ್ ನೋಡಬೇಕು?",
+                "खरीदने के लिए सोचे जा रहे स्वस्थ पशु में आमतौर पर कौन-सा बॉडी कंडीशन स्कोर देखना चाहिए?"
+              ),
+              options: [L("1 to 2", "1 నుంచి 2", "1 முதல் 2", "1 ರಿಂದ 2", "1 से 2"), L("3 to 4", "3 నుంచి 4", "3 முதல் 4", "3 ರಿಂದ 4", "3 से 4"), L("5 only", "5 మాత్రమే", "5 மட்டும்", "5 ಮಾತ್ರ", "सिर्फ 5"), L("Body score doesn't matter for purchase", "కొనుగోలుకు శరీర స్కోరు ముఖ్యం కాదు", "வாங்குவதற்கு உடல் மதிப்பெண் முக்கியமில்லை", "ಖರೀದಿಗೆ ದೇಹ ಸ್ಕೋರ್ ಮುಖ್ಯವಲ್ಲ", "खरीद के लिए बॉडी स्कोर मायने नहीं रखता")],
               answer: 1,
               explain: L("A Body Condition Score of about 3 to 4 is a good sign of health when considering an animal for purchase."),
             },
