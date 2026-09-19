@@ -8060,77 +8060,97 @@ export const MODULES = [
       },
       {
         id: "t-m8-acidosis",
-        title: L("Rumen Acidosis and SARA"),
+        title: L("Rumen Acidosis and SARA", "రుమెన్ అసిడోసిస్ మరియు SARA", "ருமன் அமிலத்தன்மை மற்றும் SARA", "ರುಮೆನ್ ಆಸಿಡೋಸಿಸ್ ಮತ್ತು SARA", "रूमेन एसिडोसिस और SARA"),
         teach: [
           {
             type: "text",
-            heading: L("Too Much Rich Feed, Too Fast"),
+            heading: L("Too Much Rich Feed, Too Fast", "చాలా ఎక్కువ దాణా, చాలా వేగంగా", "மிக அதிக அடர் தீவனம், மிக வேகமாக", "ತುಂಬಾ ಹೆಚ್ಚು ಹಿಂಡಿ-ಕಾಳು ಆಹಾರ, ತುಂಬಾ ವೇಗವಾಗಿ", "बहुत ज़्यादा दाना, बहुत तेज़ी से"),
             html: L(
-              "The rumen's microbes are used to working on fibrous feed like grass and hay, known as <b>forage</b> or <b>roughage</b>. <b>Concentrate</b> feed — grain-based feed that digests quickly and gives a lot of energy — is useful, but feeding large amounts of it too suddenly overwhelms the rumen and makes it too acidic. This is called <b>acidosis</b>."
+              "The rumen's microbes are used to working on fibrous feed like grass and hay, known as <b>forage</b> or <b>roughage</b>. <b>Concentrate</b> feed — grain-based feed that digests quickly and gives a lot of energy — is useful, but feeding large amounts of it too suddenly overwhelms the rumen and makes it too acidic. This is called <b>acidosis</b>.",
+              "రుమెన్‌లోని సూక్ష్మజీవులు గడ్డి, ఎండుగడ్డి వంటి పీచు ఉన్న మేతను జీర్ణం చేయడానికి అలవాటు పడి ఉంటాయి, దీనిని <b>ఫోరేజ్</b> లేదా <b>రఫేజ్</b> అంటారు. <b>దాణా</b> (కాన్సంట్రేట్) — ధాన్యం ఆధారిత మేత, ఇది త్వరగా జీర్ణమై ఎక్కువ శక్తినిస్తుంది — ఉపయోగకరమే, కానీ దాన్ని ఒకేసారి ఎక్కువ మొత్తంలో ఇస్తే రుమెన్ మీద భారం పడి అది చాలా ఆమ్లంగా మారుతుంది. దీన్నే <b>అసిడోసిస్</b> అంటారు.",
+              "ருமனில் உள்ள நுண்ணுயிரிகள் புல், வைக்கோல் போன்ற நார்ச்சத்து மிக்க தீவனத்தை செரிக்கப் பழகியவை; இது <b>ஃபோரேஜ்</b> அல்லது <b>ரஃபேஜ்</b> எனப்படும். <b>அடர் தீவனம்</b> — தானியம் சார்ந்த, விரைவாக செரிக்கும், அதிக சக்தி தரும் தீவனம் — பயனுள்ளதுதான், ஆனால் அதை ஒரே நேரத்தில் அதிக அளவில் கொடுத்தால் ருமன் தாங்க முடியாமல் மிகவும் அமிலமாகிவிடும். இதுவே <b>அமிலத்தன்மை (அசிடோசிஸ்)</b> எனப்படும்.",
+              "ರುಮೆನ್‌ನ ಸೂಕ್ಷ್ಮಜೀವಿಗಳು ಹುಲ್ಲು, ಒಣಹುಲ್ಲಿನಂತಹ ನಾರಿನ ಆಹಾರವನ್ನು ಜೀರ್ಣಿಸಲು ಒಗ್ಗಿಕೊಂಡಿರುತ್ತವೆ; ಇದನ್ನು <b>ಫೋರೇಜ್</b> ಅಥವಾ <b>ರಫೇಜ್</b> ಎನ್ನುತ್ತಾರೆ. <b>ಹಿಂಡಿ-ಕಾಳು ಆಹಾರ</b> — ಧಾನ್ಯ ಆಧಾರಿತ, ಬೇಗ ಜೀರ್ಣವಾಗಿ ಹೆಚ್ಚು ಶಕ್ತಿ ಕೊಡುವ ಆಹಾರ — ಉಪಯುಕ್ತವೇ, ಆದರೆ ಅದನ್ನು ಒಮ್ಮೆಲೆ ಹೆಚ್ಚು ಕೊಟ್ಟರೆ ರುಮೆನ್ ಮೇಲೆ ಭಾರ ಬಿದ್ದು ಅತಿ ಹುಳಿಯಾಗುತ್ತದೆ. ಇದನ್ನೇ <b>ಆಸಿಡೋಸಿಸ್</b> ಎನ್ನುತ್ತಾರೆ.",
+              "रूमेन के सूक्ष्मजीव घास और भूसे जैसे रेशेदार चारे को पचाने के आदी होते हैं, जिसे <b>फोरेज</b> या <b>रफेज</b> कहते हैं। <b>दाना (कॉन्सन्ट्रेट)</b> — अनाज आधारित चारा जो जल्दी पचता है और खूब ऊर्जा देता है — उपयोगी तो है, लेकिन इसे एकदम से ज़्यादा मात्रा में खिलाने पर रूमेन पर बोझ पड़ता है और वह बहुत अम्लीय हो जाता है। इसी को <b>एसिडोसिस</b> कहते हैं।"
             ),
           },
           {
             type: "glossary",
-            term: L("Concentrate vs. Forage"),
+            term: L("Concentrate vs. Forage", "దాణా vs. ఫోరేజ్ (పీచు మేత)", "அடர் தீவனம் vs. ஃபோரேஜ் (நார்த் தீவனம்)", "ಹಿಂಡಿ-ಕಾಳು ಆಹಾರ vs. ಫೋರೇಜ್ (ನಾರಿನ ಮೇವು)", "दाना बनाम फोरेज (रेशेदार चारा)"),
             meaning: L(
-              "Concentrate is energy-dense, grain-based feed that is digested quickly. Forage (or roughage) is fibrous feed like grass or hay, digested more slowly. A healthy diet needs enough forage — too much concentrate, too fast, upsets the rumen."
+              "Concentrate is energy-dense, grain-based feed that is digested quickly. Forage (or roughage) is fibrous feed like grass or hay, digested more slowly. A healthy diet needs enough forage — too much concentrate, too fast, upsets the rumen.",
+              "దాణా అంటే శక్తి ఎక్కువగా ఉండే, ధాన్యం ఆధారిత మేత, ఇది త్వరగా జీర్ణమవుతుంది. ఫోరేజ్ (లేదా రఫేజ్) అంటే గడ్డి, ఎండుగడ్డి వంటి పీచు ఉన్న మేత, ఇది నెమ్మదిగా జీర్ణమవుతుంది. ఆరోగ్యకరమైన ఆహారానికి తగినంత ఫోరేజ్ అవసరం — ఎక్కువ దాణాను చాలా వేగంగా ఇస్తే రుమెన్ దెబ్బతింటుంది.",
+              "அடர் தீவனம் என்பது அதிக சக்தி கொண்ட, தானியம் சார்ந்த, விரைவாக செரிக்கும் தீவனம். ஃபோரேஜ் (அல்லது ரஃபேஜ்) என்பது புல், வைக்கோல் போன்ற நார்ச்சத்து மிக்க தீவனம், மெதுவாக செரிக்கும். ஆரோக்கியமான உணவுக்கு போதுமான ஃபோரேஜ் தேவை — அதிக அடர் தீவனத்தை மிக வேகமாக கொடுத்தால் ருமன் பாதிக்கப்படும்.",
+              "ಹಿಂಡಿ-ಕಾಳು ಆಹಾರ ಎಂದರೆ ಹೆಚ್ಚು ಶಕ್ತಿ ಇರುವ, ಧಾನ್ಯ ಆಧಾರಿತ, ಬೇಗ ಜೀರ್ಣವಾಗುವ ಆಹಾರ. ಫೋರೇಜ್ (ಅಥವಾ ರಫೇಜ್) ಎಂದರೆ ಹುಲ್ಲು, ಒಣಹುಲ್ಲಿನಂತಹ ನಾರಿನ ಆಹಾರ, ನಿಧಾನವಾಗಿ ಜೀರ್ಣವಾಗುತ್ತದೆ. ಆರೋಗ್ಯಕರ ಆಹಾರಕ್ಕೆ ಸಾಕಷ್ಟು ಫೋರೇಜ್ ಬೇಕು — ತುಂಬಾ ಹೆಚ್ಚು ಹಿಂಡಿ-ಕಾಳು ಆಹಾರವನ್ನು ತುಂಬಾ ವೇಗವಾಗಿ ಕೊಟ್ಟರೆ ರುಮೆನ್ ಹಾಳಾಗುತ್ತದೆ.",
+              "दाना ऊर्जा से भरपूर, अनाज आधारित चारा है जो जल्दी पचता है। फोरेज (या रफेज) घास या भूसे जैसा रेशेदार चारा है, जो धीरे पचता है। स्वस्थ आहार के लिए पर्याप्त फोरेज ज़रूरी है — बहुत ज़्यादा दाना, बहुत तेज़ी से देने पर रूमेन बिगड़ जाता है।"
             ),
           },
           {
             type: "stat-grid",
             items: [
               {
-                label: L("Clinical acidosis — the severe form"),
-                text: L("Caused by large amounts of rapidly digestible carbohydrate fed in a short time. Within 24–48 hours the animal may go down and be unable to get up (this can look similar to milk fever), and it may stop urinating or passing dung."),
+                label: L("Clinical acidosis — the severe form", "క్లినికల్ అసిడోసిస్ — తీవ్రమైన రూపం", "கிளினிக்கல் அமிலத்தன்மை — தீவிர வடிவம்", "ಕ್ಲಿನಿಕಲ್ ಆಸಿಡೋಸಿಸ್ — ತೀವ್ರ ರೂಪ", "क्लिनिकल एसिडोसिस — गंभीर रूप"),
+                text: L("Caused by large amounts of rapidly digestible carbohydrate fed in a short time. Within 24–48 hours the animal may go down and be unable to get up (this can look similar to milk fever), and it may stop urinating or passing dung.", "తక్కువ సమయంలో ఎక్కువ మొత్తంలో త్వరగా జీర్ణమయ్యే పిండిపదార్థాలు (కార్బోహైడ్రేట్) ఇవ్వడం వల్ల వస్తుంది. 24–48 గంటల్లో పశువు కింద పడిపోయి లేవలేకపోవచ్చు (ఇది మిల్క్ ఫీవర్‌లా కనిపించవచ్చు), మరియు మూత్రం లేదా పేడ వేయడం ఆపేయవచ్చు.", "குறுகிய நேரத்தில் அதிக அளவு விரைவாக செரிக்கும் மாவுச்சத்து (கார்போஹைட்ரேட்) கொடுப்பதால் ஏற்படுகிறது. 24–48 மணி நேரத்தில் விலங்கு கீழே விழுந்து எழுந்திருக்க முடியாமல் போகலாம் (இது பால் காய்ச்சல் போலவும் தோன்றலாம்), மேலும் சிறுநீர் அல்லது சாணம் போவதை நிறுத்தலாம்.", "ಕಡಿಮೆ ಸಮಯದಲ್ಲಿ ಹೆಚ್ಚು ಪ್ರಮಾಣದಲ್ಲಿ ಬೇಗ ಜೀರ್ಣವಾಗುವ ಪಿಷ್ಟ (ಕಾರ್ಬೋಹೈಡ್ರೇಟ್) ಕೊಡುವುದರಿಂದ ಬರುತ್ತದೆ. 24–48 ಗಂಟೆಗಳಲ್ಲಿ ಪ್ರಾಣಿ ಕೆಳಗೆ ಬಿದ್ದು ಏಳಲಾಗದೆ ಹೋಗಬಹುದು (ಇದು ಮಿಲ್ಕ್ ಫೀವರ್‌ನಂತೆ ಕಾಣಬಹುದು), ಮತ್ತು ಮೂತ್ರ ಅಥವಾ ಸೆಗಣಿ ಹಾಕುವುದನ್ನು ನಿಲ್ಲಿಸಬಹುದು.", "कम समय में बड़ी मात्रा में जल्दी पचने वाला कार्बोहाइड्रेट खिलाने से होता है। 24–48 घंटों में पशु गिर सकता है और उठ नहीं पाता (यह मिल्क फीवर जैसा दिख सकता है), और वह पेशाब या गोबर करना बंद कर सकता है।"),
               },
               {
-                label: L("Sub-clinical acidosis — the milder, ongoing form"),
-                text: L("Caused by feeding more concentrate than forage over time. Signs include reduced feed intake, weight loss, unexplained diarrhoea and exhaustion. It can also lead on to laminitis and lameness."),
+                label: L("Sub-clinical acidosis — the milder, ongoing form", "సబ్-క్లినికల్ అసిడోసిస్ — తేలికపాటి, కొనసాగే రూపం", "சப்-கிளினிக்கல் அமிலத்தன்மை — லேசான, தொடர்ந்து இருக்கும் வடிவம்", "ಸಬ್-ಕ್ಲಿನಿಕಲ್ ಆಸಿಡೋಸಿಸ್ — ಸೌಮ್ಯ, ಮುಂದುವರಿಯುವ ರೂಪ", "सब-क्लिनिकल एसिडोसिस — हल्का, लगातार चलने वाला रूप"),
+                text: L("Caused by feeding more concentrate than forage over time. Signs include reduced feed intake, weight loss, unexplained diarrhoea and exhaustion. It can also lead on to laminitis and lameness.", "కాలక్రమంలో ఫోరేజ్ కంటే ఎక్కువ దాణా ఇవ్వడం వల్ల వస్తుంది. మేత తినడం తగ్గడం, బరువు తగ్గడం, కారణం తెలియని విరేచనాలు మరియు నీరసం దీని లక్షణాలు. ఇది తర్వాత లామినైటిస్ (గిట్టల వాపు) మరియు కుంటితనానికి కూడా దారితీయవచ్చు.", "நீண்ட காலம் ஃபோரேஜை விட அதிக அடர் தீவனம் கொடுப்பதால் ஏற்படுகிறது. தீவனம் உண்பது குறைதல், எடை குறைதல், காரணம் தெரியாத வயிற்றுப்போக்கு மற்றும் சோர்வு ஆகியவை அறிகுறிகள். இது பின்னர் லேமினைடிஸ் (குளம்பு வீக்கம்) மற்றும் நொண்டித்தனத்திற்கும் வழிவகுக்கலாம்.", "ದೀರ್ಘಕಾಲ ಫೋರೇಜ್‌ಗಿಂತ ಹೆಚ್ಚು ಹಿಂಡಿ-ಕಾಳು ಆಹಾರ ಕೊಡುವುದರಿಂದ ಬರುತ್ತದೆ. ಆಹಾರ ಸೇವನೆ ಕಡಿಮೆಯಾಗುವುದು, ತೂಕ ಇಳಿಯುವುದು, ಕಾರಣ ತಿಳಿಯದ ಭೇದಿ ಮತ್ತು ಆಯಾಸ ಇದರ ಲಕ್ಷಣಗಳು. ಇದು ಮುಂದೆ ಲ್ಯಾಮಿನೈಟಿಸ್ (ಗೊರಸು ಬಾವು) ಮತ್ತು ಕುಂಟುವಿಕೆಗೂ ಕಾರಣವಾಗಬಹುದು.", "लंबे समय तक फोरेज से ज़्यादा दाना खिलाने से होता है। चारा कम खाना, वज़न घटना, बिना वजह दस्त और थकावट इसके लक्षण हैं। इससे आगे चलकर लैमिनाइटिस (खुर की सूजन) और लंगड़ापन भी हो सकता है।"),
               },
             ],
           },
           {
             type: "callout",
             style: "warning",
-            heading: L("Clinical Acidosis Can Look Better, Then Get Worse"),
+            heading: L("Clinical Acidosis Can Look Better, Then Get Worse", "క్లినికల్ అసిడోసిస్ మొదట మెరుగ్గా కనిపించి, తర్వాత మరింత తీవ్రం కావచ్చు", "கிளினிக்கல் அமிலத்தன்மை முதலில் சரியானது போலத் தோன்றி, பின் மோசமாகலாம்", "ಕ್ಲಿನಿಕಲ್ ಆಸಿಡೋಸಿಸ್ ಮೊದಲು ಸುಧಾರಿಸಿದಂತೆ ಕಾಣಬಹುದು, ನಂತರ ಹದಗೆಡಬಹುದು", "क्लिनिकल एसिडोसिस पहले ठीक लग सकता है, फिर बिगड़ सकता है"),
             text: L(
-              "In severe clinical acidosis, the outlook is often poor. Some animals seem to improve at first but then become seriously ill again 3–4 days later. An animal down and unable to get up, from a feeding cause, needs a veterinarian immediately."
+              "In severe clinical acidosis, the outlook is often poor. Some animals seem to improve at first but then become seriously ill again 3–4 days later. An animal down and unable to get up, from a feeding cause, needs a veterinarian immediately.",
+              "తీవ్రమైన క్లినికల్ అసిడోసిస్‌లో కోలుకునే అవకాశాలు తరచుగా తక్కువగా ఉంటాయి. కొన్ని పశువులు మొదట మెరుగవుతున్నట్లు కనిపించినా, 3–4 రోజుల తర్వాత మళ్లీ తీవ్రంగా అనారోగ్యం పాలవుతాయి. మేత కారణంగా కింద పడిపోయి లేవలేని పశువుకు వెంటనే వెటర్నరీ డాక్టర్ అవసరం.",
+              "தீவிரமான கிளினிக்கல் அமிலத்தன்மையில் குணமாகும் வாய்ப்பு பெரும்பாலும் குறைவு. சில விலங்குகள் முதலில் தேறுவது போலத் தோன்றினாலும், 3–4 நாட்களுக்குப் பிறகு மீண்டும் கடுமையாக நோய்வாய்ப்படும். தீவனக் காரணத்தால் கீழே விழுந்து எழுந்திருக்க முடியாத விலங்குக்கு உடனே வெட்டரினரி டாக்டர் தேவை.",
+              "ತೀವ್ರ ಕ್ಲಿನಿಕಲ್ ಆಸಿಡೋಸಿಸ್‌ನಲ್ಲಿ ಚೇತರಿಕೆಯ ಸಾಧ್ಯತೆ ಸಾಮಾನ್ಯವಾಗಿ ಕಡಿಮೆ. ಕೆಲವು ಪ್ರಾಣಿಗಳು ಮೊದಲು ಸುಧಾರಿಸಿದಂತೆ ಕಾಣುತ್ತವೆ, ಆದರೆ 3–4 ದಿನಗಳ ನಂತರ ಮತ್ತೆ ಗಂಭೀರವಾಗಿ ಅನಾರೋಗ್ಯಕ್ಕೆ ಒಳಗಾಗುತ್ತವೆ. ಆಹಾರದ ಕಾರಣದಿಂದ ಕೆಳಗೆ ಬಿದ್ದು ಏಳಲಾಗದ ಪ್ರಾಣಿಗೆ ತಕ್ಷಣ ಪಶುವೈದ್ಯರು ಬೇಕು.",
+              "गंभीर क्लिनिकल एसिडोसिस में ठीक होने की उम्मीद अक्सर कम होती है। कुछ पशु पहले सुधरते दिखते हैं लेकिन 3–4 दिन बाद फिर से गंभीर रूप से बीमार हो जाते हैं। चारे की वजह से गिरा हुआ और उठ न पाने वाला पशु हो तो तुरंत डॉक्टर की ज़रूरत होती है।"
             ),
           },
           {
             type: "text",
-            heading: L("SARA: A Related Problem From Sudden Diet Switches"),
+            heading: L("SARA: A Related Problem From Sudden Diet Switches", "SARA: ఆహారం అకస్మాత్తుగా మార్చడం వల్ల వచ్చే సంబంధిత సమస్య", "SARA: உணவை திடீரென மாற்றுவதால் ஏற்படும் தொடர்புடைய பிரச்சினை", "SARA: ಆಹಾರವನ್ನು ಹಠಾತ್ ಬದಲಾಯಿಸುವುದರಿಂದ ಬರುವ ಸಂಬಂಧಿತ ಸಮಸ್ಯೆ", "SARA: अचानक आहार बदलने से होने वाली संबंधित समस्या"),
             html: L(
-              "<b>Sub-Acute Ruminal Acidosis (SARA)</b> happens when a diet is switched abruptly from high-fibre to high-concentrate, or when rations are poorly balanced or feed is chopped too fine. It's a major cause of animals producing less than they should. Watch for reduced feed intake, reduced cud-chewing, mild diarrhoea, foamy dung, undigested feed pieces larger than 6mm showing up in the dung, and lower milk fat. Over time it can also lead to laminitis, weight loss, and poor body condition even when the animal is getting enough energy in its feed."
+              "<b>Sub-Acute Ruminal Acidosis (SARA)</b> happens when a diet is switched abruptly from high-fibre to high-concentrate, or when rations are poorly balanced or feed is chopped too fine. It's a major cause of animals producing less than they should. Watch for reduced feed intake, reduced cud-chewing, mild diarrhoea, foamy dung, undigested feed pieces larger than 6mm showing up in the dung, and lower milk fat. Over time it can also lead to laminitis, weight loss, and poor body condition even when the animal is getting enough energy in its feed.",
+              "<b>సబ్-అక్యూట్ రుమినల్ అసిడోసిస్ (SARA)</b> అనేది ఆహారాన్ని ఎక్కువ పీచు ఉన్నదాని నుండి ఎక్కువ దాణా ఉన్నదానికి ఒక్కసారిగా మార్చినప్పుడు, లేదా రేషన్ సరిగ్గా సమతుల్యంగా లేనప్పుడు, లేదా మేతను మరీ సన్నగా ముక్కలు చేసినప్పుడు వస్తుంది. పశువులు ఉత్పత్తి చేయాల్సిన దానికంటే తక్కువ పాలు ఇవ్వడానికి ఇది ఒక ప్రధాన కారణం. మేత తినడం తగ్గడం, నెమరు వేయడం తగ్గడం, తేలికపాటి విరేచనాలు, నురుగుతో కూడిన పేడ, పేడలో 6 మి.మీ. కంటే పెద్ద జీర్ణం కాని మేత ముక్కలు కనిపించడం, మరియు పాలలో కొవ్వు తగ్గడం గమనించండి. కాలక్రమేణా, పశువు మేతలో తగినంత శక్తి పొందుతున్నా కూడా ఇది లామినైటిస్, బరువు తగ్గడం మరియు శరీర స్థితి బాగోకపోవడానికి దారితీయవచ్చు.",
+              "<b>சப்-அக்யூட் ருமினல் அசிடோசிஸ் (SARA)</b> என்பது உணவை அதிக நார்ச்சத்து கொண்டதிலிருந்து அதிக அடர் தீவனம் கொண்டதாக திடீரென மாற்றும்போது, அல்லது ரேஷன் சரியாக சமநிலையில் இல்லாதபோது, அல்லது தீவனத்தை மிகவும் நுணுக்கமாக நறுக்கும்போது ஏற்படுகிறது. விலங்குகள் தர வேண்டியதை விட குறைவாக பால் தருவதற்கு இது ஒரு முக்கிய காரணம். தீவனம் உண்பது குறைதல், அசைபோடுவது குறைதல், லேசான வயிற்றுப்போக்கு, நுரையுடன் கூடிய சாணம், சாணத்தில் 6 மி.மீ.க்கு மேல் செரிக்காத தீவனத் துண்டுகள் தெரிதல், மற்றும் பாலில் கொழுப்பு குறைதல் ஆகியவற்றை கவனியுங்கள். காலப்போக்கில், விலங்கு தீவனத்தில் போதுமான சக்தி பெற்றாலும் இது லேமினைடிஸ், எடை குறைவு மற்றும் மோசமான உடல் நிலைக்கு வழிவகுக்கலாம்.",
+              "<b>ಸಬ್-ಅಕ್ಯೂಟ್ ರುಮಿನಲ್ ಆಸಿಡೋಸಿಸ್ (SARA)</b> ಆಹಾರವನ್ನು ಹೆಚ್ಚು ನಾರಿನ ಆಹಾರದಿಂದ ಹೆಚ್ಚು ಹಿಂಡಿ-ಕಾಳು ಆಹಾರಕ್ಕೆ ಒಮ್ಮೆಲೆ ಬದಲಾಯಿಸಿದಾಗ, ಅಥವಾ ರೇಷನ್ ಸರಿಯಾಗಿ ಸಮತೋಲನದಲ್ಲಿ ಇಲ್ಲದಿದ್ದಾಗ, ಅಥವಾ ಮೇವನ್ನು ತೀರಾ ಸಣ್ಣಗೆ ಕತ್ತರಿಸಿದಾಗ ಬರುತ್ತದೆ. ಪ್ರಾಣಿಗಳು ಕೊಡಬೇಕಾದದ್ದಕ್ಕಿಂತ ಕಡಿಮೆ ಹಾಲು ಕೊಡಲು ಇದು ಪ್ರಮುಖ ಕಾರಣ. ಆಹಾರ ಸೇವನೆ ಕಡಿಮೆಯಾಗುವುದು, ಮೆಲುಕು ಹಾಕುವುದು ಕಡಿಮೆಯಾಗುವುದು, ಸೌಮ್ಯ ಭೇದಿ, ನೊರೆಯುಳ್ಳ ಸೆಗಣಿ, ಸೆಗಣಿಯಲ್ಲಿ 6 ಮಿ.ಮೀ.ಗಿಂತ ದೊಡ್ಡ ಜೀರ್ಣವಾಗದ ಆಹಾರದ ತುಂಡುಗಳು ಕಾಣುವುದು, ಮತ್ತು ಹಾಲಿನಲ್ಲಿ ಕೊಬ್ಬು ಕಡಿಮೆಯಾಗುವುದನ್ನು ಗಮನಿಸಿ. ಕಾಲಕ್ರಮೇಣ, ಪ್ರಾಣಿಗೆ ಆಹಾರದಿಂದ ಸಾಕಷ್ಟು ಶಕ್ತಿ ಸಿಗುತ್ತಿದ್ದರೂ ಇದು ಲ್ಯಾಮಿನೈಟಿಸ್, ತೂಕ ಇಳಿಕೆ ಮತ್ತು ಕಳಪೆ ದೇಹ ಸ್ಥಿತಿಗೆ ಕಾರಣವಾಗಬಹುದು.",
+              "<b>सब-एक्यूट रूमिनल एसिडोसिस (SARA)</b> तब होता है जब आहार को अचानक ज़्यादा रेशे वाले से ज़्यादा दाने वाले आहार में बदल दिया जाए, या राशन ठीक से संतुलित न हो, या चारा बहुत बारीक काटा गया हो। पशु जितना दूध देना चाहिए उससे कम देते हैं, इसका यह एक बड़ा कारण है। चारा कम खाना, जुगाली कम करना, हल्के दस्त, झागदार गोबर, गोबर में 6 मि.मी. से बड़े अनपचे चारे के टुकड़े दिखना, और दूध में फैट कम होना ध्यान से देखें। समय के साथ, पशु को चारे से पर्याप्त ऊर्जा मिलने पर भी यह लैमिनाइटिस, वज़न घटने और खराब शारीरिक हालत का कारण बन सकता है।"
             ),
           },
           {
             type: "callout",
             style: "tip",
-            heading: L("Everyday Habits That Help Prevent Acidosis and SARA"),
+            heading: L("Everyday Habits That Help Prevent Acidosis and SARA", "అసిడోసిస్ మరియు SARA నివారణకు రోజువారీ అలవాట్లు", "அமிலத்தன்மை மற்றும் SARA தடுக்க உதவும் அன்றாட பழக்கங்கள்", "ಆಸಿಡೋಸಿಸ್ ಮತ್ತು SARA ತಡೆಯಲು ಸಹಾಯ ಮಾಡುವ ದೈನಂದಿನ ಅಭ್ಯಾಸಗಳು", "एसिडोसिस और SARA से बचाने वाली रोज़ की आदतें"),
             text: L(
-              "Give the animal roughage in the morning before concentrate, so it produces enough saliva (which helps protect the rumen). Never give large amounts of rapidly digestible carbohydrate at once. Any change in feeding — especially a switch toward more concentrate — should be made gradually, not abruptly, and proper feeding practices should be worked out with a veterinarian."
+              "Give the animal roughage in the morning before concentrate, so it produces enough saliva (which helps protect the rumen). Never give large amounts of rapidly digestible carbohydrate at once. Any change in feeding — especially a switch toward more concentrate — should be made gradually, not abruptly, and proper feeding practices should be worked out with a veterinarian.",
+              "ఉదయం దాణా ఇవ్వడానికి ముందు పశువుకు రఫేజ్ (పీచు మేత) ఇవ్వండి, అప్పుడు తగినంత లాలాజలం ఉత్పత్తి అవుతుంది (ఇది రుమెన్‌ను కాపాడటానికి సహాయపడుతుంది). త్వరగా జీర్ణమయ్యే పిండిపదార్థాలను ఎప్పుడూ ఒకేసారి ఎక్కువ మొత్తంలో ఇవ్వకండి. ఆహారంలో ఏ మార్పైనా — ముఖ్యంగా ఎక్కువ దాణా వైపు మార్పు — నెమ్మదిగా చేయాలి, ఒక్కసారిగా కాదు, మరియు సరైన ఆహార పద్ధతులను వెటర్నరీ డాక్టర్‌తో కలిసి నిర్ణయించుకోవాలి.",
+              "காலையில் அடர் தீவனம் கொடுப்பதற்கு முன் விலங்குக்கு ரஃபேஜ் (நார்த் தீவனம்) கொடுங்கள், அப்போது போதுமான உமிழ்நீர் சுரக்கும் (இது ருமனைப் பாதுகாக்க உதவும்). விரைவாக செரிக்கும் மாவுச்சத்தை ஒருபோதும் ஒரே நேரத்தில் அதிக அளவில் கொடுக்காதீர்கள். உணவில் எந்த மாற்றமும் — குறிப்பாக அதிக அடர் தீவனத்தை நோக்கிய மாற்றம் — படிப்படியாக செய்யப்பட வேண்டும், திடீரென அல்ல, மேலும் சரியான உணவு முறைகளை வெட்டரினரி டாக்டருடன் சேர்ந்து முடிவு செய்ய வேண்டும்.",
+              "ಬೆಳಿಗ್ಗೆ ಹಿಂಡಿ-ಕಾಳು ಆಹಾರ ಕೊಡುವ ಮೊದಲು ಪ್ರಾಣಿಗೆ ರಫೇಜ್ (ನಾರಿನ ಮೇವು) ಕೊಡಿ, ಆಗ ಸಾಕಷ್ಟು ಜೊಲ್ಲು ಉತ್ಪತ್ತಿಯಾಗುತ್ತದೆ (ಇದು ರುಮೆನ್ ಅನ್ನು ರಕ್ಷಿಸಲು ಸಹಾಯ ಮಾಡುತ್ತದೆ). ಬೇಗ ಜೀರ್ಣವಾಗುವ ಪಿಷ್ಟವನ್ನು ಎಂದಿಗೂ ಒಮ್ಮೆಲೆ ಹೆಚ್ಚು ಪ್ರಮಾಣದಲ್ಲಿ ಕೊಡಬೇಡಿ. ಆಹಾರದಲ್ಲಿ ಯಾವುದೇ ಬದಲಾವಣೆಯನ್ನು — ವಿಶೇಷವಾಗಿ ಹೆಚ್ಚು ಹಿಂಡಿ-ಕಾಳು ಆಹಾರದ ಕಡೆಗಿನ ಬದಲಾವಣೆಯನ್ನು — ಕ್ರಮೇಣ ಮಾಡಬೇಕು, ಹಠಾತ್ ಅಲ್ಲ, ಮತ್ತು ಸರಿಯಾದ ಆಹಾರ ಪದ್ಧತಿಗಳನ್ನು ಪಶುವೈದ್ಯರೊಂದಿಗೆ ಸೇರಿ ನಿರ್ಧರಿಸಬೇಕು.",
+              "सुबह दाना देने से पहले पशु को रफेज (रेशेदार चारा) दें, ताकि पर्याप्त लार बने (जो रूमेन को बचाने में मदद करती है)। जल्दी पचने वाला कार्बोहाइड्रेट कभी भी एक साथ ज़्यादा मात्रा में न दें। खिलाने में कोई भी बदलाव — खासकर ज़्यादा दाने की ओर बदलाव — धीरे-धीरे करें, अचानक नहीं, और सही खिलाने के तरीके डॉक्टर के साथ मिलकर तय करें।"
             ),
           },
         ],
         check: [
           {
             type: "mcq",
-            q: L("What commonly causes rumen acidosis?"),
+            q: L("What commonly causes rumen acidosis?", "రుమెన్ అసిడోసిస్‌కు సాధారణంగా కారణమేమిటి?", "ருமன் அமிலத்தன்மைக்கு பொதுவாக என்ன காரணம்?", "ರುಮೆನ್ ಆಸಿಡೋಸಿಸ್‌ಗೆ ಸಾಮಾನ್ಯವಾಗಿ ಕಾರಣವೇನು?", "रूमेन एसिडोसिस आमतौर पर किस वजह से होता है?"),
             options: [
-              L("Feeding large amounts of rapidly digestible carbohydrate (concentrate) too quickly"),
-              L("Giving the animal too much plain water"),
-              L("Letting the animal rest too long"),
-              L("Milking the animal too often"),
+              L("Feeding large amounts of rapidly digestible carbohydrate (concentrate) too quickly", "త్వరగా జీర్ణమయ్యే పిండిపదార్థాలను (దాణా) ఎక్కువ మొత్తంలో చాలా వేగంగా ఇవ్వడం", "விரைவாக செரிக்கும் மாவுச்சத்தை (அடர் தீவனம்) அதிக அளவில் மிக வேகமாக கொடுப்பது", "ಬೇಗ ಜೀರ್ಣವಾಗುವ ಪಿಷ್ಟವನ್ನು (ಹಿಂಡಿ-ಕಾಳು ಆಹಾರ) ಹೆಚ್ಚು ಪ್ರಮಾಣದಲ್ಲಿ ತುಂಬಾ ವೇಗವಾಗಿ ಕೊಡುವುದು", "जल्दी पचने वाला कार्बोहाइड्रेट (दाना) बहुत ज़्यादा मात्रा में बहुत तेज़ी से खिलाना"),
+              L("Giving the animal too much plain water", "పశువుకు చాలా ఎక్కువ మంచి నీరు ఇవ్వడం", "விலங்குக்கு மிக அதிகமாக சாதாரண தண்ணீர் கொடுப்பது", "ಪ್ರಾಣಿಗೆ ತುಂಬಾ ಹೆಚ್ಚು ಸಾದಾ ನೀರು ಕೊಡುವುದು", "पशु को बहुत ज़्यादा सादा पानी देना"),
+              L("Letting the animal rest too long", "పశువును చాలా ఎక్కువసేపు విశ్రాంతి తీసుకోనివ్వడం", "விலங்கை மிக நீண்ட நேரம் ஓய்வெடுக்க விடுவது", "ಪ್ರಾಣಿಯನ್ನು ತುಂಬಾ ಹೊತ್ತು ವಿಶ್ರಾಂತಿ ಪಡೆಯಲು ಬಿಡುವುದು", "पशु को बहुत देर तक आराम करने देना"),
+              L("Milking the animal too often", "పశువు నుండి చాలా తరచుగా పాలు పితకడం", "விலங்கிடம் மிக அடிக்கடி பால் கறப்பது", "ಪ್ರಾಣಿಯಿಂದ ತುಂಬಾ ಪದೇ ಪದೇ ಹಾಲು ಕರೆಯುವುದು", "पशु का दूध बहुत बार दुहना"),
             ],
             answer: 0,
-            explain: L("Acidosis happens when large quantities of rapidly digestible carbohydrate are fed in a short time, or when concentrate greatly outweighs forage over time."),
+            explain: L("Acidosis happens when large quantities of rapidly digestible carbohydrate are fed in a short time, or when concentrate greatly outweighs forage over time.", "త్వరగా జీర్ణమయ్యే పిండిపదార్థాలను తక్కువ సమయంలో ఎక్కువ మొత్తంలో ఇచ్చినప్పుడు, లేదా కాలక్రమంలో ఫోరేజ్ కంటే దాణా చాలా ఎక్కువగా ఉన్నప్పుడు అసిడోసిస్ వస్తుంది.", "விரைவாக செரிக்கும் மாவுச்சத்தை குறுகிய நேரத்தில் அதிக அளவில் கொடுக்கும்போது, அல்லது நீண்ட காலம் ஃபோரேஜை விட அடர் தீவனம் மிக அதிகமாக இருக்கும்போது அமிலத்தன்மை ஏற்படுகிறது.", "ಬೇಗ ಜೀರ್ಣವಾಗುವ ಪಿಷ್ಟವನ್ನು ಕಡಿಮೆ ಸಮಯದಲ್ಲಿ ಹೆಚ್ಚು ಪ್ರಮಾಣದಲ್ಲಿ ಕೊಟ್ಟಾಗ, ಅಥವಾ ದೀರ್ಘಕಾಲ ಫೋರೇಜ್‌ಗಿಂತ ಹಿಂಡಿ-ಕಾಳು ಆಹಾರ ತುಂಬಾ ಹೆಚ್ಚಾಗಿದ್ದಾಗ ಆಸಿಡೋಸಿಸ್ ಬರುತ್ತದೆ.", "एसिडोसिस तब होता है जब जल्दी पचने वाला कार्बोहाइड्रेट कम समय में बड़ी मात्रा में खिलाया जाए, या लंबे समय तक फोरेज के मुकाबले दाना बहुत ज़्यादा हो।"),
           },
           {
             type: "truefalse",
-            q: L("An animal with severe clinical acidosis that seems to improve at first can still become seriously ill again a few days later."),
+            q: L("An animal with severe clinical acidosis that seems to improve at first can still become seriously ill again a few days later.", "తీవ్రమైన క్లినికల్ అసిడోసిస్ ఉన్న పశువు మొదట మెరుగవుతున్నట్లు కనిపించినా, కొన్ని రోజుల తర్వాత మళ్లీ తీవ్రంగా అనారోగ్యం పాలవ్వచ్చు.", "தீவிர கிளினிக்கல் அமிலத்தன்மை உள்ள விலங்கு முதலில் தேறுவது போலத் தோன்றினாலும், சில நாட்களுக்குப் பிறகு மீண்டும் கடுமையாக நோய்வாய்ப்படலாம்.", "ತೀವ್ರ ಕ್ಲಿನಿಕಲ್ ಆಸಿಡೋಸಿಸ್ ಇರುವ ಪ್ರಾಣಿ ಮೊದಲು ಸುಧಾರಿಸಿದಂತೆ ಕಂಡರೂ, ಕೆಲವು ದಿನಗಳ ನಂತರ ಮತ್ತೆ ಗಂಭೀರವಾಗಿ ಅನಾರೋಗ್ಯಕ್ಕೆ ಒಳಗಾಗಬಹುದು.", "गंभीर क्लिनिकल एसिडोसिस वाला पशु शुरू में सुधरता दिखे, तब भी कुछ दिन बाद फिर से गंभीर रूप से बीमार हो सकता है।"),
             answer: true,
-            explain: L("Yes — some animals appear to improve, then become seriously ill again 3–4 days later. The outlook in severe cases is often poor."),
+            explain: L("Yes — some animals appear to improve, then become seriously ill again 3–4 days later. The outlook in severe cases is often poor.", "అవును — కొన్ని పశువులు మెరుగవుతున్నట్లు కనిపించి, 3–4 రోజుల తర్వాత మళ్లీ తీవ్రంగా అనారోగ్యం పాలవుతాయి. తీవ్రమైన కేసుల్లో కోలుకునే అవకాశాలు తరచుగా తక్కువగా ఉంటాయి.", "ஆம் — சில விலங்குகள் தேறுவது போலத் தோன்றி, 3–4 நாட்களுக்குப் பிறகு மீண்டும் கடுமையாக நோய்வாய்ப்படும். தீவிர நிலைகளில் குணமாகும் வாய்ப்பு பெரும்பாலும் குறைவு.", "ಹೌದು — ಕೆಲವು ಪ್ರಾಣಿಗಳು ಸುಧಾರಿಸಿದಂತೆ ಕಂಡು, 3–4 ದಿನಗಳ ನಂತರ ಮತ್ತೆ ಗಂಭೀರವಾಗಿ ಅನಾರೋಗ್ಯಕ್ಕೆ ಒಳಗಾಗುತ್ತವೆ. ತೀವ್ರ ಪ್ರಕರಣಗಳಲ್ಲಿ ಚೇತರಿಕೆಯ ಸಾಧ್ಯತೆ ಸಾಮಾನ್ಯವಾಗಿ ಕಡಿಮೆ.", "हाँ — कुछ पशु सुधरते दिखते हैं, फिर 3–4 दिन बाद दोबारा गंभीर रूप से बीमार हो जाते हैं। गंभीर मामलों में ठीक होने की उम्मीद अक्सर कम होती है।"),
           },
         ],
       },
@@ -8141,68 +8161,68 @@ export const MODULES = [
         {
           topicId: "t-m8-bloat",
           type: "mcq",
-          q: L("Which of these is a known cause of bloat?"),
+          q: L("Which of these is a known cause of bloat?", "వీటిలో బ్లోట్‌కు తెలిసిన కారణం ఏది?", "இவற்றில் வயிறு உப்புதலுக்கு அறியப்பட்ட காரணம் எது?", "ಇವುಗಳಲ್ಲಿ ಬ್ಲೋಟ್‌ಗೆ ತಿಳಿದ ಕಾರಣ ಯಾವುದು?", "इनमें से कौन सा ब्लोट का ज्ञात कारण है?"),
           options: [
-            L("Grazing on lush, wet pasture, especially plants like clover or lucerne"),
-            L("Drinking too much clean water"),
-            L("Standing in the sun for too long"),
-            L("Being milked twice a day"),
+            L("Grazing on lush, wet pasture, especially plants like clover or lucerne", "పచ్చని, తడి గడ్డి మేతపై మేయడం, ముఖ్యంగా క్లోవర్ లేదా లూసర్న్ వంటి మొక్కలు", "பசுமையான, ஈரமான மேய்ச்சல் நிலத்தில் மேய்வது, குறிப்பாக க்ளோவர் அல்லது லூசர்ன் போன்ற செடிகள்", "ಹಸಿರು, ಒದ್ದೆಯಾದ ಹುಲ್ಲುಗಾವಲಿನಲ್ಲಿ ಮೇಯುವುದು, ವಿಶೇಷವಾಗಿ ಕ್ಲೋವರ್ ಅಥವಾ ಲೂಸರ್ನ್ ಗಿಡಗಳು", "हरी-भरी, गीली चरागाह में चरना, खासकर क्लोवर या लूसर्न जैसे पौधे"),
+            L("Drinking too much clean water", "చాలా ఎక్కువ శుభ్రమైన నీరు తాగడం", "மிக அதிகமாக சுத்தமான தண்ணீர் குடிப்பது", "ತುಂಬಾ ಹೆಚ್ಚು ಶುದ್ಧ ನೀರು ಕುಡಿಯುವುದು", "बहुत ज़्यादा साफ़ पानी पीना"),
+            L("Standing in the sun for too long", "చాలా ఎక్కువసేపు ఎండలో నిలబడటం", "மிக நீண்ட நேரம் வெயிலில் நிற்பது", "ತುಂಬಾ ಹೊತ್ತು ಬಿಸಿಲಿನಲ್ಲಿ ನಿಲ್ಲುವುದು", "बहुत देर तक धूप में खड़े रहना"),
+            L("Being milked twice a day", "రోజుకు రెండుసార్లు పాలు పితకడం", "ஒரு நாளைக்கு இரண்டு முறை பால் கறக்கப்படுவது", "ದಿನಕ್ಕೆ ಎರಡು ಬಾರಿ ಹಾಲು ಕರೆಯಿಸಿಕೊಳ್ಳುವುದು", "दिन में दो बार दूध दुहा जाना"),
           ],
           answer: 0,
-          explain: L("Lush, wet pasture and fast-growing plants such as clover, lucerne and alfalfa are common causes of bloat, along with choking and some leftover foods."),
+          explain: L("Lush, wet pasture and fast-growing plants such as clover, lucerne and alfalfa are common causes of bloat, along with choking and some leftover foods.", "పచ్చని, తడి గడ్డి మేత మరియు క్లోవర్, లూసర్న్, అల్ఫాల్ఫా వంటి వేగంగా పెరిగే మొక్కలు, అలాగే గొంతులో ఏదైనా ఇరుక్కోవడం మరియు కొన్ని మిగిలిపోయిన ఆహారాలు బ్లోట్‌కు సాధారణ కారణాలు.", "பசுமையான, ஈரமான மேய்ச்சல் நிலம் மற்றும் க்ளோவர், லூசர்ன், அல்ஃபால்ஃபா போன்ற வேகமாக வளரும் செடிகள், அதோடு தொண்டையில் ஏதாவது அடைத்துக்கொள்வது மற்றும் சில மீதமான உணவுகள் வயிறு உப்புதலுக்கான பொதுவான காரணங்கள்.", "ಹಸಿರು, ಒದ್ದೆಯಾದ ಹುಲ್ಲುಗಾವಲು ಮತ್ತು ಕ್ಲೋವರ್, ಲೂಸರ್ನ್, ಅಲ್ಫಾಲ್ಫಾದಂತಹ ವೇಗವಾಗಿ ಬೆಳೆಯುವ ಗಿಡಗಳು, ಜೊತೆಗೆ ಗಂಟಲಲ್ಲಿ ಏನಾದರೂ ಸಿಕ್ಕಿಕೊಳ್ಳುವುದು ಮತ್ತು ಕೆಲವು ಉಳಿದ ಆಹಾರಗಳು ಬ್ಲೋಟ್‌ಗೆ ಸಾಮಾನ್ಯ ಕಾರಣಗಳು.", "हरी-भरी, गीली चरागाह और क्लोवर, लूसर्न व अल्फाल्फा जैसे तेज़ी से बढ़ने वाले पौधे, साथ ही गले में कुछ अटक जाना और कुछ बचा-खुचा खाना ब्लोट के आम कारण हैं।"),
         },
         {
           topicId: "t-m8-bloat",
           type: "truefalse",
-          q: L("A ballooning left flank together with difficulty breathing should be treated as an emergency, not something to just watch."),
+          q: L("A ballooning left flank together with difficulty breathing should be treated as an emergency, not something to just watch.", "ఎడమ పార్శ్వం బెలూన్‌లా ఉబ్బడంతో పాటు శ్వాస తీసుకోవడంలో ఇబ్బంది ఉంటే దాన్ని అత్యవసర పరిస్థితిగా పరిగణించాలి, కేవలం చూస్తూ ఉండకూడదు.", "இடது விலாப்பகுதி பலூன் போல வீங்குவதுடன் சுவாசிக்க சிரமம் இருந்தால் அதை அவசர நிலையாக கருத வேண்டும், வெறுமனே பார்த்துக்கொண்டிருக்கக் கூடாது.", "ಎಡ ಪಕ್ಕೆ ಬಲೂನಿನಂತೆ ಉಬ್ಬುವುದರ ಜೊತೆಗೆ ಉಸಿರಾಡಲು ಕಷ್ಟವಾದರೆ ಅದನ್ನು ತುರ್ತು ಪರಿಸ್ಥಿತಿ ಎಂದು ಪರಿಗಣಿಸಬೇಕು, ಸುಮ್ಮನೆ ನೋಡುತ್ತಾ ಕೂರಬಾರದು.", "बाईं कोख का गुब्बारे की तरह फूलना और साथ में साँस लेने में तकलीफ़ को आपात स्थिति मानना चाहिए, सिर्फ़ देखते नहीं रहना चाहिए।"),
           answer: true,
-          explain: L("Correct — bloat can move from mild to fatal quickly, so this combination of signs needs immediate help."),
+          explain: L("Correct — bloat can move from mild to fatal quickly, so this combination of signs needs immediate help.", "సరైనది — బ్లోట్ తేలికపాటి స్థాయి నుండి త్వరగా ప్రాణాంతక స్థాయికి చేరవచ్చు, కాబట్టి ఈ లక్షణాల కలయికకు వెంటనే సహాయం అవసరం.", "சரி — வயிறு உப்புதல் லேசான நிலையிலிருந்து விரைவாக உயிருக்கு ஆபத்தான நிலைக்குச் செல்லலாம், எனவே இந்த அறிகுறிகள் சேர்ந்து இருந்தால் உடனடி உதவி தேவை.", "ಸರಿ — ಬ್ಲೋಟ್ ಸೌಮ್ಯ ಹಂತದಿಂದ ಬೇಗನೆ ಪ್ರಾಣಾಂತಿಕ ಹಂತಕ್ಕೆ ಹೋಗಬಹುದು, ಆದ್ದರಿಂದ ಈ ಲಕ್ಷಣಗಳ ಸಂಯೋಜನೆಗೆ ತಕ್ಷಣದ ಸಹಾಯ ಬೇಕು.", "सही — ब्लोट हल्की अवस्था से जल्दी जानलेवा बन सकता है, इसलिए इन लक्षणों के एक साथ दिखने पर तुरंत मदद चाहिए।"),
         },
         {
           topicId: "t-m8-acidosis",
           type: "mcq",
-          q: L("An animal goes down and cannot get up within a day or two of being fed a large amount of rich concentrate. What is this most likely a sign of?"),
+          q: L("An animal goes down and cannot get up within a day or two of being fed a large amount of rich concentrate. What is this most likely a sign of?", "ఎక్కువ మొత్తంలో శక్తివంతమైన దాణా తిన్న ఒకటి రెండు రోజుల్లో పశువు కింద పడిపోయి లేవలేకపోతోంది. ఇది ఎక్కువగా దేనికి సంకేతం?", "அதிக அளவு சக்தி மிக்க அடர் தீவனம் சாப்பிட்ட ஒன்று அல்லது இரண்டு நாட்களுக்குள் ஒரு விலங்கு கீழே விழுந்து எழுந்திருக்க முடியவில்லை. இது பெரும்பாலும் எதன் அறிகுறி?", "ಹೆಚ್ಚು ಪ್ರಮಾಣದ ಶಕ್ತಿಯುತ ಹಿಂಡಿ-ಕಾಳು ಆಹಾರ ತಿಂದ ಒಂದೆರಡು ದಿನಗಳಲ್ಲಿ ಪ್ರಾಣಿ ಕೆಳಗೆ ಬಿದ್ದು ಏಳಲಾಗುತ್ತಿಲ್ಲ. ಇದು ಹೆಚ್ಚಾಗಿ ಯಾವುದರ ಲಕ್ಷಣ?", "बहुत ज़्यादा ताक़तवर दाना खाने के एक-दो दिन के अंदर पशु गिर जाता है और उठ नहीं पाता। यह सबसे ज़्यादा किस बात का संकेत है?"),
           options: [
-            L("Normal rest after eating well"),
-            L("Clinical acidosis, a feeding emergency needing a veterinarian right away"),
-            L("The animal is simply full"),
-            L("Nothing unusual — no need to report it"),
+            L("Normal rest after eating well", "బాగా తిన్న తర్వాత సాధారణ విశ్రాంతి", "நன்றாக சாப்பிட்ட பிறகு சாதாரண ஓய்வு", "ಚೆನ್ನಾಗಿ ತಿಂದ ನಂತರದ ಸಾಮಾನ್ಯ ವಿಶ್ರಾಂತಿ", "अच्छी तरह खाने के बाद सामान्य आराम"),
+            L("Clinical acidosis, a feeding emergency needing a veterinarian right away", "క్లినికల్ అసిడోసిస్, వెంటనే వెటర్నరీ డాక్టర్ అవసరమయ్యే మేత సంబంధిత అత్యవసర పరిస్థితి", "கிளினிக்கல் அமிலத்தன்மை, உடனே வெட்டரினரி டாக்டர் தேவைப்படும் தீவனம் தொடர்பான அவசர நிலை", "ಕ್ಲಿನಿಕಲ್ ಆಸಿಡೋಸಿಸ್, ತಕ್ಷಣ ಪಶುವೈದ್ಯರು ಬೇಕಾದ ಆಹಾರ ಸಂಬಂಧಿತ ತುರ್ತು ಪರಿಸ್ಥಿತಿ", "क्लिनिकल एसिडोसिस, चारे से जुड़ी आपात स्थिति जिसमें तुरंत डॉक्टर चाहिए"),
+            L("The animal is simply full", "పశువు కడుపు నిండి ఉంది అంతే", "விலங்கு வெறுமனே வயிறு நிறைந்திருக்கிறது", "ಪ್ರಾಣಿಯ ಹೊಟ್ಟೆ ಸುಮ್ಮನೆ ತುಂಬಿದೆ ಅಷ್ಟೇ", "पशु का बस पेट भरा हुआ है"),
+            L("Nothing unusual — no need to report it", "అసాధారణం ఏమీ లేదు — తెలియజేయాల్సిన అవసరం లేదు", "வழக்கத்திற்கு மாறாக எதுவும் இல்லை — தெரிவிக்க தேவையில்லை", "ಅಸಾಮಾನ್ಯ ಏನೂ ಇಲ್ಲ — ತಿಳಿಸುವ ಅಗತ್ಯವಿಲ್ಲ", "कुछ भी असामान्य नहीं — बताने की ज़रूरत नहीं"),
           ],
           answer: 1,
-          explain: L("This pattern matches clinical acidosis, which can make an animal recumbent within 24–48 hours and needs urgent veterinary attention."),
+          explain: L("This pattern matches clinical acidosis, which can make an animal recumbent within 24–48 hours and needs urgent veterinary attention.", "ఈ లక్షణాల తీరు క్లినికల్ అసిడోసిస్‌కు సరిపోతుంది, ఇది 24–48 గంటల్లో పశువును కింద పడేలా చేయవచ్చు మరియు అత్యవసరంగా వెటర్నరీ వైద్య సహాయం అవసరం.", "இந்த அறிகுறி முறை கிளினிக்கல் அமிலத்தன்மைக்கு பொருந்துகிறது, இது 24–48 மணி நேரத்தில் விலங்கை கீழே விழச் செய்யலாம், உடனடி வெட்டரினரி சிகிச்சை தேவை.", "ಈ ಲಕ್ಷಣಗಳ ರೀತಿ ಕ್ಲಿನಿಕಲ್ ಆಸಿಡೋಸಿಸ್‌ಗೆ ಹೊಂದುತ್ತದೆ, ಇದು 24–48 ಗಂಟೆಗಳಲ್ಲಿ ಪ್ರಾಣಿಯನ್ನು ಕೆಳಗೆ ಬೀಳಿಸಬಹುದು ಮತ್ತು ತುರ್ತು ಪಶುವೈದ್ಯಕೀಯ ಗಮನ ಬೇಕು.", "यह पैटर्न क्लिनिकल एसिडोसिस से मेल खाता है, जो 24–48 घंटों में पशु को गिरा सकता है और इसमें तुरंत डॉक्टर की देखरेख चाहिए।"),
         },
         {
           topicId: "t-m8-acidosis",
           type: "truefalse",
-          q: L("Sub-Acute Ruminal Acidosis (SARA) is often caused by abruptly switching an animal from a high-fibre diet to a high-concentrate diet."),
+          q: L("Sub-Acute Ruminal Acidosis (SARA) is often caused by abruptly switching an animal from a high-fibre diet to a high-concentrate diet.", "సబ్-అక్యూట్ రుమినల్ అసిడోసిస్ (SARA) తరచుగా పశువును ఎక్కువ పీచు ఉన్న ఆహారం నుండి ఎక్కువ దాణా ఉన్న ఆహారానికి ఒక్కసారిగా మార్చడం వల్ల వస్తుంది.", "சப்-அக்யூட் ருமினல் அசிடோசிஸ் (SARA) பெரும்பாலும் விலங்கை அதிக நார்ச்சத்து உணவிலிருந்து அதிக அடர் தீவன உணவுக்கு திடீரென மாற்றுவதால் ஏற்படுகிறது.", "ಸಬ್-ಅಕ್ಯೂಟ್ ರುಮಿನಲ್ ಆಸಿಡೋಸಿಸ್ (SARA) ಸಾಮಾನ್ಯವಾಗಿ ಪ್ರಾಣಿಯನ್ನು ಹೆಚ್ಚು ನಾರಿನ ಆಹಾರದಿಂದ ಹೆಚ್ಚು ಹಿಂಡಿ-ಕಾಳು ಆಹಾರಕ್ಕೆ ಹಠಾತ್ ಬದಲಾಯಿಸುವುದರಿಂದ ಬರುತ್ತದೆ.", "सब-एक्यूट रूमिनल एसिडोसिस (SARA) अक्सर पशु को ज़्यादा रेशे वाले आहार से ज़्यादा दाने वाले आहार पर अचानक ले जाने से होता है।"),
           answer: true,
-          explain: L("Yes — SARA is mainly linked to abrupt diet switches toward more concentrate, and to poorly balanced or overly fine-chopped rations."),
+          explain: L("Yes — SARA is mainly linked to abrupt diet switches toward more concentrate, and to poorly balanced or overly fine-chopped rations.", "అవును — SARA ప్రధానంగా ఎక్కువ దాణా వైపు ఆహారాన్ని ఒక్కసారిగా మార్చడంతో, అలాగే సరిగ్గా సమతుల్యం కాని లేదా మరీ సన్నగా ముక్కలు చేసిన రేషన్లతో ముడిపడి ఉంది.", "ஆம் — SARA முக்கியமாக அதிக அடர் தீவனத்தை நோக்கிய திடீர் உணவு மாற்றங்களுடனும், சரியாக சமநிலையற்ற அல்லது மிக நுணுக்கமாக நறுக்கிய ரேஷன்களுடனும் தொடர்புடையது.", "ಹೌದು — SARA ಮುಖ್ಯವಾಗಿ ಹೆಚ್ಚು ಹಿಂಡಿ-ಕಾಳು ಆಹಾರದ ಕಡೆಗಿನ ಹಠಾತ್ ಆಹಾರ ಬದಲಾವಣೆಗಳೊಂದಿಗೆ, ಮತ್ತು ಸರಿಯಾಗಿ ಸಮತೋಲನವಿಲ್ಲದ ಅಥವಾ ತೀರಾ ಸಣ್ಣಗೆ ಕತ್ತರಿಸಿದ ರೇಷನ್‌ಗಳೊಂದಿಗೆ ಸಂಬಂಧಿಸಿದೆ.", "हाँ — SARA मुख्य रूप से ज़्यादा दाने की ओर अचानक आहार बदलने से, और खराब संतुलित या बहुत बारीक कटे राशन से जुड़ा है।"),
         },
         {
           topicId: "t-m8-acidosis",
           type: "mcq",
-          q: L("What everyday feeding habit helps protect the rumen against acidosis?"),
+          q: L("What everyday feeding habit helps protect the rumen against acidosis?", "అసిడోసిస్ నుండి రుమెన్‌ను కాపాడటానికి ఏ రోజువారీ మేత అలవాటు సహాయపడుతుంది?", "அமிலத்தன்மையிலிருந்து ருமனைப் பாதுகாக்க எந்த அன்றாட தீவன பழக்கம் உதவுகிறது?", "ಆಸಿಡೋಸಿಸ್‌ನಿಂದ ರುಮೆನ್ ಅನ್ನು ರಕ್ಷಿಸಲು ಯಾವ ದೈನಂದಿನ ಆಹಾರ ಅಭ್ಯಾಸ ಸಹಾಯ ಮಾಡುತ್ತದೆ?", "रोज़ की कौन सी खिलाने की आदत रूमेन को एसिडोसिस से बचाने में मदद करती है?"),
           options: [
-            L("Giving roughage before concentrate in the morning, so enough saliva is produced"),
-            L("Giving only concentrate feed, with no roughage at all"),
-            L("Switching suddenly to a much richer diet whenever milk yield drops"),
-            L("Feeding as much rapidly digestible carbohydrate as possible"),
+            L("Giving roughage before concentrate in the morning, so enough saliva is produced", "ఉదయం దాణా కంటే ముందు రఫేజ్ ఇవ్వడం, తద్వారా తగినంత లాలాజలం ఉత్పత్తి అవుతుంది", "காலையில் அடர் தீவனத்திற்கு முன் ரஃபேஜ் கொடுப்பது, அப்போது போதுமான உமிழ்நீர் சுரக்கும்", "ಬೆಳಿಗ್ಗೆ ಹಿಂಡಿ-ಕಾಳು ಆಹಾರಕ್ಕೆ ಮೊದಲು ರಫೇಜ್ ಕೊಡುವುದು, ಆಗ ಸಾಕಷ್ಟು ಜೊಲ್ಲು ಉತ್ಪತ್ತಿಯಾಗುತ್ತದೆ", "सुबह दाने से पहले रफेज देना, ताकि पर्याप्त लार बने"),
+            L("Giving only concentrate feed, with no roughage at all", "దాణా మాత్రమే ఇవ్వడం, అసలు రఫేజ్ లేకుండా", "ரஃபேஜ் இல்லாமல் அடர் தீவனம் மட்டுமே கொடுப்பது", "ರಫೇಜ್ ಇಲ್ಲದೆ ಹಿಂಡಿ-ಕಾಳು ಆಹಾರ ಮಾತ್ರ ಕೊಡುವುದು", "बिना रफेज के सिर्फ़ दाना खिलाना"),
+            L("Switching suddenly to a much richer diet whenever milk yield drops", "పాల దిగుబడి తగ్గినప్పుడల్లా ఒక్కసారిగా చాలా శక్తివంతమైన ఆహారానికి మారడం", "பால் உற்பத்தி குறையும் போதெல்லாம் திடீரென மிகவும் சக்தி மிக்க உணவுக்கு மாறுவது", "ಹಾಲಿನ ಇಳುವರಿ ಕಡಿಮೆಯಾದಾಗಲೆಲ್ಲಾ ಹಠಾತ್ತನೆ ತುಂಬಾ ಶಕ್ತಿಯುತ ಆಹಾರಕ್ಕೆ ಬದಲಾಯಿಸುವುದು", "दूध कम होते ही अचानक बहुत ताक़तवर आहार पर चले जाना"),
+            L("Feeding as much rapidly digestible carbohydrate as possible", "త్వరగా జీర్ణమయ్యే పిండిపదార్థాలను వీలైనంత ఎక్కువగా ఇవ్వడం", "விரைவாக செரிக்கும் மாவுச்சத்தை முடிந்த அளவு அதிகமாக கொடுப்பது", "ಬೇಗ ಜೀರ್ಣವಾಗುವ ಪಿಷ್ಟವನ್ನು ಸಾಧ್ಯವಾದಷ್ಟು ಹೆಚ್ಚು ಕೊಡುವುದು", "जल्दी पचने वाला कार्बोहाइड्रेट ज़्यादा से ज़्यादा खिलाना"),
           ],
           answer: 0,
-          explain: L("Offering roughage before concentrate encourages more saliva production, which helps protect the rumen. Large amounts of rapidly digestible carbohydrate should be avoided."),
+          explain: L("Offering roughage before concentrate encourages more saliva production, which helps protect the rumen. Large amounts of rapidly digestible carbohydrate should be avoided.", "దాణా కంటే ముందు రఫేజ్ ఇస్తే లాలాజలం ఎక్కువగా ఉత్పత్తి అవుతుంది, ఇది రుమెన్‌ను కాపాడటానికి సహాయపడుతుంది. త్వరగా జీర్ణమయ్యే పిండిపదార్థాలను ఎక్కువ మొత్తంలో ఇవ్వకుండా ఉండాలి.", "அடர் தீவனத்திற்கு முன் ரஃபேஜ் கொடுத்தால் உமிழ்நீர் அதிகமாக சுரக்கும், இது ருமனைப் பாதுகாக்க உதவும். விரைவாக செரிக்கும் மாவுச்சத்தை அதிக அளவில் கொடுப்பதைத் தவிர்க்க வேண்டும்.", "ಹಿಂಡಿ-ಕಾಳು ಆಹಾರಕ್ಕೆ ಮೊದಲು ರಫೇಜ್ ಕೊಟ್ಟರೆ ಜೊಲ್ಲು ಹೆಚ್ಚು ಉತ್ಪತ್ತಿಯಾಗುತ್ತದೆ, ಇದು ರುಮೆನ್ ಅನ್ನು ರಕ್ಷಿಸಲು ಸಹಾಯ ಮಾಡುತ್ತದೆ. ಬೇಗ ಜೀರ್ಣವಾಗುವ ಪಿಷ್ಟವನ್ನು ಹೆಚ್ಚು ಪ್ರಮಾಣದಲ್ಲಿ ಕೊಡುವುದನ್ನು ತಪ್ಪಿಸಬೇಕು.", "दाने से पहले रफेज देने से लार ज़्यादा बनती है, जो रूमेन को बचाने में मदद करती है। जल्दी पचने वाला कार्बोहाइड्रेट बड़ी मात्रा में देने से बचना चाहिए।"),
         },
         {
           topicId: "t-m8-bloat",
           type: "mcq",
-          q: L("In bloat, what actually happens inside the animal?"),
+          q: L("In bloat, what actually happens inside the animal?", "బ్లోట్‌లో పశువు లోపల అసలు ఏమి జరుగుతుంది?", "வயிறு உப்புதலில் விலங்கின் உள்ளே உண்மையில் என்ன நடக்கிறது?", "ಬ್ಲೋಟ್‌ನಲ್ಲಿ ಪ್ರಾಣಿಯ ಒಳಗೆ ನಿಜವಾಗಿ ಏನಾಗುತ್ತದೆ?", "ब्लोट में पशु के अंदर असल में क्या होता है?"),
           options: [
-            L("Gas builds up in the rumen faster than it can escape"),
-            L("The animal stops producing saliva"),
-            L("The animal's hooves become inflamed"),
-            L("The udder becomes infected"),
+            L("Gas builds up in the rumen faster than it can escape", "గ్యాస్ బయటకు వెళ్లగలిగే దానికంటే వేగంగా రుమెన్‌లో పేరుకుపోతుంది", "வாயு வெளியேறுவதை விட வேகமாக ருமனில் சேர்கிறது", "ಅನಿಲ ಹೊರಹೋಗುವುದಕ್ಕಿಂತ ವೇಗವಾಗಿ ರುಮೆನ್‌ನಲ್ಲಿ ಸಂಗ್ರಹವಾಗುತ್ತದೆ", "गैस बाहर निकलने से ज़्यादा तेज़ी से रूमेन में जमा हो जाती है"),
+            L("The animal stops producing saliva", "పశువులో లాలాజలం ఉత్పత్తి ఆగిపోతుంది", "விலங்கில் உமிழ்நீர் சுரப்பது நின்றுவிடுகிறது", "ಪ್ರಾಣಿಯಲ್ಲಿ ಜೊಲ್ಲು ಉತ್ಪತ್ತಿ ನಿಂತುಹೋಗುತ್ತದೆ", "पशु में लार बनना बंद हो जाता है"),
+            L("The animal's hooves become inflamed", "పశువు గిట్టలు వాపు చెందుతాయి", "விலங்கின் குளம்புகள் வீக்கமடைகின்றன", "ಪ್ರಾಣಿಯ ಗೊರಸುಗಳು ಬಾವು ಬರುತ್ತವೆ", "पशु के खुरों में सूजन आ जाती है"),
+            L("The udder becomes infected", "పొదుగుకు ఇన్ఫెక్షన్ సోకుతుంది", "மடியில் தொற்று ஏற்படுகிறது", "ಕೆಚ್ಚಲಿಗೆ ಸೋಂಕು ತಗಲುತ್ತದೆ", "थन में संक्रमण हो जाता है"),
           ],
           answer: 0,
-          explain: L("Bloat is caused by gas trapped and building up inside the rumen, making the belly swell like a balloon."),
+          explain: L("Bloat is caused by gas trapped and building up inside the rumen, making the belly swell like a balloon.", "రుమెన్ లోపల గ్యాస్ చిక్కుకుని పేరుకుపోవడం వల్ల బ్లోట్ వస్తుంది, దాంతో పొట్ట బెలూన్‌లా ఉబ్బుతుంది.", "ருமனுக்குள் வாயு சிக்கி சேர்வதால் வயிறு உப்புதல் ஏற்படுகிறது, இதனால் வயிறு பலூன் போல வீங்குகிறது.", "ರುಮೆನ್ ಒಳಗೆ ಅನಿಲ ಸಿಕ್ಕಿಬಿದ್ದು ಸಂಗ್ರಹವಾಗುವುದರಿಂದ ಬ್ಲೋಟ್ ಬರುತ್ತದೆ, ಇದರಿಂದ ಹೊಟ್ಟೆ ಬಲೂನಿನಂತೆ ಊದಿಕೊಳ್ಳುತ್ತದೆ.", "रूमेन के अंदर गैस फंसकर जमा होने से ब्लोट होता है, जिससे पेट गुब्बारे की तरह फूल जाता है।"),
         },
       ],
     },
@@ -8213,161 +8233,189 @@ export const MODULES = [
   // ==================================================================
   {
     id: "m8-l2",
-    title: L("Laminitis: The Foot Disease Linked to Feeding"),
+    title: L("Laminitis: The Foot Disease Linked to Feeding", "లామినైటిస్: మేతతో ముడిపడిన గిట్టల వ్యాధి", "லேமினைடிஸ்: தீவனத்துடன் தொடர்புடைய குளம்பு நோய்", "ಲ್ಯಾಮಿನೈಟಿಸ್: ಆಹಾರಕ್ಕೆ ಸಂಬಂಧಿಸಿದ ಗೊರಸು ರೋಗ", "लैमिनाइटिस: चारे से जुड़ी खुर की बीमारी"),
     estMinutes: 8,
     hook: [
       {
         type: "hero",
-        heading: L("A Sore Foot Can Start With What's in the Feed Bucket"),
+        heading: L("A Sore Foot Can Start With What's in the Feed Bucket", "నొప్పితో కూడిన కాలు మేత బకెట్‌లో ఉన్నదాంతో మొదలవ్వచ్చు", "புண்ணான கால் தீவன வாளியில் இருப்பதிலிருந்தே தொடங்கலாம்", "ನೋವಿನ ಕಾಲು ಆಹಾರದ ಬಕೆಟ್‌ನಲ್ಲಿರುವುದರಿಂದಲೇ ಶುರುವಾಗಬಹುದು", "दर्द भरे पैर की शुरुआत चारे की बाल्टी में रखी चीज़ों से भी हो सकती है"),
         text: L(
-          "Laminitis is a painful hoof problem, and it's included in this module because wrong feeding is one of its major causes. It often shows up in more than one animal in the herd at the same time, which makes noticing and reporting it early especially important."
+          "Laminitis is a painful hoof problem, and it's included in this module because wrong feeding is one of its major causes. It often shows up in more than one animal in the herd at the same time, which makes noticing and reporting it early especially important.",
+          "లామినైటిస్ అనేది నొప్పితో కూడిన గిట్టల సమస్య, మరియు తప్పుడు మేత దీనికి ప్రధాన కారణాలలో ఒకటి కాబట్టి ఇది ఈ మాడ్యూల్‌లో చేర్చబడింది. ఇది తరచుగా మందలో ఒకే సమయంలో ఒకటి కంటే ఎక్కువ పశువులకు కనిపిస్తుంది, అందుకే దీన్ని ముందుగానే గమనించి తెలియజేయడం మరింత ముఖ్యం.",
+          "லேமினைடிஸ் என்பது வலியுடன் கூடிய குளம்பு பிரச்சினை, தவறான தீவனம் இதற்கு முக்கிய காரணங்களில் ஒன்று என்பதால் இது இந்த தொகுதியில் சேர்க்கப்பட்டுள்ளது. இது பெரும்பாலும் மந்தையில் ஒரே நேரத்தில் ஒன்றுக்கு மேற்பட்ட விலங்குகளுக்கு தோன்றும், அதனால் இதை முன்கூட்டியே கவனித்து தெரிவிப்பது மிகவும் முக்கியம்.",
+          "ಲ್ಯಾಮಿನೈಟಿಸ್ ನೋವಿನ ಗೊರಸಿನ ಸಮಸ್ಯೆ, ತಪ್ಪಾದ ಆಹಾರ ಇದಕ್ಕೆ ಪ್ರಮುಖ ಕಾರಣಗಳಲ್ಲಿ ಒಂದಾಗಿರುವುದರಿಂದ ಇದನ್ನು ಈ ಮಾಡ್ಯೂಲ್‌ನಲ್ಲಿ ಸೇರಿಸಲಾಗಿದೆ. ಇದು ಹೆಚ್ಚಾಗಿ ಹಿಂಡಿನಲ್ಲಿ ಒಂದೇ ಸಮಯದಲ್ಲಿ ಒಂದಕ್ಕಿಂತ ಹೆಚ್ಚು ಪ್ರಾಣಿಗಳಲ್ಲಿ ಕಾಣಿಸಿಕೊಳ್ಳುತ್ತದೆ, ಆದ್ದರಿಂದ ಇದನ್ನು ಬೇಗನೆ ಗಮನಿಸಿ ತಿಳಿಸುವುದು ಇನ್ನೂ ಮುಖ್ಯ.",
+          "लैमिनाइटिस खुर की एक दर्दनाक समस्या है, और गलत तरीके से खिलाना इसके बड़े कारणों में से एक है, इसलिए इसे इस मॉड्यूल में शामिल किया गया है। यह अक्सर झुंड में एक ही समय पर एक से ज़्यादा पशुओं में दिखता है, इसलिए इसे जल्दी पहचानना और बताना और भी ज़रूरी है।"
         ),
       },
     ],
     topics: [
       {
         id: "t-m8-laminitis-what",
-        title: L("What Is Laminitis and What Causes It?"),
+        title: L("What Is Laminitis and What Causes It?", "లామినైటిస్ అంటే ఏమిటి, దానికి కారణాలేమిటి?", "லேமினைடிஸ் என்றால் என்ன, அதற்கு என்ன காரணங்கள்?", "ಲ್ಯಾಮಿನೈಟಿಸ್ ಎಂದರೇನು, ಅದಕ್ಕೆ ಕಾರಣಗಳೇನು?", "लैमिनाइटिस क्या है और इसके कारण क्या हैं?"),
         teach: [
             {
               type: "photo",
               src: "assets/illustration-m8-laminitis.png",
-              alt: L("Illustrated cross-section diagram comparing a healthy hoof to one with laminitis, showing the tilted bone and inflamed tissue."),
-              caption: L("Illustration: a healthy hoof compared to one with laminitis, where inflamed tissue lets the bone tilt inside the hoof — this is what causes the pain."),
+              alt: L("Illustrated cross-section diagram comparing a healthy hoof to one with laminitis, showing the tilted bone and inflamed tissue.", "ఆరోగ్యకరమైన గిట్టను, లామినైటిస్ ఉన్న గిట్టతో పోలుస్తూ, వంగిన ఎముక మరియు వాపు చెందిన కణజాలాన్ని చూపే చిత్రపటం (కోత చిత్రం).", "ஆரோக்கியமான குளம்பையும் லேமினைடிஸ் உள்ள குளம்பையும் ஒப்பிட்டு, சாய்ந்த எலும்பையும் வீங்கிய திசுவையும் காட்டும் குறுக்கு வெட்டு வரைபடம்.", "ಆರೋಗ್ಯಕರ ಗೊರಸನ್ನು ಲ್ಯಾಮಿನೈಟಿಸ್ ಇರುವ ಗೊರಸಿನೊಂದಿಗೆ ಹೋಲಿಸಿ, ಓರೆಯಾದ ಮೂಳೆ ಮತ್ತು ಬಾವು ಬಂದ ಅಂಗಾಂಶವನ್ನು ತೋರಿಸುವ ಅಡ್ಡ ಕೊಯ್ತದ ಚಿತ್ರ.", "स्वस्थ खुर की तुलना लैमिनाइटिस वाले खुर से करने वाला, झुकी हुई हड्डी और सूजे हुए ऊतक को दिखाता काटकर बनाया गया चित्र।"),
+              caption: L("Illustration: a healthy hoof compared to one with laminitis, where inflamed tissue lets the bone tilt inside the hoof — this is what causes the pain.", "చిత్రం: ఆరోగ్యకరమైన గిట్ట, లామినైటిస్ ఉన్న గిట్టతో పోలిక — వాపు చెందిన కణజాలం వల్ల గిట్ట లోపల ఎముక వంగిపోతుంది, ఇదే నొప్పికి కారణం.", "படம்: ஆரோக்கியமான குளம்பு, லேமினைடிஸ் உள்ள குளம்புடன் ஒப்பீடு — வீங்கிய திசு காரணமாக குளம்புக்குள் எலும்பு சாய்கிறது, இதுவே வலிக்குக் காரணம்.", "ಚಿತ್ರ: ಆರೋಗ್ಯಕರ ಗೊರಸು ಮತ್ತು ಲ್ಯಾಮಿನೈಟಿಸ್ ಇರುವ ಗೊರಸಿನ ಹೋಲಿಕೆ — ಬಾವು ಬಂದ ಅಂಗಾಂಶದಿಂದ ಗೊರಸಿನ ಒಳಗೆ ಮೂಳೆ ಓರೆಯಾಗುತ್ತದೆ, ಇದೇ ನೋವಿಗೆ ಕಾರಣ.", "चित्र: स्वस्थ खुर और लैमिनाइटिस वाले खुर की तुलना — सूजे हुए ऊतक की वजह से खुर के अंदर हड्डी झुक जाती है, यही दर्द का कारण है।"),
             },
           {
             type: "text",
-            heading: L("A Hoof Problem Most Common at Peak Milking"),
+            heading: L("A Hoof Problem Most Common at Peak Milking", "పాలు ఎక్కువగా ఇచ్చే దశలో ఎక్కువగా కనిపించే గిట్టల సమస్య", "அதிக பால் தரும் காலத்தில் மிகவும் பொதுவாக காணப்படும் குளம்பு பிரச்சினை", "ಹಾಲು ಅತಿ ಹೆಚ್ಚು ಕೊಡುವ ಸಮಯದಲ್ಲಿ ಹೆಚ್ಚು ಕಾಣುವ ಗೊರಸಿನ ಸಮಸ್ಯೆ", "सबसे ज़्यादा दूध देने के समय होने वाली खुर की समस्या"),
             html: L(
-              "<b>Laminitis</b> is a disease of the <b>hoof</b> (the hard covering of the foot). It is most commonly seen in mature dairy cows during their peak lactation (the period when they are giving the most milk), and it's often a herd issue — meaning several animals can be affected around the same time, not just one."
+              "<b>Laminitis</b> is a disease of the <b>hoof</b> (the hard covering of the foot). It is most commonly seen in mature dairy cows during their peak lactation (the period when they are giving the most milk), and it's often a herd issue — meaning several animals can be affected around the same time, not just one.",
+              "<b>లామినైటిస్</b> అనేది <b>గిట్ట</b> (కాలి కింద ఉండే గట్టి కవచం) వ్యాధి. ఇది ఎక్కువగా పూర్తిగా ఎదిగిన పాడి ఆవులలో వాటి గరిష్ట పాల దశలో (అవి అత్యధిక పాలు ఇచ్చే కాలంలో) కనిపిస్తుంది, మరియు ఇది తరచుగా మంద మొత్తానికి సంబంధించిన సమస్య — అంటే ఒక పశువుకే కాకుండా, ఒకే సమయంలో అనేక పశువులు ప్రభావితం కావచ్చు.",
+              "<b>லேமினைடிஸ்</b> என்பது <b>குளம்பின்</b> (காலின் கடினமான உறை) நோய். இது பெரும்பாலும் முழு வளர்ச்சி அடைந்த கறவை பசுக்களில் அவற்றின் உச்ச பால் காலத்தில் (அவை மிக அதிக பால் தரும் காலம்) காணப்படுகிறது, மேலும் இது பெரும்பாலும் மந்தை முழுவதற்குமான பிரச்சினை — அதாவது ஒன்றல்ல, ஒரே நேரத்தில் பல விலங்குகள் பாதிக்கப்படலாம்.",
+              "<b>ಲ್ಯಾಮಿನೈಟಿಸ್</b> ಎಂಬುದು <b>ಗೊರಸಿನ</b> (ಕಾಲಿನ ಗಟ್ಟಿ ಹೊದಿಕೆ) ರೋಗ. ಇದು ಹೆಚ್ಚಾಗಿ ಪೂರ್ಣ ಬೆಳೆದ ಹೈನು ಹಸುಗಳಲ್ಲಿ ಅವುಗಳ ಗರಿಷ್ಠ ಹಾಲಿನ ಹಂತದಲ್ಲಿ (ಅವು ಅತಿ ಹೆಚ್ಚು ಹಾಲು ಕೊಡುವ ಕಾಲ) ಕಾಣಿಸುತ್ತದೆ, ಮತ್ತು ಇದು ಹೆಚ್ಚಾಗಿ ಇಡೀ ಹಿಂಡಿನ ಸಮಸ್ಯೆ — ಅಂದರೆ ಒಂದೇ ಪ್ರಾಣಿಯಲ್ಲ, ಒಂದೇ ಸಮಯದಲ್ಲಿ ಹಲವು ಪ್ರಾಣಿಗಳು ಬಾಧಿತವಾಗಬಹುದು.",
+              "<b>लैमिनाइटिस</b> <b>खुर</b> (पैर का सख़्त आवरण) की बीमारी है। यह ज़्यादातर पूरी तरह विकसित दुधारू गायों में उनके सबसे ज़्यादा दूध देने के दौर (जब वे सबसे ज़्यादा दूध देती हैं) में दिखती है, और यह अक्सर पूरे झुंड की समस्या होती है — यानी सिर्फ़ एक नहीं, कई पशु एक ही समय में प्रभावित हो सकते हैं।"
             ),
           },
           {
             type: "glossary",
-            term: L("Hoof"),
-            meaning: L("The hard, horn-like covering over an animal's foot — similar in idea to a fingernail, but covering the whole foot and taking the animal's weight."),
+            term: L("Hoof", "గిట్ట", "குளம்பு", "ಗೊರಸು", "खुर"),
+            meaning: L("The hard, horn-like covering over an animal's foot — similar in idea to a fingernail, but covering the whole foot and taking the animal's weight.", "పశువు కాలును కప్పి ఉండే గట్టి, కొమ్ము లాంటి కవచం — గోరు లాంటిదే, కానీ మొత్తం కాలును కప్పి, పశువు బరువును మోస్తుంది.", "விலங்கின் காலை மூடியிருக்கும் கடினமான, கொம்பு போன்ற உறை — நகம் போன்றதே, ஆனால் முழு காலையும் மூடி, விலங்கின் எடையைத் தாங்குகிறது.", "ಪ್ರಾಣಿಯ ಕಾಲನ್ನು ಮುಚ್ಚಿರುವ ಗಟ್ಟಿಯಾದ, ಕೊಂಬಿನಂತಹ ಹೊದಿಕೆ — ಉಗುರಿನಂತೆಯೇ, ಆದರೆ ಇಡೀ ಕಾಲನ್ನು ಮುಚ್ಚಿ ಪ್ರಾಣಿಯ ಭಾರವನ್ನು ಹೊರುತ್ತದೆ.", "पशु के पैर को ढकने वाला सख़्त, सींग जैसा आवरण — विचार में नाखून जैसा, लेकिन पूरे पैर को ढकता है और पशु का वज़न उठाता है।"),
           },
           {
             type: "stat-grid",
             items: [
               {
-                label: L("Feeding-related causes"),
-                text: L("Higher concentrate and protein in the diet, combined with too little forage, makes laminitis more likely."),
+                label: L("Feeding-related causes", "మేతకు సంబంధించిన కారణాలు", "தீவனம் தொடர்பான காரணங்கள்", "ಆಹಾರಕ್ಕೆ ಸಂಬಂಧಿಸಿದ ಕಾರಣಗಳು", "चारे से जुड़े कारण"),
+                text: L("Higher concentrate and protein in the diet, combined with too little forage, makes laminitis more likely.", "ఆహారంలో దాణా, ప్రోటీన్ ఎక్కువగా ఉండి, ఫోరేజ్ చాలా తక్కువగా ఉంటే లామినైటిస్ వచ్చే అవకాశం పెరుగుతుంది.", "உணவில் அடர் தீவனம், புரதம் அதிகமாகவும் ஃபோரேஜ் மிகக் குறைவாகவும் இருந்தால் லேமினைடிஸ் வரும் வாய்ப்பு அதிகரிக்கிறது.", "ಆಹಾರದಲ್ಲಿ ಹಿಂಡಿ-ಕಾಳು ಆಹಾರ, ಪ್ರೊಟೀನ್ ಹೆಚ್ಚಿದ್ದು ಫೋರೇಜ್ ತುಂಬಾ ಕಡಿಮೆ ಇದ್ದರೆ ಲ್ಯಾಮಿನೈಟಿಸ್ ಬರುವ ಸಾಧ್ಯತೆ ಹೆಚ್ಚುತ್ತದೆ.", "आहार में दाना और प्रोटीन ज़्यादा और फोरेज बहुत कम होने से लैमिनाइटिस होने की संभावना बढ़ जाती है।"),
               },
               {
-                label: L("Other health problems that make it more likely"),
-                text: L("Mastitis (an infection of the udder), metritis (an infection of the womb after calving), and acidosis all make laminitis more likely."),
+                label: L("Other health problems that make it more likely", "దీనిని ఎక్కువ చేసే ఇతర ఆరోగ్య సమస్యలు", "இதை அதிகமாக்கும் பிற உடல்நல பிரச்சினைகள்", "ಇದನ್ನು ಹೆಚ್ಚು ಮಾಡುವ ಇತರ ಆರೋಗ್ಯ ಸಮಸ್ಯೆಗಳು", "इसे और संभावित बनाने वाली दूसरी स्वास्थ्य समस्याएँ"),
+                text: L("Mastitis (an infection of the udder), metritis (an infection of the womb after calving), and acidosis all make laminitis more likely.", "మాస్టిటిస్ (పొదుగు ఇన్ఫెక్షన్), మెట్రైటిస్ (ఈనిన తర్వాత గర్భాశయ ఇన్ఫెక్షన్) మరియు అసిడోసిస్ — ఇవన్నీ లామినైటిస్ వచ్చే అవకాశాన్ని పెంచుతాయి.", "மாஸ்டைடிஸ் (மடி தொற்று), மெட்ரைடிஸ் (கன்று ஈன்ற பிறகு கர்ப்பப்பை தொற்று) மற்றும் அமிலத்தன்மை — இவை அனைத்தும் லேமினைடிஸ் வரும் வாய்ப்பை அதிகரிக்கின்றன.", "ಮಾಸ್ಟೈಟಿಸ್ (ಕೆಚ್ಚಲಿನ ಸೋಂಕು), ಮೆಟ್ರೈಟಿಸ್ (ಕರು ಹಾಕಿದ ನಂತರ ಗರ್ಭಕೋಶದ ಸೋಂಕು) ಮತ್ತು ಆಸಿಡೋಸಿಸ್ — ಇವೆಲ್ಲ ಲ್ಯಾಮಿನೈಟಿಸ್ ಬರುವ ಸಾಧ್ಯತೆಯನ್ನು ಹೆಚ್ಚಿಸುತ್ತವೆ.", "मैस्टाइटिस (थन का संक्रमण), मेट्राइटिस (ब्याने के बाद गर्भाशय का संक्रमण) और एसिडोसिस — ये सभी लैमिनाइटिस होने की संभावना बढ़ाते हैं।"),
               },
               {
-                label: L("Housing-related causes"),
-                text: L("Rough, irregular flooring and not having enough space to lie down also make laminitis more likely."),
+                label: L("Housing-related causes", "ఉండే చోటుకు సంబంధించిన కారణాలు", "தங்குமிடம் தொடர்பான காரணங்கள்", "ವಾಸಸ್ಥಳಕ್ಕೆ ಸಂಬಂಧಿಸಿದ ಕಾರಣಗಳು", "रहने की जगह से जुड़े कारण"),
+                text: L("Rough, irregular flooring and not having enough space to lie down also make laminitis more likely.", "గరుకైన, ఎగుడుదిగుడు నేల, మరియు పడుకోవడానికి తగినంత చోటు లేకపోవడం కూడా లామినైటిస్ వచ్చే అవకాశాన్ని పెంచుతాయి.", "கரடுமுரடான, சமமற்ற தரை, படுத்துக்கொள்ள போதுமான இடம் இல்லாமை ஆகியவையும் லேமினைடிஸ் வரும் வாய்ப்பை அதிகரிக்கின்றன.", "ಒರಟಾದ, ಸಮತಟ್ಟಿಲ್ಲದ ನೆಲ, ಮತ್ತು ಮಲಗಲು ಸಾಕಷ್ಟು ಜಾಗ ಇಲ್ಲದಿರುವುದು ಕೂಡ ಲ್ಯಾಮಿನೈಟಿಸ್ ಬರುವ ಸಾಧ್ಯತೆಯನ್ನು ಹೆಚ್ಚಿಸುತ್ತವೆ.", "खुरदरा, ऊबड़-खाबड़ फर्श और लेटने के लिए पर्याप्त जगह न होना भी लैमिनाइटिस होने की संभावना बढ़ाते हैं।"),
               },
             ],
           },
           {
             type: "text",
-            heading: L("Three Forms of Laminitis"),
+            heading: L("Three Forms of Laminitis", "లామినైటిస్ యొక్క మూడు రూపాలు", "லேமினைடிஸின் மூன்று வடிவங்கள்", "ಲ್ಯಾಮಿನೈಟಿಸ್‌ನ ಮೂರು ರೂಪಗಳು", "लैमिनाइटिस के तीन रूप"),
             html: L(
-              "Laminitis can occur in a <b>sub-clinical</b> form (mild, easy to miss — for example a sole ulcer), an <b>acute</b> form (sudden, an animal may stand with its legs crossed), or a <b>chronic</b> form (long-lasting, which can lead to a deformed hoof or a dropped sole). Severe lameness from any form can show up as an arched back."
+              "Laminitis can occur in a <b>sub-clinical</b> form (mild, easy to miss — for example a sole ulcer), an <b>acute</b> form (sudden, an animal may stand with its legs crossed), or a <b>chronic</b> form (long-lasting, which can lead to a deformed hoof or a dropped sole). Severe lameness from any form can show up as an arched back.",
+              "లామినైటిస్ <b>సబ్-క్లినికల్</b> రూపంలో (తేలికపాటిది, సులభంగా గమనించలేము — ఉదాహరణకు అరికాలి పుండు), <b>అక్యూట్</b> రూపంలో (అకస్మాత్తుగా వస్తుంది, పశువు కాళ్లు అడ్డంగా పెట్టి నిలబడవచ్చు), లేదా <b>క్రానిక్</b> రూపంలో (దీర్ఘకాలికమైనది, ఇది వంకర గిట్టకు లేదా కిందకు జారిన అరికాలుకు దారితీయవచ్చు) ఉండవచ్చు. ఏ రూపంలోనైనా తీవ్రమైన కుంటితనం వల్ల వీపు వంపుగా కనిపించవచ్చు.",
+              "லேமினைடிஸ் <b>சப்-கிளினிக்கல்</b> வடிவில் (லேசானது, எளிதில் கவனிக்கத் தவறக்கூடியது — எடுத்துக்காட்டாக அடிப்பாத புண்), <b>அக்யூட்</b> வடிவில் (திடீரென வருவது, விலங்கு கால்களை குறுக்காக வைத்து நிற்கலாம்), அல்லது <b>கிரானிக்</b> வடிவில் (நீண்ட காலம் நீடிப்பது, இது சிதைந்த குளம்புக்கோ கீழே இறங்கிய அடிப்பாதத்திற்கோ வழிவகுக்கலாம்) ஏற்படலாம். எந்த வடிவத்திலும் கடுமையான நொண்டித்தனத்தால் முதுகு வளைந்து தெரியலாம்.",
+              "ಲ್ಯಾಮಿನೈಟಿಸ್ <b>ಸಬ್-ಕ್ಲಿನಿಕಲ್</b> ರೂಪದಲ್ಲಿ (ಸೌಮ್ಯ, ಸುಲಭವಾಗಿ ಗಮನಕ್ಕೆ ಬರುವುದಿಲ್ಲ — ಉದಾಹರಣೆಗೆ ಅಡಿಭಾಗದ ಹುಣ್ಣು), <b>ಅಕ್ಯೂಟ್</b> ರೂಪದಲ್ಲಿ (ಹಠಾತ್ ಬರುತ್ತದೆ, ಪ್ರಾಣಿ ಕಾಲುಗಳನ್ನು ಅಡ್ಡ ಇಟ್ಟು ನಿಲ್ಲಬಹುದು), ಅಥವಾ <b>ಕ್ರಾನಿಕ್</b> ರೂಪದಲ್ಲಿ (ದೀರ್ಘಕಾಲ ಉಳಿಯುವುದು, ಇದು ವಿರೂಪಗೊಂಡ ಗೊರಸು ಅಥವಾ ಕೆಳಗೆ ಜಾರಿದ ಅಡಿಭಾಗಕ್ಕೆ ಕಾರಣವಾಗಬಹುದು) ಇರಬಹುದು. ಯಾವುದೇ ರೂಪದಲ್ಲಿ ತೀವ್ರ ಕುಂಟುವಿಕೆಯಿಂದ ಬೆನ್ನು ಬಾಗಿದಂತೆ ಕಾಣಬಹುದು.",
+              "लैमिनाइटिस <b>सब-क्लिनिकल</b> रूप में (हल्का, आसानी से नज़र से छूट जाने वाला — जैसे तलवे का घाव), <b>एक्यूट</b> रूप में (अचानक होने वाला, पशु पैर क्रॉस करके खड़ा हो सकता है), या <b>क्रॉनिक</b> रूप में (लंबे समय तक रहने वाला, जिससे खुर टेढ़ा हो सकता है या तलवा नीचे धँस सकता है) हो सकता है। किसी भी रूप में गंभीर लंगड़ापन होने पर पीठ धनुष की तरह मुड़ी दिख सकती है।"
             ),
           },
           {
             type: "callout",
             style: "tip",
-            heading: L("Your Job: Notice the Signs, Report Early"),
+            heading: L("Your Job: Notice the Signs, Report Early", "మీ పని: లక్షణాలను గమనించండి, ముందుగానే తెలియజేయండి", "உங்கள் வேலை: அறிகுறிகளை கவனியுங்கள், முன்கூட்டியே தெரிவியுங்கள்", "ನಿಮ್ಮ ಕೆಲಸ: ಲಕ್ಷಣಗಳನ್ನು ಗಮನಿಸಿ, ಬೇಗನೆ ತಿಳಿಸಿ", "आपका काम: लक्षणों पर ध्यान दें, जल्दी बताएँ"),
             text: L(
-              "Watch for limping, an arched back, an unusual stance such as crossed legs, or reluctance to stand or walk. Because laminitis often affects several animals in a herd together, an early report can help the owner act before more animals are affected."
+              "Watch for limping, an arched back, an unusual stance such as crossed legs, or reluctance to stand or walk. Because laminitis often affects several animals in a herd together, an early report can help the owner act before more animals are affected.",
+              "కుంటడం, వంపు తిరిగిన వీపు, కాళ్లు అడ్డంగా పెట్టడం వంటి అసాధారణ నిలబడే తీరు, లేదా నిలబడటానికి లేదా నడవడానికి ఇష్టపడకపోవడం గమనించండి. లామినైటిస్ తరచుగా మందలో అనేక పశువులను ఒకేసారి ప్రభావితం చేస్తుంది కాబట్టి, ముందుగా తెలియజేస్తే మరిన్ని పశువులు ప్రభావితం కాకముందే యజమాని చర్య తీసుకోగలరు.",
+              "நொண்டுதல், வளைந்த முதுகு, கால்களை குறுக்காக வைப்பது போன்ற வழக்கத்திற்கு மாறான நிற்கும் விதம், அல்லது நிற்கவோ நடக்கவோ தயங்குவது ஆகியவற்றை கவனியுங்கள். லேமினைடிஸ் பெரும்பாலும் மந்தையில் பல விலங்குகளை ஒரே நேரத்தில் பாதிப்பதால், முன்கூட்டியே தெரிவித்தால் மேலும் விலங்குகள் பாதிக்கப்படும் முன் உரிமையாளர் நடவடிக்கை எடுக்க முடியும்.",
+              "ಕುಂಟುವುದು, ಬಾಗಿದ ಬೆನ್ನು, ಕಾಲುಗಳನ್ನು ಅಡ್ಡ ಇಡುವಂತಹ ಅಸಾಮಾನ್ಯ ನಿಲುವು, ಅಥವಾ ನಿಲ್ಲಲು ಅಥವಾ ನಡೆಯಲು ಹಿಂಜರಿಯುವುದನ್ನು ಗಮನಿಸಿ. ಲ್ಯಾಮಿನೈಟಿಸ್ ಹೆಚ್ಚಾಗಿ ಹಿಂಡಿನಲ್ಲಿ ಹಲವು ಪ್ರಾಣಿಗಳನ್ನು ಒಟ್ಟಿಗೆ ಬಾಧಿಸುವುದರಿಂದ, ಬೇಗ ತಿಳಿಸಿದರೆ ಹೆಚ್ಚು ಪ್ರಾಣಿಗಳು ಬಾಧಿತವಾಗುವ ಮೊದಲು ಮಾಲೀಕರು ಕ್ರಮ ತೆಗೆದುಕೊಳ್ಳಬಹುದು.",
+              "लंगड़ाना, मुड़ी हुई पीठ, पैर क्रॉस करके खड़े होने जैसी असामान्य मुद्रा, या खड़े होने या चलने से कतराना ध्यान से देखें। लैमिनाइटिस अक्सर झुंड के कई पशुओं को एक साथ प्रभावित करता है, इसलिए जल्दी बताने से और पशुओं के प्रभावित होने से पहले मालिक कदम उठा सकता है।"
             ),
           },
         ],
         check: [
           {
             type: "mcq",
-            q: L("Laminitis is a disease of which part of the body?"),
-            options: [L("The hoof (foot)"), L("The udder"), L("The eyes"), L("The ears")],
+            q: L("Laminitis is a disease of which part of the body?", "లామినైటిస్ శరీరంలోని ఏ భాగానికి వచ్చే వ్యాధి?", "லேமினைடிஸ் உடலின் எந்தப் பகுதியின் நோய்?", "ಲ್ಯಾಮಿನೈಟಿಸ್ ದೇಹದ ಯಾವ ಭಾಗದ ರೋಗ?", "लैमिनाइटिस शरीर के किस हिस्से की बीमारी है?"),
+            options: [L("The hoof (foot)", "గిట్ట (కాలు)", "குளம்பு (கால்)", "ಗೊರಸು (ಕಾಲು)", "खुर (पैर)"), L("The udder", "పొదుగు", "மடி", "ಕೆಚ್ಚಲು", "थन"), L("The eyes", "కళ్లు", "கண்கள்", "ಕಣ್ಣುಗಳು", "आँखें"), L("The ears", "చెవులు", "காதுகள்", "ಕಿವಿಗಳು", "कान")],
             answer: 0,
-            explain: L("Laminitis affects the hoof, the hard covering of the foot."),
+            explain: L("Laminitis affects the hoof, the hard covering of the foot.", "లామినైటిస్ గిట్టను, అంటే కాలిపై ఉండే గట్టి కవచాన్ని ప్రభావితం చేస్తుంది.", "லேமினைடிஸ் குளம்பை, அதாவது காலின் கடினமான உறையை பாதிக்கிறது.", "ಲ್ಯಾಮಿನೈಟಿಸ್ ಗೊರಸನ್ನು, ಅಂದರೆ ಕಾಲಿನ ಗಟ್ಟಿ ಹೊದಿಕೆಯನ್ನು ಬಾಧಿಸುತ್ತದೆ.", "लैमिनाइटिस खुर यानी पैर के सख़्त आवरण को प्रभावित करता है।"),
           },
           {
             type: "truefalse",
-            q: L("A diet with higher concentrate and protein but too little forage makes laminitis more likely."),
+            q: L("A diet with higher concentrate and protein but too little forage makes laminitis more likely.", "ఆహారంలో దాణా, ప్రోటీన్ ఎక్కువగా ఉండి ఫోరేజ్ చాలా తక్కువగా ఉంటే లామినైటిస్ వచ్చే అవకాశం పెరుగుతుంది.", "உணவில் அடர் தீவனம், புரதம் அதிகமாகவும் ஃபோரேஜ் மிகக் குறைவாகவும் இருந்தால் லேமினைடிஸ் வரும் வாய்ப்பு அதிகரிக்கிறது.", "ಆಹಾರದಲ್ಲಿ ಹಿಂಡಿ-ಕಾಳು ಆಹಾರ, ಪ್ರೊಟೀನ್ ಹೆಚ್ಚಿದ್ದು ಫೋರೇಜ್ ತುಂಬಾ ಕಡಿಮೆ ಇದ್ದರೆ ಲ್ಯಾಮಿನೈಟಿಸ್ ಬರುವ ಸಾಧ್ಯತೆ ಹೆಚ್ಚುತ್ತದೆ.", "आहार में दाना और प्रोटीन ज़्यादा और फोरेज बहुत कम होने से लैमिनाइटिस होने की संभावना बढ़ जाती है।"),
             answer: true,
-            explain: L("Correct — this feeding pattern, along with problems like mastitis, metritis and acidosis, and rough flooring, all make laminitis more likely."),
+            explain: L("Correct — this feeding pattern, along with problems like mastitis, metritis and acidosis, and rough flooring, all make laminitis more likely.", "సరైనది — ఈ మేత తీరు, మాస్టిటిస్, మెట్రైటిస్, అసిడోసిస్ వంటి సమస్యలు, మరియు గరుకైన నేల — ఇవన్నీ లామినైటిస్ వచ్చే అవకాశాన్ని పెంచుతాయి.", "சரி — இந்த தீவன முறை, மாஸ்டைடிஸ், மெட்ரைடிஸ், அமிலத்தன்மை போன்ற பிரச்சினைகள், மற்றும் கரடுமுரடான தரை — இவை அனைத்தும் லேமினைடிஸ் வரும் வாய்ப்பை அதிகரிக்கின்றன.", "ಸರಿ — ಈ ಆಹಾರ ಪದ್ಧತಿ, ಮಾಸ್ಟೈಟಿಸ್, ಮೆಟ್ರೈಟಿಸ್, ಆಸಿಡೋಸಿಸ್‌ನಂತಹ ಸಮಸ್ಯೆಗಳು, ಮತ್ತು ಒರಟು ನೆಲ — ಇವೆಲ್ಲ ಲ್ಯಾಮಿನೈಟಿಸ್ ಬರುವ ಸಾಧ್ಯತೆಯನ್ನು ಹೆಚ್ಚಿಸುತ್ತವೆ.", "सही — यह खिलाने का तरीका, मैस्टाइटिस, मेट्राइटिस और एसिडोसिस जैसी समस्याएँ, और खुरदरा फर्श — ये सभी लैमिनाइटिस होने की संभावना बढ़ाते हैं।"),
           },
         ],
       },
       {
         id: "t-m8-laminitis-prevention",
-        title: L("Preventing Laminitis"),
+        title: L("Preventing Laminitis", "లామినైటిస్‌ను నివారించడం", "லேமினைடிஸைத் தடுத்தல்", "ಲ್ಯಾಮಿನೈಟಿಸ್ ತಡೆಗಟ್ಟುವುದು", "लैमिनाइटिस की रोकथाम"),
         teach: [
             {
               type: "photo",
               src: "assets/photo-m8-hoof-trim.jpg",
-              alt: L("A farm worker using a hoof grinder to trim a cow's hoof while the animal stands restrained in a hoof-trimming crush"),
-              caption: L("Routine hoof trimming, done safely in a trimming crush, is one of the habits that helps prevent laminitis."),
+              alt: L("A farm worker using a hoof grinder to trim a cow's hoof while the animal stands restrained in a hoof-trimming crush", "ఒక పొలం కార్మికుడు, గిట్టలు కత్తిరించే క్రష్‌లో పశువును బంధించి ఉంచి, హూఫ్ గ్రైండర్‌తో ఆవు గిట్టను కత్తిరిస్తున్నాడు", "ஒரு பண்ணை தொழிலாளர், குளம்பு வெட்டும் அமைப்பில் விலங்கை பிடித்து நிறுத்தி, குளம்பு அரைப்பானால் பசுவின் குளம்பை வெட்டுகிறார்", "ಒಬ್ಬ ಫಾರ್ಮ್ ಕೆಲಸಗಾರ, ಗೊರಸು ಕತ್ತರಿಸುವ ಕ್ರಷ್‌ನಲ್ಲಿ ಪ್ರಾಣಿಯನ್ನು ಹಿಡಿದು ನಿಲ್ಲಿಸಿ, ಹೂಫ್ ಗ್ರೈಂಡರ್‌ನಿಂದ ಹಸುವಿನ ಗೊರಸನ್ನು ಕತ್ತರಿಸುತ್ತಿದ್ದಾರೆ", "एक फ़ार्म कर्मचारी खुर-कटाई के क्रश में पशु को रोककर खड़ा करके, हूफ़ ग्राइंडर से गाय का खुर काट रहा है"),
+              caption: L("Routine hoof trimming, done safely in a trimming crush, is one of the habits that helps prevent laminitis.", "గిట్టల కత్తిరింపు క్రష్‌లో సురక్షితంగా చేసే క్రమం తప్పని గిట్టల కత్తిరింపు, లామినైటిస్‌ను నివారించడంలో సహాయపడే అలవాట్లలో ఒకటి.", "குளம்பு வெட்டும் அமைப்பில் பாதுகாப்பாக செய்யப்படும் வழக்கமான குளம்பு வெட்டுதல், லேமினைடிஸைத் தடுக்க உதவும் பழக்கங்களில் ஒன்று.", "ಗೊರಸು ಕತ್ತರಿಸುವ ಕ್ರಷ್‌ನಲ್ಲಿ ಸುರಕ್ಷಿತವಾಗಿ ಮಾಡುವ ನಿಯಮಿತ ಗೊರಸು ಕತ್ತರಿಸುವಿಕೆ, ಲ್ಯಾಮಿನೈಟಿಸ್ ತಡೆಯಲು ಸಹಾಯ ಮಾಡುವ ಅಭ್ಯಾಸಗಳಲ್ಲಿ ಒಂದು.", "खुर-कटाई क्रश में सुरक्षित तरीके से की गई नियमित खुर-कटाई उन आदतों में से एक है जो लैमिनाइटिस से बचाव में मदद करती हैं।"),
             },
           {
             type: "text",
-            heading: L("Prevention Is Mostly About Feeding, Floors and Feet"),
+            heading: L("Prevention Is Mostly About Feeding, Floors and Feet", "నివారణ ప్రధానంగా మేత, నేల మరియు గిట్టలకు సంబంధించినది", "தடுப்பு பெரும்பாலும் தீவனம், தரை மற்றும் குளம்புகளைப் பற்றியது", "ತಡೆಗಟ್ಟುವಿಕೆ ಮುಖ್ಯವಾಗಿ ಆಹಾರ, ನೆಲ ಮತ್ತು ಗೊರಸುಗಳ ಬಗ್ಗೆ", "रोकथाम मुख्य रूप से चारे, फर्श और खुरों की देखभाल पर निर्भर है"),
             html: L(
-              "Since laminitis is closely linked to feeding, many of the same habits that help prevent acidosis also help prevent laminitis. On top of good feeding, housing and hoof care both make a real difference."
+              "Since laminitis is closely linked to feeding, many of the same habits that help prevent acidosis also help prevent laminitis. On top of good feeding, housing and hoof care both make a real difference.",
+              "లామినైటిస్ మేతతో దగ్గరగా ముడిపడి ఉంది కాబట్టి, అసిడోసిస్‌ను నివారించడంలో సహాయపడే అనేక అలవాట్లే లామినైటిస్‌ను నివారించడంలో కూడా సహాయపడతాయి. మంచి మేతతో పాటు, ఉండే చోటు మరియు గిట్టల సంరక్షణ కూడా నిజంగా తేడాను తెస్తాయి.",
+              "லேமினைடிஸ் தீவனத்துடன் நெருக்கமாக தொடர்புடையதால், அமிலத்தன்மையைத் தடுக்க உதவும் பல பழக்கங்களே லேமினைடிஸையும் தடுக்க உதவுகின்றன. நல்ல தீவனத்துடன், தங்குமிடம் மற்றும் குளம்பு பராமரிப்பும் உண்மையான வித்தியாசத்தை ஏற்படுத்துகின்றன.",
+              "ಲ್ಯಾಮಿನೈಟಿಸ್ ಆಹಾರದೊಂದಿಗೆ ನಿಕಟವಾಗಿ ಸಂಬಂಧ ಹೊಂದಿರುವುದರಿಂದ, ಆಸಿಡೋಸಿಸ್ ತಡೆಯಲು ಸಹಾಯ ಮಾಡುವ ಹಲವು ಅಭ್ಯಾಸಗಳೇ ಲ್ಯಾಮಿನೈಟಿಸ್ ತಡೆಯಲೂ ಸಹಾಯ ಮಾಡುತ್ತವೆ. ಒಳ್ಳೆಯ ಆಹಾರದ ಜೊತೆಗೆ, ವಾಸಸ್ಥಳ ಮತ್ತು ಗೊರಸಿನ ಆರೈಕೆ ಕೂಡ ನಿಜವಾದ ವ್ಯತ್ಯಾಸ ತರುತ್ತವೆ.",
+              "लैमिनाइटिस चारे से गहराई से जुड़ा है, इसलिए एसिडोसिस से बचाने वाली कई वही आदतें लैमिनाइटिस से भी बचाने में मदद करती हैं। अच्छे चारे के साथ-साथ रहने की जगह और खुर की देखभाल भी असली फ़र्क डालती हैं।"
             ),
           },
           {
             type: "stat-grid",
             items: [
               {
-                label: L("Feeding"),
-                text: L("Provide balanced feed that includes enough forage, rather than relying heavily on concentrate."),
+                label: L("Feeding", "మేత", "தீவனம்", "ಆಹಾರ", "चारा"),
+                text: L("Provide balanced feed that includes enough forage, rather than relying heavily on concentrate.", "దాణా మీదే ఎక్కువగా ఆధారపడకుండా, తగినంత ఫోరేజ్ ఉన్న సమతుల్యమైన మేత ఇవ్వండి.", "அடர் தீவனத்தையே அதிகம் நம்பாமல், போதுமான ஃபோரேஜ் உள்ள சமநிலையான தீவனத்தை கொடுங்கள்.", "ಹಿಂಡಿ-ಕಾಳು ಆಹಾರವನ್ನೇ ಹೆಚ್ಚು ಅವಲಂಬಿಸದೆ, ಸಾಕಷ್ಟು ಫೋರೇಜ್ ಇರುವ ಸಮತೋಲಿತ ಆಹಾರ ಕೊಡಿ.", "सिर्फ़ दाने पर ज़्यादा निर्भर रहने के बजाय पर्याप्त फोरेज वाला संतुलित चारा दें।"),
               },
               {
-                label: L("Flooring and space"),
-                text: L("Provide soft flooring where possible, and make sure animals have adequate space to lie down, so they aren't forced to stand excessively."),
+                label: L("Flooring and space", "నేల మరియు చోటు", "தரை மற்றும் இடம்", "ನೆಲ ಮತ್ತು ಜಾಗ", "फर्श और जगह"),
+                text: L("Provide soft flooring where possible, and make sure animals have adequate space to lie down, so they aren't forced to stand excessively.", "వీలైతే మెత్తని నేల ఏర్పాటు చేయండి, మరియు పశువులు అతిగా నిలబడాల్సిన పరిస్థితి రాకుండా పడుకోవడానికి తగినంత చోటు ఉండేలా చూడండి.", "முடிந்தால் மென்மையான தரையை அமையுங்கள், விலங்குகள் அதிக நேரம் நிற்க வேண்டிய கட்டாயம் ஏற்படாமல் படுத்துக்கொள்ள போதுமான இடம் இருப்பதை உறுதி செய்யுங்கள்.", "ಸಾಧ್ಯವಾದರೆ ಮೃದುವಾದ ನೆಲ ಒದಗಿಸಿ, ಮತ್ತು ಪ್ರಾಣಿಗಳು ಅತಿಯಾಗಿ ನಿಲ್ಲುವಂತೆ ಒತ್ತಾಯವಾಗದಂತೆ ಮಲಗಲು ಸಾಕಷ್ಟು ಜಾಗ ಇರುವಂತೆ ನೋಡಿಕೊಳ್ಳಿ.", "जहाँ संभव हो नरम फर्श दें, और यह पक्का करें कि पशुओं के पास लेटने के लिए पर्याप्त जगह हो, ताकि उन्हें ज़्यादा देर खड़ा न रहना पड़े।"),
               },
               {
-                label: L("Foot bath"),
-                text: L("A foot bath using 5% copper sulphate solution, used for 2–4 days continuously every fortnight, is a recommended hoof-care practice."),
+                label: L("Foot bath", "ఫుట్ బాత్", "ஃபுட் பாத் (கால் குளியல்)", "ಫುಟ್ ಬಾತ್ (ಕಾಲು ಸ್ನಾನ)", "फुट बाथ (पैर धुलाई)"),
+                text: L("A foot bath using 5% copper sulphate solution, used for 2–4 days continuously every fortnight, is a recommended hoof-care practice.", "5% కాపర్ సల్ఫేట్ ద్రావణంతో ఫుట్ బాత్, ప్రతి రెండు వారాలకు ఒకసారి వరుసగా 2–4 రోజులు ఉపయోగించడం, సిఫార్సు చేయబడిన గిట్టల సంరక్షణ పద్ధతి.", "5% காப்பர் சல்பேட் கரைசலுடன் ஃபுட் பாத், ஒவ்வொரு இரண்டு வாரங்களுக்கும் தொடர்ந்து 2–4 நாட்கள் பயன்படுத்துவது, பரிந்துரைக்கப்படும் குளம்பு பராமரிப்பு முறை.", "5% ಕಾಪರ್ ಸಲ್ಫೇಟ್ ದ್ರಾವಣದ ಫುಟ್ ಬಾತ್, ಪ್ರತಿ ಎರಡು ವಾರಗಳಿಗೊಮ್ಮೆ ಸತತವಾಗಿ 2–4 ದಿನ ಬಳಸುವುದು, ಶಿಫಾರಸು ಮಾಡಿದ ಗೊರಸಿನ ಆರೈಕೆ ಪದ್ಧತಿ.", "5% कॉपर सल्फेट घोल से फुट बाथ, हर दो हफ्ते में लगातार 2–4 दिन तक इस्तेमाल करना, खुर की देखभाल का सुझाया गया तरीका है।"),
               },
               {
-                label: L("Hoof trimming and checks"),
-                text: L("Arrange regular hoof trimming at least once every 6 months, and check hooves regularly for any injury or early signs of laminitis."),
+                label: L("Hoof trimming and checks", "గిట్టల కత్తిరింపు మరియు తనిఖీలు", "குளம்பு வெட்டுதல் மற்றும் பரிசோதனைகள்", "ಗೊರಸು ಕತ್ತರಿಸುವಿಕೆ ಮತ್ತು ಪರೀಕ್ಷೆಗಳು", "खुर की कटाई और जाँच"),
+                text: L("Arrange regular hoof trimming at least once every 6 months, and check hooves regularly for any injury or early signs of laminitis.", "కనీసం ప్రతి 6 నెలలకు ఒకసారి క్రమం తప్పకుండా గిట్టల కత్తిరింపు ఏర్పాటు చేయండి, మరియు ఏదైనా గాయం లేదా లామినైటిస్ తొలి సంకేతాల కోసం గిట్టలను క్రమం తప్పకుండా తనిఖీ చేయండి.", "குறைந்தது ஒவ்வொரு 6 மாதத்திற்கும் ஒருமுறை வழக்கமான குளம்பு வெட்டுதலை ஏற்பாடு செய்யுங்கள், மேலும் ஏதேனும் காயம் அல்லது லேமினைடிஸின் ஆரம்ப அறிகுறிகளுக்காக குளம்புகளை தொடர்ந்து சோதியுங்கள்.", "ಕನಿಷ್ಠ ಪ್ರತಿ 6 ತಿಂಗಳಿಗೊಮ್ಮೆ ನಿಯಮಿತ ಗೊರಸು ಕತ್ತರಿಸುವಿಕೆ ಏರ್ಪಡಿಸಿ, ಮತ್ತು ಯಾವುದೇ ಗಾಯ ಅಥವಾ ಲ್ಯಾಮಿನೈಟಿಸ್‌ನ ಆರಂಭಿಕ ಲಕ್ಷಣಗಳಿಗಾಗಿ ಗೊರಸುಗಳನ್ನು ನಿಯಮಿತವಾಗಿ ಪರೀಕ್ಷಿಸಿ.", "कम से कम हर 6 महीने में एक बार नियमित खुर-कटाई करवाएँ, और किसी भी चोट या लैमिनाइटिस के शुरुआती लक्षणों के लिए खुरों की नियमित जाँच करें।"),
               },
             ],
           },
           {
             type: "glossary",
-            term: L("Foot Bath"),
-            meaning: L("A shallow tray or trough of solution that animals walk through, used regularly to help keep hooves healthy."),
+            term: L("Foot Bath", "ఫుట్ బాత్", "ஃபுட் பாத் (கால் குளியல்)", "ಫುಟ್ ಬಾತ್ (ಕಾಲು ಸ್ನಾನ)", "फुट बाथ (पैर धुलाई)"),
+            meaning: L("A shallow tray or trough of solution that animals walk through, used regularly to help keep hooves healthy.", "పశువులు నడిచి వెళ్లేలా ద్రావణం ఉంచే లోతు తక్కువ ట్రే లేదా తొట్టి; గిట్టలను ఆరోగ్యంగా ఉంచడానికి క్రమం తప్పకుండా ఉపయోగిస్తారు.", "விலங்குகள் நடந்து செல்லும்படி கரைசல் வைக்கப்படும் ஆழம் குறைந்த தட்டு அல்லது தொட்டி; குளம்புகளை ஆரோக்கியமாக வைத்திருக்க தொடர்ந்து பயன்படுத்தப்படுகிறது.", "ಪ್ರಾಣಿಗಳು ನಡೆದು ಹೋಗುವಂತೆ ದ್ರಾವಣ ಹಾಕಿದ ಆಳವಿಲ್ಲದ ತಟ್ಟೆ ಅಥವಾ ತೊಟ್ಟಿ; ಗೊರಸುಗಳನ್ನು ಆರೋಗ್ಯವಾಗಿಡಲು ನಿಯಮಿತವಾಗಿ ಬಳಸಲಾಗುತ್ತದೆ.", "घोल से भरी उथली ट्रे या नाँद जिसमें से पशु चलकर निकलते हैं; खुरों को स्वस्थ रखने के लिए इसे नियमित रूप से इस्तेमाल किया जाता है।"),
           },
           {
             type: "example",
-            heading: L("Why Regular Checking Matters"),
+            heading: L("Why Regular Checking Matters", "క్రమం తప్పని తనిఖీ ఎందుకు ముఖ్యం", "வழக்கமான பரிசோதனை ஏன் முக்கியம்", "ನಿಯಮಿತ ಪರೀಕ್ಷೆ ಏಕೆ ಮುಖ್ಯ", "नियमित जाँच क्यों ज़रूरी है"),
             text: L(
-              "Just as a person might notice a small stone in their shoe before it causes a real injury, checking an animal's hooves regularly means small problems can be caught and reported before they turn into a serious case of laminitis."
+              "Just as a person might notice a small stone in their shoe before it causes a real injury, checking an animal's hooves regularly means small problems can be caught and reported before they turn into a serious case of laminitis.",
+              "ఒక వ్యక్తి తన చెప్పులో ఉన్న చిన్న రాయిని అది నిజమైన గాయం చేయకముందే గమనించినట్లే, పశువు గిట్టలను క్రమం తప్పకుండా తనిఖీ చేస్తే చిన్న సమస్యలు తీవ్రమైన లామినైటిస్‌గా మారకముందే పట్టుకుని తెలియజేయవచ్చు.",
+              "ஒருவர் தன் செருப்பில் உள்ள சிறு கல்லை அது உண்மையான காயத்தை ஏற்படுத்தும் முன் கவனிப்பது போலவே, விலங்கின் குளம்புகளை தொடர்ந்து சோதித்தால் சிறு பிரச்சினைகள் தீவிர லேமினைடிஸாக மாறும் முன் கண்டறிந்து தெரிவிக்கலாம்.",
+              "ಒಬ್ಬ ವ್ಯಕ್ತಿ ತನ್ನ ಚಪ್ಪಲಿಯಲ್ಲಿರುವ ಸಣ್ಣ ಕಲ್ಲನ್ನು ಅದು ನಿಜವಾದ ಗಾಯ ಮಾಡುವ ಮೊದಲೇ ಗಮನಿಸುವಂತೆ, ಪ್ರಾಣಿಯ ಗೊರಸುಗಳನ್ನು ನಿಯಮಿತವಾಗಿ ಪರೀಕ್ಷಿಸಿದರೆ ಸಣ್ಣ ಸಮಸ್ಯೆಗಳು ತೀವ್ರ ಲ್ಯಾಮಿನೈಟಿಸ್ ಆಗುವ ಮೊದಲೇ ಪತ್ತೆ ಹಚ್ಚಿ ತಿಳಿಸಬಹುದು.",
+              "जैसे कोई व्यक्ति जूते में फंसे छोटे कंकड़ को चोट पहुँचाने से पहले ही महसूस कर लेता है, वैसे ही पशु के खुरों की नियमित जाँच करने से छोटी समस्याओं को गंभीर लैमिनाइटिस बनने से पहले पकड़कर बताया जा सकता है।"
             ),
           },
           {
             type: "callout",
             style: "tip",
-            heading: L("Your Job: Support the Routine, Report What You See"),
+            heading: L("Your Job: Support the Routine, Report What You See", "మీ పని: దినచర్యకు తోడ్పడండి, మీరు చూసినది తెలియజేయండి", "உங்கள் வேலை: வழக்கத்திற்கு துணை நில்லுங்கள், நீங்கள் பார்த்ததை தெரிவியுங்கள்", "ನಿಮ್ಮ ಕೆಲಸ: ದಿನಚರಿಗೆ ಬೆಂಬಲ ನೀಡಿ, ನೀವು ಕಂಡದ್ದನ್ನು ತಿಳಿಸಿ", "आपका काम: दिनचर्या में साथ दें, जो दिखे उसे बताएँ"),
             text: L(
-              "You don't need to trim hooves or diagnose laminitis yourself. Your part is to help keep good habits going — enough forage in the feed, soft footing and lying space where possible — and to check hooves regularly, reporting any injury or unusual sign to the owner or veterinarian right away."
+              "You don't need to trim hooves or diagnose laminitis yourself. Your part is to help keep good habits going — enough forage in the feed, soft footing and lying space where possible — and to check hooves regularly, reporting any injury or unusual sign to the owner or veterinarian right away.",
+              "మీరు గిట్టలను కత్తిరించాల్సిన అవసరం లేదు, లామినైటిస్‌ను మీరే నిర్ధారించాల్సిన అవసరం కూడా లేదు. మీ పని మంచి అలవాట్లను కొనసాగించడంలో సహాయపడటం — మేతలో తగినంత ఫోరేజ్, వీలైన చోట మెత్తని నేల మరియు పడుకోవడానికి చోటు — మరియు గిట్టలను క్రమం తప్పకుండా తనిఖీ చేసి, ఏదైనా గాయం లేదా అసాధారణ లక్షణం కనిపిస్తే వెంటనే యజమానికి లేదా వెటర్నరీ డాక్టర్‌కు తెలియజేయడం.",
+              "நீங்கள் குளம்புகளை வெட்டவோ லேமினைடிஸை நீங்களே கண்டறியவோ தேவையில்லை. உங்கள் பங்கு நல்ல பழக்கங்களைத் தொடர உதவுவது — தீவனத்தில் போதுமான ஃபோரேஜ், முடிந்த இடங்களில் மென்மையான தரை மற்றும் படுத்துக்கொள்ள இடம் — மேலும் குளம்புகளை தொடர்ந்து சோதித்து, ஏதேனும் காயம் அல்லது வழக்கத்திற்கு மாறான அறிகுறி இருந்தால் உடனே உரிமையாளர் அல்லது வெட்டரினரி டாக்டரிடம் தெரிவிப்பது.",
+              "ನೀವು ಗೊರಸುಗಳನ್ನು ಕತ್ತರಿಸಬೇಕಾಗಿಲ್ಲ, ಲ್ಯಾಮಿನೈಟಿಸ್ ಅನ್ನು ನೀವೇ ಪತ್ತೆ ಮಾಡಬೇಕಾಗಿಲ್ಲ. ನಿಮ್ಮ ಪಾತ್ರ ಒಳ್ಳೆಯ ಅಭ್ಯಾಸಗಳನ್ನು ಮುಂದುವರಿಸಲು ಸಹಾಯ ಮಾಡುವುದು — ಆಹಾರದಲ್ಲಿ ಸಾಕಷ್ಟು ಫೋರೇಜ್, ಸಾಧ್ಯವಿರುವಲ್ಲಿ ಮೃದು ನೆಲ ಮತ್ತು ಮಲಗಲು ಜಾಗ — ಮತ್ತು ಗೊರಸುಗಳನ್ನು ನಿಯಮಿತವಾಗಿ ಪರೀಕ್ಷಿಸಿ, ಯಾವುದೇ ಗಾಯ ಅಥವಾ ಅಸಾಮಾನ್ಯ ಲಕ್ಷಣ ಕಂಡರೆ ತಕ್ಷಣ ಮಾಲೀಕರಿಗೆ ಅಥವಾ ಪಶುವೈದ್ಯರಿಗೆ ತಿಳಿಸುವುದು.",
+              "आपको खुर काटने या लैमिनाइटिस की जाँच खुद करने की ज़रूरत नहीं है। आपका काम अच्छी आदतें बनाए रखने में मदद करना है — चारे में पर्याप्त फोरेज, जहाँ संभव हो नरम फर्श और लेटने की जगह — और खुरों की नियमित जाँच करना, तथा कोई भी चोट या असामान्य लक्षण दिखे तो तुरंत मालिक या डॉक्टर को बताना।"
             ),
           },
         ],
         check: [
           {
             type: "mcq",
-            q: L("How often should regular hoof trimming be arranged, according to this lesson?"),
-            options: [L("Once a week"), L("At least once every 6 months"), L("Once every 5 years"), L("Only if the animal is limping")],
+            q: L("How often should regular hoof trimming be arranged, according to this lesson?", "ఈ పాఠం ప్రకారం, క్రమం తప్పకుండా గిట్టల కత్తిరింపు ఎంత తరచుగా ఏర్పాటు చేయాలి?", "இந்த பாடத்தின்படி, வழக்கமான குளம்பு வெட்டுதலை எவ்வளவு அடிக்கடி ஏற்பாடு செய்ய வேண்டும்?", "ಈ ಪಾಠದ ಪ್ರಕಾರ, ನಿಯಮಿತ ಗೊರಸು ಕತ್ತರಿಸುವಿಕೆಯನ್ನು ಎಷ್ಟು ಬಾರಿ ಏರ್ಪಡಿಸಬೇಕು?", "इस पाठ के अनुसार, नियमित खुर-कटाई कितनी बार करवानी चाहिए?"),
+            options: [L("Once a week", "వారానికి ఒకసారి", "வாரத்திற்கு ஒருமுறை", "ವಾರಕ್ಕೊಮ್ಮೆ", "हफ्ते में एक बार"), L("At least once every 6 months", "కనీసం ప్రతి 6 నెలలకు ఒకసారి", "குறைந்தது ஒவ்வொரு 6 மாதத்திற்கும் ஒருமுறை", "ಕನಿಷ್ಠ ಪ್ರತಿ 6 ತಿಂಗಳಿಗೊಮ್ಮೆ", "कम से कम हर 6 महीने में एक बार"), L("Once every 5 years", "ప్రతి 5 సంవత్సరాలకు ఒకసారి", "ஒவ்வொரு 5 ஆண்டுகளுக்கும் ஒருமுறை", "ಪ್ರತಿ 5 ವರ್ಷಗಳಿಗೊಮ್ಮೆ", "हर 5 साल में एक बार"), L("Only if the animal is limping", "పశువు కుంటుతున్నప్పుడు మాత్రమే", "விலங்கு நொண்டும்போது மட்டும்", "ಪ್ರಾಣಿ ಕುಂಟುತ್ತಿದ್ದರೆ ಮಾತ್ರ", "सिर्फ़ तब जब पशु लंगड़ा रहा हो")],
             answer: 1,
-            explain: L("Regular hoof trimming should be arranged at least once every 6 months, as part of ongoing hoof care."),
+            explain: L("Regular hoof trimming should be arranged at least once every 6 months, as part of ongoing hoof care.", "గిట్టల సంరక్షణలో భాగంగా, కనీసం ప్రతి 6 నెలలకు ఒకసారి క్రమం తప్పకుండా గిట్టల కత్తిరింపు ఏర్పాటు చేయాలి.", "குளம்பு பராமரிப்பின் ஒரு பகுதியாக, குறைந்தது ஒவ்வொரு 6 மாதத்திற்கும் ஒருமுறை வழக்கமான குளம்பு வெட்டுதலை ஏற்பாடு செய்ய வேண்டும்.", "ಗೊರಸಿನ ಆರೈಕೆಯ ಭಾಗವಾಗಿ, ಕನಿಷ್ಠ ಪ್ರತಿ 6 ತಿಂಗಳಿಗೊಮ್ಮೆ ನಿಯಮಿತ ಗೊರಸು ಕತ್ತರಿಸುವಿಕೆ ಏರ್ಪಡಿಸಬೇಕು.", "खुर की देखभाल के हिस्से के रूप में, कम से कम हर 6 महीने में एक बार नियमित खुर-कटाई करवानी चाहिए।"),
           },
           {
             type: "truefalse",
-            q: L("Providing enough forage and soft flooring, along with regular hoof checks, are all part of preventing laminitis."),
+            q: L("Providing enough forage and soft flooring, along with regular hoof checks, are all part of preventing laminitis.", "తగినంత ఫోరేజ్ మరియు మెత్తని నేల అందించడం, అలాగే క్రమం తప్పకుండా గిట్టల తనిఖీలు — ఇవన్నీ లామినైటిస్‌ను నివారించడంలో భాగమే.", "போதுமான ஃபோரேஜ் மற்றும் மென்மையான தரை அமைப்பது, மேலும் வழக்கமான குளம்பு சோதனைகள் — இவை அனைத்தும் லேமினைடிஸைத் தடுப்பதன் பகுதிகளே.", "ಸಾಕಷ್ಟು ಫೋರೇಜ್ ಮತ್ತು ಮೃದು ನೆಲ ಒದಗಿಸುವುದು, ಜೊತೆಗೆ ನಿಯಮಿತ ಗೊರಸು ಪರೀಕ್ಷೆಗಳು — ಇವೆಲ್ಲ ಲ್ಯಾಮಿನೈಟಿಸ್ ತಡೆಗಟ್ಟುವಿಕೆಯ ಭಾಗಗಳೇ.", "पर्याप्त फोरेज और नरम फर्श देना, साथ ही खुरों की नियमित जाँच — ये सभी लैमिनाइटिस की रोकथाम का हिस्सा हैं।"),
             answer: true,
-            explain: L("Correct — balanced feed with enough forage, soft flooring, adequate lying space, foot baths and regular hoof checks all help prevent laminitis."),
+            explain: L("Correct — balanced feed with enough forage, soft flooring, adequate lying space, foot baths and regular hoof checks all help prevent laminitis.", "సరైనది — తగినంత ఫోరేజ్ ఉన్న సమతుల్య మేత, మెత్తని నేల, పడుకోవడానికి తగిన చోటు, ఫుట్ బాత్‌లు మరియు క్రమం తప్పకుండా గిట్టల తనిఖీలు — ఇవన్నీ లామినైటిస్‌ను నివారించడంలో సహాయపడతాయి.", "சரி — போதுமான ஃபோரேஜ் உள்ள சமநிலையான தீவனம், மென்மையான தரை, படுத்துக்கொள்ள போதுமான இடம், ஃபுட் பாத்கள் மற்றும் வழக்கமான குளம்பு சோதனைகள் — இவை அனைத்தும் லேமினைடிஸைத் தடுக்க உதவுகின்றன.", "ಸರಿ — ಸಾಕಷ್ಟು ಫೋರೇಜ್ ಇರುವ ಸಮತೋಲಿತ ಆಹಾರ, ಮೃದು ನೆಲ, ಮಲಗಲು ಸಾಕಷ್ಟು ಜಾಗ, ಫುಟ್ ಬಾತ್‌ಗಳು ಮತ್ತು ನಿಯಮಿತ ಗೊರಸು ಪರೀಕ್ಷೆಗಳು — ಇವೆಲ್ಲ ಲ್ಯಾಮಿನೈಟಿಸ್ ತಡೆಯಲು ಸಹಾಯ ಮಾಡುತ್ತವೆ.", "सही — पर्याप्त फोरेज वाला संतुलित चारा, नरम फर्श, लेटने की पर्याप्त जगह, फुट बाथ और खुरों की नियमित जाँच — ये सभी लैमिनाइटिस से बचाव में मदद करते हैं।"),
           },
         ],
       },
@@ -8378,42 +8426,42 @@ export const MODULES = [
         {
           topicId: "t-m8-laminitis-what",
           type: "mcq",
-          q: L("When is laminitis most commonly seen?"),
+          q: L("When is laminitis most commonly seen?", "లామినైటిస్ ఎక్కువగా ఎప్పుడు కనిపిస్తుంది?", "லேமினைடிஸ் மிகவும் பொதுவாக எப்போது காணப்படுகிறது?", "ಲ್ಯಾಮಿನೈಟಿಸ್ ಹೆಚ್ಚಾಗಿ ಯಾವಾಗ ಕಾಣಿಸುತ್ತದೆ?", "लैमिनाइटिस सबसे ज़्यादा कब दिखता है?"),
           options: [
-            L("In mature dairy cows during peak lactation"),
-            L("Only in very young calves"),
-            L("Only in male animals"),
-            L("Only right after birth, and never at any other time"),
+            L("In mature dairy cows during peak lactation", "పూర్తిగా ఎదిగిన పాడి ఆవులలో, గరిష్ట పాల దశలో", "முழு வளர்ச்சி அடைந்த கறவை பசுக்களில், உச்ச பால் காலத்தில்", "ಪೂರ್ಣ ಬೆಳೆದ ಹೈನು ಹಸುಗಳಲ್ಲಿ, ಗರಿಷ್ಠ ಹಾಲಿನ ಹಂತದಲ್ಲಿ", "पूरी तरह विकसित दुधारू गायों में, सबसे ज़्यादा दूध देने के दौर में"),
+            L("Only in very young calves", "చాలా చిన్న దూడలలో మాత్రమే", "மிகச் சிறிய கன்றுகளில் மட்டும்", "ತುಂಬಾ ಚಿಕ್ಕ ಕರುಗಳಲ್ಲಿ ಮಾತ್ರ", "सिर्फ़ बहुत छोटे बछड़ों में"),
+            L("Only in male animals", "మగ పశువులలో మాత్రమే", "ஆண் விலங்குகளில் மட்டும்", "ಗಂಡು ಪ್ರಾಣಿಗಳಲ್ಲಿ ಮಾತ್ರ", "सिर्फ़ नर पशुओं में"),
+            L("Only right after birth, and never at any other time", "పుట్టిన వెంటనే మాత్రమే, మరే సమయంలోనూ కాదు", "பிறந்த உடனே மட்டும், வேறு எப்போதும் இல்லை", "ಹುಟ್ಟಿದ ತಕ್ಷಣ ಮಾತ್ರ, ಬೇರೆ ಯಾವ ಸಮಯದಲ್ಲೂ ಇಲ್ಲ", "सिर्फ़ जन्म के तुरंत बाद, किसी और समय कभी नहीं"),
           ],
           answer: 0,
-          explain: L("Laminitis is commonly seen in mature dairy cows during peak lactation, and can affect several animals in a herd at once."),
+          explain: L("Laminitis is commonly seen in mature dairy cows during peak lactation, and can affect several animals in a herd at once.", "లామినైటిస్ ఎక్కువగా పూర్తిగా ఎదిగిన పాడి ఆవులలో గరిష్ట పాల దశలో కనిపిస్తుంది, మరియు ఒకే సమయంలో మందలోని అనేక పశువులను ప్రభావితం చేయవచ్చు.", "லேமினைடிஸ் பெரும்பாலும் முழு வளர்ச்சி அடைந்த கறவை பசுக்களில் உச்ச பால் காலத்தில் காணப்படுகிறது, மேலும் ஒரே நேரத்தில் மந்தையில் பல விலங்குகளை பாதிக்கலாம்.", "ಲ್ಯಾಮಿನೈಟಿಸ್ ಹೆಚ್ಚಾಗಿ ಪೂರ್ಣ ಬೆಳೆದ ಹೈನು ಹಸುಗಳಲ್ಲಿ ಗರಿಷ್ಠ ಹಾಲಿನ ಹಂತದಲ್ಲಿ ಕಾಣಿಸುತ್ತದೆ, ಮತ್ತು ಒಂದೇ ಸಮಯದಲ್ಲಿ ಹಿಂಡಿನ ಹಲವು ಪ್ರಾಣಿಗಳನ್ನು ಬಾಧಿಸಬಹುದು.", "लैमिनाइटिस आमतौर पर पूरी तरह विकसित दुधारू गायों में सबसे ज़्यादा दूध देने के दौर में दिखता है, और एक ही समय में झुंड के कई पशुओं को प्रभावित कर सकता है।"),
         },
         {
           topicId: "t-m8-laminitis-what",
           type: "truefalse",
-          q: L("Mastitis and metritis, as well as acidosis, can all make laminitis more likely."),
+          q: L("Mastitis and metritis, as well as acidosis, can all make laminitis more likely.", "మాస్టిటిస్, మెట్రైటిస్, అలాగే అసిడోసిస్ — ఇవన్నీ లామినైటిస్ వచ్చే అవకాశాన్ని పెంచుతాయి.", "மாஸ்டைடிஸ், மெட்ரைடிஸ், அதோடு அமிலத்தன்மை — இவை அனைத்தும் லேமினைடிஸ் வரும் வாய்ப்பை அதிகரிக்கலாம்.", "ಮಾಸ್ಟೈಟಿಸ್, ಮೆಟ್ರೈಟಿಸ್, ಹಾಗೂ ಆಸಿಡೋಸಿಸ್ — ಇವೆಲ್ಲ ಲ್ಯಾಮಿನೈಟಿಸ್ ಬರುವ ಸಾಧ್ಯತೆಯನ್ನು ಹೆಚ್ಚಿಸಬಹುದು.", "मैस्टाइटिस, मेट्राइटिस और साथ ही एसिडोसिस — ये सभी लैमिनाइटिस होने की संभावना बढ़ा सकते हैं।"),
           answer: true,
-          explain: L("Yes — along with feeding factors and poor flooring, these health problems are also listed as making laminitis more likely."),
+          explain: L("Yes — along with feeding factors and poor flooring, these health problems are also listed as making laminitis more likely.", "అవును — మేతకు సంబంధించిన అంశాలు మరియు చెడ్డ నేలతో పాటు, ఈ ఆరోగ్య సమస్యలు కూడా లామినైటిస్ వచ్చే అవకాశాన్ని పెంచేవిగా జాబితా చేయబడ్డాయి.", "ஆம் — தீவனம் தொடர்பான காரணிகள் மற்றும் மோசமான தரையுடன், இந்த உடல்நல பிரச்சினைகளும் லேமினைடிஸ் வரும் வாய்ப்பை அதிகரிப்பவையாக பட்டியலிடப்பட்டுள்ளன.", "ಹೌದು — ಆಹಾರ ಸಂಬಂಧಿತ ಅಂಶಗಳು ಮತ್ತು ಕೆಟ್ಟ ನೆಲದ ಜೊತೆಗೆ, ಈ ಆರೋಗ್ಯ ಸಮಸ್ಯೆಗಳು ಕೂಡ ಲ್ಯಾಮಿನೈಟಿಸ್ ಬರುವ ಸಾಧ್ಯತೆಯನ್ನು ಹೆಚ್ಚಿಸುವವು ಎಂದು ಪಟ್ಟಿ ಮಾಡಲಾಗಿದೆ.", "हाँ — चारे से जुड़े कारणों और खराब फर्श के साथ, ये स्वास्थ्य समस्याएँ भी लैमिनाइटिस की संभावना बढ़ाने वाली बताई गई हैं।"),
         },
         {
           topicId: "t-m8-laminitis-prevention",
           type: "mcq",
-          q: L("What foot bath solution and schedule is recommended for hoof care?"),
+          q: L("What foot bath solution and schedule is recommended for hoof care?", "గిట్టల సంరక్షణ కోసం ఏ ఫుట్ బాత్ ద్రావణం, ఏ షెడ్యూల్ సిఫార్సు చేయబడింది?", "குளம்பு பராமரிப்புக்கு எந்த ஃபுட் பாத் கரைசலும் எந்த அட்டவணையும் பரிந்துரைக்கப்படுகிறது?", "ಗೊರಸಿನ ಆರೈಕೆಗೆ ಯಾವ ಫುಟ್ ಬಾತ್ ದ್ರಾವಣ ಮತ್ತು ಯಾವ ವೇಳಾಪಟ್ಟಿ ಶಿಫಾರಸು ಮಾಡಲಾಗಿದೆ?", "खुर की देखभाल के लिए कौन सा फुट बाथ घोल और कौन सा कार्यक्रम सुझाया गया है?"),
           options: [
-            L("5% copper sulphate, for 2–4 days continuously every fortnight"),
-            L("Plain water, once a year"),
-            L("Salt water, every single day"),
-            L("No foot bath is ever needed"),
+            L("5% copper sulphate, for 2–4 days continuously every fortnight", "5% కాపర్ సల్ఫేట్, ప్రతి రెండు వారాలకు ఒకసారి వరుసగా 2–4 రోజులు", "5% காப்பர் சல்பேட், ஒவ்வொரு இரண்டு வாரங்களுக்கும் தொடர்ந்து 2–4 நாட்கள்", "5% ಕಾಪರ್ ಸಲ್ಫೇಟ್, ಪ್ರತಿ ಎರಡು ವಾರಗಳಿಗೊಮ್ಮೆ ಸತತವಾಗಿ 2–4 ದಿನ", "5% कॉपर सल्फेट, हर दो हफ्ते में लगातार 2–4 दिन"),
+            L("Plain water, once a year", "సాధారణ నీరు, సంవత్సరానికి ఒకసారి", "சாதாரண தண்ணீர், வருடத்திற்கு ஒருமுறை", "ಸಾದಾ ನೀರು, ವರ್ಷಕ್ಕೊಮ್ಮೆ", "सादा पानी, साल में एक बार"),
+            L("Salt water, every single day", "ఉప్పు నీరు, ప్రతి రోజూ", "உப்புத் தண்ணீர், ஒவ்வொரு நாளும்", "ಉಪ್ಪು ನೀರು, ಪ್ರತಿ ದಿನವೂ", "नमक का पानी, हर रोज़"),
+            L("No foot bath is ever needed", "ఫుట్ బాత్ ఎప్పుడూ అవసరం లేదు", "ஃபுட் பாத் ஒருபோதும் தேவையில்லை", "ಫುಟ್ ಬಾತ್ ಎಂದಿಗೂ ಬೇಕಾಗಿಲ್ಲ", "फुट बाथ की कभी ज़रूरत नहीं होती"),
           ],
           answer: 0,
-          explain: L("A 5% copper sulphate foot bath, used for 2–4 days continuously every fortnight, is the recommended practice mentioned in this lesson."),
+          explain: L("A 5% copper sulphate foot bath, used for 2–4 days continuously every fortnight, is the recommended practice mentioned in this lesson.", "ఈ పాఠంలో ప్రస్తావించిన సిఫార్సు చేయబడిన పద్ధతి 5% కాపర్ సల్ఫేట్ ఫుట్ బాత్, ప్రతి రెండు వారాలకు ఒకసారి వరుసగా 2–4 రోజులు ఉపయోగించడం.", "இந்த பாடத்தில் குறிப்பிடப்பட்ட பரிந்துரைக்கப்படும் முறை 5% காப்பர் சல்பேட் ஃபுட் பாத், ஒவ்வொரு இரண்டு வாரங்களுக்கும் தொடர்ந்து 2–4 நாட்கள் பயன்படுத்துவது.", "ಈ ಪಾಠದಲ್ಲಿ ಉಲ್ಲೇಖಿಸಿದ ಶಿಫಾರಸು ಮಾಡಿದ ಪದ್ಧತಿ 5% ಕಾಪರ್ ಸಲ್ಫೇಟ್ ಫುಟ್ ಬಾತ್, ಪ್ರತಿ ಎರಡು ವಾರಗಳಿಗೊಮ್ಮೆ ಸತತವಾಗಿ 2–4 ದಿನ ಬಳಸುವುದು.", "इस पाठ में बताया गया सुझाया गया तरीका 5% कॉपर सल्फेट फुट बाथ है, जिसे हर दो हफ्ते में लगातार 2–4 दिन इस्तेमाल किया जाता है।"),
         },
         {
           topicId: "t-m8-laminitis-prevention",
           type: "truefalse",
-          q: L("Your job with laminitis prevention is to trim hooves yourself whenever you notice a problem."),
+          q: L("Your job with laminitis prevention is to trim hooves yourself whenever you notice a problem.", "లామినైటిస్ నివారణలో మీ పని, సమస్య కనిపించినప్పుడల్లా మీరే గిట్టలను కత్తిరించడం.", "லேமினைடிஸ் தடுப்பில் உங்கள் வேலை, பிரச்சினை தெரிந்தால் நீங்களே குளம்புகளை வெட்டுவது.", "ಲ್ಯಾಮಿನೈಟಿಸ್ ತಡೆಗಟ್ಟುವಿಕೆಯಲ್ಲಿ ನಿಮ್ಮ ಕೆಲಸ, ಸಮಸ್ಯೆ ಕಂಡಾಗಲೆಲ್ಲ ನೀವೇ ಗೊರಸುಗಳನ್ನು ಕತ್ತರಿಸುವುದು.", "लैमिनाइटिस की रोकथाम में आपका काम है, जब भी कोई समस्या दिखे तो खुद खुर काटना।"),
           answer: false,
-          explain: L("No — trimming and treatment are for the veterinarian or trained hoof-care staff. Your job is to help keep good habits going and to report anything unusual."),
+          explain: L("No — trimming and treatment are for the veterinarian or trained hoof-care staff. Your job is to help keep good habits going and to report anything unusual.", "కాదు — కత్తిరింపు మరియు చికిత్స వెటర్నరీ డాక్టర్ లేదా శిక్షణ పొందిన గిట్టల సంరక్షణ సిబ్బంది పని. మీ పని మంచి అలవాట్లను కొనసాగించడంలో సహాయపడటం మరియు ఏదైనా అసాధారణంగా కనిపిస్తే తెలియజేయడం.", "இல்லை — வெட்டுதலும் சிகிச்சையும் வெட்டரினரி டாக்டர் அல்லது பயிற்சி பெற்ற குளம்பு பராமரிப்பு பணியாளர்களின் வேலை. உங்கள் வேலை நல்ல பழக்கங்களைத் தொடர உதவுவதும், வழக்கத்திற்கு மாறாக ஏதேனும் தெரிந்தால் தெரிவிப்பதும் ஆகும்.", "ಇಲ್ಲ — ಕತ್ತರಿಸುವಿಕೆ ಮತ್ತು ಚಿಕಿತ್ಸೆ ಪಶುವೈದ್ಯರ ಅಥವಾ ತರಬೇತಿ ಪಡೆದ ಗೊರಸು ಆರೈಕೆ ಸಿಬ್ಬಂದಿಯ ಕೆಲಸ. ನಿಮ್ಮ ಕೆಲಸ ಒಳ್ಳೆಯ ಅಭ್ಯಾಸಗಳನ್ನು ಮುಂದುವರಿಸಲು ಸಹಾಯ ಮಾಡುವುದು ಮತ್ತು ಅಸಾಮಾನ್ಯವಾದದ್ದೇನಾದರೂ ಕಂಡರೆ ತಿಳಿಸುವುದು.", "नहीं — कटाई और इलाज डॉक्टर या प्रशिक्षित खुर-देखभाल कर्मचारियों का काम है। आपका काम अच्छी आदतें बनाए रखने में मदद करना और कुछ भी असामान्य दिखे तो बताना है।"),
         },
       ],
     },
