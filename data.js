@@ -2482,8 +2482,8 @@ export const MODULES = [
   {
     id: "m3",
     number: 3,
-    title: L("Care of the Newborn Calf"),
-    subtitle: L("The critical first day of a calf's life, feeding it right, and handling calf diarrhoea."),
+    title: L("Care of the Newborn Calf", "కొత్తగా పుట్టిన దూడ సంరక్షణ", "புதிதாகப் பிறந்த கன்றின் பராமரிப்பு", "ಹೊಸದಾಗಿ ಹುಟ್ಟಿದ ಕರುವಿನ ಆರೈಕೆ", "नवजात बछड़े की देखभाल"),
+    subtitle: L("The critical first day of a calf's life, feeding it right, and handling calf diarrhoea.", "దూడ జీవితంలో మొదటి రోజు ఎంత ముఖ్యమో, సరైన ఆహారం ఇవ్వడం, దూడల విరేచనాలను ఎలా చూసుకోవాలో.", "கன்றின் வாழ்க்கையின் மிக முக்கியமான முதல் நாள், சரியாக பால் கொடுப்பது, கன்று வயிற்றுப்போக்கை எப்படி கையாள்வது.", "ಕರುವಿನ ಜೀವನದ ಅತಿಮುಖ್ಯ ಮೊದಲ ದಿನ, ಸರಿಯಾಗಿ ಆಹಾರ ನೀಡುವುದು, ಮತ್ತು ಕರುವಿನ ಭೇದಿಯನ್ನು ಹೇಗೆ ನಿಭಾಯಿಸುವುದು.", "बछड़े की ज़िंदगी का सबसे अहम पहला दिन, उसे सही तरीके से दूध पिलाना, और बछड़े के दस्त को कैसे संभालें।"),
     icon: "calf",
     available: true,
     lessons: [
@@ -2492,197 +2492,249 @@ export const MODULES = [
   // ==================================================================
   {
     id: "m3-l1",
-    title: L("The First Day of a Calf's Life"),
+    title: L("The First Day of a Calf's Life", "దూడ జీవితంలో మొదటి రోజు", "கன்றின் வாழ்க்கையின் முதல் நாள்", "ಕರುವಿನ ಜೀವನದ ಮೊದಲ ದಿನ", "बछड़े की ज़िंदगी का पहला दिन"),
     estMinutes: 8,
     hook: [
       {
         type: "hero",
-        heading: L("The First 24 Hours Set the Course for a Lifetime"),
+        heading: L("The First 24 Hours Set the Course for a Lifetime", "మొదటి 24 గంటలే జీవితమంతటినీ నిర్ణయిస్తాయి", "முதல் 24 மணி நேரம் வாழ்நாள் முழுவதையும் தீர்மானிக்கிறது", "ಮೊದಲ 24 ಗಂಟೆಗಳೇ ಇಡೀ ಜೀವನದ ದಿಕ್ಕನ್ನು ನಿರ್ಧರಿಸುತ್ತವೆ", "पहले 24 घंटे ही पूरी ज़िंदगी की दिशा तय करते हैं"),
         text: L(
-          "A calf's life is really divided into two parts: the first 24 hours, and everything after. Get the first day right — a clean navel and the right amount of first milk at the right time — and you give the calf a real chance, even before any vet is involved. This lesson walks through exactly what needs to happen, and when."
+          "A calf's life is really divided into two parts: the first 24 hours, and everything after. Get the first day right — a clean navel and the right amount of first milk at the right time — and you give the calf a real chance, even before any vet is involved. This lesson walks through exactly what needs to happen, and when.",
+          "దూడ జీవితాన్ని రెండు భాగాలుగా చూడొచ్చు: మొదటి 24 గంటలు, ఆ తర్వాత మిగతా జీవితం. మొదటి రోజు సరిగ్గా చేస్తే — శుభ్రమైన బొడ్డు తాడు, సరైన సమయంలో సరైన మోతాదులో జున్ను పాలు — వెటర్నరీ డాక్టర్ రాకముందే దూడకు మంచి భవిష్యత్తుకు బాటలు వేసినట్టే. ఏమి చేయాలో, ఎప్పుడు చేయాలో ఈ పాఠంలో వివరంగా చూద్దాం.",
+          "கன்றின் வாழ்க்கையை உண்மையில் இரண்டு பகுதிகளாகப் பிரிக்கலாம்: முதல் 24 மணி நேரம், மற்றும் அதற்குப் பிறகு எல்லாம். முதல் நாளை சரியாகச் செய்தால் — சுத்தமான தொப்புள் கொடி, சரியான நேரத்தில் சரியான அளவு கொழுந்து பால் — வெட்டரினரி டாக்டர் வருவதற்கு முன்பே கன்றுக்கு ஒரு நல்ல வாய்ப்பைக் கொடுத்துவிடுவீர்கள். இந்தப் பாடம் என்ன செய்ய வேண்டும், எப்போது செய்ய வேண்டும் என்பதை விரிவாகக் காட்டுகிறது.",
+          "ಕರುವಿನ ಜೀವನವನ್ನು ನಿಜವಾಗಿ ಎರಡು ಭಾಗಗಳಾಗಿ ನೋಡಬಹುದು: ಮೊದಲ 24 ಗಂಟೆಗಳು, ಮತ್ತು ಆ ನಂತರ ಬರುವ ಎಲ್ಲವೂ. ಮೊದಲ ದಿನವನ್ನು ಸರಿಯಾಗಿ ನಿಭಾಯಿಸಿದರೆ — ಸ್ವಚ್ಛವಾದ ಹೊಕ್ಕುಳ ಬಳ್ಳಿ ಮತ್ತು ಸರಿಯಾದ ಸಮಯಕ್ಕೆ ಸರಿಯಾದ ಪ್ರಮಾಣದ ಗಿಣ್ಣುಹಾಲು — ಪಶುವೈದ್ಯರು ಬರುವ ಮೊದಲೇ ಕರುವಿಗೆ ಒಳ್ಳೆಯ ಭವಿಷ್ಯದ ಅವಕಾಶ ಸಿಗುತ್ತದೆ. ಏನು ಮಾಡಬೇಕು, ಯಾವಾಗ ಮಾಡಬೇಕು ಎಂಬುದನ್ನು ಈ ಪಾಠ ವಿವರವಾಗಿ ತೋರಿಸುತ್ತದೆ.",
+          "बछड़े की ज़िंदगी को असल में दो हिस्सों में बांटा जा सकता है: पहले 24 घंटे, और उसके बाद की पूरी ज़िंदगी। पहला दिन सही तरीके से निभाएं — साफ़ नाभि की नाल और सही समय पर सही मात्रा में खीस (पहला दूध) — तो डॉक्टर के आने से पहले ही आप बछड़े को एक अच्छी शुरुआत दे देते हैं। इस पाठ में बताया गया है कि क्या करना है, और कब करना है।"
         ),
       },
     ],
     topics: [
       {
         id: "t-m3-first-day",
-        title: L("Right After Birth: Breathing, the Navel Cord and the Golden Hour"),
+        title: L("Right After Birth: Breathing, the Navel Cord and the Golden Hour", "పుట్టిన వెంటనే: శ్వాస, బొడ్డు తాడు మరియు గోల్డెన్ అవర్", "பிறந்த உடனேயே: மூச்சு, தொப்புள் கொடி மற்றும் தங்க நேரம்", "ಹುಟ್ಟಿದ ತಕ್ಷಣ: ಉಸಿರಾಟ, ಹೊಕ್ಕುಳ ಬಳ್ಳಿ ಮತ್ತು ಚಿನ್ನದ ಗಂಟೆ", "जन्म के तुरंत बाद: सांस, नाभि की नाल और गोल्डन ऑवर"),
         teach: [
             {
               type: "photo",
               src: "assets/photo-cow-newborn-calf.jpg",
-              alt: L("A cow standing with her newborn calf just after birth"),
-              caption: L("A cow with her newborn calf right after birth."),
+              alt: L("A cow standing with her newborn calf just after birth", "పుట్టిన వెంటనే తన దూడతో నిలబడి ఉన్న ఆవు", "பிறந்த உடனேயே தன் கன்றுடன் நிற்கும் பசு", "ಹುಟ್ಟಿದ ತಕ್ಷಣ ತನ್ನ ಕರುವಿನೊಂದಿಗೆ ನಿಂತಿರುವ ಹಸು", "जन्म के तुरंत बाद अपने बछड़े के साथ खड़ी गाय"),
+              caption: L("A cow with her newborn calf right after birth.", "పుట్టిన వెంటనే తన దూడతో ఉన్న ఆవు.", "பிறந்த உடனேயே தன் கன்றுடன் இருக்கும் பசு.", "ಹುಟ್ಟಿದ ತಕ್ಷಣ ತನ್ನ ಕರುವಿನೊಂದಿಗೆ ಇರುವ ಹಸು.", "जन्म के तुरंत बाद अपने बछड़े के साथ गाय।"),
             },
           {
             type: "text",
-            heading: L("Why the First 24 Hours Matter So Much"),
+            heading: L("Why the First 24 Hours Matter So Much", "మొదటి 24 గంటలు ఎందుకు అంత ముఖ్యం", "முதல் 24 மணி நேரம் ஏன் இவ்வளவு முக்கியம்", "ಮೊದಲ 24 ಗಂಟೆಗಳು ಏಕೆ ಇಷ್ಟು ಮುಖ್ಯ", "पहले 24 घंटे इतने ज़रूरी क्यों हैं"),
             html: L(
-              "A calf that doesn't get proper care in its first 24 hours can end up sickly or a weak, underperforming animal for the rest of its life — even if it has good genes and a good environment later on. Almost none of this first-day care needs medical training. It needs someone who knows exactly what to do, and does it on time."
+              "A calf that doesn't get proper care in its first 24 hours can end up sickly or a weak, underperforming animal for the rest of its life — even if it has good genes and a good environment later on. Almost none of this first-day care needs medical training. It needs someone who knows exactly what to do, and does it on time.",
+              "మొదటి 24 గంటల్లో సరైన సంరక్షణ దొరకని దూడ, తర్వాత మంచి జన్యువులు, మంచి పరిసరాలు ఉన్నా కూడా జీవితాంతం బలహీనంగా, తక్కువ దిగుబడినిచ్చే జంతువుగా మిగిలిపోవచ్చు. ఈ మొదటి రోజు సంరక్షణలో దాదాపు దేనికీ వైద్య శిక్షణ అవసరం లేదు. ఏం చేయాలో ఖచ్చితంగా తెలిసి, సమయానికి చేసే వ్యక్తి కావాలి, అంతే.",
+              "முதல் 24 மணி நேரத்தில் சரியான பராமரிப்பு கிடைக்காத கன்று, பின்னர் நல்ல மரபணுக்கள், நல்ல சூழல் இருந்தாலும் கூட வாழ்நாள் முழுவதும் பலவீனமான, குறைவான உற்பத்தி தரும் விலங்காக மாறிவிடலாம். இந்த முதல்நாள் பராமரிப்பில் கிட்டத்தட்ட எதற்கும் மருத்துவப் பயிற்சி தேவையில்லை. என்ன செய்ய வேண்டும் என்பதை சரியாக அறிந்து, சரியான நேரத்தில் செய்பவர் தேவை, அவ்வளவுதான்.",
+              "ಮೊದಲ 24 ಗಂಟೆಗಳಲ್ಲಿ ಸರಿಯಾದ ಆರೈಕೆ ಸಿಗದ ಕರು, ಮುಂದೆ ಒಳ್ಳೆಯ ತಳಿ, ಒಳ್ಳೆಯ ಪರಿಸರ ಇದ್ದರೂ ಜೀವನಪೂರ್ತಿ ದುರ್ಬಲ, ಕಡಿಮೆ ಇಳುವರಿ ಕೊಡುವ ಪ್ರಾಣಿಯಾಗಿ ಉಳಿದುಬಿಡಬಹುದು. ಈ ಮೊದಲ ದಿನದ ಆರೈಕೆಗೆ ಬಹುತೇಕ ಯಾವುದೇ ವೈದ್ಯಕೀಯ ತರಬೇತಿ ಬೇಕಿಲ್ಲ. ಏನು ಮಾಡಬೇಕೆಂದು ಸರಿಯಾಗಿ ತಿಳಿದು, ಸಮಯಕ್ಕೆ ಸರಿಯಾಗಿ ಮಾಡುವ ವ್ಯಕ್ತಿ ಬೇಕು, ಅಷ್ಟೆ.",
+              "जिस बछड़े को पहले 24 घंटों में सही देखभाल नहीं मिलती, वह आगे चलकर अच्छी नस्ल और अच्छे माहौल के बावजूद भी जीवन भर कमज़ोर या कम दूध देने वाला जानवर बन सकता है। इस पहले दिन की देखभाल में लगभग कोई मेडिकल ट्रेनिंग नहीं चाहिए। बस यह पता होना चाहिए कि क्या करना है, और उसे समय पर करना है।"
             ),
           },
           {
             type: "callout",
             style: "tip",
-            heading: L("The Golden Hour"),
+            heading: L("The Golden Hour", "గోల్డెన్ అవర్", "தங்க நேரம்", "ಚಿನ್ನದ ಗಂಟೆ", "गोल्डन ऑवर"),
             text: L(
-              "The first hour after calving is the single most critical period in a calf's entire life. Whatever can be done for the calf in this window — clearing its airway, letting it be licked clean, getting the cord cared for — should not be delayed."
+              "The first hour after calving is the single most critical period in a calf's entire life. Whatever can be done for the calf in this window — clearing its airway, letting it be licked clean, getting the cord cared for — should not be delayed.",
+              "ఈనిన తర్వాత మొదటి గంట దూడ జీవితంలో అత్యంత కీలకమైన సమయం. ఈ సమయంలో దూడ కోసం చేయగలిగినవన్నీ — శ్వాసమార్గం శుభ్రం చేయడం, తల్లితో నాకించి శుభ్రం చేయించడం, బొడ్డు తాడును జాగ్రత్తగా చూసుకోవడం — ఆలస్యం చేయకూడదు.",
+              "ஈன்ற பிறகு முதல் மணி நேரம் கன்றின் வாழ்க்கையில் மிக முக்கியமான காலகட்டம். இந்த நேரத்தில் கன்றுக்காக செய்யக்கூடிய அனைத்தும் — மூச்சுக் குழாயை சுத்தம் செய்வது, தாய் நக்கி சுத்தப்படுத்த விடுவது, கொடியை கவனமாகக் கையாள்வது — தாமதப்படுத்தக் கூடாது.",
+              "ಈದ ನಂತರದ ಮೊದಲ ಗಂಟೆ ಕರುವಿನ ಜೀವನದ ಅತಿಮುಖ್ಯ ಅವಧಿ. ಈ ಸಮಯದಲ್ಲಿ ಕರುವಿಗಾಗಿ ಮಾಡಬಹುದಾದ ಎಲ್ಲವನ್ನೂ — ಉಸಿರಾಟದ ಮಾರ್ಗವನ್ನು ಸ್ವಚ್ಛಗೊಳಿಸುವುದು, ತಾಯಿಯಿಂದ ನೆಕ್ಕಿಸಿ ಸ್ವಚ್ಛಗೊಳಿಸುವುದು, ಹೊಕ್ಕುಳ ಬಳ್ಳಿಯನ್ನು ಆರೈಕೆ ಮಾಡುವುದು — ತಡಮಾಡಬಾರದು.",
+              "ब्याने के बाद पहला घंटा बछड़े की पूरी ज़िंदगी का सबसे महत्वपूर्ण समय होता है। इस दौरान बछड़े के लिए जो भी किया जा सकता है — उसका सांस लेने का रास्ता साफ़ करना, माँ से चटवाकर साफ़ करवाना, नाल की देखभाल करना — उसमें देरी नहीं करनी चाहिए।"
             ),
           },
           {
             type: "timeline",
-            heading: L("A Newborn Calf's First Day, Step by Step"),
+            heading: L("A Newborn Calf's First Day, Step by Step", "నవజాత దూడ మొదటి రోజు, దశలవారీగా", "புதிதாகப் பிறந்த கன்றின் முதல் நாள், படிப்படியாக", "ನವಜಾತ ಕರುವಿನ ಮೊದಲ ದಿನ, ಹಂತ ಹಂತವಾಗಿ", "नवजात बछड़े का पहला दिन, चरण दर चरण"),
             items: [
               {
-                year: L("Right after birth"),
+                year: L("Right after birth", "పుట్టిన వెంటనే", "பிறந்த உடனேயே", "ಹುಟ್ಟಿದ ತಕ್ಷಣ", "जन्म के तुरंत बाद"),
                 text: L(
-                  "Clean the calf's nostrils and mouth so it can breathe freely — this also helps prevent breathing problems later on. Let the mother lick the calf clean; this helps blood circulation and gets the calf ready to stand up and walk."
+                  "Clean the calf's nostrils and mouth so it can breathe freely — this also helps prevent breathing problems later on. Let the mother lick the calf clean; this helps blood circulation and gets the calf ready to stand up and walk.",
+                  "దూడ స్వేచ్ఛగా శ్వాస తీసుకునేలా దాని ముక్కు రంధ్రాలు మరియు నోటిని శుభ్రం చేయండి — దీనివల్ల తర్వాత శ్వాస సమస్యలు రాకుండా కూడా ఉంటుంది. తల్లితో దూడను నాకించి శుభ్రం చేయించండి; దీనివల్ల రక్త ప్రసరణ మెరుగవుతుంది, దూడ నిలబడి నడవడానికి సిద్ధమవుతుంది.",
+                  "கன்று சுதந்திரமாக மூச்சு விட முடியும்படி அதன் மூக்கு மற்றும் வாயை சுத்தம் செய்யுங்கள் — இது பின்னர் மூச்சுத் திணறல் பிரச்சனைகளையும் தடுக்க உதவும். தாயை கன்றை நக்கி சுத்தப்படுத்த விடுங்கள்; இது இரத்த ஓட்டத்திற்கு உதவி, கன்று எழுந்து நடக்க தயாராக்குகிறது.",
+                  "ಕರು ಸ್ವತಂತ್ರವಾಗಿ ಉಸಿರಾಡಲು ಅದರ ಮೂಗು ಮತ್ತು ಬಾಯಿಯನ್ನು ಸ್ವಚ್ಛಗೊಳಿಸಿ — ಇದು ಮುಂದೆ ಉಸಿರಾಟದ ತೊಂದರೆಗಳನ್ನೂ ತಡೆಯಲು ಸಹಾಯ ಮಾಡುತ್ತದೆ. ತಾಯಿಯಿಂದ ಕರುವನ್ನು ನೆಕ್ಕಿಸಿ ಸ್ವಚ್ಛಗೊಳಿಸಲು ಬಿಡಿ; ಇದು ರಕ್ತ ಸಂಚಾರಕ್ಕೆ ಸಹಾಯ ಮಾಡುತ್ತದೆ ಮತ್ತು ಕರು ಎದ್ದು ನಡೆಯಲು ಸಿದ್ಧವಾಗುತ್ತದೆ.",
+                  "बछड़े की नाक और मुंह को साफ़ करें ताकि वह खुलकर सांस ले सके — इससे आगे चलकर सांस की तकलीफ़ भी नहीं होती। माँ को बछड़े को चाटकर साफ़ करने दें; इससे खून का दौरा बेहतर होता है और बछड़ा खड़े होकर चलने के लिए तैयार होता है।"
                 ),
               },
               {
-                year: L("Soon after birth"),
+                year: L("Soon after birth", "పుట్టిన కొద్దిసేపటికే", "பிறந்த சிறிது நேரத்திலேயே", "ಹುಟ್ಟಿದ ಸ್ವಲ್ಪ ಸಮಯದಲ್ಲೇ", "जन्म के थोड़ी देर बाद"),
                 text: L(
-                  "The navel cord is cut about 2 inches from the base using a clean instrument, then dipped — not just smeared — in a 3.5% or higher iodine solution for at least 30 seconds, and the end is tied off with a clean thread."
+                  "The navel cord is cut about 2 inches from the base using a clean instrument, then dipped — not just smeared — in a 3.5% or higher iodine solution for at least 30 seconds, and the end is tied off with a clean thread.",
+                  "బొడ్డు తాడును శుభ్రమైన పరికరంతో మొదలు నుండి సుమారు 2 అంగుళాల దూరంలో కత్తిరించి, తర్వాత 3.5% లేదా అంతకంటే ఎక్కువ గాఢత గల అయోడిన్ ద్రావణంలో కనీసం 30 సెకన్లు — కేవలం రాయడం కాదు, పూర్తిగా — ముంచాలి. చివర్లో శుభ్రమైన దారంతో కట్టాలి.",
+                  "தொப்புள் கொடியை சுத்தமான கருவியால் அடிப்பாகத்திலிருந்து சுமார் 2 அங்குலம் தூரத்தில் வெட்டி, பின்னர் 3.5% அல்லது அதற்கு மேற்பட்ட அயோடின் கரைசலில் குறைந்தது 30 வினாடிகள் — வெறுமனே தடவுவது அல்ல, முழுமையாக — நனைக்க வேண்டும். முடிவில் சுத்தமான நூலால் கட்ட வேண்டும்.",
+                  "ಹೊಕ್ಕುಳ ಬಳ್ಳಿಯನ್ನು ಸ್ವಚ್ಛವಾದ ಉಪಕರಣದಿಂದ ಬುಡದಿಂದ ಸುಮಾರು 2 ಇಂಚು ದೂರದಲ್ಲಿ ಕತ್ತರಿಸಿ, ನಂತರ 3.5% ಅಥವಾ ಅದಕ್ಕಿಂತ ಹೆಚ್ಚಿನ ಸಾಂದ್ರತೆಯ ಅಯೋಡಿನ್ ದ್ರಾವಣದಲ್ಲಿ ಕನಿಷ್ಠ 30 ಸೆಕೆಂಡುಗಳ ಕಾಲ — ಕೇವಲ ಸವರುವುದಲ್ಲ, ಪೂರ್ತಿಯಾಗಿ — ಅದ್ದಬೇಕು. ಕೊನೆಯಲ್ಲಿ ಸ್ವಚ್ಛವಾದ ದಾರದಿಂದ ಕಟ್ಟಬೇಕು.",
+                  "नाभि की नाल को साफ़ औज़ार से जड़ से लगभग 2 इंच दूरी पर काटा जाता है, फिर उसे 3.5% या उससे ज़्यादा ताकत के आयोडीन घोल में कम से कम 30 सेकंड तक — सिर्फ़ लगाना नहीं, पूरी तरह — डुबोया जाता है, और आख़िर में साफ़ धागे से बांध दिया जाता है।"
                 ),
               },
               {
-                year: L("Within 12 hours"),
+                year: L("Within 12 hours", "12 గంటల్లోపు", "12 மணி நேரத்திற்குள்", "12 ಗಂಟೆಗಳ ಒಳಗೆ", "12 घंटे के भीतर"),
                 text: L(
-                  "The navel is dipped in iodine a second time. A navel that isn't cared for properly is a common gateway for serious infection."
+                  "The navel is dipped in iodine a second time. A navel that isn't cared for properly is a common gateway for serious infection.",
+                  "బొడ్డును రెండోసారి అయోడిన్‌లో ముంచాలి. సరిగ్గా చూసుకోని బొడ్డు తీవ్రమైన ఇన్ఫెక్షన్ రావడానికి సాధారణ మార్గం.",
+                  "தொப்புளை இரண்டாம் முறையாக அயோடினில் நனைக்க வேண்டும். சரியாக பராமரிக்கப்படாத தொப்புள் கடுமையான தொற்றுக்கு ஒரு பொதுவான வழி.",
+                  "ಹೊಕ್ಕುಳನ್ನು ಎರಡನೇ ಬಾರಿ ಅಯೋಡಿನ್‌ನಲ್ಲಿ ಅದ್ದಬೇಕು. ಸರಿಯಾಗಿ ಆರೈಕೆ ಮಾಡದ ಹೊಕ್ಕುಳ ಗಂಭೀರ ಸೋಂಕಿಗೆ ಸಾಮಾನ್ಯ ದಾರಿಯಾಗುತ್ತದೆ.",
+                  "नाभि को दूसरी बार आयोडीन में डुबोया जाता है। जिस नाभि की सही देखभाल नहीं होती, वह गंभीर संक्रमण का एक आम रास्ता बन जाती है।"
                 ),
               },
             ],
           },
           {
             type: "glossary",
-            term: L("Navel Cord"),
+            term: L("Navel Cord", "బొడ్డు తాడు", "தொப்புள் கொடி", "ಹೊಕ್ಕುಳ ಬಳ್ಳಿ", "नाभि की नाल"),
             meaning: L(
-              "The cord that connected the calf to its mother inside the womb. After birth it's cut short and cared for carefully, because the open end is an easy way for germs to get into the calf's body if it isn't cleaned and protected."
+              "The cord that connected the calf to its mother inside the womb. After birth it's cut short and cared for carefully, because the open end is an easy way for germs to get into the calf's body if it isn't cleaned and protected.",
+              "గర్భంలో ఉన్నప్పుడు దూడను తల్లితో కలిపి ఉంచిన తాడు. పుట్టిన తర్వాత దీన్ని కుదించి కత్తిరించి జాగ్రత్తగా చూసుకోవాలి, ఎందుకంటే శుభ్రం చేసి రక్షించకపోతే తెరిచిన చివర ద్వారా క్రిములు దూడ శరీరంలోకి సులభంగా ప్రవేశించగలవు.",
+                  "கருவறையில் இருக்கும்போது கன்றை தாயுடன் இணைத்திருந்த கொடி. பிறந்த பிறகு இதை குறுக்கி வெட்டி கவனமாக பராமரிக்க வேண்டும், ஏனெனில் சுத்தம் செய்து பாதுகாக்காவிட்டால் திறந்த முனை வழியாக கிருமிகள் கன்றின் உடலுக்குள் எளிதாக நுழையக்கூடும்.",
+              "ಗರ್ಭದಲ್ಲಿದ್ದಾಗ ಕರುವನ್ನು ತಾಯಿಯೊಂದಿಗೆ ಜೋಡಿಸಿದ್ದ ಬಳ್ಳಿ. ಹುಟ್ಟಿದ ನಂತರ ಇದನ್ನು ಚಿಕ್ಕದಾಗಿ ಕತ್ತರಿಸಿ ಎಚ್ಚರಿಕೆಯಿಂದ ಆರೈಕೆ ಮಾಡಬೇಕು, ಏಕೆಂದರೆ ಸ್ವಚ್ಛಗೊಳಿಸದೆ ಮತ್ತು ರಕ್ಷಿಸದೆ ಇದ್ದರೆ ತೆರೆದ ತುದಿಯ ಮೂಲಕ ಸೂಕ್ಷ್ಮಜೀವಿಗಳು ಕರುವಿನ ದೇಹಕ್ಕೆ ಸುಲಭವಾಗಿ ಸೇರಿಕೊಳ್ಳಬಹುದು.",
+              "गर्भ में रहते हुए बछड़े को माँ से जोड़ने वाली नाल। जन्म के बाद इसे छोटा काटकर सावधानी से देखभाल की जाती है, क्योंकि अगर इसे साफ़ रखकर सुरक्षित न किया जाए तो खुला सिरा कीटाणुओं के बछड़े के शरीर में घुसने का आसान रास्ता बन जाता है।"
             ),
           },
           {
             type: "stat-grid",
             items: [
               {
-                label: L("Cut Distance"),
-                text: L("About 2 inches from the base, using a clean instrument."),
+                label: L("Cut Distance", "కత్తిరించే దూరం", "வெட்டும் தூரம்", "ಕತ್ತರಿಸುವ ದೂರ", "काटने की दूरी"),
+                text: L("About 2 inches from the base, using a clean instrument.", "మొదలు నుండి సుమారు 2 అంగుళాలు, శుభ్రమైన పరికరంతో.", "அடிப்பாகத்திலிருந்து சுமார் 2 அங்குலம், சுத்தமான கருவியால்.", "ಬುಡದಿಂದ ಸುಮಾರು 2 ಇಂಚು, ಸ್ವಚ್ಛವಾದ ಉಪಕರಣದಿಂದ.", "जड़ से लगभग 2 इंच, साफ़ औज़ार से।"),
               },
               {
-                label: L("Iodine Strength & Contact Time"),
-                text: L("3.5% or higher tincture of iodine, held in contact for at least 30 seconds — a quick smear is not enough."),
+                label: L("Iodine Strength & Contact Time", "అయోడిన్ గాఢత & సంపర్క సమయం", "அயோடின் அளவு & தொடர்பு நேரம்", "ಅಯೋಡಿನ್ ಸಾಂದ್ರತೆ ಮತ್ತು ಸಂಪರ್ಕ ಸಮಯ", "आयोडीन की ताकत और संपर्क समय"),
+                text: L("3.5% or higher tincture of iodine, held in contact for at least 30 seconds — a quick smear is not enough.", "3.5% లేదా అంతకంటే ఎక్కువ గాఢత గల టింక్చర్ అయోడిన్, కనీసం 30 సెకన్లు తగలాలి — కేవలం రాయడం సరిపోదు.", "3.5% அல்லது அதற்கு மேற்பட்ட அயோடின் திரவம், குறைந்தது 30 வினாடிகள் தொடர்பில் இருக்க வேண்டும் — வேகமாக தடவுவது போதாது.", "3.5% ಅಥವಾ ಅದಕ್ಕಿಂತ ಹೆಚ್ಚಿನ ಸಾಂದ್ರತೆಯ ಟಿಂಚರ್ ಅಯೋಡಿನ್, ಕನಿಷ್ಠ 30 ಸೆಕೆಂಡುಗಳ ಕಾಲ ಸಂಪರ್ಕದಲ್ಲಿರಬೇಕು — ಬರೀ ಸವರುವುದು ಸಾಕಾಗುವುದಿಲ್ಲ.", "3.5% या उससे ज़्यादा ताकत का टिंचर आयोडीन, कम से कम 30 सेकंड तक लगा रहना चाहिए — सिर्फ़ हल्का लगाना काफ़ी नहीं है।"),
               },
               {
-                label: L("Second Dip"),
-                text: L("Repeat the iodine dip after 12 hours."),
+                label: L("Second Dip", "రెండోసారి ముంచడం", "இரண்டாவது நனைத்தல்", "ಎರಡನೇ ಬಾರಿ ಅದ್ದುವುದು", "दूसरी बार डुबाना"),
+                text: L("Repeat the iodine dip after 12 hours.", "12 గంటల తర్వాత అయోడిన్‌లో మళ్ళీ ముంచాలి.", "12 மணி நேரம் கழித்து அயோடினில் மீண்டும் நனைக்கவும்.", "12 ಗಂಟೆಗಳ ನಂತರ ಅಯೋಡಿನ್‌ನಲ್ಲಿ ಮತ್ತೆ ಅದ್ದಿ.", "12 घंटे बाद आयोडीन में फिर से डुबोएं।"),
               },
             ],
           },
           {
             type: "callout",
             style: "warning",
-            heading: L("A Poorly Cared-For Navel Invites Infection"),
+            heading: L("A Poorly Cared-For Navel Invites Infection", "సరిగ్గా చూసుకోని బొడ్డు ఇన్ఫెక్షన్‌ను ఆహ్వానిస్తుంది", "சரியாக பராமரிக்கப்படாத தொப்புள் தொற்றை அழைக்கிறது", "ಸರಿಯಾಗಿ ಆರೈಕೆ ಮಾಡದ ಹೊಕ್ಕುಳ ಸೋಂಕನ್ನು ಆಹ್ವಾನಿಸುತ್ತದೆ", "ठीक से देखभाल न की गई नाभि संक्रमण को न्योता देती है"),
             text: L(
-              "You don't need to treat an infected navel yourself — that's the vet's job. But you do need to notice one. If a calf's navel looks wet, swollen, unusually large, or smells bad in the days after birth, report it to the owner or vet right away."
+              "You don't need to treat an infected navel yourself — that's the vet's job. But you do need to notice one. If a calf's navel looks wet, swollen, unusually large, or smells bad in the days after birth, report it to the owner or vet right away.",
+              "ఇన్ఫెక్షన్ వచ్చిన బొడ్డును మీరే స్వయంగా చికిత్స చేయాల్సిన అవసరం లేదు — అది వెటర్నరీ డాక్టర్ పని. కానీ దాన్ని గుర్తించడం మీ పని. పుట్టిన తర్వాత రోజుల్లో దూడ బొడ్డు తడిగా, వాచినట్టు, అసాధారణంగా పెద్దగా కనిపిస్తే లేదా దుర్వాసన వస్తే వెంటనే యజమానికి లేదా వెటర్నరీ డాక్టర్‌కి తెలియజేయండి.",
+              "தொற்று ஏற்பட்ட தொப்புளுக்கு நீங்களே சிகிச்சை அளிக்க வேண்டியதில்லை — அது வெட்டரினரி டாக்டரின் வேலை. ஆனால் அதை கவனிப்பது உங்கள் வேலை. பிறந்த நாட்களில் கன்றின் தொப்புள் ஈரமாக, வீங்கி, அசாதாரணமாக பெரிதாக தெரிந்தால் அல்லது துர்நாற்றம் வீசினால், உடனே உரிமையாளரிடம் அல்லது வெட்டரினரி டாக்டரிடம் தெரிவிக்கவும்.",
+              "ಸೋಂಕಿತ ಹೊಕ್ಕುಳಿಗೆ ನೀವೇ ಚಿಕಿತ್ಸೆ ನೀಡಬೇಕಿಲ್ಲ — ಅದು ಪಶುವೈದ್ಯರ ಕೆಲಸ. ಆದರೆ ಅದನ್ನು ಗಮನಿಸುವುದು ನಿಮ್ಮ ಕೆಲಸ. ಹುಟ್ಟಿದ ನಂತರದ ದಿನಗಳಲ್ಲಿ ಕರುವಿನ ಹೊಕ್ಕುಳ ಒದ್ದೆಯಾಗಿ, ಊದಿಕೊಂಡು, ಅಸಾಧಾರಣವಾಗಿ ದೊಡ್ಡದಾಗಿ ಕಂಡರೆ ಅಥವಾ ದುರ್ವಾಸನೆ ಬಂದರೆ, ತಕ್ಷಣ ಮಾಲೀಕರಿಗೆ ಅಥವಾ ಪಶುವೈದ್ಯರಿಗೆ ತಿಳಿಸಿ.",
+              "संक्रमित नाभि का इलाज आपको खुद नहीं करना है — यह डॉक्टर का काम है। लेकिन उसे पहचानना आपका काम है। अगर जन्म के बाद के दिनों में बछड़े की नाभि गीली, सूजी हुई, असामान्य रूप से बड़ी दिखे, या उससे बदबू आए, तो तुरंत मालिक या डॉक्टर को बताएं।"
             ),
           },
         ],
         check: [
           {
             type: "mcq",
-            q: L("About how far from the base should the navel cord be cut?"),
+            q: L("About how far from the base should the navel cord be cut?", "బొడ్డు తాడును మొదలు నుండి ఎంత దూరంలో కత్తిరించాలి?", "தொப்புள் கொடியை அடிப்பாகத்திலிருந்து எவ்வளவு தூரத்தில் வெட்ட வேண்டும்?", "ಹೊಕ್ಕುಳ ಬಳ್ಳಿಯನ್ನು ಬುಡದಿಂದ ಎಷ್ಟು ದೂರದಲ್ಲಿ ಕತ್ತರಿಸಬೇಕು?", "नाभि की नाल को जड़ से कितनी दूरी पर काटना चाहिए?"),
             options: [
-              L("Right at the base, leaving nothing"),
-              L("About 2 inches from the base"),
-              L("About 10 inches from the base"),
-              L("It should never be cut"),
+              L("Right at the base, leaving nothing", "మొదటి దగ్గరే, ఏమీ మిగలకుండా", "அடிப்பாகத்திலேயே, எதுவும் மிச்சம் வைக்காமல்", "ಬುಡದಲ್ಲೇ, ಏನನ್ನೂ ಬಿಡದೆ", "बिल्कुल जड़ से, कुछ भी छोड़े बिना"),
+              L("About 2 inches from the base", "మొదలు నుండి సుమారు 2 అంగుళాలు", "அடிப்பாகத்திலிருந்து சுமார் 2 அங்குலம்", "ಬುಡದಿಂದ ಸುಮಾರು 2 ಇಂಚು", "जड़ से लगभग 2 इंच"),
+              L("About 10 inches from the base", "మొదలు నుండి సుమారు 10 అంగుళాలు", "அடிப்பாகத்திலிருந்து சுமார் 10 அங்குலம்", "ಬುಡದಿಂದ ಸುಮಾರು 10 ಇಂಚು", "जड़ से लगभग 10 इंच"),
+              L("It should never be cut", "దీన్ని ఎప్పుడూ కత్తిరించకూడదు", "இதை ஒருபோதும் வெட்டக்கூடாது", "ಇದನ್ನು ಎಂದಿಗೂ ಕತ್ತರಿಸಬಾರದು", "इसे कभी नहीं काटना चाहिए"),
             ],
             answer: 1,
-            explain: L("The cord is cut with a clean instrument about 2 inches from the base, then dipped in iodine and tied off."),
+            explain: L("The cord is cut with a clean instrument about 2 inches from the base, then dipped in iodine and tied off.", "తాడును శుభ్రమైన పరికరంతో మొదలు నుండి సుమారు 2 అంగుళాల దూరంలో కత్తిరించి, తర్వాత అయోడిన్‌లో ముంచి కట్టివేస్తారు.", "கொடியை சுத்தமான கருவியால் அடிப்பாகத்திலிருந்து சுமார் 2 அங்குலம் தூரத்தில் வெட்டி, பின்னர் அயோடினில் நனைத்து கட்டப்படுகிறது.", "ಬಳ್ಳಿಯನ್ನು ಸ್ವಚ್ಛವಾದ ಉಪಕರಣದಿಂದ ಬುಡದಿಂದ ಸುಮಾರು 2 ಇಂಚು ದೂರದಲ್ಲಿ ಕತ್ತರಿಸಿ, ನಂತರ ಅಯೋಡಿನ್‌ನಲ್ಲಿ ಅದ್ದಿ ಕಟ್ಟಲಾಗುತ್ತದೆ.", "नाल को साफ़ औज़ार से जड़ से लगभग 2 इंच दूरी पर काटा जाता है, फिर आयोडीन में डुबोकर बांध दिया जाता है।"),
           },
           {
             type: "truefalse",
-            q: L("The navel only needs to be dipped in iodine once, right after the cord is cut."),
+            q: L("The navel only needs to be dipped in iodine once, right after the cord is cut.", "నాల కత్తిరించిన వెంటనే బొడ్డును ఒకసారి మాత్రమే అయోడిన్‌లో ముంచితే సరిపోతుంది.", "கொடியை வெட்டிய உடனேயே தொப்புளை ஒரே ஒரு முறை மட்டும் அயோடினில் நனைத்தால் போதும்.", "ಬಳ್ಳಿಯನ್ನು ಕತ್ತರಿಸಿದ ತಕ್ಷಣ ಹೊಕ್ಕುಳನ್ನು ಒಮ್ಮೆ ಮಾತ್ರ ಅಯೋಡಿನ್‌ನಲ್ಲಿ ಅದ್ದಿದರೆ ಸಾಕು.", "नाल काटने के तुरंत बाद नाभि को सिर्फ़ एक बार आयोडीन में डुबोना ही काफ़ी है।"),
             answer: false,
             explain: L(
-              "No — the navel is dipped again after 12 hours. A poorly maintained navel is a common gateway to serious infection, so it gets checked and cared for more than once."
+              "No — the navel is dipped again after 12 hours. A poorly maintained navel is a common gateway to serious infection, so it gets checked and cared for more than once.",
+              "కాదు — 12 గంటల తర్వాత బొడ్డును మళ్ళీ ముంచాలి. సరిగ్గా చూసుకోని బొడ్డు తీవ్రమైన ఇన్ఫెక్షన్‌కు సాధారణ మార్గం కాబట్టి, దాన్ని ఒక్కసారి కంటే ఎక్కువసార్లు పరిశీలించి చూసుకోవాలి.",
+              "இல்லை — 12 மணி நேரம் கழித்து தொப்புளை மீண்டும் நனைக்க வேண்டும். சரியாக பராமரிக்கப்படாத தொப்புள் கடுமையான தொற்றுக்கு பொதுவான வழி என்பதால், அதை ஒரு முறைக்கு மேல் சரிபார்த்து பராமரிக்க வேண்டும்.",
+              "ಇಲ್ಲ — 12 ಗಂಟೆಗಳ ನಂತರ ಹೊಕ್ಕುಳನ್ನು ಮತ್ತೆ ಅದ್ದಬೇಕು. ಸರಿಯಾಗಿ ಆರೈಕೆ ಮಾಡದ ಹೊಕ್ಕುಳ ಗಂಭೀರ ಸೋಂಕಿಗೆ ಸಾಮಾನ್ಯ ದಾರಿಯಾಗಿರುವುದರಿಂದ, ಅದನ್ನು ಒಮ್ಮೆಗಿಂತ ಹೆಚ್ಚು ಬಾರಿ ಪರಿಶೀಲಿಸಿ ಆರೈಕೆ ಮಾಡಬೇಕು.",
+              "नहीं — 12 घंटे बाद नाभि को फिर से डुबोया जाता है। जिस नाभि की सही देखभाल नहीं होती, वह गंभीर संक्रमण का आम रास्ता बन जाती है, इसलिए इसे एक बार से ज़्यादा जांचकर देखभाल की जाती है।"
             ),
           },
         ],
       },
       {
         id: "t-m3-colostrum",
-        title: L("Colostrum: The Calf's Passport to Life"),
+        title: L("Colostrum: The Calf's Passport to Life", "జున్ను: దూడ జీవితానికి పాస్‌పోర్ట్", "கொழுந்து பால்: கன்றின் வாழ்க்கைக்கான பாஸ்போர்ட்", "ಗಿಣ್ಣುಹಾಲು: ಕರುವಿನ ಜೀವನಕ್ಕೆ ಪಾಸ್‌ಪೋರ್ಟ್", "खीस: बछड़े की ज़िंदगी का पासपोर्ट"),
         teach: [
             {
               type: "photo",
               src: "assets/photo-m3-colostrum.jpg",
-              alt: L("A man crouches and holds up a bottle so a young calf can drink milk from it"),
-              caption: L("Hand-feeding a calf with a bottle — the reliable way to make sure it actually gets the colostrum it needs, rather than hoping it nurses enough on its own."),
+              alt: L("A man crouches and holds up a bottle so a young calf can drink milk from it", "ఒక వ్యక్తి కూర్చుని చిన్న దూడకు పాలు తాగించడానికి బాటిల్ పట్టుకుని ఉన్నాడు", "ஒரு நபர் குனிந்து ஒரு இளம் கன்று பாட்டிலில் இருந்து பால் குடிக்க வைத்திருக்கிறார்", "ಒಬ್ಬ ವ್ಯಕ್ತಿ ಬಗ್ಗಿ ಎಳೆಯ ಕರುವಿಗೆ ಬಾಟಲಿಯಿಂದ ಹಾಲು ಕುಡಿಸಲು ಹಿಡಿದಿದ್ದಾನೆ", "एक आदमी झुककर बोतल पकड़े हुए है ताकि छोटा बछड़ा उससे दूध पी सके"),
+              caption: L("Hand-feeding a calf with a bottle — the reliable way to make sure it actually gets the colostrum it needs, rather than hoping it nurses enough on its own.", "బాటిల్‌తో దూడకు స్వయంగా పాలు తాగించడం — దూడకు కావాల్సినంత జున్ను అందుతుందని నమ్మకంగా చెప్పగలిగే మార్గం, తనంత తానే తగినంత తాగుతుందని ఆశించడం కాదు.", "பாட்டிலால் கன்றுக்கு கையால் பால் கொடுப்பது — கன்று தானாகவே போதுமான அளவு குடிக்கும் என நம்புவதை விட, அது தேவையான கொழுந்து பாலை நிச்சயமாகப் பெறுவதற்கான நம்பகமான வழி.", "ಬಾಟಲಿಯಿಂದ ಕರುವಿಗೆ ಕೈಯಾರೆ ಹಾಲುಣಿಸುವುದು — ಕರು ತಾನಾಗಿಯೇ ಸಾಕಷ್ಟು ಕುಡಿಯುತ್ತದೆ ಎಂದು ನಂಬುವ ಬದಲು, ಅದಕ್ಕೆ ಬೇಕಾದ ಗಿಣ್ಣುಹಾಲು ಖಚಿತವಾಗಿ ಸಿಗುವಂತೆ ಮಾಡುವ ವಿಶ್ವಾಸಾರ್ಹ ವಿಧಾನ.", "बोतल से बछड़े को हाथ से दूध पिलाना — यह पक्का करने का भरोसेमंद तरीका है कि उसे ज़रूरत भर खीस मिले, बजाय इसके कि वह खुद अपने आप पर्याप्त पी लेगा, ऐसा मान लिया जाए।"),
             },
           {
             type: "text",
-            heading: L("What Is Colostrum, and Why Can't It Wait?"),
+            heading: L("What Is Colostrum, and Why Can't It Wait?", "జున్ను అంటే ఏమిటి, ఎందుకు ఆలస్యం చేయకూడదు?", "கொழுந்து பால் என்றால் என்ன, ஏன் காத்திருக்க முடியாது?", "ಗಿಣ್ಣುಹಾಲು ಎಂದರೇನು, ಏಕೆ ಕಾಯಬಾರದು?", "खीस क्या है, और इसमें देरी क्यों नहीं करनी चाहिए?"),
             html: L(
-              "Right after giving birth, a mother produces a thick, special first milk that is very different from her regular milk. This is <b>colostrum</b>, and it carries protection against disease that the calf's own body cannot yet make for itself. That protection only transfers properly if colostrum is given early — the window closes fast."
+              "Right after giving birth, a mother produces a thick, special first milk that is very different from her regular milk. This is <b>colostrum</b>, and it carries protection against disease that the calf's own body cannot yet make for itself. That protection only transfers properly if colostrum is given early — the window closes fast.",
+              "ఈనిన వెంటనే, తల్లి తన సాధారణ పాల కంటే చాలా భిన్నమైన చిక్కటి, ప్రత్యేకమైన మొదటి పాలను ఉత్పత్తి చేస్తుంది. దీన్నే <b>జున్ను (కొలొస్ట్రమ్)</b> అంటారు, ఇది దూడ శరీరం ఇంకా తయారు చేయలేని వ్యాధి నిరోధక శక్తిని కలిగి ఉంటుంది. జున్నును త్వరగా ఇస్తేనే ఈ రక్షణ సరిగ్గా బదిలీ అవుతుంది — ఈ అవకాశం త్వరగా మూసుకుపోతుంది.",
+              "ஈன்ற உடனேயே, தாய் தன் வழக்கமான பாலிலிருந்து மிகவும் வேறுபட்ட கெட்டியான, சிறப்பு முதல் பாலை உற்பத்தி செய்கிறது. இதுவே <b>கொழுந்து பால்</b>, இது கன்றின் சொந்த உடல் இன்னும் தயாரிக்க முடியாத நோய் எதிர்ப்பு சக்தியை கொண்டுள்ளது. கொழுந்து பாலை சீக்கிரம் கொடுத்தால் மட்டுமே இந்த பாதுகாப்பு சரியாக மாற்றப்படும் — இந்த வாய்ப்பு விரைவாக மூடிவிடும்.",
+              "ಈದ ತಕ್ಷಣ, ತಾಯಿ ತನ್ನ ಸಾಮಾನ್ಯ ಹಾಲಿಗಿಂತ ತುಂಬಾ ಭಿನ್ನವಾದ ದಪ್ಪವಾದ, ವಿಶೇಷ ಮೊದಲ ಹಾಲನ್ನು ಉತ್ಪಾದಿಸುತ್ತದೆ. ಇದೇ <b>ಗಿಣ್ಣುಹಾಲು</b>, ಇದು ಕರುವಿನ ದೇಹ ಇನ್ನೂ ತಯಾರಿಸಲಾಗದ ರೋಗ ನಿರೋಧಕ ಶಕ್ತಿಯನ್ನು ಹೊಂದಿದೆ. ಗಿಣ್ಣುಹಾಲನ್ನು ಬೇಗನೆ ಕೊಟ್ಟರೆ ಮಾತ್ರ ಈ ರಕ್ಷಣೆ ಸರಿಯಾಗಿ ವರ್ಗಾವಣೆಯಾಗುತ್ತದೆ — ಈ ಅವಕಾಶ ಬೇಗನೆ ಮುಚ್ಚಿಹೋಗುತ್ತದೆ.",
+              "ब्याने के तुरंत बाद, माँ अपने सामान्य दूध से बिल्कुल अलग एक गाढ़ा, खास पहला दूध बनाती है। इसे ही <b>खीस</b> कहते हैं, और इसमें बीमारियों से बचाव की ऐसी ताकत होती है जो बछड़े का अपना शरीर अभी तक नहीं बना सकता। यह सुरक्षा तभी सही तरीके से मिलती है जब खीस जल्दी दिया जाए — यह मौका तेज़ी से बंद हो जाता है।"
             ),
           },
           {
             type: "glossary",
-            term: L("Colostrum"),
+            term: L("Colostrum", "జున్ను (కొలొస్ట్రమ్)", "கொழுந்து பால்", "ಗಿಣ್ಣುಹಾಲು", "खीस"),
             meaning: L(
-              "The first, thick milk a mother cow or buffalo produces right after giving birth. Unlike regular milk, it is full of protection (antibodies) that helps the calf fight off disease — protection the calf's own body cannot yet make on its own."
+              "The first, thick milk a mother cow or buffalo produces right after giving birth. Unlike regular milk, it is full of protection (antibodies) that helps the calf fight off disease — protection the calf's own body cannot yet make on its own.",
+              "ఈనిన వెంటనే ఆవు లేదా గేదె ఉత్పత్తి చేసే మొదటి, చిక్కటి పాలు. సాధారణ పాల కంటే భిన్నంగా, ఇందులో దూడకు వ్యాధులతో పోరాడేందుకు సహాయపడే రక్షణ (యాంటీబాడీలు) పుష్కలంగా ఉంటుంది — ఈ రక్షణను దూడ శరీరం ఇంకా స్వయంగా తయారు చేయలేదు.",
+              "ஈன்ற உடனேயே பசு அல்லது எருமை உற்பத்தி செய்யும் முதல், கெட்டியான பால். வழக்கமான பாலைப் போலல்லாமல், இது கன்று நோய்களை எதிர்த்துப் போராட உதவும் பாதுகாப்பால் (ஆன்டிபாடிகள்) நிறைந்துள்ளது — இந்த பாதுகாப்பை கன்றின் சொந்த உடல் இன்னும் தானாக தயாரிக்க முடியாது.",
+              "ಈದ ತಕ್ಷಣ ಹಸು ಅಥವಾ ಎಮ್ಮೆ ಉತ್ಪಾದಿಸುವ ಮೊದಲ, ದಪ್ಪವಾದ ಹಾಲು. ಸಾಮಾನ್ಯ ಹಾಲಿಗಿಂತ ಭಿನ್ನವಾಗಿ, ಇದು ಕರುವಿಗೆ ರೋಗಗಳ ವಿರುದ್ಧ ಹೋರಾಡಲು ಸಹಾಯ ಮಾಡುವ ರಕ್ಷಣೆಯಿಂದ (ಆಂಟಿಬಾಡಿಗಳಿಂದ) ತುಂಬಿರುತ್ತದೆ — ಈ ರಕ್ಷಣೆಯನ್ನು ಕರುವಿನ ದೇಹ ಇನ್ನೂ ತಾನಾಗಿಯೇ ತಯಾರಿಸಲಾರದು.",
+              "ब्याने के तुरंत बाद गाय या भैंस का बनाया पहला, गाढ़ा दूध। सामान्य दूध के उलट, इसमें बीमारियों से लड़ने में मदद करने वाली सुरक्षा (एंटीबॉडी) भरपूर होती है — यह सुरक्षा बछड़े का अपना शरीर अभी खुद नहीं बना सकता।"
             ),
           },
           {
             type: "stat-grid",
             items: [
               {
-                label: L("Within 2 hours of birth"),
-                text: L("Give the calf 2 litres of colostrum."),
+                label: L("Within 2 hours of birth", "పుట్టిన 2 గంటల్లోపు", "பிறந்த 2 மணி நேரத்திற்குள்", "ಹುಟ್ಟಿದ 2 ಗಂಟೆಗಳ ಒಳಗೆ", "जन्म के 2 घंटे के भीतर"),
+                text: L("Give the calf 2 litres of colostrum.", "దూడకు 2 లీటర్ల జున్ను ఇవ్వండి.", "கன்றுக்கு 2 லிட்டர் கொழுந்து பால் கொடுங்கள்.", "ಕರುವಿಗೆ 2 ಲೀಟರ್ ಗಿಣ್ಣುಹಾಲು ಕೊಡಿ.", "बछड़े को 2 लीटर खीस पिलाएं।"),
               },
               {
-                label: L("Within 12 hours of birth"),
-                text: L("Give another 1–2 litres, depending on the calf's size."),
+                label: L("Within 12 hours of birth", "పుట్టిన 12 గంటల్లోపు", "பிறந்த 12 மணி நேரத்திற்குள்", "ಹುಟ್ಟಿದ 12 ಗಂಟೆಗಳ ಒಳಗೆ", "जन्म के 12 घंटे के भीतर"),
+                text: L("Give another 1–2 litres, depending on the calf's size.", "దూడ పరిమాణాన్ని బట్టి మరో 1–2 లీటర్లు ఇవ్వండి.", "கன்றின் அளவைப் பொறுத்து மேலும் 1–2 லிட்டர் கொடுங்கள்.", "ಕರುವಿನ ಗಾತ್ರಕ್ಕೆ ಅನುಗುಣವಾಗಿ ಇನ್ನೂ 1–2 ಲೀಟರ್ ಕೊಡಿ.", "बछड़े के आकार के हिसाब से 1–2 लीटर और पिलाएं।"),
               },
               {
-                label: L("After 24 hours"),
-                text: L("Feeding colostrum this late may no longer help protect the calf."),
+                label: L("After 24 hours", "24 గంటల తర్వాత", "24 மணி நேரத்திற்குப் பிறகு", "24 ಗಂಟೆಗಳ ನಂತರ", "24 घंटे बाद"),
+                text: L("Feeding colostrum this late may no longer help protect the calf.", "ఇంత ఆలస్యంగా జున్ను ఇస్తే దూడకు రక్షణ ఇవ్వకపోవచ్చు.", "இவ்வளவு தாமதமாக கொழுந்து பால் கொடுத்தால் கன்றுக்கு பாதுகாப்பு கிடைக்காமல் போகலாம்.", "ಇಷ್ಟು ತಡವಾಗಿ ಗಿಣ್ಣುಹಾಲು ಕೊಟ್ಟರೆ ಕರುವಿಗೆ ರಕ್ಷಣೆ ಸಿಗದೇ ಹೋಗಬಹುದು.", "इतनी देर से खीस पिलाने पर बछड़े को सुरक्षा नहीं मिल पाती।"),
               },
               {
-                label: L("Ongoing protection"),
-                text: L("Enough colostrum in these early hours protects the calf from disease through its first three months of life."),
+                label: L("Ongoing protection", "కొనసాగే రక్షణ", "தொடர் பாதுகாப்பு", "ಮುಂದುವರಿಯುವ ರಕ್ಷಣೆ", "आगे तक चलने वाली सुरक्षा"),
+                text: L("Enough colostrum in these early hours protects the calf from disease through its first three months of life.", "ఈ తొలి గంటల్లో తగినంత జున్ను తీసుకుంటే, దూడ మొదటి మూడు నెలల జీవితంలో వ్యాధుల నుండి రక్షణ పొందుతుంది.", "இந்த ஆரம்ப மணி நேரங்களில் போதுமான கொழுந்து பால் கிடைத்தால், கன்று அதன் முதல் மூன்று மாத வாழ்க்கையில் நோய்களிலிருந்து பாதுகாக்கப்படும்.", "ಈ ಆರಂಭಿಕ ಗಂಟೆಗಳಲ್ಲಿ ಸಾಕಷ್ಟು ಗಿಣ್ಣುಹಾಲು ಸಿಕ್ಕರೆ, ಕರುವಿನ ಮೊದಲ ಮೂರು ತಿಂಗಳ ಜೀವನದಲ್ಲಿ ರೋಗಗಳಿಂದ ರಕ್ಷಣೆ ಸಿಗುತ್ತದೆ.", "इन शुरुआती घंटों में पर्याप्त खीस मिलने से बछड़ा अपनी ज़िंदगी के पहले तीन महीनों तक बीमारियों से सुरक्षित रहता है।"),
               },
             ],
           },
           {
             type: "callout",
             style: "warning",
-            heading: L("Don't Rely on the Calf Nursing by Itself"),
+            heading: L("Don't Rely on the Calf Nursing by Itself", "దూడ తనంతట తానే తాగుతుందని నమ్మకపడకండి", "கன்று தானாகவே பால் குடிக்கும் என்று நம்பாதீர்கள்", "ಕರು ತಾನಾಗಿಯೇ ಹಾಲು ಕುಡಿಯುತ್ತದೆ ಎಂದು ನಂಬಬೇಡಿ", "बछड़े के खुद पी लेने पर भरोसा न करें"),
             text: L(
-              "Many calves don't nurse enough colostrum from their mother on their own in the first few hours, so they may end up without enough protection. That's why hand-feeding colostrum is recommended — it's the only way to be sure exactly how much an individual calf has actually received."
+              "Many calves don't nurse enough colostrum from their mother on their own in the first few hours, so they may end up without enough protection. That's why hand-feeding colostrum is recommended — it's the only way to be sure exactly how much an individual calf has actually received.",
+              "చాలా దూడలు మొదటి కొన్ని గంటల్లో తల్లి నుండి తనంతట తానే తగినంత జున్ను తాగలేవు, దీనివల్ల తగినంత రక్షణ లేకుండా మిగిలిపోవచ్చు. అందుకే జున్నును చేతితో పట్టుకుని బాటిల్ లేదా పాత్రతో తాగించడం మంచిది — ఒక్కో దూడ ఎంత తాగిందో ఖచ్చితంగా తెలుసుకోగల ఏకైక మార్గం ఇదే.",
+              "பல கன்றுகள் முதல் சில மணி நேரங்களில் தாயிடமிருந்து தானாகவே போதுமான கொழுந்து பாலை குடிக்காமல் போகின்றன, இதனால் போதுமான பாதுகாப்பு இல்லாமல் இருக்கலாம். அதனால்தான் கையால் கொழுந்து பால் கொடுப்பது பரிந்துரைக்கப்படுகிறது — ஒவ்வொரு கன்றும் சரியாக எவ்வளவு பெற்றது என்பதை உறுதிப்படுத்தும் ஒரே வழி இதுதான்.",
+              "ಅನೇಕ ಕರುಗಳು ಮೊದಲ ಕೆಲವು ಗಂಟೆಗಳಲ್ಲಿ ತಾಯಿಯಿಂದ ತಾವಾಗಿಯೇ ಸಾಕಷ್ಟು ಗಿಣ್ಣುಹಾಲು ಕುಡಿಯುವುದಿಲ್ಲ, ಇದರಿಂದ ಸಾಕಷ್ಟು ರಕ್ಷಣೆ ಸಿಗದೇ ಹೋಗಬಹುದು. ಅದಕ್ಕಾಗಿಯೇ ಕೈಯಾರೆ ಗಿಣ್ಣುಹಾಲು ಕುಡಿಸುವುದನ್ನು ಶಿಫಾರಸು ಮಾಡಲಾಗುತ್ತದೆ — ಪ್ರತಿ ಕರುವೂ ನಿಖರವಾಗಿ ಎಷ್ಟು ಪಡೆದಿದೆ ಎಂದು ಖಚಿತಪಡಿಸಿಕೊಳ್ಳುವ ಏಕೈಕ ದಾರಿ ಇದೇ.",
+              "बहुत से बछड़े शुरुआती कुछ घंटों में माँ से खुद उतना खीस नहीं पी पाते जितना चाहिए, जिससे उन्हें पूरी सुरक्षा नहीं मिल पाती। इसीलिए हाथ से खीस पिलाने की सलाह दी जाती है — यही एकमात्र तरीका है जिससे यह पक्का पता चलता है कि हर बछड़े को असल में कितना मिला।"
             ),
           },
           {
             type: "example",
-            heading: L("Why It's Called a 'Passport to Life'"),
+            heading: L("Why It's Called a 'Passport to Life'", "దీన్ని 'జీవితానికి పాస్‌పోర్ట్' అని ఎందుకు అంటారు", "இது ஏன் 'வாழ்க்கைக்கான பாஸ்போர்ட்' என்று அழைக்கப்படுகிறது", "ಇದನ್ನು 'ಜೀವನಕ್ಕೆ ಪಾಸ್‌ಪೋರ್ಟ್' ಎಂದು ಏಕೆ ಕರೆಯುತ್ತಾರೆ", "इसे 'ज़िंदगी का पासपोर्ट' क्यों कहा जाता है"),
             text: L(
-              "If a calf is simply left to nurse on its own, no one really knows how much colostrum it got, or when. Hand-feeding a measured amount, at the right time, removes that guesswork — which is exactly why colostrum is sometimes called the calf's passport to life: get it right, and the calf carries that protection with it for months."
+              "If a calf is simply left to nurse on its own, no one really knows how much colostrum it got, or when. Hand-feeding a measured amount, at the right time, removes that guesswork — which is exactly why colostrum is sometimes called the calf's passport to life: get it right, and the calf carries that protection with it for months.",
+              "దూడను తనంతట తానే తాగనిస్తే, అది ఎంత జున్ను తాగిందో, ఎప్పుడు తాగిందో ఎవరికీ ఖచ్చితంగా తెలియదు. సరైన సమయంలో కొలిచిన మోతాదును చేతితో తాగించడం ఈ అనిశ్చితిని తొలగిస్తుంది — అందుకే జున్నును కొన్నిసార్లు దూడ జీవితానికి పాస్‌పోర్ట్ అని పిలుస్తారు: సరిగ్గా చేస్తే, ఆ రక్షణను దూడ నెలల తరబడి తనతో మోసుకుపోతుంది.",
+              "கன்றை தானாகவே குடிக்க விட்டால், அது எவ்வளவு கொழுந்து பால் பெற்றது, எப்போது பெற்றது என்று யாருக்கும் சரியாகத் தெரியாது. சரியான நேரத்தில் அளந்த அளவை கையால் கொடுப்பது இந்த யூகத்தை நீக்குகிறது — அதனால்தான் கொழுந்து பால் சில நேரங்களில் கன்றின் வாழ்க்கைக்கான பாஸ்போர்ட் என்று அழைக்கப்படுகிறது: சரியாகச் செய்தால், அந்த பாதுகாப்பை கன்று மாதங்களுக்கு தன்னுடன் சுமந்து செல்லும்.",
+              "ಕರುವನ್ನು ತಾನಾಗಿಯೇ ಕುಡಿಯಲು ಬಿಟ್ಟರೆ, ಅದು ಎಷ್ಟು ಗಿಣ್ಣುಹಾಲು ಪಡೆದಿದೆ, ಯಾವಾಗ ಪಡೆದಿದೆ ಎಂದು ಯಾರಿಗೂ ಖಚಿತವಾಗಿ ತಿಳಿಯುವುದಿಲ್ಲ. ಸರಿಯಾದ ಸಮಯದಲ್ಲಿ ಅಳೆದ ಪ್ರಮಾಣವನ್ನು ಕೈಯಾರೆ ಕುಡಿಸುವುದು ಈ ಅನಿಶ್ಚಿತತೆಯನ್ನು ತೆಗೆದುಹಾಕುತ್ತದೆ — ಅದಕ್ಕಾಗಿಯೇ ಗಿಣ್ಣುಹಾಲನ್ನು ಕೆಲವೊಮ್ಮೆ ಕರುವಿನ ಜೀವನಕ್ಕೆ ಪಾಸ್‌ಪೋರ್ಟ್ ಎಂದು ಕರೆಯುತ್ತಾರೆ: ಸರಿಯಾಗಿ ಮಾಡಿದರೆ, ಆ ರಕ್ಷಣೆಯನ್ನು ಕರು ತಿಂಗಳುಗಟ್ಟಲೆ ತನ್ನೊಂದಿಗೆ ಹೊತ್ತೊಯ್ಯುತ್ತದೆ.",
+              "अगर बछड़े को बस अपने आप पीने के लिए छोड़ दिया जाए, तो किसी को असल में पता नहीं चलता कि उसे कितना खीस मिला, या कब मिला। सही समय पर नापी हुई मात्रा हाथ से पिलाने से यह अंदाज़ा लगाने की ज़रूरत ही खत्म हो जाती है — इसीलिए खीस को कभी-कभी बछड़े की ज़िंदगी का पासपोर्ट कहा जाता है: इसे सही तरीके से दें, तो बछड़ा वह सुरक्षा महीनों तक अपने साथ लेकर चलता है।"
             ),
           },
           {
             type: "stat-grid",
             items: [
               {
-                label: L("Deworming"),
-                text: L("Within 10–14 days of age, then monthly up to 6 months."),
+                label: L("Deworming", "నట్టల నివారణ", "புழு நீக்கம்", "ಹುಳ ನಿವಾರಣೆ", "कृमि नाशक (पेट के कीड़े)"),
+                text: L("Within 10–14 days of age, then monthly up to 6 months.", "10–14 రోజుల వయసులో మొదటిసారి, తర్వాత 6 నెలల వరకు ప్రతి నెలా ఇవ్వాలి.", "10–14 நாள் வயதிற்குள் முதல் முறை, பின்னர் 6 மாதங்கள் வரை மாதந்தோறும்.", "10–14 ದಿನಗಳ ವಯಸ್ಸಿನೊಳಗೆ, ನಂತರ 6 ತಿಂಗಳವರೆಗೆ ಪ್ರತಿ ತಿಂಗಳು.", "10–14 दिन की उम्र में, फिर 6 महीने तक हर महीने।"),
               },
               {
-                label: L("Calf Starter Feed"),
-                text: L("Introduce from 2 to 8 weeks of age to support growth."),
+                label: L("Calf Starter Feed", "దూడ స్టార్టర్ దాణా", "கன்று தொடக்க தீவனம்", "ಕರುವಿನ ಆರಂಭಿಕ ಆಹಾರ", "बछड़ा स्टार्टर आहार"),
+                text: L("Introduce from 2 to 8 weeks of age to support growth.", "ఎదుగుదలకు తోడ్పడేందుకు 2 నుండి 8 వారాల వయసు నుండి దీన్ని అలవాటు చేయాలి.", "வளர்ச்சிக்கு உதவும் வகையில் 2 முதல் 8 வார வயதிலிருந்து அறிமுகப்படுத்தவும்.", "ಬೆಳವಣಿಗೆಗೆ ಸಹಾಯವಾಗುವಂತೆ 2 ರಿಂದ 8 ವಾರಗಳ ವಯಸ್ಸಿನಿಂದ ಪರಿಚಯಿಸಿ.", "बढ़वार में मदद के लिए 2 से 8 हफ़्ते की उम्र से शुरू करें।"),
               },
               {
-                label: L("Vaccination"),
-                text: L("Once the calf is 3 months old, contact the veterinarian about vaccination."),
+                label: L("Vaccination", "టీకా", "தடுப்பூசி", "ಲಸಿಕೆ", "टीकाकरण"),
+                text: L("Once the calf is 3 months old, contact the veterinarian about vaccination.", "దూడకు 3 నెలల వయసు వచ్చాక టీకా గురించి వెటర్నరీ డాక్టర్‌ను సంప్రదించండి.", "கன்றுக்கு 3 மாதம் ஆனதும் தடுப்பூசி பற்றி வெட்டரினரி டாக்டரை தொடர்பு கொள்ளுங்கள்.", "ಕರುವಿಗೆ 3 ತಿಂಗಳು ತುಂಬಿದ ನಂತರ ಲಸಿಕೆ ಬಗ್ಗೆ ಪಶುವೈದ್ಯರನ್ನು ಸಂಪರ್ಕಿಸಿ.", "बछड़े के 3 महीने का होने पर टीकाकरण के बारे में डॉक्टर से संपर्क करें।"),
               },
             ],
           },
@@ -2690,17 +2742,21 @@ export const MODULES = [
         check: [
           {
             type: "mcq",
-            q: L("How much colostrum should a newborn calf get within the first 2 hours of birth?"),
-            options: [L("About 200 ml"), L("About 2 litres"), L("About 10 litres"), L("None — wait until the next day")],
+            q: L("How much colostrum should a newborn calf get within the first 2 hours of birth?", "పుట్టిన మొదటి 2 గంటల్లో నవజాత దూడకు ఎంత జున్ను ఇవ్వాలి?", "பிறந்த முதல் 2 மணி நேரத்தில் புதிதாகப் பிறந்த கன்றுக்கு எவ்வளவு கொழுந்து பால் கொடுக்க வேண்டும்?", "ಹುಟ್ಟಿದ ಮೊದಲ 2 ಗಂಟೆಗಳಲ್ಲಿ ನವಜಾತ ಕರುವಿಗೆ ಎಷ್ಟು ಗಿಣ್ಣುಹಾಲು ಕೊಡಬೇಕು?", "जन्म के पहले 2 घंटों में नवजात बछड़े को कितना खीस पिलाना चाहिए?"),
+            options: [L("About 200 ml", "సుమారు 200 మి.లీ", "சுமார் 200 மி.லி", "ಸುಮಾರು 200 ಮಿ.ಲೀ", "लगभग 200 मिली"), L("About 2 litres", "సుమారు 2 లీటర్లు", "சுமார் 2 லிட்டர்", "ಸುಮಾರು 2 ಲೀಟರ್", "लगभग 2 लीटर"), L("About 10 litres", "సుమారు 10 లీటర్లు", "சுமார் 10 லிட்டர்", "ಸುಮಾರು 10 ಲೀಟರ್", "लगभग 10 लीटर"), L("None — wait until the next day", "ఏమీ ఇవ్వకూడదు — మరుసటి రోజు వరకు వేచి ఉండాలి", "எதுவும் இல்லை — மறுநாள் வரை காத்திருக்க வேண்டும்", "ಏನೂ ಬೇಡ — ಮರುದಿನದವರೆಗೆ ಕಾಯಬೇಕು", "कुछ नहीं — अगले दिन तक इंतज़ार करें")],
             answer: 1,
-            explain: L("2 litres within the first 2 hours, with another 1–2 litres (depending on size) within 12 hours."),
+            explain: L("2 litres within the first 2 hours, with another 1–2 litres (depending on size) within 12 hours.", "మొదటి 2 గంటల్లో 2 లీటర్లు, తర్వాత 12 గంటల్లోపు పరిమాణాన్ని బట్టి మరో 1–2 లీటర్లు ఇవ్వాలి.", "முதல் 2 மணி நேரத்தில் 2 லிட்டர், மேலும் 12 மணி நேரத்திற்குள் அளவைப் பொறுத்து 1–2 லிட்டர் கொடுக்க வேண்டும்.", "ಮೊದಲ 2 ಗಂಟೆಗಳಲ್ಲಿ 2 ಲೀಟರ್, ನಂತರ 12 ಗಂಟೆಗಳ ಒಳಗೆ ಗಾತ್ರಕ್ಕೆ ಅನುಗುಣವಾಗಿ ಇನ್ನೂ 1–2 ಲೀಟರ್ ಕೊಡಬೇಕು.", "पहले 2 घंटों में 2 लीटर, फिर 12 घंटे के भीतर आकार के हिसाब से 1–2 लीटर और।"),
           },
           {
             type: "truefalse",
-            q: L("Feeding colostrum at any point in the first week works just as well as feeding it in the first few hours."),
+            q: L("Feeding colostrum at any point in the first week works just as well as feeding it in the first few hours.", "మొదటి వారంలో ఎప్పుడైనా జున్ను ఇచ్చినా, మొదటి కొన్ని గంటల్లో ఇచ్చినంత ప్రభావం ఉంటుంది.", "முதல் வாரத்தில் எப்போது வேண்டுமானாலும் கொழுந்து பால் கொடுத்தாலும், முதல் சில மணி நேரங்களில் கொடுப்பது போலவே பலனளிக்கும்.", "ಮೊದಲ ವಾರದಲ್ಲಿ ಯಾವಾಗ ಬೇಕಾದರೂ ಗಿಣ್ಣುಹಾಲು ಕೊಟ್ಟರೂ, ಮೊದಲ ಕೆಲವು ಗಂಟೆಗಳಲ್ಲಿ ಕೊಟ್ಟಷ್ಟೇ ಪರಿಣಾಮ ಬೀರುತ್ತದೆ.", "पहले हफ़्ते में कभी भी खीस पिलाना, पहले कुछ घंटों में पिलाने जितना ही असरदार होता है।"),
             answer: false,
             explain: L(
-              "No — colostrum needs to be given early. Feeding it after 24 hours of birth may no longer help the calf, so the first 2 and 12 hours matter a great deal."
+              "No — colostrum needs to be given early. Feeding it after 24 hours of birth may no longer help the calf, so the first 2 and 12 hours matter a great deal.",
+              "కాదు — జున్నును త్వరగా ఇవ్వాలి. పుట్టిన 24 గంటల తర్వాత ఇస్తే దూడకు ఉపయోగపడకపోవచ్చు, కాబట్టి మొదటి 2 మరియు 12 గంటలు చాలా ముఖ్యం.",
+              "இல்லை — கொழுந்து பாலை சீக்கிரம் கொடுக்க வேண்டும். பிறந்த 24 மணி நேரத்திற்குப் பிறகு கொடுத்தால் கன்றுக்கு பயனளிக்காமல் போகலாம், அதனால் முதல் 2 மற்றும் 12 மணி நேரம் மிக முக்கியம்.",
+              "ಇಲ್ಲ — ಗಿಣ್ಣುಹಾಲನ್ನು ಬೇಗನೆ ಕೊಡಬೇಕು. ಹುಟ್ಟಿದ 24 ಗಂಟೆಗಳ ನಂತರ ಕೊಟ್ಟರೆ ಕರುವಿಗೆ ಪ್ರಯೋಜನವಾಗದೇ ಇರಬಹುದು, ಆದ್ದರಿಂದ ಮೊದಲ 2 ಮತ್ತು 12 ಗಂಟೆಗಳು ಬಹಳ ಮುಖ್ಯ.",
+              "नहीं — खीस जल्दी देना ज़रूरी है। जन्म के 24 घंटे बाद देने से बछड़े को फ़ायदा न भी हो, इसलिए पहले 2 और 12 घंटे बहुत मायने रखते हैं।"
             ),
           },
         ],
@@ -2712,55 +2768,55 @@ export const MODULES = [
         {
           topicId: "t-m3-first-day",
           type: "mcq",
-          q: L("What is the 'golden hour' referred to in newborn calf care?"),
+          q: L("What is the 'golden hour' referred to in newborn calf care?", "నవజాత దూడ సంరక్షణలో ప్రస్తావించే 'గోల్డెన్ అవర్' అంటే ఏమిటి?", "புதிதாகப் பிறந்த கன்று பராமரிப்பில் குறிப்பிடப்படும் 'தங்க நேரம்' என்றால் என்ன?", "ನವಜಾತ ಕರುವಿನ ಆರೈಕೆಯಲ್ಲಿ ಉಲ್ಲೇಖಿಸಲಾದ 'ಚಿನ್ನದ ಗಂಟೆ' ಎಂದರೇನು?", "नवजात बछड़े की देखभाल में जिस 'गोल्डन ऑवर' का ज़िक्र है, वह क्या है?"),
           options: [
-            L("Any hour during the first week"),
-            L("The first hour after calving — the most critical period in a calf's life"),
-            L("The hour before calving"),
-            L("The hour when the calf is vaccinated"),
+            L("Any hour during the first week", "మొదటి వారంలో ఏదైనా గంట", "முதல் வாரத்தில் எந்த மணி நேரமும்", "ಮೊದಲ ವಾರದ ಯಾವುದೇ ಒಂದು ಗಂಟೆ", "पहले हफ़्ते का कोई भी घंटा"),
+            L("The first hour after calving — the most critical period in a calf's life", "ఈనిన తర్వాత మొదటి గంట — దూడ జీవితంలో అత్యంత కీలకమైన సమయం", "ஈன்ற பிறகு முதல் மணி நேரம் — கன்றின் வாழ்க்கையில் மிக முக்கியமான காலம்", "ಈದ ನಂತರದ ಮೊದಲ ಗಂಟೆ — ಕರುವಿನ ಜೀವನದ ಅತಿಮುಖ್ಯ ಅವಧಿ", "ब्याने के बाद का पहला घंटा — बछड़े की ज़िंदगी का सबसे नाज़ुक समय"),
+            L("The hour before calving", "ఈనడానికి ముందు గంట", "ஈனுவதற்கு முன் மணி நேரம்", "ಈಯುವ ಮೊದಲಿನ ಗಂಟೆ", "ब्याने से पहले का घंटा"),
+            L("The hour when the calf is vaccinated", "దూడకు టీకా వేసే గంట", "கன்றுக்கு தடுப்பூசி போடும் நேரம்", "ಕರುವಿಗೆ ಲಸಿಕೆ ಹಾಕುವ ಗಂಟೆ", "बछड़े को टीका लगाने का घंटा"),
           ],
           answer: 1,
-          explain: L("The first hour after calving is described as the single most critical period in the calf's entire life."),
+          explain: L("The first hour after calving is described as the single most critical period in the calf's entire life.", "ఈనిన తర్వాత మొదటి గంటను దూడ జీవితమంతటిలో అత్యంత కీలకమైన సమయంగా చెబుతారు.", "ஈன்ற பிறகு முதல் மணி நேரம் கன்றின் முழு வாழ்க்கையிலும் மிக முக்கியமான காலமாகக் கூறப்படுகிறது.", "ಈದ ನಂತರದ ಮೊದಲ ಗಂಟೆಯನ್ನು ಕರುವಿನ ಇಡೀ ಜೀವನದ ಅತಿಮುಖ್ಯ ಅವಧಿ ಎಂದು ವಿವರಿಸಲಾಗಿದೆ.", "ब्याने के बाद के पहले घंटे को बछड़े की पूरी ज़िंदगी का सबसे नाज़ुक समय बताया गया है।"),
         },
         {
           topicId: "t-m3-first-day",
           type: "truefalse",
-          q: L("Letting the mother lick the newborn calf clean helps blood circulation and helps the calf get ready to stand."),
+          q: L("Letting the mother lick the newborn calf clean helps blood circulation and helps the calf get ready to stand.", "తల్లితో నవజాత దూడను నాకించి శుభ్రం చేయించడం రక్త ప్రసరణకు సహాయపడుతుంది, దూడ నిలబడటానికి సిద్ధమవడానికి తోడ్పడుతుంది.", "தாயை புதிதாகப் பிறந்த கன்றை நக்கி சுத்தப்படுத்த விடுவது இரத்த ஓட்டத்திற்கு உதவி, கன்று நிற்க தயாராக உதவுகிறது.", "ತಾಯಿಯಿಂದ ನವಜಾತ ಕರುವನ್ನು ನೆಕ್ಕಿಸಿ ಸ್ವಚ್ಛಗೊಳಿಸುವುದು ರಕ್ತ ಸಂಚಾರಕ್ಕೆ ಸಹಾಯ ಮಾಡುತ್ತದೆ ಮತ್ತು ಕರು ಎದ್ದು ನಿಲ್ಲಲು ಸಿದ್ಧವಾಗಲು ನೆರವಾಗುತ್ತದೆ.", "माँ को नवजात बछड़े को चाटकर साफ़ करने देना खून के दौरे में मदद करता है और बछड़े को खड़े होने के लिए तैयार करता है।"),
           answer: true,
-          explain: L("Correct — licking promotes circulation in the calf's body and helps prepare it to stand up and walk."),
+          explain: L("Correct — licking promotes circulation in the calf's body and helps prepare it to stand up and walk.", "సరైనది — నాకడం దూడ శరీరంలో రక్త ప్రసరణను మెరుగుపరుస్తుంది, నిలబడి నడవడానికి సిద్ధం చేస్తుంది.", "சரி — நக்குவது கன்றின் உடலில் இரத்த ஓட்டத்தை மேம்படுத்தி, எழுந்து நடக்க தயார்படுத்துகிறது.", "ಸರಿ — ನೆಕ್ಕುವುದು ಕರುವಿನ ದೇಹದಲ್ಲಿ ರಕ್ತ ಸಂಚಾರವನ್ನು ಹೆಚ್ಚಿಸಿ, ಎದ್ದು ನಡೆಯಲು ಸಿದ್ಧಗೊಳಿಸುತ್ತದೆ.", "सही — चाटने से बछड़े के शरीर में खून का दौरा बेहतर होता है और वह खड़े होकर चलने के लिए तैयार होता है।"),
         },
         {
           topicId: "t-m3-colostrum",
           type: "mcq",
-          q: L("What is colostrum?"),
+          q: L("What is colostrum?", "జున్ను (కొలొస్ట్రమ్) అంటే ఏమిటి?", "கொழுந்து பால் என்றால் என்ன?", "ಗಿಣ್ಣುಹಾಲು ಎಂದರೇನು?", "खीस क्या है?"),
           options: [
-            L("Ordinary milk given a week after calving"),
-            L("The first, protection-rich milk a mother produces right after giving birth"),
-            L("A medicine given to calves"),
-            L("Water mixed with salt"),
+            L("Ordinary milk given a week after calving", "ఈనిన వారం తర్వాత ఇచ్చే సాధారణ పాలు", "ஈன்ற ஒரு வாரத்திற்குப் பிறகு கொடுக்கப்படும் வழக்கமான பால்", "ಈದ ಒಂದು ವಾರದ ನಂತರ ಕೊಡುವ ಸಾಮಾನ್ಯ ಹಾಲು", "ब्याने के एक हफ़्ते बाद दिया जाने वाला सामान्य दूध"),
+            L("The first, protection-rich milk a mother produces right after giving birth", "ఈనిన వెంటనే తల్లి ఉత్పత్తి చేసే మొదటి, రక్షణతో నిండిన పాలు", "ஈன்ற உடனேயே தாய் உற்பத்தி செய்யும் முதல், பாதுகாப்பு நிறைந்த பால்", "ಈದ ತಕ್ಷಣ ತಾಯಿ ಉತ್ಪಾದಿಸುವ ಮೊದಲ, ರಕ್ಷಣೆಯಿಂದ ತುಂಬಿದ ಹಾಲು", "ब्याने के तुरंत बाद माँ का बनाया पहला, सुरक्षा से भरपूर दूध"),
+            L("A medicine given to calves", "దూడలకు ఇచ్చే ఒక మందు", "கன்றுகளுக்கு கொடுக்கப்படும் ஒரு மருந்து", "ಕರುಗಳಿಗೆ ಕೊಡುವ ಒಂದು ಔಷಧಿ", "बछड़ों को दी जाने वाली एक दवा"),
+            L("Water mixed with salt", "ఉప్పు కలిపిన నీరు", "உப்பு கலந்த தண்ணீர்", "ಉಪ್ಪು ಬೆರೆಸಿದ ನೀರು", "नमक मिला पानी"),
           ],
           answer: 1,
-          explain: L("Colostrum is the mother's first, thick milk, produced right after birth, full of protection the calf cannot yet make on its own."),
+          explain: L("Colostrum is the mother's first, thick milk, produced right after birth, full of protection the calf cannot yet make on its own.", "జున్ను అంటే తల్లి ఈనిన వెంటనే ఉత్పత్తి చేసే మొదటి, చిక్కటి పాలు, దూడ ఇంకా స్వయంగా తయారు చేయలేని రక్షణతో నిండి ఉంటుంది.", "கொழுந்து பால் என்பது தாய் பிறந்த உடனேயே உற்பத்தி செய்யும் முதல், கெட்டியான பால், கன்று இன்னும் தானாக தயாரிக்க முடியாத பாதுகாப்பால் நிறைந்துள்ளது.", "ಗಿಣ್ಣುಹಾಲು ಎಂದರೆ ತಾಯಿ ಹುಟ್ಟಿದ ತಕ್ಷಣ ಉತ್ಪಾದಿಸುವ ಮೊದಲ, ದಪ್ಪವಾದ ಹಾಲು, ಕರು ಇನ್ನೂ ತಾನಾಗಿಯೇ ತಯಾರಿಸಲಾಗದ ರಕ್ಷಣೆಯಿಂದ ತುಂಬಿರುತ್ತದೆ.", "खीस माँ का बनाया वह पहला, गाढ़ा दूध है जो जन्म के तुरंत बाद बनता है, और उसमें ऐसी सुरक्षा भरी होती है जो बछड़ा अभी खुद नहीं बना सकता।"),
         },
         {
           topicId: "t-m3-colostrum",
           type: "truefalse",
-          q: L("Because it's hard to be sure a calf nursed enough colostrum on its own, hand-feeding is recommended."),
+          q: L("Because it's hard to be sure a calf nursed enough colostrum on its own, hand-feeding is recommended.", "దూడ తనంతట తానే తగినంత జున్ను తాగిందో లేదో ఖచ్చితంగా చెప్పడం కష్టం కాబట్టి, చేతితో తాగించడం మంచిది.", "கன்று தானாகவே போதுமான கொழுந்து பால் குடித்ததா என்று உறுதியாகச் சொல்வது கடினம் என்பதால், கையால் கொடுப்பது பரிந்துரைக்கப்படுகிறது.", "ಕರು ತಾನಾಗಿಯೇ ಸಾಕಷ್ಟು ಗಿಣ್ಣುಹಾಲು ಕುಡಿದಿದೆಯೇ ಎಂದು ಖಚಿತಪಡಿಸಿಕೊಳ್ಳುವುದು ಕಷ್ಟವಾದ್ದರಿಂದ, ಕೈಯಾರೆ ಕುಡಿಸುವುದನ್ನು ಶಿಫಾರಸು ಮಾಡಲಾಗುತ್ತದೆ.", "क्योंकि यह पक्का कहना मुश्किल है कि बछड़े ने खुद पर्याप्त खीस पी लिया, इसलिए हाथ से पिलाने की सलाह दी जाती है।"),
           answer: true,
-          explain: L("Correct — hand-feeding is recommended so the amount an individual calf receives is known for certain."),
+          explain: L("Correct — hand-feeding is recommended so the amount an individual calf receives is known for certain.", "సరైనది — ఒక్కో దూడ ఎంత తాగిందో ఖచ్చితంగా తెలుసుకోవడానికి చేతితో తాగించడం మంచిది.", "சரி — ஒவ்வொரு கன்றும் எவ்வளவு பெறுகிறது என்பது நிச்சயமாகத் தெரிய கையால் கொடுப்பது பரிந்துரைக்கப்படுகிறது.", "ಸರಿ — ಪ್ರತಿ ಕರುವೂ ಎಷ್ಟು ಪಡೆಯುತ್ತದೆ ಎಂದು ಖಚಿತವಾಗಿ ತಿಳಿಯಲು ಕೈಯಾರೆ ಕುಡಿಸುವುದನ್ನು ಶಿಫಾರಸು ಮಾಡಲಾಗುತ್ತದೆ.", "सही — हाथ से पिलाने की सलाह इसलिए दी जाती है ताकि हर बछड़े को मिली मात्रा पक्के तौर पर पता चले।"),
         },
         {
           topicId: "t-m3-first-day",
           type: "mcq",
-          q: L("How is a poorly cared-for navel described in this lesson?"),
+          q: L("How is a poorly cared-for navel described in this lesson?", "ఈ పాఠంలో సరిగ్గా చూసుకోని బొడ్డును ఎలా వర్ణించారు?", "இந்த பாடத்தில் சரியாக பராமரிக்கப்படாத தொப்புள் எப்படி விவரிக்கப்பட்டுள்ளது?", "ಈ ಪಾಠದಲ್ಲಿ ಸರಿಯಾಗಿ ಆರೈಕೆ ಮಾಡದ ಹೊಕ್ಕುಳವನ್ನು ಹೇಗೆ ವಿವರಿಸಲಾಗಿದೆ?", "इस पाठ में ठीक से देखभाल न की गई नाभि को कैसे बताया गया है?"),
           options: [
-            L("Not important at all"),
-            L("A gateway to serious infection"),
-            L("Only a cosmetic issue"),
-            L("Something that heals itself without any care"),
+            L("Not important at all", "అస్సలు ముఖ్యం కాదు", "எந்த முக்கியத்துவமும் இல்லை", "ಅಷ್ಟೇನೂ ಮುಖ್ಯವಲ್ಲ", "बिल्कुल ज़रूरी नहीं"),
+            L("A gateway to serious infection", "తీవ్రమైన ఇన్ఫెక్షన్‌కు ఒక మార్గం", "கடுமையான தொற்றுக்கு ஒரு வழி", "ಗಂಭೀರ ಸೋಂಕಿಗೆ ಒಂದು ದಾರಿ", "गंभीर संक्रमण का एक रास्ता"),
+            L("Only a cosmetic issue", "కేవలం అందం సమస్య మాత్రమే", "வெறும் தோற்றப் பிரச்சனை மட்டுமே", "ಕೇವಲ ತೋರಿಕೆಯ ಸಮಸ್ಯೆ ಮಾತ್ರ", "सिर्फ़ दिखावे की समस्या"),
+            L("Something that heals itself without any care", "ఎలాంటి సంరక్షణ లేకుండానే తనంతట తానే నయమయ్యేది", "எந்த பராமரிப்பும் இல்லாமல் தானாகவே குணமாகும் ஒன்று", "ಯಾವುದೇ ಆರೈಕೆ ಇಲ್ಲದೆ ತಾನಾಗಿಯೇ ವಾಸಿಯಾಗುವಂಥದ್ದು", "बिना किसी देखभाल के अपने आप ठीक हो जाने वाली चीज़"),
           ],
           answer: 1,
-          explain: L("A poorly maintained navel is a gateway to serious infections, which is why it's cleaned, dipped in iodine, and checked again at 12 hours."),
+          explain: L("A poorly maintained navel is a gateway to serious infections, which is why it's cleaned, dipped in iodine, and checked again at 12 hours.", "సరిగ్గా చూసుకోని బొడ్డు తీవ్రమైన ఇన్ఫెక్షన్లకు మార్గం, అందుకే దాన్ని శుభ్రం చేసి, అయోడిన్‌లో ముంచి, 12 గంటలకు మళ్ళీ పరిశీలిస్తారు.", "சரியாக பராமரிக்கப்படாத தொப்புள் கடுமையான தொற்றுகளுக்கு ஒரு வழி, அதனால்தான் அதை சுத்தம் செய்து, அயோடினில் நனைத்து, 12 மணி நேரத்தில் மீண்டும் சரிபார்க்கிறோம்.", "ಸರಿಯಾಗಿ ಆರೈಕೆ ಮಾಡದ ಹೊಕ್ಕುಳ ಗಂಭೀರ ಸೋಂಕುಗಳಿಗೆ ದಾರಿಯಾಗುತ್ತದೆ, ಅದಕ್ಕಾಗಿಯೇ ಅದನ್ನು ಸ್ವಚ್ಛಗೊಳಿಸಿ, ಅಯೋಡಿನ್‌ನಲ್ಲಿ ಅದ್ದಿ, 12 ಗಂಟೆಗಳಲ್ಲಿ ಮತ್ತೆ ಪರಿಶೀಲಿಸಲಾಗುತ್ತದೆ.", "ठीक से देखभाल न की गई नाभि गंभीर संक्रमण का रास्ता बन जाती है, इसीलिए उसे साफ़ करके, आयोडीन में डुबोकर, 12 घंटे बाद फिर से जांचा जाता है।"),
         },
       ],
     },
@@ -2771,57 +2827,73 @@ export const MODULES = [
   // ==================================================================
   {
     id: "m3-l2",
-    title: L("Calf Diarrhoea: Recognizing It and Responding Fast"),
+    title: L("Calf Diarrhoea: Recognizing It and Responding Fast", "దూడ విరేచనాలు: గుర్తించడం మరియు వేగంగా స్పందించడం", "கன்று வயிற்றுப்போக்கு: அதை அடையாளம் காண்பது மற்றும் விரைவாக செயல்படுவது", "ಕರುವಿನ ಭೇದಿ: ಗುರುತಿಸುವುದು ಮತ್ತು ವೇಗವಾಗಿ ಸ್ಪಂದಿಸುವುದು", "बछड़े के दस्त: पहचानना और तुरंत कार्रवाई करना"),
     estMinutes: 8,
     hook: [
       {
         type: "hero",
-        heading: L("Diarrhoea Can Kill a Calf Fast — But You Can Catch It Early"),
+        heading: L("Diarrhoea Can Kill a Calf Fast — But You Can Catch It Early", "విరేచనాలు దూడను వేగంగా చంపగలవు — కానీ మీరు దాన్ని ముందుగానే గుర్తించగలరు", "வயிற்றுப்போக்கு கன்றை விரைவாக கொல்லக்கூடும் — ஆனால் நீங்கள் அதை முன்கூட்டியே கண்டறியலாம்", "ಭೇದಿ ಕರುವನ್ನು ವೇಗವಾಗಿ ಸಾಯಿಸಬಹುದು — ಆದರೆ ನೀವು ಇದನ್ನು ಮೊದಲೇ ಗುರುತಿಸಬಹುದು", "दस्त बछड़े की जान जल्दी ले सकते हैं — लेकिन आप इसे जल्दी पहचान सकते हैं"),
         text: L(
-          "Calf diarrhoea can have many different causes, and working out which one is always the vet's job. But the real danger — fast loss of water and body salts — is something you can learn to spot early, using nothing but your eyes and your hands. This lesson teaches you what to look for, and exactly what to do while you get the vet involved."
+          "Calf diarrhoea can have many different causes, and working out which one is always the vet's job. But the real danger — fast loss of water and body salts — is something you can learn to spot early, using nothing but your eyes and your hands. This lesson teaches you what to look for, and exactly what to do while you get the vet involved.",
+          "దూడ విరేచనాలకు అనేక కారణాలు ఉండవచ్చు, వేటివల్ల వచ్చిందో కనుక్కోవడం ఎప్పుడూ వెటర్నరీ డాక్టర్ పనే. కానీ నిజమైన ప్రమాదం — శరీరంలో నీరు, లవణాలు వేగంగా తగ్గిపోవడం — దాన్ని మీ కళ్ళు, చేతులతో మాత్రమే ముందుగానే గుర్తించడం మీరు నేర్చుకోవచ్చు. ఏం గమనించాలో, డాక్టర్‌ను సంప్రదించే లోపు సరిగ్గా ఏం చేయాలో ఈ పాఠం మీకు నేర్పుతుంది.",
+          "கன்று வயிற்றுப்போக்குக்கு பல்வேறு காரணங்கள் இருக்கலாம், எது காரணம் என்பதைக் கண்டறிவது எப்போதும் வெட்டரினரி டாக்டரின் வேலை. ஆனால் உண்மையான ஆபத்து — உடலில் நீர் மற்றும் உப்புகள் விரைவாக இழக்கப்படுவது — அதை உங்கள் கண்கள் மற்றும் கைகளால் மட்டுமே முன்கூட்டியே கண்டறிய நீங்கள் கற்றுக்கொள்ளலாம். என்ன கவனிக்க வேண்டும், டாக்டரை தொடர்பு கொள்ளும் வரை சரியாக என்ன செய்ய வேண்டும் என்பதை இந்த பாடம் கற்றுக்கொடுக்கிறது.",
+          "ಕರುವಿನ ಭೇದಿಗೆ ಹಲವಾರು ಕಾರಣಗಳಿರಬಹುದು, ಯಾವ ಕಾರಣ ಎಂದು ಕಂಡುಹಿಡಿಯುವುದು ಯಾವಾಗಲೂ ಪಶುವೈದ್ಯರ ಕೆಲಸ. ಆದರೆ ನಿಜವಾದ ಅಪಾಯ — ದೇಹದಲ್ಲಿ ನೀರು ಮತ್ತು ಲವಣಗಳು ವೇಗವಾಗಿ ಕಡಿಮೆಯಾಗುವುದು — ಅದನ್ನು ನಿಮ್ಮ ಕಣ್ಣುಗಳು ಮತ್ತು ಕೈಗಳಿಂದ ಮಾತ್ರ ಮೊದಲೇ ಗುರುತಿಸಲು ನೀವು ಕಲಿಯಬಹುದು. ಏನನ್ನು ಗಮನಿಸಬೇಕು, ವೈದ್ಯರನ್ನು ಸಂಪರ್ಕಿಸುವವರೆಗೆ ಸರಿಯಾಗಿ ಏನು ಮಾಡಬೇಕು ಎಂಬುದನ್ನು ಈ ಪಾಠ ಕಲಿಸುತ್ತದೆ.",
+          "बछड़े के दस्त कई अलग-अलग वजहों से हो सकते हैं, और असली वजह पता लगाना हमेशा डॉक्टर का काम होता है। लेकिन असली ख़तरा — शरीर से पानी और नमक का तेज़ी से निकल जाना — इसे आप सिर्फ़ अपनी आंखों और हाथों से पहचानना सीख सकते हैं। इस पाठ में बताया गया है कि क्या देखना है, और डॉक्टर को बुलाने तक ठीक-ठीक क्या करना है।"
         ),
       },
     ],
     topics: [
       {
         id: "t-m3-diarrhoea-signs",
-        title: L("Why Diarrhoea Is So Dangerous, and How to Check Dehydration"),
+        title: L("Why Diarrhoea Is So Dangerous, and How to Check Dehydration", "విరేచనాలు ఎందుకు అంత ప్రమాదకరం, డీహైడ్రేషన్‌ను ఎలా పరీక్షించాలి", "வயிற்றுப்போக்கு ஏன் மிகவும் ஆபத்தானது, நீர்ச்சத்து குறைவை எப்படி சரிபார்ப்பது", "ಭೇದಿ ಏಕೆ ಇಷ್ಟು ಅಪಾಯಕಾರಿ, ನಿರ್ಜಲೀಕರಣವನ್ನು ಹೇಗೆ ಪರೀಕ್ಷಿಸುವುದು", "दस्त इतने ख़तरनाक क्यों हैं, और डिहाइड्रेशन (पानी की कमी) कैसे जांचें"),
         teach: [
           {
             type: "text",
-            heading: L("Diarrhoea Is Dangerous Because of What It Takes Away"),
+            heading: L("Diarrhoea Is Dangerous Because of What It Takes Away", "విరేచనాలు ఏం తీసేస్తాయి అనే దాని వల్లే అవి ప్రమాదకరం", "வயிற்றுப்போக்கு எதை எடுத்துச் செல்கிறது என்பதால் தான் அது ஆபத்தானது", "ಭೇದಿ ಏನನ್ನು ತೆಗೆದುಕೊಂಡು ಹೋಗುತ್ತದೆ ಎಂಬ ಕಾರಣಕ್ಕೆ ಅದು ಅಪಾಯಕಾರಿ", "दस्त इसलिए ख़तरनाक हैं क्योंकि वे शरीर से क्या निकाल ले जाते हैं"),
             html: L(
-              "Calf diarrhoea can happen for many different reasons. Whatever the cause, the real danger is the same: the calf loses large amounts of water and body salts (<b>electrolytes</b>) very quickly through watery dung. That fluid loss alone can kill a calf fast — sometimes even before anyone works out the underlying cause."
+              "Calf diarrhoea can happen for many different reasons. Whatever the cause, the real danger is the same: the calf loses large amounts of water and body salts (<b>electrolytes</b>) very quickly through watery dung. That fluid loss alone can kill a calf fast — sometimes even before anyone works out the underlying cause.",
+              "దూడ విరేచనాలు అనేక కారణాల వల్ల రావచ్చు. కారణం ఏదైనా, నిజమైన ప్రమాదం ఒక్కటే: నీరులాంటి మలం ద్వారా దూడ చాలా వేగంగా అధిక మొత్తంలో నీరు, శరీర లవణాలు (<b>ఎలక్ట్రోలైట్స్</b>) కోల్పోతుంది. ఈ ద్రవ నష్టం ఒక్కటే దూడను వేగంగా చంపగలదు — కొన్నిసార్లు అసలు కారణం తెలుసుకునేలోపే.",
+              "கன்று வயிற்றுப்போக்கு பல்வேறு காரணங்களால் ஏற்படலாம். காரணம் எதுவாக இருந்தாலும், உண்மையான ஆபத்து ஒன்றே: நீர்த்த மலம் மூலம் கன்று மிக விரைவாக அதிக அளவு நீர் மற்றும் உடல் உப்புகளை (<b>எலக்ட்ரோலைட்டுகள்</b>) இழக்கிறது. இந்த திரவ இழப்பு மட்டுமே கன்றை விரைவாக கொல்லக்கூடும் — சில நேரங்களில் காரணத்தை யாரும் கண்டறியும் முன்பே.",
+              "ಕರುವಿನ ಭೇದಿ ಹಲವಾರು ಕಾರಣಗಳಿಂದ ಸಂಭವಿಸಬಹುದು. ಕಾರಣ ಏನೇ ಇರಲಿ, ನಿಜವಾದ ಅಪಾಯ ಒಂದೇ: ನೀರಿನಂತಹ ಸಗಣಿಯ ಮೂಲಕ ಕರು ಬಹಳ ವೇಗವಾಗಿ ಹೆಚ್ಚಿನ ಪ್ರಮಾಣದ ನೀರು ಮತ್ತು ದೇಹದ ಲವಣಗಳನ್ನು (<b>ಎಲೆಕ್ಟ್ರೋಲೈಟ್‌ಗಳು</b>) ಕಳೆದುಕೊಳ್ಳುತ್ತದೆ. ಈ ದ್ರವ ನಷ್ಟ ಒಂದೇ ಕರುವನ್ನು ವೇಗವಾಗಿ ಸಾಯಿಸಬಹುದು — ಕೆಲವೊಮ್ಮೆ ಕಾರಣ ತಿಳಿಯುವ ಮೊದಲೇ.",
+              "बछड़े के दस्त कई अलग-अलग वजहों से हो सकते हैं। वजह चाहे जो भी हो, असली ख़तरा एक ही है: पतले मल के ज़रिए बछड़ा बहुत तेज़ी से भारी मात्रा में पानी और शरीर के नमक (<b>इलेक्ट्रोलाइट्स</b>) खो देता है। सिर्फ़ यही पानी की कमी बछड़े की जान जल्दी ले सकती है — कभी-कभी असली वजह पता चलने से पहले ही।"
             ),
           },
           {
             type: "glossary",
-            term: L("Electrolytes"),
+            term: L("Electrolytes", "ఎలక్ట్రోలైట్స్", "எலக்ட்ரோலைட்டுகள்", "ಎಲೆಕ್ಟ್ರೋಲೈಟ್‌ಗಳು", "इलेक्ट्रोलाइट्स"),
             meaning: L(
-              "Salts the body needs to keep working properly. A calf with diarrhoea loses large amounts of these salts along with water, and it's this double loss — water and electrolytes together — that makes diarrhoea so dangerous."
+              "Salts the body needs to keep working properly. A calf with diarrhoea loses large amounts of these salts along with water, and it's this double loss — water and electrolytes together — that makes diarrhoea so dangerous.",
+              "శరీరం సరిగ్గా పనిచేయడానికి అవసరమైన లవణాలు. విరేచనాలు ఉన్న దూడ నీటితో పాటు ఈ లవణాలను కూడా అధిక మొత్తంలో కోల్పోతుంది, నీరు మరియు ఎలక్ట్రోలైట్స్ రెండూ కలిసి కోల్పోవడమే విరేచనాలను ఇంత ప్రమాదకరంగా చేస్తుంది.",
+              "உடல் சரியாக செயல்பட தேவைப்படும் உப்புகள். வயிற்றுப்போக்கு உள்ள கன்று நீருடன் இந்த உப்புகளையும் அதிக அளவில் இழக்கிறது, நீர் மற்றும் எலக்ட்ரோலைட்டுகள் இரண்டையும் ஒன்றாக இழப்பதே வயிற்றுப்போக்கை இவ்வளவு ஆபத்தானதாக ஆக்குகிறது.",
+              "ದೇಹ ಸರಿಯಾಗಿ ಕೆಲಸ ಮಾಡಲು ಬೇಕಾದ ಲವಣಗಳು. ಭೇದಿಯಿರುವ ಕರು ನೀರಿನ ಜೊತೆಗೆ ಈ ಲವಣಗಳನ್ನೂ ಹೆಚ್ಚಿನ ಪ್ರಮಾಣದಲ್ಲಿ ಕಳೆದುಕೊಳ್ಳುತ್ತದೆ, ನೀರು ಮತ್ತು ಎಲೆಕ್ಟ್ರೋಲೈಟ್‌ಗಳು ಎರಡನ್ನೂ ಒಟ್ಟಿಗೆ ಕಳೆದುಕೊಳ್ಳುವುದೇ ಭೇದಿಯನ್ನು ಇಷ್ಟು ಅಪಾಯಕಾರಿಯನ್ನಾಗಿ ಮಾಡುತ್ತದೆ.",
+              "शरीर के ठीक से काम करने के लिए ज़रूरी नमक। दस्त वाला बछड़ा पानी के साथ-साथ ये नमक भी भारी मात्रा में खो देता है, और पानी व इलेक्ट्रोलाइट्स दोनों का एक साथ निकल जाना ही दस्त को इतना ख़तरनाक बनाता है।"
             ),
           },
           {
             type: "example",
-            heading: L("How to Check 'Skin Tenting'"),
+            heading: L("How to Check 'Skin Tenting'", "'స్కిన్ టెంటింగ్' ఎలా పరీక్షించాలి", "'தோல் மடிப்பு' சோதனையை எப்படி செய்வது", "'ಚರ್ಮ ಮಡಚುವಿಕೆ' ಪರೀಕ್ಷೆ ಹೇಗೆ ಮಾಡುವುದು", "'स्किन टेंटिंग' कैसे जांचें"),
             text: L(
-              "Gently pinch and lift a small fold of skin — around the eye, neck or chest area — then let go. In a well-hydrated calf, the skin snaps back flat right away. If it stays raised for a few seconds before flattening out, that's called 'tenting', and the longer it takes to flatten, the more dehydrated the calf is."
+              "Gently pinch and lift a small fold of skin — around the eye, neck or chest area — then let go. In a well-hydrated calf, the skin snaps back flat right away. If it stays raised for a few seconds before flattening out, that's called 'tenting', and the longer it takes to flatten, the more dehydrated the calf is.",
+              "కళ్ళ దగ్గర, మెడ లేదా ఛాతీ ప్రాంతంలో చర్మాన్ని మెల్లగా చిన్న మడతగా పట్టుకుని పైకి లేపి, తర్వాత వదిలేయండి. తగినంత నీరు ఉన్న దూడలో చర్మం వెంటనే మామూలుగా అయిపోతుంది. కొన్ని సెకన్ల పాటు లేచి ఉండి తర్వాత సాధారణంగా అయితే దాన్ని 'టెంటింగ్' అంటారు, ఇది మామూలు స్థితికి రావడానికి ఎంత ఎక్కువ సమయం పడితే దూడలో నీటి కొరత అంత ఎక్కువగా ఉన్నట్టు.",
+              "கண், கழுத்து அல்லது மார்பு பகுதியில் தோலை மெதுவாக சிறிது மடித்து தூக்கி, பின்னர் விடுங்கள். போதுமான நீர்ச்சத்து உள்ள கன்றில் தோல் உடனடியாக பழைய நிலைக்குத் திரும்பும். சில வினாடிகள் உயர்ந்தே இருந்து பின்னர் தட்டையாகிவிட்டால், அதை 'மடிப்பு' (tenting) என்கிறோம், இது தட்டையாக ஆக எவ்வளவு நேரம் எடுக்குமோ, கன்றின் நீர்ச்சத்து குறைவு அவ்வளவு அதிகம்.",
+              "ಕಣ್ಣು, ಕುತ್ತಿಗೆ ಅಥವಾ ಎದೆಯ ಭಾಗದಲ್ಲಿ ಚರ್ಮವನ್ನು ನಿಧಾನವಾಗಿ ಸಣ್ಣ ಮಡಿಕೆಯಾಗಿ ಹಿಡಿದು ಮೇಲಕ್ಕೆತ್ತಿ, ನಂತರ ಬಿಡಿ. ಸಾಕಷ್ಟು ನೀರಿರುವ ಕರುವಿನಲ್ಲಿ ಚರ್ಮ ತಕ್ಷಣ ಮೊದಲಿನಂತೆ ಆಗುತ್ತದೆ. ಕೆಲವು ಸೆಕೆಂಡುಗಳ ಕಾಲ ಎತ್ತರವಾಗಿಯೇ ಇದ್ದು ನಂತರ ಸಮತಟ್ಟಾದರೆ, ಅದನ್ನು 'ಟೆಂಟಿಂಗ್' ಎನ್ನುತ್ತಾರೆ, ಇದು ಸಮತಟ್ಟಾಗಲು ಎಷ್ಟು ಹೆಚ್ಚು ಸಮಯ ತೆಗೆದುಕೊಳ್ಳುತ್ತದೋ, ಕರುವಿನ ನಿರ್ಜಲೀಕರಣ ಅಷ್ಟು ಹೆಚ್ಚು.",
+              "आंख, गर्दन या छाती के आस-पास की त्वचा को हल्के से चुटकी में पकड़कर थोड़ा ऊपर उठाएं, फिर छोड़ दें। पर्याप्त पानी वाले बछड़े में त्वचा तुरंत वापस अपनी जगह आ जाती है। अगर वह कुछ सेकंड तक उठी रहकर फिर सपाट हो, तो इसे 'टेंटिंग' कहते हैं, और सपाट होने में जितना ज़्यादा समय लगे, बछड़े में पानी की कमी उतनी ही ज़्यादा समझी जाती है।"
             ),
           },
           {
             type: "stat-grid",
             items: [
               {
-                label: L("Up to 5% dehydrated"),
-                text: L("No symptoms — the calf looks normal."),
+                label: L("Up to 5% dehydrated", "5% వరకు నీటి కొరత", "5% வரை நீர்ச்சத்து குறைவு", "5% ವರೆಗೆ ನಿರ್ಜಲೀಕರಣ", "5% तक पानी की कमी"),
+                text: L("No symptoms — the calf looks normal.", "ఎలాంటి లక్షణాలు లేవు — దూడ మామూలుగా కనిపిస్తుంది.", "எந்த அறிகுறியும் இல்லை — கன்று சாதாரணமாகத் தெரிகிறது.", "ಯಾವುದೇ ಲಕ್ಷಣಗಳಿಲ್ಲ — ಕರು ಸಾಮಾನ್ಯವಾಗಿ ಕಾಣುತ್ತದೆ.", "कोई लक्षण नहीं — बछड़ा सामान्य दिखता है।"),
               },
               {
-                label: L("5–6% dehydrated"),
-                text: L("Diarrhoea is present, but no other clinical signs; the calf still suckles strongly."),
+                label: L("5–6% dehydrated", "5–6% నీటి కొరత", "5–6% நீர்ச்சத்து குறைவு", "5–6% ನಿರ್ಜಲೀಕರಣ", "5–6% पानी की कमी"),
+                text: L("Diarrhoea is present, but no other clinical signs; the calf still suckles strongly.", "విరేచనాలు ఉన్నాయి, కానీ ఇతర లక్షణాలు లేవు; దూడ ఇంకా బలంగా పాలు తాగుతోంది.", "வயிற்றுப்போக்கு உள்ளது, ஆனால் வேறு அறிகுறிகள் இல்லை; கன்று இன்னும் வலிமையாக பால் குடிக்கிறது.", "ಭೇದಿ ಇದೆ, ಆದರೆ ಬೇರೆ ಯಾವುದೇ ಲಕ್ಷಣಗಳಿಲ್ಲ; ಕರು ಇನ್ನೂ ಬಲವಾಗಿ ಹಾಲು ಕುಡಿಯುತ್ತಿದೆ.", "दस्त हैं, लेकिन कोई और लक्षण नहीं; बछड़ा अभी भी अच्छी तरह दूध पी रहा है।"),
               },
               {
-                label: L("6–8% dehydrated"),
-                text: L("Mild dullness, skin stays tented 2–6 seconds, eyes look a little sunken, calf is weak but still suckling."),
+                label: L("6–8% dehydrated", "6–8% నీటి కొరత", "6–8% நீர்ச்சத்து குறைவு", "6–8% ನಿರ್ಜಲೀಕರಣ", "6–8% पानी की कमी"),
+                text: L("Mild dullness, skin stays tented 2–6 seconds, eyes look a little sunken, calf is weak but still suckling.", "కొద్దిగా నీరసంగా ఉంటుంది, చర్మం 2–6 సెకన్లు లేచి ఉంటుంది, కళ్ళు కొద్దిగా లోతుకుపోయినట్టు కనిపిస్తాయి, దూడ బలహీనంగా ఉన్నా ఇంకా పాలు తాగుతోంది.", "லேசான சோர்வு, தோல் 2–6 வினாடிகள் மடிந்தே இருக்கும், கண்கள் சற்று உள்ளே பள்ளமாகத் தெரியும், கன்று பலவீனமாக இருந்தாலும் பால் குடிக்கிறது.", "ಸ್ವಲ್ಪ ಜಡತ್ವ, ಚರ್ಮ 2–6 ಸೆಕೆಂಡುಗಳ ಕಾಲ ಮಡಚಿಯೇ ಇರುತ್ತದೆ, ಕಣ್ಣುಗಳು ಸ್ವಲ್ಪ ಒಳಸೇರಿದಂತೆ ಕಾಣುತ್ತವೆ, ಕರು ದುರ್ಬಲವಾಗಿದ್ದರೂ ಇನ್ನೂ ಹಾಲು ಕುಡಿಯುತ್ತಿದೆ.", "हल्की सुस्ती, त्वचा 2–6 सेकंड तक उठी रहती है, आंखें थोड़ी धंसी दिखती हैं, बछड़ा कमज़ोर है पर अभी भी दूध पी रहा है।"),
               },
             ],
           },
@@ -2829,130 +2901,150 @@ export const MODULES = [
             type: "stat-grid",
             items: [
               {
-                label: L("8–10% dehydrated"),
-                text: L("Clearly dull and lying down, eyes very sunken, gums dry, skin stays tented for more than 6 seconds."),
+                label: L("8–10% dehydrated", "8–10% నీటి కొరత", "8–10% நீர்ச்சத்து குறைவு", "8–10% ನಿರ್ಜಲೀಕರಣ", "8–10% पानी की कमी"),
+                text: L("Clearly dull and lying down, eyes very sunken, gums dry, skin stays tented for more than 6 seconds.", "స్పష్టంగా నీరసంగా పడుకుని ఉంటుంది, కళ్ళు బాగా లోతుకుపోతాయి, చిగుళ్ళు పొడిగా ఉంటాయి, చర్మం 6 సెకన్ల కంటే ఎక్కువసేపు లేచి ఉంటుంది.", "தெளிவாக சோர்வுடன் படுத்திருக்கும், கண்கள் மிகவும் பள்ளமாக இருக்கும், ஈறுகள் வறண்டிருக்கும், தோல் 6 வினாடிகளுக்கு மேல் மடிந்தே இருக்கும்.", "ಸ್ಪಷ್ಟವಾಗಿ ಜಡವಾಗಿ ಮಲಗಿರುತ್ತದೆ, ಕಣ್ಣುಗಳು ತುಂಬಾ ಒಳಸೇರಿರುತ್ತವೆ, ಒಸಡುಗಳು ಒಣಗಿರುತ್ತವೆ, ಚರ್ಮ 6 ಸೆಕೆಂಡುಗಳಿಗಿಂತ ಹೆಚ್ಚು ಕಾಲ ಮಡಚಿಯೇ ಇರುತ್ತದೆ.", "साफ़ तौर पर सुस्त होकर लेटा रहता है, आंखें बहुत धंसी होती हैं, मसूड़े सूखे होते हैं, त्वचा 6 सेकंड से ज़्यादा देर तक उठी रहती है।"),
               },
               {
-                label: L("10–14% dehydrated"),
-                text: L("Cannot stand, extremities feel cool, skin remains tented, calf is unconscious (comatose)."),
+                label: L("10–14% dehydrated", "10–14% నీటి కొరత", "10–14% நீர்ச்சத்து குறைவு", "10–14% ನಿರ್ಜಲೀಕರಣ", "10–14% पानी की कमी"),
+                text: L("Cannot stand, extremities feel cool, skin remains tented, calf is unconscious (comatose).", "నిలబడలేదు, కాళ్ళు-తోక వంటి భాగాలు చల్లగా అనిపిస్తాయి, చర్మం లేచి అలాగే ఉండిపోతుంది, దూడ స్పృహ కోల్పోతుంది.", "நிற்க முடியாது, கை கால் பகுதிகள் குளிராக இருக்கும், தோல் மடிந்தே இருக்கும், கன்று மயக்க நிலையில் இருக்கும்.", "ನಿಲ್ಲಲಾಗುವುದಿಲ್ಲ, ಕಾಲುಗಳಂತಹ ಭಾಗಗಳು ತಣ್ಣಗಿರುತ್ತವೆ, ಚರ್ಮ ಮಡಚಿಯೇ ಉಳಿಯುತ್ತದೆ, ಕರು ಪ್ರಜ್ಞೆ ತಪ್ಪುತ್ತದೆ.", "खड़ा नहीं हो पाता, हाथ-पांव ठंडे लगते हैं, त्वचा उठी ही रह जाती है, बछड़ा बेहोश हो जाता है।"),
               },
               {
-                label: L("Over 14% dehydrated"),
-                text: L("This level of dehydration leads to death."),
+                label: L("Over 14% dehydrated", "14% కంటే ఎక్కువ నీటి కొరత", "14%க்கும் அதிகமான நீர்ச்சத்து குறைவு", "14% ಗಿಂತ ಹೆಚ್ಚಿನ ನಿರ್ಜಲೀಕರಣ", "14% से ज़्यादा पानी की कमी"),
+                text: L("This level of dehydration leads to death.", "ఈ స్థాయి నీటి కొరత మరణానికి దారితీస్తుంది.", "இந்த அளவு நீர்ச்சத்து குறைவு மரணத்திற்கு வழிவகுக்கும்.", "ಈ ಮಟ್ಟದ ನಿರ್ಜಲೀಕರಣ ಸಾವಿಗೆ ಕಾರಣವಾಗುತ್ತದೆ.", "पानी की कमी के इस स्तर पर मौत हो सकती है।"),
               },
             ],
           },
           {
             type: "callout",
             style: "warning",
-            heading: L("Above 8% Needs a Vet Right Now"),
+            heading: L("Above 8% Needs a Vet Right Now", "8% కంటే ఎక్కువ ఉంటే వెంటనే వెటర్నరీ డాక్టర్ కావాలి", "8%க்கு மேல் இருந்தால் இப்போதே டாக்டர் தேவை", "8% ಗಿಂತ ಹೆಚ್ಚಿದ್ದರೆ ಈಗಲೇ ಪಶುವೈದ್ಯರು ಬೇಕು", "8% से ज़्यादा हो तो अभी डॉक्टर चाहिए"),
             text: L(
-              "Once a calf shows more than 8% dehydration, it needs immediate intravenous (into-the-vein) fluid therapy from a veterinarian. This is not something to wait on — contact the veterinarian immediately."
+              "Once a calf shows more than 8% dehydration, it needs immediate intravenous (into-the-vein) fluid therapy from a veterinarian. This is not something to wait on — contact the veterinarian immediately.",
+              "దూడలో 8% కంటే ఎక్కువ నీటి కొరత కనిపిస్తే, వెంటనే వెటర్నరీ డాక్టర్ ద్వారా సిర ద్వారా (ఇంట్రావీనస్) ద్రవాలు ఎక్కించాలి. దీన్ని ఆలస్యం చేయకూడదు — వెంటనే వెటర్నరీ డాక్టర్‌ను సంప్రదించండి.",
+              "கன்றில் 8%க்கு மேல் நீர்ச்சத்து குறைவு தெரிந்தால், உடனடியாக நரம்பு வழியாக (இன்ட்ராவீனஸ்) திரவம் ஏற்ற வெட்டரினரி டாக்டர் தேவை. இதை தாமதப்படுத்தக் கூடாது — உடனே டாக்டரை தொடர்பு கொள்ளுங்கள்.",
+              "ಕರುವಿನಲ್ಲಿ 8% ಗಿಂತ ಹೆಚ್ಚು ನಿರ್ಜಲೀಕರಣ ಕಂಡುಬಂದರೆ, ತಕ್ಷಣ ಪಶುವೈದ್ಯರಿಂದ ರಕ್ತನಾಳದ ಮೂಲಕ (ಇಂಟ್ರಾವೀನಸ್) ದ್ರವ ಚಿಕಿತ್ಸೆ ಬೇಕಾಗುತ್ತದೆ. ಇದನ್ನು ತಡಮಾಡಬಾರದು — ತಕ್ಷಣ ಪಶುವೈದ್ಯರನ್ನು ಸಂಪರ್ಕಿಸಿ.",
+              "बछड़े में 8% से ज़्यादा पानी की कमी दिखे तो उसे तुरंत डॉक्टर द्वारा नस के ज़रिए (इंट्रावीनस) तरल चढ़ाने की ज़रूरत होती है। इसमें देरी नहीं करनी चाहिए — तुरंत डॉक्टर से संपर्क करें।"
             ),
           },
         ],
         check: [
           {
             type: "mcq",
-            q: L("What does it mean if a pinched fold of skin stays 'tented' for more than 6 seconds before flattening?"),
+            q: L("What does it mean if a pinched fold of skin stays 'tented' for more than 6 seconds before flattening?", "చర్మాన్ని పట్టుకుని వదిలిన తర్వాత 6 సెకన్ల కంటే ఎక్కువసేపు 'లేచి' ఉంటే దాని అర్థం ఏమిటి?", "தோலை மடித்து விட்ட பிறகு அது தட்டையாக ஆக 6 வினாடிகளுக்கு மேல் 'மடிந்தே' இருந்தால் அதன் அர்த்தம் என்ன?", "ಚರ್ಮವನ್ನು ಹಿಡಿದು ಬಿಟ್ಟ ನಂತರ ಅದು 6 ಸೆಕೆಂಡುಗಳಿಗಿಂತ ಹೆಚ್ಚು ಕಾಲ 'ಮಡಚಿಯೇ' ಇದ್ದರೆ ಅದರ ಅರ್ಥವೇನು?", "अगर त्वचा को चुटकी में पकड़कर छोड़ने पर वह 6 सेकंड से ज़्यादा देर तक 'उठी' रहे, तो इसका क्या मतलब है?"),
             options: [
-              L("The calf is perfectly hydrated"),
-              L("The calf is seriously dehydrated"),
-              L("The calf has been vaccinated"),
-              L("It means nothing on its own"),
+              L("The calf is perfectly hydrated", "దూడలో నీటి కొరత అస్సలు లేదు", "கன்றுக்கு போதுமான நீர்ச்சத்து உள்ளது", "ಕರುವಿಗೆ ಸಾಕಷ್ಟು ನೀರಿದೆ", "बछड़े में पानी की कोई कमी नहीं है"),
+              L("The calf is seriously dehydrated", "దూడలో తీవ్రమైన నీటి కొరత ఉంది", "கன்றுக்கு கடுமையான நீர்ச்சத்து குறைவு உள்ளது", "ಕರುವಿನಲ್ಲಿ ತೀವ್ರ ನಿರ್ಜಲೀಕರಣ ಇದೆ", "बछड़े में गंभीर पानी की कमी है"),
+              L("The calf has been vaccinated", "దూడకు టీకా వేయబడింది", "கன்றுக்கு தடுப்பூசி போடப்பட்டுள்ளது", "ಕರುವಿಗೆ ಲಸಿಕೆ ಹಾಕಲಾಗಿದೆ", "बछड़े को टीका लगाया गया है"),
+              L("It means nothing on its own", "దీనికి ఒంటరిగా ఎలాంటి అర్థం లేదు", "இது தனியாக எதையும் குறிக்காது", "ಇದು ಒಂದೇ ಆಗಿ ಏನನ್ನೂ ಸೂಚಿಸುವುದಿಲ್ಲ", "यह अपने आप में कुछ नहीं दर्शाता"),
             ],
             answer: 1,
-            explain: L("Skin that stays tented for a long time is a sign of significant dehydration — the longer it stays raised, the more severe the dehydration."),
+            explain: L("Skin that stays tented for a long time is a sign of significant dehydration — the longer it stays raised, the more severe the dehydration.", "చాలాసేపు లేచి ఉండే చర్మం గణనీయమైన నీటి కొరతకు సంకేతం — ఎంత ఎక్కువసేపు లేచి ఉంటే నీటి కొరత అంత తీవ్రంగా ఉందని అర్థం.", "நீண்ட நேரம் மடிந்தே இருக்கும் தோல் குறிப்பிடத்தக்க நீர்ச்சத்து குறைவின் அறிகுறி — எவ்வளவு நேரம் அது உயர்ந்தே இருக்குமோ, நீர்ச்சத்து குறைவு அவ்வளவு கடுமையானது.", "ಬಹಳ ಹೊತ್ತು ಮಡಚಿಯೇ ಇರುವ ಚರ್ಮ ಗಮನಾರ್ಹ ನಿರ್ಜಲೀಕರಣದ ಸೂಚನೆ — ಅದು ಎಷ್ಟು ಹೆಚ್ಚು ಹೊತ್ತು ಎತ್ತರವಾಗಿಯೇ ಇರುತ್ತದೋ, ನಿರ್ಜಲೀಕರಣ ಅಷ್ಟು ತೀವ್ರವಾಗಿದೆ ಎಂದರ್ಥ.", "जो त्वचा लंबे समय तक उठी रहती है, वह पानी की गंभीर कमी का संकेत है — जितनी देर तक वह उठी रहे, पानी की कमी उतनी ही गंभीर समझी जाती है।"),
           },
           {
             type: "truefalse",
-            q: L("A calf with more than 8% dehydration needs immediate veterinary attention for intravenous fluids."),
+            q: L("A calf with more than 8% dehydration needs immediate veterinary attention for intravenous fluids.", "8% కంటే ఎక్కువ నీటి కొరత ఉన్న దూడకు వెంటనే సిర ద్వారా ద్రవాలు ఎక్కించే వైద్య సహాయం అవసరం.", "8%க்கு மேல் நீர்ச்சத்து குறைவு உள்ள கன்றுக்கு உடனடியாக நரம்பு வழி திரவம் தேவை.", "8% ಗಿಂತ ಹೆಚ್ಚು ನಿರ್ಜಲೀಕರಣ ಇರುವ ಕರುವಿಗೆ ತಕ್ಷಣ ರಕ್ತನಾಳದ ಮೂಲಕ ದ್ರವ ಚಿಕಿತ್ಸೆ ಬೇಕಾಗುತ್ತದೆ.", "8% से ज़्यादा पानी की कमी वाले बछड़े को तुरंत नस के ज़रिए तरल चढ़ाने की ज़रूरत होती है।"),
             answer: true,
-            explain: L("Correct — beyond 8% dehydration, the calf needs urgent intravenous fluid therapy from a veterinarian, without delay."),
+            explain: L("Correct — beyond 8% dehydration, the calf needs urgent intravenous fluid therapy from a veterinarian, without delay.", "సరైనది — 8% కంటే ఎక్కువ నీటి కొరత ఉంటే, దూడకు వెంటనే వెటర్నరీ డాక్టర్ ద్వారా సిర ద్వారా ద్రవాలు ఎక్కించాలి, ఆలస్యం చేయకూడదు.", "சரி — 8%க்கு மேல் நீர்ச்சத்து குறைவு இருந்தால், கன்றுக்கு உடனடியாக டாக்டரிடமிருந்து நரம்பு வழி திரவ சிகிச்சை தேவை, தாமதம் இல்லாமல்.", "ಸರಿ — 8% ಗಿಂತ ಹೆಚ್ಚಿನ ನಿರ್ಜಲೀಕರಣವಿದ್ದರೆ, ಕರುವಿಗೆ ತಡಮಾಡದೆ ಪಶುವೈದ್ಯರಿಂದ ತುರ್ತು ರಕ್ತನಾಳದ ದ್ರವ ಚಿಕಿತ್ಸೆ ಬೇಕು.", "सही — 8% से ज़्यादा पानी की कमी होने पर बछड़े को बिना देरी किए डॉक्टर से नस के ज़रिए तरल चढ़ाने की तुरंत ज़रूरत होती है।"),
           },
         ],
       },
       {
         id: "t-m3-diarrhoea-action",
-        title: L("What to Do: Fluids, Reporting and Preventing It Next Time"),
+        title: L("What to Do: Fluids, Reporting and Preventing It Next Time", "ఏం చేయాలి: ద్రవాలు, తెలియజేయడం మరియు తర్వాతిసారి రాకుండా చూసుకోవడం", "என்ன செய்ய வேண்டும்: திரவங்கள், தெரிவிப்பது மற்றும் அடுத்த முறை தடுப்பது", "ಏನು ಮಾಡಬೇಕು: ದ್ರವಗಳು, ವರದಿ ಮಾಡುವುದು ಮತ್ತು ಮುಂದಿನ ಬಾರಿ ತಡೆಗಟ್ಟುವುದು", "क्या करें: तरल पदार्थ, सूचना देना और अगली बार रोकथाम"),
         teach: [
           {
             type: "text",
-            heading: L("Two Things to Do Right Away"),
+            heading: L("Two Things to Do Right Away", "వెంటనే చేయాల్సిన రెండు పనులు", "உடனடியாக செய்ய வேண்டிய இரண்டு விஷயங்கள்", "ತಕ್ಷಣ ಮಾಡಬೇಕಾದ ಎರಡು ಕೆಲಸಗಳು", "तुरंत करने वाले दो काम"),
             html: L(
-              "As soon as diarrhoea is noticed, two things should happen together: start replacing the fluids the calf is losing, and contact a veterinarian at the earliest to find the cause and get the right treatment. Your job is to act fast on the fluids and the reporting — never to diagnose the cause or choose medicines yourself."
+              "As soon as diarrhoea is noticed, two things should happen together: start replacing the fluids the calf is losing, and contact a veterinarian at the earliest to find the cause and get the right treatment. Your job is to act fast on the fluids and the reporting — never to diagnose the cause or choose medicines yourself.",
+              "విరేచనాలు గమనించిన వెంటనే, రెండు పనులు కలిపి చేయాలి: దూడ కోల్పోతున్న ద్రవాలను తిరిగి ఇవ్వడం మొదలుపెట్టడం, మరియు కారణం కనుక్కుని సరైన చికిత్స పొందేందుకు వీలైనంత త్వరగా వెటర్నరీ డాక్టర్‌ను సంప్రదించడం. ద్రవాలు ఇవ్వడం, డాక్టర్‌కు తెలియజేయడం వేగంగా చేయడమే మీ పని — కారణం నిర్ధారించడం లేదా మందులు ఎంచుకోవడం ఎప్పుడూ మీ పని కాదు.",
+              "வயிற்றுப்போக்கு கவனிக்கப்பட்டவுடன், இரண்டு விஷயங்கள் ஒன்றாக நடக்க வேண்டும்: கன்று இழக்கும் திரவத்தை மீண்டும் கொடுக்க தொடங்குவது, மற்றும் காரணத்தைக் கண்டறிந்து சரியான சிகிச்சை பெற முடிந்தவரை விரைவாக வெட்டரினரி டாக்டரை தொடர்பு கொள்வது. திரவங்கள் கொடுப்பதிலும் தெரிவிப்பதிலும் விரைவாக செயல்படுவதே உங்கள் வேலை — காரணத்தை கண்டறிவது அல்லது மருந்துகளை தேர்வு செய்வது ஒருபோதும் உங்கள் வேலை அல்ல.",
+              "ಭೇದಿ ಗಮನಕ್ಕೆ ಬಂದ ತಕ್ಷಣ, ಎರಡು ಕೆಲಸಗಳು ಒಟ್ಟಿಗೆ ನಡೆಯಬೇಕು: ಕರು ಕಳೆದುಕೊಳ್ಳುತ್ತಿರುವ ದ್ರವವನ್ನು ಮರುಪೂರೈಸಲು ಆರಂಭಿಸುವುದು, ಮತ್ತು ಕಾರಣ ಕಂಡುಹಿಡಿದು ಸರಿಯಾದ ಚಿಕಿತ್ಸೆ ಪಡೆಯಲು ಆದಷ್ಟು ಬೇಗ ಪಶುವೈದ್ಯರನ್ನು ಸಂಪರ್ಕಿಸುವುದು. ದ್ರವ ಕೊಡುವುದು ಮತ್ತು ವರದಿ ಮಾಡುವುದರಲ್ಲಿ ವೇಗವಾಗಿ ವರ್ತಿಸುವುದೇ ನಿಮ್ಮ ಕೆಲಸ — ಕಾರಣ ಪತ್ತೆ ಮಾಡುವುದು ಅಥವಾ ಔಷಧಿ ಆಯ್ಕೆ ಮಾಡುವುದು ಎಂದಿಗೂ ನಿಮ್ಮ ಕೆಲಸವಲ್ಲ.",
+              "दस्त दिखते ही, दो काम एक साथ करने चाहिए: बछड़ा जो तरल पदार्थ खो रहा है उसे फिर से देना शुरू करें, और वजह पता लगाकर सही इलाज पाने के लिए जल्द से जल्द डॉक्टर से संपर्क करें। तरल पदार्थ देने और सूचना देने में तेज़ी दिखाना आपका काम है — वजह तय करना या दवा चुनना कभी आपका काम नहीं है।"
             ),
           },
           {
             type: "callout",
             style: "info",
-            heading: L("Why Not Ordinary Sugar?"),
+            heading: L("Why Not Ordinary Sugar?", "సాధారణ చక్కెర ఎందుకు వాడకూడదు?", "வழக்கமான சர்க்கரை ஏன் கூடாது?", "ಸಾಮಾನ್ಯ ಸಕ್ಕರೆ ಏಕೆ ಬೇಡ?", "आम चीनी क्यों नहीं?"),
             text: L(
-              "Calves don't digest ordinary table sugar (sucrose) well. Adding it to a fluid solution can actually make diarrhoea worse, causing even more fluid and electrolyte loss. That's why glucose is used instead of sugar in the electrolyte solution."
+              "Calves don't digest ordinary table sugar (sucrose) well. Adding it to a fluid solution can actually make diarrhoea worse, causing even more fluid and electrolyte loss. That's why glucose is used instead of sugar in the electrolyte solution.",
+              "దూడలు సాధారణ చక్కెర (సుక్రోజ్)ను సరిగ్గా జీర్ణించుకోలేవు. దాన్ని ద్రావణంలో కలిపితే విరేచనాలు మరింత తీవ్రమయ్యే అవకాశం ఉంది, దీనివల్ల మరింత ద్రవం, లవణాలు కోల్పోతాయి. అందుకే ఎలక్ట్రోలైట్ ద్రావణంలో చక్కెరకు బదులు గ్లూకోజ్ వాడతారు.",
+              "கன்றுகள் வழக்கமான சர்க்கரையை (சுக்ரோஸ்) நன்றாக செரிக்காது. அதை திரவக் கரைசலில் சேர்த்தால் வயிற்றுப்போக்கு மேலும் மோசமாகி, இன்னும் அதிக திரவம் மற்றும் உப்பு இழப்பை ஏற்படுத்தலாம். அதனால்தான் எலக்ட்ரோலைட் கரைசலில் சர்க்கரைக்கு பதிலாக குளுக்கோஸ் பயன்படுத்தப்படுகிறது.",
+              "ಕರುಗಳು ಸಾಮಾನ್ಯ ಸಕ್ಕರೆಯನ್ನು (ಸುಕ್ರೋಸ್) ಸರಿಯಾಗಿ ಜೀರ್ಣಿಸಿಕೊಳ್ಳುವುದಿಲ್ಲ. ಅದನ್ನು ದ್ರವ ದ್ರಾವಣಕ್ಕೆ ಸೇರಿಸಿದರೆ ಭೇದಿ ಇನ್ನಷ್ಟು ಹದಗೆಟ್ಟು, ಇನ್ನಷ್ಟು ದ್ರವ ಮತ್ತು ಲವಣ ನಷ್ಟಕ್ಕೆ ಕಾರಣವಾಗಬಹುದು. ಅದಕ್ಕಾಗಿಯೇ ಎಲೆಕ್ಟ್ರೋಲೈಟ್ ದ್ರಾವಣದಲ್ಲಿ ಸಕ್ಕರೆಯ ಬದಲು ಗ್ಲೂಕೋಸ್ ಬಳಸಲಾಗುತ್ತದೆ.",
+              "बछड़े साधारण चीनी (सुक्रोज़) को ठीक से नहीं पचा पाते। इसे घोल में मिलाने से दस्त और बिगड़ सकते हैं, जिससे और ज़्यादा पानी और नमक निकल सकता है। इसीलिए इलेक्ट्रोलाइट घोल में चीनी की जगह ग्लूकोज़ इस्तेमाल किया जाता है।"
             ),
           },
           {
             type: "ledger",
-            heading: L("Home Electrolyte Solution (for 1 litre of warm water)"),
+            heading: L("Home Electrolyte Solution (for 1 litre of warm water)", "ఇంట్లో తయారుచేసే ఎలక్ట్రోలైట్ ద్రావణం (1 లీటరు గోరువెచ్చని నీటికి)", "வீட்டு எலக்ட்ரோலைட் கரைசல் (1 லிட்டர் வெதுவெதுப்பான தண்ணீருக்கு)", "ಮನೆಯಲ್ಲಿ ತಯಾರಿಸುವ ಎಲೆಕ್ಟ್ರೋಲೈಟ್ ದ್ರಾವಣ (1 ಲೀಟರ್ ಬೆಚ್ಚಗಿನ ನೀರಿಗೆ)", "घरेलू इलेक्ट्रोलाइट घोल (1 लीटर गुनगुने पानी के लिए)"),
             rows: [
-              { label: L("Glucose"), amount: "5 teaspoons" },
-              { label: L("Soda bi-carbonate"), amount: "1 teaspoon" },
-              { label: L("Table salt"), amount: "1 teaspoon" },
+              { label: L("Glucose", "గ్లూకోజ్", "குளுக்கோஸ்", "ಗ್ಲೂಕೋಸ್", "ग्लूकोज़"), amount: "5 teaspoons" },
+              { label: L("Soda bi-carbonate", "సోడా బై-కార్బొనేట్", "சோடா பை-கார்பனேட்", "ಸೋಡಾ ಬೈ-ಕಾರ್ಬೊನೇಟ್", "सोडा बाई-कार्बोनेट"), amount: "1 teaspoon" },
+              { label: L("Table salt", "సాధారణ ఉప్పు", "சாதாரண உப்பு", "ಸಾಮಾನ್ಯ ಉಪ್ಪು", "आम नमक"), amount: "1 teaspoon" },
             ],
-            total: { label: L("Feed"), amount: "2–4 litres of this solution every day" },
+            total: { label: L("Feed", "త్రాగించండి", "கொடுங்கள்", "ಕುಡಿಸಿ", "पिलाएं"), amount: "2–4 litres of this solution every day" },
           },
           {
             type: "callout",
             style: "tip",
-            heading: L("This Solution Is Extra, Not a Replacement"),
+            heading: L("This Solution Is Extra, Not a Replacement", "ఈ ద్రావణం అదనంగా ఇవ్వాలి, బదులుగా కాదు", "இந்த கரைசல் கூடுதலானது, மாற்று அல்ல", "ಈ ದ್ರಾವಣ ಹೆಚ್ಚುವರಿಯಾಗಿ ಕೊಡಬೇಕು, ಬದಲಿಯಾಗಿ ಅಲ್ಲ", "यह घोल अतिरिक्त है, बदले में नहीं"),
             text: L(
-              "The electrolyte solution should be fed in addition to the calf's normal feeding, not instead of it. Keep feeding as usual, and add the electrolyte solution on top."
+              "The electrolyte solution should be fed in addition to the calf's normal feeding, not instead of it. Keep feeding as usual, and add the electrolyte solution on top.",
+              "ఎలక్ట్రోలైట్ ద్రావణాన్ని దూడ మామూలు ఆహారానికి అదనంగా ఇవ్వాలి, దానికి బదులుగా కాదు. మామూలుగా ఆహారం ఇస్తూనే, పైగా ఈ ద్రావణాన్ని కూడా ఇవ్వండి.",
+              "எலக்ட்ரோலைட் கரைசலை கன்றின் வழக்கமான உணவுக்கு கூடுதலாக கொடுக்க வேண்டும், அதற்கு பதிலாக அல்ல. வழக்கம் போல் உணவளித்து, மேலும் இந்த கரைசலையும் சேர்த்து கொடுங்கள்.",
+              "ಎಲೆಕ್ಟ್ರೋಲೈಟ್ ದ್ರಾವಣವನ್ನು ಕರುವಿನ ಸಾಮಾನ್ಯ ಆಹಾರಕ್ಕೆ ಹೆಚ್ಚುವರಿಯಾಗಿ ಕೊಡಬೇಕು, ಅದರ ಬದಲಿಗೆ ಅಲ್ಲ. ಎಂದಿನಂತೆ ಆಹಾರ ಕೊಡುತ್ತಾ, ಈ ದ್ರಾವಣವನ್ನೂ ಹೆಚ್ಚುವರಿಯಾಗಿ ಸೇರಿಸಿ.",
+              "इलेक्ट्रोलाइट घोल बछड़े के सामान्य आहार के साथ अतिरिक्त रूप से देना चाहिए, उसकी जगह नहीं। हमेशा की तरह खिलाते रहें, और ऊपर से यह घोल भी दें।"
             ),
           },
           {
             type: "stat-grid",
             items: [
               {
-                label: L("Colostrum Within 6 Hours"),
-                text: L("Make sure the calf gets adequate colostrum within 6 hours of birth — this is what gives it the immunity to fight off infections like diarrhoea."),
+                label: L("Colostrum Within 6 Hours", "6 గంటల్లోపు జున్ను", "6 மணி நேரத்திற்குள் கொழுந்து பால்", "6 ಗಂಟೆಗಳ ಒಳಗೆ ಗಿಣ್ಣುಹಾಲು", "6 घंटे के भीतर खीस"),
+                text: L("Make sure the calf gets adequate colostrum within 6 hours of birth — this is what gives it the immunity to fight off infections like diarrhoea.", "పుట్టిన 6 గంటల్లోపు దూడకు తగినంత జున్ను అందేలా చూసుకోండి — విరేచనాల వంటి ఇన్ఫెక్షన్లతో పోరాడేందుకు ఇదే దూడకు రోగనిరోధక శక్తినిస్తుంది.", "பிறந்த 6 மணி நேரத்திற்குள் கன்றுக்கு போதுமான கொழுந்து பால் கிடைப்பதை உறுதி செய்யுங்கள் — வயிற்றுப்போக்கு போன்ற தொற்றுகளை எதிர்த்துப் போராட இதுவே நோய் எதிர்ப்பு சக்தியை கொடுக்கிறது.", "ಹುಟ್ಟಿದ 6 ಗಂಟೆಗಳ ಒಳಗೆ ಕರುವಿಗೆ ಸಾಕಷ್ಟು ಗಿಣ್ಣುಹಾಲು ಸಿಗುವಂತೆ ನೋಡಿಕೊಳ್ಳಿ — ಭೇದಿಯಂತಹ ಸೋಂಕುಗಳ ವಿರುದ್ಧ ಹೋರಾಡಲು ಇದೇ ರೋಗ ನಿರೋಧಕ ಶಕ್ತಿಯನ್ನು ನೀಡುತ್ತದೆ.", "जन्म के 6 घंटे के भीतर बछड़े को पर्याप्त खीस मिले, यह सुनिश्चित करें — दस्त जैसे संक्रमणों से लड़ने की ताकत यही देता है।"),
               },
               {
-                label: L("Clean, Dry Surroundings"),
-                text: L("Keep the calf in a hygienic, dry environment."),
+                label: L("Clean, Dry Surroundings", "శుభ్రమైన, పొడి వాతావరణం", "சுத்தமான, உலர்ந்த சூழல்", "ಸ್ವಚ್ಛ, ಒಣ ಪರಿಸರ", "साफ़, सूखा माहौल"),
+                text: L("Keep the calf in a hygienic, dry environment.", "దూడను శుభ్రమైన, పొడి వాతావరణంలో ఉంచండి.", "கன்றை சுத்தமான, உலர்ந்த சூழலில் வைத்திருங்கள்.", "ಕರುವನ್ನು ಸ್ವಚ್ಛ, ಒಣ ಪರಿಸರದಲ್ಲಿ ಇರಿಸಿ.", "बछड़े को साफ़-सुथरे, सूखे माहौल में रखें।"),
               },
               {
-                label: L("Clean Udder Before Suckling"),
-                text: L("Make sure the mother's udder is clean before letting the calf suckle."),
+                label: L("Clean Udder Before Suckling", "పాలు తాగించే ముందు పొదుగు శుభ్రం చేయండి", "பால் கொடுப்பதற்கு முன் மடியை சுத்தம் செய்யவும்", "ಹಾಲುಣಿಸುವ ಮೊದಲು ಕೆಚ್ಚಲನ್ನು ಸ್ವಚ್ಛಗೊಳಿಸಿ", "दूध पिलाने से पहले थन साफ़ करें"),
+                text: L("Make sure the mother's udder is clean before letting the calf suckle.", "దూడకు పాలు తాగించే ముందు తల్లి పొదుగు శుభ్రంగా ఉందని నిర్ధారించుకోండి.", "கன்று பால் குடிக்க அனுமதிக்கும் முன் தாயின் மடி சுத்தமாக இருப்பதை உறுதி செய்யவும்.", "ಕರುವಿಗೆ ಹಾಲುಣಿಸುವ ಮೊದಲು ತಾಯಿಯ ಕೆಚ್ಚಲು ಸ್ವಚ್ಛವಾಗಿದೆ ಎಂದು ಖಚಿತಪಡಿಸಿಕೊಳ್ಳಿ.", "बछड़े को दूध पिलाने से पहले माँ का थन साफ़ है, यह सुनिश्चित करें।"),
               },
             ],
           },
           {
             type: "callout",
             style: "warning",
-            heading: L("Never Decide the Cause or the Treatment Yourself"),
+            heading: L("Never Decide the Cause or the Treatment Yourself", "కారణం లేదా చికిత్సను మీరే నిర్ణయించుకోకండి", "காரணத்தையோ சிகிச்சையையோ நீங்களே தீர்மானிக்காதீர்கள்", "ಕಾರಣ ಅಥವಾ ಚಿಕಿತ್ಸೆಯನ್ನು ನೀವೇ ನಿರ್ಧರಿಸಬೇಡಿ", "वजह या इलाज खुद तय न करें"),
             text: L(
-              "Working out exactly why a calf has diarrhoea, and choosing the right treatment, is always the veterinarian's job. Your job is to notice it early, start fluid replacement, keep things clean, and call the veterinarian at the earliest — especially if you see any sign of dehydration above 8%."
+              "Working out exactly why a calf has diarrhoea, and choosing the right treatment, is always the veterinarian's job. Your job is to notice it early, start fluid replacement, keep things clean, and call the veterinarian at the earliest — especially if you see any sign of dehydration above 8%.",
+              "దూడకు విరేచనాలు ఎందుకు వచ్చాయో ఖచ్చితంగా కనుక్కోవడం, సరైన చికిత్స ఎంచుకోవడం ఎప్పుడూ వెటర్నరీ డాక్టర్ పనే. మీ పని దాన్ని ముందుగా గమనించడం, ద్రవాలు ఇవ్వడం మొదలుపెట్టడం, పరిశుభ్రత పాటించడం, వీలైనంత త్వరగా డాక్టర్‌కు కాల్ చేయడం — ముఖ్యంగా 8% కంటే ఎక్కువ నీటి కొరత సంకేతం కనిపిస్తే.",
+              "கன்றுக்கு ஏன் வயிற்றுப்போக்கு வந்தது என்பதை சரியாக கண்டறிவது, சரியான சிகிச்சையை தேர்வு செய்வது எப்போதும் வெட்டரினரி டாக்டரின் வேலை. உங்கள் வேலை அதை முன்கூட்டியே கவனிப்பது, திரவம் கொடுக்க தொடங்குவது, சுத்தம் பராமரிப்பது, முடிந்தவரை விரைவாக டாக்டரை அழைப்பது — குறிப்பாக 8%க்கு மேல் நீர்ச்சத்து குறைவின் அறிகுறி தெரிந்தால்.",
+              "ಕರುವಿಗೆ ಏಕೆ ಭೇದಿ ಬಂತು ಎಂದು ನಿಖರವಾಗಿ ಕಂಡುಹಿಡಿಯುವುದು, ಸರಿಯಾದ ಚಿಕಿತ್ಸೆ ಆಯ್ಕೆ ಮಾಡುವುದು ಯಾವಾಗಲೂ ಪಶುವೈದ್ಯರ ಕೆಲಸ. ನಿಮ್ಮ ಕೆಲಸ ಅದನ್ನು ಮೊದಲೇ ಗಮನಿಸುವುದು, ದ್ರವ ಪೂರೈಕೆ ಆರಂಭಿಸುವುದು, ಸ್ವಚ್ಛತೆ ಕಾಪಾಡುವುದು, ಆದಷ್ಟು ಬೇಗ ಪಶುವೈದ್ಯರಿಗೆ ಕರೆ ಮಾಡುವುದು — ವಿಶೇಷವಾಗಿ 8% ಗಿಂತ ಹೆಚ್ಚು ನಿರ್ಜಲೀಕರಣದ ಯಾವುದೇ ಲಕ್ಷಣ ಕಂಡರೆ.",
+              "बछड़े को दस्त क्यों हुए, यह ठीक-ठीक पता लगाना और सही इलाज चुनना हमेशा डॉक्टर का काम है। आपका काम है जल्दी पहचानना, तरल पदार्थ देना शुरू करना, साफ़-सफ़ाई बनाए रखना, और जल्द से जल्द डॉक्टर को बुलाना — ख़ासकर अगर 8% से ज़्यादा पानी की कमी का कोई संकेत दिखे।"
             ),
           },
         ],
         check: [
           {
             type: "mcq",
-            q: L("Why does the home electrolyte recipe use glucose instead of ordinary table sugar?"),
+            q: L("Why does the home electrolyte recipe use glucose instead of ordinary table sugar?", "ఇంటి ఎలక్ట్రోలైట్ ద్రావణంలో సాధారణ చక్కెరకు బదులు గ్లూకోజ్ ఎందుకు వాడతారు?", "வீட்டு எலக்ட்ரோலைட் கலவையில் வழக்கமான சர்க்கரைக்கு பதிலாக ஏன் குளுக்கோஸ் பயன்படுத்தப்படுகிறது?", "ಮನೆಯ ಎಲೆಕ್ಟ್ರೋಲೈಟ್ ಪಾಕವಿಧಾನದಲ್ಲಿ ಸಾಮಾನ್ಯ ಸಕ್ಕರೆಯ ಬದಲು ಗ್ಲೂಕೋಸ್ ಏಕೆ ಬಳಸಲಾಗುತ್ತದೆ?", "घरेलू इलेक्ट्रोलाइट नुस्खे में आम चीनी की जगह ग्लूकोज़ क्यों इस्तेमाल होता है?"),
             options: [
-              L("Glucose tastes better to calves"),
-              L("Table sugar (sucrose) is not digested well by calves and can worsen diarrhoea"),
-              L("Table sugar is more expensive"),
-              L("There is no real difference"),
+              L("Glucose tastes better to calves", "గ్లూకోజ్ దూడలకు రుచిగా ఉంటుంది", "குளுக்கோஸ் கன்றுகளுக்கு சுவையாக இருக்கும்", "ಗ್ಲೂಕೋಸ್ ಕರುಗಳಿಗೆ ರುಚಿಯಾಗಿರುತ್ತದೆ", "ग्लूकोज़ बछड़ों को स्वाद में बेहतर लगता है"),
+              L("Table sugar (sucrose) is not digested well by calves and can worsen diarrhoea", "సాధారణ చక్కెర (సుక్రోజ్)ను దూడలు సరిగ్గా జీర్ణించుకోలేవు, ఇది విరేచనాలను మరింత తీవ్రం చేయవచ్చు", "சாதாரண சர்க்கரையை (சுக்ரோஸ்) கன்றுகள் நன்றாக செரிக்காது, இது வயிற்றுப்போக்கை மோசமாக்கலாம்", "ಸಾಮಾನ್ಯ ಸಕ್ಕರೆಯನ್ನು (ಸುಕ್ರೋಸ್) ಕರುಗಳು ಸರಿಯಾಗಿ ಜೀರ್ಣಿಸಿಕೊಳ್ಳುವುದಿಲ್ಲ, ಇದು ಭೇದಿಯನ್ನು ಇನ್ನಷ್ಟು ಹದಗೆಡಿಸಬಹುದು", "बछड़े आम चीनी (सुक्रोज़) को ठीक से नहीं पचा पाते, इससे दस्त और बिगड़ सकते हैं"),
+              L("Table sugar is more expensive", "సాధారణ చక్కెర ఖరీదైనది", "சாதாரண சர்க்கரை விலை அதிகம்", "ಸಾಮಾನ್ಯ ಸಕ್ಕರೆ ಹೆಚ್ಚು ದುಬಾರಿ", "आम चीनी ज़्यादा महंगी होती है"),
+              L("There is no real difference", "నిజంగా తేడా ఏమీ లేదు", "உண்மையில் எந்த வித்தியாசமும் இல்லை", "ನಿಜವಾದ ವ್ಯತ್ಯಾಸವಿಲ್ಲ", "असल में कोई फ़र्क़ नहीं है"),
             ],
             answer: 1,
-            explain: L("Calves don't digest table sugar (sucrose) effectively, and adding it can worsen diarrhoea by increasing fluid and electrolyte loss — so glucose is used instead."),
+            explain: L("Calves don't digest table sugar (sucrose) effectively, and adding it can worsen diarrhoea by increasing fluid and electrolyte loss — so glucose is used instead.", "దూడలు సాధారణ చక్కెర (సుక్రోజ్)ను సమర్థంగా జీర్ణించుకోలేవు, దాన్ని కలిపితే ద్రవం, లవణాల నష్టం పెరిగి విరేచనాలు మరింత తీవ్రమవుతాయి — అందుకే బదులుగా గ్లూకోజ్ వాడతారు.", "கன்றுகள் சாதாரண சர்க்கரையை (சுக்ரோஸ்) திறம்பட செரிக்காது, அதை சேர்த்தால் திரவம் மற்றும் உப்பு இழப்பு அதிகரித்து வயிற்றுப்போக்கு மோசமாகலாம் — அதனால் பதிலாக குளுக்கோஸ் பயன்படுத்தப்படுகிறது.", "ಕರುಗಳು ಸಾಮಾನ್ಯ ಸಕ್ಕರೆಯನ್ನು (ಸುಕ್ರೋಸ್) ಪರಿಣಾಮಕಾರಿಯಾಗಿ ಜೀರ್ಣಿಸಿಕೊಳ್ಳುವುದಿಲ್ಲ, ಅದನ್ನು ಸೇರಿಸಿದರೆ ದ್ರವ ಮತ್ತು ಲವಣ ನಷ್ಟ ಹೆಚ್ಚಾಗಿ ಭೇದಿ ಇನ್ನಷ್ಟು ಹದಗೆಡಬಹುದು — ಆದ್ದರಿಂದ ಬದಲಿಗೆ ಗ್ಲೂಕೋಸ್ ಬಳಸಲಾಗುತ್ತದೆ.", "बछड़े चीनी (सुक्रोज़) को असरदार तरीके से नहीं पचा पाते, इसे मिलाने से पानी और नमक की कमी बढ़कर दस्त और बिगड़ सकते हैं — इसलिए बदले में ग्लूकोज़ इस्तेमाल किया जाता है।"),
           },
           {
             type: "truefalse",
-            q: L("The electrolyte solution should replace the calf's normal feed while it has diarrhoea."),
+            q: L("The electrolyte solution should replace the calf's normal feed while it has diarrhoea.", "విరేచనాలు ఉన్నప్పుడు ఎలక్ట్రోలైట్ ద్రావణం దూడ మామూలు ఆహారానికి బదులుగా ఇవ్వాలి.", "வயிற்றுப்போக்கு இருக்கும்போது எலக்ட்ரோலைட் கரைசல் கன்றின் வழக்கமான உணவுக்கு பதிலாக இருக்க வேண்டும்.", "ಭೇದಿ ಇರುವಾಗ ಎಲೆಕ್ಟ್ರೋಲೈಟ್ ದ್ರಾವಣ ಕರುವಿನ ಸಾಮಾನ್ಯ ಆಹಾರದ ಬದಲಿಯಾಗಿರಬೇಕು.", "दस्त के दौरान इलेक्ट्रोलाइट घोल बछड़े के सामान्य आहार की जगह लेना चाहिए।"),
             answer: false,
-            explain: L("No — the electrolyte solution is fed over and above normal feeding, not instead of it."),
+            explain: L("No — the electrolyte solution is fed over and above normal feeding, not instead of it.", "కాదు — ఎలక్ట్రోలైట్ ద్రావణం మామూలు ఆహారానికి అదనంగా ఇవ్వాలి, దానికి బదులుగా కాదు.", "இல்லை — எலக்ட்ரோலைட் கரைசல் வழக்கமான உணவுக்கு கூடுதலாக கொடுக்கப்பட வேண்டும், அதற்கு பதிலாக அல்ல.", "ಇಲ್ಲ — ಎಲೆಕ್ಟ್ರೋಲೈಟ್ ದ್ರಾವಣವನ್ನು ಸಾಮಾನ್ಯ ಆಹಾರದ ಜೊತೆಗೆ ಹೆಚ್ಚುವರಿಯಾಗಿ ಕೊಡಬೇಕು, ಬದಲಿಯಾಗಿ ಅಲ್ಲ.", "नहीं — इलेक्ट्रोलाइट घोल सामान्य आहार के ऊपर अतिरिक्त रूप से दिया जाता है, उसकी जगह नहीं।"),
           },
         ],
       },
@@ -2963,50 +3055,50 @@ export const MODULES = [
         {
           topicId: "t-m3-diarrhoea-signs",
           type: "mcq",
-          q: L("Why can calf diarrhoea kill quickly, even before a cause is found?"),
+          q: L("Why can calf diarrhoea kill quickly, even before a cause is found?", "కారణం తెలియకముందే దూడ విరేచనాలు వేగంగా ఎందుకు ప్రాణాంతకం కావచ్చు?", "காரணம் கண்டறியப்படுவதற்கு முன்பே கன்று வயிற்றுப்போக்கு ஏன் விரைவாக கொல்லக்கூடும்?", "ಕಾರಣ ಪತ್ತೆಯಾಗುವ ಮೊದಲೇ ಕರುವಿನ ಭೇದಿ ಏಕೆ ವೇಗವಾಗಿ ಪ್ರಾಣ ತೆಗೆಯಬಹುದು?", "वजह पता चलने से पहले ही बछड़े के दस्त जल्दी जानलेवा क्यों हो सकते हैं?"),
           options: [
-            L("It causes rapid loss of water and electrolytes"),
-            L("It always comes with a high fever"),
-            L("It stops the calf from breathing"),
-            L("It only affects appetite, nothing else"),
+            L("It causes rapid loss of water and electrolytes", "ఇది వేగంగా నీరు మరియు లవణాలను కోల్పోయేలా చేస్తుంది", "இது நீர் மற்றும் உப்புகளை விரைவாக இழக்கச் செய்கிறது", "ಇದು ವೇಗವಾಗಿ ನೀರು ಮತ್ತು ಲವಣಗಳ ನಷ್ಟಕ್ಕೆ ಕಾರಣವಾಗುತ್ತದೆ", "इससे पानी और नमक तेज़ी से निकल जाते हैं"),
+            L("It always comes with a high fever", "దీనితో ఎప్పుడూ తీవ్రమైన జ్వరం వస్తుంది", "இதனுடன் எப்போதும் அதிக காய்ச்சல் இருக்கும்", "ಇದರೊಂದಿಗೆ ಯಾವಾಗಲೂ ತೀವ್ರ ಜ್ವರ ಬರುತ್ತದೆ", "इसके साथ हमेशा तेज़ बुख़ार आता है"),
+            L("It stops the calf from breathing", "ఇది దూడ శ్వాస తీసుకోకుండా ఆపేస్తుంది", "இது கன்றை மூச்சு விடாமல் தடுக்கும்", "ಇದು ಕರುವಿನ ಉಸಿರಾಟವನ್ನು ನಿಲ್ಲಿಸುತ್ತದೆ", "इससे बछड़े की सांस रुक जाती है"),
+            L("It only affects appetite, nothing else", "ఇది కేవలం ఆకలిని మాత్రమే ప్రభావితం చేస్తుంది, మరేమీ కాదు", "இது பசியை மட்டுமே பாதிக்கும், வேறு எதுவும் இல்லை", "ಇದು ಹಸಿವಿನ ಮೇಲೆ ಮಾತ್ರ ಪರಿಣಾಮ ಬೀರುತ್ತದೆ, ಬೇರೇನೂ ಇಲ್ಲ", "इससे सिर्फ़ भूख पर असर पड़ता है, और कुछ नहीं"),
           ],
           answer: 0,
-          explain: L("The real danger is the fast loss of water and electrolytes, which alone can kill a calf quickly regardless of the underlying cause."),
+          explain: L("The real danger is the fast loss of water and electrolytes, which alone can kill a calf quickly regardless of the underlying cause.", "నిజమైన ప్రమాదం నీరు, లవణాలు వేగంగా కోల్పోవడమే, కారణం ఏదైనా ఇది ఒక్కటే దూడను వేగంగా చంపగలదు.", "உண்மையான ஆபத்து நீர் மற்றும் உப்புகளை விரைவாக இழப்பதே, காரணம் எதுவாக இருந்தாலும் இது மட்டுமே கன்றை விரைவாக கொல்லக்கூடும்.", "ನಿಜವಾದ ಅಪಾಯ ನೀರು ಮತ್ತು ಲವಣಗಳ ವೇಗದ ನಷ್ಟ, ಕಾರಣ ಏನೇ ಇರಲಿ ಇದು ಒಂದೇ ಕರುವನ್ನು ವೇಗವಾಗಿ ಸಾಯಿಸಬಹುದು.", "असली ख़तरा पानी और नमक का तेज़ी से निकल जाना है, चाहे वजह कुछ भी हो, यह अकेले ही बछड़े की जान जल्दी ले सकता है।"),
         },
         {
           topicId: "t-m3-diarrhoea-signs",
           type: "truefalse",
-          q: L("At up to 5% dehydration, a calf usually shows no symptoms at all."),
+          q: L("At up to 5% dehydration, a calf usually shows no symptoms at all.", "5% వరకు నీటి కొరత ఉంటే దూడలో సాధారణంగా ఎలాంటి లక్షణాలు కనిపించవు.", "5% வரை நீர்ச்சத்து குறைவில், கன்றில் பொதுவாக எந்த அறிகுறியும் தெரியாது.", "5% ವರೆಗಿನ ನಿರ್ಜಲೀಕರಣದಲ್ಲಿ, ಕರುವಿನಲ್ಲಿ ಸಾಮಾನ್ಯವಾಗಿ ಯಾವುದೇ ಲಕ್ಷಣಗಳು ಕಾಣಿಸುವುದಿಲ್ಲ.", "5% तक पानी की कमी होने पर बछड़े में आम तौर पर कोई लक्षण नहीं दिखते।"),
           answer: true,
-          explain: L("Correct — up to 5% dehydration, the calf typically looks normal with no visible symptoms."),
+          explain: L("Correct — up to 5% dehydration, the calf typically looks normal with no visible symptoms.", "సరైనది — 5% వరకు నీటి కొరత ఉంటే దూడ సాధారణంగా మామూలుగానే కనిపిస్తుంది, కనిపించే లక్షణాలు ఉండవు.", "சரி — 5% வரை நீர்ச்சத்து குறைவில், கன்று பொதுவாக சாதாரணமாகவே தெரியும், தெரியும் அறிகுறிகள் இருக்காது.", "ಸರಿ — 5% ವರೆಗಿನ ನಿರ್ಜಲೀಕರಣದಲ್ಲಿ, ಕರು ಸಾಮಾನ್ಯವಾಗಿ ಸಹಜವಾಗಿಯೇ ಕಾಣುತ್ತದೆ, ಗೋಚರ ಲಕ್ಷಣಗಳಿಲ್ಲ.", "सही — 5% तक पानी की कमी होने पर बछड़ा आमतौर पर सामान्य दिखता है, कोई दिखने वाला लक्षण नहीं होता।"),
         },
         {
           topicId: "t-m3-diarrhoea-action",
           type: "mcq",
-          q: L("What are the two things ground staff should do as soon as they notice a calf with diarrhoea?"),
+          q: L("What are the two things ground staff should do as soon as they notice a calf with diarrhoea?", "దూడకు విరేచనాలు కనిపించిన వెంటనే క్షేత్రస్థాయి సిబ్బంది చేయాల్సిన రెండు పనులు ఏమిటి?", "வயிற்றுப்போக்கு உள்ள கன்றை கவனித்தவுடன் கள ஊழியர்கள் செய்ய வேண்டிய இரண்டு விஷயங்கள் என்ன?", "ಭೇದಿ ಇರುವ ಕರುವನ್ನು ಗಮನಿಸಿದ ತಕ್ಷಣ ಕ್ಷೇತ್ರ ಸಿಬ್ಬಂದಿ ಮಾಡಬೇಕಾದ ಎರಡು ಕೆಲಸಗಳು ಯಾವುವು?", "दस्त वाले बछड़े को देखते ही फ़ील्ड स्टाफ़ को क्या दो काम करने चाहिए?"),
           options: [
-            L("Wait a few days to see if it clears up on its own"),
-            L("Start replacing fluids and contact the veterinarian at the earliest"),
-            L("Decide on medicine themselves"),
-            L("Stop all feeding until the vet arrives"),
+            L("Wait a few days to see if it clears up on its own", "అదే తగ్గుతుందేమో చూడటానికి కొన్ని రోజులు వేచి ఉండటం", "அது தானாக சரியாகுமா என்று சில நாட்கள் காத்திருப்பது", "ಅದು ತಾನಾಗಿಯೇ ಸರಿಯಾಗುತ್ತದೋ ಎಂದು ಕೆಲವು ದಿನ ಕಾಯುವುದು", "कुछ दिन इंतज़ार करना कि क्या यह अपने आप ठीक हो जाए"),
+            L("Start replacing fluids and contact the veterinarian at the earliest", "ద్రవాలు ఇవ్వడం మొదలుపెట్టి, వీలైనంత త్వరగా వెటర్నరీ డాక్టర్‌ను సంప్రదించడం", "திரவங்கள் கொடுக்க தொடங்கி, முடிந்தவரை விரைவாக வெட்டரினரி டாக்டரை தொடர்பு கொள்வது", "ದ್ರವ ಪೂರೈಕೆ ಆರಂಭಿಸಿ, ಆದಷ್ಟು ಬೇಗ ಪಶುವೈದ್ಯರನ್ನು ಸಂಪರ್ಕಿಸುವುದು", "तरल पदार्थ देना शुरू करना और जल्द से जल्द डॉक्टर से संपर्क करना"),
+            L("Decide on medicine themselves", "మందులు వారే నిర్ణయించుకోవడం", "மருந்துகளை தாங்களே முடிவு செய்வது", "ಔಷಧಿಯನ್ನು ತಾವೇ ನಿರ್ಧರಿಸುವುದು", "दवा खुद तय करना"),
+            L("Stop all feeding until the vet arrives", "డాక్టర్ వచ్చేవరకు ఆహారం పూర్తిగా ఆపేయడం", "டாக்டர் வரும் வரை அனைத்து உணவையும் நிறுத்துவது", "ಪಶುವೈದ್ಯರು ಬರುವವರೆಗೆ ಎಲ್ಲಾ ಆಹಾರವನ್ನು ನಿಲ್ಲಿಸುವುದು", "डॉक्टर के आने तक सारा खाना बंद कर देना"),
           ],
           answer: 1,
-          explain: L("Replace lost fluids with the electrolyte solution and contact the veterinarian at the earliest to determine the cause and treatment."),
+          explain: L("Replace lost fluids with the electrolyte solution and contact the veterinarian at the earliest to determine the cause and treatment.", "కోల్పోయిన ద్రవాలను ఎలక్ట్రోలైట్ ద్రావణంతో తిరిగి ఇవ్వండి, కారణం, చికిత్స నిర్ధారించేందుకు వీలైనంత త్వరగా వెటర్నరీ డాక్టర్‌ను సంప్రదించండి.", "இழந்த திரவத்தை எலக்ட்ரோலைட் கரைசலால் ஈடுசெய்து, காரணத்தையும் சிகிச்சையையும் தீர்மானிக்க முடிந்தவரை விரைவாக டாக்டரை தொடர்பு கொள்ளுங்கள்.", "ಕಳೆದುಕೊಂಡ ದ್ರವವನ್ನು ಎಲೆಕ್ಟ್ರೋಲೈಟ್ ದ್ರಾವಣದಿಂದ ಮರುಪೂರೈಸಿ, ಕಾರಣ ಮತ್ತು ಚಿಕಿತ್ಸೆ ನಿರ್ಧರಿಸಲು ಆದಷ್ಟು ಬೇಗ ಪಶುವೈದ್ಯರನ್ನು ಸಂಪರ್ಕಿಸಿ.", "इलेक्ट्रोलाइट घोल से खोए तरल की भरपाई करें और वजह व इलाज तय करने के लिए जल्द से जल्द डॉक्टर से संपर्क करें।"),
         },
         {
           topicId: "t-m3-diarrhoea-action",
           type: "truefalse",
-          q: L("Preventing diarrhoea starts with making sure the calf gets adequate colostrum within 6 hours of birth."),
+          q: L("Preventing diarrhoea starts with making sure the calf gets adequate colostrum within 6 hours of birth.", "విరేచనాలను నివారించడం, దూడకు పుట్టిన 6 గంటల్లోపు తగినంత జున్ను అందేలా చూసుకోవడంతో మొదలవుతుంది.", "வயிற்றுப்போக்கை தடுப்பது, கன்றுக்கு பிறந்த 6 மணி நேரத்திற்குள் போதுமான கொழுந்து பால் கிடைப்பதை உறுதி செய்வதில் தொடங்குகிறது.", "ಭೇದಿ ತಡೆಗಟ್ಟುವಿಕೆ, ಕರುವಿಗೆ ಹುಟ್ಟಿದ 6 ಗಂಟೆಗಳ ಒಳಗೆ ಸಾಕಷ್ಟು ಗಿಣ್ಣುಹಾಲು ಸಿಗುವಂತೆ ನೋಡಿಕೊಳ್ಳುವುದರಿಂದ ಪ್ರಾರಂಭವಾಗುತ್ತದೆ.", "दस्त रोकने की शुरुआत यह पक्का करने से होती है कि बछड़े को जन्म के 6 घंटे के भीतर पर्याप्त खीस मिले।"),
           answer: true,
-          explain: L("Correct — adequate colostrum within 6 hours of birth helps ensure proper transfer of immunity, which helps prevent diarrhoea."),
+          explain: L("Correct — adequate colostrum within 6 hours of birth helps ensure proper transfer of immunity, which helps prevent diarrhoea.", "సరైనది — పుట్టిన 6 గంటల్లోపు తగినంత జున్ను అందడం రోగనిరోధక శక్తి సరిగ్గా బదిలీ అయ్యేలా చూస్తుంది, ఇది విరేచనాలను నివారించడంలో సహాయపడుతుంది.", "சரி — பிறந்த 6 மணி நேரத்திற்குள் போதுமான கொழுந்து பால் கிடைப்பது நோய் எதிர்ப்பு சக்தி சரியாக மாற்றப்பட உதவுகிறது, இது வயிற்றுப்போக்கை தடுக்க உதவுகிறது.", "ಸರಿ — ಹುಟ್ಟಿದ 6 ಗಂಟೆಗಳ ಒಳಗೆ ಸಾಕಷ್ಟು ಗಿಣ್ಣುಹಾಲು ಸಿಗುವುದು ರೋಗ ನಿರೋಧಕ ಶಕ್ತಿ ಸರಿಯಾಗಿ ವರ್ಗಾವಣೆಯಾಗಲು ಸಹಾಯ ಮಾಡುತ್ತದೆ, ಇದು ಭೇದಿ ತಡೆಗಟ್ಟಲು ನೆರವಾಗುತ್ತದೆ.", "सही — जन्म के 6 घंटे के भीतर पर्याप्त खीस मिलने से रोग-प्रतिरोधक क्षमता सही तरीके से मिलती है, जिससे दस्त रोकने में मदद मिलती है।"),
         },
         {
           topicId: "t-m3-diarrhoea-signs",
           type: "mcq",
-          q: L("A calf cannot stand, has cool extremities, and its skin remains tented. Roughly what dehydration level does this describe?"),
-          options: [L("Up to 5%"), L("5–6%"), L("10–14%"), L("This pattern doesn't relate to dehydration")],
+          q: L("A calf cannot stand, has cool extremities, and its skin remains tented. Roughly what dehydration level does this describe?", "ఒక దూడ నిలబడలేకపోతోంది, దాని అవయవాలు చల్లగా ఉన్నాయి, చర్మం లేచి అలాగే ఉంది. ఇది సుమారుగా ఏ నీటి కొరత స్థాయిని సూచిస్తుంది?", "ஒரு கன்று நிற்க முடியாமல் இருக்கிறது, அதன் உறுப்புகள் குளிராக இருக்கின்றன, தோல் மடிந்தே இருக்கிறது. இது சுமார் எந்த நீர்ச்சத்து குறைவு நிலையை குறிக்கிறது?", "ಒಂದು ಕರು ನಿಲ್ಲಲಾಗುತ್ತಿಲ್ಲ, ಅದರ ಅಂಗಗಳು ತಣ್ಣಗಿವೆ, ಚರ್ಮ ಮಡಚಿಯೇ ಇದೆ. ಇದು ಸುಮಾರಾಗಿ ಯಾವ ನಿರ್ಜಲೀಕರಣ ಮಟ್ಟವನ್ನು ಸೂಚಿಸುತ್ತದೆ?", "एक बछड़ा खड़ा नहीं हो पा रहा, उसके हाथ-पांव ठंडे हैं, और त्वचा उठी ही रह जाती है। यह लगभग पानी की कमी के किस स्तर को दर्शाता है?"),
+          options: [L("Up to 5%", "5% వరకు", "5% வரை", "5% ವರೆಗೆ", "5% तक"), L("5–6%", "5–6%", "5–6%", "5–6%", "5–6%"), L("10–14%", "10–14%", "10–14%", "10–14%", "10–14%"), L("This pattern doesn't relate to dehydration", "ఈ లక్షణాలకు నీటి కొరతతో సంబంధం లేదు", "இந்த அறிகுறிகளுக்கு நீர்ச்சத்து குறைவுடன் தொடர்பு இல்லை", "ಈ ಲಕ್ಷಣಗಳಿಗೆ ನಿರ್ಜಲೀಕರಣದೊಂದಿಗೆ ಸಂಬಂಧವಿಲ್ಲ", "इस स्थिति का पानी की कमी से कोई संबंध नहीं है")],
           answer: 2,
-          explain: L("These are the signs described for the 10–14% dehydration level — a very serious, critical state."),
+          explain: L("These are the signs described for the 10–14% dehydration level — a very serious, critical state.", "ఇవి 10–14% నీటి కొరత స్థాయికి చెప్పిన లక్షణాలు — చాలా తీవ్రమైన, ప్రమాదకర స్థితి.", "இவை 10–14% நீர்ச்சத்து குறைவு நிலைக்கான அறிகுறிகள் — மிகவும் தீவிரமான, ஆபத்தான நிலை.", "ಇವು 10–14% ನಿರ್ಜಲೀಕರಣ ಮಟ್ಟಕ್ಕೆ ವಿವರಿಸಲಾದ ಲಕ್ಷಣಗಳು — ಬಹಳ ಗಂಭೀರ, ಅಪಾಯಕಾರಿ ಸ್ಥಿತಿ.", "ये 10–14% पानी की कमी के स्तर के लक्षण हैं — बहुत गंभीर, नाज़ुक हालत।"),
         },
       ],
     },
@@ -3016,8 +3108,8 @@ export const MODULES = [
   {
     id: "m4",
     number: 4,
-    title: L("Diseases Preventable by Vaccination"),
-    subtitle: L("The common diseases that a simple injection can prevent, and when each vaccine is due."),
+    title: L("Diseases Preventable by Vaccination", "టీకాతో నివారించగల వ్యాధులు", "தடுப்பூசியால் தடுக்கக்கூடிய நோய்கள்", "ಲಸಿಕೆಯಿಂದ ತಡೆಗಟ್ಟಬಹುದಾದ ರೋಗಗಳು", "टीकाकरण से रोकी जा सकने वाली बीमारियां"),
+    subtitle: L("The common diseases that a simple injection can prevent, and when each vaccine is due.", "సాధారణ ఇంజెక్షన్‌తో నివారించగల సాధారణ వ్యాధులు, ఏ టీకా ఎప్పుడు వేయాలో.", "எளிய ஊசி மூலம் தடுக்கக்கூடிய பொதுவான நோய்கள், மற்றும் ஒவ்வொரு தடுப்பூசியும் எப்போது வேண்டும் என்பது.", "ಸರಳ ಚುಚ್ಚುಮದ್ದಿನಿಂದ ತಡೆಗಟ್ಟಬಹುದಾದ ಸಾಮಾನ್ಯ ರೋಗಗಳು, ಮತ್ತು ಪ್ರತಿ ಲಸಿಕೆ ಯಾವಾಗ ಬೇಕು ಎಂಬುದು.", "एक साधारण इंजेक्शन से रोकी जा सकने वाली आम बीमारियां, और हर टीका कब लगना चाहिए।"),
     icon: "syringe",
     available: true,
     lessons: [
@@ -3026,68 +3118,92 @@ export const MODULES = [
   // ==================================================================
   {
     id: "m4-l1",
-    title: L("Why Vaccination Matters"),
+    title: L("Why Vaccination Matters", "టీకా ఎందుకు ముఖ్యం", "தடுப்பூசி ஏன் முக்கியம்", "ಲಸಿಕೆ ಏಕೆ ಮುಖ್ಯ", "टीकाकरण क्यों ज़रूरी है"),
     estMinutes: 9,
     hook: [
       {
         type: "hero",
-        heading: L("A Simple Injection Can Prevent a Disease Entirely"),
+        heading: L("A Simple Injection Can Prevent a Disease Entirely", "ఒక సాధారణ ఇంజెక్షన్ వ్యాధిని పూర్తిగా నివారించగలదు", "ஒரு எளிய ஊசி ஒரு நோயை முற்றிலும் தடுக்க முடியும்", "ಒಂದು ಸರಳ ಚುಚ್ಚುಮದ್ದು ಒಂದು ರೋಗವನ್ನು ಸಂಪೂರ್ಣವಾಗಿ ತಡೆಯಬಹುದು", "एक साधारण इंजेक्शन किसी बीमारी को पूरी तरह रोक सकता है"),
         text: L(
-          "Some diseases are so serious that by the time you see the signs, it may already be too late to save the animal. The good news is that many of the worst ones can be prevented completely, ahead of time, with a vaccine given on schedule. This lesson explains what a vaccine actually does, and introduces the first two diseases every ground-force worker should be able to recognise."
+          "Some diseases are so serious that by the time you see the signs, it may already be too late to save the animal. The good news is that many of the worst ones can be prevented completely, ahead of time, with a vaccine given on schedule. This lesson explains what a vaccine actually does, and introduces the first two diseases every ground-force worker should be able to recognise.",
+          "కొన్ని వ్యాధులు చాలా తీవ్రమైనవి, లక్షణాలు కనిపించేసరికే జంతువును కాపాడలేని పరిస్థితి రావచ్చు. మంచి విషయం ఏమిటంటే, అత్యంత ప్రమాదకరమైన వాటిలో చాలా వరకు షెడ్యూల్ ప్రకారం టీకా వేయడం ద్వారా ముందుగానే పూర్తిగా నివారించవచ్చు. టీకా నిజంగా ఏం చేస్తుందో ఈ పాఠం వివరిస్తుంది, ప్రతి క్షేత్రస్థాయి కార్యకర్త గుర్తించగలిగే మొదటి రెండు వ్యాధులను పరిచయం చేస్తుంది.",
+          "சில நோய்கள் மிகவும் கடுமையானவை, அறிகுறிகள் தெரியும் நேரத்திற்குள் விலங்கை காப்பாற்ற முடியாத நிலை வந்துவிடலாம். நல்ல செய்தி என்னவென்றால், மிக மோசமான நோய்களில் பலவற்றை அட்டவணைப்படி தடுப்பூசி போடுவதன் மூலம் முன்கூட்டியே முழுமையாக தடுக்க முடியும். தடுப்பூசி உண்மையில் என்ன செய்கிறது என்பதை இந்த பாடம் விளக்குகிறது, மேலும் ஒவ்வொரு கள ஊழியரும் அடையாளம் காண வேண்டிய முதல் இரண்டு நோய்களை அறிமுகப்படுத்துகிறது.",
+          "ಕೆಲವು ರೋಗಗಳು ಎಷ್ಟು ಗಂಭೀರವೆಂದರೆ, ಲಕ್ಷಣಗಳು ಕಾಣುವ ಹೊತ್ತಿಗೆ ಪ್ರಾಣಿಯನ್ನು ಉಳಿಸಲು ಈಗಾಗಲೇ ತಡವಾಗಿರಬಹುದು. ಒಳ್ಳೆಯ ಸುದ್ದಿ ಏನೆಂದರೆ, ಅತ್ಯಂತ ಕೆಟ್ಟ ರೋಗಗಳಲ್ಲಿ ಹಲವನ್ನು ವೇಳಾಪಟ್ಟಿಯ ಪ್ರಕಾರ ಲಸಿಕೆ ಕೊಡುವ ಮೂಲಕ ಮೊದಲೇ ಸಂಪೂರ್ಣವಾಗಿ ತಡೆಯಬಹುದು. ಲಸಿಕೆ ನಿಜವಾಗಿ ಏನು ಮಾಡುತ್ತದೆ ಎಂಬುದನ್ನು ಈ ಪಾಠ ವಿವರಿಸುತ್ತದೆ, ಮತ್ತು ಪ್ರತಿ ಕ್ಷೇತ್ರ ಸಿಬ್ಬಂದಿ ಗುರುತಿಸಬಲ್ಲ ಮೊದಲ ಎರಡು ರೋಗಗಳನ್ನು ಪರಿಚಯಿಸುತ್ತದೆ.",
+          "कुछ बीमारियां इतनी गंभीर होती हैं कि जब तक लक्षण दिखें, तब तक जानवर को बचाना मुश्किल हो सकता है। अच्छी बात यह है कि सबसे ख़तरनाक बीमारियों में से कई को समय पर टीका लगाकर पहले से ही पूरी तरह रोका जा सकता है। यह पाठ बताता है कि टीका असल में क्या करता है, और हर फ़ील्ड कार्यकर्ता को पहचाननी चाहिए ऐसी पहली दो बीमारियों का परिचय देता है।"
         ),
       },
     ],
     topics: [
       {
         id: "t-m4-why-vaccinate",
-        title: L("What a Vaccine Does, and What Your Role Is"),
+        title: L("What a Vaccine Does, and What Your Role Is", "టీకా ఏం చేస్తుంది, మీ పాత్ర ఏమిటి", "தடுப்பூசி என்ன செய்கிறது, உங்கள் பங்கு என்ன", "ಲಸಿಕೆ ಏನು ಮಾಡುತ್ತದೆ, ನಿಮ್ಮ ಪಾತ್ರ ಏನು", "टीका क्या करता है, और आपकी भूमिका क्या है"),
         teach: [
             {
               type: "photo",
               src: "assets/illustration-m4-vaccine-immunity.png",
-              alt: L("Illustrated three-step diagram: a vaccine being given, the body's immune cells learning to fight the germ, and the animal protected from disease."),
-              caption: L("Illustration: how a vaccine protects an animal — it teaches the body to recognise and fight a germ before the real disease ever arrives."),
+              alt: L("Illustrated three-step diagram: a vaccine being given, the body's immune cells learning to fight the germ, and the animal protected from disease.", "మూడు దశల చిత్రం: టీకా వేయడం, శరీరంలోని రోగనిరోధక కణాలు క్రిములతో పోరాడటం నేర్చుకోవడం, జంతువు వ్యాధి నుండి రక్షణ పొందడం.", "மூன்று-படி விளக்கப்படம்: தடுப்பூசி கொடுக்கப்படுவது, உடலின் நோய் எதிர்ப்பு செல்கள் கிருமியை எதிர்த்துப் போராட கற்றுக்கொள்வது, விலங்கு நோயிலிருந்து பாதுகாக்கப்படுவது.", "ಮೂರು-ಹಂತದ ಚಿತ್ರ: ಲಸಿಕೆ ಕೊಡುವುದು, ದೇಹದ ರೋಗ ನಿರೋಧಕ ಕೋಶಗಳು ಸೂಕ್ಷ್ಮಜೀವಿಯ ವಿರುದ್ಧ ಹೋರಾಡಲು ಕಲಿಯುವುದು, ಪ್ರಾಣಿ ರೋಗದಿಂದ ರಕ್ಷಿಸಲ್ಪಡುವುದು.", "तीन चरणों का चित्र: टीका लगाया जा रहा है, शरीर की रोग-प्रतिरोधक कोशिकाएं कीटाणु से लड़ना सीख रही हैं, और जानवर बीमारी से सुरक्षित हो रहा है।"),
+              caption: L("Illustration: how a vaccine protects an animal — it teaches the body to recognise and fight a germ before the real disease ever arrives.", "చిత్రం: టీకా జంతువును ఎలా రక్షిస్తుంది — నిజమైన వ్యాధి రాకముందే క్రిమిని గుర్తించి పోరాడటం శరీరానికి నేర్పుతుంది.", "விளக்கப்படம்: தடுப்பூசி விலங்கை எப்படி பாதுகாக்கிறது — உண்மையான நோய் வருவதற்கு முன்பே கிருமியை அடையாளம் கண்டு எதிர்த்துப் போராட உடலுக்கு கற்றுக்கொடுக்கிறது.", "ಚಿತ್ರ: ಲಸಿಕೆ ಪ್ರಾಣಿಯನ್ನು ಹೇಗೆ ರಕ್ಷಿಸುತ್ತದೆ — ನಿಜವಾದ ರೋಗ ಬರುವ ಮೊದಲೇ ಸೂಕ್ಷ್ಮಜೀವಿಯನ್ನು ಗುರುತಿಸಿ ಹೋರಾಡಲು ದೇಹಕ್ಕೆ ಕಲಿಸುತ್ತದೆ.", "चित्र: टीका जानवर की सुरक्षा कैसे करता है — यह असली बीमारी आने से पहले ही शरीर को कीटाणु को पहचानकर उससे लड़ना सिखाता है।"),
             },
             {
               type: "photo",
               src: "assets/photo-m4-vet-vaccinating.jpg",
-              alt: L("A uniformed veterinary professional wearing gloves, holding a syringe, injecting a restrained cow while farm workers look on"),
-              caption: L("Vaccinating an animal is always done by a trained, authorised professional — never something you decide or do yourself."),
+              alt: L("A uniformed veterinary professional wearing gloves, holding a syringe, injecting a restrained cow while farm workers look on", "యూనిఫారంలో ఉన్న వెటర్నరీ నిపుణుడు గ్లోవ్స్ ధరించి, సిరంజి పట్టుకుని, పట్టుకుని ఉంచిన ఆవుకు ఇంజెక్షన్ ఇస్తుండగా రైతు కార్మికులు చూస్తున్నారు", "சீருடை அணிந்த வெட்டரினரி நிபுணர் கையுறை அணிந்து, ஊசியை பிடித்து, பிடித்து வைக்கப்பட்ட பசுவுக்கு ஊசி போடுகிறார், பண்ணை தொழிலாளர்கள் பார்த்துக்கொண்டிருக்கிறார்கள்", "ಸಮವಸ್ತ್ರಧಾರಿ ಪಶುವೈದ್ಯ ವೃತ್ತಿಪರರು ಗ್ಲೌಸ್ ಧರಿಸಿ, ಸಿರಿಂಜ್ ಹಿಡಿದು, ಹಿಡಿದಿಟ್ಟ ಹಸುವಿಗೆ ಚುಚ್ಚುಮದ್ದು ನೀಡುತ್ತಿದ್ದಾರೆ, ಕೃಷಿ ಕಾರ್ಮಿಕರು ನೋಡುತ್ತಿದ್ದಾರೆ", "वर्दी पहने एक पशु चिकित्सा पेशेवर दस्ताने पहने, सिरिंज पकड़े, पकड़ी हुई गाय को इंजेक्शन दे रहा है, खेत के मज़दूर देख रहे हैं"),
+              caption: L("Vaccinating an animal is always done by a trained, authorised professional — never something you decide or do yourself.", "జంతువుకు టీకా వేయడం ఎప్పుడూ శిక్షణ పొందిన, అధీకృత నిపుణుడు మాత్రమే చేస్తారు — మీరు స్వయంగా నిర్ణయించుకుని చేయాల్సింది కాదు.", "ஒரு விலங்குக்கு தடுப்பூசி போடுவது எப்போதும் பயிற்சி பெற்ற, அங்கீகரிக்கப்பட்ட நிபுணரால் மட்டுமே செய்யப்படுகிறது — நீங்களே முடிவெடுத்து செய்யக்கூடிய விஷயமல்ல.", "ಪ್ರಾಣಿಗೆ ಲಸಿಕೆ ಹಾಕುವುದನ್ನು ಯಾವಾಗಲೂ ತರಬೇತಿ ಪಡೆದ, ಅಧಿಕೃತ ವೃತ್ತಿಪರರೇ ಮಾಡುತ್ತಾರೆ — ಇದನ್ನು ನೀವೇ ನಿರ್ಧರಿಸಿ ಮಾಡುವಂಥದ್ದಲ್ಲ.", "किसी जानवर को टीका लगाना हमेशा प्रशिक्षित, अधिकृत पेशेवर द्वारा ही किया जाता है — यह कुछ ऐसा नहीं जो आप खुद तय करके करें।"),
             },
           {
             type: "text",
-            heading: L("Training the Body Before the Disease Ever Arrives"),
+            heading: L("Training the Body Before the Disease Ever Arrives", "వ్యాధి రాకముందే శరీరానికి శిక్షణ ఇవ్వడం", "நோய் வருவதற்கு முன்பே உடலுக்கு பயிற்சி அளிப்பது", "ರೋಗ ಬರುವ ಮೊದಲೇ ದೇಹಕ್ಕೆ ತರಬೇತಿ ನೀಡುವುದು", "बीमारी आने से पहले ही शरीर को प्रशिक्षित करना"),
             html: L(
-              "A <b>vaccine</b> is a shot given to a healthy animal that trains its body to recognise and fight off one specific disease — before the animal ever actually catches it. Think of it like a fire drill: nobody wants a real fire, but practising the response ahead of time means the body already knows exactly what to do if the real disease ever shows up."
+              "A <b>vaccine</b> is a shot given to a healthy animal that trains its body to recognise and fight off one specific disease — before the animal ever actually catches it. Think of it like a fire drill: nobody wants a real fire, but practising the response ahead of time means the body already knows exactly what to do if the real disease ever shows up.",
+              "<b>టీకా</b> అంటే ఆరోగ్యవంతమైన జంతువుకు ఇచ్చే ఇంజెక్షన్, ఇది ఆ జంతువుకు నిజంగా ఒక నిర్దిష్ట వ్యాధి సోకకముందే దాన్ని గుర్తించి పోరాడేలా శరీరానికి శిక్షణ ఇస్తుంది. దీన్ని ఫైర్ డ్రిల్ లాగా అనుకోండి: నిజమైన అగ్నిప్రమాదం ఎవరూ కోరుకోరు, కానీ ముందుగానే ఆ స్పందనను సాధన చేస్తే, నిజమైన వ్యాధి వచ్చినప్పుడు శరీరానికి ఏం చేయాలో ఇప్పటికే తెలిసి ఉంటుంది.",
+              "<b>தடுப்பூசி</b> என்பது ஆரோக்கியமான விலங்குக்கு கொடுக்கப்படும் ஊசி, இது அந்த விலங்துக்கு உண்மையில் ஒரு குறிப்பிட்ட நோய் தாக்குவதற்கு முன்பே அதை அடையாளம் கண்டு எதிர்த்துப் போராட உடலுக்கு பயிற்சி அளிக்கிறது. இதை ஒரு தீ பயிற்சி போல நினைத்துக்கொள்ளுங்கள்: உண்மையான தீ யாருக்கும் வேண்டாம், ஆனால் முன்கூட்டியே பதிலை பயிற்சி செய்வது, உண்மையான நோய் வரும்போது என்ன செய்ய வேண்டும் என்பது உடலுக்கு ஏற்கனவே தெரியும் என்பதை உறுதி செய்கிறது.",
+              "<b>ಲಸಿಕೆ</b> ಎಂದರೆ ಆರೋಗ್ಯವಂತ ಪ್ರಾಣಿಗೆ ನೀಡುವ ಚುಚ್ಚುಮದ್ದು, ಇದು ಆ ಪ್ರಾಣಿಗೆ ನಿಜವಾಗಿ ಒಂದು ನಿರ್ದಿಷ್ಟ ರೋಗ ತಗಲುವ ಮೊದಲೇ ಅದನ್ನು ಗುರುತಿಸಿ ಹೋರಾಡಲು ದೇಹಕ್ಕೆ ತರಬೇತಿ ನೀಡುತ್ತದೆ. ಇದನ್ನು ಬೆಂಕಿ ಅಣಕು ಅಭ್ಯಾಸದಂತೆ ಯೋಚಿಸಿ: ನಿಜವಾದ ಬೆಂಕಿ ಯಾರಿಗೂ ಬೇಡ, ಆದರೆ ಮೊದಲೇ ಪ್ರತಿಕ್ರಿಯೆಯನ್ನು ಅಭ್ಯಾಸ ಮಾಡುವುದರಿಂದ, ನಿಜವಾದ ರೋಗ ಬಂದಾಗ ಏನು ಮಾಡಬೇಕೆಂದು ದೇಹಕ್ಕೆ ಈಗಾಗಲೇ ತಿಳಿದಿರುತ್ತದೆ.",
+              "<b>टीका</b> स्वस्थ जानवर को दिया जाने वाला एक इंजेक्शन है, जो उसके शरीर को किसी एक ख़ास बीमारी को पहचानकर उससे लड़ना सिखाता है — इससे पहले कि जानवर को असल में वह बीमारी हो। इसे फायर ड्रिल की तरह समझें: असली आग कोई नहीं चाहता, लेकिन पहले से अभ्यास कर लेने से शरीर को पहले ही पता होता है कि असली बीमारी आने पर क्या करना है।"
             ),
           },
           {
             type: "glossary",
-            term: L("Vaccine"),
+            term: L("Vaccine", "టీకా", "தடுப்பூசி", "ಲಸಿಕೆ", "टीका"),
             meaning: L(
-              "An injection given to a healthy animal that trains its body to defend itself against one particular disease, before that disease ever actually infects it."
+              "An injection given to a healthy animal that trains its body to defend itself against one particular disease, before that disease ever actually infects it.",
+              "ఆరోగ్యవంతమైన జంతువుకు ఇచ్చే ఇంజెక్షన్, ఇది ఆ వ్యాధి నిజంగా సోకకముందే దాన్నుండి తనను తాను రక్షించుకునేలా శరీరానికి శిక్షణ ఇస్తుంది.",
+              "ஆரோக்கியமான விலங்குக்கு கொடுக்கப்படும் ஊசி, இது அந்த குறிப்பிட்ட நோய் உண்மையில் தாக்குவதற்கு முன்பே தன்னைத் தற்காத்துக்கொள்ள உடலுக்கு பயிற்சி அளிக்கிறது.",
+              "ಆರೋಗ್ಯವಂತ ಪ್ರಾಣಿಗೆ ನೀಡುವ ಚುಚ್ಚುಮದ್ದು, ಇದು ಆ ರೋಗ ನಿಜವಾಗಿ ತಗಲುವ ಮೊದಲೇ ತನ್ನನ್ನು ತಾನು ರಕ್ಷಿಸಿಕೊಳ್ಳಲು ದೇಹಕ್ಕೆ ತರಬೇತಿ ನೀಡುತ್ತದೆ.",
+              "स्वस्थ जानवर को दिया जाने वाला इंजेक्शन, जो उस ख़ास बीमारी के असल में होने से पहले ही शरीर को उससे बचाव करना सिखाता है।"
             ),
           },
           {
             type: "glossary",
-            term: L("Vaccination Coverage"),
+            term: L("Vaccination Coverage", "టీకా కవరేజ్", "தடுப்பூசி பரவலாக்கம்", "ಲಸಿಕೆ ವ್ಯಾಪ್ತಿ", "टीकाकरण कवरेज"),
             meaning: L(
-              "How many animals out of the whole group have actually been vaccinated. Disease control needs most of the group covered — vaccinating just one or two animals in a large herd leaves the rest exposed and the disease can still spread."
+              "How many animals out of the whole group have actually been vaccinated. Disease control needs most of the group covered — vaccinating just one or two animals in a large herd leaves the rest exposed and the disease can still spread.",
+              "మొత్తం గుంపులో ఎంతమంది జంతువులకు నిజంగా టీకా వేయబడిందో సూచిస్తుంది. వ్యాధిని నియంత్రించాలంటే గుంపులో ఎక్కువ భాగానికి టీకా వేయాలి — పెద్ద మందలో ఒకటి రెండు జంతువులకు మాత్రమే టీకా వేస్తే మిగతావి రక్షణ లేకుండా ఉండి వ్యాధి ఇంకా వ్యాపించవచ్చు.",
+              "மொத்த குழுவில் எத்தனை விலங்குகளுக்கு உண்மையில் தடுப்பூசி போடப்பட்டுள்ளது என்பதைக் குறிக்கிறது. நோயை கட்டுப்படுத்த குழுவின் பெரும்பகுதிக்கு தடுப்பூசி தேவை — பெரிய மந்தையில் ஒன்று அல்லது இரண்டு விலங்குகளுக்கு மட்டும் தடுப்பூசி போட்டால், மற்றவை பாதுகாப்பின்றி இருக்கும், நோய் இன்னும் பரவலாம்.",
+              "ಇಡೀ ಗುಂಪಿನಲ್ಲಿ ಎಷ್ಟು ಪ್ರಾಣಿಗಳಿಗೆ ನಿಜವಾಗಿ ಲಸಿಕೆ ಹಾಕಲಾಗಿದೆ ಎಂಬುದನ್ನು ಸೂಚಿಸುತ್ತದೆ. ರೋಗ ನಿಯಂತ್ರಣಕ್ಕೆ ಗುಂಪಿನ ಬಹುಪಾಲಿಗೆ ಲಸಿಕೆ ಬೇಕು — ದೊಡ್ಡ ಹಿಂಡಿನಲ್ಲಿ ಒಂದೆರಡು ಪ್ರಾಣಿಗಳಿಗೆ ಮಾತ್ರ ಲಸಿಕೆ ಹಾಕಿದರೆ, ಉಳಿದವು ರಕ್ಷಣೆಯಿಲ್ಲದೆ ಉಳಿದು ರೋಗ ಇನ್ನೂ ಹರಡಬಹುದು.",
+              "पूरे समूह में से असल में कितने जानवरों को टीका लगा है, यह बताता है। बीमारी पर काबू पाने के लिए समूह के ज़्यादातर जानवरों को टीका लगना चाहिए — बड़े झुंड में सिर्फ़ एक-दो जानवरों को टीका लगाने से बाक़ी असुरक्षित रह जाते हैं और बीमारी फिर भी फैल सकती है।"
             ),
           },
           {
             type: "stat-grid",
             items: [
               {
-                label: L("Why timing matters"),
+                label: L("Why timing matters", "సమయం ఎందుకు ముఖ్యం", "நேரம் ஏன் முக்கியம்", "ಸಮಯ ಏಕೆ ಮುಖ್ಯ", "समय क्यों मायने रखता है"),
                 text: L(
-                  "Vaccines exist for most of the serious diseases covered in this module. They work best when given on a mass scale, on time, before the disease season or the risky age arrives — not after signs have already appeared."
+                  "Vaccines exist for most of the serious diseases covered in this module. They work best when given on a mass scale, on time, before the disease season or the risky age arrives — not after signs have already appeared.",
+                  "ఈ మాడ్యూల్‌లో చెప్పిన చాలా తీవ్రమైన వ్యాధులకు టీకాలు ఉన్నాయి. వ్యాధి కాలం లేదా ప్రమాదకర వయసు రాకముందే, సకాలంలో, పెద్ద ఎత్తున వేసినప్పుడే అవి బాగా పనిచేస్తాయి — లక్షణాలు కనిపించిన తర్వాత కాదు.",
+                  "இந்த பாடத்தில் உள்ள பெரும்பாலான கடுமையான நோய்களுக்கு தடுப்பூசிகள் உள்ளன. நோய் பருவம் அல்லது ஆபத்தான வயது வருவதற்கு முன், சரியான நேரத்தில், பெரிய அளவில் கொடுக்கும்போதே அவை சிறப்பாக வேலை செய்யும் — அறிகுறிகள் தெரிந்த பிறகு அல்ல.",
+                  "ಈ ಮಾಡ್ಯೂಲ್‌ನಲ್ಲಿರುವ ಹೆಚ್ಚಿನ ಗಂಭೀರ ರೋಗಗಳಿಗೆ ಲಸಿಕೆಗಳಿವೆ. ರೋಗದ ಋತು ಅಥವಾ ಅಪಾಯಕಾರಿ ವಯಸ್ಸು ಬರುವ ಮೊದಲು, ಸಮಯಕ್ಕೆ ಸರಿಯಾಗಿ, ದೊಡ್ಡ ಪ್ರಮಾಣದಲ್ಲಿ ಕೊಟ್ಟಾಗಲೇ ಅವು ಚೆನ್ನಾಗಿ ಕೆಲಸ ಮಾಡುತ್ತವೆ — ಲಕ್ಷಣಗಳು ಕಾಣಿಸಿಕೊಂಡ ನಂತರ ಅಲ್ಲ.",
+                  "इस मॉड्यूल में बताई गई ज़्यादातर गंभीर बीमारियों के टीके मौजूद हैं। बीमारी का मौसम या ख़तरे वाली उम्र आने से पहले, सही समय पर, बड़े पैमाने पर दिए जाने पर ही ये सबसे अच्छा असर करते हैं — लक्षण दिखने के बाद नहीं।"
                 ),
               },
               {
-                label: L("The coverage number"),
+                label: L("The coverage number", "కవరేజ్ సంఖ్య", "பரவலாக்க எண்", "ವ್ಯಾಪ್ತಿ ಸಂಖ್ಯೆ", "कवरेज का आंकड़ा"),
                 text: L(
-                  "At least 80% of the animals in a group need to be vaccinated for the disease to actually be brought under control across that herd or area."
+                  "At least 80% of the animals in a group need to be vaccinated for the disease to actually be brought under control across that herd or area.",
+                  "ఆ మంద లేదా ప్రాంతంలో వ్యాధిని నిజంగా అదుపులోకి తేవాలంటే గుంపులోని కనీసం 80% జంతువులకు టీకా వేయాలి.",
+                  "அந்த மந்தை அல்லது பகுதியில் நோயை உண்மையில் கட்டுக்குள் கொண்டுவர, குழுவில் குறைந்தது 80% விலங்குகளுக்கு தடுப்பூசி தேவை.",
+                  "ಆ ಹಿಂಡು ಅಥವಾ ಪ್ರದೇಶದಲ್ಲಿ ರೋಗವನ್ನು ನಿಜವಾಗಿ ನಿಯಂತ್ರಣಕ್ಕೆ ತರಲು ಗುಂಪಿನ ಕನಿಷ್ಠ 80% ಪ್ರಾಣಿಗಳಿಗೆ ಲಸಿಕೆ ಹಾಕಬೇಕು.",
+                  "उस झुंड या इलाक़े में बीमारी को असल में काबू में लाने के लिए समूह के कम से कम 80% जानवरों को टीका लगना ज़रूरी है।"
                 ),
               },
             ],
@@ -3095,127 +3211,159 @@ export const MODULES = [
           {
             type: "callout",
             style: "tip",
-            heading: L("Your Job: Know the Schedule, Remind and Report — Never Inject"),
+            heading: L("Your Job: Know the Schedule, Remind and Report — Never Inject", "మీ పని: షెడ్యూల్ తెలుసుకోవడం, గుర్తుచేయడం, తెలియజేయడం — ఎప్పుడూ ఇంజెక్షన్ ఇవ్వడం కాదు", "உங்கள் வேலை: அட்டவணையை அறிவது, நினைவூட்டுவது, தெரிவிப்பது — ஊசி போடுவது ஒருபோதும் அல்ல", "ನಿಮ್ಮ ಕೆಲಸ: ವೇಳಾಪಟ್ಟಿ ತಿಳಿಯುವುದು, ನೆನಪಿಸುವುದು, ವರದಿ ಮಾಡುವುದು — ಎಂದಿಗೂ ಚುಚ್ಚುಮದ್ದು ಕೊಡುವುದಲ್ಲ", "आपका काम: शेड्यूल जानना, याद दिलाना और सूचना देना — इंजेक्शन लगाना कभी नहीं"),
             text: L(
-              "Deciding which vaccine, choosing the dose, and giving the injection is always done by a trained person — usually a veterinarian or an authorised vaccinator. Your job is different and just as important: know roughly what's due and when, remind the farmer, and flag it to the vet if you're not sure something has been done on time."
+              "Deciding which vaccine, choosing the dose, and giving the injection is always done by a trained person — usually a veterinarian or an authorised vaccinator. Your job is different and just as important: know roughly what's due and when, remind the farmer, and flag it to the vet if you're not sure something has been done on time.",
+              "ఏ టీకా వాడాలో నిర్ణయించడం, మోతాదు ఎంచుకోవడం, ఇంజెక్షన్ ఇవ్వడం ఎప్పుడూ శిక్షణ పొందిన వ్యక్తి — సాధారణంగా వెటర్నరీ డాక్టర్ లేదా అధీకృత వ్యాక్సినేటర్ మాత్రమే చేస్తారు. మీ పని వేరు, అంతే ముఖ్యమైనది: ఏది ఎప్పుడు రావాలో సుమారుగా తెలుసుకోవడం, రైతుకు గుర్తుచేయడం, సకాలంలో జరిగిందో లేదో ఖచ్చితంగా తెలియకపోతే డాక్టర్‌కు తెలియజేయడం.",
+              "எந்த தடுப்பூசி, அளவை தேர்வு செய்வது, ஊசி போடுவது எப்போதும் பயிற்சி பெற்ற நபரால் — பொதுவாக வெட்டரினரி டாக்டர் அல்லது அங்கீகரிக்கப்பட்ட தடுப்பூசி போடுபவரால் மட்டுமே செய்யப்படுகிறது. உங்கள் வேலை வேறு, அதே அளவு முக்கியமானது: என்ன எப்போது வேண்டும் என்பதை தோராயமாக தெரிந்துகொள்வது, விவசாயிக்கு நினைவூட்டுவது, சரியான நேரத்தில் நடந்ததா என்று உறுதியில்லை என்றால் டாக்டரிடம் தெரிவிப்பது.",
+              "ಯಾವ ಲಸಿಕೆ, ಡೋಸ್ ಆಯ್ಕೆ, ಚುಚ್ಚುಮದ್ದು ಕೊಡುವುದು ಯಾವಾಗಲೂ ತರಬೇತಿ ಪಡೆದ ವ್ಯಕ್ತಿ — ಸಾಮಾನ್ಯವಾಗಿ ಪಶುವೈದ್ಯರು ಅಥವಾ ಅಧಿಕೃತ ಲಸಿಕೆದಾರರಿಂದ ಮಾತ್ರ ಮಾಡಲ್ಪಡುತ್ತದೆ. ನಿಮ್ಮ ಕೆಲಸ ಬೇರೆ, ಅಷ್ಟೇ ಮುಖ್ಯವಾದದ್ದು: ಏನು ಯಾವಾಗ ಬೇಕು ಎಂದು ಸ್ಥೂಲವಾಗಿ ತಿಳಿಯುವುದು, ರೈತನಿಗೆ ನೆನಪಿಸುವುದು, ಸಮಯಕ್ಕೆ ಸರಿಯಾಗಿ ಆಗಿದೆಯೇ ಎಂದು ಖಚಿತವಿಲ್ಲದಿದ್ದರೆ ಪಶುವೈದ್ಯರಿಗೆ ತಿಳಿಸುವುದು.",
+              "कौन सा टीका, कितनी मात्रा, और इंजेक्शन लगाना हमेशा प्रशिक्षित व्यक्ति — आमतौर पर डॉक्टर या अधिकृत टीकाकर्ता ही करता है। आपका काम अलग है, और उतना ही ज़रूरी है: मोटे तौर पर जानना कि क्या कब देय है, किसान को याद दिलाना, और अगर यक़ीन न हो कि समय पर हुआ है तो डॉक्टर को बताना।"
             ),
           },
           {
             type: "example",
-            heading: L("A Comparison You Already Know"),
+            heading: L("A Comparison You Already Know", "మీకు ఇప్పటికే తెలిసిన ఒక పోలిక", "நீங்கள் ஏற்கனவே அறிந்த ஒரு ஒப்பீடு", "ನಿಮಗೆ ಈಗಾಗಲೇ ತಿಳಿದಿರುವ ಒಂದು ಹೋಲಿಕೆ", "एक ऐसी तुलना जो आप पहले से जानते हैं"),
             text: L(
-              "This works the same way as childhood vaccination drives for children — a course of shots given at specific ages, before the child is ever likely to be exposed to that illness. Animals need the same kind of advance protection, just on their own schedule."
+              "This works the same way as childhood vaccination drives for children — a course of shots given at specific ages, before the child is ever likely to be exposed to that illness. Animals need the same kind of advance protection, just on their own schedule.",
+              "ఇది పిల్లల కోసం జరిగే బాల్య టీకా కార్యక్రమాల మాదిరిగానే పనిచేస్తుంది — నిర్దిష్ట వయసుల్లో వరుస ఇంజెక్షన్లు ఇస్తారు, పిల్లవాడికి ఆ వ్యాధి సోకే అవకాశం రాకముందే. జంతువులకు కూడా అలాంటి ముందస్తు రక్షణే అవసరం, వాటికి మాత్రం వాటి సొంత షెడ్యూల్ ఉంటుంది.",
+              "இது குழந்தைகளுக்கான குழந்தைப் பருவ தடுப்பூசி இயக்கங்களைப் போலவே செயல்படுகிறது — குறிப்பிட்ட வயதுகளில் தொடர் ஊசிகள் கொடுக்கப்படும், குழந்தைக்கு அந்த நோய் தாக்கும் வாய்ப்பு வருவதற்கு முன்பே. விலங்குகளுக்கும் அதே வகையான முன்கூட்டிய பாதுகாப்பு தேவை, அவற்றுக்கென்று ஒரு தனி அட்டவணையில்.",
+              "ಇದು ಮಕ್ಕಳಿಗಾಗಿ ನಡೆಯುವ ಬಾಲ್ಯದ ಲಸಿಕಾ ಅಭಿಯಾನಗಳಂತೆಯೇ ಕೆಲಸ ಮಾಡುತ್ತದೆ — ನಿರ್ದಿಷ್ಟ ವಯಸ್ಸುಗಳಲ್ಲಿ ಸರಣಿ ಚುಚ್ಚುಮದ್ದುಗಳನ್ನು ಕೊಡಲಾಗುತ್ತದೆ, ಮಗುವಿಗೆ ಆ ರೋಗ ತಗಲುವ ಸಾಧ್ಯತೆ ಬರುವ ಮೊದಲೇ. ಪ್ರಾಣಿಗಳಿಗೂ ಅದೇ ರೀತಿಯ ಮುಂಚಿತ ರಕ್ಷಣೆ ಬೇಕು, ಅವುಗಳದೇ ಆದ ವೇಳಾಪಟ್ಟಿಯಲ್ಲಿ.",
+              "यह बच्चों के लिए होने वाले बचपन के टीकाकरण अभियानों जैसा ही है — ख़ास उम्र में टीकों की एक शृंखला दी जाती है, इससे पहले कि बच्चे को वह बीमारी होने की आशंका बने। जानवरों को भी उसी तरह की पहले से सुरक्षा चाहिए, बस अपने ख़ुद के शेड्यूल पर।"
             ),
           },
         ],
         check: [
           {
             type: "mcq",
-            q: L("What does a vaccine actually do?"),
+            q: L("What does a vaccine actually do?", "టీకా నిజంగా ఏం చేస్తుంది?", "தடுப்பூசி உண்மையில் என்ன செய்கிறது?", "ಲಸಿಕೆ ನಿಜವಾಗಿ ಏನು ಮಾಡುತ್ತದೆ?", "टीका असल में क्या करता है?"),
             options: [
-              L("Cures a disease after the animal already has it"),
-              L("Trains a healthy animal's body to defend against a disease before it is ever infected"),
-              L("Makes the animal produce more milk immediately"),
-              L("Replaces the need for the animal to be observed"),
+              L("Cures a disease after the animal already has it", "జంతువుకు వ్యాధి వచ్చిన తర్వాత దాన్ని నయం చేస్తుంది", "விலங்குக்கு நோய் வந்த பிறகு அதை குணப்படுத்துகிறது", "ಪ್ರಾಣಿಗೆ ರೋಗ ಬಂದ ನಂತರ ಅದನ್ನು ಗುಣಪಡಿಸುತ್ತದೆ", "जानवर को बीमारी होने के बाद उसे ठीक करता है"),
+              L("Trains a healthy animal's body to defend against a disease before it is ever infected", "సోకకముందే ఆ వ్యాధి నుండి రక్షించుకునేలా ఆరోగ్యవంతమైన జంతువు శరీరానికి శిక్షణ ఇస్తుంది", "தொற்று ஏற்படுவதற்கு முன்பே ஒரு நோயிலிருந்து தற்காத்துக்கொள்ள ஆரோக்கியமான விலங்கின் உடலுக்கு பயிற்சி அளிக்கிறது", "ಸೋಂಕು ತಗಲುವ ಮೊದಲೇ ಒಂದು ರೋಗದ ವಿರುದ್ಧ ರಕ್ಷಿಸಿಕೊಳ್ಳಲು ಆರೋಗ್ಯವಂತ ಪ್ರಾಣಿಯ ದೇಹಕ್ಕೆ ತರಬೇತಿ ನೀಡುತ್ತದೆ", "बीमारी होने से पहले ही स्वस्थ जानवर के शरीर को उससे बचाव करना सिखाता है"),
+              L("Makes the animal produce more milk immediately", "జంతువు వెంటనే ఎక్కువ పాలు ఇచ్చేలా చేస్తుంది", "விலங்கு உடனடியாக அதிக பால் தர வைக்கிறது", "ಪ್ರಾಣಿ ತಕ್ಷಣ ಹೆಚ್ಚು ಹಾಲು ಕೊಡುವಂತೆ ಮಾಡುತ್ತದೆ", "जानवर को तुरंत ज़्यादा दूध देने लायक बनाता है"),
+              L("Replaces the need for the animal to be observed", "జంతువును గమనించాల్సిన అవసరాన్ని తొలగిస్తుంది", "விலங்கை கவனிக்க வேண்டிய தேவையை நீக்குகிறது", "ಪ್ರಾಣಿಯನ್ನು ಗಮನಿಸಬೇಕಾದ ಅಗತ್ಯವನ್ನು ತಪ್ಪಿಸುತ್ತದೆ", "जानवर पर नज़र रखने की ज़रूरत को खत्म करता है"),
             ],
             answer: 1,
-            explain: L("A vaccine is given to a healthy animal ahead of time so its body already knows how to fight off that specific disease if it ever shows up."),
+            explain: L("A vaccine is given to a healthy animal ahead of time so its body already knows how to fight off that specific disease if it ever shows up.", "టీకాను ఆరోగ్యవంతమైన జంతువుకు ముందుగానే ఇస్తారు, తద్వారా ఆ నిర్దిష్ట వ్యాధి వస్తే దానితో ఎలా పోరాడాలో శరీరానికి ఇప్పటికే తెలిసి ఉంటుంది.", "தடுப்பூசி ஆரோக்கியமான விலங்குக்கு முன்கூட்டியே கொடுக்கப்படுகிறது, இதனால் அந்த குறிப்பிட்ட நோய் வந்தால் அதை எப்படி எதிர்த்துப் போராடுவது என்பது உடலுக்கு ஏற்கனவே தெரியும்.", "ಲಸಿಕೆಯನ್ನು ಆರೋಗ್ಯವಂತ ಪ್ರಾಣಿಗೆ ಮೊದಲೇ ಕೊಡಲಾಗುತ್ತದೆ, ಇದರಿಂದ ಆ ನಿರ್ದಿಷ್ಟ ರೋಗ ಬಂದರೆ ಅದನ್ನು ಹೇಗೆ ಎದುರಿಸಬೇಕೆಂದು ದೇಹಕ್ಕೆ ಈಗಾಗಲೇ ತಿಳಿದಿರುತ್ತದೆ.", "टीका स्वस्थ जानवर को पहले से दिया जाता है ताकि वह ख़ास बीमारी आने पर शरीर को पहले से पता हो कि उससे कैसे लड़ना है।"),
           },
           {
             type: "truefalse",
-            q: L("As a ground-force worker, it is your job to decide which vaccine an animal needs and give the injection yourself."),
+            q: L("As a ground-force worker, it is your job to decide which vaccine an animal needs and give the injection yourself.", "ఒక క్షేత్రస్థాయి కార్యకర్తగా, జంతువుకు ఏ టీకా కావాలో నిర్ణయించి, మీరే ఇంజెక్షన్ ఇవ్వడం మీ పని.", "ஒரு கள ஊழியராக, ஒரு விலங்குக்கு எந்த தடுப்பூசி தேவை என்று முடிவு செய்து, ஊசியை நீங்களே போடுவது உங்கள் வேலை.", "ಒಬ್ಬ ಕ್ಷೇತ್ರ ಸಿಬ್ಬಂದಿಯಾಗಿ, ಪ್ರಾಣಿಗೆ ಯಾವ ಲಸಿಕೆ ಬೇಕೆಂದು ನಿರ್ಧರಿಸಿ, ಚುಚ್ಚುಮದ್ದನ್ನು ನೀವೇ ಕೊಡುವುದು ನಿಮ್ಮ ಕೆಲಸ.", "फ़ील्ड कार्यकर्ता के तौर पर, यह तय करना कि जानवर को कौन सा टीका चाहिए और इंजेक्शन खुद लगाना, आपका काम है।"),
             answer: false,
             explain: L(
-              "No — choosing and giving a vaccine is done by a trained veterinarian or authorised vaccinator. Your role is to know the schedule, remind the farmer, and report."
+              "No — choosing and giving a vaccine is done by a trained veterinarian or authorised vaccinator. Your role is to know the schedule, remind the farmer, and report.",
+              "కాదు — టీకా ఎంచుకోవడం, ఇవ్వడం ఎప్పుడూ శిక్షణ పొందిన వెటర్నరీ డాక్టర్ లేదా అధీకృత వ్యాక్సినేటర్ మాత్రమే చేస్తారు. మీ పాత్ర షెడ్యూల్ తెలుసుకోవడం, రైతుకు గుర్తుచేయడం, తెలియజేయడం.",
+              "இல்லை — தடுப்பூசியை தேர்வு செய்து கொடுப்பது பயிற்சி பெற்ற வெட்டரினரி டாக்டர் அல்லது அங்கீகரிக்கப்பட்ட தடுப்பூசி போடுபவரால் மட்டுமே செய்யப்படுகிறது. உங்கள் பங்கு அட்டவணையை அறிவது, விவசாயிக்கு நினைவூட்டுவது, தெரிவிப்பது.",
+              "ಇಲ್ಲ — ಲಸಿಕೆ ಆಯ್ಕೆ ಮಾಡುವುದು ಮತ್ತು ಕೊಡುವುದನ್ನು ತರಬೇತಿ ಪಡೆದ ಪಶುವೈದ್ಯರು ಅಥವಾ ಅಧಿಕೃತ ಲಸಿಕೆದಾರರು ಮಾತ್ರ ಮಾಡುತ್ತಾರೆ. ನಿಮ್ಮ ಪಾತ್ರ ವೇಳಾಪಟ್ಟಿ ತಿಳಿಯುವುದು, ರೈತನಿಗೆ ನೆನಪಿಸುವುದು, ವರದಿ ಮಾಡುವುದು.",
+              "नहीं — टीका चुनना और लगाना हमेशा प्रशिक्षित डॉक्टर या अधिकृत टीकाकर्ता ही करता है। आपकी भूमिका शेड्यूल जानना, किसान को याद दिलाना और सूचना देना है।"
             ),
           },
         ],
       },
       {
         id: "t-m4-fmd-hs",
-        title: L("Two Diseases You'll Hear About Often: FMD and HS"),
+        title: L("Two Diseases You'll Hear About Often: FMD and HS", "మీరు తరచుగా వినే రెండు వ్యాధులు: FMD మరియు HS", "நீங்கள் அடிக்கடி கேட்கும் இரண்டு நோய்கள்: FMD மற்றும் HS", "ನೀವು ಆಗಾಗ್ಗೆ ಕೇಳುವ ಎರಡು ರೋಗಗಳು: FMD ಮತ್ತು HS", "जिन दो बीमारियों का ज़िक्र आप अक्सर सुनेंगे: FMD और HS"),
         teach: [
           {
             type: "text",
-            heading: L("Foot and Mouth Disease (FMD)"),
+            heading: L("Foot and Mouth Disease (FMD)", "గొంతు, కాళ్ళ వ్యాధి (FMD)", "கால் மற்றும் வாய் நோய் (FMD)", "ಕಾಲು ಬಾಯಿ ರೋಗ (FMD)", "मुंह और खुर की बीमारी (FMD)"),
             html: L(
-              "FMD is a highly contagious viral disease — it spreads easily through direct contact, and even through contaminated water, feed and air. It rarely kills adult animals outright, but it can permanently reduce their milk production, fertility and working strength for the rest of their life after recovery. In calves, it is usually fatal."
+              "FMD is a highly contagious viral disease — it spreads easily through direct contact, and even through contaminated water, feed and air. It rarely kills adult animals outright, but it can permanently reduce their milk production, fertility and working strength for the rest of their life after recovery. In calves, it is usually fatal.",
+              "FMD అనేది అత్యంత అంటువ్యాధి — ఇది ప్రత్యక్ష సంపర్కం ద్వారానే కాక, కలుషితమైన నీరు, దాణా, గాలి ద్వారా కూడా సులభంగా వ్యాపిస్తుంది. పెద్ద జంతువులను ఇది చాలా అరుదుగా చంపుతుంది, కానీ కోలుకున్న తర్వాత కూడా వాటి పాల ఉత్పత్తి, పునరుత్పత్తి సామర్థ్యం, పనిచేసే శక్తిని శాశ్వతంగా తగ్గించవచ్చు. దూడల్లో ఇది సాధారణంగా ప్రాణాంతకం.",
+              "FMD என்பது மிகவும் தொற்றக்கூடிய வைரஸ் நோய் — இது நேரடி தொடர்பு மூலமாகவும், மாசுபட்ட நீர், தீவனம், காற்று மூலமாகவும் எளிதாக பரவுகிறது. இது வளர்ந்த விலங்குகளை அரிதாகவே கொல்லும், ஆனால் குணமான பின்னரும் அவற்றின் பால் உற்பத்தி, இனப்பெருக்க திறன், வேலை செய்யும் சக்தியை நிரந்தரமாக குறைக்கலாம். கன்றுகளில் இது பொதுவாக உயிராபத்தானது.",
+              "FMD ಎಂಬುದು ಬಹಳ ಸಾಂಕ್ರಾಮಿಕ ವೈರಸ್ ರೋಗ — ಇದು ನೇರ ಸಂಪರ್ಕದ ಮೂಲಕ ಮಾತ್ರವಲ್ಲದೆ, ಕಲುಷಿತ ನೀರು, ಆಹಾರ ಮತ್ತು ಗಾಳಿಯ ಮೂಲಕವೂ ಸುಲಭವಾಗಿ ಹರಡುತ್ತದೆ. ಇದು ವಯಸ್ಕ ಪ್ರಾಣಿಗಳನ್ನು ವಿರಳವಾಗಿ ಕೊಲ್ಲುತ್ತದೆ, ಆದರೆ ಗುಣಮುಖವಾದ ನಂತರವೂ ಅವುಗಳ ಹಾಲಿನ ಉತ್ಪಾದನೆ, ಸಂತಾನೋತ್ಪತ್ತಿ ಸಾಮರ್ಥ್ಯ, ಕೆಲಸದ ಶಕ್ತಿಯನ್ನು ಶಾಶ್ವತವಾಗಿ ಕಡಿಮೆ ಮಾಡಬಹುದು. ಕರುಗಳಲ್ಲಿ ಇದು ಸಾಮಾನ್ಯವಾಗಿ ಮಾರಣಾಂತಿಕ.",
+              "FMD एक बेहद संक्रामक वायरल बीमारी है — यह सीधे संपर्क के अलावा दूषित पानी, चारे और हवा के ज़रिए भी आसानी से फैलती है। यह बड़े जानवरों की जान कम ही लेती है, लेकिन ठीक होने के बाद भी उनकी दूध देने की क्षमता, प्रजनन क्षमता और काम करने की ताकत को हमेशा के लिए कम कर सकती है। बछड़ों में यह आमतौर पर जानलेवा होती है।"
             ),
           },
           {
             type: "stat-grid",
             items: [
               {
-                label: L("Watch for"),
-                text: L("A sudden, drastic drop in milk production, fever, heavy drooling, and watery discharge from the nose."),
+                label: L("Watch for", "గమనించాల్సినవి", "கவனிக்க வேண்டியவை", "ಗಮನಿಸಬೇಕಾದದ್ದು", "किस पर नज़र रखें"),
+                text: L("A sudden, drastic drop in milk production, fever, heavy drooling, and watery discharge from the nose.", "అకస్మాత్తుగా, తీవ్రంగా పాల ఉత్పత్తి తగ్గడం, జ్వరం, ఎక్కువగా చొంగ కారడం, ముక్కు నుండి నీరు కారడం.", "திடீரென, கடுமையாக பால் உற்பத்தி குறைவது, காய்ச்சல், அதிக உமிழ்நீர் வடிதல், மூக்கிலிருந்து நீர் வடிதல்.", "ಹಠಾತ್, ತೀವ್ರ ಹಾಲಿನ ಉತ್ಪಾದನೆ ಕುಸಿತ, ಜ್ವರ, ಅತಿಯಾದ ಜೊಲ್ಲು ಸುರಿಯುವಿಕೆ, ಮತ್ತು ಮೂಗಿನಿಂದ ನೀರು ಸೋರುವಿಕೆ.", "दूध उत्पादन में अचानक, भारी गिरावट, बुख़ार, ज़्यादा लार टपकना, और नाक से पानी जैसा स्राव।"),
               },
               {
-                label: L("Mouth and feet"),
+                label: L("Mouth and feet", "నోరు మరియు కాళ్ళు", "வாய் மற்றும் கால்கள்", "ಬಾಯಿ ಮತ್ತು ಕಾಲುಗಳು", "मुंह और पैर"),
                 text: L(
-                  "Small fluid-filled blisters on the tongue, gums, lips and dental pad, and between the toes — blisters between the toes often cause noticeable limping."
+                  "Small fluid-filled blisters on the tongue, gums, lips and dental pad, and between the toes — blisters between the toes often cause noticeable limping.",
+                  "నాలుక, చిగుళ్ళు, పెదవులు మరియు దంతాల పలక మీద, వేళ్ళ మధ్య చిన్న నీటి బొబ్బలు కనిపిస్తాయి — వేళ్ళ మధ్య బొబ్బలు తరచుగా కుంటడానికి కారణమవుతాయి.",
+                  "நாக்கு, ஈறுகள், உதடுகள் மற்றும் பல் தட்டு, மற்றும் விரல்களுக்கு இடையே சிறிய நீர் நிறைந்த கொப்புளங்கள் — விரல்களுக்கு இடையேயான கொப்புளங்கள் பெரும்பாலும் தெளிவான நொண்டித்தனத்தை ஏற்படுத்தும்.",
+                  "ನಾಲಿಗೆ, ಒಸಡುಗಳು, ತುಟಿಗಳು ಮತ್ತು ಹಲ್ಲಿನ ಫಲಕ, ಮತ್ತು ಕಾಲ್ಬೆರಳುಗಳ ನಡುವೆ ಸಣ್ಣ ನೀರು ತುಂಬಿದ ಗುಳ್ಳೆಗಳು — ಕಾಲ್ಬೆರಳುಗಳ ನಡುವಿನ ಗುಳ್ಳೆಗಳು ಸಾಮಾನ್ಯವಾಗಿ ಗಮನಾರ್ಹ ಕುಂಟುವಿಕೆಗೆ ಕಾರಣವಾಗುತ್ತವೆ.",
+                  "जीभ, मसूड़ों, होंठों और दांतों की पट्टी पर, और खुरों के बीच छोटे पानी भरे छाले — खुरों के बीच के छाले अक्सर साफ़ तौर पर लंगड़ाने की वजह बनते हैं।"
                 ),
               },
               {
-                label: L("Udder"),
-                text: L("Blister-like lesions on the teats can also lead to a painful, infected udder."),
+                label: L("Udder", "పొదుగు", "மடி", "ಕೆಚ್ಚಲು", "थन"),
+                text: L("Blister-like lesions on the teats can also lead to a painful, infected udder.", "చనుమొనలపై బొబ్బల వంటి గాయాలు కూడా బాధాకరమైన, ఇన్ఫెక్షన్ ఉన్న పొదుగుకు దారితీయవచ్చు.", "காம்புகளில் கொப்புள போன்ற காயங்கள் வலிமிகுந்த, தொற்று ஏற்பட்ட மடிக்கு வழிவகுக்கலாம்.", "ಮೊಲೆತೊಟ್ಟುಗಳ ಮೇಲಿನ ಗುಳ್ಳೆಯಂತಹ ಗಾಯಗಳು ನೋವಿನ, ಸೋಂಕಿತ ಕೆಚ್ಚಲಿಗೂ ಕಾರಣವಾಗಬಹುದು.", "थनों पर छालों जैसे घाव दर्दनाक, संक्रमित थन का कारण भी बन सकते हैं।"),
               },
             ],
           },
           {
             type: "callout",
             style: "warning",
-            heading: L("Report FMD Signs the Same Day"),
+            heading: L("Report FMD Signs the Same Day", "FMD లక్షణాలు అదే రోజు తెలియజేయండి", "FMD அறிகுறிகளை அன்றே தெரிவிக்கவும்", "FMD ಲಕ್ಷಣಗಳನ್ನು ಅದೇ ದಿನ ವರದಿ ಮಾಡಿ", "FMD के लक्षण उसी दिन बताएं"),
             text: L(
-              "Because FMD spreads so easily through contact and shared water or feed, an infected animal should be kept away from the rest of the herd as soon as it's noticed, and reported right away — even though it is rarely fatal to adults, the losses to milk and long-term health are severe."
+              "Because FMD spreads so easily through contact and shared water or feed, an infected animal should be kept away from the rest of the herd as soon as it's noticed, and reported right away — even though it is rarely fatal to adults, the losses to milk and long-term health are severe.",
+              "FMD సంపర్కం, పంచుకునే నీరు లేదా దాణా ద్వారా చాలా సులభంగా వ్యాపిస్తుంది కాబట్టి, ఇన్ఫెక్షన్ ఉన్న జంతువును గమనించిన వెంటనే మిగతా మంద నుండి దూరంగా ఉంచి, వెంటనే తెలియజేయాలి — పెద్ద జంతువులకు ఇది అరుదుగా ప్రాణాంతకమైనా, పాల నష్టం, దీర్ఘకాలిక ఆరోగ్య నష్టం తీవ్రంగా ఉంటాయి.",
+              "FMD தொடர்பு மற்றும் பகிரப்பட்ட நீர் அல்லது தீவனம் மூலம் மிக எளிதாக பரவுவதால், தொற்று ஏற்பட்ட விலங்கை கவனித்தவுடன் மற்ற மந்தையிலிருந்து விலக்கி வைத்து, உடனடியாக தெரிவிக்க வேண்டும் — இது வளர்ந்த விலங்குகளுக்கு அரிதாகவே உயிராபத்தானது என்றாலும், பால் மற்றும் நீண்டகால ஆரோக்கிய இழப்பு கடுமையானது.",
+              "FMD ಸಂಪರ್ಕ ಮತ್ತು ಹಂಚಿಕೊಂಡ ನೀರು ಅಥವಾ ಆಹಾರದ ಮೂಲಕ ಬಹಳ ಸುಲಭವಾಗಿ ಹರಡುವುದರಿಂದ, ಸೋಂಕಿತ ಪ್ರಾಣಿಯನ್ನು ಗಮನಿಸಿದ ತಕ್ಷಣ ಉಳಿದ ಹಿಂಡಿನಿಂದ ದೂರವಿಟ್ಟು, ತಕ್ಷಣ ವರದಿ ಮಾಡಬೇಕು — ಇದು ವಯಸ್ಕ ಪ್ರಾಣಿಗಳಿಗೆ ವಿರಳವಾಗಿ ಮಾರಣಾಂತಿಕವಾದರೂ, ಹಾಲು ಮತ್ತು ದೀರ್ಘಕಾಲೀನ ಆರೋಗ್ಯ ನಷ್ಟ ತೀವ್ರವಾಗಿರುತ್ತದೆ.",
+              "क्योंकि FMD संपर्क और साझा पानी या चारे के ज़रिए बहुत आसानी से फैलता है, संक्रमित जानवर को देखते ही बाक़ी झुंड से अलग रखना चाहिए और तुरंत सूचना देनी चाहिए — भले ही यह बड़े जानवरों की जान कम ही लेता हो, दूध और लंबे समय के स्वास्थ्य का नुक़सान गंभीर होता है।"
             ),
           },
           {
             type: "text",
-            heading: L("Haemorrhagic Septicaemia (HS)"),
+            heading: L("Haemorrhagic Septicaemia (HS)", "హెమరేజిక్ సెప్టిసీమియా (HS)", "ரத்தக்கசிவு நோய்த்தொற்று (HS)", "ಹೆಮರೇಜಿಕ್ ಸೆಪ್ಟಿಸೀಮಿಯಾ (HS)", "हैमरेजिक सेप्टिसीमिया (HS)"),
             html: L(
-              "HS is a fast-moving bacterial disease that usually strikes during the monsoon, especially in humid, waterlogged conditions. It can kill up to 80% of the animals it infects, and buffaloes are generally more at risk from it than cattle."
+              "HS is a fast-moving bacterial disease that usually strikes during the monsoon, especially in humid, waterlogged conditions. It can kill up to 80% of the animals it infects, and buffaloes are generally more at risk from it than cattle.",
+              "HS అనేది వేగంగా వ్యాపించే బ్యాక్టీరియా వ్యాధి, సాధారణంగా వర్షాకాలంలో, ముఖ్యంగా తేమతో, నీరు నిలిచిన పరిస్థితుల్లో దాడి చేస్తుంది. ఇది సోకిన జంతువుల్లో 80% వరకు చంపగలదు, ఆవుల కంటే గేదెలకు దీని ప్రమాదం ఎక్కువ.",
+              "HS என்பது வேகமாக பரவும் பாக்டீரியா நோய், பொதுவாக பருவமழையில், குறிப்பாக ஈரப்பதமான, தண்ணீர் தேங்கிய சூழலில் தாக்குகிறது. இது தொற்று ஏற்பட்ட விலங்குகளில் 80% வரை கொல்லக்கூடும், பசுக்களை விட எருமைகளுக்கு இதன் ஆபத்து அதிகம்.",
+              "HS ಎಂಬುದು ವೇಗವಾಗಿ ಹರಡುವ ಬ್ಯಾಕ್ಟೀರಿಯಾ ರೋಗ, ಸಾಮಾನ್ಯವಾಗಿ ಮಳೆಗಾಲದಲ್ಲಿ, ವಿಶೇಷವಾಗಿ ತೇವ, ನೀರು ನಿಂತ ಪರಿಸ್ಥಿತಿಗಳಲ್ಲಿ ದಾಳಿ ಮಾಡುತ್ತದೆ. ಇದು ಸೋಂಕಿತ ಪ್ರಾಣಿಗಳಲ್ಲಿ 80% ವರೆಗೆ ಸಾಯಿಸಬಹುದು, ಹಸುಗಳಿಗಿಂತ ಎಮ್ಮೆಗಳಿಗೆ ಇದರ ಅಪಾಯ ಹೆಚ್ಚು.",
+              "HS एक तेज़ी से फैलने वाली बैक्टीरिया बीमारी है जो आमतौर पर बरसात के मौसम में, ख़ासकर नमी और जलभराव वाली स्थितियों में हमला करती है। यह संक्रमित जानवरों में से 80% तक की जान ले सकती है, और गायों की तुलना में भैंसों को इससे ज़्यादा ख़तरा होता है।"
             ),
           },
           {
             type: "stat-grid",
             items: [
               {
-                label: L("Watch for"),
-                text: L("High fever together with a sudden drop in milk yield, drooling, and watery nasal discharge."),
+                label: L("Watch for", "గమనించాల్సినవి", "கவனிக்க வேண்டியவை", "ಗಮನಿಸಬೇಕಾದದ್ದು", "किस पर नज़र रखें"),
+                text: L("High fever together with a sudden drop in milk yield, drooling, and watery nasal discharge.", "తీవ్రమైన జ్వరం, దానితో పాటు అకస్మాత్తుగా పాల దిగుబడి తగ్గడం, చొంగ కారడం, ముక్కు నుండి నీరు కారడం.", "அதிக காய்ச்சலுடன் திடீரென பால் விளைச்சல் குறைவு, உமிழ்நீர் வடிதல், மூக்கிலிருந்து நீர் வடிதல்.", "ಹೆಚ್ಚಿನ ಜ್ವರದ ಜೊತೆಗೆ ಹಠಾತ್ ಹಾಲಿನ ಇಳುವರಿ ಕುಸಿತ, ಜೊಲ್ಲು ಸುರಿಯುವಿಕೆ, ಮತ್ತು ಮೂಗಿನಿಂದ ನೀರು ಸೋರುವಿಕೆ.", "तेज़ बुख़ार के साथ दूध की पैदावार में अचानक गिरावट, लार टपकना, और नाक से पानी जैसा स्राव।"),
               },
               {
-                label: L("The throat swelling"),
-                text: L("Severe swelling of the throat area, causing difficulty breathing — the animal may make a grunting sound."),
+                label: L("The throat swelling", "గొంతు వాపు", "தொண்டை வீக்கம்", "ಗಂಟಲಿನ ಊತ", "गले की सूजन"),
+                text: L("Severe swelling of the throat area, causing difficulty breathing — the animal may make a grunting sound.", "గొంతు ప్రాంతంలో తీవ్రమైన వాపు, దీనివల్ల శ్వాస తీసుకోవడం కష్టమవుతుంది — జంతువు గురక వంటి శబ్దం చేయవచ్చు.", "தொண்டை பகுதியில் கடுமையான வீக்கம், மூச்சு விடுவதில் சிரமம் — விலங்கு குறட்டை போன்ற சத்தம் எழுப்பலாம்.", "ಗಂಟಲಿನ ಭಾಗದಲ್ಲಿ ತೀವ್ರ ಊತ, ಉಸಿರಾಟದ ತೊಂದರೆ — ಪ್ರಾಣಿ ಗುರುಗುಟ್ಟುವ ಶಬ್ದ ಮಾಡಬಹುದು.", "गले के हिस्से में तेज़ सूजन, जिससे सांस लेने में तकलीफ़ होती है — जानवर घुरघुराने जैसी आवाज़ कर सकता है।"),
               },
             ],
           },
           {
             type: "callout",
             style: "warning",
-            heading: L("HS Can Kill Within a Day or Two — Do Not Wait"),
+            heading: L("HS Can Kill Within a Day or Two — Do Not Wait", "HS ఒకటి రెండు రోజుల్లోనే చంపగలదు — వేచి ఉండకండి", "HS ஒன்று அல்லது இரண்டு நாட்களில் கொல்லக்கூடும் — காத்திருக்க வேண்டாம்", "HS ಒಂದೆರಡು ದಿನಗಳಲ್ಲಿ ಸಾಯಿಸಬಹುದು — ಕಾಯಬೇಡಿ", "HS एक-दो दिन में जान ले सकता है — इंतज़ार न करें"),
             text: L(
-              "An animal showing HS signs can die within 1–2 days of the symptoms first appearing, and animals that already show clear signs — buffaloes especially — rarely recover. If you see high fever, throat swelling or breathing trouble together with a milk drop during the monsoon, report it immediately, the same hour if possible."
+              "An animal showing HS signs can die within 1–2 days of the symptoms first appearing, and animals that already show clear signs — buffaloes especially — rarely recover. If you see high fever, throat swelling or breathing trouble together with a milk drop during the monsoon, report it immediately, the same hour if possible.",
+              "HS లక్షణాలు కనిపిస్తున్న జంతువు లక్షణాలు మొదలైన 1–2 రోజుల్లోనే చనిపోవచ్చు, స్పష్టమైన లక్షణాలు ఇప్పటికే కనిపిస్తున్న జంతువులు — ముఖ్యంగా గేదెలు — అరుదుగానే కోలుకుంటాయి. వర్షాకాలంలో తీవ్రమైన జ్వరం, గొంతు వాపు లేదా శ్వాస తీసుకోవడంలో ఇబ్బంది, దానితో పాటు పాల తగ్గుదల కనిపిస్తే, వీలైతే అదే గంటలో వెంటనే తెలియజేయండి.",
+              "HS அறிகுறிகளை காட்டும் ஒரு விலங்கு அறிகுறிகள் முதலில் தோன்றிய 1–2 நாட்களுக்குள் இறக்கக்கூடும், ஏற்கனவே தெளிவான அறிகுறிகளை காட்டும் விலங்குகள் — குறிப்பாக எருமைகள் — அரிதாகவே குணமடைகின்றன. பருவமழையில் அதிக காய்ச்சல், தொண்டை வீக்கம் அல்லது மூச்சு விடுவதில் சிரமத்துடன் பால் குறைவு தெரிந்தால், முடிந்தால் அதே மணி நேரத்தில் உடனடியாக தெரிவிக்கவும்.",
+              "HS ಲಕ್ಷಣಗಳನ್ನು ತೋರಿಸುವ ಪ್ರಾಣಿ ಲಕ್ಷಣಗಳು ಮೊದಲು ಕಾಣಿಸಿದ 1–2 ದಿನಗಳಲ್ಲಿ ಸಾಯಬಹುದು, ಈಗಾಗಲೇ ಸ್ಪಷ್ಟ ಲಕ್ಷಣಗಳನ್ನು ತೋರಿಸುವ ಪ್ರಾಣಿಗಳು — ವಿಶೇಷವಾಗಿ ಎಮ್ಮೆಗಳು — ವಿರಳವಾಗಿ ಗುಣಮುಖವಾಗುತ್ತವೆ. ಮಳೆಗಾಲದಲ್ಲಿ ಹೆಚ್ಚಿನ ಜ್ವರ, ಗಂಟಲಿನ ಊತ ಅಥವಾ ಉಸಿರಾಟದ ತೊಂದರೆಯ ಜೊತೆಗೆ ಹಾಲು ಕಡಿಮೆಯಾಗುವುದು ಕಂಡರೆ, ಸಾಧ್ಯವಾದರೆ ಅದೇ ಗಂಟೆಯಲ್ಲಿ ತಕ್ಷಣ ವರದಿ ಮಾಡಿ.",
+              "HS के लक्षण दिखने वाला जानवर लक्षण दिखने के 1–2 दिन के भीतर मर सकता है, और जिन जानवरों में पहले से साफ़ लक्षण दिख रहे हों — ख़ासकर भैंसें — वे मुश्किल से ही ठीक होते हैं। अगर बरसात के मौसम में तेज़ बुख़ार, गले की सूजन या सांस लेने में तकलीफ़ के साथ दूध घटता दिखे, तो हो सके तो उसी घंटे तुरंत सूचना दें।"
             ),
           },
         ],
         check: [
           {
             type: "mcq",
-            q: L("Which of these is a sign of FMD (Foot and Mouth Disease)?"),
+            q: L("Which of these is a sign of FMD (Foot and Mouth Disease)?", "వీటిలో ఏది FMD (గొంతు, కాళ్ళ వ్యాధి) లక్షణం?", "இவற்றில் எது FMD (கால் மற்றும் வாய் நோய்) அறிகுறி?", "ಇವುಗಳಲ್ಲಿ ಯಾವುದು FMD (ಕಾಲು ಬಾಯಿ ರೋಗ)ದ ಲಕ್ಷಣ?", "इनमें से कौन सा FMD (मुंह और खुर की बीमारी) का लक्षण है?"),
             options: [
-              L("Blisters on the tongue, gums or between the toes, with a sudden drop in milk"),
-              L("Only a change in coat colour"),
-              L("Increased milk production"),
-              L("No visible signs at all, ever"),
+              L("Blisters on the tongue, gums or between the toes, with a sudden drop in milk", "నాలుక, చిగుళ్ళపై లేదా వేళ్ళ మధ్య బొబ్బలు, పాలు అకస్మాత్తుగా తగ్గడం", "நாக்கு, ஈறுகள் அல்லது விரல்களுக்கு இடையே கொப்புளங்கள், பால் திடீரென குறைவு", "ನಾಲಿಗೆ, ಒಸಡುಗಳ ಮೇಲೆ ಅಥವಾ ಕಾಲ್ಬೆರಳುಗಳ ನಡುವೆ ಗುಳ್ಳೆಗಳು, ಹಾಲು ಹಠಾತ್ ಕುಸಿತ", "जीभ, मसूड़ों या खुरों के बीच छाले, दूध में अचानक गिरावट"),
+              L("Only a change in coat colour", "కేవలం ఒంటి రంగులో మార్పు మాత్రమే", "உடலின் நிறத்தில் மட்டும் மாற்றம்", "ಕೇವಲ ಮೈ ಬಣ್ಣದಲ್ಲಿ ಬದಲಾವಣೆ", "सिर्फ़ रंग में बदलाव"),
+              L("Increased milk production", "పాల ఉత్పత్తి పెరగడం", "பால் உற்பத்தி அதிகரிப்பு", "ಹಾಲಿನ ಉತ್ಪಾದನೆ ಹೆಚ್ಚಳ", "दूध उत्पादन बढ़ना"),
+              L("No visible signs at all, ever", "ఎప్పుడూ ఎలాంటి కనిపించే లక్షణాలు ఉండవు", "எப்போதும் எந்த தெரியும் அறிகுறியும் இல்லை", "ಎಂದಿಗೂ ಯಾವುದೇ ಕಾಣುವ ಲಕ್ಷಣಗಳಿಲ್ಲ", "कभी कोई दिखने वाला लक्षण नहीं"),
             ],
             answer: 0,
-            explain: L("FMD shows up as blisters in the mouth and feet, drooling, nasal discharge, and a sudden drop in milk production."),
+            explain: L("FMD shows up as blisters in the mouth and feet, drooling, nasal discharge, and a sudden drop in milk production.", "FMD నోరు, కాళ్ళలో బొబ్బలుగా, చొంగ కారడం, ముక్కు నుండి నీరు కారడం, పాల ఉత్పత్తి అకస్మాత్తుగా తగ్గడంగా కనిపిస్తుంది.", "FMD வாய் மற்றும் கால்களில் கொப்புளங்களாக, உமிழ்நீர் வடிதல், மூக்கு நீர் வடிதல், பால் உற்பத்தி திடீர் குறைவாக தெரியும்.", "FMD ಬಾಯಿ ಮತ್ತು ಕಾಲುಗಳಲ್ಲಿ ಗುಳ್ಳೆಗಳಾಗಿ, ಜೊಲ್ಲು ಸುರಿಯುವಿಕೆ, ಮೂಗಿನ ಸೋರುವಿಕೆ, ಹಾಲಿನ ಉತ್ಪಾದನೆಯ ಹಠಾತ್ ಕುಸಿತವಾಗಿ ಕಾಣಿಸಿಕೊಳ್ಳುತ್ತದೆ.", "FMD मुंह और पैरों में छालों, लार टपकने, नाक से पानी बहने, और दूध उत्पादन में अचानक गिरावट के रूप में दिखता है।"),
           },
           {
             type: "truefalse",
-            q: L("Haemorrhagic Septicaemia (HS) can kill an animal within 1–2 days of the first symptoms appearing."),
+            q: L("Haemorrhagic Septicaemia (HS) can kill an animal within 1–2 days of the first symptoms appearing.", "మొదటి లక్షణాలు కనిపించిన 1–2 రోజుల్లోనే హెమరేజిక్ సెప్టిసీమియా (HS) జంతువును చంపగలదు.", "முதல் அறிகுறிகள் தோன்றிய 1–2 நாட்களுக்குள் ரத்தக்கசிவு நோய்த்தொற்று (HS) ஒரு விலங்கை கொல்லக்கூடும்.", "ಮೊದಲ ಲಕ್ಷಣಗಳು ಕಾಣಿಸಿದ 1–2 ದಿನಗಳಲ್ಲಿ ಹೆಮರೇಜಿಕ್ ಸೆಪ್ಟಿಸೀಮಿಯಾ (HS) ಪ್ರಾಣಿಯನ್ನು ಸಾಯಿಸಬಹುದು.", "पहले लक्षण दिखने के 1–2 दिन के भीतर हैमरेजिक सेप्टिसीमिया (HS) किसी जानवर की जान ले सकता है।"),
             answer: true,
-            explain: L("Yes — HS moves very fast, sometimes causing death within just 1–2 days of symptoms appearing, which is why it needs to be reported immediately."),
+            explain: L("Yes — HS moves very fast, sometimes causing death within just 1–2 days of symptoms appearing, which is why it needs to be reported immediately.", "అవును — HS చాలా వేగంగా వ్యాపిస్తుంది, కొన్నిసార్లు లక్షణాలు కనిపించిన 1–2 రోజుల్లోనే మరణానికి కారణమవుతుంది, అందుకే వెంటనే తెలియజేయాలి.", "ஆம் — HS மிக வேகமாக பரவுகிறது, சில நேரங்களில் அறிகுறிகள் தோன்றி 1–2 நாட்களுக்குள் மரணத்தை ஏற்படுத்தும், அதனால்தான் உடனடியாக தெரிவிக்க வேண்டும்.", "ಹೌದು — HS ಬಹಳ ವೇಗವಾಗಿ ಹರಡುತ್ತದೆ, ಕೆಲವೊಮ್ಮೆ ಲಕ್ಷಣಗಳು ಕಾಣಿಸಿದ ಕೇವಲ 1–2 ದಿನಗಳಲ್ಲಿ ಸಾವಿಗೆ ಕಾರಣವಾಗುತ್ತದೆ, ಅದಕ್ಕಾಗಿಯೇ ತಕ್ಷಣ ವರದಿ ಮಾಡಬೇಕು.", "हां — HS बहुत तेज़ी से फैलता है, कभी-कभी लक्षण दिखने के सिर्फ़ 1–2 दिन के भीतर मौत का कारण बन जाता है, इसीलिए इसकी सूचना तुरंत देनी चाहिए।"),
           },
         ],
       },
@@ -3226,45 +3374,45 @@ export const MODULES = [
         {
           topicId: "t-m4-why-vaccinate",
           type: "mcq",
-          q: L("What percentage of a herd generally needs to be vaccinated for a disease to be properly controlled across that group?"),
-          options: [L("At least 80%"), L("About 10%"), L("Exactly 50%"), L("Only the sick animals")],
+          q: L("What percentage of a herd generally needs to be vaccinated for a disease to be properly controlled across that group?", "ఆ గుంపులో వ్యాధిని సరిగ్గా అదుపులోకి తేవాలంటే సాధారణంగా మందలో ఎంత శాతానికి టీకా వేయాలి?", "அந்த குழுவில் நோயை சரியாக கட்டுக்குள் கொண்டுவர பொதுவாக மந்தையில் எத்தனை சதவீதத்திற்கு தடுப்பூசி தேவை?", "ಆ ಗುಂಪಿನಲ್ಲಿ ರೋಗವನ್ನು ಸರಿಯಾಗಿ ನಿಯಂತ್ರಿಸಲು ಸಾಮಾನ್ಯವಾಗಿ ಹಿಂಡಿನ ಎಷ್ಟು ಶೇಕಡಾಕ್ಕೆ ಲಸಿಕೆ ಬೇಕು?", "उस समूह में बीमारी पर ठीक से काबू पाने के लिए आमतौर पर झुंड के कितने प्रतिशत को टीका लगना चाहिए?"),
+          options: [L("At least 80%", "కనీసం 80%", "குறைந்தது 80%", "ಕನಿಷ್ಠ 80%", "कम से कम 80%"), L("About 10%", "సుమారు 10%", "சுமார் 10%", "ಸುಮಾರು 10%", "लगभग 10%"), L("Exactly 50%", "సరిగ్గా 50%", "சரியாக 50%", "ನಿಖರವಾಗಿ 50%", "ठीक 50%"), L("Only the sick animals", "అనారోగ్యంతో ఉన్న జంతువులకు మాత్రమే", "நோய்வாய்ப்பட்ட விலங்குகளுக்கு மட்டும்", "ಅನಾರೋಗ್ಯದ ಪ್ರಾಣಿಗಳಿಗೆ ಮಾತ್ರ", "सिर्फ़ बीमार जानवरों को")],
           answer: 0,
-          explain: L("At least 80% coverage of the group is needed for vaccination to actually control the spread of a disease."),
+          explain: L("At least 80% coverage of the group is needed for vaccination to actually control the spread of a disease.", "వ్యాధి వ్యాప్తిని నిజంగా అదుపు చేయాలంటే గుంపులో కనీసం 80% కవరేజ్ అవసరం.", "நோய் பரவுவதை உண்மையில் கட்டுப்படுத்த குழுவில் குறைந்தது 80% பரவலாக்கம் தேவை.", "ರೋಗದ ಹರಡುವಿಕೆಯನ್ನು ನಿಜವಾಗಿ ನಿಯಂತ್ರಿಸಲು ಗುಂಪಿನ ಕನಿಷ್ಠ 80% ವ್ಯಾಪ್ತಿ ಬೇಕು.", "बीमारी के फैलाव पर असल में काबू पाने के लिए समूह में कम से कम 80% कवरेज ज़रूरी है।"),
         },
         {
           topicId: "t-m4-why-vaccinate",
           type: "truefalse",
-          q: L("A vaccine is given to an animal after it has already caught the disease, to cure it."),
+          q: L("A vaccine is given to an animal after it has already caught the disease, to cure it.", "వ్యాధి సోకిన తర్వాత దాన్ని నయం చేయడానికి జంతువుకు టీకా ఇస్తారు.", "ஒரு விலங்குக்கு நோய் ஏற்கனவே வந்த பிறகு, அதை குணப்படுத்த தடுப்பூசி கொடுக்கப்படுகிறது.", "ಪ್ರಾಣಿಗೆ ಈಗಾಗಲೇ ರೋಗ ಬಂದ ನಂತರ, ಅದನ್ನು ಗುಣಪಡಿಸಲು ಲಸಿಕೆ ಕೊಡಲಾಗುತ್ತದೆ.", "किसी जानवर को बीमारी हो जाने के बाद, उसे ठीक करने के लिए टीका दिया जाता है।"),
           answer: false,
-          explain: L("No — a vaccine is given to a healthy animal beforehand, to train its body to resist the disease before it is ever infected."),
+          explain: L("No — a vaccine is given to a healthy animal beforehand, to train its body to resist the disease before it is ever infected.", "కాదు — టీకాను ఆరోగ్యవంతమైన జంతువుకు ముందుగానే ఇస్తారు, సోకకముందే వ్యాధిని తట్టుకునేలా శరీరానికి శిక్షణ ఇవ్వడానికి.", "இல்லை — தடுப்பூசி ஆரோக்கியமான விலங்குக்கு முன்கூட்டியே கொடுக்கப்படுகிறது, தொற்று ஏற்படுவதற்கு முன்பே நோயை எதிர்க்க உடலுக்கு பயிற்சி அளிக்க.", "ಇಲ್ಲ — ಲಸಿಕೆಯನ್ನು ಆರೋಗ್ಯವಂತ ಪ್ರಾಣಿಗೆ ಮೊದಲೇ ಕೊಡಲಾಗುತ್ತದೆ, ಸೋಂಕು ತಗಲುವ ಮೊದಲೇ ರೋಗವನ್ನು ಎದುರಿಸಲು ದೇಹಕ್ಕೆ ತರಬೇತಿ ನೀಡಲು.", "नहीं — टीका स्वस्थ जानवर को पहले ही दिया जाता है, ताकि बीमारी होने से पहले ही उसका शरीर उससे लड़ना सीख ले।"),
         },
         {
           topicId: "t-m4-fmd-hs",
           type: "mcq",
-          q: L("Why is FMD such a serious concern even though it rarely kills adult animals?"),
+          q: L("Why is FMD such a serious concern even though it rarely kills adult animals?", "పెద్ద జంతువులను అరుదుగానే చంపినా FMD ఎందుకు అంత తీవ్రమైన ఆందోళన?", "வளர்ந்த விலங்குகளை அரிதாகவே கொன்றாலும் FMD ஏன் மிகுந்த கவலைக்குரியது?", "ವಯಸ್ಕ ಪ್ರಾಣಿಗಳನ್ನು ವಿರಳವಾಗಿ ಕೊಂದರೂ FMD ಏಕೆ ಇಷ್ಟು ಗಂಭೀರ ಕಳವಳ?", "बड़े जानवरों की जान कम ही लेने के बावजूद FMD इतनी बड़ी चिंता की बात क्यों है?"),
           options: [
-            L("Because it has no symptoms at all"),
-            L("Because it can permanently reduce milk, fertility and working strength for life, and is usually fatal in calves"),
-            L("Because it only affects wild animals"),
-            L("Because it disappears without spreading"),
+            L("Because it has no symptoms at all", "దీనికి ఎలాంటి లక్షణాలు ఉండవు కాబట్టి", "இதற்கு எந்த அறிகுறியும் இல்லாததால்", "ಇದಕ್ಕೆ ಯಾವುದೇ ಲಕ್ಷಣಗಳಿಲ್ಲದ ಕಾರಣ", "क्योंकि इसमें कोई लक्षण ही नहीं होते"),
+            L("Because it can permanently reduce milk, fertility and working strength for life, and is usually fatal in calves", "ఇది పాలు, పునరుత్పత్తి సామర్థ్యం, పనిచేసే శక్తిని జీవితాంతం శాశ్వతంగా తగ్గించగలదు, దూడల్లో సాధారణంగా ప్రాణాంతకం కాబట్టి", "இது பால், இனப்பெருக்க திறன், வேலை செய்யும் சக்தியை வாழ்நாள் முழுவதும் நிரந்தரமாக குறைக்கும், கன்றுகளில் பொதுவாக உயிராபத்தானது என்பதால்", "ಇದು ಹಾಲು, ಸಂತಾನೋತ್ಪತ್ತಿ ಸಾಮರ್ಥ್ಯ, ಕೆಲಸದ ಶಕ್ತಿಯನ್ನು ಜೀವನಪೂರ್ತಿ ಶಾಶ್ವತವಾಗಿ ಕಡಿಮೆ ಮಾಡಬಹುದು, ಕರುಗಳಲ್ಲಿ ಸಾಮಾನ್ಯವಾಗಿ ಮಾರಣಾಂತಿಕವಾಗಿರುವ ಕಾರಣ", "क्योंकि यह दूध, प्रजनन क्षमता और काम करने की ताकत को हमेशा के लिए कम कर सकता है, और बछड़ों में आमतौर पर जानलेवा होता है"),
+            L("Because it only affects wild animals", "ఇది కేవలం అడవి జంతువులను మాత్రమే ప్రభావితం చేస్తుంది కాబట్టి", "இது காட்டு விலங்குகளை மட்டுமே பாதிக்கும் என்பதால்", "ಇದು ಕಾಡು ಪ್ರಾಣಿಗಳ ಮೇಲೆ ಮಾತ್ರ ಪರಿಣಾಮ ಬೀರುವ ಕಾರಣ", "क्योंकि यह सिर्फ़ जंगली जानवरों को प्रभावित करता है"),
+            L("Because it disappears without spreading", "ఇది వ్యాపించకుండానే మాయమైపోతుంది కాబట్టి", "இது பரவாமல் மறைந்துவிடும் என்பதால்", "ಇದು ಹರಡದೆ ಮಾಯವಾಗುವ ಕಾರಣ", "क्योंकि यह बिना फैले ही ख़त्म हो जाता है"),
           ],
           answer: 1,
-          explain: L("FMD causes lasting damage to milk yield, fertility and draft strength in adults, and is usually fatal in calves — plus it spreads very easily."),
+          explain: L("FMD causes lasting damage to milk yield, fertility and draft strength in adults, and is usually fatal in calves — plus it spreads very easily.", "FMD పెద్ద జంతువుల్లో పాల దిగుబడి, పునరుత్పత్తి సామర్థ్యం, పనిచేసే శక్తికి శాశ్వత నష్టం కలిగిస్తుంది, దూడల్లో సాధారణంగా ప్రాణాంతకం — అంతేకాక ఇది చాలా సులభంగా వ్యాపిస్తుంది.", "FMD வளர்ந்த விலங்குகளில் பால் விளைச்சல், இனப்பெருக்க திறன், வேலை சக்திக்கு நீடித்த சேதத்தை ஏற்படுத்துகிறது, கன்றுகளில் பொதுவாக உயிராபத்தானது — கூடுதலாக இது மிக எளிதாக பரவுகிறது.", "FMD ವಯಸ್ಕರಲ್ಲಿ ಹಾಲಿನ ಇಳುವರಿ, ಸಂತಾನೋತ್ಪತ್ತಿ ಸಾಮರ್ಥ್ಯ, ಕೆಲಸದ ಶಕ್ತಿಗೆ ಶಾಶ್ವತ ಹಾನಿ ಉಂಟುಮಾಡುತ್ತದೆ, ಕರುಗಳಲ್ಲಿ ಸಾಮಾನ್ಯವಾಗಿ ಮಾರಣಾಂತಿಕ — ಜೊತೆಗೆ ಇದು ಬಹಳ ಸುಲಭವಾಗಿ ಹರಡುತ್ತದೆ.", "FMD बड़े जानवरों में दूध, प्रजनन क्षमता और काम करने की ताकत को स्थायी नुक़सान पहुंचाता है, और बछड़ों में आमतौर पर जानलेवा होता है — साथ ही यह बहुत आसानी से फैलता है।"),
         },
         {
           topicId: "t-m4-fmd-hs",
           type: "mcq",
-          q: L("HS (Haemorrhagic Septicaemia) is most commonly seen during which season?"),
-          options: [L("Summer"), L("Monsoon"), L("Only in winter"), L("It has no seasonal pattern")],
+          q: L("HS (Haemorrhagic Septicaemia) is most commonly seen during which season?", "HS (హెమరేజిక్ సెప్టిసీమియా) ఏ కాలంలో ఎక్కువగా కనిపిస్తుంది?", "HS (ரத்தக்கசிவு நோய்த்தொற்று) பொதுவாக எந்த பருவத்தில் அதிகம் தெரியும்?", "HS (ಹೆಮರೇಜಿಕ್ ಸೆಪ್ಟಿಸೀಮಿಯಾ) ಯಾವ ಋತುವಿನಲ್ಲಿ ಹೆಚ್ಚು ಕಂಡುಬರುತ್ತದೆ?", "HS (हैमरेजिक सेप्टिसीमिया) किस मौसम में सबसे ज़्यादा देखा जाता है?"),
+          options: [L("Summer", "వేసవి", "கோடை", "ಬೇಸಿಗೆ", "गर्मी"), L("Monsoon", "వర్షాకాలం", "பருவமழை", "ಮಳೆಗಾಲ", "बरसात"), L("Only in winter", "శీతాకాలంలో మాత్రమే", "குளிர்காலத்தில் மட்டும்", "ಚಳಿಗಾಲದಲ್ಲಿ ಮಾತ್ರ", "सिर्फ़ सर्दी में"), L("It has no seasonal pattern", "దీనికి ఋతువుల ప్రభావం లేదు", "இதற்கு பருவ முறை இல்லை", "ಇದಕ್ಕೆ ಋತುಮಾನದ ಮಾದರಿ ಇಲ್ಲ", "इसका मौसम से कोई नाता नहीं")],
           answer: 1,
-          explain: L("HS is an acute bacterial disease that usually occurs during the monsoon, especially in humid, waterlogged conditions."),
+          explain: L("HS is an acute bacterial disease that usually occurs during the monsoon, especially in humid, waterlogged conditions.", "HS అనేది తీవ్రమైన బ్యాక్టీరియా వ్యాధి, ఇది సాధారణంగా వర్షాకాలంలో, ముఖ్యంగా తేమతో, నీరు నిలిచిన పరిస్థితుల్లో వస్తుంది.", "HS ஒரு கடுமையான பாக்டீரியா நோய், இது பொதுவாக பருவமழையில், குறிப்பாக ஈரப்பதமான, தண்ணீர் தேங்கிய சூழலில் ஏற்படுகிறது.", "HS ಒಂದು ತೀವ್ರ ಬ್ಯಾಕ್ಟೀರಿಯಾ ರೋಗ, ಇದು ಸಾಮಾನ್ಯವಾಗಿ ಮಳೆಗಾಲದಲ್ಲಿ, ವಿಶೇಷವಾಗಿ ತೇವ, ನೀರು ನಿಂತ ಪರಿಸ್ಥಿತಿಗಳಲ್ಲಿ ಸಂಭವಿಸುತ್ತದೆ.", "HS एक तीव्र बैक्टीरिया बीमारी है जो आमतौर पर बरसात के मौसम में, ख़ासकर नमी और जलभराव वाली स्थितियों में होती है।"),
         },
         {
           topicId: "t-m4-fmd-hs",
           type: "truefalse",
-          q: L("Buffaloes are generally more susceptible to HS than cattle are."),
+          q: L("Buffaloes are generally more susceptible to HS than cattle are.", "ఆవుల కంటే గేదెలకు HS సోకే అవకాశం సాధారణంగా ఎక్కువ.", "பசுக்களை விட எருமைகளுக்கு HS வருவதற்கான வாய்ப்பு பொதுவாக அதிகம்.", "ಹಸುಗಳಿಗಿಂತ ಎಮ್ಮೆಗಳಿಗೆ HS ತಗಲುವ ಸಾಧ್ಯತೆ ಸಾಮಾನ್ಯವಾಗಿ ಹೆಚ್ಚು.", "गायों की तुलना में भैंसों को HS होने की आशंका आमतौर पर ज़्यादा होती है।"),
           answer: true,
-          explain: L("Yes — buffaloes are generally more susceptible to HS, and animals with clear signs rarely recover once symptoms have started."),
+          explain: L("Yes — buffaloes are generally more susceptible to HS, and animals with clear signs rarely recover once symptoms have started.", "అవును — గేదెలకు HS సోకే అవకాశం సాధారణంగా ఎక్కువ, లక్షణాలు మొదలైన తర్వాత స్పష్టమైన లక్షణాలు ఉన్న జంతువులు అరుదుగానే కోలుకుంటాయి.", "ஆம் — எருமைகளுக்கு பொதுவாக HS வருவதற்கான வாய்ப்பு அதிகம், அறிகுறிகள் தொடங்கிய பிறகு தெளிவான அறிகுறிகள் உள்ள விலங்குகள் அரிதாகவே குணமடைகின்றன.", "ಹೌದು — ಎಮ್ಮೆಗಳಿಗೆ ಸಾಮಾನ್ಯವಾಗಿ HS ತಗಲುವ ಸಾಧ್ಯತೆ ಹೆಚ್ಚು, ಲಕ್ಷಣಗಳು ಆರಂಭವಾದ ನಂತರ ಸ್ಪಷ್ಟ ಲಕ್ಷಣಗಳಿರುವ ಪ್ರಾಣಿಗಳು ವಿರಳವಾಗಿ ಗುಣಮುಖವಾಗುತ್ತವೆ.", "हां — भैंसों को आमतौर पर HS होने की आशंका ज़्यादा होती है, और लक्षण शुरू होने के बाद साफ़ लक्षणों वाले जानवर मुश्किल से ही ठीक हो पाते हैं।"),
         },
       ],
     },
