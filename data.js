@@ -2438,9 +2438,21 @@ export const MODULES = [
               },
               {
                 type: "truefalse",
-                q: L("The size of an animal's udder alone is a reliable way to judge whether it is a good, healthy udder."),
+                q: L(
+                  "The size of an animal's udder alone is a reliable way to judge whether it is a good, healthy udder.",
+                  "ఒక జంతువు పొదుగు మంచిదా, ఆరోగ్యంగా ఉందా అని తెలుసుకోవడానికి పొదుగు పరిమాణం ఒక్కటే నమ్మదగిన మార్గం.",
+                  "ஒரு விலங்கின் மடி நல்லதா, ஆரோக்கியமானதா என்று அறிய மடியின் அளவு மட்டுமே நம்பகமான வழி.",
+                  "ಒಂದು ಪ್ರಾಣಿಯ ಕೆಚ್ಚಲು ಒಳ್ಳೆಯದೇ, ಆರೋಗ್ಯವಾದದ್ದೇ ಎಂದು ತಿಳಿಯಲು ಕೆಚ್ಚಲಿನ ಗಾತ್ರ ಒಂದೇ ನಂಬಲರ್ಹ ಮಾರ್ಗ.",
+                  "थन अच्छा और स्वस्थ है या नहीं, यह परखने का भरोसेमंद तरीका सिर्फ थन का आकार है।"
+                ),
                 answer: false,
-                explain: L("No — udder size on its own is not a reliable indicator. Shape, firmness, milk veins, and how it moves while walking all matter more."),
+                explain: L(
+                  "No — udder size on its own is not a reliable indicator. Shape, firmness, milk veins, and how it moves while walking all matter more.",
+                  "కాదు — పొదుగు పరిమాణం మాత్రమే నమ్మదగిన సూచన కాదు. ఆకారం, గట్టిదనం, పాల నాళాలు, నడుస్తున్నప్పుడు ఎలా కదులుతుందో ఇవన్నీ మరింత ముఖ్యం.",
+                  "இல்லை — மடியின் அளவு மட்டுமே நம்பகமான அறிகுறி அல்ல. வடிவம், உறுதி, பால் நரம்புகள், நடக்கும்போது எப்படி அசைகிறது என்பவை எல்லாம் அதிக முக்கியம்.",
+                  "ಇಲ್ಲ — ಕೆಚ್ಚಲಿನ ಗಾತ್ರ ಮಾತ್ರ ನಂಬಲರ್ಹ ಸೂಚಕವಲ್ಲ. ಆಕಾರ, ಗಟ್ಟಿತನ, ಹಾಲಿನ ನರಗಳು, ನಡೆಯುವಾಗ ಹೇಗೆ ಚಲಿಸುತ್ತದೆ ಎಂಬುದು ಹೆಚ್ಚು ಮುಖ್ಯ.",
+                  "नहीं — सिर्फ थन का आकार भरोसेमंद संकेत नहीं है। आकार, कसाव, दूध की नसें और चलते समय वह कैसे हिलता है, ये सब ज़्यादा मायने रखते हैं।"
+                ),
               },
             ],
           },
@@ -2465,14 +2477,32 @@ export const MODULES = [
                 L("There is no real difference between the two", "రెండింటికీ నిజంగా తేడా ఏమీ లేదు", "இரண்டுக்கும் உண்மையில் எந்த வித்தியாசமும் இல்லை", "ಎರಡರ ನಡುವೆ ನಿಜವಾಗಿ ಯಾವುದೇ ವ್ಯತ್ಯಾಸ ಇಲ್ಲ", "दोनों में असल में कोई फ़र्क नहीं है"),
               ],
               answer: 1,
-              explain: L("More unrelated animals mixing together at a market or shandy raises the chance of disease exposure compared with a known, tested farm."),
+              explain: L(
+                "More unrelated animals mixing together at a market or shandy raises the chance of disease exposure compared with a known, tested farm.",
+                "సంత లేదా షాండీలో సంబంధం లేని ఎక్కువ జంతువులు కలవడం వల్ల, తెలిసిన పరీక్షలు చేసే పొలంతో పోలిస్తే వ్యాధి సోకే అవకాశం పెరుగుతుంది.",
+                "சந்தை அல்லது ஷாண்டியில் தொடர்பில்லாத அதிக விலங்குகள் கலப்பதால், அறிந்த, பரிசோதனை செய்யும் பண்ணையுடன் ஒப்பிட நோய் தொற்றும் வாய்ப்பு அதிகரிக்கிறது.",
+                "ಸಂತೆ ಅಥವಾ ಶಾಂಡಿಯಲ್ಲಿ ಸಂಬಂಧವಿಲ್ಲದ ಹೆಚ್ಚು ಪ್ರಾಣಿಗಳು ಬೆರೆಯುವುದರಿಂದ, ಗೊತ್ತಿರುವ ಪರೀಕ್ಷೆ ಮಾಡುವ ಫಾರಂಗೆ ಹೋಲಿಸಿದರೆ ರೋಗ ತಗಲುವ ಸಾಧ್ಯತೆ ಹೆಚ್ಚುತ್ತದೆ.",
+                "बाज़ार या शैंडी में बहुत सारे अनजान पशु आपस में मिलने से, जाने-पहचाने और जाँच करने वाले फार्म की तुलना में बीमारी के संपर्क में आने की संभावना बढ़ जाती है।"
+              ),
             },
             {
               topicId: "t-m2-source-signs",
               type: "truefalse",
-              q: L("A healthy animal being considered for purchase should look curious, alert and content, not standing apart from the group."),
+              q: L(
+                "A healthy animal being considered for purchase should look curious, alert and content, not standing apart from the group.",
+                "కొనడానికి పరిగణిస్తున్న ఆరోగ్యకరమైన జంతువు ఆసక్తిగా, అప్రమత్తంగా, సంతృప్తిగా కనిపించాలి, గుంపు నుంచి దూరంగా నిలబడకూడదు.",
+                "வாங்க பரிசீலிக்கப்படும் ஆரோக்கியமான விலங்கு ஆர்வமாகவும், விழிப்புடனும், திருப்தியாகவும் தெரிய வேண்டும், கூட்டத்திலிருந்து விலகி நிற்கக் கூடாது.",
+                "ಖರೀದಿಗೆ ಪರಿಗಣಿಸುತ್ತಿರುವ ಆರೋಗ್ಯವಾದ ಪ್ರಾಣಿ ಕುತೂಹಲದಿಂದ, ಎಚ್ಚರದಿಂದ, ತೃಪ್ತಿಯಿಂದ ಕಾಣಬೇಕು, ಗುಂಪಿನಿಂದ ದೂರ ನಿಲ್ಲಬಾರದು.",
+                "खरीदने के लिए सोचा जा रहा स्वस्थ पशु जिज्ञासु, सतर्क और संतुष्ट दिखना चाहिए, समूह से अलग खड़ा नहीं।"
+              ),
               answer: true,
-              explain: L("Correct — a curious, alert, content attitude is a healthy sign. Standing apart or seeming disinterested is a warning sign worth reporting."),
+              explain: L(
+                "Correct — a curious, alert, content attitude is a healthy sign. Standing apart or seeming disinterested is a warning sign worth reporting.",
+                "సరైనది — ఆసక్తిగా, అప్రమత్తంగా, సంతృప్తిగా ఉండటం ఆరోగ్యానికి సంకేతం. దూరంగా నిలబడటం లేదా ఆసక్తి లేనట్లు కనిపించడం చెప్పాల్సిన హెచ్చరిక సంకేతం.",
+                "சரி — ஆர்வமாகவும், விழிப்புடனும், திருப்தியாகவும் இருப்பது ஆரோக்கியத்தின் அறிகுறி. விலகி நிற்பது அல்லது ஆர்வமில்லாதது போல் தெரிவது தெரிவிக்க வேண்டிய எச்சரிக்கை அறிகுறி.",
+                "ಸರಿ — ಕುತೂಹಲ, ಎಚ್ಚರ, ತೃಪ್ತಿಯ ವರ್ತನೆ ಆರೋಗ್ಯದ ಲಕ್ಷಣ. ದೂರ ನಿಲ್ಲುವುದು ಅಥವಾ ಆಸಕ್ತಿ ಇಲ್ಲದಂತೆ ಕಾಣುವುದು ವರದಿ ಮಾಡಬೇಕಾದ ಎಚ್ಚರಿಕೆಯ ಲಕ್ಷಣ.",
+                "सही — जिज्ञासु, सतर्क और संतुष्ट रहना सेहतमंद होने की निशानी है। अलग खड़े रहना या बेपरवाह लगना ऐसी चेतावनी है जिसकी जानकारी देनी चाहिए।"
+              ),
             },
             {
               topicId: "t-m2-udder-records-transport",
@@ -2486,27 +2516,57 @@ export const MODULES = [
               ),
               options: [L("1 to 2", "1 నుంచి 2", "1 முதல் 2", "1 ರಿಂದ 2", "1 से 2"), L("3 to 4", "3 నుంచి 4", "3 முதல் 4", "3 ರಿಂದ 4", "3 से 4"), L("5 only", "5 మాత్రమే", "5 மட்டும்", "5 ಮಾತ್ರ", "सिर्फ 5"), L("Body score doesn't matter for purchase", "కొనుగోలుకు శరీర స్కోరు ముఖ్యం కాదు", "வாங்குவதற்கு உடல் மதிப்பெண் முக்கியமில்லை", "ಖರೀದಿಗೆ ದೇಹ ಸ್ಕೋರ್ ಮುಖ್ಯವಲ್ಲ", "खरीद के लिए बॉडी स्कोर मायने नहीं रखता")],
               answer: 1,
-              explain: L("A Body Condition Score of about 3 to 4 is a good sign of health when considering an animal for purchase."),
+              explain: L(
+                "A Body Condition Score of about 3 to 4 is a good sign of health when considering an animal for purchase.",
+                "కొనడానికి పరిగణిస్తున్నప్పుడు శరీర స్థితి స్కోరు సుమారు 3 నుంచి 4 ఉంటే అది ఆరోగ్యానికి మంచి సంకేతం.",
+                "வாங்க பரிசீலிக்கும்போது உடல் நிலை மதிப்பெண் சுமார் 3 முதல் 4 இருந்தால் அது ஆரோக்கியத்தின் நல்ல அறிகுறி.",
+                "ಖರೀದಿಗೆ ಪರಿಗಣಿಸುವಾಗ ದೇಹ ಸ್ಥಿತಿ ಸ್ಕೋರ್ ಸುಮಾರು 3 ರಿಂದ 4 ಇದ್ದರೆ ಅದು ಆರೋಗ್ಯದ ಒಳ್ಳೆಯ ಲಕ್ಷಣ.",
+                "खरीदने की सोचते समय बॉडी कंडीशन स्कोर लगभग 3 से 4 होना अच्छी सेहत की निशानी है।"
+              ),
             },
             {
               topicId: "t-m2-udder-records-transport",
               type: "truefalse",
-              q: L("The size of an animal's udder alone is a reliable way to judge whether it is a good, healthy udder."),
+              q: L(
+                "The size of an animal's udder alone is a reliable way to judge whether it is a good, healthy udder.",
+                "ఒక జంతువు పొదుగు మంచిదా, ఆరోగ్యంగా ఉందా అని తెలుసుకోవడానికి పొదుగు పరిమాణం ఒక్కటే నమ్మదగిన మార్గం.",
+                "ஒரு விலங்கின் மடி நல்லதா, ஆரோக்கியமானதா என்று அறிய மடியின் அளவு மட்டுமே நம்பகமான வழி.",
+                "ಒಂದು ಪ್ರಾಣಿಯ ಕೆಚ್ಚಲು ಒಳ್ಳೆಯದೇ, ಆರೋಗ್ಯವಾದದ್ದೇ ಎಂದು ತಿಳಿಯಲು ಕೆಚ್ಚಲಿನ ಗಾತ್ರ ಒಂದೇ ನಂಬಲರ್ಹ ಮಾರ್ಗ.",
+                "थन अच्छा और स्वस्थ है या नहीं, यह परखने का भरोसेमंद तरीका सिर्फ थन का आकार है।"
+              ),
               answer: false,
-              explain: L("No — size alone is not reliable. Shape, firmness, prominent milk veins, and minimal side-to-side movement while walking matter more."),
+              explain: L(
+                "No — size alone is not reliable. Shape, firmness, prominent milk veins, and minimal side-to-side movement while walking matter more.",
+                "కాదు — పరిమాణం మాత్రమే నమ్మదగినది కాదు. ఆకారం, గట్టిదనం, స్పష్టమైన పాల నాళాలు, నడుస్తున్నప్పుడు పక్కకు తక్కువగా ఊగడం ఇవి మరింత ముఖ్యం.",
+                "இல்லை — அளவு மட்டுமே நம்பகமானது அல்ல. வடிவம், உறுதி, தெளிவான பால் நரம்புகள், நடக்கும்போது பக்கவாட்டில் குறைவாக ஆடுவது இவை அதிக முக்கியம்.",
+                "ಇಲ್ಲ — ಗಾತ್ರ ಮಾತ್ರ ನಂಬಲರ್ಹವಲ್ಲ. ಆಕಾರ, ಗಟ್ಟಿತನ, ಎದ್ದು ಕಾಣುವ ಹಾಲಿನ ನರಗಳು, ನಡೆಯುವಾಗ ಅಕ್ಕಪಕ್ಕಕ್ಕೆ ಕಡಿಮೆ ತೂಗಾಟ ಇವು ಹೆಚ್ಚು ಮುಖ್ಯ.",
+                "नहीं — सिर्फ आकार भरोसेमंद नहीं है। आकार, कसाव, उभरी हुई दूध की नसें और चलते समय अगल-बगल कम हिलना ज़्यादा मायने रखते हैं।"
+              ),
             },
             {
               topicId: "t-m2-udder-records-transport",
               type: "mcq",
-              q: L("What should be provided at regular intervals while transporting a newly purchased animal?"),
+              q: L(
+                "What should be provided at regular intervals while transporting a newly purchased animal?",
+                "కొత్తగా కొన్న జంతువును రవాణా చేస్తున్నప్పుడు క్రమమైన విరామాల్లో ఏమి అందించాలి?",
+                "புதிதாக வாங்கிய விலங்கைக் கொண்டு செல்லும்போது சீரான இடைவெளிகளில் எதை வழங்க வேண்டும்?",
+                "ಹೊಸದಾಗಿ ಖರೀದಿಸಿದ ಪ್ರಾಣಿಯನ್ನು ಸಾಗಿಸುವಾಗ ನಿಯಮಿತ ಅಂತರದಲ್ಲಿ ಏನನ್ನು ಒದಗಿಸಬೇಕು?",
+                "नए खरीदे पशु को ले जाते समय नियमित अंतराल पर क्या उपलब्ध कराना चाहिए?"
+              ),
               options: [
-                L("Nothing — it should simply endure the journey"),
-                L("Water, feed, space and rest"),
-                L("Loud noise to keep it alert"),
-                L("Only water, and nothing else"),
+                L("Nothing — it should simply endure the journey", "ఏమీ అవసరం లేదు — అది ప్రయాణాన్ని భరించాలి", "எதுவும் தேவையில்லை — அது பயணத்தைத் தாங்கிக் கொள்ள வேண்டும்", "ಏನೂ ಬೇಕಿಲ್ಲ — ಅದು ಪ್ರಯಾಣವನ್ನು ಸಹಿಸಿಕೊಳ್ಳಬೇಕು", "कुछ नहीं — उसे बस सफ़र सहना है"),
+                L("Water, feed, space and rest", "నీరు, మేత, స్థలం, విశ్రాంతి", "தண்ணீர், தீவனம், இடம், ஓய்வு", "ನೀರು, ಮೇವು, ಜಾಗ, ವಿಶ್ರಾಂತಿ", "पानी, चारा, जगह और आराम"),
+                L("Loud noise to keep it alert", "అప్రమత్తంగా ఉంచడానికి పెద్ద శబ్దం", "விழிப்புடன் வைத்திருக்க பெரிய சத்தம்", "ಎಚ್ಚರವಾಗಿಡಲು ಜೋರಾದ ಶಬ್ದ", "जगाए रखने के लिए तेज़ आवाज़"),
+                L("Only water, and nothing else", "నీరు మాత్రమే, ఇంకేమీ కాదు", "தண்ணீர் மட்டும், வேறு எதுவும் இல்லை", "ನೀರು ಮಾತ್ರ, ಬೇರೇನೂ ಇಲ್ಲ", "सिर्फ पानी, और कुछ नहीं"),
               ],
               answer: 1,
-              explain: L("Water, feed, adequate space, and rest at regular intervals all help reduce stress during transport, along with bedding on the vehicle floor."),
+              explain: L(
+                "Water, feed, adequate space, and rest at regular intervals all help reduce stress during transport, along with bedding on the vehicle floor.",
+                "క్రమమైన విరామాల్లో నీరు, మేత, తగినంత స్థలం, విశ్రాంతి, వాహనం నేలపై పరుపుతో పాటు రవాణా సమయంలో ఒత్తిడిని తగ్గిస్తాయి.",
+                "சீரான இடைவெளிகளில் தண்ணீர், தீவனம், போதிய இடம், ஓய்வு, வாகனத் தரையில் படுக்கை ஆகியவை போக்குவரத்தின்போது அழுத்தத்தைக் குறைக்க உதவுகின்றன.",
+                "ನಿಯಮಿತ ಅಂತರದಲ್ಲಿ ನೀರು, ಮೇವು, ಸಾಕಷ್ಟು ಜಾಗ, ವಿಶ್ರಾಂತಿ, ಜೊತೆಗೆ ವಾಹನದ ನೆಲದ ಮೇಲೆ ಹಾಸಿಗೆ ಸಾಗಾಟದ ವೇಳೆ ಒತ್ತಡ ಕಡಿಮೆ ಮಾಡಲು ಸಹಾಯ ಮಾಡುತ್ತವೆ.",
+                "नियमित अंतराल पर पानी, चारा, पर्याप्त जगह और आराम, साथ ही गाड़ी के फर्श पर बिछावन, सफ़र के दौरान तनाव घटाने में मदद करते हैं।"
+              ),
             },
           ],
         },
@@ -2517,154 +2577,406 @@ export const MODULES = [
       // ==================================================================
       {
         id: "m2-l2",
-        title: L("Keeping a New Arrival Separate, and Telling Its Age"),
+        title: L(
+          "Keeping a New Arrival Separate, and Telling Its Age",
+          "కొత్తగా వచ్చిన జంతువును వేరుగా ఉంచడం, దాని వయసు తెలుసుకోవడం",
+          "புதிதாக வந்த விலங்கைத் தனியாக வைத்தல், அதன் வயதைக் கண்டறிதல்",
+          "ಹೊಸದಾಗಿ ಬಂದ ಪ್ರಾಣಿಯನ್ನು ಪ್ರತ್ಯೇಕವಾಗಿ ಇಡುವುದು, ಅದರ ವಯಸ್ಸು ತಿಳಿಯುವುದು",
+          "नए आए पशु को अलग रखना और उसकी उम्र पहचानना"
+        ),
         estMinutes: 8,
         hook: [
           {
             type: "hero",
-            heading: L("Don't Let a New Animal Put the Whole Herd at Risk"),
+            heading: L(
+              "Don't Let a New Animal Put the Whole Herd at Risk",
+              "కొత్త జంతువు వల్ల మొత్తం మందను ప్రమాదంలో పడనివ్వకండి",
+              "புதிய விலங்கால் முழு மந்தையையும் ஆபத்தில் ஆழ்த்தாதீர்கள்",
+              "ಹೊಸ ಪ್ರಾಣಿಯಿಂದ ಇಡೀ ಹಿಂಡನ್ನು ಅಪಾಯಕ್ಕೆ ಸಿಲುಕಿಸಬೇಡಿ",
+              "नए पशु की वजह से पूरे झुंड को जोखिम में न डालें"
+            ),
             text: L(
-              "Even an animal that passed every check in the last lesson might still be carrying something that isn't obvious yet. That's why every new arrival is kept apart for a while before joining the herd. This lesson also teaches a simple, independent way to check roughly how old an animal really is — useful because a seller's word about age isn't always reliable."
+              "Even an animal that passed every check in the last lesson might still be carrying something that isn't obvious yet. That's why every new arrival is kept apart for a while before joining the herd. This lesson also teaches a simple, independent way to check roughly how old an animal really is — useful because a seller's word about age isn't always reliable.",
+              "గత పాఠంలోని అన్ని పరీక్షలు దాటిన జంతువులో కూడా ఇంకా స్పష్టంగా కనిపించని ఏదైనా ఉండవచ్చు. అందుకే ప్రతి కొత్త జంతువును మందలో చేర్చే ముందు కొంతకాలం వేరుగా ఉంచుతారు. ఈ పాఠం జంతువు నిజమైన వయసు దాదాపుగా తెలుసుకోవడానికి ఒక సులభమైన, స్వతంత్ర పద్ధతిని కూడా నేర్పిస్తుంది — ఎందుకంటే అమ్మేవారు చెప్పే వయసు ఎప్పుడూ నమ్మదగినది కాదు.",
+              "முந்தைய பாடத்தின் எல்லா சோதனைகளையும் கடந்த விலங்கிலும் இன்னும் தெளிவாகத் தெரியாத ஏதோ ஒன்று இருக்கலாம். அதனால்தான் ஒவ்வொரு புதிய விலங்கையும் மந்தையில் சேர்ப்பதற்கு முன் சிறிது காலம் தனியாக வைக்கிறார்கள். இந்தப் பாடம் ஒரு விலங்கின் உண்மையான வயதை ஏறக்குறைய அறிய ஒரு எளிய, சுயமான வழியையும் கற்றுத் தருகிறது — ஏனெனில் விற்பவர் சொல்லும் வயது எப்போதும் நம்பகமானதல்ல.",
+              "ಹಿಂದಿನ ಪಾಠದ ಎಲ್ಲಾ ಪರೀಕ್ಷೆಗಳನ್ನು ದಾಟಿದ ಪ್ರಾಣಿಯಲ್ಲೂ ಇನ್ನೂ ಸ್ಪಷ್ಟವಾಗಿ ಕಾಣದ ಏನಾದರೂ ಇರಬಹುದು. ಅದಕ್ಕಾಗಿಯೇ ಪ್ರತಿ ಹೊಸ ಪ್ರಾಣಿಯನ್ನು ಹಿಂಡಿಗೆ ಸೇರಿಸುವ ಮೊದಲು ಸ್ವಲ್ಪ ಕಾಲ ಪ್ರತ್ಯೇಕವಾಗಿ ಇಡಲಾಗುತ್ತದೆ. ಈ ಪಾಠ ಪ್ರಾಣಿಯ ನಿಜವಾದ ವಯಸ್ಸನ್ನು ಸುಮಾರಾಗಿ ತಿಳಿಯಲು ಒಂದು ಸರಳ, ಸ್ವತಂತ್ರ ವಿಧಾನವನ್ನೂ ಕಲಿಸುತ್ತದೆ — ಏಕೆಂದರೆ ಮಾರಾಟಗಾರ ಹೇಳುವ ವಯಸ್ಸು ಯಾವಾಗಲೂ ನಂಬಲರ್ಹವಲ್ಲ.",
+              "पिछले पाठ की सारी जाँचें पास कर चुके पशु में भी कुछ ऐसा हो सकता है जो अभी साफ़ नज़र नहीं आता। इसीलिए हर नए आए पशु को झुंड में मिलाने से पहले कुछ समय अलग रखा जाता है। यह पाठ पशु की असली उम्र का मोटा अंदाज़ा लगाने का एक आसान, अपना खुद का तरीका भी सिखाता है — क्योंकि बेचने वाले की बताई उम्र हमेशा भरोसे लायक नहीं होती।"
             ),
           },
         ],
         topics: [
           {
             id: "t-m2-quarantine",
-            title: L("Quarantine: Keeping a New Arrival Separate"),
+            title: L(
+              "Quarantine: Keeping a New Arrival Separate",
+              "క్వారంటైన్: కొత్తగా వచ్చిన జంతువును వేరుగా ఉంచడం",
+              "தனிமைப்படுத்தல் (குவாரன்டைன்): புதிதாக வந்த விலங்கைத் தனியாக வைத்தல்",
+              "ಕ್ವಾರಂಟೈನ್: ಹೊಸದಾಗಿ ಬಂದ ಪ್ರಾಣಿಯನ್ನು ಪ್ರತ್ಯೇಕವಾಗಿ ಇಡುವುದು",
+              "क्वारंटीन: नए आए पशु को अलग रखना"
+            ),
             teach: [
               {
                 type: "text",
-                heading: L("Why Keep It Apart First?"),
+                heading: L(
+                  "Why Keep It Apart First?",
+                  "ముందుగా ఎందుకు వేరుగా ఉంచాలి?",
+                  "முதலில் ஏன் தனியாக வைக்க வேண்டும்?",
+                  "ಮೊದಲು ಏಕೆ ಪ್ರತ್ಯೇಕವಾಗಿ ಇಡಬೇಕು?",
+                  "पहले अलग क्यों रखें?"
+                ),
                 html: L(
-                  "Looking healthy on the day of purchase, using everything from the last lesson, still doesn't guarantee an animal is free of every disease. Some problems take time to show themselves. Keeping a newly purchased animal separate from the rest of the herd for a while gives everyone a chance to find out, before any hidden problem can spread."
+                  "Looking healthy on the day of purchase, using everything from the last lesson, still doesn't guarantee an animal is free of every disease. Some problems take time to show themselves. Keeping a newly purchased animal separate from the rest of the herd for a while gives everyone a chance to find out, before any hidden problem can spread.",
+                  "గత పాఠంలోని అన్నింటినీ ఉపయోగించి, కొన్న రోజున ఆరోగ్యంగా కనిపించినా, ఆ జంతువుకు ఏ వ్యాధీ లేదని పూర్తి హామీ ఉండదు. కొన్ని సమస్యలు బయటపడటానికి సమయం పడుతుంది. కొత్తగా కొన్న జంతువును మిగతా మంద నుంచి కొంతకాలం వేరుగా ఉంచితే, దాగి ఉన్న సమస్య వ్యాపించకముందే అది తెలుసుకునే అవకాశం అందరికీ దొరుకుతుంది.",
+                  "முந்தைய பாடத்தில் உள்ள எல்லாவற்றையும் பயன்படுத்தி, வாங்கிய நாளில் ஆரோக்கியமாகத் தெரிந்தாலும், அந்த விலங்குக்கு எந்த நோயும் இல்லை என்பதற்கு முழு உத்தரவாதம் இல்லை. சில பிரச்சினைகள் வெளிப்பட நேரம் ஆகும். புதிதாக வாங்கிய விலங்கை மற்ற மந்தையிலிருந்து சிறிது காலம் தனியாக வைத்தால், மறைந்திருக்கும் பிரச்சினை பரவுவதற்கு முன்பே அதைத் தெரிந்துகொள்ள எல்லோருக்கும் வாய்ப்பு கிடைக்கும்.",
+                  "ಹಿಂದಿನ ಪಾಠದ ಎಲ್ಲವನ್ನೂ ಬಳಸಿ, ಖರೀದಿಸಿದ ದಿನ ಆರೋಗ್ಯವಾಗಿ ಕಂಡರೂ, ಆ ಪ್ರಾಣಿಗೆ ಯಾವ ರೋಗವೂ ಇಲ್ಲ ಎಂಬ ಪೂರ್ಣ ಖಾತ್ರಿ ಇರುವುದಿಲ್ಲ. ಕೆಲವು ಸಮಸ್ಯೆಗಳು ಹೊರಗೆ ಕಾಣಿಸಲು ಸಮಯ ಬೇಕು. ಹೊಸದಾಗಿ ಖರೀದಿಸಿದ ಪ್ರಾಣಿಯನ್ನು ಉಳಿದ ಹಿಂಡಿನಿಂದ ಸ್ವಲ್ಪ ಕಾಲ ಪ್ರತ್ಯೇಕವಾಗಿ ಇಟ್ಟರೆ, ಅಡಗಿರುವ ಸಮಸ್ಯೆ ಹರಡುವ ಮೊದಲೇ ಅದನ್ನು ತಿಳಿಯುವ ಅವಕಾಶ ಎಲ್ಲರಿಗೂ ಸಿಗುತ್ತದೆ.",
+                  "पिछले पाठ की सारी बातों को इस्तेमाल करके खरीद के दिन स्वस्थ दिखने पर भी यह पक्का नहीं होता कि पशु में कोई बीमारी नहीं है। कुछ समस्याओं को सामने आने में समय लगता है। नए खरीदे पशु को कुछ समय के लिए बाकी झुंड से अलग रखने से, किसी छिपी समस्या के फैलने से पहले ही उसका पता लगाने का मौका सबको मिल जाता है।"
                 ),
               },
               {
                 type: "glossary",
-                term: L("Quarantine"),
+                term: L(
+                  "Quarantine",
+                  "క్వారంటైన్ (వేరుగా ఉంచడం)",
+                  "தனிமைப்படுத்தல் (குவாரன்டைன்)",
+                  "ಕ್ವಾರಂಟೈನ್ (ಪ್ರತ್ಯೇಕವಾಗಿ ಇಡುವುದು)",
+                  "क्वारंटीन (अलग रखना)"
+                ),
                 meaning: L(
-                  "Keeping a newly arrived animal completely separate from the rest of the herd for a set period, so that if it is carrying a hidden disease, it doesn't get the chance to spread before anyone notices."
+                  "Keeping a newly arrived animal completely separate from the rest of the herd for a set period, so that if it is carrying a hidden disease, it doesn't get the chance to spread before anyone notices.",
+                  "కొత్తగా వచ్చిన జంతువును నిర్ణీత కాలం పాటు మిగతా మంద నుంచి పూర్తిగా వేరుగా ఉంచడం; అది దాగి ఉన్న వ్యాధిని మోస్తున్నా, ఎవరూ గమనించకముందే వ్యాపింపజేసే అవకాశం రాకుండా.",
+                  "புதிதாக வந்த விலங்கை குறிப்பிட்ட காலத்துக்கு மற்ற மந்தையிலிருந்து முழுமையாகத் தனியாக வைப்பது; அது மறைந்திருக்கும் நோயைச் சுமந்திருந்தாலும், யாரும் கவனிக்கும் முன்பே பரப்பும் வாய்ப்பு கிடைக்காமல் இருக்க.",
+                  "ಹೊಸದಾಗಿ ಬಂದ ಪ್ರಾಣಿಯನ್ನು ನಿರ್ದಿಷ್ಟ ಅವಧಿಗೆ ಉಳಿದ ಹಿಂಡಿನಿಂದ ಸಂಪೂರ್ಣವಾಗಿ ಪ್ರತ್ಯೇಕವಾಗಿ ಇಡುವುದು; ಅದು ಅಡಗಿರುವ ರೋಗ ಹೊತ್ತಿದ್ದರೂ, ಯಾರೂ ಗಮನಿಸುವ ಮೊದಲೇ ಹರಡುವ ಅವಕಾಶ ಸಿಗದಂತೆ.",
+                  "नए आए पशु को एक तय समय तक बाकी झुंड से पूरी तरह अलग रखना, ताकि अगर उसमें कोई छिपी बीमारी हो तो किसी के नोटिस करने से पहले वह फैल न सके।"
                 ),
               },
               {
                 type: "stat-grid",
                 items: [
                   {
-                    label: L("How long"),
-                    text: L("At least 3 weeks of isolation, with no contact at all with the rest of the herd."),
+                    label: L(
+                      "How long",
+                      "ఎంతకాలం",
+                      "எவ்வளவு காலம்",
+                      "ಎಷ್ಟು ಕಾಲ",
+                      "कितने समय तक"
+                    ),
+                    text: L(
+                      "At least 3 weeks of isolation, with no contact at all with the rest of the herd.",
+                      "కనీసం 3 వారాల పాటు వేరుగా ఉంచాలి, మిగతా మందతో ఏమాత్రం సంపర్కం ఉండకూడదు.",
+                      "குறைந்தது 3 வாரங்கள் தனியாக வைக்க வேண்டும், மற்ற மந்தையுடன் எந்தத் தொடர்பும் இருக்கக் கூடாது.",
+                      "ಕನಿಷ್ಠ 3 ವಾರಗಳ ಕಾಲ ಪ್ರತ್ಯೇಕವಾಗಿ ಇಡಬೇಕು, ಉಳಿದ ಹಿಂಡಿನೊಂದಿಗೆ ಯಾವುದೇ ಸಂಪರ್ಕ ಇರಬಾರದು.",
+                      "कम से कम 3 हफ्ते अलग रखें, बाकी झुंड से बिल्कुल संपर्क न हो।"
+                    ),
                   },
                   {
-                    label: L("Order of work"),
-                    text: L("Attend to the rest of your herd FIRST, every time. Only visit or handle the newly purchased animal afterwards."),
+                    label: L(
+                      "Order of work",
+                      "పని క్రమం",
+                      "வேலை வரிசை",
+                      "ಕೆಲಸದ ಕ್ರಮ",
+                      "काम का क्रम"
+                    ),
+                    text: L(
+                      "Attend to the rest of your herd FIRST, every time. Only visit or handle the newly purchased animal afterwards.",
+                      "ప్రతిసారీ ముందుగా మిగతా మందను చూసుకోండి. ఆ తర్వాత మాత్రమే కొత్తగా కొన్న జంతువు దగ్గరకు వెళ్లండి లేదా దానిని ముట్టుకోండి.",
+                      "ஒவ்வொரு முறையும் முதலில் மற்ற மந்தையைக் கவனியுங்கள். அதன் பிறகு மட்டுமே புதிதாக வாங்கிய விலங்கிடம் செல்லுங்கள் அல்லது அதைக் கையாளுங்கள்.",
+                      "ಪ್ರತಿ ಬಾರಿಯೂ ಮೊದಲು ಉಳಿದ ಹಿಂಡನ್ನು ನೋಡಿಕೊಳ್ಳಿ. ಆ ನಂತರ ಮಾತ್ರ ಹೊಸದಾಗಿ ಖರೀದಿಸಿದ ಪ್ರಾಣಿಯ ಬಳಿ ಹೋಗಿ ಅಥವಾ ಅದನ್ನು ಮುಟ್ಟಿ.",
+                      "हर बार पहले बाकी झुंड की देखभाल करें। उसके बाद ही नए खरीदे पशु के पास जाएँ या उसे छुएँ।"
+                    ),
                   },
                   {
-                    label: L("Before you rejoin the herd"),
-                    text: L("Wash properly and change your clothes before going back to attend to the rest of the herd after handling the new animal."),
+                    label: L(
+                      "Before you rejoin the herd",
+                      "మందలోకి తిరిగి వెళ్లే ముందు",
+                      "மந்தைக்குத் திரும்பிச் செல்லும் முன்",
+                      "ಹಿಂಡಿಗೆ ಮರಳುವ ಮೊದಲು",
+                      "झुंड में वापस जाने से पहले"
+                    ),
+                    text: L(
+                      "Wash properly and change your clothes before going back to attend to the rest of the herd after handling the new animal.",
+                      "కొత్త జంతువును ముట్టుకున్న తర్వాత, మిగతా మందను చూసుకోవడానికి తిరిగి వెళ్లే ముందు బాగా కడుక్కొని బట్టలు మార్చుకోండి.",
+                      "புதிய விலங்கைக் கையாண்ட பிறகு, மற்ற மந்தையைக் கவனிக்கத் திரும்பிச் செல்லும் முன் நன்றாகக் கழுவி உடைகளை மாற்றிக் கொள்ளுங்கள்.",
+                      "ಹೊಸ ಪ್ರಾಣಿಯನ್ನು ಮುಟ್ಟಿದ ನಂತರ, ಉಳಿದ ಹಿಂಡನ್ನು ನೋಡಿಕೊಳ್ಳಲು ಮರಳುವ ಮೊದಲು ಚೆನ್ನಾಗಿ ತೊಳೆದು ಬಟ್ಟೆ ಬದಲಾಯಿಸಿಕೊಳ್ಳಿ.",
+                      "नए पशु को छूने के बाद, बाकी झुंड की देखभाल के लिए लौटने से पहले अच्छी तरह हाथ-पैर धोएँ और कपड़े बदलें।"
+                    ),
                   },
                 ],
               },
               {
                 type: "text",
-                heading: L("What Happens During Quarantine"),
+                heading: L(
+                  "What Happens During Quarantine",
+                  "క్వారంటైన్ సమయంలో ఏం జరుగుతుంది",
+                  "தனிமைப்படுத்தல் காலத்தில் என்ன நடக்கும்",
+                  "ಕ್ವಾರಂಟೈನ್ ಸಮಯದಲ್ಲಿ ಏನು ನಡೆಯುತ್ತದೆ",
+                  "क्वारंटीन के दौरान क्या होता है"
+                ),
                 html: L(
-                  "During this period, the animal is dewormed, treated for fluke (a type of parasite, where relevant), and vaccinated, as decided by the vet. If it's a milking animal, it is milked separately, and only after every other animal in the herd has already been milked. A vet will also test it for a few specific problems: sub-clinical mastitis (an udder infection that isn't obvious just from looking), brucella, bovine TB, and Johne's Disease. Your role is to help present the animal for these checks and pass on the results — reading and interpreting them is the vet's job."
+                  "During this period, the animal is dewormed, treated for fluke (a type of parasite, where relevant), and vaccinated, as decided by the vet. If it's a milking animal, it is milked separately, and only after every other animal in the herd has already been milked. A vet will also test it for a few specific problems: sub-clinical mastitis (an udder infection that isn't obvious just from looking), brucella, bovine TB, and Johne's Disease. Your role is to help present the animal for these checks and pass on the results — reading and interpreting them is the vet's job.",
+                  "ఈ కాలంలో పశువైద్యుడు నిర్ణయించినట్లు జంతువుకు నులిపురుగుల మందు వేస్తారు, (అవసరమైతే) ఫ్లూక్ (ఒక రకమైన పరాన్నజీవి) చికిత్స చేస్తారు, టీకాలు వేస్తారు. పాలిచ్చే జంతువు అయితే, మిగతా మందలోని అన్ని జంతువులకు పాలు తీసిన తర్వాత మాత్రమే దానికి వేరుగా పాలు తీస్తారు. పశువైద్యుడు కొన్ని ప్రత్యేక సమస్యల కోసం కూడా పరీక్షిస్తారు: సబ్-క్లినికల్ మాస్టైటిస్ (చూసినంత మాత్రాన తెలియని పొదుగు ఇన్ఫెక్షన్), బ్రూసెల్లా, బోవైన్ టీబీ, మరియు జాన్స్ వ్యాధి. ఈ పరీక్షలకు జంతువును చూపించడం, ఫలితాలను అందజేయడం మీ పని — వాటిని చదివి అర్థం చేసుకోవడం పశువైద్యుని పని.",
+                  "இந்தக் காலத்தில் கால்நடை மருத்துவர் முடிவு செய்தபடி விலங்குக்குக் குடற்புழு நீக்க மருந்து கொடுக்கப்படும், (தேவைப்பட்டால்) ஃப்ளூக் (ஒரு வகை ஒட்டுண்ணி) சிகிச்சை அளிக்கப்படும், தடுப்பூசி போடப்படும். பால் கறக்கும் விலங்காக இருந்தால், மந்தையில் உள்ள மற்ற எல்லா விலங்குகளுக்கும் பால் கறந்த பிறகே அதற்குத் தனியாகப் பால் கறக்கப்படும். மருத்துவர் சில குறிப்பிட்ட பிரச்சினைகளுக்கும் பரிசோதிப்பார்: சப்-கிளினிக்கல் மடிவீக்கம் (பார்த்தாலே தெரியாத மடி நோய்த்தொற்று), புருசெல்லா, மாட்டுக் காசநோய் (TB), ஜோன்ஸ் நோய். இந்தப் பரிசோதனைகளுக்கு விலங்கைக் காட்டுவதும் முடிவுகளைத் தெரிவிப்பதும் உங்கள் பணி — அவற்றைப் படித்து விளக்குவது மருத்துவரின் பணி.",
+                  "ಈ ಅವಧಿಯಲ್ಲಿ ಪಶುವೈದ್ಯರು ನಿರ್ಧರಿಸಿದಂತೆ ಪ್ರಾಣಿಗೆ ಜಂತುಹುಳ ಔಷಧಿ ಕೊಡಲಾಗುತ್ತದೆ, (ಅಗತ್ಯವಿದ್ದರೆ) ಫ್ಲೂಕ್ (ಒಂದು ರೀತಿಯ ಪರಾವಲಂಬಿ) ಚಿಕಿತ್ಸೆ ಮಾಡಲಾಗುತ್ತದೆ, ಲಸಿಕೆ ಹಾಕಲಾಗುತ್ತದೆ. ಹಾಲು ಕೊಡುವ ಪ್ರಾಣಿಯಾಗಿದ್ದರೆ, ಹಿಂಡಿನ ಉಳಿದ ಎಲ್ಲಾ ಪ್ರಾಣಿಗಳ ಹಾಲು ಕರೆದ ನಂತರವೇ ಅದರ ಹಾಲನ್ನು ಪ್ರತ್ಯೇಕವಾಗಿ ಕರೆಯಲಾಗುತ್ತದೆ. ಪಶುವೈದ್ಯರು ಕೆಲವು ನಿರ್ದಿಷ್ಟ ಸಮಸ್ಯೆಗಳಿಗೂ ಪರೀಕ್ಷಿಸುತ್ತಾರೆ: ಸಬ್-ಕ್ಲಿನಿಕಲ್ ಮ್ಯಾಸ್ಟೈಟಿಸ್ (ನೋಡಿದರೆ ಗೊತ್ತಾಗದ ಕೆಚ್ಚಲಿನ ಸೋಂಕು), ಬ್ರೂಸೆಲ್ಲಾ, ಹಸುವಿನ ಟಿಬಿ, ಮತ್ತು ಜೋನ್ಸ್ ರೋಗ. ಈ ಪರೀಕ್ಷೆಗಳಿಗೆ ಪ್ರಾಣಿಯನ್ನು ತೋರಿಸುವುದು ಮತ್ತು ಫಲಿತಾಂಶಗಳನ್ನು ತಿಳಿಸುವುದು ನಿಮ್ಮ ಕೆಲಸ — ಅವನ್ನು ಓದಿ ಅರ್ಥೈಸುವುದು ಪಶುವೈದ್ಯರ ಕೆಲಸ.",
+                  "इस दौरान पशु चिकित्सक के तय किए अनुसार पशु को कृमिनाशक दवा दी जाती है, (जहाँ ज़रूरी हो) फ्लूक (एक तरह का परजीवी) का इलाज किया जाता है और टीके लगाए जाते हैं। अगर दूध देने वाला पशु है, तो उसका दूध अलग से निकाला जाता है, और झुंड के बाकी सारे पशुओं का दूध निकल जाने के बाद ही। पशु चिकित्सक कुछ खास समस्याओं की भी जाँच करेगा: सब-क्लिनिकल मैस्टाइटिस (थन का ऐसा संक्रमण जो सिर्फ देखने से पता नहीं चलता), ब्रुसेला, गोपशु टीबी और जॉन्स रोग। इन जाँचों के लिए पशु को पेश करना और नतीजे आगे पहुँचाना आपका काम है — उन्हें पढ़ना और समझना पशु चिकित्सक का काम है।"
                 ),
               },
               {
                 type: "glossary",
-                term: L("All-in, All-out"),
+                term: L(
+                  "All-in, All-out",
+                  "ఆల్-ఇన్, ఆల్-అవుట్",
+                  "ஆல்-இன், ஆல்-அவுட்",
+                  "ಆಲ್-ಇನ್, ಆಲ್-ಔಟ್",
+                  "ऑल-इन, ऑल-आउट"
+                ),
                 meaning: L(
-                  "A rule for the quarantine area: it is fully cleared out, cleaned and disinfected before the next new animal moves in. Animals that arrived at different times are never mixed together in the same quarantine space."
+                  "A rule for the quarantine area: it is fully cleared out, cleaned and disinfected before the next new animal moves in. Animals that arrived at different times are never mixed together in the same quarantine space.",
+                  "క్వారంటైన్ ప్రదేశానికి నియమం: తర్వాతి కొత్త జంతువు రాకముందే దానిని పూర్తిగా ఖాళీ చేసి, శుభ్రం చేసి, క్రిమిసంహారకం చేయాలి. వేర్వేరు సమయాల్లో వచ్చిన జంతువులను ఒకే క్వారంటైన్ స్థలంలో ఎప్పుడూ కలపకూడదు.",
+                  "தனிமைப்படுத்தும் இடத்துக்கான விதி: அடுத்த புதிய விலங்கு வருவதற்கு முன் அது முழுமையாகக் காலி செய்யப்பட்டு, சுத்தம் செய்யப்பட்டு, கிருமிநாசினி தெளிக்கப்பட வேண்டும். வெவ்வேறு நேரத்தில் வந்த விலங்குகளை ஒரே தனிமைப்படுத்தும் இடத்தில் ஒருபோதும் கலக்கக் கூடாது.",
+                  "ಕ್ವಾರಂಟೈನ್ ಜಾಗಕ್ಕೆ ನಿಯಮ: ಮುಂದಿನ ಹೊಸ ಪ್ರಾಣಿ ಬರುವ ಮೊದಲು ಅದನ್ನು ಸಂಪೂರ್ಣವಾಗಿ ಖಾಲಿ ಮಾಡಿ, ಸ್ವಚ್ಛಗೊಳಿಸಿ, ಸೋಂಕುನಿವಾರಕ ಹಾಕಬೇಕು. ಬೇರೆ ಬೇರೆ ಸಮಯದಲ್ಲಿ ಬಂದ ಪ್ರಾಣಿಗಳನ್ನು ಒಂದೇ ಕ್ವಾರಂಟೈನ್ ಜಾಗದಲ್ಲಿ ಎಂದಿಗೂ ಬೆರೆಸಬಾರದು.",
+                  "क्वारंटीन की जगह का नियम: अगला नया पशु आने से पहले उसे पूरी तरह खाली करके साफ़ और कीटाणुरहित किया जाता है। अलग-अलग समय पर आए पशुओं को एक ही क्वारंटीन जगह में कभी नहीं मिलाया जाता।"
                 ),
               },
               {
                 type: "callout",
                 style: "warning",
-                heading: L("A Negative Test Doesn't Always Mean Disease-Free"),
+                heading: L(
+                  "A Negative Test Doesn't Always Mean Disease-Free",
+                  "నెగెటివ్ పరీక్ష అంటే ఎల్లప్పుడూ వ్యాధి లేదని కాదు",
+                  "நெகட்டிவ் பரிசோதனை என்றால் எப்போதும் நோய் இல்லை என்று அர்த்தமல்ல",
+                  "ನೆಗೆಟಿವ್ ಪರೀಕ್ಷೆ ಎಂದರೆ ಯಾವಾಗಲೂ ರೋಗ ಇಲ್ಲ ಎಂದಲ್ಲ",
+                  "नेगेटिव जाँच का मतलब हमेशा बीमारी-मुक्त होना नहीं"
+                ),
                 text: L(
-                  "Even if an animal tests negative during quarantine, that is not a complete guarantee it is free of disease. This is exactly why the full quarantine period still matters, and why you should keep applying your Module 1 observation skills throughout — and report anything unusual you notice in the new animal right away, test results or not."
+                  "Even if an animal tests negative during quarantine, that is not a complete guarantee it is free of disease. This is exactly why the full quarantine period still matters, and why you should keep applying your Module 1 observation skills throughout — and report anything unusual you notice in the new animal right away, test results or not.",
+                  "క్వారంటైన్ సమయంలో జంతువుకు పరీక్షలో నెగెటివ్ వచ్చినా, దానికి వ్యాధి లేదని అది పూర్తి హామీ కాదు. అందుకే పూర్తి క్వారంటైన్ కాలం ఇంకా ముఖ్యం, మరియు ఆ సమయమంతా మాడ్యూల్ 1 లోని పరిశీలన నైపుణ్యాలను మీరు వాడుతూ ఉండాలి — పరీక్ష ఫలితాలు ఎలా ఉన్నా, కొత్త జంతువులో అసాధారణంగా ఏదైనా గమనిస్తే వెంటనే తెలియజేయండి.",
+                  "தனிமைப்படுத்தல் காலத்தில் ஒரு விலங்குக்கு நெகட்டிவ் என்று வந்தாலும், அதற்கு நோய் இல்லை என்பதற்கு அது முழு உத்தரவாதம் அல்ல. அதனால்தான் முழு தனிமைப்படுத்தல் காலமும் இன்னும் முக்கியம், அந்த நேரம் முழுவதும் மாட்யூல் 1-இன் கவனிக்கும் திறன்களை நீங்கள் தொடர்ந்து பயன்படுத்த வேண்டும் — பரிசோதனை முடிவுகள் எப்படி இருந்தாலும், புதிய விலங்கில் வழக்கத்துக்கு மாறாக ஏதேனும் கவனித்தால் உடனே தெரிவியுங்கள்.",
+                  "ಕ್ವಾರಂಟೈನ್ ಸಮಯದಲ್ಲಿ ಪ್ರಾಣಿಗೆ ಪರೀಕ್ಷೆಯಲ್ಲಿ ನೆಗೆಟಿವ್ ಬಂದರೂ, ಅದಕ್ಕೆ ರೋಗ ಇಲ್ಲ ಎಂಬುದಕ್ಕೆ ಅದು ಪೂರ್ಣ ಖಾತ್ರಿಯಲ್ಲ. ಅದಕ್ಕಾಗಿಯೇ ಪೂರ್ಣ ಕ್ವಾರಂಟೈನ್ ಅವಧಿ ಇನ್ನೂ ಮುಖ್ಯ, ಮತ್ತು ಆ ಸಮಯವಿಡೀ ಮಾಡ್ಯೂಲ್ 1 ರ ಗಮನಿಸುವ ಕೌಶಲ್ಯಗಳನ್ನು ನೀವು ಬಳಸುತ್ತಲೇ ಇರಬೇಕು — ಪರೀಕ್ಷಾ ಫಲಿತಾಂಶ ಹೇಗಿದ್ದರೂ, ಹೊಸ ಪ್ರಾಣಿಯಲ್ಲಿ ಅಸಾಮಾನ್ಯವಾದ ಏನಾದರೂ ಗಮನಿಸಿದರೆ ತಕ್ಷಣ ತಿಳಿಸಿ.",
+                  "क्वारंटीन के दौरान किसी पशु की जाँच नेगेटिव आने पर भी यह पूरी गारंटी नहीं कि वह बीमारी-मुक्त है। इसीलिए पूरी क्वारंटीन अवधि अब भी ज़रूरी है, और आपको पूरे समय मॉड्यूल 1 की निगरानी वाली समझ इस्तेमाल करते रहनी चाहिए — जाँच के नतीजे कुछ भी हों, नए पशु में कुछ भी असामान्य दिखे तो तुरंत बताएँ।"
                 ),
               },
             ],
             check: [
               {
                 type: "truefalse",
-                q: L("A newly purchased animal should be kept separate from the rest of the herd for at least 3 weeks."),
+                q: L(
+                  "A newly purchased animal should be kept separate from the rest of the herd for at least 3 weeks.",
+                  "కొత్తగా కొన్న జంతువును మిగతా మంద నుంచి కనీసం 3 వారాల పాటు వేరుగా ఉంచాలి.",
+                  "புதிதாக வாங்கிய விலங்கை மற்ற மந்தையிலிருந்து குறைந்தது 3 வாரங்கள் தனியாக வைக்க வேண்டும்.",
+                  "ಹೊಸದಾಗಿ ಖರೀದಿಸಿದ ಪ್ರಾಣಿಯನ್ನು ಉಳಿದ ಹಿಂಡಿನಿಂದ ಕನಿಷ್ಠ 3 ವಾರಗಳ ಕಾಲ ಪ್ರತ್ಯೇಕವಾಗಿ ಇಡಬೇಕು.",
+                  "नए खरीदे पशु को बाकी झुंड से कम से कम 3 हफ्ते अलग रखना चाहिए।"
+                ),
                 answer: true,
-                explain: L("Correct — at least 3 weeks of quarantine, with no contact with the rest of the herd, is the rule."),
+                explain: L(
+                  "Correct — at least 3 weeks of quarantine, with no contact with the rest of the herd, is the rule.",
+                  "సరైనది — మిగతా మందతో సంపర్కం లేకుండా కనీసం 3 వారాల క్వారంటైన్ నియమం.",
+                  "சரி — மற்ற மந்தையுடன் தொடர்பு இல்லாமல் குறைந்தது 3 வாரங்கள் தனிமைப்படுத்தல் என்பதே விதி.",
+                  "ಸರಿ — ಉಳಿದ ಹಿಂಡಿನೊಂದಿಗೆ ಸಂಪರ್ಕವಿಲ್ಲದೆ ಕನಿಷ್ಠ 3 ವಾರಗಳ ಕ್ವಾರಂಟೈನ್ ನಿಯಮ.",
+                  "सही — बाकी झुंड से संपर्क के बिना कम से कम 3 हफ्ते का क्वारंटीन नियम है।"
+                ),
               },
               {
                 type: "mcq",
-                q: L("After handling the newly purchased animal during quarantine, what should you do before going back to the rest of the herd?"),
+                q: L(
+                  "After handling the newly purchased animal during quarantine, what should you do before going back to the rest of the herd?",
+                  "క్వారంటైన్ సమయంలో కొత్తగా కొన్న జంతువును ముట్టుకున్న తర్వాత, మిగతా మంద దగ్గరకు వెళ్లే ముందు ఏం చేయాలి?",
+                  "தனிமைப்படுத்தல் காலத்தில் புதிதாக வாங்கிய விலங்கைக் கையாண்ட பிறகு, மற்ற மந்தையிடம் செல்லும் முன் என்ன செய்ய வேண்டும்?",
+                  "ಕ್ವಾರಂಟೈನ್ ಸಮಯದಲ್ಲಿ ಹೊಸದಾಗಿ ಖರೀದಿಸಿದ ಪ್ರಾಣಿಯನ್ನು ಮುಟ್ಟಿದ ನಂತರ, ಉಳಿದ ಹಿಂಡಿನ ಬಳಿ ಹೋಗುವ ಮೊದಲು ಏನು ಮಾಡಬೇಕು?",
+                  "क्वारंटीन के दौरान नए खरीदे पशु को छूने के बाद, बाकी झुंड के पास जाने से पहले क्या करना चाहिए?"
+                ),
                 options: [
-                  L("Nothing special is needed"),
-                  L("Wash properly and change your clothes"),
-                  L("Wait exactly one hour"),
-                  L("Feed the new animal again first"),
+                  L("Nothing special is needed", "ప్రత్యేకంగా ఏమీ అవసరం లేదు", "சிறப்பாக எதுவும் தேவையில்லை", "ವಿಶೇಷವಾಗಿ ಏನೂ ಬೇಕಿಲ್ಲ", "कुछ खास करने की ज़रूरत नहीं"),
+                  L("Wash properly and change your clothes", "బాగా కడుక్కొని బట్టలు మార్చుకోవాలి", "நன்றாகக் கழுவி உடைகளை மாற்றிக் கொள்ள வேண்டும்", "ಚೆನ್ನಾಗಿ ತೊಳೆದು ಬಟ್ಟೆ ಬದಲಾಯಿಸಿಕೊಳ್ಳಬೇಕು", "अच्छी तरह धोएँ और कपड़े बदलें"),
+                  L("Wait exactly one hour", "సరిగ్గా ఒక గంట ఆగాలి", "சரியாக ஒரு மணி நேரம் காத்திருக்க வேண்டும்", "ಸರಿಯಾಗಿ ಒಂದು ಗಂಟೆ ಕಾಯಬೇಕು", "ठीक एक घंटा रुकें"),
+                  L("Feed the new animal again first", "ముందుగా కొత్త జంతువుకు మళ్లీ మేత పెట్టాలి", "முதலில் புதிய விலங்குக்கு மீண்டும் தீவனம் போட வேண்டும்", "ಮೊದಲು ಹೊಸ ಪ್ರಾಣಿಗೆ ಮತ್ತೆ ಮೇವು ಹಾಕಬೇಕು", "पहले नए पशु को फिर से चारा दें"),
                 ],
                 answer: 1,
-                explain: L("Wash and change your clothes before attending to the rest of the herd, to avoid carrying anything over from the newly purchased animal."),
+                explain: L(
+                  "Wash and change your clothes before attending to the rest of the herd, to avoid carrying anything over from the newly purchased animal.",
+                  "కొత్తగా కొన్న జంతువు నుంచి ఏదీ మిగతా మందకు మోసుకెళ్లకుండా ఉండటానికి, మిగతా మంద దగ్గరకు వెళ్లే ముందు కడుక్కొని బట్టలు మార్చుకోవాలి.",
+                  "புதிதாக வாங்கிய விலங்கிடமிருந்து எதையும் மற்ற மந்தைக்குக் கொண்டு செல்லாமல் இருக்க, மற்ற மந்தையிடம் செல்லும் முன் கழுவி உடைகளை மாற்றிக் கொள்ள வேண்டும்.",
+                  "ಹೊಸದಾಗಿ ಖರೀದಿಸಿದ ಪ್ರಾಣಿಯಿಂದ ಏನನ್ನೂ ಉಳಿದ ಹಿಂಡಿಗೆ ಹೊತ್ತೊಯ್ಯದಂತೆ, ಉಳಿದ ಹಿಂಡಿನ ಬಳಿ ಹೋಗುವ ಮೊದಲು ತೊಳೆದು ಬಟ್ಟೆ ಬದಲಾಯಿಸಿಕೊಳ್ಳಬೇಕು.",
+                  "नए खरीदे पशु से कोई संक्रमण बाकी झुंड तक न पहुँचे, इसलिए झुंड के पास जाने से पहले धोएँ और कपड़े बदलें।"
+                ),
               },
             ],
           },
           {
             id: "t-m2-age-dentition",
-            title: L("Telling an Animal's Age From Its Teeth"),
+            title: L(
+              "Telling an Animal's Age From Its Teeth",
+              "దంతాల ద్వారా జంతువు వయసు తెలుసుకోవడం",
+              "பற்களைக் கொண்டு விலங்கின் வயதை அறிதல்",
+              "ಹಲ್ಲುಗಳಿಂದ ಪ್ರಾಣಿಯ ವಯಸ್ಸು ತಿಳಿಯುವುದು",
+              "दाँतों से पशु की उम्र पहचानना"
+            ),
             teach: [
             {
               type: "photo",
               src: "assets/photo-m2-age-teeth.jpg",
-              alt: L("Extreme close-up of an old cow's lower incisor teeth, viewed from the front, showing yellowed, worn, flattened tooth surfaces with visible gaps between them."),
-              caption: L("By around the 10th year, an animal's incisors show heavy wear and visible gaps like these — one clue to its real age."),
+              alt: L(
+                "Extreme close-up of an old cow's lower incisor teeth, viewed from the front, showing yellowed, worn, flattened tooth surfaces with visible gaps between them.",
+                "ముసలి ఆవు కింది కోత పళ్ల అతి దగ్గరి ఫోటో, ముందు నుంచి చూస్తే — పసుపు రంగులోకి మారి, అరిగి, చదునైన ఉపరితలాలతో, వాటి మధ్య కనిపించే ఖాళీలతో.",
+                "வயதான பசுவின் கீழ்த்தாடை வெட்டுப் பற்களின் மிக நெருக்கமான முன்பக்கக் காட்சி — மஞ்சளாகி, தேய்ந்து, தட்டையான மேற்பரப்புடன், அவற்றுக்கிடையே தெரியும் இடைவெளிகளுடன்.",
+                "ಹಳೆಯ ಹಸುವಿನ ಕೆಳಗಿನ ಕತ್ತರಿಸುವ ಹಲ್ಲುಗಳ ಅತಿ ಹತ್ತಿರದ ನೋಟ, ಮುಂದಿನಿಂದ — ಹಳದಿಯಾಗಿ, ಸವೆದು, ಚಪ್ಪಟೆಯಾದ ಮೇಲ್ಮೈಯೊಂದಿಗೆ, ಅವುಗಳ ನಡುವೆ ಕಾಣುವ ಅಂತರಗಳೊಂದಿಗೆ.",
+                "एक बूढ़ी गाय के निचले सामने के दाँतों (कृंतक) का बहुत नज़दीक से, सामने से लिया गया चित्र, जिसमें दाँत पीले, घिसे और चपटी सतह वाले हैं और उनके बीच खाली जगह दिखती है।"
+              ),
+              caption: L(
+                "By around the 10th year, an animal's incisors show heavy wear and visible gaps like these — one clue to its real age.",
+                "సుమారు 10వ ఏటికి, జంతువు కోత పళ్లు బాగా అరిగి, ఇలా కనిపించే ఖాళీలు ఏర్పడతాయి — దాని నిజమైన వయసుకు ఒక సూచన.",
+                "சுமார் 10-ஆம் வயதில், விலங்கின் வெட்டுப் பற்கள் நன்றாகத் தேய்ந்து, இப்படித் தெரியும் இடைவெளிகள் உண்டாகும் — அதன் உண்மையான வயதுக்கு ஒரு குறிப்பு.",
+                "ಸುಮಾರು 10ನೇ ವರ್ಷಕ್ಕೆ, ಪ್ರಾಣಿಯ ಕತ್ತರಿಸುವ ಹಲ್ಲುಗಳು ತುಂಬಾ ಸವೆದು, ಹೀಗೆ ಕಾಣುವ ಅಂತರಗಳು ಉಂಟಾಗುತ್ತವೆ — ಅದರ ನಿಜವಾದ ವಯಸ್ಸಿನ ಒಂದು ಸುಳಿವು.",
+                "लगभग 10वें साल तक पशु के कृंतक दाँत बहुत घिस जाते हैं और इन जैसी खाली जगहें दिखने लगती हैं — उसकी असली उम्र का एक संकेत।"
+              ),
             },
               {
                 type: "text",
-                heading: L("Why Bother Checking Age?"),
+                heading: L(
+                  "Why Bother Checking Age?",
+                  "వయసును ఎందుకు చూడాలి?",
+                  "வயதை ஏன் பார்க்க வேண்டும்?",
+                  "ವಯಸ್ಸನ್ನು ಏಕೆ ನೋಡಬೇಕು?",
+                  "उम्र क्यों जाँचें?"
+                ),
                 html: L(
-                  "When buying an animal, the age the seller tells you may not always be reliable. Checking the animal's own teeth gives an independent way to get a rough idea of its real age — no paperwork needed, just a look inside its mouth."
+                  "When buying an animal, the age the seller tells you may not always be reliable. Checking the animal's own teeth gives an independent way to get a rough idea of its real age — no paperwork needed, just a look inside its mouth.",
+                  "జంతువును కొనేటప్పుడు, అమ్మేవారు చెప్పే వయసు ఎప్పుడూ నమ్మదగినది కాకపోవచ్చు. జంతువు సొంత దంతాలను చూడటం వల్ల దాని నిజమైన వయసు గురించి ఒక స్వతంత్ర అంచనా దొరుకుతుంది — కాగితాలు అవసరం లేదు, నోటి లోపల ఒక చూపు చాలు.",
+                  "விலங்கை வாங்கும்போது, விற்பவர் சொல்லும் வயது எப்போதும் நம்பகமானதாக இருக்காது. விலங்கின் சொந்தப் பற்களைப் பார்ப்பது அதன் உண்மையான வயதைப் பற்றிய ஒரு சுயமான தோராயமான கணிப்பைத் தருகிறது — காகிதங்கள் தேவையில்லை, வாய்க்குள் ஒரு பார்வை போதும்.",
+                  "ಪ್ರಾಣಿಯನ್ನು ಖರೀದಿಸುವಾಗ, ಮಾರಾಟಗಾರ ಹೇಳುವ ವಯಸ್ಸು ಯಾವಾಗಲೂ ನಂಬಲರ್ಹವಾಗಿರದಿರಬಹುದು. ಪ್ರಾಣಿಯ ಸ್ವಂತ ಹಲ್ಲುಗಳನ್ನು ನೋಡುವುದರಿಂದ ಅದರ ನಿಜವಾದ ವಯಸ್ಸಿನ ಬಗ್ಗೆ ಒಂದು ಸ್ವತಂತ್ರ ಸ್ಥೂಲ ಅಂದಾಜು ಸಿಗುತ್ತದೆ — ಕಾಗದಪತ್ರ ಬೇಕಿಲ್ಲ, ಬಾಯಿಯೊಳಗೆ ಒಂದು ನೋಟ ಸಾಕು.",
+                  "पशु खरीदते समय, बेचने वाले की बताई उम्र हमेशा भरोसेमंद नहीं हो सकती। पशु के अपने दाँत देखने से उसकी असली उम्र का एक स्वतंत्र मोटा अंदाज़ा मिल जाता है — किसी कागज़ की ज़रूरत नहीं, बस उसके मुँह के अंदर एक नज़र।"
                 ),
               },
               {
                 type: "glossary",
-                term: L("Dentition"),
+                term: L(
+                  "Dentition",
+                  "దంత విన్యాసం (డెంటిషన్)",
+                  "பல் அமைப்பு (டென்டிஷன்)",
+                  "ದಂತ ವಿನ್ಯಾಸ (ಡೆಂಟಿಷನ್)",
+                  "दंत विन्यास (डेंटिशन)"
+                ),
                 meaning: L(
-                  "The arrangement and condition of an animal's teeth. Here, it specifically refers to the front teeth on the lower jaw, which change in a fairly predictable pattern as the animal grows older — and can be used to estimate its age."
+                  "The arrangement and condition of an animal's teeth. Here, it specifically refers to the front teeth on the lower jaw, which change in a fairly predictable pattern as the animal grows older — and can be used to estimate its age.",
+                  "జంతువు దంతాల అమరిక, వాటి స్థితి. ఇక్కడ ప్రత్యేకంగా కింది దవడలోని ముందు పళ్లను సూచిస్తుంది; జంతువు పెద్దయ్యే కొద్దీ ఇవి ఒక నిర్ణీత క్రమంలో మారుతూ ఉంటాయి, వీటి ద్వారా వయసును అంచనా వేయవచ్చు.",
+                  "விலங்கின் பற்களின் அமைப்பும் நிலையும். இங்கே குறிப்பாக கீழ்த்தாடையில் உள்ள முன்பற்களைக் குறிக்கிறது; விலங்கு வளர வளர இவை ஓரளவு முன்கூட்டியே சொல்லக்கூடிய முறையில் மாறுகின்றன, இவற்றைக் கொண்டு வயதைக் கணிக்கலாம்.",
+                  "ಪ್ರಾಣಿಯ ಹಲ್ಲುಗಳ ಜೋಡಣೆ ಮತ್ತು ಸ್ಥಿತಿ. ಇಲ್ಲಿ ವಿಶೇಷವಾಗಿ ಕೆಳ ದವಡೆಯ ಮುಂದಿನ ಹಲ್ಲುಗಳನ್ನು ಸೂಚಿಸುತ್ತದೆ; ಪ್ರಾಣಿ ಬೆಳೆಯುತ್ತಿದ್ದಂತೆ ಇವು ಸುಮಾರಾಗಿ ಮುನ್ನಂದಾಜಿಸಬಹುದಾದ ರೀತಿಯಲ್ಲಿ ಬದಲಾಗುತ್ತವೆ, ಇವುಗಳಿಂದ ವಯಸ್ಸನ್ನು ಅಂದಾಜು ಮಾಡಬಹುದು.",
+                  "पशु के दाँतों की बनावट और हालत। यहाँ खास तौर पर निचले जबड़े के सामने के दाँतों की बात है, जो पशु के बड़े होने के साथ एक तय क्रम में बदलते हैं — और इनसे उम्र का अंदाज़ा लगाया जा सकता है।"
                 ),
               },
               {
                 type: "glossary",
-                term: L("Incisors"),
+                term: L(
+                  "Incisors",
+                  "కోత పళ్లు (ఇన్సైజర్స్)",
+                  "வெட்டுப் பற்கள் (இன்சைசர்ஸ்)",
+                  "ಕತ್ತರಿಸುವ ಹಲ್ಲುಗಳು (ಇನ್ಸೈಸರ್ಸ್)",
+                  "कृंतक दाँत (इंसाइज़र)"
+                ),
                 meaning: L(
-                  "The flat front teeth used for gripping grass. In cattle and buffaloes, these are found only on the bottom jaw, and they are the teeth this age-checking method focuses on."
+                  "The flat front teeth used for gripping grass. In cattle and buffaloes, these are found only on the bottom jaw, and they are the teeth this age-checking method focuses on.",
+                  "గడ్డి పట్టుకోవడానికి వాడే చదునైన ముందు పళ్లు. ఆవులు, గేదెలలో ఇవి కింది దవడలో మాత్రమే ఉంటాయి; వయసు తెలుసుకునే ఈ పద్ధతి ప్రధానంగా ఈ పళ్లపైనే ఆధారపడుతుంది.",
+                  "புல்லைப் பிடிக்கப் பயன்படும் தட்டையான முன்பற்கள். மாடுகளிலும் எருமைகளிலும் இவை கீழ்த்தாடையில் மட்டுமே இருக்கும்; வயதைக் கண்டறியும் இந்த முறை முக்கியமாக இந்தப் பற்களையே சார்ந்தது.",
+                  "ಹುಲ್ಲು ಹಿಡಿಯಲು ಬಳಸುವ ಚಪ್ಪಟೆಯಾದ ಮುಂದಿನ ಹಲ್ಲುಗಳು. ಹಸು, ಎಮ್ಮೆಗಳಲ್ಲಿ ಇವು ಕೆಳ ದವಡೆಯಲ್ಲಿ ಮಾತ್ರ ಇರುತ್ತವೆ; ವಯಸ್ಸು ತಿಳಿಯುವ ಈ ವಿಧಾನ ಮುಖ್ಯವಾಗಿ ಈ ಹಲ್ಲುಗಳನ್ನೇ ಆಧರಿಸಿದೆ.",
+                  "घास पकड़ने के काम आने वाले चपटे सामने के दाँत। गाय-भैंसों में ये सिर्फ निचले जबड़े में होते हैं, और उम्र जाँचने का यह तरीका इन्हीं दाँतों पर टिका है।"
                 ),
               },
               {
                 type: "timeline",
-                heading: L("How the Front Teeth Change With Age"),
+                heading: L(
+                  "How the Front Teeth Change With Age",
+                  "వయసుతో ముందు పళ్లు ఎలా మారతాయి",
+                  "வயதுடன் முன்பற்கள் எப்படி மாறுகின்றன",
+                  "ವಯಸ್ಸಿನೊಂದಿಗೆ ಮುಂದಿನ ಹಲ್ಲುಗಳು ಹೇಗೆ ಬದಲಾಗುತ್ತವೆ",
+                  "उम्र के साथ सामने के दाँत कैसे बदलते हैं"
+                ),
                 items: [
                   {
-                    year: L("Birth – 1 month"),
-                    text: L("Two or more temporary (baby) incisors are present at birth. By one month, all 8 temporary incisors have appeared."),
+                    year: L(
+                      "Birth – 1 month",
+                      "పుట్టినప్పటి నుంచి 1 నెల వరకు",
+                      "பிறப்பு – 1 மாதம்",
+                      "ಹುಟ್ಟಿನಿಂದ 1 ತಿಂಗಳವರೆಗೆ",
+                      "जन्म से 1 महीने तक"
+                    ),
+                    text: L(
+                      "Two or more temporary (baby) incisors are present at birth. By one month, all 8 temporary incisors have appeared.",
+                      "పుట్టినప్పుడు రెండు లేదా అంతకంటే ఎక్కువ తాత్కాలిక (పాల) కోత పళ్లు ఉంటాయి. ఒక నెల నాటికి మొత్తం 8 తాత్కాలిక కోత పళ్లు వస్తాయి.",
+                      "பிறக்கும்போது இரண்டு அல்லது அதற்கு மேற்பட்ட தற்காலிக (பால்) வெட்டுப் பற்கள் இருக்கும். ஒரு மாதத்தில் 8 தற்காலிக வெட்டுப் பற்களும் வந்துவிடும்.",
+                      "ಹುಟ್ಟುವಾಗ ಎರಡು ಅಥವಾ ಹೆಚ್ಚು ತಾತ್ಕಾಲಿಕ (ಹಾಲು) ಕತ್ತರಿಸುವ ಹಲ್ಲುಗಳು ಇರುತ್ತವೆ. ಒಂದು ತಿಂಗಳಿಗೆ ಎಲ್ಲಾ 8 ತಾತ್ಕಾಲಿಕ ಹಲ್ಲುಗಳು ಬಂದಿರುತ್ತವೆ.",
+                      "जन्म के समय दो या ज़्यादा अस्थायी (दूध के) कृंतक दाँत होते हैं। एक महीने तक सभी 8 अस्थायी कृंतक दाँत आ जाते हैं।"
+                    ),
                   },
                   {
-                    year: L("2 years"),
-                    text: L("The middle (central) pair of temporary incisors is replaced by permanent ones, which reach full growth by 2 years."),
+                    year: L(
+                      "2 years",
+                      "2 సంవత్సరాలు",
+                      "2 ஆண்டுகள்",
+                      "2 ವರ್ಷಗಳು",
+                      "2 साल"
+                    ),
+                    text: L(
+                      "The middle (central) pair of temporary incisors is replaced by permanent ones, which reach full growth by 2 years.",
+                      "మధ్య (సెంట్రల్) జత తాత్కాలిక కోత పళ్లు శాశ్వత పళ్లతో మారతాయి; అవి 2 సంవత్సరాలకు పూర్తిగా పెరుగుతాయి.",
+                      "நடுவில் உள்ள (சென்ட்ரல்) ஜோடி தற்காலிகப் பற்கள் நிரந்தரப் பற்களால் மாற்றப்படும்; அவை 2 ஆண்டுகளில் முழு வளர்ச்சி அடையும்.",
+                      "ಮಧ್ಯದ (ಸೆಂಟ್ರಲ್) ಜೋಡಿ ತಾತ್ಕಾಲಿಕ ಹಲ್ಲುಗಳ ಬದಲಿಗೆ ಶಾಶ್ವತ ಹಲ್ಲುಗಳು ಬರುತ್ತವೆ; ಅವು 2 ವರ್ಷಗಳಿಗೆ ಪೂರ್ಣ ಬೆಳವಣಿಗೆ ತಲುಪುತ್ತವೆ.",
+                      "बीच (सेंट्रल) की जोड़ी के अस्थायी दाँत स्थायी दाँतों से बदल जाते हैं, जो 2 साल तक पूरी तरह बढ़ जाते हैं।"
+                    ),
                   },
                   {
-                    year: L("3 years"),
-                    text: L("A second pair of permanent incisors is now fully developed — 2 pairs of permanent incisors in total."),
+                    year: L(
+                      "3 years",
+                      "3 సంవత్సరాలు",
+                      "3 ஆண்டுகள்",
+                      "3 ವರ್ಷಗಳು",
+                      "3 साल"
+                    ),
+                    text: L(
+                      "A second pair of permanent incisors is now fully developed — 2 pairs of permanent incisors in total.",
+                      "రెండో జత శాశ్వత కోత పళ్లు ఇప్పుడు పూర్తిగా పెరిగాయి — మొత్తం 2 జతల శాశ్వత కోత పళ్లు.",
+                      "இரண்டாவது ஜோடி நிரந்தர வெட்டுப் பற்கள் இப்போது முழுமையாக வளர்ந்துவிட்டன — மொத்தம் 2 ஜோடி நிரந்தர வெட்டுப் பற்கள்.",
+                      "ಎರಡನೇ ಜೋಡಿ ಶಾಶ್ವತ ಕತ್ತರಿಸುವ ಹಲ್ಲುಗಳು ಈಗ ಪೂರ್ಣವಾಗಿ ಬೆಳೆದಿವೆ — ಒಟ್ಟು 2 ಜೋಡಿ ಶಾಶ್ವತ ಹಲ್ಲುಗಳು.",
+                      "स्थायी दाँतों की दूसरी जोड़ी अब पूरी तरह विकसित हो गई है — कुल 2 जोड़ी स्थायी कृंतक दाँत।"
+                    ),
                   },
                   {
-                    year: L("Around 30 months onward"),
-                    text: L("A third permanent incisor erupts at around 30 months of age, and a fourth follows sometime after 30 months."),
+                    year: L(
+                      "Around 30 months onward",
+                      "సుమారు 30 నెలల నుంచి",
+                      "சுமார் 30 மாதங்களிலிருந்து",
+                      "ಸುಮಾರು 30 ತಿಂಗಳಿನಿಂದ",
+                      "लगभग 30 महीने के बाद"
+                    ),
+                    text: L(
+                      "A third permanent incisor erupts at around 30 months of age, and a fourth follows sometime after 30 months.",
+                      "సుమారు 30 నెలల వయసులో మూడో శాశ్వత కోత పన్ను వస్తుంది, 30 నెలల తర్వాత ఎప్పుడో నాలుగోది వస్తుంది.",
+                      "சுமார் 30 மாத வயதில் மூன்றாவது நிரந்தர வெட்டுப் பல் முளைக்கும், 30 மாதங்களுக்குப் பிறகு ஒரு கட்டத்தில் நான்காவது முளைக்கும்.",
+                      "ಸುಮಾರು 30 ತಿಂಗಳ ವಯಸ್ಸಿನಲ್ಲಿ ಮೂರನೇ ಶಾಶ್ವತ ಕತ್ತರಿಸುವ ಹಲ್ಲು ಮೂಡುತ್ತದೆ, 30 ತಿಂಗಳ ನಂತರ ಯಾವಾಗಲೋ ನಾಲ್ಕನೆಯದು ಮೂಡುತ್ತದೆ.",
+                      "लगभग 30 महीने की उम्र में तीसरा स्थायी कृंतक दाँत निकलता है, और चौथा 30 महीने के बाद किसी समय निकलता है।"
+                    ),
                   },
                   {
-                    year: L("4–5 years (5–6 in buffaloes)"),
-                    text: L("The animal now has a full set of permanent incisors."),
+                    year: L(
+                      "4–5 years (5–6 in buffaloes)",
+                      "4–5 సంవత్సరాలు (గేదెలలో 5–6)",
+                      "4–5 ஆண்டுகள் (எருமைகளில் 5–6)",
+                      "4–5 ವರ್ಷಗಳು (ಎಮ್ಮೆಗಳಲ್ಲಿ 5–6)",
+                      "4–5 साल (भैंसों में 5–6)"
+                    ),
+                    text: L(
+                      "The animal now has a full set of permanent incisors.",
+                      "ఇప్పుడు జంతువుకు పూర్తి సెట్ శాశ్వత కోత పళ్లు ఉన్నాయి.",
+                      "இப்போது விலங்குக்கு நிரந்தர வெட்டுப் பற்களின் முழு தொகுப்பு உள்ளது.",
+                      "ಈಗ ಪ್ರಾಣಿಗೆ ಶಾಶ್ವತ ಕತ್ತರಿಸುವ ಹಲ್ಲುಗಳ ಪೂರ್ಣ ಸೆಟ್ ಇದೆ.",
+                      "अब पशु के पास स्थायी कृंतक दाँतों का पूरा सेट आ गया है।"
+                    ),
                   },
                   {
-                    year: L("6th year"),
+                    year: L(
+                      "6th year",
+                      "6వ ఏడాది",
+                      "6-ஆம் ஆண்டு",
+                      "6ನೇ ವರ್ಷ",
+                      "6वाँ साल"
+                    ),
                     text: L("The central incisors begin to show wear, with a leveled, flattened top."),
                   },
                   {
@@ -2728,12 +3040,18 @@ export const MODULES = [
             {
               topicId: "t-m2-quarantine",
               type: "mcq",
-              q: L("After handling the newly purchased animal during quarantine, what should you do before going back to the rest of the herd?"),
+              q: L(
+                "After handling the newly purchased animal during quarantine, what should you do before going back to the rest of the herd?",
+                "క్వారంటైన్ సమయంలో కొత్తగా కొన్న జంతువును ముట్టుకున్న తర్వాత, మిగతా మంద దగ్గరకు వెళ్లే ముందు ఏం చేయాలి?",
+                "தனிமைப்படுத்தல் காலத்தில் புதிதாக வாங்கிய விலங்கைக் கையாண்ட பிறகு, மற்ற மந்தையிடம் செல்லும் முன் என்ன செய்ய வேண்டும்?",
+                "ಕ್ವಾರಂಟೈನ್ ಸಮಯದಲ್ಲಿ ಹೊಸದಾಗಿ ಖರೀದಿಸಿದ ಪ್ರಾಣಿಯನ್ನು ಮುಟ್ಟಿದ ನಂತರ, ಉಳಿದ ಹಿಂಡಿನ ಬಳಿ ಹೋಗುವ ಮೊದಲು ಏನು ಮಾಡಬೇಕು?",
+                "क्वारंटीन के दौरान नए खरीदे पशु को छूने के बाद, बाकी झुंड के पास जाने से पहले क्या करना चाहिए?"
+              ),
               options: [
-                L("Nothing special is needed"),
-                L("Wash properly and change your clothes"),
-                L("Wait exactly one hour"),
-                L("Feed the new animal again first"),
+                L("Nothing special is needed", "ప్రత్యేకంగా ఏమీ అవసరం లేదు", "சிறப்பாக எதுவும் தேவையில்லை", "ವಿಶೇಷವಾಗಿ ಏನೂ ಬೇಕಿಲ್ಲ", "कुछ खास करने की ज़रूरत नहीं"),
+                L("Wash properly and change your clothes", "బాగా కడుక్కొని బట్టలు మార్చుకోవాలి", "நன்றாகக் கழுவி உடைகளை மாற்றிக் கொள்ள வேண்டும்", "ಚೆನ್ನಾಗಿ ತೊಳೆದು ಬಟ್ಟೆ ಬದಲಾಯಿಸಿಕೊಳ್ಳಬೇಕು", "अच्छी तरह धोएँ और कपड़े बदलें"),
+                L("Wait exactly one hour", "సరిగ్గా ఒక గంట ఆగాలి", "சரியாக ஒரு மணி நேரம் காத்திருக்க வேண்டும்", "ಸರಿಯಾಗಿ ಒಂದು ಗಂಟೆ ಕಾಯಬೇಕು", "ठीक एक घंटा रुकें"),
+                L("Feed the new animal again first", "ముందుగా కొత్త జంతువుకు మళ్లీ మేత పెట్టాలి", "முதலில் புதிய விலங்குக்கு மீண்டும் தீவனம் போட வேண்டும்", "ಮೊದಲು ಹೊಸ ಪ್ರಾಣಿಗೆ ಮತ್ತೆ ಮೇವು ಹಾಕಬೇಕು", "पहले नए पशु को फिर से चारा दें"),
               ],
               answer: 1,
               explain: L("Wash and change your clothes first, to avoid carrying anything over from the newly purchased animal to the rest of the herd."),
