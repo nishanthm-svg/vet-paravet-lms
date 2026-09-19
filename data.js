@@ -4560,107 +4560,145 @@ export const MODULES = [
           {
             type: "stat-grid",
             items: [
-              { label: L("Foot and Mouth Disease (FMD)"), text: L("From 4 months old; booster 1 month later; then every 6 months") },
-              { label: L("Haemorrhagic Septicaemia (HS)"), text: L("From 6 months old; annually, before monsoon, in endemic areas") },
-              { label: L("Black Quarter (BQ)"), text: L("From 6 months old; annually, before monsoon, in endemic areas") },
-              { label: L("Brucellosis (female calves only)"), text: L("4–8 months old; once in a lifetime") },
+              { label: L("Foot and Mouth Disease (FMD)", "గొంతు, కాళ్ళ వ్యాధి (FMD)", "கால் மற்றும் வாய் நோய் (FMD)", "ಕಾಲು ಬಾಯಿ ರೋಗ (FMD)", "मुंह और खुर की बीमारी (FMD)"), text: L("From 4 months old; booster 1 month later; then every 6 months", "4 నెలల వయసు నుండి; 1 నెల తర్వాత బూస్టర్; ఆ తర్వాత ప్రతి 6 నెలలకు", "4 மாத வயதிலிருந்து; 1 மாதம் கழித்து பூஸ்டர்; பிறகு ஒவ்வொரு 6 மாதத்துக்கும்", "4 ತಿಂಗಳ ವಯಸ್ಸಿನಿಂದ; 1 ತಿಂಗಳ ನಂತರ ಬೂಸ್ಟರ್; ನಂತರ ಪ್ರತಿ 6 ತಿಂಗಳಿಗೊಮ್ಮೆ", "4 महीने की उम्र से; 1 महीने बाद बूस्टर; फिर हर 6 महीने पर") },
+              { label: L("Haemorrhagic Septicaemia (HS)", "హెమరేజిక్ సెప్టిసీమియా (HS)", "ரத்தக்கசிவு நோய்த்தொற்று (HS)", "ಹೆಮರೇಜಿಕ್ ಸೆಪ್ಟಿಸೀಮಿಯಾ (HS)", "हैमरेजिक सेप्टिसीमिया (HS)"), text: L("From 6 months old; annually, before monsoon, in endemic areas", "6 నెలల వయసు నుండి; వ్యాధి తరచుగా వచ్చే ప్రాంతాల్లో ప్రతి సంవత్సరం, వర్షాకాలానికి ముందు", "6 மாத வயதிலிருந்து; நோய் தொடர்ந்து காணப்படும் பகுதிகளில் ஆண்டுதோறும், பருவமழைக்கு முன்", "6 ತಿಂಗಳ ವಯಸ್ಸಿನಿಂದ; ರೋಗ ಆಗಾಗ್ಗೆ ಕಂಡುಬರುವ ಪ್ರದೇಶಗಳಲ್ಲಿ ವರ್ಷಕ್ಕೊಮ್ಮೆ, ಮಳೆಗಾಲಕ್ಕೆ ಮೊದಲು", "6 महीने की उम्र से; बीमारी वाले (एंडेमिक) इलाकों में हर साल, बरसात से पहले") },
+              { label: L("Black Quarter (BQ)", "బ్లాక్ క్వార్టర్ (BQ)", "பிளாக் குவார்ட்டர் (BQ)", "ಬ್ಲಾಕ್ ಕ್ವಾರ್ಟರ್ (BQ)", "ब्लैक क्वार्टर (BQ)"), text: L("From 6 months old; annually, before monsoon, in endemic areas", "6 నెలల వయసు నుండి; వ్యాధి తరచుగా వచ్చే ప్రాంతాల్లో ప్రతి సంవత్సరం, వర్షాకాలానికి ముందు", "6 மாத வயதிலிருந்து; நோய் தொடர்ந்து காணப்படும் பகுதிகளில் ஆண்டுதோறும், பருவமழைக்கு முன்", "6 ತಿಂಗಳ ವಯಸ್ಸಿನಿಂದ; ರೋಗ ಆಗಾಗ್ಗೆ ಕಂಡುಬರುವ ಪ್ರದೇಶಗಳಲ್ಲಿ ವರ್ಷಕ್ಕೊಮ್ಮೆ, ಮಳೆಗಾಲಕ್ಕೆ ಮೊದಲು", "6 महीने की उम्र से; बीमारी वाले (एंडेमिक) इलाकों में हर साल, बरसात से पहले") },
+              { label: L("Brucellosis (female calves only)", "బ్రూసెల్లోసిస్ (ఆడ దూడలకు మాత్రమే)", "புருசெல்லோசிஸ் (பெண் கன்றுகளுக்கு மட்டும்)", "ಬ್ರೂಸೆಲ್ಲೋಸಿಸ್ (ಹೆಣ್ಣು ಕರುಗಳಿಗೆ ಮಾತ್ರ)", "ब्रुसेलोसिस (सिर्फ़ मादा बछड़ियों के लिए)"), text: L("4–8 months old; once in a lifetime", "4–8 నెలల వయసు; జీవితకాలంలో ఒక్కసారి", "4–8 மாத வயது; வாழ்நாளில் ஒரு முறை", "4–8 ತಿಂಗಳ ವಯಸ್ಸು; ಜೀವಿತಾವಧಿಯಲ್ಲಿ ಒಮ್ಮೆ", "4–8 महीने की उम्र; जीवन में एक बार") },
             ],
           },
           {
             type: "stat-grid",
             items: [
-              { label: L("Theileriosis (crossbred/exotic cattle only)"), text: L("From 3 months old; once in a lifetime") },
-              { label: L("Anthrax"), text: L("From 4 months old; annually, in endemic areas") },
-              { label: L("IBR"), text: L("From 3 months old; booster 1 month later; then every 6 months") },
+              { label: L("Theileriosis (crossbred/exotic cattle only)", "థైలేరియోసిస్ (సంకర జాతి/విదేశీ పశువులకు మాత్రమే)", "தைலேரியோசிஸ் (கலப்பின/வெளிநாட்டு மாடுகளுக்கு மட்டும்)", "ಥೈಲೇರಿಯೋಸಿಸ್ (ಮಿಶ್ರತಳಿ/ವಿದೇಶಿ ದನಗಳಿಗೆ ಮಾತ್ರ)", "थाइलेरियोसिस (सिर्फ़ संकर/विदेशी नस्ल के पशुओं के लिए)"), text: L("From 3 months old; once in a lifetime", "3 నెలల వయసు నుండి; జీవితకాలంలో ఒక్కసారి", "3 மாத வயதிலிருந்து; வாழ்நாளில் ஒரு முறை", "3 ತಿಂಗಳ ವಯಸ್ಸಿನಿಂದ; ಜೀವಿತಾವಧಿಯಲ್ಲಿ ಒಮ್ಮೆ", "3 महीने की उम्र से; जीवन में एक बार") },
+              { label: L("Anthrax", "ఆంత్రాక్స్", "ஆந்த்ராக்ஸ்", "ಆಂಥ್ರಾಕ್ಸ್", "एंथ्रेक्स"), text: L("From 4 months old; annually, in endemic areas", "4 నెలల వయసు నుండి; వ్యాధి తరచుగా వచ్చే ప్రాంతాల్లో ప్రతి సంవత్సరం", "4 மாத வயதிலிருந்து; நோய் தொடர்ந்து காணப்படும் பகுதிகளில் ஆண்டுதோறும்", "4 ತಿಂಗಳ ವಯಸ್ಸಿನಿಂದ; ರೋಗ ಆಗಾಗ್ಗೆ ಕಂಡುಬರುವ ಪ್ರದೇಶಗಳಲ್ಲಿ ವರ್ಷಕ್ಕೊಮ್ಮೆ", "4 महीने की उम्र से; बीमारी वाले (एंडेमिक) इलाकों में हर साल") },
+              { label: L("IBR", "IBR", "IBR", "IBR", "IBR"), text: L("From 3 months old; booster 1 month later; then every 6 months", "3 నెలల వయసు నుండి; 1 నెల తర్వాత బూస్టర్; ఆ తర్వాత ప్రతి 6 నెలలకు", "3 மாத வயதிலிருந்து; 1 மாதம் கழித்து பூஸ்டர்; பிறகு ஒவ்வொரு 6 மாதத்துக்கும்", "3 ತಿಂಗಳ ವಯಸ್ಸಿನಿಂದ; 1 ತಿಂಗಳ ನಂತರ ಬೂಸ್ಟರ್; ನಂತರ ಪ್ರತಿ 6 ತಿಂಗಳಿಗೊಮ್ಮೆ", "3 महीने की उम्र से; 1 महीने बाद बूस्टर; फिर हर 6 महीने पर") },
             ],
           },
           {
             type: "callout",
             style: "info",
-            heading: L("What 'Endemic Area' Means"),
+            heading: L("What 'Endemic Area' Means", "'ఎండెమిక్ ప్రాంతం' అంటే ఏమిటి", "'எண்டெமிக் பகுதி' என்றால் என்ன", "'ಎಂಡೆಮಿಕ್ ಪ್ರದೇಶ' ಎಂದರೆ ಏನು", "'एंडेमिक क्षेत्र' का मतलब क्या है"),
             text: L(
-              "An endemic area is a place where a particular disease is regularly seen, year after year. Whether your farm's area counts as endemic for a given disease is something the vet or local animal husbandry office would know — it affects how often a vaccine needs to be repeated."
+              "An endemic area is a place where a particular disease is regularly seen, year after year. Whether your farm's area counts as endemic for a given disease is something the vet or local animal husbandry office would know — it affects how often a vaccine needs to be repeated.",
+              "ఎండెమిక్ ప్రాంతం అంటే ఒక నిర్దిష్ట వ్యాధి సంవత్సరం తర్వాత సంవత్సరం క్రమం తప్పకుండా కనిపించే ప్రదేశం. మీ ఫారం ఉన్న ప్రాంతం ఒక వ్యాధికి ఎండెమిక్‌గా పరిగణించబడుతుందో లేదో పశువైద్యుడికి లేదా స్థానిక పశుసంవర్ధక కార్యాలయానికి తెలుస్తుంది — ఇది టీకాను ఎంత తరచుగా మళ్ళీ వేయాలో ప్రభావితం చేస్తుంది.",
+              "எண்டெமிக் பகுதி என்பது ஒரு குறிப்பிட்ட நோய் ஆண்டுதோறும் தொடர்ந்து காணப்படும் இடம். உங்கள் பண்ணை இருக்கும் பகுதி ஒரு நோய்க்கு எண்டெமிக் பகுதியாகக் கருதப்படுகிறதா என்பது கால்நடை மருத்துவருக்கோ உள்ளூர் கால்நடை பராமரிப்பு அலுவலகத்துக்கோ தெரியும் — இது தடுப்பூசியை எத்தனை முறை திரும்பப் போட வேண்டும் என்பதைப் பாதிக்கிறது.",
+              "ಎಂಡೆಮಿಕ್ ಪ್ರದೇಶ ಎಂದರೆ ಒಂದು ನಿರ್ದಿಷ್ಟ ರೋಗ ವರ್ಷದಿಂದ ವರ್ಷಕ್ಕೆ ನಿಯಮಿತವಾಗಿ ಕಂಡುಬರುವ ಸ್ಥಳ. ನಿಮ್ಮ ಫಾರ್ಮ್ ಇರುವ ಪ್ರದೇಶ ಒಂದು ರೋಗಕ್ಕೆ ಎಂಡೆಮಿಕ್ ಎಂದು ಪರಿಗಣಿತವೇ ಎಂಬುದು ಪಶುವೈದ್ಯರಿಗೆ ಅಥವಾ ಸ್ಥಳೀಯ ಪಶುಸಂಗೋಪನಾ ಕಚೇರಿಗೆ ತಿಳಿದಿರುತ್ತದೆ — ಇದು ಲಸಿಕೆಯನ್ನು ಎಷ್ಟು ಬಾರಿ ಪುನರಾವರ್ತಿಸಬೇಕು ಎಂಬುದನ್ನು ಪ್ರಭಾವಿಸುತ್ತದೆ.",
+              "एंडेमिक क्षेत्र वह जगह है जहां कोई ख़ास बीमारी साल-दर-साल नियमित रूप से देखी जाती है। आपके फ़ार्म का इलाका किसी बीमारी के लिए एंडेमिक है या नहीं, यह पशु चिकित्सक या स्थानीय पशुपालन कार्यालय को पता होता है — इससे तय होता है कि टीका कितनी बार दोहराना है।"
             ),
           },
           {
             type: "callout",
             style: "warning",
-            heading: L("Rabies Is Different — It's Given Only After a Bite"),
+            heading: L("Rabies Is Different — It's Given Only After a Bite", "రేబీస్ భిన్నమైనది — దీన్ని కాటు తర్వాత మాత్రమే వేస్తారు", "ரேபிஸ் வேறுபட்டது — இது கடித்த பிறகு மட்டுமே போடப்படுகிறது", "ರೇಬೀಸ್ ಬೇರೆ — ಇದನ್ನು ಕಡಿತದ ನಂತರ ಮಾತ್ರ ಕೊಡಲಾಗುತ್ತದೆ", "रेबीज़ अलग है — यह सिर्फ़ काटने के बाद लगाया जाता है"),
             text: L(
-              "Unlike the diseases above, the rabies vaccination shown for cattle and buffaloes in the source schedule is given only after a suspected bite has already happened — starting immediately, then again on day 4, and on days 7, 14, 28 and optionally 90. It is not a routine yearly shot for cattle the way FMD or HS are. (Pet dogs and cats, by contrast, do get an annual preventive rabies vaccination.)"
+              "Unlike the diseases above, the rabies vaccination shown for cattle and buffaloes in the source schedule is given only after a suspected bite has already happened — starting immediately, then again on day 4, and on days 7, 14, 28 and optionally 90. It is not a routine yearly shot for cattle the way FMD or HS are. (Pet dogs and cats, by contrast, do get an annual preventive rabies vaccination.)",
+              "పైన ఉన్న వ్యాధుల్లా కాకుండా, మూలం షెడ్యూల్‌లో పశువులు, గేదెలకు చూపించిన రేబీస్ టీకా, అనుమానిత కాటు ఇప్పటికే జరిగిన తర్వాత మాత్రమే వేస్తారు — వెంటనే మొదలుపెట్టి, తర్వాత 4వ రోజున, ఆపై 7, 14, 28 రోజుల్లో, ఇష్టమైతే 90వ రోజున కూడా. FMD లేదా HS లాగా పశువులకు ఇది ప్రతి సంవత్సరం వేసే సాధారణ టీకా కాదు. (పెంపుడు కుక్కలు, పిల్లులకు మాత్రం ప్రతి సంవత్సరం నివారణ కోసం రేబీస్ టీకా వేస్తారు.)",
+              "மேலே உள்ள நோய்களைப் போல் அல்லாமல், மூல அட்டவணையில் மாடுகள், எருமைகளுக்குக் காட்டப்பட்டுள்ள ரேபிஸ் தடுப்பூசி, சந்தேகத்துக்குரிய கடி ஏற்கனவே நடந்த பிறகு மட்டுமே போடப்படுகிறது — உடனே தொடங்கி, பிறகு 4வது நாள், அதன்பின் 7, 14, 28வது நாட்கள், விருப்பமிருந்தால் 90வது நாளிலும். FMD அல்லது HS போல மாடுகளுக்கு இது ஆண்டுதோறும் போடும் வழக்கமான ஊசி அல்ல. (செல்ல நாய்கள், பூனைகளுக்கு மாறாக, ஆண்டுதோறும் தடுப்பாக ரேபிஸ் தடுப்பூசி போடப்படுகிறது.)",
+              "ಮೇಲಿನ ರೋಗಗಳಂತೆ ಅಲ್ಲದೆ, ಮೂಲ ವೇಳಾಪಟ್ಟಿಯಲ್ಲಿ ದನಗಳು ಮತ್ತು ಎಮ್ಮೆಗಳಿಗೆ ತೋರಿಸಿರುವ ರೇಬೀಸ್ ಲಸಿಕೆಯನ್ನು, ಶಂಕಿತ ಕಡಿತ ಈಗಾಗಲೇ ಆದ ನಂತರ ಮಾತ್ರ ಕೊಡಲಾಗುತ್ತದೆ — ತಕ್ಷಣ ಶುರುಮಾಡಿ, ನಂತರ 4ನೇ ದಿನ, ಆಮೇಲೆ 7, 14, 28ನೇ ದಿನಗಳಲ್ಲಿ, ಬೇಕಿದ್ದರೆ 90ನೇ ದಿನದಲ್ಲಿಯೂ. FMD ಅಥವಾ HS ರೀತಿ ದನಗಳಿಗೆ ಇದು ವಾರ್ಷಿಕ ನಿಯಮಿತ ಚುಚ್ಚುಮದ್ದಲ್ಲ. (ಸಾಕು ನಾಯಿ ಮತ್ತು ಬೆಕ್ಕುಗಳಿಗೆ ಮಾತ್ರ ಪ್ರತಿ ವರ್ಷ ತಡೆಗಟ್ಟುವ ರೇಬೀಸ್ ಲಸಿಕೆ ಹಾಕಲಾಗುತ್ತದೆ.)",
+              "ऊपर की बीमारियों से अलग, स्रोत समय-सारणी में गायों और भैंसों के लिए दिखाया गया रेबीज़ का टीका तभी लगाया जाता है जब संदिग्ध काटना हो चुका हो — तुरंत शुरू करके, फिर 4वें दिन, और 7वें, 14वें, 28वें दिन, तथा चाहें तो 90वें दिन भी। यह FMD या HS की तरह पशुओं के लिए हर साल लगने वाला नियमित टीका नहीं है। (इसके उलट, पालतू कुत्तों और बिल्लियों को हर साल बचाव के तौर पर रेबीज़ का टीका लगता है।)"
             ),
           },
           {
             type: "callout",
             style: "tip",
-            heading: L("Your Role With This Schedule"),
+            heading: L("Your Role With This Schedule", "ఈ షెడ్యూల్‌లో మీ పాత్ర", "இந்த அட்டவணையில் உங்கள் பங்கு", "ಈ ವೇಳಾಪಟ್ಟಿಯಲ್ಲಿ ನಿಮ್ಮ ಪಾತ್ರ", "इस समय-सारणी में आपकी भूमिका"),
             text: L(
-              "Keep a simple mental (or written) note of when each animal's vaccines were last given, gently remind the farmer when something looks due, and flag it to the vet if you're ever unsure whether an animal is up to date. That's it — no injections, no dosing decisions."
+              "Keep a simple mental (or written) note of when each animal's vaccines were last given, gently remind the farmer when something looks due, and flag it to the vet if you're ever unsure whether an animal is up to date. That's it — no injections, no dosing decisions.",
+              "ప్రతి పశువుకు టీకాలు చివరిగా ఎప్పుడు వేశారో ఒక సాధారణ మానసిక (లేదా రాత) నోట్ ఉంచుకోండి, ఏదైనా వేయాల్సిన సమయం వచ్చినట్లు అనిపిస్తే రైతుకు మెల్లగా గుర్తు చేయండి, పశువు టీకాల్లో తాజాగా ఉందో లేదో మీకు సందేహం ఉంటే పశువైద్యుడికి తెలియజేయండి. అంతే — ఇంజెక్షన్లు లేవు, మోతాదు నిర్ణయాలు లేవు.",
+              "ஒவ்வொரு விலங்குக்கும் தடுப்பூசிகள் கடைசியாக எப்போது போடப்பட்டன என்பதை ஒரு எளிய மனக் குறிப்பாக (அல்லது எழுதி) வைத்துக்கொள்ளுங்கள், ஏதாவது போட வேண்டிய நேரம் வந்ததுபோல் தெரிந்தால் விவசாயிக்கு மென்மையாக நினைவூட்டுங்கள், விலங்கு தடுப்பூசிகளில் புதுப்பிக்கப்பட்டுள்ளதா என்று உங்களுக்கு சந்தேகம் இருந்தால் கால்நடை மருத்துவருக்குத் தெரிவியுங்கள். அவ்வளவுதான் — ஊசி போடுவது இல்லை, மருந்தளவு முடிவுகள் இல்லை.",
+              "ಪ್ರತಿ ಪ್ರಾಣಿಗೆ ಲಸಿಕೆಗಳನ್ನು ಕೊನೆಯ ಬಾರಿ ಯಾವಾಗ ಕೊಡಲಾಯಿತು ಎಂಬ ಸರಳ ಮಾನಸಿಕ (ಅಥವಾ ಲಿಖಿತ) ಟಿಪ್ಪಣಿ ಇಟ್ಟುಕೊಳ್ಳಿ, ಏನಾದರೂ ಬಾಕಿ ಇರುವಂತೆ ಕಂಡರೆ ರೈತರಿಗೆ ಮೆಲ್ಲನೆ ನೆನಪಿಸಿ, ಪ್ರಾಣಿಗೆ ಲಸಿಕೆಗಳು ಸರಿಯಾಗಿ ಆಗಿವೆಯೇ ಎಂಬ ಸಂದೇಹ ಇದ್ದರೆ ಪಶುವೈದ್ಯರಿಗೆ ತಿಳಿಸಿ. ಅಷ್ಟೇ — ಚುಚ್ಚುಮದ್ದು ಇಲ್ಲ, ಡೋಸ್ ನಿರ್ಧಾರಗಳಿಲ್ಲ.",
+              "हर पशु को टीके आख़िरी बार कब लगे, इसका एक साधारण मानसिक (या लिखित) नोट रखें, कुछ लगना बाकी लगे तो किसान को प्यार से याद दिलाएं, और अगर आपको शक हो कि पशु के टीके पूरे हैं या नहीं तो पशु चिकित्सक को बताएं। बस इतना ही — न इंजेक्शन, न खुराक तय करने का काम।"
             ),
           },
         ],
         check: [
           {
             type: "mcq",
-            q: L("According to the schedule, when is the Brucellosis vaccine given?"),
+            q: L("According to the schedule, when is the Brucellosis vaccine given?", "షెడ్యూల్ ప్రకారం, బ్రూసెల్లోసిస్ టీకా ఎప్పుడు వేస్తారు?", "அட்டவணையின்படி, புருசெல்லோசிஸ் தடுப்பூசி எப்போது போடப்படுகிறது?", "ವೇಳಾಪಟ್ಟಿಯ ಪ್ರಕಾರ, ಬ್ರೂಸೆಲ್ಲೋಸಿಸ್ ಲಸಿಕೆಯನ್ನು ಯಾವಾಗ ಕೊಡಲಾಗುತ್ತದೆ?", "समय-सारणी के अनुसार, ब्रुसेलोसिस का टीका कब लगाया जाता है?"),
             options: [
-              L("Every 6 months for the animal's whole life"),
-              L("Once in a lifetime, to female calves aged 4–8 months"),
-              L("Only after the animal has already aborted"),
-              L("To male calves only"),
+              L("Every 6 months for the animal's whole life", "పశువు జీవితాంతం ప్రతి 6 నెలలకు", "விலங்கின் வாழ்நாள் முழுவதும் ஒவ்வொரு 6 மாதத்துக்கும்", "ಪ್ರಾಣಿಯ ಜೀವಿತಾವಧಿಯುದ್ದಕ್ಕೂ ಪ್ರತಿ 6 ತಿಂಗಳಿಗೊಮ್ಮೆ", "पशु के पूरे जीवन में हर 6 महीने पर"),
+              L("Once in a lifetime, to female calves aged 4–8 months", "జీవితకాలంలో ఒక్కసారి, 4–8 నెలల వయసున్న ఆడ దూడలకు", "வாழ்நாளில் ஒரு முறை, 4–8 மாத வயதுள்ள பெண் கன்றுகளுக்கு", "ಜೀವಿತಾವಧಿಯಲ್ಲಿ ಒಮ್ಮೆ, 4–8 ತಿಂಗಳ ವಯಸ್ಸಿನ ಹೆಣ್ಣು ಕರುಗಳಿಗೆ", "जीवन में एक बार, 4–8 महीने की मादा बछड़ियों को"),
+              L("Only after the animal has already aborted", "పశువుకు ఇప్పటికే గర్భస్రావం అయిన తర్వాత మాత్రమే", "விலங்குக்கு ஏற்கனவே கருச்சிதைவு ஏற்பட்ட பிறகு மட்டுமே", "ಪ್ರಾಣಿಗೆ ಈಗಾಗಲೇ ಗರ್ಭಪಾತವಾದ ನಂತರ ಮಾತ್ರ", "पशु को गर्भपात हो जाने के बाद ही"),
+              L("To male calves only", "మగ దూడలకు మాత్రమే", "ஆண் கன்றுகளுக்கு மட்டும்", "ಗಂಡು ಕರುಗಳಿಗೆ ಮಾತ್ರ", "सिर्फ़ नर बछड़ों को"),
             ],
             answer: 1,
-            explain: L("Brucellosis vaccination is given once in a lifetime, only to female calves, between 4 and 8 months of age."),
+            explain: L("Brucellosis vaccination is given once in a lifetime, only to female calves, between 4 and 8 months of age.", "బ్రూసెల్లోసిస్ టీకాను జీవితకాలంలో ఒక్కసారి, ఆడ దూడలకు మాత్రమే, 4 నుండి 8 నెలల వయసు మధ్య వేస్తారు.", "புருசெல்லோசிஸ் தடுப்பூசி வாழ்நாளில் ஒரு முறை, பெண் கன்றுகளுக்கு மட்டும், 4 முதல் 8 மாத வயதுக்கு இடையில் போடப்படுகிறது.", "ಬ್ರೂಸೆಲ್ಲೋಸಿಸ್ ಲಸಿಕೆಯನ್ನು ಜೀವಿತಾವಧಿಯಲ್ಲಿ ಒಮ್ಮೆ, ಹೆಣ್ಣು ಕರುಗಳಿಗೆ ಮಾತ್ರ, 4ರಿಂದ 8 ತಿಂಗಳ ವಯಸ್ಸಿನ ನಡುವೆ ಕೊಡಲಾಗುತ್ತದೆ.", "ब्रुसेलोसिस का टीका जीवन में एक बार, सिर्फ़ मादा बछड़ियों को, 4 से 8 महीने की उम्र के बीच लगाया जाता है।"),
           },
           {
             type: "truefalse",
-            q: L("The rabies vaccination schedule shown for cattle is a routine annual shot, just like FMD or HS."),
+            q: L("The rabies vaccination schedule shown for cattle is a routine annual shot, just like FMD or HS.", "పశువులకు చూపించిన రేబీస్ టీకా షెడ్యూల్ FMD లేదా HS లాగే ప్రతి సంవత్సరం వేసే సాధారణ టీకా.", "மாடுகளுக்குக் காட்டப்பட்டுள்ள ரேபிஸ் தடுப்பூசி அட்டவணை FMD அல்லது HS போலவே ஆண்டுதோறும் போடும் வழக்கமான ஊசி.", "ದನಗಳಿಗೆ ತೋರಿಸಿರುವ ರೇಬೀಸ್ ಲಸಿಕೆ ವೇಳಾಪಟ್ಟಿ FMD ಅಥವಾ HS ರೀತಿಯೇ ವಾರ್ಷಿಕ ನಿಯಮಿತ ಚುಚ್ಚುಮದ್ದು.", "गायों के लिए दिखाई गई रेबीज़ टीकाकरण समय-सारणी FMD या HS की तरह ही हर साल लगने वाला नियमित टीका है।"),
             answer: false,
-            explain: L("No — for cattle and buffaloes, the schedule shown is given only after a suspected bite, starting immediately and continuing on specific follow-up days."),
+            explain: L(
+              "No — for cattle and buffaloes, the schedule shown is given only after a suspected bite, starting immediately and continuing on specific follow-up days.",
+              "కాదు — పశువులు, గేదెలకు చూపించిన షెడ్యూల్ అనుమానిత కాటు తర్వాత మాత్రమే వేస్తారు, వెంటనే మొదలుపెట్టి నిర్దిష్ట తదుపరి రోజుల్లో కొనసాగిస్తారు.",
+              "இல்லை — மாடுகள், எருமைகளுக்குக் காட்டப்பட்டுள்ள அட்டவணை சந்தேகத்துக்குரிய கடிக்குப் பிறகு மட்டுமே போடப்படுகிறது, உடனே தொடங்கி குறிப்பிட்ட தொடர் நாட்களில் தொடரும்.",
+              "ಇಲ್ಲ — ದನಗಳು ಮತ್ತು ಎಮ್ಮೆಗಳಿಗೆ ತೋರಿಸಿರುವ ವೇಳಾಪಟ್ಟಿಯನ್ನು ಶಂಕಿತ ಕಡಿತದ ನಂತರ ಮಾತ್ರ ಕೊಡಲಾಗುತ್ತದೆ, ತಕ್ಷಣ ಶುರುವಾಗಿ ನಿರ್ದಿಷ್ಟ ಮುಂದಿನ ದಿನಗಳಲ್ಲಿ ಮುಂದುವರಿಯುತ್ತದೆ.",
+              "नहीं — गायों और भैंसों के लिए दिखाई गई समय-सारणी संदिग्ध काटने के बाद ही लगाई जाती है, तुरंत शुरू होकर तय अगले दिनों पर जारी रहती है।"
+            ),
           },
         ],
       },
       {
         id: "t-m4-vaccination-tips",
-        title: L("Why Vaccines Sometimes Don't Work"),
+        title: L("Why Vaccines Sometimes Don't Work", "టీకాలు కొన్నిసార్లు ఎందుకు పనిచేయవు", "தடுப்பூசிகள் சில நேரங்களில் ஏன் வேலை செய்வதில்லை", "ಲಸಿಕೆಗಳು ಕೆಲವೊಮ್ಮೆ ಏಕೆ ಕೆಲಸ ಮಾಡುವುದಿಲ್ಲ", "टीके कभी-कभी काम क्यों नहीं करते"),
         teach: [
           {
             type: "text",
-            heading: L("A Vaccine Is Not Automatically a Guarantee"),
+            heading: L("A Vaccine Is Not Automatically a Guarantee", "టీకా వేసినంత మాత్రాన హామీ ఉన్నట్లు కాదు", "தடுப்பூசி போட்டுவிட்டாலே உத்தரவாதம் என்று அர்த்தமில்லை", "ಲಸಿಕೆ ಹಾಕಿದರೆ ತಾನಾಗಿಯೇ ಭರವಸೆ ಎಂದಲ್ಲ", "टीका लगना अपने आप में गारंटी नहीं है"),
             html: L(
-              "Giving a vaccine on time is important, but several other things also decide whether it actually protects the animal. Ground-force workers are often the ones best placed to notice when one of these things is going wrong."
+              "Giving a vaccine on time is important, but several other things also decide whether it actually protects the animal. Ground-force workers are often the ones best placed to notice when one of these things is going wrong.",
+              "టీకాను సమయానికి వేయడం ముఖ్యం, కానీ అది నిజంగా పశువును రక్షిస్తుందా లేదా అన్నది మరికొన్ని విషయాలు కూడా నిర్ణయిస్తాయి. వీటిలో ఏదైనా తప్పుగా జరుగుతున్నప్పుడు గమనించడానికి క్షేత్రస్థాయి కార్యకర్తలే తరచుగా అత్యంత అనువైన స్థితిలో ఉంటారు.",
+              "தடுப்பூசியை சரியான நேரத்தில் போடுவது முக்கியம், ஆனால் அது உண்மையில் விலங்கைப் பாதுகாக்கிறதா என்பதை வேறு சில விஷயங்களும் தீர்மானிக்கின்றன. இவற்றில் ஏதாவது தவறாக நடக்கும்போது கவனிக்க, கள ஊழியர்களே பெரும்பாலும் மிகவும் பொருத்தமான நிலையில் இருக்கிறார்கள்.",
+              "ಲಸಿಕೆಯನ್ನು ಸಮಯಕ್ಕೆ ಕೊಡುವುದು ಮುಖ್ಯ, ಆದರೆ ಅದು ನಿಜವಾಗಿ ಪ್ರಾಣಿಯನ್ನು ರಕ್ಷಿಸುತ್ತದೆಯೇ ಎಂಬುದನ್ನು ಇನ್ನೂ ಕೆಲವು ವಿಷಯಗಳು ನಿರ್ಧರಿಸುತ್ತವೆ. ಇವುಗಳಲ್ಲಿ ಯಾವುದಾದರೂ ತಪ್ಪಾಗುತ್ತಿರುವಾಗ ಗಮನಿಸಲು ಕ್ಷೇತ್ರ ಸಿಬ್ಬಂದಿಯೇ ಹೆಚ್ಚಾಗಿ ಅತ್ಯುತ್ತಮ ಸ್ಥಾನದಲ್ಲಿರುತ್ತಾರೆ.",
+              "टीका समय पर लगाना ज़रूरी है, लेकिन वह पशु को सच में बचाता है या नहीं, यह कई और बातों पर भी निर्भर करता है। इनमें से कुछ गड़बड़ हो रही हो तो उसे पकड़ने की सबसे अच्छी स्थिति में अक्सर फ़ील्ड कार्यकर्ता ही होते हैं।"
             ),
           },
           {
             type: "stat-grid",
             items: [
               {
-                label: L("Animal should be healthy"),
-                text: L("Vaccination works best when the animal is already in good health at the time it's given — not while it's already sick or very weak."),
+                label: L("Animal should be healthy", "పశువు ఆరోగ్యంగా ఉండాలి", "விலங்கு ஆரோக்கியமாக இருக்க வேண்டும்", "ಪ್ರಾಣಿ ಆರೋಗ್ಯವಾಗಿರಬೇಕು", "पशु स्वस्थ होना चाहिए"),
+                text: L(
+                  "Vaccination works best when the animal is already in good health at the time it's given — not while it's already sick or very weak.",
+                  "టీకా వేసే సమయంలో పశువు ఇప్పటికే మంచి ఆరోగ్యంతో ఉన్నప్పుడు టీకా బాగా పనిచేస్తుంది — ఇప్పటికే జబ్బుపడి ఉన్నప్పుడు లేదా చాలా బలహీనంగా ఉన్నప్పుడు కాదు.",
+                  "தடுப்பூசி போடும் நேரத்தில் விலங்கு ஏற்கனவே நல்ல ஆரோக்கியத்தில் இருக்கும்போது தடுப்பூசி நன்றாக வேலை செய்கிறது — ஏற்கனவே நோயுற்றிருக்கும்போது அல்லது மிகவும் பலவீனமாக இருக்கும்போது அல்ல.",
+                  "ಲಸಿಕೆ ಕೊಡುವ ಸಮಯದಲ್ಲಿ ಪ್ರಾಣಿ ಈಗಾಗಲೇ ಒಳ್ಳೆಯ ಆರೋಗ್ಯದಲ್ಲಿದ್ದಾಗ ಲಸಿಕೆ ಉತ್ತಮವಾಗಿ ಕೆಲಸ ಮಾಡುತ್ತದೆ — ಈಗಾಗಲೇ ಅನಾರೋಗ್ಯದಲ್ಲಿರುವಾಗ ಅಥವಾ ತುಂಬಾ ದುರ್ಬಲವಾಗಿರುವಾಗ ಅಲ್ಲ.",
+                  "टीका तब सबसे अच्छा काम करता है जब लगाते समय पशु पहले से अच्छी सेहत में हो — तब नहीं जब वह पहले से बीमार या बहुत कमज़ोर हो।"
+                ),
               },
               {
-                label: L("Deworming helps"),
-                text: L("Deworming an animal 2–3 weeks before vaccination helps its body respond better to the vaccine."),
+                label: L("Deworming helps", "నట్టల నివారణ సహాయపడుతుంది", "புழு நீக்கம் உதவும்", "ಹುಳ ನಿವಾರಣೆ ಸಹಾಯ ಮಾಡುತ್ತದೆ", "कृमिनाशक दवा से मदद मिलती है"),
+                text: L("Deworming an animal 2–3 weeks before vaccination helps its body respond better to the vaccine.", "టీకాకు 2–3 వారాల ముందు పశువుకు నట్టల నివారణ మందు ఇస్తే, టీకాకు దాని శరీరం బాగా స్పందిస్తుంది.", "தடுப்பூசிக்கு 2–3 வாரங்களுக்கு முன் விலங்குக்கு புழு நீக்க மருந்து கொடுத்தால், தடுப்பூசிக்கு அதன் உடல் நன்றாக பதிலளிக்கிறது.", "ಲಸಿಕೆಗೆ 2–3 ವಾರ ಮೊದಲು ಪ್ರಾಣಿಗೆ ಹುಳ ನಿವಾರಣೆ ಮದ್ದು ಕೊಟ್ಟರೆ, ಲಸಿಕೆಗೆ ಅದರ ದೇಹ ಉತ್ತಮವಾಗಿ ಸ್ಪಂದಿಸುತ್ತದೆ.", "टीके से 2–3 हफ़्ते पहले पशु को कृमिनाशक दवा देने से उसका शरीर टीके पर बेहतर प्रतिक्रिया देता है।"),
               },
               {
-                label: L("Pregnancy timing"),
-                text: L("Vaccinating animals in advanced pregnancy is usually avoided, even though in most cases nothing goes wrong."),
+                label: L("Pregnancy timing", "గర్భధారణ సమయం", "கர்ப்ப காலம்", "ಗರ್ಭಾವಸ್ಥೆಯ ಸಮಯ", "गर्भावस्था का समय"),
+                text: L("Vaccinating animals in advanced pregnancy is usually avoided, even though in most cases nothing goes wrong.", "చాలా సందర్భాల్లో ఏమీ తప్పు జరగకపోయినా, గర్భం ముదిరిన పశువులకు టీకా వేయడం సాధారణంగా నివారిస్తారు.", "பெரும்பாலான சந்தர்ப்பங்களில் எதுவும் தவறாக நடக்காவிட்டாலும், கர்ப்பம் முற்றிய விலங்குகளுக்குத் தடுப்பூசி போடுவது பொதுவாகத் தவிர்க்கப்படுகிறது.", "ಹೆಚ್ಚಿನ ಸಂದರ್ಭಗಳಲ್ಲಿ ಏನೂ ತಪ್ಪಾಗದಿದ್ದರೂ, ಗರ್ಭ ಮುಂದುವರಿದ ಪ್ರಾಣಿಗಳಿಗೆ ಲಸಿಕೆ ಹಾಕುವುದನ್ನು ಸಾಮಾನ್ಯವಾಗಿ ತಪ್ಪಿಸಲಾಗುತ್ತದೆ.", "ज़्यादातर मामलों में कुछ गड़बड़ नहीं होती, फिर भी गर्भावस्था के आख़िरी दिनों में पशुओं को टीका लगाने से आमतौर पर बचा जाता है।"),
               },
             ],
           },
           {
             type: "glossary",
-            term: L("Cold Chain"),
+            term: L("Cold Chain", "కోల్డ్ చైన్ (శీతల గొలుసు)", "கோல்ட் செயின் (குளிர் சங்கிலி)", "ಕೋಲ್ಡ್ ಚೈನ್ (ಶೀತ ಸರಪಳಿ)", "कोल्ड चेन (ठंडक की कड़ी)"),
             meaning: L(
-              "Keeping a vaccine at the right cool temperature all the way from where it's made to the moment it's given to the animal. If that cold chain is broken at any point, the vaccine can stop working properly, even though it looks the same."
+              "Keeping a vaccine at the right cool temperature all the way from where it's made to the moment it's given to the animal. If that cold chain is broken at any point, the vaccine can stop working properly, even though it looks the same.",
+              "టీకాను తయారైన చోటు నుండి పశువుకు వేసే క్షణం వరకు సరైన చల్లని ఉష్ణోగ్రతలో ఉంచడం. ఏ దశలోనైనా ఆ కోల్డ్ చైన్ తెగిపోతే, టీకా చూడటానికి అలాగే ఉన్నా సరిగ్గా పనిచేయడం మానేయవచ్చు.",
+              "தடுப்பூசி தயாரிக்கப்படும் இடத்திலிருந்து விலங்குக்குப் போடப்படும் தருணம் வரை சரியான குளிர்ந்த வெப்பநிலையில் வைத்திருப்பது. எந்தக் கட்டத்திலாவது அந்தக் கோல்ட் செயின் உடைந்தால், தடுப்பூசி பார்ப்பதற்கு அப்படியே இருந்தாலும் சரியாக வேலை செய்யாமல் போகலாம்.",
+              "ಲಸಿಕೆಯನ್ನು ತಯಾರಾದ ಸ್ಥಳದಿಂದ ಪ್ರಾಣಿಗೆ ಕೊಡುವ ಕ್ಷಣದವರೆಗೂ ಸರಿಯಾದ ತಂಪು ತಾಪಮಾನದಲ್ಲಿ ಇಡುವುದು. ಯಾವುದೇ ಹಂತದಲ್ಲಿ ಆ ಕೋಲ್ಡ್ ಚೈನ್ ಮುರಿದರೆ, ಲಸಿಕೆ ನೋಡಲು ಅದೇ ರೀತಿ ಇದ್ದರೂ ಸರಿಯಾಗಿ ಕೆಲಸ ಮಾಡುವುದು ನಿಲ್ಲಬಹುದು.",
+              "टीके को बनने की जगह से लेकर पशु को लगाए जाने के क्षण तक सही ठंडे तापमान पर रखना। अगर यह कोल्ड चेन किसी भी जगह टूट जाए, तो टीका दिखने में वैसा ही रहते हुए भी ठीक से काम करना बंद कर सकता है।"
             ),
           },
           {
             type: "stat-grid",
             items: [
               {
-                label: L("Broken cold chain"),
-                text: L("The single most common reason a vaccine fails to protect an animal — if it wasn't kept cool all the way through, it may simply not work."),
+                label: L("Broken cold chain", "కోల్డ్ చైన్ తెగిపోవడం", "கோல்ட் செயின் உடைவது", "ಕೋಲ್ಡ್ ಚೈನ್ ಮುರಿಯುವುದು", "कोल्ड चेन टूटना"),
+                text: L(
+                  "The single most common reason a vaccine fails to protect an animal — if it wasn't kept cool all the way through, it may simply not work.",
+                  "టీకా పశువును రక్షించడంలో విఫలం కావడానికి అత్యంత సాధారణ ఒకే కారణం — అది మొత్తం దారిలో చల్లగా ఉంచకపోతే, అది అసలు పనిచేయకపోవచ్చు.",
+                  "தடுப்பூசி விலங்கைப் பாதுகாக்கத் தவறுவதற்கு மிகவும் பொதுவான ஒரே காரணம் — அது முழு வழியிலும் குளிர்ச்சியாக வைக்கப்படாவிட்டால், அது வெறுமனே வேலை செய்யாமல் போகலாம்.",
+                  "ಲಸಿಕೆ ಪ್ರಾಣಿಯನ್ನು ರಕ್ಷಿಸಲು ವಿಫಲವಾಗುವ ಅತ್ಯಂತ ಸಾಮಾನ್ಯ ಏಕೈಕ ಕಾರಣ — ಅದನ್ನು ಇಡೀ ದಾರಿಯುದ್ದಕ್ಕೂ ತಂಪಾಗಿ ಇಡದಿದ್ದರೆ, ಅದು ಸುಮ್ಮನೆ ಕೆಲಸ ಮಾಡದೇ ಹೋಗಬಹುದು.",
+                  "टीके के पशु को बचाने में नाकाम होने की सबसे आम अकेली वजह — अगर उसे पूरे रास्ते ठंडा नहीं रखा गया, तो हो सकता है वह बस काम ही न करे।"
+                ),
               },
               {
                 label: L("Not enough of the herd covered"),
