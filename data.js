@@ -10633,77 +10633,174 @@ export const MODULES = [
       },
       {
         id: "t-m16-orientation",
-        title: L("Facing the Shed the Right Way: Walls, Manger and Open Area"),
+        title: L(
+          "Facing the Shed the Right Way: Walls, Manger and Open Area",
+          "షెడ్‌ను సరైన దిశలో ఉంచడం: గోడలు, గాదె మరియు బహిరంగ ప్రదేశం",
+          "தொழுவத்தை சரியான திசையில் அமைத்தல்: சுவர்கள், தீவனத்தொட்டி மற்றும் திறந்த வெளி",
+          "ಶೆಡ್ ಅನ್ನು ಸರಿಯಾದ ದಿಕ್ಕಿನಲ್ಲಿ ಇಡುವುದು: ಗೋಡೆಗಳು, ಮೇವಿನ ತೊಟ್ಟಿ ಮತ್ತು ಬಯಲು ಪ್ರದೇಶ",
+          "शेड को सही दिशा में रखना: दीवारें, चारा-नांद और खुली जगह"
+        ),
         teach: [
             {
               type: "photo",
               src: "assets/photo-m16-manger.jpg",
-              alt: L("A long, sturdy concrete manger built along the base of a wall in a farm shed"),
-              caption: L("A concrete manger built along a wall, raised above the ground — the same basic design this lesson describes."),
+              alt: L(
+                "A long, sturdy concrete manger built along the base of a wall in a farm shed",
+                "ఫారం షెడ్‌లో గోడ అడుగు భాగంలో నిర్మించిన పొడవైన, దృఢమైన కాంక్రీట్ గాదె",
+                "பண்ணை தொழுவத்தில் சுவரின் அடிப்பகுதியில் கட்டப்பட்ட நீளமான, திடமான கான்கிரீட் தீவனத்தொட்டி",
+                "ಫಾರ್ಮ್ ಶೆಡ್‌ನಲ್ಲಿ ಗೋಡೆಯ ತಳಭಾಗದಲ್ಲಿ ನಿರ್ಮಿಸಿದ ಉದ್ದವಾದ, ಗಟ್ಟಿಯಾದ ಕಾಂಕ್ರೀಟ್ ಮೇವಿನ ತೊಟ್ಟಿ",
+                "फार्म शेड में दीवार के आधार पर बनी एक लंबी, मजबूत कंक्रीट चारा-नांद"
+              ),
+              caption: L(
+                "A concrete manger built along a wall, raised above the ground — the same basic design this lesson describes.",
+                "గోడ వెంబడి నిర్మించిన, నేలకు పైన ఎత్తుగా ఉన్న కాంక్రీట్ గాదె — ఈ పాఠం వివరించిన అదే ప్రాథమిక నమూనా.",
+                "சுவரின் ஓரமாக கட்டப்பட்ட, தரையிலிருந்து உயர்த்தப்பட்ட கான்கிரீட் தீவனத்தொட்டி — இந்தப் பாடம் விவரிக்கும் அதே அடிப்படை வடிவமைப்பு.",
+                "ಗೋಡೆಯ ಉದ್ದಕ್ಕೂ ನಿರ್ಮಿಸಿದ, ನೆಲದಿಂದ ಎತ್ತರಿಸಿದ ಕಾಂಕ್ರೀಟ್ ಮೇವಿನ ತೊಟ್ಟಿ — ಈ ಪಾಠ ವಿವರಿಸುವ ಅದೇ ಮೂಲ ವಿನ್ಯಾಸ.",
+                "दीवार के साथ बनी, जमीन से ऊंची कंक्रीट चारा-नांद — इस पाठ में बताया गया वही मूल डिज़ाइन।"
+              ),
             },
           {
             type: "text",
-            heading: L("Open on Three Sides, Walled on One"),
+            heading: L(
+              "Open on Three Sides, Walled on One",
+              "మూడు వైపులా తెరిచి, ఒక వైపు గోడ",
+              "மூன்று பக்கங்களில் திறந்தது, ஒரு பக்கம் சுவர்",
+              "ಮೂರು ಬದಿಗಳಲ್ಲಿ ತೆರೆದಿದೆ, ಒಂದು ಬದಿಯಲ್ಲಿ ಗೋಡೆ",
+              "तीन तरफ से खुला, एक तरफ दीवार"
+            ),
             html: L(
-              "A shed should be open from three sides, with only the <b>western</b> side having a wall. Keeping most sides open lets in light and fresh air, while the single western wall blocks the harsh afternoon sun and hot winds that come from that direction."
+              "A shed should be open from three sides, with only the <b>western</b> side having a wall. Keeping most sides open lets in light and fresh air, while the single western wall blocks the harsh afternoon sun and hot winds that come from that direction.",
+              "షెడ్ మూడు వైపులా తెరిచి ఉండాలి, కేవలం <b>పడమర</b> వైపు మాత్రమే గోడ ఉండాలి. చాలా వైపులను తెరిచి ఉంచడం వల్ల వెలుతురు మరియు స్వచ్ఛమైన గాలి లోపలికి వస్తుంది, అదే సమయంలో ఒకే పడమర గోడ ఆ దిశ నుండి వచ్చే తీవ్రమైన మధ్యాహ్నపు ఎండను మరియు వేడి గాలులను అడ్డుకుంటుంది.",
+              "தொழுவம் மூன்று பக்கங்களில் திறந்திருக்க வேண்டும், <b>மேற்கு</b> பக்கம் மட்டும் சுவர் இருக்க வேண்டும். பெரும்பாலான பக்கங்களைத் திறந்து வைப்பது வெளிச்சத்தையும் புத்துணர்ச்சியான காற்றையும் உள்ளே விடும், அதே நேரத்தில் ஒரே மேற்கு சுவர் அந்த திசையிலிருந்து வரும் கடுமையான மதிய வெயிலையும் சூடான காற்றையும் தடுக்கும்.",
+              "ಶೆಡ್ ಮೂರು ಬದಿಗಳಲ್ಲಿ ತೆರೆದಿರಬೇಕು, <b>ಪಶ್ಚಿಮ</b> ಬದಿಯಲ್ಲಿ ಮಾತ್ರ ಗೋಡೆ ಇರಬೇಕು. ಹೆಚ್ಚಿನ ಬದಿಗಳನ್ನು ತೆರೆದಿಡುವುದರಿಂದ ಬೆಳಕು ಮತ್ತು ತಾಜಾ ಗಾಳಿ ಒಳಗೆ ಬರುತ್ತದೆ, ಅದೇ ಸಮಯದಲ್ಲಿ ಒಂದೇ ಪಶ್ಚಿಮ ಗೋಡೆ ಆ ದಿಕ್ಕಿನಿಂದ ಬರುವ ತೀವ್ರ ಮಧ್ಯಾಹ್ನದ ಬಿಸಿಲನ್ನು ಮತ್ತು ಬಿಸಿ ಗಾಳಿಯನ್ನು ತಡೆಯುತ್ತದೆ.",
+              "शेड तीन तरफ से खुला होना चाहिए, केवल <b>पश्चिम</b> दिशा में दीवार होनी चाहिए। अधिकतर तरफ खुला रखने से रोशनी और ताजी हवा अंदर आती है, वहीं एक पश्चिमी दीवार उस दिशा से आने वाली तेज दोपहर की धूप और गर्म हवाओं को रोकती है।"
             ),
           },
           {
             type: "glossary",
-            term: L("Manger"),
-            meaning: L("A long trough or box, usually built along a wall, where an animal's feed is placed for it to eat from."),
+            term: L("Manger", "గాదె", "தீவனத்தொட்டி", "ಮೇವಿನ ತೊಟ್ಟಿ", "चारा-नांद"),
+            meaning: L(
+              "A long trough or box, usually built along a wall, where an animal's feed is placed for it to eat from.",
+              "సాధారణంగా గోడ వెంబడి నిర్మించిన పొడవైన తొట్టి లేదా పెట్టె, ఇందులో జంతువు తినడానికి దాణా పెడతారు.",
+              "பொதுவாக சுவரின் ஓரமாக கட்டப்பட்ட நீளமான தொட்டி அல்லது பெட்டி, இதில் விலங்கு உண்பதற்காக தீவனம் வைக்கப்படுகிறது.",
+              "ಸಾಮಾನ್ಯವಾಗಿ ಗೋಡೆಯ ಉದ್ದಕ್ಕೂ ನಿರ್ಮಿಸಿದ ಉದ್ದವಾದ ತೊಟ್ಟಿ ಅಥವಾ ಪೆಟ್ಟಿಗೆ, ಇದರಲ್ಲಿ ಪ್ರಾಣಿ ತಿನ್ನಲು ಆಹಾರ ಇಡಲಾಗುತ್ತದೆ.",
+              "आमतौर पर दीवार के साथ बनी एक लंबी नांद या पेटी, जिसमें पशु के खाने के लिए चारा रखा जाता है।"
+            ),
           },
           {
             type: "stat-grid",
             items: [
               {
-                label: L("Manger — Location and Size"),
+                label: L("Manger — Location and Size", "గాదె — స్థానం మరియు పరిమాణం", "தீவனத்தொட்டி — இடம் மற்றும் அளவு", "ಮೇವಿನ ತೊಟ್ಟಿ — ಸ್ಥಳ ಮತ್ತು ಗಾತ್ರ", "चारा-नांद — स्थान और आकार"),
                 text: L(
-                  "A manger 2 feet wide and 1.5 feet deep should be located on the western wall of the shed, with its base about 1 foot above the floor level."
+                  "A manger 2 feet wide and 1.5 feet deep should be located on the western wall of the shed, with its base about 1 foot above the floor level.",
+                  "2 అడుగుల వెడల్పు మరియు 1.5 అడుగుల లోతు గల గాదె షెడ్ యొక్క పడమర గోడపై ఉండాలి, దాని అడుగు భాగం నేల మట్టానికి సుమారు 1 అడుగు పైన ఉండాలి.",
+                  "2 அடி அகலமும் 1.5 அடி ஆழமும் கொண்ட தீவனத்தொட்டி தொழுவத்தின் மேற்கு சுவரில் இருக்க வேண்டும், அதன் அடிப்பகுதி தரை மட்டத்திலிருந்து சுமார் 1 அடி உயரத்தில் இருக்க வேண்டும்.",
+                  "2 ಅಡಿ ಅಗಲ ಮತ್ತು 1.5 ಅಡಿ ಆಳದ ಮೇವಿನ ತೊಟ್ಟಿ ಶೆಡ್‌ನ ಪಶ್ಚಿಮ ಗೋಡೆಯಲ್ಲಿ ಇರಬೇಕು, ಅದರ ತಳಭಾಗ ನೆಲದ ಮಟ್ಟಕ್ಕಿಂತ ಸುಮಾರು 1 ಅಡಿ ಎತ್ತರದಲ್ಲಿರಬೇಕು.",
+                  "2 फीट चौड़ी और 1.5 फीट गहरी चारा-नांद शेड की पश्चिमी दीवार पर होनी चाहिए, जिसका आधार फर्श के स्तर से करीब 1 फीट ऊपर हो।"
                 ),
               },
               {
-                label: L("Drinking Water"),
-                text: L("A trough for drinking water should be provided right beside the manger."),
+                label: L("Drinking Water", "తాగునీరు", "குடிநீர்", "ಕುಡಿಯುವ ನೀರು", "पीने का पानी"),
+                text: L(
+                  "A trough for drinking water should be provided right beside the manger.",
+                  "గాదెకు పక్కనే తాగునీటి తొట్టి ఏర్పాటు చేయాలి.",
+                  "தீவனத்தொட்டியின் அருகிலேயே குடிநீருக்கான தொட்டி வழங்கப்பட வேண்டும்.",
+                  "ಮೇವಿನ ತೊಟ್ಟಿಯ ಪಕ್ಕದಲ್ಲಿಯೇ ಕುಡಿಯುವ ನೀರಿನ ತೊಟ್ಟಿ ಇರಬೇಕು.",
+                  "चारा-नांद के ठीक बगल में पीने के पानी के लिए एक हौद होनी चाहिए।"
+                ),
               },
             ],
           },
           {
             type: "glossary",
-            term: L("Loafing Area"),
+            term: L("Loafing Area", "విశ్రాంతి ప్రదేశం (లోఫింగ్ ఏరియా)", "ஓய்வு பகுதி (லோஃபிங் ஏரியா)", "ವಿಶ್ರಾಂತಿ ಪ್ರದೇಶ (ಲೋಫಿಂಗ್ ಏರಿಯಾ)", "विश्राम क्षेत्र (लोफिंग एरिया)"),
             meaning: L(
-              "An open, uncovered area next to the shed where animals can move about freely, rest, and stand outside the roofed part whenever they want to."
+              "An open, uncovered area next to the shed where animals can move about freely, rest, and stand outside the roofed part whenever they want to.",
+              "షెడ్ పక్కనే ఉన్న బహిరంగ, కప్పులేని ప్రదేశం, ఇక్కడ జంతువులు స్వేచ్ఛగా తిరగవచ్చు, విశ్రాంతి తీసుకోవచ్చు మరియు కోరుకున్నప్పుడు పైకప్పు లేని భాగంలో నిలబడవచ్చు.",
+              "தொழுவத்தின் அருகில் உள்ள திறந்த, மூடப்படாத பகுதி, இங்கு விலங்குகள் சுதந்திரமாக நடமாடலாம், ஓய்வெடுக்கலாம், மற்றும் விரும்பும் போதெல்லாம் கூரையில்லாத பகுதியில் நிற்கலாம்.",
+              "ಶೆಡ್‌ನ ಪಕ್ಕದಲ್ಲಿರುವ ತೆರೆದ, ಮುಚ್ಚದ ಪ್ರದೇಶ, ಇಲ್ಲಿ ಪ್ರಾಣಿಗಳು ಸ್ವತಂತ್ರವಾಗಿ ಓಡಾಡಬಹುದು, ವಿಶ್ರಾಂತಿ ಪಡೆಯಬಹುದು, ಮತ್ತು ಬಯಸಿದಾಗ ಚಾವಣಿ ಇಲ್ಲದ ಭಾಗದಲ್ಲಿ ನಿಲ್ಲಬಹುದು.",
+              "शेड के बगल की एक खुली, बिना छत वाली जगह जहां पशु स्वतंत्र रूप से घूम सकते हैं, आराम कर सकते हैं, और जब चाहें छत रहित हिस्से में खड़े हो सकते हैं।"
             ),
           },
           {
             type: "example",
-            heading: L("Why the Eastern Side Is for Loafing"),
+            heading: L(
+              "Why the Eastern Side Is for Loafing",
+              "తూర్పు వైపు ఎందుకు విశ్రాంతి కోసం",
+              "ஏன் கிழக்குப் பக்கம் ஓய்வுக்கானது",
+              "ಪೂರ್ವ ಬದಿ ವಿಶ್ರಾಂತಿಗೆ ಏಕೆ",
+              "पूर्व दिशा विश्राम के लिए क्यों है"
+            ),
             text: L(
-              "The eastern side of the shed should have this free loafing area. Animals are more comfortable resting under the shade of a tree, so the loafing area should have 2 to 3 shady trees — for example, Neem."
+              "The eastern side of the shed should have this free loafing area. Animals are more comfortable resting under the shade of a tree, so the loafing area should have 2 to 3 shady trees — for example, Neem.",
+              "షెడ్ యొక్క తూర్పు వైపు ఈ స్వేచ్ఛా విశ్రాంతి ప్రదేశం ఉండాలి. జంతువులు చెట్టు నీడలో విశ్రాంతి తీసుకోవడం మరింత సౌకర్యంగా భావిస్తాయి, కాబట్టి విశ్రాంతి ప్రదేశంలో 2 నుండి 3 నీడనిచ్చే చెట్లు ఉండాలి — ఉదాహరణకు, వేప.",
+              "தொழுவத்தின் கிழக்குப் பக்கத்தில் இந்த சுதந்திர ஓய்வுப் பகுதி இருக்க வேண்டும். விலங்குகள் மரத்தின் நிழலில் ஓய்வெடுப்பதில் அதிக வசதி உணரும், எனவே ஓய்வுப் பகுதியில் 2 முதல் 3 நிழல் மரங்கள் இருக்க வேண்டும் — உதாரணமாக, வேம்பு.",
+              "ಶೆಡ್‌ನ ಪೂರ್ವ ಬದಿಯಲ್ಲಿ ಈ ಮುಕ್ತ ವಿಶ್ರಾಂತಿ ಪ್ರದೇಶ ಇರಬೇಕು. ಪ್ರಾಣಿಗಳು ಮರದ ನೆರಳಿನಲ್ಲಿ ವಿಶ್ರಾಂತಿ ಪಡೆಯಲು ಹೆಚ್ಚು ಆರಾಮದಾಯಕ ಎಂದು ಭಾವಿಸುತ್ತವೆ, ಆದ್ದರಿಂದ ವಿಶ್ರಾಂತಿ ಪ್ರದೇಶದಲ್ಲಿ 2 ರಿಂದ 3 ನೆರಳಿನ ಮರಗಳು ಇರಬೇಕು — ಉದಾಹರಣೆಗೆ, ಬೇವು.",
+              "शेड की पूर्व दिशा में यह मुक्त विश्राम क्षेत्र होना चाहिए। पशु पेड़ की छाया में आराम करना ज्यादा पसंद करते हैं, इसलिए विश्राम क्षेत्र में 2 से 3 छायादार पेड़ होने चाहिए — जैसे नीम।"
             ),
           },
           {
             type: "callout",
             style: "info",
-            heading: L("Everything Has a Reason"),
+            heading: L(
+              "Everything Has a Reason",
+              "ప్రతిదానికీ ఒక కారణం ఉంది",
+              "எல்லாவற்றிற்கும் ஒரு காரணம் உண்டு",
+              "ಪ್ರತಿಯೊಂದಕ್ಕೂ ಒಂದು ಕಾರಣವಿದೆ",
+              "हर चीज की एक वजह है"
+            ),
             text: L(
-              "Notice the pattern: the wall faces west to block the harsh sun, the manger sits along that same wall for shelter while feeding, and the open loafing area with shady trees faces east. None of this is random — each choice makes the animal more comfortable."
+              "Notice the pattern: the wall faces west to block the harsh sun, the manger sits along that same wall for shelter while feeding, and the open loafing area with shady trees faces east. None of this is random — each choice makes the animal more comfortable.",
+              "ఈ నమూనాను గమనించండి: తీవ్రమైన ఎండను అడ్డుకోవడానికి గోడ పడమర వైపు ఉంటుంది, తినిపించేటప్పుడు ఆశ్రయం కోసం గాదె అదే గోడ వెంబడి ఉంటుంది, మరియు నీడనిచ్చే చెట్లతో బహిరంగ విశ్రాంతి ప్రదేశం తూర్పు వైపు ఉంటుంది. ఇదేదీ యాదృచ్ఛికం కాదు — ప్రతి ఎంపిక జంతువును మరింత సౌకర్యవంతంగా చేస్తుంది.",
+              "இந்த வடிவத்தை கவனியுங்கள்: கடுமையான வெயிலைத் தடுக்க சுவர் மேற்கு நோக்கி இருக்கும், ஊட்டும் போது தஞ்சத்திற்காக தீவனத்தொட்டி அதே சுவரின் ஓரமாக இருக்கும், மற்றும் நிழல் மரங்களுடன் திறந்த ஓய்வுப் பகுதி கிழக்கு நோக்கி இருக்கும். இதில் எதுவும் தற்செயலானது அல்ல — ஒவ்வொரு தேர்வும் விலங்கை மேலும் வசதியாக்குகிறது.",
+              "ಈ ಮಾದರಿಯನ್ನು ಗಮನಿಸಿ: ತೀವ್ರ ಬಿಸಿಲನ್ನು ತಡೆಯಲು ಗೋಡೆ ಪಶ್ಚಿಮಕ್ಕೆ ಮುಖ ಮಾಡಿರುತ್ತದೆ, ತಿನ್ನಿಸುವಾಗ ಆಶ್ರಯಕ್ಕಾಗಿ ಮೇವಿನ ತೊಟ್ಟಿ ಅದೇ ಗೋಡೆಯ ಉದ್ದಕ್ಕೂ ಇರುತ್ತದೆ, ಮತ್ತು ನೆರಳಿನ ಮರಗಳಿರುವ ತೆರೆದ ವಿಶ್ರಾಂತಿ ಪ್ರದೇಶ ಪೂರ್ವಕ್ಕೆ ಮುಖ ಮಾಡಿರುತ್ತದೆ. ಇದರಲ್ಲಿ ಯಾವುದೂ ಆಕಸ್ಮಿಕವಲ್ಲ — ಪ್ರತಿ ಆಯ್ಕೆ ಪ್ರಾಣಿಯನ್ನು ಇನ್ನಷ್ಟು ಆರಾಮದಾಯಕವಾಗಿಸುತ್ತದೆ.",
+              "इस पैटर्न पर ध्यान दें: तेज धूप को रोकने के लिए दीवार पश्चिम की ओर होती है, खिलाते समय आश्रय के लिए चारा-नांद उसी दीवार के साथ होती है, और छायादार पेड़ों वाला खुला विश्राम क्षेत्र पूर्व की ओर होता है। इनमें से कुछ भी अनायास नहीं है — हर विकल्प पशु को अधिक आरामदायक बनाता है।"
             ),
           },
         ],
         check: [
           {
             type: "mcq",
-            q: L("Which side of the shed should have a wall, with the other three sides left open?"),
-            options: [L("The eastern side"), L("The western side"), L("The northern side"), L("The southern side")],
+            q: L(
+              "Which side of the shed should have a wall, with the other three sides left open?",
+              "మిగిలిన మూడు వైపులను తెరిచి ఉంచి, షెడ్ యొక్క ఏ వైపున గోడ ఉండాలి?",
+              "மற்ற மூன்று பக்கங்களையும் திறந்து வைத்து, தொழுவத்தின் எந்தப் பக்கத்தில் சுவர் இருக்க வேண்டும்?",
+              "ಇತರ ಮೂರು ಬದಿಗಳನ್ನು ತೆರೆದಿಟ್ಟು, ಶೆಡ್‌ನ ಯಾವ ಬದಿಯಲ್ಲಿ ಗೋಡೆ ಇರಬೇಕು?",
+              "बाकी तीन तरफ खुला रखते हुए, शेड की किस दिशा में दीवार होनी चाहिए?"
+            ),
+            options: [
+              L("The eastern side", "తూర్పు వైపు", "கிழக்குப் பக்கம்", "ಪೂರ್ವ ಬದಿ", "पूर्व दिशा"),
+              L("The western side", "పడమర వైపు", "மேற்குப் பக்கம்", "ಪಶ್ಚಿಮ ಬದಿ", "पश्चिम दिशा"),
+              L("The northern side", "ఉత్తరం వైపు", "வடக்குப் பக்கம்", "ಉತ್ತರ ಬದಿ", "उत्तर दिशा"),
+              L("The southern side", "దక్షిణం వైపు", "தெற்குப் பக்கம்", "ದಕ್ಷಿಣ ಬದಿ", "दक्षिण दिशा"),
+            ],
             answer: 1,
-            explain: L("Only the western side should have a wall — the other three sides are left open for light and air."),
+            explain: L(
+              "Only the western side should have a wall — the other three sides are left open for light and air.",
+              "పడమర వైపు మాత్రమే గోడ ఉండాలి — మిగిలిన మూడు వైపులు వెలుతురు మరియు గాలి కోసం తెరిచి ఉంచాలి.",
+              "மேற்குப் பக்கம் மட்டுமே சுவர் இருக்க வேண்டும் — மற்ற மூன்று பக்கங்களும் வெளிச்சம் மற்றும் காற்றுக்காக திறந்து வைக்கப்பட வேண்டும்.",
+              "ಪಶ್ಚಿಮ ಬದಿ ಮಾತ್ರ ಗೋಡೆ ಹೊಂದಿರಬೇಕು — ಇತರ ಮೂರು ಬದಿಗಳನ್ನು ಬೆಳಕು ಮತ್ತು ಗಾಳಿಗಾಗಿ ತೆರೆದಿಡಬೇಕು.",
+              "केवल पश्चिम दिशा में दीवार होनी चाहिए — बाकी तीन तरफ रोशनी और हवा के लिए खुला छोड़ा जाता है।"
+            ),
           },
           {
             type: "truefalse",
-            q: L("The free loafing area, with 2 to 3 shady trees, should be on the eastern side of the shed."),
+            q: L(
+              "The free loafing area, with 2 to 3 shady trees, should be on the eastern side of the shed.",
+              "2 నుండి 3 నీడనిచ్చే చెట్లతో కూడిన స్వేచ్ఛా విశ్రాంతి ప్రదేశం షెడ్ యొక్క తూర్పు వైపున ఉండాలి.",
+              "2 முதல் 3 நிழல் மரங்களுடன் கூடிய சுதந்திர ஓய்வுப் பகுதி தொழுவத்தின் கிழக்குப் பக்கத்தில் இருக்க வேண்டும்.",
+              "2 ರಿಂದ 3 ನೆರಳಿನ ಮರಗಳಿರುವ ಮುಕ್ತ ವಿಶ್ರಾಂತಿ ಪ್ರದೇಶ ಶೆಡ್‌ನ ಪೂರ್ವ ಬದಿಯಲ್ಲಿ ಇರಬೇಕು.",
+              "2 से 3 छायादार पेड़ों वाला मुक्त विश्राम क्षेत्र शेड की पूर्व दिशा में होना चाहिए।"
+            ),
             answer: true,
-            explain: L("Correct — the eastern side should have the free loafing area, with shady trees such as Neem."),
+            explain: L(
+              "Correct — the eastern side should have the free loafing area, with shady trees such as Neem.",
+              "సరైనది — తూర్పు వైపు వేప వంటి నీడనిచ్చే చెట్లతో కూడిన స్వేచ్ఛా విశ్రాంతి ప్రదేశం ఉండాలి.",
+              "சரியானது — கிழக்குப் பக்கத்தில் வேம்பு போன்ற நிழல் மரங்களுடன் சுதந்திர ஓய்வுப் பகுதி இருக்க வேண்டும்.",
+              "ಸರಿಯಾಗಿದೆ — ಪೂರ್ವ ಬದಿಯಲ್ಲಿ ಬೇವಿನಂತಹ ನೆರಳಿನ ಮರಗಳಿರುವ ಮುಕ್ತ ವಿಶ್ರಾಂತಿ ಪ್ರದೇಶ ಇರಬೇಕು.",
+              "सही — पूर्व दिशा में नीम जैसे छायादार पेड़ों वाला मुक्त विश्राम क्षेत्र होना चाहिए।"
+            ),
           },
         ],
       },
@@ -10714,55 +10811,187 @@ export const MODULES = [
         {
           topicId: "t-m16-space",
           type: "mcq",
-          q: L("Why does floor space and ceiling height matter for an animal shed?"),
+          q: L(
+            "Why does floor space and ceiling height matter for an animal shed?",
+            "పశువుల షెడ్‌కు నేల స్థలం మరియు పైకప్పు ఎత్తు ఎందుకు ముఖ్యం?",
+            "கால்நடை தொழுவத்திற்கு தரை இடம் மற்றும் கூரை உயரம் ஏன் முக்கியம்?",
+            "ಪ್ರಾಣಿಯ ಶೆಡ್‌ಗೆ ನೆಲದ ಸ್ಥಳ ಮತ್ತು ಛಾವಣಿ ಎತ್ತರ ಏಕೆ ಮುಖ್ಯ?",
+            "पशु शेड के लिए फर्श की जगह और छत की ऊंचाई क्यों मायने रखती है?"
+          ),
           options: [
-            L("It has no real effect on the animal"),
-            L("Crowded, stressful housing can reduce how much an animal produces"),
-            L("It only matters for how the shed looks"),
-            L("Only the roof material matters, not the space"),
+            L(
+              "It has no real effect on the animal",
+              "దీనివల్ల జంతువుపై నిజమైన ప్రభావం ఏమీ ఉండదు",
+              "இது விலங்கின் மீது உண்மையான விளைவை ஏற்படுத்தாது",
+              "ಇದರಿಂದ ಪ್ರಾಣಿಯ ಮೇಲೆ ನಿಜವಾದ ಪರಿಣಾಮ ಇಲ್ಲ",
+              "इसका पशु पर कोई वास्तविक असर नहीं पड़ता"
+            ),
+            L(
+              "Crowded, stressful housing can reduce how much an animal produces",
+              "రద్దీగా, ఒత్తిడితో కూడిన ఆవాసం జంతువు ఉత్పత్తిని తగ్గించగలదు",
+              "நெரிசலான, மன அழுத்தமான தங்குமிடம் விலங்கின் உற்பத்தியைக் குறைக்கக்கூடும்",
+              "ಗಿಜಿಗುಟ್ಟುವ, ಒತ್ತಡದ ವಾಸಸ್ಥಳ ಪ್ರಾಣಿಯ ಉತ್ಪಾದನೆಯನ್ನು ಕಡಿಮೆ ಮಾಡಬಹುದು",
+              "भीड़भाड़ वाला, तनावपूर्ण आवास पशु के उत्पादन को कम कर सकता है"
+            ),
+            L(
+              "It only matters for how the shed looks",
+              "ఇది షెడ్ ఎలా కనిపిస్తుందో దానికి మాత్రమే ముఖ్యం",
+              "இது தொழுவம் எப்படி தோற்றமளிக்கிறது என்பதற்கு மட்டுமே முக்கியம்",
+              "ಇದು ಶೆಡ್ ಹೇಗೆ ಕಾಣುತ್ತದೆ ಎಂಬುದಕ್ಕೆ ಮಾತ್ರ ಮುಖ್ಯ",
+              "यह केवल इस बात के लिए मायने रखता है कि शेड कैसा दिखता है"
+            ),
+            L(
+              "Only the roof material matters, not the space",
+              "పైకప్పు పదార్థం మాత్రమే ముఖ్యం, స్థలం కాదు",
+              "கூரைப் பொருள் மட்டுமே முக்கியம், இடம் அல்ல",
+              "ಛಾವಣಿ ವಸ್ತು ಮಾತ್ರ ಮುಖ್ಯ, ಸ್ಥಳವಲ್ಲ",
+              "केवल छत की सामग्री मायने रखती है, जगह नहीं"
+            ),
           ],
           answer: 1,
-          explain: L("Stressful, cramped housing conditions can noticeably reduce an animal's productivity, including milk."),
+          explain: L(
+            "Stressful, cramped housing conditions can noticeably reduce an animal's productivity, including milk.",
+            "ఒత్తిడితో కూడిన, ఇరుకైన ఆవాస పరిస్థితులు జంతువు ఉత్పాదకతను, పాలతో సహా, గణనీయంగా తగ్గించగలవు.",
+            "மன அழுத்தமான, நெரிசலான தங்குமிட நிலைமைகள் விலங்கின் உற்பத்தித்திறனை, பால் உட்பட, குறிப்பிடத்தக்க அளவு குறைக்கக்கூடும்.",
+            "ಒತ್ತಡದ, ಇಕ್ಕಟ್ಟಾದ ವಾಸಸ್ಥಳ ಪರಿಸ್ಥಿತಿಗಳು ಪ್ರಾಣಿಯ ಉತ್ಪಾದಕತೆಯನ್ನು, ಹಾಲು ಸೇರಿದಂತೆ, ಗಮನಾರ್ಹವಾಗಿ ಕಡಿಮೆ ಮಾಡಬಹುದು.",
+            "तनावपूर्ण, तंग आवास की स्थितियां पशु की उत्पादकता को, दूध सहित, काफी हद तक कम कर सकती हैं।"
+          ),
         },
         {
           topicId: "t-m16-space",
           type: "truefalse",
-          q: L("A thatched roof is not acceptable — only AC sheets, brick or RCC roofs are allowed."),
+          q: L(
+            "A thatched roof is not acceptable — only AC sheets, brick or RCC roofs are allowed.",
+            "గడ్డి పైకప్పు ఆమోదయోగ్యం కాదు — AC షీట్లు, ఇటుక లేదా RCC పైకప్పులకు మాత్రమే అనుమతి.",
+            "ஓலைக் கூரை ஏற்றுக்கொள்ளத்தக்கது அல்ல — AC தகடுகள், செங்கல் அல்லது RCC கூரைகள் மட்டுமே அனுமதிக்கப்படும்.",
+            "ಹುಲ್ಲಿನ ಛಾವಣಿ ಸ್ವೀಕಾರಾರ್ಹವಲ್ಲ — AC ಶೀಟ್‌ಗಳು, ಇಟ್ಟಿಗೆ ಅಥವಾ RCC ಛಾವಣಿಗಳಿಗೆ ಮಾತ್ರ ಅನುಮತಿ.",
+            "फूस की छत स्वीकार्य नहीं है — केवल AC शीट, ईंट या RCC छतों की अनुमति है।"
+          ),
           answer: false,
-          explain: L("A thatched roof is acceptable, as are AC sheets, brick, or RCC — as long as the ceiling is at least 10 feet high."),
+          explain: L(
+            "A thatched roof is acceptable, as are AC sheets, brick, or RCC — as long as the ceiling is at least 10 feet high.",
+            "గడ్డి పైకప్పు ఆమోదయోగ్యమే, AC షీట్లు, ఇటుక లేదా RCC కూడా ఆమోదయోగ్యమే — పైకప్పు కనీసం 10 అడుగుల ఎత్తు ఉన్నంత వరకు.",
+            "ஓலைக் கூரை ஏற்றுக்கொள்ளத்தக்கது, AC தகடுகள், செங்கல் அல்லது RCC ஆகியவையும் ஏற்றுக்கொள்ளத்தக்கவை — கூரை குறைந்தபட்சம் 10 அடி உயரம் இருக்கும் வரை.",
+            "ಹುಲ್ಲಿನ ಛಾವಣಿ ಸ್ವೀಕಾರಾರ್ಹ, AC ಶೀಟ್‌ಗಳು, ಇಟ್ಟಿಗೆ ಅಥವಾ RCC ಸಹ ಸ್ವೀಕಾರಾರ್ಹ — ಛಾವಣಿ ಕನಿಷ್ಠ 10 ಅಡಿ ಎತ್ತರ ಇರುವವರೆಗೆ.",
+            "फूस की छत स्वीकार्य है, जैसे AC शीट, ईंट या RCC भी — बशर्ते छत कम से कम 10 फीट ऊंची हो।"
+          ),
         },
         {
           topicId: "t-m16-orientation",
           type: "mcq",
-          q: L("Where should the manger be located, and roughly how big should it be?"),
+          q: L(
+            "Where should the manger be located, and roughly how big should it be?",
+            "గాదె ఎక్కడ ఉండాలి, మరియు సుమారుగా ఎంత పెద్దదిగా ఉండాలి?",
+            "தீவனத்தொட்டி எங்கு இருக்க வேண்டும், மற்றும் தோராயமாக எவ்வளவு பெரிதாக இருக்க வேண்டும்?",
+            "ಮೇವಿನ ತೊಟ್ಟಿ ಎಲ್ಲಿ ಇರಬೇಕು, ಮತ್ತು ಸುಮಾರು ಎಷ್ಟು ದೊಡ್ಡದಾಗಿರಬೇಕು?",
+            "चारा-नांद कहां स्थित होनी चाहिए, और लगभग कितनी बड़ी होनी चाहिए?"
+          ),
           options: [
-            L("On the eastern wall, 5 feet wide"),
-            L("On the western wall, 2 feet wide and 1.5 feet deep"),
-            L("In the loafing area, with no fixed size"),
-            L("On the northern wall, 1 foot deep"),
+            L(
+              "On the eastern wall, 5 feet wide",
+              "తూర్పు గోడపై, 5 అడుగుల వెడల్పు",
+              "கிழக்கு சுவரில், 5 அடி அகலம்",
+              "ಪೂರ್ವ ಗೋಡೆಯ ಮೇಲೆ, 5 ಅಡಿ ಅಗಲ",
+              "पूर्वी दीवार पर, 5 फीट चौड़ी"
+            ),
+            L(
+              "On the western wall, 2 feet wide and 1.5 feet deep",
+              "పడమర గోడపై, 2 అడుగుల వెడల్పు మరియు 1.5 అడుగుల లోతు",
+              "மேற்கு சுவரில், 2 அடி அகலம் மற்றும் 1.5 அடி ஆழம்",
+              "ಪಶ್ಚಿಮ ಗೋಡೆಯ ಮೇಲೆ, 2 ಅಡಿ ಅಗಲ ಮತ್ತು 1.5 ಅಡಿ ಆಳ",
+              "पश्चिमी दीवार पर, 2 फीट चौड़ी और 1.5 फीट गहरी"
+            ),
+            L(
+              "In the loafing area, with no fixed size",
+              "విశ్రాంతి ప్రదేశంలో, స్థిర పరిమాణం లేకుండా",
+              "ஓய்வுப் பகுதியில், நிலையான அளவு இல்லாமல்",
+              "ವಿಶ್ರಾಂತಿ ಪ್ರದೇಶದಲ್ಲಿ, ನಿಗದಿತ ಗಾತ್ರವಿಲ್ಲದೆ",
+              "विश्राम क्षेत्र में, बिना किसी निश्चित आकार के"
+            ),
+            L(
+              "On the northern wall, 1 foot deep",
+              "ఉత్తరం గోడపై, 1 అడుగు లోతు",
+              "வடக்கு சுவரில், 1 அடி ஆழம்",
+              "ಉತ್ತರ ಗೋಡೆಯ ಮೇಲೆ, 1 ಅಡಿ ಆಳ",
+              "उत्तरी दीवार पर, 1 फीट गहरी"
+            ),
           ],
           answer: 1,
-          explain: L("The manger should be on the western wall, 2 feet wide and 1.5 feet deep, with its base about 1 foot above the floor."),
+          explain: L(
+            "The manger should be on the western wall, 2 feet wide and 1.5 feet deep, with its base about 1 foot above the floor.",
+            "గాదె పడమర గోడపై, 2 అడుగుల వెడల్పు మరియు 1.5 అడుగుల లోతుతో, దాని అడుగు భాగం నేలకు సుమారు 1 అడుగు పైన ఉండాలి.",
+            "தீவனத்தொட்டி மேற்கு சுவரில், 2 அடி அகலமும் 1.5 அடி ஆழமும் கொண்டதாக, அதன் அடிப்பகுதி தரையிலிருந்து சுமார் 1 அடி உயரத்தில் இருக்க வேண்டும்.",
+            "ಮೇವಿನ ತೊಟ್ಟಿ ಪಶ್ಚಿಮ ಗೋಡೆಯ ಮೇಲೆ, 2 ಅಡಿ ಅಗಲ ಮತ್ತು 1.5 ಅಡಿ ಆಳದಲ್ಲಿ, ಅದರ ತಳಭಾಗ ನೆಲದಿಂದ ಸುಮಾರು 1 ಅಡಿ ಎತ್ತರದಲ್ಲಿ ಇರಬೇಕು.",
+            "चारा-नांद पश्चिमी दीवार पर, 2 फीट चौड़ी और 1.5 फीट गहरी होनी चाहिए, जिसका आधार फर्श से करीब 1 फीट ऊपर हो।"
+          ),
         },
         {
           topicId: "t-m16-orientation",
           type: "truefalse",
-          q: L("A trough for drinking water should be placed beside the manger."),
+          q: L(
+            "A trough for drinking water should be placed beside the manger.",
+            "గాదెకు పక్కనే తాగునీటి తొట్టి ఉంచాలి.",
+            "குடிநீருக்கான தொட்டி தீவனத்தொட்டியின் அருகில் வைக்கப்பட வேண்டும்.",
+            "ಮೇವಿನ ತೊಟ್ಟಿಯ ಪಕ್ಕದಲ್ಲಿ ಕುಡಿಯುವ ನೀರಿನ ತೊಟ್ಟಿ ಇಡಬೇಕು.",
+            "चारा-नांद के बगल में पीने के पानी की हौद रखी जानी चाहिए।"
+          ),
           answer: true,
-          explain: L("Correct — the drinking water trough should be provided right by the side of the manger."),
+          explain: L(
+            "Correct — the drinking water trough should be provided right by the side of the manger.",
+            "సరైనది — తాగునీటి తొట్టిని గాదెకు పక్కనే ఏర్పాటు చేయాలి.",
+            "சரியானது — குடிநீர் தொட்டியை தீவனத்தொட்டியின் அருகிலேயே வழங்க வேண்டும்.",
+            "ಸರಿಯಾಗಿದೆ — ಕುಡಿಯುವ ನೀರಿನ ತೊಟ್ಟಿಯನ್ನು ಮೇವಿನ ತೊಟ್ಟಿಯ ಪಕ್ಕದಲ್ಲೇ ಒದಗಿಸಬೇಕು.",
+            "सही — पीने के पानी की हौद चारा-नांद के ठीक बगल में होनी चाहिए।"
+          ),
         },
         {
           topicId: "t-m16-orientation",
           type: "mcq",
-          q: L("Why should the loafing area have shady trees such as Neem?"),
+          q: L(
+            "Why should the loafing area have shady trees such as Neem?",
+            "విశ్రాంతి ప్రదేశంలో వేప వంటి నీడనిచ్చే చెట్లు ఎందుకు ఉండాలి?",
+            "ஓய்வுப் பகுதியில் வேம்பு போன்ற நிழல் மரங்கள் ஏன் இருக்க வேண்டும்?",
+            "ವಿಶ್ರಾಂತಿ ಪ್ರದೇಶದಲ್ಲಿ ಬೇವಿನಂತಹ ನೆರಳಿನ ಮರಗಳು ಏಕೆ ಇರಬೇಕು?",
+            "विश्राम क्षेत्र में नीम जैसे छायादार पेड़ क्यों होने चाहिए?"
+          ),
           options: [
-            L("Trees are only for decoration"),
-            L("Animals are more comfortable resting under the shade of a tree"),
-            L("Trees replace the need for a shed entirely"),
-            L("Shady trees are required only in winter"),
+            L(
+              "Trees are only for decoration",
+              "చెట్లు కేవలం అలంకారానికి మాత్రమే",
+              "மரங்கள் அலங்காரத்திற்காக மட்டுமே",
+              "ಮರಗಳು ಅಲಂಕಾರಕ್ಕೆ ಮಾತ್ರ",
+              "पेड़ केवल सजावट के लिए हैं"
+            ),
+            L(
+              "Animals are more comfortable resting under the shade of a tree",
+              "జంతువులు చెట్టు నీడలో విశ్రాంతి తీసుకోవడం మరింత సౌకర్యంగా భావిస్తాయి",
+              "விலங்குகள் மரத்தின் நிழலில் ஓய்வெடுப்பதில் அதிக வசதி உணரும்",
+              "ಪ್ರಾಣಿಗಳು ಮರದ ನೆರಳಿನಲ್ಲಿ ವಿಶ್ರಾಂತಿ ಪಡೆಯಲು ಹೆಚ್ಚು ಆರಾಮದಾಯಕ ಎಂದು ಭಾವಿಸುತ್ತವೆ",
+              "पशु पेड़ की छाया में आराम करना ज्यादा पसंद करते हैं"
+            ),
+            L(
+              "Trees replace the need for a shed entirely",
+              "చెట్లు షెడ్ అవసరాన్ని పూర్తిగా భర్తీ చేస్తాయి",
+              "மரங்கள் தொழுவத்தின் தேவையை முற்றிலும் மாற்றிவிடும்",
+              "ಮರಗಳು ಶೆಡ್‌ನ ಅಗತ್ಯವನ್ನು ಸಂಪೂರ್ಣ ಬದಲಾಯಿಸುತ್ತವೆ",
+              "पेड़ शेड की जरूरत को पूरी तरह खत्म कर देते हैं"
+            ),
+            L(
+              "Shady trees are required only in winter",
+              "నీడనిచ్చే చెట్లు చలికాలంలో మాత్రమే అవసరం",
+              "நிழல் மரங்கள் குளிர்காலத்தில் மட்டுமே தேவை",
+              "ನೆರಳಿನ ಮರಗಳು ಚಳಿಗಾಲದಲ್ಲಿ ಮಾತ್ರ ಅಗತ್ಯ",
+              "छायादार पेड़ केवल सर्दी में जरूरी हैं"
+            ),
           ],
           answer: 1,
-          explain: L("Animals are more comfortable under the shade of a tree, which is why the loafing area should have 2 to 3 shady trees like Neem."),
+          explain: L(
+            "Animals are more comfortable under the shade of a tree, which is why the loafing area should have 2 to 3 shady trees like Neem.",
+            "జంతువులు చెట్టు నీడలో మరింత సౌకర్యంగా ఉంటాయి, అందుకే విశ్రాంతి ప్రదేశంలో వేప వంటి 2 నుండి 3 నీడనిచ్చే చెట్లు ఉండాలి.",
+            "விலங்குகள் மரத்தின் நிழலில் அதிக வசதியாக உணரும், அதனால்தான் ஓய்வுப் பகுதியில் வேம்பு போன்ற 2 முதல் 3 நிழல் மரங்கள் இருக்க வேண்டும்.",
+            "ಪ್ರಾಣಿಗಳು ಮರದ ನೆರಳಿನಲ್ಲಿ ಹೆಚ್ಚು ಆರಾಮದಾಯಕವಾಗಿರುತ್ತವೆ, ಅದಕ್ಕಾಗಿಯೇ ವಿಶ್ರಾಂತಿ ಪ್ರದೇಶದಲ್ಲಿ ಬೇವಿನಂತಹ 2 ರಿಂದ 3 ನೆರಳಿನ ಮರಗಳು ಇರಬೇಕು.",
+            "पशु पेड़ की छाया में ज्यादा आराम महसूस करते हैं, इसीलिए विश्राम क्षेत्र में नीम जैसे 2 से 3 छायादार पेड़ होने चाहिए।"
+          ),
         },
       ],
     },
