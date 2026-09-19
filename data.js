@@ -10335,150 +10335,362 @@ export const MODULES = [
         teach: [
           {
             type: "text",
-            heading: L("Why a Milking Cow Needs a Rest"),
+            heading: L(
+              "Why a Milking Cow Needs a Rest",
+              "పాలిచ్చే ఆవుకు విశ్రాంతి ఎందుకు కావాలి",
+              "பால் தரும் பசுவுக்கு ஏன் ஓய்வு தேவை",
+              "ಹಾಲು ಕೊಡುವ ಹಸುವಿಗೆ ವಿಶ್ರಾಂತಿ ಏಕೆ ಬೇಕು",
+              "दूध देने वाली गाय को आराम क्यों चाहिए"
+            ),
             html: L(
-              "The <b>dry period</b> is one of the most important phases in a dairy cow's whole cycle. It gives her body, and especially her udder, a chance to rest and rebuild before the next round of milk production begins. Anything that goes wrong during this rest period can affect her health and her milk after the next calving."
+              "The <b>dry period</b> is one of the most important phases in a dairy cow's whole cycle. It gives her body, and especially her udder, a chance to rest and rebuild before the next round of milk production begins. Anything that goes wrong during this rest period can affect her health and her milk after the next calving.",
+              "<b>డ్రై పీరియడ్</b> అనేది పాడి ఆవు మొత్తం చక్రంలో అత్యంత ముఖ్యమైన దశల్లో ఒకటి. తర్వాతి పాల ఉత్పత్తి మొదలయ్యే ముందు, ఆమె శరీరం, ముఖ్యంగా పొదుగు, విశ్రాంతి తీసుకుని కోలుకోవడానికి ఇది అవకాశం ఇస్తుంది. ఈ విశ్రాంతి కాలంలో ఏదైనా తప్పు జరిగితే, తర్వాతి ఈత తర్వాత ఆమె ఆరోగ్యం, పాలపై ప్రభావం పడవచ్చు.",
+              "<b>வற்றல் காலம்</b> என்பது பால் பசுவின் முழு சுழற்சியில் மிக முக்கியமான கட்டங்களில் ஒன்று. அடுத்த பால் உற்பத்தி தொடங்கும் முன், அதன் உடலும் குறிப்பாக மடியும் ஓய்வெடுத்து மீண்டும் வலுப்பெற இது வாய்ப்பளிக்கிறது. இந்த ஓய்வு காலத்தில் ஏதேனும் தவறு நடந்தால், அடுத்த கன்று ஈன்ற பிறகு அதன் ஆரோக்கியத்தையும் பாலையும் அது பாதிக்கலாம்.",
+              "<b>ಒಣ ಅವಧಿ</b> ಎಂದರೆ ಹೈನು ಹಸುವಿನ ಇಡೀ ಚಕ್ರದ ಅತ್ಯಂತ ಮುಖ್ಯ ಹಂತಗಳಲ್ಲಿ ಒಂದು. ಮುಂದಿನ ಹಾಲು ಉತ್ಪಾದನೆ ಶುರುವಾಗುವ ಮೊದಲು, ಅದರ ದೇಹ ಮತ್ತು ವಿಶೇಷವಾಗಿ ಕೆಚ್ಚಲು ವಿಶ್ರಾಂತಿ ಪಡೆದು ಚೇತರಿಸಿಕೊಳ್ಳಲು ಇದು ಅವಕಾಶ ನೀಡುತ್ತದೆ. ಈ ವಿಶ್ರಾಂತಿ ಅವಧಿಯಲ್ಲಿ ಏನಾದರೂ ತಪ್ಪಾದರೆ, ಮುಂದಿನ ಕರು ಹಾಕಿದ ನಂತರ ಅದರ ಆರೋಗ್ಯ ಮತ್ತು ಹಾಲಿನ ಮೇಲೆ ಪರಿಣಾಮ ಬೀರಬಹುದು.",
+              "<b>ड्राई पीरियड (सूखा काल)</b> दुधारू गाय के पूरे चक्र के सबसे अहम चरणों में से एक है। यह उसके शरीर, खासकर थन, को अगला दूध शुरू होने से पहले आराम करने और ठीक होने का मौका देता है। इस आराम के दौरान अगर कुछ गड़बड़ हुई, तो अगली बार ब्याने के बाद उसकी सेहत और दूध पर असर पड़ सकता है।"
             ),
           },
           {
             type: "glossary",
-            term: L("Drying Off / Dry Period"),
+            term: L(
+              "Drying Off / Dry Period",
+              "పాలు మానిపించడం / డ్రై పీరియడ్",
+              "பால் கறவையை நிறுத்துதல் / வற்றல் காலம்",
+              "ಹಾಲು ಕರೆಯುವುದನ್ನು ನಿಲ್ಲಿಸುವುದು / ಒಣ ಅವಧಿ",
+              "दूध सुखाना / ड्राई पीरियड"
+            ),
             meaning: L(
-              "The period when a milking cow is deliberately stopped from being milked for some weeks before she calves again, so her body and udder can rest and recover."
+              "The period when a milking cow is deliberately stopped from being milked for some weeks before she calves again, so her body and udder can rest and recover.",
+              "పాలిచ్చే ఆవు మళ్లీ ఈనడానికి కొన్ని వారాల ముందు నుండి, ఉద్దేశపూర్వకంగా పాలు పితకడం ఆపే కాలం; దీనివల్ల ఆమె శరీరం, పొదుగు విశ్రాంతి తీసుకుని కోలుకుంటాయి.",
+              "பால் தரும் பசு மீண்டும் கன்று ஈனுவதற்கு சில வாரங்களுக்கு முன், வேண்டுமென்றே பால் கறப்பதை நிறுத்தும் காலம்; இதனால் அதன் உடலும் மடியும் ஓய்வெடுத்து மீண்டு வருகின்றன.",
+              "ಹಾಲು ಕೊಡುವ ಹಸು ಮತ್ತೆ ಕರು ಹಾಕುವ ಕೆಲವು ವಾರಗಳ ಮೊದಲು, ಉದ್ದೇಶಪೂರ್ವಕವಾಗಿ ಹಾಲು ಕರೆಯುವುದನ್ನು ನಿಲ್ಲಿಸುವ ಅವಧಿ; ಇದರಿಂದ ಅದರ ದೇಹ ಮತ್ತು ಕೆಚ್ಚಲು ವಿಶ್ರಾಂತಿ ಪಡೆದು ಚೇತರಿಸಿಕೊಳ್ಳುತ್ತವೆ.",
+              "वह समय जब दुधारू गाय का दूध फिर से ब्याने से कुछ हफ्ते पहले जान-बूझकर निकालना बंद कर दिया जाता है, ताकि उसका शरीर और थन आराम करके ठीक हो सकें।"
             ),
           },
           {
             type: "glossary",
-            term: L("Lactation"),
-            meaning: L("The period during which a cow or buffalo produces milk, starting after she calves."),
+            term: L(
+              "Lactation",
+              "పాలిచ్చే కాలం (లాక్టేషన్)",
+              "பால் சுரக்கும் காலம் (லாக்டேஷன்)",
+              "ಹಾಲು ಕೊಡುವ ಅವಧಿ (ಲ್ಯಾಕ್ಟೇಶನ್)",
+              "दूध देने का काल (लैक्टेशन)"
+            ),
+            meaning: L(
+              "The period during which a cow or buffalo produces milk, starting after she calves.",
+              "ఆవు లేదా గేదె ఈనిన తర్వాత మొదలై, పాలు ఉత్పత్తి చేసే కాలం.",
+              "பசு அல்லது எருமை கன்று ஈன்ற பிறகு தொடங்கி, பால் சுரக்கும் காலம்.",
+              "ಹಸು ಅಥವಾ ಎಮ್ಮೆ ಕರು ಹಾಕಿದ ನಂತರ ಶುರುವಾಗಿ, ಹಾಲು ಉತ್ಪಾದಿಸುವ ಅವಧಿ.",
+              "गाय या भैंस के ब्याने के बाद शुरू होकर दूध देने वाला समय।"
+            ),
           },
           {
             type: "stat-grid",
             items: [
               {
-                label: L("Usual Length"),
-                text: L("An animal should usually be dry for around 60 days before her next calving."),
+                label: L("Usual Length", "సాధారణ కాలం", "வழக்கமான காலம்", "ಸಾಮಾನ್ಯ ಅವಧಿ", "आमतौर पर कितना समय"),
+                text: L(
+                  "An animal should usually be dry for around 60 days before her next calving.",
+                  "ఒక పశువు తన తర్వాతి ఈత కంటే ముందు సాధారణంగా సుమారు 60 రోజులు డ్రైగా ఉండాలి.",
+                  "ஒரு மாடு தனது அடுத்த கன்று ஈனுவதற்கு முன் பொதுவாக சுமார் 60 நாட்கள் வற்றலாக இருக்க வேண்டும்.",
+                  "ಒಂದು ಪ್ರಾಣಿ ತನ್ನ ಮುಂದಿನ ಕರು ಹಾಕುವ ಮೊದಲು ಸಾಮಾನ್ಯವಾಗಿ ಸುಮಾರು 60 ದಿನಗಳ ಕಾಲ ಒಣವಾಗಿರಬೇಕು.",
+                  "एक पशु को अगले ब्याने से पहले आमतौर पर करीब 60 दिन सूखा रखना चाहिए।"
+                ),
               },
               {
-                label: L("If the Dry Period Runs Too Long"),
+                label: L(
+                  "If the Dry Period Runs Too Long",
+                  "డ్రై పీరియడ్ మరీ ఎక్కువైతే",
+                  "வற்றல் காலம் மிக நீண்டால்",
+                  "ಒಣ ಅವಧಿ ತುಂಬಾ ಹೆಚ್ಚಾದರೆ",
+                  "अगर ड्राई पीरियड बहुत लंबा हो जाए"
+                ),
                 text: L(
-                  "A prolonged dry period puts the animal at risk of becoming overweight, obesity-related diseases, and difficulty at the time of calving."
+                  "A prolonged dry period puts the animal at risk of becoming overweight, obesity-related diseases, and difficulty at the time of calving.",
+                  "డ్రై పీరియడ్ ఎక్కువ కాలం సాగితే, పశువు లావెక్కడం, స్థూలకాయ సంబంధిత వ్యాధులు, మరియు ఈనే సమయంలో ఇబ్బందులు వచ్చే ప్రమాదం ఉంటుంది.",
+                  "வற்றல் காலம் நீண்டுவிட்டால், மாடு அதிக எடை போடுதல், உடல் பருமன் தொடர்பான நோய்கள், கன்று ஈனும் நேரத்தில் சிரமம் ஆகியவற்றின் ஆபத்து உள்ளது.",
+                  "ಒಣ ಅವಧಿ ಹೆಚ್ಚು ಕಾಲ ಮುಂದುವರಿದರೆ, ಪ್ರಾಣಿ ಬೊಜ್ಜು ಬೆಳೆಸಿಕೊಳ್ಳುವ, ಬೊಜ್ಜಿಗೆ ಸಂಬಂಧಿಸಿದ ರೋಗಗಳು ಬರುವ, ಮತ್ತು ಕರು ಹಾಕುವ ಸಮಯದಲ್ಲಿ ತೊಂದರೆ ಆಗುವ ಅಪಾಯವಿದೆ.",
+                  "अगर ड्राई पीरियड लंबा खिंच जाए, तो पशु के मोटे होने, मोटापे से जुड़ी बीमारियों और ब्याने के समय दिक्कत होने का खतरा रहता है।"
                 ),
               },
             ],
           },
           {
             type: "text",
-            heading: L("What Handlers Should Watch For"),
+            heading: L(
+              "What Handlers Should Watch For",
+              "సంరక్షకులు ఏమి గమనించాలి",
+              "பராமரிப்பாளர்கள் எதைக் கவனிக்க வேண்டும்",
+              "ನೋಡಿಕೊಳ್ಳುವವರು ಏನನ್ನು ಗಮನಿಸಬೇಕು",
+              "पशुपालकों को क्या देखना चाहिए"
+            ),
             html: L(
-              "Once an animal has been dried off, she should be checked visually every single day. She should always have access to water — this should never be restricted, even though her feed is being managed differently during this time."
+              "Once an animal has been dried off, she should be checked visually every single day. She should always have access to water — this should never be restricted, even though her feed is being managed differently during this time.",
+              "పశువును డ్రై చేసిన తర్వాత, ప్రతిరోజూ ఆమెను కళ్లతో పరీక్షించాలి. ఆమెకు ఎప్పుడూ నీళ్లు అందుబాటులో ఉండాలి — ఈ సమయంలో మేత వేరేగా నిర్వహిస్తున్నా, నీళ్లను ఎప్పుడూ పరిమితం చేయకూడదు.",
+              "மாட்டை வற்றல் செய்த பிறகு, தினமும் அதைக் கண்ணால் பார்த்துப் பரிசோதிக்க வேண்டும். அதற்கு எப்போதும் தண்ணீர் கிடைக்க வேண்டும் — இந்த நேரத்தில் தீவனம் வேறு விதமாக நிர்வகிக்கப்பட்டாலும், தண்ணீரை ஒருபோதும் கட்டுப்படுத்தக்கூடாது.",
+              "ಪ್ರಾಣಿಯನ್ನು ಒಣಗಿಸಿದ ನಂತರ, ಪ್ರತಿದಿನ ಅದನ್ನು ಕಣ್ಣಿನಿಂದ ಪರೀಕ್ಷಿಸಬೇಕು. ಅದಕ್ಕೆ ಯಾವಾಗಲೂ ನೀರು ಸಿಗುವಂತಿರಬೇಕು — ಈ ಸಮಯದಲ್ಲಿ ಮೇವನ್ನು ಬೇರೆ ರೀತಿ ನಿರ್ವಹಿಸುತ್ತಿದ್ದರೂ, ನೀರನ್ನು ಎಂದಿಗೂ ನಿರ್ಬಂಧಿಸಬಾರದು.",
+              "पशु का दूध सुखा देने के बाद, हर दिन उसे आँखों से जाँचना चाहिए। उसे हमेशा पानी मिलना चाहिए — इस दौरान चारा अलग तरह से दिया जा रहा हो तब भी पानी कभी रोका नहीं जाना चाहिए।"
             ),
           },
           {
             type: "callout",
             style: "tip",
-            heading: L("Your Job During the Dry Period"),
+            heading: L(
+              "Your Job During the Dry Period",
+              "డ్రై పీరియడ్‌లో మీ పని",
+              "வற்றல் காலத்தில் உங்கள் வேலை",
+              "ಒಣ ಅವಧಿಯಲ್ಲಿ ನಿಮ್ಮ ಕೆಲಸ",
+              "ड्राई पीरियड में आपका काम"
+            ),
             text: L(
-              "The exact feeding plan for drying off is decided and managed by those responsible for the animal's diet — that is not your call to make. Your job is simple but important: check dry cows visually every day, make sure water is always available, and report anything that looks unusual straight away."
+              "The exact feeding plan for drying off is decided and managed by those responsible for the animal's diet — that is not your call to make. Your job is simple but important: check dry cows visually every day, make sure water is always available, and report anything that looks unusual straight away.",
+              "డ్రై చేసే సమయంలో మేత ప్రణాళిక సరిగ్గా ఎలా ఉండాలో పశువు ఆహారానికి బాధ్యులైన వారే నిర్ణయించి నిర్వహిస్తారు — అది మీరు నిర్ణయించాల్సిన విషయం కాదు. మీ పని సులభమైనది కానీ ముఖ్యమైనది: డ్రై ఆవులను ప్రతిరోజూ కళ్లతో పరీక్షించండి, నీళ్లు ఎప్పుడూ అందుబాటులో ఉండేలా చూడండి, ఏదైనా అసాధారణంగా కనిపిస్తే వెంటనే తెలియజేయండి.",
+              "வற்றல் செய்வதற்கான தீவனத் திட்டத்தை மாட்டின் உணவுக்குப் பொறுப்பானவர்களே தீர்மானித்து நிர்வகிப்பார்கள் — அது நீங்கள் முடிவெடுக்க வேண்டிய விஷயம் அல்ல. உங்கள் வேலை எளிமையானது ஆனால் முக்கியமானது: வற்றல் பசுக்களை தினமும் கண்ணால் பார்த்துப் பரிசோதியுங்கள், தண்ணீர் எப்போதும் கிடைக்கிறதா என்று உறுதி செய்யுங்கள், வழக்கத்துக்கு மாறாக ஏதேனும் தெரிந்தால் உடனே தெரிவியுங்கள்.",
+              "ಒಣಗಿಸುವಾಗ ಮೇವಿನ ಯೋಜನೆ ನಿಖರವಾಗಿ ಹೇಗಿರಬೇಕು ಎಂಬುದನ್ನು ಪ್ರಾಣಿಯ ಆಹಾರದ ಜವಾಬ್ದಾರಿ ಹೊತ್ತವರೇ ನಿರ್ಧರಿಸಿ ನಿರ್ವಹಿಸುತ್ತಾರೆ — ಅದು ನೀವು ನಿರ್ಧರಿಸಬೇಕಾದ ವಿಷಯವಲ್ಲ. ನಿಮ್ಮ ಕೆಲಸ ಸರಳ ಆದರೆ ಮುಖ್ಯ: ಒಣ ಹಸುಗಳನ್ನು ಪ್ರತಿದಿನ ಕಣ್ಣಿನಿಂದ ಪರೀಕ್ಷಿಸಿ, ನೀರು ಯಾವಾಗಲೂ ಸಿಗುವಂತೆ ನೋಡಿಕೊಳ್ಳಿ, ಏನಾದರೂ ಅಸಾಮಾನ್ಯವಾಗಿ ಕಂಡರೆ ತಕ್ಷಣ ತಿಳಿಸಿ.",
+              "दूध सुखाने के लिए चारे की सही योजना क्या हो, यह पशु के आहार के ज़िम्मेदार लोग तय करते और संभालते हैं — यह आपको तय नहीं करना है। आपका काम आसान लेकिन ज़रूरी है: सूखी गायों को हर दिन आँखों से जाँचें, पक्का करें कि पानी हमेशा मिले, और कुछ भी असामान्य लगे तो तुरंत बताएँ।"
             ),
           },
         ],
         check: [
           {
             type: "mcq",
-            q: L("Roughly how long should a cow's dry period usually be?"),
-            options: [L("Around 60 days"), L("Around 2 days"), L("Around 1 year"), L("There is no dry period needed")],
+            q: L(
+              "Roughly how long should a cow's dry period usually be?",
+              "ఒక ఆవు డ్రై పీరియడ్ సాధారణంగా సుమారు ఎంత కాలం ఉండాలి?",
+              "ஒரு பசுவின் வற்றல் காலம் பொதுவாக சுமார் எவ்வளவு நாட்கள் இருக்க வேண்டும்?",
+              "ಒಂದು ಹಸುವಿನ ಒಣ ಅವಧಿ ಸಾಮಾನ್ಯವಾಗಿ ಸುಮಾರು ಎಷ್ಟು ಇರಬೇಕು?",
+              "एक गाय का ड्राई पीरियड आमतौर पर कितना लंबा होना चाहिए?"
+            ),
+            options: [L("Around 60 days", "సుమారు 60 రోజులు", "சுமார் 60 நாட்கள்", "ಸುಮಾರು 60 ದಿನಗಳು", "करीब 60 दिन"), L("Around 2 days", "సుమారు 2 రోజులు", "சுமார் 2 நாட்கள்", "ಸುಮಾರು 2 ದಿನಗಳು", "करीब 2 दिन"), L("Around 1 year", "సుమారు 1 సంవత్సరం", "சுமார் 1 வருடம்", "ಸುಮಾರು 1 ವರ್ಷ", "करीब 1 साल"), L(
+              "There is no dry period needed",
+              "డ్రై పీరియడ్ అవసరం లేదు",
+              "வற்றல் காலம் தேவையில்லை",
+              "ಒಣ ಅವಧಿ ಬೇಕಿಲ್ಲ",
+              "ड्राई पीरियड की ज़रूरत नहीं है"
+            )],
             answer: 0,
-            explain: L("An animal should usually be dry for around 60 days before her next calving."),
+            explain: L(
+              "An animal should usually be dry for around 60 days before her next calving.",
+              "ఒక పశువు తన తర్వాతి ఈత కంటే ముందు సాధారణంగా సుమారు 60 రోజులు డ్రైగా ఉండాలి.",
+              "ஒரு மாடு தனது அடுத்த கன்று ஈனுவதற்கு முன் பொதுவாக சுமார் 60 நாட்கள் வற்றலாக இருக்க வேண்டும்.",
+              "ಒಂದು ಪ್ರಾಣಿ ತನ್ನ ಮುಂದಿನ ಕರು ಹಾಕುವ ಮೊದಲು ಸಾಮಾನ್ಯವಾಗಿ ಸುಮಾರು 60 ದಿನಗಳ ಕಾಲ ಒಣವಾಗಿರಬೇಕು.",
+              "एक पशु को अगले ब्याने से पहले आमतौर पर करीब 60 दिन सूखा रखना चाहिए।"
+            ),
           },
           {
             type: "truefalse",
-            q: L("Water access should be restricted for a cow during her dry period."),
+            q: L(
+              "Water access should be restricted for a cow during her dry period.",
+              "డ్రై పీరియడ్‌లో ఆవుకు నీటి సదుపాయాన్ని పరిమితం చేయాలి.",
+              "வற்றல் காலத்தில் பசுவுக்குத் தண்ணீர் கிடைப்பதைக் கட்டுப்படுத்த வேண்டும்.",
+              "ಒಣ ಅವಧಿಯಲ್ಲಿ ಹಸುವಿಗೆ ನೀರಿನ ಲಭ್ಯತೆಯನ್ನು ನಿರ್ಬಂಧಿಸಬೇಕು.",
+              "ड्राई पीरियड में गाय का पानी रोक देना चाहिए।"
+            ),
             answer: false,
-            explain: L("False — water access should never be restricted during the dry period, even while feed is being managed differently."),
+            explain: L(
+              "False — water access should never be restricted during the dry period, even while feed is being managed differently.",
+              "తప్పు — డ్రై పీరియడ్‌లో మేతను వేరేగా నిర్వహిస్తున్నా, నీటి సదుపాయాన్ని ఎప్పుడూ పరిమితం చేయకూడదు.",
+              "தவறு — வற்றல் காலத்தில் தீவனம் வேறு விதமாக நிர்வகிக்கப்பட்டாலும், தண்ணீர் கிடைப்பதை ஒருபோதும் கட்டுப்படுத்தக்கூடாது.",
+              "ತಪ್ಪು — ಒಣ ಅವಧಿಯಲ್ಲಿ ಮೇವನ್ನು ಬೇರೆ ರೀತಿ ನಿರ್ವಹಿಸುತ್ತಿದ್ದರೂ, ನೀರಿನ ಲಭ್ಯತೆಯನ್ನು ಎಂದಿಗೂ ನಿರ್ಬಂಧಿಸಬಾರದು.",
+              "गलत — ड्राई पीरियड में चारा अलग तरह से दिया जा रहा हो तब भी पानी कभी रोका नहीं जाना चाहिए।"
+            ),
           },
         ],
       },
       {
         id: "t-m12-calving-signs",
-        title: L("Recognizing Normal Calving, and Knowing When to Call for Help"),
+        title: L(
+          "Recognizing Normal Calving, and Knowing When to Call for Help",
+          "సాధారణ ఈతను గుర్తించడం, సహాయం ఎప్పుడు కోరాలో తెలుసుకోవడం",
+          "இயல்பான கன்று ஈனுதலை அடையாளம் காணுதல், எப்போது உதவி கேட்க வேண்டும் என்று அறிதல்",
+          "ಸಾಮಾನ್ಯ ಕರು ಹಾಕುವಿಕೆಯನ್ನು ಗುರುತಿಸುವುದು ಮತ್ತು ಯಾವಾಗ ಸಹಾಯ ಕೇಳಬೇಕು ಎಂದು ತಿಳಿಯುವುದು",
+          "सामान्य ब्याना पहचानना और मदद कब बुलानी है यह जानना"
+        ),
         teach: [
           {
             type: "text",
-            heading: L("The First Early Sign"),
+            heading: L("The First Early Sign", "మొదటి ముందస్తు సంకేతం", "முதல் ஆரம்ப அறிகுறி", "ಮೊದಲ ಮುನ್ಸೂಚನೆ", "पहली शुरुआती निशानी"),
             html: L(
-              "A sticky vaginal discharge is usually seen about a day before calving begins. Seeing this is a normal, useful early warning that calving is close, not a cause for alarm on its own."
+              "A sticky vaginal discharge is usually seen about a day before calving begins. Seeing this is a normal, useful early warning that calving is close, not a cause for alarm on its own.",
+              "ఈత మొదలయ్యే సుమారు ఒక రోజు ముందు యోని నుండి జిగురుగా ఉండే స్రావం సాధారణంగా కనిపిస్తుంది. ఇది ఈత దగ్గరపడిందని తెలిపే సాధారణమైన, ఉపయోగకరమైన ముందస్తు హెచ్చరిక — ఇది ఒక్కటే ఆందోళన కలిగించాల్సిన విషయం కాదు.",
+              "கன்று ஈனுதல் தொடங்குவதற்குச் சுமார் ஒரு நாள் முன்பு, பிறப்புறுப்பிலிருந்து பிசுபிசுப்பான திரவம் பொதுவாகத் தெரியும். இது கன்று ஈனுதல் நெருங்கிவிட்டது என்பதற்கான இயல்பான, பயனுள்ள முன்னெச்சரிக்கை — இது மட்டுமே கவலைப்பட வேண்டிய விஷயம் அல்ல.",
+              "ಕರು ಹಾಕುವುದು ಶುರುವಾಗುವ ಸುಮಾರು ಒಂದು ದಿನ ಮೊದಲು ಯೋನಿಯಿಂದ ಅಂಟಾದ ಸ್ರಾವ ಸಾಮಾನ್ಯವಾಗಿ ಕಾಣುತ್ತದೆ. ಇದು ಕರು ಹಾಕುವ ಸಮಯ ಹತ್ತಿರವಾಗಿದೆ ಎಂಬುದರ ಸಾಮಾನ್ಯ, ಉಪಯುಕ್ತ ಮುನ್ನೆಚ್ಚರಿಕೆ — ಇದೊಂದೇ ಚಿಂತೆಗೆ ಕಾರಣವಲ್ಲ.",
+              "ब्याना शुरू होने से करीब एक दिन पहले योनि से चिपचिपा स्राव आमतौर पर दिखता है। यह ब्याने के करीब होने की सामान्य और काम की चेतावनी है, अपने आप में घबराने की बात नहीं।"
             ),
           },
           {
             type: "glossary",
-            term: L("Water Bag"),
+            term: L("Water Bag", "నీటి తిత్తి (వాటర్ బ్యాగ్)", "நீர்ப்பை (வாட்டர் பேக்)", "ನೀರಿನ ಚೀಲ (ವಾಟರ್ ಬ್ಯಾಗ್)", "पानी की थैली (वाटर बैग)"),
             meaning: L(
-              "A fluid-filled bag that appears and then bursts as part of the calving process, shortly before the calf itself is delivered."
+              "A fluid-filled bag that appears and then bursts as part of the calving process, shortly before the calf itself is delivered.",
+              "ఈత ప్రక్రియలో భాగంగా, దూడ బయటకు రావడానికి కొద్దిగా ముందు కనిపించి పగిలే ద్రవంతో నిండిన సంచి.",
+              "கன்று ஈனும் செயல்முறையின் ஒரு பகுதியாக, கன்று வெளிவருவதற்குச் சற்று முன் தோன்றி உடையும் திரவம் நிறைந்த பை.",
+              "ಕರು ಹಾಕುವ ಪ್ರಕ್ರಿಯೆಯ ಭಾಗವಾಗಿ, ಕರು ಹೊರಬರುವುದಕ್ಕೆ ಸ್ವಲ್ಪ ಮೊದಲು ಕಾಣಿಸಿಕೊಂಡು ಒಡೆಯುವ ದ್ರವ ತುಂಬಿದ ಚೀಲ.",
+              "ब्याने की प्रक्रिया में बछड़े के बाहर आने से ठीक पहले दिखने और फटने वाली पानी से भरी थैली।"
             ),
           },
           {
             type: "stat-grid",
             items: [
               {
-                label: L("Older Cows"),
-                text: L("The calf is usually delivered 30–50 minutes after the water bag bursts, though this may extend up to 2 hours."),
+                label: L("Older Cows", "పెద్ద ఆవులు", "வளர்ந்த பசுக்கள்", "ವಯಸ್ಕ ಹಸುಗಳು", "बड़ी उम्र की गायें"),
+                text: L(
+                  "The calf is usually delivered 30–50 minutes after the water bag bursts, though this may extend up to 2 hours.",
+                  "నీటి తిత్తి పగిలిన 30–50 నిమిషాల తర్వాత సాధారణంగా దూడ బయటకు వస్తుంది, కొన్నిసార్లు ఇది 2 గంటల వరకు పట్టవచ్చు.",
+                  "நீர்ப்பை உடைந்த 30–50 நிமிடங்களுக்குப் பிறகு பொதுவாக கன்று வெளிவரும், சில நேரங்களில் இது 2 மணி நேரம் வரை நீளலாம்.",
+                  "ನೀರಿನ ಚೀಲ ಒಡೆದ 30–50 ನಿಮಿಷಗಳ ನಂತರ ಸಾಮಾನ್ಯವಾಗಿ ಕರು ಹೊರಬರುತ್ತದೆ, ಕೆಲವೊಮ್ಮೆ ಇದು 2 ಗಂಟೆಗಳವರೆಗೆ ಹೋಗಬಹುದು.",
+                  "पानी की थैली फटने के 30–50 मिनट बाद आमतौर पर बछड़ा बाहर आ जाता है, हालांकि कभी-कभी इसमें 2 घंटे तक लग सकते हैं।"
+                ),
               },
               {
-                label: L("Heifers (First-Time Mothers)"),
-                text: L("Calving may normally take up to 4 hours after the water bag bursts — this alone is not a problem for a first calving."),
+                label: L(
+                  "Heifers (First-Time Mothers)",
+                  "పెయ్యలు (మొదటిసారి ఈనేవి)",
+                  "கிடேரிகள் (முதல் முறை கன்று ஈனுபவை)",
+                  "ಕಡಸುಗಳು (ಮೊದಲ ಬಾರಿ ಕರು ಹಾಕುವವು)",
+                  "बछियाँ (पहली बार ब्याने वाली)"
+                ),
+                text: L(
+                  "Calving may normally take up to 4 hours after the water bag bursts — this alone is not a problem for a first calving.",
+                  "నీటి తిత్తి పగిలిన తర్వాత ఈత సాధారణంగా 4 గంటల వరకు పట్టవచ్చు — మొదటి ఈతకు ఇది ఒక్కటే సమస్య కాదు.",
+                  "நீர்ப்பை உடைந்த பிறகு கன்று ஈனுதல் இயல்பாக 4 மணி நேரம் வரை ஆகலாம் — முதல் முறை கன்று ஈனுவதற்கு இது மட்டுமே பிரச்சினை அல்ல.",
+                  "ನೀರಿನ ಚೀಲ ಒಡೆದ ನಂತರ ಕರು ಹಾಕುವುದು ಸಾಮಾನ್ಯವಾಗಿ 4 ಗಂಟೆಗಳವರೆಗೆ ತೆಗೆದುಕೊಳ್ಳಬಹುದು — ಮೊದಲ ಬಾರಿ ಕರು ಹಾಕುವವರಿಗೆ ಇದೊಂದೇ ಸಮಸ್ಯೆಯಲ್ಲ.",
+                  "पानी की थैली फटने के बाद ब्याने में सामान्य रूप से 4 घंटे तक लग सकते हैं — पहली बार ब्याने वाली के लिए यह अपने आप में कोई समस्या नहीं है।"
+                ),
               },
             ],
           },
           {
             type: "glossary",
-            term: L("Dystocia"),
+            term: L(
+              "Dystocia",
+              "డిస్టోకియా (కష్టమైన ఈత)",
+              "டிஸ்டோகியா (கடினமான கன்று ஈனுதல்)",
+              "ಡಿಸ್ಟೋಕಿಯಾ (ಕಷ್ಟಕರ ಕರು ಹಾಕುವಿಕೆ)",
+              "डिस्टोकिया (कठिन ब्याना)"
+            ),
             meaning: L(
-              "Difficult or delayed calving — when the calf is not delivered within the normal time after the water bag bursts. Early detection of dystocia can save the calf's life."
+              "Difficult or delayed calving — when the calf is not delivered within the normal time after the water bag bursts. Early detection of dystocia can save the calf's life.",
+              "కష్టమైన లేదా ఆలస్యమైన ఈత — నీటి తిత్తి పగిలిన తర్వాత సాధారణ సమయంలో దూడ బయటకు రాకపోవడం. డిస్టోకియాను ముందే గుర్తిస్తే దూడ ప్రాణం కాపాడవచ్చు.",
+              "கடினமான அல்லது தாமதமான கன்று ஈனுதல் — நீர்ப்பை உடைந்த பிறகு இயல்பான நேரத்துக்குள் கன்று வெளிவராமல் இருப்பது. டிஸ்டோகியாவை முன்கூட்டியே கண்டறிந்தால் கன்றின் உயிரைக் காப்பாற்றலாம்.",
+              "ಕಷ್ಟಕರ ಅಥವಾ ತಡವಾದ ಕರು ಹಾಕುವಿಕೆ — ನೀರಿನ ಚೀಲ ಒಡೆದ ನಂತರ ಸಾಮಾನ್ಯ ಸಮಯದೊಳಗೆ ಕರು ಹೊರಬರದಿರುವುದು. ಡಿಸ್ಟೋಕಿಯಾವನ್ನು ಮೊದಲೇ ಗುರುತಿಸಿದರೆ ಕರುವಿನ ಪ್ರಾಣ ಉಳಿಸಬಹುದು.",
+              "कठिन या देर से ब्याना — जब पानी की थैली फटने के बाद सामान्य समय में बछड़ा बाहर नहीं आता। डिस्टोकिया का जल्दी पता चलने से बछड़े की जान बच सकती है।"
             ),
           },
           {
             type: "callout",
             style: "warning",
-            heading: L("Normal vs. When to Call the Vet Immediately"),
+            heading: L(
+              "Normal vs. When to Call the Vet Immediately",
+              "సాధారణం, మరియు వెట్‌ను వెంటనే ఎప్పుడు పిలవాలి",
+              "இயல்பானது, கால்நடை மருத்துவரை உடனே எப்போது அழைக்க வேண்டும்",
+              "ಸಾಮಾನ್ಯ ಮತ್ತು ಪಶುವೈದ್ಯರನ್ನು ತಕ್ಷಣ ಯಾವಾಗ ಕರೆಯಬೇಕು",
+              "सामान्य और डॉक्टर को तुरंत कब बुलाएँ"
+            ),
             text: L(
-              "Normal: after the water bag bursts, the calf's head and both front legs appear together — this is the normal position, and calving usually proceeds on its own without needing a vet. Call the vet immediately if: an abnormal position is seen (for example, only one front leg and the head, or any other position), or if nothing appears at all after the water bag bursts. Any delay in getting help in these cases only makes things worse."
+              "Normal: after the water bag bursts, the calf's head and both front legs appear together — this is the normal position, and calving usually proceeds on its own without needing a vet. Call the vet immediately if: an abnormal position is seen (for example, only one front leg and the head, or any other position), or if nothing appears at all after the water bag bursts. Any delay in getting help in these cases only makes things worse.",
+              "సాధారణం: నీటి తిత్తి పగిలిన తర్వాత, దూడ తల మరియు రెండు ముందు కాళ్లు కలిసి కనిపిస్తాయి — ఇదే సాధారణ స్థితి, ఈత సాధారణంగా వెట్ అవసరం లేకుండానే దానంతట అదే జరుగుతుంది. ఈ సందర్భాల్లో వెంటనే వెట్‌ను పిలవండి: అసాధారణ స్థితి కనిపిస్తే (ఉదాహరణకు ఒక్క ముందు కాలు మరియు తల మాత్రమే, లేదా మరేదైనా స్థితి), లేదా నీటి తిత్తి పగిలిన తర్వాత ఏమీ కనిపించకపోతే. ఈ సందర్భాల్లో సహాయం పొందడంలో ఏ ఆలస్యమైనా పరిస్థితిని మరింత దిగజారుస్తుంది.",
+              "இயல்பானது: நீர்ப்பை உடைந்த பிறகு, கன்றின் தலையும் இரண்டு முன்கால்களும் சேர்ந்து தெரியும் — இதுவே இயல்பான நிலை, கன்று ஈனுதல் பொதுவாக கால்நடை மருத்துவர் தேவையின்றித் தானாகவே நடக்கும். இந்தச் சூழல்களில் உடனே கால்நடை மருத்துவரை அழைக்கவும்: அசாதாரண நிலை தெரிந்தால் (உதாரணமாக ஒரே ஒரு முன்காலும் தலையும் மட்டும், அல்லது வேறு ஏதேனும் நிலை), அல்லது நீர்ப்பை உடைந்த பிறகு எதுவுமே தெரியாவிட்டால். இந்தச் சூழல்களில் உதவி பெறுவதில் ஏற்படும் எந்தத் தாமதமும் நிலைமையை மோசமாக்கவே செய்யும்.",
+              "ಸಾಮಾನ್ಯ: ನೀರಿನ ಚೀಲ ಒಡೆದ ನಂತರ, ಕರುವಿನ ತಲೆ ಮತ್ತು ಎರಡೂ ಮುಂಗಾಲುಗಳು ಒಟ್ಟಿಗೆ ಕಾಣುತ್ತವೆ — ಇದೇ ಸಾಮಾನ್ಯ ಸ್ಥಿತಿ, ಕರು ಹಾಕುವುದು ಸಾಮಾನ್ಯವಾಗಿ ಪಶುವೈದ್ಯರ ಅಗತ್ಯವಿಲ್ಲದೆ ತಾನಾಗಿಯೇ ನಡೆಯುತ್ತದೆ. ಈ ಸಂದರ್ಭಗಳಲ್ಲಿ ತಕ್ಷಣ ಪಶುವೈದ್ಯರನ್ನು ಕರೆಯಿರಿ: ಅಸಾಮಾನ್ಯ ಸ್ಥಿತಿ ಕಂಡರೆ (ಉದಾಹರಣೆಗೆ ಕೇವಲ ಒಂದು ಮುಂಗಾಲು ಮತ್ತು ತಲೆ, ಅಥವಾ ಬೇರೆ ಯಾವುದೇ ಸ್ಥಿತಿ), ಅಥವಾ ನೀರಿನ ಚೀಲ ಒಡೆದ ನಂತರ ಏನೂ ಕಾಣದಿದ್ದರೆ. ಈ ಸಂದರ್ಭಗಳಲ್ಲಿ ಸಹಾಯ ಪಡೆಯುವುದರಲ್ಲಿ ಯಾವುದೇ ವಿಳಂಬ ಪರಿಸ್ಥಿತಿಯನ್ನು ಇನ್ನಷ್ಟು ಹದಗೆಡಿಸುತ್ತದೆ.",
+              "सामान्य: पानी की थैली फटने के बाद बछड़े का सिर और दोनों अगली टाँगें साथ दिखती हैं — यही सामान्य स्थिति है, और ब्याना आमतौर पर बिना डॉक्टर के अपने आप हो जाता है। इन हालात में तुरंत डॉक्टर को बुलाएँ: अगर असामान्य स्थिति दिखे (जैसे सिर्फ एक अगली टाँग और सिर, या कोई और स्थिति), या पानी की थैली फटने के बाद कुछ भी दिखाई न दे। इन मामलों में मदद मिलने में कोई भी देरी हालात को और बिगाड़ती है।"
             ),
           },
           {
             type: "callout",
             style: "info",
-            heading: L("A Careful Note on the One 'Normal' Case"),
+            heading: L(
+              "A Careful Note on the One 'Normal' Case",
+              "ఆ ఒక 'సాధారణ' సందర్భం గురించి జాగ్రత్తగా ఒక గమనిక",
+              "அந்த ஒரே 'இயல்பான' சூழல் பற்றி ஒரு கவனமான குறிப்பு",
+              "ಆ ಒಂದು 'ಸಾಮಾನ್ಯ' ಸಂದರ್ಭದ ಬಗ್ಗೆ ಎಚ್ಚರಿಕೆಯ ಟಿಪ್ಪಣಿ",
+              "उस एक 'सामान्य' स्थिति के बारे में एक सावधानी भरा नोट"
+            ),
             text: L(
-              "When the head and both front legs are clearly visible together, a gentle downward pull on the front legs is sometimes described as acceptable help. The calf should never be pulled in any other position — not even if just one front leg and the head are visible. If you are ever unsure exactly what position the calf is in, the safer choice is always to call for help rather than pull."
+              "When the head and both front legs are clearly visible together, a gentle downward pull on the front legs is sometimes described as acceptable help. The calf should never be pulled in any other position — not even if just one front leg and the head are visible. If you are ever unsure exactly what position the calf is in, the safer choice is always to call for help rather than pull.",
+              "తల మరియు రెండు ముందు కాళ్లు కలిసి స్పష్టంగా కనిపిస్తున్నప్పుడు, ముందు కాళ్లను మెల్లగా కిందికి లాగడం కొన్నిసార్లు అంగీకారయోగ్యమైన సహాయంగా చెప్పబడుతుంది. ఒక్క ముందు కాలు మరియు తల కనిపిస్తున్నా సరే, దూడను మరే ఇతర స్థితిలోనూ ఎప్పుడూ లాగకూడదు. దూడ ఏ స్థితిలో ఉందో మీకు ఏమాత్రం సందేహం ఉన్నా, లాగడం కంటే సహాయం కోసం పిలవడమే ఎప్పుడూ సురక్షితమైన ఎంపిక.",
+              "தலையும் இரண்டு முன்கால்களும் சேர்ந்து தெளிவாகத் தெரியும்போது, முன்கால்களை மெதுவாகக் கீழ்நோக்கி இழுப்பது சில நேரங்களில் ஏற்றுக்கொள்ளத்தக்க உதவியாகச் சொல்லப்படுகிறது. ஒரே ஒரு முன்காலும் தலையும் மட்டும் தெரிந்தாலும் கூட, வேறு எந்த நிலையிலும் கன்றை ஒருபோதும் இழுக்கக்கூடாது. கன்று எந்த நிலையில் இருக்கிறது என்று உங்களுக்குச் சந்தேகம் இருந்தால், இழுப்பதை விட உதவிக்கு அழைப்பதே எப்போதும் பாதுகாப்பான தேர்வு.",
+              "ತಲೆ ಮತ್ತು ಎರಡೂ ಮುಂಗಾಲುಗಳು ಒಟ್ಟಿಗೆ ಸ್ಪಷ್ಟವಾಗಿ ಕಾಣುತ್ತಿರುವಾಗ, ಮುಂಗಾಲುಗಳನ್ನು ನಿಧಾನವಾಗಿ ಕೆಳಮುಖವಾಗಿ ಎಳೆಯುವುದು ಕೆಲವೊಮ್ಮೆ ಒಪ್ಪಿಕೊಳ್ಳಬಹುದಾದ ಸಹಾಯ ಎಂದು ಹೇಳಲಾಗುತ್ತದೆ. ಕೇವಲ ಒಂದು ಮುಂಗಾಲು ಮತ್ತು ತಲೆ ಕಾಣುತ್ತಿದ್ದರೂ ಸಹ, ಕರುವನ್ನು ಬೇರೆ ಯಾವುದೇ ಸ್ಥಿತಿಯಲ್ಲಿ ಎಂದಿಗೂ ಎಳೆಯಬಾರದು. ಕರು ಯಾವ ಸ್ಥಿತಿಯಲ್ಲಿದೆ ಎಂದು ನಿಮಗೆ ಸಂದೇಹವಿದ್ದರೆ, ಎಳೆಯುವುದಕ್ಕಿಂತ ಸಹಾಯಕ್ಕಾಗಿ ಕರೆಯುವುದೇ ಯಾವಾಗಲೂ ಸುರಕ್ಷಿತ ಆಯ್ಕೆ.",
+              "जब सिर और दोनों अगली टाँगें साफ़ साथ दिख रही हों, तब अगली टाँगों को धीरे से नीचे की ओर खींचना कभी-कभी स्वीकार्य मदद बताया जाता है। बछड़े को किसी और स्थिति में कभी नहीं खींचना चाहिए — तब भी नहीं जब सिर्फ एक अगली टाँग और सिर दिख रहा हो। अगर आपको ज़रा भी शक हो कि बछड़ा किस स्थिति में है, तो खींचने की बजाय मदद बुलाना ही हमेशा सुरक्षित चुनाव है।"
             ),
           },
           {
             type: "text",
-            heading: L("After Calving: What Comes Next"),
+            heading: L(
+              "After Calving: What Comes Next",
+              "ఈత తర్వాత: తర్వాత ఏమి జరుగుతుంది",
+              "கன்று ஈன்ற பிறகு: அடுத்து என்ன நடக்கும்",
+              "ಕರು ಹಾಕಿದ ನಂತರ: ಮುಂದೇನಾಗುತ್ತದೆ",
+              "ब्याने के बाद: आगे क्या होता है"
+            ),
             html: L(
-              "Under normal conditions, an animal should come back into heat within 45 days of calving. It is recommended to breed her at the heat that follows the first one after calving, or within 60–90 days. If she does not come into heat within 60 days after calving, this should be reported so a veterinarian can check on her."
+              "Under normal conditions, an animal should come back into heat within 45 days of calving. It is recommended to breed her at the heat that follows the first one after calving, or within 60–90 days. If she does not come into heat within 60 days after calving, this should be reported so a veterinarian can check on her.",
+              "సాధారణ పరిస్థితుల్లో, పశువు ఈనిన 45 రోజుల్లోపు మళ్లీ ఎదకు రావాలి. ఈనిన తర్వాత మొదటి ఎద తర్వాత వచ్చే ఎదలో, లేదా 60–90 రోజుల్లోపు దానికి సంతానోత్పత్తి చేయించడం మంచిది. ఈనిన 60 రోజుల్లోపు అది ఎదకు రాకపోతే, పశువైద్యుడు దాన్ని పరిశీలించేలా ఈ విషయాన్ని తెలియజేయాలి.",
+              "இயல்பான நிலைமைகளில், மாடு கன்று ஈன்ற 45 நாட்களுக்குள் மீண்டும் சினைப்பருவத்துக்கு வர வேண்டும். கன்று ஈன்ற பிறகு வரும் முதல் சினைப்பருவத்துக்கு அடுத்த சினைப்பருவத்தில், அல்லது 60–90 நாட்களுக்குள் அதைச் சினையாக்குவது பரிந்துரைக்கப்படுகிறது. கன்று ஈன்ற 60 நாட்களுக்குள் சினைப்பருவத்துக்கு வரவில்லை என்றால், கால்நடை மருத்துவர் அதைப் பரிசோதிக்கும்படி இதைத் தெரிவிக்க வேண்டும்.",
+              "ಸಾಮಾನ್ಯ ಪರಿಸ್ಥಿತಿಯಲ್ಲಿ, ಪ್ರಾಣಿ ಕರು ಹಾಕಿದ 45 ದಿನಗಳೊಳಗೆ ಮತ್ತೆ ಬೆದೆಗೆ ಬರಬೇಕು. ಕರು ಹಾಕಿದ ನಂತರದ ಮೊದಲ ಬೆದೆಯ ಮುಂದಿನ ಬೆದೆಯಲ್ಲಿ, ಅಥವಾ 60–90 ದಿನಗಳೊಳಗೆ ಅದಕ್ಕೆ ಸಂತಾನೋತ್ಪತ್ತಿ ಮಾಡಿಸುವುದು ಶಿಫಾರಸು. ಕರು ಹಾಕಿದ 60 ದಿನಗಳೊಳಗೆ ಬೆದೆಗೆ ಬರದಿದ್ದರೆ, ಪಶುವೈದ್ಯರು ಪರೀಕ್ಷಿಸುವಂತೆ ಇದನ್ನು ತಿಳಿಸಬೇಕು.",
+              "सामान्य हालात में पशु को ब्याने के 45 दिन के अंदर फिर गर्मी में आ जाना चाहिए। सलाह दी जाती है कि ब्याने के बाद की पहली गर्मी के अगली गर्मी में, या 60–90 दिन के अंदर उसका प्रजनन कराया जाए। अगर वह ब्याने के 60 दिन के भीतर गर्मी में नहीं आती, तो यह बताना चाहिए ताकि पशु चिकित्सक उसे देख सके।"
             ),
           },
         ],
         check: [
           {
             type: "mcq",
-            q: L("After the water bag bursts, what tells you calving is likely proceeding normally?"),
+            q: L(
+              "After the water bag bursts, what tells you calving is likely proceeding normally?",
+              "నీటి తిత్తి పగిలిన తర్వాత, ఈత సాధారణంగానే జరుగుతోందని దేన్ని బట్టి తెలుస్తుంది?",
+              "நீர்ப்பை உடைந்த பிறகு, கன்று ஈனுதல் இயல்பாக நடக்கிறது என்பதை எது காட்டுகிறது?",
+              "ನೀರಿನ ಚೀಲ ಒಡೆದ ನಂತರ, ಕರು ಹಾಕುವುದು ಸಾಮಾನ್ಯವಾಗಿ ನಡೆಯುತ್ತಿದೆ ಎಂದು ಯಾವುದರಿಂದ ತಿಳಿಯುತ್ತದೆ?",
+              "पानी की थैली फटने के बाद, कौन सी बात बताती है कि ब्याना सामान्य ढंग से हो रहा है?"
+            ),
             options: [
-              L("Only one front leg appears"),
-              L("The calf's head and both front legs appear together"),
-              L("Nothing appears at all"),
-              L("The mother lies down for a long time before anything happens"),
+              L(
+                "Only one front leg appears",
+                "ఒక్క ముందు కాలు మాత్రమే కనిపించడం",
+                "ஒரே ஒரு முன்கால் மட்டும் தெரிவது",
+                "ಕೇವಲ ಒಂದು ಮುಂಗಾಲು ಮಾತ್ರ ಕಾಣುವುದು",
+                "सिर्फ एक अगली टाँग दिखना"
+              ),
+              L(
+                "The calf's head and both front legs appear together",
+                "దూడ తల మరియు రెండు ముందు కాళ్లు కలిసి కనిపించడం",
+                "கன்றின் தலையும் இரண்டு முன்கால்களும் சேர்ந்து தெரிவது",
+                "ಕರುವಿನ ತಲೆ ಮತ್ತು ಎರಡೂ ಮುಂಗಾಲುಗಳು ಒಟ್ಟಿಗೆ ಕಾಣುವುದು",
+                "बछड़े का सिर और दोनों अगली टाँगें साथ दिखना"
+              ),
+              L("Nothing appears at all", "ఏమీ కనిపించకపోవడం", "எதுவுமே தெரியாமல் இருப்பது", "ಏನೂ ಕಾಣದಿರುವುದು", "कुछ भी न दिखना"),
+              L(
+                "The mother lies down for a long time before anything happens",
+                "ఏదైనా జరగడానికి ముందు తల్లి చాలా సేపు పడుకుని ఉండటం",
+                "எதுவும் நடக்கும் முன் தாய் நீண்ட நேரம் படுத்துக் கிடப்பது",
+                "ಏನಾದರೂ ಆಗುವ ಮೊದಲು ತಾಯಿ ಬಹಳ ಹೊತ್ತು ಮಲಗಿರುವುದು",
+                "कुछ होने से पहले माँ का बहुत देर तक लेटे रहना"
+              ),
             ],
             answer: 1,
-            explain: L("Head and both front legs appearing together after the water bag bursts is the normal position, and calving usually proceeds on its own."),
+            explain: L(
+              "Head and both front legs appearing together after the water bag bursts is the normal position, and calving usually proceeds on its own.",
+              "నీటి తిత్తి పగిలిన తర్వాత తల మరియు రెండు ముందు కాళ్లు కలిసి కనిపించడం సాధారణ స్థితి, ఈత సాధారణంగా దానంతట అదే జరుగుతుంది.",
+              "நீர்ப்பை உடைந்த பிறகு தலையும் இரண்டு முன்கால்களும் சேர்ந்து தெரிவது இயல்பான நிலை, கன்று ஈனுதல் பொதுவாகத் தானாகவே நடக்கும்.",
+              "ನೀರಿನ ಚೀಲ ಒಡೆದ ನಂತರ ತಲೆ ಮತ್ತು ಎರಡೂ ಮುಂಗಾಲುಗಳು ಒಟ್ಟಿಗೆ ಕಾಣುವುದು ಸಾಮಾನ್ಯ ಸ್ಥಿತಿ, ಕರು ಹಾಕುವುದು ಸಾಮಾನ್ಯವಾಗಿ ತಾನಾಗಿಯೇ ನಡೆಯುತ್ತದೆ.",
+              "पानी की थैली फटने के बाद सिर और दोनों अगली टाँगों का साथ दिखना सामान्य स्थिति है, और ब्याना आमतौर पर अपने आप हो जाता है।"
+            ),
           },
           {
             type: "truefalse",
-            q: L("If an animal has not come back into heat within 60 days after calving, this should be reported to a veterinarian."),
+            q: L(
+              "If an animal has not come back into heat within 60 days after calving, this should be reported to a veterinarian.",
+              "ఈనిన 60 రోజుల్లోపు పశువు మళ్లీ ఎదకు రాకపోతే, ఈ విషయాన్ని పశువైద్యునికి తెలియజేయాలి.",
+              "கன்று ஈன்ற 60 நாட்களுக்குள் மாடு மீண்டும் சினைப்பருவத்துக்கு வரவில்லை என்றால், இதைக் கால்நடை மருத்துவரிடம் தெரிவிக்க வேண்டும்.",
+              "ಕರು ಹಾಕಿದ 60 ದಿನಗಳೊಳಗೆ ಪ್ರಾಣಿ ಮತ್ತೆ ಬೆದೆಗೆ ಬರದಿದ್ದರೆ, ಇದನ್ನು ಪಶುವೈದ್ಯರಿಗೆ ತಿಳಿಸಬೇಕು.",
+              "अगर पशु ब्याने के 60 दिन के अंदर फिर गर्मी में नहीं आया, तो यह पशु चिकित्सक को बताना चाहिए।"
+            ),
             answer: true,
-            explain: L("True — not returning to heat within 60 days after calving should be checked by a veterinarian."),
+            explain: L(
+              "True — not returning to heat within 60 days after calving should be checked by a veterinarian.",
+              "నిజమే — ఈనిన 60 రోజుల్లోపు ఎదకు రాకపోతే పశువైద్యుడు పరిశీలించాలి.",
+              "உண்மைதான் — கன்று ஈன்ற 60 நாட்களுக்குள் சினைப்பருவத்துக்கு வராவிட்டால் கால்நடை மருத்துவர் பரிசோதிக்க வேண்டும்.",
+              "ನಿಜ — ಕರು ಹಾಕಿದ 60 ದಿನಗಳೊಳಗೆ ಬೆದೆಗೆ ಬರದಿದ್ದರೆ ಪಶುವೈದ್ಯರು ಪರೀಕ್ಷಿಸಬೇಕು.",
+              "सही — ब्याने के 60 दिन के अंदर गर्मी में न आने पर पशु चिकित्सक से जाँच करानी चाहिए।"
+            ),
           },
         ],
       },
@@ -10489,64 +10701,195 @@ export const MODULES = [
         {
           topicId: "t-m12-drying-off",
           type: "mcq",
-          q: L("What is the 'dry period' in a dairy cow's cycle?"),
+          q: L(
+            "What is the 'dry period' in a dairy cow's cycle?",
+            "పాడి ఆవు చక్రంలో 'డ్రై పీరియడ్' అంటే ఏమిటి?",
+            "பால் பசுவின் சுழற்சியில் 'வற்றல் காலம்' என்றால் என்ன?",
+            "ಹೈನು ಹಸುವಿನ ಚಕ್ರದಲ್ಲಿ 'ಒಣ ಅವಧಿ' ಎಂದರೇನು?",
+            "दुधारू गाय के चक्र में 'ड्राई पीरियड' क्या है?"
+          ),
           options: [
-            L("A period when the cow is deliberately not milked, to let her body rest before her next calving"),
-            L("A period when the cow is given no water"),
-            L("The time right after AI"),
-            L("A punishment for a sick cow"),
+            L(
+              "A period when the cow is deliberately not milked, to let her body rest before her next calving",
+              "ఆవు తర్వాతి ఈతకు ముందు శరీరం విశ్రాంతి తీసుకునేందుకు ఉద్దేశపూర్వకంగా పాలు పితకని కాలం",
+              "பசு அடுத்த கன்று ஈனுவதற்கு முன் உடல் ஓய்வெடுக்க, வேண்டுமென்றே பால் கறக்காத காலம்",
+              "ಹಸು ತನ್ನ ಮುಂದಿನ ಕರು ಹಾಕುವ ಮೊದಲು ದೇಹಕ್ಕೆ ವಿಶ್ರಾಂತಿ ಸಿಗಲೆಂದು ಉದ್ದೇಶಪೂರ್ವಕವಾಗಿ ಹಾಲು ಕರೆಯದ ಅವಧಿ",
+              "वह समय जब गाय के अगले ब्याने से पहले उसके शरीर को आराम देने के लिए जान-बूझकर दूध नहीं निकाला जाता"
+            ),
+            L(
+              "A period when the cow is given no water",
+              "ఆవుకు నీళ్లు ఇవ్వని కాలం",
+              "பசுவுக்குத் தண்ணீர் கொடுக்காத காலம்",
+              "ಹಸುವಿಗೆ ನೀರು ಕೊಡದ ಅವಧಿ",
+              "वह समय जब गाय को पानी नहीं दिया जाता"
+            ),
+            L("The time right after AI", "AI అయిన వెంటనే వచ్చే సమయం", "AI செய்த உடனே வரும் நேரம்", "AI ಆದ ತಕ್ಷಣದ ಸಮಯ", "AI के ठीक बाद का समय"),
+            L(
+              "A punishment for a sick cow",
+              "అనారోగ్యంగా ఉన్న ఆవుకు శిక్ష",
+              "நோயுற்ற பசுவுக்கான தண்டனை",
+              "ಅನಾರೋಗ್ಯದ ಹಸುವಿಗೆ ಶಿಕ್ಷೆ",
+              "बीमार गाय के लिए सज़ा"
+            ),
           ],
           answer: 0,
-          explain: L("The dry period is a deliberate rest from milking, lasting around 60 days, before the next calving."),
+          explain: L(
+            "The dry period is a deliberate rest from milking, lasting around 60 days, before the next calving.",
+            "డ్రై పీరియడ్ అంటే తర్వాతి ఈతకు ముందు, సుమారు 60 రోజుల పాటు ఉద్దేశపూర్వకంగా పాలు పితకకుండా ఇచ్చే విశ్రాంతి.",
+            "வற்றல் காலம் என்பது அடுத்த கன்று ஈனுவதற்கு முன், சுமார் 60 நாட்களுக்கு வேண்டுமென்றே பால் கறக்காமல் அளிக்கும் ஓய்வு.",
+            "ಒಣ ಅವಧಿ ಎಂದರೆ ಮುಂದಿನ ಕರು ಹಾಕುವ ಮೊದಲು, ಸುಮಾರು 60 ದಿನಗಳ ಕಾಲ ಉದ್ದೇಶಪೂರ್ವಕವಾಗಿ ಹಾಲು ಕರೆಯದೆ ನೀಡುವ ವಿಶ್ರಾಂತಿ.",
+            "ड्राई पीरियड अगले ब्याने से पहले करीब 60 दिन तक जान-बूझकर दूध न निकालकर दिया जाने वाला आराम है।"
+          ),
         },
         {
           topicId: "t-m12-drying-off",
           type: "truefalse",
-          q: L("A dry cow does not need to be checked visually every day, since she is not being milked.",
+          q: L(
+            "A dry cow does not need to be checked visually every day, since she is not being milked.",
+            "డ్రై ఆవుకు పాలు పితకడం లేదు కాబట్టి, ప్రతిరోజూ కళ్లతో పరీక్షించాల్సిన అవసరం లేదు.",
+            "வற்றல் பசுவிடம் பால் கறக்கப்படுவதில்லை என்பதால், தினமும் கண்ணால் பார்த்துப் பரிசோதிக்க வேண்டிய அவசியம் இல்லை.",
+            "ಒಣ ಹಸುವಿನಿಂದ ಹಾಲು ಕರೆಯುತ್ತಿಲ್ಲ ಆದ್ದರಿಂದ, ಪ್ರತಿದಿನ ಕಣ್ಣಿನಿಂದ ಪರೀಕ್ಷಿಸುವ ಅಗತ್ಯವಿಲ್ಲ.",
+            "सूखी गाय का दूध नहीं निकाला जाता, इसलिए उसे हर दिन आँखों से जाँचने की ज़रूरत नहीं है।"
           ),
           answer: false,
-          explain: L("False — dry cows should still be checked visually every day, and always have access to water."),
+          explain: L(
+            "False — dry cows should still be checked visually every day, and always have access to water.",
+            "తప్పు — డ్రై ఆవులను కూడా ప్రతిరోజూ కళ్లతో పరీక్షించాలి, వాటికి ఎప్పుడూ నీళ్లు అందుబాటులో ఉండాలి.",
+            "தவறு — வற்றல் பசுக்களையும் தினமும் கண்ணால் பார்த்துப் பரிசோதிக்க வேண்டும், அவற்றுக்கு எப்போதும் தண்ணீர் கிடைக்க வேண்டும்.",
+            "ತಪ್ಪು — ಒಣ ಹಸುಗಳನ್ನೂ ಪ್ರತಿದಿನ ಕಣ್ಣಿನಿಂದ ಪರೀಕ್ಷಿಸಬೇಕು, ಅವುಗಳಿಗೆ ಯಾವಾಗಲೂ ನೀರು ಸಿಗುವಂತಿರಬೇಕು.",
+            "गलत — सूखी गायों को भी हर दिन आँखों से जाँचना चाहिए, और उन्हें हमेशा पानी मिलना चाहिए।"
+          ),
         },
         {
           topicId: "t-m12-calving-signs",
           type: "mcq",
-          q: L("What is 'dystocia'?"),
+          q: L("What is 'dystocia'?", "'డిస్టోకియా' అంటే ఏమిటి?", "'டிஸ்டோகியா' என்றால் என்ன?", "'ಡಿಸ್ಟೋಕಿಯಾ' ಎಂದರೇನು?", "'डिस्टोकिया' क्या है?"),
           options: [
-            L("A normal, healthy pregnancy"),
-            L("Difficult or delayed calving, beyond the normal time after the water bag bursts"),
-            L("A type of frozen semen dose"),
-            L("The sign an animal is in heat"),
+            L(
+              "A normal, healthy pregnancy",
+              "సాధారణ, ఆరోగ్యకరమైన గర్భం",
+              "இயல்பான, ஆரோக்கியமான சினைக்காலம்",
+              "ಸಾಮಾನ್ಯ, ಆರೋಗ್ಯಕರ ಗರ್ಭಾವಸ್ಥೆ",
+              "सामान्य, स्वस्थ गर्भावस्था"
+            ),
+            L(
+              "Difficult or delayed calving, beyond the normal time after the water bag bursts",
+              "నీటి తిత్తి పగిలిన తర్వాత సాధారణ సమయం దాటిపోయినా కష్టంగా లేదా ఆలస్యంగా జరిగే ఈత",
+              "நீர்ப்பை உடைந்த பிறகு இயல்பான நேரத்தைத் தாண்டியும் கடினமாக அல்லது தாமதமாக நடக்கும் கன்று ஈனுதல்",
+              "ನೀರಿನ ಚೀಲ ಒಡೆದ ನಂತರ ಸಾಮಾನ್ಯ ಸಮಯ ಮೀರಿ ಕಷ್ಟದಿಂದ ಅಥವಾ ತಡವಾಗಿ ನಡೆಯುವ ಕರು ಹಾಕುವಿಕೆ",
+              "पानी की थैली फटने के बाद सामान्य समय से ज़्यादा, कठिन या देर से होने वाला ब्याना"
+            ),
+            L(
+              "A type of frozen semen dose",
+              "ఒక రకమైన ఫ్రోజెన్ సెమెన్ డోస్",
+              "ஒரு வகை உறைந்த விந்து மருந்தளவு",
+              "ಒಂದು ವಿಧದ ಹೆಪ್ಪುಗಟ್ಟಿದ ವೀರ್ಯ ಡೋಸ್",
+              "एक तरह की फ्रोज़न सीमेन डोज़"
+            ),
+            L(
+              "The sign an animal is in heat",
+              "పశువు ఎదలో ఉందనే సంకేతం",
+              "மாடு சினைப்பருவத்தில் இருப்பதற்கான அறிகுறி",
+              "ಪ್ರಾಣಿ ಬೆದೆಯಲ್ಲಿದೆ ಎಂಬುದರ ಲಕ್ಷಣ",
+              "पशु के गर्मी में होने की निशानी"
+            ),
           ],
           answer: 1,
-          explain: L("Dystocia means difficult or delayed calving — calving that does not happen within the normal time frame after the water bag bursts."),
+          explain: L(
+            "Dystocia means difficult or delayed calving — calving that does not happen within the normal time frame after the water bag bursts.",
+            "డిస్టోకియా అంటే కష్టమైన లేదా ఆలస్యమైన ఈత — నీటి తిత్తి పగిలిన తర్వాత సాధారణ సమయంలో జరగని ఈత.",
+            "டிஸ்டோகியா என்பது கடினமான அல்லது தாமதமான கன்று ஈனுதல் — நீர்ப்பை உடைந்த பிறகு இயல்பான நேரத்துக்குள் நடக்காத கன்று ஈனுதல்.",
+            "ಡಿಸ್ಟೋಕಿಯಾ ಎಂದರೆ ಕಷ್ಟಕರ ಅಥವಾ ತಡವಾದ ಕರು ಹಾಕುವಿಕೆ — ನೀರಿನ ಚೀಲ ಒಡೆದ ನಂತರ ಸಾಮಾನ್ಯ ಸಮಯದೊಳಗೆ ನಡೆಯದ ಕರು ಹಾಕುವಿಕೆ.",
+            "डिस्टोकिया का मतलब है कठिन या देर से ब्याना — ऐसा ब्याना जो पानी की थैली फटने के बाद सामान्य समय के भीतर न हो।"
+          ),
         },
         {
           topicId: "t-m12-calving-signs",
           type: "truefalse",
-          q: L("If nothing appears at all after the water bag bursts, you should call a veterinarian immediately."),
+          q: L(
+            "If nothing appears at all after the water bag bursts, you should call a veterinarian immediately.",
+            "నీటి తిత్తి పగిలిన తర్వాత ఏమీ కనిపించకపోతే, మీరు వెంటనే పశువైద్యుడిని పిలవాలి.",
+            "நீர்ப்பை உடைந்த பிறகு எதுவுமே தெரியவில்லை என்றால், நீங்கள் உடனே கால்நடை மருத்துவரை அழைக்க வேண்டும்.",
+            "ನೀರಿನ ಚೀಲ ಒಡೆದ ನಂತರ ಏನೂ ಕಾಣದಿದ್ದರೆ, ನೀವು ತಕ್ಷಣ ಪಶುವೈದ್ಯರನ್ನು ಕರೆಯಬೇಕು.",
+            "अगर पानी की थैली फटने के बाद कुछ भी दिखाई न दे, तो आपको तुरंत पशु चिकित्सक को बुलाना चाहिए।"
+          ),
           answer: true,
-          explain: L("True — if nothing appears after the water bag bursts, or the position looks abnormal, call a vet immediately. Delay makes things worse."),
+          explain: L(
+            "True — if nothing appears after the water bag bursts, or the position looks abnormal, call a vet immediately. Delay makes things worse.",
+            "నిజమే — నీటి తిత్తి పగిలిన తర్వాత ఏమీ కనిపించకపోయినా, లేదా స్థితి అసాధారణంగా కనిపించినా, వెంటనే వెట్‌ను పిలవండి. ఆలస్యం పరిస్థితిని మరింత దిగజారుస్తుంది.",
+            "உண்மைதான் — நீர்ப்பை உடைந்த பிறகு எதுவுமே தெரியாவிட்டாலும், அல்லது நிலை அசாதாரணமாகத் தெரிந்தாலும், உடனே கால்நடை மருத்துவரை அழைக்கவும். தாமதம் நிலைமையை மோசமாக்கும்.",
+            "ನಿಜ — ನೀರಿನ ಚೀಲ ಒಡೆದ ನಂತರ ಏನೂ ಕಾಣದಿದ್ದರೆ, ಅಥವಾ ಸ್ಥಿತಿ ಅಸಾಮಾನ್ಯವಾಗಿ ಕಂಡರೆ, ತಕ್ಷಣ ಪಶುವೈದ್ಯರನ್ನು ಕರೆಯಿರಿ. ವಿಳಂಬ ಪರಿಸ್ಥಿತಿಯನ್ನು ಇನ್ನಷ್ಟು ಹದಗೆಡಿಸುತ್ತದೆ.",
+            "सही — पानी की थैली फटने के बाद अगर कुछ भी न दिखे या स्थिति असामान्य लगे, तो तुरंत डॉक्टर को बुलाएँ। देरी से हालात और बिगड़ते हैं।"
+          ),
         },
         {
           topicId: "t-m12-calving-signs",
           type: "mcq",
-          q: L("For a heifer (a first-time mother), how long can calving normally take after the water bag bursts?"),
-          options: [L("Up to 4 hours"), L("Up to 4 days"), L("Only a few seconds"), L("It never bursts for heifers")],
+          q: L(
+            "For a heifer (a first-time mother), how long can calving normally take after the water bag bursts?",
+            "ఒక పెయ్య (మొదటిసారి ఈనే పశువు)కు నీటి తిత్తి పగిలిన తర్వాత ఈత సాధారణంగా ఎంత సేపు పట్టవచ్చు?",
+            "ஒரு கிடேரிக்கு (முதல் முறை கன்று ஈனும் மாடு) நீர்ப்பை உடைந்த பிறகு கன்று ஈனுதல் இயல்பாக எவ்வளவு நேரம் ஆகலாம்?",
+            "ಒಂದು ಕಡಸಿಗೆ (ಮೊದಲ ಬಾರಿ ಕರು ಹಾಕುವ ಪ್ರಾಣಿ) ನೀರಿನ ಚೀಲ ಒಡೆದ ನಂತರ ಕರು ಹಾಕಲು ಸಾಮಾನ್ಯವಾಗಿ ಎಷ್ಟು ಹೊತ್ತು ಹಿಡಿಯಬಹುದು?",
+            "एक बछिया (पहली बार ब्याने वाली) को पानी की थैली फटने के बाद ब्याने में सामान्य रूप से कितना समय लग सकता है?"
+          ),
+          options: [L("Up to 4 hours", "4 గంటల వరకు", "4 மணி நேரம் வரை", "4 ಗಂಟೆಗಳವರೆಗೆ", "4 घंटे तक"), L("Up to 4 days", "4 రోజుల వరకు", "4 நாட்கள் வரை", "4 ದಿನಗಳವರೆಗೆ", "4 दिन तक"), L("Only a few seconds", "కొన్ని సెకన్లు మాత్రమే", "சில வினாடிகள் மட்டுமே", "ಕೆಲವೇ ಸೆಕೆಂಡುಗಳು ಮಾತ್ರ", "सिर्फ कुछ सेकंड"), L(
+            "It never bursts for heifers",
+            "పెయ్యలకు అది ఎప్పటికీ పగలదు",
+            "கிடேரிகளுக்கு அது ஒருபோதும் உடையாது",
+            "ಕಡಸುಗಳಿಗೆ ಅದು ಎಂದಿಗೂ ಒಡೆಯುವುದಿಲ್ಲ",
+            "बछियों में वह कभी नहीं फटती"
+          )],
           answer: 0,
-          explain: L("For heifers, calving may normally take up to 4 hours after the water bag bursts — longer than for older cows, but still normal."),
+          explain: L(
+            "For heifers, calving may normally take up to 4 hours after the water bag bursts — longer than for older cows, but still normal.",
+            "పెయ్యలకు, నీటి తిత్తి పగిలిన తర్వాత ఈత సాధారణంగా 4 గంటల వరకు పట్టవచ్చు — పెద్ద ఆవులకంటే ఎక్కువ, అయినా సాధారణమే.",
+            "கிடேரிகளுக்கு, நீர்ப்பை உடைந்த பிறகு கன்று ஈனுதல் இயல்பாக 4 மணி நேரம் வரை ஆகலாம் — வளர்ந்த பசுக்களை விட அதிகம், ஆனாலும் இயல்பானதே.",
+            "ಕಡಸುಗಳಿಗೆ, ನೀರಿನ ಚೀಲ ಒಡೆದ ನಂತರ ಕರು ಹಾಕುವುದು ಸಾಮಾನ್ಯವಾಗಿ 4 ಗಂಟೆಗಳವರೆಗೆ ತೆಗೆದುಕೊಳ್ಳಬಹುದು — ವಯಸ್ಕ ಹಸುಗಳಿಗಿಂತ ಹೆಚ್ಚು, ಆದರೂ ಸಾಮಾನ್ಯವೇ.",
+            "बछियों में पानी की थैली फटने के बाद ब्याने में सामान्य रूप से 4 घंटे तक लग सकते हैं — बड़ी गायों से ज़्यादा, फिर भी सामान्य।"
+          ),
         },
         {
           topicId: "t-m12-drying-off",
           type: "mcq",
-          q: L("What risk does a dry period that runs too long create?"),
+          q: L(
+            "What risk does a dry period that runs too long create?",
+            "చాలా ఎక్కువ కాలం సాగే డ్రై పీరియడ్ వల్ల ఏ ప్రమాదం వస్తుంది?",
+            "மிக நீண்ட வற்றல் காலத்தால் என்ன ஆபத்து ஏற்படுகிறது?",
+            "ತುಂಬಾ ಹೆಚ್ಚು ಕಾಲ ಸಾಗುವ ಒಣ ಅವಧಿಯಿಂದ ಯಾವ ಅಪಾಯ ಉಂಟಾಗುತ್ತದೆ?",
+            "बहुत लंबा ड्राई पीरियड किस तरह का खतरा पैदा करता है?"
+          ),
           options: [
-            L("The animal becomes too thin"),
-            L("The animal risks becoming overweight, obesity-related disease, and difficulty calving"),
-            L("The animal stops needing water"),
-            L("There is no risk at all"),
+            L(
+              "The animal becomes too thin",
+              "పశువు మరీ సన్నబడుతుంది",
+              "மாடு மிகவும் மெலிந்துவிடும்",
+              "ಪ್ರಾಣಿ ತುಂಬಾ ಸಣ್ಣಗಾಗುತ್ತದೆ",
+              "पशु बहुत दुबला हो जाता है"
+            ),
+            L(
+              "The animal risks becoming overweight, obesity-related disease, and difficulty calving",
+              "పశువు లావెక్కడం, స్థూలకాయ సంబంధిత వ్యాధి, ఈనడంలో ఇబ్బంది వచ్చే ప్రమాదం ఉంది",
+              "மாடு அதிக எடை போடுதல், உடல் பருமன் தொடர்பான நோய், கன்று ஈனுவதில் சிரமம் ஆகிய ஆபத்து உள்ளது",
+              "ಪ್ರಾಣಿ ಬೊಜ್ಜು ಬೆಳೆಸಿಕೊಳ್ಳುವ, ಬೊಜ್ಜಿಗೆ ಸಂಬಂಧಿಸಿದ ರೋಗ ಬರುವ, ಕರು ಹಾಕುವಲ್ಲಿ ತೊಂದರೆಯಾಗುವ ಅಪಾಯವಿದೆ",
+              "पशु के मोटे होने, मोटापे से जुड़ी बीमारी और ब्याने में दिक्कत का खतरा रहता है"
+            ),
+            L(
+              "The animal stops needing water",
+              "పశువుకు ఇక నీళ్లు అవసరం ఉండదు",
+              "மாட்டுக்கு இனி தண்ணீர் தேவையில்லை",
+              "ಪ್ರಾಣಿಗೆ ಇನ್ನು ನೀರಿನ ಅಗತ್ಯವಿರುವುದಿಲ್ಲ",
+              "पशु को अब पानी की ज़रूरत नहीं रहती"
+            ),
+            L("There is no risk at all", "ఎలాంటి ప్రమాదమూ లేదు", "எந்த ஆபத்தும் இல்லை", "ಯಾವುದೇ ಅಪಾಯವಿಲ್ಲ", "कोई खतरा नहीं है"),
           ],
           answer: 1,
-          explain: L("A prolonged dry period risks the animal becoming overweight, developing obesity-related disease, and having a harder calving."),
+          explain: L(
+            "A prolonged dry period risks the animal becoming overweight, developing obesity-related disease, and having a harder calving.",
+            "డ్రై పీరియడ్ ఎక్కువ కాలం సాగితే, పశువు లావెక్కడం, స్థూలకాయ సంబంధిత వ్యాధి రావడం, ఈత కష్టం కావడం వంటి ప్రమాదాలు ఉంటాయి.",
+            "வற்றல் காலம் நீண்டுவிட்டால், மாடு அதிக எடை போடுதல், உடல் பருமன் தொடர்பான நோய் வருதல், கன்று ஈனுதல் கடினமாதல் போன்ற ஆபத்துகள் உள்ளன.",
+            "ಒಣ ಅವಧಿ ಹೆಚ್ಚು ಕಾಲ ಮುಂದುವರಿದರೆ, ಪ್ರಾಣಿ ಬೊಜ್ಜು ಬೆಳೆಸಿಕೊಳ್ಳುವುದು, ಬೊಜ್ಜಿಗೆ ಸಂಬಂಧಿಸಿದ ರೋಗ ಬರುವುದು, ಕರು ಹಾಕುವುದು ಕಷ್ಟವಾಗುವುದು ಮುಂತಾದ ಅಪಾಯಗಳಿವೆ.",
+            "अगर ड्राई पीरियड लंबा खिंच जाए, तो पशु के मोटे होने, मोटापे से जुड़ी बीमारी होने और ब्याना कठिन होने जैसे खतरे रहते हैं।"
+          ),
         },
       ],
     },
