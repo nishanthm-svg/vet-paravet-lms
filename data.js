@@ -8001,8 +8001,8 @@ export const MODULES = [
   {
     id: "m10",
     number: 10,
-    title: L("Common Poisoning Conditions"),
-    subtitle: L("Recognising the most common poisoning cases seen in the field, and what to do immediately."),
+    title: L("Common Poisoning Conditions", "సాధారణ విషప్రయోగ పరిస్థితులు", "பொதுவான நச்சுத்தன்மை நிலைகள்", "ಸಾಮಾನ್ಯ ವಿಷಬಾಧೆ ಸ್ಥಿತಿಗಳು", "सामान्य विषाक्तता की स्थितियाँ"),
+    subtitle: L("Recognising the most common poisoning cases seen in the field, and what to do immediately.", "క్షేత్రంలో కనిపించే అత్యంత సాధారణ విషప్రయోగ కేసులను గుర్తించడం మరియు వెంటనే ఏమి చేయాలో తెలుసుకోవడం.", "வயலில் காணப்படும் பொதுவான நச்சுத்தன்மை நிகழ்வுகளை அடையாளம் காணுதல் மற்றும் உடனடியாக என்ன செய்ய வேண்டும் என்பதை அறிதல்.", "ಕ್ಷೇತ್ರದಲ್ಲಿ ಕಂಡುಬರುವ ಅತ್ಯಂತ ಸಾಮಾನ್ಯ ವಿಷಬಾಧೆ ಪ್ರಕರಣಗಳನ್ನು ಗುರುತಿಸುವುದು ಮತ್ತು ತಕ್ಷಣ ಏನು ಮಾಡಬೇಕೆಂದು ತಿಳಿಯುವುದು.", "खेत में दिखने वाले सबसे सामान्य विषाक्तता के मामलों को पहचानना, और तुरंत क्या करना है यह जानना।"),
     icon: "warning",
     available: true,
     lessons: [
@@ -8011,57 +8011,73 @@ export const MODULES = [
   // ==================================================================
   {
     id: "m10-l1",
-    title: L("Recognising Poisoning: Cottonseed and Plant Poisons"),
+    title: L("Recognising Poisoning: Cottonseed and Plant Poisons", "విషప్రయోగాన్ని గుర్తించడం: పత్తి గింజలు మరియు మొక్కల విషాలు", "நச்சுத்தன்மையை அடையாளம் காணுதல்: பருத்தி விதை மற்றும் தாவர நச்சுகள்", "ವಿಷಬಾಧೆಯನ್ನು ಗುರುತಿಸುವುದು: ಹತ್ತಿ ಬೀಜ ಮತ್ತು ಸಸ್ಯ ವಿಷಗಳು", "विषाक्तता को पहचानना: कपास के बीज और पौधों के ज़हर"),
     estMinutes: 8,
     hook: [
       {
         type: "hero",
-        heading: L("Some of the Most Dangerous Emergencies You Will See"),
+        heading: L("Some of the Most Dangerous Emergencies You Will See", "మీరు చూసే అత్యంత ప్రమాదకరమైన అత్యవసర పరిస్థితులలో కొన్ని", "நீங்கள் காணும் மிகவும் ஆபத்தான அவசரநிலைகளில் சில", "ನೀವು ನೋಡುವ ಅತ್ಯಂತ ಅಪಾಯಕಾರಿ ತುರ್ತು ಪರಿಸ್ಥಿತಿಗಳಲ್ಲಿ ಕೆಲವು", "आप जो सबसे खतरनाक आपात स्थितियाँ देखेंगे, उनमें से कुछ"),
         text: L(
-          "Poisoning happens when an animal eats or comes into contact with something harmful — certain plants, or certain feeds. It can turn fatal within hours, sometimes even before a vet can be called. Your most powerful tool is recognising the warning signs early and getting help immediately — you are never expected to treat poisoning yourself."
+          "Poisoning happens when an animal eats or comes into contact with something harmful — certain plants, or certain feeds. It can turn fatal within hours, sometimes even before a vet can be called. Your most powerful tool is recognising the warning signs early and getting help immediately — you are never expected to treat poisoning yourself.",
+          "జంతువు హానికరమైన దానిని తింటే లేదా దానితో సంపర్కంలోకి వస్తే విషప్రయోగం జరుగుతుంది — కొన్ని మొక్కలు లేదా కొన్ని దాణాలు. ఇది కొన్ని గంటల్లోనే ప్రాణాంతకంగా మారవచ్చు, కొన్నిసార్లు పశువైద్యుడిని పిలిచే లోపే. మీ అత్యంత శక్తివంతమైన సాధనం హెచ్చరిక సంకేతాలను ముందుగానే గుర్తించి వెంటనే సహాయం పొందడం — మీరు స్వయంగా విషప్రయోగానికి చికిత్స చేయాల్సిన అవసరం ఎప్పుడూ ఉండదు.",
+          "விலங்கு தீங்கு விளைவிக்கும் ஒன்றை உண்ணும்போது அல்லது அதனுடன் தொடர்பு கொள்ளும்போது நச்சுத்தன்மை ஏற்படுகிறது — சில தாவரங்கள் அல்லது சில தீவனங்கள். இது சில மணி நேரங்களில் உயிராபத்தாக மாறக்கூடும், சில நேரங்களில் கால்நடை மருத்துவரை அழைக்கும் முன்பே. உங்கள் மிக சக்திவாய்ந்த கருவி எச்சரிக்கை அறிகுறிகளை முன்கூட்டியே அடையாளம் கண்டு உடனடியாக உதவி பெறுவதே — நீங்களே நச்சுத்தன்மைக்கு சிகிச்சை அளிக்க வேண்டும் என்று ஒருபோதும் எதிர்பார்க்கப்படவில்லை.",
+          "ಪ್ರಾಣಿಯು ಹಾನಿಕಾರಕ ವಸ್ತುವನ್ನು ತಿಂದಾಗ ಅಥವಾ ಅದರೊಂದಿಗೆ ಸಂಪರ್ಕಕ್ಕೆ ಬಂದಾಗ ವಿಷಬಾಧೆ ಸಂಭವಿಸುತ್ತದೆ — ಕೆಲವು ಸಸ್ಯಗಳು ಅಥವಾ ಕೆಲವು ಮೇವುಗಳು. ಇದು ಕೆಲವೇ ಗಂಟೆಗಳಲ್ಲಿ ಮಾರಣಾಂತಿಕವಾಗಬಹುದು, ಕೆಲವೊಮ್ಮೆ ಪಶುವೈದ್ಯರನ್ನು ಕರೆಯುವ ಮೊದಲೇ. ನಿಮ್ಮ ಅತ್ಯಂತ ಶಕ್ತಿಶಾಲಿ ಸಾಧನವೆಂದರೆ ಎಚ್ಚರಿಕೆ ಚಿಹ್ನೆಗಳನ್ನು ಮೊದಲೇ ಗುರುತಿಸಿ ತಕ್ಷಣ ಸಹಾಯ ಪಡೆಯುವುದು — ನೀವೇ ವಿಷಬಾಧೆಗೆ ಚಿಕಿತ್ಸೆ ನೀಡಬೇಕೆಂದು ಎಂದಿಗೂ ನಿರೀಕ್ಷಿಸಲಾಗುವುದಿಲ್ಲ.",
+          "विषाक्तता तब होती है जब कोई जानवर कोई हानिकारक चीज़ खा लेता है या उसके संपर्क में आ जाता है — कुछ पौधे, या कुछ चारा। यह कुछ ही घंटों में जानलेवा हो सकता है, कभी-कभी पशु चिकित्सक को बुलाने से पहले ही। आपका सबसे शक्तिशाली उपकरण है चेतावनी के लक्षणों को जल्दी पहचानना और तुरंत मदद लेना — आपसे कभी भी खुद विषाक्तता का इलाज करने की उम्मीद नहीं की जाती।"
         ),
       },
     ],
     topics: [
       {
         id: "t-m10-gossypol",
-        title: L("Gossypol Poisoning: When Cottonseed Feed Turns Harmful"),
+        title: L("Gossypol Poisoning: When Cottonseed Feed Turns Harmful", "గాసిపాల్ విషప్రయోగం: పత్తి గింజల దాణా హానికరంగా మారినప్పుడు", "காசிபோல் நச்சுத்தன்மை: பருத்தி விதை தீவனம் தீங்கு விளைவிக்கும்போது", "ಗಾಸಿಪೋಲ್ ವಿಷಬಾಧೆ: ಹತ್ತಿ ಬೀಜದ ಮೇವು ಹಾನಿಕಾರಕವಾದಾಗ", "गॉसिपॉल विषाक्तता: जब कपास के बीज का चारा हानिकारक बन जाता है"),
         teach: [
             {
               type: "photo",
               src: "assets/photo-m10-cottonseed.jpg",
-              alt: L("Cattle and calves eating whole cottonseed spread on pasture, with a farmer standing nearby holding a feed bucket"),
-              caption: L("Whole cottonseed feed — the exact feed source that contains gossypol, the poisoning risk this lesson covers."),
+              alt: L("Cattle and calves eating whole cottonseed spread on pasture, with a farmer standing nearby holding a feed bucket", "పచ్చిక మైదానంలో వెదజల్లిన మొత్తం పత్తి గింజలను తింటున్న పశువులు మరియు దూడలు, పక్కనే దాణా బకెట్ పట్టుకుని నిలబడి ఉన్న రైతు", "மேய்ச்சல் நிலத்தில் பரவப்பட்ட முழு பருத்தி விதைகளை உண்ணும் கால்நடைகள் மற்றும் கன்றுகள், அருகில் தீவனப் பக்கெட்டுடன் நிற்கும் விவசாயி", "ಹುಲ್ಲುಗಾವಲಿನಲ್ಲಿ ಹರಡಿದ ಸಂಪೂರ್ಣ ಹತ್ತಿ ಬೀಜವನ್ನು ತಿನ್ನುತ್ತಿರುವ ಜಾನುವಾರುಗಳು ಮತ್ತು ಕರುಗಳು, ಪಕ್ಕದಲ್ಲಿ ಮೇವಿನ ಬಕೆಟ್ ಹಿಡಿದು ನಿಂತಿರುವ ರೈತ", "चरागाह में फैले साबुत कपास के बीज खाते हुए मवेशी और बछड़े, पास में चारे की बाल्टी पकड़े खड़ा एक किसान"),
+              caption: L("Whole cottonseed feed — the exact feed source that contains gossypol, the poisoning risk this lesson covers.", "సంపూర్ణ పత్తి గింజల దాణా — ఈ పాఠం చర్చించే విషప్రయోగ ప్రమాదమైన గాసిపాల్ ఉండే ఖచ్చితమైన దాణా వనరు.", "முழு பருத்தி விதை தீவனம் — இந்த பாடம் விவரிக்கும் நச்சுத்தன்மை ஆபத்தான காசிபோலைக் கொண்டிருக்கும் சரியான தீவன மூலம்.", "ಸಂಪೂರ್ಣ ಹತ್ತಿ ಬೀಜದ ಮೇವು — ಈ ಪಾಠವು ಚರ್ಚಿಸುವ ವಿಷಬಾಧೆ ಅಪಾಯವಾದ ಗಾಸಿಪೋಲ್ ಅನ್ನು ಹೊಂದಿರುವ ನಿಖರವಾದ ಮೇವಿನ ಮೂಲ.", "साबुत कपास के बीज का चारा — यह पाठ जिस विषाक्तता के खतरे की बात करता है, उस गॉसिपॉल का ठीक वही स्रोत।"),
             },
           {
             type: "text",
-            heading: L("What Is Gossypol Poisoning?"),
+            heading: L("What Is Gossypol Poisoning?", "గాసిపాల్ విషప్రయోగం అంటే ఏమిటి?", "காசிபோல் நச்சுத்தன்மை என்றால் என்ன?", "ಗಾಸಿಪೋಲ್ ವಿಷಬಾಧೆ ಎಂದರೇನು?", "गॉसिपॉल विषाक्तता क्या है?"),
             html: L(
-              "Cottonseed and cottonseed-based feeds are commonly given to high-yielding dairy cows because they are rich in protein. But cottonseed naturally contains a substance called <b>gossypol</b>. If cows — especially heavy milk producers eating a lot of feed — are given cottonseed products in excess, or over a long period, gossypol can build up in the body and become poisonous. Other adult ruminants fed too much gossypol for a long time can also be affected."
+              "Cottonseed and cottonseed-based feeds are commonly given to high-yielding dairy cows because they are rich in protein. But cottonseed naturally contains a substance called <b>gossypol</b>. If cows — especially heavy milk producers eating a lot of feed — are given cottonseed products in excess, or over a long period, gossypol can build up in the body and become poisonous. Other adult ruminants fed too much gossypol for a long time can also be affected.",
+              "పత్తి గింజలు మరియు పత్తి గింజల ఆధారిత దాణాలు ప్రోటీన్ అధికంగా ఉండటం వల్ల అధిక పాల దిగుబడినిచ్చే ఆవులకు సాధారణంగా ఇవ్వబడతాయి. కానీ పత్తి గింజలలో సహజంగా <b>గాసిపాల్</b> అనే పదార్థం ఉంటుంది. ఎక్కువ దాణా తినే ఆవులకు — ముఖ్యంగా అధిక పాల ఉత్పత్తిదారులకు — పత్తి గింజల ఉత్పత్తులను అధికంగా లేదా చాలా కాలం పాటు ఇస్తే, గాసిపాల్ శరీరంలో పేరుకుపోయి విషప్రయోగంగా మారవచ్చు. చాలా కాలం పాటు అధిక గాసిపాల్ తినే ఇతర వయోజన నెమరువేసే జంతువులు కూడా ప్రభావితం కావచ్చు.",
+              "பருத்தி விதை மற்றும் பருத்தி விதை அடிப்படையிலான தீவனங்கள் புரதம் நிறைந்தவை என்பதால் அதிக பால் தரும் பசுக்களுக்கு பொதுவாக வழங்கப்படுகின்றன. ஆனால் பருத்தி விதையில் இயற்கையாகவே <b>காசிபோல்</b> எனப்படும் பொருள் உள்ளது. அதிக தீவனம் உண்ணும் பசுக்களுக்கு — குறிப்பாக அதிக பால் உற்பத்தியாளர்களுக்கு — பருத்தி விதை பொருட்களை அதிகமாக அல்லது நீண்ட காலம் வழங்கினால், காசிபோல் உடலில் குவிந்து நச்சுத்தன்மையாக மாறலாம். நீண்ட காலம் அதிக காசிபோல் உண்ணும் மற்ற வயது வந்த அசைபோடும் விலங்குகளும் பாதிக்கப்படலாம்.",
+              "ಪ್ರೋಟೀನ್ ಸಮೃದ್ಧವಾಗಿರುವ ಕಾರಣ ಹೆಚ್ಚು ಹಾಲು ಕೊಡುವ ಹಸುಗಳಿಗೆ ಹತ್ತಿ ಬೀಜ ಮತ್ತು ಹತ್ತಿ ಬೀಜ ಆಧಾರಿತ ಮೇವುಗಳನ್ನು ಸಾಮಾನ್ಯವಾಗಿ ನೀಡಲಾಗುತ್ತದೆ. ಆದರೆ ಹತ್ತಿ ಬೀಜದಲ್ಲಿ ಸ್ವಾಭಾವಿಕವಾಗಿ <b>ಗಾಸಿಪೋಲ್</b> ಎಂಬ ವಸ್ತು ಇರುತ್ತದೆ. ಹೆಚ್ಚು ಮೇವು ತಿನ್ನುವ ಹಸುಗಳಿಗೆ — ವಿಶೇಷವಾಗಿ ಹೆಚ್ಚು ಹಾಲು ಉತ್ಪಾದಿಸುವವುಗಳಿಗೆ — ಹತ್ತಿ ಬೀಜದ ಉತ್ಪನ್ನಗಳನ್ನು ಅತಿಯಾಗಿ ಅಥವಾ ದೀರ್ಘಕಾಲ ನೀಡಿದರೆ, ಗಾಸಿಪೋಲ್ ದೇಹದಲ್ಲಿ ಸಂಗ್ರಹವಾಗಿ ವಿಷಕಾರಿಯಾಗಬಹುದು. ದೀರ್ಘಕಾಲ ಹೆಚ್ಚು ಗಾಸಿಪೋಲ್ ತಿನ್ನುವ ಇತರ ವಯಸ್ಕ ಮೆಲುಕು ಹಾಕುವ ಪ್ರಾಣಿಗಳೂ ಸಹ ಬಾಧಿತವಾಗಬಹುದು.",
+              "कपास के बीज और कपास के बीज पर आधारित चारा आमतौर पर अधिक दूध देने वाली गायों को दिया जाता है क्योंकि इनमें प्रोटीन भरपूर होता है। लेकिन कपास के बीज में प्राकृतिक रूप से <b>गॉसिपॉल</b> नामक पदार्थ होता है। अगर गायों को — खासकर अधिक चारा खाने वाली अधिक दूध देने वाली गायों को — कपास के बीज के उत्पाद अधिक मात्रा में या लंबे समय तक दिए जाएं, तो गॉसिपॉल शरीर में जमा होकर विषैला बन सकता है। लंबे समय तक बहुत अधिक गॉसिपॉल खाने वाले अन्य वयस्क जुगाली करने वाले जानवर भी प्रभावित हो सकते हैं।"
             ),
           },
           {
             type: "glossary",
-            term: L("Gossypol"),
+            term: L("Gossypol", "గాసిపాల్", "காசிபோல்", "ಗಾಸಿಪೋಲ್", "गॉसिपॉल"),
             meaning: L(
-              "A natural substance found in cottonseed. In small amounts it is not a problem, but if an animal — especially a high-producing dairy cow — eats too much cottonseed feed, or eats it for too long, gossypol can build up in the body and cause poisoning."
+              "A natural substance found in cottonseed. In small amounts it is not a problem, but if an animal — especially a high-producing dairy cow — eats too much cottonseed feed, or eats it for too long, gossypol can build up in the body and cause poisoning.",
+              "పత్తి గింజలలో లభించే సహజ పదార్థం. తక్కువ మొత్తంలో ఇది సమస్య కాదు, కానీ ఒక జంతువు — ముఖ్యంగా అధిక పాల ఉత్పత్తినిచ్చే ఆవు — చాలా ఎక్కువ పత్తి గింజల దాణాను తింటే, లేదా చాలా కాలం పాటు తింటే, గాసిపాల్ శరీరంలో పేరుకుపోయి విషప్రయోగానికి కారణమవుతుంది.",
+              "பருத்தி விதையில் காணப்படும் இயற்கை பொருள். சிறிய அளவில் இது பிரச்சனை இல்லை, ஆனால் ஒரு விலங்கு — குறிப்பாக அதிக பால் உற்பத்தி செய்யும் பசு — அதிக பருத்தி விதை தீவனத்தை உண்டால், அல்லது நீண்ட காலம் உண்டால், காசிபோல் உடலில் குவிந்து நச்சுத்தன்மையை ஏற்படுத்தும்.",
+              "ಹತ್ತಿ ಬೀಜದಲ್ಲಿ ಕಂಡುಬರುವ ಸ್ವಾಭಾವಿಕ ವಸ್ತು. ಕಡಿಮೆ ಪ್ರಮಾಣದಲ್ಲಿ ಇದು ಸಮಸ್ಯೆಯಲ್ಲ, ಆದರೆ ಒಂದು ಪ್ರಾಣಿ — ವಿಶೇಷವಾಗಿ ಹೆಚ್ಚು ಹಾಲು ಉತ್ಪಾದಿಸುವ ಹಸು — ಹೆಚ್ಚು ಹತ್ತಿ ಬೀಜದ ಮೇವನ್ನು ತಿಂದರೆ, ಅಥವಾ ಬಹಳ ಕಾಲ ತಿಂದರೆ, ಗಾಸಿಪೋಲ್ ದೇಹದಲ್ಲಿ ಸಂಗ್ರಹವಾಗಿ ವಿಷಬಾಧೆಗೆ ಕಾರಣವಾಗಬಹುದು.",
+              "कपास के बीज में पाया जाने वाला प्राकृतिक पदार्थ। कम मात्रा में यह कोई समस्या नहीं है, लेकिन अगर कोई जानवर — खासकर अधिक दूध देने वाली गाय — बहुत अधिक कपास के बीज का चारा खाए, या बहुत लंबे समय तक खाए, तो गॉसिपॉल शरीर में जमा होकर विषाक्तता का कारण बन सकता है।"
             ),
           },
           {
             type: "stat-grid",
             items: [
               {
-                label: L("Early signs"),
-                text: L("Irregular breeding cycles in cows and buffaloes, and reduced interest in mating in male animals."),
+                label: L("Early signs", "ప్రారంభ లక్షణాలు", "ஆரம்ப அறிகுறிகள்", "ಆರಂಭಿಕ ಲಕ್ಷಣಗಳು", "प्रारंभिक लक्षण"),
+                text: L("Irregular breeding cycles in cows and buffaloes, and reduced interest in mating in male animals.", "ఆవులు మరియు గేదెలలో సక్రమంగా లేని సంతానోత్పత్తి చక్రాలు, మరియు మగ జంతువులలో సంభోగం పట్ల ఆసక్తి తగ్గడం.", "பசுக்கள் மற்றும் எருமைகளில் ஒழுங்கற்ற இனப்பெருக்க சுழற்சிகள், மற்றும் ஆண் விலங்குகளில் இணைவதில் ஆர்வம் குறைதல்.", "ಹಸುಗಳು ಮತ್ತು ಎಮ್ಮೆಗಳಲ್ಲಿ ಅನಿಯಮಿತ ಸಂತಾನೋತ್ಪತ್ತಿ ಚಕ್ರಗಳು, ಮತ್ತು ಗಂಡು ಪ್ರಾಣಿಗಳಲ್ಲಿ ಸಂಭೋಗದ ಆಸಕ್ತಿ ಕಡಿಮೆಯಾಗುವುದು.", "गायों और भैंसों में अनियमित प्रजनन चक्र, और नर पशुओं में संभोग में रुचि कम होना।"),
               },
               {
-                label: L("General body signs"),
-                text: L("Weight loss, weakness, going off feed (not eating), and becoming more easily stressed than usual."),
+                label: L("General body signs", "సాధారణ శరీర లక్షణాలు", "பொதுவான உடல் அறிகுறிகள்", "ಸಾಮಾನ್ಯ ದೇಹದ ಲಕ್ಷಣಗಳು", "सामान्य शारीरिक लक्षण"),
+                text: L("Weight loss, weakness, going off feed (not eating), and becoming more easily stressed than usual.", "బరువు తగ్గడం, బలహీనత, దాణా మానేయడం (తినకపోవడం), మరియు మామూలు కంటే సులభంగా ఒత్తిడికి గురికావడం.", "எடை இழப்பு, பலவீனம், தீவனம் உண்ணாமல் இருத்தல், மற்றும் வழக்கத்தை விட எளிதில் மன அழுத்தத்திற்கு உள்ளாதல்.", "ತೂಕ ನಷ್ಟ, ದೌರ್ಬಲ್ಯ, ಮೇವು ತಿನ್ನದಿರುವುದು, ಮತ್ತು ಸಾಮಾನ್ಯಕ್ಕಿಂತ ಸುಲಭವಾಗಿ ಒತ್ತಡಕ್ಕೆ ಒಳಗಾಗುವುದು.", "वजन घटना, कमजोरी, चारा खाना छोड़ देना, और सामान्य से अधिक आसानी से तनावग्रस्त हो जाना।"),
               },
               {
-                label: L("More serious signs"),
+                label: L("More serious signs", "మరింత తీవ్రమైన లక్షణాలు", "மேலும் தீவிரமான அறிகுறிகள்", "ಹೆಚ್ಚು ಗಂಭೀರ ಲಕ್ಷಣಗಳು", "अधिक गंभीर लक्षण"),
                 text: L(
-                  "In adult dairy cattle: weakness, dullness (depression), not eating, swelling under the skin near the chest (called the brisket), and difficult breathing. Blood may also appear in the urine, along with reproductive problems."
+                  "In adult dairy cattle: weakness, dullness (depression), not eating, swelling under the skin near the chest (called the brisket), and difficult breathing. Blood may also appear in the urine, along with reproductive problems.",
+                  "వయోజన పాడి పశువులలో: బలహీనత, నీరసం (డిప్రెషన్), తినకపోవడం, ఛాతీ దగ్గర చర్మం కింద వాపు (బ్రిస్కెట్ అని పిలుస్తారు), మరియు శ్వాస తీసుకోవడంలో ఇబ్బంది. మూత్రంలో రక్తం కూడా కనిపించవచ్చు, సంతానోత్పత్తి సమస్యలతో పాటు.",
+                  "வயது வந்த பால் கால்நடைகளில்: பலவீனம், மந்தநிலை, உண்ணாமை, மார்பு அருகே தோலுக்கு அடியில் வீக்கம் (பிரிஸ்கெட் எனப்படும்), மற்றும் சுவாசிப்பதில் சிரமம். சிறுநீரில் இரத்தமும் தோன்றலாம், இனப்பெருக்க பிரச்சனைகளுடன்.",
+                  "ವಯಸ್ಕ ಹೈನು ಜಾನುವಾರುಗಳಲ್ಲಿ: ದೌರ್ಬಲ್ಯ, ಜಡತೆ (ಖಿನ್ನತೆ), ತಿನ್ನದಿರುವುದು, ಎದೆಯ ಬಳಿ ಚರ್ಮದ ಕೆಳಗೆ ಊತ (ಬ್ರಿಸ್ಕೆಟ್ ಎಂದು ಕರೆಯುತ್ತಾರೆ), ಮತ್ತು ಉಸಿರಾಟದ ತೊಂದರೆ. ಮೂತ್ರದಲ್ಲಿ ರಕ್ತವೂ ಕಾಣಿಸಿಕೊಳ್ಳಬಹುದು, ಸಂತಾನೋತ್ಪತ್ತಿ ಸಮಸ್ಯೆಗಳ ಜೊತೆಗೆ.",
+                  "वयस्क डेयरी पशुओं में: कमजोरी, सुस्ती (डिप्रेशन), न खाना, छाती के पास त्वचा के नीचे सूजन (जिसे ब्रिस्केट कहते हैं), और सांस लेने में कठिनाई। पेशाब में खून भी दिख सकता है, प्रजनन संबंधी समस्याओं के साथ।"
                 ),
               },
             ],
@@ -8069,130 +8085,162 @@ export const MODULES = [
           {
             type: "callout",
             style: "warning",
-            heading: L("Don't Wait — Even After Feed Is Stopped"),
+            heading: L("Don't Wait — Even After Feed Is Stopped", "వేచి ఉండకండి — దాణా ఆపిన తర్వాత కూడా", "காத்திருக்க வேண்டாம் — தீவனம் நிறுத்தப்பட்ட பின்னரும் கூட", "ಕಾಯಬೇಡಿ — ಮೇವು ನಿಲ್ಲಿಸಿದ ನಂತರವೂ", "इंतज़ार न करें — चारा बंद करने के बाद भी"),
             text: L(
-              "Gossypol poisoning is serious. Even after cottonseed feed is removed, severely affected animals can still die up to two weeks later, and poor weight gain can continue for several weeks. This is exactly why noticing the early signs and reporting them immediately matters so much — the sooner a vet is involved, the better the animal's chances."
+              "Gossypol poisoning is serious. Even after cottonseed feed is removed, severely affected animals can still die up to two weeks later, and poor weight gain can continue for several weeks. This is exactly why noticing the early signs and reporting them immediately matters so much — the sooner a vet is involved, the better the animal's chances.",
+              "గాసిపాల్ విషప్రయోగం తీవ్రమైనది. పత్తి గింజల దాణాను తొలగించిన తర్వాత కూడా, తీవ్రంగా ప్రభావితమైన జంతువులు రెండు వారాల తర్వాత కూడా చనిపోవచ్చు, మరియు సరిగా బరువు పెరగకపోవడం చాలా వారాల పాటు కొనసాగవచ్చు. అందుకే ప్రారంభ లక్షణాలను గమనించి వెంటనే నివేదించడం చాలా ముఖ్యం — పశువైద్యుడు వీలైనంత త్వరగా ప్రమేయం చేసుకుంటే, జంతువు బతికే అవకాశాలు మెరుగవుతాయి.",
+              "காசிபோல் நச்சுத்தன்மை கடுமையானது. பருத்தி விதை தீவனத்தை நீக்கிய பின்னரும் கூட, கடுமையாக பாதிக்கப்பட்ட விலங்குகள் இரண்டு வாரங்களுக்குப் பிறகும் இறக்கலாம், மேலும் சரியான எடை அதிகரிப்பு பல வாரங்களுக்கு தடைபடலாம். ஆரம்ப அறிகுறிகளைக் கவனித்து உடனடியாக தெரிவிப்பது மிகவும் முக்கியமானது என்பதற்கு இதுவே காரணம் — கால்நடை மருத்துவர் விரைவில் ஈடுபடுந்தோறும், விலங்கின் வாய்ப்புகள் சிறப்பாக இருக்கும்.",
+              "ಗಾಸಿಪೋಲ್ ವಿಷಬಾಧೆ ಗಂಭೀರವಾದದ್ದು. ಹತ್ತಿ ಬೀಜದ ಮೇವನ್ನು ತೆಗೆದುಹಾಕಿದ ನಂತರವೂ, ತೀವ್ರವಾಗಿ ಬಾಧಿತವಾದ ಪ್ರಾಣಿಗಳು ಎರಡು ವಾರಗಳ ನಂತರವೂ ಸಾಯಬಹುದು, ಮತ್ತು ಸರಿಯಾದ ತೂಕ ಹೆಚ್ಚಳವಿಲ್ಲದಿರುವುದು ಹಲವಾರು ವಾರಗಳ ಕಾಲ ಮುಂದುವರಿಯಬಹುದು. ಆರಂಭಿಕ ಲಕ್ಷಣಗಳನ್ನು ಗಮನಿಸಿ ತಕ್ಷಣ ವರದಿ ಮಾಡುವುದು ಇಷ್ಟು ಮುಖ್ಯವಾಗಿರುವುದಕ್ಕೆ ಇದೇ ಕಾರಣ — ಪಶುವೈದ್ಯರು ಎಷ್ಟು ಬೇಗ ತೊಡಗಿಸಿಕೊಳ್ಳುತ್ತಾರೋ, ಪ್ರಾಣಿಯ ಬದುಕುಳಿಯುವ ಅವಕಾಶ ಅಷ್ಟು ಉತ್ತಮವಾಗಿರುತ್ತದೆ.",
+              "गॉसिपॉल विषाक्तता गंभीर है। कपास के बीज का चारा हटाने के बाद भी, गंभीर रूप से प्रभावित पशु दो सप्ताह बाद तक भी मर सकते हैं, और वजन ठीक से न बढ़ना कई सप्ताह तक जारी रह सकता है। इसीलिए प्रारंभिक लक्षणों को पहचानना और तुरंत सूचित करना इतना महत्वपूर्ण है — पशु चिकित्सक जितनी जल्दी शामिल हो, पशु के बचने की संभावना उतनी ही बेहतर होती है।"
             ),
           },
           {
             type: "callout",
             style: "tip",
-            heading: L("If You Suspect Gossypol Poisoning"),
+            heading: L("If You Suspect Gossypol Poisoning", "గాసిపాల్ విషప్రయోగాన్ని మీరు అనుమానించినట్లయితే", "காசிபோல் நச்சுத்தன்மையை நீங்கள் சந்தேகித்தால்", "ಗಾಸಿಪೋಲ್ ವಿಷಬಾಧೆಯನ್ನು ನೀವು ಸಂಶಯಿಸಿದರೆ", "अगर आपको गॉसिपॉल विषाक्तता का संदेह हो"),
             text: L(
-              "Stop feeding cottonseed or cottonseed products to the animal straight away, and inform the owner or vet immediately. Do not try to treat the animal yourself beyond this — a vet needs to guide any further care, including any changes to diet."
+              "Stop feeding cottonseed or cottonseed products to the animal straight away, and inform the owner or vet immediately. Do not try to treat the animal yourself beyond this — a vet needs to guide any further care, including any changes to diet.",
+              "వెంటనే జంతువుకు పత్తి గింజలు లేదా పత్తి గింజల ఉత్పత్తులు ఇవ్వడం ఆపేయండి, మరియు వెంటనే యజమానికి లేదా పశువైద్యుడికి తెలియజేయండి. దీనికి మించి మీరు స్వయంగా జంతువుకు చికిత్స చేయడానికి ప్రయత్నించవద్దు — ఆహారంలో ఏవైనా మార్పులతో సహా తదుపరి సంరక్షణను పశువైద్యుడు మార్గనిర్దేశం చేయాలి.",
+              "உடனடியாக விலங்குக்கு பருத்தி விதை அல்லது பருத்தி விதை பொருட்களை வழங்குவதை நிறுத்தி, உடனடியாக உரிமையாளர் அல்லது கால்நடை மருத்துவருக்கு தெரிவிக்கவும். இதற்கு மேல் நீங்களே விலங்குக்கு சிகிச்சை அளிக்க முயற்சிக்க வேண்டாம் — உணவில் ஏதேனும் மாற்றங்கள் உட்பட மேலதிக பராமரிப்பை கால்நடை மருத்துவர் வழிகாட்ட வேண்டும்.",
+              "ತಕ್ಷಣ ಪ್ರಾಣಿಗೆ ಹತ್ತಿ ಬೀಜ ಅಥವಾ ಹತ್ತಿ ಬೀಜದ ಉತ್ಪನ್ನಗಳನ್ನು ನೀಡುವುದನ್ನು ನಿಲ್ಲಿಸಿ, ಮತ್ತು ತಕ್ಷಣ ಮಾಲೀಕರಿಗೆ ಅಥವಾ ಪಶುವೈದ್ಯರಿಗೆ ತಿಳಿಸಿ. ಇದಕ್ಕಿಂತ ಹೆಚ್ಚಾಗಿ ನೀವೇ ಪ್ರಾಣಿಗೆ ಚಿಕಿತ್ಸೆ ನೀಡಲು ಪ್ರಯತ್ನಿಸಬೇಡಿ — ಆಹಾರದಲ್ಲಿನ ಯಾವುದೇ ಬದಲಾವಣೆಗಳು ಸೇರಿದಂತೆ ಮುಂದಿನ ಆರೈಕೆಯನ್ನು ಪಶುವೈದ್ಯರು ಮಾರ್ಗದರ್ಶನ ಮಾಡಬೇಕು.",
+              "तुरंत पशु को कपास के बीज या कपास के बीज के उत्पाद खिलाना बंद करें, और तुरंत मालिक या पशु चिकित्सक को सूचित करें। इससे आगे खुद पशु का इलाज करने की कोशिश न करें — आहार में किसी भी बदलाव सहित आगे की देखभाल के लिए पशु चिकित्सक का मार्गदर्शन आवश्यक है।"
             ),
           },
         ],
         check: [
           {
             type: "mcq",
-            q: L("Gossypol poisoning is caused by:"),
+            q: L("Gossypol poisoning is caused by:", "గాసిపాల్ విషప్రయోగానికి కారణం:", "காசிபோல் நச்சுத்தன்மைக்கு காரணம்:", "ಗಾಸಿಪೋಲ್ ವಿಷಬಾಧೆಗೆ ಕಾರಣ:", "गॉसिपॉल विषाक्तता का कारण है:"),
             options: [
-              L("Cottonseed or cottonseed feed given in excess or over long periods"),
-              L("A snake bite"),
-              L("Dirty drinking water"),
-              L("The animal working too hard"),
+              L("Cottonseed or cottonseed feed given in excess or over long periods", "పత్తి గింజలు లేదా పత్తి గింజల దాణాను అధికంగా లేదా చాలా కాలం పాటు ఇవ్వడం", "பருத்தி விதை அல்லது பருத்தி விதை தீவனத்தை அதிகமாக அல்லது நீண்ட காலம் வழங்குதல்", "ಹತ್ತಿ ಬೀಜ ಅಥವಾ ಹತ್ತಿ ಬೀಜದ ಮೇವನ್ನು ಅತಿಯಾಗಿ ಅಥವಾ ದೀರ್ಘಕಾಲ ನೀಡುವುದು", "कपास के बीज या कपास के बीज का चारा अधिक मात्रा में या लंबे समय तक देना"),
+              L("A snake bite", "పాము కాటు", "பாம்பு கடி", "ಹಾವು ಕಡಿತ", "साँप का काटना"),
+              L("Dirty drinking water", "మురికి తాగునీరు", "அழுக்கு குடிநீர்", "ಕೊಳಕು ಕುಡಿಯುವ ನೀರು", "गंदा पीने का पानी"),
+              L("The animal working too hard", "జంతువు ఎక్కువగా పనిచేయడం", "விலங்கு அதிகமாக வேலை செய்தல்", "ಪ್ರಾಣಿ ಹೆಚ್ಚು ಕೆಲಸ ಮಾಡುವುದು", "जानवर का बहुत अधिक काम करना"),
             ],
             answer: 0,
             explain: L(
-              "Gossypol is a substance naturally found in cottonseed. Too much of it, or feeding it for too long, can build up in the body and poison the animal."
+              "Gossypol is a substance naturally found in cottonseed. Too much of it, or feeding it for too long, can build up in the body and poison the animal.",
+              "గాసిపాల్ అనేది పత్తి గింజలలో సహజంగా లభించే పదార్థం. దీన్ని ఎక్కువగా లేదా చాలా కాలం పాటు తినిపిస్తే, శరీరంలో పేరుకుపోయి జంతువుకు విషప్రయోగం కలిగించవచ్చు.",
+              "காசிபோல் என்பது பருத்தி விதையில் இயற்கையாகவே காணப்படும் பொருள். இதை அதிகமாக அல்லது நீண்ட காலம் ஊட்டினால், உடலில் குவிந்து விலங்குக்கு நச்சுத்தன்மையை ஏற்படுத்தும்.",
+              "ಗಾಸಿಪೋಲ್ ಹತ್ತಿ ಬೀಜದಲ್ಲಿ ಸ್ವಾಭಾವಿಕವಾಗಿ ಕಂಡುಬರುವ ವಸ್ತುವಾಗಿದೆ. ಇದನ್ನು ಹೆಚ್ಚು ಅಥವಾ ಬಹಳ ಕಾಲ ತಿನ್ನಿಸಿದರೆ, ದೇಹದಲ್ಲಿ ಸಂಗ್ರಹವಾಗಿ ಪ್ರಾಣಿಗೆ ವಿಷಬಾಧೆ ಉಂಟುಮಾಡಬಹುದು.",
+              "गॉसिपॉल कपास के बीज में प्राकृतिक रूप से पाया जाने वाला पदार्थ है। इसे अधिक मात्रा में या लंबे समय तक खिलाने से यह शरीर में जमा होकर जानवर को विषाक्त कर सकता है।"
             ),
           },
           {
             type: "truefalse",
-            q: L("Once cottonseed feed is removed from an affected animal's diet, the animal is immediately safe and can no longer die from gossypol poisoning."),
+            q: L("Once cottonseed feed is removed from an affected animal's diet, the animal is immediately safe and can no longer die from gossypol poisoning.", "ప్రభావితమైన జంతువు ఆహారం నుండి పత్తి గింజల దాణాను తొలగించిన వెంటనే, ఆ జంతువు వెంటనే సురక్షితంగా మారి గాసిపాల్ విషప్రయోగంతో చనిపోదు.", "பாதிக்கப்பட்ட விலங்கின் உணவில் இருந்து பருத்தி விதை தீவனம் நீக்கப்பட்டவுடன், அந்த விலங்கு உடனடியாக பாதுகாப்பாகி காசிபோல் நச்சுத்தன்மையால் இனி இறக்காது.", "ಬಾಧಿತ ಪ್ರಾಣಿಯ ಆಹಾರದಿಂದ ಹತ್ತಿ ಬೀಜದ ಮೇವನ್ನು ತೆಗೆದುಹಾಕಿದ ತಕ್ಷಣ, ಆ ಪ್ರಾಣಿ ತಕ್ಷಣ ಸುರಕ್ಷಿತವಾಗುತ್ತದೆ ಮತ್ತು ಗಾಸಿಪೋಲ್ ವಿಷಬಾಧೆಯಿಂದ ಇನ್ನು ಸಾಯುವುದಿಲ್ಲ.", "प्रभावित पशु के आहार से कपास के बीज का चारा हटाते ही, वह पशु तुरंत सुरक्षित हो जाता है और गॉसिपॉल विषाक्तता से अब नहीं मर सकता।"),
             answer: false,
             explain: L(
-              "No — severely affected animals can still die up to two weeks after cottonseed products are stopped. Removing the feed is essential, but it is not an instant cure."
+              "No — severely affected animals can still die up to two weeks after cottonseed products are stopped. Removing the feed is essential, but it is not an instant cure.",
+              "కాదు — పత్తి గింజల ఉత్పత్తులను ఆపిన తర్వాత కూడా తీవ్రంగా ప్రభావితమైన జంతువులు రెండు వారాల వరకు చనిపోవచ్చు. దాణాను తొలగించడం అవసరమే, కానీ అది తక్షణ నివారణ కాదు.",
+              "இல்லை — பருத்தி விதை பொருட்களை நிறுத்திய பிறகும் கடுமையாக பாதிக்கப்பட்ட விலங்குகள் இரண்டு வாரங்கள் வரை இறக்கலாம். தீவனத்தை நீக்குவது அவசியம், ஆனால் அது உடனடி குணப்படுத்தல் அல்ல.",
+              "ಇಲ್ಲ — ಹತ್ತಿ ಬೀಜದ ಉತ್ಪನ್ನಗಳನ್ನು ನಿಲ್ಲಿಸಿದ ನಂತರವೂ ತೀವ್ರವಾಗಿ ಬಾಧಿತವಾದ ಪ್ರಾಣಿಗಳು ಎರಡು ವಾರಗಳವರೆಗೆ ಸಾಯಬಹುದು. ಮೇವನ್ನು ತೆಗೆದುಹಾಕುವುದು ಅಗತ್ಯ, ಆದರೆ ಅದು ತಕ್ಷಣದ ಪರಿಹಾರವಲ್ಲ.",
+              "नहीं — कपास के बीज के उत्पाद बंद करने के बाद भी गंभीर रूप से प्रभावित पशु दो सप्ताह तक मर सकते हैं। चारा हटाना ज़रूरी है, लेकिन यह तुरंत इलाज नहीं है।"
             ),
           },
         ],
       },
       {
         id: "t-m10-cyanide",
-        title: L("Cyanide Poisoning: A Fast-Moving Emergency from Certain Plants"),
+        title: L("Cyanide Poisoning: A Fast-Moving Emergency from Certain Plants", "సైనైడ్ విషప్రయోగం: కొన్ని మొక్కల నుండి వేగంగా జరిగే అత్యవసర పరిస్థితి", "சயனைடு நச்சுத்தன்மை: சில தாவரங்களால் ஏற்படும் விரைவான அவசரநிலை", "ಸೈನೈಡ್ ವಿಷಬಾಧೆ: ಕೆಲವು ಸಸ್ಯಗಳಿಂದ ವೇಗವಾಗಿ ಸಂಭವಿಸುವ ತುರ್ತು ಪರಿಸ್ಥಿತಿ", "साइनाइड विषाक्तता: कुछ पौधों से होने वाली तेज़ी से बढ़ने वाली आपात स्थिति"),
         teach: [
             {
               type: "photo",
               src: "assets/illustration-m10-cyanide.png",
-              alt: L("Illustrated three-step diagram: an animal eating young sorghum or cassava leaves, cyanide blocking oxygen use in the body's cells, and the animal collapsing."),
-              caption: L("Illustration: how cyanide poisoning happens — it blocks the body's cells from using oxygen, causing sudden breathing distress and collapse."),
+              alt: L("Illustrated three-step diagram: an animal eating young sorghum or cassava leaves, cyanide blocking oxygen use in the body's cells, and the animal collapsing.", "మూడు దశల చిత్రపటం: లేత జొన్న లేదా కర్రపెండలం ఆకులు తింటున్న జంతువు, శరీర కణాలలో ఆక్సిజన్ వినియోగాన్ని అడ్డుకునే సైనైడ్, మరియు కుప్పకూలిపోతున్న జంతువు.", "மூன்று-படி விளக்கப்படம்: இளம் சோளம் அல்லது மரவள்ளிக்கிழங்கு இலைகளை உண்ணும் விலங்கு, உடலின் செல்களில் ஆக்ஸிஜன் பயன்பாட்டை தடுக்கும் சயனைடு, மற்றும் விலங்கு சரிந்து விழுதல்.", "ಮೂರು-ಹಂತದ ಚಿತ್ರ: ಎಳೆಯ ಜೋಳ ಅಥವಾ ಮರಗೆಣಸಿನ ಎಲೆಗಳನ್ನು ತಿನ್ನುವ ಪ್ರಾಣಿ, ದೇಹದ ಜೀವಕೋಶಗಳಲ್ಲಿ ಆಮ್ಲಜನಕ ಬಳಕೆಯನ್ನು ತಡೆಯುವ ಸೈನೈಡ್, ಮತ್ತು ಪ್ರಾಣಿ ಕುಸಿದುಬೀಳುವುದು.", "तीन-चरण का चित्र: कोमल ज्वार या कसावा (टैपिओका) की पत्तियाँ खाता जानवर, शरीर की कोशिकाओं में ऑक्सीजन के उपयोग को रोकता साइनाइड, और गिरता हुआ जानवर।"),
+              caption: L("Illustration: how cyanide poisoning happens — it blocks the body's cells from using oxygen, causing sudden breathing distress and collapse.", "చిత్రం: సైనైడ్ విషప్రయోగం ఎలా జరుగుతుంది — ఇది శరీర కణాలు ఆక్సిజన్‌ను వినియోగించకుండా అడ్డుకుంటుంది, దీనివల్ల ఆకస్మిక శ్వాస ఇబ్బంది మరియు కుప్పకూలడం జరుగుతుంది.", "விளக்கப்படம்: சயனைடு நச்சுத்தன்மை எப்படி ஏற்படுகிறது — இது உடலின் செல்கள் ஆக்ஸிஜனைப் பயன்படுத்துவதைத் தடுக்கிறது, இது திடீர் சுவாச சிரமம் மற்றும் சரிந்து விழுதலை ஏற்படுத்துகிறது.", "ಚಿತ್ರ: ಸೈನೈಡ್ ವಿಷಬಾಧೆ ಹೇಗೆ ಸಂಭವಿಸುತ್ತದೆ — ಇದು ದೇಹದ ಜೀವಕೋಶಗಳು ಆಮ್ಲಜನಕವನ್ನು ಬಳಸದಂತೆ ತಡೆಯುತ್ತದೆ, ಇದರಿಂದ ಹಠಾತ್ ಉಸಿರಾಟದ ತೊಂದರೆ ಮತ್ತು ಕುಸಿತ ಉಂಟಾಗುತ್ತದೆ.", "चित्रण: साइनाइड विषाक्तता कैसे होती है — यह शरीर की कोशिकाओं को ऑक्सीजन का उपयोग करने से रोकता है, जिससे अचानक सांस लेने में तकलीफ और गिरना होता है।"),
             },
             {
               type: "photo",
               src: "assets/photo-m10-sorghum.jpg",
-              alt: L("A sorghum plant growing in a field, with its tall grain seed head visible against a clear sky"),
-              caption: L("Sorghum — one of the plants this lesson names as a cyanide poisoning risk, especially at young growth stages."),
+              alt: L("A sorghum plant growing in a field, with its tall grain seed head visible against a clear sky", "పొలంలో పెరుగుతున్న జొన్న మొక్క, స్పష్టమైన ఆకాశానికి వ్యతిరేకంగా దాని పొడవైన ధాన్యం కంకి కనిపిస్తుంది", "ஒரு வயலில் வளரும் சோள செடி, தெளிவான வானத்திற்கு எதிராக அதன் உயரமான தானிய கதிர் தெரிகிறது", "ಹೊಲದಲ್ಲಿ ಬೆಳೆಯುತ್ತಿರುವ ಜೋಳದ ಗಿಡ, ಸ್ಪಷ್ಟ ಆಕಾಶದ ಹಿನ್ನೆಲೆಯಲ್ಲಿ ಅದರ ಎತ್ತರದ ಧಾನ್ಯದ ತೆನೆ ಕಾಣಿಸುತ್ತದೆ", "खेत में उगता हुआ ज्वार का पौधा, साफ आसमान के सामने उसकी लंबी बाल दिखाई देती है"),
+              caption: L("Sorghum — one of the plants this lesson names as a cyanide poisoning risk, especially at young growth stages.", "జొన్న — ఈ పాఠం సైనైడ్ విషప్రయోగ ప్రమాదంగా పేర్కొన్న మొక్కలలో ఒకటి, ముఖ్యంగా లేత పెరుగుదల దశలలో.", "சோளம் — இந்த பாடம் சயனைடு நச்சுத்தன்மை ஆபத்தாக குறிப்பிடும் தாவரங்களில் ஒன்று, குறிப்பாக இளம் வளர்ச்சி நிலைகளில்.", "ಜೋಳ — ಈ ಪಾಠವು ಸೈನೈಡ್ ವಿಷಬಾಧೆ ಅಪಾಯವೆಂದು ಹೆಸರಿಸುವ ಸಸ್ಯಗಳಲ್ಲಿ ಒಂದು, ವಿಶೇಷವಾಗಿ ಎಳೆಯ ಬೆಳವಣಿಗೆಯ ಹಂತಗಳಲ್ಲಿ.", "ज्वार — यह पाठ जिन पौधों को साइनाइड विषाक्तता का खतरा बताता है, उनमें से एक, खासकर कोमल अवस्था में।"),
             },
             {
               type: "photo",
               src: "assets/photo-m10-cassava.jpg",
-              alt: L("Close-up of cassava (tapioca) plant leaves, showing their distinctive palm-shaped leaflets"),
-              caption: L("Tapioca (cassava) leaves — another plant this lesson names as a cyanide poisoning risk."),
+              alt: L("Close-up of cassava (tapioca) plant leaves, showing their distinctive palm-shaped leaflets", "కర్రపెండలం (టాపియోకా) మొక్క ఆకుల క్లోజప్, వాటి ప్రత్యేకమైన అరచేతి ఆకారపు చిన్న ఆకులను చూపిస్తుంది", "மரவள்ளிக்கிழங்கு (டேபியோகா) செடி இலைகளின் நெருக்கமான காட்சி, அவற்றின் தனித்துவமான உள்ளங்கை வடிவ இலைகளைக் காட்டுகிறது", "ಮರಗೆಣಸು (ಟಪಿಯೋಕಾ) ಗಿಡದ ಎಲೆಗಳ ಸಮೀಪ ನೋಟ, ಅವುಗಳ ವಿಶಿಷ್ಟ ಅಂಗೈ ಆಕಾರದ ಎಲೆಗಳನ್ನು ತೋರಿಸುತ್ತದೆ", "कसावा (टैपिओका) पौधे की पत्तियों का क्लोज़-अप, उनकी विशिष्ट हथेली-आकार की पत्तियाँ दिखाते हुए"),
+              caption: L("Tapioca (cassava) leaves — another plant this lesson names as a cyanide poisoning risk.", "టాపియోకా (కర్రపెండలం) ఆకులు — ఈ పాఠం సైనైడ్ విషప్రయోగ ప్రమాదంగా పేర్కొన్న మరో మొక్క.", "டேபியோகா (மரவள்ளிக்கிழங்கு) இலைகள் — இந்த பாடம் சயனைடு நச்சுத்தன்மை ஆபத்தாக குறிப்பிடும் மற்றொரு தாவரம்.", "ಟಪಿಯೋಕಾ (ಮರಗೆಣಸು) ಎಲೆಗಳು — ಈ ಪಾಠವು ಸೈನೈಡ್ ವಿಷಬಾಧೆ ಅಪಾಯವೆಂದು ಹೆಸರಿಸುವ ಇನ್ನೊಂದು ಸಸ್ಯ.", "टैपिओका (कसावा) की पत्तियाँ — यह पाठ जिस एक और पौधे को साइनाइड विषाक्तता का खतरा बताता है।"),
             },
           {
             type: "text",
-            heading: L("Where Cyanide Poisoning Comes From"),
+            heading: L("Where Cyanide Poisoning Comes From", "సైనైడ్ విషప్రయోగం ఎక్కడ నుండి వస్తుంది", "சயனைடு நச்சுத்தன்மை எங்கிருந்து வருகிறது", "ಸೈನೈಡ್ ವಿಷಬಾಧೆ ಎಲ್ಲಿಂದ ಬರುತ್ತದೆ", "साइनाइड विषाक्तता कहाँ से आती है"),
             html: L(
-              "The most common cause of cyanide poisoning is an animal eating certain plants — including arrow grass, velvet grass, young Sorghum plants, and tapioca leaves. These plants can contain enough cyanide to poison an animal that eats them, especially at certain growth stages."
+              "The most common cause of cyanide poisoning is an animal eating certain plants — including arrow grass, velvet grass, young Sorghum plants, and tapioca leaves. These plants can contain enough cyanide to poison an animal that eats them, especially at certain growth stages.",
+              "సైనైడ్ విషప్రయోగానికి అత్యంత సాధారణ కారణం జంతువు కొన్ని మొక్కలను తినడం — ఆరో గ్రాస్, వెల్వెట్ గ్రాస్, లేత జొన్న మొక్కలు, మరియు కర్రపెండలం ఆకులతో సహా. ఈ మొక్కలు వాటిని తినే జంతువుకు విషప్రయోగం కలిగించేంత సైనైడ్‌ను కలిగి ఉండవచ్చు, ముఖ్యంగా కొన్ని పెరుగుదల దశలలో.",
+              "சயனைடு நச்சுத்தன்மைக்கு மிகவும் பொதுவான காரணம் ஒரு விலங்கு சில தாவரங்களை உண்பதுதான் — அம்பு புல், வெல்வெட் புல், இளம் சோள செடிகள், மற்றும் மரவள்ளிக்கிழங்கு இலைகள் உட்பட. இந்த தாவரங்கள் அவற்றை உண்ணும் விலங்குக்கு நச்சுத்தன்மையை ஏற்படுத்தும் அளவு சயனைடைக் கொண்டிருக்கலாம், குறிப்பாக சில வளர்ச்சி நிலைகளில்.",
+              "ಸೈನೈಡ್ ವಿಷಬಾಧೆಗೆ ಅತ್ಯಂತ ಸಾಮಾನ್ಯ ಕಾರಣವೆಂದರೆ ಪ್ರಾಣಿ ಕೆಲವು ಸಸ್ಯಗಳನ್ನು ತಿನ್ನುವುದು — ಬಾಣ ಹುಲ್ಲು, ವೆಲ್ವೆಟ್ ಹುಲ್ಲು, ಎಳೆಯ ಜೋಳದ ಗಿಡಗಳು ಮತ್ತು ಮರಗೆಣಸಿನ ಎಲೆಗಳು ಸೇರಿದಂತೆ. ಈ ಸಸ್ಯಗಳು ಅವುಗಳನ್ನು ತಿನ್ನುವ ಪ್ರಾಣಿಗೆ ವಿಷಬಾಧೆ ಉಂಟುಮಾಡುವಷ್ಟು ಸೈನೈಡ್ ಅನ್ನು ಹೊಂದಿರಬಹುದು, ವಿಶೇಷವಾಗಿ ಕೆಲವು ಬೆಳವಣಿಗೆಯ ಹಂತಗಳಲ್ಲಿ.",
+              "साइनाइड विषाक्तता का सबसे सामान्य कारण है जानवर का कुछ पौधे खाना — जिनमें एरो ग्रास, वेल्वेट ग्रास, कोमल ज्वार के पौधे, और टैपिओका की पत्तियाँ शामिल हैं। इन पौधों में इतना साइनाइड हो सकता है कि इन्हें खाने वाला जानवर विषाक्त हो जाए, खासकर कुछ खास बढ़वार अवस्थाओं में।"
             ),
           },
           {
             type: "stat-grid",
             items: [
               {
-                label: L("How fast it happens"),
-                text: L("Signs can appear within just 15–20 minutes, or up to a few hours, after the animal eats the toxic plant."),
+                label: L("How fast it happens", "ఇది ఎంత వేగంగా జరుగుతుంది", "இது எவ்வளவு வேகமாக நடக்கிறது", "ಇದು ಎಷ್ಟು ವೇಗವಾಗಿ ಸಂಭವಿಸುತ್ತದೆ", "यह कितनी तेज़ी से होता है"),
+                text: L("Signs can appear within just 15–20 minutes, or up to a few hours, after the animal eats the toxic plant.", "జంతువు విషపూరిత మొక్కను తిన్న 15–20 నిమిషాలలోనే, లేదా కొన్ని గంటల వరకు లక్షణాలు కనిపించవచ్చు.", "விலங்கு நச்சுத் தாவரத்தை உண்ட 15–20 நிமிடங்களுக்குள், அல்லது சில மணி நேரங்களுக்குள் அறிகுறிகள் தோன்றலாம்.", "ಪ್ರಾಣಿ ವಿಷಕಾರಿ ಸಸ್ಯವನ್ನು ತಿಂದ 15–20 ನಿಮಿಷಗಳಲ್ಲಿ, ಅಥವಾ ಕೆಲವು ಗಂಟೆಗಳ ಒಳಗೆ ಲಕ್ಷಣಗಳು ಕಾಣಿಸಿಕೊಳ್ಳಬಹುದು.", "जानवर द्वारा ज़हरीला पौधा खाने के मात्र 15–20 मिनट के भीतर, या कुछ घंटों तक में लक्षण दिख सकते हैं।"),
               },
               {
-                label: L("Early signs"),
-                text: L("The animal may first appear excited or agitated."),
+                label: L("Early signs", "ప్రారంభ లక్షణాలు", "ஆரம்ப அறிகுறிகள்", "ಆರಂಭಿಕ ಲಕ್ಷಣಗಳು", "शुरुआती लक्षण"),
+                text: L("The animal may first appear excited or agitated.", "జంతువు మొదట ఉత్సాహంగా లేదా చికాకుగా కనిపించవచ్చు.", "விலங்கு முதலில் உற்சாகமாக அல்லது கிளர்ச்சியடைந்ததாகத் தோன்றலாம்.", "ಪ್ರಾಣಿ ಮೊದಲು ಉತ್ಸಾಹಗೊಂಡಂತೆ ಅಥವಾ ಆತಂಕಗೊಂಡಂತೆ ಕಾಣಿಸಬಹುದು.", "जानवर पहले उत्तेजित या बेचैन दिख सकता है।"),
               },
               {
-                label: L("Breathing and drooling"),
-                text: L("This is followed by fast, difficult breathing and heavy drooling (excess saliva)."),
+                label: L("Breathing and drooling", "శ్వాస మరియు లాలాజలం", "சுவாசம் மற்றும் உமிழ்நீர்", "ಉಸಿರಾಟ ಮತ್ತು ಜೊಲ್ಲು ಸುರಿಸುವಿಕೆ", "साँस लेना और लार टपकना"),
+                text: L("This is followed by fast, difficult breathing and heavy drooling (excess saliva).", "దీని తర్వాత వేగవంతమైన, కష్టమైన శ్వాస మరియు అధిక లాలాజలం (ఎక్కువ ఉమ్ముడు) కనిపిస్తాయి.", "இதைத் தொடர்ந்து வேகமான, கடினமான சுவாசம் மற்றும் அதிக உமிழ்நீர் (அதிக எச்சில்) ஏற்படும்.", "ಇದರ ನಂತರ ವೇಗದ, ಕಷ್ಟಕರ ಉಸಿರಾಟ ಮತ್ತು ಅತಿಯಾದ ಜೊಲ್ಲು ಸುರಿಸುವಿಕೆ (ಹೆಚ್ಚು ಜೊಲ್ಲು) ಕಂಡುಬರುತ್ತದೆ.", "इसके बाद तेज़, कठिन साँस लेना और अत्यधिक लार टपकना (ज़्यादा लार) होता है।"),
               },
               {
-                label: L("Gums and mouth colour"),
+                label: L("Gums and mouth colour", "చిగుళ్ళు మరియు నోటి రంగు", "ஈறுகள் மற்றும் வாய் நிறம்", "ಒಸಡುಗಳು ಮತ್ತು ಬಾಯಿಯ ಬಣ್ಣ", "मसूड़े और मुँह का रंग"),
                 text: L(
-                  "The gums and moist lining inside the mouth (mucous membranes) start out bright red, but may turn bluish later on."
+                  "The gums and moist lining inside the mouth (mucous membranes) start out bright red, but may turn bluish later on.",
+                  "చిగుళ్ళు మరియు నోటి లోపలి తడి పొర (శ్లేష్మ పొరలు) మొదట ప్రకాశవంతమైన ఎరుపుగా ఉంటాయి, కానీ తర్వాత నీలం రంగుకు మారవచ్చు.",
+                  "ஈறுகள் மற்றும் வாய்க்குள் இருக்கும் ஈரமான உள்படலம் (சளி சவ்வுகள்) முதலில் பிரகாசமான சிவப்பு நிறத்தில் இருக்கும், ஆனால் பின்னர் நீலம் கலந்த நிறமாக மாறலாம்.",
+                  "ಒಸಡುಗಳು ಮತ್ತು ಬಾಯಿಯ ಒಳಗಿನ ತೇವ ಪದರ (ಶ್ಲೇಷ್ಮ ಪೊರೆಗಳು) ಮೊದಲು ಪ್ರಕಾಶಮಾನ ಕೆಂಪು ಬಣ್ಣದಲ್ಲಿ ಇರುತ್ತವೆ, ಆದರೆ ನಂತರ ನೀಲಿ ಬಣ್ಣಕ್ಕೆ ತಿರುಗಬಹುದು.",
+                  "मसूड़े और मुँह के अंदर की नम परत (श्लेष्मा झिल्ली) शुरू में चमकीले लाल रंग की होती है, लेकिन बाद में नीली पड़ सकती है।"
                 ),
               },
             ],
           },
           {
             type: "glossary",
-            term: L("Mucous Membranes"),
+            term: L("Mucous Membranes", "శ్లేష్మ పొరలు", "சளி சவ்வுகள்", "ಶ್ಲೇಷ್ಮ ಪೊರೆಗಳು", "श्लेष्मा झिल्ली"),
             meaning: L(
-              "The soft, moist, pink lining inside an animal's mouth and gums. Checking their colour is one way people notice changes in an animal's condition."
+              "The soft, moist, pink lining inside an animal's mouth and gums. Checking their colour is one way people notice changes in an animal's condition.",
+              "జంతువు నోరు మరియు చిగుళ్ళ లోపల ఉండే మృదువైన, తడి, గులాబీ రంగు పొర. దీని రంగును పరిశీలించడం జంతువు పరిస్థితిలో మార్పులను గుర్తించే ఒక మార్గం.",
+              "ஒரு விலங்கின் வாய் மற்றும் ஈறுகளுக்குள் இருக்கும் மென்மையான, ஈரமான, இளஞ்சிவப்பு உள்படலம். அதன் நிறத்தை சரிபார்ப்பது விலங்கின் நிலையில் மாற்றங்களை மக்கள் கவனிக்கும் ஒரு வழி.",
+              "ಪ್ರಾಣಿಯ ಬಾಯಿ ಮತ್ತು ಒಸಡುಗಳ ಒಳಗಿನ ಮೃದುವಾದ, ತೇವವಾದ, ಗುಲಾಬಿ ಬಣ್ಣದ ಪದರ. ಅದರ ಬಣ್ಣವನ್ನು ಪರಿಶೀಲಿಸುವುದು ಪ್ರಾಣಿಯ ಸ್ಥಿತಿಯಲ್ಲಿನ ಬದಲಾವಣೆಗಳನ್ನು ಜನರು ಗಮನಿಸುವ ಒಂದು ವಿಧಾನ.",
+              "जानवर के मुँह और मसूड़ों के अंदर की नरम, नम, गुलाबी परत। इसके रंग की जाँच करना जानवर की स्थिति में बदलाव को पहचानने का एक तरीका है।"
             ),
           },
           {
             type: "callout",
             style: "warning",
-            heading: L("This Can Kill Within an Hour"),
+            heading: L("This Can Kill Within an Hour", "ఇది ఒక గంటలోపే ప్రాణాంతకం కావచ్చు", "இது ஒரு மணி நேரத்திற்குள் கொல்லக்கூடும்", "ಇದು ಒಂದು ಗಂಟೆಯೊಳಗೆ ಸಾವಿಗೆ ಕಾರಣವಾಗಬಹುದು", "यह एक घंटे के भीतर जान ले सकता है"),
             text: L(
-              "Affected animals may stumble, struggle, and collapse within about an hour of eating the toxic plant. Cyanide poisoning is a genuine emergency — immediate veterinary help must be sought the moment it is suspected. Treatment works very well, but only if it is given in time."
+              "Affected animals may stumble, struggle, and collapse within about an hour of eating the toxic plant. Cyanide poisoning is a genuine emergency — immediate veterinary help must be sought the moment it is suspected. Treatment works very well, but only if it is given in time.",
+              "బాధిత జంతువులు విషపూరిత మొక్కను తిన్న సుమారు ఒక గంటలోపే తడబడవచ్చు, కష్టపడవచ్చు మరియు కూలిపోవచ్చు. సైనైడ్ విషప్రయోగం నిజమైన అత్యవసర పరిస్థితి — అనుమానం వచ్చిన వెంటనే వెంటనే పశువైద్య సహాయం తీసుకోవాలి. చికిత్స చాలా బాగా పనిచేస్తుంది, కానీ సమయానికి ఇస్తేనే.",
+              "நச்சுத் தாவரத்தை உண்ட சுமார் ஒரு மணி நேரத்திற்குள் பாதிக்கப்பட்ட விலங்குகள் தடுமாறலாம், சிரமப்படலாம், மற்றும் விழலாம். சயனைடு நச்சுத்தன்மை ஒரு உண்மையான அவசரநிலை — சந்தேகம் ஏற்பட்ட உடனேயே உடனடி கால்நடை மருத்துவ உதவி பெறப்பட வேண்டும். சிகிச்சை மிகச் சிறப்பாக வேலை செய்யும், ஆனால் அது சரியான நேரத்தில் கொடுக்கப்பட்டால் மட்டுமே.",
+              "ಪೀಡಿತ ಪ್ರಾಣಿಗಳು ವಿಷಕಾರಿ ಸಸ್ಯವನ್ನು ತಿಂದ ಸುಮಾರು ಒಂದು ಗಂಟೆಯೊಳಗೆ ತೊట್ರಡಿಸಬಹುದು, ಒದ್ದಾಡಬಹುದು ಮತ್ತು ಕುಸಿಯಬಹುದು. ಸೈನೈಡ್ ವಿಷಬಾಧೆ ಒಂದು ನಿಜವಾದ ತುರ್ತುಸ್ಥಿತಿ — ಸಂಶಯ ಬಂದ ಕೂಡಲೇ ತಕ್ಷಣ ಪಶುವೈದ್ಯಕೀಯ ಸಹಾಯ ಪಡೆಯಬೇಕು. ಚಿಕಿತ್ಸೆ ಬಹಳ ಚೆನ್ನಾಗಿ ಕೆಲಸ ಮಾಡುತ್ತದೆ, ಆದರೆ ಅದನ್ನು ಸಮಯಕ್ಕೆ ಸರಿಯಾಗಿ ನೀಡಿದರೆ ಮಾತ್ರ.",
+              "प्रभावित जानवर ज़हरीला पौधा खाने के करीब एक घंटे के भीतर लड़खड़ा सकते हैं, तड़प सकते हैं, और गिर सकते हैं। साइनाइड विषाक्तता एक वास्तविक आपातकाल है — शक होते ही तुरंत पशु चिकित्सा सहायता ली जानी चाहिए। इलाज बहुत अच्छी तरह काम करता है, लेकिन तभी जब यह समय पर दिया जाए।"
             ),
           },
           {
             type: "stat-grid",
             items: [
               {
-                label: L("Avoid young, risky grasses"),
-                text: L("Don't let animals graze on grasses known to cause this poisoning until the grass is at least 15–18 inches tall."),
+                label: L("Avoid young, risky grasses", "లేత, ప్రమాదకరమైన గడ్డిని నివారించండి", "இளம், ஆபத்தான புற்களைத் தவிர்க்கவும்", "ಎಳೆಯ, ಅಪಾಯಕಾರಿ ಹುಲ್ಲನ್ನು ತಪ್ಪಿಸಿ", "युवा, जोखिम भरी घास से बचें"),
+                text: L("Don't let animals graze on grasses known to cause this poisoning until the grass is at least 15–18 inches tall.", "ఈ విషప్రయోగానికి కారణమని తెలిసిన గడ్డి కనీసం 15–18 అంగుళాల ఎత్తు వచ్చే వరకు జంతువులను దానిపై మేపనివ్వకండి.", "இந்த நச்சுத்தன்மையை ஏற்படுத்தும் என அறியப்பட்ட புற்கள் குறைந்தது 15–18 அங்குலம் உயரமாகும் வரை விலங்குகளை அவற்றின் மேல் மேய விடாதீர்கள்.", "ಈ ವಿಷಬಾಧೆಗೆ ಕಾರಣವಾಗುತ್ತದೆ ಎಂದು ತಿಳಿದಿರುವ ಹುಲ್ಲು ಕನಿಷ್ಠ 15–18 ಇಂಚು ಎತ್ತರವಾಗುವವರೆಗೆ ಪ್ರಾಣಿಗಳನ್ನು ಅದರ ಮೇಲೆ ಮೇಯಲು ಬಿಡಬೇಡಿ.", "जिस घास से यह विषाक्तता होने की जानकारी है, उस पर जानवरों को तब तक न चरने दें जब तक घास कम से कम 15–18 इंच ऊँची न हो जाए।"),
               },
               {
-                label: L("Wait for sorghum to grow"),
-                text: L("Forage sorghum should be several feet tall before it is used as fodder."),
+                label: L("Wait for sorghum to grow", "జొన్న పెరిగే వరకు వేచి ఉండండి", "சோளம் வளரும் வரை காத்திருங்கள்", "ಜೋಳ ಬೆಳೆಯುವವರೆಗೆ ಕಾಯಿರಿ", "ज्वार के बढ़ने का इंतज़ार करें"),
+                text: L("Forage sorghum should be several feet tall before it is used as fodder.", "మేత జొన్నను దాణాగా వాడే ముందు అది చాలా అడుగుల ఎత్తు పెరిగి ఉండాలి.", "தீவன சோளத்தை தீவனமாகப் பயன்படுத்தும் முன் அது பல அடி உயரமாக இருக்க வேண்டும்.", "ಮೇವಿನ ಜೋಳವನ್ನು ಮೇವಾಗಿ ಬಳಸುವ ಮೊದಲು ಅದು ಹಲವಾರು ಅಡಿ ಎತ್ತರವಾಗಿರಬೇಕು.", "चारे वाले ज्वार को चारे के रूप में उपयोग करने से पहले उसे कई फीट ऊँचा हो जाना चाहिए।"),
               },
               {
-                label: L("Timing of grazing"),
-                text: L("Animals should be turned out to new pasture later in the day, not early morning."),
+                label: L("Timing of grazing", "మేపే సమయం", "மேய்ச்சல் நேரம்", "ಮೇಯಿಸುವ ಸಮಯ", "चराई का समय"),
+                text: L("Animals should be turned out to new pasture later in the day, not early morning.", "జంతువులను కొత్త మేత భూమిలోకి తెల్లవారుజామున కాకుండా రోజులో కొంచెం ఆలస్యంగా వదలాలి.", "விலங்குகள் அதிகாலையில் அல்ல, நாளின் பிற்பகுதியில் புதிய மேய்ச்சல் நிலத்திற்கு விடப்பட வேண்டும்.", "ಪ್ರಾಣಿಗಳನ್ನು ಮುಂಜಾನೆ ಅಲ್ಲ, ದಿನದ ನಂತರದ ಸಮಯದಲ್ಲಿ ಹೊಸ ಹುಲ್ಲುಗಾವಲಿಗೆ ಬಿಡಬೇಕು.", "जानवरों को सुबह जल्दी नहीं, बल्कि दिन में बाद में नई चराई भूमि पर छोड़ना चाहिए।"),
               },
               {
-                label: L("Extra caution in stressful periods"),
-                text: L("Grazing should be monitored closely during periods of environmental stress."),
+                label: L("Extra caution in stressful periods", "ఒత్తిడి సమయాల్లో అదనపు జాగ్రత్త", "மன அழுத்த காலங்களில் கூடுதல் எச்சரிக்கை", "ಒತ್ತಡದ ಅವಧಿಗಳಲ್ಲಿ ಹೆಚ್ಚುವರಿ ಎಚ್ಚರಿಕೆ", "तनावपूर्ण अवधियों में अतिरिक्त सावधानी"),
+                text: L("Grazing should be monitored closely during periods of environmental stress.", "పర్యావరణ ఒత్తిడి సమయాల్లో మేపడాన్ని దగ్గరగా పర్యవేక్షించాలి.", "சுற்றுச்சூழல் அழுத்த காலங்களில் மேய்ச்சலை நெருக்கமாகக் கண்காணிக்க வேண்டும்.", "ಪರಿಸರ ಒತ್ತಡದ ಅವಧಿಗಳಲ್ಲಿ ಮೇಯಿಸುವಿಕೆಯನ್ನು ಹತ್ತಿರದಿಂದ ಮೇಲ್ವಿಚಾರಣೆ ಮಾಡಬೇಕು.", "पर्यावरणीय तनाव की अवधि के दौरान चराई पर बारीकी से नज़र रखनी चाहिए।"),
               },
             ],
           },
@@ -8200,16 +8248,16 @@ export const MODULES = [
         check: [
           {
             type: "mcq",
-            q: L("Which of these plants can cause cyanide poisoning if eaten?"),
-            options: [L("Young Sorghum plants"), L("Fully grown wheat"), L("Dried hay"), L("Rice straw")],
+            q: L("Which of these plants can cause cyanide poisoning if eaten?", "ఈ మొక్కలలో ఏది తింటే సైనైడ్ విషప్రయోగం కలిగించవచ్చు?", "இந்த தாவரங்களில் எது சாப்பிட்டால் சயனைடு நச்சுத்தன்மையை ஏற்படுத்தும்?", "ಈ ಸಸ್ಯಗಳಲ್ಲಿ ಯಾವುದನ್ನು ತಿಂದರೆ ಸೈನೈಡ್ ವಿಷಬಾಧೆ ಉಂಟಾಗಬಹುದು?", "इनमें से कौन सा पौधा खाने पर साइनाइड विषाक्तता का कारण बन सकता है?"),
+            options: [L("Young Sorghum plants", "లేత జొన్న మొక్కలు", "இளம் சோள செடிகள்", "ಎಳೆಯ ಜೋಳದ ಗಿಡಗಳು", "युवा ज्वार के पौधे"), L("Fully grown wheat", "పూర్తిగా పెరిగిన గోధుమ", "முழுமையாக வளர்ந்த கோதுமை", "ಸಂಪೂರ್ಣ ಬೆಳೆದ ಗೋಧಿ", "पूरी तरह से उगा हुआ गेहूँ"), L("Dried hay", "ఎండిన గడ్డి", "காய்ந்த வைக்கோல்", "ಒಣಗಿದ ಹುಲ್ಲು", "सूखी घास"), L("Rice straw", "వరి గడ్డి", "நெல் வைக்கோல்", "ಭತ್ತದ ಹುಲ್ಲು", "धान का पुआल")],
             answer: 0,
-            explain: L("Young Sorghum plants, along with arrow grass, velvet grass, and tapioca leaves, are named sources of cyanide poisoning."),
+            explain: L("Young Sorghum plants, along with arrow grass, velvet grass, and tapioca leaves, are named sources of cyanide poisoning.", "లేత జొన్న మొక్కలతో పాటు, ఆరో గ్రాస్, వెల్వెట్ గ్రాస్, మరియు కర్రపెండలం ఆకులు సైనైడ్ విషప్రయోగానికి కారణాలుగా పేర్కొనబడ్డాయి.", "இளம் சோள செடிகளுடன், அம்பு புல், வெல்வெட் புல், மற்றும் மரவள்ளிக்கிழங்கு இலைகள் சயனைடு நச்சுத்தன்மைக்கான ஆதாரங்களாகக் குறிப்பிடப்படுகின்றன.", "ಎಳೆಯ ಜೋಳದ ಗಿಡಗಳು, ಬಾಣ ಹುಲ್ಲು, ವೆಲ್ವೆಟ್ ಹುಲ್ಲು ಮತ್ತು ಮರಗೆಣಸಿನ ಎಲೆಗಳೊಂದಿಗೆ, ಸೈನೈಡ್ ವಿಷಬಾಧೆಯ ಮೂಲಗಳೆಂದು ಹೆಸರಿಸಲಾಗಿದೆ.", "युवा ज्वार के पौधे, एरो ग्रास, वेल्वेट ग्रास, और टैपिओका की पत्तियों के साथ, साइनाइड विषाक्तता के स्रोतों के रूप में बताए गए हैं।"),
           },
           {
             type: "truefalse",
-            q: L("Cyanide poisoning can cause an animal to collapse within about an hour of eating the toxic plant."),
+            q: L("Cyanide poisoning can cause an animal to collapse within about an hour of eating the toxic plant.", "సైనైడ్ విషప్రయోగం జంతువు విషపూరిత మొక్కను తిన్న సుమారు ఒక గంటలోపే కుప్పకూలేలా చేయవచ్చు.", "சயனைடு நச்சுத்தன்மை ஒரு விலங்கு நச்சுத் தாவரத்தை உண்ட சுமார் ஒரு மணி நேரத்திற்குள் விழச் செய்யலாம்.", "ಸೈನೈಡ್ ವಿಷಬಾಧೆಯು ಪ್ರಾಣಿ ವಿಷಕಾರಿ ಸಸ್ಯವನ್ನು ತಿಂದ ಸುಮಾರು ಒಂದು ಗಂಟೆಯೊಳಗೆ ಕುಸಿಯುವಂತೆ ಮಾಡಬಹುದು.", "साइनाइड विषाक्तता जानवर को ज़हरीला पौधा खाने के करीब एक घंटे के भीतर गिरा सकती है।"),
             answer: true,
-            explain: L("Yes — signs can begin within 15–20 minutes, and affected animals may stumble and collapse within about an hour."),
+            explain: L("Yes — signs can begin within 15–20 minutes, and affected animals may stumble and collapse within about an hour.", "అవును — లక్షణాలు 15–20 నిమిషాలలో ప్రారంభం కావచ్చు, మరియు బాధిత జంతువులు ఒక గంటలోపే తడబడి కుప్పకూలవచ్చు.", "ஆம் — அறிகுறிகள் 15–20 நிமிடங்களுக்குள் தொடங்கலாம், மற்றும் பாதிக்கப்பட்ட விலங்குகள் சுமார் ஒரு மணி நேரத்திற்குள் தடுமாறி விழலாம்.", "ಹೌದು — ಲಕ್ಷಣಗಳು 15–20 ನಿಮಿಷಗಳಲ್ಲಿ ಪ್ರಾರಂಭವಾಗಬಹುದು, ಮತ್ತು ಪೀಡಿತ ಪ್ರಾಣಿಗಳು ಸುಮಾರು ಒಂದು ಗಂಟೆಯೊಳಗೆ ತೊಟ್ರಡಿಸಿ ಕುಸಿಯಬಹುದು.", "हाँ — लक्षण 15–20 मिनट के भीतर शुरू हो सकते हैं, और प्रभावित जानवर करीब एक घंटे के भीतर लड़खड़ाकर गिर सकते हैं।"),
           },
         ],
       },
@@ -8220,57 +8268,57 @@ export const MODULES = [
         {
           topicId: "t-m10-gossypol",
           type: "mcq",
-          q: L("Which animals are most at risk of gossypol poisoning?"),
+          q: L("Which animals are most at risk of gossypol poisoning?", "గాసిపాల్ విషప్రయోగానికి ఏ జంతువులు ఎక్కువ ప్రమాదంలో ఉన్నాయి?", "எந்த விலங்குகள் காசிபோல் நச்சுத்தன்மைக்கு அதிக ஆபத்தில் உள்ளன?", "ಗಾಸಿಪೋಲ್ ವಿಷಬಾಧೆಗೆ ಯಾವ ಪ್ರಾಣಿಗಳು ಹೆಚ್ಚು ಅಪಾಯದಲ್ಲಿವೆ?", "गॉसीपॉल विषाक्तता का सबसे ज़्यादा खतरा किन जानवरों को है?"),
           options: [
-            L("High-producing dairy cows eating a lot of cottonseed feed"),
-            L("Newborn calves that have never eaten solid food"),
-            L("Animals kept indoors overnight"),
-            L("Animals that only drink water"),
+            L("High-producing dairy cows eating a lot of cottonseed feed", "ఎక్కువ పత్తి గింజల దాణా తినే అధిక దిగుబడి ఇచ్చే పాడి ఆవులు", "அதிக பருத்தி விதை தீவனத்தை உண்ணும் அதிக பால் தரும் பசுக்கள்", "ಹೆಚ್ಚು ಹತ್ತಿ ಬೀಜದ ಮೇವು ತಿನ್ನುವ ಹೆಚ್ಚು ಹಾಲು ಕೊಡುವ ಹಸುಗಳು", "ज़्यादा कपास के बीज का चारा खाने वाली अधिक दूध देने वाली गायें"),
+            L("Newborn calves that have never eaten solid food", "ఘన ఆహారం ఎప్పుడూ తినని కొత్తగా పుట్టిన దూడలు", "திடமான உணவை ஒருபோதும் சாப்பிடாத புதிதாகப் பிறந்த கன்றுகள்", "ಘನ ಆಹಾರವನ್ನು ಎಂದಿಗೂ ತಿನ್ನದ ನವಜಾತ ಕರುಗಳು", "नवजात बछड़े जिन्होंने कभी ठोस भोजन नहीं खाया"),
+            L("Animals kept indoors overnight", "రాత్రిపూట ఇంటి లోపల ఉంచిన జంతువులు", "இரவு நேரத்தில் வீட்டிற்குள் வைக்கப்பட்ட விலங்குகள்", "ರಾತ್ರಿ ಮನೆಯೊಳಗೆ ಇಡಲಾದ ಪ್ರಾಣಿಗಳು", "रात भर घर के अंदर रखे गए जानवर"),
+            L("Animals that only drink water", "కేవలం నీరు మాత్రమే తాగే జంతువులు", "தண்ணீர் மட்டும் குடிக்கும் விலங்குகள்", "ಕೇವಲ ನೀರು ಮಾತ್ರ ಕುಡಿಯುವ ಪ್ರಾಣಿಗಳು", "केवल पानी पीने वाले जानवर"),
           ],
           answer: 0,
-          explain: L("High-producing dairy cows with high feed intake, given excess cottonseed products, are the animals most at risk."),
+          explain: L("High-producing dairy cows with high feed intake, given excess cottonseed products, are the animals most at risk.", "ఎక్కువ దాణా తీసుకునే, అధిక పత్తి గింజల ఉత్పత్తులు ఇచ్చే అధిక దిగుబడి ఇచ్చే పాడి ఆవులు ఎక్కువ ప్రమాదంలో ఉన్న జంతువులు.", "அதிக தீவனம் உட்கொள்ளும், அதிக பருத்தி விதை பொருட்கள் கொடுக்கப்படும் அதிக பால் தரும் பசுக்களே அதிக ஆபத்தில் உள்ள விலங்குகள்.", "ಹೆಚ್ಚು ಮೇವು ಸೇವಿಸುವ, ಅಧಿಕ ಹತ್ತಿ ಬೀಜ ಉತ್ಪನ್ನಗಳನ್ನು ನೀಡಲಾದ ಹೆಚ್ಚು ಹಾಲು ಕೊಡುವ ಹಸುಗಳೇ ಹೆಚ್ಚು ಅಪಾಯದಲ್ಲಿರುವ ಪ್ರಾಣಿಗಳು.", "ज़्यादा चारा खाने वाली, अत्यधिक कपास के बीज उत्पाद दिए जाने वाली अधिक दूध देने वाली गायें ही सबसे ज़्यादा खतरे में हैं।"),
         },
         {
           topicId: "t-m10-gossypol",
           type: "truefalse",
-          q: L("Swelling under the skin near the chest (brisket) and difficult breathing can be signs of gossypol poisoning in adult dairy cattle."),
+          q: L("Swelling under the skin near the chest (brisket) and difficult breathing can be signs of gossypol poisoning in adult dairy cattle.", "ఛాతీ దగ్గర చర్మం కింద వాపు (బ్రిస్కెట్) మరియు కష్టమైన శ్వాస పెద్ద పాడి పశువులలో గాసిపాల్ విషప్రయోగానికి సంకేతాలు కావచ్చు.", "மார்பு அருகே தோலின் கீழ் வீக்கம் (பிரிஸ்கெட்) மற்றும் சிரமமான சுவாசம் வளர்ந்த பால் மாடுகளில் காசிபோல் நச்சுத்தன்மையின் அறிகுறிகளாக இருக்கலாம்.", "ಎದೆಯ ಬಳಿ ಚರ್ಮದ ಕೆಳಗೆ ಊತ (ಬ್ರಿಸ್ಕೆಟ್) ಮತ್ತು ಕಷ್ಟದ ಉಸಿರಾಟ ವಯಸ್ಕ ಹಾಲಿನ ಜಾನುವಾರುಗಳಲ್ಲಿ ಗಾಸಿಪೋಲ್ ವಿಷಬಾಧೆಯ ಲಕ್ಷಣಗಳಾಗಿರಬಹುದು.", "छाती के पास त्वचा के नीचे सूजन (ब्रिस्केट) और कठिन साँस लेना वयस्क डेयरी पशुओं में गॉसीपॉल विषाक्तता के लक्षण हो सकते हैं।"),
           answer: true,
-          explain: L("Yes — these are among the more serious signs listed for adult dairy cattle with gossypol poisoning."),
+          explain: L("Yes — these are among the more serious signs listed for adult dairy cattle with gossypol poisoning.", "అవును — ఇవి గాసిపాల్ విషప్రయోగం ఉన్న పెద్ద పాడి పశువులకు జాబితా చేయబడిన మరింత తీవ్రమైన సంకేతాలలో ఉన్నాయి.", "ஆம் — இவை காசிபோல் நச்சுத்தன்மை உள்ள வளர்ந்த பால் மாடுகளுக்கு பட்டியலிடப்பட்ட மிகவும் தீவிரமான அறிகுறிகளில் அடங்கும்.", "ಹೌದು — ಇವು ಗಾಸಿಪೋಲ್ ವಿಷಬಾಧೆ ಇರುವ ವಯಸ್ಕ ಹಾಲಿನ ಜಾನುವಾರುಗಳಿಗೆ ಪಟ್ಟಿ ಮಾಡಲಾದ ಹೆಚ್ಚು ಗಂಭೀರ ಲಕ್ಷಣಗಳಲ್ಲಿ ಸೇರಿವೆ.", "हाँ — ये गॉसीपॉल विषाक्तता वाले वयस्क डेयरी पशुओं के लिए बताए गए ज़्यादा गंभीर लक्षणों में से हैं।"),
         },
         {
           topicId: "t-m10-gossypol",
           type: "mcq",
-          q: L("What should you do first if you suspect gossypol poisoning?"),
+          q: L("What should you do first if you suspect gossypol poisoning?", "గాసిపాల్ విషప్రయోగం అనుమానం వస్తే మీరు మొదట ఏమి చేయాలి?", "காசிபோல் நச்சுத்தன்மை சந்தேகப்பட்டால் நீங்கள் முதலில் என்ன செய்ய வேண்டும்?", "ಗಾಸಿಪೋಲ್ ವಿಷಬಾಧೆ ಅನುಮಾನ ಬಂದರೆ ನೀವು ಮೊದಲು ಏನು ಮಾಡಬೇಕು?", "अगर आपको गॉसीपॉल विषाक्तता का शक हो तो आपको सबसे पहले क्या करना चाहिए?"),
           options: [
-            L("Stop feeding cottonseed products and tell the owner or vet immediately"),
-            L("Give the animal extra cottonseed to settle its stomach"),
-            L("Wait a month to see if it improves on its own"),
-            L("Only mention it if the animal stops eating completely"),
+            L("Stop feeding cottonseed products and tell the owner or vet immediately", "పత్తి గింజల ఉత్పత్తులు తినిపించడం ఆపి వెంటనే యజమానికి లేదా వైద్యుడికి చెప్పండి", "பருத்தி விதை பொருட்களை உணவளிப்பதை நிறுத்தி உடனடியாக உரிமையாளர் அல்லது கால்நடை மருத்துவரிடம் தெரிவிக்கவும்", "ಹತ್ತಿ ಬೀಜ ಉತ್ಪನ್ನಗಳನ್ನು ನೀಡುವುದನ್ನು ನಿಲ್ಲಿಸಿ ತಕ್ಷಣ ಮಾಲೀಕರಿಗೆ ಅಥವಾ ಪಶುವೈದ್ಯರಿಗೆ ತಿಳಿಸಿ", "कपास के बीज उत्पाद खिलाना बंद करें और तुरंत मालिक या पशु चिकित्सक को बताएं"),
+            L("Give the animal extra cottonseed to settle its stomach", "కడుపును శాంతపరచడానికి జంతువుకు అదనపు పత్తి గింజలు ఇవ్వండి", "வயிற்றை அமைதிப்படுத்த விலங்குக்கு கூடுதல் பருத்தி விதையை கொடுங்கள்", "ಹೊಟ್ಟೆ ಶಮನಗೊಳಿಸಲು ಪ್ರಾಣಿಗೆ ಹೆಚ್ಚುವರಿ ಹತ್ತಿ ಬೀಜ ನೀಡಿ", "पेट को शांत करने के लिए जानवर को अतिरिक्त कपास के बीज दें"),
+            L("Wait a month to see if it improves on its own", "అది స్వయంగా మెరుగుపడుతుందో లేదో చూడటానికి ఒక నెల వేచి ఉండండి", "தானாகவே மேம்படுகிறதா என்று பார்க்க ஒரு மாதம் காத்திருங்கள்", "ಅದು ತಾನಾಗಿಯೇ ಸುಧಾರಿಸುತ್ತದೆಯೇ ಎಂದು ನೋಡಲು ಒಂದು ತಿಂಗಳು ಕಾಯಿರಿ", "यह अपने आप ठीक होता है या नहीं यह देखने के लिए एक महीना इंतज़ार करें"),
+            L("Only mention it if the animal stops eating completely", "జంతువు పూర్తిగా తినడం మానేస్తేనే దాని గురించి చెప్పండి", "விலங்கு முற்றிலும் சாப்பிடுவதை நிறுத்தினால் மட்டுமே அதைக் குறிப்பிடவும்", "ಪ್ರಾಣಿ ಸಂಪೂರ್ಣವಾಗಿ ತಿನ್ನುವುದನ್ನು ನಿಲ್ಲಿಸಿದರೆ ಮಾತ್ರ ಅದನ್ನು ತಿಳಿಸಿ", "केवल तभी बताएं जब जानवर पूरी तरह खाना बंद कर दे"),
           ],
           answer: 0,
-          explain: L("Removing cottonseed feed immediately and reporting to the owner or vet right away is the correct first step."),
+          explain: L("Removing cottonseed feed immediately and reporting to the owner or vet right away is the correct first step.", "వెంటనే పత్తి గింజల దాణాను తీసివేసి, వెంటనే యజమానికి లేదా వైద్యుడికి తెలియజేయడం సరైన మొదటి అడుగు.", "பருத்தி விதை தீவனத்தை உடனடியாக அகற்றி, உடனடியாக உரிமையாளர் அல்லது கால்நடை மருத்துவரிடம் தெரிவிப்பதே சரியான முதல் படி.", "ಹತ್ತಿ ಬೀಜದ ಮೇವನ್ನು ತಕ್ಷಣ ತೆಗೆದುಹಾಕಿ, ತಕ್ಷಣ ಮಾಲೀಕರಿಗೆ ಅಥವಾ ಪಶುವೈದ್ಯರಿಗೆ ವರದಿ ಮಾಡುವುದೇ ಸರಿಯಾದ ಮೊದಲ ಹೆಜ್ಜೆ.", "कपास के बीज का चारा तुरंत हटाना और तुरंत मालिक या पशु चिकित्सक को बताना ही सही पहला कदम है।"),
         },
         {
           topicId: "t-m10-cyanide",
           type: "mcq",
-          q: L("About how soon can signs of cyanide poisoning appear after an animal eats a toxic plant?"),
-          options: [L("15–20 minutes to a few hours"), L("One full week"), L("Only after several months"), L("Signs never appear")],
+          q: L("About how soon can signs of cyanide poisoning appear after an animal eats a toxic plant?", "జంతువు విషపూరిత మొక్కను తిన్న తర్వాత సైనైడ్ విషప్రయోగం లక్షణాలు ఎంత త్వరగా కనిపించవచ్చు?", "ஒரு விலங்கு நச்சுத் தாவரத்தை உண்ட பிறகு சயனைடு நச்சுத்தன்மையின் அறிகுறிகள் எவ்வளவு விரைவில் தோன்றலாம்?", "ಪ್ರಾಣಿ ವಿಷಕಾರಿ ಸಸ್ಯವನ್ನು ತಿಂದ ನಂತರ ಸೈನೈಡ್ ವಿಷಬಾಧೆಯ ಲಕ್ಷಣಗಳು ಎಷ್ಟು ಬೇಗ ಕಾಣಿಸಿಕೊಳ್ಳಬಹುದು?", "जानवर द्वारा ज़हरीला पौधा खाने के बाद साइनाइड विषाक्तता के लक्षण कितनी जल्दी दिख सकते हैं?"),
+          options: [L("15–20 minutes to a few hours", "15–20 నిమిషాల నుండి కొన్ని గంటల వరకు", "15–20 நிமிடங்கள் முதல் சில மணிநேரங்கள் வரை", "15–20 ನಿಮಿಷಗಳಿಂದ ಕೆಲವು ಗಂಟೆಗಳವರೆಗೆ", "15–20 मिनट से लेकर कुछ घंटों तक"), L("One full week", "ఒక పూర్తి వారం", "ஒரு முழு வாரம்", "ಒಂದು ಪೂರ್ಣ ವಾರ", "एक पूरा सप्ताह"), L("Only after several months", "కొన్ని నెలల తర్వాత మాత్రమే", "பல மாதங்களுக்குப் பிறகு மட்டுமே", "ಹಲವಾರು ತಿಂಗಳುಗಳ ನಂತರ ಮಾತ್ರ", "केवल कई महीनों के बाद"), L("Signs never appear", "లక్షణాలు ఎప్పుడూ కనిపించవు", "அறிகுறிகள் ஒருபோதும் தோன்றாது", "ಲಕ್ಷಣಗಳು ಎಂದಿಗೂ ಕಾಣಿಸುವುದಿಲ್ಲ", "लक्षण कभी नहीं दिखते")],
           answer: 0,
-          explain: L("Signs occur within 15–20 minutes to a few hours after the animal eats toxic forage — this is a fast-moving emergency."),
+          explain: L("Signs occur within 15–20 minutes to a few hours after the animal eats toxic forage — this is a fast-moving emergency.", "జంతువు విషపూరిత మేతను తిన్న 15–20 నిమిషాల నుండి కొన్ని గంటల లోపు లక్షణాలు కనిపిస్తాయి — ఇది వేగంగా జరిగే అత్యవసర పరిస్థితి.", "விலங்கு நச்சு தீவனத்தை உண்ட 15–20 நிமிடங்கள் முதல் சில மணி நேரங்களுக்குள் அறிகுறிகள் ஏற்படும் — இது வேகமாக நகரும் அவசரநிலை.", "ಪ್ರಾಣಿ ವಿಷಕಾರಿ ಮೇವನ್ನು ತಿಂದ 15–20 ನಿಮಿಷಗಳಿಂದ ಕೆಲವು ಗಂಟೆಗಳ ಒಳಗೆ ಲಕ್ಷಣಗಳು ಕಾಣಿಸುತ್ತವೆ — ಇದು ವೇಗವಾಗಿ ಚಲಿಸುವ ತುರ್ತುಸ್ಥಿತಿ.", "जानवर द्वारा ज़हरीला चारा खाने के 15–20 मिनट से कुछ घंटों के भीतर लक्षण दिखते हैं — यह तेज़ी से बढ़ने वाली आपात स्थिति है।"),
         },
         {
           topicId: "t-m10-cyanide",
           type: "truefalse",
-          q: L("Cyanide poisoning treatment works well, but only if it is given in time."),
+          q: L("Cyanide poisoning treatment works well, but only if it is given in time.", "సైనైడ్ విషప్రయోగం చికిత్స బాగా పనిచేస్తుంది, కానీ సమయానికి ఇస్తేనే.", "சயனைடு நச்சுத்தன்மை சிகிச்சை நன்றாக வேலை செய்யும், ஆனால் அது சரியான நேரத்தில் கொடுக்கப்பட்டால் மட்டுமே.", "ಸೈನೈಡ್ ವಿಷಬಾಧೆ ಚಿಕಿತ್ಸೆ ಚೆನ್ನಾಗಿ ಕೆಲಸ ಮಾಡುತ್ತದೆ, ಆದರೆ ಅದನ್ನು ಸಮಯಕ್ಕೆ ನೀಡಿದರೆ ಮಾತ್ರ.", "साइनाइड विषाक्तता का इलाज अच्छी तरह काम करता है, लेकिन तभी जब यह समय पर दिया जाए।"),
           answer: true,
-          explain: L("Correct — this is exactly why immediate veterinary help must be sought the moment cyanide poisoning is suspected."),
+          explain: L("Correct — this is exactly why immediate veterinary help must be sought the moment cyanide poisoning is suspected.", "సరైనది — సైనైడ్ విషప్రయోగం అనుమానం వచ్చిన వెంటనే వెంటనే పశువైద్య సహాయం తీసుకోవడం ఎందుకు అవసరమో ఇదే కారణం.", "சரியானது — சயனைடு நச்சுத்தன்மை சந்தேகப்பட்ட உடனேயே உடனடி கால்நடை மருத்துவ உதவி பெறப்பட வேண்டியதன் காரணம் இதுவே.", "ಸರಿ — ಸೈನೈಡ್ ವಿಷಬಾಧೆ ಅನುಮಾನ ಬಂದ ಕೂಡಲೇ ತಕ್ಷಣ ಪಶುವೈದ್ಯಕೀಯ ಸಹಾಯ ಪಡೆಯಬೇಕಾದ ಕಾರಣ ಇದೇ.", "सही — यही कारण है कि साइनाइड विषाक्तता का शक होते ही तुरंत पशु चिकित्सा सहायता ली जानी चाहिए।"),
         },
         {
           topicId: "t-m10-cyanide",
           type: "truefalse",
-          q: L("Grazing animals should be monitored closely during periods of environmental stress, as part of preventing cyanide poisoning."),
+          q: L("Grazing animals should be monitored closely during periods of environmental stress, as part of preventing cyanide poisoning.", "సైనైడ్ విషప్రయోగాన్ని నివారించడంలో భాగంగా, పర్యావరణ ఒత్తిడి సమయాల్లో మేపే జంతువులను దగ్గరగా పర్యవేక్షించాలి.", "சயனைடு நச்சுத்தன்மையைத் தடுப்பதன் ஒரு பகுதியாக, சுற்றுச்சூழல் அழுத்த காலங்களில் மேயும் விலங்குகளை நெருக்கமாகக் கண்காணிக்க வேண்டும்.", "ಸೈನೈಡ್ ವಿಷಬಾಧೆಯನ್ನು ತಡೆಗಟ್ಟುವ ಭಾಗವಾಗಿ, ಪರಿಸರ ಒತ್ತಡದ ಅವಧಿಗಳಲ್ಲಿ ಮೇಯುವ ಪ್ರಾಣಿಗಳನ್ನು ಹತ್ತಿರದಿಂದ ಮೇಲ್ವಿಚಾರಣೆ ಮಾಡಬೇಕು.", "साइनाइड विषाक्तता को रोकने के लिए, पर्यावरणीय तनाव की अवधि के दौरान चरने वाले जानवरों पर बारीकी से नज़र रखनी चाहिए।"),
           answer: true,
-          explain: L("Yes — close monitoring during environmental stress is one of the prevention steps described for cyanide-related poisoning."),
+          explain: L("Yes — close monitoring during environmental stress is one of the prevention steps described for cyanide-related poisoning.", "అవును — పర్యావరణ ఒత్తిడి సమయంలో దగ్గరగా పర్యవేక్షించడం సైనైడ్ సంబంధిత విషప్రయోగానికి వివరించిన నివారణ చర్యలలో ఒకటి.", "ஆம் — சுற்றுச்சூழல் அழுத்த காலத்தில் நெருக்கமாக கண்காணிப்பது சயனைடு தொடர்பான நச்சுத்தன்மைக்கு விவரிக்கப்பட்ட தடுப்பு நடவடிக்கைகளில் ஒன்று.", "ಹೌದು — ಪರಿಸರ ಒತ್ತಡದ ಸಮಯದಲ್ಲಿ ಹತ್ತಿರದಿಂದ ಮೇಲ್ವಿಚಾರಣೆ ಮಾಡುವುದು ಸೈನೈಡ್-ಸಂಬಂಧಿತ ವಿಷಬಾಧೆಗೆ ವಿವರಿಸಲಾದ ತಡೆಗಟ್ಟುವ ಕ್ರಮಗಳಲ್ಲಿ ಒಂದಾಗಿದೆ.", "हाँ — पर्यावरणीय तनाव के दौरान बारीकी से निगरानी करना साइनाइड-संबंधी विषाक्तता को रोकने के बताए गए उपायों में से एक है।"),
         },
       ],
     },
@@ -8281,168 +8329,212 @@ export const MODULES = [
   // ==================================================================
   {
     id: "m10-l2",
-    title: L("Organophosphorous (Pesticide) Poisoning and Acting Fast"),
+    title: L("Organophosphorous (Pesticide) Poisoning and Acting Fast", "ఆర్గానోఫాస్ఫరస్ (పురుగుమందు) విషప్రయోగం మరియు వేగంగా చర్య తీసుకోవడం", "ஆர்கானோபாஸ்பரஸ் (பூச்சிக்கொல்லி) நச்சுத்தன்மை மற்றும் வேகமாக செயல்படுதல்", "ಆರ್ಗನೋಫಾಸ್ಫರಸ್ (ಕೀಟನಾಶಕ) ವಿಷಬಾಧೆ ಮತ್ತು ವೇಗವಾಗಿ ಕಾರ್ಯನಿರ್ವಹಿಸುವುದು", "ऑर्गनोफॉस्फोरस (कीटनाशक) विषाक्तता और तेज़ी से कार्रवाई करना"),
     estMinutes: 8,
     hook: [
       {
         type: "hero",
-        heading: L("Farm Chemicals Can Poison Too — Know the Signs, Act Fast"),
+        heading: L("Farm Chemicals Can Poison Too — Know the Signs, Act Fast", "వ్యవసాయ రసాయనాలు కూడా విషప్రయోగం చేయవచ్చు — లక్షణాలను తెలుసుకోండి, వేగంగా చర్య తీసుకోండి", "பண்ணை இரசாயனங்களும் நச்சுத்தன்மையை ஏற்படுத்தலாம் — அறிகுறிகளை அறியுங்கள், வேகமாக செயல்படுங்கள்", "ಕೃಷಿ ರಾಸಾಯನಿಕಗಳೂ ವಿಷಬಾಧೆ ಉಂಟುಮಾಡಬಹುದು — ಲಕ್ಷಣಗಳನ್ನು ತಿಳಿಯಿರಿ, ವೇಗವಾಗಿ ಕ್ರಮ ತೆಗೆದುಕೊಳ್ಳಿ", "खेत के रसायन भी ज़हर बन सकते हैं — लक्षण जानें, तेज़ी से कार्रवाई करें"),
         text: L(
-          "Pesticides are used on crops, and directly on cattle and buffaloes to kill ticks. Most of these pesticides are organophosphorous (OP) compounds — active poisons. Used or handled the wrong way, they can poison the very animals they were meant to protect. This lesson covers how to recognise OP poisoning, how to prevent it, and why speed matters so much when it happens."
+          "Pesticides are used on crops, and directly on cattle and buffaloes to kill ticks. Most of these pesticides are organophosphorous (OP) compounds — active poisons. Used or handled the wrong way, they can poison the very animals they were meant to protect. This lesson covers how to recognise OP poisoning, how to prevent it, and why speed matters so much when it happens.",
+          "పంటలపై పురుగుమందులు వాడతారు, మరియు గోవులు మరియు గేదెలపై నేరుగా పేలను చంపడానికి కూడా వాడతారు. ఈ పురుగుమందులలో చాలా వరకు ఆర్గానోఫాస్ఫరస్ (OP) సమ్మేళనాలు — క్రియాశీల విషాలు. తప్పు విధంగా వాడితే లేదా నిర్వహిస్తే, అవి రక్షించాల్సిన జంతువులనే విషపూరితం చేయవచ్చు. ఈ పాఠం OP విషప్రయోగాన్ని ఎలా గుర్తించాలో, దానిని ఎలా నివారించాలో, మరియు ఇది జరిగినప్పుడు వేగం ఎందుకు అంత ముఖ్యమో వివరిస్తుంది.",
+          "பயிர்களில் மற்றும் மாடு மற்றும் எருமைகளில் ஈறு (டிக்) கொல்ல நேரடியாக பூச்சிக்கொல்லிகள் பயன்படுத்தப்படுகின்றன. இந்த பூச்சிக்கொல்லிகளில் பெரும்பாலானவை ஆர்கானோபாஸ்பரஸ் (OP) கூட்டுப்பொருட்கள் — செயல்படும் நச்சுகள். தவறாகப் பயன்படுத்தப்பட்டால் அல்லது கையாளப்பட்டால், அவை பாதுகாக்கப்பட வேண்டிய விலங்குகளையே நச்சுத்தன்மைக்கு உள்ளாக்கலாம். இந்த பாடம் OP நச்சுத்தன்மையை எவ்வாறு அடையாளம் காண்பது, அதை எவ்வாறு தடுப்பது, மற்றும் இது நிகழும்போது வேகம் ஏன் மிகவும் முக்கியம் என்பதை உள்ளடக்கியது.",
+          "ಬೆಳೆಗಳ ಮೇಲೆ ಮತ್ತು ಉಣ್ಣಿಗಳನ್ನು ಕೊಲ್ಲಲು ದನ ಮತ್ತು ಎಮ್ಮೆಗಳ ಮೇಲೆ ನೇರವಾಗಿ ಕೀಟನಾಶಕಗಳನ್ನು ಬಳಸಲಾಗುತ್ತದೆ. ಈ ಕೀಟನಾಶಕಗಳಲ್ಲಿ ಹೆಚ್ಚಿನವು ಆರ್ಗನೋಫಾಸ್ಫರಸ್ (OP) ಸಂಯುಕ್ತಗಳು — ಸಕ್ರಿಯ ವಿಷಗಳು. ತಪ್ಪಾಗಿ ಬಳಸಿದರೆ ಅಥವಾ ನಿರ್ವಹಿಸಿದರೆ, ಅವು ರಕ್ಷಿಸಬೇಕಾದ ಪ್ರಾಣಿಗಳನ್ನೇ ವಿಷಪೂರಿತಗೊಳಿಸಬಹುದು. ಈ ಪಾಠವು OP ವಿಷಬಾಧೆಯನ್ನು ಹೇಗೆ ಗುರುತಿಸುವುದು, ಅದನ್ನು ಹೇಗೆ ತಡೆಗಟ್ಟುವುದು ಮತ್ತು ಅದು ಸಂಭವಿಸಿದಾಗ ವೇಗ ಏಕೆ ಮುಖ್ಯ ಎಂಬುದನ್ನು ಒಳಗೊಂಡಿದೆ.",
+          "कीटनाशकों का उपयोग फसलों पर, और सीधे गायों व भैंसों पर किलनी मारने के लिए किया जाता है। इनमें से ज़्यादातर कीटनाशक ऑर्गनोफॉस्फोरस (OP) यौगिक होते हैं — सक्रिय ज़हर। गलत तरीके से उपयोग या संभालने पर, ये उन्हीं जानवरों को ज़हरीला बना सकते हैं जिन्हें वे बचाने के लिए बने थे। यह पाठ बताता है कि OP विषाक्तता को कैसे पहचानें, इसे कैसे रोकें, और जब यह होता है तो गति इतनी महत्वपूर्ण क्यों है।"
         ),
       },
     ],
     topics: [
       {
         id: "t-m10-op-symptoms",
-        title: L("Recognising Organophosphorous (Pesticide) Poisoning"),
+        title: L("Recognising Organophosphorous (Pesticide) Poisoning", "ఆర్గానోఫాస్ఫరస్ (పురుగుమందు) విషప్రయోగాన్ని గుర్తించడం", "ஆர்கானோபாஸ்பரஸ் (பூச்சிக்கொல்லி) நச்சுத்தன்மையை அடையாளம் காணுதல்", "ಆರ್ಗನೋಫಾಸ್ಫರಸ್ (ಕೀಟನಾಶಕ) ವಿಷಬಾಧೆಯನ್ನು ಗುರುತಿಸುವುದು", "ऑर्गनोफॉस्फोरस (कीटनाशक) विषाक्तता को पहचानना"),
         teach: [
             {
               type: "photo",
               src: "assets/photo-m10-pesticide-spraying.jpg",
-              alt: L("A tractor towing a boom sprayer, applying pesticide to a ploughed field, with visible spray mist"),
-              caption: L("Pesticide being sprayed on a field. Most pesticides — including tick-control products used on cattle — are organophosphorous (OP) compounds, the hazard this lesson covers."),
+              alt: L("A tractor towing a boom sprayer, applying pesticide to a ploughed field, with visible spray mist", "ఒక ట్రాక్టర్ బూమ్ స్ప్రేయర్‌ను లాగుతూ, దున్నిన పొలంలో పురుగుమందును పిచికారీ చేస్తుంది, స్ప్రే మిస్ట్ కనిపిస్తుంది", "ஒரு டிராக்டர் பூம் தெளிப்பானை இழுத்துச் சென்று, உழப்பட்ட வயலில் பூச்சிக்கொல்லியை தெளிக்கிறது, தெளிப்பு மூடுபனி காணப்படுகிறது", "ಒಂದು ಟ್ರ್ಯಾಕ್ಟರ್ ಬೂಮ್ ಸಿಂಪಡಣೆಯನ್ನು ಎಳೆಯುತ್ತಾ, ಉಳುಮೆ ಮಾಡಿದ ಹೊಲದಲ್ಲಿ ಕೀಟನಾಶಕವನ್ನು ಸಿಂಪಡಿಸುತ್ತಿದೆ, ಸಿಂಪಡಣೆ ಮಂಜು ಕಾಣಿಸುತ್ತಿದೆ", "एक ट्रैक्टर बूम स्प्रेयर खींचते हुए, जुते हुए खेत में कीटनाशक का छिड़काव कर रहा है, छिड़काव की धुंध दिखाई दे रही है"),
+              caption: L("Pesticide being sprayed on a field. Most pesticides — including tick-control products used on cattle — are organophosphorous (OP) compounds, the hazard this lesson covers.", "పొలంలో పురుగుమందు పిచికారీ చేస్తున్నారు. పశువులపై వాడే పేను నియంత్రణ ఉత్పత్తులతో సహా చాలా పురుగుమందులు ఆర్గానోఫాస్ఫరస్ (OP) సమ్మేళనాలు, ఇది ఈ పాఠం వివరించే ప్రమాదం.", "ஒரு வயலில் பூச்சிக்கொல்லி தெளிக்கப்படுகிறது. மாடுகளில் பயன்படுத்தப்படும் ஈறு-கட்டுப்பாட்டு பொருட்கள் உட்பட பெரும்பாலான பூச்சிக்கொல்லிகள் ஆர்கானோபாஸ்பரஸ் (OP) கூட்டுப்பொருட்கள், இது இந்த பாடம் உள்ளடக்கும் ஆபத்து.", "ಒಂದು ಹೊಲದಲ್ಲಿ ಕೀಟನಾಶಕ ಸಿಂಪಡಿಸಲಾಗುತ್ತಿದೆ. ಜಾನುವಾರುಗಳ ಮೇಲೆ ಬಳಸುವ ಉಣ್ಣಿ-ನಿಯಂತ್ರಣ ಉತ್ಪನ್ನಗಳು ಸೇರಿದಂತೆ ಹೆಚ್ಚಿನ ಕೀಟನಾಶಕಗಳು ಆರ್ಗನೋಫಾಸ್ಫರಸ್ (OP) ಸಂಯುಕ್ತಗಳಾಗಿವೆ, ಇದು ಈ ಪಾಠ ಒಳಗೊಳ್ಳುವ ಅಪಾಯ.", "एक खेत में कीटनाशक का छिड़काव किया जा रहा है। पशुओं पर इस्तेमाल होने वाले किलनी-नियंत्रण उत्पादों सहित ज़्यादातर कीटनाशक ऑर्गनोफॉस्फोरस (OP) यौगिक हैं, जो इस पाठ का विषय है।"),
             },
           {
             type: "text",
-            heading: L("What Are Organophosphorous (OP) Compounds?"),
+            heading: L("What Are Organophosphorous (OP) Compounds?", "ఆర్గానోఫాస్ఫరస్ (OP) సమ్మేళనాలు అంటే ఏమిటి?", "ஆர்கானோபாஸ்பரஸ் (OP) கூட்டுப்பொருட்கள் என்றால் என்ன?", "ಆರ್ಗನೋಫಾಸ್ಫರಸ್ (OP) ಸಂಯುಕ್ತಗಳು ಎಂದರೇನು?", "ऑर्गनोफॉस्फोरस (OP) यौगिक क्या हैं?"),
             html: L(
-              "Pesticides are chemicals used to control pests on crops, and to kill ticks on cattle and buffaloes. Most pesticides are made from <b>organophosphorous (OP)</b> compounds. These are active poisons — meant to kill small pests and parasites, but capable of poisoning a cow or buffalo too, if used the wrong way or in excess."
+              "Pesticides are chemicals used to control pests on crops, and to kill ticks on cattle and buffaloes. Most pesticides are made from <b>organophosphorous (OP)</b> compounds. These are active poisons — meant to kill small pests and parasites, but capable of poisoning a cow or buffalo too, if used the wrong way or in excess.",
+              "పురుగుమందులు పంటలపై పురుగులను నియంత్రించడానికి, మరియు గోవులు మరియు గేదెలపై పేనులను చంపడానికి వాడే రసాయనాలు. చాలా పురుగుమందులు <b>ఆర్గానోఫాస్ఫరస్ (OP)</b> సమ్మేళనాల నుండి తయారవుతాయి. ఇవి క్రియాశీల విషాలు — చిన్న పురుగులు మరియు పరాన్నజీవులను చంపడానికి ఉద్దేశించినవి, కానీ తప్పు విధంగా లేదా అధికంగా వాడితే గోవు లేదా గేదెను కూడా విషపూరితం చేయగలవు.",
+              "பூச்சிக்கொல்லிகள் என்பது பயிர்களில் பூச்சிகளைக் கட்டுப்படுத்தவும், மாடு மற்றும் எருமைகளில் ஈறுகளைக் கொல்லவும் பயன்படுத்தப்படும் இரசாயனங்கள். பெரும்பாலான பூச்சிக்கொல்லிகள் <b>ஆர்கானோபாஸ்பரஸ் (OP)</b> கூட்டுப்பொருட்களிலிருந்து செய்யப்படுகின்றன. இவை செயல்படும் நச்சுகள் — சிறிய பூச்சிகள் மற்றும் ஒட்டுண்ணிகளைக் கொல்ல வேண்டியவை, ஆனால் தவறாகப் பயன்படுத்தப்பட்டால் அல்லது அதிகமாகப் பயன்படுத்தப்பட்டால் ஒரு பசு அல்லது எருமையையும் நச்சுத்தன்மைக்கு உள்ளாக்கக்கூடியவை.",
+              "ಕೀಟನಾಶಕಗಳು ಬೆಳೆಗಳ ಮೇಲಿನ ಕೀಟಗಳನ್ನು ನಿಯಂತ್ರಿಸಲು, ಮತ್ತು ದನ ಹಾಗೂ ಎಮ್ಮೆಗಳ ಮೇಲಿನ ಉಣ್ಣಿಗಳನ್ನು ಕೊಲ್ಲಲು ಬಳಸುವ ರಾಸಾಯನಿಕಗಳು. ಹೆಚ್ಚಿನ ಕೀಟನಾಶಕಗಳು <b>ಆರ್ಗನೋಫಾಸ್ಫರಸ್ (OP)</b> ಸಂಯುಕ್ತಗಳಿಂದ ತಯಾರಿಸಲ್ಪಡುತ್ತವೆ. ಇವು ಸಕ್ರಿಯ ವಿಷಗಳು — ಸಣ್ಣ ಕೀಟಗಳು ಮತ್ತು ಪರಾವಲಂಬಿಗಳನ್ನು ಕೊಲ್ಲಲು ಉದ್ದೇಶಿಸಲಾಗಿದೆ, ಆದರೆ ತಪ್ಪಾಗಿ ಅಥವಾ ಅತಿಯಾಗಿ ಬಳಸಿದರೆ ಹಸು ಅಥವಾ ಎಮ್ಮೆಯನ್ನೂ ವಿಷಪೂರಿತಗೊಳಿಸಬಲ್ಲವು.",
+              "कीटनाशक वे रसायन हैं जो फसलों पर कीटों को नियंत्रित करने के लिए, और गायों व भैंसों पर किलनी को मारने के लिए उपयोग किए जाते हैं। ज़्यादातर कीटनाशक <b>ऑर्गनोफॉस्फोरस (OP)</b> यौगिकों से बने होते हैं। ये सक्रिय ज़हर हैं — छोटे कीटों और परजीवियों को मारने के लिए बने हैं, लेकिन गलत तरीके से या अधिक मात्रा में उपयोग करने पर गाय या भैंस को भी ज़हरीला बना सकते हैं।"
             ),
           },
           {
             type: "glossary",
-            term: L("Organophosphorous (OP) Compound"),
+            term: L("Organophosphorous (OP) Compound", "ఆర్గానోఫాస్ఫరస్ (OP) సమ్మేళనం", "ஆர்கானோபாஸ்பரஸ் (OP) கூட்டுப்பொருள்", "ಆರ್ಗನೋಫಾಸ್ಫರಸ್ (OP) ಸಂಯುಕ್ತ", "ऑर्गनोफॉस्फोरस (OP) यौगिक"),
             meaning: L(
-              "A type of chemical used in many common pesticides, including tick-killing products applied to cattle and buffaloes. It works by poisoning pests and parasites, but it can also poison the animal itself if not used correctly."
+              "A type of chemical used in many common pesticides, including tick-killing products applied to cattle and buffaloes. It works by poisoning pests and parasites, but it can also poison the animal itself if not used correctly.",
+              "పశువులు మరియు గేదెలపై వాడే పేను-చంపే ఉత్పత్తులతో సహా అనేక సాధారణ పురుగుమందులలో వాడే ఒక రకమైన రసాయనం. ఇది పురుగులు మరియు పరాన్నజీవులను విషపూరితం చేయడం ద్వారా పనిచేస్తుంది, కానీ సరిగ్గా వాడకపోతే జంతువును కూడా విషపూరితం చేయవచ్చు.",
+              "மாடு மற்றும் எருமைகளுக்குப் பயன்படுத்தப்படும் ஈறு-கொல்லும் பொருட்கள் உட்பட பல பொதுவான பூச்சிக்கொல்லிகளில் பயன்படுத்தப்படும் ஒரு வகை இரசாயனம். இது பூச்சிகள் மற்றும் ஒட்டுண்ணிகளை நச்சுத்தன்மைக்கு உள்ளாக்குவதன் மூலம் செயல்படுகிறது, ஆனால் சரியாகப் பயன்படுத்தப்படாவிட்டால் விலங்கையும் நச்சுத்தன்மைக்கு உள்ளாக்கலாம்.",
+              "ದನ ಮತ್ತು ಎಮ್ಮೆಗಳಿಗೆ ಅನ್ವಯಿಸುವ ಉಣ್ಣಿ-ಕೊಲ್ಲುವ ಉತ್ಪನ್ನಗಳು ಸೇರಿದಂತೆ ಅನೇಕ ಸಾಮಾನ್ಯ ಕೀಟನಾಶಕಗಳಲ್ಲಿ ಬಳಸುವ ಒಂದು ರೀತಿಯ ರಾಸಾಯನಿಕ. ಇದು ಕೀಟಗಳು ಮತ್ತು ಪರಾವಲಂಬಿಗಳನ್ನು ವಿಷಪೂರಿತಗೊಳಿಸುವ ಮೂಲಕ ಕೆಲಸ ಮಾಡುತ್ತದೆ, ಆದರೆ ಸರಿಯಾಗಿ ಬಳಸದಿದ್ದರೆ ಪ್ರಾಣಿಯನ್ನೂ ವಿಷಪೂರಿತಗೊಳಿಸಬಹುದು.",
+              "गायों और भैंसों पर लगाए जाने वाले किलनी-नाशक उत्पादों सहित कई सामान्य कीटनाशकों में इस्तेमाल होने वाला एक प्रकार का रसायन। यह कीटों और परजीवियों को ज़हरीला बनाकर काम करता है, लेकिन सही तरीके से उपयोग न करने पर यह जानवर को भी ज़हरीला बना सकता है।"
             ),
           },
           {
             type: "stat-grid",
             items: [
               {
-                label: L("General condition"),
-                text: L("Severe depression — the animal appears very dull and low."),
+                label: L("General condition", "సాధారణ పరిస్థితి", "பொது நிலை", "ಸಾಮಾನ್ಯ ಸ್ಥಿತಿ", "सामान्य स्थिति"),
+                text: L("Severe depression — the animal appears very dull and low.", "తీవ్రమైన నిస్తేజం — జంతువు చాలా మందకొడిగా మరియు నీరసంగా కనిపిస్తుంది.", "கடுமையான மந்தம் — விலங்கு மிகவும் மந்தமாகவும் தளர்ச்சியாகவும் தோன்றுகிறது.", "ತೀವ್ರ ಜಡತ್ವ — ಪ್ರಾಣಿ ತುಂಬಾ ನಿಸ್ತೇಜ ಮತ್ತು ಕುಗ್ಗಿದಂತೆ ಕಾಣಿಸುತ್ತದೆ.", "गंभीर सुस्ती — जानवर बहुत सुस्त और कमज़ोर दिखाई देता है।"),
               },
               {
-                label: L("Drooling and urination"),
-                text: L("Heavy drooling (hypersalivation), and passing urine more often than normal."),
+                label: L("Drooling and urination", "లాలాజలం మరియు మూత్ర విసర్జన", "உமிழ்நீர் மற்றும் சிறுநீர் கழித்தல்", "ಜೊಲ್ಲು ಸುರಿಸುವಿಕೆ ಮತ್ತು ಮೂತ್ರ ವಿಸರ್ಜನೆ", "लार टपकना और पेशाब आना"),
+                text: L("Heavy drooling (hypersalivation), and passing urine more often than normal.", "అధిక లాలాజలం (హైపర్‌సలివేషన్), మరియు సాధారణం కంటే ఎక్కువసార్లు మూత్ర విసర్జన.", "அதிக உமிழ்நீர் (ஹைப்பர்சலைவேஷன்), மற்றும் வழக்கத்தை விட அடிக்கடி சிறுநீர் கழித்தல்.", "ಅತಿಯಾದ ಜೊಲ್ಲು ಸುರಿಸುವಿಕೆ (ಹೈಪರ್‌ಸಲೈವೇಶನ್), ಮತ್ತು ಸಾಮಾನ್ಯಕ್ಕಿಂತ ಹೆಚ್ಚಾಗಿ ಮೂತ್ರ ವಿಸರ್ಜನೆ.", "अत्यधिक लार टपकना (हाइपरसैलिवेशन), और सामान्य से ज़्यादा बार पेशाब आना।"),
               },
               {
-                label: L("Digestion and breathing"),
-                text: L("Diarrhoea, abdominal pain (colic), and difficult breathing."),
+                label: L("Digestion and breathing", "జీర్ణక్రియ మరియు శ్వాస", "செரிமானம் மற்றும் சுவாசம்", "ಜೀರ್ಣಕ್ರಿಯೆ ಮತ್ತು ಉಸಿರಾಟ", "पाचन और साँस लेना"),
+                text: L("Diarrhoea, abdominal pain (colic), and difficult breathing.", "విరేచనాలు, కడుపు నొప్పి (కోలిక్), మరియు కష్టమైన శ్వాస.", "வயிற்றுப்போக்கு, வயிற்று வலி (கோலிக்), மற்றும் சிரமமான சுவாசம்.", "ಅತಿಸಾರ, ಹೊಟ್ಟೆ ನೋವು (ಕೊಲಿಕ್), ಮತ್ತು ಕಷ್ಟದ ಉಸಿರಾಟ.", "दस्त, पेट दर्द (कॉलिक), और कठिन साँस लेना।"),
               },
               {
-                label: L("Muscles and nervous system"),
+                label: L("Muscles and nervous system", "కండరాలు మరియు నాడీ వ్యవస్థ", "தசைகள் மற்றும் நரம்பு மண்டலம்", "ಸ್ನಾಯುಗಳು ಮತ್ತು ನರಮಂಡಲ", "मांसपेशियाँ और तंत्रिका तंत्र"),
                 text: L(
-                  "Muscles twitching visibly under the skin, nervousness, unsteady walking, apprehension, and even seizures (fits). The pupils of the eyes may also become very small (constricted)."
+                  "Muscles twitching visibly under the skin, nervousness, unsteady walking, apprehension, and even seizures (fits). The pupils of the eyes may also become very small (constricted).",
+                  "చర్మం కింద కనిపించేలా కండరాలు కదులుతాయి, భయాందోళన, అస్థిర నడక, ఆందోళన, మరియు మూర్ఛలు (ఫిట్స్) కూడా. కళ్ళ పాపలు కూడా చాలా చిన్నవిగా (సంకోచించి) కావచ్చు.",
+                  "தோலின் கீழ் தெரியும் அளவுக்கு தசைகள் துடிப்பது, பதட்டம், நிலையற்ற நடை, கவலை, மற்றும் வலிப்பு (ஃபிட்ஸ்) கூட. கண்களின் கருவிழிகளும் மிகவும் சிறியதாக (சுருங்கியதாக) மாறலாம்.",
+                  "ಚರ್ಮದ ಕೆಳಗೆ ಗೋಚರವಾಗಿ ಸ್ನಾಯುಗಳು ಅದುರುವುದು, ಆತಂಕ, ಅಸ್ಥಿರ ನಡಿಗೆ, ಭಯ, ಮತ್ತು ಸೆಳವು (ಫಿಟ್ಸ್) ಕೂಡ. ಕಣ್ಣುಗಳ ಪಾಪೆಗಳೂ ಬಹಳ ಚಿಕ್ಕದಾಗಿ (ಸಂಕುಚಿತ) ಆಗಬಹುದು.",
+                  "त्वचा के नीचे साफ़ दिखने वाली मांसपेशियों का फड़कना, घबराहट, अस्थिर चाल, बेचैनी, और यहाँ तक कि दौरे (फिट्स)। आँखों की पुतलियाँ भी बहुत छोटी (सिकुड़ी हुई) हो सकती हैं।"
                 ),
               },
             ],
           },
           {
             type: "example",
-            heading: L("Where OP Exposure Often Comes From"),
+            heading: L("Where OP Exposure Often Comes From", "OP బహిర్గతం తరచుగా ఎక్కడ నుండి వస్తుంది", "OP வெளிப்பாடு பெரும்பாலும் எங்கிருந்து வருகிறது", "OP ಒಡ್ಡುವಿಕೆ ಸಾಮಾನ್ಯವಾಗಿ ಎಲ್ಲಿಂದ ಬರುತ್ತದೆ", "OP का जोखिम अक्सर कहाँ से आता है"),
             text: L(
-              "OP poisoning can happen when pesticide is sprayed on an animal's body to kill ticks, when pesticide-sprayed fodder is fed without washing it first, or when an animal comes into contact with pesticide containers or contaminated feed."
+              "OP poisoning can happen when pesticide is sprayed on an animal's body to kill ticks, when pesticide-sprayed fodder is fed without washing it first, or when an animal comes into contact with pesticide containers or contaminated feed.",
+              "పేనులను చంపడానికి జంతువు శరీరంపై పురుగుమందు పిచికారీ చేసినప్పుడు, పురుగుమందు పిచికారీ చేసిన మేతను ముందుగా కడగకుండా తినిపించినప్పుడు, లేదా జంతువు పురుగుమందు కంటైనర్లు లేదా కలుషితమైన దాణాతో సంబంధంలోకి వచ్చినప్పుడు OP విషప్రయోగం జరగవచ్చు.",
+              "ஈறுகளைக் கொல்ல விலங்கின் உடலில் பூச்சிக்கொல்லி தெளிக்கப்படும்போது, பூச்சிக்கொல்லி தெளிக்கப்பட்ட தீவனத்தை முதலில் கழுவாமல் உணவளிக்கும்போது, அல்லது ஒரு விலங்கு பூச்சிக்கொல்லி கொள்கலன்கள் அல்லது கறைபடிந்த தீவனத்துடன் தொடர்பு கொள்ளும்போது OP நச்சுத்தன்மை ஏற்படலாம்.",
+              "ಉಣ್ಣಿಗಳನ್ನು ಕೊಲ್ಲಲು ಪ್ರಾಣಿಯ ದೇಹದ ಮೇಲೆ ಕೀಟನಾಶಕ ಸಿಂಪಡಿಸಿದಾಗ, ಕೀಟನಾಶಕ ಸಿಂಪಡಿಸಿದ ಮೇವನ್ನು ಮೊದಲು ತೊಳೆಯದೆ ನೀಡಿದಾಗ, ಅಥವಾ ಪ್ರಾಣಿ ಕೀಟನಾಶಕ ಪಾತ್ರೆಗಳು ಅಥವಾ ಕಲುಷಿತ ಮೇವಿನ ಸಂಪರ್ಕಕ್ಕೆ ಬಂದಾಗ OP ವಿಷಬಾಧೆ ಸಂಭವಿಸಬಹುದು.",
+              "OP विषाक्तता तब हो सकती है जब किलनी मारने के लिए जानवर के शरीर पर कीटनाशक छिड़का जाए, जब कीटनाशक-छिड़का हुआ चारा बिना धोए खिलाया जाए, या जब जानवर कीटनाशक के डिब्बों या दूषित चारे के संपर्क में आए।"
             ),
           },
           {
             type: "callout",
             style: "warning",
-            heading: L("Every Hour Matters"),
+            heading: L("Every Hour Matters", "ప్రతి గంట ముఖ్యమైనదే", "ஒவ்வொரு மணி நேரமும் முக்கியம்", "ಪ್ರತಿ ಗಂಟೆಯೂ ಮುಖ್ಯ", "हर घंटा महत्वपूर्ण है"),
             text: L(
-              "Contact a veterinarian immediately the moment you notice these symptoms. Treating OP poisoning early greatly increases the animal's chances of survival."
+              "Contact a veterinarian immediately the moment you notice these symptoms. Treating OP poisoning early greatly increases the animal's chances of survival.",
+              "మీరు ఈ లక్షణాలను గమనించిన వెంటనే వెంటనే పశువైద్యుడిని సంప్రదించండి. OP విషప్రయోగానికి ముందుగా చికిత్స చేయడం జంతువు బతికే అవకాశాలను గణనీయంగా పెంచుతుంది.",
+              "இந்த அறிகுறிகளை நீங்கள் கவனித்த உடனேயே ஒரு கால்நடை மருத்துவரைத் தொடர்பு கொள்ளுங்கள். OP நச்சுத்தன்மையை முன்கூட்டியே சிகிச்சை செய்வது விலங்கு உயிர் பிழைக்கும் வாய்ப்புகளை பெரிதும் அதிகரிக்கும்.",
+              "ಈ ಲಕ್ಷಣಗಳನ್ನು ನೀವು ಗಮನಿಸಿದ ಕೂಡಲೇ ತಕ್ಷಣ ಪಶುವೈದ್ಯರನ್ನು ಸಂಪರ್ಕಿಸಿ. OP ವಿಷಬಾಧೆಗೆ ಮುಂಚಿತವಾಗಿ ಚಿಕಿತ್ಸೆ ನೀಡುವುದು ಪ್ರಾಣಿಯ ಬದುಕುಳಿಯುವ ಸಾಧ್ಯತೆಗಳನ್ನು ಗಣನೀಯವಾಗಿ ಹೆಚ್ಚಿಸುತ್ತದೆ.",
+              "इन लक्षणों को देखते ही तुरंत पशु चिकित्सक से संपर्क करें। OP विषाक्तता का जल्दी इलाज करने से जानवर के बचने की संभावना काफी बढ़ जाती है।"
             ),
           },
         ],
         check: [
           {
             type: "mcq",
-            q: L("Which of these is a symptom of OP poisoning described in this lesson?"),
-            options: [L("Heavy drooling and muscle twitching under the skin"), L("A shiny, smooth coat"), L("Increased appetite"), L("Higher milk yield")],
+            q: L("Which of these is a symptom of OP poisoning described in this lesson?", "ఈ పాఠంలో వివరించిన OP విషప్రయోగం లక్షణాలలో ఇది ఏది?", "இந்த பாடத்தில் விவரிக்கப்பட்ட OP நச்சுத்தன்மையின் அறிகுறிகளில் இது எது?", "ಈ ಪಾಠದಲ್ಲಿ ವಿವರಿಸಲಾದ OP ವಿಷಬಾಧೆಯ ಲಕ್ಷಣಗಳಲ್ಲಿ ಇದು ಯಾವುದು?", "इस पाठ में बताए गए OP विषाक्तता के लक्षणों में से यह कौन सा है?"),
+            options: [L("Heavy drooling and muscle twitching under the skin", "అధిక లాలాజలం మరియు చర్మం కింద కండరాలు కదలడం", "அதிக உமிழ்நீர் மற்றும் தோலின் கீழ் தசைகள் துடிப்பது", "ಅತಿಯಾದ ಜೊಲ್ಲು ಸುರಿಸುವಿಕೆ ಮತ್ತು ಚರ್ಮದ ಕೆಳಗೆ ಸ್ನಾಯುಗಳು ಅದುರುವುದು", "अत्यधिक लार टपकना और त्वचा के नीचे मांसपेशियों का फड़कना"), L("A shiny, smooth coat", "మెరిసే, మృదువైన చర్మ వెంట్రుకలు", "பளபளப்பான, மென்மையான உரோமம்", "ಹೊಳೆಯುವ, ನಯವಾದ ಕೂದಲು", "चमकदार, चिकनी त्वचा-रोम"), L("Increased appetite", "ఆకలి పెరగడం", "பசி அதிகரிப்பு", "ಹಸಿವು ಹೆಚ್ಚಳ", "भूख का बढ़ना"), L("Higher milk yield", "ఎక్కువ పాల దిగుబడి", "அதிக பால் விளைச்சல்", "ಹೆಚ್ಚಿನ ಹಾಲಿನ ಇಳುವರಿ", "ज़्यादा दूध उत्पादन")],
             answer: 0,
-            explain: L("Heavy drooling (hypersalivation) and visible muscle twitching are both listed symptoms of OP poisoning."),
+            explain: L("Heavy drooling (hypersalivation) and visible muscle twitching are both listed symptoms of OP poisoning.", "అధిక లాలాజలం (హైపర్‌సలివేషన్) మరియు కనిపించే కండరాల కదలిక రెండూ OP విషప్రయోగం లక్షణాలుగా జాబితా చేయబడ్డాయి.", "அதிக உமிழ்நீர் (ஹைப்பர்சலைவேஷன்) மற்றும் தெரியும் தசை துடிப்பு இரண்டும் OP நச்சுத்தன்மையின் அறிகுறிகளாக பட்டியலிடப்பட்டுள்ளன.", "ಅತಿಯಾದ ಜೊಲ್ಲು ಸುರಿಸುವಿಕೆ (ಹೈಪರ್‌ಸಲೈವೇಶನ್) ಮತ್ತು ಗೋಚರ ಸ್ನಾಯುಗಳ ಅದುರುವಿಕೆ ಎರಡೂ OP ವಿಷಬಾಧೆಯ ಲಕ್ಷಣಗಳಾಗಿ ಪಟ್ಟಿ ಮಾಡಲಾಗಿದೆ.", "अत्यधिक लार टपकना (हाइपरसैलिवेशन) और दिखाई देने वाला मांसपेशियों का फड़कना दोनों ही OP विषाक्तता के लक्षणों में सूचीबद्ध हैं।"),
           },
           {
             type: "truefalse",
-            q: L("Treating OP poisoning early increases the animal's chances of survival."),
+            q: L("Treating OP poisoning early increases the animal's chances of survival.", "OP విషప్రయోగానికి ముందుగా చికిత్స చేయడం జంతువు బతికే అవకాశాలను పెంచుతుంది.", "OP நச்சுத்தன்மையை முன்கூட்டியே சிகிச்சை செய்வது விலங்கு உயிர் பிழைக்கும் வாய்ப்புகளை அதிகரிக்கும்.", "OP ವಿಷಬಾಧೆಗೆ ಮುಂಚಿತವಾಗಿ ಚಿಕಿತ್ಸೆ ನೀಡುವುದು ಪ್ರಾಣಿಯ ಬದುಕುಳಿಯುವ ಸಾಧ್ಯತೆಗಳನ್ನು ಹೆಚ್ಚಿಸುತ್ತದೆ.", "OP विषाक्तता का जल्दी इलाज करने से जानवर के बचने की संभावना बढ़ जाती है।"),
             answer: true,
-            explain: L("Yes — contacting a vet the moment symptoms are noticed gives the animal a much better chance."),
+            explain: L("Yes — contacting a vet the moment symptoms are noticed gives the animal a much better chance.", "అవును — లక్షణాలు గమనించిన వెంటనే వైద్యుడిని సంప్రదించడం జంతువుకు మంచి అవకాశాన్ని ఇస్తుంది.", "ஆம் — அறிகுறிகள் கவனிக்கப்பட்ட உடனேயே கால்நடை மருத்துவரைத் தொடர்பு கொள்வது விலங்குக்கு மிகச் சிறந்த வாய்ப்பை அளிக்கிறது.", "ಹೌದು — ಲಕ್ಷಣಗಳು ಗಮನಕ್ಕೆ ಬಂದ ಕೂಡಲೇ ಪಶುವೈದ್ಯರನ್ನು ಸಂಪರ್ಕಿಸುವುದು ಪ್ರಾಣಿಗೆ ಹೆಚ್ಚು ಉತ್ತಮ ಅವಕಾಶ ನೀಡುತ್ತದೆ.", "हाँ — लक्षण दिखते ही पशु चिकित्सक से संपर्क करना जानवर को बेहतर मौका देता है।"),
           },
         ],
       },
       {
         id: "t-m10-op-prevention",
-        title: L("Preventing Pesticide Poisoning and Acting Immediately"),
+        title: L("Preventing Pesticide Poisoning and Acting Immediately", "పురుగుమందు విషప్రయోగాన్ని నివారించడం మరియు వెంటనే చర్య తీసుకోవడం", "பூச்சிக்கொல்லி நச்சுத்தன்மையைத் தடுப்பது மற்றும் உடனடியாக செயல்படுவது", "ಕೀಟನಾಶಕ ವಿಷಬಾಧೆಯನ್ನು ತಡೆಗಟ್ಟುವುದು ಮತ್ತು ತಕ್ಷಣ ಕ್ರಮ ತೆಗೆದುಕೊಳ್ಳುವುದು", "कीटनाशक विषाक्तता को रोकना और तुरंत कार्रवाई करना"),
         teach: [
           {
             type: "text",
-            heading: L("Simple Precautions That Prevent Most Cases"),
+            heading: L("Simple Precautions That Prevent Most Cases", "చాలా కేసులను నివారించే సాధారణ జాగ్రత్తలు", "பெரும்பாலான வழக்குகளைத் தடுக்கும் எளிய முன்னெச்சரிக்கைகள்", "ಹೆಚ್ಚಿನ ಪ್ರಕರಣಗಳನ್ನು ತಡೆಗಟ್ಟುವ ಸರಳ ಮುನ್ನೆಚ್ಚರಿಕೆಗಳು", "अधिकतर मामलों को रोकने वाली सरल सावधानियाँ"),
             html: L(
-              "Most OP poisoning can be avoided with a few basic precautions when pesticides are used around animals. None of these require any medical training — just care and attention whenever pesticides are being applied or stored."
+              "Most OP poisoning can be avoided with a few basic precautions when pesticides are used around animals. None of these require any medical training — just care and attention whenever pesticides are being applied or stored.",
+              "జంతువుల చుట్టూ పురుగుమందులు వాడేటప్పుడు కొన్ని ప్రాథమిక జాగ్రత్తలతో చాలా OP విషప్రయోగాన్ని నివారించవచ్చు. వీటిలో దేనికీ వైద్య శిక్షణ అవసరం లేదు — పురుగుమందులు వేసేటప్పుడు లేదా నిల్వ చేసేటప్పుడు జాగ్రత్త మరియు శ్రద్ధ మాత్రమే అవసరం.",
+              "விலங்குகளைச் சுற்றி பூச்சிக்கொல்லிகள் பயன்படுத்தப்படும்போது சில அடிப்படை முன்னெச்சரிக்கைகளுடன் பெரும்பாலான OP நச்சுத்தன்மையைத் தவிர்க்கலாம். இவற்றில் எதற்கும் மருத்துவப் பயிற்சி தேவையில்லை — பூச்சிக்கொல்லிகள் பயன்படுத்தப்படும்போது அல்லது சேமிக்கப்படும்போது கவனமும் அக்கறையும் மட்டுமே தேவை.",
+              "ಪ್ರಾಣಿಗಳ ಸುತ್ತಮುತ್ತ ಕೀಟನಾಶಕಗಳನ್ನು ಬಳಸುವಾಗ ಕೆಲವು ಮೂಲಭೂತ ಮುನ್ನೆಚ್ಚರಿಕೆಗಳೊಂದಿಗೆ ಹೆಚ್ಚಿನ OP ವಿಷಬಾಧೆಯನ್ನು ತಪ್ಪಿಸಬಹುದು. ಇವುಗಳಲ್ಲಿ ಯಾವುದಕ್ಕೂ ವೈದ್ಯಕೀಯ ತರಬೇತಿ ಅಗತ್ಯವಿಲ್ಲ — ಕೀಟನಾಶಕಗಳನ್ನು ಅನ್ವಯಿಸುವಾಗ ಅಥವಾ ಸಂಗ್ರಹಿಸುವಾಗ ಕಾಳಜಿ ಮತ್ತು ಗಮನ ಮಾತ್ರ ಅಗತ್ಯ.",
+              "जब जानवरों के आसपास कीटनाशकों का उपयोग किया जाता है तो कुछ बुनियादी सावधानियों से ज़्यादातर OP विषाक्तता से बचा जा सकता है। इनमें से किसी के लिए भी चिकित्सा प्रशिक्षण की ज़रूरत नहीं है — बस कीटनाशक लगाते या भंडारित करते समय सावधानी और ध्यान चाहिए।"
             ),
           },
           {
             type: "stat-grid",
             items: [
               {
-                label: L("Before spraying for ticks"),
-                text: L("Give the animal enough water to drink before applying any liquid or spray pesticide on its body to kill ticks."),
+                label: L("Before spraying for ticks", "పేను నివారణకు పిచికారీ చేసే ముందు", "ஈறுகளுக்கு தெளிக்கும் முன்", "ಉಣ್ಣಿಗಳಿಗಾಗಿ ಸಿಂಪಡಿಸುವ ಮೊದಲು", "किलनी के लिए छिड़काव करने से पहले"),
+                text: L("Give the animal enough water to drink before applying any liquid or spray pesticide on its body to kill ticks.", "పేనులను చంపడానికి ఏదైనా ద్రవ లేదా స్ప్రే పురుగుమందును జంతువు శరీరంపై వేసే ముందు దానికి తగినంత నీరు తాగించండి.", "ஈறுகளைக் கொல்ல எந்த திரவம் அல்லது தெளிப்பு பூச்சிக்கொல்லியையும் அதன் உடலில் தடவும் முன் விலங்குக்கு போதுமான தண்ணீர் கொடுங்கள்.", "ಉಣ್ಣಿಗಳನ್ನು ಕೊಲ್ಲಲು ಯಾವುದೇ ದ್ರವ ಅಥವಾ ಸಿಂಪಡಣೆ ಕೀಟನಾಶಕವನ್ನು ಅದರ ದೇಹದ ಮೇಲೆ ಹಚ್ಚುವ ಮೊದಲು ಪ್ರಾಣಿಗೆ ಸಾಕಷ್ಟು ನೀರು ಕುಡಿಸಿ.", "किलनी मारने के लिए जानवर के शरीर पर कोई भी तरल या स्प्रे कीटनाशक लगाने से पहले उसे पर्याप्त पानी पिलाएं।"),
               },
               {
-                label: L("Washing sprayed fodder"),
-                text: L("Fodder that has been sprayed with insecticide should be washed properly with water before it is fed to the animal."),
+                label: L("Washing sprayed fodder", "పిచికారీ చేసిన మేతను కడగడం", "தெளிக்கப்பட்ட தீவனத்தை கழுவுதல்", "ಸಿಂಪಡಿಸಿದ ಮೇವನ್ನು ತೊಳೆಯುವುದು", "छिड़काव किए गए चारे को धोना"),
+                text: L("Fodder that has been sprayed with insecticide should be washed properly with water before it is fed to the animal.", "కీటనాశక పిచికారీ చేసిన మేతను జంతువుకు తినిపించే ముందు నీటితో బాగా కడగాలి.", "பூச்சிக்கொல்லி தெளிக்கப்பட்ட தீவனத்தை விலங்குக்கு உணவளிக்கும் முன் தண்ணீரால் நன்றாக கழுவ வேண்டும்.", "ಕೀಟನಾಶಕ ಸಿಂಪಡಿಸಿದ ಮೇವನ್ನು ಪ್ರಾಣಿಗೆ ನೀಡುವ ಮೊದಲು ನೀರಿನಿಂದ ಸರಿಯಾಗಿ ತೊಳೆಯಬೇಕು.", "कीटनाशक छिड़का हुआ चारा जानवर को खिलाने से पहले पानी से अच्छी तरह धोना चाहिए।"),
               },
               {
-                label: L("Following the label"),
-                text: L("Apply pesticide exactly as directed on the product label — the recommended dose and timing matter."),
+                label: L("Following the label", "లేబుల్‌ను అనుసరించడం", "லேபிளைப் பின்பற்றுதல்", "ಲೇಬಲ್ ಅನ್ನು ಅನುಸರಿಸುವುದು", "लेबल का पालन करना"),
+                text: L("Apply pesticide exactly as directed on the product label — the recommended dose and timing matter.", "ఉత్పత్తి లేబుల్‌పై సూచించిన విధంగానే పురుగుమందును వాడండి — సిఫార్సు చేసిన మోతాదు మరియు సమయం ముఖ్యమైనవి.", "தயாரிப்பு லேபிளில் குறிப்பிட்டுள்ளபடி சரியாக பூச்சிக்கொல்லியைப் பயன்படுத்துங்கள் — பரிந்துரைக்கப்பட்ட அளவும் நேரமும் முக்கியம்.", "ಉತ್ಪನ್ನದ ಲೇಬಲ್‌ನಲ್ಲಿ ಸೂಚಿಸಿದಂತೆಯೇ ಕೀಟನಾಶಕವನ್ನು ಅನ್ವಯಿಸಿ — ಶಿಫಾರಸು ಮಾಡಿದ ಪ್ರಮಾಣ ಮತ್ತು ಸಮಯ ಮುಖ್ಯ.", "उत्पाद के लेबल पर बताए अनुसार ही कीटनाशक लगाएं — सुझाई गई मात्रा और समय महत्वपूर्ण हैं।"),
               },
               {
-                label: L("Animals that should not be treated"),
+                label: L("Animals that should not be treated", "చికిత్స చేయకూడని జంతువులు", "சிகிச்சை அளிக்கக்கூடாத விலங்குகள்", "ಚಿಕಿತ್ಸೆ ನೀಡಬಾರದ ಪ್ರಾಣಿಗಳು", "जिन जानवरों का इलाज नहीं करना चाहिए"),
                 text: L(
-                  "Do not apply pesticides to sick, very thin, recovering, or severely stressed animals. Animals younger than 3 months should generally not be treated with pesticides for external parasites (like ticks) at all."
+                  "Do not apply pesticides to sick, very thin, recovering, or severely stressed animals. Animals younger than 3 months should generally not be treated with pesticides for external parasites (like ticks) at all.",
+                  "అనారోగ్యంతో ఉన్న, చాలా బక్కగా ఉన్న, కోలుకుంటున్న, లేదా తీవ్రమైన ఒత్తిడిలో ఉన్న జంతువులకు పురుగుమందులు వేయవద్దు. 3 నెలల కంటే తక్కువ వయసున్న జంతువులకు బాహ్య పరాన్నజీవుల (పేనుల వంటివి) కోసం సాధారణంగా పురుగుమందులతో చికిత్స చేయకూడదు.",
+                  "நோய்வாய்ப்பட்ட, மிகவும் மெலிந்த, குணமடைந்து வரும், அல்லது கடுமையான மன அழுத்தத்தில் உள்ள விலங்குகளுக்கு பூச்சிக்கொல்லிகளைப் பயன்படுத்த வேண்டாம். 3 மாதங்களுக்கும் குறைவான வயதுடைய விலங்குகளுக்கு வெளிப்புற ஒட்டுண்ணிகளுக்கு (ஈறுகள் போன்றவை) பொதுவாக பூச்சிக்கொல்லிகள் மூலம் சிகிச்சை அளிக்கக்கூடாது.",
+                  "ಅನಾರೋಗ್ಯದಿಂದ ಇರುವ, ಬಹಳ ತೆಳ್ಳಗಿರುವ, ಚೇತರಿಸಿಕೊಳ್ಳುತ್ತಿರುವ, ಅಥವಾ ತೀವ್ರ ಒತ್ತಡದಲ್ಲಿರುವ ಪ್ರಾಣಿಗಳಿಗೆ ಕೀಟನಾಶಕಗಳನ್ನು ಹಚ್ಚಬೇಡಿ. 3 ತಿಂಗಳಿಗಿಂತ ಚಿಕ್ಕ ವಯಸ್ಸಿನ ಪ್ರಾಣಿಗಳಿಗೆ ಬಾಹ್ಯ ಪರಾವಲಂಬಿಗಳಿಗೆ (ಉಣ್ಣಿಗಳಂತಹ) ಸಾಮಾನ್ಯವಾಗಿ ಕೀಟನಾಶಕಗಳಿಂದ ಚಿಕಿತ್ಸೆ ನೀಡಬಾರದು.",
+                  "बीमार, बहुत दुबले, स्वस्थ हो रहे, या गंभीर तनाव में जानवरों पर कीटनाशक न लगाएं। 3 महीने से कम उम्र के जानवरों का बाहरी परजीवियों (जैसे किलनी) के लिए आमतौर पर कीटनाशकों से इलाज नहीं करना चाहिए।"
                 ),
               },
             ],
           },
           {
             type: "glossary",
-            term: L("External Parasites"),
+            term: L("External Parasites", "బాహ్య పరాన్నజీవులు", "வெளிப்புற ஒட்டுண்ணிகள்", "ಬಾಹ್ಯ ಪರಾವಲಂಬಿಗಳು", "बाहरी परजीवी"),
             meaning: L(
-              "Pests, such as ticks, that live on the outside of an animal's body rather than inside it. Pesticides are often applied to the skin or coat to control them."
+              "Pests, such as ticks, that live on the outside of an animal's body rather than inside it. Pesticides are often applied to the skin or coat to control them.",
+              "పేనుల వంటి పురుగులు, ఇవి జంతువు శరీరం లోపల కాకుండా బయట నివసిస్తాయి. వాటిని నియంత్రించడానికి తరచుగా చర్మం లేదా వెంట్రుకలపై పురుగుమందులు వేస్తారు.",
+              "ஈறுகள் போன்ற பூச்சிகள், அவை விலங்கின் உடலுக்குள் அல்லாமல் வெளியே வாழ்கின்றன. அவற்றைக் கட்டுப்படுத்த பெரும்பாலும் தோல் அல்லது உரோமத்தில் பூச்சிக்கொல்லிகள் பயன்படுத்தப்படுகின்றன.",
+              "ಉಣ್ಣಿಗಳಂತಹ ಕೀಟಗಳು, ಅವು ಪ್ರಾಣಿಯ ದೇಹದ ಒಳಗೆ ಬದಲಾಗಿ ಹೊರಗೆ ವಾಸಿಸುತ್ತವೆ. ಅವುಗಳನ್ನು ನಿಯಂತ್ರಿಸಲು ಸಾಮಾನ್ಯವಾಗಿ ಚರ್ಮ ಅಥವಾ ಕೂದಲಿನ ಮೇಲೆ ಕೀಟನಾಶಕಗಳನ್ನು ಹಚ್ಚಲಾಗುತ್ತದೆ.",
+              "किलनी जैसे कीट, जो जानवर के शरीर के अंदर नहीं बल्कि बाहर रहते हैं। इन्हें नियंत्रित करने के लिए अक्सर त्वचा या रोयें पर कीटनाशक लगाए जाते हैं।"
             ),
           },
           {
             type: "callout",
             style: "tip",
-            heading: L("Keep Pesticides and Contaminated Feed Away From Animals"),
+            heading: L("Keep Pesticides and Contaminated Feed Away From Animals", "పురుగుమందులు మరియు కలుషితమైన దాణాను జంతువులకు దూరంగా ఉంచండి", "பூச்சிக்கொல்லிகள் மற்றும் கறைபடிந்த தீவனத்தை விலங்குகளிலிருந்து விலக்கி வையுங்கள்", "ಕೀಟನಾಶಕಗಳು ಮತ್ತು ಕಲುಷಿತ ಮೇವನ್ನು ಪ್ರಾಣಿಗಳಿಂದ ದೂರವಿಡಿ", "कीटनाशकों और दूषित चारे को जानवरों से दूर रखें"),
             text: L(
-              "Keep animals away from pesticide containers — whether new or used — and away from any feed contaminated with pesticide. Also check the product label for warnings about combining it with other pesticides or animal health products."
+              "Keep animals away from pesticide containers — whether new or used — and away from any feed contaminated with pesticide. Also check the product label for warnings about combining it with other pesticides or animal health products.",
+              "కొత్తవి అయినా వాడినవి అయినా పురుగుమందు కంటైనర్ల నుండి, మరియు పురుగుమందుతో కలుషితమైన ఏదైనా దాణా నుండి జంతువులను దూరంగా ఉంచండి. ఇతర పురుగుమందులు లేదా జంతు ఆరోగ్య ఉత్పత్తులతో కలపడం గురించి హెచ్చరికల కోసం ఉత్పత్తి లేబుల్‌ను కూడా తనిఖీ చేయండి.",
+              "புதியதாக இருந்தாலும் பயன்படுத்தப்பட்டதாக இருந்தாலும் பூச்சிக்கொல்லி கொள்கலன்களிலிருந்து, மற்றும் பூச்சிக்கொல்லியால் கறைபடிந்த எந்த தீவனத்திலிருந்தும் விலங்குகளை விலக்கி வையுங்கள். மற்ற பூச்சிக்கொல்லிகள் அல்லது விலங்கு நல பொருட்களுடன் கலப்பது குறித்த எச்சரிக்கைகளுக்கு தயாரிப்பு லேபிளையும் சரிபார்க்கவும்.",
+              "ಹೊಸದಾಗಿರಲಿ ಅಥವಾ ಬಳಸಿದ್ದಾಗಿರಲಿ ಕೀಟನಾಶಕ ಪಾತ್ರೆಗಳಿಂದ, ಮತ್ತು ಕೀಟನಾಶಕದಿಂದ ಕಲುಷಿತಗೊಂಡ ಯಾವುದೇ ಮೇವಿನಿಂದ ಪ್ರಾಣಿಗಳನ್ನು ದೂರವಿಡಿ. ಇತರ ಕೀಟನಾಶಕಗಳು ಅಥವಾ ಪ್ರಾಣಿ ಆರೋಗ್ಯ ಉತ್ಪನ್ನಗಳೊಂದಿಗೆ ಬೆರೆಸುವ ಬಗ್ಗೆ ಎಚ್ಚರಿಕೆಗಳಿಗಾಗಿ ಉತ್ಪನ್ನದ ಲೇಬಲ್ ಅನ್ನೂ ಪರಿಶೀಲಿಸಿ.",
+              "जानवरों को कीटनाशक के डिब्बों से — चाहे नए हों या इस्तेमाल किए हुए — और कीटनाशक से दूषित किसी भी चारे से दूर रखें। अन्य कीटनाशकों या पशु स्वास्थ्य उत्पादों के साथ मिलाने संबंधी चेतावनियों के लिए उत्पाद के लेबल की भी जाँच करें।"
             ),
           },
           {
             type: "callout",
             style: "warning",
-            heading: L("The One Rule That Applies to Every Poisoning in This Module"),
+            heading: L("The One Rule That Applies to Every Poisoning in This Module", "ఈ మాడ్యూల్‌లోని ప్రతి విషప్రయోగానికి వర్తించే ఒకే ఒక నియమం", "இந்த தொகுதியில் உள்ள ஒவ்வொரு நச்சுத்தன்மைக்கும் பொருந்தும் ஒரே விதி", "ಈ ಮಾಡ್ಯೂಲ್‌ನಲ್ಲಿನ ಪ್ರತಿ ವಿಷಬಾಧೆಗೂ ಅನ್ವಯಿಸುವ ಒಂದೇ ನಿಯಮ", "इस मॉड्यूल में हर विषाक्तता पर लागू होने वाला एक नियम"),
             text: L(
-              "Whether it's cottonseed feed, a toxic plant, or a pesticide — the moment you notice signs of poisoning, your job is the same: report it and get veterinary help immediately. Never try to treat poisoning yourself. Acting quickly — not treating it yourself — is what saves the animal's life."
+              "Whether it's cottonseed feed, a toxic plant, or a pesticide — the moment you notice signs of poisoning, your job is the same: report it and get veterinary help immediately. Never try to treat poisoning yourself. Acting quickly — not treating it yourself — is what saves the animal's life.",
+              "అది పత్తి గింజల దాణా అయినా, విషపూరిత మొక్క అయినా, లేదా పురుగుమందు అయినా — విషప్రయోగం లక్షణాలను గమనించిన వెంటనే, మీ పని ఒకటే: దానిని నివేదించి వెంటనే పశువైద్య సహాయం పొందడం. విషప్రయోగానికి మీరే స్వయంగా చికిత్స చేయడానికి ఎప్పుడూ ప్రయత్నించవద్దు. వేగంగా చర్య తీసుకోవడమే — మీరే స్వయంగా చికిత్స చేయకపోవడమే — జంతువు ప్రాణాన్ని కాపాడేది.",
+              "அது பருத்தி விதை தீவனமாக இருந்தாலும், நச்சுத் தாவரமாக இருந்தாலும், அல்லது பூச்சிக்கொல்லியாக இருந்தாலும் — நச்சுத்தன்மையின் அறிகுறிகளை நீங்கள் கவனித்த உடனேயே, உங்கள் வேலை ஒன்றுதான்: அதை தெரிவித்து உடனடியாக கால்நடை மருத்துவ உதவியைப் பெறுங்கள். நச்சுத்தன்மையை நீங்களே சிகிச்சை செய்ய ஒருபோதும் முயற்சிக்காதீர்கள். வேகமாக செயல்படுவதே — நீங்களே சிகிச்சை செய்யாமல் இருப்பதே — விலங்கின் உயிரைக் காப்பாற்றுகிறது.",
+              "ಅದು ಹತ್ತಿ ಬೀಜದ ಮೇವಾಗಿರಲಿ, ವಿಷಕಾರಿ ಸಸ್ಯವಾಗಿರಲಿ, ಅಥವಾ ಕೀಟನಾಶಕವಾಗಿರಲಿ — ವಿಷಬಾಧೆಯ ಲಕ್ಷಣಗಳನ್ನು ನೀವು ಗಮನಿಸಿದ ಕೂಡಲೇ, ನಿಮ್ಮ ಕೆಲಸ ಒಂದೇ: ಅದನ್ನು ವರದಿ ಮಾಡಿ ತಕ್ಷಣ ಪಶುವೈದ್ಯಕೀಯ ಸಹಾಯ ಪಡೆಯುವುದು. ವಿಷಬಾಧೆಗೆ ನೀವೇ ಸ್ವತಃ ಚಿಕಿತ್ಸೆ ನೀಡಲು ಎಂದಿಗೂ ಪ್ರಯತ್ನಿಸಬೇಡಿ. ವೇಗವಾಗಿ ಕ್ರಮ ತೆಗೆದುಕೊಳ್ಳುವುದೇ — ನೀವೇ ಚಿಕಿತ್ಸೆ ನೀಡದಿರುವುದೇ — ಪ್ರಾಣಿಯ ಜೀವವನ್ನು ಉಳಿಸುತ್ತದೆ.",
+              "चाहे वह कपास के बीज का चारा हो, कोई ज़हरीला पौधा हो, या कोई कीटनाशक हो — विषाक्तता के लक्षण दिखते ही, आपका काम एक ही है: इसकी सूचना दें और तुरंत पशु चिकित्सा सहायता प्राप्त करें। कभी भी खुद विषाक्तता का इलाज करने की कोशिश न करें। तेज़ी से कार्रवाई करना — खुद इलाज न करना — ही जानवर की जान बचाता है।"
             ),
           },
         ],
         check: [
           {
             type: "mcq",
-            q: L("According to this lesson, animals younger than how many months should generally not be treated with pesticides for external parasites?"),
-            options: [L("3 months"), L("12 months"), L("1 month"), L("There is no age limit")],
+            q: L("According to this lesson, animals younger than how many months should generally not be treated with pesticides for external parasites?", "ఈ పాఠం ప్రకారం, ఎన్ని నెలల కంటే తక్కువ వయసున్న జంతువులకు బాహ్య పరాన్నజీవుల కోసం సాధారణంగా పురుగుమందులతో చికిత్స చేయకూడదు?", "இந்த பாடத்தின்படி, எத்தனை மாதங்களுக்கும் குறைவான வயதுடைய விலங்குகளுக்கு வெளிப்புற ஒட்டுண்ணிகளுக்கு பொதுவாக பூச்சிக்கொல்லிகள் மூலம் சிகிச்சை அளிக்கக்கூடாது?", "ಈ ಪಾಠದ ಪ್ರಕಾರ, ಎಷ್ಟು ತಿಂಗಳಿಗಿಂತ ಚಿಕ್ಕ ವಯಸ್ಸಿನ ಪ್ರಾಣಿಗಳಿಗೆ ಬಾಹ್ಯ ಪರಾವಲಂಬಿಗಳಿಗೆ ಸಾಮಾನ್ಯವಾಗಿ ಕೀಟನಾಶಕಗಳಿಂದ ಚಿಕಿತ್ಸೆ ನೀಡಬಾರದು?", "इस पाठ के अनुसार, कितने महीने से कम उम्र के जानवरों का बाहरी परजीवियों के लिए आमतौर पर कीटनाशकों से इलाज नहीं करना चाहिए?"),
+            options: [L("3 months", "3 నెలలు", "3 மாதங்கள்", "3 ತಿಂಗಳುಗಳು", "3 महीने"), L("12 months", "12 నెలలు", "12 மாதங்கள்", "12 ತಿಂಗಳುಗಳು", "12 महीने"), L("1 month", "1 నెల", "1 மாதம்", "1 ತಿಂಗಳು", "1 महीना"), L("There is no age limit", "వయసు పరిమితి లేదు", "வயது வரம்பு இல்லை", "ವಯಸ್ಸಿನ ಮಿತಿ ಇಲ್ಲ", "कोई आयु सीमा नहीं है")],
             answer: 0,
-            explain: L("Animals less than 3 months of age should generally not be treated for external parasites with pesticides."),
+            explain: L("Animals less than 3 months of age should generally not be treated for external parasites with pesticides.", "3 నెలల కంటే తక్కువ వయసున్న జంతువులకు బాహ్య పరాన్నజీవుల కోసం సాధారణంగా పురుగుమందులతో చికిత్స చేయకూడదు.", "3 மாதங்களுக்கும் குறைவான வயதுடைய விலங்குகளுக்கு வெளிப்புற ஒட்டுண்ணிகளுக்கு பொதுவாக பூச்சிக்கொல்லிகள் மூலம் சிகிச்சை அளிக்கக்கூடாது.", "3 ತಿಂಗಳಿಗಿಂತ ಕಡಿಮೆ ವಯಸ್ಸಿನ ಪ್ರಾಣಿಗಳಿಗೆ ಬಾಹ್ಯ ಪರಾವಲಂಬಿಗಳಿಗೆ ಸಾಮಾನ್ಯವಾಗಿ ಕೀಟನಾಶಕಗಳಿಂದ ಚಿಕಿತ್ಸೆ ನೀಡಬಾರದು.", "3 महीने से कम उम्र के जानवरों का बाहरी परजीवियों के लिए आमतौर पर कीटनाशकों से इलाज नहीं करना चाहिए।"),
           },
           {
             type: "truefalse",
-            q: L("If you suspect an animal has been poisoned, the right response is to try a home remedy first and call the vet only if that doesn't work."),
+            q: L("If you suspect an animal has been poisoned, the right response is to try a home remedy first and call the vet only if that doesn't work.", "మీరు జంతువుకు విషప్రయోగం జరిగిందని అనుమానిస్తే, సరైన స్పందన ముందుగా ఇంటి చిట్కా ప్రయత్నించడం మరియు అది పనిచేయకపోతేనే వైద్యుడికి కాల్ చేయడం.", "ஒரு விலங்குக்கு நச்சுத்தன்மை ஏற்பட்டிருக்கலாம் என்று நீங்கள் சந்தேகித்தால், சரியான பதில் முதலில் ஒரு வீட்டு வைத்தியத்தை முயற்சிப்பதும், அது வேலை செய்யாவிட்டால் மட்டும் கால்நடை மருத்துவரை அழைப்பதும் ஆகும்.", "ಪ್ರಾಣಿಗೆ ವಿಷಬಾಧೆಯಾಗಿದೆ ಎಂದು ನೀವು ಅನುಮಾನಿಸಿದರೆ, ಸರಿಯಾದ ಪ್ರತಿಕ್ರಿಯೆ ಎಂದರೆ ಮೊದಲು ಮನೆಮದ್ದನ್ನು ಪ್ರಯತ್ನಿಸುವುದು ಮತ್ತು ಅದು ಕೆಲಸ ಮಾಡದಿದ್ದರೆ ಮಾತ್ರ ಪಶುವೈದ್ಯರಿಗೆ ಕರೆ ಮಾಡುವುದು.", "अगर आपको लगता है कि किसी जानवर को ज़हर दिया गया है, तो सही प्रतिक्रिया यह है कि पहले घरेलू उपाय आज़माएं और अगर वह काम न करे तभी पशु चिकित्सक को बुलाएं।"),
             answer: false,
-            explain: L("No — the right response is always to get veterinary help immediately, without attempting any treatment yourself first."),
+            explain: L("No — the right response is always to get veterinary help immediately, without attempting any treatment yourself first.", "కాదు — సరైన స్పందన ఎల్లప్పుడూ మీరు స్వయంగా ఎలాంటి చికిత్స ప్రయత్నించకుండా వెంటనే పశువైద్య సహాయం పొందడమే.", "இல்லை — சரியான பதில் எப்போதும் நீங்களே எந்த சிகிச்சையையும் முயற்சிக்காமல் உடனடியாக கால்நடை மருத்துவ உதவியைப் பெறுவதே.", "ಇಲ್ಲ — ಸರಿಯಾದ ಪ್ರತಿಕ್ರಿಯೆ ಎಂದರೆ ಯಾವಾಗಲೂ ನೀವೇ ಯಾವುದೇ ಚಿಕಿತ್ಸೆಯನ್ನು ಪ್ರಯತ್ನಿಸದೆ ತಕ್ಷಣ ಪಶುವೈದ್ಯಕೀಯ ಸಹಾಯ ಪಡೆಯುವುದು.", "नहीं — सही प्रतिक्रिया हमेशा यह है कि खुद कोई इलाज करने की कोशिश किए बिना तुरंत पशु चिकित्सा सहायता प्राप्त करें।"),
           },
         ],
       },
@@ -8453,52 +8545,52 @@ export const MODULES = [
         {
           topicId: "t-m10-op-symptoms",
           type: "mcq",
-          q: L("Most pesticides used on crops and to kill ticks on cattle are made from which type of compound?"),
-          options: [L("Organophosphorous (OP) compounds"), L("Vitamin compounds"), L("Salt compounds"), L("Sugar compounds")],
+          q: L("Most pesticides used on crops and to kill ticks on cattle are made from which type of compound?", "పంటలపై మరియు పశువులపై పేనులను చంపడానికి వాడే చాలా పురుగుమందులు ఏ రకమైన సమ్మేళనం నుండి తయారవుతాయి?", "பயிர்களில் மற்றும் மாடுகளில் ஈறுகளைக் கொல்ல பயன்படுத்தப்படும் பெரும்பாலான பூச்சிக்கொல்லிகள் எந்த வகை கூட்டுப்பொருளிலிருந்து செய்யப்படுகின்றன?", "ಬೆಳೆಗಳ ಮೇಲೆ ಮತ್ತು ಜಾನುವಾರುಗಳ ಮೇಲಿನ ಉಣ್ಣಿಗಳನ್ನು ಕೊಲ್ಲಲು ಬಳಸುವ ಹೆಚ್ಚಿನ ಕೀಟನಾಶಕಗಳು ಯಾವ ರೀತಿಯ ಸಂಯುಕ್ತದಿಂದ ತಯಾರಿಸಲ್ಪಡುತ್ತವೆ?", "फसलों पर और पशुओं पर किलनी मारने के लिए इस्तेमाल होने वाले ज़्यादातर कीटनाशक किस प्रकार के यौगिक से बने होते हैं?"),
+          options: [L("Organophosphorous (OP) compounds", "ఆర్గానోఫాస్ఫరస్ (OP) సమ్మేళనాలు", "ஆர்கானோபாஸ்பரஸ் (OP) கூட்டுப்பொருட்கள்", "ಆರ್ಗನೋಫಾಸ್ಫರಸ್ (OP) ಸಂಯುಕ್ತಗಳು", "ऑर्गनोफॉस्फोरस (OP) यौगिक"), L("Vitamin compounds", "విటమిన్ సమ్మేళనాలు", "வைட்டமின் கூட்டுப்பொருட்கள்", "ವಿಟಮಿನ್ ಸಂಯುಕ್ತಗಳು", "विटामिन यौगिक"), L("Salt compounds", "ఉప్పు సమ్మేళనాలు", "உப்பு கூட்டுப்பொருட்கள்", "ಉಪ್ಪಿನ ಸಂಯುಕ್ತಗಳು", "नमक यौगिक"), L("Sugar compounds", "చక్కెర సమ్మేళనాలు", "சர்க்கரை கூட்டுப்பொருட்கள்", "ಸಕ್ಕರೆ ಸಂಯುಕ್ತಗಳು", "चीनी यौगिक")],
           answer: 0,
-          explain: L("A majority of pesticides are organophosphorous (OP) compounds, which are active poisons."),
+          explain: L("A majority of pesticides are organophosphorous (OP) compounds, which are active poisons.", "చాలా పురుగుమందులు ఆర్గానోఫాస్ఫరస్ (OP) సమ్మేళనాలు, ఇవి క్రియాశీల విషాలు.", "பெரும்பாலான பூச்சிக்கொல்லிகள் ஆர்கானோபாஸ்பரஸ் (OP) கூட்டுப்பொருட்கள் ஆகும், அவை செயல்படும் நச்சுகள்.", "ಹೆಚ್ಚಿನ ಕೀಟನಾಶಕಗಳು ಆರ್ಗನೋಫಾಸ್ಫರಸ್ (OP) ಸಂಯುಕ್ತಗಳಾಗಿವೆ, ಅವು ಸಕ್ರಿಯ ವಿಷಗಳಾಗಿವೆ.", "ज़्यादातर कीटनाशक ऑर्गनोफॉस्फोरस (OP) यौगिक हैं, जो सक्रिय ज़हर हैं।"),
         },
         {
           topicId: "t-m10-op-symptoms",
           type: "truefalse",
-          q: L("Very small (constricted) pupils can be a sign of OP poisoning."),
+          q: L("Very small (constricted) pupils can be a sign of OP poisoning.", "చాలా చిన్న (సంకోచించిన) కళ్ళ పాపలు OP విషప్రయోగానికి సంకేతం కావచ్చు.", "மிகவும் சிறிய (சுருங்கிய) கருவிழிகள் OP நச்சுத்தன்மையின் அறிகுறியாக இருக்கலாம்.", "ಬಹಳ ಚಿಕ್ಕ (ಸಂಕುಚಿತ) ಕಣ್ಣುಗುಡ್ಡೆಗಳು OP ವಿಷಬಾಧೆಯ ಲಕ್ಷಣವಾಗಿರಬಹುದು.", "बहुत छोटी (सिकुड़ी हुई) पुतलियाँ OP विषाक्तता का लक्षण हो सकती हैं।"),
           answer: true,
-          explain: L("Yes — pupillary constriction is listed as a symptom of OP poisoning in cattle and buffalo."),
+          explain: L("Yes — pupillary constriction is listed as a symptom of OP poisoning in cattle and buffalo.", "అవును — పాప సంకోచం పశువులు మరియు గేదెలలో OP విషప్రయోగం లక్షణంగా జాబితా చేయబడింది.", "ஆம் — கருவிழி சுருக்கம் மாடு மற்றும் எருமையில் OP நச்சுத்தன்மையின் அறிகுறியாக பட்டியலிடப்பட்டுள்ளது.", "ಹೌದು — ಕಣ್ಣುಗುಡ್ಡೆ ಸಂಕೋಚನವನ್ನು ಜಾನುವಾರು ಮತ್ತು ಎಮ್ಮೆಗಳಲ್ಲಿ OP ವಿಷಬಾಧೆಯ ಲಕ್ಷಣವಾಗಿ ಪಟ್ಟಿ ಮಾಡಲಾಗಿದೆ.", "हाँ — पुतली का सिकुड़ना पशुओं और भैंसों में OP विषाक्तता के लक्षण के रूप में सूचीबद्ध है।"),
         },
         {
           topicId: "t-m10-op-symptoms",
           type: "mcq",
-          q: L("What should you do the moment you notice symptoms of OP poisoning?"),
+          q: L("What should you do the moment you notice symptoms of OP poisoning?", "OP విషప్రయోగం లక్షణాలను గమనించిన వెంటనే మీరు ఏమి చేయాలి?", "OP நச்சுத்தன்மையின் அறிகுறிகளை நீங்கள் கவனித்த உடனேயே என்ன செய்ய வேண்டும்?", "OP ವಿಷಬಾಧೆಯ ಲಕ್ಷಣಗಳನ್ನು ನೀವು ಗಮನಿಸಿದ ಕೂಡಲೇ ಏನು ಮಾಡಬೇಕು?", "OP विषाक्तता के लक्षण दिखते ही आपको क्या करना चाहिए?"),
           options: [
-            L("Contact a veterinarian immediately"),
-            L("Wait a few days to see if it passes"),
-            L("Give the animal more feed"),
-            L("Apply more pesticide to counteract it"),
+            L("Contact a veterinarian immediately", "వెంటనే పశువైద్యుడిని సంప్రదించండి", "உடனடியாக ஒரு கால்நடை மருத்துவரைத் தொடர்பு கொள்ளுங்கள்", "ತಕ್ಷಣ ಪಶುವೈದ್ಯರನ್ನು ಸಂಪರ್ಕಿಸಿ", "तुरंत पशु चिकित्सक से संपर्क करें"),
+            L("Wait a few days to see if it passes", "అది తగ్గుతుందేమో చూడటానికి కొన్ని రోజులు వేచి ఉండండి", "இது தானாக சரியாகுமா என்று சில நாட்கள் காத்திருங்கள்", "ಅದು ಸ್ವತಃ ಸರಿಹೋಗುತ್ತದೆಯೇ ಎಂದು ನೋಡಲು ಕೆಲವು ದಿನ ಕಾಯಿರಿ", "यह अपने आप ठीक होता है या नहीं यह देखने के लिए कुछ दिन इंतज़ार करें"),
+            L("Give the animal more feed", "జంతువుకు ఎక్కువ దాణా ఇవ్వండి", "விலங்குக்கு அதிக தீவனம் கொடுங்கள்", "ಪ್ರಾಣಿಗೆ ಹೆಚ್ಚು ಮೇವು ನೀಡಿ", "जानवर को ज़्यादा चारा दें"),
+            L("Apply more pesticide to counteract it", "దానిని ఎదుర్కోవడానికి మరింత పురుగుమందు వేయండి", "அதை எதிர்க்க அதிக பூச்சிக்கொல்லியைப் பயன்படுத்துங்கள்", "ಅದನ್ನು ಎದುರಿಸಲು ಇನ್ನಷ್ಟು ಕೀಟನಾಶಕ ಹಚ್ಚಿ", "इसका मुकाबला करने के लिए और कीटनाशक लगाएं"),
           ],
           answer: 0,
-          explain: L("Contacting a vet immediately on observing symptoms gives the best chance of timely, life-saving treatment."),
+          explain: L("Contacting a vet immediately on observing symptoms gives the best chance of timely, life-saving treatment.", "లక్షణాలు గమనించిన వెంటనే వైద్యుడిని సంప్రదించడం సకాలంలో, ప్రాణాలను రక్షించే చికిత్సకు మంచి అవకాశాన్ని ఇస్తుంది.", "அறிகுறிகளைக் கவனித்த உடனேயே கால்நடை மருத்துவரைத் தொடர்பு கொள்வது சரியான நேரத்தில், உயிர் காக்கும் சிகிச்சைக்கு சிறந்த வாய்ப்பை அளிக்கிறது.", "ಲಕ್ಷಣಗಳನ್ನು ಗಮನಿಸಿದ ಕೂಡಲೇ ಪಶುವೈದ್ಯರನ್ನು ಸಂಪರ್ಕಿಸುವುದು ಸಕಾಲಿಕ, ಜೀವ ಉಳಿಸುವ ಚಿಕಿತ್ಸೆಗೆ ಉತ್ತಮ ಅವಕಾಶ ನೀಡುತ್ತದೆ.", "लक्षण दिखते ही तुरंत पशु चिकित्सक से संपर्क करना समय पर, जीवन बचाने वाले इलाज का सबसे अच्छा मौका देता है।"),
         },
         {
           topicId: "t-m10-op-prevention",
           type: "mcq",
-          q: L("What should be done to fodder that has been sprayed with insecticide, before feeding it to an animal?"),
-          options: [L("It should be washed properly with water"), L("It should be fed as it is"), L("It should be burned"), L("It should be soaked in salt water")],
+          q: L("What should be done to fodder that has been sprayed with insecticide, before feeding it to an animal?", "కీటనాశక పిచికారీ చేసిన మేతను జంతువుకు తినిపించే ముందు దానికి ఏమి చేయాలి?", "பூச்சிக்கொல்லி தெளிக்கப்பட்ட தீவனத்தை விலங்குக்கு உணவளிக்கும் முன் அதற்கு என்ன செய்ய வேண்டும்?", "ಕೀಟನಾಶಕ ಸಿಂಪಡಿಸಿದ ಮೇವನ್ನು ಪ್ರಾಣಿಗೆ ನೀಡುವ ಮೊದಲು ಅದಕ್ಕೆ ಏನು ಮಾಡಬೇಕು?", "कीटनाशक छिड़के गए चारे को जानवर को खिलाने से पहले उसके साथ क्या किया जाना चाहिए?"),
+          options: [L("It should be washed properly with water", "దానిని నీటితో బాగా కడగాలి", "அதை தண்ணீரால் நன்றாக கழுவ வேண்டும்", "ಅದನ್ನು ನೀರಿನಿಂದ ಸರಿಯಾಗಿ ತೊಳೆಯಬೇಕು", "उसे पानी से अच्छी तरह धोना चाहिए"), L("It should be fed as it is", "దానిని అలాగే తినిపించాలి", "அதை அப்படியே உணவளிக்க வேண்டும்", "ಅದನ್ನು ಹಾಗೆಯೇ ನೀಡಬೇಕು", "उसे जैसा है वैसे ही खिलाना चाहिए"), L("It should be burned", "దానిని కాల్చాలి", "அதை எரிக்க வேண்டும்", "ಅದನ್ನು ಸುಡಬೇಕು", "उसे जला देना चाहिए"), L("It should be soaked in salt water", "దానిని ఉప్పు నీటిలో నానబెట్టాలి", "அதை உப்பு தண்ணீரில் ஊற வைக்க வேண்டும்", "ಅದನ್ನು ಉಪ್ಪುನೀರಿನಲ್ಲಿ ನೆನೆಸಬೇಕು", "उसे नमक के पानी में भिगोना चाहिए")],
           answer: 0,
-          explain: L("Fodder sprayed with insecticide should be properly washed with water before it is fed to the animal."),
+          explain: L("Fodder sprayed with insecticide should be properly washed with water before it is fed to the animal.", "కీటనాశక పిచికారీ చేసిన మేతను జంతువుకు తినిపించే ముందు నీటితో బాగా కడగాలి.", "பூச்சிக்கொல்லி தெளிக்கப்பட்ட தீவனத்தை விலங்குக்கு உணவளிக்கும் முன் தண்ணீரால் நன்றாக கழுவ வேண்டும்.", "ಕೀಟನಾಶಕ ಸಿಂಪಡಿಸಿದ ಮೇವನ್ನು ಪ್ರಾಣಿಗೆ ನೀಡುವ ಮೊದಲು ನೀರಿನಿಂದ ಸರಿಯಾಗಿ ತೊಳೆಯಬೇಕು.", "कीटनाशक छिड़का हुआ चारा जानवर को खिलाने से पहले पानी से अच्छी तरह धोना चाहिए।"),
         },
         {
           topicId: "t-m10-op-prevention",
           type: "truefalse",
-          q: L("Animals should be kept away from both new and used pesticide containers."),
+          q: L("Animals should be kept away from both new and used pesticide containers.", "కొత్త మరియు వాడిన పురుగుమందు కంటైనర్ల రెండింటి నుండి జంతువులను దూరంగా ఉంచాలి.", "புதிய மற்றும் பயன்படுத்தப்பட்ட பூச்சிக்கொல்லி கொள்கலன்கள் இரண்டிலிருந்தும் விலங்குகளை விலக்கி வைக்க வேண்டும்.", "ಹೊಸ ಮತ್ತು ಬಳಸಿದ ಕೀಟನಾಶಕ ಪಾತ್ರೆಗಳೆರಡರಿಂದಲೂ ಪ್ರಾಣಿಗಳನ್ನು ದೂರವಿಡಬೇಕು.", "जानवरों को नए और इस्तेमाल किए गए दोनों तरह के कीटनाशक के डिब्बों से दूर रखना चाहिए।"),
           answer: true,
-          explain: L("Yes — animals should be kept away from pesticide containers, whether new or used, and from pesticide-contaminated feed."),
+          explain: L("Yes — animals should be kept away from pesticide containers, whether new or used, and from pesticide-contaminated feed.", "అవును — కొత్తవి అయినా వాడినవి అయినా పురుగుమందు కంటైనర్ల నుండి మరియు కలుషితమైన దాణా నుండి జంతువులను దూరంగా ఉంచాలి.", "ஆம் — புதியதாக இருந்தாலும் பயன்படுத்தப்பட்டதாக இருந்தாலும் பூச்சிக்கொல்லி கொள்கலன்களிலிருந்தும், கறைபடிந்த தீவனத்திலிருந்தும் விலங்குகளை விலக்கி வைக்க வேண்டும்.", "ಹೌದು — ಹೊಸದಾಗಿರಲಿ ಅಥವಾ ಬಳಸಿದ್ದಾಗಿರಲಿ ಕೀಟನಾಶಕ ಪಾತ್ರೆಗಳಿಂದ ಮತ್ತು ಕಲುಷಿತ ಮೇವಿನಿಂದ ಪ್ರಾಣಿಗಳನ್ನು ದೂರವಿಡಬೇಕು.", "हाँ — जानवरों को कीटनाशक के डिब्बों से, चाहे नए हों या इस्तेमाल किए हुए, और कीटनाशक-दूषित चारे से दूर रखना चाहिए।"),
         },
         {
           topicId: "t-m10-op-prevention",
           type: "truefalse",
-          q: L("Sick, very thin, or severely stressed animals should still be treated with pesticides on the normal schedule."),
+          q: L("Sick, very thin, or severely stressed animals should still be treated with pesticides on the normal schedule.", "అనారోగ్యంతో ఉన్న, చాలా బక్కగా ఉన్న, లేదా తీవ్రమైన ఒత్తిడిలో ఉన్న జంతువులకు ఇప్పటికీ సాధారణ షెడ్యూల్‌లో పురుగుమందులతో చికిత్స చేయాలి.", "நோய்வாய்ப்பட்ட, மிகவும் மெலிந்த, அல்லது கடுமையான மன அழுத்தத்தில் உள்ள விலங்குகளுக்கு இன்னும் வழக்கமான அட்டவணையில் பூச்சிக்கொல்லிகள் மூலம் சிகிச்சை அளிக்க வேண்டும்.", "ಅನಾರೋಗ್ಯದಿಂದ ಇರುವ, ಬಹಳ ತೆಳ್ಳಗಿರುವ, ಅಥವಾ ತೀವ್ರ ಒತ್ತಡದಲ್ಲಿರುವ ಪ್ರಾಣಿಗಳಿಗೆ ಇನ್ನೂ ಸಾಮಾನ್ಯ ವೇಳಾಪಟ್ಟಿಯಲ್ಲಿ ಕೀಟನಾಶಕಗಳಿಂದ ಚಿಕಿತ್ಸೆ ನೀಡಬೇಕು.", "बीमार, बहुत दुबले, या गंभीर तनाव में जानवरों का अभी भी सामान्य समय-सारणी पर कीटनाशकों से इलाज किया जाना चाहिए।"),
           answer: false,
-          explain: L("No — sick, emaciated, convalescent, or severely stressed animals should not be treated with pesticides for external parasites."),
+          explain: L("No — sick, emaciated, convalescent, or severely stressed animals should not be treated with pesticides for external parasites.", "కాదు — అనారోగ్యంతో ఉన్న, చిక్కిపోయిన, కోలుకుంటున్న, లేదా తీవ్రమైన ఒత్తిడిలో ఉన్న జంతువులకు బాహ్య పరాన్నజీవుల కోసం పురుగుమందులతో చికిత్స చేయకూడదు.", "இல்லை — நோய்வாய்ப்பட்ட, மெலிந்த, குணமடைந்து வரும், அல்லது கடுமையான மன அழுத்தத்தில் உள்ள விலங்குகளுக்கு வெளிப்புற ஒட்டுண்ணிகளுக்கு பூச்சிக்கொல்லிகள் மூலம் சிகிச்சை அளிக்கக்கூடாது.", "ಇಲ್ಲ — ಅನಾರೋಗ್ಯದಿಂದ ಇರುವ, ಸೊರಗಿದ, ಚೇತರಿಸಿಕೊಳ್ಳುತ್ತಿರುವ, ಅಥವಾ ತೀವ್ರ ಒತ್ತಡದಲ್ಲಿರುವ ಪ್ರಾಣಿಗಳಿಗೆ ಬಾಹ್ಯ ಪರಾವಲಂಬಿಗಳಿಗೆ ಕೀಟನಾಶಕಗಳಿಂದ ಚಿಕಿತ್ಸೆ ನೀಡಬಾರದು.", "नहीं — बीमार, बहुत दुबले, स्वस्थ हो रहे, या गंभीर तनाव में जानवरों का बाहरी परजीवियों के लिए कीटनाशकों से इलाज नहीं करना चाहिए।"),
         },
       ],
     },
@@ -8508,8 +8600,8 @@ export const MODULES = [
   {
     id: "m11",
     number: 11,
-    title: L("Common Zoonotic Diseases"),
-    subtitle: L("Diseases that can pass between animals and people, and how to stay safe while handling animals."),
+    title: L("Common Zoonotic Diseases", "సాధారణ జూనోటిక్ వ్యాధులు", "பொதுவான விலங்கு-மனித நோய்கள்", "ಸಾಮಾನ್ಯ ಝೂನೋಟಿಕ್ ರೋಗಗಳು", "सामान्य ज़ूनोटिक रोग"),
+    subtitle: L("Diseases that can pass between animals and people, and how to stay safe while handling animals.", "జంతువులు మరియు మనుషుల మధ్య వ్యాపించే వ్యాధులు, మరియు జంతువులను నిర్వహిస్తున్నప్పుడు సురక్షితంగా ఎలా ఉండాలి.", "விலங்குகள் மற்றும் மனிதர்களுக்கு இடையே பரவக்கூடிய நோய்கள், மற்றும் விலங்குகளைக் கையாளும்போது எவ்வாறு பாதுகாப்பாக இருப்பது.", "ಪ್ರಾಣಿಗಳು ಮತ್ತು ಜನರ ನಡುವೆ ಹರಡಬಹುದಾದ ರೋಗಗಳು, ಮತ್ತು ಪ್ರಾಣಿಗಳನ್ನು ನಿರ್ವಹಿಸುವಾಗ ಸುರಕ್ಷಿತವಾಗಿರುವುದು ಹೇಗೆ.", "वे रोग जो जानवरों और लोगों के बीच फैल सकते हैं, और जानवरों को संभालते समय सुरक्षित कैसे रहें।"),
     icon: "shield",
     available: true,
     lessons: [
@@ -8518,170 +8610,210 @@ export const MODULES = [
   // ==================================================================
   {
     id: "m11-l1",
-    title: L("Understanding Zoonotic Diseases: Brucellosis, TB and Leptospirosis"),
+    title: L("Understanding Zoonotic Diseases: Brucellosis, TB and Leptospirosis", "జూనోటిక్ వ్యాధులను అర్థం చేసుకోవడం: బ్రూసెల్లోసిస్, టీబీ మరియు లెప్టోస్పైరోసిస్", "விலங்கு-மனித நோய்களைப் புரிந்துகொள்ளுதல்: புருசெல்லோசிஸ், டிபி மற்றும் லெப்டோஸ்பைரோசிஸ்", "ಝೂನೋಟಿಕ್ ರೋಗಗಳನ್ನು ಅರ್ಥಮಾಡಿಕೊಳ್ಳುವುದು: ಬ್ರೂಸೆಲ್ಲೋಸಿಸ್, ಟಿಬಿ ಮತ್ತು ಲೆಪ್ಟೋಸ್ಪೈರೋಸಿಸ್", "ज़ूनोटिक रोगों को समझना: ब्रुसेलोसिस, टीबी और लेप्टोस्पायरोसिस"),
     estMinutes: 8,
     hook: [
       {
         type: "hero",
-        heading: L("Some Diseases Can Jump From Animals to You"),
+        heading: L("Some Diseases Can Jump From Animals to You", "కొన్ని వ్యాధులు జంతువుల నుండి మీకు వ్యాపించవచ్చు", "சில நோய்கள் விலங்குகளிலிருந்து உங்களுக்கு பரவலாம்", "ಕೆಲವು ರೋಗಗಳು ಪ್ರಾಣಿಗಳಿಂದ ನಿಮಗೆ ಹರಡಬಹುದು", "कुछ रोग जानवरों से आप तक फैल सकते हैं"),
         text: L(
-          "Most of this course is about noticing when an animal is unwell. This module is different — it's about YOUR own health. Some diseases can pass from cattle and buffaloes to the people who care for them. Knowing which ones, and how they spread, is the first step to staying safe while you do your daily work."
+          "Most of this course is about noticing when an animal is unwell. This module is different — it's about YOUR own health. Some diseases can pass from cattle and buffaloes to the people who care for them. Knowing which ones, and how they spread, is the first step to staying safe while you do your daily work.",
+          "ఈ కోర్సులో చాలా భాగం జంతువు అనారోగ్యంతో ఉన్నప్పుడు గమనించడం గురించి. ఈ మాడ్యూల్ భిన్నమైనది — ఇది మీ స్వంత ఆరోగ్యం గురించి. కొన్ని వ్యాధులు పశువులు మరియు గేదెల నుండి వాటిని చూసుకునే వ్యక్తులకు వ్యాపించవచ్చు. ఏవి, మరియు అవి ఎలా వ్యాపిస్తాయో తెలుసుకోవడం మీ రోజువారీ పని చేసేటప్పుడు సురక్షితంగా ఉండటానికి మొదటి అడుగు.",
+          "இந்த பாடத்திட்டத்தின் பெரும்பகுதி ஒரு விலங்கு உடல்நிலை சரியில்லாமல் இருக்கும்போது கவனிப்பது பற்றியது. இந்த தொகுதி வேறுபட்டது — இது உங்கள் சொந்த ஆரோக்கியத்தைப் பற்றியது. சில நோய்கள் மாடு மற்றும் எருமைகளிலிருந்து அவற்றை பராமரிக்கும் மக்களுக்கு பரவலாம். எவை, மற்றும் அவை எவ்வாறு பரவுகின்றன என்பதை அறிவது உங்கள் அன்றாட வேலையைச் செய்யும்போது பாதுகாப்பாக இருப்பதற்கான முதல் படியாகும்.",
+          "ಈ ಕೋರ್ಸ್‌ನ ಹೆಚ್ಚಿನ ಭಾಗ ಪ್ರಾಣಿ ಅಸ್ವಸ್ಥವಾಗಿರುವಾಗ ಗಮನಿಸುವುದರ ಬಗ್ಗೆ. ಈ ಮಾಡ್ಯೂಲ್ ವಿಭಿನ್ನವಾಗಿದೆ — ಇದು ನಿಮ್ಮ ಸ್ವಂತ ಆರೋಗ್ಯದ ಬಗ್ಗೆ. ಕೆಲವು ರೋಗಗಳು ಜಾನುವಾರು ಮತ್ತು ಎಮ್ಮೆಗಳಿಂದ ಅವುಗಳನ್ನು ನೋಡಿಕೊಳ್ಳುವ ಜನರಿಗೆ ಹರಡಬಹುದು. ಯಾವುವು, ಮತ್ತು ಅವು ಹೇಗೆ ಹರಡುತ್ತವೆ ಎಂದು ತಿಳಿಯುವುದು ನಿಮ್ಮ ದೈನಂದಿನ ಕೆಲಸ ಮಾಡುವಾಗ ಸುರಕ್ಷಿತವಾಗಿರಲು ಮೊದಲ ಹೆಜ್ಜೆ.",
+          "इस पाठ्यक्रम का अधिकांश भाग यह देखने के बारे में है कि जानवर कब बीमार है। यह मॉड्यूल अलग है — यह आपके अपने स्वास्थ्य के बारे में है। कुछ बीमारियाँ गायों और भैंसों से उनकी देखभाल करने वाले लोगों में फैल सकती हैं। कौन सी बीमारियाँ, और वे कैसे फैलती हैं, यह जानना आपके रोज़मर्रा के काम के दौरान सुरक्षित रहने का पहला कदम है।"
         ),
       },
     ],
     topics: [
       {
         id: "t-m11-what-is-zoonotic",
-        title: L("What Does 'Zoonotic' Mean, and Why It Matters"),
+        title: L("What Does 'Zoonotic' Mean, and Why It Matters", "'జూనోటిక్' అంటే ఏమిటి, మరియు ఇది ఎందుకు ముఖ్యం", "'விலங்கு-மனித நோய்' என்றால் என்ன, மற்றும் அது ஏன் முக்கியம்", "'ಝೂನೋಟಿಕ್' ಎಂದರೇನು, ಮತ್ತು ಇದು ಏಕೆ ಮುಖ್ಯ", "'ज़ूनोटिक' का क्या मतलब है, और यह क्यों महत्वपूर्ण है"),
         teach: [
           {
             type: "text",
-            heading: L("A New Word: Zoonotic"),
+            heading: L("A New Word: Zoonotic", "ఒక కొత్త పదం: జూనోటిక్", "ஒரு புதிய சொல்: விலங்கு-மனித நோய்", "ಒಂದು ಹೊಸ ಪದ: ಝೂನೋಟಿಕ್", "एक नया शब्द: ज़ूनोटिक"),
             html: L(
-              "A <b>zoonotic disease</b> (also called a <b>zoonosis</b>) is a disease or infection that can pass naturally between animals and people. It can travel in either direction — from an animal to a person, or occasionally from a person to an animal. If you work closely with cattle and buffaloes every day, this is something worth understanding, not to worry about, but so you know exactly how to protect yourself."
+              "A <b>zoonotic disease</b> (also called a <b>zoonosis</b>) is a disease or infection that can pass naturally between animals and people. It can travel in either direction — from an animal to a person, or occasionally from a person to an animal. If you work closely with cattle and buffaloes every day, this is something worth understanding, not to worry about, but so you know exactly how to protect yourself.",
+              "<b>జూనోటిక్ వ్యాధి</b> (దీనిని <b>జూనోసిస్</b> అని కూడా అంటారు) అనేది జంతువులు మరియు మనుషుల మధ్య సహజంగా వ్యాపించే వ్యాధి లేదా సంక్రమణ. ఇది రెండు దిశలలోనూ ప్రయాణించవచ్చు — జంతువు నుండి మనిషికి, లేదా అప్పుడప్పుడు మనిషి నుండి జంతువుకు. మీరు ప్రతిరోజూ పశువులు మరియు గేదెలతో దగ్గరగా పనిచేస్తుంటే, ఇది అర్థం చేసుకోవలసినది, చింతించాల్సినది కాదు, కానీ మిమ్మల్ని మీరు ఎలా రక్షించుకోవాలో ఖచ్చితంగా తెలుసుకోవడానికి.",
+              "<b>விலங்கு-மனித நோய்</b> (இதை <b>ஜூனோசிஸ்</b> என்றும் அழைப்பர்) என்பது விலங்குகள் மற்றும் மனிதர்களுக்கு இடையே இயற்கையாக பரவக்கூடிய ஒரு நோய் அல்லது தொற்று. இது இரு திசைகளிலும் பயணிக்கலாம் — ஒரு விலங்கிலிருந்து ஒரு மனிதருக்கு, அல்லது எப்போதாவது ஒரு மனிதரிடமிருந்து ஒரு விலங்குக்கு. நீங்கள் ஒவ்வொரு நாளும் மாடு மற்றும் எருமைகளுடன் நெருக்கமாக வேலை செய்தால், இது புரிந்துகொள்ளத் தகுந்தது, கவலைப்பட வேண்டியது அல்ல, ஆனால் நீங்கள் உங்களை எவ்வாறு பாதுகாத்துக் கொள்வது என்பதை சரியாக அறிந்திருக்க வேண்டும்.",
+              "<b>ಝೂನೋಟಿಕ್ ರೋಗ</b> (ಇದನ್ನು <b>ಝೂನೋಸಿಸ್</b> ಎಂದೂ ಕರೆಯುತ್ತಾರೆ) ಎಂದರೆ ಪ್ರಾಣಿಗಳು ಮತ್ತು ಜನರ ನಡುವೆ ಸ್ವಾಭಾವಿಕವಾಗಿ ಹರಡಬಹುದಾದ ರೋಗ ಅಥವಾ ಸೋಂಕು. ಇದು ಎರಡೂ ದಿಕ್ಕುಗಳಲ್ಲಿ ಪ್ರಯಾಣಿಸಬಹುದು — ಪ್ರಾಣಿಯಿಂದ ವ್ಯಕ್ತಿಗೆ, ಅಥವಾ ಕೆಲವೊಮ್ಮೆ ವ್ಯಕ್ತಿಯಿಂದ ಪ್ರಾಣಿಗೆ. ನೀವು ಪ್ರತಿದಿನ ಜಾನುವಾರು ಮತ್ತು ಎಮ್ಮೆಗಳೊಂದಿಗೆ ಹತ್ತಿರದಿಂದ ಕೆಲಸ ಮಾಡಿದರೆ, ಇದನ್ನು ಅರ್ಥಮಾಡಿಕೊಳ್ಳುವುದು ಯೋಗ್ಯವಾಗಿದೆ, ಚಿಂತಿಸುವುದಕ್ಕಲ್ಲ, ಆದರೆ ನಿಮ್ಮನ್ನು ನೀವು ಹೇಗೆ ರಕ್ಷಿಸಿಕೊಳ್ಳಬೇಕು ಎಂದು ನಿಖರವಾಗಿ ತಿಳಿಯಲು.",
+              "<b>ज़ूनोटिक रोग</b> (जिसे <b>ज़ूनोसिस</b> भी कहा जाता है) एक ऐसी बीमारी या संक्रमण है जो जानवरों और लोगों के बीच स्वाभाविक रूप से फैल सकता है। यह किसी भी दिशा में जा सकता है — जानवर से इंसान में, या कभी-कभी इंसान से जानवर में। अगर आप हर दिन गायों और भैंसों के साथ नज़दीक से काम करते हैं, तो यह समझने लायक बात है, चिंता करने की नहीं, बल्कि इसलिए ताकि आप ठीक से जान सकें कि खुद को कैसे बचाना है।"
             ),
           },
           {
             type: "glossary",
-            term: L("Zoonotic Disease (Zoonosis)"),
+            term: L("Zoonotic Disease (Zoonosis)", "జూనోటిక్ వ్యాధి (జూనోసిస్)", "விலங்கு-மனித நோய் (ஜூனோசிஸ்)", "ಝೂನೋಟಿಕ್ ರೋಗ (ಝೂನೋಸಿಸ್)", "ज़ूनोटिक रोग (ज़ूनोसिस)"),
             meaning: L(
-              "A disease or infection that can spread naturally between animals and humans — for example, a person catching an illness from a cow, or occasionally an animal catching one from a person."
+              "A disease or infection that can spread naturally between animals and humans — for example, a person catching an illness from a cow, or occasionally an animal catching one from a person.",
+              "జంతువులు మరియు మనుషుల మధ్య సహజంగా వ్యాపించే వ్యాధి లేదా సంక్రమణ — ఉదాహరణకు, ఒక వ్యక్తికి ఆవు నుండి అనారోగ్యం రావడం, లేదా అప్పుడప్పుడు ఒక జంతువుకు వ్యక్తి నుండి రావడం.",
+              "விலங்குகள் மற்றும் மனிதர்களுக்கு இடையே இயற்கையாக பரவக்கூடிய ஒரு நோய் அல்லது தொற்று — உதாரணமாக, ஒரு பசுவிலிருந்து ஒரு மனிதருக்கு நோய் ஏற்படுவது, அல்லது எப்போதாவது ஒரு மனிதரிடமிருந்து ஒரு விலங்குக்கு ஏற்படுவது.",
+              "ಪ್ರಾಣಿಗಳು ಮತ್ತು ಮಾನವರ ನಡುವೆ ಸ್ವಾಭಾವಿಕವಾಗಿ ಹರಡಬಹುದಾದ ರೋಗ ಅಥವಾ ಸೋಂಕು — ಉದಾಹರಣೆಗೆ, ಒಬ್ಬ ವ್ಯಕ್ತಿಗೆ ಹಸುವಿನಿಂದ ಕಾಯಿಲೆ ಬರುವುದು, ಅಥವಾ ಕೆಲವೊಮ್ಮೆ ಒಂದು ಪ್ರಾಣಿಗೆ ವ್ಯಕ್ತಿಯಿಂದ ಬರುವುದು.",
+              "एक ऐसी बीमारी या संक्रमण जो जानवरों और इंसानों के बीच स्वाभाविक रूप से फैल सकता है — उदाहरण के लिए, किसी व्यक्ति को गाय से बीमारी लगना, या कभी-कभी किसी जानवर को इंसान से लगना।"
             ),
           },
           {
             type: "text",
-            heading: L("Why This Matters So Much"),
+            heading: L("Why This Matters So Much", "ఇది ఎందుకు ఇంత ముఖ్యమైనది", "இது ஏன் இவ்வளவு முக்கியம்", "ಇದು ಏಕೆ ಇಷ್ಟು ಮುಖ್ಯ", "यह इतना महत्वपूर्ण क्यों है"),
             html: L(
-              "Zoonotic diseases are not rare or unusual — they make up about <b>61%</b> of all known infectious diseases. Even more strikingly, out of 175 diseases that are newly emerging around the world, about <b>75%</b> of them are zoonotic. There are roughly <b>45 zoonotic diseases</b> that are known to be able to spread from cattle. Because dairy farmers and farm workers are in close daily contact with their animals, they are always at some risk of picking up an infection from them."
+              "Zoonotic diseases are not rare or unusual — they make up about <b>61%</b> of all known infectious diseases. Even more strikingly, out of 175 diseases that are newly emerging around the world, about <b>75%</b> of them are zoonotic. There are roughly <b>45 zoonotic diseases</b> that are known to be able to spread from cattle. Because dairy farmers and farm workers are in close daily contact with their animals, they are always at some risk of picking up an infection from them.",
+              "జూనోటిక్ వ్యాధులు అరుదైనవి లేదా అసాధారణమైనవి కావు — అవి తెలిసిన అన్ని అంటు వ్యాధులలో సుమారు <b>61%</b> ఉంటాయి. ఇంకా ఆశ్చర్యకరంగా, ప్రపంచవ్యాప్తంగా కొత్తగా వెలువడుతున్న 175 వ్యాధులలో, సుమారు <b>75%</b> జూనోటిక్ వ్యాధులే. పశువుల నుండి వ్యాపించగలవని తెలిసిన సుమారు <b>45 జూనోటిక్ వ్యాధులు</b> ఉన్నాయి. పాడి రైతులు మరియు వ్యవసాయ కార్మికులు తమ జంతువులతో ప్రతిరోజూ దగ్గరి సంబంధంలో ఉంటారు కాబట్టి, వారికి వాటి నుండి సంక్రమణ సోకే ప్రమాదం ఎల్లప్పుడూ ఉంటుంది.",
+              "விலங்கு-மனித நோய்கள் அரிதானவை அல்லது அசாதாரணமானவை அல்ல — அவை தெரிந்த அனைத்து தொற்று நோய்களில் சுமார் <b>61%</b> ஆகும். இன்னும் குறிப்பிடத்தக்கது, உலகம் முழுவதும் புதிதாக வெளிப்படும் 175 நோய்களில், சுமார் <b>75%</b> விலங்கு-மனித நோய்களே. பசுக்களிலிருந்து பரவக்கூடும் என்று அறியப்பட்ட சுமார் <b>45 விலங்கு-மனித நோய்கள்</b> உள்ளன. பால் விவசாயிகளும் பண்ணைத் தொழிலாளர்களும் தங்கள் விலங்குகளுடன் தினமும் நெருக்கமாக இருப்பதால், அவர்களுக்கு அவற்றிலிருந்து தொற்று பரவும் அபாயம் எப்போதும் உள்ளது.",
+              "ಝೂನೋಟಿಕ್ ರೋಗಗಳು ಅಪರೂಪವಲ್ಲ ಅಥವಾ ಅಸಾಮಾನ್ಯವಲ್ಲ — ಅವು ತಿಳಿದಿರುವ ಎಲ್ಲಾ ಸಾಂಕ್ರಾಮಿಕ ರೋಗಗಳಲ್ಲಿ ಸುಮಾರು <b>61%</b> ಆಗಿವೆ. ಇನ್ನೂ ಗಮನಾರ್ಹವಾಗಿ, ಜಗತ್ತಿನಾದ್ಯಂತ ಹೊಸದಾಗಿ ಹೊರಹೊಮ್ಮುತ್ತಿರುವ 175 ರೋಗಗಳಲ್ಲಿ, ಸುಮಾರು <b>75%</b> ಝೂನೋಟಿಕ್ ಆಗಿವೆ. ಜಾನುವಾರುಗಳಿಂದ ಹರಡಬಹುದೆಂದು ತಿಳಿದಿರುವ ಸುಮಾರು <b>45 ಝೂನೋಟಿಕ್ ರೋಗಗಳಿವೆ</b>. ಹೈನುಗಾರರು ಮತ್ತು ಕೃಷಿ ಕಾರ್ಮಿಕರು ತಮ್ಮ ಪ್ರಾಣಿಗಳೊಂದಿಗೆ ಪ್ರತಿದಿನ ಹತ್ತಿರದ ಸಂಪರ್ಕದಲ್ಲಿರುವುದರಿಂದ, ಅವರಿಗೆ ಅವುಗಳಿಂದ ಸೋಂಕು ತಗುಲುವ ಅಪಾಯ ಯಾವಾಗಲೂ ಇರುತ್ತದೆ.",
+              "ज़ूनोटिक रोग दुर्लभ या असामान्य नहीं हैं — वे सभी ज्ञात संक्रामक रोगों का लगभग <b>61%</b> हैं। और भी चौंकाने वाली बात यह है कि दुनिया भर में नई उभर रही 175 बीमारियों में से, लगभग <b>75%</b> ज़ूनोटिक हैं। लगभग <b>45 ज़ूनोटिक रोग</b> हैं जो पशुओं से फैल सकते हैं। चूंकि डेयरी किसान और खेत के कर्मचारी अपने जानवरों के रोज़ाना नज़दीकी संपर्क में रहते हैं, उन्हें हमेशा उनसे संक्रमण होने का कुछ खतरा रहता है।"
             ),
           },
           {
             type: "stat-grid",
             items: [
               {
-                label: L("Poor hygiene"),
-                text: L("Not washing hands, or not keeping sheds and equipment clean, makes it easier for germs to pass from animal to person."),
+                label: L("Poor hygiene", "సరైన పరిశుభ్రత లేకపోవడం", "மோசமான சுகாதாரம்", "ಕಳಪೆ ನೈರ್ಮಲ್ಯ", "खराब स्वच्छता"),
+                text: L("Not washing hands, or not keeping sheds and equipment clean, makes it easier for germs to pass from animal to person.", "చేతులు కడుక్కోకపోవడం, లేదా షెడ్లు మరియు పరికరాలను శుభ్రంగా ఉంచకపోవడం జంతువు నుండి మనిషికి క్రిములు వ్యాపించడాన్ని సులభతరం చేస్తుంది.", "கைகளை கழுவாமல் இருப்பது, அல்லது கொட்டகைகள் மற்றும் கருவிகளை சுத்தமாக வைக்காமல் இருப்பது விலங்கிலிருந்து மனிதருக்கு கிருமிகள் பரவுவதை எளிதாக்குகிறது.", "ಕೈಗಳನ್ನು ತೊಳೆಯದಿರುವುದು, ಅಥವಾ ಶೆಡ್‌ಗಳು ಮತ್ತು ಉಪಕರಣಗಳನ್ನು ಸ್ವಚ್ಛವಾಗಿಡದಿರುವುದು ಪ್ರಾಣಿಯಿಂದ ವ್ಯಕ್ತಿಗೆ ಸೂಕ್ಷ್ಮಜೀವಿಗಳು ಹರಡುವುದನ್ನು ಸುಲಭಗೊಳಿಸುತ್ತದೆ.", "हाथ न धोना, या शेड और उपकरणों को साफ न रखना, जानवर से इंसान में कीटाणु फैलना आसान बना देता है।"),
               },
               {
-                label: L("Malnutrition"),
-                text: L("A person who is poorly nourished has a weaker ability to fight off infection if exposed to one."),
+                label: L("Malnutrition", "పోషకాహార లోపం", "ஊட்டச்சத்து குறைபாடு", "ಅಪೌಷ್ಟಿಕತೆ", "कुपोषण"),
+                text: L("A person who is poorly nourished has a weaker ability to fight off infection if exposed to one.", "సరిగ్గా పోషణ పొందని వ్యక్తికి సంక్రమణకు గురైతే దానిని ఎదుర్కొనే సామర్థ్యం బలహీనంగా ఉంటుంది.", "சரியாக ஊட்டச்சத்து பெறாத ஒருவருக்கு தொற்று ஏற்பட்டால் அதை எதிர்த்துப் போராடும் திறன் பலவீனமாக இருக்கும்.", "ಸರಿಯಾಗಿ ಪೋಷಣೆ ಪಡೆಯದ ವ್ಯಕ್ತಿಗೆ ಸೋಂಕು ತಗುಲಿದರೆ ಅದನ್ನು ಎದುರಿಸುವ ಸಾಮರ್ಥ್ಯ ದುರ್ಬಲವಾಗಿರುತ್ತದೆ.", "जो व्यक्ति कुपोषित होता है, उसमें संक्रमण से लड़ने की क्षमता कमज़ोर होती है।"),
               },
               {
-                label: L("Lack of awareness"),
-                text: L("Not knowing which diseases can spread from animals, or how, makes it harder to take simple precautions."),
+                label: L("Lack of awareness", "అవగాహన లేకపోవడం", "விழிப்புணர்வு இன்மை", "ಅರಿವಿನ ಕೊರತೆ", "जागरूकता की कमी"),
+                text: L("Not knowing which diseases can spread from animals, or how, makes it harder to take simple precautions.", "ఏ వ్యాధులు జంతువుల నుండి వ్యాపిస్తాయో, లేదా ఎలా వ్యాపిస్తాయో తెలియకపోవడం సాధారణ జాగ్రత్తలు తీసుకోవడాన్ని కష్టతరం చేస్తుంది.", "எந்த நோய்கள் விலங்குகளிலிருந்து பரவும், அல்லது எப்படி பரவும் என்று தெரியாமல் இருப்பது எளிய முன்னெச்சரிக்கைகளை எடுப்பதை கடினமாக்குகிறது.", "ಯಾವ ರೋಗಗಳು ಪ್ರಾಣಿಗಳಿಂದ ಹರಡಬಹುದು, ಅಥವಾ ಹೇಗೆ ಹರಡಬಹುದು ಎಂದು ತಿಳಿಯದಿರುವುದು ಸರಳ ಮುನ್ನೆಚ್ಚರಿಕೆಗಳನ್ನು ತೆಗೆದುಕೊಳ್ಳುವುದನ್ನು ಕಷ್ಟಕರವಾಗಿಸುತ್ತದೆ.", "यह न जानना कि कौन सी बीमारियाँ जानवरों से फैल सकती हैं, या कैसे, सरल सावधानियाँ बरतना मुश्किल बना देता है।"),
               },
               {
-                label: L("Close contact with animals"),
-                text: L("Handling animals, their milk, their waste, or assisting with births every day naturally increases the chances of exposure."),
+                label: L("Close contact with animals", "జంతువులతో దగ్గరి సంబంధం", "விலங்குகளுடன் நெருங்கிய தொடர்பு", "ಪ್ರಾಣಿಗಳೊಂದಿಗೆ ನಿಕಟ ಸಂಪರ್ಕ", "जानवरों के साथ करीबी संपर्क"),
+                text: L("Handling animals, their milk, their waste, or assisting with births every day naturally increases the chances of exposure.", "ప్రతిరోజూ జంతువులను, వాటి పాలను, వాటి వ్యర్థాలను నిర్వహించడం, లేదా ప్రసవాలలో సహాయం చేయడం సహజంగానే బహిర్గతమయ్యే అవకాశాలను పెంచుతుంది.", "ஒவ்வொரு நாளும் விலங்குகளை, அவற்றின் பாலை, அவற்றின் கழிவுகளை கையாளுவது, அல்லது பிரசவங்களில் உதவுவது இயற்கையாகவே தொடர்பு ஏற்படும் வாய்ப்புகளை அதிகரிக்கிறது.", "ಪ್ರತಿದಿನ ಪ್ರಾಣಿಗಳನ್ನು, ಅವುಗಳ ಹಾಲನ್ನು, ಅವುಗಳ ತ್ಯಾಜ್ಯವನ್ನು ನಿರ್ವಹಿಸುವುದು, ಅಥವಾ ಹೆರಿಗೆಗಳಲ್ಲಿ ಸಹಾಯ ಮಾಡುವುದು ಸ್ವಾಭಾವಿಕವಾಗಿ ಒಡ್ಡಿಕೊಳ್ಳುವ ಸಾಧ್ಯತೆಗಳನ್ನು ಹೆಚ್ಚಿಸುತ್ತದೆ.", "हर दिन जानवरों, उनके दूध, उनके अपशिष्ट को संभालना, या प्रसव में मदद करना स्वाभाविक रूप से जोखिम की संभावना बढ़ाता है।"),
               },
             ],
           },
           {
             type: "callout",
             style: "tip",
-            heading: L("The Good News"),
+            heading: L("The Good News", "శుభవార్త", "நல்ல செய்தி", "ಒಳ್ಳೆಯ ಸುದ್ದಿ", "अच्छी खबर"),
             text: L(
-              "Zoonotic diseases can be cured if they are diagnosed and treated promptly. The key is not to ignore symptoms in yourself — fever, joint pain, stomach upset, or anything unusual — especially if you handle animals regularly. Mention your daily contact with cattle or buffaloes to a doctor so they can consider it when checking you."
+              "Zoonotic diseases can be cured if they are diagnosed and treated promptly. The key is not to ignore symptoms in yourself — fever, joint pain, stomach upset, or anything unusual — especially if you handle animals regularly. Mention your daily contact with cattle or buffaloes to a doctor so they can consider it when checking you.",
+              "జూనోటిక్ వ్యాధులను వెంటనే నిర్ధారించి చికిత్స చేస్తే నయం చేయవచ్చు. కీలకమైనది మీలో లక్షణాలను — జ్వరం, కీళ్ల నొప్పులు, కడుపు అస్వస్థత, లేదా అసాధారణమైనది ఏదైనా — ముఖ్యంగా మీరు జంతువులను క్రమం తప్పకుండా నిర్వహిస్తుంటే వాటిని విస్మరించకపోవడం. మిమ్మల్ని పరీక్షించేటప్పుడు వైద్యుడు దానిని పరిగణించేలా పశువులు లేదా గేదెలతో మీ రోజువారీ సంబంధాన్ని వైద్యుడికి తెలియజేయండి.",
+              "விலங்கு-மனித நோய்களை உடனடியாக கண்டறிந்து சிகிச்சை அளித்தால் குணப்படுத்த முடியும். முக்கியமானது உங்களில் அறிகுறிகளை — காய்ச்சல், மூட்டு வலி, வயிற்று கோளாறு, அல்லது அசாதாரணமான எதுவும் — குறிப்பாக நீங்கள் தொடர்ந்து விலங்குகளை கையாளுகிறீர்கள் என்றால் அவற்றை புறக்கணிக்காமல் இருப்பதுதான். உங்களை பரிசோதிக்கும்போது கருத்தில் கொள்ள மாடு அல்லது எருமைகளுடன் உங்கள் அன்றாட தொடர்பை ஒரு மருத்துவரிடம் தெரிவிக்கவும்.",
+              "ಝೂನೋಟಿಕ್ ರೋಗಗಳನ್ನು ತಕ್ಷಣ ಪತ್ತೆ ಮಾಡಿ ಚಿಕಿತ್ಸೆ ನೀಡಿದರೆ ಗುಣಪಡಿಸಬಹುದು. ಮುಖ್ಯವಾದುದೆಂದರೆ ನಿಮ್ಮಲ್ಲಿ ಲಕ್ಷಣಗಳನ್ನು — ಜ್ವರ, ಕೀಲು ನೋವು, ಹೊಟ್ಟೆ ತೊಂದರೆ, ಅಥವಾ ಅಸಾಮಾನ್ಯವಾದ ಯಾವುದೇ — ವಿಶೇಷವಾಗಿ ನೀವು ನಿಯಮಿತವಾಗಿ ಪ್ರಾಣಿಗಳನ್ನು ನಿರ್ವಹಿಸಿದರೆ ನಿರ್ಲಕ್ಷಿಸದಿರುವುದು. ನಿಮ್ಮನ್ನು ಪರೀಕ್ಷಿಸುವಾಗ ಪರಿಗಣಿಸಲು ಜಾನುವಾರು ಅಥವಾ ಎಮ್ಮೆಗಳೊಂದಿಗಿನ ನಿಮ್ಮ ದೈನಂದಿನ ಸಂಪರ್ಕವನ್ನು ವೈದ್ಯರಿಗೆ ತಿಳಿಸಿ.",
+              "ज़ूनोटिक रोगों का समय पर निदान और इलाज किया जाए तो उन्हें ठीक किया जा सकता है। मुख्य बात यह है कि अपने अंदर लक्षणों को — बुखार, जोड़ों का दर्द, पेट की गड़बड़ी, या कुछ भी असामान्य — नज़रअंदाज़ न करें, खासकर अगर आप नियमित रूप से जानवरों को संभालते हैं। डॉक्टर को गायों या भैंसों के साथ अपने रोज़ाना संपर्क के बारे में बताएं ताकि वे आपकी जाँच करते समय इसे ध्यान में रख सकें।"
             ),
           },
         ],
         check: [
           {
             type: "mcq",
-            q: L("What does the word 'zoonotic' mean?"),
+            q: L("What does the word 'zoonotic' mean?", "'జూనోటిక్' అనే పదానికి అర్థం ఏమిటి?", "'விலங்கு-மனித நோய்' என்ற சொல்லின் அர்த்தம் என்ன?", "'ಝೂನೋಟಿಕ್' ಪದದ ಅರ್ಥವೇನು?", "'ज़ूनोटिक' शब्द का क्या मतलब है?"),
             options: [
-              L("A disease that only affects very old animals"),
-              L("A disease or infection that can spread naturally between animals and people"),
-              L("A vaccine given to calves"),
-              L("A disease that only spreads between two humans"),
+              L("A disease that only affects very old animals", "చాలా వృద్ధ జంతువులను మాత్రమే ప్రభావితం చేసే వ్యాధి", "மிகவும் முதிர்ந்த விலங்குகளை மட்டுமே பாதிக்கும் ஒரு நோய்", "ಬಹಳ ವಯಸ್ಸಾದ ಪ್ರಾಣಿಗಳ ಮೇಲೆ ಮಾತ್ರ ಪರಿಣಾಮ ಬೀರುವ ರೋಗ", "एक ऐसी बीमारी जो केवल बहुत बूढ़े जानवरों को प्रभावित करती है"),
+              L("A disease or infection that can spread naturally between animals and people", "జంతువులు మరియు మనుషుల మధ్య సహజంగా వ్యాపించే వ్యాధి లేదా సంక్రమణ", "விலங்குகள் மற்றும் மனிதர்களுக்கு இடையே இயற்கையாக பரவக்கூடிய ஒரு நோய் அல்லது தொற்று", "ಪ್ರಾಣಿಗಳು ಮತ್ತು ಜನರ ನಡುವೆ ಸ್ವಾಭಾವಿಕವಾಗಿ ಹರಡಬಹುದಾದ ರೋಗ ಅಥವಾ ಸೋಂಕು", "एक ऐसी बीमारी या संक्रमण जो जानवरों और लोगों के बीच स्वाभाविक रूप से फैल सकता है"),
+              L("A vaccine given to calves", "దూడలకు ఇచ్చే వ్యాక్సిన్", "கன்றுகளுக்கு கொடுக்கப்படும் தடுப்பூசி", "ಕರುಗಳಿಗೆ ನೀಡುವ ಲಸಿಕೆ", "बछड़ों को दिया जाने वाला टीका"),
+              L("A disease that only spreads between two humans", "ఇద్దరు మనుషుల మధ్య మాత్రమే వ్యాపించే వ్యాధి", "இரண்டு மனிதர்களுக்கு இடையே மட்டுமே பரவும் ஒரு நோய்", "ಇಬ್ಬರು ಮನುಷ್ಯರ ನಡುವೆ ಮಾತ್ರ ಹರಡುವ ರೋಗ", "एक ऐसी बीमारी जो केवल दो इंसानों के बीच फैलती है"),
             ],
             answer: 1,
-            explain: L("Zoonotic (zoonosis) means a disease or infection that can pass naturally between animals and humans."),
+            explain: L("Zoonotic (zoonosis) means a disease or infection that can pass naturally between animals and humans.", "జూనోటిక్ (జూనోసిస్) అంటే జంతువులు మరియు మనుషుల మధ్య సహజంగా వ్యాపించే వ్యాధి లేదా సంక్రమణ.", "விலங்கு-மனித நோய் (ஜூனோசிஸ்) என்பது விலங்குகள் மற்றும் மனிதர்களுக்கு இடையே இயற்கையாக பரவக்கூடிய ஒரு நோய் அல்லது தொற்று.", "ಝೂನೋಟಿಕ್ (ಝೂನೋಸಿಸ್) ಎಂದರೆ ಪ್ರಾಣಿಗಳು ಮತ್ತು ಮಾನವರ ನಡುವೆ ಸ್ವಾಭಾವಿಕವಾಗಿ ಹರಡಬಹುದಾದ ರೋಗ ಅಥವಾ ಸೋಂಕು.", "ज़ूनोटिक (ज़ूनोसिस) का मतलब है एक ऐसी बीमारी या संक्रमण जो जानवरों और इंसानों के बीच स्वाभाविक रूप से फैल सकता है।"),
           },
           {
             type: "truefalse",
-            q: L("Zoonotic diseases can be cured if they are diagnosed and treated promptly."),
+            q: L("Zoonotic diseases can be cured if they are diagnosed and treated promptly.", "జూనోటిక్ వ్యాధులను వెంటనే నిర్ధారించి చికిత్స చేస్తే నయం చేయవచ్చు.", "விலங்கு-மனித நோய்களை உடனடியாக கண்டறிந்து சிகிச்சை அளித்தால் குணப்படுத்த முடியும்.", "ಝೂನೋಟಿಕ್ ರೋಗಗಳನ್ನು ತಕ್ಷಣ ಪತ್ತೆ ಮಾಡಿ ಚಿಕಿತ್ಸೆ ನೀಡಿದರೆ ಗುಣಪಡಿಸಬಹುದು.", "ज़ूनोटिक रोगों का समय पर निदान और इलाज किया जाए तो उन्हें ठीक किया जा सकता है।"),
             answer: true,
-            explain: L("Yes — the key is not ignoring symptoms in yourself, and telling a doctor about your regular contact with animals."),
+            explain: L("Yes — the key is not ignoring symptoms in yourself, and telling a doctor about your regular contact with animals.", "అవును — కీలకమైనది మీలో లక్షణాలను విస్మరించకపోవడం, మరియు జంతువులతో మీ క్రమం తప్పకుండా సంబంధం గురించి వైద్యుడికి చెప్పడం.", "ஆம் — முக்கியமானது உங்களில் அறிகுறிகளை புறக்கணிக்காமல் இருப்பது, மற்றும் விலங்குகளுடன் உங்கள் வழக்கமான தொடர்பைப் பற்றி ஒரு மருத்துவரிடம் தெரிவிப்பது.", "ಹೌದು — ಮುಖ್ಯವಾದುದೆಂದರೆ ನಿಮ್ಮಲ್ಲಿ ಲಕ್ಷಣಗಳನ್ನು ನಿರ್ಲಕ್ಷಿಸದಿರುವುದು, ಮತ್ತು ಪ್ರಾಣಿಗಳೊಂದಿಗಿನ ನಿಮ್ಮ ನಿಯಮಿತ ಸಂಪರ್ಕದ ಬಗ್ಗೆ ವೈದ್ಯರಿಗೆ ತಿಳಿಸುವುದು.", "हाँ — मुख्य बात है अपने अंदर लक्षणों को नज़रअंदाज़ न करना, और जानवरों के साथ अपने नियमित संपर्क के बारे में डॉक्टर को बताना।"),
           },
         ],
       },
       {
         id: "t-m11-three-diseases",
-        title: L("Three Diseases You Can Get From Cattle"),
+        title: L("Three Diseases You Can Get From Cattle", "పశువుల నుండి మీకు రాగల మూడు వ్యాధులు", "மாடுகளிலிருந்து உங்களுக்கு ஏற்படக்கூடிய மூன்று நோய்கள்", "ಜಾನುವಾರುಗಳಿಂದ ನಿಮಗೆ ಬರಬಹುದಾದ ಮೂರು ರೋಗಗಳು", "पशुओं से आपको हो सकने वाली तीन बीमारियाँ"),
         teach: [
           {
             type: "text",
-            heading: L("A. Human Brucellosis"),
+            heading: L("A. Human Brucellosis", "A. మానవ బ్రూసెల్లోసిస్", "A. மனித புருசெல்லோசிஸ்", "A. ಮಾನವ ಬ್ರೂಸೆಲ್ಲೋಸಿಸ್", "A. मानव ब्रुसेलोसिस"),
             html: L(
-              "<b>Brucellosis</b> is considered a significant public health problem in India, though fewer than 10% of human cases may actually be recognised and treated. People usually get infected by drinking <b>raw (unboiled) milk</b> from an infected animal, or through contact with an infected animal's secretions on the skin or on moist areas like the eyes. Accidental injection with the S19 vaccine (used to protect cattle) can also cause infection in a person. Common symptoms include fever that comes and goes, joint pain and swelling, sweating, dizziness, headaches, and chest or stomach pain."
+              "<b>Brucellosis</b> is considered a significant public health problem in India, though fewer than 10% of human cases may actually be recognised and treated. People usually get infected by drinking <b>raw (unboiled) milk</b> from an infected animal, or through contact with an infected animal's secretions on the skin or on moist areas like the eyes. Accidental injection with the S19 vaccine (used to protect cattle) can also cause infection in a person. Common symptoms include fever that comes and goes, joint pain and swelling, sweating, dizziness, headaches, and chest or stomach pain.",
+              "<b>బ్రూసెల్లోసిస్</b> భారతదేశంలో ఒక ముఖ్యమైన ప్రజారోగ్య సమస్యగా పరిగణించబడుతుంది, అయితే మానవ కేసులలో 10% కంటే తక్కువ మాత్రమే వాస్తవానికి గుర్తించి చికిత్స చేయబడతాయి. సాధారణంగా ప్రజలు సోకిన జంతువు నుండి <b>ముడి (ఉడకని) పాలు</b> తాగడం ద్వారా, లేదా సోకిన జంతువు స్రావాలు చర్మంపై లేదా కళ్ళ వంటి తడి ప్రదేశాలపై తాకడం ద్వారా సంక్రమిస్తారు. S19 వ్యాక్సిన్ (పశువులను రక్షించడానికి వాడేది) ప్రమాదవశాత్తు ఇంజెక్షన్ కూడా ఒక వ్యక్తికి సంక్రమణ కలిగించవచ్చు. సాధారణ లక్షణాలలో వచ్చిపోయే జ్వరం, కీళ్ల నొప్పి మరియు వాపు, చెమట పట్టడం, తలతిరగడం, తలనొప్పులు, మరియు ఛాతీ లేదా కడుపు నొప్పి ఉంటాయి.",
+              "<b>புருசெல்லோசிஸ்</b> இந்தியாவில் ஒரு குறிப்பிடத்தக்க பொது சுகாதார பிரச்சனையாக கருதப்படுகிறது, இருப்பினும் மனித வழக்குகளில் 10% க்கும் குறைவானவை மட்டுமே உண்மையில் கண்டறியப்பட்டு சிகிச்சை அளிக்கப்படலாம். மக்கள் பொதுவாக தொற்று ஏற்பட்ட விலங்கிலிருந்து <b>பச்சை (கொதிக்கவைக்காத) பால்</b> குடிப்பதன் மூலம், அல்லது தொற்று ஏற்பட்ட விலங்கின் சுரப்புகள் தோலில் அல்லது கண்கள் போன்ற ஈரமான பகுதிகளில் படுவதன் மூலம் தொற்று அடைகின்றனர். S19 தடுப்பூசி (மாடுகளைப் பாதுகாக்க பயன்படுத்தப்படுவது) தற்செயலாக செலுத்தப்படுவதும் ஒரு நபருக்கு தொற்றை ஏற்படுத்தலாம். பொதுவான அறிகுறிகளில் வந்து போகும் காய்ச்சல், மூட்டு வலி மற்றும் வீக்கம், வியர்வை, தலைச்சுற்றல், தலைவலி, மற்றும் மார்பு அல்லது வயிற்று வலி ஆகியவை அடங்கும்.",
+              "<b>ಬ್ರೂಸೆಲ್ಲೋಸಿಸ್</b> ಭಾರತದಲ್ಲಿ ಗಮನಾರ್ಹ ಸಾರ್ವಜನಿಕ ಆರೋಗ್ಯ ಸಮಸ್ಯೆಯಾಗಿ ಪರಿಗಣಿಸಲಾಗಿದೆ, ಆದರೆ ಮಾನವ ಪ್ರಕರಣಗಳಲ್ಲಿ 10% ಕ್ಕಿಂತ ಕಡಿಮೆ ಮಾತ್ರ ವಾಸ್ತವವಾಗಿ ಗುರುತಿಸಿ ಚಿಕಿತ್ಸೆ ನೀಡಬಹುದು. ಜನರು ಸಾಮಾನ್ಯವಾಗಿ ಸೋಂಕಿತ ಪ್ರಾಣಿಯಿಂದ <b>ಕಚ್ಚಾ (ಕುದಿಸದ) ಹಾಲು</b> ಕುಡಿಯುವ ಮೂಲಕ, ಅಥವಾ ಸೋಂಕಿತ ಪ್ರಾಣಿಯ ಸ್ರಾವಗಳು ಚರ್ಮದ ಮೇಲೆ ಅಥವಾ ಕಣ್ಣುಗಳಂತಹ ತೇವ ಪ್ರದೇಶಗಳ ಮೇಲೆ ತಗುಲುವ ಮೂಲಕ ಸೋಂಕಿಗೆ ಒಳಗಾಗುತ್ತಾರೆ. S19 ಲಸಿಕೆ (ಜಾನುವಾರುಗಳನ್ನು ರಕ್ಷಿಸಲು ಬಳಸುವುದು) ಆಕಸ್ಮಿಕ ಚುಚ್ಚುಮದ್ದು ಸಹ ಒಬ್ಬ ವ್ಯಕ್ತಿಗೆ ಸೋಂಕನ್ನು ಉಂಟುಮಾಡಬಹುದು. ಸಾಮಾನ್ಯ ಲಕ್ಷಣಗಳಲ್ಲಿ ಬಂದು ಹೋಗುವ ಜ್ವರ, ಕೀಲು ನೋವು ಮತ್ತು ಊತ, ಬೆವರುವಿಕೆ, ತಲೆಸುತ್ತು, ತಲೆನೋವು, ಮತ್ತು ಎದೆ ಅಥವಾ ಹೊಟ್ಟೆ ನೋವು ಸೇರಿವೆ.",
+              "<b>ब्रुसेलोसिस</b> को भारत में एक महत्वपूर्ण सार्वजनिक स्वास्थ्य समस्या माना जाता है, हालांकि मानव मामलों में से 10% से भी कम की वास्तव में पहचान और इलाज हो पाता है। लोग आमतौर पर संक्रमित जानवर का <b>कच्चा (बिना उबाला) दूध</b> पीने से, या संक्रमित जानवर के स्राव के त्वचा या आँखों जैसे नम क्षेत्रों के संपर्क में आने से संक्रमित होते हैं। S19 टीके (पशुओं की सुरक्षा के लिए उपयोग होने वाले) का गलती से इंजेक्शन लगना भी किसी व्यक्ति में संक्रमण पैदा कर सकता है। सामान्य लक्षणों में आता-जाता बुखार, जोड़ों में दर्द और सूजन, पसीना आना, चक्कर आना, सिरदर्द, और छाती या पेट में दर्द शामिल हैं।"
             ),
           },
           {
             type: "glossary",
-            term: L("Conjunctiva"),
+            term: L("Conjunctiva", "కంజంక్టివా", "கண்படலம்", "ಕಂಜಂಕ್ಟಿವಾ", "कंजंक्टिवा"),
             meaning: L(
-              "The thin, moist lining that covers the white part of the eye and the inside of the eyelid. It's delicate, so infected fluid touching it can pass germs into the body — this is why splashes near the eyes matter."
+              "The thin, moist lining that covers the white part of the eye and the inside of the eyelid. It's delicate, so infected fluid touching it can pass germs into the body — this is why splashes near the eyes matter.",
+              "కంటి తెల్లని భాగాన్ని మరియు కనురెప్ప లోపలి భాగాన్ని కప్పే సన్నని, తడి పొర. ఇది సున్నితమైనది, కాబట్టి సోకిన ద్రవం దానిని తాకితే శరీరంలోకి క్రిములను పంపవచ్చు — అందుకే కళ్ళ దగ్గర చిందటం ముఖ్యమైనది.",
+              "கண்ணின் வெள்ளை பகுதியையும் கண்ணிமையின் உட்புறத்தையும் மூடும் மெல்லிய, ஈரமான படலம். இது மென்மையானது, எனவே தொற்று ஏற்பட்ட திரவம் அதைத் தொட்டால் உடலுக்குள் கிருமிகளை அனுப்பலாம் — அதனால்தான் கண்களுக்கு அருகில் தெறிப்பது முக்கியம்.",
+              "ಕಣ್ಣಿನ ಬಿಳಿ ಭಾಗ ಮತ್ತು ಕಣ್ಣುರೆಪ್ಪೆಯ ಒಳಭಾಗವನ್ನು ಆವರಿಸುವ ತೆಳುವಾದ, ತೇವ ಪದರ. ಇದು ಸೂಕ್ಷ್ಮವಾಗಿದೆ, ಆದ್ದರಿಂದ ಸೋಂಕಿತ ದ್ರವ ಅದನ್ನು ಮುಟ್ಟಿದರೆ ದೇಹಕ್ಕೆ ಸೂಕ್ಷ್ಮಜೀವಿಗಳನ್ನು ರವಾನಿಸಬಹುದು — ಆದ್ದರಿಂದ ಕಣ್ಣುಗಳ ಬಳಿ ಸಿಡಿಯುವುದು ಮುಖ್ಯ.",
+              "आँख के सफेद भाग और पलक के अंदर की परत को ढकने वाली पतली, नम झिल्ली। यह नाज़ुक होती है, इसलिए संक्रमित तरल पदार्थ के इसे छूने से शरीर में कीटाणु जा सकते हैं — इसलिए आँखों के पास छींटे पड़ना मायने रखता है।"
             ),
           },
           {
             type: "text",
-            heading: L("B. Human Tuberculosis (TB)"),
+            heading: L("B. Human Tuberculosis (TB)", "B. మానవ క్షయ (టీబీ)", "B. மனித காசநோய் (டிபி)", "B. ಮಾನವ ಕ್ಷಯರೋಗ (ಟಿಬಿ)", "B. मानव तपेदिक (टीबी)"),
             html: L(
-              "TB caused by the bovine (cattle) TB germ looks the same in people as human TB — telling them apart needs special lab tests. There may be no symptoms at all until the disease is quite advanced; when symptoms do appear, they include cough, weight loss, and poor appetite. People usually get infected by drinking contaminated milk from an infected animal, or through close contact with an infected animal."
+              "TB caused by the bovine (cattle) TB germ looks the same in people as human TB — telling them apart needs special lab tests. There may be no symptoms at all until the disease is quite advanced; when symptoms do appear, they include cough, weight loss, and poor appetite. People usually get infected by drinking contaminated milk from an infected animal, or through close contact with an infected animal.",
+              "పశువుల (బోవైన్) టీబీ క్రిమి వల్ల వచ్చే టీబీ మనుషులలో మానవ టీబీ లాగానే కనిపిస్తుంది — వాటిని వేరు చేయడానికి ప్రత్యేక ల్యాబ్ పరీక్షలు అవసరం. వ్యాధి బాగా ముదిరే వరకు ఎలాంటి లక్షణాలు కనిపించకపోవచ్చు; లక్షణాలు కనిపించినప్పుడు, వాటిలో దగ్గు, బరువు తగ్గడం, మరియు ఆకలి తగ్గడం ఉంటాయి. సాధారణంగా ప్రజలు సోకిన జంతువు నుండి కలుషితమైన పాలు తాగడం ద్వారా, లేదా సోకిన జంతువుతో దగ్గరి సంబంధం ద్వారా సంక్రమిస్తారు.",
+              "மாட்டு (பசு) டிபி கிருமியால் ஏற்படும் டிபி மனிதர்களில் மனித டிபி போலவே தோன்றும் — அவற்றை வேறுபடுத்த சிறப்பு ஆய்வக பரிசோதனைகள் தேவை. நோய் நன்கு முற்றும் வரை எந்த அறிகுறியும் இல்லாமல் இருக்கலாம்; அறிகுறிகள் தோன்றும்போது, அவற்றில் இருமல், எடை இழப்பு, மற்றும் பசியின்மை அடங்கும். மக்கள் பொதுவாக தொற்று ஏற்பட்ட விலங்கிலிருந்து கறைபடிந்த பால் குடிப்பதன் மூலம், அல்லது தொற்று ஏற்பட்ட விலங்குடன் நெருங்கிய தொடர்பின் மூலம் தொற்று அடைகின்றனர்.",
+              "ದನದ (ಬೋವಿನ್) ಟಿಬಿ ಸೂಕ್ಷ್ಮಾಣುವಿನಿಂದ ಉಂಟಾಗುವ ಟಿಬಿ ಜನರಲ್ಲಿ ಮಾನವ ಟಿಬಿಯಂತೆಯೇ ಕಾಣುತ್ತದೆ — ಅವುಗಳನ್ನು ಪ್ರತ್ಯೇಕಿಸಲು ವಿಶೇಷ ಲ್ಯಾಬ್ ಪರೀಕ್ಷೆಗಳು ಬೇಕಾಗುತ್ತವೆ. ರೋಗ ಸಾಕಷ್ಟು ಮುಂದುವರಿಯುವ ತನಕ ಯಾವುದೇ ಲಕ್ಷಣಗಳಿಲ್ಲದಿರಬಹುದು; ಲಕ್ಷಣಗಳು ಕಾಣಿಸಿಕೊಂಡಾಗ, ಅವುಗಳಲ್ಲಿ ಕೆಮ್ಮು, ತೂಕ ಇಳಿಕೆ, ಮತ್ತು ಕಳಪೆ ಹಸಿವು ಸೇರಿವೆ. ಜನರು ಸಾಮಾನ್ಯವಾಗಿ ಸೋಂಕಿತ ಪ್ರಾಣಿಯಿಂದ ಕಲುಷಿತ ಹಾಲು ಕುಡಿಯುವ ಮೂಲಕ, ಅಥವಾ ಸೋಂಕಿತ ಪ್ರಾಣಿಯೊಂದಿಗೆ ನಿಕಟ ಸಂಪರ್ಕದ ಮೂಲಕ ಸೋಂಕಿಗೆ ಒಳಗಾಗುತ್ತಾರೆ.",
+              "गोजातीय (पशु) टीबी कीटाणु से होने वाली टीबी लोगों में मानव टीबी जैसी ही दिखती है — उन्हें अलग बताने के लिए विशेष लैब परीक्षणों की ज़रूरत होती है। बीमारी काफी बढ़ जाने तक कोई लक्षण नहीं हो सकते; जब लक्षण दिखते हैं, तो उनमें खांसी, वज़न कम होना, और भूख न लगना शामिल हैं। लोग आमतौर पर संक्रमित जानवर का दूषित दूध पीने से, या संक्रमित जानवर के नज़दीकी संपर्क से संक्रमित होते हैं।"
             ),
           },
           {
             type: "text",
-            heading: L("C. Leptospirosis"),
+            heading: L("C. Leptospirosis", "C. లెప్టోస్పైరోసిస్", "C. லெப்டோஸ்பைரோசிஸ்", "C. ಲೆಪ್ಟೋಸ್ಪೈರೋಸಿಸ್", "C. लेप्टोस्पायरोसिस"),
             html: L(
-              "Cattle are one of the main animal hosts of <b>Leptospirosis</b>. People most often get infected through contact with contaminated urine or uterine fluid (from calving), and through milking infected cattle. Infections are more common during the monsoon months. Common symptoms include fever, headache, nausea, vomiting, diarrhoea, jaundice (yellowing of the skin or eyes), and skin rashes."
+              "Cattle are one of the main animal hosts of <b>Leptospirosis</b>. People most often get infected through contact with contaminated urine or uterine fluid (from calving), and through milking infected cattle. Infections are more common during the monsoon months. Common symptoms include fever, headache, nausea, vomiting, diarrhoea, jaundice (yellowing of the skin or eyes), and skin rashes.",
+              "పశువులు <b>లెప్టోస్పైరోసిస్</b>కు ప్రధాన జంతు ఆశ్రయాలలో ఒకటి. సాధారణంగా ప్రజలు కలుషితమైన మూత్రం లేదా గర్భాశయ ద్రవం (ప్రసవం నుండి) తో సంబంధం ద్వారా, మరియు సోకిన పశువులను పాలు పితకడం ద్వారా సంక్రమిస్తారు. వర్షాకాలంలో సంక్రమణలు ఎక్కువగా ఉంటాయి. సాధారణ లక్షణాలలో జ్వరం, తలనొప్పి, వికారం, వాంతులు, విరేచనాలు, కామెర్లు (చర్మం లేదా కళ్ళు పసుపు రంగులోకి మారడం), మరియు చర్మంపై దద్దుర్లు ఉంటాయి.",
+              "<b>லெப்டோஸ்பைரோசிஸ்</b> நோய்க்கு மாடுகள் முக்கிய விலங்கு புரவலர்களில் ஒன்றாகும். மக்கள் பெரும்பாலும் கறைபடிந்த சிறுநீர் அல்லது கருப்பை திரவம் (ஈனுதலில் இருந்து) தொடர்பு மூலமாகவும், தொற்று ஏற்பட்ட மாடுகளின் பால் கறத்தல் மூலமாகவும் தொற்று அடைகின்றனர். பருவமழை மாதங்களில் தொற்றுகள் அதிகமாக காணப்படுகின்றன. பொதுவான அறிகுறிகளில் காய்ச்சல், தலைவலி, குமட்டல், வாந்தி, வயிற்றுப்போக்கு, மஞ்சள் காமாலை (தோல் அல்லது கண்கள் மஞ்சள் நிறமாதல்), மற்றும் தோல் தடிப்புகள் அடங்கும்.",
+              "<b>ಲೆಪ್ಟೋಸ್ಪೈರೋಸಿಸ್</b>ಗೆ ಜಾನುವಾರುಗಳು ಪ್ರಮುಖ ಪ್ರಾಣಿ ಆಶ್ರಯಗಳಲ್ಲಿ ಒಂದಾಗಿವೆ. ಜನರು ಹೆಚ್ಚಾಗಿ ಕಲುಷಿತ ಮೂತ್ರ ಅಥವಾ ಗರ್ಭಾಶಯದ ದ್ರವ (ಕರು ಹಾಕುವಿಕೆಯಿಂದ) ಸಂಪರ್ಕದ ಮೂಲಕ, ಮತ್ತು ಸೋಂಕಿತ ಜಾನುವಾರುಗಳ ಹಾಲು ಕರೆಯುವ ಮೂಲಕ ಸೋಂಕಿಗೆ ಒಳಗಾಗುತ್ತಾರೆ. ಮಳೆಗಾಲದ ತಿಂಗಳುಗಳಲ್ಲಿ ಸೋಂಕುಗಳು ಹೆಚ್ಚು ಸಾಮಾನ್ಯವಾಗಿವೆ. ಸಾಮಾನ್ಯ ಲಕ್ಷಣಗಳಲ್ಲಿ ಜ್ವರ, ತಲೆನೋವು, ವಾಕರಿಕೆ, ವಾಂತಿ, ಅತಿಸಾರ, ಕಾಮಾಲೆ (ಚರ್ಮ ಅಥವಾ ಕಣ್ಣುಗಳು ಹಳದಿಯಾಗುವುದು), ಮತ್ತು ಚರ್ಮದ ದದ್ದುಗಳು ಸೇರಿವೆ.",
+              "पशु <b>लेप्टोस्पायरोसिस</b> के मुख्य पशु आश्रयों में से एक हैं। लोग अक्सर दूषित पेशाब या गर्भाशय द्रव (ब्याने से) के संपर्क से, और संक्रमित पशुओं का दूध दुहने से संक्रमित होते हैं। मानसून के महीनों में संक्रमण ज़्यादा आम हैं। सामान्य लक्षणों में बुखार, सिरदर्द, जी मिचलाना, उल्टी, दस्त, पीलिया (त्वचा या आँखों का पीला पड़ना), और त्वचा पर चकत्ते शामिल हैं।"
             ),
           },
           {
             type: "stat-grid",
             items: [
               {
-                label: L("Brucellosis"),
-                text: L("Mainly spreads through raw milk, or through infected fluid touching the skin or eyes."),
+                label: L("Brucellosis", "బ్రూసెల్లోసిస్", "புருசெல்லோசிஸ்", "ಬ್ರೂಸೆಲ್ಲೋಸಿಸ್", "ब्रुसेलोसिस"),
+                text: L("Mainly spreads through raw milk, or through infected fluid touching the skin or eyes.", "ప్రధానంగా ముడి పాలు ద్వారా, లేదా సోకిన ద్రవం చర్మం లేదా కళ్ళను తాకడం ద్వారా వ్యాపిస్తుంది.", "முக்கியமாக பச்சைப் பால் மூலமாகவும், அல்லது தொற்று ஏற்பட்ட திரவம் தோல் அல்லது கண்களைத் தொடுவதன் மூலமாகவும் பரவுகிறது.", "ಮುಖ್ಯವಾಗಿ ಕಚ್ಚಾ ಹಾಲಿನ ಮೂಲಕ, ಅಥವಾ ಸೋಂಕಿತ ದ್ರವ ಚರ್ಮ ಅಥವಾ ಕಣ್ಣುಗಳನ್ನು ಮುಟ್ಟುವ ಮೂಲಕ ಹರಡುತ್ತದೆ.", "मुख्यतः कच्चे दूध से, या संक्रमित तरल पदार्थ के त्वचा या आँखों को छूने से फैलता है।"),
               },
               {
-                label: L("Human TB"),
-                text: L("Mainly spreads through contaminated milk, or close everyday contact with an infected animal."),
+                label: L("Human TB", "మానవ టీబీ", "மனித டிபி", "ಮಾನವ ಟಿಬಿ", "मानव टीबी"),
+                text: L("Mainly spreads through contaminated milk, or close everyday contact with an infected animal.", "ప్రధానంగా కలుషితమైన పాలు ద్వారా, లేదా సోకిన జంతువుతో దగ్గరి రోజువారీ సంబంధం ద్వారా వ్యాపిస్తుంది.", "முக்கியமாக கறைபடிந்த பால் மூலமாகவும், அல்லது தொற்று ஏற்பட்ட விலங்குடன் நெருங்கிய அன்றாட தொடர்பு மூலமாகவும் பரவுகிறது.", "ಮುಖ್ಯವಾಗಿ ಕಲುಷಿತ ಹಾಲಿನ ಮೂಲಕ, ಅಥವಾ ಸೋಂಕಿತ ಪ್ರಾಣಿಯೊಂದಿಗೆ ನಿಕಟ ದೈನಂದಿನ ಸಂಪರ್ಕದ ಮೂಲಕ ಹರಡುತ್ತದೆ.", "मुख्यतः दूषित दूध से, या संक्रमित जानवर के साथ नज़दीकी रोज़ाना संपर्क से फैलता है।"),
               },
               {
-                label: L("Leptospirosis"),
-                text: L("Mainly spreads through contact with infected urine or uterine fluid, or while milking — watch out especially in the monsoon."),
+                label: L("Leptospirosis", "లెప్టోస్పైరోసిస్", "லெப்டோஸ்பைரோசிஸ்", "ಲೆಪ್ಟೋಸ್ಪೈರೋಸಿಸ್", "लेप्टोस्पायरोसिस"),
+                text: L("Mainly spreads through contact with infected urine or uterine fluid, or while milking — watch out especially in the monsoon.", "ప్రధానంగా సోకిన మూత్రం లేదా గర్భాశయ ద్రవంతో సంబంధం ద్వారా, లేదా పాలు పితికేటప్పుడు వ్యాపిస్తుంది — ముఖ్యంగా వర్షాకాలంలో జాగ్రత్తగా ఉండండి.", "முக்கியமாக தொற்று ஏற்பட்ட சிறுநீர் அல்லது கருப்பை திரவத்துடன் தொடர்பு மூலமாகவும், அல்லது பால் கறக்கும்போதும் பரவுகிறது — குறிப்பாக பருவமழையில் கவனமாக இருங்கள்.", "ಮುಖ್ಯವಾಗಿ ಸೋಂಕಿತ ಮೂತ್ರ ಅಥವಾ ಗರ್ಭಾಶಯದ ದ್ರವದ ಸಂಪರ್ಕದ ಮೂಲಕ, ಅಥವಾ ಹಾಲು ಕರೆಯುವಾಗ ಹರಡುತ್ತದೆ — ವಿಶೇಷವಾಗಿ ಮಳೆಗಾಲದಲ್ಲಿ ಎಚ್ಚರವಿರಲಿ.", "मुख्यतः संक्रमित पेशाब या गर्भाशय द्रव के संपर्क से, या दूध दुहते समय फैलता है — खासकर मानसून में सावधान रहें।"),
               },
             ],
           },
           {
             type: "callout",
             style: "warning",
-            heading: L("How to Protect Yourself"),
+            heading: L("How to Protect Yourself", "మిమ్మల్ని మీరు ఎలా రక్షించుకోవాలి", "உங்களை எவ்வாறு பாதுகாத்துக் கொள்வது", "ನಿಮ್ಮನ್ನು ನೀವು ಹೇಗೆ ರಕ್ಷಿಸಿಕೊಳ್ಳುವುದು", "खुद को कैसे सुरक्षित रखें"),
             text: L(
-              "Never drink raw or unboiled milk, even from your own animals. Avoid letting an animal's urine, uterine fluid, or other body fluids touch your bare skin or eyes — wash your hands and any exposed skin thoroughly with soap right after handling these, or after milking, and especially after helping with a calving. Be extra careful during the monsoon months."
+              "Never drink raw or unboiled milk, even from your own animals. Avoid letting an animal's urine, uterine fluid, or other body fluids touch your bare skin or eyes — wash your hands and any exposed skin thoroughly with soap right after handling these, or after milking, and especially after helping with a calving. Be extra careful during the monsoon months.",
+              "మీ స్వంత జంతువుల నుండి అయినా సరే ముడి లేదా ఉడకని పాలు ఎప్పుడూ తాగవద్దు. జంతువు మూత్రం, గర్భాశయ ద్రవం, లేదా ఇతర శరీర ద్రవాలు మీ నిష్కల్మష చర్మం లేదా కళ్ళను తాకకుండా చూసుకోండి — వీటిని నిర్వహించిన వెంటనే, లేదా పాలు పితికిన తర్వాత, మరియు ముఖ్యంగా ప్రసవంలో సహాయం చేసిన తర్వాత మీ చేతులను మరియు బహిర్గతమైన చర్మాన్ని సబ్బుతో బాగా కడుక్కోండి. వర్షాకాలంలో అదనపు జాగ్రత్త వహించండి.",
+              "உங்கள் சொந்த விலங்குகளிலிருந்தே ஆனாலும் பச்சை அல்லது கொதிக்கவைக்காத பாலை ஒருபோதும் குடிக்காதீர்கள். விலங்கின் சிறுநீர், கருப்பை திரவம், அல்லது பிற உடல் திரவங்கள் உங்கள் வெற்று தோல் அல்லது கண்களைத் தொடாமல் தவிர்க்கவும் — இவற்றை கையாண்ட உடனேயே, அல்லது பால் கறந்த பிறகு, மற்றும் குறிப்பாக ஈனுதலில் உதவிய பிறகு உங்கள் கைகளையும் வெளிப்பட்ட தோலையும் சோப்புடன் நன்கு கழுவுங்கள். பருவமழை மாதங்களில் கூடுதல் கவனமாக இருங்கள்.",
+              "ನಿಮ್ಮ ಸ್ವಂತ ಪ್ರಾಣಿಗಳಿಂದಾದರೂ ಸರಿ ಕಚ್ಚಾ ಅಥವಾ ಕುದಿಸದ ಹಾಲನ್ನು ಎಂದಿಗೂ ಕುಡಿಯಬೇಡಿ. ಪ್ರಾಣಿಯ ಮೂತ್ರ, ಗರ್ಭಾಶಯದ ದ್ರವ, ಅಥವಾ ಇತರ ದೇಹದ ದ್ರವಗಳು ನಿಮ್ಮ ಬರಿ ಚರ್ಮ ಅಥವಾ ಕಣ್ಣುಗಳನ್ನು ಮುಟ್ಟದಂತೆ ತಪ್ಪಿಸಿ — ಇವುಗಳನ್ನು ನಿರ್ವಹಿಸಿದ ತಕ್ಷಣ, ಅಥವಾ ಹಾಲು ಕರೆದ ನಂತರ, ಮತ್ತು ವಿಶೇಷವಾಗಿ ಕರು ಹಾಕುವಿಕೆಗೆ ಸಹಾಯ ಮಾಡಿದ ನಂತರ ನಿಮ್ಮ ಕೈಗಳನ್ನು ಮತ್ತು ಒಡ್ಡಿಕೊಂಡ ಚರ್ಮವನ್ನು ಸಾಬೂನಿನಿಂದ ಚೆನ್ನಾಗಿ ತೊಳೆಯಿರಿ. ಮಳೆಗಾಲದ ತಿಂಗಳುಗಳಲ್ಲಿ ಹೆಚ್ಚು ಜಾಗರೂಕರಾಗಿರಿ.",
+              "अपने ही जानवरों का भी कच्चा या बिना उबाला दूध कभी न पिएं। जानवर के पेशाब, गर्भाशय द्रव, या अन्य शारीरिक तरल पदार्थों को अपनी नंगी त्वचा या आँखों को छूने न दें — इन्हें संभालने के तुरंत बाद, या दूध दुहने के बाद, और खासकर ब्याने में मदद करने के बाद अपने हाथों और किसी भी खुली त्वचा को साबुन से अच्छी तरह धोएं। मानसून के महीनों में अतिरिक्त सावधानी बरतें।"
             ),
           },
         ],
         check: [
           {
             type: "mcq",
-            q: L("How do people most commonly get Brucellosis from cattle?"),
+            q: L("How do people most commonly get Brucellosis from cattle?", "పశువుల నుండి ప్రజలకు బ్రూసెల్లోసిస్ సాధారణంగా ఎలా సోకుతుంది?", "மாடுகளிலிருந்து மக்களுக்கு புருசெல்லோசிஸ் பொதுவாக எப்படி ஏற்படுகிறது?", "ಜಾನುವಾರುಗಳಿಂದ ಜನರಿಗೆ ಬ್ರೂಸೆಲ್ಲೋಸಿಸ್ ಸಾಮಾನ್ಯವಾಗಿ ಹೇಗೆ ತಗುಲುತ್ತದೆ?", "लोगों को पशुओं से ब्रुसेलोसिस सबसे आम तौर पर कैसे होता है?"),
             options: [
-              L("By standing near a healthy animal"),
-              L("By drinking raw milk, or through infected fluid touching the skin or eyes"),
-              L("By hearing an animal cough"),
-              L("It cannot spread to humans at all"),
+              L("By standing near a healthy animal", "ఆరోగ్యకరమైన జంతువు దగ్గర నిలబడటం ద్వారా", "ஆரோக்கியமான ஒரு விலங்கு அருகில் நிற்பதன் மூலம்", "ಆರೋಗ್ಯಕರ ಪ್ರಾಣಿಯ ಬಳಿ ನಿಲ್ಲುವ ಮೂಲಕ", "एक स्वस्थ जानवर के पास खड़े होकर"),
+              L("By drinking raw milk, or through infected fluid touching the skin or eyes", "ముడి పాలు తాగడం ద్వారా, లేదా సోకిన ద్రవం చర్మం లేదా కళ్ళను తాకడం ద్వారా", "பச்சைப் பால் குடிப்பதன் மூலம், அல்லது தொற்று ஏற்பட்ட திரவம் தோல் அல்லது கண்களைத் தொடுவதன் மூலம்", "ಕಚ್ಚಾ ಹಾಲು ಕುಡಿಯುವ ಮೂಲಕ, ಅಥವಾ ಸೋಂಕಿತ ದ್ರವ ಚರ್ಮ ಅಥವಾ ಕಣ್ಣುಗಳನ್ನು ಮುಟ್ಟುವ ಮೂಲಕ", "कच्चा दूध पीने से, या संक्रमित तरल पदार्थ के त्वचा या आँखों को छूने से"),
+              L("By hearing an animal cough", "జంతువు దగ్గడం వినడం ద్వారా", "ஒரு விலங்கு இருமுவதைக் கேட்பதன் மூலம்", "ಪ್ರಾಣಿ ಕೆಮ್ಮುವುದನ್ನು ಕೇಳುವ ಮೂಲಕ", "जानवर की खांसी सुनने से"),
+              L("It cannot spread to humans at all", "ఇది మనుషులకు అస్సలు వ్యాపించదు", "இது மனிதர்களுக்கு அறவே பரவாது", "ಇದು ಮನುಷ್ಯರಿಗೆ ಎಂದಿಗೂ ಹರಡುವುದಿಲ್ಲ", "यह मनुष्यों में बिल्कुल नहीं फैलता"),
             ],
             answer: 1,
-            explain: L("Brucellosis mainly spreads through raw (unboiled) milk from an infected animal, or through contact with infected secretions on the skin or eyes."),
+            explain: L("Brucellosis mainly spreads through raw (unboiled) milk from an infected animal, or through contact with infected secretions on the skin or eyes.", "బ్రూసెల్లోసిస్ ప్రధానంగా సోకిన జంతువు నుండి ముడి (ఉడకని) పాలు ద్వారా, లేదా చర్మం లేదా కళ్ళపై సోకిన స్రావాలతో సంబంధం ద్వారా వ్యాపిస్తుంది.", "புருசெல்லோசிஸ் முக்கியமாக தொற்று ஏற்பட்ட விலங்கிலிருந்து பச்சை (கொதிக்கவைக்காத) பால் மூலமாகவும், அல்லது தோல் அல்லது கண்களில் தொற்று ஏற்பட்ட சுரப்புகளுடன் தொடர்பு மூலமாகவும் பரவுகிறது.", "ಬ್ರೂಸೆಲ್ಲೋಸಿಸ್ ಮುಖ್ಯವಾಗಿ ಸೋಂಕಿತ ಪ್ರಾಣಿಯಿಂದ ಕಚ್ಚಾ (ಕುದಿಸದ) ಹಾಲಿನ ಮೂಲಕ, ಅಥವಾ ಚರ್ಮ ಅಥವಾ ಕಣ್ಣುಗಳ ಮೇಲಿನ ಸೋಂಕಿತ ಸ್ರಾವಗಳ ಸಂಪರ್ಕದ ಮೂಲಕ ಹರಡುತ್ತದೆ.", "ब्रुसेलोसिस मुख्यतः संक्रमित जानवर के कच्चे (बिना उबाले) दूध से, या त्वचा या आँखों पर संक्रमित स्राव के संपर्क से फैलता है।"),
           },
           {
             type: "truefalse",
-            q: L("Leptospirosis infections in people are more common during the monsoon months."),
+            q: L("Leptospirosis infections in people are more common during the monsoon months.", "లెప్టోస్పైరోసిస్ సంక్రమణలు ప్రజలలో వర్షాకాలంలో ఎక్కువగా ఉంటాయి.", "லெப்டோஸ்பைரோசிஸ் தொற்றுகள் மக்களிடையே பருவமழை மாதங்களில் அதிகமாக காணப்படுகின்றன.", "ಲೆಪ್ಟೋಸ್ಪೈರೋಸಿಸ್ ಸೋಂಕುಗಳು ಜನರಲ್ಲಿ ಮಳೆಗಾಲದ ತಿಂಗಳುಗಳಲ್ಲಿ ಹೆಚ್ಚು ಸಾಮಾನ್ಯವಾಗಿವೆ.", "लोगों में लेप्टोस्पायरोसिस संक्रमण मानसून के महीनों में ज़्यादा आम हैं।"),
             answer: true,
-            explain: L("Yes — the infection rate for Leptospirosis is higher in the monsoon months, alongside contact with infected urine, uterine fluid, or milking."),
+            explain: L("Yes — the infection rate for Leptospirosis is higher in the monsoon months, alongside contact with infected urine, uterine fluid, or milking.", "అవును — లెప్టోస్పైరోసిస్ సంక్రమణ రేటు వర్షాకాలంలో ఎక్కువగా ఉంటుంది, సోకిన మూత్రం, గర్భాశయ ద్రవం, లేదా పాలు పితకడంతో సంబంధంతో పాటు.", "ஆம் — லெப்டோஸ்பைரோசிஸின் தொற்று விகிதம் பருவமழை மாதங்களில் அதிகமாக உள்ளது, தொற்று ஏற்பட்ட சிறுநீர், கருப்பை திரவம், அல்லது பால் கறத்தலுடனான தொடர்புடன் சேர்ந்து.", "ಹೌದು — ಲೆಪ್ಟೋಸ್ಪೈರೋಸಿಸ್‌ನ ಸೋಂಕಿನ ಪ್ರಮಾಣ ಮಳೆಗಾಲದ ತಿಂಗಳುಗಳಲ್ಲಿ ಹೆಚ್ಚಾಗಿದೆ, ಸೋಂಕಿತ ಮೂತ್ರ, ಗರ್ಭಾಶಯದ ದ್ರವ, ಅಥವಾ ಹಾಲು ಕರೆಯುವ ಸಂಪರ್ಕದೊಂದಿಗೆ.", "हाँ — संक्रमित पेशाब, गर्भाशय द्रव, या दूध दुहने के संपर्क के साथ-साथ, मानसून के महीनों में लेप्टोस्पायरोसिस की संक्रमण दर ज़्यादा है।"),
           },
         ],
       },
@@ -8692,51 +8824,51 @@ export const MODULES = [
         {
           topicId: "t-m11-what-is-zoonotic",
           type: "mcq",
-          q: L("About what share of all known infectious diseases are zoonotic?"),
-          options: [L("About 5%"), L("About 25%"), L("About 61%"), L("About 100%")],
+          q: L("About what share of all known infectious diseases are zoonotic?", "తెలిసిన అన్ని అంటు వ్యాధులలో జూనోటిక్ వ్యాధుల వాటా సుమారు ఎంత?", "தெரிந்த அனைத்து தொற்று நோய்களில் விலங்கு-மனித நோய்களின் பங்கு எவ்வளவு?", "ತಿಳಿದಿರುವ ಎಲ್ಲಾ ಸಾಂಕ್ರಾಮಿಕ ರೋಗಗಳಲ್ಲಿ ಝೂನೋಟಿಕ್ ರೋಗಗಳ ಪಾಲು ಎಷ್ಟು?", "सभी ज्ञात संक्रामक रोगों में ज़ूनोटिक रोगों का हिस्सा लगभग कितना है?"),
+          options: [L("About 5%", "సుమారు 5%", "சுமார் 5%", "ಸುಮಾರು 5%", "लगभग 5%"), L("About 25%", "సుమారు 25%", "சுமார் 25%", "ಸುಮಾರು 25%", "लगभग 25%"), L("About 61%", "సుమారు 61%", "சுமார் 61%", "ಸುಮಾರು 61%", "लगभग 61%"), L("About 100%", "సుమారు 100%", "சுமார் 100%", "ಸುಮಾರು 100%", "लगभग 100%")],
           answer: 2,
-          explain: L("Zoonoses make up about 61% of all known infectious diseases — a much larger share than most people expect."),
+          explain: L("Zoonoses make up about 61% of all known infectious diseases — a much larger share than most people expect.", "జూనోసెస్ తెలిసిన అన్ని అంటు వ్యాధులలో సుమారు 61% ఉంటాయి — చాలా మంది ఆశించే దానికంటే చాలా పెద్ద వాటా.", "ஜூனோசிஸ் நோய்கள் தெரிந்த அனைத்து தொற்று நோய்களில் சுமார் 61% ஆகும் — பெரும்பாலான மக்கள் எதிர்பார்ப்பதை விட மிகப் பெரிய பங்கு.", "ಝೂನೋಸಿಸ್‌ಗಳು ತಿಳಿದಿರುವ ಎಲ್ಲಾ ಸಾಂಕ್ರಾಮಿಕ ರೋಗಗಳಲ್ಲಿ ಸುಮಾರು 61% ಆಗಿವೆ — ಹೆಚ್ಚಿನ ಜನರು ನಿರೀಕ್ಷಿಸುವುದಕ್ಕಿಂತ ಹೆಚ್ಚು ದೊಡ್ಡ ಪಾಲು.", "ज़ूनोसिस सभी ज्ञात संक्रामक रोगों का लगभग 61% हैं — जितना ज़्यादातर लोग सोचते हैं उससे कहीं बड़ा हिस्सा।"),
         },
         {
           topicId: "t-m11-what-is-zoonotic",
           type: "truefalse",
-          q: L("Because dairy farm workers are in close daily contact with animals, they are always at some risk of picking up a zoonotic infection."),
+          q: L("Because dairy farm workers are in close daily contact with animals, they are always at some risk of picking up a zoonotic infection.", "పాడి రైతు కార్మికులు జంతువులతో దగ్గరగా రోజువారీ సంబంధంలో ఉంటారు కాబట్టి, వారికి జూనోటిక్ సంక్రమణ సోకే ప్రమాదం ఎల్లప్పుడూ ఉంటుంది.", "பால் பண்ணை தொழிலாளர்கள் விலங்குகளுடன் தினமும் நெருக்கமாக இருப்பதால், அவர்களுக்கு விலங்கு-மனித தொற்று ஏற்படும் அபாயம் எப்போதும் உள்ளது.", "ಹೈನುಗಾರಿಕೆ ಕಾರ್ಮಿಕರು ಪ್ರಾಣಿಗಳೊಂದಿಗೆ ಪ್ರತಿದಿನ ಹತ್ತಿರದ ಸಂಪರ್ಕದಲ್ಲಿರುವುದರಿಂದ, ಅವರಿಗೆ ಝೂನೋಟಿಕ್ ಸೋಂಕು ತಗುಲುವ ಅಪಾಯ ಯಾವಾಗಲೂ ಇರುತ್ತದೆ.", "चूंकि डेयरी फार्म के कर्मचारी जानवरों के रोज़ाना नज़दीकी संपर्क में रहते हैं, उन्हें हमेशा ज़ूनोटिक संक्रमण होने का कुछ खतरा रहता है।"),
           answer: true,
-          explain: L("Correct — close, everyday contact with animals is itself one of the main risk factors for zoonotic disease."),
+          explain: L("Correct — close, everyday contact with animals is itself one of the main risk factors for zoonotic disease.", "సరైనది — జంతువులతో దగ్గరి, రోజువారీ సంబంధం అనేదే జూనోటిక్ వ్యాధికి ప్రధాన ప్రమాద కారకాలలో ఒకటి.", "சரியானது — விலங்குகளுடன் நெருங்கிய, அன்றாட தொடர்பே விலங்கு-மனித நோய்க்கான முக்கிய ஆபத்து காரணிகளில் ஒன்றாகும்.", "ಸರಿ — ಪ್ರಾಣಿಗಳೊಂದಿಗಿನ ನಿಕಟ, ದೈನಂದಿನ ಸಂಪರ್ಕವೇ ಝೂನೋಟಿಕ್ ರೋಗಕ್ಕೆ ಪ್ರಮುಖ ಅಪಾಯದ ಅಂಶಗಳಲ್ಲಿ ಒಂದಾಗಿದೆ.", "सही — जानवरों के साथ नज़दीकी, रोज़ाना संपर्क अपने आप में ज़ूनोटिक रोग के मुख्य जोखिम कारकों में से एक है।"),
         },
         {
           topicId: "t-m11-three-diseases",
           type: "mcq",
-          q: L("Which of these is a common symptom of Human TB caught from cattle?"),
-          options: [L("Cough, weight loss and poor appetite"), L("Bright pink skin"), L("Loss of hearing"), L("Faster hoof growth")],
+          q: L("Which of these is a common symptom of Human TB caught from cattle?", "పశువుల నుండి సోకిన మానవ టీబీ యొక్క సాధారణ లక్షణం ఇది ఏది?", "மாடுகளிலிருந்து பிடிக்கப்பட்ட மனித டிபியின் பொதுவான அறிகுறி இது எது?", "ಜಾನುವಾರುಗಳಿಂದ ತಗುಲಿದ ಮಾನವ ಟಿಬಿಯ ಸಾಮಾನ್ಯ ಲಕ್ಷಣ ಇದು ಯಾವುದು?", "पशुओं से लगने वाले मानव टीबी का सामान्य लक्षण यह कौन सा है?"),
+          options: [L("Cough, weight loss and poor appetite", "దగ్గు, బరువు తగ్గడం మరియు ఆకలి తగ్గడం", "இருமல், எடை இழப்பு மற்றும் பசியின்மை", "ಕೆಮ್ಮು, ತೂಕ ಇಳಿಕೆ ಮತ್ತು ಕಳಪೆ ಹಸಿವು", "खांसी, वज़न कम होना और भूख न लगना"), L("Bright pink skin", "ప్రకాశవంతమైన గులాబీ చర్మం", "பிரகாசமான இளஞ்சிவப்பு தோல்", "ಪ್ರಕಾಶಮಾನ ಗುಲಾಬಿ ಚರ್ಮ", "चमकीली गुलाबी त्वचा"), L("Loss of hearing", "వినికిడి కోల్పోవడం", "கேட்கும் திறன் இழப்பு", "ಶ್ರವಣ ನಷ್ಟ", "सुनने की क्षमता खोना"), L("Faster hoof growth", "వేగంగా గిట్ట పెరుగుదల", "வேகமான குளம்பு வளர்ச்சி", "ವೇಗದ ಗೊರಸು ಬೆಳವಣಿಗೆ", "तेज़ खुर वृद्धि")],
           answer: 0,
-          explain: L("Human TB from cattle often shows no symptoms until advanced, and then commonly causes cough, weight loss, and poor appetite."),
+          explain: L("Human TB from cattle often shows no symptoms until advanced, and then commonly causes cough, weight loss, and poor appetite.", "పశువుల నుండి వచ్చే మానవ టీబీ చాలా వరకు ముదిరే వరకు లక్షణాలు చూపదు, ఆ తర్వాత సాధారణంగా దగ్గు, బరువు తగ్గడం, మరియు ఆకలి తగ్గడం కలిగిస్తుంది.", "மாடுகளிலிருந்து வரும் மனித டிபி பெரும்பாலும் முற்றும் வரை அறிகுறிகள் இல்லாமல் இருக்கும், பின்னர் பொதுவாக இருமல், எடை இழப்பு, மற்றும் பசியின்மையை ஏற்படுத்தும்.", "ಜಾನುವಾರುಗಳಿಂದ ಬರುವ ಮಾನವ ಟಿಬಿ ಸಾಮಾನ್ಯವಾಗಿ ಮುಂದುವರಿಯುವ ತನಕ ಯಾವುದೇ ಲಕ್ಷಣಗಳನ್ನು ತೋರಿಸುವುದಿಲ್ಲ, ನಂತರ ಸಾಮಾನ್ಯವಾಗಿ ಕೆಮ್ಮು, ತೂಕ ಇಳಿಕೆ, ಮತ್ತು ಕಳಪೆ ಹಸಿವನ್ನು ಉಂಟುಮಾಡುತ್ತದೆ.", "पशुओं से लगने वाला मानव टीबी अक्सर बढ़ने तक कोई लक्षण नहीं दिखाता, और फिर आमतौर पर खांसी, वज़न कम होना, और भूख न लगना जैसे लक्षण पैदा करता है।"),
         },
         {
           topicId: "t-m11-three-diseases",
           type: "mcq",
-          q: L("What is one way people can get infected with Leptospirosis?"),
+          q: L("What is one way people can get infected with Leptospirosis?", "ప్రజలకు లెప్టోస్పైరోసిస్ సోకే మార్గాలలో ఒకటి ఏమిటి?", "மக்கள் லெப்டோஸ்பைரோசிஸ் தொற்றை பெறக்கூடிய ஒரு வழி என்ன?", "ಜನರಿಗೆ ಲೆಪ್ಟೋಸ್ಪೈರೋಸಿಸ್ ಸೋಂಕು ತಗುಲುವ ಒಂದು ವಿಧಾನ ಯಾವುದು?", "लोगों को लेप्टोस्पायरोसिस संक्रमण होने का एक तरीका क्या है?"),
           options: [
-            L("Contact with infected urine or uterine fluid, or while milking infected cattle"),
-            L("Standing far away from cattle"),
-            L("Drinking clean, boiled water"),
-            L("Wearing gloves while feeding calves"),
+            L("Contact with infected urine or uterine fluid, or while milking infected cattle", "సోకిన మూత్రం లేదా గర్భాశయ ద్రవంతో సంబంధం, లేదా సోకిన పశువులను పాలు పితికేటప్పుడు", "தொற்று ஏற்பட்ட சிறுநீர் அல்லது கருப்பை திரவத்துடன் தொடர்பு, அல்லது தொற்று ஏற்பட்ட மாடுகளின் பால் கறக்கும்போது", "ಸೋಂಕಿತ ಮೂತ್ರ ಅಥವಾ ಗರ್ಭಾಶಯದ ದ್ರವದ ಸಂಪರ್ಕ, ಅಥವಾ ಸೋಂಕಿತ ಜಾನುವಾರುಗಳ ಹಾಲು ಕರೆಯುವಾಗ", "संक्रमित पेशाब या गर्भाशय द्रव के संपर्क से, या संक्रमित पशुओं का दूध दुहते समय"),
+            L("Standing far away from cattle", "పశువుల నుండి దూరంగా నిలబడటం", "மாடுகளிலிருந்து தூரமாக நிற்பது", "ಜಾನುವಾರುಗಳಿಂದ ದೂರ ನಿಲ್ಲುವುದು", "पशुओं से दूर खड़े होना"),
+            L("Drinking clean, boiled water", "శుభ్రమైన, ఉడికించిన నీరు తాగడం", "சுத்தமான, கொதிக்கவைத்த தண்ணீர் குடிப்பது", "ಸ್ವಚ್ಛ, ಕುದಿಸಿದ ನೀರು ಕುಡಿಯುವುದು", "साफ़, उबला हुआ पानी पीना"),
+            L("Wearing gloves while feeding calves", "దూడలకు తినిపించేటప్పుడు చేతి తొడుగులు వేసుకోవడం", "கன்றுகளுக்கு உணவளிக்கும்போது கையுறைகள் அணிவது", "ಕರುಗಳಿಗೆ ಆಹಾರ ನೀಡುವಾಗ ಕೈಗವಸುಗಳನ್ನು ಧರಿಸುವುದು", "बछड़ों को खिलाते समय दस्ताने पहनना"),
           ],
           answer: 0,
-          explain: L("Leptospirosis spreads mainly through contact with contaminated urine or uterine fluid, and through milking infected cattle."),
+          explain: L("Leptospirosis spreads mainly through contact with contaminated urine or uterine fluid, and through milking infected cattle.", "లెప్టోస్పైరోసిస్ ప్రధానంగా కలుషితమైన మూత్రం లేదా గర్భాశయ ద్రవంతో సంబంధం ద్వారా, మరియు సోకిన పశువులను పాలు పితకడం ద్వారా వ్యాపిస్తుంది.", "லெப்டோஸ்பைரோசிஸ் முக்கியமாக கறைபடிந்த சிறுநீர் அல்லது கருப்பை திரவத்துடன் தொடர்பு மூலமாகவும், தொற்று ஏற்பட்ட மாடுகளின் பால் கறத்தல் மூலமாகவும் பரவுகிறது.", "ಲೆಪ್ಟೋಸ್ಪೈರೋಸಿಸ್ ಮುಖ್ಯವಾಗಿ ಕಲುಷಿತ ಮೂತ್ರ ಅಥವಾ ಗರ್ಭಾಶಯದ ದ್ರವದ ಸಂಪರ್ಕದ ಮೂಲಕ, ಮತ್ತು ಸೋಂಕಿತ ಜಾನುವಾರುಗಳ ಹಾಲು ಕರೆಯುವ ಮೂಲಕ ಹರಡುತ್ತದೆ.", "लेप्टोस्पायरोसिस मुख्यतः दूषित पेशाब या गर्भाशय द्रव के संपर्क से, और संक्रमित पशुओं का दूध दुहने से फैलता है।"),
         },
         {
           topicId: "t-m11-what-is-zoonotic",
           type: "mcq",
-          q: L("If you notice unusual symptoms in yourself, such as fever or joint pain, and you handle cattle daily, what should you do?"),
+          q: L("If you notice unusual symptoms in yourself, such as fever or joint pain, and you handle cattle daily, what should you do?", "మీలో జ్వరం లేదా కీళ్ల నొప్పి వంటి అసాధారణ లక్షణాలు మీరు గమనించి, మీరు ప్రతిరోజూ పశువులను నిర్వహిస్తుంటే, మీరు ఏమి చేయాలి?", "காய்ச்சல் அல்லது மூட்டு வலி போன்ற அசாதாரண அறிகுறிகளை நீங்கள் உங்களில் கவனித்து, நீங்கள் தினமும் மாடுகளை கையாள்கிறீர்கள் என்றால், நீங்கள் என்ன செய்ய வேண்டும்?", "ಜ್ವರ ಅಥವಾ ಕೀಲು ನೋವಿನಂತಹ ಅಸಾಮಾನ್ಯ ಲಕ್ಷಣಗಳನ್ನು ನಿಮ್ಮಲ್ಲಿ ನೀವು ಗಮನಿಸಿ, ನೀವು ಪ್ರತಿದಿನ ಜಾನುವಾರುಗಳನ್ನು ನಿರ್ವಹಿಸಿದರೆ, ನೀವು ಏನು ಮಾಡಬೇಕು?", "अगर आपको बुखार या जोड़ों के दर्द जैसे असामान्य लक्षण दिखें, और आप रोज़ाना पशुओं को संभालते हैं, तो आपको क्या करना चाहिए?"),
           options: [
-            L("Say nothing — it can't be related to the animals"),
-            L("Wait a month to see if it goes away"),
-            L("Mention your daily animal contact to a doctor so they can consider it"),
-            L("Try to diagnose it yourself using this course"),
+            L("Say nothing — it can't be related to the animals", "ఏమీ చెప్పవద్దు — ఇది జంతువులకు సంబంధించినది కాదు", "எதுவும் சொல்ல வேண்டாம் — இது விலங்குகளுடன் தொடர்புடையதாக இருக்க முடியாது", "ಏನೂ ಹೇಳಬೇಡಿ — ಇದು ಪ್ರಾಣಿಗಳಿಗೆ ಸಂಬಂಧಿಸಿರಲು ಸಾಧ್ಯವಿಲ್ಲ", "कुछ न कहें — इसका जानवरों से कोई संबंध नहीं हो सकता"),
+            L("Wait a month to see if it goes away", "అది తగ్గుతుందేమో చూడటానికి ఒక నెల వేచి ఉండండి", "இது போய்விடுமா என்று ஒரு மாதம் காத்திருங்கள்", "ಅದು ಹೋಗುತ್ತದೆಯೇ ಎಂದು ನೋಡಲು ಒಂದು ತಿಂಗಳು ಕಾಯಿರಿ", "यह ठीक होता है या नहीं यह देखने के लिए एक महीना इंतज़ार करें"),
+            L("Mention your daily animal contact to a doctor so they can consider it", "వైద్యుడు దానిని పరిగణించేలా మీ రోజువారీ జంతు సంబంధాన్ని వైద్యుడికి తెలియజేయండి", "மருத்துவர் அதைக் கருத்தில் கொள்ளும்படி உங்கள் அன்றாட விலங்கு தொடர்பை அவரிடம் தெரிவிக்கவும்", "ವೈದ್ಯರು ಅದನ್ನು ಪರಿಗಣಿಸಲು ನಿಮ್ಮ ದೈನಂದಿನ ಪ್ರಾಣಿ ಸಂಪರ್ಕವನ್ನು ಅವರಿಗೆ ತಿಳಿಸಿ", "डॉक्टर को अपने रोज़ाना जानवरों के संपर्क के बारे में बताएं ताकि वे इस पर विचार कर सकें"),
+            L("Try to diagnose it yourself using this course", "ఈ కోర్సును ఉపయోగించి మీరే స్వయంగా నిర్ధారించడానికి ప్రయత్నించండి", "இந்த பாடத்திட்டத்தைப் பயன்படுத்தி நீங்களே கண்டறிய முயற்சிக்கவும்", "ಈ ಕೋರ್ಸ್ ಬಳಸಿ ನೀವೇ ಸ್ವತಃ ಪತ್ತೆ ಮಾಡಲು ಪ್ರಯತ್ನಿಸಿ", "इस पाठ्यक्रम का उपयोग करके खुद निदान करने की कोशिश करें"),
           ],
           answer: 2,
-          explain: L("Zoonotic diseases can be cured if diagnosed and treated promptly — telling a doctor about your regular animal contact helps them consider the right cause."),
+          explain: L("Zoonotic diseases can be cured if diagnosed and treated promptly — telling a doctor about your regular animal contact helps them consider the right cause.", "జూనోటిక్ వ్యాధులను వెంటనే నిర్ధారించి చికిత్స చేస్తే నయం చేయవచ్చు — మీ క్రమం తప్పకుండా జంతు సంబంధం గురించి వైద్యుడికి చెప్పడం వారికి సరైన కారణాన్ని పరిగణించడంలో సహాయపడుతుంది.", "விலங்கு-மனித நோய்களை உடனடியாக கண்டறிந்து சிகிச்சை அளித்தால் குணப்படுத்த முடியும் — உங்கள் வழக்கமான விலங்கு தொடர்பைப் பற்றி ஒரு மருத்துவரிடம் தெரிவிப்பது சரியான காரணத்தைக் கருத்தில் கொள்ள அவர்களுக்கு உதவுகிறது.", "ಝೂನೋಟಿಕ್ ರೋಗಗಳನ್ನು ತಕ್ಷಣ ಪತ್ತೆ ಮಾಡಿ ಚಿಕಿತ್ಸೆ ನೀಡಿದರೆ ಗುಣಪಡಿಸಬಹುದು — ನಿಮ್ಮ ನಿಯಮಿತ ಪ್ರಾಣಿ ಸಂಪರ್ಕದ ಬಗ್ಗೆ ವೈದ್ಯರಿಗೆ ತಿಳಿಸುವುದು ಸರಿಯಾದ ಕಾರಣವನ್ನು ಪರಿಗಣಿಸಲು ಅವರಿಗೆ ಸಹಾಯ ಮಾಡುತ್ತದೆ.", "ज़ूनोटिक रोगों का समय पर निदान और इलाज किया जाए तो उन्हें ठीक किया जा सकता है — डॉक्टर को अपने नियमित जानवरों के संपर्क के बारे में बताना उन्हें सही कारण पर विचार करने में मदद करता है।"),
         },
       ],
     },
@@ -8747,156 +8879,192 @@ export const MODULES = [
   // ==================================================================
   {
     id: "m11-l2",
-    title: L("Gut and Tick-Borne Zoonotic Diseases, and Protecting Yourself"),
+    title: L("Gut and Tick-Borne Zoonotic Diseases, and Protecting Yourself", "గట్ మరియు పేనుల ద్వారా వ్యాపించే జూనోటిక్ వ్యాధులు, మరియు మిమ్మల్ని మీరు రక్షించుకోవడం", "குடல் மற்றும் ஈறு மூலம் பரவும் விலங்கு-மனித நோய்கள், மற்றும் உங்களைப் பாதுகாத்துக் கொள்ளுதல்", "ಕರುಳು ಮತ್ತು ಉಣ್ಣಿಯಿಂದ ಹರಡುವ ಝೂನೋಟಿಕ್ ರೋಗಗಳು, ಮತ್ತು ನಿಮ್ಮನ್ನು ರಕ್ಷಿಸಿಕೊಳ್ಳುವುದು", "आंत और किलनी से फैलने वाले ज़ूनोटिक रोग, और खुद को सुरक्षित रखना"),
     estMinutes: 8,
     hook: [
       {
         type: "hero",
-        heading: L("Two More Groups of Diseases to Watch For"),
+        heading: L("Two More Groups of Diseases to Watch For", "గమనించవలసిన మరో రెండు వ్యాధుల సమూహాలు", "கவனிக்க வேண்டிய இன்னும் இரண்டு நோய் குழுக்கள்", "ಗಮನಿಸಬೇಕಾದ ಇನ್ನೆರಡು ರೋಗಗಳ ಗುಂಪುಗಳು", "ध्यान देने योग्य बीमारियों के दो और समूह"),
         text: L(
-          "Beyond Brucellosis, TB and Leptospirosis, there are two more groups of zoonotic diseases connected to cattle: infections that upset the stomach and gut, and infections carried by ticks. This lesson covers both, along with simple, practical habits that protect you every single day."
+          "Beyond Brucellosis, TB and Leptospirosis, there are two more groups of zoonotic diseases connected to cattle: infections that upset the stomach and gut, and infections carried by ticks. This lesson covers both, along with simple, practical habits that protect you every single day.",
+          "బ్రూసెల్లోసిస్, టీబీ మరియు లెప్టోస్పైరోసిస్‌తో పాటు, పశువులకు సంబంధించిన మరో రెండు జూనోటిక్ వ్యాధుల సమూహాలు ఉన్నాయి: కడుపు మరియు గట్‌ను చెడగొట్టే సంక్రమణలు, మరియు పేనుల ద్వారా వ్యాపించే సంక్రమణలు. ఈ పాఠం రెండింటినీ, ప్రతిరోజూ మిమ్మల్ని రక్షించే సరళమైన, ఆచరణాత్మక అలవాట్లతో పాటు వివరిస్తుంది.",
+          "புருசெல்லோசிஸ், டிபி மற்றும் லெப்டோஸ்பைரோசிஸைத் தாண்டி, மாடுகளுடன் தொடர்புடைய இன்னும் இரண்டு விலங்கு-மனித நோய் குழுக்கள் உள்ளன: வயிற்றையும் குடலையும் பாதிக்கும் தொற்றுகள், மற்றும் ஈறுகளால் பரவும் தொற்றுகள். இந்த பாடம் இரண்டையும், ஒவ்வொரு நாளும் உங்களைப் பாதுகாக்கும் எளிய, நடைமுறை பழக்கங்களுடன் உள்ளடக்குகிறது.",
+          "ಬ್ರೂಸೆಲ್ಲೋಸಿಸ್, ಟಿಬಿ ಮತ್ತು ಲೆಪ್ಟೋಸ್ಪೈರೋಸಿಸ್ ಹೊರತಾಗಿ, ಜಾನುವಾರುಗಳಿಗೆ ಸಂಬಂಧಿಸಿದ ಇನ್ನೆರಡು ಝೂನೋಟಿಕ್ ರೋಗಗಳ ಗುಂಪುಗಳಿವೆ: ಹೊಟ್ಟೆ ಮತ್ತು ಕರುಳನ್ನು ಕೆಡಿಸುವ ಸೋಂಕುಗಳು, ಮತ್ತು ಉಣ್ಣಿಗಳಿಂದ ಹರಡುವ ಸೋಂಕುಗಳು. ಈ ಪಾಠ ಎರಡನ್ನೂ, ಪ್ರತಿದಿನ ನಿಮ್ಮನ್ನು ರಕ್ಷಿಸುವ ಸರಳ, ಪ್ರಾಯೋಗಿಕ ಅಭ್ಯಾಸಗಳೊಂದಿಗೆ ಒಳಗೊಂಡಿದೆ.",
+          "ब्रुसेलोसिस, टीबी और लेप्टोस्पायरोसिस के अलावा, पशुओं से जुड़े ज़ूनोटिक रोगों के दो और समूह हैं: वे संक्रमण जो पेट और आंत को खराब करते हैं, और किलनी द्वारा फैलाए जाने वाले संक्रमण। यह पाठ दोनों को, हर दिन आपकी रक्षा करने वाली सरल, व्यावहारिक आदतों के साथ कवर करता है।"
         ),
       },
     ],
     topics: [
       {
         id: "t-m11-gi-zoonotic",
-        title: L("Gastro-Intestinal Zoonotic Diseases"),
+        title: L("Gastro-Intestinal Zoonotic Diseases", "జఠర-ప్రేగు సంబంధిత జూనోటిక్ వ్యాధులు", "இரைப்பை-குடல் விலங்கு-மனித நோய்கள்", "ಜಠರ-ಕರುಳಿನ ಝೂನೋಟಿಕ್ ರೋಗಗಳು", "आंत्र-संबंधी ज़ूनोटिक रोग"),
         teach: [
             {
               type: "photo",
               src: "assets/photo-m11-handwashing.jpg",
-              alt: L("A person washing their hands thoroughly with soap and lather at a sink"),
-              caption: L("Washing your hands thoroughly with soap after handling dung or cattle — and always before eating — is one of the simplest ways to protect yourself."),
+              alt: L("A person washing their hands thoroughly with soap and lather at a sink", "ఒక వ్యక్తి సింక్ వద్ద సబ్బు మరియు నురుగుతో చేతులను బాగా కడుక్కుంటున్నారు", "ஒரு நபர் ஒரு வாஷ்பேசினில் சோப்பு மற்றும் நுரையுடன் தனது கைகளை நன்கு கழுவுகிறார்", "ಒಬ್ಬ ವ್ಯಕ್ತಿ ಸಿಂಕ್‌ನಲ್ಲಿ ಸಾಬೂನು ಮತ್ತು ನೊರೆಯಿಂದ ತಮ್ಮ ಕೈಗಳನ್ನು ಸಂಪೂರ್ಣವಾಗಿ ತೊಳೆಯುತ್ತಿದ್ದಾರೆ", "एक व्यक्ति सिंक पर साबुन और झाग से अपने हाथों को अच्छी तरह धो रहा है"),
+              caption: L("Washing your hands thoroughly with soap after handling dung or cattle — and always before eating — is one of the simplest ways to protect yourself.", "పేడ లేదా పశువులను నిర్వహించిన తర్వాత — మరియు తినడానికి ముందు ఎల్లప్పుడూ — సబ్బుతో చేతులను బాగా కడుక్కోవడం మిమ్మల్ని మీరు రక్షించుకోవడానికి అత్యంత సరళమైన మార్గాలలో ఒకటి.", "சாணம் அல்லது மாடுகளை கையாண்ட பிறகு — மற்றும் சாப்பிடுவதற்கு முன் எப்போதும் — சோப்புடன் உங்கள் கைகளை நன்கு கழுவுவது உங்களைப் பாதுகாத்துக் கொள்ளும் எளிய வழிகளில் ஒன்றாகும்.", "ಸಗಣಿ ಅಥವಾ ಜಾನುವಾರುಗಳನ್ನು ನಿರ್ವಹಿಸಿದ ನಂತರ — ಮತ್ತು ತಿನ್ನುವ ಮೊದಲು ಯಾವಾಗಲೂ — ಸಾಬೂನಿನಿಂದ ನಿಮ್ಮ ಕೈಗಳನ್ನು ಸಂಪೂರ್ಣವಾಗಿ ತೊಳೆಯುವುದು ನಿಮ್ಮನ್ನು ರಕ್ಷಿಸಿಕೊಳ್ಳುವ ಸರಳ ವಿಧಾನಗಳಲ್ಲಿ ಒಂದಾಗಿದೆ.", "गोबर या पशुओं को संभालने के बाद — और खाने से पहले हमेशा — साबुन से अपने हाथों को अच्छी तरह धोना खुद को सुरक्षित रखने के सबसे आसान तरीकों में से एक है।"),
             },
           {
             type: "text",
-            heading: L("What Are Gastro-Intestinal Zoonotic Diseases?"),
+            heading: L("What Are Gastro-Intestinal Zoonotic Diseases?", "జఠర-ప్రేగు సంబంధిత జూనోటిక్ వ్యాధులు అంటే ఏమిటి?", "இரைப்பை-குடல் விலங்கு-மனித நோய்கள் என்றால் என்ன?", "ಜಠರ-ಕರುಳಿನ ಝೂನೋಟಿಕ್ ರೋಗಗಳು ಎಂದರೇನು?", "आंत्र-संबंधी ज़ूनोटिक रोग क्या हैं?"),
             html: L(
-              "These are zoonotic diseases that affect the <b>intestinal tract</b> (the gut). Some examples that can pass between cattle and people are infections with <b>Salmonella, E. coli, Campylobacter, Rota virus, Cryptosporidia,</b> and <b>Giardia</b>. These are all different kinds of germs, but they share the same way of spreading and cause similar problems."
+              "These are zoonotic diseases that affect the <b>intestinal tract</b> (the gut). Some examples that can pass between cattle and people are infections with <b>Salmonella, E. coli, Campylobacter, Rota virus, Cryptosporidia,</b> and <b>Giardia</b>. These are all different kinds of germs, but they share the same way of spreading and cause similar problems.",
+              "ఇవి <b>ప్రేగు మార్గాన్ని</b> (గట్) ప్రభావితం చేసే జూనోటిక్ వ్యాధులు. పశువులు మరియు మనుషుల మధ్య వ్యాపించగల కొన్ని ఉదాహరణలు <b>సాల్మొనెల్లా, ఇ.కొలై, క్యాంపిలోబాక్టర్, రోటా వైరస్, క్రిప్టోస్పోరిడియా,</b> మరియు <b>జియార్డియా</b> సంక్రమణలు. ఇవన్నీ వేర్వేరు రకాల క్రిములు, కానీ అవి ఒకే విధంగా వ్యాపిస్తాయి మరియు ఇలాంటి సమస్యలను కలిగిస్తాయి.",
+              "இவை <b>குடல் பாதையை</b> (குடல்) பாதிக்கும் விலங்கு-மனித நோய்கள். மாடு மற்றும் மனிதர்களுக்கு இடையே பரவக்கூடிய சில உதாரணங்கள் <b>சால்மோனெல்லா, இ.கோலை, காம்பிலோபாக்டர், ரோட்டா வைரஸ், கிரிப்டோஸ்போரிடியா,</b> மற்றும் <b>கியார்டியா</b> தொற்றுகள். இவை அனைத்தும் வெவ்வேறு வகையான கிருமிகள், ஆனால் அவை ஒரே வகையான பரவல் முறையைக் கொண்டு ஒரே மாதிரியான பிரச்சனைகளை ஏற்படுத்துகின்றன.",
+              "ಇವು <b>ಕರುಳಿನ ಮಾರ್ಗವನ್ನು</b> (ಕರುಳು) ಬಾಧಿಸುವ ಝೂನೋಟಿಕ್ ರೋಗಗಳು. ಜಾನುವಾರುಗಳು ಮತ್ತು ಜನರ ನಡುವೆ ಹರಡಬಹುದಾದ ಕೆಲವು ಉದಾಹರಣೆಗಳೆಂದರೆ <b>ಸಾಲ್ಮೊನೆಲ್ಲಾ, ಇ.ಕೊಲಾಯ್, ಕ್ಯಾಂಪಿಲೋಬ್ಯಾಕ್ಟರ್, ರೋಟಾ ವೈರಸ್, ಕ್ರಿಪ್ಟೋಸ್ಪೊರಿಡಿಯಾ,</b> ಮತ್ತು <b>ಗಿಯಾರ್ಡಿಯಾ</b> ಸೋಂಕುಗಳು. ಇವೆಲ್ಲಾ ವಿಭಿನ್ನ ರೀತಿಯ ಸೂಕ್ಷ್ಮಾಣುಗಳಾಗಿವೆ, ಆದರೆ ಅವು ಒಂದೇ ರೀತಿಯ ಹರಡುವಿಕೆಯ ವಿಧಾನವನ್ನು ಹಂಚಿಕೊಳ್ಳುತ್ತವೆ ಮತ್ತು ಇದೇ ರೀತಿಯ ಸಮಸ್ಯೆಗಳನ್ನು ಉಂಟುಮಾಡುತ್ತವೆ.",
+              "ये वे ज़ूनोटिक रोग हैं जो <b>आंत्र मार्ग</b> (आंत) को प्रभावित करते हैं। पशुओं और लोगों के बीच फैल सकने वाले कुछ उदाहरण हैं <b>साल्मोनेला, ई. कोलाई, कैम्पिलोबैक्टर, रोटा वायरस, क्रिप्टोस्पोरिडिया,</b> और <b>जिआर्डिया</b> संक्रमण। ये सभी अलग-अलग प्रकार के कीटाणु हैं, लेकिन इनके फैलने का तरीका एक जैसा है और ये समान समस्याएँ पैदा करते हैं।"
             ),
           },
           {
             type: "glossary",
-            term: L("Faecal-Oral Route"),
+            term: L("Faecal-Oral Route", "మల-నోటి మార్గం", "மல-வாய் பாதை", "ಮಲ-ಬಾಯಿ ಮಾರ್ಗ", "मल-मुख मार्ग"),
             meaning: L(
-              "A way germs spread: tiny, invisible traces of an animal's dung end up on hands, water, or food, and then reach a person's mouth. This is always a possible route of infection wherever people live and work in close contact with cattle, which is common in rural areas."
+              "A way germs spread: tiny, invisible traces of an animal's dung end up on hands, water, or food, and then reach a person's mouth. This is always a possible route of infection wherever people live and work in close contact with cattle, which is common in rural areas.",
+              "క్రిములు వ్యాపించే ఒక మార్గం: జంతువు పేడ యొక్క చిన్న, కనిపించని జాడలు చేతులపై, నీటిలో, లేదా ఆహారంలో ఉండి, తర్వాత వ్యక్తి నోటికి చేరతాయి. గ్రామీణ ప్రాంతాలలో సాధారణమైన, ప్రజలు పశువులతో దగ్గరి సంబంధంలో నివసించి పనిచేసే ప్రతిచోటా ఇది ఎల్లప్పుడూ సంక్రమణకు సాధ్యమైన మార్గం.",
+              "கிருமிகள் பரவும் ஒரு வழி: விலங்கின் சாணத்தின் சிறிய, கண்ணுக்குத் தெரியாத தடயங்கள் கைகளில், தண்ணீரில், அல்லது உணவில் இருந்து பின்னர் ஒரு நபரின் வாயை அடைகின்றன. கிராமப்புறங்களில் பொதுவாக இருப்பது போல, மக்கள் மாடுகளுடன் நெருக்கமாக வாழ்ந்து வேலை செய்யும் எல்லா இடங்களிலும் இது எப்போதும் ஒரு சாத்தியமான தொற்று வழியாகும்.",
+              "ಸೂಕ್ಷ್ಮಾಣುಗಳು ಹರಡುವ ಒಂದು ವಿಧಾನ: ಪ್ರಾಣಿಯ ಸಗಣಿಯ ಚಿಕ್ಕ, ಕಾಣದ ಕುರುಹುಗಳು ಕೈಗಳಲ್ಲಿ, ನೀರಿನಲ್ಲಿ, ಅಥವಾ ಆಹಾರದಲ್ಲಿ ಸೇರಿ, ನಂತರ ವ್ಯಕ್ತಿಯ ಬಾಯಿಯನ್ನು ತಲುಪುತ್ತವೆ. ಗ್ರಾಮೀಣ ಪ್ರದೇಶಗಳಲ್ಲಿ ಸಾಮಾನ್ಯವಾಗಿರುವಂತೆ, ಜನರು ಜಾನುವಾರುಗಳೊಂದಿಗೆ ನಿಕಟ ಸಂಪರ್ಕದಲ್ಲಿ ವಾಸಿಸಿ ಕೆಲಸ ಮಾಡುವ ಎಲ್ಲೆಡೆ ಇದು ಯಾವಾಗಲೂ ಸಂಭಾವ್ಯ ಸೋಂಕಿನ ಮಾರ್ಗವಾಗಿದೆ.",
+              "कीटाणु फैलने का एक तरीका: जानवर के गोबर के छोटे, अदृश्य अंश हाथों, पानी, या भोजन पर लग जाते हैं, और फिर किसी व्यक्ति के मुँह तक पहुँच जाते हैं। यह हमेशा संक्रमण का एक संभावित मार्ग है जहाँ भी लोग पशुओं के नज़दीकी संपर्क में रहते और काम करते हैं, जो ग्रामीण क्षेत्रों में आम है।"
             ),
           },
           {
             type: "callout",
             style: "info",
-            heading: L("Who Is Most at Risk"),
+            heading: L("Who Is Most at Risk", "ఎవరికి ఎక్కువ ప్రమాదం ఉంది", "யாருக்கு அதிக ஆபத்து உள்ளது", "ಯಾರಿಗೆ ಹೆಚ್ಚು ಅಪಾಯವಿದೆ", "किसे सबसे ज़्यादा खतरा है"),
             text: L(
-              "Young children, malnourished people, pregnant women, and anyone whose immune system is already weakened (their body's natural defence against infection) are usually more susceptible to these gut infections than a healthy adult."
+              "Young children, malnourished people, pregnant women, and anyone whose immune system is already weakened (their body's natural defence against infection) are usually more susceptible to these gut infections than a healthy adult.",
+              "చిన్న పిల్లలు, పోషకాహార లోపం ఉన్నవారు, గర్భిణీ స్త్రీలు, మరియు రోగనిరోధక వ్యవస్థ ఇప్పటికే బలహీనంగా ఉన్న ఎవరైనా (సంక్రమణకు వ్యతిరేకంగా వారి శరీరం యొక్క సహజ రక్షణ) సాధారణంగా ఆరోగ్యకరమైన పెద్దవారి కంటే ఈ గట్ సంక్రమణలకు ఎక్కువ గురయ్యే అవకాశం ఉంటుంది.",
+              "சிறு குழந்தைகள், ஊட்டச்சத்து குறைபாடு உள்ளவர்கள், கர்ப்பிணிப் பெண்கள், மற்றும் நோய் எதிர்ப்பு சக்தி ஏற்கனவே பலவீனமாக உள்ள எவரும் (தொற்றுக்கு எதிரான அவர்களின் உடலின் இயற்கையான பாதுகாப்பு) பொதுவாக ஆரோக்கியமான ஒரு பெரியவரை விட இந்த குடல் தொற்றுகளுக்கு அதிகம் ஆளாகக்கூடியவர்கள்.",
+              "ಚಿಕ್ಕ ಮಕ್ಕಳು, ಅಪೌಷ್ಟಿಕತೆ ಇರುವ ಜನರು, ಗರ್ಭಿಣಿಯರು, ಮತ್ತು ರೋಗನಿರೋಧಕ ವ್ಯವಸ್ಥೆ ಈಗಾಗಲೇ ದುರ್ಬಲಗೊಂಡ ಯಾರಾದರೂ (ಸೋಂಕಿನ ವಿರುದ್ಧ ಅವರ ದೇಹದ ಸ್ವಾಭಾವಿಕ ರಕ್ಷಣೆ) ಸಾಮಾನ್ಯವಾಗಿ ಆರೋಗ್ಯವಂತ ವಯಸ್ಕರಿಗಿಂತ ಈ ಕರುಳಿನ ಸೋಂಕುಗಳಿಗೆ ಹೆಚ್ಚು ಒಳಗಾಗುತ್ತಾರೆ.",
+              "छोटे बच्चे, कुपोषित लोग, गर्भवती महिलाएँ, और कोई भी जिसकी रोग प्रतिरोधक क्षमता पहले से कमज़ोर है (संक्रमण के खिलाफ शरीर की प्राकृतिक सुरक्षा) आमतौर पर एक स्वस्थ वयस्क की तुलना में इन आंत संक्रमणों के प्रति ज़्यादा संवेदनशील होते हैं।"
             ),
           },
           {
             type: "stat-grid",
             items: [
               {
-                label: L("Fever and diarrhoea"),
-                text: L("Common early symptoms of gastro-intestinal zoonotic infections."),
+                label: L("Fever and diarrhoea", "జ్వరం మరియు విరేచనాలు", "காய்ச்சல் மற்றும் வயிற்றுப்போக்கு", "ಜ್ವರ ಮತ್ತು ಅತಿಸಾರ", "बुखार और दस्त"),
+                text: L("Common early symptoms of gastro-intestinal zoonotic infections.", "జఠర-ప్రేగు జూనోటిక్ సంక్రమణల సాధారణ ప్రారంభ లక్షణాలు.", "இரைப்பை-குடல் விலங்கு-மனித தொற்றுகளின் பொதுவான ஆரம்ப அறிகுறிகள்.", "ಜಠರ-ಕರುಳಿನ ಝೂನೋಟಿಕ್ ಸೋಂಕುಗಳ ಸಾಮಾನ್ಯ ಆರಂಭಿಕ ಲಕ್ಷಣಗಳು.", "आंत्र-संबंधी ज़ूनोटिक संक्रमणों के सामान्य शुरुआती लक्षण।"),
               },
               {
-                label: L("Loss of appetite and weight loss"),
-                text: L("The person eats less and starts losing weight as the infection continues."),
+                label: L("Loss of appetite and weight loss", "ఆకలి తగ్గడం మరియు బరువు తగ్గడం", "பசியின்மை மற்றும் எடை இழப்பு", "ಹಸಿವು ಕಡಿಮೆಯಾಗುವುದು ಮತ್ತು ತೂಕ ಇಳಿಕೆ", "भूख कम लगना और वज़न कम होना"),
+                text: L("The person eats less and starts losing weight as the infection continues.", "సంక్రమణ కొనసాగుతున్న కొద్దీ వ్యక్తి తక్కువ తింటాడు మరియు బరువు తగ్గడం ప్రారంభిస్తాడు.", "தொற்று தொடரும்போது நபர் குறைவாக சாப்பிட்டு எடை இழக்கத் தொடங்குகிறார்.", "ಸೋಂಕು ಮುಂದುವರಿದಂತೆ ವ್ಯಕ್ತಿ ಕಡಿಮೆ ತಿನ್ನುತ್ತಾನೆ ಮತ್ತು ತೂಕ ಕಳೆದುಕೊಳ್ಳಲು ಪ್ರಾರಂಭಿಸುತ್ತಾನೆ.", "संक्रमण जारी रहने के साथ व्यक्ति कम खाता है और वज़न कम होने लगता है।"),
               },
               {
-                label: L("Dehydration"),
-                text: L("The body loses too much fluid, especially from ongoing diarrhoea — this can become serious if not treated."),
+                label: L("Dehydration", "నిర్జలీకరణం", "நீர்ச்சத்து குறைபாடு", "ನಿರ್ಜಲೀಕರಣ", "निर्जलीकरण"),
+                text: L("The body loses too much fluid, especially from ongoing diarrhoea — this can become serious if not treated.", "శరీరం చాలా ద్రవాన్ని కోల్పోతుంది, ముఖ్యంగా కొనసాగుతున్న విరేచనాల నుండి — చికిత్స చేయకపోతే ఇది తీవ్రమవుతుంది.", "உடல் அதிக அளவு திரவத்தை இழக்கிறது, குறிப்பாக தொடர்ச்சியான வயிற்றுப்போக்கிலிருந்து — சிகிச்சை அளிக்கப்படாவிட்டால் இது தீவிரமாகலாம்.", "ದೇಹ ಹೆಚ್ಚು ದ್ರವವನ್ನು ಕಳೆದುಕೊಳ್ಳುತ್ತದೆ, ವಿಶೇಷವಾಗಿ ಮುಂದುವರಿಯುತ್ತಿರುವ ಅತಿಸಾರದಿಂದ — ಚಿಕಿತ್ಸೆ ನೀಡದಿದ್ದರೆ ಇದು ಗಂಭೀರವಾಗಬಹುದು.", "शरीर बहुत ज़्यादा तरल पदार्थ खो देता है, खासकर लगातार दस्त से — इलाज न होने पर यह गंभीर हो सकता है।"),
               },
             ],
           },
           {
             type: "callout",
             style: "tip",
-            heading: L("How to Protect Yourself"),
+            heading: L("How to Protect Yourself", "మిమ్మల్ని మీరు ఎలా రక్షించుకోవాలి", "உங்களை எவ்வாறு பாதுகாத்துக் கொள்வது", "ನಿಮ್ಮನ್ನು ನೀವು ಹೇಗೆ ರಕ್ಷಿಸಿಕೊಳ್ಳುವುದು", "खुद को कैसे सुरक्षित रखें"),
             text: L(
-              "Wash your hands thoroughly with soap after handling dung, cleaning sheds, or touching cattle — and always before eating or drinking. Keep drinking water covered and protected from contamination by dung or waste. If you, a child, or a pregnant woman in your household develops diarrhoea and fever after contact with cattle or their waste, don't wait it out — see a doctor promptly, especially because dehydration can become serious quickly."
+              "Wash your hands thoroughly with soap after handling dung, cleaning sheds, or touching cattle — and always before eating or drinking. Keep drinking water covered and protected from contamination by dung or waste. If you, a child, or a pregnant woman in your household develops diarrhoea and fever after contact with cattle or their waste, don't wait it out — see a doctor promptly, especially because dehydration can become serious quickly.",
+              "పేడను నిర్వహించిన తర్వాత, షెడ్లను శుభ్రం చేసిన తర్వాత, లేదా పశువులను తాకిన తర్వాత సబ్బుతో మీ చేతులను బాగా కడుక్కోండి — మరియు తినడానికి లేదా తాగడానికి ముందు ఎల్లప్పుడూ. తాగునీటిని కప్పి ఉంచి పేడ లేదా వ్యర్థాల కాలుష్యం నుండి రక్షించండి. మీరు, మీ ఇంట్లో ఒక పిల్లవాడు, లేదా గర్భిణీ స్త్రీకి పశువులు లేదా వాటి వ్యర్థాలతో సంబంధం తర్వాత విరేచనాలు మరియు జ్వరం వస్తే, వేచి ఉండకండి — వెంటనే వైద్యుడిని చూడండి, ముఖ్యంగా నిర్జలీకరణం త్వరగా తీవ్రమవుతుంది కాబట్టి.",
+              "சாணத்தை கையாண்ட பிறகு, கொட்டகைகளை சுத்தம் செய்த பிறகு, அல்லது மாடுகளைத் தொட்ட பிறகு சோப்புடன் உங்கள் கைகளை நன்கு கழுவுங்கள் — மற்றும் சாப்பிடுவதற்கு அல்லது குடிப்பதற்கு முன் எப்போதும். குடிநீரை மூடி வைத்து சாணம் அல்லது கழிவால் கறைபடுவதிலிருந்து பாதுகாக்கவும். உங்கள் வீட்டில் நீங்கள், ஒரு குழந்தை, அல்லது ஒரு கர்ப்பிணிப் பெண் மாடுகள் அல்லது அவற்றின் கழிவுகளுடன் தொடர்புக்குப் பிறகு வயிற்றுப்போக்கு மற்றும் காய்ச்சலை உருவாக்கினால், காத்திருக்காதீர்கள் — உடனடியாக ஒரு மருத்துவரைப் பாருங்கள், குறிப்பாக நீர்ச்சத்து குறைபாடு விரைவில் தீவிரமாகக்கூடும் என்பதால்.",
+              "ಸಗಣಿ ನಿರ್ವಹಿಸಿದ ನಂತರ, ಶೆಡ್‌ಗಳನ್ನು ಸ್ವಚ್ಛಗೊಳಿಸಿದ ನಂತರ, ಅಥವಾ ಜಾನುವಾರುಗಳನ್ನು ಮುಟ್ಟಿದ ನಂತರ ಸಾಬೂನಿನಿಂದ ನಿಮ್ಮ ಕೈಗಳನ್ನು ಸಂಪೂರ್ಣವಾಗಿ ತೊಳೆಯಿರಿ — ಮತ್ತು ತಿನ್ನುವ ಅಥವಾ ಕುಡಿಯುವ ಮೊದಲು ಯಾವಾಗಲೂ. ಕುಡಿಯುವ ನೀರನ್ನು ಮುಚ್ಚಿ ಸಗಣಿ ಅಥವಾ ತ್ಯಾಜ್ಯದಿಂದ ಕಲುಷಿತಗೊಳ್ಳದಂತೆ ರಕ್ಷಿಸಿ. ನಿಮ್ಮ ಮನೆಯಲ್ಲಿ ನೀವು, ಒಂದು ಮಗು, ಅಥವಾ ಗರ್ಭಿಣಿಯೊಬ್ಬರಿಗೆ ಜಾನುವಾರು ಅಥವಾ ಅವುಗಳ ತ್ಯಾಜ್ಯದ ಸಂಪರ್ಕದ ನಂತರ ಅತಿಸಾರ ಮತ್ತು ಜ್ವರ ಬಂದರೆ, ಕಾಯಬೇಡಿ — ತಕ್ಷಣ ವೈದ್ಯರನ್ನು ಭೇಟಿ ಮಾಡಿ, ವಿಶೇಷವಾಗಿ ನಿರ್ಜಲೀಕರಣ ಬೇಗನೆ ಗಂಭೀರವಾಗಬಹುದು ಎಂಬ ಕಾರಣಕ್ಕೆ.",
+              "गोबर संभालने, शेड साफ करने, या पशुओं को छूने के बाद अपने हाथों को साबुन से अच्छी तरह धोएं — और खाने या पीने से पहले हमेशा। पीने के पानी को ढककर रखें और गोबर या अपशिष्ट से दूषित होने से बचाएं। अगर आपके घर में आपको, किसी बच्चे को, या किसी गर्भवती महिला को पशुओं या उनके अपशिष्ट के संपर्क के बाद दस्त और बुखार होता है, तो इंतज़ार न करें — तुरंत डॉक्टर को दिखाएं, खासकर क्योंकि निर्जलीकरण जल्दी गंभीर हो सकता है।"
             ),
           },
         ],
         check: [
           {
             type: "mcq",
-            q: L("What is the 'faecal-oral route' of infection?"),
+            q: L("What is the 'faecal-oral route' of infection?", "సంక్రమణ యొక్క 'మల-నోటి మార్గం' అంటే ఏమిటి?", "தொற்றுநோயின் 'மல-வாய் பாதை' என்றால் என்ன?", "ಸೋಂಕಿನ 'ಮಲ-ಬಾಯಿ ಮಾರ್ಗ' ಎಂದರೇನು?", "संक्रमण का 'मल-मुख मार्ग' क्या है?"),
             options: [
-              L("Germs from an animal's dung reaching a person's mouth, for example through unwashed hands or contaminated water"),
-              L("A germ that only spreads through the air"),
-              L("A type of vaccine given to calves"),
-              L("A way of checking an animal's temperature"),
+              L("Germs from an animal's dung reaching a person's mouth, for example through unwashed hands or contaminated water", "జంతువు పేడ నుండి క్రిములు వ్యక్తి నోటికి చేరడం, ఉదాహరణకు కడగని చేతులు లేదా కలుషితమైన నీటి ద్వారా", "விலங்கின் சாணத்திலிருந்து கிருமிகள் ஒரு நபரின் வாயை அடைவது, உதாரணமாக கழுவப்படாத கைகள் அல்லது கறைபடிந்த தண்ணீர் மூலம்", "ಪ್ರಾಣಿಯ ಸಗಣಿಯಿಂದ ಸೂಕ್ಷ್ಮಾಣುಗಳು ವ್ಯಕ್ತಿಯ ಬಾಯಿಗೆ ತಲುಪುವುದು, ಉದಾಹರಣೆಗೆ ತೊಳೆಯದ ಕೈಗಳು ಅಥವಾ ಕಲುಷಿತ ನೀರಿನ ಮೂಲಕ", "किसी जानवर के गोबर से कीटाणुओं का किसी व्यक्ति के मुँह तक पहुँचना, उदाहरण के लिए बिना धुले हाथों या दूषित पानी के ज़रिए"),
+              L("A germ that only spreads through the air", "గాలి ద్వారా మాత్రమే వ్యాపించే క్రిమి", "காற்றின் மூலம் மட்டும் பரவும் ஒரு கிருமி", "ಗಾಳಿಯ ಮೂಲಕ ಮಾತ್ರ ಹರಡುವ ಸೂಕ್ಷ್ಮಾಣು", "एक ऐसा कीटाणु जो केवल हवा से फैलता है"),
+              L("A type of vaccine given to calves", "దూడలకు ఇచ్చే ఒక రకమైన వ్యాక్సిన్", "கன்றுகளுக்கு கொடுக்கப்படும் ஒரு வகை தடுப்பூசி", "ಕರುಗಳಿಗೆ ನೀಡುವ ಒಂದು ರೀತಿಯ ಲಸಿಕೆ", "बछड़ों को दिया जाने वाला एक प्रकार का टीका"),
+              L("A way of checking an animal's temperature", "జంతువు ఉష్ణోగ్రతను తనిఖీ చేసే ఒక మార్గం", "ஒரு விலங்கின் வெப்பநிலையை சரிபார்க்கும் ஒரு வழி", "ಪ್ರಾಣಿಯ ಉಷ್ಣತೆಯನ್ನು ಪರಿಶೀಲಿಸುವ ಒಂದು ವಿಧಾನ", "किसी जानवर का तापमान जाँचने का एक तरीका"),
             ],
             answer: 0,
-            explain: L("The faecal-oral route means traces of dung reach a person's mouth, usually through unwashed hands, contaminated water, or food."),
+            explain: L("The faecal-oral route means traces of dung reach a person's mouth, usually through unwashed hands, contaminated water, or food.", "మల-నోటి మార్గం అంటే పేడ జాడలు వ్యక్తి నోటికి చేరడం, సాధారణంగా కడగని చేతులు, కలుషితమైన నీరు, లేదా ఆహారం ద్వారా.", "மல-வாய் பாதை என்றால் சாணத்தின் தடயங்கள் ஒரு நபரின் வாயை அடைவது, பொதுவாக கழுவப்படாத கைகள், கறைபடிந்த தண்ணீர், அல்லது உணவு மூலம்.", "ಮಲ-ಬಾಯಿ ಮಾರ್ಗ ಎಂದರೆ ಸಗಣಿಯ ಕುರುಹುಗಳು ವ್ಯಕ್ತಿಯ ಬಾಯಿಯನ್ನು ತಲುಪುವುದು, ಸಾಮಾನ್ಯವಾಗಿ ತೊಳೆಯದ ಕೈಗಳು, ಕಲುಷಿತ ನೀರು, ಅಥವಾ ಆಹಾರದ ಮೂಲಕ.", "मल-मुख मार्ग का मतलब है गोबर के अंश किसी व्यक्ति के मुँह तक पहुँचना, आमतौर पर बिना धुले हाथों, दूषित पानी, या भोजन के ज़रिए।"),
           },
           {
             type: "truefalse",
-            q: L("Young children, malnourished people, and pregnant women are usually more susceptible to gastro-intestinal zoonotic diseases."),
+            q: L("Young children, malnourished people, and pregnant women are usually more susceptible to gastro-intestinal zoonotic diseases.", "చిన్న పిల్లలు, పోషకాహార లోపం ఉన్నవారు, మరియు గర్భిణీ స్త్రీలు సాధారణంగా జఠర-ప్రేగు జూనోటిక్ వ్యాధులకు ఎక్కువ గురయ్యే అవకాశం ఉంటుంది.", "சிறு குழந்தைகள், ஊட்டச்சத்து குறைபாடு உள்ளவர்கள், மற்றும் கர்ப்பிணிப் பெண்கள் பொதுவாக இரைப்பை-குடல் விலங்கு-மனித நோய்களுக்கு அதிகம் ஆளாகக்கூடியவர்கள்.", "ಚಿಕ್ಕ ಮಕ್ಕಳು, ಅಪೌಷ್ಟಿಕತೆ ಇರುವ ಜನರು, ಮತ್ತು ಗರ್ಭಿಣಿಯರು ಸಾಮಾನ್ಯವಾಗಿ ಜಠರ-ಕರುಳಿನ ಝೂನೋಟಿಕ್ ರೋಗಗಳಿಗೆ ಹೆಚ್ಚು ಒಳಗಾಗುತ್ತಾರೆ.", "छोटे बच्चे, कुपोषित लोग, और गर्भवती महिलाएँ आमतौर पर आंत्र-संबंधी ज़ूनोटिक रोगों के प्रति ज़्यादा संवेदनशील होती हैं।"),
             answer: true,
-            explain: L("Correct — these groups are more vulnerable, so extra care with hygiene matters even more when they are around cattle or cattle waste."),
+            explain: L("Correct — these groups are more vulnerable, so extra care with hygiene matters even more when they are around cattle or cattle waste.", "సరైనది — ఈ సమూహాలు ఎక్కువ దుర్బలత్వం కలిగి ఉంటాయి, కాబట్టి అవి పశువులు లేదా పశు వ్యర్థాల చుట్టూ ఉన్నప్పుడు పరిశుభ్రతతో అదనపు జాగ్రత్త మరింత ముఖ్యం.", "சரியானது — இந்த குழுக்கள் அதிக பாதிப்புக்குள்ளாகக்கூடியவை, எனவே அவர்கள் மாடுகள் அல்லது மாட்டு கழிவுகளைச் சுற்றி இருக்கும்போது சுகாதாரத்துடன் கூடுதல் கவனம் இன்னும் முக்கியமாகிறது.", "ಸರಿ — ಈ ಗುಂಪುಗಳು ಹೆಚ್ಚು ದುರ್ಬಲವಾಗಿವೆ, ಆದ್ದರಿಂದ ಅವರು ಜಾನುವಾರುಗಳ ಅಥವಾ ಜಾನುವಾರು ತ್ಯಾಜ್ಯದ ಸುತ್ತಮುತ್ತ ಇರುವಾಗ ನೈರ್ಮಲ್ಯದ ಬಗ್ಗೆ ಹೆಚ್ಚುವರಿ ಕಾಳಜಿ ಇನ್ನಷ್ಟು ಮುಖ್ಯವಾಗುತ್ತದೆ.", "सही — ये समूह ज़्यादा संवेदनशील होते हैं, इसलिए जब वे पशुओं या पशु अपशिष्ट के आसपास हों तो स्वच्छता का अतिरिक्त ध्यान रखना और भी महत्वपूर्ण हो जाता है।"),
           },
         ],
       },
       {
         id: "t-m11-tick-borne",
-        title: L("Tick-Borne Zoonotic Diseases and Protecting Yourself"),
+        title: L("Tick-Borne Zoonotic Diseases and Protecting Yourself", "పేనుల ద్వారా వ్యాపించే జూనోటిక్ వ్యాధులు మరియు మిమ్మల్ని మీరు రక్షించుకోవడం", "ஈறு மூலம் பரவும் விலங்கு-மனித நோய்கள் மற்றும் உங்களைப் பாதுகாத்துக் கொள்ளுதல்", "ಉಣ್ಣಿಯಿಂದ ಹರಡುವ ಝೂನೋಟಿಕ್ ರೋಗಗಳು ಮತ್ತು ನಿಮ್ಮನ್ನು ರಕ್ಷಿಸಿಕೊಳ್ಳುವುದು", "किलनी से फैलने वाले ज़ूनोटिक रोग और खुद को सुरक्षित रखना"),
         teach: [
             {
               type: "photo",
               src: "assets/photo-m11-tick-specimen.jpg",
-              alt: L("Close-up photograph of two cattle ticks (Rhipicephalus microplus), female (left) and male (right), on a plain background"),
-              caption: L("Ticks like these attach to cattle skin to feed on blood and can carry the germs behind tick-borne zoonotic diseases."),
+              alt: L("Close-up photograph of two cattle ticks (Rhipicephalus microplus), female (left) and male (right), on a plain background", "రెండు పశువుల పేనుల (రిపిసెఫలస్ మైక్రోప్లస్), ఆడ (ఎడమ) మరియు మగ (కుడి) యొక్క క్లోజప్ ఫోటో, సాదా నేపథ్యంలో", "இரண்டு மாட்டு ஈறுகளின் (ரிபிசெபாலஸ் மைக்ரோபிளஸ்), பெண் (இடது) மற்றும் ஆண் (வலது) நெருக்கமான புகைப்படம், வெற்று பின்னணியில்", "ಎರಡು ಜಾನುವಾರು ಉಣ್ಣಿಗಳ (ರಿಪಿಸೆಫಲಸ್ ಮೈಕ್ರೋಪ್ಲಸ್), ಹೆಣ್ಣು (ಎಡ) ಮತ್ತು ಗಂಡು (ಬಲ) ಸಮೀಪ ಛಾಯಾಚಿತ್ರ, ಸರಳ ಹಿನ್ನೆಲೆಯಲ್ಲಿ", "दो पशु किलनियों (रिपिसेफलस माइक्रोप्लस), मादा (बाएं) और नर (दाएं) की सादे पृष्ठभूमि पर क्लोज़-अप तस्वीर"),
+              caption: L("Ticks like these attach to cattle skin to feed on blood and can carry the germs behind tick-borne zoonotic diseases.", "ఇలాంటి పేనులు రక్తాన్ని తినడానికి పశువుల చర్మానికి అతుక్కుంటాయి మరియు పేనుల ద్వారా వ్యాపించే జూనోటిక్ వ్యాధులకు కారణమయ్యే క్రిములను మోసుకెళ్లగలవు.", "இது போன்ற ஈறுகள் இரத்தத்தை உண்ண மாட்டு தோலில் ஒட்டிக்கொள்கின்றன மற்றும் ஈறு மூலம் பரவும் விலங்கு-மனித நோய்களுக்குப் பின்னால் உள்ள கிருமிகளை சுமக்கக்கூடும்.", "ಇಂತಹ ಉಣ್ಣಿಗಳು ರಕ್ತ ಹೀರಲು ಜಾನುವಾರು ಚರ್ಮಕ್ಕೆ ಅಂಟಿಕೊಳ್ಳುತ್ತವೆ ಮತ್ತು ಉಣ್ಣಿಯಿಂದ ಹರಡುವ ಝೂನೋಟಿಕ್ ರೋಗಗಳ ಹಿಂದಿನ ಸೂಕ್ಷ್ಮಾಣುಗಳನ್ನು ಹೊತ್ತೊಯ್ಯಬಹುದು.", "इस तरह की किलनियाँ खून चूसने के लिए पशु की त्वचा से चिपक जाती हैं और किलनी-जनित ज़ूनोटिक रोगों के पीछे के कीटाणुओं को ढो सकती हैं।"),
             },
           {
             type: "text",
-            heading: L("What Are Tick-Borne Zoonotic Diseases?"),
+            heading: L("What Are Tick-Borne Zoonotic Diseases?", "పేనుల ద్వారా వ్యాపించే జూనోటిక్ వ్యాధులు అంటే ఏమిటి?", "ஈறு மூலம் பரவும் விலங்கு-மனித நோய்கள் என்றால் என்ன?", "ಉಣ್ಣಿಯಿಂದ ಹರಡುವ ಝೂನೋಟಿಕ್ ರೋಗಗಳು ಎಂದರೇನು?", "किलनी से फैलने वाले ज़ूनोटिक रोग क्या हैं?"),
             html: L(
-              "A <b>tick</b> is a tiny parasite that attaches to an animal's skin and feeds on its blood. Ticks can carry germs from one animal (or person) to another. Tick-borne zoonotic infections have been reported from various regions of the country. Examples include <b>Babesiosis</b>, <b>Rickettsial infections</b>, and <b>Crimean Congo Haemorrhagic Fever (CCHF)</b>."
+              "A <b>tick</b> is a tiny parasite that attaches to an animal's skin and feeds on its blood. Ticks can carry germs from one animal (or person) to another. Tick-borne zoonotic infections have been reported from various regions of the country. Examples include <b>Babesiosis</b>, <b>Rickettsial infections</b>, and <b>Crimean Congo Haemorrhagic Fever (CCHF)</b>.",
+              "<b>పేను</b> అనేది జంతువు చర్మానికి అతుక్కుని దాని రక్తాన్ని తినే ఒక చిన్న పరాన్నజీవి. పేనులు ఒక జంతువు (లేదా వ్యక్తి) నుండి మరొకదానికి క్రిములను మోసుకెళ్లగలవు. దేశంలోని వివిధ ప్రాంతాల నుండి పేనుల ద్వారా వ్యాపించే జూనోటిక్ సంక్రమణలు నివేదించబడ్డాయి. ఉదాహరణలలో <b>బాబెసియోసిస్</b>, <b>రికెట్సియల్ సంక్రమణలు</b>, మరియు <b>క్రిమియన్ కాంగో హెమరేజిక్ ఫీవర్ (CCHF)</b> ఉన్నాయి.",
+              "<b>ஈறு</b> என்பது ஒரு விலங்கின் தோலில் ஒட்டிக்கொண்டு அதன் இரத்தத்தை உண்ணும் ஒரு சிறிய ஒட்டுண்ணி. ஈறுகள் ஒரு விலங்கிலிருந்து (அல்லது நபரிடமிருந்து) மற்றொன்றுக்கு கிருமிகளை சுமக்கக்கூடும். நாட்டின் பல்வேறு பகுதிகளில் ஈறு மூலம் பரவும் விலங்கு-மனித தொற்றுகள் பதிவாகியுள்ளன. உதாரணங்களில் <b>பேபீசியோசிஸ்</b>, <b>ரிக்கெட்சியல் தொற்றுகள்</b>, மற்றும் <b>கிரிமியன் காங்கோ ரத்தக்கசிவு காய்ச்சல் (CCHF)</b> அடங்கும்.",
+              "<b>ಉಣ್ಣಿ</b> ಎಂದರೆ ಪ್ರಾಣಿಯ ಚರ್ಮಕ್ಕೆ ಅಂಟಿಕೊಂಡು ಅದರ ರಕ್ತವನ್ನು ಹೀರುವ ಒಂದು ಚಿಕ್ಕ ಪರಾವಲಂಬಿ. ಉಣ್ಣಿಗಳು ಒಂದು ಪ್ರಾಣಿಯಿಂದ (ಅಥವಾ ವ್ಯಕ್ತಿಯಿಂದ) ಇನ್ನೊಂದಕ್ಕೆ ಸೂಕ್ಷ್ಮಾಣುಗಳನ್ನು ಹೊತ್ತೊಯ್ಯಬಹುದು. ದೇಶದ ವಿವಿಧ ಪ್ರದೇಶಗಳಿಂದ ಉಣ್ಣಿಯಿಂದ ಹರಡುವ ಝೂನೋಟಿಕ್ ಸೋಂಕುಗಳು ವರದಿಯಾಗಿವೆ. ಉದಾಹರಣೆಗಳಲ್ಲಿ <b>ಬ್ಯಾಬಿಸಿಯೋಸಿಸ್</b>, <b>ರಿಕೆಟ್ಸಿಯಲ್ ಸೋಂಕುಗಳು</b>, ಮತ್ತು <b>ಕ್ರಿಮಿಯನ್ ಕಾಂಗೋ ಹೆಮರೇಜಿಕ್ ಜ್ವರ (CCHF)</b> ಸೇರಿವೆ.",
+              "<b>किलनी</b> एक छोटा परजीवी है जो किसी जानवर की त्वचा से चिपक जाता है और उसका खून पीता है। किलनियाँ एक जानवर (या व्यक्ति) से दूसरे में कीटाणु ले जा सकती हैं। देश के विभिन्न क्षेत्रों से किलनी-जनित ज़ूनोटिक संक्रमण दर्ज किए गए हैं। उदाहरणों में <b>बेबीसियोसिस</b>, <b>रिकेट्सियल संक्रमण</b>, और <b>क्रीमियन कांगो रक्तस्रावी बुखार (CCHF)</b> शामिल हैं।"
             ),
           },
           {
             type: "glossary",
-            term: L("Tick"),
-            meaning: L("A small, blood-feeding parasite that attaches itself to an animal's skin. Besides feeding, a tick can carry disease-causing germs from one host to another."),
+            term: L("Tick", "పేను", "ஈறு", "ಉಣ್ಣಿ", "किलनी"),
+            meaning: L("A small, blood-feeding parasite that attaches itself to an animal's skin. Besides feeding, a tick can carry disease-causing germs from one host to another.", "జంతువు చర్మానికి అతుక్కునే చిన్న, రక్తాన్ని తినే పరాన్నజీవి. తినడమే కాకుండా, పేను ఒక ఆశ్రయం నుండి మరొకదానికి వ్యాధి కలిగించే క్రిములను మోసుకెళ్లగలదు.", "ஒரு விலங்கின் தோலில் ஒட்டிக்கொள்ளும் சிறிய, இரத்தம் உண்ணும் ஒட்டுண்ணி. உணவை உண்பதைத் தவிர, ஒரு ஈறு ஒரு புரவலரிலிருந்து மற்றொருவருக்கு நோய்-ஏற்படுத்தும் கிருமிகளை சுமக்கக்கூடும்.", "ಪ್ರಾಣಿಯ ಚರ್ಮಕ್ಕೆ ಅಂಟಿಕೊಳ್ಳುವ ಚಿಕ್ಕ, ರಕ್ತ-ಹೀರುವ ಪರಾವಲಂಬಿ. ತಿನ್ನುವುದರ ಹೊರತಾಗಿ, ಉಣ್ಣಿ ಒಂದು ಆಶ್ರಯದಾತನಿಂದ ಇನ್ನೊಂದಕ್ಕೆ ರೋಗ-ಉಂಟುಮಾಡುವ ಸೂಕ್ಷ್ಮಾಣುಗಳನ್ನು ಹೊತ್ತೊಯ್ಯಬಹುದು.", "एक छोटा, खून चूसने वाला परजीवी जो किसी जानवर की त्वचा से खुद को चिपका लेता है। खून चूसने के अलावा, किलनी एक मेज़बान से दूसरे में रोग पैदा करने वाले कीटाणु ले जा सकती है।"),
           },
           {
             type: "callout",
             style: "warning",
-            heading: L("Hard to Spot"),
+            heading: L("Hard to Spot", "గుర్తించడం కష్టం", "கண்டறிவது கடினம்", "ಗುರುತಿಸಲು ಕಷ್ಟ", "पहचानना मुश्किल"),
             text: L(
-              "Tick-borne infections can be difficult to diagnose because their signs and symptoms are non-specific — meaning they can look similar to many other common illnesses. The risk is real wherever people live and work in close proximity to cattle carrying moderate to high numbers of ticks."
+              "Tick-borne infections can be difficult to diagnose because their signs and symptoms are non-specific — meaning they can look similar to many other common illnesses. The risk is real wherever people live and work in close proximity to cattle carrying moderate to high numbers of ticks.",
+              "పేనుల ద్వారా వ్యాపించే సంక్రమణలను నిర్ధారించడం కష్టంగా ఉంటుంది ఎందుకంటే వాటి సంకేతాలు మరియు లక్షణాలు నిర్దిష్టం కాదు — అంటే అవి అనేక ఇతర సాధారణ అనారోగ్యాల మాదిరిగానే కనిపించవచ్చు. మధ్యస్థం నుండి అధిక సంఖ్యలో పేనులు ఉన్న పశువులతో దగ్గరగా ప్రజలు నివసించి పనిచేసే ప్రతిచోటా ఈ ప్రమాదం నిజమైనది.",
+              "ஈறு மூலம் பரவும் தொற்றுகள் கண்டறிவது கடினமாக இருக்கலாம் ஏனெனில் அவற்றின் அறிகுறிகள் குறிப்பிட்டவை அல்ல — அதாவது அவை பல பிற பொதுவான நோய்களைப் போலவே தோன்றலாம். மிதமான முதல் அதிக எண்ணிக்கையிலான ஈறுகளைச் சுமக்கும் மாடுகளுக்கு நெருக்கமாக மக்கள் வாழ்ந்து வேலை செய்யும் எல்லா இடங்களிலும் இந்த ஆபத்து உண்மையானது.",
+              "ಉಣ್ಣಿಯಿಂದ ಹರಡುವ ಸೋಂಕುಗಳನ್ನು ಪತ್ತೆ ಮಾಡುವುದು ಕಷ್ಟವಾಗಬಹುದು ಏಕೆಂದರೆ ಅವುಗಳ ಚಿಹ್ನೆಗಳು ಮತ್ತು ಲಕ್ಷಣಗಳು ನಿರ್ದಿಷ್ಟವಲ್ಲ — ಅಂದರೆ ಅವು ಅನೇಕ ಇತರ ಸಾಮಾನ್ಯ ಕಾಯಿಲೆಗಳಂತೆ ಕಾಣಿಸಬಹುದು. ಮಧ್ಯಮದಿಂದ ಹೆಚ್ಚಿನ ಸಂಖ್ಯೆಯ ಉಣ್ಣಿಗಳನ್ನು ಹೊತ್ತಿರುವ ಜಾನುವಾರುಗಳ ಸಮೀಪದಲ್ಲಿ ಜನರು ವಾಸಿಸಿ ಕೆಲಸ ಮಾಡುವ ಎಲ್ಲೆಡೆ ಅಪಾಯ ನಿಜವಾಗಿದೆ.",
+              "किलनी-जनित संक्रमणों का निदान करना मुश्किल हो सकता है क्योंकि उनके लक्षण अस्पष्ट होते हैं — मतलब वे कई अन्य सामान्य बीमारियों जैसे दिख सकते हैं। जहाँ कहीं भी लोग मध्यम से उच्च संख्या में किलनी वाले पशुओं के नज़दीक रहते और काम करते हैं, वहाँ यह खतरा वास्तविक है।"
             ),
           },
           {
             type: "stat-grid",
             items: [
-              { label: L("Babesiosis"), text: L("One of the tick-borne infections reported in areas where people live close to cattle.") },
-              { label: L("Rickettsial infections"), text: L("Another group of tick-borne infections reported in the country.") },
-              { label: L("Crimean Congo Haemorrhagic Fever (CCHF)"), text: L("A more serious tick-borne infection also seen in some regions.") },
+              { label: L("Babesiosis", "బాబెసియోసిస్", "பேபீசியோசிஸ்", "ಬ್ಯಾಬಿಸಿಯೋಸಿಸ್", "बेबीसियोसिस"), text: L("One of the tick-borne infections reported in areas where people live close to cattle.", "ప్రజలు పశువులకు దగ్గరగా నివసించే ప్రాంతాలలో నివేదించబడిన పేనుల ద్వారా వ్యాపించే సంక్రమణలలో ఒకటి.", "மக்கள் மாடுகளுக்கு அருகில் வாழும் பகுதிகளில் பதிவாகியுள்ள ஈறு மூலம் பரவும் தொற்றுகளில் ஒன்று.", "ಜನರು ಜಾನುವಾರುಗಳ ಸಮೀಪ ವಾಸಿಸುವ ಪ್ರದೇಶಗಳಲ್ಲಿ ವರದಿಯಾದ ಉಣ್ಣಿಯಿಂದ ಹರಡುವ ಸೋಂಕುಗಳಲ್ಲಿ ಒಂದು.", "उन क्षेत्रों में दर्ज की गई किलनी-जनित संक्रमणों में से एक जहाँ लोग पशुओं के नज़दीक रहते हैं।") },
+              { label: L("Rickettsial infections", "రికెట్సియల్ సంక్రమణలు", "ரிக்கெட்சியல் தொற்றுகள்", "ರಿಕೆಟ್ಸಿಯಲ್ ಸೋಂಕುಗಳು", "रिकेट्सियल संक्रमण"), text: L("Another group of tick-borne infections reported in the country.", "దేశంలో నివేదించబడిన పేనుల ద్వారా వ్యాపించే సంక్రమణల మరొక సమూహం.", "நாட்டில் பதிவாகியுள்ள ஈறு மூலம் பரவும் தொற்றுகளின் மற்றொரு குழு.", "ದೇಶದಲ್ಲಿ ವರದಿಯಾದ ಉಣ್ಣಿಯಿಂದ ಹರಡುವ ಸೋಂಕುಗಳ ಇನ್ನೊಂದು ಗುಂಪು.", "देश में दर्ज की गई किलनी-जनित संक्रमणों का एक और समूह।") },
+              { label: L("Crimean Congo Haemorrhagic Fever (CCHF)", "క్రిమియన్ కాంగో హెమరేజిక్ ఫీవర్ (CCHF)", "கிரிமியன் காங்கோ ரத்தக்கசிவு காய்ச்சல் (CCHF)", "ಕ್ರಿಮಿಯನ್ ಕಾಂಗೋ ಹೆಮರೇಜಿಕ್ ಜ್ವರ (CCHF)", "क्रीमियन कांगो रक्तस्रावी बुखार (CCHF)"), text: L("A more serious tick-borne infection also seen in some regions.", "కొన్ని ప్రాంతాలలో కూడా కనిపించే మరింత తీవ్రమైన పేనుల ద్వారా వ్యాపించే సంక్రమణ.", "சில பகுதிகளிலும் காணப்படும் இன்னும் தீவிரமான ஈறு மூலம் பரவும் தொற்று.", "ಕೆಲವು ಪ್ರದೇಶಗಳಲ್ಲಿಯೂ ಕಂಡುಬರುವ ಹೆಚ್ಚು ಗಂಭೀರವಾದ ಉಣ್ಣಿಯಿಂದ ಹರಡುವ ಸೋಂಕು.", "कुछ क्षेत्रों में भी देखा जाने वाला एक अधिक गंभीर किलनी-जनित संक्रमण।") },
             ],
           },
           {
             type: "callout",
             style: "tip",
-            heading: L("How to Protect Yourself From Ticks"),
+            heading: L("How to Protect Yourself From Ticks", "పేనుల నుండి మిమ్మల్ని మీరు ఎలా రక్షించుకోవాలి", "ஈறுகளிலிருந்து உங்களை எவ்வாறு பாதுகாத்துக் கொள்வது", "ಉಣ್ಣಿಗಳಿಂದ ನಿಮ್ಮನ್ನು ಹೇಗೆ ರಕ್ಷಿಸಿಕೊಳ್ಳುವುದು", "किलनियों से खुद को कैसे सुरक्षित रखें"),
             text: L(
-              "Try to keep the number of ticks on your cattle and in their sheds as low as possible. After handling animals with moderate to high tick loads, check your own skin and clothing for ticks, and remove any you find carefully. Wash your hands and any exposed skin afterward. If you develop an unexplained fever after close contact with a heavily tick-infested animal, tell your doctor about that contact."
+              "Try to keep the number of ticks on your cattle and in their sheds as low as possible. After handling animals with moderate to high tick loads, check your own skin and clothing for ticks, and remove any you find carefully. Wash your hands and any exposed skin afterward. If you develop an unexplained fever after close contact with a heavily tick-infested animal, tell your doctor about that contact.",
+              "మీ పశువులపై మరియు వాటి షెడ్లలో పేనుల సంఖ్యను వీలైనంత తక్కువగా ఉంచడానికి ప్రయత్నించండి. మధ్యస్థం నుండి అధిక పేనుల భారం ఉన్న జంతువులను నిర్వహించిన తర్వాత, మీ స్వంత చర్మం మరియు దుస్తులను పేనుల కోసం తనిఖీ చేయండి, మరియు మీకు కనిపించిన వాటిని జాగ్రత్తగా తొలగించండి. తర్వాత మీ చేతులు మరియు బహిర్గతమైన చర్మాన్ని కడుక్కోండి. అధికంగా పేనుల బారిన పడిన జంతువుతో దగ్గరి సంబంధం తర్వాత మీకు వివరించలేని జ్వరం వస్తే, ఆ సంబంధం గురించి మీ వైద్యుడికి చెప్పండి.",
+              "உங்கள் மாடுகளிலும் அவற்றின் கொட்டகைகளிலும் உள்ள ஈறுகளின் எண்ணிக்கையை முடிந்தவரை குறைவாக வைத்திருக்க முயற்சிக்கவும். மிதமான முதல் அதிக ஈறு சுமை உள்ள விலங்குகளை கையாண்ட பிறகு, உங்கள் சொந்த தோல் மற்றும் ஆடைகளில் ஈறுகள் உள்ளதா என சரிபார்த்து, நீங்கள் கண்டவற்றை கவனமாக அகற்றவும். பின்னர் உங்கள் கைகளையும் வெளிப்பட்ட தோலையும் கழுவுங்கள். அதிக ஈறு தொற்று உள்ள ஒரு விலங்குடன் நெருங்கிய தொடர்புக்குப் பிறகு விளக்கமுடியாத காய்ச்சல் ஏற்பட்டால், அந்த தொடர்பைப் பற்றி உங்கள் மருத்துவரிடம் தெரிவிக்கவும்.",
+              "ನಿಮ್ಮ ಜಾನುವಾರುಗಳ ಮೇಲೆ ಮತ್ತು ಅವುಗಳ ಶೆಡ್‌ಗಳಲ್ಲಿ ಉಣ್ಣಿಗಳ ಸಂಖ್ಯೆಯನ್ನು ಸಾಧ್ಯವಾದಷ್ಟು ಕಡಿಮೆ ಇಡಲು ಪ್ರಯತ್ನಿಸಿ. ಮಧ್ಯಮದಿಂದ ಹೆಚ್ಚಿನ ಉಣ್ಣಿ ಹೊರೆ ಇರುವ ಪ್ರಾಣಿಗಳನ್ನು ನಿರ್ವಹಿಸಿದ ನಂತರ, ನಿಮ್ಮ ಸ್ವಂತ ಚರ್ಮ ಮತ್ತು ಬಟ್ಟೆಗಳಲ್ಲಿ ಉಣ್ಣಿಗಳಿಗಾಗಿ ಪರಿಶೀಲಿಸಿ, ಮತ್ತು ನೀವು ಕಂಡುಕೊಂಡವುಗಳನ್ನು ಎಚ್ಚರಿಕೆಯಿಂದ ತೆಗೆದುಹಾಕಿ. ನಂತರ ನಿಮ್ಮ ಕೈಗಳನ್ನು ಮತ್ತು ಒಡ್ಡಿಕೊಂಡ ಚರ್ಮವನ್ನು ತೊಳೆಯಿರಿ. ಭಾರೀ ಉಣ್ಣಿ-ಬಾಧಿತ ಪ್ರಾಣಿಯೊಂದಿಗೆ ನಿಕಟ ಸಂಪರ್ಕದ ನಂತರ ನಿಮಗೆ ವಿವರಿಸಲಾಗದ ಜ್ವರ ಬಂದರೆ, ಆ ಸಂಪರ್ಕದ ಬಗ್ಗೆ ನಿಮ್ಮ ವೈದ್ಯರಿಗೆ ತಿಳಿಸಿ.",
+              "अपने पशुओं और उनके शेड में किलनियों की संख्या को जितना हो सके कम रखने की कोशिश करें। मध्यम से उच्च किलनी भार वाले जानवरों को संभालने के बाद, अपनी त्वचा और कपड़ों की किलनियों के लिए जाँच करें, और जो भी मिले उन्हें सावधानी से हटाएं। इसके बाद अपने हाथों और किसी भी खुली त्वचा को धो लें। अगर किलनी से भारी संक्रमित जानवर के नज़दीकी संपर्क के बाद आपको बिना किसी कारण बुखार हो जाए, तो अपने डॉक्टर को उस संपर्क के बारे में बताएं।"
             ),
           },
           {
             type: "callout",
             style: "info",
-            heading: L("The Same Rule as Always"),
+            heading: L("The Same Rule as Always", "ఎప్పటిలానే అదే నియమం", "எப்போதும் போலவே அதே விதி", "ಯಾವಾಗಲೂ ಇರುವ ಅದೇ ನಿಯಮ", "हमेशा की तरह वही नियम"),
             text: L(
-              "Just as you notice something wrong in an animal and report it rather than guessing what disease it is, do the same for yourself: notice anything unusual in your own health, mention your daily animal contact to a doctor, and get it checked promptly. Zoonotic diseases can be cured if diagnosed and treated in time."
+              "Just as you notice something wrong in an animal and report it rather than guessing what disease it is, do the same for yourself: notice anything unusual in your own health, mention your daily animal contact to a doctor, and get it checked promptly. Zoonotic diseases can be cured if diagnosed and treated in time.",
+              "జంతువులో ఏదో తప్పు జరిగిందని మీరు గమనించి, ఏ వ్యాధి అని ఊహించకుండా దానిని నివేదించినట్లుగానే, మీ కోసం కూడా అదే చేయండి: మీ స్వంత ఆరోగ్యంలో అసాధారణమైనది ఏదైనా గమనించండి, మీ రోజువారీ జంతు సంబంధాన్ని వైద్యుడికి తెలియజేయండి, మరియు వెంటనే తనిఖీ చేయించుకోండి. జూనోటిక్ వ్యాధులను సకాలంలో నిర్ధారించి చికిత్స చేస్తే నయం చేయవచ్చు.",
+              "ஒரு விலங்கில் ஏதோ தவறு இருப்பதை நீங்கள் கவனித்து, என்ன நோய் என்று யூகிக்காமல் அதைத் தெரிவிப்பது போலவே, உங்களுக்காகவும் அதையே செய்யுங்கள்: உங்கள் சொந்த ஆரோக்கியத்தில் அசாதாரணமான எதையும் கவனித்து, உங்கள் அன்றாட விலங்கு தொடர்பை ஒரு மருத்துவரிடம் தெரிவித்து, உடனடியாக பரிசோதிக்கவும். விலங்கு-மனித நோய்களை சரியான நேரத்தில் கண்டறிந்து சிகிச்சை அளித்தால் குணப்படுத்த முடியும்.",
+              "ಒಂದು ಪ್ರಾಣಿಯಲ್ಲಿ ಏನೋ ತಪ್ಪಾಗಿದೆ ಎಂದು ನೀವು ಗಮನಿಸಿ, ಅದು ಯಾವ ರೋಗ ಎಂದು ಊಹಿಸದೆ ವರದಿ ಮಾಡುವಂತೆಯೇ, ನಿಮಗಾಗಿಯೂ ಅದನ್ನೇ ಮಾಡಿ: ನಿಮ್ಮ ಸ್ವಂತ ಆರೋಗ್ಯದಲ್ಲಿ ಅಸಾಮಾನ್ಯವಾದುದನ್ನು ಗಮನಿಸಿ, ನಿಮ್ಮ ದೈನಂದಿನ ಪ್ರಾಣಿ ಸಂಪರ್ಕವನ್ನು ವೈದ್ಯರಿಗೆ ತಿಳಿಸಿ, ಮತ್ತು ತಕ್ಷಣ ಪರೀಕ್ಷಿಸಿಕೊಳ್ಳಿ. ಝೂನೋಟಿಕ್ ರೋಗಗಳನ್ನು ಸಮಯಕ್ಕೆ ಪತ್ತೆ ಮಾಡಿ ಚಿಕಿತ್ಸೆ ನೀಡಿದರೆ ಗುಣಪಡಿಸಬಹುದು.",
+              "जैसे आप किसी जानवर में कुछ गलत देखते हैं और यह अनुमान लगाए बिना कि यह कौन सी बीमारी है, उसकी सूचना देते हैं, वैसे ही खुद के लिए भी करें: अपने स्वास्थ्य में कुछ भी असामान्य नज़र आए तो उसे नोटिस करें, डॉक्टर को अपने रोज़ाना जानवरों के संपर्क के बारे में बताएं, और तुरंत जाँच कराएं। ज़ूनोटिक रोगों का समय पर निदान और इलाज किया जाए तो उन्हें ठीक किया जा सकता है।"
             ),
           },
         ],
         check: [
           {
             type: "mcq",
-            q: L("Why can tick-borne zoonotic infections be hard to diagnose?"),
+            q: L("Why can tick-borne zoonotic infections be hard to diagnose?", "పేనుల ద్వారా వ్యాపించే జూనోటిక్ సంక్రమణలను నిర్ధారించడం ఎందుకు కష్టంగా ఉంటుంది?", "ஈறு மூலம் பரவும் விலங்கு-மனித தொற்றுகள் கண்டறிவது ஏன் கடினமாக இருக்கலாம்?", "ಉಣ್ಣಿಯಿಂದ ಹರಡುವ ಝೂನೋಟಿಕ್ ಸೋಂಕುಗಳನ್ನು ಪತ್ತೆ ಮಾಡುವುದು ಏಕೆ ಕಷ್ಟ?", "किलनी-जनित ज़ूनोटिक संक्रमणों का निदान करना मुश्किल क्यों हो सकता है?"),
             options: [
               L("Because ticks are too small to see at all"),
               L("Because their signs and symptoms are non-specific, similar to many other common illnesses"),
