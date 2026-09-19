@@ -12615,8 +12615,14 @@ export const MODULES = [
   {
     id: "m15",
     number: 15,
-    title: L("Fodder Production"),
-    subtitle: L("Growing enough good-quality green and dry feed all year round."),
+    title: L("Fodder Production", "పశుగ్రాస ఉత్పత్తి", "தீவன உற்பத்தி", "ಮೇವು ಉತ್ಪಾದನೆ", "चारा उत्पादन"),
+    subtitle: L(
+      "Growing enough good-quality green and dry feed all year round.",
+      "ఏడాది పొడవునా తగినంత మంచి నాణ్యమైన పచ్చి మరియు ఎండు మేత పెంచడం.",
+      "ஆண்டு முழுவதும் போதுமான நல்ல தரமான பச்சை மற்றும் உலர் தீவனம் வளர்த்தல்.",
+      "ವರ್ಷವಿಡೀ ಸಾಕಷ್ಟು ಉತ್ತಮ ಗುಣಮಟ್ಟದ ಹಸಿರು ಮತ್ತು ಒಣ ಮೇವನ್ನು ಬೆಳೆಸುವುದು.",
+      "पूरे साल पर्याप्त अच्छी गुणवत्ता का हरा और सूखा चारा उगाना।"
+    ),
     icon: "sprout",
     available: true,
     lessons: [
@@ -12625,162 +12631,296 @@ export const MODULES = [
   // ==================================================================
   {
     id: "m15-l1",
-    title: L("Why Green Fodder Matters"),
+    title: L("Why Green Fodder Matters", "పచ్చి మేత ఎందుకు ముఖ్యం", "பச்சை தீவனம் ஏன் முக்கியம்", "ಹಸಿರು ಮೇವು ಏಕೆ ಮುಖ್ಯ", "हरा चारा क्यों महत्वपूर्ण है"),
     estMinutes: 8,
     hook: [
       {
         type: "hero",
-        heading: L("The Cheapest, Most Powerful Feed on Your Farm"),
+        heading: L(
+          "The Cheapest, Most Powerful Feed on Your Farm",
+          "మీ పొలంలో అత్యంత చౌకైన, అత్యంత శక్తివంతమైన మేత",
+          "உங்கள் பண்ணையில் மிகவும் மலிவான, மிகவும் சக்திவாய்ந்த தீவனம்",
+          "ನಿಮ್ಮ ಫಾರ್ಮ್‌ನಲ್ಲಿ ಅತ್ಯಂತ ಅಗ್ಗದ, ಅತ್ಯಂತ ಶಕ್ತಿಶಾಲಿ ಮೇವು",
+          "आपके खेत का सबसे सस्ता, सबसे ताकतवर चारा"
+        ),
         text: L(
-          "Green fodder — fresh-cut grass and green crops fed straight to the animal — is one of the simplest ways to keep dairy animals healthy and productive at low cost. But it isn't available in the same amount all year round. This lesson explains why green fodder matters so much, and why farms need a plan to deal with the seasons when there isn't enough of it."
+          "Green fodder — fresh-cut grass and green crops fed straight to the animal — is one of the simplest ways to keep dairy animals healthy and productive at low cost. But it isn't available in the same amount all year round. This lesson explains why green fodder matters so much, and why farms need a plan to deal with the seasons when there isn't enough of it.",
+          "పచ్చి మేత — తాజాగా కోసిన గడ్డి మరియు పచ్చి పంటలను నేరుగా జంతువుకు తినిపించడం — పాడి జంతువులను తక్కువ ఖర్చుతో ఆరోగ్యంగా మరియు ఉత్పాదకంగా ఉంచడానికి అత్యంత సులభమైన మార్గాలలో ఒకటి. కానీ ఇది ఏడాది పొడవునా ఒకే మోతాదులో లభించదు. పచ్చి మేత ఎందుకు ఇంత ముఖ్యమో, మరియు తగినంత లభించని కాలాల్లో ఎదుర్కోవడానికి పొలాలకు ఒక ప్రణాళిక ఎందుకు అవసరమో ఈ పాఠం వివరిస్తుంది.",
+          "பச்சை தீவனம் — புதிதாக வெட்டப்பட்ட புல் மற்றும் பச்சை பயிர்களை நேரடியாக விலங்குக்கு கொடுப்பது — பால் கால்நடைகளை குறைந்த செலவில் ஆரோக்கியமாகவும் உற்பத்தித்திறன் மிக்கதாகவும் வைத்திருக்க எளிய வழிகளில் ஒன்றாகும். ஆனால் இது ஆண்டு முழுவதும் ஒரே அளவில் கிடைப்பதில்லை. பச்சை தீவனம் ஏன் இவ்வளவு முக்கியம், மற்றும் போதுமான அளவு கிடைக்காத பருவங்களை சமாளிக்க பண்ணைகளுக்கு ஏன் ஒரு திட்டம் தேவை என்பதை இந்த பாடம் விளக்குகிறது.",
+          "ಹಸಿರು ಮೇವು — ತಾಜಾ ಕತ್ತರಿಸಿದ ಹುಲ್ಲು ಮತ್ತು ಹಸಿರು ಬೆಳೆಗಳನ್ನು ನೇರವಾಗಿ ಪ್ರಾಣಿಗೆ ನೀಡುವುದು — ಕಡಿಮೆ ವೆಚ್ಚದಲ್ಲಿ ಹೈನು ಪ್ರಾಣಿಗಳನ್ನು ಆರೋಗ್ಯಕರವಾಗಿ ಮತ್ತು ಉತ್ಪಾದಕವಾಗಿ ಇಡುವ ಅತ್ಯಂತ ಸರಳ ವಿಧಾನಗಳಲ್ಲಿ ಒಂದಾಗಿದೆ. ಆದರೆ ಇದು ವರ್ಷವಿಡೀ ಒಂದೇ ಪ್ರಮಾಣದಲ್ಲಿ ಲಭ್ಯವಿರುವುದಿಲ್ಲ. ಹಸಿರು ಮೇವು ಏಕೆ ಇಷ್ಟು ಮುಖ್ಯ, ಮತ್ತು ಸಾಕಷ್ಟು ಲಭ್ಯವಿಲ್ಲದ ಋತುಗಳನ್ನು ಎದುರಿಸಲು ಫಾರ್ಮ್‌ಗಳಿಗೆ ಏಕೆ ಯೋಜನೆ ಬೇಕು ಎಂಬುದನ್ನು ಈ ಪಾಠ ವಿವರಿಸುತ್ತದೆ.",
+          "हरा चारा — ताज़ा काटी गई घास और हरी फसलें जो सीधे जानवर को खिलाई जाती हैं — डेयरी पशुओं को कम लागत में स्वस्थ और उत्पादक बनाए रखने के सबसे आसान तरीकों में से एक है। लेकिन यह पूरे साल एक जैसी मात्रा में उपलब्ध नहीं होता। यह पाठ बताता है कि हरा चारा इतना महत्वपूर्ण क्यों है, और जिन मौसमों में यह पर्याप्त नहीं होता उनसे निपटने के लिए खेतों को योजना की आवश्यकता क्यों है।"
         ),
       },
     ],
     topics: [
       {
         id: "t-m15-green-fodder-value",
-        title: L("What Is Green Fodder, and Why Does It Matter?"),
+        title: L(
+          "What Is Green Fodder, and Why Does It Matter?",
+          "పచ్చి మేత అంటే ఏమిటి, అది ఎందుకు ముఖ్యం?",
+          "பச்சை தீவனம் என்றால் என்ன, அது ஏன் முக்கியம்?",
+          "ಹಸಿರು ಮೇವು ಎಂದರೇನು, ಅದು ಏಕೆ ಮುಖ್ಯ?",
+          "हरा चारा क्या है, और यह क्यों महत्वपूर्ण है?"
+        ),
         teach: [
             {
               type: "photo",
               src: "assets/photo-m15-green-fodder.jpg",
-              alt: L("A farmer manually cutting fresh green fodder from a tall, lush green fodder crop in a field in Punjab, India"),
-              caption: L("Green fodder is fed to the animal soon after cutting, while it still has its natural moisture."),
+              alt: L(
+                "A farmer manually cutting fresh green fodder from a tall, lush green fodder crop in a field in Punjab, India",
+                "పంజాబ్‌లోని ఒక పొలంలో పొడవైన, పచ్చని పశుగ్రాస పంట నుండి ఒక రైతు చేతితో తాజా పచ్చి మేతను కోస్తున్నాడు",
+                "பஞ்சாபில் உள்ள ஒரு வயலில் உயரமான, செழிப்பான தீவனப் பயிரிலிருந்து ஒரு விவசாயி கையால் புதிய பச்சை தீவனத்தை வெட்டுகிறார்",
+                "ಪಂಜಾಬ್‌ನ ಒಂದು ಹೊಲದಲ್ಲಿ ಎತ್ತರದ, ಹಸಿರಿನಿಂದ ಕೂಡಿದ ಮೇವಿನ ಬೆಳೆಯಿಂದ ಒಬ್ಬ ರೈತ ಕೈಯಿಂದ ತಾಜಾ ಹಸಿರು ಮೇವನ್ನು ಕತ್ತರಿಸುತ್ತಿದ್ದಾರೆ",
+                "पंजाब के एक खेत में एक किसान लंबी, हरी-भरी चारा फसल से ताज़ा हरा चारा हाथ से काट रहा है"
+              ),
+              caption: L(
+                "Green fodder is fed to the animal soon after cutting, while it still has its natural moisture.",
+                "పచ్చి మేతను కోసిన వెంటనే, అది సహజ తేమను కలిగి ఉన్నప్పుడే జంతువుకు తినిపిస్తారు.",
+                "பச்சை தீவனம் வெட்டப்பட்ட உடனேயே, அது இயற்கை ஈரப்பதத்துடன் இருக்கும்போதே விலங்குக்கு கொடுக்கப்படுகிறது.",
+                "ಹಸಿರು ಮೇವನ್ನು ಕತ್ತರಿಸಿದ ಕೂಡಲೇ, ಅದು ಇನ್ನೂ ನೈಸರ್ಗಿಕ ತೇವಾಂಶವನ್ನು ಹೊಂದಿರುವಾಗಲೇ ಪ್ರಾಣಿಗೆ ನೀಡಲಾಗುತ್ತದೆ.",
+                "हरा चारा काटने के तुरंत बाद, जब तक उसमें प्राकृतिक नमी बनी रहती है, जानवर को खिलाया जाता है।"
+              ),
             },
           {
             type: "text",
-            heading: L("What Do We Mean by 'Green Fodder'?"),
+            heading: L("What Do We Mean by 'Green Fodder'?", "'పచ్చి మేత' అంటే మనం దేనిని ఉద్దేశిస్తున్నాము?", "'பச்சை தீவனம்' என்பதால் நாம் என்ன பொருள்படுத்துகிறோம்?", "'ಹಸಿರು ಮೇವು' ಎಂದರೆ ನಾವು ಏನನ್ನು ಅರ್ಥೈಸುತ್ತೇವೆ?", "'हरा चारा' से हमारा क्या मतलब है?"),
             html: L(
-              "<b>Green fodder</b> simply means fresh, green plant material — grasses and green crops — cut and fed to the animal while it is still fresh, rather than dried or stored. This is different from dry fodder like straw, and different from cattle feed (the bought, processed concentrate mix). Green fodder is a separate, important part of a balanced diet."
+              "<b>Green fodder</b> simply means fresh, green plant material — grasses and green crops — cut and fed to the animal while it is still fresh, rather than dried or stored. This is different from dry fodder like straw, and different from cattle feed (the bought, processed concentrate mix). Green fodder is a separate, important part of a balanced diet.",
+              "<b>పచ్చి మేత</b> అంటే తాజా, పచ్చని మొక్కల పదార్థం — గడ్డి మరియు పచ్చి పంటలు — వీటిని ఎండబెట్టకుండా లేదా నిల్వ చేయకుండా, ఇంకా తాజాగా ఉన్నప్పుడే కోసి జంతువుకు తినిపిస్తారు. ఇది గడ్డి వంటి ఎండు మేత నుండి భిన్నమైనది, మరియు కొనుగోలు చేసిన, ప్రాసెస్ చేసిన సాంద్రీకృత మిశ్రమమైన పశుగ్రాస దాణా నుండి కూడా భిన్నమైనది. పచ్చి మేత సమతుల్య ఆహారంలో ఒక వేరైన, ముఖ్యమైన భాగం.",
+              "<b>பச்சை தீவனம்</b> என்பது புதிய, பச்சை தாவரப் பொருள் — புற்கள் மற்றும் பச்சை பயிர்கள் — உலர்த்தாமல் அல்லது சேமிக்காமல், இன்னும் புதியதாக இருக்கும்போதே வெட்டி விலங்குக்கு கொடுக்கப்படுவதைக் குறிக்கிறது. இது வைக்கோல் போன்ற உலர் தீவனத்திலிருந்தும், வாங்கப்பட்ட, பதப்படுத்தப்பட்ட செறிவூட்டப்பட்ட கலவையான கால்நடை தீவனத்திலிருந்தும் வேறுபட்டது. பச்சை தீவனம் சமச்சீர் உணவின் தனி, முக்கியமான பகுதியாகும்.",
+              "<b>ಹಸಿರು ಮೇವು</b> ಎಂದರೆ ತಾಜಾ, ಹಸಿರು ಸಸ್ಯ ವಸ್ತು — ಹುಲ್ಲುಗಳು ಮತ್ತು ಹಸಿರು ಬೆಳೆಗಳು — ಒಣಗಿಸದೆ ಅಥವಾ ಸಂಗ್ರಹಿಸದೆ, ಇನ್ನೂ ತಾಜಾವಾಗಿರುವಾಗಲೇ ಕತ್ತರಿಸಿ ಪ್ರಾಣಿಗೆ ನೀಡಲಾಗುತ್ತದೆ. ಇದು ಒಣಹುಲ್ಲಿನಂತಹ ಒಣ ಮೇವಿಗಿಂತ ಭಿನ್ನವಾಗಿದೆ, ಮತ್ತು ಖರೀದಿಸಿದ, ಸಂಸ್ಕರಿಸಿದ ಸಾಂದ್ರೀಕೃತ ಮಿಶ್ರಣವಾದ ಕ್ಯಾಟಲ್ ಫೀಡ್‌ಗಿಂತಲೂ ಭಿನ್ನವಾಗಿದೆ. ಹಸಿರು ಮೇವು ಸಮತೋಲಿತ ಆಹಾರದ ಪ್ರತ್ಯೇಕ, ಪ್ರಮುಖ ಭಾಗವಾಗಿದೆ.",
+              "<b>हरा चारा</b> का सीधा मतलब है ताज़ा, हरा पौधा पदार्थ — घास और हरी फसलें — जिसे सुखाए या भंडारित किए बिना, ताज़ा रहते हुए ही काटकर जानवर को खिलाया जाता है। यह पुआल जैसे सूखे चारे से अलग है, और खरीदे गए, प्रोसेस किए गए सांद्र मिश्रण वाले पशु आहार से भी अलग है। हरा चारा संतुलित आहार का एक अलग, महत्वपूर्ण हिस्सा है."
             ),
           },
           {
             type: "glossary",
-            term: L("Green Fodder"),
+            term: L("Green Fodder", "పచ్చి మేత", "பச்சை தீவனம்", "ಹಸಿರು ಮೇವು", "हरा चारा"),
             meaning: L(
-              "Fresh green grass or green crop material fed to the animal soon after cutting, while it still has its natural moisture — as opposed to dry fodder (like straw) or bought cattle feed."
+              "Fresh green grass or green crop material fed to the animal soon after cutting, while it still has its natural moisture — as opposed to dry fodder (like straw) or bought cattle feed.",
+              "కోసిన వెంటనే, సహజ తేమను కలిగి ఉన్నప్పుడే జంతువుకు తినిపించే తాజా పచ్చి గడ్డి లేదా పచ్చి పంట పదార్థం — గడ్డి వంటి ఎండు మేత లేదా కొనుగోలు చేసిన పశుగ్రాస దాణాకు విరుద్ధంగా.",
+              "வெட்டிய உடனேயே, இயற்கை ஈரப்பதத்துடன் இருக்கும்போதே விலங்குக்கு கொடுக்கப்படும் புதிய பச்சை புல் அல்லது பச்சை பயிர் பொருள் — வைக்கோல் போன்ற உலர் தீவனம் அல்லது வாங்கப்பட்ட கால்நடை தீவனத்திற்கு மாறாக.",
+              "ಕತ್ತರಿಸಿದ ಕೂಡಲೇ, ನೈಸರ್ಗಿಕ ತೇವಾಂಶವನ್ನು ಹೊಂದಿರುವಾಗಲೇ ಪ್ರಾಣಿಗೆ ನೀಡುವ ತಾಜಾ ಹಸಿರು ಹುಲ್ಲು ಅಥವಾ ಹಸಿರು ಬೆಳೆ ವಸ್ತು — ಒಣ ಮೇವು (ಒಣಹುಲ್ಲಿನಂತಹ) ಅಥವಾ ಖರೀದಿಸಿದ ಕ್ಯಾಟಲ್ ಫೀಡ್‌ಗೆ ವ್ಯತಿರಿಕ್ತವಾಗಿ.",
+              "काटने के तुरंत बाद, जब तक उसमें प्राकृतिक नमी बनी रहती है, जानवर को खिलाई जाने वाली ताज़ा हरी घास या हरी फसल का पदार्थ — पुआल जैसे सूखे चारे या खरीदे गए पशु आहार के विपरीत।"
             ),
           },
           {
             type: "text",
-            heading: L("Why Green Fodder Is So Valuable"),
+            heading: L("Why Green Fodder Is So Valuable", "పచ్చి మేత ఎందుకు అంత విలువైనది", "பச்சை தீவனம் ஏன் இவ்வளவு மதிப்புமிக்கது", "ಹಸಿರು ಮೇವು ಏಕೆ ಇಷ್ಟು ಮೌಲ್ಯಯುತ", "हरा चारा इतना मूल्यवान क्यों है"),
             html: L(
-              "Green fodder is an economical source of nutrients — it costs far less than buying extra cattle feed. Animals also find it highly <b>palatable</b> (tasty and easy to eat) and easy to digest. When green fodder is fed together with dry fodder like straw, the natural microbes in the green fodder actually help the animal digest that straw better too. On top of that, feeding enough green fodder helps keep animals healthier overall and supports better breeding performance."
+              "Green fodder is an economical source of nutrients — it costs far less than buying extra cattle feed. Animals also find it highly <b>palatable</b> (tasty and easy to eat) and easy to digest. When green fodder is fed together with dry fodder like straw, the natural microbes in the green fodder actually help the animal digest that straw better too. On top of that, feeding enough green fodder helps keep animals healthier overall and supports better breeding performance.",
+              "పచ్చి మేత పోషకాలకు ఒక పొదుపు మూలం — ఇది అదనపు పశుగ్రాస దాణా కొనుగోలు చేయడం కంటే చాలా తక్కువ ఖర్చుతో కూడుకున్నది. జంతువులు దీనిని <b>రుచికరమైనది</b> (రుచిగా, తినడానికి సులభంగా) మరియు జీర్ణం చేసుకోవడానికి సులభంగా భావిస్తాయి. పచ్చి మేతను గడ్డి వంటి ఎండు మేతతో కలిపి తినిపించినప్పుడు, పచ్చి మేతలోని సహజ సూక్ష్మజీవులు ఆ గడ్డిని కూడా జంతువు బాగా జీర్ణించుకోవడానికి సహాయపడతాయి. దీనితో పాటు, తగినంత పచ్చి మేత తినిపించడం జంతువులను మొత్తంగా మరింత ఆరోగ్యంగా ఉంచడానికి మరియు మెరుగైన సంతానోత్పత్తి పనితీరుకు తోడ్పడుతుంది.",
+              "பச்சை தீவனம் ஊட்டச்சத்துக்களின் சிக்கனமான ஆதாரம் — இது கூடுதல் கால்நடை தீவனம் வாங்குவதை விட மிகவும் குறைவான செலவில் கிடைக்கும். விலங்குகளும் இதை மிகவும் <b>ருசிகரமானதாகவும்</b> (சுவையானதாகவும், எளிதாக உண்ணக்கூடியதாகவும்) மற்றும் எளிதில் ஜீரணிக்கக்கூடியதாகவும் காண்கின்றன. பச்சை தீவனத்தை வைக்கோல் போன்ற உலர் தீவனத்துடன் சேர்த்து கொடுக்கும்போது, பச்சை தீவனத்தில் உள்ள இயற்கை நுண்ணுயிரிகள் அந்த வைக்கோலை விலங்கு சிறப்பாக ஜீரணிக்க உதவுகின்றன. இதனுடன், போதுமான பச்சை தீவனம் கொடுப்பது விலங்குகளை ஒட்டுமொத்தமாக ஆரோக்கியமாக வைத்திருக்க உதவுகிறது மற்றும் சிறந்த இனப்பெருக்க செயல்திறனை ஆதரிக்கிறது.",
+              "ಹಸಿರು ಮೇವು ಪೋಷಕಾಂಶಗಳ ಮಿತವ್ಯಯದ ಮೂಲವಾಗಿದೆ — ಇದು ಹೆಚ್ಚುವರಿ ಕ್ಯಾಟಲ್ ಫೀಡ್ ಖರೀದಿಸುವುದಕ್ಕಿಂತ ಬಹಳ ಕಡಿಮೆ ವೆಚ್ಚದಲ್ಲಿ ಸಿಗುತ್ತದೆ. ಪ್ರಾಣಿಗಳಿಗೂ ಇದು ಹೆಚ್ಚು <b>ರುಚಿಕರ</b> (ರುಚಿಯಾದ ಮತ್ತು ತಿನ್ನಲು ಸುಲಭ) ಮತ್ತು ಜೀರ್ಣಿಸಿಕೊಳ್ಳಲು ಸುಲಭವಾಗಿ ಕಂಡುಬರುತ್ತದೆ. ಹಸಿರು ಮೇವನ್ನು ಒಣಹುಲ್ಲಿನಂತಹ ಒಣ ಮೇವಿನೊಂದಿಗೆ ನೀಡಿದಾಗ, ಹಸಿರು ಮೇವಿನಲ್ಲಿರುವ ನೈಸರ್ಗಿಕ ಸೂಕ್ಷ್ಮಜೀವಿಗಳು ಆ ಒಣಹುಲ್ಲನ್ನು ಸಹ ಪ್ರಾಣಿ ಉತ್ತಮವಾಗಿ ಜೀರ್ಣಿಸಿಕೊಳ್ಳಲು ಸಹಾಯ ಮಾಡುತ್ತವೆ. ಇದರ ಜೊತೆಗೆ, ಸಾಕಷ್ಟು ಹಸಿರು ಮೇವು ನೀಡುವುದು ಪ್ರಾಣಿಗಳನ್ನು ಒಟ್ಟಾರೆಯಾಗಿ ಆರೋಗ್ಯಕರವಾಗಿ ಇಡಲು ಮತ್ತು ಉತ್ತಮ ಸಂತಾನೋತ್ಪತ್ತಿ ಕಾರ್ಯಕ್ಷಮತೆಗೆ ಸಹಾಯ ಮಾಡುತ್ತದೆ.",
+              "हरा चारा पोषक तत्वों का एक किफायती स्रोत है — इसकी लागत अतिरिक्त पशु आहार खरीदने से कहीं कम होती है। जानवरों को यह अत्यधिक <b>स्वादिष्ट</b> (खाने में सुस्वाद और आसान) और पचाने में आसान लगता है। जब हरे चारे को पुआल जैसे सूखे चारे के साथ खिलाया जाता है, तो हरे चारे में मौजूद प्राकृतिक सूक्ष्मजीव जानवर को उस पुआल को भी बेहतर तरीके से पचाने में मदद करते हैं। इसके अलावा, पर्याप्त हरा चारा खिलाने से जानवर समग्र रूप से अधिक स्वस्थ रहते हैं और बेहतर प्रजनन क्षमता में मदद मिलती है।"
             ),
           },
           {
             type: "glossary",
-            term: L("Digestibility"),
+            term: L("Digestibility", "జీర్ణశక్తి", "செரிமானத்திறன்", "ಜೀರ್ಣಕ್ರಿಯೆ ಸಾಮರ್ಥ್ಯ", "पाचनशक्ति"),
             meaning: L(
-              "How easily an animal's body can break down a feed and absorb the nutrients from it. A highly digestible feed like green fodder gives the animal more real nutrition per mouthful than a poorly digestible one."
+              "How easily an animal's body can break down a feed and absorb the nutrients from it. A highly digestible feed like green fodder gives the animal more real nutrition per mouthful than a poorly digestible one.",
+              "జంతువు శరీరం ఒక దాణాను ఎంత సులభంగా విచ్ఛిన్నం చేసి దాని నుండి పోషకాలను గ్రహించగలదో అనేది. పచ్చి మేత వంటి అధిక జీర్ణశక్తి కలిగిన దాణా, తక్కువ జీర్ణశక్తి కలిగిన దాణా కంటే ప్రతి ముద్దకు జంతువుకు ఎక్కువ నిజమైన పోషణను అందిస్తుంది.",
+              "ஒரு விலங்கின் உடல் ஒரு தீவனத்தை எவ்வளவு எளிதாக உடைத்து அதிலிருந்து ஊட்டச்சத்துக்களை உறிஞ்சிக்கொள்ள முடியும் என்பது. பச்சை தீவனம் போன்ற அதிக செரிமானத்திறன் கொண்ட தீவனம், குறைந்த செரிமானத்திறன் கொண்டதை விட ஒவ்வொரு கவளத்திற்கும் விலங்குக்கு அதிக உண்மையான ஊட்டச்சத்தை அளிக்கிறது.",
+              "ಪ್ರಾಣಿಯ ದೇಹವು ಒಂದು ಮೇವನ್ನು ಎಷ್ಟು ಸುಲಭವಾಗಿ ಒಡೆದು ಅದರಿಂದ ಪೋಷಕಾಂಶಗಳನ್ನು ಹೀರಿಕೊಳ್ಳಬಲ್ಲದು ಎಂಬುದು. ಹಸಿರು ಮೇವಿನಂತಹ ಹೆಚ್ಚು ಜೀರ್ಣವಾಗುವ ಮೇವು, ಕಡಿಮೆ ಜೀರ್ಣವಾಗುವ ಮೇವಿಗಿಂತ ಪ್ರತಿ ತುತ್ತಿಗೆ ಪ್ರಾಣಿಗೆ ಹೆಚ್ಚು ನೈಜ ಪೋಷಣೆಯನ್ನು ನೀಡುತ್ತದೆ.",
+              "किसी जानवर का शरीर किसी चारे को कितनी आसानी से तोड़कर उससे पोषक तत्वों को सोख सकता है, यह इसी बात पर निर्भर करता है। हरे चारे जैसा अत्यधिक पाचनशील चारा, कम पाचनशील चारे की तुलना में हर निवाले में जानवर को अधिक वास्तविक पोषण देता है।"
             ),
           },
           {
             type: "stat-grid",
             items: [
               {
-                label: L("Cost"),
-                text: L("More green fodder in the diet can lower the overall cost of producing milk, since it is cheaper than extra bought feed."),
+                label: L("Cost", "ఖర్చు", "செலவு", "ವೆಚ್ಚ", "लागत"),
+                text: L(
+                  "More green fodder in the diet can lower the overall cost of producing milk, since it is cheaper than extra bought feed.",
+                  "ఆహారంలో ఎక్కువ పచ్చి మేత ఉండటం వల్ల పాల ఉత్పత్తి మొత్తం ఖర్చు తగ్గుతుంది, ఎందుకంటే ఇది అదనంగా కొనుగోలు చేసే దాణా కంటే చౌకైనది.",
+                  "உணவில் அதிக பச்சை தீவனம் இருப்பது பால் உற்பத்தியின் மொத்த செலவைக் குறைக்கும், ஏனெனில் இது கூடுதல் வாங்கிய தீவனத்தை விட மலிவானது.",
+                  "ಆಹಾರದಲ್ಲಿ ಹೆಚ್ಚು ಹಸಿರು ಮೇವು ಇರುವುದರಿಂದ ಹಾಲು ಉತ್ಪಾದನೆಯ ಒಟ್ಟು ವೆಚ್ಚ ಕಡಿಮೆಯಾಗುತ್ತದೆ, ಏಕೆಂದರೆ ಇದು ಹೆಚ್ಚುವರಿ ಖರೀದಿಸಿದ ಆಹಾರಕ್ಕಿಂತ ಅಗ್ಗವಾಗಿದೆ.",
+                  "आहार में अधिक हरा चारा होने से दूध उत्पादन की कुल लागत कम हो सकती है, क्योंकि यह अतिरिक्त खरीदे गए आहार से सस्ता होता है।"
+                ),
               },
               {
-                label: L("Digestion"),
-                text: L("Green fodder is easy to digest, and it also helps the animal get more nutrition out of dry fodder like straw when fed together."),
+                label: L("Digestion", "జీర్ణక్రియ", "செரிமானம்", "ಜೀರ್ಣಕ್ರಿಯೆ", "पाचन"),
+                text: L(
+                  "Green fodder is easy to digest, and it also helps the animal get more nutrition out of dry fodder like straw when fed together.",
+                  "పచ్చి మేత సులభంగా జీర్ణమవుతుంది, మరియు కలిపి తినిపించినప్పుడు గడ్డి వంటి ఎండు మేత నుండి జంతువు ఎక్కువ పోషణ పొందడానికి కూడా సహాయపడుతుంది.",
+                  "பச்சை தீவனம் எளிதில் ஜீரணமாகும், மேலும் இது சேர்த்து கொடுக்கும்போது வைக்கோல் போன்ற உலர் தீவனத்திலிருந்து விலங்கு அதிக ஊட்டச்சத்து பெற உதவுகிறது.",
+                  "ಹಸಿರು ಮೇವು ಜೀರ್ಣಿಸಿಕೊಳ್ಳಲು ಸುಲಭ, ಮತ್ತು ಒಟ್ಟಿಗೆ ನೀಡಿದಾಗ ಒಣಹುಲ್ಲಿನಂತಹ ಒಣ ಮೇವಿನಿಂದ ಪ್ರಾಣಿ ಹೆಚ್ಚು ಪೋಷಣೆ ಪಡೆಯಲು ಸಹ ಸಹಾಯ ಮಾಡುತ್ತದೆ.",
+                  "हरा चारा पचाने में आसान होता है, और साथ में खिलाए जाने पर यह जानवर को पुआल जैसे सूखे चारे से अधिक पोषण प्राप्त करने में भी मदद करता है।"
+                ),
               },
               {
-                label: L("Health and Breeding"),
-                text: L("Animals getting enough green fodder tend to stay healthier and breed better than animals that don't."),
+                label: L("Health and Breeding", "ఆరోగ్యం మరియు సంతానోత్పత్తి", "ஆரோக்கியம் மற்றும் இனப்பெருக்கம்", "ಆರೋಗ್ಯ ಮತ್ತು ಸಂತಾನೋತ್ಪತ್ತಿ", "स्वास्थ्य और प्रजनन"),
+                text: L(
+                  "Animals getting enough green fodder tend to stay healthier and breed better than animals that don't.",
+                  "తగినంత పచ్చి మేత పొందే జంతువులు, పొందని జంతువుల కంటే ఆరోగ్యంగా ఉంటాయి మరియు మెరుగ్గా సంతానోత్పత్తి చేస్తాయి.",
+                  "போதுமான பச்சை தீவனம் பெறும் விலங்குகள், பெறாத விலங்குகளை விட ஆரோக்கியமாக இருக்கும் மற்றும் சிறப்பாக இனப்பெருக்கம் செய்யும்.",
+                  "ಸಾಕಷ್ಟು ಹಸಿರು ಮೇವು ಪಡೆಯುವ ಪ್ರಾಣಿಗಳು, ಪಡೆಯದ ಪ್ರಾಣಿಗಳಿಗಿಂತ ಹೆಚ್ಚು ಆರೋಗ್ಯಕರವಾಗಿರುತ್ತವೆ ಮತ್ತು ಉತ್ತಮವಾಗಿ ಸಂತಾನೋತ್ಪತ್ತಿ ಮಾಡುತ್ತವೆ.",
+                  "पर्याप्त हरा चारा पाने वाले जानवर, न पाने वाले जानवरों की तुलना में अधिक स्वस्थ रहते हैं और बेहतर प्रजनन करते हैं।"
+                ),
               },
             ],
           },
           {
             type: "callout",
             style: "tip",
-            heading: L("The Takeaway"),
+            heading: L("The Takeaway", "సారాంశం", "சுருக்கம்", "ಸಾರಾಂಶ", "सार"),
             text: L(
-              "Green fodder isn't a luxury — it's one of the most cost-effective tools a farm has for keeping animals healthy and milk yields good. That's exactly why making sure it's available all year round, not just in the good months, matters so much."
+              "Green fodder isn't a luxury — it's one of the most cost-effective tools a farm has for keeping animals healthy and milk yields good. That's exactly why making sure it's available all year round, not just in the good months, matters so much.",
+              "పచ్చి మేత ఒక విలాసం కాదు — జంతువులను ఆరోగ్యంగా ఉంచడానికి మరియు పాల దిగుబడిని మంచిగా ఉంచడానికి పొలం వద్ద ఉన్న అత్యంత ఖర్చు-సమర్థవంతమైన సాధనాల్లో ఇది ఒకటి. అందుకే మంచి నెలల్లో మాత్రమే కాకుండా, ఏడాది పొడవునా అది లభ్యమయ్యేలా చూసుకోవడం ఇంత ముఖ్యం.",
+              "பச்சை தீவனம் ஆடம்பரம் அல்ல — விலங்குகளை ஆரோக்கியமாக வைத்திருக்கவும் பால் விளைச்சலை நன்றாக வைத்திருக்கவும் ஒரு பண்ணையிடம் உள்ள மிகவும் செலவு-திறன்மிக்க கருவிகளில் இதுவும் ஒன்று. நல்ல மாதங்களில் மட்டுமல்லாமல், ஆண்டு முழுவதும் அது கிடைப்பதை உறுதி செய்வது இவ்வளவு முக்கியமாக இருப்பதற்கு அதுவே காரணம்.",
+              "ಹಸಿರು ಮೇವು ಐಷಾರಾಮಿಯಲ್ಲ — ಪ್ರಾಣಿಗಳನ್ನು ಆರೋಗ್ಯಕರವಾಗಿ ಮತ್ತು ಹಾಲಿನ ಇಳುವರಿಯನ್ನು ಉತ್ತಮವಾಗಿ ಇಡಲು ಫಾರ್ಮ್‌ ಬಳಿ ಇರುವ ಅತ್ಯಂತ ವೆಚ್ಚ-ಪರಿಣಾಮಕಾರಿ ಸಾಧನಗಳಲ್ಲಿ ಇದೂ ಒಂದು. ಒಳ್ಳೆಯ ತಿಂಗಳುಗಳಲ್ಲಿ ಮಾತ್ರವಲ್ಲದೆ, ವರ್ಷವಿಡೀ ಅದು ಲಭ್ಯವಿರುವಂತೆ ನೋಡಿಕೊಳ್ಳುವುದು ಇಷ್ಟು ಮುಖ್ಯವಾಗಲು ಇದೇ ಕಾರಣ.",
+              "हरा चारा कोई विलासिता नहीं है — यह जानवरों को स्वस्थ रखने और दूध की पैदावार अच्छी रखने के लिए खेत के पास मौजूद सबसे किफायती साधनों में से एक है। यही वजह है कि केवल अच्छे महीनों में ही नहीं, बल्कि पूरे साल इसका उपलब्ध रहना सुनिश्चित करना इतना महत्वपूर्ण है।"
             ),
           },
         ],
         check: [
           {
             type: "mcq",
-            q: L("What is 'green fodder'?"),
+            q: L("What is 'green fodder'?", "'పచ్చి మేత' అంటే ఏమిటి?", "'பச்சை தீவனம்' என்றால் என்ன?", "'ಹಸಿರು ಮೇವು' ಎಂದರೇನು?", "'हरा चारा' क्या है?"),
             options: [
-              L("Dried straw stored for later"),
-              L("Fresh green grass or green crop material fed soon after cutting"),
-              L("A bought, processed cattle feed mix"),
-              L("Medicine given to sick animals"),
+              L("Dried straw stored for later", "తర్వాత కోసం నిల్వ చేసిన ఎండు గడ్డి", "பின்னர் பயன்படுத்த சேமிக்கப்பட்ட உலர்ந்த வைக்கோல்", "ನಂತರಕ್ಕಾಗಿ ಸಂಗ್ರಹಿಸಿದ ಒಣಗಿದ ಹುಲ್ಲು", "बाद के लिए भंडारित सूखा पुआल"),
+              L(
+                "Fresh green grass or green crop material fed soon after cutting",
+                "కోసిన వెంటనే తినిపించే తాజా పచ్చి గడ్డి లేదా పచ్చి పంట పదార్థం",
+                "வெட்டிய உடனேயே கொடுக்கப்படும் புதிய பச்சை புல் அல்லது பச்சை பயிர் பொருள்",
+                "ಕತ್ತರಿಸಿದ ಕೂಡಲೇ ನೀಡುವ ತಾಜಾ ಹಸಿರು ಹುಲ್ಲು ಅಥವಾ ಹಸಿರು ಬೆಳೆ ವಸ್ತು",
+                "काटने के तुरंत बाद खिलाई जाने वाली ताज़ा हरी घास या हरी फसल का पदार्थ"
+              ),
+              L("A bought, processed cattle feed mix", "కొనుగోలు చేసిన, ప్రాసెస్ చేసిన పశుగ్రాస దాణా మిశ్రమం", "வாங்கப்பட்ட, பதப்படுத்தப்பட்ட கால்நடை தீவன கலவை", "ಖರೀದಿಸಿದ, ಸಂಸ್ಕರಿಸಿದ ಕ್ಯಾಟಲ್ ಫೀಡ್ ಮಿಶ್ರಣ", "खरीदा गया, प्रोसेस किया हुआ पशु आहार मिश्रण"),
+              L("Medicine given to sick animals", "అనారోగ్యంతో ఉన్న జంతువులకు ఇచ్చే మందు", "நோய்வாய்ப்பட்ட விலங்குகளுக்கு கொடுக்கப்படும் மருந்து", "ಅನಾರೋಗ್ಯದ ಪ್ರಾಣಿಗಳಿಗೆ ನೀಡುವ ಔಷಧಿ", "बीमार जानवरों को दी जाने वाली दवा"),
             ],
             answer: 1,
-            explain: L("Green fodder is fresh green plant material, fed to the animal while it still has its natural moisture — different from dry straw or bought feed."),
+            explain: L(
+              "Green fodder is fresh green plant material, fed to the animal while it still has its natural moisture — different from dry straw or bought feed.",
+              "పచ్చి మేత తాజా పచ్చని మొక్కల పదార్థం, ఇది సహజ తేమను కలిగి ఉన్నప్పుడే జంతువుకు తినిపిస్తారు — ఇది ఎండు గడ్డి లేదా కొనుగోలు చేసిన దాణా నుండి భిన్నమైనది.",
+              "பச்சை தீவனம் புதிய பச்சை தாவரப் பொருள், இது இயற்கை ஈரப்பதத்துடன் இருக்கும்போதே விலங்குக்கு கொடுக்கப்படுகிறது — இது உலர் வைக்கோல் அல்லது வாங்கிய தீவனத்திலிருந்து வேறுபட்டது.",
+              "ಹಸಿರು ಮೇವು ತಾಜಾ ಹಸಿರು ಸಸ್ಯ ವಸ್ತುವಾಗಿದೆ, ಇದನ್ನು ನೈಸರ್ಗಿಕ ತೇವಾಂಶ ಇರುವಾಗಲೇ ಪ್ರಾಣಿಗೆ ನೀಡಲಾಗುತ್ತದೆ — ಇದು ಒಣ ಹುಲ್ಲು ಅಥವಾ ಖರೀದಿಸಿದ ಆಹಾರಕ್ಕಿಂತ ಭಿನ್ನವಾಗಿದೆ.",
+              "हरा चारा ताज़ा हरा पौधा पदार्थ है, जिसे प्राकृतिक नमी बने रहने पर ही जानवर को खिलाया जाता है — यह सूखे पुआल या खरीदे गए आहार से अलग है।"
+            ),
           },
           {
             type: "truefalse",
-            q: L("Feeding green fodder alongside dry fodder like straw can help the animal digest the straw better too."),
+            q: L(
+              "Feeding green fodder alongside dry fodder like straw can help the animal digest the straw better too.",
+              "గడ్డి వంటి ఎండు మేతతో పాటు పచ్చి మేత తినిపించడం వల్ల జంతువు ఆ గడ్డిని కూడా బాగా జీర్ణించుకోవడానికి సహాయపడుతుంది.",
+              "வைக்கோல் போன்ற உலர் தீவனத்துடன் பச்சை தீவனத்தையும் கொடுப்பது விலங்கு அந்த வைக்கோலை சிறப்பாக ஜீரணிக்க உதவும்.",
+              "ಒಣಹುಲ್ಲಿನಂತಹ ಒಣ ಮೇವಿನ ಜೊತೆಗೆ ಹಸಿರು ಮೇವು ನೀಡುವುದರಿಂದ ಪ್ರಾಣಿಗೆ ಆ ಒಣಹುಲ್ಲನ್ನು ಸಹ ಚೆನ್ನಾಗಿ ಜೀರ್ಣಿಸಿಕೊಳ್ಳಲು ಸಹಾಯವಾಗುತ್ತದೆ.",
+              "पुआल जैसे सूखे चारे के साथ हरा चारा खिलाने से जानवर को उस पुआल को भी बेहतर तरीके से पचाने में मदद मिल सकती है।"
+            ),
             answer: true,
-            explain: L("Yes — the microbes present in green fodder help improve digestion of crop residues like straw when the two are fed together."),
+            explain: L(
+              "Yes — the microbes present in green fodder help improve digestion of crop residues like straw when the two are fed together.",
+              "అవును — పచ్చి మేతలో ఉండే సూక్ష్మజీవులు, రెండింటినీ కలిపి తినిపించినప్పుడు గడ్డి వంటి పంట అవశేషాల జీర్ణక్రియను మెరుగుపరచడంలో సహాయపడతాయి.",
+              "ஆம் — பச்சை தீவனத்தில் உள்ள நுண்ணுயிரிகள், இரண்டையும் சேர்த்து கொடுக்கும்போது வைக்கோல் போன்ற பயிர் எச்சங்களின் செரிமானத்தை மேம்படுத்த உதவுகின்றன.",
+              "ಹೌದು — ಹಸಿರು ಮೇವಿನಲ್ಲಿರುವ ಸೂಕ್ಷ್ಮಜೀವಿಗಳು, ಎರಡನ್ನೂ ಒಟ್ಟಿಗೆ ನೀಡಿದಾಗ ಒಣಹುಲ್ಲಿನಂತಹ ಬೆಳೆ ಅವಶೇಷಗಳ ಜೀರ್ಣಕ್ರಿಯೆಯನ್ನು ಸುಧಾರಿಸಲು ಸಹಾಯ ಮಾಡುತ್ತವೆ.",
+              "हाँ — हरे चारे में मौजूद सूक्ष्मजीव, दोनों को साथ खिलाए जाने पर पुआल जैसे फसल अवशेषों के पाचन को बेहतर बनाने में मदद करते हैं।"
+            ),
           },
         ],
       },
       {
         id: "t-m15-feed-scarcity",
-        title: L("The Problem: Fodder Isn't Always Available"),
+        title: L(
+          "The Problem: Fodder Isn't Always Available",
+          "సమస్య: మేత ఎల్లప్పుడూ అందుబాటులో ఉండదు",
+          "பிரச்சனை: தீவனம் எப்போதும் கிடைப்பதில்லை",
+          "ಸಮಸ್ಯೆ: ಮೇವು ಯಾವಾಗಲೂ ಲಭ್ಯವಿರುವುದಿಲ್ಲ",
+          "समस्या: चारा हमेशा उपलब्ध नहीं होता"
+        ),
         teach: [
           {
             type: "text",
-            heading: L("Feast in Some Months, Famine in Others"),
+            heading: L("Feast in Some Months, Famine in Others", "కొన్ని నెలల్లో సమృద్ధి, మరికొన్నింటిలో కొరత", "சில மாதங்களில் ஏராளம், மற்றவற்றில் பஞ்சம்", "ಕೆಲವು ತಿಂಗಳುಗಳಲ್ಲಿ ಸಮೃದ್ಧಿ, ಇನ್ನು ಕೆಲವರಲ್ಲಿ ಕೊರತೆ", "कुछ महीनों में प्रचुरता, कुछ में कमी"),
             html: L(
-              "Green fodder usually grows in plenty during certain months — right after the monsoon rains, and again during part of the cooler winter-to-spring season, when there's enough water for irrigated crops. But during the hot summer months, green fodder becomes scarce almost everywhere. This uneven supply is the core problem this whole module deals with: how to make sure animals get enough good fodder even in the lean months."
+              "Green fodder usually grows in plenty during certain months — right after the monsoon rains, and again during part of the cooler winter-to-spring season, when there's enough water for irrigated crops. But during the hot summer months, green fodder becomes scarce almost everywhere. This uneven supply is the core problem this whole module deals with: how to make sure animals get enough good fodder even in the lean months.",
+              "పచ్చి మేత సాధారణంగా కొన్ని నెలల్లో సమృద్ధిగా పెరుగుతుంది — వర్షాకాలం తర్వాత వెంటనే, మరియు నీటిపారుదల పంటలకు తగినంత నీరు ఉన్నప్పుడు చల్లని శీతాకాలం నుండి వసంతకాలం వరకు కొంత భాగంలో కూడా. కానీ వేడి వేసవి నెలల్లో, దాదాపు అన్ని చోట్ల పచ్చి మేత కొరత ఏర్పడుతుంది. ఈ అసమాన సరఫరాయే ఈ మొత్తం మాడ్యూల్ డీల్ చేసే ప్రధాన సమస్య: కొరత ఉన్న నెలల్లో కూడా జంతువులకు తగినంత మంచి మేత లభించేలా ఎలా చూసుకోవాలి.",
+              "பச்சை தீவனம் வழக்கமாக சில மாதங்களில் ஏராளமாக வளரும் — பருவமழைக்குப் பிறகு உடனடியாகவும், பாசன பயிர்களுக்கு போதுமான நீர் இருக்கும்போது குளிர்ந்த குளிர்காலம் முதல் வசந்த காலம் வரையிலான காலப்பகுதியிலும். ஆனால் வெப்பமான கோடை மாதங்களில், கிட்டத்தட்ட எல்லா இடங்களிலும் பச்சை தீவனம் பற்றாக்குறையாகிவிடும். இந்த சீரற்ற வழங்கலே இந்த முழு தொகுதியும் கையாளும் முக்கிய பிரச்சனை: பற்றாக்குறை மாதங்களிலும் கூட விலங்குகளுக்கு போதுமான நல்ல தீவனம் கிடைப்பதை எப்படி உறுதி செய்வது.",
+              "ಹಸಿರು ಮೇವು ಸಾಮಾನ್ಯವಾಗಿ ಕೆಲವು ತಿಂಗಳುಗಳಲ್ಲಿ ಹೇರಳವಾಗಿ ಬೆಳೆಯುತ್ತದೆ — ಮುಂಗಾರು ಮಳೆಯ ನಂತರ ತಕ್ಷಣ, ಮತ್ತು ನೀರಾವರಿ ಬೆಳೆಗಳಿಗೆ ಸಾಕಷ್ಟು ನೀರು ಇರುವಾಗ ತಂಪಾದ ಚಳಿಗಾಲದಿಂದ ವಸಂತದವರೆಗಿನ ಭಾಗದಲ್ಲೂ ಸಹ. ಆದರೆ ಬಿಸಿಯಾದ ಬೇಸಿಗೆ ತಿಂಗಳುಗಳಲ್ಲಿ, ಬಹುತೇಕ ಎಲ್ಲೆಡೆ ಹಸಿರು ಮೇವು ಕೊರತೆಯಾಗುತ್ತದೆ. ಈ ಅಸಮ ಪೂರೈಕೆಯೇ ಈ ಇಡೀ ಮಾಡ್ಯೂಲ್ ವ್ಯವಹರಿಸುವ ಪ್ರಮುಖ ಸಮಸ್ಯೆ: ಕೊರತೆಯ ತಿಂಗಳುಗಳಲ್ಲೂ ಪ್ರಾಣಿಗಳಿಗೆ ಸಾಕಷ್ಟು ಒಳ್ಳೆಯ ಮೇವು ಸಿಗುವಂತೆ ಹೇಗೆ ಖಚಿತಪಡಿಸುವುದು.",
+              "हरा चारा आमतौर पर कुछ खास महीनों में प्रचुर मात्रा में उगता है — मानसून की बारिश के तुरंत बाद, और फिर सिंचित फसलों के लिए पर्याप्त पानी होने पर ठंडे सर्दी-से-बसंत मौसम के कुछ हिस्से में भी। लेकिन गर्मी के महीनों में, हरा चारा लगभग हर जगह दुर्लभ हो जाता है। यह असमान आपूर्ति ही इस पूरे मॉड्यूल की मूल समस्या है: कमी वाले महीनों में भी जानवरों को पर्याप्त अच्छा चारा कैसे मिले, यह सुनिश्चित करना।"
             ),
           },
           {
             type: "glossary",
-            term: L("Fodder Deficit Period"),
+            term: L("Fodder Deficit Period", "మేత కొరత కాలం", "தீவனப் பற்றாக்குறை காலம்", "ಮೇವು ಕೊರತೆಯ ಅವಧಿ", "चारा कमी की अवधि"),
             meaning: L(
-              "A stretch of time, usually the hot summer months, when there isn't enough fresh green fodder growing to feed the animals properly."
+              "A stretch of time, usually the hot summer months, when there isn't enough fresh green fodder growing to feed the animals properly.",
+              "సాధారణంగా వేడి వేసవి నెలల్లో, జంతువులకు సరిగ్గా తినిపించడానికి తగినంత తాజా పచ్చి మేత పెరగని కాల వ్యవధి.",
+              "பொதுவாக வெப்பமான கோடை மாதங்களில், விலங்குகளுக்கு சரியாக உணவளிக்க போதுமான புதிய பச்சை தீவனம் வளராத காலப்பகுதி.",
+              "ಸಾಮಾನ್ಯವಾಗಿ ಬಿಸಿಯಾದ ಬೇಸಿಗೆ ತಿಂಗಳುಗಳಲ್ಲಿ, ಪ್ರಾಣಿಗಳಿಗೆ ಸರಿಯಾಗಿ ಆಹಾರ ನೀಡಲು ಸಾಕಷ್ಟು ತಾಜಾ ಹಸಿರು ಮೇವು ಬೆಳೆಯದ ಅವಧಿ.",
+              "आमतौर पर गर्मी के महीनों का वह समय, जब जानवरों को ठीक से खिलाने के लिए पर्याप्त ताज़ा हरा चारा नहीं उगता।"
             ),
           },
           {
             type: "text",
-            heading: L("General Practices That Help Close the Gap"),
+            heading: L("General Practices That Help Close the Gap", "అంతరాన్ని పూడ్చడానికి సహాయపడే సాధారణ పద్ధతులు", "இடைவெளியை நிரப்ப உதவும் பொதுவான நடைமுறைகள்", "ಅಂತರವನ್ನು ಮುಚ್ಚಲು ಸಹಾಯ ಮಾಡುವ ಸಾಮಾನ್ಯ ಅಭ್ಯಾಸಗಳು", "अंतर को पाटने में मदद करने वाली सामान्य प्रथाएँ"),
             html: L(
-              "A few broad habits help farms grow more, and more reliable, fodder throughout the year: always use good-quality, certified seed of high-yielding fodder varieties rather than unknown or leftover seed; follow the recommended growing steps for whichever fodder crop is planted (proper land preparation, sowing on time, and so on); and grow a mix of fast-growing fodder crops in the gaps between two main crop seasons, so land is not left unused."
+              "A few broad habits help farms grow more, and more reliable, fodder throughout the year: always use good-quality, certified seed of high-yielding fodder varieties rather than unknown or leftover seed; follow the recommended growing steps for whichever fodder crop is planted (proper land preparation, sowing on time, and so on); and grow a mix of fast-growing fodder crops in the gaps between two main crop seasons, so land is not left unused.",
+              "కొన్ని విస్తృత అలవాట్లు పొలాలు ఏడాది పొడవునా ఎక్కువ, మరింత నమ్మదగిన మేతను పెంచడానికి సహాయపడతాయి: తెలియని లేదా మిగిలిపోయిన విత్తనాల కంటే ఎల్లప్పుడూ అధిక దిగుబడినిచ్చే మేత రకాల మంచి నాణ్యత, ధృవీకరించబడిన విత్తనాలను ఉపయోగించడం; ఏ మేత పంట వేసినా దానికి సిఫార్సు చేయబడిన పెంపకం దశలను (సరైన భూమి తయారీ, సకాలంలో విత్తడం మొదలైనవి) పాటించడం; మరియు రెండు ప్రధాన పంట సీజన్ల మధ్య అంతరంలో వేగంగా పెరిగే మేత పంటల మిశ్రమాన్ని పెంచడం, తద్వారా భూమి ఖాళీగా ఉండదు.",
+              "பண்ணைகள் ஆண்டு முழுவதும் அதிகமான, மேலும் நம்பகமான தீவனத்தை வளர்க்க உதவும் சில பரந்த பழக்கங்கள்: தெரியாத அல்லது மீதமான விதைகளுக்குப் பதிலாக அதிக விளைச்சல் தரும் தீவன வகைகளின் நல்ல தரமான, சான்றளிக்கப்பட்ட விதையை எப்போதும் பயன்படுத்துவது; எந்த தீவனப் பயிர் நடப்பட்டாலும் அதற்கான பரிந்துரைக்கப்பட்ட வளர்ப்பு படிகளை (சரியான நில தயாரிப்பு, சரியான நேரத்தில் விதைத்தல் போன்றவை) பின்பற்றுவது; மற்றும் இரண்டு முக்கிய பயிர் பருவங்களுக்கு இடையேயான இடைவெளியில் வேகமாக வளரும் தீவனப் பயிர்களின் கலவையை வளர்ப்பது, இதனால் நிலம் பயன்படுத்தப்படாமல் இருக்காது.",
+              "ಫಾರ್ಮ್‌ಗಳು ವರ್ಷವಿಡೀ ಹೆಚ್ಚು, ಹೆಚ್ಚು ವಿಶ್ವಾಸಾರ್ಹ ಮೇವನ್ನು ಬೆಳೆಯಲು ಸಹಾಯ ಮಾಡುವ ಕೆಲವು ವಿಶಾಲ ಅಭ್ಯಾಸಗಳು: ಅಪರಿಚಿತ ಅಥವಾ ಉಳಿದ ಬೀಜಕ್ಕಿಂತ ಯಾವಾಗಲೂ ಹೆಚ್ಚಿನ ಇಳುವರಿ ನೀಡುವ ಮೇವಿನ ತಳಿಗಳ ಉತ್ತಮ ಗುಣಮಟ್ಟದ, ಪ್ರಮಾಣೀಕೃತ ಬೀಜವನ್ನು ಬಳಸುವುದು; ಯಾವುದೇ ಮೇವಿನ ಬೆಳೆ ನೆಟ್ಟರೂ ಅದಕ್ಕೆ ಶಿಫಾರಸು ಮಾಡಲಾದ ಬೆಳೆಯುವ ಹಂತಗಳನ್ನು (ಸರಿಯಾದ ಭೂಮಿ ತಯಾರಿ, ಸಮಯಕ್ಕೆ ಬಿತ್ತನೆ ಇತ್ಯಾದಿ) ಅನುಸರಿಸುವುದು; ಮತ್ತು ಎರಡು ಮುಖ್ಯ ಬೆಳೆ ಋತುಗಳ ನಡುವಿನ ಅಂತರದಲ್ಲಿ ವೇಗವಾಗಿ ಬೆಳೆಯುವ ಮೇವಿನ ಬೆಳೆಗಳ ಮಿಶ್ರಣವನ್ನು ಬೆಳೆಸುವುದು, ಇದರಿಂದ ಭೂಮಿ ಖಾಲಿ ಉಳಿಯುವುದಿಲ್ಲ.",
+              "कुछ व्यापक आदतें खेतों को पूरे साल अधिक और अधिक भरोसेमंद चारा उगाने में मदद करती हैं: अनजान या बचे हुए बीज की बजाय हमेशा अधिक उपज देने वाली चारा किस्मों के अच्छी गुणवत्ता वाले, प्रमाणित बीज का उपयोग करना; जो भी चारा फसल लगाई जाए उसके लिए अनुशंसित उगाने के चरणों (उचित भूमि तैयारी, समय पर बुवाई, आदि) का पालन करना; और दो मुख्य फसल मौसमों के बीच के अंतराल में तेज़ी से बढ़ने वाली चारा फसलों का मिश्रण उगाना, ताकि भूमि खाली न रहे।"
             ),
           },
           {
             type: "glossary",
-            term: L("Legume Fodder Crop"),
+            term: L("Legume Fodder Crop", "పప్పుధాన్యాల మేత పంట", "பயறு வகை தீவனப் பயிர்", "ದ್ವಿದಳ ಧಾನ್ಯ ಮೇವಿನ ಬೆಳೆ", "दलहनी चारा फसल"),
             meaning: L(
-              "A fodder crop (such as cowpea) from the pea-and-bean family. Legume fodder crops are especially valuable because they tend to be higher in protein, and growing them alongside cereal fodder crops (like maize or sorghum) gives a more balanced overall fodder supply."
+              "A fodder crop (such as cowpea) from the pea-and-bean family. Legume fodder crops are especially valuable because they tend to be higher in protein, and growing them alongside cereal fodder crops (like maize or sorghum) gives a more balanced overall fodder supply.",
+              "బఠాణీ-బీన్స్ కుటుంబానికి చెందిన మేత పంట (అలసంద వంటిది). పప్పుధాన్యాల మేత పంటలు ప్రత్యేకంగా విలువైనవి ఎందుకంటే వాటిలో ప్రోటీన్ ఎక్కువగా ఉంటుంది, మరియు వాటిని తృణధాన్యాల మేత పంటలతో (మొక్కజొన్న లేదా జొన్న వంటివి) పాటు పెంచడం వల్ల మరింత సమతుల్యమైన మొత్తం మేత సరఫరా లభిస్తుంది.",
+              "பட்டாணி-பீன்ஸ் குடும்பத்தைச் சேர்ந்த ஒரு தீவனப் பயிர் (காராமணி போன்றது). பயறு வகை தீவனப் பயிர்கள் குறிப்பாக மதிப்புமிக்கவை, ஏனெனில் அவற்றில் புரதம் அதிகமாக இருக்கும், மேலும் அவற்றை தானிய தீவனப் பயிர்களுடன் (சோளம் அல்லது சோளக்கம்பு போன்றவை) சேர்த்து வளர்ப்பது மிகவும் சமச்சீரான மொத்த தீவன வழங்கலைத் தரும்.",
+              "ಬಟಾಣಿ-ಬೀನ್ಸ್ ಕುಟುಂಬಕ್ಕೆ ಸೇರಿದ ಮೇವಿನ ಬೆಳೆ (ಅಲಸಂದೆಯಂತಹದ್ದು). ದ್ವಿದಳ ಧಾನ್ಯ ಮೇವಿನ ಬೆಳೆಗಳು ವಿಶೇಷವಾಗಿ ಮೌಲ್ಯಯುತವಾಗಿವೆ ಏಕೆಂದರೆ ಅವುಗಳಲ್ಲಿ ಪ್ರೋಟೀನ್ ಹೆಚ್ಚಾಗಿರುತ್ತದೆ, ಮತ್ತು ಅವುಗಳನ್ನು ಧಾನ್ಯ ಮೇವಿನ ಬೆಳೆಗಳೊಂದಿಗೆ (ಜೋಳ ಅಥವಾ ಸಜ್ಜೆಯಂತಹವು) ಬೆಳೆಸುವುದರಿಂದ ಹೆಚ್ಚು ಸಮತೋಲಿತ ಒಟ್ಟಾರೆ ಮೇವು ಪೂರೈಕೆ ದೊರೆಯುತ್ತದೆ.",
+              "मटर-सेम परिवार की एक चारा फसल (जैसे लोबिया)। दलहनी चारा फसलें विशेष रूप से मूल्यवान होती हैं क्योंकि उनमें प्रोटीन अधिक होता है, और उन्हें अनाज चारा फसलों (जैसे मक्का या ज्वार) के साथ उगाने से अधिक संतुलित समग्र चारा आपूर्ति मिलती है।"
             ),
           },
           {
             type: "callout",
             style: "tip",
-            heading: L("Mix It Up, and Think Long-Term Too"),
+            heading: L("Mix It Up, and Think Long-Term Too", "మిశ్రమం చేయండి, దీర్ఘకాలికంగా కూడా ఆలోచించండి", "கலந்து செய்யுங்கள், நீண்ட காலத்திற்கும் யோசியுங்கள்", "ಮಿಶ್ರಣ ಮಾಡಿ, ದೀರ್ಘಕಾಲೀನವಾಗಿಯೂ ಯೋಚಿಸಿ", "मिश्रण करें, और दीर्घकालिक भी सोचें"),
             text: L(
-              "Growing cereal fodder crops together with legume fodder crops gives a more nutritious overall mix than growing just one type. It also helps to plant some fast-growing, multiple-harvest perennial fodder grasses that keep producing cut after cut for a long time, rather than relying only on crops that are harvested once and then need resowing."
+              "Growing cereal fodder crops together with legume fodder crops gives a more nutritious overall mix than growing just one type. It also helps to plant some fast-growing, multiple-harvest perennial fodder grasses that keep producing cut after cut for a long time, rather than relying only on crops that are harvested once and then need resowing.",
+              "తృణధాన్యాల మేత పంటలను పప్పుధాన్యాల మేత పంటలతో కలిపి పెంచడం, ఒకే రకం పెంచడం కంటే మరింత పోషకమైన మొత్తం మిశ్రమాన్ని ఇస్తుంది. దీర్ఘకాలం పాటు కోత తర్వాత కోత ఉత్పత్తి చేస్తూనే ఉండే వేగంగా పెరిగే, బహుళ-కోత శాశ్వత మేత గడ్డిని కొన్నింటిని నాటడం కూడా సహాయపడుతుంది, ఒకసారి కోసిన తర్వాత మళ్లీ విత్తాల్సిన పంటలపై మాత్రమే ఆధారపడకుండా.",
+              "தானிய தீவனப் பயிர்களை பயறு வகை தீவனப் பயிர்களுடன் சேர்த்து வளர்ப்பது, ஒரே வகையை மட்டும் வளர்ப்பதை விட ஊட்டச்சத்து மிக்க மொத்த கலவையைத் தரும். ஒருமுறை அறுவடை செய்யப்பட்டு பின்னர் மீண்டும் விதைக்க வேண்டிய பயிர்களை மட்டும் சார்ந்திருப்பதற்குப் பதிலாக, நீண்ட காலத்திற்கு தொடர்ந்து வெட்டி வெட்டி உற்பத்தி செய்யும் வேகமாக வளரும், பல முறை அறுவடை செய்யக்கூடிய வற்றா தீவன புற்களையும் சிலவற்றை நடுவது உதவுகிறது.",
+              "ಧಾನ್ಯ ಮೇವಿನ ಬೆಳೆಗಳನ್ನು ದ್ವಿದಳ ಧಾನ್ಯ ಮೇವಿನ ಬೆಳೆಗಳ ಜೊತೆ ಬೆಳೆಸುವುದು, ಕೇವಲ ಒಂದೇ ವಿಧವನ್ನು ಬೆಳೆಸುವುದಕ್ಕಿಂತ ಹೆಚ್ಚು ಪೌಷ್ಟಿಕ ಒಟ್ಟಾರೆ ಮಿಶ್ರಣವನ್ನು ನೀಡುತ್ತದೆ. ಒಮ್ಮೆ ಕೊಯ್ಲು ಮಾಡಿ ನಂತರ ಮತ್ತೆ ಬಿತ್ತಬೇಕಾದ ಬೆಳೆಗಳನ್ನು ಮಾತ್ರ ಅವಲಂಬಿಸುವ ಬದಲು, ದೀರ್ಘಕಾಲದವರೆಗೆ ಕಟಾವಿನ ನಂತರ ಕಟಾವು ಉತ್ಪಾದಿಸುತ್ತಲೇ ಇರುವ ವೇಗವಾಗಿ ಬೆಳೆಯುವ, ಬಹು-ಕಟಾವಿನ ಬಹುವಾರ್ಷಿಕ ಮೇವಿನ ಹುಲ್ಲುಗಳನ್ನು ಕೂಡ ನೆಡುವುದು ಸಹಾಯಕವಾಗಿದೆ.",
+              "अनाज चारा फसलों को दलहनी चारा फसलों के साथ उगाने से केवल एक प्रकार उगाने की तुलना में अधिक पौष्टिक समग्र मिश्रण मिलता है। यह कुछ तेज़ी से बढ़ने वाली, बहु-कटाई बारहमासी चारा घासें लगाने में भी मदद करता है जो लंबे समय तक कटाई के बाद कटाई देती रहती हैं, बजाय केवल उन फसलों पर निर्भर रहने के जिन्हें एक बार काटकर फिर से बोना पड़ता है।"
             ),
           },
         ],
         check: [
           {
             type: "mcq",
-            q: L("When does green fodder typically become scarce?"),
+            q: L("When does green fodder typically become scarce?", "పచ్చి మేత సాధారణంగా ఎప్పుడు కొరతగా మారుతుంది?", "பச்சை தீவனம் பொதுவாக எப்போது பற்றாக்குறையாகும்?", "ಹಸಿರು ಮೇವು ಸಾಮಾನ್ಯವಾಗಿ ಯಾವಾಗ ಕೊರತೆಯಾಗುತ್ತದೆ?", "हरा चारा आमतौर पर कब कम हो जाता है?"),
             options: [
-              L("Right after the monsoon rains"),
-              L("During the hot summer months"),
-              L("It is always equally available all year"),
-              L("Only during winter"),
+              L("Right after the monsoon rains", "వర్షాకాలం తర్వాత వెంటనే", "பருவமழைக்குப் பிறகு உடனடியாக", "ಮುಂಗಾರು ಮಳೆಯ ನಂತರ ತಕ್ಷಣ", "मानसून की बारिश के तुरंत बाद"),
+              L("During the hot summer months", "వేడి వేసవి నెలల్లో", "வெப்பமான கோடை மாதங்களில்", "ಬಿಸಿಯಾದ ಬೇಸಿಗೆ ತಿಂಗಳುಗಳಲ್ಲಿ", "गर्मी के महीनों में"),
+              L("It is always equally available all year", "ఇది ఎల్లప్పుడూ ఏడాది పొడవునా సమానంగా లభిస్తుంది", "இது எப்போதும் ஆண்டு முழுவதும் சமமாக கிடைக்கும்", "ಇದು ಯಾವಾಗಲೂ ವರ್ಷವಿಡೀ ಸಮಾನವಾಗಿ ಲಭ್ಯವಿರುತ್ತದೆ", "यह हमेशा पूरे साल समान रूप से उपलब्ध रहता है"),
+              L("Only during winter", "శీతాకాలంలో మాత్రమే", "குளிர்காலத்தில் மட்டும்", "ಚಳಿಗಾಲದಲ್ಲಿ ಮಾತ್ರ", "केवल सर्दियों में"),
             ],
             answer: 1,
-            explain: L("Green fodder is usually plentiful after the monsoon and during part of the cooler season, but becomes scarce in the hot summer months."),
+            explain: L(
+              "Green fodder is usually plentiful after the monsoon and during part of the cooler season, but becomes scarce in the hot summer months.",
+              "పచ్చి మేత సాధారణంగా వర్షాకాలం తర్వాత మరియు చల్లని కాలంలో కొంత భాగం సమృద్ధిగా ఉంటుంది, కానీ వేడి వేసవి నెలల్లో కొరతగా మారుతుంది.",
+              "பச்சை தீவனம் பொதுவாக பருவமழைக்குப் பிறகும் குளிர்ந்த காலத்தின் ஒரு பகுதியிலும் ஏராளமாக இருக்கும், ஆனால் வெப்பமான கோடை மாதங்களில் பற்றாக்குறையாகிவிடும்.",
+              "ಹಸಿರು ಮೇವು ಸಾಮಾನ್ಯವಾಗಿ ಮುಂಗಾರಿನ ನಂತರ ಮತ್ತು ತಂಪಾದ ಋತುವಿನ ಭಾಗದಲ್ಲಿ ಹೇರಳವಾಗಿರುತ್ತದೆ, ಆದರೆ ಬಿಸಿಯಾದ ಬೇಸಿಗೆ ತಿಂಗಳುಗಳಲ್ಲಿ ಕೊರತೆಯಾಗುತ್ತದೆ.",
+              "हरा चारा आमतौर पर मानसून के बाद और ठंडे मौसम के कुछ हिस्से में प्रचुर मात्रा में होता है, लेकिन गर्मी के महीनों में कम हो जाता है।"
+            ),
           },
           {
             type: "truefalse",
-            q: L("Growing cereal fodder crops together with legume fodder crops gives a more balanced fodder supply than growing only one type."),
+            q: L(
+              "Growing cereal fodder crops together with legume fodder crops gives a more balanced fodder supply than growing only one type.",
+              "తృణధాన్యాల మేత పంటలను పప్పుధాన్యాల మేత పంటలతో కలిపి పెంచడం, ఒకే రకం పెంచడం కంటే మరింత సమతుల్యమైన మేత సరఫరాను ఇస్తుంది.",
+              "தானிய தீவனப் பயிர்களை பயறு வகை தீவனப் பயிர்களுடன் சேர்த்து வளர்ப்பது, ஒரே வகையை மட்டும் வளர்ப்பதை விட சமச்சீரான தீவன வழங்கலைத் தரும்.",
+              "ಧಾನ್ಯ ಮೇವಿನ ಬೆಳೆಗಳನ್ನು ದ್ವಿದಳ ಧಾನ್ಯ ಮೇವಿನ ಬೆಳೆಗಳ ಜೊತೆ ಬೆಳೆಸುವುದು, ಕೇವಲ ಒಂದೇ ವಿಧವನ್ನು ಬೆಳೆಸುವುದಕ್ಕಿಂತ ಸಮತೋಲಿತ ಮೇವು ಪೂರೈಕೆ ನೀಡುತ್ತದೆ.",
+              "अनाज चारा फसलों को दलहनी चारा फसलों के साथ उगाने से केवल एक प्रकार उगाने की तुलना में अधिक संतुलित चारा आपूर्ति मिलती है।"
+            ),
             answer: true,
-            explain: L("Correct — mixing cereal fodder (like maize or sorghum) with legume fodder (like cowpea) gives a better balance, including more protein."),
+            explain: L(
+              "Correct — mixing cereal fodder (like maize or sorghum) with legume fodder (like cowpea) gives a better balance, including more protein.",
+              "సరైనది — తృణధాన్యాల మేత (మొక్కజొన్న లేదా జొన్న వంటివి) పప్పుధాన్యాల మేత (అలసంద వంటివి)తో కలపడం వల్ల ఎక్కువ ప్రోటీన్‌తో సహా మెరుగైన సమతుల్యత లభిస్తుంది.",
+              "சரியானது — தானிய தீவனத்தை (சோளம் அல்லது சோளக்கம்பு போன்றவை) பயறு வகை தீவனத்துடன் (காராமணி போன்றவை) கலப்பது அதிக புரதம் உட்பட சிறந்த சமநிலையைத் தரும்.",
+              "ಸರಿಯಾಗಿದೆ — ಧಾನ್ಯ ಮೇವನ್ನು (ಜೋಳ ಅಥವಾ ಸಜ್ಜೆಯಂತಹವು) ದ್ವಿದಳ ಧಾನ್ಯ ಮೇವಿನೊಂದಿಗೆ (ಅಲಸಂದೆಯಂತಹವು) ಬೆರೆಸುವುದರಿಂದ ಹೆಚ್ಚು ಪ್ರೋಟೀನ್ ಸೇರಿದಂತೆ ಉತ್ತಮ ಸಮತೋಲನ ಸಿಗುತ್ತದೆ.",
+              "सही — अनाज चारे (जैसे मक्का या ज्वार) को दलहनी चारे (जैसे लोबिया) के साथ मिलाने से अधिक प्रोटीन सहित बेहतर संतुलन मिलता है।"
+            ),
           },
         ],
       },
@@ -12791,55 +12931,187 @@ export const MODULES = [
         {
           topicId: "t-m15-green-fodder-value",
           type: "mcq",
-          q: L("Why does feeding green fodder help lower the cost of milk production?"),
+          q: L(
+            "Why does feeding green fodder help lower the cost of milk production?",
+            "పచ్చి మేత తినిపించడం పాల ఉత్పత్తి ఖర్చును ఎందుకు తగ్గిస్తుంది?",
+            "பசுந்தீவனம் ஊட்டுவது பால் உற்பத்தி செலவைக் குறைக்க எப்படி உதவுகிறது?",
+            "ಹಸಿರು ಮೇವು ತಿನ್ನಿಸುವುದು ಹಾಲು ಉತ್ಪಾದನಾ ವೆಚ್ಚವನ್ನು ಏಕೆ ಕಡಿಮೆ ಮಾಡುತ್ತದೆ?",
+            "हरा चारा खिलाने से दूध उत्पादन की लागत कम होने में कैसे मदद मिलती है?"
+          ),
           options: [
-            L("Because it is more expensive than cattle feed, so animals eat less of it"),
-            L("Because it is a cheaper source of nutrients than buying extra cattle feed"),
-            L("Because it replaces the need for water"),
-            L("It has no effect on cost at all"),
+            L(
+              "Because it is more expensive than cattle feed, so animals eat less of it",
+              "ఇది పశుగ్రాసం (దాణా) కంటే ఖరీదైనది కాబట్టి జంతువులు దీన్ని తక్కువగా తింటాయి",
+              "இது கால்நடை தீவனத்தை விட விலை அதிகம் என்பதால் விலங்குகள் இதைக் குறைவாக உண்ணும்",
+              "ಇದು ದನದ ಆಹಾರಕ್ಕಿಂತ ದುಬಾರಿಯಾಗಿರುವುದರಿಂದ ಪ್ರಾಣಿಗಳು ಇದನ್ನು ಕಡಿಮೆ ತಿನ್ನುತ್ತವೆ",
+              "क्योंकि यह पशु आहार से अधिक महंगा होता है, इसलिए पशु इसे कम खाते हैं"
+            ),
+            L(
+              "Because it is a cheaper source of nutrients than buying extra cattle feed",
+              "అదనపు దాణా కొనడం కంటే ఇది చౌకైన పోషకాల మూలం కాబట్టి",
+              "கூடுதல் கால்நடை தீவனம் வாங்குவதை விட இது மலிவான ஊட்டச்சத்து மூலமாக இருப்பதால்",
+              "ಹೆಚ್ಚುವರಿ ದನದ ಆಹಾರ ಖರೀದಿಸುವುದಕ್ಕಿಂತ ಇದು ಅಗ್ಗದ ಪೋಷಕಾಂಶದ ಮೂಲವಾಗಿರುವುದರಿಂದ",
+              "क्योंकि यह अतिरिक्त पशु आहार खरीदने की तुलना में पोषक तत्वों का सस्ता स्रोत है"
+            ),
+            L(
+              "Because it replaces the need for water",
+              "ఇది నీటి అవసరాన్ని భర్తీ చేస్తుంది కాబట్టి",
+              "இது தண்ணீர் தேவையை மாற்றுவதால்",
+              "ಇದು ನೀರಿನ ಅಗತ್ಯವನ್ನು ಬದಲಾಯಿಸುವುದರಿಂದ",
+              "क्योंकि यह पानी की जरूरत की जगह ले लेता है"
+            ),
+            L(
+              "It has no effect on cost at all",
+              "దీనివల్ల ఖర్చుపై ఎలాంటి ప్రభావం ఉండదు",
+              "இது செலவின் மீது எந்த தாக்கமும் ஏற்படுத்தாது",
+              "ಇದರಿಂದ ವೆಚ್ಚದ ಮೇಲೆ ಯಾವುದೇ ಪರಿಣಾಮ ಇರುವುದಿಲ್ಲ",
+              "इसका लागत पर कोई असर नहीं पड़ता"
+            ),
           ],
           answer: 1,
-          explain: L("Green fodder is an economical source of nutrients, so using more of it can reduce how much costly cattle feed is needed."),
+          explain: L(
+            "Green fodder is an economical source of nutrients, so using more of it can reduce how much costly cattle feed is needed.",
+            "పచ్చి మేత చౌకైన పోషకాల మూలం, కాబట్టి దీన్ని ఎక్కువగా వాడితే ఖరీదైన దాణా అవసరం తగ్గుతుంది.",
+            "பசுந்தீவனம் மலிவான ஊட்டச்சத்து மூலம், எனவே இதை அதிகமாகப் பயன்படுத்தினால் விலையுயர்ந்த தீவனத்தின் தேவை குறையும்.",
+            "ಹಸಿರು ಮೇವು ಅಗ್ಗದ ಪೋಷಕಾಂಶದ ಮೂಲ, ಆದ್ದರಿಂದ ಇದನ್ನು ಹೆಚ್ಚು ಬಳಸಿದರೆ ದುಬಾರಿ ದನದ ಆಹಾರದ ಅಗತ್ಯ ಕಡಿಮೆಯಾಗುತ್ತದೆ.",
+            "हरा चारा पोषक तत्वों का किफायती स्रोत है, इसलिए इसका अधिक उपयोग करने से महंगे पशु आहार की जरूरत कम हो सकती है।"
+          ),
         },
         {
           topicId: "t-m15-green-fodder-value",
           type: "truefalse",
-          q: L("Green fodder is generally considered highly palatable and easy for animals to digest."),
+          q: L(
+            "Green fodder is generally considered highly palatable and easy for animals to digest.",
+            "పచ్చి మేత సాధారణంగా జంతువులకు రుచికరంగా మరియు జీర్ణం చేసుకోవడానికి సులభంగా ఉంటుందని భావిస్తారు.",
+            "பசுந்தீவனம் பொதுவாக விலங்குகளுக்கு சுவையானதாகவும் எளிதில் செரிமானமாகக்கூடியதாகவும் கருதப்படுகிறது.",
+            "ಹಸಿರು ಮೇವು ಸಾಮಾನ್ಯವಾಗಿ ಪ್ರಾಣಿಗಳಿಗೆ ರುಚಿಕರವಾಗಿದ್ದು ಜೀರ್ಣಿಸಿಕೊಳ್ಳಲು ಸುಲಭ ಎಂದು ಪರಿಗಣಿಸಲಾಗುತ್ತದೆ.",
+            "हरे चारे को आमतौर पर पशुओं के लिए बहुत स्वादिष्ट और पचाने में आसान माना जाता है।"
+          ),
           answer: true,
-          explain: L("Yes — green fodder is both tasty to the animal (palatable) and easy to digest."),
+          explain: L(
+            "Yes — green fodder is both tasty to the animal (palatable) and easy to digest.",
+            "అవును — పచ్చి మేత జంతువుకు రుచికరంగా (పలటబుల్) మరియు జీర్ణం చేసుకోవడానికి సులభంగా ఉంటుంది.",
+            "ஆம் — பசுந்தீவனம் விலங்குக்கு சுவையானதாகவும் (பலேட்டபிள்) எளிதில் செரிமானமாகக்கூடியதாகவும் இருக்கும்.",
+            "ಹೌದು — ಹಸಿರು ಮೇವು ಪ್ರಾಣಿಗೆ ರುಚಿಕರವಾಗಿದ್ದು (ಪಲಟಬಲ್) ಜೀರ್ಣಿಸಿಕೊಳ್ಳಲು ಸುಲಭವಾಗಿರುತ್ತದೆ.",
+            "हाँ — हरा चारा पशु के लिए स्वादिष्ट (पलैटेबल) भी है और पचाने में आसान भी।"
+          ),
         },
         {
           topicId: "t-m15-feed-scarcity",
           type: "mcq",
-          q: L("What is a 'fodder deficit period'?"),
+          q: L(
+            "What is a 'fodder deficit period'?",
+            "'మేత లోటు కాలం' అంటే ఏమిటి?",
+            "'தீவனப் பற்றாக்குறைக் காலம்' என்றால் என்ன?",
+            "'ಮೇವು ಕೊರತೆ ಅವಧಿ' ಎಂದರೇನು?",
+            "'चारा कमी अवधि' का क्या मतलब है?"
+          ),
           options: [
-            L("A time when too much fodder is available"),
-            L("A stretch of time, usually summer, when there isn't enough green fodder growing"),
-            L("The period right after sowing seed"),
-            L("A disease affecting fodder crops"),
+            L(
+              "A time when too much fodder is available",
+              "మేత చాలా ఎక్కువగా అందుబాటులో ఉండే కాలం",
+              "தீவனம் மிக அதிகமாகக் கிடைக்கும் காலம்",
+              "ಮೇವು ಬಹಳಷ್ಟು ಲಭ್ಯವಿರುವ ಅವಧಿ",
+              "जब चारा बहुत ज्यादा उपलब्ध होता है, वह समय"
+            ),
+            L(
+              "A stretch of time, usually summer, when there isn't enough green fodder growing",
+              "సాధారణంగా వేసవిలో, తగినంత పచ్చి మేత పెరగని కాలం",
+              "பொதுவாக கோடைக்காலத்தில், போதுமான பசுந்தீவனம் வளராத காலம்",
+              "ಸಾಮಾನ್ಯವಾಗಿ ಬೇಸಿಗೆಯಲ್ಲಿ, ಸಾಕಷ್ಟು ಹಸಿರು ಮೇವು ಬೆಳೆಯದ ಅವಧಿ",
+              "आमतौर पर गर्मी के मौसम में, जब पर्याप्त हरा चारा नहीं उगता"
+            ),
+            L(
+              "The period right after sowing seed",
+              "విత్తనం వేసిన వెంటనే ఉండే కాలం",
+              "விதை விதைத்த உடனேயே உள்ள காலம்",
+              "ಬೀಜ ಬಿತ್ತಿದ ತಕ್ಷಣದ ಅವಧಿ",
+              "बीज बोने के तुरंत बाद की अवधि"
+            ),
+            L(
+              "A disease affecting fodder crops",
+              "మేత పంటలను ప్రభావితం చేసే ఒక వ్యాధి",
+              "தீவனப் பயிர்களைப் பாதிக்கும் ஒரு நோய்",
+              "ಮೇವು ಬೆಳೆಗಳಿಗೆ ಬರುವ ಒಂದು ರೋಗ",
+              "चारा फसलों को प्रभावित करने वाली एक बीमारी"
+            ),
           ],
           answer: 1,
-          explain: L("A fodder deficit period is a time — typically the hot summer months — when green fodder supply falls short."),
+          explain: L(
+            "A fodder deficit period is a time — typically the hot summer months — when green fodder supply falls short.",
+            "మేత లోటు కాలం అంటే — సాధారణంగా ఎండాకాలంలో — పచ్చి మేత సరఫరా తగ్గే కాలం.",
+            "தீவனப் பற்றாக்குறைக் காலம் என்பது — பொதுவாக வெப்பமான கோடைக் காலத்தில் — பசுந்தீவன வழங்கல் குறையும் காலம்.",
+            "ಮೇವು ಕೊರತೆ ಅವಧಿ ಎಂದರೆ — ಸಾಮಾನ್ಯವಾಗಿ ಬಿಸಿಲಿನ ಬೇಸಿಗೆ ತಿಂಗಳುಗಳಲ್ಲಿ — ಹಸಿರು ಮೇವಿನ ಪೂರೈಕೆ ಕಡಿಮೆಯಾಗುವ ಅವಧಿ.",
+            "चारा कमी अवधि वह समय है — आमतौर पर गर्मी के महीनों में — जब हरे चारे की आपूर्ति कम पड़ जाती है।"
+          ),
         },
         {
           topicId: "t-m15-feed-scarcity",
           type: "mcq",
-          q: L("Which of these is a recommended general practice for better fodder supply?"),
+          q: L(
+            "Which of these is a recommended general practice for better fodder supply?",
+            "మెరుగైన మేత సరఫరా కోసం సిఫారసు చేయబడిన సాధారణ పద్ధతి ఏది?",
+            "சிறந்த தீவன வழங்கலுக்கு பரிந்துரைக்கப்படும் பொது நடைமுறை எது?",
+            "ಉತ್ತಮ ಮೇವು ಪೂರೈಕೆಗಾಗಿ ಶಿಫಾರಸು ಮಾಡಲಾದ ಸಾಮಾನ್ಯ ಅಭ್ಯಾಸ ಯಾವುದು?",
+            "बेहतर चारा आपूर्ति के लिए सुझाया गया सामान्य तरीका कौन सा है?"
+          ),
           options: [
-            L("Always use unknown, leftover seed to save money"),
-            L("Use certified seed of high-yielding varieties and grow a mix of crops, including legume fodder"),
-            L("Grow only one single fodder crop, forever, on all land"),
-            L("Leave land unused between main crop seasons"),
+            L(
+              "Always use unknown, leftover seed to save money",
+              "డబ్బు ఆదా చేయడానికి ఎప్పుడూ తెలియని, మిగిలిపోయిన విత్తనాలనే వాడాలి",
+              "பணத்தை மிச்சப்படுத்த எப்போதும் தெரியாத, மீதமான விதைகளையே பயன்படுத்த வேண்டும்",
+              "ಹಣ ಉಳಿಸಲು ಯಾವಾಗಲೂ ಗೊತ್ತಿಲ್ಲದ, ಉಳಿದ ಬೀಜಗಳನ್ನೇ ಬಳಸಬೇಕು",
+              "पैसे बचाने के लिए हमेशा अनजान, बचे हुए बीज का इस्तेमाल करना"
+            ),
+            L(
+              "Use certified seed of high-yielding varieties and grow a mix of crops, including legume fodder",
+              "అధిక దిగుబడినిచ్చే రకాల ధృవీకరించబడిన విత్తనాలను వాడాలి మరియు పప్పుధాన్యాల మేతతో సహా వివిధ పంటలను కలిపి పెంచాలి",
+              "அதிக மகசூல் தரும் வகைகளின் சான்றளிக்கப்பட்ட விதைகளைப் பயன்படுத்தி, பயறு வகை தீவனம் உட்பட பல்வேறு பயிர்களைக் கலந்து வளர்க்க வேண்டும்",
+              "ಹೆಚ್ಚು ಇಳುವರಿ ನೀಡುವ ತಳಿಗಳ ಪ್ರಮಾಣೀಕೃತ ಬೀಜಗಳನ್ನು ಬಳಸಿ, ದ್ವಿದಳ ಧಾನ್ಯ ಮೇವು ಸೇರಿದಂತೆ ಮಿಶ್ರ ಬೆಳೆಗಳನ್ನು ಬೆಳೆಸಬೇಕು",
+              "अधिक उपज देने वाली किस्मों के प्रमाणित बीज का उपयोग करें और दलहनी चारे सहित मिश्रित फसलें उगाएं"
+            ),
+            L(
+              "Grow only one single fodder crop, forever, on all land",
+              "అన్ని భూమిలో ఎప్పటికీ ఒకే ఒక్క మేత పంటను మాత్రమే పెంచాలి",
+              "எல்லா நிலத்திலும் எப்போதும் ஒரே ஒரு தீவனப் பயிரை மட்டுமே வளர்க்க வேண்டும்",
+              "ಎಲ್ಲಾ ಭೂಮಿಯಲ್ಲಿ ಶಾಶ್ವತವಾಗಿ ಒಂದೇ ಒಂದು ಮೇವಿನ ಬೆಳೆಯನ್ನು ಮಾತ್ರ ಬೆಳೆಸಬೇಕು",
+              "पूरी जमीन पर हमेशा के लिए सिर्फ एक ही चारा फसल उगाना"
+            ),
+            L(
+              "Leave land unused between main crop seasons",
+              "ప్రధాన పంట సీజన్ల మధ్య భూమిని ఖాళీగా వదిలేయాలి",
+              "முதன்மைப் பயிர் காலங்களுக்கு இடையில் நிலத்தை காலியாக விட வேண்டும்",
+              "ಮುಖ್ಯ ಬೆಳೆ ಋತುಗಳ ನಡುವೆ ಭೂಮಿಯನ್ನು ಖಾಲಿ ಬಿಡಬೇಕು",
+              "मुख्य फसल के मौसमों के बीच जमीन को खाली छोड़ देना"
+            ),
           ],
           answer: 1,
-          explain: L("Certified good-quality seed, following recommended growing steps, and mixing legume and cereal fodder crops all help build a steadier fodder supply."),
+          explain: L(
+            "Certified good-quality seed, following recommended growing steps, and mixing legume and cereal fodder crops all help build a steadier fodder supply.",
+            "ధృవీకరించబడిన మంచి నాణ్యమైన విత్తనాలు, సిఫారసు చేసిన పెంపకం విధానాలను పాటించడం, తృణధాన్యాలు మరియు పప్పుధాన్యాల మేత పంటలను కలపడం — ఇవన్నీ మరింత స్థిరమైన మేత సరఫరాను ఏర్పరచడంలో సహాయపడతాయి.",
+            "சான்றளிக்கப்பட்ட நல்ல தரமான விதைகள், பரிந்துரைக்கப்பட்ட வளர்ப்பு முறைகளைப் பின்பற்றுவது, மற்றும் பயறு மற்றும் தானிய தீவனப் பயிர்களைக் கலப்பது ஆகியவை நிலையான தீவன வழங்கலை உருவாக்க உதவும்.",
+            "ಪ್ರಮಾಣೀಕೃತ ಉತ್ತಮ ಗುಣಮಟ್ಟದ ಬೀಜಗಳು, ಶಿಫಾರಸು ಮಾಡಿದ ಬೆಳೆ ಕ್ರಮಗಳನ್ನು ಅನುಸರಿಸುವುದು, ಮತ್ತು ದ್ವಿದಳ ಧಾನ್ಯ ಹಾಗೂ ಧಾನ್ಯ ಮೇವಿನ ಬೆಳೆಗಳನ್ನು ಬೆರೆಸುವುದು — ಇವೆಲ್ಲ ಸ್ಥಿರವಾದ ಮೇವು ಪೂರೈಕೆಯನ್ನು ಕಟ್ಟಲು ಸಹಾಯ ಮಾಡುತ್ತವೆ.",
+            "प्रमाणित अच्छी गुणवत्ता के बीज, सुझाए गए उगाने के तरीकों का पालन करना, और दलहनी व अनाज चारा फसलों को मिलाना — ये सभी अधिक स्थिर चारा आपूर्ति बनाने में मदद करते हैं।"
+          ),
         },
         {
           topicId: "t-m15-feed-scarcity",
           type: "truefalse",
-          q: L("Planting some fast-growing, multiple-harvest perennial fodder grasses can help keep fodder coming in over a longer period."),
+          q: L(
+            "Planting some fast-growing, multiple-harvest perennial fodder grasses can help keep fodder coming in over a longer period.",
+            "త్వరగా పెరిగే, పలుమార్లు కోతకు వచ్చే శాశ్వత మేత గడ్డిని కొంత నాటడం వల్ల ఎక్కువ కాలం పాటు మేత అందుబాటులో ఉంటుంది.",
+            "விரைவாக வளரும், பல முறை அறுவடை செய்யக்கூடிய வற்றாத தீவனப் புற்களை நடுவது நீண்ட காலத்திற்கு தீவனம் தொடர்ந்து கிடைக்க உதவும்.",
+            "ವೇಗವಾಗಿ ಬೆಳೆಯುವ, ಹಲವು ಬಾರಿ ಕೊಯ್ಲು ಮಾಡಬಹುದಾದ ಬಹುವಾರ್ಷಿಕ ಮೇವಿನ ಹುಲ್ಲುಗಳನ್ನು ಕೆಲವು ನೆಡುವುದರಿಂದ ದೀರ್ಘಕಾಲ ಮೇವು ಸಿಗುತ್ತಲೇ ಇರುತ್ತದೆ.",
+            "तेजी से बढ़ने वाली, बार-बार कटाई देने वाली बहुवर्षीय चारा घासें कुछ लगाने से लंबे समय तक चारा मिलते रहने में मदद मिल सकती है।"
+          ),
           answer: true,
-          explain: L("Correct — perennial fodder grasses that can be cut again and again give a more continuous supply than crops harvested only once."),
+          explain: L(
+            "Correct — perennial fodder grasses that can be cut again and again give a more continuous supply than crops harvested only once.",
+            "సరైనది — పదేపదే కోయగలిగే శాశ్వత మేత గడ్డి, ఒకసారి మాత్రమే కోసే పంటల కంటే మరింత నిరంతర సరఫరాను ఇస్తుంది.",
+            "சரியானது — மீண்டும் மீண்டும் அறுவடை செய்யக்கூடிய வற்றாத தீவனப் புற்கள், ஒரே முறை மட்டும் அறுவடை செய்யப்படும் பயிர்களை விட தொடர்ச்சியான வழங்கலைத் தரும்.",
+            "ಸರಿಯಾಗಿದೆ — ಮತ್ತೆ ಮತ್ತೆ ಕೊಯ್ಲು ಮಾಡಬಹುದಾದ ಬಹುವಾರ್ಷಿಕ ಮೇವಿನ ಹುಲ್ಲುಗಳು, ಒಮ್ಮೆ ಮಾತ್ರ ಕೊಯ್ಲು ಮಾಡುವ ಬೆಳೆಗಳಿಗಿಂತ ಹೆಚ್ಚು ನಿರಂತರ ಪೂರೈಕೆ ನೀಡುತ್ತವೆ.",
+            "सही — बार-बार काटी जा सकने वाली बहुवर्षीय चारा घासें, केवल एक बार काटी जाने वाली फसलों की तुलना में अधिक निरंतर आपूर्ति देती हैं।"
+          ),
         },
       ],
     },
@@ -12850,71 +13122,157 @@ export const MODULES = [
   // ==================================================================
   {
     id: "m15-l2",
-    title: L("Conserving Surplus Fodder: Hay and Silage"),
+    title: L(
+      "Conserving Surplus Fodder: Hay and Silage",
+      "మిగులు మేతను నిల్వ చేయడం: ఎండుమేత మరియు సైలేజ్",
+      "உபரி தீவனத்தைப் பாதுகாத்தல்: உலர் தீவனம் மற்றும் சைலேஜ்",
+      "ಹೆಚ್ಚುವರಿ ಮೇವನ್ನು ಸಂರಕ್ಷಿಸುವುದು: ಒಣ ಮೇವು ಮತ್ತು ಸೈಲೇಜ್",
+      "अतिरिक्त चारे को सुरक्षित रखना: सूखा चारा और साइलेज"
+    ),
     estMinutes: 9,
     hook: [
       {
         type: "hero",
-        heading: L("Don't Let Extra Fodder Go to Waste"),
+        heading: L(
+          "Don't Let Extra Fodder Go to Waste",
+          "అదనపు మేతను వృథా చేయవద్దు",
+          "கூடுதல் தீவனத்தை வீணாக்காதீர்கள்",
+          "ಹೆಚ್ಚುವರಿ ಮೇವನ್ನು ವ್ಯರ್ಥ ಮಾಡಬೇಡಿ",
+          "अतिरिक्त चारे को बर्बाद न होने दें"
+        ),
         text: L(
-          "In the months when green fodder grows in plenty, farms often end up with more than the animals can eat right away. Rather than letting that surplus go to waste, it can be stored for later use in one of two simple ways — turned into hay, or turned into silage. This lesson explains both, so surplus fodder can carry a farm through the lean months instead of being wasted."
+          "In the months when green fodder grows in plenty, farms often end up with more than the animals can eat right away. Rather than letting that surplus go to waste, it can be stored for later use in one of two simple ways — turned into hay, or turned into silage. This lesson explains both, so surplus fodder can carry a farm through the lean months instead of being wasted.",
+          "పచ్చి మేత సమృద్ధిగా పెరిగే నెలల్లో, జంతువులు వెంటనే తినగలిగే దానికంటే ఎక్కువ మేత ఫారంలో మిగిలిపోతుంది. ఆ మిగులును వృథా చేయడానికి బదులు, రెండు సాధారణ పద్ధతుల్లో ఒకదానిలో నిల్వ చేసుకోవచ్చు — ఎండుమేతగా మార్చడం లేదా సైలేజ్‌గా మార్చడం. ఈ పాఠం రెండింటినీ వివరిస్తుంది, తద్వారా మిగులు మేత వృథా కాకుండా లోటు నెలల్లో ఫారంకు ఉపయోగపడుతుంది.",
+          "பசுந்தீவனம் ஏராளமாக வளரும் மாதங்களில், விலங்குகள் உடனடியாக உண்ணக்கூடியதை விட அதிகமான தீவனம் பண்ணையில் மீதமிருக்கும். அந்த உபரியை வீணாக்குவதற்குப் பதிலாக, இரண்டு எளிய வழிகளில் ஒன்றில் சேமித்து வைக்கலாம் — உலர் தீவனமாக மாற்றுவது, அல்லது சைலேஜாக மாற்றுவது. இந்தப் பாடம் இரண்டையும் விளக்குகிறது, இதனால் உபரி தீவனம் வீணாகாமல் பற்றாக்குறை மாதங்களில் பண்ணைக்கு உதவும்.",
+          "ಹಸಿರು ಮೇವು ಹೇರಳವಾಗಿ ಬೆಳೆಯುವ ತಿಂಗಳುಗಳಲ್ಲಿ, ಪ್ರಾಣಿಗಳು ತಕ್ಷಣ ತಿನ್ನಬಹುದಾದುದಕ್ಕಿಂತ ಹೆಚ್ಚು ಮೇವು ಫಾರ್ಮ್‌ನಲ್ಲಿ ಉಳಿಯುತ್ತದೆ. ಆ ಹೆಚ್ಚುವರಿಯನ್ನು ವ್ಯರ್ಥ ಮಾಡುವ ಬದಲು, ಎರಡು ಸರಳ ವಿಧಾನಗಳಲ್ಲಿ ಒಂದರಲ್ಲಿ ಸಂಗ್ರಹಿಸಬಹುದು — ಒಣ ಮೇವಾಗಿ ಪರಿವರ್ತಿಸುವುದು, ಅಥವಾ ಸೈಲೇಜ್ ಆಗಿ ಪರಿವರ್ತಿಸುವುದು. ಈ ಪಾಠ ಎರಡನ್ನೂ ವಿವರಿಸುತ್ತದೆ, ಇದರಿಂದ ಹೆಚ್ಚುವರಿ ಮೇವು ವ್ಯರ್ಥವಾಗದೆ ಕೊರತೆಯ ತಿಂಗಳುಗಳಲ್ಲಿ ಫಾರ್ಮ್‌ಗೆ ಉಪಯೋಗವಾಗುತ್ತದೆ.",
+          "जिन महीनों में हरा चारा भरपूर उगता है, उनमें अक्सर फार्म पर पशु तुरंत खा सकें उससे ज्यादा चारा बच जाता है। उस अतिरिक्त चारे को बर्बाद होने देने के बजाय, इसे दो आसान तरीकों में से किसी एक से बाद के लिए सुरक्षित रखा जा सकता है — सूखा चारा बनाकर, या साइलेज बनाकर। यह पाठ दोनों तरीके समझाता है, ताकि अतिरिक्त चारा बर्बाद होने के बजाय कमी वाले महीनों में फार्म के काम आ सके।"
         ),
       },
     ],
     topics: [
       {
         id: "t-m15-hay",
-        title: L("Turning Surplus Fodder into Hay"),
+        title: L(
+          "Turning Surplus Fodder into Hay",
+          "మిగులు మేతను ఎండుమేతగా మార్చడం",
+          "உபரி தீவனத்தை உலர் தீவனமாக மாற்றுதல்",
+          "ಹೆಚ್ಚುವರಿ ಮೇವನ್ನು ಒಣ ಮೇವಾಗಿ ಪರಿವರ್ತಿಸುವುದು",
+          "अतिरिक्त चारे को सूखे चारे में बदलना"
+        ),
         teach: [
             {
               type: "photo",
               src: "assets/photo-m15-hay.jpg",
-              alt: L("Two large cone-shaped haystacks made of dried wheat hay standing in a field in Punjab, India"),
-              caption: L("Once sun-dried to low moisture, hay is gathered and stored so its quality is kept until it's needed."),
+              alt: L(
+                "Two large cone-shaped haystacks made of dried wheat hay standing in a field in Punjab, India",
+                "పంజాబ్‌లోని ఒక పొలంలో నిలబెట్టిన ఎండిన గోధుమ ఎండుమేతతో చేసిన రెండు పెద్ద కోన్ ఆకారపు కుప్పలు",
+                "பஞ்சாபில் உள்ள ஒரு வயலில் நிற்கும் உலர்ந்த கோதுமை உலர் தீவனத்தால் ஆன இரண்டு பெரிய கூம்பு வடிவ போரடுக்குகள்",
+                "ಪಂಜಾಬ್‌ನ ಒಂದು ಹೊಲದಲ್ಲಿ ನಿಂತಿರುವ ಒಣಗಿದ ಗೋಧಿ ಒಣ ಮೇವಿನಿಂದ ಮಾಡಿದ ಎರಡು ದೊಡ್ಡ ಶಂಕುವಿನಾಕಾರದ ರಾಶಿಗಳು",
+                "पंजाब के एक खेत में खड़े सूखे गेहूं के सूखे चारे से बने दो बड़े शंकु आकार के ढेर"
+              ),
+              caption: L(
+                "Once sun-dried to low moisture, hay is gathered and stored so its quality is kept until it's needed.",
+                "ఎండలో తగినంత ఎండిన తర్వాత, ఎండుమేత అవసరమయ్యేవరకు నాణ్యత చెడకుండా సేకరించి నిల్వ చేస్తారు.",
+                "வெயிலில் போதுமான அளவு உலர்ந்த பிறகு, தேவைப்படும் வரை தரம் கெடாமல் இருக்க உலர் தீவனம் சேகரிக்கப்பட்டு சேமிக்கப்படுகிறது.",
+                "ಬಿಸಿಲಿನಲ್ಲಿ ಸಾಕಷ್ಟು ಒಣಗಿದ ನಂತರ, ಬೇಕಾದಾಗ ಗುಣಮಟ್ಟ ಕೆಡದಂತೆ ಒಣ ಮೇವನ್ನು ಸಂಗ್ರಹಿಸಿ ಸಂಗ್ರಹಿಸಿಡಲಾಗುತ್ತದೆ.",
+                "धूप में कम नमी तक सूखने के बाद, जरूरत पड़ने तक गुणवत्ता बनाए रखने के लिए सूखे चारे को इकट्ठा करके रखा जाता है।"
+              ),
             },
           {
             type: "text",
-            heading: L("Why Conserve Fodder at All?"),
+            heading: L(
+              "Why Conserve Fodder at All?",
+              "మేతను ఎందుకు నిల్వ చేయాలి?",
+              "தீவனத்தை ஏன் பாதுகாக்க வேண்டும்?",
+              "ಮೇವನ್ನು ಏಕೆ ಸಂರಕ್ಷಿಸಬೇಕು?",
+              "चारे को सुरक्षित क्यों रखा जाए?"
+            ),
             html: L(
-              "Feeding good-quality roughage (bulky fodder) to dairy animals all year round is essential to get the best out of them — but green fodder isn't available evenly through the year. The surplus grown in the plentiful months can be conserved as <b>hay</b> or <b>silage</b>, so there's still good fodder to feed during the deficit months, and less of the surplus is wasted."
+              "Feeding good-quality roughage (bulky fodder) to dairy animals all year round is essential to get the best out of them — but green fodder isn't available evenly through the year. The surplus grown in the plentiful months can be conserved as <b>hay</b> or <b>silage</b>, so there's still good fodder to feed during the deficit months, and less of the surplus is wasted.",
+              "పాడి జంతువులకు ఏడాది పొడవునా మంచి నాణ్యమైన స్థూల మేతను (బల్కీ ఫోడర్) తినిపించడం వాటి నుండి పూర్తి ప్రయోజనం పొందడానికి అవసరం — కానీ పచ్చి మేత ఏడాది పొడవునా సమానంగా అందుబాటులో ఉండదు. సమృద్ధి నెలల్లో పెరిగే మిగులును <b>ఎండుమేత</b> లేదా <b>సైలేజ్</b>గా నిల్వ చేయవచ్చు, తద్వారా లోటు నెలల్లో కూడా మంచి మేత తినిపించడానికి ఉంటుంది మరియు మిగులు తక్కువ వృథా అవుతుంది.",
+              "பாலுற்பத்தி விலங்குகளுக்கு ஆண்டு முழுவதும் நல்ல தரமான தூலிய தீவனம் (பருமனான தீவனம்) ஊட்டுவது அவற்றிடமிருந்து சிறந்த பலனைப் பெற அவசியம் — ஆனால் பசுந்தீவனம் ஆண்டு முழுவதும் சமமாக கிடைப்பதில்லை. ஏராளமான மாதங்களில் வளரும் உபரியை <b>உலர் தீவனமாகவோ</b> அல்லது <b>சைலேஜாகவோ</b> பாதுகாக்கலாம், இதனால் பற்றாக்குறை மாதங்களிலும் நல்ல தீவனம் ஊட்ட முடியும், உபரியும் குறைவாகவே வீணாகும்.",
+              "ಪಶು ಆಹಾರ ಪ್ರಾಣಿಗಳಿಗೆ ವರ್ಷವಿಡೀ ಉತ್ತಮ ಗುಣಮಟ್ಟದ ಒರಟು ಮೇವನ್ನು (ಬೃಹತ್ ಮೇವು) ತಿನ್ನಿಸುವುದು ಅವುಗಳಿಂದ ಉತ್ತಮ ಫಲಿತಾಂಶ ಪಡೆಯಲು ಅಗತ್ಯ — ಆದರೆ ಹಸಿರು ಮೇವು ವರ್ಷವಿಡೀ ಸಮಾನವಾಗಿ ಸಿಗುವುದಿಲ್ಲ. ಹೇರಳ ತಿಂಗಳುಗಳಲ್ಲಿ ಬೆಳೆಯುವ ಹೆಚ್ಚುವರಿಯನ್ನು <b>ಒಣ ಮೇವು</b> ಅಥವಾ <b>ಸೈಲೇಜ್</b> ಆಗಿ ಸಂರಕ್ಷಿಸಬಹುದು, ಇದರಿಂದ ಕೊರತೆಯ ತಿಂಗಳುಗಳಲ್ಲೂ ಉತ್ತಮ ಮೇವು ತಿನ್ನಿಸಲು ಸಿಗುತ್ತದೆ ಮತ್ತು ಹೆಚ್ಚುವರಿ ಕಡಿಮೆ ವ್ಯರ್ಥವಾಗುತ್ತದೆ.",
+              "डेयरी पशुओं को पूरे साल अच्छी गुणवत्ता का रफेज (भारी चारा) खिलाना उनसे पूरा फायदा लेने के लिए जरूरी है — लेकिन हरा चारा पूरे साल एक जैसा उपलब्ध नहीं होता। भरपूर महीनों में उगने वाले अतिरिक्त चारे को <b>सूखे चारे</b> या <b>साइलेज</b> के रूप में सुरक्षित रखा जा सकता है, ताकि कमी वाले महीनों में भी अच्छा चारा खिलाने को मिले और अतिरिक्त चारा कम बर्बाद हो।"
             ),
           },
           {
             type: "glossary",
-            term: L("Hay"),
+            term: L("Hay", "ఎండుమేత", "உலர் தீவனம்", "ಒಣ ಮೇವು", "सूखा चारा"),
             meaning: L(
-              "Green fodder that has been dried in the sun until most of its moisture is gone (below about 15 per cent). It stores well and still gives the animal good nutrition and protein during months when fresh green fodder is scarce."
+              "Green fodder that has been dried in the sun until most of its moisture is gone (below about 15 per cent). It stores well and still gives the animal good nutrition and protein during months when fresh green fodder is scarce.",
+              "ఎండలో ఎండబెట్టి, తేమ దాదాపు పోయేలా (సుమారు 15 శాతం కంటే తక్కువకు) చేసిన పచ్చి మేత. ఇది బాగా నిల్వ ఉంటుంది మరియు పచ్చి మేత తక్కువగా ఉండే నెలల్లో కూడా జంతువుకు మంచి పోషణ మరియు ప్రోటీన్‌ను అందిస్తుంది.",
+              "வெயிலில் காயவைத்து, ஈரப்பதம் கிட்டத்தட்ட போகும்படி (சுமார் 15 சதவீதத்திற்குக் கீழே) செய்யப்பட்ட பசுந்தீவனம். இது நன்றாக சேமிக்கப்படும், மற்றும் பசுந்தீவனம் குறைவாக இருக்கும் மாதங்களிலும் விலங்குக்கு நல்ல ஊட்டச்சத்து மற்றும் புரதத்தைத் தரும்.",
+              "ಬಿಸಿಲಿನಲ್ಲಿ ಒಣಗಿಸಿ, ತೇವಾಂಶ ಬಹುತೇಕ ಹೋಗುವಂತೆ (ಸುಮಾರು 15 ಪ್ರತಿಶತಕ್ಕಿಂತ ಕಡಿಮೆ) ಮಾಡಲಾದ ಹಸಿರು ಮೇವು. ಇದು ಚೆನ್ನಾಗಿ ಸಂಗ್ರಹವಾಗುತ್ತದೆ ಮತ್ತು ತಾಜಾ ಹಸಿರು ಮೇವು ಕಡಿಮೆ ಇರುವ ತಿಂಗಳುಗಳಲ್ಲೂ ಪ್ರಾಣಿಗೆ ಉತ್ತಮ ಪೋಷಣೆ ಮತ್ತು ಪ್ರೋಟೀನ್ ನೀಡುತ್ತದೆ.",
+              "धूप में सुखाया गया हरा चारा जिसकी नमी लगभग खत्म हो जाती है (करीब 15 प्रतिशत से कम)। यह अच्छी तरह से सुरक्षित रहता है और जिन महीनों में ताजा हरा चारा कम होता है, तब भी पशु को अच्छा पोषण और प्रोटीन देता है।"
             ),
           },
           {
             type: "text",
-            heading: L("How Hay Is Made"),
+            heading: L(
+              "How Hay Is Made",
+              "ఎండుమేత ఎలా తయారు చేస్తారు",
+              "உலர் தீவனம் எப்படி தயாரிக்கப்படுகிறது",
+              "ಒಣ ಮೇವು ಹೇಗೆ ತಯಾರಿಸಲಾಗುತ್ತದೆ",
+              "सूखा चारा कैसे बनाया जाता है"
+            ),
             html: L(
-              "Hay is generally made from fodder crops with thin stems, cut around the time they are about half-flowered, most often during the hot, dry summer months when sun-drying works fastest. After cutting, the green fodder is spread out in a thin, even layer on a dry surface so the sun can dry it. It is turned over regularly so it dries evenly on all sides, and after a few days — once it has dried down to low moisture — it is gathered into bundles for storage."
+              "Hay is generally made from fodder crops with thin stems, cut around the time they are about half-flowered, most often during the hot, dry summer months when sun-drying works fastest. After cutting, the green fodder is spread out in a thin, even layer on a dry surface so the sun can dry it. It is turned over regularly so it dries evenly on all sides, and after a few days — once it has dried down to low moisture — it is gathered into bundles for storage.",
+              "ఎండుమేతను సాధారణంగా సన్నని కాండం ఉన్న మేత పంటల నుండి తయారు చేస్తారు, వాటిని దాదాపు సగం పూత దశలో కోస్తారు, ఎక్కువగా ఎండలో ఎండటం వేగంగా జరిగే వేడి, పొడి వేసవి నెలల్లో. కోసిన తర్వాత, పచ్చి మేతను పొడి ఉపరితలంపై సన్నని, సమానమైన పొరగా పరచి ఎండలో ఎండనిస్తారు. అన్ని వైపులా సమానంగా ఎండటానికి దీన్ని క్రమం తప్పకుండా తిప్పుతారు, మరియు కొన్ని రోజుల తర్వాత — తేమ తక్కువకు ఎండిన తర్వాత — నిల్వ కోసం కట్టలుగా సేకరిస్తారు.",
+              "உலர் தீவனம் பொதுவாக மெல்லிய தண்டுகள் கொண்ட தீவனப் பயிர்களிலிருந்து தயாரிக்கப்படுகிறது, அவை பாதி பூத்த நிலையில் அறுவடை செய்யப்படும், பெரும்பாலும் வெயில் காயவைத்தல் வேகமாக நடக்கும் வெப்பமான, வறண்ட கோடைக் காலத்தில். அறுவடைக்குப் பிறகு, பசுந்தீவனம் உலர்ந்த மேற்பரப்பில் மெல்லிய, சமமான அடுக்காக பரப்பப்பட்டு வெயிலில் காயவைக்கப்படுகிறது. எல்லா பக்கங்களிலும் சமமாக காயும்படி இது தொடர்ந்து புரட்டப்படுகிறது, மேலும் சில நாட்களுக்குப் பிறகு — ஈரப்பதம் குறைந்த பிறகு — சேமிப்பிற்காக கட்டுகளாக சேகரிக்கப்படுகிறது.",
+              "ಒಣ ಮೇವನ್ನು ಸಾಮಾನ್ಯವಾಗಿ ತೆಳ್ಳಗಿನ ಕಾಂಡಗಳಿರುವ ಮೇವಿನ ಬೆಳೆಗಳಿಂದ ತಯಾರಿಸಲಾಗುತ್ತದೆ, ಅವು ಸುಮಾರು ಅರ್ಧ-ಹೂ ಬಿಟ್ಟ ಹಂತದಲ್ಲಿ ಕೊಯ್ಲು ಮಾಡಲಾಗುತ್ತದೆ, ಹೆಚ್ಚಾಗಿ ಬಿಸಿಲಿನಲ್ಲಿ ಒಣಗಿಸುವಿಕೆ ವೇಗವಾಗಿ ನಡೆಯುವ ಬಿಸಿ, ಒಣ ಬೇಸಿಗೆ ತಿಂಗಳುಗಳಲ್ಲಿ. ಕೊಯ್ಲಿನ ನಂತರ, ಹಸಿರು ಮೇವನ್ನು ಒಣ ಮೇಲ್ಮೈಯಲ್ಲಿ ತೆಳ್ಳಗೆ, ಸಮಾನವಾಗಿ ಹರಡಿ ಬಿಸಿಲಿನಲ್ಲಿ ಒಣಗಿಸಲಾಗುತ್ತದೆ. ಎಲ್ಲಾ ಬದಿಗಳಲ್ಲೂ ಸಮಾನವಾಗಿ ಒಣಗಲು ಇದನ್ನು ನಿಯಮಿತವಾಗಿ ತಿರುಗಿಸಲಾಗುತ್ತದೆ, ಮತ್ತು ಕೆಲವು ದಿನಗಳ ನಂತರ — ತೇವಾಂಶ ಕಡಿಮೆಯಾದ ನಂತರ — ಸಂಗ್ರಹಣೆಗಾಗಿ ಕಟ್ಟುಗಳಾಗಿ ಸಂಗ್ರಹಿಸಲಾಗುತ್ತದೆ.",
+              "सूखा चारा आमतौर पर पतले तने वाली चारा फसलों से बनाया जाता है, जिन्हें लगभग आधा फूल आने की अवस्था में काटा जाता है, ज्यादातर गर्म, सूखे गर्मी के महीनों में जब धूप में सुखाना सबसे तेज होता है। काटने के बाद, हरे चारे को सूखी सतह पर पतली, समान परत में फैलाया जाता है ताकि धूप उसे सुखा सके। सभी तरफ से समान रूप से सूखने के लिए इसे नियमित रूप से पलटा जाता है, और कुछ दिनों बाद — जब नमी कम हो जाती है — इसे भंडारण के लिए गट्ठरों में इकट्ठा किया जाता है।"
             ),
           },
           {
             type: "callout",
             style: "tip",
-            heading: L("How to Tell Good Hay From Poor Hay"),
+            heading: L(
+              "How to Tell Good Hay From Poor Hay",
+              "మంచి ఎండుమేతను చెడు ఎండుమేత నుండి ఎలా గుర్తించాలి",
+              "நல்ல உலர் தீவனத்தை மோசமான உலர் தீவனத்திலிருந்து எப்படி வேறுபடுத்துவது",
+              "ಉತ್ತಮ ಒಣ ಮೇವನ್ನು ಕಳಪೆ ಒಣ ಮೇವಿನಿಂದ ಹೇಗೆ ಗುರುತಿಸುವುದು",
+              "अच्छे सूखे चारे को खराब सूखे चारे से कैसे पहचानें"
+            ),
             text: L(
-              "Good hay keeps its leaves attached and keeps a greenish colour, rather than turning pale, crumbly and leafless. If the hay has lost its leaves and its colour, it has lost much of its feeding value too. Store finished hay bundles somewhere dry and free of dust, so the quality doesn't drop while it waits to be used."
+              "Good hay keeps its leaves attached and keeps a greenish colour, rather than turning pale, crumbly and leafless. If the hay has lost its leaves and its colour, it has lost much of its feeding value too. Store finished hay bundles somewhere dry and free of dust, so the quality doesn't drop while it waits to be used.",
+              "మంచి ఎండుమేత ఆకులు ఊడిపోకుండా, లేత రంగుకు మారి, పెళుసుగా, ఆకులు లేకుండా కాకుండా ఆకుపచ్చ రంగును కలిగి ఉంటుంది. ఎండుమేత ఆకులను మరియు రంగును కోల్పోతే, దాని దాణా విలువను కూడా చాలా వరకు కోల్పోతుంది. తయారైన ఎండుమేత కట్టలను వాడేవరకు నాణ్యత తగ్గకుండా పొడి, దుమ్ము లేని చోట నిల్వ చేయాలి.",
+              "நல்ல உலர் தீவனம் இலைகள் உதிராமல், வெளிறாமல், நொறுங்காமல் பச்சை நிறத்துடன் இருக்கும். உலர் தீவனம் இலைகளையும் நிறத்தையும் இழந்திருந்தால், அதன் ஊட்டச்சத்து மதிப்பையும் பெரும்பாலும் இழந்திருக்கும். தயாரான உலர் தீவன கட்டுகளை பயன்படுத்தும் வரை தரம் குறையாமல் இருக்க உலர்ந்த, தூசி இல்லாத இடத்தில் சேமிக்கவும்.",
+              "ಉತ್ತಮ ಒಣ ಮೇವು ಎಲೆಗಳು ಉದುರದೆ, ಬಿಳಿಚಿಕೊಳ್ಳದೆ, ಪುಡಿಪುಡಿಯಾಗದೆ ಹಸಿರು ಬಣ್ಣವನ್ನೇ ಉಳಿಸಿಕೊಳ್ಳುತ್ತದೆ. ಒಣ ಮೇವು ಎಲೆಗಳನ್ನು ಮತ್ತು ಬಣ್ಣವನ್ನು ಕಳೆದುಕೊಂಡಿದ್ದರೆ, ಅದು ತನ್ನ ಆಹಾರ ಮೌಲ್ಯವನ್ನೂ ಬಹಳಷ್ಟು ಕಳೆದುಕೊಂಡಿದೆ ಎಂದರ್ಥ. ಸಿದ್ಧವಾದ ಒಣ ಮೇವಿನ ಕಟ್ಟುಗಳನ್ನು ಬಳಕೆಗೆ ಬರುವವರೆಗೆ ಗುಣಮಟ್ಟ ಕಡಿಮೆಯಾಗದಂತೆ ಒಣ, ಧೂಳು ಇಲ್ಲದ ಸ್ಥಳದಲ್ಲಿ ಸಂಗ್ರಹಿಸಿ.",
+              "अच्छा सूखा चारा अपने पत्ते जोड़े रखता है और हरे रंग जैसा दिखता है, न कि फीका, भुरभुरा और बिना पत्तों वाला। अगर सूखे चारे ने अपने पत्ते और रंग खो दिए हैं, तो उसने अपनी खिलाने की कीमत भी काफी हद तक खो दी है। तैयार सूखे चारे के गट्ठरों को कहीं सूखी और धूल-रहित जगह पर रखें, ताकि उपयोग होने तक गुणवत्ता कम न हो।"
             ),
           },
           {
             type: "stat-grid",
             items: [
               {
-                label: L("Best made from"),
-                text: L("Thin-stemmed fodder crops and some perennial pasture grasses — cut around the half-flowering stage."),
+                label: L("Best made from", "దీని నుండి ఉత్తమంగా తయారవుతుంది", "இதிலிருந்து சிறப்பாக தயாரிக்கப்படுகிறது", "ಇದರಿಂದ ಉತ್ತಮವಾಗಿ ತಯಾರಿಸಲಾಗುತ್ತದೆ", "इससे सबसे अच्छा बनता है"),
+                text: L(
+                  "Thin-stemmed fodder crops and some perennial pasture grasses — cut around the half-flowering stage.",
+                  "సన్నని కాండం ఉన్న మేత పంటలు మరియు కొన్ని శాశ్వత గడ్డి రకాలు — దాదాపు సగం పూత దశలో కోస్తారు.",
+                  "மெல்லிய தண்டு கொண்ட தீவனப் பயிர்கள் மற்றும் சில வற்றாத மேய்ச்சல் புற்கள் — பாதி பூத்த நிலையில் அறுவடை செய்யப்படும்.",
+                  "ತೆಳ್ಳಗಿನ ಕಾಂಡದ ಮೇವಿನ ಬೆಳೆಗಳು ಮತ್ತು ಕೆಲವು ಬಹುವಾರ್ಷಿಕ ಹುಲ್ಲುಗಾವಲು ಹುಲ್ಲುಗಳು — ಅರ್ಧ-ಹೂ ಬಿಟ್ಟ ಹಂತದಲ್ಲಿ ಕೊಯ್ಲು ಮಾಡಲಾಗುತ್ತದೆ.",
+                  "पतले तने वाली चारा फसलें और कुछ बहुवर्षीय चारागाह घासें — आधा फूल आने की अवस्था में काटी जाती हैं।"
+                ),
               },
               {
-                label: L("Moisture target"),
-                text: L("Dried down to below about 15 per cent moisture before it is stored."),
+                label: L("Moisture target", "తేమ లక్ష్యం", "ஈரப்பத இலக்கு", "ತೇವಾಂಶ ಗುರಿ", "नमी लक्ष्य"),
+                text: L(
+                  "Dried down to below about 15 per cent moisture before it is stored.",
+                  "నిల్వ చేయడానికి ముందు తేమను సుమారు 15 శాతం కంటే తక్కువకు ఎండిస్తారు.",
+                  "சேமிக்கும் முன் ஈரப்பதத்தை சுமார் 15 சதவீதத்திற்குக் கீழே காயவைக்கப்படுகிறது.",
+                  "ಸಂಗ್ರಹಿಸುವ ಮೊದಲು ತೇವಾಂಶವನ್ನು ಸುಮಾರು 15 ಪ್ರತಿಶತಕ್ಕಿಂತ ಕಡಿಮೆಗೆ ಒಣಗಿಸಲಾಗುತ್ತದೆ.",
+                  "भंडारण से पहले नमी को करीब 15 प्रतिशत से कम तक सुखाया जाता है।"
+                ),
               },
               {
-                label: L("Storage"),
-                text: L("Kept in a dry, dust-free place to protect its quality until it's needed."),
+                label: L("Storage", "నిల్వ", "சேமிப்பு", "ಸಂಗ್ರಹಣೆ", "भंडारण"),
+                text: L(
+                  "Kept in a dry, dust-free place to protect its quality until it's needed.",
+                  "అవసరమయ్యేవరకు నాణ్యతను కాపాడటానికి పొడి, దుమ్ము లేని చోట ఉంచుతారు.",
+                  "தேவைப்படும் வரை தரத்தைப் பாதுகாக்க உலர்ந்த, தூசி இல்லாத இடத்தில் வைக்கப்படுகிறது.",
+                  "ಅಗತ್ಯವಿರುವವರೆಗೆ ಗುಣಮಟ್ಟವನ್ನು ಕಾಪಾಡಲು ಒಣ, ಧೂಳು ಇಲ್ಲದ ಸ್ಥಳದಲ್ಲಿ ಇಡಲಾಗುತ್ತದೆ.",
+                  "जरूरत पड़ने तक गुणवत्ता बनाए रखने के लिए सूखी, धूल-रहित जगह पर रखा जाता है।"
+                ),
               },
             ],
           },
@@ -12922,89 +13280,241 @@ export const MODULES = [
         check: [
           {
             type: "mcq",
-            q: L("What is 'hay'?"),
+            q: L(
+              "What is 'hay'?",
+              "'ఎండుమేత' అంటే ఏమిటి?",
+              "'உலர் தீவனம்' என்றால் என்ன?",
+              "'ಒಣ ಮೇವು' ಎಂದರೇನು?",
+              "'सूखा चारा' का क्या मतलब है?"
+            ),
             options: [
-              L("Green fodder fermented in a sealed pit"),
-              L("Green fodder that has been dried in the sun to low moisture"),
-              L("A type of cattle feed concentrate"),
-              L("Straw treated with urea"),
+              L(
+                "Green fodder fermented in a sealed pit",
+                "మూసివేసిన గొయ్యిలో పులియబెట్టిన పచ్చి మేత",
+                "மூடிய குழியில் புளிக்க வைக்கப்பட்ட பசுந்தீவனம்",
+                "ಮುಚ್ಚಿದ ಗುಂಡಿಯಲ್ಲಿ ಹುದುಗಿಸಿದ ಹಸಿರು ಮೇವು",
+                "बंद गड्ढे में किण्वित हरा चारा"
+              ),
+              L(
+                "Green fodder that has been dried in the sun to low moisture",
+                "ఎండలో తక్కువ తేమకు ఎండబెట్టిన పచ్చి మేత",
+                "வெயிலில் குறைந்த ஈரப்பதத்திற்கு காயவைக்கப்பட்ட பசுந்தீவனம்",
+                "ಬಿಸಿಲಿನಲ್ಲಿ ಕಡಿಮೆ ತೇವಾಂಶಕ್ಕೆ ಒಣಗಿಸಿದ ಹಸಿರು ಮೇವು",
+                "धूप में कम नमी तक सुखाया गया हरा चारा"
+              ),
+              L(
+                "A type of cattle feed concentrate",
+                "ఒక రకమైన దాణా (కాన్సంట్రేట్)",
+                "ஒரு வகை கால்நடை உணவு செறிவூட்டம்",
+                "ಒಂದು ರೀತಿಯ ದನದ ಆಹಾರ ಕಾನ್ಸಂಟ್ರೇಟ್",
+                "एक प्रकार का पशु आहार सांद्र (कॉन्संट्रेट)"
+              ),
+              L(
+                "Straw treated with urea",
+                "యూరియాతో శుద్ధి చేసిన గడ్డి",
+                "யூரியாவால் சிகிச்சை செய்யப்பட்ட வைக்கோல்",
+                "ಯೂರಿಯಾದಿಂದ ಸಂಸ್ಕರಿಸಿದ ಒಣಹುಲ್ಲು",
+                "यूरिया से उपचारित भूसा"
+              ),
             ],
             answer: 1,
-            explain: L("Hay is green fodder that has been sun-dried down to low moisture (below about 15 per cent), so it stores well for later feeding."),
+            explain: L(
+              "Hay is green fodder that has been sun-dried down to low moisture (below about 15 per cent), so it stores well for later feeding.",
+              "ఎండుమేత అంటే ఎండలో ఎండబెట్టి తక్కువ తేమకు (సుమారు 15 శాతం కంటే తక్కువకు) తీసుకువచ్చిన పచ్చి మేత, కాబట్టి ఇది తర్వాత తినిపించడానికి బాగా నిల్వ ఉంటుంది.",
+              "உலர் தீவனம் என்பது வெயிலில் காயவைக்கப்பட்டு குறைந்த ஈரப்பதத்திற்கு (சுமார் 15 சதவீதத்திற்குக் கீழே) கொண்டுவரப்பட்ட பசுந்தீவனம், எனவே இது பிற்பாடு ஊட்ட நன்றாக சேமிக்கப்படும்.",
+              "ಒಣ ಮೇವು ಎಂದರೆ ಬಿಸಿಲಿನಲ್ಲಿ ಒಣಗಿಸಿ ಕಡಿಮೆ ತೇವಾಂಶಕ್ಕೆ (ಸುಮಾರು 15 ಪ್ರತಿಶತಕ್ಕಿಂತ ಕಡಿಮೆಗೆ) ತಂದ ಹಸಿರು ಮೇವು, ಆದ್ದರಿಂದ ಇದು ನಂತರ ತಿನ್ನಿಸಲು ಚೆನ್ನಾಗಿ ಸಂಗ್ರಹವಾಗುತ್ತದೆ.",
+              "सूखा चारा वह हरा चारा है जिसे धूप में सुखाकर कम नमी तक (करीब 15 प्रतिशत से कम) लाया गया है, इसलिए यह बाद में खिलाने के लिए अच्छी तरह सुरक्षित रहता है।"
+            ),
           },
           {
             type: "truefalse",
-            q: L("Good-quality hay keeps its leaves and a greenish colour, rather than turning pale and leafless."),
+            q: L(
+              "Good-quality hay keeps its leaves and a greenish colour, rather than turning pale and leafless.",
+              "మంచి నాణ్యమైన ఎండుమేత లేత రంగుకు మారి ఆకులు లేకుండా కాకుండా ఆకులు మరియు ఆకుపచ్చ రంగును కలిగి ఉంటుంది.",
+              "நல்ல தரமான உலர் தீவனம் வெளிறி இலைகள் இல்லாமல் போகாமல் இலைகள் மற்றும் பச்சை நிறத்தைத் தக்க வைத்திருக்கும்.",
+              "ಉತ್ತಮ ಗುಣಮಟ್ಟದ ಒಣ ಮೇವು ಬಿಳಿಚಿಕೊಂಡು ಎಲೆರಹಿತವಾಗುವ ಬದಲು ಎಲೆಗಳು ಮತ್ತು ಹಸಿರು ಬಣ್ಣವನ್ನು ಉಳಿಸಿಕೊಳ್ಳುತ್ತದೆ.",
+              "अच्छी गुणवत्ता का सूखा चारा फीका और बिना पत्तों वाला होने के बजाय अपने पत्ते और हरा रंग बनाए रखता है।"
+            ),
             answer: true,
-            explain: L("Correct — leaves and green colour are signs of good-quality hay; losing them means losing feeding value."),
+            explain: L(
+              "Correct — leaves and green colour are signs of good-quality hay; losing them means losing feeding value.",
+              "సరైనది — ఆకులు మరియు ఆకుపచ్చ రంగు మంచి నాణ్యమైన ఎండుమేత లక్షణాలు; వాటిని కోల్పోవడం అంటే దాణా విలువను కోల్పోవడమే.",
+              "சரியானது — இலைகள் மற்றும் பச்சை நிறம் நல்ல தரமான உலர் தீவனத்தின் அறிகுறிகள்; அவற்றை இழப்பது ஊட்டச்சத்து மதிப்பை இழப்பதாகும்.",
+              "ಸರಿಯಾಗಿದೆ — ಎಲೆಗಳು ಮತ್ತು ಹಸಿರು ಬಣ್ಣ ಉತ್ತಮ ಗುಣಮಟ್ಟದ ಒಣ ಮೇವಿನ ಲಕ್ಷಣಗಳು; ಅವುಗಳನ್ನು ಕಳೆದುಕೊಳ್ಳುವುದೆಂದರೆ ಆಹಾರ ಮೌಲ್ಯವನ್ನು ಕಳೆದುಕೊಳ್ಳುವುದು.",
+              "सही — पत्ते और हरा रंग अच्छी गुणवत्ता के सूखे चारे के संकेत हैं; इन्हें खोने का मतलब है खिलाने की कीमत खोना।"
+            ),
           },
         ],
       },
       {
         id: "t-m15-silage",
-        title: L("Turning Surplus Fodder into Silage"),
+        title: L(
+          "Turning Surplus Fodder into Silage",
+          "మిగులు మేతను సైలేజ్‌గా మార్చడం",
+          "உபரி தீவனத்தை சைலேஜாக மாற்றுதல்",
+          "ಹೆಚ್ಚುವರಿ ಮೇವನ್ನು ಸೈಲೇಜ್ ಆಗಿ ಪರಿವರ್ತಿಸುವುದು",
+          "अतिरिक्त चारे को साइलेज में बदलना"
+        ),
         teach: [
             {
               type: "photo",
               src: "assets/photo-m15-silage.jpg",
-              alt: L("A large silage pit on a farm, completely covered and sealed with black plastic sheeting weighted down at the edges"),
-              caption: L("A silage pit sealed airtight with plastic sheeting — the same basic idea described in this lesson."),
+              alt: L(
+                "A large silage pit on a farm, completely covered and sealed with black plastic sheeting weighted down at the edges",
+                "ఒక ఫారంలో పెద్ద సైలేజ్ గొయ్యి, పూర్తిగా నల్ల ప్లాస్టిక్ షీటుతో కప్పి, అంచుల వద్ద బరువుతో సీలు చేసినది",
+                "ஒரு பண்ணையில் உள்ள பெரிய சைலேஜ் குழி, முழுவதுமாக கருப்பு பிளாஸ்டிக் தாளால் மூடி, விளிம்புகளில் எடையிட்டு அடைக்கப்பட்டுள்ளது",
+                "ಒಂದು ಫಾರ್ಮ್‌ನಲ್ಲಿರುವ ದೊಡ್ಡ ಸೈಲೇಜ್ ಗುಂಡಿ, ಸಂಪೂರ್ಣವಾಗಿ ಕಪ್ಪು ಪ್ಲಾಸ್ಟಿಕ್ ಹಾಳೆಯಿಂದ ಮುಚ್ಚಿ, ಅಂಚುಗಳಲ್ಲಿ ತೂಕ ಹಾಕಿ ಮುಚ್ಚಲಾಗಿದೆ",
+                "एक फार्म पर बड़ा साइलेज गड्ढा, पूरी तरह से काली प्लास्टिक शीट से ढका और किनारों पर वजन डालकर सील किया गया"
+              ),
+              caption: L(
+                "A silage pit sealed airtight with plastic sheeting — the same basic idea described in this lesson.",
+                "ప్లాస్టిక్ షీటుతో గాలి చొరబడకుండా సీలు చేసిన సైలేజ్ గొయ్యి — ఈ పాఠంలో వివరించిన అదే ప్రాథమిక ఆలోచన.",
+                "பிளாஸ்டிக் தாளால் காற்று புகாமல் அடைக்கப்பட்ட சைலேஜ் குழி — இந்தப் பாடத்தில் விளக்கப்பட்ட அதே அடிப்படைக் கருத்து.",
+                "ಪ್ಲಾಸ್ಟಿಕ್ ಹಾಳೆಯಿಂದ ಗಾಳಿ ಸೇರದಂತೆ ಮುಚ್ಚಿದ ಸೈಲೇಜ್ ಗುಂಡಿ — ಈ ಪಾಠದಲ್ಲಿ ವಿವರಿಸಿದ ಅದೇ ಮೂಲ ಕಲ್ಪನೆ.",
+                "प्लास्टिक शीट से हवा-रोधी सील किया गया साइलेज गड्ढा — इस पाठ में बताया गया वही मूल विचार।"
+              ),
             },
           {
             type: "glossary",
-            term: L("Silage"),
+            term: L("Silage", "సైలేజ్", "சைலேஜ்", "ಸೈಲೇಜ್", "साइलेज"),
             meaning: L(
-              "Green fodder that has been packed tightly and sealed away from air, so it 'pickles' rather than rots. It is sometimes described simply as the pickle of green fodder — it stays soft, moist and highly digestible, and can be stored for a long time this way."
+              "Green fodder that has been packed tightly and sealed away from air, so it 'pickles' rather than rots. It is sometimes described simply as the pickle of green fodder — it stays soft, moist and highly digestible, and can be stored for a long time this way.",
+              "గట్టిగా అదిమి, గాలి తగలకుండా మూసి ఉంచిన పచ్చి మేత, తద్వారా ఇది కుళ్లిపోకుండా 'ఊరగాయలా' మారుతుంది. దీన్ని కొన్నిసార్లు పచ్చి మేత యొక్క ఊరగాయగా వర్ణిస్తారు — ఇది మెత్తగా, తేమగా మరియు సులభంగా జీర్ణమయ్యేలా ఉంటుంది, మరియు ఈ విధంగా చాలా కాలం నిల్వ ఉంచవచ్చు.",
+              "இறுக்கமாக அடைத்து, காற்று படாமல் மூடி வைக்கப்பட்ட பசுந்தீவனம், இதனால் இது அழுகாமல் 'ஊறுகாய்' போல மாறுகிறது. இதை சில நேரங்களில் பசுந்தீவனத்தின் ஊறுகாய் என்று எளிமையாக விவரிக்கப்படுகிறது — இது மென்மையாகவும், ஈரமாகவும், எளிதில் செரிமானமாகக்கூடியதாகவும் இருக்கும், மேலும் இந்த வழியில் நீண்ட காலம் சேமிக்க முடியும்.",
+              "ಬಿಗಿಯಾಗಿ ಒತ್ತಿ, ಗಾಳಿ ಸೇರದಂತೆ ಮುಚ್ಚಿದ ಹಸಿರು ಮೇವು, ಇದರಿಂದ ಇದು ಕೊಳೆಯುವ ಬದಲು 'ಉಪ್ಪಿನಕಾಯಿ'ಯಂತೆ ಆಗುತ್ತದೆ. ಇದನ್ನು ಕೆಲವೊಮ್ಮೆ ಹಸಿರು ಮೇವಿನ ಉಪ್ಪಿನಕಾಯಿ ಎಂದು ಸರಳವಾಗಿ ವಿವರಿಸಲಾಗುತ್ತದೆ — ಇದು ಮೃದುವಾಗಿ, ತೇವವಾಗಿ, ಸುಲಭವಾಗಿ ಜೀರ್ಣವಾಗುವಂತೆ ಇರುತ್ತದೆ, ಮತ್ತು ಈ ರೀತಿ ದೀರ್ಘಕಾಲ ಸಂಗ್ರಹಿಸಬಹುದು.",
+              "कसकर दबाकर और हवा से बचाकर सील किया गया हरा चारा, जिससे यह सड़ने के बजाय 'अचार' जैसा बन जाता है। इसे कभी-कभी हरे चारे का अचार भी कहा जाता है — यह मुलायम, नम और आसानी से पचने योग्य बना रहता है, और इस तरह लंबे समय तक सुरक्षित रखा जा सकता है।"
             ),
           },
           {
             type: "text",
-            heading: L("How Silage Is Different From Hay"),
+            heading: L(
+              "How Silage Is Different From Hay",
+              "సైలేజ్ ఎండుమేత నుండి ఎలా భిన్నంగా ఉంటుంది",
+              "சைலேஜ் உலர் தீவனத்திலிருந்து எப்படி வேறுபடுகிறது",
+              "ಸೈಲೇಜ್ ಒಣ ಮೇವಿನಿಂದ ಹೇಗೆ ಭಿನ್ನವಾಗಿದೆ",
+              "साइलेज सूखे चारे से कैसे अलग है"
+            ),
             html: L(
-              "Unlike hay, silage is not dried out — it is made from green fodder that is still fairly moist when cut, then packed down tightly with the air pressed out. Cereal-type fodder crops (crops richer in carbohydrates and sugars) generally make the best silage. After cutting, the fodder is chopped into small pieces, which helps it pack down tightly with very little air trapped inside."
+              "Unlike hay, silage is not dried out — it is made from green fodder that is still fairly moist when cut, then packed down tightly with the air pressed out. Cereal-type fodder crops (crops richer in carbohydrates and sugars) generally make the best silage. After cutting, the fodder is chopped into small pieces, which helps it pack down tightly with very little air trapped inside.",
+              "ఎండుమేత లాగా కాకుండా, సైలేజ్‌ను ఎండబెట్టరు — దీన్ని కోసినప్పుడు ఇంకా బాగా తేమగా ఉండే పచ్చి మేత నుండి తయారు చేస్తారు, తర్వాత గాలిని బయటకు నెట్టి గట్టిగా అదిమిపెడతారు. తృణధాన్య రకం మేత పంటలు (కార్బోహైడ్రేట్లు మరియు చక్కెరలు ఎక్కువగా ఉండే పంటలు) సాధారణంగా ఉత్తమమైన సైలేజ్‌ను ఇస్తాయి. కోసిన తర్వాత, మేతను చిన్న ముక్కలుగా కోస్తారు, ఇది లోపల చాలా తక్కువ గాలి చిక్కుకుని గట్టిగా అదిమిపెట్టడానికి సహాయపడుతుంది.",
+              "உலர் தீவனத்தைப் போலல்லாமல், சைலேஜ் காயவைக்கப்படுவதில்லை — இது அறுவடை செய்யும் போது இன்னும் நல்ல ஈரமாக இருக்கும் பசுந்தீவனத்திலிருந்து தயாரிக்கப்பட்டு, பின்னர் காற்றை வெளியேற்றி இறுக்கமாக அடைக்கப்படுகிறது. தானிய வகை தீவனப் பயிர்கள் (கார்போஹைட்ரேட் மற்றும் சர்க்கரை அதிகமுள்ள பயிர்கள்) பொதுவாக சிறந்த சைலேஜைத் தரும். அறுவடைக்குப் பிறகு, தீவனம் சிறு துண்டுகளாக நறுக்கப்படுகிறது, இது உள்ளே மிகக் குறைவான காற்று சிக்கியவாறு இறுக்கமாக அடைக்க உதவுகிறது.",
+              "ಒಣ ಮೇವಿಗಿಂತ ಭಿನ್ನವಾಗಿ, ಸೈಲೇಜ್ ಒಣಗಿಸುವುದಿಲ್ಲ — ಇದನ್ನು ಕೊಯ್ಲು ಮಾಡುವಾಗ ಇನ್ನೂ ಸಾಕಷ್ಟು ತೇವವಾಗಿರುವ ಹಸಿರು ಮೇವಿನಿಂದ ತಯಾರಿಸಲಾಗುತ್ತದೆ, ನಂತರ ಗಾಳಿಯನ್ನು ಹೊರಹಾಕಿ ಬಿಗಿಯಾಗಿ ಒತ್ತಲಾಗುತ್ತದೆ. ಧಾನ್ಯ ಮಾದರಿಯ ಮೇವಿನ ಬೆಳೆಗಳು (ಕಾರ್ಬೋಹೈಡ್ರೇಟ್ ಮತ್ತು ಸಕ್ಕರೆ ಹೆಚ್ಚಿರುವ ಬೆಳೆಗಳು) ಸಾಮಾನ್ಯವಾಗಿ ಅತ್ಯುತ್ತಮ ಸೈಲೇಜ್ ನೀಡುತ್ತವೆ. ಕೊಯ್ಲಿನ ನಂತರ, ಮೇವನ್ನು ಸಣ್ಣ ತುಂಡುಗಳಾಗಿ ಕತ್ತರಿಸಲಾಗುತ್ತದೆ, ಇದು ಒಳಗೆ ಬಹಳ ಕಡಿಮೆ ಗಾಳಿ ಸಿಕ್ಕಿಕೊಂಡು ಬಿಗಿಯಾಗಿ ಒತ್ತಲು ಸಹಾಯ ಮಾಡುತ್ತದೆ.",
+              "सूखे चारे के विपरीत, साइलेज को सुखाया नहीं जाता — यह ऐसे हरे चारे से बनाया जाता है जो काटते समय अभी भी काफी नम होता है, फिर हवा को बाहर निकालकर कसकर दबाया जाता है। अनाज-प्रकार की चारा फसलें (कार्बोहाइड्रेट और शर्करा में अधिक फसलें) आमतौर पर सबसे अच्छा साइलेज बनाती हैं। काटने के बाद, चारे को छोटे टुकड़ों में काटा जाता है, जिससे अंदर बहुत कम हवा फंसते हुए कसकर दबाना आसान होता है।"
             ),
           },
           {
             type: "glossary",
-            term: L("Silo Pit"),
+            term: L("Silo Pit", "సైలో గొయ్యి", "சைலோ குழி", "ಸೈಲೋ ಗುಂಡಿ", "साइलो गड्ढा"),
             meaning: L(
-              "A pit or heap built specifically for making silage. Chopped green fodder is filled into it in pressed-down layers, then sealed completely airtight from the top, usually with a plastic sheet and a layer of packed soil."
+              "A pit or heap built specifically for making silage. Chopped green fodder is filled into it in pressed-down layers, then sealed completely airtight from the top, usually with a plastic sheet and a layer of packed soil.",
+              "సైలేజ్ తయారు చేయడానికి ప్రత్యేకంగా నిర్మించిన గొయ్యి లేదా కుప్ప. చిన్న ముక్కలుగా కోసిన పచ్చి మేతను అదిమిపెట్టిన పొరలుగా దీనిలో నింపుతారు, తర్వాత సాధారణంగా ప్లాస్టిక్ షీట్ మరియు అదిమిన మట్టి పొరతో పైనుండి పూర్తిగా గాలి చొరబడకుండా మూసేస్తారు.",
+              "சைலேஜ் தயாரிக்க குறிப்பாக கட்டப்பட்ட குழி அல்லது குவியல். சிறு துண்டுகளாக நறுக்கிய பசுந்தீவனம் அழுத்தப்பட்ட அடுக்குகளாக இதில் நிரப்பப்படுகிறது, பின்னர் பொதுவாக பிளாஸ்டிக் தாள் மற்றும் அழுத்திய மண் அடுக்கால் மேலிருந்து முழுவதுமாக காற்று புகாமல் மூடப்படுகிறது.",
+              "ಸೈಲೇಜ್ ತಯಾರಿಸಲು ವಿಶೇಷವಾಗಿ ನಿರ್ಮಿಸಿದ ಗುಂಡಿ ಅಥವಾ ರಾಶಿ. ಸಣ್ಣ ತುಂಡುಗಳಾಗಿ ಕತ್ತರಿಸಿದ ಹಸಿರು ಮೇವನ್ನು ಒತ್ತಿದ ಪದರಗಳಾಗಿ ಇದರಲ್ಲಿ ತುಂಬಿಸಲಾಗುತ್ತದೆ, ನಂತರ ಸಾಮಾನ್ಯವಾಗಿ ಪ್ಲಾಸ್ಟಿಕ್ ಹಾಳೆ ಮತ್ತು ಒತ್ತಿದ ಮಣ್ಣಿನ ಪದರದಿಂದ ಮೇಲಿನಿಂದ ಸಂಪೂರ್ಣವಾಗಿ ಗಾಳಿ ಸೇರದಂತೆ ಮುಚ್ಚಲಾಗುತ್ತದೆ.",
+              "साइलेज बनाने के लिए विशेष रूप से बनाया गया गड्ढा या ढेर। छोटे टुकड़ों में कटा हरा चारा इसमें दबाई गई परतों में भरा जाता है, फिर आमतौर पर प्लास्टिक शीट और दबी हुई मिट्टी की परत से ऊपर से पूरी तरह हवा-रोधी सील किया जाता है।"
             ),
           },
           {
             type: "text",
-            heading: L("Why Sealing It Airtight Matters"),
+            heading: L(
+              "Why Sealing It Airtight Matters",
+              "గాలి చొరబడకుండా మూసివేయడం ఎందుకు ముఖ్యం",
+              "காற்று புகாமல் மூடுவது ஏன் முக்கியம்",
+              "ಗಾಳಿ ಸೇರದಂತೆ ಮುಚ್ಚುವುದು ಏಕೆ ಮುಖ್ಯ",
+              "हवा-रोधी सील करना क्यों जरूरी है"
+            ),
             html: L(
-              "The whole idea behind silage is keeping air out. Once the silo pit is completely filled and pressed down, it is sealed airtight at the top. If any cracks appear in the sealed covering later on, they need to be patched up straight away with more soil — a crack that lets air in can spoil the silage underneath it."
+              "The whole idea behind silage is keeping air out. Once the silo pit is completely filled and pressed down, it is sealed airtight at the top. If any cracks appear in the sealed covering later on, they need to be patched up straight away with more soil — a crack that lets air in can spoil the silage underneath it.",
+              "సైలేజ్ వెనుక ఉన్న మొత్తం ఆలోచన గాలిని బయటే ఉంచడం. సైలో గొయ్యి పూర్తిగా నింపి, అదిమిన తర్వాత, పైనుండి గాలి చొరబడకుండా మూసేస్తారు. తర్వాత మూసేసిన కప్పులో ఏవైనా పగుళ్లు కనిపిస్తే, వెంటనే మరింత మట్టితో పూడ్చాలి — గాలిని లోపలికి రానిచ్చే పగులు దాని కింద ఉన్న సైలేజ్‌ను చెడగొట్టవచ్చు.",
+              "சைலேஜின் பின்னணியில் உள்ள முழுக் கருத்தும் காற்றை வெளியே வைத்திருப்பதுதான். சைலோ குழி முழுவதுமாக நிரப்பப்பட்டு அழுத்தப்பட்ட பிறகு, மேலிருந்து காற்று புகாமல் மூடப்படுகிறது. பின்னர் மூடிய அடுக்கில் ஏதேனும் விரிசல்கள் தோன்றினால், உடனடியாக மேலும் மண்ணால் அடைக்க வேண்டும் — காற்று உள்ளே செல்ல அனுமதிக்கும் விரிசல் அதன் கீழுள்ள சைலேஜைக் கெடுக்கக்கூடும்.",
+              "ಸೈಲೇಜ್ ಹಿಂದಿನ ಸಂಪೂರ್ಣ ಕಲ್ಪನೆ ಗಾಳಿಯನ್ನು ಹೊರಗಿಡುವುದು. ಸೈಲೋ ಗುಂಡಿ ಸಂಪೂರ್ಣವಾಗಿ ತುಂಬಿ, ಒತ್ತಿದ ನಂತರ, ಮೇಲಿನಿಂದ ಗಾಳಿ ಸೇರದಂತೆ ಮುಚ್ಚಲಾಗುತ್ತದೆ. ನಂತರ ಮುಚ್ಚಿದ ಹೊದಿಕೆಯಲ್ಲಿ ಯಾವುದೇ ಬಿರುಕುಗಳು ಕಂಡುಬಂದರೆ, ತಕ್ಷಣ ಇನ್ನಷ್ಟು ಮಣ್ಣಿನಿಂದ ಮುಚ್ಚಬೇಕು — ಗಾಳಿ ಒಳಗೆ ಸೇರಲು ಬಿಡುವ ಬಿರುಕು ಅದರ ಕೆಳಗಿನ ಸೈಲೇಜ್ ಅನ್ನು ಹಾಳುಮಾಡಬಹುದು.",
+              "साइलेज के पीछे पूरा विचार हवा को बाहर रखना है। साइलो गड्ढा पूरी तरह भर जाने और दबाए जाने के बाद, ऊपर से हवा-रोधी सील किया जाता है। बाद में अगर सील की गई परत में कोई दरार दिखे, तो उसे तुरंत और मिट्टी से बंद करना चाहिए — हवा अंदर जाने देने वाली दरार उसके नीचे के साइलेज को खराब कर सकती है।"
             ),
           },
           {
             type: "callout",
             style: "tip",
-            heading: L("Feeding Silage: Give It Time, and Introduce It Slowly"),
+            heading: L(
+              "Feeding Silage: Give It Time, and Introduce It Slowly",
+              "సైలేజ్ తినిపించడం: సమయం ఇవ్వండి, నెమ్మదిగా అలవాటు చేయండి",
+              "சைலேஜ் ஊட்டுதல்: நேரம் கொடுங்கள், மெதுவாக அறிமுகப்படுத்துங்கள்",
+              "ಸೈಲೇಜ್ ತಿನ್ನಿಸುವುದು: ಸಮಯ ಕೊಡಿ, ನಿಧಾನವಾಗಿ ಪರಿಚಯಿಸಿ",
+              "साइलेज खिलाना: समय दें, और धीरे-धीरे शुरू करें"
+            ),
             text: L(
-              "Silage needs some weeks sealed away before it's ready to feed. Once opened, take out only as much as the animals need for that day, and reseal the rest so it keeps well until the next feeding. When first introducing silage to an animal's diet, start with smaller quantities and increase gradually, rather than switching over all at once."
+              "Silage needs some weeks sealed away before it's ready to feed. Once opened, take out only as much as the animals need for that day, and reseal the rest so it keeps well until the next feeding. When first introducing silage to an animal's diet, start with smaller quantities and increase gradually, rather than switching over all at once.",
+              "సైలేజ్ తినిపించడానికి సిద్ధమయ్యేముందు కొన్ని వారాలు మూసివేసి ఉంచాలి. తెరిచిన తర్వాత, ఆ రోజుకు జంతువులకు అవసరమైనంత మాత్రమే తీయండి, మిగిలింది తర్వాతి తినిపించే వరకు బాగా నిల్వ ఉండేలా మళ్లీ మూసివేయండి. జంతువు ఆహారంలో సైలేజ్‌ను మొదటిసారి ప్రవేశపెట్టేటప్పుడు, ఒకేసారి పూర్తిగా మార్చడానికి బదులు తక్కువ మోతాదులతో ప్రారంభించి క్రమంగా పెంచండి.",
+              "சைலேஜ் ஊட்ட தயாராவதற்கு முன் சில வாரங்கள் மூடி வைக்க வேண்டும். திறந்த பிறகு, அன்றைய தேவைக்கு விலங்குகளுக்கு வேண்டியதை மட்டும் எடுத்து, மீதமுள்ளதை அடுத்த ஊட்டும் நேரம் வரை நன்றாக இருக்க மீண்டும் மூடவும். விலங்கின் உணவில் சைலேஜை முதன் முதலில் அறிமுகப்படுத்தும் போது, ஒரே நேரத்தில் முழுவதுமாக மாற்றுவதற்குப் பதிலாக குறைவான அளவில் தொடங்கி படிப்படியாக அதிகரிக்கவும்.",
+              "ಸೈಲೇಜ್ ತಿನ್ನಿಸಲು ಸಿದ್ಧವಾಗುವ ಮೊದಲು ಕೆಲವು ವಾರಗಳ ಕಾಲ ಮುಚ್ಚಿಡಬೇಕು. ತೆರೆದ ನಂತರ, ಆ ದಿನಕ್ಕೆ ಪ್ರಾಣಿಗಳಿಗೆ ಬೇಕಾದಷ್ಟು ಮಾತ್ರ ತೆಗೆದುಕೊಂಡು, ಉಳಿದದ್ದನ್ನು ಮುಂದಿನ ಆಹಾರದ ಸಮಯದವರೆಗೆ ಚೆನ್ನಾಗಿ ಇರುವಂತೆ ಮತ್ತೆ ಮುಚ್ಚಿ. ಪ್ರಾಣಿಯ ಆಹಾರದಲ್ಲಿ ಸೈಲೇಜ್ ಅನ್ನು ಮೊದಲ ಬಾರಿ ಪರಿಚಯಿಸುವಾಗ, ಒಮ್ಮೆಗೇ ಸಂಪೂರ್ಣ ಬದಲಾಯಿಸುವ ಬದಲು ಕಡಿಮೆ ಪ್ರಮಾಣದಿಂದ ಪ್ರಾರಂಭಿಸಿ ಕ್ರಮೇಣ ಹೆಚ್ಚಿಸಿ.",
+              "साइलेज को खिलाने लायक होने से पहले कुछ हफ्तों तक बंद रखने की जरूरत होती है। खोलने के बाद, उस दिन पशुओं को जितनी जरूरत हो उतना ही निकालें, और बाकी को अगली बार खिलाने तक अच्छा बना रहे इसके लिए फिर से सील कर दें। पशु के आहार में साइलेज पहली बार शुरू करते समय, एक बार में पूरी तरह बदलने के बजाय कम मात्रा से शुरू करें और धीरे-धीरे बढ़ाएं।"
             ),
           },
         ],
         check: [
           {
             type: "mcq",
-            q: L("What is the key idea behind how silage is made?"),
+            q: L(
+              "What is the key idea behind how silage is made?",
+              "సైలేజ్ తయారీ వెనుక ఉన్న ముఖ్య ఆలోచన ఏమిటి?",
+              "சைலேஜ் தயாரிக்கப்படும் விதத்தின் பின்னணியில் உள்ள முக்கியக் கருத்து என்ன?",
+              "ಸೈಲೇಜ್ ತಯಾರಿಕೆಯ ಹಿಂದಿನ ಮುಖ್ಯ ಕಲ್ಪನೆ ಏನು?",
+              "साइलेज बनाने के पीछे मुख्य विचार क्या है?"
+            ),
             options: [
-              L("Drying the fodder completely in the sun"),
-              L("Packing moist, chopped green fodder tightly and sealing it away from air"),
-              L("Mixing fodder with urea before feeding"),
-              L("Leaving fodder loosely piled in the open"),
+              L(
+                "Drying the fodder completely in the sun",
+                "మేతను పూర్తిగా ఎండలో ఎండించడం",
+                "தீவனத்தை வெயிலில் முழுவதுமாக காயவைப்பது",
+                "ಮೇವನ್ನು ಬಿಸಿಲಿನಲ್ಲಿ ಸಂಪೂರ್ಣವಾಗಿ ಒಣಗಿಸುವುದು",
+                "चारे को धूप में पूरी तरह सुखाना"
+              ),
+              L(
+                "Packing moist, chopped green fodder tightly and sealing it away from air",
+                "తేమగా ఉన్న, చిన్న ముక్కలుగా కోసిన పచ్చి మేతను గట్టిగా అదిమి గాలి తగలకుండా మూసివేయడం",
+                "ஈரமான, நறுக்கிய பசுந்தீவனத்தை இறுக்கமாக அடைத்து காற்று படாமல் மூடுவது",
+                "ತೇವವಾದ, ಕತ್ತರಿಸಿದ ಹಸಿರು ಮೇವನ್ನು ಬಿಗಿಯಾಗಿ ಒತ್ತಿ ಗಾಳಿ ಸೇರದಂತೆ ಮುಚ್ಚುವುದು",
+                "नम, कटे हुए हरे चारे को कसकर दबाकर हवा से बचाकर सील करना"
+              ),
+              L(
+                "Mixing fodder with urea before feeding",
+                "తినిపించే ముందు మేతను యూరియాతో కలపడం",
+                "ஊட்டுவதற்கு முன் தீவனத்தை யூரியாவுடன் கலப்பது",
+                "ತಿನ್ನಿಸುವ ಮೊದಲು ಮೇವನ್ನು ಯೂರಿಯಾದೊಂದಿಗೆ ಬೆರೆಸುವುದು",
+                "खिलाने से पहले चारे को यूरिया के साथ मिलाना"
+              ),
+              L(
+                "Leaving fodder loosely piled in the open",
+                "మేతను బహిరంగంగా వదులుగా కుప్పగా వదిలేయడం",
+                "தீவனத்தை திறந்த வெளியில் தளர்வாக குவித்து விடுவது",
+                "ಮೇವನ್ನು ಬಯಲಿನಲ್ಲಿ ಸಡಿಲವಾಗಿ ರಾಶಿ ಹಾಕಿ ಬಿಡುವುದು",
+                "चारे को खुले में ढीला ढेर करके छोड़ देना"
+              ),
             ],
             answer: 1,
-            explain: L("Silage is made by packing moist, chopped fodder tightly into a silo pit and sealing it airtight, which is very different from hay's sun-drying approach."),
+            explain: L(
+              "Silage is made by packing moist, chopped fodder tightly into a silo pit and sealing it airtight, which is very different from hay's sun-drying approach.",
+              "సైలేజ్‌ను తేమగా ఉన్న, చిన్న ముక్కలుగా కోసిన మేతను సైలో గొయ్యిలో గట్టిగా అదిమి, గాలి చొరబడకుండా మూసివేయడం ద్వారా తయారు చేస్తారు, ఇది ఎండుమేత తయారీ (ఎండలో ఎండించడం) పద్ధతికి పూర్తిగా భిన్నమైనది.",
+              "சைலேஜ் ஈரமான, நறுக்கிய தீவனத்தை சைலோ குழியில் இறுக்கமாக அடைத்து, காற்று புகாமல் மூடுவதன் மூலம் தயாரிக்கப்படுகிறது, இது உலர் தீவனத்தின் வெயிலில் காயவைக்கும் முறையிலிருந்து முற்றிலும் வேறுபட்டது.",
+              "ಸೈಲೇಜ್ ಅನ್ನು ತೇವವಾದ, ಕತ್ತರಿಸಿದ ಮೇವನ್ನು ಸೈಲೋ ಗುಂಡಿಯಲ್ಲಿ ಬಿಗಿಯಾಗಿ ಒತ್ತಿ, ಗಾಳಿ ಸೇರದಂತೆ ಮುಚ್ಚುವ ಮೂಲಕ ತಯಾರಿಸಲಾಗುತ್ತದೆ, ಇದು ಒಣ ಮೇವಿನ ಬಿಸಿಲಿನಲ್ಲಿ ಒಣಗಿಸುವ ವಿಧಾನಕ್ಕಿಂತ ಸಂಪೂರ್ಣ ಭಿನ್ನವಾಗಿದೆ.",
+              "साइलेज नम, कटे हुए चारे को साइलो गड्ढे में कसकर दबाकर और हवा-रोधी सील करके बनाया जाता है, जो सूखे चारे की धूप में सुखाने की विधि से बिल्कुल अलग है।"
+            ),
           },
           {
             type: "truefalse",
-            q: L("If a crack appears in the sealed covering of a silo pit, it should be patched right away with more soil."),
+            q: L(
+              "If a crack appears in the sealed covering of a silo pit, it should be patched right away with more soil.",
+              "సైలో గొయ్యి యొక్క మూసివేసిన కప్పులో పగులు కనిపిస్తే, వెంటనే మరింత మట్టితో పూడ్చాలి.",
+              "சைலோ குழியின் மூடிய அடுக்கில் விரிசல் தோன்றினால், உடனடியாக மேலும் மண்ணால் அடைக்க வேண்டும்.",
+              "ಸೈಲೋ ಗುಂಡಿಯ ಮುಚ್ಚಿದ ಹೊದಿಕೆಯಲ್ಲಿ ಬಿರುಕು ಕಂಡುಬಂದರೆ, ತಕ್ಷಣ ಇನ್ನಷ್ಟು ಮಣ್ಣಿನಿಂದ ಮುಚ್ಚಬೇಕು.",
+              "अगर साइलो गड्ढे की सील की गई परत में दरार दिखे, तो उसे तुरंत और मिट्टी से बंद कर देना चाहिए।"
+            ),
             answer: true,
-            explain: L("Correct — a crack lets air in, which can spoil the silage, so it should be sealed again promptly."),
+            explain: L(
+              "Correct — a crack lets air in, which can spoil the silage, so it should be sealed again promptly.",
+              "సరైనది — పగులు గాలిని లోపలికి రానిస్తుంది, ఇది సైలేజ్‌ను చెడగొట్టవచ్చు, కాబట్టి వెంటనే మళ్లీ మూసివేయాలి.",
+              "சரியானது — விரிசல் காற்றை உள்ளே செல்ல அனுமதிக்கும், இது சைலேஜைக் கெடுக்கக்கூடும், எனவே உடனடியாக மீண்டும் மூட வேண்டும்.",
+              "ಸರಿಯಾಗಿದೆ — ಬಿರುಕು ಗಾಳಿಯನ್ನು ಒಳಗೆ ಬಿಡುತ್ತದೆ, ಇದು ಸೈಲೇಜ್ ಅನ್ನು ಹಾಳುಮಾಡಬಹುದು, ಆದ್ದರಿಂದ ತಕ್ಷಣ ಮತ್ತೆ ಮುಚ್ಚಬೇಕು.",
+              "सही — दरार से हवा अंदर जाती है, जो साइलेज को खराब कर सकती है, इसलिए इसे तुरंत फिर से सील करना चाहिए।"
+            ),
           },
         ],
       },
@@ -13015,43 +13525,144 @@ export const MODULES = [
         {
           topicId: "t-m15-hay",
           type: "mcq",
-          q: L("Why is fodder conserved as hay or silage in the first place?"),
+          q: L(
+            "Why is fodder conserved as hay or silage in the first place?",
+            "మేతను ఎండుమేత లేదా సైలేజ్‌గా ఎందుకు నిల్వ చేస్తారు?",
+            "தீவனத்தை உலர் தீவனமாகவோ சைலேஜாகவோ ஏன் பாதுகாக்கிறோம்?",
+            "ಮೇವನ್ನು ಒಣ ಮೇವು ಅಥವಾ ಸೈಲೇಜ್ ಆಗಿ ಏಕೆ ಸಂರಕ್ಷಿಸಲಾಗುತ್ತದೆ?",
+            "चारे को सूखे चारे या साइलेज के रूप में सबसे पहले क्यों सुरक्षित रखा जाता है?"
+          ),
           options: [
-            L("To make it taste different"),
-            L("To use up surplus fodder during plentiful months so it can feed animals in deficit months, instead of being wasted"),
-            L("Because fresh green fodder is harmful to animals"),
-            L("It is required by law"),
+            L(
+              "To make it taste different",
+              "దాని రుచిని మార్చడానికి",
+              "அதன் சுவையை மாற்றுவதற்கு",
+              "ಅದರ ರುಚಿಯನ್ನು ಬದಲಾಯಿಸಲು",
+              "इसका स्वाद बदलने के लिए"
+            ),
+            L(
+              "To use up surplus fodder during plentiful months so it can feed animals in deficit months, instead of being wasted",
+              "సమృద్ధి నెలల్లో మిగులు మేతను వాడుకుని, వృథా చేయకుండా లోటు నెలల్లో జంతువులకు తినిపించడానికి",
+              "ஏராளமான மாதங்களில் உள்ள உபரி தீவனத்தை வீணாக்காமல் பற்றாக்குறை மாதங்களில் விலங்குகளுக்கு ஊட்ட பயன்படுத்த",
+              "ಹೇರಳ ತಿಂಗಳುಗಳಲ್ಲಿ ಹೆಚ್ಚುವರಿ ಮೇವನ್ನು ಬಳಸಿ, ವ್ಯರ್ಥ ಮಾಡದೆ ಕೊರತೆಯ ತಿಂಗಳುಗಳಲ್ಲಿ ಪ್ರಾಣಿಗಳಿಗೆ ತಿನ್ನಿಸಲು",
+              "भरपूर महीनों में अतिरिक्त चारे का उपयोग करके, बर्बाद होने के बजाय कमी वाले महीनों में पशुओं को खिलाने के लिए"
+            ),
+            L(
+              "Because fresh green fodder is harmful to animals",
+              "తాజా పచ్చి మేత జంతువులకు హానికరం కాబట్టి",
+              "புதிய பசுந்தீவனம் விலங்குகளுக்கு தீங்கு விளைவிப்பதால்",
+              "ತಾಜಾ ಹಸಿರು ಮೇವು ಪ್ರಾಣಿಗಳಿಗೆ ಹಾನಿಕರವಾಗಿರುವುದರಿಂದ",
+              "क्योंकि ताजा हरा चारा पशुओं के लिए हानिकारक होता है"
+            ),
+            L(
+              "It is required by law",
+              "ఇది చట్టం ప్రకారం అవసరం",
+              "இது சட்டப்படி கட்டாயமானது",
+              "ಇದು ಕಾನೂನಿನ ಪ್ರಕಾರ ಅಗತ್ಯ",
+              "यह कानून द्वारा जरूरी है"
+            ),
           ],
           answer: 1,
-          explain: L("Conserving surplus fodder as hay or silage lets it be used during the lean months, reducing waste and keeping a steadier feed supply."),
+          explain: L(
+            "Conserving surplus fodder as hay or silage lets it be used during the lean months, reducing waste and keeping a steadier feed supply.",
+            "మిగులు మేతను ఎండుమేత లేదా సైలేజ్‌గా నిల్వ చేయడం వల్ల లోటు నెలల్లో వాడుకోవచ్చు, వృథాను తగ్గించి మరింత స్థిరమైన మేత సరఫరాను నిర్వహించవచ్చు.",
+            "உபரி தீவனத்தை உலர் தீவனமாகவோ சைலேஜாகவோ பாதுகாப்பது பற்றாக்குறை மாதங்களில் பயன்படுத்த அனுமதிக்கிறது, வீணை குறைத்து நிலையான தீவன வழங்கலைப் பேணுகிறது.",
+            "ಹೆಚ್ಚುವರಿ ಮೇವನ್ನು ಒಣ ಮೇವು ಅಥವಾ ಸೈಲೇಜ್ ಆಗಿ ಸಂರಕ್ಷಿಸುವುದರಿಂದ ಕೊರತೆಯ ತಿಂಗಳುಗಳಲ್ಲಿ ಬಳಸಬಹುದು, ವ್ಯರ್ಥ ಕಡಿಮೆ ಮಾಡಿ ಸ್ಥಿರವಾದ ಮೇವು ಪೂರೈಕೆ ಕಾಪಾಡಬಹುದು.",
+            "अतिरिक्त चारे को सूखे चारे या साइलेज के रूप में सुरक्षित रखने से इसे कमी वाले महीनों में इस्तेमाल किया जा सकता है, जिससे बर्बादी कम होती है और चारा आपूर्ति अधिक स्थिर बनी रहती है।"
+          ),
         },
         {
           topicId: "t-m15-hay",
           type: "mcq",
-          q: L("Roughly what moisture level should hay be dried down to before storage?"),
-          options: [L("Below about 15 per cent"), L("About 65 to 70 per cent"), L("It should stay fully wet"), L("Moisture level doesn't matter for hay")],
+          q: L(
+            "Roughly what moisture level should hay be dried down to before storage?",
+            "నిల్వ చేయడానికి ముందు ఎండుమేతను ఏ తేమ స్థాయికి ఎండించాలి?",
+            "சேமிக்கும் முன் உலர் தீவனத்தை எந்த ஈரப்பத அளவிற்கு காயவைக்க வேண்டும்?",
+            "ಸಂಗ್ರಹಣೆಗೂ ಮೊದಲು ಒಣ ಮೇವನ್ನು ಸುಮಾರು ಎಷ್ಟು ತೇವಾಂಶಕ್ಕೆ ಒಣಗಿಸಬೇಕು?",
+            "भंडारण से पहले सूखे चारे को लगभग कितनी नमी तक सुखाया जाना चाहिए?"
+          ),
+          options: [
+            L("Below about 15 per cent", "సుమారు 15 శాతం కంటే తక్కువకు", "சுமார் 15 சதவீதத்திற்குக் கீழே", "ಸುಮಾರು 15 ಪ್ರತಿಶತಕ್ಕಿಂತ ಕಡಿಮೆ", "करीब 15 प्रतिशत से कम"),
+            L("About 65 to 70 per cent", "సుమారు 65 నుండి 70 శాతం", "சுமார் 65 முதல் 70 சதவீதம் வரை", "ಸುಮಾರು 65 ರಿಂದ 70 ಪ್ರತಿಶತ", "करीब 65 से 70 प्रतिशत"),
+            L("It should stay fully wet", "అది పూర్తిగా తడిగానే ఉండాలి", "அது முழுவதும் ஈரமாகவே இருக்க வேண்டும்", "ಅದು ಸಂಪೂರ್ಣ ಒದ್ದೆಯಾಗಿಯೇ ಇರಬೇಕು", "यह पूरी तरह गीला ही रहना चाहिए"),
+            L("Moisture level doesn't matter for hay", "ఎండుమేతకు తేమ స్థాయితో సంబంధం లేదు", "உலர் தீவனத்திற்கு ஈரப்பத அளவு முக்கியமில்லை", "ಒಣ ಮೇವಿಗೆ ತೇವಾಂಶ ಮಟ್ಟ ಮುಖ್ಯವಲ್ಲ", "सूखे चारे के लिए नमी का स्तर मायने नहीं रखता"),
+          ],
           answer: 0,
-          explain: L("Hay is dried until its moisture is below about 15 per cent — that's what makes it store well."),
+          explain: L(
+            "Hay is dried until its moisture is below about 15 per cent — that's what makes it store well.",
+            "ఎండుమేతను తేమ సుమారు 15 శాతం కంటే తక్కువయ్యే వరకు ఎండిస్తారు — ఇదే దీన్ని బాగా నిల్వ ఉండేలా చేస్తుంది.",
+            "உலர் தீவனம் ஈரப்பதம் சுமார் 15 சதவீதத்திற்குக் கீழே வரும் வரை காயவைக்கப்படுகிறது — இதுவே இது நன்றாக சேமிக்க வைக்கிறது.",
+            "ಒಣ ಮೇವನ್ನು ತೇವಾಂಶ ಸುಮಾರು 15 ಪ್ರತಿಶತಕ್ಕಿಂತ ಕಡಿಮೆಯಾಗುವವರೆಗೆ ಒಣಗಿಸಲಾಗುತ್ತದೆ — ಇದೇ ಇದನ್ನು ಚೆನ್ನಾಗಿ ಸಂಗ್ರಹವಾಗುವಂತೆ ಮಾಡುತ್ತದೆ.",
+            "सूखे चारे को तब तक सुखाया जाता है जब तक उसकी नमी करीब 15 प्रतिशत से कम न हो जाए — यही इसे अच्छी तरह सुरक्षित रखने लायक बनाता है।"
+          ),
         },
         {
           topicId: "t-m15-silage",
           type: "mcq",
-          q: L("What is a silo pit used for?"),
+          q: L(
+            "What is a silo pit used for?",
+            "సైలో గొయ్యిని దేనికి ఉపయోగిస్తారు?",
+            "சைலோ குழி எதற்காக பயன்படுத்தப்படுகிறது?",
+            "ಸೈಲೋ ಗುಂಡಿಯನ್ನು ಯಾವುದಕ್ಕೆ ಬಳಸಲಾಗುತ್ತದೆ?",
+            "साइलो गड्ढे का उपयोग किसके लिए किया जाता है?"
+          ),
           options: [
-            L("Sun-drying green fodder into hay"),
-            L("Packing and sealing chopped green fodder airtight to make silage"),
-            L("Storing bags of cattle feed concentrate"),
-            L("Treating straw with urea"),
+            L(
+              "Sun-drying green fodder into hay",
+              "పచ్చి మేతను ఎండలో ఎండించి ఎండుమేతగా మార్చడానికి",
+              "பசுந்தீவனத்தை வெயிலில் காயவைத்து உலர் தீவனமாக்குவதற்கு",
+              "ಹಸಿರು ಮೇವನ್ನು ಬಿಸಿಲಿನಲ್ಲಿ ಒಣಗಿಸಿ ಒಣ ಮೇವಾಗಿಸಲು",
+              "हरे चारे को धूप में सुखाकर सूखा चारा बनाने के लिए"
+            ),
+            L(
+              "Packing and sealing chopped green fodder airtight to make silage",
+              "సైలేజ్ తయారు చేయడానికి చిన్న ముక్కలుగా కోసిన పచ్చి మేతను అదిమి గాలి చొరబడకుండా మూసివేయడానికి",
+              "சைலேஜ் தயாரிக்க நறுக்கிய பசுந்தீவனத்தை அடைத்து காற்று புகாமல் மூடுவதற்கு",
+              "ಸೈಲೇಜ್ ತಯಾರಿಸಲು ಕತ್ತರಿಸಿದ ಹಸಿರು ಮೇವನ್ನು ಒತ್ತಿ ಗಾಳಿ ಸೇರದಂತೆ ಮುಚ್ಚಲು",
+              "साइलेज बनाने के लिए कटे हुए हरे चारे को दबाकर हवा-रोधी सील करने के लिए"
+            ),
+            L(
+              "Storing bags of cattle feed concentrate",
+              "దాణా బస్తాలను నిల్వ చేయడానికి",
+              "கால்நடை உணவு செறிவூட்டப் பைகளை சேமிப்பதற்கு",
+              "ದನದ ಆಹಾರ ಕಾನ್ಸಂಟ್ರೇಟ್ ಚೀಲಗಳನ್ನು ಸಂಗ್ರಹಿಸಲು",
+              "पशु आहार सांद्र की बोरियों को भंडारित करने के लिए"
+            ),
+            L(
+              "Treating straw with urea",
+              "గడ్డిని యూరియాతో శుద్ధి చేయడానికి",
+              "வைக்கோலை யூரியாவால் சிகிச்சை செய்வதற்கு",
+              "ಒಣಹುಲ್ಲನ್ನು ಯೂರಿಯಾದಿಂದ ಸಂಸ್ಕರಿಸಲು",
+              "भूसे को यूरिया से उपचारित करने के लिए"
+            ),
           ],
           answer: 1,
-          explain: L("A silo pit is where chopped green fodder is packed down in layers and then sealed airtight to turn it into silage."),
+          explain: L(
+            "A silo pit is where chopped green fodder is packed down in layers and then sealed airtight to turn it into silage.",
+            "సైలో గొయ్యి అంటే చిన్న ముక్కలుగా కోసిన పచ్చి మేతను పొరలుగా అదిమి, తర్వాత గాలి చొరబడకుండా మూసివేసి సైలేజ్‌గా మార్చే స్థలం.",
+            "சைலோ குழி என்பது நறுக்கிய பசுந்தீவனத்தை அடுக்குகளாக அடைத்து, பின்னர் காற்று புகாமல் மூடி சைலேஜாக மாற்றும் இடம்.",
+            "ಸೈಲೋ ಗುಂಡಿ ಎಂದರೆ ಕತ್ತರಿಸಿದ ಹಸಿರು ಮೇವನ್ನು ಪದರಗಳಾಗಿ ಒತ್ತಿ, ನಂತರ ಗಾಳಿ ಸೇರದಂತೆ ಮುಚ್ಚಿ ಸೈಲೇಜ್ ಆಗಿ ಪರಿವರ್ತಿಸುವ ಸ್ಥಳ.",
+            "साइलो गड्ढा वह जगह है जहां कटे हुए हरे चारे को परतों में दबाया जाता है और फिर हवा-रोधी सील करके साइलेज में बदला जाता है।"
+          ),
         },
         {
           topicId: "t-m15-silage",
           type: "truefalse",
-          q: L("When silage is first introduced to an animal's diet, it should be fed in small amounts at first and increased gradually."),
+          q: L(
+            "When silage is first introduced to an animal's diet, it should be fed in small amounts at first and increased gradually.",
+            "జంతువు ఆహారంలో సైలేజ్‌ను మొదటిసారి ప్రవేశపెట్టేటప్పుడు, మొదట తక్కువ మోతాదులో తినిపించి క్రమంగా పెంచాలి.",
+            "விலங்கின் உணவில் சைலேஜ் முதன் முதலில் அறிமுகப்படுத்தப்படும் போது, முதலில் சிறிய அளவில் ஊட்டி படிப்படியாக அதிகரிக்க வேண்டும்.",
+            "ಪ್ರಾಣಿಯ ಆಹಾರದಲ್ಲಿ ಸೈಲೇಜ್ ಅನ್ನು ಮೊದಲ ಬಾರಿ ಪರಿಚಯಿಸುವಾಗ, ಮೊದಲಿಗೆ ಕಡಿಮೆ ಪ್ರಮಾಣದಲ್ಲಿ ತಿನ್ನಿಸಿ ಕ್ರಮೇಣ ಹೆಚ್ಚಿಸಬೇಕು.",
+            "जब पशु के आहार में साइलेज पहली बार शामिल किया जाता है, तो पहले कम मात्रा में खिलाना चाहिए और धीरे-धीरे बढ़ाना चाहिए।"
+          ),
           answer: true,
-          explain: L("Correct — starting with smaller quantities lets the animal adjust to silage before feeding it as a larger part of the diet."),
+          explain: L(
+            "Correct — starting with smaller quantities lets the animal adjust to silage before feeding it as a larger part of the diet.",
+            "సరైనది — తక్కువ మోతాదులతో ప్రారంభించడం వల్ల జంతువు సైలేజ్‌కు అలవాటుపడుతుంది, తర్వాత దాన్ని ఆహారంలో ఎక్కువ భాగంగా తినిపించవచ్చు.",
+            "சரியானது — சிறிய அளவுகளில் தொடங்குவது விலங்கு சைலேஜுக்கு பழகிக்கொள்ள உதவும், பின்னர் அதை உணவின் பெரிய பகுதியாக ஊட்டலாம்.",
+            "ಸರಿಯಾಗಿದೆ — ಕಡಿಮೆ ಪ್ರಮಾಣದಿಂದ ಪ್ರಾರಂಭಿಸುವುದರಿಂದ ಪ್ರಾಣಿ ಸೈಲೇಜ್‌ಗೆ ಹೊಂದಿಕೊಳ್ಳುತ್ತದೆ, ನಂತರ ಅದನ್ನು ಆಹಾರದ ದೊಡ್ಡ ಭಾಗವಾಗಿ ತಿನ್ನಿಸಬಹುದು.",
+            "सही — कम मात्रा से शुरू करने से पशु साइलेज के अनुकूल हो जाता है, इसके बाद इसे आहार के बड़े हिस्से के रूप में खिलाया जा सकता है।"
+          ),
         },
       ],
     },
@@ -13062,70 +13673,150 @@ export const MODULES = [
   // ==================================================================
   {
     id: "m15-l3",
-    title: L("Making the Most of Crop Residues: Urea Treatment"),
+    title: L(
+      "Making the Most of Crop Residues: Urea Treatment",
+      "పంట అవశేషాలను పూర్తిగా వినియోగించుకోవడం: యూరియా శుద్ధి",
+      "பயிர் எச்சங்களை முழுமையாகப் பயன்படுத்துதல்: யூரியா சிகிச்சை",
+      "ಬೆಳೆ ಅವಶೇಷಗಳನ್ನು ಪೂರ್ಣವಾಗಿ ಬಳಸಿಕೊಳ್ಳುವುದು: ಯೂರಿಯಾ ಸಂಸ್ಕರಣೆ",
+      "फसल अवशेषों का पूरा उपयोग करना: यूरिया उपचार"
+    ),
     estMinutes: 9,
     hook: [
       {
         type: "hero",
-        heading: L("Turning Poor-Quality Straw Into Better Feed"),
+        heading: L(
+          "Turning Poor-Quality Straw Into Better Feed",
+          "నాసిరకం గడ్డిని మెరుగైన దాణాగా మార్చడం",
+          "தரம் குறைந்த வைக்கோலை சிறந்த தீவனமாக மாற்றுதல்",
+          "ಕಳಪೆ ಗುಣಮಟ್ಟದ ಒಣಹುಲ್ಲನ್ನು ಉತ್ತಮ ಆಹಾರವಾಗಿ ಪರಿವರ್ತಿಸುವುದು",
+          "घटिया गुणवत्ता के भूसे को बेहतर चारे में बदलना"
+        ),
         text: L(
-          "Straw left over from crops like paddy, wheat, bajra and sorghum is usually plentiful on a farm — but on its own, it's poor-quality feed. A simple treatment using urea can make that straw noticeably more nutritious. Handled correctly, it's a genuinely useful farm practice. Handled carelessly, it can be dangerous — so this lesson is as much about safety as it is about the method itself."
+          "Straw left over from crops like paddy, wheat, bajra and sorghum is usually plentiful on a farm — but on its own, it's poor-quality feed. A simple treatment using urea can make that straw noticeably more nutritious. Handled correctly, it's a genuinely useful farm practice. Handled carelessly, it can be dangerous — so this lesson is as much about safety as it is about the method itself.",
+          "వరి, గోధుమ, సజ్జ మరియు జొన్న వంటి పంటల నుండి మిగిలిన గడ్డి సాధారణంగా ఫారంలో సమృద్ధిగా ఉంటుంది — కానీ అది స్వయంగా నాసిరకం దాణా. యూరియాను ఉపయోగించే ఒక సాధారణ శుద్ధి పద్ధతి ఆ గడ్డిని గణనీయంగా మరింత పోషకమైనదిగా మార్చగలదు. సరిగ్గా చేస్తే, ఇది నిజంగా ఉపయోగకరమైన ఫారం పద్ధతి. అజాగ్రత్తగా చేస్తే, ఇది ప్రమాదకరం కావచ్చు — కాబట్టి ఈ పాఠం పద్ధతి గురించి ఎంత ఉందో, భద్రత గురించి కూడా అంతే ఉంటుంది.",
+          "நெல், கோதுமை, கம்பு மற்றும் சோளக்கம்பு போன்ற பயிர்களிலிருந்து மீதமான வைக்கோல் பொதுவாக பண்ணையில் ஏராளமாக இருக்கும் — ஆனால் அது தானாகவே தரம் குறைந்த தீவனம். யூரியாவைப் பயன்படுத்தும் எளிய சிகிச்சை அந்த வைக்கோலை குறிப்பிடத்தக்க அளவு ஊட்டச்சத்து மிக்கதாக மாற்ற முடியும். சரியாகச் செய்தால், இது உண்மையிலேயே பயனுள்ள பண்ணை நடைமுறை. கவனக்குறைவாகச் செய்தால், இது ஆபத்தானதாக இருக்கலாம் — எனவே இந்தப் பாடம் முறையைப் பற்றி எவ்வளவு பேசுகிறதோ, பாதுகாப்பைப் பற்றியும் அவ்வளவே பேசுகிறது.",
+          "ಭತ್ತ, ಗೋಧಿ, ಸಜ್ಜೆ ಮತ್ತು ಜೋಳದಂತಹ ಬೆಳೆಗಳಿಂದ ಉಳಿದ ಒಣಹುಲ್ಲು ಸಾಮಾನ್ಯವಾಗಿ ಫಾರ್ಮ್‌ನಲ್ಲಿ ಹೇರಳವಾಗಿರುತ್ತದೆ — ಆದರೆ ಅದು ತಾನಾಗಿಯೇ ಕಳಪೆ ಗುಣಮಟ್ಟದ ಆಹಾರ. ಯೂರಿಯಾ ಬಳಸುವ ಸರಳ ಸಂಸ್ಕರಣೆ ಆ ಒಣಹುಲ್ಲನ್ನು ಗಮನಾರ್ಹವಾಗಿ ಹೆಚ್ಚು ಪೌಷ್ಟಿಕವಾಗಿಸಬಹುದು. ಸರಿಯಾಗಿ ನಿರ್ವಹಿಸಿದರೆ, ಇದು ನಿಜವಾಗಿಯೂ ಉಪಯುಕ್ತವಾದ ಫಾರ್ಮ್ ಅಭ್ಯಾಸ. ಅಜಾಗರೂಕತೆಯಿಂದ ನಿರ್ವಹಿಸಿದರೆ, ಇದು ಅಪಾಯಕಾರಿಯಾಗಬಹುದು — ಆದ್ದರಿಂದ ಈ ಪಾಠ ವಿಧಾನದ ಬಗ್ಗೆ ಎಷ್ಟು ಹೇಳುತ್ತದೋ, ಸುರಕ್ಷತೆಯ ಬಗ್ಗೆಯೂ ಅಷ್ಟೇ ಹೇಳುತ್ತದೆ.",
+          "धान, गेहूं, बाजरा और ज्वार जैसी फसलों से बचा हुआ भूसा आमतौर पर फार्म पर भरपूर मात्रा में होता है — लेकिन अपने आप में यह घटिया गुणवत्ता का चारा है। यूरिया का उपयोग करके किया गया एक सरल उपचार उस भूसे को काफी हद तक अधिक पोषक बना सकता है। सही तरीके से किया जाए तो यह वाकई उपयोगी फार्म पद्धति है। लापरवाही से किया जाए तो यह खतरनाक हो सकता है — इसलिए यह पाठ जितना तरीके के बारे में है, उतना ही सुरक्षा के बारे में भी है।"
         ),
       },
     ],
     topics: [
       {
         id: "t-m15-straw-problem",
-        title: L("Why Plain Straw Isn't Enough on Its Own"),
+        title: L(
+          "Why Plain Straw Isn't Enough on Its Own",
+          "సాధారణ గడ్డి ఒంటరిగా ఎందుకు సరిపోదు",
+          "வெறும் வைக்கோல் தானாகவே ஏன் போதுமானதாக இல்லை",
+          "ಸಾಮಾನ್ಯ ಒಣಹುಲ್ಲು ಒಂದೇ ಸಾಕಾಗದಿರುವುದು ಏಕೆ",
+          "सादा भूसा अपने आप में पर्याप्त क्यों नहीं है"
+        ),
         teach: [
             {
               type: "photo",
               src: "assets/photo-m15-straw.jpg",
-              alt: L("A field of golden crop stubble left after harvest, near Sangrur, Punjab, India"),
-              caption: L("Crop residue (straw stubble) left after harvest — the kind of straw that urea treatment can turn into better feed."),
+              alt: L(
+                "A field of golden crop stubble left after harvest, near Sangrur, Punjab, India",
+                "పంజాబ్‌లోని సంగ్రూర్ సమీపంలో పంట కోత తర్వాత మిగిలిన బంగారు రంగు మొదళ్ల పొలం",
+                "பஞ்சாபின் சங்ரூர் அருகே அறுவடைக்குப் பிறகு மீதமான தங்க நிற பயிர் அடிமரங்களின் வயல்",
+                "ಪಂಜಾಬ್‌ನ ಸಂಗ್ರೂರ್ ಬಳಿ ಕೊಯ್ಲಿನ ನಂತರ ಉಳಿದಿರುವ ಚಿನ್ನದ ಬಣ್ಣದ ಬೆಳೆ ಕೂಳೆಯ ಹೊಲ",
+                "पंजाब के संगरूर के पास फसल कटाई के बाद बचे सुनहरे ठूंठ का एक खेत"
+              ),
+              caption: L(
+                "Crop residue (straw stubble) left after harvest — the kind of straw that urea treatment can turn into better feed.",
+                "పంట కోత తర్వాత మిగిలిన పంట అవశేషం (గడ్డి మొదళ్లు) — యూరియా శుద్ధి మెరుగైన దాణాగా మార్చగలిగే గడ్డి రకం.",
+                "அறுவடைக்குப் பிறகு மீதமான பயிர் எச்சம் (வைக்கோல் அடிமரம்) — யூரியா சிகிச்சை சிறந்த தீவனமாக மாற்றக்கூடிய வைக்கோல் வகை.",
+                "ಕೊಯ್ಲಿನ ನಂತರ ಉಳಿದ ಬೆಳೆ ಅವಶೇಷ (ಒಣಹುಲ್ಲಿನ ಕೂಳೆ) — ಯೂರಿಯಾ ಸಂಸ್ಕರಣೆ ಉತ್ತಮ ಆಹಾರವಾಗಿ ಪರಿವರ್ತಿಸಬಹುದಾದ ಒಣಹುಲ್ಲಿನ ವಿಧ.",
+                "फसल कटाई के बाद बचा फसल अवशेष (भूसे का ठूंठ) — इस तरह का भूसा जिसे यूरिया उपचार बेहतर चारे में बदल सकता है।"
+              ),
             },
           {
             type: "text",
-            heading: L("Plenty of Straw, but Poor Nutrition"),
+            heading: L(
+              "Plenty of Straw, but Poor Nutrition",
+              "గడ్డి సమృద్ధిగా ఉంది, కానీ పోషణ తక్కువ",
+              "வைக்கோல் ஏராளம், ஆனால் ஊட்டச்சத்து குறைவு",
+              "ಒಣಹುಲ್ಲು ಹೇರಳ, ಆದರೆ ಪೋಷಣೆ ಕಡಿಮೆ",
+              "भूसा भरपूर, लेकिन पोषण कम"
+            ),
             html: L(
-              "Straws from crops like paddy, wheat, bajra and sorghum are usually available in large quantities on dairy farms. The problem is that these straws are naturally low in nutrients and hard for the animal to digest well — they generally contain less than 4 per cent protein, which is quite low."
+              "Straws from crops like paddy, wheat, bajra and sorghum are usually available in large quantities on dairy farms. The problem is that these straws are naturally low in nutrients and hard for the animal to digest well — they generally contain less than 4 per cent protein, which is quite low.",
+              "వరి, గోధుమ, సజ్జ మరియు జొన్న వంటి పంటల గడ్డి సాధారణంగా పాడి ఫారంలలో పెద్ద మొత్తంలో లభిస్తుంది. సమస్య ఏమిటంటే ఈ గడ్డులు సహజంగా పోషకాలు తక్కువగా ఉండి, జంతువుకు బాగా జీర్ణం కావడం కష్టం — వాటిలో సాధారణంగా 4 శాతం కంటే తక్కువ ప్రోటీన్ ఉంటుంది, ఇది చాలా తక్కువ.",
+              "நெல், கோதுமை, கம்பு மற்றும் சோளக்கம்பு போன்ற பயிர்களின் வைக்கோல் பொதுவாக பால் பண்ணைகளில் அதிக அளவில் கிடைக்கும். பிரச்சனை என்னவென்றால் இந்த வைக்கோல்கள் இயற்கையாகவே ஊட்டச்சத்து குறைவாக இருந்து, விலங்குக்கு நன்றாக செரிமானமாகுவது கடினமாக இருக்கும் — அவற்றில் பொதுவாக 4 சதவீதத்திற்கும் குறைவான புரதம் இருக்கும், இது மிகவும் குறைவு.",
+              "ಭತ್ತ, ಗೋಧಿ, ಸಜ್ಜೆ ಮತ್ತು ಜೋಳದಂತಹ ಬೆಳೆಗಳ ಒಣಹುಲ್ಲು ಸಾಮಾನ್ಯವಾಗಿ ಡೈರಿ ಫಾರ್ಮ್‌ಗಳಲ್ಲಿ ದೊಡ್ಡ ಪ್ರಮಾಣದಲ್ಲಿ ಲಭ್ಯವಿರುತ್ತದೆ. ಸಮಸ್ಯೆ ಏನೆಂದರೆ ಈ ಒಣಹುಲ್ಲುಗಳು ಸ್ವಾಭಾವಿಕವಾಗಿ ಪೋಷಕಾಂಶ ಕಡಿಮೆ ಇದ್ದು, ಪ್ರಾಣಿಗೆ ಚೆನ್ನಾಗಿ ಜೀರ್ಣಿಸಿಕೊಳ್ಳಲು ಕಷ್ಟ — ಅವುಗಳಲ್ಲಿ ಸಾಮಾನ್ಯವಾಗಿ 4 ಪ್ರತಿಶತಕ್ಕಿಂತ ಕಡಿಮೆ ಪ್ರೋಟೀನ್ ಇರುತ್ತದೆ, ಇದು ಬಹಳ ಕಡಿಮೆ.",
+              "धान, गेहूं, बाजरा और ज्वार जैसी फसलों का भूसा आमतौर पर डेयरी फार्मों पर बड़ी मात्रा में उपलब्ध होता है। समस्या यह है कि ये भूसे स्वाभाविक रूप से पोषक तत्वों में कम होते हैं और पशु के लिए अच्छी तरह पचाना मुश्किल होता है — इनमें आमतौर पर 4 प्रतिशत से कम प्रोटीन होता है, जो काफी कम है।"
             ),
           },
           {
             type: "glossary",
-            term: L("Crop Residue / Straw"),
+            term: L("Crop Residue / Straw", "పంట అవశేషం / గడ్డి", "பயிர் எச்சம் / வைக்கோல்", "ಬೆಳೆ ಅವಶೇಷ / ಒಣಹುಲ್ಲು", "फसल अवशेष / भूसा"),
             meaning: L(
-              "The dry stalks and leftover plant material from a grain crop (such as paddy or wheat) after the grain itself has been harvested. It is bulky and widely available, but on its own it is low in nutrients."
+              "The dry stalks and leftover plant material from a grain crop (such as paddy or wheat) after the grain itself has been harvested. It is bulky and widely available, but on its own it is low in nutrients.",
+              "ధాన్యం పంట (వరి లేదా గోధుమ వంటివి) కోసిన తర్వాత మిగిలిన ఎండిన కాండాలు మరియు మొక్క పదార్థం. ఇది స్థూలంగా, విస్తృతంగా అందుబాటులో ఉంటుంది, కానీ స్వయంగా పోషకాలు తక్కువగా ఉంటుంది.",
+              "தானியப் பயிர் (நெல் அல்லது கோதுமை போன்றவை) அறுவடை செய்யப்பட்ட பிறகு மீதமான உலர்ந்த தண்டுகள் மற்றும் தாவரப் பொருள். இது பருமனாகவும், பரவலாகவும் கிடைக்கும், ஆனால் தானாகவே ஊட்டச்சத்து குறைவாக இருக்கும்.",
+              "ಧಾನ್ಯ ಬೆಳೆಯನ್ನು (ಭತ್ತ ಅಥವಾ ಗೋಧಿಯಂತಹವು) ಕೊಯ್ಲು ಮಾಡಿದ ನಂತರ ಉಳಿದ ಒಣ ಕಾಂಡಗಳು ಮತ್ತು ಸಸ್ಯ ಪದಾರ್ಥ. ಇದು ಬೃಹತ್ ಆಗಿದ್ದು, ವ್ಯಾಪಕವಾಗಿ ಲಭ್ಯವಿದೆ, ಆದರೆ ತಾನಾಗಿಯೇ ಪೋಷಕಾಂಶ ಕಡಿಮೆ ಇರುತ್ತದೆ.",
+              "अनाज फसल (जैसे धान या गेहूं) की कटाई के बाद बचे सूखे डंठल और पौधे की बची हुई सामग्री। यह भारी और व्यापक रूप से उपलब्ध होता है, लेकिन अपने आप में इसमें पोषक तत्व कम होते हैं।"
             ),
           },
           {
             type: "text",
-            heading: L("What Urea Treatment Does"),
+            heading: L(
+              "What Urea Treatment Does",
+              "యూరియా శుద్ధి ఏమి చేస్తుంది",
+              "யூரியா சிகிச்சை என்ன செய்கிறது",
+              "ಯೂರಿಯಾ ಸಂಸ್ಕರಣೆ ಏನು ಮಾಡುತ್ತದೆ",
+              "यूरिया उपचार क्या करता है"
+            ),
             html: L(
-              "<b>Urea treatment</b> is a way of improving the nutritional value of straw before feeding it. Treating straw with a urea solution raises its protein content from under 4 per cent to about 8 per cent — roughly double. Feeding urea-treated straw can also cut down how much extra cattle feed concentrate is needed, by as much as 30 per cent in some cases. In simple terms, the treatment turns a bulky, low-value straw into a noticeably better feed."
+              "<b>Urea treatment</b> is a way of improving the nutritional value of straw before feeding it. Treating straw with a urea solution raises its protein content from under 4 per cent to about 8 per cent — roughly double. Feeding urea-treated straw can also cut down how much extra cattle feed concentrate is needed, by as much as 30 per cent in some cases. In simple terms, the treatment turns a bulky, low-value straw into a noticeably better feed.",
+              "<b>యూరియా శుద్ధి</b> అనేది గడ్డిని తినిపించే ముందు దాని పోషక విలువను మెరుగుపరచే ఒక పద్ధతి. యూరియా ద్రావణంతో గడ్డిని శుద్ధి చేయడం వల్ల దాని ప్రోటీన్ శాతం 4 శాతం కంటే తక్కువ నుండి సుమారు 8 శాతానికి — దాదాపు రెట్టింపుకు పెరుగుతుంది. యూరియా శుద్ధి చేసిన గడ్డిని తినిపించడం వల్ల కొన్ని సందర్భాల్లో అదనపు దాణా అవసరం 30 శాతం వరకు తగ్గించవచ్చు. సరళంగా చెప్పాలంటే, ఈ శుద్ధి ఒక స్థూలమైన, తక్కువ విలువ గల గడ్డిని గణనీయంగా మెరుగైన దాణాగా మారుస్తుంది.",
+              "<b>யூரியா சிகிச்சை</b> என்பது வைக்கோலை ஊட்டுவதற்கு முன் அதன் ஊட்டச்சத்து மதிப்பை மேம்படுத்தும் ஒரு வழி. யூரியா கரைசலால் வைக்கோலுக்கு சிகிச்சை செய்வது அதன் புரத அளவை 4 சதவீதத்திற்குக் கீழிருந்து சுமார் 8 சதவீதமாக — கிட்டத்தட்ட இரட்டிப்பாக உயர்த்துகிறது. யூரியா சிகிச்சை செய்யப்பட்ட வைக்கோலை ஊட்டுவது சில சந்தர்ப்பங்களில் கூடுதல் கால்நடை தீவனத் தேவையை 30 சதவீதம் வரை குறைக்கவும் முடியும். எளிமையாகச் சொன்னால், இந்த சிகிச்சை பருமனான, குறைந்த மதிப்புள்ள வைக்கோலை குறிப்பிடத்தக்க அளவு சிறந்த தீவனமாக மாற்றுகிறது.",
+              "<b>ಯೂರಿಯಾ ಸಂಸ್ಕರಣೆ</b> ಎಂದರೆ ಒಣಹುಲ್ಲನ್ನು ತಿನ್ನಿಸುವ ಮೊದಲು ಅದರ ಪೋಷಕಾಂಶ ಮೌಲ್ಯವನ್ನು ಸುಧಾರಿಸುವ ಒಂದು ವಿಧಾನ. ಯೂರಿಯಾ ದ್ರಾವಣದಿಂದ ಒಣಹುಲ್ಲನ್ನು ಸಂಸ್ಕರಿಸುವುದರಿಂದ ಅದರ ಪ್ರೋಟೀನ್ ಅಂಶ 4 ಪ್ರತಿಶತಕ್ಕಿಂತ ಕಡಿಮೆಯಿಂದ ಸುಮಾರು 8 ಪ್ರತಿಶತಕ್ಕೆ — ಬಹುತೇಕ ದುಪ್ಪಟ್ಟಾಗುತ್ತದೆ. ಯೂರಿಯಾ ಸಂಸ್ಕರಿಸಿದ ಒಣಹುಲ್ಲನ್ನು ತಿನ್ನಿಸುವುದರಿಂದ ಕೆಲವು ಸಂದರ್ಭಗಳಲ್ಲಿ ಹೆಚ್ಚುವರಿ ದನದ ಆಹಾರದ ಅಗತ್ಯವನ್ನು 30 ಪ್ರತಿಶತದವರೆಗೆ ಕಡಿಮೆ ಮಾಡಬಹುದು. ಸರಳವಾಗಿ ಹೇಳುವುದಾದರೆ, ಈ ಸಂಸ್ಕರಣೆ ಬೃಹತ್, ಕಡಿಮೆ ಮೌಲ್ಯದ ಒಣಹುಲ್ಲನ್ನು ಗಮನಾರ್ಹವಾಗಿ ಉತ್ತಮ ಆಹಾರವಾಗಿ ಪರಿವರ್ತಿಸುತ್ತದೆ.",
+              "<b>यूरिया उपचार</b> भूसे को खिलाने से पहले उसके पोषण मूल्य को बेहतर बनाने का एक तरीका है। यूरिया घोल से भूसे का उपचार करने से इसकी प्रोटीन मात्रा 4 प्रतिशत से कम से बढ़कर लगभग 8 प्रतिशत — यानी करीब दोगुनी हो जाती है। यूरिया-उपचारित भूसा खिलाने से कुछ मामलों में अतिरिक्त पशु आहार की जरूरत 30 प्रतिशत तक कम हो सकती है। सरल शब्दों में, यह उपचार एक भारी, कम मूल्य वाले भूसे को काफी बेहतर चारे में बदल देता है।"
             ),
           },
           {
             type: "glossary",
-            term: L("Urea Treatment"),
+            term: L("Urea Treatment", "యూరియా శుద్ధి", "யூரியா சிகிச்சை", "ಯೂರಿಯಾ ಸಂಸ್ಕರಣೆ", "यूरिया उपचार"),
             meaning: L(
-              "A farm process where straw is dampened with a urea-and-water solution, packed down, and then sealed away from air for some weeks. This raises the straw's protein content and makes it more digestible and nutritious for the animal."
+              "A farm process where straw is dampened with a urea-and-water solution, packed down, and then sealed away from air for some weeks. This raises the straw's protein content and makes it more digestible and nutritious for the animal.",
+              "గడ్డిని యూరియా-నీటి ద్రావణంతో తడిపి, అదిమి, తర్వాత కొన్ని వారాల పాటు గాలి తగలకుండా మూసివేసే ఫారం ప్రక్రియ. ఇది గడ్డి ప్రోటీన్ శాతాన్ని పెంచి, జంతువుకు మరింత జీర్ణమయ్యేలా మరియు పోషకమైనదిగా చేస్తుంది.",
+              "வைக்கோலை யூரியா-நீர் கரைசலால் ஈரமாக்கி, அடைத்து, பின்னர் சில வாரங்களுக்கு காற்று படாமல் மூடி வைக்கும் பண்ணை செயல்முறை. இது வைக்கோலின் புரத அளவை உயர்த்தி, விலங்குக்கு அதிக செரிமானமும் ஊட்டச்சத்தும் தருகிறது.",
+              "ಒಣಹುಲ್ಲನ್ನು ಯೂರಿಯಾ-ನೀರಿನ ದ್ರಾವಣದಿಂದ ತೇವಗೊಳಿಸಿ, ಒತ್ತಿ, ನಂತರ ಕೆಲವು ವಾರಗಳ ಕಾಲ ಗಾಳಿ ಸೇರದಂತೆ ಮುಚ್ಚುವ ಫಾರ್ಮ್ ಪ್ರಕ್ರಿಯೆ. ಇದು ಒಣಹುಲ್ಲಿನ ಪ್ರೋಟೀನ್ ಅಂಶವನ್ನು ಹೆಚ್ಚಿಸಿ, ಪ್ರಾಣಿಗೆ ಹೆಚ್ಚು ಜೀರ್ಣವಾಗುವಂತೆ ಮತ್ತು ಪೌಷ್ಟಿಕವಾಗಿಸುತ್ತದೆ.",
+              "एक फार्म प्रक्रिया जिसमें भूसे को यूरिया-पानी के घोल से गीला करके, दबाकर, फिर कुछ हफ्तों तक हवा से बचाकर सील किया जाता है। इससे भूसे की प्रोटीन मात्रा बढ़ती है और यह पशु के लिए अधिक सुपाच्य और पोषक बनता है।"
             ),
           },
           {
             type: "stat-grid",
             items: [
               {
-                label: L("Untreated straw protein"),
-                text: L("Less than about 4 per cent — quite poor on its own."),
+                label: L("Untreated straw protein", "అశుద్ధ గడ్డి ప్రోటీన్", "சிகிச்சை செய்யப்படாத வைக்கோல் புரதம்", "ಸಂಸ್ಕರಿಸದ ಒಣಹುಲ್ಲಿನ ಪ್ರೋಟೀನ್", "अनुपचारित भूसे का प्रोटीन"),
+                text: L(
+                  "Less than about 4 per cent — quite poor on its own.",
+                  "సుమారు 4 శాతం కంటే తక్కువ — స్వయంగా చాలా తక్కువ.",
+                  "சுமார் 4 சதவீதத்திற்கும் குறைவு — தானாகவே மிகவும் குறைவு.",
+                  "ಸುಮಾರು 4 ಪ್ರತಿಶತಕ್ಕಿಂತ ಕಡಿಮೆ — ತಾನಾಗಿಯೇ ಬಹಳ ಕಡಿಮೆ.",
+                  "करीब 4 प्रतिशत से कम — अपने आप में काफी कम।"
+                ),
               },
               {
-                label: L("Urea-treated straw protein"),
-                text: L("Raised to about 8 per cent — roughly double."),
+                label: L("Urea-treated straw protein", "యూరియా శుద్ధి చేసిన గడ్డి ప్రోటీన్", "யூரியா சிகிச்சை செய்யப்பட்ட வைக்கோல் புரதம்", "ಯೂರಿಯಾ ಸಂಸ್ಕರಿಸಿದ ಒಣಹುಲ್ಲಿನ ಪ್ರೋಟೀನ್", "यूरिया-उपचारित भूसे का प्रोटीन"),
+                text: L(
+                  "Raised to about 8 per cent — roughly double.",
+                  "సుమారు 8 శాతానికి పెరుగుతుంది — దాదాపు రెట్టింపు.",
+                  "சுமார் 8 சதவீதமாக உயர்த்தப்படுகிறது — கிட்டத்தட்ட இரட்டிப்பு.",
+                  "ಸುಮಾರು 8 ಪ್ರತಿಶತಕ್ಕೆ ಏರುತ್ತದೆ — ಬಹುತೇಕ ದುಪ್ಪಟ್ಟು.",
+                  "करीब 8 प्रतिशत तक बढ़ जाता है — यानी लगभग दोगुना।"
+                ),
               },
               {
-                label: L("Possible feed savings"),
-                text: L("Can reduce how much extra cattle feed concentrate is needed, by up to about 30 per cent."),
+                label: L("Possible feed savings", "సాధ్యమయ్యే దాణా ఆదా", "சாத்தியமான தீவன சேமிப்பு", "ಸಂಭಾವ್ಯ ಆಹಾರ ಉಳಿತಾಯ", "संभावित चारा बचत"),
+                text: L(
+                  "Can reduce how much extra cattle feed concentrate is needed, by up to about 30 per cent.",
+                  "అదనపు దాణా అవసరాన్ని సుమారు 30 శాతం వరకు తగ్గించవచ్చు.",
+                  "கூடுதல் கால்நடை தீவன செறிவூட்ட தேவையை சுமார் 30 சதவீதம் வரை குறைக்க முடியும்.",
+                  "ಹೆಚ್ಚುವರಿ ದನದ ಆಹಾರ ಕಾನ್ಸಂಟ್ರೇಟ್ ಅಗತ್ಯವನ್ನು ಸುಮಾರು 30 ಪ್ರತಿಶತದವರೆಗೆ ಕಡಿಮೆ ಮಾಡಬಹುದು.",
+                  "अतिरिक्त पशु आहार सांद्र की जरूरत को करीब 30 प्रतिशत तक कम कर सकता है।"
+                ),
               },
             ],
           },
@@ -13133,84 +13824,230 @@ export const MODULES = [
         check: [
           {
             type: "mcq",
-            q: L("Why is plain, untreated straw considered poor-quality feed on its own?"),
+            q: L(
+              "Why is plain, untreated straw considered poor-quality feed on its own?",
+              "సాధారణ, అశుద్ధ గడ్డి స్వయంగా నాసిరకం దాణాగా ఎందుకు పరిగణించబడుతుంది?",
+              "வெறும், சிகிச்சை செய்யப்படாத வைக்கோல் தானாகவே தரம் குறைந்த தீவனமாக ஏன் கருதப்படுகிறது?",
+              "ಸಾಮಾನ್ಯ, ಸಂಸ್ಕರಿಸದ ಒಣಹುಲ್ಲನ್ನು ಅದೇ ರೀತಿ ಕಳಪೆ ಗುಣಮಟ್ಟದ ಆಹಾರವೆಂದು ಏಕೆ ಪರಿಗಣಿಸಲಾಗುತ್ತದೆ?",
+              "सादा, अनुपचारित भूसा अपने आप में घटिया गुणवत्ता का चारा क्यों माना जाता है?"
+            ),
             options: [
-              L("It is too expensive"),
-              L("It is naturally low in protein and not very digestible"),
-              L("Animals refuse to eat it at all"),
-              L("It is not available in large enough quantities"),
+              L(
+                "It is too expensive",
+                "ఇది చాలా ఖరీదైనది",
+                "இது மிகவும் விலை உயர்ந்தது",
+                "ಇದು ತುಂಬಾ ದುಬಾರಿಯಾಗಿದೆ",
+                "यह बहुत महंगा है"
+              ),
+              L(
+                "It is naturally low in protein and not very digestible",
+                "ఇది సహజంగా ప్రోటీన్ తక్కువగా ఉండి, బాగా జీర్ణం కాదు",
+                "இது இயற்கையாகவே புரதம் குறைவாக இருந்து, அவ்வளவு செரிமானமாகாது",
+                "ಇದು ಸ್ವಾಭಾವಿಕವಾಗಿ ಪ್ರೋಟೀನ್ ಕಡಿಮೆ ಇದ್ದು ಹೆಚ್ಚು ಜೀರ್ಣವಾಗುವುದಿಲ್ಲ",
+                "यह स्वाभाविक रूप से प्रोटीन में कम है और ज्यादा नहीं पचता"
+              ),
+              L(
+                "Animals refuse to eat it at all",
+                "జంతువులు దీన్ని అస్సలు తినడానికి నిరాకరిస్తాయి",
+                "விலங்குகள் இதை உண்ணவே மறுக்கும்",
+                "ಪ್ರಾಣಿಗಳು ಇದನ್ನು ಸಂಪೂರ್ಣ ತಿನ್ನಲು ನಿರಾಕರಿಸುತ್ತವೆ",
+                "पशु इसे खाने से बिल्कुल इनकार कर देते हैं"
+              ),
+              L(
+                "It is not available in large enough quantities",
+                "ఇది తగినంత పెద్ద పరిమాణంలో అందుబాటులో లేదు",
+                "இது போதுமான அளவு கிடைப்பதில்லை",
+                "ಇದು ಸಾಕಷ್ಟು ದೊಡ್ಡ ಪ್ರಮಾಣದಲ್ಲಿ ಲಭ್ಯವಿಲ್ಲ",
+                "यह पर्याप्त मात्रा में उपलब्ध नहीं है"
+              ),
             ],
             answer: 1,
-            explain: L("Straws like paddy, wheat, bajra and sorghum straw naturally contain less than about 4 per cent protein and are not very digestible on their own."),
+            explain: L(
+              "Straws like paddy, wheat, bajra and sorghum straw naturally contain less than about 4 per cent protein and are not very digestible on their own.",
+              "వరి, గోధుమ, సజ్జ మరియు జొన్న గడ్డి వంటివి సహజంగా సుమారు 4 శాతం కంటే తక్కువ ప్రోటీన్ కలిగి ఉండి, స్వయంగా బాగా జీర్ణం కావు.",
+              "நெல், கோதுமை, கம்பு மற்றும் சோளக்கம்பு வைக்கோல் போன்றவை இயற்கையாகவே 4 சதவீதத்திற்கும் குறைவான புரதத்தைக் கொண்டு, தானாகவே அவ்வளவு செரிமானமாகாது.",
+              "ಭತ್ತ, ಗೋಧಿ, ಸಜ್ಜೆ ಮತ್ತು ಜೋಳದ ಒಣಹುಲ್ಲಿನಂತಹವು ಸ್ವಾಭಾವಿಕವಾಗಿ ಸುಮಾರು 4 ಪ್ರತಿಶತಕ್ಕಿಂತ ಕಡಿಮೆ ಪ್ರೋಟೀನ್ ಹೊಂದಿದ್ದು, ತಾನಾಗಿಯೇ ಹೆಚ್ಚು ಜೀರ್ಣವಾಗುವುದಿಲ್ಲ.",
+              "धान, गेहूं, बाजरा और ज्वार के भूसे जैसे भूसों में स्वाभाविक रूप से करीब 4 प्रतिशत से कम प्रोटीन होता है और ये अपने आप में ज्यादा नहीं पचते।"
+            ),
           },
           {
             type: "truefalse",
-            q: L("Urea treatment can roughly double the protein content of straw, from under 4 per cent to about 8 per cent."),
+            q: L(
+              "Urea treatment can roughly double the protein content of straw, from under 4 per cent to about 8 per cent.",
+              "యూరియా శుద్ధి గడ్డి ప్రోటీన్ శాతాన్ని 4 శాతం కంటే తక్కువ నుండి సుమారు 8 శాతానికి, అంటే దాదాపు రెట్టింపు చేయగలదు.",
+              "யூரியா சிகிச்சை வைக்கோலின் புரத அளவை 4 சதவீதத்திற்குக் கீழிருந்து சுமார் 8 சதவீதமாக, அதாவது கிட்டத்தட்ட இரட்டிப்பாக்க முடியும்.",
+              "ಯೂರಿಯಾ ಸಂಸ್ಕರಣೆ ಒಣಹುಲ್ಲಿನ ಪ್ರೋಟೀನ್ ಅಂಶವನ್ನು 4 ಪ್ರತಿಶತಕ್ಕಿಂತ ಕಡಿಮೆಯಿಂದ ಸುಮಾರು 8 ಪ್ರತಿಶತಕ್ಕೆ, ಅಂದರೆ ಬಹುತೇಕ ದುಪ್ಪಟ್ಟುಗೊಳಿಸಬಹುದು.",
+              "यूरिया उपचार भूसे की प्रोटीन मात्रा को 4 प्रतिशत से कम से बढ़ाकर लगभग 8 प्रतिशत, यानी लगभग दोगुना कर सकता है।"
+            ),
             answer: true,
-            explain: L("Correct — that is the approximate improvement urea treatment gives to straw's protein content."),
+            explain: L(
+              "Correct — that is the approximate improvement urea treatment gives to straw's protein content.",
+              "సరైనది — ఇది యూరియా శుద్ధి గడ్డి ప్రోటీన్ శాతానికి ఇచ్చే సుమారు మెరుగుదల.",
+              "சரியானது — இதுவே யூரியா சிகிச்சை வைக்கோலின் புரத அளவுக்குத் தரும் தோராயமான முன்னேற்றம்.",
+              "ಸರಿಯಾಗಿದೆ — ಇದೇ ಯೂರಿಯಾ ಸಂಸ್ಕರಣೆ ಒಣಹುಲ್ಲಿನ ಪ್ರೋಟೀನ್ ಅಂಶಕ್ಕೆ ನೀಡುವ ಅಂದಾಜು ಸುಧಾರಣೆ.",
+              "सही — यूरिया उपचार भूसे की प्रोटीन मात्रा में लगभग यही सुधार लाता है।"
+            ),
           },
         ],
       },
       {
         id: "t-m15-straw-safety",
-        title: L("How Treatment Works — and Why Safety Comes First"),
+        title: L(
+          "How Treatment Works — and Why Safety Comes First",
+          "శుద్ధి ఎలా పనిచేస్తుంది — మరియు భద్రత ఎందుకు మొదట రావాలి",
+          "சிகிச்சை எப்படி செயல்படுகிறது — மற்றும் பாதுகாப்பு ஏன் முதலில் வர வேண்டும்",
+          "ಸಂಸ್ಕರಣೆ ಹೇಗೆ ಕೆಲಸ ಮಾಡುತ್ತದೆ — ಮತ್ತು ಸುರಕ್ಷತೆ ಏಕೆ ಮೊದಲು ಬರಬೇಕು",
+          "उपचार कैसे काम करता है — और सुरक्षा पहले क्यों आनी चाहिए"
+        ),
         teach: [
           {
             type: "callout",
             style: "warning",
-            heading: L("The Most Important Rule: Never Feed Urea Directly"),
+            heading: L(
+              "The Most Important Rule: Never Feed Urea Directly",
+              "అత్యంత ముఖ్యమైన నియమం: యూరియాను నేరుగా ఎప్పుడూ తినిపించవద్దు",
+              "மிக முக்கியமான விதி: யூரியாவை நேரடியாக ஒருபோதும் ஊட்டாதீர்கள்",
+              "ಅತ್ಯಂತ ಮುಖ್ಯವಾದ ನಿಯಮ: ಯೂರಿಯಾವನ್ನು ಎಂದಿಗೂ ನೇರವಾಗಿ ತಿನ್ನಿಸಬೇಡಿ",
+              "सबसे महत्वपूर्ण नियम: यूरिया कभी भी सीधे न खिलाएं"
+            ),
             text: L(
-              "Urea itself, or urea solution, must NEVER be fed directly to an animal — on its own, it is fatal. The whole point of the treatment described here is that the urea reacts with and is absorbed into the straw over several weeks of sealed storage, before the straw is ever fed. While preparing the urea solution, always keep it safely out of the reach of animals."
+              "Urea itself, or urea solution, must NEVER be fed directly to an animal — on its own, it is fatal. The whole point of the treatment described here is that the urea reacts with and is absorbed into the straw over several weeks of sealed storage, before the straw is ever fed. While preparing the urea solution, always keep it safely out of the reach of animals.",
+              "యూరియాను స్వయంగా, లేదా యూరియా ద్రావణాన్ని ఎప్పుడూ జంతువుకు నేరుగా తినిపించకూడదు — ఇది స్వయంగా ప్రాణాంతకం. ఇక్కడ వివరించిన శుద్ధి యొక్క మొత్తం ఉద్దేశ్యం ఏమిటంటే, గడ్డిని తినిపించడానికి ముందు, యూరియా అనేక వారాల మూసివేసిన నిల్వలో గడ్డితో చర్య జరిపి, దానిలో శోషించబడుతుంది. యూరియా ద్రావణాన్ని తయారు చేస్తున్నప్పుడు, దాన్ని ఎల్లప్పుడూ జంతువులకు అందుబాటులో లేకుండా సురక్షితంగా ఉంచండి.",
+              "யூரியாவையோ, யூரியா கரைசலையோ ஒருபோதும் விலங்குக்கு நேரடியாக ஊட்டக்கூடாது — தானாகவே இது கொல்லக்கூடியது. இங்கு விவரிக்கப்பட்ட சிகிச்சையின் முழுக் கருத்தும், வைக்கோலை ஊட்டுவதற்கு முன், பல வாரங்கள் மூடிய சேமிப்பில் யூரியா வைக்கோலுடன் வினைபுரிந்து அதில் உறிஞ்சப்படுவதுதான். யூரியா கரைசலைத் தயாரிக்கும்போது, அதை எப்போதும் விலங்குகளுக்கு எட்டாத தூரத்தில் பாதுகாப்பாக வைக்கவும்.",
+              "ಯೂರಿಯಾವನ್ನೇ, ಅಥವಾ ಯೂರಿಯಾ ದ್ರಾವಣವನ್ನು ಎಂದಿಗೂ ಪ್ರಾಣಿಗೆ ನೇರವಾಗಿ ತಿನ್ನಿಸಬಾರದು — ಇದು ತಾನಾಗಿಯೇ ಮಾರಕ. ಇಲ್ಲಿ ವಿವರಿಸಿದ ಸಂಸ್ಕರಣೆಯ ಸಂಪೂರ್ಣ ಉದ್ದೇಶವೆಂದರೆ, ಒಣಹುಲ್ಲನ್ನು ತಿನ್ನಿಸುವ ಮೊದಲು, ಯೂರಿಯಾ ಹಲವು ವಾರಗಳ ಮುಚ್ಚಿದ ಸಂಗ್ರಹಣೆಯಲ್ಲಿ ಒಣಹುಲ್ಲಿನೊಂದಿಗೆ ಪ್ರತಿಕ್ರಿಯಿಸಿ ಅದರಲ್ಲಿ ಹೀರಿಕೊಳ್ಳುತ್ತದೆ. ಯೂರಿಯಾ ದ್ರಾವಣವನ್ನು ತಯಾರಿಸುವಾಗ, ಅದನ್ನು ಯಾವಾಗಲೂ ಪ್ರಾಣಿಗಳ ಕೈಗೆಟುಕದಂತೆ ಸುರಕ್ಷಿತವಾಗಿ ಇರಿಸಿ.",
+              "यूरिया या यूरिया घोल को कभी भी सीधे पशु को नहीं खिलाना चाहिए — अपने आप में यह घातक है। यहां बताए गए उपचार का पूरा मकसद यही है कि भूसे को खिलाने से पहले, यूरिया कई हफ्तों की सीलबंद भंडारण अवधि में भूसे के साथ प्रतिक्रिया करके उसमें समा जाए। यूरिया घोल तैयार करते समय, इसे हमेशा पशुओं की पहुंच से सुरक्षित दूर रखें।"
             ),
           },
           {
             type: "text",
-            heading: L("The Basic Idea of the Process"),
+            heading: L(
+              "The Basic Idea of the Process",
+              "ప్రక్రియ యొక్క ప్రాథమిక ఆలోచన",
+              "செயல்முறையின் அடிப்படைக் கருத்து",
+              "ಪ್ರಕ್ರಿಯೆಯ ಮೂಲ ಕಲ್ಪನೆ",
+              "प्रक्रिया का मूल विचार"
+            ),
             html: L(
-              "In simple terms, straw is dampened with a urea-and-water solution, spread out and packed down in layers, and then completely covered and sealed away from air — often with a plastic sheet weighed down with soil, or with a layer of soil and wet clay or dung if no plastic sheet is available. Sealing it airtight is essential: it lets the urea convert into ammonia gas inside the heap, which is what improves the straw, and sealing also stops that gas from simply escaping and being wasted."
+              "In simple terms, straw is dampened with a urea-and-water solution, spread out and packed down in layers, and then completely covered and sealed away from air — often with a plastic sheet weighed down with soil, or with a layer of soil and wet clay or dung if no plastic sheet is available. Sealing it airtight is essential: it lets the urea convert into ammonia gas inside the heap, which is what improves the straw, and sealing also stops that gas from simply escaping and being wasted.",
+              "సరళంగా చెప్పాలంటే, గడ్డిని యూరియా-నీటి ద్రావణంతో తడిపి, పొరలుగా పరచి అదిమి, తర్వాత పూర్తిగా కప్పి గాలి తగలకుండా మూసేస్తారు — తరచుగా మట్టితో బరువు పెట్టిన ప్లాస్టిక్ షీటుతో, లేదా ప్లాస్టిక్ షీట్ అందుబాటులో లేకపోతే మట్టి మరియు తడి బంకమన్ను లేదా పేడ పొరతో. దీన్ని గాలి చొరబడకుండా మూసివేయడం అవసరం: ఇది కుప్ప లోపల యూరియాను అమ్మోనియా వాయువుగా మార్చనిస్తుంది, ఇదే గడ్డిని మెరుగుపరుస్తుంది, మరియు మూసివేయడం ఆ వాయువు వృథాగా బయటకు పోకుండా కూడా ఆపుతుంది.",
+              "எளிமையாகச் சொன்னால், வைக்கோல் யூரியா-நீர் கரைசலால் ஈரமாக்கப்பட்டு, அடுக்குகளாக பரப்பி அடைக்கப்பட்டு, பின்னர் முழுவதுமாக மூடி காற்று படாமல் அடைக்கப்படுகிறது — பெரும்பாலும் மண்ணால் எடையிடப்பட்ட பிளாஸ்டிக் தாளால், அல்லது பிளாஸ்டிக் தாள் இல்லையென்றால் மண் மற்றும் ஈரமான களிமண் அல்லது சாணத்தின் அடுக்கால். காற்று புகாமல் மூடுவது அவசியம்: இது குவியலுக்குள் யூரியாவை அமோனியா வாயுவாக மாற்ற அனுமதிக்கிறது, இதுவே வைக்கோலை மேம்படுத்துகிறது, மேலும் மூடுவது அந்த வாயு வெறுமனே வெளியேறி வீணாவதையும் தடுக்கிறது.",
+              "ಸರಳವಾಗಿ ಹೇಳುವುದಾದರೆ, ಒಣಹುಲ್ಲನ್ನು ಯೂರಿಯಾ-ನೀರಿನ ದ್ರಾವಣದಿಂದ ತೇವಗೊಳಿಸಿ, ಪದರಗಳಾಗಿ ಹರಡಿ ಒತ್ತಿ, ನಂತರ ಸಂಪೂರ್ಣವಾಗಿ ಮುಚ್ಚಿ ಗಾಳಿ ಸೇರದಂತೆ ಮುಚ್ಚಲಾಗುತ್ತದೆ — ಸಾಮಾನ್ಯವಾಗಿ ಮಣ್ಣಿನಿಂದ ತೂಕ ಹಾಕಿದ ಪ್ಲಾಸ್ಟಿಕ್ ಹಾಳೆಯಿಂದ, ಅಥವಾ ಪ್ಲಾಸ್ಟಿಕ್ ಹಾಳೆ ಲಭ್ಯವಿಲ್ಲದಿದ್ದರೆ ಮಣ್ಣು ಮತ್ತು ಒದ್ದೆ ಜೇಡಿಮಣ್ಣು ಅಥವಾ ಸಗಣಿಯ ಪದರದಿಂದ. ಗಾಳಿ ಸೇರದಂತೆ ಮುಚ್ಚುವುದು ಅಗತ್ಯ: ಇದು ರಾಶಿಯೊಳಗೆ ಯೂರಿಯಾ ಅಮೋನಿಯಾ ಅನಿಲವಾಗಿ ಪರಿವರ್ತನೆಗೊಳ್ಳಲು ಅವಕಾಶ ನೀಡುತ್ತದೆ, ಇದೇ ಒಣಹುಲ್ಲನ್ನು ಸುಧಾರಿಸುತ್ತದೆ, ಮತ್ತು ಮುಚ್ಚುವಿಕೆ ಆ ಅನಿಲ ಸುಮ್ಮನೆ ಹೊರಹೋಗಿ ವ್ಯರ್ಥವಾಗುವುದನ್ನೂ ತಡೆಯುತ್ತದೆ.",
+              "सरल शब्दों में, भूसे को यूरिया-पानी के घोल से गीला किया जाता है, परतों में फैलाकर दबाया जाता है, फिर पूरी तरह ढककर हवा से बचाकर सील किया जाता है — अक्सर मिट्टी से दबाई गई प्लास्टिक शीट से, या अगर प्लास्टिक शीट उपलब्ध न हो तो मिट्टी और गीली चिकनी मिट्टी या गोबर की परत से। इसे हवा-रोधी सील करना जरूरी है: इससे ढेर के अंदर यूरिया अमोनिया गैस में बदल जाता है, यही भूसे को बेहतर बनाता है, और सील करना उस गैस को यूं ही निकलकर बर्बाद होने से भी रोकता है।"
             ),
           },
           {
             type: "glossary",
-            term: L("Airtight Sealing"),
+            term: L("Airtight Sealing", "గాలి చొరబడని మూసివేత", "காற்று புகாத அடைப்பு", "ಗಾಳಿ ಸೇರದ ಮುಚ್ಚುವಿಕೆ", "हवा-रोधी सील"),
             meaning: L(
-              "Covering the treated straw heap completely so no air gets in and no gas escapes — usually with a plastic sheet and a layer of packed soil at the edges, or an alternative covering if plastic isn't available."
+              "Covering the treated straw heap completely so no air gets in and no gas escapes — usually with a plastic sheet and a layer of packed soil at the edges, or an alternative covering if plastic isn't available.",
+              "శుద్ధి చేసిన గడ్డి కుప్పను పూర్తిగా కప్పడం, తద్వారా గాలి లోపలికి రాదు మరియు వాయువు బయటకు పోదు — సాధారణంగా ప్లాస్టిక్ షీట్ మరియు అంచుల వద్ద అదిమిన మట్టి పొరతో, లేదా ప్లాస్టిక్ అందుబాటులో లేకపోతే మరో ప్రత్యామ్నాయ కప్పుతో.",
+              "சிகிச்சை செய்யப்பட்ட வைக்கோல் குவியலை முழுவதுமாக மூடுவது, இதனால் காற்று உள்ளே செல்லாது வாயுவும் வெளியேறாது — பொதுவாக பிளாஸ்டிக் தாள் மற்றும் விளிம்புகளில் அழுத்திய மண் அடுக்கால், அல்லது பிளாஸ்டிக் இல்லையென்றால் மாற்று மூடி.",
+              "ಸಂಸ್ಕರಿಸಿದ ಒಣಹುಲ್ಲಿನ ರಾಶಿಯನ್ನು ಸಂಪೂರ್ಣವಾಗಿ ಮುಚ್ಚುವುದು, ಇದರಿಂದ ಗಾಳಿ ಒಳಗೆ ಸೇರುವುದಿಲ್ಲ ಮತ್ತು ಅನಿಲ ಹೊರಹೋಗುವುದಿಲ್ಲ — ಸಾಮಾನ್ಯವಾಗಿ ಪ್ಲಾಸ್ಟಿಕ್ ಹಾಳೆ ಮತ್ತು ಅಂಚುಗಳಲ್ಲಿ ಒತ್ತಿದ ಮಣ್ಣಿನ ಪದರದಿಂದ, ಅಥವಾ ಪ್ಲಾಸ್ಟಿಕ್ ಲಭ್ಯವಿಲ್ಲದಿದ್ದರೆ ಪರ್ಯಾಯ ಹೊದಿಕೆಯಿಂದ.",
+              "उपचारित भूसे के ढेर को पूरी तरह ढकना ताकि हवा अंदर न जाए और गैस बाहर न निकले — आमतौर पर प्लास्टिक शीट और किनारों पर दबाई गई मिट्टी की परत से, या प्लास्टिक उपलब्ध न होने पर किसी वैकल्पिक ढक्कन से।"
             ),
           },
           {
             type: "text",
-            heading: L("Waiting, Airing Out, and Feeding Gradually"),
+            heading: L(
+              "Waiting, Airing Out, and Feeding Gradually",
+              "వేచి ఉండటం, గాలికి ఆరబెట్టడం, క్రమంగా తినిపించడం",
+              "காத்திருத்தல், காற்றோட்டமாக்குதல், மற்றும் படிப்படியாக ஊட்டுதல்",
+              "ಕಾಯುವುದು, ಗಾಳಿಗೆ ಆರಿಸುವುದು, ಮತ್ತು ಕ್ರಮೇಣ ತಿನ್ನಿಸುವುದು",
+              "इंतजार करना, हवा में सुखाना, और धीरे-धीरे खिलाना"
+            ),
             html: L(
-              "The sealed heap needs to sit for some weeks before it's ready — roughly three weeks in summer, or about four weeks in winter, since the reaction happens more slowly in cooler weather. Once opened, the straw should be spread out in the open air for a while first, so that any leftover ammonia gas can escape, before it is ever given to the animals."
+              "The sealed heap needs to sit for some weeks before it's ready — roughly three weeks in summer, or about four weeks in winter, since the reaction happens more slowly in cooler weather. Once opened, the straw should be spread out in the open air for a while first, so that any leftover ammonia gas can escape, before it is ever given to the animals.",
+              "మూసివేసిన కుప్ప సిద్ధమయ్యేముందు కొన్ని వారాలు అలానే ఉండాలి — వేసవిలో సుమారు మూడు వారాలు, లేదా చలికాలంలో సుమారు నాలుగు వారాలు, ఎందుకంటే చల్లని వాతావరణంలో చర్య నెమ్మదిగా జరుగుతుంది. తెరిచిన తర్వాత, జంతువులకు ఇవ్వడానికి ముందు, ఏదైనా మిగిలిన అమ్మోనియా వాయువు బయటకు పోవడానికి గడ్డిని కొంత సమయం బహిరంగ గాలిలో పరచాలి.",
+              "மூடிய குவியல் தயாராவதற்கு முன் சில வாரங்கள் இருக்க வேண்டும் — கோடையில் சுமார் மூன்று வாரங்கள், அல்லது குளிர்காலத்தில் சுமார் நான்கு வாரங்கள், ஏனெனில் குளிர்ந்த வானிலையில் வினை மெதுவாக நடக்கும். திறந்த பிறகு, விலங்குகளுக்குக் கொடுப்பதற்கு முன், மீதமான அமோனியா வாயு வெளியேற வைக்கோலை சிறிது நேரம் திறந்த காற்றில் பரப்ப வேண்டும்.",
+              "ಮುಚ್ಚಿದ ರಾಶಿ ಸಿದ್ಧವಾಗುವ ಮೊದಲು ಕೆಲವು ವಾರಗಳ ಕಾಲ ಹಾಗೇ ಇರಬೇಕು — ಬೇಸಿಗೆಯಲ್ಲಿ ಸುಮಾರು ಮೂರು ವಾರಗಳು, ಅಥವಾ ಚಳಿಗಾಲದಲ್ಲಿ ಸುಮಾರು ನಾಲ್ಕು ವಾರಗಳು, ಏಕೆಂದರೆ ತಂಪಾದ ಹವಾಮಾನದಲ್ಲಿ ಪ್ರತಿಕ್ರಿಯೆ ನಿಧಾನವಾಗಿ ನಡೆಯುತ್ತದೆ. ತೆರೆದ ನಂತರ, ಪ್ರಾಣಿಗಳಿಗೆ ಕೊಡುವ ಮೊದಲು, ಯಾವುದೇ ಉಳಿದ ಅಮೋನಿಯಾ ಅನಿಲ ಹೊರಹೋಗಲು ಒಣಹುಲ್ಲನ್ನು ಸ್ವಲ್ಪ ಸಮಯ ಬಯಲು ಗಾಳಿಯಲ್ಲಿ ಹರಡಬೇಕು.",
+              "सीलबंद ढेर को तैयार होने से पहले कुछ हफ्तों तक ऐसे ही रहना चाहिए — गर्मी में करीब तीन हफ्ते, या सर्दी में करीब चार हफ्ते, क्योंकि ठंडे मौसम में प्रतिक्रिया धीमी होती है। खोलने के बाद, पशुओं को देने से पहले, बची हुई अमोनिया गैस निकलने के लिए भूसे को कुछ समय के लिए खुली हवा में फैलाना चाहिए।"
             ),
           },
           {
             type: "callout",
             style: "tip",
-            heading: L("Introduce It Gradually"),
+            heading: L(
+              "Introduce It Gradually",
+              "క్రమంగా అలవాటు చేయండి",
+              "படிப்படியாக அறிமுகப்படுத்துங்கள்",
+              "ಕ್ರಮೇಣ ಪರಿಚಯಿಸಿ",
+              "धीरे-धीरे शुरू करें"
+            ),
             text: L(
-              "Just like silage, treated straw should be introduced in small quantities at first. The animal gets used to the taste over time and starts eating it well."
+              "Just like silage, treated straw should be introduced in small quantities at first. The animal gets used to the taste over time and starts eating it well.",
+              "సైలేజ్ లాగే, శుద్ధి చేసిన గడ్డిని మొదట తక్కువ మోతాదులలో ఇవ్వాలి. జంతువు కాలక్రమేణా రుచికి అలవాటుపడి బాగా తింటుంది.",
+              "சைலேஜ் போலவே, சிகிச்சை செய்யப்பட்ட வைக்கோலும் முதலில் சிறிய அளவுகளில் அறிமுகப்படுத்தப்பட வேண்டும். விலங்கு காலப்போக்கில் சுவைக்கு பழகி நன்றாக உண்ணத் தொடங்கும்.",
+              "ಸೈಲೇಜ್‌ನಂತೆಯೇ, ಸಂಸ್ಕರಿಸಿದ ಒಣಹುಲ್ಲನ್ನು ಮೊದಲಿಗೆ ಕಡಿಮೆ ಪ್ರಮಾಣದಲ್ಲಿ ಪರಿಚಯಿಸಬೇಕು. ಪ್ರಾಣಿ ಕಾಲಕ್ರಮೇಣ ರುಚಿಗೆ ಹೊಂದಿಕೊಂಡು ಚೆನ್ನಾಗಿ ತಿನ್ನಲು ಪ್ರಾರಂಭಿಸುತ್ತದೆ.",
+              "साइलेज की तरह ही, उपचारित भूसे को भी पहले कम मात्रा में देना चाहिए। पशु समय के साथ स्वाद का आदी हो जाता है और अच्छी तरह खाना शुरू कर देता है।"
             ),
           },
         ],
         check: [
           {
             type: "truefalse",
-            q: L("It is safe to mix a small amount of urea directly into an animal's feed as long as the amount is small."),
+            q: L(
+              "It is safe to mix a small amount of urea directly into an animal's feed as long as the amount is small.",
+              "మోతాదు తక్కువగా ఉంటే యూరియాను నేరుగా జంతువు దాణాలో కలపడం సురక్షితమే.",
+              "அளவு குறைவாக இருந்தால் யூரியாவை நேரடியாக விலங்கின் உணவில் கலப்பது பாதுகாப்பானது.",
+              "ಪ್ರಮಾಣ ಕಡಿಮೆ ಇದ್ದರೆ ಯೂರಿಯಾವನ್ನು ನೇರವಾಗಿ ಪ್ರಾಣಿಯ ಆಹಾರದಲ್ಲಿ ಬೆರೆಸುವುದು ಸುರಕ್ಷಿತ.",
+              "अगर मात्रा कम हो तो यूरिया को सीधे पशु के आहार में मिलाना सुरक्षित है।"
+            ),
             answer: false,
-            explain: L("No — urea itself is fatal to animals and must never be fed directly, in any amount. It must first be allowed to react into the straw over weeks of sealed treatment."),
+            explain: L(
+              "No — urea itself is fatal to animals and must never be fed directly, in any amount. It must first be allowed to react into the straw over weeks of sealed treatment.",
+              "కాదు — యూరియా స్వయంగా జంతువులకు ప్రాణాంతకం మరియు ఎంత మోతాదులోనైనా ఎప్పుడూ నేరుగా తినిపించకూడదు. దాన్ని ముందుగా వారాల మూసివేసిన శుద్ధిలో గడ్డితో చర్య జరగనివ్వాలి.",
+              "இல்லை — யூரியா தானாகவே விலங்குகளுக்கு கொல்லக்கூடியது, எந்த அளவிலும் ஒருபோதும் நேரடியாக ஊட்டக்கூடாது. முதலில் வாரக்கணக்கான மூடிய சிகிச்சையில் அது வைக்கோலுடன் வினைபுரிய அனுமதிக்க வேண்டும்.",
+              "ಇಲ್ಲ — ಯೂರಿಯಾ ತಾನಾಗಿಯೇ ಪ್ರಾಣಿಗಳಿಗೆ ಮಾರಕ ಮತ್ತು ಎಷ್ಟೇ ಪ್ರಮಾಣದಲ್ಲೂ ಎಂದಿಗೂ ನೇರವಾಗಿ ತಿನ್ನಿಸಬಾರದು. ಮೊದಲು ಅದನ್ನು ವಾರಗಳ ಮುಚ್ಚಿದ ಸಂಸ್ಕರಣೆಯಲ್ಲಿ ಒಣಹುಲ್ಲಿನೊಂದಿಗೆ ಪ್ರತಿಕ್ರಿಯಿಸಲು ಬಿಡಬೇಕು.",
+              "नहीं — यूरिया अपने आप में पशुओं के लिए घातक है और किसी भी मात्रा में कभी सीधे नहीं खिलाना चाहिए। इसे पहले कई हफ्तों के सीलबंद उपचार में भूसे के साथ प्रतिक्रिया करने देना चाहिए।"
+            ),
           },
           {
             type: "mcq",
-            q: L("Why must the treated straw heap be sealed completely airtight?"),
+            q: L(
+              "Why must the treated straw heap be sealed completely airtight?",
+              "శుద్ధి చేసిన గడ్డి కుప్పను పూర్తిగా గాలి చొరబడకుండా ఎందుకు మూసివేయాలి?",
+              "சிகிச்சை செய்யப்பட்ட வைக்கோல் குவியலை ஏன் முழுவதுமாக காற்று புகாமல் மூட வேண்டும்?",
+              "ಸಂಸ್ಕರಿಸಿದ ಒಣಹುಲ್ಲಿನ ರಾಶಿಯನ್ನು ಏಕೆ ಸಂಪೂರ್ಣವಾಗಿ ಗಾಳಿ ಸೇರದಂತೆ ಮುಚ್ಚಬೇಕು?",
+              "उपचारित भूसे के ढेर को पूरी तरह हवा-रोधी सील क्यों करना चाहिए?"
+            ),
             options: [
-              L("To keep it dry from rain only"),
-              L("To let the urea convert into ammonia gas inside the heap and stop that gas from escaping"),
-              L("To keep animals from smelling it"),
-              L("Airtight sealing isn't actually necessary"),
+              L(
+                "To keep it dry from rain only",
+                "దాన్ని వర్షం నుండి మాత్రమే పొడిగా ఉంచడానికి",
+                "அதை மழையிலிருந்து மட்டும் உலர்ந்திருக்க வைக்க",
+                "ಅದನ್ನು ಮಳೆಯಿಂದ ಮಾತ್ರ ಒಣಗಿಸಿಡಲು",
+                "इसे केवल बारिश से सूखा रखने के लिए"
+              ),
+              L(
+                "To let the urea convert into ammonia gas inside the heap and stop that gas from escaping",
+                "యూరియాను కుప్ప లోపల అమ్మోనియా వాయువుగా మారనివ్వడానికి మరియు ఆ వాయువు బయటకు పోకుండా ఆపడానికి",
+                "யூரியாவை குவியலுக்குள் அமோனியா வாயுவாக மாற அனுமதிக்கவும், அந்த வாயு வெளியேறாமல் தடுக்கவும்",
+                "ಯೂರಿಯಾ ರಾಶಿಯೊಳಗೆ ಅಮೋನಿಯಾ ಅನಿಲವಾಗಿ ಪರಿವರ್ತನೆಗೊಳ್ಳಲು ಬಿಡಲು ಮತ್ತು ಆ ಅನಿಲ ಹೊರಹೋಗುವುದನ್ನು ತಡೆಯಲು",
+                "यूरिया को ढेर के अंदर अमोनिया गैस में बदलने देने और उस गैस को निकलने से रोकने के लिए"
+              ),
+              L(
+                "To keep animals from smelling it",
+                "జంతువులకు దాని వాసన రాకుండా ఉంచడానికి",
+                "விலங்குகள் அதை வாசனை பிடிக்காமல் இருக்க",
+                "ಪ್ರಾಣಿಗಳಿಗೆ ಅದರ ವಾಸನೆ ಬಾರದಂತೆ ಇಡಲು",
+                "पशुओं को इसकी गंध न आने देने के लिए"
+              ),
+              L(
+                "Airtight sealing isn't actually necessary",
+                "గాలి చొరబడని మూసివేత నిజానికి అవసరం లేదు",
+                "காற்று புகாத அடைப்பு உண்மையில் தேவையில்லை",
+                "ಗಾಳಿ ಸೇರದ ಮುಚ್ಚುವಿಕೆ ನಿಜವಾಗಿಯೂ ಅಗತ್ಯವಿಲ್ಲ",
+                "हवा-रोधी सील करना वास्तव में जरूरी नहीं है"
+              ),
             ],
             answer: 1,
-            explain: L("Sealing the heap airtight lets the urea react into ammonia gas inside the heap, which improves the straw, and prevents that gas from being wasted."),
+            explain: L(
+              "Sealing the heap airtight lets the urea react into ammonia gas inside the heap, which improves the straw, and prevents that gas from being wasted.",
+              "కుప్పను గాలి చొరబడకుండా మూసివేయడం వల్ల యూరియా కుప్ప లోపల అమ్మోనియా వాయువుగా చర్య జరుపుతుంది, ఇది గడ్డిని మెరుగుపరుస్తుంది, మరియు ఆ వాయువు వృథా కాకుండా నిరోధిస్తుంది.",
+              "குவியலை காற்று புகாமல் மூடுவது யூரியா குவியலுக்குள் அமோனியா வாயுவாக வினைபுரிய அனுமதிக்கிறது, இது வைக்கோலை மேம்படுத்துகிறது, மற்றும் அந்த வாயு வீணாவதைத் தடுக்கிறது.",
+              "ರಾಶಿಯನ್ನು ಗಾಳಿ ಸೇರದಂತೆ ಮುಚ್ಚುವುದರಿಂದ ಯೂರಿಯಾ ರಾಶಿಯೊಳಗೆ ಅಮೋನಿಯಾ ಅನಿಲವಾಗಿ ಪ್ರತಿಕ್ರಿಯಿಸುತ್ತದೆ, ಇದು ಒಣಹುಲ್ಲನ್ನು ಸುಧಾರಿಸುತ್ತದೆ, ಮತ್ತು ಆ ಅನಿಲ ವ್ಯರ್ಥವಾಗುವುದನ್ನು ತಡೆಯುತ್ತದೆ.",
+              "ढेर को हवा-रोधी सील करने से यूरिया ढेर के अंदर अमोनिया गैस में बदल जाता है, जो भूसे को बेहतर बनाता है, और उस गैस को बर्बाद होने से रोकता है।"
+            ),
           },
         ],
       },
@@ -13221,55 +14058,175 @@ export const MODULES = [
         {
           topicId: "t-m15-straw-problem",
           type: "mcq",
-          q: L("What happens to straw's protein content after urea treatment?"),
+          q: L(
+            "What happens to straw's protein content after urea treatment?",
+            "యూరియా శుద్ధి తర్వాత గడ్డి ప్రోటీన్ శాతానికి ఏమి జరుగుతుంది?",
+            "யூரியா சிகிச்சைக்குப் பிறகு வைக்கோலின் புரத அளவுக்கு என்ன நடக்கும்?",
+            "ಯೂರಿಯಾ ಸಂಸ್ಕರಣೆಯ ನಂತರ ಒಣಹುಲ್ಲಿನ ಪ್ರೋಟೀನ್ ಅಂಶಕ್ಕೆ ಏನಾಗುತ್ತದೆ?",
+            "यूरिया उपचार के बाद भूसे की प्रोटीन मात्रा का क्या होता है?"
+          ),
           options: [
-            L("It stays exactly the same"),
-            L("It roughly doubles, from under 4 per cent to about 8 per cent"),
-            L("It becomes ten times higher"),
-            L("It decreases"),
+            L(
+              "It stays exactly the same",
+              "అది సరిగ్గా అలాగే ఉంటుంది",
+              "அது சரியாக அப்படியே இருக்கும்",
+              "ಅದು ಸರಿಯಾಗಿ ಹಾಗೆಯೇ ಇರುತ್ತದೆ",
+              "यह बिल्कुल वैसा ही रहता है"
+            ),
+            L(
+              "It roughly doubles, from under 4 per cent to about 8 per cent",
+              "అది సుమారు రెట్టింపు అవుతుంది, 4 శాతం కంటే తక్కువ నుండి సుమారు 8 శాతానికి",
+              "அது கிட்டத்தட்ட இரட்டிப்பாகிறது, 4 சதவீதத்திற்குக் கீழிருந்து சுமார் 8 சதவீதமாக",
+              "ಅದು ಬಹುತೇಕ ದುಪ್ಪಟ್ಟಾಗುತ್ತದೆ, 4 ಪ್ರತಿಶತಕ್ಕಿಂತ ಕಡಿಮೆಯಿಂದ ಸುಮಾರು 8 ಪ್ರತಿಶತಕ್ಕೆ",
+              "यह लगभग दोगुनी हो जाती है, 4 प्रतिशत से कम से बढ़कर करीब 8 प्रतिशत तक"
+            ),
+            L(
+              "It becomes ten times higher",
+              "అది పది రెట్లు ఎక్కువ అవుతుంది",
+              "அது பத்து மடங்கு அதிகமாகிறது",
+              "ಅದು ಹತ್ತು ಪಟ್ಟು ಹೆಚ್ಚಾಗುತ್ತದೆ",
+              "यह दस गुना अधिक हो जाती है"
+            ),
+            L(
+              "It decreases",
+              "అది తగ్గుతుంది",
+              "அது குறைகிறது",
+              "ಅದು ಕಡಿಮೆಯಾಗುತ್ತದೆ",
+              "यह कम हो जाती है"
+            ),
           ],
           answer: 1,
-          explain: L("Urea treatment raises straw's protein content from under about 4 per cent to about 8 per cent."),
+          explain: L(
+            "Urea treatment raises straw's protein content from under about 4 per cent to about 8 per cent.",
+            "యూరియా శుద్ధి గడ్డి ప్రోటీన్ శాతాన్ని సుమారు 4 శాతం కంటే తక్కువ నుండి సుమారు 8 శాతానికి పెంచుతుంది.",
+            "யூரியா சிகிச்சை வைக்கோலின் புரத அளவை சுமார் 4 சதவீதத்திற்குக் கீழிருந்து சுமார் 8 சதவீதமாக உயர்த்துகிறது.",
+            "ಯೂರಿಯಾ ಸಂಸ್ಕರಣೆ ಒಣಹುಲ್ಲಿನ ಪ್ರೋಟೀನ್ ಅಂಶವನ್ನು ಸುಮಾರು 4 ಪ್ರತಿಶತಕ್ಕಿಂತ ಕಡಿಮೆಯಿಂದ ಸುಮಾರು 8 ಪ್ರತಿಶತಕ್ಕೆ ಏರಿಸುತ್ತದೆ.",
+            "यूरिया उपचार भूसे की प्रोटीन मात्रा को करीब 4 प्रतिशत से कम से बढ़ाकर करीब 8 प्रतिशत तक ले जाता है।"
+          ),
         },
         {
           topicId: "t-m15-straw-safety",
           type: "truefalse",
-          q: L("Urea or urea solution can be fatal to animals if fed to them directly."),
+          q: L(
+            "Urea or urea solution can be fatal to animals if fed to them directly.",
+            "యూరియా లేదా యూరియా ద్రావణం నేరుగా తినిపిస్తే జంతువులకు ప్రాణాంతకం కావచ్చు.",
+            "யூரியா அல்லது யூரியா கரைசல் நேரடியாக ஊட்டப்பட்டால் விலங்குகளுக்கு கொல்லக்கூடியதாக இருக்கலாம்.",
+            "ಯೂರಿಯಾ ಅಥವಾ ಯೂರಿಯಾ ದ್ರಾವಣವನ್ನು ನೇರವಾಗಿ ತಿನ್ನಿಸಿದರೆ ಪ್ರಾಣಿಗಳಿಗೆ ಮಾರಕವಾಗಬಹುದು.",
+            "यूरिया या यूरिया घोल अगर सीधे खिलाया जाए तो पशुओं के लिए घातक हो सकता है।"
+          ),
           answer: true,
-          explain: L("Correct — this is the single most important safety rule in this lesson. Urea must never be fed directly; it must first be treated into straw."),
+          explain: L(
+            "Correct — this is the single most important safety rule in this lesson. Urea must never be fed directly; it must first be treated into straw.",
+            "సరైనది — ఇది ఈ పాఠంలో అత్యంత ముఖ్యమైన భద్రతా నియమం. యూరియాను ఎప్పుడూ నేరుగా తినిపించకూడదు; దాన్ని ముందుగా గడ్డిలో శుద్ధి చేయాలి.",
+            "சரியானது — இது இந்தப் பாடத்தில் மிக முக்கியமான பாதுகாப்பு விதி. யூரியாவை ஒருபோதும் நேரடியாக ஊட்டக்கூடாது; அதை முதலில் வைக்கோலில் சிகிச்சை செய்ய வேண்டும்.",
+            "ಸರಿಯಾಗಿದೆ — ಇದು ಈ ಪಾಠದಲ್ಲಿ ಅತ್ಯಂತ ಮುಖ್ಯವಾದ ಸುರಕ್ಷತಾ ನಿಯಮ. ಯೂರಿಯಾವನ್ನು ಎಂದಿಗೂ ನೇರವಾಗಿ ತಿನ್ನಿಸಬಾರದು; ಅದನ್ನು ಮೊದಲು ಒಣಹುಲ್ಲಿನಲ್ಲಿ ಸಂಸ್ಕರಿಸಬೇಕು.",
+            "सही — यह इस पाठ का सबसे महत्वपूर्ण सुरक्षा नियम है। यूरिया कभी भी सीधे नहीं खिलाना चाहिए; इसे पहले भूसे में उपचारित करना चाहिए।"
+          ),
         },
         {
           topicId: "t-m15-straw-safety",
           type: "mcq",
-          q: L("Roughly how long should the sealed, treated straw heap be left before opening?"),
+          q: L(
+            "Roughly how long should the sealed, treated straw heap be left before opening?",
+            "మూసివేసిన, శుద్ధి చేసిన గడ్డి కుప్పను తెరవడానికి ముందు సుమారు ఎంతకాలం వదిలేయాలి?",
+            "மூடிய, சிகிச்சை செய்யப்பட்ட வைக்கோல் குவியலை திறப்பதற்கு முன் தோராயமாக எவ்வளவு காலம் விட வேண்டும்?",
+            "ಮುಚ್ಚಿದ, ಸಂಸ್ಕರಿಸಿದ ಒಣಹುಲ್ಲಿನ ರಾಶಿಯನ್ನು ತೆರೆಯುವ ಮೊದಲು ಸುಮಾರು ಎಷ್ಟು ಸಮಯ ಬಿಡಬೇಕು?",
+            "सीलबंद, उपचारित भूसे के ढेर को खोलने से पहले करीब कितने समय तक छोड़ना चाहिए?"
+          ),
           options: [
-            L("A few hours"),
-            L("About 3 weeks in summer, or about 4 weeks in winter"),
-            L("Exactly one year"),
-            L("It can be fed immediately after sealing"),
+            L("A few hours", "కొన్ని గంటలు", "சில மணிநேரங்கள்", "ಕೆಲವು ಗಂಟೆಗಳು", "कुछ घंटे"),
+            L(
+              "About 3 weeks in summer, or about 4 weeks in winter",
+              "వేసవిలో సుమారు 3 వారాలు, లేదా చలికాలంలో సుమారు 4 వారాలు",
+              "கோடையில் சுமார் 3 வாரங்கள், அல்லது குளிர்காலத்தில் சுமார் 4 வாரங்கள்",
+              "ಬೇಸಿಗೆಯಲ್ಲಿ ಸುಮಾರು 3 ವಾರಗಳು, ಅಥವಾ ಚಳಿಗಾಲದಲ್ಲಿ ಸುಮಾರು 4 ವಾರಗಳು",
+              "गर्मी में करीब 3 हफ्ते, या सर्दी में करीब 4 हफ्ते"
+            ),
+            L("Exactly one year", "సరిగ్గా ఒక సంవత్సరం", "சரியாக ஒரு வருடம்", "ಸರಿಯಾಗಿ ಒಂದು ವರ್ಷ", "ठीक एक साल"),
+            L(
+              "It can be fed immediately after sealing",
+              "మూసివేసిన వెంటనే తినిపించవచ్చు",
+              "மூடிய உடனேயே ஊட்டலாம்",
+              "ಮುಚ್ಚಿದ ತಕ್ಷಣ ತಿನ್ನಿಸಬಹುದು",
+              "सील करने के तुरंत बाद खिलाया जा सकता है"
+            ),
           ],
           answer: 1,
-          explain: L("The treated heap needs roughly 3 weeks in summer or 4 weeks in winter before it is ready to open and feed."),
+          explain: L(
+            "The treated heap needs roughly 3 weeks in summer or 4 weeks in winter before it is ready to open and feed.",
+            "శుద్ధి చేసిన కుప్ప తెరిచి తినిపించడానికి సిద్ధం కావడానికి వేసవిలో సుమారు 3 వారాలు లేదా చలికాలంలో 4 వారాలు అవసరం.",
+            "சிகிச்சை செய்யப்பட்ட குவியல் திறந்து ஊட்டத் தயாராக கோடையில் சுமார் 3 வாரங்கள் அல்லது குளிர்காலத்தில் 4 வாரங்கள் தேவை.",
+            "ಸಂಸ್ಕರಿಸಿದ ರಾಶಿ ತೆರೆದು ತಿನ್ನಿಸಲು ಸಿದ್ಧವಾಗಲು ಬೇಸಿಗೆಯಲ್ಲಿ ಸುಮಾರು 3 ವಾರಗಳು ಅಥವಾ ಚಳಿಗಾಲದಲ್ಲಿ 4 ವಾರಗಳು ಬೇಕಾಗುತ್ತದೆ.",
+            "उपचारित ढेर को खोलने और खिलाने लायक तैयार होने में गर्मी में करीब 3 हफ्ते या सर्दी में 4 हफ्ते लगते हैं।"
+          ),
         },
         {
           topicId: "t-m15-straw-problem",
           type: "truefalse",
-          q: L("Feeding urea-treated straw can reduce how much extra cattle feed concentrate is needed."),
+          q: L(
+            "Feeding urea-treated straw can reduce how much extra cattle feed concentrate is needed.",
+            "యూరియా శుద్ధి చేసిన గడ్డిని తినిపించడం వల్ల అదనపు దాణా అవసరం తగ్గించవచ్చు.",
+            "யூரியா சிகிச்சை செய்யப்பட்ட வைக்கோலை ஊட்டுவது கூடுதல் கால்நடை தீவனத் தேவையைக் குறைக்கும்.",
+            "ಯೂರಿಯಾ ಸಂಸ್ಕರಿಸಿದ ಒಣಹುಲ್ಲನ್ನು ತಿನ್ನಿಸುವುದರಿಂದ ಹೆಚ್ಚುವರಿ ದನದ ಆಹಾರ ಅಗತ್ಯವನ್ನು ಕಡಿಮೆ ಮಾಡಬಹುದು.",
+            "यूरिया-उपचारित भूसा खिलाने से अतिरिक्त पशु आहार की जरूरत कम हो सकती है।"
+          ),
           answer: true,
-          explain: L("Yes — urea-treated straw can reduce the extra cattle feed concentrate needed, by up to about 30 per cent in some cases."),
+          explain: L(
+            "Yes — urea-treated straw can reduce the extra cattle feed concentrate needed, by up to about 30 per cent in some cases.",
+            "అవును — యూరియా శుద్ధి చేసిన గడ్డి కొన్ని సందర్భాల్లో అదనపు దాణా అవసరాన్ని సుమారు 30 శాతం వరకు తగ్గించవచ్చు.",
+            "ஆம் — யூரியா சிகிச்சை செய்யப்பட்ட வைக்கோல் சில சந்தர்ப்பங்களில் கூடுதல் கால்நடை தீவனத் தேவையை சுமார் 30 சதவீதம் வரை குறைக்கக்கூடும்.",
+            "ಹೌದು — ಯೂರಿಯಾ ಸಂಸ್ಕರಿಸಿದ ಒಣಹುಲ್ಲು ಕೆಲವು ಸಂದರ್ಭಗಳಲ್ಲಿ ಹೆಚ್ಚುವರಿ ದನದ ಆಹಾರದ ಅಗತ್ಯವನ್ನು ಸುಮಾರು 30 ಪ್ರತಿಶತದವರೆಗೆ ಕಡಿಮೆ ಮಾಡಬಹುದು.",
+            "हाँ — यूरिया-उपचारित भूसा कुछ मामलों में अतिरिक्त पशु आहार की जरूरत को करीब 30 प्रतिशत तक कम कर सकता है।"
+          ),
         },
         {
           topicId: "t-m15-straw-safety",
           type: "mcq",
-          q: L("Before feeding opened, treated straw to animals, what should be done first?"),
+          q: L(
+            "Before feeding opened, treated straw to animals, what should be done first?",
+            "తెరిచిన, శుద్ధి చేసిన గడ్డిని జంతువులకు తినిపించే ముందు, మొదట ఏమి చేయాలి?",
+            "திறந்த, சிகிச்சை செய்யப்பட்ட வைக்கோலை விலங்குகளுக்கு ஊட்டுவதற்கு முன், முதலில் என்ன செய்ய வேண்டும்?",
+            "ತೆರೆದ, ಸಂಸ್ಕರಿಸಿದ ಒಣಹುಲ್ಲನ್ನು ಪ್ರಾಣಿಗಳಿಗೆ ತಿನ್ನಿಸುವ ಮೊದಲು, ಮೊದಲಿಗೆ ಏನು ಮಾಡಬೇಕು?",
+            "खोले गए, उपचारित भूसे को पशुओं को खिलाने से पहले, सबसे पहले क्या करना चाहिए?"
+          ),
           options: [
-            L("Feed it immediately, straight from the sealed heap"),
-            L("Spread it out in the open air first, so leftover ammonia gas can escape"),
-            L("Mix in fresh urea solution to strengthen it further"),
-            L("Nothing — no extra step is needed"),
+            L(
+              "Feed it immediately, straight from the sealed heap",
+              "మూసివేసిన కుప్ప నుండి తీసిన వెంటనే తినిపించాలి",
+              "மூடிய குவியலிலிருந்து உடனடியாக ஊட்ட வேண்டும்",
+              "ಮುಚ್ಚಿದ ರಾಶಿಯಿಂದ ತಕ್ಷಣ ತಿನ್ನಿಸಬೇಕು",
+              "इसे तुरंत, सीधे सीलबंद ढेर से खिलाना चाहिए"
+            ),
+            L(
+              "Spread it out in the open air first, so leftover ammonia gas can escape",
+              "మిగిలిన అమ్మోనియా వాయువు బయటకు పోవడానికి మొదట బహిరంగ గాలిలో పరచాలి",
+              "மீதமான அமோனியா வாயு வெளியேற முதலில் திறந்த காற்றில் பரப்ப வேண்டும்",
+              "ಉಳಿದ ಅಮೋನಿಯಾ ಅನಿಲ ಹೊರಹೋಗಲು ಮೊದಲು ಬಯಲು ಗಾಳಿಯಲ್ಲಿ ಹರಡಬೇಕು",
+              "बची हुई अमोनिया गैस निकलने के लिए पहले इसे खुली हवा में फैलाना चाहिए"
+            ),
+            L(
+              "Mix in fresh urea solution to strengthen it further",
+              "మరింత బలపరచడానికి తాజా యూరియా ద్రావణాన్ని కలపాలి",
+              "மேலும் வலுப்படுத்த புதிய யூரியா கரைசலை கலக்க வேண்டும்",
+              "ಇನ್ನಷ್ಟು ಬಲಗೊಳಿಸಲು ತಾಜಾ ಯೂರಿಯಾ ದ್ರಾವಣವನ್ನು ಬೆರೆಸಬೇಕು",
+              "इसे और मजबूत बनाने के लिए ताजा यूरिया घोल मिलाना चाहिए"
+            ),
+            L(
+              "Nothing — no extra step is needed",
+              "ఏమీ చేయనవసరం లేదు — అదనపు దశ అవసరం లేదు",
+              "எதுவும் இல்லை — கூடுதல் படி தேவையில்லை",
+              "ಏನೂ ಇಲ್ಲ — ಹೆಚ್ಚುವರಿ ಹಂತ ಅಗತ್ಯವಿಲ್ಲ",
+              "कुछ नहीं — किसी अतिरिक्त कदम की जरूरत नहीं है"
+            ),
           ],
           answer: 1,
-          explain: L("After opening, treated straw should be aired out first so any remaining ammonia gas escapes, before it is fed to the animals."),
+          explain: L(
+            "After opening, treated straw should be aired out first so any remaining ammonia gas escapes, before it is fed to the animals.",
+            "తెరిచిన తర్వాత, మిగిలిన అమ్మోనియా వాయువు బయటకు పోవడానికి, జంతువులకు తినిపించే ముందు శుద్ధి చేసిన గడ్డిని మొదట గాలికి ఆరబెట్టాలి.",
+            "திறந்த பிறகு, மீதமான அமோனியா வாயு வெளியேற, விலங்குகளுக்கு ஊட்டுவதற்கு முன் சிகிச்சை செய்யப்பட்ட வைக்கோலை முதலில் காற்றோட்டமாக்க வேண்டும்.",
+            "ತೆರೆದ ನಂತರ, ಉಳಿದ ಅಮೋನಿಯಾ ಅನಿಲ ಹೊರಹೋಗಲು, ಪ್ರಾಣಿಗಳಿಗೆ ತಿನ್ನಿಸುವ ಮೊದಲು ಸಂಸ್ಕರಿಸಿದ ಒಣಹುಲ್ಲನ್ನು ಮೊದಲು ಗಾಳಿಗೆ ಆರಿಸಬೇಕು.",
+            "खोलने के बाद, बची हुई अमोनिया गैस निकलने के लिए, पशुओं को खिलाने से पहले उपचारित भूसे को पहले हवा में सुखाना चाहिए।"
+          ),
         },
       ],
     },
@@ -13279,8 +14236,20 @@ export const MODULES = [
   {
     id: "m16",
     number: 16,
-    title: L("Housing of Animals"),
-    subtitle: L("What a comfortable, healthy shed for animals actually needs."),
+    title: L(
+      "Housing of Animals",
+      "జంతువుల ఆవాసం",
+      "விலங்குகளின் தங்குமிடம்",
+      "ಪ್ರಾಣಿಗಳ ವಾಸಸ್ಥಳ",
+      "पशुओं का आवास"
+    ),
+    subtitle: L(
+      "What a comfortable, healthy shed for animals actually needs.",
+      "జంతువులకు సౌకర్యవంతమైన, ఆరోగ్యకరమైన షెడ్‌కు నిజంగా ఏమి కావాలి.",
+      "விலங்குகளுக்கான வசதியான, ஆரோக்கியமான தொழுவத்திற்கு உண்மையில் என்ன தேவை.",
+      "ಪ್ರಾಣಿಗಳಿಗೆ ಆರಾಮದಾಯಕ, ಆರೋಗ್ಯಕರ ಶೆಡ್‌ಗೆ ನಿಜವಾಗಿ ಏನು ಬೇಕು.",
+      "पशुओं के लिए आरामदायक, स्वस्थ शेड के लिए वास्तव में क्या जरूरी है।"
+    ),
     icon: "home",
     available: true,
     lessons: [
@@ -13289,162 +14258,360 @@ export const MODULES = [
   // ==================================================================
   {
     id: "m16-l1",
-    title: L("Space and Layout of the Shed"),
+    title: L(
+      "Space and Layout of the Shed",
+      "షెడ్ యొక్క స్థలం మరియు నమూనా",
+      "தொழுவத்தின் இடம் மற்றும் அமைப்பு",
+      "ಶೆಡ್‌ನ ಸ್ಥಳ ಮತ್ತು ವಿನ್ಯಾಸ",
+      "शेड की जगह और लेआउट"
+    ),
     estMinutes: 8,
     hook: [
       {
         type: "hero",
-        heading: L("A Good Shed Starts With the Right Space and the Right Layout"),
+        heading: L(
+          "A Good Shed Starts With the Right Space and the Right Layout",
+          "మంచి షెడ్ సరైన స్థలం మరియు సరైన నమూనాతో మొదలవుతుంది",
+          "நல்ல தொழுவம் சரியான இடம் மற்றும் சரியான அமைப்புடன் தொடங்குகிறது",
+          "ಉತ್ತಮ ಶೆಡ್ ಸರಿಯಾದ ಸ್ಥಳ ಮತ್ತು ಸರಿಯಾದ ವಿನ್ಯಾಸದಿಂದ ಪ್ರಾರಂಭವಾಗುತ್ತದೆ",
+          "अच्छा शेड सही जगह और सही लेआउट से शुरू होता है"
+        ),
         text: L(
-          "An animal doesn't need anything fancy — but it does need enough room to lie down and move comfortably, and a shed that is arranged the right way. This lesson teaches exactly how much floor space and ceiling height a shed needs, and how the manger, water and open area around it should be arranged. No construction experience needed — just the exact numbers to check for."
+          "An animal doesn't need anything fancy — but it does need enough room to lie down and move comfortably, and a shed that is arranged the right way. This lesson teaches exactly how much floor space and ceiling height a shed needs, and how the manger, water and open area around it should be arranged. No construction experience needed — just the exact numbers to check for.",
+          "జంతువుకు ఏమీ ఆడంబరమైనది అవసరం లేదు — కానీ దానికి సౌకర్యంగా పడుకోవడానికి, తిరగడానికి తగినంత స్థలం మరియు సరైన రీతిలో అమర్చిన షెడ్ అవసరం. ఈ పాఠం షెడ్‌కు ఎంత నేల స్థలం మరియు పైకప్పు ఎత్తు అవసరమో, మరియు గాదె, నీరు మరియు దాని చుట్టూ ఉన్న బహిరంగ ప్రదేశాన్ని ఎలా అమర్చాలో ఖచ్చితంగా బోధిస్తుంది. నిర్మాణ అనుభవం అవసరం లేదు — తనిఖీ చేయవలసిన ఖచ్చితమైన సంఖ్యలు మాత్రమే.",
+          "விலங்குக்கு ஆடம்பரமானது எதுவும் தேவையில்லை — ஆனால் வசதியாக படுத்துக்கொள்ள, நகர போதுமான இடமும், சரியான முறையில் அமைக்கப்பட்ட தொழுவமும் தேவை. இந்தப் பாடம் தொழுவத்திற்கு எவ்வளவு தரை இடமும் கூரை உயரமும் தேவையோ, மற்றும் தீவனத்தொட்டி, தண்ணீர் மற்றும் அதைச் சுற்றியுள்ள திறந்த வெளியை எப்படி அமைக்க வேண்டுமோ என்பதை துல்லியமாகக் கற்பிக்கிறது. கட்டுமான அனுபவம் தேவையில்லை — சரிபார்க்க வேண்டிய துல்லியமான எண்கள் மட்டுமே.",
+          "ಪ್ರಾಣಿಗೆ ಯಾವುದೇ ಅಬ್ಬರದ ವಸ್ತು ಬೇಕಿಲ್ಲ — ಆದರೆ ಅದಕ್ಕೆ ಆರಾಮವಾಗಿ ಮಲಗಲು, ಚಲಿಸಲು ಸಾಕಷ್ಟು ಸ್ಥಳ ಮತ್ತು ಸರಿಯಾದ ರೀತಿಯಲ್ಲಿ ಜೋಡಿಸಿದ ಶೆಡ್ ಬೇಕು. ಈ ಪಾಠ ಶೆಡ್‌ಗೆ ಎಷ್ಟು ನೆಲದ ಸ್ಥಳ ಮತ್ತು ಚಾವಣಿ ಎತ್ತರ ಬೇಕೋ, ಮತ್ತು ಮೇವಿನ ತೊಟ್ಟಿ, ನೀರು ಮತ್ತು ಅದರ ಸುತ್ತಲಿನ ಬಯಲು ಪ್ರದೇಶವನ್ನು ಹೇಗೆ ಜೋಡಿಸಬೇಕೋ ಎಂಬುದನ್ನು ನಿಖರವಾಗಿ ಕಲಿಸುತ್ತದೆ. ನಿರ್ಮಾಣ ಅನುಭವ ಅಗತ್ಯವಿಲ್ಲ — ಪರಿಶೀಲಿಸಬೇಕಾದ ನಿಖರ ಸಂಖ್ಯೆಗಳು ಮಾತ್ರ.",
+          "पशु को कोई तामझाम नहीं चाहिए — लेकिन उसे आराम से लेटने और घूमने के लिए पर्याप्त जगह और सही तरीके से बनाया गया शेड जरूर चाहिए। यह पाठ बताता है कि शेड को कितनी फर्श की जगह और छत की ऊंचाई चाहिए, और चारा-नांद, पानी और आसपास की खुली जगह को कैसे व्यवस्थित किया जाना चाहिए। निर्माण के अनुभव की जरूरत नहीं है — बस जांचने के लिए सटीक आंकड़े चाहिए।"
         ),
       },
     ],
     topics: [
       {
         id: "t-m16-space",
-        title: L("How Much Space Each Animal Needs"),
+        title: L(
+          "How Much Space Each Animal Needs",
+          "ప్రతి జంతువుకు ఎంత స్థలం అవసరం",
+          "ஒவ்வொரு விலங்கிற்கும் எவ்வளவு இடம் தேவை",
+          "ಪ್ರತಿ ಪ್ರಾಣಿಗೆ ಎಷ್ಟು ಸ್ಥಳ ಬೇಕು",
+          "हर पशु को कितनी जगह चाहिए"
+        ),
         teach: [
             {
               type: "photo",
               src: "assets/photo-m16-shed.jpg",
-              alt: L("A small thatched-roof cattle shed open on the sides, standing on dry raised ground, with cattle resting comfortably underneath"),
-              caption: L("A simple open-sided shed — dry underfoot, only a couple of animals resting comfortably, not crowded."),
+              alt: L(
+                "A small thatched-roof cattle shed open on the sides, standing on dry raised ground, with cattle resting comfortably underneath",
+                "ఎండిన ఎత్తైన నేలపై నిలబడి, పక్కలు తెరిచి ఉన్న చిన్న గడ్డి పైకప్పు పశువుల షెడ్, దాని కింద పశువులు హాయిగా విశ్రాంతి తీసుకుంటున్నాయి",
+                "உலர்ந்த உயரமான நிலத்தில் நிற்கும், பக்கவாட்டில் திறந்த சிறிய ஓலைக் கூரை கால்நடை தொழுவம், அதன் கீழ் கால்நடைகள் வசதியாக ஓய்வெடுக்கின்றன",
+                "ಒಣ ಎತ್ತರದ ನೆಲದ ಮೇಲೆ ನಿಂತಿರುವ, ಬದಿಗಳಲ್ಲಿ ತೆರೆದಿರುವ ಸಣ್ಣ ಹುಲ್ಲಿನ ಛಾವಣಿಯ ದನದ ಶೆಡ್, ಅದರ ಕೆಳಗೆ ದನಗಳು ಆರಾಮವಾಗಿ ವಿಶ್ರಾಂತಿ ಪಡೆಯುತ್ತಿವೆ",
+                "सूखी ऊंची जमीन पर खड़ा, किनारों से खुला एक छोटा फूस की छत वाला पशु शेड, जिसके नीचे मवेशी आराम से बैठे हैं"
+              ),
+              caption: L(
+                "A simple open-sided shed — dry underfoot, only a couple of animals resting comfortably, not crowded.",
+                "సరళమైన పక్కలు తెరిచిన షెడ్ — కింద పొడిగా ఉంటుంది, కేవలం రెండు జంతువులు హాయిగా విశ్రాంతి తీసుకుంటున్నాయి, రద్దీగా లేదు.",
+                "எளிய பக்கவாட்டு திறந்த தொழுவம் — கீழே உலர்ந்திருக்கும், சில விலங்குகள் மட்டுமே வசதியாக ஓய்வெடுக்கின்றன, நெரிசல் இல்லை.",
+                "ಸರಳ ಬದಿ-ತೆರೆದ ಶೆಡ್ — ಕೆಳಗೆ ಒಣಗಿದೆ, ಕೇವಲ ಒಂದೆರಡು ಪ್ರಾಣಿಗಳು ಆರಾಮವಾಗಿ ವಿಶ್ರಾಂತಿ ಪಡೆಯುತ್ತಿವೆ, ಗಿಜಿಗುಟ್ಟುತ್ತಿಲ್ಲ.",
+                "एक साधारण खुले किनारों वाला शेड — नीचे सूखा, केवल कुछ पशु आराम से बैठे हैं, भीड़ नहीं।"
+              ),
             },
           {
             type: "text",
-            heading: L("Why Space Matters"),
+            heading: L(
+              "Why Space Matters",
+              "స్థలం ఎందుకు ముఖ్యం",
+              "இடம் ஏன் முக்கியம்",
+              "ಸ್ಥಳ ಏಕೆ ಮುಖ್ಯ",
+              "जगह क्यों मायने रखती है"
+            ),
             html: L(
-              "Providing clean and comfortable housing is important for an animal's proper growth and for it to give as much milk as it possibly can. When animals are kept in cramped, stressful conditions, that stress alone can noticeably reduce how much they produce — so giving each animal enough room is not a luxury, it's part of good management."
+              "Providing clean and comfortable housing is important for an animal's proper growth and for it to give as much milk as it possibly can. When animals are kept in cramped, stressful conditions, that stress alone can noticeably reduce how much they produce — so giving each animal enough room is not a luxury, it's part of good management.",
+              "శుభ్రమైన, సౌకర్యవంతమైన ఆవాసాన్ని అందించడం జంతువు సరైన పెరుగుదలకు మరియు అది సాధ్యమైనంత ఎక్కువ పాలు ఇవ్వడానికి ముఖ్యం. జంతువులను ఇరుకైన, ఒత్తిడితో కూడిన పరిస్థితుల్లో ఉంచినప్పుడు, ఆ ఒత్తిడి ఒక్కటే వాటి ఉత్పత్తిని గణనీయంగా తగ్గించగలదు — కాబట్టి ప్రతి జంతువుకు తగినంత స్థలం ఇవ్వడం ఆడంబరం కాదు, ఇది మంచి నిర్వహణలో భాగం.",
+              "சுத்தமான, வசதியான தங்குமிடம் வழங்குவது விலங்கின் சரியான வளர்ச்சிக்கும், அது முடிந்தவரை அதிக பால் தருவதற்கும் முக்கியம். விலங்குகள் நெரிசலான, மன அழுத்தமான சூழலில் வைக்கப்படும் போது, அந்த மன அழுத்தம் மட்டுமே அவற்றின் உற்பத்தியை குறிப்பிடத்தக்க அளவு குறைக்கலாம் — எனவே ஒவ்வொரு விலங்கிற்கும் போதுமான இடம் தருவது ஆடம்பரம் அல்ல, இது நல்ல மேலாண்மையின் ஒரு பகுதி.",
+              "ಸ್ವಚ್ಛ, ಆರಾಮದಾಯಕ ವಾಸಸ್ಥಳ ಒದಗಿಸುವುದು ಪ್ರಾಣಿಯ ಸರಿಯಾದ ಬೆಳವಣಿಗೆಗೆ ಮತ್ತು ಅದು ಸಾಧ್ಯವಾದಷ್ಟು ಹಾಲು ನೀಡಲು ಮುಖ್ಯ. ಪ್ರಾಣಿಗಳನ್ನು ಇಕ್ಕಟ್ಟಾದ, ಒತ್ತಡದ ಪರಿಸ್ಥಿತಿಗಳಲ್ಲಿ ಇಟ್ಟಾಗ, ಆ ಒತ್ತಡವೊಂದೇ ಅವುಗಳ ಉತ್ಪಾದನೆಯನ್ನು ಗಮನಾರ್ಹವಾಗಿ ಕಡಿಮೆ ಮಾಡಬಹುದು — ಆದ್ದರಿಂದ ಪ್ರತಿ ಪ್ರಾಣಿಗೆ ಸಾಕಷ್ಟು ಸ್ಥಳ ನೀಡುವುದು ಐಷಾರಾಮಿ ಅಲ್ಲ, ಇದು ಉತ್ತಮ ನಿರ್ವಹಣೆಯ ಭಾಗ.",
+              "साफ-सुथरा और आरामदायक आवास देना पशु की सही वृद्धि के लिए और वह जितना संभव हो उतना दूध दे सके, इसके लिए जरूरी है। जब पशुओं को तंग, तनावपूर्ण हालात में रखा जाता है, तो वह तनाव अकेले ही उनके उत्पादन को काफी हद तक कम कर सकता है — इसलिए हर पशु को पर्याप्त जगह देना कोई सुविधा-भोग नहीं, बल्कि अच्छे प्रबंधन का हिस्सा है।"
             ),
           },
           {
             type: "glossary",
-            term: L("Animal Shed"),
+            term: L("Animal Shed", "పశువుల షెడ్", "கால்நடை தொழுவம்", "ದನದ ಶೆಡ್", "पशु शेड"),
             meaning: L(
-              "A covered structure built to shelter cows or buffaloes from sun, rain and wind. It doesn't need to be elaborate, but it does need to follow a few basic rules of space, height and layout to actually protect the animal and keep it comfortable."
+              "A covered structure built to shelter cows or buffaloes from sun, rain and wind. It doesn't need to be elaborate, but it does need to follow a few basic rules of space, height and layout to actually protect the animal and keep it comfortable.",
+              "ఎండ, వర్షం మరియు గాలి నుండి ఆవులు లేదా గేదెలకు ఆశ్రయం ఇవ్వడానికి నిర్మించిన కప్పబడిన నిర్మాణం. ఇది విస్తృతమైనది కానవసరం లేదు, కానీ జంతువును నిజంగా రక్షించి, సౌకర్యంగా ఉంచడానికి స్థలం, ఎత్తు మరియు నమూనా యొక్క కొన్ని ప్రాథమిక నియమాలను పాటించాలి.",
+              "வெயில், மழை மற்றும் காற்றிலிருந்து பசுக்கள் அல்லது எருமைகளுக்கு தஞ்சம் அளிக்க கட்டப்பட்ட மூடிய கட்டமைப்பு. இது விரிவானதாக இருக்க வேண்டியதில்லை, ஆனால் விலங்கை உண்மையிலேயே பாதுகாத்து வசதியாக வைத்திருக்க இடம், உயரம் மற்றும் அமைப்பின் சில அடிப்படை விதிகளைப் பின்பற்ற வேண்டும்.",
+              "ಬಿಸಿಲು, ಮಳೆ ಮತ್ತು ಗಾಳಿಯಿಂದ ಹಸು ಅಥವಾ ಎಮ್ಮೆಗಳಿಗೆ ಆಶ್ರಯ ನೀಡಲು ನಿರ್ಮಿಸಿದ ಮುಚ್ಚಿದ ರಚನೆ. ಇದು ವಿಸ್ತಾರವಾಗಿರಬೇಕಿಲ್ಲ, ಆದರೆ ಪ್ರಾಣಿಯನ್ನು ನಿಜವಾಗಿ ರಕ್ಷಿಸಿ ಆರಾಮದಾಯಕವಾಗಿಡಲು ಸ್ಥಳ, ಎತ್ತರ ಮತ್ತು ವಿನ್ಯಾಸದ ಕೆಲವು ಮೂಲ ನಿಯಮಗಳನ್ನು ಪಾಲಿಸಬೇಕು.",
+              "धूप, बारिश और हवा से गायों या भैंसों को बचाने के लिए बनाई गई ढकी हुई संरचना। यह भव्य होने की जरूरत नहीं, लेकिन पशु को वास्तव में सुरक्षित और आरामदायक रखने के लिए जगह, ऊंचाई और लेआउट के कुछ बुनियादी नियमों का पालन जरूर करना चाहिए।"
             ),
           },
           {
             type: "stat-grid",
             items: [
               {
-                label: L("Floor Space — Per Animal"),
-                text: L("Every cow or buffalo must have a minimum of 5.5 feet x 10 feet of floor space in the shed."),
+                label: L("Floor Space — Per Animal", "నేల స్థలం — ప్రతి జంతువుకు", "தரை இடம் — ஒரு விலங்கிற்கு", "ನೆಲದ ಸ್ಥಳ — ಪ್ರತಿ ಪ್ರಾಣಿಗೆ", "फर्श की जगह — प्रति पशु"),
+                text: L(
+                  "Every cow or buffalo must have a minimum of 5.5 feet x 10 feet of floor space in the shed.",
+                  "ప్రతి ఆవు లేదా గేదెకు షెడ్‌లో కనీసం 5.5 అడుగుల x 10 అడుగుల నేల స్థలం ఉండాలి.",
+                  "ஒவ்வொரு பசு அல்லது எருமைக்கும் தொழுவத்தில் குறைந்தபட்சம் 5.5 அடி x 10 அடி தரை இடம் இருக்க வேண்டும்.",
+                  "ಪ್ರತಿ ಹಸು ಅಥವಾ ಎಮ್ಮೆಗೆ ಶೆಡ್‌ನಲ್ಲಿ ಕನಿಷ್ಠ 5.5 ಅಡಿ x 10 ಅಡಿ ನೆಲದ ಸ್ಥಳ ಇರಬೇಕು.",
+                  "हर गाय या भैंस के पास शेड में कम से कम 5.5 फीट x 10 फीट फर्श की जगह होनी चाहिए।"
+                ),
               },
               {
-                label: L("Ceiling Height"),
+                label: L("Ceiling Height", "పైకప్పు ఎత్తు", "கூரை உயரம்", "ಚಾವಣಿ ಎತ್ತರ", "छत की ऊंचाई"),
                 text: L(
-                  "The height of the ceiling should not be less than 10 feet — whether the roof is made of thatch, AC sheets, brick, or RCC."
+                  "The height of the ceiling should not be less than 10 feet — whether the roof is made of thatch, AC sheets, brick, or RCC.",
+                  "పైకప్పు గడ్డితో, AC షీట్లతో, ఇటుకతో లేదా RCC తో తయారైనా, పైకప్పు ఎత్తు 10 అడుగుల కంటే తక్కువ ఉండకూడదు.",
+                  "கூரை ஓலையாலோ, AC தகடுகளாலோ, செங்கல்லாலோ அல்லது RCC ஆலோ செய்யப்பட்டிருந்தாலும், கூரையின் உயரம் 10 அடிக்குக் குறையக்கூடாது.",
+                  "ಛಾವಣಿ ಹುಲ್ಲಿನಿಂದ, AC ಶೀಟ್‌ಗಳಿಂದ, ಇಟ್ಟಿಗೆಯಿಂದ ಅಥವಾ RCC ಯಿಂದ ಮಾಡಿದ್ದರೂ, ಛಾವಣಿಯ ಎತ್ತರ 10 ಅಡಿಗಿಂತ ಕಡಿಮೆ ಇರಬಾರದು.",
+                  "छत चाहे फूस, AC शीट, ईंट, या RCC से बनी हो, छत की ऊंचाई 10 फीट से कम नहीं होनी चाहिए।"
                 ),
               },
             ],
           },
           {
             type: "glossary",
-            term: L("RCC"),
+            term: L("RCC", "RCC", "RCC", "RCC", "RCC"),
             meaning: L(
-              "Short for Reinforced Cement Concrete — a strong, solid roof or ceiling built from cement and iron rods together. It's more permanent than a thatched (straw or leaf) roof, but a thatched roof is also acceptable as long as the shed still meets the height rule."
+              "Short for Reinforced Cement Concrete — a strong, solid roof or ceiling built from cement and iron rods together. It's more permanent than a thatched (straw or leaf) roof, but a thatched roof is also acceptable as long as the shed still meets the height rule.",
+              "రీన్‌ఫోర్స్డ్ సిమెంట్ కాంక్రీట్ (RCC) సంక్షిప్త రూపం — సిమెంట్ మరియు ఇనుప కడ్డీలతో కలిపి నిర్మించిన బలమైన, గట్టి పైకప్పు లేదా సీలింగ్. ఇది గడ్డి (లేదా ఆకుల) పైకప్పు కంటే ఎక్కువ శాశ్వతమైనది, కానీ షెడ్ ఎత్తు నియమాన్ని పాటిస్తే గడ్డి పైకప్పు కూడా ఆమోదయోగ్యమే.",
+              "பலப்படுத்தப்பட்ட சிமெண்ட் கான்கிரீட்டின் (RCC) சுருக்கம் — சிமெண்ட் மற்றும் இரும்பு கம்பிகளால் இணைந்து கட்டப்பட்ட வலிமையான, திடமான கூரை அல்லது மேற்கூரை. இது ஓலைக் (வைக்கோல் அல்லது இலை) கூரையை விட நிரந்தரமானது, ஆனால் தொழுவம் உயர விதியை பூர்த்தி செய்தால் ஓலைக் கூரையும் ஏற்றுக்கொள்ளத்தக்கது.",
+              "ಬಲವರ್ಧಿತ ಸಿಮೆಂಟ್ ಕಾಂಕ್ರೀಟ್‌ನ (RCC) ಚಿಕ್ಕ ರೂಪ — ಸಿಮೆಂಟ್ ಮತ್ತು ಕಬ್ಬಿಣದ ಸರಳುಗಳಿಂದ ಒಟ್ಟಿಗೆ ನಿರ್ಮಿಸಿದ ಬಲಿಷ್ಠ, ಗಟ್ಟಿ ಛಾವಣಿ. ಇದು ಹುಲ್ಲಿನ (ಒಣಹುಲ್ಲು ಅಥವಾ ಎಲೆಯ) ಛಾವಣಿಗಿಂತ ಹೆಚ್ಚು ಶಾಶ್ವತ, ಆದರೆ ಶೆಡ್ ಎತ್ತರದ ನಿಯಮವನ್ನು ಪಾಲಿಸಿದರೆ ಹುಲ್ಲಿನ ಛಾವಣಿಯೂ ಸ್ವೀಕಾರಾರ್ಹ.",
+              "रीइन्फोर्स्ड सीमेंट कंक्रीट (RCC) का संक्षिप्त रूप — सीमेंट और लोहे की छड़ों से मिलकर बनी मजबूत, ठोस छत। यह फूस (भूसे या पत्तों) की छत से अधिक स्थायी है, लेकिन अगर शेड ऊंचाई के नियम को पूरा करता है तो फूस की छत भी स्वीकार्य है।"
             ),
           },
           {
             type: "callout",
             style: "tip",
-            heading: L("Give Each Animal Its Own Space"),
+            heading: L(
+              "Give Each Animal Its Own Space",
+              "ప్రతి జంతువుకు దాని స్వంత స్థలం ఇవ్వండి",
+              "ஒவ்வொரு விலங்கிற்கும் அதற்கான சொந்த இடத்தைத் தாருங்கள்",
+              "ಪ್ರತಿ ಪ್ರಾಣಿಗೆ ಅದರದೇ ಸ್ಥಳ ನೀಡಿ",
+              "हर पशु को उसकी अपनी जगह दें"
+            ),
             text: L(
-              "Treat 5.5 feet x 10 feet and 10 feet of height as the minimum, not a target to stay under. A shed that is too low or too crowded keeps the animal under constant, avoidable stress, and stressed animals give less milk."
+              "Treat 5.5 feet x 10 feet and 10 feet of height as the minimum, not a target to stay under. A shed that is too low or too crowded keeps the animal under constant, avoidable stress, and stressed animals give less milk.",
+              "5.5 అడుగుల x 10 అడుగులు మరియు 10 అడుగుల ఎత్తును కనీస స్థాయిగా భావించండి, దీని కంటే తక్కువగా ఉండాలనే లక్ష్యంగా కాదు. చాలా తక్కువ లేదా రద్దీగా ఉన్న షెడ్ జంతువును నిరంతరం, నివారించదగిన ఒత్తిడిలో ఉంచుతుంది, మరియు ఒత్తిడికి గురైన జంతువులు తక్కువ పాలు ఇస్తాయి.",
+              "5.5 அடி x 10 அடி மற்றும் 10 அடி உயரத்தை குறைந்தபட்சமாக கருதுங்கள், அதற்குக் கீழே இருக்க வேண்டிய இலக்காக அல்ல. மிகவும் தாழ்வான அல்லது நெரிசலான தொழுவம் விலங்கை தொடர்ந்து, தவிர்க்கக்கூடிய மன அழுத்தத்தில் வைத்திருக்கும், மேலும் மன அழுத்தமுள்ள விலங்குகள் குறைவான பால் தரும்.",
+              "5.5 ಅಡಿ x 10 ಅಡಿ ಮತ್ತು 10 ಅಡಿ ಎತ್ತರವನ್ನು ಕನಿಷ್ಠವೆಂದು ಪರಿಗಣಿಸಿ, ಅದಕ್ಕಿಂತ ಕಡಿಮೆ ಇರಬೇಕಾದ ಗುರಿಯಲ್ಲ. ಬಹಳ ಕಡಿಮೆ ಅಥವಾ ಗಿಜಿಗುಟ್ಟುವ ಶೆಡ್ ಪ್ರಾಣಿಯನ್ನು ನಿರಂತರ, ತಪ್ಪಿಸಬಹುದಾದ ಒತ್ತಡದಲ್ಲಿ ಇಡುತ್ತದೆ, ಮತ್ತು ಒತ್ತಡಕ್ಕೊಳಗಾದ ಪ್ರಾಣಿಗಳು ಕಡಿಮೆ ಹಾಲು ನೀಡುತ್ತವೆ.",
+              "5.5 फीट x 10 फीट और 10 फीट की ऊंचाई को न्यूनतम मानें, न कि उससे कम रखने का लक्ष्य। बहुत नीचा या बहुत भीड़भाड़ वाला शेड पशु को लगातार, टाले जा सकने वाले तनाव में रखता है, और तनावग्रस्त पशु कम दूध देते हैं।"
             ),
           },
         ],
         check: [
           {
             type: "mcq",
-            q: L("What is the minimum floor space required for one cow or buffalo in a shed?"),
-            options: [L("5 feet x 8 feet"), L("5.5 feet x 10 feet"), L("8 feet x 10 feet"), L("10 feet x 10 feet")],
+            q: L(
+              "What is the minimum floor space required for one cow or buffalo in a shed?",
+              "షెడ్‌లో ఒక ఆవు లేదా గేదెకు కనీస నేల స్థలం ఎంత అవసరం?",
+              "தொழுவத்தில் ஒரு பசு அல்லது எருமைக்கு தேவையான குறைந்தபட்ச தரை இடம் என்ன?",
+              "ಶೆಡ್‌ನಲ್ಲಿ ಒಂದು ಹಸು ಅಥವಾ ಎಮ್ಮೆಗೆ ಅಗತ್ಯವಿರುವ ಕನಿಷ್ಠ ನೆಲದ ಸ್ಥಳ ಎಷ್ಟು?",
+              "शेड में एक गाय या भैंस के लिए न्यूनतम कितनी फर्श की जगह जरूरी है?"
+            ),
+            options: [
+              L("5 feet x 8 feet", "5 అడుగుల x 8 అడుగులు", "5 அடி x 8 அடி", "5 ಅಡಿ x 8 ಅಡಿ", "5 फीट x 8 फीट"),
+              L("5.5 feet x 10 feet", "5.5 అడుగుల x 10 అడుగులు", "5.5 அடி x 10 அடி", "5.5 ಅಡಿ x 10 ಅಡಿ", "5.5 फीट x 10 फीट"),
+              L("8 feet x 10 feet", "8 అడుగుల x 10 అడుగులు", "8 அடி x 10 அடி", "8 ಅಡಿ x 10 ಅಡಿ", "8 फीट x 10 फीट"),
+              L("10 feet x 10 feet", "10 అడుగుల x 10 అడుగులు", "10 அடி x 10 அடி", "10 ಅಡಿ x 10 ಅಡಿ", "10 फीट x 10 फीट"),
+            ],
             answer: 1,
-            explain: L("The minimum floor space required for one cow or buffalo is 5.5 feet x 10 feet."),
+            explain: L(
+              "The minimum floor space required for one cow or buffalo is 5.5 feet x 10 feet.",
+              "ఒక ఆవు లేదా గేదెకు అవసరమైన కనీస నేల స్థలం 5.5 అడుగుల x 10 అడుగులు.",
+              "ஒரு பசு அல்லது எருமைக்குத் தேவையான குறைந்தபட்ச தரை இடம் 5.5 அடி x 10 அடி.",
+              "ಒಂದು ಹಸು ಅಥವಾ ಎಮ್ಮೆಗೆ ಅಗತ್ಯವಿರುವ ಕನಿಷ್ಠ ನೆಲದ ಸ್ಥಳ 5.5 ಅಡಿ x 10 ಅಡಿ.",
+              "एक गाय या भैंस के लिए न्यूनतम फर्श की जगह 5.5 फीट x 10 फीट है।"
+            ),
           },
           {
             type: "truefalse",
-            q: L("The ceiling height of an animal shed should not be less than 10 feet, no matter what material the roof is made of."),
+            q: L(
+              "The ceiling height of an animal shed should not be less than 10 feet, no matter what material the roof is made of.",
+              "పైకప్పు ఏ పదార్థంతో తయారైనా, పశువుల షెడ్ యొక్క పైకప్పు ఎత్తు 10 అడుగుల కంటే తక్కువ ఉండకూడదు.",
+              "கூரை எந்தப் பொருளால் செய்யப்பட்டிருந்தாலும், கால்நடை தொழுவத்தின் கூரை உயரம் 10 அடிக்குக் குறையக்கூடாது.",
+              "ಛಾವಣಿ ಯಾವುದೇ ವಸ್ತುವಿನಿಂದ ಮಾಡಿದ್ದರೂ, ಪ್ರಾಣಿಯ ಶೆಡ್‌ನ ಛಾವಣಿ ಎತ್ತರ 10 ಅಡಿಗಿಂತ ಕಡಿಮೆ ಇರಬಾರದು.",
+              "छत चाहे किसी भी सामग्री से बनी हो, पशु शेड की छत की ऊंचाई 10 फीट से कम नहीं होनी चाहिए।"
+            ),
             answer: true,
-            explain: L("Correct — 10 feet is the minimum ceiling height, whether the roof is thatched, AC sheets, brick, or RCC."),
+            explain: L(
+              "Correct — 10 feet is the minimum ceiling height, whether the roof is thatched, AC sheets, brick, or RCC.",
+              "సరైనది — పైకప్పు గడ్డితో, AC షీట్లతో, ఇటుకతో లేదా RCC తో ఉన్నా, కనీస పైకప్పు ఎత్తు 10 అడుగులు.",
+              "சரியானது — கூரை ஓலையாலோ, AC தகடுகளாலோ, செங்கல்லாலோ அல்லது RCC ஆலோ செய்யப்பட்டிருந்தாலும், குறைந்தபட்ச கூரை உயரம் 10 அடி.",
+              "ಸರಿಯಾಗಿದೆ — ಛಾವಣಿ ಹುಲ್ಲಿನಿಂದ, AC ಶೀಟ್‌ಗಳಿಂದ, ಇಟ್ಟಿಗೆಯಿಂದ ಅಥವಾ RCC ಯಿಂದ ಆಗಿದ್ದರೂ, ಕನಿಷ್ಠ ಛಾವಣಿ ಎತ್ತರ 10 ಅಡಿ.",
+              "सही — चाहे छत फूस, AC शीट, ईंट, या RCC से बनी हो, न्यूनतम छत की ऊंचाई 10 फीट होनी चाहिए।"
+            ),
           },
         ],
       },
       {
         id: "t-m16-orientation",
-        title: L("Facing the Shed the Right Way: Walls, Manger and Open Area"),
+        title: L(
+          "Facing the Shed the Right Way: Walls, Manger and Open Area",
+          "షెడ్‌ను సరైన దిశలో ఉంచడం: గోడలు, గాదె మరియు బహిరంగ ప్రదేశం",
+          "தொழுவத்தை சரியான திசையில் அமைத்தல்: சுவர்கள், தீவனத்தொட்டி மற்றும் திறந்த வெளி",
+          "ಶೆಡ್ ಅನ್ನು ಸರಿಯಾದ ದಿಕ್ಕಿನಲ್ಲಿ ಇಡುವುದು: ಗೋಡೆಗಳು, ಮೇವಿನ ತೊಟ್ಟಿ ಮತ್ತು ಬಯಲು ಪ್ರದೇಶ",
+          "शेड को सही दिशा में रखना: दीवारें, चारा-नांद और खुली जगह"
+        ),
         teach: [
             {
               type: "photo",
               src: "assets/photo-m16-manger.jpg",
-              alt: L("A long, sturdy concrete manger built along the base of a wall in a farm shed"),
-              caption: L("A concrete manger built along a wall, raised above the ground — the same basic design this lesson describes."),
+              alt: L(
+                "A long, sturdy concrete manger built along the base of a wall in a farm shed",
+                "ఫారం షెడ్‌లో గోడ అడుగు భాగంలో నిర్మించిన పొడవైన, దృఢమైన కాంక్రీట్ గాదె",
+                "பண்ணை தொழுவத்தில் சுவரின் அடிப்பகுதியில் கட்டப்பட்ட நீளமான, திடமான கான்கிரீட் தீவனத்தொட்டி",
+                "ಫಾರ್ಮ್ ಶೆಡ್‌ನಲ್ಲಿ ಗೋಡೆಯ ತಳಭಾಗದಲ್ಲಿ ನಿರ್ಮಿಸಿದ ಉದ್ದವಾದ, ಗಟ್ಟಿಯಾದ ಕಾಂಕ್ರೀಟ್ ಮೇವಿನ ತೊಟ್ಟಿ",
+                "फार्म शेड में दीवार के आधार पर बनी एक लंबी, मजबूत कंक्रीट चारा-नांद"
+              ),
+              caption: L(
+                "A concrete manger built along a wall, raised above the ground — the same basic design this lesson describes.",
+                "గోడ వెంబడి నిర్మించిన, నేలకు పైన ఎత్తుగా ఉన్న కాంక్రీట్ గాదె — ఈ పాఠం వివరించిన అదే ప్రాథమిక నమూనా.",
+                "சுவரின் ஓரமாக கட்டப்பட்ட, தரையிலிருந்து உயர்த்தப்பட்ட கான்கிரீட் தீவனத்தொட்டி — இந்தப் பாடம் விவரிக்கும் அதே அடிப்படை வடிவமைப்பு.",
+                "ಗೋಡೆಯ ಉದ್ದಕ್ಕೂ ನಿರ್ಮಿಸಿದ, ನೆಲದಿಂದ ಎತ್ತರಿಸಿದ ಕಾಂಕ್ರೀಟ್ ಮೇವಿನ ತೊಟ್ಟಿ — ಈ ಪಾಠ ವಿವರಿಸುವ ಅದೇ ಮೂಲ ವಿನ್ಯಾಸ.",
+                "दीवार के साथ बनी, जमीन से ऊंची कंक्रीट चारा-नांद — इस पाठ में बताया गया वही मूल डिज़ाइन।"
+              ),
             },
           {
             type: "text",
-            heading: L("Open on Three Sides, Walled on One"),
+            heading: L(
+              "Open on Three Sides, Walled on One",
+              "మూడు వైపులా తెరిచి, ఒక వైపు గోడ",
+              "மூன்று பக்கங்களில் திறந்தது, ஒரு பக்கம் சுவர்",
+              "ಮೂರು ಬದಿಗಳಲ್ಲಿ ತೆರೆದಿದೆ, ಒಂದು ಬದಿಯಲ್ಲಿ ಗೋಡೆ",
+              "तीन तरफ से खुला, एक तरफ दीवार"
+            ),
             html: L(
-              "A shed should be open from three sides, with only the <b>western</b> side having a wall. Keeping most sides open lets in light and fresh air, while the single western wall blocks the harsh afternoon sun and hot winds that come from that direction."
+              "A shed should be open from three sides, with only the <b>western</b> side having a wall. Keeping most sides open lets in light and fresh air, while the single western wall blocks the harsh afternoon sun and hot winds that come from that direction.",
+              "షెడ్ మూడు వైపులా తెరిచి ఉండాలి, కేవలం <b>పడమర</b> వైపు మాత్రమే గోడ ఉండాలి. చాలా వైపులను తెరిచి ఉంచడం వల్ల వెలుతురు మరియు స్వచ్ఛమైన గాలి లోపలికి వస్తుంది, అదే సమయంలో ఒకే పడమర గోడ ఆ దిశ నుండి వచ్చే తీవ్రమైన మధ్యాహ్నపు ఎండను మరియు వేడి గాలులను అడ్డుకుంటుంది.",
+              "தொழுவம் மூன்று பக்கங்களில் திறந்திருக்க வேண்டும், <b>மேற்கு</b> பக்கம் மட்டும் சுவர் இருக்க வேண்டும். பெரும்பாலான பக்கங்களைத் திறந்து வைப்பது வெளிச்சத்தையும் புத்துணர்ச்சியான காற்றையும் உள்ளே விடும், அதே நேரத்தில் ஒரே மேற்கு சுவர் அந்த திசையிலிருந்து வரும் கடுமையான மதிய வெயிலையும் சூடான காற்றையும் தடுக்கும்.",
+              "ಶೆಡ್ ಮೂರು ಬದಿಗಳಲ್ಲಿ ತೆರೆದಿರಬೇಕು, <b>ಪಶ್ಚಿಮ</b> ಬದಿಯಲ್ಲಿ ಮಾತ್ರ ಗೋಡೆ ಇರಬೇಕು. ಹೆಚ್ಚಿನ ಬದಿಗಳನ್ನು ತೆರೆದಿಡುವುದರಿಂದ ಬೆಳಕು ಮತ್ತು ತಾಜಾ ಗಾಳಿ ಒಳಗೆ ಬರುತ್ತದೆ, ಅದೇ ಸಮಯದಲ್ಲಿ ಒಂದೇ ಪಶ್ಚಿಮ ಗೋಡೆ ಆ ದಿಕ್ಕಿನಿಂದ ಬರುವ ತೀವ್ರ ಮಧ್ಯಾಹ್ನದ ಬಿಸಿಲನ್ನು ಮತ್ತು ಬಿಸಿ ಗಾಳಿಯನ್ನು ತಡೆಯುತ್ತದೆ.",
+              "शेड तीन तरफ से खुला होना चाहिए, केवल <b>पश्चिम</b> दिशा में दीवार होनी चाहिए। अधिकतर तरफ खुला रखने से रोशनी और ताजी हवा अंदर आती है, वहीं एक पश्चिमी दीवार उस दिशा से आने वाली तेज दोपहर की धूप और गर्म हवाओं को रोकती है।"
             ),
           },
           {
             type: "glossary",
-            term: L("Manger"),
-            meaning: L("A long trough or box, usually built along a wall, where an animal's feed is placed for it to eat from."),
+            term: L("Manger", "గాదె", "தீவனத்தொட்டி", "ಮೇವಿನ ತೊಟ್ಟಿ", "चारा-नांद"),
+            meaning: L(
+              "A long trough or box, usually built along a wall, where an animal's feed is placed for it to eat from.",
+              "సాధారణంగా గోడ వెంబడి నిర్మించిన పొడవైన తొట్టి లేదా పెట్టె, ఇందులో జంతువు తినడానికి దాణా పెడతారు.",
+              "பொதுவாக சுவரின் ஓரமாக கட்டப்பட்ட நீளமான தொட்டி அல்லது பெட்டி, இதில் விலங்கு உண்பதற்காக தீவனம் வைக்கப்படுகிறது.",
+              "ಸಾಮಾನ್ಯವಾಗಿ ಗೋಡೆಯ ಉದ್ದಕ್ಕೂ ನಿರ್ಮಿಸಿದ ಉದ್ದವಾದ ತೊಟ್ಟಿ ಅಥವಾ ಪೆಟ್ಟಿಗೆ, ಇದರಲ್ಲಿ ಪ್ರಾಣಿ ತಿನ್ನಲು ಆಹಾರ ಇಡಲಾಗುತ್ತದೆ.",
+              "आमतौर पर दीवार के साथ बनी एक लंबी नांद या पेटी, जिसमें पशु के खाने के लिए चारा रखा जाता है।"
+            ),
           },
           {
             type: "stat-grid",
             items: [
               {
-                label: L("Manger — Location and Size"),
+                label: L("Manger — Location and Size", "గాదె — స్థానం మరియు పరిమాణం", "தீவனத்தொட்டி — இடம் மற்றும் அளவு", "ಮೇವಿನ ತೊಟ್ಟಿ — ಸ್ಥಳ ಮತ್ತು ಗಾತ್ರ", "चारा-नांद — स्थान और आकार"),
                 text: L(
-                  "A manger 2 feet wide and 1.5 feet deep should be located on the western wall of the shed, with its base about 1 foot above the floor level."
+                  "A manger 2 feet wide and 1.5 feet deep should be located on the western wall of the shed, with its base about 1 foot above the floor level.",
+                  "2 అడుగుల వెడల్పు మరియు 1.5 అడుగుల లోతు గల గాదె షెడ్ యొక్క పడమర గోడపై ఉండాలి, దాని అడుగు భాగం నేల మట్టానికి సుమారు 1 అడుగు పైన ఉండాలి.",
+                  "2 அடி அகலமும் 1.5 அடி ஆழமும் கொண்ட தீவனத்தொட்டி தொழுவத்தின் மேற்கு சுவரில் இருக்க வேண்டும், அதன் அடிப்பகுதி தரை மட்டத்திலிருந்து சுமார் 1 அடி உயரத்தில் இருக்க வேண்டும்.",
+                  "2 ಅಡಿ ಅಗಲ ಮತ್ತು 1.5 ಅಡಿ ಆಳದ ಮೇವಿನ ತೊಟ್ಟಿ ಶೆಡ್‌ನ ಪಶ್ಚಿಮ ಗೋಡೆಯಲ್ಲಿ ಇರಬೇಕು, ಅದರ ತಳಭಾಗ ನೆಲದ ಮಟ್ಟಕ್ಕಿಂತ ಸುಮಾರು 1 ಅಡಿ ಎತ್ತರದಲ್ಲಿರಬೇಕು.",
+                  "2 फीट चौड़ी और 1.5 फीट गहरी चारा-नांद शेड की पश्चिमी दीवार पर होनी चाहिए, जिसका आधार फर्श के स्तर से करीब 1 फीट ऊपर हो।"
                 ),
               },
               {
-                label: L("Drinking Water"),
-                text: L("A trough for drinking water should be provided right beside the manger."),
+                label: L("Drinking Water", "తాగునీరు", "குடிநீர்", "ಕುಡಿಯುವ ನೀರು", "पीने का पानी"),
+                text: L(
+                  "A trough for drinking water should be provided right beside the manger.",
+                  "గాదెకు పక్కనే తాగునీటి తొట్టి ఏర్పాటు చేయాలి.",
+                  "தீவனத்தொட்டியின் அருகிலேயே குடிநீருக்கான தொட்டி வழங்கப்பட வேண்டும்.",
+                  "ಮೇವಿನ ತೊಟ್ಟಿಯ ಪಕ್ಕದಲ್ಲಿಯೇ ಕುಡಿಯುವ ನೀರಿನ ತೊಟ್ಟಿ ಇರಬೇಕು.",
+                  "चारा-नांद के ठीक बगल में पीने के पानी के लिए एक हौद होनी चाहिए।"
+                ),
               },
             ],
           },
           {
             type: "glossary",
-            term: L("Loafing Area"),
+            term: L("Loafing Area", "విశ్రాంతి ప్రదేశం (లోఫింగ్ ఏరియా)", "ஓய்வு பகுதி (லோஃபிங் ஏரியா)", "ವಿಶ್ರಾಂತಿ ಪ್ರದೇಶ (ಲೋಫಿಂಗ್ ಏರಿಯಾ)", "विश्राम क्षेत्र (लोफिंग एरिया)"),
             meaning: L(
-              "An open, uncovered area next to the shed where animals can move about freely, rest, and stand outside the roofed part whenever they want to."
+              "An open, uncovered area next to the shed where animals can move about freely, rest, and stand outside the roofed part whenever they want to.",
+              "షెడ్ పక్కనే ఉన్న బహిరంగ, కప్పులేని ప్రదేశం, ఇక్కడ జంతువులు స్వేచ్ఛగా తిరగవచ్చు, విశ్రాంతి తీసుకోవచ్చు మరియు కోరుకున్నప్పుడు పైకప్పు లేని భాగంలో నిలబడవచ్చు.",
+              "தொழுவத்தின் அருகில் உள்ள திறந்த, மூடப்படாத பகுதி, இங்கு விலங்குகள் சுதந்திரமாக நடமாடலாம், ஓய்வெடுக்கலாம், மற்றும் விரும்பும் போதெல்லாம் கூரையில்லாத பகுதியில் நிற்கலாம்.",
+              "ಶೆಡ್‌ನ ಪಕ್ಕದಲ್ಲಿರುವ ತೆರೆದ, ಮುಚ್ಚದ ಪ್ರದೇಶ, ಇಲ್ಲಿ ಪ್ರಾಣಿಗಳು ಸ್ವತಂತ್ರವಾಗಿ ಓಡಾಡಬಹುದು, ವಿಶ್ರಾಂತಿ ಪಡೆಯಬಹುದು, ಮತ್ತು ಬಯಸಿದಾಗ ಚಾವಣಿ ಇಲ್ಲದ ಭಾಗದಲ್ಲಿ ನಿಲ್ಲಬಹುದು.",
+              "शेड के बगल की एक खुली, बिना छत वाली जगह जहां पशु स्वतंत्र रूप से घूम सकते हैं, आराम कर सकते हैं, और जब चाहें छत रहित हिस्से में खड़े हो सकते हैं।"
             ),
           },
           {
             type: "example",
-            heading: L("Why the Eastern Side Is for Loafing"),
+            heading: L(
+              "Why the Eastern Side Is for Loafing",
+              "తూర్పు వైపు ఎందుకు విశ్రాంతి కోసం",
+              "ஏன் கிழக்குப் பக்கம் ஓய்வுக்கானது",
+              "ಪೂರ್ವ ಬದಿ ವಿಶ್ರಾಂತಿಗೆ ಏಕೆ",
+              "पूर्व दिशा विश्राम के लिए क्यों है"
+            ),
             text: L(
-              "The eastern side of the shed should have this free loafing area. Animals are more comfortable resting under the shade of a tree, so the loafing area should have 2 to 3 shady trees — for example, Neem."
+              "The eastern side of the shed should have this free loafing area. Animals are more comfortable resting under the shade of a tree, so the loafing area should have 2 to 3 shady trees — for example, Neem.",
+              "షెడ్ యొక్క తూర్పు వైపు ఈ స్వేచ్ఛా విశ్రాంతి ప్రదేశం ఉండాలి. జంతువులు చెట్టు నీడలో విశ్రాంతి తీసుకోవడం మరింత సౌకర్యంగా భావిస్తాయి, కాబట్టి విశ్రాంతి ప్రదేశంలో 2 నుండి 3 నీడనిచ్చే చెట్లు ఉండాలి — ఉదాహరణకు, వేప.",
+              "தொழுவத்தின் கிழக்குப் பக்கத்தில் இந்த சுதந்திர ஓய்வுப் பகுதி இருக்க வேண்டும். விலங்குகள் மரத்தின் நிழலில் ஓய்வெடுப்பதில் அதிக வசதி உணரும், எனவே ஓய்வுப் பகுதியில் 2 முதல் 3 நிழல் மரங்கள் இருக்க வேண்டும் — உதாரணமாக, வேம்பு.",
+              "ಶೆಡ್‌ನ ಪೂರ್ವ ಬದಿಯಲ್ಲಿ ಈ ಮುಕ್ತ ವಿಶ್ರಾಂತಿ ಪ್ರದೇಶ ಇರಬೇಕು. ಪ್ರಾಣಿಗಳು ಮರದ ನೆರಳಿನಲ್ಲಿ ವಿಶ್ರಾಂತಿ ಪಡೆಯಲು ಹೆಚ್ಚು ಆರಾಮದಾಯಕ ಎಂದು ಭಾವಿಸುತ್ತವೆ, ಆದ್ದರಿಂದ ವಿಶ್ರಾಂತಿ ಪ್ರದೇಶದಲ್ಲಿ 2 ರಿಂದ 3 ನೆರಳಿನ ಮರಗಳು ಇರಬೇಕು — ಉದಾಹರಣೆಗೆ, ಬೇವು.",
+              "शेड की पूर्व दिशा में यह मुक्त विश्राम क्षेत्र होना चाहिए। पशु पेड़ की छाया में आराम करना ज्यादा पसंद करते हैं, इसलिए विश्राम क्षेत्र में 2 से 3 छायादार पेड़ होने चाहिए — जैसे नीम।"
             ),
           },
           {
             type: "callout",
             style: "info",
-            heading: L("Everything Has a Reason"),
+            heading: L(
+              "Everything Has a Reason",
+              "ప్రతిదానికీ ఒక కారణం ఉంది",
+              "எல்லாவற்றிற்கும் ஒரு காரணம் உண்டு",
+              "ಪ್ರತಿಯೊಂದಕ್ಕೂ ಒಂದು ಕಾರಣವಿದೆ",
+              "हर चीज की एक वजह है"
+            ),
             text: L(
-              "Notice the pattern: the wall faces west to block the harsh sun, the manger sits along that same wall for shelter while feeding, and the open loafing area with shady trees faces east. None of this is random — each choice makes the animal more comfortable."
+              "Notice the pattern: the wall faces west to block the harsh sun, the manger sits along that same wall for shelter while feeding, and the open loafing area with shady trees faces east. None of this is random — each choice makes the animal more comfortable.",
+              "ఈ నమూనాను గమనించండి: తీవ్రమైన ఎండను అడ్డుకోవడానికి గోడ పడమర వైపు ఉంటుంది, తినిపించేటప్పుడు ఆశ్రయం కోసం గాదె అదే గోడ వెంబడి ఉంటుంది, మరియు నీడనిచ్చే చెట్లతో బహిరంగ విశ్రాంతి ప్రదేశం తూర్పు వైపు ఉంటుంది. ఇదేదీ యాదృచ్ఛికం కాదు — ప్రతి ఎంపిక జంతువును మరింత సౌకర్యవంతంగా చేస్తుంది.",
+              "இந்த வடிவத்தை கவனியுங்கள்: கடுமையான வெயிலைத் தடுக்க சுவர் மேற்கு நோக்கி இருக்கும், ஊட்டும் போது தஞ்சத்திற்காக தீவனத்தொட்டி அதே சுவரின் ஓரமாக இருக்கும், மற்றும் நிழல் மரங்களுடன் திறந்த ஓய்வுப் பகுதி கிழக்கு நோக்கி இருக்கும். இதில் எதுவும் தற்செயலானது அல்ல — ஒவ்வொரு தேர்வும் விலங்கை மேலும் வசதியாக்குகிறது.",
+              "ಈ ಮಾದರಿಯನ್ನು ಗಮನಿಸಿ: ತೀವ್ರ ಬಿಸಿಲನ್ನು ತಡೆಯಲು ಗೋಡೆ ಪಶ್ಚಿಮಕ್ಕೆ ಮುಖ ಮಾಡಿರುತ್ತದೆ, ತಿನ್ನಿಸುವಾಗ ಆಶ್ರಯಕ್ಕಾಗಿ ಮೇವಿನ ತೊಟ್ಟಿ ಅದೇ ಗೋಡೆಯ ಉದ್ದಕ್ಕೂ ಇರುತ್ತದೆ, ಮತ್ತು ನೆರಳಿನ ಮರಗಳಿರುವ ತೆರೆದ ವಿಶ್ರಾಂತಿ ಪ್ರದೇಶ ಪೂರ್ವಕ್ಕೆ ಮುಖ ಮಾಡಿರುತ್ತದೆ. ಇದರಲ್ಲಿ ಯಾವುದೂ ಆಕಸ್ಮಿಕವಲ್ಲ — ಪ್ರತಿ ಆಯ್ಕೆ ಪ್ರಾಣಿಯನ್ನು ಇನ್ನಷ್ಟು ಆರಾಮದಾಯಕವಾಗಿಸುತ್ತದೆ.",
+              "इस पैटर्न पर ध्यान दें: तेज धूप को रोकने के लिए दीवार पश्चिम की ओर होती है, खिलाते समय आश्रय के लिए चारा-नांद उसी दीवार के साथ होती है, और छायादार पेड़ों वाला खुला विश्राम क्षेत्र पूर्व की ओर होता है। इनमें से कुछ भी अनायास नहीं है — हर विकल्प पशु को अधिक आरामदायक बनाता है।"
             ),
           },
         ],
         check: [
           {
             type: "mcq",
-            q: L("Which side of the shed should have a wall, with the other three sides left open?"),
-            options: [L("The eastern side"), L("The western side"), L("The northern side"), L("The southern side")],
+            q: L(
+              "Which side of the shed should have a wall, with the other three sides left open?",
+              "మిగిలిన మూడు వైపులను తెరిచి ఉంచి, షెడ్ యొక్క ఏ వైపున గోడ ఉండాలి?",
+              "மற்ற மூன்று பக்கங்களையும் திறந்து வைத்து, தொழுவத்தின் எந்தப் பக்கத்தில் சுவர் இருக்க வேண்டும்?",
+              "ಇತರ ಮೂರು ಬದಿಗಳನ್ನು ತೆರೆದಿಟ್ಟು, ಶೆಡ್‌ನ ಯಾವ ಬದಿಯಲ್ಲಿ ಗೋಡೆ ಇರಬೇಕು?",
+              "बाकी तीन तरफ खुला रखते हुए, शेड की किस दिशा में दीवार होनी चाहिए?"
+            ),
+            options: [
+              L("The eastern side", "తూర్పు వైపు", "கிழக்குப் பக்கம்", "ಪೂರ್ವ ಬದಿ", "पूर्व दिशा"),
+              L("The western side", "పడమర వైపు", "மேற்குப் பக்கம்", "ಪಶ್ಚಿಮ ಬದಿ", "पश्चिम दिशा"),
+              L("The northern side", "ఉత్తరం వైపు", "வடக்குப் பக்கம்", "ಉತ್ತರ ಬದಿ", "उत्तर दिशा"),
+              L("The southern side", "దక్షిణం వైపు", "தெற்குப் பக்கம்", "ದಕ್ಷಿಣ ಬದಿ", "दक्षिण दिशा"),
+            ],
             answer: 1,
-            explain: L("Only the western side should have a wall — the other three sides are left open for light and air."),
+            explain: L(
+              "Only the western side should have a wall — the other three sides are left open for light and air.",
+              "పడమర వైపు మాత్రమే గోడ ఉండాలి — మిగిలిన మూడు వైపులు వెలుతురు మరియు గాలి కోసం తెరిచి ఉంచాలి.",
+              "மேற்குப் பக்கம் மட்டுமே சுவர் இருக்க வேண்டும் — மற்ற மூன்று பக்கங்களும் வெளிச்சம் மற்றும் காற்றுக்காக திறந்து வைக்கப்பட வேண்டும்.",
+              "ಪಶ್ಚಿಮ ಬದಿ ಮಾತ್ರ ಗೋಡೆ ಹೊಂದಿರಬೇಕು — ಇತರ ಮೂರು ಬದಿಗಳನ್ನು ಬೆಳಕು ಮತ್ತು ಗಾಳಿಗಾಗಿ ತೆರೆದಿಡಬೇಕು.",
+              "केवल पश्चिम दिशा में दीवार होनी चाहिए — बाकी तीन तरफ रोशनी और हवा के लिए खुला छोड़ा जाता है।"
+            ),
           },
           {
             type: "truefalse",
-            q: L("The free loafing area, with 2 to 3 shady trees, should be on the eastern side of the shed."),
+            q: L(
+              "The free loafing area, with 2 to 3 shady trees, should be on the eastern side of the shed.",
+              "2 నుండి 3 నీడనిచ్చే చెట్లతో కూడిన స్వేచ్ఛా విశ్రాంతి ప్రదేశం షెడ్ యొక్క తూర్పు వైపున ఉండాలి.",
+              "2 முதல் 3 நிழல் மரங்களுடன் கூடிய சுதந்திர ஓய்வுப் பகுதி தொழுவத்தின் கிழக்குப் பக்கத்தில் இருக்க வேண்டும்.",
+              "2 ರಿಂದ 3 ನೆರಳಿನ ಮರಗಳಿರುವ ಮುಕ್ತ ವಿಶ್ರಾಂತಿ ಪ್ರದೇಶ ಶೆಡ್‌ನ ಪೂರ್ವ ಬದಿಯಲ್ಲಿ ಇರಬೇಕು.",
+              "2 से 3 छायादार पेड़ों वाला मुक्त विश्राम क्षेत्र शेड की पूर्व दिशा में होना चाहिए।"
+            ),
             answer: true,
-            explain: L("Correct — the eastern side should have the free loafing area, with shady trees such as Neem."),
+            explain: L(
+              "Correct — the eastern side should have the free loafing area, with shady trees such as Neem.",
+              "సరైనది — తూర్పు వైపు వేప వంటి నీడనిచ్చే చెట్లతో కూడిన స్వేచ్ఛా విశ్రాంతి ప్రదేశం ఉండాలి.",
+              "சரியானது — கிழக்குப் பக்கத்தில் வேம்பு போன்ற நிழல் மரங்களுடன் சுதந்திர ஓய்வுப் பகுதி இருக்க வேண்டும்.",
+              "ಸರಿಯಾಗಿದೆ — ಪೂರ್ವ ಬದಿಯಲ್ಲಿ ಬೇವಿನಂತಹ ನೆರಳಿನ ಮರಗಳಿರುವ ಮುಕ್ತ ವಿಶ್ರಾಂತಿ ಪ್ರದೇಶ ಇರಬೇಕು.",
+              "सही — पूर्व दिशा में नीम जैसे छायादार पेड़ों वाला मुक्त विश्राम क्षेत्र होना चाहिए।"
+            ),
           },
         ],
       },
@@ -13455,55 +14622,187 @@ export const MODULES = [
         {
           topicId: "t-m16-space",
           type: "mcq",
-          q: L("Why does floor space and ceiling height matter for an animal shed?"),
+          q: L(
+            "Why does floor space and ceiling height matter for an animal shed?",
+            "పశువుల షెడ్‌కు నేల స్థలం మరియు పైకప్పు ఎత్తు ఎందుకు ముఖ్యం?",
+            "கால்நடை தொழுவத்திற்கு தரை இடம் மற்றும் கூரை உயரம் ஏன் முக்கியம்?",
+            "ಪ್ರಾಣಿಯ ಶೆಡ್‌ಗೆ ನೆಲದ ಸ್ಥಳ ಮತ್ತು ಛಾವಣಿ ಎತ್ತರ ಏಕೆ ಮುಖ್ಯ?",
+            "पशु शेड के लिए फर्श की जगह और छत की ऊंचाई क्यों मायने रखती है?"
+          ),
           options: [
-            L("It has no real effect on the animal"),
-            L("Crowded, stressful housing can reduce how much an animal produces"),
-            L("It only matters for how the shed looks"),
-            L("Only the roof material matters, not the space"),
+            L(
+              "It has no real effect on the animal",
+              "దీనివల్ల జంతువుపై నిజమైన ప్రభావం ఏమీ ఉండదు",
+              "இது விலங்கின் மீது உண்மையான விளைவை ஏற்படுத்தாது",
+              "ಇದರಿಂದ ಪ್ರಾಣಿಯ ಮೇಲೆ ನಿಜವಾದ ಪರಿಣಾಮ ಇಲ್ಲ",
+              "इसका पशु पर कोई वास्तविक असर नहीं पड़ता"
+            ),
+            L(
+              "Crowded, stressful housing can reduce how much an animal produces",
+              "రద్దీగా, ఒత్తిడితో కూడిన ఆవాసం జంతువు ఉత్పత్తిని తగ్గించగలదు",
+              "நெரிசலான, மன அழுத்தமான தங்குமிடம் விலங்கின் உற்பத்தியைக் குறைக்கக்கூடும்",
+              "ಗಿಜಿಗುಟ್ಟುವ, ಒತ್ತಡದ ವಾಸಸ್ಥಳ ಪ್ರಾಣಿಯ ಉತ್ಪಾದನೆಯನ್ನು ಕಡಿಮೆ ಮಾಡಬಹುದು",
+              "भीड़भाड़ वाला, तनावपूर्ण आवास पशु के उत्पादन को कम कर सकता है"
+            ),
+            L(
+              "It only matters for how the shed looks",
+              "ఇది షెడ్ ఎలా కనిపిస్తుందో దానికి మాత్రమే ముఖ్యం",
+              "இது தொழுவம் எப்படி தோற்றமளிக்கிறது என்பதற்கு மட்டுமே முக்கியம்",
+              "ಇದು ಶೆಡ್ ಹೇಗೆ ಕಾಣುತ್ತದೆ ಎಂಬುದಕ್ಕೆ ಮಾತ್ರ ಮುಖ್ಯ",
+              "यह केवल इस बात के लिए मायने रखता है कि शेड कैसा दिखता है"
+            ),
+            L(
+              "Only the roof material matters, not the space",
+              "పైకప్పు పదార్థం మాత్రమే ముఖ్యం, స్థలం కాదు",
+              "கூரைப் பொருள் மட்டுமே முக்கியம், இடம் அல்ல",
+              "ಛಾವಣಿ ವಸ್ತು ಮಾತ್ರ ಮುಖ್ಯ, ಸ್ಥಳವಲ್ಲ",
+              "केवल छत की सामग्री मायने रखती है, जगह नहीं"
+            ),
           ],
           answer: 1,
-          explain: L("Stressful, cramped housing conditions can noticeably reduce an animal's productivity, including milk."),
+          explain: L(
+            "Stressful, cramped housing conditions can noticeably reduce an animal's productivity, including milk.",
+            "ఒత్తిడితో కూడిన, ఇరుకైన ఆవాస పరిస్థితులు జంతువు ఉత్పాదకతను, పాలతో సహా, గణనీయంగా తగ్గించగలవు.",
+            "மன அழுத்தமான, நெரிசலான தங்குமிட நிலைமைகள் விலங்கின் உற்பத்தித்திறனை, பால் உட்பட, குறிப்பிடத்தக்க அளவு குறைக்கக்கூடும்.",
+            "ಒತ್ತಡದ, ಇಕ್ಕಟ್ಟಾದ ವಾಸಸ್ಥಳ ಪರಿಸ್ಥಿತಿಗಳು ಪ್ರಾಣಿಯ ಉತ್ಪಾದಕತೆಯನ್ನು, ಹಾಲು ಸೇರಿದಂತೆ, ಗಮನಾರ್ಹವಾಗಿ ಕಡಿಮೆ ಮಾಡಬಹುದು.",
+            "तनावपूर्ण, तंग आवास की स्थितियां पशु की उत्पादकता को, दूध सहित, काफी हद तक कम कर सकती हैं।"
+          ),
         },
         {
           topicId: "t-m16-space",
           type: "truefalse",
-          q: L("A thatched roof is not acceptable — only AC sheets, brick or RCC roofs are allowed."),
+          q: L(
+            "A thatched roof is not acceptable — only AC sheets, brick or RCC roofs are allowed.",
+            "గడ్డి పైకప్పు ఆమోదయోగ్యం కాదు — AC షీట్లు, ఇటుక లేదా RCC పైకప్పులకు మాత్రమే అనుమతి.",
+            "ஓலைக் கூரை ஏற்றுக்கொள்ளத்தக்கது அல்ல — AC தகடுகள், செங்கல் அல்லது RCC கூரைகள் மட்டுமே அனுமதிக்கப்படும்.",
+            "ಹುಲ್ಲಿನ ಛಾವಣಿ ಸ್ವೀಕಾರಾರ್ಹವಲ್ಲ — AC ಶೀಟ್‌ಗಳು, ಇಟ್ಟಿಗೆ ಅಥವಾ RCC ಛಾವಣಿಗಳಿಗೆ ಮಾತ್ರ ಅನುಮತಿ.",
+            "फूस की छत स्वीकार्य नहीं है — केवल AC शीट, ईंट या RCC छतों की अनुमति है।"
+          ),
           answer: false,
-          explain: L("A thatched roof is acceptable, as are AC sheets, brick, or RCC — as long as the ceiling is at least 10 feet high."),
+          explain: L(
+            "A thatched roof is acceptable, as are AC sheets, brick, or RCC — as long as the ceiling is at least 10 feet high.",
+            "గడ్డి పైకప్పు ఆమోదయోగ్యమే, AC షీట్లు, ఇటుక లేదా RCC కూడా ఆమోదయోగ్యమే — పైకప్పు కనీసం 10 అడుగుల ఎత్తు ఉన్నంత వరకు.",
+            "ஓலைக் கூரை ஏற்றுக்கொள்ளத்தக்கது, AC தகடுகள், செங்கல் அல்லது RCC ஆகியவையும் ஏற்றுக்கொள்ளத்தக்கவை — கூரை குறைந்தபட்சம் 10 அடி உயரம் இருக்கும் வரை.",
+            "ಹುಲ್ಲಿನ ಛಾವಣಿ ಸ್ವೀಕಾರಾರ್ಹ, AC ಶೀಟ್‌ಗಳು, ಇಟ್ಟಿಗೆ ಅಥವಾ RCC ಸಹ ಸ್ವೀಕಾರಾರ್ಹ — ಛಾವಣಿ ಕನಿಷ್ಠ 10 ಅಡಿ ಎತ್ತರ ಇರುವವರೆಗೆ.",
+            "फूस की छत स्वीकार्य है, जैसे AC शीट, ईंट या RCC भी — बशर्ते छत कम से कम 10 फीट ऊंची हो।"
+          ),
         },
         {
           topicId: "t-m16-orientation",
           type: "mcq",
-          q: L("Where should the manger be located, and roughly how big should it be?"),
+          q: L(
+            "Where should the manger be located, and roughly how big should it be?",
+            "గాదె ఎక్కడ ఉండాలి, మరియు సుమారుగా ఎంత పెద్దదిగా ఉండాలి?",
+            "தீவனத்தொட்டி எங்கு இருக்க வேண்டும், மற்றும் தோராயமாக எவ்வளவு பெரிதாக இருக்க வேண்டும்?",
+            "ಮೇವಿನ ತೊಟ್ಟಿ ಎಲ್ಲಿ ಇರಬೇಕು, ಮತ್ತು ಸುಮಾರು ಎಷ್ಟು ದೊಡ್ಡದಾಗಿರಬೇಕು?",
+            "चारा-नांद कहां स्थित होनी चाहिए, और लगभग कितनी बड़ी होनी चाहिए?"
+          ),
           options: [
-            L("On the eastern wall, 5 feet wide"),
-            L("On the western wall, 2 feet wide and 1.5 feet deep"),
-            L("In the loafing area, with no fixed size"),
-            L("On the northern wall, 1 foot deep"),
+            L(
+              "On the eastern wall, 5 feet wide",
+              "తూర్పు గోడపై, 5 అడుగుల వెడల్పు",
+              "கிழக்கு சுவரில், 5 அடி அகலம்",
+              "ಪೂರ್ವ ಗೋಡೆಯ ಮೇಲೆ, 5 ಅಡಿ ಅಗಲ",
+              "पूर्वी दीवार पर, 5 फीट चौड़ी"
+            ),
+            L(
+              "On the western wall, 2 feet wide and 1.5 feet deep",
+              "పడమర గోడపై, 2 అడుగుల వెడల్పు మరియు 1.5 అడుగుల లోతు",
+              "மேற்கு சுவரில், 2 அடி அகலம் மற்றும் 1.5 அடி ஆழம்",
+              "ಪಶ್ಚಿಮ ಗೋಡೆಯ ಮೇಲೆ, 2 ಅಡಿ ಅಗಲ ಮತ್ತು 1.5 ಅಡಿ ಆಳ",
+              "पश्चिमी दीवार पर, 2 फीट चौड़ी और 1.5 फीट गहरी"
+            ),
+            L(
+              "In the loafing area, with no fixed size",
+              "విశ్రాంతి ప్రదేశంలో, స్థిర పరిమాణం లేకుండా",
+              "ஓய்வுப் பகுதியில், நிலையான அளவு இல்லாமல்",
+              "ವಿಶ್ರಾಂತಿ ಪ್ರದೇಶದಲ್ಲಿ, ನಿಗದಿತ ಗಾತ್ರವಿಲ್ಲದೆ",
+              "विश्राम क्षेत्र में, बिना किसी निश्चित आकार के"
+            ),
+            L(
+              "On the northern wall, 1 foot deep",
+              "ఉత్తరం గోడపై, 1 అడుగు లోతు",
+              "வடக்கு சுவரில், 1 அடி ஆழம்",
+              "ಉತ್ತರ ಗೋಡೆಯ ಮೇಲೆ, 1 ಅಡಿ ಆಳ",
+              "उत्तरी दीवार पर, 1 फीट गहरी"
+            ),
           ],
           answer: 1,
-          explain: L("The manger should be on the western wall, 2 feet wide and 1.5 feet deep, with its base about 1 foot above the floor."),
+          explain: L(
+            "The manger should be on the western wall, 2 feet wide and 1.5 feet deep, with its base about 1 foot above the floor.",
+            "గాదె పడమర గోడపై, 2 అడుగుల వెడల్పు మరియు 1.5 అడుగుల లోతుతో, దాని అడుగు భాగం నేలకు సుమారు 1 అడుగు పైన ఉండాలి.",
+            "தீவனத்தொட்டி மேற்கு சுவரில், 2 அடி அகலமும் 1.5 அடி ஆழமும் கொண்டதாக, அதன் அடிப்பகுதி தரையிலிருந்து சுமார் 1 அடி உயரத்தில் இருக்க வேண்டும்.",
+            "ಮೇವಿನ ತೊಟ್ಟಿ ಪಶ್ಚಿಮ ಗೋಡೆಯ ಮೇಲೆ, 2 ಅಡಿ ಅಗಲ ಮತ್ತು 1.5 ಅಡಿ ಆಳದಲ್ಲಿ, ಅದರ ತಳಭಾಗ ನೆಲದಿಂದ ಸುಮಾರು 1 ಅಡಿ ಎತ್ತರದಲ್ಲಿ ಇರಬೇಕು.",
+            "चारा-नांद पश्चिमी दीवार पर, 2 फीट चौड़ी और 1.5 फीट गहरी होनी चाहिए, जिसका आधार फर्श से करीब 1 फीट ऊपर हो।"
+          ),
         },
         {
           topicId: "t-m16-orientation",
           type: "truefalse",
-          q: L("A trough for drinking water should be placed beside the manger."),
+          q: L(
+            "A trough for drinking water should be placed beside the manger.",
+            "గాదెకు పక్కనే తాగునీటి తొట్టి ఉంచాలి.",
+            "குடிநீருக்கான தொட்டி தீவனத்தொட்டியின் அருகில் வைக்கப்பட வேண்டும்.",
+            "ಮೇವಿನ ತೊಟ್ಟಿಯ ಪಕ್ಕದಲ್ಲಿ ಕುಡಿಯುವ ನೀರಿನ ತೊಟ್ಟಿ ಇಡಬೇಕು.",
+            "चारा-नांद के बगल में पीने के पानी की हौद रखी जानी चाहिए।"
+          ),
           answer: true,
-          explain: L("Correct — the drinking water trough should be provided right by the side of the manger."),
+          explain: L(
+            "Correct — the drinking water trough should be provided right by the side of the manger.",
+            "సరైనది — తాగునీటి తొట్టిని గాదెకు పక్కనే ఏర్పాటు చేయాలి.",
+            "சரியானது — குடிநீர் தொட்டியை தீவனத்தொட்டியின் அருகிலேயே வழங்க வேண்டும்.",
+            "ಸರಿಯಾಗಿದೆ — ಕುಡಿಯುವ ನೀರಿನ ತೊಟ್ಟಿಯನ್ನು ಮೇವಿನ ತೊಟ್ಟಿಯ ಪಕ್ಕದಲ್ಲೇ ಒದಗಿಸಬೇಕು.",
+            "सही — पीने के पानी की हौद चारा-नांद के ठीक बगल में होनी चाहिए।"
+          ),
         },
         {
           topicId: "t-m16-orientation",
           type: "mcq",
-          q: L("Why should the loafing area have shady trees such as Neem?"),
+          q: L(
+            "Why should the loafing area have shady trees such as Neem?",
+            "విశ్రాంతి ప్రదేశంలో వేప వంటి నీడనిచ్చే చెట్లు ఎందుకు ఉండాలి?",
+            "ஓய்வுப் பகுதியில் வேம்பு போன்ற நிழல் மரங்கள் ஏன் இருக்க வேண்டும்?",
+            "ವಿಶ್ರಾಂತಿ ಪ್ರದೇಶದಲ್ಲಿ ಬೇವಿನಂತಹ ನೆರಳಿನ ಮರಗಳು ಏಕೆ ಇರಬೇಕು?",
+            "विश्राम क्षेत्र में नीम जैसे छायादार पेड़ क्यों होने चाहिए?"
+          ),
           options: [
-            L("Trees are only for decoration"),
-            L("Animals are more comfortable resting under the shade of a tree"),
-            L("Trees replace the need for a shed entirely"),
-            L("Shady trees are required only in winter"),
+            L(
+              "Trees are only for decoration",
+              "చెట్లు కేవలం అలంకారానికి మాత్రమే",
+              "மரங்கள் அலங்காரத்திற்காக மட்டுமே",
+              "ಮರಗಳು ಅಲಂಕಾರಕ್ಕೆ ಮಾತ್ರ",
+              "पेड़ केवल सजावट के लिए हैं"
+            ),
+            L(
+              "Animals are more comfortable resting under the shade of a tree",
+              "జంతువులు చెట్టు నీడలో విశ్రాంతి తీసుకోవడం మరింత సౌకర్యంగా భావిస్తాయి",
+              "விலங்குகள் மரத்தின் நிழலில் ஓய்வெடுப்பதில் அதிக வசதி உணரும்",
+              "ಪ್ರಾಣಿಗಳು ಮರದ ನೆರಳಿನಲ್ಲಿ ವಿಶ್ರಾಂತಿ ಪಡೆಯಲು ಹೆಚ್ಚು ಆರಾಮದಾಯಕ ಎಂದು ಭಾವಿಸುತ್ತವೆ",
+              "पशु पेड़ की छाया में आराम करना ज्यादा पसंद करते हैं"
+            ),
+            L(
+              "Trees replace the need for a shed entirely",
+              "చెట్లు షెడ్ అవసరాన్ని పూర్తిగా భర్తీ చేస్తాయి",
+              "மரங்கள் தொழுவத்தின் தேவையை முற்றிலும் மாற்றிவிடும்",
+              "ಮರಗಳು ಶೆಡ್‌ನ ಅಗತ್ಯವನ್ನು ಸಂಪೂರ್ಣ ಬದಲಾಯಿಸುತ್ತವೆ",
+              "पेड़ शेड की जरूरत को पूरी तरह खत्म कर देते हैं"
+            ),
+            L(
+              "Shady trees are required only in winter",
+              "నీడనిచ్చే చెట్లు చలికాలంలో మాత్రమే అవసరం",
+              "நிழல் மரங்கள் குளிர்காலத்தில் மட்டுமே தேவை",
+              "ನೆರಳಿನ ಮರಗಳು ಚಳಿಗಾಲದಲ್ಲಿ ಮಾತ್ರ ಅಗತ್ಯ",
+              "छायादार पेड़ केवल सर्दी में जरूरी हैं"
+            ),
           ],
           answer: 1,
-          explain: L("Animals are more comfortable under the shade of a tree, which is why the loafing area should have 2 to 3 shady trees like Neem."),
+          explain: L(
+            "Animals are more comfortable under the shade of a tree, which is why the loafing area should have 2 to 3 shady trees like Neem.",
+            "జంతువులు చెట్టు నీడలో మరింత సౌకర్యంగా ఉంటాయి, అందుకే విశ్రాంతి ప్రదేశంలో వేప వంటి 2 నుండి 3 నీడనిచ్చే చెట్లు ఉండాలి.",
+            "விலங்குகள் மரத்தின் நிழலில் அதிக வசதியாக உணரும், அதனால்தான் ஓய்வுப் பகுதியில் வேம்பு போன்ற 2 முதல் 3 நிழல் மரங்கள் இருக்க வேண்டும்.",
+            "ಪ್ರಾಣಿಗಳು ಮರದ ನೆರಳಿನಲ್ಲಿ ಹೆಚ್ಚು ಆರಾಮದಾಯಕವಾಗಿರುತ್ತವೆ, ಅದಕ್ಕಾಗಿಯೇ ವಿಶ್ರಾಂತಿ ಪ್ರದೇಶದಲ್ಲಿ ಬೇವಿನಂತಹ 2 ರಿಂದ 3 ನೆರಳಿನ ಮರಗಳು ಇರಬೇಕು.",
+            "पशु पेड़ की छाया में ज्यादा आराम महसूस करते हैं, इसीलिए विश्राम क्षेत्र में नीम जैसे 2 से 3 छायादार पेड़ होने चाहिए।"
+          ),
         },
       ],
     },
