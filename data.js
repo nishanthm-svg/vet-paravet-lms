@@ -5792,40 +5792,52 @@ export const MODULES = [
   // ==================================================================
   {
     id: "m6-l2",
-    title: L("Surra and How to Control Ticks and Flies"),
+    title: L("Surra and How to Control Ticks and Flies", "సుర్రా మరియు పేలు, ఈగలను ఎలా నియంత్రించాలి", "சுர்ரா மற்றும் உண்ணி, ஈக்களை எப்படி கட்டுப்படுத்துவது", "ಸುರ್ರಾ ಮತ್ತು ಉಣ್ಣಿ, ನೊಣಗಳನ್ನು ನಿಯಂತ್ರಿಸುವುದು ಹೇಗೆ", "सर्रा और किलनी व मक्खियों को कैसे काबू में रखें"),
     estMinutes: 8,
     hook: [
       {
         type: "hero",
-        heading: L("It's Not Just Ticks — Flies Spread Disease Too"),
+        heading: L("It's Not Just Ticks — Flies Spread Disease Too", "పేలు మాత్రమే కాదు — ఈగలు కూడా వ్యాధిని వ్యాపింపజేస్తాయి", "உண்ணிகள் மட்டுமல்ல — ஈக்களும் நோயைப் பரப்புகின்றன", "ಉಣ್ಣಿಗಳು ಮಾತ್ರವಲ್ಲ — ನೊಣಗಳೂ ರೋಗ ಹರಡುತ್ತವೆ", "सिर्फ़ किलनी ही नहीं — मक्खियाँ भी बीमारी फैलाती हैं"),
         text: L(
-          "Biting flies can carry disease from one animal to another just by feeding on blood, the same way ticks do. This lesson covers Surra, a serious fly-spread disease, and then the everyday control steps that keep both ticks and flies from building up on your farm in the first place."
+          "Biting flies can carry disease from one animal to another just by feeding on blood, the same way ticks do. This lesson covers Surra, a serious fly-spread disease, and then the everyday control steps that keep both ticks and flies from building up on your farm in the first place.",
+          "కుట్టే ఈగలు కూడా పేల లాగానే రక్తం తాగుతూ ఒక జంతువు నుండి మరొక జంతువుకు వ్యాధిని మోసుకెళ్లగలవు. ఈ పాఠం ఈగల ద్వారా వ్యాపించే తీవ్రమైన వ్యాధి సుర్రా గురించి, ఆ తర్వాత మీ ఫారంలో పేలు, ఈగలు పెరిగిపోకుండా ఉండేందుకు రోజువారీ నియంత్రణ చర్యల గురించి వివరిస్తుంది.",
+          "கடிக்கும் ஈக்கள் உண்ணிகளைப் போலவே இரத்தம் குடிப்பதன் மூலம் ஒரு விலங்கிலிருந்து மற்றொன்றுக்கு நோயைக் கொண்டு செல்ல முடியும். இந்தப் பாடம் ஈக்களால் பரவும் தீவிர நோயான சுர்ராவையும், உங்கள் பண்ணையில் உண்ணிகளும் ஈக்களும் பெருகாமல் இருக்க தினசரி கட்டுப்பாட்டு நடவடிக்கைகளையும் விளக்குகிறது.",
+          "ಕಚ್ಚುವ ನೊಣಗಳು ಉಣ್ಣಿಗಳಂತೆಯೇ ರಕ್ತ ಕುಡಿಯುವ ಮೂಲಕ ಒಂದು ಪ್ರಾಣಿಯಿಂದ ಇನ್ನೊಂದಕ್ಕೆ ರೋಗ ಒಯ್ಯಬಲ್ಲವು. ಈ ಪಾಠವು ನೊಣಗಳಿಂದ ಹರಡುವ ಗಂಭೀರ ರೋಗ ಸುರ್ರಾ ಬಗ್ಗೆ, ಮತ್ತು ನಿಮ್ಮ ಫಾರ್ಮ್‌ನಲ್ಲಿ ಉಣ್ಣಿ, ನೊಣಗಳು ಹೆಚ್ಚಾಗದಂತೆ ತಡೆಯುವ ದೈನಂದಿನ ನಿಯಂತ್ರಣ ಕ್ರಮಗಳ ಬಗ್ಗೆ ವಿವರಿಸುತ್ತದೆ.",
+          "काटने वाली मक्खियाँ भी किलनी की तरह खून पीते-पीते एक पशु से दूसरे पशु तक बीमारी पहुँचा सकती हैं। इस पाठ में मक्खियों से फैलने वाली गंभीर बीमारी सर्रा के बारे में बताया गया है, और फिर रोज़मर्रा के वे उपाय जिनसे आपके फ़ार्म पर किलनी और मक्खियाँ बढ़ने ही न पाएँ।"
         ),
       },
     ],
     topics: [
       {
         id: "t-m6-surra",
-        title: L("Surra: A Disease Spread by Biting Flies"),
+        title: L("Surra: A Disease Spread by Biting Flies", "సుర్రా: కుట్టే ఈగల ద్వారా వ్యాపించే వ్యాధి", "சுர்ரா: கடிக்கும் ஈக்களால் பரவும் நோய்", "ಸುರ್ರಾ: ಕಚ್ಚುವ ನೊಣಗಳಿಂದ ಹರಡುವ ರೋಗ", "सर्रा: काटने वाली मक्खियों से फैलने वाली बीमारी"),
         teach: [
             {
               type: "photo",
               src: "assets/photo-m6-horn-flies.jpg",
-              alt: L("Close-up of a cow's back and shoulder coat covered with many small horn flies"),
-              caption: L("Horn flies on a cow's coat — one of the biting flies named in this lesson as a carrier of Surra."),
+              alt: L("Close-up of a cow's back and shoulder coat covered with many small horn flies", "అనేక చిన్న హార్న్ ఈగలతో నిండిన ఆవు వీపు, భుజం భాగం క్లోజ్-అప్ ఫోటో.", "பல சிறிய கொம்பு ஈக்கள் மொய்த்திருக்கும் ஒரு பசுவின் முதுகு, தோள்பட்டைப் பகுதியின் நெருக்கமான படம்.", "ಅನೇಕ ಸಣ್ಣ ಹಾರ್ನ್ ನೊಣಗಳಿಂದ ಮುತ್ತಿದ ಹಸುವಿನ ಬೆನ್ನು, ಭುಜದ ಭಾಗದ ಹತ್ತಿರದ ಚಿತ್ರ.", "बहुत सारी छोटी हॉर्न मक्खियों से ढकी गाय की पीठ और कंधे की खाल की नज़दीकी तस्वीर।"),
+              caption: L("Horn flies on a cow's coat — one of the biting flies named in this lesson as a carrier of Surra.", "ఆవు చర్మంపై హార్న్ ఈగలు — సుర్రాను మోసుకెళ్లే కుట్టే ఈగలుగా ఈ పాఠంలో పేర్కొన్న వాటిలో ఒకటి.", "பசுவின் தோலில் கொம்பு ஈக்கள் — சுர்ராவைக் கடத்தும் கடிக்கும் ஈக்களாக இந்தப் பாடத்தில் குறிப்பிடப்பட்டவற்றில் ஒன்று.", "ಹಸುವಿನ ಚರ್ಮದ ಮೇಲೆ ಹಾರ್ನ್ ನೊಣಗಳು — ಸುರ್ರಾ ಒಯ್ಯುವ ಕಚ್ಚುವ ನೊಣಗಳೆಂದು ಈ ಪಾಠದಲ್ಲಿ ಹೆಸರಿಸಿದವುಗಳಲ್ಲಿ ಒಂದು.", "गाय की खाल पर हॉर्न मक्खियाँ — इस पाठ में सर्रा फैलाने वाली जिन काटने वाली मक्खियों का ज़िक्र है, यह उनमें से एक है।"),
             },
           {
             type: "text",
-            heading: L("What Surra Is"),
+            heading: L("What Surra Is", "సుర్రా అంటే ఏమిటి", "சுர்ரா என்றால் என்ன", "ಸುರ್ರಾ ಎಂದರೇನು", "सर्रा क्या है"),
             html: L(
-              "Surra (its proper name is <b>Trypanosomiasis</b>) is caused by a protozoa — the same broad type of tiny microbe as in Babesiosis. But instead of ticks, it is spread by biting flies such as Tabanus, Stomoxys and Haematobia. The fly simply carries infected blood on its mouthparts from one animal to the next while feeding — it doesn't need to multiply inside the fly first."
+              "Surra (its proper name is <b>Trypanosomiasis</b>) is caused by a protozoa — the same broad type of tiny microbe as in Babesiosis. But instead of ticks, it is spread by biting flies such as Tabanus, Stomoxys and Haematobia. The fly simply carries infected blood on its mouthparts from one animal to the next while feeding — it doesn't need to multiply inside the fly first.",
+              "సుర్రా (దీని అసలు పేరు <b>ట్రిపనోసోమియాసిస్</b>) ప్రోటోజోవా వల్ల వస్తుంది — బేబీసియోసిస్‌లో ఉన్న రకం సూక్ష్మజీవే. కానీ ఇది పేల ద్వారా కాకుండా, టబానస్, స్టోమాక్సిస్, హీమాటోబియా వంటి కుట్టే ఈగల ద్వారా వ్యాపిస్తుంది. ఈగ రక్తం తాగుతూ, ఇన్ఫెక్షన్ ఉన్న రక్తాన్ని తన నోటి భాగాలపై మోసుకెళ్లి ఒక జంతువు నుండి మరొక దానికి అంటిస్తుంది — దానికి ఈగ లోపల పెరగాల్సిన అవసరం కూడా లేదు.",
+              "சுர்ரா (இதன் சரியான பெயர் <b>டிரிபனோசோமியாசிஸ்</b>) புரோட்டோசோவாவால் வருகிறது — பேபிசியோசிஸில் உள்ள அதே வகை நுண்ணுயிரி. ஆனால் இது உண்ணிகளால் அல்லாமல், டபனஸ், ஸ்டோமாக்சிஸ், ஹீமடோபியா போன்ற கடிக்கும் ஈக்களால் பரவுகிறது. ஈ இரத்தம் குடிக்கும்போது, தொற்றுள்ள இரத்தத்தை தன் வாய்ப் பகுதிகளில் சுமந்து ஒரு விலங்கிலிருந்து அடுத்ததற்குக் கொண்டு செல்கிறது — ஈக்குள் அது பெருக வேண்டிய அவசியமும் இல்லை.",
+              "ಸುರ್ರಾ (ಇದರ ಸರಿಯಾದ ಹೆಸರು <b>ಟ್ರಿಪನೋಸೋಮಿಯಾಸಿಸ್</b>) ಪ್ರೋಟೋಜೋವಾದಿಂದ ಬರುತ್ತದೆ — ಬೇಬಿಸಿಯೋಸಿಸ್‌ನಲ್ಲಿರುವ ಅದೇ ಬಗೆಯ ಸೂಕ್ಷ್ಮಜೀವಿ. ಆದರೆ ಇದು ಉಣ್ಣಿಗಳಿಂದಲ್ಲ, ಟಬಾನಸ್, ಸ್ಟೋಮಾಕ್ಸಿಸ್, ಹೀಮಾಟೋಬಿಯಾ ಮುಂತಾದ ಕಚ್ಚುವ ನೊಣಗಳಿಂದ ಹರಡುತ್ತದೆ. ನೊಣ ರಕ್ತ ಕುಡಿಯುವಾಗ, ಸೋಂಕಿತ ರಕ್ತವನ್ನು ತನ್ನ ಬಾಯಿಯ ಭಾಗಗಳಲ್ಲಿ ಹೊತ್ತು ಒಂದು ಪ್ರಾಣಿಯಿಂದ ಮತ್ತೊಂದಕ್ಕೆ ಒಯ್ಯುತ್ತದೆ — ನೊಣದೊಳಗೆ ಅದು ಮೊದಲು ಹೆಚ್ಚಬೇಕಾದ ಅಗತ್ಯವೂ ಇಲ್ಲ.",
+              "सर्रा (इसका सही नाम <b>ट्रिपैनोसोमियासिस</b> है) प्रोटोज़ोआ से होता है — वही मोटे तौर पर उसी तरह का सूक्ष्म जीव जो बेबेसियोसिस में होता है। लेकिन यह किलनी से नहीं, बल्कि टबानस, स्टोमोक्सिस और हिमैटोबिया जैसी काटने वाली मक्खियों से फैलता है। मक्खी खून पीते समय संक्रमित खून अपने मुँह के हिस्सों पर लेकर एक पशु से अगले पशु तक पहुँचा देती है — उसे मक्खी के अंदर पहले बढ़ने की भी ज़रूरत नहीं पड़ती।"
             ),
           },
           {
             type: "text",
-            heading: L("Who Can Get It"),
+            heading: L("Who Can Get It", "ఎవరికి వస్తుంది", "யாருக்கு வரலாம்", "ಯಾರಿಗೆ ಬರಬಹುದು", "यह किसे हो सकता है"),
             html: L(
-              "Both cattle and buffalo can get Surra, and they can also act as a hidden reservoir (a quiet source of infection) for horses and camels. The infection can spread through blood from an infected animal, and occasionally even through meat or milk. Animals that are already under stress are more likely to fall sick from it."
+              "Both cattle and buffalo can get Surra, and they can also act as a hidden reservoir (a quiet source of infection) for horses and camels. The infection can spread through blood from an infected animal, and occasionally even through meat or milk. Animals that are already under stress are more likely to fall sick from it.",
+              "పశువులు, గేదెలు రెండింటికీ సుర్రా రావచ్చు, అవి గుర్రాలు, ఒంటెలకు దాగిన మూలంగా (ఇన్ఫెక్షన్‌కు నిశ్శబ్ద వనరుగా) కూడా ఉండగలవు. ఇన్ఫెక్షన్ ఉన్న జంతువు రక్తం ద్వారా, అరుదుగా మాంసం లేదా పాల ద్వారా కూడా వ్యాపించవచ్చు. ఇప్పటికే ఒత్తిడిలో ఉన్న జంతువులు దీనివల్ల జబ్బుపడే అవకాశం ఎక్కువ.",
+              "மாடுகள், எருமைகள் இரண்டுக்கும் சுர்ரா வரலாம்; அவை குதிரைகள், ஒட்டகங்களுக்கு மறைமுக மூலமாகவும் (தொற்றின் அமைதியான ஊற்றாகவும்) இருக்கலாம். தொற்றுள்ள விலங்கின் இரத்தம் மூலமாகவும், அரிதாக இறைச்சி அல்லது பால் மூலமாகவும் கூட பரவலாம். ஏற்கனவே மன அழுத்தத்தில் உள்ள விலங்குகள் இதனால் நோய்வாய்ப்பட வாய்ப்பு அதிகம்.",
+              "ದನ ಮತ್ತು ಎಮ್ಮೆ ಎರಡಕ್ಕೂ ಸುರ್ರಾ ಬರಬಹುದು, ಅವು ಕುದುರೆ ಮತ್ತು ಒಂಟೆಗಳಿಗೆ ಗುಪ್ತ ಮೂಲವಾಗಿಯೂ (ಸೋಂಕಿನ ಮೌನ ಮೂಲ) ಇರಬಲ್ಲವು. ಸೋಂಕಿತ ಪ್ರಾಣಿಯ ರಕ್ತದ ಮೂಲಕ, ಅಪರೂಪಕ್ಕೆ ಮಾಂಸ ಅಥವಾ ಹಾಲಿನ ಮೂಲಕವೂ ಹರಡಬಹುದು. ಈಗಾಗಲೇ ಒತ್ತಡದಲ್ಲಿರುವ ಪ್ರಾಣಿಗಳು ಇದರಿಂದ ಅನಾರೋಗ್ಯಕ್ಕೆ ಒಳಗಾಗುವ ಸಾಧ್ಯತೆ ಹೆಚ್ಚು.",
+              "गाय-भैंस दोनों को सर्रा हो सकता है, और वे घोड़ों और ऊँटों के लिए छिपे स्रोत (संक्रमण का चुपचाप बना रहने वाला भंडार) का काम भी कर सकते हैं। संक्रमित पशु के खून से, और कभी-कभी मांस या दूध से भी यह फैल सकता है। जो पशु पहले से तनाव में हों, उनके इससे बीमार पड़ने की संभावना ज़्यादा होती है।"
             ),
           },
           {
@@ -5833,126 +5845,150 @@ export const MODULES = [
             items: [
               {
                 label: L("Common signs", "సాధారణ లక్షణాలు", "பொதுவான அறிகுறிகள்", "ಸಾಮಾನ್ಯ ಲಕ್ಷಣಗಳು", "आम लक्षण"),
-                text: L("Progressive anaemia, weight loss and weakness. In buffaloes, abortion, infertility and stillbirth may also occur."),
+                text: L("Progressive anaemia, weight loss and weakness. In buffaloes, abortion, infertility and stillbirth may also occur.", "క్రమంగా పెరిగే రక్తహీనత, బరువు తగ్గడం, నీరసం. గేదెల్లో గర్భస్రావం, గర్భం నిలవకపోవడం, చనిపోయిన దూడ పుట్టడం కూడా జరగవచ్చు.", "படிப்படியாக அதிகரிக்கும் இரத்தசோகை, எடை குறைவு, பலவீனம். எருமைகளில் கருச்சிதைவு, கருத்தரிக்காமை, இறந்த கன்று பிறத்தல் ஆகியவையும் ஏற்படலாம்.", "ಕ್ರಮೇಣ ಹೆಚ್ಚುವ ರಕ್ತಹೀನತೆ, ತೂಕ ಇಳಿಕೆ ಮತ್ತು ದೌರ್ಬಲ್ಯ. ಎಮ್ಮೆಗಳಲ್ಲಿ ಗರ್ಭಪಾತ, ಬಂಜೆತನ ಮತ್ತು ಸತ್ತ ಕರು ಹುಟ್ಟುವುದೂ ಆಗಬಹುದು.", "धीरे-धीरे बढ़ती खून की कमी, वज़न घटना और कमज़ोरी। भैंसों में गर्भपात, बाँझपन और मरा हुआ बच्चा पैदा होना भी हो सकता है।"),
               },
               {
-                label: L("Body swelling"),
-                text: L("Puffy, fluid-filled swelling on the lower parts of the body — legs, brisket (chest area) and belly. Lymph nodes may also be swollen."),
+                label: L("Body swelling", "శరీరంలో వాపు", "உடலில் வீக்கம்", "ದೇಹದಲ್ಲಿ ಊತ", "शरीर में सूजन"),
+                text: L("Puffy, fluid-filled swelling on the lower parts of the body — legs, brisket (chest area) and belly. Lymph nodes may also be swollen.", "శరీరం కింది భాగాల్లో — కాళ్లు, ఛాతీ కింద (బ్రిస్కెట్), పొట్ట — నీరు చేరి ఉబ్బినట్లు వాపు. లింఫ్ గ్రంథులు కూడా ఉబ్బవచ్చు.", "உடலின் கீழ்ப் பகுதிகளில் — கால்கள், மார்புப் பகுதி (பிரிஸ்கெட்), வயிறு — நீர் தேங்கி உப்பிய வீக்கம். நிணநீர் சுரப்பிகளும் வீங்கலாம்.", "ದೇಹದ ಕೆಳ ಭಾಗಗಳಲ್ಲಿ — ಕಾಲುಗಳು, ಎದೆಯ ಕೆಳಗೆ (ಬ್ರಿಸ್ಕೆಟ್), ಹೊಟ್ಟೆ — ನೀರು ತುಂಬಿ ಊದಿಕೊಂಡ ಊತ. ದುಗ್ಧರಸ ಗ್ರಂಥಿಗಳೂ ಊದಿಕೊಳ್ಳಬಹುದು.", "शरीर के निचले हिस्सों — टाँगों, छाती के नीचे (ब्रिस्केट) और पेट — में पानी भरी फूली हुई सूजन। लसिका ग्रंथियाँ (लिम्फ नोड) भी सूज सकती हैं।"),
               },
               {
-                label: L("Nervous signs"),
-                text: L("Head tilting, walking in circles, blindness, unusual excitability, and an odd paddling movement of the legs."),
+                label: L("Nervous signs", "నాడీ సంబంధిత లక్షణాలు", "நரம்பு தொடர்பான அறிகுறிகள்", "ನರ ಸಂಬಂಧಿ ಲಕ್ಷಣಗಳು", "नस-तंत्र (दिमाग़ी) के लक्षण"),
+                text: L("Head tilting, walking in circles, blindness, unusual excitability, and an odd paddling movement of the legs.", "తల ఒక వైపు వంచడం, గుండ్రంగా తిరగడం, గుడ్డితనం, అసాధారణంగా ఉద్రేకపడటం, కాళ్లను తెడ్డు వేసినట్టు కదపడం.", "தலையை ஒரு பக்கம் சாய்த்தல், வட்டமாகச் சுற்றி நடத்தல், பார்வையின்மை, அசாதாரணமாக கிளர்ச்சியடைதல், கால்களை துடுப்பு போல அசைத்தல்.", "ತಲೆಯನ್ನು ಒಂದು ಕಡೆ ವಾಲಿಸುವುದು, ವೃತ್ತಾಕಾರವಾಗಿ ಸುತ್ತುವುದು, ಕುರುಡುತನ, ಅಸಾಮಾನ್ಯ ಉದ್ರೇಕ, ಮತ್ತು ಕಾಲುಗಳನ್ನು ಹುಟ್ಟು ಹಾಕುವಂತೆ ಚಲಿಸುವುದು.", "सिर एक तरफ़ झुकाना, गोल-गोल घूमना, अंधापन, असामान्य बेचैनी या उत्तेजना, और टाँगों को चप्पू की तरह चलाना।"),
               },
             ],
           },
           {
             type: "callout",
             style: "warning",
-            heading: L("The Course Can Be Long and Unpredictable"),
+            heading: L("The Course Can Be Long and Unpredictable", "వ్యాధి గమనం చాలా కాలం సాగవచ్చు, ఊహించలేము", "நோயின் போக்கு நீண்டதாகவும் கணிக்க முடியாததாகவும் இருக்கலாம்", "ರೋಗದ ಹಾದಿ ಬಹಳ ಕಾಲ ಸಾಗಬಹುದು, ಊಹಿಸಲಾಗದು", "बीमारी लंबी खिंच सकती है और उसका रुख अनिश्चित होता है"),
             text: L(
-              "In cattle, Surra can drag on for as long as 2 years with high mortality. In other cases, death can happen anywhere between 2 weeks and 2 months. Because the timeline is so unpredictable, don't wait to see how things develop — report any of these signs as soon as you notice them."
+              "In cattle, Surra can drag on for as long as 2 years with high mortality. In other cases, death can happen anywhere between 2 weeks and 2 months. Because the timeline is so unpredictable, don't wait to see how things develop — report any of these signs as soon as you notice them.",
+              "పశువుల్లో సుర్రా 2 సంవత్సరాల వరకు సాగి, ఎక్కువ మరణాలకు దారితీయవచ్చు. కొన్ని సందర్భాల్లో 2 వారాల నుండి 2 నెలల మధ్య ఎప్పుడైనా మరణం సంభవించవచ్చు. కాలరేఖ ఇంత అనిశ్చితంగా ఉంటుంది కాబట్టి, ఎలా మారుతుందో చూద్దామని ఆగకండి — ఈ లక్షణాల్లో ఏవి కనిపించినా వెంటనే తెలియజేయండి.",
+              "மாடுகளில் சுர்ரா 2 ஆண்டுகள் வரை நீடித்து, அதிக இறப்புக்கு வழிவகுக்கலாம். வேறு சில நேரங்களில் 2 வாரங்கள் முதல் 2 மாதங்களுக்குள் எப்போது வேண்டுமானாலும் மரணம் நிகழலாம். காலவரிசை இவ்வளவு கணிக்க முடியாததாக இருப்பதால், என்ன நடக்கிறது என்று காத்திருக்காதீர்கள் — இந்த அறிகுறிகளில் எதைக் கண்டாலும் உடனே தெரிவியுங்கள்.",
+              "ದನಗಳಲ್ಲಿ ಸುರ್ರಾ 2 ವರ್ಷಗಳವರೆಗೆ ಎಳೆದು ಹೆಚ್ಚು ಸಾವುಗಳಿಗೆ ಕಾರಣವಾಗಬಹುದು. ಇತರ ಸಂದರ್ಭಗಳಲ್ಲಿ 2 ವಾರಗಳಿಂದ 2 ತಿಂಗಳ ನಡುವೆ ಯಾವಾಗ ಬೇಕಾದರೂ ಸಾವು ಸಂಭವಿಸಬಹುದು. ಸಮಯರೇಖೆ ಇಷ್ಟು ಅನಿಶ್ಚಿತವಾಗಿರುವುದರಿಂದ, ಏನಾಗುತ್ತದೆ ಎಂದು ಕಾಯಬೇಡಿ — ಈ ಲಕ್ಷಣಗಳಲ್ಲಿ ಯಾವುದೇ ಕಂಡರೂ ತಕ್ಷಣ ತಿಳಿಸಿ.",
+              "मवेशियों में सर्रा 2 साल तक खिंच सकता है और इसमें मौतें ज़्यादा होती हैं। दूसरे मामलों में 2 हफ़्ते से 2 महीने के बीच कभी भी मौत हो सकती है। समय-सीमा इतनी अनिश्चित होने की वजह से यह देखने के लिए मत रुकिए कि आगे क्या होता है — इनमें से कोई भी लक्षण दिखते ही तुरंत बताइए।"
             ),
           },
           {
             type: "callout",
             style: "tip",
-            heading: L("Call the Vet Immediately"),
-            text: L("Timely, early treatment gives a high cure rate for Surra. The moment you notice the signs above, this is one to report the same day, not later."),
+            heading: L("Call the Vet Immediately", "వెంటనే పశువైద్యుడిని పిలవండి", "உடனே கால்நடை மருத்துவரை அழையுங்கள்", "ತಕ್ಷಣ ಪಶುವೈದ್ಯರನ್ನು ಕರೆಯಿರಿ", "तुरंत पशु चिकित्सक को बुलाएँ"),
+            text: L("Timely, early treatment gives a high cure rate for Surra. The moment you notice the signs above, this is one to report the same day, not later.", "సకాలంలో, ముందుగానే చికిత్స చేస్తే సుర్రా నయమయ్యే అవకాశం చాలా ఎక్కువ. పైన చెప్పిన లక్షణాలు కనిపించిన క్షణమే, ఇది ఆ రోజే తెలియజేయాల్సిన విషయం, తర్వాత కాదు.", "சரியான நேரத்தில், ஆரம்பத்திலேயே சிகிச்சை அளித்தால் சுர்ரா குணமாகும் வாய்ப்பு அதிகம். மேலே சொன்ன அறிகுறிகளைக் கண்ட உடனே, இதை அதே நாளில் தெரிவிக்க வேண்டும், பிறகு அல்ல.", "ಸಕಾಲದಲ್ಲಿ, ಆರಂಭದಲ್ಲೇ ಚಿಕಿತ್ಸೆ ನೀಡಿದರೆ ಸುರ್ರಾ ಗುಣವಾಗುವ ಪ್ರಮಾಣ ಹೆಚ್ಚು. ಮೇಲಿನ ಲಕ್ಷಣಗಳು ಕಂಡ ಕ್ಷಣವೇ, ಇದನ್ನು ಅದೇ ದಿನ ತಿಳಿಸಬೇಕು, ನಂತರ ಅಲ್ಲ.", "समय पर, शुरुआत में ही इलाज मिलने से सर्रा के ठीक होने की दर ऊँची रहती है। ऊपर बताए लक्षण दिखते ही यह उसी दिन बताने वाली बात है, बाद में नहीं।"),
           },
         ],
         check: [
           {
             type: "mcq",
-            q: L("How do biting flies spread Surra?"),
+            q: L("How do biting flies spread Surra?", "కుట్టే ఈగలు సుర్రాను ఎలా వ్యాపింపజేస్తాయి?", "கடிக்கும் ஈக்கள் சுர்ராவை எப்படிப் பரப்புகின்றன?", "ಕಚ್ಚುವ ನೊಣಗಳು ಸುರ್ರಾವನ್ನು ಹೇಗೆ ಹರಡುತ್ತವೆ?", "काटने वाली मक्खियाँ सर्रा कैसे फैलाती हैं?"),
             options: [
-              L("By laying eggs on the animal's skin"),
-              L("By carrying infected blood on their mouthparts from one animal to another while feeding"),
-              L("Through the animal's feed only"),
-              L("Surra cannot spread through flies"),
+              L("By laying eggs on the animal's skin", "జంతువు చర్మంపై గుడ్లు పెట్టడం ద్వారా", "விலங்கின் தோலில் முட்டையிடுவதன் மூலம்", "ಪ್ರಾಣಿಯ ಚರ್ಮದ ಮೇಲೆ ಮೊಟ್ಟೆ ಇಡುವ ಮೂಲಕ", "पशु की खाल पर अंडे देकर"),
+              L("By carrying infected blood on their mouthparts from one animal to another while feeding", "రక్తం తాగుతూ, ఇన్ఫెక్షన్ ఉన్న రక్తాన్ని తమ నోటి భాగాలపై ఒక జంతువు నుండి మరొక దానికి మోసుకెళ్లడం ద్వారా", "இரத்தம் குடிக்கும்போது, தொற்றுள்ள இரத்தத்தை தங்கள் வாய்ப் பகுதிகளில் ஒரு விலங்கிலிருந்து மற்றொன்றுக்கு சுமந்து செல்வதன் மூலம்", "ರಕ್ತ ಕುಡಿಯುವಾಗ, ಸೋಂಕಿತ ರಕ್ತವನ್ನು ತಮ್ಮ ಬಾಯಿಯ ಭಾಗಗಳಲ್ಲಿ ಒಂದು ಪ್ರಾಣಿಯಿಂದ ಇನ್ನೊಂದಕ್ಕೆ ಒಯ್ಯುವ ಮೂಲಕ", "खून पीते समय संक्रमित खून अपने मुँह के हिस्सों पर एक पशु से दूसरे तक ले जाकर"),
+              L("Through the animal's feed only", "జంతువు మేత ద్వారా మాత్రమే", "விலங்கின் தீவனம் மூலம் மட்டுமே", "ಪ್ರಾಣಿಯ ಮೇವಿನ ಮೂಲಕ ಮಾತ್ರ", "सिर्फ़ पशु के चारे से"),
+              L("Surra cannot spread through flies", "సుర్రా ఈగల ద్వారా వ్యాపించదు", "சுர்ரா ஈக்கள் மூலம் பரவாது", "ಸುರ್ರಾ ನೊಣಗಳ ಮೂಲಕ ಹರಡುವುದಿಲ್ಲ", "सर्रा मक्खियों से नहीं फैल सकता"),
             ],
             answer: 1,
-            explain: L("Biting flies carry infected blood on their mouthparts and pass it on while feeding on the next animal — no tick is needed."),
+            explain: L("Biting flies carry infected blood on their mouthparts and pass it on while feeding on the next animal — no tick is needed.", "కుట్టే ఈగలు ఇన్ఫెక్షన్ ఉన్న రక్తాన్ని తమ నోటి భాగాలపై మోసుకెళ్లి, తర్వాతి జంతువు రక్తం తాగేటప్పుడు అంటిస్తాయి — పేను అవసరం లేదు.", "கடிக்கும் ஈக்கள் தொற்றுள்ள இரத்தத்தை தங்கள் வாய்ப் பகுதிகளில் சுமந்து, அடுத்த விலங்கிடம் இரத்தம் குடிக்கும்போது பரப்புகின்றன — உண்ணி தேவையில்லை.", "ಕಚ್ಚುವ ನೊಣಗಳು ಸೋಂಕಿತ ರಕ್ತವನ್ನು ತಮ್ಮ ಬಾಯಿಯ ಭಾಗಗಳಲ್ಲಿ ಹೊತ್ತು, ಮುಂದಿನ ಪ್ರಾಣಿಯ ರಕ್ತ ಕುಡಿಯುವಾಗ ಹರಡುತ್ತವೆ — ಉಣ್ಣಿ ಬೇಕಿಲ್ಲ.", "काटने वाली मक्खियाँ संक्रमित खून अपने मुँह के हिस्सों पर लेकर अगले पशु का खून पीते समय उसे आगे पहुँचा देती हैं — इसमें किलनी की ज़रूरत नहीं।"),
           },
           {
             type: "truefalse",
-            q: L("Because Surra's course can be so unpredictable, signs should be reported the same day they are noticed."),
+            q: L("Because Surra's course can be so unpredictable, signs should be reported the same day they are noticed.", "సుర్రా గమనం ఇంత అనిశ్చితంగా ఉంటుంది కాబట్టి, లక్షణాలు కనిపించిన రోజే తెలియజేయాలి.", "சுர்ராவின் போக்கு இவ்வளவு கணிக்க முடியாததாக இருப்பதால், அறிகுறிகள் தெரிந்த அதே நாளில் தெரிவிக்க வேண்டும்.", "ಸುರ್ರಾದ ಹಾದಿ ಇಷ್ಟು ಅನಿಶ್ಚಿತವಾಗಿರುವುದರಿಂದ, ಲಕ್ಷಣಗಳು ಕಂಡ ದಿನವೇ ತಿಳಿಸಬೇಕು.", "सर्रा का रुख इतना अनिश्चित होता है, इसलिए लक्षण दिखने के उसी दिन बता देना चाहिए।"),
             answer: true,
-            explain: L("Yes — death can happen anywhere from 2 weeks to 2 months, or the disease can drag on for up to 2 years, so prompt reporting matters."),
+            explain: L("Yes — death can happen anywhere from 2 weeks to 2 months, or the disease can drag on for up to 2 years, so prompt reporting matters.", "అవును — 2 వారాల నుండి 2 నెలల మధ్య ఎప్పుడైనా మరణం జరగవచ్చు, లేదా వ్యాధి 2 సంవత్సరాల వరకు సాగవచ్చు, కాబట్టి వెంటనే తెలియజేయడం ముఖ్యం.", "ஆம் — 2 வாரங்கள் முதல் 2 மாதங்களுக்குள் எப்போது வேண்டுமானாலும் மரணம் நிகழலாம், அல்லது நோய் 2 ஆண்டுகள் வரை நீடிக்கலாம்; அதனால் உடனே தெரிவிப்பது முக்கியம்.", "ಹೌದು — 2 ವಾರಗಳಿಂದ 2 ತಿಂಗಳ ನಡುವೆ ಯಾವಾಗ ಬೇಕಾದರೂ ಸಾವು ಸಂಭವಿಸಬಹುದು, ಅಥವಾ ರೋಗ 2 ವರ್ಷಗಳವರೆಗೆ ಎಳೆಯಬಹುದು; ಆದ್ದರಿಂದ ತಕ್ಷಣ ತಿಳಿಸುವುದು ಮುಖ್ಯ.", "हाँ — 2 हफ़्ते से 2 महीने के बीच कभी भी मौत हो सकती है, या बीमारी 2 साल तक खिंच सकती है, इसलिए तुरंत बताना ज़रूरी है।"),
           },
         ],
       },
       {
         id: "t-m6-tick-fly-control",
-        title: L("Controlling Ticks and Flies"),
+        title: L("Controlling Ticks and Flies", "పేలు, ఈగల నియంత్రణ", "உண்ணி, ஈக்களைக் கட்டுப்படுத்துதல்", "ಉಣ್ಣಿ, ನೊಣಗಳ ನಿಯಂತ್ರಣ", "किलनी और मक्खियों की रोकथाम"),
         teach: [
             {
               type: "photo",
               src: "assets/photo-m6-pour-on-acaricide.jpg",
-              alt: L("A person's hand pouring a liquid acaricide from a bottle along the backline of a cow"),
-              caption: L("Applying an acaricide along an animal's backline — one practical way ticks are kept under control."),
+              alt: L("A person's hand pouring a liquid acaricide from a bottle along the backline of a cow", "ఒక వ్యక్తి చేతితో సీసా నుండి ద్రవ అకారిసైడ్‌ను (పేలను చంపే మందు) ఆవు వెన్నుపై వెంబడి పోస్తున్న దృశ్యం.", "ஒருவர் தன் கையால் பாட்டிலிலிருந்து திரவ அகாரிசைடை (உண்ணிக்கொல்லி) பசுவின் முதுகுக் கோடு நெடுகிலும் ஊற்றும் காட்சி.", "ಒಬ್ಬ ವ್ಯಕ್ತಿ ತನ್ನ ಕೈಯಿಂದ ಬಾಟಲಿಯಿಂದ ದ್ರವ ಅಕಾರಿಸೈಡ್ (ಉಣ್ಣಿನಾಶಕ) ಅನ್ನು ಹಸುವಿನ ಬೆನ್ನಿನ ಉದ್ದಕ್ಕೂ ಸುರಿಯುತ್ತಿರುವ ದೃಶ್ಯ.", "एक व्यक्ति के हाथ से बोतल से तरल एकेरिसाइड (किलनी मारने की दवा) गाय की पीठ की सीध में डाला जा रहा है।"),
+              caption: L("Applying an acaricide along an animal's backline — one practical way ticks are kept under control.", "జంతువు వెన్ను వెంబడి అకారిసైడ్ పూయడం — పేలను అదుపులో ఉంచే ఒక ఆచరణాత్మక మార్గం.", "விலங்கின் முதுகுக் கோடு நெடுகிலும் அகாரிசைடு தடவுதல் — உண்ணிகளைக் கட்டுக்குள் வைக்கும் ஒரு நடைமுறை வழி.", "ಪ್ರಾಣಿಯ ಬೆನ್ನಿನ ಉದ್ದಕ್ಕೂ ಅಕಾರಿಸೈಡ್ ಹಚ್ಚುವುದು — ಉಣ್ಣಿಗಳನ್ನು ಹತೋಟಿಯಲ್ಲಿಡುವ ಒಂದು ಪ್ರಾಯೋಗಿಕ ವಿಧಾನ.", "पशु की पीठ की सीध में एकेरिसाइड लगाना — किलनी को काबू में रखने का एक व्यावहारिक तरीका।"),
             },
           {
             type: "text",
-            heading: L("Why Bother Controlling Them"),
+            heading: L("Why Bother Controlling Them", "వాటిని ఎందుకు నియంత్రించాలి", "அவற்றை ஏன் கட்டுப்படுத்த வேண்டும்", "ಅವುಗಳನ್ನು ಏಕೆ ನಿಯಂತ್ರಿಸಬೇಕು", "इन्हें काबू में रखना क्यों ज़रूरी है"),
             html: L(
-              "Ticks and biting flies don't just spread disease — heavy infestations on their own cause anaemia, real productivity loss, severe discomfort, and can even trigger allergic reactions at the biting sites. They also multiply fast: each adult tick can lay around 3000 eggs, and the young ticks (larvae) can survive for 2 to 7 months without feeding, depending on the climate. Left unchecked, a small problem becomes a large one quickly."
+              "Ticks and biting flies don't just spread disease — heavy infestations on their own cause anaemia, real productivity loss, severe discomfort, and can even trigger allergic reactions at the biting sites. They also multiply fast: each adult tick can lay around 3000 eggs, and the young ticks (larvae) can survive for 2 to 7 months without feeding, depending on the climate. Left unchecked, a small problem becomes a large one quickly.",
+              "పేలు, కుట్టే ఈగలు వ్యాధులను వ్యాపింపజేయడమే కాదు — ఎక్కువగా పట్టితే అవే రక్తహీనత, ఉత్పత్తి నష్టం, తీవ్రమైన అసౌకర్యం కలిగిస్తాయి, కుట్టిన చోట్ల అలర్జీ ప్రతిచర్యలు కూడా రావచ్చు. అవి వేగంగా పెరుగుతాయి కూడా: ప్రతి పెద్ద పేను దాదాపు 3000 గుడ్లు పెట్టగలదు, పిల్ల పేలు (లార్వాలు) వాతావరణాన్ని బట్టి తిండి లేకుండా 2 నుండి 7 నెలల వరకు బతకగలవు. పట్టించుకోకపోతే చిన్న సమస్య త్వరగా పెద్దదవుతుంది.",
+              "உண்ணிகளும் கடிக்கும் ஈக்களும் நோய்களைப் பரப்புவதோடு நிற்பதில்லை — அதிகமாக மொய்த்தால் அவையே இரத்தசோகை, உற்பத்தி இழப்பு, கடுமையான அசௌகரியம் ஆகியவற்றை உண்டாக்கும், கடித்த இடங்களில் ஒவ்வாமை எதிர்வினைகளையும் தூண்டலாம். அவை வேகமாகப் பெருகவும் செய்கின்றன: ஒவ்வொரு முதிர்ந்த உண்ணியும் சுமார் 3000 முட்டைகள் இடும், இளம் உண்ணிகள் (லார்வாக்கள்) காலநிலையைப் பொறுத்து உணவின்றி 2 முதல் 7 மாதங்கள் வரை உயிர் வாழும். கவனிக்காமல் விட்டால் சிறிய பிரச்சனை சீக்கிரம் பெரிதாகிவிடும்.",
+              "ಉಣ್ಣಿಗಳು ಮತ್ತು ಕಚ್ಚುವ ನೊಣಗಳು ರೋಗ ಹರಡುವುದು ಮಾತ್ರವಲ್ಲ — ಹೆಚ್ಚು ಮುತ್ತಿಕೊಂಡರೆ ಅವೇ ರಕ್ತಹೀನತೆ, ಉತ್ಪಾದನೆ ನಷ್ಟ, ತೀವ್ರ ಅಸೌಕರ್ಯ ಉಂಟುಮಾಡುತ್ತವೆ, ಕಚ್ಚಿದ ಜಾಗಗಳಲ್ಲಿ ಅಲರ್ಜಿ ಪ್ರತಿಕ್ರಿಯೆಗಳನ್ನೂ ತರಬಹುದು. ಅವು ವೇಗವಾಗಿ ಹೆಚ್ಚುತ್ತವೆ ಕೂಡ: ಪ್ರತಿ ಪ್ರೌಢ ಉಣ್ಣಿ ಸುಮಾರು 3000 ಮೊಟ್ಟೆ ಇಡಬಲ್ಲದು, ಮರಿ ಉಣ್ಣಿಗಳು (ಲಾರ್ವಾ) ಹವಾಮಾನದ ಮೇಲೆ ಅವಲಂಬಿಸಿ ಆಹಾರವಿಲ್ಲದೆ 2 ರಿಂದ 7 ತಿಂಗಳವರೆಗೆ ಬದುಕಬಲ್ಲವು. ನಿರ್ಲಕ್ಷಿಸಿದರೆ ಸಣ್ಣ ಸಮಸ್ಯೆ ಬೇಗ ದೊಡ್ಡದಾಗುತ್ತದೆ.",
+              "किलनी और काटने वाली मक्खियाँ सिर्फ़ बीमारी ही नहीं फैलातीं — ज़्यादा संख्या में हों तो अपने आप में खून की कमी, उत्पादन का नुकसान और भारी तकलीफ़ पैदा करती हैं, और काटने की जगहों पर एलर्जी भी हो सकती है। ये तेज़ी से बढ़ती भी हैं: हर वयस्क किलनी लगभग 3000 अंडे दे सकती है, और उसके बच्चे (लार्वा) मौसम के हिसाब से बिना खाए 2 से 7 महीने तक ज़िंदा रह सकते हैं। अनदेखा करने पर छोटी समस्या जल्दी बड़ी बन जाती है।"
             ),
           },
           {
             type: "stat-grid",
             items: [
               {
-                label: L("New animals"),
-                text: L("Any newly purchased animal should be completely de-ticked before it is allowed to mix with the rest of the herd."),
+                label: L("New animals", "కొత్త జంతువులు", "புதிய விலங்குகள்", "ಹೊಸ ಪ್ರಾಣಿಗಳು", "नए पशु"),
+                text: L("Any newly purchased animal should be completely de-ticked before it is allowed to mix with the rest of the herd.", "కొత్తగా కొన్న ప్రతి జంతువును మిగతా మందతో కలవనివ్వడానికి ముందు పూర్తిగా పేలు తీసివేయాలి.", "புதிதாக வாங்கிய ஒவ்வொரு விலங்கையும் மற்ற மந்தையுடன் கலக்க விடுவதற்கு முன் முழுமையாக உண்ணிகளை நீக்க வேண்டும்.", "ಹೊಸದಾಗಿ ಖರೀದಿಸಿದ ಪ್ರತಿ ಪ್ರಾಣಿಯನ್ನು ಉಳಿದ ಹಿಂಡಿನೊಂದಿಗೆ ಸೇರಿಸುವ ಮೊದಲು ಸಂಪೂರ್ಣವಾಗಿ ಉಣ್ಣಿ ತೆಗೆಯಬೇಕು.", "नए खरीदे गए हर पशु को बाकी झुंड में मिलाने से पहले पूरी तरह किलनी-मुक्त कर लेना चाहिए।"),
               },
               {
-                label: L("Spraying the animal and the shed"),
+                label: L("Spraying the animal and the shed", "జంతువుపై, కొట్టంపై పిచికారీ చేయడం", "விலங்கு மற்றும் தொழுவத்தில் தெளித்தல்", "ಪ್ರಾಣಿ ಮತ್ತು ಕೊಟ್ಟಿಗೆಗೆ ಸಿಂಪಡಿಸುವುದು", "पशु और शेड पर छिड़काव"),
                 text: L(
-                  "Ticks are controlled with periodic spraying of an acaricide (a tick-killing chemical) on the animal's body — and cracks and crevices in the shed also need a higher-strength spray, since that's where eggs and larvae hide. This spraying, and the exact chemical and strength used, should be done under a veterinarian's advice."
+                  "Ticks are controlled with periodic spraying of an acaricide (a tick-killing chemical) on the animal's body — and cracks and crevices in the shed also need a higher-strength spray, since that's where eggs and larvae hide. This spraying, and the exact chemical and strength used, should be done under a veterinarian's advice.",
+                  "జంతువు శరీరంపై అకారిసైడ్ (పేలను చంపే రసాయనం) ను క్రమం తప్పకుండా పిచికారీ చేయడం ద్వారా పేలను నియంత్రిస్తారు — కొట్టంలోని పగుళ్లు, సందుల్లో గుడ్లు, లార్వాలు దాక్కుంటాయి కాబట్టి అక్కడ ఎక్కువ గాఢత గల మందును పిచికారీ చేయాలి. ఈ పిచికారీ, వాడే రసాయనం, దాని గాఢత పశువైద్యుడి సలహా మేరకే ఉండాలి.",
+                  "விலங்கின் உடலில் அகாரிசைடை (உண்ணிகளைக் கொல்லும் ரசாயனம்) அவ்வப்போது தெளிப்பதன் மூலம் உண்ணிகள் கட்டுப்படுத்தப்படுகின்றன — தொழுவத்தின் விரிசல்கள், இடுக்குகளில் முட்டைகளும் லார்வாக்களும் மறைந்திருப்பதால் அங்கு அதிக வீரியமுள்ள மருந்தைத் தெளிக்க வேண்டும். இந்தத் தெளிப்பும், பயன்படுத்தும் ரசாயனமும், அதன் வீரியமும் கால்நடை மருத்துவரின் ஆலோசனைப்படியே இருக்க வேண்டும்.",
+                  "ಪ್ರಾಣಿಯ ದೇಹದ ಮೇಲೆ ಅಕಾರಿಸೈಡ್ (ಉಣ್ಣಿ ಕೊಲ್ಲುವ ರಾಸಾಯನಿಕ) ಅನ್ನು ನಿಯಮಿತವಾಗಿ ಸಿಂಪಡಿಸುವ ಮೂಲಕ ಉಣ್ಣಿಗಳನ್ನು ನಿಯಂತ್ರಿಸಲಾಗುತ್ತದೆ — ಕೊಟ್ಟಿಗೆಯ ಬಿರುಕು, ಸಂದುಗಳಲ್ಲಿ ಮೊಟ್ಟೆ, ಲಾರ್ವಾಗಳು ಅಡಗಿರುವುದರಿಂದ ಅಲ್ಲಿ ಹೆಚ್ಚು ಗಾಢತೆಯ ಔಷಧ ಸಿಂಪಡಿಸಬೇಕು. ಈ ಸಿಂಪಡಣೆ, ಬಳಸುವ ರಾಸಾಯನಿಕ ಮತ್ತು ಅದರ ಗಾಢತೆ ಪಶುವೈದ್ಯರ ಸಲಹೆಯಂತೆಯೇ ಇರಬೇಕು.",
+                  "किलनी को काबू में रखने के लिए पशु के शरीर पर समय-समय पर एकेरिसाइड (किलनी मारने वाला रसायन) छिड़का जाता है — और शेड की दरारों व सुराखों में ज़्यादा तेज़ घोल छिड़कना पड़ता है, क्योंकि अंडे और लार्वा वहीं छिपते हैं। यह छिड़काव, और कौन-सा रसायन कितनी ताकत का लेना है, पशु चिकित्सक की सलाह से ही होना चाहिए।"
                 ),
               },
               {
-                label: L("Avoiding resistance"),
+                label: L("Avoiding resistance", "నిరోధకత రాకుండా చూడటం", "எதிர்ப்புத் திறன் உருவாகாமல் தடுத்தல்", "ನಿರೋಧಕತೆ ಬರದಂತೆ ತಡೆಯುವುದು", "प्रतिरोध बनने से रोकना"),
                 text: L(
-                  "Using the exact same acaricide again and again lets ticks build up resistance to it over time, so the type used should be changed from time to time — this decision is best left to the vet."
+                  "Using the exact same acaricide again and again lets ticks build up resistance to it over time, so the type used should be changed from time to time — this decision is best left to the vet.",
+                  "ఒకే అకారిసైడ్‌ను మళ్లీ మళ్లీ వాడితే పేలు కాలక్రమేణా దానికి నిరోధకత పెంచుకుంటాయి, కాబట్టి వాడే రకాన్ని అప్పుడప్పుడు మార్చాలి — ఈ నిర్ణయం పశువైద్యుడికే వదిలేయడం మంచిది.",
+                  "ஒரே அகாரிசைடை மீண்டும் மீண்டும் பயன்படுத்தினால் உண்ணிகள் காலப்போக்கில் அதற்கு எதிர்ப்புத் திறனை உருவாக்கிக் கொள்ளும்; எனவே பயன்படுத்தும் வகையை அவ்வப்போது மாற்ற வேண்டும் — இந்த முடிவை கால்நடை மருத்துவரிடமே விட்டுவிடுவது நல்லது.",
+                  "ಒಂದೇ ಅಕಾರಿಸೈಡ್ ಅನ್ನು ಮತ್ತೆ ಮತ್ತೆ ಬಳಸಿದರೆ ಉಣ್ಣಿಗಳು ಕಾಲಕ್ರಮೇಣ ಅದಕ್ಕೆ ನಿರೋಧಕತೆ ಬೆಳೆಸಿಕೊಳ್ಳುತ್ತವೆ, ಆದ್ದರಿಂದ ಬಳಸುವ ವಿಧವನ್ನು ಆಗಾಗ ಬದಲಿಸಬೇಕು — ಈ ನಿರ್ಧಾರವನ್ನು ಪಶುವೈದ್ಯರಿಗೇ ಬಿಡುವುದು ಒಳ್ಳೆಯದು.",
+                  "एक ही एकेरिसाइड बार-बार इस्तेमाल करने से किलनी समय के साथ उसके प्रति प्रतिरोधी बन जाती हैं, इसलिए दवा का प्रकार समय-समय पर बदलना चाहिए — यह फ़ैसला पशु चिकित्सक पर छोड़ना ही बेहतर है।"
                 ),
               },
             ],
           },
           {
             type: "text",
-            heading: L("Keeping Flies Down"),
+            heading: L("Keeping Flies Down", "ఈగలను తగ్గించడం", "ஈக்களைக் குறைத்தல்", "ನೊಣಗಳನ್ನು ಕಡಿಮೆ ಮಾಡುವುದು", "मक्खियों को कम रखना"),
             html: L(
-              "Fly control leans much more on everyday shed hygiene, which is something ground staff can act on directly: dispose of manure and urine regularly, at a reasonable distance from the shed, and make sure water never stagnates anywhere nearby — both are places flies breed. Smoking the shed with raw leaves (neem leaves work well) in the evenings also helps reduce flies."
+              "Fly control leans much more on everyday shed hygiene, which is something ground staff can act on directly: dispose of manure and urine regularly, at a reasonable distance from the shed, and make sure water never stagnates anywhere nearby — both are places flies breed. Smoking the shed with raw leaves (neem leaves work well) in the evenings also helps reduce flies.",
+              "ఈగల నియంత్రణ ఎక్కువగా కొట్టం పరిశుభ్రతపై ఆధారపడుతుంది, దీన్ని క్షేత్ర సిబ్బంది నేరుగా చేయగలరు: పేడ, మూత్రాన్ని క్రమం తప్పకుండా కొట్టానికి తగినంత దూరంలో పారవేయండి, దగ్గరలో ఎక్కడా నీరు నిలవకుండా చూడండి — రెండూ ఈగలు గుడ్లు పెట్టే చోట్లు. సాయంత్రాల్లో పచ్చి ఆకులతో (వేప ఆకులు బాగా పనిచేస్తాయి) కొట్టానికి పొగ వేయడం కూడా ఈగలను తగ్గించడానికి సహాయపడుతుంది.",
+              "ஈக் கட்டுப்பாடு பெரும்பாலும் தினசரி தொழுவ சுகாதாரத்தைச் சார்ந்துள்ளது, இதை களப் பணியாளர்கள் நேரடியாகச் செய்யலாம்: சாணம், சிறுநீரை தொழுவத்திலிருந்து நியாயமான தூரத்தில் தவறாமல் அப்புறப்படுத்துங்கள், அருகில் எங்கும் தண்ணீர் தேங்காமல் பார்த்துக் கொள்ளுங்கள் — இரண்டும் ஈக்கள் முட்டையிடும் இடங்கள். மாலை வேளைகளில் பச்சை இலைகளால் (வேப்பிலை நன்றாக வேலை செய்யும்) தொழுவத்துக்குப் புகை போடுவதும் ஈக்களைக் குறைக்க உதவும்.",
+              "ನೊಣ ನಿಯಂತ್ರಣ ಹೆಚ್ಚಾಗಿ ದೈನಂದಿನ ಕೊಟ್ಟಿಗೆ ಸ್ವಚ್ಛತೆಯ ಮೇಲೆ ಅವಲಂಬಿತ, ಇದನ್ನು ಕ್ಷೇತ್ರ ಸಿಬ್ಬಂದಿ ನೇರವಾಗಿ ಮಾಡಬಹುದು: ಸಗಣಿ ಮತ್ತು ಮೂತ್ರವನ್ನು ನಿಯಮಿತವಾಗಿ ಕೊಟ್ಟಿಗೆಯಿಂದ ಸಾಕಷ್ಟು ದೂರದಲ್ಲಿ ವಿಲೇವಾರಿ ಮಾಡಿ, ಹತ್ತಿರದಲ್ಲಿ ಎಲ್ಲೂ ನೀರು ನಿಲ್ಲದಂತೆ ನೋಡಿಕೊಳ್ಳಿ — ಎರಡೂ ನೊಣಗಳು ಮೊಟ್ಟೆ ಇಡುವ ಜಾಗಗಳು. ಸಂಜೆಗಳಲ್ಲಿ ಹಸಿರು ಎಲೆಗಳಿಂದ (ಬೇವಿನ ಎಲೆ ಚೆನ್ನಾಗಿ ಕೆಲಸ ಮಾಡುತ್ತದೆ) ಕೊಟ್ಟಿಗೆಗೆ ಹೊಗೆ ಹಾಕುವುದೂ ನೊಣಗಳನ್ನು ಕಡಿಮೆ ಮಾಡಲು ಸಹಾಯ ಮಾಡುತ್ತದೆ.",
+              "मक्खियों की रोकथाम काफ़ी हद तक रोज़ की शेड की सफ़ाई पर टिकी है, जो फ़ील्ड स्टाफ़ खुद कर सकता है: गोबर और पेशाब को नियमित रूप से शेड से ठीक-ठाक दूरी पर हटाएँ, और आसपास कहीं पानी जमा न होने दें — दोनों जगहें मक्खियों के पनपने की होती हैं। शाम को कच्चे पत्तों (नीम के पत्ते अच्छे रहते हैं) का धुआँ शेड में करने से भी मक्खियाँ कम होती हैं।"
             ),
           },
           {
             type: "callout",
             style: "tip",
-            heading: L("Natural Repellants Are Safe to Recommend"),
+            heading: L("Natural Repellants Are Safe to Recommend", "సహజ వికర్షకాలను నిర్భయంగా సిఫారసు చేయవచ్చు", "இயற்கை விரட்டிகளை தயங்காமல் பரிந்துரைக்கலாம்", "ನೈಸರ್ಗಿಕ ನಿವಾರಕಗಳನ್ನು ಧೈರ್ಯವಾಗಿ ಶಿಫಾರಸು ಮಾಡಬಹುದು", "प्राकृतिक भगाने वाली चीज़ें बताना सुरक्षित है"),
             text: L(
-              "Natural repellents such as neem oil can be applied regularly to help keep both ticks and flies away. They don't carry the harmful effects of stronger chemicals, and there's little risk of resistance building up. When applying, go against the direction of the hair and cover the whole body, especially the underbelly and legs, where flies bite most."
+              "Natural repellents such as neem oil can be applied regularly to help keep both ticks and flies away. They don't carry the harmful effects of stronger chemicals, and there's little risk of resistance building up. When applying, go against the direction of the hair and cover the whole body, especially the underbelly and legs, where flies bite most.",
+              "వేప నూనె వంటి సహజ వికర్షకాలను క్రమం తప్పకుండా పూస్తే పేలు, ఈగలు రెండూ దూరంగా ఉంటాయి. బలమైన రసాయనాల్లా వీటికి హానికర ప్రభావాలు ఉండవు, నిరోధకత పెరిగే ప్రమాదం కూడా తక్కువ. పూసేటప్పుడు రోమాలకు వ్యతిరేక దిశలో పూయండి, శరీరమంతా కప్పండి — ముఖ్యంగా ఈగలు ఎక్కువగా కుట్టే పొట్ట కింద, కాళ్ల భాగంలో.",
+              "வேப்ப எண்ணெய் போன்ற இயற்கை விரட்டிகளை தவறாமல் தடவினால் உண்ணிகளும் ஈக்களும் விலகியிருக்க உதவும். வலிமையான ரசாயனங்களைப் போல இவற்றுக்கு தீய விளைவுகள் இல்லை, எதிர்ப்புத் திறன் உருவாகும் ஆபத்தும் குறைவு. தடவும்போது முடியின் திசைக்கு எதிராகத் தடவி, உடல் முழுவதும் மூடுங்கள் — குறிப்பாக ஈக்கள் அதிகம் கடிக்கும் அடிவயிறு, கால்களில்.",
+              "ಬೇವಿನ ಎಣ್ಣೆಯಂತಹ ನೈಸರ್ಗಿಕ ನಿವಾರಕಗಳನ್ನು ನಿಯಮಿತವಾಗಿ ಹಚ್ಚಿದರೆ ಉಣ್ಣಿ ಮತ್ತು ನೊಣ ಎರಡನ್ನೂ ದೂರವಿಡಲು ಸಹಾಯವಾಗುತ್ತದೆ. ಬಲವಾದ ರಾಸಾಯನಿಕಗಳಂತೆ ಇವಕ್ಕೆ ಹಾನಿಕಾರಕ ಪರಿಣಾಮಗಳಿಲ್ಲ, ನಿರೋಧಕತೆ ಬೆಳೆಯುವ ಅಪಾಯವೂ ಕಡಿಮೆ. ಹಚ್ಚುವಾಗ ಕೂದಲಿನ ದಿಕ್ಕಿಗೆ ವಿರುದ್ಧವಾಗಿ ಹಚ್ಚಿ, ಇಡೀ ದೇಹವನ್ನು ಆವರಿಸಿ — ವಿಶೇಷವಾಗಿ ನೊಣಗಳು ಹೆಚ್ಚು ಕಚ್ಚುವ ಹೊಟ್ಟೆಯ ಕೆಳಗೆ ಮತ್ತು ಕಾಲುಗಳಲ್ಲಿ.",
+              "नीम के तेल जैसी प्राकृतिक भगाने वाली चीज़ें नियमित रूप से लगाने से किलनी और मक्खियाँ दोनों दूर रहती हैं। इनमें तेज़ रसायनों जैसे हानिकारक असर नहीं होते, और प्रतिरोध बनने का ख़तरा भी कम रहता है। लगाते समय बालों की उल्टी दिशा में लगाएँ और पूरे शरीर को ढकें, ख़ासकर पेट के नीचे और टाँगों पर, जहाँ मक्खियाँ सबसे ज़्यादा काटती हैं।"
             ),
           },
         ],
         check: [
           {
             type: "mcq",
-            q: L("Why is it important to spray cracks and crevices in the shed, not just the animal's body?"),
+            q: L("Why is it important to spray cracks and crevices in the shed, not just the animal's body?", "కొట్టంలోని పగుళ్లు, సందుల్లో కూడా ఎందుకు పిచికారీ చేయాలి, కేవలం జంతువు శరీరంపైనే కాదు?", "தொழுவத்தின் விரிசல்கள், இடுக்குகளிலும் ஏன் தெளிக்க வேண்டும், விலங்கின் உடலில் மட்டும் அல்ல?", "ಕೊಟ್ಟಿಗೆಯ ಬಿರುಕು, ಸಂದುಗಳಿಗೂ ಏಕೆ ಸಿಂಪಡಿಸಬೇಕು, ಪ್ರಾಣಿಯ ದೇಹಕ್ಕೆ ಮಾತ್ರವಲ್ಲ?", "शेड की दरारों और सुराखों में भी छिड़काव क्यों ज़रूरी है, सिर्फ़ पशु के शरीर पर ही क्यों नहीं?"),
             options: [
-              L("It makes the shed smell better"),
-              L("Tick eggs and larvae hide there, and larvae can survive for months without feeding"),
-              L("It has nothing to do with tick control"),
-              L("It is only done for decoration"),
+              L("It makes the shed smell better", "దీనివల్ల కొట్టం మంచి వాసన వస్తుంది", "இதனால் தொழுவம் நல்ல மணம் வீசும்", "ಇದರಿಂದ ಕೊಟ್ಟಿಗೆ ಒಳ್ಳೆಯ ವಾಸನೆ ಬರುತ್ತದೆ", "इससे शेड में अच्छी खुशबू आती है"),
+              L("Tick eggs and larvae hide there, and larvae can survive for months without feeding", "పేల గుడ్లు, లార్వాలు అక్కడ దాక్కుంటాయి, లార్వాలు తిండి లేకుండా నెలల తరబడి బతకగలవు", "உண்ணி முட்டைகளும் லார்வாக்களும் அங்கே மறைந்திருக்கும், லார்வாக்கள் உணவின்றி மாதக்கணக்கில் உயிர் வாழும்", "ಉಣ್ಣಿಯ ಮೊಟ್ಟೆ, ಲಾರ್ವಾಗಳು ಅಲ್ಲಿ ಅಡಗಿರುತ್ತವೆ, ಲಾರ್ವಾಗಳು ಆಹಾರವಿಲ್ಲದೆ ತಿಂಗಳುಗಟ್ಟಲೆ ಬದುಕಬಲ್ಲವು", "किलनी के अंडे और लार्वा वहीं छिपते हैं, और लार्वा बिना खाए महीनों ज़िंदा रह सकते हैं"),
+              L("It has nothing to do with tick control", "దీనికీ పేల నియంత్రణకూ ఎలాంటి సంబంధం లేదు", "இதற்கும் உண்ணிக் கட்டுப்பாட்டுக்கும் எந்தத் தொடர்பும் இல்லை", "ಇದಕ್ಕೂ ಉಣ್ಣಿ ನಿಯಂತ್ರಣಕ್ಕೂ ಯಾವ ಸಂಬಂಧವೂ ಇಲ್ಲ", "इसका किलनी की रोकथाम से कोई लेना-देना नहीं"),
+              L("It is only done for decoration", "ఇది కేవలం అలంకరణ కోసమే చేస్తారు", "இது அலங்காரத்திற்காக மட்டுமே செய்யப்படுகிறது", "ಇದನ್ನು ಅಲಂಕಾರಕ್ಕಾಗಿ ಮಾತ್ರ ಮಾಡಲಾಗುತ್ತದೆ", "यह सिर्फ़ सजावट के लिए किया जाता है"),
             ],
             answer: 1,
-            explain: L("Tick larvae can survive 2 to 7 months without feeding, often hiding in shed cracks and crevices — spraying there helps prevent re-infestation."),
+            explain: L("Tick larvae can survive 2 to 7 months without feeding, often hiding in shed cracks and crevices — spraying there helps prevent re-infestation.", "పేల లార్వాలు తిండి లేకుండా 2 నుండి 7 నెలల వరకు బతకగలవు, తరచుగా కొట్టం పగుళ్లు, సందుల్లో దాక్కుంటాయి — అక్కడ పిచికారీ చేస్తే మళ్లీ పేలు పట్టకుండా ఆపవచ్చు.", "உண்ணி லார்வாக்கள் உணவின்றி 2 முதல் 7 மாதங்கள் வரை உயிர் வாழும், பெரும்பாலும் தொழுவ விரிசல்கள், இடுக்குகளில் மறைந்திருக்கும் — அங்கு தெளிப்பது மீண்டும் உண்ணிகள் மொய்ப்பதைத் தடுக்க உதவும்.", "ಉಣ್ಣಿ ಲಾರ್ವಾಗಳು ಆಹಾರವಿಲ್ಲದೆ 2 ರಿಂದ 7 ತಿಂಗಳವರೆಗೆ ಬದುಕಬಲ್ಲವು, ಆಗಾಗ ಕೊಟ್ಟಿಗೆಯ ಬಿರುಕು, ಸಂದುಗಳಲ್ಲಿ ಅಡಗಿರುತ್ತವೆ — ಅಲ್ಲಿ ಸಿಂಪಡಿಸಿದರೆ ಮತ್ತೆ ಉಣ್ಣಿ ಮುತ್ತಿಕೊಳ್ಳುವುದನ್ನು ತಡೆಯಬಹುದು.", "किलनी के लार्वा बिना खाए 2 से 7 महीने तक ज़िंदा रह सकते हैं और अक्सर शेड की दरारों व सुराखों में छिपे रहते हैं — वहाँ छिड़काव करने से दोबारा किलनी लगने से बचाव होता है।"),
           },
           {
             type: "truefalse",
-            q: L("Regular manure and urine disposal, away from the shed, is a direct everyday action that helps control flies."),
+            q: L("Regular manure and urine disposal, away from the shed, is a direct everyday action that helps control flies.", "పేడ, మూత్రాన్ని కొట్టానికి దూరంగా క్రమం తప్పకుండా పారవేయడం ఈగలను నియంత్రించడానికి రోజువారీ చేయగలిగే నేరుగా ఉపయోగపడే పని.", "சாணம், சிறுநீரை தொழுவத்திலிருந்து தொலைவில் தவறாமல் அப்புறப்படுத்துவது ஈக்களைக் கட்டுப்படுத்த தினமும் செய்யக்கூடிய நேரடிப் பயனுள்ள செயல்.", "ಸಗಣಿ ಮತ್ತು ಮೂತ್ರವನ್ನು ಕೊಟ್ಟಿಗೆಯಿಂದ ದೂರ ನಿಯಮಿತವಾಗಿ ವಿಲೇವಾರಿ ಮಾಡುವುದು ನೊಣಗಳನ್ನು ನಿಯಂತ್ರಿಸಲು ದೈನಂದಿನ ಮಾಡಬಹುದಾದ ನೇರ ಕ್ರಮ.", "गोबर और पेशाब को शेड से दूर नियमित रूप से हटाना मक्खियों को काबू में रखने के लिए रोज़ किया जा सकने वाला सीधा उपाय है।"),
             answer: true,
-            explain: L("Yes — proper, regular disposal of manure and urine, along with avoiding stagnant water, is basic shed hygiene that reduces fly breeding."),
+            explain: L("Yes — proper, regular disposal of manure and urine, along with avoiding stagnant water, is basic shed hygiene that reduces fly breeding.", "అవును — పేడ, మూత్రాన్ని సరిగ్గా, క్రమం తప్పకుండా పారవేయడం, నిలిచిన నీరు లేకుండా చూడటం ఈగల పెరుగుదలను తగ్గించే కొట్టం పరిశుభ్రత మౌలిక చర్య.", "ஆம் — சாணம், சிறுநீரை முறையாக, தவறாமல் அப்புறப்படுத்துவதும், தேங்கிய நீர் இல்லாமல் பார்த்துக் கொள்வதும் ஈக்கள் பெருகுவதைக் குறைக்கும் அடிப்படை தொழுவ சுகாதாரம்.", "ಹೌದು — ಸಗಣಿ ಮತ್ತು ಮೂತ್ರವನ್ನು ಸರಿಯಾಗಿ, ನಿಯಮಿತವಾಗಿ ವಿಲೇವಾರಿ ಮಾಡುವುದು, ನಿಂತ ನೀರು ಇಲ್ಲದಂತೆ ನೋಡಿಕೊಳ್ಳುವುದು ನೊಣಗಳ ಸಂತಾನವೃದ್ಧಿ ಕಡಿಮೆ ಮಾಡುವ ಮೂಲಭೂತ ಕೊಟ್ಟಿಗೆ ಸ್ವಚ್ಛತೆ.", "हाँ — गोबर और पेशाब का सही ढंग से नियमित निपटान, और पानी जमा न होने देना, शेड की बुनियादी सफ़ाई है जिससे मक्खियों का पनपना घटता है।"),
           },
         ],
       },
@@ -5963,45 +5999,45 @@ export const MODULES = [
         {
           topicId: "t-m6-surra",
           type: "mcq",
-          q: L("Which animals can act as a hidden source of Surra infection for horses and camels?"),
-          options: [L("Dogs and cats"), L("Cattle and buffalo"), L("Goats and sheep"), L("Poultry")],
+          q: L("Which animals can act as a hidden source of Surra infection for horses and camels?", "గుర్రాలు, ఒంటెలకు సుర్రా ఇన్ఫెక్షన్‌కు దాగిన మూలంగా ఏ జంతువులు పనిచేయగలవు?", "குதிரைகள், ஒட்டகங்களுக்கு சுர்ரா தொற்றின் மறைமுக மூலமாக எந்த விலங்குகள் இருக்க முடியும்?", "ಕುದುರೆ ಮತ್ತು ಒಂಟೆಗಳಿಗೆ ಸುರ್ರಾ ಸೋಂಕಿನ ಗುಪ್ತ ಮೂಲವಾಗಿ ಯಾವ ಪ್ರಾಣಿಗಳು ಇರಬಲ್ಲವು?", "घोड़ों और ऊँटों के लिए सर्रा संक्रमण का छिपा स्रोत कौन-से पशु बन सकते हैं?"),
+          options: [L("Dogs and cats", "కుక్కలు, పిల్లులు", "நாய்கள், பூனைகள்", "ನಾಯಿ ಮತ್ತು ಬೆಕ್ಕುಗಳು", "कुत्ते और बिल्ली"), L("Cattle and buffalo", "పశువులు, గేదెలు", "மாடுகள், எருமைகள்", "ದನ ಮತ್ತು ಎಮ್ಮೆ", "गाय और भैंस"), L("Goats and sheep", "మేకలు, గొర్రెలు", "ஆடுகள், செம்மறியாடுகள்", "ಮೇಕೆ ಮತ್ತು ಕುರಿ", "बकरी और भेड़"), L("Poultry", "కోళ్లు", "கோழிகள்", "ಕೋಳಿಗಳು", "मुर्गी-पालन के पक्षी")],
           answer: 1,
-          explain: L("Cattle and buffalo can be reservoir hosts, carrying and passing on Surra infection to horses and camels."),
+          explain: L("Cattle and buffalo can be reservoir hosts, carrying and passing on Surra infection to horses and camels.", "పశువులు, గేదెలు సుర్రా ఇన్ఫెక్షన్‌ను మోసుకుంటూ గుర్రాలు, ఒంటెలకు అంటించే వనరు జంతువులు కావచ్చు.", "மாடுகளும் எருமைகளும் சுர்ரா தொற்றைச் சுமந்து குதிரைகள், ஒட்டகங்களுக்குப் பரப்பும் மூல விலங்குகளாக இருக்கலாம்.", "ದನ ಮತ್ತು ಎಮ್ಮೆಗಳು ಸುರ್ರಾ ಸೋಂಕನ್ನು ಹೊತ್ತು ಕುದುರೆ, ಒಂಟೆಗಳಿಗೆ ಹರಡುವ ಮೂಲ ಪ್ರಾಣಿಗಳಾಗಿರಬಹುದು.", "गाय-भैंस सर्रा संक्रमण को अपने अंदर रखकर घोड़ों और ऊँटों तक पहुँचाने वाले भंडार (रिज़र्वॉयर) पशु हो सकते हैं।"),
         },
         {
           topicId: "t-m6-surra",
           type: "truefalse",
-          q: L("Animals under stress are less likely to fall sick with Surra."),
+          q: L("Animals under stress are less likely to fall sick with Surra.", "ఒత్తిడిలో ఉన్న జంతువులకు సుర్రా వచ్చే అవకాశం తక్కువ.", "மன அழுத்தத்தில் உள்ள விலங்குகளுக்கு சுர்ரா வர வாய்ப்பு குறைவு.", "ಒತ್ತಡದಲ್ಲಿರುವ ಪ್ರಾಣಿಗಳಿಗೆ ಸುರ್ರಾ ಬರುವ ಸಾಧ್ಯತೆ ಕಡಿಮೆ.", "तनाव वाले पशुओं को सर्रा होने की संभावना कम होती है।"),
           answer: false,
-          explain: L("The opposite is true — animals under stress are MORE susceptible to Surra."),
+          explain: L("The opposite is true — animals under stress are MORE susceptible to Surra.", "దీనికి వ్యతిరేకం నిజం — ఒత్తిడిలో ఉన్న జంతువులకు సుర్రా వచ్చే అవకాశం ఎక్కువ.", "இதற்கு நேர்மாறானது உண்மை — மன அழுத்தத்தில் உள்ள விலங்குகளுக்கு சுர்ரா வர வாய்ப்பு அதிகம்.", "ಇದಕ್ಕೆ ವಿರುದ್ಧವೇ ನಿಜ — ಒತ್ತಡದಲ್ಲಿರುವ ಪ್ರಾಣಿಗಳಿಗೆ ಸುರ್ರಾ ಬರುವ ಸಾಧ್ಯತೆ ಹೆಚ್ಚು.", "इसका उल्टा सच है — तनाव वाले पशुओं को सर्रा होने की संभावना ज़्यादा होती है।"),
         },
         {
           topicId: "t-m6-tick-fly-control",
           type: "mcq",
-          q: L("What should happen to any newly purchased animal before it mixes with the rest of the herd?"),
+          q: L("What should happen to any newly purchased animal before it mixes with the rest of the herd?", "కొత్తగా కొన్న జంతువును మిగతా మందతో కలిపే ముందు ఏం చేయాలి?", "புதிதாக வாங்கிய விலங்கை மற்ற மந்தையுடன் கலப்பதற்கு முன் என்ன செய்ய வேண்டும்?", "ಹೊಸದಾಗಿ ಖರೀದಿಸಿದ ಪ್ರಾಣಿಯನ್ನು ಉಳಿದ ಹಿಂಡಿನೊಂದಿಗೆ ಸೇರಿಸುವ ಮೊದಲು ಏನು ಮಾಡಬೇಕು?", "नए खरीदे गए पशु को बाकी झुंड में मिलाने से पहले क्या करना चाहिए?"),
           options: [
-            L("Nothing special is needed"),
-            L("It should be completely de-ticked first"),
-            L("It should be given extra milk"),
-            L("It should be kept away from water"),
+            L("Nothing special is needed", "ప్రత్యేకంగా ఏమీ అవసరం లేదు", "சிறப்பாக எதுவும் தேவையில்லை", "ವಿಶೇಷವಾಗಿ ಏನೂ ಬೇಕಿಲ್ಲ", "कुछ ख़ास करने की ज़रूरत नहीं"),
+            L("It should be completely de-ticked first", "ముందుగా దానికి పూర్తిగా పేలు తీసివేయాలి", "முதலில் அதிலிருந்து உண்ணிகளை முழுமையாக நீக்க வேண்டும்", "ಮೊದಲು ಅದರಿಂದ ಉಣ್ಣಿಗಳನ್ನು ಸಂಪೂರ್ಣವಾಗಿ ತೆಗೆಯಬೇಕು", "पहले उसे पूरी तरह किलनी-मुक्त करना चाहिए"),
+            L("It should be given extra milk", "దానికి అదనంగా పాలు ఇవ్వాలి", "அதற்கு கூடுதலாக பால் கொடுக்க வேண்டும்", "ಅದಕ್ಕೆ ಹೆಚ್ಚುವರಿ ಹಾಲು ಕೊಡಬೇಕು", "उसे अतिरिक्त दूध देना चाहिए"),
+            L("It should be kept away from water", "దాన్ని నీటికి దూరంగా ఉంచాలి", "அதை தண்ணீரிலிருந்து தள்ளி வைக்க வேண்டும்", "ಅದನ್ನು ನೀರಿನಿಂದ ದೂರವಿಡಬೇಕು", "उसे पानी से दूर रखना चाहिए"),
           ],
           answer: 1,
-          explain: L("New animals should be completely de-ticked before being allowed to mix with the rest of the herd, to avoid introducing ticks."),
+          explain: L("New animals should be completely de-ticked before being allowed to mix with the rest of the herd, to avoid introducing ticks.", "పేలు రాకుండా ఉండేందుకు, కొత్త జంతువులను మిగతా మందతో కలవనివ్వడానికి ముందు పూర్తిగా పేలు తీసివేయాలి.", "உண்ணிகள் நுழையாமல் இருக்க, புதிய விலங்குகளை மற்ற மந்தையுடன் கலக்க விடுவதற்கு முன் உண்ணிகளை முழுமையாக நீக்க வேண்டும்.", "ಉಣ್ಣಿಗಳು ಒಳಬರದಂತೆ ತಡೆಯಲು, ಹೊಸ ಪ್ರಾಣಿಗಳನ್ನು ಉಳಿದ ಹಿಂಡಿನೊಂದಿಗೆ ಸೇರಿಸುವ ಮೊದಲು ಸಂಪೂರ್ಣವಾಗಿ ಉಣ್ಣಿ ತೆಗೆಯಬೇಕು.", "किलनी को अंदर आने से रोकने के लिए, नए पशुओं को बाकी झुंड में मिलाने से पहले पूरी तरह किलनी-मुक्त कर लेना चाहिए।"),
         },
         {
           topicId: "t-m6-tick-fly-control",
           type: "truefalse",
-          q: L("Deciding the exact acaricide chemical and its strength is something ground staff should do on their own."),
+          q: L("Deciding the exact acaricide chemical and its strength is something ground staff should do on their own.", "ఏ అకారిసైడ్ రసాయనం వాడాలి, దాని గాఢత ఎంత అనేది క్షేత్ర సిబ్బంది స్వయంగా నిర్ణయించాల్సిన విషయం.", "எந்த அகாரிசைடு ரசாயனம், அதன் வீரியம் என்ன என்பதை களப் பணியாளர்கள் தாங்களே முடிவு செய்ய வேண்டும்.", "ಯಾವ ಅಕಾರಿಸೈಡ್ ರಾಸಾಯನಿಕ ಬಳಸಬೇಕು, ಅದರ ಗಾಢತೆ ಎಷ್ಟು ಎಂದು ಕ್ಷೇತ್ರ ಸಿಬ್ಬಂದಿ ತಾವೇ ನಿರ್ಧರಿಸಬೇಕು.", "कौन-सा एकेरिसाइड रसायन और कितनी ताकत का लेना है, यह फ़ील्ड स्टाफ़ को खुद तय करना चाहिए।"),
           answer: false,
-          explain: L("No — the acaricide type, strength and how often the chemical group is changed should be decided under a veterinarian's advice."),
+          explain: L("No — the acaricide type, strength and how often the chemical group is changed should be decided under a veterinarian's advice.", "కాదు — అకారిసైడ్ రకం, గాఢత, రసాయన సమూహాన్ని ఎంత తరచుగా మార్చాలి అనేవన్నీ పశువైద్యుడి సలహా మేరకే నిర్ణయించాలి.", "இல்லை — அகாரிசைடு வகை, வீரியம், ரசாயனக் குழுவை எத்தனை முறை மாற்றுவது என்பவை அனைத்தும் கால்நடை மருத்துவரின் ஆலோசனைப்படியே முடிவு செய்யப்பட வேண்டும்.", "ಇಲ್ಲ — ಅಕಾರಿಸೈಡ್ ಬಗೆ, ಗಾಢತೆ, ರಾಸಾಯನಿಕ ಗುಂಪನ್ನು ಎಷ್ಟು ಬಾರಿ ಬದಲಿಸಬೇಕು ಎಂಬುದನ್ನು ಪಶುವೈದ್ಯರ ಸಲಹೆಯಂತೆಯೇ ನಿರ್ಧರಿಸಬೇಕು.", "नहीं — एकेरिसाइड का प्रकार, उसकी ताकत और रसायन-समूह कितनी बार बदलना है, यह सब पशु चिकित्सक की सलाह से तय होना चाहिए।"),
         },
         {
           topicId: "t-m6-surra",
           type: "mcq",
-          q: L("Which of these is a nervous sign that can appear with Surra?"),
-          options: [L("Shiny coat"), L("Head tilting and walking in circles"), L("Increased milk yield"), L("Faster hoof growth", "గిట్టలు వేగంగా పెరగడం", "குளம்புகள் வேகமாக வளர்தல்", "ಗೊರಸುಗಳು ವೇಗವಾಗಿ ಬೆಳೆಯುವುದು", "खुर तेज़ी से बढ़ना")],
+          q: L("Which of these is a nervous sign that can appear with Surra?", "వీటిలో సుర్రాతో కనిపించే నాడీ సంబంధిత లక్షణం ఏది?", "இவற்றில் சுர்ராவுடன் தோன்றக்கூடிய நரம்பு தொடர்பான அறிகுறி எது?", "ಇವುಗಳಲ್ಲಿ ಸುರ್ರಾದೊಂದಿಗೆ ಕಾಣಿಸಬಹುದಾದ ನರ ಸಂಬಂಧಿ ಲಕ್ಷಣ ಯಾವುದು?", "इनमें से सर्रा के साथ दिख सकने वाला नस-तंत्र का लक्षण कौन-सा है?"),
+          options: [L("Shiny coat", "మెరిసే చర్మం/రోమాలు", "பளபளப்பான தோல்/முடி", "ಹೊಳೆಯುವ ಕೂದಲು", "चमकदार बाल/चमड़ी"), L("Head tilting and walking in circles", "తల ఒక వైపు వంచడం, గుండ్రంగా తిరగడం", "தலையை ஒரு பக்கம் சாய்த்தல், வட்டமாகச் சுற்றி நடத்தல்", "ತಲೆಯನ್ನು ಒಂದು ಕಡೆ ವಾಲಿಸುವುದು, ವೃತ್ತಾಕಾರವಾಗಿ ಸುತ್ತುವುದು", "सिर एक तरफ़ झुकाना और गोल-गोल घूमना"), L("Increased milk yield", "పాల దిగుబడి పెరగడం", "பால் மகசூல் அதிகரித்தல்", "ಹಾಲಿನ ಇಳುವರಿ ಹೆಚ್ಚುವುದು", "दूध की पैदावार बढ़ना"), L("Faster hoof growth", "గిట్టలు వేగంగా పెరగడం", "குளம்புகள் வேகமாக வளர்தல்", "ಗೊರಸುಗಳು ವೇಗವಾಗಿ ಬೆಳೆಯುವುದು", "खुर तेज़ी से बढ़ना")],
           answer: 1,
-          explain: L("Surra can cause nervous signs including head tilt, circling, blindness, hyper-excitability and paddling leg movements."),
+          explain: L("Surra can cause nervous signs including head tilt, circling, blindness, hyper-excitability and paddling leg movements.", "సుర్రా వల్ల తల వంగడం, గుండ్రంగా తిరగడం, గుడ్డితనం, అతి ఉద్రేకం, కాళ్లను తెడ్డు వేసినట్టు కదపడం వంటి నాడీ లక్షణాలు రావచ్చు.", "சுர்ராவால் தலை சாய்தல், வட்டமாகச் சுற்றுதல், பார்வையின்மை, அதீத கிளர்ச்சி, கால்களை துடுப்பு போல அசைத்தல் போன்ற நரம்பு அறிகுறிகள் ஏற்படலாம்.", "ಸುರ್ರಾದಿಂದ ತಲೆ ವಾಲುವುದು, ವೃತ್ತಾಕಾರವಾಗಿ ಸುತ್ತುವುದು, ಕುರುಡುತನ, ಅತಿ ಉದ್ರೇಕ, ಕಾಲುಗಳನ್ನು ಹುಟ್ಟು ಹಾಕುವಂತೆ ಚಲಿಸುವುದು ಮುಂತಾದ ನರ ಲಕ್ಷಣಗಳು ಉಂಟಾಗಬಹುದು.", "सर्रा से सिर झुकना, गोल-गोल घूमना, अंधापन, अति-उत्तेजना और टाँगों का चप्पू की तरह चलना जैसे नस-तंत्र के लक्षण हो सकते हैं।"),
         },
       ],
     },
