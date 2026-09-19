@@ -10093,8 +10093,20 @@ export const MODULES = [
   {
     id: "m12",
     number: 12,
-    title: L("Breeding & Related Activities"),
-    subtitle: L("The basics of how breeding works and what to look out for."),
+    title: L(
+      "Breeding & Related Activities",
+      "పశు సంతానోత్పత్తి & సంబంధిత పనులు",
+      "இனப்பெருக்கம் & தொடர்புடைய பணிகள்",
+      "ಸಂತಾನೋತ್ಪತ್ತಿ ಮತ್ತು ಸಂಬಂಧಿತ ಕೆಲಸಗಳು",
+      "प्रजनन और उससे जुड़े काम"
+    ),
+    subtitle: L(
+      "The basics of how breeding works and what to look out for.",
+      "సంతానోత్పత్తి ఎలా జరుగుతుందో, ఏమి గమనించాలో ప్రాథమిక విషయాలు.",
+      "இனப்பெருக்கம் எப்படி நடக்கிறது, என்ன கவனிக்க வேண்டும் என்பதன் அடிப்படை விஷயங்கள்.",
+      "ಸಂತಾನೋತ್ಪತ್ತಿ ಹೇಗೆ ನಡೆಯುತ್ತದೆ, ಏನನ್ನು ಗಮನಿಸಬೇಕು ಎಂಬ ಮೂಲಭೂತ ವಿಷಯಗಳು.",
+      "प्रजनन कैसे होता है और किन बातों पर ध्यान रखना है, इसकी बुनियादी जानकारी।"
+    ),
     icon: "calendar",
     available: true,
     lessons: [
@@ -10103,48 +10115,88 @@ export const MODULES = [
   // ==================================================================
   {
     id: "m12-l1",
-    title: L("Recognizing Heat"),
+    title: L("Recognizing Heat", "ఎదను గుర్తించడం", "சினைப்பருவத்தை அடையாளம் காணுதல்", "ಬೆದೆಯನ್ನು ಗುರುತಿಸುವುದು", "गर्मी (हीट) पहचानना"),
     estMinutes: 8,
     hook: [
       {
         type: "hero",
-        heading: L("A Short Window That Decides a Whole Year"),
+        heading: L(
+          "A Short Window That Decides a Whole Year",
+          "ఒక సంవత్సరాన్ని నిర్ణయించే చిన్న సమయం",
+          "ஒரு வருடத்தையே தீர்மானிக்கும் சிறிய நேரம்",
+          "ಇಡೀ ವರ್ಷವನ್ನು ನಿರ್ಧರಿಸುವ ಸಣ್ಣ ಅವಧಿ",
+          "एक पूरे साल का फैसला करने वाला छोटा सा समय"
+        ),
         text: L(
-          "A cow or buffalo is only ready to be mated for a small number of hours every few weeks. Miss it, and the farm waits weeks for the next chance. You will never be asked to do the breeding yourself — but your eyes, watching the herd every day, are what catch this short window in time. This lesson teaches you exactly what to look for, and when to speak up."
+          "A cow or buffalo is only ready to be mated for a small number of hours every few weeks. Miss it, and the farm waits weeks for the next chance. You will never be asked to do the breeding yourself — but your eyes, watching the herd every day, are what catch this short window in time. This lesson teaches you exactly what to look for, and when to speak up.",
+          "ఆవు లేదా గేదె కొన్ని వారాలకు ఒకసారి, కొన్ని గంటలు మాత్రమే సంయోగానికి సిద్ధంగా ఉంటుంది. అది మిస్ అయితే, ఫారం తర్వాతి అవకాశం కోసం వారాల తరబడి ఎదురు చూడాల్సి వస్తుంది. మీరు స్వయంగా సంతానోత్పత్తి చేయాల్సిన అవసరం ఎప్పుడూ ఉండదు — కానీ ప్రతిరోజూ మందను గమనించే మీ కళ్ళే ఈ చిన్న సమయాన్ని పట్టుకుంటాయి. ఏమి చూడాలో, ఎప్పుడు చెప్పాలో ఈ పాఠం మీకు సరిగ్గా నేర్పిస్తుంది.",
+          "ஒரு பசு அல்லது எருமை சில வாரங்களுக்கு ஒருமுறை, சில மணி நேரம் மட்டுமே இனச்சேர்க்கைக்குத் தயாராக இருக்கும். அதைத் தவறவிட்டால், பண்ணை அடுத்த வாய்ப்புக்காக வாரக்கணக்கில் காத்திருக்க வேண்டும். நீங்களே இனப்பெருக்கம் செய்யச் சொல்லப்பட மாட்டீர்கள் — ஆனால் தினமும் மந்தையைக் கவனிக்கும் உங்கள் கண்கள்தான் இந்தச் சிறிய நேரத்தைப் பிடிக்கின்றன. எதைப் பார்க்க வேண்டும், எப்போது சொல்ல வேண்டும் என்பதை இந்தப் பாடம் சரியாகக் கற்றுத்தரும்.",
+          "ಹಸು ಅಥವಾ ಎಮ್ಮೆ ಕೆಲವು ವಾರಗಳಿಗೊಮ್ಮೆ ಕೆಲವೇ ಗಂಟೆಗಳ ಕಾಲ ಮಾತ್ರ ಸಂಯೋಗಕ್ಕೆ ಸಿದ್ಧವಾಗಿರುತ್ತದೆ. ಅದನ್ನು ತಪ್ಪಿಸಿಕೊಂಡರೆ, ಫಾರಂ ಮುಂದಿನ ಅವಕಾಶಕ್ಕಾಗಿ ವಾರಗಟ್ಟಲೆ ಕಾಯಬೇಕಾಗುತ್ತದೆ. ನೀವೇ ಸಂತಾನೋತ್ಪತ್ತಿ ಮಾಡಬೇಕೆಂದು ಎಂದಿಗೂ ಹೇಳುವುದಿಲ್ಲ — ಆದರೆ ಪ್ರತಿದಿನ ಹಿಂಡನ್ನು ಗಮನಿಸುವ ನಿಮ್ಮ ಕಣ್ಣುಗಳೇ ಈ ಸಣ್ಣ ಅವಧಿಯನ್ನು ಹಿಡಿಯುತ್ತವೆ. ಏನನ್ನು ನೋಡಬೇಕು, ಯಾವಾಗ ತಿಳಿಸಬೇಕು ಎಂಬುದನ್ನು ಈ ಪಾಠ ನಿಖರವಾಗಿ ಕಲಿಸುತ್ತದೆ.",
+          "गाय या भैंस कुछ हफ्तों में सिर्फ कुछ घंटों के लिए ही गाभिन कराने के लिए तैयार होती है। अगर यह मौका चूक गया, तो फार्म को अगले मौके के लिए हफ्तों इंतज़ार करना पड़ता है। आपसे कभी खुद प्रजनन कराने को नहीं कहा जाएगा — लेकिन हर दिन झुंड को देखने वाली आपकी नज़र ही इस छोटे समय को पकड़ती है। यह पाठ आपको सिखाता है कि क्या देखना है और कब बताना है।"
         ),
       },
     ],
     topics: [
       {
         id: "t-m12-heat-signs",
-        title: L("What Is Heat, and How Do You Spot It?"),
+        title: L(
+          "What Is Heat, and How Do You Spot It?",
+          "ఎద అంటే ఏమిటి, దాన్ని ఎలా గుర్తించాలి?",
+          "சினைப்பருவம் என்றால் என்ன, அதை எப்படி அடையாளம் காண்பது?",
+          "ಬೆದೆ ಎಂದರೇನು, ಅದನ್ನು ಹೇಗೆ ಗುರುತಿಸುವುದು?",
+          "गर्मी (हीट) क्या है और इसे कैसे पहचानें?"
+        ),
         teach: [
           {
             type: "text",
-            heading: L("What 'Heat' Means"),
+            heading: L("What 'Heat' Means", "'ఎద' అంటే ఏమిటి", "'சினைப்பருவம்' என்றால் என்ன", "'ಬೆದೆ' ಎಂದರೆ ಏನು", "'गर्मी (हीट)' का मतलब"),
             html: L(
-              "<b>Heat</b> is a short period during which a female cow or buffalo shows interest in mating and will allow a bull (or another cow, while mounting) to approach her. It is a completely natural, repeating part of her body's cycle — not a sign of illness."
+              "<b>Heat</b> is a short period during which a female cow or buffalo shows interest in mating and will allow a bull (or another cow, while mounting) to approach her. It is a completely natural, repeating part of her body's cycle — not a sign of illness.",
+              "<b>ఎద</b> అనేది ఆడ ఆవు లేదా గేదె సంయోగంపై ఆసక్తి చూపి, ఎద్దు (లేదా ఎక్కేటప్పుడు మరో ఆవు) తన దగ్గరకు రావడానికి అనుమతించే ఒక చిన్న కాలం. ఇది ఆమె శరీర చక్రంలో పూర్తిగా సహజంగా, మళ్లీ మళ్లీ వచ్చే భాగం — అనారోగ్య సంకేతం కాదు.",
+              "<b>சினைப்பருவம்</b> என்பது பெண் பசு அல்லது எருமை இனச்சேர்க்கையில் ஆர்வம் காட்டி, காளை (அல்லது மற்றொரு பசு மேலே ஏறும்போது) தன்னை நெருங்க அனுமதிக்கும் ஒரு குறுகிய காலம். இது அதன் உடல் சுழற்சியின் முற்றிலும் இயல்பான, மீண்டும் மீண்டும் வரும் பகுதி — நோயின் அறிகுறி அல்ல.",
+              "<b>ಬೆದೆ</b> ಎಂದರೆ ಹೆಣ್ಣು ಹಸು ಅಥವಾ ಎಮ್ಮೆ ಸಂಯೋಗದಲ್ಲಿ ಆಸಕ್ತಿ ತೋರಿಸಿ, ಹೋರಿ (ಅಥವಾ ಹತ್ತುವಾಗ ಇನ್ನೊಂದು ಹಸು) ತನ್ನ ಬಳಿ ಬರಲು ಅನುಮತಿಸುವ ಒಂದು ಸಣ್ಣ ಅವಧಿ. ಇದು ಅದರ ದೇಹ ಚಕ್ರದ ಸಂಪೂರ್ಣ ಸಹಜ, ಪುನರಾವರ್ತಿತ ಭಾಗ — ಅನಾರೋಗ್ಯದ ಲಕ್ಷಣವಲ್ಲ.",
+              "<b>गर्मी (हीट)</b> वह छोटा समय है जब मादा गाय या भैंस मेल के लिए रुचि दिखाती है और सांड (या चढ़ते समय दूसरी गाय) को अपने पास आने देती है। यह उसके शरीर के चक्र का पूरी तरह स्वाभाविक, बार-बार आने वाला हिस्सा है — बीमारी की निशानी नहीं।"
             ),
           },
           {
             type: "glossary",
-            term: L("Heat (also called Oestrus)"),
+            term: L(
+              "Heat (also called Oestrus)",
+              "ఎద (ఎస్ట్రస్ అని కూడా అంటారు)",
+              "சினைப்பருவம் (ஈஸ்ட்ரஸ் என்றும் அழைப்பர்)",
+              "ಬೆದೆ (ಈಸ್ಟ್ರಸ್ ಎಂದೂ ಕರೆಯುತ್ತಾರೆ)",
+              "गर्मी (हीट), जिसे ऑस्ट्रस भी कहते हैं"
+            ),
             meaning: L(
-              "The short period when a female animal is ready to mate and can become pregnant if served or inseminated. You will hear both words used for the same thing — 'heat' and 'oestrus'."
+              "The short period when a female animal is ready to mate and can become pregnant if served or inseminated. You will hear both words used for the same thing — 'heat' and 'oestrus'.",
+              "ఆడ పశువు సంయోగానికి సిద్ధంగా ఉండి, ఎద్దుతో కలిపినా లేదా గర్భధారణ చేసినా చూలు కట్టగలిగే చిన్న కాలం. ఒకే విషయానికి 'ఎద', 'ఎస్ట్రస్' రెండు పదాలూ వాడతారని మీరు వింటారు.",
+              "பெண் கால்நடை இனச்சேர்க்கைக்குத் தயாராக இருந்து, சேர்க்கப்பட்டாலோ கருவூட்டப்பட்டாலோ சினையாகக்கூடிய குறுகிய காலம். ஒரே விஷயத்துக்கு 'சினைப்பருவம்', 'ஈஸ்ட்ரஸ்' என இரண்டு சொற்களும் பயன்படுத்தப்படுவதை நீங்கள் கேட்பீர்கள்.",
+              "ಹೆಣ್ಣು ಪ್ರಾಣಿ ಸಂಯೋಗಕ್ಕೆ ಸಿದ್ಧವಾಗಿದ್ದು, ಹೋರಿಯಿಂದ ಸಂಯೋಗವಾದರೆ ಅಥವಾ ಗರ್ಭಧಾರಣೆ ಮಾಡಿದರೆ ಗರ್ಭ ಧರಿಸಬಹುದಾದ ಸಣ್ಣ ಅವಧಿ. ಒಂದೇ ವಿಷಯಕ್ಕೆ 'ಬೆದೆ' ಮತ್ತು 'ಈಸ್ಟ್ರಸ್' ಎರಡೂ ಪದಗಳನ್ನು ಬಳಸುವುದನ್ನು ನೀವು ಕೇಳುತ್ತೀರಿ.",
+              "वह छोटा समय जब मादा पशु मेल के लिए तैयार होती है और सांड से मिलाने या गर्भाधान कराने पर गाभिन हो सकती है। एक ही चीज़ के लिए 'गर्मी' और 'ऑस्ट्रस' दोनों शब्द सुनने को मिलेंगे।"
             ),
           },
           {
             type: "stat-grid",
             items: [
               {
-                label: L("How Often It Happens"),
+                label: L("How Often It Happens", "ఎంత తరచుగా వస్తుంది", "எவ்வளவு அடிக்கடி வரும்", "ಎಷ್ಟು ಬಾರಿ ಬರುತ್ತದೆ", "कितनी बार आती है"),
                 text: L(
-                  "A healthy adult heifer, cow or buffalo generally comes into heat every 21 days, though this can normally range anywhere from 18 to 24 days."
+                  "A healthy adult heifer, cow or buffalo generally comes into heat every 21 days, though this can normally range anywhere from 18 to 24 days.",
+                  "ఆరోగ్యంగా ఉన్న పెద్ద పెయ్య, ఆవు లేదా గేదె సాధారణంగా ప్రతి 21 రోజులకు ఎదకు వస్తుంది; ఇది సాధారణంగా 18 నుండి 24 రోజుల మధ్య ఉండవచ్చు.",
+                  "ஆரோக்கியமான வளர்ந்த கிடேரி, பசு அல்லது எருமை பொதுவாக ஒவ்வொரு 21 நாட்களுக்கும் சினைப்பருவத்துக்கு வரும்; இது இயல்பாக 18 முதல் 24 நாட்கள் வரை இருக்கலாம்.",
+                  "ಆರೋಗ್ಯವಾಗಿರುವ ವಯಸ್ಕ ಕಡಸು, ಹಸು ಅಥವಾ ಎಮ್ಮೆ ಸಾಮಾನ್ಯವಾಗಿ ಪ್ರತಿ 21 ದಿನಗಳಿಗೊಮ್ಮೆ ಬೆದೆಗೆ ಬರುತ್ತದೆ; ಇದು ಸಾಮಾನ್ಯವಾಗಿ 18 ರಿಂದ 24 ದಿನಗಳ ನಡುವೆ ಇರಬಹುದು.",
+                  "स्वस्थ वयस्क बछिया, गाय या भैंस आमतौर पर हर 21 दिन में गर्मी में आती है, हालांकि यह सामान्य रूप से 18 से 24 दिन के बीच कभी भी हो सकता है।"
                 ),
               },
               {
-                label: L("How Long It Lasts"),
-                text: L("Each heat period lasts somewhere between 6 and 30 hours — a fairly short and easy-to-miss window."),
+                label: L("How Long It Lasts", "ఎంత సేపు ఉంటుంది", "எவ்வளவு நேரம் நீடிக்கும்", "ಎಷ್ಟು ಹೊತ್ತು ಇರುತ್ತದೆ", "कितनी देर रहती है"),
+                text: L(
+                  "Each heat period lasts somewhere between 6 and 30 hours — a fairly short and easy-to-miss window.",
+                  "ప్రతి ఎద కాలం 6 నుండి 30 గంటల మధ్య ఉంటుంది — చాలా చిన్నదైన, సులభంగా మిస్ అయ్యే సమయం.",
+                  "ஒவ்வொரு சினைப்பருவமும் 6 முதல் 30 மணி நேரம் வரை நீடிக்கும் — மிகவும் குறுகிய, எளிதில் தவறவிடக்கூடிய நேரம்.",
+                  "ಪ್ರತಿ ಬೆದೆ ಅವಧಿ 6 ರಿಂದ 30 ಗಂಟೆಗಳವರೆಗೆ ಇರುತ್ತದೆ — ಸಾಕಷ್ಟು ಚಿಕ್ಕ, ಸುಲಭವಾಗಿ ತಪ್ಪಿಹೋಗುವ ಸಮಯ.",
+                  "हर गर्मी का समय 6 से 30 घंटे के बीच रहता है — काफी छोटा और आसानी से छूट जाने वाला समय।"
+                ),
               },
             ],
           },
@@ -10152,135 +10204,327 @@ export const MODULES = [
             type: "stat-grid",
             items: [
               {
-                label: L("Behaviour Changes"),
+                label: L("Behaviour Changes", "ప్రవర్తనలో మార్పులు", "நடத்தை மாற்றங்கள்", "ವರ್ತನೆಯ ಬದಲಾವಣೆಗಳು", "व्यवहार में बदलाव"),
                 text: L(
-                  "Repeated bellowing (loud calling), restlessness, lifting the tail, sniffing other animals, and mounting other animals or being mounted."
+                  "Repeated bellowing (loud calling), restlessness, lifting the tail, sniffing other animals, and mounting other animals or being mounted.",
+                  "పదే పదే అరవడం (గట్టిగా పిలవడం), అశాంతిగా ఉండటం, తోక ఎత్తడం, ఇతర పశువులను వాసన చూడటం, ఇతర పశువులపై ఎక్కడం లేదా ఇతరులు తనపై ఎక్కడం.",
+                  "திரும்பத் திரும்பக் கத்துதல் (உரக்க அழைத்தல்), அமைதியின்மை, வாலைத் தூக்குதல், மற்ற மாடுகளை முகர்தல், மற்ற மாடுகள் மேல் ஏறுதல் அல்லது மற்றவை தன்மேல் ஏற அனுமதித்தல்.",
+                  "ಪದೇ ಪದೇ ಅರಚುವುದು (ಜೋರಾಗಿ ಕೂಗುವುದು), ಚಡಪಡಿಕೆ, ಬಾಲ ಎತ್ತುವುದು, ಇತರ ಪ್ರಾಣಿಗಳನ್ನು ಮೂಸುವುದು, ಇತರ ಪ್ರಾಣಿಗಳ ಮೇಲೆ ಹತ್ತುವುದು ಅಥವಾ ತನ್ನ ಮೇಲೆ ಹತ್ತಲು ಬಿಡುವುದು.",
+                  "बार-बार रंभाना (ज़ोर से पुकारना), बेचैनी, पूँछ उठाना, दूसरे पशुओं को सूँघना, दूसरे पशुओं पर चढ़ना या दूसरों को अपने ऊपर चढ़ने देना।"
                 ),
               },
               {
-                label: L("Physical Changes"),
-                text: L("The vulva (the outer part of the reproductive opening) looks swollen and red, and there is a thick, sticky, clear discharge."),
-              },
-              {
-                label: L("Eating, Milk and Urination"),
-                text: L("Reduced feed intake, a drop in milk yield, and more frequent urination than usual."),
-              },
-              {
-                label: L("The Clearest Sign"),
+                label: L(
+                  "Physical Changes",
+                  "శరీరంలో కనిపించే మార్పులు",
+                  "உடலில் தெரியும் மாற்றங்கள்",
+                  "ದೇಹದಲ್ಲಿ ಕಾಣುವ ಬದಲಾವಣೆಗಳು",
+                  "शरीर में दिखने वाले बदलाव"
+                ),
                 text: L(
-                  "After about 10–12 hours into heat, the animal will stand still and allow a bull or another cow to mount her. This standing behaviour is the strongest, most reliable sign of all."
+                  "The vulva (the outer part of the reproductive opening) looks swollen and red, and there is a thick, sticky, clear discharge.",
+                  "వల్వా (ప్రత్యుత్పత్తి ద్వారం బయటి భాగం) వాచి ఎర్రగా కనిపిస్తుంది, మరియు చిక్కటి, జిగురుగా ఉన్న, తేటగా ఉండే స్రావం వస్తుంది.",
+                  "பிறப்புறுப்பின் வெளிப்பகுதி (வல்வா) வீங்கிச் சிவந்து காணப்படும்; கெட்டியான, பிசுபிசுப்பான, தெளிவான திரவம் வெளிவரும்.",
+                  "ವಲ್ವಾ (ಸಂತಾನೋತ್ಪತ್ತಿ ದ್ವಾರದ ಹೊರಭಾಗ) ಊದಿಕೊಂಡು ಕೆಂಪಾಗಿ ಕಾಣುತ್ತದೆ, ಮತ್ತು ದಪ್ಪನೆಯ, ಅಂಟಾದ, ಸ್ಪಷ್ಟ ಸ್ರಾವ ಇರುತ್ತದೆ.",
+                  "योनि का बाहरी हिस्सा (वल्वा) सूजा हुआ और लाल दिखता है, और गाढ़ा, चिपचिपा, साफ़ स्राव निकलता है।"
+                ),
+              },
+              {
+                label: L(
+                  "Eating, Milk and Urination",
+                  "తిండి, పాలు మరియు మూత్రం",
+                  "தீவனம், பால் மற்றும் சிறுநீர்",
+                  "ಆಹಾರ, ಹಾಲು ಮತ್ತು ಮೂತ್ರ",
+                  "खाना, दूध और पेशाब"
+                ),
+                text: L(
+                  "Reduced feed intake, a drop in milk yield, and more frequent urination than usual.",
+                  "మేత తినడం తగ్గుతుంది, పాల దిగుబడి తగ్గుతుంది, మరియు మామూలు కంటే ఎక్కువసార్లు మూత్రం పోస్తుంది.",
+                  "தீவனம் உண்பது குறையும், பால் அளவு குறையும், வழக்கத்தை விட அடிக்கடி சிறுநீர் கழிக்கும்.",
+                  "ಮೇವು ತಿನ್ನುವುದು ಕಡಿಮೆಯಾಗುತ್ತದೆ, ಹಾಲಿನ ಇಳುವರಿ ಕುಸಿಯುತ್ತದೆ, ಮತ್ತು ಎಂದಿಗಿಂತ ಹೆಚ್ಚು ಬಾರಿ ಮೂತ್ರ ಮಾಡುತ್ತದೆ.",
+                  "चारा खाना कम हो जाता है, दूध घट जाता है, और सामान्य से ज़्यादा बार पेशाब करती है।"
+                ),
+              },
+              {
+                label: L("The Clearest Sign", "అత్యంత స్పష్టమైన సంకేతం", "மிகத் தெளிவான அறிகுறி", "ಅತ್ಯಂತ ಸ್ಪಷ್ಟ ಲಕ್ಷಣ", "सबसे साफ़ निशानी"),
+                text: L(
+                  "After about 10–12 hours into heat, the animal will stand still and allow a bull or another cow to mount her. This standing behaviour is the strongest, most reliable sign of all.",
+                  "ఎద మొదలైన సుమారు 10–12 గంటల తర్వాత, పశువు నిశ్చలంగా నిలబడి ఎద్దు లేదా మరో ఆవు తనపై ఎక్కడానికి అనుమతిస్తుంది. ఈ నిలబడే ప్రవర్తనే అన్నిటికంటే బలమైన, అత్యంత నమ్మదగిన సంకేతం.",
+                  "சினைப்பருவம் தொடங்கி சுமார் 10–12 மணி நேரத்துக்குப் பிறகு, மாடு அசையாமல் நின்று காளை அல்லது மற்றொரு பசு தன்மேல் ஏற அனுமதிக்கும். இப்படி நிற்பதுதான் எல்லாவற்றிலும் வலுவான, மிகவும் நம்பகமான அறிகுறி.",
+                  "ಬೆದೆ ಶುರುವಾಗಿ ಸುಮಾರು 10–12 ಗಂಟೆಗಳ ನಂತರ, ಪ್ರಾಣಿ ಸುಮ್ಮನೆ ನಿಂತು ಹೋರಿ ಅಥವಾ ಇನ್ನೊಂದು ಹಸು ತನ್ನ ಮೇಲೆ ಹತ್ತಲು ಬಿಡುತ್ತದೆ. ಈ ನಿಂತುಕೊಳ್ಳುವ ವರ್ತನೆಯೇ ಎಲ್ಲಕ್ಕಿಂತ ಬಲವಾದ, ಅತ್ಯಂತ ನಂಬಲರ್ಹ ಲಕ್ಷಣ.",
+                  "गर्मी शुरू होने के करीब 10–12 घंटे बाद, पशु स्थिर खड़ी हो जाती है और सांड या दूसरी गाय को अपने ऊपर चढ़ने देती है। यह खड़े रहने का व्यवहार सबसे पक्की और भरोसेमंद निशानी है।"
                 ),
               },
             ],
           },
           {
             type: "glossary",
-            term: L("Vulva"),
-            meaning: L("The visible outer part of a female animal's reproductive organ, at the rear, just below the tail."),
+            term: L("Vulva", "వల్వా", "வல்வா (பிறப்புறுப்பின் வெளிப்பகுதி)", "ವಲ್ವಾ", "वल्वा (योनि का बाहरी हिस्सा)"),
+            meaning: L(
+              "The visible outer part of a female animal's reproductive organ, at the rear, just below the tail.",
+              "ఆడ పశువు ప్రత్యుత్పత్తి అవయవంలో బయటకు కనిపించే భాగం; వెనుక భాగంలో, తోక కింద ఉంటుంది.",
+              "பெண் கால்நடையின் இனப்பெருக்க உறுப்பில் வெளியே தெரியும் பகுதி; பின்புறம், வாலுக்குக் கீழே இருக்கும்.",
+              "ಹೆಣ್ಣು ಪ್ರಾಣಿಯ ಸಂತಾನೋತ್ಪತ್ತಿ ಅಂಗದ ಹೊರಗೆ ಕಾಣುವ ಭಾಗ; ಹಿಂಭಾಗದಲ್ಲಿ, ಬಾಲದ ಕೆಳಗೆ ಇರುತ್ತದೆ.",
+              "मादा पशु के प्रजनन अंग का बाहर दिखने वाला हिस्सा, पीछे की तरफ पूँछ के ठीक नीचे।"
+            ),
           },
           {
             type: "callout",
             style: "tip",
-            heading: L("Your Job: Watch, Note the Date, and Tell Someone"),
+            heading: L(
+              "Your Job: Watch, Note the Date, and Tell Someone",
+              "మీ పని: గమనించండి, తేదీ నోట్ చేయండి, ఎవరికైనా చెప్పండి",
+              "உங்கள் வேலை: கவனியுங்கள், தேதியைக் குறித்துக்கொள்ளுங்கள், யாரிடமாவது சொல்லுங்கள்",
+              "ನಿಮ್ಮ ಕೆಲಸ: ಗಮನಿಸಿ, ದಿನಾಂಕ ಬರೆದುಕೊಳ್ಳಿ, ಯಾರಿಗಾದರೂ ತಿಳಿಸಿ",
+              "आपका काम: देखें, तारीख नोट करें और किसी को बताएँ"
+            ),
             text: L(
-              "You are not expected to decide anything about breeding. Your job is to notice these signs, note down the date and time as best you can, and tell the person responsible for breeding or the AI technician right away. Good, timely noticing is what makes the rest of the process possible."
+              "You are not expected to decide anything about breeding. Your job is to notice these signs, note down the date and time as best you can, and tell the person responsible for breeding or the AI technician right away. Good, timely noticing is what makes the rest of the process possible.",
+              "సంతానోత్పత్తి గురించి మీరు ఏ నిర్ణయమూ తీసుకోవాల్సిన అవసరం లేదు. ఈ సంకేతాలను గమనించడం, తేదీ మరియు సమయాన్ని వీలైనంత వరకు నోట్ చేయడం, సంతానోత్పత్తికి బాధ్యులైన వ్యక్తికి లేదా AI టెక్నీషియన్‌కు వెంటనే చెప్పడమే మీ పని. సకాలంలో సరిగ్గా గమనించడం వల్లే మిగతా ప్రక్రియ సాధ్యమవుతుంది.",
+              "இனப்பெருக்கம் பற்றி நீங்கள் எந்த முடிவும் எடுக்க வேண்டியதில்லை. இந்த அறிகுறிகளைக் கவனிப்பது, தேதி மற்றும் நேரத்தை முடிந்தவரை குறித்துக்கொள்வது, இனப்பெருக்கத்துக்குப் பொறுப்பானவரிடம் அல்லது AI தொழில்நுட்பரிடம் உடனே தெரிவிப்பதுதான் உங்கள் வேலை. சரியான நேரத்தில் கவனிப்பதுதான் மற்ற செயல்முறை நடக்க வழிவகுக்கிறது.",
+              "ಸಂತಾನೋತ್ಪತ್ತಿಯ ಬಗ್ಗೆ ನೀವು ಯಾವುದೇ ನಿರ್ಧಾರ ತೆಗೆದುಕೊಳ್ಳಬೇಕಿಲ್ಲ. ಈ ಲಕ್ಷಣಗಳನ್ನು ಗಮನಿಸುವುದು, ದಿನಾಂಕ ಮತ್ತು ಸಮಯವನ್ನು ಸಾಧ್ಯವಾದಷ್ಟು ಬರೆದಿಟ್ಟುಕೊಳ್ಳುವುದು, ಸಂತಾನೋತ್ಪತ್ತಿಗೆ ಜವಾಬ್ದಾರರಾದವರಿಗೆ ಅಥವಾ AI ತಂತ್ರಜ್ಞರಿಗೆ ತಕ್ಷಣ ತಿಳಿಸುವುದು ನಿಮ್ಮ ಕೆಲಸ. ಸಮಯಕ್ಕೆ ಸರಿಯಾಗಿ ಗಮನಿಸುವುದರಿಂದಲೇ ಉಳಿದ ಪ್ರಕ್ರಿಯೆ ಸಾಧ್ಯವಾಗುತ್ತದೆ.",
+              "प्रजनन के बारे में आपको कोई फैसला नहीं लेना है। आपका काम है इन निशानियों को देखना, तारीख और समय जितना हो सके नोट करना, और प्रजनन के ज़िम्मेदार व्यक्ति या AI टेक्नीशियन को तुरंत बताना। सही समय पर देखने से ही आगे की पूरी प्रक्रिया संभव होती है।"
             ),
           },
         ],
         check: [
           {
             type: "mcq",
-            q: L("What is 'heat' (oestrus)?"),
+            q: L(
+              "What is 'heat' (oestrus)?",
+              "'ఎద' (ఎస్ట్రస్) అంటే ఏమిటి?",
+              "'சினைப்பருவம்' (ஈஸ்ட்ரஸ்) என்றால் என்ன?",
+              "'ಬೆದೆ' (ಈಸ್ಟ್ರಸ್) ಎಂದರೇನು?",
+              "'गर्मी (हीट)' (ऑस्ट्रस) क्या है?"
+            ),
             options: [
-              L("A sign that the animal is sick"),
-              L("A short period when the female is ready to mate and can become pregnant"),
-              L("The moment a calf is born"),
-              L("A permanent change that lasts all year"),
+              L(
+                "A sign that the animal is sick",
+                "పశువు అనారోగ్యంగా ఉందనే సంకేతం",
+                "கால்நடை நோயுற்றிருக்கிறது என்பதற்கான அறிகுறி",
+                "ಪ್ರಾಣಿ ಅನಾರೋಗ್ಯದಿಂದಿದೆ ಎಂಬುದರ ಲಕ್ಷಣ",
+                "पशु के बीमार होने की निशानी"
+              ),
+              L(
+                "A short period when the female is ready to mate and can become pregnant",
+                "ఆడ పశువు సంయోగానికి సిద్ధంగా ఉండి, చూలు కట్టగలిగే చిన్న కాలం",
+                "பெண் கால்நடை இனச்சேர்க்கைக்குத் தயாராக இருந்து சினையாகக்கூடிய குறுகிய காலம்",
+                "ಹೆಣ್ಣು ಪ್ರಾಣಿ ಸಂಯೋಗಕ್ಕೆ ಸಿದ್ಧವಾಗಿದ್ದು ಗರ್ಭ ಧರಿಸಬಹುದಾದ ಸಣ್ಣ ಅವಧಿ",
+                "वह छोटा समय जब मादा मेल के लिए तैयार होती है और गाभिन हो सकती है"
+              ),
+              L("The moment a calf is born", "దూడ పుట్టే క్షణం", "கன்று பிறக்கும் தருணம்", "ಕರು ಹುಟ್ಟುವ ಕ್ಷಣ", "बछड़ा पैदा होने का पल"),
+              L(
+                "A permanent change that lasts all year",
+                "సంవత్సరమంతా ఉండే శాశ్వత మార్పు",
+                "வருடம் முழுவதும் நீடிக்கும் நிரந்தர மாற்றம்",
+                "ವರ್ಷವಿಡೀ ಇರುವ ಶಾಶ್ವತ ಬದಲಾವಣೆ",
+                "पूरे साल चलने वाला स्थायी बदलाव"
+              ),
             ],
             answer: 1,
-            explain: L("Heat, or oestrus, is a short, repeating period when a female animal is ready to mate — it is normal, not a sign of illness."),
+            explain: L(
+              "Heat, or oestrus, is a short, repeating period when a female animal is ready to mate — it is normal, not a sign of illness.",
+              "ఎద, లేదా ఎస్ట్రస్ అనేది ఆడ పశువు సంయోగానికి సిద్ధంగా ఉండే, మళ్లీ మళ్లీ వచ్చే చిన్న కాలం — ఇది సాధారణమే, అనారోగ్య సంకేతం కాదు.",
+              "சினைப்பருவம் அல்லது ஈஸ்ட்ரஸ் என்பது பெண் கால்நடை இனச்சேர்க்கைக்குத் தயாராக இருக்கும், மீண்டும் மீண்டும் வரும் குறுகிய காலம் — இது இயல்பானதே, நோயின் அறிகுறி அல்ல.",
+              "ಬೆದೆ ಅಥವಾ ಈಸ್ಟ್ರಸ್ ಎಂದರೆ ಹೆಣ್ಣು ಪ್ರಾಣಿ ಸಂಯೋಗಕ್ಕೆ ಸಿದ್ಧವಾಗಿರುವ, ಪುನಃ ಪುನಃ ಬರುವ ಸಣ್ಣ ಅವಧಿ — ಇದು ಸಹಜವೇ, ಅನಾರೋಗ್ಯದ ಲಕ್ಷಣವಲ್ಲ.",
+              "गर्मी या ऑस्ट्रस वह छोटा, बार-बार आने वाला समय है जब मादा पशु मेल के लिए तैयार होती है — यह सामान्य है, बीमारी की निशानी नहीं।"
+            ),
           },
           {
             type: "mcq",
-            q: L("What is the single strongest, clearest sign that an animal is in heat?"),
+            q: L(
+              "What is the single strongest, clearest sign that an animal is in heat?",
+              "పశువు ఎదలో ఉందని చెప్పే అత్యంత బలమైన, స్పష్టమైన ఒకే సంకేతం ఏది?",
+              "மாடு சினைப்பருவத்தில் இருக்கிறது என்பதற்கான மிக வலுவான, தெளிவான ஒரே அறிகுறி எது?",
+              "ಪ್ರಾಣಿ ಬೆದೆಯಲ್ಲಿದೆ ಎಂಬುದಕ್ಕೆ ಅತ್ಯಂತ ಬಲವಾದ, ಸ್ಪಷ್ಟವಾದ ಒಂದೇ ಲಕ್ಷಣ ಯಾವುದು?",
+              "पशु के गर्मी में होने की सबसे पक्की और साफ़ एक निशानी कौन सी है?"
+            ),
             options: [
-              L("A slightly dull coat"),
-              L("Standing still and allowing a bull or another cow to mount her"),
-              L("Eating more than usual"),
-              L("Sleeping more than usual"),
+              L(
+                "A slightly dull coat",
+                "కొద్దిగా నిస్తేజమైన చర్మ రంగు",
+                "சற்று மங்கலான தோல் பளபளப்பு",
+                "ಸ್ವಲ್ಪ ಮಂಕಾದ ಚರ್ಮದ ಹೊಳಪು",
+                "थोड़ा फीका बालों का रंग"
+              ),
+              L(
+                "Standing still and allowing a bull or another cow to mount her",
+                "నిశ్చలంగా నిలబడి, ఎద్దు లేదా మరో ఆవు తనపై ఎక్కడానికి అనుమతించడం",
+                "அசையாமல் நின்று, காளை அல்லது மற்றொரு பசு தன்மேல் ஏற அனுமதித்தல்",
+                "ಸುಮ್ಮನೆ ನಿಂತು, ಹೋರಿ ಅಥವಾ ಇನ್ನೊಂದು ಹಸು ತನ್ನ ಮೇಲೆ ಹತ್ತಲು ಬಿಡುವುದು",
+                "स्थिर खड़े रहकर सांड या दूसरी गाय को अपने ऊपर चढ़ने देना"
+              ),
+              L(
+                "Eating more than usual",
+                "మామూలు కంటే ఎక్కువ తినడం",
+                "வழக்கத்தை விட அதிகம் சாப்பிடுவது",
+                "ಎಂದಿಗಿಂತ ಹೆಚ್ಚು ತಿನ್ನುವುದು",
+                "सामान्य से ज़्यादा खाना"
+              ),
+              L(
+                "Sleeping more than usual",
+                "మామూలు కంటే ఎక్కువ నిద్రపోవడం",
+                "வழக்கத்தை விட அதிகம் தூங்குவது",
+                "ಎಂದಿಗಿಂತ ಹೆಚ್ಚು ನಿದ್ರೆ ಮಾಡುವುದು",
+                "सामान्य से ज़्यादा सोना"
+              ),
             ],
             answer: 1,
-            explain: L("After about 10–12 hours into heat, the animal stands still to be mounted — this is the clearest and most reliable sign."),
+            explain: L(
+              "After about 10–12 hours into heat, the animal stands still to be mounted — this is the clearest and most reliable sign.",
+              "ఎద మొదలైన సుమారు 10–12 గంటల తర్వాత, పశువు ఎక్కించుకోవడానికి నిశ్చలంగా నిలబడుతుంది — ఇదే అత్యంత స్పష్టమైన, నమ్మదగిన సంకేతం.",
+              "சினைப்பருவம் தொடங்கி சுமார் 10–12 மணி நேரத்துக்குப் பிறகு, மாடு ஏறப்படுவதற்காக அசையாமல் நிற்கும் — இதுவே மிகத் தெளிவான, நம்பகமான அறிகுறி.",
+              "ಬೆದೆ ಶುರುವಾಗಿ ಸುಮಾರು 10–12 ಗಂಟೆಗಳ ನಂತರ, ಪ್ರಾಣಿ ಹತ್ತಿಸಿಕೊಳ್ಳಲು ಸುಮ್ಮನೆ ನಿಲ್ಲುತ್ತದೆ — ಇದೇ ಅತ್ಯಂತ ಸ್ಪಷ್ಟ, ನಂಬಲರ್ಹ ಲಕ್ಷಣ.",
+              "गर्मी शुरू होने के करीब 10–12 घंटे बाद, पशु चढ़वाने के लिए स्थिर खड़ी हो जाती है — यही सबसे साफ़ और भरोसेमंद निशानी है।"
+            ),
           },
         ],
       },
       {
         id: "t-m12-heat-timing",
-        title: L("Getting the Timing Right"),
+        title: L("Getting the Timing Right", "సరైన సమయాన్ని పాటించడం", "சரியான நேரத்தைப் பின்பற்றுதல்", "ಸರಿಯಾದ ಸಮಯ ಪಾಲಿಸುವುದು", "सही समय का ध्यान रखना"),
         teach: [
           {
             type: "text",
-            heading: L("Why Timing Matters So Much"),
+            heading: L(
+              "Why Timing Matters So Much",
+              "సమయం ఎందుకు అంత ముఖ్యం",
+              "நேரம் ஏன் இவ்வளவு முக்கியம்",
+              "ಸಮಯ ಏಕೆ ಇಷ್ಟು ಮುಖ್ಯ",
+              "समय इतना ज़रूरी क्यों है"
+            ),
             html: L(
-              "Because heat lasts only a matter of hours, mating or insemination has to happen inside a fairly narrow window. Too early or too late, and the animal is far less likely to become pregnant that cycle — meaning weeks of delay before the next chance."
+              "Because heat lasts only a matter of hours, mating or insemination has to happen inside a fairly narrow window. Too early or too late, and the animal is far less likely to become pregnant that cycle — meaning weeks of delay before the next chance.",
+              "ఎద కొన్ని గంటలు మాత్రమే ఉంటుంది కాబట్టి, సంయోగం లేదా గర్భధారణ ఒక చిన్న సమయ పరిధిలోనే జరగాలి. చాలా ముందు లేదా చాలా ఆలస్యం అయితే, ఆ చక్రంలో పశువు చూలు కట్టే అవకాశం చాలా తగ్గుతుంది — అంటే తర్వాతి అవకాశం కోసం వారాల ఆలస్యం.",
+              "சினைப்பருவம் சில மணி நேரமே நீடிப்பதால், இனச்சேர்க்கை அல்லது கருவூட்டல் ஒரு குறுகிய கால அளவுக்குள் நடக்க வேண்டும். மிக முன்னதாகவோ மிகத் தாமதமாகவோ செய்தால், அந்தச் சுழற்சியில் மாடு சினையாகும் வாய்ப்பு மிகவும் குறைவு — அதாவது அடுத்த வாய்ப்புக்காக வாரக்கணக்கில் தாமதம்.",
+              "ಬೆದೆ ಕೆಲವೇ ಗಂಟೆಗಳ ಕಾಲ ಇರುವುದರಿಂದ, ಸಂಯೋಗ ಅಥವಾ ಗರ್ಭಧಾರಣೆ ಒಂದು ಚಿಕ್ಕ ಸಮಯದ ಅವಧಿಯೊಳಗೇ ನಡೆಯಬೇಕು. ತುಂಬಾ ಬೇಗ ಅಥವಾ ತುಂಬಾ ತಡವಾದರೆ, ಆ ಚಕ್ರದಲ್ಲಿ ಪ್ರಾಣಿ ಗರ್ಭ ಧರಿಸುವ ಸಾಧ್ಯತೆ ತುಂಬಾ ಕಡಿಮೆ — ಅಂದರೆ ಮುಂದಿನ ಅವಕಾಶಕ್ಕಾಗಿ ವಾರಗಟ್ಟಲೆ ವಿಳಂಬ.",
+              "गर्मी सिर्फ कुछ घंटे रहती है, इसलिए मेल या गर्भाधान एक छोटे समय के भीतर ही होना चाहिए। बहुत जल्दी या बहुत देर हुई, तो उस चक्र में पशु के गाभिन होने की संभावना बहुत कम हो जाती है — यानी अगले मौके के लिए हफ्तों की देरी।"
             ),
           },
           {
             type: "glossary",
-            term: L("Insemination"),
+            term: L("Insemination", "గర్భధారణ (ఇన్సెమినేషన్)", "கருவூட்டல் (இன்செமினேஷன்)", "ಗರ್ಭಧಾರಣೆ (ಇನ್ಸೆಮಿನೇಷನ್)", "गर्भाधान (इनसेमिनेशन)"),
             meaning: L(
-              "Placing semen (from a bull) into a female animal so she can become pregnant. This can happen naturally, with a bull directly mating the female (called <b>natural service</b>), or artificially, using equipment and stored semen (called <b>Artificial Insemination</b>, or AI — covered in the next lesson)."
+              "Placing semen (from a bull) into a female animal so she can become pregnant. This can happen naturally, with a bull directly mating the female (called <b>natural service</b>), or artificially, using equipment and stored semen (called <b>Artificial Insemination</b>, or AI — covered in the next lesson).",
+              "(ఎద్దు) వీర్యాన్ని ఆడ పశువులోకి ప్రవేశపెట్టడం, తద్వారా అది చూలు కట్టేలా చేయడం. ఇది సహజంగా — ఎద్దు నేరుగా ఆడ పశువుతో కలవడం (దీన్ని <b>సహజ సంయోగం</b> అంటారు) — లేదా కృత్రిమంగా, పరికరాలు మరియు నిల్వ చేసిన వీర్యంతో (దీన్ని <b>కృత్రిమ గర్భధారణ</b> లేదా AI అంటారు — తర్వాతి పాఠంలో ఉంది) జరగవచ్చు.",
+              "காளையின் விந்தை பெண் கால்நடையின் உடலுக்குள் செலுத்தி, அது சினையாகச் செய்தல். இது இயற்கையாக — காளை நேரடியாகப் பெண்ணுடன் இணைவது (இது <b>இயற்கை இனச்சேர்க்கை</b> எனப்படும்) — அல்லது செயற்கையாக, கருவிகளையும் சேமித்த விந்தையும் பயன்படுத்தி (இது <b>செயற்கை முறை கருவூட்டல்</b> அல்லது AI எனப்படும் — அடுத்த பாடத்தில் உள்ளது) நடக்கலாம்.",
+              "(ಹೋರಿಯ) ವೀರ್ಯವನ್ನು ಹೆಣ್ಣು ಪ್ರಾಣಿಯೊಳಗೆ ಸೇರಿಸಿ, ಅದು ಗರ್ಭ ಧರಿಸುವಂತೆ ಮಾಡುವುದು. ಇದು ಸಹಜವಾಗಿ — ಹೋರಿ ನೇರವಾಗಿ ಹೆಣ್ಣಿನೊಂದಿಗೆ ಸಂಯೋಗ ಮಾಡುವುದು (ಇದನ್ನು <b>ಸಹಜ ಸಂಯೋಗ</b> ಎನ್ನುತ್ತಾರೆ) — ಅಥವಾ ಕೃತಕವಾಗಿ, ಉಪಕರಣಗಳು ಮತ್ತು ಸಂಗ್ರಹಿಸಿದ ವೀರ್ಯ ಬಳಸಿ (ಇದನ್ನು <b>ಕೃತಕ ಗರ್ಭಧಾರಣೆ</b> ಅಥವಾ AI ಎನ್ನುತ್ತಾರೆ — ಮುಂದಿನ ಪಾಠದಲ್ಲಿದೆ) ನಡೆಯಬಹುದು.",
+              "सांड का वीर्य मादा पशु के अंदर पहुँचाना ताकि वह गाभिन हो सके। यह प्राकृतिक तरीके से हो सकता है, जब सांड सीधे मादा से मिलता है (इसे <b>प्राकृतिक मेल</b> कहते हैं), या कृत्रिम तरीके से, उपकरणों और रखे हुए वीर्य से (इसे <b>कृत्रिम गर्भाधान</b> या AI कहते हैं — अगले पाठ में बताया गया है)।"
             ),
           },
           {
             type: "callout",
             style: "info",
-            heading: L("The Right Window"),
+            heading: L("The Right Window", "సరైన సమయం", "சரியான நேரம்", "ಸರಿಯಾದ ಸಮಯ", "सही समय"),
             text: L(
-              "Insemination — whether natural service or AI — should ideally happen 10–12 hours after the first sign of heat, and no later than 18 hours after. In practice: if heat is first noticed in the evening, insemination happens the following morning. If signs of heat are still there the next morning, a second insemination may be needed that same evening."
+              "Insemination — whether natural service or AI — should ideally happen 10–12 hours after the first sign of heat, and no later than 18 hours after. In practice: if heat is first noticed in the evening, insemination happens the following morning. If signs of heat are still there the next morning, a second insemination may be needed that same evening.",
+              "గర్భధారణ — సహజ సంయోగం అయినా, AI అయినా — ఎద మొదటి సంకేతం కనిపించిన 10–12 గంటల తర్వాత, గరిష్టంగా 18 గంటలలోపు జరగాలి. ఆచరణలో: ఎద మొదటిసారి సాయంత్రం కనిపిస్తే, మరుసటి రోజు ఉదయం గర్భధారణ చేస్తారు. మరుసటి ఉదయం కూడా ఎద సంకేతాలు ఉంటే, అదే సాయంత్రం రెండోసారి గర్భధారణ అవసరం కావచ్చు.",
+              "கருவூட்டல் — இயற்கை இனச்சேர்க்கையானாலும் AI ஆனாலும் — சினைப்பருவத்தின் முதல் அறிகுறி தெரிந்த 10–12 மணி நேரத்துக்குப் பிறகு, அதிகபட்சம் 18 மணி நேரத்துக்குள் நடக்க வேண்டும். நடைமுறையில்: சினைப்பருவம் முதலில் மாலையில் தெரிந்தால், மறுநாள் காலை கருவூட்டல் செய்யப்படும். மறுநாள் காலையிலும் அறிகுறிகள் இருந்தால், அதே மாலை இரண்டாம் முறை கருவூட்டல் தேவைப்படலாம்.",
+              "ಗರ್ಭಧಾರಣೆ — ಸಹಜ ಸಂಯೋಗವಾಗಲಿ, AI ಆಗಲಿ — ಬೆದೆಯ ಮೊದಲ ಲಕ್ಷಣ ಕಂಡ 10–12 ಗಂಟೆಗಳ ನಂತರ, ಗರಿಷ್ಠ 18 ಗಂಟೆಗಳೊಳಗೆ ನಡೆಯಬೇಕು. ಪ್ರಾಯೋಗಿಕವಾಗಿ: ಬೆದೆ ಮೊದಲು ಸಂಜೆ ಕಂಡರೆ, ಮರುದಿನ ಬೆಳಿಗ್ಗೆ ಗರ್ಭಧಾರಣೆ ಮಾಡುತ್ತಾರೆ. ಮರುದಿನ ಬೆಳಿಗ್ಗೆಯೂ ಬೆದೆಯ ಲಕ್ಷಣಗಳು ಇದ್ದರೆ, ಅದೇ ಸಂಜೆ ಎರಡನೇ ಬಾರಿ ಗರ್ಭಧಾರಣೆ ಬೇಕಾಗಬಹುದು.",
+              "गर्भाधान — चाहे प्राकृतिक मेल हो या AI — गर्मी का पहला निशान दिखने के 10–12 घंटे बाद, और ज़्यादा से ज़्यादा 18 घंटे के अंदर होना चाहिए। व्यवहार में: अगर गर्मी पहली बार शाम को दिखे, तो अगली सुबह गर्भाधान कराते हैं। अगर अगली सुबह भी गर्मी के निशान बने रहें, तो उसी शाम दूसरी बार गर्भाधान की ज़रूरत पड़ सकती है।"
             ),
           },
           {
             type: "text",
-            heading: L("If She Doesn't Become Pregnant"),
+            heading: L("If She Doesn't Become Pregnant", "ఆమె చూలు కట్టకపోతే", "அது சினையாகவில்லை என்றால்", "ಅದು ಗರ್ಭ ಧರಿಸದಿದ್ದರೆ", "अगर वह गाभिन न हो"),
             html: L(
-              "If the animal does not become pregnant this time, she will come back into heat after 18–21 days. That is exactly why watching and recording matters even after a service or AI has already happened — the herd should be watched again around 21 days later, especially early morning and late evening."
+              "If the animal does not become pregnant this time, she will come back into heat after 18–21 days. That is exactly why watching and recording matters even after a service or AI has already happened — the herd should be watched again around 21 days later, especially early morning and late evening.",
+              "పశువు ఈసారి చూలు కట్టకపోతే, 18–21 రోజుల తర్వాత మళ్లీ ఎదకు వస్తుంది. అందుకే సంయోగం లేదా AI అయిపోయిన తర్వాత కూడా గమనించడం, రాసిపెట్టడం ముఖ్యం — సుమారు 21 రోజుల తర్వాత మందను మళ్లీ గమనించాలి, ముఖ్యంగా తెల్లవారుజామున మరియు రాత్రి ఆలస్యంగా.",
+              "மாடு இந்த முறை சினையாகவில்லை என்றால், 18–21 நாட்களுக்குப் பிறகு மீண்டும் சினைப்பருவத்துக்கு வரும். அதனால்தான் இனச்சேர்க்கை அல்லது AI முடிந்த பிறகும் கவனிப்பதும் பதிவு செய்வதும் முக்கியம் — சுமார் 21 நாட்களுக்குப் பிறகு மந்தையை மீண்டும் கவனிக்க வேண்டும், குறிப்பாக அதிகாலையிலும் இரவு தாமதமாகவும்.",
+              "ಪ್ರಾಣಿ ಈ ಬಾರಿ ಗರ್ಭ ಧರಿಸದಿದ್ದರೆ, 18–21 ದಿನಗಳ ನಂತರ ಮತ್ತೆ ಬೆದೆಗೆ ಬರುತ್ತದೆ. ಅದಕ್ಕಾಗಿಯೇ ಸಂಯೋಗ ಅಥವಾ AI ಆದ ನಂತರವೂ ಗಮನಿಸುವುದು ಮತ್ತು ದಾಖಲಿಸುವುದು ಮುಖ್ಯ — ಸುಮಾರು 21 ದಿನಗಳ ನಂತರ ಹಿಂಡನ್ನು ಮತ್ತೆ ಗಮನಿಸಬೇಕು, ವಿಶೇಷವಾಗಿ ಮುಂಜಾನೆ ಮತ್ತು ತಡ ಸಂಜೆ.",
+              "अगर पशु इस बार गाभिन नहीं हुआ, तो वह 18–21 दिन बाद फिर गर्मी में आएगा। इसीलिए मेल या AI हो जाने के बाद भी देखते रहना और लिखकर रखना ज़रूरी है — करीब 21 दिन बाद झुंड को फिर से देखना चाहिए, खासकर सुबह जल्दी और देर शाम को।"
             ),
           },
           {
             type: "callout",
             style: "warning",
-            heading: L("Buffaloes Need Extra-Close Attention"),
+            heading: L(
+              "Buffaloes Need Extra-Close Attention",
+              "గేదెలపై ప్రత్యేక శ్రద్ధ అవసరం",
+              "எருமைகளுக்கு கூடுதல் கவனம் தேவை",
+              "ಎಮ್ಮೆಗಳ ಮೇಲೆ ಹೆಚ್ಚು ಗಮನ ಬೇಕು",
+              "भैंसों पर खास ध्यान चाहिए"
+            ),
             text: L(
-              "In buffaloes, the signs of heat are not as obvious as in cows. Special care and closer, more frequent watching is needed so the window is not missed altogether."
+              "In buffaloes, the signs of heat are not as obvious as in cows. Special care and closer, more frequent watching is needed so the window is not missed altogether.",
+              "గేదెలలో ఎద సంకేతాలు ఆవులలో ఉన్నంత స్పష్టంగా ఉండవు. ఆ సమయం పూర్తిగా మిస్ కాకుండా ఉండేందుకు ప్రత్యేక జాగ్రత్త, దగ్గరగా, తరచుగా గమనించడం అవసరం.",
+              "எருமைகளில் சினைப்பருவ அறிகுறிகள் பசுக்களைப் போல அவ்வளவு தெளிவாகத் தெரியாது. அந்த நேரம் முழுவதுமாகத் தவறிவிடாமல் இருக்க, சிறப்புக் கவனமும் நெருக்கமான, அடிக்கடி கண்காணிப்பும் தேவை.",
+              "ಎಮ್ಮೆಗಳಲ್ಲಿ ಬೆದೆಯ ಲಕ್ಷಣಗಳು ಹಸುಗಳಲ್ಲಿನಷ್ಟು ಸ್ಪಷ್ಟವಾಗಿರುವುದಿಲ್ಲ. ಆ ಸಮಯ ಸಂಪೂರ್ಣವಾಗಿ ತಪ್ಪಿ ಹೋಗದಂತೆ ವಿಶೇಷ ಕಾಳಜಿ, ಹತ್ತಿರದಿಂದ ಮತ್ತು ಹೆಚ್ಚು ಬಾರಿ ಗಮನಿಸುವುದು ಅಗತ್ಯ.",
+              "भैंसों में गर्मी के निशान गायों जितने साफ़ नहीं होते। यह समय बिल्कुल न छूटे, इसके लिए खास सावधानी और नज़दीक से, ज़्यादा बार देखना ज़रूरी है।"
             ),
           },
           {
             type: "example",
-            heading: L("Why Recording Dates Helps Everyone"),
+            heading: L(
+              "Why Recording Dates Helps Everyone",
+              "తేదీలు రాసిపెట్టడం అందరికీ ఎందుకు సహాయపడుతుంది",
+              "தேதிகளைப் பதிவு செய்வது ஏன் எல்லோருக்கும் உதவுகிறது",
+              "ದಿನಾಂಕಗಳನ್ನು ದಾಖಲಿಸುವುದು ಎಲ್ಲರಿಗೂ ಏಕೆ ಸಹಾಯಕ",
+              "तारीख लिखकर रखना सबके लिए क्यों मददगार है"
+            ),
             text: L(
-              "Writing down the date an animal was seen in heat, and the date she was served or inseminated, helps predict when she might come into heat again or when she is due to calve — so the whole farm can plan and manage her better."
+              "Writing down the date an animal was seen in heat, and the date she was served or inseminated, helps predict when she might come into heat again or when she is due to calve — so the whole farm can plan and manage her better.",
+              "పశువు ఎదలో కనిపించిన తేదీ, దానికి సంయోగం లేదా గర్భధారణ చేసిన తేదీ రాసిపెట్టడం వల్ల, అది మళ్లీ ఎప్పుడు ఎదకు వస్తుందో లేదా ఎప్పుడు ఈనబోతుందో ముందే అంచనా వేయవచ్చు — దీంతో ఫారం మొత్తం దాన్ని మెరుగ్గా ప్లాన్ చేసి చూసుకోగలదు.",
+              "மாடு சினைப்பருவத்தில் காணப்பட்ட தேதியையும், அது சேர்க்கப்பட்ட அல்லது கருவூட்டப்பட்ட தேதியையும் எழுதி வைப்பது, அது மீண்டும் எப்போது சினைப்பருவத்துக்கு வரும் அல்லது எப்போது கன்று ஈனும் என்பதைக் கணிக்க உதவுகிறது — இதனால் பண்ணை முழுவதும் அதை நன்றாகத் திட்டமிட்டுப் பராமரிக்க முடியும்.",
+              "ಪ್ರಾಣಿ ಬೆದೆಯಲ್ಲಿ ಕಂಡ ದಿನಾಂಕ, ಮತ್ತು ಅದಕ್ಕೆ ಸಂಯೋಗ ಅಥವಾ ಗರ್ಭಧಾರಣೆ ಮಾಡಿದ ದಿನಾಂಕವನ್ನು ಬರೆದಿಡುವುದರಿಂದ, ಅದು ಮತ್ತೆ ಯಾವಾಗ ಬೆದೆಗೆ ಬರಬಹುದು ಅಥವಾ ಯಾವಾಗ ಕರು ಹಾಕಬಹುದು ಎಂದು ಮುಂಚೆಯೇ ಊಹಿಸಬಹುದು — ಇದರಿಂದ ಇಡೀ ಫಾರಂ ಅದನ್ನು ಚೆನ್ನಾಗಿ ಯೋಜಿಸಿ ನೋಡಿಕೊಳ್ಳಬಹುದು.",
+              "पशु को किस तारीख को गर्मी में देखा गया और किस तारीख को मेल या गर्भाधान हुआ, यह लिखकर रखने से अंदाज़ा लगाया जा सकता है कि वह दोबारा कब गर्मी में आएगी या कब ब्याएगी — इससे पूरा फार्म उसकी बेहतर योजना बनाकर देखभाल कर सकता है।"
             ),
           },
         ],
         check: [
           {
             type: "mcq",
-            q: L("An animal is first seen showing signs of heat in the evening. Following the ideal timing, when should insemination happen?"),
+            q: L(
+              "An animal is first seen showing signs of heat in the evening. Following the ideal timing, when should insemination happen?",
+              "ఒక పశువు సాయంత్రం మొదటిసారి ఎద సంకేతాలు చూపుతోంది. సరైన సమయం ప్రకారం గర్భధారణ ఎప్పుడు చేయాలి?",
+              "ஒரு மாடு மாலையில் முதன்முதலாக சினைப்பருவ அறிகுறிகளைக் காட்டுகிறது. சரியான நேரப்படி கருவூட்டல் எப்போது செய்ய வேண்டும்?",
+              "ಒಂದು ಪ್ರಾಣಿ ಸಂಜೆ ಮೊದಲ ಬಾರಿಗೆ ಬೆದೆಯ ಲಕ್ಷಣಗಳನ್ನು ತೋರಿಸುತ್ತಿದೆ. ಸರಿಯಾದ ಸಮಯದ ಪ್ರಕಾರ ಗರ್ಭಧಾರಣೆ ಯಾವಾಗ ಮಾಡಬೇಕು?",
+              "एक पशु में शाम को पहली बार गर्मी के निशान दिखे। सही समय के अनुसार गर्भाधान कब कराना चाहिए?"
+            ),
             options: [
-              L("Immediately that same evening, within minutes"),
-              L("The following morning"),
-              L("Exactly one week later"),
-              L("It does not matter when, as long as it happens eventually"),
+              L(
+                "Immediately that same evening, within minutes",
+                "వెంటనే, అదే సాయంత్రం, నిమిషాల్లో",
+                "உடனடியாக, அதே மாலையில், சில நிமிடங்களில்",
+                "ತಕ್ಷಣ, ಅದೇ ಸಂಜೆ, ಕೆಲವೇ ನಿಮಿಷಗಳಲ್ಲಿ",
+                "तुरंत, उसी शाम, कुछ ही मिनटों में"
+              ),
+              L("The following morning", "మరుసటి రోజు ఉదయం", "மறுநாள் காலை", "ಮರುದಿನ ಬೆಳಿಗ್ಗೆ", "अगली सुबह"),
+              L("Exactly one week later", "సరిగ్గా ఒక వారం తర్వాత", "சரியாக ஒரு வாரம் கழித்து", "ಸರಿಯಾಗಿ ಒಂದು ವಾರದ ನಂತರ", "ठीक एक हफ्ते बाद"),
+              L(
+                "It does not matter when, as long as it happens eventually",
+                "ఎప్పటికైనా జరిగితే చాలు, ఎప్పుడు అన్నది ముఖ్యం కాదు",
+                "எப்போது என்பது முக்கியமில்லை, எப்படியாவது நடந்தால் போதும்",
+                "ಯಾವಾಗ ಎಂಬುದು ಮುಖ್ಯವಲ್ಲ, ಕೊನೆಗೆ ನಡೆದರೆ ಸಾಕು",
+                "कब हो, इससे फर्क नहीं पड़ता, बस कभी न कभी हो जाए"
+              ),
             ],
             answer: 1,
-            explain: L("The ideal window is 10–12 hours after the first sign of heat — so heat seen in the evening means insemination the following morning."),
+            explain: L(
+              "The ideal window is 10–12 hours after the first sign of heat — so heat seen in the evening means insemination the following morning.",
+              "సరైన సమయం ఎద మొదటి సంకేతం కనిపించిన 10–12 గంటల తర్వాత — కాబట్టి సాయంత్రం ఎద కనిపిస్తే, గర్భధారణ మరుసటి రోజు ఉదయం చేయాలి.",
+              "சரியான நேரம் சினைப்பருவத்தின் முதல் அறிகுறி தெரிந்த 10–12 மணி நேரத்துக்குப் பிறகு — எனவே மாலையில் சினைப்பருவம் தெரிந்தால், கருவூட்டல் மறுநாள் காலையில் நடக்க வேண்டும்.",
+              "ಸರಿಯಾದ ಸಮಯ ಬೆದೆಯ ಮೊದಲ ಲಕ್ಷಣ ಕಂಡ 10–12 ಗಂಟೆಗಳ ನಂತರ — ಆದ್ದರಿಂದ ಸಂಜೆ ಬೆದೆ ಕಂಡರೆ, ಗರ್ಭಧಾರಣೆ ಮರುದಿನ ಬೆಳಿಗ್ಗೆ ನಡೆಯಬೇಕು.",
+              "सही समय गर्मी का पहला निशान दिखने के 10–12 घंटे बाद है — इसलिए अगर गर्मी शाम को दिखे, तो गर्भाधान अगली सुबह कराना चाहिए।"
+            ),
           },
           {
             type: "truefalse",
-            q: L("Signs of heat are just as obvious and easy to spot in buffaloes as they are in cows."),
+            q: L(
+              "Signs of heat are just as obvious and easy to spot in buffaloes as they are in cows.",
+              "ఆవులలో లాగానే గేదెలలో కూడా ఎద సంకేతాలు అంతే స్పష్టంగా, సులభంగా కనిపిస్తాయి.",
+              "பசுக்களைப் போலவே எருமைகளிலும் சினைப்பருவ அறிகுறிகள் அதே அளவு தெளிவாகவும் எளிதாகவும் தெரியும்.",
+              "ಹಸುಗಳಲ್ಲಿ ಇದ್ದಂತೆಯೇ ಎಮ್ಮೆಗಳಲ್ಲಿಯೂ ಬೆದೆಯ ಲಕ್ಷಣಗಳು ಅಷ್ಟೇ ಸ್ಪಷ್ಟ ಮತ್ತು ಸುಲಭವಾಗಿ ಕಾಣುತ್ತವೆ.",
+              "गायों की तरह भैंसों में भी गर्मी के निशान उतने ही साफ़ और आसानी से दिख जाते हैं।"
+            ),
             answer: false,
-            explain: L("False — signs of heat are less obvious in buffaloes, so extra-close and more frequent watching is needed."),
+            explain: L(
+              "False — signs of heat are less obvious in buffaloes, so extra-close and more frequent watching is needed.",
+              "తప్పు — గేదెలలో ఎద సంకేతాలు తక్కువ స్పష్టంగా ఉంటాయి, కాబట్టి ప్రత్యేకంగా దగ్గరగా, తరచుగా గమనించాలి.",
+              "தவறு — எருமைகளில் சினைப்பருவ அறிகுறிகள் குறைவாகவே தெரியும், எனவே கூடுதலாக நெருக்கமாகவும் அடிக்கடியும் கவனிக்க வேண்டும்.",
+              "ತಪ್ಪು — ಎಮ್ಮೆಗಳಲ್ಲಿ ಬೆದೆಯ ಲಕ್ಷಣಗಳು ಕಡಿಮೆ ಸ್ಪಷ್ಟವಾಗಿರುತ್ತವೆ, ಆದ್ದರಿಂದ ಹೆಚ್ಚು ಹತ್ತಿರದಿಂದ ಮತ್ತು ಹೆಚ್ಚು ಬಾರಿ ಗಮನಿಸಬೇಕು.",
+              "गलत — भैंसों में गर्मी के निशान कम साफ़ होते हैं, इसलिए ज़्यादा नज़दीक से और बार-बार देखना पड़ता है।"
+            ),
           },
         ],
       },
@@ -10291,45 +10535,141 @@ export const MODULES = [
         {
           topicId: "t-m12-heat-signs",
           type: "mcq",
-          q: L("How often does a healthy adult cow or buffalo generally come into heat?"),
-          options: [L("Every 21 days (normally 18–24 days)"), L("Every 5 days"), L("Once a year"), L("Only once in her lifetime")],
+          q: L(
+            "How often does a healthy adult cow or buffalo generally come into heat?",
+            "ఆరోగ్యంగా ఉన్న పెద్ద ఆవు లేదా గేదె సాధారణంగా ఎంత తరచుగా ఎదకు వస్తుంది?",
+            "ஆரோக்கியமான வளர்ந்த பசு அல்லது எருமை பொதுவாக எவ்வளவு அடிக்கடி சினைப்பருவத்துக்கு வரும்?",
+            "ಆರೋಗ್ಯವಾಗಿರುವ ವಯಸ್ಕ ಹಸು ಅಥವಾ ಎಮ್ಮೆ ಸಾಮಾನ್ಯವಾಗಿ ಎಷ್ಟು ಬಾರಿ ಬೆದೆಗೆ ಬರುತ್ತದೆ?",
+            "स्वस्थ वयस्क गाय या भैंस आमतौर पर कितनी बार गर्मी में आती है?"
+          ),
+          options: [L(
+            "Every 21 days (normally 18–24 days)",
+            "ప్రతి 21 రోజులకు (సాధారణంగా 18–24 రోజులు)",
+            "ஒவ்வொரு 21 நாட்களுக்கும் (இயல்பாக 18–24 நாட்கள்)",
+            "ಪ್ರತಿ 21 ದಿನಗಳಿಗೊಮ್ಮೆ (ಸಾಮಾನ್ಯವಾಗಿ 18–24 ದಿನಗಳು)",
+            "हर 21 दिन में (सामान्यतः 18–24 दिन)"
+          ), L("Every 5 days", "ప్రతి 5 రోజులకు", "ஒவ்வொரு 5 நாட்களுக்கும்", "ಪ್ರತಿ 5 ದಿನಗಳಿಗೊಮ್ಮೆ", "हर 5 दिन में"), L("Once a year", "సంవత్సరానికి ఒకసారి", "வருடத்துக்கு ஒருமுறை", "ವರ್ಷಕ್ಕೊಮ್ಮೆ", "साल में एक बार"), L(
+            "Only once in her lifetime",
+            "జీవితంలో ఒక్కసారి మాత్రమే",
+            "வாழ்நாளில் ஒரே ஒரு முறை மட்டும்",
+            "ಜೀವಮಾನದಲ್ಲಿ ಒಂದೇ ಬಾರಿ ಮಾತ್ರ",
+            "पूरे जीवन में सिर्फ एक बार"
+          )],
           answer: 0,
-          explain: L("A healthy adult heifer, cow or buffalo generally comes into heat about every 21 days, ranging from 18 to 24 days."),
+          explain: L(
+            "A healthy adult heifer, cow or buffalo generally comes into heat about every 21 days, ranging from 18 to 24 days.",
+            "ఆరోగ్యంగా ఉన్న పెద్ద పెయ్య, ఆవు లేదా గేదె సాధారణంగా సుమారు ప్రతి 21 రోజులకు ఎదకు వస్తుంది; ఇది 18 నుండి 24 రోజుల మధ్య ఉంటుంది.",
+            "ஆரோக்கியமான வளர்ந்த கிடேரி, பசு அல்லது எருமை பொதுவாக சுமார் ஒவ்வொரு 21 நாட்களுக்கும் சினைப்பருவத்துக்கு வரும்; இது 18 முதல் 24 நாட்கள் வரை இருக்கும்.",
+            "ಆರೋಗ್ಯವಾಗಿರುವ ವಯಸ್ಕ ಕಡಸು, ಹಸು ಅಥವಾ ಎಮ್ಮೆ ಸಾಮಾನ್ಯವಾಗಿ ಸುಮಾರು ಪ್ರತಿ 21 ದಿನಗಳಿಗೊಮ್ಮೆ ಬೆದೆಗೆ ಬರುತ್ತದೆ; ಇದು 18 ರಿಂದ 24 ದಿನಗಳ ನಡುವೆ ಇರುತ್ತದೆ.",
+            "स्वस्थ वयस्क बछिया, गाय या भैंस आमतौर पर करीब हर 21 दिन में गर्मी में आती है, जो 18 से 24 दिन के बीच रहता है।"
+          ),
         },
         {
           topicId: "t-m12-heat-signs",
           type: "truefalse",
-          q: L("A drop in milk yield and reduced feed intake can be signs that an animal is in heat."),
+          q: L(
+            "A drop in milk yield and reduced feed intake can be signs that an animal is in heat.",
+            "పాల దిగుబడి తగ్గడం, మేత తక్కువ తినడం పశువు ఎదలో ఉందనడానికి సంకేతాలు కావచ్చు.",
+            "பால் அளவு குறைவதும் தீவனம் குறைவாக உண்பதும் மாடு சினைப்பருவத்தில் இருப்பதற்கான அறிகுறிகளாக இருக்கலாம்.",
+            "ಹಾಲಿನ ಇಳುವರಿ ಕುಸಿಯುವುದು ಮತ್ತು ಮೇವು ಕಡಿಮೆ ತಿನ್ನುವುದು ಪ್ರಾಣಿ ಬೆದೆಯಲ್ಲಿದೆ ಎಂಬುದರ ಲಕ್ಷಣಗಳಾಗಿರಬಹುದು.",
+            "दूध घटना और चारा कम खाना इस बात की निशानी हो सकते हैं कि पशु गर्मी में है।"
+          ),
           answer: true,
-          explain: L("Yes — reduced feed intake and decreased milk yield are both listed as signs of heat, along with behaviour and physical changes."),
+          explain: L(
+            "Yes — reduced feed intake and decreased milk yield are both listed as signs of heat, along with behaviour and physical changes.",
+            "అవును — మేత తక్కువ తినడం, పాల దిగుబడి తగ్గడం రెండూ ప్రవర్తన మరియు శరీర మార్పులతో పాటు ఎద సంకేతాలుగా చెప్పబడ్డాయి.",
+            "ஆம் — தீவனம் குறைவாக உண்பதும் பால் அளவு குறைவதும் நடத்தை மற்றும் உடல் மாற்றங்களுடன் சேர்த்து சினைப்பருவ அறிகுறிகளாகக் குறிப்பிடப்பட்டுள்ளன.",
+            "ಹೌದು — ಮೇವು ಕಡಿಮೆ ತಿನ್ನುವುದು ಮತ್ತು ಹಾಲಿನ ಇಳುವರಿ ಕುಸಿಯುವುದು ಎರಡನ್ನೂ ವರ್ತನೆ ಮತ್ತು ದೇಹದ ಬದಲಾವಣೆಗಳ ಜೊತೆಗೆ ಬೆದೆಯ ಲಕ್ಷಣಗಳಾಗಿ ಪಟ್ಟಿ ಮಾಡಲಾಗಿದೆ.",
+            "हाँ — चारा कम खाना और दूध घटना, दोनों को व्यवहार और शरीर के बदलावों के साथ गर्मी की निशानियों में गिना गया है।"
+          ),
         },
         {
           topicId: "t-m12-heat-timing",
           type: "mcq",
-          q: L("What is the maximum time after the first sign of heat that insemination should ideally happen?"),
-          options: [L("18 hours"), L("3 days"), L("1 week"), L("There is no time limit"),],
+          q: L(
+            "What is the maximum time after the first sign of heat that insemination should ideally happen?",
+            "ఎద మొదటి సంకేతం తర్వాత గర్భధారణ చేయడానికి ఆదర్శంగా గరిష్ట సమయం ఎంత?",
+            "சினைப்பருவத்தின் முதல் அறிகுறிக்குப் பிறகு கருவூட்டல் செய்ய சிறந்த அதிகபட்ச நேரம் எவ்வளவு?",
+            "ಬೆದೆಯ ಮೊದಲ ಲಕ್ಷಣದ ನಂತರ ಗರ್ಭಧಾರಣೆ ಮಾಡಲು ಆದರ್ಶವಾದ ಗರಿಷ್ಠ ಸಮಯ ಎಷ್ಟು?",
+            "गर्मी का पहला निशान दिखने के बाद गर्भाधान कराने का आदर्श अधिकतम समय कितना है?"
+          ),
+          options: [L("18 hours", "18 గంటలు", "18 மணி நேரம்", "18 ಗಂಟೆಗಳು", "18 घंटे"), L("3 days", "3 రోజులు", "3 நாட்கள்", "3 ದಿನಗಳು", "3 दिन"), L("1 week", "1 వారం", "1 வாரம்", "1 ವಾರ", "1 हफ्ता"), L("There is no time limit", "సమయ పరిమితి ఏమీ లేదు", "நேர வரம்பு எதுவும் இல்லை", "ಸಮಯದ ಮಿತಿ ಇಲ್ಲ", "कोई समय सीमा नहीं है"),],
           answer: 0,
-          explain: L("Insemination should ideally happen 10–12 hours after the first sign of heat, and no later than a maximum of 18 hours."),
+          explain: L(
+            "Insemination should ideally happen 10–12 hours after the first sign of heat, and no later than a maximum of 18 hours.",
+            "గర్భధారణ ఆదర్శంగా ఎద మొదటి సంకేతం కనిపించిన 10–12 గంటల తర్వాత, గరిష్టంగా 18 గంటలలోపు జరగాలి.",
+            "கருவூட்டல் சிறந்த முறையில் சினைப்பருவத்தின் முதல் அறிகுறி தெரிந்த 10–12 மணி நேரத்துக்குப் பிறகு, அதிகபட்சம் 18 மணி நேரத்துக்குள் நடக்க வேண்டும்.",
+            "ಗರ್ಭಧಾರಣೆ ಆದರ್ಶವಾಗಿ ಬೆದೆಯ ಮೊದಲ ಲಕ್ಷಣ ಕಂಡ 10–12 ಗಂಟೆಗಳ ನಂತರ, ಗರಿಷ್ಠ 18 ಗಂಟೆಗಳೊಳಗೆ ನಡೆಯಬೇಕು.",
+            "गर्भाधान आदर्श रूप से गर्मी का पहला निशान दिखने के 10–12 घंटे बाद, और अधिकतम 18 घंटे के अंदर होना चाहिए।"
+          ),
         },
         {
           topicId: "t-m12-heat-timing",
           type: "truefalse",
-          q: L("If an animal does not become pregnant after a service, she will typically come back into heat after 18–21 days."),
+          q: L(
+            "If an animal does not become pregnant after a service, she will typically come back into heat after 18–21 days.",
+            "ఒక పశువు సంయోగం తర్వాత చూలు కట్టకపోతే, సాధారణంగా 18–21 రోజుల తర్వాత మళ్లీ ఎదకు వస్తుంది.",
+            "ஒரு மாடு இனச்சேர்க்கைக்குப் பிறகு சினையாகவில்லை என்றால், பொதுவாக 18–21 நாட்களுக்குப் பிறகு மீண்டும் சினைப்பருவத்துக்கு வரும்.",
+            "ಒಂದು ಪ್ರಾಣಿ ಸಂಯೋಗದ ನಂತರ ಗರ್ಭ ಧರಿಸದಿದ್ದರೆ, ಸಾಮಾನ್ಯವಾಗಿ 18–21 ದಿನಗಳ ನಂತರ ಮತ್ತೆ ಬೆದೆಗೆ ಬರುತ್ತದೆ.",
+            "अगर कोई पशु मेल के बाद गाभिन नहीं होता, तो वह आमतौर पर 18–21 दिन बाद फिर गर्मी में आता है।"
+          ),
           answer: true,
-          explain: L("Correct — if she has not conceived, she comes back into heat after roughly 18–21 days, so the herd should be watched again around then."),
+          explain: L(
+            "Correct — if she has not conceived, she comes back into heat after roughly 18–21 days, so the herd should be watched again around then.",
+            "సరైనది — చూలు కట్టకపోతే, సుమారు 18–21 రోజుల తర్వాత మళ్లీ ఎదకు వస్తుంది, కాబట్టి అప్పుడు మందను మళ్లీ గమనించాలి.",
+            "சரிதான் — சினையாகவில்லை என்றால், சுமார் 18–21 நாட்களுக்குப் பிறகு மீண்டும் சினைப்பருவத்துக்கு வரும், எனவே அப்போது மந்தையை மீண்டும் கவனிக்க வேண்டும்.",
+            "ಸರಿ — ಗರ್ಭ ಧರಿಸದಿದ್ದರೆ, ಸುಮಾರು 18–21 ದಿನಗಳ ನಂತರ ಮತ್ತೆ ಬೆದೆಗೆ ಬರುತ್ತದೆ, ಆದ್ದರಿಂದ ಆಗ ಹಿಂಡನ್ನು ಮತ್ತೆ ಗಮನಿಸಬೇಕು.",
+            "सही — अगर वह गाभिन नहीं हुई, तो करीब 18–21 दिन बाद फिर गर्मी में आती है, इसलिए तब झुंड को दोबारा देखना चाहिए।"
+          ),
         },
         {
           topicId: "t-m12-heat-signs",
           type: "mcq",
-          q: L("What is a handler's job when they notice signs of heat in an animal?"),
+          q: L(
+            "What is a handler's job when they notice signs of heat in an animal?",
+            "ఒక పశువులో ఎద సంకేతాలు గమనించినప్పుడు సంరక్షకుని పని ఏమిటి?",
+            "ஒரு மாட்டில் சினைப்பருவ அறிகுறிகளைக் கவனிக்கும்போது பராமரிப்பாளரின் வேலை என்ன?",
+            "ಒಂದು ಪ್ರಾಣಿಯಲ್ಲಿ ಬೆದೆಯ ಲಕ್ಷಣಗಳನ್ನು ಗಮನಿಸಿದಾಗ ನೋಡಿಕೊಳ್ಳುವವರ ಕೆಲಸ ಏನು?",
+            "किसी पशु में गर्मी के निशान दिखने पर पशुपालक/हैंडलर का काम क्या है?"
+          ),
           options: [
-            L("Carry out the insemination themselves right away"),
-            L("Notice the signs, note the date and time, and tell the person responsible for breeding"),
-            L("Wait a full week before mentioning it to anyone"),
-            L("Ignore it unless the animal also stops eating"),
+            L(
+              "Carry out the insemination themselves right away",
+              "తామే వెంటనే గర్భధారణ చేయడం",
+              "தாங்களே உடனே கருவூட்டல் செய்வது",
+              "ತಾವೇ ತಕ್ಷಣ ಗರ್ಭಧಾರಣೆ ಮಾಡುವುದು",
+              "खुद तुरंत गर्भाधान कर देना"
+            ),
+            L(
+              "Notice the signs, note the date and time, and tell the person responsible for breeding",
+              "సంకేతాలను గమనించి, తేదీ మరియు సమయాన్ని నోట్ చేసి, సంతానోత్పత్తికి బాధ్యులైన వ్యక్తికి చెప్పడం",
+              "அறிகுறிகளைக் கவனித்து, தேதி மற்றும் நேரத்தைக் குறித்துக்கொண்டு, இனப்பெருக்கத்துக்குப் பொறுப்பானவரிடம் சொல்வது",
+              "ಲಕ್ಷಣಗಳನ್ನು ಗಮನಿಸಿ, ದಿನಾಂಕ ಮತ್ತು ಸಮಯ ಬರೆದುಕೊಂಡು, ಸಂತಾನೋತ್ಪತ್ತಿಗೆ ಜವಾಬ್ದಾರರಾದವರಿಗೆ ತಿಳಿಸುವುದು",
+              "निशानियाँ देखना, तारीख और समय नोट करना, और प्रजनन के ज़िम्मेदार व्यक्ति को बताना"
+            ),
+            L(
+              "Wait a full week before mentioning it to anyone",
+              "ఎవరికైనా చెప్పే ముందు పూర్తి ఒక వారం ఆగడం",
+              "யாரிடமாவது சொல்வதற்கு முன் முழு ஒரு வாரம் காத்திருப்பது",
+              "ಯಾರಿಗಾದರೂ ಹೇಳುವ ಮೊದಲು ಪೂರ್ತಿ ಒಂದು ವಾರ ಕಾಯುವುದು",
+              "किसी को बताने से पहले पूरे एक हफ्ते इंतज़ार करना"
+            ),
+            L(
+              "Ignore it unless the animal also stops eating",
+              "పశువు తినడం కూడా ఆపేస్తే తప్ప పట్టించుకోకపోవడం",
+              "மாடு சாப்பிடுவதையும் நிறுத்தினால் ஒழிய கண்டுகொள்ளாமல் இருப்பது",
+              "ಪ್ರಾಣಿ ತಿನ್ನುವುದನ್ನೂ ನಿಲ್ಲಿಸದ ಹೊರತು ಗಮನಿಸದೆ ಬಿಡುವುದು",
+              "जब तक पशु खाना न छोड़ दे, तब तक अनदेखा करना"
+            ),
           ],
           answer: 1,
-          explain: L("A handler's job is only to notice, record the date/time, and report it promptly — never to carry out breeding themselves."),
+          explain: L(
+            "A handler's job is only to notice, record the date/time, and report it promptly — never to carry out breeding themselves.",
+            "సంరక్షకుని పని గమనించడం, తేదీ/సమయం రికార్డు చేయడం, వెంటనే తెలియజేయడం మాత్రమే — తామే సంతానోత్పత్తి చేయడం ఎప్పుడూ కాదు.",
+            "பராமரிப்பாளரின் வேலை கவனிப்பது, தேதி/நேரத்தைப் பதிவு செய்வது, உடனே தெரிவிப்பது மட்டுமே — தாங்களே இனப்பெருக்கம் செய்வது ஒருபோதும் அல்ல.",
+            "ನೋಡಿಕೊಳ್ಳುವವರ ಕೆಲಸ ಗಮನಿಸುವುದು, ದಿನಾಂಕ/ಸಮಯ ದಾಖಲಿಸುವುದು, ತಕ್ಷಣ ತಿಳಿಸುವುದು ಮಾತ್ರ — ತಾವೇ ಸಂತಾನೋತ್ಪತ್ತಿ ಮಾಡುವುದು ಎಂದಿಗೂ ಅಲ್ಲ.",
+            "पशुपालक का काम सिर्फ देखना, तारीख/समय दर्ज करना और तुरंत बताना है — खुद प्रजनन कराना कभी नहीं।"
+          ),
         },
       ],
     },
@@ -10340,162 +10680,376 @@ export const MODULES = [
   // ==================================================================
   {
     id: "m12-l2",
-    title: L("Artificial Insemination and What Comes After"),
+    title: L(
+      "Artificial Insemination and What Comes After",
+      "కృత్రిమ గర్భధారణ మరియు ఆ తర్వాత ఏమి జరుగుతుంది",
+      "செயற்கை முறை கருவூட்டலும் அதற்குப் பிறகு நடப்பதும்",
+      "ಕೃತಕ ಗರ್ಭಧಾರಣೆ ಮತ್ತು ಅದರ ನಂತರ ಏನಾಗುತ್ತದೆ",
+      "कृत्रिम गर्भाधान और उसके बाद क्या होता है"
+    ),
     estMinutes: 8,
     hook: [
       {
         type: "hero",
-        heading: L("A Trained Technician Does the Work — Your Job Is What Comes Before and After"),
+        heading: L(
+          "A Trained Technician Does the Work — Your Job Is What Comes Before and After",
+          "శిక్షణ పొందిన టెక్నీషియన్ పని చేస్తారు — మీ పని ముందు, తర్వాత చూసుకోవడం",
+          "பயிற்சி பெற்ற தொழில்நுட்பர் வேலையைச் செய்வார் — உங்கள் வேலை அதற்கு முன்னும் பின்னும் கவனிப்பது",
+          "ತರಬೇತಿ ಪಡೆದ ತಂತ್ರಜ್ಞರು ಕೆಲಸ ಮಾಡುತ್ತಾರೆ — ನಿಮ್ಮ ಕೆಲಸ ಅದಕ್ಕೆ ಮೊದಲು ಮತ್ತು ನಂತರ ಗಮನಿಸುವುದು",
+          "ट्रेंड टेक्नीशियन काम करता है — आपका काम उससे पहले और बाद की देखभाल है"
+        ),
         text: L(
-          "Most farms today get their animals pregnant using Artificial Insemination rather than a bull. A trained technician carries out the procedure itself — but understanding why AI is used, and knowing what to watch for in the weeks afterward, is squarely part of your job."
+          "Most farms today get their animals pregnant using Artificial Insemination rather than a bull. A trained technician carries out the procedure itself — but understanding why AI is used, and knowing what to watch for in the weeks afterward, is squarely part of your job.",
+          "ఈ రోజుల్లో చాలా ఫారాలు ఎద్దు ద్వారా కాకుండా కృత్రిమ గర్భధారణ ద్వారా పశువులకు చూలు కట్టిస్తున్నాయి. ప్రక్రియను శిక్షణ పొందిన టెక్నీషియన్ స్వయంగా చేస్తారు — కానీ AIని ఎందుకు వాడతారో అర్థం చేసుకోవడం, ఆ తర్వాత వారాల్లో ఏమి గమనించాలో తెలుసుకోవడం మీ పనిలో ముఖ్యమైన భాగం.",
+          "இன்று பெரும்பாலான பண்ணைகள் காளைக்குப் பதிலாக செயற்கை முறை கருவூட்டல் மூலம் கால்நடைகளைச் சினையாக்குகின்றன. இந்தச் செயல்முறையைப் பயிற்சி பெற்ற தொழில்நுட்பர் தானே செய்வார் — ஆனால் AI ஏன் பயன்படுத்தப்படுகிறது என்பதைப் புரிந்துகொள்வதும், அதற்குப் பிந்தைய வாரங்களில் எதைக் கவனிக்க வேண்டும் என்பதை அறிவதும் உங்கள் வேலையின் முக்கியப் பகுதி.",
+          "ಇಂದು ಹೆಚ್ಚಿನ ಫಾರಂಗಳು ಹೋರಿಯ ಬದಲು ಕೃತಕ ಗರ್ಭಧಾರಣೆಯ ಮೂಲಕ ಪ್ರಾಣಿಗಳನ್ನು ಗರ್ಭ ಧರಿಸುವಂತೆ ಮಾಡುತ್ತವೆ. ಪ್ರಕ್ರಿಯೆಯನ್ನು ತರಬೇತಿ ಪಡೆದ ತಂತ್ರಜ್ಞರೇ ಮಾಡುತ್ತಾರೆ — ಆದರೆ AI ಏಕೆ ಬಳಸುತ್ತಾರೆ ಎಂಬುದನ್ನು ಅರ್ಥಮಾಡಿಕೊಳ್ಳುವುದು ಮತ್ತು ನಂತರದ ವಾರಗಳಲ್ಲಿ ಏನನ್ನು ಗಮನಿಸಬೇಕು ಎಂದು ತಿಳಿದುಕೊಳ್ಳುವುದು ನಿಮ್ಮ ಕೆಲಸದ ಮುಖ್ಯ ಭಾಗ.",
+          "आजकल ज़्यादातर फार्म सांड की जगह कृत्रिम गर्भाधान से पशुओं को गाभिन कराते हैं। यह काम ट्रेंड टेक्नीशियन खुद करता है — लेकिन AI क्यों इस्तेमाल होता है यह समझना और उसके बाद के हफ्तों में क्या देखना है यह जानना आपके काम का अहम हिस्सा है।"
         ),
       },
     ],
     topics: [
       {
         id: "t-m12-ai-benefits",
-        title: L("Why Artificial Insemination Is Used"),
+        title: L(
+          "Why Artificial Insemination Is Used",
+          "కృత్రిమ గర్భధారణను ఎందుకు వాడతారు",
+          "செயற்கை முறை கருவூட்டல் ஏன் பயன்படுத்தப்படுகிறது",
+          "ಕೃತಕ ಗರ್ಭಧಾರಣೆಯನ್ನು ಏಕೆ ಬಳಸುತ್ತಾರೆ",
+          "कृत्रिम गर्भाधान क्यों किया जाता है"
+        ),
         teach: [
           {
             type: "text",
-            heading: L("From a Distant Bull, Without the Bull Ever Being There"),
+            heading: L(
+              "From a Distant Bull, Without the Bull Ever Being There",
+              "దూరంలో ఉన్న ఎద్దు నుండి, ఎద్దు అక్కడ లేకుండానే",
+              "தொலைவில் உள்ள காளையிடமிருந்து, காளை அங்கே இல்லாமலேயே",
+              "ದೂರದಲ್ಲಿರುವ ಹೋರಿಯಿಂದ, ಹೋರಿ ಅಲ್ಲಿ ಇಲ್ಲದೆಯೇ",
+              "दूर के सांड से, सांड के वहाँ मौजूद हुए बिना ही"
+            ),
             html: L(
-              "<b>Artificial Insemination (AI)</b> uses semen collected in advance from a carefully chosen, disease-free bull with excellent genetics, and stored frozen until needed. A trained technician places this semen into the female at the right time — no bull needs to be present on the farm at all."
+              "<b>Artificial Insemination (AI)</b> uses semen collected in advance from a carefully chosen, disease-free bull with excellent genetics, and stored frozen until needed. A trained technician places this semen into the female at the right time — no bull needs to be present on the farm at all.",
+              "<b>కృత్రిమ గర్భధారణ (AI)</b>లో, మంచి జన్యువులున్న, వ్యాధులు లేని, జాగ్రత్తగా ఎంచుకున్న ఎద్దు వీర్యాన్ని ముందుగానే సేకరించి, అవసరమయ్యే వరకు గడ్డకట్టించి నిల్వ చేస్తారు. శిక్షణ పొందిన టెక్నీషియన్ సరైన సమయంలో ఈ వీర్యాన్ని ఆడ పశువులోకి ప్రవేశపెడతారు — ఫారంలో ఎద్దు అసలు ఉండాల్సిన అవసరమే లేదు.",
+              "<b>செயற்கை முறை கருவூட்டல் (AI)</b> என்பது சிறந்த மரபணுக்கள் கொண்ட, நோயற்ற, கவனமாகத் தேர்ந்தெடுக்கப்பட்ட காளையிடமிருந்து முன்கூட்டியே விந்தைச் சேகரித்து, தேவைப்படும் வரை உறைய வைத்துச் சேமித்து வைப்பது. பயிற்சி பெற்ற தொழில்நுட்பர் சரியான நேரத்தில் இந்த விந்தைப் பெண் கால்நடைக்குள் செலுத்துவார் — பண்ணையில் காளையே இருக்க வேண்டிய அவசியம் இல்லை.",
+              "<b>ಕೃತಕ ಗರ್ಭಧಾರಣೆ (AI)</b>ಯಲ್ಲಿ, ಉತ್ತಮ ಅನುವಂಶಿಕತೆಯುಳ್ಳ, ರೋಗಮುಕ್ತ, ಎಚ್ಚರಿಕೆಯಿಂದ ಆಯ್ಕೆ ಮಾಡಿದ ಹೋರಿಯ ವೀರ್ಯವನ್ನು ಮೊದಲೇ ಸಂಗ್ರಹಿಸಿ, ಬೇಕಾಗುವವರೆಗೆ ಹೆಪ್ಪುಗಟ್ಟಿಸಿ ಇಡುತ್ತಾರೆ. ತರಬೇತಿ ಪಡೆದ ತಂತ್ರಜ್ಞರು ಸರಿಯಾದ ಸಮಯದಲ್ಲಿ ಈ ವೀರ್ಯವನ್ನು ಹೆಣ್ಣು ಪ್ರಾಣಿಯೊಳಗೆ ಸೇರಿಸುತ್ತಾರೆ — ಫಾರಂನಲ್ಲಿ ಹೋರಿ ಇರಬೇಕಾದ ಅಗತ್ಯವೇ ಇಲ್ಲ.",
+              "<b>कृत्रिम गर्भाधान (AI)</b> में अच्छी नस्ल वाले, बीमारी-मुक्त और सावधानी से चुने गए सांड का वीर्य पहले से इकट्ठा करके जमाकर रखा जाता है। ट्रेंड टेक्नीशियन सही समय पर यह वीर्य मादा पशु में डालता है — फार्म पर सांड का होना ज़रूरी ही नहीं है।"
             ),
           },
           {
             type: "glossary",
-            term: L("Artificial Insemination (AI)"),
+            term: L("Artificial Insemination (AI)", "కృత్రిమ గర్భధారణ (AI)", "செயற்கை முறை கருவூட்டல் (AI)", "ಕೃತಕ ಗರ್ಭಧಾರಣೆ (AI)", "कृत्रिम गर्भाधान (AI)"),
             meaning: L(
-              "A method of breeding where semen from a bull is collected, stored, and later placed into a female animal by a trained person, instead of the bull directly mating her."
+              "A method of breeding where semen from a bull is collected, stored, and later placed into a female animal by a trained person, instead of the bull directly mating her.",
+              "ఎద్దు నేరుగా ఆడ పశువుతో కలవడానికి బదులు, ఎద్దు వీర్యాన్ని సేకరించి, నిల్వ చేసి, తర్వాత శిక్షణ పొందిన వ్యక్తి ఆడ పశువులోకి ప్రవేశపెట్టే సంతానోత్పత్తి పద్ధతి.",
+              "காளை நேரடியாகப் பெண் கால்நடையுடன் இணைவதற்குப் பதிலாக, காளையின் விந்தைச் சேகரித்து, சேமித்து, பின்னர் பயிற்சி பெற்றவர் பெண் கால்நடைக்குள் செலுத்தும் இனப்பெருக்க முறை.",
+              "ಹೋರಿ ನೇರವಾಗಿ ಹೆಣ್ಣು ಪ್ರಾಣಿಯೊಂದಿಗೆ ಸಂಯೋಗ ಮಾಡುವ ಬದಲು, ಹೋರಿಯ ವೀರ್ಯವನ್ನು ಸಂಗ್ರಹಿಸಿ, ಇಟ್ಟು, ನಂತರ ತರಬೇತಿ ಪಡೆದ ವ್ಯಕ್ತಿ ಹೆಣ್ಣು ಪ್ರಾಣಿಯೊಳಗೆ ಸೇರಿಸುವ ಸಂತಾನೋತ್ಪತ್ತಿ ವಿಧಾನ.",
+              "प्रजनन का वह तरीका जिसमें सांड सीधे मादा से मिलने की बजाय, उसका वीर्य इकट्ठा करके रखा जाता है और बाद में ट्रेंड व्यक्ति उसे मादा पशु में डालता है।"
             ),
           },
           {
             type: "glossary",
-            term: L("Frozen Semen Dose (FSD)"),
+            term: L(
+              "Frozen Semen Dose (FSD)",
+              "ఫ్రోజెన్ సెమెన్ డోస్ (FSD – గడ్డకట్టిన వీర్యం మోతాదు)",
+              "உறைந்த விந்து மருந்தளவு (FSD)",
+              "ಹೆಪ್ಪುಗಟ್ಟಿದ ವೀರ್ಯ ಡೋಸ್ (FSD)",
+              "फ्रोज़न सीमेन डोज़ (FSD – जमा हुआ वीर्य)"
+            ),
             meaning: L(
-              "A small, carefully stored dose of semen from a chosen bull, frozen so it can be kept and transported, then used to inseminate a female animal later — even long after that bull has died."
+              "A small, carefully stored dose of semen from a chosen bull, frozen so it can be kept and transported, then used to inseminate a female animal later — even long after that bull has died.",
+              "ఎంచుకున్న ఎద్దు వీర్యాన్ని జాగ్రత్తగా నిల్వ చేసిన చిన్న మోతాదు; గడ్డకట్టించి ఉంచడం వల్ల దాన్ని దాచి, రవాణా చేసి, ఆ తర్వాత ఆడ పశువుకు గర్భధారణకు వాడవచ్చు — ఆ ఎద్దు చనిపోయిన చాలా కాలం తర్వాత కూడా.",
+              "தேர்ந்தெடுக்கப்பட்ட காளையின் விந்தைக் கவனமாகச் சேமித்த சிறிய அளவு; உறைய வைத்திருப்பதால் அதைப் பாதுகாத்து, எடுத்துச் சென்று, பின்னர் பெண் கால்நடைக்குக் கருவூட்டப் பயன்படுத்தலாம் — அந்தக் காளை இறந்து நீண்ட காலத்துக்குப் பிறகும் கூட.",
+              "ಆಯ್ಕೆ ಮಾಡಿದ ಹೋರಿಯ ವೀರ್ಯವನ್ನು ಎಚ್ಚರಿಕೆಯಿಂದ ಸಂಗ್ರಹಿಸಿಟ್ಟ ಸಣ್ಣ ಪ್ರಮಾಣ; ಹೆಪ್ಪುಗಟ್ಟಿಸಿರುವುದರಿಂದ ಅದನ್ನು ಇಟ್ಟುಕೊಂಡು, ಸಾಗಿಸಿ, ನಂತರ ಹೆಣ್ಣು ಪ್ರಾಣಿಗೆ ಗರ್ಭಧಾರಣೆಗೆ ಬಳಸಬಹುದು — ಆ ಹೋರಿ ಸತ್ತು ಬಹಳ ಕಾಲದ ನಂತರವೂ.",
+              "चुने हुए सांड के वीर्य की सावधानी से रखी गई छोटी खुराक; जमाकर रखने से इसे संभालकर ले जाया जा सकता है और बाद में मादा पशु को गर्भाधान के लिए इस्तेमाल किया जा सकता है — उस सांड के मर जाने के लंबे समय बाद भी।"
             ),
           },
           {
             type: "stat-grid",
             items: [
               {
-                label: L("Stops Disease Spread"),
-                text: L("Because there is no direct mating, AI prevents the spread of sexually transmitted diseases between animals."),
+                label: L(
+                  "Stops Disease Spread",
+                  "వ్యాధి వ్యాప్తిని ఆపుతుంది",
+                  "நோய் பரவுவதைத் தடுக்கிறது",
+                  "ರೋಗ ಹರಡುವುದನ್ನು ತಡೆಯುತ್ತದೆ",
+                  "बीमारी फैलने से रोकता है"
+                ),
+                text: L(
+                  "Because there is no direct mating, AI prevents the spread of sexually transmitted diseases between animals.",
+                  "నేరుగా సంయోగం ఉండదు కాబట్టి, AI వల్ల పశువుల మధ్య లైంగికంగా సంక్రమించే వ్యాధులు వ్యాపించవు.",
+                  "நேரடி இனச்சேர்க்கை இல்லாததால், AI கால்நடைகளுக்கு இடையே பாலியல் தொடர்பால் பரவும் நோய்கள் பரவுவதைத் தடுக்கிறது.",
+                  "ನೇರ ಸಂಯೋಗ ಇಲ್ಲದಿರುವುದರಿಂದ, AI ಪ್ರಾಣಿಗಳ ನಡುವೆ ಲೈಂಗಿಕವಾಗಿ ಹರಡುವ ರೋಗಗಳು ಹರಡುವುದನ್ನು ತಡೆಯುತ್ತದೆ.",
+                  "सीधा मेल न होने की वजह से AI पशुओं के बीच यौन संपर्क से फैलने वाली बीमारियों को फैलने से रोकता है।"
+                ),
               },
               {
-                label: L("One Bull, Many Cows"),
-                text: L("Semen from a single high-quality bull can be used to inseminate many cows, in many places, over time."),
+                label: L("One Bull, Many Cows", "ఒక ఎద్దు, ఎన్నో ఆవులు", "ஒரு காளை, பல பசுக்கள்", "ಒಂದು ಹೋರಿ, ಅನೇಕ ಹಸುಗಳು", "एक सांड, कई गायें"),
+                text: L(
+                  "Semen from a single high-quality bull can be used to inseminate many cows, in many places, over time.",
+                  "ఒక్క మంచి నాణ్యమైన ఎద్దు వీర్యంతో, ఎన్నో చోట్ల, కాలక్రమేణా ఎన్నో ఆవులకు గర్భధారణ చేయవచ్చు.",
+                  "ஒரே ஒரு உயர்தரக் காளையின் விந்தை பல இடங்களில், காலப்போக்கில் பல பசுக்களுக்குக் கருவூட்டப் பயன்படுத்தலாம்.",
+                  "ಒಂದೇ ಉತ್ತಮ ಗುಣಮಟ್ಟದ ಹೋರಿಯ ವೀರ್ಯವನ್ನು ಅನೇಕ ಸ್ಥಳಗಳಲ್ಲಿ, ಕಾಲಕ್ರಮೇಣ ಅನೇಕ ಹಸುಗಳಿಗೆ ಗರ್ಭಧಾರಣೆಗೆ ಬಳಸಬಹುದು.",
+                  "एक ही उच्च गुणवत्ता वाले सांड के वीर्य से कई जगहों पर, समय के साथ कई गायों का गर्भाधान किया जा सकता है।"
+                ),
               },
               {
-                label: L("Convenient for the Farmer"),
-                text: L("AI can be carried out right at the farmer's doorstep by a technician, saving time and travel."),
+                label: L("Convenient for the Farmer", "రైతుకు సౌకర్యం", "விவசாயிக்கு வசதி", "ರೈತರಿಗೆ ಅನುಕೂಲ", "किसान के लिए सुविधा"),
+                text: L(
+                  "AI can be carried out right at the farmer's doorstep by a technician, saving time and travel.",
+                  "టెక్నీషియన్ రైతు ఇంటి వద్దనే AI చేయగలరు, దీనివల్ల సమయం, ప్రయాణం ఆదా అవుతాయి.",
+                  "தொழில்நுட்பர் விவசாயியின் வீட்டு வாசலிலேயே AI செய்ய முடியும், இதனால் நேரமும் பயணமும் மிச்சமாகும்.",
+                  "ತಂತ್ರಜ್ಞರು ರೈತರ ಮನೆ ಬಾಗಿಲಿನಲ್ಲೇ AI ಮಾಡಬಹುದು, ಇದರಿಂದ ಸಮಯ ಮತ್ತು ಪ್ರಯಾಣ ಉಳಿಯುತ್ತದೆ.",
+                  "टेक्नीशियन किसान के दरवाज़े पर ही AI कर सकता है, जिससे समय और सफर की बचत होती है।"
+                ),
               },
               {
-                label: L("Simple and Affordable"),
-                text: L("AI is easy to arrange and inexpensive, while leading to faster improvement in the breed's milk-producing ability."),
+                label: L("Simple and Affordable", "సులభం, తక్కువ ఖర్చు", "எளிது, குறைந்த செலவு", "ಸರಳ ಮತ್ತು ಕಡಿಮೆ ಖರ್ಚು", "आसान और सस्ता"),
+                text: L(
+                  "AI is easy to arrange and inexpensive, while leading to faster improvement in the breed's milk-producing ability.",
+                  "AI ఏర్పాటు చేయడం సులభం, ఖర్చు తక్కువ; అదే సమయంలో జాతి పాల ఉత్పత్తి సామర్థ్యం వేగంగా మెరుగుపడుతుంది.",
+                  "AI-ஐ ஏற்பாடு செய்வது எளிது, செலவும் குறைவு; அதே நேரத்தில் இனத்தின் பால் உற்பத்தித் திறன் வேகமாக மேம்படுகிறது.",
+                  "AI ವ್ಯವಸ್ಥೆ ಮಾಡುವುದು ಸುಲಭ, ಖರ್ಚು ಕಡಿಮೆ; ಜೊತೆಗೆ ತಳಿಯ ಹಾಲು ಉತ್ಪಾದನಾ ಸಾಮರ್ಥ್ಯ ಬೇಗನೆ ಸುಧಾರಿಸುತ್ತದೆ.",
+                  "AI करवाना आसान और सस्ता है, और इससे नस्ल की दूध देने की क्षमता तेज़ी से सुधरती है।"
+                ),
               },
             ],
           },
           {
             type: "callout",
             style: "tip",
-            heading: L("Who Actually Does It"),
+            heading: L("Who Actually Does It", "వాస్తవంగా ఎవరు చేస్తారు", "உண்மையில் யார் செய்வார்", "ನಿಜವಾಗಿ ಯಾರು ಮಾಡುತ್ತಾರೆ", "असल में यह कौन करता है"),
             text: L(
-              "AI must always be carried out by a trained AI Technician — never by farm staff on their own. Your role is to notice heat in time, inform the technician, and make sure the animal is ready and the date is recorded."
+              "AI must always be carried out by a trained AI Technician — never by farm staff on their own. Your role is to notice heat in time, inform the technician, and make sure the animal is ready and the date is recorded.",
+              "AIని ఎల్లప్పుడూ శిక్షణ పొందిన AI టెక్నీషియనే చేయాలి — ఫారం సిబ్బంది తమంతట తాము ఎప్పుడూ చేయకూడదు. ఎదను సకాలంలో గమనించడం, టెక్నీషియన్‌కు తెలియజేయడం, పశువు సిద్ధంగా ఉందని, తేదీ రాసి ఉందని నిర్ధారించుకోవడం మీ పాత్ర.",
+              "AI-ஐ எப்போதும் பயிற்சி பெற்ற AI தொழில்நுட்பரே செய்ய வேண்டும் — பண்ணைப் பணியாளர்கள் தாங்களாக ஒருபோதும் செய்யக்கூடாது. சினைப்பருவத்தை சரியான நேரத்தில் கவனிப்பது, தொழில்நுட்பருக்குத் தெரிவிப்பது, மாடு தயாராக இருப்பதையும் தேதி பதிவு செய்யப்பட்டிருப்பதையும் உறுதி செய்வது உங்கள் பங்கு.",
+              "AI ಅನ್ನು ಯಾವಾಗಲೂ ತರಬೇತಿ ಪಡೆದ AI ತಂತ್ರಜ್ಞರೇ ಮಾಡಬೇಕು — ಫಾರಂ ಸಿಬ್ಬಂದಿ ತಾವಾಗಿ ಎಂದಿಗೂ ಮಾಡಬಾರದು. ಬೆದೆಯನ್ನು ಸಮಯಕ್ಕೆ ಗಮನಿಸುವುದು, ತಂತ್ರಜ್ಞರಿಗೆ ತಿಳಿಸುವುದು, ಪ್ರಾಣಿ ಸಿದ್ಧವಾಗಿದೆ ಮತ್ತು ದಿನಾಂಕ ದಾಖಲಾಗಿದೆ ಎಂದು ಖಚಿತಪಡಿಸಿಕೊಳ್ಳುವುದು ನಿಮ್ಮ ಪಾತ್ರ.",
+              "AI हमेशा ट्रेंड AI टेक्नीशियन ही करे — फार्म का स्टाफ कभी खुद से न करे। आपकी भूमिका है समय पर गर्मी को पहचानना, टेक्नीशियन को बताना, और यह पक्का करना कि पशु तैयार है और तारीख लिख ली गई है।"
             ),
           },
         ],
         check: [
           {
             type: "mcq",
-            q: L("What is a Frozen Semen Dose (FSD) used for?"),
+            q: L(
+              "What is a Frozen Semen Dose (FSD) used for?",
+              "ఫ్రోజెన్ సెమెన్ డోస్ (FSD)ని దేనికి వాడతారు?",
+              "உறைந்த விந்து மருந்தளவு (FSD) எதற்குப் பயன்படுகிறது?",
+              "ಹೆಪ್ಪುಗಟ್ಟಿದ ವೀರ್ಯ ಡೋಸ್ (FSD) ಅನ್ನು ಯಾವುದಕ್ಕೆ ಬಳಸುತ್ತಾರೆ?",
+              "फ्रोज़न सीमेन डोज़ (FSD) किसलिए इस्तेमाल होती है?"
+            ),
             options: [
-              L("Feeding the calf"),
-              L("Storing a chosen bull's semen so it can be used to inseminate females later, even after the bull has died"),
-              L("Treating a sick animal"),
-              L("Measuring milk yield"),
+              L("Feeding the calf", "దూడకు తినిపించడానికి", "கன்றுக்கு உணவளிக்க", "ಕರುವಿಗೆ ಆಹಾರ ನೀಡಲು", "बछड़े को खिलाने के लिए"),
+              L(
+                "Storing a chosen bull's semen so it can be used to inseminate females later, even after the bull has died",
+                "ఎంచుకున్న ఎద్దు వీర్యాన్ని నిల్వ చేయడానికి, తద్వారా ఆ ఎద్దు చనిపోయిన తర్వాత కూడా ఆడ పశువులకు గర్భధారణ చేయవచ్చు",
+                "தேர்ந்தெடுக்கப்பட்ட காளையின் விந்தைச் சேமித்து வைக்க, அதனால் அந்தக் காளை இறந்த பிறகும் பெண் கால்நடைகளுக்குக் கருவூட்டலாம்",
+                "ಆಯ್ಕೆ ಮಾಡಿದ ಹೋರಿಯ ವೀರ್ಯವನ್ನು ಸಂಗ್ರಹಿಸಿಡಲು, ಇದರಿಂದ ಆ ಹೋರಿ ಸತ್ತ ನಂತರವೂ ಹೆಣ್ಣು ಪ್ರಾಣಿಗಳಿಗೆ ಗರ್ಭಧಾರಣೆ ಮಾಡಬಹುದು",
+                "चुने हुए सांड के वीर्य को रखने के लिए, ताकि सांड के मर जाने के बाद भी मादाओं का गर्भाधान किया जा सके"
+              ),
+              L(
+                "Treating a sick animal",
+                "అనారోగ్యంగా ఉన్న పశువుకు చికిత్స చేయడానికి",
+                "நோயுற்ற மாட்டுக்குச் சிகிச்சை அளிக்க",
+                "ಅನಾರೋಗ್ಯದ ಪ್ರಾಣಿಗೆ ಚಿಕಿತ್ಸೆ ನೀಡಲು",
+                "बीमार पशु का इलाज करने के लिए"
+              ),
+              L("Measuring milk yield", "పాల దిగుబడిని కొలవడానికి", "பால் அளவை அளக்க", "ಹಾಲಿನ ಇಳುವರಿಯನ್ನು ಅಳೆಯಲು", "दूध की मात्रा नापने के लिए"),
             ],
             answer: 1,
-            explain: L("An FSD is stored, frozen semen from a chosen bull, which can be used for AI long after that bull is no longer alive."),
+            explain: L(
+              "An FSD is stored, frozen semen from a chosen bull, which can be used for AI long after that bull is no longer alive.",
+              "FSD అంటే ఎంచుకున్న ఎద్దు నుండి నిల్వ చేసిన, గడ్డకట్టిన వీర్యం; ఆ ఎద్దు బతికి లేకపోయినా చాలా కాలం తర్వాత కూడా దీన్ని AIకి వాడవచ్చు.",
+              "FSD என்பது தேர்ந்தெடுக்கப்பட்ட காளையிலிருந்து சேமிக்கப்பட்ட, உறைந்த விந்து; அந்தக் காளை உயிருடன் இல்லாவிட்டாலும் நீண்ட காலத்துக்குப் பிறகும் இதை AI-க்குப் பயன்படுத்தலாம்.",
+              "FSD ಎಂದರೆ ಆಯ್ಕೆ ಮಾಡಿದ ಹೋರಿಯಿಂದ ಸಂಗ್ರಹಿಸಿಟ್ಟ, ಹೆಪ್ಪುಗಟ್ಟಿದ ವೀರ್ಯ; ಆ ಹೋರಿ ಬದುಕಿಲ್ಲದಿದ್ದರೂ ಬಹಳ ಕಾಲದ ನಂತರವೂ ಇದನ್ನು AI ಗೆ ಬಳಸಬಹುದು.",
+              "FSD चुने हुए सांड का रखा हुआ, जमा हुआ वीर्य है, जिसे वह सांड न रहने के बहुत समय बाद भी AI के लिए इस्तेमाल किया जा सकता है।"
+            ),
           },
           {
             type: "truefalse",
-            q: L("Farm staff can carry out Artificial Insemination themselves once they know the animal is in heat."),
+            q: L(
+              "Farm staff can carry out Artificial Insemination themselves once they know the animal is in heat.",
+              "పశువు ఎదలో ఉందని తెలిసిన తర్వాత ఫారం సిబ్బంది తామే కృత్రిమ గర్భధారణ చేయవచ్చు.",
+              "மாடு சினைப்பருவத்தில் இருக்கிறது என்று தெரிந்த பிறகு பண்ணைப் பணியாளர்கள் தாங்களே செயற்கை முறை கருவூட்டல் செய்யலாம்.",
+              "ಪ್ರಾಣಿ ಬೆದೆಯಲ್ಲಿದೆ ಎಂದು ತಿಳಿದ ನಂತರ ಫಾರಂ ಸಿಬ್ಬಂದಿ ತಾವೇ ಕೃತಕ ಗರ್ಭಧಾರಣೆ ಮಾಡಬಹುದು.",
+              "पशु के गर्मी में होने का पता चलने के बाद फार्म का स्टाफ खुद कृत्रिम गर्भाधान कर सकता है।"
+            ),
             answer: false,
-            explain: L("False — AI must always be carried out by a trained AI Technician. A handler's role is to notice heat and inform the technician."),
+            explain: L(
+              "False — AI must always be carried out by a trained AI Technician. A handler's role is to notice heat and inform the technician.",
+              "తప్పు — AIని ఎల్లప్పుడూ శిక్షణ పొందిన AI టెక్నీషియనే చేయాలి. సంరక్షకుని పాత్ర ఎదను గమనించి టెక్నీషియన్‌కు తెలియజేయడం మాత్రమే.",
+              "தவறு — AI-ஐ எப்போதும் பயிற்சி பெற்ற AI தொழில்நுட்பரே செய்ய வேண்டும். பராமரிப்பாளரின் பங்கு சினைப்பருவத்தைக் கவனித்து தொழில்நுட்பருக்குத் தெரிவிப்பது மட்டுமே.",
+              "ತಪ್ಪು — AI ಅನ್ನು ಯಾವಾಗಲೂ ತರಬೇತಿ ಪಡೆದ AI ತಂತ್ರಜ್ಞರೇ ಮಾಡಬೇಕು. ನೋಡಿಕೊಳ್ಳುವವರ ಪಾತ್ರ ಬೆದೆಯನ್ನು ಗಮನಿಸಿ ತಂತ್ರಜ್ಞರಿಗೆ ತಿಳಿಸುವುದು ಮಾತ್ರ.",
+              "गलत — AI हमेशा ट्रेंड AI टेक्नीशियन ही करे। पशुपालक की भूमिका सिर्फ गर्मी देखना और टेक्नीशियन को बताना है।"
+            ),
           },
         ],
       },
       {
         id: "t-m12-ai-followup",
-        title: L("After AI: What to Watch and When to Call the Vet"),
+        title: L(
+          "After AI: What to Watch and When to Call the Vet",
+          "AI తర్వాత: ఏమి గమనించాలి, వెట్‌ను ఎప్పుడు పిలవాలి",
+          "AI-க்குப் பிறகு: எதைக் கவனிக்க வேண்டும், கால்நடை மருத்துவரை எப்போது அழைக்க வேண்டும்",
+          "AI ನಂತರ: ಏನನ್ನು ಗಮನಿಸಬೇಕು, ಪಶುವೈದ್ಯರನ್ನು ಯಾವಾಗ ಕರೆಯಬೇಕು",
+          "AI के बाद: क्या देखें और डॉक्टर को कब बुलाएँ"
+        ),
         teach: [
           {
             type: "text",
-            heading: L("Two Key Moments After AI"),
+            heading: L(
+              "Two Key Moments After AI",
+              "AI తర్వాత రెండు ముఖ్యమైన సందర్భాలు",
+              "AI-க்குப் பிறகு இரண்டு முக்கியமான தருணங்கள்",
+              "AI ನಂತರದ ಎರಡು ಮುಖ್ಯ ಘಟ್ಟಗಳು",
+              "AI के बाद के दो अहम मौके"
+            ),
             html: L(
-              "AI does not guarantee pregnancy on the first try. After AI is carried out, there are two important points in time when the animal needs to be checked — and both depend on someone noticing and speaking up."
+              "AI does not guarantee pregnancy on the first try. After AI is carried out, there are two important points in time when the animal needs to be checked — and both depend on someone noticing and speaking up.",
+              "AI చేసిన మొదటిసారే చూలు కడుతుందన్న హామీ లేదు. AI అయిన తర్వాత, పశువును పరీక్షించాల్సిన రెండు ముఖ్యమైన సమయాలున్నాయి — రెండూ ఎవరో ఒకరు గమనించి చెప్పడంపైనే ఆధారపడతాయి.",
+              "AI செய்த முதல் முறையிலேயே சினையாகும் என்பதற்கு உத்தரவாதம் இல்லை. AI செய்த பிறகு, மாட்டைப் பரிசோதிக்க வேண்டிய இரண்டு முக்கியமான நேரங்கள் உள்ளன — இரண்டுமே யாரோ ஒருவர் கவனித்துச் சொல்வதைப் பொறுத்தவை.",
+              "AI ಮಾಡಿದ ಮೊದಲ ಪ್ರಯತ್ನದಲ್ಲೇ ಗರ್ಭ ಧರಿಸುತ್ತದೆ ಎಂಬ ಖಾತರಿ ಇಲ್ಲ. AI ಮಾಡಿದ ನಂತರ, ಪ್ರಾಣಿಯನ್ನು ಪರೀಕ್ಷಿಸಬೇಕಾದ ಎರಡು ಮುಖ್ಯ ಸಮಯಗಳಿವೆ — ಎರಡೂ ಯಾರಾದರೂ ಗಮನಿಸಿ ತಿಳಿಸುವುದರ ಮೇಲೆ ಅವಲಂಬಿತ.",
+              "AI कराने से पहली बार में ही गाभिन हो जाने की कोई गारंटी नहीं होती। AI के बाद दो अहम मौके आते हैं जब पशु की जाँच करनी चाहिए — और दोनों इस पर निर्भर हैं कि कोई ध्यान से देखे और बताए।"
             ),
           },
           {
             type: "timeline",
-            heading: L("Timeline After Insemination"),
+            heading: L(
+              "Timeline After Insemination",
+              "గర్భధారణ తర్వాత కాలరేఖ",
+              "கருவூட்டலுக்குப் பிந்தைய கால வரிசை",
+              "ಗರ್ಭಧಾರಣೆಯ ನಂತರದ ಕಾಲರೇಖೆ",
+              "गर्भाधान के बाद की समय-रेखा"
+            ),
             items: [
-              { year: L("Day 0"), text: L("AI is carried out by the trained technician during the correct heat window.") },
+              { year: L("Day 0", "0వ రోజు", "நாள் 0", "ದಿನ 0", "दिन 0"), text: L(
+                "AI is carried out by the trained technician during the correct heat window.",
+                "సరైన ఎద సమయంలో శిక్షణ పొందిన టెక్నీషియన్ AI చేస్తారు.",
+                "சரியான சினைப்பருவ நேரத்தில் பயிற்சி பெற்ற தொழில்நுட்பர் AI செய்வார்.",
+                "ಸರಿಯಾದ ಬೆದೆಯ ಸಮಯದಲ್ಲಿ ತರಬೇತಿ ಪಡೆದ ತಂತ್ರಜ್ಞರು AI ಮಾಡುತ್ತಾರೆ.",
+                "सही गर्मी के समय पर ट्रेंड टेक्नीशियन AI करता है।"
+              ) },
               {
-                year: L("Around Day 21"),
-                text: L("Watch closely for signs of heat returning. If she comes back into heat, she most likely did not conceive."),
+                year: L("Around Day 21", "సుమారు 21వ రోజు", "சுமார் நாள் 21", "ಸುಮಾರು ದಿನ 21", "लगभग दिन 21"),
+                text: L(
+                  "Watch closely for signs of heat returning. If she comes back into heat, she most likely did not conceive.",
+                  "ఎద మళ్లీ వస్తున్న సంకేతాల కోసం జాగ్రత్తగా గమనించండి. మళ్లీ ఎదకు వస్తే, చూలు కట్టలేదని అర్థం.",
+                  "சினைப்பருவம் மீண்டும் வருவதற்கான அறிகுறிகளை உன்னிப்பாகக் கவனியுங்கள். மீண்டும் சினைப்பருவத்துக்கு வந்தால், பெரும்பாலும் சினையாகவில்லை என்று அர்த்தம்.",
+                  "ಬೆದೆ ಮತ್ತೆ ಬರುವ ಲಕ್ಷಣಗಳಿಗಾಗಿ ಎಚ್ಚರಿಕೆಯಿಂದ ಗಮನಿಸಿ. ಮತ್ತೆ ಬೆದೆಗೆ ಬಂದರೆ, ಹೆಚ್ಚಾಗಿ ಗರ್ಭ ಧರಿಸಿಲ್ಲ ಎಂದರ್ಥ.",
+                  "गर्मी के दोबारा लौटने के निशान ध्यान से देखें। अगर वह फिर गर्मी में आ जाए, तो बहुत संभव है कि वह गाभिन नहीं हुई।"
+                ),
               },
-              { year: L("Around Day 60"), text: L("The animal should be examined for pregnancy.") },
+              { year: L("Around Day 60", "సుమారు 60వ రోజు", "சுமார் நாள் 60", "ಸುಮಾರು ದಿನ 60", "लगभग दिन 60"), text: L(
+                "The animal should be examined for pregnancy.",
+                "పశువుకు చూలు పరీక్ష చేయించాలి.",
+                "மாட்டுக்குச் சினைப் பரிசோதனை செய்ய வேண்டும்.",
+                "ಪ್ರಾಣಿಯನ್ನು ಗರ್ಭ ಪರೀಕ್ಷೆಗೆ ಒಳಪಡಿಸಬೇಕು.",
+                "पशु की गाभिन होने की जाँच करानी चाहिए।"
+              ) },
             ],
             result: L(
-              "If the animal does not conceive even after three inseminations, this should be reported so a veterinarian can look into the reason — repeated inseminations without success can even damage the reproductive organs if not investigated."
+              "If the animal does not conceive even after three inseminations, this should be reported so a veterinarian can look into the reason — repeated inseminations without success can even damage the reproductive organs if not investigated.",
+              "మూడుసార్లు గర్భధారణ చేసినా పశువు చూలు కట్టకపోతే, దీన్ని తెలియజేయాలి, తద్వారా పశువైద్యుడు కారణాన్ని పరిశీలించగలరు — విజయం లేకుండా పదే పదే గర్భధారణ చేస్తూ ఉంటే, పరిశీలించకపోతే ప్రత్యుత్పత్తి అవయవాలకు హాని కూడా కలగవచ్చు.",
+              "மூன்று முறை கருவூட்டல் செய்த பிறகும் மாடு சினையாகவில்லை என்றால், இதைத் தெரிவிக்க வேண்டும், அப்போது கால்நடை மருத்துவர் காரணத்தை ஆராய முடியும் — வெற்றி இல்லாமல் மீண்டும் மீண்டும் கருவூட்டல் செய்தால், ஆராயாவிட்டால் இனப்பெருக்க உறுப்புகள் சேதமடையவும் கூடும்.",
+              "ಮೂರು ಬಾರಿ ಗರ್ಭಧಾರಣೆ ಮಾಡಿದರೂ ಪ್ರಾಣಿ ಗರ್ಭ ಧರಿಸದಿದ್ದರೆ, ಇದನ್ನು ತಿಳಿಸಬೇಕು, ಆಗ ಪಶುವೈದ್ಯರು ಕಾರಣವನ್ನು ಪರಿಶೀಲಿಸಬಹುದು — ಯಶಸ್ಸಿಲ್ಲದೆ ಪದೇ ಪದೇ ಗರ್ಭಧಾರಣೆ ಮಾಡುತ್ತಿದ್ದರೆ, ಪರೀಕ್ಷಿಸದಿದ್ದರೆ ಸಂತಾನೋತ್ಪತ್ತಿ ಅಂಗಗಳಿಗೆ ಹಾನಿಯೂ ಆಗಬಹುದು.",
+              "अगर पशु तीन बार गर्भाधान कराने के बाद भी गाभिन नहीं होता, तो यह बताना चाहिए ताकि पशु चिकित्सक कारण की जाँच कर सके — बिना जाँच के बार-बार असफल गर्भाधान कराने से प्रजनन अंगों को नुकसान भी पहुँच सकता है।"
             ),
           },
           {
             type: "callout",
             style: "warning",
-            heading: L("Three Failed Tries Is a Signal, Not Just Bad Luck"),
+            heading: L(
+              "Three Failed Tries Is a Signal, Not Just Bad Luck",
+              "మూడు సార్లు విఫలం కావడం సంకేతం, కేవలం దురదృష్టం కాదు",
+              "மூன்று முறை தோல்வி என்பது ஓர் அறிகுறி, வெறும் துரதிர்ஷ்டம் அல்ல",
+              "ಮೂರು ಬಾರಿ ವಿಫಲವಾಗುವುದು ಒಂದು ಸೂಚನೆ, ಕೇವಲ ದುರದೃಷ್ಟವಲ್ಲ",
+              "तीन बार असफल होना एक संकेत है, सिर्फ बुरी किस्मत नहीं"
+            ),
             text: L(
-              "Failing to conceive after three separate inseminations is not something to simply keep repeating. It needs to be reported so a veterinarian can find out why."
+              "Failing to conceive after three separate inseminations is not something to simply keep repeating. It needs to be reported so a veterinarian can find out why.",
+              "మూడు వేర్వేరు గర్భధారణల తర్వాత కూడా చూలు కట్టకపోతే, దాన్ని అలాగే పదే పదే చేయకూడదు. పశువైద్యుడు కారణం కనుగొనేలా దీన్ని తెలియజేయాలి.",
+              "மூன்று தனித்தனி கருவூட்டல்களுக்குப் பிறகும் சினையாகவில்லை என்றால், அதையே திரும்பத் திரும்பச் செய்யக்கூடாது. கால்நடை மருத்துவர் காரணத்தைக் கண்டறிய இதைத் தெரிவிக்க வேண்டும்.",
+              "ಮೂರು ಪ್ರತ್ಯೇಕ ಗರ್ಭಧಾರಣೆಗಳ ನಂತರವೂ ಗರ್ಭ ಧರಿಸದಿದ್ದರೆ, ಅದನ್ನೇ ಪದೇ ಪದೇ ಮಾಡುತ್ತಿರಬಾರದು. ಪಶುವೈದ್ಯರು ಕಾರಣ ಕಂಡುಹಿಡಿಯುವಂತೆ ಇದನ್ನು ತಿಳಿಸಬೇಕು.",
+              "तीन अलग-अलग गर्भाधान के बाद भी गाभिन न होने पर उसे बस दोहराते नहीं रहना चाहिए। इसकी सूचना दी जानी चाहिए ताकि पशु चिकित्सक कारण पता कर सके।"
             ),
           },
           {
             type: "glossary",
-            term: L("Conceive"),
-            meaning: L("To become pregnant."),
+            term: L("Conceive", "చూలు కట్టడం", "சினையாதல்", "ಗರ್ಭ ಧರಿಸುವುದು", "गाभिन होना"),
+            meaning: L("To become pregnant.", "గర్భవతి కావడం.", "கருவுறுதல்.", "ಗರ್ಭಿಣಿಯಾಗುವುದು.", "गर्भवती होना।"),
           },
           {
             type: "example",
-            heading: L("Watching Closely for 'Silent Heat'"),
+            heading: L(
+              "Watching Closely for 'Silent Heat'",
+              "'సైలెంట్ హీట్' కోసం జాగ్రత్తగా గమనించడం",
+              "'அமைதி சினைப்பருவம்' (சைலண்ட் ஹீட்) — உன்னிப்பாகக் கவனித்தல்",
+              "'ಮೌನ ಬೆದೆ' (ಸೈಲೆಂಟ್ ಹೀಟ್) ಗಾಗಿ ಎಚ್ಚರಿಕೆಯಿಂದ ಗಮನಿಸುವುದು",
+              "'साइलेंट हीट' (चुपचाप गर्मी) पर बारीकी से नज़र रखना"
+            ),
             text: L(
-              "Sometimes an animal is actually in heat but shows almost no visible signs at all — this is especially common in buffaloes. Because of this, close, regular observation of the whole herd matters, not just a quick glance now and then."
+              "Sometimes an animal is actually in heat but shows almost no visible signs at all — this is especially common in buffaloes. Because of this, close, regular observation of the whole herd matters, not just a quick glance now and then.",
+              "కొన్నిసార్లు పశువు నిజంగా ఎదలో ఉంటుంది కానీ కనిపించే సంకేతాలు దాదాపు ఏవీ చూపదు — ఇది ముఖ్యంగా గేదెలలో ఎక్కువ. అందుకే మందనంతా ఒకసారి ఏదో చూసి వదిలేయకుండా, దగ్గరగా, క్రమం తప్పకుండా గమనించడం ముఖ్యం.",
+              "சில நேரங்களில் மாடு உண்மையில் சினைப்பருவத்தில் இருக்கும், ஆனால் கண்ணுக்குத் தெரியும் அறிகுறிகளை கிட்டத்தட்ட எதுவும் காட்டாது — இது குறிப்பாக எருமைகளில் அதிகம். அதனால், அவ்வப்போது ஒரு பார்வை பார்த்துவிட்டுப் போவது மட்டும் போதாது, மந்தை முழுவதையும் நெருக்கமாக, தொடர்ந்து கவனிப்பது முக்கியம்.",
+              "ಕೆಲವೊಮ್ಮೆ ಪ್ರಾಣಿ ನಿಜವಾಗಿ ಬೆದೆಯಲ್ಲಿರುತ್ತದೆ ಆದರೆ ಕಾಣುವ ಲಕ್ಷಣಗಳನ್ನು ಬಹುತೇಕ ತೋರಿಸುವುದೇ ಇಲ್ಲ — ಇದು ವಿಶೇಷವಾಗಿ ಎಮ್ಮೆಗಳಲ್ಲಿ ಹೆಚ್ಚು. ಆದ್ದರಿಂದ ಆಗಾಗ ಒಂದು ನೋಟ ಹಾಯಿಸಿ ಬಿಡುವುದಲ್ಲ, ಇಡೀ ಹಿಂಡನ್ನು ಹತ್ತಿರದಿಂದ, ನಿಯಮಿತವಾಗಿ ಗಮನಿಸುವುದು ಮುಖ್ಯ.",
+              "कभी-कभी पशु असल में गर्मी में होता है पर लगभग कोई साफ़ निशान नहीं दिखाता — यह खासकर भैंसों में ज़्यादा होता है। इसलिए पूरे झुंड को नज़दीक से और नियमित रूप से देखना ज़रूरी है, सिर्फ कभी-कभार एक नज़र डाल लेना काफी नहीं।"
             ),
           },
           {
             type: "callout",
             style: "tip",
-            heading: L("Your Job: Keep Watching, Keep Reporting"),
+            heading: L(
+              "Your Job: Keep Watching, Keep Reporting",
+              "మీ పని: గమనిస్తూ ఉండండి, తెలియజేస్తూ ఉండండి",
+              "உங்கள் வேலை: தொடர்ந்து கவனியுங்கள், தொடர்ந்து தெரிவியுங்கள்",
+              "ನಿಮ್ಮ ಕೆಲಸ: ಗಮನಿಸುತ್ತಿರಿ, ತಿಳಿಸುತ್ತಿರಿ",
+              "आपका काम: देखते रहें, बताते रहें"
+            ),
             text: L(
-              "Whether or not an animal returns to heat around day 21, or fails to show a pregnancy at day 60, is exactly the kind of thing to note down and pass on. Decisions about repeat AI or further treatment are always for the vet or breeding staff to make."
+              "Whether or not an animal returns to heat around day 21, or fails to show a pregnancy at day 60, is exactly the kind of thing to note down and pass on. Decisions about repeat AI or further treatment are always for the vet or breeding staff to make.",
+              "21వ రోజు దాటిన తర్వాత పశువు మళ్లీ ఎదకు వచ్చినా, రాకపోయినా, లేదా 60వ రోజున చూలు కనిపించకపోయినా — ఇవన్నీ రాసిపెట్టి తెలియజేయాల్సిన విషయాలే. మళ్లీ AI చేయాలా, ఇంకా చికిత్స కావాలా అనే నిర్ణయాలు ఎప్పుడూ వెట్ లేదా సంతానోత్పత్తి సిబ్బందివే.",
+              "21-ஆம் நாளைச் சுற்றி மாடு மீண்டும் சினைப்பருவத்துக்கு வருகிறதா இல்லையா, அல்லது 60-ஆம் நாளில் சினை தெரியவில்லையா என்பது நிச்சயமாகக் குறித்து வைத்துத் தெரிவிக்க வேண்டிய விஷயம். மீண்டும் AI செய்வதா, மேலும் சிகிச்சை தேவையா என்ற முடிவுகள் எப்போதும் கால்நடை மருத்துவர் அல்லது இனப்பெருக்கப் பணியாளர்களுடையவை.",
+              "21ನೇ ದಿನದ ಸುಮಾರಿಗೆ ಪ್ರಾಣಿ ಮತ್ತೆ ಬೆದೆಗೆ ಬರುತ್ತದೆಯೇ ಇಲ್ಲವೇ, ಅಥವಾ 60ನೇ ದಿನದಲ್ಲಿ ಗರ್ಭ ಕಾಣಿಸುತ್ತಿಲ್ಲವೇ ಎಂಬುದು ಬರೆದಿಟ್ಟು ತಿಳಿಸಬೇಕಾದ ವಿಷಯವೇ. ಮತ್ತೆ AI ಮಾಡಬೇಕೇ, ಹೆಚ್ಚಿನ ಚಿಕಿತ್ಸೆ ಬೇಕೇ ಎಂಬ ನಿರ್ಧಾರಗಳು ಯಾವಾಗಲೂ ಪಶುವೈದ್ಯರು ಅಥವಾ ಸಂತಾನೋತ್ಪತ್ತಿ ಸಿಬ್ಬಂದಿಯವು.",
+              "21वें दिन के आसपास पशु फिर गर्मी में आता है या नहीं, या 60वें दिन गाभिन होने का पता नहीं चलता, यह ठीक वही बात है जिसे लिखकर आगे बताना चाहिए। दोबारा AI कराना है या और इलाज करना है, इसका फैसला हमेशा डॉक्टर या प्रजनन स्टाफ का होता है।"
             ),
           },
         ],
         check: [
           {
             type: "mcq",
-            q: L("Around how many days after AI should the animal be examined for pregnancy?"),
-            options: [L("60 days"), L("3 days"), L("1 year"), L("Immediately after AI")],
+            q: L(
+              "Around how many days after AI should the animal be examined for pregnancy?",
+              "AI చేసిన సుమారు ఎన్ని రోజుల తర్వాత పశువుకు చూలు పరీక్ష చేయించాలి?",
+              "AI செய்த சுமார் எத்தனை நாட்களுக்குப் பிறகு மாட்டுக்குச் சினைப் பரிசோதனை செய்ய வேண்டும்?",
+              "AI ಮಾಡಿದ ಸುಮಾರು ಎಷ್ಟು ದಿನಗಳ ನಂತರ ಪ್ರಾಣಿಯನ್ನು ಗರ್ಭ ಪರೀಕ್ಷೆಗೆ ಒಳಪಡಿಸಬೇಕು?",
+              "AI के करीब कितने दिन बाद पशु की गाभिन होने की जाँच करानी चाहिए?"
+            ),
+            options: [L("60 days", "60 రోజులు", "60 நாட்கள்", "60 ದಿನಗಳು", "60 दिन"), L("3 days", "3 రోజులు", "3 நாட்கள்", "3 ದಿನಗಳು", "3 दिन"), L("1 year", "1 సంవత్సరం", "1 வருடம்", "1 ವರ್ಷ", "1 साल"), L("Immediately after AI", "AI అయిన వెంటనే", "AI செய்த உடனேயே", "AI ಆದ ತಕ್ಷಣ", "AI के तुरंत बाद")],
             answer: 0,
-            explain: L("The animal should be examined for pregnancy around 60 days after AI."),
+            explain: L(
+              "The animal should be examined for pregnancy around 60 days after AI.",
+              "AI చేసిన సుమారు 60 రోజుల తర్వాత పశువుకు చూలు పరీక్ష చేయించాలి.",
+              "AI செய்த சுமார் 60 நாட்களுக்குப் பிறகு மாட்டுக்குச் சினைப் பரிசோதனை செய்ய வேண்டும்.",
+              "AI ಮಾಡಿದ ಸುಮಾರು 60 ದಿನಗಳ ನಂತರ ಪ್ರಾಣಿಯನ್ನು ಗರ್ಭ ಪರೀಕ್ಷೆಗೆ ಒಳಪಡಿಸಬೇಕು.",
+              "AI के करीब 60 दिन बाद पशु की गाभिन होने की जाँच करानी चाहिए।"
+            ),
           },
           {
             type: "truefalse",
-            q: L("If an animal fails to conceive after three inseminations, it should simply be inseminated a fourth time without telling anyone."),
+            q: L(
+              "If an animal fails to conceive after three inseminations, it should simply be inseminated a fourth time without telling anyone.",
+              "మూడు గర్భధారణల తర్వాత కూడా పశువు చూలు కట్టకపోతే, ఎవరికీ చెప్పకుండా నాలుగోసారి గర్భధారణ చేసేయాలి.",
+              "மூன்று கருவூட்டல்களுக்குப் பிறகும் மாடு சினையாகவில்லை என்றால், யாரிடமும் சொல்லாமல் நான்காவது முறை கருவூட்டல் செய்துவிட வேண்டும்.",
+              "ಮೂರು ಗರ್ಭಧಾರಣೆಗಳ ನಂತರವೂ ಪ್ರಾಣಿ ಗರ್ಭ ಧರಿಸದಿದ್ದರೆ, ಯಾರಿಗೂ ಹೇಳದೆ ನಾಲ್ಕನೇ ಬಾರಿ ಗರ್ಭಧಾರಣೆ ಮಾಡಿಬಿಡಬೇಕು.",
+              "अगर पशु तीन गर्भाधान के बाद भी गाभिन नहीं होता, तो किसी को बताए बिना चौथी बार गर्भाधान करा देना चाहिए।"
+            ),
             answer: false,
-            explain: L("False — three failed inseminations should be reported to a veterinarian to find out the underlying reason, rather than just repeating AI."),
+            explain: L(
+              "False — three failed inseminations should be reported to a veterinarian to find out the underlying reason, rather than just repeating AI.",
+              "తప్పు — మూడు గర్భధారణలు విఫలమైతే, అసలు కారణం తెలుసుకోవడానికి పశువైద్యునికి తెలియజేయాలి, అంతేగానీ AIని పదే పదే చేస్తూ ఉండకూడదు.",
+              "தவறு — மூன்று கருவூட்டல்கள் தோல்வியடைந்தால், அடிப்படைக் காரணத்தைக் கண்டறிய கால்நடை மருத்துவரிடம் தெரிவிக்க வேண்டும், AI-ஐ மீண்டும் மீண்டும் செய்துகொண்டே இருக்கக்கூடாது.",
+              "ತಪ್ಪು — ಮೂರು ಗರ್ಭಧಾರಣೆಗಳು ವಿಫಲವಾದರೆ, ಮೂಲ ಕಾರಣ ತಿಳಿಯಲು ಪಶುವೈದ್ಯರಿಗೆ ತಿಳಿಸಬೇಕು, ಕೇವಲ AI ಪುನರಾವರ್ತಿಸುತ್ತಿರಬಾರದು.",
+              "गलत — तीन गर्भाधान असफल होने पर असली कारण पता करने के लिए पशु चिकित्सक को बताना चाहिए, सिर्फ AI दोहराते नहीं रहना चाहिए।"
+            ),
           },
         ],
       },
@@ -10506,56 +11060,187 @@ export const MODULES = [
         {
           topicId: "t-m12-ai-benefits",
           type: "mcq",
-          q: L("Which of these is a genuine advantage of Artificial Insemination (AI)?"),
+          q: L(
+            "Which of these is a genuine advantage of Artificial Insemination (AI)?",
+            "కృత్రిమ గర్భధారణ (AI) యొక్క నిజమైన ప్రయోజనం ఇందులో ఏది?",
+            "செயற்கை முறை கருவூட்டலின் (AI) உண்மையான நன்மை இவற்றில் எது?",
+            "ಕೃತಕ ಗರ್ಭಧಾರಣೆಯ (AI) ನಿಜವಾದ ಪ್ರಯೋಜನ ಇವುಗಳಲ್ಲಿ ಯಾವುದು?",
+            "इनमें से कृत्रिम गर्भाधान (AI) का असली फायदा कौन सा है?"
+          ),
           options: [
-            L("It spreads diseases faster between animals"),
-            L("It prevents the spread of sexually transmitted diseases between animals"),
-            L("It can only be used once per bull, ever"),
-            L("It requires the bull to be physically present every time"),
+            L(
+              "It spreads diseases faster between animals",
+              "ఇది పశువుల మధ్య వ్యాధులను వేగంగా వ్యాపింపజేస్తుంది",
+              "இது கால்நடைகளுக்கு இடையே நோய்களை வேகமாகப் பரப்புகிறது",
+              "ಇದು ಪ್ರಾಣಿಗಳ ನಡುವೆ ರೋಗಗಳನ್ನು ವೇಗವಾಗಿ ಹರಡುತ್ತದೆ",
+              "यह पशुओं के बीच बीमारियाँ तेज़ी से फैलाता है"
+            ),
+            L(
+              "It prevents the spread of sexually transmitted diseases between animals",
+              "ఇది పశువుల మధ్య లైంగికంగా సంక్రమించే వ్యాధులు వ్యాపించకుండా అడ్డుకుంటుంది",
+              "இது கால்நடைகளுக்கு இடையே பாலியல் தொடர்பால் பரவும் நோய்கள் பரவுவதைத் தடுக்கிறது",
+              "ಇದು ಪ್ರಾಣಿಗಳ ನಡುವೆ ಲೈಂಗಿಕವಾಗಿ ಹರಡುವ ರೋಗಗಳು ಹರಡುವುದನ್ನು ತಡೆಯುತ್ತದೆ",
+              "यह पशुओं के बीच यौन संपर्क से फैलने वाली बीमारियों को फैलने से रोकता है"
+            ),
+            L(
+              "It can only be used once per bull, ever",
+              "ఒక ఎద్దును జీవితంలో ఒక్కసారి మాత్రమే వాడవచ్చు",
+              "ஒரு காளையை வாழ்நாளில் ஒரு முறை மட்டுமே பயன்படுத்த முடியும்",
+              "ಒಂದು ಹೋರಿಯನ್ನು ಜೀವಮಾನದಲ್ಲಿ ಒಂದೇ ಬಾರಿ ಮಾತ್ರ ಬಳಸಬಹುದು",
+              "एक सांड का इस्तेमाल पूरी ज़िंदगी में सिर्फ एक बार हो सकता है"
+            ),
+            L(
+              "It requires the bull to be physically present every time",
+              "ప్రతిసారి ఎద్దు స్వయంగా అక్కడ ఉండాలి",
+              "ஒவ்வொரு முறையும் காளை நேரில் இருக்க வேண்டும்",
+              "ಪ್ರತಿ ಬಾರಿ ಹೋರಿ ಸ್ವತಃ ಅಲ್ಲಿ ಇರಬೇಕು",
+              "हर बार सांड का खुद वहाँ मौजूद होना ज़रूरी है"
+            ),
           ],
           answer: 1,
-          explain: L("Because there is no direct mating involved, AI helps prevent the spread of sexually transmitted diseases between animals."),
+          explain: L(
+            "Because there is no direct mating involved, AI helps prevent the spread of sexually transmitted diseases between animals.",
+            "నేరుగా సంయోగం ఉండదు కాబట్టి, AI పశువుల మధ్య లైంగికంగా సంక్రమించే వ్యాధులు వ్యాపించకుండా సహాయపడుతుంది.",
+            "நேரடி இனச்சேர்க்கை இல்லாததால், AI கால்நடைகளுக்கு இடையே பாலியல் தொடர்பால் பரவும் நோய்கள் பரவாமல் தடுக்க உதவுகிறது.",
+            "ನೇರ ಸಂಯೋಗ ಇಲ್ಲದಿರುವುದರಿಂದ, AI ಪ್ರಾಣಿಗಳ ನಡುವೆ ಲೈಂಗಿಕವಾಗಿ ಹರಡುವ ರೋಗಗಳು ಹರಡದಂತೆ ತಡೆಯಲು ಸಹಾಯ ಮಾಡುತ್ತದೆ.",
+            "सीधा मेल न होने की वजह से AI पशुओं के बीच यौन संपर्क से फैलने वाली बीमारियों को रोकने में मदद करता है।"
+          ),
         },
         {
           topicId: "t-m12-ai-benefits",
           type: "truefalse",
-          q: L("AI must be carried out only by a trained AI Technician, never by farm staff on their own."),
+          q: L(
+            "AI must be carried out only by a trained AI Technician, never by farm staff on their own.",
+            "AIని శిక్షణ పొందిన AI టెక్నీషియన్ మాత్రమే చేయాలి, ఫారం సిబ్బంది తమంతట తాము ఎప్పుడూ చేయకూడదు.",
+            "AI-ஐ பயிற்சி பெற்ற AI தொழில்நுட்பர் மட்டுமே செய்ய வேண்டும், பண்ணைப் பணியாளர்கள் தாங்களாக ஒருபோதும் செய்யக்கூடாது.",
+            "AI ಅನ್ನು ತರಬೇತಿ ಪಡೆದ AI ತಂತ್ರಜ್ಞರು ಮಾತ್ರ ಮಾಡಬೇಕು, ಫಾರಂ ಸಿಬ್ಬಂದಿ ತಾವಾಗಿ ಎಂದಿಗೂ ಮಾಡಬಾರದು.",
+            "AI सिर्फ ट्रेंड AI टेक्नीशियन ही करे, फार्म का स्टाफ कभी खुद से न करे।"
+          ),
           answer: true,
-          explain: L("Correct — AI is always performed by a trained technician. Farm staff notice heat and report it, but do not perform AI themselves."),
+          explain: L(
+            "Correct — AI is always performed by a trained technician. Farm staff notice heat and report it, but do not perform AI themselves.",
+            "సరైనది — AIని ఎల్లప్పుడూ శిక్షణ పొందిన టెక్నీషియనే చేస్తారు. ఫారం సిబ్బంది ఎదను గమనించి తెలియజేస్తారు, కానీ AI స్వయంగా చేయరు.",
+            "சரிதான் — AI-ஐ எப்போதும் பயிற்சி பெற்ற தொழில்நுட்பரே செய்கிறார். பண்ணைப் பணியாளர்கள் சினைப்பருவத்தைக் கவனித்துத் தெரிவிப்பார்கள், ஆனால் AI-ஐத் தாங்களே செய்ய மாட்டார்கள்.",
+            "ಸರಿ — AI ಅನ್ನು ಯಾವಾಗಲೂ ತರಬೇತಿ ಪಡೆದ ತಂತ್ರಜ್ಞರೇ ಮಾಡುತ್ತಾರೆ. ಫಾರಂ ಸಿಬ್ಬಂದಿ ಬೆದೆಯನ್ನು ಗಮನಿಸಿ ತಿಳಿಸುತ್ತಾರೆ, ಆದರೆ ತಾವೇ AI ಮಾಡುವುದಿಲ್ಲ.",
+            "सही — AI हमेशा ट्रेंड टेक्नीशियन ही करता है। फार्म का स्टाफ गर्मी देखकर बताता है, खुद AI नहीं करता।"
+          ),
         },
         {
           topicId: "t-m12-ai-followup",
           type: "mcq",
-          q: L("What should you watch for around 21 days after AI?"),
+          q: L(
+            "What should you watch for around 21 days after AI?",
+            "AI చేసిన సుమారు 21 రోజుల తర్వాత మీరు ఏమి గమనించాలి?",
+            "AI செய்த சுமார் 21 நாட்களுக்குப் பிறகு நீங்கள் எதைக் கவனிக்க வேண்டும்?",
+            "AI ಮಾಡಿದ ಸುಮಾರು 21 ದಿನಗಳ ನಂತರ ನೀವು ಏನನ್ನು ಗಮನಿಸಬೇಕು?",
+            "AI के करीब 21 दिन बाद आपको क्या देखना चाहिए?"
+          ),
           options: [
-            L("Whether the animal comes back into heat, which would suggest she did not conceive"),
-            L("Whether the calf has been born"),
-            L("Whether the animal's coat colour has changed"),
-            L("Nothing — no check is needed at 21 days"),
+            L(
+              "Whether the animal comes back into heat, which would suggest she did not conceive",
+              "పశువు మళ్లీ ఎదకు వస్తుందా, వస్తే అది చూలు కట్టలేదని సూచిస్తుంది",
+              "மாடு மீண்டும் சினைப்பருவத்துக்கு வருகிறதா என்பது, வந்தால் அது சினையாகவில்லை என்பதைக் காட்டும்",
+              "ಪ್ರಾಣಿ ಮತ್ತೆ ಬೆದೆಗೆ ಬರುತ್ತದೆಯೇ, ಬಂದರೆ ಅದು ಗರ್ಭ ಧರಿಸಿಲ್ಲ ಎಂಬುದನ್ನು ಸೂಚಿಸುತ್ತದೆ",
+              "पशु फिर से गर्मी में आता है या नहीं, अगर आए तो इसका मतलब वह गाभिन नहीं हुआ"
+            ),
+            L(
+              "Whether the calf has been born",
+              "దూడ పుట్టిందా లేదా అని",
+              "கன்று பிறந்துவிட்டதா என்பது",
+              "ಕರು ಹುಟ್ಟಿದೆಯೇ ಎಂದು",
+              "बछड़ा पैदा हुआ या नहीं"
+            ),
+            L(
+              "Whether the animal's coat colour has changed",
+              "పశువు చర్మ రంగు మారిందా అని",
+              "மாட்டின் தோல் நிறம் மாறியதா என்பது",
+              "ಪ್ರಾಣಿಯ ಚರ್ಮದ ಬಣ್ಣ ಬದಲಾಗಿದೆಯೇ ಎಂದು",
+              "पशु के बालों का रंग बदला या नहीं"
+            ),
+            L(
+              "Nothing — no check is needed at 21 days",
+              "ఏమీ లేదు — 21వ రోజున ఎలాంటి తనిఖీ అవసరం లేదు",
+              "எதுவும் இல்லை — 21-ஆம் நாளில் எந்தப் பரிசோதனையும் தேவையில்லை",
+              "ಏನೂ ಇಲ್ಲ — 21ನೇ ದಿನ ಯಾವುದೇ ಪರಿಶೀಲನೆ ಬೇಕಿಲ್ಲ",
+              "कुछ नहीं — 21वें दिन किसी जाँच की ज़रूरत नहीं है"
+            ),
           ],
           answer: 0,
-          explain: L("Around 21 days after AI, watch for the animal returning to heat — a sign she likely did not conceive."),
+          explain: L(
+            "Around 21 days after AI, watch for the animal returning to heat — a sign she likely did not conceive.",
+            "AI చేసిన సుమారు 21 రోజుల తర్వాత, పశువు మళ్లీ ఎదకు వస్తుందేమో గమనించండి — అది చూలు కట్టలేదని అర్థం.",
+            "AI செய்த சுமார் 21 நாட்களுக்குப் பிறகு, மாடு மீண்டும் சினைப்பருவத்துக்கு வருகிறதா எனக் கவனியுங்கள் — அது சினையாகவில்லை என்பதற்கான அறிகுறி.",
+            "AI ಮಾಡಿದ ಸುಮಾರು 21 ದಿನಗಳ ನಂತರ, ಪ್ರಾಣಿ ಮತ್ತೆ ಬೆದೆಗೆ ಬರುತ್ತದೆಯೇ ಎಂದು ಗಮನಿಸಿ — ಅದು ಗರ್ಭ ಧರಿಸಿಲ್ಲ ಎಂಬುದರ ಲಕ್ಷಣ.",
+            "AI के करीब 21 दिन बाद देखें कि पशु फिर गर्मी में आता है या नहीं — यह इस बात की निशानी है कि वह शायद गाभिन नहीं हुआ।"
+          ),
         },
         {
           topicId: "t-m12-ai-followup",
           type: "truefalse",
-          q: L("Signs of heat can sometimes be almost invisible ('silent heat'), especially in buffaloes, which is why close observation matters.",
+          q: L(
+            "Signs of heat can sometimes be almost invisible ('silent heat'), especially in buffaloes, which is why close observation matters.",
+            "ఎద సంకేతాలు కొన్నిసార్లు దాదాపు కనిపించకపోవచ్చు ('సైలెంట్ హీట్'), ముఖ్యంగా గేదెలలో — అందుకే దగ్గరగా గమనించడం ముఖ్యం.",
+            "சினைப்பருவ அறிகுறிகள் சில நேரங்களில் கிட்டத்தட்ட தெரியாமலே இருக்கலாம் ('அமைதி சினைப்பருவம்'), குறிப்பாக எருமைகளில் — அதனால்தான் நெருக்கமான கவனிப்பு முக்கியம்.",
+            "ಬೆದೆಯ ಲಕ್ಷಣಗಳು ಕೆಲವೊಮ್ಮೆ ಬಹುತೇಕ ಕಾಣದೇ ಇರಬಹುದು ('ಮೌನ ಬೆದೆ'), ವಿಶೇಷವಾಗಿ ಎಮ್ಮೆಗಳಲ್ಲಿ — ಅದಕ್ಕಾಗಿಯೇ ಹತ್ತಿರದಿಂದ ಗಮನಿಸುವುದು ಮುಖ್ಯ.",
+            "गर्मी के निशान कभी-कभी लगभग दिखते ही नहीं ('साइलेंट हीट'), खासकर भैंसों में — इसीलिए नज़दीक से देखना ज़रूरी है।"
           ),
           answer: true,
-          explain: L("True — 'silent heat' with few visible signs happens, especially in buffaloes, so regular close observation of the herd is important."),
+          explain: L(
+            "True — 'silent heat' with few visible signs happens, especially in buffaloes, so regular close observation of the herd is important.",
+            "నిజమే — కొద్దిగా మాత్రమే కనిపించే 'సైలెంట్ హీట్' జరుగుతుంది, ముఖ్యంగా గేదెలలో, కాబట్టి మందను క్రమం తప్పకుండా దగ్గరగా గమనించడం ముఖ్యం.",
+            "உண்மைதான் — சில அறிகுறிகளே தெரியும் 'அமைதி சினைப்பருவம்' நிகழ்கிறது, குறிப்பாக எருமைகளில், எனவே மந்தையைத் தொடர்ந்து நெருக்கமாகக் கவனிப்பது முக்கியம்.",
+            "ನಿಜ — ಕಡಿಮೆ ಲಕ್ಷಣಗಳಷ್ಟೇ ಕಾಣುವ 'ಮೌನ ಬೆದೆ' ಆಗುತ್ತದೆ, ವಿಶೇಷವಾಗಿ ಎಮ್ಮೆಗಳಲ್ಲಿ, ಆದ್ದರಿಂದ ಹಿಂಡನ್ನು ನಿಯಮಿತವಾಗಿ ಹತ್ತಿರದಿಂದ ಗಮನಿಸುವುದು ಮುಖ್ಯ.",
+            "सही — कम निशान दिखाने वाली 'साइलेंट हीट' होती है, खासकर भैंसों में, इसलिए झुंड को नियमित रूप से नज़दीक से देखना ज़रूरी है।"
+          ),
         },
         {
           topicId: "t-m12-ai-followup",
           type: "mcq",
-          q: L("An animal fails to conceive after three inseminations. What is the right response?"),
+          q: L(
+            "An animal fails to conceive after three inseminations. What is the right response?",
+            "ఒక పశువు మూడు గర్భధారణల తర్వాత కూడా చూలు కట్టలేదు. సరైన స్పందన ఏమిటి?",
+            "ஒரு மாடு மூன்று கருவூட்டல்களுக்குப் பிறகும் சினையாகவில்லை. சரியான நடவடிக்கை என்ன?",
+            "ಒಂದು ಪ್ರಾಣಿ ಮೂರು ಗರ್ಭಧಾರಣೆಗಳ ನಂತರವೂ ಗರ್ಭ ಧರಿಸಿಲ್ಲ. ಸರಿಯಾದ ಕ್ರಮ ಯಾವುದು?",
+            "एक पशु तीन गर्भाधान के बाद भी गाभिन नहीं हुआ। सही कदम क्या है?"
+          ),
           options: [
-            L("Keep repeating AI indefinitely without telling anyone"),
-            L("Report it so a veterinarian can investigate the reason"),
-            L("Assume nothing more can be done and stop trying to breed her permanently"),
-            L("Switch to natural service without informing anyone"),
+            L(
+              "Keep repeating AI indefinitely without telling anyone",
+              "ఎవరికీ చెప్పకుండా AIని అనంతంగా పదే పదే చేస్తూ ఉండటం",
+              "யாரிடமும் சொல்லாமல் AI-ஐ முடிவில்லாமல் மீண்டும் மீண்டும் செய்துகொண்டே இருப்பது",
+              "ಯಾರಿಗೂ ಹೇಳದೆ AI ಅನ್ನು ಅನಿರ್ದಿಷ್ಟವಾಗಿ ಪದೇ ಪದೇ ಮಾಡುತ್ತಿರುವುದು",
+              "किसी को बताए बिना AI को बार-बार दोहराते रहना"
+            ),
+            L(
+              "Report it so a veterinarian can investigate the reason",
+              "పశువైద్యుడు కారణాన్ని పరిశీలించేలా తెలియజేయడం",
+              "கால்நடை மருத்துவர் காரணத்தை ஆராயும்படி தெரிவிப்பது",
+              "ಪಶುವೈದ್ಯರು ಕಾರಣವನ್ನು ಪರಿಶೀಲಿಸುವಂತೆ ತಿಳಿಸುವುದು",
+              "पशु चिकित्सक कारण की जाँच करे, इसके लिए बताना"
+            ),
+            L(
+              "Assume nothing more can be done and stop trying to breed her permanently",
+              "ఇక ఏమీ చేయలేమని భావించి, దాన్ని శాశ్వతంగా సంతానోత్పత్తికి వదిలేయడం",
+              "இனி எதுவும் செய்ய முடியாது என்று கருதி, அதை நிரந்தரமாக இனப்பெருக்கத்துக்குப் பயன்படுத்தாமல் விட்டுவிடுவது",
+              "ಇನ್ನು ಏನೂ ಮಾಡಲಾಗದು ಎಂದು ಭಾವಿಸಿ, ಅದನ್ನು ಶಾಶ್ವತವಾಗಿ ಸಂತಾನೋತ್ಪತ್ತಿ ಮಾಡಿಸುವುದನ್ನೇ ಬಿಟ್ಟುಬಿಡುವುದು",
+              "यह मानकर कि अब कुछ नहीं हो सकता, उसका प्रजनन हमेशा के लिए बंद कर देना"
+            ),
+            L(
+              "Switch to natural service without informing anyone",
+              "ఎవరికీ తెలియజేయకుండా సహజ సంయోగానికి మారడం",
+              "யாருக்கும் தெரிவிக்காமல் இயற்கை இனச்சேர்க்கைக்கு மாறுவது",
+              "ಯಾರಿಗೂ ತಿಳಿಸದೆ ಸಹಜ ಸಂಯೋಗಕ್ಕೆ ಬದಲಾಯಿಸುವುದು",
+              "किसी को बताए बिना प्राकृतिक मेल पर चले जाना"
+            ),
           ],
           answer: 1,
-          explain: L("Three failed inseminations should be reported to a veterinarian — repeated AI without investigation can even harm the animal."),
+          explain: L(
+            "Three failed inseminations should be reported to a veterinarian — repeated AI without investigation can even harm the animal.",
+            "మూడు గర్భధారణలు విఫలమైతే పశువైద్యునికి తెలియజేయాలి — పరిశీలన లేకుండా AIని పదే పదే చేస్తే పశువుకు హాని కూడా కలగవచ్చు.",
+            "மூன்று கருவூட்டல்கள் தோல்வியடைந்தால் கால்நடை மருத்துவரிடம் தெரிவிக்க வேண்டும் — ஆராயாமல் AI-ஐ மீண்டும் மீண்டும் செய்தால் மாட்டுக்குப் பாதிப்பும் ஏற்படலாம்.",
+            "ಮೂರು ಗರ್ಭಧಾರಣೆಗಳು ವಿಫಲವಾದರೆ ಪಶುವೈದ್ಯರಿಗೆ ತಿಳಿಸಬೇಕು — ಪರಿಶೀಲನೆ ಇಲ್ಲದೆ AI ಪದೇ ಪದೇ ಮಾಡುವುದರಿಂದ ಪ್ರಾಣಿಗೆ ಹಾನಿಯೂ ಆಗಬಹುದು.",
+            "तीन गर्भाधान असफल होने पर पशु चिकित्सक को बताना चाहिए — बिना जाँच के बार-बार AI कराने से पशु को नुकसान भी हो सकता है।"
+          ),
         },
       ],
     },
@@ -10566,168 +11251,402 @@ export const MODULES = [
   // ==================================================================
   {
     id: "m12-l3",
-    title: L("The Dry Period and Calving"),
+    title: L(
+      "The Dry Period and Calving",
+      "పాలు మానిపించే కాలం (డ్రై పీరియడ్) మరియు ఈనడం",
+      "வற்றல் காலமும் கன்று ஈனுதலும்",
+      "ಒಣ ಅವಧಿ (ಡ್ರೈ ಪೀರಿಯಡ್) ಮತ್ತು ಕರು ಹಾಕುವುದು",
+      "सूखा काल (ड्राई पीरियड) और ब्याना"
+    ),
     estMinutes: 9,
     hook: [
       {
         type: "hero",
-        heading: L("Rest Before Birth, Then the Big Day Itself"),
+        heading: L(
+          "Rest Before Birth, Then the Big Day Itself",
+          "ఈనే ముందు విశ్రాంతి, ఆ తర్వాత అసలు రోజు",
+          "கன்று ஈனும் முன் ஓய்வு, பிறகு அந்த முக்கிய நாள்",
+          "ಕರು ಹಾಕುವ ಮೊದಲು ವಿಶ್ರಾಂತಿ, ನಂತರ ಆ ದೊಡ್ಡ ದಿನ",
+          "ब्याने से पहले आराम, फिर वह बड़ा दिन"
+        ),
         text: L(
-          "Before a cow gives birth, her body needs a proper rest from milking. And when the day of calving finally arrives, most of the time everything goes smoothly on its own — but knowing the difference between 'normal' and 'something is wrong' can save a calf's life. Both of these depend on someone watching closely and knowing when to speak up."
+          "Before a cow gives birth, her body needs a proper rest from milking. And when the day of calving finally arrives, most of the time everything goes smoothly on its own — but knowing the difference between 'normal' and 'something is wrong' can save a calf's life. Both of these depend on someone watching closely and knowing when to speak up.",
+          "ఆవు ఈనే ముందు, పాలు పితకడం నుండి ఆమె శరీరానికి సరైన విశ్రాంతి కావాలి. ఈనే రోజు వచ్చినప్పుడు చాలా సార్లు అంతా దానంతట అదే సజావుగా జరిగిపోతుంది — కానీ 'సాధారణం' మరియు 'ఏదో తప్పు జరుగుతోంది' మధ్య తేడా తెలిసి ఉంటే ఒక దూడ ప్రాణం కాపాడవచ్చు. ఈ రెండింటికీ ఎవరో దగ్గరగా గమనించి, ఎప్పుడు చెప్పాలో తెలిసి ఉండాలి.",
+          "பசு கன்று ஈனும் முன், பால் கறப்பதிலிருந்து அதன் உடலுக்குச் சரியான ஓய்வு தேவை. கன்று ஈனும் நாள் வரும்போது, பெரும்பாலும் எல்லாம் தானாகவே சுமுகமாக நடந்துவிடும் — ஆனால் 'இயல்பானது' எது, 'ஏதோ தவறு' எது என்ற வித்தியாசம் தெரிந்திருந்தால் ஒரு கன்றின் உயிரைக் காப்பாற்றலாம். இவை இரண்டுமே யாரோ ஒருவர் உன்னிப்பாகக் கவனித்து, எப்போது சொல்ல வேண்டும் என்று அறிந்திருப்பதைப் பொறுத்தவை.",
+          "ಹಸು ಕರು ಹಾಕುವ ಮೊದಲು, ಹಾಲು ಕರೆಯುವುದರಿಂದ ಅದರ ದೇಹಕ್ಕೆ ಸರಿಯಾದ ವಿಶ್ರಾಂತಿ ಬೇಕು. ಕರು ಹಾಕುವ ದಿನ ಬಂದಾಗ ಹೆಚ್ಚಾಗಿ ಎಲ್ಲವೂ ತಾನಾಗಿಯೇ ಸುಗಮವಾಗಿ ನಡೆಯುತ್ತದೆ — ಆದರೆ 'ಸಾಮಾನ್ಯ' ಮತ್ತು 'ಏನೋ ತಪ್ಪಾಗಿದೆ' ಎಂಬುದರ ವ್ಯತ್ಯಾಸ ತಿಳಿದಿದ್ದರೆ ಒಂದು ಕರುವಿನ ಪ್ರಾಣ ಉಳಿಸಬಹುದು. ಈ ಎರಡೂ ಯಾರಾದರೂ ಹತ್ತಿರದಿಂದ ಗಮನಿಸಿ, ಯಾವಾಗ ತಿಳಿಸಬೇಕು ಎಂದು ತಿಳಿದಿರುವುದರ ಮೇಲೆ ಅವಲಂಬಿತ.",
+          "गाय के ब्याने से पहले उसके शरीर को दूध निकालने से सही आराम चाहिए। और जब ब्याने का दिन आता है, तो ज़्यादातर बार सब कुछ अपने आप आराम से हो जाता है — लेकिन 'सामान्य' और 'कुछ गड़बड़ है' का फर्क जानना एक बछड़े की जान बचा सकता है। ये दोनों बातें इस पर निर्भर हैं कि कोई ध्यान से देखे और जाने कि कब बताना है।"
         ),
       },
     ],
     topics: [
       {
         id: "t-m12-drying-off",
-        title: L("Resting the Cow Before She Calves (The Dry Period)"),
+        title: L(
+          "Resting the Cow Before She Calves (The Dry Period)",
+          "ఈనే ముందు ఆవుకు విశ్రాంతి (డ్రై పీరియడ్)",
+          "கன்று ஈனும் முன் பசுவுக்கு ஓய்வு (வற்றல் காலம்)",
+          "ಕರು ಹಾಕುವ ಮೊದಲು ಹಸುವಿಗೆ ವಿಶ್ರಾಂತಿ (ಒಣ ಅವಧಿ)",
+          "ब्याने से पहले गाय को आराम (ड्राई पीरियड)"
+        ),
         teach: [
           {
             type: "text",
-            heading: L("Why a Milking Cow Needs a Rest"),
+            heading: L(
+              "Why a Milking Cow Needs a Rest",
+              "పాలిచ్చే ఆవుకు విశ్రాంతి ఎందుకు కావాలి",
+              "பால் தரும் பசுவுக்கு ஏன் ஓய்வு தேவை",
+              "ಹಾಲು ಕೊಡುವ ಹಸುವಿಗೆ ವಿಶ್ರಾಂತಿ ಏಕೆ ಬೇಕು",
+              "दूध देने वाली गाय को आराम क्यों चाहिए"
+            ),
             html: L(
-              "The <b>dry period</b> is one of the most important phases in a dairy cow's whole cycle. It gives her body, and especially her udder, a chance to rest and rebuild before the next round of milk production begins. Anything that goes wrong during this rest period can affect her health and her milk after the next calving."
+              "The <b>dry period</b> is one of the most important phases in a dairy cow's whole cycle. It gives her body, and especially her udder, a chance to rest and rebuild before the next round of milk production begins. Anything that goes wrong during this rest period can affect her health and her milk after the next calving.",
+              "<b>డ్రై పీరియడ్</b> అనేది పాడి ఆవు మొత్తం చక్రంలో అత్యంత ముఖ్యమైన దశల్లో ఒకటి. తర్వాతి పాల ఉత్పత్తి మొదలయ్యే ముందు, ఆమె శరీరం, ముఖ్యంగా పొదుగు, విశ్రాంతి తీసుకుని కోలుకోవడానికి ఇది అవకాశం ఇస్తుంది. ఈ విశ్రాంతి కాలంలో ఏదైనా తప్పు జరిగితే, తర్వాతి ఈత తర్వాత ఆమె ఆరోగ్యం, పాలపై ప్రభావం పడవచ్చు.",
+              "<b>வற்றல் காலம்</b> என்பது பால் பசுவின் முழு சுழற்சியில் மிக முக்கியமான கட்டங்களில் ஒன்று. அடுத்த பால் உற்பத்தி தொடங்கும் முன், அதன் உடலும் குறிப்பாக மடியும் ஓய்வெடுத்து மீண்டும் வலுப்பெற இது வாய்ப்பளிக்கிறது. இந்த ஓய்வு காலத்தில் ஏதேனும் தவறு நடந்தால், அடுத்த கன்று ஈன்ற பிறகு அதன் ஆரோக்கியத்தையும் பாலையும் அது பாதிக்கலாம்.",
+              "<b>ಒಣ ಅವಧಿ</b> ಎಂದರೆ ಹೈನು ಹಸುವಿನ ಇಡೀ ಚಕ್ರದ ಅತ್ಯಂತ ಮುಖ್ಯ ಹಂತಗಳಲ್ಲಿ ಒಂದು. ಮುಂದಿನ ಹಾಲು ಉತ್ಪಾದನೆ ಶುರುವಾಗುವ ಮೊದಲು, ಅದರ ದೇಹ ಮತ್ತು ವಿಶೇಷವಾಗಿ ಕೆಚ್ಚಲು ವಿಶ್ರಾಂತಿ ಪಡೆದು ಚೇತರಿಸಿಕೊಳ್ಳಲು ಇದು ಅವಕಾಶ ನೀಡುತ್ತದೆ. ಈ ವಿಶ್ರಾಂತಿ ಅವಧಿಯಲ್ಲಿ ಏನಾದರೂ ತಪ್ಪಾದರೆ, ಮುಂದಿನ ಕರು ಹಾಕಿದ ನಂತರ ಅದರ ಆರೋಗ್ಯ ಮತ್ತು ಹಾಲಿನ ಮೇಲೆ ಪರಿಣಾಮ ಬೀರಬಹುದು.",
+              "<b>ड्राई पीरियड (सूखा काल)</b> दुधारू गाय के पूरे चक्र के सबसे अहम चरणों में से एक है। यह उसके शरीर, खासकर थन, को अगला दूध शुरू होने से पहले आराम करने और ठीक होने का मौका देता है। इस आराम के दौरान अगर कुछ गड़बड़ हुई, तो अगली बार ब्याने के बाद उसकी सेहत और दूध पर असर पड़ सकता है।"
             ),
           },
           {
             type: "glossary",
-            term: L("Drying Off / Dry Period"),
+            term: L(
+              "Drying Off / Dry Period",
+              "పాలు మానిపించడం / డ్రై పీరియడ్",
+              "பால் கறவையை நிறுத்துதல் / வற்றல் காலம்",
+              "ಹಾಲು ಕರೆಯುವುದನ್ನು ನಿಲ್ಲಿಸುವುದು / ಒಣ ಅವಧಿ",
+              "दूध सुखाना / ड्राई पीरियड"
+            ),
             meaning: L(
-              "The period when a milking cow is deliberately stopped from being milked for some weeks before she calves again, so her body and udder can rest and recover."
+              "The period when a milking cow is deliberately stopped from being milked for some weeks before she calves again, so her body and udder can rest and recover.",
+              "పాలిచ్చే ఆవు మళ్లీ ఈనడానికి కొన్ని వారాల ముందు నుండి, ఉద్దేశపూర్వకంగా పాలు పితకడం ఆపే కాలం; దీనివల్ల ఆమె శరీరం, పొదుగు విశ్రాంతి తీసుకుని కోలుకుంటాయి.",
+              "பால் தரும் பசு மீண்டும் கன்று ஈனுவதற்கு சில வாரங்களுக்கு முன், வேண்டுமென்றே பால் கறப்பதை நிறுத்தும் காலம்; இதனால் அதன் உடலும் மடியும் ஓய்வெடுத்து மீண்டு வருகின்றன.",
+              "ಹಾಲು ಕೊಡುವ ಹಸು ಮತ್ತೆ ಕರು ಹಾಕುವ ಕೆಲವು ವಾರಗಳ ಮೊದಲು, ಉದ್ದೇಶಪೂರ್ವಕವಾಗಿ ಹಾಲು ಕರೆಯುವುದನ್ನು ನಿಲ್ಲಿಸುವ ಅವಧಿ; ಇದರಿಂದ ಅದರ ದೇಹ ಮತ್ತು ಕೆಚ್ಚಲು ವಿಶ್ರಾಂತಿ ಪಡೆದು ಚೇತರಿಸಿಕೊಳ್ಳುತ್ತವೆ.",
+              "वह समय जब दुधारू गाय का दूध फिर से ब्याने से कुछ हफ्ते पहले जान-बूझकर निकालना बंद कर दिया जाता है, ताकि उसका शरीर और थन आराम करके ठीक हो सकें।"
             ),
           },
           {
             type: "glossary",
-            term: L("Lactation"),
-            meaning: L("The period during which a cow or buffalo produces milk, starting after she calves."),
+            term: L(
+              "Lactation",
+              "పాలిచ్చే కాలం (లాక్టేషన్)",
+              "பால் சுரக்கும் காலம் (லாக்டேஷன்)",
+              "ಹಾಲು ಕೊಡುವ ಅವಧಿ (ಲ್ಯಾಕ್ಟೇಶನ್)",
+              "दूध देने का काल (लैक्टेशन)"
+            ),
+            meaning: L(
+              "The period during which a cow or buffalo produces milk, starting after she calves.",
+              "ఆవు లేదా గేదె ఈనిన తర్వాత మొదలై, పాలు ఉత్పత్తి చేసే కాలం.",
+              "பசு அல்லது எருமை கன்று ஈன்ற பிறகு தொடங்கி, பால் சுரக்கும் காலம்.",
+              "ಹಸು ಅಥವಾ ಎಮ್ಮೆ ಕರು ಹಾಕಿದ ನಂತರ ಶುರುವಾಗಿ, ಹಾಲು ಉತ್ಪಾದಿಸುವ ಅವಧಿ.",
+              "गाय या भैंस के ब्याने के बाद शुरू होकर दूध देने वाला समय।"
+            ),
           },
           {
             type: "stat-grid",
             items: [
               {
-                label: L("Usual Length"),
-                text: L("An animal should usually be dry for around 60 days before her next calving."),
+                label: L("Usual Length", "సాధారణ కాలం", "வழக்கமான காலம்", "ಸಾಮಾನ್ಯ ಅವಧಿ", "आमतौर पर कितना समय"),
+                text: L(
+                  "An animal should usually be dry for around 60 days before her next calving.",
+                  "ఒక పశువు తన తర్వాతి ఈత కంటే ముందు సాధారణంగా సుమారు 60 రోజులు డ్రైగా ఉండాలి.",
+                  "ஒரு மாடு தனது அடுத்த கன்று ஈனுவதற்கு முன் பொதுவாக சுமார் 60 நாட்கள் வற்றலாக இருக்க வேண்டும்.",
+                  "ಒಂದು ಪ್ರಾಣಿ ತನ್ನ ಮುಂದಿನ ಕರು ಹಾಕುವ ಮೊದಲು ಸಾಮಾನ್ಯವಾಗಿ ಸುಮಾರು 60 ದಿನಗಳ ಕಾಲ ಒಣವಾಗಿರಬೇಕು.",
+                  "एक पशु को अगले ब्याने से पहले आमतौर पर करीब 60 दिन सूखा रखना चाहिए।"
+                ),
               },
               {
-                label: L("If the Dry Period Runs Too Long"),
+                label: L(
+                  "If the Dry Period Runs Too Long",
+                  "డ్రై పీరియడ్ మరీ ఎక్కువైతే",
+                  "வற்றல் காலம் மிக நீண்டால்",
+                  "ಒಣ ಅವಧಿ ತುಂಬಾ ಹೆಚ್ಚಾದರೆ",
+                  "अगर ड्राई पीरियड बहुत लंबा हो जाए"
+                ),
                 text: L(
-                  "A prolonged dry period puts the animal at risk of becoming overweight, obesity-related diseases, and difficulty at the time of calving."
+                  "A prolonged dry period puts the animal at risk of becoming overweight, obesity-related diseases, and difficulty at the time of calving.",
+                  "డ్రై పీరియడ్ ఎక్కువ కాలం సాగితే, పశువు లావెక్కడం, స్థూలకాయ సంబంధిత వ్యాధులు, మరియు ఈనే సమయంలో ఇబ్బందులు వచ్చే ప్రమాదం ఉంటుంది.",
+                  "வற்றல் காலம் நீண்டுவிட்டால், மாடு அதிக எடை போடுதல், உடல் பருமன் தொடர்பான நோய்கள், கன்று ஈனும் நேரத்தில் சிரமம் ஆகியவற்றின் ஆபத்து உள்ளது.",
+                  "ಒಣ ಅವಧಿ ಹೆಚ್ಚು ಕಾಲ ಮುಂದುವರಿದರೆ, ಪ್ರಾಣಿ ಬೊಜ್ಜು ಬೆಳೆಸಿಕೊಳ್ಳುವ, ಬೊಜ್ಜಿಗೆ ಸಂಬಂಧಿಸಿದ ರೋಗಗಳು ಬರುವ, ಮತ್ತು ಕರು ಹಾಕುವ ಸಮಯದಲ್ಲಿ ತೊಂದರೆ ಆಗುವ ಅಪಾಯವಿದೆ.",
+                  "अगर ड्राई पीरियड लंबा खिंच जाए, तो पशु के मोटे होने, मोटापे से जुड़ी बीमारियों और ब्याने के समय दिक्कत होने का खतरा रहता है।"
                 ),
               },
             ],
           },
           {
             type: "text",
-            heading: L("What Handlers Should Watch For"),
+            heading: L(
+              "What Handlers Should Watch For",
+              "సంరక్షకులు ఏమి గమనించాలి",
+              "பராமரிப்பாளர்கள் எதைக் கவனிக்க வேண்டும்",
+              "ನೋಡಿಕೊಳ್ಳುವವರು ಏನನ್ನು ಗಮನಿಸಬೇಕು",
+              "पशुपालकों को क्या देखना चाहिए"
+            ),
             html: L(
-              "Once an animal has been dried off, she should be checked visually every single day. She should always have access to water — this should never be restricted, even though her feed is being managed differently during this time."
+              "Once an animal has been dried off, she should be checked visually every single day. She should always have access to water — this should never be restricted, even though her feed is being managed differently during this time.",
+              "పశువును డ్రై చేసిన తర్వాత, ప్రతిరోజూ ఆమెను కళ్లతో పరీక్షించాలి. ఆమెకు ఎప్పుడూ నీళ్లు అందుబాటులో ఉండాలి — ఈ సమయంలో మేత వేరేగా నిర్వహిస్తున్నా, నీళ్లను ఎప్పుడూ పరిమితం చేయకూడదు.",
+              "மாட்டை வற்றல் செய்த பிறகு, தினமும் அதைக் கண்ணால் பார்த்துப் பரிசோதிக்க வேண்டும். அதற்கு எப்போதும் தண்ணீர் கிடைக்க வேண்டும் — இந்த நேரத்தில் தீவனம் வேறு விதமாக நிர்வகிக்கப்பட்டாலும், தண்ணீரை ஒருபோதும் கட்டுப்படுத்தக்கூடாது.",
+              "ಪ್ರಾಣಿಯನ್ನು ಒಣಗಿಸಿದ ನಂತರ, ಪ್ರತಿದಿನ ಅದನ್ನು ಕಣ್ಣಿನಿಂದ ಪರೀಕ್ಷಿಸಬೇಕು. ಅದಕ್ಕೆ ಯಾವಾಗಲೂ ನೀರು ಸಿಗುವಂತಿರಬೇಕು — ಈ ಸಮಯದಲ್ಲಿ ಮೇವನ್ನು ಬೇರೆ ರೀತಿ ನಿರ್ವಹಿಸುತ್ತಿದ್ದರೂ, ನೀರನ್ನು ಎಂದಿಗೂ ನಿರ್ಬಂಧಿಸಬಾರದು.",
+              "पशु का दूध सुखा देने के बाद, हर दिन उसे आँखों से जाँचना चाहिए। उसे हमेशा पानी मिलना चाहिए — इस दौरान चारा अलग तरह से दिया जा रहा हो तब भी पानी कभी रोका नहीं जाना चाहिए।"
             ),
           },
           {
             type: "callout",
             style: "tip",
-            heading: L("Your Job During the Dry Period"),
+            heading: L(
+              "Your Job During the Dry Period",
+              "డ్రై పీరియడ్‌లో మీ పని",
+              "வற்றல் காலத்தில் உங்கள் வேலை",
+              "ಒಣ ಅವಧಿಯಲ್ಲಿ ನಿಮ್ಮ ಕೆಲಸ",
+              "ड्राई पीरियड में आपका काम"
+            ),
             text: L(
-              "The exact feeding plan for drying off is decided and managed by those responsible for the animal's diet — that is not your call to make. Your job is simple but important: check dry cows visually every day, make sure water is always available, and report anything that looks unusual straight away."
+              "The exact feeding plan for drying off is decided and managed by those responsible for the animal's diet — that is not your call to make. Your job is simple but important: check dry cows visually every day, make sure water is always available, and report anything that looks unusual straight away.",
+              "డ్రై చేసే సమయంలో మేత ప్రణాళిక సరిగ్గా ఎలా ఉండాలో పశువు ఆహారానికి బాధ్యులైన వారే నిర్ణయించి నిర్వహిస్తారు — అది మీరు నిర్ణయించాల్సిన విషయం కాదు. మీ పని సులభమైనది కానీ ముఖ్యమైనది: డ్రై ఆవులను ప్రతిరోజూ కళ్లతో పరీక్షించండి, నీళ్లు ఎప్పుడూ అందుబాటులో ఉండేలా చూడండి, ఏదైనా అసాధారణంగా కనిపిస్తే వెంటనే తెలియజేయండి.",
+              "வற்றல் செய்வதற்கான தீவனத் திட்டத்தை மாட்டின் உணவுக்குப் பொறுப்பானவர்களே தீர்மானித்து நிர்வகிப்பார்கள் — அது நீங்கள் முடிவெடுக்க வேண்டிய விஷயம் அல்ல. உங்கள் வேலை எளிமையானது ஆனால் முக்கியமானது: வற்றல் பசுக்களை தினமும் கண்ணால் பார்த்துப் பரிசோதியுங்கள், தண்ணீர் எப்போதும் கிடைக்கிறதா என்று உறுதி செய்யுங்கள், வழக்கத்துக்கு மாறாக ஏதேனும் தெரிந்தால் உடனே தெரிவியுங்கள்.",
+              "ಒಣಗಿಸುವಾಗ ಮೇವಿನ ಯೋಜನೆ ನಿಖರವಾಗಿ ಹೇಗಿರಬೇಕು ಎಂಬುದನ್ನು ಪ್ರಾಣಿಯ ಆಹಾರದ ಜವಾಬ್ದಾರಿ ಹೊತ್ತವರೇ ನಿರ್ಧರಿಸಿ ನಿರ್ವಹಿಸುತ್ತಾರೆ — ಅದು ನೀವು ನಿರ್ಧರಿಸಬೇಕಾದ ವಿಷಯವಲ್ಲ. ನಿಮ್ಮ ಕೆಲಸ ಸರಳ ಆದರೆ ಮುಖ್ಯ: ಒಣ ಹಸುಗಳನ್ನು ಪ್ರತಿದಿನ ಕಣ್ಣಿನಿಂದ ಪರೀಕ್ಷಿಸಿ, ನೀರು ಯಾವಾಗಲೂ ಸಿಗುವಂತೆ ನೋಡಿಕೊಳ್ಳಿ, ಏನಾದರೂ ಅಸಾಮಾನ್ಯವಾಗಿ ಕಂಡರೆ ತಕ್ಷಣ ತಿಳಿಸಿ.",
+              "दूध सुखाने के लिए चारे की सही योजना क्या हो, यह पशु के आहार के ज़िम्मेदार लोग तय करते और संभालते हैं — यह आपको तय नहीं करना है। आपका काम आसान लेकिन ज़रूरी है: सूखी गायों को हर दिन आँखों से जाँचें, पक्का करें कि पानी हमेशा मिले, और कुछ भी असामान्य लगे तो तुरंत बताएँ।"
             ),
           },
         ],
         check: [
           {
             type: "mcq",
-            q: L("Roughly how long should a cow's dry period usually be?"),
-            options: [L("Around 60 days"), L("Around 2 days"), L("Around 1 year"), L("There is no dry period needed")],
+            q: L(
+              "Roughly how long should a cow's dry period usually be?",
+              "ఒక ఆవు డ్రై పీరియడ్ సాధారణంగా సుమారు ఎంత కాలం ఉండాలి?",
+              "ஒரு பசுவின் வற்றல் காலம் பொதுவாக சுமார் எவ்வளவு நாட்கள் இருக்க வேண்டும்?",
+              "ಒಂದು ಹಸುವಿನ ಒಣ ಅವಧಿ ಸಾಮಾನ್ಯವಾಗಿ ಸುಮಾರು ಎಷ್ಟು ಇರಬೇಕು?",
+              "एक गाय का ड्राई पीरियड आमतौर पर कितना लंबा होना चाहिए?"
+            ),
+            options: [L("Around 60 days", "సుమారు 60 రోజులు", "சுமார் 60 நாட்கள்", "ಸುಮಾರು 60 ದಿನಗಳು", "करीब 60 दिन"), L("Around 2 days", "సుమారు 2 రోజులు", "சுமார் 2 நாட்கள்", "ಸುಮಾರು 2 ದಿನಗಳು", "करीब 2 दिन"), L("Around 1 year", "సుమారు 1 సంవత్సరం", "சுமார் 1 வருடம்", "ಸುಮಾರು 1 ವರ್ಷ", "करीब 1 साल"), L(
+              "There is no dry period needed",
+              "డ్రై పీరియడ్ అవసరం లేదు",
+              "வற்றல் காலம் தேவையில்லை",
+              "ಒಣ ಅವಧಿ ಬೇಕಿಲ್ಲ",
+              "ड्राई पीरियड की ज़रूरत नहीं है"
+            )],
             answer: 0,
-            explain: L("An animal should usually be dry for around 60 days before her next calving."),
+            explain: L(
+              "An animal should usually be dry for around 60 days before her next calving.",
+              "ఒక పశువు తన తర్వాతి ఈత కంటే ముందు సాధారణంగా సుమారు 60 రోజులు డ్రైగా ఉండాలి.",
+              "ஒரு மாடு தனது அடுத்த கன்று ஈனுவதற்கு முன் பொதுவாக சுமார் 60 நாட்கள் வற்றலாக இருக்க வேண்டும்.",
+              "ಒಂದು ಪ್ರಾಣಿ ತನ್ನ ಮುಂದಿನ ಕರು ಹಾಕುವ ಮೊದಲು ಸಾಮಾನ್ಯವಾಗಿ ಸುಮಾರು 60 ದಿನಗಳ ಕಾಲ ಒಣವಾಗಿರಬೇಕು.",
+              "एक पशु को अगले ब्याने से पहले आमतौर पर करीब 60 दिन सूखा रखना चाहिए।"
+            ),
           },
           {
             type: "truefalse",
-            q: L("Water access should be restricted for a cow during her dry period."),
+            q: L(
+              "Water access should be restricted for a cow during her dry period.",
+              "డ్రై పీరియడ్‌లో ఆవుకు నీటి సదుపాయాన్ని పరిమితం చేయాలి.",
+              "வற்றல் காலத்தில் பசுவுக்குத் தண்ணீர் கிடைப்பதைக் கட்டுப்படுத்த வேண்டும்.",
+              "ಒಣ ಅವಧಿಯಲ್ಲಿ ಹಸುವಿಗೆ ನೀರಿನ ಲಭ್ಯತೆಯನ್ನು ನಿರ್ಬಂಧಿಸಬೇಕು.",
+              "ड्राई पीरियड में गाय का पानी रोक देना चाहिए।"
+            ),
             answer: false,
-            explain: L("False — water access should never be restricted during the dry period, even while feed is being managed differently."),
+            explain: L(
+              "False — water access should never be restricted during the dry period, even while feed is being managed differently.",
+              "తప్పు — డ్రై పీరియడ్‌లో మేతను వేరేగా నిర్వహిస్తున్నా, నీటి సదుపాయాన్ని ఎప్పుడూ పరిమితం చేయకూడదు.",
+              "தவறு — வற்றல் காலத்தில் தீவனம் வேறு விதமாக நிர்வகிக்கப்பட்டாலும், தண்ணீர் கிடைப்பதை ஒருபோதும் கட்டுப்படுத்தக்கூடாது.",
+              "ತಪ್ಪು — ಒಣ ಅವಧಿಯಲ್ಲಿ ಮೇವನ್ನು ಬೇರೆ ರೀತಿ ನಿರ್ವಹಿಸುತ್ತಿದ್ದರೂ, ನೀರಿನ ಲಭ್ಯತೆಯನ್ನು ಎಂದಿಗೂ ನಿರ್ಬಂಧಿಸಬಾರದು.",
+              "गलत — ड्राई पीरियड में चारा अलग तरह से दिया जा रहा हो तब भी पानी कभी रोका नहीं जाना चाहिए।"
+            ),
           },
         ],
       },
       {
         id: "t-m12-calving-signs",
-        title: L("Recognizing Normal Calving, and Knowing When to Call for Help"),
+        title: L(
+          "Recognizing Normal Calving, and Knowing When to Call for Help",
+          "సాధారణ ఈతను గుర్తించడం, సహాయం ఎప్పుడు కోరాలో తెలుసుకోవడం",
+          "இயல்பான கன்று ஈனுதலை அடையாளம் காணுதல், எப்போது உதவி கேட்க வேண்டும் என்று அறிதல்",
+          "ಸಾಮಾನ್ಯ ಕರು ಹಾಕುವಿಕೆಯನ್ನು ಗುರುತಿಸುವುದು ಮತ್ತು ಯಾವಾಗ ಸಹಾಯ ಕೇಳಬೇಕು ಎಂದು ತಿಳಿಯುವುದು",
+          "सामान्य ब्याना पहचानना और मदद कब बुलानी है यह जानना"
+        ),
         teach: [
           {
             type: "text",
-            heading: L("The First Early Sign"),
+            heading: L("The First Early Sign", "మొదటి ముందస్తు సంకేతం", "முதல் ஆரம்ப அறிகுறி", "ಮೊದಲ ಮುನ್ಸೂಚನೆ", "पहली शुरुआती निशानी"),
             html: L(
-              "A sticky vaginal discharge is usually seen about a day before calving begins. Seeing this is a normal, useful early warning that calving is close, not a cause for alarm on its own."
+              "A sticky vaginal discharge is usually seen about a day before calving begins. Seeing this is a normal, useful early warning that calving is close, not a cause for alarm on its own.",
+              "ఈత మొదలయ్యే సుమారు ఒక రోజు ముందు యోని నుండి జిగురుగా ఉండే స్రావం సాధారణంగా కనిపిస్తుంది. ఇది ఈత దగ్గరపడిందని తెలిపే సాధారణమైన, ఉపయోగకరమైన ముందస్తు హెచ్చరిక — ఇది ఒక్కటే ఆందోళన కలిగించాల్సిన విషయం కాదు.",
+              "கன்று ஈனுதல் தொடங்குவதற்குச் சுமார் ஒரு நாள் முன்பு, பிறப்புறுப்பிலிருந்து பிசுபிசுப்பான திரவம் பொதுவாகத் தெரியும். இது கன்று ஈனுதல் நெருங்கிவிட்டது என்பதற்கான இயல்பான, பயனுள்ள முன்னெச்சரிக்கை — இது மட்டுமே கவலைப்பட வேண்டிய விஷயம் அல்ல.",
+              "ಕರು ಹಾಕುವುದು ಶುರುವಾಗುವ ಸುಮಾರು ಒಂದು ದಿನ ಮೊದಲು ಯೋನಿಯಿಂದ ಅಂಟಾದ ಸ್ರಾವ ಸಾಮಾನ್ಯವಾಗಿ ಕಾಣುತ್ತದೆ. ಇದು ಕರು ಹಾಕುವ ಸಮಯ ಹತ್ತಿರವಾಗಿದೆ ಎಂಬುದರ ಸಾಮಾನ್ಯ, ಉಪಯುಕ್ತ ಮುನ್ನೆಚ್ಚರಿಕೆ — ಇದೊಂದೇ ಚಿಂತೆಗೆ ಕಾರಣವಲ್ಲ.",
+              "ब्याना शुरू होने से करीब एक दिन पहले योनि से चिपचिपा स्राव आमतौर पर दिखता है। यह ब्याने के करीब होने की सामान्य और काम की चेतावनी है, अपने आप में घबराने की बात नहीं।"
             ),
           },
           {
             type: "glossary",
-            term: L("Water Bag"),
+            term: L("Water Bag", "నీటి తిత్తి (వాటర్ బ్యాగ్)", "நீர்ப்பை (வாட்டர் பேக்)", "ನೀರಿನ ಚೀಲ (ವಾಟರ್ ಬ್ಯಾಗ್)", "पानी की थैली (वाटर बैग)"),
             meaning: L(
-              "A fluid-filled bag that appears and then bursts as part of the calving process, shortly before the calf itself is delivered."
+              "A fluid-filled bag that appears and then bursts as part of the calving process, shortly before the calf itself is delivered.",
+              "ఈత ప్రక్రియలో భాగంగా, దూడ బయటకు రావడానికి కొద్దిగా ముందు కనిపించి పగిలే ద్రవంతో నిండిన సంచి.",
+              "கன்று ஈனும் செயல்முறையின் ஒரு பகுதியாக, கன்று வெளிவருவதற்குச் சற்று முன் தோன்றி உடையும் திரவம் நிறைந்த பை.",
+              "ಕರು ಹಾಕುವ ಪ್ರಕ್ರಿಯೆಯ ಭಾಗವಾಗಿ, ಕರು ಹೊರಬರುವುದಕ್ಕೆ ಸ್ವಲ್ಪ ಮೊದಲು ಕಾಣಿಸಿಕೊಂಡು ಒಡೆಯುವ ದ್ರವ ತುಂಬಿದ ಚೀಲ.",
+              "ब्याने की प्रक्रिया में बछड़े के बाहर आने से ठीक पहले दिखने और फटने वाली पानी से भरी थैली।"
             ),
           },
           {
             type: "stat-grid",
             items: [
               {
-                label: L("Older Cows"),
-                text: L("The calf is usually delivered 30–50 minutes after the water bag bursts, though this may extend up to 2 hours."),
+                label: L("Older Cows", "పెద్ద ఆవులు", "வளர்ந்த பசுக்கள்", "ವಯಸ್ಕ ಹಸುಗಳು", "बड़ी उम्र की गायें"),
+                text: L(
+                  "The calf is usually delivered 30–50 minutes after the water bag bursts, though this may extend up to 2 hours.",
+                  "నీటి తిత్తి పగిలిన 30–50 నిమిషాల తర్వాత సాధారణంగా దూడ బయటకు వస్తుంది, కొన్నిసార్లు ఇది 2 గంటల వరకు పట్టవచ్చు.",
+                  "நீர்ப்பை உடைந்த 30–50 நிமிடங்களுக்குப் பிறகு பொதுவாக கன்று வெளிவரும், சில நேரங்களில் இது 2 மணி நேரம் வரை நீளலாம்.",
+                  "ನೀರಿನ ಚೀಲ ಒಡೆದ 30–50 ನಿಮಿಷಗಳ ನಂತರ ಸಾಮಾನ್ಯವಾಗಿ ಕರು ಹೊರಬರುತ್ತದೆ, ಕೆಲವೊಮ್ಮೆ ಇದು 2 ಗಂಟೆಗಳವರೆಗೆ ಹೋಗಬಹುದು.",
+                  "पानी की थैली फटने के 30–50 मिनट बाद आमतौर पर बछड़ा बाहर आ जाता है, हालांकि कभी-कभी इसमें 2 घंटे तक लग सकते हैं।"
+                ),
               },
               {
-                label: L("Heifers (First-Time Mothers)"),
-                text: L("Calving may normally take up to 4 hours after the water bag bursts — this alone is not a problem for a first calving."),
+                label: L(
+                  "Heifers (First-Time Mothers)",
+                  "పెయ్యలు (మొదటిసారి ఈనేవి)",
+                  "கிடேரிகள் (முதல் முறை கன்று ஈனுபவை)",
+                  "ಕಡಸುಗಳು (ಮೊದಲ ಬಾರಿ ಕರು ಹಾಕುವವು)",
+                  "बछियाँ (पहली बार ब्याने वाली)"
+                ),
+                text: L(
+                  "Calving may normally take up to 4 hours after the water bag bursts — this alone is not a problem for a first calving.",
+                  "నీటి తిత్తి పగిలిన తర్వాత ఈత సాధారణంగా 4 గంటల వరకు పట్టవచ్చు — మొదటి ఈతకు ఇది ఒక్కటే సమస్య కాదు.",
+                  "நீர்ப்பை உடைந்த பிறகு கன்று ஈனுதல் இயல்பாக 4 மணி நேரம் வரை ஆகலாம் — முதல் முறை கன்று ஈனுவதற்கு இது மட்டுமே பிரச்சினை அல்ல.",
+                  "ನೀರಿನ ಚೀಲ ಒಡೆದ ನಂತರ ಕರು ಹಾಕುವುದು ಸಾಮಾನ್ಯವಾಗಿ 4 ಗಂಟೆಗಳವರೆಗೆ ತೆಗೆದುಕೊಳ್ಳಬಹುದು — ಮೊದಲ ಬಾರಿ ಕರು ಹಾಕುವವರಿಗೆ ಇದೊಂದೇ ಸಮಸ್ಯೆಯಲ್ಲ.",
+                  "पानी की थैली फटने के बाद ब्याने में सामान्य रूप से 4 घंटे तक लग सकते हैं — पहली बार ब्याने वाली के लिए यह अपने आप में कोई समस्या नहीं है।"
+                ),
               },
             ],
           },
           {
             type: "glossary",
-            term: L("Dystocia"),
+            term: L(
+              "Dystocia",
+              "డిస్టోకియా (కష్టమైన ఈత)",
+              "டிஸ்டோகியா (கடினமான கன்று ஈனுதல்)",
+              "ಡಿಸ್ಟೋಕಿಯಾ (ಕಷ್ಟಕರ ಕರು ಹಾಕುವಿಕೆ)",
+              "डिस्टोकिया (कठिन ब्याना)"
+            ),
             meaning: L(
-              "Difficult or delayed calving — when the calf is not delivered within the normal time after the water bag bursts. Early detection of dystocia can save the calf's life."
+              "Difficult or delayed calving — when the calf is not delivered within the normal time after the water bag bursts. Early detection of dystocia can save the calf's life.",
+              "కష్టమైన లేదా ఆలస్యమైన ఈత — నీటి తిత్తి పగిలిన తర్వాత సాధారణ సమయంలో దూడ బయటకు రాకపోవడం. డిస్టోకియాను ముందే గుర్తిస్తే దూడ ప్రాణం కాపాడవచ్చు.",
+              "கடினமான அல்லது தாமதமான கன்று ஈனுதல் — நீர்ப்பை உடைந்த பிறகு இயல்பான நேரத்துக்குள் கன்று வெளிவராமல் இருப்பது. டிஸ்டோகியாவை முன்கூட்டியே கண்டறிந்தால் கன்றின் உயிரைக் காப்பாற்றலாம்.",
+              "ಕಷ್ಟಕರ ಅಥವಾ ತಡವಾದ ಕರು ಹಾಕುವಿಕೆ — ನೀರಿನ ಚೀಲ ಒಡೆದ ನಂತರ ಸಾಮಾನ್ಯ ಸಮಯದೊಳಗೆ ಕರು ಹೊರಬರದಿರುವುದು. ಡಿಸ್ಟೋಕಿಯಾವನ್ನು ಮೊದಲೇ ಗುರುತಿಸಿದರೆ ಕರುವಿನ ಪ್ರಾಣ ಉಳಿಸಬಹುದು.",
+              "कठिन या देर से ब्याना — जब पानी की थैली फटने के बाद सामान्य समय में बछड़ा बाहर नहीं आता। डिस्टोकिया का जल्दी पता चलने से बछड़े की जान बच सकती है।"
             ),
           },
           {
             type: "callout",
             style: "warning",
-            heading: L("Normal vs. When to Call the Vet Immediately"),
+            heading: L(
+              "Normal vs. When to Call the Vet Immediately",
+              "సాధారణం, మరియు వెట్‌ను వెంటనే ఎప్పుడు పిలవాలి",
+              "இயல்பானது, கால்நடை மருத்துவரை உடனே எப்போது அழைக்க வேண்டும்",
+              "ಸಾಮಾನ್ಯ ಮತ್ತು ಪಶುವೈದ್ಯರನ್ನು ತಕ್ಷಣ ಯಾವಾಗ ಕರೆಯಬೇಕು",
+              "सामान्य और डॉक्टर को तुरंत कब बुलाएँ"
+            ),
             text: L(
-              "Normal: after the water bag bursts, the calf's head and both front legs appear together — this is the normal position, and calving usually proceeds on its own without needing a vet. Call the vet immediately if: an abnormal position is seen (for example, only one front leg and the head, or any other position), or if nothing appears at all after the water bag bursts. Any delay in getting help in these cases only makes things worse."
+              "Normal: after the water bag bursts, the calf's head and both front legs appear together — this is the normal position, and calving usually proceeds on its own without needing a vet. Call the vet immediately if: an abnormal position is seen (for example, only one front leg and the head, or any other position), or if nothing appears at all after the water bag bursts. Any delay in getting help in these cases only makes things worse.",
+              "సాధారణం: నీటి తిత్తి పగిలిన తర్వాత, దూడ తల మరియు రెండు ముందు కాళ్లు కలిసి కనిపిస్తాయి — ఇదే సాధారణ స్థితి, ఈత సాధారణంగా వెట్ అవసరం లేకుండానే దానంతట అదే జరుగుతుంది. ఈ సందర్భాల్లో వెంటనే వెట్‌ను పిలవండి: అసాధారణ స్థితి కనిపిస్తే (ఉదాహరణకు ఒక్క ముందు కాలు మరియు తల మాత్రమే, లేదా మరేదైనా స్థితి), లేదా నీటి తిత్తి పగిలిన తర్వాత ఏమీ కనిపించకపోతే. ఈ సందర్భాల్లో సహాయం పొందడంలో ఏ ఆలస్యమైనా పరిస్థితిని మరింత దిగజారుస్తుంది.",
+              "இயல்பானது: நீர்ப்பை உடைந்த பிறகு, கன்றின் தலையும் இரண்டு முன்கால்களும் சேர்ந்து தெரியும் — இதுவே இயல்பான நிலை, கன்று ஈனுதல் பொதுவாக கால்நடை மருத்துவர் தேவையின்றித் தானாகவே நடக்கும். இந்தச் சூழல்களில் உடனே கால்நடை மருத்துவரை அழைக்கவும்: அசாதாரண நிலை தெரிந்தால் (உதாரணமாக ஒரே ஒரு முன்காலும் தலையும் மட்டும், அல்லது வேறு ஏதேனும் நிலை), அல்லது நீர்ப்பை உடைந்த பிறகு எதுவுமே தெரியாவிட்டால். இந்தச் சூழல்களில் உதவி பெறுவதில் ஏற்படும் எந்தத் தாமதமும் நிலைமையை மோசமாக்கவே செய்யும்.",
+              "ಸಾಮಾನ್ಯ: ನೀರಿನ ಚೀಲ ಒಡೆದ ನಂತರ, ಕರುವಿನ ತಲೆ ಮತ್ತು ಎರಡೂ ಮುಂಗಾಲುಗಳು ಒಟ್ಟಿಗೆ ಕಾಣುತ್ತವೆ — ಇದೇ ಸಾಮಾನ್ಯ ಸ್ಥಿತಿ, ಕರು ಹಾಕುವುದು ಸಾಮಾನ್ಯವಾಗಿ ಪಶುವೈದ್ಯರ ಅಗತ್ಯವಿಲ್ಲದೆ ತಾನಾಗಿಯೇ ನಡೆಯುತ್ತದೆ. ಈ ಸಂದರ್ಭಗಳಲ್ಲಿ ತಕ್ಷಣ ಪಶುವೈದ್ಯರನ್ನು ಕರೆಯಿರಿ: ಅಸಾಮಾನ್ಯ ಸ್ಥಿತಿ ಕಂಡರೆ (ಉದಾಹರಣೆಗೆ ಕೇವಲ ಒಂದು ಮುಂಗಾಲು ಮತ್ತು ತಲೆ, ಅಥವಾ ಬೇರೆ ಯಾವುದೇ ಸ್ಥಿತಿ), ಅಥವಾ ನೀರಿನ ಚೀಲ ಒಡೆದ ನಂತರ ಏನೂ ಕಾಣದಿದ್ದರೆ. ಈ ಸಂದರ್ಭಗಳಲ್ಲಿ ಸಹಾಯ ಪಡೆಯುವುದರಲ್ಲಿ ಯಾವುದೇ ವಿಳಂಬ ಪರಿಸ್ಥಿತಿಯನ್ನು ಇನ್ನಷ್ಟು ಹದಗೆಡಿಸುತ್ತದೆ.",
+              "सामान्य: पानी की थैली फटने के बाद बछड़े का सिर और दोनों अगली टाँगें साथ दिखती हैं — यही सामान्य स्थिति है, और ब्याना आमतौर पर बिना डॉक्टर के अपने आप हो जाता है। इन हालात में तुरंत डॉक्टर को बुलाएँ: अगर असामान्य स्थिति दिखे (जैसे सिर्फ एक अगली टाँग और सिर, या कोई और स्थिति), या पानी की थैली फटने के बाद कुछ भी दिखाई न दे। इन मामलों में मदद मिलने में कोई भी देरी हालात को और बिगाड़ती है।"
             ),
           },
           {
             type: "callout",
             style: "info",
-            heading: L("A Careful Note on the One 'Normal' Case"),
+            heading: L(
+              "A Careful Note on the One 'Normal' Case",
+              "ఆ ఒక 'సాధారణ' సందర్భం గురించి జాగ్రత్తగా ఒక గమనిక",
+              "அந்த ஒரே 'இயல்பான' சூழல் பற்றி ஒரு கவனமான குறிப்பு",
+              "ಆ ಒಂದು 'ಸಾಮಾನ್ಯ' ಸಂದರ್ಭದ ಬಗ್ಗೆ ಎಚ್ಚರಿಕೆಯ ಟಿಪ್ಪಣಿ",
+              "उस एक 'सामान्य' स्थिति के बारे में एक सावधानी भरा नोट"
+            ),
             text: L(
-              "When the head and both front legs are clearly visible together, a gentle downward pull on the front legs is sometimes described as acceptable help. The calf should never be pulled in any other position — not even if just one front leg and the head are visible. If you are ever unsure exactly what position the calf is in, the safer choice is always to call for help rather than pull."
+              "When the head and both front legs are clearly visible together, a gentle downward pull on the front legs is sometimes described as acceptable help. The calf should never be pulled in any other position — not even if just one front leg and the head are visible. If you are ever unsure exactly what position the calf is in, the safer choice is always to call for help rather than pull.",
+              "తల మరియు రెండు ముందు కాళ్లు కలిసి స్పష్టంగా కనిపిస్తున్నప్పుడు, ముందు కాళ్లను మెల్లగా కిందికి లాగడం కొన్నిసార్లు అంగీకారయోగ్యమైన సహాయంగా చెప్పబడుతుంది. ఒక్క ముందు కాలు మరియు తల కనిపిస్తున్నా సరే, దూడను మరే ఇతర స్థితిలోనూ ఎప్పుడూ లాగకూడదు. దూడ ఏ స్థితిలో ఉందో మీకు ఏమాత్రం సందేహం ఉన్నా, లాగడం కంటే సహాయం కోసం పిలవడమే ఎప్పుడూ సురక్షితమైన ఎంపిక.",
+              "தலையும் இரண்டு முன்கால்களும் சேர்ந்து தெளிவாகத் தெரியும்போது, முன்கால்களை மெதுவாகக் கீழ்நோக்கி இழுப்பது சில நேரங்களில் ஏற்றுக்கொள்ளத்தக்க உதவியாகச் சொல்லப்படுகிறது. ஒரே ஒரு முன்காலும் தலையும் மட்டும் தெரிந்தாலும் கூட, வேறு எந்த நிலையிலும் கன்றை ஒருபோதும் இழுக்கக்கூடாது. கன்று எந்த நிலையில் இருக்கிறது என்று உங்களுக்குச் சந்தேகம் இருந்தால், இழுப்பதை விட உதவிக்கு அழைப்பதே எப்போதும் பாதுகாப்பான தேர்வு.",
+              "ತಲೆ ಮತ್ತು ಎರಡೂ ಮುಂಗಾಲುಗಳು ಒಟ್ಟಿಗೆ ಸ್ಪಷ್ಟವಾಗಿ ಕಾಣುತ್ತಿರುವಾಗ, ಮುಂಗಾಲುಗಳನ್ನು ನಿಧಾನವಾಗಿ ಕೆಳಮುಖವಾಗಿ ಎಳೆಯುವುದು ಕೆಲವೊಮ್ಮೆ ಒಪ್ಪಿಕೊಳ್ಳಬಹುದಾದ ಸಹಾಯ ಎಂದು ಹೇಳಲಾಗುತ್ತದೆ. ಕೇವಲ ಒಂದು ಮುಂಗಾಲು ಮತ್ತು ತಲೆ ಕಾಣುತ್ತಿದ್ದರೂ ಸಹ, ಕರುವನ್ನು ಬೇರೆ ಯಾವುದೇ ಸ್ಥಿತಿಯಲ್ಲಿ ಎಂದಿಗೂ ಎಳೆಯಬಾರದು. ಕರು ಯಾವ ಸ್ಥಿತಿಯಲ್ಲಿದೆ ಎಂದು ನಿಮಗೆ ಸಂದೇಹವಿದ್ದರೆ, ಎಳೆಯುವುದಕ್ಕಿಂತ ಸಹಾಯಕ್ಕಾಗಿ ಕರೆಯುವುದೇ ಯಾವಾಗಲೂ ಸುರಕ್ಷಿತ ಆಯ್ಕೆ.",
+              "जब सिर और दोनों अगली टाँगें साफ़ साथ दिख रही हों, तब अगली टाँगों को धीरे से नीचे की ओर खींचना कभी-कभी स्वीकार्य मदद बताया जाता है। बछड़े को किसी और स्थिति में कभी नहीं खींचना चाहिए — तब भी नहीं जब सिर्फ एक अगली टाँग और सिर दिख रहा हो। अगर आपको ज़रा भी शक हो कि बछड़ा किस स्थिति में है, तो खींचने की बजाय मदद बुलाना ही हमेशा सुरक्षित चुनाव है।"
             ),
           },
           {
             type: "text",
-            heading: L("After Calving: What Comes Next"),
+            heading: L(
+              "After Calving: What Comes Next",
+              "ఈత తర్వాత: తర్వాత ఏమి జరుగుతుంది",
+              "கன்று ஈன்ற பிறகு: அடுத்து என்ன நடக்கும்",
+              "ಕರು ಹಾಕಿದ ನಂತರ: ಮುಂದೇನಾಗುತ್ತದೆ",
+              "ब्याने के बाद: आगे क्या होता है"
+            ),
             html: L(
-              "Under normal conditions, an animal should come back into heat within 45 days of calving. It is recommended to breed her at the heat that follows the first one after calving, or within 60–90 days. If she does not come into heat within 60 days after calving, this should be reported so a veterinarian can check on her."
+              "Under normal conditions, an animal should come back into heat within 45 days of calving. It is recommended to breed her at the heat that follows the first one after calving, or within 60–90 days. If she does not come into heat within 60 days after calving, this should be reported so a veterinarian can check on her.",
+              "సాధారణ పరిస్థితుల్లో, పశువు ఈనిన 45 రోజుల్లోపు మళ్లీ ఎదకు రావాలి. ఈనిన తర్వాత మొదటి ఎద తర్వాత వచ్చే ఎదలో, లేదా 60–90 రోజుల్లోపు దానికి సంతానోత్పత్తి చేయించడం మంచిది. ఈనిన 60 రోజుల్లోపు అది ఎదకు రాకపోతే, పశువైద్యుడు దాన్ని పరిశీలించేలా ఈ విషయాన్ని తెలియజేయాలి.",
+              "இயல்பான நிலைமைகளில், மாடு கன்று ஈன்ற 45 நாட்களுக்குள் மீண்டும் சினைப்பருவத்துக்கு வர வேண்டும். கன்று ஈன்ற பிறகு வரும் முதல் சினைப்பருவத்துக்கு அடுத்த சினைப்பருவத்தில், அல்லது 60–90 நாட்களுக்குள் அதைச் சினையாக்குவது பரிந்துரைக்கப்படுகிறது. கன்று ஈன்ற 60 நாட்களுக்குள் சினைப்பருவத்துக்கு வரவில்லை என்றால், கால்நடை மருத்துவர் அதைப் பரிசோதிக்கும்படி இதைத் தெரிவிக்க வேண்டும்.",
+              "ಸಾಮಾನ್ಯ ಪರಿಸ್ಥಿತಿಯಲ್ಲಿ, ಪ್ರಾಣಿ ಕರು ಹಾಕಿದ 45 ದಿನಗಳೊಳಗೆ ಮತ್ತೆ ಬೆದೆಗೆ ಬರಬೇಕು. ಕರು ಹಾಕಿದ ನಂತರದ ಮೊದಲ ಬೆದೆಯ ಮುಂದಿನ ಬೆದೆಯಲ್ಲಿ, ಅಥವಾ 60–90 ದಿನಗಳೊಳಗೆ ಅದಕ್ಕೆ ಸಂತಾನೋತ್ಪತ್ತಿ ಮಾಡಿಸುವುದು ಶಿಫಾರಸು. ಕರು ಹಾಕಿದ 60 ದಿನಗಳೊಳಗೆ ಬೆದೆಗೆ ಬರದಿದ್ದರೆ, ಪಶುವೈದ್ಯರು ಪರೀಕ್ಷಿಸುವಂತೆ ಇದನ್ನು ತಿಳಿಸಬೇಕು.",
+              "सामान्य हालात में पशु को ब्याने के 45 दिन के अंदर फिर गर्मी में आ जाना चाहिए। सलाह दी जाती है कि ब्याने के बाद की पहली गर्मी के अगली गर्मी में, या 60–90 दिन के अंदर उसका प्रजनन कराया जाए। अगर वह ब्याने के 60 दिन के भीतर गर्मी में नहीं आती, तो यह बताना चाहिए ताकि पशु चिकित्सक उसे देख सके।"
             ),
           },
         ],
         check: [
           {
             type: "mcq",
-            q: L("After the water bag bursts, what tells you calving is likely proceeding normally?"),
+            q: L(
+              "After the water bag bursts, what tells you calving is likely proceeding normally?",
+              "నీటి తిత్తి పగిలిన తర్వాత, ఈత సాధారణంగానే జరుగుతోందని దేన్ని బట్టి తెలుస్తుంది?",
+              "நீர்ப்பை உடைந்த பிறகு, கன்று ஈனுதல் இயல்பாக நடக்கிறது என்பதை எது காட்டுகிறது?",
+              "ನೀರಿನ ಚೀಲ ಒಡೆದ ನಂತರ, ಕರು ಹಾಕುವುದು ಸಾಮಾನ್ಯವಾಗಿ ನಡೆಯುತ್ತಿದೆ ಎಂದು ಯಾವುದರಿಂದ ತಿಳಿಯುತ್ತದೆ?",
+              "पानी की थैली फटने के बाद, कौन सी बात बताती है कि ब्याना सामान्य ढंग से हो रहा है?"
+            ),
             options: [
-              L("Only one front leg appears"),
-              L("The calf's head and both front legs appear together"),
-              L("Nothing appears at all"),
-              L("The mother lies down for a long time before anything happens"),
+              L(
+                "Only one front leg appears",
+                "ఒక్క ముందు కాలు మాత్రమే కనిపించడం",
+                "ஒரே ஒரு முன்கால் மட்டும் தெரிவது",
+                "ಕೇವಲ ಒಂದು ಮುಂಗಾಲು ಮಾತ್ರ ಕಾಣುವುದು",
+                "सिर्फ एक अगली टाँग दिखना"
+              ),
+              L(
+                "The calf's head and both front legs appear together",
+                "దూడ తల మరియు రెండు ముందు కాళ్లు కలిసి కనిపించడం",
+                "கன்றின் தலையும் இரண்டு முன்கால்களும் சேர்ந்து தெரிவது",
+                "ಕರುವಿನ ತಲೆ ಮತ್ತು ಎರಡೂ ಮುಂಗಾಲುಗಳು ಒಟ್ಟಿಗೆ ಕಾಣುವುದು",
+                "बछड़े का सिर और दोनों अगली टाँगें साथ दिखना"
+              ),
+              L("Nothing appears at all", "ఏమీ కనిపించకపోవడం", "எதுவுமே தெரியாமல் இருப்பது", "ಏನೂ ಕಾಣದಿರುವುದು", "कुछ भी न दिखना"),
+              L(
+                "The mother lies down for a long time before anything happens",
+                "ఏదైనా జరగడానికి ముందు తల్లి చాలా సేపు పడుకుని ఉండటం",
+                "எதுவும் நடக்கும் முன் தாய் நீண்ட நேரம் படுத்துக் கிடப்பது",
+                "ಏನಾದರೂ ಆಗುವ ಮೊದಲು ತಾಯಿ ಬಹಳ ಹೊತ್ತು ಮಲಗಿರುವುದು",
+                "कुछ होने से पहले माँ का बहुत देर तक लेटे रहना"
+              ),
             ],
             answer: 1,
-            explain: L("Head and both front legs appearing together after the water bag bursts is the normal position, and calving usually proceeds on its own."),
+            explain: L(
+              "Head and both front legs appearing together after the water bag bursts is the normal position, and calving usually proceeds on its own.",
+              "నీటి తిత్తి పగిలిన తర్వాత తల మరియు రెండు ముందు కాళ్లు కలిసి కనిపించడం సాధారణ స్థితి, ఈత సాధారణంగా దానంతట అదే జరుగుతుంది.",
+              "நீர்ப்பை உடைந்த பிறகு தலையும் இரண்டு முன்கால்களும் சேர்ந்து தெரிவது இயல்பான நிலை, கன்று ஈனுதல் பொதுவாகத் தானாகவே நடக்கும்.",
+              "ನೀರಿನ ಚೀಲ ಒಡೆದ ನಂತರ ತಲೆ ಮತ್ತು ಎರಡೂ ಮುಂಗಾಲುಗಳು ಒಟ್ಟಿಗೆ ಕಾಣುವುದು ಸಾಮಾನ್ಯ ಸ್ಥಿತಿ, ಕರು ಹಾಕುವುದು ಸಾಮಾನ್ಯವಾಗಿ ತಾನಾಗಿಯೇ ನಡೆಯುತ್ತದೆ.",
+              "पानी की थैली फटने के बाद सिर और दोनों अगली टाँगों का साथ दिखना सामान्य स्थिति है, और ब्याना आमतौर पर अपने आप हो जाता है।"
+            ),
           },
           {
             type: "truefalse",
-            q: L("If an animal has not come back into heat within 60 days after calving, this should be reported to a veterinarian."),
+            q: L(
+              "If an animal has not come back into heat within 60 days after calving, this should be reported to a veterinarian.",
+              "ఈనిన 60 రోజుల్లోపు పశువు మళ్లీ ఎదకు రాకపోతే, ఈ విషయాన్ని పశువైద్యునికి తెలియజేయాలి.",
+              "கன்று ஈன்ற 60 நாட்களுக்குள் மாடு மீண்டும் சினைப்பருவத்துக்கு வரவில்லை என்றால், இதைக் கால்நடை மருத்துவரிடம் தெரிவிக்க வேண்டும்.",
+              "ಕರು ಹಾಕಿದ 60 ದಿನಗಳೊಳಗೆ ಪ್ರಾಣಿ ಮತ್ತೆ ಬೆದೆಗೆ ಬರದಿದ್ದರೆ, ಇದನ್ನು ಪಶುವೈದ್ಯರಿಗೆ ತಿಳಿಸಬೇಕು.",
+              "अगर पशु ब्याने के 60 दिन के अंदर फिर गर्मी में नहीं आया, तो यह पशु चिकित्सक को बताना चाहिए।"
+            ),
             answer: true,
-            explain: L("True — not returning to heat within 60 days after calving should be checked by a veterinarian."),
+            explain: L(
+              "True — not returning to heat within 60 days after calving should be checked by a veterinarian.",
+              "నిజమే — ఈనిన 60 రోజుల్లోపు ఎదకు రాకపోతే పశువైద్యుడు పరిశీలించాలి.",
+              "உண்மைதான் — கன்று ஈன்ற 60 நாட்களுக்குள் சினைப்பருவத்துக்கு வராவிட்டால் கால்நடை மருத்துவர் பரிசோதிக்க வேண்டும்.",
+              "ನಿಜ — ಕರು ಹಾಕಿದ 60 ದಿನಗಳೊಳಗೆ ಬೆದೆಗೆ ಬರದಿದ್ದರೆ ಪಶುವೈದ್ಯರು ಪರೀಕ್ಷಿಸಬೇಕು.",
+              "सही — ब्याने के 60 दिन के अंदर गर्मी में न आने पर पशु चिकित्सक से जाँच करानी चाहिए।"
+            ),
           },
         ],
       },
@@ -10738,64 +11657,195 @@ export const MODULES = [
         {
           topicId: "t-m12-drying-off",
           type: "mcq",
-          q: L("What is the 'dry period' in a dairy cow's cycle?"),
+          q: L(
+            "What is the 'dry period' in a dairy cow's cycle?",
+            "పాడి ఆవు చక్రంలో 'డ్రై పీరియడ్' అంటే ఏమిటి?",
+            "பால் பசுவின் சுழற்சியில் 'வற்றல் காலம்' என்றால் என்ன?",
+            "ಹೈನು ಹಸುವಿನ ಚಕ್ರದಲ್ಲಿ 'ಒಣ ಅವಧಿ' ಎಂದರೇನು?",
+            "दुधारू गाय के चक्र में 'ड्राई पीरियड' क्या है?"
+          ),
           options: [
-            L("A period when the cow is deliberately not milked, to let her body rest before her next calving"),
-            L("A period when the cow is given no water"),
-            L("The time right after AI"),
-            L("A punishment for a sick cow"),
+            L(
+              "A period when the cow is deliberately not milked, to let her body rest before her next calving",
+              "ఆవు తర్వాతి ఈతకు ముందు శరీరం విశ్రాంతి తీసుకునేందుకు ఉద్దేశపూర్వకంగా పాలు పితకని కాలం",
+              "பசு அடுத்த கன்று ஈனுவதற்கு முன் உடல் ஓய்வெடுக்க, வேண்டுமென்றே பால் கறக்காத காலம்",
+              "ಹಸು ತನ್ನ ಮುಂದಿನ ಕರು ಹಾಕುವ ಮೊದಲು ದೇಹಕ್ಕೆ ವಿಶ್ರಾಂತಿ ಸಿಗಲೆಂದು ಉದ್ದೇಶಪೂರ್ವಕವಾಗಿ ಹಾಲು ಕರೆಯದ ಅವಧಿ",
+              "वह समय जब गाय के अगले ब्याने से पहले उसके शरीर को आराम देने के लिए जान-बूझकर दूध नहीं निकाला जाता"
+            ),
+            L(
+              "A period when the cow is given no water",
+              "ఆవుకు నీళ్లు ఇవ్వని కాలం",
+              "பசுவுக்குத் தண்ணீர் கொடுக்காத காலம்",
+              "ಹಸುವಿಗೆ ನೀರು ಕೊಡದ ಅವಧಿ",
+              "वह समय जब गाय को पानी नहीं दिया जाता"
+            ),
+            L("The time right after AI", "AI అయిన వెంటనే వచ్చే సమయం", "AI செய்த உடனே வரும் நேரம்", "AI ಆದ ತಕ್ಷಣದ ಸಮಯ", "AI के ठीक बाद का समय"),
+            L(
+              "A punishment for a sick cow",
+              "అనారోగ్యంగా ఉన్న ఆవుకు శిక్ష",
+              "நோயுற்ற பசுவுக்கான தண்டனை",
+              "ಅನಾರೋಗ್ಯದ ಹಸುವಿಗೆ ಶಿಕ್ಷೆ",
+              "बीमार गाय के लिए सज़ा"
+            ),
           ],
           answer: 0,
-          explain: L("The dry period is a deliberate rest from milking, lasting around 60 days, before the next calving."),
+          explain: L(
+            "The dry period is a deliberate rest from milking, lasting around 60 days, before the next calving.",
+            "డ్రై పీరియడ్ అంటే తర్వాతి ఈతకు ముందు, సుమారు 60 రోజుల పాటు ఉద్దేశపూర్వకంగా పాలు పితకకుండా ఇచ్చే విశ్రాంతి.",
+            "வற்றல் காலம் என்பது அடுத்த கன்று ஈனுவதற்கு முன், சுமார் 60 நாட்களுக்கு வேண்டுமென்றே பால் கறக்காமல் அளிக்கும் ஓய்வு.",
+            "ಒಣ ಅವಧಿ ಎಂದರೆ ಮುಂದಿನ ಕರು ಹಾಕುವ ಮೊದಲು, ಸುಮಾರು 60 ದಿನಗಳ ಕಾಲ ಉದ್ದೇಶಪೂರ್ವಕವಾಗಿ ಹಾಲು ಕರೆಯದೆ ನೀಡುವ ವಿಶ್ರಾಂತಿ.",
+            "ड्राई पीरियड अगले ब्याने से पहले करीब 60 दिन तक जान-बूझकर दूध न निकालकर दिया जाने वाला आराम है।"
+          ),
         },
         {
           topicId: "t-m12-drying-off",
           type: "truefalse",
-          q: L("A dry cow does not need to be checked visually every day, since she is not being milked.",
+          q: L(
+            "A dry cow does not need to be checked visually every day, since she is not being milked.",
+            "డ్రై ఆవుకు పాలు పితకడం లేదు కాబట్టి, ప్రతిరోజూ కళ్లతో పరీక్షించాల్సిన అవసరం లేదు.",
+            "வற்றல் பசுவிடம் பால் கறக்கப்படுவதில்லை என்பதால், தினமும் கண்ணால் பார்த்துப் பரிசோதிக்க வேண்டிய அவசியம் இல்லை.",
+            "ಒಣ ಹಸುವಿನಿಂದ ಹಾಲು ಕರೆಯುತ್ತಿಲ್ಲ ಆದ್ದರಿಂದ, ಪ್ರತಿದಿನ ಕಣ್ಣಿನಿಂದ ಪರೀಕ್ಷಿಸುವ ಅಗತ್ಯವಿಲ್ಲ.",
+            "सूखी गाय का दूध नहीं निकाला जाता, इसलिए उसे हर दिन आँखों से जाँचने की ज़रूरत नहीं है।"
           ),
           answer: false,
-          explain: L("False — dry cows should still be checked visually every day, and always have access to water."),
+          explain: L(
+            "False — dry cows should still be checked visually every day, and always have access to water.",
+            "తప్పు — డ్రై ఆవులను కూడా ప్రతిరోజూ కళ్లతో పరీక్షించాలి, వాటికి ఎప్పుడూ నీళ్లు అందుబాటులో ఉండాలి.",
+            "தவறு — வற்றல் பசுக்களையும் தினமும் கண்ணால் பார்த்துப் பரிசோதிக்க வேண்டும், அவற்றுக்கு எப்போதும் தண்ணீர் கிடைக்க வேண்டும்.",
+            "ತಪ್ಪು — ಒಣ ಹಸುಗಳನ್ನೂ ಪ್ರತಿದಿನ ಕಣ್ಣಿನಿಂದ ಪರೀಕ್ಷಿಸಬೇಕು, ಅವುಗಳಿಗೆ ಯಾವಾಗಲೂ ನೀರು ಸಿಗುವಂತಿರಬೇಕು.",
+            "गलत — सूखी गायों को भी हर दिन आँखों से जाँचना चाहिए, और उन्हें हमेशा पानी मिलना चाहिए।"
+          ),
         },
         {
           topicId: "t-m12-calving-signs",
           type: "mcq",
-          q: L("What is 'dystocia'?"),
+          q: L("What is 'dystocia'?", "'డిస్టోకియా' అంటే ఏమిటి?", "'டிஸ்டோகியா' என்றால் என்ன?", "'ಡಿಸ್ಟೋಕಿಯಾ' ಎಂದರೇನು?", "'डिस्टोकिया' क्या है?"),
           options: [
-            L("A normal, healthy pregnancy"),
-            L("Difficult or delayed calving, beyond the normal time after the water bag bursts"),
-            L("A type of frozen semen dose"),
-            L("The sign an animal is in heat"),
+            L(
+              "A normal, healthy pregnancy",
+              "సాధారణ, ఆరోగ్యకరమైన గర్భం",
+              "இயல்பான, ஆரோக்கியமான சினைக்காலம்",
+              "ಸಾಮಾನ್ಯ, ಆರೋಗ್ಯಕರ ಗರ್ಭಾವಸ್ಥೆ",
+              "सामान्य, स्वस्थ गर्भावस्था"
+            ),
+            L(
+              "Difficult or delayed calving, beyond the normal time after the water bag bursts",
+              "నీటి తిత్తి పగిలిన తర్వాత సాధారణ సమయం దాటిపోయినా కష్టంగా లేదా ఆలస్యంగా జరిగే ఈత",
+              "நீர்ப்பை உடைந்த பிறகு இயல்பான நேரத்தைத் தாண்டியும் கடினமாக அல்லது தாமதமாக நடக்கும் கன்று ஈனுதல்",
+              "ನೀರಿನ ಚೀಲ ಒಡೆದ ನಂತರ ಸಾಮಾನ್ಯ ಸಮಯ ಮೀರಿ ಕಷ್ಟದಿಂದ ಅಥವಾ ತಡವಾಗಿ ನಡೆಯುವ ಕರು ಹಾಕುವಿಕೆ",
+              "पानी की थैली फटने के बाद सामान्य समय से ज़्यादा, कठिन या देर से होने वाला ब्याना"
+            ),
+            L(
+              "A type of frozen semen dose",
+              "ఒక రకమైన ఫ్రోజెన్ సెమెన్ డోస్",
+              "ஒரு வகை உறைந்த விந்து மருந்தளவு",
+              "ಒಂದು ವಿಧದ ಹೆಪ್ಪುಗಟ್ಟಿದ ವೀರ್ಯ ಡೋಸ್",
+              "एक तरह की फ्रोज़न सीमेन डोज़"
+            ),
+            L(
+              "The sign an animal is in heat",
+              "పశువు ఎదలో ఉందనే సంకేతం",
+              "மாடு சினைப்பருவத்தில் இருப்பதற்கான அறிகுறி",
+              "ಪ್ರಾಣಿ ಬೆದೆಯಲ್ಲಿದೆ ಎಂಬುದರ ಲಕ್ಷಣ",
+              "पशु के गर्मी में होने की निशानी"
+            ),
           ],
           answer: 1,
-          explain: L("Dystocia means difficult or delayed calving — calving that does not happen within the normal time frame after the water bag bursts."),
+          explain: L(
+            "Dystocia means difficult or delayed calving — calving that does not happen within the normal time frame after the water bag bursts.",
+            "డిస్టోకియా అంటే కష్టమైన లేదా ఆలస్యమైన ఈత — నీటి తిత్తి పగిలిన తర్వాత సాధారణ సమయంలో జరగని ఈత.",
+            "டிஸ்டோகியா என்பது கடினமான அல்லது தாமதமான கன்று ஈனுதல் — நீர்ப்பை உடைந்த பிறகு இயல்பான நேரத்துக்குள் நடக்காத கன்று ஈனுதல்.",
+            "ಡಿಸ್ಟೋಕಿಯಾ ಎಂದರೆ ಕಷ್ಟಕರ ಅಥವಾ ತಡವಾದ ಕರು ಹಾಕುವಿಕೆ — ನೀರಿನ ಚೀಲ ಒಡೆದ ನಂತರ ಸಾಮಾನ್ಯ ಸಮಯದೊಳಗೆ ನಡೆಯದ ಕರು ಹಾಕುವಿಕೆ.",
+            "डिस्टोकिया का मतलब है कठिन या देर से ब्याना — ऐसा ब्याना जो पानी की थैली फटने के बाद सामान्य समय के भीतर न हो।"
+          ),
         },
         {
           topicId: "t-m12-calving-signs",
           type: "truefalse",
-          q: L("If nothing appears at all after the water bag bursts, you should call a veterinarian immediately."),
+          q: L(
+            "If nothing appears at all after the water bag bursts, you should call a veterinarian immediately.",
+            "నీటి తిత్తి పగిలిన తర్వాత ఏమీ కనిపించకపోతే, మీరు వెంటనే పశువైద్యుడిని పిలవాలి.",
+            "நீர்ப்பை உடைந்த பிறகு எதுவுமே தெரியவில்லை என்றால், நீங்கள் உடனே கால்நடை மருத்துவரை அழைக்க வேண்டும்.",
+            "ನೀರಿನ ಚೀಲ ಒಡೆದ ನಂತರ ಏನೂ ಕಾಣದಿದ್ದರೆ, ನೀವು ತಕ್ಷಣ ಪಶುವೈದ್ಯರನ್ನು ಕರೆಯಬೇಕು.",
+            "अगर पानी की थैली फटने के बाद कुछ भी दिखाई न दे, तो आपको तुरंत पशु चिकित्सक को बुलाना चाहिए।"
+          ),
           answer: true,
-          explain: L("True — if nothing appears after the water bag bursts, or the position looks abnormal, call a vet immediately. Delay makes things worse."),
+          explain: L(
+            "True — if nothing appears after the water bag bursts, or the position looks abnormal, call a vet immediately. Delay makes things worse.",
+            "నిజమే — నీటి తిత్తి పగిలిన తర్వాత ఏమీ కనిపించకపోయినా, లేదా స్థితి అసాధారణంగా కనిపించినా, వెంటనే వెట్‌ను పిలవండి. ఆలస్యం పరిస్థితిని మరింత దిగజారుస్తుంది.",
+            "உண்மைதான் — நீர்ப்பை உடைந்த பிறகு எதுவுமே தெரியாவிட்டாலும், அல்லது நிலை அசாதாரணமாகத் தெரிந்தாலும், உடனே கால்நடை மருத்துவரை அழைக்கவும். தாமதம் நிலைமையை மோசமாக்கும்.",
+            "ನಿಜ — ನೀರಿನ ಚೀಲ ಒಡೆದ ನಂತರ ಏನೂ ಕಾಣದಿದ್ದರೆ, ಅಥವಾ ಸ್ಥಿತಿ ಅಸಾಮಾನ್ಯವಾಗಿ ಕಂಡರೆ, ತಕ್ಷಣ ಪಶುವೈದ್ಯರನ್ನು ಕರೆಯಿರಿ. ವಿಳಂಬ ಪರಿಸ್ಥಿತಿಯನ್ನು ಇನ್ನಷ್ಟು ಹದಗೆಡಿಸುತ್ತದೆ.",
+            "सही — पानी की थैली फटने के बाद अगर कुछ भी न दिखे या स्थिति असामान्य लगे, तो तुरंत डॉक्टर को बुलाएँ। देरी से हालात और बिगड़ते हैं।"
+          ),
         },
         {
           topicId: "t-m12-calving-signs",
           type: "mcq",
-          q: L("For a heifer (a first-time mother), how long can calving normally take after the water bag bursts?"),
-          options: [L("Up to 4 hours"), L("Up to 4 days"), L("Only a few seconds"), L("It never bursts for heifers")],
+          q: L(
+            "For a heifer (a first-time mother), how long can calving normally take after the water bag bursts?",
+            "ఒక పెయ్య (మొదటిసారి ఈనే పశువు)కు నీటి తిత్తి పగిలిన తర్వాత ఈత సాధారణంగా ఎంత సేపు పట్టవచ్చు?",
+            "ஒரு கிடேரிக்கு (முதல் முறை கன்று ஈனும் மாடு) நீர்ப்பை உடைந்த பிறகு கன்று ஈனுதல் இயல்பாக எவ்வளவு நேரம் ஆகலாம்?",
+            "ಒಂದು ಕಡಸಿಗೆ (ಮೊದಲ ಬಾರಿ ಕರು ಹಾಕುವ ಪ್ರಾಣಿ) ನೀರಿನ ಚೀಲ ಒಡೆದ ನಂತರ ಕರು ಹಾಕಲು ಸಾಮಾನ್ಯವಾಗಿ ಎಷ್ಟು ಹೊತ್ತು ಹಿಡಿಯಬಹುದು?",
+            "एक बछिया (पहली बार ब्याने वाली) को पानी की थैली फटने के बाद ब्याने में सामान्य रूप से कितना समय लग सकता है?"
+          ),
+          options: [L("Up to 4 hours", "4 గంటల వరకు", "4 மணி நேரம் வரை", "4 ಗಂಟೆಗಳವರೆಗೆ", "4 घंटे तक"), L("Up to 4 days", "4 రోజుల వరకు", "4 நாட்கள் வரை", "4 ದಿನಗಳವರೆಗೆ", "4 दिन तक"), L("Only a few seconds", "కొన్ని సెకన్లు మాత్రమే", "சில வினாடிகள் மட்டுமே", "ಕೆಲವೇ ಸೆಕೆಂಡುಗಳು ಮಾತ್ರ", "सिर्फ कुछ सेकंड"), L(
+            "It never bursts for heifers",
+            "పెయ్యలకు అది ఎప్పటికీ పగలదు",
+            "கிடேரிகளுக்கு அது ஒருபோதும் உடையாது",
+            "ಕಡಸುಗಳಿಗೆ ಅದು ಎಂದಿಗೂ ಒಡೆಯುವುದಿಲ್ಲ",
+            "बछियों में वह कभी नहीं फटती"
+          )],
           answer: 0,
-          explain: L("For heifers, calving may normally take up to 4 hours after the water bag bursts — longer than for older cows, but still normal."),
+          explain: L(
+            "For heifers, calving may normally take up to 4 hours after the water bag bursts — longer than for older cows, but still normal.",
+            "పెయ్యలకు, నీటి తిత్తి పగిలిన తర్వాత ఈత సాధారణంగా 4 గంటల వరకు పట్టవచ్చు — పెద్ద ఆవులకంటే ఎక్కువ, అయినా సాధారణమే.",
+            "கிடேரிகளுக்கு, நீர்ப்பை உடைந்த பிறகு கன்று ஈனுதல் இயல்பாக 4 மணி நேரம் வரை ஆகலாம் — வளர்ந்த பசுக்களை விட அதிகம், ஆனாலும் இயல்பானதே.",
+            "ಕಡಸುಗಳಿಗೆ, ನೀರಿನ ಚೀಲ ಒಡೆದ ನಂತರ ಕರು ಹಾಕುವುದು ಸಾಮಾನ್ಯವಾಗಿ 4 ಗಂಟೆಗಳವರೆಗೆ ತೆಗೆದುಕೊಳ್ಳಬಹುದು — ವಯಸ್ಕ ಹಸುಗಳಿಗಿಂತ ಹೆಚ್ಚು, ಆದರೂ ಸಾಮಾನ್ಯವೇ.",
+            "बछियों में पानी की थैली फटने के बाद ब्याने में सामान्य रूप से 4 घंटे तक लग सकते हैं — बड़ी गायों से ज़्यादा, फिर भी सामान्य।"
+          ),
         },
         {
           topicId: "t-m12-drying-off",
           type: "mcq",
-          q: L("What risk does a dry period that runs too long create?"),
+          q: L(
+            "What risk does a dry period that runs too long create?",
+            "చాలా ఎక్కువ కాలం సాగే డ్రై పీరియడ్ వల్ల ఏ ప్రమాదం వస్తుంది?",
+            "மிக நீண்ட வற்றல் காலத்தால் என்ன ஆபத்து ஏற்படுகிறது?",
+            "ತುಂಬಾ ಹೆಚ್ಚು ಕಾಲ ಸಾಗುವ ಒಣ ಅವಧಿಯಿಂದ ಯಾವ ಅಪಾಯ ಉಂಟಾಗುತ್ತದೆ?",
+            "बहुत लंबा ड्राई पीरियड किस तरह का खतरा पैदा करता है?"
+          ),
           options: [
-            L("The animal becomes too thin"),
-            L("The animal risks becoming overweight, obesity-related disease, and difficulty calving"),
-            L("The animal stops needing water"),
-            L("There is no risk at all"),
+            L(
+              "The animal becomes too thin",
+              "పశువు మరీ సన్నబడుతుంది",
+              "மாடு மிகவும் மெலிந்துவிடும்",
+              "ಪ್ರಾಣಿ ತುಂಬಾ ಸಣ್ಣಗಾಗುತ್ತದೆ",
+              "पशु बहुत दुबला हो जाता है"
+            ),
+            L(
+              "The animal risks becoming overweight, obesity-related disease, and difficulty calving",
+              "పశువు లావెక్కడం, స్థూలకాయ సంబంధిత వ్యాధి, ఈనడంలో ఇబ్బంది వచ్చే ప్రమాదం ఉంది",
+              "மாடு அதிக எடை போடுதல், உடல் பருமன் தொடர்பான நோய், கன்று ஈனுவதில் சிரமம் ஆகிய ஆபத்து உள்ளது",
+              "ಪ್ರಾಣಿ ಬೊಜ್ಜು ಬೆಳೆಸಿಕೊಳ್ಳುವ, ಬೊಜ್ಜಿಗೆ ಸಂಬಂಧಿಸಿದ ರೋಗ ಬರುವ, ಕರು ಹಾಕುವಲ್ಲಿ ತೊಂದರೆಯಾಗುವ ಅಪಾಯವಿದೆ",
+              "पशु के मोटे होने, मोटापे से जुड़ी बीमारी और ब्याने में दिक्कत का खतरा रहता है"
+            ),
+            L(
+              "The animal stops needing water",
+              "పశువుకు ఇక నీళ్లు అవసరం ఉండదు",
+              "மாட்டுக்கு இனி தண்ணீர் தேவையில்லை",
+              "ಪ್ರಾಣಿಗೆ ಇನ್ನು ನೀರಿನ ಅಗತ್ಯವಿರುವುದಿಲ್ಲ",
+              "पशु को अब पानी की ज़रूरत नहीं रहती"
+            ),
+            L("There is no risk at all", "ఎలాంటి ప్రమాదమూ లేదు", "எந்த ஆபத்தும் இல்லை", "ಯಾವುದೇ ಅಪಾಯವಿಲ್ಲ", "कोई खतरा नहीं है"),
           ],
           answer: 1,
-          explain: L("A prolonged dry period risks the animal becoming overweight, developing obesity-related disease, and having a harder calving."),
+          explain: L(
+            "A prolonged dry period risks the animal becoming overweight, developing obesity-related disease, and having a harder calving.",
+            "డ్రై పీరియడ్ ఎక్కువ కాలం సాగితే, పశువు లావెక్కడం, స్థూలకాయ సంబంధిత వ్యాధి రావడం, ఈత కష్టం కావడం వంటి ప్రమాదాలు ఉంటాయి.",
+            "வற்றல் காலம் நீண்டுவிட்டால், மாடு அதிக எடை போடுதல், உடல் பருமன் தொடர்பான நோய் வருதல், கன்று ஈனுதல் கடினமாதல் போன்ற ஆபத்துகள் உள்ளன.",
+            "ಒಣ ಅವಧಿ ಹೆಚ್ಚು ಕಾಲ ಮುಂದುವರಿದರೆ, ಪ್ರಾಣಿ ಬೊಜ್ಜು ಬೆಳೆಸಿಕೊಳ್ಳುವುದು, ಬೊಜ್ಜಿಗೆ ಸಂಬಂಧಿಸಿದ ರೋಗ ಬರುವುದು, ಕರು ಹಾಕುವುದು ಕಷ್ಟವಾಗುವುದು ಮುಂತಾದ ಅಪಾಯಗಳಿವೆ.",
+            "अगर ड्राई पीरियड लंबा खिंच जाए, तो पशु के मोटे होने, मोटापे से जुड़ी बीमारी होने और ब्याना कठिन होने जैसे खतरे रहते हैं।"
+          ),
         },
       ],
     },
