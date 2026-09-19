@@ -13907,8 +13907,8 @@ export const MODULES = [
   {
     id: "m14",
     number: 14,
-    title: L("Feeding of Animals"),
-    subtitle: L("The basics of what a healthy diet for a dairy animal looks like."),
+    title: L("Feeding of Animals", "పశువులకు మేత పెట్టడం", "விலங்குகளுக்கு தீவனம் அளித்தல்", "ಪ್ರಾಣಿಗಳಿಗೆ ಮೇವು ನೀಡುವುದು", "पशुओं को चारा खिलाना"),
+    subtitle: L("The basics of what a healthy diet for a dairy animal looks like.", "పాడి పశువుకు ఆరోగ్యకరమైన ఆహారం ఎలా ఉండాలో ప్రాథమిక విషయాలు.", "கறவை மாட்டுக்கு ஆரோக்கியமான உணவு எப்படி இருக்க வேண்டும் என்பதன் அடிப்படைகள்.", "ಹೈನು ಪ್ರಾಣಿಗೆ ಆರೋಗ್ಯಕರ ಆಹಾರ ಹೇಗಿರಬೇಕು ಎಂಬುದರ ಮೂಲಭೂತ ಅಂಶಗಳು.", "दुधारू पशु के लिए सेहतमंद आहार कैसा होना चाहिए, इसकी बुनियादी बातें।"),
     icon: "feed",
     available: true,
     lessons: [
@@ -13917,190 +13917,250 @@ export const MODULES = [
   // ==================================================================
   {
     id: "m14-l1",
-    title: L("The Basics of a Balanced Diet"),
+    title: L("The Basics of a Balanced Diet", "సమతుల్య ఆహారం యొక్క ప్రాథమిక అంశాలు", "சமச்சீர் உணவின் அடிப்படைகள்", "ಸಮತೋಲಿತ ಆಹಾರದ ಮೂಲಭೂತ ಅಂಶಗಳು", "संतुलित आहार की बुनियादी बातें"),
     estMinutes: 8,
     hook: [
       {
         type: "hero",
-        heading: L("Feeding Is the Biggest Job on the Farm"),
+        heading: L("Feeding Is the Biggest Job on the Farm", "పొలంలో అన్నింటికన్నా పెద్ద పని మేత పెట్టడమే", "பண்ணையில் மிகப் பெரிய வேலை தீவனம் அளிப்பதுதான்", "ಫಾರ್ಮ್‌ನಲ್ಲಿ ಅತಿ ದೊಡ್ಡ ಕೆಲಸ ಮೇವು ನೀಡುವುದು", "खेत का सबसे बड़ा काम है चारा खिलाना"),
         text: L(
-          "More than almost anything else you do for an animal, what and how much it eats decides how healthy it stays and how much milk it gives. Feeding alone makes up around 70% of the total cost of producing milk — get it right, and you are already doing most of the job well. This lesson starts from zero: what a diet is actually made of, and what 'balanced' really means."
+          "More than almost anything else you do for an animal, what and how much it eats decides how healthy it stays and how much milk it gives. Feeding alone makes up around 70% of the total cost of producing milk — get it right, and you are already doing most of the job well. This lesson starts from zero: what a diet is actually made of, and what 'balanced' really means.",
+          "మీరు పశువుకు చేసే మిగతా ఏ పనికన్నా, అది ఏమి తింటుంది, ఎంత తింటుంది అన్నదే అది ఎంత ఆరోగ్యంగా ఉంటుంది, ఎంత పాలు ఇస్తుంది అని నిర్ణయిస్తుంది. పాల ఉత్పత్తి మొత్తం ఖర్చులో దాదాపు 70% మేతకే అవుతుంది — దీన్ని సరిగ్గా చేస్తే, మీరు ఇప్పటికే చాలా వరకు పని బాగా చేస్తున్నట్టే. ఈ పాఠం మొదటి నుండి మొదలవుతుంది: ఆహారం అంటే నిజంగా దేనితో తయారవుతుంది, 'సమతుల్యం' అంటే అసలు అర్థం ఏమిటి.",
+          "நீங்கள் ஒரு விலங்குக்குச் செய்யும் மற்ற எதையும் விட, அது என்ன சாப்பிடுகிறது, எவ்வளவு சாப்பிடுகிறது என்பதுதான் அது எவ்வளவு ஆரோக்கியமாக இருக்கும், எவ்வளவு பால் தரும் என்பதைத் தீர்மானிக்கிறது. பால் உற்பத்தி செய்யும் மொத்தச் செலவில் சுமார் 70% தீவனத்துக்கே செல்கிறது — இதைச் சரியாகச் செய்தால், பெரும்பாலான வேலையை நீங்கள் ஏற்கனவே நன்றாகச் செய்துவிட்டீர்கள். இந்தப் பாடம் ஆரம்பத்திலிருந்து தொடங்குகிறது: உணவு உண்மையில் எதனால் ஆனது, 'சமச்சீர்' என்றால் உண்மையில் என்ன.",
+          "ನೀವು ಪ್ರಾಣಿಗೆ ಮಾಡುವ ಬೇರೆ ಯಾವುದೇ ಕೆಲಸಕ್ಕಿಂತ, ಅದು ಏನು ತಿನ್ನುತ್ತದೆ ಮತ್ತು ಎಷ್ಟು ತಿನ್ನುತ್ತದೆ ಎಂಬುದೇ ಅದು ಎಷ್ಟು ಆರೋಗ್ಯವಾಗಿರುತ್ತದೆ ಮತ್ತು ಎಷ್ಟು ಹಾಲು ಕೊಡುತ್ತದೆ ಎಂದು ನಿರ್ಧರಿಸುತ್ತದೆ. ಹಾಲು ಉತ್ಪಾದನೆಯ ಒಟ್ಟು ವೆಚ್ಚದ ಸುಮಾರು 70% ಮೇವಿಗೇ ಹೋಗುತ್ತದೆ — ಇದನ್ನು ಸರಿಯಾಗಿ ಮಾಡಿದರೆ, ನೀವು ಈಗಾಗಲೇ ಹೆಚ್ಚಿನ ಕೆಲಸವನ್ನು ಚೆನ್ನಾಗಿ ಮಾಡುತ್ತಿದ್ದೀರಿ. ಈ ಪಾಠ ಮೊದಲಿನಿಂದ ಆರಂಭವಾಗುತ್ತದೆ: ಆಹಾರ ನಿಜವಾಗಿ ಯಾವುದರಿಂದ ಮಾಡಲ್ಪಟ್ಟಿದೆ ಮತ್ತು 'ಸಮತೋಲಿತ' ಎಂದರೆ ನಿಜವಾಗಿ ಏನು.",
+          "आप जानवर के लिए जो भी करते हैं, उनमें सबसे ज़्यादा यही तय करता है कि वह क्या खाता है और कितना खाता है — इसी से उसकी सेहत और दूध की मात्रा तय होती है। दूध बनाने की कुल लागत का करीब 70% हिस्सा अकेले चारे-दाने पर खर्च होता है — इसे सही कर लिया तो आपका ज़्यादातर काम पहले ही अच्छा हो गया। यह पाठ शुरुआत से चलता है: आहार असल में किन चीज़ों से बनता है, और 'संतुलित' का सही मतलब क्या है।"
         ),
       },
     ],
     topics: [
       {
         id: "t-m14-feed-types",
-        title: L("The Building Blocks of an Animal's Diet"),
+        title: L("The Building Blocks of an Animal's Diet", "పశువు ఆహారంలోని ముఖ్య భాగాలు", "விலங்கின் உணவின் அடிப்படைப் பகுதிகள்", "ಪ್ರಾಣಿಯ ಆಹಾರದ ಮುಖ್ಯ ಘಟಕಗಳು", "पशु के आहार के मुख्य हिस्से"),
         teach: [
           {
             type: "text",
-            heading: L("What Does an Animal Actually Eat?"),
+            heading: L("What Does an Animal Actually Eat?", "పశువు నిజంగా ఏమి తింటుంది?", "விலங்கு உண்மையில் என்ன சாப்பிடுகிறது?", "ಪ್ರಾಣಿ ನಿಜವಾಗಿ ಏನು ತಿನ್ನುತ್ತದೆ?", "पशु असल में क्या खाता है?"),
             html: L(
-              "A cow or buffalo's daily food is called its <b>diet</b>. In dairy farming, feeding is not a small detail — it makes up around 70% of the total cost of producing milk. Getting the diet right affects the animal's health, and how much milk it gives, more than almost anything else you do."
+              "A cow or buffalo's daily food is called its <b>diet</b>. In dairy farming, feeding is not a small detail — it makes up around 70% of the total cost of producing milk. Getting the diet right affects the animal's health, and how much milk it gives, more than almost anything else you do.",
+              "ఆవు లేదా గేదె రోజువారీ ఆహారాన్ని <b>ఆహారం (డైట్)</b> అంటారు. పాడి పరిశ్రమలో, మేత పెట్టడం చిన్న విషయం కాదు — పాల ఉత్పత్తి మొత్తం ఖర్చులో దాదాపు 70% దీనికే అవుతుంది. ఆహారం సరిగ్గా ఇవ్వడం పశువు ఆరోగ్యంపై, అది ఇచ్చే పాల మొత్తంపై మీరు చేసే మిగతా ఏ పనికన్నా ఎక్కువ ప్రభావం చూపుతుంది.",
+              "பசு அல்லது எருமையின் தினசரி உணவு <b>உணவுமுறை (டயட்)</b> எனப்படும். பால் பண்ணையில், தீவனம் அளிப்பது சிறிய விஷயம் அல்ல — பால் உற்பத்தி செய்யும் மொத்தச் செலவில் சுமார் 70% இதற்கே ஆகிறது. உணவை சரியாக அளிப்பது, நீங்கள் செய்யும் மற்ற எதையும் விட, விலங்கின் ஆரோக்கியத்தையும் அது தரும் பாலின் அளவையும் அதிகம் பாதிக்கிறது.",
+              "ಹಸು ಅಥವಾ ಎಮ್ಮೆಯ ದಿನನಿತ್ಯದ ಆಹಾರವನ್ನು <b>ಆಹಾರಕ್ರಮ (ಡಯಟ್)</b> ಎನ್ನುತ್ತಾರೆ. ಹೈನುಗಾರಿಕೆಯಲ್ಲಿ ಮೇವು ನೀಡುವುದು ಸಣ್ಣ ವಿಷಯವಲ್ಲ — ಹಾಲು ಉತ್ಪಾದನೆಯ ಒಟ್ಟು ವೆಚ್ಚದ ಸುಮಾರು 70% ಇದಕ್ಕೇ ಹೋಗುತ್ತದೆ. ಆಹಾರವನ್ನು ಸರಿಯಾಗಿ ನೀಡುವುದು, ನೀವು ಮಾಡುವ ಬೇರೆ ಯಾವುದಕ್ಕಿಂತಲೂ ಹೆಚ್ಚಾಗಿ, ಪ್ರಾಣಿಯ ಆರೋಗ್ಯ ಮತ್ತು ಅದು ಕೊಡುವ ಹಾಲಿನ ಪ್ರಮಾಣದ ಮೇಲೆ ಪರಿಣಾಮ ಬೀರುತ್ತದೆ.",
+              "गाय या भैंस के रोज़ के खाने को उसका <b>आहार</b> कहते हैं। डेयरी में चारा-दाना देना कोई छोटी बात नहीं है — दूध बनाने की कुल लागत का करीब 70% इसी पर खर्च होता है। आहार सही देने का असर पशु की सेहत और दूध की मात्रा पर, आपके बाकी किसी भी काम से ज़्यादा पड़ता है।"
             ),
           },
           {
             type: "glossary",
-            term: L("Green Fodder"),
+            term: L("Green Fodder", "పచ్చి మేత", "பச்சை தீவனம்", "ಹಸಿರು ಮೇವು", "हरा चारा"),
             meaning: L(
-              "Fresh, growing plant material cut for the animal to eat — cultivated grasses and fodder crops. It is soft, moist, and animals find it very tasty."
+              "Fresh, growing plant material cut for the animal to eat — cultivated grasses and fodder crops. It is soft, moist, and animals find it very tasty.",
+              "పశువు తినడానికి కోసిన తాజా, పెరుగుతున్న మొక్కల పదార్థం — సాగు చేసిన గడ్డి, పశుగ్రాస పంటలు. ఇది మెత్తగా, తేమగా ఉంటుంది, పశువులకు చాలా రుచిగా ఉంటుంది.",
+              "விலங்கு சாப்பிடுவதற்காக வெட்டப்பட்ட புதிய, வளரும் தாவரப் பொருள் — பயிரிடப்பட்ட புற்கள் மற்றும் தீவனப் பயிர்கள். இது மென்மையாகவும் ஈரப்பதத்துடனும் இருக்கும், விலங்குகளுக்கு மிகவும் ருசியாக இருக்கும்.",
+              "ಪ್ರಾಣಿ ತಿನ್ನಲು ಕತ್ತರಿಸಿದ ತಾಜಾ, ಬೆಳೆಯುತ್ತಿರುವ ಸಸ್ಯ ವಸ್ತು — ಬೆಳೆಸಿದ ಹುಲ್ಲು ಮತ್ತು ಮೇವಿನ ಬೆಳೆಗಳು. ಇದು ಮೃದು, ತೇವಾಂಶವುಳ್ಳದ್ದು, ಪ್ರಾಣಿಗಳಿಗೆ ತುಂಬಾ ರುಚಿಯಾಗಿರುತ್ತದೆ.",
+              "जानवर के खाने के लिए काटी गई ताज़ा, बढ़ती हुई पौधों की सामग्री — उगाई गई घास और चारा फसलें। यह नरम और नमी वाली होती है, और जानवरों को बहुत स्वादिष्ट लगती है।"
             ),
           },
           {
             type: "glossary",
-            term: L("Dry Fodder"),
+            term: L("Dry Fodder", "ఎండుమేత", "உலர் தீவனம்", "ಒಣ ಮೇವು", "सूखा चारा"),
             meaning: L(
-              "Fodder that has dried out, such as straw or crop residue left over after harvest. It has less nutrition than green fodder, but is often more easily available all year round."
+              "Fodder that has dried out, such as straw or crop residue left over after harvest. It has less nutrition than green fodder, but is often more easily available all year round.",
+              "ఎండిపోయిన మేత, ఉదాహరణకు గడ్డి (వరిగడ్డి) లేదా పంట కోత తర్వాత మిగిలిన అవశేషాలు. దీనిలో పచ్చి మేతకన్నా పోషకాలు తక్కువ, కానీ ఏడాది పొడవునా సులభంగా దొరుకుతుంది.",
+              "காய்ந்துபோன தீவனம், உதாரணமாக வைக்கோல் அல்லது அறுவடைக்குப் பிறகு மிஞ்சும் பயிர் எச்சம். இதில் பச்சை தீவனத்தை விட ஊட்டச்சத்து குறைவு, ஆனால் ஆண்டு முழுவதும் பெரும்பாலும் எளிதாகக் கிடைக்கும்.",
+              "ಒಣಗಿದ ಮೇವು, ಉದಾಹರಣೆಗೆ ಹುಲ್ಲು (ಒಣಹುಲ್ಲು) ಅಥವಾ ಕೊಯ್ಲಿನ ನಂತರ ಉಳಿಯುವ ಬೆಳೆ ಅವಶೇಷ. ಇದರಲ್ಲಿ ಹಸಿರು ಮೇವಿಗಿಂತ ಪೋಷಕಾಂಶ ಕಡಿಮೆ, ಆದರೆ ವರ್ಷವಿಡೀ ಸುಲಭವಾಗಿ ಸಿಗುತ್ತದೆ.",
+              "सूख चुका चारा, जैसे भूसा या फसल कटाई के बाद बचा अवशेष। इसमें हरे चारे से कम पोषण होता है, लेकिन यह साल भर आसानी से मिल जाता है।"
             ),
           },
           {
             type: "glossary",
-            term: L("Concentrate / Compound Cattle Feed"),
+            term: L("Concentrate / Compound Cattle Feed", "దాణా / కాంపౌండ్ పశుదాణా", "அடர் தீவனம் / கலப்புத் தீவனம்", "ಹಿಂಡಿ-ಕಾಳು ಆಹಾರ / ಕಾಂಪೌಂಡ್ ಜಾನುವಾರು ಆಹಾರ", "दाना / कंपाउंड पशु आहार"),
             meaning: L(
-              "A mix of grains, oil cakes, brans, molasses, salt, minerals and vitamins, put together to pack a lot of nutrition into a small amount of feed. It is fed alongside fodder, not instead of it."
+              "A mix of grains, oil cakes, brans, molasses, salt, minerals and vitamins, put together to pack a lot of nutrition into a small amount of feed. It is fed alongside fodder, not instead of it.",
+              "ధాన్యాలు, పిండి చెక్కలు (ఆయిల్ కేక్), తవుడు, మొలాసిస్, ఉప్పు, ఖనిజాలు, విటమిన్లు కలిపి, తక్కువ మోతాదులోనే ఎక్కువ పోషణ ఉండేలా తయారు చేసిన మిశ్రమం. దీన్ని మేతకు బదులుగా కాదు, మేతతో పాటు ఇస్తారు.",
+              "தானியங்கள், புண்ணாக்கு, தவிடு, வெல்லப்பாகு, உப்பு, தாதுக்கள், வைட்டமின்கள் ஆகியவற்றைக் கலந்து, சிறிய அளவிலேயே அதிக ஊட்டச்சத்து கிடைக்கும்படி தயாரிக்கப்பட்ட கலவை. இது தீவனத்துக்குப் பதிலாக அல்ல, தீவனத்துடன் சேர்த்து கொடுக்கப்படுகிறது.",
+              "ಧಾನ್ಯಗಳು, ಹಿಂಡಿ, ತೌಡು, ಬೆಲ್ಲದ ಪಾಕ (ಮೊಲಾಸಸ್), ಉಪ್ಪು, ಖನಿಜಗಳು ಮತ್ತು ವಿಟಮಿನ್‌ಗಳನ್ನು ಬೆರೆಸಿ, ಸ್ವಲ್ಪ ಪ್ರಮಾಣದಲ್ಲೇ ಹೆಚ್ಚು ಪೋಷಣೆ ಸಿಗುವಂತೆ ತಯಾರಿಸಿದ ಮಿಶ್ರಣ. ಇದನ್ನು ಮೇವಿನ ಬದಲಿಗೆ ಅಲ್ಲ, ಮೇವಿನ ಜೊತೆಗೆ ನೀಡಲಾಗುತ್ತದೆ.",
+              "अनाज, खली, चोकर, शीरा, नमक, खनिज और विटामिन मिलाकर बनाया गया मिश्रण, ताकि थोड़ी मात्रा में ही ज़्यादा पोषण मिल सके। इसे चारे की जगह नहीं, चारे के साथ खिलाया जाता है।"
             ),
           },
           {
             type: "stat-grid",
             items: [
               {
-                label: L("How Much Fodder a Day"),
-                text: L("A normal adult animal should be fed 4 to 6 kg of dry fodder and 15 to 20 kg of green fodder every day."),
+                label: L("How Much Fodder a Day", "రోజుకు ఎంత మేత", "ஒரு நாளைக்கு எவ்வளவு தீவனம்", "ದಿನಕ್ಕೆ ಎಷ್ಟು ಮೇವು", "रोज़ कितना चारा"),
+                text: L("A normal adult animal should be fed 4 to 6 kg of dry fodder and 15 to 20 kg of green fodder every day.", "సాధారణ పెద్ద పశువుకు రోజూ 4 నుండి 6 కిలోల ఎండుమేత, 15 నుండి 20 కిలోల పచ్చి మేత పెట్టాలి.", "சாதாரண வளர்ந்த விலங்குக்கு தினமும் 4 முதல் 6 கிலோ உலர் தீவனமும், 15 முதல் 20 கிலோ பச்சை தீவனமும் கொடுக்க வேண்டும்.", "ಸಾಮಾನ್ಯ ದೊಡ್ಡ ಪ್ರಾಣಿಗೆ ಪ್ರತಿದಿನ 4 ರಿಂದ 6 ಕೆ.ಜಿ ಒಣ ಮೇವು ಮತ್ತು 15 ರಿಂದ 20 ಕೆ.ಜಿ ಹಸಿರು ಮೇವು ನೀಡಬೇಕು.", "एक सामान्य वयस्क पशु को रोज़ 4 से 6 किलो सूखा चारा और 15 से 20 किलो हरा चारा खिलाना चाहिए।"),
               },
               {
-                label: L("Legume vs Non-Legume Fodder"),
+                label: L("Legume vs Non-Legume Fodder", "పప్పుజాతి vs పప్పుజాతి కాని మేత", "பயறு வகை vs பயறு அல்லாத தீவனம்", "ಕಾಳು ಜಾತಿ vs ಕಾಳು ಜಾತಿಯಲ್ಲದ ಮೇವು", "दलहनी बनाम गैर-दलहनी चारा"),
                 text: L(
-                  "Fodder crops that are legumes are richer in protein than non-legume fodder. The two should be fed together in a 1:3 proportion — one part legume fodder to three parts non-legume fodder."
+                  "Fodder crops that are legumes are richer in protein than non-legume fodder. The two should be fed together in a 1:3 proportion — one part legume fodder to three parts non-legume fodder.",
+                  "పప్పుజాతి (లెగ్యూమ్) మేత పంటలలో పప్పుజాతి కాని మేతకన్నా ప్రోటీన్ ఎక్కువ ఉంటుంది. ఈ రెండింటినీ కలిపి 1:3 నిష్పత్తిలో పెట్టాలి — ఒక భాగం పప్పుజాతి మేతకు, మూడు భాగాలు పప్పుజాతి కాని మేతకు.",
+                  "பயறு வகை (லெகும்) தீவனப் பயிர்களில் பயறு அல்லாத தீவனத்தை விட புரதம் அதிகம். இரண்டையும் 1:3 விகிதத்தில் சேர்த்து கொடுக்க வேண்டும் — ஒரு பங்கு பயறு வகை தீவனம், மூன்று பங்கு பயறு அல்லாத தீவனம்.",
+                  "ಕಾಳು ಜಾತಿಯ (ಲೆಗ್ಯೂಮ್) ಮೇವಿನ ಬೆಳೆಗಳಲ್ಲಿ ಕಾಳು ಜಾತಿಯಲ್ಲದ ಮೇವಿಗಿಂತ ಪ್ರೋಟೀನ್ ಹೆಚ್ಚು. ಇವೆರಡನ್ನೂ 1:3 ಅನುಪಾತದಲ್ಲಿ ಕೊಡಬೇಕು — ಒಂದು ಭಾಗ ಕಾಳು ಜಾತಿಯ ಮೇವು, ಮೂರು ಭಾಗ ಕಾಳು ಜಾತಿಯಲ್ಲದ ಮೇವು.",
+                  "दलहनी (लेग्यूम) चारा फसलों में गैर-दलहनी चारे से ज़्यादा प्रोटीन होता है। दोनों को 1:3 के अनुपात में साथ खिलाना चाहिए — एक हिस्सा दलहनी चारा और तीन हिस्से गैर-दलहनी चारा।"
                 ),
               },
               {
-                label: L("When to Cut Green Fodder"),
-                text: L("Green fodder should be harvested at the 50% flowering stage — this gives the best balance of quantity and nutrition."),
+                label: L("When to Cut Green Fodder", "పచ్చి మేతను ఎప్పుడు కోయాలి", "பச்சை தீவனத்தை எப்போது வெட்ட வேண்டும்", "ಹಸಿರು ಮೇವನ್ನು ಯಾವಾಗ ಕೊಯ್ಯಬೇಕು", "हरा चारा कब काटें"),
+                text: L("Green fodder should be harvested at the 50% flowering stage — this gives the best balance of quantity and nutrition.", "పచ్చి మేతను 50% పూత (పుష్పించే) దశలో కోయాలి — దీనివల్ల దిగుబడి, పోషణ రెండూ మంచి సమతుల్యంలో ఉంటాయి.", "பச்சை தீவனத்தை 50% பூக்கும் நிலையில் அறுவடை செய்ய வேண்டும் — இது விளைச்சல், ஊட்டச்சத்து இரண்டுக்கும் சிறந்த சமநிலையைத் தருகிறது.", "ಹಸಿರು ಮೇವನ್ನು 50% ಹೂ ಬಿಡುವ ಹಂತದಲ್ಲಿ ಕೊಯ್ಯಬೇಕು — ಇದು ಇಳುವರಿ ಮತ್ತು ಪೋಷಣೆ ಎರಡರ ಉತ್ತಮ ಸಮತೋಲನ ನೀಡುತ್ತದೆ.", "हरा चारा 50% फूल आने की अवस्था में काटना चाहिए — इससे मात्रा और पोषण दोनों का सबसे अच्छा संतुलन मिलता है।"),
               },
             ],
           },
           {
             type: "example",
-            heading: L("Saving Fodder for Leaner Times"),
+            heading: L("Saving Fodder for Leaner Times", "కొరత సమయాల కోసం మేతను నిల్వ చేయడం", "பற்றாக்குறை காலத்துக்காக தீவனத்தை சேமித்தல்", "ಕೊರತೆಯ ಕಾಲಕ್ಕಾಗಿ ಮೇವನ್ನು ಸಂಗ್ರಹಿಸುವುದು", "कमी के दिनों के लिए चारा बचाकर रखना"),
             text: L(
-              "When there is more green fodder than the animals need right now, the surplus should not be wasted — it can be conserved as hay or silage. This conserved fodder becomes especially useful during summer, or whenever green fodder is scarce."
+              "When there is more green fodder than the animals need right now, the surplus should not be wasted — it can be conserved as hay or silage. This conserved fodder becomes especially useful during summer, or whenever green fodder is scarce.",
+              "పశువులకు ప్రస్తుతం కావలసినదాని కన్నా పచ్చి మేత ఎక్కువగా ఉన్నప్పుడు, మిగులును వృథా చేయకూడదు — దాన్ని ఎండుగడ్డి (హే) లేదా సైలేజ్‌గా నిల్వ చేయవచ్చు. ఇలా నిల్వ చేసిన మేత వేసవిలో లేదా పచ్చి మేత కొరత ఉన్నప్పుడు ముఖ్యంగా ఉపయోగపడుతుంది.",
+              "விலங்குகளுக்கு இப்போது தேவைப்படுவதை விட பச்சை தீவனம் அதிகமாக இருக்கும்போது, மிச்சத்தை வீணாக்கக் கூடாது — அதை உலர் புல் (ஹே) அல்லது சைலேஜாக சேமிக்கலாம். இப்படி சேமித்த தீவனம் கோடைக்காலத்தில், அல்லது பச்சை தீவனம் பற்றாக்குறையாக இருக்கும் எப்போதும் மிகவும் பயன்படும்.",
+              "ಪ್ರಾಣಿಗಳಿಗೆ ಈಗ ಬೇಕಾದದ್ದಕ್ಕಿಂತ ಹೆಚ್ಚು ಹಸಿರು ಮೇವು ಇದ್ದಾಗ, ಉಳಿದದ್ದನ್ನು ವ್ಯರ್ಥ ಮಾಡಬಾರದು — ಅದನ್ನು ಒಣ ಹುಲ್ಲು (ಹೇ) ಅಥವಾ ಸೈಲೇಜ್ ಆಗಿ ಸಂಗ್ರಹಿಸಬಹುದು. ಹೀಗೆ ಸಂಗ್ರಹಿಸಿದ ಮೇವು ಬೇಸಿಗೆಯಲ್ಲಿ ಅಥವಾ ಹಸಿರು ಮೇವಿನ ಕೊರತೆ ಇದ್ದಾಗ ವಿಶೇಷವಾಗಿ ಉಪಯೋಗವಾಗುತ್ತದೆ.",
+              "जब जानवरों की अभी की ज़रूरत से ज़्यादा हरा चारा हो, तो बचे हुए को बर्बाद नहीं करना चाहिए — उसे हे (सूखी घास) या साइलेज के रूप में सुरक्षित रखा जा सकता है। यह रखा हुआ चारा खासकर गर्मियों में, या जब भी हरे चारे की कमी हो, बहुत काम आता है।"
             ),
           },
           {
             type: "callout",
             style: "tip",
-            heading: L("Two Small Habits That Make a Big Difference"),
+            heading: L("Two Small Habits That Make a Big Difference", "పెద్ద తేడా తెచ్చే రెండు చిన్న అలవాట్లు", "பெரிய மாற்றத்தைத் தரும் இரண்டு சிறிய பழக்கங்கள்", "ದೊಡ್ಡ ವ್ಯತ್ಯಾಸ ತರುವ ಎರಡು ಸಣ್ಣ ಅಭ್ಯಾಸಗಳು", "बड़ा फ़र्क़ लाने वाली दो छोटी आदतें"),
             text: L(
-              "Fodder should be chaffed (cut into small pieces) before feeding — this avoids wastage and helps the animal digest it better. And if you ever need to change an animal from one feed to another, do it gradually over several days, never suddenly."
+              "Fodder should be chaffed (cut into small pieces) before feeding — this avoids wastage and helps the animal digest it better. And if you ever need to change an animal from one feed to another, do it gradually over several days, never suddenly.",
+              "మేత పెట్టే ముందు దాన్ని చిన్న ముక్కలుగా కోయాలి (చాఫ్ చేయాలి) — దీనివల్ల వృథా తగ్గుతుంది, పశువు బాగా జీర్ణం చేసుకుంటుంది. అలాగే ఒక పశువుకు ఒక మేత నుండి మరొక మేతకు మార్చాల్సి వస్తే, అకస్మాత్తుగా కాకుండా కొన్ని రోజుల పాటు నెమ్మదిగా మార్చాలి.",
+              "தீவனம் கொடுப்பதற்கு முன் அதை சிறு துண்டுகளாக நறுக்க வேண்டும் (சாஃப் செய்ய வேண்டும்) — இதனால் வீணாவது குறையும், விலங்கு நன்றாக செரிக்கும். மேலும் ஒரு விலங்கை ஒரு தீவனத்திலிருந்து இன்னொன்றுக்கு மாற்ற வேண்டியிருந்தால், திடீரென்று அல்லாமல் பல நாட்களில் படிப்படியாக மாற்ற வேண்டும்.",
+              "ಮೇವು ನೀಡುವ ಮೊದಲು ಅದನ್ನು ಸಣ್ಣ ತುಂಡುಗಳಾಗಿ ಕತ್ತರಿಸಬೇಕು (ಚಾಫ್ ಮಾಡಬೇಕು) — ಇದರಿಂದ ವ್ಯರ್ಥ ಕಡಿಮೆಯಾಗುತ್ತದೆ ಮತ್ತು ಪ್ರಾಣಿ ಚೆನ್ನಾಗಿ ಜೀರ್ಣಿಸಿಕೊಳ್ಳುತ್ತದೆ. ಹಾಗೆಯೇ ಪ್ರಾಣಿಯ ಆಹಾರವನ್ನು ಒಂದರಿಂದ ಇನ್ನೊಂದಕ್ಕೆ ಬದಲಿಸಬೇಕಾದರೆ, ಥಟ್ಟನೆ ಅಲ್ಲ, ಹಲವು ದಿನಗಳಲ್ಲಿ ನಿಧಾನವಾಗಿ ಬದಲಿಸಿ.",
+              "चारा खिलाने से पहले उसे छोटे टुकड़ों में काटना (कुट्टी करना) चाहिए — इससे बर्बादी कम होती है और पशु उसे बेहतर पचा पाता है। और अगर कभी पशु का चारा एक से दूसरे में बदलना पड़े, तो अचानक नहीं, कई दिनों में धीरे-धीरे बदलें।"
             ),
           },
         ],
         check: [
           {
             type: "mcq",
-            q: L("What is 'concentrate' or 'compound cattle feed'?"),
+            q: L("What is 'concentrate' or 'compound cattle feed'?", "'కాన్సంట్రేట్' లేదా 'కాంపౌండ్ పశుదాణా' అంటే ఏమిటి?", "'அடர் தீவனம்' அல்லது 'கலப்புத் தீவனம்' என்றால் என்ன?", "'ಹಿಂಡಿ-ಕಾಳು ಆಹಾರ' ಅಥವಾ 'ಕಾಂಪೌಂಡ್ ಜಾನುವಾರು ಆಹಾರ' ಎಂದರೇನು?", "'दाना' या 'कंपाउंड पशु आहार' क्या होता है?"),
             options: [
-              L("A mix of grains, oil cakes, brans and minerals that packs a lot of nutrition into a small amount of feed"),
-              L("Another name for green fodder"),
-              L("A medicine given to sick animals"),
-              L("Plain drinking water with salt added"),
+              L("A mix of grains, oil cakes, brans and minerals that packs a lot of nutrition into a small amount of feed", "ధాన్యాలు, పిండి చెక్కలు, తవుడు, ఖనిజాల మిశ్రమం — తక్కువ మోతాదులోనే ఎక్కువ పోషణ ఇస్తుంది", "தானியங்கள், புண்ணாக்கு, தவிடு, தாதுக்கள் கலந்த கலவை — சிறிய அளவிலேயே அதிக ஊட்டச்சத்து தருகிறது", "ಧಾನ್ಯಗಳು, ಹಿಂಡಿ, ತೌಡು ಮತ್ತು ಖನಿಜಗಳ ಮಿಶ್ರಣ — ಸ್ವಲ್ಪ ಪ್ರಮಾಣದಲ್ಲೇ ಹೆಚ್ಚು ಪೋಷಣೆ ನೀಡುತ್ತದೆ", "अनाज, खली, चोकर और खनिजों का मिश्रण, जो थोड़ी मात्रा में ही ज़्यादा पोषण देता है"),
+              L("Another name for green fodder", "పచ్చి మేతకు మరో పేరు", "பச்சை தீவனத்துக்கு இன்னொரு பெயர்", "ಹಸಿರು ಮೇವಿಗೆ ಇನ್ನೊಂದು ಹೆಸರು", "हरे चारे का दूसरा नाम"),
+              L("A medicine given to sick animals", "జబ్బుపడిన పశువులకు ఇచ్చే మందు", "நோய்வாய்ப்பட்ட விலங்குகளுக்குக் கொடுக்கும் மருந்து", "ಅನಾರೋಗ್ಯದ ಪ್ರಾಣಿಗಳಿಗೆ ಕೊಡುವ ಔಷಧ", "बीमार पशुओं को दी जाने वाली दवा"),
+              L("Plain drinking water with salt added", "ఉప్పు కలిపిన సాదా తాగునీరు", "உப்பு சேர்த்த சாதாரண குடிநீர்", "ಉಪ್ಪು ಸೇರಿಸಿದ ಸಾದಾ ಕುಡಿಯುವ ನೀರು", "नमक मिला हुआ सादा पीने का पानी"),
             ],
             answer: 0,
             explain: L(
-              "Concentrate feed is a nutrient-dense mix — grains, oil cakes, brans, molasses, salt, minerals and vitamins — fed alongside fodder, not instead of it."
+              "Concentrate feed is a nutrient-dense mix — grains, oil cakes, brans, molasses, salt, minerals and vitamins — fed alongside fodder, not instead of it.",
+              "దాణా అంటే పోషకాలు దట్టంగా ఉండే మిశ్రమం — ధాన్యాలు, పిండి చెక్కలు, తవుడు, మొలాసిస్, ఉప్పు, ఖనిజాలు, విటమిన్లు — దీన్ని మేతకు బదులు కాదు, మేతతో పాటు ఇస్తారు.",
+              "அடர் தீவனம் என்பது ஊட்டச்சத்து நிறைந்த கலவை — தானியங்கள், புண்ணாக்கு, தவிடு, வெல்லப்பாகு, உப்பு, தாதுக்கள், வைட்டமின்கள் — இது தீவனத்துக்குப் பதிலாக அல்ல, தீவனத்துடன் சேர்த்து கொடுக்கப்படுகிறது.",
+              "ಹಿಂಡಿ-ಕಾಳು ಆಹಾರ ಎಂದರೆ ಪೋಷಕಾಂಶ ದಟ್ಟವಾಗಿರುವ ಮಿಶ್ರಣ — ಧಾನ್ಯಗಳು, ಹಿಂಡಿ, ತೌಡು, ಬೆಲ್ಲದ ಪಾಕ, ಉಪ್ಪು, ಖನಿಜಗಳು, ವಿಟಮಿನ್‌ಗಳು — ಇದನ್ನು ಮೇವಿನ ಬದಲಿಗೆ ಅಲ್ಲ, ಮೇವಿನ ಜೊತೆಗೆ ನೀಡಲಾಗುತ್ತದೆ.",
+              "दाना पोषण से भरपूर मिश्रण है — अनाज, खली, चोकर, शीरा, नमक, खनिज और विटामिन — जिसे चारे की जगह नहीं, चारे के साथ खिलाया जाता है।"
             ),
           },
           {
             type: "truefalse",
-            q: L("A normal adult animal needs roughly 4 to 6 kg of dry fodder and 15 to 20 kg of green fodder a day."),
+            q: L("A normal adult animal needs roughly 4 to 6 kg of dry fodder and 15 to 20 kg of green fodder a day.", "ఒక సాధారణ పెద్ద పశువుకు రోజుకు సుమారు 4 నుండి 6 కిలోల ఎండుమేత, 15 నుండి 20 కిలోల పచ్చి మేత అవసరం.", "ஒரு சாதாரண வளர்ந்த விலங்குக்கு ஒரு நாளைக்கு சுமார் 4 முதல் 6 கிலோ உலர் தீவனமும் 15 முதல் 20 கிலோ பச்சை தீவனமும் தேவை.", "ಒಂದು ಸಾಮಾನ್ಯ ದೊಡ್ಡ ಪ್ರಾಣಿಗೆ ದಿನಕ್ಕೆ ಸುಮಾರು 4 ರಿಂದ 6 ಕೆ.ಜಿ ಒಣ ಮೇವು ಮತ್ತು 15 ರಿಂದ 20 ಕೆ.ಜಿ ಹಸಿರು ಮೇವು ಬೇಕು.", "एक सामान्य वयस्क पशु को रोज़ करीब 4 से 6 किलो सूखा चारा और 15 से 20 किलो हरा चारा चाहिए।"),
             answer: true,
-            explain: L("Yes — this is the general daily fodder recommendation for a normal adult dairy animal."),
+            explain: L("Yes — this is the general daily fodder recommendation for a normal adult dairy animal.", "అవును — ఇది సాధారణ పెద్ద పాడి పశువుకు రోజువారీ మేత కోసం ఇచ్చే సాధారణ సిఫార్సు.", "ஆம் — இது ஒரு சாதாரண வளர்ந்த கறவை விலங்குக்கான பொதுவான தினசரி தீவனப் பரிந்துரை.", "ಹೌದು — ಇದು ಸಾಮಾನ್ಯ ದೊಡ್ಡ ಹೈನು ಪ್ರಾಣಿಗೆ ದಿನನಿತ್ಯದ ಮೇವಿನ ಸಾಮಾನ್ಯ ಶಿಫಾರಸು.", "हाँ — यह एक सामान्य वयस्क दुधारू पशु के लिए रोज़ के चारे की आम सिफ़ारिश है।"),
           },
         ],
       },
       {
         id: "t-m14-ration-balancing",
-        title: L("What Makes a Diet 'Balanced'"),
+        title: L("What Makes a Diet 'Balanced'", "ఆహారాన్ని 'సమతుల్యం' చేసేది ఏమిటి", "உணவை 'சமச்சீர்' ஆக்குவது எது", "ಆಹಾರವನ್ನು 'ಸಮತೋಲಿತ' ಮಾಡುವುದು ಯಾವುದು", "आहार को 'संतुलित' क्या बनाता है"),
         teach: [
           {
             type: "glossary",
-            term: L("Ration"),
+            term: L("Ration", "రేషన్ (ఆహార పరిమాణం)", "ரேஷன் (தினசரி உணவுப் பங்கு)", "ರೇಷನ್ (ದಿನದ ಆಹಾರ ಪಾಲು)", "राशन (रोज़ का आहार)"),
             meaning: L(
-              "The total amount and mix of feed given to one animal over one day. Every animal's daily ration is made up of some fodder and, usually, some concentrate feed."
+              "The total amount and mix of feed given to one animal over one day. Every animal's daily ration is made up of some fodder and, usually, some concentrate feed.",
+              "ఒక పశువుకు ఒక రోజులో ఇచ్చే మొత్తం మేత పరిమాణం, దాని మిశ్రమం. ప్రతి పశువు రోజువారీ రేషన్‌లో కొంత మేత, సాధారణంగా కొంత దాణా ఉంటాయి.",
+              "ஒரு விலங்குக்கு ஒரு நாளில் கொடுக்கப்படும் மொத்த தீவன அளவும் அதன் கலவையும். ஒவ்வொரு விலங்கின் தினசரி ரேஷனிலும் கொஞ்சம் தீவனமும், பொதுவாக கொஞ்சம் அடர் தீவனமும் இருக்கும்.",
+              "ಒಂದು ಪ್ರಾಣಿಗೆ ಒಂದು ದಿನದಲ್ಲಿ ಕೊಡುವ ಒಟ್ಟು ಮೇವಿನ ಪ್ರಮಾಣ ಮತ್ತು ಅದರ ಮಿಶ್ರಣ. ಪ್ರತಿ ಪ್ರಾಣಿಯ ದಿನದ ರೇಷನ್‌ನಲ್ಲಿ ಸ್ವಲ್ಪ ಮೇವು ಮತ್ತು ಸಾಮಾನ್ಯವಾಗಿ ಸ್ವಲ್ಪ ಹಿಂಡಿ-ಕಾಳು ಆಹಾರ ಇರುತ್ತದೆ.",
+              "एक पशु को एक दिन में दिया जाने वाला कुल चारा-दाना और उसका मिश्रण। हर पशु के रोज़ के राशन में कुछ चारा और आमतौर पर कुछ दाना होता है।"
             ),
           },
           {
             type: "glossary",
-            term: L("Balanced Ration"),
+            term: L("Balanced Ration", "సమతుల్య రేషన్", "சமச்சீர் ரேஷன்", "ಸಮತೋಲಿತ ರೇಷನ್", "संतुलित राशन"),
             meaning: L(
-              "A ration that gives the animal the right amounts of protein, energy, minerals and vitamins — not too much of one thing and too little of another. A well-balanced ration lets the animal stay healthy and produce milk to its full potential."
+              "A ration that gives the animal the right amounts of protein, energy, minerals and vitamins — not too much of one thing and too little of another. A well-balanced ration lets the animal stay healthy and produce milk to its full potential.",
+              "పశువుకు ప్రోటీన్, శక్తి, ఖనిజాలు, విటమిన్లు సరైన మోతాదులో అందించే రేషన్ — ఒకటి ఎక్కువ, మరొకటి తక్కువ కాకుండా. సరిగ్గా సమతుల్యం చేసిన రేషన్ వల్ల పశువు ఆరోగ్యంగా ఉండి, పూర్తి సామర్థ్యంతో పాలు ఇవ్వగలదు.",
+              "விலங்குக்கு புரதம், ஆற்றல், தாதுக்கள், வைட்டமின்கள் சரியான அளவில் கிடைக்கச் செய்யும் ரேஷன் — ஒன்று அதிகமாகவும் இன்னொன்று குறைவாகவும் இல்லாமல். நன்கு சமச்சீர் செய்யப்பட்ட ரேஷன் விலங்கு ஆரோக்கியமாக இருந்து, தன் முழுத் திறனுக்கு பால் தர உதவுகிறது.",
+              "ಪ್ರಾಣಿಗೆ ಪ್ರೋಟೀನ್, ಶಕ್ತಿ, ಖನಿಜಗಳು ಮತ್ತು ವಿಟಮಿನ್‌ಗಳನ್ನು ಸರಿಯಾದ ಪ್ರಮಾಣದಲ್ಲಿ ಕೊಡುವ ರೇಷನ್ — ಒಂದು ಹೆಚ್ಚು, ಇನ್ನೊಂದು ಕಡಿಮೆ ಆಗದಂತೆ. ಚೆನ್ನಾಗಿ ಸಮತೋಲನ ಮಾಡಿದ ರೇಷನ್ ಪ್ರಾಣಿ ಆರೋಗ್ಯವಾಗಿದ್ದು ತನ್ನ ಪೂರ್ಣ ಸಾಮರ್ಥ್ಯದಲ್ಲಿ ಹಾಲು ಕೊಡಲು ಸಹಾಯ ಮಾಡುತ್ತದೆ.",
+              "ऐसा राशन जो पशु को प्रोटीन, ऊर्जा, खनिज और विटामिन सही मात्रा में दे — किसी चीज़ की ज़्यादा और किसी की कमी न हो। अच्छी तरह संतुलित राशन से पशु सेहतमंद रहता है और अपनी पूरी क्षमता से दूध दे पाता है।"
             ),
           },
           {
             type: "text",
-            heading: L("Why Most Farm Rations End Up Imbalanced"),
+            heading: L("Why Most Farm Rations End Up Imbalanced", "చాలా పొలాల్లో రేషన్లు ఎందుకు అసమతుల్యంగా ఉంటాయి", "பெரும்பாலான பண்ணைகளில் ரேஷன் ஏன் சமநிலையற்று இருக்கிறது", "ಹೆಚ್ಚಿನ ಫಾರ್ಮ್‌ಗಳಲ್ಲಿ ರೇಷನ್ ಏಕೆ ಅಸಮತೋಲಿತವಾಗಿರುತ್ತದೆ", "ज़्यादातर खेतों में राशन असंतुलित क्यों रहता है"),
             html: L(
-              "Many farmers feed whatever concentrate, grass and crop residue happens to be locally available, without working out whether it adds up to a balanced ration. This is called <b>imbalanced feeding</b>, and it means the protein, energy, minerals and vitamins in the diet end up either more or less than the animal actually needs. Imbalanced feeding harms the animal's health and productivity, and it quietly costs the farmer money too — because the animal never produces as much milk as it really could."
+              "Many farmers feed whatever concentrate, grass and crop residue happens to be locally available, without working out whether it adds up to a balanced ration. This is called <b>imbalanced feeding</b>, and it means the protein, energy, minerals and vitamins in the diet end up either more or less than the animal actually needs. Imbalanced feeding harms the animal's health and productivity, and it quietly costs the farmer money too — because the animal never produces as much milk as it really could.",
+              "చాలా మంది రైతులు స్థానికంగా దొరికే దాణా, గడ్డి, పంట అవశేషాలను ఇచ్చేస్తారు, అవి కలిసి సమతుల్య రేషన్ అవుతున్నాయో లేదో లెక్క చూడరు. దీన్ని <b>అసమతుల్య మేత</b> అంటారు — దీనివల్ల ఆహారంలో ప్రోటీన్, శక్తి, ఖనిజాలు, విటమిన్లు పశువుకు నిజంగా కావలసినదానికన్నా ఎక్కువగా లేదా తక్కువగా ఉంటాయి. అసమతుల్య మేత పశువు ఆరోగ్యానికి, ఉత్పాదకతకు హాని చేస్తుంది, రైతుకు కూడా నెమ్మదిగా నష్టం కలిగిస్తుంది — ఎందుకంటే పశువు నిజంగా ఇవ్వగలిగినంత పాలు ఎప్పటికీ ఇవ్వదు.",
+              "பல விவசாயிகள் உள்ளூரில் கிடைக்கும் அடர் தீவனம், புல், பயிர் எச்சம் ஆகியவற்றை, அவை சேர்ந்து சமச்சீர் ரேஷன் ஆகிறதா என்று கணக்கிடாமல் கொடுக்கிறார்கள். இதற்கு <b>சமநிலையற்ற தீவனம்</b> என்று பெயர் — இதனால் உணவில் புரதம், ஆற்றல், தாதுக்கள், வைட்டமின்கள் விலங்குக்கு உண்மையில் தேவைப்படுவதை விட அதிகமாகவோ குறைவாகவோ இருக்கும். சமநிலையற்ற தீவனம் விலங்கின் ஆரோக்கியத்தையும் உற்பத்தித் திறனையும் பாதிக்கிறது, விவசாயிக்கும் மெல்ல மெல்ல பணம் இழப்பை ஏற்படுத்துகிறது — ஏனெனில் விலங்கு உண்மையில் தர முடிந்த அளவு பால் ஒருபோதும் தருவதில்லை.",
+              "ಹೆಚ್ಚಿನ ರೈತರು ಸ್ಥಳೀಯವಾಗಿ ಸಿಗುವ ಹಿಂಡಿ, ಹುಲ್ಲು, ಬೆಳೆ ಅವಶೇಷಗಳನ್ನು, ಅವು ಸೇರಿ ಸಮತೋಲಿತ ರೇಷನ್ ಆಗುತ್ತದೆಯೇ ಎಂದು ಲೆಕ್ಕ ಹಾಕದೆ ಕೊಡುತ್ತಾರೆ. ಇದನ್ನು <b>ಅಸಮತೋಲಿತ ಆಹಾರ</b> ಎನ್ನುತ್ತಾರೆ — ಇದರಿಂದ ಆಹಾರದಲ್ಲಿ ಪ್ರೋಟೀನ್, ಶಕ್ತಿ, ಖನಿಜಗಳು ಮತ್ತು ವಿಟಮಿನ್‌ಗಳು ಪ್ರಾಣಿಗೆ ನಿಜವಾಗಿ ಬೇಕಾದದ್ದಕ್ಕಿಂತ ಹೆಚ್ಚು ಅಥವಾ ಕಡಿಮೆ ಇರುತ್ತವೆ. ಅಸಮತೋಲಿತ ಆಹಾರ ಪ್ರಾಣಿಯ ಆರೋಗ್ಯ ಮತ್ತು ಉತ್ಪಾದಕತೆಗೆ ಹಾನಿ ಮಾಡುತ್ತದೆ, ರೈತನಿಗೂ ಮೆಲ್ಲನೆ ನಷ್ಟ ತರುತ್ತದೆ — ಏಕೆಂದರೆ ಪ್ರಾಣಿ ನಿಜವಾಗಿ ಕೊಡಬಲ್ಲಷ್ಟು ಹಾಲನ್ನು ಎಂದೂ ಕೊಡುವುದಿಲ್ಲ.",
+              "कई किसान जो भी दाना, घास और फसल अवशेष आसपास मिल जाता है, बिना यह देखे खिला देते हैं कि सब मिलकर संतुलित राशन बनता है या नहीं। इसे <b>असंतुलित आहार</b> कहते हैं, और इससे आहार में प्रोटीन, ऊर्जा, खनिज और विटामिन पशु की असली ज़रूरत से या तो ज़्यादा या कम हो जाते हैं। असंतुलित आहार पशु की सेहत और उत्पादन को नुकसान पहुँचाता है, और चुपचाप किसान की जेब पर भी भारी पड़ता है — क्योंकि पशु कभी उतना दूध नहीं देता जितना वह असल में दे सकता है।"
             ),
           },
           {
             type: "callout",
             style: "info",
-            heading: L("A Programme (and an App) Built to Fix This"),
+            heading: L("A Programme (and an App) Built to Fix This", "దీన్ని సరిచేయడానికి ఒక కార్యక్రమం (ఒక యాప్)", "இதைச் சரிசெய்ய ஒரு திட்டம் (ஒரு செயலி)", "ಇದನ್ನು ಸರಿಪಡಿಸಲು ಒಂದು ಕಾರ್ಯಕ್ರಮ (ಮತ್ತು ಒಂದು ಆ್ಯಪ್)", "इसे ठीक करने के लिए एक कार्यक्रम (और एक ऐप)"),
             text: L(
-              "The Ration Balancing Programme (RBP) uses a user-friendly software developed by NDDB to work out a properly balanced, least-cost ration using whatever feed is locally available. It can be used with help from a trained local resource person, or directly by farmers using the 'Pashuposhan' app, available on the Google Play Store."
+              "The Ration Balancing Programme (RBP) uses a user-friendly software developed by NDDB to work out a properly balanced, least-cost ration using whatever feed is locally available. It can be used with help from a trained local resource person, or directly by farmers using the 'Pashuposhan' app, available on the Google Play Store.",
+              "రేషన్ బ్యాలెన్సింగ్ ప్రోగ్రామ్ (RBP) NDDB అభివృద్ధి చేసిన సులభమైన సాఫ్ట్‌వేర్‌ను ఉపయోగించి, స్థానికంగా దొరికే మేతతోనే సరిగ్గా సమతుల్యమైన, అతి తక్కువ ఖర్చు రేషన్‌ను లెక్కిస్తుంది. శిక్షణ పొందిన స్థానిక వనరుల వ్యక్తి సహాయంతో దీన్ని వాడవచ్చు, లేదా రైతులు నేరుగా గూగుల్ ప్లే స్టోర్‌లో ఉన్న 'పశుపోషణ్' యాప్ ద్వారా వాడవచ్చు.",
+              "ரேஷன் பேலன்சிங் திட்டம் (RBP), NDDB உருவாக்கிய எளிதான மென்பொருளைப் பயன்படுத்தி, உள்ளூரில் கிடைக்கும் தீவனத்தைக் கொண்டே சரியாக சமச்சீர் செய்யப்பட்ட, மிகக் குறைந்த செலவிலான ரேஷனைக் கணக்கிடுகிறது. பயிற்சி பெற்ற உள்ளூர் வள நபரின் உதவியுடன் இதைப் பயன்படுத்தலாம், அல்லது விவசாயிகள் நேரடியாக கூகுள் பிளே ஸ்டோரில் உள்ள 'பசுபோஷண்' செயலி மூலம் பயன்படுத்தலாம்.",
+              "ರೇಷನ್ ಬ್ಯಾಲೆನ್ಸಿಂಗ್ ಪ್ರೋಗ್ರಾಂ (RBP) NDDB ಅಭಿವೃದ್ಧಿಪಡಿಸಿದ ಸುಲಭ ಸಾಫ್ಟ್‌ವೇರ್ ಬಳಸಿ, ಸ್ಥಳೀಯವಾಗಿ ಸಿಗುವ ಮೇವಿನಿಂದಲೇ ಸರಿಯಾಗಿ ಸಮತೋಲಿತವಾದ, ಅತಿ ಕಡಿಮೆ ವೆಚ್ಚದ ರೇಷನ್ ಲೆಕ್ಕ ಹಾಕುತ್ತದೆ. ತರಬೇತಿ ಪಡೆದ ಸ್ಥಳೀಯ ಸಂಪನ್ಮೂಲ ವ್ಯಕ್ತಿಯ ಸಹಾಯದಿಂದ ಇದನ್ನು ಬಳಸಬಹುದು, ಅಥವಾ ರೈತರು ನೇರವಾಗಿ ಗೂಗಲ್ ಪ್ಲೇ ಸ್ಟೋರ್‌ನಲ್ಲಿರುವ 'ಪಶುಪೋಷಣ್' ಆ್ಯಪ್ ಮೂಲಕ ಬಳಸಬಹುದು.",
+              "राशन संतुलन कार्यक्रम (RBP) NDDB का बनाया आसान सॉफ़्टवेयर इस्तेमाल करके, आसपास मिलने वाले चारे-दाने से ही सही संतुलित और सबसे कम लागत वाला राशन निकालता है। इसे प्रशिक्षित स्थानीय व्यक्ति की मदद से इस्तेमाल किया जा सकता है, या किसान सीधे गूगल प्ले स्टोर पर उपलब्ध 'पशुपोषण' ऐप से भी चला सकते हैं।"
             ),
           },
           {
             type: "stat-grid",
             items: [
               {
-                label: L("More Milk, Better Milk"),
-                text: L("Balancing the ration increases milk production, along with more fat and solids-not-fat in the milk."),
+                label: L("More Milk, Better Milk", "ఎక్కువ పాలు, మెరుగైన పాలు", "அதிக பால், சிறந்த பால்", "ಹೆಚ್ಚು ಹಾಲು, ಉತ್ತಮ ಹಾಲು", "ज़्यादा दूध, बेहतर दूध"),
+                text: L("Balancing the ration increases milk production, along with more fat and solids-not-fat in the milk.", "రేషన్‌ను సమతుల్యం చేస్తే పాల ఉత్పత్తి పెరుగుతుంది, పాలలో కొవ్వు, SNF (కొవ్వు కాని ఘనపదార్థాలు) కూడా పెరుగుతాయి.", "ரேஷனை சமச்சீர் செய்தால் பால் உற்பத்தி அதிகரிக்கும், பாலில் கொழுப்பும் SNF-உம் (கொழுப்பு அல்லாத திடப்பொருட்கள்) கூடும்.", "ರೇಷನ್ ಅನ್ನು ಸಮತೋಲನಗೊಳಿಸಿದರೆ ಹಾಲಿನ ಉತ್ಪಾದನೆ ಹೆಚ್ಚುತ್ತದೆ, ಹಾಲಿನಲ್ಲಿ ಕೊಬ್ಬು ಮತ್ತು SNF (ಕೊಬ್ಬಿಲ್ಲದ ಘನ ಪದಾರ್ಥಗಳು) ಕೂಡ ಹೆಚ್ಚುತ್ತವೆ.", "राशन को संतुलित करने से दूध का उत्पादन बढ़ता है, और दूध में फैट तथा SNF (वसा-रहित ठोस पदार्थ) भी बढ़ते हैं।"),
               },
               {
-                label: L("More Income, Same Feed Cost"),
-                text: L("Because the ration uses locally available feed at the least cost, balancing it increases the farmer's net daily income."),
+                label: L("More Income, Same Feed Cost", "ఎక్కువ ఆదాయం, అదే మేత ఖర్చు", "அதிக வருமானம், அதே தீவனச் செலவு", "ಹೆಚ್ಚು ಆದಾಯ, ಅದೇ ಮೇವಿನ ವೆಚ್ಚ", "ज़्यादा आमदनी, वही चारे का खर्च"),
+                text: L("Because the ration uses locally available feed at the least cost, balancing it increases the farmer's net daily income.", "రేషన్ స్థానికంగా దొరికే మేతను అతి తక్కువ ఖర్చుతో వాడుకుంటుంది కాబట్టి, దాన్ని సమతుల్యం చేయడం వల్ల రైతు రోజువారీ నికర ఆదాయం పెరుగుతుంది.", "ரேஷன் உள்ளூரில் கிடைக்கும் தீவனத்தை மிகக் குறைந்த செலவில் பயன்படுத்துவதால், அதை சமச்சீர் செய்வது விவசாயியின் தினசரி நிகர வருமானத்தை அதிகரிக்கிறது.", "ರೇಷನ್ ಸ್ಥಳೀಯವಾಗಿ ಸಿಗುವ ಮೇವನ್ನು ಅತಿ ಕಡಿಮೆ ವೆಚ್ಚದಲ್ಲಿ ಬಳಸುವುದರಿಂದ, ಅದನ್ನು ಸಮತೋಲನ ಮಾಡಿದರೆ ರೈತನ ದಿನದ ನಿವ್ವಳ ಆದಾಯ ಹೆಚ್ಚುತ್ತದೆ.", "क्योंकि राशन आसपास मिलने वाले चारे-दाने को सबसे कम लागत में इस्तेमाल करता है, इसे संतुलित करने से किसान की रोज़ की शुद्ध आमदनी बढ़ती है।"),
               },
               {
-                label: L("Healthier, More Fertile Animals"),
-                text: L("A balanced ration improves general health, improves reproductive efficiency, and reduces the gap between one calving and the next."),
+                label: L("Healthier, More Fertile Animals", "ఆరోగ్యవంతమైన, ఎక్కువ సంతానోత్పత్తి గల పశువులు", "ஆரோக்கியமான, அதிக கருவுறுதல் திறன் கொண்ட விலங்குகள்", "ಆರೋಗ್ಯವಂತ, ಹೆಚ್ಚು ಫಲವತ್ತತೆಯ ಪ್ರಾಣಿಗಳು", "ज़्यादा सेहतमंद और ज़्यादा प्रजनन-क्षमता वाले पशु"),
+                text: L("A balanced ration improves general health, improves reproductive efficiency, and reduces the gap between one calving and the next.", "సమతుల్య రేషన్ సాధారణ ఆరోగ్యాన్ని మెరుగుపరుస్తుంది, సంతానోత్పత్తి సామర్థ్యాన్ని పెంచుతుంది, ఒక ఈత నుండి మరో ఈతకు మధ్య ఉండే వ్యవధిని తగ్గిస్తుంది.", "சமச்சீர் ரேஷன் பொதுவான ஆரோக்கியத்தை மேம்படுத்துகிறது, இனப்பெருக்கத் திறனை அதிகரிக்கிறது, ஒரு கன்று ஈனுவதற்கும் அடுத்ததற்கும் இடையிலான இடைவெளியைக் குறைக்கிறது.", "ಸಮತೋಲಿತ ರೇಷನ್ ಸಾಮಾನ್ಯ ಆರೋಗ್ಯವನ್ನು ಸುಧಾರಿಸುತ್ತದೆ, ಸಂತಾನೋತ್ಪತ್ತಿ ಸಾಮರ್ಥ್ಯವನ್ನು ಹೆಚ್ಚಿಸುತ್ತದೆ ಮತ್ತು ಒಂದು ಕರು ಹಾಕುವುದರಿಂದ ಮುಂದಿನದಕ್ಕೆ ಇರುವ ಅಂತರವನ್ನು ಕಡಿಮೆ ಮಾಡುತ್ತದೆ.", "संतुलित राशन से सामान्य सेहत सुधरती है, प्रजनन क्षमता बेहतर होती है, और एक ब्यांत से दूसरे ब्यांत के बीच का अंतर कम होता है।"),
               },
               {
-                label: L("Good for the Environment Too"),
-                text: L("Balanced feeding also reduces methane emissions — a greenhouse gas — from the animals."),
+                label: L("Good for the Environment Too", "పర్యావరణానికి కూడా మంచిది", "சுற்றுச்சூழலுக்கும் நல்லது", "ಪರಿಸರಕ್ಕೂ ಒಳ್ಳೆಯದು", "पर्यावरण के लिए भी अच्छा"),
+                text: L("Balanced feeding also reduces methane emissions — a greenhouse gas — from the animals.", "సమతుల్య మేత వల్ల పశువుల నుండి వెలువడే మీథేన్ — ఒక గ్రీన్‌హౌస్ వాయువు — కూడా తగ్గుతుంది.", "சமச்சீர் தீவனம் விலங்குகளிலிருந்து வெளியாகும் மீத்தேன் — ஒரு பசுமை இல்ல வாயு — அளவையும் குறைக்கிறது.", "ಸಮತೋಲಿತ ಆಹಾರವು ಪ್ರಾಣಿಗಳಿಂದ ಹೊರಹೊಮ್ಮುವ ಮೀಥೇನ್ — ಒಂದು ಹಸಿರುಮನೆ ಅನಿಲ — ಅನ್ನೂ ಕಡಿಮೆ ಮಾಡುತ್ತದೆ.", "संतुलित आहार से पशुओं से निकलने वाली मीथेन गैस — जो एक ग्रीनहाउस गैस है — भी कम होती है।"),
               },
             ],
           },
           {
             type: "callout",
             style: "tip",
-            heading: L("Minerals Are Part of 'Balanced' Too"),
+            heading: L("Minerals Are Part of 'Balanced' Too", "ఖనిజాలు కూడా 'సమతుల్యం'లో భాగమే", "தாதுக்களும் 'சமச்சீர்' உணவின் ஒரு பகுதிதான்", "ಖನಿಜಗಳೂ 'ಸಮತೋಲಿತ'ದ ಭಾಗವೇ", "खनिज भी 'संतुलित' आहार का हिस्सा हैं"),
             text: L(
-              "Minerals are essential for almost every function inside the animal's body. Even a ration that looks fine in terms of fodder and concentrate can still be missing minerals — so an area-specific mineral mixture should always be added to the ration. You'll see exactly how much different animals need in the next lesson."
+              "Minerals are essential for almost every function inside the animal's body. Even a ration that looks fine in terms of fodder and concentrate can still be missing minerals — so an area-specific mineral mixture should always be added to the ration. You'll see exactly how much different animals need in the next lesson.",
+              "పశువు శరీరంలోని దాదాపు ప్రతి పనికి ఖనిజాలు తప్పనిసరి. మేత, దాణా విషయంలో సరిగ్గా కనిపించే రేషన్‌లో కూడా ఖనిజాలు లోపించి ఉండవచ్చు — అందుకే ప్రాంతానికి తగిన ఖనిజ మిశ్రమాన్ని ఎల్లప్పుడూ రేషన్‌లో కలపాలి. వేర్వేరు పశువులకు ఎంత అవసరమో వచ్చే పాఠంలో ఖచ్చితంగా చూద్దాం.",
+              "விலங்கின் உடலுக்குள் கிட்டத்தட்ட ஒவ்வொரு செயலுக்கும் தாதுக்கள் அவசியம். தீவனம், அடர் தீவனம் அடிப்படையில் சரியாகத் தெரியும் ரேஷனிலும் தாதுக்கள் குறைவாக இருக்கலாம் — அதனால் அந்தப் பகுதிக்கேற்ற தாது உப்புக் கலவையை எப்போதும் ரேஷனில் சேர்க்க வேண்டும். வெவ்வேறு விலங்குகளுக்கு எவ்வளவு தேவை என்பதை அடுத்த பாடத்தில் சரியாகப் பார்ப்பீர்கள்.",
+              "ಪ್ರಾಣಿಯ ದೇಹದೊಳಗಿನ ಬಹುತೇಕ ಪ್ರತಿ ಕೆಲಸಕ್ಕೂ ಖನಿಜಗಳು ಅಗತ್ಯ. ಮೇವು ಮತ್ತು ಹಿಂಡಿ-ಕಾಳು ಆಹಾರದ ದೃಷ್ಟಿಯಿಂದ ಚೆನ್ನಾಗಿ ಕಾಣುವ ರೇಷನ್‌ನಲ್ಲೂ ಖನಿಜಗಳ ಕೊರತೆ ಇರಬಹುದು — ಆದ್ದರಿಂದ ಆ ಪ್ರದೇಶಕ್ಕೆ ತಕ್ಕ ಖನಿಜ ಮಿಶ್ರಣವನ್ನು ಯಾವಾಗಲೂ ರೇಷನ್‌ಗೆ ಸೇರಿಸಬೇಕು. ವಿವಿಧ ಪ್ರಾಣಿಗಳಿಗೆ ಎಷ್ಟು ಬೇಕು ಎಂಬುದನ್ನು ಮುಂದಿನ ಪಾಠದಲ್ಲಿ ನಿಖರವಾಗಿ ನೋಡುತ್ತೀರಿ.",
+              "पशु के शरीर के लगभग हर काम के लिए खनिज ज़रूरी हैं। चारे और दाने के हिसाब से ठीक दिखने वाले राशन में भी खनिजों की कमी हो सकती है — इसलिए राशन में हमेशा इलाके के हिसाब से बना खनिज मिश्रण मिलाना चाहिए। अलग-अलग पशुओं को कितना चाहिए, यह आप अगले पाठ में ठीक-ठीक देखेंगे।"
             ),
           },
         ],
         check: [
           {
             type: "mcq",
-            q: L("What is a 'ration'?"),
+            q: L("What is a 'ration'?", "'రేషన్' అంటే ఏమిటి?", "'ரேஷன்' என்றால் என்ன?", "'ರೇಷನ್' ಎಂದರೇನು?", "'राशन' क्या होता है?"),
             options: [
-              L("Only the concentrate feed given to an animal"),
-              L("The total feed given to one animal over one day"),
-              L("A type of illness"),
-              L("The amount of milk an animal gives"),
+              L("Only the concentrate feed given to an animal", "పశువుకు ఇచ్చే దాణా మాత్రమే", "விலங்குக்குக் கொடுக்கும் அடர் தீவனம் மட்டும்", "ಪ್ರಾಣಿಗೆ ಕೊಡುವ ಹಿಂಡಿ-ಕಾಳು ಆಹಾರ ಮಾತ್ರ", "पशु को दिया जाने वाला सिर्फ़ दाना"),
+              L("The total feed given to one animal over one day", "ఒక పశువుకు ఒక రోజులో ఇచ్చే మొత్తం మేత", "ஒரு விலங்குக்கு ஒரு நாளில் கொடுக்கும் மொத்த தீவனம்", "ಒಂದು ಪ್ರಾಣಿಗೆ ಒಂದು ದಿನದಲ್ಲಿ ಕೊಡುವ ಒಟ್ಟು ಆಹಾರ", "एक पशु को एक दिन में दिया जाने वाला कुल आहार"),
+              L("A type of illness", "ఒక రకమైన జబ్బు", "ஒரு வகை நோய்", "ಒಂದು ರೀತಿಯ ಕಾಯಿಲೆ", "एक तरह की बीमारी"),
+              L("The amount of milk an animal gives", "పశువు ఇచ్చే పాల మొత్తం", "விலங்கு தரும் பாலின் அளவு", "ಪ್ರಾಣಿ ಕೊಡುವ ಹಾಲಿನ ಪ್ರಮಾಣ", "पशु जितना दूध देता है उसकी मात्रा"),
             ],
             answer: 1,
-            explain: L("A ration is the whole daily diet — fodder plus concentrate — not just one part of it."),
+            explain: L("A ration is the whole daily diet — fodder plus concentrate — not just one part of it.", "రేషన్ అంటే మొత్తం రోజువారీ ఆహారం — మేత ప్లస్ దాణా — ఒక భాగం మాత్రమే కాదు.", "ரேஷன் என்பது முழு தினசரி உணவு — தீவனமும் அடர் தீவனமும் சேர்ந்தது — ஒரு பகுதி மட்டும் அல்ல.", "ರೇಷನ್ ಎಂದರೆ ಇಡೀ ದಿನದ ಆಹಾರ — ಮೇವು ಮತ್ತು ಹಿಂಡಿ-ಕಾಳು ಆಹಾರ ಸೇರಿ — ಕೇವಲ ಒಂದು ಭಾಗ ಅಲ್ಲ.", "राशन यानी पूरे दिन का आहार — चारा और दाना दोनों मिलाकर — सिर्फ़ उसका एक हिस्सा नहीं।"),
           },
           {
             type: "truefalse",
-            q: L("Imbalanced feeding only affects the taste of the milk, nothing else."),
+            q: L("Imbalanced feeding only affects the taste of the milk, nothing else.", "అసమతుల్య మేత పాల రుచిని మాత్రమే ప్రభావితం చేస్తుంది, ఇంకేమీ కాదు.", "சமநிலையற்ற தீவனம் பாலின் சுவையை மட்டுமே பாதிக்கும், வேறு எதையும் அல்ல.", "ಅಸಮತೋಲಿತ ಆಹಾರವು ಹಾಲಿನ ರುಚಿಯ ಮೇಲೆ ಮಾತ್ರ ಪರಿಣಾಮ ಬೀರುತ್ತದೆ, ಬೇರೇನೂ ಅಲ್ಲ.", "असंतुलित आहार का असर सिर्फ़ दूध के स्वाद पर पड़ता है, और किसी चीज़ पर नहीं।"),
             answer: false,
             explain: L(
-              "No — imbalanced feeding harms the animal's health and productivity, and reduces the farmer's income because the animal's milk potential is never fully reached."
+              "No — imbalanced feeding harms the animal's health and productivity, and reduces the farmer's income because the animal's milk potential is never fully reached.",
+              "కాదు — అసమతుల్య మేత పశువు ఆరోగ్యానికి, ఉత్పాదకతకు హాని చేస్తుంది, పశువు పాల సామర్థ్యం పూర్తిగా అందకపోవడం వల్ల రైతు ఆదాయం కూడా తగ్గుతుంది.",
+              "இல்லை — சமநிலையற்ற தீவனம் விலங்கின் ஆரோக்கியத்தையும் உற்பத்தித் திறனையும் பாதிக்கிறது, விலங்கின் பால் திறன் முழுமையாகக் கிடைக்காததால் விவசாயியின் வருமானமும் குறைகிறது.",
+              "ಇಲ್ಲ — ಅಸಮತೋಲಿತ ಆಹಾರ ಪ್ರಾಣಿಯ ಆರೋಗ್ಯ ಮತ್ತು ಉತ್ಪಾದಕತೆಗೆ ಹಾನಿ ಮಾಡುತ್ತದೆ, ಮತ್ತು ಪ್ರಾಣಿಯ ಹಾಲಿನ ಸಾಮರ್ಥ್ಯ ಪೂರ್ಣವಾಗಿ ಸಿಗದ ಕಾರಣ ರೈತನ ಆದಾಯವೂ ಕಡಿಮೆಯಾಗುತ್ತದೆ.",
+              "नहीं — असंतुलित आहार पशु की सेहत और उत्पादन को नुकसान पहुँचाता है, और पशु की दूध देने की पूरी क्षमता न मिल पाने से किसान की आमदनी भी घटती है।"
             ),
           },
         ],
@@ -14112,50 +14172,50 @@ export const MODULES = [
         {
           topicId: "t-m14-feed-types",
           type: "mcq",
-          q: L("About how much green fodder should a normal adult animal be fed each day?"),
-          options: [L("1-2 kg"), L("4-6 kg"), L("15-20 kg"), L("50-60 kg")],
+          q: L("About how much green fodder should a normal adult animal be fed each day?", "ఒక సాధారణ పెద్ద పశువుకు రోజుకు సుమారు ఎంత పచ్చి మేత పెట్టాలి?", "ஒரு சாதாரண வளர்ந்த விலங்குக்கு ஒரு நாளைக்கு சுமார் எவ்வளவு பச்சை தீவனம் கொடுக்க வேண்டும்?", "ಒಂದು ಸಾಮಾನ್ಯ ದೊಡ್ಡ ಪ್ರಾಣಿಗೆ ದಿನಕ್ಕೆ ಸುಮಾರು ಎಷ್ಟು ಹಸಿರು ಮೇವು ನೀಡಬೇಕು?", "एक सामान्य वयस्क पशु को रोज़ लगभग कितना हरा चारा खिलाना चाहिए?"),
+          options: [L("1-2 kg", "1-2 కిలోలు", "1-2 கிலோ", "1-2 ಕೆ.ಜಿ", "1-2 किलो"), L("4-6 kg", "4-6 కిలోలు", "4-6 கிலோ", "4-6 ಕೆ.ಜಿ", "4-6 किलो"), L("15-20 kg", "15-20 కిలోలు", "15-20 கிலோ", "15-20 ಕೆ.ಜಿ", "15-20 किलो"), L("50-60 kg", "50-60 కిలోలు", "50-60 கிலோ", "50-60 ಕೆ.ಜಿ", "50-60 किलो")],
           answer: 2,
-          explain: L("15 to 20 kg of green fodder a day is the general recommendation for a normal adult animal, along with 4 to 6 kg of dry fodder."),
+          explain: L("15 to 20 kg of green fodder a day is the general recommendation for a normal adult animal, along with 4 to 6 kg of dry fodder.", "సాధారణ పెద్ద పశువుకు రోజుకు 15 నుండి 20 కిలోల పచ్చి మేత, దానితో పాటు 4 నుండి 6 కిలోల ఎండుమేత ఇవ్వాలని సాధారణ సిఫార్సు.", "சாதாரண வளர்ந்த விலங்குக்கு தினமும் 15 முதல் 20 கிலோ பச்சை தீவனமும், அதனுடன் 4 முதல் 6 கிலோ உலர் தீவனமும் கொடுக்க வேண்டும் என்பது பொதுவான பரிந்துரை.", "ಸಾಮಾನ್ಯ ದೊಡ್ಡ ಪ್ರಾಣಿಗೆ ದಿನಕ್ಕೆ 15 ರಿಂದ 20 ಕೆ.ಜಿ ಹಸಿರು ಮೇವು, ಜೊತೆಗೆ 4 ರಿಂದ 6 ಕೆ.ಜಿ ಒಣ ಮೇವು ನೀಡಬೇಕು ಎಂಬುದು ಸಾಮಾನ್ಯ ಶಿಫಾರಸು.", "एक सामान्य वयस्क पशु के लिए रोज़ 15 से 20 किलो हरा चारा, और उसके साथ 4 से 6 किलो सूखा चारा खिलाने की आम सिफ़ारिश है।"),
         },
         {
           topicId: "t-m14-feed-types",
           type: "truefalse",
-          q: L("Legume and non-legume green fodder should be fed in a 1:3 proportion."),
+          q: L("Legume and non-legume green fodder should be fed in a 1:3 proportion.", "పప్పుజాతి, పప్పుజాతి కాని పచ్చి మేతను 1:3 నిష్పత్తిలో పెట్టాలి.", "பயறு வகை, பயறு அல்லாத பச்சை தீவனத்தை 1:3 விகிதத்தில் கொடுக்க வேண்டும்.", "ಕಾಳು ಜಾತಿಯ ಮತ್ತು ಕಾಳು ಜಾತಿಯಲ್ಲದ ಹಸಿರು ಮೇವನ್ನು 1:3 ಅನುಪಾತದಲ್ಲಿ ನೀಡಬೇಕು.", "दलहनी और गैर-दलहनी हरा चारा 1:3 के अनुपात में खिलाना चाहिए।"),
           answer: true,
-          explain: L("Yes — one part legume fodder to three parts non-legume fodder is the recommended mix."),
+          explain: L("Yes — one part legume fodder to three parts non-legume fodder is the recommended mix.", "అవును — ఒక భాగం పప్పుజాతి మేత, మూడు భాగాలు పప్పుజాతి కాని మేత అనేది సిఫార్సు చేసిన మిశ్రమం.", "ஆம் — ஒரு பங்கு பயறு வகை தீவனம், மூன்று பங்கு பயறு அல்லாத தீவனம் என்பதே பரிந்துரைக்கப்படும் கலவை.", "ಹೌದು — ಒಂದು ಭಾಗ ಕಾಳು ಜಾತಿಯ ಮೇವು, ಮೂರು ಭಾಗ ಕಾಳು ಜಾತಿಯಲ್ಲದ ಮೇವು ಎಂಬುದು ಶಿಫಾರಸು ಮಾಡಿದ ಮಿಶ್ರಣ.", "हाँ — एक हिस्सा दलहनी चारा और तीन हिस्से गैर-दलहनी चारा, यही सुझाया गया मिश्रण है।"),
         },
         {
           topicId: "t-m14-ration-balancing",
           type: "mcq",
-          q: L("What does the Ration Balancing Programme (RBP) mainly help a farmer do?"),
+          q: L("What does the Ration Balancing Programme (RBP) mainly help a farmer do?", "రేషన్ బ్యాలెన్సింగ్ ప్రోగ్రామ్ (RBP) రైతుకు ప్రధానంగా దేనిలో సహాయపడుతుంది?", "ரேஷன் பேலன்சிங் திட்டம் (RBP) விவசாயிக்கு முக்கியமாக எதில் உதவுகிறது?", "ರೇಷನ್ ಬ್ಯಾಲೆನ್ಸಿಂಗ್ ಪ್ರೋಗ್ರಾಂ (RBP) ರೈತನಿಗೆ ಮುಖ್ಯವಾಗಿ ಯಾವುದರಲ್ಲಿ ಸಹಾಯ ಮಾಡುತ್ತದೆ?", "राशन संतुलन कार्यक्रम (RBP) किसान की मुख्य रूप से किस काम में मदद करता है?"),
           options: [
-            L("Diagnose animal diseases"),
-            L("Work out a properly balanced ration at least cost using locally available feed"),
-            L("Replace fodder with only concentrate feed"),
-            L("Increase the size of the herd"),
+            L("Diagnose animal diseases", "పశువుల జబ్బులను గుర్తించడం", "விலங்கு நோய்களைக் கண்டறிதல்", "ಪ್ರಾಣಿಗಳ ರೋಗಗಳನ್ನು ಪತ್ತೆ ಮಾಡುವುದು", "पशुओं की बीमारियों की पहचान करना"),
+            L("Work out a properly balanced ration at least cost using locally available feed", "స్థానికంగా దొరికే మేతతో, అతి తక్కువ ఖర్చుతో సరిగ్గా సమతుల్యమైన రేషన్‌ను లెక్కించడం", "உள்ளூரில் கிடைக்கும் தீவனத்தைக் கொண்டு, மிகக் குறைந்த செலவில் சரியாக சமச்சீர் செய்யப்பட்ட ரேஷனைக் கணக்கிடுதல்", "ಸ್ಥಳೀಯವಾಗಿ ಸಿಗುವ ಮೇವಿನಿಂದ ಅತಿ ಕಡಿಮೆ ವೆಚ್ಚದಲ್ಲಿ ಸರಿಯಾಗಿ ಸಮತೋಲಿತ ರೇಷನ್ ಲೆಕ್ಕ ಹಾಕುವುದು", "आसपास मिलने वाले चारे-दाने से सबसे कम लागत में सही संतुलित राशन निकालना"),
+            L("Replace fodder with only concentrate feed", "మేతను పూర్తిగా దాణాతోనే భర్తీ చేయడం", "தீவனத்தை அடர் தீவனத்தால் மட்டுமே மாற்றுவது", "ಮೇವನ್ನು ಕೇವಲ ಹಿಂಡಿ-ಕಾಳು ಆಹಾರದಿಂದ ಬದಲಿಸುವುದು", "चारे की जगह सिर्फ़ दाना खिलाना"),
+            L("Increase the size of the herd", "మంద పరిమాణాన్ని పెంచడం", "மந்தையின் எண்ணிக்கையை அதிகரிப்பது", "ಹಿಂಡಿನ ಗಾತ್ರವನ್ನು ಹೆಚ್ಚಿಸುವುದು", "पशुओं की संख्या बढ़ाना"),
           ],
           answer: 1,
-          explain: L("RBP uses NDDB's software (or the Pashuposhan app) to balance a ration using locally available feed, at least cost."),
+          explain: L("RBP uses NDDB's software (or the Pashuposhan app) to balance a ration using locally available feed, at least cost.", "RBP NDDB సాఫ్ట్‌వేర్‌ను (లేదా పశుపోషణ్ యాప్‌ను) ఉపయోగించి, స్థానికంగా దొరికే మేతతో, అతి తక్కువ ఖర్చుతో రేషన్‌ను సమతుల్యం చేస్తుంది.", "RBP, NDDB-யின் மென்பொருளை (அல்லது பசுபோஷண் செயலியை) பயன்படுத்தி, உள்ளூரில் கிடைக்கும் தீவனத்தைக் கொண்டு, மிகக் குறைந்த செலவில் ரேஷனை சமச்சீர் செய்கிறது.", "RBP, NDDB ಸಾಫ್ಟ್‌ವೇರ್ (ಅಥವಾ ಪಶುಪೋಷಣ್ ಆ್ಯಪ್) ಬಳಸಿ, ಸ್ಥಳೀಯವಾಗಿ ಸಿಗುವ ಮೇವಿನಿಂದ ಅತಿ ಕಡಿಮೆ ವೆಚ್ಚದಲ್ಲಿ ರೇಷನ್ ಸಮತೋಲನ ಮಾಡುತ್ತದೆ.", "RBP, NDDB के सॉफ़्टवेयर (या 'पशुपोषण' ऐप) से आसपास मिलने वाले चारे-दाने के साथ सबसे कम लागत में राशन को संतुलित करता है।"),
         },
         {
           topicId: "t-m14-feed-types",
           type: "mcq",
-          q: L("Why should surplus green fodder be conserved as hay or silage?"),
+          q: L("Why should surplus green fodder be conserved as hay or silage?", "మిగులు పచ్చి మేతను ఎండుగడ్డి (హే) లేదా సైలేజ్‌గా ఎందుకు నిల్వ చేయాలి?", "மிச்சமுள்ள பச்சை தீவனத்தை ஏன் உலர் புல் (ஹே) அல்லது சைலேஜாக சேமிக்க வேண்டும்?", "ಉಳಿದ ಹಸಿರು ಮೇವನ್ನು ಒಣ ಹುಲ್ಲು (ಹೇ) ಅಥವಾ ಸೈಲೇಜ್ ಆಗಿ ಏಕೆ ಸಂಗ್ರಹಿಸಬೇಕು?", "बचे हुए हरे चारे को हे (सूखी घास) या साइलेज के रूप में क्यों रखना चाहिए?"),
           options: [
-            L("It has no other use"),
-            L("So it can be used later, such as during summer or when green fodder is scarce"),
-            L("Because fresh fodder is harmful to animals"),
-            L("To reduce the size of the herd"),
+            L("It has no other use", "దానికి ఇంకే ఉపయోగం లేదు", "அதற்கு வேறு பயன் இல்லை", "ಅದಕ್ಕೆ ಬೇರೆ ಯಾವುದೇ ಉಪಯೋಗ ಇಲ್ಲ", "इसका और कोई उपयोग नहीं है"),
+            L("So it can be used later, such as during summer or when green fodder is scarce", "తర్వాత వేసవిలో లేదా పచ్చి మేత కొరత ఉన్నప్పుడు వాడుకోవడానికి", "பிறகு கோடையில் அல்லது பச்சை தீவனம் பற்றாக்குறையாக இருக்கும்போது பயன்படுத்த", "ನಂತರ ಬೇಸಿಗೆಯಲ್ಲಿ ಅಥವಾ ಹಸಿರು ಮೇವಿನ ಕೊರತೆ ಇದ್ದಾಗ ಬಳಸಲು", "ताकि बाद में, जैसे गर्मियों में या हरे चारे की कमी के समय, काम आ सके"),
+            L("Because fresh fodder is harmful to animals", "ఎందుకంటే తాజా మేత పశువులకు హానికరం", "ஏனெனில் புதிய தீவனம் விலங்குகளுக்குத் தீங்கானது", "ಏಕೆಂದರೆ ತಾಜಾ ಮೇವು ಪ್ರಾಣಿಗಳಿಗೆ ಹಾನಿಕರ", "क्योंकि ताज़ा चारा जानवरों के लिए नुकसानदेह है"),
+            L("To reduce the size of the herd", "మంద పరిమాణాన్ని తగ్గించడానికి", "மந்தையின் எண்ணிக்கையைக் குறைக்க", "ಹಿಂಡಿನ ಗಾತ್ರವನ್ನು ಕಡಿಮೆ ಮಾಡಲು", "पशुओं की संख्या घटाने के लिए"),
           ],
           answer: 1,
-          explain: L("Conserving surplus fodder as hay or silage means it isn't wasted, and becomes useful during summer or scarcity."),
+          explain: L("Conserving surplus fodder as hay or silage means it isn't wasted, and becomes useful during summer or scarcity.", "మిగులు మేతను ఎండుగడ్డి లేదా సైలేజ్‌గా నిల్వ చేస్తే అది వృథా కాదు, వేసవిలో లేదా కొరత సమయంలో ఉపయోగపడుతుంది.", "மிச்ச தீவனத்தை உலர் புல் அல்லது சைலேஜாக சேமித்தால் அது வீணாகாது, கோடையில் அல்லது பற்றாக்குறை காலத்தில் பயன்படும்.", "ಉಳಿದ ಮೇವನ್ನು ಒಣ ಹುಲ್ಲು ಅಥವಾ ಸೈಲೇಜ್ ಆಗಿ ಸಂಗ್ರಹಿಸಿದರೆ ಅದು ವ್ಯರ್ಥವಾಗುವುದಿಲ್ಲ, ಬೇಸಿಗೆಯಲ್ಲಿ ಅಥವಾ ಕೊರತೆಯ ಸಮಯದಲ್ಲಿ ಉಪಯೋಗಕ್ಕೆ ಬರುತ್ತದೆ.", "बचे हुए चारे को हे या साइलेज के रूप में रखने से वह बर्बाद नहीं होता, और गर्मियों में या कमी के समय काम आता है।"),
         },
         {
           topicId: "t-m14-ration-balancing",
           type: "truefalse",
-          q: L("A ration can look fine in terms of fodder and concentrate, and still be missing essential minerals."),
+          q: L("A ration can look fine in terms of fodder and concentrate, and still be missing essential minerals.", "మేత, దాణా విషయంలో రేషన్ సరిగ్గా కనిపించినా, అందులో అవసరమైన ఖనిజాలు లోపించి ఉండవచ్చు.", "தீவனம், அடர் தீவனம் அடிப்படையில் ரேஷன் சரியாகத் தெரிந்தாலும், அதில் அவசியமான தாதுக்கள் குறைவாக இருக்கலாம்.", "ಮೇವು ಮತ್ತು ಹಿಂಡಿ-ಕಾಳು ಆಹಾರದ ದೃಷ್ಟಿಯಿಂದ ರೇಷನ್ ಚೆನ್ನಾಗಿ ಕಂಡರೂ, ಅದರಲ್ಲಿ ಅಗತ್ಯ ಖನಿಜಗಳ ಕೊರತೆ ಇರಬಹುದು.", "चारे और दाने के हिसाब से राशन ठीक दिखे, फिर भी उसमें ज़रूरी खनिजों की कमी हो सकती है।"),
           answer: true,
-          explain: L("Yes — minerals need to be added separately as an area-specific mineral mixture; they aren't automatically covered just because fodder and concentrate are given."),
+          explain: L("Yes — minerals need to be added separately as an area-specific mineral mixture; they aren't automatically covered just because fodder and concentrate are given.", "అవును — ఖనిజాలను ప్రాంతానికి తగిన ఖనిజ మిశ్రమంగా వేరుగా కలపాలి; మేత, దాణా ఇస్తున్నంత మాత్రాన అవి ఆటోమేటిక్‌గా అందవు.", "ஆம் — தாதுக்களை அந்தப் பகுதிக்கேற்ற தாது உப்புக் கலவையாக தனியாகச் சேர்க்க வேண்டும்; தீவனமும் அடர் தீவனமும் கொடுப்பதால் மட்டும் அவை தானாகக் கிடைத்துவிடாது.", "ಹೌದು — ಖನಿಜಗಳನ್ನು ಆ ಪ್ರದೇಶಕ್ಕೆ ತಕ್ಕ ಖನಿಜ ಮಿಶ್ರಣವಾಗಿ ಬೇರೆಯಾಗಿ ಸೇರಿಸಬೇಕು; ಮೇವು ಮತ್ತು ಹಿಂಡಿ-ಕಾಳು ಆಹಾರ ಕೊಟ್ಟ ಮಾತ್ರಕ್ಕೆ ಅವು ತಾನಾಗಿ ಸಿಗುವುದಿಲ್ಲ.", "हाँ — खनिजों को इलाके के हिसाब से बने खनिज मिश्रण के रूप में अलग से मिलाना पड़ता है; चारा और दाना देने भर से वे अपने आप पूरे नहीं हो जाते।"),
         },
       ],
     },
@@ -14166,82 +14226,106 @@ export const MODULES = [
   // ==================================================================
   {
     id: "m14-l2",
-    title: L("Feeding Changes by Animal Type and Life Stage"),
+    title: L("Feeding Changes by Animal Type and Life Stage", "పశువు రకం, జీవన దశను బట్టి మేత మారుతుంది", "விலங்கின் வகை, வாழ்க்கை நிலைக்கேற்ப தீவனம் மாறுகிறது", "ಪ್ರಾಣಿಯ ವಿಧ ಮತ್ತು ಜೀವನ ಹಂತದ ಪ್ರಕಾರ ಮೇವು ಬದಲಾಗುತ್ತದೆ", "पशु के प्रकार और जीवन की अवस्था के हिसाब से आहार बदलता है"),
     estMinutes: 9,
     hook: [
       {
         type: "hero",
-        heading: L("One Ration Does Not Fit Every Animal"),
+        heading: L("One Ration Does Not Fit Every Animal", "ఒకే రేషన్ అన్ని పశువులకు సరిపోదు", "ஒரே ரேஷன் எல்லா விலங்குகளுக்கும் பொருந்தாது", "ಒಂದೇ ರೇಷನ್ ಎಲ್ಲ ಪ್ರಾಣಿಗಳಿಗೂ ಹೊಂದುವುದಿಲ್ಲ", "एक ही राशन हर पशु के लिए ठीक नहीं होता"),
         text: L(
-          "A calf, a milking cow, and a cow about to give birth all need different amounts of feed. This lesson shows exactly how feeding needs change as an animal grows, produces milk, and moves through pregnancy — building on the fodder and concentrate basics from the last lesson."
+          "A calf, a milking cow, and a cow about to give birth all need different amounts of feed. This lesson shows exactly how feeding needs change as an animal grows, produces milk, and moves through pregnancy — building on the fodder and concentrate basics from the last lesson.",
+          "దూడ, పాలిచ్చే ఆవు, ఈనబోతున్న ఆవు — ఒక్కొక్క దానికి వేర్వేరు మోతాదులో మేత కావాలి. పశువు పెరిగే కొద్దీ, పాలు ఇచ్చే సమయంలో, గర్భధారణ దశలలో మేత అవసరాలు ఎలా మారతాయో ఈ పాఠం ఖచ్చితంగా చూపిస్తుంది — గత పాఠంలోని మేత, దాణా ప్రాథమిక అంశాలపై ఆధారపడి.",
+          "கன்று, பால் தரும் பசு, கன்று ஈனப்போகும் பசு — ஒவ்வொன்றுக்கும் வெவ்வேறு அளவு தீவனம் தேவை. விலங்கு வளரும்போது, பால் தரும்போது, சினைக் காலத்தின் கட்டங்களில் தீவனத் தேவைகள் எப்படி மாறுகின்றன என்பதை இந்தப் பாடம் சரியாகக் காட்டுகிறது — கடந்த பாடத்தின் தீவனம், அடர் தீவன அடிப்படைகளின் தொடர்ச்சியாக.",
+          "ಕರು, ಹಾಲು ಕೊಡುವ ಹಸು, ಕರು ಹಾಕಲಿರುವ ಹಸು — ಪ್ರತಿಯೊಂದಕ್ಕೂ ಬೇರೆ ಬೇರೆ ಪ್ರಮಾಣದ ಮೇವು ಬೇಕು. ಪ್ರಾಣಿ ಬೆಳೆಯುತ್ತಿದ್ದಂತೆ, ಹಾಲು ಕೊಡುವಾಗ ಮತ್ತು ಗರ್ಭಾವಸ್ಥೆಯ ಹಂತಗಳಲ್ಲಿ ಮೇವಿನ ಅಗತ್ಯಗಳು ಹೇಗೆ ಬದಲಾಗುತ್ತವೆ ಎಂಬುದನ್ನು ಈ ಪಾಠ ನಿಖರವಾಗಿ ತೋರಿಸುತ್ತದೆ — ಕಳೆದ ಪಾಠದ ಮೇವು ಮತ್ತು ಹಿಂಡಿ-ಕಾಳು ಆಹಾರದ ಮೂಲಭೂತ ಅಂಶಗಳ ಮೇಲೆ ಆಧರಿಸಿ.",
+          "बछड़ा, दूध देती गाय और ब्याने वाली गाय — तीनों को अलग-अलग मात्रा में आहार चाहिए। यह पाठ ठीक-ठीक दिखाता है कि पशु के बड़े होने, दूध देने और गाभिन होने के साथ आहार की ज़रूरतें कैसे बदलती हैं — पिछले पाठ में सीखी चारे और दाने की बुनियादी बातों के आधार पर।"
         ),
       },
     ],
     topics: [
       {
         id: "t-m14-stage-feeding",
-        title: L("Concentrate Feed by Type of Animal"),
+        title: L("Concentrate Feed by Type of Animal", "పశువు రకాన్ని బట్టి దాణా", "விலங்கு வகைக்கேற்ப அடர் தீவனம்", "ಪ್ರಾಣಿಯ ವಿಧದ ಪ್ರಕಾರ ಹಿಂಡಿ-ಕಾಳು ಆಹಾರ", "पशु के प्रकार के हिसाब से दाना"),
         teach: [
           {
             type: "text",
-            heading: L("Same Feed, Different Amounts"),
+            heading: L("Same Feed, Different Amounts", "ఒకే మేత, వేర్వేరు మోతాదులు", "ஒரே தீவனம், வெவ்வேறு அளவுகள்", "ಒಂದೇ ಮೇವು, ಬೇರೆ ಬೇರೆ ಪ್ರಮಾಣ", "वही चारा-दाना, अलग-अलग मात्रा"),
             html: L(
-              "The fodder rules from the last lesson stay roughly the same for every adult animal. What changes a lot, from one animal to another, is how much <b>concentrate feed</b> (compound cattle feed) is added on top — because a growing calf, a milking cow, and a pregnant animal each need different extra nutrition."
+              "The fodder rules from the last lesson stay roughly the same for every adult animal. What changes a lot, from one animal to another, is how much <b>concentrate feed</b> (compound cattle feed) is added on top — because a growing calf, a milking cow, and a pregnant animal each need different extra nutrition.",
+              "గత పాఠంలోని మేత నియమాలు ప్రతి పెద్ద పశువుకూ దాదాపు ఒకేలా ఉంటాయి. పశువును బట్టి చాలా మారేది, పైన అదనంగా కలిపే <b>దాణా</b> (కాంపౌండ్ పశుదాణా) మోతాదు — ఎందుకంటే పెరుగుతున్న దూడ, పాలిచ్చే ఆవు, గర్భంతో ఉన్న పశువు — ప్రతి ఒక్కదానికీ వేర్వేరు అదనపు పోషణ కావాలి.",
+              "கடந்த பாடத்தின் தீவன விதிகள் ஒவ்வொரு வளர்ந்த விலங்குக்கும் கிட்டத்தட்ட ஒரே மாதிரியாக இருக்கும். ஒரு விலங்கிலிருந்து இன்னொன்றுக்கு அதிகம் மாறுவது, மேலே கூடுதலாகச் சேர்க்கப்படும் <b>அடர் தீவனத்தின்</b> (கலப்புத் தீவனம்) அளவுதான் — ஏனெனில் வளரும் கன்று, பால் தரும் பசு, சினை விலங்கு ஒவ்வொன்றுக்கும் வெவ்வேறு கூடுதல் ஊட்டச்சத்து தேவை.",
+              "ಕಳೆದ ಪಾಠದ ಮೇವಿನ ನಿಯಮಗಳು ಪ್ರತಿ ದೊಡ್ಡ ಪ್ರಾಣಿಗೂ ಸುಮಾರು ಒಂದೇ ಆಗಿರುತ್ತವೆ. ಒಂದು ಪ್ರಾಣಿಯಿಂದ ಇನ್ನೊಂದಕ್ಕೆ ಹೆಚ್ಚು ಬದಲಾಗುವುದು ಮೇಲೆ ಹೆಚ್ಚುವರಿಯಾಗಿ ಸೇರಿಸುವ <b>ಹಿಂಡಿ-ಕಾಳು ಆಹಾರದ</b> (ಕಾಂಪೌಂಡ್ ಜಾನುವಾರು ಆಹಾರ) ಪ್ರಮಾಣ — ಏಕೆಂದರೆ ಬೆಳೆಯುತ್ತಿರುವ ಕರು, ಹಾಲು ಕೊಡುವ ಹಸು ಮತ್ತು ಗರ್ಭಿಣಿ ಪ್ರಾಣಿ ಪ್ರತಿಯೊಂದಕ್ಕೂ ಬೇರೆ ಬೇರೆ ಹೆಚ್ಚುವರಿ ಪೋಷಣೆ ಬೇಕು.",
+              "पिछले पाठ के चारे के नियम हर वयस्क पशु के लिए लगभग एक जैसे रहते हैं। एक पशु से दूसरे में जो बहुत बदलता है, वह ऊपर से मिलाया जाने वाला <b>दाना</b> (कंपाउंड पशु आहार) है — क्योंकि बढ़ते बछड़े, दूध देती गाय और गाभिन पशु, तीनों को अलग-अलग अतिरिक्त पोषण चाहिए।"
             ),
           },
           {
             type: "stat-grid",
             items: [
               {
-                label: L("Growing Animals"),
-                text: L("Growing animals should be fed 1 to 2 kg of compound cattle feed daily."),
+                label: L("Growing Animals", "పెరుగుతున్న పశువులు", "வளரும் விலங்குகள்", "ಬೆಳೆಯುತ್ತಿರುವ ಪ್ರಾಣಿಗಳು", "बढ़ते पशु"),
+                text: L("Growing animals should be fed 1 to 2 kg of compound cattle feed daily.", "పెరుగుతున్న పశువులకు రోజుకు 1 నుండి 2 కిలోల కాంపౌండ్ పశుదాణా పెట్టాలి.", "வளரும் விலங்குகளுக்கு தினமும் 1 முதல் 2 கிலோ கலப்புத் தீவனம் கொடுக்க வேண்டும்.", "ಬೆಳೆಯುತ್ತಿರುವ ಪ್ರಾಣಿಗಳಿಗೆ ಪ್ರತಿದಿನ 1 ರಿಂದ 2 ಕೆ.ಜಿ ಕಾಂಪೌಂಡ್ ಜಾನುವಾರು ಆಹಾರ ನೀಡಬೇಕು.", "बढ़ते पशुओं को रोज़ 1 से 2 किलो कंपाउंड पशु आहार खिलाना चाहिए।"),
               },
               {
-                label: L("Milking Animals"),
+                label: L("Milking Animals", "పాలిచ్చే పశువులు", "பால் தரும் விலங்குகள்", "ಹಾಲು ಕೊಡುವ ಪ್ರಾಣಿಗಳು", "दूध देने वाले पशु"),
                 text: L(
-                  "Milking animals need 2 kg of compound cattle feed a day just for body maintenance — plus an extra 400 g (for cows) or 500 g (for buffaloes) for every litre of milk they give."
+                  "Milking animals need 2 kg of compound cattle feed a day just for body maintenance — plus an extra 400 g (for cows) or 500 g (for buffaloes) for every litre of milk they give.",
+                  "పాలిచ్చే పశువులకు శరీర నిర్వహణకే రోజుకు 2 కిలోల కాంపౌండ్ పశుదాణా కావాలి — దానికి తోడు అవి ఇచ్చే ప్రతి లీటరు పాలకు అదనంగా 400 గ్రాములు (ఆవులకు) లేదా 500 గ్రాములు (గేదెలకు).",
+                  "பால் தரும் விலங்குகளுக்கு உடல் பராமரிப்புக்கே தினமும் 2 கிலோ கலப்புத் தீவனம் தேவை — அதோடு அவை தரும் ஒவ்வொரு லிட்டர் பாலுக்கும் கூடுதலாக 400 கிராம் (பசுக்களுக்கு) அல்லது 500 கிராம் (எருமைகளுக்கு).",
+                  "ಹಾಲು ಕೊಡುವ ಪ್ರಾಣಿಗಳಿಗೆ ದೇಹ ನಿರ್ವಹಣೆಗೇ ದಿನಕ್ಕೆ 2 ಕೆ.ಜಿ ಕಾಂಪೌಂಡ್ ಜಾನುವಾರು ಆಹಾರ ಬೇಕು — ಜೊತೆಗೆ ಅವು ಕೊಡುವ ಪ್ರತಿ ಲೀಟರ್ ಹಾಲಿಗೆ ಹೆಚ್ಚುವರಿ 400 ಗ್ರಾಂ (ಹಸುಗಳಿಗೆ) ಅಥವಾ 500 ಗ್ರಾಂ (ಎಮ್ಮೆಗಳಿಗೆ).",
+                  "दूध देने वाले पशुओं को शरीर के रख-रखाव के लिए ही रोज़ 2 किलो कंपाउंड पशु आहार चाहिए — और इसके ऊपर हर लीटर दूध पर 400 ग्राम (गाय के लिए) या 500 ग्राम (भैंस के लिए) अतिरिक्त।"
                 ),
               },
               {
-                label: L("Pregnant Animals, Last 2 Months"),
+                label: L("Pregnant Animals, Last 2 Months", "గర్భిణీ పశువులు, చివరి 2 నెలలు", "சினை விலங்குகள், கடைசி 2 மாதங்கள்", "ಗರ್ಭಿಣಿ ಪ್ರಾಣಿಗಳು, ಕೊನೆಯ 2 ತಿಂಗಳು", "गाभिन पशु, आख़िरी 2 महीने"),
                 text: L(
-                  "On top of their usual feed, pregnant animals should get an extra 1 kg of compound cattle feed and 1 kg of good quality oil cake during the last two months of pregnancy, for proper growth of the calf."
+                  "On top of their usual feed, pregnant animals should get an extra 1 kg of compound cattle feed and 1 kg of good quality oil cake during the last two months of pregnancy, for proper growth of the calf.",
+                  "గర్భిణీ పశువులకు వాటి మామూలు మేతతో పాటు, గర్భధారణ చివరి రెండు నెలల్లో దూడ సరిగ్గా పెరగడానికి అదనంగా 1 కిలో కాంపౌండ్ పశుదాణా, 1 కిలో మంచి నాణ్యమైన పిండి చెక్క (ఆయిల్ కేక్) ఇవ్వాలి.",
+                  "சினை விலங்குகளுக்கு அவற்றின் வழக்கமான தீவனத்துடன், சினையின் கடைசி இரண்டு மாதங்களில் கன்று நன்றாக வளர கூடுதலாக 1 கிலோ கலப்புத் தீவனமும், 1 கிலோ நல்ல தரமான புண்ணாக்கும் கொடுக்க வேண்டும்.",
+                  "ಗರ್ಭಿಣಿ ಪ್ರಾಣಿಗಳಿಗೆ ಅವುಗಳ ಸಾಮಾನ್ಯ ಆಹಾರದ ಜೊತೆಗೆ, ಗರ್ಭಾವಸ್ಥೆಯ ಕೊನೆಯ ಎರಡು ತಿಂಗಳಲ್ಲಿ ಕರು ಸರಿಯಾಗಿ ಬೆಳೆಯಲು ಹೆಚ್ಚುವರಿ 1 ಕೆ.ಜಿ ಕಾಂಪೌಂಡ್ ಜಾನುವಾರು ಆಹಾರ ಮತ್ತು 1 ಕೆ.ಜಿ ಒಳ್ಳೆಯ ಗುಣಮಟ್ಟದ ಹಿಂಡಿ ಕೊಡಬೇಕು.",
+                  "गाभिन पशुओं को उनके सामान्य आहार के ऊपर, गर्भावस्था के आख़िरी दो महीनों में बछड़े की ठीक बढ़त के लिए अतिरिक्त 1 किलो कंपाउंड पशु आहार और 1 किलो अच्छी क्वालिटी की खली देनी चाहिए।"
                 ),
               },
             ],
           },
           {
             type: "barchart",
-            heading: L("Extra Concentrate Needed for Every Litre of Milk"),
-            source: L("Handbook feeding recommendations"),
-            unit: L("grams per litre of milk"),
+            heading: L("Extra Concentrate Needed for Every Litre of Milk", "ప్రతి లీటరు పాలకు అవసరమైన అదనపు దాణా", "ஒவ்வொரு லிட்டர் பாலுக்கும் தேவையான கூடுதல் அடர் தீவனம்", "ಪ್ರತಿ ಲೀಟರ್ ಹಾಲಿಗೆ ಬೇಕಾದ ಹೆಚ್ಚುವರಿ ಹಿಂಡಿ-ಕಾಳು ಆಹಾರ", "हर लीटर दूध पर ज़रूरी अतिरिक्त दाना"),
+            source: L("Handbook feeding recommendations", "హ్యాండ్‌బుక్ మేత సిఫార్సులు", "கையேட்டின் தீவனப் பரிந்துரைகள்", "ಕೈಪಿಡಿಯ ಮೇವು ಶಿಫಾರಸುಗಳು", "हैंडबुक की आहार सिफ़ारिशें"),
+            unit: L("grams per litre of milk", "ప్రతి లీటరు పాలకు గ్రాములు", "ஒவ்வொரு லிட்டர் பாலுக்கும் கிராம்", "ಪ್ರತಿ ಲೀಟರ್ ಹಾಲಿಗೆ ಗ್ರಾಂ", "प्रति लीटर दूध पर ग्राम"),
             data: [
-              { label: L("Cow"), value: 400 },
-              { label: L("Buffalo"), value: 500 },
+              { label: L("Cow", "ఆవు", "பசு", "ಹಸು", "गाय"), value: 400 },
+              { label: L("Buffalo", "గేదె", "எருமை", "ಎಮ್ಮೆ", "भैंस"), value: 500 },
             ],
           },
           {
             type: "glossary",
-            term: L("Bypass Protein Feed"),
+            term: L("Bypass Protein Feed", "బైపాస్ ప్రోటీన్ మేత", "பைபாஸ் புரத தீவனம்", "ಬೈಪಾಸ್ ಪ್ರೋಟೀನ್ ಆಹಾರ", "बायपास प्रोटीन आहार"),
             meaning: L(
-              "Normally, most of the protein in feed is broken down inside the rumen (the animal's first stomach compartment). Bypass protein feed is treated so that a good portion of its protein 'escapes' being broken down there, and is used later in the gut instead — which the body can use more efficiently."
+              "Normally, most of the protein in feed is broken down inside the rumen (the animal's first stomach compartment). Bypass protein feed is treated so that a good portion of its protein 'escapes' being broken down there, and is used later in the gut instead — which the body can use more efficiently.",
+              "సాధారణంగా, మేతలోని ప్రోటీన్‌లో ఎక్కువ భాగం రూమెన్‌లో (పశువు మొదటి కడుపు గది) విచ్ఛిన్నమైపోతుంది. బైపాస్ ప్రోటీన్ మేతను ప్రత్యేకంగా శుద్ధి చేస్తారు, దానివల్ల దాని ప్రోటీన్‌లో మంచి భాగం అక్కడ విచ్ఛిన్నం కాకుండా 'తప్పించుకుని' తర్వాత పేగులో ఉపయోగపడుతుంది — శరీరం దీన్ని మరింత సమర్థంగా వాడుకోగలదు.",
+              "பொதுவாக, தீவனத்தில் உள்ள புரதத்தின் பெரும்பகுதி ரூமனில் (விலங்கின் முதல் வயிற்று அறை) உடைந்துவிடுகிறது. பைபாஸ் புரத தீவனம் சிறப்பாகப் பதப்படுத்தப்படுவதால், அதன் புரதத்தில் நல்ல பகுதி அங்கே உடையாமல் 'தப்பித்து' பின்னர் குடலில் பயன்படுகிறது — உடல் இதை இன்னும் திறமையாகப் பயன்படுத்த முடியும்.",
+              "ಸಾಮಾನ್ಯವಾಗಿ, ಮೇವಿನ ಪ್ರೋಟೀನ್‌ನ ಹೆಚ್ಚಿನ ಭಾಗ ರೂಮೆನ್‌ನಲ್ಲಿ (ಪ್ರಾಣಿಯ ಮೊದಲ ಹೊಟ್ಟೆಯ ಕೋಣೆ) ವಿಘಟನೆಯಾಗುತ್ತದೆ. ಬೈಪಾಸ್ ಪ್ರೋಟೀನ್ ಆಹಾರವನ್ನು ವಿಶೇಷವಾಗಿ ಸಂಸ್ಕರಿಸಲಾಗಿರುತ್ತದೆ, ಆದ್ದರಿಂದ ಅದರ ಪ್ರೋಟೀನ್‌ನ ಒಳ್ಳೆಯ ಭಾಗ ಅಲ್ಲಿ ವಿಘಟನೆಯಾಗದೆ 'ತಪ್ಪಿಸಿಕೊಂಡು' ನಂತರ ಕರುಳಿನಲ್ಲಿ ಬಳಕೆಯಾಗುತ್ತದೆ — ದೇಹ ಇದನ್ನು ಇನ್ನಷ್ಟು ಸಮರ್ಥವಾಗಿ ಬಳಸಿಕೊಳ್ಳಬಲ್ಲದು.",
+              "आमतौर पर चारे के प्रोटीन का ज़्यादातर हिस्सा रूमेन (पशु के पहले पेट का हिस्सा) में ही टूट जाता है। बायपास प्रोटीन आहार को इस तरह तैयार किया जाता है कि उसके प्रोटीन का अच्छा हिस्सा वहाँ टूटने से 'बच' जाए और बाद में आँत में काम आए — जिसे शरीर ज़्यादा कुशलता से इस्तेमाल कर पाता है।"
             ),
           },
           {
             type: "example",
-            heading: L("When Usual Bypass Protein Feed Isn't Available"),
+            heading: L("When Usual Bypass Protein Feed Isn't Available", "సాధారణ బైపాస్ ప్రోటీన్ మేత దొరకనప్పుడు", "வழக்கமான பைபாஸ் புரத தீவனம் கிடைக்காதபோது", "ಸಾಮಾನ್ಯ ಬೈಪಾಸ್ ಪ್ರೋಟೀನ್ ಆಹಾರ ಸಿಗದಿದ್ದಾಗ", "जब आम बायपास प्रोटीन आहार न मिले"),
             text: L(
-              "If the usual bypass protein feed isn't available, 1 kg of a treated bypass protein supplement can be given instead — split as 500 g in the morning and 500 g in the evening — to animals producing 8 to 10 litres of milk a day."
+              "If the usual bypass protein feed isn't available, 1 kg of a treated bypass protein supplement can be given instead — split as 500 g in the morning and 500 g in the evening — to animals producing 8 to 10 litres of milk a day.",
+              "సాధారణ బైపాస్ ప్రోటీన్ మేత దొరకకపోతే, దానికి బదులుగా 1 కిలో శుద్ధి చేసిన బైపాస్ ప్రోటీన్ సప్లిమెంట్‌ను ఇవ్వవచ్చు — ఉదయం 500 గ్రాములు, సాయంత్రం 500 గ్రాములుగా విభజించి — రోజుకు 8 నుండి 10 లీటర్ల పాలు ఇచ్చే పశువులకు.",
+              "வழக்கமான பைபாஸ் புரத தீவனம் கிடைக்கவில்லை என்றால், அதற்குப் பதிலாக 1 கிலோ பதப்படுத்திய பைபாஸ் புரத சத்துப்பொருளைக் கொடுக்கலாம் — காலையில் 500 கிராம், மாலையில் 500 கிராம் எனப் பிரித்து — ஒரு நாளைக்கு 8 முதல் 10 லிட்டர் பால் தரும் விலங்குகளுக்கு.",
+              "ಸಾಮಾನ್ಯ ಬೈಪಾಸ್ ಪ್ರೋಟೀನ್ ಆಹಾರ ಸಿಗದಿದ್ದರೆ, ಅದರ ಬದಲು 1 ಕೆ.ಜಿ ಸಂಸ್ಕರಿಸಿದ ಬೈಪಾಸ್ ಪ್ರೋಟೀನ್ ಪೂರಕವನ್ನು ಕೊಡಬಹುದು — ಬೆಳಿಗ್ಗೆ 500 ಗ್ರಾಂ, ಸಂಜೆ 500 ಗ್ರಾಂ ಎಂದು ಭಾಗಿಸಿ — ದಿನಕ್ಕೆ 8 ರಿಂದ 10 ಲೀಟರ್ ಹಾಲು ಕೊಡುವ ಪ್ರಾಣಿಗಳಿಗೆ.",
+              "अगर आम बायपास प्रोटीन आहार न मिले, तो उसकी जगह 1 किलो उपचारित बायपास प्रोटीन सप्लीमेंट दिया जा सकता है — सुबह 500 ग्राम और शाम 500 ग्राम बाँटकर — जो रोज़ 8 से 10 लीटर दूध देने वाले पशुओं के लिए है।"
             ),
           },
           {
             type: "stat-grid",
             items: [
-              { label: L("Calves"), text: L("20 to 25 g of mineral mixture daily.") },
-              { label: L("Heifers and Dry Animals"), text: L("50 g per animal daily.") },
+              { label: L("Calves", "దూడలు", "கன்றுகள்", "ಕರುಗಳು", "बछड़े"), text: L("20 to 25 g of mineral mixture daily.", "రోజుకు 20 నుండి 25 గ్రాముల ఖనిజ మిశ్రమం.", "தினமும் 20 முதல் 25 கிராம் தாது உப்புக் கலவை.", "ಪ್ರತಿದಿನ 20 ರಿಂದ 25 ಗ್ರಾಂ ಖನಿಜ ಮಿಶ್ರಣ.", "रोज़ 20 से 25 ग्राम खनिज मिश्रण।") },
+              { label: L("Heifers and Dry Animals", "పెయ్యలు, ఎండిన పశువులు", "கிடேரிகள், வற்றிய (பால் நின்ற) விலங்குகள்", "ಎಳೆ ಹಸುಗಳು (ಕಡಸು) ಮತ್ತು ಹಾಲು ಬತ್ತಿದ ಪ್ರಾಣಿಗಳು", "बछियाँ और सूखे (दूध न देने वाले) पशु"), text: L("50 g per animal daily.", "ప్రతి పశువుకు రోజుకు 50 గ్రాములు.", "ஒவ்வொரு விலங்குக்கும் தினமும் 50 கிராம்.", "ಪ್ರತಿ ಪ್ರಾಣಿಗೆ ದಿನಕ್ಕೆ 50 ಗ್ರಾಂ.", "हर पशु को रोज़ 50 ग्राम।") },
               {
-                label: L("Milking Animals"),
-                text: L("100 to 200 g per animal daily, depending on how much milk it's giving (or how much mineral mixture is already in its compound cattle feed)."),
+                label: L("Milking Animals", "పాలిచ్చే పశువులు", "பால் தரும் விலங்குகள்", "ಹಾಲು ಕೊಡುವ ಪ್ರಾಣಿಗಳು", "दूध देने वाले पशु"),
+                text: L("100 to 200 g per animal daily, depending on how much milk it's giving (or how much mineral mixture is already in its compound cattle feed).", "పశువు ఇస్తున్న పాల మోతాదును బట్టి (లేదా దాని కాంపౌండ్ పశుదాణాలో ఇప్పటికే ఎంత ఖనిజ మిశ్రమం ఉందో బట్టి) ప్రతి పశువుకు రోజుకు 100 నుండి 200 గ్రాములు.", "விலங்கு எவ்வளவு பால் தருகிறது என்பதைப் பொறுத்து (அல்லது அதன் கலப்புத் தீவனத்தில் ஏற்கனவே எவ்வளவு தாது உப்புக் கலவை உள்ளது என்பதைப் பொறுத்து) ஒவ்வொரு விலங்குக்கும் தினமும் 100 முதல் 200 கிராம்.", "ಪ್ರಾಣಿ ಎಷ್ಟು ಹಾಲು ಕೊಡುತ್ತಿದೆ (ಅಥವಾ ಅದರ ಕಾಂಪೌಂಡ್ ಜಾನುವಾರು ಆಹಾರದಲ್ಲಿ ಈಗಾಗಲೇ ಎಷ್ಟು ಖನಿಜ ಮಿಶ್ರಣ ಇದೆ) ಎಂಬುದರ ಮೇಲೆ ಅವಲಂಬಿಸಿ, ಪ್ರತಿ ಪ್ರಾಣಿಗೆ ದಿನಕ್ಕೆ 100 ರಿಂದ 200 ಗ್ರಾಂ.", "पशु कितना दूध दे रहा है (या उसके कंपाउंड पशु आहार में पहले से कितना खनिज मिश्रण है) इस पर निर्भर करते हुए, हर पशु को रोज़ 100 से 200 ग्राम।"),
               },
             ],
           },
@@ -14249,83 +14333,103 @@ export const MODULES = [
         check: [
           {
             type: "mcq",
-            q: L("How much extra compound cattle feed should a milking cow get for every litre of milk she produces, on top of the 2 kg maintenance amount?"),
-            options: [L("100 g"), L("400 g"), L("1 kg"), L("2 kg")],
+            q: L("How much extra compound cattle feed should a milking cow get for every litre of milk she produces, on top of the 2 kg maintenance amount?", "పాలిచ్చే ఆవు, 2 కిలోల శరీర నిర్వహణ మోతాదుకు తోడు, ఇచ్చే ప్రతి లీటరు పాలకు అదనంగా ఎంత కాంపౌండ్ పశుదాణా పొందాలి?", "பால் தரும் பசுவுக்கு, 2 கிலோ பராமரிப்பு அளவுக்கு மேல், அவள் தரும் ஒவ்வொரு லிட்டர் பாலுக்கும் கூடுதலாக எவ்வளவு கலப்புத் தீவனம் கொடுக்க வேண்டும்?", "ಹಾಲು ಕೊಡುವ ಹಸುವಿಗೆ, 2 ಕೆ.ಜಿ ನಿರ್ವಹಣಾ ಪ್ರಮಾಣದ ಮೇಲೆ, ಅದು ಕೊಡುವ ಪ್ರತಿ ಲೀಟರ್ ಹಾಲಿಗೆ ಹೆಚ್ಚುವರಿಯಾಗಿ ಎಷ್ಟು ಕಾಂಪೌಂಡ್ ಜಾನುವಾರು ಆಹಾರ ಕೊಡಬೇಕು?", "दूध देने वाली गाय को 2 किलो रख-रखाव वाली मात्रा के ऊपर, हर लीटर दूध पर कितना अतिरिक्त कंपाउंड पशु आहार मिलना चाहिए?"),
+            options: [L("100 g", "100 గ్రా", "100 கிராம்", "100 ಗ್ರಾಂ", "100 ग्राम"), L("400 g", "400 గ్రా", "400 கிராம்", "400 ಗ್ರಾಂ", "400 ग्राम"), L("1 kg", "1 కిలో", "1 கிலோ", "1 ಕೆ.ಜಿ", "1 किलो"), L("2 kg", "2 కిలోలు", "2 கிலோ", "2 ಕೆ.ಜಿ", "2 किलो")],
             answer: 1,
-            explain: L("Cows need an extra 400 g of compound cattle feed for every litre of milk produced (500 g for buffaloes), on top of the 2 kg maintenance amount."),
+            explain: L("Cows need an extra 400 g of compound cattle feed for every litre of milk produced (500 g for buffaloes), on top of the 2 kg maintenance amount.", "ఆవులకు 2 కిలోల శరీర నిర్వహణ మోతాదుకు తోడు, ఉత్పత్తి అయ్యే ప్రతి లీటరు పాలకు అదనంగా 400 గ్రాముల కాంపౌండ్ పశుదాణా కావాలి (గేదెలకు 500 గ్రాములు).", "பசுக்களுக்கு 2 கிலோ பராமரிப்பு அளவுக்கு மேல், உற்பத்தியாகும் ஒவ்வொரு லிட்டர் பாலுக்கும் கூடுதலாக 400 கிராம் கலப்புத் தீவனம் தேவை (எருமைகளுக்கு 500 கிராம்).", "ಹಸುಗಳಿಗೆ 2 ಕೆ.ಜಿ ನಿರ್ವಹಣಾ ಪ್ರಮಾಣದ ಮೇಲೆ, ಉತ್ಪಾದನೆಯಾಗುವ ಪ್ರತಿ ಲೀಟರ್ ಹಾಲಿಗೆ ಹೆಚ್ಚುವರಿ 400 ಗ್ರಾಂ ಕಾಂಪೌಂಡ್ ಜಾನುವಾರು ಆಹಾರ ಬೇಕು (ಎಮ್ಮೆಗಳಿಗೆ 500 ಗ್ರಾಂ).", "गायों को 2 किलो रख-रखाव वाली मात्रा के ऊपर, पैदा होने वाले हर लीटर दूध पर 400 ग्राम अतिरिक्त कंपाउंड पशु आहार चाहिए (भैंसों के लिए 500 ग्राम)।"),
           },
           {
             type: "truefalse",
-            q: L("Bypass protein feed is designed so that its protein breaks down completely inside the rumen, just like ordinary feed."),
+            q: L("Bypass protein feed is designed so that its protein breaks down completely inside the rumen, just like ordinary feed.", "బైపాస్ ప్రోటీన్ మేత సాధారణ మేతలాగే దాని ప్రోటీన్ రూమెన్‌లో పూర్తిగా విచ్ఛిన్నమయ్యేలా రూపొందించబడింది.", "பைபாஸ் புரத தீவனம், சாதாரண தீவனத்தைப் போலவே அதன் புரதம் ரூமனுக்குள் முழுவதுமாக உடையும்படி வடிவமைக்கப்பட்டுள்ளது.", "ಬೈಪಾಸ್ ಪ್ರೋಟೀನ್ ಆಹಾರವನ್ನು ಸಾಮಾನ್ಯ ಆಹಾರದಂತೆಯೇ ಅದರ ಪ್ರೋಟೀನ್ ರೂಮೆನ್‌ನೊಳಗೆ ಸಂಪೂರ್ಣವಾಗಿ ವಿಘಟನೆಯಾಗುವಂತೆ ರೂಪಿಸಲಾಗಿದೆ.", "बायपास प्रोटीन आहार इस तरह बनाया जाता है कि उसका प्रोटीन आम आहार की तरह रूमेन में पूरी तरह टूट जाए।"),
             answer: false,
             explain: L(
-              "No — the whole point of bypass protein feed is that a good portion of its protein escapes breakdown in the rumen and is used later in the gut, which the body uses more efficiently."
+              "No — the whole point of bypass protein feed is that a good portion of its protein escapes breakdown in the rumen and is used later in the gut, which the body uses more efficiently.",
+              "కాదు — బైపాస్ ప్రోటీన్ మేత యొక్క అసలు ఉద్దేశమే దాని ప్రోటీన్‌లో మంచి భాగం రూమెన్‌లో విచ్ఛిన్నం కాకుండా తప్పించుకుని, తర్వాత పేగులో ఉపయోగపడటం — శరీరం దీన్ని మరింత సమర్థంగా వాడుకుంటుంది.",
+              "இல்லை — பைபாஸ் புரத தீவனத்தின் முழு நோக்கமே, அதன் புரதத்தில் நல்ல பகுதி ரூமனில் உடையாமல் தப்பித்து, பின்னர் குடலில் பயன்படுவதுதான் — உடல் இதை இன்னும் திறமையாகப் பயன்படுத்துகிறது.",
+              "ಇಲ್ಲ — ಬೈಪಾಸ್ ಪ್ರೋಟೀನ್ ಆಹಾರದ ಮುಖ್ಯ ಉದ್ದೇಶವೇ ಅದರ ಪ್ರೋಟೀನ್‌ನ ಒಳ್ಳೆಯ ಭಾಗ ರೂಮೆನ್‌ನಲ್ಲಿ ವಿಘಟನೆಯಾಗದೆ ತಪ್ಪಿಸಿಕೊಂಡು, ನಂತರ ಕರುಳಿನಲ್ಲಿ ಬಳಕೆಯಾಗುವುದು — ದೇಹ ಇದನ್ನು ಇನ್ನಷ್ಟು ಸಮರ್ಥವಾಗಿ ಬಳಸುತ್ತದೆ.",
+              "नहीं — बायपास प्रोटीन आहार का पूरा मकसद ही यही है कि उसके प्रोटीन का अच्छा हिस्सा रूमेन में टूटने से बच जाए और बाद में आँत में काम आए, जिसे शरीर ज़्यादा कुशलता से इस्तेमाल करता है।"
             ),
           },
         ],
       },
       {
         id: "t-m14-pregnant-postcalving",
-        title: L("Feeding Pregnant Animals and New Mothers"),
+        title: L("Feeding Pregnant Animals and New Mothers", "గర్భిణీ పశువులకు, కొత్తగా ఈనిన తల్లులకు మేత", "சினை விலங்குகளுக்கும் புதிதாக கன்று ஈன்ற தாய்மாருக்கும் தீவனம்", "ಗರ್ಭಿಣಿ ಪ್ರಾಣಿಗಳಿಗೆ ಮತ್ತು ಹೊಸದಾಗಿ ಕರು ಹಾಕಿದ ತಾಯಂದಿರಿಗೆ ಮೇವು", "गाभिन पशुओं और नई माँ बने पशुओं को आहार"),
         teach: [
           {
             type: "text",
-            heading: L("The Last Three Months Matter Most"),
+            heading: L("The Last Three Months Matter Most", "చివరి మూడు నెలలు అత్యంత ముఖ్యం", "கடைசி மூன்று மாதங்கள்தான் மிக முக்கியம்", "ಕೊನೆಯ ಮೂರು ತಿಂಗಳು ಅತಿ ಮುಖ್ಯ", "आख़िरी तीन महीने सबसे ज़रूरी हैं"),
             html: L(
-              "About 70% of a calf's growth inside the womb happens in the last three months of pregnancy. This is exactly when the mother's care and nutrition matter the most — good feeding now helps ensure a healthy calf and a mother who recovers well after giving birth."
+              "About 70% of a calf's growth inside the womb happens in the last three months of pregnancy. This is exactly when the mother's care and nutrition matter the most — good feeding now helps ensure a healthy calf and a mother who recovers well after giving birth.",
+              "గర్భంలో దూడ పెరుగుదలలో సుమారు 70% గర్భధారణ చివరి మూడు నెలల్లోనే జరుగుతుంది. సరిగ్గా ఈ సమయంలోనే తల్లి సంరక్షణ, పోషణ అత్యంత ముఖ్యం — ఇప్పుడు మంచి మేత ఇస్తే ఆరోగ్యకరమైన దూడ పుడుతుంది, ఈనిన తర్వాత తల్లి కూడా బాగా కోలుకుంటుంది.",
+              "கருப்பையில் கன்றின் வளர்ச்சியில் சுமார் 70% சினையின் கடைசி மூன்று மாதங்களில்தான் நடக்கிறது. இந்த நேரத்தில்தான் தாயின் பராமரிப்பும் ஊட்டச்சத்தும் மிக முக்கியம் — இப்போது நல்ல தீவனம் கொடுத்தால் ஆரோக்கியமான கன்றும், கன்று ஈன்ற பிறகு நன்றாக மீளும் தாயும் கிடைப்பார்கள்.",
+              "ಗರ್ಭದೊಳಗಿನ ಕರುವಿನ ಬೆಳವಣಿಗೆಯ ಸುಮಾರು 70% ಗರ್ಭಾವಸ್ಥೆಯ ಕೊನೆಯ ಮೂರು ತಿಂಗಳಲ್ಲೇ ನಡೆಯುತ್ತದೆ. ಇದೇ ಸಮಯದಲ್ಲಿ ತಾಯಿಯ ಆರೈಕೆ ಮತ್ತು ಪೋಷಣೆ ಅತಿ ಮುಖ್ಯ — ಈಗ ಒಳ್ಳೆಯ ಆಹಾರ ನೀಡಿದರೆ ಆರೋಗ್ಯವಂತ ಕರು ಹುಟ್ಟುತ್ತದೆ ಮತ್ತು ಕರು ಹಾಕಿದ ನಂತರ ತಾಯಿ ಚೆನ್ನಾಗಿ ಚೇತರಿಸಿಕೊಳ್ಳುತ್ತದೆ.",
+              "गर्भ में बछड़े की करीब 70% बढ़त गर्भावस्था के आख़िरी तीन महीनों में ही होती है। ठीक इसी समय माँ की देखभाल और पोषण सबसे ज़्यादा मायने रखते हैं — अभी अच्छा आहार देने से बछड़ा सेहतमंद होता है और ब्याने के बाद माँ भी जल्दी ठीक हो जाती है।"
             ),
           },
           {
             type: "glossary",
-            term: L("Dry Cow"),
-            meaning: L("A cow (or buffalo) that has temporarily stopped being milked, resting for a few weeks before she gives birth to her next calf."),
+            term: L("Dry Cow", "ఎండిన ఆవు (డ్రై కౌ)", "வற்றிய பசு (டிரை கவ்)", "ಹಾಲು ಬತ್ತಿದ ಹಸು (ಡ್ರೈ ಕೌ)", "सूखी गाय (ड्राई काउ)"),
+            meaning: L("A cow (or buffalo) that has temporarily stopped being milked, resting for a few weeks before she gives birth to her next calf.", "తర్వాతి దూడను ఈనే ముందు కొన్ని వారాలు విశ్రాంతి తీసుకోవడానికి తాత్కాలికంగా పాలు పితకడం ఆపిన ఆవు (లేదా గేదె).", "அடுத்த கன்றை ஈனுவதற்கு முன் சில வாரங்கள் ஓய்வெடுக்க தற்காலிகமாக பால் கறப்பது நிறுத்தப்பட்ட பசு (அல்லது எருமை).", "ಮುಂದಿನ ಕರು ಹಾಕುವ ಮೊದಲು ಕೆಲವು ವಾರ ವಿಶ್ರಾಂತಿ ಪಡೆಯಲು ತಾತ್ಕಾಲಿಕವಾಗಿ ಹಾಲು ಕರೆಯುವುದನ್ನು ನಿಲ್ಲಿಸಿದ ಹಸು (ಅಥವಾ ಎಮ್ಮೆ).", "वह गाय (या भैंस) जिसका दूध निकालना अगले बछड़े को जन्म देने से पहले कुछ हफ़्तों के आराम के लिए फ़िलहाल बंद कर दिया गया है।"),
           },
           {
             type: "stat-grid",
             items: [
-              { label: L("Green Fodder"), text: L("15 to 20 kg per day.") },
-              { label: L("Dry Fodder"), text: L("4 to 5 kg per day.") },
-              { label: L("Compound Cattle Feed"), text: L("2 to 3 kg per day.") },
-              { label: L("Oil Cake, Mineral Mixture and Salt"), text: L("1 kg of oil cake, 50 g of mineral mixture, and 30 g of salt per day.") },
+              { label: L("Green Fodder", "పచ్చి మేత", "பச்சை தீவனம்", "ಹಸಿರು ಮೇವು", "हरा चारा"), text: L("15 to 20 kg per day.", "రోజుకు 15 నుండి 20 కిలోలు.", "ஒரு நாளைக்கு 15 முதல் 20 கிலோ.", "ದಿನಕ್ಕೆ 15 ರಿಂದ 20 ಕೆ.ಜಿ.", "रोज़ 15 से 20 किलो।") },
+              { label: L("Dry Fodder", "ఎండుమేత", "உலர் தீவனம்", "ಒಣ ಮೇವು", "सूखा चारा"), text: L("4 to 5 kg per day.", "రోజుకు 4 నుండి 5 కిలోలు.", "ஒரு நாளைக்கு 4 முதல் 5 கிலோ.", "ದಿನಕ್ಕೆ 4 ರಿಂದ 5 ಕೆ.ಜಿ.", "रोज़ 4 से 5 किलो।") },
+              { label: L("Compound Cattle Feed", "కాంపౌండ్ పశుదాణా", "கலப்புத் தீவனம்", "ಕಾಂಪೌಂಡ್ ಜಾನುವಾರು ಆಹಾರ", "कंपाउंड पशु आहार"), text: L("2 to 3 kg per day.", "రోజుకు 2 నుండి 3 కిలోలు.", "ஒரு நாளைக்கு 2 முதல் 3 கிலோ.", "ದಿನಕ್ಕೆ 2 ರಿಂದ 3 ಕೆ.ಜಿ.", "रोज़ 2 से 3 किलो।") },
+              { label: L("Oil Cake, Mineral Mixture and Salt", "పిండి చెక్క, ఖనిజ మిశ్రమం, ఉప్పు", "புண்ணாக்கு, தாது உப்புக் கலவை, உப்பு", "ಹಿಂಡಿ, ಖನಿಜ ಮಿಶ್ರಣ ಮತ್ತು ಉಪ್ಪು", "खली, खनिज मिश्रण और नमक"), text: L("1 kg of oil cake, 50 g of mineral mixture, and 30 g of salt per day.", "రోజుకు 1 కిలో పిండి చెక్క, 50 గ్రాముల ఖనిజ మిశ్రమం, 30 గ్రాముల ఉప్పు.", "ஒரு நாளைக்கு 1 கிலோ புண்ணாக்கு, 50 கிராம் தாது உப்புக் கலவை, 30 கிராம் உப்பு.", "ದಿನಕ್ಕೆ 1 ಕೆ.ಜಿ ಹಿಂಡಿ, 50 ಗ್ರಾಂ ಖನಿಜ ಮಿಶ್ರಣ ಮತ್ತು 30 ಗ್ರಾಂ ಉಪ್ಪು.", "रोज़ 1 किलो खली, 50 ग्राम खनिज मिश्रण और 30 ग्राम नमक।") },
             ],
           },
           {
             type: "callout",
             style: "info",
-            heading: L("Other Care During Pregnancy"),
+            heading: L("Other Care During Pregnancy", "గర్భధారణ సమయంలో ఇతర సంరక్షణ", "சினைக் காலத்தில் மற்ற பராமரிப்பு", "ಗರ್ಭಾವಸ್ಥೆಯ ಸಮಯದಲ್ಲಿ ಇತರ ಆರೈಕೆ", "गर्भावस्था के दौरान दूसरी देखभाल"),
             text: L(
-              "Pregnant animals need enough space to stand and sit comfortably, and should have round-the-clock access to at least 75 to 80 litres of fresh, clean drinking water a day. In the last trimester, avoid taking them far away for grazing or over uneven paths — and keep them under close observation during the last one to two days before calving."
+              "Pregnant animals need enough space to stand and sit comfortably, and should have round-the-clock access to at least 75 to 80 litres of fresh, clean drinking water a day. In the last trimester, avoid taking them far away for grazing or over uneven paths — and keep them under close observation during the last one to two days before calving.",
+              "గర్భిణీ పశువులకు సౌకర్యంగా నిలబడటానికి, కూర్చోవడానికి తగినంత స్థలం కావాలి, రోజుకు కనీసం 75 నుండి 80 లీటర్ల తాజా, శుభ్రమైన తాగునీరు రోజంతా అందుబాటులో ఉండాలి. చివరి త్రైమాసికంలో వాటిని మేతకు దూరంగా తీసుకెళ్లడం, ఎగుడుదిగుడు దారుల్లో నడిపించడం మానండి — ఈనడానికి ముందు చివరి ఒకటి రెండు రోజులు వాటిని దగ్గరగా గమనిస్తూ ఉండండి.",
+              "சினை விலங்குகளுக்கு வசதியாக நிற்கவும் உட்காரவும் போதுமான இடம் வேண்டும், ஒரு நாளைக்கு குறைந்தது 75 முதல் 80 லிட்டர் புதிய, சுத்தமான குடிநீர் இரவும் பகலும் கிடைக்க வேண்டும். கடைசி மூன்று மாதங்களில் அவற்றை மேய்ச்சலுக்காக தூரம் அழைத்துச் செல்வதையும், சீரற்ற பாதைகளில் நடத்துவதையும் தவிர்க்கவும் — கன்று ஈனுவதற்கு முந்தைய கடைசி ஒன்று இரண்டு நாட்கள் அவற்றை நெருக்கமாகக் கண்காணிக்கவும்.",
+              "ಗರ್ಭಿಣಿ ಪ್ರಾಣಿಗಳಿಗೆ ಆರಾಮವಾಗಿ ನಿಲ್ಲಲು ಮತ್ತು ಕುಳಿತುಕೊಳ್ಳಲು ಸಾಕಷ್ಟು ಜಾಗ ಬೇಕು, ಮತ್ತು ದಿನಕ್ಕೆ ಕನಿಷ್ಠ 75 ರಿಂದ 80 ಲೀಟರ್ ತಾಜಾ, ಶುದ್ಧ ಕುಡಿಯುವ ನೀರು ಹಗಲಿರುಳೂ ಸಿಗುವಂತಿರಬೇಕು. ಕೊನೆಯ ತ್ರೈಮಾಸಿಕದಲ್ಲಿ ಅವುಗಳನ್ನು ಮೇಯಿಸಲು ದೂರ ಕರೆದೊಯ್ಯುವುದು ಅಥವಾ ಎತ್ತರತಗ್ಗಿನ ದಾರಿಗಳಲ್ಲಿ ನಡೆಸುವುದನ್ನು ತಪ್ಪಿಸಿ — ಕರು ಹಾಕುವ ಮೊದಲಿನ ಕೊನೆಯ ಒಂದು ಅಥವಾ ಎರಡು ದಿನ ಅವುಗಳ ಮೇಲೆ ಹತ್ತಿರದ ನಿಗಾ ಇಡಿ.",
+              "गाभिन पशुओं को आराम से खड़े होने और बैठने के लिए काफ़ी जगह चाहिए, और उन्हें दिन-रात कम से कम 75 से 80 लीटर ताज़ा, साफ़ पीने का पानी मिलना चाहिए। आख़िरी तिमाही में उन्हें चराने के लिए दूर ले जाने या ऊबड़-खाबड़ रास्तों पर चलाने से बचें — और ब्याने से पहले के आख़िरी एक-दो दिन उन पर कड़ी नज़र रखें।"
             ),
           },
           {
             type: "text",
-            heading: L("Right After Calving: Go Gentle"),
+            heading: L("Right After Calving: Go Gentle", "ఈనిన వెంటనే: మెల్లగా ఉండండి", "கன்று ஈன்ற உடனே: மென்மையாக இருங்கள்", "ಕರು ಹಾಕಿದ ತಕ್ಷಣ: ಮೃದುವಾಗಿರಿ", "ब्याने के तुरंत बाद: हल्का आहार दें"),
             html: L(
-              "Immediately after calving, a cow or buffalo has a low appetite and will not eat as much as her body actually needs — this is normal, not a cause for alarm on its own. For 2 to 3 days after calving, she should be given a light, easy-to-digest, mildly laxative ration — things like warm rice gruel, boiled rice or wheat bran, or boiled millet or wheat mixed with a little edible oil, jaggery, or similar ingredients. This kind of feeding also helps the placenta come away naturally and on time."
+              "Immediately after calving, a cow or buffalo has a low appetite and will not eat as much as her body actually needs — this is normal, not a cause for alarm on its own. For 2 to 3 days after calving, she should be given a light, easy-to-digest, mildly laxative ration — things like warm rice gruel, boiled rice or wheat bran, or boiled millet or wheat mixed with a little edible oil, jaggery, or similar ingredients. This kind of feeding also helps the placenta come away naturally and on time.",
+              "ఈనిన వెంటనే ఆవు లేదా గేదెకు ఆకలి తక్కువగా ఉంటుంది, దాని శరీరానికి నిజంగా కావలసినంత తినదు — ఇది సాధారణమే, దీనికే కంగారు పడాల్సిన పనిలేదు. ఈనిన తర్వాత 2 నుండి 3 రోజులు తేలికగా, సులభంగా జీర్ణమయ్యే, కొద్దిగా విరేచనకారి రేషన్ ఇవ్వాలి — గోరువెచ్చని గంజి, ఉడికించిన బియ్యం లేదా గోధుమ తవుడు, లేదా ఉడికించిన జొన్న/గోధుమలను కొద్దిగా వంట నూనె, బెల్లం వంటి వాటితో కలిపి ఇవ్వవచ్చు. ఇలాంటి మేత మాయ (మాయపొర) సహజంగా, సమయానికి పడిపోవడానికి కూడా సహాయపడుతుంది.",
+              "கன்று ஈன்ற உடனே பசு அல்லது எருமைக்கு பசி குறைவாக இருக்கும், அதன் உடலுக்கு உண்மையில் தேவைப்படும் அளவு சாப்பிடாது — இது இயல்புதான், இதற்காக மட்டும் பயப்பட வேண்டியதில்லை. கன்று ஈன்ற பிறகு 2 முதல் 3 நாட்களுக்கு இலகுவான, எளிதில் செரிக்கும், சிறிது மலமிளக்கும் ரேஷன் கொடுக்க வேண்டும் — வெதுவெதுப்பான கஞ்சி, வேகவைத்த அரிசி அல்லது கோதுமை தவிடு, அல்லது வேகவைத்த தினை/கோதுமையை சிறிது சமையல் எண்ணெய், வெல்லம் போன்றவற்றுடன் கலந்து கொடுக்கலாம். இப்படிப்பட்ட தீவனம் நஞ்சுக்கொடி இயற்கையாக, சரியான நேரத்தில் வெளியேறவும் உதவுகிறது.",
+              "ಕರು ಹಾಕಿದ ತಕ್ಷಣ ಹಸು ಅಥವಾ ಎಮ್ಮೆಗೆ ಹಸಿವು ಕಡಿಮೆ ಇರುತ್ತದೆ, ಅದರ ದೇಹಕ್ಕೆ ನಿಜವಾಗಿ ಬೇಕಾದಷ್ಟು ತಿನ್ನುವುದಿಲ್ಲ — ಇದು ಸಹಜ, ಇದೊಂದೇ ಕಾರಣಕ್ಕೆ ಗಾಬರಿಪಡಬೇಕಿಲ್ಲ. ಕರು ಹಾಕಿದ ನಂತರ 2 ರಿಂದ 3 ದಿನ ಹಗುರವಾದ, ಸುಲಭವಾಗಿ ಜೀರ್ಣವಾಗುವ, ಸ್ವಲ್ಪ ಮಲ ಸಡಿಲಗೊಳಿಸುವ ರೇಷನ್ ಕೊಡಬೇಕು — ಬೆಚ್ಚಗಿನ ಅಕ್ಕಿ ಗಂಜಿ, ಬೇಯಿಸಿದ ಅಕ್ಕಿ ಅಥವಾ ಗೋಧಿ ತೌಡು, ಅಥವಾ ಬೇಯಿಸಿದ ಸಿರಿಧಾನ್ಯ/ಗೋಧಿಗೆ ಸ್ವಲ್ಪ ಅಡುಗೆ ಎಣ್ಣೆ, ಬೆಲ್ಲ ಮುಂತಾದವನ್ನು ಬೆರೆಸಿ ಕೊಡಬಹುದು. ಇಂತಹ ಆಹಾರ ಮಾಸ (ಜರಾಯು) ಸಹಜವಾಗಿ, ಸರಿಯಾದ ಸಮಯಕ್ಕೆ ಬೀಳಲೂ ಸಹಾಯ ಮಾಡುತ್ತದೆ.",
+              "ब्याने के तुरंत बाद गाय या भैंस की भूख कम होती है और वह उतना नहीं खाती जितना उसके शरीर को असल में चाहिए — यह सामान्य है, सिर्फ़ इस वजह से घबराने की ज़रूरत नहीं। ब्याने के बाद 2 से 3 दिन तक उसे हल्का, आसानी से पचने वाला, हल्का पेट साफ़ करने वाला राशन देना चाहिए — जैसे गुनगुना चावल का माँड़, उबले चावल या गेहूँ का चोकर, या उबला बाजरा/गेहूँ जिसमें थोड़ा खाने का तेल, गुड़ वगैरह मिला हो। इस तरह का आहार जेर (आँवल) को अपने आप और समय पर गिरने में भी मदद करता है।"
             ),
           },
           {
             type: "callout",
             style: "tip",
-            heading: L("Keep the Water and Minerals Coming"),
+            heading: L("Keep the Water and Minerals Coming", "నీళ్లు, ఖనిజాలు ఇస్తూనే ఉండండి", "தண்ணீரும் தாதுக்களும் தொடர்ந்து கொடுங்கள்", "ನೀರು ಮತ್ತು ಖನಿಜಗಳನ್ನು ಕೊಡುತ್ತಲೇ ಇರಿ", "पानी और खनिज देते रहें"),
             text: L(
-              "After calving, give the animal tender green fodder and as much fresh water as she wants to drink — but never hot water. Keep clean drinking water available at all times, and continue her daily mineral mixture."
+              "After calving, give the animal tender green fodder and as much fresh water as she wants to drink — but never hot water. Keep clean drinking water available at all times, and continue her daily mineral mixture.",
+              "ఈనిన తర్వాత పశువుకు లేత పచ్చి మేత, అది తాగగలిగినంత తాజా నీరు ఇవ్వండి — కానీ వేడి నీరు ఎప్పుడూ ఇవ్వొద్దు. శుభ్రమైన తాగునీరు ఎల్లప్పుడూ అందుబాటులో ఉంచండి, దాని రోజువారీ ఖనిజ మిశ్రమాన్ని కొనసాగించండి.",
+              "கன்று ஈன்ற பிறகு விலங்குக்கு இளம் பச்சை தீவனமும், அது குடிக்க விரும்பும் அளவு புதிய தண்ணீரும் கொடுங்கள் — ஆனால் சூடான தண்ணீரை ஒருபோதும் கொடுக்காதீர்கள். சுத்தமான குடிநீரை எப்போதும் கிடைக்கச் செய்யுங்கள், அதன் தினசரி தாது உப்புக் கலவையையும் தொடருங்கள்.",
+              "ಕರು ಹಾಕಿದ ನಂತರ ಪ್ರಾಣಿಗೆ ಎಳೆಯ ಹಸಿರು ಮೇವು ಮತ್ತು ಅದು ಕುಡಿಯಲು ಬಯಸುವಷ್ಟು ತಾಜಾ ನೀರು ಕೊಡಿ — ಆದರೆ ಬಿಸಿ ನೀರನ್ನು ಎಂದೂ ಕೊಡಬೇಡಿ. ಶುದ್ಧ ಕುಡಿಯುವ ನೀರು ಯಾವಾಗಲೂ ಸಿಗುವಂತಿರಲಿ, ಮತ್ತು ಅದರ ದಿನನಿತ್ಯದ ಖನಿಜ ಮಿಶ್ರಣವನ್ನು ಮುಂದುವರಿಸಿ.",
+              "ब्याने के बाद पशु को कोमल हरा चारा और उतना ताज़ा पानी दें जितना वह पीना चाहे — लेकिन गर्म पानी कभी न दें। साफ़ पीने का पानी हर समय उपलब्ध रखें, और उसका रोज़ का खनिज मिश्रण जारी रखें।"
             ),
           },
         ],
         check: [
           {
             type: "mcq",
-            q: L("About how much of a calf's growth inside the womb happens in the last three months of pregnancy?"),
-            options: [L("10%"), L("30%"), L("50%"), L("70%")],
+            q: L("About how much of a calf's growth inside the womb happens in the last three months of pregnancy?", "గర్భంలో దూడ పెరుగుదలలో సుమారు ఎంత భాగం గర్భధారణ చివరి మూడు నెలల్లో జరుగుతుంది?", "கருப்பையில் கன்றின் வளர்ச்சியில் சுமார் எவ்வளவு சினையின் கடைசி மூன்று மாதங்களில் நடக்கிறது?", "ಗರ್ಭದೊಳಗಿನ ಕರುವಿನ ಬೆಳವಣಿಗೆಯ ಸುಮಾರು ಎಷ್ಟು ಭಾಗ ಗರ್ಭಾವಸ್ಥೆಯ ಕೊನೆಯ ಮೂರು ತಿಂಗಳಲ್ಲಿ ನಡೆಯುತ್ತದೆ?", "गर्भ में बछड़े की बढ़त का लगभग कितना हिस्सा गर्भावस्था के आख़िरी तीन महीनों में होता है?"),
+            options: [L("10%", "10%", "10%", "10%", "10%"), L("30%", "30%", "30%", "30%", "30%"), L("50%", "50%", "50%", "50%", "50%"), L("70%", "70%", "70%", "70%", "70%")],
             answer: 3,
-            explain: L("About 70% of the calf's growth happens in the last three months of pregnancy — which is why nutrition matters most during this period."),
+            explain: L("About 70% of the calf's growth happens in the last three months of pregnancy — which is why nutrition matters most during this period.", "దూడ పెరుగుదలలో సుమారు 70% గర్భధారణ చివరి మూడు నెలల్లో జరుగుతుంది — అందుకే ఈ కాలంలో పోషణ అన్నింటికన్నా ముఖ్యం.", "கன்றின் வளர்ச்சியில் சுமார் 70% சினையின் கடைசி மூன்று மாதங்களில் நடக்கிறது — அதனால்தான் இந்தக் காலத்தில் ஊட்டச்சத்து மிக முக்கியம்.", "ಕರುವಿನ ಬೆಳವಣಿಗೆಯ ಸುಮಾರು 70% ಗರ್ಭಾವಸ್ಥೆಯ ಕೊನೆಯ ಮೂರು ತಿಂಗಳಲ್ಲಿ ನಡೆಯುತ್ತದೆ — ಆದ್ದರಿಂದಲೇ ಈ ಅವಧಿಯಲ್ಲಿ ಪೋಷಣೆ ಅತಿ ಮುಖ್ಯ.", "बछड़े की करीब 70% बढ़त गर्भावस्था के आख़िरी तीन महीनों में होती है — इसीलिए इस दौरान पोषण सबसे ज़्यादा मायने रखता है।"),
           },
           {
             type: "truefalse",
-            q: L("Right after calving, it is normal for a cow or buffalo to eat less than her body actually needs."),
+            q: L("Right after calving, it is normal for a cow or buffalo to eat less than her body actually needs.", "ఈనిన వెంటనే ఆవు లేదా గేదె తన శరీరానికి నిజంగా కావలసిన దానికన్నా తక్కువ తినడం సాధారణమే.", "கன்று ஈன்ற உடனே பசு அல்லது எருமை தன் உடலுக்கு உண்மையில் தேவைப்படுவதை விடக் குறைவாக சாப்பிடுவது இயல்புதான்.", "ಕರು ಹಾಕಿದ ತಕ್ಷಣ ಹಸು ಅಥವಾ ಎಮ್ಮೆ ತನ್ನ ದೇಹಕ್ಕೆ ನಿಜವಾಗಿ ಬೇಕಾದದ್ದಕ್ಕಿಂತ ಕಡಿಮೆ ತಿನ್ನುವುದು ಸಹಜ.", "ब्याने के तुरंत बाद गाय या भैंस का अपने शरीर की असली ज़रूरत से कम खाना सामान्य बात है।"),
             answer: true,
-            explain: L("Yes — a low appetite immediately after calving is normal. She should be given a light, easily digestible ration for the first 2 to 3 days."),
+            explain: L("Yes — a low appetite immediately after calving is normal. She should be given a light, easily digestible ration for the first 2 to 3 days.", "అవును — ఈనిన వెంటనే ఆకలి తక్కువగా ఉండటం సాధారణమే. మొదటి 2 నుండి 3 రోజులు తేలికగా, సులభంగా జీర్ణమయ్యే రేషన్ ఇవ్వాలి.", "ஆம் — கன்று ஈன்ற உடனே பசி குறைவாக இருப்பது இயல்புதான். முதல் 2 முதல் 3 நாட்களுக்கு இலகுவான, எளிதில் செரிக்கும் ரேஷன் கொடுக்க வேண்டும்.", "ಹೌದು — ಕರು ಹಾಕಿದ ತಕ್ಷಣ ಹಸಿವು ಕಡಿಮೆ ಇರುವುದು ಸಹಜ. ಮೊದಲ 2 ರಿಂದ 3 ದಿನ ಹಗುರವಾದ, ಸುಲಭವಾಗಿ ಜೀರ್ಣವಾಗುವ ರೇಷನ್ ಕೊಡಬೇಕು.", "हाँ — ब्याने के तुरंत बाद भूख कम होना सामान्य है। पहले 2 से 3 दिन हल्का, आसानी से पचने वाला राशन देना चाहिए।"),
           },
         ],
       },
@@ -14336,46 +14440,46 @@ export const MODULES = [
         {
           topicId: "t-m14-stage-feeding",
           type: "mcq",
-          q: L("How much compound cattle feed should a growing animal be fed daily?"),
-          options: [L("100-200 g"), L("1-2 kg"), L("4-6 kg"), L("15-20 kg")],
+          q: L("How much compound cattle feed should a growing animal be fed daily?", "పెరుగుతున్న పశువుకు రోజుకు ఎంత కాంపౌండ్ పశుదాణా పెట్టాలి?", "வளரும் விலங்குக்கு ஒரு நாளைக்கு எவ்வளவு கலப்புத் தீவனம் கொடுக்க வேண்டும்?", "ಬೆಳೆಯುತ್ತಿರುವ ಪ್ರಾಣಿಗೆ ದಿನಕ್ಕೆ ಎಷ್ಟು ಕಾಂಪೌಂಡ್ ಜಾನುವಾರು ಆಹಾರ ನೀಡಬೇಕು?", "बढ़ते पशु को रोज़ कितना कंपाउंड पशु आहार खिलाना चाहिए?"),
+          options: [L("100-200 g", "100-200 గ్రా", "100-200 கிராம்", "100-200 ಗ್ರಾಂ", "100-200 ग्राम"), L("1-2 kg", "1-2 కిలోలు", "1-2 கிலோ", "1-2 ಕೆ.ಜಿ", "1-2 किलो"), L("4-6 kg", "4-6 కిలోలు", "4-6 கிலோ", "4-6 ಕೆ.ಜಿ", "4-6 किलो"), L("15-20 kg", "15-20 కిలోలు", "15-20 கிலோ", "15-20 ಕೆ.ಜಿ", "15-20 किलो")],
           answer: 1,
-          explain: L("Growing animals should be fed 1 to 2 kg of compound cattle feed daily."),
+          explain: L("Growing animals should be fed 1 to 2 kg of compound cattle feed daily.", "పెరుగుతున్న పశువులకు రోజుకు 1 నుండి 2 కిలోల కాంపౌండ్ పశుదాణా పెట్టాలి.", "வளரும் விலங்குகளுக்கு தினமும் 1 முதல் 2 கிலோ கலப்புத் தீவனம் கொடுக்க வேண்டும்.", "ಬೆಳೆಯುತ್ತಿರುವ ಪ್ರಾಣಿಗಳಿಗೆ ಪ್ರತಿದಿನ 1 ರಿಂದ 2 ಕೆ.ಜಿ ಕಾಂಪೌಂಡ್ ಜಾನುವಾರು ಆಹಾರ ನೀಡಬೇಕು.", "बढ़ते पशुओं को रोज़ 1 से 2 किलो कंपाउंड पशु आहार खिलाना चाहिए।"),
         },
         {
           topicId: "t-m14-stage-feeding",
           type: "truefalse",
-          q: L("Milking animals need extra compound cattle feed for every litre of milk they produce, on top of a base maintenance amount."),
+          q: L("Milking animals need extra compound cattle feed for every litre of milk they produce, on top of a base maintenance amount.", "పాలిచ్చే పశువులకు శరీర నిర్వహణ మోతాదుకు తోడు, ఉత్పత్తి చేసే ప్రతి లీటరు పాలకు అదనపు కాంపౌండ్ పశుదాణా కావాలి.", "பால் தரும் விலங்குகளுக்கு பராமரிப்பு அளவுடன் கூடுதலாக, அவை உற்பத்தி செய்யும் ஒவ்வொரு லிட்டர் பாலுக்கும் கூடுதல் கலப்புத் தீவனம் தேவை.", "ಹಾಲು ಕೊಡುವ ಪ್ರಾಣಿಗಳಿಗೆ ನಿರ್ವಹಣಾ ಪ್ರಮಾಣದ ಜೊತೆಗೆ, ಅವು ಉತ್ಪಾದಿಸುವ ಪ್ರತಿ ಲೀಟರ್ ಹಾಲಿಗೆ ಹೆಚ್ಚುವರಿ ಕಾಂಪೌಂಡ್ ಜಾನುವಾರು ಆಹಾರ ಬೇಕು.", "दूध देने वाले पशुओं को रख-रखाव वाली मात्रा के ऊपर, हर लीटर दूध पर अतिरिक्त कंपाउंड पशु आहार चाहिए।"),
           answer: true,
-          explain: L("Yes — 2 kg a day for maintenance, plus 400 g (cows) or 500 g (buffaloes) for every extra litre of milk."),
+          explain: L("Yes — 2 kg a day for maintenance, plus 400 g (cows) or 500 g (buffaloes) for every extra litre of milk.", "అవును — శరీర నిర్వహణకు రోజుకు 2 కిలోలు, దానికి తోడు ప్రతి అదనపు లీటరు పాలకు 400 గ్రాములు (ఆవులు) లేదా 500 గ్రాములు (గేదెలు).", "ஆம் — பராமரிப்புக்கு தினமும் 2 கிலோ, அதோடு ஒவ்வொரு கூடுதல் லிட்டர் பாலுக்கும் 400 கிராம் (பசுக்கள்) அல்லது 500 கிராம் (எருமைகள்).", "ಹೌದು — ನಿರ್ವಹಣೆಗೆ ದಿನಕ್ಕೆ 2 ಕೆ.ಜಿ, ಜೊತೆಗೆ ಪ್ರತಿ ಹೆಚ್ಚುವರಿ ಲೀಟರ್ ಹಾಲಿಗೆ 400 ಗ್ರಾಂ (ಹಸುಗಳು) ಅಥವಾ 500 ಗ್ರಾಂ (ಎಮ್ಮೆಗಳು).", "हाँ — रख-रखाव के लिए रोज़ 2 किलो, और उसके ऊपर हर अतिरिक्त लीटर दूध पर 400 ग्राम (गाय) या 500 ग्राम (भैंस)।"),
         },
         {
           topicId: "t-m14-pregnant-postcalving",
           type: "mcq",
-          q: L("How much fresh drinking water should a pregnant animal have access to, at minimum, each day?"),
-          options: [L("10-20 litres"), L("30-40 litres"), L("75-80 litres"), L("150 litres")],
+          q: L("How much fresh drinking water should a pregnant animal have access to, at minimum, each day?", "గర్భిణీ పశువుకు కనీసం రోజుకు ఎంత తాజా తాగునీరు అందుబాటులో ఉండాలి?", "சினை விலங்குக்கு குறைந்தபட்சம் ஒரு நாளைக்கு எவ்வளவு புதிய குடிநீர் கிடைக்க வேண்டும்?", "ಗರ್ಭಿಣಿ ಪ್ರಾಣಿಗೆ ಕನಿಷ್ಠ ದಿನಕ್ಕೆ ಎಷ್ಟು ತಾಜಾ ಕುಡಿಯುವ ನೀರು ಸಿಗುವಂತಿರಬೇಕು?", "गाभिन पशु को कम से कम रोज़ कितना ताज़ा पीने का पानी मिलना चाहिए?"),
+          options: [L("10-20 litres", "10-20 లీటర్లు", "10-20 லிட்டர்", "10-20 ಲೀಟರ್", "10-20 लीटर"), L("30-40 litres", "30-40 లీటర్లు", "30-40 லிட்டர்", "30-40 ಲೀಟರ್", "30-40 लीटर"), L("75-80 litres", "75-80 లీటర్లు", "75-80 லிட்டர்", "75-80 ಲೀಟರ್", "75-80 लीटर"), L("150 litres", "150 లీటర్లు", "150 லிட்டர்", "150 ಲೀಟರ್", "150 लीटर")],
           answer: 2,
-          explain: L("Pregnant animals need round-the-clock access to at least 75 to 80 litres of fresh, clean drinking water daily."),
+          explain: L("Pregnant animals need round-the-clock access to at least 75 to 80 litres of fresh, clean drinking water daily.", "గర్భిణీ పశువులకు రోజుకు కనీసం 75 నుండి 80 లీటర్ల తాజా, శుభ్రమైన తాగునీరు రోజంతా అందుబాటులో ఉండాలి.", "சினை விலங்குகளுக்கு ஒரு நாளைக்கு குறைந்தது 75 முதல் 80 லிட்டர் புதிய, சுத்தமான குடிநீர் இரவும் பகலும் கிடைக்க வேண்டும்.", "ಗರ್ಭಿಣಿ ಪ್ರಾಣಿಗಳಿಗೆ ದಿನಕ್ಕೆ ಕನಿಷ್ಠ 75 ರಿಂದ 80 ಲೀಟರ್ ತಾಜಾ, ಶುದ್ಧ ಕುಡಿಯುವ ನೀರು ಹಗಲಿರುಳೂ ಸಿಗುವಂತಿರಬೇಕು.", "गाभिन पशुओं को दिन-रात कम से कम 75 से 80 लीटर ताज़ा, साफ़ पीने का पानी मिलना चाहिए।"),
         },
         {
           topicId: "t-m14-pregnant-postcalving",
           type: "mcq",
-          q: L("What kind of ration should a cow or buffalo be given for the first 2 to 3 days after calving?"),
+          q: L("What kind of ration should a cow or buffalo be given for the first 2 to 3 days after calving?", "ఈనిన తర్వాత మొదటి 2 నుండి 3 రోజులు ఆవు లేదా గేదెకు ఎలాంటి రేషన్ ఇవ్వాలి?", "கன்று ஈன்ற பிறகு முதல் 2 முதல் 3 நாட்களுக்கு பசு அல்லது எருமைக்கு எந்த வகை ரேஷன் கொடுக்க வேண்டும்?", "ಕರು ಹಾಕಿದ ನಂತರ ಮೊದಲ 2 ರಿಂದ 3 ದಿನ ಹಸು ಅಥವಾ ಎಮ್ಮೆಗೆ ಯಾವ ರೀತಿಯ ರೇಷನ್ ಕೊಡಬೇಕು?", "ब्याने के बाद पहले 2 से 3 दिन गाय या भैंस को कैसा राशन देना चाहिए?"),
           options: [
-            L("Her normal heavy ration, unchanged"),
-            L("A light, easily digestible, mildly laxative ration"),
-            L("No feed at all, only water"),
-            L("Extra compound cattle feed, doubled"),
+            L("Her normal heavy ration, unchanged", "దాని మామూలు భారీ రేషన్, ఏ మార్పు లేకుండా", "அதன் வழக்கமான கனமான ரேஷன், மாற்றம் ஏதுமின்றி", "ಅದರ ಸಾಮಾನ್ಯ ಭಾರವಾದ ರೇಷನ್, ಯಾವುದೇ ಬದಲಾವಣೆ ಇಲ್ಲದೆ", "उसका सामान्य भारी राशन, बिना किसी बदलाव के"),
+            L("A light, easily digestible, mildly laxative ration", "తేలికగా, సులభంగా జీర్ణమయ్యే, కొద్దిగా విరేచనకారి రేషన్", "இலகுவான, எளிதில் செரிக்கும், சிறிது மலமிளக்கும் ரேஷன்", "ಹಗುರವಾದ, ಸುಲಭವಾಗಿ ಜೀರ್ಣವಾಗುವ, ಸ್ವಲ್ಪ ಮಲ ಸಡಿಲಗೊಳಿಸುವ ರೇಷನ್", "हल्का, आसानी से पचने वाला, हल्का पेट साफ़ करने वाला राशन"),
+            L("No feed at all, only water", "అసలు మేత ఏమీ లేకుండా, నీళ్లు మాత్రమే", "தீவனம் எதுவும் இல்லாமல், தண்ணீர் மட்டும்", "ಯಾವುದೇ ಆಹಾರ ಇಲ್ಲದೆ, ಕೇವಲ ನೀರು", "बिल्कुल आहार नहीं, सिर्फ़ पानी"),
+            L("Extra compound cattle feed, doubled", "రెట్టింపు చేసిన అదనపు కాంపౌండ్ పశుదాణా", "இரட்டிப்பாக்கிய கூடுதல் கலப்புத் தீவனம்", "ಎರಡು ಪಟ್ಟು ಹೆಚ್ಚುವರಿ ಕಾಂಪೌಂಡ್ ಜಾನುವಾರು ಆಹಾರ", "दोगुना अतिरिक्त कंपाउंड पशु आहार"),
           ],
           answer: 1,
-          explain: L("A light, palatable, mildly laxative ration for 2 to 3 days after calving helps her recover and also helps the placenta come away naturally."),
+          explain: L("A light, palatable, mildly laxative ration for 2 to 3 days after calving helps her recover and also helps the placenta come away naturally.", "ఈనిన తర్వాత 2 నుండి 3 రోజులు తేలికగా, రుచిగా, కొద్దిగా విరేచనకారి రేషన్ ఇస్తే అది కోలుకోవడానికి, మాయ సహజంగా పడిపోవడానికి సహాయపడుతుంది.", "கன்று ஈன்ற பிறகு 2 முதல் 3 நாட்களுக்கு இலகுவான, ருசியான, சிறிது மலமிளக்கும் ரேஷன் கொடுத்தால், அது மீண்டு வரவும், நஞ்சுக்கொடி இயற்கையாக வெளியேறவும் உதவுகிறது.", "ಕರು ಹಾಕಿದ ನಂತರ 2 ರಿಂದ 3 ದಿನ ಹಗುರವಾದ, ರುಚಿಯಾದ, ಸ್ವಲ್ಪ ಮಲ ಸಡಿಲಗೊಳಿಸುವ ರೇಷನ್ ಕೊಟ್ಟರೆ ಅದು ಚೇತರಿಸಿಕೊಳ್ಳಲು ಮತ್ತು ಮಾಸ (ಜರಾಯು) ಸಹಜವಾಗಿ ಬೀಳಲು ಸಹಾಯ ಮಾಡುತ್ತದೆ.", "ब्याने के बाद 2 से 3 दिन हल्का, स्वादिष्ट और हल्का पेट साफ़ करने वाला राशन देने से वह जल्दी ठीक होती है और जेर (आँवल) अपने आप गिरने में भी मदद मिलती है।"),
         },
         {
           topicId: "t-m14-stage-feeding",
           type: "mcq",
-          q: L("How much mineral mixture should a milking animal generally be given daily?"),
-          options: [L("20-25 g"), L("50 g"), L("100-200 g"), L("500 g")],
+          q: L("How much mineral mixture should a milking animal generally be given daily?", "పాలిచ్చే పశువుకు సాధారణంగా రోజుకు ఎంత ఖనిజ మిశ్రమం ఇవ్వాలి?", "பால் தரும் விலங்குக்கு பொதுவாக ஒரு நாளைக்கு எவ்வளவு தாது உப்புக் கலவை கொடுக்க வேண்டும்?", "ಹಾಲು ಕೊಡುವ ಪ್ರಾಣಿಗೆ ಸಾಮಾನ್ಯವಾಗಿ ದಿನಕ್ಕೆ ಎಷ್ಟು ಖನಿಜ ಮಿಶ್ರಣ ಕೊಡಬೇಕು?", "दूध देने वाले पशु को आमतौर पर रोज़ कितना खनिज मिश्रण देना चाहिए?"),
+          options: [L("20-25 g", "20-25 గ్రా", "20-25 கிராம்", "20-25 ಗ್ರಾಂ", "20-25 ग्राम"), L("50 g", "50 గ్రా", "50 கிராம்", "50 ಗ್ರಾಂ", "50 ग्राम"), L("100-200 g", "100-200 గ్రా", "100-200 கிராம்", "100-200 ಗ್ರಾಂ", "100-200 ग्राम"), L("500 g", "500 గ్రా", "500 கிராம்", "500 ಗ್ರಾಂ", "500 ग्राम")],
           answer: 2,
-          explain: L("Milking animals generally need 100 to 200 g of mineral mixture daily, depending on their milk production."),
+          explain: L("Milking animals generally need 100 to 200 g of mineral mixture daily, depending on their milk production.", "పాలిచ్చే పశువులకు వాటి పాల ఉత్పత్తిని బట్టి సాధారణంగా రోజుకు 100 నుండి 200 గ్రాముల ఖనిజ మిశ్రమం కావాలి.", "பால் தரும் விலங்குகளுக்கு அவற்றின் பால் உற்பத்தியைப் பொறுத்து பொதுவாக ஒரு நாளைக்கு 100 முதல் 200 கிராம் தாது உப்புக் கலவை தேவை.", "ಹಾಲು ಕೊಡುವ ಪ್ರಾಣಿಗಳಿಗೆ ಅವುಗಳ ಹಾಲಿನ ಉತ್ಪಾದನೆಗೆ ತಕ್ಕಂತೆ ಸಾಮಾನ್ಯವಾಗಿ ದಿನಕ್ಕೆ 100 ರಿಂದ 200 ಗ್ರಾಂ ಖನಿಜ ಮಿಶ್ರಣ ಬೇಕು.", "दूध देने वाले पशुओं को उनके दूध उत्पादन के हिसाब से आमतौर पर रोज़ 100 से 200 ग्राम खनिज मिश्रण चाहिए।"),
         },
       ],
     },
@@ -14386,173 +14490,213 @@ export const MODULES = [
   // ==================================================================
   {
     id: "m14-l3",
-    title: L("Everyday Good Feeding Practice"),
+    title: L("Everyday Good Feeding Practice", "రోజువారీ మంచి మేత పద్ధతులు", "அன்றாட நல்ல தீவன நடைமுறைகள்", "ದಿನನಿತ್ಯದ ಉತ್ತಮ ಮೇವು ನೀಡುವ ಪದ್ಧತಿ", "रोज़ की अच्छी आहार-पद्धतियाँ"),
     estMinutes: 8,
     hook: [
       {
         type: "hero",
-        heading: L("Small Feeding Habits, Big Results"),
+        heading: L("Small Feeding Habits, Big Results", "చిన్న మేత అలవాట్లు, పెద్ద ఫలితాలు", "சிறிய தீவனப் பழக்கங்கள், பெரிய பலன்கள்", "ಸಣ್ಣ ಮೇವು ಅಭ್ಯಾಸಗಳು, ದೊಡ್ಡ ಫಲಿತಾಂಶಗಳು", "छोटी-छोटी आहार की आदतें, बड़े नतीजे"),
         text: L(
-          "Beyond just choosing the right feed, a few everyday habits — how you handle water, supplements, and the way feed is mixed and given — make a real difference to an animal's health and milk production. This lesson covers the practical, day-to-day side of feeding."
+          "Beyond just choosing the right feed, a few everyday habits — how you handle water, supplements, and the way feed is mixed and given — make a real difference to an animal's health and milk production. This lesson covers the practical, day-to-day side of feeding.",
+          "సరైన మేతను ఎంచుకోవడమే కాకుండా, రోజువారీ కొన్ని అలవాట్లు — నీళ్లను, సప్లిమెంట్లను ఎలా చూసుకుంటారు, మేతను ఎలా కలిపి ఇస్తారు — పశువు ఆరోగ్యానికి, పాల ఉత్పత్తికి నిజమైన తేడా తెస్తాయి. ఈ పాఠం మేత పెట్టడంలోని ఆచరణాత్మక, రోజువారీ అంశాలను చెబుతుంది.",
+          "சரியான தீவனத்தைத் தேர்ந்தெடுப்பதோடு, சில அன்றாடப் பழக்கங்கள் — தண்ணீரையும் சத்துப்பொருட்களையும் எப்படிக் கையாளுகிறீர்கள், தீவனத்தை எப்படிக் கலந்து கொடுக்கிறீர்கள் — விலங்கின் ஆரோக்கியத்திலும் பால் உற்பத்தியிலும் உண்மையான வித்தியாசத்தை ஏற்படுத்துகின்றன. இந்தப் பாடம் தீவனம் அளிப்பதன் நடைமுறை, அன்றாடப் பக்கத்தைப் பற்றியது.",
+          "ಸರಿಯಾದ ಮೇವನ್ನು ಆರಿಸುವುದರ ಜೊತೆಗೆ, ದಿನನಿತ್ಯದ ಕೆಲವು ಅಭ್ಯಾಸಗಳು — ನೀರು ಮತ್ತು ಪೂರಕಗಳನ್ನು ಹೇಗೆ ನಿರ್ವಹಿಸುತ್ತೀರಿ, ಮೇವನ್ನು ಹೇಗೆ ಬೆರೆಸಿ ಕೊಡುತ್ತೀರಿ — ಪ್ರಾಣಿಯ ಆರೋಗ್ಯ ಮತ್ತು ಹಾಲಿನ ಉತ್ಪಾದನೆಯಲ್ಲಿ ನಿಜವಾದ ವ್ಯತ್ಯಾಸ ತರುತ್ತವೆ. ಈ ಪಾಠ ಮೇವು ನೀಡುವಿಕೆಯ ಪ್ರಾಯೋಗಿಕ, ದಿನನಿತ್ಯದ ಅಂಶಗಳನ್ನು ಹೇಳುತ್ತದೆ.",
+          "सही आहार चुनने के अलावा, रोज़ की कुछ आदतें — पानी और सप्लीमेंट को कैसे संभालते हैं, और चारा-दाना कैसे मिलाकर खिलाते हैं — पशु की सेहत और दूध उत्पादन में असली फ़र्क़ लाती हैं। यह पाठ आहार देने के व्यावहारिक, रोज़मर्रा वाले पहलू के बारे में है।"
         ),
       },
     ],
     topics: [
       {
         id: "t-m14-water-ummb",
-        title: L("Water and Feed Supplements"),
+        title: L("Water and Feed Supplements", "నీళ్లు, మేత సప్లిమెంట్లు", "தண்ணீரும் தீவனச் சத்துப்பொருட்களும்", "ನೀರು ಮತ್ತು ಮೇವಿನ ಪೂರಕಗಳು", "पानी और आहार सप्लीमेंट"),
         teach: [
           {
             type: "text",
-            heading: L("Why Water Is Not 'Just Water'"),
+            heading: L("Why Water Is Not 'Just Water'", "నీళ్లు 'కేవలం నీళ్లు' కాదు ఎందుకు", "தண்ணீர் ஏன் 'வெறும் தண்ணீர்' அல்ல", "ನೀರು 'ಕೇವಲ ನೀರು' ಅಲ್ಲ ಏಕೆ", "पानी 'सिर्फ़ पानी' क्यों नहीं है"),
             html: L(
-              "Water isn't a minor detail of feeding — it does real work inside the animal's body. It helps digest feed and fodder, carries absorbed nutrients around the body, flushes out toxins through urine, and helps the animal maintain its body temperature."
+              "Water isn't a minor detail of feeding — it does real work inside the animal's body. It helps digest feed and fodder, carries absorbed nutrients around the body, flushes out toxins through urine, and helps the animal maintain its body temperature.",
+              "నీళ్లు మేతలో చిన్న విషయం కాదు — పశువు శరీరంలో అవి నిజమైన పని చేస్తాయి. మేతను, గడ్డిని జీర్ణం చేయడంలో సహాయపడతాయి, గ్రహించిన పోషకాలను శరీరమంతా చేరవేస్తాయి, మూత్రం ద్వారా విషపదార్థాలను బయటకు పంపుతాయి, పశువు శరీర ఉష్ణోగ్రతను నియంత్రించడంలో సహాయపడతాయి.",
+              "தண்ணீர் தீவனத்தில் ஒரு சிறிய விஷயம் அல்ல — அது விலங்கின் உடலுக்குள் உண்மையான வேலைகளைச் செய்கிறது. தீவனத்தையும் புல்லையும் செரிக்க உதவுகிறது, உறிஞ்சிய ஊட்டச்சத்துக்களை உடல் முழுவதும் கொண்டு செல்கிறது, சிறுநீர் வழியாக நச்சுகளை வெளியேற்றுகிறது, விலங்கு தன் உடல் வெப்பநிலையைப் பராமரிக்கவும் உதவுகிறது.",
+              "ನೀರು ಆಹಾರ ನೀಡುವಿಕೆಯಲ್ಲಿ ಸಣ್ಣ ವಿಷಯವಲ್ಲ — ಅದು ಪ್ರಾಣಿಯ ದೇಹದೊಳಗೆ ನಿಜವಾದ ಕೆಲಸ ಮಾಡುತ್ತದೆ. ಮೇವು ಮತ್ತು ಹುಲ್ಲನ್ನು ಜೀರ್ಣಿಸಲು ಸಹಾಯ ಮಾಡುತ್ತದೆ, ಹೀರಿಕೊಂಡ ಪೋಷಕಾಂಶಗಳನ್ನು ದೇಹದಾದ್ಯಂತ ಸಾಗಿಸುತ್ತದೆ, ಮೂತ್ರದ ಮೂಲಕ ವಿಷಕಾರಿ ಪದಾರ್ಥಗಳನ್ನು ಹೊರಹಾಕುತ್ತದೆ ಮತ್ತು ಪ್ರಾಣಿ ತನ್ನ ದೇಹದ ಉಷ್ಣತೆಯನ್ನು ಕಾಪಾಡಿಕೊಳ್ಳಲು ಸಹಾಯ ಮಾಡುತ್ತದೆ.",
+              "पानी आहार का कोई छोटा हिस्सा नहीं है — यह पशु के शरीर के अंदर असली काम करता है। यह चारे-दाने को पचाने में मदद करता है, सोखे हुए पोषक तत्वों को पूरे शरीर में पहुँचाता है, पेशाब के ज़रिए ज़हरीले पदार्थ बाहर निकालता है, और पशु को अपने शरीर का तापमान बनाए रखने में मदद करता है।"
             ),
           },
           {
             type: "stat-grid",
             items: [
-              { label: L("Daily Requirement"), text: L("A normal, healthy adult animal needs 70 to 80 litres of water a day.") },
+              { label: L("Daily Requirement", "రోజువారీ అవసరం", "தினசரி தேவை", "ದಿನನಿತ್ಯದ ಅಗತ್ಯ", "रोज़ की ज़रूरत"), text: L("A normal, healthy adult animal needs 70 to 80 litres of water a day.", "ఒక సాధారణ, ఆరోగ్యకరమైన పెద్ద పశువుకు రోజుకు 70 నుండి 80 లీటర్ల నీళ్లు కావాలి.", "ஒரு சாதாரண, ஆரோக்கியமான வளர்ந்த விலங்குக்கு ஒரு நாளைக்கு 70 முதல் 80 லிட்டர் தண்ணீர் தேவை.", "ಒಂದು ಸಾಮಾನ್ಯ, ಆರೋಗ್ಯವಂತ ದೊಡ್ಡ ಪ್ರಾಣಿಗೆ ದಿನಕ್ಕೆ 70 ರಿಂದ 80 ಲೀಟರ್ ನೀರು ಬೇಕು.", "एक सामान्य, सेहतमंद वयस्क पशु को रोज़ 70 से 80 लीटर पानी चाहिए।") },
               {
-                label: L("Extra for Milk"),
-                text: L("Milk itself is about 87% water — so for every extra litre of milk an animal produces, it needs an additional 2.5 to 3 litres of water."),
+                label: L("Extra for Milk", "పాల కోసం అదనం", "பாலுக்காக கூடுதல்", "ಹಾಲಿಗಾಗಿ ಹೆಚ್ಚುವರಿ", "दूध के लिए अतिरिक्त"),
+                text: L("Milk itself is about 87% water — so for every extra litre of milk an animal produces, it needs an additional 2.5 to 3 litres of water.", "పాలలో దాదాపు 87% నీళ్లే — కాబట్టి పశువు ఉత్పత్తి చేసే ప్రతి అదనపు లీటరు పాలకు అదనంగా 2.5 నుండి 3 లీటర్ల నీళ్లు కావాలి.", "பாலில் சுமார் 87% தண்ணீர்தான் — எனவே விலங்கு உற்பத்தி செய்யும் ஒவ்வொரு கூடுதல் லிட்டர் பாலுக்கும் கூடுதலாக 2.5 முதல் 3 லிட்டர் தண்ணீர் தேவை.", "ಹಾಲಿನಲ್ಲಿ ಸುಮಾರು 87% ನೀರೇ — ಆದ್ದರಿಂದ ಪ್ರಾಣಿ ಉತ್ಪಾದಿಸುವ ಪ್ರತಿ ಹೆಚ್ಚುವರಿ ಲೀಟರ್ ಹಾಲಿಗೆ ಹೆಚ್ಚುವರಿ 2.5 ರಿಂದ 3 ಲೀಟರ್ ನೀರು ಬೇಕು.", "दूध में लगभग 87% पानी ही होता है — इसलिए पशु जितना अतिरिक्त लीटर दूध बनाता है, उसके लिए उसे 2.5 से 3 लीटर अतिरिक्त पानी चाहिए।"),
               },
               {
-                label: L("In Summer"),
-                text: L("During summer, crossbred cows and buffaloes should be given a bath twice daily, and at least 100 litres of water a day, to help them manage the heat."),
+                label: L("In Summer", "వేసవిలో", "கோடையில்", "ಬೇಸಿಗೆಯಲ್ಲಿ", "गर्मियों में"),
+                text: L("During summer, crossbred cows and buffaloes should be given a bath twice daily, and at least 100 litres of water a day, to help them manage the heat.", "వేసవిలో సంకరజాతి ఆవులు, గేదెలకు వేడిని తట్టుకోవడానికి రోజుకు రెండుసార్లు స్నానం చేయించాలి, రోజుకు కనీసం 100 లీటర్ల నీళ్లు ఇవ్వాలి.", "கோடையில் கலப்பினப் பசுக்களையும் எருமைகளையும் வெப்பத்தைத் தாங்க உதவ, தினமும் இரண்டு முறை குளிப்பாட்ட வேண்டும், ஒரு நாளைக்கு குறைந்தது 100 லிட்டர் தண்ணீர் கொடுக்க வேண்டும்.", "ಬೇಸಿಗೆಯಲ್ಲಿ ಮಿಶ್ರತಳಿ ಹಸುಗಳು ಮತ್ತು ಎಮ್ಮೆಗಳಿಗೆ ಶಾಖ ತಡೆಯಲು ಸಹಾಯ ಮಾಡಲು ದಿನಕ್ಕೆ ಎರಡು ಬಾರಿ ಸ್ನಾನ ಮಾಡಿಸಬೇಕು ಮತ್ತು ದಿನಕ್ಕೆ ಕನಿಷ್ಠ 100 ಲೀಟರ್ ನೀರು ಕೊಡಬೇಕು.", "गर्मियों में संकर नस्ल की गायों और भैंसों को गर्मी सहने में मदद के लिए रोज़ दो बार नहलाना चाहिए और रोज़ कम से कम 100 लीटर पानी देना चाहिए।"),
               },
             ],
           },
           {
             type: "callout",
             style: "tip",
-            heading: L("Access Round the Clock"),
-            text: L("Animals should have free access to clean drinking water at all times — not just at fixed feeding times."),
+            heading: L("Access Round the Clock", "రోజంతా అందుబాటులో", "நாள் முழுவதும் கிடைக்கச் செய்தல்", "ಹಗಲಿರುಳೂ ಲಭ್ಯ", "हर समय उपलब्ध"),
+            text: L("Animals should have free access to clean drinking water at all times — not just at fixed feeding times.", "నిర్ణీత మేత సమయాల్లో మాత్రమే కాకుండా, పశువులకు ఎల్లప్పుడూ శుభ్రమైన తాగునీరు స్వేచ్ఛగా అందుబాటులో ఉండాలి.", "நிர்ணயிக்கப்பட்ட தீவன நேரங்களில் மட்டுமல்லாமல், விலங்குகளுக்கு எப்போதும் சுத்தமான குடிநீர் தாராளமாகக் கிடைக்க வேண்டும்.", "ನಿಗದಿತ ಮೇವಿನ ಸಮಯದಲ್ಲಿ ಮಾತ್ರವಲ್ಲ, ಪ್ರಾಣಿಗಳಿಗೆ ಯಾವಾಗಲೂ ಶುದ್ಧ ಕುಡಿಯುವ ನೀರು ಮುಕ್ತವಾಗಿ ಸಿಗುವಂತಿರಬೇಕು.", "सिर्फ़ तय खिलाने के समय ही नहीं, पशुओं को हर समय साफ़ पीने का पानी खुलकर मिलना चाहिए।"),
           },
           {
             type: "glossary",
-            term: L("Urea Molasses Mineral Block (UMMB)"),
+            term: L("Urea Molasses Mineral Block (UMMB)", "యూరియా మొలాసిస్ మినరల్ బ్లాక్ (UMMB)", "யூரியா வெல்லப்பாகு தாது கட்டி (UMMB)", "ಯೂರಿಯಾ ಮೊಲಾಸಸ್ ಖನಿಜ ಬ್ಲಾಕ್ (UMMB)", "यूरिया शीरा खनिज ब्लॉक (UMMB)"),
             meaning: L(
-              "A solid block made of urea, molasses and minerals that the animal licks. It is a feed supplement, not a replacement for fodder — it's especially useful when green fodder is scarce."
+              "A solid block made of urea, molasses and minerals that the animal licks. It is a feed supplement, not a replacement for fodder — it's especially useful when green fodder is scarce.",
+              "యూరియా, మొలాసిస్, ఖనిజాలతో తయారు చేసిన ఘన బ్లాక్, పశువు దీన్ని నాకుతుంది. ఇది మేత సప్లిమెంట్, మేతకు ప్రత్యామ్నాయం కాదు — పచ్చి మేత కొరతగా ఉన్నప్పుడు ముఖ్యంగా ఉపయోగపడుతుంది.",
+              "யூரியா, வெல்லப்பாகு, தாதுக்கள் கொண்டு செய்யப்பட்ட திடக் கட்டி, விலங்கு இதை நக்கும். இது தீவனச் சத்துப்பொருள், தீவனத்துக்கு மாற்று அல்ல — பச்சை தீவனம் பற்றாக்குறையாக இருக்கும்போது குறிப்பாகப் பயன்படும்.",
+              "ಯೂರಿಯಾ, ಬೆಲ್ಲದ ಪಾಕ (ಮೊಲಾಸಸ್) ಮತ್ತು ಖನಿಜಗಳಿಂದ ಮಾಡಿದ ಘನ ಬ್ಲಾಕ್, ಪ್ರಾಣಿ ಇದನ್ನು ನೆಕ್ಕುತ್ತದೆ. ಇದು ಮೇವಿನ ಪೂರಕ, ಮೇವಿಗೆ ಬದಲಿ ಅಲ್ಲ — ಹಸಿರು ಮೇವಿನ ಕೊರತೆ ಇದ್ದಾಗ ವಿಶೇಷವಾಗಿ ಉಪಯೋಗಕ್ಕೆ ಬರುತ್ತದೆ.",
+              "यूरिया, शीरा और खनिजों से बना ठोस ब्लॉक, जिसे पशु चाटता है। यह आहार का सप्लीमेंट है, चारे का विकल्प नहीं — खासकर तब काम आता है जब हरे चारे की कमी हो।"
             ),
           },
           {
             type: "text",
-            heading: L("How UMMB Helps"),
+            heading: L("How UMMB Helps", "UMMB ఎలా సహాయపడుతుంది", "UMMB எப்படி உதவுகிறது", "UMMB ಹೇಗೆ ಸಹಾಯ ಮಾಡುತ್ತದೆ", "UMMB कैसे मदद करता है"),
             html: L(
-              "The rumen — the animal's first stomach compartment — contains beneficial microorganisms that break down the fibrous parts of feed. When green fodder is scarce, UMMB helps these rumen microbes multiply, which improves how well the animal digests dry fodder. Dry fodder supplemented with UMMB can even form a complete maintenance ration."
+              "The rumen — the animal's first stomach compartment — contains beneficial microorganisms that break down the fibrous parts of feed. When green fodder is scarce, UMMB helps these rumen microbes multiply, which improves how well the animal digests dry fodder. Dry fodder supplemented with UMMB can even form a complete maintenance ration.",
+              "రూమెన్ — పశువు మొదటి కడుపు గది — లోపల మేతలోని పీచు భాగాలను విచ్ఛిన్నం చేసే ఉపయోగకరమైన సూక్ష్మజీవులు ఉంటాయి. పచ్చి మేత కొరతగా ఉన్నప్పుడు, UMMB ఈ రూమెన్ సూక్ష్మజీవులు పెరగడానికి సహాయపడుతుంది, దాంతో పశువు ఎండుమేతను ఎంత బాగా జీర్ణం చేసుకుంటుందో మెరుగవుతుంది. UMMBతో కలిపిన ఎండుమేత పూర్తి నిర్వహణ రేషన్‌గా కూడా పనికొస్తుంది.",
+              "ரூமன் — விலங்கின் முதல் வயிற்று அறை — தீவனத்தின் நார்ப் பகுதிகளை உடைக்கும் நன்மை செய்யும் நுண்ணுயிரிகளைக் கொண்டுள்ளது. பச்சை தீவனம் பற்றாக்குறையாக இருக்கும்போது, UMMB இந்த ரூமன் நுண்ணுயிரிகள் பெருக உதவுகிறது, இதனால் விலங்கு உலர் தீவனத்தை எவ்வளவு நன்றாகச் செரிக்கிறது என்பது மேம்படுகிறது. UMMB சேர்த்த உலர் தீவனம் முழுமையான பராமரிப்பு ரேஷனாகவும் அமையலாம்.",
+              "ರೂಮೆನ್ — ಪ್ರಾಣಿಯ ಮೊದಲ ಹೊಟ್ಟೆಯ ಕೋಣೆ — ಒಳಗೆ ಮೇವಿನ ನಾರಿನ ಭಾಗಗಳನ್ನು ವಿಘಟಿಸುವ ಉಪಯುಕ್ತ ಸೂಕ್ಷ್ಮಜೀವಿಗಳಿವೆ. ಹಸಿರು ಮೇವಿನ ಕೊರತೆ ಇದ್ದಾಗ, UMMB ಈ ರೂಮೆನ್ ಸೂಕ್ಷ್ಮಜೀವಿಗಳು ಹೆಚ್ಚಲು ಸಹಾಯ ಮಾಡುತ್ತದೆ, ಇದರಿಂದ ಪ್ರಾಣಿ ಒಣ ಮೇವನ್ನು ಎಷ್ಟು ಚೆನ್ನಾಗಿ ಜೀರ್ಣಿಸಿಕೊಳ್ಳುತ್ತದೆ ಎಂಬುದು ಸುಧಾರಿಸುತ್ತದೆ. UMMB ಸೇರಿಸಿದ ಒಣ ಮೇವು ಪೂರ್ಣ ನಿರ್ವಹಣಾ ರೇಷನ್ ಆಗಿಯೂ ಆಗಬಹುದು.",
+              "रूमेन — पशु के पहले पेट का हिस्सा — के अंदर फ़ायदेमंद सूक्ष्मजीव होते हैं जो चारे के रेशेदार हिस्सों को तोड़ते हैं। जब हरे चारे की कमी हो, तो UMMB इन रूमेन सूक्ष्मजीवों को बढ़ने में मदद करता है, जिससे पशु सूखे चारे को बेहतर पचा पाता है। UMMB मिला सूखा चारा एक पूरा रख-रखाव वाला राशन भी बन सकता है।"
             ),
           },
           {
             type: "stat-grid",
             items: [
-              { label: L("Better Intake"), text: L("Increases how much dry fodder the animal eats, and reduces wastage.") },
-              { label: L("Better Digestion"), text: L("Improves the animal's overall digestive efficiency.") },
-              { label: L("More and Richer Milk"), text: L("Improves milk production and its fat percentage.") },
+              { label: L("Better Intake", "ఎక్కువ తినడం", "அதிகம் சாப்பிடுதல்", "ಹೆಚ್ಚು ತಿನ್ನುವುದು", "ज़्यादा खाना"), text: L("Increases how much dry fodder the animal eats, and reduces wastage.", "పశువు తినే ఎండుమేత పరిమాణాన్ని పెంచుతుంది, వృథాను తగ్గిస్తుంది.", "விலங்கு சாப்பிடும் உலர் தீவனத்தின் அளவை அதிகரிக்கிறது, வீணாவதைக் குறைக்கிறது.", "ಪ್ರಾಣಿ ತಿನ್ನುವ ಒಣ ಮೇವಿನ ಪ್ರಮಾಣವನ್ನು ಹೆಚ್ಚಿಸುತ್ತದೆ ಮತ್ತು ವ್ಯರ್ಥವನ್ನು ಕಡಿಮೆ ಮಾಡುತ್ತದೆ.", "पशु जितना सूखा चारा खाता है उसे बढ़ाता है और बर्बादी घटाता है।") },
+              { label: L("Better Digestion", "మెరుగైన జీర్ణక్రియ", "மேம்பட்ட செரிமானம்", "ಉತ್ತಮ ಜೀರ್ಣಕ್ರಿಯೆ", "बेहतर पाचन"), text: L("Improves the animal's overall digestive efficiency.", "పశువు మొత్తం జీర్ణ సామర్థ్యాన్ని మెరుగుపరుస్తుంది.", "விலங்கின் ஒட்டுமொத்த செரிமானத் திறனை மேம்படுத்துகிறது.", "ಪ್ರಾಣಿಯ ಒಟ್ಟಾರೆ ಜೀರ್ಣ ಸಾಮರ್ಥ್ಯವನ್ನು ಸುಧಾರಿಸುತ್ತದೆ.", "पशु की कुल पाचन क्षमता को सुधारता है।") },
+              { label: L("More and Richer Milk", "ఎక్కువ, చిక్కని పాలు", "அதிக, செறிவான பால்", "ಹೆಚ್ಚು ಮತ್ತು ಗಟ್ಟಿಯಾದ ಹಾಲು", "ज़्यादा और गाढ़ा दूध"), text: L("Improves milk production and its fat percentage.", "పాల ఉత్పత్తిని, దానిలోని కొవ్వు శాతాన్ని మెరుగుపరుస్తుంది.", "பால் உற்பத்தியையும் அதிலுள்ள கொழுப்பு சதவீதத்தையும் மேம்படுத்துகிறது.", "ಹಾಲಿನ ಉತ್ಪಾದನೆಯನ್ನು ಮತ್ತು ಅದರ ಕೊಬ್ಬಿನ ಶೇಕಡಾವನ್ನು ಸುಧಾರಿಸುತ್ತದೆ.", "दूध उत्पादन और उसमें फैट का प्रतिशत बढ़ाता है।") },
             ],
           },
         ],
         check: [
           {
             type: "mcq",
-            q: L("About how much extra water does an animal need for every extra litre of milk it produces?"),
-            options: [L("No extra water is needed"), L("0.5-1 litre"), L("2.5-3 litres"), L("10 litres")],
+            q: L("About how much extra water does an animal need for every extra litre of milk it produces?", "పశువు ఉత్పత్తి చేసే ప్రతి అదనపు లీటరు పాలకు సుమారు ఎంత అదనపు నీళ్లు కావాలి?", "விலங்கு உற்பத்தி செய்யும் ஒவ்வொரு கூடுதல் லிட்டர் பாலுக்கும் சுமார் எவ்வளவு கூடுதல் தண்ணீர் தேவை?", "ಪ್ರಾಣಿ ಉತ್ಪಾದಿಸುವ ಪ್ರತಿ ಹೆಚ್ಚುವರಿ ಲೀಟರ್ ಹಾಲಿಗೆ ಸುಮಾರು ಎಷ್ಟು ಹೆಚ್ಚುವರಿ ನೀರು ಬೇಕು?", "पशु जितना अतिरिक्त लीटर दूध बनाता है, उसके लिए लगभग कितना अतिरिक्त पानी चाहिए?"),
+            options: [L("No extra water is needed", "అదనపు నీళ్లు అవసరం లేదు", "கூடுதல் தண்ணீர் தேவையில்லை", "ಹೆಚ್ಚುವರಿ ನೀರು ಬೇಕಿಲ್ಲ", "अतिरिक्त पानी की ज़रूरत नहीं"), L("0.5-1 litre", "0.5-1 లీటరు", "0.5-1 லிட்டர்", "0.5-1 ಲೀಟರ್", "0.5-1 लीटर"), L("2.5-3 litres", "2.5-3 లీటర్లు", "2.5-3 லிட்டர்", "2.5-3 ಲೀಟರ್", "2.5-3 लीटर"), L("10 litres", "10 లీటర్లు", "10 லிட்டர்", "10 ಲೀಟರ್", "10 लीटर")],
             answer: 2,
-            explain: L("Since milk is about 87% water, an animal needs about 2.5 to 3 extra litres of water for every extra litre of milk it produces."),
+            explain: L("Since milk is about 87% water, an animal needs about 2.5 to 3 extra litres of water for every extra litre of milk it produces.", "పాలలో దాదాపు 87% నీళ్లే కాబట్టి, పశువు ఉత్పత్తి చేసే ప్రతి అదనపు లీటరు పాలకు దానికి సుమారు 2.5 నుండి 3 అదనపు లీటర్ల నీళ్లు కావాలి.", "பாலில் சுமார் 87% தண்ணீர் என்பதால், விலங்கு உற்பத்தி செய்யும் ஒவ்வொரு கூடுதல் லிட்டர் பாலுக்கும் அதற்கு சுமார் 2.5 முதல் 3 கூடுதல் லிட்டர் தண்ணீர் தேவை.", "ಹಾಲಿನಲ್ಲಿ ಸುಮಾರು 87% ನೀರೇ ಆಗಿರುವುದರಿಂದ, ಪ್ರಾಣಿ ಉತ್ಪಾದಿಸುವ ಪ್ರತಿ ಹೆಚ್ಚುವರಿ ಲೀಟರ್ ಹಾಲಿಗೆ ಅದಕ್ಕೆ ಸುಮಾರು 2.5 ರಿಂದ 3 ಹೆಚ್ಚುವರಿ ಲೀಟರ್ ನೀರು ಬೇಕು.", "दूध में लगभग 87% पानी होता है, इसलिए पशु जितना अतिरिक्त लीटर दूध बनाता है, उसके लिए उसे करीब 2.5 से 3 लीटर अतिरिक्त पानी चाहिए।"),
           },
           {
             type: "truefalse",
-            q: L("UMMB (Urea Molasses Mineral Block) is meant to fully replace fodder in an animal's diet."),
+            q: L("UMMB (Urea Molasses Mineral Block) is meant to fully replace fodder in an animal's diet.", "UMMB (యూరియా మొలాసిస్ మినరల్ బ్లాక్) పశువు ఆహారంలో మేతను పూర్తిగా భర్తీ చేయడానికి ఉద్దేశించినది.", "UMMB (யூரியா வெல்லப்பாகு தாது கட்டி) விலங்கின் உணவில் தீவனத்தை முழுவதுமாக மாற்றுவதற்காக உருவாக்கப்பட்டது.", "UMMB (ಯೂರಿಯಾ ಮೊಲಾಸಸ್ ಖನಿಜ ಬ್ಲಾಕ್) ಪ್ರಾಣಿಯ ಆಹಾರದಲ್ಲಿ ಮೇವನ್ನು ಸಂಪೂರ್ಣವಾಗಿ ಬದಲಿಸಲು ಉದ್ದೇಶಿಸಲಾಗಿದೆ.", "UMMB (यूरिया शीरा खनिज ब्लॉक) पशु के आहार में चारे की पूरी जगह लेने के लिए बनाया गया है।"),
             answer: false,
             explain: L(
-              "No — UMMB is a supplement, not a replacement. It helps rumen microbes multiply and improves digestion of dry fodder, especially when green fodder is scarce."
+              "No — UMMB is a supplement, not a replacement. It helps rumen microbes multiply and improves digestion of dry fodder, especially when green fodder is scarce.",
+              "కాదు — UMMB ఒక సప్లిమెంట్, ప్రత్యామ్నాయం కాదు. ఇది రూమెన్ సూక్ష్మజీవులు పెరగడానికి, ముఖ్యంగా పచ్చి మేత కొరతగా ఉన్నప్పుడు ఎండుమేత జీర్ణక్రియ మెరుగుపడటానికి సహాయపడుతుంది.",
+              "இல்லை — UMMB ஒரு சத்துப்பொருள், மாற்று அல்ல. இது ரூமன் நுண்ணுயிரிகள் பெருகவும், குறிப்பாக பச்சை தீவனம் பற்றாக்குறையாக இருக்கும்போது உலர் தீவனச் செரிமானம் மேம்படவும் உதவுகிறது.",
+              "ಇಲ್ಲ — UMMB ಒಂದು ಪೂರಕ, ಬದಲಿ ಅಲ್ಲ. ಇದು ರೂಮೆನ್ ಸೂಕ್ಷ್ಮಜೀವಿಗಳು ಹೆಚ್ಚಲು ಮತ್ತು ವಿಶೇಷವಾಗಿ ಹಸಿರು ಮೇವಿನ ಕೊರತೆ ಇದ್ದಾಗ ಒಣ ಮೇವಿನ ಜೀರ್ಣಕ್ರಿಯೆ ಸುಧಾರಿಸಲು ಸಹಾಯ ಮಾಡುತ್ತದೆ.",
+              "नहीं — UMMB एक सप्लीमेंट है, विकल्प नहीं। यह रूमेन के सूक्ष्मजीवों को बढ़ने में मदद करता है और सूखे चारे का पाचन सुधारता है, खासकर जब हरे चारे की कमी हो।"
             ),
           },
         ],
       },
       {
         id: "t-m14-good-practice",
-        title: L("Mixing Feed and Avoiding Common Mistakes"),
+        title: L("Mixing Feed and Avoiding Common Mistakes", "మేత కలపడం, సాధారణ తప్పులను నివారించడం", "தீவனத்தைக் கலப்பதும் பொதுவான தவறுகளைத் தவிர்ப்பதும்", "ಮೇವು ಬೆರೆಸುವುದು ಮತ್ತು ಸಾಮಾನ್ಯ ತಪ್ಪುಗಳನ್ನು ತಪ್ಪಿಸುವುದು", "चारा-दाना मिलाना और आम गलतियों से बचना"),
         teach: [
             {
               type: "photo",
               src: "assets/photo-fodder-cutting.jpg",
-              alt: L("A farmer chopping green fodder with a fodder-cutting machine, with buffaloes visible in a pen behind him"),
-              caption: L("Chaffing (cutting) green fodder into small pieces before feeding reduces wastage and helps the animal digest it better."),
+              alt: L("A farmer chopping green fodder with a fodder-cutting machine, with buffaloes visible in a pen behind him", "ఒక రైతు మేత కోత యంత్రంతో పచ్చి మేతను కోస్తున్నాడు, అతని వెనుక ఒక షెడ్‌లో గేదెలు కనిపిస్తున్నాయి", "ஒரு விவசாயி தீவன வெட்டும் இயந்திரத்தால் பச்சை தீவனத்தை நறுக்குகிறார், அவருக்குப் பின்னால் கொட்டகையில் எருமைகள் தெரிகின்றன", "ಒಬ್ಬ ರೈತ ಮೇವು ಕತ್ತರಿಸುವ ಯಂತ್ರದಿಂದ ಹಸಿರು ಮೇವನ್ನು ಕತ್ತರಿಸುತ್ತಿದ್ದಾನೆ, ಅವನ ಹಿಂದೆ ಕೊಟ್ಟಿಗೆಯಲ್ಲಿ ಎಮ್ಮೆಗಳು ಕಾಣುತ್ತಿವೆ", "एक किसान चारा काटने की मशीन से हरा चारा काट रहा है, उसके पीछे बाड़े में भैंसें दिख रही हैं"),
+              caption: L("Chaffing (cutting) green fodder into small pieces before feeding reduces wastage and helps the animal digest it better.", "పచ్చి మేతను పెట్టే ముందు చిన్న ముక్కలుగా కోయడం (చాఫింగ్) వల్ల వృథా తగ్గుతుంది, పశువు బాగా జీర్ణం చేసుకుంటుంది.", "பச்சை தீவனத்தை கொடுப்பதற்கு முன் சிறு துண்டுகளாக நறுக்குவது (சாஃபிங்) வீணாவதைக் குறைக்கிறது, விலங்கு நன்றாகச் செரிக்க உதவுகிறது.", "ಹಸಿರು ಮೇವನ್ನು ನೀಡುವ ಮೊದಲು ಸಣ್ಣ ತುಂಡುಗಳಾಗಿ ಕತ್ತರಿಸುವುದು (ಚಾಫಿಂಗ್) ವ್ಯರ್ಥವನ್ನು ಕಡಿಮೆ ಮಾಡುತ್ತದೆ ಮತ್ತು ಪ್ರಾಣಿ ಚೆನ್ನಾಗಿ ಜೀರ್ಣಿಸಿಕೊಳ್ಳಲು ಸಹಾಯ ಮಾಡುತ್ತದೆ.", "हरे चारे को खिलाने से पहले छोटे टुकड़ों में काटने (कुट्टी करने) से बर्बादी कम होती है और पशु उसे बेहतर पचा पाता है।"),
             },
             {
               type: "photo",
               src: "assets/photo-m14-tmr.jpg",
-              alt: L("Holstein dairy cows eating a Total Mixed Ration — a uniform mix of chopped fodder and concentrate — from a feed manger"),
-              caption: L("A Total Mixed Ration (TMR / 'Sani') mixes fodder, concentrate and minerals together, instead of giving separate piles of each."),
+              alt: L("Holstein dairy cows eating a Total Mixed Ration — a uniform mix of chopped fodder and concentrate — from a feed manger", "హోల్‌స్టీన్ పాడి ఆవులు ఫీడ్ మేంజర్ నుండి టోటల్ మిక్స్డ్ రేషన్ — తరిగిన మేత, దాణా కలిపిన ఒకే రకమైన మిశ్రమం — తింటున్నాయి", "ஹோல்ஸ்டீன் கறவை மாடுகள் தீவனத் தொட்டியிலிருந்து மொத்த கலவை ரேஷன் — நறுக்கிய தீவனமும் அடர் தீவனமும் கலந்த ஒரே மாதிரியான கலவை — சாப்பிடுகின்றன", "ಹಾಲ್‌ಸ್ಟೀನ್ ಹೈನು ಹಸುಗಳು ಮೇವಿನ ತೊಟ್ಟಿಯಿಂದ ಟೋಟಲ್ ಮಿಕ್ಸ್ಡ್ ರೇಷನ್ — ಕತ್ತರಿಸಿದ ಮೇವು ಮತ್ತು ಹಿಂಡಿ-ಕಾಳು ಆಹಾರ ಬೆರೆಸಿದ ಒಂದೇ ರೀತಿಯ ಮಿಶ್ರಣ — ತಿನ್ನುತ್ತಿವೆ", "होल्स्टीन दुधारू गायें चारे की नाँद से टोटल मिक्स्ड राशन — कटे चारे और दाने का एक समान मिश्रण — खा रही हैं"),
+              caption: L("A Total Mixed Ration (TMR / 'Sani') mixes fodder, concentrate and minerals together, instead of giving separate piles of each.", "టోటల్ మిక్స్డ్ రేషన్ (TMR / 'సానీ') మేత, దాణా, ఖనిజాలను వేర్వేరు కుప్పలుగా ఇవ్వకుండా కలిపి ఇస్తుంది.", "மொத்த கலவை ரேஷன் (TMR / 'சானி') தீவனம், அடர் தீவனம், தாதுக்களை தனித்தனி குவியல்களாகக் கொடுக்காமல் ஒன்றாகக் கலந்து தருகிறது.", "ಟೋಟಲ್ ಮಿಕ್ಸ್ಡ್ ರೇಷನ್ (TMR / 'ಸಾನಿ') ಮೇವು, ಹಿಂಡಿ-ಕಾಳು ಆಹಾರ ಮತ್ತು ಖನಿಜಗಳನ್ನು ಬೇರೆ ಬೇರೆ ರಾಶಿಗಳಾಗಿ ಕೊಡುವ ಬದಲು ಒಟ್ಟಿಗೆ ಬೆರೆಸಿ ನೀಡುತ್ತದೆ.", "टोटल मिक्स्ड राशन (TMR / 'सानी') चारा, दाना और खनिज को अलग-अलग ढेरों में देने की बजाय सबको मिलाकर देता है।"),
             },
           {
             type: "callout",
             style: "warning",
-            heading: L("Never Change Feed Suddenly"),
+            heading: L("Never Change Feed Suddenly", "మేతను ఎప్పుడూ అకస్మాత్తుగా మార్చకండి", "தீவனத்தை ஒருபோதும் திடீரென மாற்றாதீர்கள்", "ಮೇವನ್ನು ಎಂದೂ ಥಟ್ಟನೆ ಬದಲಿಸಬೇಡಿ", "चारा-दाना कभी अचानक न बदलें"),
             text: L(
-              "Switching an animal from one feed to another should always be done gradually, over several days — never suddenly. A sudden change can upset digestion, even if the new feed is actually better than the old one."
+              "Switching an animal from one feed to another should always be done gradually, over several days — never suddenly. A sudden change can upset digestion, even if the new feed is actually better than the old one.",
+              "పశువును ఒక మేత నుండి మరొక మేతకు మార్చడం ఎప్పుడూ కొన్ని రోజుల పాటు నెమ్మదిగా చేయాలి — అకస్మాత్తుగా కాదు. కొత్త మేత పాతదానికన్నా మంచిదైనా, అకస్మాత్తు మార్పు జీర్ణక్రియను దెబ్బతీయవచ్చు.",
+              "விலங்கை ஒரு தீவனத்திலிருந்து இன்னொன்றுக்கு மாற்றுவது எப்போதும் பல நாட்களில் படிப்படியாக செய்ய வேண்டும் — திடீரென்று அல்ல. புதிய தீவனம் பழையதை விட உண்மையிலேயே சிறந்ததாக இருந்தாலும், திடீர் மாற்றம் செரிமானத்தைப் பாதிக்கலாம்.",
+              "ಪ್ರಾಣಿಯ ಆಹಾರವನ್ನು ಒಂದರಿಂದ ಇನ್ನೊಂದಕ್ಕೆ ಬದಲಿಸುವುದನ್ನು ಯಾವಾಗಲೂ ಹಲವು ದಿನಗಳಲ್ಲಿ ನಿಧಾನವಾಗಿ ಮಾಡಬೇಕು — ಥಟ್ಟನೆ ಅಲ್ಲ. ಹೊಸ ಆಹಾರ ಹಳೆಯದಕ್ಕಿಂತ ನಿಜವಾಗಿ ಉತ್ತಮವಾಗಿದ್ದರೂ, ಥಟ್ಟನೆಯ ಬದಲಾವಣೆ ಜೀರ್ಣಕ್ರಿಯೆಯನ್ನು ಹಾಳುಮಾಡಬಹುದು.",
+              "पशु का आहार एक से दूसरे में बदलना हमेशा कई दिनों में धीरे-धीरे करना चाहिए — कभी अचानक नहीं। नया आहार पुराने से सचमुच बेहतर हो, तब भी अचानक बदलाव से पाचन बिगड़ सकता है।"
             ),
           },
           {
             type: "text",
-            heading: L("Chaff It Before You Feed It"),
+            heading: L("Chaff It Before You Feed It", "పెట్టే ముందు మేతను చాఫ్ చేయండి", "கொடுப்பதற்கு முன் தீவனத்தை நறுக்குங்கள்", "ಕೊಡುವ ಮೊದಲು ಮೇವನ್ನು ಚಾಫ್ ಮಾಡಿ", "खिलाने से पहले चारे की कुट्टी करें"),
             html: L(
-              "Fodder should be <b>chaffed</b> (cut into small pieces) before feeding. This simple step avoids wastage and helps the animal digest the fodder better — it's an easy habit that costs little but helps every day."
+              "Fodder should be <b>chaffed</b> (cut into small pieces) before feeding. This simple step avoids wastage and helps the animal digest the fodder better — it's an easy habit that costs little but helps every day.",
+              "మేతను పెట్టే ముందు <b>చాఫ్</b> చేయాలి (చిన్న ముక్కలుగా కోయాలి). ఈ సులభమైన పని వృథాను తప్పిస్తుంది, పశువు మేతను బాగా జీర్ణం చేసుకోవడానికి సహాయపడుతుంది — ఇది తక్కువ ఖర్చుతో ప్రతిరోజూ ప్రయోజనం ఇచ్చే సులభమైన అలవాటు.",
+              "தீவனத்தைக் கொடுப்பதற்கு முன் <b>சாஃப்</b> செய்ய வேண்டும் (சிறு துண்டுகளாக நறுக்க வேண்டும்). இந்த எளிய வேலை வீணாவதைத் தவிர்க்கிறது, விலங்கு தீவனத்தை நன்றாகச் செரிக்க உதவுகிறது — இது குறைந்த செலவில் தினமும் பலன் தரும் எளிய பழக்கம்.",
+              "ಮೇವನ್ನು ನೀಡುವ ಮೊದಲು <b>ಚಾಫ್</b> ಮಾಡಬೇಕು (ಸಣ್ಣ ತುಂಡುಗಳಾಗಿ ಕತ್ತರಿಸಬೇಕು). ಈ ಸರಳ ಕೆಲಸ ವ್ಯರ್ಥವನ್ನು ತಪ್ಪಿಸುತ್ತದೆ ಮತ್ತು ಪ್ರಾಣಿ ಮೇವನ್ನು ಚೆನ್ನಾಗಿ ಜೀರ್ಣಿಸಿಕೊಳ್ಳಲು ಸಹಾಯ ಮಾಡುತ್ತದೆ — ಇದು ಕಡಿಮೆ ವೆಚ್ಚದಲ್ಲಿ ಪ್ರತಿದಿನ ಪ್ರಯೋಜನ ನೀಡುವ ಸುಲಭ ಅಭ್ಯಾಸ.",
+              "चारा खिलाने से पहले उसे <b>कुट्टी</b> करना (छोटे टुकड़ों में काटना) चाहिए। यह आसान काम बर्बादी बचाता है और पशु को चारा बेहतर पचाने में मदद करता है — यह कम खर्च वाली आदत है जो रोज़ फ़ायदा देती है।"
             ),
           },
           {
             type: "glossary",
-            term: L("Total Mixed Ration (TMR)"),
+            term: L("Total Mixed Ration (TMR)", "టోటల్ మిక్స్డ్ రేషన్ (TMR)", "மொத்த கலவை ரேஷன் (TMR)", "ಟೋಟಲ್ ಮಿಕ್ಸ್ಡ್ ರೇಷನ್ (TMR)", "टोटल मिक्स्ड राशन (TMR)"),
             meaning: L(
-              "A ration made by mixing all the different feed ingredients — fodder, concentrate, minerals and other additives — together into one uniform mix, instead of giving the animal separate piles of each. It's sometimes also called 'Sani'."
+              "A ration made by mixing all the different feed ingredients — fodder, concentrate, minerals and other additives — together into one uniform mix, instead of giving the animal separate piles of each. It's sometimes also called 'Sani'.",
+              "మేత, దాణా, ఖనిజాలు, ఇతర సంకలనాలు — అన్ని రకాల మేత పదార్థాలను కలిపి ఒకే ఏకరీతి మిశ్రమంగా చేసిన రేషన్, పశువుకు ప్రతిదాని వేర్వేరు కుప్పలు ఇవ్వడానికి బదులుగా. దీన్ని కొన్నిసార్లు 'సానీ' అని కూడా అంటారు.",
+              "தீவனம், அடர் தீவனம், தாதுக்கள், மற்ற சேர்க்கைப் பொருட்கள் — எல்லா வகை தீவனப் பொருட்களையும் ஒன்றாகக் கலந்து ஒரே சீரான கலவையாகச் செய்த ரேஷன், விலங்குக்கு ஒவ்வொன்றையும் தனித்தனி குவியலாகக் கொடுப்பதற்குப் பதிலாக. இது சில நேரங்களில் 'சானி' என்றும் அழைக்கப்படுகிறது.",
+              "ಮೇವು, ಹಿಂಡಿ-ಕಾಳು ಆಹಾರ, ಖನಿಜಗಳು ಮತ್ತು ಇತರ ಸೇರ್ಪಡೆಗಳು — ಎಲ್ಲ ಆಹಾರ ಪದಾರ್ಥಗಳನ್ನು ಸೇರಿಸಿ ಒಂದೇ ಸಮನಾದ ಮಿಶ್ರಣವಾಗಿ ಮಾಡಿದ ರೇಷನ್, ಪ್ರಾಣಿಗೆ ಪ್ರತಿಯೊಂದನ್ನೂ ಬೇರೆ ಬೇರೆ ರಾಶಿಯಾಗಿ ಕೊಡುವ ಬದಲು. ಇದನ್ನು ಕೆಲವೊಮ್ಮೆ 'ಸಾನಿ' ಎಂದೂ ಕರೆಯುತ್ತಾರೆ.",
+              "चारा, दाना, खनिज और दूसरे मिलावटी पदार्थ — सारी आहार सामग्री को मिलाकर एक समान मिश्रण बनाया गया राशन, पशु को हर चीज़ के अलग-अलग ढेर देने की बजाय। इसे कभी-कभी 'सानी' भी कहते हैं।"
             ),
           },
           {
             type: "callout",
             style: "tip",
-            heading: L("Feed It in Parts, Not All at Once"),
+            heading: L("Feed It in Parts, Not All at Once", "ఒకేసారి కాకుండా భాగాలుగా పెట్టండి", "ஒரே நேரத்தில் அல்லாமல் பகுதி பகுதியாகக் கொடுங்கள்", "ಒಂದೇ ಬಾರಿಗೆ ಅಲ್ಲ, ಭಾಗಭಾಗವಾಗಿ ನೀಡಿ", "एक साथ नहीं, हिस्सों में खिलाएँ"),
             text: L(
-              "A Total Mixed Ration is best fed in 3 to 4 roughly equal parts spread across the day, rather than as one large feed. This reduces spoilage and increases how well the animal digests it."
+              "A Total Mixed Ration is best fed in 3 to 4 roughly equal parts spread across the day, rather than as one large feed. This reduces spoilage and increases how well the animal digests it.",
+              "టోటల్ మిక్స్డ్ రేషన్‌ను ఒకే పెద్ద మేతగా కాకుండా, రోజంతా సుమారు సమానమైన 3 నుండి 4 భాగాలుగా పెట్టడం మంచిది. దీనివల్ల పాడైపోవడం తగ్గుతుంది, పశువు దాన్ని బాగా జీర్ణం చేసుకుంటుంది.",
+              "மொத்த கலவை ரேஷனை ஒரே பெரிய தீவனமாகக் கொடுக்காமல், நாள் முழுவதும் கிட்டத்தட்ட சம அளவிலான 3 முதல் 4 பகுதிகளாகக் கொடுப்பது சிறந்தது. இதனால் கெட்டுப்போவது குறைகிறது, விலங்கு அதை நன்றாகச் செரிக்கிறது.",
+              "ಟೋಟಲ್ ಮಿಕ್ಸ್ಡ್ ರೇಷನ್ ಅನ್ನು ಒಂದೇ ದೊಡ್ಡ ಮೇವಾಗಿ ಕೊಡುವ ಬದಲು, ದಿನವಿಡೀ ಸುಮಾರು ಸಮನಾದ 3 ರಿಂದ 4 ಭಾಗಗಳಾಗಿ ಕೊಡುವುದು ಉತ್ತಮ. ಇದರಿಂದ ಹಾಳಾಗುವುದು ಕಡಿಮೆಯಾಗುತ್ತದೆ ಮತ್ತು ಪ್ರಾಣಿ ಅದನ್ನು ಚೆನ್ನಾಗಿ ಜೀರ್ಣಿಸಿಕೊಳ್ಳುತ್ತದೆ.",
+              "टोटल मिक्स्ड राशन को एक बड़ी खुराक में देने की बजाय दिन भर में करीब बराबर के 3 से 4 हिस्सों में देना सबसे अच्छा है। इससे खराब होना कम होता है और पशु उसे बेहतर पचाता है।"
             ),
           },
           {
             type: "ledger",
-            heading: L("Example Daily Ration — Cow Giving 10 Litres of Milk"),
+            heading: L("Example Daily Ration — Cow Giving 10 Litres of Milk", "రోజువారీ రేషన్ ఉదాహరణ — 10 లీటర్ల పాలు ఇచ్చే ఆవు", "தினசரி ரேஷன் உதாரணம் — 10 லிட்டர் பால் தரும் பசு", "ದಿನದ ರೇಷನ್ ಉದಾಹರಣೆ — 10 ಲೀಟರ್ ಹಾಲು ಕೊಡುವ ಹಸು", "रोज़ के राशन का उदाहरण — 10 लीटर दूध देने वाली गाय"),
             rows: [
-              { label: L("Dry fodder"), amount: "7 kg" },
-              { label: L("Green fodder"), amount: "4 kg" },
-              { label: L("Compound cattle feed"), amount: "6 kg" },
+              { label: L("Dry fodder", "ఎండుమేత", "உலர் தீவனம்", "ಒಣ ಮೇವು", "सूखा चारा"), amount: "7 kg" },
+              { label: L("Green fodder", "పచ్చి మేత", "பச்சை தீவனம்", "ಹಸಿರು ಮೇವು", "हरा चारा"), amount: "4 kg" },
+              { label: L("Compound cattle feed", "కాంపౌండ్ పశుదాణా", "கலப்புத் தீவனம்", "ಕಾಂಪೌಂಡ್ ಜಾನುವಾರು ಆಹಾರ", "कंपाउंड पशु आहार"), amount: "6 kg" },
             ],
-            total: { label: L("Total daily feed"), amount: "17 kg, plus 150 g mineral mixture" },
+            total: { label: L("Total daily feed", "రోజుకు మొత్తం మేత", "ஒரு நாளைக்கு மொத்த தீவனம்", "ದಿನಕ್ಕೆ ಒಟ್ಟು ಮೇವು", "रोज़ का कुल आहार"), amount: "17 kg, plus 150 g mineral mixture" },
           },
           {
             type: "callout",
             style: "warning",
-            heading: L("If an Animal Goes Off Its Feed, Don't Guess — Report It"),
+            heading: L("If an Animal Goes Off Its Feed, Don't Guess — Report It", "పశువు మేత తినడం మానేస్తే, ఊహించకండి — తెలియజేయండి", "விலங்கு தீவனம் சாப்பிடுவதை நிறுத்தினால், ஊகிக்காதீர்கள் — தெரிவியுங்கள்", "ಪ್ರಾಣಿ ಮೇವು ತಿನ್ನುವುದನ್ನು ನಿಲ್ಲಿಸಿದರೆ, ಊಹಿಸಬೇಡಿ — ತಿಳಿಸಿ", "पशु चारा-दाना खाना छोड़ दे तो अंदाज़ा न लगाएँ — बताएँ"),
             text: L(
-              "If an animal that normally eats well suddenly stops eating properly, that is a warning sign, not just a feeding problem to fix on your own. Note it and tell the animal's owner or the veterinarian the same day, the same way you would report any other warning sign."
+              "If an animal that normally eats well suddenly stops eating properly, that is a warning sign, not just a feeding problem to fix on your own. Note it and tell the animal's owner or the veterinarian the same day, the same way you would report any other warning sign.",
+              "సాధారణంగా బాగా తినే పశువు అకస్మాత్తుగా సరిగ్గా తినడం మానేస్తే, అది హెచ్చరిక సంకేతం, మీరే సరిచేయాల్సిన మేత సమస్య మాత్రమే కాదు. దాన్ని నోట్ చేసుకోండి, ఏ ఇతర హెచ్చరిక సంకేతాన్ని తెలియజేసినట్టే, అదే రోజు పశువు యజమానికి లేదా పశువైద్యుడికి తెలియజేయండి.",
+              "வழக்கமாக நன்றாகச் சாப்பிடும் விலங்கு திடீரென சரியாகச் சாப்பிடுவதை நிறுத்தினால், அது ஒரு எச்சரிக்கை அறிகுறி, நீங்களே சரிசெய்ய வேண்டிய தீவனப் பிரச்சினை மட்டுமல்ல. அதைக் குறித்துக்கொண்டு, வேறு எந்த எச்சரிக்கை அறிகுறியையும் தெரிவிப்பது போலவே, அதே நாளில் விலங்கின் உரிமையாளருக்கோ கால்நடை மருத்துவருக்கோ தெரிவியுங்கள்.",
+              "ಸಾಮಾನ್ಯವಾಗಿ ಚೆನ್ನಾಗಿ ತಿನ್ನುವ ಪ್ರಾಣಿ ಥಟ್ಟನೆ ಸರಿಯಾಗಿ ತಿನ್ನುವುದನ್ನು ನಿಲ್ಲಿಸಿದರೆ, ಅದು ಎಚ್ಚರಿಕೆಯ ಸಂಕೇತ, ನೀವೇ ಸರಿಪಡಿಸಬೇಕಾದ ಮೇವಿನ ಸಮಸ್ಯೆ ಮಾತ್ರವಲ್ಲ. ಅದನ್ನು ಬರೆದಿಟ್ಟುಕೊಂಡು, ಬೇರೆ ಯಾವುದೇ ಎಚ್ಚರಿಕೆಯ ಸಂಕೇತವನ್ನು ತಿಳಿಸುವಂತೆಯೇ, ಅದೇ ದಿನ ಪ್ರಾಣಿಯ ಮಾಲೀಕರಿಗೆ ಅಥವಾ ಪಶುವೈದ್ಯರಿಗೆ ತಿಳಿಸಿ.",
+              "जो पशु आमतौर पर अच्छा खाता है, अगर वह अचानक ठीक से खाना बंद कर दे, तो यह चेतावनी का संकेत है, सिर्फ़ चारे की ऐसी समस्या नहीं जिसे आप खुद ठीक कर लें। इसे नोट करें और उसी दिन पशु के मालिक या पशु चिकित्सक को बताएँ, जैसे आप किसी भी दूसरे चेतावनी संकेत की सूचना देते हैं।"
             ),
           },
         ],
         check: [
           {
             type: "mcq",
-            q: L("Why should feed changes be made gradually rather than suddenly?"),
+            q: L("Why should feed changes be made gradually rather than suddenly?", "మేత మార్పులను అకస్మాత్తుగా కాకుండా నెమ్మదిగా ఎందుకు చేయాలి?", "தீவன மாற்றங்களை ஏன் திடீரென்று அல்லாமல் படிப்படியாகச் செய்ய வேண்டும்?", "ಮೇವಿನ ಬದಲಾವಣೆಗಳನ್ನು ಥಟ್ಟನೆ ಅಲ್ಲ, ನಿಧಾನವಾಗಿ ಏಕೆ ಮಾಡಬೇಕು?", "चारा-दाना बदलाव अचानक नहीं, धीरे-धीरे क्यों करने चाहिए?"),
             options: [
-              L("Sudden changes save money"),
-              L("A sudden change can upset the animal's digestion"),
-              L("Gradual changes are required by law"),
-              L("It makes the feed taste better"),
+              L("Sudden changes save money", "అకస్మాత్తు మార్పులు డబ్బు ఆదా చేస్తాయి", "திடீர் மாற்றங்கள் பணத்தைச் சேமிக்கும்", "ಥಟ್ಟನೆಯ ಬದಲಾವಣೆಗಳು ಹಣ ಉಳಿಸುತ್ತವೆ", "अचानक बदलाव से पैसे बचते हैं"),
+              L("A sudden change can upset the animal's digestion", "అకస్మాత్తు మార్పు పశువు జీర్ణక్రియను దెబ్బతీయవచ్చు", "திடீர் மாற்றம் விலங்கின் செரிமானத்தைப் பாதிக்கலாம்", "ಥಟ್ಟನೆಯ ಬದಲಾವಣೆ ಪ್ರಾಣಿಯ ಜೀರ್ಣಕ್ರಿಯೆಯನ್ನು ಹಾಳುಮಾಡಬಹುದು", "अचानक बदलाव से पशु का पाचन बिगड़ सकता है"),
+              L("Gradual changes are required by law", "నెమ్మదిగా మార్పులు చేయడం చట్టం ప్రకారం తప్పనిసరి", "படிப்படியான மாற்றங்கள் சட்டப்படி கட்டாயம்", "ನಿಧಾನ ಬದಲಾವಣೆಗಳನ್ನು ಕಾನೂನು ಕಡ್ಡಾಯಗೊಳಿಸಿದೆ", "धीरे-धीरे बदलाव करना कानूनन ज़रूरी है"),
+              L("It makes the feed taste better", "దానివల్ల మేత రుచి మెరుగవుతుంది", "இதனால் தீவனம் ருசியாகிறது", "ಇದರಿಂದ ಮೇವಿನ ರುಚಿ ಉತ್ತಮವಾಗುತ್ತದೆ", "इससे चारा-दाना ज़्यादा स्वादिष्ट लगता है"),
             ],
             answer: 1,
-            explain: L("Changing feed suddenly, even to a better feed, can upset digestion — always change gradually over several days."),
+            explain: L("Changing feed suddenly, even to a better feed, can upset digestion — always change gradually over several days.", "మేతను అకస్మాత్తుగా మార్చడం, మంచి మేతకైనా, జీర్ణక్రియను దెబ్బతీయవచ్చు — ఎల్లప్పుడూ కొన్ని రోజుల పాటు నెమ్మదిగా మార్చండి.", "தீவனத்தை திடீரென்று மாற்றுவது, சிறந்த தீவனத்துக்கு மாற்றினாலும், செரிமானத்தைப் பாதிக்கலாம் — எப்போதும் பல நாட்களில் படிப்படியாக மாற்றுங்கள்.", "ಮೇವನ್ನು ಥಟ್ಟನೆ ಬದಲಿಸುವುದು, ಉತ್ತಮ ಮೇವಿಗೆ ಬದಲಿಸಿದರೂ, ಜೀರ್ಣಕ್ರಿಯೆಯನ್ನು ಹಾಳುಮಾಡಬಹುದು — ಯಾವಾಗಲೂ ಹಲವು ದಿನಗಳಲ್ಲಿ ನಿಧಾನವಾಗಿ ಬದಲಿಸಿ.", "चारा-दाना अचानक बदलने से, चाहे बेहतर आहार पर ही क्यों न जाएँ, पाचन बिगड़ सकता है — हमेशा कई दिनों में धीरे-धीरे बदलें।"),
           },
           {
             type: "truefalse",
-            q: L("A Total Mixed Ration (TMR) is best fed in 3 to 4 roughly equal parts through the day, rather than as one large feed."),
+            q: L("A Total Mixed Ration (TMR) is best fed in 3 to 4 roughly equal parts through the day, rather than as one large feed.", "టోటల్ మిక్స్డ్ రేషన్ (TMR)ను ఒకే పెద్ద మేతగా కాకుండా, రోజంతా సుమారు సమానమైన 3 నుండి 4 భాగాలుగా పెట్టడం మంచిది.", "மொத்த கலவை ரேஷனை (TMR) ஒரே பெரிய தீவனமாகக் கொடுக்காமல், நாள் முழுவதும் கிட்டத்தட்ட சம அளவிலான 3 முதல் 4 பகுதிகளாகக் கொடுப்பது சிறந்தது.", "ಟೋಟಲ್ ಮಿಕ್ಸ್ಡ್ ರೇಷನ್ (TMR) ಅನ್ನು ಒಂದೇ ದೊಡ್ಡ ಮೇವಾಗಿ ಕೊಡುವ ಬದಲು, ದಿನವಿಡೀ ಸುಮಾರು ಸಮನಾದ 3 ರಿಂದ 4 ಭಾಗಗಳಾಗಿ ಕೊಡುವುದು ಉತ್ತಮ.", "टोटल मिक्स्ड राशन (TMR) को एक बड़ी खुराक की बजाय दिन भर में करीब बराबर के 3 से 4 हिस्सों में खिलाना सबसे अच्छा है।"),
             answer: true,
-            explain: L("Yes — feeding a TMR in 3 to 4 parts reduces spoilage and improves digestibility, rather than giving it all at once."),
+            explain: L("Yes — feeding a TMR in 3 to 4 parts reduces spoilage and improves digestibility, rather than giving it all at once.", "అవును — TMRను 3 నుండి 4 భాగాలుగా పెడితే పాడైపోవడం తగ్గుతుంది, ఒకేసారి ఇవ్వడం కన్నా జీర్ణక్రియ మెరుగవుతుంది.", "ஆம் — TMR-ஐ 3 முதல் 4 பகுதிகளாகக் கொடுத்தால் கெட்டுப்போவது குறைகிறது, ஒரே நேரத்தில் கொடுப்பதை விட செரிமானம் மேம்படுகிறது.", "ಹೌದು — TMR ಅನ್ನು 3 ರಿಂದ 4 ಭಾಗಗಳಾಗಿ ಕೊಟ್ಟರೆ ಹಾಳಾಗುವುದು ಕಡಿಮೆಯಾಗುತ್ತದೆ ಮತ್ತು ಒಂದೇ ಬಾರಿಗೆ ಕೊಡುವುದಕ್ಕಿಂತ ಜೀರ್ಣಕ್ರಿಯೆ ಉತ್ತಮವಾಗುತ್ತದೆ.", "हाँ — TMR को 3 से 4 हिस्सों में देने से खराब होना कम होता है और एक साथ देने की तुलना में पाचन बेहतर होता है।"),
           },
         ],
       },
@@ -14563,55 +14707,55 @@ export const MODULES = [
         {
           topicId: "t-m14-water-ummb",
           type: "mcq",
-          q: L("What does UMMB mainly help with?"),
+          q: L("What does UMMB mainly help with?", "UMMB ప్రధానంగా దేనికి సహాయపడుతుంది?", "UMMB முக்கியமாக எதற்கு உதவுகிறது?", "UMMB ಮುಖ್ಯವಾಗಿ ಯಾವುದಕ್ಕೆ ಸಹಾಯ ಮಾಡುತ್ತದೆ?", "UMMB मुख्य रूप से किस काम में मदद करता है?"),
           options: [
-            L("Replacing all fodder in the diet"),
-            L("Helping rumen microbes multiply and improving digestion of dry fodder"),
-            L("Curing diseases directly"),
-            L("Increasing the water content of milk"),
+            L("Replacing all fodder in the diet", "ఆహారంలోని మేత మొత్తాన్ని భర్తీ చేయడం", "உணவில் உள்ள எல்லா தீவனத்தையும் மாற்றுவது", "ಆಹಾರದಲ್ಲಿನ ಎಲ್ಲ ಮೇವನ್ನು ಬದಲಿಸುವುದು", "आहार में सारे चारे की जगह लेना"),
+            L("Helping rumen microbes multiply and improving digestion of dry fodder", "రూమెన్ సూక్ష్మజీవులు పెరగడానికి, ఎండుమేత జీర్ణక్రియ మెరుగుపడటానికి సహాయపడటం", "ரூமன் நுண்ணுயிரிகள் பெருகவும், உலர் தீவனச் செரிமானம் மேம்படவும் உதவுவது", "ರೂಮೆನ್ ಸೂಕ್ಷ್ಮಜೀವಿಗಳು ಹೆಚ್ಚಲು ಮತ್ತು ಒಣ ಮೇವಿನ ಜೀರ್ಣಕ್ರಿಯೆ ಸುಧಾರಿಸಲು ಸಹಾಯ ಮಾಡುವುದು", "रूमेन के सूक्ष्मजीवों को बढ़ाने और सूखे चारे का पाचन सुधारने में मदद करना"),
+            L("Curing diseases directly", "జబ్బులను నేరుగా నయం చేయడం", "நோய்களை நேரடியாகக் குணப்படுத்துவது", "ರೋಗಗಳನ್ನು ನೇರವಾಗಿ ಗುಣಪಡಿಸುವುದು", "बीमारियों को सीधे ठीक करना"),
+            L("Increasing the water content of milk", "పాలలో నీటి శాతాన్ని పెంచడం", "பாலில் தண்ணீரின் அளவை அதிகரிப்பது", "ಹಾಲಿನಲ್ಲಿ ನೀರಿನ ಪ್ರಮಾಣವನ್ನು ಹೆಚ್ಚಿಸುವುದು", "दूध में पानी की मात्रा बढ़ाना"),
           ],
           answer: 1,
-          explain: L("UMMB helps beneficial rumen microbes multiply, which improves how well the animal digests dry fodder — especially useful when green fodder is scarce."),
+          explain: L("UMMB helps beneficial rumen microbes multiply, which improves how well the animal digests dry fodder — especially useful when green fodder is scarce.", "UMMB ఉపయోగకరమైన రూమెన్ సూక్ష్మజీవులు పెరగడానికి సహాయపడుతుంది, దాంతో పశువు ఎండుమేతను ఎంత బాగా జీర్ణం చేసుకుంటుందో మెరుగవుతుంది — ముఖ్యంగా పచ్చి మేత కొరతగా ఉన్నప్పుడు ఉపయోగపడుతుంది.", "UMMB நன்மை செய்யும் ரூமன் நுண்ணுயிரிகள் பெருக உதவுகிறது, இதனால் விலங்கு உலர் தீவனத்தை எவ்வளவு நன்றாகச் செரிக்கிறது என்பது மேம்படுகிறது — குறிப்பாக பச்சை தீவனம் பற்றாக்குறையாக இருக்கும்போது பயன்படும்.", "UMMB ಉಪಯುಕ್ತ ರೂಮೆನ್ ಸೂಕ್ಷ್ಮಜೀವಿಗಳು ಹೆಚ್ಚಲು ಸಹಾಯ ಮಾಡುತ್ತದೆ, ಇದರಿಂದ ಪ್ರಾಣಿ ಒಣ ಮೇವನ್ನು ಎಷ್ಟು ಚೆನ್ನಾಗಿ ಜೀರ್ಣಿಸಿಕೊಳ್ಳುತ್ತದೆ ಎಂಬುದು ಸುಧಾರಿಸುತ್ತದೆ — ವಿಶೇಷವಾಗಿ ಹಸಿರು ಮೇವಿನ ಕೊರತೆ ಇದ್ದಾಗ ಉಪಯುಕ್ತ.", "UMMB फ़ायदेमंद रूमेन सूक्ष्मजीवों को बढ़ने में मदद करता है, जिससे पशु सूखे चारे को बेहतर पचा पाता है — खासकर तब उपयोगी जब हरे चारे की कमी हो।"),
         },
         {
           topicId: "t-m14-water-ummb",
           type: "truefalse",
-          q: L("An adult healthy animal generally needs about 70 to 80 litres of water a day."),
+          q: L("An adult healthy animal generally needs about 70 to 80 litres of water a day.", "ఒక ఆరోగ్యకరమైన పెద్ద పశువుకు సాధారణంగా రోజుకు సుమారు 70 నుండి 80 లీటర్ల నీళ్లు కావాలి.", "ஒரு ஆரோக்கியமான வளர்ந்த விலங்குக்கு பொதுவாக ஒரு நாளைக்கு சுமார் 70 முதல் 80 லிட்டர் தண்ணீர் தேவை.", "ಒಂದು ಆರೋಗ್ಯವಂತ ದೊಡ್ಡ ಪ್ರಾಣಿಗೆ ಸಾಮಾನ್ಯವಾಗಿ ದಿನಕ್ಕೆ ಸುಮಾರು 70 ರಿಂದ 80 ಲೀಟರ್ ನೀರು ಬೇಕು.", "एक सेहतमंद वयस्क पशु को आमतौर पर रोज़ लगभग 70 से 80 लीटर पानी चाहिए।"),
           answer: true,
-          explain: L("Yes — that is the general daily water requirement for a healthy adult animal, before accounting for extra milk production or summer heat."),
+          explain: L("Yes — that is the general daily water requirement for a healthy adult animal, before accounting for extra milk production or summer heat.", "అవును — ఇది అదనపు పాల ఉత్పత్తి లేదా వేసవి వేడిని లెక్కలోకి తీసుకోకముందు, ఆరోగ్యకరమైన పెద్ద పశువుకు సాధారణ రోజువారీ నీటి అవసరం.", "ஆம் — இது கூடுதல் பால் உற்பத்தி அல்லது கோடை வெப்பத்தைக் கணக்கில் எடுக்கும் முன், ஆரோக்கியமான வளர்ந்த விலங்குக்கான பொதுவான தினசரி தண்ணீர் தேவை.", "ಹೌದು — ಇದು ಹೆಚ್ಚುವರಿ ಹಾಲಿನ ಉತ್ಪಾದನೆ ಅಥವಾ ಬೇಸಿಗೆಯ ಶಾಖವನ್ನು ಲೆಕ್ಕಕ್ಕೆ ತೆಗೆದುಕೊಳ್ಳುವ ಮೊದಲು, ಆರೋಗ್ಯವಂತ ದೊಡ್ಡ ಪ್ರಾಣಿಗೆ ಬೇಕಾದ ಸಾಮಾನ್ಯ ದಿನನಿತ್ಯದ ನೀರಿನ ಅಗತ್ಯ.", "हाँ — अतिरिक्त दूध उत्पादन या गर्मी को जोड़ने से पहले, एक सेहतमंद वयस्क पशु की रोज़ की पानी की आम ज़रूरत यही है।"),
         },
         {
           topicId: "t-m14-good-practice",
           type: "mcq",
-          q: L("What is a Total Mixed Ration (TMR)?"),
+          q: L("What is a Total Mixed Ration (TMR)?", "టోటల్ మిక్స్డ్ రేషన్ (TMR) అంటే ఏమిటి?", "மொத்த கலவை ரேஷன் (TMR) என்றால் என்ன?", "ಟೋಟಲ್ ಮಿಕ್ಸ್ಡ್ ರೇಷನ್ (TMR) ಎಂದರೇನು?", "टोटल मिक्स्ड राशन (TMR) क्या है?"),
           options: [
-            L("Only the concentrate portion of the diet"),
-            L("All the feed ingredients mixed together into one uniform ration"),
-            L("A medicine mixed into water"),
-            L("A ration fed only to sick animals"),
+            L("Only the concentrate portion of the diet", "ఆహారంలోని దాణా భాగం మాత్రమే", "உணவில் அடர் தீவனப் பகுதி மட்டும்", "ಆಹಾರದ ಹಿಂಡಿ-ಕಾಳು ಆಹಾರ ಭಾಗ ಮಾತ್ರ", "आहार का सिर्फ़ दाने वाला हिस्सा"),
+            L("All the feed ingredients mixed together into one uniform ration", "అన్ని మేత పదార్థాలను కలిపి ఒకే ఏకరీతి రేషన్‌గా చేయడం", "எல்லா தீவனப் பொருட்களையும் ஒன்றாகக் கலந்து ஒரே சீரான ரேஷனாகச் செய்வது", "ಎಲ್ಲ ಆಹಾರ ಪದಾರ್ಥಗಳನ್ನು ಬೆರೆಸಿ ಒಂದೇ ಸಮನಾದ ರೇಷನ್ ಮಾಡುವುದು", "सारी आहार सामग्री को मिलाकर एक समान राशन बनाना"),
+            L("A medicine mixed into water", "నీళ్లలో కలిపే మందు", "தண்ணீரில் கலக்கும் மருந்து", "ನೀರಿನಲ್ಲಿ ಬೆರೆಸುವ ಔಷಧ", "पानी में मिलाई जाने वाली दवा"),
+            L("A ration fed only to sick animals", "జబ్బుపడిన పశువులకు మాత్రమే ఇచ్చే రేషన్", "நோய்வாய்ப்பட்ட விலங்குகளுக்கு மட்டுமே கொடுக்கும் ரேஷன்", "ಅನಾರೋಗ್ಯದ ಪ್ರಾಣಿಗಳಿಗೆ ಮಾತ್ರ ಕೊಡುವ ರೇಷನ್", "सिर्फ़ बीमार पशुओं को दिया जाने वाला राशन"),
           ],
           answer: 1,
-          explain: L("TMR (sometimes called 'Sani') mixes fodder, concentrate, minerals and other additives together into one uniform ration."),
+          explain: L("TMR (sometimes called 'Sani') mixes fodder, concentrate, minerals and other additives together into one uniform ration.", "TMR (కొన్నిసార్లు 'సానీ' అని కూడా అంటారు) మేత, దాణా, ఖనిజాలు, ఇతర సంకలనాలను కలిపి ఒకే ఏకరీతి రేషన్‌గా చేస్తుంది.", "TMR (சில நேரங்களில் 'சானி' என்றும் அழைக்கப்படுகிறது) தீவனம், அடர் தீவனம், தாதுக்கள், மற்ற சேர்க்கைப் பொருட்களை ஒன்றாகக் கலந்து ஒரே சீரான ரேஷனாக ஆக்குகிறது.", "TMR (ಕೆಲವೊಮ್ಮೆ 'ಸಾನಿ' ಎಂದೂ ಕರೆಯುತ್ತಾರೆ) ಮೇವು, ಹಿಂಡಿ-ಕಾಳು ಆಹಾರ, ಖನಿಜಗಳು ಮತ್ತು ಇತರ ಸೇರ್ಪಡೆಗಳನ್ನು ಬೆರೆಸಿ ಒಂದೇ ಸಮನಾದ ರೇಷನ್ ಮಾಡುತ್ತದೆ.", "TMR (जिसे कभी-कभी 'सानी' भी कहते हैं) चारा, दाना, खनिज और दूसरे मिलावटी पदार्थों को मिलाकर एक समान राशन बनाता है।"),
         },
         {
           topicId: "t-m14-good-practice",
           type: "truefalse",
-          q: L("If an animal that usually eats well suddenly goes off its feed, you should decide on your own what change to make to its diet."),
+          q: L("If an animal that usually eats well suddenly goes off its feed, you should decide on your own what change to make to its diet.", "సాధారణంగా బాగా తినే పశువు అకస్మాత్తుగా మేత తినడం మానేస్తే, దాని ఆహారంలో ఏ మార్పు చేయాలో మీరే నిర్ణయించాలి.", "வழக்கமாக நன்றாகச் சாப்பிடும் விலங்கு திடீரென தீவனம் சாப்பிடுவதை நிறுத்தினால், அதன் உணவில் என்ன மாற்றம் செய்வது என்பதை நீங்களே முடிவு செய்ய வேண்டும்.", "ಸಾಮಾನ್ಯವಾಗಿ ಚೆನ್ನಾಗಿ ತಿನ್ನುವ ಪ್ರಾಣಿ ಥಟ್ಟನೆ ಮೇವು ತಿನ್ನುವುದನ್ನು ನಿಲ್ಲಿಸಿದರೆ, ಅದರ ಆಹಾರದಲ್ಲಿ ಯಾವ ಬದಲಾವಣೆ ಮಾಡಬೇಕೆಂದು ನೀವೇ ನಿರ್ಧರಿಸಬೇಕು.", "जो पशु आमतौर पर अच्छा खाता है, अगर वह अचानक खाना छोड़ दे, तो उसके आहार में क्या बदलाव करना है यह आपको खुद तय करना चाहिए।"),
           answer: false,
-          explain: L("No — going off feed is a warning sign. Report it to the owner or veterinarian the same day rather than deciding on treatment or diet changes yourself."),
+          explain: L("No — going off feed is a warning sign. Report it to the owner or veterinarian the same day rather than deciding on treatment or diet changes yourself.", "కాదు — తినడం మానేయడం ఒక హెచ్చరిక సంకేతం. చికిత్స లేదా ఆహార మార్పులను మీరే నిర్ణయించకుండా, అదే రోజు యజమానికి లేదా పశువైద్యుడికి తెలియజేయండి.", "இல்லை — சாப்பிடுவதை நிறுத்துவது ஒரு எச்சரிக்கை அறிகுறி. சிகிச்சை அல்லது உணவு மாற்றங்களை நீங்களே முடிவு செய்யாமல், அதே நாளில் உரிமையாளருக்கோ கால்நடை மருத்துவருக்கோ தெரிவியுங்கள்.", "ಇಲ್ಲ — ತಿನ್ನುವುದನ್ನು ನಿಲ್ಲಿಸುವುದು ಎಚ್ಚರಿಕೆಯ ಸಂಕೇತ. ಚಿಕಿತ್ಸೆ ಅಥವಾ ಆಹಾರ ಬದಲಾವಣೆಗಳನ್ನು ನೀವೇ ನಿರ್ಧರಿಸುವ ಬದಲು, ಅದೇ ದಿನ ಮಾಲೀಕರಿಗೆ ಅಥವಾ ಪಶುವೈದ್ಯರಿಗೆ ತಿಳಿಸಿ.", "नहीं — खाना छोड़ देना चेतावनी का संकेत है। इलाज या आहार में बदलाव खुद तय करने की बजाय, उसी दिन मालिक या पशु चिकित्सक को बताएँ।"),
         },
         {
           topicId: "t-m14-water-ummb",
           type: "mcq",
-          q: L("During summer, what extra water care should crossbred cows and buffaloes get?"),
+          q: L("During summer, what extra water care should crossbred cows and buffaloes get?", "వేసవిలో సంకరజాతి ఆవులు, గేదెలకు ఎలాంటి అదనపు నీటి సంరక్షణ ఇవ్వాలి?", "கோடையில் கலப்பினப் பசுக்களுக்கும் எருமைகளுக்கும் என்ன கூடுதல் தண்ணீர் பராமரிப்பு தர வேண்டும்?", "ಬೇಸಿಗೆಯಲ್ಲಿ ಮಿಶ್ರತಳಿ ಹಸುಗಳು ಮತ್ತು ಎಮ್ಮೆಗಳಿಗೆ ಯಾವ ಹೆಚ್ಚುವರಿ ನೀರಿನ ಆರೈಕೆ ನೀಡಬೇಕು?", "गर्मियों में संकर नस्ल की गायों और भैंसों को पानी की कौन-सी अतिरिक्त देखभाल मिलनी चाहिए?"),
           options: [
-            L("No change from the rest of the year"),
-            L("A bath twice daily and at least 100 litres of water a day"),
-            L("Only cold water, never at room temperature"),
-            L("Water only once a day, in the morning"),
+            L("No change from the rest of the year", "ఏడాదిలోని మిగతా కాలంతో పోలిస్తే ఏ మార్పు లేదు", "ஆண்டின் மற்ற காலங்களுடன் ஒப்பிடும்போது எந்த மாற்றமும் இல்லை", "ವರ್ಷದ ಉಳಿದ ಕಾಲಕ್ಕೆ ಹೋಲಿಸಿದರೆ ಯಾವುದೇ ಬದಲಾವಣೆ ಇಲ್ಲ", "साल के बाकी दिनों से कोई फ़र्क़ नहीं"),
+            L("A bath twice daily and at least 100 litres of water a day", "రోజుకు రెండుసార్లు స్నానం, రోజుకు కనీసం 100 లీటర్ల నీళ్లు", "தினமும் இரண்டு முறை குளியல், ஒரு நாளைக்கு குறைந்தது 100 லிட்டர் தண்ணீர்", "ದಿನಕ್ಕೆ ಎರಡು ಬಾರಿ ಸ್ನಾನ ಮತ್ತು ದಿನಕ್ಕೆ ಕನಿಷ್ಠ 100 ಲೀಟರ್ ನೀರು", "रोज़ दो बार नहलाना और रोज़ कम से कम 100 लीटर पानी"),
+            L("Only cold water, never at room temperature", "చల్లని నీళ్లు మాత్రమే, గది ఉష్ణోగ్రత నీళ్లు ఎప్పుడూ కాదు", "குளிர்ந்த தண்ணீர் மட்டுமே, அறை வெப்பநிலை தண்ணீர் ஒருபோதும் இல்லை", "ತಣ್ಣೀರು ಮಾತ್ರ, ಕೋಣೆಯ ಉಷ್ಣತೆಯ ನೀರು ಎಂದೂ ಅಲ್ಲ", "सिर्फ़ ठंडा पानी, कभी सामान्य तापमान का पानी नहीं"),
+            L("Water only once a day, in the morning", "రోజుకు ఒక్కసారే నీళ్లు, ఉదయం మాత్రమే", "ஒரு நாளைக்கு ஒரே ஒரு முறை மட்டுமே தண்ணீர், காலையில் மட்டும்", "ದಿನಕ್ಕೆ ಒಂದೇ ಬಾರಿ ನೀರು, ಬೆಳಿಗ್ಗೆ ಮಾತ್ರ", "दिन में सिर्फ़ एक बार पानी, वह भी सुबह"),
           ],
           answer: 1,
-          explain: L("In summer, crossbred cows and buffaloes should get a bath twice daily and at least 100 litres of water a day, to help manage heat."),
+          explain: L("In summer, crossbred cows and buffaloes should get a bath twice daily and at least 100 litres of water a day, to help manage heat.", "వేసవిలో సంకరజాతి ఆవులు, గేదెలకు వేడిని తట్టుకోవడానికి రోజుకు రెండుసార్లు స్నానం, రోజుకు కనీసం 100 లీటర్ల నీళ్లు ఇవ్వాలి.", "கோடையில் கலப்பினப் பசுக்களையும் எருமைகளையும் வெப்பத்தைத் தாங்க உதவ, தினமும் இரண்டு முறை குளிப்பாட்டி, ஒரு நாளைக்கு குறைந்தது 100 லிட்டர் தண்ணீர் கொடுக்க வேண்டும்.", "ಬೇಸಿಗೆಯಲ್ಲಿ ಮಿಶ್ರತಳಿ ಹಸುಗಳು ಮತ್ತು ಎಮ್ಮೆಗಳಿಗೆ ಶಾಖ ತಡೆಯಲು ಸಹಾಯ ಮಾಡಲು ದಿನಕ್ಕೆ ಎರಡು ಬಾರಿ ಸ್ನಾನ ಮಾಡಿಸಿ, ದಿನಕ್ಕೆ ಕನಿಷ್ಠ 100 ಲೀಟರ್ ನೀರು ಕೊಡಬೇಕು.", "गर्मियों में संकर नस्ल की गायों और भैंसों को गर्मी सहने में मदद के लिए रोज़ दो बार नहलाना चाहिए और रोज़ कम से कम 100 लीटर पानी देना चाहिए।"),
         },
       ],
     },
