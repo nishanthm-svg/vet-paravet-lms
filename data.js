@@ -5970,47 +5970,71 @@ export const MODULES = [
     topics: [
       {
         id: "t-m5-fungal-bacterial-skin",
-        title: L("Dermatophytosis and Dermatophilosis"),
+        title: L("Dermatophytosis and Dermatophilosis", "డెర్మటోఫైటోసిస్ మరియు డెర్మటోఫిలోసిస్", "டெர்மடோஃபைட்டோசிஸ் மற்றும் டெர்மடோஃபிலோசிஸ்", "ಡರ್ಮಟೋಫೈಟೋಸಿಸ್ ಮತ್ತು ಡರ್ಮಟೋಫಿಲೋಸಿಸ್", "डर्मेटोफाइटोसिस और डर्मेटोफिलोसिस"),
         teach: [
           {
             type: "text",
-            heading: L("Two Different Germs, Similar Skin Problems"),
+            heading: L("Two Different Germs, Similar Skin Problems", "రెండు వేర్వేరు క్రిములు, ఒకేలాంటి చర్మ సమస్యలు", "இரண்டு வெவ்வேறு கிருமிகள், ஒரே மாதிரியான தோல் பிரச்சினைகள்", "ಎರಡು ವಿಭಿನ್ನ ಸೂಕ್ಷ್ಮಾಣುಗಳು, ಒಂದೇ ರೀತಿಯ ಚರ್ಮ ಸಮಸ್ಯೆಗಳು", "दो अलग कीटाणु, एक जैसी त्वचा की समस्याएँ"),
             html: L(
-              "Dermatophytosis is a fungal disease of keratin tissue (skin and hair), caused by a group of fungi called dermatophytes. Dermatophilosis is a different disease, caused by a type of bacteria called Dermatophilus congolensis. Both spread mainly through direct contact, and both may be transmitted to humans, so care in handling affected animals matters."
+              "Dermatophytosis is a fungal disease of keratin tissue (skin and hair), caused by a group of fungi called dermatophytes. Dermatophilosis is a different disease, caused by a type of bacteria called Dermatophilus congolensis. Both spread mainly through direct contact, and both may be transmitted to humans, so care in handling affected animals matters.",
+              "డెర్మటోఫైటోసిస్ అనేది కెరాటిన్ కణజాలానికి (చర్మం మరియు వెంట్రుకలు) వచ్చే శిలీంధ్ర వ్యాధి, ఇది డెర్మటోఫైట్స్ అనే శిలీంధ్రాల సమూహం వల్ల కలుగుతుంది. డెర్మటోఫిలోసిస్ వేరే వ్యాధి, ఇది డెర్మటోఫిలస్ కాంగోలెన్సిస్ అనే రకమైన బ్యాక్టీరియా వల్ల కలుగుతుంది. రెండూ ప్రధానంగా నేరుగా తాకడం ద్వారా వ్యాపిస్తాయి, రెండూ మనుషులకు కూడా సోకవచ్చు, కాబట్టి వ్యాధి సోకిన జంతువులను నిర్వహించేటప్పుడు జాగ్రత్త ముఖ్యం.",
+              "டெர்மடோஃபைட்டோசிஸ் என்பது கெராட்டின் திசுவை (தோல் மற்றும் முடி) பாதிக்கும் பூஞ்சை நோய், இது டெர்மடோஃபைட்ஸ் எனப்படும் பூஞ்சைக் குழுவால் ஏற்படுகிறது. டெர்மடோஃபிலோசிஸ் வேறு ஒரு நோய், இது டெர்மடோஃபிலஸ் காங்கோலென்சிஸ் என்ற வகை பாக்டீரியாவால் ஏற்படுகிறது. இரண்டும் முக்கியமாக நேரடித் தொடர்பு மூலம் பரவுகின்றன, இரண்டும் மனிதர்களுக்கும் பரவக்கூடும், எனவே பாதிக்கப்பட்ட விலங்குகளைக் கையாளும்போது கவனம் தேவை.",
+              "ಡರ್ಮಟೋಫೈಟೋಸಿಸ್ ಎಂದರೆ ಕೆರಾಟಿನ್ ಅಂಗಾಂಶಕ್ಕೆ (ಚರ್ಮ ಮತ್ತು ಕೂದಲು) ಬರುವ ಶಿಲೀಂಧ್ರ ರೋಗ, ಇದು ಡರ್ಮಟೋಫೈಟ್ಸ್ ಎಂಬ ಶಿಲೀಂಧ್ರಗಳ ಗುಂಪಿನಿಂದ ಉಂಟಾಗುತ್ತದೆ. ಡರ್ಮಟೋಫಿಲೋಸಿಸ್ ಬೇರೆಯೇ ಒಂದು ರೋಗ, ಇದು ಡರ್ಮಟೋಫಿಲಸ್ ಕಾಂಗೋಲೆನ್ಸಿಸ್ ಎಂಬ ಬ್ಯಾಕ್ಟೀರಿಯಾದಿಂದ ಉಂಟಾಗುತ್ತದೆ. ಎರಡೂ ಮುಖ್ಯವಾಗಿ ನೇರ ಸಂಪರ್ಕದಿಂದ ಹರಡುತ್ತವೆ, ಮತ್ತು ಎರಡೂ ಮನುಷ್ಯರಿಗೂ ಹರಡಬಹುದು, ಆದ್ದರಿಂದ ಬಾಧಿತ ಪ್ರಾಣಿಗಳನ್ನು ನಿರ್ವಹಿಸುವಾಗ ಎಚ್ಚರಿಕೆ ಮುಖ್ಯ.",
+              "डर्मेटोफाइटोसिस केराटिन ऊतक (त्वचा और बाल) की एक फफूंदजनित बीमारी है, जो डर्मेटोफाइट्स नामक कवकों के समूह से होती है। डर्मेटोफिलोसिस एक अलग बीमारी है, जो डर्मेटोफिलस कांगोलेंसिस नामक बैक्टीरिया से होती है। दोनों मुख्य रूप से सीधे संपर्क से फैलती हैं, और दोनों इंसानों में भी फैल सकती हैं, इसलिए बीमार जानवरों को संभालते समय सावधानी ज़रूरी है।"
             ),
           },
           {
             type: "glossary",
-            term: L("Fungal Disease vs Bacterial Disease"),
+            term: L("Fungal Disease vs Bacterial Disease", "శిలీంధ్ర వ్యాధి మరియు బ్యాక్టీరియా వ్యాధి మధ్య తేడా", "பூஞ்சை நோய் மற்றும் பாக்டீரியா நோய்", "ಶಿಲೀಂಧ್ರ ರೋಗ ಮತ್ತು ಬ್ಯಾಕ್ಟೀರಿಯಾ ರೋಗ", "फफूंदजनित बीमारी और बैक्टीरिया से होने वाली बीमारी"),
             meaning: L(
-              "A fungal disease is caused by a fungus (a growth, like the mold behind mycotoxicosis, but here growing directly on the skin and hair). A bacterial disease is caused by bacteria, a different and even smaller kind of germ. Dermatophytosis is fungal; dermatophilosis is bacterial — but both mainly affect the skin."
+              "A fungal disease is caused by a fungus (a growth, like the mold behind mycotoxicosis, but here growing directly on the skin and hair). A bacterial disease is caused by bacteria, a different and even smaller kind of germ. Dermatophytosis is fungal; dermatophilosis is bacterial — but both mainly affect the skin.",
+              "శిలీంధ్ర వ్యాధి ఒక శిలీంధ్రం (బూజు లాగా పెరిగేది, మైకోటాక్సికోసిస్ వెనుక ఉన్న బూజు లాంటిదే, కానీ ఇక్కడ నేరుగా చర్మం మరియు వెంట్రుకలపై పెరుగుతుంది) వల్ల కలుగుతుంది. బ్యాక్టీరియా వ్యాధి బ్యాక్టీరియా వల్ల కలుగుతుంది, ఇది ఇంకా చిన్నదైన వేరే రకం క్రిమి. డెర్మటోఫైటోసిస్ శిలీంధ్ర వ్యాధి; డెర్మటోఫిలోసిస్ బ్యాక్టీరియా వ్యాధి — కానీ రెండూ ప్రధానంగా చర్మాన్ని ప్రభావితం చేస్తాయి.",
+              "பூஞ்சை நோய் என்பது ஒரு பூஞ்சையால் (மைக்கோடாக்சிகோசிஸுக்குக் காரணமான பூஞ்சணம் போன்ற ஒரு வளர்ச்சி, ஆனால் இங்கே நேரடியாக தோலிலும் முடியிலும் வளர்கிறது) ஏற்படுகிறது. பாக்டீரியா நோய் பாக்டீரியாவால் ஏற்படுகிறது, இது இன்னும் சிறிய வேறு வகை கிருமி. டெர்மடோஃபைட்டோசிஸ் பூஞ்சை நோய்; டெர்மடோஃபிலோசிஸ் பாக்டீரியா நோய் — ஆனால் இரண்டும் முக்கியமாக தோலை பாதிக்கின்றன.",
+              "ಶಿಲೀಂಧ್ರ ರೋಗ ಎಂದರೆ ಒಂದು ಶಿಲೀಂಧ್ರದಿಂದ (ಮೈಕೋಟಾಕ್ಸಿಕೋಸಿಸ್ ಹಿಂದಿನ ಬೂಷ್ಟಿನಂತೆ ಬೆಳೆಯುವುದು, ಆದರೆ ಇಲ್ಲಿ ನೇರವಾಗಿ ಚರ್ಮ ಮತ್ತು ಕೂದಲಿನ ಮೇಲೆ ಬೆಳೆಯುತ್ತದೆ) ಉಂಟಾಗುವ ರೋಗ. ಬ್ಯಾಕ್ಟೀರಿಯಾ ರೋಗ ಬ್ಯಾಕ್ಟೀರಿಯಾದಿಂದ ಉಂಟಾಗುತ್ತದೆ, ಇದು ಇನ್ನೂ ಚಿಕ್ಕದಾದ ಬೇರೆ ರೀತಿಯ ಸೂಕ್ಷ್ಮಾಣು. ಡರ್ಮಟೋಫೈಟೋಸಿಸ್ ಶಿಲೀಂಧ್ರ ರೋಗ; ಡರ್ಮಟೋಫಿಲೋಸಿಸ್ ಬ್ಯಾಕ್ಟೀರಿಯಾ ರೋಗ — ಆದರೆ ಎರಡೂ ಮುಖ್ಯವಾಗಿ ಚರ್ಮವನ್ನು ಬಾಧಿಸುತ್ತವೆ.",
+              "फफूंदजनित बीमारी किसी कवक (फफूंद की तरह की वृद्धि, जैसे माइकोटॉक्सिकोसिस के पीछे की फफूंद, लेकिन यहाँ सीधे त्वचा और बालों पर उगती है) से होती है। बैक्टीरिया से होने वाली बीमारी बैक्टीरिया से होती है, जो और भी छोटी अलग तरह का कीटाणु है। डर्मेटोफाइटोसिस फफूंदजनित है; डर्मेटोफिलोसिस बैक्टीरिया से होती है — लेकिन दोनों मुख्य रूप से त्वचा को प्रभावित करती हैं।"
             ),
           },
           {
             type: "stat-grid",
             items: [
               {
-                label: L("Dermatophytosis — Appearance"),
+                label: L("Dermatophytosis — Appearance", "డెర్మటోఫైటోసిస్ — కనిపించే తీరు", "டெர்மடோஃபைட்டோசிஸ் — தோற்றம்", "ಡರ್ಮಟೋಫೈಟೋಸಿಸ್ — ಕಾಣುವ ರೀತಿ", "डर्मेटोफाइटोसिस — दिखने का तरीका"),
                 text: L(
-                  "Circular, slightly raised, grey-white patches on the skin called crusts. The size of these patches varies a lot and can become quite extensive."
+                  "Circular, slightly raised, grey-white patches on the skin called crusts. The size of these patches varies a lot and can become quite extensive.",
+                  "చర్మంపై గుండ్రని, కొద్దిగా ఎత్తుగా ఉన్న, బూడిద-తెలుపు మచ్చలు, వీటిని పొరలు (క్రస్ట్) అంటారు. ఈ మచ్చల పరిమాణం చాలా మారుతుంది మరియు బాగా విస్తరించవచ్చు.",
+                  "தோலில் வட்டமான, சற்று உயர்ந்த, சாம்பல்-வெள்ளை நிறத் திட்டுகள், இவை படலங்கள் (க்ரஸ்ட்) எனப்படும். இந்தத் திட்டுகளின் அளவு பெரிதும் மாறுபடும், மிகவும் பரவவும் கூடும்.",
+                  "ಚರ್ಮದ ಮೇಲೆ ಗುಂಡಗಿನ, ಸ್ವಲ್ಪ ಎತ್ತರವಾದ, ಬೂದು-ಬಿಳಿ ಕಲೆಗಳು, ಇವನ್ನು ಪದರಗಳು (ಕ್ರಸ್ಟ್) ಎನ್ನುತ್ತಾರೆ. ಈ ಕಲೆಗಳ ಗಾತ್ರ ತುಂಬಾ ಬದಲಾಗುತ್ತದೆ ಮತ್ತು ಚೆನ್ನಾಗಿ ಹರಡಬಹುದು.",
+                  "त्वचा पर गोल, थोड़े उभरे हुए, स्लेटी-सफ़ेद धब्बे जिन्हें पपड़ी (क्रस्ट) कहते हैं। इन धब्बों का आकार बहुत अलग-अलग हो सकता है और ये काफ़ी फैल भी सकते हैं।"
                 ),
               },
               {
-                label: L("Dermatophytosis — Impact"),
+                label: L("Dermatophytosis — Impact", "డెర్మటోఫైటోసిస్ — ప్రభావం", "டெர்மடோஃபைட்டோசிஸ் — பாதிப்பு", "ಡರ್ಮಟೋಫೈಟೋಸಿಸ್ — ಪರಿಣಾಮ", "डर्मेटोफाइटोसिस — असर"),
                 text: L(
-                  "Lesions are unsightly but economic losses are minimal. They may cause discomfort or lead to a secondary bacterial infection."
+                  "Lesions are unsightly but economic losses are minimal. They may cause discomfort or lead to a secondary bacterial infection.",
+                  "గాయాలు చూడటానికి అసహ్యంగా ఉంటాయి కానీ ఆర్థిక నష్టం చాలా తక్కువ. అవి అసౌకర్యం కలిగించవచ్చు లేదా రెండో బ్యాక్టీరియా ఇన్ఫెక్షన్‌కు దారితీయవచ్చు.",
+                  "புண்கள் பார்க்க அருவருப்பாக இருக்கும், ஆனால் பொருளாதார இழப்பு மிகக் குறைவு. அவை அசௌகரியத்தை ஏற்படுத்தலாம் அல்லது இரண்டாம் நிலை பாக்டீரியா தொற்றுக்கு வழிவகுக்கலாம்.",
+                  "ಗಾಯಗಳು ನೋಡಲು ಅಸಹ್ಯವಾಗಿರುತ್ತವೆ ಆದರೆ ಆರ್ಥಿಕ ನಷ್ಟ ಬಹಳ ಕಡಿಮೆ. ಅವು ಅನಾನುಕೂಲ ಉಂಟುಮಾಡಬಹುದು ಅಥವಾ ಎರಡನೇ ಹಂತದ ಬ್ಯಾಕ್ಟೀರಿಯಾ ಸೋಂಕಿಗೆ ಕಾರಣವಾಗಬಹುದು.",
+                  "घाव देखने में भद्दे लगते हैं लेकिन आर्थिक नुकसान बहुत कम होता है। इनसे बेचैनी हो सकती है या दूसरा बैक्टीरियल संक्रमण हो सकता है।"
                 ),
               },
               {
-                label: L("Dermatophilosis — Stages"),
+                label: L("Dermatophilosis — Stages", "డెర్మటోఫిలోసిస్ — దశలు", "டெர்மடோஃபிலோசிஸ் — நிலைகள்", "ಡರ್ಮಟೋಫಿಲೋಸಿಸ್ — ಹಂತಗಳು", "डर्मेटोफिलोसिस — चरण"),
                 text: L(
-                  "Signs appear in stages: hairs matted together like a paint-brush, then crust or scab formation as patches join up, and finally wart-like lesions."
+                  "Signs appear in stages: hairs matted together like a paint-brush, then crust or scab formation as patches join up, and finally wart-like lesions.",
+                  "లక్షణాలు దశలవారీగా కనిపిస్తాయి: మొదట వెంట్రుకలు పెయింట్ బ్రష్ లాగా కలిసి అంటుకుంటాయి, తర్వాత మచ్చలు కలిసిపోతూ పొర లేదా పుండు పొట్టు ఏర్పడుతుంది, చివరికి పులిపిరి లాంటి గాయాలు వస్తాయి.",
+                  "அறிகுறிகள் நிலைகளாகத் தோன்றும்: முதலில் முடிகள் பெயிண்ட் பிரஷ் போல ஒன்றாகக் ஒட்டிக்கொள்ளும், பிறகு திட்டுகள் இணையும்போது படலம் அல்லது சொறி உருவாகும், இறுதியில் மருக்கள் போன்ற புண்கள் தோன்றும்.",
+                  "ಲಕ್ಷಣಗಳು ಹಂತ ಹಂತವಾಗಿ ಕಾಣಿಸಿಕೊಳ್ಳುತ್ತವೆ: ಮೊದಲು ಕೂದಲುಗಳು ಪೇಂಟ್ ಬ್ರಷ್‌ನಂತೆ ಒಟ್ಟಿಗೆ ಅಂಟಿಕೊಳ್ಳುತ್ತವೆ, ನಂತರ ಕಲೆಗಳು ಸೇರಿಕೊಂಡು ಪದರ ಅಥವಾ ಗಾಯದ ಹುಪ್ಪಟೆ ಆಗುತ್ತದೆ, ಕೊನೆಗೆ ನರಡಿಯಂತಹ ಗಾಯಗಳು ಬರುತ್ತವೆ.",
+                  "लक्षण चरणों में दिखते हैं: पहले बाल पेंट-ब्रश की तरह आपस में चिपक जाते हैं, फिर धब्बे जुड़ने पर पपड़ी या खुरंड बन जाता है, और आखिर में मस्से जैसे घाव हो जाते हैं।"
                 ),
               },
               {
-                label: L("Dermatophilosis — Risk"),
+                label: L("Dermatophilosis — Risk", "డెర్మటోఫిలోసిస్ — ప్రమాదం", "டெர்மடோஃபிலோசிஸ் — ஆபத்து", "ಡರ್ಮಟೋಫಿಲೋಸಿಸ್ — ಅಪಾಯ", "डर्मेटोफिलोसिस — जोखिम"),
                 text: L(
-                  "Spreads through direct contact or biting insects. Prolonged wetting by rain, high humidity and heat, and biting parasites make it more likely. Deaths can occur, especially in calves, with extensive lesions."
+                  "Spreads through direct contact or biting insects. Prolonged wetting by rain, high humidity and heat, and biting parasites make it more likely. Deaths can occur, especially in calves, with extensive lesions.",
+                  "నేరుగా తాకడం లేదా కుట్టే కీటకాల ద్వారా వ్యాపిస్తుంది. వానకు ఎక్కువసేపు తడవడం, ఎక్కువ తేమ మరియు వేడి, కుట్టే పరాన్నజీవులు దీని అవకాశాన్ని పెంచుతాయి. గాయాలు ఎక్కువగా ఉంటే, ముఖ్యంగా దూడల్లో, మరణాలు సంభవించవచ్చు.",
+                  "நேரடித் தொடர்பு அல்லது கடிக்கும் பூச்சிகள் மூலம் பரவுகிறது. மழையில் நீண்ட நேரம் நனைதல், அதிக ஈரப்பதம் மற்றும் வெப்பம், கடிக்கும் ஒட்டுண்ணிகள் இதற்கான வாய்ப்பை அதிகரிக்கும். புண்கள் அதிகமாக இருந்தால், குறிப்பாக கன்றுகளில், இறப்பு ஏற்படலாம்.",
+                  "ನೇರ ಸಂಪರ್ಕ ಅಥವಾ ಕಚ್ಚುವ ಕೀಟಗಳ ಮೂಲಕ ಹರಡುತ್ತದೆ. ಮಳೆಯಲ್ಲಿ ಹೆಚ್ಚು ಹೊತ್ತು ಒದ್ದೆಯಾಗುವುದು, ಹೆಚ್ಚು ತೇವಾಂಶ ಮತ್ತು ಶಾಖ, ಕಚ್ಚುವ ಪರಾವಲಂಬಿಗಳು ಇದರ ಸಾಧ್ಯತೆಯನ್ನು ಹೆಚ್ಚಿಸುತ್ತವೆ. ಗಾಯಗಳು ಹೆಚ್ಚಿದ್ದರೆ, ವಿಶೇಷವಾಗಿ ಕರುಗಳಲ್ಲಿ, ಸಾವು ಸಂಭವಿಸಬಹುದು.",
+                  "सीधे संपर्क या काटने वाले कीड़ों से फैलती है। बारिश में देर तक भीगना, ज़्यादा नमी और गर्मी, और काटने वाले परजीवी इसकी संभावना बढ़ाते हैं। घाव बहुत ज़्यादा फैल जाएँ तो, खासकर बछड़ों में, मौत भी हो सकती है।"
                 ),
               },
             ],
@@ -6018,107 +6042,143 @@ export const MODULES = [
           {
             type: "callout",
             style: "tip",
-            heading: L("Both Usually Improve With Time and Care"),
+            heading: L("Both Usually Improve With Time and Care", "రెండూ సాధారణంగా కాలంతో పాటు, సరైన సంరక్షణతో మెరుగవుతాయి", "இரண்டும் பொதுவாக காலத்துடனும் கவனிப்புடனும் குணமாகும்", "ಎರಡೂ ಸಾಮಾನ್ಯವಾಗಿ ಸಮಯ ಮತ್ತು ಕಾಳಜಿಯಿಂದ ಗುಣವಾಗುತ್ತವೆ", "दोनों आमतौर पर समय और देखभाल से ठीक हो जाती हैं"),
             text: L(
-              "Dermatophytosis usually recovers without treatment, though this can take many months. Most animals with dermatophilosis recover on their own within about 3 weeks, and dry weather speeds up healing. Cleaning and disinfecting premises, reducing crowding between animals, and more sunlight all help. For dermatophytosis, crusts should be removed by scraping or brushing before any medicine is applied, since medicine cannot penetrate the crust — the removed crusts should then be collected and burned. Always consult a veterinarian for proper treatment."
+              "Dermatophytosis usually recovers without treatment, though this can take many months. Most animals with dermatophilosis recover on their own within about 3 weeks, and dry weather speeds up healing. Cleaning and disinfecting premises, reducing crowding between animals, and more sunlight all help. For dermatophytosis, crusts should be removed by scraping or brushing before any medicine is applied, since medicine cannot penetrate the crust — the removed crusts should then be collected and burned. Always consult a veterinarian for proper treatment.",
+              "డెర్మటోఫైటోసిస్ సాధారణంగా చికిత్స లేకుండానే తగ్గిపోతుంది, అయితే దీనికి చాలా నెలలు పట్టవచ్చు. డెర్మటోఫిలోసిస్ ఉన్న చాలా జంతువులు సుమారు 3 వారాల్లో వాటంతట అవే కోలుకుంటాయి, పొడి వాతావరణం నయం కావడాన్ని వేగవంతం చేస్తుంది. షెడ్డును శుభ్రం చేసి క్రిమిసంహారకం చేయడం, జంతువుల రద్దీని తగ్గించడం, ఎక్కువ సూర్యకాంతి అన్నీ సహాయపడతాయి. డెర్మటోఫైటోసిస్‌కు, మందు పూసే ముందు పొరలను గీకి లేదా బ్రష్‌తో తొలగించాలి, ఎందుకంటే మందు పొరలోకి చొచ్చుకుపోదు — తొలగించిన పొరలను సేకరించి కాల్చివేయాలి. సరైన చికిత్స కోసం ఎల్లప్పుడూ వెటర్నరీ డాక్టర్‌ను సంప్రదించండి.",
+              "டெர்மடோஃபைட்டோசிஸ் பொதுவாக சிகிச்சை இல்லாமலேயே குணமாகும், ஆனால் இதற்கு பல மாதங்கள் ஆகலாம். டெர்மடோஃபிலோசிஸ் உள்ள பெரும்பாலான விலங்குகள் சுமார் 3 வாரங்களில் தானாகவே குணமடையும், வறண்ட வானிலை குணமாவதை விரைவுபடுத்தும். கொட்டகையை சுத்தம் செய்து கிருமிநாசினி தெளிப்பது, விலங்குகளின் நெருக்கத்தைக் குறைப்பது, அதிக சூரிய ஒளி ஆகியவை உதவும். டெர்மடோஃபைட்டோசிஸுக்கு, மருந்து தடவும் முன் படலங்களை சுரண்டி அல்லது பிரஷ் செய்து அகற்ற வேண்டும், ஏனெனில் மருந்து படலத்துக்குள் ஊடுருவாது — அகற்றிய படலங்களை சேகரித்து எரித்துவிட வேண்டும். சரியான சிகிச்சைக்கு எப்போதும் வெட்டரினரி டாக்டரை அணுகுங்கள்.",
+              "ಡರ್ಮಟೋಫೈಟೋಸಿಸ್ ಸಾಮಾನ್ಯವಾಗಿ ಚಿಕಿತ್ಸೆ ಇಲ್ಲದೆಯೇ ಗುಣವಾಗುತ್ತದೆ, ಆದರೆ ಇದಕ್ಕೆ ಹಲವು ತಿಂಗಳು ಬೇಕಾಗಬಹುದು. ಡರ್ಮಟೋಫಿಲೋಸಿಸ್ ಇರುವ ಹೆಚ್ಚಿನ ಪ್ರಾಣಿಗಳು ಸುಮಾರು 3 ವಾರಗಳಲ್ಲಿ ತಾವಾಗಿಯೇ ಗುಣಮುಖವಾಗುತ್ತವೆ, ಒಣ ಹವಾಮಾನ ಗುಣವಾಗುವುದನ್ನು ಬೇಗ ಮಾಡುತ್ತದೆ. ಕೊಟ್ಟಿಗೆಯನ್ನು ಸ್ವಚ್ಛಗೊಳಿಸಿ ಸೋಂಕುನಿವಾರಕ ಹಾಕುವುದು, ಪ್ರಾಣಿಗಳ ನಡುವಿನ ಜನದಟ್ಟಣೆ ಕಡಿಮೆ ಮಾಡುವುದು, ಹೆಚ್ಚು ಸೂರ್ಯನ ಬೆಳಕು ಎಲ್ಲವೂ ಸಹಾಯ ಮಾಡುತ್ತವೆ. ಡರ್ಮಟೋಫೈಟೋಸಿಸ್‌ಗೆ, ಔಷಧಿ ಹಚ್ಚುವ ಮೊದಲು ಪದರಗಳನ್ನು ಕೆರೆದು ಅಥವಾ ಬ್ರಷ್ ಮಾಡಿ ತೆಗೆಯಬೇಕು, ಏಕೆಂದರೆ ಔಷಧಿ ಪದರದೊಳಗೆ ಹೋಗುವುದಿಲ್ಲ — ತೆಗೆದ ಪದರಗಳನ್ನು ಸಂಗ್ರಹಿಸಿ ಸುಟ್ಟುಹಾಕಬೇಕು. ಸರಿಯಾದ ಚಿಕಿತ್ಸೆಗಾಗಿ ಯಾವಾಗಲೂ ಪಶುವೈದ್ಯರನ್ನು ಸಂಪರ್ಕಿಸಿ.",
+              "डर्मेटोफाइटोसिस आमतौर पर बिना इलाज के ठीक हो जाती है, हालाँकि इसमें कई महीने लग सकते हैं। डर्मेटोफिलोसिस वाले ज़्यादातर जानवर लगभग 3 हफ़्तों में अपने आप ठीक हो जाते हैं, और सूखा मौसम ठीक होने की गति बढ़ाता है। शेड की सफ़ाई और कीटाणुनाशक से धुलाई, जानवरों की भीड़ कम करना, और ज़्यादा धूप — ये सब मदद करते हैं। डर्मेटोफाइटोसिस में, दवा लगाने से पहले पपड़ी को खुरचकर या ब्रश से हटाना चाहिए, क्योंकि दवा पपड़ी के अंदर नहीं जा पाती — हटाई गई पपड़ी को इकट्ठा करके जला देना चाहिए। सही इलाज के लिए हमेशा पशु चिकित्सक से सलाह लें।"
             ),
           },
           {
             type: "callout",
             style: "warning",
-            heading: L("Wash Your Hands"),
+            heading: L("Wash Your Hands", "చేతులు కడుక్కోండి", "உங்கள் கைகளைக் கழுவுங்கள்", "ನಿಮ್ಮ ಕೈಗಳನ್ನು ತೊಳೆದುಕೊಳ್ಳಿ", "अपने हाथ धोएँ"),
             text: L(
-              "Because both diseases can spread to people, always wash your hands with an antibacterial soap after handling an infected animal."
+              "Because both diseases can spread to people, always wash your hands with an antibacterial soap after handling an infected animal.",
+              "ఈ రెండు వ్యాధులూ మనుషులకు వ్యాపించవచ్చు కాబట్టి, వ్యాధి సోకిన జంతువును ముట్టుకున్న తర్వాత ఎల్లప్పుడూ యాంటీబ్యాక్టీరియల్ సబ్బుతో చేతులు కడుక్కోండి.",
+              "இந்த இரண்டு நோய்களும் மனிதர்களுக்குப் பரவக்கூடும் என்பதால், பாதிக்கப்பட்ட விலங்கைக் கையாண்ட பிறகு எப்போதும் கிருமிநாசினி சோப்பால் கைகளைக் கழுவுங்கள்.",
+              "ಈ ಎರಡೂ ರೋಗಗಳು ಮನುಷ್ಯರಿಗೆ ಹರಡಬಹುದು, ಆದ್ದರಿಂದ ಸೋಂಕಿತ ಪ್ರಾಣಿಯನ್ನು ಮುಟ್ಟಿದ ನಂತರ ಯಾವಾಗಲೂ ಆಂಟಿಬ್ಯಾಕ್ಟೀರಿಯಲ್ ಸೋಪಿನಿಂದ ಕೈ ತೊಳೆದುಕೊಳ್ಳಿ.",
+              "क्योंकि ये दोनों बीमारियाँ इंसानों में फैल सकती हैं, संक्रमित जानवर को संभालने के बाद हमेशा एंटीबैक्टीरियल साबुन से हाथ धोएँ।"
             ),
           },
         ],
         check: [
           {
             type: "mcq",
-            q: L("What is Dermatophytosis caused by?"),
+            q: L("What is Dermatophytosis caused by?", "డెర్మటోఫైటోసిస్ దేని వల్ల కలుగుతుంది?", "டெர்மடோஃபைட்டோசிஸ் எதனால் ஏற்படுகிறது?", "ಡರ್ಮಟೋಫೈಟೋಸಿಸ್ ಯಾವುದರಿಂದ ಉಂಟಾಗುತ್ತದೆ?", "डर्मेटोफाइटोसिस किससे होती है?"),
             options: [
-              L("A group of fungi called dermatophytes"),
-              L("A virus spread by ticks"),
-              L("A vitamin deficiency"),
-              L("Moldy feed"),
+              L("A group of fungi called dermatophytes", "డెర్మటోఫైట్స్ అనే శిలీంధ్రాల సమూహం", "டெர்மடோஃபைட்ஸ் எனப்படும் பூஞ்சைக் குழு", "ಡರ್ಮಟೋಫೈಟ್ಸ್ ಎಂಬ ಶಿಲೀಂಧ್ರಗಳ ಗುಂಪು", "डर्मेटोफाइट्स नामक कवकों का समूह"),
+              L("A virus spread by ticks", "పేల ద్వారా వ్యాపించే వైరస్", "உண்ணிகளால் பரவும் வைரஸ்", "ಉಣ್ಣಿಗಳಿಂದ ಹರಡುವ ವೈರಸ್", "किलनी से फैलने वाला वायरस"),
+              L("A vitamin deficiency", "విటమిన్ లోపం", "வைட்டமின் குறைபாடு", "ವಿಟಮಿನ್ ಕೊರತೆ", "विटामिन की कमी"),
+              L("Moldy feed", "బూజు పట్టిన దాణా", "பூஞ்சணம் பிடித்த தீவனம்", "ಬೂಷ್ಟು ಹಿಡಿದ ಮೇವು", "फफूंद लगा चारा"),
             ],
             answer: 0,
-            explain: L("Dermatophytosis is a fungal disease caused by a group of fungi called dermatophytes."),
+            explain: L("Dermatophytosis is a fungal disease caused by a group of fungi called dermatophytes.", "డెర్మటోఫైటోసిస్ అనేది డెర్మటోఫైట్స్ అనే శిలీంధ్రాల సమూహం వల్ల కలిగే శిలీంధ్ర వ్యాధి.", "டெர்மடோஃபைட்டோசிஸ் என்பது டெர்மடோஃபைட்ஸ் எனப்படும் பூஞ்சைக் குழுவால் ஏற்படும் பூஞ்சை நோய்.", "ಡರ್ಮಟೋಫೈಟೋಸಿಸ್ ಎಂದರೆ ಡರ್ಮಟೋಫೈಟ್ಸ್ ಎಂಬ ಶಿಲೀಂಧ್ರಗಳ ಗುಂಪಿನಿಂದ ಉಂಟಾಗುವ ಶಿಲೀಂಧ್ರ ರೋಗ.", "डर्मेटोफाइटोसिस डर्मेटोफाइट्स नामक कवकों के समूह से होने वाली फफूंदजनित बीमारी है।"),
           },
           {
             type: "truefalse",
-            q: L("Both dermatophytosis and dermatophilosis can spread from animals to the people handling them."),
+            q: L("Both dermatophytosis and dermatophilosis can spread from animals to the people handling them.", "డెర్మటోఫైటోసిస్ మరియు డెర్మటోఫిలోసిస్ రెండూ జంతువుల నుండి వాటిని నిర్వహించే మనుషులకు వ్యాపించవచ్చు.", "டெர்மடோஃபைட்டோசிஸ் மற்றும் டெர்மடோஃபிலோசிஸ் இரண்டும் விலங்குகளிடமிருந்து அவற்றைக் கையாளும் மனிதர்களுக்குப் பரவக்கூடும்.", "ಡರ್ಮಟೋಫೈಟೋಸಿಸ್ ಮತ್ತು ಡರ್ಮಟೋಫಿಲೋಸಿಸ್ ಎರಡೂ ಪ್ರಾಣಿಗಳಿಂದ ಅವನ್ನು ನಿರ್ವಹಿಸುವ ಮನುಷ್ಯರಿಗೆ ಹರಡಬಹುದು.", "डर्मेटोफाइटोसिस और डर्मेटोफिलोसिस दोनों जानवरों से उन्हें संभालने वाले लोगों में फैल सकती हैं।"),
             answer: true,
-            explain: L("Correct — both are noted as being transmissible to humans, which is why hand-washing after handling affected animals matters."),
+            explain: L("Correct — both are noted as being transmissible to humans, which is why hand-washing after handling affected animals matters.", "సరైనది — రెండూ మనుషులకు సోకవచ్చని పేర్కొన్నారు, అందుకే వ్యాధి సోకిన జంతువులను ముట్టుకున్న తర్వాత చేతులు కడుక్కోవడం ముఖ్యం.", "சரி — இரண்டும் மனிதர்களுக்குப் பரவக்கூடியவை என்று குறிப்பிடப்பட்டுள்ளது, அதனால்தான் பாதிக்கப்பட்ட விலங்குகளைக் கையாண்ட பிறகு கை கழுவுவது முக்கியம்.", "ಸರಿ — ಎರಡೂ ಮನುಷ್ಯರಿಗೆ ಹರಡಬಹುದು ಎಂದು ಹೇಳಲಾಗಿದೆ, ಅದಕ್ಕಾಗಿಯೇ ಬಾಧಿತ ಪ್ರಾಣಿಗಳನ್ನು ಮುಟ್ಟಿದ ನಂತರ ಕೈ ತೊಳೆಯುವುದು ಮುಖ್ಯ.", "सही — दोनों के इंसानों में फैल सकने की बात कही गई है, इसीलिए बीमार जानवरों को संभालने के बाद हाथ धोना ज़रूरी है।"),
           },
         ],
       },
       {
         id: "t-m5-lumpy-skin-disease",
-        title: L("Lumpy Skin Disease"),
+        title: L("Lumpy Skin Disease", "లంపీ స్కిన్ డిసీజ్", "லம்பி ஸ்கின் நோய்", "ಲಂಪಿ ಸ್ಕಿನ್ ರೋಗ", "लम्पी स्किन डिजीज"),
         teach: [
             {
               type: "photo",
               src: "assets/photo-m5-lumpy-skin-disease.jpg",
-              alt: L("A calf standing calmly with visible raised, hairless skin nodules from Lumpy Skin Disease across its neck and shoulder"),
-              caption: L("The raised skin nodules of Lumpy Skin Disease — the visible sign this lesson teaches you to notice and report."),
+              alt: L("A calf standing calmly with visible raised, hairless skin nodules from Lumpy Skin Disease across its neck and shoulder", "లంపీ స్కిన్ డిసీజ్ వల్ల మెడ మరియు భుజంపై ఎత్తుగా, వెంట్రుకలు లేని చర్మపు గడ్డలతో ప్రశాంతంగా నిలబడి ఉన్న ఒక దూడ", "லம்பி ஸ்கின் நோயால் கழுத்து மற்றும் தோள்பட்டையில் உயர்ந்த, முடியற்ற தோல் கட்டிகளுடன் அமைதியாக நிற்கும் ஒரு கன்று", "ಲಂಪಿ ಸ್ಕಿನ್ ರೋಗದಿಂದ ಕುತ್ತಿಗೆ ಮತ್ತು ಭುಜದ ಮೇಲೆ ಎತ್ತರವಾದ, ಕೂದಲಿಲ್ಲದ ಚರ್ಮದ ಗಂಟುಗಳೊಂದಿಗೆ ಶಾಂತವಾಗಿ ನಿಂತಿರುವ ಒಂದು ಕರು", "लम्पी स्किन डिजीज के कारण गर्दन और कंधे पर उभरी हुई, बिना बालों वाली त्वचा की गांठों के साथ शांत खड़ा एक बछड़ा"),
+              caption: L("The raised skin nodules of Lumpy Skin Disease — the visible sign this lesson teaches you to notice and report.", "లంపీ స్కిన్ డిసీజ్ వల్ల చర్మంపై ఎత్తుగా వచ్చే గడ్డలు — ఈ పాఠం మీకు గమనించి నివేదించడం నేర్పే కనిపించే సంకేతం.", "லம்பி ஸ்கின் நோயால் தோலில் உயர்ந்து தோன்றும் கட்டிகள் — இந்த பாடம் நீங்கள் கவனித்துத் தெரிவிக்கக் கற்றுத்தரும் கண்ணுக்குத் தெரியும் அறிகுறி.", "ಲಂಪಿ ಸ್ಕಿನ್ ರೋಗದಿಂದ ಚರ್ಮದ ಮೇಲೆ ಎತ್ತರವಾಗಿ ಕಾಣುವ ಗಂಟುಗಳು — ಈ ಪಾಠ ನೀವು ಗಮನಿಸಿ ವರದಿ ಮಾಡಲು ಕಲಿಸುವ ಕಾಣುವ ಲಕ್ಷಣ.", "लम्पी स्किन डिजीज से त्वचा पर उभरी हुई गांठें — यह पाठ आपको जिस दिखने वाले लक्षण को पहचानना और रिपोर्ट करना सिखाता है।"),
             },
           {
             type: "text",
-            heading: L("A Viral Disease Spread by Insects and Ticks"),
+            heading: L("A Viral Disease Spread by Insects and Ticks", "కీటకాలు మరియు పేల ద్వారా వ్యాపించే వైరస్ వ్యాధి", "பூச்சிகள் மற்றும் உண்ணிகளால் பரவும் வைரஸ் நோய்", "ಕೀಟಗಳು ಮತ್ತು ಉಣ್ಣಿಗಳಿಂದ ಹರಡುವ ವೈರಸ್ ರೋಗ", "कीड़ों और किलनी से फैलने वाली वायरस की बीमारी"),
             html: L(
-              "Lumpy Skin Disease is a viral disease caused by a pox virus, and is an emerging disease in India — meaning it is a relatively new and growing problem here. It spreads through biting insects and ticks; direct contact between animals does not play a major role in spreading it."
+              "Lumpy Skin Disease is a viral disease caused by a pox virus, and is an emerging disease in India — meaning it is a relatively new and growing problem here. It spreads through biting insects and ticks; direct contact between animals does not play a major role in spreading it.",
+              "లంపీ స్కిన్ డిసీజ్ అనేది పాక్స్ వైరస్ వల్ల కలిగే వైరస్ వ్యాధి, మరియు ఇది భారతదేశంలో కొత్తగా పెరుగుతున్న వ్యాధి — అంటే ఇక్కడ ఇది సాపేక్షంగా కొత్తది మరియు పెరుగుతున్న సమస్య. ఇది కుట్టే కీటకాలు మరియు పేల ద్వారా వ్యాపిస్తుంది; జంతువుల మధ్య నేరుగా తాకడం దీని వ్యాప్తిలో పెద్ద పాత్ర పోషించదు.",
+              "லம்பி ஸ்கின் நோய் ஒரு பாக்ஸ் வைரஸால் ஏற்படும் வைரஸ் நோய், இது இந்தியாவில் புதிதாக உருவாகி வரும் நோய் — அதாவது இங்கே இது ஒப்பீட்டளவில் புதிய, வளர்ந்து வரும் பிரச்சினை. இது கடிக்கும் பூச்சிகள் மற்றும் உண்ணிகள் மூலம் பரவுகிறது; விலங்குகளுக்கு இடையேயான நேரடித் தொடர்பு இதன் பரவலில் பெரிய பங்கு வகிக்காது.",
+              "ಲಂಪಿ ಸ್ಕಿನ್ ರೋಗ ಪಾಕ್ಸ್ ವೈರಸ್‌ನಿಂದ ಉಂಟಾಗುವ ವೈರಸ್ ರೋಗ, ಮತ್ತು ಇದು ಭಾರತದಲ್ಲಿ ಹೊಸದಾಗಿ ಹೆಚ್ಚುತ್ತಿರುವ ರೋಗ — ಅಂದರೆ ಇಲ್ಲಿ ಇದು ಸಾಪೇಕ್ಷವಾಗಿ ಹೊಸ ಮತ್ತು ಬೆಳೆಯುತ್ತಿರುವ ಸಮಸ್ಯೆ. ಇದು ಕಚ್ಚುವ ಕೀಟಗಳು ಮತ್ತು ಉಣ್ಣಿಗಳ ಮೂಲಕ ಹರಡುತ್ತದೆ; ಪ್ರಾಣಿಗಳ ನಡುವಿನ ನೇರ ಸಂಪರ್ಕ ಇದರ ಹರಡುವಿಕೆಯಲ್ಲಿ ದೊಡ್ಡ ಪಾತ್ರ ವಹಿಸುವುದಿಲ್ಲ.",
+              "लम्पी स्किन डिजीज पॉक्स वायरस से होने वाली वायरल बीमारी है, और यह भारत में उभरती हुई बीमारी है — यानी यहाँ यह अपेक्षाकृत नई और बढ़ती हुई समस्या है। यह काटने वाले कीड़ों और किलनी से फैलती है; जानवरों के बीच सीधे संपर्क की इसके फैलने में बड़ी भूमिका नहीं होती।"
             ),
           },
           {
             type: "stat-grid",
             items: [
               {
-                label: L("Fever and Milk"),
-                text: L("Fever, along with a marked (clearly noticeable) reduction in milk production."),
+                label: L("Fever and Milk", "జ్వరం మరియు పాలు", "காய்ச்சலும் பாலும்", "ಜ್ವರ ಮತ್ತು ಹಾಲು", "बुखार और दूध"),
+                text: L("Fever, along with a marked (clearly noticeable) reduction in milk production.", "జ్వరం, దానితో పాటు పాల ఉత్పత్తిలో స్పష్టంగా కనిపించే (బాగా గమనించదగిన) తగ్గుదల.", "காய்ச்சல், அதனுடன் பால் உற்பத்தியில் குறிப்பிடத்தக்க (தெளிவாகத் தெரியும்) குறைவு.", "ಜ್ವರ, ಜೊತೆಗೆ ಹಾಲಿನ ಉತ್ಪಾದನೆಯಲ್ಲಿ ಸ್ಪಷ್ಟವಾಗಿ ಕಾಣುವ (ಗಮನಾರ್ಹ) ಕುಸಿತ.", "बुखार, साथ में दूध उत्पादन में साफ़ दिखने वाली (ध्यान देने लायक) कमी।"),
               },
               {
-                label: L("Face and Glands"),
+                label: L("Face and Glands", "ముఖం మరియు గ్రంథులు", "முகமும் சுரப்பிகளும்", "ಮುಖ ಮತ್ತು ಗ್ರಂಥಿಗಳು", "चेहरा और ग्रंथियाँ"),
                 text: L(
-                  "Enlarged superficial lymph nodes, along with rhinitis (nose inflammation), conjunctivitis (eye inflammation) and excessive salivation."
+                  "Enlarged superficial lymph nodes, along with rhinitis (nose inflammation), conjunctivitis (eye inflammation) and excessive salivation.",
+                  "చర్మం కింద ఉన్న లింఫ్ గ్రంథులు ఉబ్బడం, దానితో పాటు ముక్కు వాపు (రైనైటిస్), కంటి వాపు (కంజంక్టివైటిస్) మరియు అధికంగా లాలాజలం కారడం.",
+                  "தோலுக்கு அடியில் உள்ள நிணநீர் சுரப்பிகள் வீங்குதல், அதனுடன் மூக்கு அழற்சி (ரைனைடிஸ்), கண் அழற்சி (கன்ஜங்க்டிவைடிஸ்) மற்றும் அதிக உமிழ்நீர் சுரப்பு.",
+                  "ಚರ್ಮದ ಕೆಳಗಿನ ದುಗ್ಧರಸ ಗ್ರಂಥಿಗಳು ಊದಿಕೊಳ್ಳುವುದು, ಜೊತೆಗೆ ಮೂಗಿನ ಉರಿಯೂತ (ರೈನೈಟಿಸ್), ಕಣ್ಣಿನ ಉರಿಯೂತ (ಕಂಜಂಕ್ಟಿವೈಟಿಸ್) ಮತ್ತು ಅತಿಯಾದ ಜೊಲ್ಲು ಸುರಿಯುವುದು.",
+                  "त्वचा के नीचे की लसिका ग्रंथियों (लिम्फ नोड) का सूजना, साथ में नाक की सूजन (राइनाइटिस), आँखों की सूजन (कंजंक्टिवाइटिस) और बहुत ज़्यादा लार बहना।"
                 ),
               },
               {
-                label: L("Skin Nodules"),
+                label: L("Skin Nodules", "చర్మంపై గడ్డలు", "தோலில் கட்டிகள்", "ಚರ್ಮದ ಮೇಲೆ ಗಂಟುಗಳು", "त्वचा पर गांठें"),
                 text: L(
-                  "Firm, round, raised lumps (nodules) 2–5 cm across appear all over the body within 48 hours of the fever starting, involving the skin, the tissue underneath, and sometimes even the muscle below that."
+                  "Firm, round, raised lumps (nodules) 2–5 cm across appear all over the body within 48 hours of the fever starting, involving the skin, the tissue underneath, and sometimes even the muscle below that.",
+                  "జ్వరం మొదలైన 48 గంటల్లోపు ఒళ్లంతా 2–5 సెం.మీ. వెడల్పు గల గట్టి, గుండ్రని, ఎత్తుగా ఉన్న గడ్డలు (నోడ్యూల్స్) కనిపిస్తాయి; ఇవి చర్మం, దాని కింది కణజాలం, కొన్నిసార్లు దాని కింద ఉన్న కండరాన్ని కూడా ప్రభావితం చేస్తాయి.",
+                  "காய்ச்சல் தொடங்கிய 48 மணி நேரத்திற்குள் உடல் முழுவதும் 2–5 செ.மீ. அகலமுள்ள கடினமான, வட்டமான, உயர்ந்த கட்டிகள் (நோடியூல்ஸ்) தோன்றும்; இவை தோல், அதன் அடியில் உள்ள திசு, சில நேரங்களில் அதற்குக் கீழுள்ள தசையையும் பாதிக்கும்.",
+                  "ಜ್ವರ ಶುರುವಾದ 48 ಗಂಟೆಗಳೊಳಗೆ ಮೈಯೆಲ್ಲಾ 2–5 ಸೆಂ.ಮೀ. ಅಗಲದ ಗಟ್ಟಿಯಾದ, ಗುಂಡಗಿನ, ಎತ್ತರವಾದ ಗಂಟುಗಳು (ನೋಡ್ಯೂಲ್‌ಗಳು) ಕಾಣಿಸುತ್ತವೆ; ಇವು ಚರ್ಮ, ಅದರ ಕೆಳಗಿನ ಅಂಗಾಂಶ, ಕೆಲವೊಮ್ಮೆ ಅದರ ಕೆಳಗಿನ ಸ್ನಾಯುವನ್ನೂ ಬಾಧಿಸುತ್ತವೆ.",
+                  "बुखार शुरू होने के 48 घंटों के भीतर पूरे शरीर पर 2–5 सेमी चौड़ी सख़्त, गोल, उभरी हुई गांठें (नोड्यूल) दिखने लगती हैं, जो त्वचा, उसके नीचे के ऊतक और कभी-कभी उसके नीचे की मांसपेशी तक को प्रभावित करती हैं।"
                 ),
               },
             ],
           },
           {
             type: "glossary",
-            term: L("Nodule"),
+            term: L("Nodule", "నోడ్యూల్ (గడ్డ)", "நோடியூல் (கட்டி)", "ನೋಡ್ಯೂಲ್ (ಗಂಟು)", "नोड्यूल (गांठ)"),
             meaning: L(
-              "A firm, raised lump under the skin. In Lumpy Skin Disease, these nodules are one of the clearest, most recognisable signs — a healthy animal's skin should be smooth, without round lumps like these."
+              "A firm, raised lump under the skin. In Lumpy Skin Disease, these nodules are one of the clearest, most recognisable signs — a healthy animal's skin should be smooth, without round lumps like these.",
+              "చర్మం కింద ఉండే గట్టి, ఎత్తైన గడ్డ. లంపీ స్కిన్ డిసీజ్‌లో ఈ గడ్డలు అత్యంత స్పష్టమైన, సులభంగా గుర్తించగల సంకేతాల్లో ఒకటి — ఆరోగ్యంగా ఉన్న జంతువు చర్మం మృదువుగా ఉండాలి, ఇలాంటి గుండ్రని గడ్డలు ఉండకూడదు.",
+              "தோலுக்கு அடியில் உள்ள கடினமான, உயர்ந்த கட்டி. லம்பி ஸ்கின் நோயில் இந்தக் கட்டிகள் மிகத் தெளிவான, எளிதில் அடையாளம் காணக்கூடிய அறிகுறிகளில் ஒன்று — ஆரோக்கியமான விலங்கின் தோல் வழவழப்பாக இருக்க வேண்டும், இது போன்ற வட்டக் கட்டிகள் இருக்கக்கூடாது.",
+              "ಚರ್ಮದ ಕೆಳಗಿರುವ ಗಟ್ಟಿಯಾದ, ಎತ್ತರವಾದ ಗಂಟು. ಲಂಪಿ ಸ್ಕಿನ್ ರೋಗದಲ್ಲಿ ಈ ಗಂಟುಗಳು ಅತ್ಯಂತ ಸ್ಪಷ್ಟ, ಸುಲಭವಾಗಿ ಗುರುತಿಸಬಹುದಾದ ಲಕ್ಷಣಗಳಲ್ಲಿ ಒಂದು — ಆರೋಗ್ಯವಂತ ಪ್ರಾಣಿಯ ಚರ್ಮ ನುಣುಪಾಗಿರಬೇಕು, ಇಂತಹ ಗುಂಡಗಿನ ಗಂಟುಗಳು ಇರಬಾರದು.",
+              "त्वचा के नीचे की सख़्त, उभरी हुई गांठ। लम्पी स्किन डिजीज में ये गांठें सबसे साफ़ और आसानी से पहचानी जाने वाली निशानियों में से एक हैं — स्वस्थ जानवर की त्वचा चिकनी होनी चाहिए, इस तरह की गोल गांठों के बिना।"
             ),
           },
           {
             type: "text",
-            heading: L("What Happens to the Nodules"),
+            heading: L("What Happens to the Nodules", "గడ్డలకు ఏమవుతుంది", "கட்டிகளுக்கு என்ன ஆகிறது", "ಗಂಟುಗಳಿಗೆ ಏನಾಗುತ್ತದೆ", "गांठों का क्या होता है"),
             html: L(
-              "Large nodules can become necrotic (the tissue in them dies) and eventually turn fibrotic (hardened, scar-like), and can persist for several months. Smaller nodules may resolve (go away) on their own without lasting problems. Sores can also appear inside the mouth, throat and airway."
+              "Large nodules can become necrotic (the tissue in them dies) and eventually turn fibrotic (hardened, scar-like), and can persist for several months. Smaller nodules may resolve (go away) on their own without lasting problems. Sores can also appear inside the mouth, throat and airway.",
+              "పెద్ద గడ్డలు నెక్రోటిక్‌గా మారవచ్చు (వాటిలోని కణజాలం చనిపోతుంది), చివరికి ఫైబ్రోటిక్‌గా (గట్టిపడి, మచ్చ లాగా) మారవచ్చు, మరియు అనేక నెలలు ఉండిపోవచ్చు. చిన్న గడ్డలు ఎలాంటి శాశ్వత సమస్య లేకుండా వాటంతట అవే తగ్గిపోవచ్చు (మాయమవుతాయి). నోరు, గొంతు మరియు శ్వాసమార్గం లోపల కూడా పుండ్లు రావచ్చు.",
+              "பெரிய கட்டிகள் நெக்ரோடிக் ஆகலாம் (அவற்றிலுள்ள திசு இறந்துவிடும்), இறுதியில் ஃபைப்ரோடிக் ஆகலாம் (கடினமாகி, வடு போல ஆகும்), மேலும் பல மாதங்கள் நீடிக்கலாம். சிறிய கட்டிகள் நிரந்தரப் பிரச்சினை இல்லாமல் தானாகவே குணமாகலாம் (மறைந்துவிடும்). வாய், தொண்டை மற்றும் சுவாசப் பாதைக்குள்ளும் புண்கள் தோன்றலாம்.",
+              "ದೊಡ್ಡ ಗಂಟುಗಳು ನೆಕ್ರೋಟಿಕ್ ಆಗಬಹುದು (ಅವುಗಳೊಳಗಿನ ಅಂಗಾಂಶ ಸತ್ತುಹೋಗುತ್ತದೆ), ಕೊನೆಗೆ ಫೈಬ್ರೋಟಿಕ್ ಆಗಬಹುದು (ಗಟ್ಟಿಯಾಗಿ, ಕಲೆಯಂತೆ ಆಗುತ್ತದೆ), ಮತ್ತು ಹಲವು ತಿಂಗಳು ಉಳಿಯಬಹುದು. ಚಿಕ್ಕ ಗಂಟುಗಳು ಯಾವುದೇ ಶಾಶ್ವತ ಸಮಸ್ಯೆ ಇಲ್ಲದೆ ತಾವಾಗಿಯೇ ಗುಣವಾಗಬಹುದು (ಮಾಯವಾಗುತ್ತವೆ). ಬಾಯಿ, ಗಂಟಲು ಮತ್ತು ಶ್ವಾಸನಾಳದ ಒಳಗೂ ಹುಣ್ಣುಗಳು ಕಾಣಿಸಬಹುದು.",
+              "बड़ी गांठें नेक्रोटिक हो सकती हैं (उनके अंदर का ऊतक मर जाता है) और आखिर में फ़ाइब्रोटिक (कड़ी, निशान जैसी) बन सकती हैं, और कई महीनों तक बनी रह सकती हैं। छोटी गांठें बिना किसी स्थायी समस्या के अपने आप ठीक हो सकती हैं (गायब हो जाती हैं)। मुँह, गले और साँस की नली के अंदर भी घाव हो सकते हैं।"
             ),
           },
           {
             type: "callout",
             style: "warning",
-            heading: L("Serious Effects Beyond the Skin"),
+            heading: L("Serious Effects Beyond the Skin", "చర్మం దాటి తీవ్రమైన ప్రభావాలు", "தோலைத் தாண்டிய தீவிர பாதிப்புகள்", "ಚರ್ಮದ ಆಚೆಗಿನ ಗಂಭೀರ ಪರಿಣಾಮಗಳು", "त्वचा से आगे के गंभीर असर"),
             text: L(
-              "Pregnant cows may abort, and may not come back into heat (be ready to breed again) for several months. Bulls may become temporarily or even permanently infertile. This makes reporting suspected cases urgent — not just for the sick animal, but for the whole herd's breeding plans."
+              "Pregnant cows may abort, and may not come back into heat (be ready to breed again) for several months. Bulls may become temporarily or even permanently infertile. This makes reporting suspected cases urgent — not just for the sick animal, but for the whole herd's breeding plans.",
+              "చూలు ఆవులకు గర్భస్రావం కావచ్చు, మరియు అనేక నెలల వరకు మళ్లీ ఎదకు రాకపోవచ్చు (మళ్లీ ఈనడానికి సిద్ధం కాకపోవచ్చు). ఎద్దులు తాత్కాలికంగా లేదా శాశ్వతంగా కూడా సంతానోత్పత్తి సామర్థ్యం కోల్పోవచ్చు. అందుకే అనుమానిత కేసులను నివేదించడం అత్యవసరం — జబ్బుపడిన జంతువు కోసమే కాదు, మొత్తం మంద సంతానోత్పత్తి ప్రణాళికల కోసం కూడా.",
+              "சினை மாடுகளுக்கு கருச்சிதைவு ஏற்படலாம், மேலும் பல மாதங்களுக்கு மீண்டும் சினைப்பருவத்துக்கு வராமல் போகலாம் (மீண்டும் இனப்பெருக்கத்துக்குத் தயாராகாமல் இருக்கலாம்). காளைகள் தற்காலிகமாகவோ நிரந்தரமாகவோ கூட மலட்டுத்தன்மை அடையலாம். இதனால் சந்தேகத்துக்குரிய நோய்களைத் தெரிவிப்பது அவசரமானது — நோய்வாய்ப்பட்ட விலங்குக்காக மட்டுமல்ல, முழு மந்தையின் இனப்பெருக்கத் திட்டங்களுக்காகவும்.",
+              "ಗರ್ಭಧರಿಸಿದ ಹಸುಗಳಿಗೆ ಗರ್ಭಪಾತ ಆಗಬಹುದು, ಮತ್ತು ಹಲವು ತಿಂಗಳು ಮತ್ತೆ ಮದವೇರದೆ ಇರಬಹುದು (ಮತ್ತೆ ಗರ್ಭಧಾರಣೆಗೆ ಸಿದ್ಧವಾಗದೆ ಇರಬಹುದು). ಹೋರಿಗಳು ತಾತ್ಕಾಲಿಕವಾಗಿ ಅಥವಾ ಶಾಶ್ವತವಾಗಿಯೂ ಸಂತಾನೋತ್ಪತ್ತಿ ಸಾಮರ್ಥ್ಯ ಕಳೆದುಕೊಳ್ಳಬಹುದು. ಆದ್ದರಿಂದ ಶಂಕಿತ ಪ್ರಕರಣಗಳನ್ನು ವರದಿ ಮಾಡುವುದು ತುರ್ತು — ಕೇವಲ ಅನಾರೋಗ್ಯದ ಪ್ರಾಣಿಗಾಗಿ ಮಾತ್ರವಲ್ಲ, ಇಡೀ ಹಿಂಡಿನ ಸಂತಾನೋತ್ಪತ್ತಿ ಯೋಜನೆಗಳಿಗಾಗಿಯೂ.",
+              "गाभिन गायों का गर्भपात हो सकता है, और वे कई महीनों तक दोबारा गर्मी में नहीं आतीं (फिर से प्रजनन के लिए तैयार नहीं होतीं)। सांड अस्थायी या कभी-कभी स्थायी रूप से बांझ हो सकते हैं। इसलिए संदिग्ध मामलों की रिपोर्ट करना ज़रूरी है — सिर्फ़ बीमार जानवर के लिए नहीं, बल्कि पूरे झुंड की प्रजनन योजनाओं के लिए भी।"
             ),
           },
           {
             type: "callout",
             style: "tip",
-            heading: L("Control the Biting Insects, Call the Vet Fast"),
+            heading: L("Control the Biting Insects, Call the Vet Fast", "కుట్టే కీటకాలను అదుపు చేయండి, వెంటనే వెటర్నరీ డాక్టర్‌ను పిలవండి", "கடிக்கும் பூச்சிகளைக் கட்டுப்படுத்துங்கள், உடனே வெட்டரினரி டாக்டரை அழையுங்கள்", "ಕಚ್ಚುವ ಕೀಟಗಳನ್ನು ನಿಯಂತ್ರಿಸಿ, ತಕ್ಷಣ ಪಶುವೈದ್ಯರನ್ನು ಕರೆಯಿರಿ", "काटने वाले कीड़ों पर काबू रखें, पशु चिकित्सक को तुरंत बुलाएँ"),
             text: L(
-              "Since it spreads mainly through biting insects and ticks, proper control of ticks and biting insects helps prevent Lumpy Skin Disease. If you notice fever, swollen lymph nodes or skin nodules, consult a veterinarian immediately."
+              "Since it spreads mainly through biting insects and ticks, proper control of ticks and biting insects helps prevent Lumpy Skin Disease. If you notice fever, swollen lymph nodes or skin nodules, consult a veterinarian immediately.",
+              "ఇది ప్రధానంగా కుట్టే కీటకాలు మరియు పేల ద్వారా వ్యాపిస్తుంది కాబట్టి, పేలు మరియు కుట్టే కీటకాలను సరిగ్గా అదుపు చేయడం లంపీ స్కిన్ డిసీజ్‌ను నివారించడంలో సహాయపడుతుంది. మీకు జ్వరం, వాచిన లింఫ్ గ్రంథులు లేదా చర్మంపై గడ్డలు కనిపిస్తే, వెంటనే వెటర్నరీ డాక్టర్‌ను సంప్రదించండి.",
+              "இது முக்கியமாக கடிக்கும் பூச்சிகள் மற்றும் உண்ணிகள் மூலம் பரவுவதால், உண்ணிகளையும் கடிக்கும் பூச்சிகளையும் முறையாகக் கட்டுப்படுத்துவது லம்பி ஸ்கின் நோயைத் தடுக்க உதவும். காய்ச்சல், வீங்கிய நிணநீர் சுரப்பிகள் அல்லது தோலில் கட்டிகளைக் கண்டால், உடனடியாக வெட்டரினரி டாக்டரை அணுகுங்கள்.",
+              "ಇದು ಮುಖ್ಯವಾಗಿ ಕಚ್ಚುವ ಕೀಟಗಳು ಮತ್ತು ಉಣ್ಣಿಗಳ ಮೂಲಕ ಹರಡುವುದರಿಂದ, ಉಣ್ಣಿ ಮತ್ತು ಕಚ್ಚುವ ಕೀಟಗಳನ್ನು ಸರಿಯಾಗಿ ನಿಯಂತ್ರಿಸುವುದು ಲಂಪಿ ಸ್ಕಿನ್ ರೋಗವನ್ನು ತಡೆಯಲು ಸಹಾಯ ಮಾಡುತ್ತದೆ. ನಿಮಗೆ ಜ್ವರ, ಊದಿಕೊಂಡ ದುಗ್ಧರಸ ಗ್ರಂಥಿಗಳು ಅಥವಾ ಚರ್ಮದ ಮೇಲೆ ಗಂಟುಗಳು ಕಂಡರೆ, ತಕ್ಷಣ ಪಶುವೈದ್ಯರನ್ನು ಸಂಪರ್ಕಿಸಿ.",
+              "क्योंकि यह मुख्य रूप से काटने वाले कीड़ों और किलनी से फैलती है, किलनी और काटने वाले कीड़ों पर ठीक से काबू रखने से लम्पी स्किन डिजीज को रोकने में मदद मिलती है। अगर आपको बुखार, सूजी हुई लसिका ग्रंथियाँ या त्वचा पर गांठें दिखें, तो तुरंत पशु चिकित्सक से सलाह लें।"
             ),
           },
         ],
