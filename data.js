@@ -7650,122 +7650,150 @@ export const MODULES = [
             items: [
               {
                 label: L("Neglected sub-clinical mastitis", "పట్టించుకోని సబ్-క్లినికల్ మాస్టిటిస్", "கவனிக்கப்படாத சப்-கிளினிக்கல் மாஸ்டைடிஸ்", "ನಿರ್ಲಕ್ಷಿತ ಸಬ್-ಕ್ಲಿನಿಕಲ್ ಮಾಸ್ಟೈಟಿಸ್", "उपेक्षित सब-क्लीनिकल मैस्टाइटिस"),
-                text: L("Leaving a hidden infection untreated is a major reason it turns into chronic mastitis."),
+                text: L("Leaving a hidden infection untreated is a major reason it turns into chronic mastitis.", "దాగి ఉన్న ఇన్ఫెక్షన్‌కు చికిత్స చేయకుండా వదిలేయడం అది దీర్ఘకాలిక మాస్టిటిస్‌గా మారడానికి ఒక ప్రధాన కారణం.", "மறைந்திருக்கும் தொற்றுக்குச் சிகிச்சை செய்யாமல் விடுவது அது நாள்பட்ட மாஸ்டைடிஸாக மாறுவதற்கு ஒரு முக்கிய காரணம்.", "ಅಡಗಿರುವ ಸೋಂಕಿಗೆ ಚಿಕಿತ್ಸೆ ಮಾಡದೆ ಬಿಡುವುದು ಅದು ದೀರ್ಘಕಾಲಿಕ ಮಾಸ್ಟೈಟಿಸ್ ಆಗಲು ಒಂದು ಪ್ರಮುಖ ಕಾರಣ.", "छिपे हुए संक्रमण का इलाज न करना उसके दीर्घकालिक मैस्टाइटिस बनने की एक बड़ी वजह है।"),
               },
               {
-                label: L("Improper treatment of acute mastitis"),
-                text: L("If acute mastitis is not treated correctly, it can settle into a long-term, chronic infection instead of clearing up."),
+                label: L("Improper treatment of acute mastitis", "తీవ్ర మాస్టిటిస్‌కు సరైన చికిత్స లేకపోవడం", "தீவிர மாஸ்டைடிஸுக்குச் சரியான சிகிச்சை இல்லாதது", "ತೀವ್ರ ಮಾಸ್ಟೈಟಿಸ್‌ಗೆ ಸರಿಯಾದ ಚಿಕಿತ್ಸೆ ಇಲ್ಲದಿರುವುದು", "तीव्र मैस्टाइटिस का सही इलाज न होना"),
+                text: L("If acute mastitis is not treated correctly, it can settle into a long-term, chronic infection instead of clearing up.", "తీవ్ర మాస్టిటిస్‌కు సరిగ్గా చికిత్స చేయకపోతే, అది పూర్తిగా తగ్గకుండా దీర్ఘకాలిక ఇన్ఫెక్షన్‌గా స్థిరపడిపోవచ్చు.", "தீவிர மாஸ்டைடிஸுக்குச் சரியாகச் சிகிச்சை செய்யாவிட்டால், அது முழுமையாகக் குணமாகாமல் நாள்பட்ட தொற்றாக நிலைத்துவிடலாம்.", "ತೀವ್ರ ಮಾಸ್ಟೈಟಿಸ್‌ಗೆ ಸರಿಯಾಗಿ ಚಿಕಿತ್ಸೆ ಮಾಡದಿದ್ದರೆ, ಅದು ಸಂಪೂರ್ಣ ಗುಣವಾಗದೆ ದೀರ್ಘಕಾಲಿಕ ಸೋಂಕಾಗಿ ಉಳಿದುಬಿಡಬಹುದು.", "तीव्र मैस्टाइटिस का सही तरीके से इलाज न हो तो वह पूरी तरह ठीक होने की बजाय लंबे समय का दीर्घकालिक संक्रमण बन सकता है।"),
               },
               {
-                label: L("Unhygienic shed"),
-                text: L("A dirty shed keeps re-exposing the animal to the germs that cause and worsen mastitis."),
+                label: L("Unhygienic shed", "అపరిశుభ్రమైన పాక", "சுத்தமில்லாத கொட்டகை", "ಅಶುಚಿಯಾದ ಕೊಟ್ಟಿಗೆ", "गंदा शेड"),
+                text: L("A dirty shed keeps re-exposing the animal to the germs that cause and worsen mastitis.", "మురికి పాక, మాస్టిటిస్‌కు కారణమయ్యే, దాన్ని ముదిరేలా చేసే క్రిములకు పశువును మళ్లీ మళ్లీ గురిచేస్తుంది.", "அழுக்கான கொட்டகை, மாஸ்டைடிஸை உண்டாக்கும் மற்றும் மோசமாக்கும் கிருமிகளுக்கு மாட்டை மீண்டும் மீண்டும் ஆளாக்குகிறது.", "ಕೊಳಕು ಕೊಟ್ಟಿಗೆ, ಮಾಸ್ಟೈಟಿಸ್ ಉಂಟುಮಾಡುವ ಮತ್ತು ಉಲ್ಬಣಗೊಳಿಸುವ ಕ್ರಿಮಿಗಳಿಗೆ ಪ್ರಾಣಿಯನ್ನು ಮತ್ತೆ ಮತ್ತೆ ತೆರೆದಿಡುತ್ತದೆ.", "गंदा शेड पशु को उन कीटाणुओं के संपर्क में बार-बार लाता है जो मैस्टाइटिस करते हैं और उसे बिगाड़ते हैं।"),
               },
             ],
           },
           {
             type: "callout",
             style: "warning",
-            heading: L("Why Early Reporting Matters So Much Here"),
+            heading: L("Why Early Reporting Matters So Much Here", "ఇక్కడ ముందుగా తెలియజేయడం ఎందుకు అంత ముఖ్యం", "இங்கே முன்கூட்டியே தெரிவிப்பது ஏன் இவ்வளவு முக்கியம்", "ಇಲ್ಲಿ ಬೇಗನೆ ವರದಿ ಮಾಡುವುದು ಏಕೆ ಇಷ್ಟು ಮುಖ್ಯ", "यहाँ जल्दी बताना इतना ज़रूरी क्यों है"),
             text: L(
-              "Once a quarter has atrophied (shrunk) or developed fibrosis (hardened), the chances of it recovering are very low — this is why reporting the earlier, more treatable forms of mastitis quickly is so important. Antimicrobial treatment usually does not work well once mastitis has become chronic."
+              "Once a quarter has atrophied (shrunk) or developed fibrosis (hardened), the chances of it recovering are very low — this is why reporting the earlier, more treatable forms of mastitis quickly is so important. Antimicrobial treatment usually does not work well once mastitis has become chronic.",
+              "పొదుగులో ఒక భాగం కుంచించుకుపోయినా (అట్రోఫీ) లేదా గట్టిపడినా (ఫైబ్రోసిస్), అది కోలుకునే అవకాశాలు చాలా తక్కువ — అందుకే మాస్టిటిస్ యొక్క ముందు, చికిత్స చేయదగిన రూపాలను వెంటనే తెలియజేయడం చాలా ముఖ్యం. మాస్టిటిస్ దీర్ఘకాలికంగా మారిన తర్వాత యాంటీమైక్రోబియల్ చికిత్స సాధారణంగా బాగా పనిచేయదు.",
+              "மடியின் ஒரு பகுதி சுருங்கி (அட்ரோஃபி) அல்லது கடினமாகி (ஃபைப்ரோசிஸ்) விட்டால், அது குணமாகும் வாய்ப்பு மிகக் குறைவு — அதனால்தான் மாஸ்டைடிஸின் முந்தைய, சிகிச்சை செய்யக்கூடிய வடிவங்களை உடனே தெரிவிப்பது மிக முக்கியம். மாஸ்டைடிஸ் நாள்பட்டதாக மாறிய பிறகு நுண்ணுயிர் எதிர்ப்பு (ஆன்டிமைக்ரோபியல்) சிகிச்சை பொதுவாக நன்றாக வேலை செய்யாது.",
+              "ಕೆಚ್ಚಲಿನ ಒಂದು ಭಾಗ ಕುಗ್ಗಿದರೆ (ಅಟ್ರೋಫಿ) ಅಥವಾ ಗಟ್ಟಿಯಾದರೆ (ಫೈಬ್ರೋಸಿಸ್), ಅದು ಚೇತರಿಸುವ ಸಾಧ್ಯತೆ ತುಂಬಾ ಕಡಿಮೆ — ಅದಕ್ಕಾಗಿಯೇ ಮಾಸ್ಟೈಟಿಸ್‌ನ ಮೊದಲಿನ, ಚಿಕಿತ್ಸೆ ಮಾಡಬಹುದಾದ ರೂಪಗಳನ್ನು ಬೇಗನೆ ವರದಿ ಮಾಡುವುದು ಬಹಳ ಮುಖ್ಯ. ಮಾಸ್ಟೈಟಿಸ್ ದೀರ್ಘಕಾಲಿಕವಾದ ಮೇಲೆ ಆಂಟಿಮೈಕ್ರೋಬಿಯಲ್ ಚಿಕಿತ್ಸೆ ಸಾಮಾನ್ಯವಾಗಿ ಚೆನ್ನಾಗಿ ಕೆಲಸ ಮಾಡುವುದಿಲ್ಲ.",
+              "थन का कोई हिस्सा एक बार सिकुड़ जाए (एट्रोफी) या सख़्त हो जाए (फाइब्रोसिस), तो उसके ठीक होने की संभावना बहुत कम रहती है — इसीलिए मैस्टाइटिस के पहले वाले, इलाज हो सकने वाले रूपों की जल्दी सूचना देना इतना ज़रूरी है। मैस्टाइटिस के दीर्घकालिक बन जाने के बाद एंटीमाइक्रोबियल इलाज आमतौर पर अच्छा काम नहीं करता।"
             ),
           },
           {
             type: "callout",
             style: "tip",
-            heading: L("What the Farm Does With a Chronically Affected Animal"),
+            heading: L("What the Farm Does With a Chronically Affected Animal", "దీర్ఘకాలిక మాస్టిటిస్ ఉన్న పశువుతో ఫారం ఏం చేస్తుంది", "நாள்பட்ட மாஸ்டைடிஸ் உள்ள மாட்டை பண்ணை என்ன செய்யும்", "ದೀರ್ಘಕಾಲಿಕ ಮಾಸ್ಟೈಟಿಸ್ ಇರುವ ಪ್ರಾಣಿಯನ್ನು ಫಾರ್ಮ್ ಏನು ಮಾಡುತ್ತದೆ", "दीर्घकालिक मैस्टाइटिस वाले पशु के साथ फार्म क्या करता है"),
             text: L(
-              "A cow or buffalo with chronic mastitis is usually kept separate from the rest of the herd, since she remains a source of infection for healthy animals, and she is milked at the very end, after all the healthy animals. These are decisions for the farm and the veterinarian — your part is to recognise the animal and make sure this information reaches them."
+              "A cow or buffalo with chronic mastitis is usually kept separate from the rest of the herd, since she remains a source of infection for healthy animals, and she is milked at the very end, after all the healthy animals. These are decisions for the farm and the veterinarian — your part is to recognise the animal and make sure this information reaches them.",
+              "దీర్ఘకాలిక మాస్టిటిస్ ఉన్న ఆవు లేదా గేదెను సాధారణంగా మిగతా మందకు దూరంగా విడిగా ఉంచుతారు, ఎందుకంటే అది ఆరోగ్యకరమైన పశువులకు ఇన్ఫెక్షన్ వ్యాపింపజేసే మూలంగానే ఉంటుంది, అలాగే ఆరోగ్యకరమైన అన్ని పశువులను పితికిన తర్వాత, అన్నిటికంటే చివరగా దాని పాలు పితుకుతారు. ఇవి ఫారం, పశువైద్యుడు తీసుకునే నిర్ణయాలు — మీ పని ఆ పశువును గుర్తించి, ఈ సమాచారం వారికి చేరేలా చూడటం.",
+              "நாள்பட்ட மாஸ்டைடிஸ் உள்ள பசு அல்லது எருமையை பொதுவாக மற்ற மந்தையிலிருந்து தனியாக வைப்பார்கள், ஏனென்றால் அது ஆரோக்கியமான மாடுகளுக்குத் தொற்று பரப்பும் மூலமாகவே இருக்கும், மேலும் ஆரோக்கியமான எல்லா மாடுகளும் கறக்கப்பட்ட பிறகு, மிகக் கடைசியில் அதைக் கறப்பார்கள். இவை பண்ணையும் கால்நடை மருத்துவரும் எடுக்கும் முடிவுகள் — நீங்கள் செய்ய வேண்டியது அந்த மாட்டை அடையாளம் கண்டு, இந்தத் தகவல் அவர்களுக்குப் போய்ச் சேருவதை உறுதி செய்வதுதான்.",
+              "ದೀರ್ಘಕಾಲಿಕ ಮಾಸ್ಟೈಟಿಸ್ ಇರುವ ಹಸು ಅಥವಾ ಎಮ್ಮೆಯನ್ನು ಸಾಮಾನ್ಯವಾಗಿ ಉಳಿದ ಹಿಂಡಿನಿಂದ ಬೇರೆಯಾಗಿ ಇಡುತ್ತಾರೆ, ಏಕೆಂದರೆ ಅದು ಆರೋಗ್ಯಕರ ಪ್ರಾಣಿಗಳಿಗೆ ಸೋಂಕು ಹರಡುವ ಮೂಲವಾಗಿಯೇ ಇರುತ್ತದೆ, ಮತ್ತು ಆರೋಗ್ಯಕರ ಎಲ್ಲಾ ಪ್ರಾಣಿಗಳ ಹಾಲು ಕರೆದ ಮೇಲೆ, ಕೊನೆಯಲ್ಲಿ ಅದರ ಹಾಲು ಕರೆಯುತ್ತಾರೆ. ಇವು ಫಾರ್ಮ್ ಮತ್ತು ಪಶುವೈದ್ಯರು ತೆಗೆದುಕೊಳ್ಳುವ ನಿರ್ಧಾರಗಳು — ನಿಮ್ಮ ಕೆಲಸ ಆ ಪ್ರಾಣಿಯನ್ನು ಗುರುತಿಸಿ, ಈ ಮಾಹಿತಿ ಅವರಿಗೆ ತಲುಪುವಂತೆ ನೋಡಿಕೊಳ್ಳುವುದು.",
+              "दीर्घकालिक मैस्टाइटिस वाली गाय या भैंस को आमतौर पर बाकी झुंड से अलग रखा जाता है, क्योंकि वह स्वस्थ पशुओं के लिए संक्रमण का स्रोत बनी रहती है, और उसका दूध सबसे आखिर में, सारे स्वस्थ पशुओं को दुहने के बाद, निकाला जाता है। ये फार्म और पशु चिकित्सक के फ़ैसले हैं — आपका काम उस पशु को पहचानना और यह जानकारी उन तक पहुँचाना है।"
             ),
           },
         ],
         check: [
           {
             type: "mcq",
-            q: L("What often leads to chronic mastitis developing in an animal?"),
+            q: L("What often leads to chronic mastitis developing in an animal?", "ఒక పశువులో దీర్ఘకాలిక మాస్టిటిస్ రావడానికి తరచుగా దారితీసేది ఏది?", "ஒரு மாட்டில் நாள்பட்ட மாஸ்டைடிஸ் வர அடிக்கடி வழிவகுப்பது எது?", "ಪ್ರಾಣಿಯಲ್ಲಿ ದೀರ್ಘಕಾಲಿಕ ಮಾಸ್ಟೈಟಿಸ್ ಬರಲು ಸಾಮಾನ್ಯವಾಗಿ ಕಾರಣವಾಗುವುದು ಯಾವುದು?", "किसी पशु में दीर्घकालिक मैस्टाइटिस होने की वजह अक्सर क्या बनती है?"),
             options: [
               L("Neglected sub-clinical mastitis", "పట్టించుకోని సబ్-క్లినికల్ మాస్టిటిస్", "கவனிக்கப்படாத சப்-கிளினிக்கல் மாஸ்டைடிஸ்", "ನಿರ್ಲಕ್ಷಿತ ಸಬ್-ಕ್ಲಿನಿಕಲ್ ಮಾಸ್ಟೈಟಿಸ್", "उपेक्षित सब-क्लीनिकल मैस्टाइटिस"),
-              L("Improper treatment of acute mastitis"),
-              L("An unhygienic shed"),
-              L("All of these"),
+              L("Improper treatment of acute mastitis", "తీవ్ర మాస్టిటిస్‌కు సరైన చికిత్స లేకపోవడం", "தீவிர மாஸ்டைடிஸுக்குச் சரியான சிகிச்சை இல்லாதது", "ತೀವ್ರ ಮಾಸ್ಟೈಟಿಸ್‌ಗೆ ಸರಿಯಾದ ಚಿಕಿತ್ಸೆ ಇಲ್ಲದಿರುವುದು", "तीव्र मैस्टाइटिस का सही इलाज न होना"),
+              L("An unhygienic shed", "అపరిశుభ్రమైన పాక", "சுத்தமில்லாத கொட்டகை", "ಅಶುಚಿಯಾದ ಕೊಟ್ಟಿಗೆ", "गंदा शेड"),
+              L("All of these", "ఇవన్నీ", "இவை அனைத்தும்", "ಇವೆಲ್ಲವೂ", "ये सभी"),
             ],
             answer: 3,
-            explain: L("All three — a neglected hidden infection, poorly treated acute mastitis, and an unhygienic shed — can lead to chronic mastitis."),
+            explain: L("All three — a neglected hidden infection, poorly treated acute mastitis, and an unhygienic shed — can lead to chronic mastitis.", "మూడూ — పట్టించుకోని దాగి ఉన్న ఇన్ఫెక్షన్, సరిగ్గా చికిత్స చేయని తీవ్ర మాస్టిటిస్, అపరిశుభ్రమైన పాక — దీర్ఘకాలిక మాస్టిటిస్‌కు దారితీయవచ్చు.", "மூன்றும் — கவனிக்கப்படாத மறைந்த தொற்று, சரியாகச் சிகிச்சை செய்யப்படாத தீவிர மாஸ்டைடிஸ், சுத்தமில்லாத கொட்டகை — நாள்பட்ட மாஸ்டைடிஸுக்கு வழிவகுக்கலாம்.", "ಮೂರೂ — ನಿರ್ಲಕ್ಷಿಸಿದ ಅಡಗಿರುವ ಸೋಂಕು, ಸರಿಯಾಗಿ ಚಿಕಿತ್ಸೆ ಮಾಡದ ತೀವ್ರ ಮಾಸ್ಟೈಟಿಸ್, ಅಶುಚಿಯಾದ ಕೊಟ್ಟಿಗೆ — ದೀರ್ಘಕಾಲಿಕ ಮಾಸ್ಟೈಟಿಸ್‌ಗೆ ಕಾರಣವಾಗಬಹುದು.", "तीनों — अनदेखा छिपा संक्रमण, सही इलाज न हुआ तीव्र मैस्टाइटिस, और गंदा शेड — दीर्घकालिक मैस्टाइटिस की वजह बन सकते हैं।"),
           },
           {
             type: "truefalse",
-            q: L("Once a quarter has atrophied or developed fibrosis, its chances of recovering are very low."),
+            q: L("Once a quarter has atrophied or developed fibrosis, its chances of recovering are very low.", "పొదుగులో ఒక భాగం కుంచించుకుపోయినా (అట్రోఫీ) లేదా గట్టిపడినా (ఫైబ్రోసిస్), అది కోలుకునే అవకాశం చాలా తక్కువ.", "மடியின் ஒரு பகுதி சுருங்கினால் (அட்ரோஃபி) அல்லது கடினமானால் (ஃபைப்ரோசிஸ்), அது குணமாகும் வாய்ப்பு மிகக் குறைவு.", "ಕೆಚ್ಚಲಿನ ಒಂದು ಭಾಗ ಕುಗ್ಗಿದರೆ (ಅಟ್ರೋಫಿ) ಅಥವಾ ಗಟ್ಟಿಯಾದರೆ (ಫೈಬ್ರೋಸಿಸ್), ಅದು ಚೇತರಿಸುವ ಸಾಧ್ಯತೆ ತುಂಬಾ ಕಡಿಮೆ.", "थन का कोई हिस्सा एक बार सिकुड़ जाए (एट्रोफी) या सख़्त हो जाए (फाइब्रोसिस), तो उसके ठीक होने की संभावना बहुत कम होती है।"),
             answer: true,
-            explain: L("True — this is exactly why catching and reporting mastitis earlier, before this damage happens, matters so much."),
+            explain: L("True — this is exactly why catching and reporting mastitis earlier, before this damage happens, matters so much.", "నిజమే — ఈ నష్టం జరగకముందే మాస్టిటిస్‌ను ముందే గుర్తించి తెలియజేయడం ఇంత ముఖ్యం కావడానికి కారణం ఇదే.", "சரிதான் — மாஸ்டைடிஸை இந்த சேதம் ஏற்படும் முன்பே கண்டறிந்து தெரிவிப்பது இவ்வளவு முக்கியம் என்பதற்குக் காரணம் இதுதான்.", "ನಿಜ — ಈ ಹಾನಿ ಆಗುವ ಮೊದಲೇ ಮಾಸ್ಟೈಟಿಸ್ ಅನ್ನು ಬೇಗ ಗುರುತಿಸಿ ವರದಿ ಮಾಡುವುದು ಇಷ್ಟು ಮುಖ್ಯವಾಗಿರಲು ಕಾರಣ ಇದೇ.", "सही — इस नुकसान से पहले ही मैस्टाइटिस को जल्दी पकड़कर बताना इतना ज़रूरी होने की वजह यही है।"),
           },
         ],
       },
       {
         id: "t-m9-subclinical",
-        title: L("Sub-Clinical Mastitis (SCM): The Type You Cannot See"),
+        title: L("Sub-Clinical Mastitis (SCM): The Type You Cannot See", "సబ్-క్లినికల్ మాస్టిటిస్ (SCM): మీరు చూడలేని రకం", "சப்-கிளினிக்கல் மாஸ்டைடிஸ் (SCM): நீங்கள் பார்க்க முடியாத வகை", "ಸಬ್-ಕ್ಲಿನಿಕಲ್ ಮಾಸ್ಟೈಟಿಸ್ (SCM): ನೀವು ಕಾಣಲಾಗದ ವಿಧ", "सब-क्लीनिकल मैस्टाइटिस (SCM): वह प्रकार जो दिखाई नहीं देता"),
         teach: [
           {
             type: "text",
-            heading: L("The Most Common — and Most Costly — Type"),
+            heading: L("The Most Common — and Most Costly — Type", "అత్యంత సాధారణమైన — అత్యంత ఖరీదైన — రకం", "மிகவும் பொதுவான — மிகவும் செலவு வைக்கும் — வகை", "ಅತ್ಯಂತ ಸಾಮಾನ್ಯವಾದ — ಅತ್ಯಂತ ದುಬಾರಿಯಾದ — ವಿಧ", "सबसे आम — और सबसे महँगा — प्रकार"),
             html: L(
-              "<b>Sub-clinical mastitis (SCM)</b> is the most common form of mastitis on a farm, and it causes about 70% of all the losses that mastitis causes overall — mainly because it can quietly continue for the animal's entire lactation. It is also the starting point that the other forms — acute and chronic mastitis — often develop from."
+              "<b>Sub-clinical mastitis (SCM)</b> is the most common form of mastitis on a farm, and it causes about 70% of all the losses that mastitis causes overall — mainly because it can quietly continue for the animal's entire lactation. It is also the starting point that the other forms — acute and chronic mastitis — often develop from.",
+              "<b>సబ్-క్లినికల్ మాస్టిటిస్ (SCM)</b> ఫారంలో అత్యంత సాధారణమైన మాస్టిటిస్ రూపం, మాస్టిటిస్ వల్ల కలిగే మొత్తం నష్టాలలో సుమారు 70% దీని వల్లే — ముఖ్యంగా ఇది పశువు మొత్తం పాల కాలమంతా నెమ్మదిగా కొనసాగగలదు కాబట్టి. తీవ్ర, దీర్ఘకాలిక మాస్టిటిస్ వంటి ఇతర రూపాలు తరచుగా ఇక్కడి నుండే మొదలవుతాయి.",
+              "<b>சப்-கிளினிக்கல் மாஸ்டைடிஸ் (SCM)</b> பண்ணையில் மிகவும் பொதுவான மாஸ்டைடிஸ் வடிவம், மாஸ்டைடிஸால் ஏற்படும் மொத்த இழப்புகளில் சுமார் 70% இதனால்தான் — முக்கியமாக இது மாட்டின் முழு கறவைக் காலம் முழுவதும் அமைதியாகத் தொடர முடியும் என்பதால். தீவிர, நாள்பட்ட மாஸ்டைடிஸ் போன்ற மற்ற வடிவங்களும் பெரும்பாலும் இங்கிருந்துதான் தொடங்குகின்றன.",
+              "<b>ಸಬ್-ಕ್ಲಿನಿಕಲ್ ಮಾಸ್ಟೈಟಿಸ್ (SCM)</b> ಫಾರ್ಮ್‌ನಲ್ಲಿ ಅತ್ಯಂತ ಸಾಮಾನ್ಯ ಮಾಸ್ಟೈಟಿಸ್ ರೂಪ, ಮಾಸ್ಟೈಟಿಸ್‌ನಿಂದ ಆಗುವ ಒಟ್ಟು ನಷ್ಟಗಳಲ್ಲಿ ಸುಮಾರು 70% ಇದರಿಂದಲೇ — ಮುಖ್ಯವಾಗಿ ಇದು ಪ್ರಾಣಿಯ ಇಡೀ ಹಾಲುಕರೆಯುವ ಅವಧಿಯಲ್ಲಿ ಸದ್ದಿಲ್ಲದೆ ಮುಂದುವರಿಯಬಹುದು ಎನ್ನುವ ಕಾರಣಕ್ಕೆ. ತೀವ್ರ, ದೀರ್ಘಕಾಲಿಕ ಮಾಸ್ಟೈಟಿಸ್ ಮುಂತಾದ ಇತರ ರೂಪಗಳೂ ಹೆಚ್ಚಾಗಿ ಇಲ್ಲಿಂದಲೇ ಶುರುವಾಗುತ್ತವೆ.",
+              "<b>सब-क्लीनिकल मैस्टाइटिस (SCM)</b> फार्म पर मैस्टाइटिस का सबसे आम रूप है, और मैस्टाइटिस से होने वाले कुल नुकसान का करीब 70% इसी से होता है — मुख्य रूप से इसलिए कि यह पशु के पूरे दूध देने के दौर तक चुपचाप चलता रह सकता है। दूसरे रूप — तीव्र और दीर्घकालिक मैस्टाइटिस — भी अक्सर यहीं से शुरू होते हैं।"
             ),
           },
           {
             type: "glossary",
-            term: L("Lactation"),
-            meaning: L("The period of time during which a cow or buffalo produces milk, starting after she gives birth."),
+            term: L("Lactation", "పాల కాలం (లాక్టేషన్)", "கறவைக் காலம் (லாக்டேஷன்)", "ಹಾಲುಕರೆಯುವ ಅವಧಿ (ಲ್ಯಾಕ್ಟೇಶನ್)", "दूध देने का दौर (लैक्टेशन)"),
+            meaning: L("The period of time during which a cow or buffalo produces milk, starting after she gives birth.", "ఆవు లేదా గేదె ఈనిన తర్వాత మొదలై, పాలు ఉత్పత్తి చేసే కాలం.", "பசு அல்லது எருமை கன்று ஈன்ற பிறகு தொடங்கி, பால் உற்பத்தி செய்யும் காலம்.", "ಹಸು ಅಥವಾ ಎಮ್ಮೆ ಈದ ನಂತರ ಶುರುವಾಗಿ, ಹಾಲು ಉತ್ಪಾದಿಸುವ ಅವಧಿ.", "गाय या भैंस के ब्याने के बाद शुरू होकर जितने समय तक वह दूध देती है।"),
           },
           {
             type: "callout",
             style: "warning",
-            heading: L("Why SCM Is So Easy to Miss"),
+            heading: L("Why SCM Is So Easy to Miss", "SCM ను పట్టుకోవడం ఎందుకు అంత కష్టం", "SCM-ஐக் கண்டுபிடிப்பது ஏன் இவ்வளவு கடினம்", "SCM ಅನ್ನು ಹಿಡಿಯುವುದು ಏಕೆ ಇಷ್ಟು ಕಷ್ಟ", "SCM को पकड़ना इतना मुश्किल क्यों है"),
             text: L(
-              "Unlike acute mastitis, SCM shows no specific visible sign — at most, a slight decrease in milk production. There is no physical change you can see in the udder or in the milk, which means it cannot normally be detected just by looking, the way you can with the seven questions or acute mastitis. This is exactly why it causes so much hidden loss."
+              "Unlike acute mastitis, SCM shows no specific visible sign — at most, a slight decrease in milk production. There is no physical change you can see in the udder or in the milk, which means it cannot normally be detected just by looking, the way you can with the seven questions or acute mastitis. This is exactly why it causes so much hidden loss.",
+              "తీవ్ర మాస్టిటిస్‌లా కాకుండా, SCM ప్రత్యేకంగా కనిపించే సంకేతం ఏదీ చూపదు — గరిష్ఠంగా పాల ఉత్పత్తిలో కొద్దిగా తగ్గుదల మాత్రమే. పొదుగులో గానీ పాలలో గానీ మీరు చూడగలిగే భౌతిక మార్పు ఉండదు, అందుకే తీవ్ర మాస్టిటిస్‌ను గుర్తించినట్లు ఏడు ప్రశ్నలతో దీన్ని కేవలం చూసి గుర్తించలేరు. అందుకే ఇది ఇంత దాగి ఉన్న నష్టం కలిగిస్తుంది.",
+              "தீவிர மாஸ்டைடிஸைப் போல் இல்லாமல், SCM குறிப்பிட்ட எந்தக் கண்ணுக்குத் தெரியும் அறிகுறியையும் காட்டாது — அதிகபட்சம் பால் உற்பத்தியில் சிறிய குறைவு மட்டுமே. மடியிலோ பாலிலோ நீங்கள் பார்க்கக்கூடிய உடல் மாற்றம் எதுவும் இருக்காது, அதனால் தீவிர மாஸ்டைடிஸை அடையாளம் காண்பது போல ஏழு கேள்விகளால் இதை வெறுமனே பார்த்துக் கண்டறிய முடியாது. அதனால்தான் இது இவ்வளவு மறைந்த இழப்பை ஏற்படுத்துகிறது.",
+              "ತೀವ್ರ ಮಾಸ್ಟೈಟಿಸ್‌ನಂತೆ ಅಲ್ಲದೆ, SCM ನಿರ್ದಿಷ್ಟವಾಗಿ ಕಾಣುವ ಯಾವ ಲಕ್ಷಣವನ್ನೂ ತೋರಿಸುವುದಿಲ್ಲ — ಹೆಚ್ಚೆಂದರೆ ಹಾಲು ಉತ್ಪಾದನೆಯಲ್ಲಿ ಸ್ವಲ್ಪ ಇಳಿಕೆ ಮಾತ್ರ. ಕೆಚ್ಚಲಿನಲ್ಲಾಗಲೀ ಹಾಲಿನಲ್ಲಾಗಲೀ ನೀವು ಕಾಣಬಹುದಾದ ದೈಹಿಕ ಬದಲಾವಣೆ ಇರುವುದಿಲ್ಲ, ಆದ್ದರಿಂದ ತೀವ್ರ ಮಾಸ್ಟೈಟಿಸ್ ಅನ್ನು ಏಳು ಪ್ರಶ್ನೆಗಳಿಂದ ಗುರುತಿಸುವಂತೆ ಇದನ್ನು ಕೇವಲ ನೋಡಿ ಪತ್ತೆ ಮಾಡಲಾಗುವುದಿಲ್ಲ. ಅದಕ್ಕಾಗಿಯೇ ಇದು ಇಷ್ಟೊಂದು ಗುಪ್ತ ನಷ್ಟ ಉಂಟುಮಾಡುತ್ತದೆ.",
+              "तीव्र मैस्टाइटिस के उलट, SCM का कोई खास दिखने वाला लक्षण नहीं होता — ज़्यादा से ज़्यादा दूध उत्पादन में थोड़ी कमी। थन या दूध में ऐसा कोई शारीरिक बदलाव नहीं दिखता जिसे आप देख सकें, इसलिए इसे आमतौर पर सिर्फ़ देखकर नहीं पकड़ा जा सकता, जैसे सात सवालों वाले तीव्र मैस्टाइटिस को पकड़ा जाता है। इसीलिए यह इतना छिपा हुआ नुकसान करता है।"
             ),
           },
           {
             type: "text",
-            heading: L("How a Farm Finds Hidden SCM"),
+            heading: L("How a Farm Finds Hidden SCM", "ఫారం దాగి ఉన్న SCM ను ఎలా కనుగొంటుంది", "மறைந்திருக்கும் SCM-ஐ பண்ணை எப்படிக் கண்டுபிடிக்கிறது", "ಅಡಗಿರುವ SCM ಅನ್ನು ಫಾರ್ಮ್ ಹೇಗೆ ಪತ್ತೆ ಮಾಡುತ್ತದೆ", "फार्म छिपे हुए SCM का पता कैसे लगाता है"),
             html: L(
-              "Because SCM cannot be seen, farms rely on simple tests done on the milk itself, checking each quarter separately. One such test mixes equal amounts of milk with a special testing liquid — if SCM is present, the mixture forms a gel. Running and reading these tests correctly is a specific, trained task, so this is normally done by someone trained for it, or the veterinarian — but knowing that this kind of routine testing exists helps you understand why animals are tested even when they look completely fine."
+              "Because SCM cannot be seen, farms rely on simple tests done on the milk itself, checking each quarter separately. One such test mixes equal amounts of milk with a special testing liquid — if SCM is present, the mixture forms a gel. Running and reading these tests correctly is a specific, trained task, so this is normally done by someone trained for it, or the veterinarian — but knowing that this kind of routine testing exists helps you understand why animals are tested even when they look completely fine.",
+              "SCM కళ్లకు కనిపించదు కాబట్టి, ఫారంలు పాలపైనే చేసే సులభమైన పరీక్షలపై ఆధారపడతాయి, ప్రతి భాగాన్ని వేర్వేరుగా పరీక్షిస్తాయి. అలాంటి ఒక పరీక్షలో సమాన పరిమాణంలో పాలను ఒక ప్రత్యేక పరీక్ష ద్రవంతో కలుపుతారు — SCM ఉంటే మిశ్రమం జెల్‌లా గట్టిపడుతుంది. ఈ పరీక్షలను సరిగ్గా చేయడం, చదవడం శిక్షణ పొందిన ప్రత్యేక పని, కాబట్టి ఇది సాధారణంగా అందుకు శిక్షణ పొందినవారు లేదా పశువైద్యుడు చేస్తారు — కానీ ఇలాంటి క్రమం తప్పని పరీక్షలు ఉన్నాయని తెలిసి ఉండటం, పశువులు పూర్తిగా ఆరోగ్యంగా కనిపిస్తున్నా వాటిని ఎందుకు పరీక్షిస్తారో అర్థం చేసుకోవడానికి సహాయపడుతుంది.",
+              "SCM கண்ணுக்குத் தெரியாததால், பண்ணைகள் பாலிலேயே செய்யும் எளிய பரிசோதனைகளை நம்பியிருக்கின்றன, ஒவ்வொரு பகுதியையும் தனித்தனியாகப் பரிசோதிக்கின்றன. அப்படிப்பட்ட ஒரு பரிசோதனையில் சம அளவு பாலை ஒரு சிறப்புப் பரிசோதனைத் திரவத்துடன் கலப்பார்கள் — SCM இருந்தால் கலவை ஜெல் போல ஆகிவிடும். இந்தப் பரிசோதனைகளைச் சரியாகச் செய்வதும் படிப்பதும் பயிற்சி பெற்றவர்களின் தனிப்பட்ட வேலை, அதனால் இது பொதுவாக அதற்குப் பயிற்சி பெற்றவர் அல்லது கால்நடை மருத்துவர் செய்வார் — ஆனால் இப்படிப்பட்ட வழக்கமான பரிசோதனைகள் உள்ளன என்று தெரிந்திருப்பது, மாடுகள் முற்றிலும் ஆரோக்கியமாகத் தெரிந்தாலும் ஏன் பரிசோதிக்கப்படுகின்றன என்பதைப் புரிந்துகொள்ள உதவும்.",
+              "SCM ಕಣ್ಣಿಗೆ ಕಾಣದ ಕಾರಣ, ಫಾರ್ಮ್‌ಗಳು ಹಾಲಿನ ಮೇಲೆಯೇ ಮಾಡುವ ಸರಳ ಪರೀಕ್ಷೆಗಳನ್ನು ಅವಲಂಬಿಸುತ್ತವೆ, ಪ್ರತಿ ಭಾಗವನ್ನು ಪ್ರತ್ಯೇಕವಾಗಿ ಪರೀಕ್ಷಿಸುತ್ತವೆ. ಅಂತಹ ಒಂದು ಪರೀಕ್ಷೆಯಲ್ಲಿ ಸಮಪ್ರಮಾಣದ ಹಾಲನ್ನು ವಿಶೇಷ ಪರೀಕ್ಷಾ ದ್ರವದೊಂದಿಗೆ ಬೆರೆಸುತ್ತಾರೆ — SCM ಇದ್ದರೆ ಮಿಶ್ರಣ ಜೆಲ್‌ನಂತೆ ಆಗುತ್ತದೆ. ಈ ಪರೀಕ್ಷೆಗಳನ್ನು ಸರಿಯಾಗಿ ಮಾಡುವುದು, ಓದುವುದು ತರಬೇತಿ ಪಡೆದವರ ವಿಶೇಷ ಕೆಲಸ, ಆದ್ದರಿಂದ ಇದನ್ನು ಸಾಮಾನ್ಯವಾಗಿ ಅದಕ್ಕೆ ತರಬೇತಿ ಪಡೆದವರು ಅಥವಾ ಪಶುವೈದ್ಯರು ಮಾಡುತ್ತಾರೆ — ಆದರೆ ಇಂತಹ ನಿಯಮಿತ ಪರೀಕ್ಷೆಗಳು ಇವೆ ಎಂದು ತಿಳಿದಿರುವುದು, ಪ್ರಾಣಿಗಳು ಸಂಪೂರ್ಣ ಆರೋಗ್ಯವಾಗಿ ಕಂಡರೂ ಏಕೆ ಪರೀಕ್ಷಿಸುತ್ತಾರೆ ಎಂದು ಅರ್ಥಮಾಡಿಕೊಳ್ಳಲು ಸಹಾಯ ಮಾಡುತ್ತದೆ.",
+              "SCM दिखाई नहीं देता, इसलिए फार्म दूध पर ही की जाने वाली आसान जाँचों पर निर्भर रहते हैं, और हर हिस्से की अलग-अलग जाँच करते हैं। ऐसी ही एक जाँच में बराबर मात्रा में दूध को एक खास जाँच वाले घोल के साथ मिलाया जाता है — अगर SCM है तो मिश्रण जेल जैसा जम जाता है। इन जाँचों को सही तरह से करना और पढ़ना एक खास प्रशिक्षित काम है, इसलिए यह आमतौर पर इसके लिए प्रशिक्षित व्यक्ति या पशु चिकित्सक करते हैं — लेकिन यह जानना कि ऐसी नियमित जाँच होती है, यह समझने में मदद करता है कि पशु पूरी तरह स्वस्थ दिखने पर भी उनकी जाँच क्यों की जाती है।"
             ),
           },
           {
             type: "callout",
             style: "tip",
-            heading: L("Regular Testing Is the Real Defence"),
+            heading: L("Regular Testing Is the Real Defence", "క్రమం తప్పని పరీక్షే నిజమైన రక్షణ", "தொடர் பரிசோதனையே உண்மையான பாதுகாப்பு", "ನಿಯಮಿತ ಪರೀಕ್ಷೆಯೇ ನಿಜವಾದ ರಕ್ಷಣೆ", "नियमित जाँच ही असली बचाव है"),
             text: L(
-              "Because SCM has no visible signs, the recommended approach is to test every animal for it at least once a week, testing each quarter separately. Newly purchased animals should also be tested before they are mixed in with the rest of the herd, so a hidden infection doesn't spread."
+              "Because SCM has no visible signs, the recommended approach is to test every animal for it at least once a week, testing each quarter separately. Newly purchased animals should also be tested before they are mixed in with the rest of the herd, so a hidden infection doesn't spread.",
+              "SCM కు కనిపించే సంకేతాలు లేనందున, ప్రతి పశువును వారానికి కనీసం ఒకసారి, ప్రతి భాగాన్ని వేర్వేరుగా పరీక్షించడం సిఫార్సు చేయబడిన పద్ధతి. కొత్తగా కొన్న పశువులను కూడా మిగతా మందతో కలపడానికి ముందు పరీక్షించాలి, అప్పుడే దాగి ఉన్న ఇన్ఫెక్షన్ వ్యాపించదు.",
+              "SCM-க்குக் கண்ணுக்குத் தெரியும் அறிகுறிகள் இல்லாததால், ஒவ்வொரு மாட்டையும் வாரத்துக்குக் குறைந்தது ஒருமுறை, ஒவ்வொரு பகுதியையும் தனித்தனியாகப் பரிசோதிப்பது பரிந்துரைக்கப்படும் முறை. புதிதாக வாங்கிய மாடுகளையும் மற்ற மந்தையுடன் கலக்கும் முன் பரிசோதிக்க வேண்டும், அப்போதுதான் மறைந்திருக்கும் தொற்று பரவாது.",
+              "SCM ಗೆ ಕಾಣುವ ಲಕ್ಷಣಗಳು ಇಲ್ಲದ ಕಾರಣ, ಪ್ರತಿ ಪ್ರಾಣಿಯನ್ನು ವಾರಕ್ಕೆ ಕನಿಷ್ಠ ಒಮ್ಮೆ, ಪ್ರತಿ ಭಾಗವನ್ನು ಪ್ರತ್ಯೇಕವಾಗಿ ಪರೀಕ್ಷಿಸುವುದು ಶಿಫಾರಸು ಮಾಡಿದ ವಿಧಾನ. ಹೊಸದಾಗಿ ಖರೀದಿಸಿದ ಪ್ರಾಣಿಗಳನ್ನು ಉಳಿದ ಹಿಂಡಿನೊಂದಿಗೆ ಬೆರೆಸುವ ಮೊದಲೂ ಪರೀಕ್ಷಿಸಬೇಕು, ಆಗ ಅಡಗಿರುವ ಸೋಂಕು ಹರಡುವುದಿಲ್ಲ.",
+              "SCM के कोई दिखने वाले लक्षण नहीं होते, इसलिए सुझाया गया तरीका यह है कि हर पशु की हफ़्ते में कम से कम एक बार जाँच हो, और हर हिस्से की अलग-अलग। नए खरीदे पशुओं को भी बाकी झुंड में मिलाने से पहले जाँचना चाहिए, ताकि छिपा संक्रमण न फैले।"
             ),
           },
           {
             type: "callout",
             style: "info",
-            heading: L("The Good News About SCM"),
+            heading: L("The Good News About SCM", "SCM గురించి శుభవార్త", "SCM பற்றிய நல்ல செய்தி", "SCM ಬಗ್ಗೆ ಒಳ್ಳೆಯ ಸುದ್ದಿ", "SCM के बारे में अच्छी खबर"),
             text: L(
-              "SCM has a much higher chance of being cured than clinical (acute) or chronic mastitis. Treating it in time also reduces the chances that it will ever develop into those more serious, harder-to-treat forms — one more reason routine testing and prompt reporting matter."
+              "SCM has a much higher chance of being cured than clinical (acute) or chronic mastitis. Treating it in time also reduces the chances that it will ever develop into those more serious, harder-to-treat forms — one more reason routine testing and prompt reporting matter.",
+              "క్లినికల్ (తీవ్ర) లేదా దీర్ఘకాలిక మాస్టిటిస్ కంటే SCM నయమయ్యే అవకాశం చాలా ఎక్కువ. దీనికి సకాలంలో చికిత్స చేస్తే, అది ఆ తీవ్రమైన, చికిత్స చేయడం కష్టమైన రూపాలుగా మారే అవకాశం కూడా తగ్గుతుంది — క్రమం తప్పని పరీక్ష, వెంటనే తెలియజేయడం ఎందుకు ముఖ్యమో చెప్పే మరో కారణం ఇది.",
+              "மருத்துவ அறிகுறியுள்ள (தீவிர) அல்லது நாள்பட்ட மாஸ்டைடிஸை விட SCM குணமாகும் வாய்ப்பு மிக அதிகம். இதற்கு உரிய நேரத்தில் சிகிச்சை செய்தால், அது அந்தக் கடுமையான, சிகிச்சை செய்ய கடினமான வடிவங்களாக மாறும் வாய்ப்பும் குறையும் — தொடர் பரிசோதனையும் உடனடி தகவலும் ஏன் முக்கியம் என்பதற்கு இன்னொரு காரணம் இது.",
+              "ಕ್ಲಿನಿಕಲ್ (ತೀವ್ರ) ಅಥವಾ ದೀರ್ಘಕಾಲಿಕ ಮಾಸ್ಟೈಟಿಸ್‌ಗಿಂತ SCM ಗುಣವಾಗುವ ಸಾಧ್ಯತೆ ಬಹಳ ಹೆಚ್ಚು. ಇದಕ್ಕೆ ಸಕಾಲದಲ್ಲಿ ಚಿಕಿತ್ಸೆ ಮಾಡಿದರೆ, ಅದು ಆ ಗಂಭೀರ, ಚಿಕಿತ್ಸೆ ಕಷ್ಟವಾದ ರೂಪಗಳಾಗಿ ಬದಲಾಗುವ ಸಾಧ್ಯತೆಯೂ ಕಡಿಮೆಯಾಗುತ್ತದೆ — ನಿಯಮಿತ ಪರೀಕ್ಷೆ, ತಕ್ಷಣದ ವರದಿ ಏಕೆ ಮುಖ್ಯ ಎನ್ನುವುದಕ್ಕೆ ಇದು ಇನ್ನೊಂದು ಕಾರಣ.",
+              "क्लीनिकल (तीव्र) या दीर्घकालिक मैस्टाइटिस के मुकाबले SCM के ठीक होने की संभावना कहीं ज़्यादा होती है। समय पर इलाज करने से इसके उन गंभीर, मुश्किल से ठीक होने वाले रूपों में बदलने की संभावना भी घटती है — नियमित जाँच और तुरंत सूचना देना क्यों ज़रूरी है, इसकी एक और वजह यही है।"
             ),
           },
         ],
         check: [
           {
             type: "mcq",
-            q: L("What makes sub-clinical mastitis (SCM) so tricky?"),
+            q: L("What makes sub-clinical mastitis (SCM) so tricky?", "సబ్-క్లినికల్ మాస్టిటిస్ (SCM) ను ఇంత కష్టంగా చేసేది ఏమిటి?", "சப்-கிளினிக்கல் மாஸ்டைடிஸை (SCM) இவ்வளவு சிக்கலாக்குவது எது?", "ಸಬ್-ಕ್ಲಿನಿಕಲ್ ಮಾಸ್ಟೈಟಿಸ್ (SCM) ಅನ್ನು ಇಷ್ಟು ಕಷ್ಟಕರವಾಗಿಸುವುದು ಯಾವುದು?", "सब-क्लीनिकल मैस्टाइटिस (SCM) को इतना पेचीदा क्या बनाता है?"),
             options: [
-              L("It only affects buffaloes"),
-              L("It shows no visible sign in the udder or milk, apart from a possible slight drop in milk"),
-              L("It always shows the same obvious swelling as acute mastitis"),
-              L("It cannot be cured at all"),
+              L("It only affects buffaloes", "ఇది గేదెలకు మాత్రమే వస్తుంది", "இது எருமைகளுக்கு மட்டும் வரும்", "ಇದು ಎಮ್ಮೆಗಳಿಗೆ ಮಾತ್ರ ಬರುತ್ತದೆ", "यह सिर्फ़ भैंसों को होता है"),
+              L("It shows no visible sign in the udder or milk, apart from a possible slight drop in milk", "పాలు కొద్దిగా తగ్గడం తప్ప, పొదుగులో గానీ పాలలో గానీ కనిపించే సంకేతం ఏదీ ఉండదు", "பால் சிறிது குறைவது தவிர, மடியிலோ பாலிலோ கண்ணுக்குத் தெரியும் அறிகுறி எதுவும் இருக்காது", "ಹಾಲು ಸ್ವಲ್ಪ ಕಡಿಮೆಯಾಗುವುದನ್ನು ಬಿಟ್ಟರೆ, ಕೆಚ್ಚಲಿನಲ್ಲಾಗಲೀ ಹಾಲಿನಲ್ಲಾಗಲೀ ಕಾಣುವ ಲಕ್ಷಣ ಯಾವುದೂ ಇರುವುದಿಲ್ಲ", "थोड़ा दूध घटने के अलावा थन या दूध में कोई दिखने वाला लक्षण नहीं होता"),
+              L("It always shows the same obvious swelling as acute mastitis", "ఇది ఎల్లప్పుడూ తీవ్ర మాస్టిటిస్ లాంటి స్పష్టమైన వాపునే చూపిస్తుంది", "இது எப்போதும் தீவிர மாஸ்டைடிஸைப் போல தெளிவான வீக்கத்தையே காட்டும்", "ಇದು ಯಾವಾಗಲೂ ತೀವ್ರ ಮಾಸ್ಟೈಟಿಸ್‌ನಂತೆ ಸ್ಪಷ್ಟ ಊತವನ್ನೇ ತೋರಿಸುತ್ತದೆ", "यह हमेशा तीव्र मैस्टाइटिस जैसी साफ़ सूजन दिखाता है"),
+              L("It cannot be cured at all", "దీన్ని అసలు నయం చేయలేము", "இதை முற்றிலும் குணப்படுத்தவே முடியாது", "ಇದನ್ನು ಸಂಪೂರ್ಣ ಗುಣಪಡಿಸಲೇ ಆಗುವುದಿಲ್ಲ", "इसे बिल्कुल ठीक नहीं किया जा सकता"),
             ],
             answer: 1,
-            explain: L("SCM has no clear visible sign — the udder and milk look normal, which is exactly why regular testing is needed to catch it."),
+            explain: L("SCM has no clear visible sign — the udder and milk look normal, which is exactly why regular testing is needed to catch it.", "SCM కు స్పష్టంగా కనిపించే సంకేతం ఉండదు — పొదుగు, పాలు మామూలుగానే కనిపిస్తాయి, అందుకే దాన్ని పట్టుకోవడానికి క్రమం తప్పని పరీక్ష అవసరం.", "SCM-க்குத் தெளிவாகத் தெரியும் அறிகுறி இல்லை — மடியும் பாலும் சாதாரணமாகவே தெரியும், அதனால்தான் அதைப் பிடிக்க தொடர் பரிசோதனை தேவை.", "SCM ಗೆ ಸ್ಪಷ್ಟವಾಗಿ ಕಾಣುವ ಲಕ್ಷಣ ಇಲ್ಲ — ಕೆಚ್ಚಲು ಮತ್ತು ಹಾಲು ಸಾಮಾನ್ಯವಾಗಿಯೇ ಕಾಣುತ್ತವೆ, ಅದಕ್ಕಾಗಿಯೇ ಅದನ್ನು ಹಿಡಿಯಲು ನಿಯಮಿತ ಪರೀಕ್ಷೆ ಅಗತ್ಯ.", "SCM का कोई साफ़ दिखने वाला लक्षण नहीं होता — थन और दूध सामान्य दिखते हैं, इसीलिए इसे पकड़ने के लिए नियमित जाँच ज़रूरी है।"),
           },
           {
             type: "truefalse",
-            q: L("SCM causes only a small share of the total losses a farm suffers from mastitis."),
+            q: L("SCM causes only a small share of the total losses a farm suffers from mastitis.", "మాస్టిటిస్ వల్ల ఫారంకు కలిగే మొత్తం నష్టాలలో SCM చిన్న వాటా మాత్రమే కలిగిస్తుంది.", "மாஸ்டைடிஸால் பண்ணைக்கு ஏற்படும் மொத்த இழப்புகளில் SCM சிறிய பங்கு மட்டுமே ஏற்படுத்துகிறது.", "ಮಾಸ್ಟೈಟಿಸ್‌ನಿಂದ ಫಾರ್ಮ್‌ಗೆ ಆಗುವ ಒಟ್ಟು ನಷ್ಟಗಳಲ್ಲಿ SCM ಸಣ್ಣ ಪಾಲು ಮಾತ್ರ ಉಂಟುಮಾಡುತ್ತದೆ.", "मैस्टाइटिस से फार्म को होने वाले कुल नुकसान में SCM का हिस्सा सिर्फ़ छोटा होता है।"),
             answer: false,
-            explain: L("False — SCM causes about 70% of all mastitis-related losses, mainly because it can continue quietly for an animal's whole lactation."),
+            explain: L("False — SCM causes about 70% of all mastitis-related losses, mainly because it can continue quietly for an animal's whole lactation.", "తప్పు — మాస్టిటిస్ సంబంధిత నష్టాలలో SCM సుమారు 70% కలిగిస్తుంది, ముఖ్యంగా ఇది పశువు మొత్తం పాల కాలమంతా నెమ్మదిగా కొనసాగగలదు కాబట్టి.", "தவறு — மாஸ்டைடிஸ் தொடர்பான இழப்புகளில் SCM சுமார் 70% ஏற்படுத்துகிறது, முக்கியமாக இது மாட்டின் முழு கறவைக் காலம் முழுவதும் அமைதியாகத் தொடர முடியும் என்பதால்.", "ತಪ್ಪು — ಮಾಸ್ಟೈಟಿಸ್ ಸಂಬಂಧಿತ ನಷ್ಟಗಳಲ್ಲಿ SCM ಸುಮಾರು 70% ಉಂಟುಮಾಡುತ್ತದೆ, ಮುಖ್ಯವಾಗಿ ಇದು ಪ್ರಾಣಿಯ ಇಡೀ ಹಾಲುಕರೆಯುವ ಅವಧಿಯಲ್ಲಿ ಸದ್ದಿಲ್ಲದೆ ಮುಂದುವರಿಯಬಹುದು ಎಂಬ ಕಾರಣಕ್ಕೆ.", "गलत — मैस्टाइटिस से जुड़े नुकसान का करीब 70% SCM से होता है, मुख्य रूप से इसलिए कि यह पशु के पूरे दूध देने के दौर तक चुपचाप चलता रह सकता है।"),
           },
         ],
       },
@@ -7776,11 +7804,11 @@ export const MODULES = [
         {
           topicId: "t-m9-chronic",
           type: "mcq",
-          q: L("Chronic mastitis is best described as:"),
+          q: L("Chronic mastitis is best described as:", "దీర్ఘకాలిక మాస్టిటిస్‌ను ఉత్తమంగా వివరించేది:", "நாள்பட்ட மாஸ்டைடிஸை சிறப்பாக விவரிப்பது:", "ದೀರ್ಘಕಾಲಿಕ ಮಾಸ್ಟೈಟಿಸ್ ಅನ್ನು ಉತ್ತಮವಾಗಿ ವಿವರಿಸುವುದು:", "दीर्घकालिक मैस्टाइटिस को सबसे अच्छे तरीके से इस तरह बताया जा सकता है:"),
           options: [
-            L("A one-day illness that always clears up on its own"),
-            L("A persistent, long-lasting infection of the udder that results in hard lumps"),
-            L("A disease that only affects heifers"),
+            L("A one-day illness that always clears up on its own", "ఎల్లప్పుడూ దానంతటదే తగ్గిపోయే ఒక రోజు జబ్బు", "எப்போதும் தானாகவே சரியாகிவிடும் ஒரு நாள் நோய்", "ಯಾವಾಗಲೂ ತಾನಾಗಿಯೇ ವಾಸಿಯಾಗುವ ಒಂದು ದಿನದ ಕಾಯಿಲೆ", "एक दिन की बीमारी जो हमेशा अपने आप ठीक हो जाती है"),
+            L("A persistent, long-lasting infection of the udder that results in hard lumps", "పొదుగులో గట్టి గడ్డలకు దారితీసే, ఎక్కువ కాలం ఉండే నిరంతర ఇన్ఫెక్షన్", "மடியில் கடினமான கட்டிகளை ஏற்படுத்தும், நீண்ட காலம் நீடிக்கும் தொடர்ச்சியான தொற்று", "ಕೆಚ್ಚಲಿನಲ್ಲಿ ಗಟ್ಟಿ ಗಡ್ಡೆಗಳಿಗೆ ಕಾರಣವಾಗುವ, ಬಹುಕಾಲ ಇರುವ ನಿರಂತರ ಸೋಂಕು", "थन का लंबे समय तक चलने वाला लगातार संक्रमण, जिससे सख़्त गाँठें बन जाती हैं"),
+            L("A disease that only affects heifers", "పెయ్యలకు మాత్రమే వచ్చే వ్యాధి", "கிடேரிகளுக்கு மட்டும் வரும் நோய்", "ಕಡಸುಗಳಿಗೆ ಮಾತ್ರ ಬರುವ ರೋಗ", "सिर्फ़ बछियों को होने वाली बीमारी"),
             L("The same thing as a sudden drop in milk with no other cause"),
           ],
           answer: 1,
