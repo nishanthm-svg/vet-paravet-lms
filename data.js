@@ -1395,80 +1395,194 @@ export const MODULES = [
       // ==================================================================
       {
         id: "m1-l3",
-        title: L("Body Condition Scoring (BCS)"),
+        title: L(
+          "Body Condition Scoring (BCS)",
+          "శరీర స్థితి స్కోరింగ్ (BCS)",
+          "உடல் நிலை மதிப்பீடு (BCS)",
+          "ದೇಹಸ್ಥಿತಿ ಅಂಕ ನೀಡುವಿಕೆ (BCS)",
+          "शारीरिक स्थिति स्कोर (BCS)"
+        ),
         estMinutes: 9,
         hook: [
           {
             type: "hero",
-            heading: L("Too Thin or Too Fat? Learn to Tell at a Glance"),
+            heading: L(
+              "Too Thin or Too Fat? Learn to Tell at a Glance",
+              "మరీ సన్నగా ఉందా లేక మరీ లావుగా ఉందా? ఒక్క చూపులోనే చెప్పడం నేర్చుకోండి",
+              "மிகவும் மெலிந்ததா அல்லது மிகவும் கொழுத்ததா? ஒரே பார்வையில் சொல்லக் கற்றுக்கொள்ளுங்கள்",
+              "ತೀರಾ ತೆಳ್ಳಗೋ ಅಥವಾ ತೀರಾ ದಪ್ಪಗೋ? ಒಂದೇ ನೋಟದಲ್ಲಿ ಹೇಳಲು ಕಲಿಯಿರಿ",
+              "बहुत दुबला या बहुत मोटा? एक नजर में पहचानना सीखें"
+            ),
             text: L(
-              "You don't need a weighing scale to know if an animal is too thin or too fat — your eyes and a gentle hand are enough. This lesson teaches a simple 1-to-5 scoring system that vets everywhere use and understand instantly."
+              "You don't need a weighing scale to know if an animal is too thin or too fat — your eyes and a gentle hand are enough. This lesson teaches a simple 1-to-5 scoring system that vets everywhere use and understand instantly.",
+              "జంతువు మరీ సన్నగా లేదా మరీ లావుగా ఉందో తెలుసుకోవడానికి మీకు తూకం యంత్రం అవసరం లేదు — మీ కళ్ళు, మెల్లని చేయి చాలు. ఈ పాఠం అన్ని చోట్ల పశువైద్యులు ఉపయోగించే, తక్షణమే అర్థం చేసుకునే సాధారణ 1 నుండి 5 స్కోరింగ్ విధానాన్ని నేర్పిస్తుంది.",
+              "ஒரு விலங்கு மிகவும் மெலிந்ததா அல்லது மிகவும் கொழுத்ததா என்று தெரிந்துகொள்ள உங்களுக்கு எடைத்தராசு தேவையில்லை — உங்கள் கண்களும் மென்மையான கையும் போதும். இந்தப் பாடம் எல்லா இடங்களிலும் கால்நடை மருத்துவர்கள் பயன்படுத்தும், உடனடியாகப் புரிந்துகொள்ளும் எளிய 1 முதல் 5 மதிப்பீட்டு முறையைக் கற்பிக்கிறது.",
+              "ಪ್ರಾಣಿ ತೀರಾ ತೆಳ್ಳಗೋ ಅಥವಾ ತೀರಾ ದಪ್ಪಗೋ ಎಂದು ತಿಳಿಯಲು ನಿಮಗೆ ತೂಕದ ಯಂತ್ರ ಬೇಕಿಲ್ಲ — ನಿಮ್ಮ ಕಣ್ಣುಗಳು ಮತ್ತು ಮೃದುವಾದ ಕೈ ಸಾಕು. ಈ ಪಾಠ ಎಲ್ಲೆಡೆ ಪಶುವೈದ್ಯರು ಬಳಸುವ, ತಕ್ಷಣ ಅರ್ಥವಾಗುವ ಸರಳ 1 ರಿಂದ 5 ಅಂಕ ನೀಡುವ ವ್ಯವಸ್ಥೆಯನ್ನು ಕಲಿಸುತ್ತದೆ.",
+              "यह जानने के लिए कि पशु बहुत दुबला है या बहुत मोटा, आपको तराजू की जरूरत नहीं — आपकी आंखें और एक नरम हाथ काफी हैं। यह पाठ एक सरल 1-से-5 स्कोर प्रणाली सिखाता है जिसे हर जगह पशु चिकित्सक इस्तेमाल करते हैं और तुरंत समझ जाते हैं।"
             ),
           },
         ],
         topics: [
           {
             id: "t-bcs-scale",
-            title: L("The 5-Point Scale"),
+            title: L(
+              "The 5-Point Scale",
+              "5-పాయింట్ల స్కేల్",
+              "5-புள்ளி அளவுகோல்",
+              "5-ಅಂಕಗಳ ಮಾಪಕ",
+              "5-अंकों का पैमाना"
+            ),
             teach: [
               {
                 type: "photo",
                 src: "assets/illustration-m1-bcs-scale.png",
-                alt: L("Illustrated diagram showing five Body Condition Score silhouettes side by side, numbered 1 to 5, from very thin to very fat."),
-                caption: L("Illustration: the Body Condition Score scale from 1 (very thin) to 5 (very fat) — score 3 is the healthy target for most dairy animals."),
+                alt: L(
+                  "Illustrated diagram showing five Body Condition Score silhouettes side by side, numbered 1 to 5, from very thin to very fat.",
+                  "1 నుండి 5 వరకు సంఖ్యలతో, చాలా సన్నగా నుండి చాలా లావుగా ఉన్న ఐదు శరీర స్థితి స్కోర్ ఆకారాలను పక్కపక్కనే చూపించే చిత్రం.",
+                  "மிகவும் மெலிந்ததில் இருந்து மிகவும் கொழுத்தது வரை, 1 முதல் 5 வரை எண்ணிடப்பட்ட ஐந்து உடல் நிலை மதிப்பீட்டு உருவங்களை பக்கத்தில் காட்டும் விளக்கப்படம்.",
+                  "ತೀರಾ ತೆಳ್ಳಗಿನಿಂದ ತೀರಾ ದಪ್ಪಗಿನವರೆಗೆ, 1 ರಿಂದ 5 ಸಂಖ್ಯೆಯ ಐದು ದೇಹಸ್ಥಿತಿ ಅಂಕದ ಆಕೃತಿಗಳನ್ನು ಪಕ್ಕಪಕ್ಕದಲ್ಲಿ ತೋರಿಸುವ ಚಿತ್ರ.",
+                  "बहुत दुबले से बहुत मोटे तक, 1 से 5 तक क्रमांकित पांच शारीरिक स्थिति स्कोर की आकृतियों को साथ-साथ दिखाता चित्र।"
+                ),
+                caption: L(
+                  "Illustration: the Body Condition Score scale from 1 (very thin) to 5 (very fat) — score 3 is the healthy target for most dairy animals.",
+                  "చిత్రం: 1 (చాలా సన్నగా) నుండి 5 (చాలా లావుగా) వరకు శరీర స్థితి స్కోర్ స్కేల్ — చాలా పాడి జంతువులకు స్కోర్ 3 ఆరోగ్యకరమైన లక్ష్యం.",
+                  "படம்: 1 (மிகவும் மெலிந்தது) முதல் 5 (மிகவும் கொழுத்தது) வரை உடல் நிலை மதிப்பீட்டு அளவுகோல் — பெரும்பாலான பால் விலங்குகளுக்கு மதிப்பெண் 3 ஆரோக்கியமான இலக்கு.",
+                  "ಚಿತ್ರ: 1 (ತೀರಾ ತೆಳ್ಳಗೆ) ಇಂದ 5 (ತೀರಾ ದಪ್ಪಗೆ) ವರೆಗಿನ ದೇಹಸ್ಥಿತಿ ಅಂಕದ ಮಾಪಕ — ಹೆಚ್ಚಿನ ಹೈನು ಪ್ರಾಣಿಗಳಿಗೆ ಅಂಕ 3 ಆರೋಗ್ಯಕರ ಗುರಿ.",
+                  "चित्र: 1 (बहुत दुबला) से 5 (बहुत मोटा) तक शारीरिक स्थिति स्कोर पैमाना — ज्यादातर डेयरी पशुओं के लिए स्कोर 3 स्वस्थ लक्ष्य है।"
+                ),
               },
               {
                 type: "text",
-                heading: L("What Are We Actually Looking At?"),
+                heading: L(
+                  "What Are We Actually Looking At?",
+                  "మనం నిజానికి దేనిని చూస్తున్నాము?",
+                  "நாம் உண்மையில் எதைப் பார்க்கிறோம்?",
+                  "ನಾವು ನಿಜವಾಗಿ ಏನನ್ನು ನೋಡುತ್ತಿದ್ದೇವೆ?",
+                  "हम असल में क्या देख रहे हैं?"
+                ),
                 html: L(
-                  "When we score an animal's body condition, we're checking how much soft covering — fat and muscle — it has over a few bony parts of its body. Mainly: the row of small bumps running down the middle of its back, the two bony points at the top of its hips, and the small bony points near the base of its tail. On a very thin animal, all of these stick out sharply and are easy to see. On a fat animal, they disappear completely under soft, rounded cover."
+                  "When we score an animal's body condition, we're checking how much soft covering — fat and muscle — it has over a few bony parts of its body. Mainly: the row of small bumps running down the middle of its back, the two bony points at the top of its hips, and the small bony points near the base of its tail. On a very thin animal, all of these stick out sharply and are easy to see. On a fat animal, they disappear completely under soft, rounded cover.",
+                  "మనం జంతువు శరీర స్థితిని స్కోర్ చేసేటప్పుడు, దాని శరీరంలోని కొన్ని ఎముక భాగాలపై ఎంత మెత్తని కవచం — కొవ్వు, కండరం — ఉందో తనిఖీ చేస్తున్నాము. ప్రధానంగా: దాని వెన్నెముక మధ్యలో ఉన్న చిన్న ఎముక గడ్డల వరుస, తుంటి పైభాగంలో ఉన్న రెండు ఎముక బిందువులు, తోక మొదట్లో ఉన్న చిన్న ఎముక బిందువులు. చాలా సన్నగా ఉన్న జంతువులో, ఇవన్నీ స్పష్టంగా బయటకు కనిపిస్తాయి, సులభంగా చూడవచ్చు. లావైన జంతువులో, అవి మెత్తని, గుండ్రని కవచం కింద పూర్తిగా అదృశ్యమైపోతాయి.",
+                  "நாம் ஒரு விலங்கின் உடல் நிலையை மதிப்பிடும்போது, அதன் உடலின் சில எலும்புப் பகுதிகளின் மீது எவ்வளவு மென்மையான உறை — கொழுப்பு, தசை — உள்ளது என்று சரிபார்க்கிறோம். முக்கியமாக: அதன் முதுகின் நடுவில் ஓடும் சிறிய எலும்புத் திட்டுகளின் வரிசை, இடுப்பின் மேற்பகுதியில் இருக்கும் இரண்டு எலும்புப் புள்ளிகள், வாலின் அடிப்பகுதிக்கு அருகே இருக்கும் சிறிய எலும்புப் புள்ளிகள். மிகவும் மெலிந்த விலங்கில், இவை அனைத்தும் கூர்மையாக வெளியே தெரிந்து எளிதாகப் பார்க்க முடியும். கொழுத்த விலங்கில், அவை மென்மையான, வட்டமான உறையின் கீழ் முற்றிலும் மறைந்துவிடும்.",
+                  "ನಾವು ಪ್ರಾಣಿಯ ದೇಹಸ್ಥಿತಿಯನ್ನು ಅಂಕ ನೀಡುವಾಗ, ಅದರ ದೇಹದ ಕೆಲವು ಮೂಳೆ ಭಾಗಗಳ ಮೇಲೆ ಎಷ್ಟು ಮೃದುವಾದ ಹೊದಿಕೆ — ಕೊಬ್ಬು ಮತ್ತು ಸ್ನಾಯು — ಇದೆ ಎಂದು ಪರಿಶೀಲಿಸುತ್ತೇವೆ. ಮುಖ್ಯವಾಗಿ: ಅದರ ಬೆನ್ನಿನ ಮಧ್ಯದಲ್ಲಿ ಸಾಗುವ ಚಿಕ್ಕ ಮೂಳೆ ಉಬ್ಬುಗಳ ಸಾಲು, ಸೊಂಟದ ಮೇಲ್ಭಾಗದಲ್ಲಿರುವ ಎರಡು ಮೂಳೆ ಬಿಂದುಗಳು, ಬಾಲದ ತಳದ ಬಳಿ ಇರುವ ಚಿಕ್ಕ ಮೂಳೆ ಬಿಂದುಗಳು. ತೀರಾ ತೆಳ್ಳಗಿನ ಪ್ರಾಣಿಯಲ್ಲಿ, ಇವೆಲ್ಲವೂ ಸ್ಪಷ್ಟವಾಗಿ ಹೊರಚಾಚಿ ಸುಲಭವಾಗಿ ಕಾಣುತ್ತವೆ. ದಪ್ಪ ಪ್ರಾಣಿಯಲ್ಲಿ, ಅವು ಮೃದುವಾದ, ದುಂಡಗಿನ ಹೊದಿಕೆಯ ಕೆಳಗೆ ಸಂಪೂರ್ಣವಾಗಿ ಮರೆಯಾಗುತ್ತವೆ.",
+                  "जब हम किसी पशु की शारीरिक स्थिति को स्कोर करते हैं, तो हम जांचते हैं कि उसके शरीर के कुछ हड्डी वाले हिस्सों पर कितना मुलायम आवरण — चर्बी और मांसपेशी — है। मुख्यतः: उसकी पीठ के बीच में चलने वाली छोटी उभारों की कतार, कूल्हों के ऊपर के दो हड्डी वाले बिंदु, और पूंछ के आधार के पास के छोटे हड्डी वाले बिंदु। बहुत दुबले पशु में, ये सभी साफ तौर पर उभरे हुए और आसानी से दिखने वाले होते हैं। मोटे पशु में, वे मुलायम, गोल आवरण के नीचे पूरी तरह छिप जाते हैं।"
                 ),
               },
               {
                 type: "glossary",
-                term: L("Backbone Line (Spine)"),
+                term: L(
+                  "Backbone Line (Spine)",
+                  "వెన్నెముక రేఖ",
+                  "முதுகெலும்பு வரிசை",
+                  "ಬೆನ್ನುಮೂಳೆ ಸಾಲು",
+                  "रीढ़ की रेखा (मेरुदंड)"
+                ),
                 meaning: L(
-                  "The row of small bones running down the middle of an animal's back, from its shoulders to its tail. On a very thin animal, you can clearly see each bump; on a well-covered animal, it looks like one smooth, gentle ridge."
+                  "The row of small bones running down the middle of an animal's back, from its shoulders to its tail. On a very thin animal, you can clearly see each bump; on a well-covered animal, it looks like one smooth, gentle ridge.",
+                  "జంతువు భుజాల నుండి తోక వరకు, దాని వీపు మధ్యలో ఉండే చిన్న ఎముకల వరుస. చాలా సన్నగా ఉన్న జంతువులో, మీరు ప్రతి గడ్డను స్పష్టంగా చూడవచ్చు; బాగా కప్పబడిన జంతువులో, అది ఒక నునుపైన, మెల్లని కొండ శిఖరంలా కనిపిస్తుంది.",
+                  "விலங்கின் தோள்களிலிருந்து வால் வரை, அதன் முதுகின் நடுவில் ஓடும் சிறிய எலும்புகளின் வரிசை. மிகவும் மெலிந்த விலங்கில், ஒவ்வொரு திட்டையும் நீங்கள் தெளிவாகப் பார்க்கலாம்; நன்கு மூடப்பட்ட விலங்கில், அது ஒரு மென்மையான, மெதுவான முகடு போலத் தெரியும்.",
+                  "ಪ್ರಾಣಿಯ ಭುಜಗಳಿಂದ ಬಾಲದವರೆಗೆ, ಅದರ ಬೆನ್ನಿನ ಮಧ್ಯದಲ್ಲಿ ಸಾಗುವ ಚಿಕ್ಕ ಮೂಳೆಗಳ ಸಾಲು. ತೀರಾ ತೆಳ್ಳಗಿನ ಪ್ರಾಣಿಯಲ್ಲಿ, ನೀವು ಪ್ರತಿ ಉಬ್ಬನ್ನು ಸ್ಪಷ್ಟವಾಗಿ ನೋಡಬಹುದು; ಚೆನ್ನಾಗಿ ಮುಚ್ಚಿದ ಪ್ರಾಣಿಯಲ್ಲಿ, ಅದು ಒಂದು ನಯವಾದ, ಮೃದುವಾದ ಏರಿನಂತೆ ಕಾಣುತ್ತದೆ.",
+                  "पशु के कंधों से पूंछ तक, उसकी पीठ के बीच में चलने वाली छोटी हड्डियों की कतार। बहुत दुबले पशु में, आप हर उभार को साफ देख सकते हैं; अच्छी तरह ढके पशु में, यह एक चिकनी, हल्की सी लकीर जैसा दिखता है।"
                 ),
               },
               {
                 type: "glossary",
-                term: L("Hip Bones and Tail Bones"),
+                term: L(
+                  "Hip Bones and Tail Bones",
+                  "తుంటి ఎముకలు మరియు తోక ఎముకలు",
+                  "இடுப்பு எலும்புகள் மற்றும் வால் எலும்புகள்",
+                  "ಸೊಂಟದ ಮೂಳೆಗಳು ಮತ್ತು ಬಾಲದ ಮೂಳೆಗಳು",
+                  "कूल्हे की हड्डियां और पूंछ की हड्डियां"
+                ),
                 meaning: L(
-                  "The bony points you can see or feel at the top of the hips, and the smaller bony points near where the tail begins. These are usually among the first places soft cover disappears from when an animal loses condition, and among the last places it reappears when an animal gains condition back."
+                  "The bony points you can see or feel at the top of the hips, and the smaller bony points near where the tail begins. These are usually among the first places soft cover disappears from when an animal loses condition, and among the last places it reappears when an animal gains condition back.",
+                  "తుంటి పైభాగంలో మీరు చూడగల లేదా అనుభూతి చెందగల ఎముక బిందువులు, తోక మొదలయ్యే చోట ఉన్న చిన్న ఎముక బిందువులు. జంతువు స్థితి కోల్పోయినప్పుడు మెత్తని కవచం మొదట అదృశ్యమయ్యే ప్రదేశాలు సాధారణంగా ఇవే, జంతువు తిరిగి స్థితి పొందినప్పుడు అది చివరిగా తిరిగి కనిపించే ప్రదేశాలు కూడా ఇవే.",
+                  "இடுப்பின் மேற்பகுதியில் நீங்கள் பார்க்கக்கூடிய அல்லது உணரக்கூடிய எலும்புப் புள்ளிகள், வால் தொடங்கும் இடத்திற்கு அருகே உள்ள சிறிய எலும்புப் புள்ளிகள். விலங்கு நிலையை இழக்கும்போது மென்மையான உறை முதலில் மறையும் இடங்கள் பொதுவாக இவையே, விலங்கு மீண்டும் நிலையைப் பெறும்போது அது கடைசியாக மீண்டும் தோன்றும் இடங்களும் இவையே.",
+                  "ಸೊಂಟದ ಮೇಲ್ಭಾಗದಲ್ಲಿ ನೀವು ನೋಡಬಹುದಾದ ಅಥವಾ ಅನುಭವಿಸಬಹುದಾದ ಮೂಳೆ ಬಿಂದುಗಳು, ಬಾಲ ಆರಂಭವಾಗುವ ಸ್ಥಳದ ಬಳಿ ಇರುವ ಚಿಕ್ಕ ಮೂಳೆ ಬಿಂದುಗಳು. ಪ್ರಾಣಿ ಸ್ಥಿತಿ ಕಳೆದುಕೊಂಡಾಗ ಮೃದುವಾದ ಹೊದಿಕೆ ಮೊದಲು ಮಾಯವಾಗುವ ಸ್ಥಳಗಳು ಸಾಮಾನ್ಯವಾಗಿ ಇವೇ, ಪ್ರಾಣಿ ಮತ್ತೆ ಸ್ಥಿತಿ ಪಡೆದಾಗ ಅದು ಕೊನೆಯದಾಗಿ ಮತ್ತೆ ಕಾಣಿಸಿಕೊಳ್ಳುವ ಸ್ಥಳಗಳೂ ಇವೇ.",
+                  "कूल्हों के ऊपर आपको दिखने या महसूस होने वाले हड्डी वाले बिंदु, और पूंछ शुरू होने वाली जगह के पास के छोटे हड्डी वाले बिंदु। जब पशु की स्थिति बिगड़ती है तो आमतौर पर यहीं से सबसे पहले मुलायम आवरण गायब होता है, और जब पशु की स्थिति फिर से सुधरती है तो यहीं सबसे आखिर में यह वापस दिखाई देता है।"
                 ),
               },
               {
                 type: "stat-grid",
                 items: [
                   {
-                    label: L("Score 1 — Very thin"),
+                    label: L(
+                      "Score 1 — Very thin",
+                      "స్కోర్ 1 — చాలా సన్నగా",
+                      "மதிப்பெண் 1 — மிகவும் மெலிந்தது",
+                      "ಅಂಕ 1 — ತೀರಾ ತೆಳ್ಳಗೆ",
+                      "स्कोर 1 — बहुत दुबला"
+                    ),
                     text: L(
-                      "You can easily see the backbone, hip bones and ribs sticking out — there is almost no soft covering anywhere, and the coat often looks dull. This animal is not in good health and will not milk or breed well."
+                      "You can easily see the backbone, hip bones and ribs sticking out — there is almost no soft covering anywhere, and the coat often looks dull. This animal is not in good health and will not milk or breed well.",
+                      "వెన్నెముక, తుంటి ఎముకలు, పక్కటెముకలు బయటకు కనిపించడం మీరు సులభంగా చూడవచ్చు — దాదాపు ఎక్కడా మెత్తని కవచం ఉండదు, వెంట్రుకలు తరచుగా నిస్తేజంగా కనిపిస్తాయి. ఈ జంతువు మంచి ఆరోగ్యంలో లేదు, బాగా పాలు ఇవ్వదు లేదా సంతానోత్పత్తి చేయదు.",
+                      "முதுகெலும்பு, இடுப்பு எலும்புகள், விலா எலும்புகள் வெளியே தெரிவதை நீங்கள் எளிதாகப் பார்க்கலாம் — எங்கும் கிட்டத்தட்ட மென்மையான உறை இல்லை, ரோமம் அடிக்கடி மங்கலாகத் தெரியும். இந்த விலங்கு நல்ல ஆரோக்கியத்தில் இல்லை, நன்றாக பால் தராது அல்லது இனப்பெருக்கம் செய்யாது.",
+                      "ಬೆನ್ನುಮೂಳೆ, ಸೊಂಟದ ಮೂಳೆ, ಪಕ್ಕೆಲುಬುಗಳು ಹೊರಚಾಚಿರುವುದನ್ನು ನೀವು ಸುಲಭವಾಗಿ ನೋಡಬಹುದು — ಎಲ್ಲೂ ಬಹುತೇಕ ಮೃದುವಾದ ಹೊದಿಕೆ ಇಲ್ಲ, ಕೂದಲು ಆಗಾಗ ಮಂದವಾಗಿ ಕಾಣುತ್ತದೆ. ಈ ಪ್ರಾಣಿ ಒಳ್ಳೆಯ ಆರೋಗ್ಯದಲ್ಲಿಲ್ಲ, ಚೆನ್ನಾಗಿ ಹಾಲು ಕೊಡುವುದಿಲ್ಲ ಅಥವಾ ಸಂತಾನೋತ್ಪತ್ತಿ ಮಾಡುವುದಿಲ್ಲ.",
+                      "आप आसानी से रीढ़, कूल्हे की हड्डियां और पसलियां उभरी हुई देख सकते हैं — कहीं भी लगभग कोई मुलायम आवरण नहीं होता, और रोयें अक्सर बेजान दिखते हैं। यह पशु अच्छे स्वास्थ्य में नहीं है और न अच्छा दूध देगा, न अच्छी तरह प्रजनन करेगा।"
                     ),
                   },
                   {
-                    label: L("Score 2 — Thin"),
+                    label: L(
+                      "Score 2 — Thin",
+                      "స్కోర్ 2 — సన్నగా",
+                      "மதிப்பெண் 2 — மெலிந்தது",
+                      "ಅಂಕ 2 — ತೆಳ್ಳಗೆ",
+                      "स्कोर 2 — दुबला"
+                    ),
                     text: L(
-                      "The backbone, hips and tail bones are still easy to see, but a little soft covering is starting to appear near the tail and hips. The animal may otherwise seem healthy, but milk and breeding will suffer at this score."
+                      "The backbone, hips and tail bones are still easy to see, but a little soft covering is starting to appear near the tail and hips. The animal may otherwise seem healthy, but milk and breeding will suffer at this score.",
+                      "వెన్నెముక, తుంటి, తోక ఎముకలు ఇప్పటికీ సులభంగా కనిపిస్తాయి, కానీ తోక, తుంటి దగ్గర కొంచెం మెత్తని కవచం కనిపించడం మొదలవుతుంది. జంతువు ఇతరత్రా ఆరోగ్యంగా కనిపించవచ్చు, కానీ ఈ స్కోర్‌లో పాలు, సంతానోత్పత్తి తగ్గుతాయి.",
+                      "முதுகெலும்பு, இடுப்பு, வால் எலும்புகள் இன்னும் எளிதாகத் தெரிகின்றன, ஆனால் வால் மற்றும் இடுப்பு அருகே சிறிது மென்மையான உறை தோன்றத் தொடங்குகிறது. விலங்கு மற்றபடி ஆரோக்கியமாகத் தெரியலாம், ஆனால் இந்த மதிப்பெண்ணில் பால் மற்றும் இனப்பெருக்கம் பாதிக்கப்படும்.",
+                      "ಬೆನ್ನುಮೂಳೆ, ಸೊಂಟ, ಬಾಲದ ಮೂಳೆಗಳು ಇನ್ನೂ ಸುಲಭವಾಗಿ ಕಾಣುತ್ತವೆ, ಆದರೆ ಬಾಲ ಮತ್ತು ಸೊಂಟದ ಬಳಿ ಸ್ವಲ್ಪ ಮೃದುವಾದ ಹೊದಿಕೆ ಕಾಣಿಸಿಕೊಳ್ಳಲು ಆರಂಭಿಸುತ್ತದೆ. ಪ್ರಾಣಿ ಬೇರೆ ರೀತಿಯಲ್ಲಿ ಆರೋಗ್ಯಕರವಾಗಿ ಕಾಣಬಹುದು, ಆದರೆ ಈ ಅಂಕದಲ್ಲಿ ಹಾಲು ಮತ್ತು ಸಂತಾನೋತ್ಪತ್ತಿ ಕುಂಠಿತವಾಗುತ್ತದೆ.",
+                      "रीढ़, कूल्हे और पूंछ की हड्डियां अब भी आसानी से दिखती हैं, लेकिन पूंछ और कूल्हों के पास थोड़ा मुलायम आवरण दिखना शुरू हो जाता है। पशु बाकी तरह से स्वस्थ लग सकता है, लेकिन इस स्कोर पर दूध और प्रजनन प्रभावित होंगे।"
                     ),
                   },
                   {
-                    label: L("Score 3 — Well balanced"),
+                    label: L(
+                      "Score 3 — Well balanced",
+                      "స్కోర్ 3 — బాగా సమతుల్యంగా",
+                      "மதிப்பெண் 3 — சீரான நிலை",
+                      "ಅಂಕ 3 — ಚೆನ್ನಾಗಿ ಸಮತೋಲಿತ",
+                      "स्कोर 3 — अच्छी तरह संतुलित"
+                    ),
                     text: L(
-                      "You can still just about see the ribs, but overall the animal looks smoothly covered rather than bony. This is the best score for high milk production — though it may not have quite enough extra reserve for the very peak of milking."
+                      "You can still just about see the ribs, but overall the animal looks smoothly covered rather than bony. This is the best score for high milk production — though it may not have quite enough extra reserve for the very peak of milking.",
+                      "మీరు ఇప్పటికీ పక్కటెముకలు కొద్దిగా చూడవచ్చు, కానీ మొత్తంమీద జంతువు ఎముకలుగా కాకుండా నునుపుగా కప్పబడినట్టు కనిపిస్తుంది. అధిక పాల ఉత్పత్తికి ఇది ఉత్తమ స్కోర్ — అయితే పాల ఉత్పత్తి గరిష్ట స్థాయికి తగినంత అదనపు నిల్వ ఉండకపోవచ్చు.",
+                      "இன்னும் விலா எலும்புகளை சற்றே பார்க்கலாம், ஆனால் ஒட்டுமொத்தமாக விலங்கு எலும்பாக இல்லாமல் மென்மையாக மூடப்பட்டதாகத் தெரிகிறது. அதிக பால் உற்பத்திக்கு இதுவே சிறந்த மதிப்பெண் — இருப்பினும் பால் உச்சத்திற்கு போதுமான கூடுதல் இருப்பு இல்லாமல் இருக்கலாம்.",
+                      "ನೀವು ಇನ್ನೂ ಪಕ್ಕೆಲುಬುಗಳನ್ನು ಸ್ವಲ್ಪ ನೋಡಬಹುದು, ಆದರೆ ಒಟ್ಟಾರೆಯಾಗಿ ಪ್ರಾಣಿ ಮೂಳೆಯಾಗಿ ಕಾಣದೆ ನಯವಾಗಿ ಮುಚ್ಚಿದಂತೆ ಕಾಣುತ್ತದೆ. ಹೆಚ್ಚಿನ ಹಾಲು ಉತ್ಪಾದನೆಗೆ ಇದೇ ಅತ್ಯುತ್ತಮ ಅಂಕ — ಆದರೂ ಹಾಲಿನ ಉತ್ತುಂಗಕ್ಕೆ ಸಾಕಷ್ಟು ಹೆಚ್ಚುವರಿ ಸಂಗ್ರಹ ಇಲ್ಲದಿರಬಹುದು.",
+                      "आप अब भी पसलियों को थोड़ा-बहुत देख सकते हैं, लेकिन कुल मिलाकर पशु हड्डीदार होने की बजाय चिकना ढका हुआ दिखता है। ज्यादा दूध उत्पादन के लिए यह सबसे अच्छा स्कोर है — हालांकि दूध के चरम स्तर के लिए इसमें पर्याप्त अतिरिक्त भंडार न भी हो।"
                     ),
                   },
                   {
-                    label: L("Score 4 — Well covered"),
+                    label: L(
+                      "Score 4 — Well covered",
+                      "స్కోర్ 4 — బాగా కప్పబడి",
+                      "மதிப்பெண் 4 — நன்கு மூடப்பட்டது",
+                      "ಅಂಕ 4 — ಚೆನ್ನಾಗಿ ಮುಚ್ಚಿದ",
+                      "स्कोर 4 — अच्छी तरह ढका हुआ"
+                    ),
                     text: L(
-                      "The backbone and hip bones are now hard to see, and there's an obvious soft, rounded pad near the shoulder and chest. This is good condition just before calving — but this same animal may face more health problems right around the time it gives birth."
+                      "The backbone and hip bones are now hard to see, and there's an obvious soft, rounded pad near the shoulder and chest. This is good condition just before calving — but this same animal may face more health problems right around the time it gives birth.",
+                      "వెన్నెముక, తుంటి ఎముకలు ఇప్పుడు చూడటం కష్టం, భుజం, ఛాతీ దగ్గర స్పష్టమైన మెత్తని, గుండ్రని కుషన్ ఉంటుంది. ఇది ఈనడానికి ముందు మంచి స్థితి — కానీ ఈ జంతువు ఈనే సమయంలో ఎక్కువ ఆరోగ్య సమస్యలను ఎదుర్కోవచ్చు.",
+                      "முதுகெலும்பு, இடுப்பு எலும்புகள் இப்போது பார்ப்பது கடினம், தோள் மற்றும் மார்பு அருகே தெளிவான மென்மையான, வட்டமான திண்டு உள்ளது. இது ஈனுவதற்கு முன் நல்ல நிலை — ஆனால் இதே விலங்கு ஈனும் நேரத்தில் அதிக உடல்நல பிரச்சினைகளை எதிர்கொள்ளக்கூடும்.",
+                      "ಬೆನ್ನುಮೂಳೆ, ಸೊಂಟದ ಮೂಳೆ ಈಗ ನೋಡಲು ಕಷ್ಟ, ಭುಜ ಮತ್ತು ಎದೆಯ ಬಳಿ ಸ್ಪಷ್ಟವಾದ ಮೃದುವಾದ, ದುಂಡಗಿನ ಪ್ಯಾಡ್ ಇರುತ್ತದೆ. ಇದು ಈಯುವ ಮೊದಲಿನ ಒಳ್ಳೆಯ ಸ್ಥಿತಿ — ಆದರೆ ಇದೇ ಪ್ರಾಣಿ ಈಯುವ ಸಮಯದಲ್ಲಿ ಹೆಚ್ಚು ಆರೋಗ್ಯ ಸಮಸ್ಯೆಗಳನ್ನು ಎದುರಿಸಬಹುದು.",
+                      "रीढ़ और कूल्हे की हड्डियां अब देखना मुश्किल है, और कंधे तथा छाती के पास एक साफ मुलायम, गोल गद्दी जैसा उभार है। यह ब्याने से ठीक पहले की अच्छी स्थिति है — लेकिन यही पशु ब्याने के समय के आसपास ज्यादा स्वास्थ्य समस्याओं का सामना कर सकता है।"
                     ),
                   },
                   {
-                    label: L("Score 5 — Very fat"),
+                    label: L(
+                      "Score 5 — Very fat",
+                      "స్కోర్ 5 — చాలా లావుగా",
+                      "மதிப்பெண் 5 — மிகவும் கொழுத்தது",
+                      "ಅಂಕ 5 — ತೀರಾ ದಪ್ಪಗೆ",
+                      "स्कोर 5 — बहुत मोटा"
+                    ),
                     text: L(
-                      "The animal looks flat and round on top, with visible folds of fat, and may even move a little less easily because of the extra weight. This animal has a high chance of health and breeding problems."
+                      "The animal looks flat and round on top, with visible folds of fat, and may even move a little less easily because of the extra weight. This animal has a high chance of health and breeding problems.",
+                      "జంతువు పైన చదునుగా, గుండ్రంగా కనిపిస్తుంది, కొవ్వు మడతలు కనిపిస్తాయి, అదనపు బరువు వల్ల కదలడం కొంచెం కష్టంగా కూడా ఉండవచ్చు. ఈ జంతువుకు ఆరోగ్య, సంతానోత్పత్తి సమస్యలు వచ్చే అవకాశం ఎక్కువ.",
+                      "விலங்கு மேலே தட்டையாக, வட்டமாகத் தெரியும், கொழுப்பு மடிப்புகள் தெரியும், கூடுதல் எடையால் கொஞ்சம் அசைவதும் கடினமாக இருக்கலாம். இந்த விலங்குக்கு ஆரோக்கியம் மற்றும் இனப்பெருக்கப் பிரச்சினைகள் ஏற்படும் வாய்ப்பு அதிகம்.",
+                      "ಪ್ರಾಣಿ ಮೇಲೆ ಚಪ್ಪಟೆಯಾಗಿ, ದುಂಡಗೆ ಕಾಣುತ್ತದೆ, ಕೊಬ್ಬಿನ ಮಡಿಕೆಗಳು ಕಾಣುತ್ತವೆ, ಹೆಚ್ಚುವರಿ ತೂಕದಿಂದಾಗಿ ಚಲಿಸುವುದೂ ಸ್ವಲ್ಪ ಕಷ್ಟವಾಗಬಹುದು. ಈ ಪ್ರಾಣಿಗೆ ಆರೋಗ್ಯ ಮತ್ತು ಸಂತಾನೋತ್ಪತ್ತಿ ಸಮಸ್ಯೆಗಳು ಬರುವ ಸಾಧ್ಯತೆ ಹೆಚ್ಚು.",
+                      "पशु ऊपर से चपटा और गोल दिखता है, चर्बी की सिलवटें साफ दिखती हैं, और अतिरिक्त वजन की वजह से हिलना-डुलना भी थोड़ा मुश्किल हो सकता है। इस पशु में स्वास्थ्य और प्रजनन समस्याओं की संभावना ज्यादा है।"
                     ),
                   },
                 ],
@@ -1477,78 +1591,223 @@ export const MODULES = [
             check: [
               {
                 type: "mcq",
-                q: L("What are we mainly looking at to give an animal a Body Condition Score?"),
+                q: L(
+                  "What are we mainly looking at to give an animal a Body Condition Score?",
+                  "జంతువుకు శరీర స్థితి స్కోర్ ఇవ్వడానికి మనం ప్రధానంగా దేనిని చూస్తాము?",
+                  "ஒரு விலங்குக்கு உடல் நிலை மதிப்பெண் கொடுக்க நாம் முக்கியமாக எதைப் பார்க்கிறோம்?",
+                  "ಪ್ರಾಣಿಗೆ ದೇಹಸ್ಥಿತಿ ಅಂಕ ನೀಡಲು ನಾವು ಮುಖ್ಯವಾಗಿ ಏನನ್ನು ನೋಡುತ್ತೇವೆ?",
+                  "किसी पशु को शारीरिक स्थिति स्कोर देने के लिए हम मुख्यतः क्या देखते हैं?"
+                ),
                 options: [
-                  L("Its ears and its muzzle"),
-                  L("How much soft covering there is over the backbone, hip bones and tail bones"),
-                  L("Its teeth and horns"),
-                  L("Only the size of its udder"),
+                  L(
+                    "Its ears and its muzzle",
+                    "దాని చెవులు, ముట్టె",
+                    "அதன் காதுகள் மற்றும் மூக்கு",
+                    "ಅದರ ಕಿವಿ ಮತ್ತು ಮೂತಿ",
+                    "उसके कान और नाक"
+                  ),
+                  L(
+                    "How much soft covering there is over the backbone, hip bones and tail bones",
+                    "వెన్నెముక, తుంటి ఎముకలు, తోక ఎముకలపై ఎంత మెత్తని కవచం ఉందో",
+                    "முதுகெலும்பு, இடுப்பு எலும்புகள் மற்றும் வால் எலும்புகள் மீது எவ்வளவு மென்மையான உறை உள்ளது",
+                    "ಬೆನ್ನುಮೂಳೆ, ಸೊಂಟದ ಮೂಳೆ ಮತ್ತು ಬಾಲದ ಮೂಳೆಗಳ ಮೇಲೆ ಎಷ್ಟು ಮೃದುವಾದ ಹೊದಿಕೆ ಇದೆ",
+                    "रीढ़, कूल्हे की हड्डियों और पूंछ की हड्डियों पर कितना मुलायम आवरण है"
+                  ),
+                  L(
+                    "Its teeth and horns",
+                    "దాని దంతాలు, కొమ్ములు",
+                    "அதன் பற்கள் மற்றும் கொம்புகள்",
+                    "ಅದರ ಹಲ್ಲುಗಳು ಮತ್ತು ಕೊಂಬುಗಳು",
+                    "उसके दांत और सींग"
+                  ),
+                  L(
+                    "Only the size of its udder",
+                    "దాని పొదుగు పరిమాణం మాత్రమే",
+                    "அதன் மடியின் அளவு மட்டும்",
+                    "ಅದರ ಕೆಚ್ಚಲಿನ ಗಾತ್ರ ಮಾತ್ರ",
+                    "सिर्फ उसके थन का आकार"
+                  ),
                 ],
                 answer: 1,
-                explain: L("BCS is judged by how much soft fat-and-muscle covering there is over the backbone line, hip bones and tail bones."),
+                explain: L(
+                  "BCS is judged by how much soft fat-and-muscle covering there is over the backbone line, hip bones and tail bones.",
+                  "వెన్నెముక రేఖ, తుంటి ఎముకలు, తోక ఎముకలపై ఎంత మెత్తని కొవ్వు-కండర కవచం ఉందో దానిని బట్టి BCS నిర్ణయిస్తారు.",
+                  "முதுகெலும்பு வரிசை, இடுப்பு எலும்புகள், வால் எலும்புகள் மீது எவ்வளவு மென்மையான கொழுப்பு-தசை உறை உள்ளது என்பதன் அடிப்படையில் BCS தீர்மானிக்கப்படுகிறது.",
+                  "ಬೆನ್ನುಮೂಳೆ ಸಾಲು, ಸೊಂಟದ ಮೂಳೆ, ಬಾಲದ ಮೂಳೆಗಳ ಮೇಲೆ ಎಷ್ಟು ಮೃದುವಾದ ಕೊಬ್ಬು-ಸ್ನಾಯು ಹೊದಿಕೆ ಇದೆ ಎಂಬುದರ ಆಧಾರದ ಮೇಲೆ BCS ನಿರ್ಧರಿಸಲಾಗುತ್ತದೆ.",
+                  "BCS का निर्धारण इस आधार पर होता है कि रीढ़ की रेखा, कूल्हे की हड्डियों और पूंछ की हड्डियों पर कितना मुलायम चर्बी-मांसपेशी आवरण है।"
+                ),
               },
               {
                 type: "truefalse",
-                q: L("A Score 5 animal (very fat) has a higher chance of health and breeding problems than a Score 3 animal."),
+                q: L(
+                  "A Score 5 animal (very fat) has a higher chance of health and breeding problems than a Score 3 animal.",
+                  "స్కోర్ 5 జంతువుకు (చాలా లావు) స్కోర్ 3 జంతువు కంటే ఆరోగ్య, సంతానోత్పత్తి సమస్యలు వచ్చే అవకాశం ఎక్కువ.",
+                  "மதிப்பெண் 5 விலங்குக்கு (மிகவும் கொழுத்தது) மதிப்பெண் 3 விலங்கை விட ஆரோக்கியம் மற்றும் இனப்பெருக்கப் பிரச்சினைகள் ஏற்படும் வாய்ப்பு அதிகம்.",
+                  "ಅಂಕ 5 ಪ್ರಾಣಿಗೆ (ತೀರಾ ದಪ್ಪ) ಅಂಕ 3 ಪ್ರಾಣಿಗಿಂತ ಆರೋಗ್ಯ ಮತ್ತು ಸಂತಾನೋತ್ಪತ್ತಿ ಸಮಸ್ಯೆಗಳ ಸಾಧ್ಯತೆ ಹೆಚ್ಚು.",
+                  "स्कोर 5 पशु (बहुत मोटा) में स्कोर 3 पशु से स्वास्थ्य और प्रजनन समस्याओं की संभावना ज्यादा होती है।"
+                ),
                 answer: true,
-                explain: L("Yes — Score 5 (very fat) carries a high chance of health and breeding problems, while Score 3 is the well-balanced, best-producing score."),
+                explain: L(
+                  "Yes — Score 5 (very fat) carries a high chance of health and breeding problems, while Score 3 is the well-balanced, best-producing score.",
+                  "అవును — స్కోర్ 5 (చాలా లావు)లో ఆరోగ్య, సంతానోత్పత్తి సమస్యలు వచ్చే అవకాశం ఎక్కువ, స్కోర్ 3 బాగా సమతుల్యమైన, అత్యుత్తమ ఉత్పత్తి స్కోర్.",
+                  "ஆம் — மதிப்பெண் 5 (மிகவும் கொழுத்தது) ஆரோக்கியம் மற்றும் இனப்பெருக்கப் பிரச்சினைகள் ஏற்படும் அதிக வாய்ப்பைக் கொண்டுள்ளது, மதிப்பெண் 3 சீரான, சிறந்த உற்பத்தி மதிப்பெண்.",
+                  "ಹೌದು — ಅಂಕ 5 (ತೀರಾ ದಪ್ಪ) ಆರೋಗ್ಯ ಮತ್ತು ಸಂತಾನೋತ್ಪತ್ತಿ ಸಮಸ್ಯೆಗಳ ಹೆಚ್ಚಿನ ಸಾಧ್ಯತೆಯನ್ನು ಹೊಂದಿದೆ, ಅಂಕ 3 ಚೆನ್ನಾಗಿ ಸಮತೋಲಿತ, ಅತ್ಯುತ್ತಮ ಉತ್ಪಾದನೆಯ ಅಂಕ.",
+                  "हां — स्कोर 5 (बहुत मोटा) में स्वास्थ्य और प्रजनन समस्याओं की संभावना ज्यादा होती है, जबकि स्कोर 3 अच्छी तरह संतुलित, सबसे अच्छा उत्पादन देने वाला स्कोर है।"
+                ),
               },
             ],
           },
           {
             id: "t-bcs-application",
-            title: L("Why This Score Matters"),
+            title: L(
+              "Why This Score Matters",
+              "ఈ స్కోర్ ఎందుకు ముఖ్యమైనది",
+              "இந்த மதிப்பெண் ஏன் முக்கியம்",
+              "ಈ ಅಂಕ ಏಕೆ ಮುಖ್ಯ",
+              "यह स्कोर क्यों जरूरी है"
+            ),
             teach: [
               {
                 type: "text",
-                heading: L("The Target Number: 3.5"),
+                heading: L(
+                  "The Target Number: 3.5",
+                  "లక్ష్య సంఖ్య: 3.5",
+                  "இலக்கு எண்: 3.5",
+                  "ಗುರಿ ಸಂಖ್ಯೆ: 3.5",
+                  "लक्ष्य अंक: 3.5"
+                ),
                 html: L(
-                  "A dry cow, or any cow close to giving birth, should ideally have a Body Condition Score of about 3.5. Too thin at that time raises the risk of a weak calf and illness in the mother. Too fat raises the risk of a difficult birth and health problems right afterwards. Body Condition Score is most useful as something you track over time, not just a one-time look."
+                  "A dry cow, or any cow close to giving birth, should ideally have a Body Condition Score of about 3.5. Too thin at that time raises the risk of a weak calf and illness in the mother. Too fat raises the risk of a difficult birth and health problems right afterwards. Body Condition Score is most useful as something you track over time, not just a one-time look.",
+                  "పాలు ఇవ్వని ఆవు లేదా ఈనడానికి దగ్గరగా ఉన్న ఏ ఆవైనా, ఆదర్శంగా సుమారు 3.5 శరీర స్థితి స్కోర్ కలిగి ఉండాలి. ఆ సమయంలో మరీ సన్నగా ఉంటే బలహీనమైన దూడ, తల్లికి అనారోగ్యం వచ్చే ప్రమాదం పెరుగుతుంది. మరీ లావుగా ఉంటే కష్టమైన ప్రసవం, తర్వాత ఆరోగ్య సమస్యల ప్రమాదం పెరుగుతుంది. శరీర స్థితి స్కోర్ ఒకసారి చూసేది కాకుండా, కాలక్రమేణా ట్రాక్ చేయాల్సినదిగా అత్యంత ఉపయోగకరం.",
+                  "பால் தராத பசு, அல்லது ஈனுவதற்கு நெருக்கமான எந்த பசுவும், சிறந்த முறையில் சுமார் 3.5 உடல் நிலை மதிப்பெண் கொண்டிருக்க வேண்டும். அந்த நேரத்தில் மிகவும் மெலிந்திருந்தால் பலவீனமான கன்று, தாய்க்கு நோய் வரும் ஆபத்து அதிகரிக்கும். மிகவும் கொழுத்திருந்தால் கடினமான ஈனுதல், உடனடி பின் உடல்நல பிரச்சினைகளின் ஆபத்து அதிகரிக்கும். உடல் நிலை மதிப்பெண் ஒரு முறை மட்டும் பார்ப்பதை விட காலப்போக்கில் கண்காணிக்கும்போது மிகவும் பயனுள்ளதாக இருக்கும்.",
+                  "ಹಾಲು ಬಿಟ್ಟ ಹಸು, ಅಥವಾ ಈಯುವುದಕ್ಕೆ ಹತ್ತಿರವಿರುವ ಯಾವುದೇ ಹಸು, ಆದರ್ಶವಾಗಿ ಸುಮಾರು 3.5 ದೇಹಸ್ಥಿತಿ ಅಂಕ ಹೊಂದಿರಬೇಕು. ಆ ಸಮಯದಲ್ಲಿ ತೀರಾ ತೆಳ್ಳಗಿದ್ದರೆ ದುರ್ಬಲ ಕರು, ತಾಯಿಗೆ ಅನಾರೋಗ್ಯದ ಅಪಾಯ ಹೆಚ್ಚಾಗುತ್ತದೆ. ತೀರಾ ದಪ್ಪಗಿದ್ದರೆ ಕಷ್ಟದ ಹೆರಿಗೆ, ನಂತರ ಆರೋಗ್ಯ ಸಮಸ್ಯೆಗಳ ಅಪಾಯ ಹೆಚ್ಚಾಗುತ್ತದೆ. ದೇಹಸ್ಥಿತಿ ಅಂಕ ಒಂದೇ ಬಾರಿ ನೋಡುವುದಕ್ಕಿಂತ ಕಾಲಾನಂತರ ಪತ್ತೆಹಚ್ಚುವಂತಹ ಸಂಗತಿಯಾಗಿ ಅತ್ಯಂತ ಉಪಯುಕ್ತ.",
+                  "सूखी गाय, या ब्याने के करीब कोई भी गाय, आदर्श रूप से लगभग 3.5 शारीरिक स्थिति स्कोर की होनी चाहिए। उस समय बहुत दुबला होने पर कमजोर बछड़े और मां को बीमारी का खतरा बढ़ता है। बहुत मोटा होने पर मुश्किल प्रसव और उसके तुरंत बाद स्वास्थ्य समस्याओं का खतरा बढ़ता है। शारीरिक स्थिति स्कोर सबसे ज्यादा उपयोगी तब होता है जब इसे समय के साथ ट्रैक किया जाए, सिर्फ एक बार देखने से नहीं।"
                 ),
               },
               {
                 type: "glossary",
-                term: L("Dry Cow"),
+                term: L(
+                  "Dry Cow",
+                  "పాలు ఇవ్వని ఆవు",
+                  "பால் தராத பசு",
+                  "ಹಾಲು ಬಿಟ್ಟ ಹಸು",
+                  "सूखी गाय"
+                ),
                 meaning: L(
-                  "A cow that has temporarily stopped being milked, resting for a few weeks before she gives birth to her next calf."
+                  "A cow that has temporarily stopped being milked, resting for a few weeks before she gives birth to her next calf.",
+                  "తాత్కాలికంగా పాలు పితకడం ఆపిన ఆవు, తన తదుపరి దూడను ఈనడానికి ముందు కొన్ని వారాలు విశ్రాంతి తీసుకుంటుంది.",
+                  "தற்காலிகமாக பால் கறத்தல் நிறுத்தப்பட்ட பசு, அடுத்த கன்றை ஈனுவதற்கு முன் சில வாரங்கள் ஓய்வெடுக்கிறது.",
+                  "ತಾತ್ಕಾಲಿಕವಾಗಿ ಹಾಲು ಕರೆಯುವುದನ್ನು ನಿಲ್ಲಿಸಿದ ಹಸು, ತನ್ನ ಮುಂದಿನ ಕರುವನ್ನು ಈಯುವ ಮೊದಲು ಕೆಲವು ವಾರಗಳು ವಿಶ್ರಾಂತಿ ಪಡೆಯುತ್ತದೆ.",
+                  "वह गाय जिसका दूध निकालना अस्थायी रूप से बंद कर दिया गया है, जो अपने अगले बछड़े को जन्म देने से पहले कुछ हफ्तों तक आराम करती है।"
                 ),
               },
               {
                 type: "example",
-                heading: L("A Real Example: Two Cows, Three Weeks From Giving Birth"),
+                heading: L(
+                  "A Real Example: Two Cows, Three Weeks From Giving Birth",
+                  "ఒక నిజమైన ఉదాహరణ: రెండు ఆవులు, ఈనడానికి మూడు వారాలు ఉంది",
+                  "ஒரு உண்மையான உதாரணம்: இரண்டு பசுக்கள், ஈனுவதற்கு மூன்று வாரங்கள்",
+                  "ಒಂದು ನಿಜವಾದ ಉದಾಹರಣೆ: ಎರಡು ಹಸುಗಳು, ಈಯುವುದಕ್ಕೆ ಮೂರು ವಾರಗಳಿವೆ",
+                  "एक असली उदाहरण: दो गायें, ब्याने से तीन हफ्ते पहले"
+                ),
                 text: L(
-                  "Cow A is Score 1.5 — ribs and hip bones clearly visible, dull coat. Cow B is Score 5 — flat, heavy back, visibly struggling to move. Both are due to give birth in three weeks. For Cow A, the owner needs to be told she is at risk of a weak calf and illness after birth, and her food needs to be reviewed urgently. For Cow B, the owner needs to be told she is at risk of a difficult birth and health problems right after — but her food should change well before her NEXT pregnancy, not right now. You cannot safely 'slim down' an animal this close to giving birth."
+                  "Cow A is Score 1.5 — ribs and hip bones clearly visible, dull coat. Cow B is Score 5 — flat, heavy back, visibly struggling to move. Both are due to give birth in three weeks. For Cow A, the owner needs to be told she is at risk of a weak calf and illness after birth, and her food needs to be reviewed urgently. For Cow B, the owner needs to be told she is at risk of a difficult birth and health problems right after — but her food should change well before her NEXT pregnancy, not right now. You cannot safely 'slim down' an animal this close to giving birth.",
+                  "ఆవు A స్కోర్ 1.5 — పక్కటెముకలు, తుంటి ఎముకలు స్పష్టంగా కనిపిస్తాయి, నిస్తేజమైన వెంట్రుకలు. ఆవు B స్కోర్ 5 — చదునైన, బరువైన వీపు, కదలడంలో స్పష్టంగా ఇబ్బంది పడుతోంది. రెండూ మూడు వారాలలో ఈనాల్సి ఉంది. ఆవు A కోసం, ఆమెకు బలహీనమైన దూడ, ఈనిన తర్వాత అనారోగ్యం వచ్చే ప్రమాదం ఉందని యజమానికి తెలియజేయాలి, ఆమె ఆహారాన్ని అత్యవసరంగా సమీక్షించాలి. ఆవు B కోసం, ఆమెకు కష్టమైన ప్రసవం, వెంటనే ఆరోగ్య సమస్యల ప్రమాదం ఉందని యజమానికి తెలియజేయాలి — కానీ ఆమె ఆహారం ఇప్పుడు కాకుండా, తదుపరి గర్భధారణకు ముందే మార్చాలి. ఈనడానికి ఇంత దగ్గరగా ఉన్న జంతువును సురక్షితంగా 'సన్నగా' చేయలేరు.",
+                  "பசு A மதிப்பெண் 1.5 — விலா எலும்புகள், இடுப்பு எலும்புகள் தெளிவாகத் தெரிகின்றன, மங்கலான ரோமம். பசு B மதிப்பெண் 5 — தட்டையான, கனமான முதுகு, அசைவதில் தெளிவாக சிரமப்படுகிறது. இரண்டும் மூன்று வாரங்களில் ஈன இருக்கின்றன. பசு Aக்கு, அவளுக்கு பலவீனமான கன்று, ஈன்ற பிறகு நோய் வரும் ஆபத்து உள்ளது என்று உரிமையாளரிடம் சொல்ல வேண்டும், அவளுடைய உணவை அவசரமாக மதிப்பாய்வு செய்ய வேண்டும். பசு Bக்கு, அவளுக்கு கடினமான ஈனுதல், உடனடி உடல்நல பிரச்சினைகளின் ஆபத்து உள்ளது என்று உரிமையாளரிடம் சொல்ல வேண்டும் — ஆனால் அவளுடைய உணவு இப்போதைக்கு அல்ல, அடுத்த கர்ப்பத்திற்கு முன்பே மாற்றப்பட வேண்டும். ஈனுவதற்கு இவ்வளவு நெருக்கமாக இருக்கும் விலங்கை பாதுகாப்பாக 'மெலிய வைக்க' முடியாது.",
+                  "ಹಸು A ಅಂಕ 1.5 — ಪಕ್ಕೆಲುಬುಗಳು, ಸೊಂಟದ ಮೂಳೆ ಸ್ಪಷ್ಟವಾಗಿ ಕಾಣುತ್ತವೆ, ಮಂದವಾದ ಕೂದಲು. ಹಸು B ಅಂಕ 5 — ಚಪ್ಪಟೆ, ಭಾರವಾದ ಬೆನ್ನು, ಚಲಿಸಲು ಸ್ಪಷ್ಟವಾಗಿ ಕಷ್ಟಪಡುತ್ತಿದೆ. ಎರಡೂ ಮೂರು ವಾರಗಳಲ್ಲಿ ಈಯಬೇಕಿದೆ. ಹಸು Aಗೆ, ಅವಳಿಗೆ ದುರ್ಬಲ ಕರು, ಹೆರಿಗೆಯ ನಂತರ ಅನಾರೋಗ್ಯದ ಅಪಾಯವಿದೆ ಎಂದು ಮಾಲೀಕರಿಗೆ ತಿಳಿಸಬೇಕು, ಅವಳ ಆಹಾರವನ್ನು ತುರ್ತಾಗಿ ಪರಿಶೀಲಿಸಬೇಕು. ಹಸು Bಗೆ, ಅವಳಿಗೆ ಕಷ್ಟದ ಹೆರಿಗೆ, ತಕ್ಷಣದ ಆರೋಗ್ಯ ಸಮಸ್ಯೆಗಳ ಅಪಾಯವಿದೆ ಎಂದು ಮಾಲೀಕರಿಗೆ ತಿಳಿಸಬೇಕು — ಆದರೆ ಅವಳ ಆಹಾರ ಈಗಲ್ಲ, ಮುಂದಿನ ಗರ್ಭಧಾರಣೆಗೆ ಮೊದಲೇ ಬದಲಾಗಬೇಕು. ಈಯುವುದಕ್ಕೆ ಇಷ್ಟು ಹತ್ತಿರವಿರುವ ಪ್ರಾಣಿಯನ್ನು ಸುರಕ್ಷಿತವಾಗಿ 'ತೆಳ್ಳಗೆ ಮಾಡಲು' ಸಾಧ್ಯವಿಲ್ಲ.",
+                  "गाय A का स्कोर 1.5 है — पसलियां, कूल्हे की हड्डियां साफ दिखती हैं, बेजान रोयें। गाय B का स्कोर 5 है — चपटी, भारी पीठ, चलने में साफ तौर पर दिक्कत। दोनों को तीन हफ्तों में ब्याना है। गाय A के लिए, मालिक को बताना होगा कि उसे कमजोर बछड़े और ब्याने के बाद बीमारी का खतरा है, और उसके चारे की तुरंत समीक्षा करनी होगी। गाय B के लिए, मालिक को बताना होगा कि उसे मुश्किल प्रसव और उसके तुरंत बाद स्वास्थ्य समस्याओं का खतरा है — लेकिन उसका चारा अभी नहीं, बल्कि उसकी अगली गर्भावस्था से काफी पहले बदलना चाहिए। ब्याने के इतना करीब किसी पशु को सुरक्षित रूप से 'दुबला' नहीं किया जा सकता।"
                 ),
               },
               {
                 type: "callout",
                 style: "tip",
-                heading: L("Check It Again and Again — Not Just Once"),
+                heading: L(
+                  "Check It Again and Again — Not Just Once",
+                  "దీన్ని మళ్ళీ మళ్ళీ తనిఖీ చేయండి — ఒక్కసారే కాదు",
+                  "மீண்டும் மீண்டும் சரிபாருங்கள் — ஒரு முறை மட்டும் அல்ல",
+                  "ಇದನ್ನು ಮತ್ತೆ ಮತ್ತೆ ಪರಿಶೀಲಿಸಿ — ಒಂದೇ ಬಾರಿ ಅಲ್ಲ",
+                  "इसे बार-बार जांचें — सिर्फ एक बार नहीं"
+                ),
                 text: L(
-                  "The real value of this score comes from checking it at the same moments in every animal's cycle — for example, when she stops being milked, right before she gives birth, and at her best milking period — and watching how the number changes. A sudden drop between two checks is often the earliest warning sign of a problem, well before anything else shows up."
+                  "The real value of this score comes from checking it at the same moments in every animal's cycle — for example, when she stops being milked, right before she gives birth, and at her best milking period — and watching how the number changes. A sudden drop between two checks is often the earliest warning sign of a problem, well before anything else shows up.",
+                  "ప్రతి జంతువు చక్రంలో ఒకే క్షణాలలో దీన్ని తనిఖీ చేయడం వల్లనే ఈ స్కోర్ నిజమైన విలువ వస్తుంది — ఉదాహరణకు, ఆమె పాలు ఇవ్వడం ఆపినప్పుడు, ఈనడానికి ముందు, ఆమె ఉత్తమ పాల సమయంలో — సంఖ్య ఎలా మారుతుందో గమనించడం. రెండు తనిఖీల మధ్య అకస్మాత్తు తగ్గుదల తరచుగా సమస్యకు తొలి హెచ్చరిక సంకేతం, మరేమీ కనిపించకముందే.",
+                  "ஒவ்வொரு விலங்கின் சுழற்சியிலும் அதே தருணங்களில் சரிபார்ப்பதன் மூலமே இந்த மதிப்பெண்ணின் உண்மையான மதிப்பு கிடைக்கிறது — உதாரணமாக, அவள் பால் கறத்தல் நிறுத்தும்போது, ஈனுவதற்கு சரியாக முன், அவளது சிறந்த பால் காலத்தில் — எண் எப்படி மாறுகிறது என்று கவனிப்பது. இரண்டு சரிபார்ப்புகளுக்கு இடையே திடீர் குறைவு பெரும்பாலும் வேறு எதுவும் தோன்றுவதற்கு முன்பே ஒரு பிரச்சினையின் மிக ஆரம்ப எச்சரிக்கை அறிகுறியாக இருக்கும்.",
+                  "ಪ್ರತಿ ಪ್ರಾಣಿಯ ಚಕ್ರದಲ್ಲಿ ಅದೇ ಕ್ಷಣಗಳಲ್ಲಿ ಪರಿಶೀಲಿಸುವುದರಿಂದಲೇ ಈ ಅಂಕದ ನಿಜವಾದ ಮೌಲ್ಯ ಸಿಗುತ್ತದೆ — ಉದಾಹರಣೆಗೆ, ಅವಳು ಹಾಲು ಕರೆಯುವುದನ್ನು ನಿಲ್ಲಿಸಿದಾಗ, ಈಯುವ ಮೊದಲು, ಅವಳ ಅತ್ಯುತ್ತಮ ಹಾಲಿನ ಅವಧಿಯಲ್ಲಿ — ಸಂಖ್ಯೆ ಹೇಗೆ ಬದಲಾಗುತ್ತದೆ ಎಂದು ಗಮನಿಸುವುದು. ಎರಡು ಪರಿಶೀಲನೆಗಳ ನಡುವೆ ಹಠಾತ್ ಇಳಿಕೆ ಆಗಾಗ ಬೇರೇನೂ ಕಾಣಿಸುವ ಮೊದಲೇ ಸಮಸ್ಯೆಯ ಅತ್ಯಂತ ಆರಂಭಿಕ ಎಚ್ಚರಿಕೆ ಸೂಚನೆಯಾಗಿರುತ್ತದೆ.",
+                  "इस स्कोर की असली कीमत तब मिलती है जब इसे हर पशु के चक्र में एक ही समय पर जांचा जाए — जैसे, जब उसका दूध निकालना बंद हो, ब्याने से ठीक पहले, और उसके सबसे अच्छे दूध देने के समय — और देखें कि यह संख्या कैसे बदलती है। दो जांचों के बीच अचानक गिरावट अक्सर किसी समस्या का सबसे पहला चेतावनी संकेत होती है, और कुछ और दिखने से काफी पहले।"
                 ),
               },
             ],
             check: [
               {
                 type: "mcq",
-                q: L("What Body Condition Score should a dry cow, or a cow close to giving birth, ideally have?"),
-                options: [L("2.0"), L("3.5"), L("5.0"), L("1.0")],
+                q: L(
+                  "What Body Condition Score should a dry cow, or a cow close to giving birth, ideally have?",
+                  "పాలు ఇవ్వని ఆవు, లేదా ఈనడానికి దగ్గరగా ఉన్న ఆవు ఆదర్శంగా ఏ శరీర స్థితి స్కోర్ కలిగి ఉండాలి?",
+                  "பால் தராத பசு, அல்லது ஈனுவதற்கு நெருக்கமான பசு, சிறந்த முறையில் என்ன உடல் நிலை மதிப்பெண் கொண்டிருக்க வேண்டும்?",
+                  "ಹಾಲು ಬಿಟ್ಟ ಹಸು, ಅಥವಾ ಈಯುವುದಕ್ಕೆ ಹತ್ತಿರವಿರುವ ಹಸು ಆದರ್ಶವಾಗಿ ಯಾವ ದೇಹಸ್ಥಿತಿ ಅಂಕ ಹೊಂದಿರಬೇಕು?",
+                  "सूखी गाय, या ब्याने के करीब गाय का आदर्श शारीरिक स्थिति स्कोर क्या होना चाहिए?"
+                ),
+                options: [
+                  L("2.0", "2.0", "2.0", "2.0", "2.0"),
+                  L("3.5", "3.5", "3.5", "3.5", "3.5"),
+                  L("5.0", "5.0", "5.0", "5.0", "5.0"),
+                  L("1.0", "1.0", "1.0", "1.0", "1.0"),
+                ],
                 answer: 1,
-                explain: L("About 3.5 is the target score for a dry cow or a cow close to giving birth — balanced enough to avoid the risks of both being too thin and too fat."),
+                explain: L(
+                  "About 3.5 is the target score for a dry cow or a cow close to giving birth — balanced enough to avoid the risks of both being too thin and too fat.",
+                  "పాలు ఇవ్వని లేదా ఈనడానికి దగ్గరగా ఉన్న ఆవుకు లక్ష్య స్కోర్ సుమారు 3.5 — మరీ సన్నగా, మరీ లావుగా ఉండే రెండు ప్రమాదాలను తప్పించేంత సమతుల్యంగా.",
+                  "பால் தராத அல்லது ஈனுவதற்கு நெருக்கமான பசுவுக்கான இலக்கு மதிப்பெண் சுமார் 3.5 — மிகவும் மெலிந்திருப்பது மற்றும் மிகவும் கொழுத்திருப்பது ஆகிய இரண்டு ஆபத்துகளையும் தவிர்க்கும் அளவு சீரானது.",
+                  "ಹಾಲು ಬಿಟ್ಟ ಅಥವಾ ಈಯುವುದಕ್ಕೆ ಹತ್ತಿರವಿರುವ ಹಸುವಿಗೆ ಗುರಿ ಅಂಕ ಸುಮಾರು 3.5 — ತೀರಾ ತೆಳ್ಳಗಿರುವುದು ಮತ್ತು ತೀರಾ ದಪ್ಪಗಿರುವುದು ಎರಡರ ಅಪಾಯಗಳನ್ನು ತಪ್ಪಿಸುವಷ್ಟು ಸಮತೋಲಿತ.",
+                  "सूखी गाय या ब्याने के करीब गाय के लिए लक्ष्य स्कोर लगभग 3.5 है — इतना संतुलित कि बहुत दुबला और बहुत मोटा दोनों होने के खतरों से बचा जा सके।"
+                ),
               },
               {
                 type: "mcq",
-                q: L("A cow due to give birth in three weeks is scored 5 (very fat). What is the right thing to do?"),
+                q: L(
+                  "A cow due to give birth in three weeks is scored 5 (very fat). What is the right thing to do?",
+                  "మూడు వారాలలో ఈనాల్సిన ఆవుకు స్కోర్ 5 (చాలా లావు) వచ్చింది. చేయవలసిన సరైన పని ఏమిటి?",
+                  "மூன்று வாரங்களில் ஈன இருக்கும் பசுவுக்கு மதிப்பெண் 5 (மிகவும் கொழுத்தது) கிடைத்துள்ளது. செய்ய வேண்டிய சரியான காரியம் என்ன?",
+                  "ಮೂರು ವಾರಗಳಲ್ಲಿ ಈಯಬೇಕಿರುವ ಹಸುವಿಗೆ ಅಂಕ 5 (ತೀರಾ ದಪ್ಪ) ಬಂದಿದೆ. ಮಾಡಬೇಕಾದ ಸರಿಯಾದ ಕೆಲಸ ಏನು?",
+                  "तीन हफ्तों में ब्याने वाली गाय का स्कोर 5 (बहुत मोटा) है। सही काम क्या है?"
+                ),
                 options: [
-                  L("Sharply cut her food right now to make her thinner before she gives birth"),
-                  L("Nothing — a high score right before birth is ideal"),
-                  L("Report the risk now, and change her feeding well before her NEXT pregnancy"),
-                  L("Give her even more food to prepare for milking"),
+                  L(
+                    "Sharply cut her food right now to make her thinner before she gives birth",
+                    "ఈనడానికి ముందు ఆమెను సన్నగా చేయడానికి ఇప్పుడే ఆమె ఆహారాన్ని బాగా తగ్గించడం",
+                    "ஈனுவதற்கு முன் அவளை மெலியச் செய்ய இப்போதே அவளுடைய உணவை கடுமையாகக் குறைப்பது",
+                    "ಈಯುವ ಮೊದಲು ಅವಳನ್ನು ತೆಳ್ಳಗೆ ಮಾಡಲು ಈಗಲೇ ಅವಳ ಆಹಾರವನ್ನು ತೀವ್ರವಾಗಿ ಕಡಿಮೆ ಮಾಡುವುದು",
+                    "ब्याने से पहले उसे दुबला बनाने के लिए अभी उसका चारा तेजी से घटाना"
+                  ),
+                  L(
+                    "Nothing — a high score right before birth is ideal",
+                    "ఏమీ చేయకపోవడం — ఈనడానికి ముందు అధిక స్కోర్ ఆదర్శం",
+                    "எதுவும் செய்யாதது — ஈனுவதற்கு முன் அதிக மதிப்பெண் சிறந்தது",
+                    "ಏನೂ ಮಾಡದಿರುವುದು — ಈಯುವ ಮೊದಲು ಹೆಚ್ಚಿನ ಅಂಕ ಆದರ್ಶ",
+                    "कुछ न करना — ब्याने से पहले ऊंचा स्कोर आदर्श है"
+                  ),
+                  L(
+                    "Report the risk now, and change her feeding well before her NEXT pregnancy",
+                    "ఇప్పుడే ప్రమాదాన్ని తెలియజేసి, ఆమె తదుపరి గర్భధారణకు ముందే ఆమె దాణాను మార్చడం",
+                    "இப்போது ஆபத்தை தெரிவித்து, அவளுடைய அடுத்த கர்ப்பத்திற்கு முன்பே அவளுடைய உணவை மாற்றுவது",
+                    "ಈಗಲೇ ಅಪಾಯವನ್ನು ತಿಳಿಸಿ, ಅವಳ ಮುಂದಿನ ಗರ್ಭಧಾರಣೆಗೆ ಮೊದಲೇ ಅವಳ ಆಹಾರವನ್ನು ಬದಲಾಯಿಸುವುದು",
+                    "अभी जोखिम बताना, और उसकी अगली गर्भावस्था से काफी पहले उसका चारा बदलना"
+                  ),
+                  L(
+                    "Give her even more food to prepare for milking",
+                    "పాలు ఇవ్వడానికి సిద్ధం చేయడానికి ఆమెకు మరింత ఆహారం ఇవ్వడం",
+                    "பால் கறப்பதற்குத் தயாராக இன்னும் அதிக உணவு கொடுப்பது",
+                    "ಹಾಲು ಕರೆಯಲು ಸಿದ್ಧಗೊಳಿಸಲು ಅವಳಿಗೆ ಇನ್ನಷ್ಟು ಆಹಾರ ನೀಡುವುದು",
+                    "दूध के लिए तैयार करने को उसे और ज्यादा चारा देना"
+                  ),
                 ],
                 answer: 2,
                 explain: L(
-                  "You cannot safely slim an animal down this close to giving birth — that itself can cause harm. The right step is to report the risk now, and fix the feeding plan ahead of her next pregnancy cycle."
+                  "You cannot safely slim an animal down this close to giving birth — that itself can cause harm. The right step is to report the risk now, and fix the feeding plan ahead of her next pregnancy cycle.",
+                  "ఈనడానికి ఇంత దగ్గరగా ఉన్న జంతువును సురక్షితంగా సన్నగా చేయలేరు — అది స్వయంగా హాని కలిగించవచ్చు. సరైన చర్య ఏమిటంటే, ఇప్పుడే ప్రమాదాన్ని తెలియజేయడం, ఆమె తదుపరి గర్భధారణ చక్రానికి ముందే దాణా ప్రణాళికను సరిచేయడం.",
+                  "ஈனுவதற்கு இவ்வளவு நெருக்கமாக இருக்கும் விலங்கை பாதுகாப்பாக மெலிய வைக்க முடியாது — அது தானாகவே தீங்கு விளைவிக்கலாம். சரியான படி இப்போது ஆபத்தை தெரிவிப்பது, அவளுடைய அடுத்த கர்ப்பச் சுழற்சிக்கு முன்பே உணவுத் திட்டத்தை சரிசெய்வது.",
+                  "ಈಯುವುದಕ್ಕೆ ಇಷ್ಟು ಹತ್ತಿರವಿರುವ ಪ್ರಾಣಿಯನ್ನು ಸುರಕ್ಷಿತವಾಗಿ ತೆಳ್ಳಗೆ ಮಾಡಲು ಸಾಧ್ಯವಿಲ್ಲ — ಅದು ಸ್ವತಃ ಹಾನಿ ಉಂಟುಮಾಡಬಹುದು. ಸರಿಯಾದ ಕ್ರಮವೆಂದರೆ ಈಗಲೇ ಅಪಾಯವನ್ನು ತಿಳಿಸುವುದು, ಅವಳ ಮುಂದಿನ ಗರ್ಭಧಾರಣೆ ಚಕ್ರದ ಮೊದಲೇ ಆಹಾರ ಯೋಜನೆಯನ್ನು ಸರಿಪಡಿಸುವುದು.",
+                  "ब्याने के इतना करीब किसी पशु को सुरक्षित रूप से दुबला नहीं किया जा सकता — इससे खुद नुकसान हो सकता है। सही कदम है अभी जोखिम बताना, और उसके अगले गर्भावस्था चक्र से पहले चारे की योजना ठीक करना।"
                 ),
               },
             ],
@@ -1560,42 +1819,138 @@ export const MODULES = [
             {
               topicId: "t-bcs-scale",
               type: "mcq",
-              q: L("A 'Score 1' animal (very thin) is best described as:"),
+              q: L(
+                "A 'Score 1' animal (very thin) is best described as:",
+                "'స్కోర్ 1' జంతువు (చాలా సన్నగా) ఎలా ఉంటుందో ఉత్తమంగా వివరించండి:",
+                "'மதிப்பெண் 1' விலங்கு (மிகவும் மெலிந்தது) சிறப்பாக விவரிக்கப்படுவது:",
+                "'ಅಂಕ 1' ಪ್ರಾಣಿ (ತೀರಾ ತೆಳ್ಳಗೆ) ಅನ್ನು ಉತ್ತಮವಾಗಿ ವಿವರಿಸುವುದು ಹೀಗೆ:",
+                "'स्कोर 1' पशु (बहुत दुबला) को सबसे अच्छे तरीके से इस तरह बताया जाता है:"
+              ),
               options: [
-                L("Smoothly covered with ribs barely visible"),
-                L("Very thin, with the backbone, hip bones and ribs all easy to see, and a dull coat"),
-                L("Very fat, with folds of fat and reduced movement"),
-                L("The ideal condition for giving birth"),
+                L(
+                  "Smoothly covered with ribs barely visible",
+                  "నునుపుగా కప్పబడి, పక్కటెముకలు దాదాపు కనిపించవు",
+                  "மென்மையாக மூடப்பட்டு, விலா எலும்புகள் அரிதாகவே தெரியும்",
+                  "ನಯವಾಗಿ ಮುಚ್ಚಿದ್ದು, ಪಕ್ಕೆಲುಬುಗಳು ಬಹುತೇಕ ಕಾಣುವುದಿಲ್ಲ",
+                  "चिकना ढका हुआ, पसलियां मुश्किल से दिखती हैं"
+                ),
+                L(
+                  "Very thin, with the backbone, hip bones and ribs all easy to see, and a dull coat",
+                  "చాలా సన్నగా, వెన్నెముక, తుంటి ఎముకలు, పక్కటెముకలు అన్నీ సులభంగా కనిపిస్తాయి, నిస్తేజమైన వెంట్రుకలు",
+                  "மிகவும் மெலிந்தது, முதுகெலும்பு, இடுப்பு எலும்புகள், விலா எலும்புகள் அனைத்தும் எளிதாகத் தெரியும், மங்கலான ரோமம்",
+                  "ತೀರಾ ತೆಳ್ಳಗೆ, ಬೆನ್ನುಮೂಳೆ, ಸೊಂಟದ ಮೂಳೆ, ಪಕ್ಕೆಲುಬುಗಳು ಎಲ್ಲವೂ ಸುಲಭವಾಗಿ ಕಾಣುತ್ತವೆ, ಮಂದವಾದ ಕೂದಲು",
+                  "बहुत दुबला, रीढ़, कूल्हे की हड्डियां और पसलियां सब आसानी से दिखती हैं, बेजान रोयें"
+                ),
+                L(
+                  "Very fat, with folds of fat and reduced movement",
+                  "చాలా లావు, కొవ్వు మడతలతో, కదలిక తగ్గి",
+                  "மிகவும் கொழுத்தது, கொழுப்பு மடிப்புகளுடன் குறைந்த அசைவு",
+                  "ತೀರಾ ದಪ್ಪ, ಕೊಬ್ಬಿನ ಮಡಿಕೆಗಳೊಂದಿಗೆ, ಕಡಿಮೆ ಚಲನೆ",
+                  "बहुत मोटा, चर्बी की सिलवटों और कम हिलने-डुलने के साथ"
+                ),
+                L(
+                  "The ideal condition for giving birth",
+                  "ఈనడానికి ఆదర్శ స్థితి",
+                  "ஈனுவதற்கான இலட்சிய நிலை",
+                  "ಈಯುವುದಕ್ಕೆ ಆದರ್ಶ ಸ್ಥಿತಿ",
+                  "ब्याने के लिए आदर्श स्थिति"
+                ),
               ],
               answer: 1,
-              explain: L("Score 1 is very thin — backbone, hip bones and ribs all easy to see, with a dull coat and almost no soft covering."),
+              explain: L(
+                "Score 1 is very thin — backbone, hip bones and ribs all easy to see, with a dull coat and almost no soft covering.",
+                "స్కోర్ 1 చాలా సన్నగా ఉంటుంది — వెన్నెముక, తుంటి ఎముకలు, పక్కటెముకలు అన్నీ సులభంగా కనిపిస్తాయి, నిస్తేజమైన వెంట్రుకలు, దాదాపు మెత్తని కవచం ఉండదు.",
+                "மதிப்பெண் 1 மிகவும் மெலிந்தது — முதுகெலும்பு, இடுப்பு எலும்புகள், விலா எலும்புகள் அனைத்தும் எளிதாகத் தெரியும், மங்கலான ரோமம் மற்றும் கிட்டத்தட்ட மென்மையான உறை இல்லை.",
+                "ಅಂಕ 1 ತೀರಾ ತೆಳ್ಳಗೆ — ಬೆನ್ನುಮೂಳೆ, ಸೊಂಟದ ಮೂಳೆ, ಪಕ್ಕೆಲುಬುಗಳು ಎಲ್ಲವೂ ಸುಲಭವಾಗಿ ಕಾಣುತ್ತವೆ, ಮಂದವಾದ ಕೂದಲು ಮತ್ತು ಬಹುತೇಕ ಮೃದುವಾದ ಹೊದಿಕೆ ಇಲ್ಲ.",
+                "स्कोर 1 बहुत दुबला होता है — रीढ़, कूल्हे की हड्डियां और पसलियां सब आसानी से दिखती हैं, बेजान रोयें और लगभग कोई मुलायम आवरण नहीं।"
+              ),
             },
             {
               topicId: "t-bcs-scale",
               type: "truefalse",
-              q: L("Body Condition Score is scored from 1 (very thin) to 5 (very fat)."),
+              q: L(
+                "Body Condition Score is scored from 1 (very thin) to 5 (very fat).",
+                "శరీర స్థితి స్కోర్ 1 (చాలా సన్నగా) నుండి 5 (చాలా లావుగా) వరకు ఇవ్వబడుతుంది.",
+                "உடல் நிலை மதிப்பெண் 1 (மிகவும் மெலிந்தது) முதல் 5 (மிகவும் கொழுத்தது) வரை மதிப்பிடப்படுகிறது.",
+                "ದೇಹಸ್ಥಿತಿ ಅಂಕವನ್ನು 1 (ತೀರಾ ತೆಳ್ಳಗೆ) ಇಂದ 5 (ತೀರಾ ದಪ್ಪಗೆ) ವರೆಗೆ ನೀಡಲಾಗುತ್ತದೆ.",
+                "शारीरिक स्थिति स्कोर 1 (बहुत दुबला) से 5 (बहुत मोटा) तक दिया जाता है।"
+              ),
               answer: true,
-              explain: L("Correct — it's a 1-to-5 scale, with about 3 to 3.5 generally being the well-balanced range."),
+              explain: L(
+                "Correct — it's a 1-to-5 scale, with about 3 to 3.5 generally being the well-balanced range.",
+                "సరైనది — ఇది 1 నుండి 5 స్కేల్, సాధారణంగా 3 నుండి 3.5 వరకు బాగా సమతుల్యమైన శ్రేణి.",
+                "சரி — இது 1 முதல் 5 வரையிலான அளவுகோல், பொதுவாக 3 முதல் 3.5 வரை சீரான வரம்பு.",
+                "ಸರಿ — ಇದು 1 ರಿಂದ 5 ರ ಮಾಪಕ, ಸಾಮಾನ್ಯವಾಗಿ 3 ರಿಂದ 3.5 ರವರೆಗೆ ಸಮತೋಲಿತ ವ್ಯಾಪ್ತಿ.",
+                "सही है — यह 1-से-5 का पैमाना है, जिसमें आमतौर पर 3 से 3.5 संतुलित सीमा मानी जाती है।"
+              ),
             },
             {
               topicId: "t-bcs-application",
               type: "mcq",
-              q: L("Why is it best to check Body Condition Score again and again, rather than just once?"),
+              q: L(
+                "Why is it best to check Body Condition Score again and again, rather than just once?",
+                "శరీర స్థితి స్కోర్‌ను ఒక్కసారే కాకుండా మళ్ళీ మళ్ళీ తనిఖీ చేయడం ఎందుకు మంచిది?",
+                "உடல் நிலை மதிப்பெண்ணை ஒரு முறை மட்டும் அல்லாமல் மீண்டும் மீண்டும் சரிபார்ப்பது ஏன் சிறந்தது?",
+                "ದೇಹಸ್ಥಿತಿ ಅಂಕವನ್ನು ಒಂದೇ ಬಾರಿ ಅಲ್ಲದೆ ಮತ್ತೆ ಮತ್ತೆ ಪರಿಶೀಲಿಸುವುದು ಏಕೆ ಉತ್ತಮ?",
+                "शारीरिक स्थिति स्कोर को सिर्फ एक बार की बजाय बार-बार जांचना सबसे अच्छा क्यों है?"
+              ),
               options: [
-                L("Because a single check is never accurate at all"),
-                L("Because a sudden drop between two checks is often the earliest warning sign of a problem"),
-                L("Because the score changes every hour"),
-                L("Checking repeatedly isn't actually useful"),
+                L(
+                  "Because a single check is never accurate at all",
+                  "ఎందుకంటే ఒకే తనిఖీ ఎప్పుడూ ఖచ్చితమైనది కాదు",
+                  "ஏனெனில் ஒரு சரிபார்ப்பு ஒருபோதும் துல்லியமாக இருக்காது",
+                  "ಏಕೆಂದರೆ ಒಂದೇ ಪರಿಶೀಲನೆ ಎಂದಿಗೂ ನಿಖರವಾಗಿರುವುದಿಲ್ಲ",
+                  "क्योंकि एक बार की जांच कभी भी सटीक नहीं होती"
+                ),
+                L(
+                  "Because a sudden drop between two checks is often the earliest warning sign of a problem",
+                  "ఎందుకంటే రెండు తనిఖీల మధ్య అకస్మాత్తు తగ్గుదల తరచుగా సమస్యకు తొలి హెచ్చరిక సంకేతం",
+                  "ஏனெனில் இரண்டு சரிபார்ப்புகளுக்கு இடையே திடீர் குறைவு பெரும்பாலும் ஒரு பிரச்சினையின் மிக ஆரம்ப எச்சரிக்கை அறிகுறியாக இருக்கும்",
+                  "ಏಕೆಂದರೆ ಎರಡು ಪರಿಶೀಲನೆಗಳ ನಡುವೆ ಹಠಾತ್ ಇಳಿಕೆ ಆಗಾಗ ಸಮಸ್ಯೆಯ ಅತ್ಯಂತ ಆರಂಭಿಕ ಎಚ್ಚರಿಕೆ ಸೂಚನೆಯಾಗಿರುತ್ತದೆ",
+                  "क्योंकि दो जांचों के बीच अचानक गिरावट अक्सर किसी समस्या का सबसे पहला चेतावनी संकेत होती है"
+                ),
+                L(
+                  "Because the score changes every hour",
+                  "ఎందుకంటే స్కోర్ ప్రతి గంటకు మారుతుంది",
+                  "ஏனெனில் மதிப்பெண் ஒவ்வொரு மணி நேரமும் மாறுகிறது",
+                  "ಏಕೆಂದರೆ ಅಂಕ ಪ್ರತಿ ಗಂಟೆಗೆ ಬದಲಾಗುತ್ತದೆ",
+                  "क्योंकि स्कोर हर घंटे बदलता है"
+                ),
+                L(
+                  "Checking repeatedly isn't actually useful",
+                  "పదేపదే తనిఖీ చేయడం నిజానికి ఉపయోగకరం కాదు",
+                  "மீண்டும் மீண்டும் சரிபார்ப்பது உண்மையில் பயனுள்ளதல்ல",
+                  "ಪದೇ ಪದೇ ಪರಿಶೀಲಿಸುವುದು ನಿಜವಾಗಿ ಉಪಯುಕ್ತವಲ್ಲ",
+                  "बार-बार जांचना असल में उपयोगी नहीं है"
+                ),
               ],
               answer: 1,
-              explain: L("Checking at the same points in an animal's cycle and watching how the score changes catches problems earlier than a single one-time look."),
+              explain: L(
+                "Checking at the same points in an animal's cycle and watching how the score changes catches problems earlier than a single one-time look.",
+                "జంతువు చక్రంలో ఒకే బిందువుల వద్ద తనిఖీ చేసి, స్కోర్ ఎలా మారుతుందో గమనించడం ఒకసారి చూడటం కంటే సమస్యలను ముందుగా పట్టుకుంటుంది.",
+                "விலங்கின் சுழற்சியில் அதே புள்ளிகளில் சரிபார்த்து, மதிப்பெண் எப்படி மாறுகிறது என்று கவனிப்பது ஒரு முறை பார்ப்பதை விட பிரச்சினைகளை முன்னதாக கண்டறியும்.",
+                "ಪ್ರಾಣಿಯ ಚಕ್ರದಲ್ಲಿ ಅದೇ ಬಿಂದುಗಳಲ್ಲಿ ಪರಿಶೀಲಿಸಿ, ಅಂಕ ಹೇಗೆ ಬದಲಾಗುತ್ತದೆ ಎಂದು ಗಮನಿಸುವುದು ಒಂದೇ ಬಾರಿ ನೋಡುವುದಕ್ಕಿಂತ ಸಮಸ್ಯೆಗಳನ್ನು ಮೊದಲೇ ಪತ್ತೆಹಚ್ಚುತ್ತದೆ.",
+                "पशु के चक्र में एक ही बिंदुओं पर जांचना और स्कोर कैसे बदलता है यह देखना, एक बार देखने से पहले ही समस्याओं को पकड़ लेता है।"
+              ),
             },
             {
               topicId: "t-bcs-application",
               type: "truefalse",
-              q: L("An animal that is too thin close to giving birth only risks giving less milk, with no risk to the calf."),
+              q: L(
+                "An animal that is too thin close to giving birth only risks giving less milk, with no risk to the calf.",
+                "ఈనడానికి దగ్గరగా చాలా సన్నగా ఉన్న జంతువుకు తక్కువ పాలు ఇచ్చే ప్రమాదం మాత్రమే ఉంది, దూడకు ఎలాంటి ప్రమాదం లేదు.",
+                "ஈனுவதற்கு நெருக்கமாக மிகவும் மெலிந்திருக்கும் விலங்கு குறைவான பால் தரும் ஆபத்தை மட்டுமே கொண்டுள்ளது, கன்றுக்கு எந்த ஆபத்தும் இல்லை.",
+                "ಈಯುವುದಕ್ಕೆ ಹತ್ತಿರ ತೀರಾ ತೆಳ್ಳಗಿರುವ ಪ್ರಾಣಿಗೆ ಕಡಿಮೆ ಹಾಲು ಕೊಡುವ ಅಪಾಯ ಮಾತ್ರ ಇದೆ, ಕರುವಿಗೆ ಯಾವುದೇ ಅಪಾಯವಿಲ್ಲ.",
+                "ब्याने के करीब बहुत दुबला पशु सिर्फ कम दूध देने का जोखिम रखता है, बछड़े को कोई खतरा नहीं होता।"
+              ),
               answer: false,
-              explain: L("No — being too thin close to giving birth raises the risk of a weak calf AND illness in the mother, not just a milk problem."),
+              explain: L(
+                "No — being too thin close to giving birth raises the risk of a weak calf AND illness in the mother, not just a milk problem.",
+                "కాదు — ఈనడానికి దగ్గరగా చాలా సన్నగా ఉండటం బలహీనమైన దూడ, తల్లికి అనారోగ్యం రెండింటి ప్రమాదాన్ని పెంచుతుంది, కేవలం పాల సమస్య మాత్రమే కాదు.",
+                "இல்லை — ஈனுவதற்கு நெருக்கமாக மிகவும் மெலிந்திருப்பது பலவீனமான கன்று மற்றும் தாய்க்கு நோய் வரும் ஆபத்தை அதிகரிக்கிறது, வெறும் பால் பிரச்சினை மட்டுமல்ல.",
+                "ಇಲ್ಲ — ಈಯುವುದಕ್ಕೆ ಹತ್ತಿರ ತೀರಾ ತೆಳ್ಳಗಿರುವುದು ದುರ್ಬಲ ಕರು ಮತ್ತು ತಾಯಿಗೆ ಅನಾರೋಗ್ಯದ ಅಪಾಯವನ್ನು ಹೆಚ್ಚಿಸುತ್ತದೆ, ಬರೀ ಹಾಲಿನ ಸಮಸ್ಯೆ ಅಲ್ಲ.",
+                "नहीं — ब्याने के करीब बहुत दुबला होना कमजोर बछड़े और मां में बीमारी दोनों का खतरा बढ़ाता है, सिर्फ दूध की समस्या नहीं।"
+              ),
             },
           ],
         },
