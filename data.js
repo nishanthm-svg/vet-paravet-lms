@@ -4361,23 +4361,37 @@ export const MODULES = [
           },
           {
             type: "text",
-            heading: L("Theileriosis"),
+            heading: L("Theileriosis", "థైలేరియోసిస్", "தைலேரியோசிஸ்", "ಥೈಲೇರಿಯೋಸಿಸ್", "थाइलेरियोसिस"),
             html: L(
-              "Theileriosis is caused by a tiny parasite spread by ticks. Young exotic and crossbred cattle are highly at risk; Indian (zebu) breeds are comparatively resistant, and buffaloes usually get only a mild form."
+              "Theileriosis is caused by a tiny parasite spread by ticks. Young exotic and crossbred cattle are highly at risk; Indian (zebu) breeds are comparatively resistant, and buffaloes usually get only a mild form.",
+              "థైలేరియోసిస్ పేలు వ్యాపింపజేసే ఒక సూక్ష్మ పరాన్నజీవి వల్ల వస్తుంది. చిన్న వయసున్న విదేశీ, సంకర జాతి పశువులకు దీని ప్రమాదం ఎక్కువ; భారతీయ (జీబూ) జాతులు తులనాత్మకంగా తట్టుకుంటాయి, గేదెలకు సాధారణంగా తేలికపాటి రూపమే వస్తుంది.",
+              "தைலேரியோசிஸ் உண்ணிகளால் பரவும் ஒரு நுண்ணிய ஒட்டுண்ணியால் ஏற்படுகிறது. இளம் வெளிநாட்டு மற்றும் கலப்பின மாடுகளுக்கு இதன் ஆபத்து அதிகம்; இந்திய (ஜெபு) இனங்கள் ஒப்பீட்டளவில் எதிர்ப்புத் திறன் கொண்டவை, எருமைகளுக்கு பொதுவாக லேசான வடிவமே வரும்.",
+              "ಥೈಲೇರಿಯೋಸಿಸ್ ಉಣ್ಣಿಗಳಿಂದ ಹರಡುವ ಸೂಕ್ಷ್ಮ ಪರಾವಲಂಬಿಯಿಂದ ಬರುತ್ತದೆ. ಎಳೆಯ ವಿದೇಶಿ ಮತ್ತು ಮಿಶ್ರತಳಿ ದನಗಳಿಗೆ ಇದರ ಅಪಾಯ ಹೆಚ್ಚು; ಭಾರತೀಯ (ಜೆಬು) ತಳಿಗಳು ಹೋಲಿಕೆಯಲ್ಲಿ ತಡೆದುಕೊಳ್ಳುತ್ತವೆ, ಎಮ್ಮೆಗಳಿಗೆ ಸಾಮಾನ್ಯವಾಗಿ ಸೌಮ್ಯ ರೂಪ ಮಾತ್ರ ಬರುತ್ತದೆ.",
+              "थाइलेरियोसिस किलनी से फैलने वाले एक सूक्ष्म परजीवी से होता है। कम उम्र के विदेशी और संकर नस्ल के पशुओं को इसका ख़तरा बहुत ज़्यादा होता है; भारतीय (ज़ेबू) नस्लें तुलनात्मक रूप से प्रतिरोधी होती हैं, और भैंसों में आमतौर पर हल्का रूप ही होता है।"
             ),
           },
           {
             type: "stat-grid",
             items: [
               {
-                label: L("Watch for"),
+                label: L("Watch for", "గమనించాల్సినవి", "கவனிக்க வேண்டியவை", "ಗಮನಿಸಬೇಕಾದದ್ದು", "किस पर नज़र रखें"),
                 text: L(
-                  "Fever, swollen lymph nodes, pale gums, weakness (anaemia), nasal discharge, yellowing of the eyes or gums (jaundice), and rapid, shallow breathing."
+                  "Fever, swollen lymph nodes, pale gums, weakness (anaemia), nasal discharge, yellowing of the eyes or gums (jaundice), and rapid, shallow breathing.",
+                  "జ్వరం, వాచిన శోషరస గ్రంథులు, పాలిపోయిన చిగుళ్ళు, నీరసం (రక్తహీనత), ముక్కు నుండి స్రావం, కళ్ళు లేదా చిగుళ్ళు పసుపు రంగులోకి మారడం (కామెర్లు), వేగంగా, పైపైన శ్వాస తీసుకోవడం.",
+                  "காய்ச்சல், வீங்கிய நிணநீர் முடிச்சுகள், வெளிறிய ஈறுகள், பலவீனம் (இரத்தசோகை), மூக்கிலிருந்து வடிதல், கண்கள் அல்லது ஈறுகள் மஞ்சளாக மாறுதல் (மஞ்சள் காமாலை), வேகமான, ஆழமற்ற சுவாசம்.",
+                  "ಜ್ವರ, ಊದಿಕೊಂಡ ದುಗ್ಧರಸ ಗ್ರಂಥಿಗಳು, ಬಿಳಿಚಿಕೊಂಡ ವಸಡು, ದೌರ್ಬಲ್ಯ (ರಕ್ತಹೀನತೆ), ಮೂಗಿನಿಂದ ಸ್ರಾವ, ಕಣ್ಣು ಅಥವಾ ವಸಡು ಹಳದಿಯಾಗುವುದು (ಕಾಮಾಲೆ), ವೇಗವಾದ, ಆಳವಿಲ್ಲದ ಉಸಿರಾಟ.",
+                  "बुखार, बढ़ी हुई लसीका ग्रंथियां, पीले-सफ़ेद पड़े मसूड़े, कमज़ोरी (खून की कमी), नाक से स्राव, आंखों या मसूड़ों का पीला पड़ना (पीलिया), और तेज़, उथली सांस।"
                 ),
               },
               {
-                label: L("Severe cases"),
-                text: L("Some animals show nervous signs — an unsteady stepping walk, pressing the head against something, and eventually collapse."),
+                label: L("Severe cases", "తీవ్రమైన కేసులు", "தீவிரமான நிலைகள்", "ತೀವ್ರ ಪ್ರಕರಣಗಳು", "गंभीर मामले"),
+                text: L(
+                  "Some animals show nervous signs — an unsteady stepping walk, pressing the head against something, and eventually collapse.",
+                  "కొన్ని పశువుల్లో నాడీ లక్షణాలు కనిపిస్తాయి — తడబడే నడక, ఏదైనా వస్తువుకు తలను నొక్కుకోవడం, చివరకు కుప్పకూలిపోవడం.",
+                  "சில விலங்குகளில் நரம்பு தொடர்பான அறிகுறிகள் தெரியும் — தள்ளாடும் நடை, ஏதாவது ஒன்றின் மீது தலையை அழுத்திக்கொள்வது, இறுதியில் சுருண்டு விழுவது.",
+                  "ಕೆಲವು ಪ್ರಾಣಿಗಳಲ್ಲಿ ನರಮಂಡಲದ ಲಕ್ಷಣಗಳು ಕಾಣಿಸುತ್ತವೆ — ಎಡವುವ ನಡಿಗೆ, ಯಾವುದಾದರೂ ವಸ್ತುವಿಗೆ ತಲೆಯನ್ನು ಒತ್ತುವುದು, ಕೊನೆಗೆ ಕುಸಿದು ಬೀಳುವುದು.",
+                  "कुछ पशुओं में नसों से जुड़े लक्षण दिखते हैं — लड़खड़ाती चाल, किसी चीज़ पर सिर दबाना, और आख़िर में गिर पड़ना।"
+                ),
               },
             ],
           },
@@ -4385,21 +4399,39 @@ export const MODULES = [
         check: [
           {
             type: "mcq",
-            q: L("What should be done first if an animal is bitten by a dog suspected of having rabies?"),
+            q: L("What should be done first if an animal is bitten by a dog suspected of having rabies?", "రేబీస్ ఉందని అనుమానం ఉన్న కుక్క పశువును కరిస్తే ముందుగా ఏం చేయాలి?", "வெறிநோய் இருக்கலாம் என சந்தேகிக்கப்படும் நாய் ஒரு விலங்கைக் கடித்தால் முதலில் என்ன செய்ய வேண்டும்?", "ರೇಬೀಸ್ ಇರಬಹುದೆಂದು ಶಂಕಿಸುವ ನಾಯಿ ಪ್ರಾಣಿಗೆ ಕಚ್ಚಿದರೆ ಮೊದಲು ಏನು ಮಾಡಬೇಕು?", "अगर रेबीज़ के शक वाला कुत्ता किसी पशु को काट ले, तो सबसे पहले क्या करना चाहिए?"),
             options: [
-              L("Wait a few weeks to see if any signs appear"),
-              L("Wash the wound under running water for 5–10 minutes, clean with soap, and get the vet involved immediately"),
-              L("Only report it if the animal starts drooling"),
-              L("Give the animal any vaccine you have on hand yourself"),
+              L("Wait a few weeks to see if any signs appear", "ఏవైనా లక్షణాలు కనిపిస్తాయేమో చూడటానికి కొన్ని వారాలు ఆగాలి", "ஏதாவது அறிகுறிகள் தெரிகிறதா என்று பார்க்க சில வாரங்கள் காத்திருக்க வேண்டும்", "ಏನಾದರೂ ಲಕ್ಷಣಗಳು ಕಾಣಿಸುತ್ತವೆಯೇ ಎಂದು ನೋಡಲು ಕೆಲವು ವಾರ ಕಾಯಬೇಕು", "कुछ हफ़्ते इंतज़ार करें कि कोई लक्षण दिखता है या नहीं"),
+              L("Wash the wound under running water for 5–10 minutes, clean with soap, and get the vet involved immediately", "గాయాన్ని పారే నీటి కింద 5–10 నిమిషాలు కడిగి, సబ్బుతో శుభ్రం చేసి, వెంటనే పశువైద్యుడిని రంగంలోకి తీసుకురావాలి", "காயத்தை ஓடும் நீரில் 5–10 நிமிடங்கள் கழுவி, சோப்பால் சுத்தம் செய்து, உடனே கால்நடை மருத்துவரை ஈடுபடுத்த வேண்டும்", "ಗಾಯವನ್ನು ಹರಿಯುವ ನೀರಿನಲ್ಲಿ 5–10 ನಿಮಿಷ ತೊಳೆದು, ಸಾಬೂನಿನಿಂದ ಶುಚಿಗೊಳಿಸಿ, ತಕ್ಷಣ ಪಶುವೈದ್ಯರನ್ನು ಸೇರಿಸಿಕೊಳ್ಳಬೇಕು", "घाव को बहते पानी के नीचे 5–10 मिनट धोएं, साबुन से साफ़ करें, और तुरंत पशु चिकित्सक को बुलाएं"),
+              L("Only report it if the animal starts drooling", "పశువు చొంగ కార్చడం మొదలుపెట్టినప్పుడే తెలియజేయాలి", "விலங்கு உமிழ்நீர் வடிக்கத் தொடங்கினால் மட்டுமே தெரிவிக்க வேண்டும்", "ಪ್ರಾಣಿ ಜೊಲ್ಲು ಸುರಿಸಲು ಶುರುವಾದರೆ ಮಾತ್ರ ವರದಿ ಮಾಡಬೇಕು", "सिर्फ़ तब बताएं जब पशु लार टपकाने लगे"),
+              L("Give the animal any vaccine you have on hand yourself", "మీ దగ్గర ఉన్న ఏ టీకానైనా మీరే పశువుకు వేయాలి", "உங்களிடம் இருக்கும் ஏதாவது ஒரு தடுப்பூசியை நீங்களே விலங்குக்குப் போட வேண்டும்", "ನಿಮ್ಮ ಬಳಿ ಇರುವ ಯಾವುದಾದರೂ ಲಸಿಕೆಯನ್ನು ನೀವೇ ಪ್ರಾಣಿಗೆ ಕೊಡಬೇಕು", "आपके पास जो भी टीका हो, वह खुद जानवर को लगा दें"),
             ],
             answer: 1,
-            explain: L("Wash and clean the wound right away and involve the vet immediately — post-bite treatment may be needed, and this is urgent."),
+            explain: L(
+              "Wash and clean the wound right away and involve the vet immediately — post-bite treatment may be needed, and this is urgent.",
+              "గాయాన్ని వెంటనే కడిగి శుభ్రం చేసి, పశువైద్యుడిని వెంటనే రంగంలోకి తీసుకురావాలి — కాటు తర్వాత చికిత్స అవసరం కావచ్చు, ఇది అత్యవసరం.",
+              "காயத்தை உடனே கழுவிச் சுத்தம் செய்து, கால்நடை மருத்துவரை உடனே ஈடுபடுத்த வேண்டும் — கடித்த பிறகான சிகிச்சை தேவைப்படலாம், இது அவசரம்.",
+              "ಗಾಯವನ್ನು ತಕ್ಷಣ ತೊಳೆದು ಶುಚಿಗೊಳಿಸಿ, ಪಶುವೈದ್ಯರನ್ನು ತಕ್ಷಣ ಸೇರಿಸಿಕೊಳ್ಳಬೇಕು — ಕಡಿತದ ನಂತರದ ಚಿಕಿತ್ಸೆ ಬೇಕಾಗಬಹುದು, ಇದು ತುರ್ತು.",
+              "घाव को तुरंत धोकर साफ़ करें और पशु चिकित्सक को तुरंत बुलाएं — काटने के बाद का इलाज ज़रूरी हो सकता है, और यह आपात स्थिति है।"
+            ),
           },
           {
             type: "truefalse",
-            q: L("Indian (zebu) cattle breeds are comparatively resistant to Theileriosis compared with exotic and crossbred cattle."),
+            q: L(
+              "Indian (zebu) cattle breeds are comparatively resistant to Theileriosis compared with exotic and crossbred cattle.",
+              "విదేశీ, సంకర జాతి పశువులతో పోలిస్తే భారతీయ (జీబూ) పశు జాతులు థైలేరియోసిస్‌ను తులనాత్మకంగా తట్టుకుంటాయి.",
+              "வெளிநாட்டு, கலப்பின மாடுகளுடன் ஒப்பிடும்போது இந்திய (ஜெபு) மாட்டினங்கள் தைலேரியோசிஸை எதிர்க்கும் திறன் கொண்டவை.",
+              "ವಿದೇಶಿ ಮತ್ತು ಮಿಶ್ರತಳಿ ದನಗಳಿಗೆ ಹೋಲಿಸಿದರೆ ಭಾರತೀಯ (ಜೆಬು) ದನದ ತಳಿಗಳು ಥೈಲೇರಿಯೋಸಿಸ್‌ಗೆ ಹೋಲಿಕೆಯಲ್ಲಿ ಪ್ರತಿರೋಧ ಹೊಂದಿವೆ.",
+              "विदेशी और संकर नस्ल के पशुओं की तुलना में भारतीय (ज़ेबू) नस्ल के पशु थाइलेरियोसिस के प्रति तुलनात्मक रूप से प्रतिरोधी होते हैं।"
+            ),
             answer: true,
-            explain: L("Yes — young exotic and crossbred cattle are highly susceptible to Theileriosis, while Indian zebu breeds are comparatively resistant."),
+            explain: L(
+              "Yes — young exotic and crossbred cattle are highly susceptible to Theileriosis, while Indian zebu breeds are comparatively resistant.",
+              "అవును — చిన్న వయసున్న విదేశీ, సంకర జాతి పశువులకు థైలేరియోసిస్ సోకే అవకాశం ఎక్కువ, భారతీయ జీబూ జాతులు తులనాత్మకంగా తట్టుకుంటాయి.",
+              "ஆம் — இளம் வெளிநாட்டு, கலப்பின மாடுகளுக்கு தைலேரியோசிஸ் எளிதில் தொற்றும், இந்திய ஜெபு இனங்கள் ஒப்பீட்டளவில் எதிர்ப்புத் திறன் கொண்டவை.",
+              "ಹೌದು — ಎಳೆಯ ವಿದೇಶಿ ಮತ್ತು ಮಿಶ್ರತಳಿ ದನಗಳಿಗೆ ಥೈಲೇರಿಯೋಸಿಸ್ ಬರುವ ಸಾಧ್ಯತೆ ಹೆಚ್ಚು, ಭಾರತೀಯ ಜೆಬು ತಳಿಗಳು ಹೋಲಿಕೆಯಲ್ಲಿ ಪ್ರತಿರೋಧ ಹೊಂದಿವೆ.",
+              "हां — कम उम्र के विदेशी और संकर नस्ल के पशुओं को थाइलेरियोसिस होने की संभावना बहुत ज़्यादा है, जबकि भारतीय ज़ेबू नस्लें तुलनात्मक रूप से प्रतिरोधी हैं।"
+            ),
           },
         ],
       },
@@ -4410,45 +4442,75 @@ export const MODULES = [
         {
           topicId: "t-m4-bq-bruc-ibr",
           type: "mcq",
-          q: L("Which age group of cattle is most commonly affected by Black Quarter (BQ)?"),
-          options: [L("Newborn calves under 1 month"), L("6 months to 2 years old"), L("Only animals over 10 years old"), L("Only pregnant cows")],
+          q: L("Which age group of cattle is most commonly affected by Black Quarter (BQ)?", "ఏ వయసు గల పశువులకు బ్లాక్ క్వార్టర్ (BQ) ఎక్కువగా సోకుతుంది?", "எந்த வயதுடைய மாடுகளை பிளாக் குவார்ட்டர் (BQ) அதிகமாகப் பாதிக்கிறது?", "ಯಾವ ವಯಸ್ಸಿನ ದನಗಳಿಗೆ ಬ್ಲಾಕ್ ಕ್ವಾರ್ಟರ್ (BQ) ಹೆಚ್ಚಾಗಿ ಬರುತ್ತದೆ?", "ब्लैक क्वार्टर (BQ) से पशुओं की कौन सी उम्र सबसे ज़्यादा प्रभावित होती है?"),
+          options: [L("Newborn calves under 1 month", "1 నెల కంటే తక్కువ వయసున్న నవజాత దూడలు", "1 மாதத்துக்குக் குறைவான புதிதாகப் பிறந்த கன்றுகள்", "1 ತಿಂಗಳಿಗಿಂತ ಕಡಿಮೆ ವಯಸ್ಸಿನ ನವಜಾತ ಕರುಗಳು", "1 महीने से कम उम्र के नवजात बछड़े"), L("6 months to 2 years old", "6 నెలల నుండి 2 సంవత్సరాల వయసు", "6 மாதம் முதல் 2 வயது வரை", "6 ತಿಂಗಳಿಂದ 2 ವರ್ಷ ವಯಸ್ಸು", "6 महीने से 2 साल की उम्र"), L("Only animals over 10 years old", "10 సంవత్సరాలు దాటిన పశువులకు మాత్రమే", "10 வயதுக்கு மேற்பட்ட விலங்குகளுக்கு மட்டும்", "10 ವರ್ಷ ಮೀರಿದ ಪ್ರಾಣಿಗಳಿಗೆ ಮಾತ್ರ", "सिर्फ़ 10 साल से ज़्यादा उम्र के पशुओं को"), L("Only pregnant cows", "చూలుతో ఉన్న ఆవులకు మాత్రమే", "சினையாக இருக்கும் பசுக்களுக்கு மட்டும்", "ಗಬ್ಬದ ಹಸುಗಳಿಗೆ ಮಾತ್ರ", "सिर्फ़ गाभिन गायों को")],
           answer: 1,
-          explain: L("BQ generally affects healthy young animals between 6 months and 2 years of age."),
+          explain: L("BQ generally affects healthy young animals between 6 months and 2 years of age.", "BQ సాధారణంగా 6 నెలల నుండి 2 సంవత్సరాల మధ్య వయసున్న ఆరోగ్యవంతమైన చిన్న పశువులకు సోకుతుంది.", "BQ பொதுவாக 6 மாதம் முதல் 2 வயது வரையிலான ஆரோக்கியமான இளம் மாடுகளைப் பாதிக்கிறது.", "BQ ಸಾಮಾನ್ಯವಾಗಿ 6 ತಿಂಗಳಿಂದ 2 ವರ್ಷದ ನಡುವಿನ ಆರೋಗ್ಯವಂತ ಎಳೆಯ ಪ್ರಾಣಿಗಳನ್ನು ಬಾಧಿಸುತ್ತದೆ.", "BQ आमतौर पर 6 महीने से 2 साल की उम्र के स्वस्थ युवा पशुओं को प्रभावित करता है।"),
         },
         {
           topicId: "t-m4-bq-bruc-ibr",
           type: "truefalse",
-          q: L("If a cow aborts after the 5th month of pregnancy, it is safe to handle the aborted material with bare hands as long as you wash up afterward."),
+          q: L(
+            "If a cow aborts after the 5th month of pregnancy, it is safe to handle the aborted material with bare hands as long as you wash up afterward.",
+            "ఆవు గర్భం 5వ నెల తర్వాత గర్భస్రావం అయితే, తర్వాత చేతులు కడుక్కుంటే చాలు, ఆ పదార్థాన్ని ఖాళీ చేతులతో ముట్టుకోవడం సురక్షితం.",
+            "ஒரு பசு கர்ப்பத்தின் 5வது மாதத்திற்குப் பிறகு கருச்சிதைந்தால், பிறகு கைகளைக் கழுவினால் போதும், அந்தப் பொருளை வெறும் கைகளால் தொடுவது பாதுகாப்பானது.",
+            "ಹಸು ಗರ್ಭದ 5ನೇ ತಿಂಗಳ ನಂತರ ಗರ್ಭಪಾತವಾದರೆ, ನಂತರ ಕೈ ತೊಳೆದುಕೊಂಡರೆ ಸಾಕು, ಆ ವಸ್ತುವನ್ನು ಬರಿಗೈಯಿಂದ ಮುಟ್ಟುವುದು ಸುರಕ್ಷಿತ.",
+            "अगर गाय को गर्भावस्था के 5वें महीने के बाद गर्भपात हो जाए, तो बाद में हाथ धो लेने पर उस सामग्री को नंगे हाथों से छूना सुरक्षित है।"
+          ),
           answer: false,
-          explain: L("No — aborted material, afterbirth and discharges should never be handled with bare hands. Brucellosis material carries a very high bacterial load and is zoonotic."),
+          explain: L(
+            "No — aborted material, afterbirth and discharges should never be handled with bare hands. Brucellosis material carries a very high bacterial load and is zoonotic.",
+            "కాదు — గర్భస్రావ పదార్థాన్ని, మావిని, స్రావాలను ఎప్పుడూ ఖాళీ చేతులతో ముట్టుకోకూడదు. బ్రూసెల్లోసిస్ పదార్థంలో బ్యాక్టీరియా చాలా ఎక్కువగా ఉంటుంది, ఇది జూనోటిక్.",
+            "இல்லை — கருச்சிதைந்த பொருள், நஞ்சுக்கொடி, திரவங்களை ஒருபோதும் வெறும் கைகளால் தொடக்கூடாது. புருசெல்லோசிஸ் பொருளில் பாக்டீரியா மிக அதிகமாக இருக்கும், மேலும் இது விலங்கு-மனித நோய்.",
+            "ಇಲ್ಲ — ಗರ್ಭಪಾತದ ವಸ್ತು, ಮಾಸು ಮತ್ತು ಸ್ರಾವಗಳನ್ನು ಎಂದಿಗೂ ಬರಿಗೈಯಿಂದ ಮುಟ್ಟಬಾರದು. ಬ್ರೂಸೆಲ್ಲೋಸಿಸ್ ವಸ್ತುವಿನಲ್ಲಿ ಬ್ಯಾಕ್ಟೀರಿಯಾ ಬಹಳ ಹೆಚ್ಚಿರುತ್ತದೆ ಮತ್ತು ಇದು ಝೂನೋಟಿಕ್.",
+            "नहीं — गर्भपात की सामग्री, जेर और स्राव को कभी नंगे हाथों से नहीं छूना चाहिए। ब्रुसेलोसिस की सामग्री में बैक्टीरिया बहुत ज़्यादा होते हैं और यह ज़ूनोटिक है।"
+          ),
         },
         {
           topicId: "t-m4-bq-bruc-ibr",
           type: "mcq",
-          q: L("IBR abortion is most commonly seen at which stage of pregnancy?"),
-          options: [L("1st month"), L("6th to 8th month"), L("It never causes abortion"), L("Only after calving")],
+          q: L("IBR abortion is most commonly seen at which stage of pregnancy?", "IBR గర్భస్రావం గర్భంలోని ఏ దశలో ఎక్కువగా కనిపిస్తుంది?", "IBR கருச்சிதைவு கர்ப்பத்தின் எந்தக் கட்டத்தில் அதிகமாகக் காணப்படுகிறது?", "IBR ಗರ್ಭಪಾತ ಗರ್ಭದ ಯಾವ ಹಂತದಲ್ಲಿ ಹೆಚ್ಚಾಗಿ ಕಂಡುಬರುತ್ತದೆ?", "IBR से गर्भपात गर्भावस्था की किस अवस्था में सबसे ज़्यादा देखा जाता है?"),
+          options: [L("1st month", "1వ నెల", "1வது மாதம்", "1ನೇ ತಿಂಗಳು", "पहला महीना"), L("6th to 8th month", "6వ నుండి 8వ నెల", "6வது முதல் 8வது மாதம்", "6ರಿಂದ 8ನೇ ತಿಂಗಳು", "6वें से 8वें महीने"), L("It never causes abortion", "ఇది ఎప్పుడూ గర్భస్రావం కలిగించదు", "இது ஒருபோதும் கருச்சிதைவை உண்டாக்காது", "ಇದು ಎಂದಿಗೂ ಗರ್ಭಪಾತ ಉಂಟುಮಾಡುವುದಿಲ್ಲ", "इससे कभी गर्भपात नहीं होता"), L("Only after calving", "ఈనిన తర్వాత మాత్రమే", "ஈன்ற பிறகு மட்டுமே", "ಈದ ನಂತರ ಮಾತ್ರ", "बच्चा जनने के बाद ही")],
           answer: 1,
-          explain: L("IBR abortion is common between the 6th and 8th month of pregnancy."),
+          explain: L("IBR abortion is common between the 6th and 8th month of pregnancy.", "IBR గర్భస్రావం గర్భం 6వ నుండి 8వ నెల మధ్య సాధారణం.", "IBR கருச்சிதைவு கர்ப்பத்தின் 6வது முதல் 8வது மாதம் வரை பொதுவானது.", "IBR ಗರ್ಭಪಾತ ಗರ್ಭದ 6ರಿಂದ 8ನೇ ತಿಂಗಳ ನಡುವೆ ಸಾಮಾನ್ಯ.", "IBR से गर्भपात गर्भावस्था के 6वें से 8वें महीने के बीच आम है।"),
         },
         {
           topicId: "t-m4-rabies-anthrax-thei",
           type: "mcq",
-          q: L("What should you do if you find an animal that died suddenly with high fever, breathing trouble and bleeding from body openings?"),
+          q: L(
+            "What should you do if you find an animal that died suddenly with high fever, breathing trouble and bleeding from body openings?",
+            "అధిక జ్వరం, శ్వాస ఇబ్బంది, శరీర రంధ్రాల నుండి రక్తస్రావంతో ఒక పశువు అకస్మాత్తుగా చనిపోయి కనిపిస్తే ఏం చేయాలి?",
+            "அதிக காய்ச்சல், மூச்சுத் திணறல், உடலின் துவாரங்களிலிருந்து ரத்தக்கசிவுடன் ஒரு விலங்கு திடீரென இறந்து கிடந்தால் என்ன செய்ய வேண்டும்?",
+            "ತೀವ್ರ ಜ್ವರ, ಉಸಿರಾಟದ ತೊಂದರೆ ಮತ್ತು ದೇಹದ ತೆರೆದ ಭಾಗಗಳಿಂದ ರಕ್ತಸ್ರಾವದೊಂದಿಗೆ ಪ್ರಾಣಿ ಇದ್ದಕ್ಕಿದ್ದಂತೆ ಸತ್ತಿರುವುದು ಕಂಡುಬಂದರೆ ಏನು ಮಾಡಬೇಕು?",
+            "अगर कोई पशु तेज़ बुखार, सांस में तकलीफ़ और शरीर के छिद्रों से खून बहने के बाद अचानक मरा मिले, तो क्या करना चाहिए?"
+          ),
           options: [
-            L("Open the carcass yourself to check what happened"),
-            L("Never open the carcass — report it immediately, since Anthrax is a possible cause"),
-            L("Bury it immediately without telling anyone"),
-            L("Ignore it since the animal is already dead"),
+            L("Open the carcass yourself to check what happened", "ఏం జరిగిందో తెలుసుకోవడానికి మీరే మృతదేహాన్ని తెరవాలి", "என்ன நடந்தது என்று பார்க்க நீங்களே உடலை அறுக்க வேண்டும்", "ಏನಾಯಿತೆಂದು ತಿಳಿಯಲು ನೀವೇ ದೇಹವನ್ನು ತೆರೆಯಬೇಕು", "क्या हुआ यह जानने के लिए खुद शव को चीरकर देखें"),
+            L("Never open the carcass — report it immediately, since Anthrax is a possible cause", "మృతదేహాన్ని ఎప్పుడూ తెరవకండి — ఆంత్రాక్స్ కారణం కావచ్చు కాబట్టి వెంటనే తెలియజేయండి", "உடலை ஒருபோதும் அறுக்காதீர்கள் — ஆந்த்ராக்ஸ் காரணமாக இருக்கலாம் என்பதால் உடனே தெரிவியுங்கள்", "ದೇಹವನ್ನು ಎಂದಿಗೂ ತೆರೆಯಬೇಡಿ — ಆಂಥ್ರಾಕ್ಸ್ ಕಾರಣವಾಗಿರಬಹುದು, ಆದ್ದರಿಂದ ತಕ್ಷಣ ತಿಳಿಸಿ", "शव को कभी न चीरें — एंथ्रेक्स इसका संभावित कारण हो सकता है, इसलिए तुरंत सूचना दें"),
+            L("Bury it immediately without telling anyone", "ఎవరికీ చెప్పకుండా వెంటనే పూడ్చిపెట్టండి", "யாரிடமும் சொல்லாமல் உடனே புதைத்துவிடுங்கள்", "ಯಾರಿಗೂ ಹೇಳದೆ ತಕ್ಷಣ ಹೂತುಹಾಕಿ", "किसी को बताए बिना तुरंत दफना दें"),
+            L("Ignore it since the animal is already dead", "పశువు ఇప్పటికే చనిపోయింది కాబట్టి పట్టించుకోకండి", "விலங்கு ஏற்கனவே இறந்துவிட்டதால் கண்டுகொள்ளாதீர்கள்", "ಪ್ರಾಣಿ ಈಗಾಗಲೇ ಸತ್ತಿರುವುದರಿಂದ ನಿರ್ಲಕ್ಷಿಸಿ", "जानवर तो पहले ही मर चुका है, इसलिए अनदेखा कर दें"),
           ],
           answer: 1,
-          explain: L("These are classic Anthrax warning signs. Never open a suspected Anthrax carcass — report it immediately and let the vet advise on safe handling."),
+          explain: L(
+            "These are classic Anthrax warning signs. Never open a suspected Anthrax carcass — report it immediately and let the vet advise on safe handling.",
+            "ఇవి ఆంత్రాక్స్ యొక్క సాధారణ హెచ్చరిక లక్షణాలు. అనుమానిత ఆంత్రాక్స్ మృతదేహాన్ని ఎప్పుడూ తెరవకండి — వెంటనే తెలియజేయండి, సురక్షితంగా ఎలా నిర్వహించాలో పశువైద్యుడు సలహా ఇస్తారు.",
+            "இவை ஆந்த்ராக்ஸின் வழக்கமான எச்சரிக்கை அறிகுறிகள். ஆந்த்ராக்ஸ் சந்தேகத்துக்குரிய இறந்த உடலை ஒருபோதும் அறுக்காதீர்கள் — உடனே தெரிவியுங்கள், பாதுகாப்பாக எப்படிக் கையாள்வது என்று கால்நடை மருத்துவர் ஆலோசனை வழங்குவார்.",
+            "ಇವು ಆಂಥ್ರಾಕ್ಸ್‌ನ ವಿಶಿಷ್ಟ ಎಚ್ಚರಿಕೆ ಲಕ್ಷಣಗಳು. ಆಂಥ್ರಾಕ್ಸ್ ಶಂಕೆಯ ಸತ್ತ ದೇಹವನ್ನು ಎಂದಿಗೂ ತೆರೆಯಬೇಡಿ — ತಕ್ಷಣ ತಿಳಿಸಿ, ಸುರಕ್ಷಿತವಾಗಿ ಹೇಗೆ ನಿರ್ವಹಿಸಬೇಕೆಂದು ಪಶುವೈದ್ಯರು ಸಲಹೆ ನೀಡುತ್ತಾರೆ.",
+            "ये एंथ्रेक्स के जाने-पहचाने चेतावनी वाले लक्षण हैं। एंथ्रेक्स के शक वाले शव को कभी न चीरें — तुरंत सूचना दें और सुरक्षित तरीके से निपटाने के बारे में पशु चिकित्सक की सलाह लें।"
+          ),
         },
         {
           topicId: "t-m4-rabies-anthrax-thei",
           type: "truefalse",
-          q: L("Once rabies symptoms appear in an animal, death is inevitable, usually within 24–48 hours."),
+          q: L("Once rabies symptoms appear in an animal, death is inevitable, usually within 24–48 hours.", "జంతువులో రేబీస్ లక్షణాలు కనిపించాక, మరణం తప్పదు, సాధారణంగా 24–48 గంటల్లోనే.", "ஒரு விலங்கில் ரேபிஸ் அறிகுறிகள் தெரிந்துவிட்டால், மரணம் தவிர்க்க முடியாதது, பொதுவாக 24–48 மணி நேரத்திற்குள்.", "ಪ್ರಾಣಿಯಲ್ಲಿ ರೇಬೀಸ್ ಲಕ್ಷಣಗಳು ಕಾಣಿಸಿಕೊಂಡ ಮೇಲೆ ಸಾವು ತಪ್ಪಿದ್ದಲ್ಲ, ಸಾಮಾನ್ಯವಾಗಿ 24–48 ಗಂಟೆಗಳಲ್ಲಿ.", "जानवर में रेबीज़ के लक्षण दिखने के बाद मौत निश्चित है, आमतौर पर 24–48 घंटे के भीतर।"),
           answer: true,
-          explain: L("Yes — once symptoms of rabies appear, death is inevitable, usually within 24–48 hours, which is why prevention and prompt post-bite care matter so much."),
+          explain: L(
+            "Yes — once symptoms of rabies appear, death is inevitable, usually within 24–48 hours, which is why prevention and prompt post-bite care matter so much.",
+            "అవును — రేబీస్ లక్షణాలు కనిపించాక మరణం తప్పదు, సాధారణంగా 24–48 గంటల్లోనే; అందుకే నివారణ, కాటు తర్వాత వెంటనే చేసే సంరక్షణ అంత ముఖ్యం.",
+            "ஆம் — ரேபிஸ் அறிகுறிகள் தெரிந்துவிட்டால் மரணம் தவிர்க்க முடியாதது, பொதுவாக 24–48 மணி நேரத்திற்குள்; அதனால்தான் தடுப்பும், கடித்த உடனே செய்யும் கவனிப்பும் மிகவும் முக்கியம்.",
+            "ಹೌದು — ರೇಬೀಸ್ ಲಕ್ಷಣಗಳು ಕಾಣಿಸಿಕೊಂಡ ಮೇಲೆ ಸಾವು ತಪ್ಪಿದ್ದಲ್ಲ, ಸಾಮಾನ್ಯವಾಗಿ 24–48 ಗಂಟೆಗಳಲ್ಲಿ; ಅದಕ್ಕಾಗಿಯೇ ತಡೆಗಟ್ಟುವಿಕೆ ಮತ್ತು ಕಡಿತದ ನಂತರದ ತಕ್ಷಣದ ಆರೈಕೆ ಅಷ್ಟು ಮುಖ್ಯ.",
+            "हां — रेबीज़ के लक्षण दिखने के बाद मौत निश्चित है, आमतौर पर 24–48 घंटे के भीतर; इसीलिए रोकथाम और काटने के तुरंत बाद की देखभाल इतनी ज़रूरी है।"
+          ),
         },
       ],
     },
@@ -4459,33 +4521,41 @@ export const MODULES = [
   // ==================================================================
   {
     id: "m4-l3",
-    title: L("The Vaccination Schedule"),
+    title: L("The Vaccination Schedule", "టీకాల షెడ్యూల్", "தடுப்பூசி அட்டவணை", "ಲಸಿಕೆ ವೇಳಾಪಟ್ಟಿ", "टीकाकरण की समय-सारणी"),
     estMinutes: 8,
     hook: [
       {
         type: "hero",
-        heading: L("Knowing What's Due Is Part of Your Job Too"),
+        heading: L("Knowing What's Due Is Part of Your Job Too", "ఏం వేయాల్సి ఉందో తెలుసుకోవడం కూడా మీ పనిలో భాగమే", "எது போட வேண்டும் என்பதை அறிந்திருப்பதும் உங்கள் வேலையின் ஒரு பகுதியே", "ಯಾವುದು ಬಾಕಿ ಇದೆ ಎಂದು ತಿಳಿದಿರುವುದೂ ನಿಮ್ಮ ಕೆಲಸದ ಭಾಗ", "क्या लगना बाकी है, यह जानना भी आपके काम का हिस्सा है"),
         text: L(
-          "You will never give a vaccine injection yourself — but knowing roughly when each one is due means you can remind the farmer, keep track of what's been done, and flag anything overdue to the vet before it becomes a problem."
+          "You will never give a vaccine injection yourself — but knowing roughly when each one is due means you can remind the farmer, keep track of what's been done, and flag anything overdue to the vet before it becomes a problem.",
+          "మీరు ఎప్పుడూ టీకా ఇంజెక్షన్ స్వయంగా వేయరు — కానీ ప్రతి టీకా ఎప్పుడు వేయాలో స్థూలంగా తెలిస్తే, రైతుకు గుర్తు చేయవచ్చు, ఏవి పూర్తయ్యాయో లెక్క ఉంచవచ్చు, సమస్య కాకముందే ఆలస్యమైనవాటిని పశువైద్యుడికి తెలియజేయవచ్చు.",
+          "நீங்கள் ஒருபோதும் தடுப்பூசி ஊசியை நீங்களே போட மாட்டீர்கள் — ஆனால் ஒவ்வொன்றும் எப்போது போட வேண்டும் என்பதைத் தோராயமாக அறிந்திருந்தால், விவசாயிக்கு நினைவூட்டலாம், எவை முடிந்தன என்று கணக்கு வைத்திருக்கலாம், பிரச்சினை ஆவதற்கு முன்பே தாமதமானவற்றை கால்நடை மருத்துவருக்குத் தெரிவிக்கலாம்.",
+          "ನೀವು ಎಂದಿಗೂ ಲಸಿಕೆ ಚುಚ್ಚುಮದ್ದನ್ನು ನೀವೇ ಕೊಡುವುದಿಲ್ಲ — ಆದರೆ ಪ್ರತಿಯೊಂದು ಯಾವಾಗ ಬಾಕಿ ಇದೆ ಎಂದು ಸ್ಥೂಲವಾಗಿ ತಿಳಿದಿದ್ದರೆ, ರೈತರಿಗೆ ನೆನಪಿಸಬಹುದು, ಯಾವುದು ಮುಗಿದಿದೆ ಎಂಬ ಲೆಕ್ಕ ಇಡಬಹುದು, ಸಮಸ್ಯೆಯಾಗುವ ಮೊದಲೇ ತಡವಾದವುಗಳನ್ನು ಪಶುವೈದ್ಯರಿಗೆ ತಿಳಿಸಬಹುದು.",
+          "आप खुद कभी टीके का इंजेक्शन नहीं लगाएंगे — लेकिन मोटे तौर पर यह जानने से कि कौन सा टीका कब लगना है, आप किसान को याद दिला सकते हैं, क्या-क्या हो चुका है उसका हिसाब रख सकते हैं, और जो टीका देर से लग रहा हो उसे समस्या बनने से पहले पशु चिकित्सक को बता सकते हैं।"
         ),
       },
     ],
     topics: [
       {
         id: "t-m4-schedule",
-        title: L("What's Due, and Roughly When"),
+        title: L("What's Due, and Roughly When", "ఏది, ఎప్పుడు వేయాలి", "எது, எப்போது போட வேண்டும்", "ಯಾವುದು, ಯಾವಾಗ ಬೇಕು", "क्या लगना है, और लगभग कब"),
         teach: [
           {
             type: "text",
-            heading: L("A Schedule to Know, Not to Perform"),
+            heading: L("A Schedule to Know, Not to Perform", "తెలుసుకోవాల్సిన షెడ్యూల్, చేయాల్సినది కాదు", "தெரிந்துகொள்ள வேண்டிய அட்டவணை, செய்ய வேண்டியது அல்ல", "ತಿಳಿದುಕೊಳ್ಳಬೇಕಾದ ವೇಳಾಪಟ್ಟಿ, ಮಾಡಬೇಕಾದದ್ದಲ್ಲ", "जानने के लिए समय-सारणी, करने के लिए नहीं"),
             html: L(
-              "The table below lists the general age and timing pattern for each disease's vaccination, exactly as laid out for cattle and buffaloes. Exact ages and timing can vary by area and by which vaccine is used locally — always confirm the precise schedule for your farm with the veterinarian. Your value here is remembering roughly what's coming up and mentioning it, not administering anything yourself."
+              "The table below lists the general age and timing pattern for each disease's vaccination, exactly as laid out for cattle and buffaloes. Exact ages and timing can vary by area and by which vaccine is used locally — always confirm the precise schedule for your farm with the veterinarian. Your value here is remembering roughly what's coming up and mentioning it, not administering anything yourself.",
+              "దిగువ పట్టికలో ప్రతి వ్యాధికి టీకా వేయాల్సిన సాధారణ వయసు, సమయ విధానం ఉన్నాయి, ఇవి పశువులు, గేదెల కోసం నిర్దేశించినవే. ఖచ్చితమైన వయసు, సమయం ప్రాంతాన్ని బట్టి, స్థానికంగా వాడే టీకాను బట్టి మారవచ్చు — మీ ఫారానికి సరైన షెడ్యూల్‌ను ఎప్పుడూ పశువైద్యుడితో నిర్ధారించుకోండి. ఇక్కడ మీ పాత్ర ఏమిటంటే, రాబోయేది స్థూలంగా గుర్తుంచుకుని ప్రస్తావించడం, మీరే ఏమీ వేయడం కాదు.",
+              "கீழே உள்ள அட்டவணை, மாடுகள் மற்றும் எருமைகளுக்காக வகுக்கப்பட்டபடி, ஒவ்வொரு நோய்க்கும் தடுப்பூசி போடும் பொதுவான வயது மற்றும் நேர முறையைப் பட்டியலிடுகிறது. துல்லியமான வயது, நேரம் பகுதிக்குப் பகுதியும், உள்ளூரில் பயன்படுத்தும் தடுப்பூசியைப் பொறுத்தும் மாறலாம் — உங்கள் பண்ணைக்கான சரியான அட்டவணையை எப்போதும் கால்நடை மருத்துவரிடம் உறுதிசெய்துகொள்ளுங்கள். இங்கே உங்கள் பங்கு, வரப்போவதைத் தோராயமாக நினைவில் வைத்து சொல்வதுதான், நீங்களே எதையும் போடுவது அல்ல.",
+              "ಕೆಳಗಿನ ಕೋಷ್ಟಕವು ಪ್ರತಿ ರೋಗದ ಲಸಿಕೆಯ ಸಾಮಾನ್ಯ ವಯಸ್ಸು ಮತ್ತು ಸಮಯದ ವಿಧಾನವನ್ನು ಪಟ್ಟಿ ಮಾಡುತ್ತದೆ, ಇವು ದನಗಳು ಮತ್ತು ಎಮ್ಮೆಗಳಿಗೆ ನಿಗದಿಪಡಿಸಿದಂತೆಯೇ ಇವೆ. ನಿಖರವಾದ ವಯಸ್ಸು ಮತ್ತು ಸಮಯ ಪ್ರದೇಶವನ್ನು ಅವಲಂಬಿಸಿ, ಸ್ಥಳೀಯವಾಗಿ ಬಳಸುವ ಲಸಿಕೆಯನ್ನು ಅವಲಂಬಿಸಿ ಬದಲಾಗಬಹುದು — ನಿಮ್ಮ ಫಾರ್ಮ್‌ಗೆ ಸರಿಯಾದ ವೇಳಾಪಟ್ಟಿಯನ್ನು ಯಾವಾಗಲೂ ಪಶುವೈದ್ಯರೊಂದಿಗೆ ದೃಢಪಡಿಸಿಕೊಳ್ಳಿ. ಇಲ್ಲಿ ನಿಮ್ಮ ಪಾತ್ರ ಮುಂದೆ ಬರುವುದನ್ನು ಸ್ಥೂಲವಾಗಿ ನೆನಪಿಟ್ಟುಕೊಂಡು ಪ್ರಸ್ತಾಪಿಸುವುದು, ನೀವೇ ಏನನ್ನೂ ಕೊಡುವುದಲ್ಲ.",
+              "नीचे दी गई तालिका में हर बीमारी के टीके की आम उम्र और समय का पैटर्न दिया है, जैसा गायों और भैंसों के लिए तय है। सही उम्र और समय इलाके और स्थानीय रूप से इस्तेमाल होने वाले टीके के हिसाब से बदल सकता है — अपने फ़ार्म की सही समय-सारणी हमेशा पशु चिकित्सक से पक्की कर लें। यहां आपका योगदान यह है कि आगे क्या आने वाला है यह मोटे तौर पर याद रखें और बताएं, खुद कुछ लगाना आपका काम नहीं।"
             ),
           },
           {
             type: "text",
-            heading: L("General Vaccination Timing by Disease"),
-            html: L("There are 7 diseases with a routine vaccination schedule shown below."),
+            heading: L("General Vaccination Timing by Disease", "వ్యాధి వారీగా సాధారణ టీకా సమయం", "நோய் வாரியாக பொதுவான தடுப்பூசி நேரம்", "ರೋಗವಾರು ಸಾಮಾನ್ಯ ಲಸಿಕೆ ಸಮಯ", "बीमारी के हिसाब से टीकाकरण का आम समय"),
+            html: L("There are 7 diseases with a routine vaccination schedule shown below.", "క్రింద సాధారణ టీకా షెడ్యూల్ ఉన్న 7 వ్యాధులు చూపించబడ్డాయి.", "கீழே வழக்கமான தடுப்பூசி அட்டவணை உள்ள 7 நோய்கள் காட்டப்பட்டுள்ளன.", "ಕೆಳಗೆ ನಿಯಮಿತ ಲಸಿಕೆ ವೇಳಾಪಟ್ಟಿ ಇರುವ 7 ರೋಗಗಳನ್ನು ತೋರಿಸಲಾಗಿದೆ.", "नीचे नियमित टीकाकरण समय-सारणी वाली 7 बीमारियां दिखाई गई हैं।"),
           },
           {
             type: "stat-grid",
