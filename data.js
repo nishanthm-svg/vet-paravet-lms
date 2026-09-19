@@ -6167,8 +6167,8 @@ export const MODULES = [
   {
     id: "m7",
     number: 7,
-    title: L("Diseases That Occur After Calving"),
-    subtitle: L("Problems that can appear in the days right after an animal gives birth."),
+    title: L("Diseases That Occur After Calving", "ఈనిన తర్వాత వచ్చే వ్యాధులు", "ஈன்ற பிறகு ஏற்படும் நோய்கள்", "ಕರು ಹಾಕಿದ ನಂತರ ಬರುವ ರೋಗಗಳು", "ब्याने के बाद होने वाली बीमारियाँ"),
+    subtitle: L("Problems that can appear in the days right after an animal gives birth.", "పశువు ఈనిన వెంటనే వచ్చే రోజుల్లో కనిపించే సమస్యలు.", "விலங்கு ஈன்ற உடனடி நாட்களில் ஏற்படக்கூடிய பிரச்சினைகள்.", "ಪ್ರಾಣಿ ಕರು ಹಾಕಿದ ತಕ್ಷಣದ ದಿನಗಳಲ್ಲಿ ಕಾಣಿಸಿಕೊಳ್ಳಬಹುದಾದ ಸಮಸ್ಯೆಗಳು.", "पशु के ब्याने के तुरंत बाद के दिनों में दिखने वाली समस्याएँ।"),
     icon: "heart",
     available: true,
     lessons: [
@@ -6177,91 +6177,127 @@ export const MODULES = [
   // ==================================================================
   {
     id: "m7-l1",
-    title: L("Sudden Mineral Problems and Energy Diseases"),
+    title: L("Sudden Mineral Problems and Energy Diseases", "అకస్మాత్తుగా వచ్చే ఖనిజ లోపాలు మరియు శక్తి వ్యాధులు", "திடீர் தாது பிரச்சினைகள் மற்றும் ஆற்றல் நோய்கள்", "ಹಠಾತ್ ಖನಿಜ ಸಮಸ್ಯೆಗಳು ಮತ್ತು ಶಕ್ತಿ ರೋಗಗಳು", "अचानक होने वाली खनिज कमी और ऊर्जा संबंधी बीमारियाँ"),
     estMinutes: 9,
     hook: [
       {
         type: "hero",
-        heading: L("The First Weeks After Calving Are High-Risk"),
+        heading: L("The First Weeks After Calving Are High-Risk", "ఈనిన తర్వాత మొదటి వారాలు అత్యంత ప్రమాదకరం", "ஈன்ற பிறகு முதல் வாரங்கள் அதிக ஆபத்தானவை", "ಕರು ಹಾಕಿದ ನಂತರದ ಮೊದಲ ವಾರಗಳು ಹೆಚ್ಚು ಅಪಾಯಕಾರಿ", "ब्याने के बाद के पहले हफ्ते सबसे ज़्यादा जोखिम भरे होते हैं"),
         text: L(
-          "Right after an animal gives birth, her body suddenly needs a lot more minerals and energy to make milk. If those needs aren't met, she can develop serious problems very fast — some within hours. You don't need to know the biology behind it. You only need to recognise the early warning signs and get help immediately, because these problems can be fatal if left untreated."
+          "Right after an animal gives birth, her body suddenly needs a lot more minerals and energy to make milk. If those needs aren't met, she can develop serious problems very fast — some within hours. You don't need to know the biology behind it. You only need to recognise the early warning signs and get help immediately, because these problems can be fatal if left untreated.",
+          "పశువు ఈనిన వెంటనే, పాలు ఉత్పత్తి చేయడానికి దాని శరీరానికి అకస్మాత్తుగా చాలా ఎక్కువ ఖనిజాలు మరియు శక్తి అవసరమవుతాయి. ఈ అవసరాలు తీరకపోతే, తీవ్రమైన సమస్యలు చాలా వేగంగా వస్తాయి — కొన్నిసార్లు కొన్ని గంటల్లోనే. దీని వెనుక ఉన్న శాస్త్రం తెలుసుకోవాల్సిన అవసరం లేదు. మీరు కేవలం మొదటి హెచ్చరిక సంకేతాలను గుర్తించి వెంటనే సహాయం తీసుకోవాలి, ఎందుకంటే చికిత్స చేయకపోతే ఈ సమస్యలు ప్రాణాంతకం కావచ్చు.",
+          "விலங்கு ஈன்ற உடனேயே, பால் உற்பத்திக்காக அதன் உடலுக்கு திடீரென அதிக அளவு தாதுக்களும் ஆற்றலும் தேவைப்படும். இந்தத் தேவைகள் நிறைவேறாவிட்டால், மிக விரைவாக — சில நேரங்களில் சில மணி நேரங்களுக்குள் — கடுமையான பிரச்சினைகள் ஏற்படலாம். இதன் பின்னணியில் உள்ள அறிவியலை நீங்கள் தெரிந்துகொள்ள வேண்டியதில்லை. நீங்கள் செய்ய வேண்டியது, ஆரம்ப எச்சரிக்கை அறிகுறிகளை அடையாளம் கண்டு உடனடியாக உதவி பெறுவது தான், ஏனெனில் சிகிச்சை அளிக்கப்படாவிட்டால் இந்தப் பிரச்சினைகள் உயிருக்கு ஆபத்தானவையாக மாறலாம்.",
+          "ಪ್ರಾಣಿ ಕರು ಹಾಕಿದ ತಕ್ಷಣ, ಹಾಲು ಉತ್ಪಾದಿಸಲು ಅದರ ದೇಹಕ್ಕೆ ಹಠಾತ್ತನೆ ಹೆಚ್ಚು ಖನಿಜಗಳು ಮತ್ತು ಶಕ್ತಿ ಬೇಕಾಗುತ್ತದೆ. ಈ ಅಗತ್ಯಗಳು ಪೂರೈಸದಿದ್ದರೆ, ಗಂಭೀರ ಸಮಸ್ಯೆಗಳು ಬಹಳ ಬೇಗನೆ ಬರಬಹುದು — ಕೆಲವೊಮ್ಮೆ ಕೆಲವೇ ಗಂಟೆಗಳಲ್ಲಿ. ಇದರ ಹಿಂದಿನ ವಿಜ್ಞಾನ ತಿಳಿಯುವ ಅಗತ್ಯವಿಲ್ಲ. ನೀವು ಕೇವಲ ಆರಂಭಿಕ ಎಚ್ಚರಿಕೆ ಚಿಹ್ನೆಗಳನ್ನು ಗುರುತಿಸಿ ತಕ್ಷಣ ಸಹಾಯ ಪಡೆಯಬೇಕು, ಏಕೆಂದರೆ ಚಿಕಿತ್ಸೆ ನೀಡದಿದ್ದರೆ ಈ ಸಮಸ್ಯೆಗಳು ಮಾರಣಾಂತಿಕವಾಗಬಹುದು.",
+          "पशु के ब्याने के तुरंत बाद, दूध बनाने के लिए उसके शरीर को अचानक बहुत ज़्यादा खनिज और ऊर्जा की ज़रूरत पड़ती है। अगर यह ज़रूरत पूरी नहीं होती, तो गंभीर समस्याएँ बहुत तेज़ी से आ सकती हैं — कभी-कभी कुछ ही घंटों में। इसके पीछे का विज्ञान जानना ज़रूरी नहीं है। आपको बस शुरुआती चेतावनी के लक्षण पहचानकर तुरंत मदद लेनी है, क्योंकि इलाज न होने पर ये समस्याएँ जानलेवा हो सकती हैं।"
         ),
       },
     ],
     topics: [
       {
         id: "t-m7-milkfever-magnesium",
-        title: L("Milk Fever and Hypomagnesaemia"),
+        title: L("Milk Fever and Hypomagnesaemia", "మిల్క్ ఫీవర్ మరియు హైపోమాగ్నీసీమియా", "பால் காய்ச்சல் மற்றும் ஹைபோமேக்னீசீமியா", "ಮಿಲ್ಕ್ ಫೀವರ್ ಮತ್ತು ಹೈಪೋಮ್ಯಾಗ್ನೀಸೀಮಿಯಾ", "मिल्क फीवर और हाइपोमैग्नीसीमिया"),
         teach: [
             {
               type: "photo",
               src: "assets/illustration-m7-milk-fever.png",
-              alt: L("Illustrated diagram showing calcium moving into milk at calving, and a weak cow lying down unable to stand from low blood calcium."),
-              caption: L("Illustration: why milk fever happens — calcium suddenly moves from the blood into milk production right at calving, leaving too little for the muscles to work properly."),
+              alt: L("Illustrated diagram showing calcium moving into milk at calving, and a weak cow lying down unable to stand from low blood calcium.", "ఈనిన సమయంలో కాల్షియం రక్తం నుండి పాలలోకి వెళ్లడం, మరియు రక్తంలో కాల్షియం తక్కువగా ఉండటం వల్ల నిలబడలేని బలహీన ఆవును చూపే చిత్రం.", "ஈன்றெடுக்கும் நேரத்தில் கால்சியம் இரத்தத்திலிருந்து பாலுக்குள் செல்வதையும், இரத்தத்தில் கால்சியம் குறைவால் நிற்க முடியாமல் படுத்திருக்கும் பலவீனமான பசுவையும் காட்டும் படம்.", "ಕರು ಹಾಕುವ ಸಮಯದಲ್ಲಿ ಕ್ಯಾಲ್ಸಿಯಂ ರಕ್ತದಿಂದ ಹಾಲಿಗೆ ಹೋಗುವುದನ್ನು ಮತ್ತು ರಕ್ತದಲ್ಲಿ ಕ್ಯಾಲ್ಸಿಯಂ ಕಡಿಮೆಯಾಗಿ ನಿಲ್ಲಲಾಗದ ದುರ್ಬಲ ಹಸುವನ್ನು ತೋರಿಸುವ ಚಿತ್ರ.", "ब्याने के समय कैल्शियम के खून से दूध में जाने और खून में कैल्शियम कम होने से खड़ी न हो पाने वाली कमज़ोर गाय को दिखाने वाला चित्र।"),
+              caption: L("Illustration: why milk fever happens — calcium suddenly moves from the blood into milk production right at calving, leaving too little for the muscles to work properly.", "చిత్రం: మిల్క్ ఫీవర్ ఎందుకు వస్తుంది — ఈనిన వెంటనే కాల్షియం రక్తం నుండి పాల ఉత్పత్తికి అకస్మాత్తుగా వెళ్లిపోతుంది, దాంతో కండరాలు సరిగ్గా పనిచేయడానికి సరిపడా మిగలదు.", "படம்: பால் காய்ச்சல் ஏன் ஏற்படுகிறது — ஈன்ற உடனேயே கால்சியம் திடீரென இரத்தத்திலிருந்து பால் உற்பத்திக்கு சென்றுவிடும், தசைகள் சரியாக வேலை செய்ய போதுமான அளவு மிச்சமிருக்காது.", "ಚಿತ್ರ: ಮಿಲ್ಕ್ ಫೀವರ್ ಏಕೆ ಬರುತ್ತದೆ — ಕರು ಹಾಕಿದ ತಕ್ಷಣ ಕ್ಯಾಲ್ಸಿಯಂ ಹಠಾತ್ತನೆ ರಕ್ತದಿಂದ ಹಾಲಿನ ಉತ್ಪಾದನೆಗೆ ಹೋಗುತ್ತದೆ, ಸ್ನಾಯುಗಳು ಸರಿಯಾಗಿ ಕೆಲಸ ಮಾಡಲು ಸಾಕಷ್ಟು ಉಳಿಯುವುದಿಲ್ಲ.", "चित्र: मिल्क फीवर क्यों होता है — ब्याने के तुरंत बाद कैल्शियम अचानक खून से दूध बनाने में चला जाता है, जिससे मांसपेशियों के सही ढंग से काम करने के लिए पर्याप्त नहीं बचता।"),
             },
           {
             type: "text",
-            heading: L("Two Sudden Emergencies With a Common Cause"),
+            heading: L("Two Sudden Emergencies With a Common Cause", "ఒకే కారణంతో వచ్చే రెండు అత్యవసర పరిస్థితులు", "ஒரே காரணத்தால் ஏற்படும் இரண்டு அவசர நிலைமைகள்", "ಒಂದೇ ಕಾರಣದಿಂದ ಬರುವ ಎರಡು ತುರ್ತು ಪರಿಸ್ಥಿತಿಗಳು", "एक ही कारण से होने वाली दो आपातकालीन स्थितियाँ"),
             html: L(
-              "Making milk uses up a huge amount of <b>calcium</b> and <b>magnesium</b> — two minerals the animal's body needs for normal nerve and muscle function. Right after calving, the sudden demand for these minerals can outstrip what the body has ready to use. When that happens, the animal can develop one of two sudden, dangerous conditions: <b>Milk Fever</b> (low calcium) or <b>Hypomagnesaemia</b> (low magnesium). Both need urgent attention."
+              "Making milk uses up a huge amount of <b>calcium</b> and <b>magnesium</b> — two minerals the animal's body needs for normal nerve and muscle function. Right after calving, the sudden demand for these minerals can outstrip what the body has ready to use. When that happens, the animal can develop one of two sudden, dangerous conditions: <b>Milk Fever</b> (low calcium) or <b>Hypomagnesaemia</b> (low magnesium). Both need urgent attention.",
+              "పాలు తయారు చేయడానికి <b>కాల్షియం</b> మరియు <b>మెగ్నీషియం</b> చాలా ఎక్కువగా ఖర్చు అవుతాయి — ఇవి పశువు నరాలు మరియు కండరాలు సాధారణంగా పనిచేయడానికి అవసరమైన రెండు ఖనిజాలు. ఈనిన వెంటనే, ఈ ఖనిజాల డిమాండ్ శరీరంలో సిద్ధంగా ఉన్న దానికంటే ఎక్కువ అవుతుంది. అలా జరిగినప్పుడు, పశువుకు రెండు అకస్మాత్తు, ప్రమాదకరమైన పరిస్థితుల్లో ఒకటి రావచ్చు: <b>మిల్క్ ఫీవర్</b> (తక్కువ కాల్షియం) లేదా <b>హైపోమాగ్నీసీమియా</b> (తక్కువ మెగ్నీషియం). రెండింటికీ వెంటనే చికిత్స అవసరం.",
+              "பால் தயாரிப்பதற்கு <b>கால்சியமும்</b> <b>மெக்னீசியமும்</b> மிக அதிக அளவில் தேவைப்படும் — இவை விலங்கின் நரம்பு மற்றும் தசைகள் சரியாக வேலை செய்ய தேவையான இரண்டு தாதுக்கள். ஈன்ற உடனேயே, இந்த தாதுக்களுக்கான திடீர் தேவை உடலில் தயாராக இருப்பதை விட அதிகமாகிவிடும். அப்போது, விலங்குக்கு இரண்டு திடீர், ஆபத்தான நிலைமைகளில் ஒன்று ஏற்படலாம்: <b>பால் காய்ச்சல்</b> (குறைந்த கால்சியம்) அல்லது <b>ஹைபோமேக்னீசீமியா</b> (குறைந்த மெக்னீசியம்). இரண்டுக்கும் உடனடி கவனிப்பு தேவை.",
+              "ಹಾಲು ತಯಾರಿಸಲು <b>ಕ್ಯಾಲ್ಸಿಯಂ</b> ಮತ್ತು <b>ಮ್ಯಾಗ್ನೀಸಿಯಂ</b> ಬಹಳ ಹೆಚ್ಚು ಖರ್ಚಾಗುತ್ತದೆ — ಇವು ಪ್ರಾಣಿಯ ನರ ಮತ್ತು ಸ್ನಾಯುಗಳು ಸಾಮಾನ್ಯವಾಗಿ ಕೆಲಸ ಮಾಡಲು ಬೇಕಾದ ಎರಡು ಖನಿಜಗಳು. ಕರು ಹಾಕಿದ ತಕ್ಷಣ, ಈ ಖನಿಜಗಳ ಬೇಡಿಕೆ ದೇಹದಲ್ಲಿ ಸಿದ್ಧವಾಗಿರುವುದಕ್ಕಿಂತ ಹೆಚ್ಚಾಗಬಹುದು. ಆಗ, ಪ್ರಾಣಿಗೆ ಎರಡು ಹಠಾತ್, ಅಪಾಯಕಾರಿ ಸ್ಥಿತಿಗಳಲ್ಲಿ ಒಂದು ಬರಬಹುದು: <b>ಮಿಲ್ಕ್ ಫೀವರ್</b> (ಕಡಿಮೆ ಕ್ಯಾಲ್ಸಿಯಂ) ಅಥವಾ <b>ಹೈಪೋಮ್ಯಾಗ್ನೀಸೀಮಿಯಾ</b> (ಕಡಿಮೆ ಮ್ಯಾಗ್ನೀಸಿಯಂ). ಎರಡಕ್ಕೂ ತಕ್ಷಣದ ಚಿಕಿತ್ಸೆ ಬೇಕು.",
+              "दूध बनाने में <b>कैल्शियम</b> और <b>मैग्नीशियम</b> की बहुत ज़्यादा खपत होती है — ये दो खनिज पशु की नसों और मांसपेशियों के सामान्य ढंग से काम करने के लिए ज़रूरी हैं। ब्याने के तुरंत बाद, इन खनिजों की अचानक मांग शरीर में तैयार मात्रा से ज़्यादा हो सकती है। ऐसा होने पर, पशु को दो अचानक, खतरनाक स्थितियों में से एक हो सकती है: <b>मिल्क फीवर</b> (कम कैल्शियम) या <b>हाइपोमैग्नीसीमिया</b> (कम मैग्नीशियम)। दोनों को तुरंत इलाज की ज़रूरत होती है।"
             ),
           },
           {
             type: "glossary",
-            term: L("Milk Fever (Hypocalcaemia)"),
+            term: L("Milk Fever (Hypocalcaemia)", "మిల్క్ ఫీవర్ (హైపోకాల్సీమియా)", "பால் காய்ச்சல் (ஹைபோகால்சீமியா)", "ಮಿಲ್ಕ್ ಫೀವರ್ (ಹೈಪೋಕ್ಯಾಲ್ಸೀಮಿಯಾ)", "मिल्क फीवर (हाइपोकैल्सीमिया)"),
             meaning: L(
-              "A condition caused by a drop in blood calcium after calving. Despite the name, there is no actual fever — in the later stages the animal's body temperature is actually below normal, not above it."
+              "A condition caused by a drop in blood calcium after calving. Despite the name, there is no actual fever — in the later stages the animal's body temperature is actually below normal, not above it.",
+              "ఈనిన తర్వాత రక్తంలో కాల్షియం తగ్గడం వల్ల వచ్చే పరిస్థితి. పేరులో 'ఫీవర్' ఉన్నా, నిజంగా జ్వరం ఉండదు — తర్వాతి దశల్లో పశువు శరీర ఉష్ణోగ్రత సాధారణం కంటే ఎక్కువ కాదు, తక్కువగా ఉంటుంది.",
+              "ஈன்ற பிறகு இரத்தத்தில் கால்சியம் குறைவதால் ஏற்படும் நிலை. பெயரில் 'காய்ச்சல்' இருந்தாலும், உண்மையில் காய்ச்சல் இருக்காது — பிற்பகுதி நிலைகளில் விலங்கின் உடல் வெப்பநிலை சாதாரணத்தை விட குறைவாகவே இருக்கும், அதிகமாக அல்ல.",
+              "ಕರು ಹಾಕಿದ ನಂತರ ರಕ್ತದಲ್ಲಿ ಕ್ಯಾಲ್ಸಿಯಂ ಕಡಿಮೆಯಾಗುವುದರಿಂದ ಬರುವ ಸ್ಥಿತಿ. ಹೆಸರಿನಲ್ಲಿ 'ಫೀವರ್' ಇದ್ದರೂ, ನಿಜವಾಗಿ ಜ್ವರ ಇರುವುದಿಲ್ಲ — ನಂತರದ ಹಂತಗಳಲ್ಲಿ ಪ್ರಾಣಿಯ ದೇಹದ ಉಷ್ಣತೆ ಸಾಮಾನ್ಯಕ್ಕಿಂತ ಹೆಚ್ಚಲ್ಲ, ಕಡಿಮೆ ಇರುತ್ತದೆ.",
+              "यह ब्याने के बाद खून में कैल्शियम गिरने से होने वाली स्थिति है। नाम में 'फीवर' होने के बावजूद, असल में बुखार नहीं होता — बाद की अवस्थाओं में पशु के शरीर का तापमान सामान्य से ज़्यादा नहीं बल्कि कम हो जाता है।"
             ),
           },
           {
             type: "stat-grid",
             items: [
               {
-                label: L("Milk Fever — early signs"),
+                label: L("Milk Fever — early signs", "మిల్క్ ఫీవర్ — తొలి లక్షణాలు", "பால் காய்ச்சல் — ஆரம்ப அறிகுறிகள்", "ಮಿಲ್ಕ್ ಫೀವರ್ — ಆರಂಭಿಕ ಲಕ್ಷಣಗಳು", "मिल्क फीवर — शुरुआती लक्षण"),
                 text: L(
-                  "Usually within 72 hours of calving. The animal becomes excitable, with fine trembling over the flanks and loins, twitching ears, and bobbing its head."
+                  "Usually within 72 hours of calving. The animal becomes excitable, with fine trembling over the flanks and loins, twitching ears, and bobbing its head.",
+                  "సాధారణంగా ఈనిన 72 గంటల్లోపు వస్తుంది. పశువు కంగారుగా, పార్శ్వాలు మరియు నడుము దగ్గర సన్నని వణుకుతో, చెవులు అదిరిస్తూ, తలను ఊపుతూ ఉంటుంది.",
+                  "பொதுவாக ஈன்ற 72 மணி நேரத்திற்குள் வரும். விலங்கு பதற்றமடைந்து, விலா மற்றும் இடுப்பு பகுதியில் மெல்லிய நடுக்கம், காதுகள் துடிப்பு, தலையை ஆட்டுதல் ஆகியவை காணப்படும்.",
+                  "ಸಾಮಾನ್ಯವಾಗಿ ಕರು ಹಾಕಿದ 72 ಗಂಟೆಗಳ ಒಳಗೆ ಬರುತ್ತದೆ. ಪ್ರಾಣಿ ಆತಂಕಗೊಂಡು, ಪಕ್ಕೆ ಮತ್ತು ಸೊಂಟದ ಬಳಿ ಸಣ್ಣ ನಡುಕ, ಕಿವಿ ಅದುರುವಿಕೆ, ತಲೆ ಆಡಿಸುವಿಕೆಯನ್ನು ತೋರಿಸುತ್ತದೆ.",
+                  "आमतौर पर ब्याने के 72 घंटों के भीतर होता है। पशु बेचैन हो जाता है, उसकी कमर और बाजू में हल्की कंपकंपी होती है, कान फड़फड़ाते हैं, और सिर हिलाता रहता है।"
                 ),
               },
               {
-                label: L("Milk Fever — later signs"),
+                label: L("Milk Fever — later signs", "మిల్క్ ఫీవర్ — తర్వాతి లక్షణాలు", "பால் காய்ச்சல் — பிந்தைய அறிகுறிகள்", "ಮಿಲ್ಕ್ ಫೀವರ್ — ನಂತರದ ಲಕ್ಷಣಗಳು", "मिल्क फीवर — बाद के लक्षण"),
                 text: L(
-                  "The animal cannot stand, then lies down (recumbent) — first with its neck turned to one side, later lying flat on its side. It stops blinking when its eye is touched."
+                  "The animal cannot stand, then lies down (recumbent) — first with its neck turned to one side, later lying flat on its side. It stops blinking when its eye is touched.",
+                  "పశువు నిలబడలేకపోతుంది, తర్వాత పడుకుంటుంది — మొదట మెడను ఒక వైపుకు తిప్పి, తర్వాత పూర్తిగా పక్కకు వాలి పడుకుంటుంది. కంటిని తాకినా రెప్పలు వేయదు.",
+                  "விலங்கு நிற்க முடியாமல் படுத்துவிடும் — முதலில் கழுத்தை ஒரு பக்கம் திருப்பி, பின்னர் முழுவதுமாக பக்கவாட்டில் படுத்துவிடும். கண்ணைத் தொட்டாலும் இமை மூடாது.",
+                  "ಪ್ರಾಣಿ ನಿಲ್ಲಲಾಗದೆ ಮಲಗುತ್ತದೆ — ಮೊದಲು ಕುತ್ತಿಗೆಯನ್ನು ಒಂದು ಬದಿಗೆ ತಿರುಗಿಸಿ, ನಂತರ ಸಂಪೂರ್ಣವಾಗಿ ಪಕ್ಕಕ್ಕೆ ಮಲಗುತ್ತದೆ. ಕಣ್ಣನ್ನು ಮುಟ್ಟಿದರೂ ರೆಪ್ಪೆ ಮಿಟುಕಿಸುವುದಿಲ್ಲ.",
+                  "पशु खड़ा नहीं हो पाता, फिर लेट जाता है — पहले गर्दन एक तरफ मोड़कर, फिर पूरी तरह करवट लेकर लेट जाता है। आँख को छूने पर भी पलक नहीं झपकाता।"
                 ),
               },
               {
-                label: L("Milk Fever — final stage"),
-                text: L("The animal becomes unconscious, and its body temperature drops below normal. Without treatment, the animal will not survive."),
+                label: L("Milk Fever — final stage", "మిల్క్ ఫీవర్ — చివరి దశ", "பால் காய்ச்சல் — இறுதி நிலை", "ಮಿಲ್ಕ್ ಫೀವರ್ — ಅಂತಿಮ ಹಂತ", "मिल्क फीवर — अंतिम अवस्था"),
+                text: L("The animal becomes unconscious, and its body temperature drops below normal. Without treatment, the animal will not survive.", "పశువు స్పృహ కోల్పోతుంది, శరీర ఉష్ణోగ్రత సాధారణం కంటే తగ్గిపోతుంది. చికిత్స చేయకపోతే పశువు బతకదు.", "விலங்கு மயங்கிவிடும், உடல் வெப்பநிலை சாதாரணத்தை விட குறைந்துவிடும். சிகிச்சை இல்லாமல் விலங்கு உயிர் பிழைக்காது.", "ಪ್ರಾಣಿ ಪ್ರಜ್ಞೆ ಕಳೆದುಕೊಳ್ಳುತ್ತದೆ, ದೇಹದ ಉಷ್ಣತೆ ಸಾಮಾನ್ಯಕ್ಕಿಂತ ಕಡಿಮೆಯಾಗುತ್ತದೆ. ಚಿಕಿತ್ಸೆ ಇಲ್ಲದೆ ಪ್ರಾಣಿ ಬದುಕುಳಿಯುವುದಿಲ್ಲ.", "पशु बेहोश हो जाता है, और शरीर का तापमान सामान्य से नीचे गिर जाता है। इलाज के बिना पशु जीवित नहीं बचता।"),
               },
             ],
           },
           {
             type: "callout",
             style: "warning",
-            heading: L("Milking Too Soon and Too Completely Can Be a Trigger"),
+            heading: L("Milking Too Soon and Too Completely Can Be a Trigger", "త్వరగా మరియు పూర్తిగా పాలు పితకడం కారణం కావచ్చు", "விரைவாகவும் முழுமையாகவும் பால் கறத்தல் காரணமாக இருக்கலாம்", "ಬೇಗನೆ ಮತ್ತು ಸಂಪೂರ್ಣವಾಗಿ ಹಾಲು ಕರೆಯುವುದು ಕಾರಣವಾಗಬಹುದು", "बहुत जल्दी और पूरा दूध निकालना कारण बन सकता है"),
             text: L(
-              "Milking an animal fully in the first 48 hours after calving can, in some cases, help bring on milk fever, because it pulls even more calcium out through the milk right when the body can least spare it. This is a decision for the owner or vet to manage — your job is simply to recognise the early signs above and report them the same day."
+              "Milking an animal fully in the first 48 hours after calving can, in some cases, help bring on milk fever, because it pulls even more calcium out through the milk right when the body can least spare it. This is a decision for the owner or vet to manage — your job is simply to recognise the early signs above and report them the same day.",
+              "ఈనిన మొదటి 48 గంటల్లో పశువును పూర్తిగా పితకడం, కొన్నిసార్లు మిల్క్ ఫీవర్ రావడానికి కారణమవుతుంది, ఎందుకంటే శరీరానికి కాల్షియం అత్యంత అవసరమైన సమయంలోనే పాల ద్వారా ఇంకా ఎక్కువ కాల్షియం బయటకు వెళ్లిపోతుంది. దీన్ని ఎలా నిర్వహించాలో యజమాని లేదా వైద్యుడు నిర్ణయిస్తారు — మీ పని కేవలం పైన చెప్పిన తొలి లక్షణాలను గుర్తించి అదే రోజు తెలియజేయడమే.",
+              "ஈன்ற முதல் 48 மணி நேரத்தில் விலங்கை முழுவதுமாக பால் கறப்பது, சில நேரங்களில் பால் காய்ச்சலை ஏற்படுத்த உதவலாம், ஏனெனில் உடலுக்கு கால்சியம் மிகவும் தேவைப்படும் நேரத்திலேயே பாலின் மூலம் இன்னும் அதிக கால்சியம் வெளியேறிவிடும். இதை எப்படி நிர்வகிப்பது என்பது உரிமையாளர் அல்லது கால்நடை மருத்துவரின் முடிவு — உங்கள் வேலை மேலே கூறப்பட்ட ஆரம்ப அறிகுறிகளை அடையாளம் கண்டு அன்றே தெரிவிப்பது மட்டுமே.",
+              "ಕರು ಹಾಕಿದ ಮೊದಲ 48 ಗಂಟೆಗಳಲ್ಲಿ ಪ್ರಾಣಿಯನ್ನು ಸಂಪೂರ್ಣವಾಗಿ ಹಾಲು ಕರೆಯುವುದು, ಕೆಲವೊಮ್ಮೆ ಮಿಲ್ಕ್ ಫೀವರ್ ಬರಲು ಕಾರಣವಾಗಬಹುದು, ಏಕೆಂದರೆ ದೇಹಕ್ಕೆ ಕ್ಯಾಲ್ಸಿಯಂ ಅತಿ ಅಗತ್ಯವಿರುವ ಸಮಯದಲ್ಲೇ ಹಾಲಿನ ಮೂಲಕ ಇನ್ನೂ ಹೆಚ್ಚು ಕ್ಯಾಲ್ಸಿಯಂ ಹೊರಹೋಗುತ್ತದೆ. ಇದನ್ನು ಹೇಗೆ ನಿರ್ವಹಿಸಬೇಕು ಎಂಬುದು ಮಾಲೀಕ ಅಥವಾ ಪಶುವೈದ್ಯರ ನಿರ್ಧಾರ — ನಿಮ್ಮ ಕೆಲಸ ಕೇವಲ ಮೇಲಿನ ಆರಂಭಿಕ ಲಕ್ಷಣಗಳನ್ನು ಗುರುತಿಸಿ ಅದೇ ದಿನ ವರದಿ ಮಾಡುವುದು.",
+              "ब्याने के पहले 48 घंटों में पशु का पूरा दूध निकालना, कभी-कभी मिल्क फीवर लाने में मदद कर सकता है, क्योंकि जब शरीर को कैल्शियम की सबसे ज़्यादा ज़रूरत होती है, तभी दूध के ज़रिए और भी ज़्यादा कैल्शियम बाहर निकल जाता है। इसे कैसे संभालना है यह मालिक या डॉक्टर का फैसला है — आपका काम बस ऊपर बताए गए शुरुआती लक्षणों को पहचानकर उसी दिन बताना है।"
             ),
           },
           {
             type: "glossary",
-            term: L("Hypomagnesaemia"),
+            term: L("Hypomagnesaemia", "హైపోమాగ్నీసీమియా", "ஹைபோமேக்னீசீமியா", "ಹೈಪೋಮ್ಯಾಗ್ನೀಸೀಮಿಯಾ", "हाइपोमैग्नीसीमिया"),
             meaning: L(
-              "A condition caused by a drop in blood magnesium. It mostly affects adult milking animals, though calves can get it too. It often occurs together with milk fever, and both are emergencies."
+              "A condition caused by a drop in blood magnesium. It mostly affects adult milking animals, though calves can get it too. It often occurs together with milk fever, and both are emergencies.",
+              "రక్తంలో మెగ్నీషియం తగ్గడం వల్ల వచ్చే పరిస్థితి. ఇది ఎక్కువగా పాలిచ్చే వయోజన పశువులలో వస్తుంది, అయితే దూడలకు కూడా రావచ్చు. ఇది తరచుగా మిల్క్ ఫీవర్‌తో పాటు వస్తుంది, రెండూ అత్యవసర పరిస్థితులే.",
+              "இரத்தத்தில் மெக்னீசியம் குறைவதால் ஏற்படும் நிலை. இது பெரும்பாலும் பால் கொடுக்கும் வளர்ந்த விலங்குகளில் ஏற்படும், ஆனாலும் கன்றுகளுக்கும் வரலாம். இது பெரும்பாலும் பால் காய்ச்சலுடன் சேர்ந்தே வரும், இரண்டுமே அவசர நிலைமைகள்.",
+              "ರಕ್ತದಲ್ಲಿ ಮ್ಯಾಗ್ನೀಸಿಯಂ ಕಡಿಮೆಯಾಗುವುದರಿಂದ ಬರುವ ಸ್ಥಿತಿ. ಇದು ಹೆಚ್ಚಾಗಿ ಹಾಲು ಕೊಡುವ ವಯಸ್ಕ ಪ್ರಾಣಿಗಳಲ್ಲಿ ಕಂಡುಬರುತ್ತದೆ, ಆದರೆ ಕರುಗಳಿಗೂ ಬರಬಹುದು. ಇದು ಸಾಮಾನ್ಯವಾಗಿ ಮಿಲ್ಕ್ ಫೀವರ್ ಜೊತೆ ಬರುತ್ತದೆ, ಎರಡೂ ತುರ್ತು ಪರಿಸ್ಥಿತಿಗಳು.",
+              "यह खून में मैग्नीशियम गिरने से होने वाली स्थिति है। यह ज़्यादातर दूध देने वाले वयस्क पशुओं को होती है, हालांकि बछड़ों को भी हो सकती है। यह अक्सर मिल्क फीवर के साथ ही होती है, और दोनों ही आपातकालीन स्थितियाँ हैं।"
             ),
           },
           {
             type: "stat-grid",
             items: [
               {
-                label: L("Hypomagnesaemia — sudden form"),
+                label: L("Hypomagnesaemia — sudden form", "హైపోమాగ్నీసీమియా — తీవ్రమైన రూపం", "ஹைபோமேக்னீசீமியா — திடீர் வடிவம்", "ಹೈಪೋಮ್ಯಾಗ್ನೀಸೀಮಿಯಾ — ಹಠಾತ್ ರೂಪ", "हाइपोमैग्नीसीमिया — अचानक होने वाला रूप"),
                 text: L(
-                  "A previously normal animal suddenly throws its head up, bellows, gallops, and falls — with severe paddling convulsions that repeat every short while."
+                  "A previously normal animal suddenly throws its head up, bellows, gallops, and falls — with severe paddling convulsions that repeat every short while.",
+                  "ఇంతకుముందు మామూలుగా ఉన్న పశువు అకస్మాత్తుగా తలను పైకి విసిరి, అరుస్తూ, పరుగెత్తి, పడిపోతుంది — తీవ్రమైన కాళ్లు కొట్టుకునే మూర్ఛలు కొద్ది సమయానికి ఒకసారి పునరావృతం అవుతాయి.",
+                  "முன்பு சாதாரணமாக இருந்த விலங்கு திடீரென தலையை மேலே தூக்கி, கத்தி, ஓடி, விழுந்துவிடும் — கடுமையான கால் உதைக்கும் வலிப்பு அடிக்கடி மீண்டும் மீண்டும் வரும்.",
+                  "ಮೊದಲು ಸಾಮಾನ್ಯವಾಗಿದ್ದ ಪ್ರಾಣಿ ಹಠಾತ್ತನೆ ತಲೆಯನ್ನು ಮೇಲಕ್ಕೆತ್ತಿ, ಕೂಗುತ್ತಾ, ಓಡಿ, ಬಿದ್ದುಬಿಡುತ್ತದೆ — ತೀವ್ರವಾದ ಕಾಲು ಒದೆಯುವ ಸೆಳೆತಗಳು ಸ್ವಲ್ಪ ಸಮಯಕ್ಕೊಮ್ಮೆ ಮರುಕಳಿಸುತ್ತವೆ.",
+                  "पहले सामान्य दिख रहा पशु अचानक सिर उठाकर, चिल्लाकर, दौड़कर गिर जाता है — और तेज़ी से पैर पटकने वाले दौरे थोड़ी-थोड़ी देर में बार-बार आते हैं।"
                 ),
               },
               {
-                label: L("Hypomagnesaemia — milder form"),
+                label: L("Hypomagnesaemia — milder form", "హైపోమాగ్నీసీమియా — తేలికపాటి రూపం", "ஹைபோமேக்னீசீமியா — லேசான வடிவம்", "ಹೈಪೋಮ್ಯಾಗ್ನೀಸೀಮಿಯಾ — ಸೌಮ್ಯ ರೂಪ", "हाइपोमैग्नीसीमिया — हल्का रूप"),
                 text: L(
-                  "The animal walks stiffly, becomes unusually sensitive to touch and sound, and urinates often. This milder form can still turn into the convulsion stage within 2–3 days."
+                  "The animal walks stiffly, becomes unusually sensitive to touch and sound, and urinates often. This milder form can still turn into the convulsion stage within 2–3 days.",
+                  "పశువు బిగుసుకుపోయినట్లు నడుస్తుంది, స్పర్శ మరియు శబ్దానికి అసాధారణంగా సున్నితంగా మారుతుంది, తరచుగా మూత్రం పోస్తుంది. ఈ తేలికపాటి రూపం కూడా 2–3 రోజుల్లో మూర్ఛల దశకు మారవచ్చు.",
+                  "விலங்கு விறைப்பாக நடக்கும், தொடுதலுக்கும் ஒலிக்கும் அசாதாரணமாக உணர்திறன் அடையும், அடிக்கடி சிறுநீர் கழிக்கும். இந்த லேசான வடிவமும் 2–3 நாட்களில் வலிப்பு நிலைக்கு மாறலாம்.",
+                  "ಪ್ರಾಣಿ ಬಿಗಿಯಾಗಿ ನಡೆಯುತ್ತದೆ, ಸ್ಪರ್ಶ ಮತ್ತು ಶಬ್ದಕ್ಕೆ ಅಸಾಮಾನ್ಯವಾಗಿ ಸೂಕ್ಷ್ಮವಾಗುತ್ತದೆ, ಆಗಾಗ ಮೂತ್ರ ವಿಸರ್ಜಿಸುತ್ತದೆ. ಈ ಸೌಮ್ಯ ರೂಪವೂ 2–3 ದಿನಗಳಲ್ಲಿ ಸೆಳೆತದ ಹಂತಕ್ಕೆ ತಿರುಗಬಹುದು.",
+                  "पशु अकड़कर चलता है, छूने और आवाज़ के प्रति असामान्य रूप से संवेदनशील हो जाता है, और बार-बार पेशाब करता है। यह हल्का रूप भी 2–3 दिनों में दौरे की अवस्था में बदल सकता है।"
                 ),
               },
             ],
@@ -6269,65 +6305,89 @@ export const MODULES = [
           {
             type: "callout",
             style: "tip",
-            heading: L("Your Job: Report the Very First Sign, Not the Collapse"),
+            heading: L("Your Job: Report the Very First Sign, Not the Collapse", "మీ పని: పశువు పడిపోకముందే మొదటి లక్షణాన్ని తెలియజేయడం", "உங்கள் வேலை: விலங்கு விழும் முன் முதல் அறிகுறியை தெரிவிப்பது", "ನಿಮ್ಮ ಕೆಲಸ: ಪ್ರಾಣಿ ಬೀಳುವ ಮೊದಲೇ ಮೊದಲ ಲಕ್ಷಣ ವರದಿ ಮಾಡುವುದು", "आपका काम: गिरने से पहले ही पहला लक्षण बताना"),
             text: L(
-              "Both conditions respond very well to treatment — but only if the vet is called as soon as the early signs appear, such as trembling, ear twitching, head bobbing, or unusually stiff walking. Waiting until the animal goes down and starts convulsing wastes precious time. Even after successful treatment, some animals relapse within a day or two, so keep watching the animal closely and report again if the same signs return."
+              "Both conditions respond very well to treatment — but only if the vet is called as soon as the early signs appear, such as trembling, ear twitching, head bobbing, or unusually stiff walking. Waiting until the animal goes down and starts convulsing wastes precious time. Even after successful treatment, some animals relapse within a day or two, so keep watching the animal closely and report again if the same signs return.",
+              "వణుకు, చెవులు అదరడం, తల ఊపడం లేదా అసాధారణంగా బిగుసుకుపోయిన నడక వంటి తొలి లక్షణాలు కనిపించిన వెంటనే వైద్యుడిని పిలిస్తేనే రెండు పరిస్థితులు చికిత్సకు బాగా స్పందిస్తాయి. పశువు పడిపోయి మూర్ఛపోయే వరకు వేచి ఉండటం విలువైన సమయాన్ని వృథా చేస్తుంది. విజయవంతమైన చికిత్స తర్వాత కూడా కొన్ని పశువులు ఒకటి రెండు రోజుల్లో మళ్లీ బాధపడవచ్చు, కాబట్టి పశువును జాగ్రత్తగా గమనిస్తూ అదే లక్షణాలు మళ్లీ కనిపిస్తే మళ్లీ తెలియజేయండి.",
+              "நடுக்கம், காது துடிப்பு, தலை ஆட்டுதல் அல்லது அசாதாரண விறைப்பான நடை போன்ற ஆரம்ப அறிகுறிகள் தோன்றியவுடன் கால்நடை மருத்துவரை அழைத்தால் மட்டுமே இரண்டு நிலைமைகளும் சிகிச்சைக்கு நன்றாக பதிலளிக்கும். விலங்கு விழுந்து வலிப்பு தொடங்கும் வரை காத்திருப்பது மதிப்புமிக்க நேரத்தை வீணடிக்கும். வெற்றிகரமான சிகிச்சைக்குப் பிறகும், சில விலங்குகள் ஒன்று அல்லது இரண்டு நாட்களில் மீண்டும் பாதிக்கப்படலாம், எனவே விலங்கை உன்னிப்பாக கவனித்து அதே அறிகுறிகள் மீண்டும் தோன்றினால் மீண்டும் தெரிவிக்கவும்.",
+              "ನಡುಕ, ಕಿವಿ ಅದುರುವಿಕೆ, ತಲೆ ಆಡಿಸುವಿಕೆ ಅಥವಾ ಅಸಾಮಾನ್ಯ ಬಿಗಿಯಾದ ನಡಿಗೆಯಂತಹ ಆರಂಭಿಕ ಲಕ್ಷಣಗಳು ಕಾಣಿಸಿಕೊಂಡ ತಕ್ಷಣ ಪಶುವೈದ್ಯರನ್ನು ಕರೆದರೆ ಮಾತ್ರ ಎರಡೂ ಸ್ಥಿತಿಗಳು ಚಿಕಿತ್ಸೆಗೆ ಚೆನ್ನಾಗಿ ಸ್ಪಂದಿಸುತ್ತವೆ. ಪ್ರಾಣಿ ಬಿದ್ದು ಸೆಳೆತ ಪ್ರಾರಂಭಿಸುವವರೆಗೆ ಕಾಯುವುದು ಅಮೂಲ್ಯ ಸಮಯವನ್ನು ವ್ಯರ್ಥ ಮಾಡುತ್ತದೆ. ಯಶಸ್ವಿ ಚಿಕಿತ್ಸೆಯ ನಂತರವೂ, ಕೆಲವು ಪ್ರಾಣಿಗಳು ಒಂದೆರಡು ದಿನಗಳಲ್ಲಿ ಮತ್ತೆ ಕಾಯಿಲೆಗೆ ಒಳಗಾಗಬಹುದು, ಆದ್ದರಿಂದ ಪ್ರಾಣಿಯನ್ನು ಸೂಕ್ಷ್ಮವಾಗಿ ಗಮನಿಸುತ್ತಾ ಅದೇ ಲಕ್ಷಣಗಳು ಮತ್ತೆ ಕಂಡುಬಂದರೆ ಮತ್ತೆ ವರದಿ ಮಾಡಿ.",
+              "कंपकंपी, कान फड़फड़ाना, सिर हिलाना या असामान्य रूप से अकड़कर चलने जैसे शुरुआती लक्षण दिखते ही डॉक्टर को बुलाया जाए तो ही दोनों स्थितियाँ इलाज पर अच्छी तरह प्रतिक्रिया देती हैं। पशु के गिरकर दौरे शुरू होने का इंतज़ार करना कीमती समय बर्बाद करता है। सफल इलाज के बाद भी, कुछ पशुओं में एक-दो दिन में दोबारा लक्षण आ सकते हैं, इसलिए पशु पर बारीकी से नज़र रखें और वही लक्षण फिर दिखें तो दोबारा बताएं।"
             ),
           },
         ],
         check: [
           {
             type: "mcq",
-            q: L("Milk Fever is caused by low levels of which mineral in the blood?"),
-            options: [L("Calcium"), L("Iron"), L("Potassium"), L("Sodium")],
+            q: L("Milk Fever is caused by low levels of which mineral in the blood?", "మిల్క్ ఫీవర్ రక్తంలో ఏ ఖనిజం తక్కువగా ఉండటం వల్ల వస్తుంది?", "பால் காய்ச்சல் இரத்தத்தில் எந்த தாது குறைவால் ஏற்படுகிறது?", "ಮಿಲ್ಕ್ ಫೀವರ್ ರಕ್ತದಲ್ಲಿ ಯಾವ ಖನಿಜದ ಕೊರತೆಯಿಂದ ಬರುತ್ತದೆ?", "मिल्क फीवर खून में किस खनिज की कमी से होता है?"),
+            options: [L("Calcium", "కాల్షియం", "கால்சியம்", "ಕ್ಯಾಲ್ಸಿಯಂ", "कैल्शियम"), L("Iron", "ఐరన్", "இரும்பு", "ಕಬ್ಬಿಣ", "आयरन"), L("Potassium", "పొటాషియం", "பொட்டாசியம்", "ಪೊಟ್ಯಾಸಿಯಂ", "पोटैशियम"), L("Sodium", "సోడియం", "சோடியம்", "ಸೋಡಿಯಂ", "सोडियम")],
             answer: 0,
-            explain: L("Milk Fever (hypocalcaemia) is caused by a drop in blood calcium — the huge demand for calcium to make milk can outstrip what the body has ready."),
+            explain: L("Milk Fever (hypocalcaemia) is caused by a drop in blood calcium — the huge demand for calcium to make milk can outstrip what the body has ready.", "మిల్క్ ఫీవర్ (హైపోకాల్సీమియా) రక్తంలో కాల్షియం తగ్గడం వల్ల వస్తుంది — పాలు తయారీకి కావాల్సిన కాల్షియం డిమాండ్ శరీరంలో సిద్ధంగా ఉన్న దానికంటే ఎక్కువ కావచ్చు.", "பால் காய்ச்சல் (ஹைபோகால்சீமியா) இரத்தத்தில் கால்சியம் குறைவதால் ஏற்படுகிறது — பால் தயாரிக்க தேவையான கால்சியம் தேவை உடலில் தயாராக இருப்பதை விட அதிகமாகலாம்.", "ಮಿಲ್ಕ್ ಫೀವರ್ (ಹೈಪೋಕ್ಯಾಲ್ಸೀಮಿಯಾ) ರಕ್ತದಲ್ಲಿ ಕ್ಯಾಲ್ಸಿಯಂ ಕಡಿಮೆಯಾಗುವುದರಿಂದ ಬರುತ್ತದೆ — ಹಾಲು ತಯಾರಿಸಲು ಬೇಕಾದ ಕ್ಯಾಲ್ಸಿಯಂ ಬೇಡಿಕೆ ದೇಹದಲ್ಲಿ ಸಿದ್ಧವಿರುವುದಕ್ಕಿಂತ ಹೆಚ್ಚಾಗಬಹುದು.", "मिल्क फीवर (हाइपोकैल्सीमिया) खून में कैल्शियम गिरने से होता है — दूध बनाने के लिए ज़रूरी कैल्शियम की मांग शरीर में तैयार मात्रा से ज़्यादा हो सकती है।"),
           },
           {
             type: "truefalse",
-            q: L("Despite its name, an animal with Milk Fever actually has a high body temperature."),
+            q: L("Despite its name, an animal with Milk Fever actually has a high body temperature.", "పేరులో 'ఫీవర్' ఉన్నప్పటికీ, మిల్క్ ఫీవర్ ఉన్న పశువుకు నిజంగా అధిక శరీర ఉష్ణోగ్రత ఉంటుంది.", "பெயரில் இருந்தாலும், பால் காய்ச்சல் உள்ள விலங்குக்கு உண்மையில் அதிக உடல் வெப்பநிலை இருக்கும்.", "ಹೆಸರಿನಲ್ಲಿ ಇದ್ದರೂ, ಮಿಲ್ಕ್ ಫೀವರ್ ಇರುವ ಪ್ರಾಣಿಗೆ ನಿಜವಾಗಿ ಹೆಚ್ಚಿನ ದೇಹದ ಉಷ್ಣತೆ ಇರುತ್ತದೆ.", "नाम के बावजूद, मिल्क फीवर से ग्रस्त पशु का शरीर का तापमान असल में ज़्यादा होता है।"),
             answer: false,
-            explain: L("No — there is no real fever. In the later stages, the animal's body temperature is actually below normal, not above it."),
+            explain: L("No — there is no real fever. In the later stages, the animal's body temperature is actually below normal, not above it.", "కాదు — నిజమైన జ్వరం ఉండదు. తర్వాతి దశల్లో పశువు శరీర ఉష్ణోగ్రత సాధారణం కంటే తక్కువగా ఉంటుంది, ఎక్కువగా కాదు.", "இல்லை — உண்மையான காய்ச்சல் இருக்காது. பிற்பகுதி நிலைகளில், விலங்கின் உடல் வெப்பநிலை சாதாரணத்தை விட குறைவாகவே இருக்கும், அதிகமாக அல்ல.", "ಇಲ್ಲ — ನಿಜವಾದ ಜ್ವರ ಇರುವುದಿಲ್ಲ. ನಂತರದ ಹಂತಗಳಲ್ಲಿ, ಪ್ರಾಣಿಯ ದೇಹದ ಉಷ್ಣತೆ ಸಾಮಾನ್ಯಕ್ಕಿಂತ ಕಡಿಮೆ ಇರುತ್ತದೆ, ಹೆಚ್ಚಲ್ಲ.", "नहीं — असली बुखार नहीं होता। बाद की अवस्थाओं में, पशु के शरीर का तापमान सामान्य से ज़्यादा नहीं बल्कि कम हो जाता है।"),
           },
         ],
       },
       {
         id: "t-m7-ketosis-fattyliver",
-        title: L("Ketosis and Fatty Liver"),
+        title: L("Ketosis and Fatty Liver", "కీటోసిస్ మరియు ఫ్యాటీ లివర్", "கீட்டோசிஸ் மற்றும் கொழுப்பு கல்லீரல்", "ಕೀಟೋಸಿಸ್ ಮತ್ತು ಫ್ಯಾಟಿ ಲಿವರ್", "कीटोसिस और फैटी लिवर"),
         teach: [
           {
             type: "text",
-            heading: L("When the Body Runs Low on Energy"),
+            heading: L("When the Body Runs Low on Energy", "శరీరంలో శక్తి తక్కువైనప్పుడు", "உடலில் ஆற்றல் குறையும் போது", "ದೇಹದಲ್ಲಿ ಶಕ್ತಿ ಕಡಿಮೆಯಾದಾಗ", "जब शरीर में ऊर्जा कम हो जाए"),
             html: L(
-              "Making milk also takes a huge amount of energy. If an animal isn't eating enough to match that demand — or if she was too fat at calving — her body starts breaking down its own fat for energy. When this goes too far, it can lead to two related problems: <b>Ketosis</b> and <b>Fatty Liver Syndrome</b>."
+              "Making milk also takes a huge amount of energy. If an animal isn't eating enough to match that demand — or if she was too fat at calving — her body starts breaking down its own fat for energy. When this goes too far, it can lead to two related problems: <b>Ketosis</b> and <b>Fatty Liver Syndrome</b>.",
+              "పాలు తయారీకి కూడా చాలా ఎక్కువ శక్తి అవసరం. ఈ డిమాండ్‌కు సరిపడా పశువు తినకపోతే — లేదా ఈనే సమయంలో అది చాలా లావుగా ఉంటే — శరీరం శక్తి కోసం దాని సొంత కొవ్వును కరిగించడం మొదలుపెడుతుంది. ఇది మితిమీరిపోతే, రెండు సంబంధిత సమస్యలు రావచ్చు: <b>కీటోసిస్</b> మరియు <b>ఫ్యాటీ లివర్ సిండ్రోమ్</b>.",
+              "பால் தயாரிப்பதற்கும் அதிக ஆற்றல் தேவைப்படும். இந்த தேவைக்கு ஏற்ப விலங்கு போதுமான அளவு உண்ணவில்லை என்றால் — அல்லது ஈன்ற நேரத்தில் அது மிக கொழுப்பாக இருந்தால் — உடல் ஆற்றலுக்காக அதன் சொந்த கொழுப்பை உடைக்கத் தொடங்கும். இது அளவுக்கு அதிகமானால், இரண்டு தொடர்புடைய பிரச்சினைகள் ஏற்படலாம்: <b>கீட்டோசிஸ்</b> மற்றும் <b>கொழுப்பு கல்லீரல் நோய்க்குறி</b>.",
+              "ಹಾಲು ತಯಾರಿಸಲು ಸಹ ಬಹಳ ಹೆಚ್ಚು ಶಕ್ತಿ ಬೇಕಾಗುತ್ತದೆ. ಈ ಬೇಡಿಕೆಗೆ ತಕ್ಕಷ್ಟು ಪ್ರಾಣಿ ತಿನ್ನದಿದ್ದರೆ — ಅಥವಾ ಕರು ಹಾಕುವ ಸಮಯದಲ್ಲಿ ಅದು ಬಹಳ ದಪ್ಪವಾಗಿದ್ದರೆ — ದೇಹವು ಶಕ್ತಿಗಾಗಿ ಸ್ವಂತ ಕೊಬ್ಬನ್ನು ಒಡೆಯಲು ಪ್ರಾರಂಭಿಸುತ್ತದೆ. ಇದು ಮಿತಿಮೀರಿದರೆ, ಎರಡು ಸಂಬಂಧಿತ ಸಮಸ್ಯೆಗಳು ಬರಬಹುದು: <b>ಕೀಟೋಸಿಸ್</b> ಮತ್ತು <b>ಫ್ಯಾಟಿ ಲಿವರ್ ಸಿಂಡ್ರೋಮ್</b>.",
+              "दूध बनाने में भी बहुत ज़्यादा ऊर्जा लगती है। अगर पशु इस मांग के अनुसार पर्याप्त नहीं खा रहा — या ब्याने के समय वह बहुत मोटा था — तो उसका शरीर ऊर्जा के लिए अपनी ही चर्बी को तोड़ना शुरू कर देता है। यह ज़्यादा हो जाए तो दो जुड़ी हुई समस्याएँ हो सकती हैं: <b>कीटोसिस</b> और <b>फैटी लिवर सिंड्रोम</b>।"
             ),
           },
           {
             type: "glossary",
-            term: L("Negative Energy Balance"),
+            term: L("Negative Energy Balance", "నెగటివ్ ఎనర్జీ బ్యాలెన్స్", "எதிர்மறை ஆற்றல் சமநிலை", "ನೆಗೆಟಿವ್ ಎನರ್ಜಿ ಬ್ಯಾಲೆನ್ಸ್", "नेगेटिव एनर्जी बैलेंस"),
             meaning: L(
-              "This is what happens when an animal's body is using more energy than it is getting from its feed. To make up the difference, the body starts breaking down its own fat reserves."
+              "This is what happens when an animal's body is using more energy than it is getting from its feed. To make up the difference, the body starts breaking down its own fat reserves.",
+              "పశువు శరీరం తినే మేత నుండి వచ్చే దానికంటే ఎక్కువ శక్తిని ఖర్చు చేసినప్పుడు ఇది జరుగుతుంది. ఈ తేడాను భర్తీ చేయడానికి శరీరం తన సొంత కొవ్వు నిల్వలను కరిగించడం మొదలుపెడుతుంది.",
+              "விலங்கின் உடல் அது உண்ணும் தீவனத்தில் இருந்து கிடைப்பதை விட அதிக ஆற்றலைப் பயன்படுத்தும் போது இது நடக்கும். இந்த வித்தியாசத்தை ஈடுசெய்ய, உடல் அதன் சொந்த கொழுப்பு இருப்புகளை உடைக்கத் தொடங்கும்.",
+              "ಪ್ರಾಣಿಯ ದೇಹವು ಅದು ತಿನ್ನುವ ಆಹಾರದಿಂದ ಸಿಗುವುದಕ್ಕಿಂತ ಹೆಚ್ಚು ಶಕ್ತಿಯನ್ನು ಬಳಸಿದಾಗ ಇದು ಸಂಭವಿಸುತ್ತದೆ. ಈ ವ್ಯತ್ಯಾಸವನ್ನು ಸರಿದೂಗಿಸಲು, ದೇಹವು ತನ್ನ ಸ್ವಂತ ಕೊಬ್ಬಿನ ಸಂಗ್ರಹವನ್ನು ಒಡೆಯಲು ಪ್ರಾರಂಭಿಸುತ್ತದೆ.",
+              "यह तब होता है जब पशु का शरीर अपने चारे से मिलने वाली ऊर्जा से ज़्यादा ऊर्जा खर्च कर रहा हो। इस कमी को पूरा करने के लिए, शरीर अपनी ही चर्बी के भंडार को तोड़ना शुरू कर देता है।"
             ),
           },
           {
             type: "stat-grid",
             items: [
               {
-                label: L("Ketosis — early signs"),
+                label: L("Ketosis — early signs", "కీటోసిస్ — తొలి లక్షణాలు", "கீட்டோசிஸ் — ஆரம்ப அறிகுறிகள்", "ಕೀಟೋಸಿಸ್ — ಆರಂಭಿಕ ಲಕ್ಷಣಗಳು", "कीटोसिस — शुरुआती लक्षण"),
                 text: L(
-                  "Usually in the first 2 months after calving: a slight drop in how much the animal eats, a drop in milk production, tiredness (lethargy), and firm dung covered in mucus."
+                  "Usually in the first 2 months after calving: a slight drop in how much the animal eats, a drop in milk production, tiredness (lethargy), and firm dung covered in mucus.",
+                  "సాధారణంగా ఈనిన మొదటి 2 నెలల్లో వస్తుంది: పశువు తినే మేత కొద్దిగా తగ్గడం, పాల ఉత్పత్తి తగ్గడం, నీరసం, మరియు జిగురుతో కప్పబడిన గట్టి పేడ.",
+                  "பொதுவாக ஈன்ற முதல் 2 மாதங்களில் வரும்: விலங்கு உண்ணும் அளவு சற்று குறைதல், பால் உற்பத்தி குறைதல், சோர்வு, மற்றும் சளி படிந்த திடமான சாணம்.",
+                  "ಸಾಮಾನ್ಯವಾಗಿ ಕರು ಹಾಕಿದ ಮೊದಲ 2 ತಿಂಗಳಲ್ಲಿ ಬರುತ್ತದೆ: ಪ್ರಾಣಿ ತಿನ್ನುವ ಪ್ರಮಾಣ ಸ್ವಲ್ಪ ಕಡಿಮೆಯಾಗುವುದು, ಹಾಲಿನ ಉತ್ಪಾದನೆ ಕಡಿಮೆಯಾಗುವುದು, ಆಯಾಸ, ಮತ್ತು ಲೋಳೆಯಿಂದ ಮುಚ್ಚಿದ ಗಟ್ಟಿಯಾದ ಸಗಣಿ.",
+                  "आमतौर पर ब्याने के पहले 2 महीनों में होता है: पशु के खाने में हल्की कमी, दूध उत्पादन में गिरावट, थकान, और बलगम से ढका सख्त गोबर।"
                 ),
               },
               {
-                label: L("Ketosis — signs as it worsens"),
+                label: L("Ketosis — signs as it worsens", "కీటోసిస్ — తీవ్రమయ్యే లక్షణాలు", "கீட்டோசிஸ் — மோசமடையும் அறிகுறிகள்", "ಕೀಟೋಸಿಸ್ — ಹದಗೆಡುವ ಲಕ್ಷಣಗಳು", "कीटोसिस — बिगड़ने पर लक्षण"),
                 text: L(
-                  "Noticeable weight loss, a hunched-back posture, and sometimes eating or chewing on strange things like soil or wood (called pica). Some animals become restless, aggressive, or show compulsive licking or head-pressing."
+                  "Noticeable weight loss, a hunched-back posture, and sometimes eating or chewing on strange things like soil or wood (called pica). Some animals become restless, aggressive, or show compulsive licking or head-pressing.",
+                  "గమనించదగిన బరువు తగ్గడం, వెన్ను వంచుకుని నిలబడటం, మరియు కొన్నిసార్లు మట్టి లేదా చెక్క వంటి వింత వస్తువులను తినడం లేదా నమలడం (దీన్ని పికా అంటారు). కొన్ని పశువులు చంచలంగా, దూకుడుగా మారతాయి, లేదా పదేపదే నాకడం లేదా తలను గోడకు ఆనించడం చేస్తాయి.",
+                  "கவனிக்கத்தக்க எடை இழப்பு, முதுகு வளைந்த நிலை, மற்றும் சில நேரங்களில் மண் அல்லது மரம் போன்ற விசித்திரமான பொருட்களை உண்ணுதல் அல்லது மெல்லுதல் (பிகா என்று அழைக்கப்படும்). சில விலங்குகள் அமைதியின்மை, ஆக்ரோஷம், அல்லது தொடர்ந்து நக்குதல் அல்லது தலையை அழுத்துதல் காட்டலாம்.",
+                  "ಗಮನಾರ್ಹ ತೂಕ ನಷ್ಟ, ಬೆನ್ನು ಬಾಗಿದ ಭಂಗಿ, ಮತ್ತು ಕೆಲವೊಮ್ಮೆ ಮಣ್ಣು ಅಥವಾ ಮರದಂತಹ ವಿಚಿತ್ರ ವಸ್ತುಗಳನ್ನು ತಿನ್ನುವುದು ಅಥವಾ ಅಗಿಯುವುದು (ಇದನ್ನು ಪಿಕಾ ಎನ್ನುತ್ತಾರೆ). ಕೆಲವು ಪ್ರಾಣಿಗಳು ಚಡಪಡಿಕೆ, ಆಕ್ರಮಣಶೀಲತೆ ತೋರಿಸಬಹುದು, ಅಥವಾ ಪದೇಪದೇ ನೆಕ್ಕುವುದು ಅಥವಾ ತಲೆ ಒತ್ತುವುದನ್ನು ತೋರಿಸಬಹುದು.",
+                  "ध्यान देने लायक वज़न घटना, पीठ झुकाकर खड़ा होना, और कभी-कभी मिट्टी या लकड़ी जैसी अजीब चीज़ें खाना या चबाना (जिसे पिका कहते हैं)। कुछ पशु बेचैन, आक्रामक हो जाते हैं, या बार-बार चाटना या सिर दीवार से टिकाना दिखाते हैं।"
                 ),
               },
               {
-                label: L("Ketosis — advanced signs"),
+                label: L("Ketosis — advanced signs", "కీటోసిస్ — ముదిరిన లక్షణాలు", "கீட்டோசிஸ் — முற்றிய அறிகுறிகள்", "ಕೀಟೋಸಿಸ್ — ಮುಂದುವರಿದ ಲಕ್ಷಣಗಳು", "कीटोसिस — गंभीर लक्षण"),
                 text: L(
-                  "Abnormal walking — staggering, circling, or falling. Left untreated, milk production can drop to almost nothing, and the problem is likely to come back in future lactations too."
+                  "Abnormal walking — staggering, circling, or falling. Left untreated, milk production can drop to almost nothing, and the problem is likely to come back in future lactations too.",
+                  "అసాధారణ నడక — తూలడం, వృత్తాకారంగా తిరగడం, లేదా పడిపోవడం. చికిత్స చేయకపోతే, పాల ఉత్పత్తి దాదాపు శూన్యానికి పడిపోవచ్చు, మరియు ఈ సమస్య తర్వాతి ఈతల్లో కూడా మళ్లీ రావచ్చు.",
+                  "அசாதாரண நடை — தள்ளாடுதல், வட்டமிடுதல், அல்லது விழுதல். சிகிச்சை அளிக்கப்படாவிட்டால், பால் உற்பத்தி கிட்டத்தட்ட பூஜ்ஜியமாகக் குறையலாம், மேலும் இந்த பிரச்சினை எதிர்கால ஈற்றுகளிலும் மீண்டும் வரக்கூடும்.",
+                  "ಅಸಾಮಾನ್ಯ ನಡಿಗೆ — ತೂರಾಡುವುದು, ಸುತ್ತು ಹಾಕುವುದು, ಅಥವಾ ಬೀಳುವುದು. ಚಿಕಿತ್ಸೆ ನೀಡದಿದ್ದರೆ, ಹಾಲಿನ ಉತ್ಪಾದನೆ ಬಹುತೇಕ ಶೂನ್ಯಕ್ಕೆ ಇಳಿಯಬಹುದು, ಮತ್ತು ಈ ಸಮಸ್ಯೆ ಮುಂದಿನ ಕರು ಹಾಕುವಿಕೆಗಳಲ್ಲಿಯೂ ಮರುಕಳಿಸಬಹುದು.",
+                  "असामान्य चाल — लड़खड़ाना, गोल-गोल घूमना, या गिरना। इलाज न होने पर, दूध उत्पादन लगभग शून्य तक गिर सकता है, और यह समस्या आगे के ब्यांतों में भी दोबारा आने की संभावना रहती है।"
                 ),
               },
             ],
@@ -6335,59 +6395,71 @@ export const MODULES = [
           {
             type: "callout",
             style: "tip",
-            heading: L("A Familiar Number: Body Condition Score 3.5"),
+            heading: L("A Familiar Number: Body Condition Score 3.5", "పరిచయమైన సంఖ్య: బాడీ కండిషన్ స్కోర్ 3.5", "பழக்கமான எண்: உடல் நிலை மதிப்பெண் 3.5", "ಪರಿಚಿತ ಸಂಖ್ಯೆ: ಬಾಡಿ ಕಂಡೀಷನ್ ಸ್ಕೋರ್ 3.5", "एक जानी-पहचानी संख्या: बॉडी कंडीशन स्कोर 3.5"),
             text: L(
-              "You already learned Body Condition Score (BCS) in Module 1 — the 1-to-5 scale for how thin or fat an animal is. An animal at about 3.5 BCS at calving has a lower risk of ketosis. Sudden changes in feed, or overfeeding, also raise the risk — which is why steady, proper feeding matters so much in late pregnancy."
+              "You already learned Body Condition Score (BCS) in Module 1 — the 1-to-5 scale for how thin or fat an animal is. An animal at about 3.5 BCS at calving has a lower risk of ketosis. Sudden changes in feed, or overfeeding, also raise the risk — which is why steady, proper feeding matters so much in late pregnancy.",
+              "మీరు మాడ్యూల్ 1లో బాడీ కండిషన్ స్కోర్ (BCS) గురించి ఇప్పటికే నేర్చుకున్నారు — పశువు ఎంత సన్నగా లేదా లావుగా ఉందో చూపే 1 నుండి 5 స్కేల్. ఈనేటప్పుడు దాదాపు 3.5 BCS ఉన్న పశువుకు కీటోసిస్ ప్రమాదం తక్కువగా ఉంటుంది. మేతలో అకస్మాత్తు మార్పులు లేదా అతిగా తినిపించడం కూడా ప్రమాదాన్ని పెంచుతాయి — అందుకే గర్భం చివరి దశలో స్థిరమైన, సరైన మేత చాలా ముఖ్యం.",
+              "மாடியூல் 1-இல் நீங்கள் ஏற்கனவே உடல் நிலை மதிப்பெண் (BCS) பற்றி கற்றுக்கொண்டீர்கள் — விலங்கு எவ்வளவு மெலிந்தது அல்லது கொழுத்தது என்பதைக் காட்டும் 1 முதல் 5 வரையிலான அளவுகோல். ஈன்ற நேரத்தில் சுமார் 3.5 BCS உள்ள விலங்குக்கு கீட்டோசிஸ் ஆபத்து குறைவாக இருக்கும். தீவனத்தில் திடீர் மாற்றங்கள் அல்லது அதிகமாக உணவளிப்பதும் ஆபத்தை அதிகரிக்கும் — அதனால்தான் கர்ப்பத்தின் கடைசி கட்டத்தில் நிலையான, சரியான உணவளிப்பு மிக முக்கியம்.",
+              "ಮಾಡ್ಯೂಲ್ 1ರಲ್ಲಿ ನೀವು ಈಗಾಗಲೇ ಬಾಡಿ ಕಂಡೀಷನ್ ಸ್ಕೋರ್ (BCS) ಬಗ್ಗೆ ಕಲಿತಿದ್ದೀರಿ — ಪ್ರಾಣಿ ಎಷ್ಟು ತೆಳ್ಳಗಿದೆ ಅಥವಾ ದಪ್ಪವಾಗಿದೆ ಎಂಬುದನ್ನು ತೋರಿಸುವ 1ರಿಂದ 5ರವರೆಗಿನ ಪ್ರಮಾಣ. ಕರು ಹಾಕುವ ಸಮಯದಲ್ಲಿ ಸುಮಾರು 3.5 BCS ಇರುವ ಪ್ರಾಣಿಗೆ ಕೀಟೋಸಿಸ್ ಅಪಾಯ ಕಡಿಮೆ ಇರುತ್ತದೆ. ಆಹಾರದಲ್ಲಿ ಹಠಾತ್ ಬದಲಾವಣೆಗಳು, ಅಥವಾ ಅತಿಯಾಗಿ ಆಹಾರ ನೀಡುವುದು ಸಹ ಅಪಾಯವನ್ನು ಹೆಚ್ಚಿಸುತ್ತದೆ — ಆದ್ದರಿಂದ ಗರ್ಭಾವಸ್ಥೆಯ ಕೊನೆಯ ಹಂತದಲ್ಲಿ ಸ್ಥಿರವಾದ, ಸರಿಯಾದ ಆಹಾರ ಬಹಳ ಮುಖ್ಯ.",
+              "आपने मॉड्यूल 1 में बॉडी कंडीशन स्कोर (BCS) के बारे में पहले ही सीखा है — पशु कितना दुबला या मोटा है यह दिखाने वाला 1 से 5 तक का पैमाना। ब्याने के समय लगभग 3.5 BCS वाले पशु में कीटोसिस का खतरा कम होता है। चारे में अचानक बदलाव, या ज़्यादा खिलाना भी खतरा बढ़ाता है — इसलिए गर्भावस्था के अंतिम चरण में स्थिर, सही तरीके से खिलाना बहुत मायने रखता है।"
             ),
           },
           {
             type: "text",
-            heading: L("Fatty Liver Syndrome (Lipidosis)"),
+            heading: L("Fatty Liver Syndrome (Lipidosis)", "ఫ్యాటీ లివర్ సిండ్రోమ్ (లిపిడోసిస్)", "கொழுப்பு கல்லீரல் நோய்க்குறி (லிபிடோசிஸ்)", "ಫ್ಯಾಟಿ ಲಿವರ್ ಸಿಂಡ್ರೋಮ್ (ಲಿಪಿಡೋಸಿಸ್)", "फैटी लिवर सिंड्रोम (लिपिडोसिस)"),
             html: L(
-              "This can start within just 24 hours of an animal going off her feed. As the body breaks down fat for energy, some of that fat gets deposited back into the liver. Confusingly, this can happen even while the cow is visibly losing body condition — the fat is building up inside the liver, not on her body. Cows that were too fat at calving (BCS above 3.5) are much more likely to develop this."
+              "This can start within just 24 hours of an animal going off her feed. As the body breaks down fat for energy, some of that fat gets deposited back into the liver. Confusingly, this can happen even while the cow is visibly losing body condition — the fat is building up inside the liver, not on her body. Cows that were too fat at calving (BCS above 3.5) are much more likely to develop this.",
+              "పశువు మేత తినడం మానేసిన కేవలం 24 గంటల్లోనే ఇది మొదలవ్వచ్చు. శరీరం శక్తి కోసం కొవ్వును కరిగించే క్రమంలో, ఆ కొవ్వులో కొంత భాగం తిరిగి కాలేయంలో పేరుకుపోతుంది. గందరగోళంగా అనిపించినా, ఆవు కనిపించేలా బరువు తగ్గుతున్నప్పుడు కూడా ఇది జరగవచ్చు — కొవ్వు దాని శరీరంపై కాకుండా కాలేయం లోపల పేరుకుపోతూ ఉంటుంది. ఈనేటప్పుడు మరీ లావుగా ఉన్న (BCS 3.5 కంటే ఎక్కువ) ఆవులకు ఇది వచ్చే అవకాశం చాలా ఎక్కువ.",
+              "விலங்கு தீவனம் நிறுத்திய வெறும் 24 மணி நேரத்திற்குள் இது தொடங்கலாம். உடல் ஆற்றலுக்காக கொழுப்பை உடைக்கும் போது, அந்த கொழுப்பில் சிலவை மீண்டும் கல்லீரலில் படிந்துவிடும். குழப்பமாக இருந்தாலும், பசு கண்ணுக்குத் தெரியும் வகையில் உடல் எடை இழந்துகொண்டிருக்கும் போதே இது நடக்கலாம் — கொழுப்பு அதன் உடலில் அல்ல, கல்லீரலுக்குள் சேர்ந்துகொண்டிருக்கும். ஈன்ற நேரத்தில் மிக கொழுப்பாக இருந்த (BCS 3.5-க்கு மேல்) பசுக்களுக்கு இது வருவதற்கான வாய்ப்பு அதிகம்.",
+              "ಪ್ರಾಣಿ ಆಹಾರ ತಿನ್ನುವುದನ್ನು ನಿಲ್ಲಿಸಿದ ಕೇವಲ 24 ಗಂಟೆಗಳಲ್ಲಿ ಇದು ಪ್ರಾರಂಭವಾಗಬಹುದು. ದೇಹವು ಶಕ್ತಿಗಾಗಿ ಕೊಬ್ಬನ್ನು ಒಡೆಯುತ್ತಿರುವಾಗ, ಆ ಕೊಬ್ಬಿನ ಕೆಲವು ಭಾಗ ಮತ್ತೆ ಯಕೃತ್ತಿನಲ್ಲಿ ಸಂಗ್ರಹವಾಗುತ್ತದೆ. ಗೊಂದಲಮಯವಾಗಿ, ಹಸು ಕಣ್ಣಿಗೆ ಕಾಣುವಂತೆ ದೇಹತೂಕ ಕಳೆದುಕೊಳ್ಳುತ್ತಿರುವಾಗಲೂ ಇದು ಸಂಭವಿಸಬಹುದು — ಕೊಬ್ಬು ಅದರ ದೇಹದ ಮೇಲೆ ಅಲ್ಲ, ಯಕೃತ್ತಿನ ಒಳಗೆ ಸಂಗ್ರಹವಾಗುತ್ತಿದೆ. ಕರು ಹಾಕುವ ಸಮಯದಲ್ಲಿ ಬಹಳ ದಪ್ಪವಾಗಿದ್ದ (BCS 3.5ಕ್ಕಿಂತ ಹೆಚ್ಚು) ಹಸುಗಳಿಗೆ ಇದು ಬರುವ ಸಾಧ್ಯತೆ ಹೆಚ್ಚು.",
+              "यह पशु के चारा खाना छोड़ने के मात्र 24 घंटों के भीतर शुरू हो सकता है। जैसे-जैसे शरीर ऊर्जा के लिए चर्बी तोड़ता है, उस चर्बी का कुछ हिस्सा वापस लिवर में जमा हो जाता है। भ्रमित करने वाली बात यह है कि गाय का शरीर स्पष्ट रूप से दुबला होते हुए भी यह हो सकता है — चर्बी उसके शरीर पर नहीं बल्कि लिवर के अंदर जमा हो रही होती है। ब्याने के समय ज़्यादा मोटी (BCS 3.5 से ऊपर) रहीं गायों में यह होने की संभावना कहीं ज़्यादा होती है।"
             ),
           },
           {
             type: "stat-grid",
             items: [
-              { label: L("Fatty Liver — what you may notice"), text: L("Lower milk yield and reduced appetite.") },
+              { label: L("Fatty Liver — what you may notice", "ఫ్యాటీ లివర్ — మీరు గమనించేవి", "கொழுப்பு கல்லீரல் — நீங்கள் கவனிக்கக்கூடியவை", "ಫ್ಯಾಟಿ ಲಿವರ್ — ನೀವು ಗಮನಿಸಬಹುದಾದದ್ದು", "फैटी लिवर — आप क्या देख सकते हैं"), text: L("Lower milk yield and reduced appetite.", "పాల దిగుబడి తగ్గడం మరియు ఆకలి తగ్గడం.", "குறைந்த பால் விளைச்சல் மற்றும் குறைந்த பசி.", "ಕಡಿಮೆ ಹಾಲಿನ ಇಳುವರಿ ಮತ್ತು ಕಡಿಮೆ ಹಸಿವು.", "कम दूध उत्पादन और कम भूख।") },
               {
-                label: L("Fatty Liver — linked risks"),
-                text: L("Animals with fatty liver are more likely to also develop Milk Fever, Ketosis, mastitis, and retained placenta, plus reduced fertility."),
+                label: L("Fatty Liver — linked risks", "ఫ్యాటీ లివర్ — సంబంధిత ప్రమాదాలు", "கொழுப்பு கல்லீரல் — தொடர்புடைய ஆபத்துகள்", "ಫ್ಯಾಟಿ ಲಿವರ್ — ಸಂಬಂಧಿತ ಅಪಾಯಗಳು", "फैटी लिवर — जुड़े हुए खतरे"),
+                text: L("Animals with fatty liver are more likely to also develop Milk Fever, Ketosis, mastitis, and retained placenta, plus reduced fertility.", "ఫ్యాటీ లివర్ ఉన్న పశువులకు మిల్క్ ఫీవర్, కీటోసిస్, మాస్టిటిస్, మావి నిలిచిపోవడం, మరియు గర్భధారణ సామర్థ్యం తగ్గడం వంటివి కూడా వచ్చే అవకాశం ఎక్కువ.", "கொழுப்பு கல்லீரல் உள்ள விலங்குகளுக்கு பால் காய்ச்சல், கீட்டோசிஸ், மேமை அழற்சி, மற்றும் மாயை தங்குதல் ஆகியவை வருவதற்கான வாய்ப்பும், கருவுறும் திறன் குறைவதற்கான வாய்ப்பும் அதிகம்.", "ಫ್ಯಾಟಿ ಲಿವರ್ ಇರುವ ಪ್ರಾಣಿಗಳಿಗೆ ಮಿಲ್ಕ್ ಫೀವರ್, ಕೀಟೋಸಿಸ್, ಕೆಚ್ಚಲುಬಾವು, ಮತ್ತು ಮಾಸು ಉಳಿಯುವಿಕೆ ಸಹ ಬರುವ ಸಾಧ್ಯತೆ ಹೆಚ್ಚು, ಜೊತೆಗೆ ಫಲವತ್ತತೆ ಕಡಿಮೆಯಾಗುತ್ತದೆ.", "फैटी लिवर वाले पशुओं में मिल्क फीवर, कीटोसिस, थनैला, और जेर का रुक जाना होने की संभावना भी ज़्यादा होती है, साथ ही प्रजनन क्षमता भी घट जाती है।"),
               },
               {
-                label: L("Fatty Liver — confirming it"),
-                text: L("It can only be confirmed with a blood test — this is entirely the vet's job, not something you can tell just by looking."),
+                label: L("Fatty Liver — confirming it", "ఫ్యాటీ లివర్ — నిర్ధారించడం", "கொழுப்பு கல்லீரல் — உறுதிப்படுத்துதல்", "ಫ್ಯಾಟಿ ಲಿವರ್ — ಖಚಿತಪಡಿಸುವುದು", "फैटी लिवर — पुष्टि करना"),
+                text: L("It can only be confirmed with a blood test — this is entirely the vet's job, not something you can tell just by looking.", "దీన్ని రక్త పరీక్ష ద్వారానే నిర్ధారించగలం — ఇది పూర్తిగా వైద్యుడి పని, కేవలం చూసి మీరు చెప్పగలిగేది కాదు.", "இதை இரத்த பரிசோதனை மூலம் மட்டுமே உறுதிப்படுத்த முடியும் — இது முழுவதுமாக கால்நடை மருத்துவரின் வேலை, வெறுமனே பார்த்து நீங்கள் சொல்லக்கூடியது அல்ல.", "ಇದನ್ನು ರಕ್ತ ಪರೀಕ್ಷೆಯಿಂದ ಮಾತ್ರ ಖಚಿತಪಡಿಸಬಹುದು — ಇದು ಸಂಪೂರ್ಣವಾಗಿ ಪಶುವೈದ್ಯರ ಕೆಲಸ, ಬರೀ ನೋಡಿ ನೀವು ಹೇಳಬಹುದಾದದ್ದಲ್ಲ.", "इसकी पुष्टि केवल खून की जांच से ही हो सकती है — यह पूरी तरह डॉक्टर का काम है, सिर्फ देखकर आप नहीं बता सकते।"),
               },
             ],
           },
           {
             type: "callout",
             style: "warning",
-            heading: L("There Is No Proven Treatment — Prevention and Early Reporting Matter Most"),
+            heading: L("There Is No Proven Treatment — Prevention and Early Reporting Matter Most", "నిరూపితమైన చికిత్స లేదు — నివారణ మరియు ముందస్తు నివేదిక చాలా ముఖ్యం", "நிரூபிக்கப்பட்ட சிகிச்சை இல்லை — தடுப்பும் முன்கூட்டிய தகவலும் மிக முக்கியம்", "ಸಾಬೀತಾದ ಚಿಕಿತ್ಸೆ ಇಲ್ಲ — ತಡೆಗಟ್ಟುವಿಕೆ ಮತ್ತು ಮುಂಚಿನ ವರದಿ ಬಹಳ ಮುಖ್ಯ", "कोई साबित इलाज नहीं है — रोकथाम और जल्दी सूचना देना सबसे ज़्यादा मायने रखता है"),
             text: L(
-              "Once fat builds up in the liver, it can take more than 10 weeks after calving to clear, and death rates can be high in severe cases. There is no proven treatment for fatty liver, which is exactly why reporting a drop in appetite or milk early — before things worsen — is so important. It also means keeping animals at a healthy body condition (not too fat) well before calving matters far more than trying to fix things afterwards."
+              "Once fat builds up in the liver, it can take more than 10 weeks after calving to clear, and death rates can be high in severe cases. There is no proven treatment for fatty liver, which is exactly why reporting a drop in appetite or milk early — before things worsen — is so important. It also means keeping animals at a healthy body condition (not too fat) well before calving matters far more than trying to fix things afterwards.",
+              "కాలేయంలో కొవ్వు పేరుకుపోయాక, అది తగ్గడానికి ఈనిన తర్వాత 10 వారాలకు మించి పట్టవచ్చు, మరియు తీవ్రమైన కేసుల్లో మరణాల రేటు ఎక్కువగా ఉండవచ్చు. ఫ్యాటీ లివర్‌కు నిరూపితమైన చికిత్స లేదు, అందుకే విషయాలు మరింత దిగజారకముందే ఆకలి లేదా పాలు తగ్గడాన్ని ముందుగానే తెలియజేయడం చాలా ముఖ్యం. అలాగే ఈనేముందే పశువులను ఆరోగ్యకరమైన బరువులో (అతిగా లావు కాకుండా) ఉంచడం, తర్వాత సరిదిద్దడానికి ప్రయత్నించడం కంటే చాలా ముఖ్యమైనది.",
+              "கல்லீரலில் கொழுப்பு படிந்த பிறகு, அது நீங்க ஈன்ற பிறகு 10 வாரங்களுக்கு மேல் ஆகலாம், மேலும் கடுமையான நிலைகளில் இறப்பு விகிதம் அதிகமாக இருக்கலாம். கொழுப்பு கல்லீரலுக்கு நிரூபிக்கப்பட்ட சிகிச்சை இல்லை, அதனால்தான் விஷயங்கள் மோசமடையும் முன்பே பசி அல்லது பாலில் குறைவை முன்கூட்டியே தெரிவிப்பது மிக முக்கியம். ஈன்பதற்கு முன்பே விலங்குகளை ஆரோக்கியமான உடல் நிலையில் (அதிக கொழுப்பு இல்லாமல்) வைத்திருப்பதும், பின்னர் சரிசெய்ய முயற்சிப்பதை விட மிக முக்கியம்.",
+              "ಒಮ್ಮೆ ಯಕೃತ್ತಿನಲ್ಲಿ ಕೊಬ್ಬು ಸಂಗ್ರಹವಾದ ನಂತರ, ಅದು ಕರಗಲು ಕರು ಹಾಕಿದ ನಂತರ 10 ವಾರಗಳಿಗಿಂತ ಹೆಚ್ಚು ಸಮಯ ತೆಗೆದುಕೊಳ್ಳಬಹುದು, ಮತ್ತು ತೀವ್ರ ಪ್ರಕರಣಗಳಲ್ಲಿ ಸಾವಿನ ಪ್ರಮಾಣ ಹೆಚ್ಚಿರಬಹುದು. ಫ್ಯಾಟಿ ಲಿವರ್‌ಗೆ ಸಾಬೀತಾದ ಚಿಕಿತ್ಸೆ ಇಲ್ಲ, ಅದಕ್ಕಾಗಿಯೇ ವಿಷಯಗಳು ಹದಗೆಡುವ ಮೊದಲೇ ಹಸಿವು ಅಥವಾ ಹಾಲು ಕಡಿಮೆಯಾಗುವುದನ್ನು ಬೇಗ ವರದಿ ಮಾಡುವುದು ಬಹಳ ಮುಖ್ಯ. ಕರು ಹಾಕುವ ಮೊದಲೇ ಪ್ರಾಣಿಗಳನ್ನು ಆರೋಗ್ಯಕರ ದೇಹಸ್ಥಿತಿಯಲ್ಲಿ (ಅತಿ ದಪ್ಪ ಇಲ್ಲದೆ) ಇಡುವುದೂ, ನಂತರ ಸರಿಪಡಿಸಲು ಪ್ರಯತ್ನಿಸುವುದಕ್ಕಿಂತ ಹೆಚ್ಚು ಮುಖ್ಯ.",
+              "एक बार लिवर में चर्बी जमा हो जाए, तो उसे साफ होने में ब्याने के बाद 10 हफ्तों से ज़्यादा समय लग सकता है, और गंभीर मामलों में मृत्यु दर ज़्यादा हो सकती है। फैटी लिवर का कोई साबित इलाज नहीं है, इसीलिए भूख या दूध में कमी को हालात बिगड़ने से पहले ही बताना बहुत ज़रूरी है। इसका मतलब यह भी है कि ब्याने से काफी पहले ही पशुओं को सही शरीर स्थिति (बहुत मोटा नहीं) में रखना, बाद में सुधारने की कोशिश करने से कहीं ज़्यादा मायने रखता है।"
             ),
           },
         ],
         check: [
           {
             type: "mcq",
-            q: L("In Ketosis, what usually happens FIRST?"),
+            q: L("In Ketosis, what usually happens FIRST?", "కీటోసిస్‌లో సాధారణంగా మొదట ఏమి జరుగుతుంది?", "கீட்டோசிஸில் பொதுவாக முதலில் என்ன நடக்கும்?", "ಕೀಟೋಸಿಸ್‌ನಲ್ಲಿ ಸಾಮಾನ್ಯವಾಗಿ ಮೊದಲು ಏನಾಗುತ್ತದೆ?", "कीटोसिस में आमतौर पर सबसे पहले क्या होता है?"),
             options: [
-              L("Sudden collapse and convulsions"),
-              L("A slight drop in feed intake and milk production, with tiredness"),
-              L("A very high fever"),
-              L("Sudden swelling of the udder"),
+              L("Sudden collapse and convulsions", "అకస్మాత్తుగా పడిపోవడం మరియు మూర్ఛలు", "திடீர் விழுதல் மற்றும் வலிப்பு", "ಹಠಾತ್ ಕುಸಿತ ಮತ್ತು ಸೆಳೆತ", "अचानक गिरना और दौरे पड़ना"),
+              L("A slight drop in feed intake and milk production, with tiredness", "మేత తీసుకోవడం మరియు పాల ఉత్పత్తిలో కొద్దిగా తగ్గుదల, నీరసంతో పాటు", "தீவன உட்கொள்ளல் மற்றும் பால் உற்பத்தியில் சிறிது குறைவு, சோர்வுடன்", "ಆಹಾರ ಸೇವನೆ ಮತ್ತು ಹಾಲಿನ ಉತ್ಪಾದನೆಯಲ್ಲಿ ಸ್ವಲ್ಪ ಇಳಿಕೆ, ಆಯಾಸದ ಜೊತೆಗೆ", "चारा खाने और दूध उत्पादन में हल्की कमी, साथ में थकान"),
+              L("A very high fever", "చాలా అధిక జ్వరం", "மிக அதிக காய்ச்சல்", "ಬಹಳ ಹೆಚ್ಚಿನ ಜ್ವರ", "बहुत तेज़ बुखार"),
+              L("Sudden swelling of the udder", "పొదుగు అకస్మాత్తుగా వాపు రావడం", "மேமையின் திடீர் வீக்கம்", "ಕೆಚ್ಚಲಿನ ಹಠಾತ್ ಊತ", "थन में अचानक सूजन"),
             ],
             answer: 1,
-            explain: L("Ketosis usually starts quietly — a slight drop in eating and milk, along with tiredness — before it worsens into more dramatic signs."),
+            explain: L("Ketosis usually starts quietly — a slight drop in eating and milk, along with tiredness — before it worsens into more dramatic signs.", "కీటోసిస్ సాధారణంగా నిశ్శబ్దంగా మొదలవుతుంది — తినడం మరియు పాలలో కొద్దిగా తగ్గుదల, నీరసంతో పాటు — తర్వాత మరింత తీవ్రమైన లక్షణాలుగా మారుతుంది.", "கீட்டோசிஸ் பொதுவாக அமைதியாகவே தொடங்கும் — உண்ணுதலிலும் பாலிலும் சிறிது குறைவு, சோர்வுடன் — பின்னர் இது மேலும் தீவிரமான அறிகுறிகளாக மோசமடையும்.", "ಕೀಟೋಸಿಸ್ ಸಾಮಾನ್ಯವಾಗಿ ಮೌನವಾಗಿ ಪ್ರಾರಂಭವಾಗುತ್ತದೆ — ತಿನ್ನುವುದು ಮತ್ತು ಹಾಲಿನಲ್ಲಿ ಸ್ವಲ್ಪ ಇಳಿಕೆ, ಆಯಾಸದ ಜೊತೆಗೆ — ನಂತರ ಇದು ಹೆಚ್ಚು ತೀವ್ರ ಲಕ್ಷಣಗಳಾಗಿ ಹದಗೆಡುತ್ತದೆ.", "कीटोसिस आमतौर पर चुपचाप शुरू होता है — खाने और दूध में हल्की कमी, साथ में थकान — इसके बाद ही यह ज़्यादा गंभीर लक्षणों में बदलता है।"),
           },
           {
             type: "truefalse",
-            q: L("A cow that is too fat at calving time is at higher risk of Fatty Liver Syndrome."),
+            q: L("A cow that is too fat at calving time is at higher risk of Fatty Liver Syndrome.", "ఈనేటప్పుడు మరీ లావుగా ఉన్న ఆవుకు ఫ్యాటీ లివర్ సిండ్రోమ్ ప్రమాదం ఎక్కువ.", "ஈன்ற நேரத்தில் மிக கொழுப்பாக இருக்கும் பசுவுக்கு கொழுப்பு கல்லீரல் நோய்க்குறி ஆபத்து அதிகம்.", "ಕರು ಹಾಕುವ ಸಮಯದಲ್ಲಿ ಬಹಳ ದಪ್ಪವಾಗಿರುವ ಹಸುವಿಗೆ ಫ್ಯಾಟಿ ಲಿವರ್ ಸಿಂಡ್ರೋಮ್ ಅಪಾಯ ಹೆಚ್ಚು.", "ब्याने के समय बहुत मोटी गाय को फैटी लिवर सिंड्रोम का खतरा ज़्यादा होता है।"),
             answer: true,
-            explain: L("Yes — cows with a Body Condition Score above 3.5 at calving are much more prone to fatty liver."),
+            explain: L("Yes — cows with a Body Condition Score above 3.5 at calving are much more prone to fatty liver.", "అవును — ఈనేటప్పుడు బాడీ కండిషన్ స్కోర్ 3.5 కంటే ఎక్కువ ఉన్న ఆవులకు ఫ్యాటీ లివర్ వచ్చే అవకాశం చాలా ఎక్కువ.", "ஆம் — ஈன்ற நேரத்தில் உடல் நிலை மதிப்பெண் 3.5-க்கு மேல் இருக்கும் பசுக்களுக்கு கொழுப்பு கல்லீரல் வருவதற்கான வாய்ப்பு அதிகம்.", "ಹೌದು — ಕರು ಹಾಕುವ ಸಮಯದಲ್ಲಿ ಬಾಡಿ ಕಂಡೀಷನ್ ಸ್ಕೋರ್ 3.5ಕ್ಕಿಂತ ಹೆಚ್ಚಿರುವ ಹಸುಗಳಿಗೆ ಫ್ಯಾಟಿ ಲಿವರ್ ಬರುವ ಸಾಧ್ಯತೆ ಹೆಚ್ಚು.", "हाँ — ब्याने के समय बॉडी कंडीशन स्कोर 3.5 से ज़्यादा वाली गायों में फैटी लिवर होने की संभावना कहीं ज़्यादा होती है।"),
           },
         ],
       },
@@ -6398,50 +6470,50 @@ export const MODULES = [
         {
           topicId: "t-m7-milkfever-magnesium",
           type: "mcq",
-          q: L("Which of these is an EARLY sign of Milk Fever, before the animal goes down?"),
+          q: L("Which of these is an EARLY sign of Milk Fever, before the animal goes down?", "పశువు పడిపోకముందు మిల్క్ ఫీవర్‌కు తొలి లక్షణం ఏది?", "விலங்கு விழுவதற்கு முன், பால் காய்ச்சலின் ஆரம்ப அறிகுறி எது?", "ಪ್ರಾಣಿ ಬೀಳುವ ಮೊದಲು, ಮಿಲ್ಕ್ ಫೀವರ್‌ನ ಆರಂಭಿಕ ಲಕ್ಷಣ ಯಾವುದು?", "पशु के गिरने से पहले, मिल्क फीवर का शुरुआती लक्षण कौन सा है?"),
           options: [
-            L("Fine trembling, ear twitching, and head bobbing"),
-            L("Complete unconsciousness"),
-            L("Lying flat on its side with no eye reflex"),
-            L("A very high body temperature"),
+            L("Fine trembling, ear twitching, and head bobbing", "సన్నని వణుకు, చెవులు అదరడం, తల ఊపడం", "மெல்லிய நடுக்கம், காது துடிப்பு, தலை ஆட்டுதல்", "ಸಣ್ಣ ನಡುಕ, ಕಿವಿ ಅದುರುವಿಕೆ, ತಲೆ ಆಡಿಸುವಿಕೆ", "हल्की कंपकंपी, कान फड़फड़ाना, सिर हिलाना"),
+            L("Complete unconsciousness", "పూర్తిగా స్పృహ కోల్పోవడం", "முழுமையான மயக்கம்", "ಸಂಪೂರ್ಣ ಪ್ರಜ್ಞೆ ತಪ್ಪುವಿಕೆ", "पूरी तरह बेहोश हो जाना"),
+            L("Lying flat on its side with no eye reflex", "కంటికి స్పందన లేకుండా పూర్తిగా పక్కకు వాలిపోవడం", "கண் எதிர்வினை இல்லாமல் முழுவதுமாக பக்கவாட்டில் படுத்தல்", "ಕಣ್ಣಿನ ಪ್ರತಿಕ್ರಿಯೆ ಇಲ್ಲದೆ ಸಂಪೂರ್ಣವಾಗಿ ಪಕ್ಕಕ್ಕೆ ಮಲಗುವುದು", "आँख की प्रतिक्रिया के बिना पूरी तरह करवट लेकर लेट जाना"),
+            L("A very high body temperature", "చాలా ఎక్కువ శరీర ఉష్ణోగ్రత", "மிக அதிக உடல் வெப்பநிலை", "ಬಹಳ ಹೆಚ್ಚಿನ ದೇಹದ ಉಷ್ಣತೆ", "शरीर का बहुत ज़्यादा तापमान"),
           ],
           answer: 0,
-          explain: L("The earliest signs are excitability with fine trembling over the flanks and loins, ear twitching, and head bobbing — well before the animal is unable to stand."),
+          explain: L("The earliest signs are excitability with fine trembling over the flanks and loins, ear twitching, and head bobbing — well before the animal is unable to stand.", "తొలి లక్షణాలు కంగారు, పార్శ్వాలు మరియు నడుము దగ్గర సన్నని వణుకు, చెవులు అదరడం, తల ఊపడం — పశువు నిలబడలేకపోయే స్థితికి చాలా ముందే కనిపిస్తాయి.", "ஆரம்ப அறிகுறிகள் பதற்றம், விலா மற்றும் இடுப்பு பகுதியில் மெல்லிய நடுக்கம், காது துடிப்பு, தலை ஆட்டுதல் — விலங்கு நிற்க முடியாத நிலைக்கு வெகு காலம் முன்பே தோன்றும்.", "ಆರಂಭಿಕ ಲಕ್ಷಣಗಳೆಂದರೆ ಆತಂಕ, ಪಕ್ಕೆ ಮತ್ತು ಸೊಂಟದ ಬಳಿ ಸಣ್ಣ ನಡುಕ, ಕಿವಿ ಅದುರುವಿಕೆ, ತಲೆ ಆಡಿಸುವಿಕೆ — ಪ್ರಾಣಿ ನಿಲ್ಲಲಾಗದ ಸ್ಥಿತಿಗಿಂತ ಬಹಳ ಮೊದಲೇ ಕಾಣಿಸಿಕೊಳ್ಳುತ್ತವೆ.", "सबसे शुरुआती लक्षण हैं बेचैनी, कमर और बाजू में हल्की कंपकंपी, कान फड़फड़ाना, सिर हिलाना — यह सब पशु के खड़ा न हो पाने की स्थिति से बहुत पहले दिखते हैं।"),
         },
         {
           topicId: "t-m7-milkfever-magnesium",
           type: "truefalse",
-          q: L("Hypomagnesaemia can cause an animal to fall with severe convulsions that repeat at short intervals."),
+          q: L("Hypomagnesaemia can cause an animal to fall with severe convulsions that repeat at short intervals.", "హైపోమాగ్నీసీమియా వల్ల పశువు తరచుగా పునరావృతమయ్యే తీవ్రమైన మూర్ఛలతో పడిపోవచ్చు.", "ஹைபோமேக்னீசீமியா, விலங்கு அடிக்கடி மீண்டும் வரும் கடுமையான வலிப்புடன் விழக் காரணமாகலாம்.", "ಹೈಪೋಮ್ಯಾಗ್ನೀಸೀಮಿಯಾ ಪ್ರಾಣಿಯನ್ನು ಆಗಾಗ ಮರುಕಳಿಸುವ ತೀವ್ರ ಸೆಳೆತಗಳೊಂದಿಗೆ ಬೀಳಿಸಬಹುದು.", "हाइपोमैग्नीसीमिया पशु को बार-बार आने वाले तेज़ दौरों के साथ गिरा सकता है।"),
           answer: true,
-          explain: L("Yes — in its sudden form, the animal throws up its head, bellows, gallops, and falls with paddling convulsions that repeat every short while."),
+          explain: L("Yes — in its sudden form, the animal throws up its head, bellows, gallops, and falls with paddling convulsions that repeat every short while.", "అవును — దీని తీవ్రమైన రూపంలో, పశువు తలను పైకి విసిరి, అరుస్తూ, పరుగెత్తి, కాళ్లు కొట్టుకునే మూర్ఛలతో పడిపోతుంది, ఇది కొద్ది సమయానికి ఒకసారి పునరావృతం అవుతుంది.", "ஆம் — இதன் திடீர் வடிவத்தில், விலங்கு தலையை மேலே தூக்கி, கத்தி, ஓடி, கால் உதைக்கும் வலிப்புடன் விழுகிறது, இது அடிக்கடி மீண்டும் வரும்.", "ಹೌದು — ಇದರ ಹಠಾತ್ ರೂಪದಲ್ಲಿ, ಪ್ರಾಣಿ ತಲೆಯನ್ನು ಮೇಲಕ್ಕೆತ್ತಿ, ಕೂಗುತ್ತಾ, ಓಡಿ, ಕಾಲು ಒದೆಯುವ ಸೆಳೆತಗಳೊಂದಿಗೆ ಬೀಳುತ್ತದೆ, ಇದು ಸ್ವಲ್ಪ ಸಮಯಕ್ಕೊಮ್ಮೆ ಮರುಕಳಿಸುತ್ತದೆ.", "हाँ — इसके अचानक होने वाले रूप में, पशु सिर उठाकर, चिल्लाकर, दौड़कर, पैर पटकने वाले दौरों के साथ गिर जाता है, जो थोड़ी-थोड़ी देर में बार-बार आते हैं।"),
         },
         {
           topicId: "t-m7-ketosis-fattyliver",
           type: "mcq",
-          q: L("What Body Condition Score at calving is linked to a LOWER risk of Ketosis and Fatty Liver?"),
-          options: [L("About 1.0 (very thin)"), L("About 3.5"), L("About 5.0 (very fat)"), L("Body Condition Score makes no difference"),],
+          q: L("What Body Condition Score at calving is linked to a LOWER risk of Ketosis and Fatty Liver?", "ఈనేటప్పుడు ఏ బాడీ కండిషన్ స్కోర్ ఉంటే కీటోసిస్ మరియు ఫ్యాటీ లివర్ ప్రమాదం తక్కువగా ఉంటుంది?", "ஈன்ற நேரத்தில் எந்த உடல் நிலை மதிப்பெண் கீட்டோசிஸ் மற்றும் கொழுப்பு கல்லீரல் ஆபத்தை குறைவாக்குகிறது?", "ಕರು ಹಾಕುವ ಸಮಯದಲ್ಲಿ ಯಾವ ಬಾಡಿ ಕಂಡೀಷನ್ ಸ್ಕೋರ್ ಕೀಟೋಸಿಸ್ ಮತ್ತು ಫ್ಯಾಟಿ ಲಿವರ್ ಅಪಾಯವನ್ನು ಕಡಿಮೆ ಮಾಡುತ್ತದೆ?", "ब्याने के समय कौन सा बॉडी कंडीशन स्कोर कीटोसिस और फैटी लिवर के कम खतरे से जुड़ा है?"),
+          options: [L("About 1.0 (very thin)", "సుమారు 1.0 (చాలా సన్నగా)", "சுமார் 1.0 (மிக மெலிந்தது)", "ಸುಮಾರು 1.0 (ಬಹಳ ತೆಳ್ಳಗೆ)", "लगभग 1.0 (बहुत दुबला)"), L("About 3.5", "సుమారు 3.5", "சுமார் 3.5", "ಸುಮಾರು 3.5", "लगभग 3.5"), L("About 5.0 (very fat)", "సుమారు 5.0 (చాలా లావు)", "சுமார் 5.0 (மிக கொழுப்பு)", "ಸುಮಾರು 5.0 (ಬಹಳ ದಪ್ಪ)", "लगभग 5.0 (बहुत मोटा)"), L("Body Condition Score makes no difference", "బాడీ కండిషన్ స్కోర్ వల్ల తేడా ఉండదు", "உடல் நிலை மதிப்பெண் எந்த வித்தியாசத்தையும் ஏற்படுத்தாது", "ಬಾಡಿ ಕಂಡೀಷನ್ ಸ್ಕೋರ್‌ನಿಂದ ಯಾವುದೇ ವ್ಯತ್ಯಾಸವಿಲ್ಲ", "बॉडी कंडीशन स्कोर से कोई फर्क नहीं पड़ता"),],
           answer: 1,
-          explain: L("A Body Condition Score of about 3.5 at calving is linked to lower risk — both being too thin and being too fat raise the risk of these problems."),
+          explain: L("A Body Condition Score of about 3.5 at calving is linked to lower risk — both being too thin and being too fat raise the risk of these problems.", "ఈనేటప్పుడు సుమారు 3.5 బాడీ కండిషన్ స్కోర్ తక్కువ ప్రమాదంతో ముడిపడి ఉంటుంది — మరీ సన్నగా లేదా మరీ లావుగా ఉండటం రెండూ ఈ సమస్యల ప్రమాదాన్ని పెంచుతాయి.", "ஈன்ற நேரத்தில் சுமார் 3.5 உடல் நிலை மதிப்பெண் குறைந்த ஆபத்துடன் தொடர்புடையது — மிக மெலிந்திருப்பதும் மிக கொழுப்பாக இருப்பதும் இந்த பிரச்சினைகளின் ஆபத்தை அதிகரிக்கும்.", "ಕರು ಹಾಕುವ ಸಮಯದಲ್ಲಿ ಸುಮಾರು 3.5 ಬಾಡಿ ಕಂಡೀಷನ್ ಸ್ಕೋರ್ ಕಡಿಮೆ ಅಪಾಯದೊಂದಿಗೆ ಸಂಬಂಧಿಸಿದೆ — ಬಹಳ ತೆಳ್ಳಗಿರುವುದು ಮತ್ತು ಬಹಳ ದಪ್ಪವಾಗಿರುವುದು ಎರಡೂ ಈ ಸಮಸ್ಯೆಗಳ ಅಪಾಯವನ್ನು ಹೆಚ್ಚಿಸುತ್ತವೆ.", "ब्याने के समय लगभग 3.5 का बॉडी कंडीशन स्कोर कम खतरे से जुड़ा है — बहुत दुबला होना और बहुत मोटा होना, दोनों ही इन समस्याओं का खतरा बढ़ाते हैं।"),
         },
         {
           topicId: "t-m7-ketosis-fattyliver",
           type: "truefalse",
-          q: L("Fatty Liver Syndrome can be confirmed just by watching the animal, without any test."),
+          q: L("Fatty Liver Syndrome can be confirmed just by watching the animal, without any test.", "ఫ్యాటీ లివర్ సిండ్రోమ్‌ను ఎలాంటి పరీక్ష లేకుండా కేవలం చూసి నిర్ధారించవచ్చు.", "கொழுப்பு கல்லீரல் நோய்க்குறியை எந்த பரிசோதனையும் இல்லாமல் வெறுமனே பார்த்து உறுதிப்படுத்த முடியும்.", "ಫ್ಯಾಟಿ ಲಿವರ್ ಸಿಂಡ್ರೋಮ್ ಅನ್ನು ಯಾವುದೇ ಪರೀಕ್ಷೆ ಇಲ್ಲದೆ ಕೇವಲ ನೋಡಿ ಖಚಿತಪಡಿಸಬಹುದು.", "फैटी लिवर सिंड्रोम की पुष्टि बिना किसी जांच के, सिर्फ पशु को देखकर की जा सकती है।"),
           answer: false,
-          explain: L("No — it can only be confirmed with a blood test. Your role is to notice signs like lower milk yield or poor appetite and report them, not to confirm the disease yourself."),
+          explain: L("No — it can only be confirmed with a blood test. Your role is to notice signs like lower milk yield or poor appetite and report them, not to confirm the disease yourself.", "కాదు — దీన్ని రక్త పరీక్ష ద్వారానే నిర్ధారించగలం. మీ పని పాల దిగుబడి తగ్గడం లేదా ఆకలి తగ్గడం వంటి లక్షణాలను గమనించి తెలియజేయడమే, స్వయంగా వ్యాధిని నిర్ధారించడం కాదు.", "இல்லை — இதை இரத்த பரிசோதனை மூலம் மட்டுமே உறுதிப்படுத்த முடியும். உங்கள் வேலை பால் விளைச்சல் குறைவு அல்லது பசியின்மை போன்ற அறிகுறிகளை கவனித்து தெரிவிப்பது, நோயை நீங்களே உறுதிப்படுத்துவது அல்ல.", "ಇಲ್ಲ — ಇದನ್ನು ರಕ್ತ ಪರೀಕ್ಷೆಯಿಂದ ಮಾತ್ರ ಖಚಿತಪಡಿಸಬಹುದು. ನಿಮ್ಮ ಕೆಲಸ ಕಡಿಮೆ ಹಾಲಿನ ಇಳುವರಿ ಅಥವಾ ಕಡಿಮೆ ಹಸಿವಿನಂತಹ ಲಕ್ಷಣಗಳನ್ನು ಗಮನಿಸಿ ವರದಿ ಮಾಡುವುದು, ರೋಗವನ್ನು ನೀವೇ ಖಚಿತಪಡಿಸುವುದಲ್ಲ.", "नहीं — इसकी पुष्टि केवल खून की जांच से ही हो सकती है। आपका काम दूध उत्पादन में कमी या भूख कम लगने जैसे लक्षण देखकर बताना है, बीमारी की खुद पुष्टि करना नहीं।"),
         },
         {
           topicId: "t-m7-milkfever-magnesium",
           type: "mcq",
-          q: L("You notice an animal a day after calving trembling slightly and twitching its ears. What should you do?"),
+          q: L("You notice an animal a day after calving trembling slightly and twitching its ears. What should you do?", "ఈనిన ఒక రోజు తర్వాత పశువు కొద్దిగా వణుకుతూ, చెవులు అదిరిస్తూ ఉండటం మీరు గమనించారు. మీరు ఏమి చేయాలి?", "ஈன்ற ஒரு நாள் கழித்து விலங்கு சிறிதாக நடுங்குவதையும் காதுகளை துடிப்பதையும் நீங்கள் கவனிக்கிறீர்கள். நீங்கள் என்ன செய்ய வேண்டும்?", "ಕರು ಹಾಕಿದ ಒಂದು ದಿನದ ನಂತರ ಪ್ರಾಣಿ ಸ್ವಲ್ಪ ನಡುಗುತ್ತಿರುವುದನ್ನು ಮತ್ತು ಕಿವಿ ಅದುರುತ್ತಿರುವುದನ್ನು ನೀವು ಗಮನಿಸುತ್ತೀರಿ. ನೀವು ಏನು ಮಾಡಬೇಕು?", "ब्याने के एक दिन बाद आप देखते हैं कि पशु हल्का कांप रहा है और कान फड़फड़ा रहा है। आपको क्या करना चाहिए?"),
           options: [
-            L("Wait to see if she collapses before telling anyone"),
-            L("Report it the same day, since this can be an early sign of Milk Fever"),
-            L("Milk her completely right away"),
-            L("Do nothing — trembling is always normal after calving"),
+            L("Wait to see if she collapses before telling anyone", "ఆమె పడిపోతుందో లేదో చూడటానికి ఎవరికీ చెప్పకుండా వేచి ఉండండి", "யாருக்கும் சொல்லாமல் அவள் விழுகிறாளா என்று பார்க்க காத்திருங்கள்", "ಅವಳು ಬೀಳುತ್ತಾಳೋ ಎಂದು ನೋಡಲು ಯಾರಿಗೂ ಹೇಳದೆ ಕಾಯಿರಿ", "किसी को बताने से पहले यह देखने के लिए इंतज़ार करें कि वह गिरती है या नहीं"),
+            L("Report it the same day, since this can be an early sign of Milk Fever", "అదే రోజు తెలియజేయండి, ఎందుకంటే ఇది మిల్క్ ఫీవర్‌కు తొలి లక్షణం కావచ్చు", "இதே நாளில் தெரிவிக்கவும், ஏனெனில் இது பால் காய்ச்சலின் ஆரம்ப அறிகுறியாக இருக்கலாம்", "ಇದೇ ದಿನ ವರದಿ ಮಾಡಿ, ಏಕೆಂದರೆ ಇದು ಮಿಲ್ಕ್ ಫೀವರ್‌ನ ಆರಂಭಿಕ ಲಕ್ಷಣವಾಗಿರಬಹುದು", "उसी दिन बताएं, क्योंकि यह मिल्क फीवर का शुरुआती लक्षण हो सकता है"),
+            L("Milk her completely right away", "వెంటనే ఆమెను పూర్తిగా పితకండి", "உடனடியாக அவளை முழுவதுமாக பால் கறக்கவும்", "ತಕ್ಷಣ ಅವಳನ್ನು ಸಂಪೂರ್ಣವಾಗಿ ಹಾಲು ಕರೆಯಿರಿ", "उसका तुरंत पूरा दूध निकाल लें"),
+            L("Do nothing — trembling is always normal after calving", "ఏమీ చేయవద్దు — ఈనిన తర్వాత వణుకు ఎప్పుడూ సాధారణమే", "ஒன்றும் செய்ய வேண்டாம் — ஈன்ற பிறகு நடுக்கம் எப்போதும் இயல்பானது", "ಏನೂ ಮಾಡಬೇಡಿ — ಕರು ಹಾಕಿದ ನಂತರ ನಡುಕ ಯಾವಾಗಲೂ ಸಾಮಾನ್ಯ", "कुछ न करें — ब्याने के बाद कांपना हमेशा सामान्य होता है"),
           ],
           answer: 1,
-          explain: L("These are classic early signs of Milk Fever. Reporting immediately gives the vet the best chance to treat it before the animal goes down."),
+          explain: L("These are classic early signs of Milk Fever. Reporting immediately gives the vet the best chance to treat it before the animal goes down.", "ఇవి మిల్క్ ఫీవర్‌కు విలక్షణమైన తొలి లక్షణాలు. వెంటనే తెలియజేస్తే పశువు పడిపోకముందే వైద్యుడు చికిత్స చేయడానికి మంచి అవకాశం ఉంటుంది.", "இவை பால் காய்ச்சலின் பொதுவான ஆரம்ப அறிகுறிகள். உடனடியாக தெரிவிப்பது, விலங்கு விழுவதற்கு முன் கால்நடை மருத்துவர் சிகிச்சை அளிக்க சிறந்த வாய்ப்பை அளிக்கும்.", "ಇವು ಮಿಲ್ಕ್ ಫೀವರ್‌ನ ವಿಶಿಷ್ಟ ಆರಂಭಿಕ ಲಕ್ಷಣಗಳು. ತಕ್ಷಣ ವರದಿ ಮಾಡುವುದರಿಂದ ಪ್ರಾಣಿ ಬೀಳುವ ಮೊದಲೇ ಪಶುವೈದ್ಯರಿಗೆ ಚಿಕಿತ್ಸೆ ನೀಡಲು ಉತ್ತಮ ಅವಕಾಶ ಸಿಗುತ್ತದೆ.", "ये मिल्क फीवर के सामान्य शुरुआती लक्षण हैं। तुरंत बताने से डॉक्टर को पशु के गिरने से पहले इलाज करने का सबसे अच्छा मौका मिलता है।"),
         },
       ],
     },
@@ -6452,170 +6524,218 @@ export const MODULES = [
   // ==================================================================
   {
     id: "m7-l2",
-    title: L("Problems With the Uterus, Placenta, Udder and Blood"),
+    title: L("Problems With the Uterus, Placenta, Udder and Blood", "గర్భాశయం, మావి, పొదుగు మరియు రక్తానికి సంబంధించిన సమస్యలు", "கருப்பை, மாயை, மேமை மற்றும் இரத்தம் தொடர்பான பிரச்சினைகள்", "ಗರ್ಭಕೋಶ, ಮಾಸು, ಕೆಚ್ಚಲು ಮತ್ತು ರಕ್ತಕ್ಕೆ ಸಂಬಂಧಿಸಿದ ಸಮಸ್ಯೆಗಳು", "गर्भाशय, जेर, थन और रक्त से जुड़ी समस्याएँ"),
     estMinutes: 9,
     hook: [
       {
         type: "hero",
-        heading: L("Some Problems You Can See With Your Own Eyes"),
+        heading: L("Some Problems You Can See With Your Own Eyes", "కొన్ని సమస్యలను మీరు మీ కళ్లతోనే చూడగలరు", "சில பிரச்சினைகளை உங்கள் கண்களால் நேரடியாகப் பார்க்கலாம்", "ಕೆಲವು ಸಮಸ್ಯೆಗಳನ್ನು ನೀವು ನಿಮ್ಮ ಕಣ್ಣುಗಳಿಂದಲೇ ನೋಡಬಹುದು", "कुछ समस्याएँ आप अपनी आँखों से देख सकते हैं"),
         text: L(
-          "Not every post-calving problem is about minerals or energy. Some show up as something you can actually see — part of the body coming out where it shouldn't, the afterbirth not coming away, a swollen udder, or strange-coloured urine. This lesson teaches you exactly what to look for, and just as importantly, what NOT to do until the vet arrives."
+          "Not every post-calving problem is about minerals or energy. Some show up as something you can actually see — part of the body coming out where it shouldn't, the afterbirth not coming away, a swollen udder, or strange-coloured urine. This lesson teaches you exactly what to look for, and just as importantly, what NOT to do until the vet arrives.",
+          "ఈనిన తర్వాత వచ్చే ప్రతి సమస్యా ఖనిజాలు లేదా శక్తికి సంబంధించినది కాదు. కొన్ని మీరు నిజంగా చూడగలిగే విధంగా కనిపిస్తాయి — శరీరంలోని ఒక భాగం రాకూడని చోటికి రావడం, మావి బయటకు రాకపోవడం, పొదుగు వాచిపోవడం, లేదా మూత్రం విచిత్రమైన రంగులో రావడం. ఈ పాఠం మీరు సరిగ్గా ఏమి గమనించాలో, మరియు అంతే ముఖ్యమైనది — వైద్యుడు వచ్చేవరకు ఏమి చేయకూడదో నేర్పిస్తుంది.",
+          "ஈன்ற பிறகு வரும் ஒவ்வொரு பிரச்சினையும் தாதுக்கள் அல்லது ஆற்றல் தொடர்பானது அல்ல. சில உங்களால் நேரடியாகப் பார்க்கக்கூடிய வகையில் தோன்றும் — உடலின் ஒரு பகுதி வரக்கூடாத இடத்தில் வெளியே வருதல், மாயை வெளியேறாதிருத்தல், மேமை வீக்கம், அல்லது விசித்திரமான நிற சிறுநீர். இந்த பாடம் நீங்கள் சரியாக என்ன கவனிக்க வேண்டும் என்பதையும், அதே அளவு முக்கியமான, கால்நடை மருத்துவர் வரும் வரை என்ன செய்யக்கூடாது என்பதையும் கற்பிக்கிறது.",
+          "ಕರು ಹಾಕಿದ ನಂತರದ ಪ್ರತಿ ಸಮಸ್ಯೆಯೂ ಖನಿಜ ಅಥವಾ ಶಕ್ತಿಗೆ ಸಂಬಂಧಿಸಿದ್ದಲ್ಲ. ಕೆಲವು ನೀವು ನಿಜವಾಗಿ ನೋಡಬಹುದಾದ ರೀತಿಯಲ್ಲಿ ಕಾಣಿಸಿಕೊಳ್ಳುತ್ತವೆ — ದೇಹದ ಭಾಗ ಬರಬಾರದ ಜಾಗದಲ್ಲಿ ಹೊರಬರುವುದು, ಮಾಸು ಹೊರಬಾರದಿರುವುದು, ಕೆಚ್ಚಲು ಊತ, ಅಥವಾ ವಿಚಿತ್ರ ಬಣ್ಣದ ಮೂತ್ರ. ಈ ಪಾಠ ನೀವು ನಿಖರವಾಗಿ ಏನನ್ನು ಗಮನಿಸಬೇಕು ಎಂಬುದನ್ನೂ, ಅಷ್ಟೇ ಮುಖ್ಯವಾಗಿ, ಪಶುವೈದ್ಯರು ಬರುವವರೆಗೆ ಏನು ಮಾಡಬಾರದು ಎಂಬುದನ್ನೂ ಕಲಿಸುತ್ತದೆ.",
+          "ब्याने के बाद की हर समस्या खनिज या ऊर्जा से जुड़ी नहीं होती। कुछ ऐसी होती हैं जिन्हें आप सीधे देख सकते हैं — शरीर का कोई हिस्सा वहाँ आ जाना जहाँ नहीं आना चाहिए, जेर का न निकलना, थन में सूजन, या पेशाब का अजीब रंग। यह पाठ आपको सिखाता है कि बिल्कुल क्या देखना है, और उतना ही ज़रूरी — डॉक्टर के आने तक क्या नहीं करना है।"
         ),
       },
     ],
     topics: [
       {
         id: "t-m7-prolapse-rop",
-        title: L("Prolapse of the Uterus and Retention of Placenta"),
+        title: L("Prolapse of the Uterus and Retention of Placenta", "గర్భాశయం బయటకు రావడం మరియు మావి నిలిచిపోవడం", "கருப்பை வெளியேறுதல் மற்றும் மாயை தங்குதல்", "ಗರ್ಭಕೋಶ ಹೊರಬರುವಿಕೆ ಮತ್ತು ಮಾಸು ಉಳಿಯುವಿಕೆ", "गर्भाशय का बाहर निकलना और जेर का रुक जाना"),
         teach: [
           {
             type: "text",
-            heading: L("Two Problems Involving the Womb and the Afterbirth"),
+            heading: L("Two Problems Involving the Womb and the Afterbirth", "గర్భాశయం మరియు మావికి సంబంధించిన రెండు సమస్యలు", "கருப்பை மற்றும் மாயை தொடர்பான இரண்டு பிரச்சினைகள்", "ಗರ್ಭಕೋಶ ಮತ್ತು ಮಾಸಿಗೆ ಸಂಬಂಧಿಸಿದ ಎರಡು ಸಮಸ್ಯೆಗಳು", "गर्भाशय और जेर से जुड़ी दो समस्याएँ"),
             html: L(
-              "After a calf is born, two things are supposed to happen inside the mother: her <b>uterus (womb)</b> — the organ where the calf grew — should return to its normal position, and the <b>placenta (afterbirth)</b> — the tissue that fed the calf during pregnancy — should come away naturally on its own. Sometimes neither of these happens the way it should."
+              "After a calf is born, two things are supposed to happen inside the mother: her <b>uterus (womb)</b> — the organ where the calf grew — should return to its normal position, and the <b>placenta (afterbirth)</b> — the tissue that fed the calf during pregnancy — should come away naturally on its own. Sometimes neither of these happens the way it should.",
+              "దూడ పుట్టిన తర్వాత, తల్లి శరీరంలో రెండు విషయాలు జరగాలి: దూడ పెరిగిన అవయవమైన <b>గర్భాశయం</b> తన సాధారణ స్థానానికి తిరిగి రావాలి, మరియు గర్భధారణ సమయంలో దూడకు పోషణ ఇచ్చిన కణజాలమైన <b>మావి (ఆఫ్టర్‌బర్త్)</b> దానంతట అదే సహజంగా బయటకు రావాలి. కొన్నిసార్లు ఈ రెండూ సరిగ్గా జరగవు.",
+              "கன்று பிறந்த பிறகு, தாயின் உடலில் இரண்டு விஷயங்கள் நடக்க வேண்டும்: கன்று வளர்ந்த உறுப்பான <b>கருப்பை</b> அதன் சாதாரண நிலைக்குத் திரும்ப வேண்டும், மற்றும் கர்ப்ப காலத்தில் கன்றுக்கு உணவளித்த திசுவான <b>மாயை (பிந்தைய பிறப்பு)</b> தானாகவே இயற்கையாக வெளியேற வேண்டும். சில நேரங்களில் இவை இரண்டும் சரியாக நடப்பதில்லை.",
+              "ಕರು ಹುಟ್ಟಿದ ನಂತರ, ತಾಯಿಯ ದೇಹದಲ್ಲಿ ಎರಡು ವಿಷಯಗಳು ನಡೆಯಬೇಕು: ಕರು ಬೆಳೆದ ಅಂಗವಾದ <b>ಗರ್ಭಕೋಶ</b> ತನ್ನ ಸಾಮಾನ್ಯ ಸ್ಥಾನಕ್ಕೆ ಹಿಂತಿರುಗಬೇಕು, ಮತ್ತು ಗರ್ಭಾವಸ್ಥೆಯಲ್ಲಿ ಕರುವಿಗೆ ಪೋಷಣೆ ನೀಡಿದ ಅಂಗಾಂಶವಾದ <b>ಮಾಸು (ನಂತರದ ಜನನ)</b> ತಾನಾಗಿಯೇ ಸ್ವಾಭಾವಿಕವಾಗಿ ಹೊರಬರಬೇಕು. ಕೆಲವೊಮ್ಮೆ ಇವೆರಡೂ ಸರಿಯಾಗಿ ನಡೆಯುವುದಿಲ್ಲ.",
+              "बछड़ा पैदा होने के बाद, माँ के शरीर में दो चीज़ें होनी चाहिए: बछड़ा जिस अंग में बड़ा हुआ वह <b>गर्भाशय</b> अपनी सामान्य स्थिति में वापस आना चाहिए, और गर्भावस्था के दौरान बछड़े को पोषण देने वाला ऊतक <b>जेर (आफ्टरबर्थ)</b> अपने आप स्वाभाविक रूप से बाहर निकल जाना चाहिए। कभी-कभी इनमें से कोई भी सही ढंग से नहीं होता।"
             ),
           },
           {
             type: "glossary",
-            term: L("Prolapse of the Uterus"),
+            term: L("Prolapse of the Uterus", "గర్భాశయం బయటకు రావడం (ప్రొలాప్స్)", "கருப்பை வெளியேறுதல் (ப்ரோலாப்ஸ்)", "ಗರ್ಭಕೋಶ ಹೊರಬರುವಿಕೆ (ಪ್ರೊಲ್ಯಾಪ್ಸ್)", "गर्भाशय का बाहर निकलना (प्रोलैप्स)"),
             meaning: L(
-              "This is when the womb turns inside out and comes out of the animal's body, usually visible hanging from behind her. It is more common in buffaloes than in cattle, and can happen either just before or just after calving."
+              "This is when the womb turns inside out and comes out of the animal's body, usually visible hanging from behind her. It is more common in buffaloes than in cattle, and can happen either just before or just after calving.",
+              "గర్భాశయం లోపలి నుండి బయటికి తిరిగి పశువు శరీరం నుండి బయటకు వచ్చేది దీన్నే అంటారు, సాధారణంగా వెనుక భాగం నుండి వేలాడుతూ కనిపిస్తుంది. ఇది పశువుల కంటే గేదెలలో ఎక్కువగా వస్తుంది, మరియు ఈనేముందు లేదా ఈనిన వెంటనే రావచ్చు.",
+              "கருப்பை உள்பக்கம் வெளிப்பக்கமாக மாறி விலங்கின் உடலிலிருந்து வெளியே வருவதை இது குறிக்கிறது, பொதுவாக பின்பக்கத்தில் தொங்குவது தெரியும். இது மாடுகளை விட எருமைகளில் அதிகமாக காணப்படும், மேலும் ஈன்பதற்கு சற்று முன் அல்லது பின் ஏற்படலாம்.",
+              "ಗರ್ಭಕೋಶ ಒಳಭಾಗದಿಂದ ಹೊರಭಾಗವಾಗಿ ತಿರುಗಿ ಪ್ರಾಣಿಯ ದೇಹದಿಂದ ಹೊರಬರುವುದನ್ನು ಇದು ಸೂಚಿಸುತ್ತದೆ, ಸಾಮಾನ್ಯವಾಗಿ ಹಿಂಭಾಗದಿಂದ ನೇತಾಡುತ್ತಿರುವುದು ಕಾಣಿಸುತ್ತದೆ. ಇದು ಹಸುಗಳಿಗಿಂತ ಎಮ್ಮೆಗಳಲ್ಲಿ ಹೆಚ್ಚು ಸಾಮಾನ್ಯ, ಮತ್ತು ಕರು ಹಾಕುವ ಸ್ವಲ್ಪ ಮೊದಲು ಅಥವಾ ನಂತರ ಸಂಭವಿಸಬಹುದು.",
+              "यह तब होता है जब गर्भाशय अंदर से बाहर पलट जाता है और पशु के शरीर से बाहर आ जाता है, आमतौर पर पीछे से लटकता हुआ दिखता है। यह गायों की तुलना में भैंसों में ज़्यादा होता है, और ब्याने से ठीक पहले या ठीक बाद हो सकता है।"
             ),
           },
           {
             type: "callout",
             style: "warning",
-            heading: L("If You See a Prolapse: What NOT to Do"),
+            heading: L("If You See a Prolapse: What NOT to Do", "మీరు ప్రొలాప్స్ చూస్తే: ఏమి చేయకూడదు", "ப்ரோலாப்ஸைப் பார்த்தால்: என்ன செய்யக்கூடாது", "ಪ್ರೊಲ್ಯಾಪ್ಸ್ ಕಂಡರೆ: ಏನು ಮಾಡಬಾರದು", "अगर आपको प्रोलैप्स दिखे: क्या नहीं करना है"),
             text: L(
-              "Never try to push the uterus back in yourself, and never pull or remove anything — this can cause severe bleeding. Instead, gently place the exposed part over a clean surface and protect it from dirt, flies, and birds. If it is very soiled, it can be gently washed with a saline (salt-water) solution. Call the vet immediately — this is a genuine emergency. Keeping the animal's hindquarters slightly raised can help while you wait."
+              "Never try to push the uterus back in yourself, and never pull or remove anything — this can cause severe bleeding. Instead, gently place the exposed part over a clean surface and protect it from dirt, flies, and birds. If it is very soiled, it can be gently washed with a saline (salt-water) solution. Call the vet immediately — this is a genuine emergency. Keeping the animal's hindquarters slightly raised can help while you wait.",
+              "గర్భాశయాన్ని మీరే లోపలికి తోయడానికి ప్రయత్నించవద్దు, మరియు దేనినీ లాగవద్దు లేదా తీసివేయవద్దు — దీనివల్ల తీవ్ర రక్తస్రావం కావచ్చు. బదులుగా, బయటకు వచ్చిన భాగాన్ని శుభ్రమైన ఉపరితలంపై మెల్లగా ఉంచి, దుమ్ము, ఈగలు మరియు పక్షుల నుండి రక్షించండి. అది చాలా మురికిగా ఉంటే, సెలైన్ (ఉప్పు నీటి) ద్రావణంతో మెల్లగా కడగవచ్చు. వెంటనే వైద్యుడిని పిలవండి — ఇది నిజమైన అత్యవసర పరిస్థితి. వేచి ఉన్నప్పుడు పశువు వెనుక భాగాన్ని కొద్దిగా పైకి లేపి ఉంచడం సహాయపడుతుంది.",
+              "கருப்பையை நீங்களே உள்ளே தள்ள முயற்சிக்க வேண்டாம், மற்றும் எதையும் இழுக்கவோ அகற்றவோ வேண்டாம் — இது கடுமையான இரத்தப்போக்கை ஏற்படுத்தலாம். அதற்கு பதிலாக, வெளியே வந்த பகுதியை சுத்தமான மேற்பரப்பில் மெதுவாக வைத்து, அழுக்கு, ஈக்கள் மற்றும் பறவைகளிடமிருந்து பாதுகாக்கவும். அது மிகவும் அழுக்காக இருந்தால், சலைன் (உப்பு நீர்) கரைசலால் மெதுவாக கழுவலாம். உடனடியாக கால்நடை மருத்துவரை அழைக்கவும் — இது உண்மையான அவசர நிலை. காத்திருக்கும் போது விலங்கின் பின்பக்கத்தை சிறிது உயர்த்தி வைப்பது உதவும்.",
+              "ಗರ್ಭಕೋಶವನ್ನು ನೀವೇ ಒಳಗೆ ತಳ್ಳಲು ಪ್ರಯತ್ನಿಸಬೇಡಿ, ಮತ್ತು ಏನನ್ನೂ ಎಳೆಯಬೇಡಿ ಅಥವಾ ತೆಗೆಯಬೇಡಿ — ಇದು ತೀವ್ರ ರಕ್ತಸ್ರಾವಕ್ಕೆ ಕಾರಣವಾಗಬಹುದು. ಬದಲಿಗೆ, ಹೊರಬಂದ ಭಾಗವನ್ನು ಸ್ವಚ್ಛವಾದ ಮೇಲ್ಮೈಯಲ್ಲಿ ನಿಧಾನವಾಗಿ ಇಟ್ಟು, ಕೊಳೆ, ನೊಣಗಳು ಮತ್ತು ಪಕ್ಷಿಗಳಿಂದ ರಕ್ಷಿಸಿ. ಅದು ಬಹಳ ಕೊಳೆಯಾಗಿದ್ದರೆ, ಸಲೈನ್ (ಉಪ್ಪುನೀರು) ದ್ರಾವಣದಿಂದ ನಿಧಾನವಾಗಿ ತೊಳೆಯಬಹುದು. ತಕ್ಷಣ ಪಶುವೈದ್ಯರನ್ನು ಕರೆಯಿರಿ — ಇದು ನಿಜವಾದ ತುರ್ತು ಪರಿಸ್ಥಿತಿ. ಕಾಯುತ್ತಿರುವಾಗ ಪ್ರಾಣಿಯ ಹಿಂಭಾಗವನ್ನು ಸ್ವಲ್ಪ ಎತ್ತಿ ಇಡುವುದು ಸಹಾಯಕವಾಗುತ್ತದೆ.",
+              "गर्भाशय को खुद अंदर धकेलने की कोशिश कभी न करें, और कुछ भी खींचे या हटाएं नहीं — इससे भारी रक्तस्राव हो सकता है। इसके बजाय, बाहर आए हिस्से को साफ सतह पर धीरे से रखें और उसे धूल, मक्खियों और पक्षियों से बचाएं। अगर यह बहुत गंदा हो गया हो, तो इसे सलाइन (नमक-पानी) के घोल से धीरे से धोया जा सकता है। तुरंत डॉक्टर को बुलाएं — यह एक असली आपातकाल है। इंतज़ार करते समय पशु के पिछले हिस्से को थोड़ा ऊपर उठाकर रखना मददगार हो सकता है।"
             ),
           },
           {
             type: "glossary",
-            term: L("Retention of Placenta (ROP)"),
+            term: L("Retention of Placenta (ROP)", "మావి నిలిచిపోవడం (ROP)", "மாயை தங்குதல் (ROP)", "ಮಾಸು ಉಳಿಯುವಿಕೆ (ROP)", "जेर का रुक जाना (ROP)"),
             meaning: L(
-              "Normally, the placenta (afterbirth) comes away on its own within 3 to 8 hours of the calf being born. If it is still inside after 12 hours, it is called Retention of Placenta."
+              "Normally, the placenta (afterbirth) comes away on its own within 3 to 8 hours of the calf being born. If it is still inside after 12 hours, it is called Retention of Placenta.",
+              "సాధారణంగా, దూడ పుట్టిన 3 నుండి 8 గంటల్లోపు మావి దానంతట అదే బయటకు వస్తుంది. 12 గంటల తర్వాత కూడా అది లోపలే ఉంటే, దీన్ని మావి నిలిచిపోవడం (రిటెన్షన్ ఆఫ్ ప్లాసెంటా) అంటారు.",
+              "பொதுவாக, கன்று பிறந்த 3 முதல் 8 மணி நேரத்திற்குள் மாயை தானாகவே வெளியேறும். 12 மணி நேரம் கழித்தும் அது உள்ளேயே இருந்தால், அதை மாயை தங்குதல் என்று அழைக்கிறோம்.",
+              "ಸಾಮಾನ್ಯವಾಗಿ, ಕರು ಹುಟ್ಟಿದ 3 ರಿಂದ 8 ಗಂಟೆಗಳ ಒಳಗೆ ಮಾಸು ತಾನಾಗಿಯೇ ಹೊರಬರುತ್ತದೆ. 12 ಗಂಟೆಗಳ ನಂತರವೂ ಅದು ಒಳಗೇ ಇದ್ದರೆ, ಅದನ್ನು ಮಾಸು ಉಳಿಯುವಿಕೆ ಎಂದು ಕರೆಯುತ್ತಾರೆ.",
+              "आमतौर पर, बछड़ा पैदा होने के 3 से 8 घंटों के भीतर जेर अपने आप बाहर आ जाती है। अगर यह 12 घंटों के बाद भी अंदर रह जाए, तो इसे जेर का रुक जाना कहते हैं।"
             ),
           },
           {
             type: "stat-grid",
             items: [
               {
-                label: L("Normal timing"),
-                text: L("The afterbirth usually comes away naturally within 3–8 hours of birth."),
+                label: L("Normal timing", "సాధారణ సమయం", "இயல்பான நேரம்", "ಸಾಮಾನ್ಯ ಸಮಯ", "सामान्य समय"),
+                text: L("The afterbirth usually comes away naturally within 3–8 hours of birth.", "మావి సాధారణంగా పుట్టిన 3–8 గంటల్లోపు సహజంగా బయటకు వస్తుంది.", "மாயை பொதுவாக பிறந்த 3–8 மணி நேரத்திற்குள் இயற்கையாக வெளியேறும்.", "ಮಾಸು ಸಾಮಾನ್ಯವಾಗಿ ಹುಟ್ಟಿದ 3–8 ಗಂಟೆಗಳ ಒಳಗೆ ಸ್ವಾಭಾವಿಕವಾಗಿ ಹೊರಬರುತ್ತದೆ.", "जेर आमतौर पर जन्म के 3–8 घंटों के भीतर अपने आप निकल जाती है।"),
               },
               {
-                label: L("When to treat it as retained"),
-                text: L("If it is still inside 12 hours after the calf is born, report it as a possible Retention of Placenta."),
+                label: L("When to treat it as retained", "నిలిచిపోయినట్లుగా ఎప్పుడు పరిగణించాలి", "தங்கியிருப்பதாக எப்போது கருத வேண்டும்", "ಉಳಿದಿದೆ ಎಂದು ಯಾವಾಗ ಪರಿಗಣಿಸಬೇಕು", "इसे रुका हुआ कब मानें"),
+                text: L("If it is still inside 12 hours after the calf is born, report it as a possible Retention of Placenta.", "దూడ పుట్టిన 12 గంటల తర్వాత కూడా అది లోపలే ఉంటే, దీన్ని మావి నిలిచిపోయిందని అనుమానించి తెలియజేయండి.", "கன்று பிறந்த 12 மணி நேரம் கழித்தும் அது உள்ளேயே இருந்தால், மாயை தங்கியிருக்கலாம் என தெரிவிக்கவும்.", "ಕರು ಹುಟ್ಟಿದ 12 ಗಂಟೆಗಳ ನಂತರವೂ ಅದು ಒಳಗೇ ಇದ್ದರೆ, ಮಾಸು ಉಳಿದಿರಬಹುದು ಎಂದು ವರದಿ ಮಾಡಿ.", "अगर बछड़ा पैदा होने के 12 घंटे बाद भी यह अंदर रह जाए, तो इसे जेर रुकने की संभावना मानकर बताएं।"),
               },
               {
-                label: L("What raises the risk"),
-                text: L("A difficult birth, twins, abortion, an induced calving, infection, poor nutrition, or the animal having had Milk Fever."),
+                label: L("What raises the risk", "ఏది ప్రమాదాన్ని పెంచుతుంది", "ஆபத்தை அதிகரிப்பது எது", "ಅಪಾಯವನ್ನು ಹೆಚ್ಚಿಸುವುದೇನು", "खतरा किससे बढ़ता है"),
+                text: L("A difficult birth, twins, abortion, an induced calving, infection, poor nutrition, or the animal having had Milk Fever.", "కష్టమైన ప్రసవం, కవలలు, గర్భస్రావం, ప్రేరేపిత ఈత, ఇన్ఫెక్షన్, సరైన పోషణ లేకపోవడం, లేదా పశువుకు మిల్క్ ఫీవర్ వచ్చి ఉండటం.", "கடினமான பிரசவம், இரட்டைக் குட்டிகள், கருச்சிதைவு, தூண்டப்பட்ட ஈன்றல், தொற்று, மோசமான ஊட்டச்சத்து, அல்லது விலங்குக்கு பால் காய்ச்சல் வந்திருந்தது.", "ಕಷ್ಟಕರ ಹೆರಿಗೆ, ಅವಳಿ ಕರುಗಳು, ಗರ್ಭಪಾತ, ಪ್ರೇರಿತ ಕರು ಹಾಕುವಿಕೆ, ಸೋಂಕು, ಕಳಪೆ ಪೋಷಣೆ, ಅಥವಾ ಪ್ರಾಣಿಗೆ ಮಿಲ್ಕ್ ಫೀವರ್ ಬಂದಿದ್ದದ್ದು.", "मुश्किल प्रसव, जुड़वां बच्चे, गर्भपात, कृत्रिम रूप से कराया गया ब्याना, संक्रमण, खराब पोषण, या पशु को पहले मिल्क फीवर हुआ होना।"),
               },
             ],
           },
           {
             type: "callout",
             style: "warning",
-            heading: L("Never Pull It Out Yourself"),
+            heading: L("Never Pull It Out Yourself", "దాన్ని మీరే ఎప్పుడూ లాగవద్దు", "அதை நீங்களே ஒருபோதும் இழுக்க வேண்டாம்", "ಅದನ್ನು ನೀವೇ ಎಂದಿಗೂ ಎಳೆಯಬೇಡಿ", "इसे कभी खुद मत खींचें"),
             text: L(
-              "Pulling on a retained placenta yourself can cause serious complications — including infection of the womb (metritis) and blood poisoning (septicaemia) — which can even lead to the animal's death. Always consult a veterinarian instead. If a placenta is removed, dispose of it by deep burial, and avoid handling it with bare hands."
+              "Pulling on a retained placenta yourself can cause serious complications — including infection of the womb (metritis) and blood poisoning (septicaemia) — which can even lead to the animal's death. Always consult a veterinarian instead. If a placenta is removed, dispose of it by deep burial, and avoid handling it with bare hands.",
+              "నిలిచిపోయిన మావిని మీరే లాగడం వల్ల గర్భాశయ ఇన్ఫెక్షన్ (మెట్రైటిస్) మరియు రక్త విషప్రయోగం (సెప్టిసీమియా) వంటి తీవ్రమైన సమస్యలు రావచ్చు — ఇవి పశువు మరణానికి కూడా దారితీయవచ్చు. ఎల్లప్పుడూ వైద్యుడిని సంప్రదించండి. మావిని తీసివేసినప్పుడు, దాన్ని లోతుగా పాతిపెట్టి పారవేయండి, మరియు దాన్ని చేతులతో నేరుగా తాకవద్దు.",
+              "தங்கியிருக்கும் மாயையை நீங்களே இழுப்பது கருப்பை தொற்று (மெட்ரைடிஸ்) மற்றும் இரத்த நச்சுத்தன்மை (செப்டிசீமியா) போன்ற கடுமையான சிக்கல்களை ஏற்படுத்தலாம் — இவை விலங்கின் மரணத்திற்கும் வழிவகுக்கலாம். எப்போதும் கால்நடை மருத்துவரை அணுகவும். மாயை அகற்றப்பட்டால், அதை ஆழமாகப் புதைத்து அகற்றவும், வெறும் கைகளால் தொடுவதைத் தவிர்க்கவும்.",
+              "ಉಳಿದಿರುವ ಮಾಸನ್ನು ನೀವೇ ಎಳೆಯುವುದರಿಂದ ಗರ್ಭಕೋಶ ಸೋಂಕು (ಮೆಟ್ರೈಟಿಸ್) ಮತ್ತು ರಕ್ತ ವಿಷಮಯತೆ (ಸೆಪ್ಟಿಸೀಮಿಯಾ) ಮುಂತಾದ ಗಂಭೀರ ತೊಡಕುಗಳು ಬರಬಹುದು — ಇವು ಪ್ರಾಣಿಯ ಸಾವಿಗೂ ಕಾರಣವಾಗಬಹುದು. ಯಾವಾಗಲೂ ಪಶುವೈದ್ಯರನ್ನು ಸಂಪರ್ಕಿಸಿ. ಮಾಸನ್ನು ತೆಗೆದರೆ, ಅದನ್ನು ಆಳವಾಗಿ ಹೂತು ವಿಲೇವಾರಿ ಮಾಡಿ, ಬರಿಗೈಯಿಂದ ಮುಟ್ಟುವುದನ್ನು ತಪ್ಪಿಸಿ.",
+              "रुकी हुई जेर को खुद खींचने से गर्भाशय में संक्रमण (मेट्राइटिस) और खून में ज़हर फैलना (सेप्टिसीमिया) जैसी गंभीर जटिलताएँ हो सकती हैं — जो पशु की मौत तक का कारण बन सकती हैं। हमेशा डॉक्टर से सलाह लें। अगर जेर निकाली जाए, तो उसे गहरा गड्ढा खोदकर दबा दें, और इसे नंगे हाथों से न छुएं।"
             ),
           },
         ],
         check: [
           {
             type: "mcq",
-            q: L("You see part of the womb hanging out of an animal after calving. What should you do first?"),
+            q: L("You see part of the womb hanging out of an animal after calving. What should you do first?", "ఈనిన తర్వాత పశువు నుండి గర్భాశయం కొంత భాగం వేలాడుతూ మీరు చూశారు. మీరు ముందుగా ఏమి చేయాలి?", "ஈன்ற பிறகு விலங்கிலிருந்து கருப்பையின் ஒரு பகுதி தொங்குவதை நீங்கள் பார்க்கிறீர்கள். முதலில் நீங்கள் என்ன செய்ய வேண்டும்?", "ಕರು ಹಾಕಿದ ನಂತರ ಪ್ರಾಣಿಯಿಂದ ಗರ್ಭಕೋಶದ ಭಾಗ ನೇತಾಡುತ್ತಿರುವುದನ್ನು ನೀವು ನೋಡುತ್ತೀರಿ. ಮೊದಲು ನೀವು ಏನು ಮಾಡಬೇಕು?", "ब्याने के बाद आप देखते हैं कि पशु से गर्भाशय का हिस्सा लटक रहा है। आपको सबसे पहले क्या करना चाहिए?"),
             options: [
-              L("Push it back in yourself"),
-              L("Gently protect it from dirt and flies, and call the vet immediately"),
-              L("Pull on it to see how far it comes out"),
-              L("Ignore it — it will go back in on its own"),
+              L("Push it back in yourself", "మీరే దాన్ని లోపలికి తోయండి", "நீங்களே அதை உள்ளே தள்ளுங்கள்", "ನೀವೇ ಅದನ್ನು ಒಳಗೆ ತಳ್ಳಿ", "इसे खुद अंदर धकेल दें"),
+              L("Gently protect it from dirt and flies, and call the vet immediately", "దానిని మెల్లగా దుమ్ము మరియు ఈగల నుండి రక్షించి, వెంటనే వైద్యుడిని పిలవండి", "அதை மெதுவாக அழுக்கு மற்றும் ஈக்களிடமிருந்து பாதுகாத்து, உடனே கால்நடை மருத்துவரை அழைக்கவும்", "ಅದನ್ನು ನಿಧಾನವಾಗಿ ಕೊಳೆ ಮತ್ತು ನೊಣಗಳಿಂದ ರಕ್ಷಿಸಿ, ತಕ್ಷಣ ಪಶುವೈದ್ಯರನ್ನು ಕರೆಯಿರಿ", "इसे धूल और मक्खियों से धीरे से बचाएं, और तुरंत डॉक्टर को बुलाएं"),
+              L("Pull on it to see how far it comes out", "అది ఎంత దూరం వస్తుందో చూడటానికి దానిని లాగండి", "எவ்வளவு தூரம் வெளியே வருகிறது என்று பார்க்க அதை இழுக்கவும்", "ಅದು ಎಷ್ಟು ಹೊರಬರುತ್ತದೆ ಎಂದು ನೋಡಲು ಅದನ್ನು ಎಳೆಯಿರಿ", "यह कितना बाहर आता है यह देखने के लिए इसे खींचें"),
+              L("Ignore it — it will go back in on its own", "దీన్ని పట్టించుకోవద్దు — అది దానంతటదే లోపలికి వెళుతుంది", "இதை புறக்கணிக்கவும் — அது தானாகவே உள்ளே செல்லும்", "ಇದನ್ನು ನಿರ್ಲಕ್ಷಿಸಿ — ಅದು ತಾನಾಗಿಯೇ ಒಳಗೆ ಹೋಗುತ್ತದೆ", "इसे नज़रअंदाज़ करें — यह अपने आप अंदर चला जाएगा"),
             ],
             answer: 1,
-            explain: L("Never push, pull, or remove anything yourself — that can cause severe bleeding. Protect the exposed part and get the vet immediately."),
+            explain: L("Never push, pull, or remove anything yourself — that can cause severe bleeding. Protect the exposed part and get the vet immediately.", "మీరే ఎప్పుడూ తోయవద్దు, లాగవద్దు, లేదా తీసివేయవద్దు — దీనివల్ల తీవ్ర రక్తస్రావం కావచ్చు. బయటపడిన భాగాన్ని రక్షించి వెంటనే వైద్యుడిని పిలవండి.", "நீங்களே ஒருபோதும் தள்ளவோ, இழுக்கவோ, அகற்றவோ வேண்டாம் — இது கடுமையான இரத்தப்போக்கை ஏற்படுத்தலாம். வெளியே வந்த பகுதியை பாதுகாத்து உடனே கால்நடை மருத்துவரை அழைக்கவும்.", "ನೀವೇ ಎಂದಿಗೂ ತಳ್ಳಬೇಡಿ, ಎಳೆಯಬೇಡಿ, ಅಥವಾ ತೆಗೆಯಬೇಡಿ — ಇದು ತೀವ್ರ ರಕ್ತಸ್ರಾವಕ್ಕೆ ಕಾರಣವಾಗಬಹುದು. ಹೊರಬಂದ ಭಾಗವನ್ನು ರಕ್ಷಿಸಿ ತಕ್ಷಣ ಪಶುವೈದ್ಯರನ್ನು ಕರೆಯಿರಿ.", "खुद कभी न धकेलें, न खींचें, न हटाएं — इससे भारी रक्तस्राव हो सकता है। बाहर आए हिस्से को बचाएं और तुरंत डॉक्टर को बुलाएं।"),
           },
           {
             type: "truefalse",
-            q: L("If the placenta hasn't come away 12 hours after calving, it should be treated as retained and reported."),
+            q: L("If the placenta hasn't come away 12 hours after calving, it should be treated as retained and reported.", "ఈనిన 12 గంటల తర్వాత కూడా మావి బయటకు రాకపోతే, దానిని నిలిచిపోయినదిగా పరిగణించి తెలియజేయాలి.", "ஈன்ற 12 மணி நேரம் கழித்தும் மாயை வெளியேறவில்லை என்றால், அதை தங்கியிருப்பதாகக் கருதி தெரிவிக்க வேண்டும்.", "ಕರು ಹಾಕಿದ 12 ಗಂಟೆಗಳ ನಂತರವೂ ಮಾಸು ಹೊರಬಾರದಿದ್ದರೆ, ಅದನ್ನು ಉಳಿದಿದೆ ಎಂದು ಪರಿಗಣಿಸಿ ವರದಿ ಮಾಡಬೇಕು.", "अगर ब्याने के 12 घंटे बाद भी जेर न निकले, तो इसे रुकी हुई मानकर बताना चाहिए।"),
             answer: true,
-            explain: L("Correct — normal expulsion is within 3–8 hours. Still being inside after 12 hours is called Retention of Placenta and needs a vet."),
+            explain: L("Correct — normal expulsion is within 3–8 hours. Still being inside after 12 hours is called Retention of Placenta and needs a vet.", "సరైనది — సాధారణ బహిష్కరణ 3–8 గంటల్లోపు జరుగుతుంది. 12 గంటల తర్వాత కూడా లోపలే ఉంటే దీన్ని మావి నిలిచిపోవడం అంటారు, దీనికి వైద్యుడు అవసరం.", "சரி — இயல்பான வெளியேற்றம் 3–8 மணி நேரத்திற்குள் நடக்கும். 12 மணி நேரம் கழித்தும் உள்ளேயே இருப்பது மாயை தங்குதல் எனப்படும், இதற்கு கால்நடை மருத்துவர் தேவை.", "ಸರಿ — ಸಾಮಾನ್ಯ ಹೊರಹಾಕುವಿಕೆ 3–8 ಗಂಟೆಗಳ ಒಳಗೆ ನಡೆಯುತ್ತದೆ. 12 ಗಂಟೆಗಳ ನಂತರವೂ ಒಳಗೇ ಇರುವುದನ್ನು ಮಾಸು ಉಳಿಯುವಿಕೆ ಎನ್ನುತ್ತಾರೆ, ಇದಕ್ಕೆ ಪಶುವೈದ್ಯರ ಅಗತ್ಯವಿದೆ.", "सही — सामान्य रूप से यह 3–8 घंटों में निकल जाती है। 12 घंटे बाद भी अंदर रहना जेर का रुक जाना कहलाता है और इसके लिए डॉक्टर की ज़रूरत होती है।"),
           },
         ],
       },
       {
         id: "t-m7-udder-hgb",
-        title: L("Udder Swelling and Discoloured Urine"),
+        title: L("Udder Swelling and Discoloured Urine", "పొదుగు వాపు మరియు రంగు మారిన మూత్రం", "மேமை வீக்கம் மற்றும் நிறம் மாறிய சிறுநீர்", "ಕೆಚ್ಚಲು ಊತ ಮತ್ತು ಬಣ್ಣ ಬದಲಾದ ಮೂತ್ರ", "थन में सूजन और रंग बदला हुआ पेशाब"),
         teach: [
           {
             type: "text",
-            heading: L("Other Things to Watch For After Calving"),
+            heading: L("Other Things to Watch For After Calving", "ఈనిన తర్వాత గమనించాల్సిన ఇతర విషయాలు", "ஈன்ற பிறகு கவனிக்க வேண்டிய மற்ற விஷயங்கள்", "ಕರು ಹಾಕಿದ ನಂತರ ಗಮನಿಸಬೇಕಾದ ಇತರ ವಿಷಯಗಳು", "ब्याने के बाद ध्यान रखने वाली अन्य बातें"),
             html: L(
-              "Two more problems can appear around calving time: swelling of the udder, and urine that looks an unusual colour. Neither of these is something you need to diagnose — but both are worth noticing and reporting."
+              "Two more problems can appear around calving time: swelling of the udder, and urine that looks an unusual colour. Neither of these is something you need to diagnose — but both are worth noticing and reporting.",
+              "ఈనే సమయంలో ఇంకా రెండు సమస్యలు రావచ్చు: పొదుగు వాపు, మరియు అసాధారణ రంగులో కనిపించే మూత్రం. వీటిలో దేనినీ మీరు నిర్ధారించాల్సిన అవసరం లేదు — కానీ రెండూ గమనించి తెలియజేయదగినవి.",
+              "ஈன்றெடுக்கும் நேரத்தில் இன்னும் இரண்டு பிரச்சினைகள் ஏற்படலாம்: மேமை வீக்கம், மற்றும் அசாதாரண நிறத்தில் தோன்றும் சிறுநீர். இவற்றில் எதையும் நீங்கள் கண்டறிய வேண்டியதில்லை — ஆனால் இரண்டும் கவனித்து தெரிவிக்கத் தகுந்தவை.",
+              "ಕರು ಹಾಕುವ ಸಮಯದಲ್ಲಿ ಇನ್ನೂ ಎರಡು ಸಮಸ್ಯೆಗಳು ಬರಬಹುದು: ಕೆಚ್ಚಲು ಊತ, ಮತ್ತು ಅಸಾಮಾನ್ಯ ಬಣ್ಣದಲ್ಲಿ ಕಾಣುವ ಮೂತ್ರ. ಇವುಗಳಲ್ಲಿ ಯಾವುದನ್ನೂ ನೀವು ಪತ್ತೆಹಚ್ಚಬೇಕಾಗಿಲ್ಲ — ಆದರೆ ಎರಡನ್ನೂ ಗಮನಿಸಿ ವರದಿ ಮಾಡುವುದು ಮುಖ್ಯ.",
+              "ब्याने के समय दो और समस्याएँ हो सकती हैं: थन में सूजन, और असामान्य रंग का दिखने वाला पेशाब। इनमें से किसी की भी पहचान आपको खुद करने की ज़रूरत नहीं है — लेकिन दोनों को देखकर बताना ज़रूरी है।"
             ),
           },
           {
             type: "glossary",
-            term: L("Oedema (Swelling)"),
-            meaning: L("A build-up of extra fluid under the skin, which makes the area look puffy or swollen."),
+            term: L("Oedema (Swelling)", "ఎడెమా (వాపు)", "வீக்கம் (ஓடீமா)", "ಎಡಿಮಾ (ಊತ)", "एडिमा (सूजन)"),
+            meaning: L("A build-up of extra fluid under the skin, which makes the area look puffy or swollen.", "చర్మం కింద అదనపు ద్రవం పేరుకుపోవడం, దీనివల్ల ఆ ప్రాంతం ఉబ్బినట్లు లేదా వాచినట్లు కనిపిస్తుంది.", "தோலுக்கு அடியில் அதிகப்படியான திரவம் சேர்வது, இது அந்த பகுதியை வீங்கியதாகவோ புடைத்ததாகவோ காட்டும்.", "ಚರ್ಮದ ಕೆಳಗೆ ಹೆಚ್ಚುವರಿ ದ್ರವ ಸಂಗ್ರಹವಾಗುವುದು, ಇದರಿಂದ ಆ ಭಾಗ ಉಬ್ಬಿದಂತೆ ಅಥವಾ ಊದಿಕೊಂಡಂತೆ ಕಾಣುತ್ತದೆ.", "त्वचा के नीचे अतिरिक्त तरल पदार्थ जमा होना, जिससे वह जगह फूली हुई या सूजी हुई दिखती है।"),
           },
           {
             type: "text",
-            heading: L("Udder Oedema"),
+            heading: L("Udder Oedema", "పొదుగు ఎడెమా", "மேமை வீக்கம்", "ಕೆಚ್ಚಲು ಎಡಿಮಾ", "थन का एडिमा"),
             html: L(
-              "This is a build-up of extra fluid in the udder — and sometimes the belly — around calving time, caused by changes in blood flow to and from the udder. It is more common in high-producing animals, especially in heifers (animals calving for the first time). It can persist through the whole lactation, and may need a vet's attention if the swelling makes milking difficult."
+              "This is a build-up of extra fluid in the udder — and sometimes the belly — around calving time, caused by changes in blood flow to and from the udder. It is more common in high-producing animals, especially in heifers (animals calving for the first time). It can persist through the whole lactation, and may need a vet's attention if the swelling makes milking difficult.",
+              "ఈనే సమయంలో పొదుగులో — మరియు కొన్నిసార్లు పొట్టలో — అదనపు ద్రవం పేరుకుపోవడమే ఇది, పొదుగుకు రక్త ప్రసరణలో మార్పుల వల్ల ఇది వస్తుంది. ఎక్కువ పాలిచ్చే పశువులలో, ముఖ్యంగా మొదటిసారి ఈనే పశువులలో (హీఫర్లు) ఇది ఎక్కువగా కనిపిస్తుంది. ఇది మొత్తం పాల కాలం పొడవునా ఉండవచ్చు, మరియు వాపు వల్ల పితకడం కష్టమైతే వైద్యుడి సహాయం అవసరం కావచ్చు.",
+              "ஈன்றெடுக்கும் நேரத்தில் மேமையில் — சில நேரங்களில் வயிற்றிலும் — அதிகப்படியான திரவம் சேர்வதே இது, மேமைக்கு இரத்த ஓட்டத்தில் ஏற்படும் மாற்றங்களால் இது ஏற்படுகிறது. அதிக பால் தரும் விலங்குகளில், குறிப்பாக முதல் முறையாக ஈனும் இளம் பசுக்களில் இது அதிகமாக காணப்படுகிறது. இது முழு பால் காலம் முழுவதும் தொடரலாம், வீக்கம் பால் கறத்தலை கடினமாக்கினால் கால்நடை மருத்துவர் கவனம் தேவைப்படலாம்.",
+              "ಈನ್ ಸಮಯದಲ್ಲಿ ಕೆಚ್ಚಲಿನಲ್ಲಿ — ಕೆಲವೊಮ್ಮೆ ಹೊಟ್ಟೆಯಲ್ಲೂ — ಹೆಚ್ಚುವರಿ ದ್ರವ ಸಂಗ್ರಹವಾಗುವುದೇ ಇದು, ಕೆಚ್ಚಲಿಗೆ ರಕ್ತ ಪರಿಚಲನೆಯಲ್ಲಿ ಬದಲಾವಣೆಗಳಿಂದ ಇದು ಉಂಟಾಗುತ್ತದೆ. ಹೆಚ್ಚು ಹಾಲು ಕೊಡುವ ಪ್ರಾಣಿಗಳಲ್ಲಿ, ವಿಶೇಷವಾಗಿ ಮೊದಲ ಬಾರಿ ಕರು ಹಾಕುವ ಪ್ರಾಣಿಗಳಲ್ಲಿ (ಹೀಫರ್) ಇದು ಹೆಚ್ಚು ಸಾಮಾನ್ಯ. ಇದು ಇಡೀ ಹಾಲುಕರೆಯುವ ಅವಧಿಯುದ್ದಕ್ಕೂ ಮುಂದುವರಿಯಬಹುದು, ಮತ್ತು ಊತ ಹಾಲು ಕರೆಯುವುದನ್ನು ಕಷ್ಟಕರಗೊಳಿಸಿದರೆ ಪಶುವೈದ್ಯರ ಗಮನ ಬೇಕಾಗಬಹುದು.",
+              "ब्याने के समय थन में — और कभी-कभी पेट में — अतिरिक्त तरल पदार्थ जमा होना, थन में खून के आने-जाने में बदलाव के कारण होता है। यह ज़्यादा दूध देने वाले पशुओं में, खासकर पहली बार ब्याने वाली बछियों में ज़्यादा होता है। यह पूरे दुग्धकाल तक बना रह सकता है, और अगर सूजन से दूध निकालना मुश्किल हो जाए तो डॉक्टर की ज़रूरत पड़ सकती है।"
             ),
           },
           {
             type: "callout",
             style: "tip",
-            heading: L("An Important Difference: Not Painful, Not Hot"),
+            heading: L("An Important Difference: Not Painful, Not Hot", "ఒక ముఖ్యమైన తేడా: నొప్పి ఉండదు, వేడిమి ఉండదు", "ஒரு முக்கிய வேறுபாடு: வலி இல்லை, சூடு இல்லை", "ಒಂದು ಪ್ರಮುಖ ವ್ಯತ್ಯಾಸ: ನೋವಿಲ್ಲ, ಬಿಸಿಯಿಲ್ಲ", "एक ज़रूरी फर्क: दर्द नहीं, गर्मी नहीं"),
             text: L(
-              "With udder oedema, the udder is NOT painful and NOT hot to the touch. This matters because a hot, painful udder points to a different problem entirely (an infection of the udder). Either way, report what you actually feel — whether the udder is painful and hot, or just swollen and comfortable — since that detail helps the vet know what they're dealing with before they even arrive."
+              "With udder oedema, the udder is NOT painful and NOT hot to the touch. This matters because a hot, painful udder points to a different problem entirely (an infection of the udder). Either way, report what you actually feel — whether the udder is painful and hot, or just swollen and comfortable — since that detail helps the vet know what they're dealing with before they even arrive.",
+              "పొదుగు ఎడెమాలో, పొదుగు తాకినప్పుడు నొప్పి ఉండదు మరియు వేడిగా ఉండదు. ఇది ముఖ్యం ఎందుకంటే వేడిగా, నొప్పిగా ఉన్న పొదుగు పూర్తిగా వేరే సమస్యను (పొదుగు ఇన్ఫెక్షన్) సూచిస్తుంది. ఏదైనా సరే, మీరు నిజంగా అనుభవించేది తెలియజేయండి — పొదుగు నొప్పిగా వేడిగా ఉందా, లేక కేవలం వాచి సౌకర్యంగా ఉందా — ఎందుకంటే ఈ వివరం వైద్యుడు రాకముందే తను దేనితో వ్యవహరిస్తున్నాడో తెలుసుకోవడానికి సహాయపడుతుంది.",
+              "மேமை வீக்கத்தில், மேமை தொட்டால் வலியோ சூடோ இருக்காது. இது முக்கியம் ஏனெனில் சூடான, வலியுள்ள மேமை முற்றிலும் வேறு பிரச்சினையை (மேமை தொற்று) குறிக்கிறது. எப்படியிருந்தாலும், நீங்கள் உண்மையில் உணர்வதை தெரிவிக்கவும் — மேமை வலியுடனும் சூடாகவும் இருக்கிறதா, அல்லது வெறுமனே வீங்கி வசதியாக இருக்கிறதா — ஏனெனில் இந்த விவரம் கால்நடை மருத்துவர் வருவதற்கு முன்பே அவர் என்ன எதிர்கொள்கிறார் என்பதை தெரிந்துகொள்ள உதவும்.",
+              "ಕೆಚ್ಚಲು ಎಡಿಮಾದಲ್ಲಿ, ಕೆಚ್ಚಲು ಮುಟ್ಟಿದಾಗ ನೋವು ಅಥವಾ ಬಿಸಿ ಇರುವುದಿಲ್ಲ. ಇದು ಮುಖ್ಯ ಏಕೆಂದರೆ ಬಿಸಿಯಾದ, ನೋವಿನ ಕೆಚ್ಚಲು ಸಂಪೂರ್ಣವಾಗಿ ಬೇರೆ ಸಮಸ್ಯೆಯನ್ನು (ಕೆಚ್ಚಲು ಸೋಂಕು) ಸೂಚಿಸುತ್ತದೆ. ಏನೇ ಆಗಲಿ, ನೀವು ನಿಜವಾಗಿ ಅನುಭವಿಸುವುದನ್ನು ವರದಿ ಮಾಡಿ — ಕೆಚ್ಚಲು ನೋವಿನಿಂದ ಬಿಸಿಯಾಗಿದೆಯೇ, ಅಥವಾ ಬರೀ ಊದಿಕೊಂಡು ಆರಾಮವಾಗಿದೆಯೇ — ಏಕೆಂದರೆ ಈ ವಿವರ ಪಶುವೈದ್ಯರು ಬರುವ ಮೊದಲೇ ಅವರು ಏನನ್ನು ಎದುರಿಸುತ್ತಿದ್ದಾರೆ ಎಂದು ತಿಳಿಯಲು ಸಹಾಯ ಮಾಡುತ್ತದೆ.",
+              "थन के एडिमा में, थन को छूने पर न दर्द होता है न गर्माहट। यह मायने रखता है क्योंकि गर्म, दर्द भरा थन बिल्कुल अलग समस्या (थन का संक्रमण) की ओर इशारा करता है। जो भी हो, आप जो असल में महसूस करें वही बताएं — थन दर्द भरा और गर्म है, या बस सूजा हुआ और आरामदायक है — क्योंकि यह जानकारी डॉक्टर को पहुँचने से पहले ही समझने में मदद करती है कि वे किस समस्या से जूझ रहे हैं।"
             ),
           },
           {
             type: "glossary",
-            term: L("Haemoglobinuria"),
+            term: L("Haemoglobinuria", "హీమోగ్లోబినూరియా", "ஹீமோகுளோபினூரியா", "ಹಿಮೋಗ್ಲೋಬಿನ್ಯೂರಿಯಾ", "हीमोग्लोबिन्यूरिया"),
             meaning: L(
-              "A reddish blood pigment appearing in the urine, which makes the urine look dark red or brownish, rather than its normal colour."
+              "A reddish blood pigment appearing in the urine, which makes the urine look dark red or brownish, rather than its normal colour.",
+              "మూత్రంలో ఎర్రటి రక్త వర్ణద్రవ్యం కనిపించడం, దీనివల్ల మూత్రం సాధారణ రంగుకు బదులుగా ముదురు ఎరుపు లేదా గోధుమ రంగులో కనిపిస్తుంది.",
+              "சிறுநீரில் சிவப்பு இரத்த நிறமி தோன்றுவது, இதனால் சிறுநீர் இயல்பான நிறத்திற்கு பதிலாக அடர் சிவப்பு அல்லது பழுப்பு நிறமாக தோன்றும்.",
+              "ಮೂತ್ರದಲ್ಲಿ ಕೆಂಪು ರಕ್ತ ವರ್ಣದ್ರವ್ಯ ಕಾಣಿಸಿಕೊಳ್ಳುವುದು, ಇದರಿಂದ ಮೂತ್ರ ಸಾಮಾನ್ಯ ಬಣ್ಣಕ್ಕೆ ಬದಲಾಗಿ ಗಾಢ ಕೆಂಪು ಅಥವಾ ಕಂದು ಬಣ್ಣದಲ್ಲಿ ಕಾಣುತ್ತದೆ.",
+              "पेशाब में लाल रंग का खून का रंगद्रव्य दिखना, जिससे पेशाब सामान्य रंग की बजाय गहरे लाल या भूरे रंग का दिखता है।"
             ),
           },
           {
             type: "text",
-            heading: L("Post-Parturient Haemoglobinuria"),
+            heading: L("Post-Parturient Haemoglobinuria", "పోస్ట్-పార్చురియంట్ హీమోగ్లోబినూరియా", "பிரசவத்திற்கு பிந்தைய ஹீமோகுளோபினூரியா", "ಹೆರಿಗೆಯ ನಂತರದ ಹಿಮೋಗ್ಲೋಬಿನ್ಯೂರಿಯಾ", "प्रसव के बाद का हीमोग्लोबिन्यूरिया"),
             html: L(
-              "This problem can appear around calving, especially in heavy-milking animals. Along with dark, reddish urine, watch for a marked drop in milk production, fever, loose dung, and general weakness with a pale appearance — signs of severe anaemia (a shortage of healthy blood). Because some other diseases can look similar, the vet will need to examine the animal to be sure what's causing it."
+              "This problem can appear around calving, especially in heavy-milking animals. Along with dark, reddish urine, watch for a marked drop in milk production, fever, loose dung, and general weakness with a pale appearance — signs of severe anaemia (a shortage of healthy blood). Because some other diseases can look similar, the vet will need to examine the animal to be sure what's causing it.",
+              "ఈ సమస్య ఈనే సమయంలో, ముఖ్యంగా ఎక్కువ పాలిచ్చే పశువులలో రావచ్చు. ముదురు, ఎరుపు రంగు మూత్రంతో పాటు, పాల ఉత్పత్తిలో గణనీయమైన తగ్గుదల, జ్వరం, వదులుగా ఉన్న పేడ, మరియు లేత రంగుతో సాధారణ బలహీనత — ఇవి తీవ్రమైన రక్తహీనత (ఆరోగ్యకరమైన రక్తం లేకపోవడం) లక్షణాలు — గమనించండి. ఇతర కొన్ని వ్యాధులు కూడా ఇలాగే కనిపించవచ్చు కాబట్టి, కారణం ఖచ్చితంగా తెలుసుకోవడానికి వైద్యుడు పశువును పరీక్షించాల్సి ఉంటుంది.",
+              "இந்த பிரச்சினை ஈன்றெடுக்கும் நேரத்தில், குறிப்பாக அதிக பால் தரும் விலங்குகளில் ஏற்படலாம். அடர், சிவப்பு நிற சிறுநீருடன், பால் உற்பத்தியில் குறிப்பிடத்தக்க குறைவு, காய்ச்சல், தளர்வான சாணம், மற்றும் வெளிர் தோற்றத்துடன் பொதுவான பலவீனம் — கடுமையான இரத்த சோகையின் (ஆரோக்கியமான இரத்தத்தின் பற்றாக்குறை) அறிகுறிகளை கவனிக்கவும். வேறு சில நோய்களும் இதுபோலவே தோன்றக்கூடும் என்பதால், காரணத்தை உறுதிசெய்ய கால்நடை மருத்துவர் விலங்கை பரிசோதிக்க வேண்டும்.",
+              "ಈ ಸಮಸ್ಯೆ ಕರು ಹಾಕುವ ಸಮಯದಲ್ಲಿ, ವಿಶೇಷವಾಗಿ ಹೆಚ್ಚು ಹಾಲು ಕೊಡುವ ಪ್ರಾಣಿಗಳಲ್ಲಿ ಕಾಣಿಸಿಕೊಳ್ಳಬಹುದು. ಗಾಢ, ಕೆಂಪು ಬಣ್ಣದ ಮೂತ್ರದ ಜೊತೆಗೆ, ಹಾಲಿನ ಉತ್ಪಾದನೆಯಲ್ಲಿ ಗಮನಾರ್ಹ ಇಳಿಕೆ, ಜ್ವರ, ಸಡಿಲ ಸಗಣಿ, ಮತ್ತು ಬಿಳಿಚಿಕೊಂಡ ಸಾಮಾನ್ಯ ದೌರ್ಬಲ್ಯ — ತೀವ್ರ ರಕ್ತಹೀನತೆಯ (ಆರೋಗ್ಯಕರ ರಕ್ತದ ಕೊರತೆ) ಲಕ್ಷಣಗಳನ್ನು ಗಮನಿಸಿ. ಕೆಲವು ಇತರ ರೋಗಗಳೂ ಇದೇ ರೀತಿ ಕಾಣಿಸಬಹುದಾದ್ದರಿಂದ, ಕಾರಣ ಖಚಿತಪಡಿಸಲು ಪಶುವೈದ್ಯರು ಪ್ರಾಣಿಯನ್ನು ಪರೀಕ್ಷಿಸಬೇಕಾಗುತ್ತದೆ.",
+              "यह समस्या ब्याने के समय, खासकर ज़्यादा दूध देने वाले पशुओं में हो सकती है। गहरे, लाल रंग के पेशाब के साथ, दूध उत्पादन में साफ गिरावट, बुखार, ढीला गोबर, और पीलापन लिए सामान्य कमज़ोरी — गंभीर रक्ताल्पता (स्वस्थ खून की कमी) के लक्षण — पर ध्यान दें। चूंकि कुछ अन्य बीमारियाँ भी ऐसी ही दिख सकती हैं, इसलिए असली कारण जानने के लिए डॉक्टर को पशु की जांच करनी होगी।"
             ),
           },
           {
             type: "callout",
             style: "warning",
-            heading: L("Dark or Reddish Urine Needs a Same-Day Report"),
+            heading: L("Dark or Reddish Urine Needs a Same-Day Report", "ముదురు లేదా ఎరుపు రంగు మూత్రం అదే రోజు తెలియజేయాలి", "அடர் அல்லது சிவப்பு நிற சிறுநீர் அதே நாளே தெரிவிக்கப்பட வேண்டும்", "ಗಾಢ ಅಥವಾ ಕೆಂಪು ಬಣ್ಣದ ಮೂತ್ರ ಅದೇ ದಿನ ವರದಿ ಮಾಡಬೇಕು", "गहरे या लाल रंग के पेशाब की सूचना उसी दिन दें"),
             text: L(
-              "Dark red or brownish urine after calving is never something to wait and watch. It is linked to severe anaemia and weakness, and needs prompt veterinary attention — report it the same day you notice it."
+              "Dark red or brownish urine after calving is never something to wait and watch. It is linked to severe anaemia and weakness, and needs prompt veterinary attention — report it the same day you notice it.",
+              "ఈనిన తర్వాత ముదురు ఎరుపు లేదా గోధుమ రంగు మూత్రం అనేది వేచి చూడాల్సిన విషయం కాదు. ఇది తీవ్రమైన రక్తహీనత మరియు బలహీనతతో ముడిపడి ఉంటుంది, మరియు తక్షణ వైద్య సహాయం అవసరం — మీరు గమనించిన అదే రోజు తెలియజేయండి.",
+              "ஈன்ற பிறகு அடர் சிவப்பு அல்லது பழுப்பு நிற சிறுநீர் ஒருபோதும் காத்திருந்து பார்க்க வேண்டிய விஷயம் அல்ல. இது கடுமையான இரத்த சோகை மற்றும் பலவீனத்துடன் தொடர்புடையது, உடனடி கால்நடை மருத்துவ கவனம் தேவை — நீங்கள் கவனித்த அதே நாளே தெரிவிக்கவும்.",
+              "ಕರು ಹಾಕಿದ ನಂತರ ಗಾಢ ಕೆಂಪು ಅಥವಾ ಕಂದು ಬಣ್ಣದ ಮೂತ್ರ ಎಂದಿಗೂ ಕಾಯುತ್ತಾ ನೋಡಬೇಕಾದ ವಿಷಯವಲ್ಲ. ಇದು ತೀವ್ರ ರಕ್ತಹೀನತೆ ಮತ್ತು ದೌರ್ಬಲ್ಯದೊಂದಿಗೆ ಸಂಬಂಧಿಸಿದೆ, ತಕ್ಷಣದ ಪಶುವೈದ್ಯಕೀಯ ಗಮನ ಬೇಕು — ನೀವು ಗಮನಿಸಿದ ಅದೇ ದಿನ ವರದಿ ಮಾಡಿ.",
+              "ब्याने के बाद गहरा लाल या भूरा पेशाब कभी भी इंतज़ार करके देखने वाली बात नहीं है। यह गंभीर रक्ताल्पता और कमज़ोरी से जुड़ा है, और इसके लिए तुरंत पशु चिकित्सा ध्यान चाहिए — जिस दिन देखें उसी दिन बताएं।"
             ),
           },
         ],
         check: [
           {
             type: "mcq",
-            q: L("What is a key difference between simple udder oedema and an infected, painful udder?"),
+            q: L("What is a key difference between simple udder oedema and an infected, painful udder?", "సాధారణ పొదుగు ఎడెమాకు మరియు ఇన్ఫెక్షన్ ఉన్న, నొప్పిగా ఉన్న పొదుగుకు మధ్య ముఖ్యమైన తేడా ఏమిటి?", "எளிய மேமை வீக்கத்திற்கும் தொற்று மற்றும் வலியுடன் கூடிய மேமைக்கும் இடையிலான முக்கிய வேறுபாடு என்ன?", "ಸರಳ ಕೆಚ್ಚಲು ಊತ ಮತ್ತು ಸೋಂಕಿತ, ನೋವಿನ ಕೆಚ್ಚಲಿನ ನಡುವಿನ ಪ್ರಮುಖ ವ್ಯತ್ಯಾಸವೇನು?", "साधारण थन की सूजन और संक्रमित, दर्द भरे थन के बीच मुख्य अंतर क्या है?"),
             options: [
-              L("Oedema is usually not painful or hot to the touch"),
-              L("Oedema only ever happens in old animals"),
-              L("Oedema always requires surgery"),
-              L("There is no way to tell them apart"),
+              L("Oedema is usually not painful or hot to the touch", "ఎడెమా సాధారణంగా తాకినప్పుడు నొప్పిగా లేదా వేడిగా ఉండదు", "வீக்கம் பொதுவாக தொட்டால் வலியோ சூடோ இருக்காது", "ಎಡಿಮಾ ಸಾಮಾನ್ಯವಾಗಿ ಮುಟ್ಟಿದಾಗ ನೋವು ಅಥವಾ ಬಿಸಿ ಇರುವುದಿಲ್ಲ", "एडिमा में आमतौर पर छूने पर दर्द या गर्माहट नहीं होती"),
+              L("Oedema only ever happens in old animals", "ఎడెమా వృద్ధ పశువులలో మాత్రమే వస్తుంది", "வீக்கம் வயதான விலங்குகளில் மட்டுமே ஏற்படும்", "ಎಡಿಮಾ ವಯಸ್ಸಾದ ಪ್ರಾಣಿಗಳಲ್ಲಿ ಮಾತ್ರ ಬರುತ್ತದೆ", "एडिमा केवल बूढ़े पशुओं में ही होता है"),
+              L("Oedema always requires surgery", "ఎడెమాకు ఎల్లప్పుడూ శస్త్రచికిత్స అవసరం", "வீக்கத்திற்கு எப்போதும் அறுவை சிகிச்சை தேவை", "ಎಡಿಮಾಗೆ ಯಾವಾಗಲೂ ಶಸ್ತ್ರಚಿಕಿತ್ಸೆ ಬೇಕು", "एडिमा के लिए हमेशा सर्जरी चाहिए"),
+              L("There is no way to tell them apart", "వాటిని వేరు చేయడానికి మార్గం లేదు", "அவற்றை வேறுபடுத்த வழி இல்லை", "ಅವುಗಳನ್ನು ಬೇರ್ಪಡಿಸಲು ಯಾವುದೇ ಮಾರ್ಗವಿಲ್ಲ", "इनमें फर्क करने का कोई तरीका नहीं है"),
             ],
             answer: 0,
-            explain: L("With udder oedema, the udder is not painful or hot — that's an important detail to report, since it helps tell it apart from an infected udder."),
+            explain: L("With udder oedema, the udder is not painful or hot — that's an important detail to report, since it helps tell it apart from an infected udder.", "పొదుగు ఎడెమాలో, పొదుగు నొప్పిగా లేదా వేడిగా ఉండదు — ఇది తెలియజేయాల్సిన ముఖ్యమైన వివరం, ఎందుకంటే ఇది ఇన్ఫెక్షన్ ఉన్న పొదుగు నుండి దీన్ని వేరు చేయడంలో సహాయపడుతుంది.", "மேமை வீக்கத்தில், மேமை வலியோ சூடோ இல்லாமல் இருக்கும் — இது தெரிவிக்க வேண்டிய முக்கிய விவரம், ஏனெனில் இது தொற்று உள்ள மேமையிலிருந்து இதை வேறுபடுத்த உதவுகிறது.", "ಕೆಚ್ಚಲು ಎಡಿಮಾದಲ್ಲಿ, ಕೆಚ್ಚಲು ನೋವು ಅಥವಾ ಬಿಸಿ ಇರುವುದಿಲ್ಲ — ಇದು ವರದಿ ಮಾಡಬೇಕಾದ ಪ್ರಮುಖ ವಿವರ, ಏಕೆಂದರೆ ಇದು ಸೋಂಕಿತ ಕೆಚ್ಚಲಿನಿಂದ ಇದನ್ನು ಪ್ರತ್ಯೇಕಿಸಲು ಸಹಾಯ ಮಾಡುತ್ತದೆ.", "थन के एडिमा में, थन में दर्द या गर्माहट नहीं होती — यह बताने लायक ज़रूरी बात है, क्योंकि इससे संक्रमित थन से इसे अलग पहचानने में मदद मिलती है।"),
           },
           {
             type: "truefalse",
-            q: L("Dark red or brown urine after calving is a sign that can be safely ignored for now."),
+            q: L("Dark red or brown urine after calving is a sign that can be safely ignored for now.", "ఈనిన తర్వాత ముదురు ఎరుపు లేదా గోధుమ రంగు మూత్రం అనేది ప్రస్తుతానికి పట్టించుకోకుండా వదిలేయదగినది.", "ஈன்ற பிறகு அடர் சிவப்பு அல்லது பழுப்பு நிற சிறுநீர் தற்போதைக்கு பாதுகாப்பாக புறக்கணிக்கக்கூடிய அறிகுறி.", "ಕರು ಹಾಕಿದ ನಂತರ ಗಾಢ ಕೆಂಪು ಅಥವಾ ಕಂದು ಬಣ್ಣದ ಮೂತ್ರ ಸದ್ಯಕ್ಕೆ ಸುರಕ್ಷಿತವಾಗಿ ನಿರ್ಲಕ್ಷಿಸಬಹುದಾದ ಲಕ್ಷಣ.", "ब्याने के बाद गहरा लाल या भूरा पेशाब अभी के लिए नज़रअंदाज़ किया जा सकने वाला लक्षण है।"),
             answer: false,
-            explain: L("No — it is linked to a serious blood condition (haemoglobinuria) with severe anaemia, and should be reported the same day."),
+            explain: L("No — it is linked to a serious blood condition (haemoglobinuria) with severe anaemia, and should be reported the same day.", "కాదు — ఇది తీవ్రమైన రక్తహీనతతో కూడిన తీవ్రమైన రక్త పరిస్థితికి (హీమోగ్లోబినూరియా) సంబంధించినది, మరియు అదే రోజు తెలియజేయాలి.", "இல்லை — இது கடுமையான இரத்த சோகையுடன் கூடிய தீவிர இரத்த நிலையுடன் (ஹீமோகுளோபினூரியா) தொடர்புடையது, அதே நாளே தெரிவிக்கப்பட வேண்டும்.", "ಇಲ್ಲ — ಇದು ತೀವ್ರ ರಕ್ತಹೀನತೆಯೊಂದಿಗೆ ಗಂಭೀರ ರಕ್ತ ಸ್ಥಿತಿಗೆ (ಹಿಮೋಗ್ಲೋಬಿನ್ಯೂರಿಯಾ) ಸಂಬಂಧಿಸಿದೆ, ಅದೇ ದಿನ ವರದಿ ಮಾಡಬೇಕು.", "नहीं — यह गंभीर रक्ताल्पता वाली एक गंभीर रक्त संबंधी स्थिति (हीमोग्लोबिन्यूरिया) से जुड़ा है, और इसकी सूचना उसी दिन देनी चाहिए।"),
           },
         ],
       },
@@ -6626,55 +6746,55 @@ export const MODULES = [
         {
           topicId: "t-m7-prolapse-rop",
           type: "mcq",
-          q: L("Why should you never try to push a prolapsed uterus back in yourself?"),
+          q: L("Why should you never try to push a prolapsed uterus back in yourself?", "బయటకు వచ్చిన గర్భాశయాన్ని మీరే ఎందుకు లోపలికి తోయకూడదు?", "வெளியேறிய கருப்பையை நீங்களே ஏன் உள்ளே தள்ள முயற்சிக்கக்கூடாது?", "ಹೊರಬಂದ ಗರ್ಭಕೋಶವನ್ನು ನೀವೇ ಏಕೆ ಒಳಗೆ ತಳ್ಳಲು ಪ್ರಯತ್ನಿಸಬಾರದು?", "बाहर निकले गर्भाशय को खुद अंदर धकेलने की कोशिश क्यों नहीं करनी चाहिए?"),
           options: [
-            L("It is not actually a serious problem"),
-            L("It can cause severe bleeding"),
-            L("The animal will do it herself within minutes"),
-            L("It is against the rules but not dangerous"),
+            L("It is not actually a serious problem", "ఇది నిజానికి తీవ్రమైన సమస్య కాదు", "இது உண்மையில் தீவிரமான பிரச்சினை அல்ல", "ಇದು ನಿಜವಾಗಿ ಗಂಭೀರ ಸಮಸ್ಯೆಯಲ್ಲ", "यह असल में कोई गंभीर समस्या नहीं है"),
+            L("It can cause severe bleeding", "దీనివల్ల తీవ్ర రక్తస్రావం కావచ్చు", "இது கடுமையான இரத்தப்போக்கை ஏற்படுத்தலாம்", "ಇದು ತೀವ್ರ ರಕ್ತಸ್ರಾವಕ್ಕೆ ಕಾರಣವಾಗಬಹುದು", "इससे भारी रक्तस्राव हो सकता है"),
+            L("The animal will do it herself within minutes", "పశువు కొన్ని నిమిషాల్లో దానంతట అదే చేసుకుంటుంది", "விலங்கு சில நிமிடங்களில் தானே செய்துகொள்ளும்", "ಪ್ರಾಣಿ ಕೆಲವು ನಿಮಿಷಗಳಲ್ಲಿ ತಾನೇ ಮಾಡಿಕೊಳ್ಳುತ್ತದೆ", "पशु कुछ मिनटों में खुद यह कर लेगा"),
+            L("It is against the rules but not dangerous", "ఇది నియమాలకు వ్యతిరేకం కానీ ప్రమాదకరం కాదు", "இது விதிகளுக்கு எதிரானது ஆனால் ஆபத்தானது அல்ல", "ಇದು ನಿಯಮಗಳಿಗೆ ವಿರುದ್ಧ ಆದರೆ ಅಪಾಯಕಾರಿ ಅಲ್ಲ", "यह नियमों के खिलाफ है पर खतरनाक नहीं है"),
           ],
           answer: 1,
-          explain: L("Attempting to push it back in or remove anything yourself can cause severe bleeding — always protect it and call the vet instead."),
+          explain: L("Attempting to push it back in or remove anything yourself can cause severe bleeding — always protect it and call the vet instead.", "దాన్ని మీరే తోయడానికి లేదా ఏదైనా తీసివేయడానికి ప్రయత్నించడం వల్ల తీవ్ర రక్తస్రావం కావచ్చు — బదులుగా ఎల్లప్పుడూ దానిని రక్షించి వైద్యుడిని పిలవండి.", "அதை நீங்களே தள்ளவோ எதையும் அகற்றவோ முயற்சிப்பது கடுமையான இரத்தப்போக்கை ஏற்படுத்தலாம் — அதற்கு பதிலாக எப்போதும் அதை பாதுகாத்து கால்நடை மருத்துவரை அழைக்கவும்.", "ಅದನ್ನು ನೀವೇ ತಳ್ಳಲು ಅಥವಾ ಏನನ್ನಾದರೂ ತೆಗೆಯಲು ಪ್ರಯತ್ನಿಸುವುದರಿಂದ ತೀವ್ರ ರಕ್ತಸ್ರಾವವಾಗಬಹುದು — ಬದಲಿಗೆ ಯಾವಾಗಲೂ ಅದನ್ನು ರಕ್ಷಿಸಿ ಪಶುವೈದ್ಯರನ್ನು ಕರೆಯಿರಿ.", "इसे खुद अंदर धकेलने या कुछ भी हटाने की कोशिश से भारी रक्तस्राव हो सकता है — इसके बजाय हमेशा इसे बचाएं और डॉक्टर को बुलाएं।"),
         },
         {
           topicId: "t-m7-prolapse-rop",
           type: "truefalse",
-          q: L("Retention of Placenta is more likely after a difficult birth, twin birth, or a case of Milk Fever."),
+          q: L("Retention of Placenta is more likely after a difficult birth, twin birth, or a case of Milk Fever.", "కష్టమైన ప్రసవం, కవలల జననం, లేదా మిల్క్ ఫీవర్ వచ్చిన తర్వాత మావి నిలిచిపోయే అవకాశం ఎక్కువ.", "கடினமான பிரசவம், இரட்டைக் குட்டி பிறப்பு, அல்லது பால் காய்ச்சலுக்குப் பிறகு மாயை தங்கும் வாய்ப்பு அதிகம்.", "ಕಷ್ಟಕರ ಹೆರಿಗೆ, ಅವಳಿ ಜನನ, ಅಥವಾ ಮಿಲ್ಕ್ ಫೀವರ್ ಬಂದ ನಂತರ ಮಾಸು ಉಳಿಯುವ ಸಾಧ್ಯತೆ ಹೆಚ್ಚು.", "मुश्किल प्रसव, जुड़वां जन्म, या मिल्क फीवर के मामले के बाद जेर के रुकने की संभावना ज़्यादा होती है।"),
           answer: true,
-          explain: L("Correct — difficult births, twins, abortion, induced calving, infection, poor nutrition, and Milk Fever all raise the chances of Retention of Placenta."),
+          explain: L("Correct — difficult births, twins, abortion, induced calving, infection, poor nutrition, and Milk Fever all raise the chances of Retention of Placenta.", "సరైనది — కష్టమైన ప్రసవాలు, కవలలు, గర్భస్రావం, ప్రేరేపిత ఈత, ఇన్ఫెక్షన్, సరైన పోషణ లేకపోవడం, మరియు మిల్క్ ఫీవర్ అన్నీ మావి నిలిచిపోయే అవకాశాన్ని పెంచుతాయి.", "சரி — கடினமான பிரசவங்கள், இரட்டைக் குட்டிகள், கருச்சிதைவு, தூண்டப்பட்ட ஈன்றல், தொற்று, மோசமான ஊட்டச்சத்து, மற்றும் பால் காய்ச்சல் அனைத்தும் மாயை தங்கும் வாய்ப்பை அதிகரிக்கின்றன.", "ಸರಿ — ಕಷ್ಟಕರ ಹೆರಿಗೆಗಳು, ಅವಳಿಗಳು, ಗರ್ಭಪಾತ, ಪ್ರೇರಿತ ಕರು ಹಾಕುವಿಕೆ, ಸೋಂಕು, ಕಳಪೆ ಪೋಷಣೆ, ಮತ್ತು ಮಿಲ್ಕ್ ಫೀವರ್ ಎಲ್ಲವೂ ಮಾಸು ಉಳಿಯುವ ಸಾಧ್ಯತೆಯನ್ನು ಹೆಚ್ಚಿಸುತ್ತವೆ.", "सही — मुश्किल प्रसव, जुड़वां बच्चे, गर्भपात, कृत्रिम ब्याना, संक्रमण, खराब पोषण, और मिल्क फीवर — ये सभी जेर के रुकने की संभावना बढ़ाते हैं।"),
         },
         {
           topicId: "t-m7-prolapse-rop",
           type: "mcq",
-          q: L("Why should you never pull out a retained placenta yourself?"),
+          q: L("Why should you never pull out a retained placenta yourself?", "నిలిచిపోయిన మావిని మీరే ఎందుకు ఎప్పుడూ లాగకూడదు?", "தங்கியிருக்கும் மாயையை நீங்களே ஏன் ஒருபோதும் இழுக்கக்கூடாது?", "ಉಳಿದಿರುವ ಮಾಸನ್ನು ನೀವೇ ಏಕೆ ಎಂದಿಗೂ ಎಳೆಯಬಾರದು?", "रुकी हुई जेर को खुद कभी क्यों नहीं खींचना चाहिए?"),
           options: [
-            L("It has no risks, but it's simply not your job"),
-            L("It can lead to serious complications like infection or blood poisoning, even death"),
-            L("It will always come out easily on its own within seconds"),
-            L("It only matters for buffaloes, not cattle"),
+            L("It has no risks, but it's simply not your job", "దీనికి ఎలాంటి ప్రమాదం లేదు, కానీ ఇది మీ పని కాదు", "இதற்கு ஆபத்து இல்லை, ஆனால் இது உங்கள் வேலை அல்ல", "ಇದಕ್ಕೆ ಯಾವುದೇ ಅಪಾಯವಿಲ್ಲ, ಆದರೆ ಇದು ನಿಮ್ಮ ಕೆಲಸವಲ್ಲ", "इसमें कोई खतरा नहीं है, पर यह आपका काम नहीं है"),
+            L("It can lead to serious complications like infection or blood poisoning, even death", "దీనివల్ల ఇన్ఫెక్షన్ లేదా రక్త విషప్రయోగం వంటి తీవ్ర సమస్యలు, మరణం కూడా రావచ్చు", "இது தொற்று அல்லது இரத்த நச்சுத்தன்மை போன்ற கடுமையான சிக்கல்களுக்கும், மரணத்திற்கும் கூட வழிவகுக்கலாம்", "ಇದು ಸೋಂಕು ಅಥವಾ ರಕ್ತ ವಿಷಮಯತೆಯಂತಹ ಗಂಭೀರ ತೊಡಕುಗಳಿಗೆ, ಸಾವಿಗೂ ಕಾರಣವಾಗಬಹುದು", "इससे संक्रमण या खून में ज़हर फैलने जैसी गंभीर जटिलताएँ, यहाँ तक कि मौत भी हो सकती है"),
+            L("It will always come out easily on its own within seconds", "అది ఎల్లప్పుడూ కొన్ని సెకన్లలో దానంతట అదే సులభంగా బయటకు వస్తుంది", "அது எப்போதும் சில வினாடிகளில் தானாகவே எளிதாக வெளியேறும்", "ಅದು ಯಾವಾಗಲೂ ಕೆಲವು ಸೆಕೆಂಡುಗಳಲ್ಲಿ ತಾನಾಗಿಯೇ ಸುಲಭವಾಗಿ ಹೊರಬರುತ್ತದೆ", "यह हमेशा कुछ ही सेकंड में अपने आप आसानी से निकल जाती है"),
+            L("It only matters for buffaloes, not cattle", "ఇది గేదెలకు మాత్రమే వర్తిస్తుంది, ఆవులకు కాదు", "இது எருமைகளுக்கு மட்டுமே பொருந்தும், மாடுகளுக்கு அல்ல", "ಇದು ಎಮ್ಮೆಗಳಿಗೆ ಮಾತ್ರ ಅನ್ವಯಿಸುತ್ತದೆ, ಹಸುಗಳಿಗಲ್ಲ", "यह केवल भैंसों पर लागू होता है, गायों पर नहीं"),
           ],
           answer: 1,
-          explain: L("Pulling it yourself risks serious complications such as metritis (womb infection) and septicaemia (blood poisoning), which can be fatal — always consult a vet."),
+          explain: L("Pulling it yourself risks serious complications such as metritis (womb infection) and septicaemia (blood poisoning), which can be fatal — always consult a vet.", "దానిని మీరే లాగడం వల్ల మెట్రైటిస్ (గర్భాశయ ఇన్ఫెక్షన్) మరియు సెప్టిసీమియా (రక్త విషప్రయోగం) వంటి తీవ్ర సమస్యల ప్రమాదం ఉంటుంది, ఇవి ప్రాణాంతకం కావచ్చు — ఎల్లప్పుడూ వైద్యుడిని సంప్రదించండి.", "அதை நீங்களே இழுப்பது மெட்ரைடிஸ் (கருப்பை தொற்று) மற்றும் செப்டிசீமியா (இரத்த நச்சுத்தன்மை) போன்ற கடுமையான சிக்கல்களுக்கு ஆபத்து ஏற்படுத்தும், இவை உயிருக்கு ஆபத்தானவையாக இருக்கலாம் — எப்போதும் கால்நடை மருத்துவரை அணுகவும்.", "ಅದನ್ನು ನೀವೇ ಎಳೆಯುವುದರಿಂದ ಮೆಟ್ರೈಟಿಸ್ (ಗರ್ಭಕೋಶ ಸೋಂಕು) ಮತ್ತು ಸೆಪ್ಟಿಸೀಮಿಯಾ (ರಕ್ತ ವಿಷಮಯತೆ) ಮುಂತಾದ ಗಂಭೀರ ತೊಡಕುಗಳ ಅಪಾಯವಿದೆ, ಇವು ಮಾರಣಾಂತಿಕವಾಗಬಹುದು — ಯಾವಾಗಲೂ ಪಶುವೈದ್ಯರನ್ನು ಸಂಪರ್ಕಿಸಿ.", "इसे खुद खींचने से मेट्राइटिस (गर्भाशय संक्रमण) और सेप्टिसीमिया (खून में ज़हर) जैसी गंभीर जटिलताओं का खतरा रहता है, जो जानलेवा हो सकती हैं — हमेशा डॉक्टर से सलाह लें।"),
         },
         {
           topicId: "t-m7-udder-hgb",
           type: "mcq",
-          q: L("Udder oedema is most accurately described as:"),
+          q: L("Udder oedema is most accurately described as:", "పొదుగు ఎడెమాను అత్యంత సరిగ్గా ఇలా వర్ణించవచ్చు:", "மேமை வீக்கத்தை மிகச் சரியாக இவ்வாறு விவரிக்கலாம்:", "ಕೆಚ್ಚಲು ಎಡಿಮಾವನ್ನು ಅತ್ಯಂತ ನಿಖರವಾಗಿ ಹೀಗೆ ವಿವರಿಸಬಹುದು:", "थन के एडिमा का सबसे सही वर्णन है:"),
           options: [
-            L("A hot, painful swelling caused by infection"),
-            L("A build-up of extra fluid in the udder, which is usually not painful or hot"),
-            L("Something that only affects the belly, never the udder"),
-            L("A condition that always needs surgery immediately"),
+            L("A hot, painful swelling caused by infection", "ఇన్ఫెక్షన్ వల్ల వచ్చే వేడిగా, నొప్పిగా ఉండే వాపు", "தொற்று காரணமாக ஏற்படும் சூடான, வலியுள்ள வீக்கம்", "ಸೋಂಕಿನಿಂದ ಉಂಟಾಗುವ ಬಿಸಿಯಾದ, ನೋವಿನ ಊತ", "संक्रमण से होने वाली गर्म, दर्द भरी सूजन"),
+            L("A build-up of extra fluid in the udder, which is usually not painful or hot", "పొదుగులో అదనపు ద్రవం పేరుకుపోవడం, ఇది సాధారణంగా నొప్పిగా లేదా వేడిగా ఉండదు", "மேமையில் அதிகப்படியான திரவம் சேர்வது, இது பொதுவாக வலியோ சூடோ இருக்காது", "ಕೆಚ್ಚಲಿನಲ್ಲಿ ಹೆಚ್ಚುವರಿ ದ್ರವ ಸಂಗ್ರಹ, ಇದು ಸಾಮಾನ್ಯವಾಗಿ ನೋವು ಅಥವಾ ಬಿಸಿ ಇರುವುದಿಲ್ಲ", "थन में अतिरिक्त तरल का जमा होना, जो आमतौर पर दर्द या गर्माहट भरा नहीं होता"),
+            L("Something that only affects the belly, never the udder", "ఇది పొట్టను మాత్రమే ప్రభావితం చేస్తుంది, పొదుగును ఎప్పుడూ కాదు", "இது வயிற்றை மட்டுமே பாதிக்கும், மேமையை ஒருபோதும் அல்ல", "ಇದು ಹೊಟ್ಟೆಯನ್ನು ಮಾತ್ರ ಬಾಧಿಸುತ್ತದೆ, ಕೆಚ್ಚಲನ್ನು ಎಂದಿಗೂ ಅಲ್ಲ", "यह केवल पेट को प्रभावित करता है, थन को कभी नहीं"),
+            L("A condition that always needs surgery immediately", "దీనికి ఎల్లప్పుడూ వెంటనే శస్త్రచికిత్స అవసరం", "இது எப்போதும் உடனடியாக அறுவை சிகிச்சை தேவைப்படும் நிலை", "ಇದಕ್ಕೆ ಯಾವಾಗಲೂ ತಕ್ಷಣ ಶಸ್ತ್ರಚಿಕಿತ್ಸೆ ಬೇಕು", "इसके लिए हमेशा तुरंत सर्जरी की ज़रूरत होती है"),
           ],
           answer: 1,
-          explain: L("Udder oedema is fluid build-up in the udder (and sometimes the belly) that is usually not painful or hot — unlike an infected udder."),
+          explain: L("Udder oedema is fluid build-up in the udder (and sometimes the belly) that is usually not painful or hot — unlike an infected udder.", "పొదుగు ఎడెమా అనేది పొదుగులో (మరియు కొన్నిసార్లు పొట్టలో) ద్రవం పేరుకుపోవడం, ఇది సాధారణంగా నొప్పిగా లేదా వేడిగా ఉండదు — ఇన్ఫెక్షన్ ఉన్న పొదుగుకు భిన్నంగా.", "மேமை வீக்கம் என்பது மேமையில் (மற்றும் சில நேரங்களில் வயிற்றில்) திரவம் சேர்வதாகும், இது பொதுவாக வலியோ சூடோ இல்லாமல் இருக்கும் — தொற்று உள்ள மேமையிலிருந்து மாறாக.", "ಕೆಚ್ಚಲು ಎಡಿಮಾ ಎಂದರೆ ಕೆಚ್ಚಲಿನಲ್ಲಿ (ಮತ್ತು ಕೆಲವೊಮ್ಮೆ ಹೊಟ್ಟೆಯಲ್ಲಿ) ದ್ರವ ಸಂಗ್ರಹ, ಇದು ಸಾಮಾನ್ಯವಾಗಿ ನೋವು ಅಥವಾ ಬಿಸಿ ಇರುವುದಿಲ್ಲ — ಸೋಂಕಿತ ಕೆಚ್ಚಲಿಗಿಂತ ಭಿನ್ನವಾಗಿ.", "थन का एडिमा थन (और कभी-कभी पेट) में तरल का जमा होना है, जो आमतौर पर दर्द या गर्माहट भरा नहीं होता — संक्रमित थन के विपरीत।"),
         },
         {
           topicId: "t-m7-udder-hgb",
           type: "truefalse",
-          q: L("Post-Parturient Haemoglobinuria can come with a marked drop in milk production and signs of severe anaemia."),
+          q: L("Post-Parturient Haemoglobinuria can come with a marked drop in milk production and signs of severe anaemia.", "పోస్ట్-పార్చురియంట్ హీమోగ్లోబినూరియాతో పాల ఉత్పత్తిలో గణనీయమైన తగ్గుదల మరియు తీవ్రమైన రక్తహీనత లక్షణాలు రావచ్చు.", "பிரசவத்திற்கு பிந்தைய ஹீமோகுளோபினூரியா பால் உற்பத்தியில் குறிப்பிடத்தக்க குறைவுடனும் கடுமையான இரத்த சோகை அறிகுறிகளுடனும் வரலாம்.", "ಹೆರಿಗೆಯ ನಂತರದ ಹಿಮೋಗ್ಲೋಬಿನ್ಯೂರಿಯಾ ಹಾಲಿನ ಉತ್ಪಾದನೆಯಲ್ಲಿ ಗಮನಾರ್ಹ ಇಳಿಕೆ ಮತ್ತು ತೀವ್ರ ರಕ್ತಹೀನತೆಯ ಲಕ್ಷಣಗಳೊಂದಿಗೆ ಬರಬಹುದು.", "प्रसव के बाद का हीमोग्लोबिन्यूरिया दूध उत्पादन में साफ गिरावट और गंभीर रक्ताल्पता के लक्षणों के साथ आ सकता है।"),
           answer: true,
-          explain: L("Yes — along with dark, reddish urine, watch for a drop in milk, fever, loose dung, and weakness with a pale appearance from severe anaemia."),
+          explain: L("Yes — along with dark, reddish urine, watch for a drop in milk, fever, loose dung, and weakness with a pale appearance from severe anaemia.", "అవును — ముదురు, ఎరుపు రంగు మూత్రంతో పాటు, పాలలో తగ్గుదల, జ్వరం, వదులుగా ఉన్న పేడ, మరియు తీవ్రమైన రక్తహీనత వల్ల లేత రంగుతో బలహీనతను గమనించండి.", "ஆம் — அடர், சிவப்பு நிற சிறுநீருடன், பாலில் குறைவு, காய்ச்சல், தளர்வான சாணம், மற்றும் கடுமையான இரத்த சோகையால் வெளிர் தோற்றத்துடன் பலவீனத்தை கவனியுங்கள்.", "ಹೌದು — ಗಾಢ, ಕೆಂಪು ಬಣ್ಣದ ಮೂತ್ರದ ಜೊತೆಗೆ, ಹಾಲಿನಲ್ಲಿ ಇಳಿಕೆ, ಜ್ವರ, ಸಡಿಲ ಸಗಣಿ, ಮತ್ತು ತೀವ್ರ ರಕ್ತಹೀನತೆಯಿಂದ ಬಿಳಿಚಿಕೊಂಡ ದೌರ್ಬಲ್ಯವನ್ನು ಗಮನಿಸಿ.", "हाँ — गहरे, लाल रंग के पेशाब के साथ, दूध में कमी, बुखार, ढीला गोबर, और गंभीर रक्ताल्पता से पीलापन लिए कमज़ोरी पर ध्यान दें।"),
         },
       ],
     },
@@ -6684,8 +6804,8 @@ export const MODULES = [
   {
     id: "m8",
     number: 8,
-    title: L("Diseases Due to Faulty Feeding"),
-    subtitle: L("Health problems caused by wrong or unbalanced feeding, and how to avoid them."),
+    title: L("Diseases Due to Faulty Feeding", "తప్పుడు మేత వల్ల వచ్చే వ్యాధులు", "தவறான தீவனத்தால் ஏற்படும் நோய்கள்", "ತಪ್ಪಾದ ಆಹಾರದಿಂದ ಬರುವ ರೋಗಗಳು", "गलत खिलाने से होने वाली बीमारियाँ"),
+    subtitle: L("Health problems caused by wrong or unbalanced feeding, and how to avoid them.", "తప్పుడు లేదా అసమతుల్యమైన మేత వల్ల వచ్చే ఆరోగ్య సమస్యలు, మరియు వాటిని ఎలా నివారించాలో.", "தவறான அல்லது சமநிலையற்ற தீவனத்தால் ஏற்படும் உடல்நல பிரச்சினைகள், மற்றும் அவற்றை எப்படி தவிர்ப்பது.", "ತಪ್ಪಾದ ಅಥವಾ ಅಸಮತೋಲಿತ ಆಹಾರದಿಂದ ಬರುವ ಆರೋಗ್ಯ ಸಮಸ್ಯೆಗಳು, ಮತ್ತು ಅವುಗಳನ್ನು ಹೇಗೆ ತಪ್ಪಿಸುವುದು.", "गलत या असंतुलित तरीके से खिलाने से होने वाली स्वास्थ्य समस्याएँ, और इन्हें कैसे रोका जाए।"),
     icon: "wheat",
     available: true,
     lessons: [
@@ -6694,101 +6814,125 @@ export const MODULES = [
   // ==================================================================
   {
     id: "m8-l1",
-    title: L("Bloat and Acidosis: When the Rumen Goes Wrong"),
+    title: L("Bloat and Acidosis: When the Rumen Goes Wrong", "బ్లోట్ మరియు అసిడోసిస్: రుమెన్ తప్పు జరిగినప్పుడు", "வயிறு உப்புதல் மற்றும் அமிலத்தன்மை: ருமன் தவறாகும்போது", "ಬ್ಲೋಟ್ ಮತ್ತು ಆಸಿಡೋಸಿಸ್: ರುಮೆನ್ ಹಾಳಾದಾಗ", "ब्लोट और एसिडोसिस: जब रूमेन बिगड़ जाए"),
     estMinutes: 9,
     hook: [
       {
         type: "hero",
-        heading: L("The Stomach Has Its Own Balance — Feeding Mistakes Upset It"),
+        heading: L("The Stomach Has Its Own Balance — Feeding Mistakes Upset It", "కడుపుకు దాని స్వంత సమతుల్యత ఉంటుంది — మేత తప్పులు దాన్ని దెబ్బతీస్తాయి", "வயிற்றுக்கு அதன் சொந்த சமநிலை உண்டு — தீவன தவறுகள் அதை குலைக்கும்", "ಹೊಟ್ಟೆಗೆ ತನ್ನದೇ ಆದ ಸಮತೋಲನವಿದೆ — ಆಹಾರ ತಪ್ಪುಗಳು ಅದನ್ನು ಹಾಳುಮಾಡುತ್ತವೆ", "पेट का अपना एक संतुलन होता है — खिलाने की गलतियाँ इसे बिगाड़ देती हैं"),
         text: L(
-          "A cow or buffalo's stomach has four chambers, and the largest one — the rumen — is really a living fermentation tank full of helpful microbes that break down feed. Any sudden or wrong change in feeding can throw that balance off, letting harmful microbes take over. This lesson covers two feeding-related problems that follow from exactly that: bloat and acidosis."
+          "A cow or buffalo's stomach has four chambers, and the largest one — the rumen — is really a living fermentation tank full of helpful microbes that break down feed. Any sudden or wrong change in feeding can throw that balance off, letting harmful microbes take over. This lesson covers two feeding-related problems that follow from exactly that: bloat and acidosis.",
+          "ఆవు లేదా గేదె కడుపులో నాలుగు గదులు ఉంటాయి, వాటిలో అతిపెద్దదైన రుమెన్ నిజానికి మేతను విచ్ఛిన్నం చేసే ఉపయోగకరమైన సూక్ష్మజీవులతో నిండిన సజీవ కిణ్వన ట్యాంకు లాంటిది. మేతలో ఏదైనా అకస్మాత్తు లేదా తప్పు మార్పు ఈ సమతుల్యతను దెబ్బతీసి, హానికరమైన సూక్ష్మజీవులు అధిపత్యం చెలాయించడానికి దారితీయవచ్చు. ఈ పాఠం సరిగ్గా దీని వల్ల వచ్చే రెండు మేత సంబంధిత సమస్యలను కవర్ చేస్తుంది: బ్లోట్ మరియు అసిడోసిస్.",
+          "பசு அல்லது எருமையின் வயிற்றில் நான்கு அறைகள் உள்ளன, அவற்றில் மிகப் பெரியது — ருமன் — உண்மையில் தீவனத்தை உடைக்கும் பயனுள்ள நுண்ணுயிரிகள் நிறைந்த ஒரு உயிருள்ள புளிப்பாக்கும் தொட்டி. தீவனத்தில் ஏற்படும் எந்த திடீர் அல்லது தவறான மாற்றமும் இந்த சமநிலையை குலைத்து, தீங்கு விளைவிக்கும் நுண்ணுயிரிகள் ஆதிக்கம் செலுத்த வழிவகுக்கும். இந்த பாடம் சரியாக இதனால் ஏற்படும் இரண்டு தீவன தொடர்பான பிரச்சினைகளை உள்ளடக்கியது: வயிறு உப்புதல் மற்றும் அமிலத்தன்மை.",
+          "ಹಸು ಅಥವಾ ಎಮ್ಮೆಯ ಹೊಟ್ಟೆಯಲ್ಲಿ ನಾಲ್ಕು ಕೋಣೆಗಳಿವೆ, ಅವುಗಳಲ್ಲಿ ಅತಿ ದೊಡ್ಡದಾದ ರುಮೆನ್ ನಿಜವಾಗಿ ಆಹಾರವನ್ನು ಒಡೆಯುವ ಉಪಯುಕ್ತ ಸೂಕ್ಷ್ಮಜೀವಿಗಳಿಂದ ತುಂಬಿದ ಜೀವಂತ ಹುದುಗುವಿಕೆ ತೊಟ್ಟಿಯಂತೆ. ಆಹಾರದಲ್ಲಿ ಯಾವುದೇ ಹಠಾತ್ ಅಥವಾ ತಪ್ಪಾದ ಬದಲಾವಣೆ ಈ ಸಮತೋಲನವನ್ನು ಕೆಡಿಸಿ, ಹಾನಿಕಾರಕ ಸೂಕ್ಷ್ಮಜೀವಿಗಳು ಪ್ರಾಬಲ್ಯ ಸಾಧಿಸಲು ಕಾರಣವಾಗಬಹುದು. ಈ ಪಾಠ ನಿಖರವಾಗಿ ಇದರಿಂದ ಬರುವ ಎರಡು ಆಹಾರ ಸಂಬಂಧಿತ ಸಮಸ್ಯೆಗಳನ್ನು ಒಳಗೊಂಡಿದೆ: ಬ್ಲೋಟ್ ಮತ್ತು ಆಸಿಡೋಸಿಸ್.",
+          "गाय या भैंस के पेट में चार कक्ष होते हैं, और उनमें सबसे बड़ा — रूमेन — असल में चारे को तोड़ने वाले उपयोगी सूक्ष्मजीवों से भरा एक जीवित किण्वन टैंक है। खिलाने में कोई भी अचानक या गलत बदलाव इस संतुलन को बिगाड़ सकता है, जिससे हानिकारक सूक्ष्मजीव हावी हो सकते हैं। यह पाठ ठीक इसी वजह से होने वाली दो चारा-संबंधी समस्याओं को कवर करता है: ब्लोट और एसिडोसिस।"
         ),
       },
     ],
     topics: [
       {
         id: "t-m8-bloat",
-        title: L("Bloat"),
+        title: L("Bloat", "బ్లోట్", "வயிறு உப்புதல்", "ಬ್ಲೋಟ್", "ब्लोट"),
         teach: [
             {
               type: "photo",
               src: "assets/illustration-m8-bloat.png",
-              alt: L("Illustrated cutaway diagram of a cow showing gas trapped inside the rumen, causing the left side of the body to swell outward."),
-              caption: L("Illustration: what's happening inside a bloated cow — gas trapped in the rumen has nowhere to escape, and pushes the left side outward."),
+              alt: L("Illustrated cutaway diagram of a cow showing gas trapped inside the rumen, causing the left side of the body to swell outward.", "రుమెన్ లోపల గ్యాస్ చిక్కుకుపోవడం వల్ల శరీరం ఎడమ వైపు బయటకు ఉబ్బడాన్ని చూపే ఆవు లోపలి భాగం చిత్రం.", "ருமனுக்குள் வாயு சிக்கிக்கொண்டு, உடலின் இடது பக்கம் வெளியே வீங்குவதை காட்டும் பசுவின் உட்பக்க வரைபடம்.", "ರುಮೆನ್ ಒಳಗೆ ಅನಿಲ ಸಿಕ್ಕಿಹಾಕಿಕೊಂಡು, ದೇಹದ ಎಡಭಾಗ ಹೊರಗೆ ಊದಿಕೊಳ್ಳುವುದನ್ನು ತೋರಿಸುವ ಹಸುವಿನ ಒಳಭಾಗದ ಚಿತ್ರ.", "रूमेन के अंदर गैस फंसने से शरीर का बायां हिस्सा बाहर की ओर फूलने को दिखाने वाला गाय का भीतरी चित्र।"),
+              caption: L("Illustration: what's happening inside a bloated cow — gas trapped in the rumen has nowhere to escape, and pushes the left side outward.", "చిత్రం: బ్లోట్ ఉన్న ఆవు లోపల ఏమి జరుగుతోంది — రుమెన్‌లో చిక్కుకున్న గ్యాస్‌కు బయటకు వెళ్లడానికి దారి లేక, ఎడమ వైపును బయటకు నెట్టుతుంది.", "படம்: வயிறு உப்பிய பசுவின் உள்ளே என்ன நடக்கிறது — ருமனில் சிக்கிய வாயு வெளியேற வழியில்லாமல், இடது பக்கத்தை வெளியே தள்ளுகிறது.", "ಚಿತ್ರ: ಉಬ್ಬಿದ ಹಸುವಿನ ಒಳಗೆ ಏನಾಗುತ್ತಿದೆ — ರುಮೆನ್‌ನಲ್ಲಿ ಸಿಕ್ಕಿಬಿದ್ದ ಅನಿಲಕ್ಕೆ ಹೊರಹೋಗಲು ದಾರಿಯಿಲ್ಲದೆ, ಎಡಭಾಗವನ್ನು ಹೊರಗೆ ತಳ್ಳುತ್ತದೆ.", "चित्र: फूले हुए पेट वाली गाय के अंदर क्या हो रहा है — रूमेन में फंसी गैस को बाहर निकलने का रास्ता नहीं मिलता, और यह बाईं तरफ को बाहर धकेलती है।"),
             },
           {
             type: "text",
-            heading: L("What Is Bloat?"),
+            heading: L("What Is Bloat?", "బ్లోట్ అంటే ఏమిటి?", "வயிறு உப்புதல் என்றால் என்ன?", "ಬ್ಲೋಟ್ ಎಂದರೇನು?", "ब्लोट क्या है?"),
             html: L(
-              "<b>Bloat</b> is a kind of indigestion where gas builds up inside the rumen (the animal's largest stomach chamber) faster than it can escape. Normally, gas produced during digestion is released by burping. In bloat, that gas gets trapped and keeps building up, and the belly swells up like a balloon."
+              "<b>Bloat</b> is a kind of indigestion where gas builds up inside the rumen (the animal's largest stomach chamber) faster than it can escape. Normally, gas produced during digestion is released by burping. In bloat, that gas gets trapped and keeps building up, and the belly swells up like a balloon.",
+              "<b>బ్లోట్</b> అనేది ఒక రకమైన అజీర్ణం, దీనిలో రుమెన్ (పశువు కడుపులో అతిపెద్ద గది) లోపల గ్యాస్ బయటకు వెళ్లగలిగే దానికంటే వేగంగా పేరుకుపోతుంది. సాధారణంగా, జీర్ణక్రియ సమయంలో ఉత్పత్తి అయ్యే గ్యాస్ త్రేన్పు ద్వారా బయటకు వెళుతుంది. బ్లోట్‌లో, ఆ గ్యాస్ చిక్కుకుని పేరుకుపోతూనే ఉంటుంది, మరియు పొట్ట బెలూన్‌లా ఉబ్బుతుంది.",
+              "<b>வயிறு உப்புதல்</b> என்பது ஒரு வகை செரிமானக் கோளாறு, இதில் ருமனுக்குள் (விலங்கின் மிகப் பெரிய வயிற்று அறை) வாயு வெளியேற முடிவதை விட வேகமாக சேர்ந்துவிடும். பொதுவாக, செரிமான நேரத்தில் உற்பத்தியாகும் வாயு ஏப்பம் மூலம் வெளியேறும். வயிறு உப்புதலில், அந்த வாயு சிக்கிக்கொண்டு தொடர்ந்து சேர்கிறது, வயிறு பலூன் போல வீங்குகிறது.",
+              "<b>ಬ್ಲೋಟ್</b> ಎಂಬುದು ಒಂದು ರೀತಿಯ ಅಜೀರ್ಣ, ಇದರಲ್ಲಿ ರುಮೆನ್ (ಪ್ರಾಣಿಯ ಅತಿ ದೊಡ್ಡ ಹೊಟ್ಟೆಯ ಕೋಣೆ) ಒಳಗೆ ಅನಿಲ ಹೊರಹೋಗುವುದಕ್ಕಿಂತ ವೇಗವಾಗಿ ಸಂಗ್ರಹವಾಗುತ್ತದೆ. ಸಾಮಾನ್ಯವಾಗಿ, ಜೀರ್ಣಕ್ರಿಯೆಯ ಸಮಯದಲ್ಲಿ ಉತ್ಪತ್ತಿಯಾಗುವ ಅನಿಲ ತೇಗುವ ಮೂಲಕ ಹೊರಹೋಗುತ್ತದೆ. ಬ್ಲೋಟ್‌ನಲ್ಲಿ, ಆ ಅನಿಲ ಸಿಕ್ಕಿಬಿದ್ದು ಸಂಗ್ರಹವಾಗುತ್ತಲೇ ಇರುತ್ತದೆ, ಹೊಟ್ಟೆ ಬಲೂನಿನಂತೆ ಊದಿಕೊಳ್ಳುತ್ತದೆ.",
+              "<b>ब्लोट</b> एक तरह की अपच है जिसमें रूमेन (पशु के पेट का सबसे बड़ा कक्ष) के अंदर गैस बाहर निकलने से ज़्यादा तेज़ी से जमा हो जाती है। आमतौर पर, पाचन के दौरान बनने वाली गैस डकार के ज़रिए बाहर निकल जाती है। ब्लोट में, वह गैस फंस जाती है और लगातार जमा होती रहती है, और पेट गुब्बारे की तरह फूल जाता है।"
             ),
           },
           {
             type: "glossary",
-            term: L("Rumen"),
+            term: L("Rumen", "రుమెన్", "ருமன்", "ರುಮೆನ್", "रूमेन"),
             meaning: L(
-              "The largest of the four stomach chambers in a cow or buffalo, sitting mainly on the left side of the belly, where microbes break down grass and feed."
+              "The largest of the four stomach chambers in a cow or buffalo, sitting mainly on the left side of the belly, where microbes break down grass and feed.",
+              "ఆవు లేదా గేదె కడుపులోని నాలుగు గదులలో అతిపెద్దది, ఇది ప్రధానంగా పొట్ట ఎడమ వైపున ఉంటుంది, ఇక్కడ సూక్ష్మజీవులు గడ్డి మరియు మేతను విచ్ఛిన్నం చేస్తాయి.",
+              "பசு அல்லது எருமையின் வயிற்றின் நான்கு அறைகளில் மிகப் பெரியது, இது பெரும்பாலும் வயிற்றின் இடது பக்கத்தில் அமைந்துள்ளது, இங்கே நுண்ணுயிரிகள் புல் மற்றும் தீவனத்தை உடைக்கின்றன.",
+              "ಹಸು ಅಥವಾ ಎಮ್ಮೆಯ ಹೊಟ್ಟೆಯ ನಾಲ್ಕು ಕೋಣೆಗಳಲ್ಲಿ ಅತಿ ದೊಡ್ಡದು, ಇದು ಮುಖ್ಯವಾಗಿ ಹೊಟ್ಟೆಯ ಎಡಭಾಗದಲ್ಲಿ ಇರುತ್ತದೆ, ಇಲ್ಲಿ ಸೂಕ್ಷ್ಮಜೀವಿಗಳು ಹುಲ್ಲು ಮತ್ತು ಆಹಾರವನ್ನು ಒಡೆಯುತ್ತವೆ.",
+              "गाय या भैंस के पेट के चार कक्षों में सबसे बड़ा, जो मुख्यतः पेट के बाईं तरफ होता है, जहाँ सूक्ष्मजीव घास और चारे को तोड़ते हैं।"
             ),
           },
           {
             type: "stat-grid",
             items: [
               {
-                label: L("Lush, wet pasture"),
-                text: L("Grazing on young, lush pasture — especially if it's wet — is a common cause. Plants like clover, lucerne and alfalfa are especially risky, but any fast-growing plant can cause it."),
+                label: L("Lush, wet pasture", "పచ్చని, తడి గడ్డి భూమి", "பசுமையான, ஈரமான மேய்ச்சல் நிலம்", "ಹಸಿರಾದ, ಒದ್ದೆಯಾದ ಹುಲ್ಲುಗಾವಲು", "हरी-भरी, गीली चरागाह"),
+                text: L("Grazing on young, lush pasture — especially if it's wet — is a common cause. Plants like clover, lucerne and alfalfa are especially risky, but any fast-growing plant can cause it.", "లేత, పచ్చని గడ్డి మేత మీద మేయడం — ముఖ్యంగా అది తడిగా ఉంటే — ఒక సాధారణ కారణం. క్లోవర్, లూసర్న్, అల్ఫాల్ఫా వంటి మొక్కలు ముఖ్యంగా ప్రమాదకరం, కానీ వేగంగా పెరిగే ఏ మొక్క అయినా దీనికి కారణం కావచ్చు.", "இளம், பசுமையான மேய்ச்சல் நிலத்தில் — குறிப்பாக ஈரமாக இருந்தால் — மேய்வது ஒரு பொதுவான காரணம். க்ளோவர், லூசர்ன், அல்பால்பா போன்ற தாவரங்கள் குறிப்பாக ஆபத்தானவை, ஆனால் வேகமாக வளரும் எந்த தாவரமும் இதை ஏற்படுத்தலாம்.", "ಎಳೆಯ, ಹಸಿರಾದ ಹುಲ್ಲುಗಾವಲಿನಲ್ಲಿ — ವಿಶೇಷವಾಗಿ ಅದು ಒದ್ದೆಯಾಗಿದ್ದರೆ — ಮೇಯುವುದು ಸಾಮಾನ್ಯ ಕಾರಣ. ಕ್ಲೋವರ್, ಲುಸರ್ನ್, ಆಲ್ಫಾಲ್ಫಾದಂತಹ ಸಸ್ಯಗಳು ವಿಶೇಷವಾಗಿ ಅಪಾಯಕಾರಿ, ಆದರೆ ವೇಗವಾಗಿ ಬೆಳೆಯುವ ಯಾವುದೇ ಸಸ್ಯ ಇದಕ್ಕೆ ಕಾರಣವಾಗಬಹುದು.", "नई, हरी-भरी चरागाह में — खासकर अगर वह गीली हो — चरना एक आम कारण है। क्लोवर, लूसर्न और अल्फाल्फा जैसे पौधे खासकर जोखिम भरे होते हैं, पर तेज़ी से बढ़ने वाला कोई भी पौधा इसका कारण बन सकता है।"),
               },
               {
-                label: L("Something stuck in the throat"),
-                text: L("A foreign object stuck in the food pipe (choking) can block gas from escaping upward, so it builds up in the rumen instead."),
+                label: L("Something stuck in the throat", "గొంతులో ఏదైనా చిక్కుకోవడం", "தொண்டையில் ஏதாவது சிக்கிக்கொள்வது", "ಗಂಟಲಿನಲ್ಲಿ ಏನಾದರೂ ಸಿಕ್ಕಿಹಾಕಿಕೊಳ್ಳುವುದು", "गले में कुछ फंस जाना"),
+                text: L("A foreign object stuck in the food pipe (choking) can block gas from escaping upward, so it builds up in the rumen instead.", "ఆహార నాళంలో (గొంతులో) ఒక వస్తువు చిక్కుకోవడం వల్ల గ్యాస్ పైకి వెళ్లకుండా అడ్డుకోవచ్చు, దాంతో అది రుమెన్‌లో పేరుకుపోతుంది.", "உணவுக் குழாயில் (தொண்டையில்) ஒரு பொருள் சிக்கிக்கொள்வது வாயு மேலே செல்வதைத் தடுக்கலாம், அதனால் அது ருமனில் சேர்ந்துவிடும்.", "ಆಹಾರ ನಾಳದಲ್ಲಿ (ಗಂಟಲಿನಲ್ಲಿ) ಒಂದು ವಸ್ತು ಸಿಕ್ಕಿಹಾಕಿಕೊಳ್ಳುವುದರಿಂದ ಅನಿಲ ಮೇಲಕ್ಕೆ ಹೋಗುವುದನ್ನು ತಡೆಯಬಹುದು, ಆಗ ಅದು ರುಮೆನ್‌ನಲ್ಲಿ ಸಂಗ್ರಹವಾಗುತ್ತದೆ.", "खाने की नली (गले) में कोई चीज़ फंस जाने से गैस ऊपर नहीं निकल पाती, और इसके बजाय रूमेन में जमा हो जाती है।"),
               },
               {
-                label: L("Leftover food"),
-                text: L("Feeding leftover food, such as dry bread, can also cause bloat."),
+                label: L("Leftover food", "మిగిలిపోయిన ఆహారం", "மீதமுள்ள உணவு", "ಉಳಿದ ಆಹಾರ", "बचा हुआ खाना"),
+                text: L("Feeding leftover food, such as dry bread, can also cause bloat.", "పొడి రొట్టె వంటి మిగిలిపోయిన ఆహారం తినిపించడం కూడా బ్లోట్‌కు కారణం కావచ్చు.", "உலர் ரொட்டி போன்ற மீதமுள்ள உணவை கொடுப்பதும் வயிறு உப்புதலை ஏற்படுத்தலாம்.", "ಒಣ ಬ್ರೆಡ್‌ನಂತಹ ಉಳಿದ ಆಹಾರ ನೀಡುವುದೂ ಬ್ಲೋಟ್‌ಗೆ ಕಾರಣವಾಗಬಹುದು.", "सूखी रोटी जैसा बचा हुआ खाना खिलाना भी ब्लोट का कारण बन सकता है।"),
               },
             ],
           },
           {
             type: "text",
-            heading: L("Signs of Bloat"),
+            heading: L("Signs of Bloat", "బ్లోట్ లక్షణాలు", "வயிறு உப்புதலின் அறிகுறிகள்", "ಬ್ಲೋಟ್‌ನ ಲಕ್ಷಣಗಳು", "ब्लोट के लक्षण"),
             html: L(
-              "Watch for the <b>left side of the belly (the left flank) swelling outward</b> like a balloon. The animal may kick at its own belly, or stand with its back legs spread wide apart. It will have difficulty breathing. In severe, untreated cases, the animal can die from <b>asphyxiation</b> — meaning the swollen rumen presses so hard it can no longer get enough air."
+              "Watch for the <b>left side of the belly (the left flank) swelling outward</b> like a balloon. The animal may kick at its own belly, or stand with its back legs spread wide apart. It will have difficulty breathing. In severe, untreated cases, the animal can die from <b>asphyxiation</b> — meaning the swollen rumen presses so hard it can no longer get enough air.",
+              "<b>పొట్ట ఎడమ వైపు (ఎడమ పార్శ్వం) బెలూన్‌లా బయటకు ఉబ్బడాన్ని</b> గమనించండి. పశువు తన స్వంత పొట్టను తన్నవచ్చు, లేదా వెనుక కాళ్లను వెడల్పుగా విస్తరించి నిలబడవచ్చు. దానికి శ్వాస తీసుకోవడంలో ఇబ్బంది ఉంటుంది. తీవ్రమైన, చికిత్స చేయని కేసుల్లో, పశువు <b>ఊపిరాడకపోవడం</b> వల్ల చనిపోవచ్చు — అంటే ఉబ్బిన రుమెన్ చాలా గట్టిగా నొక్కి, ఇక సరిపడా గాలి అందదు.",
+              "<b>வயிற்றின் இடது பக்கம் (இடது விலா) பலூன் போல வெளியே வீங்குவதை</b> கவனியுங்கள். விலங்கு தன் சொந்த வயிற்றை உதைக்கலாம், அல்லது பின்கால்களை அகலமாக விரித்து நிற்கலாம். அதற்கு மூச்சு விடுவதில் சிரமம் இருக்கும். கடுமையான, சிகிச்சை அளிக்காத நிலைகளில், விலங்கு <b>மூச்சுத் திணறல்</b> காரணமாக இறக்கலாம் — அதாவது வீங்கிய ருமன் மிக அழுத்தமாக அழுத்தி, இனி போதுமான காற்று கிடைக்காது.",
+              "<b>ಹೊಟ್ಟೆಯ ಎಡಭಾಗ (ಎಡ ಪಕ್ಕೆ) ಬಲೂನಿನಂತೆ ಹೊರಗೆ ಉಬ್ಬುವುದನ್ನು</b> ಗಮನಿಸಿ. ಪ್ರಾಣಿ ತನ್ನ ಸ್ವಂತ ಹೊಟ್ಟೆಯನ್ನು ಒದೆಯಬಹುದು, ಅಥವಾ ಹಿಂಗಾಲುಗಳನ್ನು ಅಗಲವಾಗಿ ಹರಡಿ ನಿಲ್ಲಬಹುದು. ಅದಕ್ಕೆ ಉಸಿರಾಟದಲ್ಲಿ ತೊಂದರೆ ಇರುತ್ತದೆ. ತೀವ್ರ, ಚಿಕಿತ್ಸೆ ನೀಡದ ಪ್ರಕರಣಗಳಲ್ಲಿ, ಪ್ರಾಣಿ <b>ಉಸಿರುಗಟ್ಟುವಿಕೆ</b>ಯಿಂದ ಸಾಯಬಹುದು — ಅಂದರೆ ಊದಿಕೊಂಡ ರುಮೆನ್ ಎಷ್ಟು ಬಲವಾಗಿ ಒತ್ತುತ್ತದೆಂದರೆ ಇನ್ನು ಸಾಕಷ್ಟು ಗಾಳಿ ಸಿಗುವುದಿಲ್ಲ.",
+              "<b>पेट के बाईं तरफ (बाईं बाजू) के गुब्बारे की तरह बाहर फूलने</b> पर ध्यान दें। पशु अपने ही पेट को लात मार सकता है, या पिछले पैर चौड़े करके खड़ा हो सकता है। उसे सांस लेने में तकलीफ होगी। गंभीर, बिना इलाज वाले मामलों में, पशु <b>दम घुटने</b> से मर सकता है — यानी फूला हुआ रूमेन इतनी ज़ोर से दबाव डालता है कि उसे पर्याप्त हवा नहीं मिल पाती।"
             ),
           },
           {
             type: "callout",
             style: "warning",
-            heading: L("Bloat Can Turn Fatal Very Fast — Treat It as an Emergency"),
+            heading: L("Bloat Can Turn Fatal Very Fast — Treat It as an Emergency", "ब्लोट వేగంగా ప్రాణాంతకంగా మారవచ్చు — దీన్ని అత్యవసరంగా పరిగణించండి", "வயிறு உப்புதல் மிக விரைவாக உயிருக்கு ஆபத்தாக மாறலாம் — இதை அவசரமாக கருதுங்கள்", "ಬ್ಲೋಟ್ ಬಹಳ ಬೇಗ ಮಾರಣಾಂತಿಕವಾಗಬಹುದು — ಇದನ್ನು ತುರ್ತು ಎಂದು ಪರಿಗಣಿಸಿ", "ब्लोट बहुत तेज़ी से जानलेवा हो सकता है — इसे आपातकाल समझें"),
             text: L(
-              "Bloat can go from mild to fatal quickly. If you see the left flank ballooning out along with difficulty breathing, this is a true emergency. Do not wait and watch — get the owner and a veterinarian or experienced handler involved immediately. Severe bloat sometimes needs the gas released through the animal's side without delay, which is skilled emergency work for a vet or experienced handler, not something to attempt yourself."
+              "Bloat can go from mild to fatal quickly. If you see the left flank ballooning out along with difficulty breathing, this is a true emergency. Do not wait and watch — get the owner and a veterinarian or experienced handler involved immediately. Severe bloat sometimes needs the gas released through the animal's side without delay, which is skilled emergency work for a vet or experienced handler, not something to attempt yourself.",
+              "బ్లోట్ తేలికపాటి నుండి ప్రాణాంతకంగా త్వరగా మారవచ్చు. ఎడమ పార్శ్వం ఉబ్బడంతో పాటు శ్వాస తీసుకోవడంలో ఇబ్బంది కనిపిస్తే, ఇది నిజమైన అత్యవసర పరిస్థితి. వేచి చూడవద్దు — వెంటనే యజమానిని మరియు వైద్యుడిని లేదా అనుభవజ్ఞుడైన వ్యక్తిని రప్పించండి. తీవ్రమైన బ్లోట్‌కు కొన్నిసార్లు ఆలస్యం చేయకుండా పశువు పక్కటెముకల ద్వారా గ్యాస్‌ను విడుదల చేయాల్సి ఉంటుంది, ఇది వైద్యుడు లేదా అనుభవజ్ఞుడైన వ్యక్తి చేయాల్సిన నైపుణ్యం కలిగిన అత్యవసర పని, మీరు స్వయంగా ప్రయత్నించకూడని పని.",
+              "வயிறு உப்புதல் லேசானதிலிருந்து உயிருக்கு ஆபத்தானதாக விரைவாக மாறலாம். இடது விலா வீங்குவதுடன் மூச்சு விடுவதில் சிரமம் இருந்தால், இது உண்மையான அவசர நிலை. காத்திருந்து பார்க்க வேண்டாம் — உரிமையாளரையும் கால்நடை மருத்துவரையும் அல்லது அனுபவமிக்க கையாளுநரையும் உடனடியாக அழைக்கவும். கடுமையான வயிறு உப்புதலுக்கு சில நேரங்களில் தாமதமின்றி விலங்கின் விலா வழியாக வாயுவை வெளியிட வேண்டியிருக்கும், இது கால்நடை மருத்துவர் அல்லது அனுபவமிக்க கையாளுநருக்கான திறமையான அவசர பணி, நீங்களே முயற்சிக்க வேண்டிய ஒன்று அல்ல.",
+              "ಬ್ಲೋಟ್ ಸೌಮ್ಯದಿಂದ ಮಾರಣಾಂತಿಕಕ್ಕೆ ಬೇಗನೆ ಬದಲಾಗಬಹುದು. ಎಡ ಪಕ್ಕೆ ಉಬ್ಬುವುದರ ಜೊತೆಗೆ ಉಸಿರಾಟದ ತೊಂದರೆ ಕಂಡರೆ, ಇದು ನಿಜವಾದ ತುರ್ತು ಪರಿಸ್ಥಿತಿ. ಕಾಯುತ್ತಾ ನೋಡಬೇಡಿ — ತಕ್ಷಣ ಮಾಲೀಕ ಮತ್ತು ಪಶುವೈದ್ಯರು ಅಥವಾ ಅನುಭವಿ ನಿರ್ವಾಹಕರನ್ನು ತೊಡಗಿಸಿ. ತೀವ್ರ ಬ್ಲೋಟ್‌ಗೆ ಕೆಲವೊಮ್ಮೆ ವಿಳಂಬವಿಲ್ಲದೆ ಪ್ರಾಣಿಯ ಪಕ್ಕೆಯ ಮೂಲಕ ಅನಿಲ ಬಿಡುಗಡೆ ಮಾಡಬೇಕಾಗುತ್ತದೆ, ಇದು ಪಶುವೈದ್ಯರು ಅಥವಾ ಅನುಭವಿ ನಿರ್ವಾಹಕರ ಕೌಶಲ್ಯಪೂರ್ಣ ತುರ್ತು ಕೆಲಸ, ನೀವೇ ಪ್ರಯತ್ನಿಸಬಾರದು.",
+              "ब्लोट हल्के से जानलेवा तक तेज़ी से बढ़ सकता है। अगर आपको बाईं बाजू फूलती हुई और सांस लेने में तकलीफ दिखे, तो यह असली आपातकाल है। इंतज़ार करके न देखें — तुरंत मालिक और डॉक्टर या अनुभवी व्यक्ति को बुलाएं। गंभीर ब्लोट में कभी-कभी बिना देर किए पशु के पहलू से गैस निकालनी पड़ती है, जो डॉक्टर या अनुभवी व्यक्ति का कुशल आपातकालीन काम है, खुद करने की कोशिश करने वाली बात नहीं।"
             ),
           },
           {
             type: "callout",
             style: "tip",
-            heading: L("Everyday Habits That Help Prevent Bloat"),
+            heading: L("Everyday Habits That Help Prevent Bloat", "బ్లోట్‌ను నివారించడంలో సహాయపడే రోజువారీ అలవాట్లు", "வயிறு உப்புதலைத் தடுக்க உதவும் அன்றாட பழக்கங்கள்", "ಬ್ಲೋಟ್ ತಡೆಯಲು ಸಹಾಯ ಮಾಡುವ ದೈನಂದಿನ ಅಭ್ಯಾಸಗಳು", "ब्लोट रोकने में मदद करने वाली रोज़मर्रा की आदतें"),
             text: L(
-              "Avoid moving animals onto wet pasture first thing in the morning. Don't let a very hungry animal go straight onto lush pasture — offer it some dry, cut grass first so it isn't grazing on an empty stomach. Be careful about feeding leftover food such as dry bread."
+              "Avoid moving animals onto wet pasture first thing in the morning. Don't let a very hungry animal go straight onto lush pasture — offer it some dry, cut grass first so it isn't grazing on an empty stomach. Be careful about feeding leftover food such as dry bread.",
+              "ఉదయాన్నే మొదట పశువులను తడి గడ్డి భూమి మీదకి తీసుకెళ్లడం మానుకోండి. బాగా ఆకలిగా ఉన్న పశువును నేరుగా పచ్చని గడ్డి మీదకి వెళ్లనివ్వవద్దు — ఖాళీ కడుపుతో మేయకుండా ఉండటానికి ముందుగా కొంత ఎండిన, కోసిన గడ్డిని ఇవ్వండి. పొడి రొట్టె వంటి మిగిలిపోయిన ఆహారం తినిపించడంలో జాగ్రత్తగా ఉండండి.",
+              "காலையிலேயே முதலில் விலங்குகளை ஈரமான மேய்ச்சல் நிலத்திற்கு அழைத்துச் செல்வதைத் தவிர்க்கவும். மிகவும் பசியுடன் இருக்கும் விலங்கை நேரடியாக பசுமையான மேய்ச்சல் நிலத்திற்கு விடாதீர்கள் — காலி வயிற்றில் மேயாமல் இருக்க முதலில் சிறிது உலர்ந்த, வெட்டிய புல்லை கொடுங்கள். உலர் ரொட்டி போன்ற மீதமுள்ள உணவு கொடுப்பதில் கவனமாக இருங்கள்.",
+              "ಬೆಳಿಗ್ಗೆ ಮೊದಲ ಬಾರಿಗೆ ಪ್ರಾಣಿಗಳನ್ನು ಒದ್ದೆ ಹುಲ್ಲುಗಾವಲಿಗೆ ಕರೆದೊಯ್ಯುವುದನ್ನು ತಪ್ಪಿಸಿ. ಬಹಳ ಹಸಿವಾಗಿರುವ ಪ್ರಾಣಿಯನ್ನು ನೇರವಾಗಿ ಹಸಿರಾದ ಹುಲ್ಲುಗಾವಲಿಗೆ ಬಿಡಬೇಡಿ — ಖಾಲಿ ಹೊಟ್ಟೆಯಲ್ಲಿ ಮೇಯದಂತೆ ಮೊದಲು ಸ್ವಲ್ಪ ಒಣ, ಕತ್ತರಿಸಿದ ಹುಲ್ಲನ್ನು ನೀಡಿ. ಒಣ ಬ್ರೆಡ್‌ನಂತಹ ಉಳಿದ ಆಹಾರ ನೀಡುವ ಬಗ್ಗೆ ಜಾಗರೂಕರಾಗಿರಿ.",
+              "सुबह-सुबह सबसे पहले पशुओं को गीली चरागाह में ले जाने से बचें। बहुत भूखे पशु को सीधे हरी-भरी चरागाह में न जाने दें — पहले उसे कुछ सूखी, कटी हुई घास दें ताकि वह खाली पेट न चरे। सूखी रोटी जैसा बचा हुआ खाना खिलाने में सावधानी बरतें।"
             ),
           },
         ],
         check: [
           {
             type: "mcq",
-            q: L("What is bloat?"),
+            q: L("What is bloat?", "బ్లోట్ అంటే ఏమిటి?", "வயிறு உப்புதல் என்றால் என்ன?", "ಬ್ಲೋಟ್ ಎಂದರೇನು?", "ब्लोट क्या है?"),
             options: [
-              L("A wound on the animal's leg"),
-              L("Gas building up inside the rumen faster than it can escape"),
-              L("A shortage of milk"),
-              L("An infection of the udder"),
+              L("A wound on the animal's leg", "పశువు కాలిపై ఉన్న గాయం", "விலங்கின் காலில் உள்ள காயம்", "ಪ್ರಾಣಿಯ ಕಾಲಿನ ಮೇಲಿನ ಗಾಯ", "पशु के पैर पर घाव"),
+              L("Gas building up inside the rumen faster than it can escape", "గ్యాస్ బయటకు వెళ్లగలిగే దానికంటే వేగంగా రుమెన్‌లో పేరుకుపోవడం", "வாயு வெளியேற முடிவதை விட வேகமாக ருமனுக்குள் சேர்வது", "ಅನಿಲ ಹೊರಹೋಗುವುದಕ್ಕಿಂತ ವೇಗವಾಗಿ ರುಮೆನ್‌ನಲ್ಲಿ ಸಂಗ್ರಹವಾಗುವುದು", "गैस का बाहर निकलने से तेज़ी से रूमेन में जमा होना"),
+              L("A shortage of milk", "పాల కొరత", "பால் பற்றாக்குறை", "ಹಾಲಿನ ಕೊರತೆ", "दूध की कमी"),
+              L("An infection of the udder", "పొదుగు ఇన్ఫెక్షన్", "மேமை தொற்று", "ಕೆಚ್ಚಲಿನ ಸೋಂಕು", "थन का संक्रमण"),
             ],
             answer: 1,
-            explain: L("Bloat is indigestion caused by gas building up in the rumen faster than the animal can release it, so the belly swells."),
+            explain: L("Bloat is indigestion caused by gas building up in the rumen faster than the animal can release it, so the belly swells.", "బ్లోట్ అనేది పశువు విడుదల చేయగలిగే దానికంటే వేగంగా రుమెన్‌లో గ్యాస్ పేరుకుపోవడం వల్ల వచ్చే అజీర్ణం, దీనివల్ల పొట్ట ఉబ్బుతుంది.", "வயிறு உப்புதல் என்பது விலங்கு வெளியேற்ற முடிவதை விட வேகமாக ருமனில் வாயு சேர்வதால் ஏற்படும் செரிமானக் கோளாறு, இதனால் வயிறு வீங்குகிறது.", "ಬ್ಲೋಟ್ ಎಂದರೆ ಪ್ರಾಣಿ ಬಿಡುಗಡೆ ಮಾಡುವುದಕ್ಕಿಂತ ವೇಗವಾಗಿ ರುಮೆನ್‌ನಲ್ಲಿ ಅನಿಲ ಸಂಗ್ರಹವಾಗುವುದರಿಂದ ಉಂಟಾಗುವ ಅಜೀರ್ಣ, ಇದರಿಂದ ಹೊಟ್ಟೆ ಊದಿಕೊಳ್ಳುತ್ತದೆ.", "ब्लोट पशु के छोड़ पाने से तेज़ी से रूमेन में गैस जमा होने से होने वाली अपच है, जिससे पेट फूल जाता है।"),
           },
           {
             type: "truefalse",
-            q: L("If you notice an animal's left flank ballooning out along with difficulty breathing, it is safe to simply wait and watch before telling anyone."),
+            q: L("If you notice an animal's left flank ballooning out along with difficulty breathing, it is safe to simply wait and watch before telling anyone.", "పశువు ఎడమ పార్శ్వం ఉబ్బడంతో పాటు శ్వాస తీసుకోవడంలో ఇబ్బంది మీరు గమనిస్తే, ఎవరికైనా చెప్పేముందు కేవలం వేచి చూడటం సురక్షితం.", "விலங்கின் இடது விலா வீங்குவதையும் மூச்சு விடுவதில் சிரமத்தையும் நீங்கள் கவனித்தால், யாருக்கும் சொல்லும் முன் வெறுமனே காத்திருந்து பார்ப்பது பாதுகாப்பானது.", "ಪ್ರಾಣಿಯ ಎಡ ಪಕ್ಕೆ ಉಬ್ಬುವುದನ್ನು ಮತ್ತು ಉಸಿರಾಟದ ತೊಂದರೆಯನ್ನು ನೀವು ಗಮನಿಸಿದರೆ, ಯಾರಿಗಾದರೂ ಹೇಳುವ ಮೊದಲು ಕೇವಲ ಕಾಯುತ್ತಾ ನೋಡುವುದು ಸುರಕ್ಷಿತ.", "अगर आप पशु की बाईं बाजू फूलती हुई और सांस लेने में तकलीफ देखें, तो किसी को बताने से पहले बस इंतज़ार करके देखना सुरक्षित है।"),
             answer: false,
-            explain: L("No — bloat can turn fatal quickly. Ballooning of the left flank with breathing difficulty is an emergency; get the owner and a vet or experienced handler involved right away."),
+            explain: L("No — bloat can turn fatal quickly. Ballooning of the left flank with breathing difficulty is an emergency; get the owner and a vet or experienced handler involved right away.", "కాదు — బ్లోట్ త్వరగా ప్రాణాంతకంగా మారవచ్చు. శ్వాస ఇబ్బందితో పాటు ఎడమ పార్శ్వం ఉబ్బడం ఒక అత్యవసర పరిస్థితి; వెంటనే యజమానిని మరియు వైద్యుడిని లేదా అనుభవజ్ఞుడైన వ్యక్తిని రప్పించండి.", "இல்லை — வயிறு உப்புதல் விரைவாக உயிருக்கு ஆபத்தானதாக மாறலாம். மூச்சு சிரமத்துடன் இடது விலா வீங்குவது ஒரு அவசர நிலை; உடனடியாக உரிமையாளரையும் கால்நடை மருத்துவரையும் அல்லது அனுபவமிக்க கையாளுநரையும் அழைக்கவும்.", "ಇಲ್ಲ — ಬ್ಲೋಟ್ ಬೇಗನೆ ಮಾರಣಾಂತಿಕವಾಗಬಹುದು. ಉಸಿರಾಟದ ತೊಂದರೆಯೊಂದಿಗೆ ಎಡ ಪಕ್ಕೆ ಉಬ್ಬುವುದು ತುರ್ತು ಪರಿಸ್ಥಿತಿ; ತಕ್ಷಣ ಮಾಲೀಕ ಮತ್ತು ಪಶುವೈದ್ಯರು ಅಥವಾ ಅನುಭವಿ ನಿರ್ವಾಹಕರನ್ನು ತೊಡಗಿಸಿ.", "नहीं — ब्लोट तेज़ी से जानलेवा हो सकता है। सांस की तकलीफ के साथ बाईं बाजू का फूलना एक आपातकाल है; तुरंत मालिक और डॉक्टर या अनुभवी व्यक्ति को बुलाएं।"),
           },
         ],
       },
