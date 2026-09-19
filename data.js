@@ -4147,79 +4147,111 @@ export const MODULES = [
   // ==================================================================
   {
     id: "m4-l2",
-    title: L("More Diseases to Recognise and Report"),
+    title: L("More Diseases to Recognise and Report", "మరిన్ని గుర్తించి, తెలియజేయాల్సిన వ్యాధులు", "கண்டறிந்து தெரிவிக்க வேண்டிய மேலும் சில நோய்கள்", "ಗುರುತಿಸಿ ವರದಿ ಮಾಡಬೇಕಾದ ಇನ್ನಷ್ಟು ರೋಗಗಳು", "पहचानने और बताने वाली कुछ और बीमारियां"),
     estMinutes: 10,
     hook: [
       {
         type: "hero",
-        heading: L("Six More Diseases, Six Sets of Signs to Remember"),
+        heading: L("Six More Diseases, Six Sets of Signs to Remember", "మరో ఆరు వ్యాధులు, గుర్తుంచుకోవాల్సిన ఆరు రకాల లక్షణాలు", "மேலும் ஆறு நோய்கள், நினைவில் வைக்க வேண்டிய ஆறு வகை அறிகுறிகள்", "ಇನ್ನೂ ಆರು ರೋಗಗಳು, ನೆನಪಿಡಬೇಕಾದ ಆರು ಬಗೆಯ ಲಕ್ಷಣಗಳು", "छह और बीमारियां, याद रखने लायक छह तरह के लक्षण"),
         text: L(
-          "Each disease in this lesson looks different, spreads differently, and needs a different kind of urgency. You don't need to memorise every detail — you need to recognise the pattern of signs well enough to say 'this looks serious' and get the right person involved quickly."
+          "Each disease in this lesson looks different, spreads differently, and needs a different kind of urgency. You don't need to memorise every detail — you need to recognise the pattern of signs well enough to say 'this looks serious' and get the right person involved quickly.",
+          "ఈ పాఠంలోని ప్రతి వ్యాధి వేరేలా కనిపిస్తుంది, వేరేలా వ్యాపిస్తుంది, వేరే స్థాయి అత్యవసరత కావాలి. ప్రతి వివరాన్ని కంఠస్థం చేయాల్సిన అవసరం లేదు — 'ఇది తీవ్రంగా కనిపిస్తోంది' అని చెప్పగలిగేంతగా లక్షణాల తీరును గుర్తించి, సరైన వ్యక్తిని త్వరగా రంగంలోకి తేవడమే ముఖ్యం.",
+          "இந்த பாடத்தில் உள்ள ஒவ்வொரு நோயும் வெவ்வேறு விதமாகத் தெரியும், வெவ்வேறு விதமாகப் பரவும், வெவ்வேறு அளவு அவசரம் தேவைப்படும். ஒவ்வொரு விவரத்தையும் மனப்பாடம் செய்ய வேண்டியதில்லை — 'இது தீவிரமாகத் தெரிகிறது' என்று சொல்லும் அளவுக்கு அறிகுறிகளின் தன்மையை அடையாளம் கண்டு, சரியான நபரை விரைவாக ஈடுபடுத்தினால் போதும்.",
+          "ಈ ಪಾಠದ ಪ್ರತಿ ರೋಗವೂ ಬೇರೆ ಬೇರೆಯಾಗಿ ಕಾಣುತ್ತದೆ, ಬೇರೆ ಬೇರೆಯಾಗಿ ಹರಡುತ್ತದೆ, ಬೇರೆ ಬೇರೆ ಮಟ್ಟದ ತುರ್ತು ಬೇಕಾಗುತ್ತದೆ. ಪ್ರತಿ ವಿವರವನ್ನೂ ಬಾಯಿಪಾಠ ಮಾಡಬೇಕಿಲ್ಲ — 'ಇದು ಗಂಭೀರವಾಗಿ ಕಾಣುತ್ತಿದೆ' ಎಂದು ಹೇಳುವಷ್ಟು ಲಕ್ಷಣಗಳ ಮಾದರಿಯನ್ನು ಗುರುತಿಸಿ, ಸರಿಯಾದ ವ್ಯಕ್ತಿಯನ್ನು ಬೇಗ ಸೇರಿಸಿಕೊಂಡರೆ ಸಾಕು.",
+          "इस पाठ की हर बीमारी अलग दिखती है, अलग तरह से फैलती है, और उसमें अलग स्तर की जल्दी चाहिए। आपको हर बारीकी रटने की ज़रूरत नहीं — बस लक्षणों का पैटर्न इतना पहचान लें कि कह सकें 'यह गंभीर लगता है' और सही व्यक्ति को जल्दी बुला लें।"
         ),
       },
     ],
     topics: [
       {
         id: "t-m4-bq-bruc-ibr",
-        title: L("Black Quarter, Brucellosis and IBR"),
+        title: L("Black Quarter, Brucellosis and IBR", "బ్లాక్ క్వార్టర్, బ్రూసెల్లోసిస్ మరియు IBR", "பிளாக் குவார்ட்டர், புருசெல்லோசிஸ் மற்றும் IBR", "ಬ್ಲಾಕ್ ಕ್ವಾರ್ಟರ್, ಬ್ರೂಸೆಲ್ಲೋಸಿಸ್ ಮತ್ತು IBR", "ब्लैक क्वार्टर, ब्रुसेलोसिस और IBR"),
         teach: [
           {
             type: "text",
-            heading: L("Black Quarter (BQ)"),
+            heading: L("Black Quarter (BQ)", "బ్లాక్ క్వార్టర్ (BQ)", "பிளாக் குவார்ட்டர் (BQ)", "ಬ್ಲಾಕ್ ಕ್ವಾರ್ಟರ್ (BQ)", "ब्लैक क्वार्टर (BQ)"),
             html: L(
-              "BQ is an acute disease of cattle that causes gas-filled swelling in the heavy muscles of the body. It mostly affects healthy young animals between 6 months and 2 years old. Buffaloes usually get a milder form of it."
+              "BQ is an acute disease of cattle that causes gas-filled swelling in the heavy muscles of the body. It mostly affects healthy young animals between 6 months and 2 years old. Buffaloes usually get a milder form of it.",
+              "BQ అనేది పశువులకు వచ్చే తీవ్రమైన వ్యాధి, ఇది శరీరంలోని బలమైన కండరాల్లో గాలితో నిండిన వాపును కలిగిస్తుంది. ఇది ఎక్కువగా 6 నెలల నుండి 2 సంవత్సరాల మధ్య వయసున్న ఆరోగ్యవంతమైన చిన్న పశువులకు సోకుతుంది. గేదెలకు సాధారణంగా దీని తేలికపాటి రూపం వస్తుంది.",
+              "BQ என்பது மாடுகளைத் தாக்கும் கடுமையான நோய், இது உடலின் தடித்த தசைகளில் வாயு நிறைந்த வீக்கத்தை உண்டாக்குகிறது. இது பெரும்பாலும் 6 மாதம் முதல் 2 வயது வரையிலான ஆரோக்கியமான இளம் மாடுகளைப் பாதிக்கிறது. எருமைகளுக்கு பொதுவாக இதன் லேசான வடிவமே வரும்.",
+              "BQ ಎಂಬುದು ದನಗಳಿಗೆ ಬರುವ ತೀವ್ರ ರೋಗ, ಇದು ದೇಹದ ದಪ್ಪ ಸ್ನಾಯುಗಳಲ್ಲಿ ಅನಿಲ ತುಂಬಿದ ಊತವನ್ನು ಉಂಟುಮಾಡುತ್ತದೆ. ಇದು ಹೆಚ್ಚಾಗಿ 6 ತಿಂಗಳಿಂದ 2 ವರ್ಷದ ನಡುವಿನ ಆರೋಗ್ಯವಂತ ಎಳೆಯ ಪ್ರಾಣಿಗಳನ್ನು ಬಾಧಿಸುತ್ತದೆ. ಎಮ್ಮೆಗಳಿಗೆ ಸಾಮಾನ್ಯವಾಗಿ ಇದರ ಸೌಮ್ಯ ರೂಪ ಬರುತ್ತದೆ.",
+              "BQ पशुओं की एक तीव्र बीमारी है जो शरीर की मोटी मांसपेशियों में गैस भरी सूजन पैदा करती है। यह ज़्यादातर 6 महीने से 2 साल की उम्र के स्वस्थ युवा पशुओं को होती है। भैंसों में आमतौर पर इसका हल्का रूप होता है।"
             ),
           },
           {
             type: "stat-grid",
             items: [
               {
-                label: L("Watch for"),
+                label: L("Watch for", "గమనించాల్సినవి", "கவனிக்க வேண்டியவை", "ಗಮನಿಸಬೇಕಾದದ್ದು", "किस पर नज़र रखें"),
                 text: L(
-                  "Sudden high fever (as high as 107–108°F), the animal suddenly stops eating and chewing the cud, and a hot, painful swelling appears on the loin or buttocks — sometimes the shoulder, chest or neck too."
+                  "Sudden high fever (as high as 107–108°F), the animal suddenly stops eating and chewing the cud, and a hot, painful swelling appears on the loin or buttocks — sometimes the shoulder, chest or neck too.",
+                  "అకస్మాత్తుగా తీవ్ర జ్వరం (107–108°F వరకు), పశువు ఒక్కసారిగా మేత తినడం, నెమరు వేయడం ఆపేయడం, నడుము లేదా పిరుదులపై వేడిగా, నొప్పితో కూడిన వాపు కనిపించడం — కొన్నిసార్లు భుజం, ఛాతీ లేదా మెడపై కూడా.",
+                  "திடீர் அதிக காய்ச்சல் (107–108°F வரை), விலங்கு திடீரென தீவனம் உண்பதையும் அசைபோடுவதையும் நிறுத்துவது, இடுப்பு அல்லது புட்டத்தில் சூடான, வலியுடன் கூடிய வீக்கம் தோன்றுவது — சில நேரங்களில் தோள், மார்பு அல்லது கழுத்திலும்.",
+                  "ಒಮ್ಮೆಲೇ ತೀವ್ರ ಜ್ವರ (107–108°F ವರೆಗೆ), ಪ್ರಾಣಿ ಇದ್ದಕ್ಕಿದ್ದಂತೆ ಮೇವು ತಿನ್ನುವುದು ಮತ್ತು ಮೆಲುಕು ಹಾಕುವುದನ್ನು ನಿಲ್ಲಿಸುವುದು, ಸೊಂಟ ಅಥವಾ ಪೃಷ್ಠದ ಮೇಲೆ ಬಿಸಿ, ನೋವಿನ ಊತ ಕಾಣಿಸಿಕೊಳ್ಳುವುದು — ಕೆಲವೊಮ್ಮೆ ಭುಜ, ಎದೆ ಅಥವಾ ಕುತ್ತಿಗೆಯಲ್ಲೂ.",
+                  "अचानक तेज़ बुखार (107–108°F तक), जानवर का अचानक चारा खाना और जुगाली करना बंद कर देना, और कमर या कूल्हों पर गर्म, दर्द भरी सूजन आना — कभी-कभी कंधे, छाती या गर्दन पर भी।"
                 ),
               },
               {
-                label: L("A telling detail"),
+                label: L("A telling detail", "గుర్తించదగిన ఒక వివరం", "கவனிக்க வேண்டிய ஒரு முக்கிய விவரம்", "ಗಮನಿಸಬೇಕಾದ ಒಂದು ವಿಶೇಷ ಅಂಶ", "पहचान की एक ख़ास बात"),
                 text: L(
-                  "If you press gently on the swelling, it can make a crackling sound because of gas underneath the skin. The animal can die within 24–48 hours of these signs appearing."
+                  "If you press gently on the swelling, it can make a crackling sound because of gas underneath the skin. The animal can die within 24–48 hours of these signs appearing.",
+                  "వాపును మెల్లగా నొక్కితే, చర్మం కింద గాలి ఉండటం వల్ల కరకర అనే శబ్దం రావచ్చు. ఈ లక్షణాలు కనిపించిన 24–48 గంటల్లోనే పశువు చనిపోవచ్చు.",
+                  "வீக்கத்தை மெதுவாக அழுத்தினால், தோலுக்கு அடியில் வாயு இருப்பதால் சரசரவென்று ஒலி வரலாம். இந்த அறிகுறிகள் தெரிந்த 24–48 மணி நேரத்திற்குள் விலங்கு இறந்துவிடலாம்.",
+                  "ಊತವನ್ನು ಮೆಲ್ಲನೆ ಒತ್ತಿದರೆ, ಚರ್ಮದ ಕೆಳಗೆ ಅನಿಲ ಇರುವುದರಿಂದ ಚಟಪಟ ಶಬ್ದ ಬರಬಹುದು. ಈ ಲಕ್ಷಣಗಳು ಕಾಣಿಸಿಕೊಂಡ 24–48 ಗಂಟೆಗಳಲ್ಲಿ ಪ್ರಾಣಿ ಸಾಯಬಹುದು.",
+                  "अगर सूजन को हल्के से दबाएं, तो त्वचा के नीचे गैस होने से चट-चट की आवाज़ आ सकती है। इन लक्षणों के दिखने के 24–48 घंटे के भीतर जानवर की मौत हो सकती है।"
                 ),
               },
             ],
           },
           {
             type: "text",
-            heading: L("Brucellosis"),
+            heading: L("Brucellosis", "బ్రూసెల్లోసిస్", "புருசெல்லோசிஸ்", "ಬ್ರೂಸೆಲ್ಲೋಸಿಸ್", "ब्रुसेलोसिस"),
             html: L(
-              "Brucellosis is a bacterial disease that mainly shows up as abortion — the loss of a pregnancy — usually after the 5th month. It can also cause weak or diseased calves, repeat breeding problems and mastitis. It is <b>zoonotic</b>, meaning humans can catch it too, mainly by drinking raw (unboiled) milk from an infected animal or by contact with fluids from a birth or abortion."
+              "Brucellosis is a bacterial disease that mainly shows up as abortion — the loss of a pregnancy — usually after the 5th month. It can also cause weak or diseased calves, repeat breeding problems and mastitis. It is <b>zoonotic</b>, meaning humans can catch it too, mainly by drinking raw (unboiled) milk from an infected animal or by contact with fluids from a birth or abortion.",
+              "బ్రూసెల్లోసిస్ ఒక బ్యాక్టీరియా వ్యాధి, ఇది ప్రధానంగా గర్భస్రావంగా — అంటే గర్భం పోవడంగా — కనిపిస్తుంది, సాధారణంగా 5వ నెల తర్వాత. ఇది బలహీనమైన లేదా జబ్బుపడిన దూడలు, మళ్ళీ మళ్ళీ చూలు కట్టకపోవడం, పొదుగువాపు (మాస్టిటిస్) కూడా కలిగించవచ్చు. ఇది <b>జూనోటిక్</b>, అంటే మనుషులకు కూడా సోకుతుంది — ముఖ్యంగా జబ్బుపడిన పశువు పచ్చి (మరిగించని) పాలు తాగడం ద్వారా లేదా ఈత లేదా గర్భస్రావ సమయంలో వచ్చే ద్రవాలను తాకడం ద్వారా.",
+              "புருசெல்லோசிஸ் ஒரு பாக்டீரியா நோய், இது முக்கியமாக கருச்சிதைவாக — அதாவது கர்ப்பம் கலைவதாக — வெளிப்படுகிறது, பொதுவாக 5வது மாதத்திற்குப் பிறகு. இது பலவீனமான அல்லது நோயுற்ற கன்றுகள், மீண்டும் மீண்டும் சினைப்பிடிக்காமை, மடி வீக்கம் (மாஸ்டைடிஸ்) ஆகியவற்றையும் உண்டாக்கலாம். இது <b>விலங்கு-மனித நோய்</b> (ஜூனோடிக்), அதாவது மனிதர்களுக்கும் பரவும் — முக்கியமாக நோயுற்ற விலங்கின் பச்சை (காய்ச்சாத) பாலைக் குடிப்பதன் மூலம் அல்லது ஈற்று அல்லது கருச்சிதைவின் போது வரும் திரவங்களைத் தொடுவதன் மூலம்.",
+              "ಬ್ರೂಸೆಲ್ಲೋಸಿಸ್ ಒಂದು ಬ್ಯಾಕ್ಟೀರಿಯಾ ರೋಗ, ಇದು ಮುಖ್ಯವಾಗಿ ಗರ್ಭಪಾತವಾಗಿ — ಅಂದರೆ ಗರ್ಭ ಕಳೆದುಹೋಗುವುದಾಗಿ — ಕಾಣಿಸಿಕೊಳ್ಳುತ್ತದೆ, ಸಾಮಾನ್ಯವಾಗಿ 5ನೇ ತಿಂಗಳ ನಂತರ. ಇದು ದುರ್ಬಲ ಅಥವಾ ರೋಗಗ್ರಸ್ತ ಕರುಗಳು, ಪದೇ ಪದೇ ಗರ್ಭ ಧರಿಸದಿರುವುದು ಮತ್ತು ಕೆಚ್ಚಲುಬಾವು (ಮಾಸ್ಟೈಟಿಸ್) ಸಹ ಉಂಟುಮಾಡಬಹುದು. ಇದು <b>ಝೂನೋಟಿಕ್</b>, ಅಂದರೆ ಮನುಷ್ಯರಿಗೂ ಬರುತ್ತದೆ — ಮುಖ್ಯವಾಗಿ ರೋಗಪೀಡಿತ ಪ್ರಾಣಿಯ ಹಸಿ (ಕಾಯಿಸದ) ಹಾಲನ್ನು ಕುಡಿಯುವುದರಿಂದ ಅಥವಾ ಈಯುವ ಅಥವಾ ಗರ್ಭಪಾತದ ಸಮಯದ ದ್ರವಗಳ ಸಂಪರ್ಕದಿಂದ.",
+              "ब्रुसेलोसिस एक बैक्टीरिया जनित बीमारी है, जो मुख्य रूप से गर्भपात — यानी गर्भ का गिर जाना — के रूप में दिखती है, आमतौर पर 5वें महीने के बाद। इससे कमज़ोर या बीमार बछड़े, बार-बार गाभिन न होना और थनैला (मैस्टाइटिस) भी हो सकता है। यह <b>ज़ूनोटिक</b> है, यानी इंसानों को भी हो सकती है — मुख्यतः संक्रमित पशु का कच्चा (बिना उबला) दूध पीने से या बच्चा जनने या गर्भपात के समय निकले तरल के संपर्क से।"
             ),
           },
           {
             type: "callout",
             style: "warning",
-            heading: L("Any Abortion After the 5th Month Should Be Reported and Treated Carefully"),
+            heading: L("Any Abortion After the 5th Month Should Be Reported and Treated Carefully", "5వ నెల తర్వాత ఏ గర్భస్రావమైనా తెలియజేయాలి, జాగ్రత్తగా చూసుకోవాలి", "5வது மாதத்திற்குப் பிறகு நடக்கும் எந்த கருச்சிதைவையும் தெரிவிக்க வேண்டும், கவனமாகக் கையாள வேண்டும்", "5ನೇ ತಿಂಗಳ ನಂತರದ ಯಾವುದೇ ಗರ್ಭಪಾತವನ್ನು ವರದಿ ಮಾಡಬೇಕು ಮತ್ತು ಎಚ್ಚರಿಕೆಯಿಂದ ನಿರ್ವಹಿಸಬೇಕು", "5वें महीने के बाद हुए किसी भी गर्भपात की सूचना देनी चाहिए और सावधानी से निपटना चाहिए"),
             text: L(
-              "Report it right away, and never handle an aborted calf, the afterbirth, or any related discharge with bare hands — this material carries a very high load of bacteria and is a real risk to human health as well as to the rest of the herd."
+              "Report it right away, and never handle an aborted calf, the afterbirth, or any related discharge with bare hands — this material carries a very high load of bacteria and is a real risk to human health as well as to the rest of the herd.",
+              "వెంటనే తెలియజేయండి, గర్భస్రావమైన దూడ, మావి లేదా సంబంధిత స్రావాలను ఎప్పుడూ ఖాళీ చేతులతో ముట్టుకోకండి — ఈ పదార్థంలో బ్యాక్టీరియా చాలా ఎక్కువగా ఉంటుంది, ఇది మనుషుల ఆరోగ్యానికి, మిగతా మందకు కూడా నిజమైన ప్రమాదం.",
+              "உடனே தெரிவியுங்கள், கருச்சிதைந்த கன்று, நஞ்சுக்கொடி அல்லது தொடர்புடைய திரவங்களை வெறும் கைகளால் ஒருபோதும் தொடாதீர்கள் — இந்தப் பொருளில் பாக்டீரியா மிக அதிகமாக இருக்கும், இது மனிதர்களின் ஆரோக்கியத்துக்கும் மற்ற மந்தைக்கும் உண்மையான ஆபத்து.",
+              "ತಕ್ಷಣ ತಿಳಿಸಿ, ಗರ್ಭಪಾತವಾದ ಕರು, ಮಾಸು ಅಥವಾ ಸಂಬಂಧಿತ ಸ್ರಾವಗಳನ್ನು ಬರಿಗೈಯಿಂದ ಎಂದಿಗೂ ಮುಟ್ಟಬೇಡಿ — ಈ ವಸ್ತುವಿನಲ್ಲಿ ಬ್ಯಾಕ್ಟೀರಿಯಾ ಬಹಳ ಹೆಚ್ಚಿರುತ್ತದೆ, ಇದು ಮನುಷ್ಯರ ಆರೋಗ್ಯಕ್ಕೂ ಉಳಿದ ಹಿಂಡಿಗೂ ನಿಜವಾದ ಅಪಾಯ.",
+              "तुरंत सूचना दें, और गर्भपात हुए बछड़े, जेर या किसी भी तरल को नंगे हाथों से कभी न छुएं — इस सामग्री में बैक्टीरिया बहुत ज़्यादा होते हैं और यह इंसानों की सेहत के साथ-साथ बाकी झुंड के लिए भी असली ख़तरा है।"
             ),
           },
           {
             type: "text",
-            heading: L("Infectious Bovine Rhinotracheitis (IBR)"),
+            heading: L("Infectious Bovine Rhinotracheitis (IBR)", "ఇన్ఫెక్షియస్ బోవైన్ రైనోట్రాకీటిస్ (IBR)", "இன்ஃபெக்ஷியஸ் போவைன் ரைனோட்ரக்கிடிஸ் (IBR)", "ಇನ್ಫೆಕ್ಷಿಯಸ್ ಬೋವೈನ್ ರೈನೋಟ್ರಾಕೈಟಿಸ್ (IBR)", "इन्फेक्शियस बोवाइन राइनोट्रेकाइटिस (IBR)"),
             html: L(
-              "IBR is a viral disease with three forms — the most common affect breathing and the reproductive parts. It causes abortion, a moderate drop in milk, and can even kill young calves."
+              "IBR is a viral disease with three forms — the most common affect breathing and the reproductive parts. It causes abortion, a moderate drop in milk, and can even kill young calves.",
+              "IBR ఒక వైరస్ వ్యాధి, దీనికి మూడు రూపాలు ఉన్నాయి — వాటిలో సర్వసాధారణమైనవి శ్వాసకోశాన్ని, ప్రత్యుత్పత్తి అవయవాలను ప్రభావితం చేస్తాయి. ఇది గర్భస్రావం, పాలు మధ్యస్థంగా తగ్గడం కలిగిస్తుంది, చిన్న దూడలను చంపేయనూ వచ్చు.",
+              "IBR ஒரு வைரஸ் நோய், இதற்கு மூன்று வடிவங்கள் உள்ளன — மிகவும் பொதுவானவை சுவாசத்தையும் இனப்பெருக்க உறுப்புகளையும் பாதிக்கின்றன. இது கருச்சிதைவு, பால் மிதமாகக் குறைதல் ஆகியவற்றை உண்டாக்கும், இளம் கன்றுகளைக் கொல்லவும் கூடும்.",
+              "IBR ಒಂದು ವೈರಸ್ ರೋಗ, ಇದಕ್ಕೆ ಮೂರು ರೂಪಗಳಿವೆ — ಅತ್ಯಂತ ಸಾಮಾನ್ಯವಾದವು ಉಸಿರಾಟದ ಅಂಗಗಳನ್ನು ಮತ್ತು ಸಂತಾನೋತ್ಪತ್ತಿ ಅಂಗಗಳನ್ನು ಬಾಧಿಸುತ್ತವೆ. ಇದು ಗರ್ಭಪಾತ, ಹಾಲು ಮಧ್ಯಮವಾಗಿ ಕಡಿಮೆಯಾಗುವುದನ್ನು ಉಂಟುಮಾಡುತ್ತದೆ, ಎಳೆಯ ಕರುಗಳನ್ನು ಸಾಯಿಸಲೂಬಹುದು.",
+              "IBR एक वायरस जनित बीमारी है जिसके तीन रूप हैं — सबसे आम रूप सांस और प्रजनन अंगों को प्रभावित करते हैं। इससे गर्भपात, दूध में मध्यम कमी होती है, और यह छोटे बछड़ों की जान भी ले सकती है।"
             ),
           },
           {
             type: "stat-grid",
             items: [
               {
-                label: L("Watch for"),
-                text: L("Coughing, heavy watery discharge from both nostrils, and fever."),
+                label: L("Watch for", "గమనించాల్సినవి", "கவனிக்க வேண்டியவை", "ಗಮನಿಸಬೇಕಾದದ್ದು", "किस पर नज़र रखें"),
+                text: L("Coughing, heavy watery discharge from both nostrils, and fever.", "దగ్గు, రెండు ముక్కు రంధ్రాల నుండి ఎక్కువగా నీరులా కారడం, జ్వరం.", "இருமல், இரண்டு நாசிகளிலிருந்தும் அதிகமாக நீர் போல வடிதல், காய்ச்சல்.", "ಕೆಮ್ಮು, ಎರಡೂ ಮೂಗಿನ ಹೊಳ್ಳೆಗಳಿಂದ ಹೆಚ್ಚಾಗಿ ನೀರಿನಂತೆ ಸೋರುವುದು, ಜ್ವರ.", "खांसी, दोनों नथुनों से खूब पानी जैसा स्राव, और बुखार।"),
               },
               {
-                label: L("Other signs"),
+                label: L("Other signs", "ఇతర లక్షణాలు", "மற்ற அறிகுறிகள்", "ಇತರ ಲಕ್ಷಣಗಳು", "अन्य लक्षण"),
                 text: L(
-                  "Redness and discharge in one or both eyes; in the genital form, a swollen vulva with sores. Abortion is common between the 6th and 8th month of pregnancy."
+                  "Redness and discharge in one or both eyes; in the genital form, a swollen vulva with sores. Abortion is common between the 6th and 8th month of pregnancy.",
+                  "ఒకటి లేదా రెండు కళ్ళలో ఎర్రబారడం, స్రావం; జననేంద్రియ రూపంలో వాచిన యోనిపై పుండ్లు. గర్భం 6వ నుండి 8వ నెల మధ్య గర్భస్రావం సాధారణం.",
+                  "ஒன்று அல்லது இரண்டு கண்களிலும் சிவப்பு, நீர் வடிதல்; பிறப்புறுப்பு வடிவத்தில் வீங்கிய பிறப்புறுப்பில் புண்கள். கர்ப்பத்தின் 6வது முதல் 8வது மாதம் வரை கருச்சிதைவு பொதுவானது.",
+                  "ಒಂದು ಅಥವಾ ಎರಡೂ ಕಣ್ಣುಗಳಲ್ಲಿ ಕೆಂಪಾಗುವುದು, ಸ್ರಾವ; ಜನನಾಂಗ ರೂಪದಲ್ಲಿ ಊದಿಕೊಂಡ ಯೋನಿಯ ಮೇಲೆ ಹುಣ್ಣುಗಳು. ಗರ್ಭದ 6ರಿಂದ 8ನೇ ತಿಂಗಳ ನಡುವೆ ಗರ್ಭಪಾತ ಸಾಮಾನ್ಯ.",
+                  "एक या दोनों आंखों में लालिमा और स्राव; जननांग वाले रूप में सूजी हुई योनि पर घाव। गर्भावस्था के 6वें से 8वें महीने के बीच गर्भपात आम है।"
                 ),
               },
             ],
@@ -4228,69 +4260,103 @@ export const MODULES = [
         check: [
           {
             type: "mcq",
-            q: L("What is a distinctive sign of Black Quarter (BQ)?"),
+            q: L("What is a distinctive sign of Black Quarter (BQ)?", "బ్లాక్ క్వార్టర్ (BQ) యొక్క ఒక ప్రత్యేక లక్షణం ఏమిటి?", "பிளாக் குவார்ட்டரின் (BQ) ஒரு தனித்துவமான அறிகுறி எது?", "ಬ್ಲಾಕ್ ಕ್ವಾರ್ಟರ್‌ನ (BQ) ಒಂದು ವಿಶಿಷ್ಟ ಲಕ್ಷಣ ಯಾವುದು?", "ब्लैक क्वार्टर (BQ) का एक ख़ास लक्षण क्या है?"),
             options: [
-              L("A hot, painful swelling on the loin or buttocks that may crackle when pressed"),
-              L("Watery eyes only"),
-              L("Increased appetite"),
-              L("Slow, gradual weight loss over months"),
+              L("A hot, painful swelling on the loin or buttocks that may crackle when pressed", "నడుము లేదా పిరుదులపై వేడిగా, నొప్పితో కూడిన వాపు, నొక్కితే కరకర శబ్దం రావచ్చు", "இடுப்பு அல்லது புட்டத்தில் சூடான, வலியுடன் கூடிய வீக்கம், அழுத்தினால் சரசரவென்று ஒலிக்கலாம்", "ಸೊಂಟ ಅಥವಾ ಪೃಷ್ಠದ ಮೇಲೆ ಬಿಸಿ, ನೋವಿನ ಊತ, ಒತ್ತಿದರೆ ಚಟಪಟ ಶಬ್ದ ಬರಬಹುದು", "कमर या कूल्हों पर गर्म, दर्द भरी सूजन, जो दबाने पर चट-चट की आवाज़ कर सकती है"),
+              L("Watery eyes only", "కళ్ళ నుండి నీరు కారడం మాత్రమే", "கண்களில் நீர் வடிதல் மட்டுமே", "ಕಣ್ಣಿನಿಂದ ನೀರು ಸುರಿಯುವುದು ಮಾತ್ರ", "सिर्फ़ आंखों से पानी बहना"),
+              L("Increased appetite", "ఆకలి పెరగడం", "பசி அதிகரிப்பு", "ಹಸಿವು ಹೆಚ್ಚಾಗುವುದು", "भूख बढ़ जाना"),
+              L("Slow, gradual weight loss over months", "నెలల తరబడి నెమ్మదిగా, క్రమంగా బరువు తగ్గడం", "மாதக்கணக்கில் மெதுவாக, படிப்படியாக எடை குறைவது", "ತಿಂಗಳುಗಟ್ಟಲೆ ನಿಧಾನವಾಗಿ, ಕ್ರಮೇಣ ತೂಕ ಇಳಿಯುವುದು", "महीनों में धीरे-धीरे वज़न घटना"),
             ],
             answer: 0,
-            explain: L("BQ causes a hot, painful, gas-filled swelling — pressing on it can produce a crackling sound — along with sudden high fever."),
+            explain: L(
+              "BQ causes a hot, painful, gas-filled swelling — pressing on it can produce a crackling sound — along with sudden high fever.",
+              "BQ వల్ల వేడిగా, నొప్పితో కూడిన, గాలితో నిండిన వాపు వస్తుంది — దాన్ని నొక్కితే కరకర శబ్దం రావచ్చు — దానితో పాటు అకస్మాత్తుగా తీవ్ర జ్వరం కూడా వస్తుంది.",
+              "BQ சூடான, வலியுடன் கூடிய, வாயு நிறைந்த வீக்கத்தை உண்டாக்கும் — அதை அழுத்தினால் சரசரவென்று ஒலி வரலாம் — கூடவே திடீர் அதிக காய்ச்சலும் இருக்கும்.",
+              "BQ ಯಿಂದ ಬಿಸಿ, ನೋವಿನ, ಅನಿಲ ತುಂಬಿದ ಊತ ಉಂಟಾಗುತ್ತದೆ — ಅದನ್ನು ಒತ್ತಿದರೆ ಚಟಪಟ ಶಬ್ದ ಬರಬಹುದು — ಜೊತೆಗೆ ಒಮ್ಮೆಲೇ ತೀವ್ರ ಜ್ವರವೂ ಇರುತ್ತದೆ.",
+              "BQ में गर्म, दर्द भरी, गैस से भरी सूजन होती है — दबाने पर चट-चट की आवाज़ आ सकती है — और साथ में अचानक तेज़ बुखार भी होता है।"
+            ),
           },
           {
             type: "truefalse",
-            q: L("Brucellosis can spread to humans, mainly through raw milk or contact with birth fluids from an infected animal."),
+            q: L(
+              "Brucellosis can spread to humans, mainly through raw milk or contact with birth fluids from an infected animal.",
+              "బ్రూసెల్లోసిస్ మనుషులకు సోకవచ్చు, ముఖ్యంగా పచ్చి పాల ద్వారా లేదా జబ్బుపడిన పశువు ఈత సమయపు ద్రవాలను తాకడం ద్వారా.",
+              "புருசெல்லோசிஸ் மனிதர்களுக்குப் பரவக்கூடும், முக்கியமாக பச்சைப் பால் மூலம் அல்லது நோயுற்ற விலங்கின் ஈற்றுத் திரவங்களைத் தொடுவதன் மூலம்.",
+              "ಬ್ರೂಸೆಲ್ಲೋಸಿಸ್ ಮನುಷ್ಯರಿಗೆ ಹರಡಬಹುದು, ಮುಖ್ಯವಾಗಿ ಹಸಿ ಹಾಲಿನ ಮೂಲಕ ಅಥವಾ ರೋಗಪೀಡಿತ ಪ್ರಾಣಿಯ ಈಯುವ ಸಮಯದ ದ್ರವಗಳ ಸಂಪರ್ಕದಿಂದ.",
+              "ब्रुसेलोसिस इंसानों में फैल सकता है, मुख्यतः कच्चे दूध या संक्रमित पशु के बच्चा जनने के समय निकले तरल के संपर्क से।"
+            ),
             answer: true,
-            explain: L("Yes — Brucellosis is zoonotic. Humans can catch it from raw milk of an infected animal or from contact with uterine discharges."),
+            explain: L(
+              "Yes — Brucellosis is zoonotic. Humans can catch it from raw milk of an infected animal or from contact with uterine discharges.",
+              "అవును — బ్రూసెల్లోసిస్ జూనోటిక్. జబ్బుపడిన పశువు పచ్చి పాల నుండి లేదా గర్భాశయ స్రావాలను తాకడం ద్వారా మనుషులకు సోకవచ్చు.",
+              "ஆம் — புருசெல்லோசிஸ் விலங்கு-மனித நோய். நோயுற்ற விலங்கின் பச்சைப் பால் மூலமாகவோ கருப்பைத் திரவங்களைத் தொடுவதன் மூலமாகவோ மனிதர்களுக்குப் பரவலாம்.",
+              "ಹೌದು — ಬ್ರೂಸೆಲ್ಲೋಸಿಸ್ ಝೂನೋಟಿಕ್. ರೋಗಪೀಡಿತ ಪ್ರಾಣಿಯ ಹಸಿ ಹಾಲಿನಿಂದ ಅಥವಾ ಗರ್ಭಕೋಶದ ಸ್ರಾವಗಳ ಸಂಪರ್ಕದಿಂದ ಮನುಷ್ಯರಿಗೆ ಬರಬಹುದು.",
+              "हां — ब्रुसेलोसिस ज़ूनोटिक है। इंसान इसे संक्रमित पशु के कच्चे दूध या गर्भाशय से निकले स्राव के संपर्क से पकड़ सकते हैं।"
+            ),
           },
         ],
       },
       {
         id: "t-m4-rabies-anthrax-thei",
-        title: L("Rabies, Anthrax and Theileriosis"),
+        title: L("Rabies, Anthrax and Theileriosis", "రేబీస్, ఆంత్రాక్స్ మరియు థైలేరియోసిస్", "ரேபிஸ், ஆந்த்ராக்ஸ் மற்றும் தைலேரியோசிஸ்", "ರೇಬೀಸ್, ಆಂಥ್ರಾಕ್ಸ್ ಮತ್ತು ಥೈಲೇರಿಯೋಸಿಸ್", "रेबीज़, एंथ्रेक्स और थाइलेरियोसिस"),
         teach: [
           {
             type: "text",
-            heading: L("Rabies"),
+            heading: L("Rabies", "రేబీస్", "ரேபிஸ்", "ರೇಬೀಸ್", "रेबीज़"),
             html: L(
-              "Rabies is a highly fatal viral disease, mainly spread by the bite of a rabid dog. It is also <b>zoonotic</b> — humans can catch it from a bite too. Once symptoms appear in an animal, death is inevitable, usually within 24–48 hours."
+              "Rabies is a highly fatal viral disease, mainly spread by the bite of a rabid dog. It is also <b>zoonotic</b> — humans can catch it from a bite too. Once symptoms appear in an animal, death is inevitable, usually within 24–48 hours.",
+              "రేబీస్ అత్యంత ప్రాణాంతకమైన వైరస్ వ్యాధి, ప్రధానంగా పిచ్చి కుక్క కాటు ద్వారా వ్యాపిస్తుంది. ఇది కూడా <b>జూనోటిక్</b> — కాటు ద్వారా మనుషులకు కూడా సోకవచ్చు. పశువులో లక్షణాలు కనిపించాక మరణం తప్పదు, సాధారణంగా 24–48 గంటల్లోనే.",
+              "ரேபிஸ் மிகவும் உயிரைப் பறிக்கும் வைரஸ் நோய், முக்கியமாக வெறிநாய் கடிப்பதன் மூலம் பரவுகிறது. இதுவும் <b>விலங்கு-மனித நோய்</b> — கடியின் மூலம் மனிதர்களுக்கும் வரலாம். விலங்கில் அறிகுறிகள் தெரிந்துவிட்டால் மரணம் தவிர்க்க முடியாதது, பொதுவாக 24–48 மணி நேரத்திற்குள்.",
+              "ರೇಬೀಸ್ ಅತ್ಯಂತ ಮಾರಣಾಂತಿಕ ವೈರಸ್ ರೋಗ, ಮುಖ್ಯವಾಗಿ ಹುಚ್ಚು ನಾಯಿಯ ಕಡಿತದಿಂದ ಹರಡುತ್ತದೆ. ಇದು ಕೂಡ <b>ಝೂನೋಟಿಕ್</b> — ಕಡಿತದಿಂದ ಮನುಷ್ಯರಿಗೂ ಬರಬಹುದು. ಪ್ರಾಣಿಯಲ್ಲಿ ಲಕ್ಷಣಗಳು ಕಾಣಿಸಿಕೊಂಡ ಮೇಲೆ ಸಾವು ತಪ್ಪಿದ್ದಲ್ಲ, ಸಾಮಾನ್ಯವಾಗಿ 24–48 ಗಂಟೆಗಳಲ್ಲಿ.",
+              "रेबीज़ बेहद जानलेवा वायरस जनित बीमारी है, जो मुख्य रूप से पागल कुत्ते के काटने से फैलती है। यह भी <b>ज़ूनोटिक</b> है — इंसानों को भी काटने से हो सकती है। जानवर में लक्षण दिखने के बाद मौत निश्चित है, आमतौर पर 24–48 घंटे के भीतर।"
             ),
           },
           {
             type: "stat-grid",
             items: [
               {
-                label: L("Watch for"),
-                text: L("Unusual excitability, heavy drooling, a strange hoarse bellowing sound, and either aggression or paralysis."),
+                label: L("Watch for", "గమనించాల్సినవి", "கவனிக்க வேண்டியவை", "ಗಮನಿಸಬೇಕಾದದ್ದು", "किस पर नज़र रखें"),
+                text: L("Unusual excitability, heavy drooling, a strange hoarse bellowing sound, and either aggression or paralysis.", "అసాధారణ ఉద్రేకం, ఎక్కువగా చొంగ కారడం, వింతైన బొంగురు అరుపు, అలాగే దూకుడు లేదా పక్షవాతం.", "வழக்கத்துக்கு மாறான பரபரப்பு, அதிகமாக உமிழ்நீர் வடிதல், விசித்திரமான கரகரப்பான கத்தல், மேலும் ஆக்ரோஷம் அல்லது செயலிழப்பு (பக்கவாதம்).", "ಅಸಾಮಾನ್ಯ ಉದ್ರೇಕ, ಹೆಚ್ಚಾಗಿ ಜೊಲ್ಲು ಸುರಿಯುವುದು, ವಿಚಿತ್ರವಾದ ಗೊರಗೊರ ಕೂಗು, ಜೊತೆಗೆ ಆಕ್ರಮಣಶೀಲತೆ ಅಥವಾ ಪಾರ್ಶ್ವವಾಯು.", "असामान्य बेचैनी, बहुत ज़्यादा लार टपकना, अजीब भर्राई हुई रंभाने जैसी आवाज़, और या तो आक्रामकता या लकवा।"),
               },
               {
-                label: L("Timing"),
-                text: L("Signs can appear as early as 3 weeks, or as late as 5–6 months, after the original dog bite."),
+                label: L("Timing", "సమయం", "நேரம்", "ಸಮಯ", "समय"),
+                text: L("Signs can appear as early as 3 weeks, or as late as 5–6 months, after the original dog bite.", "కుక్క కరిచిన 3 వారాల్లోనే, లేదా 5–6 నెలల తర్వాత కూడా లక్షణాలు కనిపించవచ్చు.", "நாய் கடித்த 3 வாரங்களிலேயே, அல்லது 5–6 மாதங்களுக்குப் பிறகும் கூட அறிகுறிகள் தெரியலாம்.", "ನಾಯಿ ಕಚ್ಚಿದ 3 ವಾರಗಳಲ್ಲೇ, ಅಥವಾ 5–6 ತಿಂಗಳ ನಂತರವೂ ಲಕ್ಷಣಗಳು ಕಾಣಿಸಿಕೊಳ್ಳಬಹುದು.", "कुत्ते के काटने के 3 हफ़्ते बाद ही, या 5–6 महीने बाद भी लक्षण दिख सकते हैं।"),
               },
             ],
           },
           {
             type: "callout",
             style: "warning",
-            heading: L("If an Animal Is Bitten by a Dog"),
+            heading: L("If an Animal Is Bitten by a Dog", "పశువును కుక్క కరిస్తే", "விலங்கை நாய் கடித்தால்", "ಪ್ರಾಣಿಗೆ ನಾಯಿ ಕಚ್ಚಿದರೆ", "अगर किसी पशु को कुत्ता काट ले"),
             text: L(
-              "Wash the wound immediately under running water for 5–10 minutes, gently clean it with soap, and get the vet involved right away — post-bite vaccination may be needed. This is urgent, not something to wait on."
+              "Wash the wound immediately under running water for 5–10 minutes, gently clean it with soap, and get the vet involved right away — post-bite vaccination may be needed. This is urgent, not something to wait on.",
+              "గాయాన్ని వెంటనే పారే నీటి కింద 5–10 నిమిషాలు కడగండి, సబ్బుతో మెల్లగా శుభ్రం చేయండి, వెంటనే పశువైద్యుడిని రంగంలోకి తీసుకురండి — కాటు తర్వాత టీకా అవసరం కావచ్చు. ఇది అత్యవసరం, వాయిదా వేయకూడదు.",
+              "காயத்தை உடனே ஓடும் நீரில் 5–10 நிமிடங்கள் கழுவுங்கள், சோப்பால் மெதுவாகச் சுத்தம் செய்யுங்கள், உடனே கால்நடை மருத்துவரை ஈடுபடுத்துங்கள் — கடித்த பிறகு போடும் தடுப்பூசி தேவைப்படலாம். இது அவசரம், காத்திருக்கக் கூடாது.",
+              "ಗಾಯವನ್ನು ತಕ್ಷಣ ಹರಿಯುವ ನೀರಿನಲ್ಲಿ 5–10 ನಿಮಿಷ ತೊಳೆಯಿರಿ, ಸಾಬೂನಿನಿಂದ ಮೆಲ್ಲನೆ ಶುಚಿಗೊಳಿಸಿ, ತಕ್ಷಣ ಪಶುವೈದ್ಯರನ್ನು ಸೇರಿಸಿಕೊಳ್ಳಿ — ಕಡಿತದ ನಂತರದ ಲಸಿಕೆ ಬೇಕಾಗಬಹುದು. ಇದು ತುರ್ತು, ಕಾಯುವಂಥದ್ದಲ್ಲ.",
+              "घाव को तुरंत बहते पानी के नीचे 5–10 मिनट तक धोएं, साबुन से धीरे से साफ़ करें, और तुरंत पशु चिकित्सक को बुलाएं — काटने के बाद वाला टीका लगवाना पड़ सकता है। यह आपात स्थिति है, इंतज़ार करने वाली बात नहीं।"
             ),
           },
           {
             type: "text",
-            heading: L("Anthrax"),
+            heading: L("Anthrax", "ఆంత్రాక్స్", "ஆந்த்ராக்ஸ்", "ಆಂಥ್ರಾಕ್ಸ್", "एंथ्रेक्स"),
             html: L(
-              "Anthrax is a highly fatal bacterial disease that can affect any farm animal. Its spores can survive in soil for up to 30 years, and animals usually get infected by eating contaminated feed or fodder."
+              "Anthrax is a highly fatal bacterial disease that can affect any farm animal. Its spores can survive in soil for up to 30 years, and animals usually get infected by eating contaminated feed or fodder.",
+              "ఆంత్రాక్స్ అత్యంత ప్రాణాంతకమైన బ్యాక్టీరియా వ్యాధి, ఇది ఏ పొలం జంతువుకైనా సోకవచ్చు. దీని బీజాలు నేలలో 30 సంవత్సరాల వరకు బతికి ఉండగలవు, పశువులు సాధారణంగా కలుషితమైన మేత లేదా గడ్డి తినడం వల్ల ఈ వ్యాధి బారిన పడతాయి.",
+              "ஆந்த்ராக்ஸ் மிகவும் உயிரைப் பறிக்கும் பாக்டீரியா நோய், இது எந்தப் பண்ணை விலங்கையும் தாக்கலாம். இதன் வித்துகள் மண்ணில் 30 ஆண்டுகள் வரை உயிர்வாழக்கூடியவை, விலங்குகள் பொதுவாக மாசுபட்ட தீவனம் அல்லது புல்லை உண்பதால் தொற்றுக்கு ஆளாகின்றன.",
+              "ಆಂಥ್ರಾಕ್ಸ್ ಅತ್ಯಂತ ಮಾರಣಾಂತಿಕ ಬ್ಯಾಕ್ಟೀರಿಯಾ ರೋಗ, ಇದು ಯಾವುದೇ ಸಾಕುಪ್ರಾಣಿಗೂ ಬರಬಹುದು. ಇದರ ಬೀಜಕಗಳು ಮಣ್ಣಿನಲ್ಲಿ 30 ವರ್ಷಗಳವರೆಗೆ ಬದುಕಿರಬಲ್ಲವು, ಪ್ರಾಣಿಗಳು ಸಾಮಾನ್ಯವಾಗಿ ಕಲುಷಿತ ಮೇವು ಅಥವಾ ಹುಲ್ಲು ತಿನ್ನುವುದರಿಂದ ಸೋಂಕಿಗೆ ಒಳಗಾಗುತ್ತವೆ.",
+              "एंथ्रेक्स बेहद जानलेवा बैक्टीरिया जनित बीमारी है जो किसी भी फ़ार्म पशु को हो सकती है। इसके बीजाणु मिट्टी में 30 साल तक जीवित रह सकते हैं, और पशु आमतौर पर दूषित चारा या घास खाने से संक्रमित होते हैं।"
             ),
           },
           {
             type: "callout",
             style: "warning",
-            heading: L("Never Open the Carcass of a Suspected Anthrax Death"),
+            heading: L("Never Open the Carcass of a Suspected Anthrax Death", "ఆంత్రాక్స్ అనుమానం ఉన్న మృతదేహాన్ని ఎప్పుడూ తెరవకండి", "ஆந்த்ராக்ஸ் சந்தேகத்துக்குரிய இறந்த விலங்கின் உடலை ஒருபோதும் அறுக்காதீர்கள்", "ಆಂಥ್ರಾಕ್ಸ್ ಶಂಕೆಯ ಸತ್ತ ಪ್ರಾಣಿಯ ದೇಹವನ್ನು ಎಂದಿಗೂ ತೆರೆಯಬೇಡಿ", "एंथ्रेक्स के शक वाले मरे हुए पशु का शव कभी न चीरें"),
             text: L(
-              "Anthrax typically causes high fever, difficulty breathing, bleeding from body openings, and sudden death. If an animal dies suddenly with these signs, do not open the carcass — report it immediately and let the vet decide what to do. Humans can also get infected from contact with the carcass or by inhaling spores."
+              "Anthrax typically causes high fever, difficulty breathing, bleeding from body openings, and sudden death. If an animal dies suddenly with these signs, do not open the carcass — report it immediately and let the vet decide what to do. Humans can also get infected from contact with the carcass or by inhaling spores.",
+              "ఆంత్రాక్స్ సాధారణంగా అధిక జ్వరం, శ్వాస తీసుకోవడంలో ఇబ్బంది, శరీర రంధ్రాల నుండి రక్తస్రావం, అకస్మాత్తు మరణం కలిగిస్తుంది. ఈ లక్షణాలతో పశువు అకస్మాత్తుగా చనిపోతే, మృతదేహాన్ని తెరవకండి — వెంటనే తెలియజేయండి, ఏం చేయాలో పశువైద్యుడే నిర్ణయిస్తారు. మృతదేహాన్ని తాకడం ద్వారా లేదా బీజాలను పీల్చడం ద్వారా మనుషులకు కూడా సోకవచ్చు.",
+              "ஆந்த்ராக்ஸ் பொதுவாக அதிக காய்ச்சல், மூச்சுத் திணறல், உடலின் துவாரங்களிலிருந்து ரத்தக்கசிவு, திடீர் மரணம் ஆகியவற்றை உண்டாக்கும். இந்த அறிகுறிகளுடன் ஒரு விலங்கு திடீரென இறந்தால், உடலை அறுக்காதீர்கள் — உடனே தெரிவியுங்கள், என்ன செய்வது என்பதை கால்நடை மருத்துவர் முடிவு செய்யட்டும். இறந்த உடலைத் தொடுவதன் மூலமாகவோ வித்துகளை சுவாசிப்பதன் மூலமாகவோ மனிதர்களுக்கும் தொற்று ஏற்படலாம்.",
+              "ಆಂಥ್ರಾಕ್ಸ್ ಸಾಮಾನ್ಯವಾಗಿ ತೀವ್ರ ಜ್ವರ, ಉಸಿರಾಟದ ತೊಂದರೆ, ದೇಹದ ತೆರೆದ ಭಾಗಗಳಿಂದ ರಕ್ತಸ್ರಾವ ಮತ್ತು ಹಠಾತ್ ಸಾವನ್ನು ಉಂಟುಮಾಡುತ್ತದೆ. ಈ ಲಕ್ಷಣಗಳೊಂದಿಗೆ ಪ್ರಾಣಿ ಇದ್ದಕ್ಕಿದ್ದಂತೆ ಸತ್ತರೆ, ದೇಹವನ್ನು ತೆರೆಯಬೇಡಿ — ತಕ್ಷಣ ತಿಳಿಸಿ, ಏನು ಮಾಡಬೇಕೆಂದು ಪಶುವೈದ್ಯರೇ ನಿರ್ಧರಿಸಲಿ. ಸತ್ತ ದೇಹದ ಸಂಪರ್ಕದಿಂದ ಅಥವಾ ಬೀಜಕಗಳನ್ನು ಉಸಿರಾಡುವುದರಿಂದ ಮನುಷ್ಯರಿಗೂ ಸೋಂಕು ತಗಲಬಹುದು.",
+              "एंथ्रेक्स में आमतौर पर तेज़ बुखार, सांस लेने में कठिनाई, शरीर के छिद्रों से खून बहना और अचानक मौत होती है। अगर कोई पशु इन लक्षणों के साथ अचानक मर जाए, तो शव को न चीरें — तुरंत सूचना दें और पशु चिकित्सक को तय करने दें कि क्या करना है। इंसान भी शव के संपर्क से या बीजाणु सांस में लेने से संक्रमित हो सकते हैं।"
             ),
           },
           {
