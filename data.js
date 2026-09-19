@@ -6208,8 +6208,8 @@ export const MODULES = [
   {
     id: "m6",
     number: 6,
-    title: L("Tick, Fly & Worm-Borne Diseases and Their Control"),
-    subtitle: L("How ticks, flies and worms spread disease, and simple ways to keep them under control."),
+    title: L("Tick, Fly & Worm-Borne Diseases and Their Control", "పేలు, ఈగలు, నులిపురుగుల వల్ల వచ్చే వ్యాధులు మరియు వాటి నియంత్రణ", "உண்ணி, ஈ, புழுக்களால் பரவும் நோய்கள் மற்றும் அவற்றின் கட்டுப்பாடு", "ಉಣ್ಣಿ, ನೊಣ ಮತ್ತು ಹುಳುಗಳಿಂದ ಬರುವ ರೋಗಗಳು ಮತ್ತು ಅವುಗಳ ನಿಯಂತ್ರಣ", "किलनी, मक्खी और कृमि से फैलने वाली बीमारियाँ और उनकी रोकथाम"),
+    subtitle: L("How ticks, flies and worms spread disease, and simple ways to keep them under control.", "పేలు, ఈగలు, నులిపురుగులు వ్యాధిని ఎలా వ్యాపింపజేస్తాయో, వాటిని అదుపులో ఉంచే సులభ మార్గాలేమిటో తెలుసుకోండి.", "உண்ணி, ஈ, புழுக்கள் நோயை எப்படிப் பரப்புகின்றன, அவற்றை கட்டுக்குள் வைக்க எளிய வழிகள் என்ன என்பதை அறிந்து கொள்ளுங்கள்.", "ಉಣ್ಣಿ, ನೊಣ ಮತ್ತು ಹುಳುಗಳು ರೋಗವನ್ನು ಹೇಗೆ ಹರಡುತ್ತವೆ ಮತ್ತು ಅವುಗಳನ್ನು ಹತೋಟಿಯಲ್ಲಿಡಲು ಸರಳ ಮಾರ್ಗಗಳೇನು ಎಂದು ತಿಳಿಯಿರಿ.", "किलनी, मक्खी और कृमि बीमारी कैसे फैलाते हैं और उन्हें काबू में रखने के आसान तरीके क्या हैं।"),
     icon: "bug",
     available: true,
     lessons: [
@@ -6218,73 +6218,97 @@ export const MODULES = [
   // ==================================================================
   {
     id: "m6-l1",
-    title: L("Tick-Borne Diseases: Anaplasmosis and Babesiosis"),
+    title: L("Tick-Borne Diseases: Anaplasmosis and Babesiosis", "పేల ద్వారా వచ్చే వ్యాధులు: అనాప్లాస్మోసిస్ మరియు బేబీసియోసిస్", "உண்ணியால் பரவும் நோய்கள்: அனாபிளாஸ்மோசிஸ் மற்றும் பேபிசியோசிஸ்", "ಉಣ್ಣಿಯಿಂದ ಬರುವ ರೋಗಗಳು: ಅನಾಪ್ಲಾಸ್ಮೋಸಿಸ್ ಮತ್ತು ಬೇಬಿಸಿಯೋಸಿಸ್", "किलनी से फैलने वाली बीमारियाँ: एनाप्लाज़्मोसिस और बेबेसियोसिस"),
     estMinutes: 8,
     hook: [
       {
         type: "hero",
-        heading: L("A Tiny Bite Can Cause a Big Problem"),
+        heading: L("A Tiny Bite Can Cause a Big Problem", "చిన్న కాటు పెద్ద సమస్యను తెచ్చిపెట్టవచ్చు", "ஒரு சிறிய கடி பெரிய பிரச்சனையை உண்டாக்கும்", "ಸಣ್ಣ ಕಡಿತ ದೊಡ್ಡ ಸಮಸ್ಯೆ ತರಬಹುದು", "एक छोटा-सा काटना बड़ी परेशानी बन सकता है"),
         text: L(
-          "Ticks don't just annoy an animal and drink its blood — some of them also inject tiny germs into the blood while feeding. Two of the most important tick-spread blood diseases are Anaplasmosis and Babesiosis. Both are curable if caught early — which is exactly why noticing the signs quickly matters so much."
+          "Ticks don't just annoy an animal and drink its blood — some of them also inject tiny germs into the blood while feeding. Two of the most important tick-spread blood diseases are Anaplasmosis and Babesiosis. Both are curable if caught early — which is exactly why noticing the signs quickly matters so much.",
+          "పేలు జంతువును ఇబ్బంది పెట్టి రక్తం తాగడమే కాదు — కొన్ని పేలు రక్తం తాగేటప్పుడు సూక్ష్మ క్రిములను రక్తంలోకి ఎక్కిస్తాయి. పేల ద్వారా వ్యాపించే రక్త వ్యాధుల్లో రెండు ముఖ్యమైనవి అనాప్లాస్మోసిస్ మరియు బేబీసియోసిస్. రెండింటినీ ముందుగానే గుర్తిస్తే నయం చేయవచ్చు — అందుకే లక్షణాలను త్వరగా గమనించడం ఎంతో ముఖ్యం.",
+          "உண்ணிகள் விலங்கை தொந்தரவு செய்து இரத்தம் குடிப்பதோடு நிற்பதில்லை — சில உண்ணிகள் இரத்தம் குடிக்கும்போது நுண்ணிய கிருமிகளையும் இரத்தத்தில் செலுத்துகின்றன. உண்ணியால் பரவும் இரத்த நோய்களில் மிக முக்கியமான இரண்டு அனாபிளாஸ்மோசிஸ் மற்றும் பேபிசியோசிஸ். இரண்டையும் ஆரம்பத்திலேயே கண்டுபிடித்தால் குணப்படுத்தலாம் — அதனால்தான் அறிகுறிகளை விரைவாக கவனிப்பது மிகவும் முக்கியம்.",
+          "ಉಣ್ಣಿಗಳು ಪ್ರಾಣಿಗೆ ತೊಂದರೆ ಕೊಟ್ಟು ರಕ್ತ ಕುಡಿಯುವುದು ಮಾತ್ರವಲ್ಲ — ಕೆಲವು ಉಣ್ಣಿಗಳು ರಕ್ತ ಕುಡಿಯುವಾಗ ಸೂಕ್ಷ್ಮ ರೋಗಾಣುಗಳನ್ನು ರಕ್ತಕ್ಕೆ ಚುಚ್ಚುತ್ತವೆ. ಉಣ್ಣಿಯಿಂದ ಹರಡುವ ರಕ್ತದ ರೋಗಗಳಲ್ಲಿ ಎರಡು ಮುಖ್ಯವಾದವು ಅನಾಪ್ಲಾಸ್ಮೋಸಿಸ್ ಮತ್ತು ಬೇಬಿಸಿಯೋಸಿಸ್. ಎರಡನ್ನೂ ಬೇಗ ಪತ್ತೆ ಹಚ್ಚಿದರೆ ಗುಣಪಡಿಸಬಹುದು — ಅದಕ್ಕಾಗಿಯೇ ಲಕ್ಷಣಗಳನ್ನು ಬೇಗ ಗಮನಿಸುವುದು ತುಂಬಾ ಮುಖ್ಯ.",
+          "किलनी सिर्फ़ पशु को परेशान करके उसका खून ही नहीं पीती — कुछ किलनियाँ खून पीते समय बहुत छोटे कीटाणु भी खून में छोड़ देती हैं। किलनी से फैलने वाली खून की दो सबसे अहम बीमारियाँ हैं एनाप्लाज़्मोसिस और बेबेसियोसिस। दोनों का इलाज हो सकता है अगर जल्दी पकड़ में आ जाएँ — इसीलिए लक्षणों को जल्दी पहचानना बहुत ज़रूरी है।"
         ),
       },
     ],
     topics: [
       {
         id: "t-m6-anaplasmosis",
-        title: L("Anaplasmosis: Signs and Spread"),
+        title: L("Anaplasmosis: Signs and Spread", "అనాప్లాస్మోసిస్: లక్షణాలు మరియు వ్యాప్తి", "அனாபிளாஸ்மோசிஸ்: அறிகுறிகள் மற்றும் பரவல்", "ಅನಾಪ್ಲಾಸ್ಮೋಸಿಸ್: ಲಕ್ಷಣಗಳು ಮತ್ತು ಹರಡುವಿಕೆ", "एनाप्लाज़्मोसिस: लक्षण और फैलाव"),
         teach: [
             {
               type: "photo",
               src: "assets/illustration-m6-tick-disease-cycle.png",
-              alt: L("Illustrated four-step cycle diagram showing how a tick picks up germs from a sick animal, bites a healthy cow, and spreads the disease."),
-              caption: L("Illustration: how ticks spread disease from a sick animal to a healthy one."),
+              alt: L("Illustrated four-step cycle diagram showing how a tick picks up germs from a sick animal, bites a healthy cow, and spreads the disease.", "పేను ఒక జబ్బుపడిన జంతువు నుండి క్రిములను ఎలా తీసుకుని, ఆరోగ్యంగా ఉన్న ఆవును కరిచి వ్యాధిని ఎలా వ్యాపింపజేస్తుందో చూపించే నాలుగు దశల చిత్రం.", "உண்ணி நோயுற்ற விலங்கிடமிருந்து கிருமிகளை எடுத்து, ஆரோக்கியமான பசுவைக் கடித்து நோயைப் பரப்புவதை நான்கு படிகளில் காட்டும் படம்.", "ಉಣ್ಣಿ ರೋಗಪೀಡಿತ ಪ್ರಾಣಿಯಿಂದ ರೋಗಾಣುಗಳನ್ನು ಪಡೆದು, ಆರೋಗ್ಯವಂತ ಹಸುವನ್ನು ಕಚ್ಚಿ ರೋಗ ಹರಡುವುದನ್ನು ನಾಲ್ಕು ಹಂತಗಳಲ್ಲಿ ತೋರಿಸುವ ಚಿತ್ರ.", "किलनी बीमार पशु से कीटाणु लेकर स्वस्थ गाय को काटती है और बीमारी फैलाती है, इसे चार चरणों में दिखाने वाला चित्र।"),
+              caption: L("Illustration: how ticks spread disease from a sick animal to a healthy one.", "చిత్రం: పేలు జబ్బుపడిన జంతువు నుండి ఆరోగ్యంగా ఉన్న జంతువుకు వ్యాధిని ఎలా వ్యాపింపజేస్తాయి.", "படம்: உண்ணிகள் நோயுற்ற விலங்கிடமிருந்து ஆரோக்கியமான விலங்குக்கு நோயை எப்படிப் பரப்புகின்றன.", "ಚಿತ್ರ: ಉಣ್ಣಿಗಳು ರೋಗಪೀಡಿತ ಪ್ರಾಣಿಯಿಂದ ಆರೋಗ್ಯವಂತ ಪ್ರಾಣಿಗೆ ರೋಗ ಹರಡುವ ರೀತಿ.", "चित्र: किलनी बीमार पशु से स्वस्थ पशु तक बीमारी कैसे फैलाती है।"),
             },
             {
               type: "photo",
               src: "assets/photo-m6-tick-specimen.jpg",
-              alt: L("Close-up photograph of two cattle ticks, female (left, engorged reddish-brown) and male (right, smaller and darker), on a plain background"),
-              caption: L("A cattle tick (Rhipicephalus microplus) — a bite from a tick like this is how the germs behind Anaplasmosis and Babesiosis get into an animal's blood."),
+              alt: L("Close-up photograph of two cattle ticks, female (left, engorged reddish-brown) and male (right, smaller and darker), on a plain background", "సాదా నేపథ్యంలో రెండు పశువుల పేల క్లోజ్-అప్ ఫోటో: ఆడ పేను (ఎడమ, రక్తం తాగి ఎర్రటి గోధుమ రంగులో ఉబ్బినది) మరియు మగ పేను (కుడి, చిన్నది, ముదురు రంగులో).", "வெற்று பின்னணியில் இரண்டு மாட்டு உண்ணிகளின் நெருக்கமான புகைப்படம்: பெண் உண்ணி (இடது, இரத்தம் குடித்து சிவப்பு-பழுப்பு நிறத்தில் பருத்தது) மற்றும் ஆண் உண்ணி (வலது, சிறியது, அடர்ந்த நிறம்).", "ಸರಳ ಹಿನ್ನೆಲೆಯಲ್ಲಿ ಎರಡು ಜಾನುವಾರು ಉಣ್ಣಿಗಳ ಹತ್ತಿರದ ಫೋಟೋ: ಹೆಣ್ಣು ಉಣ್ಣಿ (ಎಡ, ರಕ್ತ ಕುಡಿದು ಕೆಂಪು-ಕಂದು ಬಣ್ಣದಲ್ಲಿ ಊದಿಕೊಂಡಿದೆ) ಮತ್ತು ಗಂಡು ಉಣ್ಣಿ (ಬಲ, ಚಿಕ್ಕದು, ಗಾಢ ಬಣ್ಣ).", "सादे बैकग्राउंड पर दो मवेशी किलनियों की नज़दीकी तस्वीर: मादा (बाएँ, खून पीकर फूली हुई लाल-भूरी) और नर (दाएँ, छोटा और गहरे रंग का)।"),
+              caption: L("A cattle tick (Rhipicephalus microplus) — a bite from a tick like this is how the germs behind Anaplasmosis and Babesiosis get into an animal's blood.", "ఒక పశువుల పేను (రైపిసెఫలస్ మైక్రోప్లస్) — ఇలాంటి పేను కాటు ద్వారానే అనాప్లాస్మోసిస్, బేబీసియోసిస్ క్రిములు జంతువు రక్తంలోకి చేరతాయి.", "ஒரு மாட்டு உண்ணி (ரைப்பிசெபாலஸ் மைக்ரோப்ளஸ்) — இது போன்ற உண்ணியின் கடி மூலமாகவே அனாபிளாஸ்மோசிஸ் மற்றும் பேபிசியோசிஸ் கிருமிகள் விலங்கின் இரத்தத்தில் நுழைகின்றன.", "ಒಂದು ಜಾನುವಾರು ಉಣ್ಣಿ (ರಿಪಿಸೆಫಲಸ್ ಮೈಕ್ರೋಪ್ಲಸ್) — ಇಂತಹ ಉಣ್ಣಿಯ ಕಡಿತದಿಂದಲೇ ಅನಾಪ್ಲಾಸ್ಮೋಸಿಸ್ ಮತ್ತು ಬೇಬಿಸಿಯೋಸಿಸ್ ರೋಗಾಣುಗಳು ಪ್ರಾಣಿಯ ರಕ್ತಕ್ಕೆ ಸೇರುತ್ತವೆ.", "एक मवेशी किलनी (राइपिसेफेलस माइक्रोप्लस) — ऐसी किलनी के काटने से ही एनाप्लाज़्मोसिस और बेबेसियोसिस के कीटाणु पशु के खून में पहुँचते हैं।"),
             },
           {
             type: "text",
-            heading: L("What Anaplasmosis Is"),
+            heading: L("What Anaplasmosis Is", "అనాప్లాస్మోసిస్ అంటే ఏమిటి", "அனாபிளாஸ்மோசிஸ் என்றால் என்ன", "ಅನಾಪ್ಲಾಸ್ಮೋಸಿಸ್ ಎಂದರೇನು", "एनाप्लाज़्मोसिस क्या है"),
             html: L(
-              "Anaplasmosis is caused by a very small germ called <b>rickettsia</b> — a type of germ even smaller than ordinary bacteria, which lives and multiplies inside the animal's own blood cells. It spreads mainly through tick bites, but it can also spread through blood-contaminated needles or gloves used during artificial insemination (AI) if they are reused on different animals without being properly cleaned."
+              "Anaplasmosis is caused by a very small germ called <b>rickettsia</b> — a type of germ even smaller than ordinary bacteria, which lives and multiplies inside the animal's own blood cells. It spreads mainly through tick bites, but it can also spread through blood-contaminated needles or gloves used during artificial insemination (AI) if they are reused on different animals without being properly cleaned.",
+              "అనాప్లాస్మోసిస్ <b>రికెట్సియా</b> అనే చాలా చిన్న క్రిమి వల్ల వస్తుంది — ఇది మామూలు బ్యాక్టీరియా కంటే కూడా చిన్నది, జంతువు రక్త కణాల లోపలే నివసిస్తూ, పెరుగుతుంది. ఇది ముఖ్యంగా పేల కాటు ద్వారా వ్యాపిస్తుంది, అయితే కృత్రిమ గర్భధారణ (AI) సమయంలో వాడే సూదులు లేదా గ్లోవ్స్‌కు రక్తం అంటి, వాటిని శుభ్రం చేయకుండా వేర్వేరు జంతువులకు మళ్లీ వాడితే వాటి ద్వారా కూడా వ్యాపించవచ్చు.",
+              "அனாபிளாஸ்மோசிஸ் <b>ரிக்கெட்சியா</b> என்ற மிகச் சிறிய கிருமியால் வருகிறது — இது சாதாரண பாக்டீரியாவை விடவும் சிறியது, விலங்கின் இரத்த செல்களுக்குள்ளேயே வாழ்ந்து பெருகுகிறது. இது பெரும்பாலும் உண்ணிக் கடியால் பரவுகிறது; மேலும் செயற்கை கருவூட்டலின் (AI) போது பயன்படுத்தும் ஊசிகள் அல்லது கையுறைகளில் இரத்தம் பட்டு, சரியாக சுத்தம் செய்யாமல் வெவ்வேறு விலங்குகளுக்கு மீண்டும் பயன்படுத்தினால் அவற்றின் மூலமும் பரவலாம்.",
+              "ಅನಾಪ್ಲಾಸ್ಮೋಸಿಸ್ <b>ರಿಕೆಟ್ಸಿಯಾ</b> ಎಂಬ ಬಹಳ ಸಣ್ಣ ರೋಗಾಣುವಿನಿಂದ ಬರುತ್ತದೆ — ಇದು ಸಾಮಾನ್ಯ ಬ್ಯಾಕ್ಟೀರಿಯಾಕ್ಕಿಂತಲೂ ಚಿಕ್ಕದು, ಪ್ರಾಣಿಯ ರಕ್ತಕಣಗಳ ಒಳಗೇ ವಾಸಿಸಿ ಹೆಚ್ಚುತ್ತದೆ. ಇದು ಮುಖ್ಯವಾಗಿ ಉಣ್ಣಿ ಕಡಿತದಿಂದ ಹರಡುತ್ತದೆ; ಜೊತೆಗೆ ಕೃತಕ ಗರ್ಭಧಾರಣೆ (AI) ವೇಳೆ ಬಳಸುವ ಸೂಜಿ ಅಥವಾ ಕೈಗವಸುಗಳಿಗೆ ರಕ್ತ ಅಂಟಿ, ಸರಿಯಾಗಿ ಶುಚಿ ಮಾಡದೆ ಬೇರೆ ಬೇರೆ ಪ್ರಾಣಿಗಳಿಗೆ ಮತ್ತೆ ಬಳಸಿದರೆ ಅವುಗಳಿಂದಲೂ ಹರಡಬಹುದು.",
+              "एनाप्लाज़्मोसिस <b>रिकेट्सिया</b> नाम के बहुत छोटे कीटाणु से होता है — यह आम बैक्टीरिया से भी छोटा होता है और पशु की खून की कोशिकाओं के अंदर ही रहकर बढ़ता है। यह मुख्य रूप से किलनी के काटने से फैलता है, लेकिन कृत्रिम गर्भाधान (AI) में इस्तेमाल होने वाली सुइयों या दस्तानों पर खून लगा हो और उन्हें बिना ठीक से साफ़ किए अलग-अलग पशुओं पर दोबारा इस्तेमाल किया जाए, तो उनसे भी फैल सकता है।"
             ),
           },
           {
             type: "glossary",
-            term: L("Rickettsia"),
+            term: L("Rickettsia", "రికెట్సియా", "ரிக்கெட்சியா", "ರಿಕೆಟ್ಸಿಯಾ", "रिकेट्सिया"),
             meaning: L(
-              "A very small type of germ, smaller than ordinary bacteria, that lives and multiplies inside an animal's blood cells. It is what causes Anaplasmosis."
+              "A very small type of germ, smaller than ordinary bacteria, that lives and multiplies inside an animal's blood cells. It is what causes Anaplasmosis.",
+              "మామూలు బ్యాక్టీరియా కంటే చిన్నదైన చాలా సూక్ష్మ క్రిమి, ఇది జంతువు రక్త కణాల లోపల నివసిస్తూ పెరుగుతుంది. అనాప్లాస్మోసిస్‌కు ఇదే కారణం.",
+              "சாதாரண பாக்டீரியாவை விடச் சிறிய மிக நுண்ணிய கிருமி; இது விலங்கின் இரத்த செல்களுக்குள் வாழ்ந்து பெருகுகிறது. அனாபிளாஸ்மோசிஸுக்கு இதுவே காரணம்.",
+              "ಸಾಮಾನ್ಯ ಬ್ಯಾಕ್ಟೀರಿಯಾಕ್ಕಿಂತ ಚಿಕ್ಕದಾದ ಬಹಳ ಸೂಕ್ಷ್ಮ ರೋಗಾಣು; ಇದು ಪ್ರಾಣಿಯ ರಕ್ತಕಣಗಳ ಒಳಗೆ ವಾಸಿಸಿ ಹೆಚ್ಚುತ್ತದೆ. ಅನಾಪ್ಲಾಸ್ಮೋಸಿಸ್‌ಗೆ ಇದೇ ಕಾರಣ.",
+              "आम बैक्टीरिया से भी छोटा बहुत सूक्ष्म कीटाणु, जो पशु के खून की कोशिकाओं के अंदर रहकर बढ़ता है। एनाप्लाज़्मोसिस इसी से होता है।"
             ),
           },
           {
             type: "glossary",
-            term: L("Carrier Animal"),
+            term: L("Carrier Animal", "వాహక జంతువు (క్యారియర్)", "நோய்க் கடத்தி விலங்கு (கேரியர்)", "ರೋಗ ವಾಹಕ ಪ್ರಾಣಿ (ಕ್ಯಾರಿಯರ್)", "वाहक पशु (कैरियर)"),
             meaning: L(
-              "An animal that has been infected in the past and still quietly carries the germ inside it, even without looking sick. In areas where a disease is common, carrier animals act as a hidden source that can pass the infection on to others through ticks. Even an animal that recovered can sometimes fall sick again later in life."
+              "An animal that has been infected in the past and still quietly carries the germ inside it, even without looking sick. In areas where a disease is common, carrier animals act as a hidden source that can pass the infection on to others through ticks. Even an animal that recovered can sometimes fall sick again later in life.",
+              "గతంలో ఇన్ఫెక్షన్ వచ్చి, పైకి అనారోగ్యంగా కనిపించకపోయినా క్రిమిని లోపల నిశ్శబ్దంగా మోసుకుంటూ ఉండే జంతువు. వ్యాధి ఎక్కువగా ఉండే ప్రాంతాల్లో, ఇలాంటి వాహక జంతువులు పేల ద్వారా ఇతర జంతువులకు ఇన్ఫెక్షన్ అంటించే దాగిన మూలంగా పనిచేస్తాయి. కోలుకున్న జంతువు కూడా కొన్నిసార్లు జీవితంలో తర్వాత మళ్లీ జబ్బుపడవచ్చు.",
+              "முன்பு தொற்று ஏற்பட்டு, வெளியே நோயாகத் தெரியாவிட்டாலும் கிருமியை உள்ளே அமைதியாக சுமந்து கொண்டிருக்கும் விலங்கு. நோய் அதிகமாக உள்ள பகுதிகளில், இத்தகைய கடத்தி விலங்குகள் உண்ணிகள் மூலம் மற்றவைக்குத் தொற்றைப் பரப்பும் மறைமுக மூலமாக இருக்கின்றன. குணமான விலங்கு கூட சில நேரம் பிற்காலத்தில் மீண்டும் நோய்வாய்ப்படலாம்.",
+              "ಈ ಹಿಂದೆ ಸೋಂಕು ತಗುಲಿ, ಹೊರಗೆ ಅನಾರೋಗ್ಯದಂತೆ ಕಾಣದಿದ್ದರೂ ರೋಗಾಣುವನ್ನು ಒಳಗೆ ಮೌನವಾಗಿ ಹೊತ್ತಿರುವ ಪ್ರಾಣಿ. ರೋಗ ಹೆಚ್ಚಾಗಿರುವ ಪ್ರದೇಶಗಳಲ್ಲಿ, ಇಂತಹ ವಾಹಕ ಪ್ರಾಣಿಗಳು ಉಣ್ಣಿಗಳ ಮೂಲಕ ಇತರರಿಗೆ ಸೋಂಕು ಹರಡುವ ಗುಪ್ತ ಮೂಲವಾಗಿರುತ್ತವೆ. ಗುಣವಾದ ಪ್ರಾಣಿಯೂ ಕೆಲವೊಮ್ಮೆ ಮುಂದೆ ಜೀವನದಲ್ಲಿ ಮತ್ತೆ ಅನಾರೋಗ್ಯಕ್ಕೆ ಒಳಗಾಗಬಹುದು.",
+              "जिस पशु को पहले संक्रमण हो चुका हो और जो बीमार न दिखने पर भी कीटाणु को चुपचाप अपने अंदर रखता हो। जिन इलाकों में बीमारी आम होती है, वहाँ ऐसे वाहक पशु छिपे हुए स्रोत की तरह काम करते हैं और किलनी के ज़रिए दूसरों तक संक्रमण पहुँचा सकते हैं। ठीक हो चुका पशु भी कभी-कभी आगे चलकर दोबारा बीमार पड़ सकता है।"
             ),
           },
           {
             type: "text",
-            heading: L("Who Is More at Risk"),
+            heading: L("Who Is More at Risk", "ఎవరికి ఎక్కువ ప్రమాదం", "யாருக்கு அதிக ஆபத்து", "ಯಾರಿಗೆ ಹೆಚ್ಚು ಅಪಾಯ", "किसे ज़्यादा ख़तरा है"),
             html: L(
-              "Calves are naturally more resistant to Anaplasmosis than older cattle — meaning grown animals are more likely to get seriously sick from it than young calves. An animal that was infected as a calf can become a quiet carrier and may relapse (fall sick again) once it is an adult."
+              "Calves are naturally more resistant to Anaplasmosis than older cattle — meaning grown animals are more likely to get seriously sick from it than young calves. An animal that was infected as a calf can become a quiet carrier and may relapse (fall sick again) once it is an adult.",
+              "అనాప్లాస్మోసిస్‌ను ఎదిరించే శక్తి దూడలకు సహజంగానే ఎక్కువ — అంటే పెద్ద పశువులు చిన్న దూడల కంటే తీవ్రంగా జబ్బుపడే అవకాశం ఎక్కువ. దూడగా ఉన్నప్పుడు ఇన్ఫెక్షన్ వచ్చిన జంతువు నిశ్శబ్ద వాహకంగా మారి, పెద్దయ్యాక మళ్లీ జబ్బుపడవచ్చు (రిలాప్స్).",
+              "அனாபிளாஸ்மோசிஸை எதிர்க்கும் சக்தி கன்றுகளுக்கு இயல்பாகவே அதிகம் — அதாவது வளர்ந்த மாடுகள் சிறு கன்றுகளை விட கடுமையாக நோய்வாய்ப்பட வாய்ப்பு அதிகம். கன்றாக இருக்கும்போது தொற்று ஏற்பட்ட விலங்கு அமைதியான கடத்தியாக மாறி, வளர்ந்த பிறகு மீண்டும் நோய்வாய்ப்படலாம் (மறுபடி வருதல்).",
+              "ಅನಾಪ್ಲಾಸ್ಮೋಸಿಸ್ ವಿರುದ್ಧ ಹೋರಾಡುವ ಶಕ್ತಿ ಕರುಗಳಿಗೆ ಸಹಜವಾಗಿಯೇ ಹೆಚ್ಚು — ಅಂದರೆ ದೊಡ್ಡ ದನಗಳು ಸಣ್ಣ ಕರುಗಳಿಗಿಂತ ತೀವ್ರವಾಗಿ ಅನಾರೋಗ್ಯಕ್ಕೆ ಒಳಗಾಗುವ ಸಾಧ್ಯತೆ ಹೆಚ್ಚು. ಕರುವಾಗಿದ್ದಾಗ ಸೋಂಕು ತಗುಲಿದ ಪ್ರಾಣಿ ಮೌನ ವಾಹಕವಾಗಿ, ದೊಡ್ಡದಾದ ಮೇಲೆ ಮತ್ತೆ ಅನಾರೋಗ್ಯಕ್ಕೆ ಒಳಗಾಗಬಹುದು (ಮರುಕಳಿಸುವುದು).",
+              "एनाप्लाज़्मोसिस से लड़ने की ताकत बछड़ों में स्वाभाविक रूप से ज़्यादा होती है — यानी बड़े मवेशी छोटे बछड़ों की तुलना में ज़्यादा गंभीर रूप से बीमार पड़ते हैं। बछड़ेपन में संक्रमित हुआ पशु चुपचाप वाहक बन सकता है और बड़ा होने पर दोबारा बीमार (रिलैप्स) हो सकता है।"
             ),
           },
           {
             type: "stat-grid",
             items: [
               {
-                label: L("Early signs"),
-                text: L("Fever, a fall in milk production, progressively worsening anaemia (thin, watery blood), yellowing of the body (jaundice), and abortion in pregnant animals."),
+                label: L("Early signs", "మొదటి లక్షణాలు", "ஆரம்ப அறிகுறிகள்", "ಆರಂಭಿಕ ಲಕ್ಷಣಗಳು", "शुरुआती लक्षण"),
+                text: L("Fever, a fall in milk production, progressively worsening anaemia (thin, watery blood), yellowing of the body (jaundice), and abortion in pregnant animals.", "జ్వరం, పాల ఉత్పత్తి తగ్గడం, క్రమంగా పెరిగే రక్తహీనత (రక్తం పలుచగా, నీళ్లలా మారడం), శరీరం పసుపు రంగులోకి మారడం (కామెర్లు), చూలు జంతువుల్లో గర్భస్రావం.", "காய்ச்சல், பால் உற்பத்தி குறைவு, படிப்படியாக அதிகரிக்கும் இரத்தசோகை (இரத்தம் நீர்த்துப் போதல்), உடல் மஞ்சளாதல் (மஞ்சள் காமாலை), சினை விலங்குகளில் கருச்சிதைவு.", "ಜ್ವರ, ಹಾಲಿನ ಉತ್ಪಾದನೆ ಕಡಿಮೆಯಾಗುವುದು, ಕ್ರಮೇಣ ಹೆಚ್ಚುವ ರಕ್ತಹೀನತೆ (ರಕ್ತ ತೆಳುವಾಗಿ ನೀರಿನಂತಾಗುವುದು), ದೇಹ ಹಳದಿಯಾಗುವುದು (ಕಾಮಾಲೆ), ಗಬ್ಬದ ಪ್ರಾಣಿಗಳಲ್ಲಿ ಗರ್ಭಪಾತ.", "बुखार, दूध उत्पादन में गिरावट, धीरे-धीरे बढ़ती खून की कमी (खून पतला और पानी जैसा हो जाना), शरीर का पीला पड़ना (पीलिया), और गाभिन पशुओं में गर्भपात।"),
               },
               {
-                label: L("Later signs (more serious)"),
+                label: L("Later signs (more serious)", "తర్వాతి లక్షణాలు (మరింత తీవ్రం)", "பிந்தைய அறிகுறிகள் (மிகத் தீவிரம்)", "ನಂತರದ ಲಕ್ಷಣಗಳು (ಹೆಚ್ಚು ಗಂಭೀರ)", "बाद के लक्षण (ज़्यादा गंभीर)"),
                 text: L(
-                  "Going off feed (inappetence), unsteady or uncoordinated movement, breathlessness after any exertion, and a fast, pounding pulse. In later stages, the animal may die."
+                  "Going off feed (inappetence), unsteady or uncoordinated movement, breathlessness after any exertion, and a fast, pounding pulse. In later stages, the animal may die.",
+                  "మేత తినడం మానేయడం (ఆకలి లేకపోవడం), తడబడుతూ లేదా సమన్వయం లేకుండా నడవడం, కొంచెం శ్రమకే ఆయాసం రావడం, వేగంగా, బలంగా కొట్టుకునే నాడి. చివరి దశల్లో జంతువు చనిపోవచ్చు.",
+                  "தீவனம் சாப்பிடாமல் இருத்தல் (பசியின்மை), தள்ளாடி அல்லது ஒருங்கிணைப்பின்றி நடத்தல், சிறிது உழைப்புக்கே மூச்சுத் திணறல், வேகமான, படபடக்கும் நாடித்துடிப்பு. பிந்தைய நிலைகளில் விலங்கு இறக்கவும் கூடும்.",
+                  "ಮೇವು ತಿನ್ನದಿರುವುದು (ಹಸಿವಿಲ್ಲದಿರುವುದು), ತೊಳಲಾಡುತ್ತಾ ಅಥವಾ ಸಮನ್ವಯವಿಲ್ಲದೆ ನಡೆಯುವುದು, ಸ್ವಲ್ಪ ಶ್ರಮಕ್ಕೇ ಉಸಿರಾಟದ ತೊಂದರೆ, ವೇಗವಾದ, ಬಡಿದುಕೊಳ್ಳುವ ನಾಡಿ. ನಂತರದ ಹಂತಗಳಲ್ಲಿ ಪ್ರಾಣಿ ಸಾಯಬಹುದು.",
+                  "चारा खाना छोड़ देना (भूख न लगना), लड़खड़ाकर या बेतरतीब चलना, ज़रा-सी मेहनत पर हाँफना, और तेज़, धड़कती नब्ज़। बाद की अवस्था में पशु की मौत भी हो सकती है।"
                 ),
               },
             ],
@@ -6292,109 +6316,137 @@ export const MODULES = [
           {
             type: "callout",
             style: "tip",
-            heading: L("Curable — If You Report It Early"),
+            heading: L("Curable — If You Report It Early", "త్వరగా చెబితే నయం చేయవచ్చు", "ஆரம்பத்திலேயே தெரிவித்தால் குணப்படுத்தலாம்", "ಬೇಗ ತಿಳಿಸಿದರೆ ಗುಣಪಡಿಸಬಹುದು", "जल्दी बताएँ तो इलाज संभव है"),
             text: L(
-              "Anaplasmosis is curable if treated promptly in its early stages. This is exactly why your job matters: the sooner fever, falling milk, weakness or yellowing skin is reported, the sooner treatment can start, and the better the animal's chances."
+              "Anaplasmosis is curable if treated promptly in its early stages. This is exactly why your job matters: the sooner fever, falling milk, weakness or yellowing skin is reported, the sooner treatment can start, and the better the animal's chances.",
+              "ప్రారంభ దశలోనే వెంటనే చికిత్స చేస్తే అనాప్లాస్మోసిస్ నయమవుతుంది. అందుకే మీ పని చాలా ముఖ్యం: జ్వరం, పాలు తగ్గడం, నీరసం లేదా చర్మం పసుపు రంగులోకి మారడం ఎంత త్వరగా చెబితే, చికిత్స అంత త్వరగా మొదలవుతుంది, జంతువు బతికే అవకాశం అంత పెరుగుతుంది.",
+              "ஆரம்ப நிலையிலேயே உடனடியாக சிகிச்சை அளித்தால் அனாபிளாஸ்மோசிஸ் குணமாகும். அதனால்தான் உங்கள் பணி முக்கியம்: காய்ச்சல், பால் குறைவு, பலவீனம் அல்லது தோல் மஞ்சளாதல் ஆகியவற்றை எவ்வளவு சீக்கிரம் தெரிவிக்கிறீர்களோ, அவ்வளவு சீக்கிரம் சிகிச்சை தொடங்கும், விலங்கு பிழைக்கும் வாய்ப்பும் அதிகரிக்கும்.",
+              "ಆರಂಭದ ಹಂತದಲ್ಲೇ ತಕ್ಷಣ ಚಿಕಿತ್ಸೆ ನೀಡಿದರೆ ಅನಾಪ್ಲಾಸ್ಮೋಸಿಸ್ ಗುಣವಾಗುತ್ತದೆ. ಅದಕ್ಕಾಗಿಯೇ ನಿಮ್ಮ ಕೆಲಸ ಮುಖ್ಯ: ಜ್ವರ, ಹಾಲು ಕಡಿಮೆಯಾಗುವುದು, ದೌರ್ಬಲ್ಯ ಅಥವಾ ಚರ್ಮ ಹಳದಿಯಾಗುವುದನ್ನು ಎಷ್ಟು ಬೇಗ ತಿಳಿಸುತ್ತೀರೋ, ಅಷ್ಟು ಬೇಗ ಚಿಕಿತ್ಸೆ ಆರಂಭವಾಗುತ್ತದೆ ಮತ್ತು ಪ್ರಾಣಿ ಬದುಕುಳಿಯುವ ಸಾಧ್ಯತೆ ಹೆಚ್ಚುತ್ತದೆ.",
+              "शुरुआती अवस्था में तुरंत इलाज मिल जाए तो एनाप्लाज़्मोसिस ठीक हो सकता है। इसीलिए आपका काम अहम है: बुखार, दूध घटना, कमज़ोरी या त्वचा पीली पड़ना जितनी जल्दी बताया जाएगा, इलाज उतनी जल्दी शुरू होगा और पशु के बचने की संभावना उतनी बढ़ेगी।"
             ),
           },
         ],
         check: [
           {
             type: "mcq",
-            q: L("What is rickettsia, the germ that causes Anaplasmosis?"),
+            q: L("What is rickettsia, the germ that causes Anaplasmosis?", "అనాప్లాస్మోసిస్‌కు కారణమైన రికెట్సియా అంటే ఏమిటి?", "அனாபிளாஸ்மோசிஸை உண்டாக்கும் ரிக்கெட்சியா என்றால் என்ன?", "ಅನಾಪ್ಲಾಸ್ಮೋಸಿಸ್‌ಗೆ ಕಾರಣವಾದ ರಿಕೆಟ್ಸಿಯಾ ಎಂದರೇನು?", "एनाप्लाज़्मोसिस का कारण रिकेट्सिया क्या है?"),
             options: [
-              L("A type of worm found in the gut"),
-              L("A very small germ, smaller than ordinary bacteria, that lives inside blood cells"),
-              L("A chemical used to spray sheds"),
-              L("A kind of tick"),
+              L("A type of worm found in the gut", "పేగుల్లో ఉండే ఒక రకం పురుగు", "குடலில் இருக்கும் ஒரு வகைப் புழு", "ಕರುಳಿನಲ್ಲಿರುವ ಒಂದು ಬಗೆಯ ಹುಳು", "आँतों में पाया जाने वाला एक तरह का कृमि"),
+              L("A very small germ, smaller than ordinary bacteria, that lives inside blood cells", "మామూలు బ్యాక్టీరియా కంటే చిన్నదైన, రక్త కణాల లోపల నివసించే చాలా సూక్ష్మ క్రిమి", "சாதாரண பாக்டீரியாவை விடச் சிறிய, இரத்த செல்களுக்குள் வாழும் மிக நுண்ணிய கிருமி", "ಸಾಮಾನ್ಯ ಬ್ಯಾಕ್ಟೀರಿಯಾಕ್ಕಿಂತ ಚಿಕ್ಕದಾದ, ರಕ್ತಕಣಗಳ ಒಳಗೆ ವಾಸಿಸುವ ಬಹಳ ಸೂಕ್ಷ್ಮ ರೋಗಾಣು", "आम बैक्टीरिया से भी छोटा बहुत सूक्ष्म कीटाणु, जो खून की कोशिकाओं के अंदर रहता है"),
+              L("A chemical used to spray sheds", "కొట్టాలపై పిచికారీ చేసే రసాయనం", "தொழுவங்களில் தெளிக்கப்படும் ஒரு ரசாயனம்", "ಕೊಟ್ಟಿಗೆಗಳಿಗೆ ಸಿಂಪಡಿಸುವ ರಾಸಾಯನಿಕ", "शेड पर छिड़कने वाला एक रसायन"),
+              L("A kind of tick", "ఒక రకం పేను", "ஒரு வகை உண்ணி", "ಒಂದು ಬಗೆಯ ಉಣ್ಣಿ", "एक तरह की किलनी"),
             ],
             answer: 1,
-            explain: L("Rickettsia is a very small type of germ that lives and multiplies inside the animal's own blood cells."),
+            explain: L("Rickettsia is a very small type of germ that lives and multiplies inside the animal's own blood cells.", "రికెట్సియా అనేది జంతువు రక్త కణాల లోపలే నివసిస్తూ, పెరిగే చాలా సూక్ష్మమైన క్రిమి.", "ரிக்கெட்சியா என்பது விலங்கின் இரத்த செல்களுக்குள்ளேயே வாழ்ந்து பெருகும் மிக நுண்ணிய கிருமி.", "ರಿಕೆಟ್ಸಿಯಾ ಪ್ರಾಣಿಯ ರಕ್ತಕಣಗಳ ಒಳಗೇ ವಾಸಿಸಿ ಹೆಚ್ಚುವ ಬಹಳ ಸೂಕ್ಷ್ಮ ರೋಗಾಣು.", "रिकेट्सिया एक बहुत सूक्ष्म कीटाणु है जो पशु की खून की कोशिकाओं के अंदर ही रहकर बढ़ता है।"),
           },
           {
             type: "truefalse",
-            q: L("Anaplasmosis can only spread through tick bites, never any other way."),
+            q: L("Anaplasmosis can only spread through tick bites, never any other way.", "అనాప్లాస్మోసిస్ పేల కాటు ద్వారా మాత్రమే వ్యాపిస్తుంది, మరే విధంగానూ వ్యాపించదు.", "அனாபிளாஸ்மோசிஸ் உண்ணிக் கடியால் மட்டுமே பரவும், வேறு எந்த வழியிலும் பரவாது.", "ಅನಾಪ್ಲಾಸ್ಮೋಸಿಸ್ ಉಣ್ಣಿ ಕಡಿತದಿಂದ ಮಾತ್ರ ಹರಡುತ್ತದೆ, ಬೇರೆ ಯಾವ ರೀತಿಯಲ್ಲೂ ಹರಡುವುದಿಲ್ಲ.", "एनाप्लाज़्मोसिस सिर्फ़ किलनी के काटने से फैलता है, किसी और तरीके से कभी नहीं।"),
             answer: false,
             explain: L(
-              "It mainly spreads through ticks, but it can also spread through blood-contaminated needles or AI gloves reused between animals without cleaning."
+              "It mainly spreads through ticks, but it can also spread through blood-contaminated needles or AI gloves reused between animals without cleaning.",
+              "ఇది ముఖ్యంగా పేల ద్వారా వ్యాపిస్తుంది, అయితే రక్తం అంటిన సూదులు లేదా AI గ్లోవ్స్‌ను శుభ్రం చేయకుండా జంతువుల మధ్య మళ్లీ వాడితే వాటి ద్వారా కూడా వ్యాపించవచ్చు.",
+              "இது முக்கியமாக உண்ணிகள் மூலம் பரவுகிறது; ஆனால் இரத்தம் பட்ட ஊசிகள் அல்லது AI கையுறைகளை சுத்தம் செய்யாமல் விலங்குகளுக்கிடையே மீண்டும் பயன்படுத்தினால் அவற்றின் மூலமும் பரவலாம்.",
+              "ಇದು ಮುಖ್ಯವಾಗಿ ಉಣ್ಣಿಗಳ ಮೂಲಕ ಹರಡುತ್ತದೆ; ಆದರೆ ರಕ್ತ ಅಂಟಿದ ಸೂಜಿ ಅಥವಾ AI ಕೈಗವಸುಗಳನ್ನು ಶುಚಿ ಮಾಡದೆ ಪ್ರಾಣಿಗಳ ನಡುವೆ ಮತ್ತೆ ಬಳಸಿದರೆ ಅವುಗಳ ಮೂಲಕವೂ ಹರಡಬಹುದು.",
+              "यह मुख्य रूप से किलनी से फैलता है, लेकिन खून लगी सुइयों या AI के दस्तानों को बिना साफ़ किए पशुओं के बीच दोबारा इस्तेमाल करने से भी फैल सकता है।"
             ),
           },
         ],
       },
       {
         id: "t-m6-babesiosis",
-        title: L("Babesiosis: Signs and Watching the Urine"),
+        title: L("Babesiosis: Signs and Watching the Urine", "బేబీసియోసిస్: లక్షణాలు మరియు మూత్రాన్ని గమనించడం", "பேபிசியோசிஸ்: அறிகுறிகள் மற்றும் சிறுநீரை கவனித்தல்", "ಬೇಬಿಸಿಯೋಸಿಸ್: ಲಕ್ಷಣಗಳು ಮತ್ತು ಮೂತ್ರವನ್ನು ಗಮನಿಸುವುದು", "बेबेसियोसिस: लक्षण और पेशाब पर नज़र रखना"),
         teach: [
           {
             type: "text",
-            heading: L("What Babesiosis Is"),
+            heading: L("What Babesiosis Is", "బేబీసియోసిస్ అంటే ఏమిటి", "பேபிசியோசிஸ் என்றால் என்ன", "ಬೇಬಿಸಿಯೋಸಿಸ್ ಎಂದರೇನು", "बेबेसियोसिस क्या है"),
             html: L(
-              "Babesiosis is caused by a different kind of tiny microbe called a <b>protozoa</b> — a single-celled living thing, different from the rickettsia germ behind Anaplasmosis. Like Anaplasmosis, it spreads through tick bites and attacks the blood."
+              "Babesiosis is caused by a different kind of tiny microbe called a <b>protozoa</b> — a single-celled living thing, different from the rickettsia germ behind Anaplasmosis. Like Anaplasmosis, it spreads through tick bites and attacks the blood.",
+              "బేబీసియోసిస్ <b>ప్రోటోజోవా</b> అనే వేరే రకం సూక్ష్మజీవి వల్ల వస్తుంది — ఇది ఒకే కణం ఉన్న జీవి, అనాప్లాస్మోసిస్‌కు కారణమైన రికెట్సియా క్రిమి కంటే భిన్నమైనది. అనాప్లాస్మోసిస్ లాగే ఇది కూడా పేల కాటు ద్వారా వ్యాపించి రక్తంపై దాడి చేస్తుంది.",
+              "பேபிசியோசிஸ் <b>புரோட்டோசோவா</b> என்ற வேறு வகை நுண்ணுயிரியால் வருகிறது — இது ஒரே செல் கொண்ட உயிரி, அனாபிளாஸ்மோசிஸுக்குக் காரணமான ரிக்கெட்சியா கிருமியிலிருந்து வேறுபட்டது. அனாபிளாஸ்மோசிஸ் போலவே இதுவும் உண்ணிக் கடியால் பரவி இரத்தத்தைத் தாக்குகிறது.",
+              "ಬೇಬಿಸಿಯೋಸಿಸ್ <b>ಪ್ರೋಟೋಜೋವಾ</b> ಎಂಬ ಬೇರೆ ಬಗೆಯ ಸೂಕ್ಷ್ಮಜೀವಿಯಿಂದ ಬರುತ್ತದೆ — ಇದು ಒಂದೇ ಕೋಶದ ಜೀವಿ, ಅನಾಪ್ಲಾಸ್ಮೋಸಿಸ್‌ಗೆ ಕಾರಣವಾದ ರಿಕೆಟ್ಸಿಯಾ ರೋಗಾಣುವಿಗಿಂತ ಬೇರೆ. ಅನಾಪ್ಲಾಸ್ಮೋಸಿಸ್‌ನಂತೆಯೇ ಇದೂ ಉಣ್ಣಿ ಕಡಿತದಿಂದ ಹರಡಿ ರಕ್ತದ ಮೇಲೆ ದಾಳಿ ಮಾಡುತ್ತದೆ.",
+              "बेबेसियोसिस <b>प्रोटोज़ोआ</b> नाम के एक अलग तरह के सूक्ष्म जीव से होता है — यह एक कोशिका वाला जीव है, जो एनाप्लाज़्मोसिस वाले रिकेट्सिया कीटाणु से अलग है। एनाप्लाज़्मोसिस की तरह यह भी किलनी के काटने से फैलता है और खून पर हमला करता है।"
             ),
           },
           {
             type: "glossary",
-            term: L("Protozoa"),
-            meaning: L("A type of very small, single-celled microbe — different from bacteria — that can live inside an animal's body and cause disease."),
+            term: L("Protozoa", "ప్రోటోజోవా", "புரோட்டோசோவா", "ಪ್ರೋಟೋಜೋವಾ", "प्रोटोज़ोआ"),
+            meaning: L("A type of very small, single-celled microbe — different from bacteria — that can live inside an animal's body and cause disease.", "బ్యాక్టీరియా కంటే భిన్నమైన, ఒకే కణం ఉన్న చాలా చిన్న సూక్ష్మజీవి; ఇది జంతువు శరీరంలో నివసించి వ్యాధిని కలిగించగలదు.", "பாக்டீரியாவிலிருந்து வேறுபட்ட, ஒரே செல் கொண்ட மிகச் சிறிய நுண்ணுயிரி; இது விலங்கின் உடலுக்குள் வாழ்ந்து நோயை உண்டாக்கும்.", "ಬ್ಯಾಕ್ಟೀರಿಯಾಕ್ಕಿಂತ ಬೇರೆಯಾದ, ಒಂದೇ ಕೋಶದ ಬಹಳ ಸಣ್ಣ ಸೂಕ್ಷ್ಮಜೀವಿ; ಇದು ಪ್ರಾಣಿಯ ದೇಹದೊಳಗೆ ವಾಸಿಸಿ ರೋಗ ಉಂಟುಮಾಡಬಲ್ಲದು.", "बैक्टीरिया से अलग, एक कोशिका वाला बहुत छोटा सूक्ष्म जीव, जो पशु के शरीर के अंदर रहकर बीमारी पैदा कर सकता है।"),
           },
           {
             type: "stat-grid",
             items: [
               {
-                label: L("Common signs"),
+                label: L("Common signs", "సాధారణ లక్షణాలు", "பொதுவான அறிகுறிகள்", "ಸಾಮಾನ್ಯ ಲಕ್ಷಣಗಳು", "आम लक्षण"),
                 text: L(
-                  "Fever, going off feed, faster breathing, a sharp drop in milk production, muscle tremors (shaking), anaemia, jaundice (yellowing), abortion, and either constipation or diarrhoea."
+                  "Fever, going off feed, faster breathing, a sharp drop in milk production, muscle tremors (shaking), anaemia, jaundice (yellowing), abortion, and either constipation or diarrhoea.",
+                  "జ్వరం, మేత మానేయడం, వేగంగా ఊపిరి తీసుకోవడం, పాల ఉత్పత్తి బాగా తగ్గడం, కండరాల వణుకు (వణకడం), రక్తహీనత, కామెర్లు (పసుపు రంగు), గర్భస్రావం, మలబద్ధకం లేదా విరేచనాలు.",
+                  "காய்ச்சல், தீவனம் சாப்பிடாமை, வேகமான மூச்சு, பால் உற்பத்தி கடுமையாக குறைதல், தசை நடுக்கம் (நடுங்குதல்), இரத்தசோகை, மஞ்சள் காமாலை (மஞ்சளாதல்), கருச்சிதைவு, மலச்சிக்கல் அல்லது வயிற்றுப்போக்கு.",
+                  "ಜ್ವರ, ಮೇವು ತಿನ್ನದಿರುವುದು, ವೇಗದ ಉಸಿರಾಟ, ಹಾಲಿನ ಉತ್ಪಾದನೆ ತೀವ್ರವಾಗಿ ಕುಸಿಯುವುದು, ಸ್ನಾಯು ನಡುಕ (ಕಂಪನ), ರಕ್ತಹೀನತೆ, ಕಾಮಾಲೆ (ಹಳದಿಯಾಗುವುದು), ಗರ್ಭಪಾತ, ಮತ್ತು ಮಲಬದ್ಧತೆ ಅಥವಾ ಬೇಧಿ.",
+                  "बुखार, चारा छोड़ देना, तेज़ साँस, दूध में अचानक भारी गिरावट, मांसपेशियों में कंपकंपी, खून की कमी, पीलिया (पीलापन), गर्भपात, और कब्ज़ या दस्त।"
                 ),
               },
               {
-                label: L("Later, more serious signs"),
-                text: L("Weight loss along with dark red or brown urine (blood showing up in the urine), and sometimes nervous symptoms."),
+                label: L("Later, more serious signs", "తర్వాతి, మరింత తీవ్రమైన లక్షణాలు", "பிந்தைய, மிகத் தீவிரமான அறிகுறிகள்", "ನಂತರದ, ಹೆಚ್ಚು ಗಂಭೀರ ಲಕ್ಷಣಗಳು", "बाद के, ज़्यादा गंभीर लक्षण"),
+                text: L("Weight loss along with dark red or brown urine (blood showing up in the urine), and sometimes nervous symptoms.", "బరువు తగ్గడంతో పాటు ముదురు ఎరుపు లేదా గోధుమ రంగు మూత్రం (మూత్రంలో రక్తం కనిపించడం), కొన్నిసార్లు నాడీ సంబంధిత లక్షణాలు.", "எடை குறைவுடன் அடர் சிவப்பு அல்லது பழுப்பு நிற சிறுநீர் (சிறுநீரில் இரத்தம் தெரிதல்), சில நேரம் நரம்பு தொடர்பான அறிகுறிகள்.", "ತೂಕ ಇಳಿಕೆಯ ಜೊತೆಗೆ ಗಾಢ ಕೆಂಪು ಅಥವಾ ಕಂದು ಬಣ್ಣದ ಮೂತ್ರ (ಮೂತ್ರದಲ್ಲಿ ರಕ್ತ ಕಾಣಿಸುವುದು), ಕೆಲವೊಮ್ಮೆ ನರ ಸಂಬಂಧಿ ಲಕ್ಷಣಗಳು.", "वज़न घटने के साथ गहरे लाल या भूरे रंग का पेशाब (पेशाब में खून दिखना), और कभी-कभी नस-तंत्र (दिमाग़ी) के लक्षण।"),
               },
             ],
           },
           {
             type: "callout",
             style: "warning",
-            heading: L("Watch the Colour of the Urine After Treatment"),
+            heading: L("Watch the Colour of the Urine After Treatment", "చికిత్స తర్వాత మూత్రం రంగును గమనించండి", "சிகிச்சைக்குப் பிறகு சிறுநீரின் நிறத்தை கவனியுங்கள்", "ಚಿಕಿತ್ಸೆಯ ನಂತರ ಮೂತ್ರದ ಬಣ್ಣವನ್ನು ಗಮನಿಸಿ", "इलाज के बाद पेशाब का रंग देखते रहें"),
             text: L(
-              "After treatment starts, the urine should gradually return to its normal colour within about 24 hours. If it does not, that is worth reporting — it usually means treatment needs to be repeated. This is something you can watch for and tell the vet or owner about, even though deciding on the treatment itself is always their job."
+              "After treatment starts, the urine should gradually return to its normal colour within about 24 hours. If it does not, that is worth reporting — it usually means treatment needs to be repeated. This is something you can watch for and tell the vet or owner about, even though deciding on the treatment itself is always their job.",
+              "చికిత్స మొదలైన తర్వాత, మూత్రం సుమారు 24 గంటల్లో క్రమంగా మామూలు రంగుకు రావాలి. రాకపోతే, అది తెలియజేయాల్సిన విషయం — సాధారణంగా చికిత్సను మళ్లీ చేయాల్సి ఉంటుందని అర్థం. ఇది మీరు గమనించి పశువైద్యుడికి లేదా యజమానికి చెప్పగలిగే విషయం; అయితే ఏ చికిత్స ఇవ్వాలనేది ఎప్పుడూ వారి బాధ్యతే.",
+              "சிகிச்சை தொடங்கிய பிறகு, சிறுநீர் சுமார் 24 மணி நேரத்திற்குள் படிப்படியாக சாதாரண நிறத்துக்குத் திரும்ப வேண்டும். திரும்பாவிட்டால், அதை தெரிவிக்க வேண்டும் — பொதுவாக சிகிச்சையை மீண்டும் செய்ய வேண்டும் என்று அர்த்தம். இதை நீங்கள் கவனித்து கால்நடை மருத்துவர் அல்லது உரிமையாளரிடம் சொல்லலாம்; ஆனால் என்ன சிகிச்சை அளிப்பது என்பதை முடிவு செய்வது எப்போதும் அவர்கள் பொறுப்பே.",
+              "ಚಿಕಿತ್ಸೆ ಆರಂಭವಾದ ನಂತರ, ಮೂತ್ರ ಸುಮಾರು 24 ಗಂಟೆಗಳಲ್ಲಿ ಕ್ರಮೇಣ ಸಾಮಾನ್ಯ ಬಣ್ಣಕ್ಕೆ ಮರಳಬೇಕು. ಮರಳದಿದ್ದರೆ, ಅದನ್ನು ತಿಳಿಸುವುದು ಅಗತ್ಯ — ಸಾಮಾನ್ಯವಾಗಿ ಚಿಕಿತ್ಸೆಯನ್ನು ಮತ್ತೆ ಮಾಡಬೇಕು ಎಂದರ್ಥ. ಇದನ್ನು ನೀವು ಗಮನಿಸಿ ಪಶುವೈದ್ಯರಿಗೆ ಅಥವಾ ಮಾಲೀಕರಿಗೆ ಹೇಳಬಹುದು; ಆದರೆ ಯಾವ ಚಿಕಿತ್ಸೆ ನೀಡಬೇಕೆಂದು ನಿರ್ಧರಿಸುವುದು ಯಾವಾಗಲೂ ಅವರ ಕೆಲಸ.",
+              "इलाज शुरू होने के बाद पेशाब लगभग 24 घंटे में धीरे-धीरे सामान्य रंग में लौट आना चाहिए। अगर ऐसा न हो, तो यह बताने लायक बात है — आमतौर पर इसका मतलब होता है कि इलाज दोहराना पड़ेगा। यह बात आप देखकर पशु चिकित्सक या मालिक को बता सकते हैं, लेकिन कौन-सा इलाज देना है यह तय करना हमेशा उन्हीं का काम है।"
             ),
           },
           {
             type: "callout",
             style: "tip",
-            heading: L("Curable If Treated Promptly"),
-            text: L("Like Anaplasmosis, Babesiosis is curable if treated promptly — early reporting gives the animal the best chance."),
+            heading: L("Curable If Treated Promptly", "వెంటనే చికిత్స చేస్తే నయమవుతుంది", "உடனே சிகிச்சை அளித்தால் குணமாகும்", "ತಕ್ಷಣ ಚಿಕಿತ್ಸೆ ನೀಡಿದರೆ ಗುಣವಾಗುತ್ತದೆ", "तुरंत इलाज मिले तो ठीक हो सकता है"),
+            text: L("Like Anaplasmosis, Babesiosis is curable if treated promptly — early reporting gives the animal the best chance.", "అనాప్లాస్మోసిస్ లాగే, బేబీసియోసిస్ కూడా వెంటనే చికిత్స చేస్తే నయమవుతుంది — త్వరగా చెబితే జంతువు బతికే అవకాశం ఎక్కువ.", "அனாபிளாஸ்மோசிஸ் போலவே, பேபிசியோசிஸும் உடனே சிகிச்சை அளித்தால் குணமாகும் — சீக்கிரம் தெரிவித்தால் விலங்குக்கு பிழைக்கும் வாய்ப்பு அதிகம்.", "ಅನಾಪ್ಲಾಸ್ಮೋಸಿಸ್‌ನಂತೆಯೇ, ಬೇಬಿಸಿಯೋಸಿಸ್ ಕೂಡ ತಕ್ಷಣ ಚಿಕಿತ್ಸೆ ನೀಡಿದರೆ ಗುಣವಾಗುತ್ತದೆ — ಬೇಗ ತಿಳಿಸಿದರೆ ಪ್ರಾಣಿ ಬದುಕುಳಿಯುವ ಸಾಧ್ಯತೆ ಹೆಚ್ಚು.", "एनाप्लाज़्मोसिस की तरह बेबेसियोसिस भी तुरंत इलाज मिलने पर ठीक हो सकता है — जल्दी बताने से पशु के बचने की संभावना सबसे ज़्यादा रहती है।"),
           },
           {
             type: "callout",
             style: "info",
-            heading: L("Not the Same as 'Red Water Disease'"),
+            heading: L("Not the Same as 'Red Water Disease'", "'రెడ్ వాటర్ వ్యాధి' తో ఒకటి కాదు", "'ரெட் வாட்டர் நோய்' போன்றது அல்ல", "'ರೆಡ್ ವಾಟರ್ ರೋಗ'ದಂತೆ ಅಲ್ಲ", "'रेड वॉटर बीमारी' जैसा नहीं है"),
             text: L(
-              "Babesiosis should not be confused with 'Red Water Disease' — a different, highly fatal disease caused by bacteria, seen especially in areas where liver fluke (a type of worm) is also present. Both can cause dark or red-looking urine, but they are not the same disease, and this is a distinction the vet will make, not something you need to diagnose yourself."
+              "Babesiosis should not be confused with 'Red Water Disease' — a different, highly fatal disease caused by bacteria, seen especially in areas where liver fluke (a type of worm) is also present. Both can cause dark or red-looking urine, but they are not the same disease, and this is a distinction the vet will make, not something you need to diagnose yourself.",
+              "బేబీసియోసిస్‌ను 'రెడ్ వాటర్ వ్యాధి'తో కలిపి చూడకూడదు — ఇది బ్యాక్టీరియా వల్ల వచ్చే వేరే, ఎక్కువ ప్రాణాంతకమైన వ్యాధి; ముఖ్యంగా లివర్ ఫ్లూక్ (ఒక రకం పురుగు) ఉన్న ప్రాంతాల్లో కనిపిస్తుంది. రెండింటిలోనూ మూత్రం ముదురు లేదా ఎర్రగా కనిపించవచ్చు, కానీ అవి ఒకే వ్యాధి కాదు; ఈ తేడాను పశువైద్యుడు నిర్ణయిస్తారు, మీరు నిర్ధారించాల్సిన అవసరం లేదు.",
+              "பேபிசியோசிஸை 'ரெட் வாட்டர் நோய்' என்று குழப்பிக் கொள்ளக் கூடாது — அது பாக்டீரியாவால் வரும் வேறு, மிக அதிக உயிரிழப்பு ஏற்படுத்தும் நோய்; குறிப்பாக ஈரல் அட்டை (ஒரு வகைப் புழு) உள்ள பகுதிகளில் காணப்படும். இரண்டிலும் சிறுநீர் அடர்ந்த அல்லது சிவப்பாகத் தெரியலாம், ஆனால் அவை ஒரே நோய் அல்ல; இந்த வேறுபாட்டை கால்நடை மருத்துவர் முடிவு செய்வார், நீங்களே கண்டறிய வேண்டியதில்லை.",
+              "ಬೇಬಿಸಿಯೋಸಿಸ್ ಅನ್ನು 'ರೆಡ್ ವಾಟರ್ ರೋಗ'ದೊಂದಿಗೆ ಗೊಂದಲ ಮಾಡಿಕೊಳ್ಳಬಾರದು — ಅದು ಬ್ಯಾಕ್ಟೀರಿಯಾದಿಂದ ಬರುವ ಬೇರೆ, ಹೆಚ್ಚು ಪ್ರಾಣಾಂತಕ ರೋಗ; ವಿಶೇಷವಾಗಿ ಲಿವರ್ ಫ್ಲೂಕ್ (ಒಂದು ಬಗೆಯ ಹುಳು) ಇರುವ ಪ್ರದೇಶಗಳಲ್ಲಿ ಕಾಣಿಸುತ್ತದೆ. ಎರಡರಲ್ಲೂ ಮೂತ್ರ ಗಾಢ ಅಥವಾ ಕೆಂಪಾಗಿ ಕಾಣಬಹುದು, ಆದರೆ ಅವು ಒಂದೇ ರೋಗ ಅಲ್ಲ; ಈ ವ್ಯತ್ಯಾಸವನ್ನು ಪಶುವೈದ್ಯರು ನಿರ್ಧರಿಸುತ್ತಾರೆ, ನೀವೇ ಪತ್ತೆ ಮಾಡಬೇಕಿಲ್ಲ.",
+              "बेबेसियोसिस को 'रेड वॉटर बीमारी' से नहीं मिलाना चाहिए — वह बैक्टीरिया से होने वाली एक अलग और बहुत जानलेवा बीमारी है, जो खासकर उन इलाकों में दिखती है जहाँ लिवर फ्लूक (एक तरह का कृमि) भी होता है। दोनों में पेशाब गहरा या लाल दिख सकता है, पर ये एक ही बीमारी नहीं हैं; यह फ़र्क पशु चिकित्सक तय करेंगे, आपको खुद पहचानने की ज़रूरत नहीं।"
             ),
           },
         ],
         check: [
           {
             type: "mcq",
-            q: L("What causes Babesiosis?"),
+            q: L("What causes Babesiosis?", "బేబీసియోసిస్‌కు కారణమేమిటి?", "பேபிசியோசிஸுக்கு என்ன காரணம்?", "ಬೇಬಿಸಿಯೋಸಿಸ್‌ಗೆ ಕಾರಣವೇನು?", "बेबेसियोसिस किस वजह से होता है?"),
             options: [
-              L("A type of worm"),
-              L("A protozoa — a tiny, single-celled microbe"),
-              L("A vitamin deficiency"),
-              L("Old age"),
+              L("A type of worm", "ఒక రకం పురుగు", "ஒரு வகைப் புழு", "ಒಂದು ಬಗೆಯ ಹುಳು", "एक तरह का कृमि"),
+              L("A protozoa — a tiny, single-celled microbe", "ప్రోటోజోవా — ఒకే కణం ఉన్న చిన్న సూక్ష్మజీవి", "புரோட்டோசோவா — ஒரே செல் கொண்ட சிறிய நுண்ணுயிரி", "ಪ್ರೋಟೋಜೋವಾ — ಒಂದೇ ಕೋಶದ ಸಣ್ಣ ಸೂಕ್ಷ್ಮಜೀವಿ", "प्रोटोज़ोआ — एक कोशिका वाला छोटा सूक्ष्म जीव"),
+              L("A vitamin deficiency", "విటమిన్ లోపం", "வைட்டமின் குறைபாடு", "ವಿಟಮಿನ್ ಕೊರತೆ", "विटामिन की कमी"),
+              L("Old age", "వృద్ధాప్యం", "முதுமை", "ಮುಪ್ಪು", "बुढ़ापा"),
             ],
             answer: 1,
-            explain: L("Babesiosis is caused by a protozoa, a type of single-celled microbe, different from the rickettsia germ that causes Anaplasmosis."),
+            explain: L("Babesiosis is caused by a protozoa, a type of single-celled microbe, different from the rickettsia germ that causes Anaplasmosis.", "బేబీసియోసిస్ ప్రోటోజోవా అనే ఒకే కణం ఉన్న సూక్ష్మజీవి వల్ల వస్తుంది; ఇది అనాప్లాస్మోసిస్‌కు కారణమైన రికెట్సియా క్రిమి కంటే భిన్నమైనది.", "பேபிசியோசிஸ் புரோட்டோசோவா என்ற ஒரே செல் நுண்ணுயிரியால் வருகிறது; இது அனாபிளாஸ்மோசிஸுக்குக் காரணமான ரிக்கெட்சியா கிருமியிலிருந்து வேறுபட்டது.", "ಬೇಬಿಸಿಯೋಸಿಸ್ ಪ್ರೋಟೋಜೋವಾ ಎಂಬ ಒಂದೇ ಕೋಶದ ಸೂಕ್ಷ್ಮಜೀವಿಯಿಂದ ಬರುತ್ತದೆ; ಇದು ಅನಾಪ್ಲಾಸ್ಮೋಸಿಸ್‌ಗೆ ಕಾರಣವಾದ ರಿಕೆಟ್ಸಿಯಾ ರೋಗಾಣುವಿಗಿಂತ ಬೇರೆ.", "बेबेसियोसिस प्रोटोज़ोआ नाम के एक कोशिका वाले सूक्ष्म जीव से होता है, जो एनाप्लाज़्मोसिस वाले रिकेट्सिया कीटाणु से अलग है।"),
           },
           {
             type: "truefalse",
             q: L(
-              "If an animal's urine has not returned to a normal colour about 24 hours after Babesiosis treatment starts, that is worth reporting."
+              "If an animal's urine has not returned to a normal colour about 24 hours after Babesiosis treatment starts, that is worth reporting.",
+              "బేబీసియోసిస్ చికిత్స మొదలైన సుమారు 24 గంటల తర్వాత కూడా జంతువు మూత్రం మామూలు రంగుకు రాకపోతే, అది తెలియజేయాల్సిన విషయం.",
+              "பேபிசியோசிஸ் சிகிச்சை தொடங்கி சுமார் 24 மணி நேரத்துக்குப் பிறகும் விலங்கின் சிறுநீர் சாதாரண நிறத்துக்குத் திரும்பவில்லை என்றால், அதை தெரிவிக்க வேண்டும்.",
+              "ಬೇಬಿಸಿಯೋಸಿಸ್ ಚಿಕಿತ್ಸೆ ಆರಂಭವಾಗಿ ಸುಮಾರು 24 ಗಂಟೆಗಳ ನಂತರವೂ ಪ್ರಾಣಿಯ ಮೂತ್ರ ಸಾಮಾನ್ಯ ಬಣ್ಣಕ್ಕೆ ಮರಳದಿದ್ದರೆ, ಅದನ್ನು ತಿಳಿಸುವುದು ಅಗತ್ಯ.",
+              "बेबेसियोसिस का इलाज शुरू होने के लगभग 24 घंटे बाद भी अगर पशु का पेशाब सामान्य रंग में नहीं लौटा है, तो यह बताने लायक बात है।"
             ),
             answer: true,
-            explain: L("Yes — the urine should return to normal colour by about 24 hours after treatment; if it hasn't, treatment usually needs to be repeated."),
+            explain: L("Yes — the urine should return to normal colour by about 24 hours after treatment; if it hasn't, treatment usually needs to be repeated.", "అవును — చికిత్స తర్వాత సుమారు 24 గంటల్లో మూత్రం మామూలు రంగుకు రావాలి; రాకపోతే సాధారణంగా చికిత్సను మళ్లీ చేయాల్సి ఉంటుంది.", "ஆம் — சிகிச்சைக்குப் பிறகு சுமார் 24 மணி நேரத்தில் சிறுநீர் சாதாரண நிறத்துக்குத் திரும்ப வேண்டும்; திரும்பாவிட்டால் பொதுவாக சிகிச்சையை மீண்டும் செய்ய வேண்டியிருக்கும்.", "ಹೌದು — ಚಿಕಿತ್ಸೆಯ ನಂತರ ಸುಮಾರು 24 ಗಂಟೆಗಳಲ್ಲಿ ಮೂತ್ರ ಸಾಮಾನ್ಯ ಬಣ್ಣಕ್ಕೆ ಮರಳಬೇಕು; ಮರಳದಿದ್ದರೆ ಸಾಮಾನ್ಯವಾಗಿ ಚಿಕಿತ್ಸೆಯನ್ನು ಮತ್ತೆ ಮಾಡಬೇಕಾಗುತ್ತದೆ.", "हाँ — इलाज के लगभग 24 घंटे बाद पेशाब सामान्य रंग में लौट आना चाहिए; अगर नहीं लौटा, तो आमतौर पर इलाज दोहराना पड़ता है।"),
           },
         ],
       },
@@ -6405,55 +6457,55 @@ export const MODULES = [
         {
           topicId: "t-m6-anaplasmosis",
           type: "mcq",
-          q: L("Besides tick bites, how else can Anaplasmosis spread?"),
+          q: L("Besides tick bites, how else can Anaplasmosis spread?", "పేల కాటు కాకుండా, అనాప్లాస్మోసిస్ మరే విధంగా వ్యాపించవచ్చు?", "உண்ணிக் கடியைத் தவிர, அனாபிளாஸ்மோசிஸ் வேறு எப்படிப் பரவலாம்?", "ಉಣ್ಣಿ ಕಡಿತವಲ್ಲದೆ, ಅನಾಪ್ಲಾಸ್ಮೋಸಿಸ್ ಬೇರೆ ಹೇಗೆ ಹರಡಬಹುದು?", "किलनी के काटने के अलावा, एनाप्लाज़्मोसिस और कैसे फैल सकता है?"),
           options: [
-            L("Through the air"),
-            L("Through blood-contaminated needles or AI gloves reused without cleaning"),
-            L("Through drinking water only"),
-            L("It cannot spread any other way"),
+            L("Through the air", "గాలి ద్వారా", "காற்று மூலம்", "ಗಾಳಿಯ ಮೂಲಕ", "हवा के ज़रिए"),
+            L("Through blood-contaminated needles or AI gloves reused without cleaning", "రక్తం అంటిన సూదులు లేదా AI గ్లోవ్స్‌ను శుభ్రం చేయకుండా మళ్లీ వాడడం ద్వారా", "இரத்தம் பட்ட ஊசிகள் அல்லது AI கையுறைகளை சுத்தம் செய்யாமல் மீண்டும் பயன்படுத்துவதன் மூலம்", "ರಕ್ತ ಅಂಟಿದ ಸೂಜಿ ಅಥವಾ AI ಕೈಗವಸುಗಳನ್ನು ಶುಚಿ ಮಾಡದೆ ಮತ್ತೆ ಬಳಸುವುದರಿಂದ", "खून लगी सुइयों या AI के दस्तानों को बिना साफ़ किए दोबारा इस्तेमाल करने से"),
+            L("Through drinking water only", "కేవలం తాగునీటి ద్వారా మాత్రమే", "குடிநீர் மூலம் மட்டுமே", "ಕುಡಿಯುವ ನೀರಿನ ಮೂಲಕ ಮಾತ್ರ", "सिर्फ़ पीने के पानी से"),
+            L("It cannot spread any other way", "మరే విధంగానూ వ్యాపించదు", "வேறு எந்த வழியிலும் பரவாது", "ಬೇರೆ ಯಾವ ರೀತಿಯಲ್ಲೂ ಹರಡುವುದಿಲ್ಲ", "यह किसी और तरीके से नहीं फैल सकता"),
           ],
           answer: 1,
-          explain: L("Anaplasmosis can also spread through blood-contaminated needles or AI gloves used on more than one animal without cleaning."),
+          explain: L("Anaplasmosis can also spread through blood-contaminated needles or AI gloves used on more than one animal without cleaning.", "రక్తం అంటిన సూదులు లేదా AI గ్లోవ్స్‌ను శుభ్రం చేయకుండా ఒకటి కంటే ఎక్కువ జంతువులపై వాడినా అనాప్లాస్మోసిస్ వ్యాపించవచ్చు.", "இரத்தம் பட்ட ஊசிகள் அல்லது AI கையுறைகளை சுத்தம் செய்யாமல் ஒன்றுக்கு மேற்பட்ட விலங்குகளுக்குப் பயன்படுத்தினாலும் அனாபிளாஸ்மோசிஸ் பரவலாம்.", "ರಕ್ತ ಅಂಟಿದ ಸೂಜಿ ಅಥವಾ AI ಕೈಗವಸುಗಳನ್ನು ಶುಚಿ ಮಾಡದೆ ಒಂದಕ್ಕಿಂತ ಹೆಚ್ಚು ಪ್ರಾಣಿಗಳಿಗೆ ಬಳಸಿದರೂ ಅನಾಪ್ಲಾಸ್ಮೋಸಿಸ್ ಹರಡಬಹುದು.", "खून लगी सुइयों या AI के दस्तानों को बिना साफ़ किए एक से ज़्यादा पशुओं पर इस्तेमाल करने से भी एनाप्लाज़्मोसिस फैल सकता है।"),
         },
         {
           topicId: "t-m6-anaplasmosis",
           type: "truefalse",
-          q: L("Calves are generally more resistant to Anaplasmosis than older cattle."),
+          q: L("Calves are generally more resistant to Anaplasmosis than older cattle.", "అనాప్లాస్మోసిస్‌ను ఎదిరించే శక్తి పెద్ద పశువుల కంటే దూడలకు సాధారణంగా ఎక్కువ.", "அனாபிளாஸ்மோசிஸை எதிர்க்கும் சக்தி வளர்ந்த மாடுகளை விட கன்றுகளுக்கு பொதுவாக அதிகம்.", "ಅನಾಪ್ಲಾಸ್ಮೋಸಿಸ್ ವಿರುದ್ಧ ಹೋರಾಡುವ ಶಕ್ತಿ ದೊಡ್ಡ ದನಗಳಿಗಿಂತ ಕರುಗಳಿಗೆ ಸಾಮಾನ್ಯವಾಗಿ ಹೆಚ್ಚು.", "एनाप्लाज़्मोसिस से लड़ने की ताकत बड़े मवेशियों की तुलना में बछड़ों में आमतौर पर ज़्यादा होती है।"),
           answer: true,
-          explain: L("Correct — calves are naturally more resistant, while older cattle are more likely to become seriously ill."),
+          explain: L("Correct — calves are naturally more resistant, while older cattle are more likely to become seriously ill.", "సరైనదే — దూడలకు సహజంగా ఎదిరించే శక్తి ఎక్కువ, పెద్ద పశువులు తీవ్రంగా జబ్బుపడే అవకాశం ఎక్కువ.", "சரி — கன்றுகளுக்கு இயல்பாகவே எதிர்ப்பு சக்தி அதிகம்; வளர்ந்த மாடுகள் கடுமையாக நோய்வாய்ப்பட வாய்ப்பு அதிகம்.", "ಸರಿ — ಕರುಗಳಿಗೆ ಸಹಜವಾಗಿ ರೋಗನಿರೋಧಕ ಶಕ್ತಿ ಹೆಚ್ಚು, ದೊಡ್ಡ ದನಗಳು ತೀವ್ರವಾಗಿ ಅನಾರೋಗ್ಯಕ್ಕೆ ಒಳಗಾಗುವ ಸಾಧ್ಯತೆ ಹೆಚ್ಚು.", "सही — बछड़ों में स्वाभाविक रूप से प्रतिरोध ज़्यादा होता है, जबकि बड़े मवेशी ज़्यादा गंभीर रूप से बीमार पड़ते हैं।"),
         },
         {
           topicId: "t-m6-babesiosis",
           type: "mcq",
-          q: L("Which of these is a sign of Babesiosis?"),
+          q: L("Which of these is a sign of Babesiosis?", "వీటిలో బేబీసియోసిస్ లక్షణం ఏది?", "இவற்றில் பேபிசியோசிஸின் அறிகுறி எது?", "ಇವುಗಳಲ್ಲಿ ಬೇಬಿಸಿಯೋಸಿಸ್‌ನ ಲಕ್ಷಣ ಯಾವುದು?", "इनमें से बेबेसियोसिस का लक्षण कौन-सा है?"),
           options: [
-            L("A sharp drop in milk production along with fever and muscle tremors"),
-            L("Faster hoof growth"),
-            L("Improved appetite"),
-            L("A shinier coat than usual"),
+            L("A sharp drop in milk production along with fever and muscle tremors", "జ్వరం, కండరాల వణుకుతో పాటు పాల ఉత్పత్తి బాగా తగ్గడం", "காய்ச்சல், தசை நடுக்கத்துடன் பால் உற்பத்தி கடுமையாகக் குறைதல்", "ಜ್ವರ ಮತ್ತು ಸ್ನಾಯು ನಡುಕದ ಜೊತೆಗೆ ಹಾಲಿನ ಉತ್ಪಾದನೆ ತೀವ್ರವಾಗಿ ಕುಸಿಯುವುದು", "बुखार और मांसपेशियों की कंपकंपी के साथ दूध में अचानक भारी गिरावट"),
+            L("Faster hoof growth", "గిట్టలు వేగంగా పెరగడం", "குளம்புகள் வேகமாக வளர்தல்", "ಗೊರಸುಗಳು ವೇಗವಾಗಿ ಬೆಳೆಯುವುದು", "खुर तेज़ी से बढ़ना"),
+            L("Improved appetite", "ఆకలి పెరగడం", "பசி அதிகரித்தல்", "ಹಸಿವು ಹೆಚ್ಚುವುದು", "भूख बढ़ना"),
+            L("A shinier coat than usual", "మామూలు కంటే మెరిసే చర్మం/రోమాలు", "வழக்கத்தை விட பளபளப்பான தோல்/முடி", "ಎಂದಿಗಿಂತ ಹೆಚ್ಚು ಹೊಳೆಯುವ ಕೂದಲು", "पहले से ज़्यादा चमकदार बाल/चमड़ी"),
           ],
           answer: 0,
-          explain: L("Babesiosis commonly causes fever, going off feed, a sharp drop in milk, muscle tremors, anaemia, jaundice and more."),
+          explain: L("Babesiosis commonly causes fever, going off feed, a sharp drop in milk, muscle tremors, anaemia, jaundice and more.", "బేబీసియోసిస్ సాధారణంగా జ్వరం, మేత మానేయడం, పాలు బాగా తగ్గడం, కండరాల వణుకు, రక్తహీనత, కామెర్లు తదితరాలకు కారణమవుతుంది.", "பேபிசியோசிஸ் பொதுவாக காய்ச்சல், தீவனம் சாப்பிடாமை, பால் கடுமையாக குறைதல், தசை நடுக்கம், இரத்தசோகை, மஞ்சள் காமாலை போன்றவற்றை உண்டாக்கும்.", "ಬೇಬಿಸಿಯೋಸಿಸ್ ಸಾಮಾನ್ಯವಾಗಿ ಜ್ವರ, ಮೇವು ತಿನ್ನದಿರುವುದು, ಹಾಲು ತೀವ್ರವಾಗಿ ಕಡಿಮೆಯಾಗುವುದು, ಸ್ನಾಯು ನಡುಕ, ರಕ್ತಹೀನತೆ, ಕಾಮಾಲೆ ಇತ್ಯಾದಿಗಳನ್ನು ಉಂಟುಮಾಡುತ್ತದೆ.", "बेबेसियोसिस में आमतौर पर बुखार, चारा छोड़ना, दूध में भारी गिरावट, मांसपेशियों में कंपकंपी, खून की कमी, पीलिया वगैरह होते हैं।"),
         },
         {
           topicId: "t-m6-babesiosis",
           type: "truefalse",
-          q: L("Babesiosis and 'Red Water Disease' are exactly the same disease."),
+          q: L("Babesiosis and 'Red Water Disease' are exactly the same disease.", "బేబీసియోసిస్ మరియు 'రెడ్ వాటర్ వ్యాధి' ఒకే వ్యాధి.", "பேபிசியோசிஸும் 'ரெட் வாட்டர் நோய்'ம் ஒரே நோய்தான்.", "ಬೇಬಿಸಿಯೋಸಿಸ್ ಮತ್ತು 'ರೆಡ್ ವಾಟರ್ ರೋಗ' ಒಂದೇ ರೋಗ.", "बेबेसियोसिस और 'रेड वॉटर बीमारी' बिल्कुल एक ही बीमारी हैं।"),
           answer: false,
-          explain: L("No — they are different diseases, even though both can cause reddish urine. Red Water Disease is a separate, highly fatal bacterial disease."),
+          explain: L("No — they are different diseases, even though both can cause reddish urine. Red Water Disease is a separate, highly fatal bacterial disease.", "కాదు — రెండింటిలోనూ ఎర్రటి మూత్రం రావచ్చు, అయినా అవి వేర్వేరు వ్యాధులు. రెడ్ వాటర్ వ్యాధి బ్యాక్టీరియా వల్ల వచ్చే వేరే, ఎక్కువ ప్రాణాంతకమైన వ్యాధి.", "இல்லை — இரண்டிலும் சிவப்பு நிற சிறுநீர் வரலாம், ஆனாலும் அவை வெவ்வேறு நோய்கள். ரெட் வாட்டர் நோய் பாக்டீரியாவால் வரும் தனி, மிக அதிக உயிரிழப்பு ஏற்படுத்தும் நோய்.", "ಇಲ್ಲ — ಎರಡರಲ್ಲೂ ಕೆಂಪು ಮೂತ್ರ ಬರಬಹುದು, ಆದರೂ ಅವು ಬೇರೆ ಬೇರೆ ರೋಗಗಳು. ರೆಡ್ ವಾಟರ್ ರೋಗ ಬ್ಯಾಕ್ಟೀರಿಯಾದಿಂದ ಬರುವ ಬೇರೆ, ಹೆಚ್ಚು ಪ್ರಾಣಾಂತಕ ರೋಗ.", "नहीं — दोनों में लाल पेशाब आ सकता है, फिर भी ये अलग-अलग बीमारियाँ हैं। रेड वॉटर बीमारी बैक्टीरिया से होने वाली एक अलग और बहुत जानलेवा बीमारी है।"),
         },
         {
           topicId: "t-m6-anaplasmosis",
           type: "mcq",
-          q: L("Why does it matter that Anaplasmosis is 'curable if treated promptly'?"),
+          q: L("Why does it matter that Anaplasmosis is 'curable if treated promptly'?", "అనాప్లాస్మోసిస్ 'వెంటనే చికిత్స చేస్తే నయమవుతుంది' అనేది ఎందుకు ముఖ్యం?", "அனாபிளாஸ்மோசிஸ் 'உடனே சிகிச்சை அளித்தால் குணமாகும்' என்பது ஏன் முக்கியம்?", "ಅನಾಪ್ಲಾಸ್ಮೋಸಿಸ್ 'ತಕ್ಷಣ ಚಿಕಿತ್ಸೆ ನೀಡಿದರೆ ಗುಣವಾಗುತ್ತದೆ' ಎಂಬುದು ಏಕೆ ಮುಖ್ಯ?", "एनाप्लाज़्मोसिस का 'तुरंत इलाज मिलने पर ठीक होना' क्यों मायने रखता है?"),
           options: [
-            L("It means you don't need to report it at all"),
-            L("It means early reporting of signs gives the animal the best chance of recovery"),
-            L("It means the animal will recover on its own without help"),
-            L("It only matters for calves"),
+            L("It means you don't need to report it at all", "దీన్ని అసలు తెలియజేయాల్సిన అవసరం లేదని అర్థం", "இதை தெரிவிக்கவே தேவையில்லை என்று அர்த்தம்", "ಇದನ್ನು ತಿಳಿಸುವ ಅಗತ್ಯವೇ ಇಲ್ಲ ಎಂದರ್ಥ", "इसका मतलब है कि इसे बताने की ज़रूरत ही नहीं"),
+            L("It means early reporting of signs gives the animal the best chance of recovery", "లక్షణాలను త్వరగా తెలియజేస్తే జంతువు కోలుకునే అవకాశం ఎక్కువ అని అర్థం", "அறிகுறிகளை சீக்கிரம் தெரிவித்தால் விலங்கு குணமடையும் வாய்ப்பு அதிகம் என்று அர்த்தம்", "ಲಕ್ಷಣಗಳನ್ನು ಬೇಗ ತಿಳಿಸಿದರೆ ಪ್ರಾಣಿ ಗುಣವಾಗುವ ಸಾಧ್ಯತೆ ಹೆಚ್ಚು ಎಂದರ್ಥ", "इसका मतलब है कि लक्षण जल्दी बताने से पशु के ठीक होने की संभावना सबसे ज़्यादा रहती है"),
+            L("It means the animal will recover on its own without help", "జంతువు సహాయం లేకుండానే తనంతట తానే కోలుకుంటుందని అర్థం", "விலங்கு உதவி இல்லாமலேயே தானாக குணமடையும் என்று அர்த்தம்", "ಪ್ರಾಣಿ ಸಹಾಯವಿಲ್ಲದೆ ತಾನಾಗಿಯೇ ಗುಣವಾಗುತ್ತದೆ ಎಂದರ್ಥ", "इसका मतलब है कि पशु बिना किसी मदद के अपने-आप ठीक हो जाएगा"),
+            L("It only matters for calves", "ఇది దూడలకు మాత్రమే ముఖ్యం", "இது கன்றுகளுக்கு மட்டுமே முக்கியம்", "ಇದು ಕರುಗಳಿಗೆ ಮಾತ್ರ ಮುಖ್ಯ", "यह सिर्फ़ बछड़ों के लिए मायने रखता है"),
           ],
           answer: 1,
-          explain: L("Because the disease responds well to early treatment, noticing and reporting signs quickly directly improves the animal's chances."),
+          explain: L("Because the disease responds well to early treatment, noticing and reporting signs quickly directly improves the animal's chances.", "ఈ వ్యాధి ముందస్తు చికిత్సకు బాగా స్పందిస్తుంది కాబట్టి, లక్షణాలను త్వరగా గమనించి తెలియజేయడం జంతువు బతికే అవకాశాలను నేరుగా పెంచుతుంది.", "இந்த நோய் ஆரம்பகால சிகிச்சைக்கு நன்றாக பதிலளிப்பதால், அறிகுறிகளை சீக்கிரம் கவனித்து தெரிவிப்பது விலங்கின் பிழைக்கும் வாய்ப்பை நேரடியாக அதிகரிக்கிறது.", "ಈ ರೋಗ ಆರಂಭಿಕ ಚಿಕಿತ್ಸೆಗೆ ಚೆನ್ನಾಗಿ ಸ್ಪಂದಿಸುವುದರಿಂದ, ಲಕ್ಷಣಗಳನ್ನು ಬೇಗ ಗಮನಿಸಿ ತಿಳಿಸುವುದು ಪ್ರಾಣಿ ಬದುಕುಳಿಯುವ ಸಾಧ್ಯತೆಯನ್ನು ನೇರವಾಗಿ ಹೆಚ್ಚಿಸುತ್ತದೆ.", "क्योंकि यह बीमारी शुरुआती इलाज से अच्छी तरह ठीक होती है, इसलिए लक्षणों को जल्दी पहचानकर बताने से पशु के बचने की संभावना सीधे बढ़ती है।"),
         },
       ],
     },
@@ -6464,167 +6516,203 @@ export const MODULES = [
   // ==================================================================
   {
     id: "m6-l2",
-    title: L("Surra and How to Control Ticks and Flies"),
+    title: L("Surra and How to Control Ticks and Flies", "సుర్రా మరియు పేలు, ఈగలను ఎలా నియంత్రించాలి", "சுர்ரா மற்றும் உண்ணி, ஈக்களை எப்படி கட்டுப்படுத்துவது", "ಸುರ್ರಾ ಮತ್ತು ಉಣ್ಣಿ, ನೊಣಗಳನ್ನು ನಿಯಂತ್ರಿಸುವುದು ಹೇಗೆ", "सर्रा और किलनी व मक्खियों को कैसे काबू में रखें"),
     estMinutes: 8,
     hook: [
       {
         type: "hero",
-        heading: L("It's Not Just Ticks — Flies Spread Disease Too"),
+        heading: L("It's Not Just Ticks — Flies Spread Disease Too", "పేలు మాత్రమే కాదు — ఈగలు కూడా వ్యాధిని వ్యాపింపజేస్తాయి", "உண்ணிகள் மட்டுமல்ல — ஈக்களும் நோயைப் பரப்புகின்றன", "ಉಣ್ಣಿಗಳು ಮಾತ್ರವಲ್ಲ — ನೊಣಗಳೂ ರೋಗ ಹರಡುತ್ತವೆ", "सिर्फ़ किलनी ही नहीं — मक्खियाँ भी बीमारी फैलाती हैं"),
         text: L(
-          "Biting flies can carry disease from one animal to another just by feeding on blood, the same way ticks do. This lesson covers Surra, a serious fly-spread disease, and then the everyday control steps that keep both ticks and flies from building up on your farm in the first place."
+          "Biting flies can carry disease from one animal to another just by feeding on blood, the same way ticks do. This lesson covers Surra, a serious fly-spread disease, and then the everyday control steps that keep both ticks and flies from building up on your farm in the first place.",
+          "కుట్టే ఈగలు కూడా పేల లాగానే రక్తం తాగుతూ ఒక జంతువు నుండి మరొక జంతువుకు వ్యాధిని మోసుకెళ్లగలవు. ఈ పాఠం ఈగల ద్వారా వ్యాపించే తీవ్రమైన వ్యాధి సుర్రా గురించి, ఆ తర్వాత మీ ఫారంలో పేలు, ఈగలు పెరిగిపోకుండా ఉండేందుకు రోజువారీ నియంత్రణ చర్యల గురించి వివరిస్తుంది.",
+          "கடிக்கும் ஈக்கள் உண்ணிகளைப் போலவே இரத்தம் குடிப்பதன் மூலம் ஒரு விலங்கிலிருந்து மற்றொன்றுக்கு நோயைக் கொண்டு செல்ல முடியும். இந்தப் பாடம் ஈக்களால் பரவும் தீவிர நோயான சுர்ராவையும், உங்கள் பண்ணையில் உண்ணிகளும் ஈக்களும் பெருகாமல் இருக்க தினசரி கட்டுப்பாட்டு நடவடிக்கைகளையும் விளக்குகிறது.",
+          "ಕಚ್ಚುವ ನೊಣಗಳು ಉಣ್ಣಿಗಳಂತೆಯೇ ರಕ್ತ ಕುಡಿಯುವ ಮೂಲಕ ಒಂದು ಪ್ರಾಣಿಯಿಂದ ಇನ್ನೊಂದಕ್ಕೆ ರೋಗ ಒಯ್ಯಬಲ್ಲವು. ಈ ಪಾಠವು ನೊಣಗಳಿಂದ ಹರಡುವ ಗಂಭೀರ ರೋಗ ಸುರ್ರಾ ಬಗ್ಗೆ, ಮತ್ತು ನಿಮ್ಮ ಫಾರ್ಮ್‌ನಲ್ಲಿ ಉಣ್ಣಿ, ನೊಣಗಳು ಹೆಚ್ಚಾಗದಂತೆ ತಡೆಯುವ ದೈನಂದಿನ ನಿಯಂತ್ರಣ ಕ್ರಮಗಳ ಬಗ್ಗೆ ವಿವರಿಸುತ್ತದೆ.",
+          "काटने वाली मक्खियाँ भी किलनी की तरह खून पीते-पीते एक पशु से दूसरे पशु तक बीमारी पहुँचा सकती हैं। इस पाठ में मक्खियों से फैलने वाली गंभीर बीमारी सर्रा के बारे में बताया गया है, और फिर रोज़मर्रा के वे उपाय जिनसे आपके फ़ार्म पर किलनी और मक्खियाँ बढ़ने ही न पाएँ।"
         ),
       },
     ],
     topics: [
       {
         id: "t-m6-surra",
-        title: L("Surra: A Disease Spread by Biting Flies"),
+        title: L("Surra: A Disease Spread by Biting Flies", "సుర్రా: కుట్టే ఈగల ద్వారా వ్యాపించే వ్యాధి", "சுர்ரா: கடிக்கும் ஈக்களால் பரவும் நோய்", "ಸುರ್ರಾ: ಕಚ್ಚುವ ನೊಣಗಳಿಂದ ಹರಡುವ ರೋಗ", "सर्रा: काटने वाली मक्खियों से फैलने वाली बीमारी"),
         teach: [
             {
               type: "photo",
               src: "assets/photo-m6-horn-flies.jpg",
-              alt: L("Close-up of a cow's back and shoulder coat covered with many small horn flies"),
-              caption: L("Horn flies on a cow's coat — one of the biting flies named in this lesson as a carrier of Surra."),
+              alt: L("Close-up of a cow's back and shoulder coat covered with many small horn flies", "అనేక చిన్న హార్న్ ఈగలతో నిండిన ఆవు వీపు, భుజం భాగం క్లోజ్-అప్ ఫోటో.", "பல சிறிய கொம்பு ஈக்கள் மொய்த்திருக்கும் ஒரு பசுவின் முதுகு, தோள்பட்டைப் பகுதியின் நெருக்கமான படம்.", "ಅನೇಕ ಸಣ್ಣ ಹಾರ್ನ್ ನೊಣಗಳಿಂದ ಮುತ್ತಿದ ಹಸುವಿನ ಬೆನ್ನು, ಭುಜದ ಭಾಗದ ಹತ್ತಿರದ ಚಿತ್ರ.", "बहुत सारी छोटी हॉर्न मक्खियों से ढकी गाय की पीठ और कंधे की खाल की नज़दीकी तस्वीर।"),
+              caption: L("Horn flies on a cow's coat — one of the biting flies named in this lesson as a carrier of Surra.", "ఆవు చర్మంపై హార్న్ ఈగలు — సుర్రాను మోసుకెళ్లే కుట్టే ఈగలుగా ఈ పాఠంలో పేర్కొన్న వాటిలో ఒకటి.", "பசுவின் தோலில் கொம்பு ஈக்கள் — சுர்ராவைக் கடத்தும் கடிக்கும் ஈக்களாக இந்தப் பாடத்தில் குறிப்பிடப்பட்டவற்றில் ஒன்று.", "ಹಸುವಿನ ಚರ್ಮದ ಮೇಲೆ ಹಾರ್ನ್ ನೊಣಗಳು — ಸುರ್ರಾ ಒಯ್ಯುವ ಕಚ್ಚುವ ನೊಣಗಳೆಂದು ಈ ಪಾಠದಲ್ಲಿ ಹೆಸರಿಸಿದವುಗಳಲ್ಲಿ ಒಂದು.", "गाय की खाल पर हॉर्न मक्खियाँ — इस पाठ में सर्रा फैलाने वाली जिन काटने वाली मक्खियों का ज़िक्र है, यह उनमें से एक है।"),
             },
           {
             type: "text",
-            heading: L("What Surra Is"),
+            heading: L("What Surra Is", "సుర్రా అంటే ఏమిటి", "சுர்ரா என்றால் என்ன", "ಸುರ್ರಾ ಎಂದರೇನು", "सर्रा क्या है"),
             html: L(
-              "Surra (its proper name is <b>Trypanosomiasis</b>) is caused by a protozoa — the same broad type of tiny microbe as in Babesiosis. But instead of ticks, it is spread by biting flies such as Tabanus, Stomoxys and Haematobia. The fly simply carries infected blood on its mouthparts from one animal to the next while feeding — it doesn't need to multiply inside the fly first."
+              "Surra (its proper name is <b>Trypanosomiasis</b>) is caused by a protozoa — the same broad type of tiny microbe as in Babesiosis. But instead of ticks, it is spread by biting flies such as Tabanus, Stomoxys and Haematobia. The fly simply carries infected blood on its mouthparts from one animal to the next while feeding — it doesn't need to multiply inside the fly first.",
+              "సుర్రా (దీని అసలు పేరు <b>ట్రిపనోసోమియాసిస్</b>) ప్రోటోజోవా వల్ల వస్తుంది — బేబీసియోసిస్‌లో ఉన్న రకం సూక్ష్మజీవే. కానీ ఇది పేల ద్వారా కాకుండా, టబానస్, స్టోమాక్సిస్, హీమాటోబియా వంటి కుట్టే ఈగల ద్వారా వ్యాపిస్తుంది. ఈగ రక్తం తాగుతూ, ఇన్ఫెక్షన్ ఉన్న రక్తాన్ని తన నోటి భాగాలపై మోసుకెళ్లి ఒక జంతువు నుండి మరొక దానికి అంటిస్తుంది — దానికి ఈగ లోపల పెరగాల్సిన అవసరం కూడా లేదు.",
+              "சுர்ரா (இதன் சரியான பெயர் <b>டிரிபனோசோமியாசிஸ்</b>) புரோட்டோசோவாவால் வருகிறது — பேபிசியோசிஸில் உள்ள அதே வகை நுண்ணுயிரி. ஆனால் இது உண்ணிகளால் அல்லாமல், டபனஸ், ஸ்டோமாக்சிஸ், ஹீமடோபியா போன்ற கடிக்கும் ஈக்களால் பரவுகிறது. ஈ இரத்தம் குடிக்கும்போது, தொற்றுள்ள இரத்தத்தை தன் வாய்ப் பகுதிகளில் சுமந்து ஒரு விலங்கிலிருந்து அடுத்ததற்குக் கொண்டு செல்கிறது — ஈக்குள் அது பெருக வேண்டிய அவசியமும் இல்லை.",
+              "ಸುರ್ರಾ (ಇದರ ಸರಿಯಾದ ಹೆಸರು <b>ಟ್ರಿಪನೋಸೋಮಿಯಾಸಿಸ್</b>) ಪ್ರೋಟೋಜೋವಾದಿಂದ ಬರುತ್ತದೆ — ಬೇಬಿಸಿಯೋಸಿಸ್‌ನಲ್ಲಿರುವ ಅದೇ ಬಗೆಯ ಸೂಕ್ಷ್ಮಜೀವಿ. ಆದರೆ ಇದು ಉಣ್ಣಿಗಳಿಂದಲ್ಲ, ಟಬಾನಸ್, ಸ್ಟೋಮಾಕ್ಸಿಸ್, ಹೀಮಾಟೋಬಿಯಾ ಮುಂತಾದ ಕಚ್ಚುವ ನೊಣಗಳಿಂದ ಹರಡುತ್ತದೆ. ನೊಣ ರಕ್ತ ಕುಡಿಯುವಾಗ, ಸೋಂಕಿತ ರಕ್ತವನ್ನು ತನ್ನ ಬಾಯಿಯ ಭಾಗಗಳಲ್ಲಿ ಹೊತ್ತು ಒಂದು ಪ್ರಾಣಿಯಿಂದ ಮತ್ತೊಂದಕ್ಕೆ ಒಯ್ಯುತ್ತದೆ — ನೊಣದೊಳಗೆ ಅದು ಮೊದಲು ಹೆಚ್ಚಬೇಕಾದ ಅಗತ್ಯವೂ ಇಲ್ಲ.",
+              "सर्रा (इसका सही नाम <b>ट्रिपैनोसोमियासिस</b> है) प्रोटोज़ोआ से होता है — वही मोटे तौर पर उसी तरह का सूक्ष्म जीव जो बेबेसियोसिस में होता है। लेकिन यह किलनी से नहीं, बल्कि टबानस, स्टोमोक्सिस और हिमैटोबिया जैसी काटने वाली मक्खियों से फैलता है। मक्खी खून पीते समय संक्रमित खून अपने मुँह के हिस्सों पर लेकर एक पशु से अगले पशु तक पहुँचा देती है — उसे मक्खी के अंदर पहले बढ़ने की भी ज़रूरत नहीं पड़ती।"
             ),
           },
           {
             type: "text",
-            heading: L("Who Can Get It"),
+            heading: L("Who Can Get It", "ఎవరికి వస్తుంది", "யாருக்கு வரலாம்", "ಯಾರಿಗೆ ಬರಬಹುದು", "यह किसे हो सकता है"),
             html: L(
-              "Both cattle and buffalo can get Surra, and they can also act as a hidden reservoir (a quiet source of infection) for horses and camels. The infection can spread through blood from an infected animal, and occasionally even through meat or milk. Animals that are already under stress are more likely to fall sick from it."
+              "Both cattle and buffalo can get Surra, and they can also act as a hidden reservoir (a quiet source of infection) for horses and camels. The infection can spread through blood from an infected animal, and occasionally even through meat or milk. Animals that are already under stress are more likely to fall sick from it.",
+              "పశువులు, గేదెలు రెండింటికీ సుర్రా రావచ్చు, అవి గుర్రాలు, ఒంటెలకు దాగిన మూలంగా (ఇన్ఫెక్షన్‌కు నిశ్శబ్ద వనరుగా) కూడా ఉండగలవు. ఇన్ఫెక్షన్ ఉన్న జంతువు రక్తం ద్వారా, అరుదుగా మాంసం లేదా పాల ద్వారా కూడా వ్యాపించవచ్చు. ఇప్పటికే ఒత్తిడిలో ఉన్న జంతువులు దీనివల్ల జబ్బుపడే అవకాశం ఎక్కువ.",
+              "மாடுகள், எருமைகள் இரண்டுக்கும் சுர்ரா வரலாம்; அவை குதிரைகள், ஒட்டகங்களுக்கு மறைமுக மூலமாகவும் (தொற்றின் அமைதியான ஊற்றாகவும்) இருக்கலாம். தொற்றுள்ள விலங்கின் இரத்தம் மூலமாகவும், அரிதாக இறைச்சி அல்லது பால் மூலமாகவும் கூட பரவலாம். ஏற்கனவே மன அழுத்தத்தில் உள்ள விலங்குகள் இதனால் நோய்வாய்ப்பட வாய்ப்பு அதிகம்.",
+              "ದನ ಮತ್ತು ಎಮ್ಮೆ ಎರಡಕ್ಕೂ ಸುರ್ರಾ ಬರಬಹುದು, ಅವು ಕುದುರೆ ಮತ್ತು ಒಂಟೆಗಳಿಗೆ ಗುಪ್ತ ಮೂಲವಾಗಿಯೂ (ಸೋಂಕಿನ ಮೌನ ಮೂಲ) ಇರಬಲ್ಲವು. ಸೋಂಕಿತ ಪ್ರಾಣಿಯ ರಕ್ತದ ಮೂಲಕ, ಅಪರೂಪಕ್ಕೆ ಮಾಂಸ ಅಥವಾ ಹಾಲಿನ ಮೂಲಕವೂ ಹರಡಬಹುದು. ಈಗಾಗಲೇ ಒತ್ತಡದಲ್ಲಿರುವ ಪ್ರಾಣಿಗಳು ಇದರಿಂದ ಅನಾರೋಗ್ಯಕ್ಕೆ ಒಳಗಾಗುವ ಸಾಧ್ಯತೆ ಹೆಚ್ಚು.",
+              "गाय-भैंस दोनों को सर्रा हो सकता है, और वे घोड़ों और ऊँटों के लिए छिपे स्रोत (संक्रमण का चुपचाप बना रहने वाला भंडार) का काम भी कर सकते हैं। संक्रमित पशु के खून से, और कभी-कभी मांस या दूध से भी यह फैल सकता है। जो पशु पहले से तनाव में हों, उनके इससे बीमार पड़ने की संभावना ज़्यादा होती है।"
             ),
           },
           {
             type: "stat-grid",
             items: [
               {
-                label: L("Common signs"),
-                text: L("Progressive anaemia, weight loss and weakness. In buffaloes, abortion, infertility and stillbirth may also occur."),
+                label: L("Common signs", "సాధారణ లక్షణాలు", "பொதுவான அறிகுறிகள்", "ಸಾಮಾನ್ಯ ಲಕ್ಷಣಗಳು", "आम लक्षण"),
+                text: L("Progressive anaemia, weight loss and weakness. In buffaloes, abortion, infertility and stillbirth may also occur.", "క్రమంగా పెరిగే రక్తహీనత, బరువు తగ్గడం, నీరసం. గేదెల్లో గర్భస్రావం, గర్భం నిలవకపోవడం, చనిపోయిన దూడ పుట్టడం కూడా జరగవచ్చు.", "படிப்படியாக அதிகரிக்கும் இரத்தசோகை, எடை குறைவு, பலவீனம். எருமைகளில் கருச்சிதைவு, கருத்தரிக்காமை, இறந்த கன்று பிறத்தல் ஆகியவையும் ஏற்படலாம்.", "ಕ್ರಮೇಣ ಹೆಚ್ಚುವ ರಕ್ತಹೀನತೆ, ತೂಕ ಇಳಿಕೆ ಮತ್ತು ದೌರ್ಬಲ್ಯ. ಎಮ್ಮೆಗಳಲ್ಲಿ ಗರ್ಭಪಾತ, ಬಂಜೆತನ ಮತ್ತು ಸತ್ತ ಕರು ಹುಟ್ಟುವುದೂ ಆಗಬಹುದು.", "धीरे-धीरे बढ़ती खून की कमी, वज़न घटना और कमज़ोरी। भैंसों में गर्भपात, बाँझपन और मरा हुआ बच्चा पैदा होना भी हो सकता है।"),
               },
               {
-                label: L("Body swelling"),
-                text: L("Puffy, fluid-filled swelling on the lower parts of the body — legs, brisket (chest area) and belly. Lymph nodes may also be swollen."),
+                label: L("Body swelling", "శరీరంలో వాపు", "உடலில் வீக்கம்", "ದೇಹದಲ್ಲಿ ಊತ", "शरीर में सूजन"),
+                text: L("Puffy, fluid-filled swelling on the lower parts of the body — legs, brisket (chest area) and belly. Lymph nodes may also be swollen.", "శరీరం కింది భాగాల్లో — కాళ్లు, ఛాతీ కింద (బ్రిస్కెట్), పొట్ట — నీరు చేరి ఉబ్బినట్లు వాపు. లింఫ్ గ్రంథులు కూడా ఉబ్బవచ్చు.", "உடலின் கீழ்ப் பகுதிகளில் — கால்கள், மார்புப் பகுதி (பிரிஸ்கெட்), வயிறு — நீர் தேங்கி உப்பிய வீக்கம். நிணநீர் சுரப்பிகளும் வீங்கலாம்.", "ದೇಹದ ಕೆಳ ಭಾಗಗಳಲ್ಲಿ — ಕಾಲುಗಳು, ಎದೆಯ ಕೆಳಗೆ (ಬ್ರಿಸ್ಕೆಟ್), ಹೊಟ್ಟೆ — ನೀರು ತುಂಬಿ ಊದಿಕೊಂಡ ಊತ. ದುಗ್ಧರಸ ಗ್ರಂಥಿಗಳೂ ಊದಿಕೊಳ್ಳಬಹುದು.", "शरीर के निचले हिस्सों — टाँगों, छाती के नीचे (ब्रिस्केट) और पेट — में पानी भरी फूली हुई सूजन। लसिका ग्रंथियाँ (लिम्फ नोड) भी सूज सकती हैं।"),
               },
               {
-                label: L("Nervous signs"),
-                text: L("Head tilting, walking in circles, blindness, unusual excitability, and an odd paddling movement of the legs."),
+                label: L("Nervous signs", "నాడీ సంబంధిత లక్షణాలు", "நரம்பு தொடர்பான அறிகுறிகள்", "ನರ ಸಂಬಂಧಿ ಲಕ್ಷಣಗಳು", "नस-तंत्र (दिमाग़ी) के लक्षण"),
+                text: L("Head tilting, walking in circles, blindness, unusual excitability, and an odd paddling movement of the legs.", "తల ఒక వైపు వంచడం, గుండ్రంగా తిరగడం, గుడ్డితనం, అసాధారణంగా ఉద్రేకపడటం, కాళ్లను తెడ్డు వేసినట్టు కదపడం.", "தலையை ஒரு பக்கம் சாய்த்தல், வட்டமாகச் சுற்றி நடத்தல், பார்வையின்மை, அசாதாரணமாக கிளர்ச்சியடைதல், கால்களை துடுப்பு போல அசைத்தல்.", "ತಲೆಯನ್ನು ಒಂದು ಕಡೆ ವಾಲಿಸುವುದು, ವೃತ್ತಾಕಾರವಾಗಿ ಸುತ್ತುವುದು, ಕುರುಡುತನ, ಅಸಾಮಾನ್ಯ ಉದ್ರೇಕ, ಮತ್ತು ಕಾಲುಗಳನ್ನು ಹುಟ್ಟು ಹಾಕುವಂತೆ ಚಲಿಸುವುದು.", "सिर एक तरफ़ झुकाना, गोल-गोल घूमना, अंधापन, असामान्य बेचैनी या उत्तेजना, और टाँगों को चप्पू की तरह चलाना।"),
               },
             ],
           },
           {
             type: "callout",
             style: "warning",
-            heading: L("The Course Can Be Long and Unpredictable"),
+            heading: L("The Course Can Be Long and Unpredictable", "వ్యాధి గమనం చాలా కాలం సాగవచ్చు, ఊహించలేము", "நோயின் போக்கு நீண்டதாகவும் கணிக்க முடியாததாகவும் இருக்கலாம்", "ರೋಗದ ಹಾದಿ ಬಹಳ ಕಾಲ ಸಾಗಬಹುದು, ಊಹಿಸಲಾಗದು", "बीमारी लंबी खिंच सकती है और उसका रुख अनिश्चित होता है"),
             text: L(
-              "In cattle, Surra can drag on for as long as 2 years with high mortality. In other cases, death can happen anywhere between 2 weeks and 2 months. Because the timeline is so unpredictable, don't wait to see how things develop — report any of these signs as soon as you notice them."
+              "In cattle, Surra can drag on for as long as 2 years with high mortality. In other cases, death can happen anywhere between 2 weeks and 2 months. Because the timeline is so unpredictable, don't wait to see how things develop — report any of these signs as soon as you notice them.",
+              "పశువుల్లో సుర్రా 2 సంవత్సరాల వరకు సాగి, ఎక్కువ మరణాలకు దారితీయవచ్చు. కొన్ని సందర్భాల్లో 2 వారాల నుండి 2 నెలల మధ్య ఎప్పుడైనా మరణం సంభవించవచ్చు. కాలరేఖ ఇంత అనిశ్చితంగా ఉంటుంది కాబట్టి, ఎలా మారుతుందో చూద్దామని ఆగకండి — ఈ లక్షణాల్లో ఏవి కనిపించినా వెంటనే తెలియజేయండి.",
+              "மாடுகளில் சுர்ரா 2 ஆண்டுகள் வரை நீடித்து, அதிக இறப்புக்கு வழிவகுக்கலாம். வேறு சில நேரங்களில் 2 வாரங்கள் முதல் 2 மாதங்களுக்குள் எப்போது வேண்டுமானாலும் மரணம் நிகழலாம். காலவரிசை இவ்வளவு கணிக்க முடியாததாக இருப்பதால், என்ன நடக்கிறது என்று காத்திருக்காதீர்கள் — இந்த அறிகுறிகளில் எதைக் கண்டாலும் உடனே தெரிவியுங்கள்.",
+              "ದನಗಳಲ್ಲಿ ಸುರ್ರಾ 2 ವರ್ಷಗಳವರೆಗೆ ಎಳೆದು ಹೆಚ್ಚು ಸಾವುಗಳಿಗೆ ಕಾರಣವಾಗಬಹುದು. ಇತರ ಸಂದರ್ಭಗಳಲ್ಲಿ 2 ವಾರಗಳಿಂದ 2 ತಿಂಗಳ ನಡುವೆ ಯಾವಾಗ ಬೇಕಾದರೂ ಸಾವು ಸಂಭವಿಸಬಹುದು. ಸಮಯರೇಖೆ ಇಷ್ಟು ಅನಿಶ್ಚಿತವಾಗಿರುವುದರಿಂದ, ಏನಾಗುತ್ತದೆ ಎಂದು ಕಾಯಬೇಡಿ — ಈ ಲಕ್ಷಣಗಳಲ್ಲಿ ಯಾವುದೇ ಕಂಡರೂ ತಕ್ಷಣ ತಿಳಿಸಿ.",
+              "मवेशियों में सर्रा 2 साल तक खिंच सकता है और इसमें मौतें ज़्यादा होती हैं। दूसरे मामलों में 2 हफ़्ते से 2 महीने के बीच कभी भी मौत हो सकती है। समय-सीमा इतनी अनिश्चित होने की वजह से यह देखने के लिए मत रुकिए कि आगे क्या होता है — इनमें से कोई भी लक्षण दिखते ही तुरंत बताइए।"
             ),
           },
           {
             type: "callout",
             style: "tip",
-            heading: L("Call the Vet Immediately"),
-            text: L("Timely, early treatment gives a high cure rate for Surra. The moment you notice the signs above, this is one to report the same day, not later."),
+            heading: L("Call the Vet Immediately", "వెంటనే పశువైద్యుడిని పిలవండి", "உடனே கால்நடை மருத்துவரை அழையுங்கள்", "ತಕ್ಷಣ ಪಶುವೈದ್ಯರನ್ನು ಕರೆಯಿರಿ", "तुरंत पशु चिकित्सक को बुलाएँ"),
+            text: L("Timely, early treatment gives a high cure rate for Surra. The moment you notice the signs above, this is one to report the same day, not later.", "సకాలంలో, ముందుగానే చికిత్స చేస్తే సుర్రా నయమయ్యే అవకాశం చాలా ఎక్కువ. పైన చెప్పిన లక్షణాలు కనిపించిన క్షణమే, ఇది ఆ రోజే తెలియజేయాల్సిన విషయం, తర్వాత కాదు.", "சரியான நேரத்தில், ஆரம்பத்திலேயே சிகிச்சை அளித்தால் சுர்ரா குணமாகும் வாய்ப்பு அதிகம். மேலே சொன்ன அறிகுறிகளைக் கண்ட உடனே, இதை அதே நாளில் தெரிவிக்க வேண்டும், பிறகு அல்ல.", "ಸಕಾಲದಲ್ಲಿ, ಆರಂಭದಲ್ಲೇ ಚಿಕಿತ್ಸೆ ನೀಡಿದರೆ ಸುರ್ರಾ ಗುಣವಾಗುವ ಪ್ರಮಾಣ ಹೆಚ್ಚು. ಮೇಲಿನ ಲಕ್ಷಣಗಳು ಕಂಡ ಕ್ಷಣವೇ, ಇದನ್ನು ಅದೇ ದಿನ ತಿಳಿಸಬೇಕು, ನಂತರ ಅಲ್ಲ.", "समय पर, शुरुआत में ही इलाज मिलने से सर्रा के ठीक होने की दर ऊँची रहती है। ऊपर बताए लक्षण दिखते ही यह उसी दिन बताने वाली बात है, बाद में नहीं।"),
           },
         ],
         check: [
           {
             type: "mcq",
-            q: L("How do biting flies spread Surra?"),
+            q: L("How do biting flies spread Surra?", "కుట్టే ఈగలు సుర్రాను ఎలా వ్యాపింపజేస్తాయి?", "கடிக்கும் ஈக்கள் சுர்ராவை எப்படிப் பரப்புகின்றன?", "ಕಚ್ಚುವ ನೊಣಗಳು ಸುರ್ರಾವನ್ನು ಹೇಗೆ ಹರಡುತ್ತವೆ?", "काटने वाली मक्खियाँ सर्रा कैसे फैलाती हैं?"),
             options: [
-              L("By laying eggs on the animal's skin"),
-              L("By carrying infected blood on their mouthparts from one animal to another while feeding"),
-              L("Through the animal's feed only"),
-              L("Surra cannot spread through flies"),
+              L("By laying eggs on the animal's skin", "జంతువు చర్మంపై గుడ్లు పెట్టడం ద్వారా", "விலங்கின் தோலில் முட்டையிடுவதன் மூலம்", "ಪ್ರಾಣಿಯ ಚರ್ಮದ ಮೇಲೆ ಮೊಟ್ಟೆ ಇಡುವ ಮೂಲಕ", "पशु की खाल पर अंडे देकर"),
+              L("By carrying infected blood on their mouthparts from one animal to another while feeding", "రక్తం తాగుతూ, ఇన్ఫెక్షన్ ఉన్న రక్తాన్ని తమ నోటి భాగాలపై ఒక జంతువు నుండి మరొక దానికి మోసుకెళ్లడం ద్వారా", "இரத்தம் குடிக்கும்போது, தொற்றுள்ள இரத்தத்தை தங்கள் வாய்ப் பகுதிகளில் ஒரு விலங்கிலிருந்து மற்றொன்றுக்கு சுமந்து செல்வதன் மூலம்", "ರಕ್ತ ಕುಡಿಯುವಾಗ, ಸೋಂಕಿತ ರಕ್ತವನ್ನು ತಮ್ಮ ಬಾಯಿಯ ಭಾಗಗಳಲ್ಲಿ ಒಂದು ಪ್ರಾಣಿಯಿಂದ ಇನ್ನೊಂದಕ್ಕೆ ಒಯ್ಯುವ ಮೂಲಕ", "खून पीते समय संक्रमित खून अपने मुँह के हिस्सों पर एक पशु से दूसरे तक ले जाकर"),
+              L("Through the animal's feed only", "జంతువు మేత ద్వారా మాత్రమే", "விலங்கின் தீவனம் மூலம் மட்டுமே", "ಪ್ರಾಣಿಯ ಮೇವಿನ ಮೂಲಕ ಮಾತ್ರ", "सिर्फ़ पशु के चारे से"),
+              L("Surra cannot spread through flies", "సుర్రా ఈగల ద్వారా వ్యాపించదు", "சுர்ரா ஈக்கள் மூலம் பரவாது", "ಸುರ್ರಾ ನೊಣಗಳ ಮೂಲಕ ಹರಡುವುದಿಲ್ಲ", "सर्रा मक्खियों से नहीं फैल सकता"),
             ],
             answer: 1,
-            explain: L("Biting flies carry infected blood on their mouthparts and pass it on while feeding on the next animal — no tick is needed."),
+            explain: L("Biting flies carry infected blood on their mouthparts and pass it on while feeding on the next animal — no tick is needed.", "కుట్టే ఈగలు ఇన్ఫెక్షన్ ఉన్న రక్తాన్ని తమ నోటి భాగాలపై మోసుకెళ్లి, తర్వాతి జంతువు రక్తం తాగేటప్పుడు అంటిస్తాయి — పేను అవసరం లేదు.", "கடிக்கும் ஈக்கள் தொற்றுள்ள இரத்தத்தை தங்கள் வாய்ப் பகுதிகளில் சுமந்து, அடுத்த விலங்கிடம் இரத்தம் குடிக்கும்போது பரப்புகின்றன — உண்ணி தேவையில்லை.", "ಕಚ್ಚುವ ನೊಣಗಳು ಸೋಂಕಿತ ರಕ್ತವನ್ನು ತಮ್ಮ ಬಾಯಿಯ ಭಾಗಗಳಲ್ಲಿ ಹೊತ್ತು, ಮುಂದಿನ ಪ್ರಾಣಿಯ ರಕ್ತ ಕುಡಿಯುವಾಗ ಹರಡುತ್ತವೆ — ಉಣ್ಣಿ ಬೇಕಿಲ್ಲ.", "काटने वाली मक्खियाँ संक्रमित खून अपने मुँह के हिस्सों पर लेकर अगले पशु का खून पीते समय उसे आगे पहुँचा देती हैं — इसमें किलनी की ज़रूरत नहीं।"),
           },
           {
             type: "truefalse",
-            q: L("Because Surra's course can be so unpredictable, signs should be reported the same day they are noticed."),
+            q: L("Because Surra's course can be so unpredictable, signs should be reported the same day they are noticed.", "సుర్రా గమనం ఇంత అనిశ్చితంగా ఉంటుంది కాబట్టి, లక్షణాలు కనిపించిన రోజే తెలియజేయాలి.", "சுர்ராவின் போக்கு இவ்வளவு கணிக்க முடியாததாக இருப்பதால், அறிகுறிகள் தெரிந்த அதே நாளில் தெரிவிக்க வேண்டும்.", "ಸುರ್ರಾದ ಹಾದಿ ಇಷ್ಟು ಅನಿಶ್ಚಿತವಾಗಿರುವುದರಿಂದ, ಲಕ್ಷಣಗಳು ಕಂಡ ದಿನವೇ ತಿಳಿಸಬೇಕು.", "सर्रा का रुख इतना अनिश्चित होता है, इसलिए लक्षण दिखने के उसी दिन बता देना चाहिए।"),
             answer: true,
-            explain: L("Yes — death can happen anywhere from 2 weeks to 2 months, or the disease can drag on for up to 2 years, so prompt reporting matters."),
+            explain: L("Yes — death can happen anywhere from 2 weeks to 2 months, or the disease can drag on for up to 2 years, so prompt reporting matters.", "అవును — 2 వారాల నుండి 2 నెలల మధ్య ఎప్పుడైనా మరణం జరగవచ్చు, లేదా వ్యాధి 2 సంవత్సరాల వరకు సాగవచ్చు, కాబట్టి వెంటనే తెలియజేయడం ముఖ్యం.", "ஆம் — 2 வாரங்கள் முதல் 2 மாதங்களுக்குள் எப்போது வேண்டுமானாலும் மரணம் நிகழலாம், அல்லது நோய் 2 ஆண்டுகள் வரை நீடிக்கலாம்; அதனால் உடனே தெரிவிப்பது முக்கியம்.", "ಹೌದು — 2 ವಾರಗಳಿಂದ 2 ತಿಂಗಳ ನಡುವೆ ಯಾವಾಗ ಬೇಕಾದರೂ ಸಾವು ಸಂಭವಿಸಬಹುದು, ಅಥವಾ ರೋಗ 2 ವರ್ಷಗಳವರೆಗೆ ಎಳೆಯಬಹುದು; ಆದ್ದರಿಂದ ತಕ್ಷಣ ತಿಳಿಸುವುದು ಮುಖ್ಯ.", "हाँ — 2 हफ़्ते से 2 महीने के बीच कभी भी मौत हो सकती है, या बीमारी 2 साल तक खिंच सकती है, इसलिए तुरंत बताना ज़रूरी है।"),
           },
         ],
       },
       {
         id: "t-m6-tick-fly-control",
-        title: L("Controlling Ticks and Flies"),
+        title: L("Controlling Ticks and Flies", "పేలు, ఈగల నియంత్రణ", "உண்ணி, ஈக்களைக் கட்டுப்படுத்துதல்", "ಉಣ್ಣಿ, ನೊಣಗಳ ನಿಯಂತ್ರಣ", "किलनी और मक्खियों की रोकथाम"),
         teach: [
             {
               type: "photo",
               src: "assets/photo-m6-pour-on-acaricide.jpg",
-              alt: L("A person's hand pouring a liquid acaricide from a bottle along the backline of a cow"),
-              caption: L("Applying an acaricide along an animal's backline — one practical way ticks are kept under control."),
+              alt: L("A person's hand pouring a liquid acaricide from a bottle along the backline of a cow", "ఒక వ్యక్తి చేతితో సీసా నుండి ద్రవ అకారిసైడ్‌ను (పేలను చంపే మందు) ఆవు వెన్నుపై వెంబడి పోస్తున్న దృశ్యం.", "ஒருவர் தன் கையால் பாட்டிலிலிருந்து திரவ அகாரிசைடை (உண்ணிக்கொல்லி) பசுவின் முதுகுக் கோடு நெடுகிலும் ஊற்றும் காட்சி.", "ಒಬ್ಬ ವ್ಯಕ್ತಿ ತನ್ನ ಕೈಯಿಂದ ಬಾಟಲಿಯಿಂದ ದ್ರವ ಅಕಾರಿಸೈಡ್ (ಉಣ್ಣಿನಾಶಕ) ಅನ್ನು ಹಸುವಿನ ಬೆನ್ನಿನ ಉದ್ದಕ್ಕೂ ಸುರಿಯುತ್ತಿರುವ ದೃಶ್ಯ.", "एक व्यक्ति के हाथ से बोतल से तरल एकेरिसाइड (किलनी मारने की दवा) गाय की पीठ की सीध में डाला जा रहा है।"),
+              caption: L("Applying an acaricide along an animal's backline — one practical way ticks are kept under control.", "జంతువు వెన్ను వెంబడి అకారిసైడ్ పూయడం — పేలను అదుపులో ఉంచే ఒక ఆచరణాత్మక మార్గం.", "விலங்கின் முதுகுக் கோடு நெடுகிலும் அகாரிசைடு தடவுதல் — உண்ணிகளைக் கட்டுக்குள் வைக்கும் ஒரு நடைமுறை வழி.", "ಪ್ರಾಣಿಯ ಬೆನ್ನಿನ ಉದ್ದಕ್ಕೂ ಅಕಾರಿಸೈಡ್ ಹಚ್ಚುವುದು — ಉಣ್ಣಿಗಳನ್ನು ಹತೋಟಿಯಲ್ಲಿಡುವ ಒಂದು ಪ್ರಾಯೋಗಿಕ ವಿಧಾನ.", "पशु की पीठ की सीध में एकेरिसाइड लगाना — किलनी को काबू में रखने का एक व्यावहारिक तरीका।"),
             },
           {
             type: "text",
-            heading: L("Why Bother Controlling Them"),
+            heading: L("Why Bother Controlling Them", "వాటిని ఎందుకు నియంత్రించాలి", "அவற்றை ஏன் கட்டுப்படுத்த வேண்டும்", "ಅವುಗಳನ್ನು ಏಕೆ ನಿಯಂತ್ರಿಸಬೇಕು", "इन्हें काबू में रखना क्यों ज़रूरी है"),
             html: L(
-              "Ticks and biting flies don't just spread disease — heavy infestations on their own cause anaemia, real productivity loss, severe discomfort, and can even trigger allergic reactions at the biting sites. They also multiply fast: each adult tick can lay around 3000 eggs, and the young ticks (larvae) can survive for 2 to 7 months without feeding, depending on the climate. Left unchecked, a small problem becomes a large one quickly."
+              "Ticks and biting flies don't just spread disease — heavy infestations on their own cause anaemia, real productivity loss, severe discomfort, and can even trigger allergic reactions at the biting sites. They also multiply fast: each adult tick can lay around 3000 eggs, and the young ticks (larvae) can survive for 2 to 7 months without feeding, depending on the climate. Left unchecked, a small problem becomes a large one quickly.",
+              "పేలు, కుట్టే ఈగలు వ్యాధులను వ్యాపింపజేయడమే కాదు — ఎక్కువగా పట్టితే అవే రక్తహీనత, ఉత్పత్తి నష్టం, తీవ్రమైన అసౌకర్యం కలిగిస్తాయి, కుట్టిన చోట్ల అలర్జీ ప్రతిచర్యలు కూడా రావచ్చు. అవి వేగంగా పెరుగుతాయి కూడా: ప్రతి పెద్ద పేను దాదాపు 3000 గుడ్లు పెట్టగలదు, పిల్ల పేలు (లార్వాలు) వాతావరణాన్ని బట్టి తిండి లేకుండా 2 నుండి 7 నెలల వరకు బతకగలవు. పట్టించుకోకపోతే చిన్న సమస్య త్వరగా పెద్దదవుతుంది.",
+              "உண்ணிகளும் கடிக்கும் ஈக்களும் நோய்களைப் பரப்புவதோடு நிற்பதில்லை — அதிகமாக மொய்த்தால் அவையே இரத்தசோகை, உற்பத்தி இழப்பு, கடுமையான அசௌகரியம் ஆகியவற்றை உண்டாக்கும், கடித்த இடங்களில் ஒவ்வாமை எதிர்வினைகளையும் தூண்டலாம். அவை வேகமாகப் பெருகவும் செய்கின்றன: ஒவ்வொரு முதிர்ந்த உண்ணியும் சுமார் 3000 முட்டைகள் இடும், இளம் உண்ணிகள் (லார்வாக்கள்) காலநிலையைப் பொறுத்து உணவின்றி 2 முதல் 7 மாதங்கள் வரை உயிர் வாழும். கவனிக்காமல் விட்டால் சிறிய பிரச்சனை சீக்கிரம் பெரிதாகிவிடும்.",
+              "ಉಣ್ಣಿಗಳು ಮತ್ತು ಕಚ್ಚುವ ನೊಣಗಳು ರೋಗ ಹರಡುವುದು ಮಾತ್ರವಲ್ಲ — ಹೆಚ್ಚು ಮುತ್ತಿಕೊಂಡರೆ ಅವೇ ರಕ್ತಹೀನತೆ, ಉತ್ಪಾದನೆ ನಷ್ಟ, ತೀವ್ರ ಅಸೌಕರ್ಯ ಉಂಟುಮಾಡುತ್ತವೆ, ಕಚ್ಚಿದ ಜಾಗಗಳಲ್ಲಿ ಅಲರ್ಜಿ ಪ್ರತಿಕ್ರಿಯೆಗಳನ್ನೂ ತರಬಹುದು. ಅವು ವೇಗವಾಗಿ ಹೆಚ್ಚುತ್ತವೆ ಕೂಡ: ಪ್ರತಿ ಪ್ರೌಢ ಉಣ್ಣಿ ಸುಮಾರು 3000 ಮೊಟ್ಟೆ ಇಡಬಲ್ಲದು, ಮರಿ ಉಣ್ಣಿಗಳು (ಲಾರ್ವಾ) ಹವಾಮಾನದ ಮೇಲೆ ಅವಲಂಬಿಸಿ ಆಹಾರವಿಲ್ಲದೆ 2 ರಿಂದ 7 ತಿಂಗಳವರೆಗೆ ಬದುಕಬಲ್ಲವು. ನಿರ್ಲಕ್ಷಿಸಿದರೆ ಸಣ್ಣ ಸಮಸ್ಯೆ ಬೇಗ ದೊಡ್ಡದಾಗುತ್ತದೆ.",
+              "किलनी और काटने वाली मक्खियाँ सिर्फ़ बीमारी ही नहीं फैलातीं — ज़्यादा संख्या में हों तो अपने आप में खून की कमी, उत्पादन का नुकसान और भारी तकलीफ़ पैदा करती हैं, और काटने की जगहों पर एलर्जी भी हो सकती है। ये तेज़ी से बढ़ती भी हैं: हर वयस्क किलनी लगभग 3000 अंडे दे सकती है, और उसके बच्चे (लार्वा) मौसम के हिसाब से बिना खाए 2 से 7 महीने तक ज़िंदा रह सकते हैं। अनदेखा करने पर छोटी समस्या जल्दी बड़ी बन जाती है।"
             ),
           },
           {
             type: "stat-grid",
             items: [
               {
-                label: L("New animals"),
-                text: L("Any newly purchased animal should be completely de-ticked before it is allowed to mix with the rest of the herd."),
+                label: L("New animals", "కొత్త జంతువులు", "புதிய விலங்குகள்", "ಹೊಸ ಪ್ರಾಣಿಗಳು", "नए पशु"),
+                text: L("Any newly purchased animal should be completely de-ticked before it is allowed to mix with the rest of the herd.", "కొత్తగా కొన్న ప్రతి జంతువును మిగతా మందతో కలవనివ్వడానికి ముందు పూర్తిగా పేలు తీసివేయాలి.", "புதிதாக வாங்கிய ஒவ்வொரு விலங்கையும் மற்ற மந்தையுடன் கலக்க விடுவதற்கு முன் முழுமையாக உண்ணிகளை நீக்க வேண்டும்.", "ಹೊಸದಾಗಿ ಖರೀದಿಸಿದ ಪ್ರತಿ ಪ್ರಾಣಿಯನ್ನು ಉಳಿದ ಹಿಂಡಿನೊಂದಿಗೆ ಸೇರಿಸುವ ಮೊದಲು ಸಂಪೂರ್ಣವಾಗಿ ಉಣ್ಣಿ ತೆಗೆಯಬೇಕು.", "नए खरीदे गए हर पशु को बाकी झुंड में मिलाने से पहले पूरी तरह किलनी-मुक्त कर लेना चाहिए।"),
               },
               {
-                label: L("Spraying the animal and the shed"),
+                label: L("Spraying the animal and the shed", "జంతువుపై, కొట్టంపై పిచికారీ చేయడం", "விலங்கு மற்றும் தொழுவத்தில் தெளித்தல்", "ಪ್ರಾಣಿ ಮತ್ತು ಕೊಟ್ಟಿಗೆಗೆ ಸಿಂಪಡಿಸುವುದು", "पशु और शेड पर छिड़काव"),
                 text: L(
-                  "Ticks are controlled with periodic spraying of an acaricide (a tick-killing chemical) on the animal's body — and cracks and crevices in the shed also need a higher-strength spray, since that's where eggs and larvae hide. This spraying, and the exact chemical and strength used, should be done under a veterinarian's advice."
+                  "Ticks are controlled with periodic spraying of an acaricide (a tick-killing chemical) on the animal's body — and cracks and crevices in the shed also need a higher-strength spray, since that's where eggs and larvae hide. This spraying, and the exact chemical and strength used, should be done under a veterinarian's advice.",
+                  "జంతువు శరీరంపై అకారిసైడ్ (పేలను చంపే రసాయనం) ను క్రమం తప్పకుండా పిచికారీ చేయడం ద్వారా పేలను నియంత్రిస్తారు — కొట్టంలోని పగుళ్లు, సందుల్లో గుడ్లు, లార్వాలు దాక్కుంటాయి కాబట్టి అక్కడ ఎక్కువ గాఢత గల మందును పిచికారీ చేయాలి. ఈ పిచికారీ, వాడే రసాయనం, దాని గాఢత పశువైద్యుడి సలహా మేరకే ఉండాలి.",
+                  "விலங்கின் உடலில் அகாரிசைடை (உண்ணிகளைக் கொல்லும் ரசாயனம்) அவ்வப்போது தெளிப்பதன் மூலம் உண்ணிகள் கட்டுப்படுத்தப்படுகின்றன — தொழுவத்தின் விரிசல்கள், இடுக்குகளில் முட்டைகளும் லார்வாக்களும் மறைந்திருப்பதால் அங்கு அதிக வீரியமுள்ள மருந்தைத் தெளிக்க வேண்டும். இந்தத் தெளிப்பும், பயன்படுத்தும் ரசாயனமும், அதன் வீரியமும் கால்நடை மருத்துவரின் ஆலோசனைப்படியே இருக்க வேண்டும்.",
+                  "ಪ್ರಾಣಿಯ ದೇಹದ ಮೇಲೆ ಅಕಾರಿಸೈಡ್ (ಉಣ್ಣಿ ಕೊಲ್ಲುವ ರಾಸಾಯನಿಕ) ಅನ್ನು ನಿಯಮಿತವಾಗಿ ಸಿಂಪಡಿಸುವ ಮೂಲಕ ಉಣ್ಣಿಗಳನ್ನು ನಿಯಂತ್ರಿಸಲಾಗುತ್ತದೆ — ಕೊಟ್ಟಿಗೆಯ ಬಿರುಕು, ಸಂದುಗಳಲ್ಲಿ ಮೊಟ್ಟೆ, ಲಾರ್ವಾಗಳು ಅಡಗಿರುವುದರಿಂದ ಅಲ್ಲಿ ಹೆಚ್ಚು ಗಾಢತೆಯ ಔಷಧ ಸಿಂಪಡಿಸಬೇಕು. ಈ ಸಿಂಪಡಣೆ, ಬಳಸುವ ರಾಸಾಯನಿಕ ಮತ್ತು ಅದರ ಗಾಢತೆ ಪಶುವೈದ್ಯರ ಸಲಹೆಯಂತೆಯೇ ಇರಬೇಕು.",
+                  "किलनी को काबू में रखने के लिए पशु के शरीर पर समय-समय पर एकेरिसाइड (किलनी मारने वाला रसायन) छिड़का जाता है — और शेड की दरारों व सुराखों में ज़्यादा तेज़ घोल छिड़कना पड़ता है, क्योंकि अंडे और लार्वा वहीं छिपते हैं। यह छिड़काव, और कौन-सा रसायन कितनी ताकत का लेना है, पशु चिकित्सक की सलाह से ही होना चाहिए।"
                 ),
               },
               {
-                label: L("Avoiding resistance"),
+                label: L("Avoiding resistance", "నిరోధకత రాకుండా చూడటం", "எதிர்ப்புத் திறன் உருவாகாமல் தடுத்தல்", "ನಿರೋಧಕತೆ ಬರದಂತೆ ತಡೆಯುವುದು", "प्रतिरोध बनने से रोकना"),
                 text: L(
-                  "Using the exact same acaricide again and again lets ticks build up resistance to it over time, so the type used should be changed from time to time — this decision is best left to the vet."
+                  "Using the exact same acaricide again and again lets ticks build up resistance to it over time, so the type used should be changed from time to time — this decision is best left to the vet.",
+                  "ఒకే అకారిసైడ్‌ను మళ్లీ మళ్లీ వాడితే పేలు కాలక్రమేణా దానికి నిరోధకత పెంచుకుంటాయి, కాబట్టి వాడే రకాన్ని అప్పుడప్పుడు మార్చాలి — ఈ నిర్ణయం పశువైద్యుడికే వదిలేయడం మంచిది.",
+                  "ஒரே அகாரிசைடை மீண்டும் மீண்டும் பயன்படுத்தினால் உண்ணிகள் காலப்போக்கில் அதற்கு எதிர்ப்புத் திறனை உருவாக்கிக் கொள்ளும்; எனவே பயன்படுத்தும் வகையை அவ்வப்போது மாற்ற வேண்டும் — இந்த முடிவை கால்நடை மருத்துவரிடமே விட்டுவிடுவது நல்லது.",
+                  "ಒಂದೇ ಅಕಾರಿಸೈಡ್ ಅನ್ನು ಮತ್ತೆ ಮತ್ತೆ ಬಳಸಿದರೆ ಉಣ್ಣಿಗಳು ಕಾಲಕ್ರಮೇಣ ಅದಕ್ಕೆ ನಿರೋಧಕತೆ ಬೆಳೆಸಿಕೊಳ್ಳುತ್ತವೆ, ಆದ್ದರಿಂದ ಬಳಸುವ ವಿಧವನ್ನು ಆಗಾಗ ಬದಲಿಸಬೇಕು — ಈ ನಿರ್ಧಾರವನ್ನು ಪಶುವೈದ್ಯರಿಗೇ ಬಿಡುವುದು ಒಳ್ಳೆಯದು.",
+                  "एक ही एकेरिसाइड बार-बार इस्तेमाल करने से किलनी समय के साथ उसके प्रति प्रतिरोधी बन जाती हैं, इसलिए दवा का प्रकार समय-समय पर बदलना चाहिए — यह फ़ैसला पशु चिकित्सक पर छोड़ना ही बेहतर है।"
                 ),
               },
             ],
           },
           {
             type: "text",
-            heading: L("Keeping Flies Down"),
+            heading: L("Keeping Flies Down", "ఈగలను తగ్గించడం", "ஈக்களைக் குறைத்தல்", "ನೊಣಗಳನ್ನು ಕಡಿಮೆ ಮಾಡುವುದು", "मक्खियों को कम रखना"),
             html: L(
-              "Fly control leans much more on everyday shed hygiene, which is something ground staff can act on directly: dispose of manure and urine regularly, at a reasonable distance from the shed, and make sure water never stagnates anywhere nearby — both are places flies breed. Smoking the shed with raw leaves (neem leaves work well) in the evenings also helps reduce flies."
+              "Fly control leans much more on everyday shed hygiene, which is something ground staff can act on directly: dispose of manure and urine regularly, at a reasonable distance from the shed, and make sure water never stagnates anywhere nearby — both are places flies breed. Smoking the shed with raw leaves (neem leaves work well) in the evenings also helps reduce flies.",
+              "ఈగల నియంత్రణ ఎక్కువగా కొట్టం పరిశుభ్రతపై ఆధారపడుతుంది, దీన్ని క్షేత్ర సిబ్బంది నేరుగా చేయగలరు: పేడ, మూత్రాన్ని క్రమం తప్పకుండా కొట్టానికి తగినంత దూరంలో పారవేయండి, దగ్గరలో ఎక్కడా నీరు నిలవకుండా చూడండి — రెండూ ఈగలు గుడ్లు పెట్టే చోట్లు. సాయంత్రాల్లో పచ్చి ఆకులతో (వేప ఆకులు బాగా పనిచేస్తాయి) కొట్టానికి పొగ వేయడం కూడా ఈగలను తగ్గించడానికి సహాయపడుతుంది.",
+              "ஈக் கட்டுப்பாடு பெரும்பாலும் தினசரி தொழுவ சுகாதாரத்தைச் சார்ந்துள்ளது, இதை களப் பணியாளர்கள் நேரடியாகச் செய்யலாம்: சாணம், சிறுநீரை தொழுவத்திலிருந்து நியாயமான தூரத்தில் தவறாமல் அப்புறப்படுத்துங்கள், அருகில் எங்கும் தண்ணீர் தேங்காமல் பார்த்துக் கொள்ளுங்கள் — இரண்டும் ஈக்கள் முட்டையிடும் இடங்கள். மாலை வேளைகளில் பச்சை இலைகளால் (வேப்பிலை நன்றாக வேலை செய்யும்) தொழுவத்துக்குப் புகை போடுவதும் ஈக்களைக் குறைக்க உதவும்.",
+              "ನೊಣ ನಿಯಂತ್ರಣ ಹೆಚ್ಚಾಗಿ ದೈನಂದಿನ ಕೊಟ್ಟಿಗೆ ಸ್ವಚ್ಛತೆಯ ಮೇಲೆ ಅವಲಂಬಿತ, ಇದನ್ನು ಕ್ಷೇತ್ರ ಸಿಬ್ಬಂದಿ ನೇರವಾಗಿ ಮಾಡಬಹುದು: ಸಗಣಿ ಮತ್ತು ಮೂತ್ರವನ್ನು ನಿಯಮಿತವಾಗಿ ಕೊಟ್ಟಿಗೆಯಿಂದ ಸಾಕಷ್ಟು ದೂರದಲ್ಲಿ ವಿಲೇವಾರಿ ಮಾಡಿ, ಹತ್ತಿರದಲ್ಲಿ ಎಲ್ಲೂ ನೀರು ನಿಲ್ಲದಂತೆ ನೋಡಿಕೊಳ್ಳಿ — ಎರಡೂ ನೊಣಗಳು ಮೊಟ್ಟೆ ಇಡುವ ಜಾಗಗಳು. ಸಂಜೆಗಳಲ್ಲಿ ಹಸಿರು ಎಲೆಗಳಿಂದ (ಬೇವಿನ ಎಲೆ ಚೆನ್ನಾಗಿ ಕೆಲಸ ಮಾಡುತ್ತದೆ) ಕೊಟ್ಟಿಗೆಗೆ ಹೊಗೆ ಹಾಕುವುದೂ ನೊಣಗಳನ್ನು ಕಡಿಮೆ ಮಾಡಲು ಸಹಾಯ ಮಾಡುತ್ತದೆ.",
+              "मक्खियों की रोकथाम काफ़ी हद तक रोज़ की शेड की सफ़ाई पर टिकी है, जो फ़ील्ड स्टाफ़ खुद कर सकता है: गोबर और पेशाब को नियमित रूप से शेड से ठीक-ठाक दूरी पर हटाएँ, और आसपास कहीं पानी जमा न होने दें — दोनों जगहें मक्खियों के पनपने की होती हैं। शाम को कच्चे पत्तों (नीम के पत्ते अच्छे रहते हैं) का धुआँ शेड में करने से भी मक्खियाँ कम होती हैं।"
             ),
           },
           {
             type: "callout",
             style: "tip",
-            heading: L("Natural Repellants Are Safe to Recommend"),
+            heading: L("Natural Repellants Are Safe to Recommend", "సహజ వికర్షకాలను నిర్భయంగా సిఫారసు చేయవచ్చు", "இயற்கை விரட்டிகளை தயங்காமல் பரிந்துரைக்கலாம்", "ನೈಸರ್ಗಿಕ ನಿವಾರಕಗಳನ್ನು ಧೈರ್ಯವಾಗಿ ಶಿಫಾರಸು ಮಾಡಬಹುದು", "प्राकृतिक भगाने वाली चीज़ें बताना सुरक्षित है"),
             text: L(
-              "Natural repellents such as neem oil can be applied regularly to help keep both ticks and flies away. They don't carry the harmful effects of stronger chemicals, and there's little risk of resistance building up. When applying, go against the direction of the hair and cover the whole body, especially the underbelly and legs, where flies bite most."
+              "Natural repellents such as neem oil can be applied regularly to help keep both ticks and flies away. They don't carry the harmful effects of stronger chemicals, and there's little risk of resistance building up. When applying, go against the direction of the hair and cover the whole body, especially the underbelly and legs, where flies bite most.",
+              "వేప నూనె వంటి సహజ వికర్షకాలను క్రమం తప్పకుండా పూస్తే పేలు, ఈగలు రెండూ దూరంగా ఉంటాయి. బలమైన రసాయనాల్లా వీటికి హానికర ప్రభావాలు ఉండవు, నిరోధకత పెరిగే ప్రమాదం కూడా తక్కువ. పూసేటప్పుడు రోమాలకు వ్యతిరేక దిశలో పూయండి, శరీరమంతా కప్పండి — ముఖ్యంగా ఈగలు ఎక్కువగా కుట్టే పొట్ట కింద, కాళ్ల భాగంలో.",
+              "வேப்ப எண்ணெய் போன்ற இயற்கை விரட்டிகளை தவறாமல் தடவினால் உண்ணிகளும் ஈக்களும் விலகியிருக்க உதவும். வலிமையான ரசாயனங்களைப் போல இவற்றுக்கு தீய விளைவுகள் இல்லை, எதிர்ப்புத் திறன் உருவாகும் ஆபத்தும் குறைவு. தடவும்போது முடியின் திசைக்கு எதிராகத் தடவி, உடல் முழுவதும் மூடுங்கள் — குறிப்பாக ஈக்கள் அதிகம் கடிக்கும் அடிவயிறு, கால்களில்.",
+              "ಬೇವಿನ ಎಣ್ಣೆಯಂತಹ ನೈಸರ್ಗಿಕ ನಿವಾರಕಗಳನ್ನು ನಿಯಮಿತವಾಗಿ ಹಚ್ಚಿದರೆ ಉಣ್ಣಿ ಮತ್ತು ನೊಣ ಎರಡನ್ನೂ ದೂರವಿಡಲು ಸಹಾಯವಾಗುತ್ತದೆ. ಬಲವಾದ ರಾಸಾಯನಿಕಗಳಂತೆ ಇವಕ್ಕೆ ಹಾನಿಕಾರಕ ಪರಿಣಾಮಗಳಿಲ್ಲ, ನಿರೋಧಕತೆ ಬೆಳೆಯುವ ಅಪಾಯವೂ ಕಡಿಮೆ. ಹಚ್ಚುವಾಗ ಕೂದಲಿನ ದಿಕ್ಕಿಗೆ ವಿರುದ್ಧವಾಗಿ ಹಚ್ಚಿ, ಇಡೀ ದೇಹವನ್ನು ಆವರಿಸಿ — ವಿಶೇಷವಾಗಿ ನೊಣಗಳು ಹೆಚ್ಚು ಕಚ್ಚುವ ಹೊಟ್ಟೆಯ ಕೆಳಗೆ ಮತ್ತು ಕಾಲುಗಳಲ್ಲಿ.",
+              "नीम के तेल जैसी प्राकृतिक भगाने वाली चीज़ें नियमित रूप से लगाने से किलनी और मक्खियाँ दोनों दूर रहती हैं। इनमें तेज़ रसायनों जैसे हानिकारक असर नहीं होते, और प्रतिरोध बनने का ख़तरा भी कम रहता है। लगाते समय बालों की उल्टी दिशा में लगाएँ और पूरे शरीर को ढकें, ख़ासकर पेट के नीचे और टाँगों पर, जहाँ मक्खियाँ सबसे ज़्यादा काटती हैं।"
             ),
           },
         ],
         check: [
           {
             type: "mcq",
-            q: L("Why is it important to spray cracks and crevices in the shed, not just the animal's body?"),
+            q: L("Why is it important to spray cracks and crevices in the shed, not just the animal's body?", "కొట్టంలోని పగుళ్లు, సందుల్లో కూడా ఎందుకు పిచికారీ చేయాలి, కేవలం జంతువు శరీరంపైనే కాదు?", "தொழுவத்தின் விரிசல்கள், இடுக்குகளிலும் ஏன் தெளிக்க வேண்டும், விலங்கின் உடலில் மட்டும் அல்ல?", "ಕೊಟ್ಟಿಗೆಯ ಬಿರುಕು, ಸಂದುಗಳಿಗೂ ಏಕೆ ಸಿಂಪಡಿಸಬೇಕು, ಪ್ರಾಣಿಯ ದೇಹಕ್ಕೆ ಮಾತ್ರವಲ್ಲ?", "शेड की दरारों और सुराखों में भी छिड़काव क्यों ज़रूरी है, सिर्फ़ पशु के शरीर पर ही क्यों नहीं?"),
             options: [
-              L("It makes the shed smell better"),
-              L("Tick eggs and larvae hide there, and larvae can survive for months without feeding"),
-              L("It has nothing to do with tick control"),
-              L("It is only done for decoration"),
+              L("It makes the shed smell better", "దీనివల్ల కొట్టం మంచి వాసన వస్తుంది", "இதனால் தொழுவம் நல்ல மணம் வீசும்", "ಇದರಿಂದ ಕೊಟ್ಟಿಗೆ ಒಳ್ಳೆಯ ವಾಸನೆ ಬರುತ್ತದೆ", "इससे शेड में अच्छी खुशबू आती है"),
+              L("Tick eggs and larvae hide there, and larvae can survive for months without feeding", "పేల గుడ్లు, లార్వాలు అక్కడ దాక్కుంటాయి, లార్వాలు తిండి లేకుండా నెలల తరబడి బతకగలవు", "உண்ணி முட்டைகளும் லார்வாக்களும் அங்கே மறைந்திருக்கும், லார்வாக்கள் உணவின்றி மாதக்கணக்கில் உயிர் வாழும்", "ಉಣ್ಣಿಯ ಮೊಟ್ಟೆ, ಲಾರ್ವಾಗಳು ಅಲ್ಲಿ ಅಡಗಿರುತ್ತವೆ, ಲಾರ್ವಾಗಳು ಆಹಾರವಿಲ್ಲದೆ ತಿಂಗಳುಗಟ್ಟಲೆ ಬದುಕಬಲ್ಲವು", "किलनी के अंडे और लार्वा वहीं छिपते हैं, और लार्वा बिना खाए महीनों ज़िंदा रह सकते हैं"),
+              L("It has nothing to do with tick control", "దీనికీ పేల నియంత్రణకూ ఎలాంటి సంబంధం లేదు", "இதற்கும் உண்ணிக் கட்டுப்பாட்டுக்கும் எந்தத் தொடர்பும் இல்லை", "ಇದಕ್ಕೂ ಉಣ್ಣಿ ನಿಯಂತ್ರಣಕ್ಕೂ ಯಾವ ಸಂಬಂಧವೂ ಇಲ್ಲ", "इसका किलनी की रोकथाम से कोई लेना-देना नहीं"),
+              L("It is only done for decoration", "ఇది కేవలం అలంకరణ కోసమే చేస్తారు", "இது அலங்காரத்திற்காக மட்டுமே செய்யப்படுகிறது", "ಇದನ್ನು ಅಲಂಕಾರಕ್ಕಾಗಿ ಮಾತ್ರ ಮಾಡಲಾಗುತ್ತದೆ", "यह सिर्फ़ सजावट के लिए किया जाता है"),
             ],
             answer: 1,
-            explain: L("Tick larvae can survive 2 to 7 months without feeding, often hiding in shed cracks and crevices — spraying there helps prevent re-infestation."),
+            explain: L("Tick larvae can survive 2 to 7 months without feeding, often hiding in shed cracks and crevices — spraying there helps prevent re-infestation.", "పేల లార్వాలు తిండి లేకుండా 2 నుండి 7 నెలల వరకు బతకగలవు, తరచుగా కొట్టం పగుళ్లు, సందుల్లో దాక్కుంటాయి — అక్కడ పిచికారీ చేస్తే మళ్లీ పేలు పట్టకుండా ఆపవచ్చు.", "உண்ணி லார்வாக்கள் உணவின்றி 2 முதல் 7 மாதங்கள் வரை உயிர் வாழும், பெரும்பாலும் தொழுவ விரிசல்கள், இடுக்குகளில் மறைந்திருக்கும் — அங்கு தெளிப்பது மீண்டும் உண்ணிகள் மொய்ப்பதைத் தடுக்க உதவும்.", "ಉಣ್ಣಿ ಲಾರ್ವಾಗಳು ಆಹಾರವಿಲ್ಲದೆ 2 ರಿಂದ 7 ತಿಂಗಳವರೆಗೆ ಬದುಕಬಲ್ಲವು, ಆಗಾಗ ಕೊಟ್ಟಿಗೆಯ ಬಿರುಕು, ಸಂದುಗಳಲ್ಲಿ ಅಡಗಿರುತ್ತವೆ — ಅಲ್ಲಿ ಸಿಂಪಡಿಸಿದರೆ ಮತ್ತೆ ಉಣ್ಣಿ ಮುತ್ತಿಕೊಳ್ಳುವುದನ್ನು ತಡೆಯಬಹುದು.", "किलनी के लार्वा बिना खाए 2 से 7 महीने तक ज़िंदा रह सकते हैं और अक्सर शेड की दरारों व सुराखों में छिपे रहते हैं — वहाँ छिड़काव करने से दोबारा किलनी लगने से बचाव होता है।"),
           },
           {
             type: "truefalse",
-            q: L("Regular manure and urine disposal, away from the shed, is a direct everyday action that helps control flies."),
+            q: L("Regular manure and urine disposal, away from the shed, is a direct everyday action that helps control flies.", "పేడ, మూత్రాన్ని కొట్టానికి దూరంగా క్రమం తప్పకుండా పారవేయడం ఈగలను నియంత్రించడానికి రోజువారీ చేయగలిగే నేరుగా ఉపయోగపడే పని.", "சாணம், சிறுநீரை தொழுவத்திலிருந்து தொலைவில் தவறாமல் அப்புறப்படுத்துவது ஈக்களைக் கட்டுப்படுத்த தினமும் செய்யக்கூடிய நேரடிப் பயனுள்ள செயல்.", "ಸಗಣಿ ಮತ್ತು ಮೂತ್ರವನ್ನು ಕೊಟ್ಟಿಗೆಯಿಂದ ದೂರ ನಿಯಮಿತವಾಗಿ ವಿಲೇವಾರಿ ಮಾಡುವುದು ನೊಣಗಳನ್ನು ನಿಯಂತ್ರಿಸಲು ದೈನಂದಿನ ಮಾಡಬಹುದಾದ ನೇರ ಕ್ರಮ.", "गोबर और पेशाब को शेड से दूर नियमित रूप से हटाना मक्खियों को काबू में रखने के लिए रोज़ किया जा सकने वाला सीधा उपाय है।"),
             answer: true,
-            explain: L("Yes — proper, regular disposal of manure and urine, along with avoiding stagnant water, is basic shed hygiene that reduces fly breeding."),
+            explain: L("Yes — proper, regular disposal of manure and urine, along with avoiding stagnant water, is basic shed hygiene that reduces fly breeding.", "అవును — పేడ, మూత్రాన్ని సరిగ్గా, క్రమం తప్పకుండా పారవేయడం, నిలిచిన నీరు లేకుండా చూడటం ఈగల పెరుగుదలను తగ్గించే కొట్టం పరిశుభ్రత మౌలిక చర్య.", "ஆம் — சாணம், சிறுநீரை முறையாக, தவறாமல் அப்புறப்படுத்துவதும், தேங்கிய நீர் இல்லாமல் பார்த்துக் கொள்வதும் ஈக்கள் பெருகுவதைக் குறைக்கும் அடிப்படை தொழுவ சுகாதாரம்.", "ಹೌದು — ಸಗಣಿ ಮತ್ತು ಮೂತ್ರವನ್ನು ಸರಿಯಾಗಿ, ನಿಯಮಿತವಾಗಿ ವಿಲೇವಾರಿ ಮಾಡುವುದು, ನಿಂತ ನೀರು ಇಲ್ಲದಂತೆ ನೋಡಿಕೊಳ್ಳುವುದು ನೊಣಗಳ ಸಂತಾನವೃದ್ಧಿ ಕಡಿಮೆ ಮಾಡುವ ಮೂಲಭೂತ ಕೊಟ್ಟಿಗೆ ಸ್ವಚ್ಛತೆ.", "हाँ — गोबर और पेशाब का सही ढंग से नियमित निपटान, और पानी जमा न होने देना, शेड की बुनियादी सफ़ाई है जिससे मक्खियों का पनपना घटता है।"),
           },
         ],
       },
@@ -6635,45 +6723,45 @@ export const MODULES = [
         {
           topicId: "t-m6-surra",
           type: "mcq",
-          q: L("Which animals can act as a hidden source of Surra infection for horses and camels?"),
-          options: [L("Dogs and cats"), L("Cattle and buffalo"), L("Goats and sheep"), L("Poultry")],
+          q: L("Which animals can act as a hidden source of Surra infection for horses and camels?", "గుర్రాలు, ఒంటెలకు సుర్రా ఇన్ఫెక్షన్‌కు దాగిన మూలంగా ఏ జంతువులు పనిచేయగలవు?", "குதிரைகள், ஒட்டகங்களுக்கு சுர்ரா தொற்றின் மறைமுக மூலமாக எந்த விலங்குகள் இருக்க முடியும்?", "ಕುದುರೆ ಮತ್ತು ಒಂಟೆಗಳಿಗೆ ಸುರ್ರಾ ಸೋಂಕಿನ ಗುಪ್ತ ಮೂಲವಾಗಿ ಯಾವ ಪ್ರಾಣಿಗಳು ಇರಬಲ್ಲವು?", "घोड़ों और ऊँटों के लिए सर्रा संक्रमण का छिपा स्रोत कौन-से पशु बन सकते हैं?"),
+          options: [L("Dogs and cats", "కుక్కలు, పిల్లులు", "நாய்கள், பூனைகள்", "ನಾಯಿ ಮತ್ತು ಬೆಕ್ಕುಗಳು", "कुत्ते और बिल्ली"), L("Cattle and buffalo", "పశువులు, గేదెలు", "மாடுகள், எருமைகள்", "ದನ ಮತ್ತು ಎಮ್ಮೆ", "गाय और भैंस"), L("Goats and sheep", "మేకలు, గొర్రెలు", "ஆடுகள், செம்மறியாடுகள்", "ಮೇಕೆ ಮತ್ತು ಕುರಿ", "बकरी और भेड़"), L("Poultry", "కోళ్లు", "கோழிகள்", "ಕೋಳಿಗಳು", "मुर्गी-पालन के पक्षी")],
           answer: 1,
-          explain: L("Cattle and buffalo can be reservoir hosts, carrying and passing on Surra infection to horses and camels."),
+          explain: L("Cattle and buffalo can be reservoir hosts, carrying and passing on Surra infection to horses and camels.", "పశువులు, గేదెలు సుర్రా ఇన్ఫెక్షన్‌ను మోసుకుంటూ గుర్రాలు, ఒంటెలకు అంటించే వనరు జంతువులు కావచ్చు.", "மாடுகளும் எருமைகளும் சுர்ரா தொற்றைச் சுமந்து குதிரைகள், ஒட்டகங்களுக்குப் பரப்பும் மூல விலங்குகளாக இருக்கலாம்.", "ದನ ಮತ್ತು ಎಮ್ಮೆಗಳು ಸುರ್ರಾ ಸೋಂಕನ್ನು ಹೊತ್ತು ಕುದುರೆ, ಒಂಟೆಗಳಿಗೆ ಹರಡುವ ಮೂಲ ಪ್ರಾಣಿಗಳಾಗಿರಬಹುದು.", "गाय-भैंस सर्रा संक्रमण को अपने अंदर रखकर घोड़ों और ऊँटों तक पहुँचाने वाले भंडार (रिज़र्वॉयर) पशु हो सकते हैं।"),
         },
         {
           topicId: "t-m6-surra",
           type: "truefalse",
-          q: L("Animals under stress are less likely to fall sick with Surra."),
+          q: L("Animals under stress are less likely to fall sick with Surra.", "ఒత్తిడిలో ఉన్న జంతువులకు సుర్రా వచ్చే అవకాశం తక్కువ.", "மன அழுத்தத்தில் உள்ள விலங்குகளுக்கு சுர்ரா வர வாய்ப்பு குறைவு.", "ಒತ್ತಡದಲ್ಲಿರುವ ಪ್ರಾಣಿಗಳಿಗೆ ಸುರ್ರಾ ಬರುವ ಸಾಧ್ಯತೆ ಕಡಿಮೆ.", "तनाव वाले पशुओं को सर्रा होने की संभावना कम होती है।"),
           answer: false,
-          explain: L("The opposite is true — animals under stress are MORE susceptible to Surra."),
+          explain: L("The opposite is true — animals under stress are MORE susceptible to Surra.", "దీనికి వ్యతిరేకం నిజం — ఒత్తిడిలో ఉన్న జంతువులకు సుర్రా వచ్చే అవకాశం ఎక్కువ.", "இதற்கு நேர்மாறானது உண்மை — மன அழுத்தத்தில் உள்ள விலங்குகளுக்கு சுர்ரா வர வாய்ப்பு அதிகம்.", "ಇದಕ್ಕೆ ವಿರುದ್ಧವೇ ನಿಜ — ಒತ್ತಡದಲ್ಲಿರುವ ಪ್ರಾಣಿಗಳಿಗೆ ಸುರ್ರಾ ಬರುವ ಸಾಧ್ಯತೆ ಹೆಚ್ಚು.", "इसका उल्टा सच है — तनाव वाले पशुओं को सर्रा होने की संभावना ज़्यादा होती है।"),
         },
         {
           topicId: "t-m6-tick-fly-control",
           type: "mcq",
-          q: L("What should happen to any newly purchased animal before it mixes with the rest of the herd?"),
+          q: L("What should happen to any newly purchased animal before it mixes with the rest of the herd?", "కొత్తగా కొన్న జంతువును మిగతా మందతో కలిపే ముందు ఏం చేయాలి?", "புதிதாக வாங்கிய விலங்கை மற்ற மந்தையுடன் கலப்பதற்கு முன் என்ன செய்ய வேண்டும்?", "ಹೊಸದಾಗಿ ಖರೀದಿಸಿದ ಪ್ರಾಣಿಯನ್ನು ಉಳಿದ ಹಿಂಡಿನೊಂದಿಗೆ ಸೇರಿಸುವ ಮೊದಲು ಏನು ಮಾಡಬೇಕು?", "नए खरीदे गए पशु को बाकी झुंड में मिलाने से पहले क्या करना चाहिए?"),
           options: [
-            L("Nothing special is needed"),
-            L("It should be completely de-ticked first"),
-            L("It should be given extra milk"),
-            L("It should be kept away from water"),
+            L("Nothing special is needed", "ప్రత్యేకంగా ఏమీ అవసరం లేదు", "சிறப்பாக எதுவும் தேவையில்லை", "ವಿಶೇಷವಾಗಿ ಏನೂ ಬೇಕಿಲ್ಲ", "कुछ ख़ास करने की ज़रूरत नहीं"),
+            L("It should be completely de-ticked first", "ముందుగా దానికి పూర్తిగా పేలు తీసివేయాలి", "முதலில் அதிலிருந்து உண்ணிகளை முழுமையாக நீக்க வேண்டும்", "ಮೊದಲು ಅದರಿಂದ ಉಣ್ಣಿಗಳನ್ನು ಸಂಪೂರ್ಣವಾಗಿ ತೆಗೆಯಬೇಕು", "पहले उसे पूरी तरह किलनी-मुक्त करना चाहिए"),
+            L("It should be given extra milk", "దానికి అదనంగా పాలు ఇవ్వాలి", "அதற்கு கூடுதலாக பால் கொடுக்க வேண்டும்", "ಅದಕ್ಕೆ ಹೆಚ್ಚುವರಿ ಹಾಲು ಕೊಡಬೇಕು", "उसे अतिरिक्त दूध देना चाहिए"),
+            L("It should be kept away from water", "దాన్ని నీటికి దూరంగా ఉంచాలి", "அதை தண்ணீரிலிருந்து தள்ளி வைக்க வேண்டும்", "ಅದನ್ನು ನೀರಿನಿಂದ ದೂರವಿಡಬೇಕು", "उसे पानी से दूर रखना चाहिए"),
           ],
           answer: 1,
-          explain: L("New animals should be completely de-ticked before being allowed to mix with the rest of the herd, to avoid introducing ticks."),
+          explain: L("New animals should be completely de-ticked before being allowed to mix with the rest of the herd, to avoid introducing ticks.", "పేలు రాకుండా ఉండేందుకు, కొత్త జంతువులను మిగతా మందతో కలవనివ్వడానికి ముందు పూర్తిగా పేలు తీసివేయాలి.", "உண்ணிகள் நுழையாமல் இருக்க, புதிய விலங்குகளை மற்ற மந்தையுடன் கலக்க விடுவதற்கு முன் உண்ணிகளை முழுமையாக நீக்க வேண்டும்.", "ಉಣ್ಣಿಗಳು ಒಳಬರದಂತೆ ತಡೆಯಲು, ಹೊಸ ಪ್ರಾಣಿಗಳನ್ನು ಉಳಿದ ಹಿಂಡಿನೊಂದಿಗೆ ಸೇರಿಸುವ ಮೊದಲು ಸಂಪೂರ್ಣವಾಗಿ ಉಣ್ಣಿ ತೆಗೆಯಬೇಕು.", "किलनी को अंदर आने से रोकने के लिए, नए पशुओं को बाकी झुंड में मिलाने से पहले पूरी तरह किलनी-मुक्त कर लेना चाहिए।"),
         },
         {
           topicId: "t-m6-tick-fly-control",
           type: "truefalse",
-          q: L("Deciding the exact acaricide chemical and its strength is something ground staff should do on their own."),
+          q: L("Deciding the exact acaricide chemical and its strength is something ground staff should do on their own.", "ఏ అకారిసైడ్ రసాయనం వాడాలి, దాని గాఢత ఎంత అనేది క్షేత్ర సిబ్బంది స్వయంగా నిర్ణయించాల్సిన విషయం.", "எந்த அகாரிசைடு ரசாயனம், அதன் வீரியம் என்ன என்பதை களப் பணியாளர்கள் தாங்களே முடிவு செய்ய வேண்டும்.", "ಯಾವ ಅಕಾರಿಸೈಡ್ ರಾಸಾಯನಿಕ ಬಳಸಬೇಕು, ಅದರ ಗಾಢತೆ ಎಷ್ಟು ಎಂದು ಕ್ಷೇತ್ರ ಸಿಬ್ಬಂದಿ ತಾವೇ ನಿರ್ಧರಿಸಬೇಕು.", "कौन-सा एकेरिसाइड रसायन और कितनी ताकत का लेना है, यह फ़ील्ड स्टाफ़ को खुद तय करना चाहिए।"),
           answer: false,
-          explain: L("No — the acaricide type, strength and how often the chemical group is changed should be decided under a veterinarian's advice."),
+          explain: L("No — the acaricide type, strength and how often the chemical group is changed should be decided under a veterinarian's advice.", "కాదు — అకారిసైడ్ రకం, గాఢత, రసాయన సమూహాన్ని ఎంత తరచుగా మార్చాలి అనేవన్నీ పశువైద్యుడి సలహా మేరకే నిర్ణయించాలి.", "இல்லை — அகாரிசைடு வகை, வீரியம், ரசாயனக் குழுவை எத்தனை முறை மாற்றுவது என்பவை அனைத்தும் கால்நடை மருத்துவரின் ஆலோசனைப்படியே முடிவு செய்யப்பட வேண்டும்.", "ಇಲ್ಲ — ಅಕಾರಿಸೈಡ್ ಬಗೆ, ಗಾಢತೆ, ರಾಸಾಯನಿಕ ಗುಂಪನ್ನು ಎಷ್ಟು ಬಾರಿ ಬದಲಿಸಬೇಕು ಎಂಬುದನ್ನು ಪಶುವೈದ್ಯರ ಸಲಹೆಯಂತೆಯೇ ನಿರ್ಧರಿಸಬೇಕು.", "नहीं — एकेरिसाइड का प्रकार, उसकी ताकत और रसायन-समूह कितनी बार बदलना है, यह सब पशु चिकित्सक की सलाह से तय होना चाहिए।"),
         },
         {
           topicId: "t-m6-surra",
           type: "mcq",
-          q: L("Which of these is a nervous sign that can appear with Surra?"),
-          options: [L("Shiny coat"), L("Head tilting and walking in circles"), L("Increased milk yield"), L("Faster hoof growth")],
+          q: L("Which of these is a nervous sign that can appear with Surra?", "వీటిలో సుర్రాతో కనిపించే నాడీ సంబంధిత లక్షణం ఏది?", "இவற்றில் சுர்ராவுடன் தோன்றக்கூடிய நரம்பு தொடர்பான அறிகுறி எது?", "ಇವುಗಳಲ್ಲಿ ಸುರ್ರಾದೊಂದಿಗೆ ಕಾಣಿಸಬಹುದಾದ ನರ ಸಂಬಂಧಿ ಲಕ್ಷಣ ಯಾವುದು?", "इनमें से सर्रा के साथ दिख सकने वाला नस-तंत्र का लक्षण कौन-सा है?"),
+          options: [L("Shiny coat", "మెరిసే చర్మం/రోమాలు", "பளபளப்பான தோல்/முடி", "ಹೊಳೆಯುವ ಕೂದಲು", "चमकदार बाल/चमड़ी"), L("Head tilting and walking in circles", "తల ఒక వైపు వంచడం, గుండ్రంగా తిరగడం", "தலையை ஒரு பக்கம் சாய்த்தல், வட்டமாகச் சுற்றி நடத்தல்", "ತಲೆಯನ್ನು ಒಂದು ಕಡೆ ವಾಲಿಸುವುದು, ವೃತ್ತಾಕಾರವಾಗಿ ಸುತ್ತುವುದು", "सिर एक तरफ़ झुकाना और गोल-गोल घूमना"), L("Increased milk yield", "పాల దిగుబడి పెరగడం", "பால் மகசூல் அதிகரித்தல்", "ಹಾಲಿನ ಇಳುವರಿ ಹೆಚ್ಚುವುದು", "दूध की पैदावार बढ़ना"), L("Faster hoof growth", "గిట్టలు వేగంగా పెరగడం", "குளம்புகள் வேகமாக வளர்தல்", "ಗೊರಸುಗಳು ವೇಗವಾಗಿ ಬೆಳೆಯುವುದು", "खुर तेज़ी से बढ़ना")],
           answer: 1,
-          explain: L("Surra can cause nervous signs including head tilt, circling, blindness, hyper-excitability and paddling leg movements."),
+          explain: L("Surra can cause nervous signs including head tilt, circling, blindness, hyper-excitability and paddling leg movements.", "సుర్రా వల్ల తల వంగడం, గుండ్రంగా తిరగడం, గుడ్డితనం, అతి ఉద్రేకం, కాళ్లను తెడ్డు వేసినట్టు కదపడం వంటి నాడీ లక్షణాలు రావచ్చు.", "சுர்ராவால் தலை சாய்தல், வட்டமாகச் சுற்றுதல், பார்வையின்மை, அதீத கிளர்ச்சி, கால்களை துடுப்பு போல அசைத்தல் போன்ற நரம்பு அறிகுறிகள் ஏற்படலாம்.", "ಸುರ್ರಾದಿಂದ ತಲೆ ವಾಲುವುದು, ವೃತ್ತಾಕಾರವಾಗಿ ಸುತ್ತುವುದು, ಕುರುಡುತನ, ಅತಿ ಉದ್ರೇಕ, ಕಾಲುಗಳನ್ನು ಹುಟ್ಟು ಹಾಕುವಂತೆ ಚಲಿಸುವುದು ಮುಂತಾದ ನರ ಲಕ್ಷಣಗಳು ಉಂಟಾಗಬಹುದು.", "सर्रा से सिर झुकना, गोल-गोल घूमना, अंधापन, अति-उत्तेजना और टाँगों का चप्पू की तरह चलना जैसे नस-तंत्र के लक्षण हो सकते हैं।"),
         },
       ],
     },
@@ -6684,76 +6772,88 @@ export const MODULES = [
   // ==================================================================
   {
     id: "m6-l3",
-    title: L("Worms: Signs and Control"),
+    title: L("Worms: Signs and Control", "నులిపురుగులు: లక్షణాలు మరియు నియంత్రణ", "புழுக்கள்: அறிகுறிகள் மற்றும் கட்டுப்பாடு", "ಹುಳುಗಳು: ಲಕ್ಷಣಗಳು ಮತ್ತು ನಿಯಂತ್ರಣ", "कृमि (कीड़े): लक्षण और रोकथाम"),
     estMinutes: 8,
     hook: [
       {
         type: "hero",
-        heading: L("The Enemy You Usually Can't See"),
+        heading: L("The Enemy You Usually Can't See", "మీకు సాధారణంగా కనిపించని శత్రువు", "பொதுவாக உங்களுக்குத் தெரியாத எதிரி", "ನಿಮಗೆ ಸಾಮಾನ್ಯವಾಗಿ ಕಾಣಿಸದ ಶತ್ರು", "वह दुश्मन जो आमतौर पर दिखता नहीं"),
         text: L(
-          "Unlike ticks and flies, worms live quietly inside the animal, and you often can't see them at all. But they drain the animal of nutrients and blood, and can slow growth, cut milk yield and weaken the whole herd. This lesson covers how to notice worm trouble, and the everyday habits that keep the worm load down."
+          "Unlike ticks and flies, worms live quietly inside the animal, and you often can't see them at all. But they drain the animal of nutrients and blood, and can slow growth, cut milk yield and weaken the whole herd. This lesson covers how to notice worm trouble, and the everyday habits that keep the worm load down.",
+          "పేలు, ఈగల్లా కాకుండా, నులిపురుగులు జంతువు లోపల నిశ్శబ్దంగా ఉంటాయి, తరచుగా అసలు కనిపించవు. కానీ అవి జంతువు నుండి పోషకాలను, రక్తాన్ని లాగేసుకుంటాయి; ఎదుగుదలను నెమ్మదింపజేసి, పాల దిగుబడిని తగ్గించి, మొత్తం మందను బలహీనపరుస్తాయి. ఈ పాఠం నులిపురుగుల సమస్యను ఎలా గుర్తించాలో, పురుగుల భారాన్ని తగ్గించే రోజువారీ అలవాట్లేమిటో వివరిస్తుంది.",
+          "உண்ணிகள், ஈக்களைப் போலன்றி, புழுக்கள் விலங்கின் உள்ளே அமைதியாக வாழ்கின்றன, பெரும்பாலும் அவை கண்ணுக்கே தெரியாது. ஆனால் அவை விலங்கிடமிருந்து சத்துகளையும் இரத்தத்தையும் உறிஞ்சுகின்றன; வளர்ச்சியை மெதுவாக்கி, பால் மகசூலைக் குறைத்து, முழு மந்தையையும் பலவீனப்படுத்தும். இந்தப் பாடம் புழுத் தொல்லையை எப்படிக் கண்டறிவது, புழுச்சுமையைக் குறைக்கும் தினசரிப் பழக்கங்கள் என்ன என்பதை விளக்குகிறது.",
+          "ಉಣ್ಣಿ, ನೊಣಗಳಂತಲ್ಲದೆ, ಹುಳುಗಳು ಪ್ರಾಣಿಯ ಒಳಗೆ ಮೌನವಾಗಿ ವಾಸಿಸುತ್ತವೆ, ಆಗಾಗ ಅವು ಕಣ್ಣಿಗೆ ಕಾಣುವುದೇ ಇಲ್ಲ. ಆದರೆ ಅವು ಪ್ರಾಣಿಯಿಂದ ಪೋಷಕಾಂಶ ಮತ್ತು ರಕ್ತವನ್ನು ಹೀರುತ್ತವೆ; ಬೆಳವಣಿಗೆ ನಿಧಾನಗೊಳಿಸಿ, ಹಾಲಿನ ಇಳುವರಿ ಕಡಿಮೆ ಮಾಡಿ, ಇಡೀ ಹಿಂಡನ್ನು ದುರ್ಬಲಗೊಳಿಸುತ್ತವೆ. ಈ ಪಾಠವು ಹುಳುಗಳ ತೊಂದರೆಯನ್ನು ಹೇಗೆ ಗುರುತಿಸಬೇಕು ಮತ್ತು ಹುಳುಗಳ ಭಾರವನ್ನು ಕಡಿಮೆ ಮಾಡುವ ದೈನಂದಿನ ಅಭ್ಯಾಸಗಳೇನು ಎಂದು ವಿವರಿಸುತ್ತದೆ.",
+          "किलनी और मक्खियों के उलट, कृमि (कीड़े) पशु के अंदर चुपचाप रहते हैं और अक्सर दिखते ही नहीं। लेकिन वे पशु से पोषण और खून खींच लेते हैं, बढ़ने की रफ़्तार धीमी कर देते हैं, दूध की पैदावार घटा देते हैं और पूरे झुंड को कमज़ोर कर देते हैं। इस पाठ में बताया गया है कि कृमि की परेशानी को कैसे पहचानें, और रोज़मर्रा की वे आदतें कौन-सी हैं जिनसे कृमियों का बोझ कम रहता है।"
         ),
       },
     ],
     topics: [
       {
         id: "t-m6-worm-signs",
-        title: L("Recognizing Worm Infestation"),
+        title: L("Recognizing Worm Infestation", "నులిపురుగుల బెడదను గుర్తించడం", "புழுத் தொல்லையை அடையாளம் காணுதல்", "ಹುಳುಗಳ ಬಾಧೆಯನ್ನು ಗುರುತಿಸುವುದು", "कृमि के संक्रमण को पहचानना"),
         teach: [
           {
             type: "text",
-            heading: L("What Worms Are and How They Spread"),
+            heading: L("What Worms Are and How They Spread", "నులిపురుగులు అంటే ఏమిటి, ఎలా వ్యాపిస్తాయి", "புழுக்கள் என்றால் என்ன, எப்படிப் பரவுகின்றன", "ಹುಳುಗಳು ಎಂದರೇನು, ಹೇಗೆ ಹರಡುತ್ತವೆ", "कृमि क्या हैं और कैसे फैलते हैं"),
             html: L(
-              "Worms are parasites (creatures that live off another living body) that usually live inside the digestive tract (the gut), feeding on the animal's tissue fluids or blood. Some kinds are also found in the lungs, the nasal passage, or even the eyes. Worm eggs pass out through the dung and can contaminate pasture, feed or water — spreading the infestation to other animals. Some worms can even cause disease in people."
+              "Worms are parasites (creatures that live off another living body) that usually live inside the digestive tract (the gut), feeding on the animal's tissue fluids or blood. Some kinds are also found in the lungs, the nasal passage, or even the eyes. Worm eggs pass out through the dung and can contaminate pasture, feed or water — spreading the infestation to other animals. Some worms can even cause disease in people.",
+              "నులిపురుగులు పరాన్నజీవులు (మరొక జీవి శరీరంపై ఆధారపడి బతికేవి). ఇవి సాధారణంగా జీర్ణాశయంలో (పేగుల్లో) ఉండి, జంతువు కణజాల ద్రవాలను లేదా రక్తాన్ని తింటాయి. కొన్ని రకాలు ఊపిరితిత్తుల్లో, ముక్కు మార్గంలో, కళ్లలో కూడా ఉంటాయి. పురుగు గుడ్లు పేడ ద్వారా బయటకు వచ్చి, మేత భూమిని, దాణాను, నీటిని కలుషితం చేసి ఇతర జంతువులకు వ్యాపిస్తాయి. కొన్ని పురుగులు మనుషులకు కూడా వ్యాధి కలిగించగలవు.",
+              "புழுக்கள் ஒட்டுண்ணிகள் (மற்றொரு உயிரினத்தின் உடலைச் சார்ந்து வாழும் உயிரினங்கள்). இவை பொதுவாக செரிமான மண்டலத்தில் (குடலில்) வாழ்ந்து, விலங்கின் திசு திரவங்களையோ இரத்தத்தையோ உண்ணும். சில வகைகள் நுரையீரல், மூக்குப் பாதை, கண்களிலும் காணப்படும். புழு முட்டைகள் சாணம் வழியாக வெளியேறி, மேய்ச்சல் நிலம், தீவனம், தண்ணீரை மாசுபடுத்தி மற்ற விலங்குகளுக்குப் பரவும். சில புழுக்கள் மனிதர்களுக்கும் நோயை உண்டாக்கலாம்.",
+              "ಹುಳುಗಳು ಪರಾವಲಂಬಿಗಳು (ಇನ್ನೊಂದು ಜೀವಿಯ ದೇಹದ ಮೇಲೆ ಅವಲಂಬಿತವಾಗಿ ಬದುಕುವ ಜೀವಿಗಳು). ಇವು ಸಾಮಾನ್ಯವಾಗಿ ಜೀರ್ಣಾಂಗದಲ್ಲಿ (ಕರುಳಿನಲ್ಲಿ) ಇದ್ದು, ಪ್ರಾಣಿಯ ಅಂಗಾಂಶ ದ್ರವ ಅಥವಾ ರಕ್ತವನ್ನು ತಿನ್ನುತ್ತವೆ. ಕೆಲವು ಬಗೆಗಳು ಶ್ವಾಸಕೋಶ, ಮೂಗಿನ ಮಾರ್ಗ, ಕಣ್ಣುಗಳಲ್ಲೂ ಇರುತ್ತವೆ. ಹುಳುವಿನ ಮೊಟ್ಟೆಗಳು ಸಗಣಿಯ ಮೂಲಕ ಹೊರಬಂದು, ಮೇಯುವ ಜಾಗ, ಮೇವು, ನೀರನ್ನು ಕಲುಷಿತಗೊಳಿಸಿ ಇತರ ಪ್ರಾಣಿಗಳಿಗೆ ಹರಡುತ್ತವೆ. ಕೆಲವು ಹುಳುಗಳು ಮನುಷ್ಯರಲ್ಲೂ ರೋಗ ಉಂಟುಮಾಡಬಲ್ಲವು.",
+              "कृमि परजीवी (दूसरे जीव के शरीर पर पलने वाले जीव) होते हैं, जो आमतौर पर पाचन तंत्र (आँतों) में रहते हैं और पशु के ऊतकों के तरल या खून पर पलते हैं। कुछ किस्में फेफड़ों, नाक के रास्ते या आँखों में भी मिलती हैं। कृमि के अंडे गोबर के साथ बाहर आकर चरागाह, चारे या पानी को गंदा कर देते हैं और दूसरे पशुओं में संक्रमण फैलाते हैं। कुछ कृमि इंसानों में भी बीमारी पैदा कर सकते हैं।"
             ),
           },
           {
             type: "glossary",
-            term: L("Parasite"),
-            meaning: L("A creature that lives on or inside another living body (its host) and survives by feeding off it, often causing harm in the process."),
+            term: L("Parasite", "పరాన్నజీవి", "ஒட்டுண்ணி", "ಪರಾವಲಂಬಿ", "परजीवी"),
+            meaning: L("A creature that lives on or inside another living body (its host) and survives by feeding off it, often causing harm in the process.", "మరొక జీవి (దాని ఆతిథేయి) శరీరంపై లేదా లోపల ఉంటూ, దాన్నుంచే ఆహారం పొంది బతికే జీవి; ఇది తరచుగా హాని కలిగిస్తుంది.", "மற்றொரு உயிரினத்தின் (அதன் புரவலன்) உடலின் மேலோ உள்ளேயோ வாழ்ந்து, அதிடமிருந்தே உணவு பெற்று வாழும் உயிரினம்; இது பெரும்பாலும் தீங்கு விளைவிக்கிறது.", "ಇನ್ನೊಂದು ಜೀವಿಯ (ಅದರ ಆತಿಥೇಯ) ದೇಹದ ಮೇಲೆ ಅಥವಾ ಒಳಗೆ ವಾಸಿಸಿ, ಅದರಿಂದಲೇ ಆಹಾರ ಪಡೆದು ಬದುಕುವ ಜೀವಿ; ಇದು ಆಗಾಗ ಹಾನಿ ಮಾಡುತ್ತದೆ.", "ऐसा जीव जो किसी दूसरे जीव (अपने मेज़बान) के शरीर पर या अंदर रहकर उसी से पोषण लेता है, और अक्सर उसे नुकसान पहुँचाता है।"),
           },
           {
             type: "stat-grid",
             items: [
               {
-                label: L("Roundworms and tapeworms"),
-                text: L("Found in the digestive tract (the gut)."),
+                label: L("Roundworms and tapeworms", "గుండ్రని పురుగులు, బద్దె పురుగులు", "உருளைப்புழுக்கள், நாடாப்புழுக்கள்", "ದುಂಡುಹುಳು ಮತ್ತು ಪಟ್ಟಿಹುಳುಗಳು", "गोल कृमि (राउंडवर्म) और फीताकृमि (टेपवर्म)"),
+                text: L("Found in the digestive tract (the gut).", "జీర్ణాశయంలో (పేగుల్లో) ఉంటాయి.", "செரிமான மண்டலத்தில் (குடலில்) காணப்படும்.", "ಜೀರ್ಣಾಂಗದಲ್ಲಿ (ಕರುಳಿನಲ್ಲಿ) ಇರುತ್ತವೆ.", "पाचन तंत्र (आँतों) में पाए जाते हैं।"),
               },
               {
-                label: L("Flukes"),
-                text: L("Found in the rumen (the main stomach part) and the liver."),
+                label: L("Flukes", "ఫ్లూక్స్ (బల్లపరుపు పురుగులు)", "அட்டைப்புழுக்கள் (ஃப்ளூக்)", "ಫ್ಲೂಕ್‌ಗಳು (ಚಪ್ಪಟೆ ಹುಳುಗಳು)", "फ्लूक (चपटे कृमि)"),
+                text: L("Found in the rumen (the main stomach part) and the liver.", "రుమెన్ (ప్రధాన కడుపు భాగం), కాలేయంలో ఉంటాయి.", "ரூமென் (முதன்மை வயிற்றுப் பகுதி) மற்றும் ஈரலில் காணப்படும்.", "ರುಮೆನ್ (ಮುಖ್ಯ ಹೊಟ್ಟೆಯ ಭಾಗ) ಮತ್ತು ಯಕೃತ್ತಿನಲ್ಲಿ ಇರುತ್ತವೆ.", "रुमेन (पेट का मुख्य हिस्सा) और जिगर (लिवर) में पाए जाते हैं।"),
               },
               {
-                label: L("Schistosomes"),
-                text: L("Found inside the animal's blood vessels."),
+                label: L("Schistosomes", "షిస్టోసోమ్స్ (రక్త పురుగులు)", "ஷிஸ்டோசோம்கள் (இரத்தப் புழுக்கள்)", "ಷಿಸ್ಟೋಸೋಮ್‌ಗಳು (ರಕ್ತದ ಹುಳುಗಳು)", "शिस्टोसोम (खून के कृमि)"),
+                text: L("Found inside the animal's blood vessels.", "జంతువు రక్తనాళాల లోపల ఉంటాయి.", "விலங்கின் இரத்த நாளங்களுக்குள் காணப்படும்.", "ಪ್ರಾಣಿಯ ರಕ್ತನಾಳಗಳ ಒಳಗೆ ಇರುತ್ತವೆ.", "पशु की रक्त नलिकाओं (नसों) के अंदर पाए जाते हैं।"),
               },
             ],
           },
           {
             type: "text",
-            heading: L("General Signs of Worm Trouble"),
+            heading: L("General Signs of Worm Trouble", "నులిపురుగుల సమస్య సాధారణ లక్షణాలు", "புழுத் தொல்லையின் பொதுவான அறிகுறிகள்", "ಹುಳುಗಳ ತೊಂದರೆಯ ಸಾಮಾನ್ಯ ಲಕ್ಷಣಗಳು", "कृमि की परेशानी के आम लक्षण"),
             html: L(
-              "In general, worm infestation can cause diarrhoea, delayed age at maturity (the animal takes longer to grow up), a drop in growth rate and milk production, lower breeding and work performance, lower resistance to other diseases, and anaemia."
+              "In general, worm infestation can cause diarrhoea, delayed age at maturity (the animal takes longer to grow up), a drop in growth rate and milk production, lower breeding and work performance, lower resistance to other diseases, and anaemia.",
+              "సాధారణంగా నులిపురుగుల బెడద వల్ల విరేచనాలు, పరిపక్వతకు రావడంలో ఆలస్యం (జంతువు పెరగడానికి ఎక్కువ సమయం పడుతుంది), ఎదుగుదల రేటు, పాల ఉత్పత్తి తగ్గడం, ఈనడంలో, పనిలో సామర్థ్యం తగ్గడం, ఇతర వ్యాధులను తట్టుకునే శక్తి తగ్గడం, రక్తహీనత వస్తాయి.",
+              "பொதுவாக புழுத் தொல்லையால் வயிற்றுப்போக்கு, முதிர்ச்சி தாமதமாதல் (விலங்கு வளர அதிக நேரம் எடுத்தல்), வளர்ச்சி வேகம், பால் உற்பத்தி குறைதல், இனப்பெருக்கம், வேலைத் திறன் குறைதல், மற்ற நோய்களை எதிர்க்கும் சக்தி குறைதல், இரத்தசோகை ஏற்படலாம்.",
+              "ಸಾಮಾನ್ಯವಾಗಿ ಹುಳುಗಳ ಬಾಧೆಯಿಂದ ಬೇಧಿ, ಪ್ರೌಢಾವಸ್ಥೆ ತಡವಾಗುವುದು (ಪ್ರಾಣಿ ಬೆಳೆಯಲು ಹೆಚ್ಚು ಸಮಯ ತೆಗೆದುಕೊಳ್ಳುವುದು), ಬೆಳವಣಿಗೆ ದರ ಮತ್ತು ಹಾಲಿನ ಉತ್ಪಾದನೆ ಇಳಿಕೆ, ಸಂತಾನೋತ್ಪತ್ತಿ ಮತ್ತು ಕೆಲಸದ ಸಾಮರ್ಥ್ಯ ಕಡಿಮೆಯಾಗುವುದು, ಇತರ ರೋಗಗಳಿಗೆ ನಿರೋಧಕ ಶಕ್ತಿ ಕುಗ್ಗುವುದು ಮತ್ತು ರಕ್ತಹೀನತೆ ಉಂಟಾಗಬಹುದು.",
+              "आमतौर पर कृमि के संक्रमण से दस्त, परिपक्वता में देरी (पशु को बड़ा होने में ज़्यादा समय लगना), बढ़ने की रफ़्तार और दूध उत्पादन में गिरावट, प्रजनन और काम करने की क्षमता कम होना, दूसरी बीमारियों से लड़ने की ताकत घटना, और खून की कमी हो सकती है।"
             ),
           },
           {
             type: "stat-grid",
             items: [
               {
-                label: L("Bottle-jaw"),
-                text: L("A soft swelling under the jaw, along with severe, foul-smelling diarrhoea — seen with rumen and liver fluke infestation. Jaundice (yellowing) can also appear with liver fluke."),
+                label: L("Bottle-jaw", "బాటిల్-జా (దవడ కింద వాపు)", "பாட்டில்-தாடை (தாடைக்குக் கீழ் வீக்கம்)", "ಬಾಟಲ್-ದವಡೆ (ದವಡೆಯ ಕೆಳಗೆ ಊತ)", "बॉटल-जॉ (जबड़े के नीचे सूजन)"),
+                text: L("A soft swelling under the jaw, along with severe, foul-smelling diarrhoea — seen with rumen and liver fluke infestation. Jaundice (yellowing) can also appear with liver fluke.", "దవడ కింద మెత్తని వాపు, దానితో పాటు తీవ్రమైన, దుర్వాసన గల విరేచనాలు — రుమెన్, లివర్ ఫ్లూక్ బెడదలో కనిపిస్తుంది. లివర్ ఫ్లూక్‌తో కామెర్లు (పసుపు రంగు) కూడా రావచ్చు.", "தாடைக்குக் கீழ் மென்மையான வீக்கம், அதோடு கடுமையான, துர்நாற்றம் வீசும் வயிற்றுப்போக்கு — ரூமென், ஈரல் அட்டைத் தொல்லையில் காணப்படும். ஈரல் அட்டையுடன் மஞ்சள் காமாலையும் (மஞ்சளாதல்) தோன்றலாம்.", "ದವಡೆಯ ಕೆಳಗೆ ಮೃದುವಾದ ಊತ, ಜೊತೆಗೆ ತೀವ್ರ, ದುರ್ವಾಸನೆಯ ಬೇಧಿ — ರುಮೆನ್ ಮತ್ತು ಲಿವರ್ ಫ್ಲೂಕ್ ಬಾಧೆಯಲ್ಲಿ ಕಾಣಿಸುತ್ತದೆ. ಲಿವರ್ ಫ್ಲೂಕ್‌ನೊಂದಿಗೆ ಕಾಮಾಲೆ (ಹಳದಿಯಾಗುವುದು) ಕೂಡ ಕಾಣಿಸಬಹುದು.", "जबड़े के नीचे नरम सूजन, साथ में तेज़, बदबूदार दस्त — यह रुमेन और लिवर फ्लूक के संक्रमण में दिखता है। लिवर फ्लूक में पीलिया (पीलापन) भी आ सकता है।"),
               },
               {
-                label: L("Pot-belly"),
-                text: L("A swollen, pot-bellied look, with small white segments moving in the dung — a sign of tapeworm. A heavy tapeworm burden can also block the gut because of its length."),
+                label: L("Pot-belly", "పొట్ట ఉబ్బడం (పాట్-బెల్లీ)", "பானை வயிறு (பாட்-பெல்லி)", "ಹೊಟ್ಟೆ ಉಬ್ಬುವುದು (ಪಾಟ್-ಬೆಲ್ಲಿ)", "पेट फूलना (पॉट-बेली)"),
+                text: L("A swollen, pot-bellied look, with small white segments moving in the dung — a sign of tapeworm. A heavy tapeworm burden can also block the gut because of its length.", "పొట్ట ఉబ్బి కుండలా కనిపించడం, పేడలో చిన్న తెల్లని ముక్కలు కదులుతూ ఉండటం — బద్దె పురుగు లక్షణం. బద్దె పురుగుల భారం ఎక్కువైతే, వాటి పొడవు వల్ల పేగు మూసుకుపోవచ్చు కూడా.", "வயிறு வீங்கி பானை போலத் தோன்றுதல், சாணத்தில் சிறு வெள்ளைத் துண்டுகள் நகர்ந்து செல்லுதல் — நாடாப்புழுவின் அறிகுறி. நாடாப்புழுக்களின் சுமை அதிகமானால், அவற்றின் நீளத்தால் குடலும் அடைபடலாம்.", "ಹೊಟ್ಟೆ ಊದಿಕೊಂಡು ಮಡಕೆಯಂತೆ ಕಾಣುವುದು, ಸಗಣಿಯಲ್ಲಿ ಸಣ್ಣ ಬಿಳಿ ತುಂಡುಗಳು ಚಲಿಸುತ್ತಿರುವುದು — ಪಟ್ಟಿಹುಳುವಿನ ಲಕ್ಷಣ. ಪಟ್ಟಿಹುಳುಗಳ ಭಾರ ಹೆಚ್ಚಾದರೆ, ಅವುಗಳ ಉದ್ದದಿಂದ ಕರುಳು ಕೂಡ ಮುಚ್ಚಿಹೋಗಬಹುದು.", "पेट फूलकर मटके जैसा दिखना, और गोबर में छोटे सफ़ेद टुकड़ों का हिलना — यह फीताकृमि (टेपवर्म) का संकेत है। फीताकृमियों की संख्या ज़्यादा हो तो उनकी लंबाई की वजह से आँत भी बंद हो सकती है।"),
               },
               {
-                label: L("Severe anaemia and bloody diarrhoea"),
-                text: L("Seen with hookworm (a blood-sucking type of roundworm) and schistosome infestation."),
+                label: L("Severe anaemia and bloody diarrhoea", "తీవ్రమైన రక్తహీనత, రక్త విరేచనాలు", "கடுமையான இரத்தசோகை, இரத்தம் கலந்த வயிற்றுப்போக்கு", "ತೀವ್ರ ರಕ್ತಹೀನತೆ ಮತ್ತು ರಕ್ತ ಮಿಶ್ರಿತ ಬೇಧಿ", "गंभीर खून की कमी और खूनी दस्त"),
+                text: L("Seen with hookworm (a blood-sucking type of roundworm) and schistosome infestation.", "హుక్‌వార్మ్ (రక్తం పీల్చే ఒక రకం గుండ్రని పురుగు), షిస్టోసోమ్ బెడదలో కనిపిస్తుంది.", "கொக்கிப்புழு (இரத்தம் உறிஞ்சும் ஒரு வகை உருளைப்புழு) மற்றும் ஷிஸ்டோசோம் தொல்லையில் காணப்படும்.", "ಹುಕ್‌ವರ್ಮ್ (ರಕ್ತ ಹೀರುವ ಒಂದು ಬಗೆಯ ದುಂಡುಹುಳು) ಮತ್ತು ಷಿಸ್ಟೋಸೋಮ್ ಬಾಧೆಯಲ್ಲಿ ಕಾಣಿಸುತ್ತದೆ.", "हुकवर्म (खून चूसने वाला एक तरह का गोल कृमि) और शिस्टोसोम के संक्रमण में दिखता है।"),
               },
               {
-                label: L("Nose and lung signs"),
-                text: L("Thick nasal discharge, snoring and shortness of breath can point to nasal schistosomes; a cough can point to lungworm."),
+                label: L("Nose and lung signs", "ముక్కు, ఊపిరితిత్తుల లక్షణాలు", "மூக்கு, நுரையீரல் அறிகுறிகள்", "ಮೂಗು ಮತ್ತು ಶ್ವಾಸಕೋಶದ ಲಕ್ಷಣಗಳು", "नाक और फेफड़ों के लक्षण"),
+                text: L("Thick nasal discharge, snoring and shortness of breath can point to nasal schistosomes; a cough can point to lungworm.", "చిక్కని ముక్కు స్రావం, గురక, ఆయాసం ముక్కులోని షిస్టోసోమ్స్‌ను సూచించవచ్చు; దగ్గు ఊపిరితిత్తుల పురుగును సూచించవచ్చు.", "கெட்டியான மூக்குச் சளி, குறட்டை, மூச்சுத் திணறல் ஆகியவை மூக்கில் உள்ள ஷிஸ்டோசோம்களைக் குறிக்கலாம்; இருமல் நுரையீரல் புழுவைக் குறிக்கலாம்.", "ದಪ್ಪ ಮೂಗಿನ ಸ್ರಾವ, ಗೊರಕೆ ಮತ್ತು ಉಸಿರಾಟದ ತೊಂದರೆ ಮೂಗಿನ ಷಿಸ್ಟೋಸೋಮ್‌ಗಳನ್ನು ಸೂಚಿಸಬಹುದು; ಕೆಮ್ಮು ಶ್ವಾಸಕೋಶದ ಹುಳುವನ್ನು ಸೂಚಿಸಬಹುದು.", "गाढ़ा नाक का स्राव, खर्राटे जैसी आवाज़ और साँस फूलना नाक के शिस्टोसोम की ओर इशारा कर सकते हैं; खाँसी फेफड़े के कृमि (लंगवर्म) की ओर।"),
               },
             ],
           },
@@ -6761,78 +6861,90 @@ export const MODULES = [
         check: [
           {
             type: "mcq",
-            q: L("What is 'bottle-jaw' a sign of?"),
-            options: [L("Tapeworm"), L("Rumen and liver fluke infestation"), L("A healthy, well-fed animal"), L("Lungworm")],
+            q: L("What is 'bottle-jaw' a sign of?", "'బాటిల్-జా' దేనికి లక్షణం?", "'பாட்டில்-தாடை' எதன் அறிகுறி?", "'ಬಾಟಲ್-ದವಡೆ' ಯಾವುದರ ಲಕ್ಷಣ?", "'बॉटल-जॉ' किसका लक्षण है?"),
+            options: [L("Tapeworm", "బద్దె పురుగు", "நாடாப்புழு", "ಪಟ್ಟಿಹುಳು", "फीताकृमि (टेपवर्म)"), L("Rumen and liver fluke infestation", "రుమెన్, లివర్ ఫ్లూక్ బెడద", "ரூமென் மற்றும் ஈரல் அட்டைத் தொல்லை", "ರುಮೆನ್ ಮತ್ತು ಲಿವರ್ ಫ್ಲೂಕ್ ಬಾಧೆ", "रुमेन और लिवर फ्लूक का संक्रमण"), L("A healthy, well-fed animal", "ఆరోగ్యంగా, బాగా మేత తిన్న జంతువు", "ஆரோக்கியமான, நன்கு உணவளிக்கப்பட்ட விலங்கு", "ಆರೋಗ್ಯವಂತ, ಚೆನ್ನಾಗಿ ಮೇವು ತಿಂದ ಪ್ರಾಣಿ", "एक स्वस्थ, अच्छी तरह खाया-पिया पशु"), L("Lungworm", "ఊపిరితిత్తుల పురుగు", "நுரையீரல் புழு", "ಶ್ವಾಸಕೋಶದ ಹುಳು", "फेफड़े का कृमि (लंगवर्म)")],
             answer: 1,
-            explain: L("Bottle-jaw (soft swelling under the jaw) along with severe, foul-smelling diarrhoea is seen with rumen and liver fluke infestation."),
+            explain: L("Bottle-jaw (soft swelling under the jaw) along with severe, foul-smelling diarrhoea is seen with rumen and liver fluke infestation.", "బాటిల్-జా (దవడ కింద మెత్తని వాపు), తీవ్రమైన, దుర్వాసన గల విరేచనాలతో పాటు రుమెన్, లివర్ ఫ్లూక్ బెడదలో కనిపిస్తుంది.", "பாட்டில்-தாடை (தாடைக்குக் கீழ் மென்மையான வீக்கம்), கடுமையான, துர்நாற்றம் வீசும் வயிற்றுப்போக்குடன் சேர்ந்து ரூமென், ஈரல் அட்டைத் தொல்லையில் காணப்படும்.", "ಬಾಟಲ್-ದವಡೆ (ದವಡೆಯ ಕೆಳಗೆ ಮೃದುವಾದ ಊತ), ತೀವ್ರ, ದುರ್ವಾಸನೆಯ ಬೇಧಿಯ ಜೊತೆ ರುಮೆನ್ ಮತ್ತು ಲಿವರ್ ಫ್ಲೂಕ್ ಬಾಧೆಯಲ್ಲಿ ಕಾಣಿಸುತ್ತದೆ.", "बॉटल-जॉ (जबड़े के नीचे नरम सूजन) तेज़, बदबूदार दस्त के साथ रुमेन और लिवर फ्लूक के संक्रमण में दिखता है।"),
           },
           {
             type: "truefalse",
-            q: L("Small white segments seen moving in an animal's dung, along with a pot-bellied look, can be a sign of tapeworm."),
+            q: L("Small white segments seen moving in an animal's dung, along with a pot-bellied look, can be a sign of tapeworm.", "పేడలో చిన్న తెల్లని ముక్కలు కదులుతూ కనిపించడం, పొట్ట కుండలా ఉబ్బడం బద్దె పురుగు లక్షణం కావచ్చు.", "சாணத்தில் சிறு வெள்ளைத் துண்டுகள் நகர்வது தெரிவதும், வயிறு பானை போல வீங்குவதும் நாடாப்புழுவின் அறிகுறியாக இருக்கலாம்.", "ಸಗಣಿಯಲ್ಲಿ ಸಣ್ಣ ಬಿಳಿ ತುಂಡುಗಳು ಚಲಿಸುತ್ತಿರುವುದು ಕಾಣಿಸುವುದು ಮತ್ತು ಹೊಟ್ಟೆ ಮಡಕೆಯಂತೆ ಉಬ್ಬುವುದು ಪಟ್ಟಿಹುಳುವಿನ ಲಕ್ಷಣವಾಗಿರಬಹುದು.", "गोबर में छोटे सफ़ेद टुकड़ों का हिलते दिखना और पेट का मटके जैसा फूलना फीताकृमि (टेपवर्म) का लक्षण हो सकता है।"),
             answer: true,
-            explain: L("Correct — a pot-belly appearance with visible moving white segments in the dung points to tapeworm infestation."),
+            explain: L("Correct — a pot-belly appearance with visible moving white segments in the dung points to tapeworm infestation.", "సరైనదే — పొట్ట కుండలా ఉబ్బి, పేడలో కదిలే తెల్లని ముక్కలు కనిపిస్తే అది బద్దె పురుగు బెడదను సూచిస్తుంది.", "சரி — வயிறு பானை போல வீங்கி, சாணத்தில் நகரும் வெள்ளைத் துண்டுகள் தெரிந்தால் அது நாடாப்புழுத் தொல்லையைக் குறிக்கும்.", "ಸರಿ — ಹೊಟ್ಟೆ ಮಡಕೆಯಂತೆ ಉಬ್ಬಿ, ಸಗಣಿಯಲ್ಲಿ ಚಲಿಸುವ ಬಿಳಿ ತುಂಡುಗಳು ಕಂಡರೆ ಅದು ಪಟ್ಟಿಹುಳುವಿನ ಬಾಧೆಯನ್ನು ಸೂಚಿಸುತ್ತದೆ.", "सही — पेट मटके जैसा फूला हो और गोबर में हिलते सफ़ेद टुकड़े दिखें, तो यह फीताकृमि (टेपवर्म) के संक्रमण का संकेत है।"),
           },
         ],
       },
       {
         id: "t-m6-worm-control",
-        title: L("Keeping Worms Under Control"),
+        title: L("Keeping Worms Under Control", "నులిపురుగులను అదుపులో ఉంచడం", "புழுக்களைக் கட்டுக்குள் வைத்தல்", "ಹುಳುಗಳನ್ನು ಹತೋಟಿಯಲ್ಲಿಡುವುದು", "कृमियों को काबू में रखना"),
         teach: [
           {
             type: "text",
-            heading: L("Why a Regular Schedule Matters"),
+            heading: L("Why a Regular Schedule Matters", "క్రమం తప్పని షెడ్యూల్ ఎందుకు ముఖ్యం", "முறையான அட்டவணை ஏன் முக்கியம்", "ನಿಯಮಿತ ವೇಳಾಪಟ್ಟಿ ಏಕೆ ಮುಖ್ಯ", "नियमित समय-सारणी क्यों ज़रूरी है"),
             html: L(
-              "Because worm eggs spread through dung onto pasture, feed and water, keeping the whole herd on a regular deworming (worm-treatment) schedule — and keeping the surroundings clean — helps break that cycle. Knowing the usual schedule helps you notice if an animal seems to have been missed."
+              "Because worm eggs spread through dung onto pasture, feed and water, keeping the whole herd on a regular deworming (worm-treatment) schedule — and keeping the surroundings clean — helps break that cycle. Knowing the usual schedule helps you notice if an animal seems to have been missed.",
+              "పురుగు గుడ్లు పేడ ద్వారా మేత భూమి, దాణా, నీటికి వ్యాపిస్తాయి కాబట్టి, మొత్తం మందకు క్రమం తప్పకుండా నులిపురుగుల మందు (డీవార్మింగ్) ఇవ్వడం, పరిసరాలను శుభ్రంగా ఉంచడం ఈ చక్రాన్ని తెంచడానికి సహాయపడతాయి. సాధారణ షెడ్యూల్ తెలిస్తే, ఏదైనా జంతువుకు మందు ఇవ్వడం మరచిపోయినట్టు అనిపిస్తే మీరు గమనించగలరు.",
+              "புழு முட்டைகள் சாணம் வழியாக மேய்ச்சல் நிலம், தீவனம், தண்ணீரில் பரவுவதால், முழு மந்தையையும் முறையான குடற்புழு நீக்க (டீவார்மிங்) அட்டவணையில் வைத்திருப்பதும், சுற்றுப்புறத்தை சுத்தமாக வைத்திருப்பதும் இந்தச் சுழற்சியை உடைக்க உதவும். வழக்கமான அட்டவணை தெரிந்திருந்தால், ஏதேனும் ஒரு விலங்கு விடுபட்டிருக்கிறதா என்பதை நீங்கள் கவனிக்க முடியும்.",
+              "ಹುಳುವಿನ ಮೊಟ್ಟೆಗಳು ಸಗಣಿಯ ಮೂಲಕ ಮೇಯುವ ಜಾಗ, ಮೇವು ಮತ್ತು ನೀರಿಗೆ ಹರಡುವುದರಿಂದ, ಇಡೀ ಹಿಂಡಿಗೆ ನಿಯಮಿತವಾಗಿ ಜಂತುನಾಶಕ (ಡಿವಾರ್ಮಿಂಗ್) ನೀಡುವುದು ಮತ್ತು ಸುತ್ತಮುತ್ತ ಸ್ವಚ್ಛವಾಗಿಡುವುದು ಈ ಚಕ್ರವನ್ನು ಮುರಿಯಲು ಸಹಾಯ ಮಾಡುತ್ತದೆ. ಸಾಮಾನ್ಯ ವೇಳಾಪಟ್ಟಿ ತಿಳಿದಿದ್ದರೆ, ಯಾವುದಾದರೂ ಪ್ರಾಣಿ ಬಿಟ್ಟುಹೋಗಿದೆಯೇ ಎಂದು ನೀವು ಗಮನಿಸಬಹುದು.",
+              "कृमि के अंडे गोबर के ज़रिए चरागाह, चारे और पानी में फैलते हैं, इसलिए पूरे झुंड को नियमित कृमिनाशक (डीवॉर्मिंग) की समय-सारणी पर रखना और आसपास की सफ़ाई रखना इस चक्र को तोड़ने में मदद करता है। सामान्य समय-सारणी पता हो तो आप देख सकते हैं कि किसी पशु को दवा देना छूट तो नहीं गया।"
             ),
           },
           {
             type: "stat-grid",
             items: [
               {
-                label: L("Calves"),
-                text: L("First dewormer dose is usually given between 7 and 10 days of age, then repeated monthly until the calf is 6 months old."),
+                label: L("Calves", "దూడలు", "கன்றுகள்", "ಕರುಗಳು", "बछड़े"),
+                text: L("First dewormer dose is usually given between 7 and 10 days of age, then repeated monthly until the calf is 6 months old.", "మొదటి డోస్ నులిపురుగుల మందు సాధారణంగా 7 నుండి 10 రోజుల వయసులో ఇస్తారు, ఆ తర్వాత దూడకు 6 నెలలు వచ్చే వరకు ప్రతి నెలా మళ్లీ ఇస్తారు.", "முதல் குடற்புழு நீக்க மருந்து பொதுவாக 7 முதல் 10 நாள் வயதில் கொடுக்கப்படும், பிறகு கன்றுக்கு 6 மாதம் ஆகும் வரை மாதந்தோறும் மீண்டும் கொடுக்கப்படும்.", "ಮೊದಲ ಜಂತುನಾಶಕ ಡೋಸ್ ಸಾಮಾನ್ಯವಾಗಿ 7 ರಿಂದ 10 ದಿನಗಳ ವಯಸ್ಸಿನಲ್ಲಿ ನೀಡಲಾಗುತ್ತದೆ, ನಂತರ ಕರುವಿಗೆ 6 ತಿಂಗಳಾಗುವವರೆಗೆ ಪ್ರತಿ ತಿಂಗಳು ಪುನರಾವರ್ತಿಸಲಾಗುತ್ತದೆ.", "कृमिनाशक की पहली खुराक आमतौर पर 7 से 10 दिन की उम्र में दी जाती है, फिर बछड़े के 6 महीने का होने तक हर महीने दोहराई जाती है।"),
               },
               {
-                label: L("Animals over 6 months"),
-                text: L("Usually dewormed twice a year — once at the start of the rainy season and once at the end."),
+                label: L("Animals over 6 months", "6 నెలల కంటే పెద్ద జంతువులు", "6 மாதத்திற்கு மேற்பட்ட விலங்குகள்", "6 ತಿಂಗಳಿಗಿಂತ ಹೆಚ್ಚಿನ ಪ್ರಾಣಿಗಳು", "6 महीने से बड़े पशु"),
+                text: L("Usually dewormed twice a year — once at the start of the rainy season and once at the end.", "సాధారణంగా ఏడాదికి రెండుసార్లు నులిపురుగుల మందు ఇస్తారు — ఒకసారి వర్షాకాలం మొదట్లో, మరోసారి వర్షాకాలం చివర్లో.", "பொதுவாக ஆண்டுக்கு இரண்டு முறை குடற்புழு நீக்கம் செய்யப்படும் — ஒருமுறை மழைக்காலத் தொடக்கத்தில், மறுமுறை மழைக்காலத்தின் முடிவில்.", "ಸಾಮಾನ್ಯವಾಗಿ ವರ್ಷಕ್ಕೆ ಎರಡು ಬಾರಿ ಜಂತುನಾಶಕ ನೀಡಲಾಗುತ್ತದೆ — ಒಮ್ಮೆ ಮಳೆಗಾಲದ ಆರಂಭದಲ್ಲಿ, ಇನ್ನೊಮ್ಮೆ ಮಳೆಗಾಲದ ಕೊನೆಯಲ್ಲಿ.", "आमतौर पर साल में दो बार कृमिनाशक दिया जाता है — एक बार बरसात की शुरुआत में और एक बार बरसात के अंत में।"),
               },
               {
-                label: L("Pregnant animals"),
-                text: L("Usually dewormed twice: once close to calving time, and again about 6 to 7 weeks after calving."),
+                label: L("Pregnant animals", "చూలు జంతువులు", "சினை விலங்குகள்", "ಗಬ್ಬದ ಪ್ರಾಣಿಗಳು", "गाभिन पशु"),
+                text: L("Usually dewormed twice: once close to calving time, and again about 6 to 7 weeks after calving.", "సాధారణంగా రెండుసార్లు మందు ఇస్తారు: ఒకసారి ఈనే సమయానికి దగ్గరగా, మరోసారి ఈనిన తర్వాత సుమారు 6 నుండి 7 వారాలకు.", "பொதுவாக இரண்டு முறை மருந்து கொடுக்கப்படும்: ஒருமுறை ஈனும் நேரத்திற்கு அருகில், மறுமுறை ஈன்ற பிறகு சுமார் 6 முதல் 7 வாரங்களில்.", "ಸಾಮಾನ್ಯವಾಗಿ ಎರಡು ಬಾರಿ ನೀಡಲಾಗುತ್ತದೆ: ಒಮ್ಮೆ ಈಯುವ ಸಮಯದ ಹತ್ತಿರ, ಇನ್ನೊಮ್ಮೆ ಈದ ನಂತರ ಸುಮಾರು 6 ರಿಂದ 7 ವಾರಗಳಲ್ಲಿ.", "आमतौर पर दो बार दिया जाता है: एक बार ब्याने के समय के आसपास, और दोबारा ब्याने के करीब 6 से 7 हफ़्ते बाद।"),
               },
             ],
           },
           {
             type: "callout",
             style: "info",
-            heading: L("Watch for Standing Water and Snails"),
+            heading: L("Watch for Standing Water and Snails", "నిలిచిన నీరు, నత్తల పట్ల జాగ్రత్త", "தேங்கிய நீர், நத்தைகள் மீது கவனம்", "ನಿಂತ ನೀರು ಮತ್ತು ಬಸವನಹುಳುಗಳ ಬಗ್ಗೆ ಗಮನವಿರಲಿ", "जमा पानी और घोंघों पर नज़र रखें"),
             text: L(
-              "In water-logged areas or wherever snails are present, flukes and schistosomes are more likely, since snails are needed to complete their life cycle. Noticing standing water or snails near the shed or pasture, and mentioning it, helps the vet judge the risk."
+              "In water-logged areas or wherever snails are present, flukes and schistosomes are more likely, since snails are needed to complete their life cycle. Noticing standing water or snails near the shed or pasture, and mentioning it, helps the vet judge the risk.",
+              "నీరు నిలిచే ప్రాంతాల్లో లేదా నత్తలు ఉన్న చోట్ల ఫ్లూక్స్, షిస్టోసోమ్స్ వచ్చే అవకాశం ఎక్కువ, ఎందుకంటే వాటి జీవిత చక్రం పూర్తవడానికి నత్తలు అవసరం. కొట్టం లేదా మేత భూమి దగ్గర నిలిచిన నీరు, నత్తలు కనిపిస్తే గమనించి చెప్పడం, ప్రమాదాన్ని అంచనా వేయడంలో పశువైద్యుడికి సహాయపడుతుంది.",
+              "நீர் தேங்கும் பகுதிகளிலோ நத்தைகள் உள்ள இடங்களிலோ அட்டைப்புழுக்கள் (ஃப்ளூக்), ஷிஸ்டோசோம்கள் வர வாய்ப்பு அதிகம், ஏனெனில் அவற்றின் வாழ்க்கைச் சுழற்சியை முடிக்க நத்தைகள் தேவை. தொழுவம் அல்லது மேய்ச்சல் நிலத்துக்கு அருகில் தேங்கிய நீர் அல்லது நத்தைகளைக் கவனித்துச் சொன்னால், ஆபத்தை மதிப்பிட கால்நடை மருத்துவருக்கு உதவும்.",
+              "ನೀರು ನಿಲ್ಲುವ ಪ್ರದೇಶಗಳಲ್ಲಿ ಅಥವಾ ಬಸವನಹುಳುಗಳಿರುವ ಕಡೆ ಫ್ಲೂಕ್ ಮತ್ತು ಷಿಸ್ಟೋಸೋಮ್‌ಗಳು ಬರುವ ಸಾಧ್ಯತೆ ಹೆಚ್ಚು, ಏಕೆಂದರೆ ಅವುಗಳ ಜೀವನ ಚಕ್ರ ಪೂರ್ಣಗೊಳ್ಳಲು ಬಸವನಹುಳುಗಳು ಬೇಕು. ಕೊಟ್ಟಿಗೆ ಅಥವಾ ಮೇಯುವ ಜಾಗದ ಬಳಿ ನಿಂತ ನೀರು ಅಥವಾ ಬಸವನಹುಳುಗಳನ್ನು ಗಮನಿಸಿ ತಿಳಿಸಿದರೆ, ಅಪಾಯ ಅಂದಾಜಿಸಲು ಪಶುವೈದ್ಯರಿಗೆ ಸಹಾಯವಾಗುತ್ತದೆ.",
+              "जहाँ पानी भरा रहता हो या घोंघे हों, वहाँ फ्लूक और शिस्टोसोम का ख़तरा ज़्यादा होता है, क्योंकि उनका जीवन-चक्र पूरा होने के लिए घोंघे ज़रूरी हैं। शेड या चरागाह के पास जमा पानी या घोंघे दिखें तो उन पर ध्यान देकर बताना पशु चिकित्सक को जोखिम का अंदाज़ा लगाने में मदद करता है।"
             ),
           },
           {
             type: "callout",
             style: "tip",
-            heading: L("Notice and Recommend — Not Diagnose and Dose"),
+            heading: L("Notice and Recommend — Not Diagnose and Dose", "గమనించండి, సూచించండి — రోగ నిర్ధారణ చేసి మందు మోతాదు నిర్ణయించకండి", "கவனியுங்கள், பரிந்துரையுங்கள் — நோய் கண்டறிந்து மருந்தளவு நிர்ணயிக்காதீர்கள்", "ಗಮನಿಸಿ, ಶಿಫಾರಸು ಮಾಡಿ — ರೋಗ ನಿರ್ಣಯಿಸಿ ಔಷಧದ ಪ್ರಮಾಣ ನಿರ್ಧರಿಸಬೇಡಿ", "देखें और सुझाएँ — निदान और खुराक तय न करें"),
             text: L(
-              "The exact drug, its dosage, and how often the drug type is rotated (to avoid the worms becoming resistant to it) are decisions for a qualified person, not something to work out yourself. Your part is to notice the signs, know roughly when animals are due for deworming, and flag it if an animal isn't improving — if that happens, recommend that its dung be examined by a veterinarian to identify exactly which worm is involved, so the right treatment can be chosen."
+              "The exact drug, its dosage, and how often the drug type is rotated (to avoid the worms becoming resistant to it) are decisions for a qualified person, not something to work out yourself. Your part is to notice the signs, know roughly when animals are due for deworming, and flag it if an animal isn't improving — if that happens, recommend that its dung be examined by a veterinarian to identify exactly which worm is involved, so the right treatment can be chosen.",
+              "ఏ మందు వాడాలి, దాని మోతాదు ఎంత, మందు రకాన్ని (పురుగులు దానికి నిరోధకత పెంచుకోకుండా) ఎంత తరచుగా మార్చాలి అనేవి అర్హత గల వ్యక్తి తీసుకోవాల్సిన నిర్ణయాలు, మీరు స్వయంగా తేల్చుకోవాల్సినవి కాదు. మీ పని లక్షణాలను గమనించడం, జంతువులకు నులిపురుగుల మందు ఎప్పుడు ఇవ్వాలో సుమారుగా తెలుసుకోవడం, జంతువు కోలుకోకపోతే తెలియజేయడం — అలా జరిగితే, ఏ పురుగు కారణమో గుర్తించి సరైన చికిత్స ఎంచుకోవడానికి దాని పేడను పశువైద్యుడితో పరీక్ష చేయించమని సూచించండి.",
+              "எந்த மருந்து, அதன் அளவு, மருந்து வகையை (புழுக்கள் அதற்கு எதிர்ப்புத் திறன் பெறாமல் இருக்க) எத்தனை முறை மாற்றுவது என்பவை தகுதி பெற்ற ஒருவர் எடுக்க வேண்டிய முடிவுகள், நீங்களே கணக்கிட வேண்டியவை அல்ல. உங்கள் பங்கு அறிகுறிகளைக் கவனிப்பது, விலங்குகளுக்கு குடற்புழு நீக்கம் எப்போது செய்ய வேண்டும் என்பதை தோராயமாகத் தெரிந்து கொள்வது, விலங்கு தேறவில்லை என்றால் தெரிவிப்பது — அப்படி நடந்தால், எந்தப் புழு காரணம் என்பதைக் கண்டறிந்து சரியான சிகிச்சையைத் தேர்ந்தெடுக்க அதன் சாணத்தை கால்நடை மருத்துவர் மூலம் பரிசோதிக்கப் பரிந்துரையுங்கள்.",
+              "ಯಾವ ಔಷಧ, ಅದರ ಪ್ರಮಾಣ ಎಷ್ಟು, ಮತ್ತು ಔಷಧದ ಬಗೆಯನ್ನು (ಹುಳುಗಳು ಅದಕ್ಕೆ ನಿರೋಧಕತೆ ಬೆಳೆಸಿಕೊಳ್ಳದಂತೆ) ಎಷ್ಟು ಬಾರಿ ಬದಲಿಸಬೇಕು ಎಂಬುದು ಅರ್ಹ ವ್ಯಕ್ತಿ ತೆಗೆದುಕೊಳ್ಳಬೇಕಾದ ನಿರ್ಧಾರಗಳು, ನೀವೇ ಲೆಕ್ಕ ಹಾಕುವಂಥವಲ್ಲ. ನಿಮ್ಮ ಪಾತ್ರ ಲಕ್ಷಣಗಳನ್ನು ಗಮನಿಸುವುದು, ಪ್ರಾಣಿಗಳಿಗೆ ಜಂತುನಾಶಕ ಯಾವಾಗ ನೀಡಬೇಕೆಂದು ಸ್ಥೂಲವಾಗಿ ತಿಳಿದಿರುವುದು, ಪ್ರಾಣಿ ಚೇತರಿಸದಿದ್ದರೆ ತಿಳಿಸುವುದು — ಹಾಗಾದರೆ, ಯಾವ ಹುಳು ಕಾರಣ ಎಂದು ಗುರುತಿಸಿ ಸರಿಯಾದ ಚಿಕಿತ್ಸೆ ಆಯ್ಕೆ ಮಾಡಲು ಅದರ ಸಗಣಿಯನ್ನು ಪಶುವೈದ್ಯರಿಂದ ಪರೀಕ್ಷಿಸಲು ಶಿಫಾರಸು ಮಾಡಿ.",
+              "कौन-सी दवा, उसकी खुराक, और दवा का प्रकार कितनी बार बदलना है (ताकि कृमि उसके प्रति प्रतिरोधी न बनें) — ये फ़ैसले किसी योग्य व्यक्ति के हैं, इन्हें खुद तय करने की चीज़ नहीं। आपका काम है लक्षण देखना, मोटे तौर पर जानना कि पशुओं को कृमिनाशक कब देना है, और अगर कोई पशु ठीक नहीं हो रहा तो बताना — ऐसा हो तो सुझाइए कि उसके गोबर की जाँच पशु चिकित्सक से कराई जाए ताकि पता चले कि कौन-सा कृमि है और सही इलाज चुना जा सके।"
             ),
           },
         ],
         check: [
           {
             type: "mcq",
-            q: L("When is a calf's first dewormer dose usually given?"),
-            options: [L("At birth"), L("Between 7 and 10 days of age"), L("Only after 6 months of age"), L("Only if it looks sick"),
+            q: L("When is a calf's first dewormer dose usually given?", "దూడకు మొదటి నులిపురుగుల మందు డోస్ సాధారణంగా ఎప్పుడు ఇస్తారు?", "கன்றுக்கு முதல் குடற்புழு நீக்க மருந்து பொதுவாக எப்போது கொடுக்கப்படும்?", "ಕರುವಿಗೆ ಮೊದಲ ಜಂತುನಾಶಕ ಡೋಸ್ ಸಾಮಾನ್ಯವಾಗಿ ಯಾವಾಗ ನೀಡಲಾಗುತ್ತದೆ?", "बछड़े को कृमिनाशक की पहली खुराक आमतौर पर कब दी जाती है?"),
+            options: [L("At birth", "పుట్టిన వెంటనే", "பிறந்தவுடன்", "ಹುಟ್ಟಿದ ತಕ್ಷಣ", "जन्म के समय"), L("Between 7 and 10 days of age", "7 నుండి 10 రోజుల వయసులో", "7 முதல் 10 நாள் வயதில்", "7 ರಿಂದ 10 ದಿನಗಳ ವಯಸ್ಸಿನಲ್ಲಿ", "7 से 10 दिन की उम्र में"), L("Only after 6 months of age", "6 నెలల వయసు దాటిన తర్వాతే", "6 மாத வயதுக்குப் பிறகு மட்டுமே", "6 ತಿಂಗಳ ವಯಸ್ಸಿನ ನಂತರವೇ", "6 महीने की उम्र के बाद ही"), L("Only if it looks sick", "అనారోగ్యంగా కనిపిస్తేనే", "நோயுற்றது போலத் தெரிந்தால் மட்டுமே", "ಅನಾರೋಗ್ಯದಂತೆ ಕಂಡರೆ ಮಾತ್ರ", "सिर्फ़ तब जब बीमार दिखे"),
             ],
             answer: 1,
-            explain: L("The first dose is usually given between 7 and 10 days of age, then repeated monthly until the calf is 6 months old."),
+            explain: L("The first dose is usually given between 7 and 10 days of age, then repeated monthly until the calf is 6 months old.", "మొదటి డోస్ సాధారణంగా 7 నుండి 10 రోజుల వయసులో ఇస్తారు, ఆ తర్వాత దూడకు 6 నెలలు వచ్చే వరకు ప్రతి నెలా మళ్లీ ఇస్తారు.", "முதல் டோஸ் பொதுவாக 7 முதல் 10 நாள் வயதில் கொடுக்கப்படும், பிறகு கன்றுக்கு 6 மாதம் ஆகும் வரை மாதந்தோறும் மீண்டும் கொடுக்கப்படும்.", "ಮೊದಲ ಡೋಸ್ ಸಾಮಾನ್ಯವಾಗಿ 7 ರಿಂದ 10 ದಿನಗಳ ವಯಸ್ಸಿನಲ್ಲಿ ನೀಡಲಾಗುತ್ತದೆ, ನಂತರ ಕರುವಿಗೆ 6 ತಿಂಗಳಾಗುವವರೆಗೆ ಪ್ರತಿ ತಿಂಗಳು ಪುನರಾವರ್ತಿಸಲಾಗುತ್ತದೆ.", "पहली खुराक आमतौर पर 7 से 10 दिन की उम्र में दी जाती है, फिर बछड़े के 6 महीने का होने तक हर महीने दोहराई जाती है।"),
           },
           {
             type: "truefalse",
-            q: L("Choosing the exact deworming drug and its dosage is something ground staff should decide on their own."),
+            q: L("Choosing the exact deworming drug and its dosage is something ground staff should decide on their own.", "ఏ నులిపురుగుల మందు వాడాలి, దాని మోతాదు ఎంత అనేది క్షేత్ర సిబ్బంది స్వయంగా నిర్ణయించాల్సిన విషయం.", "எந்த குடற்புழு நீக்க மருந்து, அதன் அளவு என்ன என்பதை களப் பணியாளர்கள் தாங்களே முடிவு செய்ய வேண்டும்.", "ಯಾವ ಜಂತುನಾಶಕ ಔಷಧ, ಅದರ ಪ್ರಮಾಣ ಎಷ್ಟು ಎಂದು ಕ್ಷೇತ್ರ ಸಿಬ್ಬಂದಿ ತಾವೇ ನಿರ್ಧರಿಸಬೇಕು.", "कौन-सी कृमिनाशक दवा और कितनी खुराक देनी है, यह फ़ील्ड स्टाफ़ को खुद तय करना चाहिए।"),
             answer: false,
-            explain: L("No — that decision, including rotating the drug type to avoid resistance, belongs to a qualified person such as a veterinarian."),
+            explain: L("No — that decision, including rotating the drug type to avoid resistance, belongs to a qualified person such as a veterinarian.", "కాదు — ఆ నిర్ణయం, నిరోధకత రాకుండా మందు రకాన్ని మార్చడంతో సహా, పశువైద్యుడి వంటి అర్హత గల వ్యక్తికే చెందుతుంది.", "இல்லை — அந்த முடிவு, எதிர்ப்புத் திறன் உருவாகாமல் இருக்க மருந்து வகையை மாற்றுவது உட்பட, கால்நடை மருத்துவர் போன்ற தகுதி பெற்ற ஒருவருடையது.", "ಇಲ್ಲ — ಆ ನಿರ್ಧಾರ, ನಿರೋಧಕತೆ ಬಾರದಂತೆ ಔಷಧದ ಬಗೆ ಬದಲಿಸುವುದು ಸೇರಿ, ಪಶುವೈದ್ಯರಂತಹ ಅರ್ಹ ವ್ಯಕ್ತಿಗೆ ಸೇರಿದ್ದು.", "नहीं — वह फ़ैसला, दवा का प्रकार बदलने (ताकि प्रतिरोध न बने) समेत, पशु चिकित्सक जैसे योग्य व्यक्ति का है।"),
           },
         ],
       },
@@ -6843,45 +6955,45 @@ export const MODULES = [
         {
           topicId: "t-m6-worm-signs",
           type: "mcq",
-          q: L("Where are schistosomes (a type of worm) usually found in the animal's body?"),
-          options: [L("Inside the blood vessels"), L("Only in the eyes"), L("Only on the skin"), L("Only in the udder")],
+          q: L("Where are schistosomes (a type of worm) usually found in the animal's body?", "షిస్టోసోమ్స్ (ఒక రకం పురుగులు) సాధారణంగా జంతువు శరీరంలో ఎక్కడ ఉంటాయి?", "ஷிஸ்டோசோம்கள் (ஒரு வகைப் புழு) பொதுவாக விலங்கின் உடலில் எங்கே காணப்படும்?", "ಷಿಸ್ಟೋಸೋಮ್‌ಗಳು (ಒಂದು ಬಗೆಯ ಹುಳು) ಸಾಮಾನ್ಯವಾಗಿ ಪ್ರಾಣಿಯ ದೇಹದಲ್ಲಿ ಎಲ್ಲಿರುತ್ತವೆ?", "शिस्टोसोम (एक तरह के कृमि) आमतौर पर पशु के शरीर में कहाँ पाए जाते हैं?"),
+          options: [L("Inside the blood vessels", "రక్తనాళాల లోపల", "இரத்த நாளங்களுக்குள்", "ರಕ್ತನಾಳಗಳ ಒಳಗೆ", "रक्त नलिकाओं (नसों) के अंदर"), L("Only in the eyes", "కళ్లలో మాత్రమే", "கண்களில் மட்டும்", "ಕಣ್ಣುಗಳಲ್ಲಿ ಮಾತ್ರ", "सिर्फ़ आँखों में"), L("Only on the skin", "చర్మంపై మాత్రమే", "தோலில் மட்டும்", "ಚರ್ಮದ ಮೇಲೆ ಮಾತ್ರ", "सिर्फ़ त्वचा पर"), L("Only in the udder", "పొదుగులో మాత్రమే", "மடியில் மட்டும்", "ಕೆಚ್ಚಲಿನಲ್ಲಿ ಮಾತ್ರ", "सिर्फ़ थन में")],
           answer: 0,
-          explain: L("Schistosomes live inside the animal's blood vessels, unlike roundworms and tapeworms which live in the gut."),
+          explain: L("Schistosomes live inside the animal's blood vessels, unlike roundworms and tapeworms which live in the gut.", "గుండ్రని పురుగులు, బద్దె పురుగులు పేగుల్లో ఉంటే, షిస్టోసోమ్స్ జంతువు రక్తనాళాల లోపల ఉంటాయి.", "உருளைப்புழுக்கள், நாடாப்புழுக்கள் குடலில் வாழ்வது போலன்றி, ஷிஸ்டோசோம்கள் விலங்கின் இரத்த நாளங்களுக்குள் வாழ்கின்றன.", "ದುಂಡುಹುಳು, ಪಟ್ಟಿಹುಳುಗಳು ಕರುಳಿನಲ್ಲಿ ವಾಸಿಸಿದರೆ, ಷಿಸ್ಟೋಸೋಮ್‌ಗಳು ಪ್ರಾಣಿಯ ರಕ್ತನಾಳಗಳ ಒಳಗೆ ವಾಸಿಸುತ್ತವೆ.", "गोल कृमि और फीताकृमि आँतों में रहते हैं, जबकि शिस्टोसोम पशु की रक्त नलिकाओं के अंदर रहते हैं।"),
         },
         {
           topicId: "t-m6-worm-signs",
           type: "truefalse",
-          q: L("Worm eggs can pass out in the dung and contaminate pasture, feed or water, spreading the infestation to other animals."),
+          q: L("Worm eggs can pass out in the dung and contaminate pasture, feed or water, spreading the infestation to other animals.", "పురుగు గుడ్లు పేడ ద్వారా బయటకు వచ్చి, మేత భూమిని, దాణాను, నీటిని కలుషితం చేసి ఇతర జంతువులకు వ్యాపింపజేస్తాయి.", "புழு முட்டைகள் சாணம் வழியாக வெளியேறி, மேய்ச்சல் நிலம், தீவனம், தண்ணீரை மாசுபடுத்தி மற்ற விலங்குகளுக்குத் தொற்றைப் பரப்பும்.", "ಹುಳುವಿನ ಮೊಟ್ಟೆಗಳು ಸಗಣಿಯ ಮೂಲಕ ಹೊರಬಂದು, ಮೇಯುವ ಜಾಗ, ಮೇವು ಅಥವಾ ನೀರನ್ನು ಕಲುಷಿತಗೊಳಿಸಿ ಇತರ ಪ್ರಾಣಿಗಳಿಗೆ ಹರಡಬಹುದು.", "कृमि के अंडे गोबर के साथ बाहर आकर चरागाह, चारे या पानी को गंदा कर सकते हैं और दूसरे पशुओं में संक्रमण फैला सकते हैं।"),
           answer: true,
-          explain: L("Correct — this is exactly how worm infestations spread from one animal to the rest of the herd, and even between farms."),
+          explain: L("Correct — this is exactly how worm infestations spread from one animal to the rest of the herd, and even between farms.", "సరైనదే — నులిపురుగుల బెడద ఒక జంతువు నుండి మిగతా మందకు, ఫారంల మధ్య కూడా ఇలాగే వ్యాపిస్తుంది.", "சரி — புழுத் தொல்லை ஒரு விலங்கிலிருந்து மற்ற மந்தைக்கும், பண்ணைகளுக்கு இடையிலும் இப்படித்தான் பரவுகிறது.", "ಸರಿ — ಹುಳುಗಳ ಬಾಧೆ ಒಂದು ಪ್ರಾಣಿಯಿಂದ ಉಳಿದ ಹಿಂಡಿಗೆ, ಫಾರ್ಮ್‌ಗಳ ನಡುವೆಯೂ ಹೀಗೆಯೇ ಹರಡುತ್ತದೆ.", "सही — कृमि का संक्रमण एक पशु से बाकी झुंड में, और यहाँ तक कि फ़ार्मों के बीच भी ऐसे ही फैलता है।"),
         },
         {
           topicId: "t-m6-worm-control",
           type: "mcq",
-          q: L("How often are animals over 6 months old usually dewormed?"),
+          q: L("How often are animals over 6 months old usually dewormed?", "6 నెలల కంటే పెద్ద జంతువులకు సాధారణంగా ఎంత తరచుగా నులిపురుగుల మందు ఇస్తారు?", "6 மாதத்திற்கு மேற்பட்ட விலங்குகளுக்கு பொதுவாக எத்தனை முறை குடற்புழு நீக்கம் செய்யப்படுகிறது?", "6 ತಿಂಗಳಿಗಿಂತ ಹೆಚ್ಚಿನ ಪ್ರಾಣಿಗಳಿಗೆ ಸಾಮಾನ್ಯವಾಗಿ ಎಷ್ಟು ಬಾರಿ ಜಂತುನಾಶಕ ನೀಡಲಾಗುತ್ತದೆ?", "6 महीने से बड़े पशुओं को आमतौर पर कितनी बार कृमिनाशक दिया जाता है?"),
           options: [
-            L("Once a month, all year round"),
-            L("Twice a year — at the start and end of the rainy season"),
-            L("Only once, in their entire lifetime"),
-            L("Only if they are pregnant"),
+            L("Once a month, all year round", "ఏడాది పొడవునా ప్రతి నెలా ఒకసారి", "ஆண்டு முழுவதும் மாதம் ஒருமுறை", "ವರ್ಷವಿಡೀ ತಿಂಗಳಿಗೊಮ್ಮೆ", "साल भर हर महीने एक बार"),
+            L("Twice a year — at the start and end of the rainy season", "ఏడాదికి రెండుసార్లు — వర్షాకాలం మొదట్లో, చివర్లో", "ஆண்டுக்கு இரண்டு முறை — மழைக்காலத் தொடக்கத்திலும் முடிவிலும்", "ವರ್ಷಕ್ಕೆ ಎರಡು ಬಾರಿ — ಮಳೆಗಾಲದ ಆರಂಭ ಮತ್ತು ಕೊನೆಯಲ್ಲಿ", "साल में दो बार — बरसात की शुरुआत और अंत में"),
+            L("Only once, in their entire lifetime", "జీవితకాలంలో ఒక్కసారి మాత్రమే", "வாழ்நாளில் ஒரே ஒருமுறை மட்டும்", "ಜೀವಿತಾವಧಿಯಲ್ಲಿ ಒಂದೇ ಬಾರಿ ಮಾತ್ರ", "पूरी ज़िंदगी में सिर्फ़ एक बार"),
+            L("Only if they are pregnant", "చూలుతో ఉంటేనే మాత్రమే", "சினையாக இருந்தால் மட்டுமே", "ಗಬ್ಬವಾಗಿದ್ದರೆ ಮಾತ್ರ", "सिर्फ़ तब जब वे गाभिन हों"),
           ],
           answer: 1,
-          explain: L("Animals above 6 months are usually dewormed twice a year, once at the beginning and once at the end of the rainy season."),
+          explain: L("Animals above 6 months are usually dewormed twice a year, once at the beginning and once at the end of the rainy season.", "6 నెలల పైబడిన జంతువులకు సాధారణంగా ఏడాదికి రెండుసార్లు నులిపురుగుల మందు ఇస్తారు — ఒకసారి వర్షాకాలం మొదట్లో, మరోసారి చివర్లో.", "6 மாதத்திற்கு மேற்பட்ட விலங்குகளுக்கு பொதுவாக ஆண்டுக்கு இரண்டு முறை குடற்புழு நீக்கம் செய்யப்படும் — ஒருமுறை மழைக்காலத் தொடக்கத்தில், மறுமுறை முடிவில்.", "6 ತಿಂಗಳಿಗಿಂತ ಹೆಚ್ಚಿನ ಪ್ರಾಣಿಗಳಿಗೆ ಸಾಮಾನ್ಯವಾಗಿ ವರ್ಷಕ್ಕೆ ಎರಡು ಬಾರಿ ಜಂತುನಾಶಕ ನೀಡಲಾಗುತ್ತದೆ — ಒಮ್ಮೆ ಮಳೆಗಾಲದ ಆರಂಭದಲ್ಲಿ, ಇನ್ನೊಮ್ಮೆ ಕೊನೆಯಲ್ಲಿ.", "6 महीने से ऊपर के पशुओं को आमतौर पर साल में दो बार कृमिनाशक दिया जाता है — एक बार बरसात की शुरुआत में और एक बार अंत में।"),
         },
         {
           topicId: "t-m6-worm-control",
           type: "truefalse",
-          q: L("Standing water and snails near the shed or pasture are worth noticing and mentioning, since they raise the risk of flukes and schistosomes."),
+          q: L("Standing water and snails near the shed or pasture are worth noticing and mentioning, since they raise the risk of flukes and schistosomes.", "కొట్టం లేదా మేత భూమి దగ్గర నిలిచిన నీరు, నత్తలను గమనించి చెప్పడం మంచిది, ఎందుకంటే అవి ఫ్లూక్స్, షిస్టోసోమ్స్ ప్రమాదాన్ని పెంచుతాయి.", "தொழுவம் அல்லது மேய்ச்சல் நிலத்துக்கு அருகில் தேங்கிய நீர், நத்தைகளைக் கவனித்துச் சொல்வது நல்லது, ஏனெனில் அவை அட்டைப்புழு (ஃப்ளூக்), ஷிஸ்டோசோம் ஆபத்தை அதிகரிக்கின்றன.", "ಕೊಟ್ಟಿಗೆ ಅಥವಾ ಮೇಯುವ ಜಾಗದ ಬಳಿ ನಿಂತ ನೀರು ಮತ್ತು ಬಸವನಹುಳುಗಳನ್ನು ಗಮನಿಸಿ ತಿಳಿಸುವುದು ಒಳ್ಳೆಯದು, ಏಕೆಂದರೆ ಅವು ಫ್ಲೂಕ್ ಮತ್ತು ಷಿಸ್ಟೋಸೋಮ್ ಅಪಾಯ ಹೆಚ್ಚಿಸುತ್ತವೆ.", "शेड या चरागाह के पास जमा पानी और घोंघों पर ध्यान देकर बताना अच्छा है, क्योंकि इनसे फ्लूक और शिस्टोसोम का ख़तरा बढ़ता है।"),
           answer: true,
-          explain: L("Yes — snails are needed for the life cycle of flukes and schistosomes, so water-logged areas with snails carry a higher risk."),
+          explain: L("Yes — snails are needed for the life cycle of flukes and schistosomes, so water-logged areas with snails carry a higher risk.", "అవును — ఫ్లూక్స్, షిస్టోసోమ్స్ జీవిత చక్రానికి నత్తలు అవసరం, కాబట్టి నత్తలు ఉన్న నీరు నిలిచే ప్రాంతాల్లో ప్రమాదం ఎక్కువ.", "ஆம் — அட்டைப்புழு (ஃப்ளூக்), ஷிஸ்டோசோம்களின் வாழ்க்கைச் சுழற்சிக்கு நத்தைகள் தேவை, எனவே நத்தைகள் உள்ள நீர் தேங்கும் பகுதிகளில் ஆபத்து அதிகம்.", "ಹೌದು — ಫ್ಲೂಕ್ ಮತ್ತು ಷಿಸ್ಟೋಸೋಮ್‌ಗಳ ಜೀವನ ಚಕ್ರಕ್ಕೆ ಬಸವನಹುಳುಗಳು ಬೇಕು, ಆದ್ದರಿಂದ ಬಸವನಹುಳುಗಳಿರುವ ನೀರು ನಿಲ್ಲುವ ಪ್ರದೇಶಗಳಲ್ಲಿ ಅಪಾಯ ಹೆಚ್ಚು.", "हाँ — फ्लूक और शिस्टोसोम के जीवन-चक्र के लिए घोंघे ज़रूरी हैं, इसलिए घोंघों वाले जल-जमाव के इलाकों में ख़तरा ज़्यादा रहता है।"),
         },
         {
           topicId: "t-m6-worm-signs",
           type: "mcq",
-          q: L("A cough, along with no other obvious sign, could point to which kind of worm?"),
-          options: [L("Tapeworm"), L("Lungworm"), L("Liver fluke"), L("Schistosome in the blood vessels")],
+          q: L("A cough, along with no other obvious sign, could point to which kind of worm?", "ఇతర స్పష్టమైన లక్షణాలేవీ లేకుండా కేవలం దగ్గు ఏ రకం పురుగును సూచించవచ్చు?", "வேறு தெளிவான அறிகுறி எதுவும் இல்லாமல் இருமல் மட்டும் இருந்தால், அது எந்த வகைப் புழுவைக் குறிக்கலாம்?", "ಬೇರೆ ಯಾವುದೇ ಸ್ಪಷ್ಟ ಲಕ್ಷಣವಿಲ್ಲದೆ ಕೇವಲ ಕೆಮ್ಮು ಇದ್ದರೆ, ಅದು ಯಾವ ಬಗೆಯ ಹುಳುವನ್ನು ಸೂಚಿಸಬಹುದು?", "और कोई साफ़ लक्षण न हो और सिर्फ़ खाँसी हो, तो यह किस तरह के कृमि की ओर इशारा कर सकती है?"),
+          options: [L("Tapeworm", "బద్దె పురుగు", "நாடாப்புழு", "ಪಟ್ಟಿಹುಳು", "फीताकृमि (टेपवर्म)"), L("Lungworm", "ఊపిరితిత్తుల పురుగు", "நுரையீரல் புழு", "ಶ್ವಾಸಕೋಶದ ಹುಳು", "फेफड़े का कृमि (लंगवर्म)"), L("Liver fluke", "లివర్ ఫ్లూక్ (కాలేయ పురుగు)", "ஈரல் அட்டைப்புழு (லிவர் ஃப்ளூக்)", "ಲಿವರ್ ಫ್ಲೂಕ್ (ಯಕೃತ್ತಿನ ಹುಳು)", "लिवर फ्लूक (जिगर का कृमि)"), L("Schistosome in the blood vessels", "రక్తనాళాల్లోని షిస్టోసోమ్", "இரத்த நாளங்களில் உள்ள ஷிஸ்டோசோம்", "ರಕ್ತನಾಳಗಳಲ್ಲಿನ ಷಿಸ್ಟೋಸೋಮ್", "रक्त नलिकाओं का शिस्टोसोम")],
           answer: 1,
-          explain: L("A cough is associated with lungworm, a type of roundworm that lives in the lungs."),
+          explain: L("A cough is associated with lungworm, a type of roundworm that lives in the lungs.", "దగ్గు ఊపిరితిత్తుల పురుగుతో ముడిపడి ఉంటుంది; ఇది ఊపిరితిత్తుల్లో ఉండే ఒక రకం గుండ్రని పురుగు.", "இருமல் நுரையீரல் புழுவுடன் தொடர்புடையது; இது நுரையீரலில் வாழும் ஒரு வகை உருளைப்புழு.", "ಕೆಮ್ಮು ಶ್ವಾಸಕೋಶದ ಹುಳುವಿನೊಂದಿಗೆ ಸಂಬಂಧಿಸಿದೆ; ಇದು ಶ್ವಾಸಕೋಶದಲ್ಲಿ ವಾಸಿಸುವ ಒಂದು ಬಗೆಯ ದುಂಡುಹುಳು.", "खाँसी का संबंध फेफड़े के कृमि (लंगवर्म) से है, जो फेफड़ों में रहने वाला एक तरह का गोल कृमि है।"),
         },
       ],
     },
