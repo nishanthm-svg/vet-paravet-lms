@@ -12,7 +12,19 @@ Written from zero — no assumption that the learner has ever worked with an ani
 2. **Reading Vital Signs** — step-by-step instructions for counting breathing and feeling the stomach move, normal ranges explained in plain numbers, coat/appearance, and the classic surprising signs of fever (cold ears/horns/legs, hot body).
 3. **Body Condition Scoring (BCS)** — the 5-point scale explained without jargon (what a "backbone line" or "hip bone" actually is), what each score means for health/breeding risk, and a short case study applying it.
 
-Modules 2–17 are listed on the dashboard as "Coming soon" placeholders, titled directly from the source handbook's table of contents, ready to be filled in the same way (see "Adding the next module" below).
+Modules 2–17 follow the source handbook's table of contents.
+
+## 2026 content update (NDDB Handbook 2026 + Farm Management Guideline 2026)
+
+The course was updated to the NDDB *Handbook of Good Dairy Husbandry Practices* (2026 edition) and the NDDB *Small Holder Dairy Farm Management Guideline* (September 2026). **New content is English-only for now** — `L("English")` falls back to English in every language until it is translated.
+
+- **New lessons in existing modules:** m3-l3 (first weeks of a calf, colostrum quality by Brix), m5-l4 (tetanus and botulism), m9-l4 (CMT and other mastitis tests, teat diseases), m12-l4 (infertility and repeat breeding), m12-l5 (sexed semen, IVF-ET, progeny testing and genomics), m14-l4 (feeding through the lactation cycle), m14-l5 (feed supplements and TMR), m15-l4 (alternate fodder, better silage, straw blocks), m16-l3 (heat stress), m17-l2 (Bharat Pashudhan and the 1962 app).
+- **New topics inside existing lessons:** vaccination day (m4-l3), milk fever prevention (m7-l1), salmonellosis and CCHF/KFD (m11-l2), AI facts and myths (m12-l2), drying off and dry cow therapy (m12-l3).
+- **New modules:** m18 Farm Performance Targets, m19 Herd Health Management, m20 Indigenous Breeds, m21 Farm Records and Cost of Milk — each with 3 final-exam questions in `exam-data.js`.
+- **Corrected facts:** heat stages and the AM–PM insemination rule, calving within 30–60 minutes / vet if head and legs not seen within 1 hour, LSD added to the vaccination schedule, foot bath with a routine antiseptic, urea-treated straw saves up to 20% concentrate, ration balancing via the 1962 app, DAHD (not DADF), ICAR 12-digit ear tag with barcode, 30-day quarantine note.
+- **Known source conflicts (flagged in the lessons):** Theileriosis revaccination (handbook: annually; guideline: once in a lifetime) and quarantine length (handbook: 3 weeks; guideline: 30 days).
+- **Deliberately omitted:** the guideline's dewormer drug/mg-per-kg dose table — the course teaches notice-and-report, and dosing is for the vet.
+- **Adding lessons lowers existing learners' completion percentages** (progress is stored per `lessonId`); no existing lesson or topic ids were renamed.
 
 ## How it works
 
@@ -51,4 +63,6 @@ Any static hosting works (Render static site, Netlify, Vercel, GitHub Pages, or 
 ## Source material
 
 - `Handbook of Good Dairy Husbandry Practices` — National Dairy Development Board (animal health & breeding, nutrition & management, INAPH information network).
+- `Handbook of Good Dairy Husbandry Practices` — NDDB, 2026 edition (June/August 2026).
+- `Small Holder Dairy Farm Management Guideline` — NDDB, September 2026 (key performance indicators, herd health, indigenous breeds, feeding management, cost of milk, record keeping).
 - `Ethnoveterinary Formulations for Important Ailments in Bovines` — NDDB, July 2021 (home-remedy formulations for 20 common bovine ailments, with the caution that a veterinarian should still be consulted for diagnosis).

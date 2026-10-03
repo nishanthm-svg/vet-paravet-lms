@@ -196,7 +196,7 @@ async function quizAttempt(moduleId, lessonId, scorePercent, passed) {
 }
 
 // The final exam's own attempt record lives at progress/{uid}.finalExam,
-// alongside the per-module keys (moduleIds are always "m1".."m17", so
+// alongside the per-module keys (moduleIds are always "m1".."m21", so
 // "finalExam" can never collide with one) — same document, same security
 // rule, nothing new to grant access to.
 async function finalExamAttempt(scorePercent, passed) {

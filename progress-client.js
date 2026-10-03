@@ -90,7 +90,7 @@ export function isCourseComplete(modules) {
 }
 
 // The final exam's attempt record lives at cache.finalExam — a sibling to
-// the moduleId keys (always "m1".."m17", so it can never collide) in the
+// the moduleId keys (always "m1".."m21", so it can never collide) in the
 // same progress blob, following the exact optimistic-update-then-reconcile
 // pattern as recordQuizAttempt above.
 export function getFinalExamState() {

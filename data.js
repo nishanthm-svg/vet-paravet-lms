@@ -2660,13 +2660,7 @@ export const MODULES = [
                       "ಎಷ್ಟು ಕಾಲ",
                       "कितने समय तक"
                     ),
-                    text: L(
-                      "At least 3 weeks of isolation, with no contact at all with the rest of the herd.",
-                      "కనీసం 3 వారాల పాటు వేరుగా ఉంచాలి, మిగతా మందతో ఏమాత్రం సంపర్కం ఉండకూడదు.",
-                      "குறைந்தது 3 வாரங்கள் தனியாக வைக்க வேண்டும், மற்ற மந்தையுடன் எந்தத் தொடர்பும் இருக்கக் கூடாது.",
-                      "ಕನಿಷ್ಠ 3 ವಾರಗಳ ಕಾಲ ಪ್ರತ್ಯೇಕವಾಗಿ ಇಡಬೇಕು, ಉಳಿದ ಹಿಂಡಿನೊಂದಿಗೆ ಯಾವುದೇ ಸಂಪರ್ಕ ಇರಬಾರದು.",
-                      "कम से कम 3 हफ्ते अलग रखें, बाकी झुंड से बिल्कुल संपर्क न हो।"
-                    ),
+                    text: L("At least 3 weeks of isolation (2026 handbook), with no contact at all with the rest of the herd. The 2026 NDDB farm management guideline recommends at least 30 days, under veterinary guidance — and longer if the animal's health status is uncertain."),
                   },
                   {
                     label: L(
@@ -3827,6 +3821,349 @@ export const MODULES = [
       ],
     },
   },
+  // ==================================================================
+  // LESSON 3 — The First Weeks: Raising a Healthy Calf
+  // Source: NDDB Small Holder Dairy Farm Management Guideline (2026)
+  // ==================================================================
+  {
+    id: "m3-l3",
+    title: L("The First Weeks: Raising a Healthy Calf"),
+    estMinutes: 10,
+    hook: [
+      {
+        type: "hero",
+        heading: L("Surviving the First Day Is Only the Start"),
+        text: L(
+          "A calf that gets through its first day still has a risky few weeks ahead. NDDB's newer farm-management guideline adds practical detail to what you learned in Lesson 1 — how to help a calf that isn't breathing well, how to check whether colostrum is actually rich enough, and a simple month-by-month checklist for the first six months. Raising your own calf well is better than buying one from an unknown source."
+        ),
+      },
+    ],
+    topics: [
+      {
+        id: "t-m3-first-week",
+        title: L("Helping a Newborn Breathe, and the First Week's Checks"),
+        teach: [
+          {
+            type: "photo",
+            src: "assets/photo-cow-newborn-calf.jpg",
+            alt: L("A cow standing with her newborn calf just after birth"),
+            caption: L("The first minutes and the first week are the most dangerous time in a calf's life — this is when close watching saves the most calves."),
+          },
+          {
+            type: "text",
+            heading: L("If the Calf Is Not Breathing Well"),
+            html: L(
+              "Right after birth, clean the mucus out of the calf's nostrils and mouth. Then sit the calf up on its chest — front legs tucked under the body, head and neck stretched forward — so that both lungs can open fully. Rub the calf briskly with a clean towel, especially over the chest and ribs. Gently touching the inside of a nostril with a clean blade of straw or a clean finger can make the calf sneeze or gasp, which helps it start breathing."
+            ),
+          },
+          {
+            type: "glossary",
+            term: L("Sternal Recumbency"),
+            meaning: L(
+              "Sitting upright on the chest, with the front legs folded under the body and the head held up — the position that lets a newborn calf's lungs open properly. Lying flat on its side makes breathing harder."
+            ),
+          },
+          {
+            type: "callout",
+            style: "warning",
+            heading: L("Still Not Breathing? Call for Help at Once"),
+            text: L(
+              "If breathing does not improve quickly, call the veterinarian immediately. Giving breaths into the nostrils or using a calf resuscitator is only for a trained person — it is easy to over-inflate a calf's lungs. Your job is the simple first steps above, and getting help fast."
+            ),
+          },
+          {
+            type: "stat-grid",
+            items: [
+              {
+                label: L("Standing up"),
+                text: L("A healthy calf should stand within about 15–20 minutes of birth. A calf that cannot stand is worth reporting."),
+              },
+              {
+                label: L("Licking"),
+                text: L(
+                  "If the mother will not lick her calf, sprinkling a handful of bran or salt over the calf's body encourages her. If she still won't, or the weather is cold, dry the calf yourself with a dry cloth or gunny bag."
+                ),
+              },
+              {
+                label: L("First dung (meconium)"),
+                text: L(
+                  "The calf should pass its first dark, tarry dung within 4–6 hours of its first colostrum feed. If it hasn't, report it — the vet may advise a little castor oil, and will also check that the calf was born with a normal back passage."
+                ),
+              },
+            ],
+          },
+          {
+            type: "callout",
+            style: "info",
+            heading: L("The First Seven Days Are Critical"),
+            text: L(
+              "Watch the calf closely every day of its first week for breathing trouble, dullness, weak suckling, diarrhoea or fever. Any one of these is a same-day report — calves can go downhill very fast."
+            ),
+          },
+          {
+            type: "example",
+            heading: L("The Navel, Done in a Tie-First Order"),
+            text: L(
+              "Lesson 1 described cutting the cord and then tying it. NDDB's farm guideline describes the same job in a tie-first order: tie the cord with clean thread about 2.5–3 cm from the body, cut about 1.5 cm below the tie, then apply tincture of iodine (3.5% or stronger) for at least 30 seconds, and repeat the iodine after 12 hours. Either way, the goal is identical — a clean, dry, disinfected navel."
+            ),
+          },
+        ],
+        check: [
+          {
+            type: "mcq",
+            q: L("Within about how long should a healthy newborn calf be able to stand?"),
+            options: [L("15–20 minutes"), L("6 hours"), L("2 days"), L("1 week")],
+            answer: 0,
+            explain: L("A healthy calf usually stands within about 15–20 minutes of birth. If it can't, report it."),
+          },
+          {
+            type: "truefalse",
+            q: L("Sitting a weak newborn calf up on its chest helps both of its lungs open properly."),
+            answer: true,
+            explain: L("Yes — sitting it up on its chest (sternal recumbency) with the head stretched forward lets both lungs expand."),
+          },
+        ],
+      },
+      {
+        id: "t-m3-colostrum-quality",
+        title: L("Is the Colostrum Rich Enough? Checking Its Quality"),
+        teach: [
+          {
+            type: "text",
+            heading: L("Not All Colostrum Is Equally Strong"),
+            html: L(
+              "Colostrum protects a calf because it is full of <b>antibodies</b> — the mother's ready-made defences against germs she has met in her life. But the amount of antibodies varies a lot from cow to cow. NDDB's farm guideline recommends checking colostrum before feeding it, using a small hand-held instrument called a <b>Brix refractometer</b>."
+            ),
+          },
+          {
+            type: "glossary",
+            term: L("Brix Refractometer"),
+            meaning: L(
+              "A small hand-held device. A few drops of colostrum are placed on it, and it shows a number (the Brix %) that tells you roughly how rich in antibodies the colostrum is. Higher is better."
+            ),
+          },
+          {
+            type: "stat-grid",
+            items: [
+              { label: L("Brix 22% or more"), text: L("Good-quality colostrum (about 50 g of antibodies per litre or more) — use it.") },
+              {
+                label: L("Brix 18% up to 22%"),
+                text: L(
+                  "Borderline — feed it, but top it up after talking to the vet: for example, with good colostrum (above 22%) from another healthy cow, or a commercial colostrum replacer."
+                ),
+              },
+              { label: L("Brix below 18%"), text: L("Too weak to protect the calf — discard it and use a better source.") },
+            ],
+          },
+          {
+            type: "stat-grid",
+            items: [
+              { label: L("Calf weighing 35 kg or more"), text: L("Needs about 300 g of antibodies (IgG) in total from colostrum.") },
+              { label: L("Calf weighing under 35 kg"), text: L("Needs about 225 g of antibodies in total.") },
+              {
+                label: L("First feed — within 2 hours"),
+                text: L("With good colostrum (Brix 22%+): 3–4 litres, giving roughly 150–200 g of antibodies."),
+              },
+              {
+                label: L("Second feed — 6–12 hours later"),
+                text: L("Another 1.5–2 litres, giving roughly 75–100 g more."),
+              },
+            ],
+          },
+          {
+            type: "callout",
+            style: "info",
+            heading: L("How This Fits With Lesson 1"),
+            text: L(
+              "Lesson 1 gave the handbook's simple rule — at least 2 litres within 2 hours and 1–2 litres more within 12 hours. When the colostrum has been checked and is good, the farm guideline aims a little higher (3–4 litres in the first 2 hours). As a rough upper limit, colostrum can be fed up to about one-tenth of the calf's body weight. Either way, the first 2 hours are the golden window."
+            ),
+          },
+          {
+            type: "callout",
+            style: "tip",
+            heading: L("Your Role"),
+            text: L(
+              "If the farm has a Brix refractometer, help make sure it is actually used before the first feed, and pass the reading on. Deciding how to supplement weak colostrum is for the vet."
+            ),
+          },
+        ],
+        check: [
+          {
+            type: "mcq",
+            q: L("A colostrum sample reads 16% on the Brix refractometer. What does the guideline say?"),
+            options: [L("Use it — any colostrum is fine"), L("Discard it — it is too weak to protect the calf"), L("Dilute it with water"), L("Feed it only after 24 hours")],
+            answer: 1,
+            explain: L("Below 18% Brix the colostrum is too weak and should be discarded; 22% and above is good quality."),
+          },
+          {
+            type: "truefalse",
+            q: L("Colostrum with a Brix reading of 22% or more is considered good quality."),
+            answer: true,
+            explain: L("Correct — 22% or more means roughly 50 g of antibodies per litre or more."),
+          },
+        ],
+      },
+      {
+        id: "t-m3-calfhood",
+        title: L("Calf-Hood Checklist: The First Six Months"),
+        teach: [
+          {
+            type: "timeline",
+            heading: L("A Calf's First Six Months, Step by Step"),
+            items: [
+              { year: L("Week 1–2"), text: L("Fix a permanent ID — an ear tag is the usual choice — within the first 1–2 weeks.") },
+              {
+                year: L("Day 7–14 (buffalo calves: day 3–7)"),
+                text: L("First deworming, then roughly monthly until 6 months of age, as advised by the vet."),
+              },
+              { year: L("Week 1 onward"), text: L("Start calf starter feed (see below) to build up the rumen and support growth.") },
+              {
+                year: L("Before 2–3 months"),
+                text: L("Disbudding (removing horn buds) and removal of any extra teats — done under veterinary supervision with pain relief."),
+              },
+              {
+                year: L("Before 3 months"),
+                text: L("Castration of male calves not kept for breeding — the bloodless (Burdizzo) method is preferred young; done under veterinary supervision."),
+              },
+              { year: L("Until 3 months"), text: L("No vaccines — the protection from colostrum is still working in the calf's body.") },
+              {
+                year: L("4–8 months"),
+                text: L("FMD vaccine from about 4 months (then every 6 months); brucellosis vaccine once, for female calves only, between 4 and 8 months."),
+              },
+            ],
+            result: L("Every one of these dates is something you can track and remind the farmer about — none of the procedures are yours to perform."),
+          },
+          {
+            type: "glossary",
+            term: L("Weaning"),
+            meaning: L(
+              "Stopping a calf from suckling its mother. With 'early weaning' the calf never suckles — the cow is milked and the calf is fed colostrum and then milk (or milk replacer) by hand. Where cows have a strong mothering instinct, such as Indian breeds and buffaloes, early weaning is hard, so weaning is often done at 3–4 months instead."
+            ),
+          },
+          {
+            type: "ledger",
+            heading: L("Example Calf Starter (approximate percentages)"),
+            rows: [
+              { label: L("Maize"), amount: "52%" },
+              { label: L("Oats"), amount: "20%" },
+              { label: L("Soyabean meal"), amount: "20%" },
+              { label: L("Molasses"), amount: "5%" },
+              { label: L("Minerals (macro and micro)"), amount: "1.5%" },
+              { label: L("Vitamins"), amount: "1%" },
+              { label: L("Salt"), amount: "0.5%" },
+            ],
+            total: { label: L("Total"), amount: "100%" },
+          },
+          {
+            type: "stat-grid",
+            items: [
+              {
+                label: L("Normal birth weights"),
+                text: L("Indigenous calves about 20–30 kg; crossbred 25–35 kg; Holstein-Friesian 35–45 kg; buffalo calves 30–40 kg."),
+              },
+              {
+                label: L("Healthy growth"),
+                text: L(
+                  "Before weaning, indigenous and buffalo calves should gain about 0.5–0.8 kg a day; well-managed crossbred and exotic calves about 0.7–1.0 kg a day."
+                ),
+              },
+              {
+                label: L("When to weigh"),
+                text: L("At birth, and where possible at 7, 14, 21, 30, 60, 90, 120, 150 and 180 days — so slow growth is spotted early."),
+              },
+            ],
+          },
+          {
+            type: "callout",
+            style: "warning",
+            heading: L("The Three Big Calf Killers"),
+            text: L(
+              "Most calf deaths come from just three problems: diarrhoea, pneumonia (a lung infection — watch for fast or difficult breathing and nasal discharge) and navel or joint ill (a swollen, hot, painful navel or joints). Reporting any of these on the first day you notice them is the single best thing you can do to lower calf deaths."
+            ),
+          },
+        ],
+        check: [
+          {
+            type: "truefalse",
+            q: L("Calves should be vaccinated in their first month of life, before colostrum protection starts."),
+            answer: false,
+            explain: L("No — no vaccine should be given before about 3 months, because the protection from colostrum is still active and can block the vaccine."),
+          },
+          {
+            type: "mcq",
+            q: L("Which three problems cause most calf deaths?"),
+            options: [
+              L("Bloat, laminitis and milk fever"),
+              L("Ticks, lice and flies"),
+              L("Diarrhoea, pneumonia, and navel/joint ill"),
+              L("Mastitis, ketosis and foot rot"),
+            ],
+            answer: 2,
+            explain: L("Calf diarrhoea, calf pneumonia and navel/joint ill are the main causes of calf deaths — early reporting saves calves."),
+          },
+        ],
+      },
+    ],
+    finalQuiz: {
+      passScore: 70,
+      questions: [
+        {
+          topicId: "t-m3-first-week",
+          type: "mcq",
+          q: L("A newborn calf has not passed its first dark, tarry dung 6 hours after its first colostrum feed. What should you do?"),
+          options: [L("Nothing — it can take a week"), L("Report it to the owner or vet"), L("Stop feeding it colostrum"), L("Give it plain water only")],
+          answer: 1,
+          explain: L("The first dung (meconium) should pass within 4–6 hours of the first colostrum feed. If it hasn't, report it — the vet will decide what to do."),
+        },
+        {
+          topicId: "t-m3-first-week",
+          type: "truefalse",
+          q: L("If a mother will not lick her calf, sprinkling a handful of bran or salt on the calf can encourage her."),
+          answer: true,
+          explain: L("Yes. If she still won't lick, or it is cold, dry the calf with a dry cloth or gunny bag."),
+        },
+        {
+          topicId: "t-m3-colostrum-quality",
+          type: "mcq",
+          q: L("What does a Brix refractometer tell you about colostrum?"),
+          options: [L("Its temperature"), L("Roughly how rich it is in antibodies"), L("How much fat the cow's milk will have later"), L("Whether the calf is male or female")],
+          answer: 1,
+          explain: L("The Brix reading shows roughly how rich the colostrum is in antibodies — 22% or more is good quality."),
+        },
+        {
+          topicId: "t-m3-colostrum-quality",
+          type: "mcq",
+          q: L("With good-quality colostrum, how much does the farm guideline aim to give within the first 2 hours?"),
+          options: [L("About 200 ml"), L("About 3–4 litres"), L("About 10 litres"), L("None — wait until the next day")],
+          answer: 1,
+          explain: L("With colostrum of Brix 22% or more, the guideline aims for 3–4 litres within 2 hours, then 1.5–2 litres 6–12 hours later."),
+        },
+        {
+          topicId: "t-m3-calfhood",
+          type: "mcq",
+          q: L("By when should a calf ideally get its permanent ID such as an ear tag?"),
+          options: [L("Within its first 1–2 weeks"), L("At 2 years"), L("Only when it is sold"), L("Never — calves don't need ID")],
+          answer: 0,
+          explain: L("Tagging should be completed within the first 1–2 weeks of life."),
+        },
+        {
+          topicId: "t-m3-calfhood",
+          type: "truefalse",
+          q: L("Disbudding, castration and removing extra teats should be done under veterinary supervision with proper pain relief."),
+          answer: true,
+          explain: L("Correct — these are procedures for a trained person. Your role is to track the timing and remind the farmer."),
+        },
+        {
+          topicId: "t-m3-calfhood",
+          type: "mcq",
+          q: L("Roughly what daily weight gain should a well-managed crossbred calf achieve before weaning?"),
+          options: [L("About 50 grams"), L("About 0.7–1.0 kg"), L("About 5 kg"), L("Weight doesn't need watching")],
+          answer: 1,
+          explain: L("Crossbred and exotic calves should gain about 0.7–1.0 kg a day; indigenous and buffalo calves about 0.5–0.8 kg a day."),
+        },
+      ],
+    },
+  },
     ],
   },
   {
@@ -4328,13 +4665,7 @@ export const MODULES = [
             type: "callout",
             style: "warning",
             heading: L("If an Animal Is Bitten by a Dog", "పశువును కుక్క కరిస్తే", "விலங்கை நாய் கடித்தால்", "ಪ್ರಾಣಿಗೆ ನಾಯಿ ಕಚ್ಚಿದರೆ", "अगर किसी पशु को कुत्ता काट ले"),
-            text: L(
-              "Wash the wound immediately under running water for 5–10 minutes, gently clean it with soap, and get the vet involved right away — post-bite vaccination may be needed. This is urgent, not something to wait on.",
-              "గాయాన్ని వెంటనే పారే నీటి కింద 5–10 నిమిషాలు కడగండి, సబ్బుతో మెల్లగా శుభ్రం చేయండి, వెంటనే పశువైద్యుడిని రంగంలోకి తీసుకురండి — కాటు తర్వాత టీకా అవసరం కావచ్చు. ఇది అత్యవసరం, వాయిదా వేయకూడదు.",
-              "காயத்தை உடனே ஓடும் நீரில் 5–10 நிமிடங்கள் கழுவுங்கள், சோப்பால் மெதுவாகச் சுத்தம் செய்யுங்கள், உடனே கால்நடை மருத்துவரை ஈடுபடுத்துங்கள் — கடித்த பிறகு போடும் தடுப்பூசி தேவைப்படலாம். இது அவசரம், காத்திருக்கக் கூடாது.",
-              "ಗಾಯವನ್ನು ತಕ್ಷಣ ಹರಿಯುವ ನೀರಿನಲ್ಲಿ 5–10 ನಿಮಿಷ ತೊಳೆಯಿರಿ, ಸಾಬೂನಿನಿಂದ ಮೆಲ್ಲನೆ ಶುಚಿಗೊಳಿಸಿ, ತಕ್ಷಣ ಪಶುವೈದ್ಯರನ್ನು ಸೇರಿಸಿಕೊಳ್ಳಿ — ಕಡಿತದ ನಂತರದ ಲಸಿಕೆ ಬೇಕಾಗಬಹುದು. ಇದು ತುರ್ತು, ಕಾಯುವಂಥದ್ದಲ್ಲ.",
-              "घाव को तुरंत बहते पानी के नीचे 5–10 मिनट तक धोएं, साबुन से धीरे से साफ़ करें, और तुरंत पशु चिकित्सक को बुलाएं — काटने के बाद वाला टीका लगवाना पड़ सकता है। यह आपात स्थिति है, इंतज़ार करने वाली बात नहीं।"
-            ),
+            text: L("Wash the wound immediately under running water for 5–10 minutes (or pour clean water from a vessel if there is no tap), gently clean it with ordinary soap, apply tincture iodine, and take the animal to the vet right away — post-bite vaccination may be needed. This is urgent, not something to wait on."),
           },
           {
             type: "text",
@@ -4555,7 +4886,7 @@ export const MODULES = [
           {
             type: "text",
             heading: L("General Vaccination Timing by Disease", "వ్యాధి వారీగా సాధారణ టీకా సమయం", "நோய் வாரியாக பொதுவான தடுப்பூசி நேரம்", "ರೋಗವಾರು ಸಾಮಾನ್ಯ ಲಸಿಕೆ ಸಮಯ", "बीमारी के हिसाब से टीकाकरण का आम समय"),
-            html: L("There are 7 diseases with a routine vaccination schedule shown below.", "క్రింద సాధారణ టీకా షెడ్యూల్ ఉన్న 7 వ్యాధులు చూపించబడ్డాయి.", "கீழே வழக்கமான தடுப்பூசி அட்டவணை உள்ள 7 நோய்கள் காட்டப்பட்டுள்ளன.", "ಕೆಳಗೆ ನಿಯಮಿತ ಲಸಿಕೆ ವೇಳಾಪಟ್ಟಿ ಇರುವ 7 ರೋಗಗಳನ್ನು ತೋರಿಸಲಾಗಿದೆ.", "नीचे नियमित टीकाकरण समय-सारणी वाली 7 बीमारियां दिखाई गई हैं।"),
+            html: L("There are 8 diseases with a routine vaccination schedule shown below. Rabies, further down, is different — it is given only after a bite."),
           },
           {
             type: "stat-grid",
@@ -4569,9 +4900,10 @@ export const MODULES = [
           {
             type: "stat-grid",
             items: [
-              { label: L("Theileriosis (crossbred/exotic cattle only)", "థైలేరియోసిస్ (సంకర జాతి/విదేశీ పశువులకు మాత్రమే)", "தைலேரியோசிஸ் (கலப்பின/வெளிநாட்டு மாடுகளுக்கு மட்டும்)", "ಥೈಲೇರಿಯೋಸಿಸ್ (ಮಿಶ್ರತಳಿ/ವಿದೇಶಿ ದನಗಳಿಗೆ ಮಾತ್ರ)", "थाइलेरियोसिस (सिर्फ़ संकर/विदेशी नस्ल के पशुओं के लिए)"), text: L("From 3 months old; once in a lifetime", "3 నెలల వయసు నుండి; జీవితకాలంలో ఒక్కసారి", "3 மாத வயதிலிருந்து; வாழ்நாளில் ஒரு முறை", "3 ತಿಂಗಳ ವಯಸ್ಸಿನಿಂದ; ಜೀವಿತಾವಧಿಯಲ್ಲಿ ಒಮ್ಮೆ", "3 महीने की उम्र से; जीवन में एक बार") },
+              { label: L("Theileriosis (crossbred/exotic cattle only)", "థైలేరియోసిస్ (సంకర జాతి/విదేశీ పశువులకు మాత్రమే)", "தைலேரியோசிஸ் (கலப்பின/வெளிநாட்டு மாடுகளுக்கு மட்டும்)", "ಥೈಲೇರಿಯೋಸಿಸ್ (ಮಿಶ್ರತಳಿ/ವಿದೇಶಿ ದನಗಳಿಗೆ ಮಾತ್ರ)", "थाइलेरियोसिस (सिर्फ़ संकर/विदेशी नस्ल के पशुओं के लिए)"), text: L("From 3 months old. Repeat doses: the 2026 NDDB farm guideline says once in a lifetime, while the 2026 handbook says revaccinate every year — follow the vet and the state programme.") },
               { label: L("Anthrax", "ఆంత్రాక్స్", "ஆந்த்ராக்ஸ்", "ಆಂಥ್ರಾಕ್ಸ್", "एंथ्रेक्स"), text: L("From 4 months old; annually, in endemic areas", "4 నెలల వయసు నుండి; వ్యాధి తరచుగా వచ్చే ప్రాంతాల్లో ప్రతి సంవత్సరం", "4 மாத வயதிலிருந்து; நோய் தொடர்ந்து காணப்படும் பகுதிகளில் ஆண்டுதோறும்", "4 ತಿಂಗಳ ವಯಸ್ಸಿನಿಂದ; ರೋಗ ಆಗಾಗ್ಗೆ ಕಂಡುಬರುವ ಪ್ರದೇಶಗಳಲ್ಲಿ ವರ್ಷಕ್ಕೊಮ್ಮೆ", "4 महीने की उम्र से; बीमारी वाले (एंडेमिक) इलाकों में हर साल") },
-              { label: L("IBR", "IBR", "IBR", "IBR", "IBR"), text: L("From 3 months old; booster 1 month later; then every 6 months", "3 నెలల వయసు నుండి; 1 నెల తర్వాత బూస్టర్; ఆ తర్వాత ప్రతి 6 నెలలకు", "3 மாத வயதிலிருந்து; 1 மாதம் கழித்து பூஸ்டர்; பிறகு ஒவ்வொரு 6 மாதத்துக்கும்", "3 ತಿಂಗಳ ವಯಸ್ಸಿನಿಂದ; 1 ತಿಂಗಳ ನಂತರ ಬೂಸ್ಟರ್; ನಂತರ ಪ್ರತಿ 6 ತಿಂಗಳಿಗೊಮ್ಮೆ", "3 महीने की उम्र से; 1 महीने बाद बूस्टर; फिर हर 6 महीने पर") },
+              { label: L("IBR", "IBR", "IBR", "IBR", "IBR"), text: L("From 3 months old; booster 1 month later; then every 6 months (the IBR vaccine is presently not produced in India)") },
+              { label: L("Lumpy Skin Disease (LSD)"), text: L("From 4 months old; annually") },
             ],
           },
           {
@@ -4762,6 +5094,52 @@ export const MODULES = [
           },
         ],
       },
+      {
+        id: "t-m4-vaccination-day",
+        title: L("Vaccination Day: Doing It Right"),
+        teach: [
+          {
+            type: "callout",
+            style: "warning",
+            heading: L("No Ice Box, No Vaccination"),
+            text: L(
+              "Vaccines spoil at room temperature and then give no protection. If a vaccinator arrives without the vaccine in an ice box (cold chain), the animals should not be vaccinated. Repeated freezing and thawing also ruins vaccine."
+            ),
+          },
+          {
+            type: "stat-grid",
+            items: [
+              { label: L("Do not vaccinate"), text: L("Sick animals, animals that calved in the last 3–4 weeks, and calves under 3–4 months old.") },
+              { label: L("Pregnant animals"), text: L("Can be vaccinated safely — but avoid the last month of pregnancy, when restraining her could injure her or the calf.") },
+              { label: L("Deworm first"), text: L("Deworming about two weeks before vaccination gives a better vaccine response.") },
+              { label: L("Cover the herd"), text: L("Over 80% of animals should be vaccinated for herd immunity — vaccinating only a few doesn't protect the village.") },
+              { label: L("Combined vaccines"), text: L("Combined vaccines against FMD, HS and BQ are now available for cattle and buffaloes.") },
+            ],
+          },
+          {
+            type: "text",
+            heading: L("During an FMD Outbreak"),
+            html: L(
+              "Inside a village already hit by FMD, healthy-looking animals are usually <b>not</b> vaccinated, because they may already be incubating the disease. Instead, <b>ring vaccination</b> is done — starting 2–3 km away from the infected village and moving inward towards it — along with strict control on the movement of animals, feed, fodder and people. Always follow the State Animal Husbandry Department's current programme."
+            ),
+          },
+        ],
+        check: [
+          {
+            type: "truefalse",
+            q: L("If the vaccinator has not brought the vaccine in an ice box, it is still fine to go ahead."),
+            answer: false,
+            explain: L("No — vaccine kept outside the cold chain spoils and won't protect the animal."),
+          },
+          {
+            type: "mcq",
+            q: L("Which animal should NOT be vaccinated today?"),
+            options: [L("A cow that calved 10 days ago"), L("A healthy 6-month-old heifer"), L("A healthy cow 4 months pregnant"), L("A healthy dry cow")],
+            answer: 0,
+            explain: L("Animals that calved within the last 3–4 weeks, sick animals, and calves under 3–4 months should not be vaccinated."),
+          },
+        ],
+      },
     ],
     finalQuiz: {
       passScore: 70,
@@ -4779,13 +5157,7 @@ export const MODULES = [
           type: "truefalse",
           q: L("Theileriosis vaccination, where used, applies to all cattle equally regardless of breed.", "థైలేరియోసిస్ టీకా, వాడినచోట, జాతితో సంబంధం లేకుండా అన్ని పశువులకు సమానంగా వర్తిస్తుంది.", "தைலேரியோசிஸ் தடுப்பூசி, பயன்படுத்தப்படும் இடங்களில், இனத்தைப் பொருட்படுத்தாமல் எல்லா மாடுகளுக்கும் சமமாகப் பொருந்தும்.", "ಥೈಲೇರಿಯೋಸಿಸ್ ಲಸಿಕೆ, ಬಳಸುವಲ್ಲಿ, ತಳಿಯನ್ನು ಲೆಕ್ಕಿಸದೆ ಎಲ್ಲ ದನಗಳಿಗೂ ಸಮಾನವಾಗಿ ಅನ್ವಯಿಸುತ್ತದೆ.", "थाइलेरियोसिस का टीका, जहां इस्तेमाल होता है, नस्ल की परवाह किए बिना सभी पशुओं पर बराबर लागू होता है।"),
           answer: false,
-          explain: L(
-            "No — the Theileriosis vaccine is specifically for crossbred and exotic cattle, given once in a lifetime from 3 months of age.",
-            "కాదు — థైలేరియోసిస్ టీకా ప్రత్యేకంగా సంకర జాతి, విదేశీ పశువుల కోసం, 3 నెలల వయసు నుండి జీవితకాలంలో ఒక్కసారి వేస్తారు.",
-            "இல்லை — தைலேரியோசிஸ் தடுப்பூசி குறிப்பாக கலப்பின, வெளிநாட்டு மாடுகளுக்கானது, 3 மாத வயதிலிருந்து வாழ்நாளில் ஒரு முறை போடப்படுகிறது.",
-            "ಇಲ್ಲ — ಥೈಲೇರಿಯೋಸಿಸ್ ಲಸಿಕೆ ವಿಶೇಷವಾಗಿ ಮಿಶ್ರತಳಿ ಮತ್ತು ವಿದೇಶಿ ದನಗಳಿಗಾಗಿ, 3 ತಿಂಗಳ ವಯಸ್ಸಿನಿಂದ ಜೀವಿತಾವಧಿಯಲ್ಲಿ ಒಮ್ಮೆ ಕೊಡಲಾಗುತ್ತದೆ.",
-            "नहीं — थाइलेरियोसिस का टीका ख़ास तौर पर संकर और विदेशी नस्ल के पशुओं के लिए है, जो 3 महीने की उम्र से जीवन में एक बार लगता है।"
-          ),
+          explain: L("No — the Theileriosis vaccine is meant for crossbred and exotic cattle, from 3 months of age. (How often it is repeated differs between the two 2026 NDDB sources — follow the vet.)"),
         },
         {
           topicId: "t-m4-schedule",
@@ -4843,6 +5215,21 @@ export const MODULES = [
             "ಹೌದು — ಮುರಿದ ಕೋಲ್ಡ್ ಚೈನ್ ಅನ್ನು ಗಮನಿಸಿ ಪ್ರಸ್ತಾಪಿಸುವುದು ನಿಮ್ಮ ಪಾತ್ರದೊಳಗೇ ಸೇರಿದೆ, ಸಂಗ್ರಹಣೆ ಮತ್ತು ಡೋಸ್ ನಿರ್ವಹಣೆ ಅಲ್ಲದಿದ್ದರೂ.",
             "हां — टूटी हुई कोल्ड चेन को नोटिस करना और बताना आपकी भूमिका में पूरी तरह आता है, भले ही भंडारण और खुराक संभालना आपकी भूमिका में नहीं है।"
           ),
+        },
+        {
+          topicId: "t-m4-vaccination-day",
+          type: "mcq",
+          q: L("In an FMD outbreak, where does ring vaccination start?"),
+          options: [L("Only inside the infected shed"), L("100 km away"), L("2–3 km away from the infected village, moving inward"), L("Ring vaccination is never used")],
+          answer: 2,
+          explain: L("Ring vaccination starts 2–3 km from the infected village and moves inward, alongside strict movement control."),
+        },
+        {
+          topicId: "t-m4-vaccination-day",
+          type: "truefalse",
+          q: L("A healthy pregnant cow can be vaccinated, except in the last month of pregnancy."),
+          answer: true,
+          explain: L("Correct — vaccination is safe in pregnancy, but avoid the last month because restraint could injure the cow or calf."),
         },
       ],
     },
@@ -6399,13 +6786,7 @@ export const MODULES = [
             type: "callout",
             style: "tip",
             heading: L("Control the Biting Insects, Call the Vet Fast", "కుట్టే కీటకాలను అదుపు చేయండి, వెంటనే వెటర్నరీ డాక్టర్‌ను పిలవండి", "கடிக்கும் பூச்சிகளைக் கட்டுப்படுத்துங்கள், உடனே வெட்டரினரி டாக்டரை அழையுங்கள்", "ಕಚ್ಚುವ ಕೀಟಗಳನ್ನು ನಿಯಂತ್ರಿಸಿ, ತಕ್ಷಣ ಪಶುವೈದ್ಯರನ್ನು ಕರೆಯಿರಿ", "काटने वाले कीड़ों पर काबू रखें, पशु चिकित्सक को तुरंत बुलाएँ"),
-            text: L(
-              "Since it spreads mainly through biting insects and ticks, proper control of ticks and biting insects helps prevent Lumpy Skin Disease. If you notice fever, swollen lymph nodes or skin nodules, consult a veterinarian immediately.",
-              "ఇది ప్రధానంగా కుట్టే కీటకాలు మరియు పేల ద్వారా వ్యాపిస్తుంది కాబట్టి, పేలు మరియు కుట్టే కీటకాలను సరిగ్గా అదుపు చేయడం లంపీ స్కిన్ డిసీజ్‌ను నివారించడంలో సహాయపడుతుంది. మీకు జ్వరం, వాచిన లింఫ్ గ్రంథులు లేదా చర్మంపై గడ్డలు కనిపిస్తే, వెంటనే వెటర్నరీ డాక్టర్‌ను సంప్రదించండి.",
-              "இது முக்கியமாக கடிக்கும் பூச்சிகள் மற்றும் உண்ணிகள் மூலம் பரவுவதால், உண்ணிகளையும் கடிக்கும் பூச்சிகளையும் முறையாகக் கட்டுப்படுத்துவது லம்பி ஸ்கின் நோயைத் தடுக்க உதவும். காய்ச்சல், வீங்கிய நிணநீர் சுரப்பிகள் அல்லது தோலில் கட்டிகளைக் கண்டால், உடனடியாக வெட்டரினரி டாக்டரை அணுகுங்கள்.",
-              "ಇದು ಮುಖ್ಯವಾಗಿ ಕಚ್ಚುವ ಕೀಟಗಳು ಮತ್ತು ಉಣ್ಣಿಗಳ ಮೂಲಕ ಹರಡುವುದರಿಂದ, ಉಣ್ಣಿ ಮತ್ತು ಕಚ್ಚುವ ಕೀಟಗಳನ್ನು ಸರಿಯಾಗಿ ನಿಯಂತ್ರಿಸುವುದು ಲಂಪಿ ಸ್ಕಿನ್ ರೋಗವನ್ನು ತಡೆಯಲು ಸಹಾಯ ಮಾಡುತ್ತದೆ. ನಿಮಗೆ ಜ್ವರ, ಊದಿಕೊಂಡ ದುಗ್ಧರಸ ಗ್ರಂಥಿಗಳು ಅಥವಾ ಚರ್ಮದ ಮೇಲೆ ಗಂಟುಗಳು ಕಂಡರೆ, ತಕ್ಷಣ ಪಶುವೈದ್ಯರನ್ನು ಸಂಪರ್ಕಿಸಿ.",
-              "क्योंकि यह मुख्य रूप से काटने वाले कीड़ों और किलनी से फैलती है, किलनी और काटने वाले कीड़ों पर ठीक से काबू रखने से लम्पी स्किन डिजीज को रोकने में मदद मिलती है। अगर आपको बुखार, सूजी हुई लसिका ग्रंथियाँ या त्वचा पर गांठें दिखें, तो तुरंत पशु चिकित्सक से सलाह लें।"
-            ),
+            text: L("Lumpy Skin Disease is spread mainly by biting flies (such as Stomoxys), mosquitoes (Aedes and Culex) and some ticks, so controlling them helps prevent it. A vaccine is available: from 4 months of age, repeated every year. Recovered animals are well protected and do not become carriers. If you notice fever, swollen lymph nodes or skin nodules, consult a veterinarian immediately."),
           },
         ],
         check: [
@@ -6485,6 +6866,195 @@ export const MODULES = [
           ],
           answer: 1,
           explain: L("Both dermatophytosis and dermatophilosis can be transmitted to humans, so hand-washing after handling affected animals is important.", "డెర్మటోఫైటోసిస్ మరియు డెర్మటోఫిలోసిస్ రెండూ మనుషులకు వ్యాపించవచ్చు, కాబట్టి వ్యాధి సోకిన జంతువులను ముట్టుకున్న తర్వాత చేతులు కడుక్కోవడం ముఖ్యం.", "டெர்மடோஃபைட்டோசிஸ் மற்றும் டெர்மடோஃபிலோசிஸ் இரண்டும் மனிதர்களுக்குப் பரவக்கூடும், எனவே பாதிக்கப்பட்ட விலங்குகளைக் கையாண்ட பிறகு கை கழுவுவது முக்கியம்.", "ಡರ್ಮಟೋಫೈಟೋಸಿಸ್ ಮತ್ತು ಡರ್ಮಟೋಫಿಲೋಸಿಸ್ ಎರಡೂ ಮನುಷ್ಯರಿಗೆ ಹರಡಬಹುದು, ಆದ್ದರಿಂದ ಬಾಧಿತ ಪ್ರಾಣಿಗಳನ್ನು ಮುಟ್ಟಿದ ನಂತರ ಕೈ ತೊಳೆಯುವುದು ಮುಖ್ಯ.", "डर्मेटोफाइटोसिस और डर्मेटोफिलोसिस दोनों इंसानों में फैल सकती हैं, इसलिए बीमार जानवरों को संभालने के बाद हाथ धोना ज़रूरी है।"),
+        },
+      ],
+    },
+  },
+  // ==================================================================
+  // LESSON 4 — Clostridial Infections: Tetanus and Botulism
+  // Source: NDDB Handbook of Good Dairy Husbandry Practices (2026 ed.), Section V-H
+  // ==================================================================
+  {
+    id: "m5-l4",
+    title: L("Clostridial Infections: Tetanus and Botulism"),
+    estMinutes: 7,
+    hook: [
+      {
+        type: "hero",
+        heading: L("Germs That Wait in Soil, Wounds and Rotten Feed"),
+        text: L(
+          "Some of the most sudden, explosive diseases on a farm are caused by one family of bacteria called Clostridium. They live quietly in soil, in the gut, and in rotting material — and only cause disease when conditions let them multiply and release powerful poisons (toxins). This lesson covers two of them: tetanus, which enters through wounds, and botulism, which comes from eating spoiled material."
+        ),
+      },
+    ],
+    topics: [
+      {
+        id: "t-m5-tetanus",
+        title: L("Tetanus: When a Wound Lets the Germ In"),
+        teach: [
+          {
+            type: "glossary",
+            term: L("Clostridial Infection"),
+            meaning: L(
+              "A disease caused by bacteria of the Clostridium family. These germs make very strong poisons (toxins). They spread through infected animals, carriers, and contaminated animal products such as bones, hides and meat — but they only cause disease under special conditions that let them multiply. When they do, the disease starts suddenly and can affect many animals at once."
+            ),
+          },
+          {
+            type: "glossary",
+            term: L("Toxin (Exotoxin)"),
+            meaning: L("A poison released by bacteria. In tetanus and botulism, it is the toxin — not the germ itself — that attacks the animal's nerves and muscles."),
+          },
+          {
+            type: "text",
+            heading: L("How Tetanus Happens"),
+            html: L(
+              "<b>Tetanus</b> is caused by the toxin of <i>Clostridium tetani</i>, a germ commonly found in soil and in the gut of animals and people. It is <b>not contagious</b> — it does not pass from one animal to another. Instead, the germ's tiny resting forms (spores) get into the body through a wound — often after a surgical procedure such as castration, or a wound that was not cleaned and cared for properly. Damaged, dead tissue inside the wound lets the spores wake up and release toxin."
+            ),
+          },
+          {
+            type: "stat-grid",
+            items: [
+              { label: L("Stiffness"), text: L("Muscle stiffness, a stiff neck, and legs held stretched out rigidly.") },
+              { label: L("Lockjaw"), text: L("The jaw clamps shut (lockjaw), so the animal struggles to eat and swallow.") },
+              { label: L("Arched body"), text: L("In severe cases the head and neck bend backwards and the body arches (called opisthotonos).") },
+              { label: L("Outcome"), text: L("Without early treatment, death from breathing failure usually follows within 3–4 days of the first signs.") },
+            ],
+          },
+          {
+            type: "callout",
+            style: "tip",
+            heading: L("Prevention: Clean Wounds and Vaccination"),
+            text: L(
+              "Treatment can work if it starts early, but tetanus can be prevented by vaccination. Good wound care — cleaning wounds, and making sure castration and other procedures are done hygienically by trained people — removes the conditions the germ needs. Report any stiff, 'locked-jaw' animal immediately."
+            ),
+          },
+        ],
+        check: [
+          {
+            type: "truefalse",
+            q: L("Tetanus spreads directly from one sick animal to another, like FMD."),
+            answer: false,
+            explain: L("No — tetanus is not contagious. The germ's spores enter the body through a wound, usually from soil."),
+          },
+          {
+            type: "mcq",
+            q: L("Which sign is typical of tetanus?"),
+            options: [L("Blisters in the mouth"), L("Red urine"), L("Lockjaw and muscle stiffness"), L("Lumps all over the skin")],
+            answer: 2,
+            explain: L("Tetanus causes muscle stiffness, lockjaw, a rigid neck and stretched-out legs."),
+          },
+        ],
+      },
+      {
+        id: "t-m5-botulism",
+        title: L("Botulism: Poisoning From Spoiled Feed, Water or Carcasses"),
+        teach: [
+          {
+            type: "text",
+            heading: L("A Deadly Kind of Food Poisoning"),
+            html: L(
+              "<b>Botulism</b> is a lethal food poisoning in cattle caused by eating material that already contains the toxin of <i>Clostridium botulinum</i>. Cattle usually pick it up from <b>spoiled silage</b>, <b>decaying carcasses</b>, or <b>contaminated water</b>. Some types of this germ also cause botulism in people."
+            ),
+          },
+          {
+            type: "example",
+            heading: L("Why a Cow Would Chew a Bone"),
+            text: L(
+              "Animals with high needs — pregnant or milking cows — grazing on soils and pastures poor in minerals (especially phosphorus) often develop a craving and start chewing bones or even dead animals to make up the shortage. While doing this they swallow toxin that has formed in the rotting carcass. This is how large outbreaks have started — and why feeding enough mineral mixture is a real protection."
+            ),
+          },
+          {
+            type: "stat-grid",
+            items: [
+              { label: L("Signs"), text: L("Weakness, wobbly, uncoordinated movement, dullness, and paralysis — usually a floppy (limp) paralysis — followed by death.") },
+              { label: L("Treatment"), text: L("Generally unsuccessful — which is why prevention is everything.") },
+              { label: L("Vaccine"), text: L("At present, no botulism vaccine is available in India.") },
+            ],
+          },
+          {
+            type: "callout",
+            style: "warning",
+            heading: L("Prevention Is the Only Real Protection"),
+            text: L(
+              "Remove dead animals, bones and rotting plant or animal material from around the animals' areas. Never feed spoiled, foul-smelling silage. Keep drinking water clean. Make sure animals get their mineral mixture so they don't develop the craving to chew bones. Report any weak, wobbly or paralysed animal immediately."
+            ),
+          },
+        ],
+        check: [
+          {
+            type: "mcq",
+            q: L("How do cattle usually get botulism?"),
+            options: [
+              L("By eating spoiled silage, decaying carcasses or drinking contaminated water"),
+              L("From a tick bite"),
+              L("From a dog bite"),
+              L("From standing in the sun"),
+            ],
+            answer: 0,
+            explain: L("Botulism comes from swallowing toxin that has formed in spoiled silage, rotting carcasses or contaminated water."),
+          },
+          {
+            type: "truefalse",
+            q: L("A good supply of mineral mixture helps prevent botulism."),
+            answer: true,
+            explain: L("Yes — mineral-deficient animals (especially low in phosphorus) start chewing bones and carcasses, which is how they swallow the toxin."),
+          },
+        ],
+      },
+    ],
+    finalQuiz: {
+      passScore: 70,
+      questions: [
+        {
+          topicId: "t-m5-tetanus",
+          type: "mcq",
+          q: L("Through what route does the tetanus germ usually enter an animal?"),
+          options: [L("Drinking milk"), L("Breathing in dust from feed"), L("Tick bites only"), L("A wound — often after castration or poor wound care")],
+          answer: 3,
+          explain: L("Tetanus spores enter through wounds and lesions, often linked to surgical procedures or improper wound care."),
+        },
+        {
+          topicId: "t-m5-tetanus",
+          type: "truefalse",
+          q: L("Tetanus can be prevented by vaccination."),
+          answer: true,
+          explain: L("Correct — treatment may work early on, but tetanus can be prevented with vaccination and good wound hygiene."),
+        },
+        {
+          topicId: "t-m5-tetanus",
+          type: "mcq",
+          q: L("Without early treatment, how soon can tetanus kill once signs appear?"),
+          options: [L("Within about 3–4 days"), L("After about 2 years"), L("It never kills"), L("Only after the next calving")],
+          answer: 0,
+          explain: L("Death from breathing failure usually follows within 3–4 days of the first signs."),
+        },
+        {
+          topicId: "t-m5-botulism",
+          type: "truefalse",
+          q: L("A vaccine against botulism is widely available in India."),
+          answer: false,
+          explain: L("No — at present no botulism vaccine is available in India, so prevention is the only protection."),
+        },
+        {
+          topicId: "t-m5-botulism",
+          type: "mcq",
+          q: L("Which of these helps prevent botulism on a farm?"),
+          options: [
+            L("Feeding more concentrate"),
+            L("Milking twice a day"),
+            L("Removing carcasses and rotting material, never feeding spoiled silage, and feeding mineral mixture"),
+            L("Letting animals chew bones freely"),
+          ],
+          answer: 2,
+          explain: L("Removing the toxin sources and correcting mineral shortages are the key prevention steps."),
+        },
+        {
+          topicId: "t-m5-botulism",
+          type: "mcq",
+          q: L("What kind of paralysis is typical of botulism?"),
+          options: [L("A floppy (limp) paralysis"), L("Lockjaw only"), L("Paralysis of the tail only"), L("Botulism never causes paralysis")],
+          answer: 0,
+          explain: L("Botulism causes weakness, poor coordination and a limp (flaccid) paralysis, followed by death."),
         },
       ],
     },
@@ -7585,6 +8155,63 @@ export const MODULES = [
           },
         ],
       },
+      {
+        id: "t-m7-prevention",
+        title: L("Preventing Milk Fever and Hypomagnesaemia"),
+        teach: [
+          {
+            type: "text",
+            heading: L("Prevention Starts Before Calving"),
+            html: L(
+              "Most milk fever can be prevented by what happens in the <b>last weeks of pregnancy</b>. The most important rule is simple: <b>do not feed excess calcium in late pregnancy</b>. A cow flooded with calcium before calving 'switches off' her own calcium-releasing system, so it isn't ready when milking starts."
+            ),
+          },
+          {
+            type: "stat-grid",
+            items: [
+              {
+                label: L("Oral calcium for prone animals"),
+                text: L("For cows that had milk fever before, 3–4 doses of oral calcium (each giving 40–50 g of calcium) from 12–24 hours before calving to 48 hours after greatly reduce the risk — given as the vet advises."),
+              },
+              {
+                label: L("Anionic salts"),
+                text: L("Salts such as ammonium chloride, magnesium sulphate or ammonium sulphate (50–100 g each a day) may be fed in the last 3 weeks before calving, under a vet's or nutritionist's guidance."),
+              },
+              {
+                label: L("Urine pH check"),
+                text: L("Near calving, urine pH should ideally be 6.5–7. A higher pH means a higher risk of milk fever."),
+              },
+              {
+                label: L("Magnesium for at-risk animals"),
+                text: L("Around 50 g of magnesium oxide a day helps prevent hypomagnesaemia. Pastures heavily fertilised with potash and nitrogen are high-risk."),
+              },
+            ],
+          },
+          {
+            type: "callout",
+            style: "warning",
+            heading: L("Relapses Happen"),
+            text: L(
+              "Animals respond quickly to treatment, but some relapse within 24–48 hours (milk fever) or 1–2 days (hypomagnesaemia). Keep watching a treated animal closely and report any return of trembling, stiffness or weakness."
+            ),
+          },
+        ],
+        check: [
+          {
+            type: "truefalse",
+            q: L("Feeding lots of extra calcium in late pregnancy helps prevent milk fever."),
+            answer: false,
+            explain: L("No — excess calcium in late pregnancy increases the risk. Calcium is given around calving, as advised, to prone animals."),
+          },
+          {
+            type: "mcq",
+            q: L("Near calving, what urine pH suggests a lower risk of milk fever?"),
+            options: [L("8.5–9"), L("Urine pH doesn't matter"), L("2–3"), L("6.5–7")],
+            answer: 3,
+            explain: L("A urine pH of about 6.5–7 near calving is ideal; a higher pH means a higher risk."),
+          },
+        ],
+      },
     ],
     finalQuiz: {
       passScore: 70,
@@ -7636,6 +8263,27 @@ export const MODULES = [
           ],
           answer: 1,
           explain: L("These are classic early signs of Milk Fever. Reporting immediately gives the vet the best chance to treat it before the animal goes down.", "ఇవి మిల్క్ ఫీవర్‌కు విలక్షణమైన తొలి లక్షణాలు. వెంటనే తెలియజేస్తే పశువు పడిపోకముందే వైద్యుడు చికిత్స చేయడానికి మంచి అవకాశం ఉంటుంది.", "இவை பால் காய்ச்சலின் பொதுவான ஆரம்ப அறிகுறிகள். உடனடியாக தெரிவிப்பது, விலங்கு விழுவதற்கு முன் கால்நடை மருத்துவர் சிகிச்சை அளிக்க சிறந்த வாய்ப்பை அளிக்கும்.", "ಇವು ಮಿಲ್ಕ್ ಫೀವರ್‌ನ ವಿಶಿಷ್ಟ ಆರಂಭಿಕ ಲಕ್ಷಣಗಳು. ತಕ್ಷಣ ವರದಿ ಮಾಡುವುದರಿಂದ ಪ್ರಾಣಿ ಬೀಳುವ ಮೊದಲೇ ಪಶುವೈದ್ಯರಿಗೆ ಚಿಕಿತ್ಸೆ ನೀಡಲು ಉತ್ತಮ ಅವಕಾಶ ಸಿಗುತ್ತದೆ.", "ये मिल्क फीवर के सामान्य शुरुआती लक्षण हैं। तुरंत बताने से डॉक्टर को पशु के गिरने से पहले इलाज करने का सबसे अच्छा मौका मिलता है।"),
+        },
+        {
+          topicId: "t-m7-prevention",
+          type: "mcq",
+          q: L("A cow had milk fever last year. What can greatly reduce her risk this time, as advised by the vet?"),
+          options: [
+            L("Doubling her calcium for the whole last month of pregnancy"),
+            L("Stopping all water before calving"),
+            L("3–4 doses of oral calcium from just before calving to 48 hours after"),
+            L("Nothing can be done"),
+          ],
+          answer: 2,
+          explain: L("Oral calcium (40–50 g per dose) from 12–24 hours before to 48 hours after calving greatly reduces milk fever in prone animals."),
+        },
+        {
+          topicId: "t-m7-prevention",
+          type: "mcq",
+          q: L("About how much magnesium oxide a day helps protect at-risk animals from hypomagnesaemia?"),
+          options: [L("About 5 kg"), L("About 50 g"), L("About 1 g"), L("None — magnesium causes it")],
+          answer: 1,
+          explain: L("Around 50 g of magnesium oxide per day is recommended for animals at risk."),
         },
       ],
     },
@@ -8366,7 +9014,7 @@ export const MODULES = [
               },
               {
                 label: L("Foot bath", "ఫుట్ బాత్", "ஃபுட் பாத் (கால் குளியல்)", "ಫುಟ್ ಬಾತ್ (ಕಾಲು ಸ್ನಾನ)", "फुट बाथ (पैर धुलाई)"),
-                text: L("A foot bath using 5% copper sulphate solution, used for 2–4 days continuously every fortnight, is a recommended hoof-care practice.", "5% కాపర్ సల్ఫేట్ ద్రావణంతో ఫుట్ బాత్, ప్రతి రెండు వారాలకు ఒకసారి వరుసగా 2–4 రోజులు ఉపయోగించడం, సిఫార్సు చేయబడిన గిట్టల సంరక్షణ పద్ధతి.", "5% காப்பர் சல்பேட் கரைசலுடன் ஃபுட் பாத், ஒவ்வொரு இரண்டு வாரங்களுக்கும் தொடர்ந்து 2–4 நாட்கள் பயன்படுத்துவது, பரிந்துரைக்கப்படும் குளம்பு பராமரிப்பு முறை.", "5% ಕಾಪರ್ ಸಲ್ಫೇಟ್ ದ್ರಾವಣದ ಫುಟ್ ಬಾತ್, ಪ್ರತಿ ಎರಡು ವಾರಗಳಿಗೊಮ್ಮೆ ಸತತವಾಗಿ 2–4 ದಿನ ಬಳಸುವುದು, ಶಿಫಾರಸು ಮಾಡಿದ ಗೊರಸಿನ ಆರೈಕೆ ಪದ್ಧತಿ.", "5% कॉपर सल्फेट घोल से फुट बाथ, हर दो हफ्ते में लगातार 2–4 दिन तक इस्तेमाल करना, खुर की देखभाल का सुझाया गया तरीका है।"),
+                text: L("A foot bath using a routine antiseptic solution, used for 2–4 days continuously every fortnight, is a recommended hoof-care practice."),
               },
               {
                 label: L("Hoof trimming and checks", "గిట్టల కత్తిరింపు మరియు తనిఖీలు", "குளம்பு வெட்டுதல் மற்றும் பரிசோதனைகள்", "ಗೊರಸು ಕತ್ತರಿಸುವಿಕೆ ಮತ್ತು ಪರೀಕ್ಷೆಗಳು", "खुर की कटाई और जाँच"),
@@ -8448,13 +9096,13 @@ export const MODULES = [
           type: "mcq",
           q: L("What foot bath solution and schedule is recommended for hoof care?", "గిట్టల సంరక్షణ కోసం ఏ ఫుట్ బాత్ ద్రావణం, ఏ షెడ్యూల్ సిఫార్సు చేయబడింది?", "குளம்பு பராமரிப்புக்கு எந்த ஃபுட் பாத் கரைசலும் எந்த அட்டவணையும் பரிந்துரைக்கப்படுகிறது?", "ಗೊರಸಿನ ಆರೈಕೆಗೆ ಯಾವ ಫುಟ್ ಬಾತ್ ದ್ರಾವಣ ಮತ್ತು ಯಾವ ವೇಳಾಪಟ್ಟಿ ಶಿಫಾರಸು ಮಾಡಲಾಗಿದೆ?", "खुर की देखभाल के लिए कौन सा फुट बाथ घोल और कौन सा कार्यक्रम सुझाया गया है?"),
           options: [
-            L("5% copper sulphate, for 2–4 days continuously every fortnight", "5% కాపర్ సల్ఫేట్, ప్రతి రెండు వారాలకు ఒకసారి వరుసగా 2–4 రోజులు", "5% காப்பர் சல்பேட், ஒவ்வொரு இரண்டு வாரங்களுக்கும் தொடர்ந்து 2–4 நாட்கள்", "5% ಕಾಪರ್ ಸಲ್ಫೇಟ್, ಪ್ರತಿ ಎರಡು ವಾರಗಳಿಗೊಮ್ಮೆ ಸತತವಾಗಿ 2–4 ದಿನ", "5% कॉपर सल्फेट, हर दो हफ्ते में लगातार 2–4 दिन"),
+            L("A routine antiseptic, for 2–4 days continuously every fortnight"),
             L("Plain water, once a year", "సాధారణ నీరు, సంవత్సరానికి ఒకసారి", "சாதாரண தண்ணீர், வருடத்திற்கு ஒருமுறை", "ಸಾದಾ ನೀರು, ವರ್ಷಕ್ಕೊಮ್ಮೆ", "सादा पानी, साल में एक बार"),
             L("Salt water, every single day", "ఉప్పు నీరు, ప్రతి రోజూ", "உப்புத் தண்ணீர், ஒவ்வொரு நாளும்", "ಉಪ್ಪು ನೀರು, ಪ್ರತಿ ದಿನವೂ", "नमक का पानी, हर रोज़"),
             L("No foot bath is ever needed", "ఫుట్ బాత్ ఎప్పుడూ అవసరం లేదు", "ஃபுட் பாத் ஒருபோதும் தேவையில்லை", "ಫುಟ್ ಬಾತ್ ಎಂದಿಗೂ ಬೇಕಾಗಿಲ್ಲ", "फुट बाथ की कभी ज़रूरत नहीं होती"),
           ],
           answer: 0,
-          explain: L("A 5% copper sulphate foot bath, used for 2–4 days continuously every fortnight, is the recommended practice mentioned in this lesson.", "ఈ పాఠంలో ప్రస్తావించిన సిఫార్సు చేయబడిన పద్ధతి 5% కాపర్ సల్ఫేట్ ఫుట్ బాత్, ప్రతి రెండు వారాలకు ఒకసారి వరుసగా 2–4 రోజులు ఉపయోగించడం.", "இந்த பாடத்தில் குறிப்பிடப்பட்ட பரிந்துரைக்கப்படும் முறை 5% காப்பர் சல்பேட் ஃபுட் பாத், ஒவ்வொரு இரண்டு வாரங்களுக்கும் தொடர்ந்து 2–4 நாட்கள் பயன்படுத்துவது.", "ಈ ಪಾಠದಲ್ಲಿ ಉಲ್ಲೇಖಿಸಿದ ಶಿಫಾರಸು ಮಾಡಿದ ಪದ್ಧತಿ 5% ಕಾಪರ್ ಸಲ್ಫೇಟ್ ಫುಟ್ ಬಾತ್, ಪ್ರತಿ ಎರಡು ವಾರಗಳಿಗೊಮ್ಮೆ ಸತತವಾಗಿ 2–4 ದಿನ ಬಳಸುವುದು.", "इस पाठ में बताया गया सुझाया गया तरीका 5% कॉपर सल्फेट फुट बाथ है, जिसे हर दो हफ्ते में लगातार 2–4 दिन इस्तेमाल किया जाता है।"),
+          explain: L("A foot bath with a routine antiseptic, used for 2–4 days continuously every fortnight, is the recommended practice mentioned in this lesson."),
         },
         {
           topicId: "t-m8-laminitis-prevention",
@@ -9282,6 +9930,311 @@ export const MODULES = [
           ],
           answer: 2,
           explain: L("Heifers with teat scabs or abrasions are likely to be infected and should be reported so a veterinarian can advise on treatment.", "చనుమొన పొక్కులు లేదా గీతలు ఉన్న పెయ్యలకు ఇన్ఫెక్షన్ ఉండే అవకాశం ఎక్కువ, చికిత్స గురించి పశువైద్యుడు సలహా ఇవ్వగలిగేలా వాటిని తెలియజేయాలి.", "காம்பில் சிரங்கு அல்லது சிராய்ப்பு உள்ள கிடேரிகளுக்குத் தொற்று இருக்க வாய்ப்பு அதிகம், சிகிச்சை பற்றி கால்நடை மருத்துவர் ஆலோசனை சொல்லும்படி அவற்றைத் தெரிவிக்க வேண்டும்.", "ಮೊಲೆತೊಟ್ಟಿನ ಮೇಲೆ ಕಜ್ಜಿ ಅಥವಾ ತರಚಿದ ಗಾಯ ಇರುವ ಕಡಸುಗಳಿಗೆ ಸೋಂಕು ಇರುವ ಸಾಧ್ಯತೆ ಹೆಚ್ಚು, ಚಿಕಿತ್ಸೆಯ ಬಗ್ಗೆ ಪಶುವೈದ್ಯರು ಸಲಹೆ ನೀಡುವಂತೆ ಅವುಗಳನ್ನು ವರದಿ ಮಾಡಬೇಕು.", "चूची पर पपड़ी या खरोंच वाली बछियों को संक्रमण होने की संभावना रहती है, और उनकी सूचना दी जानी चाहिए ताकि पशु चिकित्सक इलाज के बारे में सलाह दे सकें।"),
+        },
+      ],
+    },
+  },
+  // ==================================================================
+  // LESSON 4 — Testing for Hidden Mastitis, and Diseases of the Teats
+  // Sources: NDDB Handbook (2026 ed.) Section X; NDDB Farm Management Guideline (2026)
+  // ==================================================================
+  {
+    id: "m9-l4",
+    title: L("Testing for Hidden Mastitis, and Diseases of the Teats"),
+    estMinutes: 10,
+    hook: [
+      {
+        type: "hero",
+        heading: L("Finding What the Eye Can't See — and What the Teat Shows"),
+        text: L(
+          "Lesson 2 explained that sub-clinical mastitis hides inside the udder with no visible sign. This lesson shows the simple tests farms use to find it, and how a well-run farm organises mastitis control. It then covers three diseases of the teat skin itself — warts, ulcerative mammillitis and pseudocowpox — which make milking painful and can open the door to mastitis."
+        ),
+      },
+    ],
+    topics: [
+      {
+        id: "t-m9-scm-tests",
+        title: L("Simple Tests That Find Hidden (Sub-Clinical) Mastitis"),
+        teach: [
+          {
+            type: "text",
+            heading: L("Four Tests, One Idea"),
+            html: L(
+              "All of these tests check milk from <b>each quarter separately</b>, because one quarter can be infected while the other three are healthy. None of them needs a laboratory — they are quick, cow-side checks."
+            ),
+          },
+          {
+            type: "stat-grid",
+            items: [
+              {
+                label: L("California Mastitis Test (CMT)"),
+                text: L(
+                  "Equal amounts of milk and CMT reagent are mixed by swirling in a paddle. Milk with sub-clinical mastitis turns into a gel. Read it quickly — within about 20–30 seconds — because the reaction can fade."
+                ),
+              },
+              {
+                label: L("Strip cup test"),
+                text: L("The first squirts of milk are seen against a black surface. Small flakes mean sub-clinical mastitis — bigger flakes mean a worse infection."),
+              },
+              { label: L("Paper test"), text: L("A drop of milk on a special test paper — a green colour indicates sub-clinical mastitis.") },
+              {
+                label: L("Field mastitis test"),
+                text: L("Done exactly like the CMT, but using a concentrated detergent solution instead of the CMT reagent — a low-cost option."),
+              },
+            ],
+          },
+          {
+            type: "callout",
+            style: "warning",
+            heading: L("When the CMT Can Mislead"),
+            text: L(
+              "The CMT may give a false positive in the first 10 days after calving, or when the animal is almost dry. Results from these times should be interpreted by the vet, not acted on alone."
+            ),
+          },
+          {
+            type: "glossary",
+            term: L("Somatic Cell Count (SCC)"),
+            meaning: L(
+              "A laboratory count of cells in milk. A high count signals udder infection. Where testing facilities exist, farms track SCC for each cow and for the whole bulk tank as a standard measure of udder health."
+            ),
+          },
+          {
+            type: "stat-grid",
+            items: [
+              { label: L("High mastitis on the farm"), text: L("CMT every day.") },
+              { label: L("Medium"), text: L("CMT on alternate days.") },
+              { label: L("Low"), text: L("CMT once a week — the minimum for every milking animal.") },
+              {
+                label: L("Newly purchased animals"),
+                text: L("Always tested — and treated if positive — before they join the herd."),
+              },
+            ],
+          },
+          {
+            type: "callout",
+            style: "info",
+            heading: L("How a Well-Run Farm Organises Mastitis Control"),
+            text: L(
+              "Record each animal's milk every day and group them into low, medium and high yielders — watch high yielders most closely. Send CMT-positive and clinical mastitis milk samples to a laboratory for culture and an antibiotic sensitivity test, so the vet can choose a drug that actually works. Finish milking each animal within about 8 minutes once started. Let the calf suckle after milking to empty the udder. And remove cows with chronic or repeated mastitis that don't respond to treatment."
+            ),
+          },
+          {
+            type: "callout",
+            style: "tip",
+            heading: L("Small Habits From the Handbook"),
+            text: L(
+              "If animals are tethered in the open, change their resting place often. Ideally don't use any lubricant on the teats while milking — if one is used, it should be heated daily before use. Any antibiotic for mastitis is only given on a vet's prescription, and the milk withdrawal period must always be followed."
+            ),
+          },
+        ],
+        check: [
+          {
+            type: "mcq",
+            q: L("In the California Mastitis Test, what does milk with sub-clinical mastitis do?"),
+            options: [L("It turns bright blue"), L("It boils"), L("It forms a gel"), L("Nothing visible happens")],
+            answer: 2,
+            explain: L("When mixed with the CMT reagent, milk from an infected quarter forms a gel — read it within about 20–30 seconds."),
+          },
+          {
+            type: "truefalse",
+            q: L("Each quarter of the udder should be tested separately."),
+            answer: true,
+            explain: L("Yes — each quarter works independently, so one can be infected while the others are healthy."),
+          },
+        ],
+      },
+      {
+        id: "t-m9-teat-warts-mammillitis",
+        title: L("Teat Warts and Ulcerative Mammillitis"),
+        teach: [
+          {
+            type: "text",
+            heading: L("Why Teat Skin Matters"),
+            html: L(
+              "Diseases of the teat skin may not cut milk directly, but they make milking painful and difficult — and damaged teat skin makes mastitis more likely. Some can even spread to the milker's hands."
+            ),
+          },
+          {
+            type: "stat-grid",
+            items: [
+              { label: L("Teat warts — cause"), text: L("A virus. Heifers are more prone. Flies are thought to spread it.") },
+              { label: L("Teat warts — look"), text: L("Fleshy lumps, or fine 'feathery' growths, on the teats.") },
+              {
+                label: L("Teat warts — outcome"),
+                text: L(
+                  "Mostly an appearance problem and most go away on their own. They can still get in the way of milking. Removing warts too early can make them spread — any removal is for the vet."
+                ),
+              },
+            ],
+          },
+          {
+            type: "callout",
+            style: "tip",
+            heading: L("Preventing Warts"),
+            text: L("Disinfecting stalls reduces spread, and because flies are thought to carry the virus, fly control helps too."),
+          },
+          {
+            type: "glossary",
+            term: L("Ulcerative Mammillitis"),
+            meaning: L(
+              "A viral disease of the teat and udder skin. It is fairly uncommon, but spreads fast through a herd meeting it for the first time and is very painful. It is seen most in first-lactation cows."
+            ),
+          },
+          {
+            type: "stat-grid",
+            items: [
+              {
+                label: L("What you'll see"),
+                text: L("Anything from small fluid-filled blisters to large ulcers and scabs, which can spread over the whole udder. Nursing calves may get sores in the mouth."),
+              },
+              {
+                label: L("What the farm does"),
+                text: L("No specific cure. Infected cows are separated; iodine teat dips help stop spread; an emollient udder cream helps healing."),
+              },
+              {
+                label: L("Prevention"),
+                text: L("Hard to get rid of once on a farm. Proper quarantine of new animals, good hygiene and control of biting flies reduce it a lot."),
+              },
+            ],
+          },
+        ],
+        check: [
+          {
+            type: "truefalse",
+            q: L("Most teat warts go away on their own over time."),
+            answer: true,
+            explain: L("Yes — most regress by themselves. Removing them too early can make them spread, so removal is for the vet."),
+          },
+          {
+            type: "mcq",
+            q: L("Which animals are most often affected by ulcerative mammillitis?"),
+            options: [L("Male calves"), L("Only buffaloes over 10 years"), L("Only dry cows"), L("First-lactation cows")],
+            answer: 3,
+            explain: L("Ulcerative mammillitis tends to occur most commonly in first-lactation cows."),
+          },
+        ],
+      },
+      {
+        id: "t-m9-pseudocowpox",
+        title: L("Pseudocowpox (Milker's Nodule)"),
+        teach: [
+          {
+            type: "text",
+            heading: L("The Most Common Infectious Teat Disease"),
+            html: L(
+              "<b>Pseudocowpox</b> is the most common infectious cause of teat disease in cattle. It is caused by a virus, and should not be confused with true cowpox, which is rare. Immunity after recovery is short-lived, so a cow can catch it again within a few months."
+            ),
+          },
+          {
+            type: "timeline",
+            heading: L("How a Pseudocowpox Lesion Develops"),
+            items: [
+              { year: L("Day 1"), text: L("A small area of swelling and reddening appears on the teat.") },
+              { year: L("Next 2 days"), text: L("It rises into an orange-coloured bump, which then scabs over.") },
+              { year: L("Day 7–10"), text: L("Scabs start to drop off, often leaving a horse-shoe or ring-shaped mark — the tell-tale sign.") },
+              { year: L("About 1 month"), text: L("Damaged teats have usually healed.") },
+            ],
+            result: L("Lesions are usually on the teats, but up to 1 in 10 affected cows also have them on the udder skin."),
+          },
+          {
+            type: "callout",
+            style: "warning",
+            heading: L("It Can Spread to You — the 'Milker's Nodule'"),
+            text: L(
+              "Pseudocowpox spreads from cattle to people by contact. In people it causes a painful, localised skin lump called a milker's nodule. Wash your hands well after milking, and report teat lesions so affected cows can be managed properly."
+            ),
+          },
+          {
+            type: "stat-grid",
+            items: [
+              {
+                label: L("What the farm does"),
+                text: L("Scabs are removed and a suitable disinfectant applied; emollient teat dips and sprays help. Consult the vet."),
+              },
+              {
+                label: L("Prevention"),
+                text: L("Quarantine new cows before they join the herd, use proper iodine-based teat dipping (one of the most effective controls), and keep the shed clean."),
+              },
+            ],
+          },
+        ],
+        check: [
+          {
+            type: "mcq",
+            q: L("What mark often remains when pseudocowpox scabs drop off?"),
+            options: [L("A deep hole"), L("A black spot"), L("No mark at all, ever"), L("A horse-shoe or ring-shaped mark")],
+            answer: 3,
+            explain: L("The horse-shoe or ring-shaped area left as scabs fall off, 7–10 days after the first signs, is very characteristic."),
+          },
+          {
+            type: "truefalse",
+            q: L("Pseudocowpox can spread from cattle to people."),
+            answer: true,
+            explain: L("Yes — in people it causes a painful skin lump called a milker's nodule. Wash your hands after milking."),
+          },
+        ],
+      },
+    ],
+    finalQuiz: {
+      passScore: 70,
+      questions: [
+        {
+          topicId: "t-m9-scm-tests",
+          type: "mcq",
+          q: L("In the strip cup test, what indicates sub-clinical mastitis?"),
+          options: [L("The milk smells sweet"), L("The milk is warm"), L("Small flakes in the milk, seen against a black surface"), L("The milk is white")],
+          answer: 2,
+          explain: L("Small flakes seen against a black surface indicate SCM — the bigger the flakes, the worse the infection."),
+        },
+        {
+          topicId: "t-m9-scm-tests",
+          type: "truefalse",
+          q: L("A CMT result in the first 10 days after calving can be a false positive."),
+          answer: true,
+          explain: L("Correct — the CMT may give a false positive very early in lactation or when the animal is almost dry."),
+        },
+        {
+          topicId: "t-m9-scm-tests",
+          type: "mcq",
+          q: L("Why are milk samples from CMT-positive cows sent for culture and antibiotic sensitivity testing?"),
+          options: [
+            L("To make the milk taste better"),
+            L("To find out the cow's age"),
+            L("So the vet can choose a drug that actually works against the germs on that farm"),
+            L("It is never needed"),
+          ],
+          answer: 2,
+          explain: L("Culture and sensitivity testing shows which germs are present and which drugs still work, guiding the vet's treatment."),
+        },
+        {
+          topicId: "t-m9-teat-warts-mammillitis",
+          type: "truefalse",
+          q: L("Removing teat warts very early is always the best approach."),
+          answer: false,
+          explain: L("No — removing warts too soon can stimulate growth and spread the virus. Most regress on their own; removal is for the vet."),
+        },
+        {
+          topicId: "t-m9-teat-warts-mammillitis",
+          type: "mcq",
+          q: L("Which step helps stop ulcerative mammillitis spreading in a herd?"),
+          options: [L("Separating infected cows and using iodine teat dips"), L("Milking infected cows first"), L("Sharing towels between cows"), L("Stopping fly control")],
+          answer: 0,
+          explain: L("Infected cows should be separated, and iodine dips help disinfect teats to prevent spread."),
+        },
+        {
+          topicId: "t-m9-pseudocowpox",
+          type: "mcq",
+          q: L("What is the most common infectious cause of teat disease in cattle?"),
+          options: [L("True cowpox"), L("Pseudocowpox"), L("Lumpy skin disease"), L("Foot rot")],
+          answer: 1,
+          explain: L("Pseudocowpox is the most common infectious teat disease — true cowpox is rare."),
+        },
+        {
+          topicId: "t-m9-pseudocowpox",
+          type: "truefalse",
+          q: L("Proper teat dipping with an iodine-based dip is one of the most effective ways to control pseudocowpox."),
+          answer: true,
+          explain: L("Yes — along with quarantine of new cows and good shed hygiene."),
         },
       ],
     },
@@ -10372,6 +11325,101 @@ export const MODULES = [
           },
         ],
       },
+      {
+        id: "t-m11-salmonellosis",
+        title: L("Salmonellosis: A Food-Borne Infection Shared With People"),
+        teach: [
+          {
+            type: "text",
+            heading: L("What It Is"),
+            html: L(
+              "<b>Salmonellosis</b> is caused by <i>Salmonella</i> bacteria and is one of the most common food-borne zoonotic diseases. The germ lives in poultry, pigs, cattle and pets (cats, dogs, birds, turtles). People catch it by <b>direct contact with infected animals</b>, by <b>eating contaminated food of animal origin</b>, or from person to person through the faecal–oral route."
+            ),
+          },
+          {
+            type: "stat-grid",
+            items: [
+              { label: L("Carriers"), text: L("Animals can carry Salmonella with no signs at all, shedding it in their dung from time to time.") },
+              { label: L("Signs in animals"), text: L("Diarrhoea (sometimes bloody) with a septic-tank smell, abdominal pain, dehydration, dullness and poor appetite.") },
+              { label: L("Severe cases"), text: L("Blood infection (septicaemia), high fever, depression, fast heart rate and sudden death.") },
+              { label: L("Signs in people"), text: L("6–72 hours after exposure: diarrhoea, cramps, nausea, vomiting, fever — usually lasting 4–7 days.") },
+            ],
+          },
+          {
+            type: "callout",
+            style: "tip",
+            heading: L("Prevention"),
+            text: L(
+              "Good farm biosecurity — controlling access to animal areas, cleanliness, and keeping feed and water uncontaminated. Wash hands after handling animals or dung, and eat only well-cooked food. Report animals with foul-smelling or bloody diarrhoea."
+            ),
+          },
+        ],
+        check: [
+          {
+            type: "truefalse",
+            q: L("An animal that looks completely healthy can still carry and shed Salmonella."),
+            answer: true,
+            explain: L("Yes — carrier animals show no signs but shed the bacteria in their dung intermittently."),
+          },
+          {
+            type: "mcq",
+            q: L("Which is a typical sign of salmonellosis in cattle?"),
+            options: [L("Lumps all over the skin"), L("Diarrhoea, sometimes bloody, with a septic-tank smell"), L("Lockjaw"), L("Blisters on the teats only")],
+            answer: 1,
+            explain: L("Foul-smelling, sometimes bloody diarrhoea with dehydration and dullness is typical."),
+          },
+        ],
+      },
+      {
+        id: "t-m11-cchf-kfd",
+        title: L("CCHF and Kyasanur Forest Disease: Tick-Borne Dangers to People"),
+        teach: [
+          {
+            type: "stat-grid",
+            items: [
+              {
+                label: L("Crimean–Congo Haemorrhagic Fever (CCHF)"),
+                text: L("A virus spread by ticks. People catch it from tick bites, or from contact with infected animal blood or tissues during and just after slaughter. Infected animals show no signs at all."),
+              },
+              {
+                label: L("CCHF in people"),
+                text: L("Sudden fever, muscle aches, dizziness, headache and abdominal pain, then confusion; it can progress to liver enlargement, rashes and kidney or liver failure by about the fifth day."),
+              },
+              {
+                label: L("Kyasanur Forest Disease (KFD)"),
+                text: L("'Monkey fever' — a tick-borne virus found in south-western India. Spread by hard-tick bites or contact with sick animals, especially monkeys and rodents. Langurs, macaques, shrews and bats keep the virus going."),
+              },
+              {
+                label: L("KFD in people"),
+                text: L("Sudden chills, fever and headache, then severe muscle pain, vomiting and bleeding after 3–4 days. Most recover in 1–2 weeks, but 10–20% get a second phase with severe headache, mental disturbance, tremors and vision problems."),
+              },
+            ],
+          },
+          {
+            type: "callout",
+            style: "warning",
+            heading: L("Why Tick Control Protects You Too"),
+            text: L(
+              "Because infected animals often look healthy, the only protection is to keep tick loads down, avoid crushing ticks with bare hands, wear gloves when handling blood or tissues, and see a doctor quickly if you develop a sudden fever after tick exposure. These diseases can be cured if diagnosed and treated promptly."
+            ),
+          },
+        ],
+        check: [
+          {
+            type: "truefalse",
+            q: L("Animals infected with CCHF virus usually look sick, so they are easy to spot."),
+            answer: false,
+            explain: L("No — infected animals show no clinical signs, which is why tick control and protective handling matter."),
+          },
+          {
+            type: "mcq",
+            q: L("Kyasanur Forest Disease is often linked to contact with which animals?"),
+            options: [L("Fish"), L("Honeybees"), L("Earthworms"), L("Monkeys and rodents")],
+            answer: 3,
+            explain: L("KFD spreads through infected hard ticks and contact with diseased animals, especially monkeys and rodents."),
+          },
+        ],
+      },
     ],
     finalQuiz: {
       passScore: 70,
@@ -10418,6 +11466,42 @@ export const MODULES = [
           q: L("Washing your hands after handling dung or cattle, and before eating, helps protect you from gastro-intestinal zoonotic diseases.", "పేడ లేదా పశువులను ముట్టుకున్న తర్వాత, భోజనం చేసే ముందు చేతులు కడుక్కోవడం జఠర-ప్రేగు సంబంధిత జూనోటిక్ వ్యాధుల నుండి మిమ్మల్ని కాపాడుతుంది.", "சாணம் அல்லது மாடுகளைக் கையாண்ட பிறகும், சாப்பிடும் முன்பும் கைகளைக் கழுவுவது இரைப்பை-குடல் விலங்கு-மனித நோய்களிலிருந்து உங்களைப் பாதுகாக்க உதவும்.", "ಸಗಣಿ ಅಥವಾ ಜಾನುವಾರುಗಳನ್ನು ಮುಟ್ಟಿದ ನಂತರ ಮತ್ತು ಊಟಕ್ಕೆ ಮೊದಲು ಕೈ ತೊಳೆಯುವುದು ಜಠರ-ಕರುಳಿನ ಝೂನೋಟಿಕ್ ರೋಗಗಳಿಂದ ನಿಮ್ಮನ್ನು ರಕ್ಷಿಸಲು ಸಹಾಯ ಮಾಡುತ್ತದೆ.", "गोबर या पशुओं को संभालने के बाद और खाने से पहले हाथ धोने से आप आंत्र-संबंधी ज़ूनोटिक रोगों से सुरक्षित रहते हैं।"),
           answer: true,
           explain: L("Yes — handwashing directly breaks the faecal-oral route that spreads these infections.", "అవును — చేతులు కడుక్కోవడం ఈ సంక్రమణలను వ్యాపింపజేసే మల-నోటి మార్గాన్ని నేరుగా తెంచేస్తుంది.", "ஆம் — கை கழுவுவது இந்த தொற்றுகளைப் பரப்பும் மல-வாய் பாதையை நேரடியாகத் துண்டிக்கிறது.", "ಹೌದು — ಕೈ ತೊಳೆಯುವುದು ಈ ಸೋಂಕುಗಳನ್ನು ಹರಡುವ ಮಲ-ಬಾಯಿ ಮಾರ್ಗವನ್ನು ನೇರವಾಗಿ ಕಡಿತಗೊಳಿಸುತ್ತದೆ.", "हाँ — हाथ धोना इन संक्रमणों को फैलाने वाले मल-मुख मार्ग को सीधे तोड़ देता है।"),
+        },
+        {
+          topicId: "t-m11-salmonellosis",
+          type: "mcq",
+          q: L("How do people usually catch salmonellosis?"),
+          options: [
+            L("Only from mosquito bites"),
+            L("Only from dog bites"),
+            L("It cannot infect people"),
+            L("Contact with infected animals, or eating contaminated food of animal origin"),
+          ],
+          answer: 3,
+          explain: L("Salmonella spreads to people by direct contact, contaminated food, and the faecal–oral route."),
+        },
+        {
+          topicId: "t-m11-salmonellosis",
+          type: "truefalse",
+          q: L("Eating well-cooked food helps reduce the risk of salmonellosis."),
+          answer: true,
+          explain: L("Yes — avoiding raw or undercooked food reduces infection risk."),
+        },
+        {
+          topicId: "t-m11-cchf-kfd",
+          type: "mcq",
+          q: L("Apart from tick bites, how else can people catch CCHF?"),
+          options: [L("Drinking boiled water"), L("Walking in sunlight"), L("Contact with infected animal blood or tissues during and after slaughter"), L("Eating green fodder")],
+          answer: 2,
+          explain: L("CCHF also spreads through contact with infected animal blood or tissues around slaughter."),
+        },
+        {
+          topicId: "t-m11-cchf-kfd",
+          type: "mcq",
+          q: L("Where in India is Kyasanur Forest Disease mainly found?"),
+          options: [L("Only in Ladakh"), L("South-western India"), L("Only in the Andaman Islands"), L("It isn't found in India")],
+          answer: 1,
+          explain: L("KFD is endemic to south-western India."),
         },
       ],
     },
@@ -10524,13 +11608,7 @@ export const MODULES = [
               },
               {
                 label: L("How Long It Lasts", "ఎంత సేపు ఉంటుంది", "எவ்வளவு நேரம் நீடிக்கும்", "ಎಷ್ಟು ಹೊತ್ತು ಇರುತ್ತದೆ", "कितनी देर रहती है"),
-                text: L(
-                  "Each heat period lasts somewhere between 6 and 30 hours — a fairly short and easy-to-miss window.",
-                  "ప్రతి ఎద కాలం 6 నుండి 30 గంటల మధ్య ఉంటుంది — చాలా చిన్నదైన, సులభంగా మిస్ అయ్యే సమయం.",
-                  "ஒவ்வொரு சினைப்பருவமும் 6 முதல் 30 மணி நேரம் வரை நீடிக்கும் — மிகவும் குறுகிய, எளிதில் தவறவிடக்கூடிய நேரம்.",
-                  "ಪ್ರತಿ ಬೆದೆ ಅವಧಿ 6 ರಿಂದ 30 ಗಂಟೆಗಳವರೆಗೆ ಇರುತ್ತದೆ — ಸಾಕಷ್ಟು ಚಿಕ್ಕ, ಸುಲಭವಾಗಿ ತಪ್ಪಿಹೋಗುವ ಸಮಯ.",
-                  "हर गर्मी का समय 6 से 30 घंटे के बीच रहता है — काफी छोटा और आसानी से छूट जाने वाला समय।"
-                ),
+                text: L("Heat passes through three stages: early heat (about 6–10 hours), standing heat (about 12–18 hours) and late heat (18 hours onward). The whole window is short and easy to miss — watch in the early morning and late evening."),
               },
             ],
           },
@@ -10581,13 +11659,7 @@ export const MODULES = [
               },
               {
                 label: L("The Clearest Sign", "అత్యంత స్పష్టమైన సంకేతం", "மிகத் தெளிவான அறிகுறி", "ಅತ್ಯಂತ ಸ್ಪಷ್ಟ ಲಕ್ಷಣ", "सबसे साफ़ निशानी"),
-                text: L(
-                  "After about 10–12 hours into heat, the animal will stand still and allow a bull or another cow to mount her. This standing behaviour is the strongest, most reliable sign of all.",
-                  "ఎద మొదలైన సుమారు 10–12 గంటల తర్వాత, పశువు నిశ్చలంగా నిలబడి ఎద్దు లేదా మరో ఆవు తనపై ఎక్కడానికి అనుమతిస్తుంది. ఈ నిలబడే ప్రవర్తనే అన్నిటికంటే బలమైన, అత్యంత నమ్మదగిన సంకేతం.",
-                  "சினைப்பருவம் தொடங்கி சுமார் 10–12 மணி நேரத்துக்குப் பிறகு, மாடு அசையாமல் நின்று காளை அல்லது மற்றொரு பசு தன்மேல் ஏற அனுமதிக்கும். இப்படி நிற்பதுதான் எல்லாவற்றிலும் வலுவான, மிகவும் நம்பகமான அறிகுறி.",
-                  "ಬೆದೆ ಶುರುವಾಗಿ ಸುಮಾರು 10–12 ಗಂಟೆಗಳ ನಂತರ, ಪ್ರಾಣಿ ಸುಮ್ಮನೆ ನಿಂತು ಹೋರಿ ಅಥವಾ ಇನ್ನೊಂದು ಹಸು ತನ್ನ ಮೇಲೆ ಹತ್ತಲು ಬಿಡುತ್ತದೆ. ಈ ನಿಂತುಕೊಳ್ಳುವ ವರ್ತನೆಯೇ ಎಲ್ಲಕ್ಕಿಂತ ಬಲವಾದ, ಅತ್ಯಂತ ನಂಬಲರ್ಹ ಲಕ್ಷಣ.",
-                  "गर्मी शुरू होने के करीब 10–12 घंटे बाद, पशु स्थिर खड़ी हो जाती है और सांड या दूसरी गाय को अपने ऊपर चढ़ने देती है। यह खड़े रहने का व्यवहार सबसे पक्की और भरोसेमंद निशानी है।"
-                ),
+                text: L("During standing heat (lasting about 12–18 hours), the animal will stand still and allow a bull or another cow to mount her. This standing behaviour is the strongest, most reliable sign of all — and the main guide for timing insemination."),
               },
             ],
           },
@@ -10704,13 +11776,7 @@ export const MODULES = [
               ),
             ],
             answer: 1,
-            explain: L(
-              "After about 10–12 hours into heat, the animal stands still to be mounted — this is the clearest and most reliable sign.",
-              "ఎద మొదలైన సుమారు 10–12 గంటల తర్వాత, పశువు ఎక్కించుకోవడానికి నిశ్చలంగా నిలబడుతుంది — ఇదే అత్యంత స్పష్టమైన, నమ్మదగిన సంకేతం.",
-              "சினைப்பருவம் தொடங்கி சுமார் 10–12 மணி நேரத்துக்குப் பிறகு, மாடு ஏறப்படுவதற்காக அசையாமல் நிற்கும் — இதுவே மிகத் தெளிவான, நம்பகமான அறிகுறி.",
-              "ಬೆದೆ ಶುರುವಾಗಿ ಸುಮಾರು 10–12 ಗಂಟೆಗಳ ನಂತರ, ಪ್ರಾಣಿ ಹತ್ತಿಸಿಕೊಳ್ಳಲು ಸುಮ್ಮನೆ ನಿಲ್ಲುತ್ತದೆ — ಇದೇ ಅತ್ಯಂತ ಸ್ಪಷ್ಟ, ನಂಬಲರ್ಹ ಲಕ್ಷಣ.",
-              "गर्मी शुरू होने के करीब 10–12 घंटे बाद, पशु चढ़वाने के लिए स्थिर खड़ी हो जाती है — यही सबसे साफ़ और भरोसेमंद निशानी है।"
-            ),
+            explain: L("During standing heat, the animal stands still to be mounted — this is the clearest and most reliable sign, and the main guide for timing insemination."),
           },
         ],
       },
@@ -10750,13 +11816,7 @@ export const MODULES = [
             type: "callout",
             style: "info",
             heading: L("The Right Window", "సరైన సమయం", "சரியான நேரம்", "ಸರಿಯಾದ ಸಮಯ", "सही समय"),
-            text: L(
-              "Insemination — whether natural service or AI — should ideally happen 10–12 hours after the first sign of heat, and no later than 18 hours after. In practice: if heat is first noticed in the evening, insemination happens the following morning. If signs of heat are still there the next morning, a second insemination may be needed that same evening.",
-              "గర్భధారణ — సహజ సంయోగం అయినా, AI అయినా — ఎద మొదటి సంకేతం కనిపించిన 10–12 గంటల తర్వాత, గరిష్టంగా 18 గంటలలోపు జరగాలి. ఆచరణలో: ఎద మొదటిసారి సాయంత్రం కనిపిస్తే, మరుసటి రోజు ఉదయం గర్భధారణ చేస్తారు. మరుసటి ఉదయం కూడా ఎద సంకేతాలు ఉంటే, అదే సాయంత్రం రెండోసారి గర్భధారణ అవసరం కావచ్చు.",
-              "கருவூட்டல் — இயற்கை இனச்சேர்க்கையானாலும் AI ஆனாலும் — சினைப்பருவத்தின் முதல் அறிகுறி தெரிந்த 10–12 மணி நேரத்துக்குப் பிறகு, அதிகபட்சம் 18 மணி நேரத்துக்குள் நடக்க வேண்டும். நடைமுறையில்: சினைப்பருவம் முதலில் மாலையில் தெரிந்தால், மறுநாள் காலை கருவூட்டல் செய்யப்படும். மறுநாள் காலையிலும் அறிகுறிகள் இருந்தால், அதே மாலை இரண்டாம் முறை கருவூட்டல் தேவைப்படலாம்.",
-              "ಗರ್ಭಧಾರಣೆ — ಸಹಜ ಸಂಯೋಗವಾಗಲಿ, AI ಆಗಲಿ — ಬೆದೆಯ ಮೊದಲ ಲಕ್ಷಣ ಕಂಡ 10–12 ಗಂಟೆಗಳ ನಂತರ, ಗರಿಷ್ಠ 18 ಗಂಟೆಗಳೊಳಗೆ ನಡೆಯಬೇಕು. ಪ್ರಾಯೋಗಿಕವಾಗಿ: ಬೆದೆ ಮೊದಲು ಸಂಜೆ ಕಂಡರೆ, ಮರುದಿನ ಬೆಳಿಗ್ಗೆ ಗರ್ಭಧಾರಣೆ ಮಾಡುತ್ತಾರೆ. ಮರುದಿನ ಬೆಳಿಗ್ಗೆಯೂ ಬೆದೆಯ ಲಕ್ಷಣಗಳು ಇದ್ದರೆ, ಅದೇ ಸಂಜೆ ಎರಡನೇ ಬಾರಿ ಗರ್ಭಧಾರಣೆ ಬೇಕಾಗಬಹುದು.",
-              "गर्भाधान — चाहे प्राकृतिक मेल हो या AI — गर्मी का पहला निशान दिखने के 10–12 घंटे बाद, और ज़्यादा से ज़्यादा 18 घंटे के अंदर होना चाहिए। व्यवहार में: अगर गर्मी पहली बार शाम को दिखे, तो अगली सुबह गर्भाधान कराते हैं। अगर अगली सुबह भी गर्मी के निशान बने रहें, तो उसी शाम दूसरी बार गर्भाधान की ज़रूरत पड़ सकती है।"
-            ),
+            text: L("Use the AM–PM rule: if standing heat is first seen in the morning, inseminate that evening; if first seen in the evening, inseminate the next morning — about 12 hours later. If you don't know when heat started, inseminate within about 6 hours of first noticing it, or while she is in standing heat. In the hottest months, inseminate as late in the evening and as early in the morning as the light allows. A second AI is not routine just because some signs remain — the trained inseminator decides."),
           },
           {
             type: "text",
@@ -10834,13 +11894,7 @@ export const MODULES = [
               ),
             ],
             answer: 1,
-            explain: L(
-              "The ideal window is 10–12 hours after the first sign of heat — so heat seen in the evening means insemination the following morning.",
-              "సరైన సమయం ఎద మొదటి సంకేతం కనిపించిన 10–12 గంటల తర్వాత — కాబట్టి సాయంత్రం ఎద కనిపిస్తే, గర్భధారణ మరుసటి రోజు ఉదయం చేయాలి.",
-              "சரியான நேரம் சினைப்பருவத்தின் முதல் அறிகுறி தெரிந்த 10–12 மணி நேரத்துக்குப் பிறகு — எனவே மாலையில் சினைப்பருவம் தெரிந்தால், கருவூட்டல் மறுநாள் காலையில் நடக்க வேண்டும்.",
-              "ಸರಿಯಾದ ಸಮಯ ಬೆದೆಯ ಮೊದಲ ಲಕ್ಷಣ ಕಂಡ 10–12 ಗಂಟೆಗಳ ನಂತರ — ಆದ್ದರಿಂದ ಸಂಜೆ ಬೆದೆ ಕಂಡರೆ, ಗರ್ಭಧಾರಣೆ ಮರುದಿನ ಬೆಳಿಗ್ಗೆ ನಡೆಯಬೇಕು.",
-              "सही समय गर्मी का पहला निशान दिखने के 10–12 घंटे बाद है — इसलिए अगर गर्मी शाम को दिखे, तो गर्भाधान अगली सुबह कराना चाहिए।"
-            ),
+            explain: L("By the AM–PM rule, heat first seen in the evening means insemination the following morning."),
           },
           {
             type: "truefalse",
@@ -10920,22 +11974,10 @@ export const MODULES = [
         {
           topicId: "t-m12-heat-timing",
           type: "mcq",
-          q: L(
-            "What is the maximum time after the first sign of heat that insemination should ideally happen?",
-            "ఎద మొదటి సంకేతం తర్వాత గర్భధారణ చేయడానికి ఆదర్శంగా గరిష్ట సమయం ఎంత?",
-            "சினைப்பருவத்தின் முதல் அறிகுறிக்குப் பிறகு கருவூட்டல் செய்ய சிறந்த அதிகபட்ச நேரம் எவ்வளவு?",
-            "ಬೆದೆಯ ಮೊದಲ ಲಕ್ಷಣದ ನಂತರ ಗರ್ಭಧಾರಣೆ ಮಾಡಲು ಆದರ್ಶವಾದ ಗರಿಷ್ಠ ಸಮಯ ಎಷ್ಟು?",
-            "गर्मी का पहला निशान दिखने के बाद गर्भाधान कराने का आदर्श अधिकतम समय कितना है?"
-          ),
-          options: [L("18 hours", "18 గంటలు", "18 மணி நேரம்", "18 ಗಂಟೆಗಳು", "18 घंटे"), L("3 days", "3 రోజులు", "3 நாட்கள்", "3 ದಿನಗಳು", "3 दिन"), L("1 week", "1 వారం", "1 வாரம்", "1 ವಾರ", "1 हफ्ता"), L("There is no time limit", "సమయ పరిమితి ఏమీ లేదు", "நேர வரம்பு எதுவும் இல்லை", "ಸಮಯದ ಮಿತಿ ಇಲ್ಲ", "कोई समय सीमा नहीं है"),],
-          answer: 0,
-          explain: L(
-            "Insemination should ideally happen 10–12 hours after the first sign of heat, and no later than a maximum of 18 hours.",
-            "గర్భధారణ ఆదర్శంగా ఎద మొదటి సంకేతం కనిపించిన 10–12 గంటల తర్వాత, గరిష్టంగా 18 గంటలలోపు జరగాలి.",
-            "கருவூட்டல் சிறந்த முறையில் சினைப்பருவத்தின் முதல் அறிகுறி தெரிந்த 10–12 மணி நேரத்துக்குப் பிறகு, அதிகபட்சம் 18 மணி நேரத்துக்குள் நடக்க வேண்டும்.",
-            "ಗರ್ಭಧಾರಣೆ ಆದರ್ಶವಾಗಿ ಬೆದೆಯ ಮೊದಲ ಲಕ್ಷಣ ಕಂಡ 10–12 ಗಂಟೆಗಳ ನಂತರ, ಗರಿಷ್ಠ 18 ಗಂಟೆಗಳೊಳಗೆ ನಡೆಯಬೇಕು.",
-            "गर्भाधान आदर्श रूप से गर्मी का पहला निशान दिखने के 10–12 घंटे बाद, और अधिकतम 18 घंटे के अंदर होना चाहिए।"
-          ),
+          q: L("You are not sure when an animal's heat started. When should insemination take place?"),
+          options: [L("After 3 days"), L("Only at the next heat, 21 days later"), L("Any time in the next week"), L("Within about 6 hours of first noticing heat, or while she is in standing heat")],
+          answer: 3,
+          explain: L("If the start of heat isn't known, inseminate within about 6 hours of first noticing it, or when the animal is seen in standing heat."),
         },
         {
           topicId: "t-m12-heat-timing",
@@ -11387,6 +12429,51 @@ export const MODULES = [
           },
         ],
       },
+      {
+        id: "t-m12-ai-facts",
+        title: L("AI Facts and Common Myths"),
+        teach: [
+          {
+            type: "stat-grid",
+            items: [
+              { label: L("Myth: 'Take her to a bull afterwards, to be sure'"), text: L("Fact: an animal should never be taken to a bull after AI.") },
+              { label: L("Myth: 'Two or three doses work better'"), text: L("Fact: one dose is enough when AI is done at the right time with good semen and correct technique. A second AI is only needed if heat lasts unusually long — decided by the trained inseminator.") },
+              { label: L("Myth: 'AI doesn't work in buffaloes'"), text: L("Fact: AI is as successful in buffaloes as in cows. Buffaloes often show silent heat, so careful heat detection is the key.") },
+              { label: L("Myth: 'AI will cure a repeat breeder'"), text: L("Fact: AI is not a treatment for infertility or repeat breeding — those need a vet.") },
+            ],
+          },
+          {
+            type: "callout",
+            style: "info",
+            heading: L("What Success Looks Like"),
+            text: L(
+              "Under Indian conditions, where AI is followed up properly (as in progeny testing and pedigree selection projects), the average conception rate is about 40% or more. So one AI not 'taking' is normal — what matters is catching the next heat about 18–21 days later and confirming pregnancy by a vet's examination around 60 days."
+            ),
+          },
+          {
+            type: "callout",
+            style: "tip",
+            heading: L("The Farmer's Right to Know"),
+            text: L(
+              "Before AI, the farmer can ask the technician the bull's breed, exotic blood level (for crossbreds), pedigree and breeding value, and see that semen is carried in a liquid-nitrogen cryocan. Services recorded in Bharat Pashudhan trigger an SMS to the farmer to verify them."
+            ),
+          },
+        ],
+        check: [
+          {
+            type: "truefalse",
+            q: L("After AI, it is a good idea to also take the cow to a bull, just in case."),
+            answer: false,
+            explain: L("No — an animal should never be taken to a bull after AI."),
+          },
+          {
+            type: "truefalse",
+            q: L("AI is as successful in buffaloes as in cows, provided heat is detected properly."),
+            answer: true,
+            explain: L("Correct — the main challenge in buffaloes is silent heat, so careful observation matters."),
+          },
+        ],
+      },
     ],
     finalQuiz: {
       passScore: 70,
@@ -11575,6 +12662,27 @@ export const MODULES = [
             "ಮೂರು ಗರ್ಭಧಾರಣೆಗಳು ವಿಫಲವಾದರೆ ಪಶುವೈದ್ಯರಿಗೆ ತಿಳಿಸಬೇಕು — ಪರಿಶೀಲನೆ ಇಲ್ಲದೆ AI ಪದೇ ಪದೇ ಮಾಡುವುದರಿಂದ ಪ್ರಾಣಿಗೆ ಹಾನಿಯೂ ಆಗಬಹುದು.",
             "तीन गर्भाधान असफल होने पर पशु चिकित्सक को बताना चाहिए — बिना जाँच के बार-बार AI कराने से पशु को नुकसान भी हो सकता है।"
           ),
+        },
+        {
+          topicId: "t-m12-ai-facts",
+          type: "mcq",
+          q: L("About what conception rate per AI is seen under good field programmes in India?"),
+          options: [L("100% every time"), L("About 2%"), L("AI never results in pregnancy"), L("About 40% or more")],
+          answer: 3,
+          explain: L("Where AI is properly followed up, average conception is about 40% or above."),
+        },
+        {
+          topicId: "t-m12-ai-facts",
+          type: "mcq",
+          q: L("A cow has failed to conceive after three AIs. Which statement is correct?"),
+          options: [
+            L("Use three doses of semen next time"),
+            L("AI itself won't cure her — she needs a vet to find the cause"),
+            L("Take her to a bull straight after the next AI"),
+            L("Keep repeating AI without telling anyone"),
+          ],
+          answer: 1,
+          explain: L("AI is not a treatment for infertility; a repeat breeder needs veterinary investigation."),
         },
       ],
     },
@@ -11799,14 +12907,8 @@ export const MODULES = [
         teach: [
           {
             type: "text",
-            heading: L("The First Early Sign", "మొదటి ముందస్తు సంకేతం", "முதல் ஆரம்ப அறிகுறி", "ಮೊದಲ ಮುನ್ಸೂಚನೆ", "पहली शुरुआती निशानी"),
-            html: L(
-              "A sticky vaginal discharge is usually seen about a day before calving begins. Seeing this is a normal, useful early warning that calving is close, not a cause for alarm on its own.",
-              "ఈత మొదలయ్యే సుమారు ఒక రోజు ముందు యోని నుండి జిగురుగా ఉండే స్రావం సాధారణంగా కనిపిస్తుంది. ఇది ఈత దగ్గరపడిందని తెలిపే సాధారణమైన, ఉపయోగకరమైన ముందస్తు హెచ్చరిక — ఇది ఒక్కటే ఆందోళన కలిగించాల్సిన విషయం కాదు.",
-              "கன்று ஈனுதல் தொடங்குவதற்குச் சுமார் ஒரு நாள் முன்பு, பிறப்புறுப்பிலிருந்து பிசுபிசுப்பான திரவம் பொதுவாகத் தெரியும். இது கன்று ஈனுதல் நெருங்கிவிட்டது என்பதற்கான இயல்பான, பயனுள்ள முன்னெச்சரிக்கை — இது மட்டுமே கவலைப்பட வேண்டிய விஷயம் அல்ல.",
-              "ಕರು ಹಾಕುವುದು ಶುರುವಾಗುವ ಸುಮಾರು ಒಂದು ದಿನ ಮೊದಲು ಯೋನಿಯಿಂದ ಅಂಟಾದ ಸ್ರಾವ ಸಾಮಾನ್ಯವಾಗಿ ಕಾಣುತ್ತದೆ. ಇದು ಕರು ಹಾಕುವ ಸಮಯ ಹತ್ತಿರವಾಗಿದೆ ಎಂಬುದರ ಸಾಮಾನ್ಯ, ಉಪಯುಕ್ತ ಮುನ್ನೆಚ್ಚರಿಕೆ — ಇದೊಂದೇ ಚಿಂತೆಗೆ ಕಾರಣವಲ್ಲ.",
-              "ब्याना शुरू होने से करीब एक दिन पहले योनि से चिपचिपा स्राव आमतौर पर दिखता है। यह ब्याने के करीब होने की सामान्य और काम की चेतावनी है, अपने आप में घबराने की बात नहीं।"
-            ),
+            heading: L("Getting Ready, and the Signs Calving Is Near"),
+            html: L("Move the pregnant animal to a clean calving pen about two weeks before her expected date, and watch her closely. Signs that calving may happen within 24 hours: restlessness (getting up and lying down often), raising the tail, kicking at the belly, and a sticky vaginal discharge. These are normal warnings, not a cause for alarm on their own."),
           },
           {
             type: "glossary",
@@ -11824,13 +12926,7 @@ export const MODULES = [
             items: [
               {
                 label: L("Older Cows", "పెద్ద ఆవులు", "வளர்ந்த பசுக்கள்", "ವಯಸ್ಕ ಹಸುಗಳು", "बड़ी उम्र की गायें"),
-                text: L(
-                  "The calf is usually delivered 30–50 minutes after the water bag bursts, though this may extend up to 2 hours.",
-                  "నీటి తిత్తి పగిలిన 30–50 నిమిషాల తర్వాత సాధారణంగా దూడ బయటకు వస్తుంది, కొన్నిసార్లు ఇది 2 గంటల వరకు పట్టవచ్చు.",
-                  "நீர்ப்பை உடைந்த 30–50 நிமிடங்களுக்குப் பிறகு பொதுவாக கன்று வெளிவரும், சில நேரங்களில் இது 2 மணி நேரம் வரை நீளலாம்.",
-                  "ನೀರಿನ ಚೀಲ ಒಡೆದ 30–50 ನಿಮಿಷಗಳ ನಂತರ ಸಾಮಾನ್ಯವಾಗಿ ಕರು ಹೊರಬರುತ್ತದೆ, ಕೆಲವೊಮ್ಮೆ ಇದು 2 ಗಂಟೆಗಳವರೆಗೆ ಹೋಗಬಹುದು.",
-                  "पानी की थैली फटने के 30–50 मिनट बाद आमतौर पर बछड़ा बाहर आ जाता है, हालांकि कभी-कभी इसमें 2 घंटे तक लग सकते हैं।"
-                ),
+                text: L("The calf is usually delivered within 30–60 minutes after the first water bag bursts."),
               },
               {
                 label: L(
@@ -11877,13 +12973,7 @@ export const MODULES = [
               "ಸಾಮಾನ್ಯ ಮತ್ತು ಪಶುವೈದ್ಯರನ್ನು ತಕ್ಷಣ ಯಾವಾಗ ಕರೆಯಬೇಕು",
               "सामान्य और डॉक्टर को तुरंत कब बुलाएँ"
             ),
-            text: L(
-              "Normal: after the water bag bursts, the calf's head and both front legs appear together — this is the normal position, and calving usually proceeds on its own without needing a vet. Call the vet immediately if: an abnormal position is seen (for example, only one front leg and the head, or any other position), or if nothing appears at all after the water bag bursts. Any delay in getting help in these cases only makes things worse.",
-              "సాధారణం: నీటి తిత్తి పగిలిన తర్వాత, దూడ తల మరియు రెండు ముందు కాళ్లు కలిసి కనిపిస్తాయి — ఇదే సాధారణ స్థితి, ఈత సాధారణంగా వెట్ అవసరం లేకుండానే దానంతట అదే జరుగుతుంది. ఈ సందర్భాల్లో వెంటనే వెట్‌ను పిలవండి: అసాధారణ స్థితి కనిపిస్తే (ఉదాహరణకు ఒక్క ముందు కాలు మరియు తల మాత్రమే, లేదా మరేదైనా స్థితి), లేదా నీటి తిత్తి పగిలిన తర్వాత ఏమీ కనిపించకపోతే. ఈ సందర్భాల్లో సహాయం పొందడంలో ఏ ఆలస్యమైనా పరిస్థితిని మరింత దిగజారుస్తుంది.",
-              "இயல்பானது: நீர்ப்பை உடைந்த பிறகு, கன்றின் தலையும் இரண்டு முன்கால்களும் சேர்ந்து தெரியும் — இதுவே இயல்பான நிலை, கன்று ஈனுதல் பொதுவாக கால்நடை மருத்துவர் தேவையின்றித் தானாகவே நடக்கும். இந்தச் சூழல்களில் உடனே கால்நடை மருத்துவரை அழைக்கவும்: அசாதாரண நிலை தெரிந்தால் (உதாரணமாக ஒரே ஒரு முன்காலும் தலையும் மட்டும், அல்லது வேறு ஏதேனும் நிலை), அல்லது நீர்ப்பை உடைந்த பிறகு எதுவுமே தெரியாவிட்டால். இந்தச் சூழல்களில் உதவி பெறுவதில் ஏற்படும் எந்தத் தாமதமும் நிலைமையை மோசமாக்கவே செய்யும்.",
-              "ಸಾಮಾನ್ಯ: ನೀರಿನ ಚೀಲ ಒಡೆದ ನಂತರ, ಕರುವಿನ ತಲೆ ಮತ್ತು ಎರಡೂ ಮುಂಗಾಲುಗಳು ಒಟ್ಟಿಗೆ ಕಾಣುತ್ತವೆ — ಇದೇ ಸಾಮಾನ್ಯ ಸ್ಥಿತಿ, ಕರು ಹಾಕುವುದು ಸಾಮಾನ್ಯವಾಗಿ ಪಶುವೈದ್ಯರ ಅಗತ್ಯವಿಲ್ಲದೆ ತಾನಾಗಿಯೇ ನಡೆಯುತ್ತದೆ. ಈ ಸಂದರ್ಭಗಳಲ್ಲಿ ತಕ್ಷಣ ಪಶುವೈದ್ಯರನ್ನು ಕರೆಯಿರಿ: ಅಸಾಮಾನ್ಯ ಸ್ಥಿತಿ ಕಂಡರೆ (ಉದಾಹರಣೆಗೆ ಕೇವಲ ಒಂದು ಮುಂಗಾಲು ಮತ್ತು ತಲೆ, ಅಥವಾ ಬೇರೆ ಯಾವುದೇ ಸ್ಥಿತಿ), ಅಥವಾ ನೀರಿನ ಚೀಲ ಒಡೆದ ನಂತರ ಏನೂ ಕಾಣದಿದ್ದರೆ. ಈ ಸಂದರ್ಭಗಳಲ್ಲಿ ಸಹಾಯ ಪಡೆಯುವುದರಲ್ಲಿ ಯಾವುದೇ ವಿಳಂಬ ಪರಿಸ್ಥಿತಿಯನ್ನು ಇನ್ನಷ್ಟು ಹದಗೆಡಿಸುತ್ತದೆ.",
-              "सामान्य: पानी की थैली फटने के बाद बछड़े का सिर और दोनों अगली टाँगें साथ दिखती हैं — यही सामान्य स्थिति है, और ब्याना आमतौर पर बिना डॉक्टर के अपने आप हो जाता है। इन हालात में तुरंत डॉक्टर को बुलाएँ: अगर असामान्य स्थिति दिखे (जैसे सिर्फ एक अगली टाँग और सिर, या कोई और स्थिति), या पानी की थैली फटने के बाद कुछ भी दिखाई न दे। इन मामलों में मदद मिलने में कोई भी देरी हालात को और बिगाड़ती है।"
-            ),
+            text: L("Normal: after the water bag bursts, the calf's head and both front legs (or both hind legs) appear, and calving usually proceeds on its own without needing a vet. Call the vet if the head and two legs are not seen within one hour of the first water bag bursting, if an abnormal position is seen (for example, only one front leg and the head), or if nothing appears at all. Any delay makes things worse for both cow and calf."),
           },
           {
             type: "callout",
@@ -11912,13 +13002,7 @@ export const MODULES = [
               "ಕರು ಹಾಕಿದ ನಂತರ: ಮುಂದೇನಾಗುತ್ತದೆ",
               "ब्याने के बाद: आगे क्या होता है"
             ),
-            html: L(
-              "Under normal conditions, an animal should come back into heat within 45 days of calving. It is recommended to breed her at the heat that follows the first one after calving, or within 60–90 days. If she does not come into heat within 60 days after calving, this should be reported so a veterinarian can check on her.",
-              "సాధారణ పరిస్థితుల్లో, పశువు ఈనిన 45 రోజుల్లోపు మళ్లీ ఎదకు రావాలి. ఈనిన తర్వాత మొదటి ఎద తర్వాత వచ్చే ఎదలో, లేదా 60–90 రోజుల్లోపు దానికి సంతానోత్పత్తి చేయించడం మంచిది. ఈనిన 60 రోజుల్లోపు అది ఎదకు రాకపోతే, పశువైద్యుడు దాన్ని పరిశీలించేలా ఈ విషయాన్ని తెలియజేయాలి.",
-              "இயல்பான நிலைமைகளில், மாடு கன்று ஈன்ற 45 நாட்களுக்குள் மீண்டும் சினைப்பருவத்துக்கு வர வேண்டும். கன்று ஈன்ற பிறகு வரும் முதல் சினைப்பருவத்துக்கு அடுத்த சினைப்பருவத்தில், அல்லது 60–90 நாட்களுக்குள் அதைச் சினையாக்குவது பரிந்துரைக்கப்படுகிறது. கன்று ஈன்ற 60 நாட்களுக்குள் சினைப்பருவத்துக்கு வரவில்லை என்றால், கால்நடை மருத்துவர் அதைப் பரிசோதிக்கும்படி இதைத் தெரிவிக்க வேண்டும்.",
-              "ಸಾಮಾನ್ಯ ಪರಿಸ್ಥಿತಿಯಲ್ಲಿ, ಪ್ರಾಣಿ ಕರು ಹಾಕಿದ 45 ದಿನಗಳೊಳಗೆ ಮತ್ತೆ ಬೆದೆಗೆ ಬರಬೇಕು. ಕರು ಹಾಕಿದ ನಂತರದ ಮೊದಲ ಬೆದೆಯ ಮುಂದಿನ ಬೆದೆಯಲ್ಲಿ, ಅಥವಾ 60–90 ದಿನಗಳೊಳಗೆ ಅದಕ್ಕೆ ಸಂತಾನೋತ್ಪತ್ತಿ ಮಾಡಿಸುವುದು ಶಿಫಾರಸು. ಕರು ಹಾಕಿದ 60 ದಿನಗಳೊಳಗೆ ಬೆದೆಗೆ ಬರದಿದ್ದರೆ, ಪಶುವೈದ್ಯರು ಪರೀಕ್ಷಿಸುವಂತೆ ಇದನ್ನು ತಿಳಿಸಬೇಕು.",
-              "सामान्य हालात में पशु को ब्याने के 45 दिन के अंदर फिर गर्मी में आ जाना चाहिए। सलाह दी जाती है कि ब्याने के बाद की पहली गर्मी के अगली गर्मी में, या 60–90 दिन के अंदर उसका प्रजनन कराया जाए। अगर वह ब्याने के 60 दिन के भीतर गर्मी में नहीं आती, तो यह बताना चाहिए ताकि पशु चिकित्सक उसे देख सके।"
-            ),
+            html: L("Right after calving, give the cow energy-rich feed or jaggery water. Watch for abnormal discharge from the uterus (watery, red-brown, or white with a bad smell) that continues beyond 21 days after calving — it signals infection and needs a vet. Under normal conditions, an animal should come back into heat within 45 days of calving. Breed her at the heat after the first one, or within 60–90 days. If she does not come into heat within 60 days after calving, report it so a veterinarian can check her."),
           },
         ],
         check: [
@@ -11981,6 +13065,53 @@ export const MODULES = [
               "ನಿಜ — ಕರು ಹಾಕಿದ 60 ದಿನಗಳೊಳಗೆ ಬೆದೆಗೆ ಬರದಿದ್ದರೆ ಪಶುವೈದ್ಯರು ಪರೀಕ್ಷಿಸಬೇಕು.",
               "सही — ब्याने के 60 दिन के अंदर गर्मी में न आने पर पशु चिकित्सक से जाँच करानी चाहिए।"
             ),
+          },
+        ],
+      },
+      {
+        id: "t-m12-dryoff-process",
+        title: L("How to Dry Off a Cow, and Dry Cow Therapy"),
+        teach: [
+          {
+            type: "text",
+            heading: L("When and Why"),
+            html: L(
+              "Drying off usually happens around the <b>7th month of pregnancy</b>, giving a dry period of about <b>60 days</b>. It lets the udder tissue rest and rebuild, redirects the cow's energy to her body condition and the growing calf, and leads to more milk in the next lactation, a healthier calf and fewer metabolic problems after calving."
+            ),
+          },
+          {
+            type: "timeline",
+            heading: L("The Drying-Off Steps (High Yielders, Over 10 Litres a Day)"),
+            items: [
+              { year: L("2 weeks before"), text: L("Start reducing concentrate on a tapering basis and feed mainly dry fodder, so milk yield falls.") },
+              { year: L("Week 1"), text: L("Milk only once a day.") },
+              { year: L("Week 2"), text: L("Milk on alternate days. If yield still hasn't dropped, stop concentrate.") },
+              { year: L("Dry-off day"), text: L("After the last milking, stop milking. Dry cow therapy is given by the vet / trained person. Never restrict water.") },
+              { year: L("After drying off"), text: L("Check the cow and her udder every day. Keep her in a clean, dry, stress-free place on a maintenance diet for about a week, then gradually raise concentrate for pregnancy.") },
+            ],
+            result: L("Teat dipping should continue for 2 weeks after drying off, and restart 2 weeks before calving."),
+          },
+          {
+            type: "glossary",
+            term: L("Dry Cow Therapy"),
+            meaning: L(
+              "Treatment given to each quarter right after the last milking before the dry period: teats are wiped with disinfectant and a long-acting intramammary tube is infused (and/or a non-antibiotic teat sealant). It cures existing hidden udder infections and prevents new ones — which are most likely in the first two weeks of the dry period. Antibiotic tubes are used on a vet's advice."
+            ),
+          },
+        ],
+        check: [
+          {
+            type: "mcq",
+            q: L("When are new udder infections most likely during the dry period?"),
+            options: [L("Only on the day of calving"), L("In the first two weeks"), L("Never — dry cows can't get mastitis"), L("Only after a year")],
+            answer: 1,
+            explain: L("The first two weeks of the dry period carry a higher risk of new udder infections — the reason for dry cow therapy."),
+          },
+          {
+            type: "truefalse",
+            q: L("Water should be restricted to help a cow dry off faster."),
+            answer: false,
+            explain: L("No — never restrict water access when drying off."),
           },
         ],
       },
@@ -12180,6 +13311,515 @@ export const MODULES = [
             "ಒಣ ಅವಧಿ ಹೆಚ್ಚು ಕಾಲ ಮುಂದುವರಿದರೆ, ಪ್ರಾಣಿ ಬೊಜ್ಜು ಬೆಳೆಸಿಕೊಳ್ಳುವುದು, ಬೊಜ್ಜಿಗೆ ಸಂಬಂಧಿಸಿದ ರೋಗ ಬರುವುದು, ಕರು ಹಾಕುವುದು ಕಷ್ಟವಾಗುವುದು ಮುಂತಾದ ಅಪಾಯಗಳಿವೆ.",
             "अगर ड्राई पीरियड लंबा खिंच जाए, तो पशु के मोटे होने, मोटापे से जुड़ी बीमारी होने और ब्याना कठिन होने जैसे खतरे रहते हैं।"
           ),
+        },
+        {
+          topicId: "t-m12-dryoff-process",
+          type: "mcq",
+          q: L("How should a high-yielding cow's milking be reduced in the two weeks before drying off?"),
+          options: [
+            L("Three times a day, then stop suddenly"),
+            L("No change until the last day"),
+            L("Once a day in the first week, then alternate days"),
+            L("Stop all feed and water"),
+          ],
+          answer: 2,
+          explain: L("Milking once a day, then on alternate days, with less concentrate, lowers yield safely before drying off."),
+        },
+        {
+          topicId: "t-m12-dryoff-process",
+          type: "truefalse",
+          q: L("Dry cow therapy is given right after the last milking before the dry period."),
+          answer: true,
+          explain: L("Correct — after the last milking, teats are disinfected and the dry cow treatment and/or teat sealant is infused."),
+        },
+      ],
+    },
+  },
+  // ==================================================================
+  // LESSON 4 — Infertility and Repeat Breeding
+  // Source: NDDB Handbook (2026 ed.) Section XIII-F; NDDB Farm Management Guideline (2026)
+  // ==================================================================
+  {
+    id: "m12-l4",
+    title: L("Infertility and Repeat Breeding"),
+    estMinutes: 9,
+    hook: [
+      {
+        type: "hero",
+        heading: L("An Empty Cow Is a Costly Cow"),
+        text: L(
+          "Every month a cow stays un-pregnant is a month of lost milk and a calf that won't be born. The good news is that most infertility in dairy animals is temporary and can be corrected — and many of its causes are everyday management mistakes that ground staff are in the best position to notice. This lesson explains what 'normal' fertility looks like, what goes wrong, and what a farm can do about it."
+        ),
+      },
+    ],
+    topics: [
+      {
+        id: "t-m12-infertility-causes",
+        title: L("What Normal Fertility Looks Like, and What Goes Wrong"),
+        teach: [
+          {
+            type: "glossary",
+            term: L("Infertility"),
+            meaning: L(
+              "A temporary loss of fertility that can be corrected — the animal can be brought back to normal breeding with the right care. (A permanent inability to breed is called sterility.)"
+            ),
+          },
+          {
+            type: "stat-grid",
+            items: [
+              { label: L("First calving"), text: L("At the age that is standard for the species and breed.") },
+              { label: L("Calving again"), text: L("Every 13–14 months after that.") },
+              { label: L("Back in heat"), text: L("Cycling again within 90 days after calving.") },
+              { label: L("Pregnant again"), text: L("Pregnant within 5 months after calving.") },
+            ],
+          },
+          {
+            type: "text",
+            heading: L("The Most Common Reasons a Cow Won't Conceive"),
+            html: L(
+              "Infertility can come from many directions — the animal's body structure, genetics, high production, management, nutrition, environment, hormones or infection. But most cases come down to a few problems: <b>anoestrus</b> (no heat at all), <b>silent heat</b>, <b>infection of the womb after calving</b>, or problems with the ovaries such as no release of an egg, a late release, or cysts."
+            ),
+          },
+          {
+            type: "glossary",
+            term: L("Anoestrus"),
+            meaning: L("When a female animal shows no heat at all for a long time — often linked to poor nutrition, especially a lack of minerals."),
+          },
+          {
+            type: "glossary",
+            term: L("Silent Heat"),
+            meaning: L("When an animal is actually in heat but shows almost no visible signs — common in buffaloes, and easy to miss without careful watching."),
+          },
+          {
+            type: "stat-grid",
+            items: [
+              { label: L("Poor feeding"), text: L("Low-quality feed and fodder, and no mineral mixture.") },
+              { label: L("Poor heat detection"), text: L("Heats missed because no one was watching at the right times.") },
+              { label: L("Wrong AI timing"), text: L("Insemination done too early or too late in the heat.") },
+              { label: L("Broken semen cold chain"), text: L("Frozen semen not kept at the right temperature before use.") },
+              { label: L("Unhygienic AI"), text: L("AI done without following the standard operating procedure (SOP), which can introduce infection.") },
+            ],
+          },
+          {
+            type: "callout",
+            style: "info",
+            heading: L("Notice How Many of These Are Human Mistakes"),
+            text: L(
+              "Five of the common causes above are things people do or don't do. That's why you matter here: noticing a missed heat, a semen container without enough liquid nitrogen, or an AI done in a dirty, stressful setting — and mentioning it — directly protects the farm's fertility."
+            ),
+          },
+        ],
+        check: [
+          {
+            type: "mcq",
+            q: L("How often should a healthy, fertile cow ideally calve?"),
+            options: [L("Every 13–14 months"), L("Every 3 years"), L("Every 6 months"), L("Only once in her life")],
+            answer: 0,
+            explain: L("A fertile cow should calve every 13–14 months, return to heat within 90 days and be pregnant within 5 months of calving."),
+          },
+          {
+            type: "truefalse",
+            q: L("Infertility in dairy animals is usually permanent and cannot be corrected."),
+            answer: false,
+            explain: L("No — infertility is a temporary loss of fertility that can usually be corrected with the right care."),
+          },
+        ],
+      },
+      {
+        id: "t-m12-infertility-management",
+        title: L("Managing Infertility: What the Farm Should Do"),
+        teach: [
+          {
+            type: "stat-grid",
+            items: [
+              {
+                label: L("Feed and minerals"),
+                text: L("Improve nutrition and housing. Make mineral mixture an essential part of the ration from calf-hood onwards."),
+              },
+              {
+                label: L("Deworming"),
+                text: L("Keep animals regularly dewormed so they absorb their nutrients properly — the handbook suggests every three months in this context; follow the vet's plan."),
+              },
+              {
+                label: L("Heat detection"),
+                text: L("Watch for heat carefully and consistently, so cows are bred as early as possible."),
+              },
+              {
+                label: L("Discharge"),
+                text: L("Report any abnormal discharge from the vulva — it may mean a womb infection that needs treatment."),
+              },
+            ],
+          },
+          {
+            type: "glossary",
+            term: L("Repeat Breeder"),
+            meaning: L(
+              "A cow or heifer with a normal reproductive tract that is still not pregnant after three consecutive inseminations. She needs active investigation and treatment by a vet, then close monitoring when she is bred again."
+            ),
+          },
+          {
+            type: "stat-grid",
+            items: [
+              { label: L("Semen source"), text: L("Semen should always come from an A- or B-grade semen station.") },
+              {
+                label: L("The AI itself"),
+                text: L("Done by a well-trained AI technician, in a clean, stress-free setting, following the SOP for handling and thawing frozen semen."),
+              },
+              {
+                label: L("One dose is enough"),
+                text: L("One dose of semen per AI is sufficient. A repeat AI is only needed if the heat is prolonged."),
+              },
+              {
+                label: L("Pregnancy check"),
+                text: L("Can be done as early as 28 days with cow-side pregnancy kits, or from about 45 days by a trained AI technician or vet by rectal examination."),
+              },
+            ],
+          },
+          {
+            type: "callout",
+            style: "warning",
+            heading: L("Hormones Are Not a Quick Fix"),
+            text: L(
+              "Hormone treatment for infertility should only be used with great caution, and only after a vet has found the actual cause. Giving hormones on guesswork can make things worse. AI itself is not a treatment for infertility either."
+            ),
+          },
+          {
+            type: "example",
+            heading: L("Why Records Make All the Difference"),
+            text: L(
+              "Writing down every heat date, AI date and pregnancy check lets the vet see a pattern — for example, a cow coming into heat every 30 days instead of every 21 is a clue in itself. Without records, those clues are lost. Animals found to have permanent body-structure or genetic causes of infertility should be removed from the herd early, so resources go to animals that can produce."
+            ),
+          },
+        ],
+        check: [
+          {
+            type: "mcq",
+            q: L("A cow with a normal reproductive tract is still not pregnant after three AIs in a row. What is she called?"),
+            options: [L("A dry cow"), L("A heifer"), L("A carrier"), L("A repeat breeder")],
+            answer: 3,
+            explain: L("She is a repeat breeder and should be examined and treated by a vet, then closely monitored when re-bred."),
+          },
+          {
+            type: "truefalse",
+            q: L("Using two or three doses of semen in every AI improves conception."),
+            answer: false,
+            explain: L("No — one dose per AI is sufficient when AI is done at the right time with good semen and correct technique."),
+          },
+        ],
+      },
+    ],
+    finalQuiz: {
+      passScore: 70,
+      questions: [
+        {
+          topicId: "t-m12-infertility-causes",
+          type: "mcq",
+          q: L("Within how many days after calving should a healthy cow be cycling (coming into heat) again?"),
+          options: [L("Within 2 years"), L("Within 7 days"), L("Within 90 days"), L("It doesn't matter")],
+          answer: 2,
+          explain: L("A reproductively sound cow should resume cycling within 90 days of calving."),
+        },
+        {
+          topicId: "t-m12-infertility-causes",
+          type: "mcq",
+          q: L("Which of these is a common human cause of infertility?"),
+          options: [L("Feeding green fodder"), L("Giving clean water"), L("Using an A-grade semen station"), L("A break in the cold chain of frozen semen")],
+          answer: 3,
+          explain: L("Broken semen cold chain, poor heat detection, wrong AI timing, unhygienic AI and poor feeding without minerals are all human factors."),
+        },
+        {
+          topicId: "t-m12-infertility-causes",
+          type: "truefalse",
+          q: L("Silent heat means the animal is in heat but shows almost no visible signs."),
+          answer: true,
+          explain: L("Correct — it is common in buffaloes and easy to miss without careful observation."),
+        },
+        {
+          topicId: "t-m12-infertility-management",
+          type: "mcq",
+          q: L("How early can pregnancy be checked using a cow-side pregnancy kit?"),
+          options: [L("As early as 28 days"), L("Only after 9 months"), L("On the day of AI"), L("It can't be checked")],
+          answer: 0,
+          explain: L("Cow-side kits can check pregnancy from about 28 days; rectal examination by a trained person from about 45 days."),
+        },
+        {
+          topicId: "t-m12-infertility-management",
+          type: "truefalse",
+          q: L("Hormone treatment should be given to every cow that doesn't conceive quickly, without waiting for a diagnosis."),
+          answer: false,
+          explain: L("No — hormones should be used with caution and only after a vet has diagnosed the actual cause."),
+        },
+        {
+          topicId: "t-m12-infertility-management",
+          type: "mcq",
+          q: L("Where should semen for AI always come from?"),
+          options: [L("Any neighbour's bull"), L("Any shop"), L("An A- or B-grade semen station"), L("It doesn't matter")],
+          answer: 2,
+          explain: L("Semen should always be sourced from an A- or B-grade semen station, and used by a well-trained AI technician."),
+        },
+      ],
+    },
+  },
+  // ==================================================================
+  // LESSON 5 — Modern Breeding Tools: Sexed Semen, IVF and Better Bulls
+  // Source: NDDB Handbook (2026 ed.) Section XIII-G to K and Breeding FAQs
+  // ==================================================================
+  {
+    id: "m12-l5",
+    title: L("Modern Breeding Tools: Sexed Semen, IVF and Better Bulls"),
+    estMinutes: 11,
+    hook: [
+      {
+        type: "hero",
+        heading: L("Breeding Has Gone High-Tech — Farmers Will Ask You About It"),
+        text: L(
+          "Farmers today hear about sexed semen, test-tube calves and 'genomic' bulls, and they will ask you what these mean and whether they are worth it. You won't perform any of these technologies — but knowing what each one is, what it costs and what it can and can't do lets you answer honestly and point farmers to the right people."
+        ),
+      },
+    ],
+    topics: [
+      {
+        id: "t-m12-sexed-semen",
+        title: L("Sexed Semen: Choosing a Heifer Calf"),
+        teach: [
+          {
+            type: "glossary",
+            term: L("Sexed Semen"),
+            meaning: L(
+              "Semen sorted in a laboratory so that it carries mostly sperm of one sex. Used for AI, it produces a calf of the chosen sex — usually female — with about 90% accuracy."
+            ),
+          },
+          {
+            type: "stat-grid",
+            items: [
+              { label: L("More heifers"), text: L("More female calves — the future milk producers — and surplus heifers that can be sold.") },
+              { label: L("Saves resources"), text: L("Feed and care aren't spent on unwanted male calves.") },
+              { label: L("Faster improvement"), text: L("Speeds up genetic progress, and makes progeny testing and embryo production more efficient.") },
+              { label: L("Safer herd growth"), text: L("Growing your own heifers avoids bringing in disease with bought animals.") },
+              { label: L("Easier births"), text: L("Female calves cause fewer difficult births — especially useful for first-time heifers.") },
+            ],
+          },
+          {
+            type: "stat-grid",
+            items: [
+              {
+                label: L("Availability"),
+                text: L("Produced at 11 semen stations in India, for all major dairy breeds including buffaloes. It is not carried by every AI technician."),
+              },
+              {
+                label: L("Cost"),
+                text: L("About ₹675 per dose under the ABIP-SS project of the Rashtriya Gokul Mission (2026 handbook), with further subsidy in some states. NDDB's subsidiary NDS has developed a lower-cost Indian sorting technology."),
+              },
+              {
+                label: L("How to recognise it"),
+                text: L("Sexed semen comes in white French mini straws with a coloured cotton plug — the farmer can ask to see the straw."),
+              },
+              {
+                label: L("Success rate"),
+                text: L("In a field pilot, conception rates ranged from about 12.5% to 37.5% — lower than conventional semen, so heat timing matters even more."),
+              },
+            ],
+          },
+        ],
+        check: [
+          {
+            type: "mcq",
+            q: L("With sexed semen, roughly how accurately can the calf's sex be chosen?"),
+            options: [L("About 50%"), L("About 90%"), L("100%, always"), L("About 10%")],
+            answer: 1,
+            explain: L("Sexed semen produces a calf of the desired sex with about 90% accuracy."),
+          },
+          {
+            type: "truefalse",
+            q: L("Sexed semen is available only for exotic cattle, not for buffaloes."),
+            answer: false,
+            explain: L("No — sexed semen is available for all major dairy breeds in India, including buffaloes."),
+          },
+        ],
+      },
+      {
+        id: "t-m12-ivf-et",
+        title: L("IVF and Embryo Transfer: Many Calves From One Elite Cow"),
+        teach: [
+          {
+            type: "text",
+            heading: L("What 'OPU-IVEP-ET' Means"),
+            html: L(
+              "Normally an excellent cow gives one calf a year. With <b>Ovum Pick-Up, In Vitro Embryo Production and Embryo Transfer (OPU-IVEP-ET)</b>, a vet uses an ultrasound-guided probe to collect eggs directly from an elite cow's ovaries — without hormones and without disturbing her cycle. In a laboratory the eggs are matured, fertilised with semen and grown for about a week into early embryos. Each embryo is then placed into an ordinary 'surrogate' cow (the recipient), which carries the calf to birth."
+            ),
+          },
+          {
+            type: "glossary",
+            term: L("Recipient (Surrogate) Cow"),
+            meaning: L("An ordinary, healthy cow that carries an embryo from an elite cow through pregnancy. The calf inherits the elite parents' genes, not the surrogate's."),
+          },
+          {
+            type: "stat-grid",
+            items: [
+              { label: L("Calves per elite cow"), text: L("About 20–25 calves in a year, instead of one.") },
+              { label: L("Faster genetic gain"), text: L("More calves from the very best animals, and young genomically selected heifers can be used before puberty.") },
+              { label: L("Second chance"), text: L("Top cows with blocked tubes or damaged udders, which would otherwise be culled, can still produce calves.") },
+              { label: L("Combined with sexed semen"), text: L("Embryos made with sexed semen give calves of the desired sex — and use very little semen from rare top bulls.") },
+            ],
+          },
+          {
+            type: "callout",
+            style: "info",
+            heading: L("What Farmers Should Know"),
+            text: L(
+              "Embryo transfer is NOT an alternative to AI for getting an ordinary cow pregnant — it is a way to multiply elite genetics. Under the ABIP-IVF project of the Rashtriya Gokul Mission, the 2026 handbook lists the rate for establishing an IVF-ET pregnancy at ₹21,000 plus taxes, of which ₹5,000 is subsidised by the Government of India."
+            ),
+          },
+        ],
+        check: [
+          {
+            type: "mcq",
+            q: L("Roughly how many calves a year can IVF-ET produce from one elite cow?"),
+            options: [L("Exactly 1"), L("About 200"), L("None"), L("About 20–25")],
+            answer: 3,
+            explain: L("OPU-IVEP-ET can produce about 20–25 calves a year from one elite female, compared with about one normally."),
+          },
+          {
+            type: "truefalse",
+            q: L("Embryo transfer should be used instead of AI to get ordinary cows pregnant."),
+            answer: false,
+            explain: L("No — ET is not an alternative to AI. It is used to multiply the genetics of elite animals."),
+          },
+        ],
+      },
+      {
+        id: "t-m12-better-bulls",
+        title: L("Better Bulls: Progeny Testing, Pedigree and Genomic Selection"),
+        teach: [
+          {
+            type: "glossary",
+            term: L("Breeding Value (BV)"),
+            meaning: L(
+              "A number showing what a bull (or cow) passes on to its offspring. Each parent passes half its genes, so a bull with a BV of +100 litres has daughters producing on average about 50 litres more milk per lactation than the population average; a BV of −200 means about 100 litres less."
+            ),
+          },
+          {
+            type: "stat-grid",
+            items: [
+              {
+                label: L("Progeny Testing (PT)"),
+                text: L(
+                  "Young bulls are judged by their daughters' actual milk records. Each test bull's semen is used for at least 2,000 test AIs; daughters are milk-recorded monthly; with 80–100 daughters' records per bull, breeding values are calculated, and only the top 1–10% of bulls are used to breed the next generation."
+                ),
+              },
+              {
+                label: L("Pedigree Selection (PS)"),
+                text: L(
+                  "Used where AI is limited: bulls are selected on the records of their parents and grandparents. About 20–40 'multiplier villages' with the best animals of a breed are milk-recorded to produce the next bulls."
+                ),
+              },
+              {
+                label: L("Genomic Selection (GS)"),
+                text: L(
+                  "An animal's DNA is read using thousands of genetic markers (SNPs) to predict its genetic worth at a very young age — even as a calf. NDDB has developed the INDUSCHIP for indigenous cattle and their crosses, and the BUFFCHIP for buffaloes."
+                ),
+              },
+            ],
+          },
+          {
+            type: "text",
+            heading: L("What Genomics Means for a Farmer"),
+            html: L(
+              "A farmer can get an animal genotyped on payment through NDDB CALF Ltd by sending 4–6 ml of the animal's blood in an EDTA (violet-cap) tube, kept cool, with the required forms. The farmer then receives the animal's <b>Genomic Breeding Value</b> and breed-purity status — currently for Sahiwal, Gir, HF crossbred and Jersey crossbred cattle, and Murrah and Mehsana buffaloes. This lets a farmer pick the best young animals early and avoid spending years raising poor producers."
+            ),
+          },
+          {
+            type: "callout",
+            style: "tip",
+            heading: L("Questions a Farmer Has a Right to Ask the AI Technician"),
+            text: L(
+              "Each state has a notified breeding policy saying which breeds and exotic blood levels suit its conditions. Semen must come from A- or B-grade stations and be carried in a liquid nitrogen container (cryocan) at −196°C — never any other container. Farmers should ask the breed, exotic blood level, pedigree and breeding value of the bull before AI, and the technician should carry a sire directory listing every bull's pedigree."
+            ),
+          },
+          {
+            type: "callout",
+            style: "info",
+            heading: L("Why Milk Recording Helps the Farmer Directly"),
+            text: L(
+              "Recording each lactation shows how one animal compares with others in the herd and village. That helps the farmer decide whether to keep or cull a cow, or to use her as an elite mother — with sexed semen, or as an embryo donor."
+            ),
+          },
+        ],
+        check: [
+          {
+            type: "mcq",
+            q: L("A bull has a breeding value of +100 litres. On average, how much more milk would his daughters give than the population average?"),
+            options: [L("About 100 litres"), L("About 200 litres"), L("No difference"), L("About 50 litres")],
+            answer: 3,
+            explain: L("Each parent passes on half its genes, so a +100 BV bull's daughters produce about 100 ÷ 2 = 50 litres more on average."),
+          },
+          {
+            type: "truefalse",
+            q: L("Frozen semen should always be carried in a liquid nitrogen container (cryocan) at −196°C."),
+            answer: true,
+            explain: L("Correct — semen doses must be carried in a cryocan at −196°C, not in any other container."),
+          },
+        ],
+      },
+    ],
+    finalQuiz: {
+      passScore: 70,
+      questions: [
+        {
+          topicId: "t-m12-sexed-semen",
+          type: "mcq",
+          q: L("How can a farmer recognise a sexed semen straw?"),
+          options: [
+            L("A bright red glass bottle"),
+            L("It looks exactly like ordinary milk"),
+            L("There is no way to tell"),
+            L("A white French mini straw with a coloured cotton plug"),
+          ],
+          answer: 3,
+          explain: L("Sexed semen doses are packed in white French mini straws with a coloured cotton plug."),
+        },
+        {
+          topicId: "t-m12-sexed-semen",
+          type: "truefalse",
+          q: L("Because female calves cause fewer difficult births, sexed semen is especially useful for first-time heifers."),
+          answer: true,
+          explain: L("Yes — fewer difficult births (dystocia) is one of the benefits, particularly for maiden heifers."),
+        },
+        {
+          topicId: "t-m12-ivf-et",
+          type: "mcq",
+          q: L("In IVF-ET, which animal carries the calf through pregnancy?"),
+          options: [L("The elite donor cow only"), L("An ordinary recipient (surrogate) cow"), L("A bull"), L("No animal — it grows in the laboratory until birth")],
+          answer: 1,
+          explain: L("Embryos from the elite donor are transferred into ordinary recipient cows, which carry them to full term."),
+        },
+        {
+          topicId: "t-m12-better-bulls",
+          type: "mcq",
+          q: L("In Progeny Testing, a bull is judged mainly by:"),
+          options: [L("His colour"), L("His daughters' actual milk performance"), L("His weight at birth"), L("His price")],
+          answer: 1,
+          explain: L("Progeny testing evaluates bulls on the basis of their daughters' performance — the most reliable approach to genetic improvement."),
+        },
+        {
+          topicId: "t-m12-better-bulls",
+          type: "truefalse",
+          q: L("Genomic selection can estimate an animal's genetic worth while it is still very young."),
+          answer: true,
+          explain: L("Correct — using DNA markers, genomic selection predicts genetic merit early, shortening the generation interval."),
+        },
+        {
+          topicId: "t-m12-better-bulls",
+          type: "mcq",
+          q: L("What does a state breeding policy tell farmers?"),
+          options: [
+            L("What price to sell milk at"),
+            L("Which vaccine to buy"),
+            L("How to build a shed"),
+            L("Which breeds and exotic blood levels best suit that state's conditions"),
+          ],
+          answer: 3,
+          explain: L("Each state's breeding policy guides which breeds or exotic blood levels suit its agro-climate, avoiding indiscriminate breeding and conserving indigenous breeds."),
         },
       ],
     },
@@ -14526,13 +16166,7 @@ export const MODULES = [
             type: "callout",
             style: "info",
             heading: L("A Programme (and an App) Built to Fix This", "దీన్ని సరిచేయడానికి ఒక కార్యక్రమం (ఒక యాప్)", "இதைச் சரிசெய்ய ஒரு திட்டம் (ஒரு செயலி)", "ಇದನ್ನು ಸರಿಪಡಿಸಲು ಒಂದು ಕಾರ್ಯಕ್ರಮ (ಮತ್ತು ಒಂದು ಆ್ಯಪ್)", "इसे ठीक करने के लिए एक कार्यक्रम (और एक ऐप)"),
-            text: L(
-              "The Ration Balancing Programme (RBP) uses a user-friendly software developed by NDDB to work out a properly balanced, least-cost ration using whatever feed is locally available. It can be used with help from a trained local resource person, or directly by farmers using the 'Pashuposhan' app, available on the Google Play Store.",
-              "రేషన్ బ్యాలెన్సింగ్ ప్రోగ్రామ్ (RBP) NDDB అభివృద్ధి చేసిన సులభమైన సాఫ్ట్‌వేర్‌ను ఉపయోగించి, స్థానికంగా దొరికే మేతతోనే సరిగ్గా సమతుల్యమైన, అతి తక్కువ ఖర్చు రేషన్‌ను లెక్కిస్తుంది. శిక్షణ పొందిన స్థానిక వనరుల వ్యక్తి సహాయంతో దీన్ని వాడవచ్చు, లేదా రైతులు నేరుగా గూగుల్ ప్లే స్టోర్‌లో ఉన్న 'పశుపోషణ్' యాప్ ద్వారా వాడవచ్చు.",
-              "ரேஷன் பேலன்சிங் திட்டம் (RBP), NDDB உருவாக்கிய எளிதான மென்பொருளைப் பயன்படுத்தி, உள்ளூரில் கிடைக்கும் தீவனத்தைக் கொண்டே சரியாக சமச்சீர் செய்யப்பட்ட, மிகக் குறைந்த செலவிலான ரேஷனைக் கணக்கிடுகிறது. பயிற்சி பெற்ற உள்ளூர் வள நபரின் உதவியுடன் இதைப் பயன்படுத்தலாம், அல்லது விவசாயிகள் நேரடியாக கூகுள் பிளே ஸ்டோரில் உள்ள 'பசுபோஷண்' செயலி மூலம் பயன்படுத்தலாம்.",
-              "ರೇಷನ್ ಬ್ಯಾಲೆನ್ಸಿಂಗ್ ಪ್ರೋಗ್ರಾಂ (RBP) NDDB ಅಭಿವೃದ್ಧಿಪಡಿಸಿದ ಸುಲಭ ಸಾಫ್ಟ್‌ವೇರ್ ಬಳಸಿ, ಸ್ಥಳೀಯವಾಗಿ ಸಿಗುವ ಮೇವಿನಿಂದಲೇ ಸರಿಯಾಗಿ ಸಮತೋಲಿತವಾದ, ಅತಿ ಕಡಿಮೆ ವೆಚ್ಚದ ರೇಷನ್ ಲೆಕ್ಕ ಹಾಕುತ್ತದೆ. ತರಬೇತಿ ಪಡೆದ ಸ್ಥಳೀಯ ಸಂಪನ್ಮೂಲ ವ್ಯಕ್ತಿಯ ಸಹಾಯದಿಂದ ಇದನ್ನು ಬಳಸಬಹುದು, ಅಥವಾ ರೈತರು ನೇರವಾಗಿ ಗೂಗಲ್ ಪ್ಲೇ ಸ್ಟೋರ್‌ನಲ್ಲಿರುವ 'ಪಶುಪೋಷಣ್' ಆ್ಯಪ್ ಮೂಲಕ ಬಳಸಬಹುದು.",
-              "राशन संतुलन कार्यक्रम (RBP) NDDB का बनाया आसान सॉफ़्टवेयर इस्तेमाल करके, आसपास मिलने वाले चारे-दाने से ही सही संतुलित और सबसे कम लागत वाला राशन निकालता है। इसे प्रशिक्षित स्थानीय व्यक्ति की मदद से इस्तेमाल किया जा सकता है, या किसान सीधे गूगल प्ले स्टोर पर उपलब्ध 'पशुपोषण' ऐप से भी चला सकते हैं।"
-            ),
+            text: L("The Ration Balancing Programme (RBP) uses user-friendly software developed by NDDB to work out a properly balanced, least-cost ration using whatever feed is locally available. It can be used with help from a trained local resource person, or directly by farmers through NDDB's '1962' app on the Google Play Store. When buying cattle feed, always choose BIS-certified (BIS-marked) feed."),
           },
           {
             type: "stat-grid",
@@ -14625,7 +16259,7 @@ export const MODULES = [
             L("Increase the size of the herd", "మంద పరిమాణాన్ని పెంచడం", "மந்தையின் எண்ணிக்கையை அதிகரிப்பது", "ಹಿಂಡಿನ ಗಾತ್ರವನ್ನು ಹೆಚ್ಚಿಸುವುದು", "पशुओं की संख्या बढ़ाना"),
           ],
           answer: 1,
-          explain: L("RBP uses NDDB's software (or the Pashuposhan app) to balance a ration using locally available feed, at least cost.", "RBP NDDB సాఫ్ట్‌వేర్‌ను (లేదా పశుపోషణ్ యాప్‌ను) ఉపయోగించి, స్థానికంగా దొరికే మేతతో, అతి తక్కువ ఖర్చుతో రేషన్‌ను సమతుల్యం చేస్తుంది.", "RBP, NDDB-யின் மென்பொருளை (அல்லது பசுபோஷண் செயலியை) பயன்படுத்தி, உள்ளூரில் கிடைக்கும் தீவனத்தைக் கொண்டு, மிகக் குறைந்த செலவில் ரேஷனை சமச்சீர் செய்கிறது.", "RBP, NDDB ಸಾಫ್ಟ್‌ವೇರ್ (ಅಥವಾ ಪಶುಪೋಷಣ್ ಆ್ಯಪ್) ಬಳಸಿ, ಸ್ಥಳೀಯವಾಗಿ ಸಿಗುವ ಮೇವಿನಿಂದ ಅತಿ ಕಡಿಮೆ ವೆಚ್ಚದಲ್ಲಿ ರೇಷನ್ ಸಮತೋಲನ ಮಾಡುತ್ತದೆ.", "RBP, NDDB के सॉफ़्टवेयर (या 'पशुपोषण' ऐप) से आसपास मिलने वाले चारे-दाने के साथ सबसे कम लागत में राशन को संतुलित करता है।"),
+          explain: L("RBP uses NDDB's software (also in the '1962' app) to balance a ration using locally available feed, at least cost."),
         },
         {
           topicId: "t-m14-feed-types",
@@ -15091,10 +16725,10 @@ export const MODULES = [
             heading: L("Example Daily Ration — Cow Giving 10 Litres of Milk", "రోజువారీ రేషన్ ఉదాహరణ — 10 లీటర్ల పాలు ఇచ్చే ఆవు", "தினசரி ரேஷன் உதாரணம் — 10 லிட்டர் பால் தரும் பசு", "ದಿನದ ರೇಷನ್ ಉದಾಹರಣೆ — 10 ಲೀಟರ್ ಹಾಲು ಕೊಡುವ ಹಸು", "रोज़ के राशन का उदाहरण — 10 लीटर दूध देने वाली गाय"),
             rows: [
               { label: L("Dry fodder", "ఎండుమేత", "உலர் தீவனம்", "ಒಣ ಮೇವು", "सूखा चारा"), amount: "7 kg" },
-              { label: L("Green fodder", "పచ్చి మేత", "பச்சை தீவனம்", "ಹಸಿರು ಮೇವು", "हरा चारा"), amount: "4 kg" },
+              { label: L("Green fodder", "పచ్చి మేత", "பச்சை தீவனம்", "ಹಸಿರು ಮೇವು", "हरा चारा"), amount: "5 kg" },
               { label: L("Compound cattle feed", "కాంపౌండ్ పశుదాణా", "கலப்புத் தீவனம்", "ಕಾಂಪೌಂಡ್ ಜಾನುವಾರು ಆಹಾರ", "कंपाउंड पशु आहार"), amount: "6 kg" },
             ],
-            total: { label: L("Total daily feed", "రోజుకు మొత్తం మేత", "ஒரு நாளைக்கு மொத்த தீவனம்", "ದಿನಕ್ಕೆ ಒಟ್ಟು ಮೇವು", "रोज़ का कुल आहार"), amount: "17 kg, plus 150 g mineral mixture" },
+            total: { label: L("Total daily feed", "రోజుకు మొత్తం మేత", "ஒரு நாளைக்கு மொத்த தீவனம்", "ದಿನಕ್ಕೆ ಒಟ್ಟು ಮೇವು", "रोज़ का कुल आहार"), amount: "18 kg, plus 150 g mineral mixture" },
           },
           {
             type: "callout",
@@ -15186,6 +16820,495 @@ export const MODULES = [
           ],
           answer: 1,
           explain: L("In summer, crossbred cows and buffaloes should get a bath twice daily and at least 100 litres of water a day, to help manage heat.", "వేసవిలో సంకరజాతి ఆవులు, గేదెలకు వేడిని తట్టుకోవడానికి రోజుకు రెండుసార్లు స్నానం, రోజుకు కనీసం 100 లీటర్ల నీళ్లు ఇవ్వాలి.", "கோடையில் கலப்பினப் பசுக்களையும் எருமைகளையும் வெப்பத்தைத் தாங்க உதவ, தினமும் இரண்டு முறை குளிப்பாட்டி, ஒரு நாளைக்கு குறைந்தது 100 லிட்டர் தண்ணீர் கொடுக்க வேண்டும்.", "ಬೇಸಿಗೆಯಲ್ಲಿ ಮಿಶ್ರತಳಿ ಹಸುಗಳು ಮತ್ತು ಎಮ್ಮೆಗಳಿಗೆ ಶಾಖ ತಡೆಯಲು ಸಹಾಯ ಮಾಡಲು ದಿನಕ್ಕೆ ಎರಡು ಬಾರಿ ಸ್ನಾನ ಮಾಡಿಸಿ, ದಿನಕ್ಕೆ ಕನಿಷ್ಠ 100 ಲೀಟರ್ ನೀರು ಕೊಡಬೇಕು.", "गर्मियों में संकर नस्ल की गायों और भैंसों को गर्मी सहने में मदद के लिए रोज़ दो बार नहलाना चाहिए और रोज़ कम से कम 100 लीटर पानी देना चाहिए।"),
+        },
+      ],
+    },
+  },
+  // ==================================================================
+  // LESSON 4 — Feeding Through the Lactation Cycle
+  // Source: NDDB Handbook (2026 ed.) Section VI-L and Nutrition FAQs;
+  //         NDDB Farm Management Guideline (2026) "Feeding management"
+  // ==================================================================
+  {
+    id: "m14-l4",
+    title: L("Feeding Through the Lactation Cycle"),
+    estMinutes: 10,
+    hook: [
+      {
+        type: "hero",
+        heading: L("A Cow's Needs Change Every Few Months — Her Ration Should Too"),
+        text: L(
+          "A cow that calved two weeks ago, one that calved six months ago, and one that is about to go dry are almost three different animals when it comes to feeding. Feeding them all the same wastes money on some and starves others. This lesson walks through the cycle — early, mid and late lactation, the dry period, and growing heifers — and what changes at each step."
+        ),
+      },
+    ],
+    topics: [
+      {
+        id: "t-m14-lactation-stages",
+        title: L("Early, Mid and Late Lactation"),
+        teach: [
+          {
+            type: "glossary",
+            term: L("Lactation"),
+            meaning: L(
+              "The period during which an animal gives milk after calving — usually counted as about 305 days. It is divided into early (first 100 days), mid (100–200 days) and late (200–305 days) lactation."
+            ),
+          },
+          {
+            type: "glossary",
+            term: L("Negative Energy Balance"),
+            meaning: L(
+              "When a cow uses more energy to make milk than she gets from her feed, so she 'eats her own body' — burning body fat and losing weight. It is common in early lactation and can lead to metabolic diseases and delayed return to heat."
+            ),
+          },
+          {
+            type: "stat-grid",
+            items: [
+              {
+                label: L("Early lactation (0–100 days)"),
+                text: L(
+                  "Milk rises fast to its peak. Roughage to concentrate about 50:50, with more grain and protein in the concentrate. Bypass fat 100–150 g a day, mineral mixture 100–150 g (up to 200 g in high yielders), and a buffer such as sodium bicarbonate to prevent acidosis."
+                ),
+              },
+              {
+                label: L("Mid lactation (100–200 days)"),
+                text: L(
+                  "Milk levels off and the cow rebuilds the body weight she lost. Roughage to concentrate about 60:40. Some grain can be replaced with good bran; bypass fat and buffers can usually be stopped. Mineral mixture about 50–100 g as per yield."
+                ),
+              },
+              {
+                label: L("Late lactation (200–305 days)"),
+                text: L(
+                  "Milk falls steadily. Roughage up to 70%, concentrate down to 30%, using cheaper local ingredients. The aim is to avoid over-feeding — a cow that gets too fat now will have trouble at her next calving."
+                ),
+              },
+            ],
+          },
+          {
+            type: "example",
+            heading: L("Challenge Feeding: Asking the Cow 'Can You Give More?'"),
+            text: L(
+              "In early lactation, the handbook advises offering about 0.5 kg of cattle feed above what the cow's current milk yield needs. If her milk goes up over the next days, she had more potential — keep the extra and try again. If her milk stays the same, she has reached her limit and the extra can be removed. This is called challenge feeding."
+            ),
+          },
+          {
+            type: "callout",
+            style: "warning",
+            heading: L("Warning Signs in Early Lactation"),
+            text: L(
+              "A fresh cow should not lose more than about 0.5 kg of body weight a day. Watch for a cow that is losing condition fast, eating poorly, has loose dung, or stops chewing cud — these can point to negative energy balance, ketosis or acidosis. Report such animals early."
+            ),
+          },
+        ],
+        check: [
+          {
+            type: "mcq",
+            q: L("In early lactation, roughly what roughage-to-concentrate ratio does the handbook recommend?"),
+            options: [L("90:10"), L("50:50"), L("10:90"), L("100:0 — roughage only")],
+            answer: 1,
+            explain: L("Early lactation needs a dense ration: about 50:50 roughage to concentrate. It moves to 60:40 in mid lactation and about 70:30 in late lactation."),
+          },
+          {
+            type: "truefalse",
+            q: L("Challenge feeding means offering about 0.5 kg extra cattle feed in early lactation to see if the cow's milk goes up."),
+            answer: true,
+            explain: L("Correct — if milk rises, the cow had more potential; if not, the extra feed can be withdrawn."),
+          },
+        ],
+      },
+      {
+        id: "t-m14-dry-transition",
+        title: L("The Dry Period and the Weeks Around Calving"),
+        teach: [
+          {
+            type: "text",
+            heading: L("Preparing for the Next Lactation Starts Before Calving"),
+            html: L(
+              "A milking animal should be <b>dried off within 15 days after the 7th month of pregnancy</b>, giving her a rest before the next calving. In the <b>last 60 days</b> of pregnancy (the 'far-off dry' period) she should get <b>2.5–3 kg of pregnancy feed</b> a day, on top of good fodder. Feeding at this stage decides the calf's birth weight, how well she eats after calving, and how quickly she comes back into heat."
+            ),
+          },
+          {
+            type: "glossary",
+            term: L("Transition Period"),
+            meaning: L(
+              "The six weeks from about 21 days before calving to 21 days after. It is the riskiest time in a cow's year for milk fever, ketosis, retained placenta and other problems — and feeding is the main way to prevent them."
+            ),
+          },
+          {
+            type: "callout",
+            style: "warning",
+            heading: L("No Extra Calcium in the Last Two Weeks"),
+            text: L(
+              "It sounds backwards, but extra calcium (and, as per the handbook FAQ, the usual mineral mixture) should be stopped in the last 10–15 days before calving. This forces the cow's body to switch on its own calcium-releasing system before she needs it for milk — which reduces milk fever. After calving, mineral mixture is restarted as normal."
+            ),
+          },
+          {
+            type: "stat-grid",
+            items: [
+              { label: L("At calving"), text: L("Ideal BCS 3.25–3.5") },
+              { label: L("Peak lactation (60–90 days)"), text: L("Ideal BCS 2.5–3.0 — some loss is normal") },
+              { label: L("Mid lactation"), text: L("Ideal BCS 2.75–3.25") },
+              { label: L("Late lactation"), text: L("Ideal BCS 3.0–3.5") },
+              { label: L("Dry period and close to calving"), text: L("Ideal BCS 3.25–3.5") },
+            ],
+          },
+          {
+            type: "callout",
+            style: "info",
+            heading: L("Using Body Condition Score Across the Cycle"),
+            text: L(
+              "These ideal scores (for crossbred cows, from the NDDB guideline) use the same 1–5 scale you learned in Module 1. A cow should not become too thin in early lactation or too fat at calving. Scoring at the same points every cycle tells the farmer whether the feeding plan is working."
+            ),
+          },
+        ],
+        check: [
+          {
+            type: "mcq",
+            q: L("How much pregnancy feed does the handbook suggest daily during the last 60 days of pregnancy?"),
+            options: [L("None"), L("10–12 kg"), L("100 g"), L("2.5–3 kg")],
+            answer: 3,
+            explain: L("Pregnant animals should get 2.5–3 kg of pregnancy feed per day during the last 60 days."),
+          },
+          {
+            type: "truefalse",
+            q: L("Extra calcium should be given in large amounts during the last two weeks before calving to prevent milk fever."),
+            answer: false,
+            explain: L("No — calcium supplementation should be avoided in the last two weeks. It helps the cow's own calcium system switch on, reducing milk fever."),
+          },
+        ],
+      },
+      {
+        id: "t-m14-heifers-groups",
+        title: L("Growing Heifers, and Feeding Animals in Groups"),
+        teach: [
+          {
+            type: "stat-grid",
+            items: [
+              { label: L("Concentrate"), text: L("1.5–2 kg a day of a concentrate with about 20% crude protein, plus good-quality dry fodder or grass.") },
+              { label: L("Target growth"), text: L("About 500–700 g of weight gain per day, so she reaches breeding weight on time.") },
+              { label: L("Vitamins and minerals"), text: L("Vitamins A, D, E and minerals such as calcium, phosphorus, copper, zinc, manganese and selenium.") },
+              { label: L("Not too fat"), text: L("Over-fat heifers have poorer milk production and fertility later in life.") },
+            ],
+          },
+          {
+            type: "callout",
+            style: "info",
+            heading: L("Calves Are Covered Separately"),
+            text: L(
+              "Colostrum, milk feeding and calf starter for young calves are covered in Module 3 ('The First Weeks: Raising a Healthy Calf')."
+            ),
+          },
+          {
+            type: "text",
+            heading: L("Feed Animals in Groups, Not All the Same"),
+            html: L(
+              "Feed makes up about <b>60–70% of the cost of producing milk</b>, so it pays to feed each animal what it actually needs. The NDDB guideline suggests grouping animals: <b>advanced pregnant</b>, <b>milking</b> (ideally split into early, mid and late), <b>dry</b>, <b>calves</b> and <b>heifers</b>. A base ration is made for each milking group; a cow giving more than her group's average gets about <b>400 g of extra concentrate for every extra litre</b>, given at milking."
+            ),
+          },
+          {
+            type: "stat-grid",
+            items: [
+              { label: L("Fixed times"), text: L("Feed at the same times every day, preferably two or three times.") },
+              { label: L("No sudden changes"), text: L("Change the ration gradually, based on milk yield, stage and body condition.") },
+              { label: L("Water"), text: L("Clean water always — a milking cow may drink 50–100 litres a day depending on season and yield.") },
+              { label: L("No mouldy feed"), text: L("Mouldy or spoiled feed can carry toxins such as aflatoxin. Store feed cool, dry and rodent-proof, and clean troughs regularly.") },
+            ],
+          },
+        ],
+        check: [
+          {
+            type: "mcq",
+            q: L("What daily weight gain should a growing heifer aim for?"),
+            options: [L("About 5 kg"), L("About 50 g"), L("About 500–700 g"), L("Weight gain doesn't matter")],
+            answer: 2,
+            explain: L("Heifers should gain about 500–700 g a day to reach breeding weight and maturity on time."),
+          },
+          {
+            type: "truefalse",
+            q: L("Mouldy or spoiled feed is safe as long as the animal eats it."),
+            answer: false,
+            explain: L("No — mouldy feed may contain toxins such as aflatoxin that harm animal health (and can pass into milk)."),
+          },
+        ],
+      },
+    ],
+    finalQuiz: {
+      passScore: 70,
+      questions: [
+        {
+          topicId: "t-m14-lactation-stages",
+          type: "mcq",
+          q: L("In which stage of lactation is bypass fat (100–150 g a day) most useful?"),
+          options: [L("Late lactation"), L("Early lactation (first 100 days)"), L("The dry period only"), L("For calves")],
+          answer: 1,
+          explain: L("Bypass fat raises the energy in the ration to fight negative energy balance in early lactation; it can usually be stopped in mid lactation."),
+        },
+        {
+          topicId: "t-m14-lactation-stages",
+          type: "mcq",
+          q: L("In late lactation, what is the main feeding goal?"),
+          options: [
+            L("Give as much concentrate as possible"),
+            L("Stop all fodder"),
+            L("Feed economically and avoid the cow getting too fat before calving"),
+            L("Add bypass fat and buffers"),
+          ],
+          answer: 2,
+          explain: L("Late lactation rations use more roughage (up to 70%) and cheaper ingredients, and avoid over-conditioning."),
+        },
+        {
+          topicId: "t-m14-lactation-stages",
+          type: "truefalse",
+          q: L("A fresh cow losing a lot of weight quickly, eating poorly and not chewing cud should be reported early."),
+          answer: true,
+          explain: L("Yes — these can be signs of negative energy balance, ketosis or acidosis."),
+        },
+        {
+          topicId: "t-m14-dry-transition",
+          type: "mcq",
+          q: L("The 'transition period' covers roughly:"),
+          options: [L("The first year of a calf's life"), L("Only the day of calving"), L("21 days before to 21 days after calving"), L("Mid lactation")],
+          answer: 2,
+          explain: L("The transition period runs from about 3 weeks before to 3 weeks after calving — the riskiest time for metabolic diseases."),
+        },
+        {
+          topicId: "t-m14-dry-transition",
+          type: "mcq",
+          q: L("What is the ideal Body Condition Score for a crossbred cow at calving?"),
+          options: [L("1.0–1.5"), L("4.5–5.0"), L("BCS doesn't matter at calving"), L("3.25–3.5")],
+          answer: 3,
+          explain: L("About 3.25–3.5 at calving — neither too thin nor too fat."),
+        },
+        {
+          topicId: "t-m14-heifers-groups",
+          type: "mcq",
+          q: L("A cow gives 4 litres more than her group's average. Roughly how much extra concentrate should she get?"),
+          options: [L("About 1.6 kg (400 g × 4)"), L("None"), L("About 10 kg"), L("About 100 g")],
+          answer: 0,
+          explain: L("About 400 g of extra concentrate per extra litre: 4 × 400 g = 1.6 kg, given at milking time."),
+        },
+      ],
+    },
+  },
+  // ==================================================================
+  // LESSON 5 — Feed Supplements and Total Mixed Ration in Practice
+  // Source: NDDB Handbook (2026 ed.) Section VI-C, E–H, M–O and Nutrition FAQs
+  // ==================================================================
+  {
+    id: "m14-l5",
+    title: L("Feed Supplements and Total Mixed Ration in Practice"),
+    estMinutes: 10,
+    hook: [
+      {
+        type: "hero",
+        heading: L("Small Additions, Big Differences"),
+        text: L(
+          "Farmers are offered many feed supplements — bypass fat, mineral blocks, boluses, heat-stress powders, packaged TMR. Some are very useful at the right time; used at the wrong time they just cost money. This lesson explains the main NDDB-recommended supplements, when each one helps, and how a Total Mixed Ration is put together in practice."
+        ),
+      },
+    ],
+    topics: [
+      {
+        id: "t-m14-supplements",
+        title: L("The Main Feed Supplements and When They Help"),
+        teach: [
+          {
+            type: "glossary",
+            term: L("Bypass Fat"),
+            meaning: L(
+              "A specially protected fat that passes the rumen without being broken down, giving the cow concentrated energy. It is fed mainly in early lactation (about 100–150 g a day; the handbook gives up to 200 g) to fight negative energy balance, raise peak milk and help the cow return to heat."
+            ),
+          },
+          {
+            type: "stat-grid",
+            items: [
+              {
+                label: L("GarbhaMin bolus"),
+                text: L("For anoestrus (no heat) caused by poor nutrition. Contains chelated trace minerals and coated vitamins. One bolus per animal per day for 28 days."),
+              },
+              {
+                label: L("Samvriddhi"),
+                text: L("For low fat and SNF in milk. 250 g per animal per day improved milk yield, fat and SNF by up to 8%, 10% and 6% respectively."),
+              },
+              {
+                label: L("Pashu Sheetvardhak"),
+                text: L("For heat stress. 350 g per animal per day improved milk yield by about 11% and fat by about 7% in cows and buffaloes."),
+              },
+              {
+                label: L("Urea Molasses Mineral Block (UMMB)"),
+                text: L("A lick for animals on dry fodder. One 3 kg block lasts one animal about 5–7 days. If an animal won't lick it, sprinkle flour, bran or cattle feed on the block for a few days."),
+              },
+            ],
+          },
+          {
+            type: "callout",
+            style: "warning",
+            heading: L("Never UMMB and Urea-Treated Straw Together"),
+            text: L(
+              "Both contain urea. Feeding a UMMB lick and urea-treated straw at the same time can give the animal too much urea. Use one or the other."
+            ),
+          },
+          {
+            type: "stat-grid",
+            items: [
+              {
+                label: L("Mineral mixture amount"),
+                text: L("About 50 g a day for maintenance, dry, pregnant, and milking animals giving up to 5 litres; add about 10 g for each extra litre above 5. If the cattle feed is balanced and already contains minerals, the mineral mixture can be cut by half."),
+              },
+              {
+                label: L("Buffer (sodium bicarbonate)"),
+                text: L("Needed when concentrate is 60% or more of the feed, or more than 6–7 kg a day: add about 50–75 g a day to prevent acidosis."),
+              },
+              {
+                label: L("DDGS"),
+                text: L("Distillers' dried grains can be used as a protein source — about 1–2 kg in the concentrate — if properly dried and not stored too long."),
+              },
+              {
+                label: L("Buy BIS-certified feed"),
+                text: L("Always purchase cattle feed that is BIS certified / carries the BIS mark, so its quality is assured."),
+              },
+            ],
+          },
+          {
+            type: "callout",
+            style: "tip",
+            heading: L("Signs a Mineral Mixture Is Missing"),
+            text: L(
+              "Mineral shortages can show up as a change in hair colour (copper), a swelling in the throat (iodine — enlarged thyroid), watery eyes (zinc), poor growth, delayed heat and repeated failure to conceive. Area-specific mineral mixture made by dairy cooperatives is designed for the shortages common in that region."
+            ),
+          },
+        ],
+        check: [
+          {
+            type: "mcq",
+            q: L("Which supplement is designed to help animals that are not coming into heat because of poor nutrition?"),
+            options: [L("Sodium bicarbonate"), L("DDGS"), L("Pashu Sheetvardhak"), L("GarbhaMin bolus")],
+            answer: 3,
+            explain: L("GarbhaMin (one bolus a day for 28 days) supplies chelated trace minerals and vitamins to tackle nutritional anoestrus."),
+          },
+          {
+            type: "truefalse",
+            q: L("A UMMB lick and urea-treated straw can safely be fed together."),
+            answer: false,
+            explain: L("No — both contain urea, so they should not be fed to the same animal at the same time."),
+          },
+        ],
+      },
+      {
+        id: "t-m14-tmr-practice",
+        title: L("Total Mixed Ration: How Much and What Goes In"),
+        teach: [
+          {
+            type: "stat-grid",
+            items: [
+              { label: L("Every bite balanced"), text: L("The animal gets the same balanced mix in every mouthful.") },
+              { label: L("More intake, less waste"), text: L("Dry matter intake goes up, and the animal can't pick out only what it likes.") },
+              { label: L("Better milk and fat"), text: L("A steadier rumen gives better milk yield and fat percentage.") },
+              { label: L("Less labour"), text: L("One mix instead of many separate feeds, and unusual local feeds can be included.") },
+            ],
+          },
+          {
+            type: "text",
+            heading: L("How Much TMR?"),
+            html: L(
+              "It depends on body weight and milk yield. As a guide from the handbook: a cow giving <b>12–15 litres</b> a day needs about <b>20–22 kg of TMR</b>; a high yielder giving <b>20–22 litres</b> needs about <b>28–30 kg</b>. Many milk unions now sell <b>packaged TMR</b> in 25–35 kg bags, usually fed at <b>15–20 kg per animal per day</b> depending on yield. A TMR can be worked out with NDDB's ration balancing in the '1962' app."
+            ),
+          },
+          {
+            type: "ledger",
+            heading: L("Example TMR: Buffalo Giving 10 Litres a Day (Handbook Example 2)"),
+            rows: [
+              { label: L("Dry fodder"), amount: "7 kg" },
+              { label: L("Green fodder"), amount: "15 kg" },
+              { label: L("Cattle feed"), amount: "7 kg" },
+              { label: L("Mineral mixture"), amount: "175 g" },
+            ],
+            total: { label: L("Total, mixed and fed in 3–4 parts a day"), amount: "about 29 kg" },
+          },
+          {
+            type: "callout",
+            style: "info",
+            heading: L("Other Practical Answers From the Handbook"),
+            text: L(
+              "There is no need to soak cattle feed in water — mix it with green and dry fodder instead. Green sugarcane tops can be fed if chaffed and mixed with dry fodder, with enough mineral mixture. Home-grown produce and tree leaves can be included when balancing a ration."
+            ),
+          },
+        ],
+        check: [
+          {
+            type: "mcq",
+            q: L("About how much TMR does a cow producing 12–15 litres of milk a day need?"),
+            options: [L("About 2 kg"), L("About 60 kg"), L("About 20–22 kg"), L("About 200 g")],
+            answer: 2,
+            explain: L("Roughly 20–22 kg of TMR a day; a 20–22 litre cow needs about 28–30 kg."),
+          },
+          {
+            type: "truefalse",
+            q: L("Cattle feed must always be soaked in water before feeding."),
+            answer: false,
+            explain: L("No — soaking isn't needed. It's better to mix cattle feed with green and dry fodder."),
+          },
+        ],
+      },
+    ],
+    finalQuiz: {
+      passScore: 70,
+      questions: [
+        {
+          topicId: "t-m14-supplements",
+          type: "mcq",
+          q: L("A farmer complains of low fat and SNF in milk. Which NDDB supplement is designed for this?"),
+          options: [L("Samvriddhi"), L("GarbhaMin"), L("UMMB"), L("Calf starter")],
+          answer: 0,
+          explain: L("Samvriddhi at 250 g a day improved milk yield, fat and SNF by up to 8, 10 and 6 per cent."),
+        },
+        {
+          topicId: "t-m14-supplements",
+          type: "mcq",
+          q: L("When should a buffer like sodium bicarbonate be added to the ration?"),
+          options: [
+            L("Always, for every animal"),
+            L("When concentrate is 60% or more of the feed, or more than 6–7 kg a day"),
+            L("Only for calves"),
+            L("Only when the animal has a fever"),
+          ],
+          answer: 1,
+          explain: L("Heavy concentrate feeding risks acidosis, so 50–75 g of buffer a day is advised in those cases."),
+        },
+        {
+          topicId: "t-m14-supplements",
+          type: "truefalse",
+          q: L("Farmers should look for the BIS mark when buying cattle feed."),
+          answer: true,
+          explain: L("Yes — the handbook advises always buying BIS-certified / marked cattle feed."),
+        },
+        {
+          topicId: "t-m14-supplements",
+          type: "mcq",
+          q: L("Roughly how long does one 3 kg UMMB block last for one animal?"),
+          options: [L("About 1 hour"), L("About 5–7 days"), L("About 6 months"), L("About 1 day")],
+          answer: 1,
+          explain: L("A 3 kg block lasts one animal about 5–7 days."),
+        },
+        {
+          topicId: "t-m14-tmr-practice",
+          type: "mcq",
+          q: L("What is one key advantage of feeding a Total Mixed Ration?"),
+          options: [
+            L("The animal needs no water"),
+            L("The animal gets a balanced mix in every bite and can't pick out only what it likes"),
+            L("No fodder is needed at all"),
+            L("It is fed only once a week"),
+          ],
+          answer: 1,
+          explain: L("TMR gives a balanced ration in every bite, raises intake, reduces selective eating and wastage, and stabilises the rumen."),
+        },
+        {
+          topicId: "t-m14-tmr-practice",
+          type: "truefalse",
+          q: L("Packaged TMR from milk unions is usually fed at about 15–20 kg per animal per day, depending on milk yield."),
+          answer: true,
+          explain: L("Correct — packaged TMR comes in 25–35 kg bags and is fed at 15–20 kg per animal per day based on yield."),
         },
       ],
     },
@@ -16346,13 +18469,7 @@ export const MODULES = [
               "ಯೂರಿಯಾ ಸಂಸ್ಕರಣೆ ಏನು ಮಾಡುತ್ತದೆ",
               "यूरिया उपचार क्या करता है"
             ),
-            html: L(
-              "<b>Urea treatment</b> is a way of improving the nutritional value of straw before feeding it. Treating straw with a urea solution raises its protein content from under 4 per cent to about 8 per cent — roughly double. Feeding urea-treated straw can also cut down how much extra cattle feed concentrate is needed, by as much as 30 per cent in some cases. In simple terms, the treatment turns a bulky, low-value straw into a noticeably better feed.",
-              "<b>యూరియా శుద్ధి</b> అనేది గడ్డిని తినిపించే ముందు దాని పోషక విలువను మెరుగుపరచే ఒక పద్ధతి. యూరియా ద్రావణంతో గడ్డిని శుద్ధి చేయడం వల్ల దాని ప్రోటీన్ శాతం 4 శాతం కంటే తక్కువ నుండి సుమారు 8 శాతానికి — దాదాపు రెట్టింపుకు పెరుగుతుంది. యూరియా శుద్ధి చేసిన గడ్డిని తినిపించడం వల్ల కొన్ని సందర్భాల్లో అదనపు దాణా అవసరం 30 శాతం వరకు తగ్గించవచ్చు. సరళంగా చెప్పాలంటే, ఈ శుద్ధి ఒక స్థూలమైన, తక్కువ విలువ గల గడ్డిని గణనీయంగా మెరుగైన దాణాగా మారుస్తుంది.",
-              "<b>யூரியா சிகிச்சை</b> என்பது வைக்கோலை ஊட்டுவதற்கு முன் அதன் ஊட்டச்சத்து மதிப்பை மேம்படுத்தும் ஒரு வழி. யூரியா கரைசலால் வைக்கோலுக்கு சிகிச்சை செய்வது அதன் புரத அளவை 4 சதவீதத்திற்குக் கீழிருந்து சுமார் 8 சதவீதமாக — கிட்டத்தட்ட இரட்டிப்பாக உயர்த்துகிறது. யூரியா சிகிச்சை செய்யப்பட்ட வைக்கோலை ஊட்டுவது சில சந்தர்ப்பங்களில் கூடுதல் கால்நடை தீவனத் தேவையை 30 சதவீதம் வரை குறைக்கவும் முடியும். எளிமையாகச் சொன்னால், இந்த சிகிச்சை பருமனான, குறைந்த மதிப்புள்ள வைக்கோலை குறிப்பிடத்தக்க அளவு சிறந்த தீவனமாக மாற்றுகிறது.",
-              "<b>ಯೂರಿಯಾ ಸಂಸ್ಕರಣೆ</b> ಎಂದರೆ ಒಣಹುಲ್ಲನ್ನು ತಿನ್ನಿಸುವ ಮೊದಲು ಅದರ ಪೋಷಕಾಂಶ ಮೌಲ್ಯವನ್ನು ಸುಧಾರಿಸುವ ಒಂದು ವಿಧಾನ. ಯೂರಿಯಾ ದ್ರಾವಣದಿಂದ ಒಣಹುಲ್ಲನ್ನು ಸಂಸ್ಕರಿಸುವುದರಿಂದ ಅದರ ಪ್ರೋಟೀನ್ ಅಂಶ 4 ಪ್ರತಿಶತಕ್ಕಿಂತ ಕಡಿಮೆಯಿಂದ ಸುಮಾರು 8 ಪ್ರತಿಶತಕ್ಕೆ — ಬಹುತೇಕ ದುಪ್ಪಟ್ಟಾಗುತ್ತದೆ. ಯೂರಿಯಾ ಸಂಸ್ಕರಿಸಿದ ಒಣಹುಲ್ಲನ್ನು ತಿನ್ನಿಸುವುದರಿಂದ ಕೆಲವು ಸಂದರ್ಭಗಳಲ್ಲಿ ಹೆಚ್ಚುವರಿ ದನದ ಆಹಾರದ ಅಗತ್ಯವನ್ನು 30 ಪ್ರತಿಶತದವರೆಗೆ ಕಡಿಮೆ ಮಾಡಬಹುದು. ಸರಳವಾಗಿ ಹೇಳುವುದಾದರೆ, ಈ ಸಂಸ್ಕರಣೆ ಬೃಹತ್, ಕಡಿಮೆ ಮೌಲ್ಯದ ಒಣಹುಲ್ಲನ್ನು ಗಮನಾರ್ಹವಾಗಿ ಉತ್ತಮ ಆಹಾರವಾಗಿ ಪರಿವರ್ತಿಸುತ್ತದೆ.",
-              "<b>यूरिया उपचार</b> भूसे को खिलाने से पहले उसके पोषण मूल्य को बेहतर बनाने का एक तरीका है। यूरिया घोल से भूसे का उपचार करने से इसकी प्रोटीन मात्रा 4 प्रतिशत से कम से बढ़कर लगभग 8 प्रतिशत — यानी करीब दोगुनी हो जाती है। यूरिया-उपचारित भूसा खिलाने से कुछ मामलों में अतिरिक्त पशु आहार की जरूरत 30 प्रतिशत तक कम हो सकती है। सरल शब्दों में, यह उपचार एक भारी, कम मूल्य वाले भूसे को काफी बेहतर चारे में बदल देता है।"
-            ),
+            html: L("<b>Urea treatment</b> is a way of improving the nutritional value of straw before feeding it. Treating straw with a urea solution raises its protein content from under 4 per cent to about 8 per cent — roughly double. Feeding urea-treated straw can also cut down how much extra cattle feed concentrate is needed, by up to about 20 per cent. In simple terms, the treatment turns a bulky, low-value straw into a noticeably better feed."),
           },
           {
             type: "glossary",
@@ -16390,13 +18507,7 @@ export const MODULES = [
               },
               {
                 label: L("Possible feed savings", "సాధ్యమయ్యే దాణా ఆదా", "சாத்தியமான தீவன சேமிப்பு", "ಸಂಭಾವ್ಯ ಆಹಾರ ಉಳಿತಾಯ", "संभावित चारा बचत"),
-                text: L(
-                  "Can reduce how much extra cattle feed concentrate is needed, by up to about 30 per cent.",
-                  "అదనపు దాణా అవసరాన్ని సుమారు 30 శాతం వరకు తగ్గించవచ్చు.",
-                  "கூடுதல் கால்நடை தீவன செறிவூட்ட தேவையை சுமார் 30 சதவீதம் வரை குறைக்க முடியும்.",
-                  "ಹೆಚ್ಚುವರಿ ದನದ ಆಹಾರ ಕಾನ್ಸಂಟ್ರೇಟ್ ಅಗತ್ಯವನ್ನು ಸುಮಾರು 30 ಪ್ರತಿಶತದವರೆಗೆ ಕಡಿಮೆ ಮಾಡಬಹುದು.",
-                  "अतिरिक्त पशु आहार सांद्र की जरूरत को करीब 30 प्रतिशत तक कम कर सकता है।"
-                ),
+                text: L("Can reduce how much extra cattle feed concentrate is needed, by up to about 20 per cent."),
               },
             ],
           },
@@ -16490,13 +18601,7 @@ export const MODULES = [
               "ಅತ್ಯಂತ ಮುಖ್ಯವಾದ ನಿಯಮ: ಯೂರಿಯಾವನ್ನು ಎಂದಿಗೂ ನೇರವಾಗಿ ತಿನ್ನಿಸಬೇಡಿ",
               "सबसे महत्वपूर्ण नियम: यूरिया कभी भी सीधे न खिलाएं"
             ),
-            text: L(
-              "Urea itself, or urea solution, must NEVER be fed directly to an animal — on its own, it is fatal. The whole point of the treatment described here is that the urea reacts with and is absorbed into the straw over several weeks of sealed storage, before the straw is ever fed. While preparing the urea solution, always keep it safely out of the reach of animals.",
-              "యూరియాను స్వయంగా, లేదా యూరియా ద్రావణాన్ని ఎప్పుడూ జంతువుకు నేరుగా తినిపించకూడదు — ఇది స్వయంగా ప్రాణాంతకం. ఇక్కడ వివరించిన శుద్ధి యొక్క మొత్తం ఉద్దేశ్యం ఏమిటంటే, గడ్డిని తినిపించడానికి ముందు, యూరియా అనేక వారాల మూసివేసిన నిల్వలో గడ్డితో చర్య జరిపి, దానిలో శోషించబడుతుంది. యూరియా ద్రావణాన్ని తయారు చేస్తున్నప్పుడు, దాన్ని ఎల్లప్పుడూ జంతువులకు అందుబాటులో లేకుండా సురక్షితంగా ఉంచండి.",
-              "யூரியாவையோ, யூரியா கரைசலையோ ஒருபோதும் விலங்குக்கு நேரடியாக ஊட்டக்கூடாது — தானாகவே இது கொல்லக்கூடியது. இங்கு விவரிக்கப்பட்ட சிகிச்சையின் முழுக் கருத்தும், வைக்கோலை ஊட்டுவதற்கு முன், பல வாரங்கள் மூடிய சேமிப்பில் யூரியா வைக்கோலுடன் வினைபுரிந்து அதில் உறிஞ்சப்படுவதுதான். யூரியா கரைசலைத் தயாரிக்கும்போது, அதை எப்போதும் விலங்குகளுக்கு எட்டாத தூரத்தில் பாதுகாப்பாக வைக்கவும்.",
-              "ಯೂರಿಯಾವನ್ನೇ, ಅಥವಾ ಯೂರಿಯಾ ದ್ರಾವಣವನ್ನು ಎಂದಿಗೂ ಪ್ರಾಣಿಗೆ ನೇರವಾಗಿ ತಿನ್ನಿಸಬಾರದು — ಇದು ತಾನಾಗಿಯೇ ಮಾರಕ. ಇಲ್ಲಿ ವಿವರಿಸಿದ ಸಂಸ್ಕರಣೆಯ ಸಂಪೂರ್ಣ ಉದ್ದೇಶವೆಂದರೆ, ಒಣಹುಲ್ಲನ್ನು ತಿನ್ನಿಸುವ ಮೊದಲು, ಯೂರಿಯಾ ಹಲವು ವಾರಗಳ ಮುಚ್ಚಿದ ಸಂಗ್ರಹಣೆಯಲ್ಲಿ ಒಣಹುಲ್ಲಿನೊಂದಿಗೆ ಪ್ರತಿಕ್ರಿಯಿಸಿ ಅದರಲ್ಲಿ ಹೀರಿಕೊಳ್ಳುತ್ತದೆ. ಯೂರಿಯಾ ದ್ರಾವಣವನ್ನು ತಯಾರಿಸುವಾಗ, ಅದನ್ನು ಯಾವಾಗಲೂ ಪ್ರಾಣಿಗಳ ಕೈಗೆಟುಕದಂತೆ ಸುರಕ್ಷಿತವಾಗಿ ಇರಿಸಿ.",
-              "यूरिया या यूरिया घोल को कभी भी सीधे पशु को नहीं खिलाना चाहिए — अपने आप में यह घातक है। यहां बताए गए उपचार का पूरा मकसद यही है कि भूसे को खिलाने से पहले, यूरिया कई हफ्तों की सीलबंद भंडारण अवधि में भूसे के साथ प्रतिक्रिया करके उसमें समा जाए। यूरिया घोल तैयार करते समय, इसे हमेशा पशुओं की पहुंच से सुरक्षित दूर रखें।"
-            ),
+            text: L("Urea itself, or urea solution, must NEVER be fed directly to an animal — on its own, it is fatal. The whole point of the treatment described here is that the urea reacts with and is absorbed into the straw over several weeks of sealed storage, before the straw is ever fed. While preparing the urea solution, always keep it safely out of the reach of animals. Do not feed urea-treated straw to calves under six months of age, and don't feed it together with a urea-molasses lick block (UMMB)."),
           },
           {
             type: "text",
@@ -16751,13 +18856,7 @@ export const MODULES = [
             "यूरिया-उपचारित भूसा खिलाने से अतिरिक्त पशु आहार की जरूरत कम हो सकती है।"
           ),
           answer: true,
-          explain: L(
-            "Yes — urea-treated straw can reduce the extra cattle feed concentrate needed, by up to about 30 per cent in some cases.",
-            "అవును — యూరియా శుద్ధి చేసిన గడ్డి కొన్ని సందర్భాల్లో అదనపు దాణా అవసరాన్ని సుమారు 30 శాతం వరకు తగ్గించవచ్చు.",
-            "ஆம் — யூரியா சிகிச்சை செய்யப்பட்ட வைக்கோல் சில சந்தர்ப்பங்களில் கூடுதல் கால்நடை தீவனத் தேவையை சுமார் 30 சதவீதம் வரை குறைக்கக்கூடும்.",
-            "ಹೌದು — ಯೂರಿಯಾ ಸಂಸ್ಕರಿಸಿದ ಒಣಹುಲ್ಲು ಕೆಲವು ಸಂದರ್ಭಗಳಲ್ಲಿ ಹೆಚ್ಚುವರಿ ದನದ ಆಹಾರದ ಅಗತ್ಯವನ್ನು ಸುಮಾರು 30 ಪ್ರತಿಶತದವರೆಗೆ ಕಡಿಮೆ ಮಾಡಬಹುದು.",
-            "हाँ — यूरिया-उपचारित भूसा कुछ मामलों में अतिरिक्त पशु आहार की जरूरत को करीब 30 प्रतिशत तक कम कर सकता है।"
-          ),
+          explain: L("Yes — urea-treated straw can reduce the extra cattle feed concentrate needed, by up to about 20 per cent."),
         },
         {
           topicId: "t-m15-straw-safety",
@@ -16807,6 +18906,216 @@ export const MODULES = [
             "ತೆರೆದ ನಂತರ, ಉಳಿದ ಅಮೋನಿಯಾ ಅನಿಲ ಹೊರಹೋಗಲು, ಪ್ರಾಣಿಗಳಿಗೆ ತಿನ್ನಿಸುವ ಮೊದಲು ಸಂಸ್ಕರಿಸಿದ ಒಣಹುಲ್ಲನ್ನು ಮೊದಲು ಗಾಳಿಗೆ ಆರಿಸಬೇಕು.",
             "खोलने के बाद, बची हुई अमोनिया गैस निकलने के लिए, पशुओं को खिलाने से पहले उपचारित भूसे को पहले हवा में सुखाना चाहिए।"
           ),
+        },
+      ],
+    },
+  },
+  // ==================================================================
+  // LESSON 4 — Alternate Fodder, Better Silage and Straw Blocks
+  // Source: NDDB Handbook (2026 ed.) Section VII-B to G and Nutrition FAQs;
+  //         NDDB Farm Management Guideline (2026) "Forage management"
+  // ==================================================================
+  {
+    id: "m15-l4",
+    title: L("Alternate Fodder, Better Silage and Straw Blocks"),
+    estMinutes: 10,
+    hook: [
+      {
+        type: "hero",
+        heading: L("When the Usual Green Fodder Runs Out"),
+        text: L(
+          "Every farm faces months when green fodder is short. Some plants keep producing when others dry up, good silage can carry a farm for months, and even plain straw can be turned into a richer, easier-to-store feed. This lesson covers these practical options from the 2026 NDDB handbook."
+        ),
+      },
+    ],
+    topics: [
+      {
+        id: "t-m15-alt-fodder",
+        title: L("Thornless Cactus, Moringa and Other Alternatives"),
+        teach: [
+          {
+            type: "stat-grid",
+            items: [
+              {
+                label: L("Thornless (fodder) cactus"),
+                text: L(
+                  "Very useful in dry, semi-arid areas — about 90% water. Cut only large, fleshy, 6-month-old pads (cladodes), never uproot the plant; take up to one-third of the pads at a time and wait 6 months before the next harvest. Chop into 2–3 inch pieces, mix with dry fodder, and feed 10–15 kg a day."
+                ),
+              },
+              {
+                label: L("Moringa"),
+                text: L(
+                  "A protein-rich, multi-cut fodder (about 15% crude protein). First harvest 85–90 days after sowing, cut 30 cm above the ground; then every 55–60 days. Feed 15–20 kg of chaffed moringa a day, mixed with dry fodder."
+                ),
+              },
+              {
+                label: L("Fodder trees"),
+                text: L("Leaves of trees such as Subabul, Khejari, Gliricidia, Agasthi and Kanchnar are a valuable green feed, especially in the lean season."),
+              },
+            ],
+          },
+          {
+            type: "text",
+            heading: L("Good Seed and Mixed Cropping"),
+            html: L(
+              "Quality fodder seed germinates better, resists disease and gives higher, steadier yields. Farmers can get good seed and cuttings from <b>milk unions / dairy cooperatives</b>, <b>state agricultural universities and ICAR fodder institutes</b>, and <b>Krishi Vigyan Kendras (KVKs)</b>. Growing a cereal and a legume together (intercropping) improves both yield and protein — for example <b>maize, sorghum or bajra with cowpea or cluster bean</b> in a 1:1 or 2:1 row ratio in the kharif season, and <b>oat with berseem</b> in rabi."
+            ),
+          },
+          {
+            type: "callout",
+            style: "tip",
+            heading: L("Plan the Year: A Fodder Calendar"),
+            text: L(
+              "The NDDB guideline recommends a seasonal fodder calendar that mixes annual and perennial crops, so there is green fodder every month — with silage or hay saved from the surplus months for the lean ones. Keeping a record of crops, area and yield makes the next year's plan easier."
+            ),
+          },
+        ],
+        check: [
+          {
+            type: "truefalse",
+            q: L("When harvesting thornless cactus for fodder, the whole plant should be uprooted."),
+            answer: false,
+            explain: L("No — only large, 6-month-old pads are cut, up to one-third of the pads at a time, so the plant keeps producing."),
+          },
+          {
+            type: "mcq",
+            q: L("How much chaffed moringa can be fed to one animal per day?"),
+            options: [L("200 g"), L("60 kg alone"), L("15–20 kg, mixed with dry fodder"), L("Moringa should never be fed")],
+            answer: 2,
+            explain: L("15–20 kg of chaffed moringa can be fed daily, mixed with dry fodder."),
+          },
+        ],
+      },
+      {
+        id: "t-m15-silage-quality",
+        title: L("Making Silage That Keeps Well"),
+        teach: [
+          {
+            type: "stat-grid",
+            items: [
+              { label: L("Crop"), text: L("Cereal fodders such as maize, sorghum, bajra and oats — rich in sugars.") },
+              {
+                label: L("Harvest stage"),
+                text: L("Between the milk and dough stage, when the crop is about 30–35% dry matter. For maize, harvest when the milk line in the grain is about half to two-thirds of the way down (check from about 75–90 days)."),
+              },
+              { label: L("Wilt and chop"), text: L("Cut about 10 cm above the ground, let it wilt for about half a day if very wet, and chop into small pieces with a chaff cutter.") },
+              { label: L("Pit size"), text: L("A pit of 1 m × 1 m × 1 m holds about 500–600 kg of chopped fodder.") },
+              { label: L("Fill and press"), text: L("Fill in layers of about 10 cm, pressing each one hard (by feet or tractor) to push out air.") },
+              { label: L("Seal"), text: L("Cover with polythene and about 5 inches of moist soil; fill any cracks that appear. Ready in about 45 days.") },
+            ],
+          },
+          {
+            type: "callout",
+            style: "info",
+            heading: L("What Good Silage Looks and Smells Like"),
+            text: L(
+              "Good silage is golden yellow, has a pleasant fruity smell, and is sour (pH about 3.5–4.2). Black, slimy, mouldy or foul-smelling silage should not be fed — spoiled silage can even cause botulism. Additives such as molasses or salt are normally not needed; they are used mainly when the crop wasn't cut at the right stage."
+            ),
+          },
+          {
+            type: "text",
+            heading: L("Feeding Silage"),
+            html: L(
+              "Open the pit from one side only, take out the day's need, and cover it again. Introduce it slowly — the handbook FAQ suggests starting at <b>2–3 kg a day</b> (and no more than 5–10 kg a day for the first few days) — then increase; a high yielder can get <b>15–20 kg</b>. Silage is also now sold in <b>bags and bales</b> by cooperatives and entrepreneurs, which is easier for small farmers who can't build a pit."
+            ),
+          },
+        ],
+        check: [
+          {
+            type: "mcq",
+            q: L("What does good quality silage look and smell like?"),
+            options: [L("Golden yellow with a fruity smell"), L("Black and slimy"), L("White and mouldy"), L("Bright green with no smell")],
+            answer: 0,
+            explain: L("Good silage is golden yellow, smells fruity, and has a pH of about 3.5–4.2."),
+          },
+          {
+            type: "mcq",
+            q: L("About how much chopped fodder fits in a 1 × 1 × 1 metre silo pit?"),
+            options: [L("500–600 kg"), L("5–6 kg"), L("5,000–6,000 kg"), L("50 kg")],
+            answer: 0,
+            explain: L("One cubic metre holds about 500–600 kg of well-pressed chopped fodder."),
+          },
+        ],
+      },
+      {
+        id: "t-m15-straw-blocks",
+        title: L("Straw Blocks, Pellets and Saving Crop Residue"),
+        teach: [
+          {
+            type: "text",
+            heading: L("Turning Bulky Straw Into a Better Feed"),
+            html: L(
+              "Straw is cheap and plentiful but bulky and low in nutrition. Dairy cooperatives now make <b>straw-based blocks and pellets</b> — straw enriched with concentrate, molasses and minerals, then pressed. They take <b>2–3 times less storage space</b>, cost less to transport, and give a more balanced feed. They can be fed at about <b>8–12 kg per animal per day</b>, depending on milk production."
+            ),
+          },
+          {
+            type: "callout",
+            style: "info",
+            heading: L("Don't Burn It — Collect It"),
+            text: L(
+              "After combine harvesting, a lot of straw is left in the field and often burnt. Tractor-driven balers, flail mowers and reaper binders can collect it as bales or loose straw instead, saving fodder and reducing pollution. Small bales of 10–20 kg are easy to handle and store."
+            ),
+          },
+        ],
+        check: [
+          {
+            type: "truefalse",
+            q: L("Enriched, densified straw blocks need much less storage space than loose straw."),
+            answer: true,
+            explain: L("Yes — they need 2–3 times less storage space and are cheaper to transport."),
+          },
+        ],
+      },
+    ],
+    finalQuiz: {
+      passScore: 70,
+      questions: [
+        {
+          topicId: "t-m15-alt-fodder",
+          type: "mcq",
+          q: L("How much chopped thornless cactus can be fed to an animal per day?"),
+          options: [L("100 kg"), L("None — cactus is poisonous"), L("500 g"), L("10–15 kg, mixed with dry fodder")],
+          answer: 3,
+          explain: L("10–15 kg of chopped thornless cactus, mixed with dry fodder, can be fed daily."),
+        },
+        {
+          topicId: "t-m15-alt-fodder",
+          type: "mcq",
+          q: L("Which of these is a recommended source of quality fodder seed?"),
+          options: [L("Any roadside seller with no label"), L("Seeds saved from spoiled silage"), L("Krishi Vigyan Kendras (KVKs)"), L("Grain from the cattle feed bag")],
+          answer: 2,
+          explain: L("Milk unions, agricultural universities / ICAR institutes and KVKs are good sources of quality fodder seed."),
+        },
+        {
+          topicId: "t-m15-silage-quality",
+          type: "truefalse",
+          q: L("Silage is ready to feed about 45 days after the pit is filled and sealed."),
+          answer: true,
+          explain: L("Correct — after about 45 days sealed, the silage is ready."),
+        },
+        {
+          topicId: "t-m15-silage-quality",
+          type: "mcq",
+          q: L("Why is chopped fodder pressed hard in thin layers when filling a silo?"),
+          options: [L("To push out the air"), L("To make it dry faster"), L("To let rain in"), L("It isn't necessary")],
+          answer: 0,
+          explain: L("Silage depends on keeping air out; pressing in about 10 cm layers removes air pockets."),
+        },
+        {
+          topicId: "t-m15-silage-quality",
+          type: "mcq",
+          q: L("How should silage be introduced into an animal's diet?"),
+          options: [L("Start small and increase gradually"), L("Give 30 kg on the first day"), L("Only to calves"), L("Mixed with urea")],
+          answer: 0,
+          explain: L("Start at about 2–3 kg a day and build up; high yielders can later get 15–20 kg."),
+        },
+        {
+          topicId: "t-m15-straw-blocks",
+          type: "mcq",
+          q: L("About how much enriched straw block or pellet feed can be given per animal per day?"),
+          options: [L("8–12 kg, depending on milk yield"), L("100 g"), L("50 kg"), L("It can't be fed to dairy animals")],
+          answer: 0,
+          explain: L("Straw-based blocks/pellets enriched with concentrate and molasses can be fed at 8–12 kg per animal per day."),
         },
       ],
     },
@@ -17763,25 +20072,191 @@ export const MODULES = [
       ],
     },
   },
+  // ==================================================================
+  // LESSON 3 — Heat Stress: Measuring It and Beating It
+  // Source: NDDB Handbook (2026 ed.) Part II Section B–E (Heat Stress);
+  //         NDDB Farm Management Guideline (2026) "Feeding during heat stress"
+  // ==================================================================
+  {
+    id: "m16-l3",
+    title: L("Heat Stress: Measuring It and Beating It"),
+    estMinutes: 9,
+    hook: [
+      {
+        type: "hero",
+        heading: L("Summer Heat Quietly Steals Milk"),
+        text: L(
+          "In hot weather, animals eat less, pant, drink more, give less milk and have more trouble getting pregnant — and in severe cases they can die. High-yielding crossbred and exotic animals suffer most. This lesson shows how to score how badly an animal is affected, how temperature and humidity together decide the danger, and the practical steps that keep animals cool."
+        ),
+      },
+    ],
+    topics: [
+      {
+        id: "t-m16-heat-measure",
+        title: L("Reading the Signs: Panting Score and THI"),
+        teach: [
+          {
+            type: "text",
+            heading: L("What Heat Stress Does"),
+            html: L(
+              "Body temperature rises, feed intake drops, the animal sweats and pants, its pulse speeds up, and it drinks much more water. Milk production and breeding efficiency both fall. The NDDB guideline notes that during heat stress <b>dry matter intake can fall by 20–30%</b> while the animal's <b>energy need rises by about 30%</b>, and <b>water intake can rise by 50–100%</b>."
+            ),
+          },
+          {
+            type: "stat-grid",
+            items: [
+              { label: L("Score 0 — under 40 breaths/min"), text: L("No panting; chest movement hard to see. Normal.") },
+              { label: L("Score 1 — 40–70 breaths/min"), text: L("Slight panting, mouth closed, no drool. Chest movement easy to see.") },
+              { label: L("Score 2 to 2.5 — 70–120 breaths/min"), text: L("Fast panting with drool or foam; at 2.5 the mouth opens now and then.") },
+              { label: L("Score 3 to 3.5 — 120–160+ breaths/min"), text: L("Open mouth, drooling, neck stretched and head up; at 3.5 the tongue starts to come out.") },
+              { label: L("Score 4 to 4.5 — danger"), text: L("Tongue fully out for long periods, heavy drooling. At 4.5 the head drops and the animal breathes from the flank — an emergency.") },
+            ],
+          },
+          {
+            type: "glossary",
+            term: L("THI (Temperature–Humidity Index)"),
+            meaning: L(
+              "A single number combining air temperature and humidity. The more humid the air at a given temperature, the harder it is for an animal to cool itself. It can be worked out from a simple digital hygrometer reading."
+            ),
+          },
+          {
+            type: "callout",
+            style: "warning",
+            heading: L("Two Numbers to Remember: 72 and 89"),
+            text: L(
+              "Milk production starts to suffer above a THI of 72 — which can happen at just 23°C if the humidity is 80%. At a THI of 89, the animal is on the edge of severe heat stress. So a humid 30°C day can be more dangerous than a dry 35°C day."
+            ),
+          },
+        ],
+        check: [
+          {
+            type: "mcq",
+            q: L("An animal is panting with its mouth open, drooling, neck stretched and head up. What panting score is this, roughly?"),
+            options: [L("0"), L("1"), L("About 3"), L("It is normal")],
+            answer: 2,
+            explain: L("Open-mouth panting with drooling and an extended neck is about score 3 (120–160 breaths per minute)."),
+          },
+          {
+            type: "truefalse",
+            q: L("Humidity doesn't matter — only the temperature decides heat stress."),
+            answer: false,
+            explain: L("No — the THI combines both. Above a THI of 72, milk drops, which can happen at only 23°C if the air is very humid."),
+          },
+        ],
+      },
+      {
+        id: "t-m16-heat-manage",
+        title: L("Keeping Animals Cool"),
+        teach: [
+          {
+            type: "stat-grid",
+            items: [
+              { label: L("Water"), text: L("Plenty of clean, cool drinking water, placed in the shade. A cow needs about 100 litres a day in summer.") },
+              { label: L("Shade"), text: L("Trees, or a thatched roof at least 9 feet high. Agri-nets with 20% perforation also help; in desert areas, community shades can be built.") },
+              { label: L("Misting"), text: L("Mist water over the animals at least three times an hour — auto-sprinklers with a small pump and timer work best.") },
+              { label: L("Air flow"), text: L("One ventilator of 3 × 1 feet per cow, plus ceiling fans or blowers where there is power.") },
+              { label: L("Block hot wind"), text: L("Thatched walls or wet gunny cloth on the windward side.") },
+              { label: L("Timing"), text: L("Feed in the morning, evening and night; graze only in the early morning and evening. Shaving a thick hair coat also helps.") },
+            ],
+          },
+          {
+            type: "example",
+            heading: L("NDDB's Low-Cost Misting System"),
+            text: L(
+              "NDDB has developed a water-misting animal cooling system costing about ₹11,000 for six animals (handbook price). It works because every gram of water that evaporates from the animal's skin carries away about 540 calories of body heat — enough to bring the temperature at the animal's body down by more than 13°C, depending on humidity."
+            ),
+          },
+          {
+            type: "callout",
+            style: "info",
+            heading: L("Feeding Changes in Hot Weather"),
+            text: L(
+              "Give smaller, more frequent meals in the cool hours. The ration should give the same nutrients in less dry matter — more digestible fodder, bypass fat for energy, and a potassium-rich mineral mixture (animals lose potassium in sweat). NDDB's Pashu Sheetvardhak supplement (350 g a day) is designed for heat stress. Ration changes like buffers or potassium carbonate should be set by a nutritionist."
+            ),
+          },
+        ],
+        check: [
+          {
+            type: "mcq",
+            q: L("How often should water be misted over animals during heat stress?"),
+            options: [L("Once a week"), L("At least three times an hour"), L("Once a day at noon"), L("Never — water makes heat worse")],
+            answer: 1,
+            explain: L("Misting at least three times an hour cools the animal through evaporation."),
+          },
+          {
+            type: "truefalse",
+            q: L("In hot weather, animals should be fed and grazed mainly in the cooler morning, evening and night hours."),
+            answer: true,
+            explain: L("Yes — they eat more in the cool hours, so feeding and grazing should be shifted to those times."),
+          },
+        ],
+      },
+    ],
+    finalQuiz: {
+      passScore: 70,
+      questions: [
+        {
+          topicId: "t-m16-heat-measure",
+          type: "mcq",
+          q: L("Above what THI does milk production start to be affected?"),
+          options: [L("20"), L("72"), L("150"), L("THI has no effect on milk")],
+          answer: 1,
+          explain: L("Milk production begins to fall above a THI of 72; at 89 the animal is close to severe heat stress."),
+        },
+        {
+          topicId: "t-m16-heat-measure",
+          type: "mcq",
+          q: L("An animal has its head held down, is breathing from the flank, and its drooling has stopped. What does this mean?"),
+          options: [L("Severe heat stress (score 4.5) — an emergency"), L("It is resting comfortably"), L("Mild heat stress only"), L("It has just eaten")],
+          answer: 0,
+          explain: L("This is panting score 4.5, the most severe stage — act immediately and call for help."),
+        },
+        {
+          topicId: "t-m16-heat-measure",
+          type: "truefalse",
+          q: L("During heat stress, an animal usually eats less but needs more energy and water."),
+          answer: true,
+          explain: L("Correct — dry matter intake can fall 20–30% while energy need rises about 30% and water intake 50–100%."),
+        },
+        {
+          topicId: "t-m16-heat-manage",
+          type: "mcq",
+          q: L("If no trees are available, how high should a thatched shade roof be?"),
+          options: [L("2 feet"), L("4 feet"), L("At least 9 feet"), L("Height doesn't matter")],
+          answer: 2,
+          explain: L("A thatched roof of at least 9 feet allows air to move and keeps radiant heat away from the animal."),
+        },
+        {
+          topicId: "t-m16-heat-manage",
+          type: "mcq",
+          q: L("Why does misting water on an animal cool it down?"),
+          options: [
+            L("Evaporating water carries body heat away — about 540 calories per gram"),
+            L("The water is always ice cold"),
+            L("It makes the animal sleep"),
+            L("It doesn't — it only cleans the animal"),
+          ],
+          answer: 0,
+          explain: L("Evaporation of each gram of water removes about 540 calories of heat, so misting can bring the animal back to its comfort zone."),
+        },
+        {
+          topicId: "t-m16-heat-manage",
+          type: "mcq",
+          q: L("Which kind of mineral mixture is preferred during heat stress?"),
+          options: [L("Mineral mixture should be stopped"), L("Iron-only"), L("Potassium-rich"), L("Salt-free and mineral-free")],
+          answer: 2,
+          explain: L("Animals lose potassium in hot weather, so a potassium-rich mineral mixture is preferred."),
+        },
+      ],
+    },
+  },
     ],
   },
   {
     id: "m17",
     number: 17,
-    title: L(
-      "Animal Identification",
-      "పశువుల గుర్తింపు (యానిమల్ ఐడెంటిఫికేషన్)",
-      "விலங்கு அடையாளம் காணுதல்",
-      "ಪ್ರಾಣಿ ಗುರುತಿಸುವಿಕೆ",
-      "पशु पहचान"
-    ),
-    subtitle: L(
-      "Why every animal gets its own ID, and how a simple ear tag makes lifelong records possible.",
-      "ప్రతి జంతువుకు దాని సొంత ID ఎందుకు ఇస్తారు, ఒక సాధారణ చెవి టాగ్ జీవితకాల రికార్డులను ఎలా సాధ్యం చేస్తుంది.",
-      "ஒவ்வொரு விலங்குக்கும் ஏன் சொந்த அடையாள எண் (ID) கொடுக்கப்படுகிறது, ஒரு எளிய காது வில்லை (டேக்) வாழ்நாள் பதிவுகளை எப்படிச் சாத்தியமாக்குகிறது.",
-      "ಪ್ರತಿ ಪ್ರಾಣಿಗೆ ಅದರದೇ ID ಏಕೆ ಕೊಡಲಾಗುತ್ತದೆ, ಒಂದು ಸರಳ ಕಿವಿ ಟ್ಯಾಗ್ ಜೀವನಪೂರ್ತಿ ದಾಖಲೆಗಳನ್ನು ಹೇಗೆ ಸಾಧ್ಯವಾಗಿಸುತ್ತದೆ.",
-      "हर पशु को अपनी अलग ID क्यों मिलती है, और एक साधारण कान का टैग जीवन भर के रिकॉर्ड कैसे मुमकिन बनाता है।"
-    ),
+    title: L("Animal Identification & Bharat Pashudhan"),
+    subtitle: L("Why every animal gets its own ID, how a simple ear tag makes lifelong records possible, and how Bharat Pashudhan and the 1962 app put those records to work."),
     icon: "id",
     available: true,
     lessons: [
@@ -17907,13 +20382,7 @@ export const MODULES = [
                   "ಕಿವಿ ಟ್ಯಾಗ್ ಹಾಕುವುದು",
                   "कान में टैग लगाना"
                 ),
-                text: L(
-                  "The most common method. A small tag carrying a unique 12-digit number is fixed to the animal's ear. It causes no problem if applied properly, and stays on the ear for many years.",
-                  "అత్యంత సాధారణ పద్ధతి. ఒక ప్రత్యేకమైన 12 అంకెల సంఖ్య ఉన్న చిన్న టాగ్‌ను జంతువు చెవికి అమరుస్తారు. సరిగ్గా వేస్తే ఇది ఏ సమస్యా కలిగించదు, చాలా సంవత్సరాలు చెవిపై ఉంటుంది.",
-                  "மிகவும் பொதுவான முறை. ஒரு தனித்துவமான 12 இலக்க எண் கொண்ட சிறிய டேக் விலங்கின் காதில் பொருத்தப்படும். சரியாகப் போட்டால் இது எந்தப் பிரச்சினையும் ஏற்படுத்தாது, பல ஆண்டுகள் காதில் இருக்கும்.",
-                  "ಅತ್ಯಂತ ಸಾಮಾನ್ಯ ವಿಧಾನ. ಒಂದು ವಿಶಿಷ್ಟ 12 ಅಂಕಿಯ ಸಂಖ್ಯೆ ಇರುವ ಸಣ್ಣ ಟ್ಯಾಗ್ ಅನ್ನು ಪ್ರಾಣಿಯ ಕಿವಿಗೆ ಅಳವಡಿಸಲಾಗುತ್ತದೆ. ಸರಿಯಾಗಿ ಹಾಕಿದರೆ ಇದು ಯಾವ ಸಮಸ್ಯೆಯನ್ನೂ ಉಂಟುಮಾಡುವುದಿಲ್ಲ, ಹಲವು ವರ್ಷಗಳ ಕಾಲ ಕಿವಿಯ ಮೇಲೆ ಇರುತ್ತದೆ.",
-                  "सबसे आम तरीका। एक अनोखे 12 अंकों के नंबर वाला छोटा टैग पशु के कान में लगाया जाता है। ठीक से लगाने पर इससे कोई परेशानी नहीं होती और यह कई सालों तक कान पर टिका रहता है।"
-                ),
+                text: L("The most common method. A small tag carrying a unique, ICAR-recommended 12-digit number along with a barcode is fixed to the animal's ear. It causes no problem if applied properly, and stays on the ear for many years."),
               },
               {
                 label: L(
@@ -18049,13 +20518,7 @@ export const MODULES = [
               "NDDB (ರಾಷ್ಟ್ರೀಯ ಡೈರಿ ಅಭಿವೃದ್ಧಿ ಮಂಡಳಿ)",
               "NDDB (राष्ट्रीय डेयरी विकास बोर्ड)"
             ),
-            meaning: L(
-              "The organisation authorised by the Government of India (through DADF) to centrally manage the unique animal identification system for the whole country.",
-              "దేశం మొత్తానికి ప్రత్యేక జంతు గుర్తింపు వ్యవస్థను కేంద్రీయంగా నిర్వహించడానికి భారత ప్రభుత్వం (DADF ద్వారా) అధికారం ఇచ్చిన సంస్థ.",
-              "நாடு முழுவதும் தனித்துவமான விலங்கு அடையாள அமைப்பை மையமாக நிர்வகிக்க இந்திய அரசு (DADF மூலம்) அங்கீகரித்த அமைப்பு.",
-              "ಇಡೀ ದೇಶದ ವಿಶಿಷ್ಟ ಪ್ರಾಣಿ ಗುರುತಿಸುವಿಕೆ ವ್ಯವಸ್ಥೆಯನ್ನು ಕೇಂದ್ರೀಯವಾಗಿ ನಿರ್ವಹಿಸಲು ಭಾರತ ಸರ್ಕಾರ (DADF ಮೂಲಕ) ಅಧಿಕಾರ ನೀಡಿದ ಸಂಸ್ಥೆ.",
-              "वह संस्था जिसे भारत सरकार ने (DADF के ज़रिए) पूरे देश की अनोखी पशु पहचान प्रणाली को केंद्रीय स्तर पर संभालने का अधिकार दिया है।"
-            ),
+            meaning: L("The organisation authorised by the Government of India (through the Department of Animal Husbandry and Dairying, DAHD) to centrally manage the unique animal identification system for the whole country."),
           },
           {
             type: "text",
@@ -18145,13 +20608,7 @@ export const MODULES = [
               "देश में अनोखी पशु पहचान प्रणाली को केंद्रीय स्तर पर संभालने का अधिकार NDDB के पास है।"
             ),
             answer: true,
-            explain: L(
-              "Correct — DADF, Government of India, has authorised NDDB to centrally manage unique animal identification across the country.",
-              "సరైనది — దేశవ్యాప్తంగా ప్రత్యేక జంతు గుర్తింపును కేంద్రీయంగా నిర్వహించడానికి DADF, భారత ప్రభుత్వం NDDBకి అధికారం ఇచ్చింది.",
-              "சரி — நாடு முழுவதும் தனித்துவமான விலங்கு அடையாளத்தை மையமாக நிர்வகிக்க DADF, இந்திய அரசு NDDB-க்கு அதிகாரம் அளித்துள்ளது.",
-              "ಸರಿ — ದೇಶಾದ್ಯಂತ ವಿಶಿಷ್ಟ ಪ್ರಾಣಿ ಗುರುತಿಸುವಿಕೆಯನ್ನು ಕೇಂದ್ರೀಯವಾಗಿ ನಿರ್ವಹಿಸಲು DADF, ಭಾರತ ಸರ್ಕಾರ NDDB ಗೆ ಅಧಿಕಾರ ನೀಡಿದೆ.",
-              "सही — DADF, भारत सरकार ने पूरे देश में अनोखी पशु पहचान को केंद्रीय स्तर पर संभालने का अधिकार NDDB को दिया है।"
-            ),
+            explain: L("Correct — DAHD (Department of Animal Husbandry and Dairying), Government of India, has authorised NDDB to centrally manage unique animal identification across the country."),
           },
         ],
       },
@@ -18265,6 +20722,1867 @@ export const MODULES = [
       ],
     },
   },
+  // ==================================================================
+  // LESSON 2 — Bharat Pashudhan and the 1962 Farmer's App
+  // Source: NDDB Handbook (2026 ed.) Part III, Sections I–V
+  // ==================================================================
+  {
+    id: "m17-l2",
+    title: L("Bharat Pashudhan and the 1962 Farmer's App"),
+    estMinutes: 9,
+    hook: [
+      {
+        type: "hero",
+        heading: L("Every Service, Recorded Against One Tag Number"),
+        text: L(
+          "An ear tag is only useful if something is recorded against it. Bharat Pashudhan is the national digital system where every vaccination, insemination, treatment and milk record for a tagged animal is stored — and the 1962 app lets the farmer see it all on their own phone. This lesson explains what the system records, and what it gives back to the farmer."
+        ),
+      },
+    ],
+    topics: [
+      {
+        id: "t-m17-bharat-pashudhan",
+        title: L("What Bharat Pashudhan Records"),
+        teach: [
+          {
+            type: "glossary",
+            term: L("Bharat Pashudhan"),
+            meaning: L(
+              "A cloud-based, farmer-centred digital system set up jointly by NDDB and the Department of Animal Husbandry and Dairying (DAHD) under the National Digital Livestock Mission (NDLM). It works on desktop and mobile, and is live in all 28 states and 8 Union Territories."
+            ),
+          },
+          {
+            type: "text",
+            heading: L("One Animal, One Lifelong 'Passport'"),
+            html: L(
+              "When an animal is tagged, its 12-digit number is registered along with its <b>species, breed, age, pregnancy status, milk yield, owner, village and photo</b>. This creates a permanent record — like a passport — that can be traced anywhere in the country. Field workers then upload each service with <b>GPS location</b>. Ten species can be registered: cattle, buffalo, goat, sheep, pig, yak, mithun, horse, donkey and mule — individually or as a flock."
+            ),
+          },
+          {
+            type: "stat-grid",
+            items: [
+              { label: L("Animal management"), text: L("Registration of animals and owners, ear tag changes, and ownership transfer when an animal is sold.") },
+              { label: L("Animal health"), text: L("Deworming, vaccination, first aid, treatment and e-prescriptions, disease tests, outbreaks, infertility camps and post-mortems.") },
+              { label: L("Breeding"), text: L("AI, pregnancy diagnosis, calving, milk recording, embryo transfer, and sexed semen managed separately.") },
+              { label: L("Nutrition"), text: L("Ration balancing — a least-cost balanced ration for an animal or group, from feeds available locally.") },
+            ],
+          },
+          {
+            type: "callout",
+            style: "tip",
+            heading: L("A Lost Tag Doesn't Mean a Lost History"),
+            text: L(
+              "If an ear tag falls off or is lost, a new tag can be applied and all the information recorded under the old tag is automatically linked to the new one. That is why reporting a lost or unreadable tag quickly matters — the history can be saved."
+            ),
+          },
+        ],
+        check: [
+          {
+            type: "mcq",
+            q: L("Which two organisations jointly set up Bharat Pashudhan?"),
+            options: [L("NDDB and DAHD"), L("A private bank and a feed company"), L("Only the village panchayat"), L("A foreign university")],
+            answer: 0,
+            explain: L("NDDB and the Department of Animal Husbandry and Dairying (DAHD) set it up under the National Digital Livestock Mission."),
+          },
+          {
+            type: "truefalse",
+            q: L("If an animal's ear tag is lost, all its past records are lost forever."),
+            answer: false,
+            explain: L("No — a new tag can be applied and the old records are automatically linked to it."),
+          },
+        ],
+      },
+      {
+        id: "t-m17-farmer-benefits",
+        title: L("What the Farmer Gets: SMS, Health Card and the 1962 App"),
+        teach: [
+          {
+            type: "stat-grid",
+            items: [
+              { label: L("SMS and OTP alerts"), text: L("The farmer gets messages on their registered mobile for services given to their animals, so they can confirm the service really happened.") },
+              { label: L("Health card"), text: L("A health card listing every intervention on an animal can be printed just by entering its tag number.") },
+              { label: L("Access to schemes"), text: L("A tagged, registered animal can receive the benefits of government and other programmes — vaccination, treatment, insurance and more.") },
+              { label: L("Better programmes"), text: L("Vaccination and disease data help governments plan disease control; breeding data helps find the best cows and bulls.") },
+            ],
+          },
+          {
+            type: "text",
+            heading: L("The 1962 Farmer's App"),
+            html: L(
+              "The <b>1962</b> app is connected to the Bharat Pashudhan database. With it a farmer can: <b>verify their own registration</b> without sharing an OTP with a field worker; see a personal <b>QR code</b> listing all their animals and the services each received; do <b>their own ration balancing</b>; buy and sell animals on <b>Pashu Bazaar</b>; read about breeds in <b>Pashupedia</b>; see government <b>schemes</b>, success stories, and <b>Ayurvedic / ethnoveterinary</b> videos; and see what semen and embryos are available."
+            ),
+          },
+          {
+            type: "callout",
+            style: "info",
+            heading: L("See the Big Picture Too"),
+            text: L(
+              "The public Bharat Pashudhan dashboard (bharatpashudhan.ndlm.co.in) shows registered animals, vaccinations and breeding services by state and district. The Bharat Pashudhan database is also the backbone for India's 21st Livestock Census."
+            ),
+          },
+        ],
+        check: [
+          {
+            type: "mcq",
+            q: L("How can a farmer get a printed record of every treatment and vaccination given to one animal?"),
+            options: [L("Ask the neighbours"), L("It is not possible"), L("Generate its health card by entering its ear tag number"), L("Look at the animal's teeth")],
+            answer: 2,
+            explain: L("A health card with all interventions can be generated just by entering the animal's tag number."),
+          },
+          {
+            type: "truefalse",
+            q: L("Farmers can balance their own animals' ration using the 1962 app."),
+            answer: true,
+            explain: L("Yes — the 1962 app lets a farmer do individual ration balancing themselves."),
+          },
+        ],
+      },
+    ],
+    finalQuiz: {
+      passScore: 70,
+      questions: [
+        {
+          topicId: "t-m17-bharat-pashudhan",
+          type: "mcq",
+          q: L("What does Bharat Pashudhan record along with each service a field worker uploads?"),
+          options: [L("GPS location"), L("The farmer's bank PIN"), L("Nothing else"), L("The weather forecast")],
+          answer: 0,
+          explain: L("Services such as AI, vaccination and treatment are uploaded with GPS coordinates."),
+        },
+        {
+          topicId: "t-m17-bharat-pashudhan",
+          type: "mcq",
+          q: L("Which of these species can be registered in Bharat Pashudhan?"),
+          options: [L("Cattle, buffalo, goat, sheep, pig, yak, mithun, horse, donkey and mule"), L("Only cows"), L("Only buffaloes"), L("Only dogs and cats")],
+          answer: 0,
+          explain: L("Ten species can currently be registered, individually or as a flock."),
+        },
+        {
+          topicId: "t-m17-bharat-pashudhan",
+          type: "truefalse",
+          q: L("When an animal is sold, its ownership can be transferred in Bharat Pashudhan."),
+          answer: true,
+          explain: L("Yes — ownership transfer on sale or purchase is part of the animal management module."),
+        },
+        {
+          topicId: "t-m17-farmer-benefits",
+          type: "mcq",
+          q: L("Why does the farmer receive an SMS when their animal is inseminated or treated?"),
+          options: [L("To advertise products"), L("So they can verify that the service was actually given"), L("To ask for money"), L("There is no reason")],
+          answer: 1,
+          explain: L("SMS/OTP alerts let the farmer verify each service recorded against their animal."),
+        },
+        {
+          topicId: "t-m17-farmer-benefits",
+          type: "mcq",
+          q: L("What is 'Pashu Bazaar' in the 1962 app?"),
+          options: [L("A place to buy and sell animals"), L("A vaccine"), L("A type of fodder"), L("A cattle breed")],
+          answer: 0,
+          explain: L("Pashu Bazaar lets farmers buy and sell animals through the app."),
+        },
+      ],
+    },
+  },
+    ],
+  },
+  {
+    id: "m18",
+    number: 18,
+    title: L("Farm Performance Targets"),
+    subtitle: L("The numbers that show whether a dairy farm is healthy and productive — and what to check when milk, fat or SNF drops."),
+    icon: "chart",
+    available: true,
+    lessons: [
+      // ==================================================================
+      // LESSON 1 — Production Targets
+      // Source: NDDB Small Holder Dairy Farm Management Guideline (2026), "Key indicators"
+      // ==================================================================
+      {
+        id: "m18-l1",
+        title: L("Production Targets: Is the Farm on Track?"),
+        estMinutes: 9,
+        hook: [
+          {
+            type: "hero",
+            heading: L("You Can't Improve What You Don't Measure"),
+            text: L(
+              "Two farms can look equally busy, yet one makes money and the other quietly loses it. The difference shows up in a handful of numbers — how fast calves grow, how much milk each cow gives, how many animals are dry. The NDDB 2026 farm management guideline lists these key indicators. They are guides, not fixed rules: breed, feed, climate and management all affect them."
+            ),
+          },
+        ],
+        topics: [
+          {
+            id: "t-m18-growth-targets",
+            title: L("Growth Targets for Calves and Heifers"),
+            teach: [
+              {
+                type: "stat-grid",
+                items: [
+                  {
+                    label: L("Birth weight"),
+                    text: L("About 6–8% of the mother's adult weight: roughly 20–30 kg in indigenous calves, 25–35 kg crossbred, 35–45 kg Holstein-Friesian, 30–40 kg buffalo."),
+                  },
+                  {
+                    label: L("Daily gain before weaning"),
+                    text: L("About 0.5–0.8 kg a day in indigenous and buffalo calves; 0.7–1.0 kg a day in well-managed crossbred and exotic calves."),
+                  },
+                  {
+                    label: L("Heifer weight at first breeding"),
+                    text: L("About 55–60% of expected adult weight: indigenous 180–220 kg, Jersey cross 250–300 kg, HF cross 300–350 kg, buffalo 300–350 kg."),
+                  },
+                  {
+                    label: L("Pregnancy weight gain"),
+                    text: L("Most of it happens in the last three months, especially the final 30–45 days."),
+                  },
+                ],
+              },
+              {
+                type: "callout",
+                style: "tip",
+                heading: L("Breed by Weight, Not Just by Age"),
+                text: L(
+                  "A heifer that is bred before she reaches about 55–60% of her adult weight may have a difficult calving and a poor first lactation. Weighing calves at regular intervals (for example at 7, 14, 21, 30, 60, 90, 120, 150 and 180 days where possible) shows early whether growth is on track."
+                ),
+              },
+            ],
+            check: [
+              {
+                type: "mcq",
+                q: L("Before first breeding, a heifer should reach about what share of her expected adult body weight?"),
+                options: [L("10–15%"), L("100%"), L("55–60%"), L("Weight doesn't matter")],
+                answer: 2,
+                explain: L("Heifers should reach about 55–60% of mature weight before first breeding to support fertility and future milk yield."),
+              },
+              {
+                type: "truefalse",
+                q: L("A well-managed crossbred calf should gain about 0.7–1.0 kg a day before weaning."),
+                answer: true,
+                explain: L("Correct — indigenous and buffalo calves typically gain 0.5–0.8 kg a day."),
+              },
+            ],
+          },
+          {
+            id: "t-m18-milk-targets",
+            title: L("Milk Yield, Fat, Dry Period and Herd Averages"),
+            teach: [
+              {
+                type: "stat-grid",
+                items: [
+                  { label: L("Indigenous cattle"), text: L("About 1,000–1,500 kg per 305-day lactation; fat 4.5–5.5%.") },
+                  { label: L("Crossbred cattle"), text: L("About 2,500–4,500 kg; HF crossbreds 4,500–7,500 kg (fat 3–4%), Jersey crossbreds 3,000–5,500 kg (fat 3.5–4.5%).") },
+                  { label: L("Buffaloes"), text: L("About 1,800–3,500 kg per lactation.") },
+                  { label: L("Lactation and dry period"), text: L("Ideal lactation about 305 days, followed by a dry period of about 60 days.") },
+                ],
+              },
+              {
+                type: "glossary",
+                term: L("Wet Average"),
+                meaning: L("Total milk per day ÷ number of animals currently giving milk. It shows how well the milking animals are producing."),
+              },
+              {
+                type: "glossary",
+                term: L("Herd Average"),
+                meaning: L("Total milk per day ÷ number of all animals on the farm (milking and dry). It shows how productive the whole herd is."),
+              },
+              {
+                type: "example",
+                heading: L("Working It Out"),
+                text: L(
+                  "A farm has 10 cows. 7 are milking and together give 70 litres a day. Wet average = 70 ÷ 7 = 10 litres. Herd average = 70 ÷ 10 = 7 litres. The bigger the gap between the two, the more dry animals the farm is feeding. Ideally about 70% of cows should be in milk and 30% dry (a 70:30 ratio)."
+                ),
+              },
+            ],
+            check: [
+              {
+                type: "mcq",
+                q: L("A farm has 20 animals; 14 are milking and give 140 litres a day. What is the wet average?"),
+                options: [L("7 litres"), L("10 litres"), L("14 litres"), L("20 litres")],
+                answer: 1,
+                explain: L("Wet average = 140 ÷ 14 milking animals = 10 litres. (Herd average would be 140 ÷ 20 = 7 litres.)"),
+              },
+              {
+                type: "truefalse",
+                q: L("Ideally, about 70% of a herd's cows should be in milk and 30% dry."),
+                answer: true,
+                explain: L("Yes — an in-milk to dry ratio of about 70:30 is the guideline's target, depending on herd structure and calving pattern."),
+              },
+            ],
+          },
+        ],
+        finalQuiz: {
+          passScore: 70,
+          questions: [
+            {
+              topicId: "t-m18-growth-targets",
+              type: "mcq",
+              q: L("A healthy calf's birth weight is usually about what share of its mother's adult weight?"),
+              options: [L("50%"), L("1%"), L("25%"), L("6–8%")],
+              answer: 3,
+              explain: L("Birth weight is typically about 6–8% of the dam's mature body weight."),
+            },
+            {
+              topicId: "t-m18-growth-targets",
+              type: "mcq",
+              q: L("About what weight should a Jersey crossbred heifer reach before first breeding?"),
+              options: [L("50–60 kg"), L("600–700 kg"), L("250–300 kg"), L("100 kg")],
+              answer: 2,
+              explain: L("Jersey crossbred heifers should be about 250–300 kg (55–60% of adult weight) at first breeding."),
+            },
+            {
+              topicId: "t-m18-milk-targets",
+              type: "mcq",
+              q: L("What is the ideal length of the dry period before the next calving?"),
+              options: [L("About 7 days"), L("About 6 months"), L("About 60 days"), L("No dry period is needed")],
+              answer: 2,
+              explain: L("The guideline gives an ideal dry period of about 60 days."),
+            },
+            {
+              topicId: "t-m18-milk-targets",
+              type: "truefalse",
+              q: L("A large gap between wet average and herd average means a high share of the herd is dry."),
+              answer: true,
+              explain: L("Correct — dry animals pull the herd average down but not the wet average."),
+            },
+            {
+              topicId: "t-m18-milk-targets",
+              type: "mcq",
+              q: L("Which animals typically have the highest milk fat percentage?"),
+              options: [L("HF cows, about 3–4%"), L("Indigenous (zebu) cattle, about 4.5–5.5%"), L("All breeds are the same"), L("Calves")],
+              answer: 1,
+              explain: L("Indigenous cattle milk is typically 4.5–5.5% fat, compared with 3–4% for HF and 3.5–4.5% for Jersey."),
+            },
+          ],
+        },
+      },
+      // ==================================================================
+      // LESSON 2 — Reproduction Targets
+      // Source: NDDB Farm Management Guideline (2026), "Reproduction traits" and
+      //         "Indicators for optimum reproductive efficiency"
+      // ==================================================================
+      {
+        id: "m18-l2",
+        title: L("Reproduction Targets: Calving Interval, Conception and More"),
+        estMinutes: 10,
+        hook: [
+          {
+            type: "hero",
+            heading: L("No Calf, No Milk"),
+            text: L(
+              "A cow only gives milk after she calves, so a farm's income depends on getting cows pregnant again on time. The NDDB guideline gives clear targets for this. Knowing them lets you spot when a farm's breeding is slipping — long before the farmer notices the empty milk can."
+            ),
+          },
+        ],
+        topics: [
+          {
+            id: "t-m18-repro-traits",
+            title: L("Age at First Calving, Service Period and Calving Interval"),
+            teach: [
+              {
+                type: "stat-grid",
+                items: [
+                  { label: L("Age at puberty"), text: L("About 15–18 months in HF and Jersey; about 25 months in zebu (indigenous) cattle.") },
+                  { label: L("Age at first calving"), text: L("Target 24–30 months for crossbred cows; 30–36 months for indigenous cattle and buffaloes.") },
+                  { label: L("First heat after calving"), text: L("Cows within 30–60 days (at least 80% of cows by 60 days); buffaloes 45–90 days.") },
+                  { label: L("Service period"), text: L("Days from calving to successful conception: 60–90 days in cows, 90–150 days in buffaloes.") },
+                ],
+              },
+              {
+                type: "glossary",
+                term: L("Calving Interval"),
+                meaning: L("The number of days between two successive calvings. It is the single best number for judging a farm's breeding."),
+              },
+              {
+                type: "stat-grid",
+                items: [
+                  { label: L("Cows — ideal"), text: L("365–380 days (12–12.5 months). Up to 400 days is acceptable.") },
+                  { label: L("Cows — investigate"), text: L("More than 420 days: check nutrition, heat detection, health and management.") },
+                  { label: L("Buffaloes — ideal"), text: L("395–425 days (13–14 months). Up to 450 days is acceptable.") },
+                  { label: L("Buffaloes — investigate"), text: L("More than 450 days: evaluate nutrition, heat detection, breeding and health.") },
+                ],
+              },
+            ],
+            check: [
+              {
+                type: "mcq",
+                q: L("What is the ideal calving interval for a dairy cow?"),
+                options: [L("200 days"), L("600 days"), L("365–380 days"), L("Calving interval doesn't matter")],
+                answer: 2,
+                explain: L("Ideal is 365–380 days; up to 400 is acceptable; over 420 days should be investigated."),
+              },
+              {
+                type: "truefalse",
+                q: L("The ideal service period for buffaloes is longer than for cows."),
+                answer: true,
+                explain: L("Yes — about 90–150 days in buffaloes, compared with 60–90 days in cows."),
+              },
+            ],
+          },
+          {
+            id: "t-m18-repro-indicators",
+            title: L("Conception Rate and Herd Fertility Indicators"),
+            teach: [
+              {
+                type: "glossary",
+                term: L("Conception Rate"),
+                meaning: L("The percentage of inseminated animals that become pregnant from an insemination. A practical target is about 40–60%."),
+              },
+              {
+                type: "stat-grid",
+                items: [
+                  { label: L("Services per conception"), text: L("1.3–1.7 excellent; 1.8–2.0 acceptable; more than 2.0 — check heat detection, semen quality, AI technique and fertility.") },
+                  { label: L("Non-return rate"), text: L("Ideally 70% of animals should not return to heat within 60 days of AI — but always confirm pregnancy by a vet's examination.") },
+                  { label: L("Repeat breeding, anoestrus, silent heat"), text: L("Together, below 10% of breeding females.") },
+                  { label: L("Abortion and stillbirth"), text: L("Together, below 3%.") },
+                  { label: L("Heifers cycling"), text: L("At least 80% of breeding-age heifers should show regular heat cycles.") },
+                ],
+              },
+              {
+                type: "callout",
+                style: "info",
+                heading: L("Modern Tools Need a Vet"),
+                text: L(
+                  "Organised farms sometimes use heat synchronisation and timed AI to improve breeding. These should only be done under the guidance of a qualified veterinarian."
+                ),
+              },
+            ],
+            check: [
+              {
+                type: "mcq",
+                q: L("A farm needs on average 2.6 inseminations for each pregnancy. What does this suggest?"),
+                options: [
+                  L("Heat detection, semen quality, AI technique or fertility should be investigated"),
+                  L("Excellent fertility"),
+                  L("Nothing — this is normal"),
+                  L("The cows are too young"),
+                ],
+                answer: 0,
+                explain: L("More than 2.0 services per conception needs investigation; 1.3–1.7 is excellent."),
+              },
+              {
+                type: "truefalse",
+                q: L("If a cow doesn't return to heat after AI, that alone proves she is pregnant."),
+                answer: false,
+                explain: L("No — non-return is only an indirect sign. Pregnancy should be confirmed by a vet's examination or ultrasound."),
+              },
+            ],
+          },
+        ],
+        finalQuiz: {
+          passScore: 70,
+          questions: [
+            {
+              topicId: "t-m18-repro-traits",
+              type: "mcq",
+              q: L("What is the target age at first calving for crossbred cows?"),
+              options: [L("24–30 months"), L("6–8 months"), L("5 years"), L("12 months")],
+              answer: 0,
+              explain: L("24–30 months for crossbreds; 30–36 months for indigenous cattle and buffaloes."),
+            },
+            {
+              topicId: "t-m18-repro-traits",
+              type: "mcq",
+              q: L("A buffalo's calving interval is 470 days. What should happen?"),
+              options: [
+                L("Nothing — it's ideal"),
+                L("Evaluate nutrition, heat detection, breeding and health"),
+                L("Sell her immediately without checking"),
+                L("Stop feeding her"),
+              ],
+              answer: 1,
+              explain: L("Over 450 days in buffaloes indicates sub-optimal reproduction and needs evaluation."),
+            },
+            {
+              topicId: "t-m18-repro-traits",
+              type: "truefalse",
+              q: L("At least 80% of cows should show their first heat within about 60 days after calving."),
+              answer: true,
+              explain: L("Correct — this is one of the guideline's indicators of good reproductive efficiency."),
+            },
+            {
+              topicId: "t-m18-repro-indicators",
+              type: "mcq",
+              q: L("What is a practical target conception rate per insemination?"),
+              options: [L("About 40–60%"), L("100%"), L("About 5%"), L("About 95%")],
+              answer: 0,
+              explain: L("About 40–60%, which means about 1.5–2.0 services per conception."),
+            },
+            {
+              topicId: "t-m18-repro-indicators",
+              type: "mcq",
+              q: L("Abortions and stillbirths together should ideally stay below:"),
+              options: [L("30%"), L("3%"), L("50%"), L("There is no target")],
+              answer: 1,
+              explain: L("Combined abortion and stillbirth should stay below 3%, through good reproductive health, biosecurity and disease prevention."),
+            },
+          ],
+        },
+      },
+      // ==================================================================
+      // LESSON 3 — When Milk, Fat or SNF Drops
+      // Source: NDDB Farm Management Guideline (2026), causes and remedies tables
+      // ==================================================================
+      {
+        id: "m18-l3",
+        title: L("When Milk, Fat or SNF Drops: Causes and Remedies"),
+        estMinutes: 9,
+        hook: [
+          {
+            type: "hero",
+            heading: L("A Drop in Milk Is a Clue"),
+            text: L(
+              "Milk is paid for by quantity, fat and SNF (solids-not-fat). When any of these drops, the farmer loses money — but the drop is also a clue that something is wrong with feed, health, comfort or milking. This lesson lists the usual causes and what to check first."
+            ),
+          },
+        ],
+        topics: [
+          {
+            id: "t-m18-milk-drop",
+            title: L("Why Milk Yield Falls"),
+            teach: [
+              {
+                type: "stat-grid",
+                items: [
+                  {
+                    label: L("Feeding"),
+                    text: L("Concentrate for maintenance: 0.5 kg per 100 kg body weight, plus 400 g per litre (cows) or 500 g per litre (buffaloes). Pregnant animals need +0.5 kg a day in the 3rd–6th month and +1 kg a day in the 6th–9th month."),
+                  },
+                  { label: L("Health"), text: L("Mastitis (including hidden, sub-clinical mastitis), worms and metabolic disorders all cut milk — call the vet to diagnose.") },
+                  { label: L("Age and stage"), text: L("Milk rises in early lactation, holds in mid lactation and falls in late lactation; older cows also give less.") },
+                  { label: L("Genetics"), text: L("Each breed has a limit. Better genetics come through AI with good bulls or embryo transfer.") },
+                  { label: L("Stress"), text: L("Heat, poor ventilation, overcrowding, rough handling and sudden changes in routine all lower milk.") },
+                ],
+              },
+              {
+                type: "example",
+                heading: L("Working Out a Cow's Concentrate"),
+                text: L(
+                  "A 400 kg cow giving 10 litres: maintenance = 0.5 kg × 4 = 2 kg; production = 400 g × 10 = 4 kg. Total ≈ 6 kg concentrate a day, along with good green and dry fodder. If she's also 7 months pregnant, add about 1 kg more."
+                ),
+              },
+            ],
+            check: [
+              {
+                type: "mcq",
+                q: L("How much concentrate does a 300 kg cow need just for body maintenance?"),
+                options: [L("15 kg"), L("150 g"), L("1.5 kg (0.5 kg per 100 kg)"), L("None")],
+                answer: 2,
+                explain: L("0.5 kg per 100 kg body weight: 0.5 × 3 = 1.5 kg."),
+              },
+              {
+                type: "truefalse",
+                q: L("Hidden (sub-clinical) mastitis can lower milk yield even when the milk looks normal."),
+                answer: true,
+                explain: L("Yes — that's why sudden drops in yield should be checked for mastitis, worms and metabolic problems."),
+              },
+            ],
+          },
+          {
+            id: "t-m18-fat-snf-drop",
+            title: L("Why Fat and SNF Fall"),
+            teach: [
+              {
+                type: "stat-grid",
+                items: [
+                  { label: L("Too little fibre"), text: L("Not enough green and dry fodder, or too much concentrate — the most common cause of low fat.") },
+                  { label: L("Too much oil"), text: L("Excess vegetable oil, oilseeds or other unsaturated fats can lower milk fat.") },
+                  { label: L("Energy shortage"), text: L("Negative energy balance in early lactation, or poor body condition, lowers SNF (and fat).") },
+                  { label: L("Heat stress and disease"), text: L("Both lower fat and SNF — check for mastitis if there is an unexpected drop.") },
+                  { label: L("Incomplete milking"), text: L("The last milk drawn is the richest in fat; irregular intervals or incomplete milking lower the fat test.") },
+                  { label: L("Stage of lactation"), text: L("Fat and SNF are naturally lower in early lactation and at high yields.") },
+                ],
+              },
+              {
+                type: "callout",
+                style: "warning",
+                heading: L("Supplements Can't Beat Genetics"),
+                text: L(
+                  "When an animal is healthy and already on a balanced diet, SNF usually cannot be pushed above its natural limit. Fix the cause — feed, fibre, health, heat, milking — rather than relying on supplements alone, and compare with the same animal's past records."
+                ),
+              },
+            ],
+            check: [
+              {
+                type: "mcq",
+                q: L("A herd's milk fat suddenly drops after the farmer greatly increases concentrate and cuts fodder. What is the likely cause?"),
+                options: [L("Too little fibre in the diet"), L("Too much fibre"), L("Too much water"), L("Too much fresh air")],
+                answer: 0,
+                explain: L("Low effective fibre and excess rapidly fermentable concentrate are the classic causes of low milk fat."),
+              },
+              {
+                type: "truefalse",
+                q: L("Milk drawn at the end of milking usually has more fat than the first milk."),
+                answer: true,
+                explain: L("Correct — so incomplete milking lowers the fat percentage."),
+              },
+            ],
+          },
+        ],
+        finalQuiz: {
+          passScore: 70,
+          questions: [
+            {
+              topicId: "t-m18-milk-drop",
+              type: "mcq",
+              q: L("How much extra concentrate does a buffalo need for each litre of milk?"),
+              options: [L("About 50 g"), L("About 500 g"), L("About 5 kg"), L("None")],
+              answer: 1,
+              explain: L("Buffaloes need about 500 g per litre; cows about 400 g per litre."),
+            },
+            {
+              topicId: "t-m18-milk-drop",
+              type: "mcq",
+              q: L("How much extra concentrate does a cow need daily in the last three months of pregnancy (6th–9th month)?"),
+              options: [L("About 10 kg"), L("None"), L("About 100 g"), L("About 1 kg")],
+              answer: 3,
+              explain: L("+0.5 kg a day in the 3rd–6th month and +1 kg a day in the 6th–9th month."),
+            },
+            {
+              topicId: "t-m18-milk-drop",
+              type: "truefalse",
+              q: L("Overcrowding and sudden changes in routine can reduce milk yield."),
+              answer: true,
+              explain: L("Yes — stressors like overcrowding, rough handling and abrupt changes lower production."),
+            },
+            {
+              topicId: "t-m18-fat-snf-drop",
+              type: "mcq",
+              q: L("Which of these is most likely to lower milk fat?"),
+              options: [
+                L("Plenty of good green and dry fodder"),
+                L("Regular, complete milking"),
+                L("Clean drinking water"),
+                L("Feeding lots of concentrate with too little fodder"),
+              ],
+              answer: 3,
+              explain: L("Low fibre with heavy concentrate feeding disturbs the rumen and lowers fat."),
+            },
+            {
+              topicId: "t-m18-fat-snf-drop",
+              type: "truefalse",
+              q: L("A healthy cow on a balanced diet can always have her SNF raised much further with supplements."),
+              answer: false,
+              explain: L("No — SNF generally cannot be increased beyond the animal's genetic and physiological potential."),
+            },
+          ],
+        },
+      },
+    ],
+  },
+  {
+    id: "m19",
+    number: 19,
+    title: L("Herd Health Management"),
+    subtitle: L("Keeping disease out, using medicines responsibly, deworming that works, handling abortions safely, healthy hooves, and deciding when an animal should leave the herd."),
+    icon: "shield",
+    available: true,
+    lessons: [
+      // ==================================================================
+      // LESSON 1 — Biosecurity, Surveillance and Responsible Medicine Use
+      // Source: NDDB Farm Management Guideline (2026) "Farm biosecurity and disease
+      //         surveillance", mastitis section; NDDB Handbook (2026 ed.) Health FAQs
+      // ==================================================================
+      {
+        id: "m19-l1",
+        title: L("Keeping Disease Out and Using Medicines Responsibly"),
+        estMinutes: 9,
+        hook: [
+          {
+            type: "hero",
+            heading: L("The Cheapest Treatment Is the One You Never Need"),
+            text: L(
+              "Most serious farm diseases arrive from outside — on a newly bought animal, a visitor's boots, a vehicle, or contaminated feed. Keeping them out (biosecurity), spotting trouble early (surveillance), and using medicines only the right way protects the animals, the farmer's income, and the people who drink the milk."
+            ),
+          },
+        ],
+        topics: [
+          {
+            id: "t-m19-biosecurity",
+            title: L("Biosecurity and Disease Surveillance"),
+            teach: [
+              {
+                type: "glossary",
+                term: L("Biosecurity"),
+                meaning: L("All the steps taken to stop infectious diseases from entering a farm and from spreading within it or to other farms."),
+              },
+              {
+                type: "stat-grid",
+                items: [
+                  { label: L("Buy carefully"), text: L("Buy only from trusted farms with a known disease-free or tested-negative status.") },
+                  { label: L("Quarantine"), text: L("Keep new animals separate for at least 30 days (NDDB guideline) under veterinary guidance — longer if their health status is uncertain.") },
+                  { label: L("Control entry"), text: L("Limit visitors and vehicles; provide hand washing, boot cleaning and a foot dip before animal areas.") },
+                  { label: L("Isolate the sick"), text: L("Separate sick animals at once, with separate equipment and attendants where possible.") },
+                  { label: L("Keep it clean"), text: L("Clean sheds, mangers, water troughs and calving pens; remove dung regularly and dispose of carcasses safely.") },
+                  { label: L("Protect feed and water"), text: L("Keep rodents, birds, insects and stray animals away from feed, fodder and water.") },
+                ],
+              },
+              {
+                type: "callout",
+                style: "warning",
+                heading: L("Watch Daily — Report Quickly"),
+                text: L(
+                  "Look out every day for fever, loss of appetite, a drop in milk, diarrhoea, coughing, lameness, abortion, nervous signs or sudden death. Keep health and treatment records, and report unusual outbreaks, sudden deaths or suspected notifiable diseases to the nearest veterinarian at once. Early reporting limits spread and losses."
+                ),
+              },
+            ],
+            check: [
+              {
+                type: "mcq",
+                q: L("According to the NDDB guideline, for at least how long should newly purchased animals be kept separate?"),
+                options: [L("30 days"), L("1 day"), L("1 year"), L("No separation is needed")],
+                answer: 0,
+                explain: L("At least 30 days under veterinary guidance — longer if the animal's disease status is uncertain."),
+              },
+              {
+                type: "truefalse",
+                q: L("Restricting visitors and providing a foot dip at the entrance are biosecurity measures."),
+                answer: true,
+                explain: L("Yes — controlling people and vehicles entering animal areas is a key part of biosecurity."),
+              },
+            ],
+          },
+          {
+            id: "t-m19-amr",
+            title: L("Antibiotics, Withdrawal Periods and Antimicrobial Resistance"),
+            teach: [
+              {
+                type: "glossary",
+                term: L("Antimicrobial Resistance (AMR)"),
+                meaning: L(
+                  "When bacteria, viruses, fungi or parasites change over time and no longer respond to the medicines meant to kill them — so infections become hard or impossible to treat, in animals and in people."
+                ),
+              },
+              {
+                type: "glossary",
+                term: L("Withdrawal Period"),
+                meaning: L(
+                  "The number of days after the last dose of a medicine during which the animal's milk (or meat) must not be used for human consumption, because medicine residues may still be present."
+                ),
+              },
+              {
+                type: "stat-grid",
+                items: [
+                  { label: L("Prescription only"), text: L("Antibiotics — injections or udder tubes — should be used only on a veterinarian's prescription, ideally guided by a lab culture and sensitivity test.") },
+                  { label: L("Full course, right dose"), text: L("Under-dosing or stopping early helps germs become resistant.") },
+                  { label: L("Respect withdrawal"), text: L("Always follow the milk withdrawal period on the label or as advised by the vet, and record it.") },
+                  { label: L("No oxytocin for let-down"), text: L("Oxytocin injections should not be used to make animals let down milk; only a vet may use it to treat certain conditions.") },
+                ],
+              },
+              {
+                type: "callout",
+                style: "info",
+                heading: L("Boiling Doesn't Fix Everything"),
+                text: L(
+                  "Milk from cows with hidden (sub-clinical) mastitis may contain bacterial toxins that are not destroyed even by boiling, and can cause diarrhoea or throat infection in people. That is one more reason to test for and treat hidden mastitis."
+                ),
+              },
+            ],
+            check: [
+              {
+                type: "truefalse",
+                q: L("Milk can be sold the day after an antibiotic injection, whatever the withdrawal period says."),
+                answer: false,
+                explain: L("No — milk must be withheld for the full withdrawal period so that medicine residues don't reach consumers."),
+              },
+              {
+                type: "mcq",
+                q: L("What is antimicrobial resistance (AMR)?"),
+                options: [
+                  L("When an animal refuses to eat"),
+                  L("When germs stop responding to the medicines meant to kill them"),
+                  L("A type of vaccine"),
+                  L("A breed of cattle"),
+                ],
+                answer: 1,
+                explain: L("AMR is when germs change and no longer respond to medicines, making infections hard to treat."),
+              },
+            ],
+          },
+        ],
+        finalQuiz: {
+          passScore: 70,
+          questions: [
+            {
+              topicId: "t-m19-biosecurity",
+              type: "mcq",
+              q: L("A farmer brings home a newly purchased cow. What should happen first?"),
+              options: [
+                L("Keep her separate (quarantine) for at least 30 days under veterinary guidance"),
+                L("Put her straight into the main shed"),
+                L("Milk her together with the herd on day one"),
+                L("Share her water trough with all animals"),
+              ],
+              answer: 0,
+              explain: L("Quarantine new animals before they join the main herd to stop disease coming in."),
+            },
+            {
+              topicId: "t-m19-biosecurity",
+              type: "mcq",
+              q: L("Which of these should be reported to a veterinarian immediately?"),
+              options: [L("An animal chewing cud"), L("Sudden deaths or an unusual outbreak"), L("A cow lying down to rest"), L("A calf drinking milk")],
+              answer: 1,
+              explain: L("Unusual outbreaks, sudden deaths or suspected notifiable diseases must be reported at once."),
+            },
+            {
+              topicId: "t-m19-amr",
+              type: "mcq",
+              q: L("Who should decide whether an animal gets an antibiotic?"),
+              options: [L("Any shopkeeper"), L("The milk buyer"), L("A veterinarian, by prescription"), L("Anyone with a syringe")],
+              answer: 2,
+              explain: L("Antibiotics should be used only under veterinary prescription, ideally based on a culture and sensitivity test."),
+            },
+            {
+              topicId: "t-m19-amr",
+              type: "truefalse",
+              q: L("Oxytocin injection is recommended to make every cow let down her milk."),
+              answer: false,
+              explain: L("No — oxytocin is not recommended for milk let-down; only a vet may use it to treat specific conditions."),
+            },
+            {
+              topicId: "t-m19-amr",
+              type: "truefalse",
+              q: L("Toxins in milk from cows with sub-clinical mastitis may survive boiling."),
+              answer: true,
+              explain: L("Correct — some bacterial toxins are not destroyed by boiling and can make people ill."),
+            },
+          ],
+        },
+      },
+      // ==================================================================
+      // LESSON 2 — Deworming That Works
+      // Source: NDDB Farm Management Guideline (2026) "Deworming for bovines";
+      //         NDDB Handbook (2026 ed.) Health FAQs
+      // NOTE: the guideline's drug/mg-per-kg dose table is deliberately not
+      //       reproduced — ground staff notice and report; vets choose and dose.
+      // ==================================================================
+      {
+        id: "m19-l2",
+        title: L("Deworming That Works"),
+        estMinutes: 7,
+        hook: [
+          {
+            type: "hero",
+            heading: L("Why Some Deworming Does Nothing"),
+            text: L(
+              "Many farms deworm regularly and still have wormy, thin animals. Usually the problem isn't the medicine — it's how and when it is used. Module 6 introduced worms and the basic schedule. This lesson covers the updated NDDB timings and the common mistakes that make deworming fail."
+            ),
+          },
+        ],
+        topics: [
+          {
+            id: "t-m19-deworm-schedule",
+            title: L("When to Deworm"),
+            teach: [
+              {
+                type: "stat-grid",
+                items: [
+                  { label: L("Cattle calves"), text: L("First deworming at 7–14 days of age, after colostrum feeding.") },
+                  { label: L("Buffalo calves"), text: L("Earlier — at 3–7 days of age, after colostrum feeding.") },
+                  { label: L("Young calves"), text: L("May be dewormed monthly up to 6 months of age, as the vet advises.") },
+                  { label: L("Adults"), text: L("Strategic deworming 1–2 times a year, preferably before and/or after the rainy season.") },
+                  { label: L("Pregnant animals"), text: L("Near calving and again 6–7 weeks after calving, after consulting a vet.") },
+                  { label: L("Before vaccination"), text: L("Deworm about two weeks before vaccination for a better vaccine response.") },
+                ],
+              },
+              {
+                type: "callout",
+                style: "tip",
+                heading: L("Let the Dung Decide"),
+                text: L(
+                  "Where possible, a faecal (dung) examination and the vet's advice should guide when to deworm and which drug to use — based on worm load, age, season and signs such as diarrhoea, pot-belly, poor growth, weakness or anaemia."
+                ),
+              },
+            ],
+            check: [
+              {
+                type: "mcq",
+                q: L("At what age should buffalo calves first be dewormed?"),
+                options: [L("6 months"), L("2 years"), L("Never"), L("3–7 days")],
+                answer: 3,
+                explain: L("Buffalo calves are dewormed earlier, at 3–7 days; cattle calves at 7–14 days."),
+              },
+              {
+                type: "truefalse",
+                q: L("Deworming about two weeks before vaccination helps the vaccine work better."),
+                answer: true,
+                explain: L("Yes — the guideline advises deworming two weeks before vaccination."),
+              },
+            ],
+          },
+          {
+            id: "t-m19-deworm-failure",
+            title: L("Why Deworming Fails"),
+            teach: [
+              {
+                type: "stat-grid",
+                items: [
+                  { label: L("Under-dosing"), text: L("Giving less than the recommended dose — often by guessing the animal's weight too low.") },
+                  { label: L("No examination"), text: L("Dosing without examining the animal or its dung, so the wrong drug is used for the worm present.") },
+                  { label: L("Stressed animals"), text: L("Deworming animals just after transport or in extreme weather.") },
+                  { label: L("Only a few animals"), text: L("Deworming only some animals while the rest keep spreading worm eggs.") },
+                  { label: L("Same drug every time"), text: L("Repeating one drug class without checking results breeds worms that resist it.") },
+                ],
+              },
+              {
+                type: "callout",
+                style: "warning",
+                heading: L("Drugs and Doses Are for the Vet"),
+                text: L(
+                  "The choice of dewormer, the dose by body weight, and any milk withdrawal period are decided by a veterinarian. Your role is to keep the schedule, make sure the whole herd is covered, note which animals were missed, and report signs of heavy worm load."
+                ),
+              },
+            ],
+            check: [
+              {
+                type: "truefalse",
+                q: L("Deworming only the visibly thin animals in a herd is enough."),
+                answer: false,
+                explain: L("No — when only a few animals are dewormed, the rest keep contaminating the pasture and the treatment fails."),
+              },
+              {
+                type: "mcq",
+                q: L("Repeatedly using the same dewormer without checking whether it works can lead to:"),
+                options: [L("Better milk fat"), L("Faster calf growth"), L("Worms that are resistant to the drug"), L("Nothing at all")],
+                answer: 2,
+                explain: L("Repeated use of one drug class without monitoring favours anthelmintic (dewormer) resistance."),
+              },
+            ],
+          },
+        ],
+        finalQuiz: {
+          passScore: 70,
+          questions: [
+            {
+              topicId: "t-m19-deworm-schedule",
+              type: "mcq",
+              q: L("How often should adult cattle generally undergo strategic deworming?"),
+              options: [L("Every day"), L("1–2 times a year, around the rainy season"), L("Once in a lifetime"), L("Only when they die")],
+              answer: 1,
+              explain: L("Adults: strategic deworming 1–2 times a year, preferably before and/or after the rains."),
+            },
+            {
+              topicId: "t-m19-deworm-schedule",
+              type: "mcq",
+              q: L("When should cattle calves be dewormed for the first time?"),
+              options: [L("Within an hour of birth, before colostrum"), L("At 2 years"), L("At 7–14 days of age, after colostrum"), L("Only at weaning")],
+              answer: 2,
+              explain: L("Cattle calves are first dewormed at 7–14 days of age, after colostrum feeding."),
+            },
+            {
+              topicId: "t-m19-deworm-failure",
+              type: "mcq",
+              q: L("Which is a common reason deworming fails?"),
+              options: [L("Deworming the whole herd together"), L("Giving less than the recommended dose"), L("Following the vet's advice"), L("Checking the dung first")],
+              answer: 1,
+              explain: L("Under-dosing is one of the main reasons for deworming failure."),
+            },
+            {
+              topicId: "t-m19-deworm-failure",
+              type: "truefalse",
+              q: L("Ground staff should calculate and choose the dewormer dose themselves."),
+              answer: false,
+              explain: L("No — the drug and dose are for a veterinarian to decide; staff keep the schedule and report."),
+            },
+          ],
+        },
+      },
+      // ==================================================================
+      // LESSON 3 — Abortion: Causes and the Right Response
+      // Source: NDDB Farm Management Guideline (2026) abortion tables and
+      //         "Abortion management"
+      // ==================================================================
+      {
+        id: "m19-l3",
+        title: L("Abortion: Causes and the Right Response"),
+        estMinutes: 8,
+        hook: [
+          {
+            type: "hero",
+            heading: L("An Aborted Calf Can Be a Warning for the Whole Herd — and for People"),
+            text: L(
+              "When a pregnant animal loses her calf early, it is a loss for the farmer — but it may also be the first sign of a contagious disease such as brucellosis, which can infect other animals and people. How the aborted foetus and placenta are handled in the first hours really matters."
+            ),
+          },
+        ],
+        topics: [
+          {
+            id: "t-m19-abortion-causes",
+            title: L("Why Animals Abort"),
+            teach: [
+              {
+                type: "stat-grid",
+                items: [
+                  { label: L("Infections"), text: L("Often with fever and weakness — e.g. brucellosis, BVD, campylobacter, trichomonosis, leptospirosis.") },
+                  { label: L("Womb infection"), text: L("Metritis, with vaginal discharge, fever and discomfort.") },
+                  { label: L("Poor nutrition"), text: L("Lack of vitamin A, vitamin E, selenium, copper and similar nutrients.") },
+                  { label: L("Poisons"), text: L("Toxic plants or chemicals such as pesticides or lead.") },
+                  { label: L("Injury and stress"), text: L("Accidents, fighting, rough handling, heat stress, or long transport in late pregnancy.") },
+                  { label: L("Metabolic and genetic"), text: L("Ketosis or low calcium near calving, or defects in the calf itself.") },
+                ],
+              },
+              {
+                type: "stat-grid",
+                items: [
+                  { label: L("Brucella"), text: L("Usually 6th–9th month; the placenta is often retained.") },
+                  { label: L("Trichomonas and Campylobacter"), text: L("Earlier (2nd–5th month); spread mainly by breeding bulls — AI instead of natural service helps prevent them.") },
+                  { label: L("Neospora"), text: L("Typically mid-pregnancy; linked to dog faeces contaminating feed.") },
+                  { label: L("Leptospira"), text: L("Usually the last three months, 2–6 weeks after infection; linked to rodents and contaminated water.") },
+                ],
+              },
+            ],
+            check: [
+              {
+                type: "mcq",
+                q: L("Abortion in the 6th–9th month of pregnancy with a retained placenta is typical of which disease?"),
+                options: [L("Bloat"), L("Milk fever"), L("Brucellosis"), L("Ringworm")],
+                answer: 2,
+                explain: L("Brucella abortions usually happen in the 6th–9th month, often with retention of the placenta."),
+              },
+              {
+                type: "truefalse",
+                q: L("Using AI instead of natural service by a bull helps prevent some infectious causes of abortion."),
+                answer: true,
+                explain: L("Yes — trichomonosis and campylobacteriosis are spread mainly by bulls; AI avoids this route."),
+              },
+            ],
+          },
+          {
+            id: "t-m19-abortion-response",
+            title: L("What to Do When an Animal Aborts"),
+            teach: [
+              {
+                type: "timeline",
+                heading: L("The Right Steps, In Order"),
+                items: [
+                  { year: L("At once"), text: L("Isolate the animal. Keep other animals away from the foetus, placenta and soiled bedding.") },
+                  { year: L("Call"), text: L("Inform the veterinarian promptly for examination and sample collection.") },
+                  { year: L("Protect yourself"), text: L("Wear gloves and gumboots — never handle aborted material with bare hands.") },
+                  { year: L("Samples"), text: L("Send the foetus and placenta to a diagnostic laboratory if the vet advises.") },
+                  { year: L("Dispose"), text: L("Bury aborted material at least 4 feet deep with lime sprinkled over it, as the vet directs.") },
+                  { year: L("Disinfect"), text: L("After removing all organic matter, disinfect the area with an approved disinfectant (e.g. sodium hypochlorite) at the right dilution.") },
+                ],
+                result: L("Report any abortion with fever, retained placenta or abnormal discharge to a vet immediately."),
+              },
+              {
+                type: "callout",
+                style: "tip",
+                heading: L("Prevention"),
+                text: L(
+                  "Follow the vaccination schedule (including brucellosis vaccination of female calves), feed a balanced ration with minerals and vitamins, keep calving areas clean, buy only tested animals and quarantine them, avoid stress and long transport in late pregnancy, and record every breeding, pregnancy, calving and abortion."
+                ),
+              },
+            ],
+            check: [
+              {
+                type: "mcq",
+                q: L("What is the FIRST thing to do when an animal aborts?"),
+                options: [
+                  L("Feed the placenta to dogs"),
+                  L("Throw the foetus into the canal"),
+                  L("Isolate her and keep other animals away from the aborted material"),
+                  L("Do nothing — it happens"),
+                ],
+                answer: 2,
+                explain: L("Isolate the animal and prevent contact with the foetus, placenta and bedding, then call the vet."),
+              },
+              {
+                type: "truefalse",
+                q: L("It is safe to handle an aborted foetus with bare hands."),
+                answer: false,
+                explain: L("No — wear gloves and gumboots; diseases like brucellosis can infect people."),
+              },
+            ],
+          },
+        ],
+        finalQuiz: {
+          passScore: 70,
+          questions: [
+            {
+              topicId: "t-m19-abortion-causes",
+              type: "mcq",
+              q: L("Which nutrients does the guideline link to abortion when they are lacking?"),
+              options: [L("Only water"), L("Sugar"), L("None — nutrition never matters"), L("Vitamin A, vitamin E, selenium and copper")],
+              answer: 3,
+              explain: L("Deficiencies of vitamins A and E, selenium and copper can cause abortion."),
+            },
+            {
+              topicId: "t-m19-abortion-causes",
+              type: "mcq",
+              q: L("Neospora abortions are linked to which source?"),
+              options: [L("Clean water"), L("Dog faeces contaminating feed"), L("Green fodder"), L("Sunlight")],
+              answer: 1,
+              explain: L("Prevent dog faecal contamination of feed to control Neospora."),
+            },
+            {
+              topicId: "t-m19-abortion-response",
+              type: "mcq",
+              q: L("How deep should aborted material be buried?"),
+              options: [L("At least 4 feet, with lime over it"), L("A few inches"), L("It should be left in the open"), L("It should be burnt in the shed")],
+              answer: 0,
+              explain: L("Bury at least 4 feet deep and sprinkle lime, as directed by the vet."),
+            },
+            {
+              topicId: "t-m19-abortion-response",
+              type: "truefalse",
+              q: L("An abortion with fever or retained placenta should be reported to a vet immediately."),
+              answer: true,
+              explain: L("Yes — early diagnosis helps control spread, protect public health and reduce losses."),
+            },
+          ],
+        },
+      },
+      // ==================================================================
+      // LESSON 4 — Healthy Hooves, and When an Animal Should Leave the Herd
+      // Source: NDDB Farm Management Guideline (2026) "Hoof management" and
+      //         "Removal of animal from the herd"
+      // ==================================================================
+      {
+        id: "m19-l4",
+        title: L("Healthy Hooves, and When an Animal Should Leave the Herd"),
+        estMinutes: 9,
+        hook: [
+          {
+            type: "hero",
+            heading: L("A Lame Cow Is a Poor Cow"),
+            text: L(
+              "A cow in pain from her feet eats less, gives less milk and is more likely to get mastitis and womb infections. Many lameness problems can be prevented with clean floors, good feeding and regular trimming. And every herd eventually has animals that can no longer stay productive — knowing the fair, sensible criteria for removing them keeps the herd healthy."
+            ),
+          },
+        ],
+        topics: [
+          {
+            id: "t-m19-hoof-care",
+            title: L("Hoof Problems and How to Prevent Them"),
+            teach: [
+              {
+                type: "text",
+                heading: L("Know the Hoof"),
+                html: L(
+                  "Each foot has <b>two weight-bearing claws</b> and two small dewclaws. The hard outer <b>wall</b> protects; the softer <b>sole</b> bears weight; the <b>heel</b> absorbs shock; new horn grows from the <b>coronary band</b>; and the <b>white line</b> — where wall meets sole — is a common entry point for infection."
+                ),
+              },
+              {
+                type: "stat-grid",
+                items: [
+                  { label: L("Laminitis"), text: L("Inflamed sensitive tissue, often from feeding too much high-energy feed. Swelling, heat, reluctance to walk.") },
+                  { label: L("Foot rot"), text: L("Bacterial infection. Prevent with clean, dry floors, regular foot baths and good nutrition.") },
+                  { label: L("Digital dermatitis"), text: L("Contagious 'hairy heel warts'. Prevent with routine foot baths, hygiene and avoiding wet conditions.") },
+                  { label: L("White line disease and sole ulcers"), text: L("From too much pressure and uneven weight. Prevent with regular trimming, soft bedding and balanced feeding.") },
+                ],
+              },
+              {
+                type: "stat-grid",
+                items: [
+                  { label: L("Trim"), text: L("Preventive trimming twice a year by a trained person.") },
+                  { label: L("Floors"), text: L("Dry, clean floors with good drainage; no gravel in open areas; enough space to move.") },
+                  { label: L("Foot baths"), text: L("2–3 times a week in high-risk conditions; refresh the solution when it gets dirty.") },
+                  { label: L("Feed"), text: L("Balanced diets with biotin, zinc and methionine; avoid excess carbohydrates and acidosis.") },
+                  { label: L("Watch"), text: L("Look for lameness every day; isolate and treat lame animals promptly; keep hoof records.") },
+                ],
+              },
+            ],
+            check: [
+              {
+                type: "mcq",
+                q: L("How often should preventive hoof trimming be done?"),
+                options: [L("Every day"), L("Twice a year"), L("Never"), L("Once every 10 years")],
+                answer: 1,
+                explain: L("The guideline recommends preventive trimming twice yearly."),
+              },
+              {
+                type: "truefalse",
+                q: L("Lameness can increase the risk of mastitis and metritis."),
+                answer: true,
+                explain: L("Yes — hoof problems can raise the incidence of secondary problems like mastitis and metritis."),
+              },
+            ],
+          },
+          {
+            id: "t-m19-culling",
+            title: L("When an Animal Should Leave the Herd"),
+            teach: [
+              {
+                type: "glossary",
+                term: L("Culling (Removal From the Herd)"),
+                meaning: L("Taking an animal out of the productive herd because of health, production, reproduction or other problems, to protect the herd's health and the farm's economics."),
+              },
+              {
+                type: "stat-grid",
+                items: [
+                  { label: L("Chronic disease"), text: L("Johne's disease, tuberculosis, brucellosis; chronic or repeated mastitis not responding to treatment; persistent severe lameness.") },
+                  { label: L("Fertility"), text: L("Failing to conceive after many attempts, very long calving intervals, repeated difficult calvings or uterine prolapse.") },
+                  { label: L("End of productive life"), text: L("Based on health and lifetime milk production.") },
+                  { label: L("Genetics"), text: L("When her offspring consistently perform poorly.") },
+                  { label: L("Economics"), text: L("When treatment costs for a chronic problem outweigh the benefit.") },
+                  { label: L("Behaviour"), text: L("Aggressive animals that endanger people or other cows.") },
+                ],
+              },
+              {
+                type: "callout",
+                style: "info",
+                heading: L("Unproductive Doesn't Mean Abandoned"),
+                text: L(
+                  "Animals at the end of their productive life may be moved to a Gosadan or Panjrapole, or kept at the farmer's home if the farmer has the means. They should never simply be let loose."
+                ),
+              },
+            ],
+            check: [
+              {
+                type: "mcq",
+                q: L("Which of these is a recognised reason to remove an animal from the herd?"),
+                options: [L("Giving good milk"), L("A healthy calf at foot"), L("Being a calm animal"), L("Chronic mastitis that doesn't respond to treatment")],
+                answer: 3,
+                explain: L("Chronic, untreatable mastitis can spread infection and lower milk quality, so such animals may be removed."),
+              },
+              {
+                type: "truefalse",
+                q: L("Animals at the end of their productive life can be moved to a Gosadan or Panjrapole."),
+                answer: true,
+                explain: L("Yes — or kept at home if the farmer can afford to — rather than being abandoned."),
+              },
+            ],
+          },
+        ],
+        finalQuiz: {
+          passScore: 70,
+          questions: [
+            {
+              topicId: "t-m19-hoof-care",
+              type: "mcq",
+              q: L("Which part of the hoof is a common entry point for infection?"),
+              options: [L("The horn tip"), L("The white line, where wall meets sole"), L("The tail"), L("The dewlap")],
+              answer: 1,
+              explain: L("The white line, the junction between hoof wall and sole, is vulnerable to infection."),
+            },
+            {
+              topicId: "t-m19-hoof-care",
+              type: "mcq",
+              q: L("Which feeding mistake is most linked to laminitis?"),
+              options: [L("Plenty of good fodder"), L("Clean water"), L("Too much high-energy feed and carbohydrates"), L("Feeding at fixed times")],
+              answer: 2,
+              explain: L("Laminitis is often linked to nutritional imbalance — excess high-energy feed leading to acidosis."),
+            },
+            {
+              topicId: "t-m19-hoof-care",
+              type: "truefalse",
+              q: L("In high-risk conditions, foot baths may be used 2–3 times a week."),
+              answer: true,
+              explain: L("Correct — and the solution should be refreshed as it gets dirty."),
+            },
+            {
+              topicId: "t-m19-culling",
+              type: "mcq",
+              q: L("A cow repeatedly fails to conceive after many inseminations despite treatment. What might be considered?"),
+              options: [L("Giving her more concentrate forever"), L("Ignoring it"), L("Removal from the productive herd"), L("Breeding her every day")],
+              answer: 2,
+              explain: L("Animals that fail to conceive after multiple attempts may be culled to protect herd reproductive performance."),
+            },
+          ],
+        },
+      },
+    ],
+  },
+  {
+    id: "m20",
+    number: 20,
+    title: L("Indigenous Breeds of Cattle and Buffalo"),
+    subtitle: L("India's main dairy breeds and where they come from, how to choose the right type of animal, and why local breeds are so hardy."),
+    icon: "leaf",
+    available: true,
+    lessons: [
+      // ==================================================================
+      // LESSON 1 — Know the Breeds
+      // Source: NDDB Handbook (2026 ed.) inside covers (breeds and native tracts)
+      //         and Breeding FAQs 1–3
+      // ==================================================================
+      {
+        id: "m20-l1",
+        title: L("Know the Breeds and Their Home Tracts"),
+        estMinutes: 8,
+        hook: [
+          {
+            type: "hero",
+            heading: L("Every Breed Has a Home"),
+            text: L(
+              "India's dairy breeds were shaped over centuries by the land, climate and people of particular regions — their 'native tract'. Knowing the main breeds and where they come from helps you understand farmers' animals, the state breeding policy, and why a breed that thrives in one place may struggle in another."
+            ),
+          },
+        ],
+        topics: [
+          {
+            id: "t-m20-cattle-breeds",
+            title: L("Indigenous Dairy Cattle Breeds"),
+            teach: [
+              {
+                type: "photo",
+                src: "assets/photo-m2-healthy-signs.jpg",
+                alt: L("A Sahiwal cow with a glossy reddish-brown coat, standing alert on a dairy unit floor"),
+                caption: L("A Sahiwal cow — one of India's best-known indigenous dairy breeds."),
+              },
+              {
+                type: "stat-grid",
+                items: [
+                  { label: L("Gir"), text: L("Junagadh, Rajkot, Bhavnagar and Amreli districts of Gujarat.") },
+                  { label: L("Sahiwal"), text: L("Ferozpur and Amritsar districts of Punjab, and Sri Ganganagar district of Rajasthan.") },
+                  { label: L("Kankrej"), text: L("Kutch, Mehsana and Banaskantha districts of Gujarat.") },
+                  { label: L("Tharparkar"), text: L("Jaisalmer, Barmer and Jodhpur districts of Rajasthan.") },
+                  { label: L("Rathi"), text: L("Bikaner and Sri Ganganagar districts of Rajasthan.") },
+                  { label: L("Red Sindhi"), text: L("Originally from Pakistan; also found in Punjab, Haryana, Rajasthan and Uttarakhand.") },
+                  { label: L("Hariana"), text: L("Rohtak, Hisar, Sonepat, Gurgaon, Jind and Jhajjar districts of Haryana.") },
+                ],
+              },
+            ],
+            check: [
+              {
+                type: "mcq",
+                q: L("The Gir breed's native tract is in which state?"),
+                options: [L("Kerala"), L("Assam"), L("Gujarat"), L("Himachal Pradesh")],
+                answer: 2,
+                explain: L("Gir comes from the Junagadh, Rajkot, Bhavnagar and Amreli districts of Gujarat."),
+              },
+              {
+                type: "mcq",
+                q: L("Tharparkar cattle come from which dry region?"),
+                options: [L("Coastal Kerala"), L("Jaisalmer, Barmer and Jodhpur in Rajasthan"), L("The hills of Sikkim"), L("Delhi city")],
+                answer: 1,
+                explain: L("Tharparkar's native tract is the desert districts of Jaisalmer, Barmer and Jodhpur."),
+              },
+            ],
+          },
+          {
+            id: "t-m20-buffalo-breeds",
+            title: L("Buffalo Breeds, and Choosing the Right Animal"),
+            teach: [
+              {
+                type: "stat-grid",
+                items: [
+                  { label: L("Murrah"), text: L("Hisar, Rohtak, Gurgaon and Jind districts of Haryana.") },
+                  { label: L("Surti"), text: L("Anand, Kheda and Vadodara (Baroda) districts of Gujarat.") },
+                  { label: L("Mehsana (Mahesani)"), text: L("Mehsana, Banaskantha and Sabarkantha districts of Gujarat.") },
+                  { label: L("Pandharpuri"), text: L("Solapur, Sangli and Kolhapur districts of Maharashtra.") },
+                  { label: L("Nili Ravi"), text: L("Originally from Pakistan; found in the border districts of Ferozpur and Amritsar in Punjab.") },
+                  { label: L("Jaffarabadi"), text: L("Junagadh, Jamnagar, Rajkot, Bhavnagar, Porbandar and Amreli districts of Gujarat.") },
+                ],
+              },
+              {
+                type: "text",
+                heading: L("Indigenous, Crossbred or Buffalo?"),
+                html: L(
+                  "There is no single best animal — it depends on the farmer's <b>resources</b>, the <b>climate</b>, the availability of <b>feed, fodder and water</b>, <b>veterinary care</b>, and how milk is <b>priced</b>. In resource-poor conditions, <b>indigenous cattle and/or buffaloes</b> are preferred. Where resources are moderate to good, <b>crossbred cows</b> can be preferred. Where milk is paid mainly on <b>fat %</b>, <b>buffaloes</b> may be the better choice."
+                ),
+              },
+              {
+                type: "callout",
+                style: "tip",
+                heading: L("What Makes an Animal Profitable?"),
+                text: L(
+                  "The handbook's answer: one calf a year, resistance to disease, and the most milk or milk solids for the least input cost. Exotic breeds can produce a lot but are more disease-prone and need high-quality feed and plenty of water — which is why improving indigenous breeds matters for small farmers."
+                ),
+              },
+            ],
+            check: [
+              {
+                type: "mcq",
+                q: L("Murrah buffaloes come from which state?"),
+                options: [L("Tamil Nadu"), L("Odisha"), L("Manipur"), L("Haryana")],
+                answer: 3,
+                explain: L("Murrah's native tract is Hisar, Rohtak, Gurgaon and Jind districts of Haryana."),
+              },
+              {
+                type: "truefalse",
+                q: L("Where milk is paid mainly on fat percentage, buffaloes may be the preferred dairy animal."),
+                answer: true,
+                explain: L("Yes — buffalo milk is rich in fat, so they may be preferred where fat % drives the price."),
+              },
+            ],
+          },
+        ],
+        finalQuiz: {
+          passScore: 70,
+          questions: [
+            {
+              topicId: "t-m20-cattle-breeds",
+              type: "mcq",
+              q: L("Which of these is an indigenous dairy cattle breed from Haryana?"),
+              options: [L("Holstein-Friesian"), L("Hariana"), L("Jersey"), L("Murrah")],
+              answer: 1,
+              explain: L("Hariana cattle come from Rohtak, Hisar, Sonepat, Gurgaon, Jind and Jhajjar. (Murrah is a buffalo breed.)"),
+            },
+            {
+              topicId: "t-m20-cattle-breeds",
+              type: "mcq",
+              q: L("Kankrej cattle are native to which area?"),
+              options: [L("Kutch, Mehsana and Banaskantha in Gujarat"), L("Kolhapur in Maharashtra"), L("Amritsar in Punjab"), L("Bikaner in Rajasthan")],
+              answer: 0,
+              explain: L("Kankrej comes from the Kutch, Mehsana and Banaskantha districts of Gujarat."),
+            },
+            {
+              topicId: "t-m20-buffalo-breeds",
+              type: "mcq",
+              q: L("Which buffalo breed comes from Solapur, Sangli and Kolhapur in Maharashtra?"),
+              options: [L("Pandharpuri"), L("Surti"), L("Nili Ravi"), L("Jaffarabadi")],
+              answer: 0,
+              explain: L("Pandharpuri buffaloes are native to Solapur, Sangli and Kolhapur."),
+            },
+            {
+              topicId: "t-m20-buffalo-breeds",
+              type: "mcq",
+              q: L("In resource-poor conditions, which animals does the handbook suggest preferring?"),
+              options: [L("Pure exotic cattle"), L("Only high-yielding HF cows"), L("No animals at all"), L("Indigenous cattle and/or buffaloes")],
+              answer: 3,
+              explain: L("Indigenous cattle and buffaloes cope better with limited feed, water and veterinary care."),
+            },
+          ],
+        },
+      },
+      // ==================================================================
+      // LESSON 2 — Adaptability and Disease Resistance
+      // Source: NDDB Farm Management Guideline (2026) "Adaptability and disease
+      //         resistance in indigenous cattle and buffalo"
+      // ==================================================================
+      {
+        id: "m20-l2",
+        title: L("Why Indigenous Animals Are So Hardy"),
+        estMinutes: 8,
+        hook: [
+          {
+            type: "hero",
+            heading: L("Built for Indian Conditions"),
+            text: L(
+              "Indian cattle (Bos indicus) and buffaloes have lived with India's heat, droughts, ticks and germs for centuries. Natural selection has given them traits that exotic breeds simply don't have. Understanding these strengths — and their limits — helps farmers make sensible breeding and care decisions."
+            ),
+          },
+        ],
+        topics: [
+          {
+            id: "t-m20-adaptability",
+            title: L("Coping With Heat, Drought and Hardship"),
+            teach: [
+              {
+                type: "stat-grid",
+                items: [
+                  { label: L("Heat tolerance"), text: L("Indigenous cows cope with temperatures up to about 40.5°C, helped by sleek coats, loose skin, working sweat glands and a low metabolic rate.") },
+                  { label: L("Drought tolerance"), text: L("They make good use of scarce forage and water — e.g. Tharparkar and Ongole.") },
+                  { label: L("Hardiness"), text: L("They need less supplementary feed and intensive care, suiting low-input farming.") },
+                  { label: L("Natural insect repellent"), text: L("Dense sweat and oil glands produce secretions that help keep flies and mosquitoes away; thicker, mobile skin is a physical barrier.") },
+                  { label: L("Buffalo habits"), text: L("Buffaloes wallow and seek shade, which cools them and can reduce external parasites.") },
+                ],
+              },
+            ],
+            check: [
+              {
+                type: "truefalse",
+                q: L("Indigenous cows' sleek coat, loose skin and functional sweat glands help them lose heat better than exotic breeds."),
+                answer: true,
+                explain: L("Correct — these features let them tolerate temperatures up to about 40.5°C."),
+              },
+            ],
+          },
+          {
+            id: "t-m20-disease-resistance",
+            title: L("Natural Disease Resistance — and Its Limits"),
+            teach: [
+              {
+                type: "stat-grid",
+                items: [
+                  { label: L("Tick-borne diseases"), text: L("Indigenous cattle and buffaloes are far more tolerant of Theileria, Babesia and Anaplasma; crossbreds often get severe disease. Some breeds, like Vechur and Kasaragod Dwarf, carry almost no ticks.") },
+                  { label: L("Mastitis"), text: L("Clinical and sub-clinical mastitis are much less common in indigenous cows than in crossbred and exotic cows.") },
+                  { label: L("Other diseases"), text: L("Indigenous cattle also show better resistance to brucellosis, Johne's disease, TB, leptospirosis and others.") },
+                  { label: L("Buffaloes"), text: L("Generally more resistant to systemic infections; less affected by Lumpy Skin Disease than cattle; tolerant of brucellosis, TB and salmonellosis.") },
+                ],
+              },
+              {
+                type: "callout",
+                style: "warning",
+                heading: L("Resistant Is Not the Same as Immune"),
+                text: L(
+                  "No breed is completely immune. All cattle can get Foot-and-Mouth Disease, for example. Indigenous animals still need the same vaccination, biosecurity, good feeding, disease watching and veterinary care as crossbred and exotic animals."
+                ),
+              },
+              {
+                type: "text",
+                heading: L("Why Conservation Matters"),
+                html: L(
+                  "Breeding programmes that build on these natural strengths can reduce losses, improve welfare and cut the use of antibiotics. Genomic tools now help identify resistance genes. Conserving indigenous breeds keeps this genetic diversity alive — an important resource as the climate changes."
+                ),
+              },
+            ],
+            check: [
+              {
+                type: "truefalse",
+                q: L("Because indigenous cattle are disease-resistant, they don't need vaccination."),
+                answer: false,
+                explain: L("No — they are not immune. They need the same vaccination and care as other animals."),
+              },
+              {
+                type: "mcq",
+                q: L("Compared with crossbreds, how do indigenous cattle usually respond to Theileria infection?"),
+                options: [L("Much more severe disease"), L("They always die"), L("Theileria doesn't exist in India"), L("Milder disease and better survival")],
+                answer: 3,
+                explain: L("Indigenous breeds tend to have milder effects and higher survival rates than crossbreds."),
+              },
+            ],
+          },
+        ],
+        finalQuiz: {
+          passScore: 70,
+          questions: [
+            {
+              topicId: "t-m20-adaptability",
+              type: "mcq",
+              q: L("Up to roughly what temperature are indigenous cows adapted to thrive?"),
+              options: [L("About 40.5°C"), L("About 10°C"), L("About 60°C"), L("About 0°C")],
+              answer: 0,
+              explain: L("The guideline notes indigenous cows are adapted to temperatures up to about 40.5°C."),
+            },
+            {
+              topicId: "t-m20-adaptability",
+              type: "mcq",
+              q: L("Which two breeds does the guideline give as examples of drought- and heat-tolerant cattle?"),
+              options: [L("Tharparkar and Ongole"), L("Holstein and Jersey"), L("Murrah and Surti"), L("None")],
+              answer: 0,
+              explain: L("Tharparkar and Ongole are known for drought tolerance, heat resistance and disease resistance."),
+            },
+            {
+              topicId: "t-m20-disease-resistance",
+              type: "truefalse",
+              q: L("Mastitis is generally less common in indigenous cows than in crossbred and exotic cows."),
+              answer: true,
+              explain: L("Yes — linked to lower yields, udder shape and strong immunity in the udder."),
+            },
+            {
+              topicId: "t-m20-disease-resistance",
+              type: "mcq",
+              q: L("Which statement about indigenous breeds is correct?"),
+              options: [
+                L("They never get any disease"),
+                L("They are more resistant to many local diseases, but not immune"),
+                L("They get more tick fever than exotic cattle"),
+                L("They should not be conserved"),
+              ],
+              answer: 1,
+              explain: L("They have strong natural resistance but still need vaccination, biosecurity and good care."),
+            },
+          ],
+        },
+      },
+    ],
+  },
+  {
+    id: "m21",
+    number: 21,
+    title: L("Farm Records and Cost of Milk"),
+    subtitle: L("Working out what a litre of milk really costs, and keeping the simple records that turn guesswork into good decisions."),
+    icon: "clipboard",
+    available: true,
+    lessons: [
+      // ==================================================================
+      // LESSON 1 — What Does a Litre of Milk Cost?
+      // Source: NDDB Farm Management Guideline (2026) "Estimating per litre milk cost"
+      // ==================================================================
+      {
+        id: "m21-l1",
+        title: L("What Does a Litre of Milk Really Cost?"),
+        estMinutes: 8,
+        hook: [
+          {
+            type: "hero",
+            heading: L("Selling Milk Isn't the Same as Making Money"),
+            text: L(
+              "Many farmers know the price they get for a litre of milk, but not what it cost them to produce it. If the cost is higher than the price, every extra litre loses money. Working out the cost per litre is simple arithmetic — and it shows exactly where savings can be made."
+            ),
+          },
+        ],
+        topics: [
+          {
+            id: "t-m21-cost-parts",
+            title: L("The Parts of Milk Production Cost"),
+            teach: [
+              {
+                type: "glossary",
+                term: L("Variable Cost (VC)"),
+                meaning: L("Costs that go up or down with how much the farm produces — feed, fodder, hired labour, veterinary care, electricity, water."),
+              },
+              {
+                type: "glossary",
+                term: L("Fixed Cost (FC)"),
+                meaning: L("Costs that stay the same whatever the production — depreciation (wear and loss of value) on animals, sheds and equipment, and interest on money invested."),
+              },
+              {
+                type: "text",
+                heading: L("The Formula"),
+                html: L(
+                  "<b>Total Cost = Variable Cost + Fixed Cost</b><br><b>Cost per litre = Total Cost ÷ Total litres produced</b> in the same period.<br><br>Feed and fodder usually make up <b>60–70%</b> of the total cost. Family labour — often women's work — is a real cost too, even if no wage is paid."
+                ),
+              },
+              {
+                type: "ledger",
+                heading: L("Example: A Farmer With 2 Cows, One Month"),
+                rows: [
+                  { label: L("Feed and fodder"), amount: "₹3,000" },
+                  { label: L("Labour (family / hired)"), amount: "₹2,000" },
+                  { label: L("Veterinary care and medicines"), amount: "₹500" },
+                  { label: L("Utilities (water, electricity)"), amount: "₹300" },
+                  { label: L("Repairs and maintenance"), amount: "₹200" },
+                  { label: L("Depreciation (animals, shed, equipment)"), amount: "₹500" },
+                ],
+                total: { label: L("Total monthly cost"), amount: "₹6,500" },
+              },
+              {
+                type: "example",
+                heading: L("Working Out the Cost per Litre"),
+                text: L(
+                  "The two cows give 8 litres a day together. In 30 days: 8 × 30 = 240 litres. Cost per litre = ₹6,500 ÷ 240 = about ₹27.08. If the farmer is paid ₹35 a litre, the margin is about ₹7.92 a litre; if paid ₹25, they are losing about ₹2 on every litre."
+                ),
+              },
+            ],
+            check: [
+              {
+                type: "mcq",
+                q: L("Which of these is a variable cost?"),
+                options: [L("Depreciation on the shed"), L("Feed and fodder"), L("Interest on a loan for the shed"), L("None of these")],
+                answer: 1,
+                explain: L("Feed and fodder change with production, so they are variable costs. Depreciation and interest are fixed costs."),
+              },
+              {
+                type: "mcq",
+                q: L("A farm spends ₹9,000 in a month and produces 300 litres. What is the cost per litre?"),
+                options: [L("₹3"), L("₹300"), L("₹90"), L("₹30")],
+                answer: 3,
+                explain: L("₹9,000 ÷ 300 litres = ₹30 per litre."),
+              },
+            ],
+          },
+          {
+            id: "t-m21-cut-cost",
+            title: L("Break-Even and Ways to Cut the Cost"),
+            teach: [
+              {
+                type: "glossary",
+                term: L("Break-Even Point (BEP)"),
+                meaning: L("The minimum quantity of milk that must be produced and sold, at a given price, to cover all costs — with neither profit nor loss."),
+              },
+              {
+                type: "stat-grid",
+                items: [
+                  { label: L("Balance the ration"), text: L("Ration balancing improves feed efficiency and animal health.") },
+                  { label: L("Raise yield"), text: L("Better genetics and management spread the same fixed costs over more litres.") },
+                  { label: L("Cheaper fodder"), text: L("Grow green fodder, or join community fodder farms.") },
+                  { label: L("Prevent, don't cure"), text: L("Vaccination, deworming and early disease detection cut vet bills.") },
+                  { label: L("Use labour well"), text: L("Train family and hired workers and plan their time.") },
+                  { label: L("Keep records"), text: L("You can only cut costs you can see.") },
+                ],
+              },
+              {
+                type: "callout",
+                style: "tip",
+                heading: L("Other Useful Numbers"),
+                text: L(
+                  "Fodder cost per litre and the feed-to-variable-cost ratio show how efficiently feed is being turned into milk. Return on investment (ROI) helps decide whether buying more animals or equipment will pay off."
+                ),
+              },
+            ],
+            check: [
+              {
+                type: "truefalse",
+                q: L("At the break-even point, the farm makes neither a profit nor a loss."),
+                answer: true,
+                explain: L("Correct — it's the minimum milk sold at a given price that covers all costs."),
+              },
+              {
+                type: "mcq",
+                q: L("Why does higher milk yield usually lower the cost per litre?"),
+                options: [
+                  L("Feed becomes free"),
+                  L("The milk price goes down"),
+                  L("It doesn't change the cost per litre"),
+                  L("Fixed costs are spread over more litres"),
+                ],
+                answer: 3,
+                explain: L("Fixed costs stay the same, so more litres means less fixed cost per litre."),
+              },
+            ],
+          },
+        ],
+        finalQuiz: {
+          passScore: 70,
+          questions: [
+            {
+              topicId: "t-m21-cost-parts",
+              type: "mcq",
+              q: L("Roughly what share of milk production cost is usually feed and fodder?"),
+              options: [L("5%"), L("60–70%"), L("100%"), L("20%")],
+              answer: 1,
+              explain: L("Feed and fodder make up over 60–70% of the total cost."),
+            },
+            {
+              topicId: "t-m21-cost-parts",
+              type: "mcq",
+              q: L("Two cows give 10 litres a day together and the monthly cost is ₹7,500. What is the cost per litre (30 days)?"),
+              options: [L("₹25"), L("₹75"), L("₹250"), L("₹7.50")],
+              answer: 0,
+              explain: L("10 × 30 = 300 litres; ₹7,500 ÷ 300 = ₹25 per litre."),
+            },
+            {
+              topicId: "t-m21-cost-parts",
+              type: "truefalse",
+              q: L("Unpaid family labour should be ignored when working out the cost of milk."),
+              answer: false,
+              explain: L("No — family labour is a real part of the cost, even when no wage is paid."),
+            },
+            {
+              topicId: "t-m21-cut-cost",
+              type: "mcq",
+              q: L("Which of these is a recommended way to reduce cost per litre?"),
+              options: [L("Skipping vaccination"), L("Stopping all record keeping"), L("Feeding spoiled feed"), L("Ration balancing and growing green fodder")],
+              answer: 3,
+              explain: L("Ration balancing, home-grown fodder, preventive health care and good records all reduce cost per litre."),
+            },
+          ],
+        },
+      },
+      // ==================================================================
+      // LESSON 2 — Keeping Good Farm Records
+      // Source: NDDB Farm Management Guideline (2026) "Record keeping in a dairy farm"
+      // ==================================================================
+      {
+        id: "m21-l2",
+        title: L("Keeping Good Farm Records"),
+        estMinutes: 8,
+        hook: [
+          {
+            type: "hero",
+            heading: L("From Guesswork to Good Decisions"),
+            text: L(
+              "Which cow should be culled? Is the new feed working? When is the next vaccine due? Without records, every answer is a guess. Good records — even in a simple notebook — let the farmer, the vet and you see patterns and act in time."
+            ),
+          },
+        ],
+        topics: [
+          {
+            id: "t-m21-record-types",
+            title: L("What to Record"),
+            teach: [
+              {
+                type: "stat-grid",
+                items: [
+                  { label: L("Identification"), text: L("Animal ID / tag, breed, sex, date of birth, sire and dam, purchase or sale details.") },
+                  { label: L("Breeding"), text: L("Heat dates, service dates, bull or semen used, AI or natural, pregnancy check result, calving date and calf details.") },
+                  { label: L("Milk"), text: L("Morning and evening yield per animal, fat and SNF %, drying-off date, lactation length.") },
+                  { label: L("Health"), text: L("Disease, symptoms, diagnosis, drug and dose, vet's name, withdrawal period, recovery.") },
+                  { label: L("Vaccination and deworming"), text: L("Date, vaccine or dewormer, disease prevented, dose, maker, next due date, given by.") },
+                  { label: L("Feeding"), text: L("Group, feed type, quantity, number of animals, feed cost.") },
+                  { label: L("Calves"), text: L("Birth weight, colostrum given, growth, weaning, vaccinations, deaths.") },
+                  { label: L("Money"), text: L("Milk and animal sales, all expenses, labour, loans — and a monthly summary of income, costs and profit.") },
+                ],
+              },
+              {
+                type: "callout",
+                style: "info",
+                heading: L("What Records Make Possible"),
+                text: L(
+                  "Records are the basis for judging each animal, choosing which to keep or cull, planning breeding, progeny testing of bulls, economic feeding, pricing animals for sale, insurance claims, quality and traceability requirements, and working out the cost of milk."
+                ),
+              },
+            ],
+            check: [
+              {
+                type: "mcq",
+                q: L("Which detail belongs in a health and treatment record?"),
+                options: [L("The colour of the shed"), L("The neighbour's name"), L("The weather"), L("The milk withdrawal period of the drug used")],
+                answer: 3,
+                explain: L("Health records should include the drug, dose, vet, withdrawal period and recovery status."),
+              },
+              {
+                type: "truefalse",
+                q: L("Breeding records help work out services per conception and identify animals with poor fertility."),
+                answer: true,
+                explain: L("Yes — breeding and calving registers show services per conception and help in culling poor breeders."),
+              },
+            ],
+          },
+          {
+            id: "t-m21-record-practice",
+            title: L("How to Keep Records Well"),
+            teach: [
+              {
+                type: "stat-grid",
+                items: [
+                  { label: L("Same day"), text: L("Record every event on the day it happens.") },
+                  { label: L("Accurate"), text: L("Exact quantities, dates and names — no guessing.") },
+                  { label: L("Simple"), text: L("Formats that suit the workers' literacy — pictures or voice apps can help.") },
+                  { label: L("Safe"), text: L("Keep a backup and protect registers from damage.") },
+                  { label: L("Use them"), text: L("Review records regularly to improve feeding, management and culling decisions.") },
+                  { label: L("Teach"), text: L("Show workers and family members how and why to record.") },
+                ],
+              },
+              {
+                type: "text",
+                heading: L("Notebook, Chart or App?"),
+                html: L(
+                  "Small farms do well with <b>simple registers</b> or printed <b>herd cards and wall charts</b>. Spreadsheets help on growing farms, and dairy <b>apps</b> add reminders and dashboards. For tagged animals, services recorded in <b>Bharat Pashudhan</b> can be seen by the farmer in the <b>1962 app</b> (see Module 17)."
+                ),
+              },
+              {
+                type: "callout",
+                style: "info",
+                heading: L("Common Challenges"),
+                text: L(
+                  "Low literacy or digital skills, no standard formats, poor phone or computer access, selling milk to several buyers, and records that are kept but never used. Training, local-language and pictorial apps, and showing farmers the benefits all help."
+                ),
+              },
+            ],
+            check: [
+              {
+                type: "truefalse",
+                q: L("It's fine to write up a week's events from memory at the weekend."),
+                answer: false,
+                explain: L("No — record every event on the same day for accuracy."),
+              },
+            ],
+          },
+        ],
+        finalQuiz: {
+          passScore: 70,
+          questions: [
+            {
+              topicId: "t-m21-record-types",
+              type: "mcq",
+              q: L("Which record would show a cow's morning and evening yield and fat %?"),
+              options: [L("Milk production record"), L("Labour record"), L("Feed purchase record"), L("Animal identification record")],
+              answer: 0,
+              explain: L("Milk production records hold daily yields per animal, fat and SNF %, and drying-off dates."),
+            },
+            {
+              topicId: "t-m21-record-types",
+              type: "mcq",
+              q: L("A vaccination record should include:"),
+              options: [L("The milk price"), L("The next due date"), L("The calf's colour"), L("Nothing — vaccination needn't be recorded")],
+              answer: 1,
+              explain: L("Recording the next due date makes sure booster doses aren't missed."),
+            },
+            {
+              topicId: "t-m21-record-practice",
+              type: "mcq",
+              q: L("What is the main point of keeping farm records?"),
+              options: [
+                L("Only to show inspectors"),
+                L("To fill up notebooks"),
+                L("There is no real point"),
+                L("To review them and make better feeding, breeding, health and culling decisions"),
+              ],
+              answer: 3,
+              explain: L("Records turn guesswork into informed decisions — but only if they are reviewed and used."),
+            },
+            {
+              topicId: "t-m21-record-practice",
+              type: "truefalse",
+              q: L("Simple paper registers can work well on small farms."),
+              answer: true,
+              explain: L("Yes — notebooks and registers still work well on small farms; apps add value as farms grow."),
+            },
+          ],
+        },
+      },
     ],
   },
 ];
