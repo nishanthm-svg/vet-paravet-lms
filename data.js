@@ -2660,7 +2660,7 @@ export const MODULES = [
                       "ಎಷ್ಟು ಕಾಲ",
                       "कितने समय तक"
                     ),
-                    text: L("At least 3 weeks of isolation (2026 handbook), with no contact at all with the rest of the herd. The 2026 NDDB farm management guideline recommends at least 30 days, under veterinary guidance — and longer if the animal's health status is uncertain."),
+                    text: L("At least 3 weeks of isolation (2026 handbook), with no contact at all with the rest of the herd. The 2026 NDDB farm management guideline recommends at least 30 days, under veterinary guidance — and longer if the animal's health status is uncertain.", "కనీసం 3 వారాలు వేరుగా ఉంచాలి (2026 హ్యాండ్‌బుక్), మిగతా మందతో ఎలాంటి సంబంధం ఉండకూడదు. 2026 NDDB పశువుల ఫారం నిర్వహణ మార్గదర్శకం పశువైద్యుని పర్యవేక్షణలో కనీసం 30 రోజులు సిఫార్సు చేస్తుంది — పశువు ఆరోగ్య స్థితి అనుమానంగా ఉంటే ఇంకా ఎక్కువ రోజులు."),
                   },
                   {
                     label: L(
@@ -3827,279 +3827,247 @@ export const MODULES = [
   // ==================================================================
   {
     id: "m3-l3",
-    title: L("The First Weeks: Raising a Healthy Calf"),
+    title: L("The First Weeks: Raising a Healthy Calf", "మొదటి వారాలు: ఆరోగ్యకరమైన దూడను పెంచడం"),
     estMinutes: 10,
     hook: [
       {
         type: "hero",
-        heading: L("Surviving the First Day Is Only the Start"),
-        text: L(
-          "A calf that gets through its first day still has a risky few weeks ahead. NDDB's newer farm-management guideline adds practical detail to what you learned in Lesson 1 — how to help a calf that isn't breathing well, how to check whether colostrum is actually rich enough, and a simple month-by-month checklist for the first six months. Raising your own calf well is better than buying one from an unknown source."
-        ),
+        heading: L("Surviving the First Day Is Only the Start", "మొదటి రోజు బతకడం ఆరంభం మాత్రమే"),
+        text: L("A calf that gets through its first day still has a risky few weeks ahead. NDDB's newer farm-management guideline adds practical detail to what you learned in Lesson 1 — how to help a calf that isn't breathing well, how to check whether colostrum is actually rich enough, and a simple month-by-month checklist for the first six months. Raising your own calf well is better than buying one from an unknown source.", "మొదటి రోజు గడిచిన దూడకు ఇంకా ప్రమాదకరమైన కొన్ని వారాలు ముందున్నాయి. NDDB కొత్త ఫారం నిర్వహణ మార్గదర్శకం పాఠం 1లో మీరు నేర్చుకున్న దానికి ఉపయోగకరమైన వివరాలు జోడిస్తుంది — సరిగా శ్వాస తీసుకోని దూడకు ఎలా సహాయం చేయాలి, జున్ను నిజంగా తగినంత బలంగా ఉందో లేదో ఎలా చూడాలి, మొదటి ఆరు నెలలకు నెలవారీ సులభమైన చెక్‌లిస్ట్. తెలియని చోటు నుండి దూడను కొనడం కంటే మీ సొంత దూడను బాగా పెంచడం మేలు."),
       },
     ],
     topics: [
       {
         id: "t-m3-first-week",
-        title: L("Helping a Newborn Breathe, and the First Week's Checks"),
+        title: L("Helping a Newborn Breathe, and the First Week's Checks", "పుట్టిన దూడ శ్వాస తీసుకోవడానికి సహాయం, మొదటి వారం తనిఖీలు"),
         teach: [
           {
             type: "photo",
             src: "assets/photo-cow-newborn-calf.jpg",
-            alt: L("A cow standing with her newborn calf just after birth"),
-            caption: L("The first minutes and the first week are the most dangerous time in a calf's life — this is when close watching saves the most calves."),
+            alt: L("A cow standing with her newborn calf just after birth", "పుట్టిన వెంటనే తన దూడతో నిలబడి ఉన్న ఆవు"),
+            caption: L("The first minutes and the first week are the most dangerous time in a calf's life — this is when close watching saves the most calves.", "మొదటి నిమిషాలు, మొదటి వారం దూడ జీవితంలో అత్యంత ప్రమాదకరమైన సమయం — ఈ సమయంలో దగ్గరగా గమనిస్తే ఎక్కువ దూడలను కాపాడవచ్చు."),
           },
           {
             type: "text",
-            heading: L("If the Calf Is Not Breathing Well"),
-            html: L(
-              "Right after birth, clean the mucus out of the calf's nostrils and mouth. Then sit the calf up on its chest — front legs tucked under the body, head and neck stretched forward — so that both lungs can open fully. Rub the calf briskly with a clean towel, especially over the chest and ribs. Gently touching the inside of a nostril with a clean blade of straw or a clean finger can make the calf sneeze or gasp, which helps it start breathing."
-            ),
+            heading: L("If the Calf Is Not Breathing Well", "దూడ సరిగా శ్వాస తీసుకోకపోతే"),
+            html: L("Right after birth, clean the mucus out of the calf's nostrils and mouth. Then sit the calf up on its chest — front legs tucked under the body, head and neck stretched forward — so that both lungs can open fully. Rub the calf briskly with a clean towel, especially over the chest and ribs. Gently touching the inside of a nostril with a clean blade of straw or a clean finger can make the calf sneeze or gasp, which helps it start breathing.", "పుట్టిన వెంటనే దూడ ముక్కు రంధ్రాలు, నోటిలోని జిగురు (శ్లేష్మం) శుభ్రం చేయండి. తర్వాత దూడను ఛాతీ మీద కూర్చోబెట్టండి — ముందు కాళ్ళు శరీరం కిందకు మడిచి, తల, మెడ ముందుకు చాచి — అప్పుడు రెండు ఊపిరితిత్తులు పూర్తిగా తెరుచుకుంటాయి. శుభ్రమైన తువ్వాలుతో దూడను, ముఖ్యంగా ఛాతీ, పక్కటెముకల మీద, చురుగ్గా రుద్దండి. శుభ్రమైన గడ్డి పోచతో లేదా శుభ్రమైన వేలితో ముక్కు రంధ్రం లోపల మెల్లగా తాకితే దూడ తుమ్మవచ్చు లేదా గట్టిగా గాలి పీల్చవచ్చు — ఇది శ్వాస మొదలవడానికి సహాయపడుతుంది."),
           },
           {
             type: "glossary",
-            term: L("Sternal Recumbency"),
-            meaning: L(
-              "Sitting upright on the chest, with the front legs folded under the body and the head held up — the position that lets a newborn calf's lungs open properly. Lying flat on its side makes breathing harder."
-            ),
+            term: L("Sternal Recumbency", "ఛాతీ మీద కూర్చోవడం (స్టెర్నల్ రికంబెన్సీ)"),
+            meaning: L("Sitting upright on the chest, with the front legs folded under the body and the head held up — the position that lets a newborn calf's lungs open properly. Lying flat on its side makes breathing harder.", "ముందు కాళ్ళు శరీరం కిందకు మడిచి, తల పైకి ఎత్తి ఛాతీ మీద నిటారుగా కూర్చోవడం — ఈ స్థితిలో పుట్టిన దూడ ఊపిరితిత్తులు సరిగా తెరుచుకుంటాయి. పక్కకు చదునుగా పడుకుంటే శ్వాస కష్టమవుతుంది."),
           },
           {
             type: "callout",
             style: "warning",
-            heading: L("Still Not Breathing? Call for Help at Once"),
-            text: L(
-              "If breathing does not improve quickly, call the veterinarian immediately. Giving breaths into the nostrils or using a calf resuscitator is only for a trained person — it is easy to over-inflate a calf's lungs. Your job is the simple first steps above, and getting help fast."
-            ),
+            heading: L("Still Not Breathing? Call for Help at Once", "ఇంకా శ్వాస లేదా? వెంటనే సహాయం కోసం పిలవండి"),
+            text: L("If breathing does not improve quickly, call the veterinarian immediately. Giving breaths into the nostrils or using a calf resuscitator is only for a trained person — it is easy to over-inflate a calf's lungs. Your job is the simple first steps above, and getting help fast.", "శ్వాస త్వరగా మెరుగుపడకపోతే వెంటనే పశువైద్యుడిని పిలవండి. ముక్కు రంధ్రాల్లోకి గాలి ఊదడం లేదా దూడ రిససిటేటర్ వాడడం శిక్షణ పొందిన వ్యక్తి మాత్రమే చేయాలి — దూడ ఊపిరితిత్తుల్లో ఎక్కువ గాలి నింపడం సులభంగా జరిగిపోతుంది. పైన చెప్పిన సులభమైన మొదటి అడుగులు వేయడం, త్వరగా సహాయం తీసుకురావడం మీ పని."),
           },
           {
             type: "stat-grid",
             items: [
               {
-                label: L("Standing up"),
-                text: L("A healthy calf should stand within about 15–20 minutes of birth. A calf that cannot stand is worth reporting."),
+                label: L("Standing up", "లేచి నిలబడడం"),
+                text: L("A healthy calf should stand within about 15–20 minutes of birth. A calf that cannot stand is worth reporting.", "ఆరోగ్యకరమైన దూడ పుట్టిన సుమారు 15–20 నిమిషాల్లో నిలబడాలి. నిలబడలేని దూడ గురించి తెలియజేయాలి."),
               },
               {
-                label: L("Licking"),
-                text: L(
-                  "If the mother will not lick her calf, sprinkling a handful of bran or salt over the calf's body encourages her. If she still won't, or the weather is cold, dry the calf yourself with a dry cloth or gunny bag."
-                ),
+                label: L("Licking", "నాకడం"),
+                text: L("If the mother will not lick her calf, sprinkling a handful of bran or salt over the calf's body encourages her. If she still won't, or the weather is cold, dry the calf yourself with a dry cloth or gunny bag.", "తల్లి తన దూడను నాకకపోతే, దూడ శరీరం మీద గుప్పెడు తవుడు లేదా ఉప్పు చల్లితే తల్లి నాకడానికి ప్రోత్సాహం కలుగుతుంది. అప్పటికీ నాకకపోతే, లేదా వాతావరణం చల్లగా ఉంటే, పొడి గుడ్డతో లేదా గోనె సంచితో మీరే దూడను తుడవండి."),
               },
               {
-                label: L("First dung (meconium)"),
-                text: L(
-                  "The calf should pass its first dark, tarry dung within 4–6 hours of its first colostrum feed. If it hasn't, report it — the vet may advise a little castor oil, and will also check that the calf was born with a normal back passage."
-                ),
+                label: L("First dung (meconium)", "మొదటి పేడ (మెకోనియం)"),
+                text: L("The calf should pass its first dark, tarry dung within 4–6 hours of its first colostrum feed. If it hasn't, report it — the vet may advise a little castor oil, and will also check that the calf was born with a normal back passage.", "దూడ మొదటిసారి జున్ను తాగిన 4–6 గంటల్లో నల్లటి, తారులాంటి మొదటి పేడ వేయాలి. వేయకపోతే తెలియజేయండి — పశువైద్యుడు కొద్దిగా ఆముదం ఇవ్వమని సలహా ఇవ్వవచ్చు, దూడ మలద్వారం సాధారణంగా ఉందో లేదో కూడా చూస్తారు."),
               },
             ],
           },
           {
             type: "callout",
             style: "info",
-            heading: L("The First Seven Days Are Critical"),
-            text: L(
-              "Watch the calf closely every day of its first week for breathing trouble, dullness, weak suckling, diarrhoea or fever. Any one of these is a same-day report — calves can go downhill very fast."
-            ),
+            heading: L("The First Seven Days Are Critical", "మొదటి ఏడు రోజులు చాలా కీలకం"),
+            text: L("Watch the calf closely every day of its first week for breathing trouble, dullness, weak suckling, diarrhoea or fever. Any one of these is a same-day report — calves can go downhill very fast.", "మొదటి వారంలో ప్రతి రోజూ దూడను దగ్గరగా గమనించండి — శ్వాస ఇబ్బంది, మందకొడితనం, బలహీనంగా పాలు తాగడం, విరేచనాలు లేదా జ్వరం. వీటిలో ఏది కనిపించినా అదే రోజు తెలియజేయాలి — దూడలు చాలా వేగంగా దిగజారిపోగలవు."),
           },
           {
             type: "example",
-            heading: L("The Navel, Done in a Tie-First Order"),
-            text: L(
-              "Lesson 1 described cutting the cord and then tying it. NDDB's farm guideline describes the same job in a tie-first order: tie the cord with clean thread about 2.5–3 cm from the body, cut about 1.5 cm below the tie, then apply tincture of iodine (3.5% or stronger) for at least 30 seconds, and repeat the iodine after 12 hours. Either way, the goal is identical — a clean, dry, disinfected navel."
-            ),
+            heading: L("The Navel, Done in a Tie-First Order", "బొడ్డు: ముందు కట్టి, తర్వాత కోయడం"),
+            text: L("Lesson 1 described cutting the cord and then tying it. NDDB's farm guideline describes the same job in a tie-first order: tie the cord with clean thread about 2.5–3 cm from the body, cut about 1.5 cm below the tie, then apply tincture of iodine (3.5% or stronger) for at least 30 seconds, and repeat the iodine after 12 hours. Either way, the goal is identical — a clean, dry, disinfected navel.", "పాఠం 1లో బొడ్డు తాడును కోసి తర్వాత కట్టడం గురించి చెప్పాం. NDDB ఫారం మార్గదర్శకం ఇదే పనిని ముందు కట్టే క్రమంలో చెబుతుంది: శరీరం నుండి సుమారు 2.5–3 సెం.మీ. దూరంలో శుభ్రమైన దారంతో బొడ్డు తాడును కట్టండి, కట్టు కింద సుమారు 1.5 సెం.మీ. దగ్గర కోయండి, తర్వాత టింక్చర్ అయోడిన్ (3.5% లేదా అంతకంటే ఎక్కువ) కనీసం 30 సెకన్ల పాటు పూయండి, 12 గంటల తర్వాత మళ్ళీ అయోడిన్ పూయండి. ఏ పద్ధతిలో చేసినా లక్ష్యం ఒక్కటే — శుభ్రమైన, పొడిగా ఉన్న, క్రిమిరహితమైన బొడ్డు."),
           },
         ],
         check: [
           {
             type: "mcq",
-            q: L("Within about how long should a healthy newborn calf be able to stand?"),
-            options: [L("15–20 minutes"), L("6 hours"), L("2 days"), L("1 week")],
+            q: L("Within about how long should a healthy newborn calf be able to stand?", "ఆరోగ్యకరమైన కొత్తగా పుట్టిన దూడ సుమారు ఎంత సమయంలో నిలబడగలగాలి?"),
+            options: [L("15–20 minutes", "15–20 నిమిషాలు"), L("6 hours", "6 గంటలు"), L("2 days", "2 రోజులు"), L("1 week", "1 వారం")],
             answer: 0,
-            explain: L("A healthy calf usually stands within about 15–20 minutes of birth. If it can't, report it."),
+            explain: L("A healthy calf usually stands within about 15–20 minutes of birth. If it can't, report it.", "ఆరోగ్యకరమైన దూడ సాధారణంగా పుట్టిన సుమారు 15–20 నిమిషాల్లో నిలబడుతుంది. నిలబడలేకపోతే తెలియజేయండి."),
           },
           {
             type: "truefalse",
-            q: L("Sitting a weak newborn calf up on its chest helps both of its lungs open properly."),
+            q: L("Sitting a weak newborn calf up on its chest helps both of its lungs open properly.", "బలహీనంగా ఉన్న కొత్త దూడను ఛాతీ మీద కూర్చోబెడితే దాని రెండు ఊపిరితిత్తులు సరిగా తెరుచుకుంటాయి."),
             answer: true,
-            explain: L("Yes — sitting it up on its chest (sternal recumbency) with the head stretched forward lets both lungs expand."),
+            explain: L("Yes — sitting it up on its chest (sternal recumbency) with the head stretched forward lets both lungs expand.", "అవును — తల ముందుకు చాచి ఛాతీ మీద కూర్చోబెడితే (స్టెర్నల్ రికంబెన్సీ) రెండు ఊపిరితిత్తులు విస్తరిస్తాయి."),
           },
         ],
       },
       {
         id: "t-m3-colostrum-quality",
-        title: L("Is the Colostrum Rich Enough? Checking Its Quality"),
+        title: L("Is the Colostrum Rich Enough? Checking Its Quality", "జున్ను తగినంత బలంగా ఉందా? దాని నాణ్యతను పరీక్షించడం"),
         teach: [
           {
             type: "text",
-            heading: L("Not All Colostrum Is Equally Strong"),
-            html: L(
-              "Colostrum protects a calf because it is full of <b>antibodies</b> — the mother's ready-made defences against germs she has met in her life. But the amount of antibodies varies a lot from cow to cow. NDDB's farm guideline recommends checking colostrum before feeding it, using a small hand-held instrument called a <b>Brix refractometer</b>."
-            ),
+            heading: L("Not All Colostrum Is Equally Strong", "అన్ని జున్నులు ఒకే బలంతో ఉండవు"),
+            html: L("Colostrum protects a calf because it is full of <b>antibodies</b> — the mother's ready-made defences against germs she has met in her life. But the amount of antibodies varies a lot from cow to cow. NDDB's farm guideline recommends checking colostrum before feeding it, using a small hand-held instrument called a <b>Brix refractometer</b>.", "జున్ను దూడను కాపాడుతుంది, ఎందుకంటే అందులో <b>యాంటీబాడీలు</b> నిండి ఉంటాయి — తల్లి తన జీవితంలో ఎదుర్కొన్న క్రిములకు వ్యతిరేకంగా తయారైన రక్షణలు. కానీ యాంటీబాడీల పరిమాణం ఆవు ఆవుకు చాలా మారుతుంది. జున్ను తాగించే ముందు <b>బ్రిక్స్ రిఫ్రాక్టోమీటర్</b> అనే చిన్న చేతి పరికరంతో దాన్ని పరీక్షించాలని NDDB ఫారం మార్గదర్శకం సిఫార్సు చేస్తుంది."),
           },
           {
             type: "glossary",
-            term: L("Brix Refractometer"),
-            meaning: L(
-              "A small hand-held device. A few drops of colostrum are placed on it, and it shows a number (the Brix %) that tells you roughly how rich in antibodies the colostrum is. Higher is better."
-            ),
+            term: L("Brix Refractometer", "బ్రిక్స్ రిఫ్రాక్టోమీటర్"),
+            meaning: L("A small hand-held device. A few drops of colostrum are placed on it, and it shows a number (the Brix %) that tells you roughly how rich in antibodies the colostrum is. Higher is better.", "చేతిలో పట్టుకునే చిన్న పరికరం. దాని మీద కొన్ని చుక్కల జున్ను వేస్తే, అది ఒక సంఖ్య (బ్రిక్స్ %) చూపిస్తుంది — జున్నులో యాంటీబాడీలు సుమారు ఎంత ఉన్నాయో అది చెబుతుంది. ఎక్కువ ఉంటే మంచిది."),
           },
           {
             type: "stat-grid",
             items: [
-              { label: L("Brix 22% or more"), text: L("Good-quality colostrum (about 50 g of antibodies per litre or more) — use it.") },
+              { label: L("Brix 22% or more", "బ్రిక్స్ 22% లేదా అంతకంటే ఎక్కువ"), text: L("Good-quality colostrum (about 50 g of antibodies per litre or more) — use it.", "మంచి నాణ్యత గల జున్ను (లీటరుకు సుమారు 50 గ్రా. లేదా అంతకంటే ఎక్కువ యాంటీబాడీలు) — దీన్ని వాడండి.") },
               {
-                label: L("Brix 18% up to 22%"),
-                text: L(
-                  "Borderline — feed it, but top it up after talking to the vet: for example, with good colostrum (above 22%) from another healthy cow, or a commercial colostrum replacer."
-                ),
+                label: L("Brix 18% up to 22%", "బ్రిక్స్ 18% నుండి 22% వరకు"),
+                text: L("Borderline — feed it, but top it up after talking to the vet: for example, with good colostrum (above 22%) from another healthy cow, or a commercial colostrum replacer.", "సరిహద్దులో ఉంది — తాగించండి, కానీ పశువైద్యుడితో మాట్లాడి అదనంగా ఇవ్వండి: ఉదాహరణకు, మరో ఆరోగ్యకరమైన ఆవు యొక్క మంచి జున్ను (22% కంటే ఎక్కువ) లేదా మార్కెట్‌లో దొరికే జున్ను ప్రత్యామ్నాయం (కొలొస్ట్రమ్ రీప్లేసర్)."),
               },
-              { label: L("Brix below 18%"), text: L("Too weak to protect the calf — discard it and use a better source.") },
+              { label: L("Brix below 18%", "బ్రిక్స్ 18% కంటే తక్కువ"), text: L("Too weak to protect the calf — discard it and use a better source.", "దూడను కాపాడడానికి చాలా బలహీనంగా ఉంది — దీన్ని పారవేసి మంచి జున్ను వాడండి.") },
             ],
           },
           {
             type: "stat-grid",
             items: [
-              { label: L("Calf weighing 35 kg or more"), text: L("Needs about 300 g of antibodies (IgG) in total from colostrum.") },
-              { label: L("Calf weighing under 35 kg"), text: L("Needs about 225 g of antibodies in total.") },
+              { label: L("Calf weighing 35 kg or more", "35 కిలోలు లేదా అంతకంటే ఎక్కువ బరువున్న దూడ"), text: L("Needs about 300 g of antibodies (IgG) in total from colostrum.", "జున్ను నుండి మొత్తం సుమారు 300 గ్రా. యాంటీబాడీలు (IgG) అవసరం.") },
+              { label: L("Calf weighing under 35 kg", "35 కిలోల కంటే తక్కువ బరువున్న దూడ"), text: L("Needs about 225 g of antibodies in total.", "మొత్తం సుమారు 225 గ్రా. యాంటీబాడీలు అవసరం.") },
               {
-                label: L("First feed — within 2 hours"),
-                text: L("With good colostrum (Brix 22%+): 3–4 litres, giving roughly 150–200 g of antibodies."),
+                label: L("First feed — within 2 hours", "మొదటి సారి — 2 గంటల్లోపు"),
+                text: L("With good colostrum (Brix 22%+): 3–4 litres, giving roughly 150–200 g of antibodies.", "మంచి జున్నుతో (బ్రిక్స్ 22%+): 3–4 లీటర్లు, దీని ద్వారా సుమారు 150–200 గ్రా. యాంటీబాడీలు అందుతాయి."),
               },
               {
-                label: L("Second feed — 6–12 hours later"),
-                text: L("Another 1.5–2 litres, giving roughly 75–100 g more."),
+                label: L("Second feed — 6–12 hours later", "రెండవ సారి — 6–12 గంటల తర్వాత"),
+                text: L("Another 1.5–2 litres, giving roughly 75–100 g more.", "మరో 1.5–2 లీటర్లు, దీని ద్వారా సుమారు 75–100 గ్రా. అదనంగా అందుతాయి."),
               },
             ],
           },
           {
             type: "callout",
             style: "info",
-            heading: L("How This Fits With Lesson 1"),
-            text: L(
-              "Lesson 1 gave the handbook's simple rule — at least 2 litres within 2 hours and 1–2 litres more within 12 hours. When the colostrum has been checked and is good, the farm guideline aims a little higher (3–4 litres in the first 2 hours). As a rough upper limit, colostrum can be fed up to about one-tenth of the calf's body weight. Either way, the first 2 hours are the golden window."
-            ),
+            heading: L("How This Fits With Lesson 1", "ఇది పాఠం 1తో ఎలా సరిపోతుంది"),
+            text: L("Lesson 1 gave the handbook's simple rule — at least 2 litres within 2 hours and 1–2 litres more within 12 hours. When the colostrum has been checked and is good, the farm guideline aims a little higher (3–4 litres in the first 2 hours). As a rough upper limit, colostrum can be fed up to about one-tenth of the calf's body weight. Either way, the first 2 hours are the golden window.", "పాఠం 1లో హ్యాండ్‌బుక్ ఇచ్చిన సులభమైన నియమం చెప్పాం — 2 గంటల్లోపు కనీసం 2 లీటర్లు, 12 గంటల్లోపు మరో 1–2 లీటర్లు. జున్నును పరీక్షించి అది మంచిదని తేలితే, ఫారం మార్గదర్శకం కొంచెం ఎక్కువ లక్ష్యం పెడుతుంది (మొదటి 2 గంటల్లో 3–4 లీటర్లు). సుమారు గరిష్ఠ పరిమితిగా, దూడ శరీర బరువులో దాదాపు పదో వంతు వరకు జున్ను తాగించవచ్చు. ఏ విధంగా చూసినా, మొదటి 2 గంటలు బంగారు సమయం."),
           },
           {
             type: "callout",
             style: "tip",
-            heading: L("Your Role"),
-            text: L(
-              "If the farm has a Brix refractometer, help make sure it is actually used before the first feed, and pass the reading on. Deciding how to supplement weak colostrum is for the vet."
-            ),
+            heading: L("Your Role", "మీ పాత్ర"),
+            text: L("If the farm has a Brix refractometer, help make sure it is actually used before the first feed, and pass the reading on. Deciding how to supplement weak colostrum is for the vet.", "ఫారంలో బ్రిక్స్ రిఫ్రాక్టోమీటర్ ఉంటే, మొదటి సారి తాగించే ముందు దాన్ని నిజంగా వాడేలా చూడండి, రీడింగ్‌ను తెలియజేయండి. బలహీనమైన జున్నుకు అదనంగా ఏమి ఇవ్వాలో నిర్ణయించేది పశువైద్యుడు."),
           },
         ],
         check: [
           {
             type: "mcq",
-            q: L("A colostrum sample reads 16% on the Brix refractometer. What does the guideline say?"),
-            options: [L("Use it — any colostrum is fine"), L("Discard it — it is too weak to protect the calf"), L("Dilute it with water"), L("Feed it only after 24 hours")],
+            q: L("A colostrum sample reads 16% on the Brix refractometer. What does the guideline say?", "ఒక జున్ను నమూనా బ్రిక్స్ రిఫ్రాక్టోమీటర్‌పై 16% చూపిస్తోంది. మార్గదర్శకం ఏమి చెబుతుంది?"),
+            options: [L("Use it — any colostrum is fine", "వాడండి — ఏ జున్నైనా సరే"), L("Discard it — it is too weak to protect the calf", "పారవేయండి — దూడను కాపాడడానికి ఇది చాలా బలహీనంగా ఉంది"), L("Dilute it with water", "నీటితో పలుచన చేయండి"), L("Feed it only after 24 hours", "24 గంటల తర్వాత మాత్రమే తాగించండి")],
             answer: 1,
-            explain: L("Below 18% Brix the colostrum is too weak and should be discarded; 22% and above is good quality."),
+            explain: L("Below 18% Brix the colostrum is too weak and should be discarded; 22% and above is good quality.", "బ్రిక్స్ 18% కంటే తక్కువ ఉంటే జున్ను చాలా బలహీనం, దాన్ని పారవేయాలి; 22% మరియు అంతకంటే ఎక్కువ మంచి నాణ్యత."),
           },
           {
             type: "truefalse",
-            q: L("Colostrum with a Brix reading of 22% or more is considered good quality."),
+            q: L("Colostrum with a Brix reading of 22% or more is considered good quality.", "బ్రిక్స్ రీడింగ్ 22% లేదా అంతకంటే ఎక్కువ ఉన్న జున్ను మంచి నాణ్యత గలదిగా పరిగణిస్తారు."),
             answer: true,
-            explain: L("Correct — 22% or more means roughly 50 g of antibodies per litre or more."),
+            explain: L("Correct — 22% or more means roughly 50 g of antibodies per litre or more.", "సరైనది — 22% లేదా అంతకంటే ఎక్కువ అంటే లీటరుకు సుమారు 50 గ్రా. లేదా అంతకంటే ఎక్కువ యాంటీబాడీలు."),
           },
         ],
       },
       {
         id: "t-m3-calfhood",
-        title: L("Calf-Hood Checklist: The First Six Months"),
+        title: L("Calf-Hood Checklist: The First Six Months", "దూడ దశ చెక్‌లిస్ట్: మొదటి ఆరు నెలలు"),
         teach: [
           {
             type: "timeline",
-            heading: L("A Calf's First Six Months, Step by Step"),
+            heading: L("A Calf's First Six Months, Step by Step", "దూడ మొదటి ఆరు నెలలు, అడుగడుగునా"),
             items: [
-              { year: L("Week 1–2"), text: L("Fix a permanent ID — an ear tag is the usual choice — within the first 1–2 weeks.") },
+              { year: L("Week 1–2", "వారం 1–2"), text: L("Fix a permanent ID — an ear tag is the usual choice — within the first 1–2 weeks.", "మొదటి 1–2 వారాల్లో శాశ్వత గుర్తింపు అమర్చండి — సాధారణంగా చెవి ట్యాగ్.") },
               {
-                year: L("Day 7–14 (buffalo calves: day 3–7)"),
-                text: L("First deworming, then roughly monthly until 6 months of age, as advised by the vet."),
+                year: L("Day 7–14 (buffalo calves: day 3–7)", "రోజు 7–14 (గేదె దూడలు: రోజు 3–7)"),
+                text: L("First deworming, then roughly monthly until 6 months of age, as advised by the vet.", "మొదటి నట్టల నివారణ, తర్వాత పశువైద్యుని సలహా మేరకు 6 నెలల వయసు వరకు సుమారు నెలకు ఒకసారి."),
               },
-              { year: L("Week 1 onward"), text: L("Start calf starter feed (see below) to build up the rumen and support growth.") },
+              { year: L("Week 1 onward", "వారం 1 నుండి"), text: L("Start calf starter feed (see below) to build up the rumen and support growth.", "రుమెన్ అభివృద్ధికి, పెరుగుదలకు సహాయంగా కాఫ్ స్టార్టర్ దాణా (కింద చూడండి) మొదలుపెట్టండి.") },
               {
-                year: L("Before 2–3 months"),
-                text: L("Disbudding (removing horn buds) and removal of any extra teats — done under veterinary supervision with pain relief."),
+                year: L("Before 2–3 months", "2–3 నెలల లోపు"),
+                text: L("Disbudding (removing horn buds) and removal of any extra teats — done under veterinary supervision with pain relief.", "కొమ్ము మొగ్గలు తీసివేయడం (డిస్‌బడ్డింగ్), అదనపు చనుమొనలు ఉంటే తీసివేయడం — పశువైద్యుని పర్యవేక్షణలో నొప్పి నివారణతో చేయాలి."),
               },
               {
-                year: L("Before 3 months"),
-                text: L("Castration of male calves not kept for breeding — the bloodless (Burdizzo) method is preferred young; done under veterinary supervision."),
+                year: L("Before 3 months", "3 నెలల లోపు"),
+                text: L("Castration of male calves not kept for breeding — the bloodless (Burdizzo) method is preferred young; done under veterinary supervision.", "సంతానోత్పత్తికి ఉంచని మగ దూడలకు విత్తులు తీయడం (కాస్ట్రేషన్) — చిన్న వయసులో రక్తం రాని (బర్డిజో) పద్ధతి మేలు; పశువైద్యుని పర్యవేక్షణలో చేయాలి."),
               },
-              { year: L("Until 3 months"), text: L("No vaccines — the protection from colostrum is still working in the calf's body.") },
+              { year: L("Until 3 months", "3 నెలల వరకు"), text: L("No vaccines — the protection from colostrum is still working in the calf's body.", "టీకాలు వద్దు — జున్ను ఇచ్చిన రక్షణ ఇంకా దూడ శరీరంలో పని చేస్తూ ఉంటుంది.") },
               {
-                year: L("4–8 months"),
-                text: L("FMD vaccine from about 4 months (then every 6 months); brucellosis vaccine once, for female calves only, between 4 and 8 months."),
+                year: L("4–8 months", "4–8 నెలలు"),
+                text: L("FMD vaccine from about 4 months (then every 6 months); brucellosis vaccine once, for female calves only, between 4 and 8 months.", "సుమారు 4 నెలల నుండి FMD టీకా (తర్వాత ప్రతి 6 నెలలకు); బ్రూసెల్లోసిస్ టీకా ఒక్కసారి, ఆడ దూడలకు మాత్రమే, 4 నుండి 8 నెలల మధ్య."),
               },
             ],
-            result: L("Every one of these dates is something you can track and remind the farmer about — none of the procedures are yours to perform."),
+            result: L("Every one of these dates is something you can track and remind the farmer about — none of the procedures are yours to perform.", "ఈ తేదీలన్నీ మీరు గుర్తుపెట్టుకుని రైతుకు గుర్తు చేయవచ్చు — ఈ ప్రక్రియలు ఏవీ మీరు చేయాల్సినవి కావు."),
           },
           {
             type: "glossary",
-            term: L("Weaning"),
-            meaning: L(
-              "Stopping a calf from suckling its mother. With 'early weaning' the calf never suckles — the cow is milked and the calf is fed colostrum and then milk (or milk replacer) by hand. Where cows have a strong mothering instinct, such as Indian breeds and buffaloes, early weaning is hard, so weaning is often done at 3–4 months instead."
-            ),
+            term: L("Weaning", "పాలు మాన్పించడం (వీనింగ్)"),
+            meaning: L("Stopping a calf from suckling its mother. With 'early weaning' the calf never suckles — the cow is milked and the calf is fed colostrum and then milk (or milk replacer) by hand. Where cows have a strong mothering instinct, such as Indian breeds and buffaloes, early weaning is hard, so weaning is often done at 3–4 months instead.", "దూడ తల్లి దగ్గర పాలు తాగడం ఆపించడం. 'ముందస్తు వీనింగ్'లో దూడ అసలు తల్లి దగ్గర పాలు తాగదు — ఆవు పాలు పిండి, దూడకు జున్ను, తర్వాత పాలు (లేదా మిల్క్ రీప్లేసర్) చేత్తో తాగిస్తారు. భారతీయ జాతులు, గేదెల వంటి బలమైన తల్లి ప్రేమ ఉన్న పశువుల్లో ముందస్తు వీనింగ్ కష్టం, అందుకే తరచుగా 3–4 నెలల వయసులో వీనింగ్ చేస్తారు."),
           },
           {
             type: "ledger",
-            heading: L("Example Calf Starter (approximate percentages)"),
+            heading: L("Example Calf Starter (approximate percentages)", "కాఫ్ స్టార్టర్ ఉదాహరణ (సుమారు శాతాలు)"),
             rows: [
-              { label: L("Maize"), amount: "52%" },
-              { label: L("Oats"), amount: "20%" },
-              { label: L("Soyabean meal"), amount: "20%" },
-              { label: L("Molasses"), amount: "5%" },
-              { label: L("Minerals (macro and micro)"), amount: "1.5%" },
-              { label: L("Vitamins"), amount: "1%" },
-              { label: L("Salt"), amount: "0.5%" },
+              { label: L("Maize", "మొక్కజొన్న"), amount: "52%" },
+              { label: L("Oats", "ఓట్స్"), amount: "20%" },
+              { label: L("Soyabean meal", "సోయాబీన్ పిండి (సోయాబీన్ మీల్)"), amount: "20%" },
+              { label: L("Molasses", "మొలాసిస్ (చెరకు మడ్డి)"), amount: "5%" },
+              { label: L("Minerals (macro and micro)", "ఖనిజాలు (స్థూల మరియు సూక్ష్మ)"), amount: "1.5%" },
+              { label: L("Vitamins", "విటమిన్లు"), amount: "1%" },
+              { label: L("Salt", "ఉప్పు"), amount: "0.5%" },
             ],
-            total: { label: L("Total"), amount: "100%" },
+            total: { label: L("Total", "మొత్తం"), amount: "100%" },
           },
           {
             type: "stat-grid",
             items: [
               {
-                label: L("Normal birth weights"),
-                text: L("Indigenous calves about 20–30 kg; crossbred 25–35 kg; Holstein-Friesian 35–45 kg; buffalo calves 30–40 kg."),
+                label: L("Normal birth weights", "సాధారణ పుట్టుక బరువులు"),
+                text: L("Indigenous calves about 20–30 kg; crossbred 25–35 kg; Holstein-Friesian 35–45 kg; buffalo calves 30–40 kg.", "దేశీ దూడలు సుమారు 20–30 కిలోలు; సంకర జాతి 25–35 కిలోలు; హోల్‌స్టీన్-ఫ్రీషియన్ 35–45 కిలోలు; గేదె దూడలు 30–40 కిలోలు."),
               },
               {
-                label: L("Healthy growth"),
-                text: L(
-                  "Before weaning, indigenous and buffalo calves should gain about 0.5–0.8 kg a day; well-managed crossbred and exotic calves about 0.7–1.0 kg a day."
-                ),
+                label: L("Healthy growth", "ఆరోగ్యకరమైన పెరుగుదల"),
+                text: L("Before weaning, indigenous and buffalo calves should gain about 0.5–0.8 kg a day; well-managed crossbred and exotic calves about 0.7–1.0 kg a day.", "పాలు మాన్పించే ముందు, దేశీ మరియు గేదె దూడలు రోజుకు సుమారు 0.5–0.8 కిలోలు పెరగాలి; బాగా చూసుకునే సంకర జాతి, విదేశీ జాతి దూడలు రోజుకు సుమారు 0.7–1.0 కిలోలు."),
               },
               {
-                label: L("When to weigh"),
-                text: L("At birth, and where possible at 7, 14, 21, 30, 60, 90, 120, 150 and 180 days — so slow growth is spotted early."),
+                label: L("When to weigh", "ఎప్పుడు బరువు చూడాలి"),
+                text: L("At birth, and where possible at 7, 14, 21, 30, 60, 90, 120, 150 and 180 days — so slow growth is spotted early.", "పుట్టినప్పుడు, వీలైతే 7, 14, 21, 30, 60, 90, 120, 150, 180 రోజులకు — అప్పుడు నెమ్మదిగా పెరగడం ముందుగానే తెలుస్తుంది."),
               },
             ],
           },
           {
             type: "callout",
             style: "warning",
-            heading: L("The Three Big Calf Killers"),
-            text: L(
-              "Most calf deaths come from just three problems: diarrhoea, pneumonia (a lung infection — watch for fast or difficult breathing and nasal discharge) and navel or joint ill (a swollen, hot, painful navel or joints). Reporting any of these on the first day you notice them is the single best thing you can do to lower calf deaths."
-            ),
+            heading: L("The Three Big Calf Killers", "దూడలను చంపే మూడు పెద్ద సమస్యలు"),
+            text: L("Most calf deaths come from just three problems: diarrhoea, pneumonia (a lung infection — watch for fast or difficult breathing and nasal discharge) and navel or joint ill (a swollen, hot, painful navel or joints). Reporting any of these on the first day you notice them is the single best thing you can do to lower calf deaths.", "ఎక్కువ దూడల మరణాలు కేవలం మూడు సమస్యల వల్లే వస్తాయి: విరేచనాలు, న్యుమోనియా (ఊపిరితిత్తుల ఇన్ఫెక్షన్ — వేగంగా లేదా కష్టంగా శ్వాస, ముక్కు నుండి కారడం గమనించండి), బొడ్డు లేదా కీళ్ళ వ్యాధి (వాచిన, వేడిగా, నొప్పిగా ఉన్న బొడ్డు లేదా కీళ్ళు). వీటిలో ఏదైనా గమనించిన మొదటి రోజే తెలియజేయడం దూడ మరణాలు తగ్గించడానికి మీరు చేయగల ఒకే ఒక్క అత్యుత్తమ పని."),
           },
         ],
         check: [
           {
             type: "truefalse",
-            q: L("Calves should be vaccinated in their first month of life, before colostrum protection starts."),
+            q: L("Calves should be vaccinated in their first month of life, before colostrum protection starts.", "జున్ను రక్షణ మొదలయ్యే ముందే, దూడలకు జీవితంలో మొదటి నెలలోనే టీకాలు వేయాలి."),
             answer: false,
-            explain: L("No — no vaccine should be given before about 3 months, because the protection from colostrum is still active and can block the vaccine."),
+            explain: L("No — no vaccine should be given before about 3 months, because the protection from colostrum is still active and can block the vaccine.", "కాదు — సుమారు 3 నెలల ముందు ఏ టీకా ఇవ్వకూడదు, ఎందుకంటే జున్ను ఇచ్చిన రక్షణ ఇంకా పనిచేస్తూ ఉంటుంది, అది టీకాను అడ్డుకోగలదు."),
           },
           {
             type: "mcq",
-            q: L("Which three problems cause most calf deaths?"),
+            q: L("Which three problems cause most calf deaths?", "ఏ మూడు సమస్యల వల్ల ఎక్కువ దూడలు చనిపోతాయి?"),
             options: [
-              L("Bloat, laminitis and milk fever"),
-              L("Ticks, lice and flies"),
-              L("Diarrhoea, pneumonia, and navel/joint ill"),
-              L("Mastitis, ketosis and foot rot"),
+              L("Bloat, laminitis and milk fever", "కడుపు ఉబ్బరం, లామినైటిస్, మిల్క్ ఫీవర్"),
+              L("Ticks, lice and flies", "పేలు, పేను, ఈగలు"),
+              L("Diarrhoea, pneumonia, and navel/joint ill", "విరేచనాలు, న్యుమోనియా, బొడ్డు/కీళ్ళ వ్యాధి"),
+              L("Mastitis, ketosis and foot rot", "మాస్టిటిస్, కీటోసిస్, కాళ్ళ కుళ్ళు"),
             ],
             answer: 2,
-            explain: L("Calf diarrhoea, calf pneumonia and navel/joint ill are the main causes of calf deaths — early reporting saves calves."),
+            explain: L("Calf diarrhoea, calf pneumonia and navel/joint ill are the main causes of calf deaths — early reporting saves calves.", "దూడ విరేచనాలు, దూడ న్యుమోనియా, బొడ్డు/కీళ్ళ వ్యాధి దూడల మరణాలకు ప్రధాన కారణాలు — ముందుగా తెలియజేస్తే దూడలు బతుకుతాయి."),
           },
         ],
       },
@@ -4110,56 +4078,56 @@ export const MODULES = [
         {
           topicId: "t-m3-first-week",
           type: "mcq",
-          q: L("A newborn calf has not passed its first dark, tarry dung 6 hours after its first colostrum feed. What should you do?"),
-          options: [L("Nothing — it can take a week"), L("Report it to the owner or vet"), L("Stop feeding it colostrum"), L("Give it plain water only")],
+          q: L("A newborn calf has not passed its first dark, tarry dung 6 hours after its first colostrum feed. What should you do?", "కొత్తగా పుట్టిన దూడ మొదటిసారి జున్ను తాగిన 6 గంటల తర్వాత కూడా నల్లటి, తారులాంటి మొదటి పేడ వేయలేదు. మీరు ఏమి చేయాలి?"),
+          options: [L("Nothing — it can take a week", "ఏమీ చేయవద్దు — దీనికి ఒక వారం పట్టవచ్చు"), L("Report it to the owner or vet", "యజమానికి లేదా పశువైద్యుడికి తెలియజేయండి"), L("Stop feeding it colostrum", "జున్ను తాగించడం ఆపేయండి"), L("Give it plain water only", "కేవలం మంచినీళ్ళు మాత్రమే ఇవ్వండి")],
           answer: 1,
-          explain: L("The first dung (meconium) should pass within 4–6 hours of the first colostrum feed. If it hasn't, report it — the vet will decide what to do."),
+          explain: L("The first dung (meconium) should pass within 4–6 hours of the first colostrum feed. If it hasn't, report it — the vet will decide what to do.", "మొదటి పేడ (మెకోనియం) మొదటిసారి జున్ను తాగిన 4–6 గంటల్లో రావాలి. రాకపోతే తెలియజేయండి — ఏమి చేయాలో పశువైద్యుడు నిర్ణయిస్తారు."),
         },
         {
           topicId: "t-m3-first-week",
           type: "truefalse",
-          q: L("If a mother will not lick her calf, sprinkling a handful of bran or salt on the calf can encourage her."),
+          q: L("If a mother will not lick her calf, sprinkling a handful of bran or salt on the calf can encourage her.", "తల్లి తన దూడను నాకకపోతే, దూడ మీద గుప్పెడు తవుడు లేదా ఉప్పు చల్లితే ఆమె నాకడానికి ప్రోత్సాహం కలుగుతుంది."),
           answer: true,
-          explain: L("Yes. If she still won't lick, or it is cold, dry the calf with a dry cloth or gunny bag."),
+          explain: L("Yes. If she still won't lick, or it is cold, dry the calf with a dry cloth or gunny bag.", "అవును. అప్పటికీ నాకకపోతే, లేదా చల్లగా ఉంటే, పొడి గుడ్డతో లేదా గోనె సంచితో దూడను తుడవండి."),
         },
         {
           topicId: "t-m3-colostrum-quality",
           type: "mcq",
-          q: L("What does a Brix refractometer tell you about colostrum?"),
-          options: [L("Its temperature"), L("Roughly how rich it is in antibodies"), L("How much fat the cow's milk will have later"), L("Whether the calf is male or female")],
+          q: L("What does a Brix refractometer tell you about colostrum?", "బ్రిక్స్ రిఫ్రాక్టోమీటర్ జున్ను గురించి ఏమి చెబుతుంది?"),
+          options: [L("Its temperature", "దాని ఉష్ణోగ్రత"), L("Roughly how rich it is in antibodies", "అందులో యాంటీబాడీలు సుమారు ఎంత ఉన్నాయో"), L("How much fat the cow's milk will have later", "తర్వాత ఆవు పాలలో ఎంత వెన్న ఉంటుందో"), L("Whether the calf is male or female", "దూడ మగదా ఆడదా అని")],
           answer: 1,
-          explain: L("The Brix reading shows roughly how rich the colostrum is in antibodies — 22% or more is good quality."),
+          explain: L("The Brix reading shows roughly how rich the colostrum is in antibodies — 22% or more is good quality.", "బ్రిక్స్ రీడింగ్ జున్నులో యాంటీబాడీలు సుమారు ఎంత ఉన్నాయో చూపిస్తుంది — 22% లేదా అంతకంటే ఎక్కువ అంటే మంచి నాణ్యత."),
         },
         {
           topicId: "t-m3-colostrum-quality",
           type: "mcq",
-          q: L("With good-quality colostrum, how much does the farm guideline aim to give within the first 2 hours?"),
-          options: [L("About 200 ml"), L("About 3–4 litres"), L("About 10 litres"), L("None — wait until the next day")],
+          q: L("With good-quality colostrum, how much does the farm guideline aim to give within the first 2 hours?", "మంచి నాణ్యత గల జున్నుతో, మొదటి 2 గంటల్లో ఎంత ఇవ్వాలని ఫారం మార్గదర్శకం లక్ష్యం పెడుతుంది?"),
+          options: [L("About 200 ml", "సుమారు 200 మి.లీ."), L("About 3–4 litres", "సుమారు 3–4 లీటర్లు"), L("About 10 litres", "సుమారు 10 లీటర్లు"), L("None — wait until the next day", "ఏమీ వద్దు — మరుసటి రోజు వరకు ఆగండి")],
           answer: 1,
-          explain: L("With colostrum of Brix 22% or more, the guideline aims for 3–4 litres within 2 hours, then 1.5–2 litres 6–12 hours later."),
+          explain: L("With colostrum of Brix 22% or more, the guideline aims for 3–4 litres within 2 hours, then 1.5–2 litres 6–12 hours later.", "బ్రిక్స్ 22% లేదా అంతకంటే ఎక్కువ ఉన్న జున్నుతో, మార్గదర్శకం 2 గంటల్లో 3–4 లీటర్లు, తర్వాత 6–12 గంటల తర్వాత 1.5–2 లీటర్లు లక్ష్యంగా పెడుతుంది."),
         },
         {
           topicId: "t-m3-calfhood",
           type: "mcq",
-          q: L("By when should a calf ideally get its permanent ID such as an ear tag?"),
-          options: [L("Within its first 1–2 weeks"), L("At 2 years"), L("Only when it is sold"), L("Never — calves don't need ID")],
+          q: L("By when should a calf ideally get its permanent ID such as an ear tag?", "చెవి ట్యాగ్ వంటి శాశ్వత గుర్తింపు దూడకు ఎప్పటిలోగా వేయడం మంచిది?"),
+          options: [L("Within its first 1–2 weeks", "మొదటి 1–2 వారాల్లోపు"), L("At 2 years", "2 సంవత్సరాలకు"), L("Only when it is sold", "అమ్మినప్పుడు మాత్రమే"), L("Never — calves don't need ID", "ఎప్పుడూ వద్దు — దూడలకు గుర్తింపు అవసరం లేదు")],
           answer: 0,
-          explain: L("Tagging should be completed within the first 1–2 weeks of life."),
+          explain: L("Tagging should be completed within the first 1–2 weeks of life.", "ట్యాగింగ్ జీవితంలో మొదటి 1–2 వారాల్లోపు పూర్తి చేయాలి."),
         },
         {
           topicId: "t-m3-calfhood",
           type: "truefalse",
-          q: L("Disbudding, castration and removing extra teats should be done under veterinary supervision with proper pain relief."),
+          q: L("Disbudding, castration and removing extra teats should be done under veterinary supervision with proper pain relief.", "కొమ్ము మొగ్గలు తీయడం, విత్తులు తీయడం, అదనపు చనుమొనలు తీయడం పశువైద్యుని పర్యవేక్షణలో సరైన నొప్పి నివారణతో చేయాలి."),
           answer: true,
-          explain: L("Correct — these are procedures for a trained person. Your role is to track the timing and remind the farmer."),
+          explain: L("Correct — these are procedures for a trained person. Your role is to track the timing and remind the farmer.", "సరైనది — ఇవి శిక్షణ పొందిన వ్యక్తి చేయాల్సిన ప్రక్రియలు. సమయాన్ని గుర్తుపెట్టుకుని రైతుకు గుర్తు చేయడం మీ పాత్ర."),
         },
         {
           topicId: "t-m3-calfhood",
           type: "mcq",
-          q: L("Roughly what daily weight gain should a well-managed crossbred calf achieve before weaning?"),
-          options: [L("About 50 grams"), L("About 0.7–1.0 kg"), L("About 5 kg"), L("Weight doesn't need watching")],
+          q: L("Roughly what daily weight gain should a well-managed crossbred calf achieve before weaning?", "బాగా చూసుకునే సంకర జాతి దూడ పాలు మాన్పించే ముందు రోజుకు సుమారు ఎంత బరువు పెరగాలి?"),
+          options: [L("About 50 grams", "సుమారు 50 గ్రాములు"), L("About 0.7–1.0 kg", "సుమారు 0.7–1.0 కిలోలు"), L("About 5 kg", "సుమారు 5 కిలోలు"), L("Weight doesn't need watching", "బరువును గమనించాల్సిన అవసరం లేదు")],
           answer: 1,
-          explain: L("Crossbred and exotic calves should gain about 0.7–1.0 kg a day; indigenous and buffalo calves about 0.5–0.8 kg a day."),
+          explain: L("Crossbred and exotic calves should gain about 0.7–1.0 kg a day; indigenous and buffalo calves about 0.5–0.8 kg a day.", "సంకర జాతి, విదేశీ జాతి దూడలు రోజుకు సుమారు 0.7–1.0 కిలోలు పెరగాలి; దేశీ, గేదె దూడలు రోజుకు సుమారు 0.5–0.8 కిలోలు."),
         },
       ],
     },
@@ -4665,7 +4633,7 @@ export const MODULES = [
             type: "callout",
             style: "warning",
             heading: L("If an Animal Is Bitten by a Dog", "పశువును కుక్క కరిస్తే", "விலங்கை நாய் கடித்தால்", "ಪ್ರಾಣಿಗೆ ನಾಯಿ ಕಚ್ಚಿದರೆ", "अगर किसी पशु को कुत्ता काट ले"),
-            text: L("Wash the wound immediately under running water for 5–10 minutes (or pour clean water from a vessel if there is no tap), gently clean it with ordinary soap, apply tincture iodine, and take the animal to the vet right away — post-bite vaccination may be needed. This is urgent, not something to wait on."),
+            text: L("Wash the wound immediately under running water for 5–10 minutes (or pour clean water from a vessel if there is no tap), gently clean it with ordinary soap, apply tincture iodine, and take the animal to the vet right away — post-bite vaccination may be needed. This is urgent, not something to wait on.", "వెంటనే గాయాన్ని పారుతున్న నీటి కింద 5–10 నిమిషాలు కడగండి (కుళాయి లేకపోతే పాత్రతో శుభ్రమైన నీరు పోయండి), సాధారణ సబ్బుతో మెల్లగా శుభ్రం చేయండి, టింక్చర్ అయోడిన్ పూయండి, పశువును వెంటనే పశువైద్యుని దగ్గరకు తీసుకెళ్ళండి — కాటు తర్వాత టీకా అవసరం కావచ్చు. ఇది అత్యవసరం, వేచి చూడాల్సిన విషయం కాదు."),
           },
           {
             type: "text",
@@ -4886,7 +4854,7 @@ export const MODULES = [
           {
             type: "text",
             heading: L("General Vaccination Timing by Disease", "వ్యాధి వారీగా సాధారణ టీకా సమయం", "நோய் வாரியாக பொதுவான தடுப்பூசி நேரம்", "ರೋಗವಾರು ಸಾಮಾನ್ಯ ಲಸಿಕೆ ಸಮಯ", "बीमारी के हिसाब से टीकाकरण का आम समय"),
-            html: L("There are 8 diseases with a routine vaccination schedule shown below. Rabies, further down, is different — it is given only after a bite."),
+            html: L("There are 8 diseases with a routine vaccination schedule shown below. Rabies, further down, is different — it is given only after a bite.", "కింద చూపిన సాధారణ టీకా షెడ్యూల్ ఉన్న వ్యాధులు 8. కింద ఉన్న రేబిస్ వేరు — అది కాటు తర్వాత మాత్రమే ఇస్తారు."),
           },
           {
             type: "stat-grid",
@@ -4900,10 +4868,10 @@ export const MODULES = [
           {
             type: "stat-grid",
             items: [
-              { label: L("Theileriosis (crossbred/exotic cattle only)", "థైలేరియోసిస్ (సంకర జాతి/విదేశీ పశువులకు మాత్రమే)", "தைலேரியோசிஸ் (கலப்பின/வெளிநாட்டு மாடுகளுக்கு மட்டும்)", "ಥೈಲೇರಿಯೋಸಿಸ್ (ಮಿಶ್ರತಳಿ/ವಿದೇಶಿ ದನಗಳಿಗೆ ಮಾತ್ರ)", "थाइलेरियोसिस (सिर्फ़ संकर/विदेशी नस्ल के पशुओं के लिए)"), text: L("From 3 months old. Repeat doses: the 2026 NDDB farm guideline says once in a lifetime, while the 2026 handbook says revaccinate every year — follow the vet and the state programme.") },
+              { label: L("Theileriosis (crossbred/exotic cattle only)", "థైలేరియోసిస్ (సంకర జాతి/విదేశీ పశువులకు మాత్రమే)", "தைலேரியோசிஸ் (கலப்பின/வெளிநாட்டு மாடுகளுக்கு மட்டும்)", "ಥೈಲೇರಿಯೋಸಿಸ್ (ಮಿಶ್ರತಳಿ/ವಿದೇಶಿ ದನಗಳಿಗೆ ಮಾತ್ರ)", "थाइलेरियोसिस (सिर्फ़ संकर/विदेशी नस्ल के पशुओं के लिए)"), text: L("From 3 months old. Repeat doses: the 2026 NDDB farm guideline says once in a lifetime, while the 2026 handbook says revaccinate every year — follow the vet and the state programme.", "3 నెలల వయసు నుండి. మళ్ళీ వేయడం: 2026 NDDB ఫారం మార్గదర్శకం జీవితంలో ఒక్కసారి అంటుంది, 2026 హ్యాండ్‌బుక్ ప్రతి సంవత్సరం మళ్ళీ వేయాలంటుంది — పశువైద్యుని, రాష్ట్ర కార్యక్రమాన్ని అనుసరించండి.") },
               { label: L("Anthrax", "ఆంత్రాక్స్", "ஆந்த்ராக்ஸ்", "ಆಂಥ್ರಾಕ್ಸ್", "एंथ्रेक्स"), text: L("From 4 months old; annually, in endemic areas", "4 నెలల వయసు నుండి; వ్యాధి తరచుగా వచ్చే ప్రాంతాల్లో ప్రతి సంవత్సరం", "4 மாத வயதிலிருந்து; நோய் தொடர்ந்து காணப்படும் பகுதிகளில் ஆண்டுதோறும்", "4 ತಿಂಗಳ ವಯಸ್ಸಿನಿಂದ; ರೋಗ ಆಗಾಗ್ಗೆ ಕಂಡುಬರುವ ಪ್ರದೇಶಗಳಲ್ಲಿ ವರ್ಷಕ್ಕೊಮ್ಮೆ", "4 महीने की उम्र से; बीमारी वाले (एंडेमिक) इलाकों में हर साल") },
-              { label: L("IBR", "IBR", "IBR", "IBR", "IBR"), text: L("From 3 months old; booster 1 month later; then every 6 months (the IBR vaccine is presently not produced in India)") },
-              { label: L("Lumpy Skin Disease (LSD)"), text: L("From 4 months old; annually") },
+              { label: L("IBR", "IBR", "IBR", "IBR", "IBR"), text: L("From 3 months old; booster 1 month later; then every 6 months (the IBR vaccine is presently not produced in India)", "3 నెలల వయసు నుండి; 1 నెల తర్వాత బూస్టర్; తర్వాత ప్రతి 6 నెలలకు (IBR టీకా ప్రస్తుతం భారతదేశంలో తయారు కావడం లేదు)") },
+              { label: L("Lumpy Skin Disease (LSD)", "లంపీ స్కిన్ డిసీజ్ (LSD)"), text: L("From 4 months old; annually", "4 నెలల వయసు నుండి; ప్రతి సంవత్సరం") },
             ],
           },
           {
@@ -5096,47 +5064,43 @@ export const MODULES = [
       },
       {
         id: "t-m4-vaccination-day",
-        title: L("Vaccination Day: Doing It Right"),
+        title: L("Vaccination Day: Doing It Right", "టీకా రోజు: సరిగ్గా చేయడం"),
         teach: [
           {
             type: "callout",
             style: "warning",
-            heading: L("No Ice Box, No Vaccination"),
-            text: L(
-              "Vaccines spoil at room temperature and then give no protection. If a vaccinator arrives without the vaccine in an ice box (cold chain), the animals should not be vaccinated. Repeated freezing and thawing also ruins vaccine."
-            ),
+            heading: L("No Ice Box, No Vaccination", "ఐస్ బాక్స్ లేదంటే, టీకా లేదు"),
+            text: L("Vaccines spoil at room temperature and then give no protection. If a vaccinator arrives without the vaccine in an ice box (cold chain), the animals should not be vaccinated. Repeated freezing and thawing also ruins vaccine.", "గది ఉష్ణోగ్రతలో టీకాలు చెడిపోతాయి, తర్వాత ఎలాంటి రక్షణ ఇవ్వవు. టీకా వేసే వ్యక్తి ఐస్ బాక్స్ (కోల్డ్ చైన్)లో టీకా లేకుండా వస్తే, పశువులకు టీకా వేయించకూడదు. మళ్ళీ మళ్ళీ గడ్డకట్టడం, కరగడం వల్ల కూడా టీకా పాడవుతుంది."),
           },
           {
             type: "stat-grid",
             items: [
-              { label: L("Do not vaccinate"), text: L("Sick animals, animals that calved in the last 3–4 weeks, and calves under 3–4 months old.") },
-              { label: L("Pregnant animals"), text: L("Can be vaccinated safely — but avoid the last month of pregnancy, when restraining her could injure her or the calf.") },
-              { label: L("Deworm first"), text: L("Deworming about two weeks before vaccination gives a better vaccine response.") },
-              { label: L("Cover the herd"), text: L("Over 80% of animals should be vaccinated for herd immunity — vaccinating only a few doesn't protect the village.") },
-              { label: L("Combined vaccines"), text: L("Combined vaccines against FMD, HS and BQ are now available for cattle and buffaloes.") },
+              { label: L("Do not vaccinate", "టీకా వేయకూడనివి"), text: L("Sick animals, animals that calved in the last 3–4 weeks, and calves under 3–4 months old.", "జబ్బుతో ఉన్న పశువులు, గత 3–4 వారాల్లో ఈనిన పశువులు, 3–4 నెలల లోపు దూడలు.") },
+              { label: L("Pregnant animals", "చూడి పశువులు"), text: L("Can be vaccinated safely — but avoid the last month of pregnancy, when restraining her could injure her or the calf.", "సురక్షితంగా టీకా వేయవచ్చు — కానీ చూడి చివరి నెలలో వద్దు, అప్పుడు పట్టి ఉంచితే ఆమెకు లేదా దూడకు గాయం కావచ్చు.") },
+              { label: L("Deworm first", "ముందు నట్టల నివారణ"), text: L("Deworming about two weeks before vaccination gives a better vaccine response.", "టీకాకు సుమారు రెండు వారాల ముందు నట్టల నివారణ మందు ఇస్తే టీకా బాగా పనిచేస్తుంది.") },
+              { label: L("Cover the herd", "మంద మొత్తానికి వేయండి"), text: L("Over 80% of animals should be vaccinated for herd immunity — vaccinating only a few doesn't protect the village.", "మంద రోగనిరోధక శక్తి కోసం 80% కంటే ఎక్కువ పశువులకు టీకా వేయాలి — కొన్నింటికి మాత్రమే వేస్తే గ్రామానికి రక్షణ ఉండదు.") },
+              { label: L("Combined vaccines", "కలిపిన టీకాలు"), text: L("Combined vaccines against FMD, HS and BQ are now available for cattle and buffaloes.", "పశువులు, గేదెలకు FMD, HS, BQ కి కలిపిన టీకాలు ఇప్పుడు అందుబాటులో ఉన్నాయి.") },
             ],
           },
           {
             type: "text",
-            heading: L("During an FMD Outbreak"),
-            html: L(
-              "Inside a village already hit by FMD, healthy-looking animals are usually <b>not</b> vaccinated, because they may already be incubating the disease. Instead, <b>ring vaccination</b> is done — starting 2–3 km away from the infected village and moving inward towards it — along with strict control on the movement of animals, feed, fodder and people. Always follow the State Animal Husbandry Department's current programme."
-            ),
+            heading: L("During an FMD Outbreak", "FMD వ్యాప్తి సమయంలో"),
+            html: L("Inside a village already hit by FMD, healthy-looking animals are usually <b>not</b> vaccinated, because they may already be incubating the disease. Instead, <b>ring vaccination</b> is done — starting 2–3 km away from the infected village and moving inward towards it — along with strict control on the movement of animals, feed, fodder and people. Always follow the State Animal Husbandry Department's current programme.", "ఇప్పటికే FMD వచ్చిన గ్రామంలో, ఆరోగ్యంగా కనిపించే పశువులకు సాధారణంగా టీకా <b>వేయరు</b>, ఎందుకంటే వాటిలో వ్యాధి ఇప్పటికే లోపల పెరుగుతూ ఉండవచ్చు. బదులుగా <b>రింగ్ వ్యాక్సినేషన్</b> చేస్తారు — వ్యాధి సోకిన గ్రామం నుండి 2–3 కి.మీ. దూరం నుండి మొదలుపెట్టి లోపలికి గ్రామం వైపు వస్తారు — దానితో పాటు పశువులు, దాణా, మేత, మనుషుల రాకపోకలపై కఠిన నియంత్రణ ఉంటుంది. ఎప్పుడూ రాష్ట్ర పశుసంవర్ధక శాఖ ప్రస్తుత కార్యక్రమాన్ని అనుసరించండి."),
           },
         ],
         check: [
           {
             type: "truefalse",
-            q: L("If the vaccinator has not brought the vaccine in an ice box, it is still fine to go ahead."),
+            q: L("If the vaccinator has not brought the vaccine in an ice box, it is still fine to go ahead.", "టీకా వేసే వ్యక్తి టీకాను ఐస్ బాక్స్‌లో తీసుకురాకపోయినా, టీకా వేయించడం పర్వాలేదు."),
             answer: false,
-            explain: L("No — vaccine kept outside the cold chain spoils and won't protect the animal."),
+            explain: L("No — vaccine kept outside the cold chain spoils and won't protect the animal.", "కాదు — కోల్డ్ చైన్ బయట ఉంచిన టీకా చెడిపోతుంది, పశువుకు రక్షణ ఇవ్వదు."),
           },
           {
             type: "mcq",
-            q: L("Which animal should NOT be vaccinated today?"),
-            options: [L("A cow that calved 10 days ago"), L("A healthy 6-month-old heifer"), L("A healthy cow 4 months pregnant"), L("A healthy dry cow")],
+            q: L("Which animal should NOT be vaccinated today?", "ఈ రోజు ఏ పశువుకు టీకా వేయకూడదు?"),
+            options: [L("A cow that calved 10 days ago", "10 రోజుల క్రితం ఈనిన ఆవు"), L("A healthy 6-month-old heifer", "ఆరోగ్యంగా ఉన్న 6 నెలల పెయ్య"), L("A healthy cow 4 months pregnant", "4 నెలల చూడితో ఆరోగ్యంగా ఉన్న ఆవు"), L("A healthy dry cow", "ఆరోగ్యంగా ఉన్న పాలు ఇవ్వని ఆవు")],
             answer: 0,
-            explain: L("Animals that calved within the last 3–4 weeks, sick animals, and calves under 3–4 months should not be vaccinated."),
+            explain: L("Animals that calved within the last 3–4 weeks, sick animals, and calves under 3–4 months should not be vaccinated.", "గత 3–4 వారాల్లో ఈనిన పశువులు, జబ్బుతో ఉన్న పశువులు, 3–4 నెలల లోపు దూడలకు టీకా వేయకూడదు."),
           },
         ],
       },
@@ -5157,7 +5121,7 @@ export const MODULES = [
           type: "truefalse",
           q: L("Theileriosis vaccination, where used, applies to all cattle equally regardless of breed.", "థైలేరియోసిస్ టీకా, వాడినచోట, జాతితో సంబంధం లేకుండా అన్ని పశువులకు సమానంగా వర్తిస్తుంది.", "தைலேரியோசிஸ் தடுப்பூசி, பயன்படுத்தப்படும் இடங்களில், இனத்தைப் பொருட்படுத்தாமல் எல்லா மாடுகளுக்கும் சமமாகப் பொருந்தும்.", "ಥೈಲೇರಿಯೋಸಿಸ್ ಲಸಿಕೆ, ಬಳಸುವಲ್ಲಿ, ತಳಿಯನ್ನು ಲೆಕ್ಕಿಸದೆ ಎಲ್ಲ ದನಗಳಿಗೂ ಸಮಾನವಾಗಿ ಅನ್ವಯಿಸುತ್ತದೆ.", "थाइलेरियोसिस का टीका, जहां इस्तेमाल होता है, नस्ल की परवाह किए बिना सभी पशुओं पर बराबर लागू होता है।"),
           answer: false,
-          explain: L("No — the Theileriosis vaccine is meant for crossbred and exotic cattle, from 3 months of age. (How often it is repeated differs between the two 2026 NDDB sources — follow the vet.)"),
+          explain: L("No — the Theileriosis vaccine is meant for crossbred and exotic cattle, from 3 months of age. (How often it is repeated differs between the two 2026 NDDB sources — follow the vet.)", "కాదు — థైలేరియోసిస్ టీకా సంకర జాతి, విదేశీ జాతి పశువులకు, 3 నెలల వయసు నుండి. (ఎంత తరచుగా మళ్ళీ వేయాలనేది రెండు 2026 NDDB మూలాల్లో వేరువేరుగా ఉంది — పశువైద్యుని అనుసరించండి.)"),
         },
         {
           topicId: "t-m4-schedule",
@@ -5219,17 +5183,17 @@ export const MODULES = [
         {
           topicId: "t-m4-vaccination-day",
           type: "mcq",
-          q: L("In an FMD outbreak, where does ring vaccination start?"),
-          options: [L("Only inside the infected shed"), L("100 km away"), L("2–3 km away from the infected village, moving inward"), L("Ring vaccination is never used")],
+          q: L("In an FMD outbreak, where does ring vaccination start?", "FMD వ్యాప్తి సమయంలో రింగ్ వ్యాక్సినేషన్ ఎక్కడ మొదలవుతుంది?"),
+          options: [L("Only inside the infected shed", "వ్యాధి సోకిన షెడ్‌లో మాత్రమే"), L("100 km away", "100 కి.మీ. దూరంలో"), L("2–3 km away from the infected village, moving inward", "వ్యాధి సోకిన గ్రామం నుండి 2–3 కి.మీ. దూరంలో, లోపలికి వస్తూ"), L("Ring vaccination is never used", "రింగ్ వ్యాక్సినేషన్ ఎప్పుడూ వాడరు")],
           answer: 2,
-          explain: L("Ring vaccination starts 2–3 km from the infected village and moves inward, alongside strict movement control."),
+          explain: L("Ring vaccination starts 2–3 km from the infected village and moves inward, alongside strict movement control.", "రింగ్ వ్యాక్సినేషన్ వ్యాధి సోకిన గ్రామం నుండి 2–3 కి.మీ. దూరంలో మొదలై లోపలికి వస్తుంది, దానితో పాటు రాకపోకలపై కఠిన నియంత్రణ ఉంటుంది."),
         },
         {
           topicId: "t-m4-vaccination-day",
           type: "truefalse",
-          q: L("A healthy pregnant cow can be vaccinated, except in the last month of pregnancy."),
+          q: L("A healthy pregnant cow can be vaccinated, except in the last month of pregnancy.", "ఆరోగ్యంగా ఉన్న చూడి ఆవుకు, చూడి చివరి నెలలో తప్ప, టీకా వేయవచ్చు."),
           answer: true,
-          explain: L("Correct — vaccination is safe in pregnancy, but avoid the last month because restraint could injure the cow or calf."),
+          explain: L("Correct — vaccination is safe in pregnancy, but avoid the last month because restraint could injure the cow or calf.", "సరైనది — చూడి సమయంలో టీకా సురక్షితం, కానీ చివరి నెలలో వద్దు, ఎందుకంటే పట్టి ఉంచితే ఆవుకు లేదా దూడకు గాయం కావచ్చు."),
         },
       ],
     },
@@ -6786,7 +6750,7 @@ export const MODULES = [
             type: "callout",
             style: "tip",
             heading: L("Control the Biting Insects, Call the Vet Fast", "కుట్టే కీటకాలను అదుపు చేయండి, వెంటనే వెటర్నరీ డాక్టర్‌ను పిలవండి", "கடிக்கும் பூச்சிகளைக் கட்டுப்படுத்துங்கள், உடனே வெட்டரினரி டாக்டரை அழையுங்கள்", "ಕಚ್ಚುವ ಕೀಟಗಳನ್ನು ನಿಯಂತ್ರಿಸಿ, ತಕ್ಷಣ ಪಶುವೈದ್ಯರನ್ನು ಕರೆಯಿರಿ", "काटने वाले कीड़ों पर काबू रखें, पशु चिकित्सक को तुरंत बुलाएँ"),
-            text: L("Lumpy Skin Disease is spread mainly by biting flies (such as Stomoxys), mosquitoes (Aedes and Culex) and some ticks, so controlling them helps prevent it. A vaccine is available: from 4 months of age, repeated every year. Recovered animals are well protected and do not become carriers. If you notice fever, swollen lymph nodes or skin nodules, consult a veterinarian immediately."),
+            text: L("Lumpy Skin Disease is spread mainly by biting flies (such as Stomoxys), mosquitoes (Aedes and Culex) and some ticks, so controlling them helps prevent it. A vaccine is available: from 4 months of age, repeated every year. Recovered animals are well protected and do not become carriers. If you notice fever, swollen lymph nodes or skin nodules, consult a veterinarian immediately.", "లంపీ స్కిన్ డిసీజ్ ప్రధానంగా కుట్టే ఈగలు (స్టోమాక్సిస్ వంటివి), దోమలు (ఏడిస్, క్యూలెక్స్), కొన్ని పేలు ద్వారా వ్యాపిస్తుంది, కాబట్టి వాటిని నియంత్రిస్తే దీన్ని నివారించవచ్చు. టీకా అందుబాటులో ఉంది: 4 నెలల వయసు నుండి, ప్రతి సంవత్సరం మళ్ళీ. కోలుకున్న పశువులకు మంచి రక్షణ ఉంటుంది, అవి వ్యాధి వాహకాలుగా మారవు. జ్వరం, వాచిన లింఫ్ గ్రంథులు లేదా చర్మంపై గడ్డలు గమనిస్తే వెంటనే పశువైద్యుడిని సంప్రదించండి."),
           },
         ],
         check: [
@@ -6876,128 +6840,114 @@ export const MODULES = [
   // ==================================================================
   {
     id: "m5-l4",
-    title: L("Clostridial Infections: Tetanus and Botulism"),
+    title: L("Clostridial Infections: Tetanus and Botulism", "క్లోస్ట్రిడియల్ ఇన్ఫెక్షన్లు: ధనుర్వాతం (టెటనస్), బోట్యులిజం"),
     estMinutes: 7,
     hook: [
       {
         type: "hero",
-        heading: L("Germs That Wait in Soil, Wounds and Rotten Feed"),
-        text: L(
-          "Some of the most sudden, explosive diseases on a farm are caused by one family of bacteria called Clostridium. They live quietly in soil, in the gut, and in rotting material — and only cause disease when conditions let them multiply and release powerful poisons (toxins). This lesson covers two of them: tetanus, which enters through wounds, and botulism, which comes from eating spoiled material."
-        ),
+        heading: L("Germs That Wait in Soil, Wounds and Rotten Feed", "మట్టిలో, గాయాల్లో, కుళ్ళిన మేతలో దాగి ఉండే క్రిములు"),
+        text: L("Some of the most sudden, explosive diseases on a farm are caused by one family of bacteria called Clostridium. They live quietly in soil, in the gut, and in rotting material — and only cause disease when conditions let them multiply and release powerful poisons (toxins). This lesson covers two of them: tetanus, which enters through wounds, and botulism, which comes from eating spoiled material.", "ఫారంలో అత్యంత ఆకస్మికంగా, ఉధృతంగా వచ్చే కొన్ని వ్యాధులు క్లోస్ట్రిడియం అనే ఒకే కుటుంబానికి చెందిన బ్యాక్టీరియా వల్ల వస్తాయి. ఇవి మట్టిలో, పేగుల్లో, కుళ్ళుతున్న పదార్థాల్లో నిశ్శబ్దంగా ఉంటాయి — పరిస్థితులు అనుకూలించి అవి పెరిగి శక్తివంతమైన విషాలను (టాక్సిన్లు) విడుదల చేసినప్పుడు మాత్రమే వ్యాధి కలిగిస్తాయి. ఈ పాఠం వాటిలో రెండింటి గురించి: గాయాల ద్వారా ప్రవేశించే ధనుర్వాతం, చెడిపోయిన పదార్థం తినడం వల్ల వచ్చే బోట్యులిజం."),
       },
     ],
     topics: [
       {
         id: "t-m5-tetanus",
-        title: L("Tetanus: When a Wound Lets the Germ In"),
+        title: L("Tetanus: When a Wound Lets the Germ In", "ధనుర్వాతం: గాయం ద్వారా క్రిమి లోపలికి వెళ్ళినప్పుడు"),
         teach: [
           {
             type: "glossary",
-            term: L("Clostridial Infection"),
-            meaning: L(
-              "A disease caused by bacteria of the Clostridium family. These germs make very strong poisons (toxins). They spread through infected animals, carriers, and contaminated animal products such as bones, hides and meat — but they only cause disease under special conditions that let them multiply. When they do, the disease starts suddenly and can affect many animals at once."
-            ),
+            term: L("Clostridial Infection", "క్లోస్ట్రిడియల్ ఇన్ఫెక్షన్"),
+            meaning: L("A disease caused by bacteria of the Clostridium family. These germs make very strong poisons (toxins). They spread through infected animals, carriers, and contaminated animal products such as bones, hides and meat — but they only cause disease under special conditions that let them multiply. When they do, the disease starts suddenly and can affect many animals at once.", "క్లోస్ట్రిడియం కుటుంబానికి చెందిన బ్యాక్టీరియా వల్ల వచ్చే వ్యాధి. ఈ క్రిములు చాలా బలమైన విషాలు (టాక్సిన్లు) తయారు చేస్తాయి. ఇవి వ్యాధి సోకిన పశువులు, వాహకాలు, ఎముకలు, చర్మాలు, మాంసం వంటి కలుషితమైన పశు ఉత్పత్తుల ద్వారా వ్యాపిస్తాయి — కానీ అవి పెరగడానికి అనుకూలమైన ప్రత్యేక పరిస్థితుల్లో మాత్రమే వ్యాధి కలిగిస్తాయి. అలా జరిగినప్పుడు వ్యాధి ఆకస్మికంగా మొదలై ఒకేసారి చాలా పశువులకు సోకవచ్చు."),
           },
           {
             type: "glossary",
-            term: L("Toxin (Exotoxin)"),
-            meaning: L("A poison released by bacteria. In tetanus and botulism, it is the toxin — not the germ itself — that attacks the animal's nerves and muscles."),
+            term: L("Toxin (Exotoxin)", "విషం (ఎక్సోటాక్సిన్)"),
+            meaning: L("A poison released by bacteria. In tetanus and botulism, it is the toxin — not the germ itself — that attacks the animal's nerves and muscles.", "బ్యాక్టీరియా విడుదల చేసే విషం. ధనుర్వాతం, బోట్యులిజంలో క్రిమి కాదు, దాని విషమే పశువు నరాలు, కండరాలపై దాడి చేస్తుంది."),
           },
           {
             type: "text",
-            heading: L("How Tetanus Happens"),
-            html: L(
-              "<b>Tetanus</b> is caused by the toxin of <i>Clostridium tetani</i>, a germ commonly found in soil and in the gut of animals and people. It is <b>not contagious</b> — it does not pass from one animal to another. Instead, the germ's tiny resting forms (spores) get into the body through a wound — often after a surgical procedure such as castration, or a wound that was not cleaned and cared for properly. Damaged, dead tissue inside the wound lets the spores wake up and release toxin."
-            ),
+            heading: L("How Tetanus Happens", "ధనుర్వాతం ఎలా వస్తుంది"),
+            html: L("<b>Tetanus</b> is caused by the toxin of <i>Clostridium tetani</i>, a germ commonly found in soil and in the gut of animals and people. It is <b>not contagious</b> — it does not pass from one animal to another. Instead, the germ's tiny resting forms (spores) get into the body through a wound — often after a surgical procedure such as castration, or a wound that was not cleaned and cared for properly. Damaged, dead tissue inside the wound lets the spores wake up and release toxin.", "<b>ధనుర్వాతం</b> <i>క్లోస్ట్రిడియం టెటాని</i> అనే క్రిమి విషం వల్ల వస్తుంది, ఈ క్రిమి సాధారణంగా మట్టిలో, పశువులు, మనుషుల పేగుల్లో ఉంటుంది. ఇది <b>అంటువ్యాధి కాదు</b> — ఒక పశువు నుండి మరో పశువుకు సోకదు. బదులుగా, క్రిమి యొక్క చిన్న నిద్రాణ రూపాలు (స్పోర్లు) గాయం ద్వారా శరీరంలోకి వెళ్తాయి — తరచుగా విత్తులు తీయడం వంటి శస్త్రచికిత్స తర్వాత, లేదా సరిగా శుభ్రం చేయని, చూసుకోని గాయం ద్వారా. గాయం లోపల దెబ్బతిన్న, చనిపోయిన కణజాలం వల్ల స్పోర్లు మేల్కొని విషం విడుదల చేస్తాయి."),
           },
           {
             type: "stat-grid",
             items: [
-              { label: L("Stiffness"), text: L("Muscle stiffness, a stiff neck, and legs held stretched out rigidly.") },
-              { label: L("Lockjaw"), text: L("The jaw clamps shut (lockjaw), so the animal struggles to eat and swallow.") },
-              { label: L("Arched body"), text: L("In severe cases the head and neck bend backwards and the body arches (called opisthotonos).") },
-              { label: L("Outcome"), text: L("Without early treatment, death from breathing failure usually follows within 3–4 days of the first signs.") },
+              { label: L("Stiffness", "బిగుసుకుపోవడం"), text: L("Muscle stiffness, a stiff neck, and legs held stretched out rigidly.", "కండరాలు బిగుసుకుపోవడం, మెడ బిగుసుకుపోవడం, కాళ్ళు గట్టిగా చాచి ఉంచడం.") },
+              { label: L("Lockjaw", "దవడ బిగుసుకుపోవడం (లాక్‌జా)"), text: L("The jaw clamps shut (lockjaw), so the animal struggles to eat and swallow.", "దవడ గట్టిగా మూసుకుపోతుంది (లాక్‌జా), దాంతో పశువు తినడానికి, మింగడానికి ఇబ్బంది పడుతుంది.") },
+              { label: L("Arched body", "వంగిన శరీరం"), text: L("In severe cases the head and neck bend backwards and the body arches (called opisthotonos).", "తీవ్రమైన సందర్భాల్లో తల, మెడ వెనక్కి వంగి శరీరం విల్లులా వంగుతుంది (దీన్ని ఒపిస్థోటోనస్ అంటారు).") },
+              { label: L("Outcome", "ఫలితం"), text: L("Without early treatment, death from breathing failure usually follows within 3–4 days of the first signs.", "ముందుగా చికిత్స చేయకపోతే, మొదటి లక్షణాలు కనిపించిన 3–4 రోజుల్లో సాధారణంగా శ్వాస ఆగిపోయి మరణం సంభవిస్తుంది.") },
             ],
           },
           {
             type: "callout",
             style: "tip",
-            heading: L("Prevention: Clean Wounds and Vaccination"),
-            text: L(
-              "Treatment can work if it starts early, but tetanus can be prevented by vaccination. Good wound care — cleaning wounds, and making sure castration and other procedures are done hygienically by trained people — removes the conditions the germ needs. Report any stiff, 'locked-jaw' animal immediately."
-            ),
+            heading: L("Prevention: Clean Wounds and Vaccination", "నివారణ: శుభ్రమైన గాయాలు, టీకా"),
+            text: L("Treatment can work if it starts early, but tetanus can be prevented by vaccination. Good wound care — cleaning wounds, and making sure castration and other procedures are done hygienically by trained people — removes the conditions the germ needs. Report any stiff, 'locked-jaw' animal immediately.", "ముందుగా చికిత్స మొదలుపెడితే పనిచేయవచ్చు, కానీ ధనుర్వాతాన్ని టీకాతో నివారించవచ్చు. గాయాలను బాగా చూసుకోవడం — గాయాలు శుభ్రం చేయడం, విత్తులు తీయడం వంటి ప్రక్రియలు శిక్షణ పొందినవారు శుభ్రంగా చేసేలా చూడడం — క్రిమికి కావలసిన పరిస్థితులను తొలగిస్తుంది. బిగుసుకుపోయిన, 'దవడ బిగుసుకున్న' పశువు కనిపిస్తే వెంటనే తెలియజేయండి."),
           },
         ],
         check: [
           {
             type: "truefalse",
-            q: L("Tetanus spreads directly from one sick animal to another, like FMD."),
+            q: L("Tetanus spreads directly from one sick animal to another, like FMD.", "ధనుర్వాతం FMD లాగా ఒక జబ్బు పశువు నుండి మరో పశువుకు నేరుగా వ్యాపిస్తుంది."),
             answer: false,
-            explain: L("No — tetanus is not contagious. The germ's spores enter the body through a wound, usually from soil."),
+            explain: L("No — tetanus is not contagious. The germ's spores enter the body through a wound, usually from soil.", "కాదు — ధనుర్వాతం అంటువ్యాధి కాదు. క్రిమి స్పోర్లు సాధారణంగా మట్టి నుండి, గాయం ద్వారా శరీరంలోకి వెళ్తాయి."),
           },
           {
             type: "mcq",
-            q: L("Which sign is typical of tetanus?"),
-            options: [L("Blisters in the mouth"), L("Red urine"), L("Lockjaw and muscle stiffness"), L("Lumps all over the skin")],
+            q: L("Which sign is typical of tetanus?", "ధనుర్వాతానికి సాధారణమైన లక్షణం ఏది?"),
+            options: [L("Blisters in the mouth", "నోటిలో బొబ్బలు"), L("Red urine", "ఎర్రటి మూత్రం"), L("Lockjaw and muscle stiffness", "దవడ బిగుసుకుపోవడం, కండరాలు బిగుసుకుపోవడం"), L("Lumps all over the skin", "చర్మం అంతా గడ్డలు")],
             answer: 2,
-            explain: L("Tetanus causes muscle stiffness, lockjaw, a rigid neck and stretched-out legs."),
+            explain: L("Tetanus causes muscle stiffness, lockjaw, a rigid neck and stretched-out legs.", "ధనుర్వాతం వల్ల కండరాలు బిగుసుకుపోవడం, దవడ బిగుసుకుపోవడం, మెడ గట్టిగా ఉండడం, కాళ్ళు చాచి ఉంచడం జరుగుతుంది."),
           },
         ],
       },
       {
         id: "t-m5-botulism",
-        title: L("Botulism: Poisoning From Spoiled Feed, Water or Carcasses"),
+        title: L("Botulism: Poisoning From Spoiled Feed, Water or Carcasses", "బోట్యులిజం: చెడిపోయిన మేత, నీరు లేదా కళేబరాల వల్ల విషప్రయోగం"),
         teach: [
           {
             type: "text",
-            heading: L("A Deadly Kind of Food Poisoning"),
-            html: L(
-              "<b>Botulism</b> is a lethal food poisoning in cattle caused by eating material that already contains the toxin of <i>Clostridium botulinum</i>. Cattle usually pick it up from <b>spoiled silage</b>, <b>decaying carcasses</b>, or <b>contaminated water</b>. Some types of this germ also cause botulism in people."
-            ),
+            heading: L("A Deadly Kind of Food Poisoning", "ప్రాణాంతకమైన ఆహార విషప్రయోగం"),
+            html: L("<b>Botulism</b> is a lethal food poisoning in cattle caused by eating material that already contains the toxin of <i>Clostridium botulinum</i>. Cattle usually pick it up from <b>spoiled silage</b>, <b>decaying carcasses</b>, or <b>contaminated water</b>. Some types of this germ also cause botulism in people.", "<b>బోట్యులిజం</b> పశువుల్లో ప్రాణాంతకమైన ఆహార విషప్రయోగం, ఇది <i>క్లోస్ట్రిడియం బోట్యులినం</i> విషం ఇప్పటికే ఉన్న పదార్థం తినడం వల్ల వస్తుంది. పశువులకు ఇది సాధారణంగా <b>చెడిపోయిన సైలేజ్</b>, <b>కుళ్ళుతున్న కళేబరాలు</b> లేదా <b>కలుషితమైన నీరు</b> ద్వారా వస్తుంది. ఈ క్రిమి యొక్క కొన్ని రకాలు మనుషుల్లో కూడా బోట్యులిజం కలిగిస్తాయి."),
           },
           {
             type: "example",
-            heading: L("Why a Cow Would Chew a Bone"),
-            text: L(
-              "Animals with high needs — pregnant or milking cows — grazing on soils and pastures poor in minerals (especially phosphorus) often develop a craving and start chewing bones or even dead animals to make up the shortage. While doing this they swallow toxin that has formed in the rotting carcass. This is how large outbreaks have started — and why feeding enough mineral mixture is a real protection."
-            ),
+            heading: L("Why a Cow Would Chew a Bone", "ఆవు ఎముకను ఎందుకు నములుతుంది"),
+            text: L("Animals with high needs — pregnant or milking cows — grazing on soils and pastures poor in minerals (especially phosphorus) often develop a craving and start chewing bones or even dead animals to make up the shortage. While doing this they swallow toxin that has formed in the rotting carcass. This is how large outbreaks have started — and why feeding enough mineral mixture is a real protection.", "ఎక్కువ అవసరాలు ఉన్న పశువులు — చూడి లేదా పాలిచ్చే ఆవులు — ఖనిజాలు (ముఖ్యంగా భాస్వరం) తక్కువగా ఉన్న నేలలు, పచ్చిక బయళ్ళలో మేస్తే, ఆ లోటు తీర్చుకోవడానికి తరచుగా ఎముకలు లేదా చనిపోయిన పశువులను కూడా నమలడం మొదలుపెడతాయి. అలా చేస్తూ కుళ్ళుతున్న కళేబరంలో తయారైన విషాన్ని మింగుతాయి. పెద్ద వ్యాప్తులు ఇలాగే మొదలయ్యాయి — అందుకే తగినంత ఖనిజ మిశ్రమం ఇవ్వడం నిజమైన రక్షణ."),
           },
           {
             type: "stat-grid",
             items: [
-              { label: L("Signs"), text: L("Weakness, wobbly, uncoordinated movement, dullness, and paralysis — usually a floppy (limp) paralysis — followed by death.") },
-              { label: L("Treatment"), text: L("Generally unsuccessful — which is why prevention is everything.") },
-              { label: L("Vaccine"), text: L("At present, no botulism vaccine is available in India.") },
+              { label: L("Signs", "లక్షణాలు"), text: L("Weakness, wobbly, uncoordinated movement, dullness, and paralysis — usually a floppy (limp) paralysis — followed by death.", "బలహీనత, తడబడుతూ నడవడం, మందకొడితనం, పక్షవాతం — సాధారణంగా వదులైన (నీరసమైన) పక్షవాతం — తర్వాత మరణం.") },
+              { label: L("Treatment", "చికిత్స"), text: L("Generally unsuccessful — which is why prevention is everything.", "సాధారణంగా ఫలించదు — అందుకే నివారణే సర్వస్వం.") },
+              { label: L("Vaccine", "టీకా"), text: L("At present, no botulism vaccine is available in India.", "ప్రస్తుతం భారతదేశంలో బోట్యులిజం టీకా అందుబాటులో లేదు.") },
             ],
           },
           {
             type: "callout",
             style: "warning",
-            heading: L("Prevention Is the Only Real Protection"),
-            text: L(
-              "Remove dead animals, bones and rotting plant or animal material from around the animals' areas. Never feed spoiled, foul-smelling silage. Keep drinking water clean. Make sure animals get their mineral mixture so they don't develop the craving to chew bones. Report any weak, wobbly or paralysed animal immediately."
-            ),
+            heading: L("Prevention Is the Only Real Protection", "నివారణ ఒక్కటే నిజమైన రక్షణ"),
+            text: L("Remove dead animals, bones and rotting plant or animal material from around the animals' areas. Never feed spoiled, foul-smelling silage. Keep drinking water clean. Make sure animals get their mineral mixture so they don't develop the craving to chew bones. Report any weak, wobbly or paralysed animal immediately.", "పశువులు ఉండే చోటు చుట్టూ చనిపోయిన పశువులు, ఎముకలు, కుళ్ళుతున్న మొక్కలు లేదా పశు పదార్థాలను తొలగించండి. చెడిపోయిన, దుర్వాసన వచ్చే సైలేజ్‌ను ఎప్పుడూ తినిపించవద్దు. తాగే నీటిని శుభ్రంగా ఉంచండి. ఎముకలు నమలాలనే కోరిక రాకుండా పశువులకు ఖనిజ మిశ్రమం అందేలా చూడండి. బలహీనంగా, తడబడుతూ లేదా పక్షవాతంతో ఉన్న పశువు కనిపిస్తే వెంటనే తెలియజేయండి."),
           },
         ],
         check: [
           {
             type: "mcq",
-            q: L("How do cattle usually get botulism?"),
+            q: L("How do cattle usually get botulism?", "పశువులకు సాధారణంగా బోట్యులిజం ఎలా వస్తుంది?"),
             options: [
-              L("By eating spoiled silage, decaying carcasses or drinking contaminated water"),
-              L("From a tick bite"),
-              L("From a dog bite"),
-              L("From standing in the sun"),
+              L("By eating spoiled silage, decaying carcasses or drinking contaminated water", "చెడిపోయిన సైలేజ్, కుళ్ళుతున్న కళేబరాలు తినడం లేదా కలుషితమైన నీరు తాగడం వల్ల"),
+              L("From a tick bite", "పేను కుట్టడం వల్ల"),
+              L("From a dog bite", "కుక్క కరవడం వల్ల"),
+              L("From standing in the sun", "ఎండలో నిలబడడం వల్ల"),
             ],
             answer: 0,
-            explain: L("Botulism comes from swallowing toxin that has formed in spoiled silage, rotting carcasses or contaminated water."),
+            explain: L("Botulism comes from swallowing toxin that has formed in spoiled silage, rotting carcasses or contaminated water.", "చెడిపోయిన సైలేజ్, కుళ్ళుతున్న కళేబరాలు లేదా కలుషితమైన నీటిలో తయారైన విషాన్ని మింగడం వల్ల బోట్యులిజం వస్తుంది."),
           },
           {
             type: "truefalse",
-            q: L("A good supply of mineral mixture helps prevent botulism."),
+            q: L("A good supply of mineral mixture helps prevent botulism.", "తగినంత ఖనిజ మిశ్రమం ఇవ్వడం బోట్యులిజం నివారణకు సహాయపడుతుంది."),
             answer: true,
-            explain: L("Yes — mineral-deficient animals (especially low in phosphorus) start chewing bones and carcasses, which is how they swallow the toxin."),
+            explain: L("Yes — mineral-deficient animals (especially low in phosphorus) start chewing bones and carcasses, which is how they swallow the toxin.", "అవును — ఖనిజాలు తక్కువగా ఉన్న పశువులు (ముఖ్యంగా భాస్వరం తక్కువ) ఎముకలు, కళేబరాలు నమలడం మొదలుపెడతాయి, అలాగే అవి విషాన్ని మింగుతాయి."),
           },
         ],
       },
@@ -7008,53 +6958,53 @@ export const MODULES = [
         {
           topicId: "t-m5-tetanus",
           type: "mcq",
-          q: L("Through what route does the tetanus germ usually enter an animal?"),
-          options: [L("Drinking milk"), L("Breathing in dust from feed"), L("Tick bites only"), L("A wound — often after castration or poor wound care")],
+          q: L("Through what route does the tetanus germ usually enter an animal?", "ధనుర్వాతం క్రిమి సాధారణంగా ఏ మార్గం ద్వారా పశువులోకి ప్రవేశిస్తుంది?"),
+          options: [L("Drinking milk", "పాలు తాగడం ద్వారా"), L("Breathing in dust from feed", "మేతలోని దుమ్మును పీల్చడం ద్వారా"), L("Tick bites only", "పేను కుట్టడం ద్వారా మాత్రమే"), L("A wound — often after castration or poor wound care", "గాయం ద్వారా — తరచుగా విత్తులు తీసిన తర్వాత లేదా గాయాన్ని సరిగా చూసుకోకపోవడం వల్ల")],
           answer: 3,
-          explain: L("Tetanus spores enter through wounds and lesions, often linked to surgical procedures or improper wound care."),
+          explain: L("Tetanus spores enter through wounds and lesions, often linked to surgical procedures or improper wound care.", "ధనుర్వాతం స్పోర్లు గాయాల ద్వారా ప్రవేశిస్తాయి, తరచుగా శస్త్రచికిత్స ప్రక్రియలు లేదా గాయాలను సరిగా చూసుకోకపోవడంతో సంబంధం ఉంటుంది."),
         },
         {
           topicId: "t-m5-tetanus",
           type: "truefalse",
-          q: L("Tetanus can be prevented by vaccination."),
+          q: L("Tetanus can be prevented by vaccination.", "ధనుర్వాతాన్ని టీకాతో నివారించవచ్చు."),
           answer: true,
-          explain: L("Correct — treatment may work early on, but tetanus can be prevented with vaccination and good wound hygiene."),
+          explain: L("Correct — treatment may work early on, but tetanus can be prevented with vaccination and good wound hygiene.", "సరైనది — ముందుగా చికిత్స చేస్తే పనిచేయవచ్చు, కానీ టీకా, గాయాల శుభ్రతతో ధనుర్వాతాన్ని నివారించవచ్చు."),
         },
         {
           topicId: "t-m5-tetanus",
           type: "mcq",
-          q: L("Without early treatment, how soon can tetanus kill once signs appear?"),
-          options: [L("Within about 3–4 days"), L("After about 2 years"), L("It never kills"), L("Only after the next calving")],
+          q: L("Without early treatment, how soon can tetanus kill once signs appear?", "ముందుగా చికిత్స చేయకపోతే, లక్షణాలు కనిపించిన తర్వాత ధనుర్వాతం ఎంత త్వరగా ప్రాణం తీయగలదు?"),
+          options: [L("Within about 3–4 days", "సుమారు 3–4 రోజుల్లో"), L("After about 2 years", "సుమారు 2 సంవత్సరాల తర్వాత"), L("It never kills", "ఇది ఎప్పుడూ ప్రాణం తీయదు"), L("Only after the next calving", "తర్వాతి ఈత తర్వాత మాత్రమే")],
           answer: 0,
-          explain: L("Death from breathing failure usually follows within 3–4 days of the first signs."),
+          explain: L("Death from breathing failure usually follows within 3–4 days of the first signs.", "మొదటి లక్షణాలు కనిపించిన 3–4 రోజుల్లో సాధారణంగా శ్వాస ఆగిపోయి మరణం సంభవిస్తుంది."),
         },
         {
           topicId: "t-m5-botulism",
           type: "truefalse",
-          q: L("A vaccine against botulism is widely available in India."),
+          q: L("A vaccine against botulism is widely available in India.", "భారతదేశంలో బోట్యులిజం టీకా విస్తృతంగా అందుబాటులో ఉంది."),
           answer: false,
-          explain: L("No — at present no botulism vaccine is available in India, so prevention is the only protection."),
+          explain: L("No — at present no botulism vaccine is available in India, so prevention is the only protection.", "కాదు — ప్రస్తుతం భారతదేశంలో బోట్యులిజం టీకా అందుబాటులో లేదు, కాబట్టి నివారణ ఒక్కటే రక్షణ."),
         },
         {
           topicId: "t-m5-botulism",
           type: "mcq",
-          q: L("Which of these helps prevent botulism on a farm?"),
+          q: L("Which of these helps prevent botulism on a farm?", "ఫారంలో బోట్యులిజం నివారణకు వీటిలో ఏది సహాయపడుతుంది?"),
           options: [
-            L("Feeding more concentrate"),
-            L("Milking twice a day"),
-            L("Removing carcasses and rotting material, never feeding spoiled silage, and feeding mineral mixture"),
-            L("Letting animals chew bones freely"),
+            L("Feeding more concentrate", "ఎక్కువ దాణా ఇవ్వడం"),
+            L("Milking twice a day", "రోజుకు రెండుసార్లు పాలు పిండడం"),
+            L("Removing carcasses and rotting material, never feeding spoiled silage, and feeding mineral mixture", "కళేబరాలు, కుళ్ళుతున్న పదార్థాలు తొలగించడం, చెడిపోయిన సైలేజ్ ఎప్పుడూ ఇవ్వకపోవడం, ఖనిజ మిశ్రమం ఇవ్వడం"),
+            L("Letting animals chew bones freely", "పశువులను స్వేచ్ఛగా ఎముకలు నమలనివ్వడం"),
           ],
           answer: 2,
-          explain: L("Removing the toxin sources and correcting mineral shortages are the key prevention steps."),
+          explain: L("Removing the toxin sources and correcting mineral shortages are the key prevention steps.", "విషానికి మూలాలను తొలగించడం, ఖనిజ లోపాలను సరిచేయడం ముఖ్యమైన నివారణ చర్యలు."),
         },
         {
           topicId: "t-m5-botulism",
           type: "mcq",
-          q: L("What kind of paralysis is typical of botulism?"),
-          options: [L("A floppy (limp) paralysis"), L("Lockjaw only"), L("Paralysis of the tail only"), L("Botulism never causes paralysis")],
+          q: L("What kind of paralysis is typical of botulism?", "బోట్యులిజంలో సాధారణంగా ఎలాంటి పక్షవాతం వస్తుంది?"),
+          options: [L("A floppy (limp) paralysis", "వదులైన (నీరసమైన) పక్షవాతం"), L("Lockjaw only", "దవడ బిగుసుకుపోవడం మాత్రమే"), L("Paralysis of the tail only", "తోకకు మాత్రమే పక్షవాతం"), L("Botulism never causes paralysis", "బోట్యులిజం ఎప్పుడూ పక్షవాతం కలిగించదు")],
           answer: 0,
-          explain: L("Botulism causes weakness, poor coordination and a limp (flaccid) paralysis, followed by death."),
+          explain: L("Botulism causes weakness, poor coordination and a limp (flaccid) paralysis, followed by death.", "బోట్యులిజం వల్ల బలహీనత, సమన్వయం లోపించడం, వదులైన పక్షవాతం, తర్వాత మరణం సంభవిస్తాయి."),
         },
       ],
     },
@@ -8157,58 +8107,54 @@ export const MODULES = [
       },
       {
         id: "t-m7-prevention",
-        title: L("Preventing Milk Fever and Hypomagnesaemia"),
+        title: L("Preventing Milk Fever and Hypomagnesaemia", "మిల్క్ ఫీవర్, హైపోమాగ్నీసీమియా నివారణ"),
         teach: [
           {
             type: "text",
-            heading: L("Prevention Starts Before Calving"),
-            html: L(
-              "Most milk fever can be prevented by what happens in the <b>last weeks of pregnancy</b>. The most important rule is simple: <b>do not feed excess calcium in late pregnancy</b>. A cow flooded with calcium before calving 'switches off' her own calcium-releasing system, so it isn't ready when milking starts."
-            ),
+            heading: L("Prevention Starts Before Calving", "నివారణ ఈనడానికి ముందే మొదలవుతుంది"),
+            html: L("Most milk fever can be prevented by what happens in the <b>last weeks of pregnancy</b>. The most important rule is simple: <b>do not feed excess calcium in late pregnancy</b>. A cow flooded with calcium before calving 'switches off' her own calcium-releasing system, so it isn't ready when milking starts.", "చాలా మిల్క్ ఫీవర్ కేసులను <b>చూడి చివరి వారాల్లో</b> జరిగే దాని ద్వారా నివారించవచ్చు. అతి ముఖ్యమైన నియమం సులభం: <b>చూడి చివరి దశలో అధికంగా కాల్షియం ఇవ్వవద్దు</b>. ఈనడానికి ముందు కాల్షియం ఎక్కువగా అందిన ఆవు తన సొంత కాల్షియం విడుదల వ్యవస్థను 'ఆపేస్తుంది', దాంతో పాలు మొదలయ్యే సమయానికి అది సిద్ధంగా ఉండదు."),
           },
           {
             type: "stat-grid",
             items: [
               {
-                label: L("Oral calcium for prone animals"),
-                text: L("For cows that had milk fever before, 3–4 doses of oral calcium (each giving 40–50 g of calcium) from 12–24 hours before calving to 48 hours after greatly reduce the risk — given as the vet advises."),
+                label: L("Oral calcium for prone animals", "ప్రమాదం ఉన్న పశువులకు నోటి ద్వారా కాల్షియం"),
+                text: L("For cows that had milk fever before, 3–4 doses of oral calcium (each giving 40–50 g of calcium) from 12–24 hours before calving to 48 hours after greatly reduce the risk — given as the vet advises.", "ఇంతకు ముందు మిల్క్ ఫీవర్ వచ్చిన ఆవులకు, ఈనడానికి 12–24 గంటల ముందు నుండి ఈనిన 48 గంటల వరకు 3–4 మోతాదుల నోటి కాల్షియం (ప్రతి మోతాదులో 40–50 గ్రా. కాల్షియం) ఇస్తే ప్రమాదం చాలా తగ్గుతుంది — పశువైద్యుని సలహా మేరకు ఇవ్వాలి."),
               },
               {
-                label: L("Anionic salts"),
-                text: L("Salts such as ammonium chloride, magnesium sulphate or ammonium sulphate (50–100 g each a day) may be fed in the last 3 weeks before calving, under a vet's or nutritionist's guidance."),
+                label: L("Anionic salts", "అనయానిక్ లవణాలు"),
+                text: L("Salts such as ammonium chloride, magnesium sulphate or ammonium sulphate (50–100 g each a day) may be fed in the last 3 weeks before calving, under a vet's or nutritionist's guidance.", "అమ్మోనియం క్లోరైడ్, మెగ్నీషియం సల్ఫేట్ లేదా అమ్మోనియం సల్ఫేట్ వంటి లవణాలు (ఒక్కొక్కటి రోజుకు 50–100 గ్రా.) ఈనడానికి ముందు చివరి 3 వారాల్లో, పశువైద్యుని లేదా పోషకాహార నిపుణుని మార్గదర్శకత్వంలో ఇవ్వవచ్చు."),
               },
               {
-                label: L("Urine pH check"),
-                text: L("Near calving, urine pH should ideally be 6.5–7. A higher pH means a higher risk of milk fever."),
+                label: L("Urine pH check", "మూత్రం pH పరీక్ష"),
+                text: L("Near calving, urine pH should ideally be 6.5–7. A higher pH means a higher risk of milk fever.", "ఈనే సమయం దగ్గర, మూత్రం pH ఆదర్శంగా 6.5–7 ఉండాలి. pH ఎక్కువగా ఉంటే మిల్క్ ఫీవర్ ప్రమాదం ఎక్కువ."),
               },
               {
-                label: L("Magnesium for at-risk animals"),
-                text: L("Around 50 g of magnesium oxide a day helps prevent hypomagnesaemia. Pastures heavily fertilised with potash and nitrogen are high-risk."),
+                label: L("Magnesium for at-risk animals", "ప్రమాదం ఉన్న పశువులకు మెగ్నీషియం"),
+                text: L("Around 50 g of magnesium oxide a day helps prevent hypomagnesaemia. Pastures heavily fertilised with potash and nitrogen are high-risk.", "రోజుకు సుమారు 50 గ్రా. మెగ్నీషియం ఆక్సైడ్ హైపోమాగ్నీసీమియా నివారణకు సహాయపడుతుంది. పొటాష్, నత్రజని ఎరువులు ఎక్కువగా వేసిన పచ్చిక బయళ్ళు ఎక్కువ ప్రమాదకరం."),
               },
             ],
           },
           {
             type: "callout",
             style: "warning",
-            heading: L("Relapses Happen"),
-            text: L(
-              "Animals respond quickly to treatment, but some relapse within 24–48 hours (milk fever) or 1–2 days (hypomagnesaemia). Keep watching a treated animal closely and report any return of trembling, stiffness or weakness."
-            ),
+            heading: L("Relapses Happen", "మళ్ళీ తిరగబెట్టవచ్చు"),
+            text: L("Animals respond quickly to treatment, but some relapse within 24–48 hours (milk fever) or 1–2 days (hypomagnesaemia). Keep watching a treated animal closely and report any return of trembling, stiffness or weakness.", "పశువులు చికిత్సకు త్వరగా స్పందిస్తాయి, కానీ కొన్నింటికి 24–48 గంటల్లో (మిల్క్ ఫీవర్) లేదా 1–2 రోజుల్లో (హైపోమాగ్నీసీమియా) మళ్ళీ తిరగబెడుతుంది. చికిత్స చేసిన పశువును దగ్గరగా గమనిస్తూ ఉండండి, వణుకు, బిగుసుకుపోవడం లేదా బలహీనత మళ్ళీ కనిపిస్తే తెలియజేయండి."),
           },
         ],
         check: [
           {
             type: "truefalse",
-            q: L("Feeding lots of extra calcium in late pregnancy helps prevent milk fever."),
+            q: L("Feeding lots of extra calcium in late pregnancy helps prevent milk fever.", "చూడి చివరి దశలో ఎక్కువ అదనపు కాల్షియం ఇవ్వడం మిల్క్ ఫీవర్ నివారణకు సహాయపడుతుంది."),
             answer: false,
-            explain: L("No — excess calcium in late pregnancy increases the risk. Calcium is given around calving, as advised, to prone animals."),
+            explain: L("No — excess calcium in late pregnancy increases the risk. Calcium is given around calving, as advised, to prone animals.", "కాదు — చూడి చివరి దశలో అధిక కాల్షియం ప్రమాదాన్ని పెంచుతుంది. ప్రమాదం ఉన్న పశువులకు సలహా మేరకు ఈనే సమయంలో కాల్షియం ఇస్తారు."),
           },
           {
             type: "mcq",
-            q: L("Near calving, what urine pH suggests a lower risk of milk fever?"),
-            options: [L("8.5–9"), L("Urine pH doesn't matter"), L("2–3"), L("6.5–7")],
+            q: L("Near calving, what urine pH suggests a lower risk of milk fever?", "ఈనే సమయం దగ్గర, మూత్రం pH ఎంత ఉంటే మిల్క్ ఫీవర్ ప్రమాదం తక్కువ?"),
+            options: [L("8.5–9"), L("Urine pH doesn't matter", "మూత్రం pH ముఖ్యం కాదు"), L("2–3"), L("6.5–7")],
             answer: 3,
-            explain: L("A urine pH of about 6.5–7 near calving is ideal; a higher pH means a higher risk."),
+            explain: L("A urine pH of about 6.5–7 near calving is ideal; a higher pH means a higher risk.", "ఈనే సమయం దగ్గర మూత్రం pH సుమారు 6.5–7 ఆదర్శం; pH ఎక్కువైతే ప్రమాదం ఎక్కువ."),
           },
         ],
       },
@@ -8267,23 +8213,23 @@ export const MODULES = [
         {
           topicId: "t-m7-prevention",
           type: "mcq",
-          q: L("A cow had milk fever last year. What can greatly reduce her risk this time, as advised by the vet?"),
+          q: L("A cow had milk fever last year. What can greatly reduce her risk this time, as advised by the vet?", "ఒక ఆవుకు పోయిన సంవత్సరం మిల్క్ ఫీవర్ వచ్చింది. పశువైద్యుని సలహా మేరకు, ఈసారి ఆమె ప్రమాదాన్ని ఏది చాలా తగ్గించగలదు?"),
           options: [
-            L("Doubling her calcium for the whole last month of pregnancy"),
-            L("Stopping all water before calving"),
-            L("3–4 doses of oral calcium from just before calving to 48 hours after"),
-            L("Nothing can be done"),
+            L("Doubling her calcium for the whole last month of pregnancy", "చూడి చివరి నెల మొత్తం ఆమె కాల్షియంను రెట్టింపు చేయడం"),
+            L("Stopping all water before calving", "ఈనడానికి ముందు నీళ్ళు పూర్తిగా ఆపేయడం"),
+            L("3–4 doses of oral calcium from just before calving to 48 hours after", "ఈనడానికి కొంచెం ముందు నుండి ఈనిన 48 గంటల వరకు 3–4 మోతాదుల నోటి కాల్షియం"),
+            L("Nothing can be done", "ఏమీ చేయలేం"),
           ],
           answer: 2,
-          explain: L("Oral calcium (40–50 g per dose) from 12–24 hours before to 48 hours after calving greatly reduces milk fever in prone animals."),
+          explain: L("Oral calcium (40–50 g per dose) from 12–24 hours before to 48 hours after calving greatly reduces milk fever in prone animals.", "ఈనడానికి 12–24 గంటల ముందు నుండి 48 గంటల తర్వాత వరకు నోటి కాల్షియం (మోతాదుకు 40–50 గ్రా.) ప్రమాదం ఉన్న పశువుల్లో మిల్క్ ఫీవర్‌ను చాలా తగ్గిస్తుంది."),
         },
         {
           topicId: "t-m7-prevention",
           type: "mcq",
-          q: L("About how much magnesium oxide a day helps protect at-risk animals from hypomagnesaemia?"),
-          options: [L("About 5 kg"), L("About 50 g"), L("About 1 g"), L("None — magnesium causes it")],
+          q: L("About how much magnesium oxide a day helps protect at-risk animals from hypomagnesaemia?", "ప్రమాదం ఉన్న పశువులను హైపోమాగ్నీసీమియా నుండి కాపాడడానికి రోజుకు సుమారు ఎంత మెగ్నీషియం ఆక్సైడ్ సహాయపడుతుంది?"),
+          options: [L("About 5 kg", "సుమారు 5 కిలోలు"), L("About 50 g", "సుమారు 50 గ్రా."), L("About 1 g", "సుమారు 1 గ్రా."), L("None — magnesium causes it", "ఏమీ వద్దు — మెగ్నీషియమే దీనికి కారణం")],
           answer: 1,
-          explain: L("Around 50 g of magnesium oxide per day is recommended for animals at risk."),
+          explain: L("Around 50 g of magnesium oxide per day is recommended for animals at risk.", "ప్రమాదం ఉన్న పశువులకు రోజుకు సుమారు 50 గ్రా. మెగ్నీషియం ఆక్సైడ్ సిఫార్సు చేస్తారు."),
         },
       ],
     },
@@ -9014,7 +8960,7 @@ export const MODULES = [
               },
               {
                 label: L("Foot bath", "ఫుట్ బాత్", "ஃபுட் பாத் (கால் குளியல்)", "ಫುಟ್ ಬಾತ್ (ಕಾಲು ಸ್ನಾನ)", "फुट बाथ (पैर धुलाई)"),
-                text: L("A foot bath using a routine antiseptic solution, used for 2–4 days continuously every fortnight, is a recommended hoof-care practice."),
+                text: L("A foot bath using a routine antiseptic solution, used for 2–4 days continuously every fortnight, is a recommended hoof-care practice.", "సాధారణ క్రిమినాశక ద్రావణంతో ఫుట్ బాత్ (కాళ్ళ తొట్టి), ప్రతి పదిహేను రోజులకు 2–4 రోజులు వరుసగా వాడడం సిఫార్సు చేయబడిన గిట్టల సంరక్షణ పద్ధతి."),
               },
               {
                 label: L("Hoof trimming and checks", "గిట్టల కత్తిరింపు మరియు తనిఖీలు", "குளம்பு வெட்டுதல் மற்றும் பரிசோதனைகள்", "ಗೊರಸು ಕತ್ತರಿಸುವಿಕೆ ಮತ್ತು ಪರೀಕ್ಷೆಗಳು", "खुर की कटाई और जाँच"),
@@ -9096,13 +9042,13 @@ export const MODULES = [
           type: "mcq",
           q: L("What foot bath solution and schedule is recommended for hoof care?", "గిట్టల సంరక్షణ కోసం ఏ ఫుట్ బాత్ ద్రావణం, ఏ షెడ్యూల్ సిఫార్సు చేయబడింది?", "குளம்பு பராமரிப்புக்கு எந்த ஃபுட் பாத் கரைசலும் எந்த அட்டவணையும் பரிந்துரைக்கப்படுகிறது?", "ಗೊರಸಿನ ಆರೈಕೆಗೆ ಯಾವ ಫುಟ್ ಬಾತ್ ದ್ರಾವಣ ಮತ್ತು ಯಾವ ವೇಳಾಪಟ್ಟಿ ಶಿಫಾರಸು ಮಾಡಲಾಗಿದೆ?", "खुर की देखभाल के लिए कौन सा फुट बाथ घोल और कौन सा कार्यक्रम सुझाया गया है?"),
           options: [
-            L("A routine antiseptic, for 2–4 days continuously every fortnight"),
+            L("A routine antiseptic, for 2–4 days continuously every fortnight", "సాధారణ క్రిమినాశకం, ప్రతి పదిహేను రోజులకు 2–4 రోజులు వరుసగా"),
             L("Plain water, once a year", "సాధారణ నీరు, సంవత్సరానికి ఒకసారి", "சாதாரண தண்ணீர், வருடத்திற்கு ஒருமுறை", "ಸಾದಾ ನೀರು, ವರ್ಷಕ್ಕೊಮ್ಮೆ", "सादा पानी, साल में एक बार"),
             L("Salt water, every single day", "ఉప్పు నీరు, ప్రతి రోజూ", "உப்புத் தண்ணீர், ஒவ்வொரு நாளும்", "ಉಪ್ಪು ನೀರು, ಪ್ರತಿ ದಿನವೂ", "नमक का पानी, हर रोज़"),
             L("No foot bath is ever needed", "ఫుట్ బాత్ ఎప్పుడూ అవసరం లేదు", "ஃபுட் பாத் ஒருபோதும் தேவையில்லை", "ಫುಟ್ ಬಾತ್ ಎಂದಿಗೂ ಬೇಕಾಗಿಲ್ಲ", "फुट बाथ की कभी ज़रूरत नहीं होती"),
           ],
           answer: 0,
-          explain: L("A foot bath with a routine antiseptic, used for 2–4 days continuously every fortnight, is the recommended practice mentioned in this lesson."),
+          explain: L("A foot bath with a routine antiseptic, used for 2–4 days continuously every fortnight, is the recommended practice mentioned in this lesson.", "సాధారణ క్రిమినాశకంతో ఫుట్ బాత్, ప్రతి పదిహేను రోజులకు 2–4 రోజులు వరుసగా వాడడం ఈ పాఠంలో చెప్పిన సిఫార్సు చేయబడిన పద్ధతి."),
         },
         {
           topicId: "t-m8-laminitis-prevention",
@@ -9940,160 +9886,140 @@ export const MODULES = [
   // ==================================================================
   {
     id: "m9-l4",
-    title: L("Testing for Hidden Mastitis, and Diseases of the Teats"),
+    title: L("Testing for Hidden Mastitis, and Diseases of the Teats", "దాగి ఉన్న మాస్టిటిస్‌కు పరీక్షలు, చనుమొనల వ్యాధులు"),
     estMinutes: 10,
     hook: [
       {
         type: "hero",
-        heading: L("Finding What the Eye Can't See — and What the Teat Shows"),
-        text: L(
-          "Lesson 2 explained that sub-clinical mastitis hides inside the udder with no visible sign. This lesson shows the simple tests farms use to find it, and how a well-run farm organises mastitis control. It then covers three diseases of the teat skin itself — warts, ulcerative mammillitis and pseudocowpox — which make milking painful and can open the door to mastitis."
-        ),
+        heading: L("Finding What the Eye Can't See — and What the Teat Shows", "కంటికి కనిపించనిది కనుగొనడం — చనుమొన చూపించేది"),
+        text: L("Lesson 2 explained that sub-clinical mastitis hides inside the udder with no visible sign. This lesson shows the simple tests farms use to find it, and how a well-run farm organises mastitis control. It then covers three diseases of the teat skin itself — warts, ulcerative mammillitis and pseudocowpox — which make milking painful and can open the door to mastitis.", "సబ్-క్లినికల్ మాస్టిటిస్ ఏ లక్షణం కనిపించకుండా పొదుగు లోపల దాగి ఉంటుందని పాఠం 2 వివరించింది. దాన్ని కనుగొనడానికి ఫారాలు వాడే సులభమైన పరీక్షలు, బాగా నడిచే ఫారం మాస్టిటిస్ నియంత్రణను ఎలా ఏర్పాటు చేస్తుందో ఈ పాఠం చూపిస్తుంది. తర్వాత చనుమొన చర్మానికే వచ్చే మూడు వ్యాధులు — పులిపిరులు, అల్సరేటివ్ మామిలైటిస్, సూడోకౌపాక్స్ — గురించి చెబుతుంది, ఇవి పాలు పిండడాన్ని బాధాకరంగా చేస్తాయి, మాస్టిటిస్‌కు దారి తీయవచ్చు."),
       },
     ],
     topics: [
       {
         id: "t-m9-scm-tests",
-        title: L("Simple Tests That Find Hidden (Sub-Clinical) Mastitis"),
+        title: L("Simple Tests That Find Hidden (Sub-Clinical) Mastitis", "దాగి ఉన్న (సబ్-క్లినికల్) మాస్టిటిస్‌ను కనుగొనే సులభమైన పరీక్షలు"),
         teach: [
           {
             type: "text",
-            heading: L("Four Tests, One Idea"),
-            html: L(
-              "All of these tests check milk from <b>each quarter separately</b>, because one quarter can be infected while the other three are healthy. None of them needs a laboratory — they are quick, cow-side checks."
-            ),
+            heading: L("Four Tests, One Idea", "నాలుగు పరీక్షలు, ఒకే ఆలోచన"),
+            html: L("All of these tests check milk from <b>each quarter separately</b>, because one quarter can be infected while the other three are healthy. None of them needs a laboratory — they are quick, cow-side checks.", "ఈ పరీక్షలన్నీ <b>ప్రతి చన్నును (క్వార్టర్) విడిగా</b> పాలను పరీక్షిస్తాయి, ఎందుకంటే ఒక క్వార్టర్‌కు ఇన్ఫెక్షన్ ఉండి మిగతా మూడు ఆరోగ్యంగా ఉండవచ్చు. వీటిలో దేనికీ ప్రయోగశాల అవసరం లేదు — ఇవి పశువు పక్కనే చేసే త్వరిత పరీక్షలు."),
           },
           {
             type: "stat-grid",
             items: [
               {
-                label: L("California Mastitis Test (CMT)"),
-                text: L(
-                  "Equal amounts of milk and CMT reagent are mixed by swirling in a paddle. Milk with sub-clinical mastitis turns into a gel. Read it quickly — within about 20–30 seconds — because the reaction can fade."
-                ),
+                label: L("California Mastitis Test (CMT)", "కాలిఫోర్నియా మాస్టిటిస్ టెస్ట్ (CMT)"),
+                text: L("Equal amounts of milk and CMT reagent are mixed by swirling in a paddle. Milk with sub-clinical mastitis turns into a gel. Read it quickly — within about 20–30 seconds — because the reaction can fade.", "సమాన పరిమాణంలో పాలు, CMT రసాయనాన్ని ఒక ప్యాడిల్‌లో తిప్పుతూ కలుపుతారు. సబ్-క్లినికల్ మాస్టిటిస్ ఉన్న పాలు జెల్‌లా మారుతాయి. త్వరగా — సుమారు 20–30 సెకన్లలో — చూడండి, ఎందుకంటే ఈ ప్రతిచర్య మసకబారవచ్చు."),
               },
               {
-                label: L("Strip cup test"),
-                text: L("The first squirts of milk are seen against a black surface. Small flakes mean sub-clinical mastitis — bigger flakes mean a worse infection."),
+                label: L("Strip cup test", "స్ట్రిప్ కప్ పరీక్ష"),
+                text: L("The first squirts of milk are seen against a black surface. Small flakes mean sub-clinical mastitis — bigger flakes mean a worse infection.", "మొదటి పాల ధారలను నల్లటి ఉపరితలం మీద చూస్తారు. చిన్న ముక్కలు (ఫ్లేక్స్) ఉంటే సబ్-క్లినికల్ మాస్టిటిస్ — పెద్ద ముక్కలు ఉంటే ఇన్ఫెక్షన్ ఇంకా తీవ్రం."),
               },
-              { label: L("Paper test"), text: L("A drop of milk on a special test paper — a green colour indicates sub-clinical mastitis.") },
+              { label: L("Paper test", "పేపర్ పరీక్ష"), text: L("A drop of milk on a special test paper — a green colour indicates sub-clinical mastitis.", "ప్రత్యేక పరీక్ష కాగితం మీద ఒక చుక్క పాలు — ఆకుపచ్చ రంగు వస్తే సబ్-క్లినికల్ మాస్టిటిస్.") },
               {
-                label: L("Field mastitis test"),
-                text: L("Done exactly like the CMT, but using a concentrated detergent solution instead of the CMT reagent — a low-cost option."),
+                label: L("Field mastitis test", "ఫీల్డ్ మాస్టిటిస్ పరీక్ష"),
+                text: L("Done exactly like the CMT, but using a concentrated detergent solution instead of the CMT reagent — a low-cost option.", "CMT లాగానే చేస్తారు, కానీ CMT రసాయనానికి బదులు గాఢమైన డిటర్జెంట్ ద్రావణం వాడతారు — తక్కువ ఖర్చుతో కూడిన పద్ధతి."),
               },
             ],
           },
           {
             type: "callout",
             style: "warning",
-            heading: L("When the CMT Can Mislead"),
-            text: L(
-              "The CMT may give a false positive in the first 10 days after calving, or when the animal is almost dry. Results from these times should be interpreted by the vet, not acted on alone."
-            ),
+            heading: L("When the CMT Can Mislead", "CMT తప్పుదారి పట్టించగల సమయాలు"),
+            text: L("The CMT may give a false positive in the first 10 days after calving, or when the animal is almost dry. Results from these times should be interpreted by the vet, not acted on alone.", "ఈనిన మొదటి 10 రోజుల్లో, లేదా పశువు దాదాపు పాలు ఆగిపోయే దశలో ఉన్నప్పుడు CMT తప్పుడు పాజిటివ్ చూపించవచ్చు. ఈ సమయాల ఫలితాలను పశువైద్యుడు అర్థం చేసుకోవాలి, వాటి ఆధారంగా మీరే చర్య తీసుకోవద్దు."),
           },
           {
             type: "glossary",
-            term: L("Somatic Cell Count (SCC)"),
-            meaning: L(
-              "A laboratory count of cells in milk. A high count signals udder infection. Where testing facilities exist, farms track SCC for each cow and for the whole bulk tank as a standard measure of udder health."
-            ),
+            term: L("Somatic Cell Count (SCC)", "సోమాటిక్ సెల్ కౌంట్ (SCC)"),
+            meaning: L("A laboratory count of cells in milk. A high count signals udder infection. Where testing facilities exist, farms track SCC for each cow and for the whole bulk tank as a standard measure of udder health.", "పాలలోని కణాల ప్రయోగశాల లెక్కింపు. ఎక్కువ కౌంట్ పొదుగు ఇన్ఫెక్షన్‌ను సూచిస్తుంది. పరీక్ష సౌకర్యాలు ఉన్న చోట, ఫారాలు పొదుగు ఆరోగ్యానికి ప్రామాణిక కొలమానంగా ప్రతి ఆవుకు, మొత్తం బల్క్ ట్యాంక్‌కు SCC గమనిస్తాయి."),
           },
           {
             type: "stat-grid",
             items: [
-              { label: L("High mastitis on the farm"), text: L("CMT every day.") },
-              { label: L("Medium"), text: L("CMT on alternate days.") },
-              { label: L("Low"), text: L("CMT once a week — the minimum for every milking animal.") },
+              { label: L("High mastitis on the farm", "ఫారంలో మాస్టిటిస్ ఎక్కువగా ఉంటే"), text: L("CMT every day.", "ప్రతి రోజూ CMT.") },
+              { label: L("Medium", "మధ్యస్థం"), text: L("CMT on alternate days.", "రోజు విడిచి రోజు CMT.") },
+              { label: L("Low", "తక్కువ"), text: L("CMT once a week — the minimum for every milking animal.", "వారానికి ఒకసారి CMT — పాలిచ్చే ప్రతి పశువుకు కనీసం ఇంత.") },
               {
-                label: L("Newly purchased animals"),
-                text: L("Always tested — and treated if positive — before they join the herd."),
+                label: L("Newly purchased animals", "కొత్తగా కొన్న పశువులు"),
+                text: L("Always tested — and treated if positive — before they join the herd.", "మందలో కలిపే ముందు ఎప్పుడూ పరీక్షించాలి — పాజిటివ్ వస్తే చికిత్స చేయాలి."),
               },
             ],
           },
           {
             type: "callout",
             style: "info",
-            heading: L("How a Well-Run Farm Organises Mastitis Control"),
-            text: L(
-              "Record each animal's milk every day and group them into low, medium and high yielders — watch high yielders most closely. Send CMT-positive and clinical mastitis milk samples to a laboratory for culture and an antibiotic sensitivity test, so the vet can choose a drug that actually works. Finish milking each animal within about 8 minutes once started. Let the calf suckle after milking to empty the udder. And remove cows with chronic or repeated mastitis that don't respond to treatment."
-            ),
+            heading: L("How a Well-Run Farm Organises Mastitis Control", "బాగా నడిచే ఫారం మాస్టిటిస్ నియంత్రణను ఎలా ఏర్పాటు చేస్తుంది"),
+            text: L("Record each animal's milk every day and group them into low, medium and high yielders — watch high yielders most closely. Send CMT-positive and clinical mastitis milk samples to a laboratory for culture and an antibiotic sensitivity test, so the vet can choose a drug that actually works. Finish milking each animal within about 8 minutes once started. Let the calf suckle after milking to empty the udder. And remove cows with chronic or repeated mastitis that don't respond to treatment.", "ప్రతి రోజూ ప్రతి పశువు పాలను రాసిపెట్టి, వాటిని తక్కువ, మధ్యస్థ, ఎక్కువ పాలిచ్చేవిగా విభజించండి — ఎక్కువ పాలిచ్చే వాటిని అత్యంత దగ్గరగా గమనించండి. CMT పాజిటివ్, క్లినికల్ మాస్టిటిస్ పాల నమూనాలను కల్చర్, యాంటీబయాటిక్ సెన్సిటివిటీ పరీక్ష కోసం ప్రయోగశాలకు పంపండి, అప్పుడు పశువైద్యుడు నిజంగా పనిచేసే మందును ఎంచుకోగలరు. మొదలుపెట్టిన తర్వాత ప్రతి పశువు పాలు పిండడం సుమారు 8 నిమిషాల్లో పూర్తి చేయండి. పొదుగు ఖాళీ కావడానికి పాలు పిండిన తర్వాత దూడను పాలు తాగనివ్వండి. చికిత్సకు స్పందించని దీర్ఘకాలిక లేదా మళ్ళీ మళ్ళీ వచ్చే మాస్టిటిస్ ఉన్న ఆవులను మంద నుండి తొలగించండి."),
           },
           {
             type: "callout",
             style: "tip",
-            heading: L("Small Habits From the Handbook"),
-            text: L(
-              "If animals are tethered in the open, change their resting place often. Ideally don't use any lubricant on the teats while milking — if one is used, it should be heated daily before use. Any antibiotic for mastitis is only given on a vet's prescription, and the milk withdrawal period must always be followed."
-            ),
+            heading: L("Small Habits From the Handbook", "హ్యాండ్‌బుక్ నుండి చిన్న అలవాట్లు"),
+            text: L("If animals are tethered in the open, change their resting place often. Ideally don't use any lubricant on the teats while milking — if one is used, it should be heated daily before use. Any antibiotic for mastitis is only given on a vet's prescription, and the milk withdrawal period must always be followed.", "పశువులను బయట కట్టేస్తే, అవి విశ్రాంతి తీసుకునే చోటును తరచుగా మార్చండి. ఆదర్శంగా పాలు పిండేటప్పుడు చనుమొనలకు ఏ లూబ్రికెంట్ (నూనె/జిడ్డు) వాడవద్దు — వాడితే, ప్రతి రోజూ వాడే ముందు దాన్ని వేడి చేయాలి. మాస్టిటిస్‌కు ఏ యాంటీబయాటిక్ అయినా పశువైద్యుని ప్రిస్క్రిప్షన్‌తో మాత్రమే ఇవ్వాలి, పాల విత్‌డ్రాయల్ కాలాన్ని ఎప్పుడూ పాటించాలి."),
           },
         ],
         check: [
           {
             type: "mcq",
-            q: L("In the California Mastitis Test, what does milk with sub-clinical mastitis do?"),
-            options: [L("It turns bright blue"), L("It boils"), L("It forms a gel"), L("Nothing visible happens")],
+            q: L("In the California Mastitis Test, what does milk with sub-clinical mastitis do?", "కాలిఫోర్నియా మాస్టిటిస్ టెస్ట్‌లో, సబ్-క్లినికల్ మాస్టిటిస్ ఉన్న పాలు ఏమవుతాయి?"),
+            options: [L("It turns bright blue", "ప్రకాశవంతమైన నీలం రంగులోకి మారుతాయి"), L("It boils", "మరుగుతాయి"), L("It forms a gel", "జెల్‌లా మారుతాయి"), L("Nothing visible happens", "కంటికి ఏమీ కనిపించదు")],
             answer: 2,
-            explain: L("When mixed with the CMT reagent, milk from an infected quarter forms a gel — read it within about 20–30 seconds."),
+            explain: L("When mixed with the CMT reagent, milk from an infected quarter forms a gel — read it within about 20–30 seconds.", "CMT రసాయనంతో కలిపినప్పుడు, ఇన్ఫెక్షన్ ఉన్న క్వార్టర్ పాలు జెల్‌లా మారుతాయి — సుమారు 20–30 సెకన్లలో చూడండి."),
           },
           {
             type: "truefalse",
-            q: L("Each quarter of the udder should be tested separately."),
+            q: L("Each quarter of the udder should be tested separately.", "పొదుగులోని ప్రతి క్వార్టర్‌ను విడిగా పరీక్షించాలి."),
             answer: true,
-            explain: L("Yes — each quarter works independently, so one can be infected while the others are healthy."),
+            explain: L("Yes — each quarter works independently, so one can be infected while the others are healthy.", "అవును — ప్రతి క్వార్టర్ స్వతంత్రంగా పనిచేస్తుంది, కాబట్టి ఒకదానికి ఇన్ఫెక్షన్ ఉండి మిగతావి ఆరోగ్యంగా ఉండవచ్చు."),
           },
         ],
       },
       {
         id: "t-m9-teat-warts-mammillitis",
-        title: L("Teat Warts and Ulcerative Mammillitis"),
+        title: L("Teat Warts and Ulcerative Mammillitis", "చనుమొన పులిపిరులు, అల్సరేటివ్ మామిలైటిస్"),
         teach: [
           {
             type: "text",
-            heading: L("Why Teat Skin Matters"),
-            html: L(
-              "Diseases of the teat skin may not cut milk directly, but they make milking painful and difficult — and damaged teat skin makes mastitis more likely. Some can even spread to the milker's hands."
-            ),
+            heading: L("Why Teat Skin Matters", "చనుమొన చర్మం ఎందుకు ముఖ్యం"),
+            html: L("Diseases of the teat skin may not cut milk directly, but they make milking painful and difficult — and damaged teat skin makes mastitis more likely. Some can even spread to the milker's hands.", "చనుమొన చర్మ వ్యాధులు నేరుగా పాలను తగ్గించకపోవచ్చు, కానీ పాలు పిండడాన్ని బాధాకరంగా, కష్టంగా చేస్తాయి — దెబ్బతిన్న చనుమొన చర్మం వల్ల మాస్టిటిస్ వచ్చే అవకాశం ఎక్కువ. కొన్ని పాలు పిండేవారి చేతులకు కూడా సోకవచ్చు."),
           },
           {
             type: "stat-grid",
             items: [
-              { label: L("Teat warts — cause"), text: L("A virus. Heifers are more prone. Flies are thought to spread it.") },
-              { label: L("Teat warts — look"), text: L("Fleshy lumps, or fine 'feathery' growths, on the teats.") },
+              { label: L("Teat warts — cause", "చనుమొన పులిపిరులు — కారణం"), text: L("A virus. Heifers are more prone. Flies are thought to spread it.", "ఒక వైరస్. పెయ్యలకు ఎక్కువగా వస్తుంది. ఈగలు దీన్ని వ్యాపింపజేస్తాయని భావిస్తారు.") },
+              { label: L("Teat warts — look", "చనుమొన పులిపిరులు — ఎలా కనిపిస్తాయి"), text: L("Fleshy lumps, or fine 'feathery' growths, on the teats.", "చనుమొనలపై కండగల గడ్డలు, లేదా సన్నని 'ఈక లాంటి' పెరుగుదలలు.") },
               {
-                label: L("Teat warts — outcome"),
-                text: L(
-                  "Mostly an appearance problem and most go away on their own. They can still get in the way of milking. Removing warts too early can make them spread — any removal is for the vet."
-                ),
+                label: L("Teat warts — outcome", "చనుమొన పులిపిరులు — ఫలితం"),
+                text: L("Mostly an appearance problem and most go away on their own. They can still get in the way of milking. Removing warts too early can make them spread — any removal is for the vet.", "ఎక్కువగా చూపుకు సంబంధించిన సమస్య, చాలావరకు వాటంతట అవే పోతాయి. అయినా పాలు పిండడానికి అడ్డు రావచ్చు. పులిపిరులను చాలా ముందుగా తీసివేస్తే అవి వ్యాపించవచ్చు — తీసివేయడం పశువైద్యుని పని."),
               },
             ],
           },
           {
             type: "callout",
             style: "tip",
-            heading: L("Preventing Warts"),
-            text: L("Disinfecting stalls reduces spread, and because flies are thought to carry the virus, fly control helps too."),
+            heading: L("Preventing Warts", "పులిపిరుల నివారణ"),
+            text: L("Disinfecting stalls reduces spread, and because flies are thought to carry the virus, fly control helps too.", "పశువుల స్థలాలను క్రిమిరహితం చేస్తే వ్యాప్తి తగ్గుతుంది, ఈగలు వైరస్‌ను మోసుకెళ్తాయని భావిస్తారు కాబట్టి ఈగల నియంత్రణ కూడా సహాయపడుతుంది."),
           },
           {
             type: "glossary",
-            term: L("Ulcerative Mammillitis"),
-            meaning: L(
-              "A viral disease of the teat and udder skin. It is fairly uncommon, but spreads fast through a herd meeting it for the first time and is very painful. It is seen most in first-lactation cows."
-            ),
+            term: L("Ulcerative Mammillitis", "అల్సరేటివ్ మామిలైటిస్"),
+            meaning: L("A viral disease of the teat and udder skin. It is fairly uncommon, but spreads fast through a herd meeting it for the first time and is very painful. It is seen most in first-lactation cows.", "చనుమొన, పొదుగు చర్మానికి వచ్చే వైరల్ వ్యాధి. ఇది అంత సాధారణం కాదు, కానీ మొదటిసారి ఎదుర్కొనే మందలో వేగంగా వ్యాపిస్తుంది, చాలా బాధాకరం. మొదటి ఈతలో ఉన్న ఆవుల్లో ఎక్కువగా కనిపిస్తుంది."),
           },
           {
             type: "stat-grid",
             items: [
               {
-                label: L("What you'll see"),
-                text: L("Anything from small fluid-filled blisters to large ulcers and scabs, which can spread over the whole udder. Nursing calves may get sores in the mouth."),
+                label: L("What you'll see", "మీకు ఏమి కనిపిస్తుంది"),
+                text: L("Anything from small fluid-filled blisters to large ulcers and scabs, which can spread over the whole udder. Nursing calves may get sores in the mouth.", "ద్రవంతో నిండిన చిన్న బొబ్బల నుండి పెద్ద పుండ్లు, పొక్కుల వరకు ఏదైనా, ఇవి పొదుగు మొత్తం వ్యాపించవచ్చు. పాలు తాగే దూడల నోటిలో పుండ్లు రావచ్చు."),
               },
               {
-                label: L("What the farm does"),
-                text: L("No specific cure. Infected cows are separated; iodine teat dips help stop spread; an emollient udder cream helps healing."),
+                label: L("What the farm does", "ఫారం ఏమి చేస్తుంది"),
+                text: L("No specific cure. Infected cows are separated; iodine teat dips help stop spread; an emollient udder cream helps healing.", "నిర్దిష్టమైన మందు లేదు. వ్యాధి సోకిన ఆవులను వేరు చేస్తారు; అయోడిన్ టీట్ డిప్‌లు వ్యాప్తిని ఆపడానికి సహాయపడతాయి; మెత్తబరిచే పొదుగు క్రీమ్ మానడానికి సహాయపడుతుంది."),
               },
               {
-                label: L("Prevention"),
-                text: L("Hard to get rid of once on a farm. Proper quarantine of new animals, good hygiene and control of biting flies reduce it a lot."),
+                label: L("Prevention", "నివారణ"),
+                text: L("Hard to get rid of once on a farm. Proper quarantine of new animals, good hygiene and control of biting flies reduce it a lot.", "ఒకసారి ఫారంలోకి వస్తే తొలగించడం కష్టం. కొత్త పశువులను సరిగా క్వారంటైన్ చేయడం, మంచి శుభ్రత, కుట్టే ఈగల నియంత్రణ దీన్ని చాలా తగ్గిస్తాయి."),
               },
             ],
           },
@@ -10101,59 +10027,55 @@ export const MODULES = [
         check: [
           {
             type: "truefalse",
-            q: L("Most teat warts go away on their own over time."),
+            q: L("Most teat warts go away on their own over time.", "చాలా చనుమొన పులిపిరులు కాలక్రమేణా వాటంతట అవే పోతాయి."),
             answer: true,
-            explain: L("Yes — most regress by themselves. Removing them too early can make them spread, so removal is for the vet."),
+            explain: L("Yes — most regress by themselves. Removing them too early can make them spread, so removal is for the vet.", "అవును — చాలావరకు వాటంతట అవే తగ్గిపోతాయి. చాలా ముందుగా తీసివేస్తే అవి వ్యాపించవచ్చు, కాబట్టి తీసివేయడం పశువైద్యుని పని."),
           },
           {
             type: "mcq",
-            q: L("Which animals are most often affected by ulcerative mammillitis?"),
-            options: [L("Male calves"), L("Only buffaloes over 10 years"), L("Only dry cows"), L("First-lactation cows")],
+            q: L("Which animals are most often affected by ulcerative mammillitis?", "అల్సరేటివ్ మామిలైటిస్ ఎక్కువగా ఏ పశువులకు వస్తుంది?"),
+            options: [L("Male calves", "మగ దూడలు"), L("Only buffaloes over 10 years", "10 సంవత్సరాలు దాటిన గేదెలు మాత్రమే"), L("Only dry cows", "పాలు ఇవ్వని ఆవులు మాత్రమే"), L("First-lactation cows", "మొదటి ఈతలో ఉన్న ఆవులు")],
             answer: 3,
-            explain: L("Ulcerative mammillitis tends to occur most commonly in first-lactation cows."),
+            explain: L("Ulcerative mammillitis tends to occur most commonly in first-lactation cows.", "అల్సరేటివ్ మామిలైటిస్ ఎక్కువగా మొదటి ఈతలో ఉన్న ఆవుల్లో వస్తుంది."),
           },
         ],
       },
       {
         id: "t-m9-pseudocowpox",
-        title: L("Pseudocowpox (Milker's Nodule)"),
+        title: L("Pseudocowpox (Milker's Nodule)", "సూడోకౌపాక్స్ (మిల్కర్స్ నాడ్యూల్)"),
         teach: [
           {
             type: "text",
-            heading: L("The Most Common Infectious Teat Disease"),
-            html: L(
-              "<b>Pseudocowpox</b> is the most common infectious cause of teat disease in cattle. It is caused by a virus, and should not be confused with true cowpox, which is rare. Immunity after recovery is short-lived, so a cow can catch it again within a few months."
-            ),
+            heading: L("The Most Common Infectious Teat Disease", "అత్యంత సాధారణమైన అంటు చనుమొన వ్యాధి"),
+            html: L("<b>Pseudocowpox</b> is the most common infectious cause of teat disease in cattle. It is caused by a virus, and should not be confused with true cowpox, which is rare. Immunity after recovery is short-lived, so a cow can catch it again within a few months.", "పశువుల్లో చనుమొన వ్యాధికి అత్యంత సాధారణమైన అంటు కారణం <b>సూడోకౌపాక్స్</b>. ఇది వైరస్ వల్ల వస్తుంది, అరుదుగా వచ్చే నిజమైన కౌపాక్స్‌తో దీన్ని కలపకూడదు. కోలుకున్న తర్వాత రోగనిరోధక శక్తి కొద్దికాలమే ఉంటుంది, కాబట్టి కొన్ని నెలల్లోనే ఆవుకు మళ్ళీ రావచ్చు."),
           },
           {
             type: "timeline",
-            heading: L("How a Pseudocowpox Lesion Develops"),
+            heading: L("How a Pseudocowpox Lesion Develops", "సూడోకౌపాక్స్ పుండు ఎలా పెరుగుతుంది"),
             items: [
-              { year: L("Day 1"), text: L("A small area of swelling and reddening appears on the teat.") },
-              { year: L("Next 2 days"), text: L("It rises into an orange-coloured bump, which then scabs over.") },
-              { year: L("Day 7–10"), text: L("Scabs start to drop off, often leaving a horse-shoe or ring-shaped mark — the tell-tale sign.") },
-              { year: L("About 1 month"), text: L("Damaged teats have usually healed.") },
+              { year: L("Day 1", "రోజు 1"), text: L("A small area of swelling and reddening appears on the teat.", "చనుమొనపై చిన్న ప్రాంతంలో వాపు, ఎరుపు కనిపిస్తుంది.") },
+              { year: L("Next 2 days", "తర్వాతి 2 రోజులు"), text: L("It rises into an orange-coloured bump, which then scabs over.", "అది నారింజ రంగు ఉబ్బుగా పైకి లేస్తుంది, తర్వాత దాని మీద పొక్కు కడుతుంది.") },
+              { year: L("Day 7–10", "రోజు 7–10"), text: L("Scabs start to drop off, often leaving a horse-shoe or ring-shaped mark — the tell-tale sign.", "పొక్కులు ఊడిపోవడం మొదలవుతుంది, తరచుగా గుర్రపు నాడా లేదా ఉంగరం ఆకారపు గుర్తు మిగులుతుంది — ఇదే గుర్తించే సంకేతం.") },
+              { year: L("About 1 month", "సుమారు 1 నెల"), text: L("Damaged teats have usually healed.", "దెబ్బతిన్న చనుమొనలు సాధారణంగా మానిపోతాయి.") },
             ],
-            result: L("Lesions are usually on the teats, but up to 1 in 10 affected cows also have them on the udder skin."),
+            result: L("Lesions are usually on the teats, but up to 1 in 10 affected cows also have them on the udder skin.", "పుండ్లు సాధారణంగా చనుమొనలపై ఉంటాయి, కానీ వ్యాధి సోకిన ప్రతి 10 ఆవుల్లో 1 వరకు పొదుగు చర్మంపై కూడా ఉంటాయి."),
           },
           {
             type: "callout",
             style: "warning",
-            heading: L("It Can Spread to You — the 'Milker's Nodule'"),
-            text: L(
-              "Pseudocowpox spreads from cattle to people by contact. In people it causes a painful, localised skin lump called a milker's nodule. Wash your hands well after milking, and report teat lesions so affected cows can be managed properly."
-            ),
+            heading: L("It Can Spread to You — the 'Milker's Nodule'", "ఇది మీకూ సోకవచ్చు — 'మిల్కర్స్ నాడ్యూల్'"),
+            text: L("Pseudocowpox spreads from cattle to people by contact. In people it causes a painful, localised skin lump called a milker's nodule. Wash your hands well after milking, and report teat lesions so affected cows can be managed properly.", "సూడోకౌపాక్స్ తాకడం ద్వారా పశువుల నుండి మనుషులకు వ్యాపిస్తుంది. మనుషుల్లో ఇది మిల్కర్స్ నాడ్యూల్ అనే బాధాకరమైన, ఒకే చోట ఉండే చర్మపు గడ్డను కలిగిస్తుంది. పాలు పిండిన తర్వాత చేతులు బాగా కడుక్కోండి, వ్యాధి సోకిన ఆవులను సరిగా చూసుకోవడానికి చనుమొన పుండ్ల గురించి తెలియజేయండి."),
           },
           {
             type: "stat-grid",
             items: [
               {
-                label: L("What the farm does"),
-                text: L("Scabs are removed and a suitable disinfectant applied; emollient teat dips and sprays help. Consult the vet."),
+                label: L("What the farm does", "ఫారం ఏమి చేస్తుంది"),
+                text: L("Scabs are removed and a suitable disinfectant applied; emollient teat dips and sprays help. Consult the vet.", "పొక్కులను తీసివేసి తగిన క్రిమిసంహారిణి పూస్తారు; మెత్తబరిచే టీట్ డిప్‌లు, స్ప్రేలు సహాయపడతాయి. పశువైద్యుడిని సంప్రదించండి."),
               },
               {
-                label: L("Prevention"),
-                text: L("Quarantine new cows before they join the herd, use proper iodine-based teat dipping (one of the most effective controls), and keep the shed clean."),
+                label: L("Prevention", "నివారణ"),
+                text: L("Quarantine new cows before they join the herd, use proper iodine-based teat dipping (one of the most effective controls), and keep the shed clean.", "కొత్త ఆవులను మందలో కలిపే ముందు క్వారంటైన్ చేయండి, సరైన అయోడిన్ ఆధారిత టీట్ డిప్పింగ్ వాడండి (అత్యంత ప్రభావవంతమైన నియంత్రణల్లో ఒకటి), షెడ్‌ను శుభ్రంగా ఉంచండి."),
               },
             ],
           },
@@ -10161,16 +10083,16 @@ export const MODULES = [
         check: [
           {
             type: "mcq",
-            q: L("What mark often remains when pseudocowpox scabs drop off?"),
-            options: [L("A deep hole"), L("A black spot"), L("No mark at all, ever"), L("A horse-shoe or ring-shaped mark")],
+            q: L("What mark often remains when pseudocowpox scabs drop off?", "సూడోకౌపాక్స్ పొక్కులు ఊడిపోయినప్పుడు తరచుగా ఏ గుర్తు మిగులుతుంది?"),
+            options: [L("A deep hole", "లోతైన రంధ్రం"), L("A black spot", "నల్లటి మచ్చ"), L("No mark at all, ever", "ఎప్పుడూ ఏ గుర్తూ ఉండదు"), L("A horse-shoe or ring-shaped mark", "గుర్రపు నాడా లేదా ఉంగరం ఆకారపు గుర్తు")],
             answer: 3,
-            explain: L("The horse-shoe or ring-shaped area left as scabs fall off, 7–10 days after the first signs, is very characteristic."),
+            explain: L("The horse-shoe or ring-shaped area left as scabs fall off, 7–10 days after the first signs, is very characteristic.", "మొదటి లక్షణాల తర్వాత 7–10 రోజులకు పొక్కులు ఊడినప్పుడు మిగిలే గుర్రపు నాడా లేదా ఉంగరం ఆకారపు ప్రాంతం దీని ప్రత్యేక లక్షణం."),
           },
           {
             type: "truefalse",
-            q: L("Pseudocowpox can spread from cattle to people."),
+            q: L("Pseudocowpox can spread from cattle to people.", "సూడోకౌపాక్స్ పశువుల నుండి మనుషులకు వ్యాపించగలదు."),
             answer: true,
-            explain: L("Yes — in people it causes a painful skin lump called a milker's nodule. Wash your hands after milking."),
+            explain: L("Yes — in people it causes a painful skin lump called a milker's nodule. Wash your hands after milking.", "అవును — మనుషుల్లో ఇది మిల్కర్స్ నాడ్యూల్ అనే బాధాకరమైన చర్మపు గడ్డను కలిగిస్తుంది. పాలు పిండిన తర్వాత చేతులు కడుక్కోండి."),
           },
         ],
       },
@@ -10181,60 +10103,60 @@ export const MODULES = [
         {
           topicId: "t-m9-scm-tests",
           type: "mcq",
-          q: L("In the strip cup test, what indicates sub-clinical mastitis?"),
-          options: [L("The milk smells sweet"), L("The milk is warm"), L("Small flakes in the milk, seen against a black surface"), L("The milk is white")],
+          q: L("In the strip cup test, what indicates sub-clinical mastitis?", "స్ట్రిప్ కప్ పరీక్షలో, సబ్-క్లినికల్ మాస్టిటిస్‌ను ఏది సూచిస్తుంది?"),
+          options: [L("The milk smells sweet", "పాలు తియ్యటి వాసన వస్తాయి"), L("The milk is warm", "పాలు వెచ్చగా ఉంటాయి"), L("Small flakes in the milk, seen against a black surface", "నల్లటి ఉపరితలం మీద కనిపించే పాలలోని చిన్న ముక్కలు"), L("The milk is white", "పాలు తెల్లగా ఉంటాయి")],
           answer: 2,
-          explain: L("Small flakes seen against a black surface indicate SCM — the bigger the flakes, the worse the infection."),
+          explain: L("Small flakes seen against a black surface indicate SCM — the bigger the flakes, the worse the infection.", "నల్లటి ఉపరితలం మీద కనిపించే చిన్న ముక్కలు SCMను సూచిస్తాయి — ముక్కలు పెద్దవైతే ఇన్ఫెక్షన్ తీవ్రం."),
         },
         {
           topicId: "t-m9-scm-tests",
           type: "truefalse",
-          q: L("A CMT result in the first 10 days after calving can be a false positive."),
+          q: L("A CMT result in the first 10 days after calving can be a false positive.", "ఈనిన మొదటి 10 రోజుల్లో CMT ఫలితం తప్పుడు పాజిటివ్ కావచ్చు."),
           answer: true,
-          explain: L("Correct — the CMT may give a false positive very early in lactation or when the animal is almost dry."),
+          explain: L("Correct — the CMT may give a false positive very early in lactation or when the animal is almost dry.", "సరైనది — పాలిచ్చే కాలం మొదట్లో లేదా పశువు దాదాపు పాలు ఆగిపోయే దశలో CMT తప్పుడు పాజిటివ్ చూపవచ్చు."),
         },
         {
           topicId: "t-m9-scm-tests",
           type: "mcq",
-          q: L("Why are milk samples from CMT-positive cows sent for culture and antibiotic sensitivity testing?"),
+          q: L("Why are milk samples from CMT-positive cows sent for culture and antibiotic sensitivity testing?", "CMT పాజిటివ్ ఆవుల పాల నమూనాలను కల్చర్, యాంటీబయాటిక్ సెన్సిటివిటీ పరీక్షకు ఎందుకు పంపుతారు?"),
           options: [
-            L("To make the milk taste better"),
-            L("To find out the cow's age"),
-            L("So the vet can choose a drug that actually works against the germs on that farm"),
-            L("It is never needed"),
+            L("To make the milk taste better", "పాల రుచి మెరుగుపడడానికి"),
+            L("To find out the cow's age", "ఆవు వయసు తెలుసుకోవడానికి"),
+            L("So the vet can choose a drug that actually works against the germs on that farm", "ఆ ఫారంలోని క్రిములపై నిజంగా పనిచేసే మందును పశువైద్యుడు ఎంచుకోవడానికి"),
+            L("It is never needed", "ఇది ఎప్పుడూ అవసరం లేదు"),
           ],
           answer: 2,
-          explain: L("Culture and sensitivity testing shows which germs are present and which drugs still work, guiding the vet's treatment."),
+          explain: L("Culture and sensitivity testing shows which germs are present and which drugs still work, guiding the vet's treatment.", "కల్చర్, సెన్సిటివిటీ పరీక్ష ఏ క్రిములు ఉన్నాయో, ఏ మందులు ఇంకా పనిచేస్తాయో చూపిస్తుంది, ఇది పశువైద్యుని చికిత్సకు మార్గదర్శకం."),
         },
         {
           topicId: "t-m9-teat-warts-mammillitis",
           type: "truefalse",
-          q: L("Removing teat warts very early is always the best approach."),
+          q: L("Removing teat warts very early is always the best approach.", "చనుమొన పులిపిరులను చాలా ముందుగా తీసివేయడం ఎప్పుడూ ఉత్తమ పద్ధతి."),
           answer: false,
-          explain: L("No — removing warts too soon can stimulate growth and spread the virus. Most regress on their own; removal is for the vet."),
+          explain: L("No — removing warts too soon can stimulate growth and spread the virus. Most regress on their own; removal is for the vet.", "కాదు — పులిపిరులను చాలా త్వరగా తీసివేస్తే పెరుగుదలను ప్రేరేపించి వైరస్‌ను వ్యాపింపజేయవచ్చు. చాలావరకు వాటంతట అవే తగ్గిపోతాయి; తీసివేయడం పశువైద్యుని పని."),
         },
         {
           topicId: "t-m9-teat-warts-mammillitis",
           type: "mcq",
-          q: L("Which step helps stop ulcerative mammillitis spreading in a herd?"),
-          options: [L("Separating infected cows and using iodine teat dips"), L("Milking infected cows first"), L("Sharing towels between cows"), L("Stopping fly control")],
+          q: L("Which step helps stop ulcerative mammillitis spreading in a herd?", "మందలో అల్సరేటివ్ మామిలైటిస్ వ్యాపించకుండా ఏ చర్య సహాయపడుతుంది?"),
+          options: [L("Separating infected cows and using iodine teat dips", "వ్యాధి సోకిన ఆవులను వేరు చేయడం, అయోడిన్ టీట్ డిప్‌లు వాడడం"), L("Milking infected cows first", "వ్యాధి సోకిన ఆవులకు ముందుగా పాలు పిండడం"), L("Sharing towels between cows", "ఆవుల మధ్య తువ్వాళ్ళు పంచుకోవడం"), L("Stopping fly control", "ఈగల నియంత్రణ ఆపేయడం")],
           answer: 0,
-          explain: L("Infected cows should be separated, and iodine dips help disinfect teats to prevent spread."),
+          explain: L("Infected cows should be separated, and iodine dips help disinfect teats to prevent spread.", "వ్యాధి సోకిన ఆవులను వేరు చేయాలి, అయోడిన్ డిప్‌లు చనుమొనలను క్రిమిరహితం చేసి వ్యాప్తిని నివారిస్తాయి."),
         },
         {
           topicId: "t-m9-pseudocowpox",
           type: "mcq",
-          q: L("What is the most common infectious cause of teat disease in cattle?"),
-          options: [L("True cowpox"), L("Pseudocowpox"), L("Lumpy skin disease"), L("Foot rot")],
+          q: L("What is the most common infectious cause of teat disease in cattle?", "పశువుల్లో చనుమొన వ్యాధికి అత్యంత సాధారణమైన అంటు కారణం ఏది?"),
+          options: [L("True cowpox", "నిజమైన కౌపాక్స్"), L("Pseudocowpox", "సూడోకౌపాక్స్"), L("Lumpy skin disease", "లంపీ స్కిన్ డిసీజ్"), L("Foot rot", "కాళ్ళ కుళ్ళు")],
           answer: 1,
-          explain: L("Pseudocowpox is the most common infectious teat disease — true cowpox is rare."),
+          explain: L("Pseudocowpox is the most common infectious teat disease — true cowpox is rare.", "సూడోకౌపాక్స్ అత్యంత సాధారణమైన అంటు చనుమొన వ్యాధి — నిజమైన కౌపాక్స్ అరుదు."),
         },
         {
           topicId: "t-m9-pseudocowpox",
           type: "truefalse",
-          q: L("Proper teat dipping with an iodine-based dip is one of the most effective ways to control pseudocowpox."),
+          q: L("Proper teat dipping with an iodine-based dip is one of the most effective ways to control pseudocowpox.", "అయోడిన్ ఆధారిత డిప్‌తో సరైన టీట్ డిప్పింగ్ సూడోకౌపాక్స్ నియంత్రణకు అత్యంత ప్రభావవంతమైన మార్గాల్లో ఒకటి."),
           answer: true,
-          explain: L("Yes — along with quarantine of new cows and good shed hygiene."),
+          explain: L("Yes — along with quarantine of new cows and good shed hygiene.", "అవును — కొత్త ఆవుల క్వారంటైన్, షెడ్ శుభ్రతతో పాటు."),
         },
       ],
     },
@@ -11327,96 +11249,90 @@ export const MODULES = [
       },
       {
         id: "t-m11-salmonellosis",
-        title: L("Salmonellosis: A Food-Borne Infection Shared With People"),
+        title: L("Salmonellosis: A Food-Borne Infection Shared With People", "సాల్మొనెల్లోసిస్: మనుషులకూ సోకే ఆహార సంబంధ ఇన్ఫెక్షన్"),
         teach: [
           {
             type: "text",
-            heading: L("What It Is"),
-            html: L(
-              "<b>Salmonellosis</b> is caused by <i>Salmonella</i> bacteria and is one of the most common food-borne zoonotic diseases. The germ lives in poultry, pigs, cattle and pets (cats, dogs, birds, turtles). People catch it by <b>direct contact with infected animals</b>, by <b>eating contaminated food of animal origin</b>, or from person to person through the faecal–oral route."
-            ),
+            heading: L("What It Is", "ఇది ఏమిటి"),
+            html: L("<b>Salmonellosis</b> is caused by <i>Salmonella</i> bacteria and is one of the most common food-borne zoonotic diseases. The germ lives in poultry, pigs, cattle and pets (cats, dogs, birds, turtles). People catch it by <b>direct contact with infected animals</b>, by <b>eating contaminated food of animal origin</b>, or from person to person through the faecal–oral route.", "<b>సాల్మొనెల్లోసిస్</b> <i>సాల్మొనెల్లా</i> బ్యాక్టీరియా వల్ల వస్తుంది, ఇది అత్యంత సాధారణమైన ఆహార సంబంధ జూనోటిక్ వ్యాధుల్లో ఒకటి. ఈ క్రిమి కోళ్ళు, పందులు, పశువులు, పెంపుడు జంతువుల్లో (పిల్లులు, కుక్కలు, పక్షులు, తాబేళ్ళు) ఉంటుంది. మనుషులకు ఇది <b>వ్యాధి సోకిన జంతువులను నేరుగా తాకడం</b>, <b>కలుషితమైన జంతు సంబంధ ఆహారం తినడం</b>, లేదా మల–నోటి మార్గం ద్వారా ఒకరి నుండి మరొకరికి సోకుతుంది."),
           },
           {
             type: "stat-grid",
             items: [
-              { label: L("Carriers"), text: L("Animals can carry Salmonella with no signs at all, shedding it in their dung from time to time.") },
-              { label: L("Signs in animals"), text: L("Diarrhoea (sometimes bloody) with a septic-tank smell, abdominal pain, dehydration, dullness and poor appetite.") },
-              { label: L("Severe cases"), text: L("Blood infection (septicaemia), high fever, depression, fast heart rate and sudden death.") },
-              { label: L("Signs in people"), text: L("6–72 hours after exposure: diarrhoea, cramps, nausea, vomiting, fever — usually lasting 4–7 days.") },
+              { label: L("Carriers", "వాహకాలు"), text: L("Animals can carry Salmonella with no signs at all, shedding it in their dung from time to time.", "ఎలాంటి లక్షణాలు లేకుండానే పశువులు సాల్మొనెల్లాను మోసుకుంటూ, అప్పుడప్పుడు పేడలో విసర్జిస్తాయి.") },
+              { label: L("Signs in animals", "పశువుల్లో లక్షణాలు"), text: L("Diarrhoea (sometimes bloody) with a septic-tank smell, abdominal pain, dehydration, dullness and poor appetite.", "సెప్టిక్ ట్యాంక్ వాసనతో విరేచనాలు (కొన్నిసార్లు రక్తంతో), కడుపు నొప్పి, నిర్జలీకరణం, మందకొడితనం, ఆకలి తగ్గడం.") },
+              { label: L("Severe cases", "తీవ్రమైన సందర్భాలు"), text: L("Blood infection (septicaemia), high fever, depression, fast heart rate and sudden death.", "రక్తంలో ఇన్ఫెక్షన్ (సెప్టిసీమియా), తీవ్ర జ్వరం, నీరసం, వేగంగా గుండె కొట్టుకోవడం, ఆకస్మిక మరణం.") },
+              { label: L("Signs in people", "మనుషుల్లో లక్షణాలు"), text: L("6–72 hours after exposure: diarrhoea, cramps, nausea, vomiting, fever — usually lasting 4–7 days.", "సోకిన 6–72 గంటల తర్వాత: విరేచనాలు, కడుపు నొప్పి, వికారం, వాంతులు, జ్వరం — సాధారణంగా 4–7 రోజులు ఉంటాయి.") },
             ],
           },
           {
             type: "callout",
             style: "tip",
-            heading: L("Prevention"),
-            text: L(
-              "Good farm biosecurity — controlling access to animal areas, cleanliness, and keeping feed and water uncontaminated. Wash hands after handling animals or dung, and eat only well-cooked food. Report animals with foul-smelling or bloody diarrhoea."
-            ),
+            heading: L("Prevention", "నివారణ"),
+            text: L("Good farm biosecurity — controlling access to animal areas, cleanliness, and keeping feed and water uncontaminated. Wash hands after handling animals or dung, and eat only well-cooked food. Report animals with foul-smelling or bloody diarrhoea.", "మంచి ఫారం జీవభద్రత — పశువుల ప్రాంతాలకు రాకపోకల నియంత్రణ, శుభ్రత, దాణా, నీరు కలుషితం కాకుండా ఉంచడం. పశువులను లేదా పేడను తాకిన తర్వాత చేతులు కడుక్కోండి, బాగా ఉడికించిన ఆహారమే తినండి. దుర్వాసన వచ్చే లేదా రక్తంతో కూడిన విరేచనాలు ఉన్న పశువుల గురించి తెలియజేయండి."),
           },
         ],
         check: [
           {
             type: "truefalse",
-            q: L("An animal that looks completely healthy can still carry and shed Salmonella."),
+            q: L("An animal that looks completely healthy can still carry and shed Salmonella.", "పూర్తిగా ఆరోగ్యంగా కనిపించే పశువు కూడా సాల్మొనెల్లాను మోసుకుంటూ విసర్జించవచ్చు."),
             answer: true,
-            explain: L("Yes — carrier animals show no signs but shed the bacteria in their dung intermittently."),
+            explain: L("Yes — carrier animals show no signs but shed the bacteria in their dung intermittently.", "అవును — వాహక పశువులకు లక్షణాలు ఉండవు కానీ బ్యాక్టీరియాను అప్పుడప్పుడు పేడలో విసర్జిస్తాయి."),
           },
           {
             type: "mcq",
-            q: L("Which is a typical sign of salmonellosis in cattle?"),
-            options: [L("Lumps all over the skin"), L("Diarrhoea, sometimes bloody, with a septic-tank smell"), L("Lockjaw"), L("Blisters on the teats only")],
+            q: L("Which is a typical sign of salmonellosis in cattle?", "పశువుల్లో సాల్మొనెల్లోసిస్‌కు సాధారణమైన లక్షణం ఏది?"),
+            options: [L("Lumps all over the skin", "చర్మం అంతా గడ్డలు"), L("Diarrhoea, sometimes bloody, with a septic-tank smell", "సెప్టిక్ ట్యాంక్ వాసనతో, కొన్నిసార్లు రక్తంతో విరేచనాలు"), L("Lockjaw", "దవడ బిగుసుకుపోవడం (లాక్‌జా)"), L("Blisters on the teats only", "చనుమొనలపై మాత్రమే బొబ్బలు")],
             answer: 1,
-            explain: L("Foul-smelling, sometimes bloody diarrhoea with dehydration and dullness is typical."),
+            explain: L("Foul-smelling, sometimes bloody diarrhoea with dehydration and dullness is typical.", "దుర్వాసనతో, కొన్నిసార్లు రక్తంతో కూడిన విరేచనాలు, నిర్జలీకరణం, మందకొడితనం సాధారణ లక్షణాలు."),
           },
         ],
       },
       {
         id: "t-m11-cchf-kfd",
-        title: L("CCHF and Kyasanur Forest Disease: Tick-Borne Dangers to People"),
+        title: L("CCHF and Kyasanur Forest Disease: Tick-Borne Dangers to People", "CCHF, క్యాసనూర్ ఫారెస్ట్ డిసీజ్: మనుషులకు పేల ద్వారా వచ్చే ప్రమాదాలు"),
         teach: [
           {
             type: "stat-grid",
             items: [
               {
-                label: L("Crimean–Congo Haemorrhagic Fever (CCHF)"),
-                text: L("A virus spread by ticks. People catch it from tick bites, or from contact with infected animal blood or tissues during and just after slaughter. Infected animals show no signs at all."),
+                label: L("Crimean–Congo Haemorrhagic Fever (CCHF)", "క్రిమియన్–కాంగో హెమరేజిక్ ఫీవర్ (CCHF)"),
+                text: L("A virus spread by ticks. People catch it from tick bites, or from contact with infected animal blood or tissues during and just after slaughter. Infected animals show no signs at all.", "పేల ద్వారా వ్యాపించే వైరస్. మనుషులకు ఇది పేలు కుట్టడం వల్ల, లేదా వధ సమయంలో, వధించిన వెంటనే వ్యాధి సోకిన పశువు రక్తం లేదా కణజాలాలను తాకడం వల్ల సోకుతుంది. వ్యాధి సోకిన పశువుల్లో అసలు ఏ లక్షణాలూ కనిపించవు."),
               },
               {
-                label: L("CCHF in people"),
-                text: L("Sudden fever, muscle aches, dizziness, headache and abdominal pain, then confusion; it can progress to liver enlargement, rashes and kidney or liver failure by about the fifth day."),
+                label: L("CCHF in people", "మనుషుల్లో CCHF"),
+                text: L("Sudden fever, muscle aches, dizziness, headache and abdominal pain, then confusion; it can progress to liver enlargement, rashes and kidney or liver failure by about the fifth day.", "ఆకస్మిక జ్వరం, కండరాల నొప్పులు, తల తిరగడం, తలనొప్పి, కడుపు నొప్పి, తర్వాత గందరగోళం; సుమారు ఐదవ రోజుకల్లా కాలేయం పెరగడం, దద్దుర్లు, మూత్రపిండాలు లేదా కాలేయం విఫలమవడం వరకు వెళ్ళవచ్చు."),
               },
               {
-                label: L("Kyasanur Forest Disease (KFD)"),
-                text: L("'Monkey fever' — a tick-borne virus found in south-western India. Spread by hard-tick bites or contact with sick animals, especially monkeys and rodents. Langurs, macaques, shrews and bats keep the virus going."),
+                label: L("Kyasanur Forest Disease (KFD)", "క్యాసనూర్ ఫారెస్ట్ డిసీజ్ (KFD)"),
+                text: L("'Monkey fever' — a tick-borne virus found in south-western India. Spread by hard-tick bites or contact with sick animals, especially monkeys and rodents. Langurs, macaques, shrews and bats keep the virus going.", "'కోతి జ్వరం' — నైరుతి భారతదేశంలో కనిపించే, పేల ద్వారా వచ్చే వైరస్. గట్టి పేలు కుట్టడం లేదా జబ్బుతో ఉన్న జంతువులను, ముఖ్యంగా కోతులు, ఎలుకలను తాకడం ద్వారా వ్యాపిస్తుంది. కొండముచ్చులు, కోతులు, చుంచులు, గబ్బిలాలు ఈ వైరస్‌ను కొనసాగిస్తాయి."),
               },
               {
-                label: L("KFD in people"),
-                text: L("Sudden chills, fever and headache, then severe muscle pain, vomiting and bleeding after 3–4 days. Most recover in 1–2 weeks, but 10–20% get a second phase with severe headache, mental disturbance, tremors and vision problems."),
+                label: L("KFD in people", "మనుషుల్లో KFD"),
+                text: L("Sudden chills, fever and headache, then severe muscle pain, vomiting and bleeding after 3–4 days. Most recover in 1–2 weeks, but 10–20% get a second phase with severe headache, mental disturbance, tremors and vision problems.", "ఆకస్మికంగా చలి, జ్వరం, తలనొప్పి, తర్వాత 3–4 రోజులకు తీవ్ర కండరాల నొప్పి, వాంతులు, రక్తస్రావం. చాలామంది 1–2 వారాల్లో కోలుకుంటారు, కానీ 10–20% మందికి తీవ్ర తలనొప్పి, మానసిక అలజడి, వణుకు, చూపు సమస్యలతో రెండవ దశ వస్తుంది."),
               },
             ],
           },
           {
             type: "callout",
             style: "warning",
-            heading: L("Why Tick Control Protects You Too"),
-            text: L(
-              "Because infected animals often look healthy, the only protection is to keep tick loads down, avoid crushing ticks with bare hands, wear gloves when handling blood or tissues, and see a doctor quickly if you develop a sudden fever after tick exposure. These diseases can be cured if diagnosed and treated promptly."
-            ),
+            heading: L("Why Tick Control Protects You Too", "పేల నియంత్రణ మిమ్మల్నీ ఎందుకు కాపాడుతుంది"),
+            text: L("Because infected animals often look healthy, the only protection is to keep tick loads down, avoid crushing ticks with bare hands, wear gloves when handling blood or tissues, and see a doctor quickly if you develop a sudden fever after tick exposure. These diseases can be cured if diagnosed and treated promptly.", "వ్యాధి సోకిన పశువులు తరచుగా ఆరోగ్యంగా కనిపిస్తాయి కాబట్టి, పేల సంఖ్యను తగ్గించడం, పేలను చేతులతో నలపకపోవడం, రక్తం లేదా కణజాలాలను తాకేటప్పుడు గ్లవ్స్ వేసుకోవడం, పేలకు గురైన తర్వాత ఆకస్మిక జ్వరం వస్తే త్వరగా డాక్టర్‌ను కలవడం — ఇవే రక్షణ. సకాలంలో గుర్తించి చికిత్స చేస్తే ఈ వ్యాధులు నయమవుతాయి."),
           },
         ],
         check: [
           {
             type: "truefalse",
-            q: L("Animals infected with CCHF virus usually look sick, so they are easy to spot."),
+            q: L("Animals infected with CCHF virus usually look sick, so they are easy to spot.", "CCHF వైరస్ సోకిన పశువులు సాధారణంగా జబ్బుగా కనిపిస్తాయి, కాబట్టి వాటిని సులభంగా గుర్తించవచ్చు."),
             answer: false,
-            explain: L("No — infected animals show no clinical signs, which is why tick control and protective handling matter."),
+            explain: L("No — infected animals show no clinical signs, which is why tick control and protective handling matter.", "కాదు — వ్యాధి సోకిన పశువుల్లో ఏ లక్షణాలూ కనిపించవు, అందుకే పేల నియంత్రణ, జాగ్రత్తగా తాకడం ముఖ్యం."),
           },
           {
             type: "mcq",
-            q: L("Kyasanur Forest Disease is often linked to contact with which animals?"),
-            options: [L("Fish"), L("Honeybees"), L("Earthworms"), L("Monkeys and rodents")],
+            q: L("Kyasanur Forest Disease is often linked to contact with which animals?", "క్యాసనూర్ ఫారెస్ట్ డిసీజ్ తరచుగా ఏ జంతువులను తాకడంతో సంబంధం ఉంటుంది?"),
+            options: [L("Fish", "చేపలు"), L("Honeybees", "తేనెటీగలు"), L("Earthworms", "వానపాములు"), L("Monkeys and rodents", "కోతులు, ఎలుకలు")],
             answer: 3,
-            explain: L("KFD spreads through infected hard ticks and contact with diseased animals, especially monkeys and rodents."),
+            explain: L("KFD spreads through infected hard ticks and contact with diseased animals, especially monkeys and rodents.", "KFD వ్యాధి సోకిన గట్టి పేలు, జబ్బుతో ఉన్న జంతువులను, ముఖ్యంగా కోతులు, ఎలుకలను తాకడం ద్వారా వ్యాపిస్తుంది."),
           },
         ],
       },
@@ -11470,38 +11386,38 @@ export const MODULES = [
         {
           topicId: "t-m11-salmonellosis",
           type: "mcq",
-          q: L("How do people usually catch salmonellosis?"),
+          q: L("How do people usually catch salmonellosis?", "మనుషులకు సాధారణంగా సాల్మొనెల్లోసిస్ ఎలా సోకుతుంది?"),
           options: [
-            L("Only from mosquito bites"),
-            L("Only from dog bites"),
-            L("It cannot infect people"),
-            L("Contact with infected animals, or eating contaminated food of animal origin"),
+            L("Only from mosquito bites", "దోమ కుట్టడం వల్ల మాత్రమే"),
+            L("Only from dog bites", "కుక్క కరవడం వల్ల మాత్రమే"),
+            L("It cannot infect people", "ఇది మనుషులకు సోకదు"),
+            L("Contact with infected animals, or eating contaminated food of animal origin", "వ్యాధి సోకిన జంతువులను తాకడం, లేదా కలుషితమైన జంతు సంబంధ ఆహారం తినడం"),
           ],
           answer: 3,
-          explain: L("Salmonella spreads to people by direct contact, contaminated food, and the faecal–oral route."),
+          explain: L("Salmonella spreads to people by direct contact, contaminated food, and the faecal–oral route.", "సాల్మొనెల్లా నేరుగా తాకడం, కలుషిత ఆహారం, మల–నోటి మార్గం ద్వారా మనుషులకు వ్యాపిస్తుంది."),
         },
         {
           topicId: "t-m11-salmonellosis",
           type: "truefalse",
-          q: L("Eating well-cooked food helps reduce the risk of salmonellosis."),
+          q: L("Eating well-cooked food helps reduce the risk of salmonellosis.", "బాగా ఉడికించిన ఆహారం తినడం సాల్మొనెల్లోసిస్ ప్రమాదాన్ని తగ్గిస్తుంది."),
           answer: true,
-          explain: L("Yes — avoiding raw or undercooked food reduces infection risk."),
+          explain: L("Yes — avoiding raw or undercooked food reduces infection risk.", "అవును — పచ్చి లేదా సరిగా ఉడకని ఆహారాన్ని నివారిస్తే ఇన్ఫెక్షన్ ప్రమాదం తగ్గుతుంది."),
         },
         {
           topicId: "t-m11-cchf-kfd",
           type: "mcq",
-          q: L("Apart from tick bites, how else can people catch CCHF?"),
-          options: [L("Drinking boiled water"), L("Walking in sunlight"), L("Contact with infected animal blood or tissues during and after slaughter"), L("Eating green fodder")],
+          q: L("Apart from tick bites, how else can people catch CCHF?", "పేలు కుట్టడం కాకుండా, మనుషులకు CCHF ఇంకా ఎలా సోకుతుంది?"),
+          options: [L("Drinking boiled water", "కాచిన నీరు తాగడం వల్ల"), L("Walking in sunlight", "ఎండలో నడవడం వల్ల"), L("Contact with infected animal blood or tissues during and after slaughter", "వధ సమయంలో, తర్వాత వ్యాధి సోకిన పశువు రక్తం లేదా కణజాలాలను తాకడం వల్ల"), L("Eating green fodder", "పచ్చి మేత తినడం వల్ల")],
           answer: 2,
-          explain: L("CCHF also spreads through contact with infected animal blood or tissues around slaughter."),
+          explain: L("CCHF also spreads through contact with infected animal blood or tissues around slaughter.", "వధ సమయంలో వ్యాధి సోకిన పశువు రక్తం లేదా కణజాలాలను తాకడం ద్వారా కూడా CCHF వ్యాపిస్తుంది."),
         },
         {
           topicId: "t-m11-cchf-kfd",
           type: "mcq",
-          q: L("Where in India is Kyasanur Forest Disease mainly found?"),
-          options: [L("Only in Ladakh"), L("South-western India"), L("Only in the Andaman Islands"), L("It isn't found in India")],
+          q: L("Where in India is Kyasanur Forest Disease mainly found?", "భారతదేశంలో క్యాసనూర్ ఫారెస్ట్ డిసీజ్ ప్రధానంగా ఎక్కడ కనిపిస్తుంది?"),
+          options: [L("Only in Ladakh", "లడఖ్‌లో మాత్రమే"), L("South-western India", "నైరుతి భారతదేశం"), L("Only in the Andaman Islands", "అండమాన్ దీవుల్లో మాత్రమే"), L("It isn't found in India", "ఇది భారతదేశంలో లేదు")],
           answer: 1,
-          explain: L("KFD is endemic to south-western India."),
+          explain: L("KFD is endemic to south-western India.", "KFD నైరుతి భారతదేశంలో స్థానికంగా ఉండే వ్యాధి."),
         },
       ],
     },
@@ -11608,7 +11524,7 @@ export const MODULES = [
               },
               {
                 label: L("How Long It Lasts", "ఎంత సేపు ఉంటుంది", "எவ்வளவு நேரம் நீடிக்கும்", "ಎಷ್ಟು ಹೊತ್ತು ಇರುತ್ತದೆ", "कितनी देर रहती है"),
-                text: L("Heat passes through three stages: early heat (about 6–10 hours), standing heat (about 12–18 hours) and late heat (18 hours onward). The whole window is short and easy to miss — watch in the early morning and late evening."),
+                text: L("Heat passes through three stages: early heat (about 6–10 hours), standing heat (about 12–18 hours) and late heat (18 hours onward). The whole window is short and easy to miss — watch in the early morning and late evening.", "ఎద మూడు దశల గుండా వెళ్తుంది: ప్రారంభ ఎద (సుమారు 6–10 గంటలు), నిలబడే ఎద (సుమారు 12–18 గంటలు), చివరి ఎద (18 గంటల తర్వాత). మొత్తం సమయం తక్కువ, సులభంగా తప్పిపోవచ్చు — తెల్లవారుజామున, సాయంత్రం పొద్దుపోయాక గమనించండి."),
               },
             ],
           },
@@ -11659,7 +11575,7 @@ export const MODULES = [
               },
               {
                 label: L("The Clearest Sign", "అత్యంత స్పష్టమైన సంకేతం", "மிகத் தெளிவான அறிகுறி", "ಅತ್ಯಂತ ಸ್ಪಷ್ಟ ಲಕ್ಷಣ", "सबसे साफ़ निशानी"),
-                text: L("During standing heat (lasting about 12–18 hours), the animal will stand still and allow a bull or another cow to mount her. This standing behaviour is the strongest, most reliable sign of all — and the main guide for timing insemination."),
+                text: L("During standing heat (lasting about 12–18 hours), the animal will stand still and allow a bull or another cow to mount her. This standing behaviour is the strongest, most reliable sign of all — and the main guide for timing insemination.", "నిలబడే ఎద సమయంలో (సుమారు 12–18 గంటలు ఉంటుంది), పశువు కదలకుండా నిలబడి ఆబోతును లేదా మరో ఆవును తన మీదకు ఎక్కనిస్తుంది. ఈ నిలబడే ప్రవర్తన అన్నింటికంటే బలమైన, అత్యంత నమ్మదగిన సంకేతం — గర్భధారణ సమయాన్ని నిర్ణయించడానికి ప్రధాన మార్గదర్శకం."),
               },
             ],
           },
@@ -11776,7 +11692,7 @@ export const MODULES = [
               ),
             ],
             answer: 1,
-            explain: L("During standing heat, the animal stands still to be mounted — this is the clearest and most reliable sign, and the main guide for timing insemination."),
+            explain: L("During standing heat, the animal stands still to be mounted — this is the clearest and most reliable sign, and the main guide for timing insemination.", "నిలబడే ఎద సమయంలో పశువు మీదకు ఎక్కనిస్తూ కదలకుండా నిలబడుతుంది — ఇది అత్యంత స్పష్టమైన, నమ్మదగిన సంకేతం, గర్భధారణ సమయానికి ప్రధాన మార్గదర్శకం."),
           },
         ],
       },
@@ -11816,7 +11732,7 @@ export const MODULES = [
             type: "callout",
             style: "info",
             heading: L("The Right Window", "సరైన సమయం", "சரியான நேரம்", "ಸರಿಯಾದ ಸಮಯ", "सही समय"),
-            text: L("Use the AM–PM rule: if standing heat is first seen in the morning, inseminate that evening; if first seen in the evening, inseminate the next morning — about 12 hours later. If you don't know when heat started, inseminate within about 6 hours of first noticing it, or while she is in standing heat. In the hottest months, inseminate as late in the evening and as early in the morning as the light allows. A second AI is not routine just because some signs remain — the trained inseminator decides."),
+            text: L("Use the AM–PM rule: if standing heat is first seen in the morning, inseminate that evening; if first seen in the evening, inseminate the next morning — about 12 hours later. If you don't know when heat started, inseminate within about 6 hours of first noticing it, or while she is in standing heat. In the hottest months, inseminate as late in the evening and as early in the morning as the light allows. A second AI is not routine just because some signs remain — the trained inseminator decides.", "AM–PM నియమం పాటించండి: నిలబడే ఎద మొదట ఉదయం కనిపిస్తే, అదే సాయంత్రం గర్భధారణ చేయించండి; మొదట సాయంత్రం కనిపిస్తే, మరుసటి ఉదయం — సుమారు 12 గంటల తర్వాత — చేయించండి. ఎద ఎప్పుడు మొదలైందో తెలియకపోతే, మొదట గమనించిన సుమారు 6 గంటల్లోపు, లేదా అది నిలబడే ఎదలో ఉన్నప్పుడు చేయించండి. అత్యంత వేడి నెలల్లో, వెలుతురు ఉన్నంత వరకు సాయంత్రం వీలైనంత ఆలస్యంగా, ఉదయం వీలైనంత ముందుగా చేయించండి. కొన్ని లక్షణాలు ఇంకా ఉన్నాయని రెండవ AI సాధారణంగా చేయించరు — శిక్షణ పొందిన గర్భధారణ నిపుణుడు నిర్ణయిస్తారు."),
           },
           {
             type: "text",
@@ -11894,7 +11810,7 @@ export const MODULES = [
               ),
             ],
             answer: 1,
-            explain: L("By the AM–PM rule, heat first seen in the evening means insemination the following morning."),
+            explain: L("By the AM–PM rule, heat first seen in the evening means insemination the following morning.", "AM–PM నియమం ప్రకారం, ఎద మొదట సాయంత్రం కనిపిస్తే మరుసటి ఉదయం గర్భధారణ చేయించాలి."),
           },
           {
             type: "truefalse",
@@ -11974,10 +11890,10 @@ export const MODULES = [
         {
           topicId: "t-m12-heat-timing",
           type: "mcq",
-          q: L("You are not sure when an animal's heat started. When should insemination take place?"),
-          options: [L("After 3 days"), L("Only at the next heat, 21 days later"), L("Any time in the next week"), L("Within about 6 hours of first noticing heat, or while she is in standing heat")],
+          q: L("You are not sure when an animal's heat started. When should insemination take place?", "పశువు ఎద ఎప్పుడు మొదలైందో మీకు తెలియదు. గర్భధారణ ఎప్పుడు చేయించాలి?"),
+          options: [L("After 3 days", "3 రోజుల తర్వాత"), L("Only at the next heat, 21 days later", "21 రోజుల తర్వాత వచ్చే తర్వాతి ఎదలో మాత్రమే"), L("Any time in the next week", "తర్వాతి వారంలో ఎప్పుడైనా"), L("Within about 6 hours of first noticing heat, or while she is in standing heat", "ఎదను మొదట గమనించిన సుమారు 6 గంటల్లోపు, లేదా అది నిలబడే ఎదలో ఉన్నప్పుడు")],
           answer: 3,
-          explain: L("If the start of heat isn't known, inseminate within about 6 hours of first noticing it, or when the animal is seen in standing heat."),
+          explain: L("If the start of heat isn't known, inseminate within about 6 hours of first noticing it, or when the animal is seen in standing heat.", "ఎద మొదలైన సమయం తెలియకపోతే, మొదట గమనించిన సుమారు 6 గంటల్లోపు, లేదా పశువు నిలబడే ఎదలో కనిపించినప్పుడు గర్భధారణ చేయించండి."),
         },
         {
           topicId: "t-m12-heat-timing",
@@ -12431,46 +12347,42 @@ export const MODULES = [
       },
       {
         id: "t-m12-ai-facts",
-        title: L("AI Facts and Common Myths"),
+        title: L("AI Facts and Common Myths", "AI వాస్తవాలు, సాధారణ అపోహలు"),
         teach: [
           {
             type: "stat-grid",
             items: [
-              { label: L("Myth: 'Take her to a bull afterwards, to be sure'"), text: L("Fact: an animal should never be taken to a bull after AI.") },
-              { label: L("Myth: 'Two or three doses work better'"), text: L("Fact: one dose is enough when AI is done at the right time with good semen and correct technique. A second AI is only needed if heat lasts unusually long — decided by the trained inseminator.") },
-              { label: L("Myth: 'AI doesn't work in buffaloes'"), text: L("Fact: AI is as successful in buffaloes as in cows. Buffaloes often show silent heat, so careful heat detection is the key.") },
-              { label: L("Myth: 'AI will cure a repeat breeder'"), text: L("Fact: AI is not a treatment for infertility or repeat breeding — those need a vet.") },
+              { label: L("Myth: 'Take her to a bull afterwards, to be sure'", "అపోహ: 'ఖచ్చితంగా ఉండడానికి తర్వాత ఆబోతు దగ్గరకు తీసుకెళ్ళండి'"), text: L("Fact: an animal should never be taken to a bull after AI.", "వాస్తవం: AI తర్వాత పశువును ఎప్పుడూ ఆబోతు దగ్గరకు తీసుకెళ్ళకూడదు.") },
+              { label: L("Myth: 'Two or three doses work better'", "అపోహ: 'రెండు మూడు డోసులు బాగా పనిచేస్తాయి'"), text: L("Fact: one dose is enough when AI is done at the right time with good semen and correct technique. A second AI is only needed if heat lasts unusually long — decided by the trained inseminator.", "వాస్తవం: సరైన సమయంలో మంచి వీర్యంతో, సరైన పద్ధతిలో AI చేస్తే ఒక డోసు చాలు. ఎద అసాధారణంగా ఎక్కువ సేపు ఉంటేనే రెండవ AI అవసరం — దాన్ని శిక్షణ పొందిన గర్భధారణ నిపుణుడు నిర్ణయిస్తారు.") },
+              { label: L("Myth: 'AI doesn't work in buffaloes'", "అపోహ: 'గేదెల్లో AI పనిచేయదు'"), text: L("Fact: AI is as successful in buffaloes as in cows. Buffaloes often show silent heat, so careful heat detection is the key.", "వాస్తవం: ఆవుల్లో లాగానే గేదెల్లో కూడా AI విజయవంతమవుతుంది. గేదెలు తరచుగా సైలెంట్ హీట్ (లక్షణాలు కనిపించని ఎద) చూపిస్తాయి, కాబట్టి జాగ్రత్తగా ఎదను గుర్తించడమే కీలకం.") },
+              { label: L("Myth: 'AI will cure a repeat breeder'", "అపోహ: 'AI మళ్ళీ మళ్ళీ ఎదకు వచ్చే పశువును నయం చేస్తుంది'"), text: L("Fact: AI is not a treatment for infertility or repeat breeding — those need a vet.", "వాస్తవం: AI వంధ్యత్వానికి లేదా రిపీట్ బ్రీడింగ్‌కు చికిత్స కాదు — వాటికి పశువైద్యుడు అవసరం.") },
             ],
           },
           {
             type: "callout",
             style: "info",
-            heading: L("What Success Looks Like"),
-            text: L(
-              "Under Indian conditions, where AI is followed up properly (as in progeny testing and pedigree selection projects), the average conception rate is about 40% or more. So one AI not 'taking' is normal — what matters is catching the next heat about 18–21 days later and confirming pregnancy by a vet's examination around 60 days."
-            ),
+            heading: L("What Success Looks Like", "విజయం ఎలా ఉంటుంది"),
+            text: L("Under Indian conditions, where AI is followed up properly (as in progeny testing and pedigree selection projects), the average conception rate is about 40% or more. So one AI not 'taking' is normal — what matters is catching the next heat about 18–21 days later and confirming pregnancy by a vet's examination around 60 days.", "భారతీయ పరిస్థితుల్లో, AIని సరిగా ఫాలో-అప్ చేసే చోట (ప్రొజెనీ టెస్టింగ్, వంశావళి ఎంపిక ప్రాజెక్టుల్లో లాగా), సగటు గర్భధారణ రేటు సుమారు 40% లేదా అంతకంటే ఎక్కువ. కాబట్టి ఒక AI 'నిలవకపోవడం' సాధారణం — సుమారు 18–21 రోజుల తర్వాత వచ్చే తర్వాతి ఎదను పట్టుకోవడం, సుమారు 60 రోజులకు పశువైద్యుని పరీక్షతో చూడిని నిర్ధారించడం ముఖ్యం."),
           },
           {
             type: "callout",
             style: "tip",
-            heading: L("The Farmer's Right to Know"),
-            text: L(
-              "Before AI, the farmer can ask the technician the bull's breed, exotic blood level (for crossbreds), pedigree and breeding value, and see that semen is carried in a liquid-nitrogen cryocan. Services recorded in Bharat Pashudhan trigger an SMS to the farmer to verify them."
-            ),
+            heading: L("The Farmer's Right to Know", "రైతుకు తెలుసుకునే హక్కు"),
+            text: L("Before AI, the farmer can ask the technician the bull's breed, exotic blood level (for crossbreds), pedigree and breeding value, and see that semen is carried in a liquid-nitrogen cryocan. Services recorded in Bharat Pashudhan trigger an SMS to the farmer to verify them.", "AIకి ముందు, రైతు టెక్నీషియన్‌ను ఆబోతు జాతి, విదేశీ రక్త స్థాయి (సంకర జాతులకు), వంశావళి, బ్రీడింగ్ విలువ అడగవచ్చు, వీర్యాన్ని లిక్విడ్ నైట్రోజన్ క్రయోకాన్‌లో తీసుకొస్తున్నారో చూడవచ్చు. భారత్ పశుధన్‌లో నమోదైన సేవలకు ధృవీకరణ కోసం రైతుకు SMS వస్తుంది."),
           },
         ],
         check: [
           {
             type: "truefalse",
-            q: L("After AI, it is a good idea to also take the cow to a bull, just in case."),
+            q: L("After AI, it is a good idea to also take the cow to a bull, just in case.", "AI తర్వాత, ఎందుకైనా మంచిదని ఆవును ఆబోతు దగ్గరకు కూడా తీసుకెళ్ళడం మంచిది."),
             answer: false,
-            explain: L("No — an animal should never be taken to a bull after AI."),
+            explain: L("No — an animal should never be taken to a bull after AI.", "కాదు — AI తర్వాత పశువును ఎప్పుడూ ఆబోతు దగ్గరకు తీసుకెళ్ళకూడదు."),
           },
           {
             type: "truefalse",
-            q: L("AI is as successful in buffaloes as in cows, provided heat is detected properly."),
+            q: L("AI is as successful in buffaloes as in cows, provided heat is detected properly.", "ఎదను సరిగా గుర్తిస్తే, ఆవుల్లో లాగానే గేదెల్లో కూడా AI విజయవంతమవుతుంది."),
             answer: true,
-            explain: L("Correct — the main challenge in buffaloes is silent heat, so careful observation matters."),
+            explain: L("Correct — the main challenge in buffaloes is silent heat, so careful observation matters.", "సరైనది — గేదెల్లో ప్రధాన సవాలు సైలెంట్ హీట్, కాబట్టి జాగ్రత్తగా గమనించడం ముఖ్యం."),
           },
         ],
       },
@@ -12666,23 +12578,23 @@ export const MODULES = [
         {
           topicId: "t-m12-ai-facts",
           type: "mcq",
-          q: L("About what conception rate per AI is seen under good field programmes in India?"),
-          options: [L("100% every time"), L("About 2%"), L("AI never results in pregnancy"), L("About 40% or more")],
+          q: L("About what conception rate per AI is seen under good field programmes in India?", "భారతదేశంలో మంచి క్షేత్ర కార్యక్రమాల్లో ఒక్కో AIకి గర్భధారణ రేటు సుమారు ఎంత కనిపిస్తుంది?"),
+          options: [L("100% every time", "ప్రతిసారీ 100%"), L("About 2%", "సుమారు 2%"), L("AI never results in pregnancy", "AI వల్ల ఎప్పుడూ చూడి రాదు"), L("About 40% or more", "సుమారు 40% లేదా అంతకంటే ఎక్కువ")],
           answer: 3,
-          explain: L("Where AI is properly followed up, average conception is about 40% or above."),
+          explain: L("Where AI is properly followed up, average conception is about 40% or above.", "AIని సరిగా ఫాలో-అప్ చేసే చోట, సగటు గర్భధారణ సుమారు 40% లేదా అంతకంటే ఎక్కువ."),
         },
         {
           topicId: "t-m12-ai-facts",
           type: "mcq",
-          q: L("A cow has failed to conceive after three AIs. Which statement is correct?"),
+          q: L("A cow has failed to conceive after three AIs. Which statement is correct?", "మూడు AIల తర్వాత కూడా ఒక ఆవు చూడి కట్టలేదు. ఏ వాక్యం సరైనది?"),
           options: [
-            L("Use three doses of semen next time"),
-            L("AI itself won't cure her — she needs a vet to find the cause"),
-            L("Take her to a bull straight after the next AI"),
-            L("Keep repeating AI without telling anyone"),
+            L("Use three doses of semen next time", "తర్వాతి సారి మూడు డోసుల వీర్యం వాడండి"),
+            L("AI itself won't cure her — she needs a vet to find the cause", "AI మాత్రమే ఆమెను నయం చేయదు — కారణం కనుగొనడానికి పశువైద్యుడు అవసరం"),
+            L("Take her to a bull straight after the next AI", "తర్వాతి AI అయిన వెంటనే ఆబోతు దగ్గరకు తీసుకెళ్ళండి"),
+            L("Keep repeating AI without telling anyone", "ఎవరికీ చెప్పకుండా AI చేయిస్తూనే ఉండండి"),
           ],
           answer: 1,
-          explain: L("AI is not a treatment for infertility; a repeat breeder needs veterinary investigation."),
+          explain: L("AI is not a treatment for infertility; a repeat breeder needs veterinary investigation.", "AI వంధ్యత్వానికి చికిత్స కాదు; రిపీట్ బ్రీడర్‌కు పశువైద్య పరిశీలన అవసరం."),
         },
       ],
     },
@@ -12907,8 +12819,8 @@ export const MODULES = [
         teach: [
           {
             type: "text",
-            heading: L("Getting Ready, and the Signs Calving Is Near"),
-            html: L("Move the pregnant animal to a clean calving pen about two weeks before her expected date, and watch her closely. Signs that calving may happen within 24 hours: restlessness (getting up and lying down often), raising the tail, kicking at the belly, and a sticky vaginal discharge. These are normal warnings, not a cause for alarm on their own."),
+            heading: L("Getting Ready, and the Signs Calving Is Near", "సిద్ధమవడం, ఈత దగ్గర పడిందని చూపే లక్షణాలు"),
+            html: L("Move the pregnant animal to a clean calving pen about two weeks before her expected date, and watch her closely. Signs that calving may happen within 24 hours: restlessness (getting up and lying down often), raising the tail, kicking at the belly, and a sticky vaginal discharge. These are normal warnings, not a cause for alarm on their own.", "అంచనా తేదీకి సుమారు రెండు వారాల ముందు చూడి పశువును శుభ్రమైన ఈత గదికి (కాల్వింగ్ పెన్) మార్చి, దగ్గరగా గమనించండి. 24 గంటల్లో ఈనవచ్చని చూపే లక్షణాలు: అశాంతి (తరచుగా లేవడం, పడుకోవడం), తోక పైకి ఎత్తడం, పొట్టను తన్నుకోవడం, యోని నుండి జిగటగా కారడం. ఇవి సాధారణ హెచ్చరికలు, వీటితో మాత్రమే భయపడాల్సిన పనిలేదు."),
           },
           {
             type: "glossary",
@@ -12926,7 +12838,7 @@ export const MODULES = [
             items: [
               {
                 label: L("Older Cows", "పెద్ద ఆవులు", "வளர்ந்த பசுக்கள்", "ವಯಸ್ಕ ಹಸುಗಳು", "बड़ी उम्र की गायें"),
-                text: L("The calf is usually delivered within 30–60 minutes after the first water bag bursts."),
+                text: L("The calf is usually delivered within 30–60 minutes after the first water bag bursts.", "మొదటి నీటి సంచి పగిలిన తర్వాత సాధారణంగా 30–60 నిమిషాల్లో దూడ బయటకు వస్తుంది."),
               },
               {
                 label: L(
@@ -12973,7 +12885,7 @@ export const MODULES = [
               "ಸಾಮಾನ್ಯ ಮತ್ತು ಪಶುವೈದ್ಯರನ್ನು ತಕ್ಷಣ ಯಾವಾಗ ಕರೆಯಬೇಕು",
               "सामान्य और डॉक्टर को तुरंत कब बुलाएँ"
             ),
-            text: L("Normal: after the water bag bursts, the calf's head and both front legs (or both hind legs) appear, and calving usually proceeds on its own without needing a vet. Call the vet if the head and two legs are not seen within one hour of the first water bag bursting, if an abnormal position is seen (for example, only one front leg and the head), or if nothing appears at all. Any delay makes things worse for both cow and calf."),
+            text: L("Normal: after the water bag bursts, the calf's head and both front legs (or both hind legs) appear, and calving usually proceeds on its own without needing a vet. Call the vet if the head and two legs are not seen within one hour of the first water bag bursting, if an abnormal position is seen (for example, only one front leg and the head), or if nothing appears at all. Any delay makes things worse for both cow and calf.", "సాధారణం: నీటి సంచి పగిలిన తర్వాత, దూడ తల, రెండు ముందు కాళ్ళు (లేదా రెండు వెనుక కాళ్ళు) కనిపిస్తాయి, సాధారణంగా పశువైద్యుని అవసరం లేకుండానే ఈత దానంతట అదే జరుగుతుంది. మొదటి నీటి సంచి పగిలిన ఒక గంటలోపు తల, రెండు కాళ్ళు కనిపించకపోతే, అసాధారణ స్థితి కనిపిస్తే (ఉదాహరణకు, ఒకే ముందు కాలు, తల మాత్రమే), లేదా అసలు ఏమీ కనిపించకపోతే పశువైద్యుడిని పిలవండి. ఆలస్యం ఆవుకు, దూడకు ఇద్దరికీ ప్రమాదాన్ని పెంచుతుంది."),
           },
           {
             type: "callout",
@@ -13002,7 +12914,7 @@ export const MODULES = [
               "ಕರು ಹಾಕಿದ ನಂತರ: ಮುಂದೇನಾಗುತ್ತದೆ",
               "ब्याने के बाद: आगे क्या होता है"
             ),
-            html: L("Right after calving, give the cow energy-rich feed or jaggery water. Watch for abnormal discharge from the uterus (watery, red-brown, or white with a bad smell) that continues beyond 21 days after calving — it signals infection and needs a vet. Under normal conditions, an animal should come back into heat within 45 days of calving. Breed her at the heat after the first one, or within 60–90 days. If she does not come into heat within 60 days after calving, report it so a veterinarian can check her."),
+            html: L("Right after calving, give the cow energy-rich feed or jaggery water. Watch for abnormal discharge from the uterus (watery, red-brown, or white with a bad smell) that continues beyond 21 days after calving — it signals infection and needs a vet. Under normal conditions, an animal should come back into heat within 45 days of calving. Breed her at the heat after the first one, or within 60–90 days. If she does not come into heat within 60 days after calving, report it so a veterinarian can check her.", "ఈనిన వెంటనే ఆవుకు శక్తినిచ్చే దాణా లేదా బెల్లం నీళ్ళు ఇవ్వండి. ఈనిన 21 రోజుల తర్వాత కూడా గర్భాశయం నుండి అసాధారణంగా కారడం (నీళ్ళలా, ఎరుపు-గోధుమ రంగులో, లేదా దుర్వాసనతో తెల్లగా) కొనసాగుతుందేమో గమనించండి — ఇది ఇన్ఫెక్షన్ సంకేతం, పశువైద్యుడు అవసరం. సాధారణ పరిస్థితుల్లో, ఈనిన 45 రోజుల్లో పశువు మళ్ళీ ఎదకు రావాలి. మొదటి ఎద తర్వాత వచ్చే ఎదలో, లేదా 60–90 రోజుల్లో గర్భధారణ చేయించండి. ఈనిన 60 రోజుల్లో ఎదకు రాకపోతే, పశువైద్యుడు పరీక్షించేలా తెలియజేయండి."),
           },
         ],
         check: [
@@ -13070,48 +12982,44 @@ export const MODULES = [
       },
       {
         id: "t-m12-dryoff-process",
-        title: L("How to Dry Off a Cow, and Dry Cow Therapy"),
+        title: L("How to Dry Off a Cow, and Dry Cow Therapy", "ఆవు పాలు మాన్పించడం (డ్రై ఆఫ్), డ్రై కౌ థెరపీ"),
         teach: [
           {
             type: "text",
-            heading: L("When and Why"),
-            html: L(
-              "Drying off usually happens around the <b>7th month of pregnancy</b>, giving a dry period of about <b>60 days</b>. It lets the udder tissue rest and rebuild, redirects the cow's energy to her body condition and the growing calf, and leads to more milk in the next lactation, a healthier calf and fewer metabolic problems after calving."
-            ),
+            heading: L("When and Why", "ఎప్పుడు, ఎందుకు"),
+            html: L("Drying off usually happens around the <b>7th month of pregnancy</b>, giving a dry period of about <b>60 days</b>. It lets the udder tissue rest and rebuild, redirects the cow's energy to her body condition and the growing calf, and leads to more milk in the next lactation, a healthier calf and fewer metabolic problems after calving.", "పాలు మాన్పించడం సాధారణంగా <b>చూడి 7వ నెల</b>లో జరుగుతుంది, దాంతో సుమారు <b>60 రోజుల</b> విశ్రాంతి కాలం (డ్రై పీరియడ్) వస్తుంది. ఇది పొదుగు కణజాలానికి విశ్రాంతినిచ్చి తిరిగి తయారవ్వడానికి సహాయపడుతుంది, ఆవు శక్తిని ఆమె శరీర స్థితి, పెరుగుతున్న దూడ వైపు మళ్ళిస్తుంది, తర్వాతి ఈతలో ఎక్కువ పాలు, ఆరోగ్యకరమైన దూడ, ఈనిన తర్వాత తక్కువ జీవక్రియ సమస్యలకు దారితీస్తుంది."),
           },
           {
             type: "timeline",
-            heading: L("The Drying-Off Steps (High Yielders, Over 10 Litres a Day)"),
+            heading: L("The Drying-Off Steps (High Yielders, Over 10 Litres a Day)", "పాలు మాన్పించే అడుగులు (ఎక్కువ పాలిచ్చేవి, రోజుకు 10 లీటర్ల కంటే ఎక్కువ)"),
             items: [
-              { year: L("2 weeks before"), text: L("Start reducing concentrate on a tapering basis and feed mainly dry fodder, so milk yield falls.") },
-              { year: L("Week 1"), text: L("Milk only once a day.") },
-              { year: L("Week 2"), text: L("Milk on alternate days. If yield still hasn't dropped, stop concentrate.") },
-              { year: L("Dry-off day"), text: L("After the last milking, stop milking. Dry cow therapy is given by the vet / trained person. Never restrict water.") },
-              { year: L("After drying off"), text: L("Check the cow and her udder every day. Keep her in a clean, dry, stress-free place on a maintenance diet for about a week, then gradually raise concentrate for pregnancy.") },
+              { year: L("2 weeks before", "2 వారాల ముందు"), text: L("Start reducing concentrate on a tapering basis and feed mainly dry fodder, so milk yield falls.", "దాణాను క్రమంగా తగ్గించడం మొదలుపెట్టి, ఎక్కువగా ఎండుమేత ఇవ్వండి, అప్పుడు పాల దిగుబడి తగ్గుతుంది.") },
+              { year: L("Week 1", "వారం 1"), text: L("Milk only once a day.", "రోజుకు ఒకసారి మాత్రమే పాలు పిండండి.") },
+              { year: L("Week 2", "వారం 2"), text: L("Milk on alternate days. If yield still hasn't dropped, stop concentrate.", "రోజు విడిచి రోజు పాలు పిండండి. అప్పటికీ దిగుబడి తగ్గకపోతే, దాణా ఆపేయండి.") },
+              { year: L("Dry-off day", "పాలు మాన్పించే రోజు"), text: L("After the last milking, stop milking. Dry cow therapy is given by the vet / trained person. Never restrict water.", "చివరిసారి పాలు పిండిన తర్వాత, పాలు పిండడం ఆపేయండి. డ్రై కౌ థెరపీని పశువైద్యుడు / శిక్షణ పొందిన వ్యక్తి ఇస్తారు. నీళ్ళు ఎప్పుడూ తగ్గించవద్దు.") },
+              { year: L("After drying off", "పాలు మాన్పించిన తర్వాత"), text: L("Check the cow and her udder every day. Keep her in a clean, dry, stress-free place on a maintenance diet for about a week, then gradually raise concentrate for pregnancy.", "ప్రతి రోజూ ఆవును, ఆమె పొదుగును పరీక్షించండి. సుమారు ఒక వారం పాటు ఆమెను శుభ్రమైన, పొడిగా ఉన్న, ఒత్తిడి లేని చోట నిర్వహణ ఆహారం మీద ఉంచి, తర్వాత చూడి కోసం క్రమంగా దాణా పెంచండి.") },
             ],
-            result: L("Teat dipping should continue for 2 weeks after drying off, and restart 2 weeks before calving."),
+            result: L("Teat dipping should continue for 2 weeks after drying off, and restart 2 weeks before calving.", "పాలు మాన్పించిన తర్వాత 2 వారాల పాటు టీట్ డిప్పింగ్ కొనసాగించాలి, ఈనడానికి 2 వారాల ముందు మళ్ళీ మొదలుపెట్టాలి."),
           },
           {
             type: "glossary",
-            term: L("Dry Cow Therapy"),
-            meaning: L(
-              "Treatment given to each quarter right after the last milking before the dry period: teats are wiped with disinfectant and a long-acting intramammary tube is infused (and/or a non-antibiotic teat sealant). It cures existing hidden udder infections and prevents new ones — which are most likely in the first two weeks of the dry period. Antibiotic tubes are used on a vet's advice."
-            ),
+            term: L("Dry Cow Therapy", "డ్రై కౌ థెరపీ"),
+            meaning: L("Treatment given to each quarter right after the last milking before the dry period: teats are wiped with disinfectant and a long-acting intramammary tube is infused (and/or a non-antibiotic teat sealant). It cures existing hidden udder infections and prevents new ones — which are most likely in the first two weeks of the dry period. Antibiotic tubes are used on a vet's advice.", "విశ్రాంతి కాలానికి ముందు చివరిసారి పాలు పిండిన వెంటనే ప్రతి క్వార్టర్‌కు ఇచ్చే చికిత్స: చనుమొనలను క్రిమిసంహారిణితో తుడిచి, ఎక్కువ కాలం పనిచేసే ఇంట్రామామరీ ట్యూబ్ (మరియు/లేదా యాంటీబయాటిక్ కాని టీట్ సీలెంట్) లోపలికి ఎక్కిస్తారు. ఇది ఇప్పటికే ఉన్న దాగిన పొదుగు ఇన్ఫెక్షన్లను నయం చేసి, కొత్తవి రాకుండా నివారిస్తుంది — విశ్రాంతి కాలం మొదటి రెండు వారాల్లో కొత్త ఇన్ఫెక్షన్ల అవకాశం ఎక్కువ. యాంటీబయాటిక్ ట్యూబ్‌లను పశువైద్యుని సలహా మేరకు వాడతారు."),
           },
         ],
         check: [
           {
             type: "mcq",
-            q: L("When are new udder infections most likely during the dry period?"),
-            options: [L("Only on the day of calving"), L("In the first two weeks"), L("Never — dry cows can't get mastitis"), L("Only after a year")],
+            q: L("When are new udder infections most likely during the dry period?", "విశ్రాంతి కాలంలో కొత్త పొదుగు ఇన్ఫెక్షన్లు ఎప్పుడు ఎక్కువగా వస్తాయి?"),
+            options: [L("Only on the day of calving", "ఈనే రోజు మాత్రమే"), L("In the first two weeks", "మొదటి రెండు వారాల్లో"), L("Never — dry cows can't get mastitis", "ఎప్పుడూ రావు — పాలు ఇవ్వని ఆవులకు మాస్టిటిస్ రాదు"), L("Only after a year", "ఒక సంవత్సరం తర్వాత మాత్రమే")],
             answer: 1,
-            explain: L("The first two weeks of the dry period carry a higher risk of new udder infections — the reason for dry cow therapy."),
+            explain: L("The first two weeks of the dry period carry a higher risk of new udder infections — the reason for dry cow therapy.", "విశ్రాంతి కాలం మొదటి రెండు వారాల్లో కొత్త పొదుగు ఇన్ఫెక్షన్ల ప్రమాదం ఎక్కువ — డ్రై కౌ థెరపీకి కారణం ఇదే."),
           },
           {
             type: "truefalse",
-            q: L("Water should be restricted to help a cow dry off faster."),
+            q: L("Water should be restricted to help a cow dry off faster.", "ఆవు త్వరగా పాలు మానడానికి నీళ్ళు తగ్గించాలి."),
             answer: false,
-            explain: L("No — never restrict water access when drying off."),
+            explain: L("No — never restrict water access when drying off.", "కాదు — పాలు మాన్పించేటప్పుడు నీళ్ళు ఎప్పుడూ తగ్గించవద్దు."),
           },
         ],
       },
@@ -13315,22 +13223,22 @@ export const MODULES = [
         {
           topicId: "t-m12-dryoff-process",
           type: "mcq",
-          q: L("How should a high-yielding cow's milking be reduced in the two weeks before drying off?"),
+          q: L("How should a high-yielding cow's milking be reduced in the two weeks before drying off?", "పాలు మాన్పించడానికి ముందు రెండు వారాల్లో ఎక్కువ పాలిచ్చే ఆవు పాలు పిండడాన్ని ఎలా తగ్గించాలి?"),
           options: [
-            L("Three times a day, then stop suddenly"),
-            L("No change until the last day"),
-            L("Once a day in the first week, then alternate days"),
-            L("Stop all feed and water"),
+            L("Three times a day, then stop suddenly", "రోజుకు మూడుసార్లు, తర్వాత అకస్మాత్తుగా ఆపేయడం"),
+            L("No change until the last day", "చివరి రోజు వరకు ఏ మార్పూ లేదు"),
+            L("Once a day in the first week, then alternate days", "మొదటి వారం రోజుకు ఒకసారి, తర్వాత రోజు విడిచి రోజు"),
+            L("Stop all feed and water", "మేత, నీళ్ళు అన్నీ ఆపేయడం"),
           ],
           answer: 2,
-          explain: L("Milking once a day, then on alternate days, with less concentrate, lowers yield safely before drying off."),
+          explain: L("Milking once a day, then on alternate days, with less concentrate, lowers yield safely before drying off.", "రోజుకు ఒకసారి, తర్వాత రోజు విడిచి రోజు పాలు పిండడం, తక్కువ దాణాతో, పాలు మాన్పించే ముందు దిగుబడిని సురక్షితంగా తగ్గిస్తుంది."),
         },
         {
           topicId: "t-m12-dryoff-process",
           type: "truefalse",
-          q: L("Dry cow therapy is given right after the last milking before the dry period."),
+          q: L("Dry cow therapy is given right after the last milking before the dry period.", "డ్రై కౌ థెరపీని విశ్రాంతి కాలానికి ముందు చివరిసారి పాలు పిండిన వెంటనే ఇస్తారు."),
           answer: true,
-          explain: L("Correct — after the last milking, teats are disinfected and the dry cow treatment and/or teat sealant is infused."),
+          explain: L("Correct — after the last milking, teats are disinfected and the dry cow treatment and/or teat sealant is infused.", "సరైనది — చివరిసారి పాలు పిండిన తర్వాత, చనుమొనలను క్రిమిరహితం చేసి డ్రై కౌ మందు మరియు/లేదా టీట్ సీలెంట్ ఎక్కిస్తారు."),
         },
       ],
     },
@@ -13341,169 +13249,155 @@ export const MODULES = [
   // ==================================================================
   {
     id: "m12-l4",
-    title: L("Infertility and Repeat Breeding"),
+    title: L("Infertility and Repeat Breeding", "వంధ్యత్వం, రిపీట్ బ్రీడింగ్"),
     estMinutes: 9,
     hook: [
       {
         type: "hero",
-        heading: L("An Empty Cow Is a Costly Cow"),
-        text: L(
-          "Every month a cow stays un-pregnant is a month of lost milk and a calf that won't be born. The good news is that most infertility in dairy animals is temporary and can be corrected — and many of its causes are everyday management mistakes that ground staff are in the best position to notice. This lesson explains what 'normal' fertility looks like, what goes wrong, and what a farm can do about it."
-        ),
+        heading: L("An Empty Cow Is a Costly Cow", "చూడి కట్టని ఆవు ఖర్చుతో కూడిన ఆవు"),
+        text: L("Every month a cow stays un-pregnant is a month of lost milk and a calf that won't be born. The good news is that most infertility in dairy animals is temporary and can be corrected — and many of its causes are everyday management mistakes that ground staff are in the best position to notice. This lesson explains what 'normal' fertility looks like, what goes wrong, and what a farm can do about it.", "ఆవు చూడి కట్టకుండా ఉండే ప్రతి నెలా పాలు నష్టపోయిన నెల, పుట్టని దూడ. శుభవార్త ఏమిటంటే, పాడి పశువుల్లో చాలా వంధ్యత్వం తాత్కాలికమే, సరిచేయవచ్చు — దాని కారణాల్లో చాలావరకు రోజువారీ నిర్వహణ పొరపాట్లు, వాటిని గమనించడానికి క్షేత్ర సిబ్బంది ఉత్తమ స్థానంలో ఉంటారు. 'సాధారణ' సంతానోత్పత్తి ఎలా ఉంటుంది, ఏమి తప్పు జరుగుతుంది, ఫారం దాని గురించి ఏమి చేయగలదో ఈ పాఠం వివరిస్తుంది."),
       },
     ],
     topics: [
       {
         id: "t-m12-infertility-causes",
-        title: L("What Normal Fertility Looks Like, and What Goes Wrong"),
+        title: L("What Normal Fertility Looks Like, and What Goes Wrong", "సాధారణ సంతానోత్పత్తి ఎలా ఉంటుంది, ఏమి తప్పు జరుగుతుంది"),
         teach: [
           {
             type: "glossary",
-            term: L("Infertility"),
-            meaning: L(
-              "A temporary loss of fertility that can be corrected — the animal can be brought back to normal breeding with the right care. (A permanent inability to breed is called sterility.)"
-            ),
+            term: L("Infertility", "వంధ్యత్వం (ఇన్‌ఫెర్టిలిటీ)"),
+            meaning: L("A temporary loss of fertility that can be corrected — the animal can be brought back to normal breeding with the right care. (A permanent inability to breed is called sterility.)", "సరిచేయగల తాత్కాలిక సంతానోత్పత్తి నష్టం — సరైన సంరక్షణతో పశువును సాధారణ సంతానోత్పత్తికి తిరిగి తీసుకురావచ్చు. (శాశ్వతంగా సంతానోత్పత్తి చేయలేకపోవడాన్ని గొడ్డుతనం (స్టెరిలిటీ) అంటారు.)"),
           },
           {
             type: "stat-grid",
             items: [
-              { label: L("First calving"), text: L("At the age that is standard for the species and breed.") },
-              { label: L("Calving again"), text: L("Every 13–14 months after that.") },
-              { label: L("Back in heat"), text: L("Cycling again within 90 days after calving.") },
-              { label: L("Pregnant again"), text: L("Pregnant within 5 months after calving.") },
+              { label: L("First calving", "మొదటి ఈత"), text: L("At the age that is standard for the species and breed.", "ఆ జాతికి, రకానికి ప్రామాణికమైన వయసులో.") },
+              { label: L("Calving again", "మళ్ళీ ఈనడం"), text: L("Every 13–14 months after that.", "ఆ తర్వాత ప్రతి 13–14 నెలలకు.") },
+              { label: L("Back in heat", "మళ్ళీ ఎదకు రావడం"), text: L("Cycling again within 90 days after calving.", "ఈనిన 90 రోజుల్లో మళ్ళీ ఎద చక్రం మొదలవడం.") },
+              { label: L("Pregnant again", "మళ్ళీ చూడి"), text: L("Pregnant within 5 months after calving.", "ఈనిన 5 నెలల్లో చూడి కట్టడం.") },
             ],
           },
           {
             type: "text",
-            heading: L("The Most Common Reasons a Cow Won't Conceive"),
-            html: L(
-              "Infertility can come from many directions — the animal's body structure, genetics, high production, management, nutrition, environment, hormones or infection. But most cases come down to a few problems: <b>anoestrus</b> (no heat at all), <b>silent heat</b>, <b>infection of the womb after calving</b>, or problems with the ovaries such as no release of an egg, a late release, or cysts."
-            ),
+            heading: L("The Most Common Reasons a Cow Won't Conceive", "ఆవు చూడి కట్టకపోవడానికి అత్యంత సాధారణ కారణాలు"),
+            html: L("Infertility can come from many directions — the animal's body structure, genetics, high production, management, nutrition, environment, hormones or infection. But most cases come down to a few problems: <b>anoestrus</b> (no heat at all), <b>silent heat</b>, <b>infection of the womb after calving</b>, or problems with the ovaries such as no release of an egg, a late release, or cysts.", "వంధ్యత్వం చాలా వైపుల నుండి రావచ్చు — పశువు శరీర నిర్మాణం, జన్యువులు, ఎక్కువ ఉత్పత్తి, నిర్వహణ, పోషణ, వాతావరణం, హార్మోన్లు లేదా ఇన్ఫెక్షన్. కానీ చాలా కేసులు కొన్ని సమస్యలకే వస్తాయి: <b>అనెస్ట్రస్</b> (అసలు ఎదకు రాకపోవడం), <b>సైలెంట్ హీట్</b>, <b>ఈనిన తర్వాత గర్భాశయ ఇన్ఫెక్షన్</b>, లేదా అండాశయ సమస్యలు — అండం విడుదల కాకపోవడం, ఆలస్యంగా విడుదలవడం, లేదా తిత్తులు."),
           },
           {
             type: "glossary",
-            term: L("Anoestrus"),
-            meaning: L("When a female animal shows no heat at all for a long time — often linked to poor nutrition, especially a lack of minerals."),
+            term: L("Anoestrus", "అనెస్ట్రస్ (ఎదకు రాకపోవడం)"),
+            meaning: L("When a female animal shows no heat at all for a long time — often linked to poor nutrition, especially a lack of minerals.", "ఆడ పశువు ఎక్కువ కాలం అసలు ఎదకు రాకపోవడం — తరచుగా పోషణ లోపం, ముఖ్యంగా ఖనిజాల కొరతతో సంబంధం ఉంటుంది."),
           },
           {
             type: "glossary",
-            term: L("Silent Heat"),
-            meaning: L("When an animal is actually in heat but shows almost no visible signs — common in buffaloes, and easy to miss without careful watching."),
+            term: L("Silent Heat", "సైలెంట్ హీట్ (లక్షణాలు కనిపించని ఎద)"),
+            meaning: L("When an animal is actually in heat but shows almost no visible signs — common in buffaloes, and easy to miss without careful watching.", "పశువు నిజంగా ఎదలో ఉన్నా దాదాపు ఏ లక్షణాలూ కనిపించకపోవడం — గేదెల్లో సాధారణం, జాగ్రత్తగా గమనించకపోతే సులభంగా తప్పిపోతుంది."),
           },
           {
             type: "stat-grid",
             items: [
-              { label: L("Poor feeding"), text: L("Low-quality feed and fodder, and no mineral mixture.") },
-              { label: L("Poor heat detection"), text: L("Heats missed because no one was watching at the right times.") },
-              { label: L("Wrong AI timing"), text: L("Insemination done too early or too late in the heat.") },
-              { label: L("Broken semen cold chain"), text: L("Frozen semen not kept at the right temperature before use.") },
-              { label: L("Unhygienic AI"), text: L("AI done without following the standard operating procedure (SOP), which can introduce infection.") },
+              { label: L("Poor feeding", "సరిగా మేపకపోవడం"), text: L("Low-quality feed and fodder, and no mineral mixture.", "నాణ్యత లేని దాణా, మేత, ఖనిజ మిశ్రమం లేకపోవడం.") },
+              { label: L("Poor heat detection", "ఎదను సరిగా గుర్తించకపోవడం"), text: L("Heats missed because no one was watching at the right times.", "సరైన సమయాల్లో ఎవరూ గమనించకపోవడం వల్ల ఎదలు తప్పిపోవడం.") },
+              { label: L("Wrong AI timing", "AI తప్పు సమయంలో చేయడం"), text: L("Insemination done too early or too late in the heat.", "ఎదలో మరీ ముందుగా లేదా మరీ ఆలస్యంగా గర్భధారణ చేయడం.") },
+              { label: L("Broken semen cold chain", "వీర్యం కోల్డ్ చైన్ తెగిపోవడం"), text: L("Frozen semen not kept at the right temperature before use.", "వాడే ముందు ఘనీభవించిన వీర్యాన్ని సరైన ఉష్ణోగ్రతలో ఉంచకపోవడం.") },
+              { label: L("Unhygienic AI", "అపరిశుభ్రమైన AI"), text: L("AI done without following the standard operating procedure (SOP), which can introduce infection.", "ప్రామాణిక నిర్వహణ పద్ధతి (SOP) పాటించకుండా AI చేయడం, దీనివల్ల ఇన్ఫెక్షన్ రావచ్చు.") },
             ],
           },
           {
             type: "callout",
             style: "info",
-            heading: L("Notice How Many of These Are Human Mistakes"),
-            text: L(
-              "Five of the common causes above are things people do or don't do. That's why you matter here: noticing a missed heat, a semen container without enough liquid nitrogen, or an AI done in a dirty, stressful setting — and mentioning it — directly protects the farm's fertility."
-            ),
+            heading: L("Notice How Many of These Are Human Mistakes", "వీటిలో ఎన్ని మనుషుల పొరపాట్లో గమనించండి"),
+            text: L("Five of the common causes above are things people do or don't do. That's why you matter here: noticing a missed heat, a semen container without enough liquid nitrogen, or an AI done in a dirty, stressful setting — and mentioning it — directly protects the farm's fertility.", "పైన చెప్పిన సాధారణ కారణాల్లో ఐదు మనుషులు చేసేవి లేదా చేయనివి. అందుకే ఇక్కడ మీరు ముఖ్యం: తప్పిపోయిన ఎదను, తగినంత లిక్విడ్ నైట్రోజన్ లేని వీర్యం డబ్బాను, లేదా మురికిగా, ఒత్తిడితో కూడిన పరిస్థితిలో చేసిన AIని గమనించి చెప్పడం ఫారం సంతానోత్పత్తిని నేరుగా కాపాడుతుంది."),
           },
         ],
         check: [
           {
             type: "mcq",
-            q: L("How often should a healthy, fertile cow ideally calve?"),
-            options: [L("Every 13–14 months"), L("Every 3 years"), L("Every 6 months"), L("Only once in her life")],
+            q: L("How often should a healthy, fertile cow ideally calve?", "ఆరోగ్యకరమైన, సంతానోత్పత్తి సామర్థ్యం ఉన్న ఆవు ఆదర్శంగా ఎంత తరచుగా ఈనాలి?"),
+            options: [L("Every 13–14 months", "ప్రతి 13–14 నెలలకు"), L("Every 3 years", "ప్రతి 3 సంవత్సరాలకు"), L("Every 6 months", "ప్రతి 6 నెలలకు"), L("Only once in her life", "జీవితంలో ఒక్కసారి మాత్రమే")],
             answer: 0,
-            explain: L("A fertile cow should calve every 13–14 months, return to heat within 90 days and be pregnant within 5 months of calving."),
+            explain: L("A fertile cow should calve every 13–14 months, return to heat within 90 days and be pregnant within 5 months of calving.", "సంతానోత్పత్తి సామర్థ్యం ఉన్న ఆవు ప్రతి 13–14 నెలలకు ఈనాలి, 90 రోజుల్లో మళ్ళీ ఎదకు రావాలి, ఈనిన 5 నెలల్లో చూడి కట్టాలి."),
           },
           {
             type: "truefalse",
-            q: L("Infertility in dairy animals is usually permanent and cannot be corrected."),
+            q: L("Infertility in dairy animals is usually permanent and cannot be corrected.", "పాడి పశువుల్లో వంధ్యత్వం సాధారణంగా శాశ్వతం, సరిచేయలేము."),
             answer: false,
-            explain: L("No — infertility is a temporary loss of fertility that can usually be corrected with the right care."),
+            explain: L("No — infertility is a temporary loss of fertility that can usually be corrected with the right care.", "కాదు — వంధ్యత్వం తాత్కాలిక సంతానోత్పత్తి నష్టం, సరైన సంరక్షణతో సాధారణంగా సరిచేయవచ్చు."),
           },
         ],
       },
       {
         id: "t-m12-infertility-management",
-        title: L("Managing Infertility: What the Farm Should Do"),
+        title: L("Managing Infertility: What the Farm Should Do", "వంధ్యత్వ నిర్వహణ: ఫారం ఏమి చేయాలి"),
         teach: [
           {
             type: "stat-grid",
             items: [
               {
-                label: L("Feed and minerals"),
-                text: L("Improve nutrition and housing. Make mineral mixture an essential part of the ration from calf-hood onwards."),
+                label: L("Feed and minerals", "దాణా, ఖనిజాలు"),
+                text: L("Improve nutrition and housing. Make mineral mixture an essential part of the ration from calf-hood onwards.", "పోషణ, వసతిని మెరుగుపరచండి. దూడ దశ నుండే ఖనిజ మిశ్రమాన్ని రేషన్‌లో తప్పనిసరి భాగంగా చేయండి."),
               },
               {
-                label: L("Deworming"),
-                text: L("Keep animals regularly dewormed so they absorb their nutrients properly — the handbook suggests every three months in this context; follow the vet's plan."),
+                label: L("Deworming", "నట్టల నివారణ"),
+                text: L("Keep animals regularly dewormed so they absorb their nutrients properly — the handbook suggests every three months in this context; follow the vet's plan.", "పశువులు పోషకాలను సరిగా గ్రహించేలా క్రమం తప్పకుండా నట్టల నివారణ చేయించండి — ఈ సందర్భంలో హ్యాండ్‌బుక్ ప్రతి మూడు నెలలకు సూచిస్తుంది; పశువైద్యుని ప్రణాళికను అనుసరించండి."),
               },
               {
-                label: L("Heat detection"),
-                text: L("Watch for heat carefully and consistently, so cows are bred as early as possible."),
+                label: L("Heat detection", "ఎద గుర్తింపు"),
+                text: L("Watch for heat carefully and consistently, so cows are bred as early as possible.", "ఆవులకు వీలైనంత త్వరగా గర్భధారణ జరిగేలా, జాగ్రత్తగా, నిలకడగా ఎదను గమనించండి."),
               },
               {
-                label: L("Discharge"),
-                text: L("Report any abnormal discharge from the vulva — it may mean a womb infection that needs treatment."),
+                label: L("Discharge", "కారడం"),
+                text: L("Report any abnormal discharge from the vulva — it may mean a womb infection that needs treatment.", "యోని నుండి ఏదైనా అసాధారణంగా కారితే తెలియజేయండి — అది చికిత్స అవసరమైన గర్భాశయ ఇన్ఫెక్షన్ కావచ్చు."),
               },
             ],
           },
           {
             type: "glossary",
-            term: L("Repeat Breeder"),
-            meaning: L(
-              "A cow or heifer with a normal reproductive tract that is still not pregnant after three consecutive inseminations. She needs active investigation and treatment by a vet, then close monitoring when she is bred again."
-            ),
+            term: L("Repeat Breeder", "రిపీట్ బ్రీడర్"),
+            meaning: L("A cow or heifer with a normal reproductive tract that is still not pregnant after three consecutive inseminations. She needs active investigation and treatment by a vet, then close monitoring when she is bred again.", "సాధారణ పునరుత్పత్తి వ్యవస్థ ఉన్నా, వరుసగా మూడు గర్భధారణల తర్వాత కూడా చూడి కట్టని ఆవు లేదా పెయ్య. ఆమెకు పశువైద్యుని చురుకైన పరిశీలన, చికిత్స అవసరం, తర్వాత మళ్ళీ గర్భధారణ చేసినప్పుడు దగ్గరగా గమనించాలి."),
           },
           {
             type: "stat-grid",
             items: [
-              { label: L("Semen source"), text: L("Semen should always come from an A- or B-grade semen station.") },
+              { label: L("Semen source", "వీర్యం మూలం"), text: L("Semen should always come from an A- or B-grade semen station.", "వీర్యం ఎప్పుడూ A- లేదా B-గ్రేడ్ వీర్య కేంద్రం నుండే రావాలి.") },
               {
-                label: L("The AI itself"),
-                text: L("Done by a well-trained AI technician, in a clean, stress-free setting, following the SOP for handling and thawing frozen semen."),
+                label: L("The AI itself", "AI స్వయంగా"),
+                text: L("Done by a well-trained AI technician, in a clean, stress-free setting, following the SOP for handling and thawing frozen semen.", "బాగా శిక్షణ పొందిన AI టెక్నీషియన్ శుభ్రమైన, ఒత్తిడి లేని పరిస్థితిలో, ఘనీభవించిన వీర్యాన్ని నిర్వహించడం, కరిగించడానికి SOP పాటిస్తూ చేయాలి."),
               },
               {
-                label: L("One dose is enough"),
-                text: L("One dose of semen per AI is sufficient. A repeat AI is only needed if the heat is prolonged."),
+                label: L("One dose is enough", "ఒక డోసు చాలు"),
+                text: L("One dose of semen per AI is sufficient. A repeat AI is only needed if the heat is prolonged.", "ఒక్కో AIకి ఒక డోసు వీర్యం సరిపోతుంది. ఎద ఎక్కువ సేపు ఉంటేనే మళ్ళీ AI అవసరం."),
               },
               {
-                label: L("Pregnancy check"),
-                text: L("Can be done as early as 28 days with cow-side pregnancy kits, or from about 45 days by a trained AI technician or vet by rectal examination."),
+                label: L("Pregnancy check", "చూడి పరీక్ష"),
+                text: L("Can be done as early as 28 days with cow-side pregnancy kits, or from about 45 days by a trained AI technician or vet by rectal examination.", "పశువు పక్కనే వాడే ప్రెగ్నెన్సీ కిట్‌లతో 28 రోజులకే చేయవచ్చు, లేదా సుమారు 45 రోజుల నుండి శిక్షణ పొందిన AI టెక్నీషియన్ లేదా పశువైద్యుడు మలద్వారం ద్వారా (రెక్టల్) పరీక్షతో చేయవచ్చు."),
               },
             ],
           },
           {
             type: "callout",
             style: "warning",
-            heading: L("Hormones Are Not a Quick Fix"),
-            text: L(
-              "Hormone treatment for infertility should only be used with great caution, and only after a vet has found the actual cause. Giving hormones on guesswork can make things worse. AI itself is not a treatment for infertility either."
-            ),
+            heading: L("Hormones Are Not a Quick Fix", "హార్మోన్లు తక్షణ పరిష్కారం కాదు"),
+            text: L("Hormone treatment for infertility should only be used with great caution, and only after a vet has found the actual cause. Giving hormones on guesswork can make things worse. AI itself is not a treatment for infertility either.", "వంధ్యత్వానికి హార్మోన్ చికిత్సను చాలా జాగ్రత్తగా, పశువైద్యుడు అసలు కారణాన్ని కనుగొన్న తర్వాత మాత్రమే వాడాలి. ఊహతో హార్మోన్లు ఇస్తే పరిస్థితి ఇంకా దిగజారవచ్చు. AI కూడా వంధ్యత్వానికి చికిత్స కాదు."),
           },
           {
             type: "example",
-            heading: L("Why Records Make All the Difference"),
-            text: L(
-              "Writing down every heat date, AI date and pregnancy check lets the vet see a pattern — for example, a cow coming into heat every 30 days instead of every 21 is a clue in itself. Without records, those clues are lost. Animals found to have permanent body-structure or genetic causes of infertility should be removed from the herd early, so resources go to animals that can produce."
-            ),
+            heading: L("Why Records Make All the Difference", "రికార్డులు ఎందుకు ఇంత తేడా చూపిస్తాయి"),
+            text: L("Writing down every heat date, AI date and pregnancy check lets the vet see a pattern — for example, a cow coming into heat every 30 days instead of every 21 is a clue in itself. Without records, those clues are lost. Animals found to have permanent body-structure or genetic causes of infertility should be removed from the herd early, so resources go to animals that can produce.", "ప్రతి ఎద తేదీ, AI తేదీ, చూడి పరీక్షను రాసిపెడితే పశువైద్యుడు ఒక నమూనాను చూడగలరు — ఉదాహరణకు, ప్రతి 21 రోజులకు బదులు ప్రతి 30 రోజులకు ఎదకు వచ్చే ఆవు అదే ఒక సూచన. రికార్డులు లేకపోతే ఆ సూచనలు పోతాయి. శరీర నిర్మాణ లేదా జన్యు కారణాలతో శాశ్వత వంధ్యత్వం ఉన్న పశువులను మంద నుండి ముందుగానే తొలగించాలి, అప్పుడు వనరులు ఉత్పత్తి చేయగల పశువులకు వెళ్తాయి."),
           },
         ],
         check: [
           {
             type: "mcq",
-            q: L("A cow with a normal reproductive tract is still not pregnant after three AIs in a row. What is she called?"),
-            options: [L("A dry cow"), L("A heifer"), L("A carrier"), L("A repeat breeder")],
+            q: L("A cow with a normal reproductive tract is still not pregnant after three AIs in a row. What is she called?", "సాధారణ పునరుత్పత్తి వ్యవస్థ ఉన్న ఆవు వరుసగా మూడు AIల తర్వాత కూడా చూడి కట్టలేదు. ఆమెను ఏమంటారు?"),
+            options: [L("A dry cow", "పాలు ఇవ్వని ఆవు"), L("A heifer", "పెయ్య"), L("A carrier", "వాహకం"), L("A repeat breeder", "రిపీట్ బ్రీడర్")],
             answer: 3,
-            explain: L("She is a repeat breeder and should be examined and treated by a vet, then closely monitored when re-bred."),
+            explain: L("She is a repeat breeder and should be examined and treated by a vet, then closely monitored when re-bred.", "ఆమె రిపీట్ బ్రీడర్, పశువైద్యుడు పరీక్షించి చికిత్స చేయాలి, తర్వాత మళ్ళీ గర్భధారణ చేసినప్పుడు దగ్గరగా గమనించాలి."),
           },
           {
             type: "truefalse",
-            q: L("Using two or three doses of semen in every AI improves conception."),
+            q: L("Using two or three doses of semen in every AI improves conception.", "ప్రతి AIలో రెండు మూడు డోసుల వీర్యం వాడితే గర్భధారణ మెరుగుపడుతుంది."),
             answer: false,
-            explain: L("No — one dose per AI is sufficient when AI is done at the right time with good semen and correct technique."),
+            explain: L("No — one dose per AI is sufficient when AI is done at the right time with good semen and correct technique.", "కాదు — సరైన సమయంలో మంచి వీర్యంతో, సరైన పద్ధతిలో AI చేస్తే ఒక్కో AIకి ఒక డోసు సరిపోతుంది."),
           },
         ],
       },
@@ -13514,48 +13408,48 @@ export const MODULES = [
         {
           topicId: "t-m12-infertility-causes",
           type: "mcq",
-          q: L("Within how many days after calving should a healthy cow be cycling (coming into heat) again?"),
-          options: [L("Within 2 years"), L("Within 7 days"), L("Within 90 days"), L("It doesn't matter")],
+          q: L("Within how many days after calving should a healthy cow be cycling (coming into heat) again?", "ఈనిన తర్వాత ఎన్ని రోజుల్లో ఆరోగ్యకరమైన ఆవు మళ్ళీ ఎదకు రావాలి?"),
+          options: [L("Within 2 years", "2 సంవత్సరాల్లో"), L("Within 7 days", "7 రోజుల్లో"), L("Within 90 days", "90 రోజుల్లో"), L("It doesn't matter", "అది ముఖ్యం కాదు")],
           answer: 2,
-          explain: L("A reproductively sound cow should resume cycling within 90 days of calving."),
+          explain: L("A reproductively sound cow should resume cycling within 90 days of calving.", "పునరుత్పత్తి పరంగా ఆరోగ్యంగా ఉన్న ఆవు ఈనిన 90 రోజుల్లో మళ్ళీ ఎద చక్రం మొదలుపెట్టాలి."),
         },
         {
           topicId: "t-m12-infertility-causes",
           type: "mcq",
-          q: L("Which of these is a common human cause of infertility?"),
-          options: [L("Feeding green fodder"), L("Giving clean water"), L("Using an A-grade semen station"), L("A break in the cold chain of frozen semen")],
+          q: L("Which of these is a common human cause of infertility?", "వీటిలో వంధ్యత్వానికి సాధారణమైన మానవ కారణం ఏది?"),
+          options: [L("Feeding green fodder", "పచ్చి మేత ఇవ్వడం"), L("Giving clean water", "శుభ్రమైన నీళ్ళు ఇవ్వడం"), L("Using an A-grade semen station", "A-గ్రేడ్ వీర్య కేంద్రం వాడడం"), L("A break in the cold chain of frozen semen", "ఘనీభవించిన వీర్యం కోల్డ్ చైన్ తెగిపోవడం")],
           answer: 3,
-          explain: L("Broken semen cold chain, poor heat detection, wrong AI timing, unhygienic AI and poor feeding without minerals are all human factors."),
+          explain: L("Broken semen cold chain, poor heat detection, wrong AI timing, unhygienic AI and poor feeding without minerals are all human factors.", "వీర్యం కోల్డ్ చైన్ తెగిపోవడం, ఎదను సరిగా గుర్తించకపోవడం, AI తప్పు సమయంలో చేయడం, అపరిశుభ్రమైన AI, ఖనిజాలు లేకుండా సరిగా మేపకపోవడం — ఇవన్నీ మానవ కారణాలు."),
         },
         {
           topicId: "t-m12-infertility-causes",
           type: "truefalse",
-          q: L("Silent heat means the animal is in heat but shows almost no visible signs."),
+          q: L("Silent heat means the animal is in heat but shows almost no visible signs.", "సైలెంట్ హీట్ అంటే పశువు ఎదలో ఉన్నా దాదాపు ఏ లక్షణాలూ కనిపించకపోవడం."),
           answer: true,
-          explain: L("Correct — it is common in buffaloes and easy to miss without careful observation."),
+          explain: L("Correct — it is common in buffaloes and easy to miss without careful observation.", "సరైనది — ఇది గేదెల్లో సాధారణం, జాగ్రత్తగా గమనించకపోతే సులభంగా తప్పిపోతుంది."),
         },
         {
           topicId: "t-m12-infertility-management",
           type: "mcq",
-          q: L("How early can pregnancy be checked using a cow-side pregnancy kit?"),
-          options: [L("As early as 28 days"), L("Only after 9 months"), L("On the day of AI"), L("It can't be checked")],
+          q: L("How early can pregnancy be checked using a cow-side pregnancy kit?", "పశువు పక్కనే వాడే ప్రెగ్నెన్సీ కిట్‌తో చూడిని ఎంత ముందుగా పరీక్షించవచ్చు?"),
+          options: [L("As early as 28 days", "28 రోజులకే"), L("Only after 9 months", "9 నెలల తర్వాత మాత్రమే"), L("On the day of AI", "AI చేసిన రోజే"), L("It can't be checked", "పరీక్షించలేము")],
           answer: 0,
-          explain: L("Cow-side kits can check pregnancy from about 28 days; rectal examination by a trained person from about 45 days."),
+          explain: L("Cow-side kits can check pregnancy from about 28 days; rectal examination by a trained person from about 45 days.", "పశువు పక్కనే వాడే కిట్‌లతో సుమారు 28 రోజుల నుండి, శిక్షణ పొందిన వ్యక్తి రెక్టల్ పరీక్షతో సుమారు 45 రోజుల నుండి చూడిని పరీక్షించవచ్చు."),
         },
         {
           topicId: "t-m12-infertility-management",
           type: "truefalse",
-          q: L("Hormone treatment should be given to every cow that doesn't conceive quickly, without waiting for a diagnosis."),
+          q: L("Hormone treatment should be given to every cow that doesn't conceive quickly, without waiting for a diagnosis.", "త్వరగా చూడి కట్టని ప్రతి ఆవుకు, రోగనిర్ధారణ కోసం ఆగకుండా హార్మోన్ చికిత్స ఇవ్వాలి."),
           answer: false,
-          explain: L("No — hormones should be used with caution and only after a vet has diagnosed the actual cause."),
+          explain: L("No — hormones should be used with caution and only after a vet has diagnosed the actual cause.", "కాదు — హార్మోన్లను జాగ్రత్తగా, పశువైద్యుడు అసలు కారణాన్ని నిర్ధారించిన తర్వాత మాత్రమే వాడాలి."),
         },
         {
           topicId: "t-m12-infertility-management",
           type: "mcq",
-          q: L("Where should semen for AI always come from?"),
-          options: [L("Any neighbour's bull"), L("Any shop"), L("An A- or B-grade semen station"), L("It doesn't matter")],
+          q: L("Where should semen for AI always come from?", "AI కోసం వీర్యం ఎప్పుడూ ఎక్కడి నుండి రావాలి?"),
+          options: [L("Any neighbour's bull", "పక్కింటి వారి ఏ ఆబోతు నుండైనా"), L("Any shop", "ఏ దుకాణం నుండైనా"), L("An A- or B-grade semen station", "A- లేదా B-గ్రేడ్ వీర్య కేంద్రం నుండి"), L("It doesn't matter", "అది ముఖ్యం కాదు")],
           answer: 2,
-          explain: L("Semen should always be sourced from an A- or B-grade semen station, and used by a well-trained AI technician."),
+          explain: L("Semen should always be sourced from an A- or B-grade semen station, and used by a well-trained AI technician.", "వీర్యాన్ని ఎప్పుడూ A- లేదా B-గ్రేడ్ వీర్య కేంద్రం నుండే తీసుకోవాలి, బాగా శిక్షణ పొందిన AI టెక్నీషియన్ వాడాలి."),
         },
       ],
     },
@@ -13566,57 +13460,53 @@ export const MODULES = [
   // ==================================================================
   {
     id: "m12-l5",
-    title: L("Modern Breeding Tools: Sexed Semen, IVF and Better Bulls"),
+    title: L("Modern Breeding Tools: Sexed Semen, IVF and Better Bulls", "ఆధునిక సంతానోత్పత్తి సాధనాలు: సెక్స్‌డ్ సెమెన్, IVF, మెరుగైన ఆబోతులు"),
     estMinutes: 11,
     hook: [
       {
         type: "hero",
-        heading: L("Breeding Has Gone High-Tech — Farmers Will Ask You About It"),
-        text: L(
-          "Farmers today hear about sexed semen, test-tube calves and 'genomic' bulls, and they will ask you what these mean and whether they are worth it. You won't perform any of these technologies — but knowing what each one is, what it costs and what it can and can't do lets you answer honestly and point farmers to the right people."
-        ),
+        heading: L("Breeding Has Gone High-Tech — Farmers Will Ask You About It", "సంతానోత్పత్తి హైటెక్‌గా మారింది — రైతులు మిమ్మల్ని దీని గురించి అడుగుతారు"),
+        text: L("Farmers today hear about sexed semen, test-tube calves and 'genomic' bulls, and they will ask you what these mean and whether they are worth it. You won't perform any of these technologies — but knowing what each one is, what it costs and what it can and can't do lets you answer honestly and point farmers to the right people.", "ఈరోజు రైతులు సెక్స్‌డ్ సెమెన్, టెస్ట్-ట్యూబ్ దూడలు, 'జీనోమిక్' ఆబోతుల గురించి వింటున్నారు, ఇవి ఏమిటి, వీటికి విలువ ఉందా అని మిమ్మల్ని అడుగుతారు. ఈ సాంకేతికతల్లో దేన్నీ మీరు చేయరు — కానీ ప్రతి ఒక్కటి ఏమిటి, దాని ఖర్చు ఎంత, అది ఏమి చేయగలదు, ఏమి చేయలేదో తెలిస్తే నిజాయితీగా సమాధానం చెప్పి రైతులను సరైన వ్యక్తుల వద్దకు పంపగలరు."),
       },
     ],
     topics: [
       {
         id: "t-m12-sexed-semen",
-        title: L("Sexed Semen: Choosing a Heifer Calf"),
+        title: L("Sexed Semen: Choosing a Heifer Calf", "సెక్స్‌డ్ సెమెన్: ఆడ దూడను ఎంచుకోవడం"),
         teach: [
           {
             type: "glossary",
-            term: L("Sexed Semen"),
-            meaning: L(
-              "Semen sorted in a laboratory so that it carries mostly sperm of one sex. Used for AI, it produces a calf of the chosen sex — usually female — with about 90% accuracy."
-            ),
+            term: L("Sexed Semen", "సెక్స్‌డ్ సెమెన్ (లింగ నిర్ధారిత వీర్యం)"),
+            meaning: L("Semen sorted in a laboratory so that it carries mostly sperm of one sex. Used for AI, it produces a calf of the chosen sex — usually female — with about 90% accuracy.", "ఎక్కువగా ఒకే లింగానికి చెందిన శుక్రకణాలు ఉండేలా ప్రయోగశాలలో వేరు చేసిన వీర్యం. AIకి వాడితే, ఎంచుకున్న లింగానికి చెందిన దూడ — సాధారణంగా ఆడది — సుమారు 90% ఖచ్చితత్వంతో పుడుతుంది."),
           },
           {
             type: "stat-grid",
             items: [
-              { label: L("More heifers"), text: L("More female calves — the future milk producers — and surplus heifers that can be sold.") },
-              { label: L("Saves resources"), text: L("Feed and care aren't spent on unwanted male calves.") },
-              { label: L("Faster improvement"), text: L("Speeds up genetic progress, and makes progeny testing and embryo production more efficient.") },
-              { label: L("Safer herd growth"), text: L("Growing your own heifers avoids bringing in disease with bought animals.") },
-              { label: L("Easier births"), text: L("Female calves cause fewer difficult births — especially useful for first-time heifers.") },
+              { label: L("More heifers", "ఎక్కువ పెయ్యలు"), text: L("More female calves — the future milk producers — and surplus heifers that can be sold.", "ఎక్కువ ఆడ దూడలు — భవిష్యత్ పాల ఉత్పత్తిదారులు — అదనపు పెయ్యలను అమ్మవచ్చు.") },
+              { label: L("Saves resources", "వనరులు ఆదా"), text: L("Feed and care aren't spent on unwanted male calves.", "అవసరం లేని మగ దూడలపై దాణా, సంరక్షణ ఖర్చు కాదు.") },
+              { label: L("Faster improvement", "వేగవంతమైన అభివృద్ధి"), text: L("Speeds up genetic progress, and makes progeny testing and embryo production more efficient.", "జన్యు ప్రగతిని వేగవంతం చేస్తుంది, ప్రొజెనీ టెస్టింగ్, పిండాల ఉత్పత్తిని మరింత సమర్థవంతం చేస్తుంది.") },
+              { label: L("Safer herd growth", "సురక్షితమైన మంద పెరుగుదల"), text: L("Growing your own heifers avoids bringing in disease with bought animals.", "మీ సొంత పెయ్యలను పెంచుకుంటే కొన్న పశువులతో వ్యాధులు రావు.") },
+              { label: L("Easier births", "సులభమైన ఈతలు"), text: L("Female calves cause fewer difficult births — especially useful for first-time heifers.", "ఆడ దూడల వల్ల కష్టమైన ఈతలు తక్కువ — ముఖ్యంగా మొదటిసారి ఈనే పెయ్యలకు ఉపయోగకరం.") },
             ],
           },
           {
             type: "stat-grid",
             items: [
               {
-                label: L("Availability"),
-                text: L("Produced at 11 semen stations in India, for all major dairy breeds including buffaloes. It is not carried by every AI technician."),
+                label: L("Availability", "లభ్యత"),
+                text: L("Produced at 11 semen stations in India, for all major dairy breeds including buffaloes. It is not carried by every AI technician.", "భారతదేశంలో 11 వీర్య కేంద్రాల్లో, గేదెలతో సహా అన్ని ప్రధాన పాడి జాతులకు తయారవుతుంది. ప్రతి AI టెక్నీషియన్ దగ్గర ఇది ఉండదు."),
               },
               {
-                label: L("Cost"),
-                text: L("About ₹675 per dose under the ABIP-SS project of the Rashtriya Gokul Mission (2026 handbook), with further subsidy in some states. NDDB's subsidiary NDS has developed a lower-cost Indian sorting technology."),
+                label: L("Cost", "ఖర్చు"),
+                text: L("About ₹675 per dose under the ABIP-SS project of the Rashtriya Gokul Mission (2026 handbook), with further subsidy in some states. NDDB's subsidiary NDS has developed a lower-cost Indian sorting technology.", "రాష్ట్రీయ గోకుల్ మిషన్ ABIP-SS ప్రాజెక్ట్ కింద ఒక డోసుకు సుమారు ₹675 (2026 హ్యాండ్‌బుక్), కొన్ని రాష్ట్రాల్లో అదనపు సబ్సిడీ ఉంటుంది. NDDB అనుబంధ సంస్థ NDS తక్కువ ఖర్చుతో భారతీయ వేరుచేసే సాంకేతికతను అభివృద్ధి చేసింది."),
               },
               {
-                label: L("How to recognise it"),
-                text: L("Sexed semen comes in white French mini straws with a coloured cotton plug — the farmer can ask to see the straw."),
+                label: L("How to recognise it", "దీన్ని ఎలా గుర్తించాలి"),
+                text: L("Sexed semen comes in white French mini straws with a coloured cotton plug — the farmer can ask to see the straw.", "సెక్స్‌డ్ సెమెన్ రంగు దూది మూతతో తెల్లటి ఫ్రెంచ్ మినీ స్ట్రాలలో వస్తుంది — రైతు స్ట్రాను చూపించమని అడగవచ్చు."),
               },
               {
-                label: L("Success rate"),
-                text: L("In a field pilot, conception rates ranged from about 12.5% to 37.5% — lower than conventional semen, so heat timing matters even more."),
+                label: L("Success rate", "విజయ రేటు"),
+                text: L("In a field pilot, conception rates ranged from about 12.5% to 37.5% — lower than conventional semen, so heat timing matters even more.", "ఒక క్షేత్ర పైలట్‌లో గర్భధారణ రేట్లు సుమారు 12.5% నుండి 37.5% వరకు ఉన్నాయి — సాధారణ వీర్యం కంటే తక్కువ, కాబట్టి ఎద సమయం ఇంకా ముఖ్యం."),
               },
             ],
           },
@@ -13624,140 +13514,122 @@ export const MODULES = [
         check: [
           {
             type: "mcq",
-            q: L("With sexed semen, roughly how accurately can the calf's sex be chosen?"),
-            options: [L("About 50%"), L("About 90%"), L("100%, always"), L("About 10%")],
+            q: L("With sexed semen, roughly how accurately can the calf's sex be chosen?", "సెక్స్‌డ్ సెమెన్‌తో దూడ లింగాన్ని సుమారు ఎంత ఖచ్చితంగా ఎంచుకోవచ్చు?"),
+            options: [L("About 50%", "సుమారు 50%"), L("About 90%", "సుమారు 90%"), L("100%, always", "ఎప్పుడూ 100%"), L("About 10%", "సుమారు 10%")],
             answer: 1,
-            explain: L("Sexed semen produces a calf of the desired sex with about 90% accuracy."),
+            explain: L("Sexed semen produces a calf of the desired sex with about 90% accuracy.", "సెక్స్‌డ్ సెమెన్ కోరుకున్న లింగానికి చెందిన దూడను సుమారు 90% ఖచ్చితత్వంతో ఇస్తుంది."),
           },
           {
             type: "truefalse",
-            q: L("Sexed semen is available only for exotic cattle, not for buffaloes."),
+            q: L("Sexed semen is available only for exotic cattle, not for buffaloes.", "సెక్స్‌డ్ సెమెన్ విదేశీ జాతి పశువులకు మాత్రమే అందుబాటులో ఉంది, గేదెలకు కాదు."),
             answer: false,
-            explain: L("No — sexed semen is available for all major dairy breeds in India, including buffaloes."),
+            explain: L("No — sexed semen is available for all major dairy breeds in India, including buffaloes.", "కాదు — భారతదేశంలో గేదెలతో సహా అన్ని ప్రధాన పాడి జాతులకు సెక్స్‌డ్ సెమెన్ అందుబాటులో ఉంది."),
           },
         ],
       },
       {
         id: "t-m12-ivf-et",
-        title: L("IVF and Embryo Transfer: Many Calves From One Elite Cow"),
+        title: L("IVF and Embryo Transfer: Many Calves From One Elite Cow", "IVF, పిండ మార్పిడి: ఒక శ్రేష్ఠమైన ఆవు నుండి చాలా దూడలు"),
         teach: [
           {
             type: "text",
-            heading: L("What 'OPU-IVEP-ET' Means"),
-            html: L(
-              "Normally an excellent cow gives one calf a year. With <b>Ovum Pick-Up, In Vitro Embryo Production and Embryo Transfer (OPU-IVEP-ET)</b>, a vet uses an ultrasound-guided probe to collect eggs directly from an elite cow's ovaries — without hormones and without disturbing her cycle. In a laboratory the eggs are matured, fertilised with semen and grown for about a week into early embryos. Each embryo is then placed into an ordinary 'surrogate' cow (the recipient), which carries the calf to birth."
-            ),
+            heading: L("What 'OPU-IVEP-ET' Means", "'OPU-IVEP-ET' అంటే ఏమిటి"),
+            html: L("Normally an excellent cow gives one calf a year. With <b>Ovum Pick-Up, In Vitro Embryo Production and Embryo Transfer (OPU-IVEP-ET)</b>, a vet uses an ultrasound-guided probe to collect eggs directly from an elite cow's ovaries — without hormones and without disturbing her cycle. In a laboratory the eggs are matured, fertilised with semen and grown for about a week into early embryos. Each embryo is then placed into an ordinary 'surrogate' cow (the recipient), which carries the calf to birth.", "సాధారణంగా ఒక మంచి ఆవు సంవత్సరానికి ఒక దూడను ఇస్తుంది. <b>ఓవమ్ పిక్-అప్, ఇన్ విట్రో ఎంబ్రియో ప్రొడక్షన్, ఎంబ్రియో ట్రాన్స్‌ఫర్ (OPU-IVEP-ET)</b>లో, పశువైద్యుడు అల్ట్రాసౌండ్ సహాయంతో ప్రోబ్ వాడి శ్రేష్ఠమైన ఆవు అండాశయాల నుండి నేరుగా అండాలను సేకరిస్తారు — హార్మోన్లు లేకుండా, ఆమె ఎద చక్రానికి భంగం కలిగించకుండా. ప్రయోగశాలలో అండాలను పరిపక్వం చేసి, వీర్యంతో ఫలదీకరణం చేసి, సుమారు ఒక వారం పాటు తొలి పిండాలుగా పెంచుతారు. తర్వాత ప్రతి పిండాన్ని ఒక సాధారణ 'అద్దె తల్లి' ఆవు (గ్రహీత)లో ఉంచుతారు, అది దూడను పుట్టే వరకు మోస్తుంది."),
           },
           {
             type: "glossary",
-            term: L("Recipient (Surrogate) Cow"),
-            meaning: L("An ordinary, healthy cow that carries an embryo from an elite cow through pregnancy. The calf inherits the elite parents' genes, not the surrogate's."),
+            term: L("Recipient (Surrogate) Cow", "గ్రహీత (అద్దె తల్లి) ఆవు"),
+            meaning: L("An ordinary, healthy cow that carries an embryo from an elite cow through pregnancy. The calf inherits the elite parents' genes, not the surrogate's.", "శ్రేష్ఠమైన ఆవు పిండాన్ని చూడి కాలమంతా మోసే సాధారణ, ఆరోగ్యకరమైన ఆవు. దూడకు శ్రేష్ఠమైన తల్లిదండ్రుల జన్యువులు వస్తాయి, అద్దె తల్లివి కాదు."),
           },
           {
             type: "stat-grid",
             items: [
-              { label: L("Calves per elite cow"), text: L("About 20–25 calves in a year, instead of one.") },
-              { label: L("Faster genetic gain"), text: L("More calves from the very best animals, and young genomically selected heifers can be used before puberty.") },
-              { label: L("Second chance"), text: L("Top cows with blocked tubes or damaged udders, which would otherwise be culled, can still produce calves.") },
-              { label: L("Combined with sexed semen"), text: L("Embryos made with sexed semen give calves of the desired sex — and use very little semen from rare top bulls.") },
+              { label: L("Calves per elite cow", "ఒక శ్రేష్ఠమైన ఆవుకు దూడలు"), text: L("About 20–25 calves in a year, instead of one.", "ఒకటికి బదులు సంవత్సరంలో సుమారు 20–25 దూడలు.") },
+              { label: L("Faster genetic gain", "వేగవంతమైన జన్యు ప్రగతి"), text: L("More calves from the very best animals, and young genomically selected heifers can be used before puberty.", "అత్యుత్తమ పశువుల నుండి ఎక్కువ దూడలు, జీనోమిక్‌గా ఎంచుకున్న చిన్న పెయ్యలను యుక్తవయసుకు ముందే వాడవచ్చు.") },
+              { label: L("Second chance", "రెండవ అవకాశం"), text: L("Top cows with blocked tubes or damaged udders, which would otherwise be culled, can still produce calves.", "గొట్టాలు మూసుకుపోయిన లేదా పొదుగు దెబ్బతిన్న ఉత్తమ ఆవులు, లేకపోతే తొలగించబడేవి, ఇంకా దూడలను ఇవ్వగలవు.") },
+              { label: L("Combined with sexed semen", "సెక్స్‌డ్ సెమెన్‌తో కలిపి"), text: L("Embryos made with sexed semen give calves of the desired sex — and use very little semen from rare top bulls.", "సెక్స్‌డ్ సెమెన్‌తో తయారైన పిండాలు కోరుకున్న లింగానికి చెందిన దూడలను ఇస్తాయి — అరుదైన ఉత్తమ ఆబోతుల వీర్యం చాలా తక్కువగా వాడతాయి.") },
             ],
           },
           {
             type: "callout",
             style: "info",
-            heading: L("What Farmers Should Know"),
-            text: L(
-              "Embryo transfer is NOT an alternative to AI for getting an ordinary cow pregnant — it is a way to multiply elite genetics. Under the ABIP-IVF project of the Rashtriya Gokul Mission, the 2026 handbook lists the rate for establishing an IVF-ET pregnancy at ₹21,000 plus taxes, of which ₹5,000 is subsidised by the Government of India."
-            ),
+            heading: L("What Farmers Should Know", "రైతులు తెలుసుకోవాల్సినవి"),
+            text: L("Embryo transfer is NOT an alternative to AI for getting an ordinary cow pregnant — it is a way to multiply elite genetics. Under the ABIP-IVF project of the Rashtriya Gokul Mission, the 2026 handbook lists the rate for establishing an IVF-ET pregnancy at ₹21,000 plus taxes, of which ₹5,000 is subsidised by the Government of India.", "సాధారణ ఆవుకు చూడి కట్టించడానికి పిండ మార్పిడి AIకి ప్రత్యామ్నాయం కాదు — ఇది శ్రేష్ఠమైన జన్యువులను పెంచే మార్గం. రాష్ట్రీయ గోకుల్ మిషన్ ABIP-IVF ప్రాజెక్ట్ కింద, ఒక IVF-ET చూడి స్థాపించడానికి రేటు ₹21,000 ప్లస్ పన్నులు అని 2026 హ్యాండ్‌బుక్ చెబుతుంది, అందులో ₹5,000 భారత ప్రభుత్వం సబ్సిడీగా ఇస్తుంది."),
           },
         ],
         check: [
           {
             type: "mcq",
-            q: L("Roughly how many calves a year can IVF-ET produce from one elite cow?"),
-            options: [L("Exactly 1"), L("About 200"), L("None"), L("About 20–25")],
+            q: L("Roughly how many calves a year can IVF-ET produce from one elite cow?", "ఒక శ్రేష్ఠమైన ఆవు నుండి IVF-ET సంవత్సరానికి సుమారు ఎన్ని దూడలను ఇవ్వగలదు?"),
+            options: [L("Exactly 1", "సరిగ్గా 1"), L("About 200", "సుమారు 200"), L("None", "ఏదీ లేదు"), L("About 20–25", "సుమారు 20–25")],
             answer: 3,
-            explain: L("OPU-IVEP-ET can produce about 20–25 calves a year from one elite female, compared with about one normally."),
+            explain: L("OPU-IVEP-ET can produce about 20–25 calves a year from one elite female, compared with about one normally.", "OPU-IVEP-ET ఒక శ్రేష్ఠమైన ఆడ పశువు నుండి సంవత్సరానికి సుమారు 20–25 దూడలను ఇవ్వగలదు, సాధారణంగా సుమారు ఒకటి వస్తుంది."),
           },
           {
             type: "truefalse",
-            q: L("Embryo transfer should be used instead of AI to get ordinary cows pregnant."),
+            q: L("Embryo transfer should be used instead of AI to get ordinary cows pregnant.", "సాధారణ ఆవులకు చూడి కట్టించడానికి AIకి బదులు పిండ మార్పిడి వాడాలి."),
             answer: false,
-            explain: L("No — ET is not an alternative to AI. It is used to multiply the genetics of elite animals."),
+            explain: L("No — ET is not an alternative to AI. It is used to multiply the genetics of elite animals.", "కాదు — ET, AIకి ప్రత్యామ్నాయం కాదు. ఇది శ్రేష్ఠమైన పశువుల జన్యువులను పెంచడానికి వాడతారు."),
           },
         ],
       },
       {
         id: "t-m12-better-bulls",
-        title: L("Better Bulls: Progeny Testing, Pedigree and Genomic Selection"),
+        title: L("Better Bulls: Progeny Testing, Pedigree and Genomic Selection", "మెరుగైన ఆబోతులు: ప్రొజెనీ టెస్టింగ్, వంశావళి, జీనోమిక్ ఎంపిక"),
         teach: [
           {
             type: "glossary",
-            term: L("Breeding Value (BV)"),
-            meaning: L(
-              "A number showing what a bull (or cow) passes on to its offspring. Each parent passes half its genes, so a bull with a BV of +100 litres has daughters producing on average about 50 litres more milk per lactation than the population average; a BV of −200 means about 100 litres less."
-            ),
+            term: L("Breeding Value (BV)", "బ్రీడింగ్ విలువ (BV)"),
+            meaning: L("A number showing what a bull (or cow) passes on to its offspring. Each parent passes half its genes, so a bull with a BV of +100 litres has daughters producing on average about 50 litres more milk per lactation than the population average; a BV of −200 means about 100 litres less.", "ఒక ఆబోతు (లేదా ఆవు) తన సంతానానికి ఏమి అందిస్తుందో చూపే సంఖ్య. ప్రతి తల్లి/తండ్రి తమ జన్యువుల్లో సగం అందిస్తారు, కాబట్టి +100 లీటర్ల BV ఉన్న ఆబోతు కూతుళ్ళు సగటు కంటే ఒక్కో ఈతకు సుమారు 50 లీటర్లు ఎక్కువ పాలు ఇస్తాయి; −200 BV అంటే సుమారు 100 లీటర్లు తక్కువ."),
           },
           {
             type: "stat-grid",
             items: [
               {
-                label: L("Progeny Testing (PT)"),
-                text: L(
-                  "Young bulls are judged by their daughters' actual milk records. Each test bull's semen is used for at least 2,000 test AIs; daughters are milk-recorded monthly; with 80–100 daughters' records per bull, breeding values are calculated, and only the top 1–10% of bulls are used to breed the next generation."
-                ),
+                label: L("Progeny Testing (PT)", "ప్రొజెనీ టెస్టింగ్ (PT)"),
+                text: L("Young bulls are judged by their daughters' actual milk records. Each test bull's semen is used for at least 2,000 test AIs; daughters are milk-recorded monthly; with 80–100 daughters' records per bull, breeding values are calculated, and only the top 1–10% of bulls are used to breed the next generation.", "యువ ఆబోతులను వాటి కూతుళ్ళ నిజమైన పాల రికార్డుల ఆధారంగా అంచనా వేస్తారు. ప్రతి పరీక్ష ఆబోతు వీర్యాన్ని కనీసం 2,000 పరీక్ష AIలకు వాడతారు; కూతుళ్ళ పాలను నెలవారీ నమోదు చేస్తారు; ఒక్కో ఆబోతుకు 80–100 కూతుళ్ళ రికార్డులతో బ్రీడింగ్ విలువలు లెక్కిస్తారు, ఉత్తమమైన 1–10% ఆబోతులను మాత్రమే తర్వాతి తరం కోసం వాడతారు."),
               },
               {
-                label: L("Pedigree Selection (PS)"),
-                text: L(
-                  "Used where AI is limited: bulls are selected on the records of their parents and grandparents. About 20–40 'multiplier villages' with the best animals of a breed are milk-recorded to produce the next bulls."
-                ),
+                label: L("Pedigree Selection (PS)", "వంశావళి ఎంపిక (PS)"),
+                text: L("Used where AI is limited: bulls are selected on the records of their parents and grandparents. About 20–40 'multiplier villages' with the best animals of a breed are milk-recorded to produce the next bulls.", "AI తక్కువగా ఉన్న చోట వాడతారు: ఆబోతులను వాటి తల్లిదండ్రులు, తాతముత్తాతల రికార్డుల ఆధారంగా ఎంచుకుంటారు. ఒక జాతికి చెందిన ఉత్తమ పశువులు ఉన్న సుమారు 20–40 'మల్టిప్లయర్ గ్రామాల్లో' పాలను నమోదు చేసి తర్వాతి ఆబోతులను తయారు చేస్తారు."),
               },
               {
-                label: L("Genomic Selection (GS)"),
-                text: L(
-                  "An animal's DNA is read using thousands of genetic markers (SNPs) to predict its genetic worth at a very young age — even as a calf. NDDB has developed the INDUSCHIP for indigenous cattle and their crosses, and the BUFFCHIP for buffaloes."
-                ),
+                label: L("Genomic Selection (GS)", "జీనోమిక్ ఎంపిక (GS)"),
+                text: L("An animal's DNA is read using thousands of genetic markers (SNPs) to predict its genetic worth at a very young age — even as a calf. NDDB has developed the INDUSCHIP for indigenous cattle and their crosses, and the BUFFCHIP for buffaloes.", "వేలాది జన్యు గుర్తులు (SNPs) వాడి పశువు DNAను చదివి, చాలా చిన్న వయసులోనే — దూడగా ఉన్నప్పుడే — దాని జన్యు విలువను అంచనా వేస్తారు. దేశీ పశువులు, వాటి సంకరాల కోసం INDUSCHIP, గేదెల కోసం BUFFCHIPను NDDB అభివృద్ధి చేసింది."),
               },
             ],
           },
           {
             type: "text",
-            heading: L("What Genomics Means for a Farmer"),
-            html: L(
-              "A farmer can get an animal genotyped on payment through NDDB CALF Ltd by sending 4–6 ml of the animal's blood in an EDTA (violet-cap) tube, kept cool, with the required forms. The farmer then receives the animal's <b>Genomic Breeding Value</b> and breed-purity status — currently for Sahiwal, Gir, HF crossbred and Jersey crossbred cattle, and Murrah and Mehsana buffaloes. This lets a farmer pick the best young animals early and avoid spending years raising poor producers."
-            ),
+            heading: L("What Genomics Means for a Farmer", "జీనోమిక్స్ రైతుకు ఏమిటి అర్థం"),
+            html: L("A farmer can get an animal genotyped on payment through NDDB CALF Ltd by sending 4–6 ml of the animal's blood in an EDTA (violet-cap) tube, kept cool, with the required forms. The farmer then receives the animal's <b>Genomic Breeding Value</b> and breed-purity status — currently for Sahiwal, Gir, HF crossbred and Jersey crossbred cattle, and Murrah and Mehsana buffaloes. This lets a farmer pick the best young animals early and avoid spending years raising poor producers.", "రైతు NDDB CALF Ltd ద్వారా రుసుము చెల్లించి, పశువు రక్తం 4–6 మి.లీ. EDTA (ఊదా రంగు మూత) ట్యూబ్‌లో, చల్లగా ఉంచి, కావలసిన ఫారాలతో పంపి పశువుకు జెనోటైపింగ్ చేయించవచ్చు. తర్వాత రైతుకు పశువు <b>జీనోమిక్ బ్రీడింగ్ విలువ</b>, జాతి స్వచ్ఛత స్థితి అందుతాయి — ప్రస్తుతం సాహివాల్, గిర్, HF సంకర, జెర్సీ సంకర ఆవులు, ముర్రా, మెహసానా గేదెలకు. దీనివల్ల రైతు ఉత్తమమైన చిన్న పశువులను ముందుగానే ఎంచుకుని, తక్కువ ఉత్పత్తి చేసే వాటిని సంవత్సరాల తరబడి పెంచే ఖర్చు తప్పించుకోవచ్చు."),
           },
           {
             type: "callout",
             style: "tip",
-            heading: L("Questions a Farmer Has a Right to Ask the AI Technician"),
-            text: L(
-              "Each state has a notified breeding policy saying which breeds and exotic blood levels suit its conditions. Semen must come from A- or B-grade stations and be carried in a liquid nitrogen container (cryocan) at −196°C — never any other container. Farmers should ask the breed, exotic blood level, pedigree and breeding value of the bull before AI, and the technician should carry a sire directory listing every bull's pedigree."
-            ),
+            heading: L("Questions a Farmer Has a Right to Ask the AI Technician", "AI టెక్నీషియన్‌ను అడిగే హక్కు రైతుకు ఉన్న ప్రశ్నలు"),
+            text: L("Each state has a notified breeding policy saying which breeds and exotic blood levels suit its conditions. Semen must come from A- or B-grade stations and be carried in a liquid nitrogen container (cryocan) at −196°C — never any other container. Farmers should ask the breed, exotic blood level, pedigree and breeding value of the bull before AI, and the technician should carry a sire directory listing every bull's pedigree.", "ప్రతి రాష్ట్రానికి ఏ జాతులు, ఏ విదేశీ రక్త స్థాయిలు తన పరిస్థితులకు సరిపోతాయో చెప్పే ప్రకటిత సంతానోత్పత్తి విధానం ఉంటుంది. వీర్యం A- లేదా B-గ్రేడ్ కేంద్రాల నుండి రావాలి, −196°C వద్ద లిక్విడ్ నైట్రోజన్ డబ్బా (క్రయోకాన్)లో తీసుకురావాలి — వేరే ఏ డబ్బాలోనూ కాదు. AIకి ముందు రైతులు ఆబోతు జాతి, విదేశీ రక్త స్థాయి, వంశావళి, బ్రీడింగ్ విలువ అడగాలి, టెక్నీషియన్ దగ్గర ప్రతి ఆబోతు వంశావళి ఉన్న సైర్ డైరెక్టరీ ఉండాలి."),
           },
           {
             type: "callout",
             style: "info",
-            heading: L("Why Milk Recording Helps the Farmer Directly"),
-            text: L(
-              "Recording each lactation shows how one animal compares with others in the herd and village. That helps the farmer decide whether to keep or cull a cow, or to use her as an elite mother — with sexed semen, or as an embryo donor."
-            ),
+            heading: L("Why Milk Recording Helps the Farmer Directly", "పాల నమోదు రైతుకు నేరుగా ఎందుకు సహాయపడుతుంది"),
+            text: L("Recording each lactation shows how one animal compares with others in the herd and village. That helps the farmer decide whether to keep or cull a cow, or to use her as an elite mother — with sexed semen, or as an embryo donor.", "ప్రతి ఈతను నమోదు చేస్తే ఒక పశువు మందలో, గ్రామంలో ఇతరులతో ఎలా పోలుస్తుందో తెలుస్తుంది. ఆవును ఉంచుకోవాలా, తొలగించాలా, లేదా శ్రేష్ఠమైన తల్లిగా — సెక్స్‌డ్ సెమెన్‌తో, లేదా పిండ దాతగా — వాడాలా అని నిర్ణయించడానికి ఇది రైతుకు సహాయపడుతుంది."),
           },
         ],
         check: [
           {
             type: "mcq",
-            q: L("A bull has a breeding value of +100 litres. On average, how much more milk would his daughters give than the population average?"),
-            options: [L("About 100 litres"), L("About 200 litres"), L("No difference"), L("About 50 litres")],
+            q: L("A bull has a breeding value of +100 litres. On average, how much more milk would his daughters give than the population average?", "ఒక ఆబోతు బ్రీడింగ్ విలువ +100 లీటర్లు. సగటున, అతని కూతుళ్ళు సాధారణ సగటు కంటే ఎంత ఎక్కువ పాలు ఇస్తాయి?"),
+            options: [L("About 100 litres", "సుమారు 100 లీటర్లు"), L("About 200 litres", "సుమారు 200 లీటర్లు"), L("No difference", "తేడా లేదు"), L("About 50 litres", "సుమారు 50 లీటర్లు")],
             answer: 3,
-            explain: L("Each parent passes on half its genes, so a +100 BV bull's daughters produce about 100 ÷ 2 = 50 litres more on average."),
+            explain: L("Each parent passes on half its genes, so a +100 BV bull's daughters produce about 100 ÷ 2 = 50 litres more on average.", "ప్రతి తల్లి/తండ్రి తమ జన్యువుల్లో సగం అందిస్తారు, కాబట్టి +100 BV ఆబోతు కూతుళ్ళు సగటున సుమారు 100 ÷ 2 = 50 లీటర్లు ఎక్కువ ఇస్తాయి."),
           },
           {
             type: "truefalse",
-            q: L("Frozen semen should always be carried in a liquid nitrogen container (cryocan) at −196°C."),
+            q: L("Frozen semen should always be carried in a liquid nitrogen container (cryocan) at −196°C.", "ఘనీభవించిన వీర్యాన్ని ఎప్పుడూ −196°C వద్ద లిక్విడ్ నైట్రోజన్ డబ్బా (క్రయోకాన్)లో తీసుకురావాలి."),
             answer: true,
-            explain: L("Correct — semen doses must be carried in a cryocan at −196°C, not in any other container."),
+            explain: L("Correct — semen doses must be carried in a cryocan at −196°C, not in any other container.", "సరైనది — వీర్యం డోసులను −196°C వద్ద క్రయోకాన్‌లోనే తీసుకురావాలి, వేరే ఏ డబ్బాలోనూ కాదు."),
           },
         ],
       },
@@ -13768,58 +13640,58 @@ export const MODULES = [
         {
           topicId: "t-m12-sexed-semen",
           type: "mcq",
-          q: L("How can a farmer recognise a sexed semen straw?"),
+          q: L("How can a farmer recognise a sexed semen straw?", "సెక్స్‌డ్ సెమెన్ స్ట్రాను రైతు ఎలా గుర్తించగలరు?"),
           options: [
-            L("A bright red glass bottle"),
-            L("It looks exactly like ordinary milk"),
-            L("There is no way to tell"),
-            L("A white French mini straw with a coloured cotton plug"),
+            L("A bright red glass bottle", "ప్రకాశవంతమైన ఎర్రటి గాజు సీసా"),
+            L("It looks exactly like ordinary milk", "అది సాధారణ పాలలాగే కనిపిస్తుంది"),
+            L("There is no way to tell", "గుర్తించే మార్గం లేదు"),
+            L("A white French mini straw with a coloured cotton plug", "రంగు దూది మూతతో తెల్లటి ఫ్రెంచ్ మినీ స్ట్రా"),
           ],
           answer: 3,
-          explain: L("Sexed semen doses are packed in white French mini straws with a coloured cotton plug."),
+          explain: L("Sexed semen doses are packed in white French mini straws with a coloured cotton plug.", "సెక్స్‌డ్ సెమెన్ డోసులను రంగు దూది మూతతో తెల్లటి ఫ్రెంచ్ మినీ స్ట్రాలలో ప్యాక్ చేస్తారు."),
         },
         {
           topicId: "t-m12-sexed-semen",
           type: "truefalse",
-          q: L("Because female calves cause fewer difficult births, sexed semen is especially useful for first-time heifers."),
+          q: L("Because female calves cause fewer difficult births, sexed semen is especially useful for first-time heifers.", "ఆడ దూడల వల్ల కష్టమైన ఈతలు తక్కువ కాబట్టి, సెక్స్‌డ్ సెమెన్ మొదటిసారి ఈనే పెయ్యలకు ప్రత్యేకంగా ఉపయోగకరం."),
           answer: true,
-          explain: L("Yes — fewer difficult births (dystocia) is one of the benefits, particularly for maiden heifers."),
+          explain: L("Yes — fewer difficult births (dystocia) is one of the benefits, particularly for maiden heifers.", "అవును — కష్టమైన ఈతలు (డిస్టోసియా) తక్కువగా ఉండడం దీని ప్రయోజనాల్లో ఒకటి, ముఖ్యంగా తొలి పెయ్యలకు."),
         },
         {
           topicId: "t-m12-ivf-et",
           type: "mcq",
-          q: L("In IVF-ET, which animal carries the calf through pregnancy?"),
-          options: [L("The elite donor cow only"), L("An ordinary recipient (surrogate) cow"), L("A bull"), L("No animal — it grows in the laboratory until birth")],
+          q: L("In IVF-ET, which animal carries the calf through pregnancy?", "IVF-ETలో, ఏ పశువు చూడి కాలమంతా దూడను మోస్తుంది?"),
+          options: [L("The elite donor cow only", "శ్రేష్ఠమైన దాత ఆవు మాత్రమే"), L("An ordinary recipient (surrogate) cow", "సాధారణ గ్రహీత (అద్దె తల్లి) ఆవు"), L("A bull", "ఆబోతు"), L("No animal — it grows in the laboratory until birth", "ఏ పశువూ కాదు — అది పుట్టే వరకు ప్రయోగశాలలోనే పెరుగుతుంది")],
           answer: 1,
-          explain: L("Embryos from the elite donor are transferred into ordinary recipient cows, which carry them to full term."),
+          explain: L("Embryos from the elite donor are transferred into ordinary recipient cows, which carry them to full term.", "శ్రేష్ఠమైన దాత పిండాలను సాధారణ గ్రహీత ఆవుల్లోకి మార్చుతారు, అవి పూర్తి కాలం మోస్తాయి."),
         },
         {
           topicId: "t-m12-better-bulls",
           type: "mcq",
-          q: L("In Progeny Testing, a bull is judged mainly by:"),
-          options: [L("His colour"), L("His daughters' actual milk performance"), L("His weight at birth"), L("His price")],
+          q: L("In Progeny Testing, a bull is judged mainly by:", "ప్రొజెనీ టెస్టింగ్‌లో, ఆబోతును ప్రధానంగా దేని ఆధారంగా అంచనా వేస్తారు:"),
+          options: [L("His colour", "దాని రంగు"), L("His daughters' actual milk performance", "దాని కూతుళ్ళ నిజమైన పాల పనితీరు"), L("His weight at birth", "పుట్టినప్పుడు దాని బరువు"), L("His price", "దాని ధర")],
           answer: 1,
-          explain: L("Progeny testing evaluates bulls on the basis of their daughters' performance — the most reliable approach to genetic improvement."),
+          explain: L("Progeny testing evaluates bulls on the basis of their daughters' performance — the most reliable approach to genetic improvement.", "ప్రొజెనీ టెస్టింగ్ ఆబోతులను వాటి కూతుళ్ళ పనితీరు ఆధారంగా అంచనా వేస్తుంది — జన్యు అభివృద్ధికి అత్యంత నమ్మదగిన పద్ధతి."),
         },
         {
           topicId: "t-m12-better-bulls",
           type: "truefalse",
-          q: L("Genomic selection can estimate an animal's genetic worth while it is still very young."),
+          q: L("Genomic selection can estimate an animal's genetic worth while it is still very young.", "పశువు చాలా చిన్నగా ఉన్నప్పుడే జీనోమిక్ ఎంపిక దాని జన్యు విలువను అంచనా వేయగలదు."),
           answer: true,
-          explain: L("Correct — using DNA markers, genomic selection predicts genetic merit early, shortening the generation interval."),
+          explain: L("Correct — using DNA markers, genomic selection predicts genetic merit early, shortening the generation interval.", "సరైనది — DNA గుర్తులు వాడి, జీనోమిక్ ఎంపిక జన్యు విలువను ముందుగానే అంచనా వేస్తుంది, తరాల మధ్య కాలాన్ని తగ్గిస్తుంది."),
         },
         {
           topicId: "t-m12-better-bulls",
           type: "mcq",
-          q: L("What does a state breeding policy tell farmers?"),
+          q: L("What does a state breeding policy tell farmers?", "రాష్ట్ర సంతానోత్పత్తి విధానం రైతులకు ఏమి చెబుతుంది?"),
           options: [
-            L("What price to sell milk at"),
-            L("Which vaccine to buy"),
-            L("How to build a shed"),
-            L("Which breeds and exotic blood levels best suit that state's conditions"),
+            L("What price to sell milk at", "పాలను ఏ ధరకు అమ్మాలో"),
+            L("Which vaccine to buy", "ఏ టీకా కొనాలో"),
+            L("How to build a shed", "షెడ్ ఎలా కట్టాలో"),
+            L("Which breeds and exotic blood levels best suit that state's conditions", "ఆ రాష్ట్ర పరిస్థితులకు ఏ జాతులు, ఏ విదేశీ రక్త స్థాయిలు బాగా సరిపోతాయో"),
           ],
           answer: 3,
-          explain: L("Each state's breeding policy guides which breeds or exotic blood levels suit its agro-climate, avoiding indiscriminate breeding and conserving indigenous breeds."),
+          explain: L("Each state's breeding policy guides which breeds or exotic blood levels suit its agro-climate, avoiding indiscriminate breeding and conserving indigenous breeds.", "ప్రతి రాష్ట్ర సంతానోత్పత్తి విధానం దాని వ్యవసాయ-వాతావరణానికి ఏ జాతులు లేదా విదేశీ రక్త స్థాయిలు సరిపోతాయో మార్గదర్శనం చేస్తుంది, ఇష్టారాజ్యంగా సంతానోత్పత్తిని నివారించి దేశీ జాతులను కాపాడుతుంది."),
         },
       ],
     },
@@ -16166,7 +16038,7 @@ export const MODULES = [
             type: "callout",
             style: "info",
             heading: L("A Programme (and an App) Built to Fix This", "దీన్ని సరిచేయడానికి ఒక కార్యక్రమం (ఒక యాప్)", "இதைச் சரிசெய்ய ஒரு திட்டம் (ஒரு செயலி)", "ಇದನ್ನು ಸರಿಪಡಿಸಲು ಒಂದು ಕಾರ್ಯಕ್ರಮ (ಮತ್ತು ಒಂದು ಆ್ಯಪ್)", "इसे ठीक करने के लिए एक कार्यक्रम (और एक ऐप)"),
-            text: L("The Ration Balancing Programme (RBP) uses user-friendly software developed by NDDB to work out a properly balanced, least-cost ration using whatever feed is locally available. It can be used with help from a trained local resource person, or directly by farmers through NDDB's '1962' app on the Google Play Store. When buying cattle feed, always choose BIS-certified (BIS-marked) feed."),
+            text: L("The Ration Balancing Programme (RBP) uses user-friendly software developed by NDDB to work out a properly balanced, least-cost ration using whatever feed is locally available. It can be used with help from a trained local resource person, or directly by farmers through NDDB's '1962' app on the Google Play Store. When buying cattle feed, always choose BIS-certified (BIS-marked) feed.", "రేషన్ బ్యాలెన్సింగ్ ప్రోగ్రామ్ (RBP) స్థానికంగా దొరికే దాణాతో సరైన సమతుల్యమైన, తక్కువ ఖర్చు రేషన్‌ను లెక్కించడానికి NDDB అభివృద్ధి చేసిన సులభంగా వాడగల సాఫ్ట్‌వేర్‌ను ఉపయోగిస్తుంది. దీన్ని శిక్షణ పొందిన స్థానిక రిసోర్స్ పర్సన్ సహాయంతో, లేదా Google Play Storeలోని NDDB '1962' యాప్ ద్వారా రైతులు నేరుగా వాడవచ్చు. పశుదాణా కొనేటప్పుడు ఎప్పుడూ BIS-సర్టిఫైడ్ (BIS గుర్తు ఉన్న) దాణానే ఎంచుకోండి."),
           },
           {
             type: "stat-grid",
@@ -16259,7 +16131,7 @@ export const MODULES = [
             L("Increase the size of the herd", "మంద పరిమాణాన్ని పెంచడం", "மந்தையின் எண்ணிக்கையை அதிகரிப்பது", "ಹಿಂಡಿನ ಗಾತ್ರವನ್ನು ಹೆಚ್ಚಿಸುವುದು", "पशुओं की संख्या बढ़ाना"),
           ],
           answer: 1,
-          explain: L("RBP uses NDDB's software (also in the '1962' app) to balance a ration using locally available feed, at least cost."),
+          explain: L("RBP uses NDDB's software (also in the '1962' app) to balance a ration using locally available feed, at least cost.", "RBP స్థానికంగా దొరికే దాణాతో, తక్కువ ఖర్చుతో రేషన్‌ను సమతుల్యం చేయడానికి NDDB సాఫ్ట్‌వేర్ (ఇది '1962' యాప్‌లో కూడా ఉంది) వాడుతుంది."),
         },
         {
           topicId: "t-m14-feed-types",
@@ -16831,203 +16703,175 @@ export const MODULES = [
   // ==================================================================
   {
     id: "m14-l4",
-    title: L("Feeding Through the Lactation Cycle"),
+    title: L("Feeding Through the Lactation Cycle", "పాలిచ్చే కాలమంతా దాణా"),
     estMinutes: 10,
     hook: [
       {
         type: "hero",
-        heading: L("A Cow's Needs Change Every Few Months — Her Ration Should Too"),
-        text: L(
-          "A cow that calved two weeks ago, one that calved six months ago, and one that is about to go dry are almost three different animals when it comes to feeding. Feeding them all the same wastes money on some and starves others. This lesson walks through the cycle — early, mid and late lactation, the dry period, and growing heifers — and what changes at each step."
-        ),
+        heading: L("A Cow's Needs Change Every Few Months — Her Ration Should Too", "ఆవు అవసరాలు కొన్ని నెలలకోసారి మారుతాయి — ఆమె రేషన్ కూడా మారాలి"),
+        text: L("A cow that calved two weeks ago, one that calved six months ago, and one that is about to go dry are almost three different animals when it comes to feeding. Feeding them all the same wastes money on some and starves others. This lesson walks through the cycle — early, mid and late lactation, the dry period, and growing heifers — and what changes at each step.", "రెండు వారాల క్రితం ఈనిన ఆవు, ఆరు నెలల క్రితం ఈనిన ఆవు, పాలు ఆగిపోబోతున్న ఆవు — దాణా విషయంలో దాదాపు మూడు వేర్వేరు పశువులు. అన్నింటికీ ఒకేలా పెడితే కొన్నింటిపై డబ్బు వృథా అవుతుంది, కొన్ని ఆకలితో ఉంటాయి. ఈ పాఠం ఈ చక్రాన్ని వివరిస్తుంది — తొలి, మధ్య, చివరి పాలిచ్చే దశ, విశ్రాంతి కాలం, పెరుగుతున్న పెయ్యలు — ప్రతి దశలో ఏమి మారుతుందో."),
       },
     ],
     topics: [
       {
         id: "t-m14-lactation-stages",
-        title: L("Early, Mid and Late Lactation"),
+        title: L("Early, Mid and Late Lactation", "తొలి, మధ్య, చివరి పాలిచ్చే దశ"),
         teach: [
           {
             type: "glossary",
-            term: L("Lactation"),
-            meaning: L(
-              "The period during which an animal gives milk after calving — usually counted as about 305 days. It is divided into early (first 100 days), mid (100–200 days) and late (200–305 days) lactation."
-            ),
+            term: L("Lactation", "పాలిచ్చే కాలం (లాక్టేషన్)"),
+            meaning: L("The period during which an animal gives milk after calving — usually counted as about 305 days. It is divided into early (first 100 days), mid (100–200 days) and late (200–305 days) lactation.", "ఈనిన తర్వాత పశువు పాలిచ్చే కాలం — సాధారణంగా సుమారు 305 రోజులుగా లెక్కిస్తారు. దీన్ని తొలి (మొదటి 100 రోజులు), మధ్య (100–200 రోజులు), చివరి (200–305 రోజులు) దశలుగా విభజిస్తారు."),
           },
           {
             type: "glossary",
-            term: L("Negative Energy Balance"),
-            meaning: L(
-              "When a cow uses more energy to make milk than she gets from her feed, so she 'eats her own body' — burning body fat and losing weight. It is common in early lactation and can lead to metabolic diseases and delayed return to heat."
-            ),
+            term: L("Negative Energy Balance", "నెగటివ్ ఎనర్జీ బ్యాలెన్స్ (శక్తి లోటు)"),
+            meaning: L("When a cow uses more energy to make milk than she gets from her feed, so she 'eats her own body' — burning body fat and losing weight. It is common in early lactation and can lead to metabolic diseases and delayed return to heat.", "ఆవు తన దాణా నుండి పొందే దానికంటే ఎక్కువ శక్తిని పాల తయారీకి వాడినప్పుడు, ఆమె 'తన శరీరాన్నే తింటుంది' — శరీర కొవ్వును కరిగించి బరువు తగ్గుతుంది. ఇది తొలి పాలిచ్చే దశలో సాధారణం, జీవక్రియ వ్యాధులకు, ఎదకు ఆలస్యంగా రావడానికి దారితీయవచ్చు."),
           },
           {
             type: "stat-grid",
             items: [
               {
-                label: L("Early lactation (0–100 days)"),
-                text: L(
-                  "Milk rises fast to its peak. Roughage to concentrate about 50:50, with more grain and protein in the concentrate. Bypass fat 100–150 g a day, mineral mixture 100–150 g (up to 200 g in high yielders), and a buffer such as sodium bicarbonate to prevent acidosis."
-                ),
+                label: L("Early lactation (0–100 days)", "తొలి దశ (0–100 రోజులు)"),
+                text: L("Milk rises fast to its peak. Roughage to concentrate about 50:50, with more grain and protein in the concentrate. Bypass fat 100–150 g a day, mineral mixture 100–150 g (up to 200 g in high yielders), and a buffer such as sodium bicarbonate to prevent acidosis.", "పాలు వేగంగా గరిష్ఠ స్థాయికి పెరుగుతాయి. పీచు మేత, దాణా సుమారు 50:50, దాణాలో ఎక్కువ ధాన్యం, ప్రోటీన్. బైపాస్ ఫ్యాట్ రోజుకు 100–150 గ్రా., ఖనిజ మిశ్రమం 100–150 గ్రా. (ఎక్కువ పాలిచ్చే వాటికి 200 గ్రా. వరకు), అసిడోసిస్ నివారణకు సోడియం బైకార్బొనేట్ వంటి బఫర్."),
               },
               {
-                label: L("Mid lactation (100–200 days)"),
-                text: L(
-                  "Milk levels off and the cow rebuilds the body weight she lost. Roughage to concentrate about 60:40. Some grain can be replaced with good bran; bypass fat and buffers can usually be stopped. Mineral mixture about 50–100 g as per yield."
-                ),
+                label: L("Mid lactation (100–200 days)", "మధ్య దశ (100–200 రోజులు)"),
+                text: L("Milk levels off and the cow rebuilds the body weight she lost. Roughage to concentrate about 60:40. Some grain can be replaced with good bran; bypass fat and buffers can usually be stopped. Mineral mixture about 50–100 g as per yield.", "పాలు స్థిరపడతాయి, ఆవు కోల్పోయిన శరీర బరువును తిరిగి పెంచుకుంటుంది. పీచు మేత, దాణా సుమారు 60:40. కొంత ధాన్యం బదులు మంచి తవుడు వాడవచ్చు; బైపాస్ ఫ్యాట్, బఫర్లను సాధారణంగా ఆపవచ్చు. దిగుబడిని బట్టి ఖనిజ మిశ్రమం సుమారు 50–100 గ్రా."),
               },
               {
-                label: L("Late lactation (200–305 days)"),
-                text: L(
-                  "Milk falls steadily. Roughage up to 70%, concentrate down to 30%, using cheaper local ingredients. The aim is to avoid over-feeding — a cow that gets too fat now will have trouble at her next calving."
-                ),
+                label: L("Late lactation (200–305 days)", "చివరి దశ (200–305 రోజులు)"),
+                text: L("Milk falls steadily. Roughage up to 70%, concentrate down to 30%, using cheaper local ingredients. The aim is to avoid over-feeding — a cow that gets too fat now will have trouble at her next calving.", "పాలు క్రమంగా తగ్గుతాయి. పీచు మేత 70% వరకు, దాణా 30%కి తగ్గించి, చౌకైన స్థానిక పదార్థాలు వాడండి. ఎక్కువగా మేపకుండా ఉండడమే లక్ష్యం — ఇప్పుడు ఎక్కువ లావైన ఆవుకు తర్వాతి ఈతలో ఇబ్బంది వస్తుంది."),
               },
             ],
           },
           {
             type: "example",
-            heading: L("Challenge Feeding: Asking the Cow 'Can You Give More?'"),
-            text: L(
-              "In early lactation, the handbook advises offering about 0.5 kg of cattle feed above what the cow's current milk yield needs. If her milk goes up over the next days, she had more potential — keep the extra and try again. If her milk stays the same, she has reached her limit and the extra can be removed. This is called challenge feeding."
-            ),
+            heading: L("Challenge Feeding: Asking the Cow 'Can You Give More?'", "ఛాలెంజ్ ఫీడింగ్: 'ఇంకా ఎక్కువ ఇవ్వగలవా?' అని ఆవును అడగడం"),
+            text: L("In early lactation, the handbook advises offering about 0.5 kg of cattle feed above what the cow's current milk yield needs. If her milk goes up over the next days, she had more potential — keep the extra and try again. If her milk stays the same, she has reached her limit and the extra can be removed. This is called challenge feeding.", "తొలి పాలిచ్చే దశలో, ఆవు ప్రస్తుత పాల దిగుబడికి అవసరమైన దానికంటే సుమారు 0.5 కిలోల పశుదాణా ఎక్కువ ఇవ్వమని హ్యాండ్‌బుక్ సలహా ఇస్తుంది. తర్వాతి రోజుల్లో పాలు పెరిగితే, ఆమెకు ఇంకా సామర్థ్యం ఉంది — అదనపు దాణా కొనసాగించి మళ్ళీ ప్రయత్నించండి. పాలు అలాగే ఉంటే, ఆమె పరిమితికి చేరుకుంది, అదనపు దాణా తీసివేయవచ్చు. దీన్ని ఛాలెంజ్ ఫీడింగ్ అంటారు."),
           },
           {
             type: "callout",
             style: "warning",
-            heading: L("Warning Signs in Early Lactation"),
-            text: L(
-              "A fresh cow should not lose more than about 0.5 kg of body weight a day. Watch for a cow that is losing condition fast, eating poorly, has loose dung, or stops chewing cud — these can point to negative energy balance, ketosis or acidosis. Report such animals early."
-            ),
+            heading: L("Warning Signs in Early Lactation", "తొలి పాలిచ్చే దశలో హెచ్చరిక సంకేతాలు"),
+            text: L("A fresh cow should not lose more than about 0.5 kg of body weight a day. Watch for a cow that is losing condition fast, eating poorly, has loose dung, or stops chewing cud — these can point to negative energy balance, ketosis or acidosis. Report such animals early.", "కొత్తగా ఈనిన ఆవు రోజుకు సుమారు 0.5 కిలోల కంటే ఎక్కువ శరీర బరువు కోల్పోకూడదు. వేగంగా బక్కచిక్కుతున్న, సరిగా తినని, పలుచటి పేడ వేస్తున్న, నెమరు వేయడం ఆపేసిన ఆవును గమనించండి — ఇవి శక్తి లోటు, కీటోసిస్ లేదా అసిడోసిస్‌ను సూచించవచ్చు. అలాంటి పశువుల గురించి ముందుగానే తెలియజేయండి."),
           },
         ],
         check: [
           {
             type: "mcq",
-            q: L("In early lactation, roughly what roughage-to-concentrate ratio does the handbook recommend?"),
-            options: [L("90:10"), L("50:50"), L("10:90"), L("100:0 — roughage only")],
+            q: L("In early lactation, roughly what roughage-to-concentrate ratio does the handbook recommend?", "తొలి పాలిచ్చే దశలో, హ్యాండ్‌బుక్ సుమారు ఏ పీచు మేత-దాణా నిష్పత్తిని సిఫార్సు చేస్తుంది?"),
+            options: [L("90:10"), L("50:50"), L("10:90"), L("100:0 — roughage only", "100:0 — పీచు మేత మాత్రమే")],
             answer: 1,
-            explain: L("Early lactation needs a dense ration: about 50:50 roughage to concentrate. It moves to 60:40 in mid lactation and about 70:30 in late lactation."),
+            explain: L("Early lactation needs a dense ration: about 50:50 roughage to concentrate. It moves to 60:40 in mid lactation and about 70:30 in late lactation.", "తొలి దశకు సాంద్రమైన రేషన్ అవసరం: పీచు మేత, దాణా సుమారు 50:50. మధ్య దశలో 60:40కి, చివరి దశలో సుమారు 70:30కి మారుతుంది."),
           },
           {
             type: "truefalse",
-            q: L("Challenge feeding means offering about 0.5 kg extra cattle feed in early lactation to see if the cow's milk goes up."),
+            q: L("Challenge feeding means offering about 0.5 kg extra cattle feed in early lactation to see if the cow's milk goes up.", "ఛాలెంజ్ ఫీడింగ్ అంటే తొలి పాలిచ్చే దశలో ఆవు పాలు పెరుగుతాయో లేదో చూడడానికి సుమారు 0.5 కిలోల పశుదాణా అదనంగా ఇవ్వడం."),
             answer: true,
-            explain: L("Correct — if milk rises, the cow had more potential; if not, the extra feed can be withdrawn."),
+            explain: L("Correct — if milk rises, the cow had more potential; if not, the extra feed can be withdrawn.", "సరైనది — పాలు పెరిగితే ఆవుకు ఇంకా సామర్థ్యం ఉంది; లేకపోతే అదనపు దాణా తీసివేయవచ్చు."),
           },
         ],
       },
       {
         id: "t-m14-dry-transition",
-        title: L("The Dry Period and the Weeks Around Calving"),
+        title: L("The Dry Period and the Weeks Around Calving", "విశ్రాంతి కాలం, ఈత చుట్టూ ఉన్న వారాలు"),
         teach: [
           {
             type: "text",
-            heading: L("Preparing for the Next Lactation Starts Before Calving"),
-            html: L(
-              "A milking animal should be <b>dried off within 15 days after the 7th month of pregnancy</b>, giving her a rest before the next calving. In the <b>last 60 days</b> of pregnancy (the 'far-off dry' period) she should get <b>2.5–3 kg of pregnancy feed</b> a day, on top of good fodder. Feeding at this stage decides the calf's birth weight, how well she eats after calving, and how quickly she comes back into heat."
-            ),
+            heading: L("Preparing for the Next Lactation Starts Before Calving", "తర్వాతి పాలిచ్చే కాలానికి సిద్ధత ఈనడానికి ముందే మొదలవుతుంది"),
+            html: L("A milking animal should be <b>dried off within 15 days after the 7th month of pregnancy</b>, giving her a rest before the next calving. In the <b>last 60 days</b> of pregnancy (the 'far-off dry' period) she should get <b>2.5–3 kg of pregnancy feed</b> a day, on top of good fodder. Feeding at this stage decides the calf's birth weight, how well she eats after calving, and how quickly she comes back into heat.", "పాలిచ్చే పశువును తర్వాతి ఈతకు ముందు విశ్రాంతినివ్వడానికి <b>చూడి 7వ నెల తర్వాత 15 రోజుల్లో పాలు మాన్పించాలి</b>. చూడి <b>చివరి 60 రోజుల్లో</b> ('ఫార్-ఆఫ్ డ్రై' కాలం) మంచి మేతతో పాటు రోజుకు <b>2.5–3 కిలోల చూడి దాణా</b> ఇవ్వాలి. ఈ దశలోని దాణా దూడ పుట్టుక బరువును, ఈనిన తర్వాత ఆమె ఎంత బాగా తింటుందో, ఎంత త్వరగా మళ్ళీ ఎదకు వస్తుందో నిర్ణయిస్తుంది."),
           },
           {
             type: "glossary",
-            term: L("Transition Period"),
-            meaning: L(
-              "The six weeks from about 21 days before calving to 21 days after. It is the riskiest time in a cow's year for milk fever, ketosis, retained placenta and other problems — and feeding is the main way to prevent them."
-            ),
+            term: L("Transition Period", "ట్రాన్సిషన్ కాలం (మార్పు కాలం)"),
+            meaning: L("The six weeks from about 21 days before calving to 21 days after. It is the riskiest time in a cow's year for milk fever, ketosis, retained placenta and other problems — and feeding is the main way to prevent them.", "ఈనడానికి సుమారు 21 రోజుల ముందు నుండి 21 రోజుల తర్వాత వరకు ఉండే ఆరు వారాలు. మిల్క్ ఫీవర్, కీటోసిస్, మావి నిలిచిపోవడం వంటి సమస్యలకు ఆవు సంవత్సరంలో అత్యంత ప్రమాదకరమైన సమయం — వాటిని నివారించడానికి దాణాయే ప్రధాన మార్గం."),
           },
           {
             type: "callout",
             style: "warning",
-            heading: L("No Extra Calcium in the Last Two Weeks"),
-            text: L(
-              "It sounds backwards, but extra calcium (and, as per the handbook FAQ, the usual mineral mixture) should be stopped in the last 10–15 days before calving. This forces the cow's body to switch on its own calcium-releasing system before she needs it for milk — which reduces milk fever. After calving, mineral mixture is restarted as normal."
-            ),
+            heading: L("No Extra Calcium in the Last Two Weeks", "చివరి రెండు వారాల్లో అదనపు కాల్షియం వద్దు"),
+            text: L("It sounds backwards, but extra calcium (and, as per the handbook FAQ, the usual mineral mixture) should be stopped in the last 10–15 days before calving. This forces the cow's body to switch on its own calcium-releasing system before she needs it for milk — which reduces milk fever. After calving, mineral mixture is restarted as normal.", "వింతగా అనిపిస్తుంది, కానీ ఈనడానికి ముందు చివరి 10–15 రోజుల్లో అదనపు కాల్షియం (హ్యాండ్‌బుక్ FAQ ప్రకారం, సాధారణ ఖనిజ మిశ్రమం కూడా) ఆపేయాలి. దీనివల్ల పాలకు అవసరమయ్యే ముందే ఆవు శరీరం తన సొంత కాల్షియం విడుదల వ్యవస్థను మొదలుపెడుతుంది — మిల్క్ ఫీవర్ తగ్గుతుంది. ఈనిన తర్వాత ఖనిజ మిశ్రమం మామూలుగా మళ్ళీ మొదలుపెడతారు."),
           },
           {
             type: "stat-grid",
             items: [
-              { label: L("At calving"), text: L("Ideal BCS 3.25–3.5") },
-              { label: L("Peak lactation (60–90 days)"), text: L("Ideal BCS 2.5–3.0 — some loss is normal") },
-              { label: L("Mid lactation"), text: L("Ideal BCS 2.75–3.25") },
-              { label: L("Late lactation"), text: L("Ideal BCS 3.0–3.5") },
-              { label: L("Dry period and close to calving"), text: L("Ideal BCS 3.25–3.5") },
+              { label: L("At calving", "ఈనే సమయంలో"), text: L("Ideal BCS 3.25–3.5", "ఆదర్శ BCS 3.25–3.5") },
+              { label: L("Peak lactation (60–90 days)", "గరిష్ఠ పాల దశ (60–90 రోజులు)"), text: L("Ideal BCS 2.5–3.0 — some loss is normal", "ఆదర్శ BCS 2.5–3.0 — కొంత తగ్గడం సాధారణం") },
+              { label: L("Mid lactation", "మధ్య దశ"), text: L("Ideal BCS 2.75–3.25", "ఆదర్శ BCS 2.75–3.25") },
+              { label: L("Late lactation", "చివరి దశ"), text: L("Ideal BCS 3.0–3.5", "ఆదర్శ BCS 3.0–3.5") },
+              { label: L("Dry period and close to calving", "విశ్రాంతి కాలం, ఈనే సమయం దగ్గర"), text: L("Ideal BCS 3.25–3.5", "ఆదర్శ BCS 3.25–3.5") },
             ],
           },
           {
             type: "callout",
             style: "info",
-            heading: L("Using Body Condition Score Across the Cycle"),
-            text: L(
-              "These ideal scores (for crossbred cows, from the NDDB guideline) use the same 1–5 scale you learned in Module 1. A cow should not become too thin in early lactation or too fat at calving. Scoring at the same points every cycle tells the farmer whether the feeding plan is working."
-            ),
+            heading: L("Using Body Condition Score Across the Cycle", "చక్రమంతా బాడీ కండిషన్ స్కోర్ వాడడం"),
+            text: L("These ideal scores (for crossbred cows, from the NDDB guideline) use the same 1–5 scale you learned in Module 1. A cow should not become too thin in early lactation or too fat at calving. Scoring at the same points every cycle tells the farmer whether the feeding plan is working.", "ఈ ఆదర్శ స్కోర్లు (సంకర జాతి ఆవులకు, NDDB మార్గదర్శకం నుండి) మాడ్యూల్ 1లో మీరు నేర్చుకున్న అదే 1–5 స్కేల్‌ను వాడతాయి. తొలి పాలిచ్చే దశలో ఆవు మరీ బక్కగా, ఈనే సమయంలో మరీ లావుగా కాకూడదు. ప్రతి చక్రంలో అవే సమయాల్లో స్కోర్ చేస్తే దాణా ప్రణాళిక పనిచేస్తోందో లేదో రైతుకు తెలుస్తుంది."),
           },
         ],
         check: [
           {
             type: "mcq",
-            q: L("How much pregnancy feed does the handbook suggest daily during the last 60 days of pregnancy?"),
-            options: [L("None"), L("10–12 kg"), L("100 g"), L("2.5–3 kg")],
+            q: L("How much pregnancy feed does the handbook suggest daily during the last 60 days of pregnancy?", "చూడి చివరి 60 రోజుల్లో రోజుకు ఎంత చూడి దాణా ఇవ్వాలని హ్యాండ్‌బుక్ సూచిస్తుంది?"),
+            options: [L("None", "ఏదీ లేదు"), L("10–12 kg", "10–12 కిలోలు"), L("100 g", "100 గ్రా."), L("2.5–3 kg", "2.5–3 కిలోలు")],
             answer: 3,
-            explain: L("Pregnant animals should get 2.5–3 kg of pregnancy feed per day during the last 60 days."),
+            explain: L("Pregnant animals should get 2.5–3 kg of pregnancy feed per day during the last 60 days.", "చూడి పశువులకు చివరి 60 రోజుల్లో రోజుకు 2.5–3 కిలోల చూడి దాణా ఇవ్వాలి."),
           },
           {
             type: "truefalse",
-            q: L("Extra calcium should be given in large amounts during the last two weeks before calving to prevent milk fever."),
+            q: L("Extra calcium should be given in large amounts during the last two weeks before calving to prevent milk fever.", "మిల్క్ ఫీవర్ నివారణకు ఈనడానికి ముందు చివరి రెండు వారాల్లో అదనపు కాల్షియం ఎక్కువగా ఇవ్వాలి."),
             answer: false,
-            explain: L("No — calcium supplementation should be avoided in the last two weeks. It helps the cow's own calcium system switch on, reducing milk fever."),
+            explain: L("No — calcium supplementation should be avoided in the last two weeks. It helps the cow's own calcium system switch on, reducing milk fever.", "కాదు — చివరి రెండు వారాల్లో కాల్షియం ఇవ్వకూడదు. దీనివల్ల ఆవు సొంత కాల్షియం వ్యవస్థ మొదలై మిల్క్ ఫీవర్ తగ్గుతుంది."),
           },
         ],
       },
       {
         id: "t-m14-heifers-groups",
-        title: L("Growing Heifers, and Feeding Animals in Groups"),
+        title: L("Growing Heifers, and Feeding Animals in Groups", "పెరుగుతున్న పెయ్యలు, పశువులకు గుంపులుగా దాణా"),
         teach: [
           {
             type: "stat-grid",
             items: [
-              { label: L("Concentrate"), text: L("1.5–2 kg a day of a concentrate with about 20% crude protein, plus good-quality dry fodder or grass.") },
-              { label: L("Target growth"), text: L("About 500–700 g of weight gain per day, so she reaches breeding weight on time.") },
-              { label: L("Vitamins and minerals"), text: L("Vitamins A, D, E and minerals such as calcium, phosphorus, copper, zinc, manganese and selenium.") },
-              { label: L("Not too fat"), text: L("Over-fat heifers have poorer milk production and fertility later in life.") },
+              { label: L("Concentrate", "దాణా"), text: L("1.5–2 kg a day of a concentrate with about 20% crude protein, plus good-quality dry fodder or grass.", "సుమారు 20% ముడి ప్రోటీన్ ఉన్న దాణా రోజుకు 1.5–2 కిలోలు, దానితో పాటు మంచి నాణ్యత గల ఎండుమేత లేదా గడ్డి.") },
+              { label: L("Target growth", "లక్ష్య పెరుగుదల"), text: L("About 500–700 g of weight gain per day, so she reaches breeding weight on time.", "రోజుకు సుమారు 500–700 గ్రా. బరువు పెరగాలి, అప్పుడు సమయానికి గర్భధారణ బరువుకు చేరుకుంటుంది.") },
+              { label: L("Vitamins and minerals", "విటమిన్లు, ఖనిజాలు"), text: L("Vitamins A, D, E and minerals such as calcium, phosphorus, copper, zinc, manganese and selenium.", "విటమిన్లు A, D, E, కాల్షియం, భాస్వరం, రాగి, జింక్, మాంగనీస్, సెలీనియం వంటి ఖనిజాలు.") },
+              { label: L("Not too fat", "మరీ లావుగా కాకూడదు"), text: L("Over-fat heifers have poorer milk production and fertility later in life.", "మరీ లావైన పెయ్యలు తర్వాత జీవితంలో తక్కువ పాలు ఇస్తాయి, సంతానోత్పత్తి కూడా తక్కువ.") },
             ],
           },
           {
             type: "callout",
             style: "info",
-            heading: L("Calves Are Covered Separately"),
-            text: L(
-              "Colostrum, milk feeding and calf starter for young calves are covered in Module 3 ('The First Weeks: Raising a Healthy Calf')."
-            ),
+            heading: L("Calves Are Covered Separately", "దూడల గురించి విడిగా చెప్పాం"),
+            text: L("Colostrum, milk feeding and calf starter for young calves are covered in Module 3 ('The First Weeks: Raising a Healthy Calf').", "చిన్న దూడలకు జున్ను, పాలు తాగించడం, కాఫ్ స్టార్టర్ గురించి మాడ్యూల్ 3లో ('మొదటి వారాలు: ఆరోగ్యకరమైన దూడను పెంచడం') చెప్పాం."),
           },
           {
             type: "text",
-            heading: L("Feed Animals in Groups, Not All the Same"),
-            html: L(
-              "Feed makes up about <b>60–70% of the cost of producing milk</b>, so it pays to feed each animal what it actually needs. The NDDB guideline suggests grouping animals: <b>advanced pregnant</b>, <b>milking</b> (ideally split into early, mid and late), <b>dry</b>, <b>calves</b> and <b>heifers</b>. A base ration is made for each milking group; a cow giving more than her group's average gets about <b>400 g of extra concentrate for every extra litre</b>, given at milking."
-            ),
+            heading: L("Feed Animals in Groups, Not All the Same", "పశువులకు గుంపులుగా దాణా, అన్నింటికీ ఒకేలా కాదు"),
+            html: L("Feed makes up about <b>60–70% of the cost of producing milk</b>, so it pays to feed each animal what it actually needs. The NDDB guideline suggests grouping animals: <b>advanced pregnant</b>, <b>milking</b> (ideally split into early, mid and late), <b>dry</b>, <b>calves</b> and <b>heifers</b>. A base ration is made for each milking group; a cow giving more than her group's average gets about <b>400 g of extra concentrate for every extra litre</b>, given at milking.", "దాణా <b>పాల ఉత్పత్తి ఖర్చులో సుమారు 60–70%</b>, కాబట్టి ప్రతి పశువుకు నిజంగా అవసరమైనంత ఇవ్వడం లాభం. NDDB మార్గదర్శకం పశువులను గుంపులుగా విభజించాలని సూచిస్తుంది: <b>చూడి చివరి దశలో ఉన్నవి</b>, <b>పాలిచ్చేవి</b> (ఆదర్శంగా తొలి, మధ్య, చివరి దశలుగా), <b>పాలు ఇవ్వనివి</b>, <b>దూడలు</b>, <b>పెయ్యలు</b>. ప్రతి పాలిచ్చే గుంపుకు ఒక ప్రాథమిక రేషన్ తయారు చేస్తారు; గుంపు సగటు కంటే ఎక్కువ పాలిచ్చే ఆవుకు <b>ప్రతి అదనపు లీటరుకు సుమారు 400 గ్రా. అదనపు దాణా</b>, పాలు పిండే సమయంలో ఇస్తారు."),
           },
           {
             type: "stat-grid",
             items: [
-              { label: L("Fixed times"), text: L("Feed at the same times every day, preferably two or three times.") },
-              { label: L("No sudden changes"), text: L("Change the ration gradually, based on milk yield, stage and body condition.") },
-              { label: L("Water"), text: L("Clean water always — a milking cow may drink 50–100 litres a day depending on season and yield.") },
-              { label: L("No mouldy feed"), text: L("Mouldy or spoiled feed can carry toxins such as aflatoxin. Store feed cool, dry and rodent-proof, and clean troughs regularly.") },
+              { label: L("Fixed times", "నిర్ణీత సమయాలు"), text: L("Feed at the same times every day, preferably two or three times.", "ప్రతి రోజూ అవే సమయాల్లో, వీలైతే రెండు లేదా మూడు సార్లు దాణా పెట్టండి.") },
+              { label: L("No sudden changes", "ఆకస్మిక మార్పులు వద్దు"), text: L("Change the ration gradually, based on milk yield, stage and body condition.", "పాల దిగుబడి, దశ, శరీర స్థితి ఆధారంగా రేషన్‌ను క్రమంగా మార్చండి.") },
+              { label: L("Water", "నీరు"), text: L("Clean water always — a milking cow may drink 50–100 litres a day depending on season and yield.", "ఎప్పుడూ శుభ్రమైన నీరు — పాలిచ్చే ఆవు కాలం, దిగుబడిని బట్టి రోజుకు 50–100 లీటర్లు తాగవచ్చు.") },
+              { label: L("No mouldy feed", "బూజు పట్టిన దాణా వద్దు"), text: L("Mouldy or spoiled feed can carry toxins such as aflatoxin. Store feed cool, dry and rodent-proof, and clean troughs regularly.", "బూజు పట్టిన లేదా చెడిపోయిన దాణాలో అఫ్లాటాక్సిన్ వంటి విషాలు ఉండవచ్చు. దాణాను చల్లగా, పొడిగా, ఎలుకలు చేరని చోట నిల్వ చేయండి, తొట్లను క్రమం తప్పకుండా శుభ్రం చేయండి.") },
             ],
           },
         ],
         check: [
           {
             type: "mcq",
-            q: L("What daily weight gain should a growing heifer aim for?"),
-            options: [L("About 5 kg"), L("About 50 g"), L("About 500–700 g"), L("Weight gain doesn't matter")],
+            q: L("What daily weight gain should a growing heifer aim for?", "పెరుగుతున్న పెయ్య రోజుకు ఎంత బరువు పెరగాలి?"),
+            options: [L("About 5 kg", "సుమారు 5 కిలోలు"), L("About 50 g", "సుమారు 50 గ్రా."), L("About 500–700 g", "సుమారు 500–700 గ్రా."), L("Weight gain doesn't matter", "బరువు పెరగడం ముఖ్యం కాదు")],
             answer: 2,
-            explain: L("Heifers should gain about 500–700 g a day to reach breeding weight and maturity on time."),
+            explain: L("Heifers should gain about 500–700 g a day to reach breeding weight and maturity on time.", "పెయ్యలు సమయానికి గర్భధారణ బరువు, పరిపక్వతకు చేరుకోవడానికి రోజుకు సుమారు 500–700 గ్రా. పెరగాలి."),
           },
           {
             type: "truefalse",
-            q: L("Mouldy or spoiled feed is safe as long as the animal eats it."),
+            q: L("Mouldy or spoiled feed is safe as long as the animal eats it.", "పశువు తింటున్నంత వరకు బూజు పట్టిన లేదా చెడిపోయిన దాణా సురక్షితమే."),
             answer: false,
-            explain: L("No — mouldy feed may contain toxins such as aflatoxin that harm animal health (and can pass into milk)."),
+            explain: L("No — mouldy feed may contain toxins such as aflatoxin that harm animal health (and can pass into milk).", "కాదు — బూజు పట్టిన దాణాలో అఫ్లాటాక్సిన్ వంటి విషాలు ఉండవచ్చు, అవి పశువు ఆరోగ్యానికి హాని చేస్తాయి (పాలలోకి కూడా వెళ్ళవచ్చు)."),
           },
         ],
       },
@@ -17038,54 +16882,54 @@ export const MODULES = [
         {
           topicId: "t-m14-lactation-stages",
           type: "mcq",
-          q: L("In which stage of lactation is bypass fat (100–150 g a day) most useful?"),
-          options: [L("Late lactation"), L("Early lactation (first 100 days)"), L("The dry period only"), L("For calves")],
+          q: L("In which stage of lactation is bypass fat (100–150 g a day) most useful?", "పాలిచ్చే కాలంలో ఏ దశలో బైపాస్ ఫ్యాట్ (రోజుకు 100–150 గ్రా.) అత్యంత ఉపయోగకరం?"),
+          options: [L("Late lactation", "చివరి దశ"), L("Early lactation (first 100 days)", "తొలి దశ (మొదటి 100 రోజులు)"), L("The dry period only", "విశ్రాంతి కాలంలో మాత్రమే"), L("For calves", "దూడలకు")],
           answer: 1,
-          explain: L("Bypass fat raises the energy in the ration to fight negative energy balance in early lactation; it can usually be stopped in mid lactation."),
+          explain: L("Bypass fat raises the energy in the ration to fight negative energy balance in early lactation; it can usually be stopped in mid lactation.", "తొలి దశలో శక్తి లోటును ఎదుర్కోవడానికి బైపాస్ ఫ్యాట్ రేషన్‌లో శక్తిని పెంచుతుంది; మధ్య దశలో సాధారణంగా ఆపవచ్చు."),
         },
         {
           topicId: "t-m14-lactation-stages",
           type: "mcq",
-          q: L("In late lactation, what is the main feeding goal?"),
+          q: L("In late lactation, what is the main feeding goal?", "చివరి పాలిచ్చే దశలో, ప్రధాన దాణా లక్ష్యం ఏమిటి?"),
           options: [
-            L("Give as much concentrate as possible"),
-            L("Stop all fodder"),
-            L("Feed economically and avoid the cow getting too fat before calving"),
-            L("Add bypass fat and buffers"),
+            L("Give as much concentrate as possible", "వీలైనంత ఎక్కువ దాణా ఇవ్వడం"),
+            L("Stop all fodder", "మేత అంతా ఆపేయడం"),
+            L("Feed economically and avoid the cow getting too fat before calving", "పొదుపుగా దాణా పెట్టడం, ఈనడానికి ముందు ఆవు మరీ లావు కాకుండా చూడడం"),
+            L("Add bypass fat and buffers", "బైపాస్ ఫ్యాట్, బఫర్లు కలపడం"),
           ],
           answer: 2,
-          explain: L("Late lactation rations use more roughage (up to 70%) and cheaper ingredients, and avoid over-conditioning."),
+          explain: L("Late lactation rations use more roughage (up to 70%) and cheaper ingredients, and avoid over-conditioning.", "చివరి దశ రేషన్లలో ఎక్కువ పీచు మేత (70% వరకు), చౌకైన పదార్థాలు వాడతారు, అతిగా లావు కాకుండా చూస్తారు."),
         },
         {
           topicId: "t-m14-lactation-stages",
           type: "truefalse",
-          q: L("A fresh cow losing a lot of weight quickly, eating poorly and not chewing cud should be reported early."),
+          q: L("A fresh cow losing a lot of weight quickly, eating poorly and not chewing cud should be reported early.", "వేగంగా ఎక్కువ బరువు తగ్గుతున్న, సరిగా తినని, నెమరు వేయని కొత్తగా ఈనిన ఆవు గురించి ముందుగానే తెలియజేయాలి."),
           answer: true,
-          explain: L("Yes — these can be signs of negative energy balance, ketosis or acidosis."),
+          explain: L("Yes — these can be signs of negative energy balance, ketosis or acidosis.", "అవును — ఇవి శక్తి లోటు, కీటోసిస్ లేదా అసిడోసిస్ లక్షణాలు కావచ్చు."),
         },
         {
           topicId: "t-m14-dry-transition",
           type: "mcq",
-          q: L("The 'transition period' covers roughly:"),
-          options: [L("The first year of a calf's life"), L("Only the day of calving"), L("21 days before to 21 days after calving"), L("Mid lactation")],
+          q: L("The 'transition period' covers roughly:", "'ట్రాన్సిషన్ కాలం' సుమారు దేన్ని కవర్ చేస్తుంది:"),
+          options: [L("The first year of a calf's life", "దూడ జీవితంలో మొదటి సంవత్సరం"), L("Only the day of calving", "ఈనే రోజు మాత్రమే"), L("21 days before to 21 days after calving", "ఈనడానికి 21 రోజుల ముందు నుండి 21 రోజుల తర్వాత వరకు"), L("Mid lactation", "మధ్య దశ")],
           answer: 2,
-          explain: L("The transition period runs from about 3 weeks before to 3 weeks after calving — the riskiest time for metabolic diseases."),
+          explain: L("The transition period runs from about 3 weeks before to 3 weeks after calving — the riskiest time for metabolic diseases.", "ట్రాన్సిషన్ కాలం ఈనడానికి సుమారు 3 వారాల ముందు నుండి 3 వారాల తర్వాత వరకు ఉంటుంది — జీవక్రియ వ్యాధులకు అత్యంత ప్రమాదకరమైన సమయం."),
         },
         {
           topicId: "t-m14-dry-transition",
           type: "mcq",
-          q: L("What is the ideal Body Condition Score for a crossbred cow at calving?"),
-          options: [L("1.0–1.5"), L("4.5–5.0"), L("BCS doesn't matter at calving"), L("3.25–3.5")],
+          q: L("What is the ideal Body Condition Score for a crossbred cow at calving?", "ఈనే సమయంలో సంకర జాతి ఆవుకు ఆదర్శ బాడీ కండిషన్ స్కోర్ ఎంత?"),
+          options: [L("1.0–1.5"), L("4.5–5.0"), L("BCS doesn't matter at calving", "ఈనే సమయంలో BCS ముఖ్యం కాదు"), L("3.25–3.5")],
           answer: 3,
-          explain: L("About 3.25–3.5 at calving — neither too thin nor too fat."),
+          explain: L("About 3.25–3.5 at calving — neither too thin nor too fat.", "ఈనే సమయంలో సుమారు 3.25–3.5 — మరీ బక్కగా కాదు, మరీ లావుగా కాదు."),
         },
         {
           topicId: "t-m14-heifers-groups",
           type: "mcq",
-          q: L("A cow gives 4 litres more than her group's average. Roughly how much extra concentrate should she get?"),
-          options: [L("About 1.6 kg (400 g × 4)"), L("None"), L("About 10 kg"), L("About 100 g")],
+          q: L("A cow gives 4 litres more than her group's average. Roughly how much extra concentrate should she get?", "ఒక ఆవు తన గుంపు సగటు కంటే 4 లీటర్లు ఎక్కువ ఇస్తోంది. ఆమెకు సుమారు ఎంత అదనపు దాణా ఇవ్వాలి?"),
+          options: [L("About 1.6 kg (400 g × 4)", "సుమారు 1.6 కిలోలు (400 గ్రా. × 4)"), L("None", "ఏదీ లేదు"), L("About 10 kg", "సుమారు 10 కిలోలు"), L("About 100 g", "సుమారు 100 గ్రా.")],
           answer: 0,
-          explain: L("About 400 g of extra concentrate per extra litre: 4 × 400 g = 1.6 kg, given at milking time."),
+          explain: L("About 400 g of extra concentrate per extra litre: 4 × 400 g = 1.6 kg, given at milking time.", "ప్రతి అదనపు లీటరుకు సుమారు 400 గ్రా. అదనపు దాణా: 4 × 400 గ్రా. = 1.6 కిలోలు, పాలు పిండే సమయంలో ఇవ్వాలి."),
         },
       ],
     },
@@ -17096,157 +16940,145 @@ export const MODULES = [
   // ==================================================================
   {
     id: "m14-l5",
-    title: L("Feed Supplements and Total Mixed Ration in Practice"),
+    title: L("Feed Supplements and Total Mixed Ration in Practice", "ఆచరణలో దాణా సప్లిమెంట్లు, టోటల్ మిక్స్‌డ్ రేషన్ (TMR)"),
     estMinutes: 10,
     hook: [
       {
         type: "hero",
-        heading: L("Small Additions, Big Differences"),
-        text: L(
-          "Farmers are offered many feed supplements — bypass fat, mineral blocks, boluses, heat-stress powders, packaged TMR. Some are very useful at the right time; used at the wrong time they just cost money. This lesson explains the main NDDB-recommended supplements, when each one helps, and how a Total Mixed Ration is put together in practice."
-        ),
+        heading: L("Small Additions, Big Differences", "చిన్న చేర్పులు, పెద్ద తేడాలు"),
+        text: L("Farmers are offered many feed supplements — bypass fat, mineral blocks, boluses, heat-stress powders, packaged TMR. Some are very useful at the right time; used at the wrong time they just cost money. This lesson explains the main NDDB-recommended supplements, when each one helps, and how a Total Mixed Ration is put together in practice.", "రైతులకు చాలా దాణా సప్లిమెంట్లు అమ్ముతారు — బైపాస్ ఫ్యాట్, ఖనిజ దిమ్మలు, బోలస్‌లు, వేడి ఒత్తిడి పొడులు, ప్యాకెట్ TMR. కొన్ని సరైన సమయంలో చాలా ఉపయోగకరం; తప్పు సమయంలో వాడితే డబ్బు వృథా మాత్రమే. NDDB సిఫార్సు చేసిన ప్రధాన సప్లిమెంట్లు, ప్రతి ఒక్కటి ఎప్పుడు సహాయపడుతుంది, ఆచరణలో టోటల్ మిక్స్‌డ్ రేషన్‌ను ఎలా తయారు చేస్తారో ఈ పాఠం వివరిస్తుంది."),
       },
     ],
     topics: [
       {
         id: "t-m14-supplements",
-        title: L("The Main Feed Supplements and When They Help"),
+        title: L("The Main Feed Supplements and When They Help", "ప్రధాన దాణా సప్లిమెంట్లు, అవి ఎప్పుడు సహాయపడతాయి"),
         teach: [
           {
             type: "glossary",
-            term: L("Bypass Fat"),
-            meaning: L(
-              "A specially protected fat that passes the rumen without being broken down, giving the cow concentrated energy. It is fed mainly in early lactation (about 100–150 g a day; the handbook gives up to 200 g) to fight negative energy balance, raise peak milk and help the cow return to heat."
-            ),
+            term: L("Bypass Fat", "బైపాస్ ఫ్యాట్"),
+            meaning: L("A specially protected fat that passes the rumen without being broken down, giving the cow concentrated energy. It is fed mainly in early lactation (about 100–150 g a day; the handbook gives up to 200 g) to fight negative energy balance, raise peak milk and help the cow return to heat.", "రుమెన్‌లో విచ్ఛిన్నం కాకుండా దాటి వెళ్ళేలా ప్రత్యేకంగా రక్షించిన కొవ్వు, ఆవుకు సాంద్రమైన శక్తిని ఇస్తుంది. దీన్ని ప్రధానంగా తొలి పాలిచ్చే దశలో (రోజుకు సుమారు 100–150 గ్రా.; హ్యాండ్‌బుక్ 200 గ్రా. వరకు చెబుతుంది) శక్తి లోటును ఎదుర్కోవడానికి, గరిష్ఠ పాలను పెంచడానికి, ఆవు మళ్ళీ ఎదకు రావడానికి సహాయంగా ఇస్తారు."),
           },
           {
             type: "stat-grid",
             items: [
               {
-                label: L("GarbhaMin bolus"),
-                text: L("For anoestrus (no heat) caused by poor nutrition. Contains chelated trace minerals and coated vitamins. One bolus per animal per day for 28 days."),
+                label: L("GarbhaMin bolus", "గర్భమిన్ బోలస్"),
+                text: L("For anoestrus (no heat) caused by poor nutrition. Contains chelated trace minerals and coated vitamins. One bolus per animal per day for 28 days.", "పోషణ లోపం వల్ల వచ్చే అనెస్ట్రస్ (ఎదకు రాకపోవడం) కోసం. కీలేటెడ్ సూక్ష్మ ఖనిజాలు, కోటెడ్ విటమిన్లు ఉంటాయి. ఒక్కో పశువుకు రోజుకు ఒక బోలస్ చొప్పున 28 రోజులు."),
               },
               {
-                label: L("Samvriddhi"),
-                text: L("For low fat and SNF in milk. 250 g per animal per day improved milk yield, fat and SNF by up to 8%, 10% and 6% respectively."),
+                label: L("Samvriddhi", "సంవృద్ధి"),
+                text: L("For low fat and SNF in milk. 250 g per animal per day improved milk yield, fat and SNF by up to 8%, 10% and 6% respectively.", "పాలలో తక్కువ వెన్న (ఫ్యాట్), SNF కోసం. ఒక్కో పశువుకు రోజుకు 250 గ్రా. ఇస్తే పాల దిగుబడి, వెన్న, SNF వరుసగా 8%, 10%, 6% వరకు మెరుగుపడ్డాయి."),
               },
               {
-                label: L("Pashu Sheetvardhak"),
-                text: L("For heat stress. 350 g per animal per day improved milk yield by about 11% and fat by about 7% in cows and buffaloes."),
+                label: L("Pashu Sheetvardhak", "పశు శీతవర్ధక్"),
+                text: L("For heat stress. 350 g per animal per day improved milk yield by about 11% and fat by about 7% in cows and buffaloes.", "వేడి ఒత్తిడి కోసం. ఒక్కో పశువుకు రోజుకు 350 గ్రా. ఇస్తే ఆవులు, గేదెల్లో పాల దిగుబడి సుమారు 11%, వెన్న సుమారు 7% మెరుగుపడ్డాయి."),
               },
               {
-                label: L("Urea Molasses Mineral Block (UMMB)"),
-                text: L("A lick for animals on dry fodder. One 3 kg block lasts one animal about 5–7 days. If an animal won't lick it, sprinkle flour, bran or cattle feed on the block for a few days."),
+                label: L("Urea Molasses Mineral Block (UMMB)", "యూరియా మొలాసిస్ మినరల్ బ్లాక్ (UMMB)"),
+                text: L("A lick for animals on dry fodder. One 3 kg block lasts one animal about 5–7 days. If an animal won't lick it, sprinkle flour, bran or cattle feed on the block for a few days.", "ఎండుమేత మీద ఉన్న పశువులు నాకడానికి. ఒక 3 కిలోల బ్లాక్ ఒక పశువుకు సుమారు 5–7 రోజులు వస్తుంది. పశువు నాకకపోతే, కొన్ని రోజులు బ్లాక్ మీద పిండి, తవుడు లేదా పశుదాణా చల్లండి."),
               },
             ],
           },
           {
             type: "callout",
             style: "warning",
-            heading: L("Never UMMB and Urea-Treated Straw Together"),
-            text: L(
-              "Both contain urea. Feeding a UMMB lick and urea-treated straw at the same time can give the animal too much urea. Use one or the other."
-            ),
+            heading: L("Never UMMB and Urea-Treated Straw Together", "UMMB, యూరియా కలిపిన గడ్డి రెండూ కలిపి ఎప్పుడూ వద్దు"),
+            text: L("Both contain urea. Feeding a UMMB lick and urea-treated straw at the same time can give the animal too much urea. Use one or the other.", "రెండింటిలోనూ యూరియా ఉంటుంది. UMMB, యూరియా కలిపిన గడ్డి ఒకేసారి ఇస్తే పశువుకు యూరియా ఎక్కువై పోవచ్చు. ఏదో ఒకటి మాత్రమే వాడండి."),
           },
           {
             type: "stat-grid",
             items: [
               {
-                label: L("Mineral mixture amount"),
-                text: L("About 50 g a day for maintenance, dry, pregnant, and milking animals giving up to 5 litres; add about 10 g for each extra litre above 5. If the cattle feed is balanced and already contains minerals, the mineral mixture can be cut by half."),
+                label: L("Mineral mixture amount", "ఖనిజ మిశ్రమం పరిమాణం"),
+                text: L("About 50 g a day for maintenance, dry, pregnant, and milking animals giving up to 5 litres; add about 10 g for each extra litre above 5. If the cattle feed is balanced and already contains minerals, the mineral mixture can be cut by half.", "నిర్వహణ, పాలు ఇవ్వని, చూడి, 5 లీటర్ల వరకు పాలిచ్చే పశువులకు రోజుకు సుమారు 50 గ్రా.; 5 కంటే ఎక్కువ ప్రతి అదనపు లీటరుకు సుమారు 10 గ్రా. కలపండి. పశుదాణా సమతుల్యంగా ఉండి ఇప్పటికే ఖనిజాలు కలిగి ఉంటే, ఖనిజ మిశ్రమాన్ని సగానికి తగ్గించవచ్చు."),
               },
               {
-                label: L("Buffer (sodium bicarbonate)"),
-                text: L("Needed when concentrate is 60% or more of the feed, or more than 6–7 kg a day: add about 50–75 g a day to prevent acidosis."),
+                label: L("Buffer (sodium bicarbonate)", "బఫర్ (సోడియం బైకార్బొనేట్)"),
+                text: L("Needed when concentrate is 60% or more of the feed, or more than 6–7 kg a day: add about 50–75 g a day to prevent acidosis.", "దాణా మేతలో 60% లేదా అంతకంటే ఎక్కువ ఉన్నప్పుడు, లేదా రోజుకు 6–7 కిలోల కంటే ఎక్కువ ఉన్నప్పుడు అవసరం: అసిడోసిస్ నివారణకు రోజుకు సుమారు 50–75 గ్రా. కలపండి."),
               },
               {
                 label: L("DDGS"),
-                text: L("Distillers' dried grains can be used as a protein source — about 1–2 kg in the concentrate — if properly dried and not stored too long."),
+                text: L("Distillers' dried grains can be used as a protein source — about 1–2 kg in the concentrate — if properly dried and not stored too long.", "డిస్టిలర్స్ డ్రైడ్ గ్రెయిన్స్‌ను సరిగా ఎండబెట్టి, ఎక్కువ కాలం నిల్వ చేయకపోతే ప్రోటీన్ మూలంగా — దాణాలో సుమారు 1–2 కిలోలు — వాడవచ్చు."),
               },
               {
-                label: L("Buy BIS-certified feed"),
-                text: L("Always purchase cattle feed that is BIS certified / carries the BIS mark, so its quality is assured."),
+                label: L("Buy BIS-certified feed", "BIS-సర్టిఫైడ్ దాణా కొనండి"),
+                text: L("Always purchase cattle feed that is BIS certified / carries the BIS mark, so its quality is assured.", "నాణ్యతకు హామీ కోసం ఎప్పుడూ BIS సర్టిఫైడ్ / BIS గుర్తు ఉన్న పశుదాణానే కొనండి."),
               },
             ],
           },
           {
             type: "callout",
             style: "tip",
-            heading: L("Signs a Mineral Mixture Is Missing"),
-            text: L(
-              "Mineral shortages can show up as a change in hair colour (copper), a swelling in the throat (iodine — enlarged thyroid), watery eyes (zinc), poor growth, delayed heat and repeated failure to conceive. Area-specific mineral mixture made by dairy cooperatives is designed for the shortages common in that region."
-            ),
+            heading: L("Signs a Mineral Mixture Is Missing", "ఖనిజ మిశ్రమం లోపించిందని చూపే లక్షణాలు"),
+            text: L("Mineral shortages can show up as a change in hair colour (copper), a swelling in the throat (iodine — enlarged thyroid), watery eyes (zinc), poor growth, delayed heat and repeated failure to conceive. Area-specific mineral mixture made by dairy cooperatives is designed for the shortages common in that region.", "ఖనిజ లోపాలు వెంట్రుకల రంగు మారడం (రాగి), గొంతులో వాపు (అయోడిన్ — థైరాయిడ్ పెరగడం), కళ్ళ నుండి నీరు కారడం (జింక్), పెరుగుదల తక్కువగా ఉండడం, ఎద ఆలస్యం కావడం, మళ్ళీ మళ్ళీ చూడి కట్టకపోవడం వంటి రూపాల్లో కనిపించవచ్చు. పాడి సహకార సంఘాలు తయారు చేసే ప్రాంత-నిర్దిష్ట ఖనిజ మిశ్రమం ఆ ప్రాంతంలో సాధారణంగా ఉండే లోపాల కోసం రూపొందించబడింది."),
           },
         ],
         check: [
           {
             type: "mcq",
-            q: L("Which supplement is designed to help animals that are not coming into heat because of poor nutrition?"),
-            options: [L("Sodium bicarbonate"), L("DDGS"), L("Pashu Sheetvardhak"), L("GarbhaMin bolus")],
+            q: L("Which supplement is designed to help animals that are not coming into heat because of poor nutrition?", "పోషణ లోపం వల్ల ఎదకు రాని పశువులకు సహాయపడేలా ఏ సప్లిమెంట్ రూపొందించబడింది?"),
+            options: [L("Sodium bicarbonate", "సోడియం బైకార్బొనేట్"), L("DDGS"), L("Pashu Sheetvardhak", "పశు శీతవర్ధక్"), L("GarbhaMin bolus", "గర్భమిన్ బోలస్")],
             answer: 3,
-            explain: L("GarbhaMin (one bolus a day for 28 days) supplies chelated trace minerals and vitamins to tackle nutritional anoestrus."),
+            explain: L("GarbhaMin (one bolus a day for 28 days) supplies chelated trace minerals and vitamins to tackle nutritional anoestrus.", "గర్భమిన్ (28 రోజులు రోజుకు ఒక బోలస్) పోషణ సంబంధ అనెస్ట్రస్‌ను ఎదుర్కోవడానికి కీలేటెడ్ సూక్ష్మ ఖనిజాలు, విటమిన్లు అందిస్తుంది."),
           },
           {
             type: "truefalse",
-            q: L("A UMMB lick and urea-treated straw can safely be fed together."),
+            q: L("A UMMB lick and urea-treated straw can safely be fed together.", "UMMB, యూరియా కలిపిన గడ్డిని సురక్షితంగా కలిపి ఇవ్వవచ్చు."),
             answer: false,
-            explain: L("No — both contain urea, so they should not be fed to the same animal at the same time."),
+            explain: L("No — both contain urea, so they should not be fed to the same animal at the same time.", "కాదు — రెండింటిలోనూ యూరియా ఉంటుంది, కాబట్టి ఒకే పశువుకు ఒకేసారి ఇవ్వకూడదు."),
           },
         ],
       },
       {
         id: "t-m14-tmr-practice",
-        title: L("Total Mixed Ration: How Much and What Goes In"),
+        title: L("Total Mixed Ration: How Much and What Goes In", "టోటల్ మిక్స్‌డ్ రేషన్: ఎంత, ఏమి కలపాలి"),
         teach: [
           {
             type: "stat-grid",
             items: [
-              { label: L("Every bite balanced"), text: L("The animal gets the same balanced mix in every mouthful.") },
-              { label: L("More intake, less waste"), text: L("Dry matter intake goes up, and the animal can't pick out only what it likes.") },
-              { label: L("Better milk and fat"), text: L("A steadier rumen gives better milk yield and fat percentage.") },
-              { label: L("Less labour"), text: L("One mix instead of many separate feeds, and unusual local feeds can be included.") },
+              { label: L("Every bite balanced", "ప్రతి ముద్దా సమతుల్యం"), text: L("The animal gets the same balanced mix in every mouthful.", "పశువుకు ప్రతి ముద్దలోనూ ఒకే సమతుల్య మిశ్రమం అందుతుంది.") },
+              { label: L("More intake, less waste", "ఎక్కువ తినడం, తక్కువ వృథా"), text: L("Dry matter intake goes up, and the animal can't pick out only what it likes.", "పొడి పదార్థం తీసుకోవడం పెరుగుతుంది, పశువు తనకు నచ్చినవి మాత్రమే ఏరుకుని తినలేదు.") },
+              { label: L("Better milk and fat", "మెరుగైన పాలు, వెన్న"), text: L("A steadier rumen gives better milk yield and fat percentage.", "స్థిరమైన రుమెన్ వల్ల మెరుగైన పాల దిగుబడి, వెన్న శాతం.") },
+              { label: L("Less labour", "తక్కువ శ్రమ"), text: L("One mix instead of many separate feeds, and unusual local feeds can be included.", "చాలా వేర్వేరు దాణాలకు బదులు ఒకే మిశ్రమం, అసాధారణ స్థానిక దాణాలను కూడా కలపవచ్చు.") },
             ],
           },
           {
             type: "text",
-            heading: L("How Much TMR?"),
-            html: L(
-              "It depends on body weight and milk yield. As a guide from the handbook: a cow giving <b>12–15 litres</b> a day needs about <b>20–22 kg of TMR</b>; a high yielder giving <b>20–22 litres</b> needs about <b>28–30 kg</b>. Many milk unions now sell <b>packaged TMR</b> in 25–35 kg bags, usually fed at <b>15–20 kg per animal per day</b> depending on yield. A TMR can be worked out with NDDB's ration balancing in the '1962' app."
-            ),
+            heading: L("How Much TMR?", "ఎంత TMR?"),
+            html: L("It depends on body weight and milk yield. As a guide from the handbook: a cow giving <b>12–15 litres</b> a day needs about <b>20–22 kg of TMR</b>; a high yielder giving <b>20–22 litres</b> needs about <b>28–30 kg</b>. Many milk unions now sell <b>packaged TMR</b> in 25–35 kg bags, usually fed at <b>15–20 kg per animal per day</b> depending on yield. A TMR can be worked out with NDDB's ration balancing in the '1962' app.", "ఇది శరీర బరువు, పాల దిగుబడిపై ఆధారపడి ఉంటుంది. హ్యాండ్‌బుక్ మార్గదర్శకంగా: రోజుకు <b>12–15 లీటర్లు</b> ఇచ్చే ఆవుకు సుమారు <b>20–22 కిలోల TMR</b> అవసరం; <b>20–22 లీటర్లు</b> ఇచ్చే ఎక్కువ పాలిచ్చే ఆవుకు సుమారు <b>28–30 కిలోలు</b>. చాలా పాల సంఘాలు ఇప్పుడు 25–35 కిలోల సంచుల్లో <b>ప్యాకెట్ TMR</b> అమ్ముతున్నాయి, దిగుబడిని బట్టి సాధారణంగా <b>ఒక్కో పశువుకు రోజుకు 15–20 కిలోలు</b> ఇస్తారు. '1962' యాప్‌లోని NDDB రేషన్ బ్యాలెన్సింగ్‌తో TMRను లెక్కించవచ్చు."),
           },
           {
             type: "ledger",
-            heading: L("Example TMR: Buffalo Giving 10 Litres a Day (Handbook Example 2)"),
+            heading: L("Example TMR: Buffalo Giving 10 Litres a Day (Handbook Example 2)", "TMR ఉదాహరణ: రోజుకు 10 లీటర్లు ఇచ్చే గేదె (హ్యాండ్‌బుక్ ఉదాహరణ 2)"),
             rows: [
-              { label: L("Dry fodder"), amount: "7 kg" },
-              { label: L("Green fodder"), amount: "15 kg" },
-              { label: L("Cattle feed"), amount: "7 kg" },
-              { label: L("Mineral mixture"), amount: "175 g" },
+              { label: L("Dry fodder", "ఎండుమేత"), amount: "7 kg" },
+              { label: L("Green fodder", "పచ్చి మేత"), amount: "15 kg" },
+              { label: L("Cattle feed", "పశుదాణా"), amount: "7 kg" },
+              { label: L("Mineral mixture", "ఖనిజ మిశ్రమం"), amount: "175 g" },
             ],
-            total: { label: L("Total, mixed and fed in 3–4 parts a day"), amount: "about 29 kg" },
+            total: { label: L("Total, mixed and fed in 3–4 parts a day", "మొత్తం, కలిపి రోజుకు 3–4 భాగాలుగా పెట్టాలి"), amount: "about 29 kg" },
           },
           {
             type: "callout",
             style: "info",
-            heading: L("Other Practical Answers From the Handbook"),
-            text: L(
-              "There is no need to soak cattle feed in water — mix it with green and dry fodder instead. Green sugarcane tops can be fed if chaffed and mixed with dry fodder, with enough mineral mixture. Home-grown produce and tree leaves can be included when balancing a ration."
-            ),
+            heading: L("Other Practical Answers From the Handbook", "హ్యాండ్‌బుక్ నుండి ఇతర ఆచరణాత్మక సమాధానాలు"),
+            text: L("There is no need to soak cattle feed in water — mix it with green and dry fodder instead. Green sugarcane tops can be fed if chaffed and mixed with dry fodder, with enough mineral mixture. Home-grown produce and tree leaves can be included when balancing a ration.", "పశుదాణాను నీటిలో నానబెట్టాల్సిన అవసరం లేదు — బదులుగా పచ్చి మేత, ఎండుమేతతో కలపండి. చెరకు పచ్చి ఆకులను ముక్కలుగా కత్తిరించి ఎండుమేతతో కలిపి, తగినంత ఖనిజ మిశ్రమంతో ఇవ్వవచ్చు. రేషన్‌ను సమతుల్యం చేసేటప్పుడు ఇంట్లో పండిన పంటలు, చెట్ల ఆకులను కూడా చేర్చవచ్చు."),
           },
         ],
         check: [
           {
             type: "mcq",
-            q: L("About how much TMR does a cow producing 12–15 litres of milk a day need?"),
-            options: [L("About 2 kg"), L("About 60 kg"), L("About 20–22 kg"), L("About 200 g")],
+            q: L("About how much TMR does a cow producing 12–15 litres of milk a day need?", "రోజుకు 12–15 లీటర్ల పాలు ఇచ్చే ఆవుకు సుమారు ఎంత TMR అవసరం?"),
+            options: [L("About 2 kg", "సుమారు 2 కిలోలు"), L("About 60 kg", "సుమారు 60 కిలోలు"), L("About 20–22 kg", "సుమారు 20–22 కిలోలు"), L("About 200 g", "సుమారు 200 గ్రా.")],
             answer: 2,
-            explain: L("Roughly 20–22 kg of TMR a day; a 20–22 litre cow needs about 28–30 kg."),
+            explain: L("Roughly 20–22 kg of TMR a day; a 20–22 litre cow needs about 28–30 kg.", "రోజుకు సుమారు 20–22 కిలోల TMR; 20–22 లీటర్ల ఆవుకు సుమారు 28–30 కిలోలు అవసరం."),
           },
           {
             type: "truefalse",
-            q: L("Cattle feed must always be soaked in water before feeding."),
+            q: L("Cattle feed must always be soaked in water before feeding.", "పశుదాణాను ఇచ్చే ముందు ఎప్పుడూ నీటిలో నానబెట్టాలి."),
             answer: false,
-            explain: L("No — soaking isn't needed. It's better to mix cattle feed with green and dry fodder."),
+            explain: L("No — soaking isn't needed. It's better to mix cattle feed with green and dry fodder.", "కాదు — నానబెట్టాల్సిన అవసరం లేదు. పశుదాణాను పచ్చి మేత, ఎండుమేతతో కలపడం మేలు."),
           },
         ],
       },
@@ -17257,58 +17089,58 @@ export const MODULES = [
         {
           topicId: "t-m14-supplements",
           type: "mcq",
-          q: L("A farmer complains of low fat and SNF in milk. Which NDDB supplement is designed for this?"),
-          options: [L("Samvriddhi"), L("GarbhaMin"), L("UMMB"), L("Calf starter")],
+          q: L("A farmer complains of low fat and SNF in milk. Which NDDB supplement is designed for this?", "పాలలో వెన్న, SNF తక్కువగా ఉన్నాయని ఒక రైతు ఫిర్యాదు చేస్తున్నారు. దీని కోసం ఏ NDDB సప్లిమెంట్ రూపొందించబడింది?"),
+          options: [L("Samvriddhi", "సంవృద్ధి"), L("GarbhaMin", "గర్భమిన్"), L("UMMB"), L("Calf starter", "కాఫ్ స్టార్టర్")],
           answer: 0,
-          explain: L("Samvriddhi at 250 g a day improved milk yield, fat and SNF by up to 8, 10 and 6 per cent."),
+          explain: L("Samvriddhi at 250 g a day improved milk yield, fat and SNF by up to 8, 10 and 6 per cent.", "రోజుకు 250 గ్రా. సంవృద్ధి పాల దిగుబడి, వెన్న, SNFను వరుసగా 8, 10, 6 శాతం వరకు మెరుగుపరిచింది."),
         },
         {
           topicId: "t-m14-supplements",
           type: "mcq",
-          q: L("When should a buffer like sodium bicarbonate be added to the ration?"),
+          q: L("When should a buffer like sodium bicarbonate be added to the ration?", "సోడియం బైకార్బొనేట్ వంటి బఫర్‌ను రేషన్‌లో ఎప్పుడు కలపాలి?"),
           options: [
-            L("Always, for every animal"),
-            L("When concentrate is 60% or more of the feed, or more than 6–7 kg a day"),
-            L("Only for calves"),
-            L("Only when the animal has a fever"),
+            L("Always, for every animal", "ఎప్పుడూ, ప్రతి పశువుకు"),
+            L("When concentrate is 60% or more of the feed, or more than 6–7 kg a day", "దాణా మేతలో 60% లేదా అంతకంటే ఎక్కువ ఉన్నప్పుడు, లేదా రోజుకు 6–7 కిలోల కంటే ఎక్కువ ఉన్నప్పుడు"),
+            L("Only for calves", "దూడలకు మాత్రమే"),
+            L("Only when the animal has a fever", "పశువుకు జ్వరం ఉన్నప్పుడు మాత్రమే"),
           ],
           answer: 1,
-          explain: L("Heavy concentrate feeding risks acidosis, so 50–75 g of buffer a day is advised in those cases."),
+          explain: L("Heavy concentrate feeding risks acidosis, so 50–75 g of buffer a day is advised in those cases.", "ఎక్కువ దాణా ఇస్తే అసిడోసిస్ ప్రమాదం ఉంది, కాబట్టి అలాంటి సందర్భాల్లో రోజుకు 50–75 గ్రా. బఫర్ సలహా ఇస్తారు."),
         },
         {
           topicId: "t-m14-supplements",
           type: "truefalse",
-          q: L("Farmers should look for the BIS mark when buying cattle feed."),
+          q: L("Farmers should look for the BIS mark when buying cattle feed.", "పశుదాణా కొనేటప్పుడు రైతులు BIS గుర్తు కోసం చూడాలి."),
           answer: true,
-          explain: L("Yes — the handbook advises always buying BIS-certified / marked cattle feed."),
+          explain: L("Yes — the handbook advises always buying BIS-certified / marked cattle feed.", "అవును — ఎప్పుడూ BIS-సర్టిఫైడ్ / గుర్తు ఉన్న పశుదాణానే కొనాలని హ్యాండ్‌బుక్ సలహా ఇస్తుంది."),
         },
         {
           topicId: "t-m14-supplements",
           type: "mcq",
-          q: L("Roughly how long does one 3 kg UMMB block last for one animal?"),
-          options: [L("About 1 hour"), L("About 5–7 days"), L("About 6 months"), L("About 1 day")],
+          q: L("Roughly how long does one 3 kg UMMB block last for one animal?", "ఒక 3 కిలోల UMMB బ్లాక్ ఒక పశువుకు సుమారు ఎంత కాలం వస్తుంది?"),
+          options: [L("About 1 hour", "సుమారు 1 గంట"), L("About 5–7 days", "సుమారు 5–7 రోజులు"), L("About 6 months", "సుమారు 6 నెలలు"), L("About 1 day", "సుమారు 1 రోజు")],
           answer: 1,
-          explain: L("A 3 kg block lasts one animal about 5–7 days."),
+          explain: L("A 3 kg block lasts one animal about 5–7 days.", "ఒక 3 కిలోల బ్లాక్ ఒక పశువుకు సుమారు 5–7 రోజులు వస్తుంది."),
         },
         {
           topicId: "t-m14-tmr-practice",
           type: "mcq",
-          q: L("What is one key advantage of feeding a Total Mixed Ration?"),
+          q: L("What is one key advantage of feeding a Total Mixed Ration?", "టోటల్ మిక్స్‌డ్ రేషన్ ఇవ్వడంలో ఒక ముఖ్యమైన ప్రయోజనం ఏమిటి?"),
           options: [
-            L("The animal needs no water"),
-            L("The animal gets a balanced mix in every bite and can't pick out only what it likes"),
-            L("No fodder is needed at all"),
-            L("It is fed only once a week"),
+            L("The animal needs no water", "పశువుకు నీళ్ళు అవసరం లేదు"),
+            L("The animal gets a balanced mix in every bite and can't pick out only what it likes", "పశువుకు ప్రతి ముద్దలో సమతుల్య మిశ్రమం అందుతుంది, నచ్చినవి మాత్రమే ఏరుకుని తినలేదు"),
+            L("No fodder is needed at all", "మేత అసలు అవసరం లేదు"),
+            L("It is fed only once a week", "వారానికి ఒకసారి మాత్రమే ఇస్తారు"),
           ],
           answer: 1,
-          explain: L("TMR gives a balanced ration in every bite, raises intake, reduces selective eating and wastage, and stabilises the rumen."),
+          explain: L("TMR gives a balanced ration in every bite, raises intake, reduces selective eating and wastage, and stabilises the rumen.", "TMR ప్రతి ముద్దలో సమతుల్య రేషన్ ఇస్తుంది, తినడం పెంచుతుంది, ఏరుకుని తినడం, వృథాను తగ్గిస్తుంది, రుమెన్‌ను స్థిరంగా ఉంచుతుంది."),
         },
         {
           topicId: "t-m14-tmr-practice",
           type: "truefalse",
-          q: L("Packaged TMR from milk unions is usually fed at about 15–20 kg per animal per day, depending on milk yield."),
+          q: L("Packaged TMR from milk unions is usually fed at about 15–20 kg per animal per day, depending on milk yield.", "పాల సంఘాల ప్యాకెట్ TMRను పాల దిగుబడిని బట్టి సాధారణంగా ఒక్కో పశువుకు రోజుకు సుమారు 15–20 కిలోలు ఇస్తారు."),
           answer: true,
-          explain: L("Correct — packaged TMR comes in 25–35 kg bags and is fed at 15–20 kg per animal per day based on yield."),
+          explain: L("Correct — packaged TMR comes in 25–35 kg bags and is fed at 15–20 kg per animal per day based on yield.", "సరైనది — ప్యాకెట్ TMR 25–35 కిలోల సంచుల్లో వస్తుంది, దిగుబడిని బట్టి ఒక్కో పశువుకు రోజుకు 15–20 కిలోలు ఇస్తారు."),
         },
       ],
     },
@@ -18469,7 +18301,7 @@ export const MODULES = [
               "ಯೂರಿಯಾ ಸಂಸ್ಕರಣೆ ಏನು ಮಾಡುತ್ತದೆ",
               "यूरिया उपचार क्या करता है"
             ),
-            html: L("<b>Urea treatment</b> is a way of improving the nutritional value of straw before feeding it. Treating straw with a urea solution raises its protein content from under 4 per cent to about 8 per cent — roughly double. Feeding urea-treated straw can also cut down how much extra cattle feed concentrate is needed, by up to about 20 per cent. In simple terms, the treatment turns a bulky, low-value straw into a noticeably better feed."),
+            html: L("<b>Urea treatment</b> is a way of improving the nutritional value of straw before feeding it. Treating straw with a urea solution raises its protein content from under 4 per cent to about 8 per cent — roughly double. Feeding urea-treated straw can also cut down how much extra cattle feed concentrate is needed, by up to about 20 per cent. In simple terms, the treatment turns a bulky, low-value straw into a noticeably better feed.", "<b>యూరియా ట్రీట్‌మెంట్</b> అనేది గడ్డిని తినిపించే ముందు దాని పోషక విలువను పెంచే పద్ధతి. గడ్డిని యూరియా ద్రావణంతో శుద్ధి చేస్తే దాని ప్రోటీన్ 4 శాతం కంటే తక్కువ నుండి సుమారు 8 శాతానికి — సుమారు రెట్టింపు — పెరుగుతుంది. యూరియా కలిపిన గడ్డి ఇస్తే అదనంగా కావలసిన పశుదాణా కూడా సుమారు 20 శాతం వరకు తగ్గుతుంది. సులభంగా చెప్పాలంటే, ఈ పద్ధతి ఎక్కువ పరిమాణం, తక్కువ విలువ గల గడ్డిని గమనించదగినంత మెరుగైన మేతగా మారుస్తుంది."),
           },
           {
             type: "glossary",
@@ -18507,7 +18339,7 @@ export const MODULES = [
               },
               {
                 label: L("Possible feed savings", "సాధ్యమయ్యే దాణా ఆదా", "சாத்தியமான தீவன சேமிப்பு", "ಸಂಭಾವ್ಯ ಆಹಾರ ಉಳಿತಾಯ", "संभावित चारा बचत"),
-                text: L("Can reduce how much extra cattle feed concentrate is needed, by up to about 20 per cent."),
+                text: L("Can reduce how much extra cattle feed concentrate is needed, by up to about 20 per cent.", "అదనంగా కావలసిన పశుదాణాను సుమారు 20 శాతం వరకు తగ్గించగలదు."),
               },
             ],
           },
@@ -18601,7 +18433,7 @@ export const MODULES = [
               "ಅತ್ಯಂತ ಮುಖ್ಯವಾದ ನಿಯಮ: ಯೂರಿಯಾವನ್ನು ಎಂದಿಗೂ ನೇರವಾಗಿ ತಿನ್ನಿಸಬೇಡಿ",
               "सबसे महत्वपूर्ण नियम: यूरिया कभी भी सीधे न खिलाएं"
             ),
-            text: L("Urea itself, or urea solution, must NEVER be fed directly to an animal — on its own, it is fatal. The whole point of the treatment described here is that the urea reacts with and is absorbed into the straw over several weeks of sealed storage, before the straw is ever fed. While preparing the urea solution, always keep it safely out of the reach of animals. Do not feed urea-treated straw to calves under six months of age, and don't feed it together with a urea-molasses lick block (UMMB)."),
+            text: L("Urea itself, or urea solution, must NEVER be fed directly to an animal — on its own, it is fatal. The whole point of the treatment described here is that the urea reacts with and is absorbed into the straw over several weeks of sealed storage, before the straw is ever fed. While preparing the urea solution, always keep it safely out of the reach of animals. Do not feed urea-treated straw to calves under six months of age, and don't feed it together with a urea-molasses lick block (UMMB).", "యూరియాను గానీ, యూరియా ద్రావణాన్ని గానీ పశువుకు నేరుగా ఎప్పుడూ తినిపించకూడదు — అలా ఇస్తే ప్రాణాంతకం. ఇక్కడ చెప్పిన పద్ధతి ఉద్దేశమే, గడ్డిని తినిపించే ముందు, మూసి ఉంచిన నిల్వలో కొన్ని వారాల పాటు యూరియా గడ్డితో చర్య జరిపి అందులో కలిసిపోవడం. యూరియా ద్రావణం తయారుచేసేటప్పుడు ఎప్పుడూ దాన్ని పశువులకు అందనంత దూరంలో సురక్షితంగా ఉంచండి. ఆరు నెలల లోపు దూడలకు యూరియా కలిపిన గడ్డి ఇవ్వవద్దు, యూరియా-మొలాసిస్ నాకే దిమ్మ (UMMB)తో కలిపి కూడా ఇవ్వవద్దు."),
           },
           {
             type: "text",
@@ -18856,7 +18688,7 @@ export const MODULES = [
             "यूरिया-उपचारित भूसा खिलाने से अतिरिक्त पशु आहार की जरूरत कम हो सकती है।"
           ),
           answer: true,
-          explain: L("Yes — urea-treated straw can reduce the extra cattle feed concentrate needed, by up to about 20 per cent."),
+          explain: L("Yes — urea-treated straw can reduce the extra cattle feed concentrate needed, by up to about 20 per cent.", "అవును — యూరియా కలిపిన గడ్డి అదనంగా కావలసిన పశుదాణాను సుమారు 20 శాతం వరకు తగ్గించగలదు."),
         },
         {
           topicId: "t-m15-straw-safety",
@@ -18917,152 +18749,134 @@ export const MODULES = [
   // ==================================================================
   {
     id: "m15-l4",
-    title: L("Alternate Fodder, Better Silage and Straw Blocks"),
+    title: L("Alternate Fodder, Better Silage and Straw Blocks", "ప్రత్యామ్నాయ మేత, మెరుగైన సైలేజ్, గడ్డి దిమ్మలు"),
     estMinutes: 10,
     hook: [
       {
         type: "hero",
-        heading: L("When the Usual Green Fodder Runs Out"),
-        text: L(
-          "Every farm faces months when green fodder is short. Some plants keep producing when others dry up, good silage can carry a farm for months, and even plain straw can be turned into a richer, easier-to-store feed. This lesson covers these practical options from the 2026 NDDB handbook."
-        ),
+        heading: L("When the Usual Green Fodder Runs Out", "సాధారణ పచ్చి మేత అయిపోయినప్పుడు"),
+        text: L("Every farm faces months when green fodder is short. Some plants keep producing when others dry up, good silage can carry a farm for months, and even plain straw can be turned into a richer, easier-to-store feed. This lesson covers these practical options from the 2026 NDDB handbook.", "ప్రతి ఫారానికి పచ్చి మేత కొరత ఉండే నెలలు వస్తాయి. ఇతర మొక్కలు ఎండిపోయినప్పుడు కూడా కొన్ని మొక్కలు దిగుబడి ఇస్తూనే ఉంటాయి, మంచి సైలేజ్ ఫారాన్ని నెలల తరబడి నడిపించగలదు, సాధారణ గడ్డిని కూడా ఎక్కువ పోషకమైన, నిల్వ చేయడానికి సులభమైన మేతగా మార్చవచ్చు. 2026 NDDB హ్యాండ్‌బుక్ నుండి ఈ ఆచరణాత్మక మార్గాలను ఈ పాఠం వివరిస్తుంది."),
       },
     ],
     topics: [
       {
         id: "t-m15-alt-fodder",
-        title: L("Thornless Cactus, Moringa and Other Alternatives"),
+        title: L("Thornless Cactus, Moringa and Other Alternatives", "ముళ్ళు లేని నాగజెముడు, మునగ, ఇతర ప్రత్యామ్నాయాలు"),
         teach: [
           {
             type: "stat-grid",
             items: [
               {
-                label: L("Thornless (fodder) cactus"),
-                text: L(
-                  "Very useful in dry, semi-arid areas — about 90% water. Cut only large, fleshy, 6-month-old pads (cladodes), never uproot the plant; take up to one-third of the pads at a time and wait 6 months before the next harvest. Chop into 2–3 inch pieces, mix with dry fodder, and feed 10–15 kg a day."
-                ),
+                label: L("Thornless (fodder) cactus", "ముళ్ళు లేని (మేత) నాగజెముడు"),
+                text: L("Very useful in dry, semi-arid areas — about 90% water. Cut only large, fleshy, 6-month-old pads (cladodes), never uproot the plant; take up to one-third of the pads at a time and wait 6 months before the next harvest. Chop into 2–3 inch pieces, mix with dry fodder, and feed 10–15 kg a day.", "పొడి, అర్ధ-శుష్క ప్రాంతాల్లో చాలా ఉపయోగకరం — సుమారు 90% నీరు. పెద్ద, కండగల, 6 నెలల వయసు గల ఆకులను (క్లాడోడ్‌లు) మాత్రమే కోయండి, మొక్కను ఎప్పుడూ పెకలించవద్దు; ఒకసారికి మూడో వంతు ఆకుల వరకు మాత్రమే తీసుకుని, తర్వాతి కోతకు 6 నెలలు ఆగండి. 2–3 అంగుళాల ముక్కలుగా కోసి, ఎండుమేతతో కలిపి, రోజుకు 10–15 కిలోలు ఇవ్వండి."),
               },
               {
-                label: L("Moringa"),
-                text: L(
-                  "A protein-rich, multi-cut fodder (about 15% crude protein). First harvest 85–90 days after sowing, cut 30 cm above the ground; then every 55–60 days. Feed 15–20 kg of chaffed moringa a day, mixed with dry fodder."
-                ),
+                label: L("Moringa", "మునగ"),
+                text: L("A protein-rich, multi-cut fodder (about 15% crude protein). First harvest 85–90 days after sowing, cut 30 cm above the ground; then every 55–60 days. Feed 15–20 kg of chaffed moringa a day, mixed with dry fodder.", "ప్రోటీన్ సమృద్ధిగా ఉన్న, చాలాసార్లు కోయగల మేత (సుమారు 15% ముడి ప్రోటీన్). విత్తిన 85–90 రోజులకు మొదటి కోత, నేల నుండి 30 సెం.మీ. ఎత్తులో కోయాలి; తర్వాత ప్రతి 55–60 రోజులకు. ముక్కలుగా కోసిన మునగను రోజుకు 15–20 కిలోలు, ఎండుమేతతో కలిపి ఇవ్వండి."),
               },
               {
-                label: L("Fodder trees"),
-                text: L("Leaves of trees such as Subabul, Khejari, Gliricidia, Agasthi and Kanchnar are a valuable green feed, especially in the lean season."),
+                label: L("Fodder trees", "మేత చెట్లు"),
+                text: L("Leaves of trees such as Subabul, Khejari, Gliricidia, Agasthi and Kanchnar are a valuable green feed, especially in the lean season.", "సుబాబుల్, ఖేజ్రీ, గ్లిరిసిడియా, అవిసె, కాంచనార్ వంటి చెట్ల ఆకులు విలువైన పచ్చి మేత, ముఖ్యంగా కొరత కాలంలో."),
               },
             ],
           },
           {
             type: "text",
-            heading: L("Good Seed and Mixed Cropping"),
-            html: L(
-              "Quality fodder seed germinates better, resists disease and gives higher, steadier yields. Farmers can get good seed and cuttings from <b>milk unions / dairy cooperatives</b>, <b>state agricultural universities and ICAR fodder institutes</b>, and <b>Krishi Vigyan Kendras (KVKs)</b>. Growing a cereal and a legume together (intercropping) improves both yield and protein — for example <b>maize, sorghum or bajra with cowpea or cluster bean</b> in a 1:1 or 2:1 row ratio in the kharif season, and <b>oat with berseem</b> in rabi."
-            ),
+            heading: L("Good Seed and Mixed Cropping", "మంచి విత్తనం, మిశ్రమ పంటలు"),
+            html: L("Quality fodder seed germinates better, resists disease and gives higher, steadier yields. Farmers can get good seed and cuttings from <b>milk unions / dairy cooperatives</b>, <b>state agricultural universities and ICAR fodder institutes</b>, and <b>Krishi Vigyan Kendras (KVKs)</b>. Growing a cereal and a legume together (intercropping) improves both yield and protein — for example <b>maize, sorghum or bajra with cowpea or cluster bean</b> in a 1:1 or 2:1 row ratio in the kharif season, and <b>oat with berseem</b> in rabi.", "నాణ్యమైన మేత విత్తనం బాగా మొలకెత్తుతుంది, వ్యాధులను తట్టుకుంటుంది, ఎక్కువ, నిలకడైన దిగుబడి ఇస్తుంది. రైతులు మంచి విత్తనం, కొమ్మలను <b>పాల సంఘాలు / పాడి సహకార సంఘాలు</b>, <b>రాష్ట్ర వ్యవసాయ విశ్వవిద్యాలయాలు, ICAR మేత సంస్థలు</b>, <b>కృషి విజ్ఞాన కేంద్రాలు (KVKలు)</b> నుండి పొందవచ్చు. ధాన్యపు పంట, పప్పుజాతి పంటను కలిపి పండిస్తే (అంతర పంట) దిగుబడి, ప్రోటీన్ రెండూ మెరుగుపడతాయి — ఉదాహరణకు ఖరీఫ్‌లో <b>మొక్కజొన్న, జొన్న లేదా సజ్జతో అలసంద లేదా గోరుచిక్కుడు</b> 1:1 లేదా 2:1 వరుసల నిష్పత్తిలో, రబీలో <b>ఓట్స్‌తో బెర్సీమ్</b>."),
           },
           {
             type: "callout",
             style: "tip",
-            heading: L("Plan the Year: A Fodder Calendar"),
-            text: L(
-              "The NDDB guideline recommends a seasonal fodder calendar that mixes annual and perennial crops, so there is green fodder every month — with silage or hay saved from the surplus months for the lean ones. Keeping a record of crops, area and yield makes the next year's plan easier."
-            ),
+            heading: L("Plan the Year: A Fodder Calendar", "సంవత్సరాన్ని ప్రణాళిక చేయండి: మేత క్యాలెండర్"),
+            text: L("The NDDB guideline recommends a seasonal fodder calendar that mixes annual and perennial crops, so there is green fodder every month — with silage or hay saved from the surplus months for the lean ones. Keeping a record of crops, area and yield makes the next year's plan easier.", "ప్రతి నెలా పచ్చి మేత ఉండేలా, వార్షిక, బహువార్షిక పంటలను కలిపే కాలానుగుణ మేత క్యాలెండర్‌ను NDDB మార్గదర్శకం సిఫార్సు చేస్తుంది — మిగులు నెలల నుండి సైలేజ్ లేదా ఎండుగడ్డిని కొరత నెలల కోసం దాచి ఉంచాలి. పంటలు, విస్తీర్ణం, దిగుబడి రికార్డు ఉంచితే తర్వాతి సంవత్సరం ప్రణాళిక సులభమవుతుంది."),
           },
         ],
         check: [
           {
             type: "truefalse",
-            q: L("When harvesting thornless cactus for fodder, the whole plant should be uprooted."),
+            q: L("When harvesting thornless cactus for fodder, the whole plant should be uprooted.", "మేత కోసం ముళ్ళు లేని నాగజెముడును కోసేటప్పుడు మొక్క మొత్తాన్ని పెకలించాలి."),
             answer: false,
-            explain: L("No — only large, 6-month-old pads are cut, up to one-third of the pads at a time, so the plant keeps producing."),
+            explain: L("No — only large, 6-month-old pads are cut, up to one-third of the pads at a time, so the plant keeps producing.", "కాదు — పెద్ద, 6 నెలల వయసు గల ఆకులను మాత్రమే, ఒకసారికి మూడో వంతు వరకు కోస్తారు, అప్పుడు మొక్క దిగుబడి ఇస్తూనే ఉంటుంది."),
           },
           {
             type: "mcq",
-            q: L("How much chaffed moringa can be fed to one animal per day?"),
-            options: [L("200 g"), L("60 kg alone"), L("15–20 kg, mixed with dry fodder"), L("Moringa should never be fed")],
+            q: L("How much chaffed moringa can be fed to one animal per day?", "ముక్కలుగా కోసిన మునగను ఒక పశువుకు రోజుకు ఎంత ఇవ్వవచ్చు?"),
+            options: [L("200 g", "200 గ్రా."), L("60 kg alone", "ఒక్కటే 60 కిలోలు"), L("15–20 kg, mixed with dry fodder", "15–20 కిలోలు, ఎండుమేతతో కలిపి"), L("Moringa should never be fed", "మునగను ఎప్పుడూ ఇవ్వకూడదు")],
             answer: 2,
-            explain: L("15–20 kg of chaffed moringa can be fed daily, mixed with dry fodder."),
+            explain: L("15–20 kg of chaffed moringa can be fed daily, mixed with dry fodder.", "ముక్కలుగా కోసిన మునగను రోజూ 15–20 కిలోలు, ఎండుమేతతో కలిపి ఇవ్వవచ్చు."),
           },
         ],
       },
       {
         id: "t-m15-silage-quality",
-        title: L("Making Silage That Keeps Well"),
+        title: L("Making Silage That Keeps Well", "బాగా నిల్వ ఉండే సైలేజ్ తయారీ"),
         teach: [
           {
             type: "stat-grid",
             items: [
-              { label: L("Crop"), text: L("Cereal fodders such as maize, sorghum, bajra and oats — rich in sugars.") },
+              { label: L("Crop", "పంట"), text: L("Cereal fodders such as maize, sorghum, bajra and oats — rich in sugars.", "మొక్కజొన్న, జొన్న, సజ్జ, ఓట్స్ వంటి ధాన్యపు మేతలు — చక్కెరలు సమృద్ధిగా ఉంటాయి.") },
               {
-                label: L("Harvest stage"),
-                text: L("Between the milk and dough stage, when the crop is about 30–35% dry matter. For maize, harvest when the milk line in the grain is about half to two-thirds of the way down (check from about 75–90 days)."),
+                label: L("Harvest stage", "కోత దశ"),
+                text: L("Between the milk and dough stage, when the crop is about 30–35% dry matter. For maize, harvest when the milk line in the grain is about half to two-thirds of the way down (check from about 75–90 days).", "పాలు, ముద్ద దశల మధ్య, పంటలో సుమారు 30–35% పొడి పదార్థం ఉన్నప్పుడు. మొక్కజొన్నకు, గింజలో పాల గీత సుమారు సగం నుండి మూడింట రెండు వంతుల వరకు కిందకు వచ్చినప్పుడు కోయండి (సుమారు 75–90 రోజుల నుండి చూడండి)."),
               },
-              { label: L("Wilt and chop"), text: L("Cut about 10 cm above the ground, let it wilt for about half a day if very wet, and chop into small pieces with a chaff cutter.") },
-              { label: L("Pit size"), text: L("A pit of 1 m × 1 m × 1 m holds about 500–600 kg of chopped fodder.") },
-              { label: L("Fill and press"), text: L("Fill in layers of about 10 cm, pressing each one hard (by feet or tractor) to push out air.") },
-              { label: L("Seal"), text: L("Cover with polythene and about 5 inches of moist soil; fill any cracks that appear. Ready in about 45 days.") },
+              { label: L("Wilt and chop", "వాడబెట్టి, ముక్కలు చేయండి"), text: L("Cut about 10 cm above the ground, let it wilt for about half a day if very wet, and chop into small pieces with a chaff cutter.", "నేల నుండి సుమారు 10 సెం.మీ. ఎత్తులో కోసి, చాలా తడిగా ఉంటే సుమారు సగం రోజు వాడనివ్వండి, చాఫ్ కట్టర్‌తో చిన్న ముక్కలుగా కోయండి.") },
+              { label: L("Pit size", "గుంత పరిమాణం"), text: L("A pit of 1 m × 1 m × 1 m holds about 500–600 kg of chopped fodder.", "1 మీ. × 1 మీ. × 1 మీ. గుంతలో సుమారు 500–600 కిలోల ముక్కలు చేసిన మేత పడుతుంది.") },
+              { label: L("Fill and press", "నింపి, నొక్కండి"), text: L("Fill in layers of about 10 cm, pressing each one hard (by feet or tractor) to push out air.", "సుమారు 10 సెం.మీ. పొరలుగా నింపి, గాలి బయటకు పోయేలా ప్రతి పొరను గట్టిగా (కాళ్ళతో లేదా ట్రాక్టర్‌తో) నొక్కండి.") },
+              { label: L("Seal", "మూసివేయండి"), text: L("Cover with polythene and about 5 inches of moist soil; fill any cracks that appear. Ready in about 45 days.", "పాలిథీన్‌తో, దాని మీద సుమారు 5 అంగుళాల తడి మట్టితో కప్పండి; ఏవైనా పగుళ్ళు వస్తే పూడ్చండి. సుమారు 45 రోజుల్లో సిద్ధమవుతుంది.") },
             ],
           },
           {
             type: "callout",
             style: "info",
-            heading: L("What Good Silage Looks and Smells Like"),
-            text: L(
-              "Good silage is golden yellow, has a pleasant fruity smell, and is sour (pH about 3.5–4.2). Black, slimy, mouldy or foul-smelling silage should not be fed — spoiled silage can even cause botulism. Additives such as molasses or salt are normally not needed; they are used mainly when the crop wasn't cut at the right stage."
-            ),
+            heading: L("What Good Silage Looks and Smells Like", "మంచి సైలేజ్ ఎలా కనిపిస్తుంది, ఎలా వాసన వస్తుంది"),
+            text: L("Good silage is golden yellow, has a pleasant fruity smell, and is sour (pH about 3.5–4.2). Black, slimy, mouldy or foul-smelling silage should not be fed — spoiled silage can even cause botulism. Additives such as molasses or salt are normally not needed; they are used mainly when the crop wasn't cut at the right stage.", "మంచి సైలేజ్ బంగారు పసుపు రంగులో ఉంటుంది, ఆహ్లాదకరమైన పండ్ల వాసన వస్తుంది, పుల్లగా ఉంటుంది (pH సుమారు 3.5–4.2). నల్లగా, జిగటగా, బూజు పట్టిన లేదా దుర్వాసన వచ్చే సైలేజ్ ఇవ్వకూడదు — చెడిపోయిన సైలేజ్ బోట్యులిజం కూడా కలిగించవచ్చు. మొలాసిస్ లేదా ఉప్పు వంటి కలుపులు సాధారణంగా అవసరం లేదు; పంటను సరైన దశలో కోయనప్పుడు ప్రధానంగా వాడతారు."),
           },
           {
             type: "text",
-            heading: L("Feeding Silage"),
-            html: L(
-              "Open the pit from one side only, take out the day's need, and cover it again. Introduce it slowly — the handbook FAQ suggests starting at <b>2–3 kg a day</b> (and no more than 5–10 kg a day for the first few days) — then increase; a high yielder can get <b>15–20 kg</b>. Silage is also now sold in <b>bags and bales</b> by cooperatives and entrepreneurs, which is easier for small farmers who can't build a pit."
-            ),
+            heading: L("Feeding Silage", "సైలేజ్ ఇవ్వడం"),
+            html: L("Open the pit from one side only, take out the day's need, and cover it again. Introduce it slowly — the handbook FAQ suggests starting at <b>2–3 kg a day</b> (and no more than 5–10 kg a day for the first few days) — then increase; a high yielder can get <b>15–20 kg</b>. Silage is also now sold in <b>bags and bales</b> by cooperatives and entrepreneurs, which is easier for small farmers who can't build a pit.", "గుంతను ఒక వైపు నుండి మాత్రమే తెరిచి, ఆ రోజుకు కావలసినంత తీసి, మళ్ళీ కప్పండి. నెమ్మదిగా అలవాటు చేయండి — హ్యాండ్‌బుక్ FAQ <b>రోజుకు 2–3 కిలోలతో</b> మొదలుపెట్టాలని సూచిస్తుంది (మొదటి కొన్ని రోజులు రోజుకు 5–10 కిలోల కంటే ఎక్కువ వద్దు) — తర్వాత పెంచండి; ఎక్కువ పాలిచ్చే పశువుకు <b>15–20 కిలోలు</b> ఇవ్వవచ్చు. సహకార సంఘాలు, వ్యాపారులు సైలేజ్‌ను ఇప్పుడు <b>సంచులు, బేళ్ళ</b>లో కూడా అమ్ముతున్నారు, గుంత కట్టలేని చిన్న రైతులకు ఇది సులభం."),
           },
         ],
         check: [
           {
             type: "mcq",
-            q: L("What does good quality silage look and smell like?"),
-            options: [L("Golden yellow with a fruity smell"), L("Black and slimy"), L("White and mouldy"), L("Bright green with no smell")],
+            q: L("What does good quality silage look and smell like?", "మంచి నాణ్యత గల సైలేజ్ ఎలా కనిపిస్తుంది, ఎలా వాసన వస్తుంది?"),
+            options: [L("Golden yellow with a fruity smell", "పండ్ల వాసనతో బంగారు పసుపు రంగు"), L("Black and slimy", "నల్లగా, జిగటగా"), L("White and mouldy", "తెల్లగా, బూజు పట్టి"), L("Bright green with no smell", "వాసన లేకుండా ప్రకాశవంతమైన ఆకుపచ్చ")],
             answer: 0,
-            explain: L("Good silage is golden yellow, smells fruity, and has a pH of about 3.5–4.2."),
+            explain: L("Good silage is golden yellow, smells fruity, and has a pH of about 3.5–4.2.", "మంచి సైలేజ్ బంగారు పసుపు రంగులో, పండ్ల వాసనతో, pH సుమారు 3.5–4.2తో ఉంటుంది."),
           },
           {
             type: "mcq",
-            q: L("About how much chopped fodder fits in a 1 × 1 × 1 metre silo pit?"),
-            options: [L("500–600 kg"), L("5–6 kg"), L("5,000–6,000 kg"), L("50 kg")],
+            q: L("About how much chopped fodder fits in a 1 × 1 × 1 metre silo pit?", "1 × 1 × 1 మీటర్ సైలో గుంతలో సుమారు ఎంత ముక్కలు చేసిన మేత పడుతుంది?"),
+            options: [L("500–600 kg", "500–600 కిలోలు"), L("5–6 kg", "5–6 కిలోలు"), L("5,000–6,000 kg", "5,000–6,000 కిలోలు"), L("50 kg", "50 కిలోలు")],
             answer: 0,
-            explain: L("One cubic metre holds about 500–600 kg of well-pressed chopped fodder."),
+            explain: L("One cubic metre holds about 500–600 kg of well-pressed chopped fodder.", "ఒక ఘన మీటరులో బాగా నొక్కిన, ముక్కలు చేసిన మేత సుమారు 500–600 కిలోలు పడుతుంది."),
           },
         ],
       },
       {
         id: "t-m15-straw-blocks",
-        title: L("Straw Blocks, Pellets and Saving Crop Residue"),
+        title: L("Straw Blocks, Pellets and Saving Crop Residue", "గడ్డి దిమ్మలు, గుళికలు, పంట అవశేషాల ఆదా"),
         teach: [
           {
             type: "text",
-            heading: L("Turning Bulky Straw Into a Better Feed"),
-            html: L(
-              "Straw is cheap and plentiful but bulky and low in nutrition. Dairy cooperatives now make <b>straw-based blocks and pellets</b> — straw enriched with concentrate, molasses and minerals, then pressed. They take <b>2–3 times less storage space</b>, cost less to transport, and give a more balanced feed. They can be fed at about <b>8–12 kg per animal per day</b>, depending on milk production."
-            ),
+            heading: L("Turning Bulky Straw Into a Better Feed", "ఎక్కువ పరిమాణం గల గడ్డిని మెరుగైన మేతగా మార్చడం"),
+            html: L("Straw is cheap and plentiful but bulky and low in nutrition. Dairy cooperatives now make <b>straw-based blocks and pellets</b> — straw enriched with concentrate, molasses and minerals, then pressed. They take <b>2–3 times less storage space</b>, cost less to transport, and give a more balanced feed. They can be fed at about <b>8–12 kg per animal per day</b>, depending on milk production.", "గడ్డి చౌకగా, సమృద్ధిగా దొరుకుతుంది కానీ పరిమాణం ఎక్కువ, పోషణ తక్కువ. పాడి సహకార సంఘాలు ఇప్పుడు <b>గడ్డి ఆధారిత దిమ్మలు, గుళికలు</b> తయారు చేస్తున్నాయి — దాణా, మొలాసిస్, ఖనిజాలతో సమృద్ధి చేసి నొక్కిన గడ్డి. వీటికి <b>2–3 రెట్లు తక్కువ నిల్వ స్థలం</b> చాలు, రవాణా ఖర్చు తక్కువ, మరింత సమతుల్యమైన మేత అందుతుంది. పాల ఉత్పత్తిని బట్టి <b>ఒక్కో పశువుకు రోజుకు సుమారు 8–12 కిలోలు</b> ఇవ్వవచ్చు."),
           },
           {
             type: "callout",
             style: "info",
-            heading: L("Don't Burn It — Collect It"),
-            text: L(
-              "After combine harvesting, a lot of straw is left in the field and often burnt. Tractor-driven balers, flail mowers and reaper binders can collect it as bales or loose straw instead, saving fodder and reducing pollution. Small bales of 10–20 kg are easy to handle and store."
-            ),
+            heading: L("Don't Burn It — Collect It", "కాల్చవద్దు — సేకరించండి"),
+            text: L("After combine harvesting, a lot of straw is left in the field and often burnt. Tractor-driven balers, flail mowers and reaper binders can collect it as bales or loose straw instead, saving fodder and reducing pollution. Small bales of 10–20 kg are easy to handle and store.", "కంబైన్ హార్వెస్టర్‌తో కోసిన తర్వాత, చాలా గడ్డి పొలంలో మిగిలిపోతుంది, తరచుగా కాల్చేస్తారు. ట్రాక్టర్‌తో నడిచే బేలర్లు, ఫ్లెయిల్ మోవర్లు, రీపర్ బైండర్లు బదులుగా దాన్ని బేళ్ళుగా లేదా వదులు గడ్డిగా సేకరించగలవు, దాంతో మేత ఆదా అవుతుంది, కాలుష్యం తగ్గుతుంది. 10–20 కిలోల చిన్న బేళ్ళను నిర్వహించడం, నిల్వ చేయడం సులభం."),
           },
         ],
         check: [
           {
             type: "truefalse",
-            q: L("Enriched, densified straw blocks need much less storage space than loose straw."),
+            q: L("Enriched, densified straw blocks need much less storage space than loose straw.", "సమృద్ధి చేసిన, నొక్కిన గడ్డి దిమ్మలకు వదులు గడ్డి కంటే చాలా తక్కువ నిల్వ స్థలం చాలు."),
             answer: true,
-            explain: L("Yes — they need 2–3 times less storage space and are cheaper to transport."),
+            explain: L("Yes — they need 2–3 times less storage space and are cheaper to transport.", "అవును — వాటికి 2–3 రెట్లు తక్కువ నిల్వ స్థలం చాలు, రవాణా ఖర్చు కూడా తక్కువ."),
           },
         ],
       },
@@ -19073,49 +18887,49 @@ export const MODULES = [
         {
           topicId: "t-m15-alt-fodder",
           type: "mcq",
-          q: L("How much chopped thornless cactus can be fed to an animal per day?"),
-          options: [L("100 kg"), L("None — cactus is poisonous"), L("500 g"), L("10–15 kg, mixed with dry fodder")],
+          q: L("How much chopped thornless cactus can be fed to an animal per day?", "ముక్కలు చేసిన ముళ్ళు లేని నాగజెముడును ఒక పశువుకు రోజుకు ఎంత ఇవ్వవచ్చు?"),
+          options: [L("100 kg", "100 కిలోలు"), L("None — cactus is poisonous", "ఏమీ వద్దు — నాగజెముడు విషపూరితం"), L("500 g", "500 గ్రా."), L("10–15 kg, mixed with dry fodder", "10–15 కిలోలు, ఎండుమేతతో కలిపి")],
           answer: 3,
-          explain: L("10–15 kg of chopped thornless cactus, mixed with dry fodder, can be fed daily."),
+          explain: L("10–15 kg of chopped thornless cactus, mixed with dry fodder, can be fed daily.", "ముక్కలు చేసిన ముళ్ళు లేని నాగజెముడును రోజూ 10–15 కిలోలు, ఎండుమేతతో కలిపి ఇవ్వవచ్చు."),
         },
         {
           topicId: "t-m15-alt-fodder",
           type: "mcq",
-          q: L("Which of these is a recommended source of quality fodder seed?"),
-          options: [L("Any roadside seller with no label"), L("Seeds saved from spoiled silage"), L("Krishi Vigyan Kendras (KVKs)"), L("Grain from the cattle feed bag")],
+          q: L("Which of these is a recommended source of quality fodder seed?", "వీటిలో నాణ్యమైన మేత విత్తనానికి సిఫార్సు చేయబడిన మూలం ఏది?"),
+          options: [L("Any roadside seller with no label", "లేబుల్ లేని ఏ రోడ్డు పక్క అమ్మకందారైనా"), L("Seeds saved from spoiled silage", "చెడిపోయిన సైలేజ్ నుండి దాచిన విత్తనాలు"), L("Krishi Vigyan Kendras (KVKs)", "కృషి విజ్ఞాన కేంద్రాలు (KVKలు)"), L("Grain from the cattle feed bag", "పశుదాణా సంచిలోని ధాన్యం")],
           answer: 2,
-          explain: L("Milk unions, agricultural universities / ICAR institutes and KVKs are good sources of quality fodder seed."),
+          explain: L("Milk unions, agricultural universities / ICAR institutes and KVKs are good sources of quality fodder seed.", "పాల సంఘాలు, వ్యవసాయ విశ్వవిద్యాలయాలు / ICAR సంస్థలు, KVKలు నాణ్యమైన మేత విత్తనానికి మంచి మూలాలు."),
         },
         {
           topicId: "t-m15-silage-quality",
           type: "truefalse",
-          q: L("Silage is ready to feed about 45 days after the pit is filled and sealed."),
+          q: L("Silage is ready to feed about 45 days after the pit is filled and sealed.", "గుంతను నింపి మూసివేసిన సుమారు 45 రోజుల తర్వాత సైలేజ్ తినిపించడానికి సిద్ధమవుతుంది."),
           answer: true,
-          explain: L("Correct — after about 45 days sealed, the silage is ready."),
+          explain: L("Correct — after about 45 days sealed, the silage is ready.", "సరైనది — సుమారు 45 రోజులు మూసి ఉంచిన తర్వాత సైలేజ్ సిద్ధమవుతుంది."),
         },
         {
           topicId: "t-m15-silage-quality",
           type: "mcq",
-          q: L("Why is chopped fodder pressed hard in thin layers when filling a silo?"),
-          options: [L("To push out the air"), L("To make it dry faster"), L("To let rain in"), L("It isn't necessary")],
+          q: L("Why is chopped fodder pressed hard in thin layers when filling a silo?", "సైలోను నింపేటప్పుడు ముక్కలు చేసిన మేతను సన్నని పొరలుగా ఎందుకు గట్టిగా నొక్కుతారు?"),
+          options: [L("To push out the air", "గాలిని బయటకు పంపడానికి"), L("To make it dry faster", "త్వరగా ఎండడానికి"), L("To let rain in", "వాన నీరు లోపలికి రావడానికి"), L("It isn't necessary", "అది అవసరం లేదు")],
           answer: 0,
-          explain: L("Silage depends on keeping air out; pressing in about 10 cm layers removes air pockets."),
+          explain: L("Silage depends on keeping air out; pressing in about 10 cm layers removes air pockets.", "సైలేజ్ గాలి లోపలికి రాకుండా ఉంచడంపై ఆధారపడుతుంది; సుమారు 10 సెం.మీ. పొరలుగా నొక్కితే గాలి ఖాళీలు పోతాయి."),
         },
         {
           topicId: "t-m15-silage-quality",
           type: "mcq",
-          q: L("How should silage be introduced into an animal's diet?"),
-          options: [L("Start small and increase gradually"), L("Give 30 kg on the first day"), L("Only to calves"), L("Mixed with urea")],
+          q: L("How should silage be introduced into an animal's diet?", "పశువు ఆహారంలో సైలేజ్‌ను ఎలా అలవాటు చేయాలి?"),
+          options: [L("Start small and increase gradually", "కొంచెంతో మొదలుపెట్టి క్రమంగా పెంచాలి"), L("Give 30 kg on the first day", "మొదటి రోజే 30 కిలోలు ఇవ్వాలి"), L("Only to calves", "దూడలకు మాత్రమే"), L("Mixed with urea", "యూరియాతో కలిపి")],
           answer: 0,
-          explain: L("Start at about 2–3 kg a day and build up; high yielders can later get 15–20 kg."),
+          explain: L("Start at about 2–3 kg a day and build up; high yielders can later get 15–20 kg.", "రోజుకు సుమారు 2–3 కిలోలతో మొదలుపెట్టి పెంచండి; ఎక్కువ పాలిచ్చే పశువులకు తర్వాత 15–20 కిలోలు ఇవ్వవచ్చు."),
         },
         {
           topicId: "t-m15-straw-blocks",
           type: "mcq",
-          q: L("About how much enriched straw block or pellet feed can be given per animal per day?"),
-          options: [L("8–12 kg, depending on milk yield"), L("100 g"), L("50 kg"), L("It can't be fed to dairy animals")],
+          q: L("About how much enriched straw block or pellet feed can be given per animal per day?", "సమృద్ధి చేసిన గడ్డి దిమ్మ లేదా గుళికల మేతను ఒక్కో పశువుకు రోజుకు సుమారు ఎంత ఇవ్వవచ్చు?"),
+          options: [L("8–12 kg, depending on milk yield", "పాల దిగుబడిని బట్టి 8–12 కిలోలు"), L("100 g", "100 గ్రా."), L("50 kg", "50 కిలోలు"), L("It can't be fed to dairy animals", "పాడి పశువులకు ఇవ్వలేము")],
           answer: 0,
-          explain: L("Straw-based blocks/pellets enriched with concentrate and molasses can be fed at 8–12 kg per animal per day."),
+          explain: L("Straw-based blocks/pellets enriched with concentrate and molasses can be fed at 8–12 kg per animal per day.", "దాణా, మొలాసిస్‌తో సమృద్ధి చేసిన గడ్డి ఆధారిత దిమ్మలు/గుళికలను ఒక్కో పశువుకు రోజుకు 8–12 కిలోలు ఇవ్వవచ్చు."),
         },
       ],
     },
@@ -20079,115 +19893,103 @@ export const MODULES = [
   // ==================================================================
   {
     id: "m16-l3",
-    title: L("Heat Stress: Measuring It and Beating It"),
+    title: L("Heat Stress: Measuring It and Beating It", "వేడి ఒత్తిడి: కొలవడం, ఎదుర్కోవడం"),
     estMinutes: 9,
     hook: [
       {
         type: "hero",
-        heading: L("Summer Heat Quietly Steals Milk"),
-        text: L(
-          "In hot weather, animals eat less, pant, drink more, give less milk and have more trouble getting pregnant — and in severe cases they can die. High-yielding crossbred and exotic animals suffer most. This lesson shows how to score how badly an animal is affected, how temperature and humidity together decide the danger, and the practical steps that keep animals cool."
-        ),
+        heading: L("Summer Heat Quietly Steals Milk", "వేసవి వేడి నిశ్శబ్దంగా పాలను దోచుకుంటుంది"),
+        text: L("In hot weather, animals eat less, pant, drink more, give less milk and have more trouble getting pregnant — and in severe cases they can die. High-yielding crossbred and exotic animals suffer most. This lesson shows how to score how badly an animal is affected, how temperature and humidity together decide the danger, and the practical steps that keep animals cool.", "వేడి వాతావరణంలో పశువులు తక్కువ తింటాయి, ఆయాసపడతాయి, ఎక్కువ నీళ్ళు తాగుతాయి, తక్కువ పాలు ఇస్తాయి, చూడి కట్టడానికి ఎక్కువ ఇబ్బంది పడతాయి — తీవ్రమైన సందర్భాల్లో చనిపోవచ్చు కూడా. ఎక్కువ పాలిచ్చే సంకర జాతి, విదేశీ జాతి పశువులు ఎక్కువగా బాధపడతాయి. పశువుపై ఎంత ప్రభావం ఉందో స్కోర్ చేయడం, ఉష్ణోగ్రత, తేమ కలిసి ప్రమాదాన్ని ఎలా నిర్ణయిస్తాయి, పశువులను చల్లగా ఉంచే ఆచరణాత్మక చర్యలను ఈ పాఠం చూపిస్తుంది."),
       },
     ],
     topics: [
       {
         id: "t-m16-heat-measure",
-        title: L("Reading the Signs: Panting Score and THI"),
+        title: L("Reading the Signs: Panting Score and THI", "లక్షణాలను చదవడం: ఆయాసం స్కోర్, THI"),
         teach: [
           {
             type: "text",
-            heading: L("What Heat Stress Does"),
-            html: L(
-              "Body temperature rises, feed intake drops, the animal sweats and pants, its pulse speeds up, and it drinks much more water. Milk production and breeding efficiency both fall. The NDDB guideline notes that during heat stress <b>dry matter intake can fall by 20–30%</b> while the animal's <b>energy need rises by about 30%</b>, and <b>water intake can rise by 50–100%</b>."
-            ),
+            heading: L("What Heat Stress Does", "వేడి ఒత్తిడి ఏమి చేస్తుంది"),
+            html: L("Body temperature rises, feed intake drops, the animal sweats and pants, its pulse speeds up, and it drinks much more water. Milk production and breeding efficiency both fall. The NDDB guideline notes that during heat stress <b>dry matter intake can fall by 20–30%</b> while the animal's <b>energy need rises by about 30%</b>, and <b>water intake can rise by 50–100%</b>.", "శరీర ఉష్ణోగ్రత పెరుగుతుంది, మేత తినడం తగ్గుతుంది, పశువు చెమట పడుతుంది, ఆయాసపడుతుంది, నాడి వేగంగా కొట్టుకుంటుంది, చాలా ఎక్కువ నీళ్ళు తాగుతుంది. పాల ఉత్పత్తి, సంతానోత్పత్తి సామర్థ్యం రెండూ తగ్గుతాయి. వేడి ఒత్తిడి సమయంలో <b>పొడి పదార్థం తీసుకోవడం 20–30% తగ్గవచ్చు</b>, అదే సమయంలో పశువుకు <b>శక్తి అవసరం సుమారు 30% పెరుగుతుంది</b>, <b>నీళ్ళు తాగడం 50–100% పెరగవచ్చు</b> అని NDDB మార్గదర్శకం పేర్కొంటుంది."),
           },
           {
             type: "stat-grid",
             items: [
-              { label: L("Score 0 — under 40 breaths/min"), text: L("No panting; chest movement hard to see. Normal.") },
-              { label: L("Score 1 — 40–70 breaths/min"), text: L("Slight panting, mouth closed, no drool. Chest movement easy to see.") },
-              { label: L("Score 2 to 2.5 — 70–120 breaths/min"), text: L("Fast panting with drool or foam; at 2.5 the mouth opens now and then.") },
-              { label: L("Score 3 to 3.5 — 120–160+ breaths/min"), text: L("Open mouth, drooling, neck stretched and head up; at 3.5 the tongue starts to come out.") },
-              { label: L("Score 4 to 4.5 — danger"), text: L("Tongue fully out for long periods, heavy drooling. At 4.5 the head drops and the animal breathes from the flank — an emergency.") },
+              { label: L("Score 0 — under 40 breaths/min", "స్కోర్ 0 — నిమిషానికి 40 శ్వాసల కంటే తక్కువ"), text: L("No panting; chest movement hard to see. Normal.", "ఆయాసం లేదు; ఛాతీ కదలిక చూడడం కష్టం. సాధారణం.") },
+              { label: L("Score 1 — 40–70 breaths/min", "స్కోర్ 1 — నిమిషానికి 40–70 శ్వాసలు"), text: L("Slight panting, mouth closed, no drool. Chest movement easy to see.", "కొంచెం ఆయాసం, నోరు మూసి ఉంటుంది, చొంగ లేదు. ఛాతీ కదలిక సులభంగా కనిపిస్తుంది.") },
+              { label: L("Score 2 to 2.5 — 70–120 breaths/min", "స్కోర్ 2 నుండి 2.5 — నిమిషానికి 70–120 శ్వాసలు"), text: L("Fast panting with drool or foam; at 2.5 the mouth opens now and then.", "చొంగ లేదా నురుగుతో వేగంగా ఆయాసం; 2.5 వద్ద అప్పుడప్పుడు నోరు తెరుస్తుంది.") },
+              { label: L("Score 3 to 3.5 — 120–160+ breaths/min", "స్కోర్ 3 నుండి 3.5 — నిమిషానికి 120–160+ శ్వాసలు"), text: L("Open mouth, drooling, neck stretched and head up; at 3.5 the tongue starts to come out.", "నోరు తెరిచి, చొంగ కారుస్తూ, మెడ చాచి, తల పైకి; 3.5 వద్ద నాలుక బయటకు రావడం మొదలవుతుంది.") },
+              { label: L("Score 4 to 4.5 — danger", "స్కోర్ 4 నుండి 4.5 — ప్రమాదం"), text: L("Tongue fully out for long periods, heavy drooling. At 4.5 the head drops and the animal breathes from the flank — an emergency.", "ఎక్కువ సేపు నాలుక పూర్తిగా బయటకు, ఎక్కువగా చొంగ. 4.5 వద్ద తల కిందకు వాలుతుంది, పశువు పార్శ్వం (డొక్క) నుండి శ్వాస తీసుకుంటుంది — అత్యవసర పరిస్థితి.") },
             ],
           },
           {
             type: "glossary",
-            term: L("THI (Temperature–Humidity Index)"),
-            meaning: L(
-              "A single number combining air temperature and humidity. The more humid the air at a given temperature, the harder it is for an animal to cool itself. It can be worked out from a simple digital hygrometer reading."
-            ),
+            term: L("THI (Temperature–Humidity Index)", "THI (ఉష్ణోగ్రత–తేమ సూచిక)"),
+            meaning: L("A single number combining air temperature and humidity. The more humid the air at a given temperature, the harder it is for an animal to cool itself. It can be worked out from a simple digital hygrometer reading.", "గాలి ఉష్ణోగ్రత, తేమను కలిపిన ఒకే సంఖ్య. ఒక ఉష్ణోగ్రత వద్ద గాలిలో తేమ ఎంత ఎక్కువైతే, పశువు తనను తాను చల్లబరచుకోవడం అంత కష్టం. సాధారణ డిజిటల్ హైగ్రోమీటర్ రీడింగ్ నుండి దీన్ని లెక్కించవచ్చు."),
           },
           {
             type: "callout",
             style: "warning",
-            heading: L("Two Numbers to Remember: 72 and 89"),
-            text: L(
-              "Milk production starts to suffer above a THI of 72 — which can happen at just 23°C if the humidity is 80%. At a THI of 89, the animal is on the edge of severe heat stress. So a humid 30°C day can be more dangerous than a dry 35°C day."
-            ),
+            heading: L("Two Numbers to Remember: 72 and 89", "గుర్తుంచుకోవాల్సిన రెండు సంఖ్యలు: 72, 89"),
+            text: L("Milk production starts to suffer above a THI of 72 — which can happen at just 23°C if the humidity is 80%. At a THI of 89, the animal is on the edge of severe heat stress. So a humid 30°C day can be more dangerous than a dry 35°C day.", "THI 72 దాటితే పాల ఉత్పత్తి దెబ్బతినడం మొదలవుతుంది — తేమ 80% ఉంటే కేవలం 23°C వద్ద కూడా ఇది జరగవచ్చు. THI 89 వద్ద పశువు తీవ్ర వేడి ఒత్తిడి అంచున ఉంటుంది. కాబట్టి తేమతో కూడిన 30°C రోజు పొడిగా ఉన్న 35°C రోజు కంటే ప్రమాదకరం కావచ్చు."),
           },
         ],
         check: [
           {
             type: "mcq",
-            q: L("An animal is panting with its mouth open, drooling, neck stretched and head up. What panting score is this, roughly?"),
-            options: [L("0"), L("1"), L("About 3"), L("It is normal")],
+            q: L("An animal is panting with its mouth open, drooling, neck stretched and head up. What panting score is this, roughly?", "ఒక పశువు నోరు తెరిచి ఆయాసపడుతోంది, చొంగ కారుస్తోంది, మెడ చాచి, తల పైకి ఉంది. ఇది సుమారు ఏ ఆయాసం స్కోర్?"),
+            options: [L("0"), L("1"), L("About 3", "సుమారు 3"), L("It is normal", "ఇది సాధారణం")],
             answer: 2,
-            explain: L("Open-mouth panting with drooling and an extended neck is about score 3 (120–160 breaths per minute)."),
+            explain: L("Open-mouth panting with drooling and an extended neck is about score 3 (120–160 breaths per minute).", "చొంగతో, మెడ చాచి నోరు తెరిచి ఆయాసపడడం సుమారు స్కోర్ 3 (నిమిషానికి 120–160 శ్వాసలు)."),
           },
           {
             type: "truefalse",
-            q: L("Humidity doesn't matter — only the temperature decides heat stress."),
+            q: L("Humidity doesn't matter — only the temperature decides heat stress.", "తేమ ముఖ్యం కాదు — వేడి ఒత్తిడిని ఉష్ణోగ్రత మాత్రమే నిర్ణయిస్తుంది."),
             answer: false,
-            explain: L("No — the THI combines both. Above a THI of 72, milk drops, which can happen at only 23°C if the air is very humid."),
+            explain: L("No — the THI combines both. Above a THI of 72, milk drops, which can happen at only 23°C if the air is very humid.", "కాదు — THI రెండింటినీ కలుపుతుంది. THI 72 దాటితే పాలు తగ్గుతాయి, గాలిలో తేమ చాలా ఎక్కువగా ఉంటే కేవలం 23°C వద్ద కూడా ఇది జరగవచ్చు."),
           },
         ],
       },
       {
         id: "t-m16-heat-manage",
-        title: L("Keeping Animals Cool"),
+        title: L("Keeping Animals Cool", "పశువులను చల్లగా ఉంచడం"),
         teach: [
           {
             type: "stat-grid",
             items: [
-              { label: L("Water"), text: L("Plenty of clean, cool drinking water, placed in the shade. A cow needs about 100 litres a day in summer.") },
-              { label: L("Shade"), text: L("Trees, or a thatched roof at least 9 feet high. Agri-nets with 20% perforation also help; in desert areas, community shades can be built.") },
-              { label: L("Misting"), text: L("Mist water over the animals at least three times an hour — auto-sprinklers with a small pump and timer work best.") },
-              { label: L("Air flow"), text: L("One ventilator of 3 × 1 feet per cow, plus ceiling fans or blowers where there is power.") },
-              { label: L("Block hot wind"), text: L("Thatched walls or wet gunny cloth on the windward side.") },
-              { label: L("Timing"), text: L("Feed in the morning, evening and night; graze only in the early morning and evening. Shaving a thick hair coat also helps.") },
+              { label: L("Water", "నీరు"), text: L("Plenty of clean, cool drinking water, placed in the shade. A cow needs about 100 litres a day in summer.", "నీడలో ఉంచిన సమృద్ధిగా శుభ్రమైన, చల్లని తాగునీరు. వేసవిలో ఆవుకు రోజుకు సుమారు 100 లీటర్లు అవసరం.") },
+              { label: L("Shade", "నీడ"), text: L("Trees, or a thatched roof at least 9 feet high. Agri-nets with 20% perforation also help; in desert areas, community shades can be built.", "చెట్లు, లేదా కనీసం 9 అడుగుల ఎత్తు గల పూరి కప్పు. 20% రంధ్రాలు ఉన్న అగ్రి-నెట్లు కూడా సహాయపడతాయి; ఎడారి ప్రాంతాల్లో సామూహిక నీడలు కట్టవచ్చు.") },
+              { label: L("Misting", "నీటి తుంపర (మిస్టింగ్)"), text: L("Mist water over the animals at least three times an hour — auto-sprinklers with a small pump and timer work best.", "గంటకు కనీసం మూడుసార్లు పశువులపై నీటి తుంపర చల్లండి — చిన్న పంపు, టైమర్‌తో ఆటో-స్ప్రింక్లర్లు బాగా పనిచేస్తాయి.") },
+              { label: L("Air flow", "గాలి ప్రసరణ"), text: L("One ventilator of 3 × 1 feet per cow, plus ceiling fans or blowers where there is power.", "ఒక్కో ఆవుకు 3 × 1 అడుగుల ఒక వెంటిలేటర్, కరెంటు ఉన్న చోట సీలింగ్ ఫ్యాన్లు లేదా బ్లోయర్లు.") },
+              { label: L("Block hot wind", "వేడి గాలిని అడ్డుకోండి"), text: L("Thatched walls or wet gunny cloth on the windward side.", "గాలి వీచే వైపు పూరి గోడలు లేదా తడి గోనె గుడ్డ.") },
+              { label: L("Timing", "సమయం"), text: L("Feed in the morning, evening and night; graze only in the early morning and evening. Shaving a thick hair coat also helps.", "ఉదయం, సాయంత్రం, రాత్రి మేత పెట్టండి; తెల్లవారుజామున, సాయంత్రం మాత్రమే మేపండి. దట్టమైన వెంట్రుకలను కత్తిరించడం కూడా సహాయపడుతుంది.") },
             ],
           },
           {
             type: "example",
-            heading: L("NDDB's Low-Cost Misting System"),
-            text: L(
-              "NDDB has developed a water-misting animal cooling system costing about ₹11,000 for six animals (handbook price). It works because every gram of water that evaporates from the animal's skin carries away about 540 calories of body heat — enough to bring the temperature at the animal's body down by more than 13°C, depending on humidity."
-            ),
+            heading: L("NDDB's Low-Cost Misting System", "NDDB తక్కువ ఖర్చు మిస్టింగ్ వ్యవస్థ"),
+            text: L("NDDB has developed a water-misting animal cooling system costing about ₹11,000 for six animals (handbook price). It works because every gram of water that evaporates from the animal's skin carries away about 540 calories of body heat — enough to bring the temperature at the animal's body down by more than 13°C, depending on humidity.", "ఆరు పశువులకు సుమారు ₹11,000 (హ్యాండ్‌బుక్ ధర) ఖర్చయ్యే నీటి తుంపర పశువుల చల్లదన వ్యవస్థను NDDB అభివృద్ధి చేసింది. పశువు చర్మం నుండి ఆవిరయ్యే ప్రతి గ్రాము నీరు సుమారు 540 కేలరీల శరీర వేడిని తీసుకెళ్తుంది కాబట్టి ఇది పనిచేస్తుంది — తేమను బట్టి పశువు శరీరం దగ్గర ఉష్ణోగ్రతను 13°C కంటే ఎక్కువ తగ్గించడానికి ఇది చాలు."),
           },
           {
             type: "callout",
             style: "info",
-            heading: L("Feeding Changes in Hot Weather"),
-            text: L(
-              "Give smaller, more frequent meals in the cool hours. The ration should give the same nutrients in less dry matter — more digestible fodder, bypass fat for energy, and a potassium-rich mineral mixture (animals lose potassium in sweat). NDDB's Pashu Sheetvardhak supplement (350 g a day) is designed for heat stress. Ration changes like buffers or potassium carbonate should be set by a nutritionist."
-            ),
+            heading: L("Feeding Changes in Hot Weather", "వేడి వాతావరణంలో దాణా మార్పులు"),
+            text: L("Give smaller, more frequent meals in the cool hours. The ration should give the same nutrients in less dry matter — more digestible fodder, bypass fat for energy, and a potassium-rich mineral mixture (animals lose potassium in sweat). NDDB's Pashu Sheetvardhak supplement (350 g a day) is designed for heat stress. Ration changes like buffers or potassium carbonate should be set by a nutritionist.", "చల్లని సమయాల్లో చిన్న, తరచుగా భోజనాలు ఇవ్వండి. రేషన్ తక్కువ పొడి పదార్థంలో అవే పోషకాలు ఇవ్వాలి — ఎక్కువ జీర్ణమయ్యే మేత, శక్తి కోసం బైపాస్ ఫ్యాట్, పొటాషియం సమృద్ధిగా ఉన్న ఖనిజ మిశ్రమం (పశువులు చెమటలో పొటాషియం కోల్పోతాయి). NDDB పశు శీతవర్ధక్ సప్లిమెంట్ (రోజుకు 350 గ్రా.) వేడి ఒత్తిడి కోసం రూపొందించబడింది. బఫర్లు లేదా పొటాషియం కార్బొనేట్ వంటి రేషన్ మార్పులను పోషకాహార నిపుణుడు నిర్ణయించాలి."),
           },
         ],
         check: [
           {
             type: "mcq",
-            q: L("How often should water be misted over animals during heat stress?"),
-            options: [L("Once a week"), L("At least three times an hour"), L("Once a day at noon"), L("Never — water makes heat worse")],
+            q: L("How often should water be misted over animals during heat stress?", "వేడి ఒత్తిడి సమయంలో పశువులపై ఎంత తరచుగా నీటి తుంపర చల్లాలి?"),
+            options: [L("Once a week", "వారానికి ఒకసారి"), L("At least three times an hour", "గంటకు కనీసం మూడుసార్లు"), L("Once a day at noon", "రోజుకు ఒకసారి మధ్యాహ్నం"), L("Never — water makes heat worse", "ఎప్పుడూ వద్దు — నీరు వేడిని పెంచుతుంది")],
             answer: 1,
-            explain: L("Misting at least three times an hour cools the animal through evaporation."),
+            explain: L("Misting at least three times an hour cools the animal through evaporation.", "గంటకు కనీసం మూడుసార్లు తుంపర చల్లితే ఆవిరి ద్వారా పశువు చల్లబడుతుంది."),
           },
           {
             type: "truefalse",
-            q: L("In hot weather, animals should be fed and grazed mainly in the cooler morning, evening and night hours."),
+            q: L("In hot weather, animals should be fed and grazed mainly in the cooler morning, evening and night hours.", "వేడి వాతావరణంలో పశువులకు ప్రధానంగా చల్లని ఉదయం, సాయంత్రం, రాత్రి సమయాల్లో మేత పెట్టాలి, మేపాలి."),
             answer: true,
-            explain: L("Yes — they eat more in the cool hours, so feeding and grazing should be shifted to those times."),
+            explain: L("Yes — they eat more in the cool hours, so feeding and grazing should be shifted to those times.", "అవును — చల్లని సమయాల్లో అవి ఎక్కువ తింటాయి, కాబట్టి మేత పెట్టడం, మేపడం ఆ సమయాలకు మార్చాలి."),
           },
         ],
       },
@@ -20198,54 +20000,54 @@ export const MODULES = [
         {
           topicId: "t-m16-heat-measure",
           type: "mcq",
-          q: L("Above what THI does milk production start to be affected?"),
-          options: [L("20"), L("72"), L("150"), L("THI has no effect on milk")],
+          q: L("Above what THI does milk production start to be affected?", "THI ఎంత దాటితే పాల ఉత్పత్తిపై ప్రభావం మొదలవుతుంది?"),
+          options: [L("20"), L("72"), L("150"), L("THI has no effect on milk", "THI పాలపై ప్రభావం చూపదు")],
           answer: 1,
-          explain: L("Milk production begins to fall above a THI of 72; at 89 the animal is close to severe heat stress."),
+          explain: L("Milk production begins to fall above a THI of 72; at 89 the animal is close to severe heat stress.", "THI 72 దాటితే పాల ఉత్పత్తి తగ్గడం మొదలవుతుంది; 89 వద్ద పశువు తీవ్ర వేడి ఒత్తిడికి దగ్గరగా ఉంటుంది."),
         },
         {
           topicId: "t-m16-heat-measure",
           type: "mcq",
-          q: L("An animal has its head held down, is breathing from the flank, and its drooling has stopped. What does this mean?"),
-          options: [L("Severe heat stress (score 4.5) — an emergency"), L("It is resting comfortably"), L("Mild heat stress only"), L("It has just eaten")],
+          q: L("An animal has its head held down, is breathing from the flank, and its drooling has stopped. What does this mean?", "ఒక పశువు తల కిందకు వాల్చి, డొక్క నుండి శ్వాస తీసుకుంటోంది, చొంగ ఆగిపోయింది. దీని అర్థం ఏమిటి?"),
+          options: [L("Severe heat stress (score 4.5) — an emergency", "తీవ్ర వేడి ఒత్తిడి (స్కోర్ 4.5) — అత్యవసర పరిస్థితి"), L("It is resting comfortably", "అది హాయిగా విశ్రాంతి తీసుకుంటోంది"), L("Mild heat stress only", "స్వల్ప వేడి ఒత్తిడి మాత్రమే"), L("It has just eaten", "అది ఇప్పుడే తిన్నది")],
           answer: 0,
-          explain: L("This is panting score 4.5, the most severe stage — act immediately and call for help."),
+          explain: L("This is panting score 4.5, the most severe stage — act immediately and call for help.", "ఇది ఆయాసం స్కోర్ 4.5, అత్యంత తీవ్రమైన దశ — వెంటనే చర్య తీసుకుని సహాయం కోసం పిలవండి."),
         },
         {
           topicId: "t-m16-heat-measure",
           type: "truefalse",
-          q: L("During heat stress, an animal usually eats less but needs more energy and water."),
+          q: L("During heat stress, an animal usually eats less but needs more energy and water.", "వేడి ఒత్తిడి సమయంలో పశువు సాధారణంగా తక్కువ తింటుంది కానీ దానికి ఎక్కువ శక్తి, నీరు అవసరం."),
           answer: true,
-          explain: L("Correct — dry matter intake can fall 20–30% while energy need rises about 30% and water intake 50–100%."),
+          explain: L("Correct — dry matter intake can fall 20–30% while energy need rises about 30% and water intake 50–100%.", "సరైనది — పొడి పదార్థం తీసుకోవడం 20–30% తగ్గవచ్చు, అదే సమయంలో శక్తి అవసరం సుమారు 30%, నీళ్ళు తాగడం 50–100% పెరుగుతాయి."),
         },
         {
           topicId: "t-m16-heat-manage",
           type: "mcq",
-          q: L("If no trees are available, how high should a thatched shade roof be?"),
-          options: [L("2 feet"), L("4 feet"), L("At least 9 feet"), L("Height doesn't matter")],
+          q: L("If no trees are available, how high should a thatched shade roof be?", "చెట్లు లేకపోతే, పూరి నీడ కప్పు ఎంత ఎత్తులో ఉండాలి?"),
+          options: [L("2 feet", "2 అడుగులు"), L("4 feet", "4 అడుగులు"), L("At least 9 feet", "కనీసం 9 అడుగులు"), L("Height doesn't matter", "ఎత్తు ముఖ్యం కాదు")],
           answer: 2,
-          explain: L("A thatched roof of at least 9 feet allows air to move and keeps radiant heat away from the animal."),
+          explain: L("A thatched roof of at least 9 feet allows air to move and keeps radiant heat away from the animal.", "కనీసం 9 అడుగుల ఎత్తు గల పూరి కప్పు గాలి ఆడేలా చేస్తుంది, ప్రసరించే వేడిని పశువుకు దూరంగా ఉంచుతుంది."),
         },
         {
           topicId: "t-m16-heat-manage",
           type: "mcq",
-          q: L("Why does misting water on an animal cool it down?"),
+          q: L("Why does misting water on an animal cool it down?", "పశువుపై నీటి తుంపర చల్లితే అది ఎందుకు చల్లబడుతుంది?"),
           options: [
-            L("Evaporating water carries body heat away — about 540 calories per gram"),
-            L("The water is always ice cold"),
-            L("It makes the animal sleep"),
-            L("It doesn't — it only cleans the animal"),
+            L("Evaporating water carries body heat away — about 540 calories per gram", "ఆవిరయ్యే నీరు శరీర వేడిని తీసుకెళ్తుంది — గ్రాముకు సుమారు 540 కేలరీలు"),
+            L("The water is always ice cold", "నీరు ఎప్పుడూ మంచులా చల్లగా ఉంటుంది"),
+            L("It makes the animal sleep", "అది పశువును నిద్రపుచ్చుతుంది"),
+            L("It doesn't — it only cleans the animal", "చల్లబరచదు — పశువును శుభ్రం మాత్రమే చేస్తుంది"),
           ],
           answer: 0,
-          explain: L("Evaporation of each gram of water removes about 540 calories of heat, so misting can bring the animal back to its comfort zone."),
+          explain: L("Evaporation of each gram of water removes about 540 calories of heat, so misting can bring the animal back to its comfort zone.", "ప్రతి గ్రాము నీరు ఆవిరైతే సుమారు 540 కేలరీల వేడి పోతుంది, కాబట్టి తుంపర పశువును తిరిగి సౌకర్యవంతమైన స్థితికి తీసుకురాగలదు."),
         },
         {
           topicId: "t-m16-heat-manage",
           type: "mcq",
-          q: L("Which kind of mineral mixture is preferred during heat stress?"),
-          options: [L("Mineral mixture should be stopped"), L("Iron-only"), L("Potassium-rich"), L("Salt-free and mineral-free")],
+          q: L("Which kind of mineral mixture is preferred during heat stress?", "వేడి ఒత్తిడి సమయంలో ఏ రకమైన ఖనిజ మిశ్రమం మేలు?"),
+          options: [L("Mineral mixture should be stopped", "ఖనిజ మిశ్రమం ఆపేయాలి"), L("Iron-only", "ఇనుము మాత్రమే ఉన్నది"), L("Potassium-rich", "పొటాషియం సమృద్ధిగా ఉన్నది"), L("Salt-free and mineral-free", "ఉప్పు లేని, ఖనిజాలు లేనిది")],
           answer: 2,
-          explain: L("Animals lose potassium in hot weather, so a potassium-rich mineral mixture is preferred."),
+          explain: L("Animals lose potassium in hot weather, so a potassium-rich mineral mixture is preferred.", "వేడి వాతావరణంలో పశువులు పొటాషియం కోల్పోతాయి, కాబట్టి పొటాషియం సమృద్ధిగా ఉన్న ఖనిజ మిశ్రమం మేలు."),
         },
       ],
     },
@@ -20255,8 +20057,8 @@ export const MODULES = [
   {
     id: "m17",
     number: 17,
-    title: L("Animal Identification & Bharat Pashudhan"),
-    subtitle: L("Why every animal gets its own ID, how a simple ear tag makes lifelong records possible, and how Bharat Pashudhan and the 1962 app put those records to work."),
+    title: L("Animal Identification & Bharat Pashudhan", "పశువుల గుర్తింపు & భారత్ పశుధన్"),
+    subtitle: L("Why every animal gets its own ID, how a simple ear tag makes lifelong records possible, and how Bharat Pashudhan and the 1962 app put those records to work.", "ప్రతి పశువుకు సొంత గుర్తింపు ఎందుకు, ఒక సాధారణ చెవి ట్యాగ్ జీవితకాల రికార్డులను ఎలా సాధ్యం చేస్తుంది, భారత్ పశుధన్, 1962 యాప్ ఆ రికార్డులను ఎలా ఉపయోగంలోకి తెస్తాయి."),
     icon: "id",
     available: true,
     lessons: [
@@ -20382,7 +20184,7 @@ export const MODULES = [
                   "ಕಿವಿ ಟ್ಯಾಗ್ ಹಾಕುವುದು",
                   "कान में टैग लगाना"
                 ),
-                text: L("The most common method. A small tag carrying a unique, ICAR-recommended 12-digit number along with a barcode is fixed to the animal's ear. It causes no problem if applied properly, and stays on the ear for many years."),
+                text: L("The most common method. A small tag carrying a unique, ICAR-recommended 12-digit number along with a barcode is fixed to the animal's ear. It causes no problem if applied properly, and stays on the ear for many years.", "అత్యంత సాధారణ పద్ధతి. ICAR సిఫార్సు చేసిన ప్రత్యేకమైన 12-అంకెల సంఖ్య, బార్‌కోడ్ ఉన్న చిన్న ట్యాగ్‌ను పశువు చెవికి అమర్చుతారు. సరిగా వేస్తే ఏ సమస్యా ఉండదు, చాలా సంవత్సరాలు చెవికి ఉంటుంది."),
               },
               {
                 label: L(
@@ -20518,7 +20320,7 @@ export const MODULES = [
               "NDDB (ರಾಷ್ಟ್ರೀಯ ಡೈರಿ ಅಭಿವೃದ್ಧಿ ಮಂಡಳಿ)",
               "NDDB (राष्ट्रीय डेयरी विकास बोर्ड)"
             ),
-            meaning: L("The organisation authorised by the Government of India (through the Department of Animal Husbandry and Dairying, DAHD) to centrally manage the unique animal identification system for the whole country."),
+            meaning: L("The organisation authorised by the Government of India (through the Department of Animal Husbandry and Dairying, DAHD) to centrally manage the unique animal identification system for the whole country.", "దేశం మొత్తానికి ప్రత్యేక పశు గుర్తింపు వ్యవస్థను కేంద్రంగా నిర్వహించడానికి భారత ప్రభుత్వం (పశుసంవర్ధక, పాడి పరిశ్రమ శాఖ, DAHD ద్వారా) అధికారం ఇచ్చిన సంస్థ."),
           },
           {
             type: "text",
@@ -20608,7 +20410,7 @@ export const MODULES = [
               "देश में अनोखी पशु पहचान प्रणाली को केंद्रीय स्तर पर संभालने का अधिकार NDDB के पास है।"
             ),
             answer: true,
-            explain: L("Correct — DAHD (Department of Animal Husbandry and Dairying), Government of India, has authorised NDDB to centrally manage unique animal identification across the country."),
+            explain: L("Correct — DAHD (Department of Animal Husbandry and Dairying), Government of India, has authorised NDDB to centrally manage unique animal identification across the country.", "సరైనది — దేశమంతటా ప్రత్యేక పశు గుర్తింపును కేంద్రంగా నిర్వహించడానికి భారత ప్రభుత్వ DAHD (పశుసంవర్ధక, పాడి పరిశ్రమ శాఖ) NDDBకి అధికారం ఇచ్చింది."),
           },
         ],
       },
@@ -20728,112 +20530,100 @@ export const MODULES = [
   // ==================================================================
   {
     id: "m17-l2",
-    title: L("Bharat Pashudhan and the 1962 Farmer's App"),
+    title: L("Bharat Pashudhan and the 1962 Farmer's App", "భారత్ పశుధన్, 1962 రైతు యాప్"),
     estMinutes: 9,
     hook: [
       {
         type: "hero",
-        heading: L("Every Service, Recorded Against One Tag Number"),
-        text: L(
-          "An ear tag is only useful if something is recorded against it. Bharat Pashudhan is the national digital system where every vaccination, insemination, treatment and milk record for a tagged animal is stored — and the 1962 app lets the farmer see it all on their own phone. This lesson explains what the system records, and what it gives back to the farmer."
-        ),
+        heading: L("Every Service, Recorded Against One Tag Number", "ప్రతి సేవా ఒకే ట్యాగ్ నంబర్‌పై నమోదు"),
+        text: L("An ear tag is only useful if something is recorded against it. Bharat Pashudhan is the national digital system where every vaccination, insemination, treatment and milk record for a tagged animal is stored — and the 1962 app lets the farmer see it all on their own phone. This lesson explains what the system records, and what it gives back to the farmer.", "దానిపై ఏదైనా నమోదు చేస్తేనే చెవి ట్యాగ్ ఉపయోగకరం. భారత్ పశుధన్ జాతీయ డిజిటల్ వ్యవస్థ, ఇందులో ట్యాగ్ వేసిన పశువుకు ప్రతి టీకా, గర్భధారణ, చికిత్స, పాల రికార్డు నిల్వ అవుతాయి — 1962 యాప్ ద్వారా రైతు తన సొంత ఫోన్‌లో అన్నీ చూడవచ్చు. ఈ వ్యవస్థ ఏమి నమోదు చేస్తుంది, రైతుకు ఏమి ఇస్తుందో ఈ పాఠం వివరిస్తుంది."),
       },
     ],
     topics: [
       {
         id: "t-m17-bharat-pashudhan",
-        title: L("What Bharat Pashudhan Records"),
+        title: L("What Bharat Pashudhan Records", "భారత్ పశుధన్ ఏమి నమోదు చేస్తుంది"),
         teach: [
           {
             type: "glossary",
-            term: L("Bharat Pashudhan"),
-            meaning: L(
-              "A cloud-based, farmer-centred digital system set up jointly by NDDB and the Department of Animal Husbandry and Dairying (DAHD) under the National Digital Livestock Mission (NDLM). It works on desktop and mobile, and is live in all 28 states and 8 Union Territories."
-            ),
+            term: L("Bharat Pashudhan", "భారత్ పశుధన్"),
+            meaning: L("A cloud-based, farmer-centred digital system set up jointly by NDDB and the Department of Animal Husbandry and Dairying (DAHD) under the National Digital Livestock Mission (NDLM). It works on desktop and mobile, and is live in all 28 states and 8 Union Territories.", "జాతీయ డిజిటల్ పశుధన మిషన్ (NDLM) కింద NDDB, పశుసంవర్ధక, పాడి పరిశ్రమ శాఖ (DAHD) కలిసి ఏర్పాటు చేసిన, క్లౌడ్ ఆధారిత, రైతు-కేంద్రిత డిజిటల్ వ్యవస్థ. ఇది డెస్క్‌టాప్, మొబైల్‌లో పనిచేస్తుంది, అన్ని 28 రాష్ట్రాలు, 8 కేంద్రపాలిత ప్రాంతాల్లో అమలులో ఉంది."),
           },
           {
             type: "text",
-            heading: L("One Animal, One Lifelong 'Passport'"),
-            html: L(
-              "When an animal is tagged, its 12-digit number is registered along with its <b>species, breed, age, pregnancy status, milk yield, owner, village and photo</b>. This creates a permanent record — like a passport — that can be traced anywhere in the country. Field workers then upload each service with <b>GPS location</b>. Ten species can be registered: cattle, buffalo, goat, sheep, pig, yak, mithun, horse, donkey and mule — individually or as a flock."
-            ),
+            heading: L("One Animal, One Lifelong 'Passport'", "ఒక పశువు, ఒక జీవితకాల 'పాస్‌పోర్ట్'"),
+            html: L("When an animal is tagged, its 12-digit number is registered along with its <b>species, breed, age, pregnancy status, milk yield, owner, village and photo</b>. This creates a permanent record — like a passport — that can be traced anywhere in the country. Field workers then upload each service with <b>GPS location</b>. Ten species can be registered: cattle, buffalo, goat, sheep, pig, yak, mithun, horse, donkey and mule — individually or as a flock.", "పశువుకు ట్యాగ్ వేసినప్పుడు, దాని 12-అంకెల సంఖ్యను <b>జాతి (స్పీషీస్), రకం (బ్రీడ్), వయసు, చూడి స్థితి, పాల దిగుబడి, యజమాని, గ్రామం, ఫోటో</b>తో పాటు నమోదు చేస్తారు. దీనివల్ల శాశ్వత రికార్డు — పాస్‌పోర్ట్ లాంటిది — ఏర్పడుతుంది, దాన్ని దేశంలో ఎక్కడైనా గుర్తించవచ్చు. తర్వాత క్షేత్ర సిబ్బంది ప్రతి సేవను <b>GPS స్థానం</b>తో అప్‌లోడ్ చేస్తారు. పది జాతులను నమోదు చేయవచ్చు: ఆవు, గేదె, మేక, గొర్రె, పంది, యాక్, మిథున్, గుర్రం, గాడిద, కంచర గాడిద — విడిగా లేదా మందగా."),
           },
           {
             type: "stat-grid",
             items: [
-              { label: L("Animal management"), text: L("Registration of animals and owners, ear tag changes, and ownership transfer when an animal is sold.") },
-              { label: L("Animal health"), text: L("Deworming, vaccination, first aid, treatment and e-prescriptions, disease tests, outbreaks, infertility camps and post-mortems.") },
-              { label: L("Breeding"), text: L("AI, pregnancy diagnosis, calving, milk recording, embryo transfer, and sexed semen managed separately.") },
-              { label: L("Nutrition"), text: L("Ration balancing — a least-cost balanced ration for an animal or group, from feeds available locally.") },
+              { label: L("Animal management", "పశువుల నిర్వహణ"), text: L("Registration of animals and owners, ear tag changes, and ownership transfer when an animal is sold.", "పశువులు, యజమానుల నమోదు, చెవి ట్యాగ్ మార్పులు, పశువును అమ్మినప్పుడు యాజమాన్య బదిలీ.") },
+              { label: L("Animal health", "పశు ఆరోగ్యం"), text: L("Deworming, vaccination, first aid, treatment and e-prescriptions, disease tests, outbreaks, infertility camps and post-mortems.", "నట్టల నివారణ, టీకా, ప్రథమ చికిత్స, చికిత్స, ఇ-ప్రిస్క్రిప్షన్లు, వ్యాధి పరీక్షలు, వ్యాప్తులు, వంధ్యత్వ శిబిరాలు, పోస్ట్-మార్టమ్‌లు.") },
+              { label: L("Breeding", "సంతానోత్పత్తి"), text: L("AI, pregnancy diagnosis, calving, milk recording, embryo transfer, and sexed semen managed separately.", "AI, చూడి నిర్ధారణ, ఈత, పాల నమోదు, పిండ మార్పిడి, సెక్స్‌డ్ సెమెన్ విడిగా నిర్వహించబడుతుంది.") },
+              { label: L("Nutrition", "పోషణ"), text: L("Ration balancing — a least-cost balanced ration for an animal or group, from feeds available locally.", "రేషన్ బ్యాలెన్సింగ్ — స్థానికంగా దొరికే దాణాలతో ఒక పశువుకు లేదా గుంపుకు తక్కువ ఖర్చు సమతుల్య రేషన్.") },
             ],
           },
           {
             type: "callout",
             style: "tip",
-            heading: L("A Lost Tag Doesn't Mean a Lost History"),
-            text: L(
-              "If an ear tag falls off or is lost, a new tag can be applied and all the information recorded under the old tag is automatically linked to the new one. That is why reporting a lost or unreadable tag quickly matters — the history can be saved."
-            ),
+            heading: L("A Lost Tag Doesn't Mean a Lost History", "ట్యాగ్ పోయినా చరిత్ర పోదు"),
+            text: L("If an ear tag falls off or is lost, a new tag can be applied and all the information recorded under the old tag is automatically linked to the new one. That is why reporting a lost or unreadable tag quickly matters — the history can be saved.", "చెవి ట్యాగ్ ఊడిపోతే లేదా పోతే, కొత్త ట్యాగ్ వేయవచ్చు, పాత ట్యాగ్ కింద నమోదైన సమాచారం అంతా ఆటోమేటిక్‌గా కొత్తదానికి అనుసంధానమవుతుంది. అందుకే పోయిన లేదా చదవలేని ట్యాగ్ గురించి త్వరగా తెలియజేయడం ముఖ్యం — చరిత్రను కాపాడవచ్చు."),
           },
         ],
         check: [
           {
             type: "mcq",
-            q: L("Which two organisations jointly set up Bharat Pashudhan?"),
-            options: [L("NDDB and DAHD"), L("A private bank and a feed company"), L("Only the village panchayat"), L("A foreign university")],
+            q: L("Which two organisations jointly set up Bharat Pashudhan?", "భారత్ పశుధన్‌ను ఏ రెండు సంస్థలు కలిసి ఏర్పాటు చేశాయి?"),
+            options: [L("NDDB and DAHD", "NDDB, DAHD"), L("A private bank and a feed company", "ఒక ప్రైవేట్ బ్యాంక్, ఒక దాణా కంపెనీ"), L("Only the village panchayat", "గ్రామ పంచాయతీ మాత్రమే"), L("A foreign university", "ఒక విదేశీ విశ్వవిద్యాలయం")],
             answer: 0,
-            explain: L("NDDB and the Department of Animal Husbandry and Dairying (DAHD) set it up under the National Digital Livestock Mission."),
+            explain: L("NDDB and the Department of Animal Husbandry and Dairying (DAHD) set it up under the National Digital Livestock Mission.", "జాతీయ డిజిటల్ పశుధన మిషన్ కింద NDDB, పశుసంవర్ధక, పాడి పరిశ్రమ శాఖ (DAHD) దీన్ని ఏర్పాటు చేశాయి."),
           },
           {
             type: "truefalse",
-            q: L("If an animal's ear tag is lost, all its past records are lost forever."),
+            q: L("If an animal's ear tag is lost, all its past records are lost forever.", "పశువు చెవి ట్యాగ్ పోతే, దాని పాత రికార్డులన్నీ శాశ్వతంగా పోతాయి."),
             answer: false,
-            explain: L("No — a new tag can be applied and the old records are automatically linked to it."),
+            explain: L("No — a new tag can be applied and the old records are automatically linked to it.", "కాదు — కొత్త ట్యాగ్ వేయవచ్చు, పాత రికార్డులు ఆటోమేటిక్‌గా దానికి అనుసంధానమవుతాయి."),
           },
         ],
       },
       {
         id: "t-m17-farmer-benefits",
-        title: L("What the Farmer Gets: SMS, Health Card and the 1962 App"),
+        title: L("What the Farmer Gets: SMS, Health Card and the 1962 App", "రైతుకు ఏమి అందుతుంది: SMS, హెల్త్ కార్డ్, 1962 యాప్"),
         teach: [
           {
             type: "stat-grid",
             items: [
-              { label: L("SMS and OTP alerts"), text: L("The farmer gets messages on their registered mobile for services given to their animals, so they can confirm the service really happened.") },
-              { label: L("Health card"), text: L("A health card listing every intervention on an animal can be printed just by entering its tag number.") },
-              { label: L("Access to schemes"), text: L("A tagged, registered animal can receive the benefits of government and other programmes — vaccination, treatment, insurance and more.") },
-              { label: L("Better programmes"), text: L("Vaccination and disease data help governments plan disease control; breeding data helps find the best cows and bulls.") },
+              { label: L("SMS and OTP alerts", "SMS, OTP హెచ్చరికలు"), text: L("The farmer gets messages on their registered mobile for services given to their animals, so they can confirm the service really happened.", "తన పశువులకు ఇచ్చిన సేవల గురించి రైతు నమోదైన మొబైల్‌కు సందేశాలు వస్తాయి, దాంతో ఆ సేవ నిజంగా జరిగిందో లేదో ధృవీకరించవచ్చు.") },
+              { label: L("Health card", "హెల్త్ కార్డ్"), text: L("A health card listing every intervention on an animal can be printed just by entering its tag number.", "ట్యాగ్ నంబర్ నమోదు చేస్తేనే ఒక పశువుకు చేసిన ప్రతి చికిత్స/సేవ జాబితా ఉన్న హెల్త్ కార్డ్‌ను ప్రింట్ చేయవచ్చు.") },
+              { label: L("Access to schemes", "పథకాల అందుబాటు"), text: L("A tagged, registered animal can receive the benefits of government and other programmes — vaccination, treatment, insurance and more.", "ట్యాగ్ వేసి నమోదైన పశువుకు ప్రభుత్వ, ఇతర కార్యక్రమాల ప్రయోజనాలు — టీకా, చికిత్స, బీమా మొదలైనవి — అందుతాయి.") },
+              { label: L("Better programmes", "మెరుగైన కార్యక్రమాలు"), text: L("Vaccination and disease data help governments plan disease control; breeding data helps find the best cows and bulls.", "టీకా, వ్యాధి సమాచారం ప్రభుత్వాలకు వ్యాధి నియంత్రణ ప్రణాళికకు సహాయపడుతుంది; సంతానోత్పత్తి సమాచారం ఉత్తమ ఆవులు, ఆబోతులను కనుగొనడానికి సహాయపడుతుంది.") },
             ],
           },
           {
             type: "text",
-            heading: L("The 1962 Farmer's App"),
-            html: L(
-              "The <b>1962</b> app is connected to the Bharat Pashudhan database. With it a farmer can: <b>verify their own registration</b> without sharing an OTP with a field worker; see a personal <b>QR code</b> listing all their animals and the services each received; do <b>their own ration balancing</b>; buy and sell animals on <b>Pashu Bazaar</b>; read about breeds in <b>Pashupedia</b>; see government <b>schemes</b>, success stories, and <b>Ayurvedic / ethnoveterinary</b> videos; and see what semen and embryos are available."
-            ),
+            heading: L("The 1962 Farmer's App", "1962 రైతు యాప్"),
+            html: L("The <b>1962</b> app is connected to the Bharat Pashudhan database. With it a farmer can: <b>verify their own registration</b> without sharing an OTP with a field worker; see a personal <b>QR code</b> listing all their animals and the services each received; do <b>their own ration balancing</b>; buy and sell animals on <b>Pashu Bazaar</b>; read about breeds in <b>Pashupedia</b>; see government <b>schemes</b>, success stories, and <b>Ayurvedic / ethnoveterinary</b> videos; and see what semen and embryos are available.", "<b>1962</b> యాప్ భారత్ పశుధన్ డేటాబేస్‌కు అనుసంధానమై ఉంది. దీనితో రైతు: క్షేత్ర సిబ్బందికి OTP చెప్పకుండానే <b>తన సొంత నమోదును ధృవీకరించుకోవచ్చు</b>; తన పశువులన్నీ, ప్రతి దానికి అందిన సేవలు ఉన్న వ్యక్తిగత <b>QR కోడ్</b> చూడవచ్చు; <b>తానే రేషన్ బ్యాలెన్సింగ్</b> చేసుకోవచ్చు; <b>పశు బజార్‌</b>లో పశువులను కొనవచ్చు, అమ్మవచ్చు; <b>పశుపీడియా</b>లో జాతుల గురించి చదవవచ్చు; ప్రభుత్వ <b>పథకాలు</b>, విజయగాథలు, <b>ఆయుర్వేద / ఎత్నోవెటర్నరీ</b> వీడియోలు చూడవచ్చు; ఏ వీర్యం, పిండాలు అందుబాటులో ఉన్నాయో చూడవచ్చు."),
           },
           {
             type: "callout",
             style: "info",
-            heading: L("See the Big Picture Too"),
-            text: L(
-              "The public Bharat Pashudhan dashboard (bharatpashudhan.ndlm.co.in) shows registered animals, vaccinations and breeding services by state and district. The Bharat Pashudhan database is also the backbone for India's 21st Livestock Census."
-            ),
+            heading: L("See the Big Picture Too", "మొత్తం చిత్రాన్ని కూడా చూడండి"),
+            text: L("The public Bharat Pashudhan dashboard (bharatpashudhan.ndlm.co.in) shows registered animals, vaccinations and breeding services by state and district. The Bharat Pashudhan database is also the backbone for India's 21st Livestock Census.", "ప్రజలకు అందుబాటులో ఉన్న భారత్ పశుధన్ డాష్‌బోర్డ్ (bharatpashudhan.ndlm.co.in) రాష్ట్రం, జిల్లా వారీగా నమోదైన పశువులు, టీకాలు, సంతానోత్పత్తి సేవలను చూపిస్తుంది. భారత్ పశుధన్ డేటాబేస్ భారతదేశ 21వ పశుగణనకు కూడా వెన్నెముక."),
           },
         ],
         check: [
           {
             type: "mcq",
-            q: L("How can a farmer get a printed record of every treatment and vaccination given to one animal?"),
-            options: [L("Ask the neighbours"), L("It is not possible"), L("Generate its health card by entering its ear tag number"), L("Look at the animal's teeth")],
+            q: L("How can a farmer get a printed record of every treatment and vaccination given to one animal?", "ఒక పశువుకు ఇచ్చిన ప్రతి చికిత్స, టీకా ప్రింటెడ్ రికార్డును రైతు ఎలా పొందవచ్చు?"),
+            options: [L("Ask the neighbours", "పొరుగువారిని అడగడం ద్వారా"), L("It is not possible", "సాధ్యం కాదు"), L("Generate its health card by entering its ear tag number", "దాని చెవి ట్యాగ్ నంబర్ నమోదు చేసి హెల్త్ కార్డ్ తయారు చేయడం ద్వారా"), L("Look at the animal's teeth", "పశువు పళ్ళు చూడడం ద్వారా")],
             answer: 2,
-            explain: L("A health card with all interventions can be generated just by entering the animal's tag number."),
+            explain: L("A health card with all interventions can be generated just by entering the animal's tag number.", "పశువు ట్యాగ్ నంబర్ నమోదు చేస్తేనే అన్ని సేవలతో కూడిన హెల్త్ కార్డ్ తయారవుతుంది."),
           },
           {
             type: "truefalse",
-            q: L("Farmers can balance their own animals' ration using the 1962 app."),
+            q: L("Farmers can balance their own animals' ration using the 1962 app.", "రైతులు 1962 యాప్ వాడి తమ పశువుల రేషన్‌ను తామే సమతుల్యం చేసుకోవచ్చు."),
             answer: true,
-            explain: L("Yes — the 1962 app lets a farmer do individual ration balancing themselves."),
+            explain: L("Yes — the 1962 app lets a farmer do individual ration balancing themselves.", "అవును — 1962 యాప్ ద్వారా రైతు తానే వ్యక్తిగత రేషన్ బ్యాలెన్సింగ్ చేసుకోవచ్చు."),
           },
         ],
       },
@@ -20844,41 +20634,41 @@ export const MODULES = [
         {
           topicId: "t-m17-bharat-pashudhan",
           type: "mcq",
-          q: L("What does Bharat Pashudhan record along with each service a field worker uploads?"),
-          options: [L("GPS location"), L("The farmer's bank PIN"), L("Nothing else"), L("The weather forecast")],
+          q: L("What does Bharat Pashudhan record along with each service a field worker uploads?", "క్షేత్ర సిబ్బంది అప్‌లోడ్ చేసే ప్రతి సేవతో పాటు భారత్ పశుధన్ ఏమి నమోదు చేస్తుంది?"),
+          options: [L("GPS location", "GPS స్థానం"), L("The farmer's bank PIN", "రైతు బ్యాంక్ PIN"), L("Nothing else", "ఇంకేమీ కాదు"), L("The weather forecast", "వాతావరణ సూచన")],
           answer: 0,
-          explain: L("Services such as AI, vaccination and treatment are uploaded with GPS coordinates."),
+          explain: L("Services such as AI, vaccination and treatment are uploaded with GPS coordinates.", "AI, టీకా, చికిత్స వంటి సేవలను GPS కోఆర్డినేట్లతో అప్‌లోడ్ చేస్తారు."),
         },
         {
           topicId: "t-m17-bharat-pashudhan",
           type: "mcq",
-          q: L("Which of these species can be registered in Bharat Pashudhan?"),
-          options: [L("Cattle, buffalo, goat, sheep, pig, yak, mithun, horse, donkey and mule"), L("Only cows"), L("Only buffaloes"), L("Only dogs and cats")],
+          q: L("Which of these species can be registered in Bharat Pashudhan?", "వీటిలో ఏ జాతులను భారత్ పశుధన్‌లో నమోదు చేయవచ్చు?"),
+          options: [L("Cattle, buffalo, goat, sheep, pig, yak, mithun, horse, donkey and mule", "ఆవు, గేదె, మేక, గొర్రె, పంది, యాక్, మిథున్, గుర్రం, గాడిద, కంచర గాడిద"), L("Only cows", "ఆవులు మాత్రమే"), L("Only buffaloes", "గేదెలు మాత్రమే"), L("Only dogs and cats", "కుక్కలు, పిల్లులు మాత్రమే")],
           answer: 0,
-          explain: L("Ten species can currently be registered, individually or as a flock."),
+          explain: L("Ten species can currently be registered, individually or as a flock.", "ప్రస్తుతం పది జాతులను విడిగా లేదా మందగా నమోదు చేయవచ్చు."),
         },
         {
           topicId: "t-m17-bharat-pashudhan",
           type: "truefalse",
-          q: L("When an animal is sold, its ownership can be transferred in Bharat Pashudhan."),
+          q: L("When an animal is sold, its ownership can be transferred in Bharat Pashudhan.", "పశువును అమ్మినప్పుడు, భారత్ పశుధన్‌లో దాని యాజమాన్యాన్ని బదిలీ చేయవచ్చు."),
           answer: true,
-          explain: L("Yes — ownership transfer on sale or purchase is part of the animal management module."),
+          explain: L("Yes — ownership transfer on sale or purchase is part of the animal management module.", "అవును — అమ్మకం లేదా కొనుగోలుపై యాజమాన్య బదిలీ పశువుల నిర్వహణ విభాగంలో భాగం."),
         },
         {
           topicId: "t-m17-farmer-benefits",
           type: "mcq",
-          q: L("Why does the farmer receive an SMS when their animal is inseminated or treated?"),
-          options: [L("To advertise products"), L("So they can verify that the service was actually given"), L("To ask for money"), L("There is no reason")],
+          q: L("Why does the farmer receive an SMS when their animal is inseminated or treated?", "పశువుకు గర్భధారణ లేదా చికిత్స చేసినప్పుడు రైతుకు SMS ఎందుకు వస్తుంది?"),
+          options: [L("To advertise products", "ఉత్పత్తుల ప్రకటన కోసం"), L("So they can verify that the service was actually given", "ఆ సేవ నిజంగా ఇచ్చారో లేదో ధృవీకరించడానికి"), L("To ask for money", "డబ్బు అడగడానికి"), L("There is no reason", "ఏ కారణం లేదు")],
           answer: 1,
-          explain: L("SMS/OTP alerts let the farmer verify each service recorded against their animal."),
+          explain: L("SMS/OTP alerts let the farmer verify each service recorded against their animal.", "SMS/OTP హెచ్చరికల ద్వారా రైతు తన పశువుపై నమోదైన ప్రతి సేవను ధృవీకరించవచ్చు."),
         },
         {
           topicId: "t-m17-farmer-benefits",
           type: "mcq",
-          q: L("What is 'Pashu Bazaar' in the 1962 app?"),
-          options: [L("A place to buy and sell animals"), L("A vaccine"), L("A type of fodder"), L("A cattle breed")],
+          q: L("What is 'Pashu Bazaar' in the 1962 app?", "1962 యాప్‌లో 'పశు బజార్' అంటే ఏమిటి?"),
+          options: [L("A place to buy and sell animals", "పశువులను కొనడానికి, అమ్మడానికి ఒక వేదిక"), L("A vaccine", "ఒక టీకా"), L("A type of fodder", "ఒక రకమైన మేత"), L("A cattle breed", "ఒక పశు జాతి")],
           answer: 0,
-          explain: L("Pashu Bazaar lets farmers buy and sell animals through the app."),
+          explain: L("Pashu Bazaar lets farmers buy and sell animals through the app.", "పశు బజార్ ద్వారా రైతులు యాప్‌లోనే పశువులను కొనవచ్చు, అమ్మవచ్చు."),
         },
       ],
     },
@@ -20888,8 +20678,8 @@ export const MODULES = [
   {
     id: "m18",
     number: 18,
-    title: L("Farm Performance Targets"),
-    subtitle: L("The numbers that show whether a dairy farm is healthy and productive — and what to check when milk, fat or SNF drops."),
+    title: L("Farm Performance Targets", "ఫారం పనితీరు లక్ష్యాలు"),
+    subtitle: L("The numbers that show whether a dairy farm is healthy and productive — and what to check when milk, fat or SNF drops.", "పాడి ఫారం ఆరోగ్యంగా, ఉత్పాదకంగా ఉందో లేదో చూపే సంఖ్యలు — పాలు, వెన్న లేదా SNF తగ్గినప్పుడు ఏమి పరీక్షించాలి."),
     icon: "chart",
     available: true,
     lessons: [
@@ -20899,112 +20689,106 @@ export const MODULES = [
       // ==================================================================
       {
         id: "m18-l1",
-        title: L("Production Targets: Is the Farm on Track?"),
+        title: L("Production Targets: Is the Farm on Track?", "ఉత్పత్తి లక్ష్యాలు: ఫారం సరైన దారిలో ఉందా?"),
         estMinutes: 9,
         hook: [
           {
             type: "hero",
-            heading: L("You Can't Improve What You Don't Measure"),
-            text: L(
-              "Two farms can look equally busy, yet one makes money and the other quietly loses it. The difference shows up in a handful of numbers — how fast calves grow, how much milk each cow gives, how many animals are dry. The NDDB 2026 farm management guideline lists these key indicators. They are guides, not fixed rules: breed, feed, climate and management all affect them."
-            ),
+            heading: L("You Can't Improve What You Don't Measure", "కొలవనిదాన్ని మెరుగుపరచలేరు"),
+            text: L("Two farms can look equally busy, yet one makes money and the other quietly loses it. The difference shows up in a handful of numbers — how fast calves grow, how much milk each cow gives, how many animals are dry. The NDDB 2026 farm management guideline lists these key indicators. They are guides, not fixed rules: breed, feed, climate and management all affect them.", "రెండు ఫారాలు సమానంగా పని చేస్తున్నట్లు కనిపించవచ్చు, కానీ ఒకటి డబ్బు సంపాదిస్తుంది, మరొకటి నిశ్శబ్దంగా నష్టపోతుంది. తేడా కొన్ని సంఖ్యల్లో కనిపిస్తుంది — దూడలు ఎంత వేగంగా పెరుగుతాయి, ప్రతి ఆవు ఎంత పాలు ఇస్తుంది, ఎన్ని పశువులు పాలు ఇవ్వడం లేదు. NDDB 2026 ఫారం నిర్వహణ మార్గదర్శకం ఈ ముఖ్యమైన సూచికలను జాబితా చేస్తుంది. ఇవి మార్గదర్శకాలు, స్థిర నియమాలు కావు: జాతి, దాణా, వాతావరణం, నిర్వహణ అన్నీ వీటిని ప్రభావితం చేస్తాయి."),
           },
         ],
         topics: [
           {
             id: "t-m18-growth-targets",
-            title: L("Growth Targets for Calves and Heifers"),
+            title: L("Growth Targets for Calves and Heifers", "దూడలు, పెయ్యల పెరుగుదల లక్ష్యాలు"),
             teach: [
               {
                 type: "stat-grid",
                 items: [
                   {
-                    label: L("Birth weight"),
-                    text: L("About 6–8% of the mother's adult weight: roughly 20–30 kg in indigenous calves, 25–35 kg crossbred, 35–45 kg Holstein-Friesian, 30–40 kg buffalo."),
+                    label: L("Birth weight", "పుట్టుక బరువు"),
+                    text: L("About 6–8% of the mother's adult weight: roughly 20–30 kg in indigenous calves, 25–35 kg crossbred, 35–45 kg Holstein-Friesian, 30–40 kg buffalo.", "తల్లి పెద్దయిన బరువులో సుమారు 6–8%: దేశీ దూడలు సుమారు 20–30 కిలోలు, సంకర జాతి 25–35 కిలోలు, హోల్‌స్టీన్-ఫ్రీషియన్ 35–45 కిలోలు, గేదె 30–40 కిలోలు."),
                   },
                   {
-                    label: L("Daily gain before weaning"),
-                    text: L("About 0.5–0.8 kg a day in indigenous and buffalo calves; 0.7–1.0 kg a day in well-managed crossbred and exotic calves."),
+                    label: L("Daily gain before weaning", "పాలు మాన్పించే ముందు రోజువారీ పెరుగుదల"),
+                    text: L("About 0.5–0.8 kg a day in indigenous and buffalo calves; 0.7–1.0 kg a day in well-managed crossbred and exotic calves.", "దేశీ, గేదె దూడల్లో రోజుకు సుమారు 0.5–0.8 కిలోలు; బాగా చూసుకునే సంకర జాతి, విదేశీ జాతి దూడల్లో రోజుకు 0.7–1.0 కిలోలు."),
                   },
                   {
-                    label: L("Heifer weight at first breeding"),
-                    text: L("About 55–60% of expected adult weight: indigenous 180–220 kg, Jersey cross 250–300 kg, HF cross 300–350 kg, buffalo 300–350 kg."),
+                    label: L("Heifer weight at first breeding", "మొదటి గర్భధారణ సమయంలో పెయ్య బరువు"),
+                    text: L("About 55–60% of expected adult weight: indigenous 180–220 kg, Jersey cross 250–300 kg, HF cross 300–350 kg, buffalo 300–350 kg.", "అంచనా వేసిన పెద్దయిన బరువులో సుమారు 55–60%: దేశీ 180–220 కిలోలు, జెర్సీ సంకరం 250–300 కిలోలు, HF సంకరం 300–350 కిలోలు, గేదె 300–350 కిలోలు."),
                   },
                   {
-                    label: L("Pregnancy weight gain"),
-                    text: L("Most of it happens in the last three months, especially the final 30–45 days."),
+                    label: L("Pregnancy weight gain", "చూడి సమయంలో బరువు పెరుగుదల"),
+                    text: L("Most of it happens in the last three months, especially the final 30–45 days.", "ఎక్కువ భాగం చివరి మూడు నెలల్లో, ముఖ్యంగా చివరి 30–45 రోజుల్లో జరుగుతుంది."),
                   },
                 ],
               },
               {
                 type: "callout",
                 style: "tip",
-                heading: L("Breed by Weight, Not Just by Age"),
-                text: L(
-                  "A heifer that is bred before she reaches about 55–60% of her adult weight may have a difficult calving and a poor first lactation. Weighing calves at regular intervals (for example at 7, 14, 21, 30, 60, 90, 120, 150 and 180 days where possible) shows early whether growth is on track."
-                ),
+                heading: L("Breed by Weight, Not Just by Age", "వయసు మాత్రమే కాదు, బరువును బట్టి గర్భధారణ చేయించండి"),
+                text: L("A heifer that is bred before she reaches about 55–60% of her adult weight may have a difficult calving and a poor first lactation. Weighing calves at regular intervals (for example at 7, 14, 21, 30, 60, 90, 120, 150 and 180 days where possible) shows early whether growth is on track.", "పెద్దయిన బరువులో సుమారు 55–60%కి చేరకముందే గర్భధారణ చేయించిన పెయ్యకు కష్టమైన ఈత, తక్కువ మొదటి పాల దిగుబడి రావచ్చు. దూడలను క్రమమైన వ్యవధుల్లో (ఉదాహరణకు వీలైతే 7, 14, 21, 30, 60, 90, 120, 150, 180 రోజులకు) బరువు చూస్తే పెరుగుదల సరిగా ఉందో లేదో ముందుగానే తెలుస్తుంది."),
               },
             ],
             check: [
               {
                 type: "mcq",
-                q: L("Before first breeding, a heifer should reach about what share of her expected adult body weight?"),
-                options: [L("10–15%"), L("100%"), L("55–60%"), L("Weight doesn't matter")],
+                q: L("Before first breeding, a heifer should reach about what share of her expected adult body weight?", "మొదటి గర్భధారణకు ముందు, పెయ్య తన అంచనా వేసిన పెద్దయిన శరీర బరువులో సుమారు ఎంత వంతుకు చేరుకోవాలి?"),
+                options: [L("10–15%"), L("100%"), L("55–60%"), L("Weight doesn't matter", "బరువు ముఖ్యం కాదు")],
                 answer: 2,
-                explain: L("Heifers should reach about 55–60% of mature weight before first breeding to support fertility and future milk yield."),
+                explain: L("Heifers should reach about 55–60% of mature weight before first breeding to support fertility and future milk yield.", "సంతానోత్పత్తి, భవిష్యత్ పాల దిగుబడి కోసం పెయ్యలు మొదటి గర్భధారణకు ముందు పెద్దయిన బరువులో సుమారు 55–60%కి చేరుకోవాలి."),
               },
               {
                 type: "truefalse",
-                q: L("A well-managed crossbred calf should gain about 0.7–1.0 kg a day before weaning."),
+                q: L("A well-managed crossbred calf should gain about 0.7–1.0 kg a day before weaning.", "బాగా చూసుకునే సంకర జాతి దూడ పాలు మాన్పించే ముందు రోజుకు సుమారు 0.7–1.0 కిలోలు పెరగాలి."),
                 answer: true,
-                explain: L("Correct — indigenous and buffalo calves typically gain 0.5–0.8 kg a day."),
+                explain: L("Correct — indigenous and buffalo calves typically gain 0.5–0.8 kg a day.", "సరైనది — దేశీ, గేదె దూడలు సాధారణంగా రోజుకు 0.5–0.8 కిలోలు పెరుగుతాయి."),
               },
             ],
           },
           {
             id: "t-m18-milk-targets",
-            title: L("Milk Yield, Fat, Dry Period and Herd Averages"),
+            title: L("Milk Yield, Fat, Dry Period and Herd Averages", "పాల దిగుబడి, వెన్న, విశ్రాంతి కాలం, మంద సగటులు"),
             teach: [
               {
                 type: "stat-grid",
                 items: [
-                  { label: L("Indigenous cattle"), text: L("About 1,000–1,500 kg per 305-day lactation; fat 4.5–5.5%.") },
-                  { label: L("Crossbred cattle"), text: L("About 2,500–4,500 kg; HF crossbreds 4,500–7,500 kg (fat 3–4%), Jersey crossbreds 3,000–5,500 kg (fat 3.5–4.5%).") },
-                  { label: L("Buffaloes"), text: L("About 1,800–3,500 kg per lactation.") },
-                  { label: L("Lactation and dry period"), text: L("Ideal lactation about 305 days, followed by a dry period of about 60 days.") },
+                  { label: L("Indigenous cattle", "దేశీ పశువులు"), text: L("About 1,000–1,500 kg per 305-day lactation; fat 4.5–5.5%.", "305 రోజుల పాలిచ్చే కాలానికి సుమారు 1,000–1,500 కిలోలు; వెన్న 4.5–5.5%.") },
+                  { label: L("Crossbred cattle", "సంకర జాతి పశువులు"), text: L("About 2,500–4,500 kg; HF crossbreds 4,500–7,500 kg (fat 3–4%), Jersey crossbreds 3,000–5,500 kg (fat 3.5–4.5%).", "సుమారు 2,500–4,500 కిలోలు; HF సంకరాలు 4,500–7,500 కిలోలు (వెన్న 3–4%), జెర్సీ సంకరాలు 3,000–5,500 కిలోలు (వెన్న 3.5–4.5%).") },
+                  { label: L("Buffaloes", "గేదెలు"), text: L("About 1,800–3,500 kg per lactation.", "ఒక్కో పాలిచ్చే కాలానికి సుమారు 1,800–3,500 కిలోలు.") },
+                  { label: L("Lactation and dry period", "పాలిచ్చే కాలం, విశ్రాంతి కాలం"), text: L("Ideal lactation about 305 days, followed by a dry period of about 60 days.", "ఆదర్శ పాలిచ్చే కాలం సుమారు 305 రోజులు, తర్వాత సుమారు 60 రోజుల విశ్రాంతి కాలం.") },
                 ],
               },
               {
                 type: "glossary",
-                term: L("Wet Average"),
-                meaning: L("Total milk per day ÷ number of animals currently giving milk. It shows how well the milking animals are producing."),
+                term: L("Wet Average", "వెట్ సగటు (పాలిచ్చే పశువుల సగటు)"),
+                meaning: L("Total milk per day ÷ number of animals currently giving milk. It shows how well the milking animals are producing.", "రోజుకు మొత్తం పాలు ÷ ప్రస్తుతం పాలిస్తున్న పశువుల సంఖ్య. పాలిచ్చే పశువులు ఎంత బాగా ఉత్పత్తి చేస్తున్నాయో చూపిస్తుంది."),
               },
               {
                 type: "glossary",
-                term: L("Herd Average"),
-                meaning: L("Total milk per day ÷ number of all animals on the farm (milking and dry). It shows how productive the whole herd is."),
+                term: L("Herd Average", "మంద సగటు"),
+                meaning: L("Total milk per day ÷ number of all animals on the farm (milking and dry). It shows how productive the whole herd is.", "రోజుకు మొత్తం పాలు ÷ ఫారంలోని అన్ని పశువుల సంఖ్య (పాలిచ్చేవి, పాలు ఇవ్వనివి). మంద మొత్తం ఎంత ఉత్పాదకంగా ఉందో చూపిస్తుంది."),
               },
               {
                 type: "example",
-                heading: L("Working It Out"),
-                text: L(
-                  "A farm has 10 cows. 7 are milking and together give 70 litres a day. Wet average = 70 ÷ 7 = 10 litres. Herd average = 70 ÷ 10 = 7 litres. The bigger the gap between the two, the more dry animals the farm is feeding. Ideally about 70% of cows should be in milk and 30% dry (a 70:30 ratio)."
-                ),
+                heading: L("Working It Out", "లెక్కించడం"),
+                text: L("A farm has 10 cows. 7 are milking and together give 70 litres a day. Wet average = 70 ÷ 7 = 10 litres. Herd average = 70 ÷ 10 = 7 litres. The bigger the gap between the two, the more dry animals the farm is feeding. Ideally about 70% of cows should be in milk and 30% dry (a 70:30 ratio).", "ఒక ఫారంలో 10 ఆవులు ఉన్నాయి. 7 పాలిస్తున్నాయి, కలిపి రోజుకు 70 లీటర్లు ఇస్తున్నాయి. వెట్ సగటు = 70 ÷ 7 = 10 లీటర్లు. మంద సగటు = 70 ÷ 10 = 7 లీటర్లు. రెండింటి మధ్య తేడా ఎంత ఎక్కువైతే, ఫారం అంత ఎక్కువ పాలు ఇవ్వని పశువులను పోషిస్తోంది. ఆదర్శంగా సుమారు 70% ఆవులు పాలిస్తూ, 30% పాలు ఇవ్వకుండా ఉండాలి (70:30 నిష్పత్తి)."),
               },
             ],
             check: [
               {
                 type: "mcq",
-                q: L("A farm has 20 animals; 14 are milking and give 140 litres a day. What is the wet average?"),
-                options: [L("7 litres"), L("10 litres"), L("14 litres"), L("20 litres")],
+                q: L("A farm has 20 animals; 14 are milking and give 140 litres a day. What is the wet average?", "ఒక ఫారంలో 20 పశువులు ఉన్నాయి; 14 పాలిస్తూ రోజుకు 140 లీటర్లు ఇస్తున్నాయి. వెట్ సగటు ఎంత?"),
+                options: [L("7 litres", "7 లీటర్లు"), L("10 litres", "10 లీటర్లు"), L("14 litres", "14 లీటర్లు"), L("20 litres", "20 లీటర్లు")],
                 answer: 1,
-                explain: L("Wet average = 140 ÷ 14 milking animals = 10 litres. (Herd average would be 140 ÷ 20 = 7 litres.)"),
+                explain: L("Wet average = 140 ÷ 14 milking animals = 10 litres. (Herd average would be 140 ÷ 20 = 7 litres.)", "వెట్ సగటు = 140 ÷ 14 పాలిచ్చే పశువులు = 10 లీటర్లు. (మంద సగటు 140 ÷ 20 = 7 లీటర్లు.)"),
               },
               {
                 type: "truefalse",
-                q: L("Ideally, about 70% of a herd's cows should be in milk and 30% dry."),
+                q: L("Ideally, about 70% of a herd's cows should be in milk and 30% dry.", "ఆదర్శంగా, మందలోని సుమారు 70% ఆవులు పాలిస్తూ, 30% పాలు ఇవ్వకుండా ఉండాలి."),
                 answer: true,
-                explain: L("Yes — an in-milk to dry ratio of about 70:30 is the guideline's target, depending on herd structure and calving pattern."),
+                explain: L("Yes — an in-milk to dry ratio of about 70:30 is the guideline's target, depending on herd structure and calving pattern.", "అవును — మంద నిర్మాణం, ఈతల క్రమాన్ని బట్టి, పాలిచ్చేవి-పాలు ఇవ్వనివి సుమారు 70:30 నిష్పత్తి మార్గదర్శకం లక్ష్యం."),
               },
             ],
           },
@@ -21015,41 +20799,41 @@ export const MODULES = [
             {
               topicId: "t-m18-growth-targets",
               type: "mcq",
-              q: L("A healthy calf's birth weight is usually about what share of its mother's adult weight?"),
+              q: L("A healthy calf's birth weight is usually about what share of its mother's adult weight?", "ఆరోగ్యకరమైన దూడ పుట్టుక బరువు సాధారణంగా తల్లి పెద్దయిన బరువులో సుమారు ఎంత వంతు?"),
               options: [L("50%"), L("1%"), L("25%"), L("6–8%")],
               answer: 3,
-              explain: L("Birth weight is typically about 6–8% of the dam's mature body weight."),
+              explain: L("Birth weight is typically about 6–8% of the dam's mature body weight.", "పుట్టుక బరువు సాధారణంగా తల్లి పెద్దయిన శరీర బరువులో సుమారు 6–8%."),
             },
             {
               topicId: "t-m18-growth-targets",
               type: "mcq",
-              q: L("About what weight should a Jersey crossbred heifer reach before first breeding?"),
-              options: [L("50–60 kg"), L("600–700 kg"), L("250–300 kg"), L("100 kg")],
+              q: L("About what weight should a Jersey crossbred heifer reach before first breeding?", "జెర్సీ సంకర పెయ్య మొదటి గర్భధారణకు ముందు సుమారు ఎంత బరువుకు చేరుకోవాలి?"),
+              options: [L("50–60 kg", "50–60 కిలోలు"), L("600–700 kg", "600–700 కిలోలు"), L("250–300 kg", "250–300 కిలోలు"), L("100 kg", "100 కిలోలు")],
               answer: 2,
-              explain: L("Jersey crossbred heifers should be about 250–300 kg (55–60% of adult weight) at first breeding."),
+              explain: L("Jersey crossbred heifers should be about 250–300 kg (55–60% of adult weight) at first breeding.", "జెర్సీ సంకర పెయ్యలు మొదటి గర్భధారణ సమయానికి సుమారు 250–300 కిలోలు (పెద్దయిన బరువులో 55–60%) ఉండాలి."),
             },
             {
               topicId: "t-m18-milk-targets",
               type: "mcq",
-              q: L("What is the ideal length of the dry period before the next calving?"),
-              options: [L("About 7 days"), L("About 6 months"), L("About 60 days"), L("No dry period is needed")],
+              q: L("What is the ideal length of the dry period before the next calving?", "తర్వాతి ఈతకు ముందు ఆదర్శ విశ్రాంతి కాలం ఎంత?"),
+              options: [L("About 7 days", "సుమారు 7 రోజులు"), L("About 6 months", "సుమారు 6 నెలలు"), L("About 60 days", "సుమారు 60 రోజులు"), L("No dry period is needed", "విశ్రాంతి కాలం అవసరం లేదు")],
               answer: 2,
-              explain: L("The guideline gives an ideal dry period of about 60 days."),
+              explain: L("The guideline gives an ideal dry period of about 60 days.", "మార్గదర్శకం ఆదర్శ విశ్రాంతి కాలాన్ని సుమారు 60 రోజులుగా చెబుతుంది."),
             },
             {
               topicId: "t-m18-milk-targets",
               type: "truefalse",
-              q: L("A large gap between wet average and herd average means a high share of the herd is dry."),
+              q: L("A large gap between wet average and herd average means a high share of the herd is dry.", "వెట్ సగటు, మంద సగటు మధ్య పెద్ద తేడా ఉంటే మందలో ఎక్కువ వంతు పాలు ఇవ్వడం లేదని అర్థం."),
               answer: true,
-              explain: L("Correct — dry animals pull the herd average down but not the wet average."),
+              explain: L("Correct — dry animals pull the herd average down but not the wet average.", "సరైనది — పాలు ఇవ్వని పశువులు మంద సగటును తగ్గిస్తాయి కానీ వెట్ సగటును కాదు."),
             },
             {
               topicId: "t-m18-milk-targets",
               type: "mcq",
-              q: L("Which animals typically have the highest milk fat percentage?"),
-              options: [L("HF cows, about 3–4%"), L("Indigenous (zebu) cattle, about 4.5–5.5%"), L("All breeds are the same"), L("Calves")],
+              q: L("Which animals typically have the highest milk fat percentage?", "సాధారణంగా ఏ పశువుల పాలలో వెన్న శాతం ఎక్కువ?"),
+              options: [L("HF cows, about 3–4%", "HF ఆవులు, సుమారు 3–4%"), L("Indigenous (zebu) cattle, about 4.5–5.5%", "దేశీ (జెబు) పశువులు, సుమారు 4.5–5.5%"), L("All breeds are the same", "అన్ని జాతులూ ఒకటే"), L("Calves", "దూడలు")],
               answer: 1,
-              explain: L("Indigenous cattle milk is typically 4.5–5.5% fat, compared with 3–4% for HF and 3.5–4.5% for Jersey."),
+              explain: L("Indigenous cattle milk is typically 4.5–5.5% fat, compared with 3–4% for HF and 3.5–4.5% for Jersey.", "దేశీ పశువుల పాలలో సాధారణంగా 4.5–5.5% వెన్న ఉంటుంది, HFలో 3–4%, జెర్సీలో 3.5–4.5%."),
             },
           ],
         },
@@ -21061,108 +20845,104 @@ export const MODULES = [
       // ==================================================================
       {
         id: "m18-l2",
-        title: L("Reproduction Targets: Calving Interval, Conception and More"),
+        title: L("Reproduction Targets: Calving Interval, Conception and More", "పునరుత్పత్తి లక్ష్యాలు: ఈతల మధ్య కాలం, గర్భధారణ, మరిన్ని"),
         estMinutes: 10,
         hook: [
           {
             type: "hero",
-            heading: L("No Calf, No Milk"),
-            text: L(
-              "A cow only gives milk after she calves, so a farm's income depends on getting cows pregnant again on time. The NDDB guideline gives clear targets for this. Knowing them lets you spot when a farm's breeding is slipping — long before the farmer notices the empty milk can."
-            ),
+            heading: L("No Calf, No Milk", "దూడ లేకపోతే, పాలు లేవు"),
+            text: L("A cow only gives milk after she calves, so a farm's income depends on getting cows pregnant again on time. The NDDB guideline gives clear targets for this. Knowing them lets you spot when a farm's breeding is slipping — long before the farmer notices the empty milk can.", "ఆవు ఈనిన తర్వాతే పాలు ఇస్తుంది, కాబట్టి ఫారం ఆదాయం ఆవులకు సమయానికి మళ్ళీ చూడి కట్టించడంపై ఆధారపడి ఉంటుంది. NDDB మార్గదర్శకం దీనికి స్పష్టమైన లక్ష్యాలు ఇస్తుంది. వీటిని తెలుసుకుంటే, రైతు ఖాళీ పాల డబ్బాను గమనించడానికి చాలా ముందే ఫారం సంతానోత్పత్తి జారిపోతోందని మీరు గుర్తించగలరు."),
           },
         ],
         topics: [
           {
             id: "t-m18-repro-traits",
-            title: L("Age at First Calving, Service Period and Calving Interval"),
+            title: L("Age at First Calving, Service Period and Calving Interval", "మొదటి ఈత వయసు, సర్వీస్ కాలం, ఈతల మధ్య కాలం"),
             teach: [
               {
                 type: "stat-grid",
                 items: [
-                  { label: L("Age at puberty"), text: L("About 15–18 months in HF and Jersey; about 25 months in zebu (indigenous) cattle.") },
-                  { label: L("Age at first calving"), text: L("Target 24–30 months for crossbred cows; 30–36 months for indigenous cattle and buffaloes.") },
-                  { label: L("First heat after calving"), text: L("Cows within 30–60 days (at least 80% of cows by 60 days); buffaloes 45–90 days.") },
-                  { label: L("Service period"), text: L("Days from calving to successful conception: 60–90 days in cows, 90–150 days in buffaloes.") },
+                  { label: L("Age at puberty", "యుక్తవయసు"), text: L("About 15–18 months in HF and Jersey; about 25 months in zebu (indigenous) cattle.", "HF, జెర్సీలో సుమారు 15–18 నెలలు; జెబు (దేశీ) పశువుల్లో సుమారు 25 నెలలు.") },
+                  { label: L("Age at first calving", "మొదటి ఈత వయసు"), text: L("Target 24–30 months for crossbred cows; 30–36 months for indigenous cattle and buffaloes.", "సంకర జాతి ఆవులకు లక్ష్యం 24–30 నెలలు; దేశీ పశువులు, గేదెలకు 30–36 నెలలు.") },
+                  { label: L("First heat after calving", "ఈనిన తర్వాత మొదటి ఎద"), text: L("Cows within 30–60 days (at least 80% of cows by 60 days); buffaloes 45–90 days.", "ఆవులు 30–60 రోజుల్లో (60 రోజులకల్లా కనీసం 80% ఆవులు); గేదెలు 45–90 రోజుల్లో.") },
+                  { label: L("Service period", "సర్వీస్ కాలం"), text: L("Days from calving to successful conception: 60–90 days in cows, 90–150 days in buffaloes.", "ఈత నుండి విజయవంతమైన గర్భధారణ వరకు రోజులు: ఆవుల్లో 60–90 రోజులు, గేదెల్లో 90–150 రోజులు.") },
                 ],
               },
               {
                 type: "glossary",
-                term: L("Calving Interval"),
-                meaning: L("The number of days between two successive calvings. It is the single best number for judging a farm's breeding."),
+                term: L("Calving Interval", "ఈతల మధ్య కాలం (కాల్వింగ్ ఇంటర్వెల్)"),
+                meaning: L("The number of days between two successive calvings. It is the single best number for judging a farm's breeding.", "వరుసగా రెండు ఈతల మధ్య రోజుల సంఖ్య. ఫారం సంతానోత్పత్తిని అంచనా వేయడానికి ఇదే అత్యుత్తమ ఒకే సంఖ్య."),
               },
               {
                 type: "stat-grid",
                 items: [
-                  { label: L("Cows — ideal"), text: L("365–380 days (12–12.5 months). Up to 400 days is acceptable.") },
-                  { label: L("Cows — investigate"), text: L("More than 420 days: check nutrition, heat detection, health and management.") },
-                  { label: L("Buffaloes — ideal"), text: L("395–425 days (13–14 months). Up to 450 days is acceptable.") },
-                  { label: L("Buffaloes — investigate"), text: L("More than 450 days: evaluate nutrition, heat detection, breeding and health.") },
+                  { label: L("Cows — ideal", "ఆవులు — ఆదర్శం"), text: L("365–380 days (12–12.5 months). Up to 400 days is acceptable.", "365–380 రోజులు (12–12.5 నెలలు). 400 రోజుల వరకు ఆమోదయోగ్యం.") },
+                  { label: L("Cows — investigate", "ఆవులు — పరిశీలించాలి"), text: L("More than 420 days: check nutrition, heat detection, health and management.", "420 రోజుల కంటే ఎక్కువ: పోషణ, ఎద గుర్తింపు, ఆరోగ్యం, నిర్వహణను పరీక్షించండి.") },
+                  { label: L("Buffaloes — ideal", "గేదెలు — ఆదర్శం"), text: L("395–425 days (13–14 months). Up to 450 days is acceptable.", "395–425 రోజులు (13–14 నెలలు). 450 రోజుల వరకు ఆమోదయోగ్యం.") },
+                  { label: L("Buffaloes — investigate", "గేదెలు — పరిశీలించాలి"), text: L("More than 450 days: evaluate nutrition, heat detection, breeding and health.", "450 రోజుల కంటే ఎక్కువ: పోషణ, ఎద గుర్తింపు, సంతానోత్పత్తి, ఆరోగ్యాన్ని అంచనా వేయండి.") },
                 ],
               },
             ],
             check: [
               {
                 type: "mcq",
-                q: L("What is the ideal calving interval for a dairy cow?"),
-                options: [L("200 days"), L("600 days"), L("365–380 days"), L("Calving interval doesn't matter")],
+                q: L("What is the ideal calving interval for a dairy cow?", "పాడి ఆవుకు ఆదర్శ ఈతల మధ్య కాలం ఎంత?"),
+                options: [L("200 days", "200 రోజులు"), L("600 days", "600 రోజులు"), L("365–380 days", "365–380 రోజులు"), L("Calving interval doesn't matter", "ఈతల మధ్య కాలం ముఖ్యం కాదు")],
                 answer: 2,
-                explain: L("Ideal is 365–380 days; up to 400 is acceptable; over 420 days should be investigated."),
+                explain: L("Ideal is 365–380 days; up to 400 is acceptable; over 420 days should be investigated.", "ఆదర్శం 365–380 రోజులు; 400 వరకు ఆమోదయోగ్యం; 420 రోజులు దాటితే పరిశీలించాలి."),
               },
               {
                 type: "truefalse",
-                q: L("The ideal service period for buffaloes is longer than for cows."),
+                q: L("The ideal service period for buffaloes is longer than for cows.", "గేదెలకు ఆదర్శ సర్వీస్ కాలం ఆవుల కంటే ఎక్కువ."),
                 answer: true,
-                explain: L("Yes — about 90–150 days in buffaloes, compared with 60–90 days in cows."),
+                explain: L("Yes — about 90–150 days in buffaloes, compared with 60–90 days in cows.", "అవును — గేదెల్లో సుమారు 90–150 రోజులు, ఆవుల్లో 60–90 రోజులు."),
               },
             ],
           },
           {
             id: "t-m18-repro-indicators",
-            title: L("Conception Rate and Herd Fertility Indicators"),
+            title: L("Conception Rate and Herd Fertility Indicators", "గర్భధారణ రేటు, మంద సంతానోత్పత్తి సూచికలు"),
             teach: [
               {
                 type: "glossary",
-                term: L("Conception Rate"),
-                meaning: L("The percentage of inseminated animals that become pregnant from an insemination. A practical target is about 40–60%."),
+                term: L("Conception Rate", "గర్భధారణ రేటు (కన్సెప్షన్ రేట్)"),
+                meaning: L("The percentage of inseminated animals that become pregnant from an insemination. A practical target is about 40–60%.", "గర్భధారణ చేసిన పశువుల్లో ఎంత శాతం ఆ గర్భధారణతో చూడి కట్టాయో. ఆచరణాత్మక లక్ష్యం సుమారు 40–60%."),
               },
               {
                 type: "stat-grid",
                 items: [
-                  { label: L("Services per conception"), text: L("1.3–1.7 excellent; 1.8–2.0 acceptable; more than 2.0 — check heat detection, semen quality, AI technique and fertility.") },
-                  { label: L("Non-return rate"), text: L("Ideally 70% of animals should not return to heat within 60 days of AI — but always confirm pregnancy by a vet's examination.") },
-                  { label: L("Repeat breeding, anoestrus, silent heat"), text: L("Together, below 10% of breeding females.") },
-                  { label: L("Abortion and stillbirth"), text: L("Together, below 3%.") },
-                  { label: L("Heifers cycling"), text: L("At least 80% of breeding-age heifers should show regular heat cycles.") },
+                  { label: L("Services per conception", "ఒక్కో చూడికి సర్వీసులు"), text: L("1.3–1.7 excellent; 1.8–2.0 acceptable; more than 2.0 — check heat detection, semen quality, AI technique and fertility.", "1.3–1.7 అద్భుతం; 1.8–2.0 ఆమోదయోగ్యం; 2.0 కంటే ఎక్కువ — ఎద గుర్తింపు, వీర్యం నాణ్యత, AI పద్ధతి, సంతానోత్పత్తిని పరీక్షించండి.") },
+                  { label: L("Non-return rate", "నాన్-రిటర్న్ రేటు"), text: L("Ideally 70% of animals should not return to heat within 60 days of AI — but always confirm pregnancy by a vet's examination.", "ఆదర్శంగా 70% పశువులు AI తర్వాత 60 రోజుల్లో మళ్ళీ ఎదకు రాకూడదు — కానీ ఎప్పుడూ పశువైద్యుని పరీక్షతో చూడిని నిర్ధారించండి.") },
+                  { label: L("Repeat breeding, anoestrus, silent heat", "రిపీట్ బ్రీడింగ్, అనెస్ట్రస్, సైలెంట్ హీట్"), text: L("Together, below 10% of breeding females.", "అన్నీ కలిపి, సంతానోత్పత్తి వయసు ఆడ పశువుల్లో 10% కంటే తక్కువ.") },
+                  { label: L("Abortion and stillbirth", "గర్భస్రావం, మృత శిశువు జననం"), text: L("Together, below 3%.", "రెండూ కలిపి 3% కంటే తక్కువ.") },
+                  { label: L("Heifers cycling", "ఎదకు వచ్చే పెయ్యలు"), text: L("At least 80% of breeding-age heifers should show regular heat cycles.", "సంతానోత్పత్తి వయసు పెయ్యల్లో కనీసం 80% క్రమం తప్పకుండా ఎద చక్రాలు చూపించాలి.") },
                 ],
               },
               {
                 type: "callout",
                 style: "info",
-                heading: L("Modern Tools Need a Vet"),
-                text: L(
-                  "Organised farms sometimes use heat synchronisation and timed AI to improve breeding. These should only be done under the guidance of a qualified veterinarian."
-                ),
+                heading: L("Modern Tools Need a Vet", "ఆధునిక పద్ధతులకు పశువైద్యుడు అవసరం"),
+                text: L("Organised farms sometimes use heat synchronisation and timed AI to improve breeding. These should only be done under the guidance of a qualified veterinarian.", "వ్యవస్థీకృత ఫారాలు కొన్నిసార్లు సంతానోత్పత్తి మెరుగుపరచడానికి హీట్ సింక్రొనైజేషన్, టైమ్డ్ AI వాడతాయి. వీటిని అర్హత గల పశువైద్యుని మార్గదర్శకత్వంలో మాత్రమే చేయాలి."),
               },
             ],
             check: [
               {
                 type: "mcq",
-                q: L("A farm needs on average 2.6 inseminations for each pregnancy. What does this suggest?"),
+                q: L("A farm needs on average 2.6 inseminations for each pregnancy. What does this suggest?", "ఒక ఫారానికి ప్రతి చూడికి సగటున 2.6 గర్భధారణలు అవసరమవుతున్నాయి. ఇది దేన్ని సూచిస్తుంది?"),
                 options: [
-                  L("Heat detection, semen quality, AI technique or fertility should be investigated"),
-                  L("Excellent fertility"),
-                  L("Nothing — this is normal"),
-                  L("The cows are too young"),
+                  L("Heat detection, semen quality, AI technique or fertility should be investigated", "ఎద గుర్తింపు, వీర్యం నాణ్యత, AI పద్ధతి లేదా సంతానోత్పత్తిని పరిశీలించాలి"),
+                  L("Excellent fertility", "అద్భుతమైన సంతానోత్పత్తి"),
+                  L("Nothing — this is normal", "ఏమీ లేదు — ఇది సాధారణం"),
+                  L("The cows are too young", "ఆవులు మరీ చిన్నవి"),
                 ],
                 answer: 0,
-                explain: L("More than 2.0 services per conception needs investigation; 1.3–1.7 is excellent."),
+                explain: L("More than 2.0 services per conception needs investigation; 1.3–1.7 is excellent.", "ఒక్కో చూడికి 2.0 కంటే ఎక్కువ సర్వీసులు అయితే పరిశీలన అవసరం; 1.3–1.7 అద్భుతం."),
               },
               {
                 type: "truefalse",
-                q: L("If a cow doesn't return to heat after AI, that alone proves she is pregnant."),
+                q: L("If a cow doesn't return to heat after AI, that alone proves she is pregnant.", "AI తర్వాత ఆవు మళ్ళీ ఎదకు రాకపోతే, అదే ఆమె చూడి అని రుజువు చేస్తుంది."),
                 answer: false,
-                explain: L("No — non-return is only an indirect sign. Pregnancy should be confirmed by a vet's examination or ultrasound."),
+                explain: L("No — non-return is only an indirect sign. Pregnancy should be confirmed by a vet's examination or ultrasound.", "కాదు — మళ్ళీ ఎదకు రాకపోవడం పరోక్ష సంకేతం మాత్రమే. పశువైద్యుని పరీక్ష లేదా అల్ట్రాసౌండ్‌తో చూడిని నిర్ధారించాలి."),
               },
             ],
           },
@@ -21173,46 +20953,46 @@ export const MODULES = [
             {
               topicId: "t-m18-repro-traits",
               type: "mcq",
-              q: L("What is the target age at first calving for crossbred cows?"),
-              options: [L("24–30 months"), L("6–8 months"), L("5 years"), L("12 months")],
+              q: L("What is the target age at first calving for crossbred cows?", "సంకర జాతి ఆవులకు మొదటి ఈత లక్ష్య వయసు ఎంత?"),
+              options: [L("24–30 months", "24–30 నెలలు"), L("6–8 months", "6–8 నెలలు"), L("5 years", "5 సంవత్సరాలు"), L("12 months", "12 నెలలు")],
               answer: 0,
-              explain: L("24–30 months for crossbreds; 30–36 months for indigenous cattle and buffaloes."),
+              explain: L("24–30 months for crossbreds; 30–36 months for indigenous cattle and buffaloes.", "సంకర జాతులకు 24–30 నెలలు; దేశీ పశువులు, గేదెలకు 30–36 నెలలు."),
             },
             {
               topicId: "t-m18-repro-traits",
               type: "mcq",
-              q: L("A buffalo's calving interval is 470 days. What should happen?"),
+              q: L("A buffalo's calving interval is 470 days. What should happen?", "ఒక గేదె ఈతల మధ్య కాలం 470 రోజులు. ఏమి జరగాలి?"),
               options: [
-                L("Nothing — it's ideal"),
-                L("Evaluate nutrition, heat detection, breeding and health"),
-                L("Sell her immediately without checking"),
-                L("Stop feeding her"),
+                L("Nothing — it's ideal", "ఏమీ వద్దు — ఇది ఆదర్శం"),
+                L("Evaluate nutrition, heat detection, breeding and health", "పోషణ, ఎద గుర్తింపు, సంతానోత్పత్తి, ఆరోగ్యాన్ని అంచనా వేయాలి"),
+                L("Sell her immediately without checking", "పరీక్షించకుండానే వెంటనే అమ్మేయాలి"),
+                L("Stop feeding her", "ఆమెకు మేత పెట్టడం ఆపేయాలి"),
               ],
               answer: 1,
-              explain: L("Over 450 days in buffaloes indicates sub-optimal reproduction and needs evaluation."),
+              explain: L("Over 450 days in buffaloes indicates sub-optimal reproduction and needs evaluation.", "గేదెల్లో 450 రోజుల కంటే ఎక్కువ అంటే పునరుత్పత్తి సరిగా లేదని అర్థం, అంచనా అవసరం."),
             },
             {
               topicId: "t-m18-repro-traits",
               type: "truefalse",
-              q: L("At least 80% of cows should show their first heat within about 60 days after calving."),
+              q: L("At least 80% of cows should show their first heat within about 60 days after calving.", "కనీసం 80% ఆవులు ఈనిన సుమారు 60 రోజుల్లో మొదటి ఎద చూపించాలి."),
               answer: true,
-              explain: L("Correct — this is one of the guideline's indicators of good reproductive efficiency."),
+              explain: L("Correct — this is one of the guideline's indicators of good reproductive efficiency.", "సరైనది — మంచి పునరుత్పత్తి సామర్థ్యానికి మార్గదర్శకంలోని సూచికల్లో ఇది ఒకటి."),
             },
             {
               topicId: "t-m18-repro-indicators",
               type: "mcq",
-              q: L("What is a practical target conception rate per insemination?"),
-              options: [L("About 40–60%"), L("100%"), L("About 5%"), L("About 95%")],
+              q: L("What is a practical target conception rate per insemination?", "ఒక్కో గర్భధారణకు ఆచరణాత్మక లక్ష్య గర్భధారణ రేటు ఎంత?"),
+              options: [L("About 40–60%", "సుమారు 40–60%"), L("100%"), L("About 5%", "సుమారు 5%"), L("About 95%", "సుమారు 95%")],
               answer: 0,
-              explain: L("About 40–60%, which means about 1.5–2.0 services per conception."),
+              explain: L("About 40–60%, which means about 1.5–2.0 services per conception.", "సుమారు 40–60%, అంటే ఒక్కో చూడికి సుమారు 1.5–2.0 సర్వీసులు."),
             },
             {
               topicId: "t-m18-repro-indicators",
               type: "mcq",
-              q: L("Abortions and stillbirths together should ideally stay below:"),
-              options: [L("30%"), L("3%"), L("50%"), L("There is no target")],
+              q: L("Abortions and stillbirths together should ideally stay below:", "గర్భస్రావాలు, మృత శిశువు జననాలు కలిపి ఆదర్శంగా దీని కంటే తక్కువ ఉండాలి:"),
+              options: [L("30%"), L("3%"), L("50%"), L("There is no target", "లక్ష్యం లేదు")],
               answer: 1,
-              explain: L("Combined abortion and stillbirth should stay below 3%, through good reproductive health, biosecurity and disease prevention."),
+              explain: L("Combined abortion and stillbirth should stay below 3%, through good reproductive health, biosecurity and disease prevention.", "మంచి పునరుత్పత్తి ఆరోగ్యం, జీవభద్రత, వ్యాధి నివారణ ద్వారా గర్భస్రావం, మృత శిశువు జననం కలిపి 3% కంటే తక్కువ ఉండాలి."),
             },
           ],
         },
@@ -21223,96 +21003,90 @@ export const MODULES = [
       // ==================================================================
       {
         id: "m18-l3",
-        title: L("When Milk, Fat or SNF Drops: Causes and Remedies"),
+        title: L("When Milk, Fat or SNF Drops: Causes and Remedies", "పాలు, వెన్న లేదా SNF తగ్గినప్పుడు: కారణాలు, పరిష్కారాలు"),
         estMinutes: 9,
         hook: [
           {
             type: "hero",
-            heading: L("A Drop in Milk Is a Clue"),
-            text: L(
-              "Milk is paid for by quantity, fat and SNF (solids-not-fat). When any of these drops, the farmer loses money — but the drop is also a clue that something is wrong with feed, health, comfort or milking. This lesson lists the usual causes and what to check first."
-            ),
+            heading: L("A Drop in Milk Is a Clue", "పాలు తగ్గడం ఒక సూచన"),
+            text: L("Milk is paid for by quantity, fat and SNF (solids-not-fat). When any of these drops, the farmer loses money — but the drop is also a clue that something is wrong with feed, health, comfort or milking. This lesson lists the usual causes and what to check first.", "పాలకు పరిమాణం, వెన్న, SNF (వెన్న కాని ఘన పదార్థాలు) ఆధారంగా డబ్బు చెల్లిస్తారు. వీటిలో ఏది తగ్గినా రైతు డబ్బు నష్టపోతారు — కానీ ఆ తగ్గుదల దాణా, ఆరోగ్యం, సౌకర్యం లేదా పాలు పిండడంలో ఏదో తప్పు ఉందని చెప్పే సూచన కూడా. సాధారణ కారణాలు, ముందుగా ఏమి పరీక్షించాలో ఈ పాఠం జాబితా చేస్తుంది."),
           },
         ],
         topics: [
           {
             id: "t-m18-milk-drop",
-            title: L("Why Milk Yield Falls"),
+            title: L("Why Milk Yield Falls", "పాల దిగుబడి ఎందుకు తగ్గుతుంది"),
             teach: [
               {
                 type: "stat-grid",
                 items: [
                   {
-                    label: L("Feeding"),
-                    text: L("Concentrate for maintenance: 0.5 kg per 100 kg body weight, plus 400 g per litre (cows) or 500 g per litre (buffaloes). Pregnant animals need +0.5 kg a day in the 3rd–6th month and +1 kg a day in the 6th–9th month."),
+                    label: L("Feeding", "దాణా"),
+                    text: L("Concentrate for maintenance: 0.5 kg per 100 kg body weight, plus 400 g per litre (cows) or 500 g per litre (buffaloes). Pregnant animals need +0.5 kg a day in the 3rd–6th month and +1 kg a day in the 6th–9th month.", "నిర్వహణ కోసం దాణా: 100 కిలోల శరీర బరువుకు 0.5 కిలోలు, దానితో పాటు లీటరుకు 400 గ్రా. (ఆవులు) లేదా లీటరుకు 500 గ్రా. (గేదెలు). చూడి పశువులకు 3వ–6వ నెలలో రోజుకు +0.5 కిలోలు, 6వ–9వ నెలలో రోజుకు +1 కిలో అవసరం."),
                   },
-                  { label: L("Health"), text: L("Mastitis (including hidden, sub-clinical mastitis), worms and metabolic disorders all cut milk — call the vet to diagnose.") },
-                  { label: L("Age and stage"), text: L("Milk rises in early lactation, holds in mid lactation and falls in late lactation; older cows also give less.") },
-                  { label: L("Genetics"), text: L("Each breed has a limit. Better genetics come through AI with good bulls or embryo transfer.") },
-                  { label: L("Stress"), text: L("Heat, poor ventilation, overcrowding, rough handling and sudden changes in routine all lower milk.") },
+                  { label: L("Health", "ఆరోగ్యం"), text: L("Mastitis (including hidden, sub-clinical mastitis), worms and metabolic disorders all cut milk — call the vet to diagnose.", "మాస్టిటిస్ (దాగి ఉన్న, సబ్-క్లినికల్ మాస్టిటిస్‌తో సహా), నట్టలు, జీవక్రియ సమస్యలు అన్నీ పాలను తగ్గిస్తాయి — నిర్ధారణకు పశువైద్యుడిని పిలవండి.") },
+                  { label: L("Age and stage", "వయసు, దశ"), text: L("Milk rises in early lactation, holds in mid lactation and falls in late lactation; older cows also give less.", "తొలి దశలో పాలు పెరుగుతాయి, మధ్య దశలో నిలకడగా ఉంటాయి, చివరి దశలో తగ్గుతాయి; వయసైన ఆవులు కూడా తక్కువ ఇస్తాయి.") },
+                  { label: L("Genetics", "జన్యువులు"), text: L("Each breed has a limit. Better genetics come through AI with good bulls or embryo transfer.", "ప్రతి జాతికి ఒక పరిమితి ఉంటుంది. మంచి ఆబోతులతో AI లేదా పిండ మార్పిడి ద్వారా మెరుగైన జన్యువులు వస్తాయి.") },
+                  { label: L("Stress", "ఒత్తిడి"), text: L("Heat, poor ventilation, overcrowding, rough handling and sudden changes in routine all lower milk.", "వేడి, సరైన గాలి ప్రసరణ లేకపోవడం, ఇరుకుగా ఉంచడం, కఠినంగా వ్యవహరించడం, దినచర్యలో ఆకస్మిక మార్పులు అన్నీ పాలను తగ్గిస్తాయి.") },
                 ],
               },
               {
                 type: "example",
-                heading: L("Working Out a Cow's Concentrate"),
-                text: L(
-                  "A 400 kg cow giving 10 litres: maintenance = 0.5 kg × 4 = 2 kg; production = 400 g × 10 = 4 kg. Total ≈ 6 kg concentrate a day, along with good green and dry fodder. If she's also 7 months pregnant, add about 1 kg more."
-                ),
+                heading: L("Working Out a Cow's Concentrate", "ఆవుకు దాణాను లెక్కించడం"),
+                text: L("A 400 kg cow giving 10 litres: maintenance = 0.5 kg × 4 = 2 kg; production = 400 g × 10 = 4 kg. Total ≈ 6 kg concentrate a day, along with good green and dry fodder. If she's also 7 months pregnant, add about 1 kg more.", "10 లీటర్లు ఇచ్చే 400 కిలోల ఆవు: నిర్వహణ = 0.5 కిలోలు × 4 = 2 కిలోలు; ఉత్పత్తి = 400 గ్రా. × 10 = 4 కిలోలు. మొత్తం ≈ రోజుకు 6 కిలోల దాణా, దానితో పాటు మంచి పచ్చి మేత, ఎండుమేత. ఆమె 7 నెలల చూడితో కూడా ఉంటే, సుమారు 1 కిలో ఎక్కువ కలపండి."),
               },
             ],
             check: [
               {
                 type: "mcq",
-                q: L("How much concentrate does a 300 kg cow need just for body maintenance?"),
-                options: [L("15 kg"), L("150 g"), L("1.5 kg (0.5 kg per 100 kg)"), L("None")],
+                q: L("How much concentrate does a 300 kg cow need just for body maintenance?", "300 కిలోల ఆవుకు కేవలం శరీర నిర్వహణకు ఎంత దాణా అవసరం?"),
+                options: [L("15 kg", "15 కిలోలు"), L("150 g", "150 గ్రా."), L("1.5 kg (0.5 kg per 100 kg)", "1.5 కిలోలు (100 కిలోలకు 0.5 కిలోలు)"), L("None", "ఏదీ లేదు")],
                 answer: 2,
-                explain: L("0.5 kg per 100 kg body weight: 0.5 × 3 = 1.5 kg."),
+                explain: L("0.5 kg per 100 kg body weight: 0.5 × 3 = 1.5 kg.", "100 కిలోల శరీర బరువుకు 0.5 కిలోలు: 0.5 × 3 = 1.5 కిలోలు."),
               },
               {
                 type: "truefalse",
-                q: L("Hidden (sub-clinical) mastitis can lower milk yield even when the milk looks normal."),
+                q: L("Hidden (sub-clinical) mastitis can lower milk yield even when the milk looks normal.", "పాలు సాధారణంగా కనిపించినా, దాగి ఉన్న (సబ్-క్లినికల్) మాస్టిటిస్ పాల దిగుబడిని తగ్గించగలదు."),
                 answer: true,
-                explain: L("Yes — that's why sudden drops in yield should be checked for mastitis, worms and metabolic problems."),
+                explain: L("Yes — that's why sudden drops in yield should be checked for mastitis, worms and metabolic problems.", "అవును — అందుకే దిగుబడి ఆకస్మికంగా తగ్గితే మాస్టిటిస్, నట్టలు, జీవక్రియ సమస్యల కోసం పరీక్షించాలి."),
               },
             ],
           },
           {
             id: "t-m18-fat-snf-drop",
-            title: L("Why Fat and SNF Fall"),
+            title: L("Why Fat and SNF Fall", "వెన్న, SNF ఎందుకు తగ్గుతాయి"),
             teach: [
               {
                 type: "stat-grid",
                 items: [
-                  { label: L("Too little fibre"), text: L("Not enough green and dry fodder, or too much concentrate — the most common cause of low fat.") },
-                  { label: L("Too much oil"), text: L("Excess vegetable oil, oilseeds or other unsaturated fats can lower milk fat.") },
-                  { label: L("Energy shortage"), text: L("Negative energy balance in early lactation, or poor body condition, lowers SNF (and fat).") },
-                  { label: L("Heat stress and disease"), text: L("Both lower fat and SNF — check for mastitis if there is an unexpected drop.") },
-                  { label: L("Incomplete milking"), text: L("The last milk drawn is the richest in fat; irregular intervals or incomplete milking lower the fat test.") },
-                  { label: L("Stage of lactation"), text: L("Fat and SNF are naturally lower in early lactation and at high yields.") },
+                  { label: L("Too little fibre", "పీచు చాలా తక్కువ"), text: L("Not enough green and dry fodder, or too much concentrate — the most common cause of low fat.", "తగినంత పచ్చి మేత, ఎండుమేత లేకపోవడం, లేదా దాణా మరీ ఎక్కువ — తక్కువ వెన్నకు అత్యంత సాధారణ కారణం.") },
+                  { label: L("Too much oil", "నూనె మరీ ఎక్కువ"), text: L("Excess vegetable oil, oilseeds or other unsaturated fats can lower milk fat.", "అధిక వంట నూనె, నూనె గింజలు లేదా ఇతర అసంతృప్త కొవ్వులు పాలలో వెన్నను తగ్గించగలవు.") },
+                  { label: L("Energy shortage", "శక్తి కొరత"), text: L("Negative energy balance in early lactation, or poor body condition, lowers SNF (and fat).", "తొలి పాలిచ్చే దశలో శక్తి లోటు, లేదా తక్కువ శరీర స్థితి SNF (మరియు వెన్న)ను తగ్గిస్తుంది.") },
+                  { label: L("Heat stress and disease", "వేడి ఒత్తిడి, వ్యాధి"), text: L("Both lower fat and SNF — check for mastitis if there is an unexpected drop.", "రెండూ వెన్న, SNFను తగ్గిస్తాయి — ఊహించని తగ్గుదల ఉంటే మాస్టిటిస్ కోసం పరీక్షించండి.") },
+                  { label: L("Incomplete milking", "పాలు పూర్తిగా పిండకపోవడం"), text: L("The last milk drawn is the richest in fat; irregular intervals or incomplete milking lower the fat test.", "చివరగా పిండే పాలలో వెన్న అత్యధికం; క్రమం లేని వ్యవధులు లేదా పాలు పూర్తిగా పిండకపోవడం వెన్న పరీక్షను తగ్గిస్తాయి.") },
+                  { label: L("Stage of lactation", "పాలిచ్చే కాలం దశ"), text: L("Fat and SNF are naturally lower in early lactation and at high yields.", "తొలి దశలో, ఎక్కువ దిగుబడి వద్ద వెన్న, SNF సహజంగానే తక్కువగా ఉంటాయి.") },
                 ],
               },
               {
                 type: "callout",
                 style: "warning",
-                heading: L("Supplements Can't Beat Genetics"),
-                text: L(
-                  "When an animal is healthy and already on a balanced diet, SNF usually cannot be pushed above its natural limit. Fix the cause — feed, fibre, health, heat, milking — rather than relying on supplements alone, and compare with the same animal's past records."
-                ),
+                heading: L("Supplements Can't Beat Genetics", "సప్లిమెంట్లు జన్యువులను మించలేవు"),
+                text: L("When an animal is healthy and already on a balanced diet, SNF usually cannot be pushed above its natural limit. Fix the cause — feed, fibre, health, heat, milking — rather than relying on supplements alone, and compare with the same animal's past records.", "పశువు ఆరోగ్యంగా ఉండి ఇప్పటికే సమతుల్య ఆహారం మీద ఉన్నప్పుడు, SNFను సాధారణంగా దాని సహజ పరిమితి కంటే పెంచలేము. సప్లిమెంట్ల మీద మాత్రమే ఆధారపడకుండా కారణాన్ని సరిచేయండి — దాణా, పీచు, ఆరోగ్యం, వేడి, పాలు పిండడం — అదే పశువు పాత రికార్డులతో పోల్చండి."),
               },
             ],
             check: [
               {
                 type: "mcq",
-                q: L("A herd's milk fat suddenly drops after the farmer greatly increases concentrate and cuts fodder. What is the likely cause?"),
-                options: [L("Too little fibre in the diet"), L("Too much fibre"), L("Too much water"), L("Too much fresh air")],
+                q: L("A herd's milk fat suddenly drops after the farmer greatly increases concentrate and cuts fodder. What is the likely cause?", "రైతు దాణాను బాగా పెంచి, మేతను తగ్గించిన తర్వాత మంద పాలలో వెన్న అకస్మాత్తుగా తగ్గింది. కారణం ఏమై ఉండవచ్చు?"),
+                options: [L("Too little fibre in the diet", "ఆహారంలో పీచు చాలా తక్కువ"), L("Too much fibre", "పీచు మరీ ఎక్కువ"), L("Too much water", "నీళ్ళు మరీ ఎక్కువ"), L("Too much fresh air", "స్వచ్ఛమైన గాలి మరీ ఎక్కువ")],
                 answer: 0,
-                explain: L("Low effective fibre and excess rapidly fermentable concentrate are the classic causes of low milk fat."),
+                explain: L("Low effective fibre and excess rapidly fermentable concentrate are the classic causes of low milk fat.", "ప్రభావవంతమైన పీచు తక్కువగా ఉండడం, త్వరగా పులిసే దాణా అధికంగా ఉండడం పాలలో వెన్న తగ్గడానికి సాధారణ కారణాలు."),
               },
               {
                 type: "truefalse",
-                q: L("Milk drawn at the end of milking usually has more fat than the first milk."),
+                q: L("Milk drawn at the end of milking usually has more fat than the first milk.", "పాలు పిండడం చివరలో వచ్చే పాలలో సాధారణంగా మొదటి పాల కంటే ఎక్కువ వెన్న ఉంటుంది."),
                 answer: true,
-                explain: L("Correct — so incomplete milking lowers the fat percentage."),
+                explain: L("Correct — so incomplete milking lowers the fat percentage.", "సరైనది — కాబట్టి పాలు పూర్తిగా పిండకపోతే వెన్న శాతం తగ్గుతుంది."),
               },
             ],
           },
@@ -21323,45 +21097,45 @@ export const MODULES = [
             {
               topicId: "t-m18-milk-drop",
               type: "mcq",
-              q: L("How much extra concentrate does a buffalo need for each litre of milk?"),
-              options: [L("About 50 g"), L("About 500 g"), L("About 5 kg"), L("None")],
+              q: L("How much extra concentrate does a buffalo need for each litre of milk?", "గేదెకు ప్రతి లీటరు పాలకు ఎంత అదనపు దాణా అవసరం?"),
+              options: [L("About 50 g", "సుమారు 50 గ్రా."), L("About 500 g", "సుమారు 500 గ్రా."), L("About 5 kg", "సుమారు 5 కిలోలు"), L("None", "ఏదీ లేదు")],
               answer: 1,
-              explain: L("Buffaloes need about 500 g per litre; cows about 400 g per litre."),
+              explain: L("Buffaloes need about 500 g per litre; cows about 400 g per litre.", "గేదెలకు లీటరుకు సుమారు 500 గ్రా., ఆవులకు లీటరుకు సుమారు 400 గ్రా. అవసరం."),
             },
             {
               topicId: "t-m18-milk-drop",
               type: "mcq",
-              q: L("How much extra concentrate does a cow need daily in the last three months of pregnancy (6th–9th month)?"),
-              options: [L("About 10 kg"), L("None"), L("About 100 g"), L("About 1 kg")],
+              q: L("How much extra concentrate does a cow need daily in the last three months of pregnancy (6th–9th month)?", "చూడి చివరి మూడు నెలల్లో (6వ–9వ నెల) ఆవుకు రోజూ ఎంత అదనపు దాణా అవసరం?"),
+              options: [L("About 10 kg", "సుమారు 10 కిలోలు"), L("None", "ఏదీ లేదు"), L("About 100 g", "సుమారు 100 గ్రా."), L("About 1 kg", "సుమారు 1 కిలో")],
               answer: 3,
-              explain: L("+0.5 kg a day in the 3rd–6th month and +1 kg a day in the 6th–9th month."),
+              explain: L("+0.5 kg a day in the 3rd–6th month and +1 kg a day in the 6th–9th month.", "3వ–6వ నెలలో రోజుకు +0.5 కిలోలు, 6వ–9వ నెలలో రోజుకు +1 కిలో."),
             },
             {
               topicId: "t-m18-milk-drop",
               type: "truefalse",
-              q: L("Overcrowding and sudden changes in routine can reduce milk yield."),
+              q: L("Overcrowding and sudden changes in routine can reduce milk yield.", "ఇరుకుగా ఉంచడం, దినచర్యలో ఆకస్మిక మార్పులు పాల దిగుబడిని తగ్గించగలవు."),
               answer: true,
-              explain: L("Yes — stressors like overcrowding, rough handling and abrupt changes lower production."),
+              explain: L("Yes — stressors like overcrowding, rough handling and abrupt changes lower production.", "అవును — ఇరుకుగా ఉంచడం, కఠినంగా వ్యవహరించడం, ఆకస్మిక మార్పుల వంటి ఒత్తిళ్ళు ఉత్పత్తిని తగ్గిస్తాయి."),
             },
             {
               topicId: "t-m18-fat-snf-drop",
               type: "mcq",
-              q: L("Which of these is most likely to lower milk fat?"),
+              q: L("Which of these is most likely to lower milk fat?", "వీటిలో ఏది పాలలో వెన్నను ఎక్కువగా తగ్గించే అవకాశం ఉంది?"),
               options: [
-                L("Plenty of good green and dry fodder"),
-                L("Regular, complete milking"),
-                L("Clean drinking water"),
-                L("Feeding lots of concentrate with too little fodder"),
+                L("Plenty of good green and dry fodder", "సమృద్ధిగా మంచి పచ్చి మేత, ఎండుమేత"),
+                L("Regular, complete milking", "క్రమం తప్పకుండా, పూర్తిగా పాలు పిండడం"),
+                L("Clean drinking water", "శుభ్రమైన తాగునీరు"),
+                L("Feeding lots of concentrate with too little fodder", "మేత చాలా తక్కువగా, దాణా ఎక్కువగా ఇవ్వడం"),
               ],
               answer: 3,
-              explain: L("Low fibre with heavy concentrate feeding disturbs the rumen and lowers fat."),
+              explain: L("Low fibre with heavy concentrate feeding disturbs the rumen and lowers fat.", "పీచు తక్కువగా, దాణా ఎక్కువగా ఇస్తే రుమెన్ దెబ్బతిని వెన్న తగ్గుతుంది."),
             },
             {
               topicId: "t-m18-fat-snf-drop",
               type: "truefalse",
-              q: L("A healthy cow on a balanced diet can always have her SNF raised much further with supplements."),
+              q: L("A healthy cow on a balanced diet can always have her SNF raised much further with supplements.", "సమతుల్య ఆహారం మీద ఉన్న ఆరోగ్యకరమైన ఆవు SNFను సప్లిమెంట్లతో ఎప్పుడూ ఇంకా చాలా పెంచవచ్చు."),
               answer: false,
-              explain: L("No — SNF generally cannot be increased beyond the animal's genetic and physiological potential."),
+              explain: L("No — SNF generally cannot be increased beyond the animal's genetic and physiological potential.", "కాదు — SNFను సాధారణంగా పశువు జన్యు, శారీరక సామర్థ్యానికి మించి పెంచలేము."),
             },
           ],
         },
@@ -21371,8 +21145,8 @@ export const MODULES = [
   {
     id: "m19",
     number: 19,
-    title: L("Herd Health Management"),
-    subtitle: L("Keeping disease out, using medicines responsibly, deworming that works, handling abortions safely, healthy hooves, and deciding when an animal should leave the herd."),
+    title: L("Herd Health Management", "మంద ఆరోగ్య నిర్వహణ"),
+    subtitle: L("Keeping disease out, using medicines responsibly, deworming that works, handling abortions safely, healthy hooves, and deciding when an animal should leave the herd.", "వ్యాధులను దూరంగా ఉంచడం, మందులను బాధ్యతగా వాడడం, పనిచేసే నట్టల నివారణ, గర్భస్రావాలను సురక్షితంగా నిర్వహించడం, ఆరోగ్యకరమైన గిట్టలు, పశువు మంద నుండి ఎప్పుడు వెళ్ళాలో నిర్ణయించడం."),
     icon: "shield",
     available: true,
     lessons: [
@@ -21383,117 +21157,107 @@ export const MODULES = [
       // ==================================================================
       {
         id: "m19-l1",
-        title: L("Keeping Disease Out and Using Medicines Responsibly"),
+        title: L("Keeping Disease Out and Using Medicines Responsibly", "వ్యాధులను దూరంగా ఉంచడం, మందులను బాధ్యతగా వాడడం"),
         estMinutes: 9,
         hook: [
           {
             type: "hero",
-            heading: L("The Cheapest Treatment Is the One You Never Need"),
-            text: L(
-              "Most serious farm diseases arrive from outside — on a newly bought animal, a visitor's boots, a vehicle, or contaminated feed. Keeping them out (biosecurity), spotting trouble early (surveillance), and using medicines only the right way protects the animals, the farmer's income, and the people who drink the milk."
-            ),
+            heading: L("The Cheapest Treatment Is the One You Never Need", "అత్యంత చౌకైన చికిత్స అసలు అవసరం రానిదే"),
+            text: L("Most serious farm diseases arrive from outside — on a newly bought animal, a visitor's boots, a vehicle, or contaminated feed. Keeping them out (biosecurity), spotting trouble early (surveillance), and using medicines only the right way protects the animals, the farmer's income, and the people who drink the milk.", "చాలా తీవ్రమైన ఫారం వ్యాధులు బయటి నుండి వస్తాయి — కొత్తగా కొన్న పశువు, సందర్శకుడి బూట్లు, వాహనం లేదా కలుషితమైన దాణా ద్వారా. వాటిని దూరంగా ఉంచడం (జీవభద్రత), సమస్యను ముందుగానే గుర్తించడం (నిఘా), మందులను సరైన విధంగా మాత్రమే వాడడం పశువులను, రైతు ఆదాయాన్ని, పాలు తాగే ప్రజలను కాపాడుతుంది."),
           },
         ],
         topics: [
           {
             id: "t-m19-biosecurity",
-            title: L("Biosecurity and Disease Surveillance"),
+            title: L("Biosecurity and Disease Surveillance", "జీవభద్రత, వ్యాధి నిఘా"),
             teach: [
               {
                 type: "glossary",
-                term: L("Biosecurity"),
-                meaning: L("All the steps taken to stop infectious diseases from entering a farm and from spreading within it or to other farms."),
+                term: L("Biosecurity", "జీవభద్రత (బయోసెక్యూరిటీ)"),
+                meaning: L("All the steps taken to stop infectious diseases from entering a farm and from spreading within it or to other farms.", "అంటు వ్యాధులు ఫారంలోకి ప్రవేశించకుండా, ఫారం లోపల లేదా ఇతర ఫారాలకు వ్యాపించకుండా ఆపడానికి తీసుకునే అన్ని చర్యలు."),
               },
               {
                 type: "stat-grid",
                 items: [
-                  { label: L("Buy carefully"), text: L("Buy only from trusted farms with a known disease-free or tested-negative status.") },
-                  { label: L("Quarantine"), text: L("Keep new animals separate for at least 30 days (NDDB guideline) under veterinary guidance — longer if their health status is uncertain.") },
-                  { label: L("Control entry"), text: L("Limit visitors and vehicles; provide hand washing, boot cleaning and a foot dip before animal areas.") },
-                  { label: L("Isolate the sick"), text: L("Separate sick animals at once, with separate equipment and attendants where possible.") },
-                  { label: L("Keep it clean"), text: L("Clean sheds, mangers, water troughs and calving pens; remove dung regularly and dispose of carcasses safely.") },
-                  { label: L("Protect feed and water"), text: L("Keep rodents, birds, insects and stray animals away from feed, fodder and water.") },
+                  { label: L("Buy carefully", "జాగ్రత్తగా కొనండి"), text: L("Buy only from trusted farms with a known disease-free or tested-negative status.", "వ్యాధి రహితమని లేదా పరీక్షలో నెగటివ్ అని తెలిసిన నమ్మకమైన ఫారాల నుండి మాత్రమే కొనండి.") },
+                  { label: L("Quarantine", "క్వారంటైన్"), text: L("Keep new animals separate for at least 30 days (NDDB guideline) under veterinary guidance — longer if their health status is uncertain.", "కొత్త పశువులను పశువైద్యుని మార్గదర్శకత్వంలో కనీసం 30 రోజులు (NDDB మార్గదర్శకం) వేరుగా ఉంచండి — వాటి ఆరోగ్య స్థితి అనుమానంగా ఉంటే ఇంకా ఎక్కువ.") },
+                  { label: L("Control entry", "ప్రవేశాన్ని నియంత్రించండి"), text: L("Limit visitors and vehicles; provide hand washing, boot cleaning and a foot dip before animal areas.", "సందర్శకులు, వాహనాలను పరిమితం చేయండి; పశువుల ప్రాంతాలకు ముందు చేతులు కడుక్కోవడం, బూట్లు శుభ్రం చేయడం, ఫుట్ డిప్ ఏర్పాటు చేయండి.") },
+                  { label: L("Isolate the sick", "జబ్బుతో ఉన్నవాటిని వేరు చేయండి"), text: L("Separate sick animals at once, with separate equipment and attendants where possible.", "జబ్బుతో ఉన్న పశువులను వెంటనే వేరు చేయండి, వీలైతే వేరే పరికరాలు, వేరే సంరక్షకులతో.") },
+                  { label: L("Keep it clean", "శుభ్రంగా ఉంచండి"), text: L("Clean sheds, mangers, water troughs and calving pens; remove dung regularly and dispose of carcasses safely.", "షెడ్‌లు, తొట్లు, నీటి తొట్లు, ఈత గదులను శుభ్రం చేయండి; పేడను క్రమం తప్పకుండా తొలగించి, కళేబరాలను సురక్షితంగా పారవేయండి.") },
+                  { label: L("Protect feed and water", "దాణా, నీటిని కాపాడండి"), text: L("Keep rodents, birds, insects and stray animals away from feed, fodder and water.", "ఎలుకలు, పక్షులు, కీటకాలు, వీధి జంతువులను దాణా, మేత, నీటికి దూరంగా ఉంచండి.") },
                 ],
               },
               {
                 type: "callout",
                 style: "warning",
-                heading: L("Watch Daily — Report Quickly"),
-                text: L(
-                  "Look out every day for fever, loss of appetite, a drop in milk, diarrhoea, coughing, lameness, abortion, nervous signs or sudden death. Keep health and treatment records, and report unusual outbreaks, sudden deaths or suspected notifiable diseases to the nearest veterinarian at once. Early reporting limits spread and losses."
-                ),
+                heading: L("Watch Daily — Report Quickly", "రోజూ గమనించండి — త్వరగా తెలియజేయండి"),
+                text: L("Look out every day for fever, loss of appetite, a drop in milk, diarrhoea, coughing, lameness, abortion, nervous signs or sudden death. Keep health and treatment records, and report unusual outbreaks, sudden deaths or suspected notifiable diseases to the nearest veterinarian at once. Early reporting limits spread and losses.", "జ్వరం, ఆకలి లేకపోవడం, పాలు తగ్గడం, విరేచనాలు, దగ్గు, కుంటితనం, గర్భస్రావం, నరాల లక్షణాలు లేదా ఆకస్మిక మరణం కోసం ప్రతి రోజూ చూడండి. ఆరోగ్య, చికిత్స రికార్డులు ఉంచండి, అసాధారణ వ్యాప్తులు, ఆకస్మిక మరణాలు లేదా తప్పనిసరిగా తెలియజేయాల్సిన వ్యాధుల అనుమానం ఉంటే వెంటనే దగ్గరలోని పశువైద్యుడికి తెలియజేయండి. ముందుగా తెలియజేస్తే వ్యాప్తి, నష్టాలు తగ్గుతాయి."),
               },
             ],
             check: [
               {
                 type: "mcq",
-                q: L("According to the NDDB guideline, for at least how long should newly purchased animals be kept separate?"),
-                options: [L("30 days"), L("1 day"), L("1 year"), L("No separation is needed")],
+                q: L("According to the NDDB guideline, for at least how long should newly purchased animals be kept separate?", "NDDB మార్గదర్శకం ప్రకారం, కొత్తగా కొన్న పశువులను కనీసం ఎంత కాలం వేరుగా ఉంచాలి?"),
+                options: [L("30 days", "30 రోజులు"), L("1 day", "1 రోజు"), L("1 year", "1 సంవత్సరం"), L("No separation is needed", "వేరు చేయాల్సిన అవసరం లేదు")],
                 answer: 0,
-                explain: L("At least 30 days under veterinary guidance — longer if the animal's disease status is uncertain."),
+                explain: L("At least 30 days under veterinary guidance — longer if the animal's disease status is uncertain.", "పశువైద్యుని మార్గదర్శకత్వంలో కనీసం 30 రోజులు — పశువు వ్యాధి స్థితి అనుమానంగా ఉంటే ఇంకా ఎక్కువ."),
               },
               {
                 type: "truefalse",
-                q: L("Restricting visitors and providing a foot dip at the entrance are biosecurity measures."),
+                q: L("Restricting visitors and providing a foot dip at the entrance are biosecurity measures.", "సందర్శకులను పరిమితం చేయడం, ప్రవేశ ద్వారం దగ్గర ఫుట్ డిప్ ఏర్పాటు చేయడం జీవభద్రత చర్యలు."),
                 answer: true,
-                explain: L("Yes — controlling people and vehicles entering animal areas is a key part of biosecurity."),
+                explain: L("Yes — controlling people and vehicles entering animal areas is a key part of biosecurity.", "అవును — పశువుల ప్రాంతాల్లోకి వచ్చే మనుషులు, వాహనాలను నియంత్రించడం జీవభద్రతలో ముఖ్యమైన భాగం."),
               },
             ],
           },
           {
             id: "t-m19-amr",
-            title: L("Antibiotics, Withdrawal Periods and Antimicrobial Resistance"),
+            title: L("Antibiotics, Withdrawal Periods and Antimicrobial Resistance", "యాంటీబయాటిక్‌లు, విత్‌డ్రాయల్ కాలాలు, యాంటీమైక్రోబియల్ రెసిస్టెన్స్"),
             teach: [
               {
                 type: "glossary",
-                term: L("Antimicrobial Resistance (AMR)"),
-                meaning: L(
-                  "When bacteria, viruses, fungi or parasites change over time and no longer respond to the medicines meant to kill them — so infections become hard or impossible to treat, in animals and in people."
-                ),
+                term: L("Antimicrobial Resistance (AMR)", "యాంటీమైక్రోబియల్ రెసిస్టెన్స్ (AMR)"),
+                meaning: L("When bacteria, viruses, fungi or parasites change over time and no longer respond to the medicines meant to kill them — so infections become hard or impossible to treat, in animals and in people.", "బ్యాక్టీరియా, వైరస్‌లు, శిలీంధ్రాలు లేదా పరాన్నజీవులు కాలక్రమేణా మారి, వాటిని చంపడానికి ఉద్దేశించిన మందులకు స్పందించకపోవడం — దాంతో పశువులు, మనుషుల్లో ఇన్ఫెక్షన్లకు చికిత్స కష్టం లేదా అసాధ్యం అవుతుంది."),
               },
               {
                 type: "glossary",
-                term: L("Withdrawal Period"),
-                meaning: L(
-                  "The number of days after the last dose of a medicine during which the animal's milk (or meat) must not be used for human consumption, because medicine residues may still be present."
-                ),
+                term: L("Withdrawal Period", "విత్‌డ్రాయల్ కాలం"),
+                meaning: L("The number of days after the last dose of a medicine during which the animal's milk (or meat) must not be used for human consumption, because medicine residues may still be present.", "మందు చివరి డోసు తర్వాత, మందు అవశేషాలు ఇంకా ఉండవచ్చు కాబట్టి, పశువు పాలను (లేదా మాంసాన్ని) మనుషులు వాడకూడని రోజుల సంఖ్య."),
               },
               {
                 type: "stat-grid",
                 items: [
-                  { label: L("Prescription only"), text: L("Antibiotics — injections or udder tubes — should be used only on a veterinarian's prescription, ideally guided by a lab culture and sensitivity test.") },
-                  { label: L("Full course, right dose"), text: L("Under-dosing or stopping early helps germs become resistant.") },
-                  { label: L("Respect withdrawal"), text: L("Always follow the milk withdrawal period on the label or as advised by the vet, and record it.") },
-                  { label: L("No oxytocin for let-down"), text: L("Oxytocin injections should not be used to make animals let down milk; only a vet may use it to treat certain conditions.") },
+                  { label: L("Prescription only", "ప్రిస్క్రిప్షన్‌తో మాత్రమే"), text: L("Antibiotics — injections or udder tubes — should be used only on a veterinarian's prescription, ideally guided by a lab culture and sensitivity test.", "యాంటీబయాటిక్‌లు — ఇంజెక్షన్లు లేదా పొదుగు ట్యూబ్‌లు — పశువైద్యుని ప్రిస్క్రిప్షన్‌తో మాత్రమే, ఆదర్శంగా ప్రయోగశాల కల్చర్, సెన్సిటివిటీ పరీక్ష ఆధారంగా వాడాలి.") },
+                  { label: L("Full course, right dose", "పూర్తి కోర్సు, సరైన మోతాదు"), text: L("Under-dosing or stopping early helps germs become resistant.", "తక్కువ మోతాదు ఇవ్వడం లేదా ముందుగానే ఆపేయడం క్రిములు రెసిస్టెంట్‌గా మారడానికి సహాయపడుతుంది.") },
+                  { label: L("Respect withdrawal", "విత్‌డ్రాయల్‌ను పాటించండి"), text: L("Always follow the milk withdrawal period on the label or as advised by the vet, and record it.", "లేబుల్‌పై ఉన్న లేదా పశువైద్యుడు చెప్పిన పాల విత్‌డ్రాయల్ కాలాన్ని ఎప్పుడూ పాటించి, నమోదు చేయండి.") },
+                  { label: L("No oxytocin for let-down", "పాలు చేపడానికి ఆక్సిటోసిన్ వద్దు"), text: L("Oxytocin injections should not be used to make animals let down milk; only a vet may use it to treat certain conditions.", "పశువులు పాలు చేపడానికి ఆక్సిటోసిన్ ఇంజెక్షన్లు వాడకూడదు; కొన్ని పరిస్థితుల చికిత్సకు పశువైద్యుడు మాత్రమే దాన్ని వాడవచ్చు.") },
                 ],
               },
               {
                 type: "callout",
                 style: "info",
-                heading: L("Boiling Doesn't Fix Everything"),
-                text: L(
-                  "Milk from cows with hidden (sub-clinical) mastitis may contain bacterial toxins that are not destroyed even by boiling, and can cause diarrhoea or throat infection in people. That is one more reason to test for and treat hidden mastitis."
-                ),
+                heading: L("Boiling Doesn't Fix Everything", "కాచడం అన్నింటినీ సరిచేయదు"),
+                text: L("Milk from cows with hidden (sub-clinical) mastitis may contain bacterial toxins that are not destroyed even by boiling, and can cause diarrhoea or throat infection in people. That is one more reason to test for and treat hidden mastitis.", "దాగి ఉన్న (సబ్-క్లినికల్) మాస్టిటిస్ ఉన్న ఆవుల పాలలో కాచినా నశించని బ్యాక్టీరియా విషాలు ఉండవచ్చు, అవి మనుషుల్లో విరేచనాలు లేదా గొంతు ఇన్ఫెక్షన్ కలిగించవచ్చు. దాగి ఉన్న మాస్టిటిస్‌కు పరీక్షించి చికిత్స చేయడానికి ఇది మరో కారణం."),
               },
             ],
             check: [
               {
                 type: "truefalse",
-                q: L("Milk can be sold the day after an antibiotic injection, whatever the withdrawal period says."),
+                q: L("Milk can be sold the day after an antibiotic injection, whatever the withdrawal period says.", "విత్‌డ్రాయల్ కాలం ఏమి చెప్పినా, యాంటీబయాటిక్ ఇంజెక్షన్ తర్వాతి రోజే పాలు అమ్మవచ్చు."),
                 answer: false,
-                explain: L("No — milk must be withheld for the full withdrawal period so that medicine residues don't reach consumers."),
+                explain: L("No — milk must be withheld for the full withdrawal period so that medicine residues don't reach consumers.", "కాదు — మందు అవశేషాలు వినియోగదారులకు చేరకుండా పూర్తి విత్‌డ్రాయల్ కాలం పాలను ఆపి ఉంచాలి."),
               },
               {
                 type: "mcq",
-                q: L("What is antimicrobial resistance (AMR)?"),
+                q: L("What is antimicrobial resistance (AMR)?", "యాంటీమైక్రోబియల్ రెసిస్టెన్స్ (AMR) అంటే ఏమిటి?"),
                 options: [
-                  L("When an animal refuses to eat"),
-                  L("When germs stop responding to the medicines meant to kill them"),
-                  L("A type of vaccine"),
-                  L("A breed of cattle"),
+                  L("When an animal refuses to eat", "పశువు తినడానికి నిరాకరించడం"),
+                  L("When germs stop responding to the medicines meant to kill them", "క్రిములు వాటిని చంపడానికి ఉద్దేశించిన మందులకు స్పందించకపోవడం"),
+                  L("A type of vaccine", "ఒక రకమైన టీకా"),
+                  L("A breed of cattle", "ఒక పశు జాతి"),
                 ],
                 answer: 1,
-                explain: L("AMR is when germs change and no longer respond to medicines, making infections hard to treat."),
+                explain: L("AMR is when germs change and no longer respond to medicines, making infections hard to treat.", "క్రిములు మారి మందులకు స్పందించకపోవడమే AMR, దాంతో ఇన్ఫెక్షన్లకు చికిత్స కష్టమవుతుంది."),
               },
             ],
           },
@@ -21504,45 +21268,45 @@ export const MODULES = [
             {
               topicId: "t-m19-biosecurity",
               type: "mcq",
-              q: L("A farmer brings home a newly purchased cow. What should happen first?"),
+              q: L("A farmer brings home a newly purchased cow. What should happen first?", "రైతు కొత్తగా కొన్న ఆవును ఇంటికి తెచ్చారు. ముందుగా ఏమి జరగాలి?"),
               options: [
-                L("Keep her separate (quarantine) for at least 30 days under veterinary guidance"),
-                L("Put her straight into the main shed"),
-                L("Milk her together with the herd on day one"),
-                L("Share her water trough with all animals"),
+                L("Keep her separate (quarantine) for at least 30 days under veterinary guidance", "పశువైద్యుని మార్గదర్శకత్వంలో కనీసం 30 రోజులు వేరుగా (క్వారంటైన్) ఉంచాలి"),
+                L("Put her straight into the main shed", "నేరుగా ప్రధాన షెడ్‌లో పెట్టాలి"),
+                L("Milk her together with the herd on day one", "మొదటి రోజే మందతో కలిపి పాలు పిండాలి"),
+                L("Share her water trough with all animals", "అన్ని పశువులతో ఆమె నీటి తొట్టిని పంచుకోవాలి"),
               ],
               answer: 0,
-              explain: L("Quarantine new animals before they join the main herd to stop disease coming in."),
+              explain: L("Quarantine new animals before they join the main herd to stop disease coming in.", "వ్యాధులు లోపలికి రాకుండా ఆపడానికి కొత్త పశువులను ప్రధాన మందలో కలిపే ముందు క్వారంటైన్ చేయండి."),
             },
             {
               topicId: "t-m19-biosecurity",
               type: "mcq",
-              q: L("Which of these should be reported to a veterinarian immediately?"),
-              options: [L("An animal chewing cud"), L("Sudden deaths or an unusual outbreak"), L("A cow lying down to rest"), L("A calf drinking milk")],
+              q: L("Which of these should be reported to a veterinarian immediately?", "వీటిలో దేని గురించి వెంటనే పశువైద్యుడికి తెలియజేయాలి?"),
+              options: [L("An animal chewing cud", "నెమరు వేస్తున్న పశువు"), L("Sudden deaths or an unusual outbreak", "ఆకస్మిక మరణాలు లేదా అసాధారణ వ్యాప్తి"), L("A cow lying down to rest", "విశ్రాంతి కోసం పడుకున్న ఆవు"), L("A calf drinking milk", "పాలు తాగుతున్న దూడ")],
               answer: 1,
-              explain: L("Unusual outbreaks, sudden deaths or suspected notifiable diseases must be reported at once."),
+              explain: L("Unusual outbreaks, sudden deaths or suspected notifiable diseases must be reported at once.", "అసాధారణ వ్యాప్తులు, ఆకస్మిక మరణాలు లేదా తప్పనిసరిగా తెలియజేయాల్సిన వ్యాధుల అనుమానం వెంటనే తెలియజేయాలి."),
             },
             {
               topicId: "t-m19-amr",
               type: "mcq",
-              q: L("Who should decide whether an animal gets an antibiotic?"),
-              options: [L("Any shopkeeper"), L("The milk buyer"), L("A veterinarian, by prescription"), L("Anyone with a syringe")],
+              q: L("Who should decide whether an animal gets an antibiotic?", "పశువుకు యాంటీబయాటిక్ ఇవ్వాలో లేదో ఎవరు నిర్ణయించాలి?"),
+              options: [L("Any shopkeeper", "ఏ దుకాణదారైనా"), L("The milk buyer", "పాలు కొనేవారు"), L("A veterinarian, by prescription", "పశువైద్యుడు, ప్రిస్క్రిప్షన్ ద్వారా"), L("Anyone with a syringe", "సిరంజి ఉన్న ఎవరైనా")],
               answer: 2,
-              explain: L("Antibiotics should be used only under veterinary prescription, ideally based on a culture and sensitivity test."),
+              explain: L("Antibiotics should be used only under veterinary prescription, ideally based on a culture and sensitivity test.", "యాంటీబయాటిక్‌లను పశువైద్యుని ప్రిస్క్రిప్షన్‌తో మాత్రమే, ఆదర్శంగా కల్చర్, సెన్సిటివిటీ పరీక్ష ఆధారంగా వాడాలి."),
             },
             {
               topicId: "t-m19-amr",
               type: "truefalse",
-              q: L("Oxytocin injection is recommended to make every cow let down her milk."),
+              q: L("Oxytocin injection is recommended to make every cow let down her milk.", "ప్రతి ఆవు పాలు చేపడానికి ఆక్సిటోసిన్ ఇంజెక్షన్ సిఫార్సు చేయబడింది."),
               answer: false,
-              explain: L("No — oxytocin is not recommended for milk let-down; only a vet may use it to treat specific conditions."),
+              explain: L("No — oxytocin is not recommended for milk let-down; only a vet may use it to treat specific conditions.", "కాదు — పాలు చేపడానికి ఆక్సిటోసిన్ సిఫార్సు చేయబడదు; నిర్దిష్ట పరిస్థితుల చికిత్సకు పశువైద్యుడు మాత్రమే వాడవచ్చు."),
             },
             {
               topicId: "t-m19-amr",
               type: "truefalse",
-              q: L("Toxins in milk from cows with sub-clinical mastitis may survive boiling."),
+              q: L("Toxins in milk from cows with sub-clinical mastitis may survive boiling.", "సబ్-క్లినికల్ మాస్టిటిస్ ఉన్న ఆవుల పాలలోని విషాలు కాచినా నశించకపోవచ్చు."),
               answer: true,
-              explain: L("Correct — some bacterial toxins are not destroyed by boiling and can make people ill."),
+              explain: L("Correct — some bacterial toxins are not destroyed by boiling and can make people ill.", "సరైనది — కొన్ని బ్యాక్టీరియా విషాలు కాచినా నశించవు, మనుషులను జబ్బుపడేలా చేయగలవు."),
             },
           ],
         },
@@ -21556,94 +21320,88 @@ export const MODULES = [
       // ==================================================================
       {
         id: "m19-l2",
-        title: L("Deworming That Works"),
+        title: L("Deworming That Works", "పనిచేసే నట్టల నివారణ"),
         estMinutes: 7,
         hook: [
           {
             type: "hero",
-            heading: L("Why Some Deworming Does Nothing"),
-            text: L(
-              "Many farms deworm regularly and still have wormy, thin animals. Usually the problem isn't the medicine — it's how and when it is used. Module 6 introduced worms and the basic schedule. This lesson covers the updated NDDB timings and the common mistakes that make deworming fail."
-            ),
+            heading: L("Why Some Deworming Does Nothing", "కొన్ని నట్టల నివారణలు ఎందుకు ఫలించవు"),
+            text: L("Many farms deworm regularly and still have wormy, thin animals. Usually the problem isn't the medicine — it's how and when it is used. Module 6 introduced worms and the basic schedule. This lesson covers the updated NDDB timings and the common mistakes that make deworming fail.", "చాలా ఫారాలు క్రమం తప్పకుండా నట్టల మందు ఇస్తాయి, అయినా పశువులు నట్టలతో, బక్కగా ఉంటాయి. సాధారణంగా సమస్య మందులో కాదు — దాన్ని ఎలా, ఎప్పుడు వాడతారనే దానిలో. మాడ్యూల్ 6 నట్టలు, ప్రాథమిక షెడ్యూల్‌ను పరిచయం చేసింది. ఈ పాఠం తాజా NDDB సమయాలు, నట్టల నివారణ విఫలమయ్యేలా చేసే సాధారణ పొరపాట్లను వివరిస్తుంది."),
           },
         ],
         topics: [
           {
             id: "t-m19-deworm-schedule",
-            title: L("When to Deworm"),
+            title: L("When to Deworm", "నట్టల మందు ఎప్పుడు ఇవ్వాలి"),
             teach: [
               {
                 type: "stat-grid",
                 items: [
-                  { label: L("Cattle calves"), text: L("First deworming at 7–14 days of age, after colostrum feeding.") },
-                  { label: L("Buffalo calves"), text: L("Earlier — at 3–7 days of age, after colostrum feeding.") },
-                  { label: L("Young calves"), text: L("May be dewormed monthly up to 6 months of age, as the vet advises.") },
-                  { label: L("Adults"), text: L("Strategic deworming 1–2 times a year, preferably before and/or after the rainy season.") },
-                  { label: L("Pregnant animals"), text: L("Near calving and again 6–7 weeks after calving, after consulting a vet.") },
-                  { label: L("Before vaccination"), text: L("Deworm about two weeks before vaccination for a better vaccine response.") },
+                  { label: L("Cattle calves", "పశువుల దూడలు"), text: L("First deworming at 7–14 days of age, after colostrum feeding.", "మొదటి నట్టల నివారణ 7–14 రోజుల వయసులో, జున్ను తాగించిన తర్వాత.") },
+                  { label: L("Buffalo calves", "గేదె దూడలు"), text: L("Earlier — at 3–7 days of age, after colostrum feeding.", "ముందుగా — 3–7 రోజుల వయసులో, జున్ను తాగించిన తర్వాత.") },
+                  { label: L("Young calves", "చిన్న దూడలు"), text: L("May be dewormed monthly up to 6 months of age, as the vet advises.", "పశువైద్యుని సలహా మేరకు 6 నెలల వయసు వరకు నెలకు ఒకసారి నట్టల మందు ఇవ్వవచ్చు.") },
+                  { label: L("Adults", "పెద్ద పశువులు"), text: L("Strategic deworming 1–2 times a year, preferably before and/or after the rainy season.", "సంవత్సరానికి 1–2 సార్లు వ్యూహాత్మక నట్టల నివారణ, వీలైతే వర్షాకాలానికి ముందు మరియు/లేదా తర్వాత.") },
+                  { label: L("Pregnant animals", "చూడి పశువులు"), text: L("Near calving and again 6–7 weeks after calving, after consulting a vet.", "ఈనే సమయం దగ్గర, మళ్ళీ ఈనిన 6–7 వారాల తర్వాత, పశువైద్యుడిని సంప్రదించి.") },
+                  { label: L("Before vaccination", "టీకాకు ముందు"), text: L("Deworm about two weeks before vaccination for a better vaccine response.", "టీకా బాగా పనిచేయడానికి టీకాకు సుమారు రెండు వారాల ముందు నట్టల మందు ఇవ్వండి.") },
                 ],
               },
               {
                 type: "callout",
                 style: "tip",
-                heading: L("Let the Dung Decide"),
-                text: L(
-                  "Where possible, a faecal (dung) examination and the vet's advice should guide when to deworm and which drug to use — based on worm load, age, season and signs such as diarrhoea, pot-belly, poor growth, weakness or anaemia."
-                ),
+                heading: L("Let the Dung Decide", "పేడ పరీక్ష నిర్ణయించనివ్వండి"),
+                text: L("Where possible, a faecal (dung) examination and the vet's advice should guide when to deworm and which drug to use — based on worm load, age, season and signs such as diarrhoea, pot-belly, poor growth, weakness or anaemia.", "వీలైన చోట, నట్టల భారం, వయసు, కాలం, విరేచనాలు, బాన పొట్ట, పెరుగుదల తక్కువ, బలహీనత లేదా రక్తహీనత వంటి లక్షణాల ఆధారంగా — ఎప్పుడు నట్టల మందు ఇవ్వాలి, ఏ మందు వాడాలనేది పేడ పరీక్ష, పశువైద్యుని సలహా నిర్ణయించాలి."),
               },
             ],
             check: [
               {
                 type: "mcq",
-                q: L("At what age should buffalo calves first be dewormed?"),
-                options: [L("6 months"), L("2 years"), L("Never"), L("3–7 days")],
+                q: L("At what age should buffalo calves first be dewormed?", "గేదె దూడలకు మొదటిసారి నట్టల మందు ఏ వయసులో ఇవ్వాలి?"),
+                options: [L("6 months", "6 నెలలు"), L("2 years", "2 సంవత్సరాలు"), L("Never", "ఎప్పుడూ వద్దు"), L("3–7 days", "3–7 రోజులు")],
                 answer: 3,
-                explain: L("Buffalo calves are dewormed earlier, at 3–7 days; cattle calves at 7–14 days."),
+                explain: L("Buffalo calves are dewormed earlier, at 3–7 days; cattle calves at 7–14 days.", "గేదె దూడలకు ముందుగా, 3–7 రోజులకు నట్టల మందు ఇస్తారు; పశువుల దూడలకు 7–14 రోజులకు."),
               },
               {
                 type: "truefalse",
-                q: L("Deworming about two weeks before vaccination helps the vaccine work better."),
+                q: L("Deworming about two weeks before vaccination helps the vaccine work better.", "టీకాకు సుమారు రెండు వారాల ముందు నట్టల మందు ఇస్తే టీకా బాగా పనిచేస్తుంది."),
                 answer: true,
-                explain: L("Yes — the guideline advises deworming two weeks before vaccination."),
+                explain: L("Yes — the guideline advises deworming two weeks before vaccination.", "అవును — టీకాకు రెండు వారాల ముందు నట్టల మందు ఇవ్వాలని మార్గదర్శకం సలహా ఇస్తుంది."),
               },
             ],
           },
           {
             id: "t-m19-deworm-failure",
-            title: L("Why Deworming Fails"),
+            title: L("Why Deworming Fails", "నట్టల నివారణ ఎందుకు విఫలమవుతుంది"),
             teach: [
               {
                 type: "stat-grid",
                 items: [
-                  { label: L("Under-dosing"), text: L("Giving less than the recommended dose — often by guessing the animal's weight too low.") },
-                  { label: L("No examination"), text: L("Dosing without examining the animal or its dung, so the wrong drug is used for the worm present.") },
-                  { label: L("Stressed animals"), text: L("Deworming animals just after transport or in extreme weather.") },
-                  { label: L("Only a few animals"), text: L("Deworming only some animals while the rest keep spreading worm eggs.") },
-                  { label: L("Same drug every time"), text: L("Repeating one drug class without checking results breeds worms that resist it.") },
+                  { label: L("Under-dosing", "తక్కువ మోతాదు"), text: L("Giving less than the recommended dose — often by guessing the animal's weight too low.", "సిఫార్సు చేసిన మోతాదు కంటే తక్కువ ఇవ్వడం — తరచుగా పశువు బరువును తక్కువగా అంచనా వేయడం వల్ల.") },
+                  { label: L("No examination", "పరీక్ష లేదు"), text: L("Dosing without examining the animal or its dung, so the wrong drug is used for the worm present.", "పశువును లేదా దాని పేడను పరీక్షించకుండా మందు ఇవ్వడం, దాంతో ఉన్న నట్టకు తప్పు మందు వాడడం.") },
+                  { label: L("Stressed animals", "ఒత్తిడిలో ఉన్న పశువులు"), text: L("Deworming animals just after transport or in extreme weather.", "రవాణా అయిన వెంటనే లేదా తీవ్ర వాతావరణంలో నట్టల మందు ఇవ్వడం.") },
+                  { label: L("Only a few animals", "కొన్ని పశువులకు మాత్రమే"), text: L("Deworming only some animals while the rest keep spreading worm eggs.", "కొన్ని పశువులకు మాత్రమే నట్టల మందు ఇవ్వడం, మిగతావి నట్టల గుడ్లను వ్యాపింపజేస్తూనే ఉంటాయి.") },
+                  { label: L("Same drug every time", "ప్రతిసారీ అదే మందు"), text: L("Repeating one drug class without checking results breeds worms that resist it.", "ఫలితాలు చూడకుండా ఒకే రకం మందును మళ్ళీ మళ్ళీ వాడితే దాన్ని తట్టుకునే నట్టలు తయారవుతాయి.") },
                 ],
               },
               {
                 type: "callout",
                 style: "warning",
-                heading: L("Drugs and Doses Are for the Vet"),
-                text: L(
-                  "The choice of dewormer, the dose by body weight, and any milk withdrawal period are decided by a veterinarian. Your role is to keep the schedule, make sure the whole herd is covered, note which animals were missed, and report signs of heavy worm load."
-                ),
+                heading: L("Drugs and Doses Are for the Vet", "మందులు, మోతాదులు పశువైద్యుని పని"),
+                text: L("The choice of dewormer, the dose by body weight, and any milk withdrawal period are decided by a veterinarian. Your role is to keep the schedule, make sure the whole herd is covered, note which animals were missed, and report signs of heavy worm load.", "నట్టల మందు ఎంపిక, శరీర బరువును బట్టి మోతాదు, పాల విత్‌డ్రాయల్ కాలం — వీటిని పశువైద్యుడు నిర్ణయిస్తారు. షెడ్యూల్‌ను పాటించడం, మంద మొత్తానికి అందేలా చూడడం, ఏ పశువులు తప్పిపోయాయో రాయడం, ఎక్కువ నట్టల భారం లక్షణాలను తెలియజేయడం మీ పాత్ర."),
               },
             ],
             check: [
               {
                 type: "truefalse",
-                q: L("Deworming only the visibly thin animals in a herd is enough."),
+                q: L("Deworming only the visibly thin animals in a herd is enough.", "మందలో కంటికి బక్కగా కనిపించే పశువులకు మాత్రమే నట్టల మందు ఇస్తే చాలు."),
                 answer: false,
-                explain: L("No — when only a few animals are dewormed, the rest keep contaminating the pasture and the treatment fails."),
+                explain: L("No — when only a few animals are dewormed, the rest keep contaminating the pasture and the treatment fails.", "కాదు — కొన్ని పశువులకు మాత్రమే మందు ఇస్తే, మిగతావి పచ్చిక బయలును కలుషితం చేస్తూనే ఉంటాయి, చికిత్స విఫలమవుతుంది."),
               },
               {
                 type: "mcq",
-                q: L("Repeatedly using the same dewormer without checking whether it works can lead to:"),
-                options: [L("Better milk fat"), L("Faster calf growth"), L("Worms that are resistant to the drug"), L("Nothing at all")],
+                q: L("Repeatedly using the same dewormer without checking whether it works can lead to:", "పనిచేస్తోందో లేదో చూడకుండా ఒకే నట్టల మందును మళ్ళీ మళ్ళీ వాడితే ఏమవుతుంది:"),
+                options: [L("Better milk fat", "పాలలో వెన్న మెరుగుపడుతుంది"), L("Faster calf growth", "దూడలు వేగంగా పెరుగుతాయి"), L("Worms that are resistant to the drug", "ఆ మందును తట్టుకునే నట్టలు తయారవుతాయి"), L("Nothing at all", "ఏమీ కాదు")],
                 answer: 2,
-                explain: L("Repeated use of one drug class without monitoring favours anthelmintic (dewormer) resistance."),
+                explain: L("Repeated use of one drug class without monitoring favours anthelmintic (dewormer) resistance.", "పర్యవేక్షణ లేకుండా ఒకే రకం మందును మళ్ళీ మళ్ళీ వాడితే నట్టల మందు నిరోధకత (రెసిస్టెన్స్) వస్తుంది."),
               },
             ],
           },
@@ -21654,33 +21412,33 @@ export const MODULES = [
             {
               topicId: "t-m19-deworm-schedule",
               type: "mcq",
-              q: L("How often should adult cattle generally undergo strategic deworming?"),
-              options: [L("Every day"), L("1–2 times a year, around the rainy season"), L("Once in a lifetime"), L("Only when they die")],
+              q: L("How often should adult cattle generally undergo strategic deworming?", "పెద్ద పశువులకు సాధారణంగా ఎంత తరచుగా వ్యూహాత్మక నట్టల నివారణ చేయాలి?"),
+              options: [L("Every day", "ప్రతి రోజూ"), L("1–2 times a year, around the rainy season", "సంవత్సరానికి 1–2 సార్లు, వర్షాకాలం చుట్టూ"), L("Once in a lifetime", "జీవితంలో ఒక్కసారి"), L("Only when they die", "అవి చనిపోయినప్పుడు మాత్రమే")],
               answer: 1,
-              explain: L("Adults: strategic deworming 1–2 times a year, preferably before and/or after the rains."),
+              explain: L("Adults: strategic deworming 1–2 times a year, preferably before and/or after the rains.", "పెద్దవి: సంవత్సరానికి 1–2 సార్లు వ్యూహాత్మక నట్టల నివారణ, వీలైతే వర్షాలకు ముందు మరియు/లేదా తర్వాత."),
             },
             {
               topicId: "t-m19-deworm-schedule",
               type: "mcq",
-              q: L("When should cattle calves be dewormed for the first time?"),
-              options: [L("Within an hour of birth, before colostrum"), L("At 2 years"), L("At 7–14 days of age, after colostrum"), L("Only at weaning")],
+              q: L("When should cattle calves be dewormed for the first time?", "పశువుల దూడలకు మొదటిసారి నట్టల మందు ఎప్పుడు ఇవ్వాలి?"),
+              options: [L("Within an hour of birth, before colostrum", "పుట్టిన గంటలోపు, జున్నుకు ముందు"), L("At 2 years", "2 సంవత్సరాలకు"), L("At 7–14 days of age, after colostrum", "7–14 రోజుల వయసులో, జున్ను తర్వాత"), L("Only at weaning", "పాలు మాన్పించినప్పుడు మాత్రమే")],
               answer: 2,
-              explain: L("Cattle calves are first dewormed at 7–14 days of age, after colostrum feeding."),
+              explain: L("Cattle calves are first dewormed at 7–14 days of age, after colostrum feeding.", "పశువుల దూడలకు మొదటిసారి నట్టల మందు 7–14 రోజుల వయసులో, జున్ను తాగించిన తర్వాత ఇస్తారు."),
             },
             {
               topicId: "t-m19-deworm-failure",
               type: "mcq",
-              q: L("Which is a common reason deworming fails?"),
-              options: [L("Deworming the whole herd together"), L("Giving less than the recommended dose"), L("Following the vet's advice"), L("Checking the dung first")],
+              q: L("Which is a common reason deworming fails?", "నట్టల నివారణ విఫలమవడానికి సాధారణ కారణం ఏది?"),
+              options: [L("Deworming the whole herd together", "మంద మొత్తానికి కలిపి నట్టల మందు ఇవ్వడం"), L("Giving less than the recommended dose", "సిఫార్సు చేసిన మోతాదు కంటే తక్కువ ఇవ్వడం"), L("Following the vet's advice", "పశువైద్యుని సలహా పాటించడం"), L("Checking the dung first", "ముందుగా పేడను పరీక్షించడం")],
               answer: 1,
-              explain: L("Under-dosing is one of the main reasons for deworming failure."),
+              explain: L("Under-dosing is one of the main reasons for deworming failure.", "తక్కువ మోతాదు నట్టల నివారణ విఫలమవడానికి ప్రధాన కారణాల్లో ఒకటి."),
             },
             {
               topicId: "t-m19-deworm-failure",
               type: "truefalse",
-              q: L("Ground staff should calculate and choose the dewormer dose themselves."),
+              q: L("Ground staff should calculate and choose the dewormer dose themselves.", "క్షేత్ర సిబ్బంది నట్టల మందు మోతాదును తామే లెక్కించి ఎంచుకోవాలి."),
               answer: false,
-              explain: L("No — the drug and dose are for a veterinarian to decide; staff keep the schedule and report."),
+              explain: L("No — the drug and dose are for a veterinarian to decide; staff keep the schedule and report.", "కాదు — మందు, మోతాదు పశువైద్యుడు నిర్ణయించాలి; సిబ్బంది షెడ్యూల్ పాటించి తెలియజేస్తారు."),
             },
           ],
         },
@@ -21692,103 +21450,99 @@ export const MODULES = [
       // ==================================================================
       {
         id: "m19-l3",
-        title: L("Abortion: Causes and the Right Response"),
+        title: L("Abortion: Causes and the Right Response", "గర్భస్రావం: కారణాలు, సరైన స్పందన"),
         estMinutes: 8,
         hook: [
           {
             type: "hero",
-            heading: L("An Aborted Calf Can Be a Warning for the Whole Herd — and for People"),
-            text: L(
-              "When a pregnant animal loses her calf early, it is a loss for the farmer — but it may also be the first sign of a contagious disease such as brucellosis, which can infect other animals and people. How the aborted foetus and placenta are handled in the first hours really matters."
-            ),
+            heading: L("An Aborted Calf Can Be a Warning for the Whole Herd — and for People", "గర్భస్రావమైన దూడ మంద మొత్తానికి — మనుషులకు కూడా — హెచ్చరిక కావచ్చు"),
+            text: L("When a pregnant animal loses her calf early, it is a loss for the farmer — but it may also be the first sign of a contagious disease such as brucellosis, which can infect other animals and people. How the aborted foetus and placenta are handled in the first hours really matters.", "చూడి పశువు తన దూడను ముందుగానే కోల్పోయినప్పుడు, అది రైతుకు నష్టం — కానీ అది బ్రూసెల్లోసిస్ వంటి అంటువ్యాధికి మొదటి సంకేతం కూడా కావచ్చు, అది ఇతర పశువులకు, మనుషులకు సోకవచ్చు. గర్భస్రావమైన పిండం, మావిని మొదటి కొన్ని గంటల్లో ఎలా నిర్వహిస్తారనేది నిజంగా ముఖ్యం."),
           },
         ],
         topics: [
           {
             id: "t-m19-abortion-causes",
-            title: L("Why Animals Abort"),
+            title: L("Why Animals Abort", "పశువులకు గర్భస్రావం ఎందుకు అవుతుంది"),
             teach: [
               {
                 type: "stat-grid",
                 items: [
-                  { label: L("Infections"), text: L("Often with fever and weakness — e.g. brucellosis, BVD, campylobacter, trichomonosis, leptospirosis.") },
-                  { label: L("Womb infection"), text: L("Metritis, with vaginal discharge, fever and discomfort.") },
-                  { label: L("Poor nutrition"), text: L("Lack of vitamin A, vitamin E, selenium, copper and similar nutrients.") },
-                  { label: L("Poisons"), text: L("Toxic plants or chemicals such as pesticides or lead.") },
-                  { label: L("Injury and stress"), text: L("Accidents, fighting, rough handling, heat stress, or long transport in late pregnancy.") },
-                  { label: L("Metabolic and genetic"), text: L("Ketosis or low calcium near calving, or defects in the calf itself.") },
+                  { label: L("Infections", "ఇన్ఫెక్షన్లు"), text: L("Often with fever and weakness — e.g. brucellosis, BVD, campylobacter, trichomonosis, leptospirosis.", "తరచుగా జ్వరం, బలహీనతతో — ఉదా. బ్రూసెల్లోసిస్, BVD, క్యాంపిలోబాక్టర్, ట్రైకోమోనోసిస్, లెప్టోస్పైరోసిస్.") },
+                  { label: L("Womb infection", "గర్భాశయ ఇన్ఫెక్షన్"), text: L("Metritis, with vaginal discharge, fever and discomfort.", "మెట్రైటిస్, యోని నుండి కారడం, జ్వరం, అసౌకర్యంతో.") },
+                  { label: L("Poor nutrition", "పోషణ లోపం"), text: L("Lack of vitamin A, vitamin E, selenium, copper and similar nutrients.", "విటమిన్ A, విటమిన్ E, సెలీనియం, రాగి వంటి పోషకాల కొరత.") },
+                  { label: L("Poisons", "విషాలు"), text: L("Toxic plants or chemicals such as pesticides or lead.", "విషపూరిత మొక్కలు లేదా పురుగుమందులు, సీసం వంటి రసాయనాలు.") },
+                  { label: L("Injury and stress", "గాయం, ఒత్తిడి"), text: L("Accidents, fighting, rough handling, heat stress, or long transport in late pregnancy.", "ప్రమాదాలు, పోట్లాట, కఠినంగా వ్యవహరించడం, వేడి ఒత్తిడి, లేదా చూడి చివరి దశలో దూర ప్రయాణం.") },
+                  { label: L("Metabolic and genetic", "జీవక్రియ, జన్యు కారణాలు"), text: L("Ketosis or low calcium near calving, or defects in the calf itself.", "ఈనే సమయం దగ్గర కీటోసిస్ లేదా తక్కువ కాల్షియం, లేదా దూడలోనే లోపాలు.") },
                 ],
               },
               {
                 type: "stat-grid",
                 items: [
-                  { label: L("Brucella"), text: L("Usually 6th–9th month; the placenta is often retained.") },
-                  { label: L("Trichomonas and Campylobacter"), text: L("Earlier (2nd–5th month); spread mainly by breeding bulls — AI instead of natural service helps prevent them.") },
-                  { label: L("Neospora"), text: L("Typically mid-pregnancy; linked to dog faeces contaminating feed.") },
-                  { label: L("Leptospira"), text: L("Usually the last three months, 2–6 weeks after infection; linked to rodents and contaminated water.") },
+                  { label: L("Brucella", "బ్రూసెల్లా"), text: L("Usually 6th–9th month; the placenta is often retained.", "సాధారణంగా 6వ–9వ నెల; మావి తరచుగా నిలిచిపోతుంది.") },
+                  { label: L("Trichomonas and Campylobacter", "ట్రైకోమోనాస్, క్యాంపిలోబాక్టర్"), text: L("Earlier (2nd–5th month); spread mainly by breeding bulls — AI instead of natural service helps prevent them.", "ముందుగా (2వ–5వ నెల); ప్రధానంగా సంతానోత్పత్తి ఆబోతుల ద్వారా వ్యాపిస్తాయి — సహజ సంయోగానికి బదులు AI వీటిని నివారించడానికి సహాయపడుతుంది.") },
+                  { label: L("Neospora", "నియోస్పోరా"), text: L("Typically mid-pregnancy; linked to dog faeces contaminating feed.", "సాధారణంగా చూడి మధ్యలో; దాణాను కలుషితం చేసే కుక్కల మలంతో సంబంధం ఉంటుంది.") },
+                  { label: L("Leptospira", "లెప్టోస్పైరా"), text: L("Usually the last three months, 2–6 weeks after infection; linked to rodents and contaminated water.", "సాధారణంగా చివరి మూడు నెలల్లో, ఇన్ఫెక్షన్ వచ్చిన 2–6 వారాల తర్వాత; ఎలుకలు, కలుషిత నీటితో సంబంధం ఉంటుంది.") },
                 ],
               },
             ],
             check: [
               {
                 type: "mcq",
-                q: L("Abortion in the 6th–9th month of pregnancy with a retained placenta is typical of which disease?"),
-                options: [L("Bloat"), L("Milk fever"), L("Brucellosis"), L("Ringworm")],
+                q: L("Abortion in the 6th–9th month of pregnancy with a retained placenta is typical of which disease?", "చూడి 6వ–9వ నెలలో మావి నిలిచిపోవడంతో గర్భస్రావం ఏ వ్యాధికి సాధారణ లక్షణం?"),
+                options: [L("Bloat", "కడుపు ఉబ్బరం"), L("Milk fever", "మిల్క్ ఫీవర్"), L("Brucellosis", "బ్రూసెల్లోసిస్"), L("Ringworm", "తామర (రింగ్‌వార్మ్)")],
                 answer: 2,
-                explain: L("Brucella abortions usually happen in the 6th–9th month, often with retention of the placenta."),
+                explain: L("Brucella abortions usually happen in the 6th–9th month, often with retention of the placenta.", "బ్రూసెల్లా గర్భస్రావాలు సాధారణంగా 6వ–9వ నెలలో, తరచుగా మావి నిలిచిపోవడంతో జరుగుతాయి."),
               },
               {
                 type: "truefalse",
-                q: L("Using AI instead of natural service by a bull helps prevent some infectious causes of abortion."),
+                q: L("Using AI instead of natural service by a bull helps prevent some infectious causes of abortion.", "ఆబోతుతో సహజ సంయోగానికి బదులు AI వాడితే గర్భస్రావానికి కొన్ని అంటు కారణాలను నివారించవచ్చు."),
                 answer: true,
-                explain: L("Yes — trichomonosis and campylobacteriosis are spread mainly by bulls; AI avoids this route."),
+                explain: L("Yes — trichomonosis and campylobacteriosis are spread mainly by bulls; AI avoids this route.", "అవును — ట్రైకోమోనోసిస్, క్యాంపిలోబాక్టీరియోసిస్ ప్రధానంగా ఆబోతుల ద్వారా వ్యాపిస్తాయి; AI ఈ మార్గాన్ని తప్పిస్తుంది."),
               },
             ],
           },
           {
             id: "t-m19-abortion-response",
-            title: L("What to Do When an Animal Aborts"),
+            title: L("What to Do When an Animal Aborts", "పశువుకు గర్భస్రావమైనప్పుడు ఏమి చేయాలి"),
             teach: [
               {
                 type: "timeline",
-                heading: L("The Right Steps, In Order"),
+                heading: L("The Right Steps, In Order", "సరైన అడుగులు, క్రమంలో"),
                 items: [
-                  { year: L("At once"), text: L("Isolate the animal. Keep other animals away from the foetus, placenta and soiled bedding.") },
-                  { year: L("Call"), text: L("Inform the veterinarian promptly for examination and sample collection.") },
-                  { year: L("Protect yourself"), text: L("Wear gloves and gumboots — never handle aborted material with bare hands.") },
-                  { year: L("Samples"), text: L("Send the foetus and placenta to a diagnostic laboratory if the vet advises.") },
-                  { year: L("Dispose"), text: L("Bury aborted material at least 4 feet deep with lime sprinkled over it, as the vet directs.") },
-                  { year: L("Disinfect"), text: L("After removing all organic matter, disinfect the area with an approved disinfectant (e.g. sodium hypochlorite) at the right dilution.") },
+                  { year: L("At once", "వెంటనే"), text: L("Isolate the animal. Keep other animals away from the foetus, placenta and soiled bedding.", "పశువును వేరు చేయండి. ఇతర పశువులను పిండం, మావి, మురికైన పరుపుకు దూరంగా ఉంచండి.") },
+                  { year: L("Call", "పిలవండి"), text: L("Inform the veterinarian promptly for examination and sample collection.", "పరీక్ష, నమూనా సేకరణ కోసం వెంటనే పశువైద్యుడికి తెలియజేయండి.") },
+                  { year: L("Protect yourself", "మిమ్మల్ని మీరు కాపాడుకోండి"), text: L("Wear gloves and gumboots — never handle aborted material with bare hands.", "గ్లవ్స్, గమ్‌బూట్లు వేసుకోండి — గర్భస్రావ పదార్థాన్ని ఎప్పుడూ చేతులతో నేరుగా తాకవద్దు.") },
+                  { year: L("Samples", "నమూనాలు"), text: L("Send the foetus and placenta to a diagnostic laboratory if the vet advises.", "పశువైద్యుడు సలహా ఇస్తే పిండం, మావిని రోగనిర్ధారణ ప్రయోగశాలకు పంపండి.") },
+                  { year: L("Dispose", "పారవేయండి"), text: L("Bury aborted material at least 4 feet deep with lime sprinkled over it, as the vet directs.", "పశువైద్యుని సూచన మేరకు గర్భస్రావ పదార్థాన్ని కనీసం 4 అడుగుల లోతులో పాతిపెట్టి, దాని మీద సున్నం చల్లండి.") },
+                  { year: L("Disinfect", "క్రిమిరహితం చేయండి"), text: L("After removing all organic matter, disinfect the area with an approved disinfectant (e.g. sodium hypochlorite) at the right dilution.", "సేంద్రియ పదార్థాలన్నీ తొలగించిన తర్వాత, ఆ ప్రాంతాన్ని ఆమోదిత క్రిమిసంహారిణి (ఉదా. సోడియం హైపోక్లోరైట్)తో సరైన పలుచనలో క్రిమిరహితం చేయండి.") },
                 ],
-                result: L("Report any abortion with fever, retained placenta or abnormal discharge to a vet immediately."),
+                result: L("Report any abortion with fever, retained placenta or abnormal discharge to a vet immediately.", "జ్వరం, మావి నిలిచిపోవడం లేదా అసాధారణ స్రావంతో కూడిన ఏ గర్భస్రావాన్నైనా వెంటనే పశువైద్యుడికి తెలియజేయండి."),
               },
               {
                 type: "callout",
                 style: "tip",
-                heading: L("Prevention"),
-                text: L(
-                  "Follow the vaccination schedule (including brucellosis vaccination of female calves), feed a balanced ration with minerals and vitamins, keep calving areas clean, buy only tested animals and quarantine them, avoid stress and long transport in late pregnancy, and record every breeding, pregnancy, calving and abortion."
-                ),
+                heading: L("Prevention", "నివారణ"),
+                text: L("Follow the vaccination schedule (including brucellosis vaccination of female calves), feed a balanced ration with minerals and vitamins, keep calving areas clean, buy only tested animals and quarantine them, avoid stress and long transport in late pregnancy, and record every breeding, pregnancy, calving and abortion.", "టీకా షెడ్యూల్ పాటించండి (ఆడ దూడలకు బ్రూసెల్లోసిస్ టీకాతో సహా), ఖనిజాలు, విటమిన్లతో సమతుల్య రేషన్ ఇవ్వండి, ఈత ప్రాంతాలను శుభ్రంగా ఉంచండి, పరీక్షించిన పశువులనే కొని క్వారంటైన్ చేయండి, చూడి చివరి దశలో ఒత్తిడి, దూర ప్రయాణం నివారించండి, ప్రతి గర్భధారణ, చూడి, ఈత, గర్భస్రావాన్ని నమోదు చేయండి."),
               },
             ],
             check: [
               {
                 type: "mcq",
-                q: L("What is the FIRST thing to do when an animal aborts?"),
+                q: L("What is the FIRST thing to do when an animal aborts?", "పశువుకు గర్భస్రావమైనప్పుడు మొదట చేయాల్సిన పని ఏమిటి?"),
                 options: [
-                  L("Feed the placenta to dogs"),
-                  L("Throw the foetus into the canal"),
-                  L("Isolate her and keep other animals away from the aborted material"),
-                  L("Do nothing — it happens"),
+                  L("Feed the placenta to dogs", "మావిని కుక్కలకు వేయడం"),
+                  L("Throw the foetus into the canal", "పిండాన్ని కాలువలో పడేయడం"),
+                  L("Isolate her and keep other animals away from the aborted material", "ఆమెను వేరు చేసి, ఇతర పశువులను గర్భస్రావ పదార్థానికి దూరంగా ఉంచడం"),
+                  L("Do nothing — it happens", "ఏమీ చేయవద్దు — అలా జరుగుతుంటుంది"),
                 ],
                 answer: 2,
-                explain: L("Isolate the animal and prevent contact with the foetus, placenta and bedding, then call the vet."),
+                explain: L("Isolate the animal and prevent contact with the foetus, placenta and bedding, then call the vet.", "పశువును వేరు చేసి, పిండం, మావి, పరుపుతో సంబంధం లేకుండా చూసి, తర్వాత పశువైద్యుడిని పిలవండి."),
               },
               {
                 type: "truefalse",
-                q: L("It is safe to handle an aborted foetus with bare hands."),
+                q: L("It is safe to handle an aborted foetus with bare hands.", "గర్భస్రావమైన పిండాన్ని చేతులతో నేరుగా తాకడం సురక్షితమే."),
                 answer: false,
-                explain: L("No — wear gloves and gumboots; diseases like brucellosis can infect people."),
+                explain: L("No — wear gloves and gumboots; diseases like brucellosis can infect people.", "కాదు — గ్లవ్స్, గమ్‌బూట్లు వేసుకోండి; బ్రూసెల్లోసిస్ వంటి వ్యాధులు మనుషులకు సోకవచ్చు."),
               },
             ],
           },
@@ -21799,33 +21553,33 @@ export const MODULES = [
             {
               topicId: "t-m19-abortion-causes",
               type: "mcq",
-              q: L("Which nutrients does the guideline link to abortion when they are lacking?"),
-              options: [L("Only water"), L("Sugar"), L("None — nutrition never matters"), L("Vitamin A, vitamin E, selenium and copper")],
+              q: L("Which nutrients does the guideline link to abortion when they are lacking?", "ఏ పోషకాలు లోపిస్తే గర్భస్రావం అవుతుందని మార్గదర్శకం చెబుతుంది?"),
+              options: [L("Only water", "నీరు మాత్రమే"), L("Sugar", "చక్కెర"), L("None — nutrition never matters", "ఏవీ కాదు — పోషణ ఎప్పుడూ ముఖ్యం కాదు"), L("Vitamin A, vitamin E, selenium and copper", "విటమిన్ A, విటమిన్ E, సెలీనియం, రాగి")],
               answer: 3,
-              explain: L("Deficiencies of vitamins A and E, selenium and copper can cause abortion."),
+              explain: L("Deficiencies of vitamins A and E, selenium and copper can cause abortion.", "విటమిన్లు A, E, సెలీనియం, రాగి లోపాలు గర్భస్రావానికి కారణం కావచ్చు."),
             },
             {
               topicId: "t-m19-abortion-causes",
               type: "mcq",
-              q: L("Neospora abortions are linked to which source?"),
-              options: [L("Clean water"), L("Dog faeces contaminating feed"), L("Green fodder"), L("Sunlight")],
+              q: L("Neospora abortions are linked to which source?", "నియోస్పోరా గర్భస్రావాలు ఏ మూలంతో సంబంధం కలిగి ఉంటాయి?"),
+              options: [L("Clean water", "శుభ్రమైన నీరు"), L("Dog faeces contaminating feed", "దాణాను కలుషితం చేసే కుక్కల మలం"), L("Green fodder", "పచ్చి మేత"), L("Sunlight", "సూర్యరశ్మి")],
               answer: 1,
-              explain: L("Prevent dog faecal contamination of feed to control Neospora."),
+              explain: L("Prevent dog faecal contamination of feed to control Neospora.", "నియోస్పోరా నియంత్రణకు దాణా కుక్కల మలంతో కలుషితం కాకుండా నివారించండి."),
             },
             {
               topicId: "t-m19-abortion-response",
               type: "mcq",
-              q: L("How deep should aborted material be buried?"),
-              options: [L("At least 4 feet, with lime over it"), L("A few inches"), L("It should be left in the open"), L("It should be burnt in the shed")],
+              q: L("How deep should aborted material be buried?", "గర్భస్రావ పదార్థాన్ని ఎంత లోతులో పాతిపెట్టాలి?"),
+              options: [L("At least 4 feet, with lime over it", "కనీసం 4 అడుగులు, దాని మీద సున్నం చల్లి"), L("A few inches", "కొన్ని అంగుళాలు"), L("It should be left in the open", "బహిరంగంగా వదిలేయాలి"), L("It should be burnt in the shed", "షెడ్‌లోనే కాల్చేయాలి")],
               answer: 0,
-              explain: L("Bury at least 4 feet deep and sprinkle lime, as directed by the vet."),
+              explain: L("Bury at least 4 feet deep and sprinkle lime, as directed by the vet.", "పశువైద్యుని సూచన మేరకు కనీసం 4 అడుగుల లోతులో పాతిపెట్టి సున్నం చల్లండి."),
             },
             {
               topicId: "t-m19-abortion-response",
               type: "truefalse",
-              q: L("An abortion with fever or retained placenta should be reported to a vet immediately."),
+              q: L("An abortion with fever or retained placenta should be reported to a vet immediately.", "జ్వరం లేదా మావి నిలిచిపోవడంతో కూడిన గర్భస్రావాన్ని వెంటనే పశువైద్యుడికి తెలియజేయాలి."),
               answer: true,
-              explain: L("Yes — early diagnosis helps control spread, protect public health and reduce losses."),
+              explain: L("Yes — early diagnosis helps control spread, protect public health and reduce losses.", "అవును — ముందుగా నిర్ధారిస్తే వ్యాప్తిని నియంత్రించడానికి, ప్రజారోగ్యాన్ని కాపాడడానికి, నష్టాలను తగ్గించడానికి సహాయపడుతుంది."),
             },
           ],
         },
@@ -21837,107 +21591,101 @@ export const MODULES = [
       // ==================================================================
       {
         id: "m19-l4",
-        title: L("Healthy Hooves, and When an Animal Should Leave the Herd"),
+        title: L("Healthy Hooves, and When an Animal Should Leave the Herd", "ఆరోగ్యకరమైన గిట్టలు, పశువు మంద నుండి ఎప్పుడు వెళ్ళాలి"),
         estMinutes: 9,
         hook: [
           {
             type: "hero",
-            heading: L("A Lame Cow Is a Poor Cow"),
-            text: L(
-              "A cow in pain from her feet eats less, gives less milk and is more likely to get mastitis and womb infections. Many lameness problems can be prevented with clean floors, good feeding and regular trimming. And every herd eventually has animals that can no longer stay productive — knowing the fair, sensible criteria for removing them keeps the herd healthy."
-            ),
+            heading: L("A Lame Cow Is a Poor Cow", "కుంటి ఆవు నష్టపు ఆవు"),
+            text: L("A cow in pain from her feet eats less, gives less milk and is more likely to get mastitis and womb infections. Many lameness problems can be prevented with clean floors, good feeding and regular trimming. And every herd eventually has animals that can no longer stay productive — knowing the fair, sensible criteria for removing them keeps the herd healthy.", "కాళ్ళ నొప్పితో ఉన్న ఆవు తక్కువ తింటుంది, తక్కువ పాలు ఇస్తుంది, మాస్టిటిస్, గర్భాశయ ఇన్ఫెక్షన్లు వచ్చే అవకాశం ఎక్కువ. శుభ్రమైన నేల, మంచి దాణా, క్రమం తప్పకుండా గిట్టలు కత్తిరించడంతో చాలా కుంటితనం సమస్యలను నివారించవచ్చు. ప్రతి మందలో చివరికి ఇక ఉత్పాదకంగా ఉండలేని పశువులు ఉంటాయి — వాటిని తొలగించడానికి న్యాయమైన, వివేకవంతమైన ప్రమాణాలు తెలిస్తే మంద ఆరోగ్యంగా ఉంటుంది."),
           },
         ],
         topics: [
           {
             id: "t-m19-hoof-care",
-            title: L("Hoof Problems and How to Prevent Them"),
+            title: L("Hoof Problems and How to Prevent Them", "గిట్టల సమస్యలు, వాటి నివారణ"),
             teach: [
               {
                 type: "text",
-                heading: L("Know the Hoof"),
-                html: L(
-                  "Each foot has <b>two weight-bearing claws</b> and two small dewclaws. The hard outer <b>wall</b> protects; the softer <b>sole</b> bears weight; the <b>heel</b> absorbs shock; new horn grows from the <b>coronary band</b>; and the <b>white line</b> — where wall meets sole — is a common entry point for infection."
-                ),
+                heading: L("Know the Hoof", "గిట్టను తెలుసుకోండి"),
+                html: L("Each foot has <b>two weight-bearing claws</b> and two small dewclaws. The hard outer <b>wall</b> protects; the softer <b>sole</b> bears weight; the <b>heel</b> absorbs shock; new horn grows from the <b>coronary band</b>; and the <b>white line</b> — where wall meets sole — is a common entry point for infection.", "ప్రతి కాలికి <b>బరువు మోసే రెండు గిట్టలు</b>, రెండు చిన్న అదనపు గిట్టలు (డ్యూక్లాస్) ఉంటాయి. గట్టి బయటి <b>గోడ</b> రక్షిస్తుంది; మెత్తటి <b>అరికాలు</b> బరువు మోస్తుంది; <b>మడమ</b> దెబ్బను తట్టుకుంటుంది; కొత్త కొమ్ము పదార్థం <b>కరోనరీ బ్యాండ్</b> నుండి పెరుగుతుంది; గోడ, అరికాలు కలిసే <b>తెల్ల గీత (వైట్ లైన్)</b> ఇన్ఫెక్షన్ ప్రవేశించే సాధారణ మార్గం."),
               },
               {
                 type: "stat-grid",
                 items: [
-                  { label: L("Laminitis"), text: L("Inflamed sensitive tissue, often from feeding too much high-energy feed. Swelling, heat, reluctance to walk.") },
-                  { label: L("Foot rot"), text: L("Bacterial infection. Prevent with clean, dry floors, regular foot baths and good nutrition.") },
-                  { label: L("Digital dermatitis"), text: L("Contagious 'hairy heel warts'. Prevent with routine foot baths, hygiene and avoiding wet conditions.") },
-                  { label: L("White line disease and sole ulcers"), text: L("From too much pressure and uneven weight. Prevent with regular trimming, soft bedding and balanced feeding.") },
+                  { label: L("Laminitis", "లామినైటిస్"), text: L("Inflamed sensitive tissue, often from feeding too much high-energy feed. Swelling, heat, reluctance to walk.", "సున్నితమైన కణజాలం వాపు, తరచుగా ఎక్కువ శక్తినిచ్చే దాణా అధికంగా ఇవ్వడం వల్ల. వాపు, వేడి, నడవడానికి ఇష్టపడకపోవడం.") },
+                  { label: L("Foot rot", "కాళ్ళ కుళ్ళు"), text: L("Bacterial infection. Prevent with clean, dry floors, regular foot baths and good nutrition.", "బ్యాక్టీరియా ఇన్ఫెక్షన్. శుభ్రమైన, పొడి నేల, క్రమం తప్పకుండా ఫుట్ బాత్‌లు, మంచి పోషణతో నివారించండి.") },
+                  { label: L("Digital dermatitis", "డిజిటల్ డెర్మటైటిస్"), text: L("Contagious 'hairy heel warts'. Prevent with routine foot baths, hygiene and avoiding wet conditions.", "అంటుకునే 'వెంట్రుకల మడమ పులిపిరులు'. క్రమం తప్పకుండా ఫుట్ బాత్‌లు, శుభ్రత, తడి పరిస్థితులు నివారించడంతో నివారించండి.") },
+                  { label: L("White line disease and sole ulcers", "వైట్ లైన్ వ్యాధి, అరికాలి పుండ్లు"), text: L("From too much pressure and uneven weight. Prevent with regular trimming, soft bedding and balanced feeding.", "ఎక్కువ ఒత్తిడి, అసమానంగా బరువు పడడం వల్ల. క్రమం తప్పకుండా గిట్టలు కత్తిరించడం, మెత్తటి పరుపు, సమతుల్య దాణాతో నివారించండి.") },
                 ],
               },
               {
                 type: "stat-grid",
                 items: [
-                  { label: L("Trim"), text: L("Preventive trimming twice a year by a trained person.") },
-                  { label: L("Floors"), text: L("Dry, clean floors with good drainage; no gravel in open areas; enough space to move.") },
-                  { label: L("Foot baths"), text: L("2–3 times a week in high-risk conditions; refresh the solution when it gets dirty.") },
-                  { label: L("Feed"), text: L("Balanced diets with biotin, zinc and methionine; avoid excess carbohydrates and acidosis.") },
-                  { label: L("Watch"), text: L("Look for lameness every day; isolate and treat lame animals promptly; keep hoof records.") },
+                  { label: L("Trim", "కత్తిరించండి"), text: L("Preventive trimming twice a year by a trained person.", "శిక్షణ పొందిన వ్యక్తి సంవత్సరానికి రెండుసార్లు నివారణ కత్తిరింపు.") },
+                  { label: L("Floors", "నేల"), text: L("Dry, clean floors with good drainage; no gravel in open areas; enough space to move.", "మంచి నీటి పారుదలతో పొడి, శుభ్రమైన నేల; బహిరంగ ప్రాంతాల్లో కంకర వద్దు; కదలడానికి తగినంత స్థలం.") },
+                  { label: L("Foot baths", "ఫుట్ బాత్‌లు"), text: L("2–3 times a week in high-risk conditions; refresh the solution when it gets dirty.", "ప్రమాదకర పరిస్థితుల్లో వారానికి 2–3 సార్లు; ద్రావణం మురికిగా మారితే మార్చండి.") },
+                  { label: L("Feed", "దాణా"), text: L("Balanced diets with biotin, zinc and methionine; avoid excess carbohydrates and acidosis.", "బయోటిన్, జింక్, మెథియోనిన్‌తో సమతుల్య ఆహారం; అధిక కార్బోహైడ్రేట్లు, అసిడోసిస్ నివారించండి.") },
+                  { label: L("Watch", "గమనించండి"), text: L("Look for lameness every day; isolate and treat lame animals promptly; keep hoof records.", "ప్రతి రోజూ కుంటితనం కోసం చూడండి; కుంటి పశువులను వేరు చేసి వెంటనే చికిత్స చేయించండి; గిట్టల రికార్డులు ఉంచండి.") },
                 ],
               },
             ],
             check: [
               {
                 type: "mcq",
-                q: L("How often should preventive hoof trimming be done?"),
-                options: [L("Every day"), L("Twice a year"), L("Never"), L("Once every 10 years")],
+                q: L("How often should preventive hoof trimming be done?", "నివారణ గిట్టల కత్తిరింపు ఎంత తరచుగా చేయాలి?"),
+                options: [L("Every day", "ప్రతి రోజూ"), L("Twice a year", "సంవత్సరానికి రెండుసార్లు"), L("Never", "ఎప్పుడూ వద్దు"), L("Once every 10 years", "10 సంవత్సరాలకు ఒకసారి")],
                 answer: 1,
-                explain: L("The guideline recommends preventive trimming twice yearly."),
+                explain: L("The guideline recommends preventive trimming twice yearly.", "సంవత్సరానికి రెండుసార్లు నివారణ కత్తిరింపును మార్గదర్శకం సిఫార్సు చేస్తుంది."),
               },
               {
                 type: "truefalse",
-                q: L("Lameness can increase the risk of mastitis and metritis."),
+                q: L("Lameness can increase the risk of mastitis and metritis.", "కుంటితనం మాస్టిటిస్, మెట్రైటిస్ ప్రమాదాన్ని పెంచగలదు."),
                 answer: true,
-                explain: L("Yes — hoof problems can raise the incidence of secondary problems like mastitis and metritis."),
+                explain: L("Yes — hoof problems can raise the incidence of secondary problems like mastitis and metritis.", "అవును — గిట్టల సమస్యలు మాస్టిటిస్, మెట్రైటిస్ వంటి ద్వితీయ సమస్యలను పెంచగలవు."),
               },
             ],
           },
           {
             id: "t-m19-culling",
-            title: L("When an Animal Should Leave the Herd"),
+            title: L("When an Animal Should Leave the Herd", "పశువు మంద నుండి ఎప్పుడు వెళ్ళాలి"),
             teach: [
               {
                 type: "glossary",
-                term: L("Culling (Removal From the Herd)"),
-                meaning: L("Taking an animal out of the productive herd because of health, production, reproduction or other problems, to protect the herd's health and the farm's economics."),
+                term: L("Culling (Removal From the Herd)", "కల్లింగ్ (మంద నుండి తొలగించడం)"),
+                meaning: L("Taking an animal out of the productive herd because of health, production, reproduction or other problems, to protect the herd's health and the farm's economics.", "మంద ఆరోగ్యాన్ని, ఫారం ఆర్థిక స్థితిని కాపాడడానికి, ఆరోగ్యం, ఉత్పత్తి, పునరుత్పత్తి లేదా ఇతర సమస్యల వల్ల పశువును ఉత్పాదక మంద నుండి తొలగించడం."),
               },
               {
                 type: "stat-grid",
                 items: [
-                  { label: L("Chronic disease"), text: L("Johne's disease, tuberculosis, brucellosis; chronic or repeated mastitis not responding to treatment; persistent severe lameness.") },
-                  { label: L("Fertility"), text: L("Failing to conceive after many attempts, very long calving intervals, repeated difficult calvings or uterine prolapse.") },
-                  { label: L("End of productive life"), text: L("Based on health and lifetime milk production.") },
-                  { label: L("Genetics"), text: L("When her offspring consistently perform poorly.") },
-                  { label: L("Economics"), text: L("When treatment costs for a chronic problem outweigh the benefit.") },
-                  { label: L("Behaviour"), text: L("Aggressive animals that endanger people or other cows.") },
+                  { label: L("Chronic disease", "దీర్ఘకాలిక వ్యాధి"), text: L("Johne's disease, tuberculosis, brucellosis; chronic or repeated mastitis not responding to treatment; persistent severe lameness.", "జోన్స్ వ్యాధి, క్షయ, బ్రూసెల్లోసిస్; చికిత్సకు స్పందించని దీర్ఘకాలిక లేదా మళ్ళీ మళ్ళీ వచ్చే మాస్టిటిస్; నిరంతర తీవ్ర కుంటితనం.") },
+                  { label: L("Fertility", "సంతానోత్పత్తి"), text: L("Failing to conceive after many attempts, very long calving intervals, repeated difficult calvings or uterine prolapse.", "చాలా ప్రయత్నాల తర్వాత కూడా చూడి కట్టకపోవడం, చాలా ఎక్కువ ఈతల మధ్య కాలం, మళ్ళీ మళ్ళీ కష్టమైన ఈతలు లేదా గర్భాశయం బయటకు రావడం.") },
+                  { label: L("End of productive life", "ఉత్పాదక జీవితం ముగింపు"), text: L("Based on health and lifetime milk production.", "ఆరోగ్యం, జీవితకాల పాల ఉత్పత్తి ఆధారంగా.") },
+                  { label: L("Genetics", "జన్యువులు"), text: L("When her offspring consistently perform poorly.", "ఆమె సంతానం నిలకడగా తక్కువ పనితీరు చూపినప్పుడు.") },
+                  { label: L("Economics", "ఆర్థికం"), text: L("When treatment costs for a chronic problem outweigh the benefit.", "దీర్ఘకాలిక సమస్యకు చికిత్స ఖర్చు ప్రయోజనం కంటే ఎక్కువైనప్పుడు.") },
+                  { label: L("Behaviour", "ప్రవర్తన"), text: L("Aggressive animals that endanger people or other cows.", "మనుషులకు లేదా ఇతర ఆవులకు ప్రమాదకరమైన దూకుడు పశువులు.") },
                 ],
               },
               {
                 type: "callout",
                 style: "info",
-                heading: L("Unproductive Doesn't Mean Abandoned"),
-                text: L(
-                  "Animals at the end of their productive life may be moved to a Gosadan or Panjrapole, or kept at the farmer's home if the farmer has the means. They should never simply be let loose."
-                ),
+                heading: L("Unproductive Doesn't Mean Abandoned", "ఉత్పాదకం కానంత మాత్రాన వదిలేయడం కాదు"),
+                text: L("Animals at the end of their productive life may be moved to a Gosadan or Panjrapole, or kept at the farmer's home if the farmer has the means. They should never simply be let loose.", "ఉత్పాదక జీవితం ముగిసిన పశువులను గోసదన్ లేదా పంజరాపోల్‌కు తరలించవచ్చు, లేదా రైతుకు స్థోమత ఉంటే ఇంట్లోనే ఉంచుకోవచ్చు. వాటిని ఎప్పుడూ కేవలం వదిలేయకూడదు."),
               },
             ],
             check: [
               {
                 type: "mcq",
-                q: L("Which of these is a recognised reason to remove an animal from the herd?"),
-                options: [L("Giving good milk"), L("A healthy calf at foot"), L("Being a calm animal"), L("Chronic mastitis that doesn't respond to treatment")],
+                q: L("Which of these is a recognised reason to remove an animal from the herd?", "వీటిలో పశువును మంద నుండి తొలగించడానికి గుర్తింపు పొందిన కారణం ఏది?"),
+                options: [L("Giving good milk", "మంచి పాలు ఇవ్వడం"), L("A healthy calf at foot", "పక్కన ఆరోగ్యకరమైన దూడ ఉండడం"), L("Being a calm animal", "ప్రశాంతమైన పశువు కావడం"), L("Chronic mastitis that doesn't respond to treatment", "చికిత్సకు స్పందించని దీర్ఘకాలిక మాస్టిటిస్")],
                 answer: 3,
-                explain: L("Chronic, untreatable mastitis can spread infection and lower milk quality, so such animals may be removed."),
+                explain: L("Chronic, untreatable mastitis can spread infection and lower milk quality, so such animals may be removed.", "నయం కాని దీర్ఘకాలిక మాస్టిటిస్ ఇన్ఫెక్షన్‌ను వ్యాపింపజేసి పాల నాణ్యతను తగ్గిస్తుంది, కాబట్టి అలాంటి పశువులను తొలగించవచ్చు."),
               },
               {
                 type: "truefalse",
-                q: L("Animals at the end of their productive life can be moved to a Gosadan or Panjrapole."),
+                q: L("Animals at the end of their productive life can be moved to a Gosadan or Panjrapole.", "ఉత్పాదక జీవితం ముగిసిన పశువులను గోసదన్ లేదా పంజరాపోల్‌కు తరలించవచ్చు."),
                 answer: true,
-                explain: L("Yes — or kept at home if the farmer can afford to — rather than being abandoned."),
+                explain: L("Yes — or kept at home if the farmer can afford to — rather than being abandoned.", "అవును — లేదా రైతుకు స్థోమత ఉంటే ఇంట్లో ఉంచుకోవచ్చు — వదిలేయడం కాకుండా."),
               },
             ],
           },
@@ -21948,33 +21696,33 @@ export const MODULES = [
             {
               topicId: "t-m19-hoof-care",
               type: "mcq",
-              q: L("Which part of the hoof is a common entry point for infection?"),
-              options: [L("The horn tip"), L("The white line, where wall meets sole"), L("The tail"), L("The dewlap")],
+              q: L("Which part of the hoof is a common entry point for infection?", "గిట్టలో ఏ భాగం ఇన్ఫెక్షన్ ప్రవేశించే సాధారణ మార్గం?"),
+              options: [L("The horn tip", "కొమ్ము కొన"), L("The white line, where wall meets sole", "గోడ, అరికాలు కలిసే తెల్ల గీత"), L("The tail", "తోక"), L("The dewlap", "గంగడోలు")],
               answer: 1,
-              explain: L("The white line, the junction between hoof wall and sole, is vulnerable to infection."),
+              explain: L("The white line, the junction between hoof wall and sole, is vulnerable to infection.", "గిట్ట గోడ, అరికాలు కలిసే చోటైన తెల్ల గీతకు ఇన్ఫెక్షన్ సులభంగా సోకుతుంది."),
             },
             {
               topicId: "t-m19-hoof-care",
               type: "mcq",
-              q: L("Which feeding mistake is most linked to laminitis?"),
-              options: [L("Plenty of good fodder"), L("Clean water"), L("Too much high-energy feed and carbohydrates"), L("Feeding at fixed times")],
+              q: L("Which feeding mistake is most linked to laminitis?", "ఏ దాణా పొరపాటు లామినైటిస్‌తో ఎక్కువ సంబంధం కలిగి ఉంటుంది?"),
+              options: [L("Plenty of good fodder", "సమృద్ధిగా మంచి మేత"), L("Clean water", "శుభ్రమైన నీరు"), L("Too much high-energy feed and carbohydrates", "ఎక్కువ శక్తినిచ్చే దాణా, కార్బోహైడ్రేట్లు అధికంగా"), L("Feeding at fixed times", "నిర్ణీత సమయాల్లో దాణా పెట్టడం")],
               answer: 2,
-              explain: L("Laminitis is often linked to nutritional imbalance — excess high-energy feed leading to acidosis."),
+              explain: L("Laminitis is often linked to nutritional imbalance — excess high-energy feed leading to acidosis.", "లామినైటిస్ తరచుగా పోషణ అసమతుల్యతతో సంబంధం కలిగి ఉంటుంది — ఎక్కువ శక్తి దాణా అధికమై అసిడోసిస్‌కు దారితీయడం."),
             },
             {
               topicId: "t-m19-hoof-care",
               type: "truefalse",
-              q: L("In high-risk conditions, foot baths may be used 2–3 times a week."),
+              q: L("In high-risk conditions, foot baths may be used 2–3 times a week.", "ప్రమాదకర పరిస్థితుల్లో ఫుట్ బాత్‌లను వారానికి 2–3 సార్లు వాడవచ్చు."),
               answer: true,
-              explain: L("Correct — and the solution should be refreshed as it gets dirty."),
+              explain: L("Correct — and the solution should be refreshed as it gets dirty.", "సరైనది — ద్రావణం మురికిగా మారినప్పుడు మార్చాలి."),
             },
             {
               topicId: "t-m19-culling",
               type: "mcq",
-              q: L("A cow repeatedly fails to conceive after many inseminations despite treatment. What might be considered?"),
-              options: [L("Giving her more concentrate forever"), L("Ignoring it"), L("Removal from the productive herd"), L("Breeding her every day")],
+              q: L("A cow repeatedly fails to conceive after many inseminations despite treatment. What might be considered?", "చికిత్స చేసినా, చాలా గర్భధారణల తర్వాత కూడా ఒక ఆవు మళ్ళీ మళ్ళీ చూడి కట్టడం లేదు. ఏమి పరిగణించవచ్చు?"),
+              options: [L("Giving her more concentrate forever", "ఆమెకు శాశ్వతంగా ఎక్కువ దాణా ఇవ్వడం"), L("Ignoring it", "పట్టించుకోకపోవడం"), L("Removal from the productive herd", "ఉత్పాదక మంద నుండి తొలగించడం"), L("Breeding her every day", "ప్రతి రోజూ గర్భధారణ చేయించడం")],
               answer: 2,
-              explain: L("Animals that fail to conceive after multiple attempts may be culled to protect herd reproductive performance."),
+              explain: L("Animals that fail to conceive after multiple attempts may be culled to protect herd reproductive performance.", "మంద పునరుత్పత్తి పనితీరును కాపాడడానికి, చాలా ప్రయత్నాల తర్వాత కూడా చూడి కట్టని పశువులను తొలగించవచ్చు."),
             },
           ],
         },
@@ -21984,8 +21732,8 @@ export const MODULES = [
   {
     id: "m20",
     number: 20,
-    title: L("Indigenous Breeds of Cattle and Buffalo"),
-    subtitle: L("India's main dairy breeds and where they come from, how to choose the right type of animal, and why local breeds are so hardy."),
+    title: L("Indigenous Breeds of Cattle and Buffalo", "దేశీ పశువులు, గేదెల జాతులు"),
+    subtitle: L("India's main dairy breeds and where they come from, how to choose the right type of animal, and why local breeds are so hardy.", "భారతదేశ ప్రధాన పాడి జాతులు, అవి ఎక్కడి నుండి వచ్చాయి, సరైన రకమైన పశువును ఎలా ఎంచుకోవాలి, స్థానిక జాతులు ఎందుకు అంత దృఢంగా ఉంటాయి."),
     icon: "leaf",
     available: true,
     lessons: [
@@ -21996,102 +21744,96 @@ export const MODULES = [
       // ==================================================================
       {
         id: "m20-l1",
-        title: L("Know the Breeds and Their Home Tracts"),
+        title: L("Know the Breeds and Their Home Tracts", "జాతులను, వాటి స్వస్థలాలను తెలుసుకోండి"),
         estMinutes: 8,
         hook: [
           {
             type: "hero",
-            heading: L("Every Breed Has a Home"),
-            text: L(
-              "India's dairy breeds were shaped over centuries by the land, climate and people of particular regions — their 'native tract'. Knowing the main breeds and where they come from helps you understand farmers' animals, the state breeding policy, and why a breed that thrives in one place may struggle in another."
-            ),
+            heading: L("Every Breed Has a Home", "ప్రతి జాతికీ ఒక స్వస్థలం ఉంది"),
+            text: L("India's dairy breeds were shaped over centuries by the land, climate and people of particular regions — their 'native tract'. Knowing the main breeds and where they come from helps you understand farmers' animals, the state breeding policy, and why a breed that thrives in one place may struggle in another.", "భారతదేశ పాడి జాతులు శతాబ్దాలుగా నిర్దిష్ట ప్రాంతాల నేల, వాతావరణం, ప్రజల వల్ల రూపుదిద్దుకున్నాయి — అదే వాటి 'స్వస్థల ప్రాంతం'. ప్రధాన జాతులు, అవి ఎక్కడి నుండి వచ్చాయో తెలిస్తే రైతుల పశువులను, రాష్ట్ర సంతానోత్పత్తి విధానాన్ని, ఒక చోట బాగా పెరిగే జాతి మరో చోట ఎందుకు ఇబ్బంది పడవచ్చో అర్థం చేసుకోవచ్చు."),
           },
         ],
         topics: [
           {
             id: "t-m20-cattle-breeds",
-            title: L("Indigenous Dairy Cattle Breeds"),
+            title: L("Indigenous Dairy Cattle Breeds", "దేశీ పాడి పశువుల జాతులు"),
             teach: [
               {
                 type: "photo",
                 src: "assets/photo-m2-healthy-signs.jpg",
-                alt: L("A Sahiwal cow with a glossy reddish-brown coat, standing alert on a dairy unit floor"),
-                caption: L("A Sahiwal cow — one of India's best-known indigenous dairy breeds."),
+                alt: L("A Sahiwal cow with a glossy reddish-brown coat, standing alert on a dairy unit floor", "మెరిసే ఎరుపు-గోధుమ రంగు చర్మంతో, పాడి షెడ్ నేలపై అప్రమత్తంగా నిలబడి ఉన్న సాహివాల్ ఆవు"),
+                caption: L("A Sahiwal cow — one of India's best-known indigenous dairy breeds.", "సాహివాల్ ఆవు — భారతదేశంలో బాగా ప్రసిద్ధి చెందిన దేశీ పాడి జాతుల్లో ఒకటి."),
               },
               {
                 type: "stat-grid",
                 items: [
-                  { label: L("Gir"), text: L("Junagadh, Rajkot, Bhavnagar and Amreli districts of Gujarat.") },
-                  { label: L("Sahiwal"), text: L("Ferozpur and Amritsar districts of Punjab, and Sri Ganganagar district of Rajasthan.") },
-                  { label: L("Kankrej"), text: L("Kutch, Mehsana and Banaskantha districts of Gujarat.") },
-                  { label: L("Tharparkar"), text: L("Jaisalmer, Barmer and Jodhpur districts of Rajasthan.") },
-                  { label: L("Rathi"), text: L("Bikaner and Sri Ganganagar districts of Rajasthan.") },
-                  { label: L("Red Sindhi"), text: L("Originally from Pakistan; also found in Punjab, Haryana, Rajasthan and Uttarakhand.") },
-                  { label: L("Hariana"), text: L("Rohtak, Hisar, Sonepat, Gurgaon, Jind and Jhajjar districts of Haryana.") },
+                  { label: L("Gir", "గిర్"), text: L("Junagadh, Rajkot, Bhavnagar and Amreli districts of Gujarat.", "గుజరాత్‌లోని జునాగఢ్, రాజ్‌కోట్, భావ్‌నగర్, అమ్రేలీ జిల్లాలు.") },
+                  { label: L("Sahiwal", "సాహివాల్"), text: L("Ferozpur and Amritsar districts of Punjab, and Sri Ganganagar district of Rajasthan.", "పంజాబ్‌లోని ఫిరోజ్‌పూర్, అమృత్‌సర్ జిల్లాలు, రాజస్థాన్‌లోని శ్రీ గంగానగర్ జిల్లా.") },
+                  { label: L("Kankrej", "కాంక్రేజ్"), text: L("Kutch, Mehsana and Banaskantha districts of Gujarat.", "గుజరాత్‌లోని కచ్, మెహసానా, బనాస్కాంఠా జిల్లాలు.") },
+                  { label: L("Tharparkar", "థార్‌పార్కర్"), text: L("Jaisalmer, Barmer and Jodhpur districts of Rajasthan.", "రాజస్థాన్‌లోని జైసల్మేర్, బార్మేర్, జోధ్‌పూర్ జిల్లాలు.") },
+                  { label: L("Rathi", "రాఠీ"), text: L("Bikaner and Sri Ganganagar districts of Rajasthan.", "రాజస్థాన్‌లోని బికనేర్, శ్రీ గంగానగర్ జిల్లాలు.") },
+                  { label: L("Red Sindhi", "రెడ్ సింధీ"), text: L("Originally from Pakistan; also found in Punjab, Haryana, Rajasthan and Uttarakhand.", "మొదట పాకిస్తాన్ నుండి; పంజాబ్, హర్యానా, రాజస్థాన్, ఉత్తరాఖండ్‌లో కూడా కనిపిస్తుంది.") },
+                  { label: L("Hariana", "హర్యానా"), text: L("Rohtak, Hisar, Sonepat, Gurgaon, Jind and Jhajjar districts of Haryana.", "హర్యానాలోని రోహ్‌తక్, హిసార్, సోనేపట్, గుర్‌గావ్, జింద్, ఝజ్జర్ జిల్లాలు.") },
                 ],
               },
             ],
             check: [
               {
                 type: "mcq",
-                q: L("The Gir breed's native tract is in which state?"),
-                options: [L("Kerala"), L("Assam"), L("Gujarat"), L("Himachal Pradesh")],
+                q: L("The Gir breed's native tract is in which state?", "గిర్ జాతి స్వస్థల ప్రాంతం ఏ రాష్ట్రంలో ఉంది?"),
+                options: [L("Kerala", "కేరళ"), L("Assam", "అస్సాం"), L("Gujarat", "గుజరాత్"), L("Himachal Pradesh", "హిమాచల్ ప్రదేశ్")],
                 answer: 2,
-                explain: L("Gir comes from the Junagadh, Rajkot, Bhavnagar and Amreli districts of Gujarat."),
+                explain: L("Gir comes from the Junagadh, Rajkot, Bhavnagar and Amreli districts of Gujarat.", "గిర్ గుజరాత్‌లోని జునాగఢ్, రాజ్‌కోట్, భావ్‌నగర్, అమ్రేలీ జిల్లాల నుండి వస్తుంది."),
               },
               {
                 type: "mcq",
-                q: L("Tharparkar cattle come from which dry region?"),
-                options: [L("Coastal Kerala"), L("Jaisalmer, Barmer and Jodhpur in Rajasthan"), L("The hills of Sikkim"), L("Delhi city")],
+                q: L("Tharparkar cattle come from which dry region?", "థార్‌పార్కర్ పశువులు ఏ పొడి ప్రాంతం నుండి వస్తాయి?"),
+                options: [L("Coastal Kerala", "కేరళ తీర ప్రాంతం"), L("Jaisalmer, Barmer and Jodhpur in Rajasthan", "రాజస్థాన్‌లోని జైసల్మేర్, బార్మేర్, జోధ్‌పూర్"), L("The hills of Sikkim", "సిక్కిం కొండలు"), L("Delhi city", "ఢిల్లీ నగరం")],
                 answer: 1,
-                explain: L("Tharparkar's native tract is the desert districts of Jaisalmer, Barmer and Jodhpur."),
+                explain: L("Tharparkar's native tract is the desert districts of Jaisalmer, Barmer and Jodhpur.", "థార్‌పార్కర్ స్వస్థల ప్రాంతం జైసల్మేర్, బార్మేర్, జోధ్‌పూర్ ఎడారి జిల్లాలు."),
               },
             ],
           },
           {
             id: "t-m20-buffalo-breeds",
-            title: L("Buffalo Breeds, and Choosing the Right Animal"),
+            title: L("Buffalo Breeds, and Choosing the Right Animal", "గేదె జాతులు, సరైన పశువును ఎంచుకోవడం"),
             teach: [
               {
                 type: "stat-grid",
                 items: [
-                  { label: L("Murrah"), text: L("Hisar, Rohtak, Gurgaon and Jind districts of Haryana.") },
-                  { label: L("Surti"), text: L("Anand, Kheda and Vadodara (Baroda) districts of Gujarat.") },
-                  { label: L("Mehsana (Mahesani)"), text: L("Mehsana, Banaskantha and Sabarkantha districts of Gujarat.") },
-                  { label: L("Pandharpuri"), text: L("Solapur, Sangli and Kolhapur districts of Maharashtra.") },
-                  { label: L("Nili Ravi"), text: L("Originally from Pakistan; found in the border districts of Ferozpur and Amritsar in Punjab.") },
-                  { label: L("Jaffarabadi"), text: L("Junagadh, Jamnagar, Rajkot, Bhavnagar, Porbandar and Amreli districts of Gujarat.") },
+                  { label: L("Murrah", "ముర్రా"), text: L("Hisar, Rohtak, Gurgaon and Jind districts of Haryana.", "హర్యానాలోని హిసార్, రోహ్‌తక్, గుర్‌గావ్, జింద్ జిల్లాలు.") },
+                  { label: L("Surti", "సుర్తి"), text: L("Anand, Kheda and Vadodara (Baroda) districts of Gujarat.", "గుజరాత్‌లోని ఆనంద్, ఖేడా, వడోదర (బరోడా) జిల్లాలు.") },
+                  { label: L("Mehsana (Mahesani)", "మెహసానా (మహేసాని)"), text: L("Mehsana, Banaskantha and Sabarkantha districts of Gujarat.", "గుజరాత్‌లోని మెహసానా, బనాస్కాంఠా, సబర్కాంఠా జిల్లాలు.") },
+                  { label: L("Pandharpuri", "పంఢర్‌పురి"), text: L("Solapur, Sangli and Kolhapur districts of Maharashtra.", "మహారాష్ట్రలోని సోలాపూర్, సాంగ్లీ, కొల్హాపూర్ జిల్లాలు.") },
+                  { label: L("Nili Ravi", "నీలి రావి"), text: L("Originally from Pakistan; found in the border districts of Ferozpur and Amritsar in Punjab.", "మొదట పాకిస్తాన్ నుండి; పంజాబ్‌లోని సరిహద్దు జిల్లాలైన ఫిరోజ్‌పూర్, అమృత్‌సర్‌లో కనిపిస్తుంది.") },
+                  { label: L("Jaffarabadi", "జాఫరాబాది"), text: L("Junagadh, Jamnagar, Rajkot, Bhavnagar, Porbandar and Amreli districts of Gujarat.", "గుజరాత్‌లోని జునాగఢ్, జామ్‌నగర్, రాజ్‌కోట్, భావ్‌నగర్, పోర్‌బందర్, అమ్రేలీ జిల్లాలు.") },
                 ],
               },
               {
                 type: "text",
-                heading: L("Indigenous, Crossbred or Buffalo?"),
-                html: L(
-                  "There is no single best animal — it depends on the farmer's <b>resources</b>, the <b>climate</b>, the availability of <b>feed, fodder and water</b>, <b>veterinary care</b>, and how milk is <b>priced</b>. In resource-poor conditions, <b>indigenous cattle and/or buffaloes</b> are preferred. Where resources are moderate to good, <b>crossbred cows</b> can be preferred. Where milk is paid mainly on <b>fat %</b>, <b>buffaloes</b> may be the better choice."
-                ),
+                heading: L("Indigenous, Crossbred or Buffalo?", "దేశీ, సంకర జాతి లేదా గేదె?"),
+                html: L("There is no single best animal — it depends on the farmer's <b>resources</b>, the <b>climate</b>, the availability of <b>feed, fodder and water</b>, <b>veterinary care</b>, and how milk is <b>priced</b>. In resource-poor conditions, <b>indigenous cattle and/or buffaloes</b> are preferred. Where resources are moderate to good, <b>crossbred cows</b> can be preferred. Where milk is paid mainly on <b>fat %</b>, <b>buffaloes</b> may be the better choice.", "ఒకే ఉత్తమ పశువు అంటూ ఏదీ లేదు — అది రైతు <b>వనరులు</b>, <b>వాతావరణం</b>, <b>దాణా, మేత, నీటి</b> లభ్యత, <b>పశువైద్య సంరక్షణ</b>, పాలకు <b>ధర</b> ఎలా నిర్ణయిస్తారనే దానిపై ఆధారపడి ఉంటుంది. వనరులు తక్కువగా ఉన్న పరిస్థితుల్లో <b>దేశీ పశువులు మరియు/లేదా గేదెలు</b> మేలు. వనరులు మధ్యస్థం నుండి మంచిగా ఉన్న చోట <b>సంకర జాతి ఆవులు</b> మేలు కావచ్చు. పాలకు ప్రధానంగా <b>వెన్న %</b> ఆధారంగా చెల్లించే చోట, <b>గేదెలు</b> మంచి ఎంపిక కావచ్చు."),
               },
               {
                 type: "callout",
                 style: "tip",
-                heading: L("What Makes an Animal Profitable?"),
-                text: L(
-                  "The handbook's answer: one calf a year, resistance to disease, and the most milk or milk solids for the least input cost. Exotic breeds can produce a lot but are more disease-prone and need high-quality feed and plenty of water — which is why improving indigenous breeds matters for small farmers."
-                ),
+                heading: L("What Makes an Animal Profitable?", "పశువును లాభదాయకంగా చేసేది ఏమిటి?"),
+                text: L("The handbook's answer: one calf a year, resistance to disease, and the most milk or milk solids for the least input cost. Exotic breeds can produce a lot but are more disease-prone and need high-quality feed and plenty of water — which is why improving indigenous breeds matters for small farmers.", "హ్యాండ్‌బుక్ సమాధానం: సంవత్సరానికి ఒక దూడ, వ్యాధులను తట్టుకునే శక్తి, అతి తక్కువ ఖర్చుతో అత్యధిక పాలు లేదా పాల ఘన పదార్థాలు. విదేశీ జాతులు చాలా ఉత్పత్తి చేయగలవు కానీ వ్యాధులు ఎక్కువగా వస్తాయి, అధిక నాణ్యత దాణా, సమృద్ధిగా నీరు అవసరం — అందుకే చిన్న రైతులకు దేశీ జాతుల మెరుగుదల ముఖ్యం."),
               },
             ],
             check: [
               {
                 type: "mcq",
-                q: L("Murrah buffaloes come from which state?"),
-                options: [L("Tamil Nadu"), L("Odisha"), L("Manipur"), L("Haryana")],
+                q: L("Murrah buffaloes come from which state?", "ముర్రా గేదెలు ఏ రాష్ట్రం నుండి వస్తాయి?"),
+                options: [L("Tamil Nadu", "తమిళనాడు"), L("Odisha", "ఒడిశా"), L("Manipur", "మణిపూర్"), L("Haryana", "హర్యానా")],
                 answer: 3,
-                explain: L("Murrah's native tract is Hisar, Rohtak, Gurgaon and Jind districts of Haryana."),
+                explain: L("Murrah's native tract is Hisar, Rohtak, Gurgaon and Jind districts of Haryana.", "ముర్రా స్వస్థల ప్రాంతం హర్యానాలోని హిసార్, రోహ్‌తక్, గుర్‌గావ్, జింద్ జిల్లాలు."),
               },
               {
                 type: "truefalse",
-                q: L("Where milk is paid mainly on fat percentage, buffaloes may be the preferred dairy animal."),
+                q: L("Where milk is paid mainly on fat percentage, buffaloes may be the preferred dairy animal.", "పాలకు ప్రధానంగా వెన్న శాతం ఆధారంగా చెల్లించే చోట, గేదెలు మేలైన పాడి పశువు కావచ్చు."),
                 answer: true,
-                explain: L("Yes — buffalo milk is rich in fat, so they may be preferred where fat % drives the price."),
+                explain: L("Yes — buffalo milk is rich in fat, so they may be preferred where fat % drives the price.", "అవును — గేదె పాలలో వెన్న సమృద్ధిగా ఉంటుంది, కాబట్టి వెన్న % ధరను నిర్ణయించే చోట వాటిని ఇష్టపడవచ్చు."),
               },
             ],
           },
@@ -22102,34 +21844,34 @@ export const MODULES = [
             {
               topicId: "t-m20-cattle-breeds",
               type: "mcq",
-              q: L("Which of these is an indigenous dairy cattle breed from Haryana?"),
-              options: [L("Holstein-Friesian"), L("Hariana"), L("Jersey"), L("Murrah")],
+              q: L("Which of these is an indigenous dairy cattle breed from Haryana?", "వీటిలో హర్యానా నుండి వచ్చిన దేశీ పాడి పశు జాతి ఏది?"),
+              options: [L("Holstein-Friesian", "హోల్‌స్టీన్-ఫ్రీషియన్"), L("Hariana", "హర్యానా"), L("Jersey", "జెర్సీ"), L("Murrah", "ముర్రా")],
               answer: 1,
-              explain: L("Hariana cattle come from Rohtak, Hisar, Sonepat, Gurgaon, Jind and Jhajjar. (Murrah is a buffalo breed.)"),
+              explain: L("Hariana cattle come from Rohtak, Hisar, Sonepat, Gurgaon, Jind and Jhajjar. (Murrah is a buffalo breed.)", "హర్యానా పశువులు రోహ్‌తక్, హిసార్, సోనేపట్, గుర్‌గావ్, జింద్, ఝజ్జర్ నుండి వస్తాయి. (ముర్రా గేదె జాతి.)"),
             },
             {
               topicId: "t-m20-cattle-breeds",
               type: "mcq",
-              q: L("Kankrej cattle are native to which area?"),
-              options: [L("Kutch, Mehsana and Banaskantha in Gujarat"), L("Kolhapur in Maharashtra"), L("Amritsar in Punjab"), L("Bikaner in Rajasthan")],
+              q: L("Kankrej cattle are native to which area?", "కాంక్రేజ్ పశువుల స్వస్థల ప్రాంతం ఏది?"),
+              options: [L("Kutch, Mehsana and Banaskantha in Gujarat", "గుజరాత్‌లోని కచ్, మెహసానా, బనాస్కాంఠా"), L("Kolhapur in Maharashtra", "మహారాష్ట్రలోని కొల్హాపూర్"), L("Amritsar in Punjab", "పంజాబ్‌లోని అమృత్‌సర్"), L("Bikaner in Rajasthan", "రాజస్థాన్‌లోని బికనేర్")],
               answer: 0,
-              explain: L("Kankrej comes from the Kutch, Mehsana and Banaskantha districts of Gujarat."),
+              explain: L("Kankrej comes from the Kutch, Mehsana and Banaskantha districts of Gujarat.", "కాంక్రేజ్ గుజరాత్‌లోని కచ్, మెహసానా, బనాస్కాంఠా జిల్లాల నుండి వస్తుంది."),
             },
             {
               topicId: "t-m20-buffalo-breeds",
               type: "mcq",
-              q: L("Which buffalo breed comes from Solapur, Sangli and Kolhapur in Maharashtra?"),
-              options: [L("Pandharpuri"), L("Surti"), L("Nili Ravi"), L("Jaffarabadi")],
+              q: L("Which buffalo breed comes from Solapur, Sangli and Kolhapur in Maharashtra?", "మహారాష్ట్రలోని సోలాపూర్, సాంగ్లీ, కొల్హాపూర్ నుండి వచ్చే గేదె జాతి ఏది?"),
+              options: [L("Pandharpuri", "పంఢర్‌పురి"), L("Surti", "సుర్తి"), L("Nili Ravi", "నీలి రావి"), L("Jaffarabadi", "జాఫరాబాది")],
               answer: 0,
-              explain: L("Pandharpuri buffaloes are native to Solapur, Sangli and Kolhapur."),
+              explain: L("Pandharpuri buffaloes are native to Solapur, Sangli and Kolhapur.", "పంఢర్‌పురి గేదెల స్వస్థలం సోలాపూర్, సాంగ్లీ, కొల్హాపూర్."),
             },
             {
               topicId: "t-m20-buffalo-breeds",
               type: "mcq",
-              q: L("In resource-poor conditions, which animals does the handbook suggest preferring?"),
-              options: [L("Pure exotic cattle"), L("Only high-yielding HF cows"), L("No animals at all"), L("Indigenous cattle and/or buffaloes")],
+              q: L("In resource-poor conditions, which animals does the handbook suggest preferring?", "వనరులు తక్కువగా ఉన్న పరిస్థితుల్లో, ఏ పశువులను ఎంచుకోవాలని హ్యాండ్‌బుక్ సూచిస్తుంది?"),
+              options: [L("Pure exotic cattle", "స్వచ్ఛమైన విదేశీ జాతి పశువులు"), L("Only high-yielding HF cows", "ఎక్కువ పాలిచ్చే HF ఆవులు మాత్రమే"), L("No animals at all", "పశువులే వద్దు"), L("Indigenous cattle and/or buffaloes", "దేశీ పశువులు మరియు/లేదా గేదెలు")],
               answer: 3,
-              explain: L("Indigenous cattle and buffaloes cope better with limited feed, water and veterinary care."),
+              explain: L("Indigenous cattle and buffaloes cope better with limited feed, water and veterinary care.", "దేశీ పశువులు, గేదెలు పరిమిత దాణా, నీరు, పశువైద్య సంరక్షణతో బాగా నెట్టుకొస్తాయి."),
             },
           ],
         },
@@ -22141,84 +21883,78 @@ export const MODULES = [
       // ==================================================================
       {
         id: "m20-l2",
-        title: L("Why Indigenous Animals Are So Hardy"),
+        title: L("Why Indigenous Animals Are So Hardy", "దేశీ పశువులు ఎందుకు అంత దృఢంగా ఉంటాయి"),
         estMinutes: 8,
         hook: [
           {
             type: "hero",
-            heading: L("Built for Indian Conditions"),
-            text: L(
-              "Indian cattle (Bos indicus) and buffaloes have lived with India's heat, droughts, ticks and germs for centuries. Natural selection has given them traits that exotic breeds simply don't have. Understanding these strengths — and their limits — helps farmers make sensible breeding and care decisions."
-            ),
+            heading: L("Built for Indian Conditions", "భారతీయ పరిస్థితులకు తగినట్లు తయారైనవి"),
+            text: L("Indian cattle (Bos indicus) and buffaloes have lived with India's heat, droughts, ticks and germs for centuries. Natural selection has given them traits that exotic breeds simply don't have. Understanding these strengths — and their limits — helps farmers make sensible breeding and care decisions.", "భారతీయ పశువులు (బాస్ ఇండికస్), గేదెలు శతాబ్దాలుగా భారతదేశ వేడి, కరువులు, పేలు, క్రిములతో జీవిస్తున్నాయి. సహజ ఎంపిక వాటికి విదేశీ జాతులకు లేని లక్షణాలను ఇచ్చింది. ఈ బలాలను — వాటి పరిమితులను — అర్థం చేసుకుంటే రైతులు వివేకవంతమైన సంతానోత్పత్తి, సంరక్షణ నిర్ణయాలు తీసుకోగలరు."),
           },
         ],
         topics: [
           {
             id: "t-m20-adaptability",
-            title: L("Coping With Heat, Drought and Hardship"),
+            title: L("Coping With Heat, Drought and Hardship", "వేడి, కరువు, కష్టాలను తట్టుకోవడం"),
             teach: [
               {
                 type: "stat-grid",
                 items: [
-                  { label: L("Heat tolerance"), text: L("Indigenous cows cope with temperatures up to about 40.5°C, helped by sleek coats, loose skin, working sweat glands and a low metabolic rate.") },
-                  { label: L("Drought tolerance"), text: L("They make good use of scarce forage and water — e.g. Tharparkar and Ongole.") },
-                  { label: L("Hardiness"), text: L("They need less supplementary feed and intensive care, suiting low-input farming.") },
-                  { label: L("Natural insect repellent"), text: L("Dense sweat and oil glands produce secretions that help keep flies and mosquitoes away; thicker, mobile skin is a physical barrier.") },
-                  { label: L("Buffalo habits"), text: L("Buffaloes wallow and seek shade, which cools them and can reduce external parasites.") },
+                  { label: L("Heat tolerance", "వేడిని తట్టుకోవడం"), text: L("Indigenous cows cope with temperatures up to about 40.5°C, helped by sleek coats, loose skin, working sweat glands and a low metabolic rate.", "దేశీ ఆవులు సుమారు 40.5°C వరకు ఉష్ణోగ్రతలను తట్టుకుంటాయి, నునుపైన వెంట్రుకలు, వదులైన చర్మం, పనిచేసే చెమట గ్రంథులు, తక్కువ జీవక్రియ రేటు దీనికి సహాయపడతాయి.") },
+                  { label: L("Drought tolerance", "కరువును తట్టుకోవడం"), text: L("They make good use of scarce forage and water — e.g. Tharparkar and Ongole.", "అవి కొరతగా ఉన్న మేత, నీటిని బాగా ఉపయోగించుకుంటాయి — ఉదా. థార్‌పార్కర్, ఒంగోలు.") },
+                  { label: L("Hardiness", "దృఢత్వం"), text: L("They need less supplementary feed and intensive care, suiting low-input farming.", "వాటికి తక్కువ అదనపు దాణా, తక్కువ ప్రత్యేక సంరక్షణ అవసరం, తక్కువ పెట్టుబడి వ్యవసాయానికి సరిపోతాయి.") },
+                  { label: L("Natural insect repellent", "సహజ కీటక నివారణ"), text: L("Dense sweat and oil glands produce secretions that help keep flies and mosquitoes away; thicker, mobile skin is a physical barrier.", "దట్టమైన చెమట, నూనె గ్రంథులు ఈగలు, దోమలను దూరంగా ఉంచే స్రావాలను ఉత్పత్తి చేస్తాయి; మందమైన, కదిలే చర్మం భౌతిక అడ్డుగోడ.") },
+                  { label: L("Buffalo habits", "గేదెల అలవాట్లు"), text: L("Buffaloes wallow and seek shade, which cools them and can reduce external parasites.", "గేదెలు బురదలో దొర్లుతాయి, నీడను వెతుకుతాయి, దీనివల్ల అవి చల్లబడతాయి, బాహ్య పరాన్నజీవులు తగ్గవచ్చు.") },
                 ],
               },
             ],
             check: [
               {
                 type: "truefalse",
-                q: L("Indigenous cows' sleek coat, loose skin and functional sweat glands help them lose heat better than exotic breeds."),
+                q: L("Indigenous cows' sleek coat, loose skin and functional sweat glands help them lose heat better than exotic breeds.", "దేశీ ఆవుల నునుపైన వెంట్రుకలు, వదులైన చర్మం, పనిచేసే చెమట గ్రంథులు విదేశీ జాతుల కంటే బాగా వేడిని వదిలించుకోవడానికి సహాయపడతాయి."),
                 answer: true,
-                explain: L("Correct — these features let them tolerate temperatures up to about 40.5°C."),
+                explain: L("Correct — these features let them tolerate temperatures up to about 40.5°C.", "సరైనది — ఈ లక్షణాల వల్ల అవి సుమారు 40.5°C వరకు ఉష్ణోగ్రతలను తట్టుకుంటాయి."),
               },
             ],
           },
           {
             id: "t-m20-disease-resistance",
-            title: L("Natural Disease Resistance — and Its Limits"),
+            title: L("Natural Disease Resistance — and Its Limits", "సహజ వ్యాధి నిరోధకత — దాని పరిమితులు"),
             teach: [
               {
                 type: "stat-grid",
                 items: [
-                  { label: L("Tick-borne diseases"), text: L("Indigenous cattle and buffaloes are far more tolerant of Theileria, Babesia and Anaplasma; crossbreds often get severe disease. Some breeds, like Vechur and Kasaragod Dwarf, carry almost no ticks.") },
-                  { label: L("Mastitis"), text: L("Clinical and sub-clinical mastitis are much less common in indigenous cows than in crossbred and exotic cows.") },
-                  { label: L("Other diseases"), text: L("Indigenous cattle also show better resistance to brucellosis, Johne's disease, TB, leptospirosis and others.") },
-                  { label: L("Buffaloes"), text: L("Generally more resistant to systemic infections; less affected by Lumpy Skin Disease than cattle; tolerant of brucellosis, TB and salmonellosis.") },
+                  { label: L("Tick-borne diseases", "పేల ద్వారా వచ్చే వ్యాధులు"), text: L("Indigenous cattle and buffaloes are far more tolerant of Theileria, Babesia and Anaplasma; crossbreds often get severe disease. Some breeds, like Vechur and Kasaragod Dwarf, carry almost no ticks.", "దేశీ పశువులు, గేదెలు థైలేరియా, బేబీసియా, అనాప్లాస్మాలను చాలా ఎక్కువగా తట్టుకుంటాయి; సంకర జాతులకు తరచుగా తీవ్రమైన వ్యాధి వస్తుంది. వెచూర్, కాసరగోడ్ డ్వార్ఫ్ వంటి కొన్ని జాతులపై దాదాపు పేలు ఉండవు.") },
+                  { label: L("Mastitis", "మాస్టిటిస్"), text: L("Clinical and sub-clinical mastitis are much less common in indigenous cows than in crossbred and exotic cows.", "సంకర జాతి, విదేశీ జాతి ఆవుల కంటే దేశీ ఆవుల్లో క్లినికల్, సబ్-క్లినికల్ మాస్టిటిస్ చాలా తక్కువ.") },
+                  { label: L("Other diseases", "ఇతర వ్యాధులు"), text: L("Indigenous cattle also show better resistance to brucellosis, Johne's disease, TB, leptospirosis and others.", "దేశీ పశువులు బ్రూసెల్లోసిస్, జోన్స్ వ్యాధి, క్షయ, లెప్టోస్పైరోసిస్ మొదలైన వాటికి కూడా మంచి నిరోధకత చూపిస్తాయి.") },
+                  { label: L("Buffaloes", "గేదెలు"), text: L("Generally more resistant to systemic infections; less affected by Lumpy Skin Disease than cattle; tolerant of brucellosis, TB and salmonellosis.", "సాధారణంగా శరీరమంతా వ్యాపించే ఇన్ఫెక్షన్లకు ఎక్కువ నిరోధకత; పశువుల కంటే లంపీ స్కిన్ డిసీజ్ ప్రభావం తక్కువ; బ్రూసెల్లోసిస్, క్షయ, సాల్మొనెల్లోసిస్‌ను తట్టుకుంటాయి.") },
                 ],
               },
               {
                 type: "callout",
                 style: "warning",
-                heading: L("Resistant Is Not the Same as Immune"),
-                text: L(
-                  "No breed is completely immune. All cattle can get Foot-and-Mouth Disease, for example. Indigenous animals still need the same vaccination, biosecurity, good feeding, disease watching and veterinary care as crossbred and exotic animals."
-                ),
+                heading: L("Resistant Is Not the Same as Immune", "నిరోధకత అంటే రోగనిరోధకం (ఇమ్యూన్) కాదు"),
+                text: L("No breed is completely immune. All cattle can get Foot-and-Mouth Disease, for example. Indigenous animals still need the same vaccination, biosecurity, good feeding, disease watching and veterinary care as crossbred and exotic animals.", "ఏ జాతీ పూర్తిగా రోగనిరోధకం కాదు. ఉదాహరణకు, అన్ని పశువులకూ గాలికుంటు వ్యాధి (FMD) రావచ్చు. దేశీ పశువులకు కూడా సంకర జాతి, విదేశీ జాతి పశువులకు లాగానే టీకా, జీవభద్రత, మంచి దాణా, వ్యాధి పర్యవేక్షణ, పశువైద్య సంరక్షణ అవసరం."),
               },
               {
                 type: "text",
-                heading: L("Why Conservation Matters"),
-                html: L(
-                  "Breeding programmes that build on these natural strengths can reduce losses, improve welfare and cut the use of antibiotics. Genomic tools now help identify resistance genes. Conserving indigenous breeds keeps this genetic diversity alive — an important resource as the climate changes."
-                ),
+                heading: L("Why Conservation Matters", "సంరక్షణ ఎందుకు ముఖ్యం"),
+                html: L("Breeding programmes that build on these natural strengths can reduce losses, improve welfare and cut the use of antibiotics. Genomic tools now help identify resistance genes. Conserving indigenous breeds keeps this genetic diversity alive — an important resource as the climate changes.", "ఈ సహజ బలాల ఆధారంగా రూపొందించిన సంతానోత్పత్తి కార్యక్రమాలు నష్టాలను తగ్గించి, సంక్షేమాన్ని మెరుగుపరచి, యాంటీబయాటిక్‌ల వాడకాన్ని తగ్గించగలవు. నిరోధక జన్యువులను గుర్తించడానికి ఇప్పుడు జీనోమిక్ సాధనాలు సహాయపడుతున్నాయి. దేశీ జాతులను కాపాడడం ఈ జన్యు వైవిధ్యాన్ని సజీవంగా ఉంచుతుంది — వాతావరణం మారుతున్న కొద్దీ ఇది ముఖ్యమైన వనరు."),
               },
             ],
             check: [
               {
                 type: "truefalse",
-                q: L("Because indigenous cattle are disease-resistant, they don't need vaccination."),
+                q: L("Because indigenous cattle are disease-resistant, they don't need vaccination.", "దేశీ పశువులకు వ్యాధి నిరోధకత ఉంది కాబట్టి, వాటికి టీకా అవసరం లేదు."),
                 answer: false,
-                explain: L("No — they are not immune. They need the same vaccination and care as other animals."),
+                explain: L("No — they are not immune. They need the same vaccination and care as other animals.", "కాదు — అవి రోగనిరోధకాలు కావు. ఇతర పశువులకు లాగానే వాటికి టీకా, సంరక్షణ అవసరం."),
               },
               {
                 type: "mcq",
-                q: L("Compared with crossbreds, how do indigenous cattle usually respond to Theileria infection?"),
-                options: [L("Much more severe disease"), L("They always die"), L("Theileria doesn't exist in India"), L("Milder disease and better survival")],
+                q: L("Compared with crossbreds, how do indigenous cattle usually respond to Theileria infection?", "సంకర జాతులతో పోలిస్తే, దేశీ పశువులు సాధారణంగా థైలేరియా ఇన్ఫెక్షన్‌కు ఎలా స్పందిస్తాయి?"),
+                options: [L("Much more severe disease", "చాలా తీవ్రమైన వ్యాధి"), L("They always die", "అవి ఎప్పుడూ చనిపోతాయి"), L("Theileria doesn't exist in India", "భారతదేశంలో థైలేరియా లేదు"), L("Milder disease and better survival", "స్వల్ప వ్యాధి, మెరుగైన మనుగడ")],
                 answer: 3,
-                explain: L("Indigenous breeds tend to have milder effects and higher survival rates than crossbreds."),
+                explain: L("Indigenous breeds tend to have milder effects and higher survival rates than crossbreds.", "దేశీ జాతుల్లో సంకర జాతుల కంటే ప్రభావం స్వల్పంగా, మనుగడ రేటు ఎక్కువగా ఉంటుంది."),
               },
             ],
           },
@@ -22229,38 +21965,38 @@ export const MODULES = [
             {
               topicId: "t-m20-adaptability",
               type: "mcq",
-              q: L("Up to roughly what temperature are indigenous cows adapted to thrive?"),
-              options: [L("About 40.5°C"), L("About 10°C"), L("About 60°C"), L("About 0°C")],
+              q: L("Up to roughly what temperature are indigenous cows adapted to thrive?", "దేశీ ఆవులు సుమారు ఎంత ఉష్ణోగ్రత వరకు బాగా జీవించేలా అలవాటు పడ్డాయి?"),
+              options: [L("About 40.5°C", "సుమారు 40.5°C"), L("About 10°C", "సుమారు 10°C"), L("About 60°C", "సుమారు 60°C"), L("About 0°C", "సుమారు 0°C")],
               answer: 0,
-              explain: L("The guideline notes indigenous cows are adapted to temperatures up to about 40.5°C."),
+              explain: L("The guideline notes indigenous cows are adapted to temperatures up to about 40.5°C.", "దేశీ ఆవులు సుమారు 40.5°C వరకు ఉష్ణోగ్రతలకు అలవాటు పడ్డాయని మార్గదర్శకం పేర్కొంటుంది."),
             },
             {
               topicId: "t-m20-adaptability",
               type: "mcq",
-              q: L("Which two breeds does the guideline give as examples of drought- and heat-tolerant cattle?"),
-              options: [L("Tharparkar and Ongole"), L("Holstein and Jersey"), L("Murrah and Surti"), L("None")],
+              q: L("Which two breeds does the guideline give as examples of drought- and heat-tolerant cattle?", "కరువు, వేడిని తట్టుకునే పశువులకు ఉదాహరణగా మార్గదర్శకం ఏ రెండు జాతులను చెబుతుంది?"),
+              options: [L("Tharparkar and Ongole", "థార్‌పార్కర్, ఒంగోలు"), L("Holstein and Jersey", "హోల్‌స్టీన్, జెర్సీ"), L("Murrah and Surti", "ముర్రా, సుర్తి"), L("None", "ఏదీ లేదు")],
               answer: 0,
-              explain: L("Tharparkar and Ongole are known for drought tolerance, heat resistance and disease resistance."),
+              explain: L("Tharparkar and Ongole are known for drought tolerance, heat resistance and disease resistance.", "థార్‌పార్కర్, ఒంగోలు కరువును తట్టుకోవడం, వేడి నిరోధకత, వ్యాధి నిరోధకతకు ప్రసిద్ధి."),
             },
             {
               topicId: "t-m20-disease-resistance",
               type: "truefalse",
-              q: L("Mastitis is generally less common in indigenous cows than in crossbred and exotic cows."),
+              q: L("Mastitis is generally less common in indigenous cows than in crossbred and exotic cows.", "సంకర జాతి, విదేశీ జాతి ఆవుల కంటే దేశీ ఆవుల్లో మాస్టిటిస్ సాధారణంగా తక్కువ."),
               answer: true,
-              explain: L("Yes — linked to lower yields, udder shape and strong immunity in the udder."),
+              explain: L("Yes — linked to lower yields, udder shape and strong immunity in the udder.", "అవును — తక్కువ దిగుబడి, పొదుగు ఆకారం, పొదుగులో బలమైన రోగనిరోధక శక్తితో సంబంధం ఉంది."),
             },
             {
               topicId: "t-m20-disease-resistance",
               type: "mcq",
-              q: L("Which statement about indigenous breeds is correct?"),
+              q: L("Which statement about indigenous breeds is correct?", "దేశీ జాతుల గురించి ఏ వాక్యం సరైనది?"),
               options: [
-                L("They never get any disease"),
-                L("They are more resistant to many local diseases, but not immune"),
-                L("They get more tick fever than exotic cattle"),
-                L("They should not be conserved"),
+                L("They never get any disease", "వాటికి ఎప్పుడూ ఏ వ్యాధీ రాదు"),
+                L("They are more resistant to many local diseases, but not immune", "చాలా స్థానిక వ్యాధులకు వాటికి ఎక్కువ నిరోధకత ఉంది, కానీ రోగనిరోధకాలు కావు"),
+                L("They get more tick fever than exotic cattle", "విదేశీ జాతి పశువుల కంటే వాటికి పేల జ్వరం ఎక్కువ"),
+                L("They should not be conserved", "వాటిని సంరక్షించకూడదు"),
               ],
               answer: 1,
-              explain: L("They have strong natural resistance but still need vaccination, biosecurity and good care."),
+              explain: L("They have strong natural resistance but still need vaccination, biosecurity and good care.", "వాటికి బలమైన సహజ నిరోధకత ఉంది, అయినా టీకా, జీవభద్రత, మంచి సంరక్షణ అవసరం."),
             },
           ],
         },
@@ -22270,8 +22006,8 @@ export const MODULES = [
   {
     id: "m21",
     number: 21,
-    title: L("Farm Records and Cost of Milk"),
-    subtitle: L("Working out what a litre of milk really costs, and keeping the simple records that turn guesswork into good decisions."),
+    title: L("Farm Records and Cost of Milk", "ఫారం రికార్డులు, పాల ఖర్చు"),
+    subtitle: L("Working out what a litre of milk really costs, and keeping the simple records that turn guesswork into good decisions.", "ఒక లీటరు పాలకు నిజంగా ఎంత ఖర్చవుతుందో లెక్కించడం, ఊహను మంచి నిర్ణయాలుగా మార్చే సులభమైన రికార్డులు ఉంచడం."),
     icon: "clipboard",
     available: true,
     lessons: [
@@ -22281,124 +22017,116 @@ export const MODULES = [
       // ==================================================================
       {
         id: "m21-l1",
-        title: L("What Does a Litre of Milk Really Cost?"),
+        title: L("What Does a Litre of Milk Really Cost?", "ఒక లీటరు పాలకు నిజంగా ఎంత ఖర్చవుతుంది?"),
         estMinutes: 8,
         hook: [
           {
             type: "hero",
-            heading: L("Selling Milk Isn't the Same as Making Money"),
-            text: L(
-              "Many farmers know the price they get for a litre of milk, but not what it cost them to produce it. If the cost is higher than the price, every extra litre loses money. Working out the cost per litre is simple arithmetic — and it shows exactly where savings can be made."
-            ),
+            heading: L("Selling Milk Isn't the Same as Making Money", "పాలు అమ్మడం అంటే డబ్బు సంపాదించడం కాదు"),
+            text: L("Many farmers know the price they get for a litre of milk, but not what it cost them to produce it. If the cost is higher than the price, every extra litre loses money. Working out the cost per litre is simple arithmetic — and it shows exactly where savings can be made.", "చాలా మంది రైతులకు ఒక లీటరు పాలకు వచ్చే ధర తెలుసు, కానీ దాన్ని ఉత్పత్తి చేయడానికి ఎంత ఖర్చయిందో తెలియదు. ఖర్చు ధర కంటే ఎక్కువైతే, ప్రతి అదనపు లీటరుతో డబ్బు నష్టమే. లీటరుకు ఖర్చును లెక్కించడం సులభమైన లెక్క — ఎక్కడ పొదుపు చేయవచ్చో అది ఖచ్చితంగా చూపిస్తుంది."),
           },
         ],
         topics: [
           {
             id: "t-m21-cost-parts",
-            title: L("The Parts of Milk Production Cost"),
+            title: L("The Parts of Milk Production Cost", "పాల ఉత్పత్తి ఖర్చులోని భాగాలు"),
             teach: [
               {
                 type: "glossary",
-                term: L("Variable Cost (VC)"),
-                meaning: L("Costs that go up or down with how much the farm produces — feed, fodder, hired labour, veterinary care, electricity, water."),
+                term: L("Variable Cost (VC)", "మారే ఖర్చు (వేరియబుల్ కాస్ట్ - VC)"),
+                meaning: L("Costs that go up or down with how much the farm produces — feed, fodder, hired labour, veterinary care, electricity, water.", "ఫారం ఎంత ఉత్పత్తి చేస్తుందనే దాన్ని బట్టి పెరిగే లేదా తగ్గే ఖర్చులు — దాణా, మేత, కూలీ, పశువైద్య సంరక్షణ, కరెంటు, నీరు."),
               },
               {
                 type: "glossary",
-                term: L("Fixed Cost (FC)"),
-                meaning: L("Costs that stay the same whatever the production — depreciation (wear and loss of value) on animals, sheds and equipment, and interest on money invested."),
+                term: L("Fixed Cost (FC)", "స్థిర ఖర్చు (ఫిక్స్‌డ్ కాస్ట్ - FC)"),
+                meaning: L("Costs that stay the same whatever the production — depreciation (wear and loss of value) on animals, sheds and equipment, and interest on money invested.", "ఉత్పత్తి ఎంత ఉన్నా మారని ఖర్చులు — పశువులు, షెడ్‌లు, పరికరాలపై తరుగుదల (అరుగుదల, విలువ తగ్గడం), పెట్టుబడి పెట్టిన డబ్బుపై వడ్డీ."),
               },
               {
                 type: "text",
-                heading: L("The Formula"),
-                html: L(
-                  "<b>Total Cost = Variable Cost + Fixed Cost</b><br><b>Cost per litre = Total Cost ÷ Total litres produced</b> in the same period.<br><br>Feed and fodder usually make up <b>60–70%</b> of the total cost. Family labour — often women's work — is a real cost too, even if no wage is paid."
-                ),
+                heading: L("The Formula", "సూత్రం"),
+                html: L("<b>Total Cost = Variable Cost + Fixed Cost</b><br><b>Cost per litre = Total Cost ÷ Total litres produced</b> in the same period.<br><br>Feed and fodder usually make up <b>60–70%</b> of the total cost. Family labour — often women's work — is a real cost too, even if no wage is paid.", "<b>మొత్తం ఖర్చు = మారే ఖర్చు + స్థిర ఖర్చు</b><br><b>లీటరుకు ఖర్చు = మొత్తం ఖర్చు ÷ అదే కాలంలో ఉత్పత్తి చేసిన మొత్తం లీటర్లు</b><br><br>దాణా, మేత సాధారణంగా మొత్తం ఖర్చులో <b>60–70%</b> ఉంటాయి. కుటుంబ శ్రమ — తరచుగా మహిళల పని — కూలీ చెల్లించకపోయినా, అది కూడా నిజమైన ఖర్చే."),
               },
               {
                 type: "ledger",
-                heading: L("Example: A Farmer With 2 Cows, One Month"),
+                heading: L("Example: A Farmer With 2 Cows, One Month", "ఉదాహరణ: 2 ఆవులు ఉన్న రైతు, ఒక నెల"),
                 rows: [
-                  { label: L("Feed and fodder"), amount: "₹3,000" },
-                  { label: L("Labour (family / hired)"), amount: "₹2,000" },
-                  { label: L("Veterinary care and medicines"), amount: "₹500" },
-                  { label: L("Utilities (water, electricity)"), amount: "₹300" },
-                  { label: L("Repairs and maintenance"), amount: "₹200" },
-                  { label: L("Depreciation (animals, shed, equipment)"), amount: "₹500" },
+                  { label: L("Feed and fodder", "దాణా, మేత"), amount: "₹3,000" },
+                  { label: L("Labour (family / hired)", "శ్రమ (కుటుంబం / కూలీ)"), amount: "₹2,000" },
+                  { label: L("Veterinary care and medicines", "పశువైద్య సంరక్షణ, మందులు"), amount: "₹500" },
+                  { label: L("Utilities (water, electricity)", "సౌకర్యాలు (నీరు, కరెంటు)"), amount: "₹300" },
+                  { label: L("Repairs and maintenance", "మరమ్మతులు, నిర్వహణ"), amount: "₹200" },
+                  { label: L("Depreciation (animals, shed, equipment)", "తరుగుదల (పశువులు, షెడ్, పరికరాలు)"), amount: "₹500" },
                 ],
-                total: { label: L("Total monthly cost"), amount: "₹6,500" },
+                total: { label: L("Total monthly cost", "మొత్తం నెలవారీ ఖర్చు"), amount: "₹6,500" },
               },
               {
                 type: "example",
-                heading: L("Working Out the Cost per Litre"),
-                text: L(
-                  "The two cows give 8 litres a day together. In 30 days: 8 × 30 = 240 litres. Cost per litre = ₹6,500 ÷ 240 = about ₹27.08. If the farmer is paid ₹35 a litre, the margin is about ₹7.92 a litre; if paid ₹25, they are losing about ₹2 on every litre."
-                ),
+                heading: L("Working Out the Cost per Litre", "లీటరుకు ఖర్చును లెక్కించడం"),
+                text: L("The two cows give 8 litres a day together. In 30 days: 8 × 30 = 240 litres. Cost per litre = ₹6,500 ÷ 240 = about ₹27.08. If the farmer is paid ₹35 a litre, the margin is about ₹7.92 a litre; if paid ₹25, they are losing about ₹2 on every litre.", "రెండు ఆవులు కలిపి రోజుకు 8 లీటర్లు ఇస్తాయి. 30 రోజుల్లో: 8 × 30 = 240 లీటర్లు. లీటరుకు ఖర్చు = ₹6,500 ÷ 240 = సుమారు ₹27.08. రైతుకు లీటరుకు ₹35 చెల్లిస్తే, లాభం లీటరుకు సుమారు ₹7.92; ₹25 చెల్లిస్తే, ప్రతి లీటరుపై సుమారు ₹2 నష్టపోతున్నారు."),
               },
             ],
             check: [
               {
                 type: "mcq",
-                q: L("Which of these is a variable cost?"),
-                options: [L("Depreciation on the shed"), L("Feed and fodder"), L("Interest on a loan for the shed"), L("None of these")],
+                q: L("Which of these is a variable cost?", "వీటిలో మారే ఖర్చు ఏది?"),
+                options: [L("Depreciation on the shed", "షెడ్‌పై తరుగుదల"), L("Feed and fodder", "దాణా, మేత"), L("Interest on a loan for the shed", "షెడ్ కోసం తీసుకున్న రుణంపై వడ్డీ"), L("None of these", "ఇవేవీ కాదు")],
                 answer: 1,
-                explain: L("Feed and fodder change with production, so they are variable costs. Depreciation and interest are fixed costs."),
+                explain: L("Feed and fodder change with production, so they are variable costs. Depreciation and interest are fixed costs.", "దాణా, మేత ఉత్పత్తిని బట్టి మారుతాయి, కాబట్టి అవి మారే ఖర్చులు. తరుగుదల, వడ్డీ స్థిర ఖర్చులు."),
               },
               {
                 type: "mcq",
-                q: L("A farm spends ₹9,000 in a month and produces 300 litres. What is the cost per litre?"),
+                q: L("A farm spends ₹9,000 in a month and produces 300 litres. What is the cost per litre?", "ఒక ఫారం నెలలో ₹9,000 ఖర్చు చేసి 300 లీటర్లు ఉత్పత్తి చేస్తుంది. లీటరుకు ఖర్చు ఎంత?"),
                 options: [L("₹3"), L("₹300"), L("₹90"), L("₹30")],
                 answer: 3,
-                explain: L("₹9,000 ÷ 300 litres = ₹30 per litre."),
+                explain: L("₹9,000 ÷ 300 litres = ₹30 per litre.", "₹9,000 ÷ 300 లీటర్లు = లీటరుకు ₹30."),
               },
             ],
           },
           {
             id: "t-m21-cut-cost",
-            title: L("Break-Even and Ways to Cut the Cost"),
+            title: L("Break-Even and Ways to Cut the Cost", "బ్రేక్-ఈవెన్, ఖర్చు తగ్గించే మార్గాలు"),
             teach: [
               {
                 type: "glossary",
-                term: L("Break-Even Point (BEP)"),
-                meaning: L("The minimum quantity of milk that must be produced and sold, at a given price, to cover all costs — with neither profit nor loss."),
+                term: L("Break-Even Point (BEP)", "బ్రేక్-ఈవెన్ పాయింట్ (BEP)"),
+                meaning: L("The minimum quantity of milk that must be produced and sold, at a given price, to cover all costs — with neither profit nor loss.", "ఒక నిర్దిష్ట ధర వద్ద, లాభం లేకుండా నష్టం లేకుండా, అన్ని ఖర్చులను భరించడానికి ఉత్పత్తి చేసి అమ్మాల్సిన కనీస పాల పరిమాణం."),
               },
               {
                 type: "stat-grid",
                 items: [
-                  { label: L("Balance the ration"), text: L("Ration balancing improves feed efficiency and animal health.") },
-                  { label: L("Raise yield"), text: L("Better genetics and management spread the same fixed costs over more litres.") },
-                  { label: L("Cheaper fodder"), text: L("Grow green fodder, or join community fodder farms.") },
-                  { label: L("Prevent, don't cure"), text: L("Vaccination, deworming and early disease detection cut vet bills.") },
-                  { label: L("Use labour well"), text: L("Train family and hired workers and plan their time.") },
-                  { label: L("Keep records"), text: L("You can only cut costs you can see.") },
+                  { label: L("Balance the ration", "రేషన్‌ను సమతుల్యం చేయండి"), text: L("Ration balancing improves feed efficiency and animal health.", "రేషన్ బ్యాలెన్సింగ్ దాణా సామర్థ్యాన్ని, పశువుల ఆరోగ్యాన్ని మెరుగుపరుస్తుంది.") },
+                  { label: L("Raise yield", "దిగుబడి పెంచండి"), text: L("Better genetics and management spread the same fixed costs over more litres.", "మెరుగైన జన్యువులు, నిర్వహణ అదే స్థిర ఖర్చులను ఎక్కువ లీటర్లపై పంచుతాయి.") },
+                  { label: L("Cheaper fodder", "చౌకైన మేత"), text: L("Grow green fodder, or join community fodder farms.", "పచ్చి మేత పండించండి, లేదా సామూహిక మేత క్షేత్రాల్లో చేరండి.") },
+                  { label: L("Prevent, don't cure", "నివారించండి, నయం చేయడం కాదు"), text: L("Vaccination, deworming and early disease detection cut vet bills.", "టీకా, నట్టల నివారణ, వ్యాధిని ముందుగా గుర్తించడం పశువైద్య ఖర్చులను తగ్గిస్తాయి.") },
+                  { label: L("Use labour well", "శ్రమను బాగా వాడండి"), text: L("Train family and hired workers and plan their time.", "కుటుంబ సభ్యులు, కూలీలకు శిక్షణ ఇచ్చి వారి సమయాన్ని ప్రణాళిక చేయండి.") },
+                  { label: L("Keep records", "రికార్డులు ఉంచండి"), text: L("You can only cut costs you can see.", "మీకు కనిపించే ఖర్చులనే తగ్గించగలరు.") },
                 ],
               },
               {
                 type: "callout",
                 style: "tip",
-                heading: L("Other Useful Numbers"),
-                text: L(
-                  "Fodder cost per litre and the feed-to-variable-cost ratio show how efficiently feed is being turned into milk. Return on investment (ROI) helps decide whether buying more animals or equipment will pay off."
-                ),
+                heading: L("Other Useful Numbers", "ఇతర ఉపయోగకరమైన సంఖ్యలు"),
+                text: L("Fodder cost per litre and the feed-to-variable-cost ratio show how efficiently feed is being turned into milk. Return on investment (ROI) helps decide whether buying more animals or equipment will pay off.", "లీటరుకు మేత ఖర్చు, దాణా-మారే ఖర్చు నిష్పత్తి దాణా ఎంత సమర్థవంతంగా పాలుగా మారుతోందో చూపిస్తాయి. ఎక్కువ పశువులు లేదా పరికరాలు కొనడం లాభిస్తుందో లేదో నిర్ణయించడానికి పెట్టుబడిపై రాబడి (ROI) సహాయపడుతుంది."),
               },
             ],
             check: [
               {
                 type: "truefalse",
-                q: L("At the break-even point, the farm makes neither a profit nor a loss."),
+                q: L("At the break-even point, the farm makes neither a profit nor a loss.", "బ్రేక్-ఈవెన్ పాయింట్ వద్ద, ఫారానికి లాభమూ రాదు, నష్టమూ రాదు."),
                 answer: true,
-                explain: L("Correct — it's the minimum milk sold at a given price that covers all costs."),
+                explain: L("Correct — it's the minimum milk sold at a given price that covers all costs.", "సరైనది — ఒక నిర్దిష్ట ధర వద్ద అన్ని ఖర్చులను భరించే కనీస పాల అమ్మకం అది."),
               },
               {
                 type: "mcq",
-                q: L("Why does higher milk yield usually lower the cost per litre?"),
+                q: L("Why does higher milk yield usually lower the cost per litre?", "ఎక్కువ పాల దిగుబడి సాధారణంగా లీటరుకు ఖర్చును ఎందుకు తగ్గిస్తుంది?"),
                 options: [
-                  L("Feed becomes free"),
-                  L("The milk price goes down"),
-                  L("It doesn't change the cost per litre"),
-                  L("Fixed costs are spread over more litres"),
+                  L("Feed becomes free", "దాణా ఉచితం అవుతుంది"),
+                  L("The milk price goes down", "పాల ధర తగ్గుతుంది"),
+                  L("It doesn't change the cost per litre", "లీటరుకు ఖర్చును అది మార్చదు"),
+                  L("Fixed costs are spread over more litres", "స్థిర ఖర్చులు ఎక్కువ లీటర్లపై పంచబడతాయి"),
                 ],
                 answer: 3,
-                explain: L("Fixed costs stay the same, so more litres means less fixed cost per litre."),
+                explain: L("Fixed costs stay the same, so more litres means less fixed cost per litre.", "స్థిర ఖర్చులు అలాగే ఉంటాయి, కాబట్టి ఎక్కువ లీటర్లు అంటే లీటరుకు తక్కువ స్థిర ఖర్చు."),
               },
             ],
           },
@@ -22409,33 +22137,33 @@ export const MODULES = [
             {
               topicId: "t-m21-cost-parts",
               type: "mcq",
-              q: L("Roughly what share of milk production cost is usually feed and fodder?"),
+              q: L("Roughly what share of milk production cost is usually feed and fodder?", "పాల ఉత్పత్తి ఖర్చులో సాధారణంగా దాణా, మేత సుమారు ఎంత వంతు?"),
               options: [L("5%"), L("60–70%"), L("100%"), L("20%")],
               answer: 1,
-              explain: L("Feed and fodder make up over 60–70% of the total cost."),
+              explain: L("Feed and fodder make up over 60–70% of the total cost.", "దాణా, మేత మొత్తం ఖర్చులో 60–70% పైగా ఉంటాయి."),
             },
             {
               topicId: "t-m21-cost-parts",
               type: "mcq",
-              q: L("Two cows give 10 litres a day together and the monthly cost is ₹7,500. What is the cost per litre (30 days)?"),
+              q: L("Two cows give 10 litres a day together and the monthly cost is ₹7,500. What is the cost per litre (30 days)?", "రెండు ఆవులు కలిపి రోజుకు 10 లీటర్లు ఇస్తాయి, నెలవారీ ఖర్చు ₹7,500. లీటరుకు ఖర్చు ఎంత (30 రోజులు)?"),
               options: [L("₹25"), L("₹75"), L("₹250"), L("₹7.50")],
               answer: 0,
-              explain: L("10 × 30 = 300 litres; ₹7,500 ÷ 300 = ₹25 per litre."),
+              explain: L("10 × 30 = 300 litres; ₹7,500 ÷ 300 = ₹25 per litre.", "10 × 30 = 300 లీటర్లు; ₹7,500 ÷ 300 = లీటరుకు ₹25."),
             },
             {
               topicId: "t-m21-cost-parts",
               type: "truefalse",
-              q: L("Unpaid family labour should be ignored when working out the cost of milk."),
+              q: L("Unpaid family labour should be ignored when working out the cost of milk.", "పాల ఖర్చు లెక్కించేటప్పుడు కూలీ లేని కుటుంబ శ్రమను పట్టించుకోనవసరం లేదు."),
               answer: false,
-              explain: L("No — family labour is a real part of the cost, even when no wage is paid."),
+              explain: L("No — family labour is a real part of the cost, even when no wage is paid.", "కాదు — కూలీ చెల్లించకపోయినా, కుటుంబ శ్రమ ఖర్చులో నిజమైన భాగం."),
             },
             {
               topicId: "t-m21-cut-cost",
               type: "mcq",
-              q: L("Which of these is a recommended way to reduce cost per litre?"),
-              options: [L("Skipping vaccination"), L("Stopping all record keeping"), L("Feeding spoiled feed"), L("Ration balancing and growing green fodder")],
+              q: L("Which of these is a recommended way to reduce cost per litre?", "వీటిలో లీటరుకు ఖర్చు తగ్గించడానికి సిఫార్సు చేయబడిన మార్గం ఏది?"),
+              options: [L("Skipping vaccination", "టీకా మానేయడం"), L("Stopping all record keeping", "రికార్డులు ఉంచడం పూర్తిగా ఆపేయడం"), L("Feeding spoiled feed", "చెడిపోయిన దాణా పెట్టడం"), L("Ration balancing and growing green fodder", "రేషన్ బ్యాలెన్సింగ్, పచ్చి మేత పండించడం")],
               answer: 3,
-              explain: L("Ration balancing, home-grown fodder, preventive health care and good records all reduce cost per litre."),
+              explain: L("Ration balancing, home-grown fodder, preventive health care and good records all reduce cost per litre.", "రేషన్ బ్యాలెన్సింగ్, ఇంట్లో పండించిన మేత, నివారణ ఆరోగ్య సంరక్షణ, మంచి రికార్డులు అన్నీ లీటరుకు ఖర్చును తగ్గిస్తాయి."),
             },
           ],
         },
@@ -22446,97 +22174,89 @@ export const MODULES = [
       // ==================================================================
       {
         id: "m21-l2",
-        title: L("Keeping Good Farm Records"),
+        title: L("Keeping Good Farm Records", "మంచి ఫారం రికార్డులు ఉంచడం"),
         estMinutes: 8,
         hook: [
           {
             type: "hero",
-            heading: L("From Guesswork to Good Decisions"),
-            text: L(
-              "Which cow should be culled? Is the new feed working? When is the next vaccine due? Without records, every answer is a guess. Good records — even in a simple notebook — let the farmer, the vet and you see patterns and act in time."
-            ),
+            heading: L("From Guesswork to Good Decisions", "ఊహ నుండి మంచి నిర్ణయాల వైపు"),
+            text: L("Which cow should be culled? Is the new feed working? When is the next vaccine due? Without records, every answer is a guess. Good records — even in a simple notebook — let the farmer, the vet and you see patterns and act in time.", "ఏ ఆవును తొలగించాలి? కొత్త దాణా పనిచేస్తోందా? తర్వాతి టీకా ఎప్పుడు? రికార్డులు లేకపోతే ప్రతి సమాధానం ఊహే. మంచి రికార్డులు — సాధారణ నోట్‌బుక్‌లో అయినా — రైతు, పశువైద్యుడు, మీరు నమూనాలను చూసి సమయానికి చర్య తీసుకోవడానికి సహాయపడతాయి."),
           },
         ],
         topics: [
           {
             id: "t-m21-record-types",
-            title: L("What to Record"),
+            title: L("What to Record", "ఏమి నమోదు చేయాలి"),
             teach: [
               {
                 type: "stat-grid",
                 items: [
-                  { label: L("Identification"), text: L("Animal ID / tag, breed, sex, date of birth, sire and dam, purchase or sale details.") },
-                  { label: L("Breeding"), text: L("Heat dates, service dates, bull or semen used, AI or natural, pregnancy check result, calving date and calf details.") },
-                  { label: L("Milk"), text: L("Morning and evening yield per animal, fat and SNF %, drying-off date, lactation length.") },
-                  { label: L("Health"), text: L("Disease, symptoms, diagnosis, drug and dose, vet's name, withdrawal period, recovery.") },
-                  { label: L("Vaccination and deworming"), text: L("Date, vaccine or dewormer, disease prevented, dose, maker, next due date, given by.") },
-                  { label: L("Feeding"), text: L("Group, feed type, quantity, number of animals, feed cost.") },
-                  { label: L("Calves"), text: L("Birth weight, colostrum given, growth, weaning, vaccinations, deaths.") },
-                  { label: L("Money"), text: L("Milk and animal sales, all expenses, labour, loans — and a monthly summary of income, costs and profit.") },
+                  { label: L("Identification", "గుర్తింపు"), text: L("Animal ID / tag, breed, sex, date of birth, sire and dam, purchase or sale details.", "పశువు ID / ట్యాగ్, జాతి, లింగం, పుట్టిన తేదీ, తండ్రి, తల్లి, కొనుగోలు లేదా అమ్మకం వివరాలు.") },
+                  { label: L("Breeding", "సంతానోత్పత్తి"), text: L("Heat dates, service dates, bull or semen used, AI or natural, pregnancy check result, calving date and calf details.", "ఎద తేదీలు, సర్వీస్ తేదీలు, వాడిన ఆబోతు లేదా వీర్యం, AI లేదా సహజ సంయోగం, చూడి పరీక్ష ఫలితం, ఈత తేదీ, దూడ వివరాలు.") },
+                  { label: L("Milk", "పాలు"), text: L("Morning and evening yield per animal, fat and SNF %, drying-off date, lactation length.", "ఒక్కో పశువుకు ఉదయం, సాయంత్రం దిగుబడి, వెన్న, SNF %, పాలు మాన్పించిన తేదీ, పాలిచ్చే కాలం పొడవు.") },
+                  { label: L("Health", "ఆరోగ్యం"), text: L("Disease, symptoms, diagnosis, drug and dose, vet's name, withdrawal period, recovery.", "వ్యాధి, లక్షణాలు, నిర్ధారణ, మందు, మోతాదు, పశువైద్యుని పేరు, విత్‌డ్రాయల్ కాలం, కోలుకోవడం.") },
+                  { label: L("Vaccination and deworming", "టీకా, నట్టల నివారణ"), text: L("Date, vaccine or dewormer, disease prevented, dose, maker, next due date, given by.", "తేదీ, టీకా లేదా నట్టల మందు, నివారించిన వ్యాధి, మోతాదు, తయారీదారు, తర్వాతి తేదీ, ఎవరు ఇచ్చారు.") },
+                  { label: L("Feeding", "దాణా"), text: L("Group, feed type, quantity, number of animals, feed cost.", "గుంపు, దాణా రకం, పరిమాణం, పశువుల సంఖ్య, దాణా ఖర్చు.") },
+                  { label: L("Calves", "దూడలు"), text: L("Birth weight, colostrum given, growth, weaning, vaccinations, deaths.", "పుట్టుక బరువు, ఇచ్చిన జున్ను, పెరుగుదల, పాలు మాన్పించడం, టీకాలు, మరణాలు.") },
+                  { label: L("Money", "డబ్బు"), text: L("Milk and animal sales, all expenses, labour, loans — and a monthly summary of income, costs and profit.", "పాలు, పశువుల అమ్మకాలు, అన్ని ఖర్చులు, శ్రమ, రుణాలు — ఆదాయం, ఖర్చులు, లాభం నెలవారీ సారాంశం.") },
                 ],
               },
               {
                 type: "callout",
                 style: "info",
-                heading: L("What Records Make Possible"),
-                text: L(
-                  "Records are the basis for judging each animal, choosing which to keep or cull, planning breeding, progeny testing of bulls, economic feeding, pricing animals for sale, insurance claims, quality and traceability requirements, and working out the cost of milk."
-                ),
+                heading: L("What Records Make Possible", "రికార్డుల వల్ల ఏమి సాధ్యమవుతుంది"),
+                text: L("Records are the basis for judging each animal, choosing which to keep or cull, planning breeding, progeny testing of bulls, economic feeding, pricing animals for sale, insurance claims, quality and traceability requirements, and working out the cost of milk.", "ప్రతి పశువును అంచనా వేయడానికి, ఏవి ఉంచాలో ఏవి తొలగించాలో ఎంచుకోవడానికి, సంతానోత్పత్తి ప్రణాళికకు, ఆబోతుల ప్రొజెనీ టెస్టింగ్‌కు, పొదుపైన దాణాకు, అమ్మకానికి పశువుల ధర నిర్ణయించడానికి, బీమా క్లెయిమ్‌లకు, నాణ్యత, ట్రేసబిలిటీ అవసరాలకు, పాల ఖర్చు లెక్కించడానికి రికార్డులే ఆధారం."),
               },
             ],
             check: [
               {
                 type: "mcq",
-                q: L("Which detail belongs in a health and treatment record?"),
-                options: [L("The colour of the shed"), L("The neighbour's name"), L("The weather"), L("The milk withdrawal period of the drug used")],
+                q: L("Which detail belongs in a health and treatment record?", "ఆరోగ్య, చికిత్స రికార్డులో ఏ వివరం ఉండాలి?"),
+                options: [L("The colour of the shed", "షెడ్ రంగు"), L("The neighbour's name", "పొరుగువారి పేరు"), L("The weather", "వాతావరణం"), L("The milk withdrawal period of the drug used", "వాడిన మందు పాల విత్‌డ్రాయల్ కాలం")],
                 answer: 3,
-                explain: L("Health records should include the drug, dose, vet, withdrawal period and recovery status."),
+                explain: L("Health records should include the drug, dose, vet, withdrawal period and recovery status.", "ఆరోగ్య రికార్డుల్లో మందు, మోతాదు, పశువైద్యుడు, విత్‌డ్రాయల్ కాలం, కోలుకున్న స్థితి ఉండాలి."),
               },
               {
                 type: "truefalse",
-                q: L("Breeding records help work out services per conception and identify animals with poor fertility."),
+                q: L("Breeding records help work out services per conception and identify animals with poor fertility.", "సంతానోత్పత్తి రికార్డులు ఒక్కో చూడికి సర్వీసులను లెక్కించడానికి, సంతానోత్పత్తి తక్కువగా ఉన్న పశువులను గుర్తించడానికి సహాయపడతాయి."),
                 answer: true,
-                explain: L("Yes — breeding and calving registers show services per conception and help in culling poor breeders."),
+                explain: L("Yes — breeding and calving registers show services per conception and help in culling poor breeders.", "అవును — సంతానోత్పత్తి, ఈత రిజిస్టర్లు ఒక్కో చూడికి సర్వీసులను చూపించి, సరిగా చూడి కట్టని వాటిని తొలగించడంలో సహాయపడతాయి."),
               },
             ],
           },
           {
             id: "t-m21-record-practice",
-            title: L("How to Keep Records Well"),
+            title: L("How to Keep Records Well", "రికార్డులను బాగా ఎలా ఉంచాలి"),
             teach: [
               {
                 type: "stat-grid",
                 items: [
-                  { label: L("Same day"), text: L("Record every event on the day it happens.") },
-                  { label: L("Accurate"), text: L("Exact quantities, dates and names — no guessing.") },
-                  { label: L("Simple"), text: L("Formats that suit the workers' literacy — pictures or voice apps can help.") },
-                  { label: L("Safe"), text: L("Keep a backup and protect registers from damage.") },
-                  { label: L("Use them"), text: L("Review records regularly to improve feeding, management and culling decisions.") },
-                  { label: L("Teach"), text: L("Show workers and family members how and why to record.") },
+                  { label: L("Same day", "అదే రోజు"), text: L("Record every event on the day it happens.", "ప్రతి సంఘటనను అది జరిగిన రోజే నమోదు చేయండి.") },
+                  { label: L("Accurate", "ఖచ్చితంగా"), text: L("Exact quantities, dates and names — no guessing.", "ఖచ్చితమైన పరిమాణాలు, తేదీలు, పేర్లు — ఊహలు వద్దు.") },
+                  { label: L("Simple", "సులభంగా"), text: L("Formats that suit the workers' literacy — pictures or voice apps can help.", "పనివారి అక్షరాస్యతకు సరిపోయే ఫార్మాట్లు — చిత్రాలు లేదా వాయిస్ యాప్‌లు సహాయపడతాయి.") },
+                  { label: L("Safe", "సురక్షితంగా"), text: L("Keep a backup and protect registers from damage.", "బ్యాకప్ ఉంచి, రిజిస్టర్లు పాడవకుండా కాపాడండి.") },
+                  { label: L("Use them", "వాటిని వాడండి"), text: L("Review records regularly to improve feeding, management and culling decisions.", "దాణా, నిర్వహణ, తొలగింపు నిర్ణయాలను మెరుగుపరచడానికి రికార్డులను క్రమం తప్పకుండా సమీక్షించండి.") },
+                  { label: L("Teach", "నేర్పించండి"), text: L("Show workers and family members how and why to record.", "ఎలా, ఎందుకు నమోదు చేయాలో పనివారికి, కుటుంబ సభ్యులకు చూపించండి.") },
                 ],
               },
               {
                 type: "text",
-                heading: L("Notebook, Chart or App?"),
-                html: L(
-                  "Small farms do well with <b>simple registers</b> or printed <b>herd cards and wall charts</b>. Spreadsheets help on growing farms, and dairy <b>apps</b> add reminders and dashboards. For tagged animals, services recorded in <b>Bharat Pashudhan</b> can be seen by the farmer in the <b>1962 app</b> (see Module 17)."
-                ),
+                heading: L("Notebook, Chart or App?", "నోట్‌బుక్, చార్ట్ లేదా యాప్?"),
+                html: L("Small farms do well with <b>simple registers</b> or printed <b>herd cards and wall charts</b>. Spreadsheets help on growing farms, and dairy <b>apps</b> add reminders and dashboards. For tagged animals, services recorded in <b>Bharat Pashudhan</b> can be seen by the farmer in the <b>1962 app</b> (see Module 17).", "చిన్న ఫారాలకు <b>సాధారణ రిజిస్టర్లు</b> లేదా ప్రింట్ చేసిన <b>మంద కార్డులు, గోడ చార్టులు</b> బాగా పనిచేస్తాయి. పెరుగుతున్న ఫారాలకు స్ప్రెడ్‌షీట్లు సహాయపడతాయి, పాడి <b>యాప్‌లు</b> రిమైండర్లు, డాష్‌బోర్డులను జోడిస్తాయి. ట్యాగ్ వేసిన పశువులకు, <b>భారత్ పశుధన్‌</b>లో నమోదైన సేవలను రైతు <b>1962 యాప్‌</b>లో చూడవచ్చు (మాడ్యూల్ 17 చూడండి)."),
               },
               {
                 type: "callout",
                 style: "info",
-                heading: L("Common Challenges"),
-                text: L(
-                  "Low literacy or digital skills, no standard formats, poor phone or computer access, selling milk to several buyers, and records that are kept but never used. Training, local-language and pictorial apps, and showing farmers the benefits all help."
-                ),
+                heading: L("Common Challenges", "సాధారణ సవాళ్ళు"),
+                text: L("Low literacy or digital skills, no standard formats, poor phone or computer access, selling milk to several buyers, and records that are kept but never used. Training, local-language and pictorial apps, and showing farmers the benefits all help.", "తక్కువ అక్షరాస్యత లేదా డిజిటల్ నైపుణ్యాలు, ప్రామాణిక ఫార్మాట్లు లేకపోవడం, ఫోన్ లేదా కంప్యూటర్ అందుబాటు తక్కువ, చాలా మంది కొనుగోలుదారులకు పాలు అమ్మడం, ఉంచినా ఎప్పుడూ వాడని రికార్డులు. శిక్షణ, స్థానిక భాష, చిత్రాల యాప్‌లు, రైతులకు ప్రయోజనాలను చూపించడం అన్నీ సహాయపడతాయి."),
               },
             ],
             check: [
               {
                 type: "truefalse",
-                q: L("It's fine to write up a week's events from memory at the weekend."),
+                q: L("It's fine to write up a week's events from memory at the weekend.", "వారం రోజుల సంఘటనలను వారాంతంలో జ్ఞాపకం నుండి రాయడం పర్వాలేదు."),
                 answer: false,
-                explain: L("No — record every event on the same day for accuracy."),
+                explain: L("No — record every event on the same day for accuracy.", "కాదు — ఖచ్చితత్వం కోసం ప్రతి సంఘటనను అదే రోజు నమోదు చేయండి."),
               },
             ],
           },
@@ -22547,38 +22267,38 @@ export const MODULES = [
             {
               topicId: "t-m21-record-types",
               type: "mcq",
-              q: L("Which record would show a cow's morning and evening yield and fat %?"),
-              options: [L("Milk production record"), L("Labour record"), L("Feed purchase record"), L("Animal identification record")],
+              q: L("Which record would show a cow's morning and evening yield and fat %?", "ఆవు ఉదయం, సాయంత్రం దిగుబడి, వెన్న %ను ఏ రికార్డు చూపిస్తుంది?"),
+              options: [L("Milk production record", "పాల ఉత్పత్తి రికార్డు"), L("Labour record", "శ్రమ రికార్డు"), L("Feed purchase record", "దాణా కొనుగోలు రికార్డు"), L("Animal identification record", "పశువుల గుర్తింపు రికార్డు")],
               answer: 0,
-              explain: L("Milk production records hold daily yields per animal, fat and SNF %, and drying-off dates."),
+              explain: L("Milk production records hold daily yields per animal, fat and SNF %, and drying-off dates.", "పాల ఉత్పత్తి రికార్డుల్లో ఒక్కో పశువు రోజువారీ దిగుబడులు, వెన్న, SNF %, పాలు మాన్పించిన తేదీలు ఉంటాయి."),
             },
             {
               topicId: "t-m21-record-types",
               type: "mcq",
-              q: L("A vaccination record should include:"),
-              options: [L("The milk price"), L("The next due date"), L("The calf's colour"), L("Nothing — vaccination needn't be recorded")],
+              q: L("A vaccination record should include:", "టీకా రికార్డులో ఉండాల్సినవి:"),
+              options: [L("The milk price", "పాల ధర"), L("The next due date", "తర్వాతి తేదీ"), L("The calf's colour", "దూడ రంగు"), L("Nothing — vaccination needn't be recorded", "ఏమీ వద్దు — టీకాను నమోదు చేయనవసరం లేదు")],
               answer: 1,
-              explain: L("Recording the next due date makes sure booster doses aren't missed."),
+              explain: L("Recording the next due date makes sure booster doses aren't missed.", "తర్వాతి తేదీని నమోదు చేస్తే బూస్టర్ డోసులు తప్పిపోవు."),
             },
             {
               topicId: "t-m21-record-practice",
               type: "mcq",
-              q: L("What is the main point of keeping farm records?"),
+              q: L("What is the main point of keeping farm records?", "ఫారం రికార్డులు ఉంచడంలో ప్రధాన ఉద్దేశం ఏమిటి?"),
               options: [
-                L("Only to show inspectors"),
-                L("To fill up notebooks"),
-                L("There is no real point"),
-                L("To review them and make better feeding, breeding, health and culling decisions"),
+                L("Only to show inspectors", "తనిఖీ అధికారులకు చూపించడానికి మాత్రమే"),
+                L("To fill up notebooks", "నోట్‌బుక్‌లు నింపడానికి"),
+                L("There is no real point", "నిజమైన ఉద్దేశం లేదు"),
+                L("To review them and make better feeding, breeding, health and culling decisions", "వాటిని సమీక్షించి మెరుగైన దాణా, సంతానోత్పత్తి, ఆరోగ్య, తొలగింపు నిర్ణయాలు తీసుకోవడానికి"),
               ],
               answer: 3,
-              explain: L("Records turn guesswork into informed decisions — but only if they are reviewed and used."),
+              explain: L("Records turn guesswork into informed decisions — but only if they are reviewed and used.", "రికార్డులు ఊహను సమాచారంతో కూడిన నిర్ణయాలుగా మారుస్తాయి — కానీ వాటిని సమీక్షించి వాడితేనే."),
             },
             {
               topicId: "t-m21-record-practice",
               type: "truefalse",
-              q: L("Simple paper registers can work well on small farms."),
+              q: L("Simple paper registers can work well on small farms.", "సాధారణ కాగితపు రిజిస్టర్లు చిన్న ఫారాల్లో బాగా పనిచేస్తాయి."),
               answer: true,
-              explain: L("Yes — notebooks and registers still work well on small farms; apps add value as farms grow."),
+              explain: L("Yes — notebooks and registers still work well on small farms; apps add value as farms grow.", "అవును — చిన్న ఫారాల్లో నోట్‌బుక్‌లు, రిజిస్టర్లు ఇప్పటికీ బాగా పనిచేస్తాయి; ఫారాలు పెరిగేకొద్దీ యాప్‌లు విలువను జోడిస్తాయి."),
             },
           ],
         },
