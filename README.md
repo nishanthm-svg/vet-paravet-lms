@@ -16,7 +16,7 @@ Modules 2–17 follow the source handbook's table of contents.
 
 ## 2026 content update (NDDB Handbook 2026 + Farm Management Guideline 2026)
 
-The course was updated to the NDDB *Handbook of Good Dairy Husbandry Practices* (2026 edition) and the NDDB *Small Holder Dairy Farm Management Guideline* (September 2026). **New content is English-only for now** — `L("English")` falls back to English in every language until it is translated.
+The course was updated to the NDDB *Handbook of Good Dairy Husbandry Practices* (2026 edition) and the NDDB *Small Holder Dairy Farm Management Guideline* (September 2026). The new content is translated into **Telugu, Tamil and Hindi** (machine translation, pending vet review — see "On translations" below). **Kannada is not done yet**: those strings are `L(en, te, ta, "", hi)`, and the empty Kannada slot falls back to English.
 
 - **New lessons in existing modules:** m3-l3 (first weeks of a calf, colostrum quality by Brix), m5-l4 (tetanus and botulism), m9-l4 (CMT and other mastitis tests, teat diseases), m12-l4 (infertility and repeat breeding), m12-l5 (sexed semen, IVF-ET, progeny testing and genomics), m14-l4 (feeding through the lactation cycle), m14-l5 (feed supplements and TMR), m15-l4 (alternate fodder, better silage, straw blocks), m16-l3 (heat stress), m17-l2 (Bharat Pashudhan and the 1962 app).
 - **New topics inside existing lessons:** vaccination day (m4-l3), milk fever prevention (m7-l1), salmonellosis and CCHF/KFD (m11-l2), AI facts and myths (m12-l2), drying off and dry cow therapy (m12-l3).
